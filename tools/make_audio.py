@@ -110,6 +110,9 @@ FIXES = {
     "maghreb": "maɡʁˈɛb",  # otherwise read with an English r
     "chamonix": "ʃamonˈi",  # the x is silent
     "pleuve": "plˈœv",  # the voice says /pløv/, like veuve
+    "respect": "ʁɛspˈɛ",  # the c and t are silent
+    "en plus": "ɑ̃ plˈys", "de plus en plus": "də plyz ɑ̃ plˈy",  # en plus (what's more, extra) keeps its s
+    "yanis": "janˈis",  # the final s of the name is pronounced
     "le leur": "lə lˈœʁ", "la leur": "la lˈœʁ", "les leurs": "le lˈœʁ",  # the voice says /løʁ/ after an article
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.

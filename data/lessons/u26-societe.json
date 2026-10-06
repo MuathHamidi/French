@@ -1,0 +1,167 @@
+{
+  "id": "u26-societe",
+  "type": "vocab",
+  "unit": 26,
+  "title": "La société",
+  "en": "Society",
+  "intro": "25 words to talk about the society we live in: its values (**la liberté, l'égalité, la solidarité, la tolérance, le respect**), its problems (**la pauvreté, les inégalités, le racisme, la discrimination, la violence**), and the people who help (**l'aide, lutter, le progrès**).",
+  "words": [
+    { "id": "societe", "fr": "société", "pos": "noun", "g": "f", "ipa": "sɔ.sje.te", "en": "society; company", "def": "Toutes les personnes qui vivent ensemble dans un pays, avec leurs règles. Aussi : une entreprise.", "def_en": "All the people who live together in a country, with their rules. Also: a company.", "forms": ["sociétés"], "examples": [
+      { "fr": "Dans notre **société**, les jeunes ont beaucoup de choix.", "en": "In our society, young people have a lot of choice." },
+      { "fr": "La **société** change très vite.", "en": "Society is changing very fast." },
+      { "fr": "Hugo travaille dans une petite **société** d'informatique.", "en": "Hugo works for a small IT company." }
+    ] },
+    { "id": "egalite", "fr": "égalité", "pos": "noun", "g": "f", "ipa": "e.ɡa.li.te", "en": "equality", "def": "Quand toutes les personnes ont les mêmes droits et les mêmes chances.", "def_en": "When everyone has the same rights and the same chances.", "examples": [
+      { "fr": "« Liberté, **égalité**, fraternité » : c'est la devise de la France.", "en": "'Liberty, equality, fraternity': that's France's motto." },
+      { "fr": "On veut l'**égalité** entre les hommes et les femmes.", "en": "We want equality between men and women." },
+      { "fr": "Pour Sophie, l'**égalité** est très importante.", "en": "For Sophie, equality is very important." }
+    ] },
+    { "id": "inegalite", "fr": "inégalité", "pos": "noun", "g": "f", "ipa": "i.ne.ɡa.li.te", "en": "inequality", "def": "Quand des personnes n'ont pas les mêmes droits, le même argent ou les mêmes chances.", "def_en": "When people don't have the same rights, money or chances.", "forms": ["inégalités"], "examples": [
+      { "fr": "Les **inégalités** augmentent dans le monde.", "en": "Inequality is growing in the world." },
+      { "fr": "Il y a des **inégalités** de salaire entre les hommes et les femmes.", "en": "There are pay inequalities between men and women." },
+      { "fr": "L'école doit réduire les **inégalités**.", "en": "School should reduce inequality." }
+    ] },
+    { "id": "liberte", "fr": "liberté", "pos": "noun", "g": "f", "ipa": "li.bɛʁ.te", "en": "freedom, liberty", "def": "Le droit de faire ce qu'on veut, de penser et de dire ce qu'on veut.", "def_en": "The right to do what you want, to think and say what you want.", "forms": ["libertés"], "examples": [
+      { "fr": "La **liberté** de penser est très importante.", "en": "Freedom of thought is very important." },
+      { "fr": "Mon vélo, c'est ma **liberté** !", "en": "My bike is my freedom!" },
+      { "fr": "À dix-huit ans, on a plus de **liberté**.", "en": "At eighteen, you have more freedom." }
+    ] },
+    { "id": "pauvrete", "fr": "pauvreté", "pos": "noun", "g": "f", "ipa": "po.vʁə.te", "en": "poverty", "def": "Quand on n'a pas assez d'argent pour vivre.", "def_en": "When you don't have enough money to live on.", "examples": [
+      { "fr": "La **pauvreté** existe aussi dans les pays riches.", "en": "Poverty exists in rich countries too." },
+      { "fr": "Cette association lutte contre la **pauvreté**.", "en": "This charity fights poverty." },
+      { "fr": "Beaucoup d'enfants vivent dans la **pauvreté**.", "en": "Many children live in poverty." }
+    ] },
+    { "id": "richesse", "fr": "richesse", "pos": "noun", "g": "f", "ipa": "ʁi.ʃɛs", "en": "wealth, riches", "def": "Quand on a beaucoup d'argent. Aussi : une chose très importante pour nous.", "def_en": "When you have a lot of money. Also: anything of value.", "forms": ["richesses"], "examples": [
+      { "fr": "La **richesse** ne fait pas le bonheur.", "en": "Money can't buy happiness." },
+      { "fr": "Il y a une grande **richesse** à côté d'une grande pauvreté.", "en": "There's great wealth right next to great poverty." },
+      { "fr": "Les langues sont une **richesse**.", "en": "Languages are a treasure." }
+    ] },
+    { "id": "chomeur", "fr": "chômeur", "pos": "noun", "g": "m", "ipa": "ʃo.mœʁ", "display": "le chômeur, la chômeuse", "en": "unemployed person", "def": "Une personne qui n'a pas de travail et qui en cherche.", "def_en": "A person who has no job and is looking for one.", "forms": ["chômeuse", "chômeurs", "chômeuses"], "examples": [
+      { "fr": "Yanis est **chômeur** depuis six mois.", "en": "Yanis has been unemployed for six months." },
+      { "fr": "Il y a beaucoup de **chômeurs** dans cette région.", "en": "There are lots of unemployed people in this region." },
+      { "fr": "Les **chômeurs** reçoivent une aide.", "en": "The unemployed get benefits." }
+    ], "note": "**le chômage** = unemployment; **être au chômage** = to be unemployed." },
+    { "id": "education", "fr": "éducation", "pos": "noun", "g": "f", "ipa": "e.dy.ka.sjɔ̃", "en": "education; upbringing", "def": "Ce qu'on apprend à l'école. Aussi : ce que les parents apprennent à leurs enfants.", "def_en": "What you learn at school. Also: the way a child is brought up.", "examples": [
+      { "fr": "L'**éducation** est gratuite en France.", "en": "Education is free in France." },
+      { "fr": "Pour Anne, l'**éducation** des enfants est très importante.", "en": "For Anne, children's education is very important." },
+      { "fr": "Il n'a pas d'**éducation** : il ne dit jamais merci !", "en": "He has no manners: he never says thank you!" }
+    ] },
+    { "id": "racisme", "fr": "racisme", "pos": "noun", "g": "m", "ipa": "ʁa.sism", "en": "racism", "def": "Quand on pense que des personnes valent moins à cause de leur pays ou de la couleur de leur peau.", "def_en": "When people are treated as worth less because of their origin or the colour of their skin.", "examples": [
+      { "fr": "Il faut lutter contre le **racisme**.", "en": "We have to fight racism." },
+      { "fr": "Le **racisme** est interdit par la loi.", "en": "Racism is against the law." },
+      { "fr": "Ici, il n'y a pas de **racisme** : il y a du respect.", "en": "Here there's no racism: there's respect." }
+    ], "note": "**raciste** = racist." },
+    { "id": "discrimination", "fr": "discrimination", "pos": "noun", "g": "f", "ipa": "dis.kʁi.mi.na.sjɔ̃", "en": "discrimination", "def": "Quand on est moins juste avec une personne qu'avec les autres, à cause de son pays, de sa couleur de peau, de son âge…", "def_en": "When someone is treated worse than others because of their origin, sex, age…", "forms": ["discriminations"], "examples": [
+      { "fr": "C'est de la **discrimination** !", "en": "That's discrimination!" },
+      { "fr": "La **discrimination** au travail est interdite.", "en": "Discrimination at work is against the law." },
+      { "fr": "Il y a encore des **discriminations** contre les femmes.", "en": "There is still discrimination against women." }
+    ] },
+    { "id": "tolerance", "fr": "tolérance", "pos": "noun", "g": "f", "ipa": "tɔ.le.ʁɑ̃s", "en": "tolerance", "def": "Quand on accepte que les autres pensent ou vivent autrement.", "def_en": "When you accept that others think or live differently.", "examples": [
+      { "fr": "La **tolérance**, c'est accepter les différences.", "en": "Tolerance means accepting differences." },
+      { "fr": "Il manque un peu de **tolérance** dans ce débat.", "en": "This debate is lacking a little tolerance." },
+      { "fr": "Tom a appris la **tolérance** à l'atelier.", "en": "Tom learnt tolerance at the workshop." }
+    ] },
+    { "id": "respect", "fr": "respect", "pos": "noun", "g": "m", "ipa": "ʁɛs.pɛ", "en": "respect", "def": "Quand on est poli et gentil avec une personne, parce qu'elle est importante.", "def_en": "When you treat someone well, because you think they matter.", "examples": [
+      { "fr": "Le **respect**, c'est important.", "en": "Respect is important." },
+      { "fr": "Il parle à ses parents avec **respect**.", "en": "He speaks to his parents respectfully." },
+      { "fr": "Un peu de **respect**, s'il vous plaît !", "en": "A bit of respect, please!" }
+    ], "note": "The final c and t are silent: /ʁɛs.pɛ/." },
+    { "id": "respecter", "fr": "respecter", "pos": "verb", "ipa": "ʁɛs.pɛk.te", "en": "to respect", "def": "Être poli et gentil avec une personne, faire attention à une chose. Aussi : suivre une règle.", "def_en": "To treat a person or a thing well, with respect. Also: to follow a rule.", "forms": ["respecte", "respectes", "respectons", "respectez", "respectent", "respecté", "respectée", "respectés", "respectées", "respectais", "respectait", "respections", "respectiez", "respectaient", "respecterai", "respecteras", "respectera", "respecterons", "respecterez", "respecteront", "respecterais", "respecterait", "respecterions", "respecteriez", "respecteraient"], "examples": [
+      { "fr": "Je **respecte** ton opinion.", "en": "I respect your opinion." },
+      { "fr": "Il faut **respecter** les autres.", "en": "You have to respect other people." },
+      { "fr": "Hugo ne **respecte** jamais les horaires !", "en": "Hugo never sticks to the timetable!" }
+    ] },
+    { "id": "solidarite", "fr": "solidarité", "pos": "noun", "g": "f", "ipa": "sɔ.li.da.ʁi.te", "en": "solidarity, mutual support", "def": "Quand les gens s'aident entre eux.", "def_en": "When people help one another.", "examples": [
+      { "fr": "C'est ça, la **solidarité** !", "en": "That's what solidarity is!" },
+      { "fr": "Les voisins ont montré beaucoup de **solidarité**.", "en": "The neighbours showed a lot of solidarity." },
+      { "fr": "La **solidarité** entre les générations est importante.", "en": "Support between the generations is important." }
+    ] },
+    { "id": "violence", "fr": "violence", "pos": "noun", "g": "f", "ipa": "vjɔ.lɑ̃s", "en": "violence", "def": "Quand on fait du mal à quelqu'un, avec force.", "def_en": "When someone is hurt, by force.", "forms": ["violences"], "examples": [
+      { "fr": "Il y a trop de **violence** dans ce film.", "en": "There's too much violence in this film." },
+      { "fr": "Non à la **violence** !", "en": "No to violence!" },
+      { "fr": "La **violence** ne règle jamais les problèmes.", "en": "Violence never solves problems." }
+    ], "note": "**violent(e)** = violent." },
+    { "id": "securite", "fr": "sécurité", "pos": "noun", "g": "f", "ipa": "se.ky.ʁi.te", "en": "safety, security", "def": "Quand il n'y a pas de danger.", "def_en": "When there's no danger.", "examples": [
+      { "fr": "La **sécurité** des enfants est importante.", "en": "Children's safety is important." },
+      { "fr": "Mets ta ceinture de **sécurité** !", "en": "Put your seat belt on!" },
+      { "fr": "Les parents de Tom ont peur pour sa **sécurité**.", "en": "Tom's parents worry about his safety." }
+    ], "note": "**en sécurité** = safe." },
+    { "id": "droit", "fr": "droit", "pos": "noun", "g": "m", "ipa": "dʁwa", "en": "right; law", "def": "Ce qu'on peut faire, ce que la loi permet. Aussi : les études de la loi.", "def_en": "What you're allowed to do, what the law allows. Also: the study of law.", "forms": ["droits"], "examples": [
+      { "fr": "Tout le monde a le **droit** d'avoir une chance.", "en": "Everyone has the right to a chance." },
+      { "fr": "Les **droits** de l'homme, c'est pour tout le monde.", "en": "Human rights are for everyone." },
+      { "fr": "Chloé a fait des études de **droit**.", "en": "Chloé studied law." }
+    ], "note": "**avoir le droit de** = to be allowed to: *Tu n'as pas le droit de fumer ici.*" },
+    { "id": "communaute", "fr": "communauté", "pos": "noun", "g": "f", "ipa": "kɔ.my.no.te", "en": "community", "def": "Un groupe de personnes qui vivent ou travaillent ensemble, qui partagent quelque chose.", "def_en": "A group of people who live or work together, who share something.", "forms": ["communautés"], "examples": [
+      { "fr": "L'atelier, c'est notre **communauté** !", "en": "The workshop is our community!" },
+      { "fr": "Il y a une grande **communauté** portugaise à Lyon.", "en": "There's a large Portuguese community in Lyon." },
+      { "fr": "Toute la **communauté** aide les nouveaux voisins.", "en": "The whole community helps the new neighbours." }
+    ] },
+    { "id": "immigre", "fr": "immigré", "pos": "noun", "g": "m", "ipa": "i.mi.ɡʁe", "display": "l'immigré(e)", "en": "immigrant", "def": "Une personne qui est venue d'un autre pays pour vivre ici.", "def_en": "A person who has come from another country to live here.", "forms": ["immigrée", "immigrés", "immigrées"], "examples": [
+      { "fr": "Les grands-parents de Mathis sont des **immigrés** marocains.", "en": "Mathis's grandparents are Moroccan immigrants." },
+      { "fr": "Beaucoup d'**immigrés** travaillent dans les restaurants.", "en": "Many immigrants work in restaurants." },
+      { "fr": "Amadou est un **immigré** : il est arrivé du Sénégal.", "en": "Amadou is an immigrant: he came from Senegal." }
+    ], "note": "**l'immigration** = immigration." },
+    { "id": "handicape", "fr": "handicapé", "pos": "adj", "ipa": "ɑ̃.di.ka.pe", "display": "handicapé(e)", "en": "disabled", "def": "Qui a un problème du corps ou de la tête, qui rend certaines choses difficiles.", "def_en": "Who has a physical or mental condition that makes some things difficult.", "forms": ["handicapée", "handicapés", "handicapées"], "examples": [
+      { "fr": "La ville n'est pas toujours facile pour les personnes **handicapées**.", "en": "The city isn't always easy for disabled people." },
+      { "fr": "Il est **handicapé** depuis son accident.", "en": "He's been disabled since his accident." },
+      { "fr": "Il y a des places de parking pour les **handicapés**.", "en": "There are parking spaces for disabled people." }
+    ], "note": "**un handicap** = a disability. The h is aspirated: *le handicap* (no l')." },
+    { "id": "sans-abri", "fr": "sans-abri", "pos": "noun", "g": "m", "both": true, "ipa": "sɑ̃.za.bʁi", "en": "homeless person", "def": "Une personne qui n'a pas de maison et qui dort dans la rue.", "def_en": "A person with no home, who sleeps on the street.", "examples": [
+      { "fr": "Il y a des **sans-abri** dans toutes les grandes villes.", "en": "There are homeless people in every big city." },
+      { "fr": "L'association aide les **sans-abri**.", "en": "The charity helps homeless people." },
+      { "fr": "En hiver, c'est très dur pour les **sans-abri**.", "en": "In winter, it's very hard for homeless people." }
+    ], "note": "The plural doesn't change: **des sans-abri**." },
+    { "id": "aide-nom", "fr": "aide", "pos": "noun", "g": "f", "ipa": "ɛd", "en": "help, aid; (benefit) allowance", "def": "Ce qu'on fait ou ce qu'on donne pour aider quelqu'un.", "def_en": "What you do or give to help someone.", "forms": ["aides"], "examples": [
+      { "fr": "Merci pour votre **aide** !", "en": "Thank you for your help!" },
+      { "fr": "Tu as besoin d'**aide** ?", "en": "Do you need any help?" },
+      { "fr": "Les étudiants peuvent avoir une **aide** pour payer leur appartement.", "en": "Students can get an allowance to help pay their rent." }
+    ] },
+    { "id": "progres", "fr": "progrès", "pos": "noun", "g": "m", "ipa": "pʁɔ.ɡʁɛ", "en": "progress", "def": "Quand une chose va mieux qu'avant.", "def_en": "When something is better than before.", "examples": [
+      { "fr": "Tu fais des **progrès** en français !", "en": "You're making progress in French!" },
+      { "fr": "Il y a encore des **progrès** à faire.", "en": "There's still progress to be made." },
+      { "fr": "La médecine a fait beaucoup de **progrès**.", "en": "Medicine has made a lot of progress." }
+    ], "note": "The plural doesn't change: **des progrès**. **faire des progrès** = to make progress." },
+    { "id": "lutter", "fr": "lutter", "pos": "verb", "ipa": "ly.te", "en": "to fight, to struggle", "def": "Faire des efforts contre une chose, pour la faire disparaître.", "def_en": "To make efforts against something, to make it go away.", "forms": ["lutte", "luttes", "luttons", "luttez", "luttent", "lutté", "luttais", "luttait", "luttions", "luttiez", "luttaient", "lutterai", "lutteras", "luttera", "lutterons", "lutterez", "lutteront", "lutterais", "lutterait", "lutterions", "lutteriez", "lutteraient"], "examples": [
+      { "fr": "Il faut **lutter** contre la pauvreté.", "en": "We must fight poverty." },
+      { "fr": "Cette association **lutte** contre le racisme.", "en": "This association fights racism." },
+      { "fr": "Les femmes ont **lutté** pour leurs droits.", "en": "Women fought for their rights." }
+    ], "note": "**lutter contre** = to fight against. **une lutte** = a struggle." },
+    { "id": "injuste", "fr": "injuste", "pos": "adj", "ipa": "ɛ̃.ʒyst", "en": "unfair, unjust", "def": "Qui n'est pas juste.", "def_en": "Not fair.", "forms": ["injustes"], "examples": [
+      { "fr": "C'est **injuste** !", "en": "That's not fair!" },
+      { "fr": "Cette loi est **injuste**.", "en": "This law is unjust." },
+      { "fr": "Lou trouve que le monde est **injuste** : elle doit dormir à huit heures !", "en": "Lou thinks the world is unfair: she has to be asleep by eight!" }
+    ] }
+  ],
+  "story": {
+    "title": "L'atelier vélo",
+    "en": "A Sunday in May: Tom comes to help at the bike workshop where Sophie volunteers.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un dimanche de mai. Sophie est bénévole dans une association à la Guillotière : un atelier où on répare les vélos.", "en": "A Sunday in May. Sophie volunteers for a charity in the Guillotière: a workshop where people repair bikes." },
+      { "sp": "", "fr": "Aujourd'hui, Tom vient l'aider. Il y a des gens de tous les âges et de tous les pays.", "en": "Today Tom has come to help her. There are people of all ages, from every country." },
+      { "sp": "M. Fabre", "fr": "Moi, je suis retraité. Ici, je répare les vélos gratuitement, et j'apprends aux jeunes.", "en": "I'm retired. Here, I repair bikes for free, and I teach young people." },
+      { "sp": "Tom", "fr": "C'est ça, la solidarité !", "en": "That's solidarity!" },
+      { "sp": "Yanis", "fr": "Moi, je suis chômeur depuis six mois. Sans diplôme, c'est difficile. Ici, j'apprends un métier.", "en": "I've been unemployed for six months. Without qualifications, it's hard. Here, I'm learning a trade." },
+      { "sp": "Sophie", "fr": "L'éducation, c'est la clé. Mais tout le monde n'a pas les mêmes chances. C'est injuste.", "en": "Education is the key. But not everyone has the same chances. It's not fair." },
+      { "sp": "", "fr": "Amadou arrive avec un vieux vélo. Il est arrivé du Sénégal il y a deux ans, et il travaille dans un restaurant.", "en": "Amadou arrives with an old bike. He came from Senegal two years ago, and he works in a restaurant." },
+      { "sp": "Amadou", "fr": "Mon vélo, c'est ma liberté : je vais au travail sans payer le bus.", "en": "My bike is my freedom: I get to work without paying for the bus." },
+      { "sp": "Tom", "fr": "Ce n'est pas trop difficile, la vie ici ?", "en": "Isn't life here too hard?" },
+      { "sp": "Amadou", "fr": "Parfois. Quand je cherche un appartement, on me dit souvent non. C'est de la discrimination. Pour les immigrés, ce n'est pas facile.", "en": "Sometimes. When I look for a flat, people often say no. That's discrimination. It isn't easy for immigrants." },
+      { "sp": "Amadou", "fr": "Mais il y a aussi beaucoup de gens gentils. Ici, à l'atelier, il n'y a pas de racisme : il y a du respect.", "en": "But there are lots of kind people too. Here at the workshop, there's no racism: there's respect." },
+      { "sp": "M. Fabre", "fr": "Ici, on respecte tout le monde. C'est notre communauté !", "en": "Here, we respect everyone. It's our community!" },
+      { "sp": "", "fr": "Une dame en fauteuil roulant s'arrête devant l'atelier.", "en": "A woman in a wheelchair stops outside the workshop." },
+      { "sp": "La dame", "fr": "Bonjour ! Vous réparez aussi les fauteuils ?", "en": "Hello! Do you repair wheelchairs too?" },
+      { "sp": "M. Fabre", "fr": "Bien sûr, madame ! Entrez.", "en": "Of course, madam! Come in." },
+      { "sp": "Sophie", "fr": "Dans notre société, la ville n'est pas toujours facile pour les personnes handicapées.", "en": "In our society, the city isn't always easy for disabled people." },
+      { "sp": "", "fr": "Le soir, l'association donne un vélo à un sans-abri, pour l'aider à aller au travail.", "en": "In the evening, the charity gives a bike to a homeless man, to help him get to work." },
+      { "sp": "Le sans-abri", "fr": "Merci pour votre aide !", "en": "Thank you for your help!" },
+      { "sp": "", "fr": "Sophie et Tom rentrent à pied, au bord du Rhône.", "en": "Sophie and Tom walk home along the Rhône." },
+      { "sp": "Tom", "fr": "À Londres aussi, il y a beaucoup de pauvreté, à côté d'une grande richesse.", "en": "In London too, there's a lot of poverty right next to great wealth." },
+      { "sp": "Sophie", "fr": "Les inégalités augmentent partout. Pour moi, l'égalité, c'est le plus important. Tout le monde a le droit d'avoir une chance.", "en": "Inequality is growing everywhere. For me, equality is the most important thing. Everyone has the right to a chance." },
+      { "sp": "Tom", "fr": "Mes parents ont peur pour ma sécurité, à la Guillotière. Ils pensent qu'il y a de la violence.", "en": "My parents worry about my safety in the Guillotière. They think there's violence there." },
+      { "sp": "Sophie", "fr": "Comme partout, parfois. Mais c'est un quartier très vivant, plein de gens différents.", "en": "Sometimes, like everywhere. But it's a very lively neighbourhood, full of different people." },
+      { "sp": "Tom", "fr": "Aujourd'hui, j'ai appris une chose importante : la tolérance.", "en": "Today, I learnt something important: tolerance." },
+      { "sp": "Sophie", "fr": "Il y a encore beaucoup de progrès à faire. Mais on peut lutter ensemble, un vélo après l'autre !", "en": "There's still a lot of progress to make. But we can fight together, one bike at a time!" }
+    ]
+  }
+}

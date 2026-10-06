@@ -1,0 +1,161 @@
+{
+  "id": "u26-petits-mots",
+  "type": "vocab",
+  "unit": 26,
+  "title": "Les petits mots (2)",
+  "en": "More linking words: however, whereas, as soon as…",
+  "intro": "25 more little words that hold a conversation together: contrast (**toutefois, néanmoins, alors que, tandis que, malgré**), time (**dès que, à peine**), changing the subject (**à propos, à part ça, quant à**), and how sure you are (**sûrement, sans doute, forcément, apparemment**).",
+  "words": [
+    { "id": "toutefois", "fr": "toutefois", "pos": "adv", "ipa": "tut.fwa", "en": "however, nevertheless", "def": "Mais, malgré cela. Plus élégant que « mais ».", "def_en": "But, in spite of that. A little more formal than « mais ».", "examples": [
+      { "fr": "C'est cher. **Toutefois**, c'est de bonne qualité.", "en": "It's expensive. However, it's good quality." },
+      { "fr": "Je viens, **toutefois** je dois partir tôt.", "en": "I'm coming; I'll have to leave early, though." },
+      { "fr": "Le film est long ; il est **toutefois** très beau.", "en": "The film is long; it's very beautiful, however." }
+    ] },
+    { "id": "neanmoins", "fr": "néanmoins", "pos": "adv", "ipa": "ne.ɑ̃.mwɛ̃", "en": "nevertheless, nonetheless", "def": "Malgré cela, pourtant. Surtout à l'écrit.", "def_en": "In spite of that, yet. Mostly in writing.", "examples": [
+      { "fr": "Il était fatigué ; **néanmoins**, il a fini la course.", "en": "He was tired; nevertheless, he finished the race." },
+      { "fr": "Le temps était gris. **Néanmoins**, on est allés à la plage.", "en": "The weather was grey. Nonetheless, we went to the beach." },
+      { "fr": "Votre travail est bon. **Néanmoins**, vous êtes en retard.", "en": "Your work is good. Nevertheless, you're late." }
+    ] },
+    { "id": "alors-que", "fr": "alors que", "pos": "conj", "ipa": "a.lɔʁ kə", "en": "whereas, while; even though", "def": "Pour montrer une différence entre deux choses. Aussi : au moment où.", "def_en": "To show a difference between two things. Also: at the moment when.", "forms": ["alors qu'"], "examples": [
+      { "fr": "Léa aime la montagne, **alors que** Hugo préfère la mer.", "en": "Léa loves the mountains, whereas Hugo prefers the sea." },
+      { "fr": "Il dort **alors qu'**il doit travailler !", "en": "He's sleeping when he's supposed to be working!" },
+      { "fr": "Le téléphone a sonné **alors que** je prenais ma douche.", "en": "The phone rang while I was in the shower." }
+    ] },
+    { "id": "tandis-que", "fr": "tandis que", "pos": "conj", "ipa": "tɑ̃.di kə", "en": "while, whereas", "def": "Pendant que. Aussi : alors que, pour montrer une différence.", "def_en": "While. Also: whereas, to show a difference.", "forms": ["tandis qu'"], "examples": [
+      { "fr": "**Tandis que** Hugo parle, Madame Dupont sourit.", "en": "While Hugo is talking, Mme Dupont smiles." },
+      { "fr": "Tom lit, **tandis que** Camille regarde un film.", "en": "Tom is reading, while Camille watches a film." },
+      { "fr": "L'été est chaud à Marseille, **tandis qu'**il est doux en Angleterre.", "en": "Summer is hot in Marseille, whereas it's mild in England." }
+    ] },
+    { "id": "meme-si", "fr": "même si", "pos": "conj", "ipa": "mɛm si", "en": "even if, even though", "def": "Pour dire qu'une chose ne change rien.", "def_en": "To say something changes nothing: what follows is still true.", "forms": ["même s'"], "examples": [
+      { "fr": "Je viens, **même si** je suis fatigué.", "en": "I'm coming, even though I'm tired." },
+      { "fr": "**Même s'**il pleut, on part.", "en": "Even if it rains, we're leaving." },
+      { "fr": "Hugo est content, **même s'**il a mis une heure et demie.", "en": "Hugo is happy, even though it took him an hour and a half." }
+    ], "note": "**si** becomes **s'** before **il, ils**: *même s'il pleut*." },
+    { "id": "des-que", "fr": "dès que", "pos": "conj", "ipa": "dɛ kə", "en": "as soon as", "def": "Tout de suite au moment où une chose arrive.", "def_en": "Immediately when something happens.", "forms": ["dès qu'"], "examples": [
+      { "fr": "Je t'appelle **dès que** j'arrive.", "en": "I'll call you as soon as I arrive." },
+      { "fr": "**Dès qu'**il voit un gâteau, Hugo a faim.", "en": "As soon as he sees a cake, Hugo is hungry." },
+      { "fr": "**Dès que** tu auras fini, on partira.", "en": "As soon as you've finished, we'll go." }
+    ], "note": "About the future, use the future after **dès que**: *dès que j'arriverai*." },
+    { "id": "a-part-ca", "fr": "à part ça", "pos": "expr", "ipa": "a paʁ sa", "en": "apart from that, other than that", "def": "Pour parler d'autre chose : en dehors de cela.", "def_en": "To talk about something else: apart from that.", "examples": [
+      { "fr": "Bon, **à part ça**, comment ça va ?", "en": "Well, apart from that, how are you?" },
+      { "fr": "J'ai un peu mal à la tête. **À part ça**, tout va bien.", "en": "I've got a bit of a headache. Other than that, everything's fine." },
+      { "fr": "**À part ça**, quoi de neuf ?", "en": "Other than that, what's new?" }
+    ], "note": "**à part** = apart from, except: *tout le monde à part Hugo*." },
+    { "id": "a-propos", "fr": "à propos", "pos": "expr", "ipa": "a pʁɔ.po", "en": "by the way; (à propos de) about", "def": "Pour changer de sujet, ou pour parler d'une nouvelle idée.", "def_en": "To change the subject, or mention something that comes to mind.", "examples": [
+      { "fr": "**À propos**, tu as vu Sophie ?", "en": "By the way, have you seen Sophie?" },
+      { "fr": "On parle **à propos** de quoi ?", "en": "What are we talking about?" },
+      { "fr": "**À propos** des vacances, on part quand ?", "en": "Speaking of the holidays, when are we leaving?" }
+    ] },
+    { "id": "justement", "fr": "justement", "pos": "adv", "ipa": "ʒys.tə.mɑ̃", "en": "exactly, that's just it; as it happens", "def": "Précisément ; c'est ça le problème. Aussi : par hasard, au bon moment.", "def_en": "Precisely; that's exactly the point. Also: as it happens, at just the right time.", "examples": [
+      { "fr": "Tu es fatigué ? — **Justement**, je vais dormir.", "en": "Are you tired? — Exactly, I'm off to bed." },
+      { "fr": "Je pensais **justement** à toi !", "en": "I was just thinking about you!" },
+      { "fr": "C'est **justement** pour ça que je suis venu.", "en": "That's exactly why I came." }
+    ] },
+    { "id": "apparemment", "fr": "apparemment", "pos": "adv", "ipa": "a.pa.ʁa.mɑ̃", "en": "apparently", "def": "D'après ce qu'on voit ou ce qu'on entend, mais on n'est pas sûr.", "def_en": "From what you can see or hear, but you're not sure.", "examples": [
+      { "fr": "**Apparemment**, Hugo a fini la course.", "en": "Apparently, Hugo finished the race." },
+      { "fr": "**Apparemment**, il va pleuvoir.", "en": "Apparently, it's going to rain." },
+      { "fr": "Il est **apparemment** très content.", "en": "He's apparently very happy." }
+    ] },
+    { "id": "evidemment", "fr": "évidemment", "pos": "adv", "ipa": "e.vi.da.mɑ̃", "en": "obviously, of course", "def": "Bien sûr ; c'est clair pour tout le monde.", "def_en": "Of course; it's clear to everyone.", "examples": [
+      { "fr": "Tu viens ? — **Évidemment** !", "en": "Are you coming? — Of course!" },
+      { "fr": "**Évidemment**, Hugo a oublié ses clés.", "en": "Obviously, Hugo has forgotten his keys." },
+      { "fr": "Tu as faim ? — **Évidemment**, il est midi !", "en": "Are you hungry? — Of course, it's twelve o'clock!" }
+    ] },
+    { "id": "forcement", "fr": "forcément", "pos": "adv", "ipa": "fɔʁ.se.mɑ̃", "en": "necessarily, inevitably; of course", "def": "Ça ne peut pas être autrement. « Pas forcément » = pas toujours.", "def_en": "Inevitably, it can't be otherwise. « Pas forcément » = not necessarily.", "examples": [
+      { "fr": "Il n'a pas dormi : **forcément**, il est fatigué.", "en": "He didn't sleep: of course he's tired." },
+      { "fr": "Ce n'est pas **forcément** une bonne idée.", "en": "It's not necessarily a good idea." },
+      { "fr": "Les choses chères ne sont pas **forcément** les meilleures.", "en": "Expensive things aren't necessarily the best." }
+    ] },
+    { "id": "carrement", "fr": "carrément", "pos": "adv", "ipa": "ka.ʁe.mɑ̃", "en": "completely, totally; straight out", "def": "Complètement, vraiment. Aussi : franchement, sans hésiter.", "def_en": "Completely, really. Also: without hesitating, straight out.", "examples": [
+      { "fr": "C'est **carrément** génial !", "en": "It's totally brilliant!" },
+      { "fr": "Il lui a dit **carrément** non.", "en": "He told her flat out no." },
+      { "fr": "Tu viens ? — **Carrément** !", "en": "Are you coming? — Definitely!" }
+    ], "note": "Informal." },
+    { "id": "surement", "fr": "sûrement", "pos": "adv", "ipa": "syʁ.mɑ̃", "en": "surely, probably, certainly", "def": "Très probablement. « Sûrement pas » = absolument pas.", "def_en": "Very probably. « Sûrement pas » = certainly not.", "examples": [
+      { "fr": "Il va **sûrement** pleuvoir.", "en": "It'll probably rain." },
+      { "fr": "Tu viens courir ? — **Sûrement** pas !", "en": "Are you coming running? — Certainly not!" },
+      { "fr": "Elle est **sûrement** déjà partie.", "en": "She's probably already left." }
+    ] },
+    { "id": "en-plus", "fr": "en plus", "pos": "expr", "ipa": "ɑ̃ plys", "en": "what's more, on top of that; extra", "def": "Pour ajouter une chose : aussi, et ce n'est pas tout. Aussi : qu'on paie à part.", "def_en": "To add something: also, and that's not all. Also: extra.", "examples": [
+      { "fr": "Il pleut, et **en plus**, j'ai oublié mon parapluie !", "en": "It's raining, and on top of that, I've forgotten my umbrella!" },
+      { "fr": "Ce restaurant est bon, et **en plus**, il n'est pas cher.", "en": "This restaurant is good, and what's more, it isn't expensive." },
+      { "fr": "Le café est **en plus** : il n'est pas dans le menu.", "en": "Coffee is extra: it isn't included in the set menu." }
+    ] },
+    { "id": "quant-a", "fr": "quant à", "pos": "prep", "ipa": "kɑ̃.ta", "en": "as for", "def": "Pour parler d'une autre personne ou d'une autre chose : et pour…", "def_en": "To move on to another person or thing: and as for…", "forms": ["quant au", "quant aux"], "examples": [
+      { "fr": "**Quant à** moi, je reste ici.", "en": "As for me, I'm staying here." },
+      { "fr": "Léa part en juillet. **Quant à** Hugo, il ne sait pas encore.", "en": "Léa is leaving in July. As for Hugo, he doesn't know yet." },
+      { "fr": "**Quant au** prix, on en parle demain.", "en": "As for the price, we'll talk about it tomorrow." }
+    ] },
+    { "id": "du-moins", "fr": "du moins", "pos": "expr", "ipa": "dy mwɛ̃", "en": "at least", "def": "Pour corriger un peu ce qu'on vient de dire : au moins, en tout cas.", "def_en": "To correct a little what you've just said: at least, in any case.", "examples": [
+      { "fr": "Il est arrivé, **du moins** je crois.", "en": "He's arrived, at least I think so." },
+      { "fr": "Tu as perdu, mais **du moins**, tu as fini la course.", "en": "You lost, but at least you finished the race." },
+      { "fr": "C'est vrai, **du moins** pour moi.", "en": "It's true, at least for me." }
+    ], "note": "**au moins** is more common in everyday speech." },
+    { "id": "tant-mieux", "fr": "tant mieux", "pos": "expr", "ipa": "tɑ̃ mjø", "en": "so much the better, good", "def": "C'est une bonne chose ; je suis content.", "def_en": "That's a good thing; I'm pleased.", "examples": [
+      { "fr": "Il fait beau ? **Tant mieux** !", "en": "It's sunny? Good!" },
+      { "fr": "Tu as fini ? **Tant mieux** pour toi !", "en": "You've finished? Good for you!" },
+      { "fr": "Il n'y a plus de place ? **Tant mieux**, je reste à la maison.", "en": "There's no room left? So much the better, I'll stay at home." }
+    ], "note": "The opposite: **tant pis** = too bad." },
+    { "id": "a-peine", "fr": "à peine", "pos": "expr", "ipa": "a pɛn", "en": "hardly, barely; only just", "def": "Presque pas. Aussi : il y a très peu de temps.", "def_en": "Almost not. Also: only a very short time ago.", "examples": [
+      { "fr": "J'ai **à peine** dormi.", "en": "I hardly slept." },
+      { "fr": "Il est **à peine** huit heures !", "en": "It's barely eight o'clock!" },
+      { "fr": "**À peine** sorti, il s'est mis à pleuvoir.", "en": "No sooner had I gone out than it started to rain." }
+    ] },
+    { "id": "a-la-fois", "fr": "à la fois", "pos": "expr", "ipa": "a la fwa", "en": "at the same time, both", "def": "En même temps ; les deux ensemble.", "def_en": "At the same time; both together.", "examples": [
+      { "fr": "Il est **à la fois** drôle et gentil.", "en": "He's both funny and kind." },
+      { "fr": "Je ne peux pas tout faire **à la fois** !", "en": "I can't do everything at once!" },
+      { "fr": "C'est **à la fois** simple et difficile.", "en": "It's simple and difficult at the same time." }
+    ] },
+    { "id": "malgre", "fr": "malgré", "pos": "prep", "ipa": "mal.ɡʁe", "en": "despite, in spite of", "def": "Même avec une chose qui pose problème.", "def_en": "Even with something that causes a problem.", "examples": [
+      { "fr": "**Malgré** la pluie, on est sortis.", "en": "Despite the rain, we went out." },
+      { "fr": "Il a fini la course **malgré** la fatigue.", "en": "He finished the race in spite of being tired." },
+      { "fr": "**Malgré** tout, je suis content.", "en": "In spite of everything, I'm happy." }
+    ] },
+    { "id": "en-general", "fr": "en général", "pos": "expr", "ipa": "ɑ̃ ʒe.ne.ʁal", "en": "in general, usually", "def": "Le plus souvent, d'habitude.", "def_en": "Most of the time, usually.", "examples": [
+      { "fr": "**En général**, je me lève à sept heures.", "en": "I usually get up at seven." },
+      { "fr": "**En général**, les Français dînent tard.", "en": "In general, French people have dinner late." },
+      { "fr": "Je n'aime pas le sport **en général**, mais j'aime courir.", "en": "I don't like sport in general, but I like running." }
+    ] },
+    { "id": "d-un-cote", "fr": "d'un côté", "pos": "expr", "ipa": "dœ̃ ko.te", "en": "on the one hand", "def": "Pour présenter une première idée, avant une autre : d'un côté… de l'autre…", "def_en": "To give a first idea before another one: on the one hand… on the other…", "examples": [
+      { "fr": "**D'un côté**, c'est cher ; de l'autre, c'est très beau.", "en": "On the one hand, it's expensive; on the other, it's very beautiful." },
+      { "fr": "**D'un côté**, j'ai envie de partir, mais de l'autre, j'aime ma ville.", "en": "On the one hand, I want to go away, but on the other, I love my town." },
+      { "fr": "**D'un côté**, Hugo est fatigué ; de l'autre, il est fier.", "en": "On the one hand, Hugo is tired; on the other, he's proud." }
+    ] },
+    { "id": "sans-doute", "fr": "sans doute", "pos": "expr", "ipa": "sɑ̃ dut", "en": "probably", "def": "Probablement (pas « sans aucun doute »).", "def_en": "Probably (not « without any doubt »).", "examples": [
+      { "fr": "Il va **sans doute** pleuvoir.", "en": "It'll probably rain." },
+      { "fr": "Tu as **sans doute** raison.", "en": "You're probably right." },
+      { "fr": "Antoine arrivera **sans doute** samedi.", "en": "Antoine will probably arrive on Saturday." }
+    ], "note": "A false friend: **sans doute** = probably; *without a doubt* = **sans aucun doute**." },
+    { "id": "au-lieu-de", "fr": "au lieu de", "pos": "prep", "ipa": "o ljø də", "en": "instead of", "def": "À la place de.", "def_en": "In place of.", "forms": ["au lieu d'"], "examples": [
+      { "fr": "**Au lieu de** dormir, travaille un peu !", "en": "Instead of sleeping, do some work!" },
+      { "fr": "Je prends le vélo **au lieu de** la voiture.", "en": "I take the bike instead of the car." },
+      { "fr": "**Au lieu d'**acheter, on peut réparer.", "en": "Instead of buying, we can repair." }
+    ] }
+  ],
+  "story": {
+    "title": "Hugo explique tout",
+    "en": "The Monday after the race: Hugo arrives at work an hour late, and explains everything to Mme Dupont.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi matin, après la course du premier mai. Hugo arrive au bureau avec une heure de retard. Il a mal aux jambes.", "en": "Monday morning, after the race on the first of May. Hugo gets to the office an hour late. His legs hurt." },
+      { "sp": "Mme Dupont", "fr": "Hugo ! Vous êtes en retard. Apparemment, vous avez couru dix kilomètres vendredi ?", "en": "Hugo! You're late. Apparently, you ran ten kilometres on Friday?" },
+      { "sp": "Hugo", "fr": "Oui ! Et je l'ai finie, la course !", "en": "Yes! And I finished it, the race!" },
+      { "sp": "Mme Dupont", "fr": "Tant mieux pour vous. Quant à votre retard…", "en": "Good for you. As for your being late…" },
+      { "sp": "Hugo", "fr": "Justement, je vais vous expliquer. D'un côté, j'avais mal aux jambes ; de l'autre, l'ascenseur était en panne.", "en": "That's just it, I'll explain. On the one hand, my legs hurt; on the other, the lift was out of order." },
+      { "sp": "Hugo", "fr": "Alors que d'habitude je monte l'escalier en courant, aujourd'hui, j'ai mis dix minutes !", "en": "Whereas I usually run up the stairs, today it took me ten minutes!" },
+      { "sp": "Mme Dupont", "fr": "Dix minutes ? Et les cinquante autres ?", "en": "Ten minutes? And the other fifty?" },
+      { "sp": "Hugo", "fr": "Évidemment, j'ai raté mon bus. Je suis parti dès que j'ai pu, mais à peine sorti, il s'est mis à pleuvoir.", "en": "Obviously, I missed my bus. I left as soon as I could, but no sooner was I outside than it started to rain." },
+      { "sp": "Hugo", "fr": "Malgré la pluie, je suis venu à pied… enfin, à petits pas.", "en": "Despite the rain, I came on foot… well, in very small steps." },
+      { "sp": "Mme Dupont", "fr": "Au lieu de raconter votre vie, vous pourriez travailler, non ?", "en": "Instead of telling me your life story, you could do some work, couldn't you?" },
+      { "sp": "Hugo", "fr": "Bien sûr. Toutefois, j'ai une petite question… À propos, il reste des croissants dans la cuisine ?", "en": "Of course. I do have one small question, though… By the way, are there any croissants left in the kitchen?" },
+      { "sp": "Julien", "fr": "Hugo, tu es à la fois en retard et affamé ? Ce n'est pas forcément une bonne idée…", "en": "Hugo, you're late and starving at the same time? That's not necessarily a good idea…" },
+      { "sp": "Mme Dupont", "fr": "En général, mes employés arrivent à l'heure. Néanmoins…", "en": "As a rule, my staff arrive on time. Nevertheless…" },
+      { "sp": "Mme Dupont", "fr": "… bravo pour la course. C'est sans doute la première fois que vous finissez quelque chose !", "en": "… well done on the race. It's probably the first time you've finished anything!" },
+      { "sp": "Hugo", "fr": "Même si j'ai mis une heure et demie ?", "en": "Even though it took me an hour and a half?" },
+      { "sp": "Mme Dupont", "fr": "Carrément ? Bon… du moins, vous avez fini.", "en": "That long? Well… at least you finished." },
+      { "sp": "Julien", "fr": "Et à part ça, tu vas courir l'année prochaine ?", "en": "And apart from that, are you going to run next year?" },
+      { "sp": "Hugo", "fr": "Sûrement pas ! Et en plus, Carla veut faire un marathon…", "en": "Certainly not! And on top of that, Carla wants to do a marathon…" },
+      { "sp": "", "fr": "Tandis que Hugo parle, Madame Dupont sourit. Elle aussi, elle court tous les dimanches.", "en": "While Hugo talks, Mme Dupont smiles. She runs every Sunday too." }
+    ]
+  }
+}

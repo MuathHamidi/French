@@ -1,0 +1,160 @@
+{
+  "id": "u26-avis",
+  "type": "vocab",
+  "unit": 26,
+  "title": "Donner son avis",
+  "en": "Giving your opinion",
+  "intro": "25 words and phrases for saying what you think: **à mon avis, selon moi, d'après, il me semble**, how sure you are (**certain, douter, supposer, il paraît que**), and how to argue (**un argument, convaincre, admettre, en effet, franchement**).",
+  "words": [
+    { "id": "opinion", "fr": "opinion", "pos": "noun", "g": "f", "ipa": "ɔ.pi.njɔ̃", "en": "opinion", "def": "Ce qu'une personne pense d'une chose.", "def_en": "What a person thinks about something.", "forms": ["opinions"], "examples": [
+      { "fr": "Quelle est ton **opinion** ?", "en": "What's your opinion?" },
+      { "fr": "Tout le monde a le droit d'avoir une **opinion**.", "en": "Everyone has the right to an opinion." },
+      { "fr": "Je respecte ton **opinion**, mais je pense le contraire.", "en": "I respect your opinion, but I think the opposite." }
+    ] },
+    { "id": "point-de-vue", "fr": "point de vue", "pos": "noun", "g": "m", "ipa": "pwɛ̃ də vy", "en": "point of view", "def": "La façon de voir une chose : son opinion.", "def_en": "The way you see something: your opinion.", "forms": ["points de vue"], "examples": [
+      { "fr": "De mon **point de vue**, c'est une bonne idée.", "en": "From my point of view, it's a good idea." },
+      { "fr": "Je comprends ton **point de vue**.", "en": "I understand your point of view." },
+      { "fr": "Du **point de vue** de l'environnement, le vélo est parfait.", "en": "From an environmental point of view, cycling is perfect." }
+    ] },
+    { "id": "selon", "fr": "selon", "pos": "prep", "ipa": "sə.lɔ̃", "en": "according to; depending on", "def": "D'après ce que dit une personne ou une chose. Selon moi = à mon avis.", "def_en": "According to what a person or thing says. Selon moi = in my opinion.", "examples": [
+      { "fr": "**Selon** moi, il faut moins de voitures en ville.", "en": "In my opinion, we need fewer cars in town." },
+      { "fr": "**Selon** la météo, il va pleuvoir.", "en": "According to the forecast, it's going to rain." },
+      { "fr": "Le prix change **selon** la saison.", "en": "The price changes depending on the season." }
+    ] },
+    { "id": "d-apres", "fr": "d'après", "pos": "prep", "ipa": "da.pʁɛ", "en": "according to", "def": "Selon : d'après Léa = Léa dit que…, Léa pense que…", "def_en": "According to: d'après Léa = Léa says that…, Léa thinks that…", "examples": [
+      { "fr": "**D'après** Tom, le thé français n'est pas bon.", "en": "According to Tom, French tea isn't any good." },
+      { "fr": "**D'après** la météo, il fera beau demain.", "en": "According to the forecast, it'll be fine tomorrow." },
+      { "fr": "**D'après** moi, Hugo a raison.", "en": "In my view, Hugo is right." }
+    ] },
+    { "id": "a-mon-avis", "fr": "à mon avis", "pos": "expr", "ipa": "a mɔ̃.na.vi", "en": "in my opinion", "def": "Je pense que… ; selon moi.", "def_en": "I think that…; as I see it.", "forms": ["à ton avis", "à son avis", "à notre avis", "à votre avis", "à leur avis"], "examples": [
+      { "fr": "**À mon avis**, Hugo ne va pas finir la course.", "en": "In my opinion, Hugo won't finish the race." },
+      { "fr": "**À ton avis**, qui va gagner ?", "en": "Who do you think will win?" },
+      { "fr": "C'est une bonne idée, **à mon avis**.", "en": "It's a good idea, in my opinion." }
+    ] },
+    { "id": "il-me-semble", "fr": "il me semble", "pos": "expr", "ipa": "il mə sɑ̃bl", "en": "it seems to me, I think", "def": "Je pense, mais je ne suis pas complètement sûr.", "def_en": "I think so, but I'm not completely sure.", "forms": ["il te semble", "il lui semble", "il nous semble", "il vous semble", "il leur semble", "il me semblait"], "examples": [
+      { "fr": "**Il me semble** que tu as raison.", "en": "I think you're right." },
+      { "fr": "**Il me semble** que le musée est fermé le lundi.", "en": "I think the museum is closed on Mondays." },
+      { "fr": "Ce n'est pas trop cher, **il me semble**.", "en": "It isn't too expensive, it seems to me." }
+    ], "note": "**il me semble que** + indicative." },
+    { "id": "impression", "fr": "impression", "pos": "noun", "g": "f", "ipa": "ɛ̃.pʁɛ.sjɔ̃", "en": "impression, feeling", "def": "Ce qu'on pense ou ce qu'on sent, sans en être sûr.", "def_en": "What you think or feel, without being sure.", "forms": ["impressions"], "examples": [
+      { "fr": "J'ai l'**impression** que Hugo est amoureux.", "en": "I get the feeling Hugo is in love." },
+      { "fr": "Quelle est ta première **impression** de Lyon ?", "en": "What's your first impression of Lyon?" },
+      { "fr": "Ce film m'a fait une grande **impression**.", "en": "That film made a big impression on me." }
+    ], "note": "**avoir l'impression que** = to have the feeling that." },
+    { "id": "certain", "fr": "certain", "pos": "adj", "ipa": "sɛʁ.tɛ̃", "display": "certain(e)", "en": "certain, sure; (before a noun) some, a certain", "def": "Sûr, sans aucun doute. Avant un nom : pas tous, seulement une partie.", "def_en": "Sure, with no doubt at all. Before a noun: some, not all.", "forms": ["certaine", "certains", "certaines"], "examples": [
+      { "fr": "Je suis **certaine** que c'est vrai.", "en": "I'm certain it's true." },
+      { "fr": "**Certains** étudiants sont d'accord, d'autres non.", "en": "Some students agree, others don't." },
+      { "fr": "Une chose est **certaine** : il va pleuvoir.", "en": "One thing is certain: it's going to rain." }
+    ] },
+    { "id": "doute", "fr": "doute", "pos": "noun", "g": "m", "ipa": "dut", "en": "doubt", "def": "Quand on n'est pas sûr qu'une chose est vraie.", "def_en": "When you're not sure something is true.", "forms": ["doutes"], "examples": [
+      { "fr": "J'ai un **doute**.", "en": "I have a doubt." },
+      { "fr": "C'est le meilleur, sans aucun **doute**.", "en": "It's the best, without any doubt." },
+      { "fr": "Il n'y a pas de **doute** : c'est Hugo qui a mangé le gâteau !", "en": "There's no doubt about it: it was Hugo who ate the cake!" }
+    ], "note": "Careful: **sans doute** = probably. **sans aucun doute** = without any doubt." },
+    { "id": "douter", "fr": "douter", "pos": "verb", "ipa": "du.te", "en": "to doubt", "def": "Ne pas être sûr qu'une chose est vraie, ou qu'elle va arriver.", "def_en": "Not to be sure something is true, or that it will happen.", "forms": ["doute", "doutes", "doutons", "doutez", "doutent", "douté", "doutais", "doutait", "doutions", "doutiez", "doutaient", "douterai", "douteras", "doutera", "douterons", "douterez", "douteront", "douterais", "douterait", "douterions", "douteriez", "douteraient"], "examples": [
+      { "fr": "Je **doute** de son histoire.", "en": "I have my doubts about his story." },
+      { "fr": "Tu **doutes** de moi ?", "en": "Do you doubt me?" },
+      { "fr": "Hugo va courir ? J'en **doute** !", "en": "Hugo is going to run? I doubt it!" }
+    ], "note": "**douter de** quelque chose. **douter que** + subjunctive: *je doute qu'il vienne*." },
+    { "id": "considerer", "fr": "considérer", "pos": "verb", "ipa": "kɔ̃.si.de.ʁe", "en": "to consider, to regard", "def": "Penser qu'une personne ou une chose est comme ça. Aussi : bien réfléchir à une chose.", "def_en": "To think that a person or thing is like that. Also: to think something over carefully.", "forms": ["considère", "considères", "considérons", "considérez", "considèrent", "considéré", "considérée", "considérés", "considérées", "considérais", "considérait", "considérions", "considériez", "considéraient", "considérerai", "considéreras", "considérera", "considérerons", "considérerez", "considéreront", "considérerais", "considérerait", "considérerions", "considéreriez", "considéreraient"], "examples": [
+      { "fr": "Je **considère** Tom comme un frère.", "en": "I think of Tom as a brother." },
+      { "fr": "Il faut **considérer** tous les arguments.", "en": "We have to consider all the arguments." },
+      { "fr": "On **considère** que le vélo est bon pour la santé.", "en": "Cycling is considered good for your health." }
+    ] },
+    { "id": "estimer", "fr": "estimer", "pos": "verb", "ipa": "ɛs.ti.me", "en": "to consider, to think; to estimate; to respect", "def": "Penser, après avoir réfléchi. Aussi : calculer à peu près. Aussi : respecter quelqu'un.", "def_en": "To think, after reflection. Also: to calculate roughly. Also: to respect someone.", "forms": ["estime", "estimes", "estimons", "estimez", "estiment", "estimé", "estimée", "estimés", "estimées", "estimais", "estimait", "estimions", "estimiez", "estimaient", "estimerai", "estimeras", "estimera", "estimerons", "estimerez", "estimeront", "estimerais", "estimerait", "estimerions", "estimeriez", "estimeraient"], "examples": [
+      { "fr": "J'**estime** que c'est trop cher.", "en": "I think it's too expensive." },
+      { "fr": "On **estime** qu'il y a cinq mille coureurs.", "en": "There are an estimated five thousand runners." },
+      { "fr": "Marc **estime** beaucoup ses étudiants.", "en": "Marc thinks highly of his students." }
+    ] },
+    { "id": "juger", "fr": "juger", "pos": "verb", "ipa": "ʒy.ʒe", "en": "to judge", "def": "Donner son avis sur une personne ou une chose : dire si elle est bonne ou mauvaise.", "def_en": "To give your opinion of a person or thing: to say whether it's good or bad.", "forms": ["juge", "juges", "jugeons", "jugez", "jugent", "jugé", "jugée", "jugés", "jugées", "jugeais", "jugeait", "jugions", "jugiez", "jugeaient", "jugerai", "jugeras", "jugera", "jugerons", "jugerez", "jugeront", "jugerais", "jugerait", "jugerions", "jugeriez", "jugeraient"], "examples": [
+      { "fr": "Il ne faut pas **juger** les gens trop vite.", "en": "You shouldn't judge people too quickly." },
+      { "fr": "Ne me **juge** pas !", "en": "Don't judge me!" },
+      { "fr": "Marc **juge** nos exposés.", "en": "Marc marks our presentations." }
+    ] },
+    { "id": "convaincre", "fr": "convaincre", "pos": "verb", "ipa": "kɔ̃.vɛ̃kʁ", "en": "to convince", "def": "Faire penser à une personne qu'une chose est vraie, avec de bons arguments.", "def_en": "To make someone believe something is true, with good arguments.", "forms": ["convaincs", "convainc", "convainquons", "convainquez", "convainquent", "convaincu", "convaincue", "convaincus", "convaincues", "convainquais", "convainquait", "convainquions", "convainquiez", "convainquaient", "convaincrai", "convaincras", "convaincra", "convaincrons", "convaincrez", "convaincront", "convaincrais", "convaincrait", "convaincrions", "convaincriez", "convaincraient", "convainque", "convainques"], "examples": [
+      { "fr": "Tu m'as **convaincu** !", "en": "You've convinced me!" },
+      { "fr": "Carla a **convaincu** Hugo de courir.", "en": "Carla convinced Hugo to run." },
+      { "fr": "Je ne suis pas **convaincue**.", "en": "I'm not convinced." }
+    ], "note": "**convaincre quelqu'un de** + infinitive. **convaincu(e)** = convinced." },
+    { "id": "argument", "fr": "argument", "pos": "noun", "g": "m", "ipa": "aʁ.ɡy.mɑ̃", "en": "argument (a reason), point", "def": "Une raison qu'on donne pour défendre une idée.", "def_en": "A reason you give to support an idea.", "forms": ["arguments"], "examples": [
+      { "fr": "C'est un bon **argument**.", "en": "That's a good point." },
+      { "fr": "Quels sont tes **arguments** ?", "en": "What are your arguments?" },
+      { "fr": "Tom a un **argument** très fort.", "en": "Tom has a very strong argument." }
+    ], "note": "Not a quarrel: that's **une dispute**." },
+    { "id": "en-effet", "fr": "en effet", "pos": "expr", "ipa": "ɑ̃.ne.fɛ", "en": "indeed, that's right; because", "def": "Oui, c'est vrai. Aussi : pour expliquer une chose qu'on vient de dire.", "def_en": "Yes, that's true. Also: to explain something you've just said.", "examples": [
+      { "fr": "Tu es fatigué ? — **En effet**, j'ai mal dormi.", "en": "Are you tired? — Yes, I slept badly." },
+      { "fr": "Il fait froid. **En effet**, il neige depuis ce matin.", "en": "It's cold. Indeed, it's been snowing since this morning." },
+      { "fr": "Hugo n'est pas venu. **En effet**, il était malade.", "en": "Hugo didn't come. He was ill, you see." }
+    ] },
+    { "id": "franchement", "fr": "franchement", "pos": "adv", "ipa": "fʁɑ̃ʃ.mɑ̃", "en": "frankly, honestly", "def": "Quand on dit vraiment ce qu'on pense, sans mentir.", "def_en": "Saying what you really think, hiding nothing.", "examples": [
+      { "fr": "**Franchement**, ce film est nul.", "en": "Frankly, this film is rubbish." },
+      { "fr": "Dis-moi **franchement** : tu aimes ma robe ?", "en": "Tell me honestly: do you like my dress?" },
+      { "fr": "Je vais te parler **franchement**.", "en": "I'm going to be frank with you." }
+    ] },
+    { "id": "honnetement", "fr": "honnêtement", "pos": "adv", "ipa": "ɔ.nɛt.mɑ̃", "en": "honestly", "def": "Quand on dit la vérité.", "def_en": "Telling the truth.", "examples": [
+      { "fr": "**Honnêtement**, je préfère le thé.", "en": "Honestly, I prefer tea." },
+      { "fr": "Il a répondu **honnêtement**.", "en": "He answered honestly." },
+      { "fr": "**Honnêtement**, je ne sais pas.", "en": "Honestly, I don't know." }
+    ] },
+    { "id": "affirmer", "fr": "affirmer", "pos": "verb", "ipa": "a.fiʁ.me", "en": "to claim, to state", "def": "Dire avec force qu'une chose est vraie.", "def_en": "To say firmly that something is true.", "forms": ["affirme", "affirmes", "affirmons", "affirmez", "affirment", "affirmé", "affirmée", "affirmés", "affirmées", "affirmais", "affirmait", "affirmions", "affirmiez", "affirmaient", "affirmerai", "affirmeras", "affirmera", "affirmerons", "affirmerez", "affirmeront", "affirmerais", "affirmerait", "affirmerions", "affirmeriez", "affirmeraient"], "examples": [
+      { "fr": "Hugo **affirme** qu'il n'a pas mangé le gâteau.", "en": "Hugo claims he didn't eat the cake." },
+      { "fr": "Le journal **affirme** que les prix vont augmenter.", "en": "The paper says prices are going to rise." },
+      { "fr": "Je peux l'**affirmer** : c'est vrai.", "en": "I can tell you for sure: it's true." }
+    ] },
+    { "id": "admettre", "fr": "admettre", "pos": "verb", "ipa": "ad.mɛtʁ", "en": "to admit", "def": "Dire qu'on est d'accord, ou qu'on a fait une erreur.", "def_en": "To say you agree, or that you made a mistake.", "forms": ["admets", "admet", "admettons", "admettez", "admettent", "admis", "admise", "admises", "admettais", "admettait", "admettions", "admettiez", "admettaient", "admettrai", "admettras", "admettra", "admettrons", "admettrez", "admettront", "admettrais", "admettrait", "admettrions", "admettriez", "admettraient", "admette", "admettes"], "examples": [
+      { "fr": "J'**admets** que tu as raison.", "en": "I admit you're right." },
+      { "fr": "Il n'**admet** jamais ses erreurs.", "en": "He never admits his mistakes." },
+      { "fr": "Bon, j'**admets** : c'est moi qui ai mangé le gâteau.", "en": "All right, I admit it: I ate the cake." }
+    ], "note": "Like **mettre**: *j'admets, j'ai admis*." },
+    { "id": "supposer", "fr": "supposer", "pos": "verb", "ipa": "sy.po.ze", "en": "to suppose, to assume", "def": "Penser qu'une chose est vraie, sans en être sûr.", "def_en": "To think something is true, without being sure.", "forms": ["suppose", "supposes", "supposons", "supposez", "supposent", "supposé", "supposée", "supposés", "supposées", "supposais", "supposait", "supposions", "supposiez", "supposaient", "supposerai", "supposeras", "supposera", "supposerons", "supposerez", "supposeront", "supposerais", "supposerait", "supposerions", "supposeriez", "supposeraient"], "examples": [
+      { "fr": "Je **suppose** que tu as faim.", "en": "I suppose you're hungry." },
+      { "fr": "Il est déjà parti, je **suppose**.", "en": "He's already left, I suppose." },
+      { "fr": "**Supposons** que Hugo arrive à l'heure…", "en": "Let's suppose Hugo arrives on time…" }
+    ] },
+    { "id": "changer-d-avis", "fr": "changer d'avis", "pos": "expr", "ipa": "ʃɑ̃.ʒe da.vi", "en": "to change your mind", "def": "Penser autre chose qu'avant.", "def_en": "To think something different from before.", "forms": ["change d'avis", "changes d'avis", "changeons d'avis", "changez d'avis", "changent d'avis", "changé d'avis", "changeait d'avis", "changera d'avis"], "examples": [
+      { "fr": "Tu as **changé d'avis** ?", "en": "Have you changed your mind?" },
+      { "fr": "Hugo **change d'avis** tous les jours.", "en": "Hugo changes his mind every day." },
+      { "fr": "Je ne vais pas **changer d'avis** !", "en": "I'm not going to change my mind!" }
+    ] },
+    { "id": "objectif", "fr": "objectif", "pos": "adj", "ipa": "ɔb.ʒɛk.tif", "display": "objectif, objective", "en": "objective, impartial; (noun) goal, aim", "def": "Qui juge sans penser à ses goûts ou à ses préjugés. Comme nom : ce qu'on veut faire, le but.", "def_en": "Who judges without thinking of their own tastes or prejudices. As a noun: what you want to do, the aim.", "forms": ["objective", "objectifs", "objectives"], "examples": [
+      { "fr": "Essaie d'être **objectif**.", "en": "Try to be objective." },
+      { "fr": "Un journaliste doit être **objectif**.", "en": "A journalist has to be impartial." },
+      { "fr": "Mon **objectif** : finir la course !", "en": "My goal: to finish the race!" }
+    ] },
+    { "id": "prejuge", "fr": "préjugé", "pos": "noun", "g": "m", "ipa": "pʁe.ʒy.ʒe", "en": "prejudice, preconception", "def": "Une idée, souvent fausse, qu'on a sur des gens avant de les connaître.", "def_en": "An idea, often wrong, that you have about people before you know them.", "forms": ["préjugés"], "examples": [
+      { "fr": "Il faut lutter contre les **préjugés**.", "en": "We must fight prejudice." },
+      { "fr": "Les Anglais n'aiment pas la cuisine française ? C'est un **préjugé** !", "en": "The English don't like French food? That's a myth!" },
+      { "fr": "J'avais des **préjugés** sur la cuisine anglaise.", "en": "I had preconceptions about English food." }
+    ] },
+    { "id": "il-parait", "fr": "il paraît", "pos": "expr", "ipa": "il pa.ʁɛ", "en": "apparently, they say (il paraît que… = I've heard that…)", "def": "On dit que… ; j'ai entendu que…", "def_en": "People say that…; I've heard that…", "forms": ["il paraissait"], "examples": [
+      { "fr": "**Il paraît** qu'Antoine arrive en mai.", "en": "Apparently Antoine is coming in May." },
+      { "fr": "**Il paraît** que ce restaurant est très bon.", "en": "I've heard this restaurant is very good." },
+      { "fr": "Tu pars à Madrid ? — Oui, **il paraît** !", "en": "You're going to Madrid? — Yes, so they say!" }
+    ], "note": "**il paraît que** + indicative." }
+  ],
+  "story": {
+    "title": "Le débat",
+    "en": "Early May: Marc's class holds a debate about cars in the centre of Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début mai, dans la classe de Marc. Aujourd'hui, c'est un débat : « Faut-il interdire les voitures dans le centre de Lyon ? »", "en": "Early May, in Marc's class. Today there's a debate: 'Should cars be banned from the centre of Lyon?'" },
+      { "sp": "Marc", "fr": "Chacun donne son opinion, avec des arguments. Et on respecte le point de vue des autres !", "en": "Everyone gives their opinion, with arguments. And we respect other people's points of view!" },
+      { "sp": "Tom", "fr": "À mon avis, oui. Selon moi, la ville est plus agréable sans voitures : moins de bruit, moins de pollution.", "en": "In my opinion, yes. As I see it, the city is nicer without cars: less noise, less pollution." },
+      { "sp": "Inès", "fr": "Moi, j'estime que c'est impossible. Et les personnes âgées ? Et les taxis ?", "en": "I think it's impossible. What about elderly people? And taxis?" },
+      { "sp": "Carla", "fr": "Il me semble qu'on peut prendre le tram ou le vélo. C'est ce que je fais tous les jours.", "en": "It seems to me you can take the tram or cycle. That's what I do every day." },
+      { "sp": "Léa", "fr": "D'après le journal, il y a moins de pollution dans les villes sans voitures.", "en": "According to the paper, there's less pollution in cities without cars." },
+      { "sp": "Inès", "fr": "Franchement, je doute que les gens soient contents.", "en": "Frankly, I doubt people would be happy." },
+      { "sp": "Marc", "fr": "Tu peux l'affirmer, Inès ? Tu as des chiffres ?", "en": "Can you say that for sure, Inès? Do you have figures?" },
+      { "sp": "Inès", "fr": "Non… J'admets que je n'ai pas de chiffres. Mais j'ai l'impression que les gens aiment leur voiture.", "en": "No… I admit I haven't got any figures. But I get the feeling people love their cars." },
+      { "sp": "Tom", "fr": "C'est un préjugé ! À Londres, beaucoup de gens n'ont pas de voiture.", "en": "That's a myth! In London, lots of people don't have a car." },
+      { "sp": "Carla", "fr": "Et on peut considérer d'autres solutions : des parkings à l'entrée de la ville, des bus gratuits…", "en": "And we can consider other solutions: car parks on the edge of town, free buses…" },
+      { "sp": "Marc", "fr": "Bon argument, Carla. En effet, certaines villes l'ont déjà fait.", "en": "Good point, Carla. Indeed, some cities have already done it." },
+      { "sp": "Léa", "fr": "Honnêtement, je suppose que la vérité est entre les deux. Il ne faut pas juger trop vite.", "en": "Honestly, I suppose the truth lies somewhere in between. We shouldn't judge too quickly." },
+      { "sp": "Marc", "fr": "Très bien, Léa. C'est une opinion objective.", "en": "Very good, Léa. That's an objective opinion." },
+      { "sp": "", "fr": "À la fin, Marc demande : « Qui a changé d'avis ? »", "en": "At the end, Marc asks: 'Who has changed their mind?'" },
+      { "sp": "Inès", "fr": "Moi ! Carla m'a convaincue. Il paraît que les bus sont gratuits à Montpellier. Et les taxis peuvent passer, non ?", "en": "Me! Carla's convinced me. Apparently the buses are free in Montpellier. And taxis can still get through, can't they?" },
+      { "sp": "Tom", "fr": "Oui, sans aucun doute !", "en": "Yes, without a doubt!" },
+      { "sp": "", "fr": "Après le cours, Inès, Tom et Carla rentrent ensemble… à vélo.", "en": "After the class, Inès, Tom and Carla go home together… by bike." }
+    ]
+  }
+}

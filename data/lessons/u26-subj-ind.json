@@ -1,0 +1,158 @@
+{
+  "id": "u26-subj-ind",
+  "type": "grammar",
+  "unit": 26,
+  "title": "Je crois qu'il vient… ou pas ?",
+  "en": "Subjunctive or indicative?",
+  "intro": "After **que**, the question is often: indicative or subjunctive? The rule of thumb: **certainty → indicative**, **doubt → subjunctive**. *Je crois **qu'il vient*** (I'm fairly sure), but *Je ne crois pas **qu'il vienne*** (I doubt it).",
+  "cases": [
+    { "id": "ind-penser", "label": "penser, croire, trouver que + indicative", "rule": "After **penser, croire, trouver, il me semble, il paraît** + que, use the indicative: *Je pense **qu'il vient**. Je crois **que c'est vrai**. Je trouve **que tu as raison**.*" },
+    { "id": "ind-negatif", "label": "ne pas penser que + subjunctive", "rule": "In the **negative**, these verbs express doubt, so they take the subjunctive: *Je ne pense pas **qu'il vienne**. Je ne crois pas **que ce soit** vrai.* In questions with inversion too, often: *Crois-tu **qu'il vienne** ?*" },
+    { "id": "ind-certain", "label": "certainty: être sûr que + indicative", "rule": "When you're **certain**, use the indicative: *Je suis sûr **qu'il viendra**. Il est certain **que** tu **as** raison. Il est évident **qu'il est** fatigué.*" },
+    { "id": "ind-doute", "label": "doubt: douter que + subjunctive", "rule": "When you **doubt**, use the subjunctive: *Je doute **qu'il vienne**. Je ne suis pas sûr **que ce soit** une bonne idée.*" },
+    { "id": "ind-possible", "label": "possible (subj.), probable (ind.)", "rule": "**il est possible que** and **il se peut que** + subjunctive: *Il est possible **qu'il pleuve***. But **il est probable que** + indicative: *Il est probable **qu'il pleuvra***." },
+    { "id": "ind-sembler", "label": "il semble que / il me semble que", "rule": "**il semble que** (it looks as though) + subjunctive: *Il semble **qu'il y ait** un problème.* But **il me semble que** (I think) + indicative: *Il me semble **qu'il y a** un problème.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. penser, croire, trouver que + indicative",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je pense qu'il vient.", "I think he's coming."],
+          ["Je crois que c'est vrai.", "I believe it's true."],
+          ["Je trouve que tu as raison.", "I think you're right."],
+          ["Il paraît qu'elle est malade.", "Apparently she's ill."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je pense qu'il arrive|ind-penser} samedi.", "en": "I think he's arriving on Saturday." },
+        { "fr": "{Je crois qu'elle a|ind-penser} raison.", "en": "I think she's right." }
+      ]
+    },
+    {
+      "title": "2. ne pas penser que + subjunctive",
+      "table": {
+        "head": ["Positive: indicative", "Negative: subjunctive"], "frCols": [0, 1],
+        "rows": [
+          ["Je pense qu'il vient.", "Je ne pense pas qu'il vienne."],
+          ["Je crois que c'est vrai.", "Je ne crois pas que ce soit vrai."],
+          ["Je trouve qu'il fait froid.", "Je ne trouve pas qu'il fasse froid."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne crois pas qu'il vienne|ind-negatif}.", "en": "I don't think he's coming." },
+        { "fr": "{Je ne pense pas que ce soit|ind-negatif} une bonne idée.", "en": "I don't think it's a good idea." }
+      ],
+      "tip": "In everyday speech, you'll sometimes hear the indicative here too, but the subjunctive is the correct choice."
+    },
+    {
+      "title": "3. Certainty: être sûr que + indicative",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis sûr qu'il viendra.", "I'm sure he'll come."],
+          ["Il est certain que tu as raison.", "You're certainly right."],
+          ["Il est évident qu'il est fatigué.", "He's obviously tired."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis sûre qu'il viendra|ind-certain}.", "en": "I'm sure he'll come." },
+        { "fr": "{Il est évident que tu as|ind-certain} peur !", "en": "You're obviously scared!" }
+      ]
+    },
+    {
+      "title": "4. Doubt: douter que + subjunctive",
+      "table": {
+        "head": ["Certain: indicative", "Doubtful: subjunctive"], "frCols": [0, 1],
+        "rows": [
+          ["Je suis sûr qu'il vient.", "Je ne suis pas sûr qu'il vienne."],
+          ["Je sais qu'il a raison.", "Je doute qu'il ait raison."],
+          ["Il est certain qu'elle peut venir.", "Il n'est pas certain qu'elle puisse venir."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je doute qu'il soit|ind-doute} dans cet avion.", "en": "I doubt he's on that plane." },
+        { "fr": "{Je ne suis pas sûr que tu aies|ind-doute} le droit.", "en": "I'm not sure you're allowed." }
+      ]
+    },
+    {
+      "title": "5. Possible or probable?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il est possible qu'il pleuve.", "It may rain."],
+          ["Il se peut qu'il soit en retard.", "He may be late."],
+          ["Il est probable qu'il pleuvra.", "It'll probably rain."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est possible que son avion soit|ind-possible} en retard.", "en": "His plane may be late." },
+        { "fr": "{Il est probable qu'il sera|ind-possible} fatigué.", "en": "He'll probably be tired." }
+      ],
+      "tip": "**possible** (it might happen) → subjunctive; **probable** (it will probably happen) → indicative."
+    },
+    {
+      "title": "6. il semble que / il me semble que",
+      "table": {
+        "head": ["il semble que: subjunctive", "il me semble que: indicative"], "frCols": [0, 1],
+        "rows": [
+          ["Il semble qu'il y ait un problème.", "Il me semble qu'il y a un problème."],
+          ["Il semble qu'il soit parti.", "Il me semble qu'il est parti."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il semble qu'il y ait|ind-sembler} une grève.", "en": "It looks as though there's a strike." },
+        { "fr": "{Il me semble qu'il a|ind-sembler} un concert à Paris.", "en": "I think he has a concert in Paris." }
+      ],
+      "tip": "With **me** (*il me semble*), you're giving your own opinion: indicative."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je pense qu'il vienne.", "right": "Je pense qu'il vient.", "why": "**penser que** in the positive takes the indicative." },
+    { "wrong": "Je ne crois pas que c'est vrai.", "right": "Je ne crois pas que ce soit vrai.", "why": "In the negative, **croire que** takes the subjunctive." },
+    { "wrong": "Je doute qu'il vient.", "right": "Je doute qu'il vienne.", "why": "**douter que** takes the subjunctive." },
+    { "wrong": "Je suis sûr qu'il vienne.", "right": "Je suis sûr qu'il vient.", "why": "Certainty: indicative." },
+    { "wrong": "Il est possible qu'il pleut.", "right": "Il est possible qu'il pleuve.", "why": "**il est possible que** takes the subjunctive." },
+    { "wrong": "Il est probable qu'il pleuve.", "right": "Il est probable qu'il pleuvra.", "why": "**il est probable que** takes the indicative." }
+  ],
+  "story": {
+    "title": "Antoine arrive !",
+    "en": "Late May: Léa's cousin Antoine is finally coming from Montréal. Or is he?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin mai. Le cousin de Léa, Antoine, doit arriver de Montréal. Il en parle depuis un an !", "en": "Late May. Léa's cousin Antoine is due to arrive from Montréal. He's been talking about it for a year!" },
+      { "sp": "Léa", "fr": "{Je pense qu'il arrive|ind-penser} samedi. Il m'a écrit hier.", "en": "I think he's arriving on Saturday. He wrote to me yesterday." },
+      { "sp": "Hugo", "fr": "{Je ne crois pas qu'il vienne|ind-negatif}. Antoine change toujours d'avis !", "en": "I don't think he'll come. Antoine always changes his mind!" },
+      { "sp": "Sophie", "fr": "Hugo ! {Je suis sûre qu'il viendra|ind-certain}. Il a acheté son billet il y a trois mois.", "en": "Hugo! I'm sure he'll come. He bought his ticket three months ago." },
+      { "sp": "Tom", "fr": "{Il me semble qu'il a|ind-sembler} un concert à Paris avec son groupe, après.", "en": "I think he has a concert in Paris with his band afterwards." },
+      { "sp": "Hugo", "fr": "Oui, mais {il semble qu'il y ait|ind-sembler} une grève dans les aéroports…", "en": "Yes, but it looks as though there's a strike at the airports…" },
+      { "sp": "Léa", "fr": "{Il est possible que son avion soit|ind-possible} en retard. Mais il viendra.", "en": "His plane may be late. But he'll come." },
+      { "sp": "Tom", "fr": "{Il est probable qu'il sera|ind-possible} fatigué : le voyage est long.", "en": "He'll probably be tired: it's a long journey." },
+      { "sp": "", "fr": "Samedi, à l'aéroport. Les amis attendent avec une pancarte : « Bienvenue, Antoine ! »", "en": "Saturday, at the airport. The friends are waiting with a sign: 'Welcome, Antoine!'" },
+      { "sp": "Hugo", "fr": "{Je doute qu'il soit|ind-doute} dans cet avion…", "en": "I doubt he's on that plane…" },
+      { "sp": "Léa", "fr": "Arrête ! {Il est évident que tu as|ind-certain} peur : avec Antoine ici, tu ne seras plus le cousin préféré !", "en": "Stop it! You're obviously scared: with Antoine here, you won't be the favourite cousin any more!" },
+      { "sp": "", "fr": "Les passagers sortent… et voilà Antoine, avec sa guitare sur le dos !", "en": "The passengers come out… and there's Antoine, with his guitar on his back!" },
+      { "sp": "Antoine", "fr": "Salut, la famille ! {Je ne pensais pas que vous soyez|ind-negatif} tous là !", "en": "Hi, everyone! I didn't think you'd all be here!" },
+      { "sp": "", "fr": "Antoine voit la voiture de location de Léa. Il veut conduire tout de suite.", "en": "Antoine sees the car Léa has hired. He wants to drive straight away." },
+      { "sp": "Hugo", "fr": "Antoine… {je ne suis pas sûr que tu aies|ind-doute} le droit de conduire en France.", "en": "Antoine… I'm not sure you're allowed to drive in France." },
+      { "sp": "Antoine", "fr": "Pourquoi ? {Je suis sûr que je conduis|ind-certain} mieux que toi !", "en": "Why not? I'm sure I drive better than you!" },
+      { "sp": "Léa", "fr": "{Je crois qu'il a|ind-penser} raison, Hugo…", "en": "I think he's right, Hugo…" },
+      { "sp": "", "fr": "Tout le monde rit. Antoine prend sa valise et sa guitare : ses vacances à Lyon commencent !", "en": "Everyone laughs. Antoine picks up his suitcase and his guitar: his holiday in Lyon is beginning!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ind-penser", "type": "mc", "q": "Je pense qu'il ___ ce soir.", "en": "I think he's coming tonight.", "options": ["vient", "vienne", "venir"], "answer": "vient" },
+    { "case": "ind-penser", "type": "mc", "q": "Je trouve que tu ___ raison.", "en": "I think you're right.", "options": ["as", "aies", "avoir"], "answer": "as" },
+    { "case": "ind-negatif", "type": "mc", "q": "Je ne crois pas que ce ___ vrai.", "en": "I don't think it's true.", "options": ["soit", "est", "sera"], "answer": "soit" },
+    { "case": "ind-negatif", "type": "type", "q": "Je ne pense pas qu'il ___ (venir).", "en": "I don't think he'll come.", "answer": "vienne" },
+    { "case": "ind-certain", "type": "mc", "q": "Je suis sûr qu'il ___ demain.", "en": "I'm sure he'll come tomorrow.", "options": ["viendra", "vienne", "venir"], "answer": "viendra" },
+    { "case": "ind-certain", "type": "mc", "q": "Il est évident que tu ___ fatigué.", "en": "You're obviously tired.", "options": ["es", "sois", "être"], "answer": "es" },
+    { "case": "ind-doute", "type": "mc", "q": "Je doute qu'il ___ raison.", "en": "I doubt he's right.", "options": ["ait", "a", "aura"], "answer": "ait" },
+    { "case": "ind-doute", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je ne suis pas sûr qu'il vienne.", "Je ne suis pas sûr qu'il vient.", "Je ne suis pas sûr qu'il venir."], "answer": "Je ne suis pas sûr qu'il vienne.", "say": "Je ne suis pas sûr qu'il vienne." },
+    { "case": "ind-possible", "type": "mc", "q": "Il est possible qu'il ___ demain.", "en": "It may rain tomorrow.", "options": ["pleuve", "pleut", "pleuvra"], "answer": "pleuve" },
+    { "case": "ind-possible", "type": "mc", "q": "Il est probable qu'il ___ demain.", "en": "It'll probably rain tomorrow.", "options": ["pleuvra", "pleuve", "pleuvoir"], "answer": "pleuvra" },
+    { "case": "ind-sembler", "type": "mc", "q": "Il semble qu'il y ___ un problème.", "en": "It looks as though there's a problem.", "options": ["ait", "a", "aura"], "answer": "ait" },
+    { "case": "ind-sembler", "type": "mc", "q": "Il me semble qu'il y ___ un problème.", "en": "I think there's a problem.", "options": ["a", "ait", "avoir"], "answer": "a" }
+  ]
+}

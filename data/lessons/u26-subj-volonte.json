@@ -1,0 +1,167 @@
+{
+  "id": "u26-subj-volonte",
+  "type": "grammar",
+  "unit": 26,
+  "title": "Je veux que tu viennes",
+  "en": "The subjunctive after wishes and feelings",
+  "intro": "When you **want** something from someone else, or **feel** something about what they do, French uses **que** + the **subjunctive**: *Je veux **que tu viennes**. Je suis content **que tu sois** là.* If it's about yourself, use an infinitive: *Je veux **venir**.* And watch out for **espérer**, which takes the indicative.",
+  "cases": [
+    { "id": "vol-vouloir", "label": "wanting: vouloir que, préférer que…", "rule": "After a verb of **wanting** + **que** + another person, use the subjunctive: *Je veux **que tu viennes**. Je souhaite **qu'il réussisse**. Je préfère **que vous restiez**. J'aimerais **qu'on parte**.*" },
+    { "id": "vol-sentiment", "label": "feelings: content que, triste que…", "rule": "After a **feeling** + **que**: *Je suis content **que tu sois** là. Elle est triste **qu'il parte**. Je suis fier **que tu fasses** des efforts. Il est surpris **que je sache** nager.*" },
+    { "id": "vol-peur", "label": "fear: avoir peur que", "rule": "**avoir peur que** + subjunctive: *J'ai peur **qu'il pleuve**.* In careful French, you may see a **ne** that doesn't mean *not*: *j'ai peur qu'il ne pleuve*." },
+    { "id": "vol-dommage", "label": "regret: c'est dommage que, regretter que", "rule": "Regret also takes the subjunctive: *C'est dommage **que tu ne puisses pas** venir. Je regrette **qu'il parte** si tôt.*" },
+    { "id": "vol-inf", "label": "same person: the infinitive", "rule": "When it's about the **same** person, use an **infinitive**, not **que**: *Je veux partir* (not *je veux que je parte*). After a feeling, add **de**: *Je suis content **de** te voir. J'ai peur **de** tomber.*" },
+    { "id": "vol-esperer", "label": "espérer que + indicative", "rule": "Careful: **espérer que** takes the **indicative**, often the future: *J'espère **que tu viendras**. J'espère **qu'il fait** beau.* Compare: *Je souhaite **que tu viennes**.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Wanting: vouloir que…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je veux que tu viennes.", "I want you to come."],
+          ["Je souhaite qu'il réussisse.", "I hope he succeeds."],
+          ["Je préfère que vous restiez.", "I'd rather you stayed."],
+          ["J'aimerais qu'on parte tôt.", "I'd like us to leave early."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je veux que tu finisses|vol-vouloir} ton assiette !", "en": "I want you to finish your plate!" },
+        { "fr": "{Mes parents préfèrent que je prenne|vol-vouloir} le train.", "en": "My parents would rather I took the train." }
+      ],
+      "tip": "English says *I want **you to** come*; French says *je veux **que tu viennes***. Never *je veux toi venir*."
+    },
+    {
+      "title": "2. Feelings: content que…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis content que tu sois là.", "I'm glad you're here."],
+          ["Elle est triste qu'il parte.", "She's sad he's leaving."],
+          ["Je suis fier que tu fasses des efforts.", "I'm proud you're making an effort."],
+          ["Il est surpris que je sache nager.", "He's surprised I can swim."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis contente que vous soyez|vol-sentiment} là !", "en": "I'm so glad you're here!" },
+        { "fr": "{Lou est triste que Léa parte|vol-sentiment} demain.", "en": "Lou is sad that Léa is leaving tomorrow." }
+      ]
+    },
+    {
+      "title": "3. Fear: avoir peur que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai peur qu'il pleuve.", "I'm afraid it'll rain."],
+          ["Tu as peur que je tombe ?", "Are you afraid I'll fall?"],
+          ["Elle a peur qu'il ne soit en retard.", "She's afraid he'll be late."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai peur que mes jambes ne suivent|vol-peur} pas !", "en": "I'm afraid my legs won't keep up!" },
+        { "fr": "{Anne a peur que Lou ait|vol-peur} froid.", "en": "Anne is afraid Lou will be cold." }
+      ],
+      "tip": "The **ne** in *j'ai peur qu'il **ne** pleuve* is optional and doesn't make the sentence negative."
+    },
+    {
+      "title": "4. Regret: c'est dommage que…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est dommage que tu ne puisses pas venir.", "It's a shame you can't come."],
+          ["Je regrette qu'il parte si tôt.", "I'm sorry he's leaving so early."],
+          ["C'est dommage qu'il fasse froid.", "It's a pity it's cold."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est dommage que Mamie ne voie|vol-dommage} pas ça !", "en": "It's a shame Grandma can't see this!" },
+        { "fr": "{Je regrette que tu partes|vol-dommage} déjà.", "en": "I'm sorry you're leaving already." }
+      ]
+    },
+    {
+      "title": "5. Same person: the infinitive",
+      "text": ["The subjunctive needs **two different people**: one who wants or feels, another who acts. If it's the same person, use an infinitive."],
+      "table": {
+        "head": ["Two people", "One person"], "frCols": [0, 1],
+        "rows": [
+          ["Je veux que tu partes.", "Je veux partir."],
+          ["Il préfère que je reste.", "Il préfère rester."],
+          ["Je suis content que tu viennes.", "Je suis content de venir."],
+          ["J'ai peur qu'il tombe.", "J'ai peur de tomber."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je veux m'arrêter|vol-inf} ! Juste une minute !", "en": "I want to stop! Just for a minute!" },
+        { "fr": "{Je suis fière de courir|vol-inf} avec toi.", "en": "I'm proud to be running with you." }
+      ],
+      "tip": "After a feeling, the infinitive needs **de**: *content **de**, triste **de**, peur **de***. After vouloir, préférer, aimer: no **de**."
+    },
+    {
+      "title": "6. espérer que + indicative",
+      "table": {
+        "head": ["espérer: indicative", "souhaiter: subjunctive"], "frCols": [0, 1],
+        "rows": [
+          ["J'espère que tu viendras.", "Je souhaite que tu viennes."],
+          ["J'espère qu'il fait beau.", "Je souhaite qu'il fasse beau."],
+          ["J'espère qu'elle va bien.", "Je souhaite qu'elle aille bien."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'espère que vous avez pris|vol-esperer} des photos !", "en": "I hope you took some photos!" },
+        { "fr": "{J'espère qu'il fera|vol-esperer} beau demain.", "en": "I hope it'll be fine tomorrow." }
+      ],
+      "tip": "**espérer** and **souhaiter** both mean *to hope*, but only **souhaiter** takes the subjunctive."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je veux que tu viens.", "right": "Je veux que tu viennes.", "why": "After **vouloir que**, use the subjunctive." },
+    { "wrong": "Je veux toi venir.", "right": "Je veux que tu viennes.", "why": "French says *I want that you come*: **vouloir que** + subjunctive." },
+    { "wrong": "Je veux que je parte.", "right": "Je veux partir.", "why": "Same person: use the infinitive." },
+    { "wrong": "Je suis content que tu es là.", "right": "Je suis content que tu sois là.", "why": "After a feeling + **que**, use the subjunctive." },
+    { "wrong": "J'espère que tu viennes.", "right": "J'espère que tu viendras.", "why": "**espérer que** takes the indicative." },
+    { "wrong": "J'ai peur que tomber.", "right": "J'ai peur de tomber.", "why": "Same person: **avoir peur de** + infinitive." }
+  ],
+  "story": {
+    "title": "La course du premier mai",
+    "en": "The first of May: Hugo and Carla run ten kilometres through Lyon, and their friends cheer them on.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le premier mai, huit heures du matin, place Bellecour. Des milliers de coureurs attendent le départ.", "en": "The first of May, eight in the morning, place Bellecour. Thousands of runners are waiting for the start." },
+      { "sp": "", "fr": "Hugo et Carla sont prêts. Léa, Sophie et Tom sont venus les encourager.", "en": "Hugo and Carla are ready. Léa, Sophie and Tom have come to cheer them on." },
+      { "sp": "Léa", "fr": "{Je veux que tu finisses|vol-vouloir} la course, Hugo. Et pas de chocolat chaud avant l'arrivée !", "en": "I want you to finish the race, Hugo. And no hot chocolate before the finish!" },
+      { "sp": "Hugo", "fr": "{J'ai peur que mes jambes ne suivent|vol-peur} pas…", "en": "I'm afraid my legs won't keep up…" },
+      { "sp": "Carla", "fr": "{Je préfère qu'on parte|vol-vouloir} doucement. On ira plus vite à la fin.", "en": "I'd rather we started slowly. We'll go faster at the end." },
+      { "sp": "Sophie", "fr": "{Je suis contente que vous soyez|vol-sentiment} là tous les deux. Bonne chance !", "en": "I'm so glad you're both here. Good luck!" },
+      { "sp": "", "fr": "C'est le départ ! Hugo et Carla partent ensemble.", "en": "It's the start! Hugo and Carla set off together." },
+      { "sp": "", "fr": "Au cinquième kilomètre, Hugo est rouge comme une tomate.", "en": "At the fifth kilometre, Hugo is as red as a tomato." },
+      { "sp": "Hugo", "fr": "Carla… {je voudrais que tu m'attendes|vol-vouloir}…", "en": "Carla… I'd like you to wait for me…" },
+      { "sp": "Carla", "fr": "{J'aimerais que tu parles|vol-vouloir} moins et que tu coures plus !", "en": "I'd like you to talk less and run more!" },
+      { "sp": "", "fr": "Au septième kilomètre, Hugo ralentit.", "en": "At the seventh kilometre, Hugo slows down." },
+      { "sp": "Hugo", "fr": "{Je veux m'arrêter|vol-inf} ! Juste une minute !", "en": "I want to stop! Just for a minute!" },
+      { "sp": "Carla", "fr": "Non ! {Je suis fière de courir|vol-inf} avec toi, et {je ne veux pas que tu abandonnes|vol-vouloir} !", "en": "No! I'm proud to be running with you, and I don't want you to give up!" },
+      { "sp": "", "fr": "Au bord de la route, Léa tient une pancarte : « Pas de chocolat avant l'arrivée ! » Tout le monde rit.", "en": "At the side of the road, Léa is holding a sign: 'No chocolate before the finish!' Everyone laughs." },
+      { "sp": "", "fr": "Une heure et demie après le départ, Hugo et Carla passent l'arrivée ensemble.", "en": "An hour and a half after the start, Hugo and Carla cross the finish line together." },
+      { "sp": "Hugo", "fr": "{Je suis surpris d'être|vol-inf} encore vivant !", "en": "I'm surprised to still be alive!" },
+      { "sp": "Tom", "fr": "Bravo ! {C'est dommage que Mamie ne voie|vol-dommage} pas ça !", "en": "Well done! It's a shame Grandma can't see this!" },
+      { "sp": "Hugo", "fr": "{J'espère que vous avez pris|vol-esperer} des photos… et que quelqu'un a apporté un chocolat chaud !", "en": "I hope you took some photos… and that someone has brought a hot chocolate!" },
+      { "sp": "Sophie", "fr": "Voilà ! Et {je regrette que tu n'aimes|vol-dommage} pas le sport… parce que tu cours très bien !", "en": "Here you go! And it's a shame you don't like sport… because you run really well!" },
+      { "sp": "Carla", "fr": "{Je veux qu'on fasse|vol-vouloir} un marathon l'année prochaine !", "en": "I want us to do a marathon next year!" },
+      { "sp": "Hugo", "fr": "{J'ai peur que tu sois|vol-peur} sérieuse…", "en": "I'm afraid you're serious…" }
+    ]
+  },
+  "quiz": [
+    { "case": "vol-vouloir", "type": "mc", "q": "Je veux que tu ___ avec nous.", "en": "I want you to come with us.", "options": ["viennes", "viens", "venir"], "answer": "viennes" },
+    { "case": "vol-vouloir", "type": "mc", "lang": "en", "q": "“I want you to stay.” Choose the right sentence:", "options": ["Je veux que tu restes.", "Je veux toi rester.", "Je veux que tu rester."], "answer": "Je veux que tu restes.", "say": "Je veux que tu restes." },
+    { "case": "vol-vouloir", "type": "type", "q": "Mes parents préfèrent que je ___ (prendre) le train.", "en": "My parents would rather I took the train.", "answer": "prenne" },
+    { "case": "vol-sentiment", "type": "mc", "q": "Je suis content que tu ___ là.", "en": "I'm glad you're here.", "options": ["sois", "es", "seras"], "answer": "sois" },
+    { "case": "vol-sentiment", "type": "mc", "q": "Elle est triste qu'il ___.", "en": "She's sad he's leaving.", "options": ["parte", "part", "partir"], "answer": "parte" },
+    { "case": "vol-peur", "type": "mc", "q": "J'ai peur qu'il ___ demain.", "en": "I'm afraid it'll rain tomorrow.", "options": ["pleuve", "pleut", "pleuvoir"], "answer": "pleuve" },
+    { "case": "vol-peur", "type": "mc", "lang": "en", "q": "« J'ai peur qu'il ne pleuve. » Is this sentence negative?", "options": ["no: it means I'm afraid it'll rain", "yes: it means I'm afraid it won't rain"], "answer": "no: it means I'm afraid it'll rain", "say": "J'ai peur qu'il ne pleuve." },
+    { "case": "vol-dommage", "type": "mc", "q": "C'est dommage que tu ne ___ pas venir.", "en": "It's a shame you can't come.", "options": ["puisses", "peux", "pourras"], "answer": "puisses" },
+    { "case": "vol-dommage", "type": "type", "q": "Je regrette qu'il ___ (faire) si froid.", "en": "I'm sorry it's so cold.", "answer": "fasse" },
+    { "case": "vol-inf", "type": "mc", "lang": "en", "q": "“I want to leave.” Choose the right sentence:", "options": ["Je veux partir.", "Je veux que je parte.", "Je veux que partir."], "answer": "Je veux partir.", "say": "Je veux partir." },
+    { "case": "vol-inf", "type": "mc", "q": "Je suis content ___ te voir.", "en": "I'm happy to see you.", "options": ["de", "que", "à"], "answer": "de" },
+    { "case": "vol-esperer", "type": "mc", "q": "J'espère que tu ___ demain.", "en": "I hope you'll come tomorrow.", "options": ["viendras", "viennes", "venir"], "answer": "viendras" },
+    { "case": "vol-esperer", "type": "mc", "lang": "en", "q": "Which verb takes the indicative?", "options": ["espérer que", "souhaiter que", "vouloir que"], "answer": "espérer que", "say": "J'espère que tu viendras." }
+  ]
+}

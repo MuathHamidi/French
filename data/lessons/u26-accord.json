@@ -1,0 +1,166 @@
+{
+  "id": "u26-accord",
+  "type": "vocab",
+  "unit": 26,
+  "title": "Être d'accord ou pas",
+  "en": "Agreeing and disagreeing",
+  "intro": "25 words for agreeing (**être d'accord, absolument, exactement**), disagreeing (**pas du tout, contre, critiquer, s'opposer, nier**), not minding (**ça m'est égal, peu importe, ça dépend**), contrasting (**par contre, en revanche**) and finally settling it (**un compromis, se mettre d'accord, céder**).",
+  "words": [
+    { "id": "etre-d-accord", "fr": "être d'accord", "pos": "expr", "ipa": "ɛtʁ da.kɔʁ", "en": "to agree", "def": "Avoir la même opinion qu'une autre personne.", "def_en": "To have the same opinion as someone else.", "forms": ["suis d'accord", "es d'accord", "est d'accord", "sommes d'accord", "êtes d'accord", "sont d'accord", "suis pas d'accord", "es pas d'accord", "est pas d'accord", "sommes pas d'accord", "êtes pas d'accord", "sont pas d'accord", "étais d'accord", "était d'accord", "serai d'accord", "sera d'accord"], "examples": [
+      { "fr": "Je **suis d'accord** avec toi.", "en": "I agree with you." },
+      { "fr": "Tu **es d'accord** ?", "en": "Do you agree?" },
+      { "fr": "Léa et Hugo ne **sont pas d'accord**.", "en": "Léa and Hugo don't agree." }
+    ], "note": "**être d'accord avec** quelqu'un. On its own, **D'accord !** = OK!" },
+    { "id": "pas-du-tout", "fr": "pas du tout", "pos": "expr", "ipa": "pa dy tu", "en": "not at all", "def": "Non, absolument pas.", "def_en": "No, absolutely not.", "examples": [
+      { "fr": "Tu es fatigué ? — **Pas du tout** !", "en": "Are you tired? — Not at all!" },
+      { "fr": "Je ne suis **pas du tout** d'accord.", "en": "I don't agree at all." },
+      { "fr": "Ce n'est **pas du tout** cher.", "en": "It isn't at all expensive." }
+    ] },
+    { "id": "absolument", "fr": "absolument", "pos": "adv", "ipa": "ap.sɔ.ly.mɑ̃", "en": "absolutely", "def": "Complètement, à cent pour cent. Aussi : oui, bien sûr.", "def_en": "Completely, totally. Also: yes, of course.", "examples": [
+      { "fr": "Tu as **absolument** raison.", "en": "You're absolutely right." },
+      { "fr": "C'est **absolument** délicieux !", "en": "It's absolutely delicious!" },
+      { "fr": "Tu viens ? — **Absolument** !", "en": "Are you coming? — Absolutely!" }
+    ] },
+    { "id": "exactement", "fr": "exactement", "pos": "adv", "ipa": "ɛɡ.zak.tə.mɑ̃", "en": "exactly", "def": "Précisément ; c'est ça.", "def_en": "Precisely; that's it.", "examples": [
+      { "fr": "**Exactement** ! C'est ce que je pense.", "en": "Exactly! That's what I think." },
+      { "fr": "Il est **exactement** midi.", "en": "It's exactly twelve o'clock." },
+      { "fr": "C'est **exactement** la même robe !", "en": "It's exactly the same dress!" }
+    ] },
+    { "id": "ca-depend", "fr": "ça dépend", "pos": "expr", "ipa": "sa de.pɑ̃", "en": "it depends", "def": "On ne peut pas savoir : plusieurs choses sont possibles.", "def_en": "You can't tell: there are several possibilities.", "forms": ["ça dépendra", "ça dépendait"], "examples": [
+      { "fr": "Tu viens ce soir ? — **Ça dépend**.", "en": "Are you coming tonight? — It depends." },
+      { "fr": "**Ça dépend** de la météo.", "en": "It depends on the weather." },
+      { "fr": "**Ça dépend** de toi.", "en": "It's up to you." }
+    ], "note": "**ça dépend de** + noun = it depends on." },
+    { "id": "contre", "fr": "contre", "pos": "prep", "ipa": "kɔ̃tʁ", "en": "against", "def": "Qui n'est pas d'accord avec une chose. Aussi : tout près d'une chose, qui la touche.", "def_en": "Not in favour of something. Also: touching something.", "examples": [
+      { "fr": "Je suis **contre** cette idée.", "en": "I'm against this idea." },
+      { "fr": "Tu es pour ou **contre** ?", "en": "Are you for or against?" },
+      { "fr": "Le vélo est **contre** le mur.", "en": "The bike is against the wall." }
+    ] },
+    { "id": "debat", "fr": "débat", "pos": "noun", "g": "m", "ipa": "de.ba", "en": "debate, discussion", "def": "Une discussion où chacun défend son opinion.", "def_en": "A discussion where everyone defends their opinion.", "forms": ["débats"], "examples": [
+      { "fr": "Il y a un **débat** à la télé ce soir.", "en": "There's a debate on TV tonight." },
+      { "fr": "Le **débat** en classe était très intéressant.", "en": "The debate in class was very interesting." },
+      { "fr": "C'est un vieux **débat** !", "en": "That's an old argument!" }
+    ] },
+    { "id": "debattre", "fr": "débattre", "pos": "verb", "ipa": "de.batʁ", "en": "to debate, to discuss", "def": "Discuter d'un sujet : chacun donne ses arguments.", "def_en": "To discuss a subject, giving your arguments.", "forms": ["débats", "débat", "débattons", "débattez", "débattent", "débattu", "débattais", "débattait", "débattions", "débattiez", "débattaient", "débattrai", "débattras", "débattra", "débattrons", "débattrez", "débattront", "débattrais", "débattrait", "débattrions", "débattriez", "débattraient", "débatte", "débattes"], "examples": [
+      { "fr": "On **débat** de l'écologie en classe.", "en": "We debate the environment in class." },
+      { "fr": "Ils ont **débattu** pendant deux heures.", "en": "They argued it out for two hours." },
+      { "fr": "J'aime **débattre** avec Tom.", "en": "I like debating with Tom." }
+    ], "note": "Like **battre**: *je débats, nous débattons*." },
+    { "id": "critique", "fr": "critique", "pos": "noun", "g": "f", "ipa": "kʁi.tik", "en": "criticism; review", "def": "Ce qu'on dit quand une chose ne va pas. Aussi : un article qui donne son avis sur un film ou un livre.", "def_en": "What you say when something isn't right. Also: an article giving an opinion of a film or a book.", "forms": ["critiques"], "examples": [
+      { "fr": "Le film a eu de très bonnes **critiques**.", "en": "The film got very good reviews." },
+      { "fr": "Je n'accepte pas ta **critique**.", "en": "I don't accept your criticism." },
+      { "fr": "Sophie lit la **critique** du film dans le journal.", "en": "Sophie is reading the film review in the paper." }
+    ] },
+    { "id": "critiquer", "fr": "critiquer", "pos": "verb", "ipa": "kʁi.ti.ke", "en": "to criticise", "def": "Dire ce qui ne va pas dans une chose, ou chez une personne.", "def_en": "To say what's wrong with something or someone.", "forms": ["critique", "critiques", "critiquons", "critiquez", "critiquent", "critiqué", "critiquée", "critiqués", "critiquées", "critiquais", "critiquait", "critiquions", "critiquiez", "critiquaient", "critiquerai", "critiqueras", "critiquera", "critiquerons", "critiquerez", "critiqueront", "critiquerais", "critiquerait", "critiquerions", "critiqueriez", "critiqueraient"], "examples": [
+      { "fr": "Hugo **critique** toujours mes idées !", "en": "Hugo always criticises my ideas!" },
+      { "fr": "C'est facile de **critiquer**.", "en": "It's easy to criticise." },
+      { "fr": "Le film a été très **critiqué**.", "en": "The film was heavily criticised." }
+    ] },
+    { "id": "compromis", "fr": "compromis", "pos": "noun", "g": "m", "ipa": "kɔ̃.pʁɔ.mi", "en": "compromise", "def": "Un accord où chacun accepte un peu ce que l'autre veut.", "def_en": "An agreement where everyone accepts a little of what the other wants.", "examples": [
+      { "fr": "Il faut trouver un **compromis**.", "en": "We need to find a compromise." },
+      { "fr": "C'est un bon **compromis**.", "en": "It's a good compromise." },
+      { "fr": "Pas de **compromis** : c'est oui ou c'est non !", "en": "No compromise: it's yes or it's no!" }
+    ], "note": "The plural doesn't change: **des compromis**." },
+    { "id": "se-mettre-d-accord", "fr": "se mettre d'accord", "pos": "expr", "ipa": "sə mɛtʁ da.kɔʁ", "en": "to come to an agreement, to agree on", "def": "Trouver une décision qui plaît à tout le monde.", "def_en": "To find a decision everyone is happy with.", "forms": ["se met d'accord", "se mettent d'accord", "nous mettre d'accord", "vous mettre d'accord", "s'est mis d'accord", "nous sommes mis d'accord", "vous êtes mis d'accord", "se sont mis d'accord", "mettez-vous d'accord", "mettons-nous d'accord"], "examples": [
+      { "fr": "Il faut **se mettre d'accord** sur la date.", "en": "We need to agree on the date." },
+      { "fr": "On **s'est mis d'accord** : on part en juillet.", "en": "We've agreed: we're leaving in July." },
+      { "fr": "**Mettez-vous d'accord**, les enfants !", "en": "Sort it out between you, children!" }
+    ] },
+    { "id": "par-contre", "fr": "par contre", "pos": "expr", "ipa": "paʁ kɔ̃tʁ", "en": "on the other hand, but", "def": "Pour dire une différence : mais, au contraire.", "def_en": "To show a difference: but, on the contrary.", "examples": [
+      { "fr": "Le film est long. **Par contre**, il est très beau.", "en": "The film is long. On the other hand, it's very beautiful." },
+      { "fr": "Je n'aime pas le thé. **Par contre**, j'adore le café.", "en": "I don't like tea. But I love coffee." },
+      { "fr": "Hugo est toujours en retard. Léa, **par contre**, arrive à l'heure.", "en": "Hugo is always late. Léa, on the other hand, arrives on time." }
+    ] },
+    { "id": "en-revanche", "fr": "en revanche", "pos": "expr", "ipa": "ɑ̃ ʁə.vɑ̃ʃ", "en": "on the other hand", "def": "Par contre, mais en plus élégant, surtout à l'écrit.", "def_en": "Par contre, but more elegant, especially in writing.", "examples": [
+      { "fr": "L'hôtel est cher. **En revanche**, il est près de la plage.", "en": "The hotel is expensive. On the other hand, it's near the beach." },
+      { "fr": "Je ne cuisine pas ; **en revanche**, je fais la vaisselle.", "en": "I don't cook; I do the washing-up, though." },
+      { "fr": "Il pleut à Lyon ; **en revanche**, il fait beau à Marseille.", "en": "It's raining in Lyon; in Marseille, on the other hand, it's sunny." }
+    ] },
+    { "id": "n-importe-quoi", "fr": "n'importe quoi", "pos": "expr", "ipa": "nɛ̃.pɔʁt kwa", "en": "nonsense, rubbish; anything", "def": "Une chose stupide, qui n'a pas de sens. Aussi : tout, sans choisir.", "def_en": "Something silly that makes no sense. Also: anything at all.", "examples": [
+      { "fr": "Tu dis **n'importe quoi** !", "en": "You're talking nonsense!" },
+      { "fr": "Hugo mange **n'importe quoi**.", "en": "Hugo eats anything." },
+      { "fr": "**N'importe quoi** !", "en": "Rubbish!" }
+    ] },
+    { "id": "ca-m-est-egal", "fr": "ça m'est égal", "pos": "expr", "ipa": "sa mɛ.te.ɡal", "en": "I don't mind, it's all the same to me", "def": "Les deux sont bien pour moi : je ne choisis pas.", "def_en": "I have no preference; I'm not choosing.", "forms": ["ça t'est égal", "ça lui est égal", "ça nous est égal", "ça vous est égal", "ça leur est égal", "ça m'était égal"], "examples": [
+      { "fr": "Pizza ou pâtes ? — **Ça m'est égal**.", "en": "Pizza or pasta? — I don't mind." },
+      { "fr": "**Ça t'est égal** si je prends la voiture ?", "en": "Do you mind if I take the car?" },
+      { "fr": "La pluie, **ça lui est égal**.", "en": "He doesn't care about the rain." }
+    ] },
+    { "id": "peu-importe", "fr": "peu importe", "pos": "expr", "ipa": "pø ɛ̃.pɔʁt", "en": "it doesn't matter, never mind", "def": "Ce n'est pas important.", "def_en": "It isn't important.", "examples": [
+      { "fr": "**Peu importe** le prix, je l'achète !", "en": "Never mind the price, I'm buying it!" },
+      { "fr": "On part quand ? — **Peu importe** !", "en": "When are we leaving? — It doesn't matter!" },
+      { "fr": "**Peu importe** ce qu'ils pensent.", "en": "It doesn't matter what they think." }
+    ] },
+    { "id": "s-opposer", "fr": "s'opposer", "pos": "verb", "ipa": "sɔ.po.ze", "en": "to oppose, to be against", "def": "Être contre une idée ou un projet, et le dire.", "def_en": "To be against an idea or a plan, and say so.", "forms": ["m'oppose", "t'opposes", "s'oppose", "nous nous opposons", "vous vous opposez", "s'opposent", "m'opposer", "t'opposer", "s'est opposé", "s'est opposée", "se sont opposés", "s'opposait", "s'opposaient", "s'opposera"], "examples": [
+      { "fr": "Je **m'oppose** à cette idée.", "en": "I'm against this idea." },
+      { "fr": "Ses parents **s'opposent** au voyage.", "en": "Her parents are against the trip." },
+      { "fr": "Tu **t'opposes** à tout !", "en": "You're against everything!" }
+    ], "note": "**s'opposer à** quelque chose." },
+    { "id": "accord", "fr": "accord", "pos": "noun", "g": "m", "ipa": "a.kɔʁ", "en": "agreement, deal", "def": "Quand des personnes décident ensemble d'une chose.", "def_en": "When people decide something together.", "forms": ["accords"], "examples": [
+      { "fr": "Nous avons trouvé un **accord**.", "en": "We've reached an agreement." },
+      { "fr": "Ils ont signé un **accord**.", "en": "They signed an agreement." },
+      { "fr": "C'est un bon **accord** pour tout le monde.", "en": "It's a good deal for everyone." }
+    ] },
+    { "id": "desaccord", "fr": "désaccord", "pos": "noun", "g": "m", "ipa": "de.za.kɔʁ", "en": "disagreement", "def": "Quand des personnes n'ont pas la même opinion.", "def_en": "When people don't have the same opinion.", "forms": ["désaccords"], "examples": [
+      { "fr": "Il y a un **désaccord** entre Léa et Hugo.", "en": "Léa and Hugo disagree." },
+      { "fr": "Nous sommes en **désaccord**.", "en": "We disagree." },
+      { "fr": "Ce petit **désaccord** n'est pas grave.", "en": "This small disagreement isn't serious." }
+    ] },
+    { "id": "insister", "fr": "insister", "pos": "verb", "ipa": "ɛ̃.sis.te", "en": "to insist", "def": "Demander plusieurs fois, ou dire une chose avec force.", "def_en": "To ask several times, or say something forcefully.", "forms": ["insiste", "insistes", "insistons", "insistez", "insistent", "insisté", "insistais", "insistait", "insistions", "insistiez", "insistaient", "insisterai", "insisteras", "insistera", "insisterons", "insisterez", "insisteront", "insisterais", "insisterait", "insisterions", "insisteriez", "insisteraient"], "examples": [
+      { "fr": "Hugo **insiste** : il veut aller à la plage.", "en": "Hugo insists: he wants to go to the beach." },
+      { "fr": "N'**insiste** pas !", "en": "Don't push it!" },
+      { "fr": "J'**insiste** : c'est moi qui paie.", "en": "I insist: I'm paying." }
+    ] },
+    { "id": "ceder", "fr": "céder", "pos": "verb", "ipa": "se.de", "en": "to give in", "def": "Arrêter de dire non, et accepter ce que l'autre veut.", "def_en": "To stop saying no and accept what the other person wants.", "forms": ["cède", "cèdes", "cédons", "cédez", "cèdent", "cédé", "cédais", "cédait", "cédions", "cédiez", "cédaient", "céderai", "céderas", "cédera", "céderons", "céderez", "céderont", "céderais", "céderait", "céderions", "céderiez", "céderaient"], "examples": [
+      { "fr": "Finalement, Léa **cède**.", "en": "In the end, Léa gives in." },
+      { "fr": "Ne **cède** pas !", "en": "Don't give in!" },
+      { "fr": "Quand Lou pleure, son père **cède** toujours.", "en": "When Lou cries, her father always gives in." }
+    ], "note": "**céder sa place** = to give up your seat." },
+    { "id": "plaisanter", "fr": "plaisanter", "pos": "verb", "ipa": "plɛ.zɑ̃.te", "en": "to joke", "def": "Dire des choses drôles, pas sérieuses.", "def_en": "To say funny things, not serious ones.", "forms": ["plaisante", "plaisantes", "plaisantons", "plaisantez", "plaisantent", "plaisanté", "plaisantais", "plaisantait", "plaisantions", "plaisantiez", "plaisantaient", "plaisanterai", "plaisanteras", "plaisantera", "plaisanterons", "plaisanterez", "plaisanteront", "plaisanterais", "plaisanterait", "plaisanterions", "plaisanteriez", "plaisanteraient"], "examples": [
+      { "fr": "Tu **plaisantes** ?", "en": "Are you joking?" },
+      { "fr": "Je **plaisante** !", "en": "I'm joking!" },
+      { "fr": "Hugo aime **plaisanter**.", "en": "Hugo likes joking." }
+    ] },
+    { "id": "nier", "fr": "nier", "pos": "verb", "ipa": "nje", "en": "to deny", "def": "Dire qu'une chose n'est pas vraie.", "def_en": "To say something isn't true.", "forms": ["nie", "nies", "nions", "niez", "nient", "nié", "niais", "niait", "niions", "niiez", "niaient", "nierai", "nieras", "niera", "nierons", "nierez", "nieront", "nierais", "nierait", "nierions", "nieriez", "nieraient"], "examples": [
+      { "fr": "Hugo **nie** tout !", "en": "Hugo denies everything!" },
+      { "fr": "Tu ne peux pas le **nier**.", "en": "You can't deny it." },
+      { "fr": "Il a **nié** avoir mangé le gâteau.", "en": "He denied eating the cake." }
+    ] },
+    { "id": "raisonnable", "fr": "raisonnable", "pos": "adj", "ipa": "ʁɛ.zɔ.nabl", "en": "reasonable, sensible", "def": "Qui réfléchit bien, qui est sage. Aussi : pas trop cher, pas trop.", "def_en": "Who thinks things through, who is sensible. Also: not too expensive, not over the top.", "forms": ["raisonnables"], "examples": [
+      { "fr": "Soyons **raisonnables**.", "en": "Let's be sensible." },
+      { "fr": "Le prix est **raisonnable**.", "en": "The price is reasonable." },
+      { "fr": "Lou n'est pas très **raisonnable** ce soir.", "en": "Lou isn't being very sensible tonight." }
+    ] }
+  ],
+  "story": {
+    "title": "Où partir cet été ?",
+    "en": "Late May: the friends want to go on holiday together in July. But where?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin mai, au café d'en bas. Les amis veulent partir en vacances ensemble en juillet. Mais où ?", "en": "Late May, at the café downstairs. The friends want to go on holiday together in July. But where?" },
+      { "sp": "Léa", "fr": "Moi, je propose la montagne : on peut faire de la randonnée chez l'oncle Pierre.", "en": "I suggest the mountains: we can go hiking at Uncle Pierre's." },
+      { "sp": "Hugo", "fr": "La montagne ? Pas du tout ! Moi, je veux une plage, du soleil… et dormir.", "en": "The mountains? No way! I want a beach, sunshine… and sleep." },
+      { "sp": "Tom", "fr": "Je suis d'accord avec Hugo pour la plage. Par contre, je ne veux pas seulement dormir !", "en": "I agree with Hugo about the beach. But I don't just want to sleep!" },
+      { "sp": "Sophie", "fr": "Et le prix ? Il faut rester raisonnable : je n'ai pas beaucoup d'argent.", "en": "What about the cost? We have to be sensible: I haven't got much money." },
+      { "sp": "Inès", "fr": "Et Barcelone ? C'est magnifique !", "en": "What about Barcelona? It's beautiful!" },
+      { "sp": "Sophie", "fr": "Tu plaisantes ? On y est déjà allées l'été dernier, Inès !", "en": "Are you joking? We already went there last summer, Inès!" },
+      { "sp": "Carla", "fr": "Moi, ça m'est égal. Peu importe où, je veux juste partir avec vous.", "en": "I don't mind. Wherever it is, I just want to go with you." },
+      { "sp": "", "fr": "Le débat dure une heure. Hugo insiste, Léa aussi : ils débattent comme à la télé.", "en": "The debate goes on for an hour. Hugo insists, so does Léa: they argue like on TV." },
+      { "sp": "Léa", "fr": "Hugo, tu critiques toujours mes idées !", "en": "Hugo, you always criticise my ideas!" },
+      { "sp": "Hugo", "fr": "Ce n'est pas une critique ! Je dis seulement que la montagne, c'est fatigant.", "en": "It's not a criticism! I'm just saying the mountains are tiring." },
+      { "sp": "Léa", "fr": "Tu dis n'importe quoi ! Tu as couru dix kilomètres le premier mai !", "en": "You're talking nonsense! You ran ten kilometres on the first of May!" },
+      { "sp": "Hugo", "fr": "Justement ! Mes jambes ont besoin de vacances. Je ne nie pas : j'aime dormir.", "en": "Exactly! My legs need a holiday. I don't deny it: I like sleeping." },
+      { "sp": "Sophie", "fr": "Bon. Il y a un désaccord : la mer ou la montagne. Il faut trouver un compromis.", "en": "Right. There's a disagreement: the sea or the mountains. We need to find a compromise." },
+      { "sp": "Inès", "fr": "Et si on fait les deux ? Une semaine à la mer, puis quelques jours à la montagne.", "en": "What if we do both? A week by the sea, then a few days in the mountains." },
+      { "sp": "Léa", "fr": "À Marseille, chez mes grands-parents : il y a la mer, et c'est gratuit ! Après, on va chez l'oncle Pierre, dans les Alpes.", "en": "In Marseille, at my grandparents': there's the sea, and it's free! Then we go to Uncle Pierre's, in the Alps." },
+      { "sp": "Hugo", "fr": "Exactement ce que je voulais dire !", "en": "Exactly what I meant!" },
+      { "sp": "Sophie", "fr": "Ça dépend… Il y a de la place pour nous tous chez tes grands-parents ?", "en": "It depends… Is there room for all of us at your grandparents'?" },
+      { "sp": "Léa", "fr": "On peut dormir sous des tentes, dans le jardin !", "en": "We can sleep in tents in the garden!" },
+      { "sp": "Hugo", "fr": "Je m'oppose au camping ! Je veux un lit.", "en": "I'm against camping! I want a bed." },
+      { "sp": "Léa", "fr": "En revanche, tu peux dormir sur le canapé…", "en": "You can sleep on the sofa, on the other hand…" },
+      { "sp": "", "fr": "Ils votent : cinq pour, un contre. Hugo cède… et il garde le canapé.", "en": "They vote: five for, one against. Hugo gives in… and he keeps the sofa." },
+      { "sp": "Tom", "fr": "Voilà, on s'est mis d'accord. Tout le monde est d'accord ?", "en": "There we are, we've agreed. Is everyone happy?" },
+      { "sp": "Carla", "fr": "Absolument ! C'est un bon accord pour tout le monde.", "en": "Absolutely! It's a good deal for everyone." }
+    ]
+  }
+}
