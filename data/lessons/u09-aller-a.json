@@ -1,0 +1,133 @@
+{
+  "id": "u09-aller-a",
+  "type": "grammar",
+  "unit": 9,
+  "title": "Je vais au cinéma",
+  "en": "Going places: à + le = au, à la, aux, chez — and countries",
+  "intro": "To say where you're going, French uses **à** — and like **de**, it fuses with **le** and **les**: *je vais **au** cinéma, **aux** toilettes*. Plus: **chez** for people, **en / au** for countries, and **du / de la** for where you come from.",
+  "cases": [
+    { "id": "al-au", "label": "à + le = au", "rule": "Before a masculine place, **à + le** becomes **au**: *au cinéma, au marché, au parc*." },
+    { "id": "al-ala", "label": "à la", "rule": "Before a feminine place, **à la** stays: *à la gare, à la banque, à la poste*." },
+    { "id": "al-alapos", "label": "à l'", "rule": "Before a vowel or silent h: **à l'**: *à l'école, à l'hôpital, à l'église*." },
+    { "id": "al-aux", "label": "à + les = aux", "rule": "Before a plural: **à + les** becomes **aux**: *aux toilettes, aux États-Unis*." },
+    { "id": "al-chez", "label": "chez + person", "rule": "To go to someone's home or shop, use **chez**: *chez Léa, chez moi, chez le médecin*." },
+    { "id": "al-city", "label": "à + city", "rule": "Cities take **à** (no article): *à Paris, à Lyon, à Montréal*." },
+    { "id": "al-country", "label": "en / au + country", "rule": "Feminine countries (mostly ending in -e) take **en**: *en France, en Espagne*. Masculine ones take **au**: *au Canada, au Portugal*. Plural: **aux**: *aux États-Unis*." },
+    { "id": "al-de", "label": "coming from: du, de la, des", "rule": "**venir de** works the same way: *je viens **du** marché, **de la** gare, **de l'**école, **des** toilettes, **de** Paris*." }
+  ],
+  "sections": [
+    {
+      "title": "1. au, à la, à l', aux",
+      "table": {
+        "head": ["", "Becomes", "Example"], "frCols": [1, 2],
+        "rows": [
+          ["à + le", "au", "au cinéma"],
+          ["à + la", "à la", "à la gare"],
+          ["à + l'", "à l'", "à l'école"],
+          ["à + les", "aux", "aux toilettes"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je vais {au marché|al-au}.", "en": "I'm going to the market." },
+        { "fr": "Tu vas {à la banque|al-ala} ?", "en": "Are you going to the bank?" },
+        { "fr": "Les enfants vont {à l'école|al-alapos}.", "en": "The children go to school." },
+        { "fr": "Où sont les toilettes ? Je vais {aux toilettes|al-aux}.", "en": "Where's the toilet? I'm going to the toilet." }
+      ],
+      "tip": "Never say *à le* or *à les*: they always become **au** and **aux**."
+    },
+    {
+      "title": "2. chez: to someone's place",
+      "text": ["For a person (or a person's shop), use **chez** instead of à: *chez Léa* = to/at Léa's place. With pronouns: *chez moi, chez toi, chez lui, chez nous…*"],
+      "examples": [
+        { "fr": "Je vais {chez Léa|al-chez}.", "en": "I'm going to Léa's." },
+        { "fr": "Je rentre {chez moi|al-chez}.", "en": "I'm going home." },
+        { "fr": "Elle va {chez le médecin|al-chez}.", "en": "She's going to the doctor's." }
+      ]
+    },
+    {
+      "title": "3. Cities and countries",
+      "table": {
+        "head": ["Place", "To / in", "Example"], "frCols": [2],
+        "rows": [
+          ["a city", "à", "à Paris · à Lyon"],
+          ["a feminine country (-e)", "en", "en France · en Espagne · en Italie"],
+          ["a masculine country", "au", "au Canada · au Portugal · au Japon"],
+          ["a plural country", "aux", "aux États-Unis"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'habite {à Lyon|al-city}.", "en": "I live in Lyon." },
+        { "fr": "Sophie va {en Espagne|al-country}.", "en": "Sophie is going to Spain." },
+        { "fr": "Antoine habite {au Canada|al-country}.", "en": "Antoine lives in Canada." }
+      ],
+      "tip": "The same word means **to** and **in**: *Je vais en France* (to) / *J'habite en France* (in)."
+    },
+    {
+      "title": "4. Coming from: du, de la, de l', des",
+      "text": ["**venir de** (to come from) follows the same pattern with **de**: **du, de la, de l', des**."],
+      "table": {
+        "head": ["Going to", "Coming from"], "frCols": [0, 1],
+        "rows": [
+          ["Je vais au marché.", "Je viens du marché."],
+          ["Je vais à la gare.", "Je viens de la gare."],
+          ["Je vais à l'école.", "Je viens de l'école."],
+          ["Je vais aux toilettes.", "Je viens des toilettes."],
+          ["Je vais à Paris.", "Je viens de Paris."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je viens du musée|al-de}.", "en": "I'm coming from the museum." },
+        { "fr": "{Elle revient de la banque|al-de}.", "en": "She's coming back from the bank." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je vais à le cinéma.", "right": "Je vais au cinéma.", "why": "**à + le = au**, always." },
+    { "wrong": "Je vais à les toilettes.", "right": "Je vais aux toilettes.", "why": "**à + les = aux**." },
+    { "wrong": "Je vais à Léa.", "right": "Je vais chez Léa.", "why": "For a person's home: **chez**." },
+    { "wrong": "Je vais à France.", "right": "Je vais en France.", "why": "Feminine countries take **en**." },
+    { "wrong": "J'habite en Canada.", "right": "J'habite au Canada.", "why": "Masculine countries take **au**." },
+    { "wrong": "Je viens de le marché.", "right": "Je viens du marché.", "why": "**de + le = du**." }
+  ],
+  "story": {
+    "title": "Le samedi de Sophie",
+    "en": "Errands in town — and plans for the summer.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi matin, Sophie a beaucoup de choses à faire.", "en": "On Saturday morning, Sophie has lots to do." },
+      { "sp": "Sophie", "fr": "D'abord, {je vais à la banque|al-ala}, ensuite à la poste.", "en": "First I'm going to the bank, then to the post office." },
+      { "sp": "Léa", "fr": "Et après ?", "en": "And after that?" },
+      { "sp": "Sophie", "fr": "Après, {je vais au marché|al-au} et à la boulangerie. Tu viens ?", "en": "Then I'm going to the market and the bakery. Are you coming?" },
+      { "sp": "Léa", "fr": "Non, {je vais chez le médecin|al-chez} à dix heures.", "en": "No, I'm going to the doctor's at ten." },
+      { "sp": "Sophie", "fr": "Ah bon ? Ça va ?", "en": "Oh? Are you OK?" },
+      { "sp": "Léa", "fr": "Oui, oui. Et à midi, {je déjeune chez Hugo|al-chez}.", "en": "Yes, yes. And at noon, I'm having lunch at Hugo's." },
+      { "sp": "", "fr": "L'après-midi, Antoine rentre.", "en": "In the afternoon, Antoine comes back." },
+      { "sp": "Antoine", "fr": "{Je viens du musée|al-de} ! Maintenant, {je vais à l'église|al-alapos} Saint-Jean, et après, au parc.", "en": "I've just come from the museum! Now I'm going to the Saint-Jean church, and then to the park." },
+      { "sp": "Léa", "fr": "Et cet été, tu vas où ? {En Italie|al-country} ?", "en": "And this summer, where are you going? To Italy?" },
+      { "sp": "Antoine", "fr": "Non, {je vais au Portugal|al-country}, et ensuite {aux États-Unis|al-aux}, {à New York|al-city} !", "en": "No, I'm going to Portugal, and then to the United States — to New York!" },
+      { "sp": "Sophie", "fr": "Moi, {je vais en Espagne|al-country}, {à Madrid|al-city}, chez Inès et Carla !", "en": "I'm going to Spain — to Madrid, to Inès and Carla's!" },
+      { "sp": "Antoine", "fr": "Et toi, Léa ?", "en": "And you, Léa?" },
+      { "sp": "Léa", "fr": "Moi… {je vais aux toilettes|al-aux} ! Pardon, c'est urgent !", "en": "Me… I'm going to the toilet! Sorry, it's urgent!" }
+    ]
+  },
+  "quiz": [
+    { "case": "al-au", "type": "mc", "q": "Je vais ___ cinéma.", "en": "I'm going to the cinema.", "options": ["au", "à la", "à le"], "answer": "au" },
+    { "case": "al-au", "type": "type", "q": "On va ___ [marché|marche] ?", "en": "Shall we go to the market?", "answer": "au" },
+    { "case": "al-ala", "type": "mc", "q": "Elle va ___ gare.", "en": "She's going to the station.", "options": ["à la", "au", "aux"], "answer": "à la" },
+    { "case": "al-ala", "type": "type", "q": "Je vais ___ banque.", "en": "I'm going to the bank.", "answer": "à la" },
+    { "case": "al-alapos", "type": "mc", "q": "Les enfants vont ___école.", "en": "The children go to school.", "options": ["à l'", "au", "à la"], "answer": "à l'" },
+    { "case": "al-alapos", "type": "type", "q": "Il va ___hôpital.", "en": "He's going to the hospital.", "answer": "à l'" },
+    { "case": "al-aux", "type": "mc", "q": "Je vais ___ toilettes.", "en": "I'm going to the toilet.", "options": ["aux", "au", "à les"], "answer": "aux" },
+    { "case": "al-aux", "type": "type", "q": "Ils vont ___ États-Unis.", "en": "They're going to the United States.", "answer": "aux" },
+    { "case": "al-chez", "type": "mc", "q": "Je vais ___ Léa.", "en": "I'm going to Léa's place.", "options": ["chez", "à", "au"], "answer": "chez" },
+    { "case": "al-chez", "type": "type", "q": "Je rentre ___ moi.", "en": "I'm going home.", "answer": "chez" },
+    { "case": "al-city", "type": "mc", "q": "Nous allons ___ Paris.", "en": "We're going to Paris.", "options": ["à", "en", "au"], "answer": "à" },
+    { "case": "al-city", "type": "type", "q": "J'habite ___ Lyon.", "en": "I live in Lyon.", "answer": "à" },
+    { "case": "al-country", "type": "mc", "q": "Sophie va ___ Espagne.", "en": "Sophie is going to Spain.", "options": ["en", "au", "à"], "answer": "en", "why": "Feminine country (ends in -e): **en**." },
+    { "case": "al-country", "type": "mc", "q": "Antoine habite ___ Canada.", "en": "Antoine lives in Canada.", "options": ["au", "en", "à"], "answer": "au", "why": "Masculine country: **au**." },
+    { "case": "al-country", "type": "type", "q": "Tom va ___ Angleterre.", "en": "Tom is going to England.", "answer": "en" },
+    { "case": "al-de", "type": "mc", "q": "Je viens ___ [marché|marche].", "en": "I'm coming from the market.", "options": ["du", "de le", "au"], "answer": "du" },
+    { "case": "al-de", "type": "type", "q": "Elle revient ___ banque.", "en": "She's coming back from the bank.", "answer": "de la" },
+    { "case": "al-de", "type": "mc", "q": "Ils viennent ___ États-Unis.", "en": "They come from the United States.", "options": ["des", "de les", "aux"], "answer": "des" }
+  ]
+}

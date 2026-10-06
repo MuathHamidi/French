@@ -1,0 +1,245 @@
+{
+  "id": "u20-media",
+  "type": "vocab",
+  "unit": 20,
+  "title": "Les médias",
+  "en": "The media",
+  "intro": "25 words for TV, radio, newspapers and social media: channels and programmes, the news, reports and interviews, videos and followers. Remember: **à la télé, à la radio**, but **sur internet, sur les réseaux sociaux**.",
+  "words": [
+    { "id": "medias", "fr": "médias", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "me.dja", "en": "the media",
+      "def": "La télé, la radio, les journaux, internet : tout ce qui donne des informations.", "def_en": "TV, radio, newspapers, the internet: everything that gives you information.",
+      "forms": ["média"],
+      "examples": [
+        { "fr": "Les **médias** parlent beaucoup de cette histoire.", "en": "The media are talking a lot about this story." },
+        { "fr": "Il travaille dans les **médias**.", "en": "He works in the media." },
+        { "fr": "Les jeunes préfèrent les **médias** en ligne.", "en": "Young people prefer online media." }
+      ] },
+    { "id": "journal", "fr": "journal", "pos": "noun", "g": "m", "ipa": "ʒuʁ.nal", "en": "newspaper; (TV) the news",
+      "def": "Des pages avec les informations du jour. Aussi : les informations à la télé.", "def_en": "Pages with the day's news. Also: the news on TV.",
+      "forms": ["journaux"],
+      "examples": [
+        { "fr": "Papi lit le **journal** tous les matins.", "en": "Grandpa reads the newspaper every morning." },
+        { "fr": "On regarde le **journal** de vingt heures.", "en": "We watch the eight o'clock news." },
+        { "fr": "C'est dans tous les **journaux** !", "en": "It's in all the papers!" }
+      ],
+      "note": "Plural: **les journaux**. **un journal intime** = a diary." },
+    { "id": "magazine", "fr": "magazine", "pos": "noun", "g": "m", "ipa": "ma.ɡa.zin", "en": "magazine",
+      "def": "Un journal avec beaucoup de photos, qui sort chaque semaine ou chaque mois.", "def_en": "A publication with lots of photos, out every week or every month.",
+      "forms": ["magazines"],
+      "examples": [
+        { "fr": "Inès est dans un **magazine** de mode !", "en": "Inès is in a fashion magazine!" },
+        { "fr": "J'achète un **magazine** pour le train.", "en": "I'm buying a magazine for the train." },
+        { "fr": "C'est un **magazine** pour les enfants.", "en": "It's a magazine for children." }
+      ] },
+    { "id": "radio", "fr": "radio", "pos": "noun", "g": "f", "ipa": "ʁa.djo", "en": "radio",
+      "def": "L'appareil où on écoute de la musique et les informations, sans images.", "def_en": "The device where you listen to music and the news, without pictures.",
+      "forms": ["radios"],
+      "examples": [
+        { "fr": "J'écoute la **radio** dans la voiture.", "en": "I listen to the radio in the car." },
+        { "fr": "Il y a une chanson de Stromae à la **radio** !", "en": "There's a Stromae song on the radio!" },
+        { "fr": "Mamie écoute les informations à la **radio**.", "en": "Grandma listens to the news on the radio." }
+      ],
+      "note": "**à la radio** = on the radio; **à la télé** = on TV." },
+    { "id": "chaine", "fr": "chaîne", "pos": "noun", "g": "f", "ipa": "ʃɛn", "en": "(TV) channel; chain",
+      "def": "Une station de télévision : on change de chaîne avec la télécommande.", "def_en": "A TV station: you change channel with the remote.",
+      "forms": ["chaînes"],
+      "examples": [
+        { "fr": "Le match est sur quelle **chaîne** ?", "en": "What channel is the match on?" },
+        { "fr": "Il y a beaucoup de **chaînes** à la télé.", "en": "There are lots of TV channels." },
+        { "fr": "Elle porte une petite **chaîne** au cou.", "en": "She wears a little chain round her neck." }
+      ] },
+    { "id": "emission", "fr": "émission", "pos": "noun", "g": "f", "ipa": "e.mi.sjɔ̃", "en": "(TV or radio) programme, show",
+      "def": "Un programme à la télé ou à la radio.", "def_en": "A programme on TV or on the radio.",
+      "forms": ["émissions"],
+      "examples": [
+        { "fr": "C'est mon **émission** préférée.", "en": "It's my favourite programme." },
+        { "fr": "Cette **émission** de cuisine est très drôle.", "en": "This cooking show is very funny." },
+        { "fr": "L'**émission** commence à vingt et une heures.", "en": "The programme starts at nine p.m." }
+      ] },
+    { "id": "documentaire", "fr": "documentaire", "pos": "noun", "g": "m", "ipa": "dɔ.ky.mɑ̃.tɛʁ", "en": "documentary",
+      "def": "Un film qui montre la réalité : la nature, les animaux, l'histoire…", "def_en": "A film showing real life: nature, animals, history…",
+      "forms": ["documentaires"],
+      "examples": [
+        { "fr": "On regarde un **documentaire** sur les loups.", "en": "We're watching a documentary about wolves." },
+        { "fr": "J'adore les **documentaires** sur la nature.", "en": "I love nature documentaries." },
+        { "fr": "Ce **documentaire** est très intéressant.", "en": "This documentary is very interesting." }
+      ] },
+    { "id": "publicite", "fr": "publicité", "pos": "noun", "g": "f", "ipa": "py.bli.si.te", "en": "advertising; advert",
+      "def": "Un petit film ou une image pour vendre un produit.", "def_en": "A short film or a picture to sell a product.",
+      "forms": ["publicités"],
+      "examples": [
+        { "fr": "Il y a trop de **publicité** à la télé !", "en": "There's too much advertising on TV!" },
+        { "fr": "Inès fait une **publicité** pour un parfum.", "en": "Inès is doing an advert for a perfume." },
+        { "fr": "Je vais dans la cuisine pendant la **publicité**.", "en": "I go into the kitchen during the adverts." }
+      ],
+      "note": "In speech: **la pub**." },
+    { "id": "information", "fr": "information", "pos": "noun", "g": "f", "ipa": "ɛ̃.fɔʁ.ma.sjɔ̃", "en": "information; (les informations) the news",
+      "def": "Ce qu'on apprend sur un sujet. Les informations : ce qui se passe dans le monde, à la télé ou à la radio.", "def_en": "What you learn about a subject. Les informations: what's happening in the world, on TV or the radio.",
+      "forms": ["informations"],
+      "examples": [
+        { "fr": "J'écoute les **informations** à la radio le matin.", "en": "I listen to the news on the radio in the morning." },
+        { "fr": "Merci pour l'**information** !", "en": "Thanks for the information!" },
+        { "fr": "Tu as des **informations** sur l'accident ?", "en": "Have you got any information about the accident?" }
+      ],
+      "note": "In speech: **les infos** (the news)." },
+    { "id": "actualite", "fr": "actualité", "pos": "noun", "g": "f", "ipa": "ak.tɥa.li.te", "en": "current affairs, the news",
+      "def": "Ce qui se passe en ce moment dans le monde.", "def_en": "What's happening in the world right now.",
+      "forms": ["actualités"],
+      "examples": [
+        { "fr": "Mamie aime parler de l'**actualité**.", "en": "Grandma likes talking about current affairs." },
+        { "fr": "C'est l'**actualité** du jour.", "en": "It's today's news." },
+        { "fr": "Cette question est toujours d'**actualité**.", "en": "This question is still topical." }
+      ] },
+    { "id": "article", "fr": "article", "pos": "noun", "g": "m", "ipa": "aʁ.tikl", "en": "article; item",
+      "def": "Un texte dans un journal, un magazine ou sur un site.", "def_en": "A piece of writing in a newspaper, a magazine or on a website.",
+      "forms": ["articles"],
+      "examples": [
+        { "fr": "J'ai lu un **article** sur Lyon.", "en": "I read an article about Lyon." },
+        { "fr": "Tom écrit des **articles** pour un site de musique.", "en": "Tom writes articles for a music website." },
+        { "fr": "Cet **article** est très long.", "en": "This article is very long." }
+      ] },
+    { "id": "reportage", "fr": "reportage", "pos": "noun", "g": "m", "ipa": "ʁə.pɔʁ.taʒ", "en": "report (TV, newspaper)",
+      "def": "Une émission ou un article où un journaliste montre ce qu'il a vu sur place.", "def_en": "A programme or article where a journalist shows what they saw on the spot.",
+      "forms": ["reportages"],
+      "examples": [
+        { "fr": "Il y a un **reportage** sur le marché de Noël.", "en": "There's a report on the Christmas market." },
+        { "fr": "Les journalistes font un **reportage** dans la rue.", "en": "The journalists are doing a report in the street." },
+        { "fr": "Ce **reportage** est passé à la télé hier soir.", "en": "This report was on TV last night." }
+      ] },
+    { "id": "interview", "fr": "interview", "pos": "noun", "g": "f", "ipa": "ɛ̃.tɛʁ.vju", "en": "interview (in the media)",
+      "def": "Quand un journaliste pose des questions à une personne.", "def_en": "When a journalist asks someone questions.",
+      "forms": ["interviews"],
+      "examples": [
+        { "fr": "Le chanteur donne une **interview** à la radio.", "en": "The singer gives an interview on the radio." },
+        { "fr": "J'ai lu l'**interview** de Stromae.", "en": "I read Stromae's interview." },
+        { "fr": "Le journaliste prépare ses questions pour l'**interview**.", "en": "The journalist prepares his questions for the interview." }
+      ],
+      "note": "**une interview** is for the media; for a job, it's **un entretien**." },
+    { "id": "presentateur", "fr": "présentateur", "pos": "noun", "g": "m", "ipa": "pʁe.zɑ̃.ta.tœʁ", "display": "le présentateur, la présentatrice", "en": "presenter, newsreader",
+      "def": "La personne qui présente une émission ou les informations.", "def_en": "The person who presents a programme or the news.",
+      "forms": ["présentatrice", "présentateurs", "présentatrices"],
+      "accept": ["présentatrice", "la présentatrice", "une présentatrice"],
+      "examples": [
+        { "fr": "Le **présentateur** du journal est très sérieux.", "en": "The newsreader is very serious." },
+        { "fr": "La **présentatrice** sourit à la caméra.", "en": "The presenter smiles at the camera." },
+        { "fr": "Il veut être **présentateur** à la télé.", "en": "He wants to be a TV presenter." }
+      ] },
+    { "id": "en-direct", "fr": "en direct", "pos": "expr", "ipa": "ɑ̃ di.ʁɛkt", "en": "live (on TV, radio)",
+      "def": "Au moment même où les choses arrivent.", "def_en": "At the very moment things happen.",
+      "examples": [
+        { "fr": "Le match passe **en direct** à la télé.", "en": "The match is live on TV." },
+        { "fr": "Nous sommes **en direct** de Lyon !", "en": "We're live from Lyon!" },
+        { "fr": "Elle chante **en direct** à la radio.", "en": "She's singing live on the radio." }
+      ] },
+    { "id": "reseaux-sociaux", "fr": "réseaux sociaux", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "ʁe.zo so.sjo", "en": "social media",
+      "def": "Les sites et les applications où on partage des photos, des vidéos et des messages.", "def_en": "The websites and apps where people share photos, videos and messages.",
+      "forms": ["réseau social"],
+      "examples": [
+        { "fr": "Hugo passe trois heures par jour sur les **réseaux sociaux** !", "en": "Hugo spends three hours a day on social media!" },
+        { "fr": "Inès a beaucoup d'abonnés sur les **réseaux sociaux**.", "en": "Inès has a lot of followers on social media." },
+        { "fr": "Ne mets pas tout sur les **réseaux sociaux** !", "en": "Don't put everything on social media!" }
+      ] },
+    { "id": "abonne", "fr": "abonné", "pos": "noun", "g": "m", "ipa": "a.bɔ.ne", "display": "l'abonné, l'abonnée", "en": "subscriber, follower",
+      "def": "Une personne qui suit un compte sur les réseaux sociaux, ou qui reçoit un journal chaque semaine.", "def_en": "Someone who follows an account on social media, or gets a newspaper every week.",
+      "forms": ["abonnée", "abonnés", "abonnées"],
+      "accept": ["abonnée", "l'abonnée", "une abonnée"],
+      "examples": [
+        { "fr": "Elle a dix mille **abonnés** !", "en": "She has ten thousand followers!" },
+        { "fr": "Je suis **abonné** à un magazine de sport.", "en": "I subscribe to a sports magazine." },
+        { "fr": "Merci à tous mes **abonnés** !", "en": "Thank you to all my followers!" }
+      ] },
+    { "id": "video", "fr": "vidéo", "pos": "noun", "g": "f", "ipa": "vi.de.o", "en": "video",
+      "def": "Un petit film qu'on regarde sur un écran.", "def_en": "A short film you watch on a screen.",
+      "forms": ["vidéos"],
+      "examples": [
+        { "fr": "Regarde cette **vidéo** : le chat est trop drôle !", "en": "Watch this video: the cat is so funny!" },
+        { "fr": "Lou fait une **vidéo** de son lapin.", "en": "Lou makes a video of her rabbit." },
+        { "fr": "La **vidéo** de Hugo a cent mille vues !", "en": "Hugo's video has a hundred thousand views!" }
+      ] },
+    { "id": "public", "fr": "public", "pos": "noun", "g": "m", "ipa": "py.blik", "en": "audience; the public (en public = in public)",
+      "def": "Les personnes qui regardent un spectacle, une émission ou un match.", "def_en": "The people watching a show, a programme or a match.",
+      "examples": [
+        { "fr": "Le **public** applaudit.", "en": "The audience claps." },
+        { "fr": "Il a peur de parler en **public**.", "en": "He's scared of speaking in public." },
+        { "fr": "Ce film est pour un **public** jeune.", "en": "This film is for a young audience." }
+      ] },
+    { "id": "vedette", "fr": "vedette", "pos": "noun", "g": "f", "ipa": "və.dɛt", "en": "star, celebrity",
+      "def": "Une personne très connue : un acteur, un chanteur…", "def_en": "A very well-known person: an actor, a singer…",
+      "forms": ["vedettes"],
+      "examples": [
+        { "fr": "Hugo est la **vedette** du jour !", "en": "Hugo is the star of the day!" },
+        { "fr": "Cette **vedette** de cinéma habite à Paris.", "en": "This film star lives in Paris." },
+        { "fr": "Inès rêve d'être une **vedette**.", "en": "Inès dreams of being a star." }
+      ],
+      "note": "**une vedette** is always feminine, even for a man." },
+    { "id": "celebre", "fr": "célèbre", "pos": "adj", "ipa": "se.lɛbʁ", "en": "famous",
+      "def": "Très [connu|connu-adj].", "def_en": "Very well known.",
+      "forms": ["célèbres"],
+      "examples": [
+        { "fr": "Stromae est un chanteur **célèbre**.", "en": "Stromae is a famous singer." },
+        { "fr": "La tour Eiffel est **célèbre** partout dans le monde.", "en": "The Eiffel Tower is famous all over the world." },
+        { "fr": "Un jour, je serai **célèbre** !", "en": "One day, I'll be famous!" }
+      ] },
+    { "id": "ecouter", "fr": "écouter", "pos": "verb", "ipa": "e.ku.te", "en": "to listen (to)",
+      "def": "Faire attention à ce qu'on entend : la musique, une personne qui parle…", "def_en": "To pay attention to what you hear: music, someone talking…",
+      "forms": ["écoute", "écoutes", "écoutons", "écoutez", "écoutent", "écouté", "écoutais", "écoutait", "écoutions", "écoutiez", "écoutaient", "écouterai", "écouteras", "écoutera", "écouterons", "écouterez", "écouteront"],
+      "examples": [
+        { "fr": "J'**écoute** la radio.", "en": "I'm listening to the radio." },
+        { "fr": "**Écoute**-moi bien !", "en": "Listen to me carefully!" },
+        { "fr": "Tu ne m'**écoutes** jamais !", "en": "You never listen to me!" }
+      ],
+      "note": "No preposition: **écouter la radio** = to listen **to** the radio." },
+    { "id": "regarder", "fr": "regarder", "pos": "verb", "ipa": "ʁə.ɡaʁ.de", "en": "to look (at), to watch",
+      "def": "Utiliser ses yeux pour voir quelque chose.", "def_en": "To use your eyes to see something.",
+      "forms": ["regarde", "regardes", "regardons", "regardez", "regardent", "regardé", "regardais", "regardait", "regardions", "regardiez", "regardaient", "regarderai", "regarderas", "regardera", "regarderons", "regarderez", "regarderont"],
+      "examples": [
+        { "fr": "On **regarde** un film ce soir ?", "en": "Shall we watch a film tonight?" },
+        { "fr": "**Regarde** ! Il neige !", "en": "Look! It's snowing!" },
+        { "fr": "Lou **regarde** les dessins animés.", "en": "Lou watches cartoons." }
+      ],
+      "note": "No preposition: **regarder la télé** = to watch TV; **regarder quelqu'un** = to look **at** someone." },
+    { "id": "eteindre", "fr": "éteindre", "pos": "verb", "ipa": "e.tɛ̃dʁ", "en": "to switch off; to put out (a fire)",
+      "def": "Arrêter une machine ou une lumière. Aussi : arrêter un feu.", "def_en": "To stop a machine or a light. Also: to put out a fire.",
+      "extra": "j'**éteins**, il **éteint**, nous **éteignons**, ils **éteignent**; j'ai **éteint**.",
+      "forms": ["éteins", "éteint", "éteinte", "éteignons", "éteignez", "éteignent", "éteignais", "éteignait", "éteignions", "éteigniez", "éteignaient", "éteindrai", "éteindras", "éteindra", "éteindrons", "éteindrez", "éteindront"],
+      "examples": [
+        { "fr": "**Éteins** la télé, c'est l'heure du dîner !", "en": "Switch off the TV, it's dinner time!" },
+        { "fr": "N'oublie pas d'**éteindre** la lumière.", "en": "Don't forget to turn off the light." },
+        { "fr": "Les pompiers **éteignent** le feu.", "en": "The firefighters put out the fire." }
+      ],
+      "note": "The opposite is **allumer** (to switch on)." },
+    { "id": "telecommande", "fr": "télécommande", "pos": "noun", "g": "f", "ipa": "te.le.kɔ.mɑ̃d", "en": "remote control",
+      "def": "Le petit objet pour changer de chaîne sans se lever.", "def_en": "The little gadget for changing channel without getting up.",
+      "forms": ["télécommandes"],
+      "examples": [
+        { "fr": "Où est la **télécommande** ?", "en": "Where's the remote?" },
+        { "fr": "Hugo garde toujours la **télécommande** !", "en": "Hugo always hogs the remote!" },
+        { "fr": "La **télécommande** est sous le coussin.", "en": "The remote is under the cushion." }
+      ] }
+  ],
+  "story": {
+    "title": "Hugo à la télé",
+    "en": "A TV crew stops Hugo in the street. It doesn't go to plan.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vingt-neuf décembre, une équipe de télévision fait un reportage dans les rues de Lyon.", "en": "On 29 December, a TV crew is doing a report in the streets of Lyon." },
+      { "sp": "", "fr": "La question du jour : « Quelle est votre résolution pour la nouvelle année ? »", "en": "The question of the day: 'What's your New Year's resolution?'" },
+      { "sp": "", "fr": "La journaliste arrête Hugo devant la gare.", "en": "The journalist stops Hugo outside the station." },
+      { "sp": "La journaliste", "fr": "Bonjour, monsieur ! C'est pour une émission de France 3. Vous voulez bien répondre à une petite interview ?", "en": "Hello, sir! It's for a programme on France 3. Would you mind doing a short interview?" },
+      { "sp": "Hugo", "fr": "Moi ? À la télé ? Avec plaisir !", "en": "Me? On TV? With pleasure!" },
+      { "sp": "La journaliste", "fr": "Attention, nous sommes en direct ! Votre résolution pour l'année prochaine ?", "en": "Careful, we're live! Your resolution for next year?" },
+      { "sp": "Hugo", "fr": "Euh… Moins de réseaux sociaux, moins de vidéos de chats… et plus de sport !", "en": "Er… Less social media, fewer cat videos… and more sport!" },
+      { "sp": "", "fr": "Mais pendant l'interview, Hugo glisse sur le trottoir… et tombe dans une poubelle !", "en": "But during the interview, Hugo slips on the pavement… and falls into a bin!" },
+      { "sp": "", "fr": "À la maison, Léa et Sophie regardent les informations. Sophie a la télécommande.", "en": "At home, Léa and Sophie are watching the news. Sophie has the remote." },
+      { "sp": "Sophie", "fr": "Léa ! Regarde ! Sur la troisième chaîne… c'est Hugo !", "en": "Léa! Look! On channel three… it's Hugo!" },
+      { "sp": "Léa", "fr": "Dans une poubelle… en direct ! Le présentateur rit, le public rit…", "en": "In a bin… live! The presenter's laughing, the audience is laughing…" },
+      { "sp": "", "fr": "Le lendemain, la vidéo est partout sur internet. Elle a déjà cent mille vues !", "en": "The next day, the video is all over the internet. It already has a hundred thousand views!" },
+      { "sp": "", "fr": "Les médias adorent cette histoire : les journaux en parlent, un magazine veut une photo, une radio veut une interview…", "en": "The media love this story: the papers are talking about it, a magazine wants a photo, a radio station wants an interview…" },
+      { "sp": "Inès", "fr": "Hugo, tu es une vedette ! Sur les réseaux sociaux, tu as maintenant cinq mille abonnés !", "en": "Hugo, you're a star! On social media, you've now got five thousand followers!" },
+      { "sp": "Hugo", "fr": "Je suis célèbre… à cause d'une poubelle. Quelle honte !", "en": "I'm famous… because of a bin. How embarrassing!" },
+      { "sp": "Léa", "fr": "Mais non ! Écoute : une marque de poubelles veut faire une publicité avec toi !", "en": "Not at all! Listen: a bin company wants to make an advert with you!" },
+      { "sp": "Hugo", "fr": "Bon… Je vais éteindre mon portable et regarder un documentaire sur les animaux. C'est plus calme.", "en": "Right… I'm going to switch off my phone and watch a documentary about animals. It's calmer." },
+      { "sp": "", "fr": "Une heure plus tard, il lit encore les articles sur lui dans l'actualité de Lyon…", "en": "An hour later, he's still reading the articles about him in the Lyon news…" }
+    ]
+  }
+}

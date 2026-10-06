@@ -1,0 +1,252 @@
+{
+  "id": "u18-appearance",
+  "type": "vocab",
+  "unit": 18,
+  "title": "L'apparence physique",
+  "en": "Describing people",
+  "intro": "25 words to describe what people look like: slim or strong, ginger or bald, curly or straight hair, a beard, wrinkles, a tattoo… For height and weight, French uses verbs: **je mesure 1 m 70**, **je pèse 60 kilos**.",
+  "words": [
+    { "id": "apparence", "fr": "apparence", "pos": "noun", "g": "f", "ipa": "a.pa.ʁɑ̃s", "en": "appearance, looks",
+      "def": "Comment est une personne ou une chose quand on la regarde.", "def_en": "What a person or a thing looks like when you look at them.",
+      "forms": ["apparences"],
+      "examples": [
+        { "fr": "Il fait attention à son **apparence**.", "en": "He takes care of his appearance." },
+        { "fr": "Il ne faut pas juger sur les **apparences**.", "en": "Don't judge by appearances." },
+        { "fr": "L'**apparence**, ce n'est pas le plus important.", "en": "Looks aren't the most important thing." }
+      ] },
+    { "id": "physique", "fr": "physique", "pos": "adj", "ipa": "fi.zik", "en": "physical; (le physique) looks, build",
+      "def": "Pour le corps : la taille, les cheveux, le visage…", "def_en": "About the body: height, hair, face…",
+      "forms": ["physiques"],
+      "examples": [
+        { "fr": "Décris-moi son **physique** !", "en": "Describe what he looks like!" },
+        { "fr": "Le sport, c'est une activité **physique**.", "en": "Sport is a physical activity." },
+        { "fr": "Elle a un **physique** de mannequin.", "en": "She has a model's figure." }
+      ],
+      "note": "**le physique** (masculine) = what someone looks like; **la physique** (feminine) = physics!" },
+    { "id": "mince", "fr": "mince", "pos": "adj", "ipa": "mɛ̃s", "en": "slim, thin",
+      "def": "Qui n'est pas gros.", "def_en": "Not fat.",
+      "forms": ["minces"],
+      "examples": [
+        { "fr": "Inès est grande et **mince**.", "en": "Inès is tall and slim." },
+        { "fr": "Il est **mince** comme un fil.", "en": "He's as thin as a rake." },
+        { "fr": "**Mince** ! J'ai oublié mes clés !", "en": "Darn! I've forgotten my keys!" }
+      ],
+      "note": "**Mince !** is also a mild exclamation: *Darn! Oh no!*" },
+    { "id": "gros", "fr": "gros", "pos": "adj", "ipa": "ɡʁo", "display": "gros, grosse", "en": "big, fat",
+      "def": "Qui a beaucoup de poids ; qui est grand et large.", "def_en": "Heavy; big and wide.",
+      "forms": ["grosse", "grosses"],
+      "accept": ["grosse"],
+      "examples": [
+        { "fr": "Mon chat est un peu **gros** : il mange trop !", "en": "My cat is a bit fat: he eats too much!" },
+        { "fr": "C'est une **grosse** valise !", "en": "That's a big suitcase!" },
+        { "fr": "Il a un **gros** rhume.", "en": "He has a bad cold." }
+      ],
+      "note": "**gros** goes before the noun: *un gros chien*. About people it can be rude: **fort** is kinder." },
+    { "id": "maigre", "fr": "maigre", "pos": "adj", "ipa": "mɛɡʁ", "en": "skinny, too thin",
+      "def": "Trop mince ; qui n'a pas assez de poids.", "def_en": "Too thin; not heavy enough.",
+      "forms": ["maigres"],
+      "examples": [
+        { "fr": "Ce chien est très **maigre** : il a faim.", "en": "This dog is very skinny: he's hungry." },
+        { "fr": "Tu es trop **maigre**, mange un peu !", "en": "You're too thin, eat something!" },
+        { "fr": "Après sa maladie, il est devenu très **maigre**.", "en": "After his illness, he got very thin." }
+      ] },
+    { "id": "fort", "fr": "fort", "pos": "adj", "ipa": "fɔʁ", "display": "fort, forte", "en": "strong; well-built; loud; good (at)",
+      "def": "Qui a beaucoup de force dans les muscles. Aussi : bon dans une matière.", "def_en": "Who has a lot of strength in their muscles. Also: good at a subject.",
+      "forms": ["forte", "forts", "fortes"],
+      "accept": ["forte"],
+      "examples": [
+        { "fr": "Il est très **fort** : il porte le canapé tout seul !", "en": "He's very strong: he carries the sofa on his own!" },
+        { "fr": "Léa est **forte** en maths.", "en": "Léa is good at maths." },
+        { "fr": "Parle plus **fort**, je n'entends pas !", "en": "Speak up, I can't hear!" }
+      ] },
+    { "id": "muscle-adj", "fr": "musclé", "pos": "adj", "ipa": "mys.kle", "display": "musclé, musclée", "en": "muscular",
+      "def": "Qui a de gros muscles.", "def_en": "Who has big muscles.",
+      "forms": ["musclée", "musclés", "musclées"],
+      "accept": ["musclée"],
+      "examples": [
+        { "fr": "Le nouveau prof de sport est très **musclé**.", "en": "The new PE teacher is very muscular." },
+        { "fr": "Elle a des jambes **musclées** : elle court tous les jours.", "en": "She has muscular legs: she runs every day." },
+        { "fr": "Pour être **musclé**, il faut faire du sport.", "en": "To get muscular, you have to do sport." }
+      ] },
+    { "id": "moche", "fr": "moche", "pos": "adj", "ipa": "mɔʃ", "en": "ugly (informal)",
+      "def": "Pas beau du tout (on le dit entre amis).", "def_en": "Not beautiful at all (said among friends).",
+      "forms": ["moches"],
+      "examples": [
+        { "fr": "Ce pull est trop **moche** !", "en": "That jumper is so ugly!" },
+        { "fr": "Il fait **moche** aujourd'hui.", "en": "The weather's horrible today." },
+        { "fr": "Mon dessin est **moche**…", "en": "My drawing is ugly…" }
+      ],
+      "note": "Informal. In careful French: **laid**." },
+    { "id": "laid", "fr": "laid", "pos": "adj", "ipa": "lɛ", "display": "laid, laide", "en": "ugly",
+      "def": "Le contraire de beau.", "def_en": "The opposite of beautiful.",
+      "forms": ["laide", "laids", "laides"],
+      "accept": ["laide"],
+      "examples": [
+        { "fr": "Ce bâtiment est vraiment **laid**.", "en": "This building is really ugly." },
+        { "fr": "Je ne suis pas **laide**, je suis fatiguée !", "en": "I'm not ugly, I'm tired!" },
+        { "fr": "Il n'y a pas de gens **laids**, seulement des gens tristes.", "en": "There are no ugly people, only sad people." }
+      ],
+      "note": "**laid** /lɛ/ sounds exactly like **lait** (milk)!" },
+    { "id": "beaute", "fr": "beauté", "pos": "noun", "g": "f", "ipa": "bo.te", "en": "beauty",
+      "def": "Quand une personne ou une chose est belle.", "def_en": "When a person or a thing is beautiful.",
+      "examples": [
+        { "fr": "La **beauté** de Paris est célèbre.", "en": "The beauty of Paris is famous." },
+        { "fr": "Inès travaille pour un magazine de **beauté**.", "en": "Inès works for a beauty magazine." },
+        { "fr": "La vraie **beauté** est à l'intérieur.", "en": "True beauty is on the inside." }
+      ] },
+    { "id": "roux", "fr": "roux", "pos": "adj", "ipa": "ʁu", "display": "roux, rousse", "en": "red-haired, ginger",
+      "def": "Qui a les cheveux orange-rouge.", "def_en": "With orange-red hair.",
+      "forms": ["rousse", "rousses"],
+      "accept": ["rousse"],
+      "examples": [
+        { "fr": "Tom a les cheveux **roux**.", "en": "Tom has red hair." },
+        { "fr": "Sa petite sœur est **rousse**.", "en": "His little sister is a redhead." },
+        { "fr": "Le chat **roux** dort au soleil.", "en": "The ginger cat is asleep in the sun." }
+      ] },
+    { "id": "chauve", "fr": "chauve", "pos": "adj", "ipa": "ʃov", "en": "bald",
+      "def": "Qui n'a plus de cheveux.", "def_en": "Who has no hair any more.",
+      "forms": ["chauves"],
+      "examples": [
+        { "fr": "Mon grand-père est **chauve**.", "en": "My grandfather is bald." },
+        { "fr": "Il est devenu **chauve** à quarante ans.", "en": "He went bald at forty." },
+        { "fr": "Le chanteur a la tête **chauve** et une grande barbe.", "en": "The singer has a bald head and a big beard." }
+      ] },
+    { "id": "barbe", "fr": "barbe", "pos": "noun", "g": "f", "ipa": "baʁb", "en": "beard",
+      "def": "Les poils qui poussent sur le visage d'un homme, autour de la bouche.", "def_en": "The hair that grows on a man's face, around the mouth.",
+      "forms": ["barbes"],
+      "examples": [
+        { "fr": "Le père Noël a une longue **barbe** blanche.", "en": "Father Christmas has a long white beard." },
+        { "fr": "Hugo laisse pousser sa **barbe**.", "en": "Hugo is growing a beard." },
+        { "fr": "Tu es plus beau sans **barbe** !", "en": "You look better without a beard!" }
+      ],
+      "note": "**La barbe !** = What a bore!" },
+    { "id": "moustache", "fr": "moustache", "pos": "noun", "g": "f", "ipa": "mus.taʃ", "en": "moustache; whiskers",
+      "def": "Les poils au-dessus de la bouche. Les chats aussi ont des moustaches.", "def_en": "The hair above the mouth. Cats have whiskers too.",
+      "forms": ["moustaches"],
+      "examples": [
+        { "fr": "Mon oncle a une grosse **moustache**.", "en": "My uncle has a big moustache." },
+        { "fr": "Minou a de longues **moustaches** blanches.", "en": "Minou has long white whiskers." },
+        { "fr": "Lou dessine une **moustache** sur la photo de Papa.", "en": "Lou draws a moustache on Dad's photo." }
+      ] },
+    { "id": "frise", "fr": "frisé", "pos": "adj", "ipa": "fʁi.ze", "display": "frisé, frisée", "en": "curly",
+      "def": "Pour les cheveux : qui font beaucoup de petits ronds.", "def_en": "For hair: making lots of little curls.",
+      "forms": ["frisée", "frisés", "frisées"],
+      "accept": ["frisée"],
+      "examples": [
+        { "fr": "Sophie a les cheveux **frisés**.", "en": "Sophie has curly hair." },
+        { "fr": "Il est brun et **frisé**.", "en": "He has curly dark hair." },
+        { "fr": "J'aime bien la salade **frisée**.", "en": "I like frisée lettuce." }
+      ] },
+    { "id": "raide", "fr": "raide", "pos": "adj", "ipa": "ʁɛd", "en": "straight (hair); stiff",
+      "def": "Pour les cheveux : tout droits, pas frisés. Aussi : qui ne plie pas.", "def_en": "For hair: completely straight, not curly. Also: that doesn't bend.",
+      "forms": ["raides"],
+      "examples": [
+        { "fr": "Léa a les cheveux longs et **raides**.", "en": "Léa has long straight hair." },
+        { "fr": "Après le sport, j'ai les jambes **raides**.", "en": "After sport, my legs are stiff." },
+        { "fr": "Tu préfères les cheveux **raides** ou frisés ?", "en": "Do you prefer straight hair or curly?" }
+      ] },
+    { "id": "poids", "fr": "poids", "pos": "noun", "g": "m", "ipa": "pwa", "en": "weight",
+      "def": "Combien une personne ou une chose pèse, en kilos.", "def_en": "How much a person or a thing weighs, in kilos.",
+      "examples": [
+        { "fr": "Quel est ton **poids** ? — Soixante kilos.", "en": "What's your weight? — Sixty kilos." },
+        { "fr": "Il a pris du **poids** pendant les vacances.", "en": "He put on weight during the holidays." },
+        { "fr": "Attention au **poids** de ta valise : vingt-trois kilos maximum !", "en": "Mind the weight of your suitcase: twenty-three kilos maximum!" }
+      ],
+      "note": "The **ds** is silent: /pwa/. **prendre du poids** = to put on weight; **perdre du poids** = to lose weight." },
+    { "id": "mesurer", "fr": "mesurer", "pos": "verb", "ipa": "mə.zy.ʁe", "en": "to measure; to be … tall",
+      "def": "Trouver la taille d'une chose. Aussi : avoir une taille : je mesure un mètre soixante-dix.", "def_en": "To find the size of something. Also: to be a certain height: I'm one metre seventy.",
+      "forms": ["mesure", "mesures", "mesurons", "mesurez", "mesurent", "mesuré", "mesurais", "mesurait", "mesurions", "mesuriez", "mesuraient", "mesurerai", "mesureras", "mesurera", "mesurerons", "mesurerez", "mesureront"],
+      "examples": [
+        { "fr": "Je **mesure** un mètre quatre-vingts.", "en": "I'm one metre eighty." },
+        { "fr": "Combien tu **mesures** ?", "en": "How tall are you?" },
+        { "fr": "On **mesure** la fenêtre avant d'acheter les rideaux.", "en": "We measure the window before buying the curtains." }
+      ],
+      "note": "Height: **je mesure 1 m 75** (un mètre soixante-quinze). Not *je suis 1 m 75*." },
+    { "id": "peser", "fr": "peser", "pos": "verb", "ipa": "pə.ze", "en": "to weigh",
+      "def": "Avoir un certain poids ; trouver le poids d'une chose.", "def_en": "To have a certain weight; to find the weight of something.",
+      "extra": "e → è before a silent ending: je **pèse**, tu **pèses**, il **pèse**, nous **pesons**, vous **pesez**, ils **pèsent**.",
+      "forms": ["pèse", "pèses", "pesons", "pesez", "pèsent", "pesé", "pesais", "pesait", "pesions", "pesiez", "pesaient", "pèserai", "pèseras", "pèsera", "pèserons", "pèserez", "pèseront"],
+      "examples": [
+        { "fr": "Je **pèse** soixante kilos.", "en": "I weigh sixty kilos." },
+        { "fr": "Le bébé **pèse** trois kilos.", "en": "The baby weighs three kilos." },
+        { "fr": "La vendeuse **pèse** les tomates.", "en": "The shop assistant weighs the tomatoes." }
+      ] },
+    { "id": "age-adj", "fr": "âgé", "pos": "adj", "ipa": "ɑ.ʒe", "display": "âgé, âgée", "en": "old, elderly",
+      "def": "Qui a beaucoup d'années ; plus poli que « vieux ».", "def_en": "Who has lived many years; more polite than 'vieux'.",
+      "forms": ["âgée", "âgés", "âgées"],
+      "accept": ["âgée"],
+      "examples": [
+        { "fr": "Les personnes **âgées** ont souvent froid.", "en": "Elderly people often feel the cold." },
+        { "fr": "Mes grands-parents sont **âgés**, mais ils sont en forme.", "en": "My grandparents are old, but they're fit." },
+        { "fr": "Il est **âgé** de trente ans.", "en": "He's thirty years old." }
+      ] },
+    { "id": "ressembler", "fr": "ressembler", "pos": "verb", "ipa": "ʁə.sɑ̃.ble", "en": "to look like (ressembler à)",
+      "def": "Être presque comme une autre personne ou une autre chose.", "def_en": "To be almost like another person or thing.",
+      "forms": ["ressemble", "ressembles", "ressemblons", "ressemblez", "ressemblent", "ressemblé", "ressemblais", "ressemblait", "ressemblions", "ressembliez", "ressemblaient", "ressemblerai", "ressembleras", "ressemblera", "ressemblerons", "ressemblerez", "ressembleront"],
+      "examples": [
+        { "fr": "Tu **ressembles** à ta mère.", "en": "You look like your mother." },
+        { "fr": "Lou **ressemble** beaucoup à Léa.", "en": "Lou looks a lot like Léa." },
+        { "fr": "Ça **ressemble** à un chat, mais c'est un lapin !", "en": "It looks like a cat, but it's a rabbit!" }
+      ],
+      "note": "**ressembler à** + person: *il ressemble à son père*. **se ressembler** = to look alike." },
+    { "id": "se-maquiller", "fr": "se maquiller", "pos": "verb", "ipa": "sə ma.ki.je", "en": "to put on make-up",
+      "def": "Mettre du rouge à lèvres ou du noir autour des yeux, pour être plus belle ou plus beau.", "def_en": "To put on lipstick or eyeliner, to look nicer.",
+      "forms": ["me maquille", "te maquilles", "se maquille", "nous nous maquillons", "vous vous maquillez", "se maquillent", "maquille", "maquilles", "maquillons", "maquillez", "maquillent", "maquillé", "maquillée", "maquillés", "maquillées", "me maquillais", "se maquillait", "me maquillerai", "te maquilleras", "se maquillera", "nous nous maquillerons", "vous vous maquillerez", "se maquilleront"],
+      "examples": [
+        { "fr": "Inès **se maquille** pour le défilé.", "en": "Inès is putting on make-up for the fashion show." },
+        { "fr": "Je ne **me maquille** jamais.", "en": "I never wear make-up." },
+        { "fr": "Les acteurs sont **maquillés** avant le film.", "en": "The actors are made up before filming." }
+      ],
+      "note": "**le maquillage** = make-up." },
+    { "id": "tatouage", "fr": "tatouage", "pos": "noun", "g": "m", "ipa": "ta.twaʒ", "en": "tattoo",
+      "def": "Un dessin sur la peau, qui ne part pas.", "def_en": "A drawing on the skin that doesn't come off.",
+      "forms": ["tatouages"],
+      "examples": [
+        { "fr": "Il a un **tatouage** sur le bras.", "en": "He has a tattoo on his arm." },
+        { "fr": "Tu as un **tatouage** ? Je ne savais pas !", "en": "You have a tattoo? I didn't know!" },
+        { "fr": "Elle a un petit **tatouage** en forme de cœur.", "en": "She has a little heart-shaped tattoo." }
+      ] },
+    { "id": "elegant", "fr": "élégant", "pos": "adj", "ipa": "e.le.ɡɑ̃", "display": "élégant, élégante", "en": "elegant, smart",
+      "def": "Bien habillé, avec goût.", "def_en": "Well dressed, with taste.",
+      "forms": ["élégante", "élégants", "élégantes"],
+      "accept": ["élégante"],
+      "examples": [
+        { "fr": "Tu es très **élégant** avec ce costume !", "en": "You look very smart in that suit!" },
+        { "fr": "Inès est toujours **élégante**.", "en": "Inès is always elegant." },
+        { "fr": "C'est un restaurant **élégant**.", "en": "It's an elegant restaurant." }
+      ] },
+    { "id": "ride", "fr": "ride", "pos": "noun", "g": "f", "ipa": "ʁid", "en": "wrinkle",
+      "def": "Une petite ligne sur la peau, quand on devient âgé.", "def_en": "A small line on the skin, when you get older.",
+      "forms": ["rides"],
+      "examples": [
+        { "fr": "Mamie a des **rides** autour des yeux.", "en": "Grandma has wrinkles around her eyes." },
+        { "fr": "Les **rides**, ce sont les années de rire !", "en": "Wrinkles are years of laughter!" },
+        { "fr": "Cette crème est contre les **rides**.", "en": "This cream is for wrinkles." }
+      ] }
+  ],
+  "story": {
+    "title": "Le voleur de croissants",
+    "en": "A customer leaves the café without paying. Sophie describes him to a police officer.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi matin, au café d'en bas. Sophie sert les clients.", "en": "Saturday morning, at the café downstairs. Sophie is serving the customers." },
+      { "sp": "", "fr": "Un homme mange trois gros croissants, boit deux cafés… et part sans payer !", "en": "A man eats three big croissants, drinks two coffees… and leaves without paying!" },
+      { "sp": "Sophie", "fr": "Hé ! Monsieur ! L'addition !", "en": "Hey! Sir! The bill!" },
+      { "sp": "", "fr": "Trop tard. Mais un policier entre dans le café.", "en": "Too late. But a police officer comes into the café." },
+      { "sp": "Le policier", "fr": "Bonjour, mademoiselle. Vous pouvez me décrire cet homme ? Son physique, son apparence ?", "en": "Good morning, miss. Can you describe this man to me? His build, his appearance?" },
+      { "sp": "Sophie", "fr": "Oui ! Il est grand et très mince… presque maigre. Il a les cheveux roux, pas frisés : raides.", "en": "Yes! He's tall and very slim… almost skinny. He has red hair, not curly: straight." },
+      { "sp": "Le policier", "fr": "Il mesure combien, à peu près ? Et son poids ?", "en": "How tall is he, roughly? And his weight?" },
+      { "sp": "Sophie", "fr": "Il mesure un mètre quatre-vingt-dix, et il pèse… soixante-dix kilos, peut-être ?", "en": "He's about one metre ninety, and he weighs… seventy kilos, maybe?" },
+      { "sp": "Le policier", "fr": "Il est jeune ou âgé ?", "en": "Is he young or old?" },
+      { "sp": "Sophie", "fr": "Pas très jeune : il a des rides et il est un peu chauve. Mais il a une barbe rousse et une grande moustache.", "en": "Not very young: he has wrinkles and he's going a bit bald. But he has a red beard and a big moustache." },
+      { "sp": "Sophie", "fr": "Ah, et il a un tatouage sur la main : une étoile.", "en": "Oh, and he has a tattoo on his hand: a star." },
+      { "sp": "Le policier", "fr": "Il est fort ? Musclé ?", "en": "Is he strong? Muscular?" },
+      { "sp": "Sophie", "fr": "Non, pas du tout. Mais il est élégant : un costume noir… et une cravate un peu moche. Il ressemble à un acteur de cinéma !", "en": "No, not at all. But he's smartly dressed: a black suit… and a rather ugly tie. He looks like a film actor!" },
+      { "sp": "", "fr": "À ce moment-là, l'homme revient dans le café, tout gêné.", "en": "At that moment, the man comes back into the café, very embarrassed." },
+      { "sp": "L'homme", "fr": "Pardon, mademoiselle ! J'ai oublié de payer. Je suis acteur : on tourne un film dans la rue, et je suis en retard !", "en": "Sorry, miss! I forgot to pay. I'm an actor: we're shooting a film in the street, and I'm late!" },
+      { "sp": "Sophie", "fr": "Un acteur ? Alors… la barbe ?", "en": "An actor? So… the beard?" },
+      { "sp": "L'homme", "fr": "Fausse ! Et la moustache aussi. On m'a maquillé ce matin. En réalité, je ne suis pas si laid !", "en": "Fake! And the moustache too. They made me up this morning. In real life, I'm not that ugly!" },
+      { "sp": "Le policier", "fr": "Bon… la beauté, ce n'est pas mon problème. Payez, monsieur, et tout va bien !", "en": "Well… beauty isn't my problem. Pay up, sir, and everything's fine!" }
+    ]
+  }
+}

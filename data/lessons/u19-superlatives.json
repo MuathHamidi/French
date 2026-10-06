@@ -1,0 +1,173 @@
+{
+  "id": "u19-superlatives",
+  "type": "grammar",
+  "unit": 19,
+  "title": "Le meilleur dessert",
+  "en": "Superlatives: le plus, le moins, le meilleur",
+  "intro": "To say *the most*, *the least* or *the best*, put **le, la, les** before **plus** or **moins**: *C'est **la plus** grande ville de France.* Use **de** for the group: *le plus grand **de** la classe*. And the irregular ones: **le meilleur** (the best) and **le mieux** (the best, adverb).",
+  "cases": [
+    { "id": "sup-plus", "label": "le plus…", "rule": "**le, la, les** + **plus** + adjective = the most…, the …-est: *C'est **la plus** belle ville. Ce sont **les plus** grands magasins.* The article agrees with the noun." },
+    { "id": "sup-moins", "label": "le moins…", "rule": "**le, la, les** + **moins** + adjective = the least…: *C'est le restaurant **le moins** cher. C'est **la moins** chère.*" },
+    { "id": "sup-place", "label": "before or after the noun", "rule": "Most adjectives go after the noun, and the article comes twice: *la ville **la plus** grande*. Short common adjectives (beau, grand, petit, bon…) can go before: ***le plus** beau jour*." },
+    { "id": "sup-de", "label": "de = in, of", "rule": "The group comes after **de** (not *dans*): *le plus grand **de** la classe, la plus belle ville **du** monde, le meilleur **de** tous*." },
+    { "id": "sup-meilleur", "label": "le meilleur, le pire", "rule": "**bon** → **le meilleur, la meilleure, les meilleurs, les meilleures** (the best). **mauvais** → **le pire** (the worst): *C'est le meilleur gâteau. C'est la pire idée.*" },
+    { "id": "sup-mieux", "label": "le mieux", "rule": "With a verb: **le mieux** (the best, never changes) and **le plus, le moins**: *C'est Léa qui chante **le mieux**. C'est Hugo qui court **le moins** vite.*" },
+    { "id": "sup-verbe-nom", "label": "le plus (de)", "rule": "After a verb: **le plus, le moins**: *C'est lui qui mange **le plus**.* With a noun: **le plus de, le moins de**: *C'est Lou qui a **le plus de** jouets.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. le plus…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est la plus belle ville.", "It's the most beautiful city."],
+          ["C'est le plus grand magasin.", "It's the biggest shop."],
+          ["Ce sont les plus jolies fleurs.", "They're the prettiest flowers."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est le plus beau jour de l'année|sup-plus} !", "en": "It's the best day of the year!" },
+        { "fr": "{Ce sont les plus beaux jours de l'été|sup-plus}.", "en": "These are the best days of the summer." }
+      ],
+      "tip": "English adds *-est* (the tallest) or *the most*; French always uses **le / la / les plus**."
+    },
+    {
+      "title": "2. le moins…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est le restaurant le moins cher.", "It's the cheapest restaurant."],
+          ["C'est la saison la moins chaude.", "It's the least hot season."],
+          ["Ce sont les moins bons gâteaux.", "They're the least good cakes."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est la chambre la moins chère de l'hôtel|sup-moins}.", "en": "It's the cheapest room in the hotel." },
+        { "fr": "{C'est le film le moins drôle de l'année|sup-moins} !", "en": "It's the least funny film of the year!" }
+      ]
+    },
+    {
+      "title": "3. Before or after the noun",
+      "text": ["The superlative goes where the adjective normally goes. After the noun, you need the article **twice**: *la ville **la** plus grande*."],
+      "table": {
+        "head": ["After the noun", "Before the noun"], "frCols": [0, 1],
+        "rows": [
+          ["la ville la plus moderne", "la plus grande ville"],
+          ["le livre le plus intéressant", "le plus beau livre"],
+          ["les élèves les plus sérieux", "les plus petits élèves"]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est le dessert le plus original|sup-place}.", "en": "It's the most original dessert." },
+        { "fr": "{C'est la plus petite maison de la rue|sup-place}.", "en": "It's the smallest house in the street." }
+      ]
+    },
+    {
+      "title": "4. de = in, of",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["le plus grand de la classe", "the tallest in the class"],
+          ["la plus belle ville du monde", "the most beautiful city in the world"],
+          ["le meilleur de tous", "the best of all"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Hugo est le plus drôle de la famille|sup-de}.", "en": "Hugo is the funniest in the family." },
+        { "fr": "{C'est la plus vieille rue de Lyon|sup-de}.", "en": "It's the oldest street in Lyon." }
+      ],
+      "tip": "*In the world, in the class* = **du monde, de la classe** (never *dans*)."
+    },
+    {
+      "title": "5. le meilleur, le pire",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est le meilleur restaurant de Lyon.", "It's the best restaurant in Lyon."],
+          ["C'est ma meilleure amie.", "She's my best friend."],
+          ["C'est la pire journée de ma vie !", "It's the worst day of my life!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est le meilleur croissant de Paris|sup-meilleur} !", "en": "It's the best croissant in Paris!" },
+        { "fr": "{C'est la pire idée de Hugo|sup-meilleur}.", "en": "It's Hugo's worst idea." }
+      ]
+    },
+    {
+      "title": "6. le mieux",
+      "text": ["With a verb, **le mieux** means *the best*. It never changes, even for a woman or for several people."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est Léa qui chante le mieux.", "Léa sings the best."],
+          ["Qui danse le mieux ?", "Who dances best?"],
+          ["Le mieux, c'est de partir tôt.", "The best thing is to leave early."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est Sophie qui dessine le mieux|sup-mieux}.", "en": "Sophie draws the best." },
+        { "fr": "{Le mieux, c'est de prendre le métro|sup-mieux}.", "en": "The best thing is to take the metro." }
+      ]
+    },
+    {
+      "title": "7. le plus, le plus de",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est Hugo qui mange le plus.", "Hugo eats the most."],
+          ["C'est Lou qui a le plus de jouets.", "Lou has the most toys."],
+          ["C'est moi qui dors le moins.", "I sleep the least."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est Tom qui parle le plus|sup-verbe-nom}.", "en": "Tom talks the most." },
+        { "fr": "{C'est le magasin qui a le plus de clients|sup-verbe-nom}.", "en": "It's the shop with the most customers." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C'est la ville plus belle.", "right": "C'est la ville la plus belle.", "why": "After the noun, the article comes twice: **la** ville **la** plus belle." },
+    { "wrong": "le plus grand dans le monde", "right": "le plus grand du monde", "why": "The group comes after **de**, not *dans*." },
+    { "wrong": "C'est le plus bon gâteau.", "right": "C'est le meilleur gâteau.", "why": "**bon** → **le meilleur**." },
+    { "wrong": "C'est elle qui chante la meilleure.", "right": "C'est elle qui chante le mieux.", "why": "With a verb: **le mieux**, which never changes." },
+    { "wrong": "C'est lui qui a le plus des amis.", "right": "C'est lui qui a le plus d'amis.", "why": "**le plus de** + noun, with no article." }
+  ],
+  "story": {
+    "title": "Le concours de desserts",
+    "en": "The café downstairs holds a Christmas dessert contest. Karim is the judge.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le quinze décembre, le café d'en bas organise un concours de desserts de Noël. Karim, le cuisinier, est le juge.", "en": "On 15 December, the café downstairs holds a Christmas dessert contest. Karim, the chef, is the judge." },
+      { "sp": "Karim", "fr": "Je vais choisir {le dessert le plus original|sup-place}, {le plus beau|sup-plus}… et surtout {le meilleur|sup-meilleur} !", "en": "I'm going to choose the most original dessert, the most beautiful… and above all, the best!" },
+      { "sp": "", "fr": "Sophie apporte une bûche de Noël. C'est {la plus grande bûche du café|sup-de} : un mètre de long !", "en": "Sophie brings a Yule log. It's the biggest log in the café: a metre long!" },
+      { "sp": "", "fr": "Inès apporte une tarte aux fruits. {C'est le dessert le moins sucré|sup-moins} : elle fait attention à sa ligne.", "en": "Inès brings a fruit tart. It's the least sweet dessert: she's watching her figure." },
+      { "sp": "", "fr": "Tom apporte un crumble anglais. Hugo apporte… un paquet de biscuits.", "en": "Tom brings an English crumble. Hugo brings… a packet of biscuits." },
+      { "sp": "Hugo", "fr": "Quoi ? {C'est le dessert le plus pratique|sup-place} !", "en": "What? It's the most practical dessert!" },
+      { "sp": "", "fr": "Karim goûte tout. Il prend son temps.", "en": "Karim tastes everything. He takes his time." },
+      { "sp": "Karim", "fr": "La bûche de Sophie est {la plus belle|sup-plus}. Le crumble de Tom est {le plus original de tous|sup-de}.", "en": "Sophie's log is the most beautiful. Tom's crumble is the most original of all." },
+      { "sp": "Karim", "fr": "Mais {le meilleur dessert du concours|sup-meilleur}, c'est… la tarte d'Inès !", "en": "But the best dessert in the contest is… Inès's tart!" },
+      { "sp": "Inès", "fr": "C'est {le plus beau jour de ma vie|sup-place} !", "en": "It's the best day of my life!" },
+      { "sp": "Karim", "fr": "Et {le pire dessert|sup-meilleur}… ce sont les biscuits de Hugo, bien sûr.", "en": "And the worst dessert… is Hugo's biscuits, of course." },
+      { "sp": "Hugo", "fr": "Peut-être… mais {c'est moi qui ai mangé le plus|sup-verbe-nom} !", "en": "Maybe… but I'm the one who ate the most!" },
+      { "sp": "Sophie", "fr": "C'est vrai : {c'est lui qui a mangé le plus de bûche|sup-verbe-nom} !", "en": "It's true: he's the one who ate the most log!" },
+      { "sp": "", "fr": "À la fin, tout le monde chante. {C'est Tom qui chante le mieux|sup-mieux}… et Hugo qui chante le plus fort.", "en": "At the end, everyone sings. Tom sings the best… and Hugo sings the loudest." },
+      { "sp": "Karim", "fr": "{Le prix le moins cher|sup-moins}, c'est pour Hugo : un paquet de biscuits !", "en": "The cheapest prize goes to Hugo: a packet of biscuits!" }
+    ]
+  },
+  "quiz": [
+    { "case": "sup-plus", "type": "mc", "q": "C'est ___ belle ville de France.", "en": "It's the most beautiful city in France.", "options": ["la plus", "plus", "la très"], "answer": "la plus" },
+    { "case": "sup-plus", "type": "mc", "lang": "en", "q": "“They're the biggest shops.”", "options": ["Ce sont les plus grands magasins.", "Ce sont les grands plus magasins.", "Ce sont plus grands magasins."], "answer": "Ce sont les plus grands magasins.", "say": "Ce sont les plus grands magasins." },
+    { "case": "sup-moins", "type": "mc", "q": "C'est le restaurant le ___ cher.", "en": "It's the cheapest (least expensive) restaurant.", "options": ["moins", "plus", "pire"], "answer": "moins" },
+    { "case": "sup-moins", "type": "type", "q": "C'est la chambre la ___ chère de l'hôtel.", "en": "It's the cheapest room in the hotel.", "answer": "moins" },
+    { "case": "sup-place", "type": "mc", "q": "C'est la ville ___ plus moderne.", "en": "It's the most modern city.", "options": ["la", "le", "les"], "answer": "la" },
+    { "case": "sup-place", "type": "mc", "lang": "en", "q": "“It's the most original dessert.”", "options": ["C'est le dessert le plus original.", "C'est le dessert plus original.", "C'est le plus dessert original."], "answer": "C'est le dessert le plus original.", "say": "C'est le dessert le plus original." },
+    { "case": "sup-de", "type": "mc", "q": "C'est le plus grand ___ la classe.", "en": "He's the tallest in the class.", "options": ["de", "dans", "en"], "answer": "de" },
+    { "case": "sup-de", "type": "mc", "q": "C'est la plus belle ville ___ monde.", "en": "It's the most beautiful city in the world.", "options": ["du", "dans le", "au"], "answer": "du" },
+    { "case": "sup-meilleur", "type": "mc", "q": "C'est ___ gâteau de la boulangerie.", "en": "It's the best cake in the bakery.", "options": ["le meilleur", "le plus bon", "le mieux"], "answer": "le meilleur" },
+    { "case": "sup-meilleur", "type": "mc", "q": "C'est ___ journée de ma vie !", "en": "It's the worst day of my life!", "options": ["la pire", "la plus pire", "le pire"], "answer": "la pire" },
+    { "case": "sup-mieux", "type": "mc", "q": "C'est Léa qui chante ___.", "en": "Léa sings the best.", "options": ["le mieux", "la meilleure", "le meilleur"], "answer": "le mieux" },
+    { "case": "sup-mieux", "type": "mc", "lang": "en", "q": "« Le mieux, c'est de partir tôt » means…", "options": ["The best thing is to leave early.", "It's better to leave late.", "He leaves early more often."], "answer": "The best thing is to leave early.", "say": "Le mieux, c'est de partir tôt." },
+    { "case": "sup-verbe-nom", "type": "mc", "q": "C'est Lou qui a le plus ___ jouets.", "en": "Lou has the most toys.", "options": ["de", "des", "les"], "answer": "de" },
+    { "case": "sup-verbe-nom", "type": "mc", "q": "C'est Hugo qui mange ___.", "en": "Hugo eats the most.", "options": ["le plus", "le meilleur", "plus de"], "answer": "le plus" }
+  ]
+}

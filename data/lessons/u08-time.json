@@ -1,0 +1,173 @@
+{
+  "id": "u08-time",
+  "type": "grammar",
+  "unit": 8,
+  "title": "Quelle heure est-il ?",
+  "en": "Telling the time",
+  "intro": "How to ask and tell the time, the everyday way (*trois heures moins le quart*) and the official 24-hour way used for trains, films and shops (*quatorze heures trente*).",
+  "cases": [
+    { "id": "time-ask", "label": "asking the time", "rule": "**Quelle heure est-il ?** (standard), **Il est quelle heure ?** (everyday). To a stranger: **Vous avez l'heure, s'il vous plaît ?**" },
+    { "id": "time-heures", "label": "il est … heure(s)", "rule": "**Il est** + number + **heure(s)**: *il est une heure, il est deux heures*. Always say **heure(s)**, and always **il est**." },
+    { "id": "time-minutes", "label": "minutes: past and to", "rule": "Minutes after the hour: just add them (*deux heures dix*). Before the hour: **moins** (*trois heures moins dix* = 2:50)." },
+    { "id": "time-quart-demie", "label": "et quart, et demie, moins le quart", "rule": "**et quart** = quarter past, **et demie** = half past, **moins le quart** = quarter to: *sept heures et quart / et demie / huit heures moins le quart*." },
+    { "id": "time-midi-minuit", "label": "midi, minuit", "rule": "**midi** = noon, **minuit** = midnight. They're masculine, so: *midi et **demi*** (no -e)." },
+    { "id": "time-24h", "label": "the 24-hour clock", "rule": "Official times use 0–23 h and plain minutes, never *quart, demie, moins*: *14 h 30 = quatorze heures trente*." },
+    { "id": "time-a", "label": "à + time = at", "rule": "**à** + time = at: *à huit heures*. To ask: **À quelle heure… ?**" },
+    { "id": "time-part-of-day", "label": "du matin, de l'après-midi, du soir", "rule": "In the 12-hour way, add the part of the day if needed: *huit heures **du matin / du soir***, *trois heures **de l'après-midi***." }
+  ],
+  "sections": [
+    {
+      "title": "1. Asking the time",
+      "examples": [
+        { "fr": "{Quelle heure est-il|time-ask} ?", "en": "What time is it?" },
+        { "fr": "{Il est quelle heure|time-ask} ?", "en": "What time is it? (everyday)" },
+        { "fr": "Pardon, {vous avez l'heure|time-ask}, s'il vous plaît ?", "en": "Excuse me, do you have the time, please?" }
+      ],
+      "tip": "Careful: **Quel temps fait-il ?** asks about the *weather*, not the time!"
+    },
+    {
+      "title": "2. Il est … heure(s)",
+      "table": {
+        "head": ["French", "Time"], "frCols": [0],
+        "rows": [
+          ["Il est une heure.", "1:00"],
+          ["Il est deux heures.", "2:00"],
+          ["Il est six heures.", "6:00"],
+          ["Il est neuf heures.", "9:00"],
+          ["Il est onze heures.", "11:00"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est une heure|time-heures}.", "en": "It's one o'clock." },
+        { "fr": "{Il est cinq heures|time-heures}.", "en": "It's five o'clock." }
+      ],
+      "tip": "Listen to the links: *deux‿heures* /dø.zœʁ/, *six‿heures* /si.zœʁ/, *neuf‿heures* /nœ.vœʁ/ (f → v!)."
+    },
+    {
+      "title": "3. Minutes: past and to",
+      "table": {
+        "head": ["French", "Time"], "frCols": [0],
+        "rows": [
+          ["Il est deux heures cinq.", "2:05"],
+          ["Il est deux heures vingt.", "2:20"],
+          ["Il est trois heures moins vingt.", "2:40"],
+          ["Il est trois heures moins cinq.", "2:55"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est dix heures vingt|time-minutes}.", "en": "It's twenty past ten." },
+        { "fr": "{Il est cinq heures moins dix|time-minutes}.", "en": "It's ten to five." }
+      ],
+      "tip": "After half past, French usually counts down to the next hour with **moins**: 4:50 = *cinq heures moins dix*."
+    },
+    {
+      "title": "4. Quarter and half",
+      "table": {
+        "head": ["French", "Time"], "frCols": [0],
+        "rows": [
+          ["Il est sept heures et quart.", "7:15"],
+          ["Il est sept heures et demie.", "7:30"],
+          ["Il est huit heures moins le quart.", "7:45"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est deux heures et demie|time-quart-demie}.", "en": "It's half past two." },
+        { "fr": "{Il est six heures moins le quart|time-quart-demie}.", "en": "It's quarter to six." }
+      ],
+      "tip": "**et demie** takes an **-e** (une heure → *demie*). **moins le quart** has **le**; **et quart** doesn't."
+    },
+    {
+      "title": "5. Noon and midnight",
+      "examples": [
+        { "fr": "{Il est midi|time-midi-minuit}.", "en": "It's noon." },
+        { "fr": "{Il est minuit et demi|time-midi-minuit}.", "en": "It's half past midnight." }
+      ],
+      "tip": "**midi** and **minuit** are masculine, so **et demi** has no -e."
+    },
+    {
+      "title": "6. The 24-hour clock",
+      "text": ["For trains, films, shops and anything official, French uses the 24-hour clock, written *14 h 30* and said with plain numbers."],
+      "table": {
+        "head": ["Said", "Written"], "frCols": [0],
+        "rows": [
+          ["quatorze heures trente", "14 h 30"],
+          ["vingt heures quinze", "20 h 15"],
+          ["dix-huit heures quarante-cinq", "18 h 45"],
+          ["zéro heure dix", "0 h 10"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le train part à {quatorze heures trente|time-24h}.", "en": "The train leaves at 2:30 p.m." },
+        { "fr": "Le film commence à {vingt heures quinze|time-24h}.", "en": "The film starts at 8:15 p.m." }
+      ],
+      "tip": "With the 24-hour clock, never use *quart, demie* or *moins*: 20 h 45 = *vingt heures quarante-cinq*."
+    },
+    {
+      "title": "7. At: à + time",
+      "examples": [
+        { "fr": "Je me lève {à sept heures|time-a}.", "en": "I get up at seven." },
+        { "fr": "{À quelle heure|time-a} tu pars ?", "en": "What time are you leaving?" },
+        { "fr": "Le cours finit {à midi|time-a}.", "en": "Class finishes at noon." }
+      ]
+    },
+    {
+      "title": "8. Morning, afternoon, evening",
+      "examples": [
+        { "fr": "Il est huit heures {du matin|time-part-of-day}.", "en": "It's 8 a.m." },
+        { "fr": "Il est trois heures {de l'après-midi|time-part-of-day}.", "en": "It's 3 p.m." },
+        { "fr": "Il est dix heures {du soir|time-part-of-day}.", "en": "It's 10 p.m." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C'est trois heures.", "right": "Il est trois heures.", "why": "For the time, always **il est**." },
+    { "wrong": "Il est trois.", "right": "Il est trois heures.", "why": "Always say **heure(s)**." },
+    { "wrong": "Il est une heures.", "right": "Il est une heure.", "why": "**une heure** is singular." },
+    { "wrong": "Il est midi et demie.", "right": "Il est midi et demi.", "why": "**midi** is masculine: **demi**." },
+    { "wrong": "Il est quatorze heures et demie.", "right": "Il est quatorze heures trente.", "why": "24-hour clock: plain numbers only." },
+    { "wrong": "Quel temps est-il ?", "right": "Quelle heure est-il ?", "why": "**le temps** = the weather (or time in general)." }
+  ],
+  "story": {
+    "title": "Le programme de samedi",
+    "en": "Léa and Sophie plan their Saturday — and Hugo is late again.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "Sophie", "fr": "Léa, {quelle heure est-il|time-ask} ?", "en": "Léa, what time is it?" },
+      { "sp": "Léa", "fr": "{Il est huit heures et demie|time-quart-demie}.", "en": "It's half past eight." },
+      { "sp": "Sophie", "fr": "Déjà ? On va au marché {à neuf heures|time-a} ?", "en": "Already? Are we going to the market at nine?" },
+      { "sp": "Léa", "fr": "Oui. Et on déjeune avec Hugo {à midi et demi|time-midi-minuit}.", "en": "Yes. And we're having lunch with Hugo at half past twelve." },
+      { "sp": "Sophie", "fr": "Et le film ce soir, c'est {à quelle heure|time-a} ?", "en": "And the film tonight — what time is it?" },
+      { "sp": "Léa", "fr": "À {vingt heures quinze|time-24h}. Ça finit à dix heures et quart {du soir|time-part-of-day}.", "en": "At 8:15 p.m. It finishes at quarter past ten in the evening." },
+      { "sp": "Sophie", "fr": "Et demain, le train pour Paris part à {sept heures quarante-cinq|time-24h} ?", "en": "And tomorrow, the train to Paris leaves at 7:45?" },
+      { "sp": "Léa", "fr": "Oui, à {huit heures moins le quart|time-quart-demie}… {du matin|time-part-of-day} !", "en": "Yes, at quarter to eight… in the morning!" },
+      { "sp": "Sophie", "fr": "Oh là là, c'est tôt !", "en": "Oh dear, that's early!" },
+      { "sp": "", "fr": "Le soir, au cinéma…", "en": "In the evening, at the cinema…" },
+      { "sp": "Hugo", "fr": "Pardon, je suis en retard ! {Il est quelle heure|time-ask} ?", "en": "Sorry, I'm late! What time is it?" },
+      { "sp": "Léa", "fr": "{Il est vingt heures vingt|time-minutes}. Le film commence !", "en": "It's 8:20. The film's starting!" },
+      { "sp": "Hugo", "fr": "Seulement cinq minutes de retard. Ce n'est pas grave !", "en": "Only five minutes late. No big deal!" },
+      { "sp": "", "fr": "Après le film, ils mangent une pizza. {Il est onze heures|time-heures}.", "en": "After the film, they eat a pizza. It's eleven o'clock." },
+      { "sp": "Léa", "fr": "Vite, on rentre ! Demain, on se lève {à six heures et quart|time-quart-demie} !", "en": "Quick, let's go home! Tomorrow we get up at quarter past six!" },
+      { "sp": "Hugo", "fr": "Six heures et quart ? Bon courage !", "en": "Quarter past six? Good luck!" }
+    ]
+  },
+  "quiz": [
+    { "case": "time-ask", "type": "mc", "lang": "en", "q": "How do you ask “What time is it?”", "options": ["Quelle heure est-il ?", "Combien heure est-il ?", "Quel temps est-il ?"], "answer": "Quelle heure est-il ?" },
+    { "case": "time-ask", "type": "type", "q": "Quelle ___ est-il ?", "en": "What time is it?", "answer": "heure" },
+    { "case": "time-heures", "type": "mc", "q": "Il est une ___.", "en": "It's one o'clock.", "options": ["heure", "heures"], "answer": "heure" },
+    { "case": "time-heures", "type": "mc", "q": "Il est trois ___.", "en": "It's three o'clock.", "options": ["heures", "heure"], "answer": "heures" },
+    { "case": "time-heures", "type": "mc", "lang": "en", "listen": "Il est neuf heures.", "q": "Listen: what time is it?", "options": ["9:00", "2:00", "10:00"], "answer": "9:00" },
+    { "case": "time-minutes", "type": "mc", "lang": "en", "q": "« Il est dix heures vingt » means…", "options": ["10:20", "8:20", "10:40"], "answer": "10:20", "say": "Il est dix heures vingt." },
+    { "case": "time-minutes", "type": "mc", "lang": "en", "q": "How do you usually say 4:50?", "options": ["Il est cinq heures moins dix.", "Il est quatre heures moins dix.", "Il est cinq heures et dix."], "answer": "Il est cinq heures moins dix." },
+    { "case": "time-quart-demie", "type": "mc", "q": "Il est deux heures et ___.", "en": "It's half past two.", "options": ["demie", "demi", "quart"], "answer": "demie" },
+    { "case": "time-quart-demie", "type": "mc", "lang": "en", "q": "« Il est six heures moins le quart » means…", "options": ["5:45", "6:15", "6:45"], "answer": "5:45", "say": "Il est six heures moins le quart." },
+    { "case": "time-quart-demie", "type": "type", "q": "Il est sept heures et ___.", "en": "It's quarter past seven.", "answer": "quart" },
+    { "case": "time-midi-minuit", "type": "mc", "lang": "en", "q": "How do you say “It's midnight”?", "options": ["Il est minuit.", "Il est midi.", "Il est douze heures du soir."], "answer": "Il est minuit." },
+    { "case": "time-midi-minuit", "type": "mc", "q": "Il est midi et ___.", "en": "It's half past twelve (noon).", "options": ["demi", "demie"], "answer": "demi", "why": "**midi** and **minuit** are masculine: **et demi**, without -e." },
+    { "case": "time-24h", "type": "mc", "lang": "en", "q": "« quatorze heures trente » means…", "options": ["2:30 p.m.", "4:30 p.m.", "2:30 a.m."], "answer": "2:30 p.m.", "say": "quatorze heures trente" },
+    { "case": "time-24h", "type": "mc", "lang": "en", "q": "How do you say 8:15 p.m. with the 24-hour clock?", "options": ["vingt heures quinze", "vingt heures et quart", "huit heures quinze"], "answer": "vingt heures quinze", "why": "24-hour clock: plain numbers only — no *quart, demie, moins*." },
+    { "case": "time-a", "type": "mc", "q": "Le film commence ___ huit heures.", "en": "The film starts at eight.", "options": ["à", "en", "dans"], "answer": "à" },
+    { "case": "time-a", "type": "type", "q": "___ quelle heure tu pars ?", "en": "What time are you leaving?", "answer": "À" },
+    { "case": "time-part-of-day", "type": "mc", "q": "Il est huit heures ___ soir.", "en": "It's 8 p.m.", "options": ["du", "de la", "le"], "answer": "du" },
+    { "case": "time-part-of-day", "type": "mc", "q": "Il est trois heures de ___.", "en": "It's 3 p.m.", "options": ["l'après-midi", "matin", "soir"], "answer": "l'après-midi" }
+  ]
+}

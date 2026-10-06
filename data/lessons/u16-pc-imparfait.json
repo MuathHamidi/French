@@ -1,0 +1,164 @@
+{
+  "id": "u16-pc-imparfait",
+  "type": "grammar",
+  "unit": 16,
+  "title": "Il pleuvait quand…",
+  "en": "Imparfait or passé composé?",
+  "intro": "To tell a story in the past, French mixes two tenses. The **imparfait** paints the background, like the scenery of a play (*il pleuvait, j'attendais le bus*). The **passé composé** tells the events, what happened next (*soudain, un homme est arrivé*).",
+  "cases": [
+    { "id": "pi-decor", "label": "background vs events", "rule": "**Imparfait** = the background (weather, place, what was going on). **Passé composé** = the events that move the story forward: *Il pleuvait. Paul est arrivé.*" },
+    { "id": "pi-interruption", "label": "… quand… : an interruption", "rule": "An action in progress (**imparfait**) is interrupted by an event (**passé composé**): *Je lisais quand le téléphone a sonné.*" },
+    { "id": "pi-habitude", "label": "habit or one time?", "rule": "Habits: **imparfait** (*d'habitude, je prenais le bus*). One particular time: **passé composé** (*un jour, j'ai pris un taxi*)." },
+    { "id": "pi-pendant-que", "label": "pendant que + imparfait", "rule": "Two things going on at the same time: **pendant que** + **imparfait**: *Pendant que je cuisinais, Lou dormait.*" },
+    { "id": "pi-suite", "label": "a series of events", "rule": "Events that happen one after the other are all in the **passé composé**: *Il s'est levé, il a pris son café et il est parti.*" },
+    { "id": "pi-etat", "label": "a state, then a result", "rule": "A state or reason in the **imparfait**, then what happened in the **passé composé**: *J'étais fatiguée, alors je suis rentrée. Comme il faisait beau, nous sommes sortis.*" },
+    { "id": "pi-soudain", "label": "soudain, tout à coup", "rule": "**soudain, tout à coup, un jour, à ce moment-là** introduce an event: **passé composé**: *Soudain, l'orage a commencé.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. The background and the events",
+      "text": ["Think of a film. The **imparfait** is the scenery and the music: what things were like, what was going on. The **passé composé** is the action: what happened."],
+      "table": {
+        "head": ["Background (imparfait)", "Events (passé composé)"], "frCols": [0, 1],
+        "rows": [
+          ["Il pleuvait.", "Paul est arrivé."],
+          ["J'attendais le bus.", "Le bus n'est pas venu."],
+          ["Il faisait froid.", "Nous sommes entrés dans un café."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il pleuvait, et j'attendais le bus|pi-decor}.", "en": "It was raining, and I was waiting for the bus." },
+        { "fr": "{Il faisait nuit. Tout à coup, j'ai entendu un bruit|pi-decor}.", "en": "It was dark. Suddenly, I heard a noise." }
+      ]
+    },
+    {
+      "title": "2. … quand… : an interruption",
+      "text": ["Something was going on (**imparfait**) when something happened (**passé composé**)."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je lisais quand le téléphone a sonné.", "I was reading when the phone rang."],
+          ["Nous mangions quand Hugo est arrivé.", "We were eating when Hugo arrived."],
+          ["Il dormait quand l'orage a commencé.", "He was sleeping when the storm started."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je dormais quand Lou est entrée|pi-interruption}.", "en": "I was sleeping when Lou came in." },
+        { "fr": "{Nous parlions quand le serveur est arrivé|pi-interruption}.", "en": "We were talking when the waiter came." }
+      ]
+    },
+    {
+      "title": "3. A habit, or one time?",
+      "table": {
+        "head": ["Habit (imparfait)", "One time (passé composé)"], "frCols": [0, 1],
+        "rows": [
+          ["D'habitude, je prenais le bus.", "Un jour, j'ai pris un taxi."],
+          ["Le dimanche, nous allions au parc.", "Ce dimanche-là, nous sommes allés à la mer."],
+          ["Il était souvent en retard.", "Une fois, il est arrivé à l'heure !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{D'habitude, je prenais le bus. Mais ce jour-là, j'ai marché|pi-habitude}.", "en": "Usually I took the bus. But that day, I walked." },
+        { "fr": "{Tous les étés, nous allions à la mer. Une année, nous sommes allés à Montréal|pi-habitude}.", "en": "Every summer we went to the seaside. One year, we went to Montréal." }
+      ],
+      "tip": "Habit words: **d'habitude, souvent, toujours, tous les jours, le lundi**. One-time words: **un jour, une fois, ce jour-là, soudain**."
+    },
+    {
+      "title": "4. pendant que + imparfait",
+      "text": ["**pendant que** (while) introduces an action in progress, so it takes the imparfait. Two actions in progress at the same time are both in the imparfait."],
+      "examples": [
+        { "fr": "{Pendant que je cuisinais, Lou dormait|pi-pendant-que}.", "en": "While I was cooking, Lou was sleeping." },
+        { "fr": "{Pendant que nous parlions, il pleuvait|pi-pendant-que} toujours.", "en": "While we were talking, it was still raining." }
+      ]
+    },
+    {
+      "title": "5. A series of events",
+      "text": ["When events follow each other, one after the other, they're all in the passé composé."],
+      "examples": [
+        { "fr": "{Il s'est levé, il a pris son café et il est parti|pi-suite}.", "en": "He got up, had his coffee and left." },
+        { "fr": "{Nous sommes entrés, nous avons commandé un chocolat et nous avons parlé|pi-suite} pendant trois heures.", "en": "We went in, ordered a hot chocolate and talked for three hours." }
+      ]
+    },
+    {
+      "title": "6. A state, then a result",
+      "text": ["A state or a reason (**imparfait**) often explains an action (**passé composé**). Useful words: **alors** (so), **comme** (as, since)."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'étais fatiguée, alors je suis rentrée.", "I was tired, so I went home."],
+          ["Comme il faisait beau, nous sommes sortis.", "As the weather was nice, we went out."],
+          ["J'avais faim, alors j'ai mangé une glace.", "I was hungry, so I ate an ice cream."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Comme il faisait froid, nous sommes entrés|pi-etat} dans un café.", "en": "As it was cold, we went into a café." },
+        { "fr": "{J'avais peur, alors j'ai appelé|pi-etat} ma mère.", "en": "I was scared, so I called my mother." }
+      ]
+    },
+    {
+      "title": "7. soudain, tout à coup",
+      "text": ["These words introduce something new and sudden: an event, so the passé composé."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["soudain", "suddenly"],
+          ["tout à coup", "all of a sudden"],
+          ["à ce moment-là", "at that moment"],
+          ["un jour", "one day"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Soudain, l'orage a commencé|pi-soudain}.", "en": "Suddenly, the storm started." },
+        { "fr": "{Tout à coup, le chat a sauté|pi-soudain} sur la table.", "en": "All of a sudden, the cat jumped onto the table." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il a plu, et j'ai attendu le bus. (the scene)", "right": "Il pleuvait, et j'attendais le bus.", "why": "The background is in the **imparfait**." },
+    { "wrong": "Je lisais quand le téléphone sonnait.", "right": "Je lisais quand le téléphone a sonné.", "why": "The interruption is an event: **passé composé**." },
+    { "wrong": "Soudain, l'orage commençait.", "right": "Soudain, l'orage a commencé.", "why": "**soudain** introduces an event: **passé composé**." },
+    { "wrong": "Pendant que je cuisinais, Lou a dormi.", "right": "Pendant que je cuisinais, Lou dormait.", "why": "Two actions in progress at the same time: both **imparfait**." },
+    { "wrong": "D'habitude, j'ai pris le bus.", "right": "D'habitude, je prenais le bus.", "why": "A habit: **imparfait**." }
+  ],
+  "story": {
+    "title": "Comment Anne a rencontré Paul",
+    "en": "One evening, Léa asks her mother how she met her father.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un soir, Léa demande à sa mère : « Maman, comment tu as rencontré papa ? »", "en": "One evening, Léa asks her mother: “Mum, how did you meet Dad?”" },
+      { "sp": "Anne", "fr": "{J'avais vingt ans|pi-etat}. {J'étais étudiante à Paris|pi-decor}, et je ne connaissais personne.", "en": "I was twenty. I was a student in Paris, and I didn't know anyone." },
+      { "sp": "Anne", "fr": "{Un jour, il pleuvait. J'attendais le bus|pi-decor}, sans parapluie, et j'étais toute mouillée.", "en": "One day, it was raining. I was waiting for the bus, without an umbrella, and I was soaking wet." },
+      { "sp": "Anne", "fr": "{Pendant que j'attendais, un jeune homme lisait|pi-pendant-que} un livre sous son parapluie.", "en": "While I was waiting, a young man was reading a book under his umbrella." },
+      { "sp": "Anne", "fr": "{Soudain, il a fermé|pi-soudain} son livre, et il est venu vers moi.", "en": "Suddenly, he closed his book and came over to me." },
+      { "sp": "Anne", "fr": "Il m'a dit : « Vous voulez partager mon parapluie ? » C'était ton père !", "en": "He said: “Would you like to share my umbrella?” It was your father!" },
+      { "sp": "Léa", "fr": "Oh, c'est romantique ! Et après ?", "en": "Oh, that's romantic! And then?" },
+      { "sp": "Anne", "fr": "Le bus n'est jamais arrivé. {Comme il faisait froid, nous sommes entrés|pi-etat} dans un café.", "en": "The bus never came. As it was cold, we went into a café." },
+      { "sp": "Anne", "fr": "{Nous avons commandé deux chocolats chauds, nous avons parlé, nous avons ri|pi-suite}…", "en": "We ordered two hot chocolates, we talked, we laughed…" },
+      { "sp": "Anne", "fr": "{Nous parlions encore quand le serveur est arrivé|pi-interruption} avec la note : le café fermait !", "en": "We were still talking when the waiter came with the bill: the café was closing!" },
+      { "sp": "Léa", "fr": "Et papa, il était comment ?", "en": "And what was Dad like?" },
+      { "sp": "Anne", "fr": "Il était grand, un peu timide… et il était toujours en retard !", "en": "He was tall, a bit shy… and he was always late!" },
+      { "sp": "Léa", "fr": "Comme Hugo !", "en": "Like Hugo!" },
+      { "sp": "Anne", "fr": "{D'habitude, je prenais le bus de huit heures. Mais ce jour-là, je suis partie en retard|pi-habitude}… et j'ai rencontré l'homme de ma vie.", "en": "Usually, I took the eight o'clock bus. But that day, I left late… and I met the love of my life." },
+      { "sp": "", "fr": "À ce moment-là, Paul entre dans la cuisine.", "en": "At that moment, Paul comes into the kitchen." },
+      { "sp": "Paul", "fr": "Qu'est-ce que vous racontez, toutes les deux ?", "en": "What are you two talking about?" },
+      { "sp": "Léa", "fr": "Maman dit que tu étais toujours en retard !", "en": "Mum says you were always late!" },
+      { "sp": "Paul", "fr": "En retard ? Moi ? Ce jour-là, sous la pluie, j'étais exactement à l'heure !", "en": "Late? Me? That day, in the rain, I was exactly on time!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pi-decor", "type": "mc", "lang": "en", "q": "In a story, which tense describes the background (weather, setting)?", "options": ["the imparfait: il pleuvait", "the passé composé: il a plu"], "answer": "the imparfait: il pleuvait", "say": "Il pleuvait." },
+    { "case": "pi-decor", "type": "mc", "q": "Ce jour-là, il ___ et il faisait froid.", "en": "That day, it was raining and it was cold.", "options": ["pleuvait", "a plu", "pleut"], "answer": "pleuvait" },
+    { "case": "pi-interruption", "type": "mc", "q": "Je lisais quand le téléphone ___.", "en": "I was reading when the phone rang.", "options": ["a sonné", "sonnait", "sonne"], "answer": "a sonné" },
+    { "case": "pi-interruption", "type": "mc", "q": "Nous ___ quand Hugo est arrivé.", "en": "We were eating when Hugo arrived.", "options": ["mangions", "avons mangé", "mangeons"], "answer": "mangions" },
+    { "case": "pi-habitude", "type": "mc", "lang": "en", "q": "Which one is a habit in the past?", "options": ["D'habitude, je prenais le bus.", "Un jour, j'ai pris un taxi."], "answer": "D'habitude, je prenais le bus." },
+    { "case": "pi-habitude", "type": "mc", "q": "Un jour, j'___ un taxi.", "en": "One day, I took a taxi.", "options": ["ai pris", "prenais", "prends"], "answer": "ai pris" },
+    { "case": "pi-pendant-que", "type": "mc", "q": "Pendant que je ___, Lou dormait.", "en": "While I was cooking, Lou was sleeping.", "options": ["cuisinais", "ai cuisiné", "cuisine"], "answer": "cuisinais" },
+    { "case": "pi-pendant-que", "type": "mc", "lang": "en", "q": "« Pendant que » is followed by…", "options": ["the imparfait (an action in progress)", "the passé composé"], "answer": "the imparfait (an action in progress)", "say": "pendant que je lisais" },
+    { "case": "pi-suite", "type": "mc", "lang": "en", "q": "A series of events, one after the other, is told in…", "options": ["the passé composé", "the imparfait"], "answer": "the passé composé", "say": "Il s'est levé, il a pris son café et il est parti." },
+    { "case": "pi-suite", "type": "mc", "q": "Il s'est levé, il a pris son café et il ___ parti.", "en": "He got up, had his coffee and left.", "options": ["est", "était", "a"], "answer": "est" },
+    { "case": "pi-etat", "type": "mc", "q": "Comme il ___ beau, nous sommes allés à la plage.", "en": "As the weather was nice, we went to the beach.", "options": ["faisait", "a fait", "fait"], "answer": "faisait" },
+    { "case": "pi-etat", "type": "type", "q": "J'étais fatiguée, alors je suis ___ à la maison.", "en": "I was tired, so I went home. (a woman speaking)", "answer": "rentrée" },
+    { "case": "pi-soudain", "type": "mc", "q": "Soudain, l'orage ___.", "en": "Suddenly, the storm started.", "options": ["a commencé", "commençait", "commence"], "answer": "a commencé" },
+    { "case": "pi-soudain", "type": "mc", "lang": "en", "q": "Which words usually introduce the passé composé?", "options": ["soudain, tout à coup, un jour", "d'habitude, souvent, tous les jours"], "answer": "soudain, tout à coup, un jour" }
+  ]
+}

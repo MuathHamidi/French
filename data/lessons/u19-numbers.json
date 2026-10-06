@@ -1,0 +1,184 @@
+{
+  "id": "u19-numbers",
+  "type": "grammar",
+  "unit": 19,
+  "title": "Le premier, la moitié",
+  "en": "Numbers: ordinals, fractions, percentages",
+  "intro": "Numbers do more than count: **premier, deuxième, troisième…** give the order; **la moitié, un tiers, un quart** share things; **pour cent** gives percentages. And prices and decimals use a comma: *3,50 €* = *trois euros cinquante*.",
+  "cases": [
+    { "id": "num-ordinal", "label": "premier, deuxième, troisième", "rule": "Add **-ième** to the number: *deuxième, troisième, dixième, vingtième, centième*. Only one is different: **premier, première**. Spelling: *cinq → cinq**u**ième*, *neuf → neu**v**ième*. **second(e)** = *deuxième*." },
+    { "id": "num-date", "label": "dates: le premier mai, le deux mai", "rule": "Dates use normal numbers: *le deux mai, le quatorze juillet*. Only the first day uses **premier**: *le premier mai*." },
+    { "id": "num-fraction", "label": "la moitié, un tiers, un quart", "rule": "**la moitié** (½), **un tiers** (⅓), **un quart** (¼), **trois quarts** (¾). **demi** is used in fixed phrases: *une demi-heure, deux heures et demie, un kilo et demi*." },
+    { "id": "num-pourcent", "label": "pour cent", "rule": "Percentages: number + **pour cent**: *dix pour cent* (10 %), *cent pour cent* (100 %). *Moins trente pour cent* = 30 % off." },
+    { "id": "num-grands", "label": "mille, un million de", "rule": "**mille** never takes an **s**: *deux mille*. **un million**, **un milliard** are nouns: they take an **s** and **de**: *deux millions **d'**habitants*." },
+    { "id": "num-virgule", "label": "the comma: 1,5", "rule": "French uses a comma for decimals and reads it **virgule**: *1,5* = *un virgule cinq*. Prices: *3,50 €* = *trois euros cinquante*." },
+    { "id": "num-environ", "label": "une dizaine, une centaine", "rule": "**-aine** gives an approximate number: *une dizaine* (about 10), *une quinzaine* (about 15, or two weeks), *une vingtaine* (about 20), *une centaine* (about 100). Then **de**: *une vingtaine **de** personnes*." }
+  ],
+  "sections": [
+    {
+      "title": "1. premier, deuxième, troisième",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["premier, première", "1st"],
+          ["deuxième", "2nd"],
+          ["troisième", "3rd"],
+          ["cinquième", "5th"],
+          ["neuvième", "9th"],
+          ["vingt et unième", "21st"],
+          ["centième", "100th"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il habite au troisième étage|num-ordinal}.", "en": "He lives on the third floor." },
+        { "fr": "{C'est la première fois|num-ordinal} que je viens à Lyon.", "en": "It's the first time I've come to Lyon." }
+      ],
+      "tip": "In writing: **1er** (premier), **1re** (première), **2e**, **3e**…"
+    },
+    {
+      "title": "2. Dates",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["le premier janvier", "1 January"],
+          ["le deux février", "2 February"],
+          ["le quatorze juillet", "14 July"],
+          ["le trente et un décembre", "31 December"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Mon anniversaire, c'est le premier avril|num-date} !", "en": "My birthday is on the first of April!" },
+        { "fr": "{Nous sommes le vingt décembre|num-date}.", "en": "It's the twentieth of December." }
+      ]
+    },
+    {
+      "title": "3. la moitié, un tiers, un quart",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["la moitié", "half"],
+          ["un tiers", "a third"],
+          ["un quart", "a quarter"],
+          ["trois quarts", "three quarters"],
+          ["une demi-heure", "half an hour"]
+        ]
+      },
+      "examples": [
+        { "fr": "{La moitié de la classe est malade|num-fraction}.", "en": "Half the class is ill." },
+        { "fr": "{Il est deux heures et demie|num-fraction}.", "en": "It's half past two." }
+      ],
+      "tip": "**la moitié** for a part of something; **demi** in fixed phrases, and after a noun it takes **-e** for a feminine noun: *une heure et demie*."
+    },
+    {
+      "title": "4. pour cent",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["dix pour cent", "10 %"],
+          ["cinquante pour cent", "50 %"],
+          ["cent pour cent", "100 %"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Moins vingt pour cent sur tous les manteaux|num-pourcent} !", "en": "Twenty per cent off all coats!" },
+        { "fr": "{Je suis sûr à cent pour cent|num-pourcent}.", "en": "I'm a hundred per cent sure." }
+      ]
+    },
+    {
+      "title": "5. mille, un million",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["mille", "1,000"],
+          ["deux mille", "2,000"],
+          ["un million d'habitants", "a million inhabitants"],
+          ["un milliard d'euros", "a billion euros"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Paris a plus de deux millions d'habitants|num-grands}.", "en": "Paris has more than two million inhabitants." },
+        { "fr": "{Ce vélo coûte mille deux cents euros|num-grands} !", "en": "This bike costs one thousand two hundred euros!" }
+      ],
+      "tip": "French writes big numbers with a space: **10 000** (ten thousand)."
+    },
+    {
+      "title": "6. The comma",
+      "text": ["French writes a **comma** where English writes a point, and reads it **virgule**. For prices, say the unit in the middle: *3,50 €* = *trois euros cinquante*."],
+      "table": {
+        "head": ["French", "Written"], "frCols": [0],
+        "rows": [
+          ["un virgule cinq", "1,5"],
+          ["zéro virgule deux", "0,2"],
+          ["trois euros cinquante", "3,50 €"],
+          ["un mètre quatre-vingts", "1,80 m"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ça fait douze euros quatre-vingt-dix|num-virgule}.", "en": "That's twelve euros ninety." },
+        { "fr": "{Il fait trente-sept virgule cinq degrés|num-virgule} : il a un peu de fièvre.", "en": "It's thirty-seven point five degrees: he has a slight temperature." }
+      ]
+    },
+    {
+      "title": "7. une dizaine, une centaine",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["une dizaine", "about ten"],
+          ["une quinzaine", "about fifteen; two weeks"],
+          ["une vingtaine", "about twenty"],
+          ["une centaine", "about a hundred"],
+          ["des milliers", "thousands"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Une vingtaine d'amis sont venus|num-environ}.", "en": "About twenty friends came." },
+        { "fr": "{Je pars une quinzaine de jours|num-environ}.", "en": "I'm going away for two weeks or so." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "le un mai", "right": "le premier mai", "why": "The first day of the month: **premier**." },
+    { "wrong": "deux milles", "right": "deux mille", "why": "**mille** never takes an **s**." },
+    { "wrong": "un million habitants", "right": "un million d'habitants", "why": "**un million de** + noun." },
+    { "wrong": "cinqième", "right": "cinquième", "why": "Spelling: *cinq → cinquième*, *neuf → neuvième*." },
+    { "wrong": "le moitié", "right": "la moitié", "why": "**moitié** is feminine." }
+  ],
+  "story": {
+    "title": "La course de Hugo",
+    "en": "Hugo runs his very first race: ten kilometres through Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "{Le premier dimanche de décembre|num-ordinal}, Hugo court {sa première course|num-ordinal} : dix kilomètres dans Lyon.", "en": "On the first Sunday in December, Hugo runs his first race: ten kilometres through Lyon." },
+      { "sp": "", "fr": "Il y a {des milliers de coureurs|num-environ} : {environ cinq mille|num-grands} !", "en": "There are thousands of runners: about five thousand!" },
+      { "sp": "Léa", "fr": "Hugo, tu as le numéro {deux mille trois cent quarante|num-grands}. Ne le perds pas !", "en": "Hugo, you're number two thousand three hundred and forty. Don't lose it!" },
+      { "sp": "", "fr": "Le départ est à neuf heures et demie. Hugo arrive à neuf heures trente-cinq, bien sûr.", "en": "The start is at half past nine. Hugo arrives at nine thirty-five, of course." },
+      { "sp": "", "fr": "{Après la moitié de la course|num-fraction}, il est fatigué. {Après les trois quarts|num-fraction}, il est très fatigué.", "en": "Halfway through the race, he's tired. After three quarters, he's very tired." },
+      { "sp": "", "fr": "Sophie et Léa l'attendent près de l'arrivée, avec {une dizaine d'amis|num-environ}.", "en": "Sophie and Léa are waiting for him near the finish, with about ten friends." },
+      { "sp": "Sophie", "fr": "Allez, Hugo ! Encore cinq cents mètres !", "en": "Come on, Hugo! Five hundred metres to go!" },
+      { "sp": "", "fr": "Enfin, Hugo arrive. {Il est le mille huit cent cinquantième|num-ordinal} !", "en": "At last, Hugo crosses the line. He's 1,850th!" },
+      { "sp": "Hugo", "fr": "Je ne suis pas le premier… mais je ne suis pas le dernier !", "en": "I'm not first… but I'm not last!" },
+      { "sp": "Léa", "fr": "{Tu es devant soixante pour cent des coureurs|num-pourcent} : bravo !", "en": "You're ahead of sixty per cent of the runners: well done!" },
+      { "sp": "", "fr": "Après la course, Sophie offre un chocolat chaud à Hugo. {Il coûte trois euros cinquante|num-virgule}, mais {pour les coureurs, il y a une réduction de vingt pour cent|num-pourcent}.", "en": "After the race, Sophie buys Hugo a hot chocolate. It costs three euros fifty, but runners get twenty per cent off." },
+      { "sp": "Hugo", "fr": "{C'est la deuxième fois de ma vie|num-ordinal} que je cours aussi longtemps. La première fois, c'était pour aller au cinéma !", "en": "It's the second time in my life I've run for so long. The first time was to get to the cinema!" },
+      { "sp": "Léa", "fr": "Et la prochaine course, c'est {le premier mai|num-date} : tu viens ?", "en": "And the next race is on the first of May: are you coming?" },
+      { "sp": "Hugo", "fr": "{Le premier mai|num-date}… ou {le quatorze juillet|num-date} ? Laisse-moi {une centaine de jours|num-environ} pour réfléchir !", "en": "The first of May… or the fourteenth of July? Give me a hundred days or so to think about it!" },
+      { "sp": "", "fr": "Ce soir-là, Hugo dort {douze heures et demie|num-fraction}. Un record !", "en": "That night, Hugo sleeps for twelve and a half hours. A record!" }
+    ]
+  },
+  "quiz": [
+    { "case": "num-ordinal", "type": "mc", "q": "Il habite au ___ étage.", "en": "He lives on the third floor.", "options": ["troisième", "trois", "troisièmes"], "answer": "troisième" },
+    { "case": "num-ordinal", "type": "mc", "lang": "en", "q": "How do you say “the fifth”?", "options": ["le cinquième", "le cinqième", "le cinq"], "answer": "le cinquième", "say": "le cinquième" },
+    { "case": "num-date", "type": "mc", "q": "Mon anniversaire, c'est le ___ mai.", "en": "My birthday is on the first of May.", "options": ["premier", "un", "première"], "answer": "premier" },
+    { "case": "num-date", "type": "mc", "lang": "en", "q": "“the fourteenth of July”", "options": ["le quatorze juillet", "le quatorzième juillet", "la quatorze juillet"], "answer": "le quatorze juillet", "say": "le quatorze juillet" },
+    { "case": "num-fraction", "type": "mc", "q": "Je mange la ___ de la pizza.", "en": "I eat half the pizza.", "options": ["moitié", "demi", "tiers"], "answer": "moitié" },
+    { "case": "num-fraction", "type": "mc", "lang": "en", "q": "« un quart » is…", "options": ["¼", "⅓", "½"], "answer": "¼", "say": "un quart" },
+    { "case": "num-pourcent", "type": "mc", "lang": "en", "q": "How do you say “50 %”?", "options": ["cinquante pour cent", "cinquante sur cent", "cinquante par cent"], "answer": "cinquante pour cent", "say": "cinquante pour cent" },
+    { "case": "num-pourcent", "type": "type", "q": "Moins vingt ___ cent sur tous les manteaux !", "en": "Twenty per cent off all coats!", "answer": "pour" },
+    { "case": "num-grands", "type": "mc", "q": "Ce vélo coûte deux ___ euros.", "en": "This bike costs two thousand euros.", "options": ["mille", "milles", "mil"], "answer": "mille" },
+    { "case": "num-grands", "type": "mc", "q": "Paris a deux millions ___habitants.", "en": "Paris has two million inhabitants.", "options": ["d'", "de", "des"], "answer": "d'" },
+    { "case": "num-virgule", "type": "mc", "lang": "en", "q": "How do you read “1,5” in French?", "options": ["un virgule cinq", "un point cinq", "un et cinq"], "answer": "un virgule cinq", "say": "un virgule cinq" },
+    { "case": "num-virgule", "type": "mc", "lang": "en", "q": "How do you say the price “3,50 €”?", "options": ["trois euros cinquante", "trois virgule cinquante euros", "cinquante trois euros"], "answer": "trois euros cinquante", "say": "trois euros cinquante" },
+    { "case": "num-environ", "type": "mc", "lang": "en", "q": "« une vingtaine de personnes » means…", "options": ["about twenty people", "exactly twenty people", "the twentieth person"], "answer": "about twenty people", "say": "une vingtaine de personnes" },
+    { "case": "num-environ", "type": "mc", "q": "Je pars une ___ de jours.", "en": "I'm going away for two weeks or so.", "options": ["quinzaine", "quinze", "quinzième"], "answer": "quinzaine" }
+  ]
+}

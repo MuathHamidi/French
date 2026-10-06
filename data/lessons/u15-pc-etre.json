@@ -1,0 +1,221 @@
+{
+  "id": "u15-pc-etre",
+  "type": "grammar",
+  "unit": 15,
+  "title": "Je suis allé(e)",
+  "en": "The passé composé with être",
+  "intro": "About fifteen verbs, mostly about **moving** or **changing**, make their passé composé with **être** instead of *avoir*: *je **suis** allé, elle **est** partie*. With *être*, the participle **agrees** with the subject, like an adjective: *Léa est partie, ils sont arrivés*.",
+  "cases": [
+    { "id": "pe-form", "label": "être + past participle", "rule": "**être** in the present + the past participle: *je suis allé, tu es allé, il est allé, elle est allée, nous sommes allés, vous êtes allés, ils sont allés, elles sont allées*." },
+    { "id": "pe-maison", "label": "which verbs? la maison d'être", "rule": "The *être* verbs: **aller / venir, arriver / partir, entrer / sortir, monter / descendre, naître / mourir, rester, tomber, rentrer, retourner, revenir, devenir**." },
+    { "id": "pe-accord", "label": "agreement: -e, -s, -es", "rule": "With *être*, the participle agrees with the subject: **+e** for a woman, **+s** for several people, **+es** for several women: *Léa est partie, ils sont partis, elles sont parties*." },
+    { "id": "pe-irreg", "label": "venu, né, mort", "rule": "Irregular participles: *venir → **venu*** (*revenu, devenu*), *naître → **né***, *mourir → **mort***, *descendre → **descendu***." },
+    { "id": "pe-neg", "label": "negatives and questions", "rule": "**ne … pas** goes around **être**: *je ne suis pas allé*. Questions as usual: *Tu es parti quand ? Est-ce qu'elle est venue ?*" },
+    { "id": "pe-on-vous", "label": "on and vous", "rule": "**on** meaning *we* usually takes a plural agreement: *On est partis.* Polite **vous** to one person stays singular: *Madame, vous êtes arrivée quand ?*" },
+    { "id": "pe-avoir-etre", "label": "avoir or être?", "rule": "Most verbs use **avoir** (*j'ai mangé, j'ai pris*). Only the *maison d'être* verbs (and reflexive verbs) use **être** (*je suis allé, je suis resté*)." },
+    { "id": "pe-pendant", "label": "pendant or depuis?", "rule": "How long something lasted: **pendant** + time with the passé composé (*je suis resté pendant trois semaines*). Still going on now: present + **depuis** (*j'habite ici depuis un an*)." }
+  ],
+  "sections": [
+    {
+      "title": "1. être + past participle",
+      "text": ["Take **être** in the present and add the past participle. The participle agrees with the subject: a woman adds **-e**, several people add **-s**."],
+      "table": {
+        "head": ["A man", "A woman"], "frCols": [0, 1],
+        "rows": [
+          ["je suis allé", "je suis allée"],
+          ["tu es allé", "tu es allée"],
+          ["il est allé", "elle est allée"],
+          ["nous sommes allés", "nous sommes allées"],
+          ["vous êtes allés", "vous êtes allées"],
+          ["ils sont allés", "elles sont allées"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis allée|pe-form} à Madrid.", "en": "I went to Madrid. (a woman speaking)" },
+        { "fr": "{Nous sommes partis|pe-form} le premier juillet.", "en": "We left on the first of July." },
+        { "fr": "{Tom est rentré|pe-form} en Angleterre.", "en": "Tom went back to England." }
+      ],
+      "tip": "You usually can't hear the agreement: *allé* and *allée* sound the same. It only shows in writing."
+    },
+    {
+      "title": "2. Which verbs? La maison d'être",
+      "text": ["Picture a house: you **arrive**, **go in**, **go up** the stairs, **come down**, **go out**, **leave**… The verbs that take *être* are mostly about moving from one place to another, plus being born, dying, staying and becoming."],
+      "table": {
+        "head": ["Verb", "Participle", "Verb", "Participle"], "frCols": [0, 1, 2, 3],
+        "rows": [
+          ["aller", "allé", "venir", "venu"],
+          ["arriver", "arrivé", "partir", "parti"],
+          ["entrer", "entré", "sortir", "sorti"],
+          ["monter", "monté", "descendre", "descendu"],
+          ["naître", "né", "mourir", "mort"],
+          ["rester", "resté", "tomber", "tombé"],
+          ["rentrer", "rentré", "revenir", "revenu"],
+          ["retourner", "retourné", "devenir", "devenu"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est tombé|pe-maison} dans l'eau.", "en": "He fell into the water." },
+        { "fr": "{Je suis resté|pe-maison} à la maison.", "en": "I stayed at home." },
+        { "fr": "{Elle est montée|pe-maison} au sommet.", "en": "She climbed to the top." }
+      ],
+      "tip": "A trick to remember them: **DR & MRS VANDERTRAMP**: Devenir, Revenir, Monter, Rester, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Retourner, Arriver, Mourir, Partir."
+    },
+    {
+      "title": "3. Agreement",
+      "text": ["With *être*, the participle behaves like an adjective: **+e** for a woman, **+s** for several people, **+es** for several women."],
+      "table": {
+        "head": ["Masculine", "Feminine"], "frCols": [0, 1],
+        "rows": [
+          ["Tom est parti.", "Léa est partie."],
+          ["Tom et Hugo sont partis.", "Léa et Sophie sont parties."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Léa est partie|pe-accord} à Montréal.", "en": "Léa left for Montréal." },
+        { "fr": "{Inès et Carla sont allées|pe-accord} à la plage.", "en": "Inès and Carla went to the beach." },
+        { "fr": "{Hugo et Léa sont arrivés|pe-accord} en retard.", "en": "Hugo and Léa arrived late." }
+      ],
+      "tip": "A group with at least one man takes **-s**: *Léa et Hugo sont arrivés*."
+    },
+    {
+      "title": "4. Irregular participles",
+      "table": {
+        "head": ["Verb", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["venir", "venu", "Il est venu."],
+          ["revenir", "revenu", "Elle est revenue."],
+          ["devenir", "devenu", "Il est devenu médecin."],
+          ["naître", "né", "Je suis né à Lyon."],
+          ["mourir", "mort", "Il est mort en 1885."],
+          ["descendre", "descendu", "Nous sommes descendus."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis née|pe-irreg} à Paris.", "en": "I was born in Paris. (a woman speaking)" },
+        { "fr": "{Antoine est venu|pe-irreg} à Lyon en mai.", "en": "Antoine came to Lyon in May." },
+        { "fr": "{Victor Hugo est mort|pe-irreg} en 1885.", "en": "Victor Hugo died in 1885." }
+      ],
+      "tip": "**Je suis né(e)…** is how you give your place or year of birth: *Je suis né à Lyon en 2005.*"
+    },
+    {
+      "title": "5. Negatives and questions",
+      "text": ["**ne … pas** goes around **être**, and the participle comes after. Questions work as usual."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne suis pas allé au cinéma.", "I didn't go to the cinema."],
+          ["Elle n'est pas venue.", "She didn't come."],
+          ["Tu es parti quand ?", "When did you leave?"],
+          ["Est-ce qu'ils sont arrivés ?", "Have they arrived?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne suis pas sorti|pe-neg} hier soir.", "en": "I didn't go out last night." },
+        { "fr": "{Vous êtes allés où|pe-neg} en vacances ?", "en": "Where did you go on holiday?" },
+        { "fr": "{Elle n'est jamais venue|pe-neg} à Lyon.", "en": "She's never been to Lyon." }
+      ]
+    },
+    {
+      "title": "6. on and vous",
+      "text": ["When **on** means *we*, the participle usually agrees as plural. Polite **vous** to one person stays singular."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["On est partis à huit heures.", "We left at eight."],
+          ["On est allées à la plage.", "We (women) went to the beach."],
+          ["Madame, vous êtes arrivée quand ?", "Madam, when did you arrive?"],
+          ["Les enfants, vous êtes rentrés ?", "Kids, are you back?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{On est arrivés|pe-on-vous} à Montréal à quatorze heures.", "en": "We arrived in Montréal at 2 p.m." },
+        { "fr": "{Vous êtes venue|pe-on-vous} seule, madame ?", "en": "Did you come alone, madam?" }
+      ]
+    },
+    {
+      "title": "7. avoir or être?",
+      "text": ["Most verbs take **avoir**. Only the *maison d'être* verbs, and all reflexive verbs (next lesson), take **être**."],
+      "table": {
+        "head": ["avoir", "être"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai mangé.", "Je suis allé."],
+          ["J'ai pris le train.", "Je suis parti."],
+          ["J'ai visité Québec.", "Je suis resté à Québec."],
+          ["J'ai attendu le bus.", "Je suis monté dans le bus."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai pris l'avion et je suis arrivé|pe-avoir-etre} à Montréal.", "en": "I took the plane and arrived in Montréal." },
+        { "fr": "{Nous avons mangé, puis nous sommes sortis|pe-avoir-etre}.", "en": "We ate, then we went out." }
+      ]
+    },
+    {
+      "title": "8. pendant or depuis?",
+      "text": ["To say how long something lasted in the past, use the passé composé with **pendant** (or just the length of time). For something that is still going on, use the present with **depuis**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis resté trois semaines.", "I stayed (for) three weeks."],
+          ["Il a plu pendant deux jours.", "It rained for two days."],
+          ["J'habite à Lyon depuis un an.", "I've been living in Lyon for a year (and I still do)."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous sommes restés pendant trois semaines|pe-pendant} à Montréal.", "en": "We stayed in Montréal for three weeks." },
+        { "fr": "{Elle a dormi pendant dix heures|pe-pendant} !", "en": "She slept for ten hours!" },
+        { "fr": "Léa habite à Lyon {depuis deux ans|pe-pendant}.", "en": "Léa has been living in Lyon for two years." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai allé à Paris.", "right": "Je suis allé à Paris.", "why": "**aller** takes **être**." },
+    { "wrong": "Elle est parti.", "right": "Elle est partie.", "why": "With être, the participle agrees: **+e**." },
+    { "wrong": "Ils sont arrivé.", "right": "Ils sont arrivés.", "why": "Plural: **+s**." },
+    { "wrong": "Je suis venir.", "right": "Je suis venu.", "why": "*venir* → **venu**." },
+    { "wrong": "Je suis mangé.", "right": "J'ai mangé.", "why": "*manger* takes **avoir**." },
+    { "wrong": "Je suis resté depuis trois semaines.", "right": "Je suis resté pendant trois semaines.", "why": "Finished length of time: **pendant**." }
+  ],
+  "story": {
+    "title": "La rentrée",
+    "en": "September: back in Lyon, the friends tell each other about their summer.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début septembre, c'est la rentrée. Les amis se retrouvent au café d'en bas.", "en": "Early September: everyone's back. The friends meet at the café downstairs." },
+      { "sp": "Tom", "fr": "Alors, Sophie, {tu es allée|pe-form} où cet été ?", "en": "So, Sophie, where did you go this summer?" },
+      { "sp": "Sophie", "fr": "{Je suis partie|pe-accord} à Madrid avec Inès. {Nous sommes restées|pe-accord} chez ses parents {pendant trois semaines|pe-pendant}.", "en": "I went to Madrid with Inès. We stayed with her parents for three weeks." },
+      { "sp": "Sophie", "fr": "Puis {on est allées|pe-on-vous} à Barcelone. L'hôtel… quelle aventure !", "en": "Then we went to Barcelona. The hotel… what an adventure!" },
+      { "sp": "Léa", "fr": "Nous, {nous sommes arrivés|pe-form} à Montréal le premier juillet, avec mes parents et Lou.", "en": "As for us, we arrived in Montréal on the first of July, with my parents and Lou." },
+      { "sp": "Léa", "fr": "{Antoine est venu|pe-irreg} nous chercher à l'aéroport… en taxi, bien sûr !", "en": "Antoine came to pick us up at the airport… by taxi, of course!" },
+      { "sp": "Tom", "fr": "Et Hugo ? {Il n'est pas venu|pe-neg} avec vous ?", "en": "And Hugo? Didn't he come with you?" },
+      { "sp": "Hugo", "fr": "{Je suis arrivé|pe-maison} en août… après une petite aventure avec mon passeport !", "en": "I arrived in August… after a little adventure with my passport!" },
+      { "sp": "Léa", "fr": "Fin août, {nous sommes descendus|pe-maison} à Marseille, chez nos grands-parents.", "en": "At the end of August, we went down to Marseille, to our grandparents'." },
+      { "sp": "Léa", "fr": "Lou {est tombée|pe-maison} dans l'eau… avec son nounours !", "en": "Lou fell in the water… with her teddy bear!" },
+      { "sp": "Hugo", "fr": "Et moi, {j'ai pris un coup de soleil|pe-avoir-etre} terrible !", "en": "And I got a terrible sunburn!" },
+      { "sp": "Léa", "fr": "Et toi, Tom ? {Tu es rentré|pe-form} en Angleterre ?", "en": "And you, Tom? Did you go back to England?" },
+      { "sp": "Tom", "fr": "Oui, chez mes parents. Il a plu tout l'été… {Je ne suis pas sorti|pe-neg} une seule fois !", "en": "Yes, to my parents'. It rained all summer… I didn't go out once!" },
+      { "sp": "Tom", "fr": "Mais j'ai une bonne nouvelle : ma sœur a eu un bébé ! {Il est né|pe-irreg} le quinze août. {Je suis devenu|pe-irreg} oncle !", "en": "But I've got some good news: my sister had a baby! He was born on the fifteenth of August. I've become an uncle!" },
+      { "sp": "Léa", "fr": "Félicitations, tonton Tom !", "en": "Congratulations, Uncle Tom!" },
+      { "sp": "Sophie", "fr": "Bon… {on est revenus|pe-on-vous} à Lyon, et demain, c'est le travail !", "en": "Well… we're back in Lyon, and tomorrow it's back to work!" },
+      { "sp": "Hugo", "fr": "Ne dis pas ce mot, Sophie… Dans ma tête, je suis encore en vacances !", "en": "Don't say that word, Sophie… In my head, I'm still on holiday!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pe-form", "type": "mc", "q": "Nous ___ partis le premier juillet.", "en": "We left on the first of July.", "options": ["sommes", "avons", "sont"], "answer": "sommes" },
+    { "case": "pe-form", "type": "type", "q": "Tu ___ allée où cet été ?", "en": "Where did you go this summer?", "answer": "es" },
+    { "case": "pe-maison", "type": "mc", "lang": "en", "q": "Which verb takes être in the passé composé?", "options": ["arriver", "manger", "prendre"], "answer": "arriver", "say": "je suis arrivé" },
+    { "case": "pe-maison", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je suis resté à la maison.", "J'ai resté à la maison."], "answer": "Je suis resté à la maison." },
+    { "case": "pe-accord", "type": "mc", "q": "Léa est ___ à Montréal.", "en": "Léa left for Montréal.", "options": ["partie", "parti", "partis"], "answer": "partie" },
+    { "case": "pe-accord", "type": "mc", "q": "Inès et Carla sont ___ à la plage.", "en": "Inès and Carla went to the beach.", "options": ["allées", "allés", "allée"], "answer": "allées" },
+    { "case": "pe-accord", "type": "type", "q": "Hugo et Léa sont ___ en retard.", "en": "Hugo and Léa arrived late.", "answer": "arrivés" },
+    { "case": "pe-irreg", "type": "mc", "q": "Antoine est ___ à Lyon en mai.", "en": "Antoine came to Lyon in May.", "options": ["venu", "venir", "viendu"], "answer": "venu" },
+    { "case": "pe-irreg", "type": "type", "q": "Je suis ___ à Paris.", "en": "I was born in Paris. (a man speaking)", "answer": "né" },
+    { "case": "pe-neg", "type": "mc", "lang": "en", "q": "How do you say “She didn't come”?", "options": ["Elle n'est pas venue.", "Elle n'a pas venue.", "Elle est pas venue ne."], "answer": "Elle n'est pas venue." },
+    { "case": "pe-neg", "type": "type", "q": "Je ne ___ pas sorti hier soir.", "en": "I didn't go out last night.", "answer": "suis" },
+    { "case": "pe-on-vous", "type": "mc", "q": "Hugo et moi, on est ___ à huit heures.", "en": "Hugo and I left at eight. (Tom speaking)", "options": ["partis", "parti", "partie"], "answer": "partis" },
+    { "case": "pe-on-vous", "type": "mc", "q": "Madame, vous êtes ___ quand ?", "en": "Madam, when did you arrive?", "options": ["arrivée", "arrivés", "arrivé"], "answer": "arrivée" },
+    { "case": "pe-avoir-etre", "type": "mc", "q": "Hier, nous ___ allés au cinéma.", "en": "Yesterday, we went to the cinema.", "options": ["sommes", "avons"], "answer": "sommes" },
+    { "case": "pe-avoir-etre", "type": "mc", "q": "Hier, nous ___ vu un film.", "en": "Yesterday, we saw a film.", "options": ["avons", "sommes"], "answer": "avons" },
+    { "case": "pe-pendant", "type": "mc", "lang": "en", "q": "How do you say “I stayed for three weeks”?", "options": ["Je suis resté pendant trois semaines.", "Je suis resté depuis trois semaines.", "J'ai resté pendant trois semaines."], "answer": "Je suis resté pendant trois semaines." },
+    { "case": "pe-pendant", "type": "mc", "q": "J'habite à Lyon ___ deux ans.", "en": "I've been living in Lyon for two years.", "options": ["depuis", "pendant", "il y a"], "answer": "depuis", "why": "Still true now → present + **depuis**." }
+  ]
+}

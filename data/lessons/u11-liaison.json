@@ -1,0 +1,226 @@
+{
+  "id": "u11-liaison",
+  "type": "sounds",
+  "unit": 11,
+  "title": "Les‿amis",
+  "en": "Pronunciation: liaison and linking words together",
+  "intro": "In French, the words of a group flow together with no gaps. A final consonant that is normally **silent** is sometimes pronounced when the next word starts with a vowel: **les amis** = /le.za.mi/. This is **liaison**. Some liaisons are compulsory, some are forbidden, and getting them right makes you sound French straight away.",
+  "cases": [
+    { "id": "lia-must", "label": "when you must link", "rule": "Always link a **determiner + noun** (*les‿amis, un‿ami*), a **pronoun + verb** (*nous‿avons, ils‿aiment*), an **adjective + noun** (*petit‿enfant*), after short words like *très, chez, dans, en*, and in set phrases (*tout‿à coup*)." },
+    { "id": "lia-z", "label": "s, x, z → /z/", "rule": "A final **s, x** or **z** links as /z/: *les‿amis* /le.za.mi/, *deux‿enfants* /dø.zɑ̃.fɑ̃/, *chez‿eux* /ʃe.zø/." },
+    { "id": "lia-t", "label": "t, d → /t/", "rule": "A final **t** or **d** links as /t/: *c'est‿un* /sɛ.tœ̃/, *quand‿il* /kɑ̃.til/, *un grand‿homme* /ɡʁɑ̃.tɔm/." },
+    { "id": "lia-n", "label": "n → /n/", "rule": "A final **n** links as /n/: *un‿ami* /œ̃.na.mi/, *mon‿ami, on‿a, en‿été*." },
+    { "id": "lia-rare", "label": "f → /v/, r → /ʁ/", "rule": "Two rarer ones: **neuf** links with /v/ in *neuf‿ans* and *neuf‿heures*, and **premier, dernier** link with /ʁ/: *le premier‿étage*." },
+    { "id": "lia-never", "label": "when you must NOT link", "rule": "Never link after **et** (*un café et | un thé*), after a **singular noun** (*un étudiant | anglais*), or before an **h aspiré** (*les | héros*) or **onze** (*les | onze joueurs*)." },
+    { "id": "lia-zs", "label": "ils‿ont or ils sont?", "rule": "Liaison can change the meaning: *ils‿ont* /il.zɔ̃/ (they have) but *ils sont* /il.sɔ̃/ (they are). Listen for /z/ or /s/!" },
+    { "id": "lia-ench", "label": "enchaînement", "rule": "A final consonant that you **always** say slides onto the next vowel: *il‿est* /i.lɛ/, *elle‿a* /ɛ.la/, *une‿amie* /y.na.mi/, *avec‿elle*. No new sound appears: the words just run together." }
+  ],
+  "sections": [
+    {
+      "title": "1. Liaison: when you must link",
+      "text": ["Most final consonants in French are silent: *les* /le/, *petit* /pə.ti/, *deux* /dø/. But when the next word starts with a **vowel** or a **silent h**, the consonant is pronounced at the start of the next word. Inside these word groups, liaison is compulsory:"],
+      "table": {
+        "head": ["Word group", "Example", "Sounds like"], "frCols": [1],
+        "rows": [
+          ["determiner + noun", "les amis", "/le.za.mi/"],
+          ["pronoun + verb", "nous avons", "/nu.za.vɔ̃/"],
+          ["adjective + noun", "un petit enfant", "/œ̃.pə.ti.tɑ̃.fɑ̃/"],
+          ["after très, chez, dans, en", "très important", "/tʁɛ.zɛ̃.pɔʁ.tɑ̃/"],
+          ["set phrases", "tout à coup", "/tu.ta.ku/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Les enfants|lia-must} jouent dans le parc.", "en": "The children are playing in the park." },
+        { "fr": "{Vous avez|lia-must} un chien ?", "en": "Have you got a dog?" },
+        { "fr": "{Ils aiment|lia-must} le chocolat.", "en": "They love chocolate." }
+      ],
+      "tip": "Compare: *les parents* /le.pa.ʁɑ̃/ (a consonant: no liaison) and *les‿amis* /le.za.mi/."
+    },
+    {
+      "title": "2. s, x, z → /z/",
+      "text": ["The most common liaison. Whether it's written **s**, **x** or **z**, it always sounds **/z/**."],
+      "table": {
+        "head": ["French", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["les amis", "/le.za.mi/"],
+          ["deux enfants", "/dø.zɑ̃.fɑ̃/"],
+          ["chez eux", "/ʃe.zø/"],
+          ["vous êtes", "/vu.zɛt/"],
+          ["trois heures", "/tʁwa.zœʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai {deux enfants|lia-z}.", "en": "I have two children." },
+        { "fr": "{Vous êtes|lia-z} français ?", "en": "Are you French?" },
+        { "fr": "Ils sont {chez eux|lia-z}.", "en": "They're at home." }
+      ],
+      "tip": "The **x** of *deux, six, dix* also sounds /z/: *six‿ans* /si.zɑ̃/, *dix‿euros* /di.zø.ʁo/."
+    },
+    {
+      "title": "3. t, d → /t/",
+      "table": {
+        "head": ["French", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["c'est un ami", "/sɛ.tœ̃.na.mi/"],
+          ["un petit enfant", "/œ̃.pə.ti.tɑ̃.fɑ̃/"],
+          ["un grand homme", "/œ̃.ɡʁɑ̃.tɔm/"],
+          ["quand il pleut", "/kɑ̃.til.plø/"],
+          ["vingt ans", "/vɛ̃.tɑ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est un|lia-t} bon restaurant.", "en": "It's a good restaurant." },
+        { "fr": "{Quand il|lia-t} pleut, je reste à la maison.", "en": "When it rains, I stay at home." },
+        { "fr": "Elle a {vingt ans|lia-t}.", "en": "She's twenty." }
+      ],
+      "tip": "A final **d** becomes /t/: *grand‿homme* /ɡʁɑ̃.tɔm/, *quand‿il* /kɑ̃.til/. And careful: *un petit‿ami* means *a boyfriend*!"
+    },
+    {
+      "title": "4. n → /n/",
+      "text": ["After **un, mon, ton, son, on, en, rien**, the **n** is heard before a vowel. The vowel before it usually stays nasal: *un‿ami* /œ̃.na.mi/."],
+      "table": {
+        "head": ["French", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["un ami", "/œ̃.na.mi/"],
+          ["mon école", "/mɔ̃.ne.kɔl/"],
+          ["on a", "/ɔ̃.na/"],
+          ["en été", "/ɑ̃.ne.te/"],
+          ["rien à faire", "/ʁjɛ̃.na.fɛʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est {mon ami|lia-n} Tom.", "en": "This is my friend Tom." },
+        { "fr": "{On a|lia-n} faim !", "en": "We're hungry!" },
+        { "fr": "{En été|lia-n}, il fait chaud.", "en": "In summer, it's hot." }
+      ],
+      "tip": "**bon** loses its nasal sound: *un bon‿ami* /bɔ.na.mi/, *Bon‿anniversaire !* /bɔ.na.ni.vɛʁ.sɛʁ/."
+    },
+    {
+      "title": "5. Two rare ones: /v/ and /ʁ/",
+      "text": ["**neuf** links with a **/v/** in *neuf ans* and *neuf heures*. And **premier, dernier** link with an **/ʁ/**."],
+      "table": {
+        "head": ["French", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["neuf ans", "/nœ.vɑ̃/"],
+          ["neuf heures", "/nœ.vœʁ/"],
+          ["le premier étage", "/lə.pʁə.mje.ʁe.taʒ/"],
+          ["le dernier été", "/lə.dɛʁ.nje.ʁe.te/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ma sœur a {neuf ans|lia-rare}.", "en": "My sister is nine." },
+        { "fr": "Le cours commence à {neuf heures|lia-rare}.", "en": "The class starts at nine o'clock." },
+        { "fr": "J'habite au {premier étage|lia-rare}.", "en": "I live on the first floor." }
+      ]
+    },
+    {
+      "title": "6. When you must NOT link",
+      "text": ["Some liaisons are forbidden, and making them is a typical learner's mistake."],
+      "table": {
+        "head": ["Rule", "Example", "Sounds like"], "frCols": [1],
+        "rows": [
+          ["after et", "un café et un thé", "/e | œ̃/"],
+          ["after a singular noun", "un étudiant anglais", "/e.ty.djɑ̃ | ɑ̃.ɡlɛ/"],
+          ["before an h aspiré", "les héros", "/le | e.ʁo/"],
+          ["before an h aspiré", "les haricots", "/le | a.ʁi.ko/"],
+          ["before onze, huit, oui", "les onze joueurs", "/le | ɔ̃z/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Un croissant {et un|lia-never} café, s'il vous plaît.", "en": "A croissant and a coffee, please." },
+        { "fr": "J'adore {les haricots|lia-never} verts.", "en": "I love green beans." },
+        { "fr": "{Les héros|lia-never} du film sont des enfants.", "en": "The heroes of the film are children." }
+      ],
+      "tip": "An **h aspiré** is silent too, but it blocks liaison and elision: *le héros, la Hollande, le hockey*. Dictionaries mark these words with a symbol, often an asterisk."
+    },
+    {
+      "title": "7. ils‿ont or ils sont?",
+      "text": ["Here, liaison changes the meaning. Listen to the sound before the vowel: **/z/** in *ils‿ont* (they have), **/s/** in *ils sont* (they are)."],
+      "table": {
+        "head": ["/z/: avoir", "/s/: être"], "frCols": [0, 1],
+        "rows": [
+          ["ils ont", "ils sont"],
+          ["elles ont", "elles sont"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ils ont|lia-zs} un chat.", "en": "They have a cat." },
+        { "fr": "{Ils sont|lia-zs} au parc.", "en": "They're at the park." },
+        { "fr": "{Elles ont|lia-zs} faim et {elles sont|lia-zs} fatiguées.", "en": "They're hungry and they're tired." }
+      ],
+      "tip": "The same thing happens with *nous‿avons* /nu.za.vɔ̃/ (we have) and *nous savons* /nu.sa.vɔ̃/ (we know)."
+    },
+    {
+      "title": "8. Enchaînement: words that run together",
+      "text": ["When a word ends with a consonant that you **always** pronounce (*il, elle, avec, une, quatre*), that consonant slides onto the next vowel. Nothing new is added; there's just no gap. This is called **enchaînement**."],
+      "table": {
+        "head": ["French", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["il est", "/i.lɛ/"],
+          ["elle a", "/ɛ.la/"],
+          ["une amie", "/y.na.mi/"],
+          ["avec elle", "/a.vɛ.kɛl/"],
+          ["quatre enfants", "/ka.tʁɑ̃.fɑ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est|lia-ench} en retard.", "en": "He's late." },
+        { "fr": "{Elle a|lia-ench} une sœur.", "en": "She has a sister." },
+        { "fr": "Je vais au cinéma {avec elle|lia-ench}.", "en": "I'm going to the cinema with her." }
+      ],
+      "tip": "French flows from syllable to syllable: *Il est à Paris* sounds like one long word: /i.lɛ.ta.pa.ʁi/."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "les amis → /le.a.mi/", "right": "/le.za.mi/", "why": "Liaison is compulsory after a determiner." },
+    { "wrong": "deux enfants → /dø.ɑ̃.fɑ̃/", "right": "/dø.zɑ̃.fɑ̃/", "why": "Link a number to its noun." },
+    { "wrong": "et un → /e.tœ̃/", "right": "/e.œ̃/", "why": "Never link after **et**." },
+    { "wrong": "les héros → /le.ze.ʁo/", "right": "/le.e.ʁo/", "why": "**h aspiré**: no liaison. (*les zéros* means *the zeros*!)" },
+    { "wrong": "ils sont (meaning “they have”)", "right": "ils‿ont /il.zɔ̃/", "why": "/z/ = avoir, /s/ = être." }
+  ],
+  "story": {
+    "title": "Un dîner entre amis",
+    "en": "Léa and Sophie have friends round for dinner. Listen for the links between the words.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi soir, Léa et Sophie font un dîner pour {leurs amis|lia-must}.", "en": "On Saturday evening, Léa and Sophie are having a dinner for their friends." },
+      { "sp": "", "fr": "À {neuf heures|lia-rare}, on sonne à la porte : ce sont {les invités|lia-z} !", "en": "At nine o'clock, the doorbell rings: it's the guests!" },
+      { "sp": "Léa", "fr": "Bonsoir, Inès ! Bonsoir, Carla ! {Comment allez-vous|lia-t} ?", "en": "Good evening, Inès! Good evening, Carla! How are you?" },
+      { "sp": "Inès", "fr": "Très bien, merci ! Oh, {vous avez|lia-z} beaucoup de fleurs sur le balcon !", "en": "Very well, thank you! Oh, you've got lots of flowers on the balcony!" },
+      { "sp": "", "fr": "Puis Tom arrive avec {un ami|lia-n}, Oscar. C'est {un étudiant anglais|lia-never}.", "en": "Then Tom arrives with a friend, Oscar. He's an English student." },
+      { "sp": "Tom", "fr": "Je vous présente Oscar. {Il habite|lia-ench} à Lyon depuis {deux ans|lia-z}.", "en": "Let me introduce Oscar. He's been living in Lyon for two years." },
+      { "sp": "Oscar", "fr": "Bonsoir ! Je suis très content d'être ici.", "en": "Good evening! I'm very happy to be here." },
+      { "sp": "", "fr": "Hugo arrive en retard, bien sûr, à dix heures… avec {un énorme gâteau|lia-n} !", "en": "Hugo arrives late, of course, at ten o'clock… with an enormous cake!" },
+      { "sp": "Hugo", "fr": "Désolé ! {C'est un|lia-t} gâteau pour {mes amis|lia-z} !", "en": "Sorry! It's a cake for my friends!" },
+      { "sp": "Sophie", "fr": "Le dîner est prêt ! Il y a du poulet {et un|lia-never} gratin… avec {des haricots|lia-never} verts.", "en": "Dinner's ready! There's chicken and a gratin… with green beans." },
+      { "sp": "Oscar", "fr": "Mmm, c'est délicieux ! En Angleterre, on ne mange pas comme ça !", "en": "Mmm, it's delicious! In England, we don't eat like this!" },
+      { "sp": "Hugo", "fr": "Après le dîner, on regarde le match ? {Les onze|lia-never} joueurs de Lyon sont {mes héros|lia-never} !", "en": "After dinner, shall we watch the match? The eleven Lyon players are my heroes!" },
+      { "sp": "Carla", "fr": "Le foot ? Non, Hugo ! Ce soir, on danse !", "en": "Football? No, Hugo! Tonight, we're dancing!" },
+      { "sp": "", "fr": "{Tout à coup|lia-must}, la musique commence. Tout le monde [danse|danser].", "en": "Suddenly, the music starts. Everyone dances." },
+      { "sp": "", "fr": "{Ils sont|lia-zs} contents : {ils ont|lia-zs} des amis formidables !", "en": "They're happy: they have wonderful friends!" },
+      { "sp": "Hugo", "fr": "Et le match ?", "en": "And the match?" },
+      { "sp": "Tous", "fr": "Non, Hugo !", "en": "No, Hugo!" }
+    ]
+  },
+  "quiz": [
+    { "case": "lia-must", "type": "mc", "lang": "en", "q": "A liaison can happen when the next word starts with…", "options": ["a vowel or a silent h", "a consonant", "any letter"], "answer": "a vowel or a silent h", "say": "les amis, les hôtels" },
+    { "case": "lia-must", "type": "mc", "lang": "en", "q": "In « les amis », do you pronounce the s?", "options": ["yes: /le.za.mi/", "no: /le.a.mi/"], "answer": "yes: /le.za.mi/", "say": "les amis" },
+    { "case": "lia-must", "type": "mc", "lang": "en", "q": "« nous avons » sounds like…", "options": ["/nu.za.vɔ̃/", "/nu.a.vɔ̃/", "/nus.a.vɔ̃/"], "answer": "/nu.za.vɔ̃/", "say": "nous avons" },
+    { "case": "lia-z", "type": "mc", "lang": "en", "listen": "deux enfants", "q": "Listen: which sound links the two words?", "options": ["/z/", "/t/", "/n/"], "answer": "/z/" },
+    { "case": "lia-z", "type": "mc", "lang": "en", "q": "In « chez eux », the z sounds…", "options": ["/z/", "/s/", "silent"], "answer": "/z/", "say": "chez eux" },
+    { "case": "lia-t", "type": "mc", "lang": "en", "listen": "un grand homme", "q": "Listen: which sound links « grand » and « homme »?", "options": ["/t/", "/d/", "/z/"], "answer": "/t/" },
+    { "case": "lia-t", "type": "mc", "lang": "en", "q": "In « quand il pleut », the d sounds…", "options": ["/t/", "/d/", "silent"], "answer": "/t/", "say": "quand il pleut" },
+    { "case": "lia-n", "type": "mc", "lang": "en", "listen": "mon ami", "q": "Listen: which sound links the two words?", "options": ["/n/", "/z/", "/t/"], "answer": "/n/" },
+    { "case": "lia-n", "type": "mc", "lang": "en", "q": "« en été » sounds like…", "options": ["/ɑ̃.ne.te/", "/ɑ̃.e.te/", "/ɑ̃.te.te/"], "answer": "/ɑ̃.ne.te/", "say": "en été" },
+    { "case": "lia-rare", "type": "mc", "lang": "en", "listen": "neuf heures", "q": "Listen: how does « neuf » link to « heures »?", "options": ["/v/", "/f/", "/z/"], "answer": "/v/" },
+    { "case": "lia-rare", "type": "mc", "lang": "en", "q": "In « le premier étage », the r of « premier »…", "options": ["is pronounced: /pʁə.mje.ʁe.taʒ/", "stays silent: /pʁə.mje.e.taʒ/"], "answer": "is pronounced: /pʁə.mje.ʁe.taʒ/", "say": "le premier étage" },
+    { "case": "lia-never", "type": "mc", "lang": "en", "q": "« un café et un thé »: do you link « et » and « un »?", "options": ["no: never after et", "yes: /e.tœ̃/"], "answer": "no: never after et", "say": "un café et un thé" },
+    { "case": "lia-never", "type": "mc", "lang": "en", "q": "« les héros »: do you link?", "options": ["no: h aspiré, /le.e.ʁo/", "yes: /le.ze.ʁo/"], "answer": "no: h aspiré, /le.e.ʁo/", "say": "les héros", "why": "With a liaison, it would sound like *les zéros* (the zeros)!" },
+    { "case": "lia-never", "type": "mc", "lang": "en", "q": "« un étudiant anglais »: do you link « étudiant » and « anglais »?", "options": ["no: never after a singular noun", "yes: /e.ty.djɑ̃.tɑ̃.ɡlɛ/"], "answer": "no: never after a singular noun", "say": "un étudiant anglais" },
+    { "case": "lia-zs", "type": "mc", "lang": "en", "listen": "ils ont", "q": "Listen: ils ont or ils sont?", "options": ["ils ont", "ils sont"], "answer": "ils ont" },
+    { "case": "lia-zs", "type": "mc", "lang": "en", "listen": "elles sont", "q": "Listen: elles ont or elles sont?", "options": ["elles sont", "elles ont"], "answer": "elles sont" },
+    { "case": "lia-zs", "type": "mc", "lang": "en", "q": "« ils‿ont » /il.zɔ̃/ means…", "options": ["they have", "they are"], "answer": "they have", "say": "ils ont" },
+    { "case": "lia-ench", "type": "mc", "lang": "en", "q": "« il est » is said…", "options": ["/i.lɛ/: the l slides onto est", "/il | ɛ/: with a pause"], "answer": "/i.lɛ/: the l slides onto est", "say": "il est" },
+    { "case": "lia-ench", "type": "mc", "lang": "en", "q": "« une amie » is said…", "options": ["/y.na.mi/", "/yn | a.mi/", "/y.a.mi/"], "answer": "/y.na.mi/", "say": "une amie" }
+  ]
+}

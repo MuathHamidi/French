@@ -1,0 +1,207 @@
+{
+  "id": "u10-sports",
+  "type": "vocab",
+  "unit": 10,
+  "title": "Le sport",
+  "en": "Sports",
+  "intro": "21 words for sport: the sports themselves, the people and places, and the key verbs. To say you *do* or *play* a sport you need **faire du…** or **jouer au…** — the grammar lesson explains which.",
+  "words": [
+    { "id": "sport", "fr": "sport", "pos": "noun", "g": "m", "ipa": "spɔʁ", "en": "sport",
+      "def": "Une activité où on bouge le corps : le foot, la natation, le tennis…", "def_en": "An activity where you move your body: football, swimming, tennis…",
+      "forms": ["sports"],
+      "examples": [
+        { "fr": "Tu fais du **sport** ?", "en": "Do you do any sport?" },
+        { "fr": "Le foot est mon **sport** préféré.", "en": "Football is my favourite sport." },
+        { "fr": "Je regarde le **sport** à la télé.", "en": "I watch sport on TV." }
+      ],
+      "note": "The **t** is silent: /spɔʁ/." },
+    { "id": "football", "fr": "football", "pos": "noun", "g": "m", "ipa": "fut.bol", "en": "football, soccer",
+      "def": "Un sport d'équipe : on joue avec un ballon et avec les pieds.", "def_en": "A team sport: you play with a ball, using your feet.",
+      "forms": ["foot"], "accept": ["foot", "le foot"],
+      "examples": [
+        { "fr": "Je joue au **football** le samedi.", "en": "I play football on Saturdays." },
+        { "fr": "On regarde le **foot** ce soir ?", "en": "Shall we watch the football tonight?" },
+        { "fr": "Hugo adore le **foot**… à la télé.", "en": "Hugo loves football… on TV." }
+      ],
+      "note": "Everyday word: **le foot**. Said the French way: /fut/, not /fʊt/." },
+    { "id": "basket", "fr": "basket", "pos": "noun", "g": "m", "ipa": "bas.kɛt", "en": "basketball",
+      "def": "Un sport d'équipe : on met le ballon dans un panier, très haut.", "def_en": "A team sport: you put the ball in a basket, very high up.",
+      "examples": [
+        { "fr": "Il joue au **basket**.", "en": "He plays basketball." },
+        { "fr": "Le **basket** est un sport américain.", "en": "Basketball is an American sport." },
+        { "fr": "Tu aimes le **basket** ?", "en": "Do you like basketball?" }
+      ],
+      "note": "Careful: **le basket** is the sport, but **des baskets** (feminine) are trainers/sneakers!" },
+    { "id": "tennis", "fr": "tennis", "pos": "noun", "g": "m", "ipa": "te.nis", "en": "tennis",
+      "def": "Un sport pour deux ou quatre personnes, avec une raquette et une petite balle.", "def_en": "A sport for two or four people, with a racket and a small ball.",
+      "examples": [
+        { "fr": "On joue au **tennis** samedi ?", "en": "Shall we play tennis on Saturday?" },
+        { "fr": "Je fais du **tennis** depuis un an.", "en": "I've been playing tennis for a year." },
+        { "fr": "Il regarde le **tennis** à la télé.", "en": "He watches tennis on TV." }
+      ] },
+    { "id": "rugby", "fr": "rugby", "pos": "noun", "g": "m", "ipa": "ʁyɡ.bi", "en": "rugby",
+      "def": "Un sport d'équipe avec un ballon ovale. Il est très populaire dans le sud de la France.", "def_en": "A team sport with an oval ball. It's very popular in the south of France.",
+      "examples": [
+        { "fr": "Mon cousin joue au **rugby**.", "en": "My cousin plays rugby." },
+        { "fr": "Le **rugby**, c'est dur !", "en": "Rugby is tough!" },
+        { "fr": "Il y a un match de **rugby** ce soir.", "en": "There's a rugby match tonight." }
+      ] },
+    { "id": "natation", "fr": "natation", "pos": "noun", "g": "f", "ipa": "na.ta.sjɔ̃", "en": "swimming",
+      "def": "Le sport où on nage.", "def_en": "The sport where you swim.",
+      "examples": [
+        { "fr": "Léa fait de la **natation**.", "en": "Léa swims. (does swimming)" },
+        { "fr": "La **natation** est bonne pour le corps.", "en": "Swimming is good for the body." },
+        { "fr": "J'ai un cours de **natation** le mardi.", "en": "I have a swimming lesson on Tuesdays." }
+      ] },
+    { "id": "ski", "fr": "ski", "pos": "noun", "g": "m", "ipa": "ski", "en": "skiing; ski",
+      "def": "Le sport qu'on fait sur la neige, à la montagne.", "def_en": "The sport you do on snow, in the mountains.",
+      "forms": ["skis"],
+      "examples": [
+        { "fr": "En hiver, nous faisons du **ski**.", "en": "In winter, we go skiing." },
+        { "fr": "Tu aimes le **ski** ?", "en": "Do you like skiing?" },
+        { "fr": "Mes **skis** sont dans le garage.", "en": "My skis are in the garage." }
+      ] },
+    { "id": "danse", "fr": "danse", "pos": "noun", "g": "f", "ipa": "dɑ̃s", "en": "dance, dancing",
+      "def": "Bouger le corps avec la musique.", "def_en": "Moving your body to music.",
+      "forms": ["danses"],
+      "examples": [
+        { "fr": "Sophie fait de la **danse**.", "en": "Sophie does dance." },
+        { "fr": "J'ai un cours de **danse** ce soir.", "en": "I have a dance class tonight." },
+        { "fr": "C'est une **danse** espagnole.", "en": "It's a Spanish dance." }
+      ] },
+    { "id": "course", "fr": "course", "pos": "noun", "g": "f", "ipa": "kuʁs", "en": "running; race",
+      "def": "Le sport où on court. Aussi : une compétition de vitesse.", "def_en": "The sport where you run. Also: a speed competition.",
+      "examples": [
+        { "fr": "Je fais de la **course** à pied le dimanche.", "en": "I go running on Sundays." },
+        { "fr": "Tom gagne la **course** !", "en": "Tom wins the race!" },
+        { "fr": "La **course** commence à neuf heures.", "en": "The race starts at nine." }
+      ],
+      "note": "**faire les courses** (plural) = to do the shopping — a different meaning!" },
+    { "id": "match", "fr": "match", "pos": "noun", "g": "m", "ipa": "matʃ", "en": "match, game",
+      "def": "Une rencontre entre deux équipes ou deux joueurs.", "def_en": "A meeting between two teams or two players.",
+      "forms": ["matchs"],
+      "examples": [
+        { "fr": "Le **match** commence à huit heures.", "en": "The match starts at eight." },
+        { "fr": "On regarde le **match** ensemble ?", "en": "Shall we watch the match together?" },
+        { "fr": "Notre équipe gagne le **match** !", "en": "Our team wins the match!" }
+      ] },
+    { "id": "equipe", "fr": "équipe", "pos": "noun", "g": "f", "ipa": "e.kip", "en": "team",
+      "def": "Un groupe de joueurs qui jouent ensemble.", "def_en": "A group of players who play together.",
+      "forms": ["équipes"], "accept": ["equipe"],
+      "examples": [
+        { "fr": "Il y a onze joueurs dans une **équipe** de foot.", "en": "There are eleven players in a football team." },
+        { "fr": "Quelle est ton **équipe** préférée ?", "en": "What's your favourite team?" },
+        { "fr": "Notre **équipe** perd encore !", "en": "Our team is losing again!" }
+      ] },
+    { "id": "joueur", "fr": "joueur", "pos": "noun", "g": "m", "ipa": "ʒwœʁ", "en": "player (male)",
+      "def": "Une personne qui joue à un sport ou à un jeu.", "def_en": "A person who plays a sport or a game.",
+      "extra": "A female player: **une joueuse** /ʒwøz/.",
+      "forms": ["joueuse", "joueurs", "joueuses"], "accept": ["joueuse", "la joueuse", "une joueuse"],
+      "examples": [
+        { "fr": "C'est un bon **joueur** de tennis.", "en": "He's a good tennis player." },
+        { "fr": "Les **joueurs** arrivent au stade.", "en": "The players are arriving at the stadium." },
+        { "fr": "C'est la meilleure **joueuse** de l'équipe.", "en": "She's the best player in the team." }
+      ] },
+    { "id": "ballon", "fr": "ballon", "pos": "noun", "g": "m", "ipa": "ba.lɔ̃", "en": "ball (football, basketball)",
+      "def": "Un gros objet rond, pour jouer au foot, au basket…", "def_en": "A big round object for playing football, basketball…",
+      "forms": ["ballons"],
+      "examples": [
+        { "fr": "Passe-moi le **ballon** !", "en": "Pass me the ball!" },
+        { "fr": "Le **ballon** est dans le jardin.", "en": "The ball is in the garden." },
+        { "fr": "Lou joue avec un **ballon** rouge.", "en": "Lou is playing with a red ball." }
+      ],
+      "note": "A small ball (tennis, golf) is **une balle**." },
+    { "id": "stade", "fr": "stade", "pos": "noun", "g": "m", "ipa": "stad", "en": "stadium",
+      "def": "Un grand lieu pour les matchs, avec beaucoup de places.", "def_en": "A big place for matches, with lots of seats.",
+      "forms": ["stades"],
+      "examples": [
+        { "fr": "On va au **stade** ce soir.", "en": "We're going to the stadium tonight." },
+        { "fr": "Le **stade** est plein !", "en": "The stadium is full!" },
+        { "fr": "Il y a un petit **stade** dans le quartier.", "en": "There's a small stadium in the neighbourhood." }
+      ] },
+    { "id": "piscine", "fr": "piscine", "pos": "noun", "g": "f", "ipa": "pi.sin", "en": "swimming pool",
+      "def": "Un grand bassin d'eau pour nager.", "def_en": "A big pool of water for swimming.",
+      "forms": ["piscines"],
+      "examples": [
+        { "fr": "Je vais à la **piscine** le mardi.", "en": "I go to the pool on Tuesdays." },
+        { "fr": "L'eau de la **piscine** est froide !", "en": "The water in the pool is cold!" },
+        { "fr": "Il y a une **piscine** à côté du stade.", "en": "There's a pool next to the stadium." }
+      ] },
+    { "id": "gagner", "fr": "gagner", "pos": "verb", "ipa": "ɡa.ɲe", "en": "to win; to earn",
+      "def": "Être le meilleur dans un match. Aussi : recevoir de l'argent pour son travail.", "def_en": "To be the best in a match. Also: to get money for your work.",
+      "forms": ["gagne", "gagnes", "gagnons", "gagnez", "gagnent", "gagnais", "gagnait", "gagnions", "gagniez", "gagnaient", "gagné", "gagnée", "gagnés", "gagnées", "gagnerai", "gagneras", "gagnera", "gagnerons", "gagnerez", "gagneront"],
+      "examples": [
+        { "fr": "Notre équipe **gagne** !", "en": "Our team is winning!" },
+        { "fr": "Qui **gagne** le match ?", "en": "Who's winning the match?" },
+        { "fr": "Il **gagne** beaucoup d'argent.", "en": "He earns a lot of money." }
+      ] },
+    { "id": "perdre", "fr": "perdre", "pos": "verb", "ipa": "pɛʁdʁ", "en": "to lose",
+      "def": "Le contraire de « gagner ». Aussi : ne plus trouver une chose.", "def_en": "The opposite of “to win”. Also: to no longer be able to find something.",
+      "extra": "je **perds** · tu **perds** · il **perd** · nous **perdons** · vous **perdez** · ils **perdent**",
+      "forms": ["perds", "perd", "perdons", "perdez", "perdent", "perdais", "perdait", "perdions", "perdiez", "perdaient", "perdrai", "perdras", "perdra", "perdrons", "perdrez", "perdront"],
+      "examples": [
+        { "fr": "On **perd** le match !", "en": "We're losing the match!" },
+        { "fr": "Hugo **perd** toujours ses clés.", "en": "Hugo always loses his keys." },
+        { "fr": "Ils **perdent** trois à zéro.", "en": "They're losing three-nil." }
+      ] },
+    { "id": "courir", "fr": "courir", "pos": "verb", "ipa": "ku.ʁiʁ", "en": "to run",
+      "def": "Aller très vite avec les jambes.", "def_en": "To go very fast on your legs.",
+      "extra": "je **cours** · tu **cours** · il **court** · nous **courons** · vous **courez** · ils **courent** — irregular.",
+      "forms": ["cours", "court", "courons", "courez", "courent", "courais", "courait", "courions", "couriez", "couraient", "couru", "courrai", "courras", "courra", "courrons", "courrez", "courront"],
+      "examples": [
+        { "fr": "Je **cours** au parc le matin.", "en": "I run in the park in the mornings." },
+        { "fr": "Il **court** très vite !", "en": "He runs very fast!" },
+        { "fr": "Nous **courons** ensemble le dimanche.", "en": "We run together on Sundays." }
+      ] },
+    { "id": "nager", "fr": "nager", "pos": "verb", "ipa": "na.ʒe", "en": "to swim",
+      "def": "Avancer dans l'eau avec les bras et les jambes.", "def_en": "To move through water with your arms and legs.",
+      "extra": "Like *manger*: **nous nageons** (with an e).",
+      "forms": ["nage", "nages", "nageons", "nagez", "nagent", "nageais", "nageait", "nagions", "nagiez", "nageaient", "nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront"],
+      "examples": [
+        { "fr": "Je **nage** à la piscine.", "en": "I swim at the pool." },
+        { "fr": "Tu sais **nager** ?", "en": "Can you swim?" },
+        { "fr": "Nous **nageons** dans la mer en été.", "en": "We swim in the sea in summer." }
+      ] },
+    { "id": "marcher", "fr": "marcher", "pos": "verb", "ipa": "maʁ.ʃe", "en": "to walk; to work (machines)",
+      "def": "Avancer à pied. Aussi : bien fonctionner.", "def_en": "To go on foot. Also: to work properly.",
+      "forms": ["marche", "marches", "marchons", "marchez", "marchent", "marchant", "marché", "marchais", "marchait", "marchions", "marchiez", "marchaient", "marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront"],
+      "examples": [
+        { "fr": "Je **marche** beaucoup.", "en": "I walk a lot." },
+        { "fr": "On **marche** jusqu'à la gare ?", "en": "Shall we walk to the station?" },
+        { "fr": "Mon téléphone ne **marche** pas.", "en": "My phone doesn't work." }
+      ] },
+    { "id": "s-entrainer", "fr": "s'entraîner", "pos": "verb", "ipa": "sɑ̃.tʁɛ.ne", "en": "to train, to practise",
+      "def": "Faire beaucoup de sport pour devenir meilleur.", "def_en": "To do lots of sport in order to get better.",
+      "extra": "je **m'entraîne** · tu **t'entraînes** · il **s'entraîne** · nous **nous entraînons** · vous **vous entraînez** · ils **s'entraînent**",
+      "forms": ["m'entraîne", "t'entraînes", "s'entraîne", "nous nous entraînons", "vous vous entraînez", "s'entraînent", "entraîne", "entraînes", "entraînons", "entraînez", "entraînent", "entraîner", "entraînais", "entraînait", "entraînions", "entraîniez", "entraînaient", "m'entraînerai", "t'entraîneras", "s'entraînera", "nous nous entraînerons", "vous vous entraînerez", "s'entraîneront"],
+      "accept": ["s'entrainer"],
+      "examples": [
+        { "fr": "Je **m'entraîne** trois fois par semaine.", "en": "I train three times a week." },
+        { "fr": "L'équipe **s'entraîne** le jeudi.", "en": "The team trains on Thursdays." },
+        { "fr": "Tu **t'entraînes** pour la course ?", "en": "Are you training for the race?" }
+      ] }
+  ],
+  "story": {
+    "title": "Hugo fait du sport",
+    "en": "Hugo decides to get fit.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Hugo travaille dans un bureau toute la journée. Il veut faire du sport.", "en": "Hugo works in an office all day. He wants to do some sport." },
+      { "sp": "Hugo", "fr": "Je suis fatigué, je mange trop de pizza… Je dois faire du sport !", "en": "I'm tired, I eat too much pizza… I must do some sport!" },
+      { "sp": "Léa", "fr": "Viens avec moi à la piscine ! La natation, c'est super.", "en": "Come to the pool with me! Swimming is great." },
+      { "sp": "Hugo", "fr": "Nager ? Non, l'eau est trop froide.", "en": "Swimming? No, the water's too cold." },
+      { "sp": "Tom", "fr": "Tu aimes le tennis ? Ou la course ? Le dimanche, je cours au parc.", "en": "Do you like tennis? Or running? On Sundays, I run in the park." },
+      { "sp": "Hugo", "fr": "Le tennis… je ne sais pas jouer.", "en": "Tennis… I don't know how to play." },
+      { "sp": "", "fr": "Au bureau, ses collègues ont une équipe de football.", "en": "At work, his colleagues have a football team." },
+      { "sp": "Le collègue", "fr": "Hugo, tu veux jouer au foot avec nous ? Nous avons besoin d'un joueur !", "en": "Hugo, do you want to play football with us? We need a player!" },
+      { "sp": "Hugo", "fr": "Du foot ? D'accord ! J'adore le foot… à la télé.", "en": "Football? OK! I love football… on TV." },
+      { "sp": "", "fr": "Le match est mardi soir, au stade du quartier.", "en": "The match is on Tuesday evening, at the local stadium." },
+      { "sp": "", "fr": "Hugo court, court, court… mais il ne touche jamais le ballon.", "en": "Hugo runs, runs, runs… but he never touches the ball." },
+      { "sp": "", "fr": "À la fin, son équipe ne gagne pas : elle perd cinq à zéro.", "en": "In the end, his team doesn't win: they lose five-nil." },
+      { "sp": "Hugo", "fr": "On perd, mais ce n'est pas grave. Le sport, c'est pour s'amuser !", "en": "We lost, but never mind. Sport is for fun!" },
+      { "sp": "Le collègue", "fr": "Tu t'entraînes avec nous jeudi ?", "en": "Will you train with us on Thursday?" },
+      { "sp": "Hugo", "fr": "Jeudi ? Non… Moi, je préfère marcher. Ou faire du ski, en hiver !", "en": "Thursday? No… I prefer walking. Or skiing, in winter!" },
+      { "sp": "", "fr": "Mais Léa sait une chose : le rugby, le basket et la danse… ce n'est pas pour Hugo !", "en": "But Léa knows one thing: rugby, basketball and dance… are not for Hugo!" }
+    ]
+  }
+}

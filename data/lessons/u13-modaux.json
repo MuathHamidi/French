@@ -1,0 +1,223 @@
+{
+  "id": "u13-modaux",
+  "type": "grammar",
+  "unit": 13,
+  "title": "Je peux, je veux, je dois",
+  "en": "pouvoir, vouloir, devoir (+ il faut, savoir)",
+  "intro": "Three verbs you'll use all day: **pouvoir** (can), **vouloir** (to want) and **devoir** (must). Like *aller* in the near future, they're followed by a verb in the **infinitive**: *je peux venir, je veux partir, je dois travailler*. Plus: the polite **je voudrais**, the useful **il faut**, and when English *can* is **savoir**.",
+  "cases": [
+    { "id": "mod-pouvoir", "label": "pouvoir: je peux", "rule": "**pouvoir** + infinitive = can, to be able to: *je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent*: *Je peux venir demain.*" },
+    { "id": "mod-vouloir", "label": "vouloir: je veux", "rule": "**vouloir** = to want, + a noun or an infinitive: *je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent*: *Je veux un café. Je veux travailler ici.*" },
+    { "id": "mod-devoir", "label": "devoir: je dois", "rule": "**devoir** + infinitive = must, to have to: *je dois, tu dois, il doit, nous devons, vous devez, ils doivent*: *Je dois partir.*" },
+    { "id": "mod-ask", "label": "Je peux… ? Vous pouvez… ?", "rule": "To ask permission: **Je peux… ?** (Can I…?). To ask someone to do something: **Tu peux… ? Vous pouvez… ?** (Can you…?), with *s'il te plaît / s'il vous plaît*." },
+    { "id": "mod-voudrais", "label": "polite: je voudrais", "rule": "**je voudrais** (I would like) is the polite form of *je veux*: *Je voudrais un rendez-vous. Je voudrais parler à madame Dupont.* With people you don't know, avoid *je veux*." },
+    { "id": "mod-neg", "label": "je ne peux pas", "rule": "**ne … pas** goes around the first verb: *Je ne peux pas venir. Je ne veux pas partir.* Careful: **tu ne dois pas** = you **must not** (it's forbidden)." },
+    { "id": "mod-ilfaut", "label": "il faut + infinitive", "rule": "**il faut** + infinitive = you have to, it's necessary (for everyone): *Il faut travailler. Il faut être à l'heure.* **il ne faut pas** = you mustn't." },
+    { "id": "mod-savoir", "label": "can = savoir or pouvoir?", "rule": "English *can* has two French verbs: **savoir** for a skill you've learned (*Je sais nager* = I know how to swim) and **pouvoir** for what's possible or allowed (*Je peux nager aujourd'hui*)." }
+  ],
+  "sections": [
+    {
+      "title": "1. pouvoir: can",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["je peux", "I can"],
+          ["tu peux", "you can"],
+          ["il peut", "he can"],
+          ["nous pouvons", "we can"],
+          ["vous pouvez", "you can"],
+          ["ils peuvent", "they can"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je peux|mod-pouvoir} commencer lundi.", "en": "I can start on Monday." },
+        { "fr": "{Nous pouvons|mod-pouvoir} parler en anglais.", "en": "We can speak in English." },
+        { "fr": "{Ils peuvent|mod-pouvoir} venir à la réunion.", "en": "They can come to the meeting." }
+      ],
+      "tip": "**peux** and **peut** sound the same: /pø/. In *ils peuvent* /pœv/ you hear the **v**."
+    },
+    {
+      "title": "2. vouloir: to want",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["je veux", "I want"],
+          ["tu veux", "you want"],
+          ["il veut", "he wants"],
+          ["nous voulons", "we want"],
+          ["vous voulez", "you want"],
+          ["ils veulent", "they want"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je veux|mod-vouloir} travailler ici.", "en": "I want to work here." },
+        { "fr": "{Tu veux|mod-vouloir} un café ?", "en": "Do you want a coffee?" },
+        { "fr": "{Elles veulent|mod-vouloir} devenir médecins.", "en": "They want to become doctors." }
+      ],
+      "tip": "**vouloir** also works with a noun: *Je veux un café*. With people you don't know, it's softer to say *je voudrais* (section 5)."
+    },
+    {
+      "title": "3. devoir: must, to have to",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["je dois", "I must, I have to"],
+          ["tu dois", "you must"],
+          ["il doit", "he must"],
+          ["nous devons", "we must"],
+          ["vous devez", "you must"],
+          ["ils doivent", "they must"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je dois|mod-devoir} partir à six heures.", "en": "I have to leave at six." },
+        { "fr": "{Vous devez|mod-devoir} remplir ce dossier.", "en": "You have to fill in this file." },
+        { "fr": "{Les stagiaires doivent|mod-devoir} arriver à neuf heures.", "en": "The interns have to arrive at nine." }
+      ],
+      "tip": "With a noun, **devoir** means *to owe*: *Je te dois dix euros* (I owe you ten euros)."
+    },
+    {
+      "title": "4. Asking: Je peux… ? Vous pouvez… ?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je peux entrer ?", "Can I come in?"],
+          ["Est-ce que je peux poser une question ?", "May I ask a question?"],
+          ["Tu peux m'aider ?", "Can you help me?"],
+          ["Vous pouvez répéter, s'il vous plaît ?", "Could you say that again, please?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je peux|mod-ask} ouvrir la fenêtre ?", "en": "Can I open the window?" },
+        { "fr": "{Vous pouvez|mod-ask} parler plus lentement, s'il vous plaît ?", "en": "Could you speak more slowly, please?" },
+        { "fr": "{Tu peux|mod-ask} m'envoyer le dossier ?", "en": "Can you send me the file?" }
+      ],
+      "tip": "**Vous pouvez répéter, s'il vous plaît ?** is the most useful sentence a learner can know!"
+    },
+    {
+      "title": "5. Polite: je voudrais",
+      "text": ["*Je veux* sounds like an order. To ask politely (in a shop, a café, on the phone…), say **je voudrais**, *I would like*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je veux un rendez-vous.", "I want an appointment. (too direct)"],
+          ["Je voudrais un rendez-vous.", "I'd like an appointment. (polite)"],
+          ["Vous voulez un café ?", "Do you want a coffee?"],
+          ["Voulez-vous un café ?", "Would you like a coffee? (formal)"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je voudrais|mod-voudrais} un rendez-vous, s'il vous plaît.", "en": "I'd like an appointment, please." },
+        { "fr": "{Je voudrais|mod-voudrais} parler à madame Dupont.", "en": "I'd like to speak to Mme Dupont." },
+        { "fr": "{Nous voudrions|mod-voudrais} réserver une table.", "en": "We'd like to book a table." }
+      ]
+    },
+    {
+      "title": "6. The negative",
+      "text": ["**ne … pas** goes around the first verb (*pouvoir, vouloir, devoir*). The infinitive comes after."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne peux pas venir.", "I can't come."],
+          ["Je ne veux pas partir.", "I don't want to leave."],
+          ["Je ne dois pas oublier.", "I mustn't forget."],
+          ["Tu ne dois pas fumer ici.", "You mustn't smoke here."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne peux pas|mod-neg} venir demain.", "en": "I can't come tomorrow." },
+        { "fr": "{Tu ne dois pas|mod-neg} arriver en retard.", "en": "You mustn't arrive late." },
+        { "fr": "{Il ne veut pas|mod-neg} travailler le samedi.", "en": "He doesn't want to work on Saturdays." }
+      ],
+      "tip": "**tu ne dois pas** = you **must not** (it's forbidden), not *you don't have to*. For *you don't have to*, French says **tu n'es pas obligé de…**"
+    },
+    {
+      "title": "7. il faut",
+      "text": ["**il faut** + infinitive is an obligation for everyone. It never changes: no *je faut*!"],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il faut travailler.", "You have to work."],
+          ["Il faut être à l'heure.", "You have to be on time."],
+          ["Il ne faut pas fumer.", "You mustn't smoke."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il faut|mod-ilfaut} envoyer ton CV.", "en": "You have to send your CV." },
+        { "fr": "{Il faut|mod-ilfaut} parler anglais pour ce travail.", "en": "You need to speak English for this job." },
+        { "fr": "{Il ne faut pas|mod-ilfaut} oublier le dossier !", "en": "We mustn't forget the file!" }
+      ],
+      "tip": "With a noun, **il faut** means *you need, it takes*: *Il faut deux heures* (It takes two hours)."
+    },
+    {
+      "title": "8. can: savoir or pouvoir?",
+      "text": ["**savoir** + infinitive = to know how to: a skill you learned. **pouvoir** = it's possible, or allowed, right now."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je sais nager.", "I can swim. (I know how)"],
+          ["Je peux nager aujourd'hui.", "I can swim today. (I'm able to, I'm allowed to)"],
+          ["Tu sais conduire ?", "Can you drive? (Do you know how?)"],
+          ["Tu peux conduire ce soir ?", "Can you drive tonight? (Are you free to?)"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je sais|mod-savoir} parler espagnol.", "en": "I can speak Spanish." },
+        { "fr": "{Tu sais|mod-savoir} faire une crêpe ?", "en": "Do you know how to make a crêpe?" },
+        { "fr": "Hugo {sait|mod-savoir} réparer les ordinateurs.", "en": "Hugo knows how to fix computers." }
+      ],
+      "tip": "**savoir**: je sais, tu sais, il sait, nous savons, vous savez, ils savent."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je peux à venir.", "right": "Je peux venir.", "why": "No **à** after *pouvoir, vouloir, devoir*." },
+    { "wrong": "Il peut vient.", "right": "Il peut venir.", "why": "The second verb stays in the infinitive." },
+    { "wrong": "Je veux un café. (to a waiter)", "right": "Je voudrais un café.", "why": "**je voudrais** is the polite form." },
+    { "wrong": "Je peux nager. (I know how)", "right": "Je sais nager.", "why": "A skill you learned: **savoir**." },
+    { "wrong": "Tu ne dois pas venir. (= you don't have to)", "right": "Tu n'es pas obligé de venir.", "why": "*tu ne dois pas* means you **mustn't**." },
+    { "wrong": "Ils doient partir.", "right": "Ils doivent partir.", "why": "**devoir**: *ils doivent*." }
+  ],
+  "story": {
+    "title": "L'entretien de Léa",
+    "en": "Léa's internship interview with Hugo's boss.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Jeudi, Léa a un entretien avec la patronne de Hugo, madame Dupont.", "en": "On Thursday, Léa has an interview with Hugo's boss, Mme Dupont." },
+      { "sp": "La patronne", "fr": "Bonjour, Léa. Asseyez-vous. {Vous voulez|mod-vouloir} un café ?", "en": "Hello, Léa. Have a seat. Would you like a coffee?" },
+      { "sp": "Léa", "fr": "Non merci. {Je voudrais|mod-voudrais} juste un verre d'eau, s'il vous plaît.", "en": "No thank you. I'd just like a glass of water, please." },
+      { "sp": "La patronne", "fr": "Alors, pourquoi {voulez-vous|mod-vouloir} faire un stage chez nous ?", "en": "So, why do you want to do an internship with us?" },
+      { "sp": "Léa", "fr": "Parce que {je veux|mod-vouloir} apprendre un métier. Et mon frère dit que c'est une super entreprise !", "en": "Because I want to learn a trade. And my brother says it's a great company!" },
+      { "sp": "La patronne", "fr": "Votre frère… Hugo ? Hmm. {Vous savez|mod-savoir} utiliser un ordinateur ?", "en": "Your brother… Hugo? Hmm. Do you know how to use a computer?" },
+      { "sp": "Léa", "fr": "Oui, bien sûr. Et {je sais|mod-savoir} parler anglais et un peu espagnol.", "en": "Yes, of course. And I can speak English and a little Spanish." },
+      { "sp": "La patronne", "fr": "Très bien. Mais attention : ici, {il faut|mod-ilfaut} être à l'heure. Les stagiaires {doivent|mod-devoir} arriver à neuf heures.", "en": "Very good. But be careful: here, you have to be on time. Interns have to arrive at nine." },
+      { "sp": "Léa", "fr": "Pas de problème. Moi, je ne suis jamais en retard… pas comme mon frère !", "en": "No problem. I'm never late… unlike my brother!" },
+      { "sp": "La patronne", "fr": "Ha ha ! {Vous pouvez|mod-pouvoir} commencer le premier juin ?", "en": "Ha ha! Can you start on the first of June?" },
+      { "sp": "Léa", "fr": "Oui, {je peux|mod-pouvoir} ! Mais {je ne peux pas|mod-neg} rester en juillet : {je dois|mod-devoir} partir à Montréal avec ma famille.", "en": "Yes, I can! But I can't stay in July: I have to go to Montréal with my family." },
+      { "sp": "La patronne", "fr": "Ce n'est pas grave : le stage dure un mois. {Est-ce que je peux|mod-ask} voir votre CV ?", "en": "That's fine: the internship lasts a month. May I see your CV?" },
+      { "sp": "Léa", "fr": "Bien sûr. Voici mon CV.", "en": "Of course. Here's my CV." },
+      { "sp": "La patronne", "fr": "Parfait. Dernière chose : {vous ne devez pas|mod-neg} utiliser votre téléphone pendant les réunions.", "en": "Perfect. One last thing: you mustn't use your phone during meetings." },
+      { "sp": "Léa", "fr": "D'accord. {Vous pouvez|mod-ask} répéter l'heure de la réunion du lundi, s'il vous plaît ?", "en": "All right. Could you tell me the time of the Monday meeting again, please?" },
+      { "sp": "La patronne", "fr": "Neuf heures. Bienvenue chez nous, Léa !", "en": "Nine o'clock. Welcome aboard, Léa!" },
+      { "sp": "", "fr": "Le soir, Léa appelle Hugo : « J'ai le stage ! Et maintenant, {tu dois|mod-devoir} arriver à l'heure : ta petite sœur te regarde ! »", "en": "In the evening, Léa calls Hugo: “I got the internship! And now you have to be on time: your little sister is watching you!”" }
+    ]
+  },
+  "quiz": [
+    { "case": "mod-pouvoir", "type": "mc", "q": "Nous ___ commencer demain.", "en": "We can start tomorrow.", "options": ["pouvons", "peuvons", "pouvez"], "answer": "pouvons" },
+    { "case": "mod-pouvoir", "type": "type", "q": "Ils ___ venir à la réunion.", "en": "They can come to the meeting.", "answer": "peuvent" },
+    { "case": "mod-vouloir", "type": "mc", "q": "Tu ___ un café ?", "en": "Do you want a coffee?", "options": ["veux", "voulez", "veut"], "answer": "veux" },
+    { "case": "mod-vouloir", "type": "type", "q": "Elles ___ devenir médecins.", "en": "They want to become doctors.", "answer": "veulent" },
+    { "case": "mod-devoir", "type": "mc", "q": "Je ___ partir à six heures.", "en": "I have to leave at six.", "options": ["dois", "doit", "devons"], "answer": "dois" },
+    { "case": "mod-devoir", "type": "type", "q": "Vous ___ remplir ce dossier.", "en": "You have to fill in this file.", "answer": "devez" },
+    { "case": "mod-ask", "type": "mc", "lang": "en", "q": "How do you ask “Can I come in?”", "options": ["Je peux entrer ?", "Je sais entrer ?", "Je dois entrer ?"], "answer": "Je peux entrer ?" },
+    { "case": "mod-ask", "type": "mc", "lang": "en", "q": "You didn't understand. You say…", "options": ["Vous pouvez répéter, s'il vous plaît ?", "Vous devez répéter !", "Vous savez répéter ?"], "answer": "Vous pouvez répéter, s'il vous plaît ?" },
+    { "case": "mod-voudrais", "type": "mc", "lang": "en", "q": "In a café, the polite way to order is…", "options": ["Je voudrais un café, s'il vous plaît.", "Je veux un café.", "Je dois un café."], "answer": "Je voudrais un café, s'il vous plaît." },
+    { "case": "mod-voudrais", "type": "type", "q": "Je ___ parler à madame Dupont, s'il vous plaît.", "en": "I'd like to speak to Mme Dupont, please.", "answer": "voudrais" },
+    { "case": "mod-neg", "type": "mc", "lang": "en", "q": "How do you say “I can't come”?", "options": ["Je ne peux pas venir.", "Je peux ne venir pas.", "Je ne peux venir pas."], "answer": "Je ne peux pas venir." },
+    { "case": "mod-neg", "type": "mc", "lang": "en", "q": "« Tu ne dois pas fumer ici » means…", "options": ["You mustn't smoke here.", "You don't have to smoke here."], "answer": "You mustn't smoke here.", "say": "Tu ne dois pas fumer ici." },
+    { "case": "mod-ilfaut", "type": "type", "q": "Il ___ envoyer ton CV avant lundi.", "en": "You have to send your CV before Monday.", "answer": "faut" },
+    { "case": "mod-ilfaut", "type": "mc", "lang": "en", "q": "« Il ne faut pas oublier » means…", "options": ["You mustn't forget.", "You don't need to forget.", "He doesn't forget."], "answer": "You mustn't forget.", "say": "Il ne faut pas oublier." },
+    { "case": "mod-savoir", "type": "mc", "q": "Tu ___ conduire ?", "en": "Can you drive? (Do you know how?)", "options": ["sais", "peux", "dois"], "answer": "sais" },
+    { "case": "mod-savoir", "type": "mc", "lang": "en", "q": "“I can swim” (I know how) is…", "options": ["Je sais nager.", "Je peux nager.", "Je dois nager."], "answer": "Je sais nager." },
+    { "case": "mod-savoir", "type": "type", "q": "Hugo ___ réparer les ordinateurs.", "en": "Hugo knows how to fix computers.", "answer": "sait" }
+  ]
+}

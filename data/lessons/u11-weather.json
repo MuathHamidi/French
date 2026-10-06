@@ -1,0 +1,226 @@
+{
+  "id": "u11-weather",
+  "type": "vocab",
+  "unit": 11,
+  "title": "Quel temps fait-il ?",
+  "en": "The weather",
+  "intro": "22 words for the weather, and the key question **Quel temps fait-il ?** (What's the weather like?). Notice that French talks about the weather with **faire**: *il fait beau, il fait froid*. The grammar lesson of this unit shows all the patterns.",
+  "words": [
+    { "id": "meteo", "fr": "météo", "pos": "noun", "g": "f", "ipa": "me.te.o", "en": "weather forecast",
+      "def": "À la radio ou à la télé : les informations sur le temps de demain.", "def_en": "On the radio or TV: the information about tomorrow's weather.",
+      "examples": [
+        { "fr": "Je regarde la **météo** tous les matins.", "en": "I check the weather forecast every morning." },
+        { "fr": "La **météo** annonce du soleil pour demain.", "en": "The forecast says sun for tomorrow." },
+        { "fr": "Écoute la **météo** à la radio !", "en": "Listen to the forecast on the radio!" }
+      ],
+      "note": "Short for **la météorologie**. It's feminine: **la** météo." },
+    { "id": "temps", "fr": "temps", "pos": "noun", "g": "m", "ipa": "tɑ̃", "en": "weather; time",
+      "def": "Le soleil, la pluie, le vent… : c'est le temps. Le mot veut aussi dire : les heures, les jours.", "def_en": "Sun, rain, wind…: that's the weather. The word also means time: hours, days.",
+      "examples": [
+        { "fr": "Quel **temps** fait-il ?", "en": "What's the weather like?" },
+        { "fr": "Le **temps** est gris aujourd'hui.", "en": "The weather is grey today." },
+        { "fr": "Je n'ai pas le **temps** !", "en": "I don't have time!" }
+      ],
+      "note": "**le temps** = the weather *and* time. But *What time is it?* is **Quelle heure est-il ?** The **ps** is silent: /tɑ̃/." },
+    { "id": "soleil", "fr": "soleil", "pos": "noun", "g": "m", "ipa": "sɔ.lɛj", "en": "sun",
+      "def": "Dans le ciel, le jour : il est jaune, très chaud, et il donne la lumière.", "def_en": "In the sky, in the daytime: it's yellow, very hot, and it gives light.",
+      "examples": [
+        { "fr": "Il y a du **soleil** aujourd'hui.", "en": "It's sunny today." },
+        { "fr": "Le **soleil** brille.", "en": "The sun is shining." },
+        { "fr": "On mange au **soleil**, sur le balcon ?", "en": "Shall we eat in the sun, on the balcony?" }
+      ],
+      "note": "**il y a du soleil** = it's sunny. In everyday speech you'll also hear **il fait du soleil**." },
+    { "id": "pluie", "fr": "pluie", "pos": "noun", "g": "f", "ipa": "plɥi", "en": "rain",
+      "def": "L'eau qui tombe du ciel, des nuages.", "def_en": "Water that falls from the sky, from the clouds.",
+      "examples": [
+        { "fr": "Je n'aime pas la **pluie**.", "en": "I don't like rain." },
+        { "fr": "On ne sort pas sous la **pluie** !", "en": "We're not going out in the rain!" },
+        { "fr": "Après la **pluie**, le beau temps.", "en": "After the rain comes fine weather. (Every cloud has a silver lining.)" }
+      ],
+      "note": "The noun is **la pluie**; the verb is **il pleut** (it's raining). *Sous la pluie* = in the rain." },
+    { "id": "pleuvoir", "fr": "pleuvoir", "pos": "verb", "ipa": "plø.vwaʁ", "en": "to rain",
+      "def": "L'eau tombe des nuages : il pleut.", "def_en": "Water falls from the clouds: it's raining.",
+      "extra": "Used only with **il**: **il pleut** (it's raining, it rains).",
+      "forms": ["pleut", "plu", "pleuvait", "pleuvra"],
+      "examples": [
+        { "fr": "Il **pleut** ! Tu as ton parapluie ?", "en": "It's raining! Have you got your umbrella?" },
+        { "fr": "Il **pleut** souvent à Londres.", "en": "It often rains in London." },
+        { "fr": "Il ne **pleut** pas aujourd'hui.", "en": "It isn't raining today." }
+      ],
+      "note": "**Il pleut des cordes !** = It's raining cats and dogs! (literally: it's raining ropes)" },
+    { "id": "neige", "fr": "neige", "pos": "noun", "g": "f", "ipa": "nɛʒ", "en": "snow",
+      "def": "De l'eau froide et blanche qui tombe du ciel en hiver.", "def_en": "Cold, white water that falls from the sky in winter.",
+      "examples": [
+        { "fr": "Les enfants jouent dans la **neige**.", "en": "The children are playing in the snow." },
+        { "fr": "Il y a de la **neige** à la montagne.", "en": "There's snow in the mountains." },
+        { "fr": "Regarde, la **neige** tombe !", "en": "Look, the snow is falling!" }
+      ],
+      "note": "**la neige** (snow) and **il neige** (it's snowing) are spelt the same." },
+    { "id": "neiger", "fr": "neiger", "pos": "verb", "ipa": "ne.ʒe", "en": "to snow",
+      "def": "La neige tombe du ciel : il neige.", "def_en": "Snow falls from the sky: it's snowing.",
+      "extra": "Like *pleuvoir*, used only with **il**: **il neige** (it's snowing, it snows).",
+      "forms": ["neige", "neigé", "neigeait", "neigera"],
+      "examples": [
+        { "fr": "Il **neige** ! Tout est blanc.", "en": "It's snowing! Everything is white." },
+        { "fr": "Il **neige** souvent à Montréal.", "en": "It often snows in Montréal." },
+        { "fr": "Il ne **neige** pas beaucoup à Lyon.", "en": "It doesn't snow much in Lyon." }
+      ] },
+    { "id": "vent", "fr": "vent", "pos": "noun", "g": "m", "ipa": "vɑ̃", "en": "wind",
+      "def": "L'air qui bouge, dehors. Parfois, il est très fort !", "def_en": "Air that moves, outside. Sometimes it's very strong!",
+      "examples": [
+        { "fr": "Il y a du **vent** aujourd'hui.", "en": "It's windy today." },
+        { "fr": "Le **vent** est froid ce matin.", "en": "The wind is cold this morning." },
+        { "fr": "Il y a trop de **vent** pour faire du vélo.", "en": "It's too windy to go cycling." }
+      ],
+      "note": "**il y a du vent** = it's windy (you'll also hear *il fait du vent*). The **t** is silent: /vɑ̃/." },
+    { "id": "nuage", "fr": "nuage", "pos": "noun", "g": "m", "ipa": "nɥaʒ", "en": "cloud",
+      "def": "Une forme blanche ou grise dans le ciel. La pluie tombe des nuages.", "def_en": "A white or grey shape in the sky. Rain falls from clouds.",
+      "forms": ["nuages"],
+      "examples": [
+        { "fr": "Il y a des **nuages** dans le ciel.", "en": "There are clouds in the sky." },
+        { "fr": "Regarde ce gros **nuage** noir !", "en": "Look at that big black cloud!" },
+        { "fr": "Il n'y a pas un **nuage** : le ciel est tout bleu.", "en": "There isn't a single cloud: the sky is completely blue." }
+      ] },
+    { "id": "orage", "fr": "orage", "pos": "noun", "g": "m", "ipa": "ɔ.ʁaʒ", "en": "storm, thunderstorm",
+      "def": "Un très mauvais temps, avec de la pluie, du vent et beaucoup de bruit dans le ciel.", "def_en": "Very bad weather, with rain, wind and a lot of noise in the sky.",
+      "forms": ["orages"],
+      "examples": [
+        { "fr": "Il y a un **orage** ce soir.", "en": "There's a storm tonight." },
+        { "fr": "Le chat a peur de l'**orage**.", "en": "The cat is scared of the storm." },
+        { "fr": "En été, il y a souvent des **orages**.", "en": "In summer, there are often thunderstorms." }
+      ],
+      "note": "Masculine: **un orage**, with a liaison: /œ̃.nɔ.ʁaʒ/." },
+    { "id": "ciel", "fr": "ciel", "pos": "noun", "g": "m", "ipa": "sjɛl", "en": "sky",
+      "def": "Au-dessus de nous, dehors : il est bleu le jour et noir la nuit.", "def_en": "Above us, outside: it's blue in the daytime and black at night.",
+      "examples": [
+        { "fr": "Le **ciel** est bleu.", "en": "The sky is blue." },
+        { "fr": "Le **ciel** est gris ce matin.", "en": "The sky is grey this morning." },
+        { "fr": "Il y a beaucoup d'étoiles dans le **ciel**.", "en": "There are lots of stars in the sky." }
+      ],
+      "note": "**un arc-en-ciel** = a rainbow (an arc in the sky)." },
+    { "id": "temperature", "fr": "température", "pos": "noun", "g": "f", "ipa": "tɑ̃.pe.ʁa.tyʁ", "en": "temperature",
+      "def": "Le chiffre qui dit s'il fait chaud ou froid, en degrés.", "def_en": "The number that tells you whether it's hot or cold, in degrees.",
+      "examples": [
+        { "fr": "Quelle est la **température** aujourd'hui ?", "en": "What's the temperature today?" },
+        { "fr": "La **température** est de vingt degrés.", "en": "The temperature is twenty degrees." },
+        { "fr": "La **température** baisse le soir.", "en": "The temperature drops in the evening." }
+      ],
+      "note": "For a person: **avoir de la température** = to have a temperature (a fever)." },
+    { "id": "degre", "fr": "degré", "pos": "noun", "g": "m", "ipa": "də.ɡʁe", "en": "degree",
+      "def": "Le mot pour dire la température : trente degrés, c'est très chaud !", "def_en": "The word for giving the temperature: thirty degrees is very hot!",
+      "forms": ["degrés"],
+      "examples": [
+        { "fr": "Il fait vingt **degrés**.", "en": "It's twenty degrees." },
+        { "fr": "Il fait moins cinq **degrés** : c'est froid !", "en": "It's minus five degrees: that's cold!" },
+        { "fr": "L'eau de la piscine est à vingt-six **degrés**.", "en": "The pool water is at twenty-six degrees." }
+      ],
+      "note": "France uses Celsius: **vingt degrés** (20 °C) is pleasant, **trente degrés** is hot. **zéro degré** is singular." },
+    { "id": "chaud", "fr": "chaud", "pos": "adj", "ipa": "ʃo", "display": "chaud(e)", "en": "hot, warm",
+      "def": "Quand la température est haute. Le contraire de froid.", "def_en": "When the temperature is high. The opposite of cold.",
+      "forms": ["chaude", "chauds", "chaudes"],
+      "examples": [
+        { "fr": "Il fait **chaud** aujourd'hui !", "en": "It's hot today!" },
+        { "fr": "J'ai **chaud** : j'enlève mon pull.", "en": "I'm hot: I'm taking off my jumper." },
+        { "fr": "Attention, la soupe est très **chaude** !", "en": "Careful, the soup is very hot!" }
+      ],
+      "note": "The weather: **il fait chaud**. A person: **j'ai chaud** (I'm hot), never *je suis chaud*!" },
+    { "id": "froid", "fr": "froid", "pos": "adj", "ipa": "fʁwa", "display": "froid(e)", "en": "cold",
+      "def": "Quand la température est basse. Le contraire de chaud.", "def_en": "When the temperature is low. The opposite of hot.",
+      "forms": ["froide", "froids", "froides"],
+      "examples": [
+        { "fr": "Il fait **froid** ce matin.", "en": "It's cold this morning." },
+        { "fr": "Tu as **froid** ? Prends mon écharpe.", "en": "Are you cold? Take my scarf." },
+        { "fr": "L'eau de la mer est **froide** !", "en": "The sea water is cold!" }
+      ],
+      "note": "**il fait froid** (the weather) · **j'ai froid** (a person) · **l'eau est froide** (a thing)." },
+    { "id": "frais", "fr": "frais", "pos": "adj", "ipa": "fʁɛ", "display": "frais, fraîche", "en": "cool; fresh",
+      "def": "Un peu froid, mais agréable. Aussi : pas vieux, du jour (du pain frais).", "def_en": "A bit cold, but pleasant. Also: not old, made today (fresh bread).",
+      "forms": ["fraîche", "fraîches"],
+      "examples": [
+        { "fr": "Il fait **frais** ce soir : prends une veste.", "en": "It's cool this evening: take a jacket." },
+        { "fr": "J'achète du pain **frais** tous les matins.", "en": "I buy fresh bread every morning." },
+        { "fr": "Une boisson **fraîche**, s'il vous plaît !", "en": "A cold drink, please!" }
+      ],
+      "note": "The feminine **fraîche** has a circumflex: *une boisson fraîche*." },
+    { "id": "doux", "fr": "doux", "pos": "adj", "ipa": "du", "display": "doux, douce", "en": "mild; soft, gentle",
+      "def": "Ni chaud ni froid : agréable. Aussi : pas dur, pas fort.", "def_en": "Neither hot nor cold: pleasant. Also: not hard, not strong.",
+      "forms": ["douce", "douces"],
+      "examples": [
+        { "fr": "Il fait **doux** aujourd'hui.", "en": "It's mild today." },
+        { "fr": "Ce pull est très **doux**.", "en": "This jumper is very soft." },
+        { "fr": "Elle a une voix **douce**.", "en": "She has a soft voice." }
+      ],
+      "note": "**il fait doux** = it's mild. The masculine plural is also **doux**: *des pulls doux*." },
+    { "id": "mauvais", "fr": "mauvais", "pos": "adj", "ipa": "mo.vɛ", "display": "mauvais(e)", "en": "bad",
+      "def": "Le contraire de bon.", "def_en": "The opposite of good.",
+      "forms": ["mauvaise", "mauvaises"],
+      "examples": [
+        { "fr": "Il fait **mauvais** : il pleut et il y a du vent.", "en": "The weather's bad: it's raining and windy." },
+        { "fr": "C'est une **mauvaise** idée !", "en": "That's a bad idea!" },
+        { "fr": "Hugo est **mauvais** au tennis.", "en": "Hugo is bad at tennis." }
+      ],
+      "note": "**il fait mauvais** = the weather is bad, the opposite of **il fait beau**. It goes before the noun: *un mauvais film* (BAGS)." },
+    { "id": "nuageux", "fr": "nuageux", "pos": "adj", "ipa": "nɥa.ʒø", "display": "nuageux, nuageuse", "en": "cloudy",
+      "def": "Avec beaucoup de nuages.", "def_en": "With lots of clouds.",
+      "forms": ["nuageuse", "nuageuses"],
+      "examples": [
+        { "fr": "Le ciel est **nuageux** ce matin.", "en": "The sky is cloudy this morning." },
+        { "fr": "Demain, temps **nuageux** à Lyon.", "en": "Tomorrow: cloudy weather in Lyon." },
+        { "fr": "C'est une journée **nuageuse**.", "en": "It's a cloudy day." }
+      ],
+      "note": "In speech you'll more often hear **il y a des nuages** (it's cloudy)." },
+    { "id": "ensoleille", "fr": "ensoleillé", "pos": "adj", "ipa": "ɑ̃.sɔ.le.je", "display": "ensoleillé(e)", "en": "sunny",
+      "def": "Avec beaucoup de soleil.", "def_en": "With lots of sun.",
+      "forms": ["ensoleillée", "ensoleillés", "ensoleillées"],
+      "examples": [
+        { "fr": "C'est une belle journée **ensoleillée**.", "en": "It's a beautiful sunny day." },
+        { "fr": "Notre balcon est très **ensoleillé**.", "en": "Our balcony gets a lot of sun." },
+        { "fr": "Demain, temps **ensoleillé** sur toute la France.", "en": "Tomorrow, sunny weather all over France." }
+      ],
+      "note": "It comes from **soleil**. In speech: **il y a du soleil** (it's sunny)." },
+    { "id": "parapluie", "fr": "parapluie", "pos": "noun", "g": "m", "ipa": "pa.ʁa.plɥi", "en": "umbrella",
+      "def": "Un objet qui protège de la pluie.", "def_en": "An object that keeps the rain off you.",
+      "forms": ["parapluies"],
+      "examples": [
+        { "fr": "Il pleut : prends ton **parapluie** !", "en": "It's raining: take your umbrella!" },
+        { "fr": "J'oublie toujours mon **parapluie**.", "en": "I always forget my umbrella." },
+        { "fr": "Mon **parapluie** est cassé.", "en": "My umbrella is broken." }
+      ],
+      "note": "**para** + **pluie** = against the rain. A sunshade is **un parasol**." },
+    { "id": "briller", "fr": "briller", "pos": "verb", "ipa": "bʁi.je", "en": "to shine",
+      "def": "Donner une belle lumière, comme le soleil.", "def_en": "To give off a lovely light, like the sun.",
+      "forms": ["brille", "brilles", "brillons", "brillez", "brillent", "brillais", "brillait", "brillions", "brilliez", "brillaient", "brillerai", "brilleras", "brillera", "brillerons", "brillerez", "brilleront"],
+      "examples": [
+        { "fr": "Le soleil **brille** !", "en": "The sun is shining!" },
+        { "fr": "Les étoiles **brillent** dans le ciel.", "en": "The stars are shining in the sky." },
+        { "fr": "Ses yeux **brillent**.", "en": "Her eyes are shining." }
+      ],
+      "note": "**ill** is said /j/ here, as in *fille*: /bʁi.je/." }
+  ],
+  "story": {
+    "title": "Un pique-nique sous la pluie",
+    "en": "A sunny Saturday, a picnic in the park… and Hugo's umbrella.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi matin, Léa regarde la météo à la télé.", "en": "On Saturday morning, Léa watches the weather forecast on TV." },
+      { "sp": "La présentatrice", "fr": "Aujourd'hui à Lyon, le ciel est nuageux le matin, mais l'après-midi est ensoleillé.", "en": "Today in Lyon, the sky is cloudy in the morning, but the afternoon is sunny." },
+      { "sp": "La présentatrice", "fr": "La température est douce : vingt et un degrés.", "en": "The temperature is mild: twenty-one degrees." },
+      { "sp": "Léa", "fr": "Il fait doux ! On fait un pique-nique au parc ?", "en": "It's mild! Shall we have a picnic in the park?" },
+      { "sp": "Sophie", "fr": "Bonne idée ! J'apporte une salade et des boissons fraîches.", "en": "Good idea! I'll bring a salad and some cold drinks." },
+      { "sp": "", "fr": "À midi, le soleil brille. Il fait chaud.", "en": "At noon, the sun is shining. It's hot." },
+      { "sp": "Tom", "fr": "Quel beau temps ! Il n'y a pas un nuage dans le ciel.", "en": "What lovely weather! There isn't a cloud in the sky." },
+      { "sp": "", "fr": "Hugo arrive en retard, comme toujours… avec un grand parapluie.", "en": "Hugo arrives late, as always… with a big umbrella." },
+      { "sp": "Léa", "fr": "Un parapluie ? Mais il fait beau, Hugo !", "en": "An umbrella? But it's sunny, Hugo!" },
+      { "sp": "Hugo", "fr": "On ne sait jamais. À Lyon, le temps change vite !", "en": "You never know. In Lyon, the weather changes fast!" },
+      { "sp": "", "fr": "À trois heures, il y a du vent. Il fait frais, puis il fait froid.", "en": "At three o'clock, the wind gets up. It's cool, then it's cold." },
+      { "sp": "Sophie", "fr": "Regardez ces gros nuages noirs…", "en": "Look at those big black clouds…" },
+      { "sp": "", "fr": "Tout à coup, il pleut. La pluie tombe très fort, et puis… un orage !", "en": "Suddenly, it starts to rain. The rain is pouring down, and then… a thunderstorm!" },
+      { "sp": "Tom", "fr": "Vite, sous le parapluie de Hugo !", "en": "Quick, under Hugo's umbrella!" },
+      { "sp": "Hugo", "fr": "Alors ? Le parapluie, c'est une mauvaise idée ?", "en": "So? Is the umbrella a bad idea now?" },
+      { "sp": "", "fr": "Ils rentrent à l'appartement et ils mangent le pique-nique sur le tapis du salon.", "en": "They go back to the flat and eat the picnic on the living-room rug." },
+      { "sp": "Tom", "fr": "En Angleterre, c'est normal : il pleut tout le temps !", "en": "In England, this is normal: it rains all the time!" },
+      { "sp": "Hugo", "fr": "Au moins, il ne neige pas !", "en": "At least it isn't snowing!" },
+      { "sp": "Sophie", "fr": "La neige ? Hugo, on n'est pas à Montréal !", "en": "Snow? Hugo, we're not in Montréal!" }
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "u12-nature",
+  "type": "vocab",
+  "unit": 12,
+  "title": "La nature",
+  "en": "Nature & landscapes",
+  "intro": "22 words for nature and the countryside: landscapes, water, plants and animals. Many French people leave the city at the weekend to go **à la campagne** (to the countryside) or **à la montagne** (to the mountains).",
+  "words": [
+    { "id": "nature", "fr": "nature", "pos": "noun", "g": "f", "ipa": "na.tyʁ", "en": "nature",
+      "def": "Les arbres, les fleurs, les animaux, les rivières… : le monde loin des villes.", "def_en": "Trees, flowers, animals, rivers…: the world far from the towns.",
+      "examples": [
+        { "fr": "J'adore la **nature**.", "en": "I love nature." },
+        { "fr": "Le week-end, nous partons dans la **nature**.", "en": "At the weekend, we head out into nature." },
+        { "fr": "Il faut protéger la **nature**.", "en": "We must protect nature." }
+      ],
+      "note": "English says *nature* with no article, but French says **la nature**: *j'aime la nature*." },
+    { "id": "campagne", "fr": "campagne", "pos": "noun", "g": "f", "ipa": "kɑ̃.paɲ", "en": "countryside, country",
+      "def": "Les champs, les villages et les fermes, loin des grandes villes.", "def_en": "Fields, villages and farms, far from big towns.",
+      "examples": [
+        { "fr": "Mes grands-parents habitent à la **campagne**.", "en": "My grandparents live in the countryside." },
+        { "fr": "À la **campagne**, c'est calme.", "en": "In the countryside, it's quiet." },
+        { "fr": "On va à la **campagne** dimanche ?", "en": "Shall we go to the countryside on Sunday?" }
+      ],
+      "note": "**à la campagne** = in / to the countryside, the opposite of **en ville**." },
+    { "id": "foret", "fr": "forêt", "pos": "noun", "g": "f", "ipa": "fɔ.ʁɛ", "en": "forest",
+      "def": "Un grand endroit avec beaucoup d'arbres.", "def_en": "A big place with lots of trees.",
+      "forms": ["forêts"],
+      "examples": [
+        { "fr": "On se promène dans la **forêt**.", "en": "We go for a walk in the forest." },
+        { "fr": "Il y a des animaux sauvages dans la **forêt**.", "en": "There are wild animals in the forest." },
+        { "fr": "La **forêt** est très calme le matin.", "en": "The forest is very quiet in the morning." }
+      ],
+      "note": "The **ê** often stands for an old **s**: *forêt* ~ *forest*, *fête* ~ *feast*, *hôpital* ~ *hospital*." },
+    { "id": "bois", "fr": "bois", "pos": "noun", "g": "m", "ipa": "bwa", "en": "wood; woods",
+      "def": "Une petite forêt. Aussi : la matière des arbres (une table en bois).", "def_en": "A small forest. Also: the material trees are made of (a wooden table).",
+      "examples": [
+        { "fr": "Les enfants jouent dans le **bois**.", "en": "The children are playing in the woods." },
+        { "fr": "Il y a un petit **bois** derrière la maison.", "en": "There's a little wood behind the house." },
+        { "fr": "J'ai une table en **bois**.", "en": "I have a wooden table." }
+      ],
+      "note": "Don't mix it up with **je bois** (I drink, from *boire*): same spelling, same sound!" },
+    { "id": "arbre", "fr": "arbre", "pos": "noun", "g": "m", "ipa": "aʁbʁ", "en": "tree",
+      "def": "Une très grande plante, avec des branches et des feuilles.", "def_en": "A very big plant, with branches and leaves.",
+      "forms": ["arbres"],
+      "examples": [
+        { "fr": "Il y a un grand **arbre** dans le jardin.", "en": "There's a big tree in the garden." },
+        { "fr": "Les oiseaux sont dans les **arbres**.", "en": "The birds are in the trees." },
+        { "fr": "On mange sous un **arbre**, à l'ombre.", "en": "We eat under a tree, in the shade." }
+      ],
+      "note": "Liaison: *un‿arbre* /œ̃.naʁbʁ/, *les‿arbres* /le.zaʁbʁ/." },
+    { "id": "herbe", "fr": "herbe", "pos": "noun", "g": "f", "ipa": "ɛʁb", "en": "grass; herb",
+      "def": "Les petites plantes vertes qui couvrent le sol des jardins et des champs.", "def_en": "The small green plants that cover the ground in gardens and fields.",
+      "forms": ["herbes"],
+      "examples": [
+        { "fr": "Les vaches mangent de l'**herbe**.", "en": "Cows eat grass." },
+        { "fr": "L'**herbe** est verte au printemps.", "en": "The grass is green in spring." },
+        { "fr": "Les enfants jouent dans l'**herbe**.", "en": "The children are playing on the grass." }
+      ],
+      "note": "Silent h: **l'herbe**. **les herbes** are also herbs for cooking: *les herbes de Provence*." },
+    { "id": "champ", "fr": "champ", "pos": "noun", "g": "m", "ipa": "ʃɑ̃", "en": "field",
+      "def": "Un grand terrain à la campagne, pour les plantes ou les animaux.", "def_en": "A large piece of land in the countryside, for crops or animals.",
+      "forms": ["champs"],
+      "examples": [
+        { "fr": "Il y a des vaches dans le **champ**.", "en": "There are cows in the field." },
+        { "fr": "Les **champs** sont jaunes en été.", "en": "The fields are yellow in summer." },
+        { "fr": "On traverse un **champ** de fleurs.", "en": "We cross a field of flowers." }
+      ],
+      "note": "The **p** is silent: /ʃɑ̃/." },
+    { "id": "lac", "fr": "lac", "pos": "noun", "g": "m", "ipa": "lak", "en": "lake",
+      "def": "Beaucoup d'eau, avec de la terre tout autour.", "def_en": "A lot of water, with land all around it.",
+      "forms": ["lacs"],
+      "examples": [
+        { "fr": "L'eau du **lac** est froide.", "en": "The lake water is cold." },
+        { "fr": "Le **lac** d'Annecy est très beau.", "en": "Lake Annecy is very beautiful." },
+        { "fr": "Il y a des poissons dans le **lac**.", "en": "There are fish in the lake." }
+      ],
+      "note": "The **c** is pronounced: /lak/." },
+    { "id": "riviere", "fr": "rivière", "pos": "noun", "g": "f", "ipa": "ʁi.vjɛʁ", "en": "river",
+      "def": "Une longue ligne d'eau qui coule à travers la campagne ou une ville.", "def_en": "A long line of water that flows through the countryside or a town.",
+      "forms": ["rivières"],
+      "examples": [
+        { "fr": "La **rivière** traverse le village.", "en": "The river runs through the village." },
+        { "fr": "L'eau de la **rivière** est très claire.", "en": "The river water is very clear." },
+        { "fr": "La Saône est une **rivière**.", "en": "The Saône is a river." }
+      ],
+      "note": "**un fleuve** is a big river that flows into the sea. In Lyon, the Rhône (a *fleuve*) meets the Saône (a *rivière*)." },
+    { "id": "montagne", "fr": "montagne", "pos": "noun", "g": "f", "ipa": "mɔ̃.taɲ", "en": "mountain; the mountains",
+      "def": "Une terre très haute : en haut, il fait froid et il y a souvent de la neige.", "def_en": "Very high land: at the top, it's cold and there's often snow.",
+      "forms": ["montagnes"],
+      "examples": [
+        { "fr": "Nous allons à la **montagne** en hiver.", "en": "We go to the mountains in winter." },
+        { "fr": "Le mont Blanc est une très haute **montagne**.", "en": "Mont Blanc is a very high mountain." },
+        { "fr": "À la **montagne**, l'air est pur.", "en": "In the mountains, the air is pure." }
+      ],
+      "note": "**à la montagne** = in / to the mountains, like *à la campagne*, *à la mer*." },
+    { "id": "colline", "fr": "colline", "pos": "noun", "g": "f", "ipa": "kɔ.lin", "en": "hill",
+      "def": "Une petite montagne, avec des pentes douces.", "def_en": "A small mountain with gentle slopes.",
+      "forms": ["collines"],
+      "examples": [
+        { "fr": "Lyon a deux **collines** : Fourvière et la Croix-Rousse.", "en": "Lyon has two hills: Fourvière and the Croix-Rousse." },
+        { "fr": "La maison est en haut de la **colline**.", "en": "The house is at the top of the hill." },
+        { "fr": "On monte la **colline** à vélo.", "en": "We cycle up the hill." }
+      ] },
+    { "id": "vallee", "fr": "vallée", "pos": "noun", "g": "f", "ipa": "va.le", "en": "valley",
+      "def": "La terre basse entre deux montagnes, souvent avec une rivière.", "def_en": "The low land between two mountains, often with a river.",
+      "forms": ["vallées"],
+      "examples": [
+        { "fr": "Le village est dans la **vallée**.", "en": "The village is in the valley." },
+        { "fr": "Une rivière coule dans la **vallée**.", "en": "A river flows through the valley." },
+        { "fr": "Du sommet, on voit toute la **vallée**.", "en": "From the top, you can see the whole valley." }
+      ] },
+    { "id": "sommet", "fr": "sommet", "pos": "noun", "g": "m", "ipa": "sɔ.mɛ", "en": "summit, top",
+      "def": "La partie tout en haut d'une montagne.", "def_en": "The part at the very top of a mountain.",
+      "forms": ["sommets"],
+      "examples": [
+        { "fr": "On arrive au **sommet** à midi.", "en": "We reach the summit at noon." },
+        { "fr": "Au **sommet**, la vue est magnifique !", "en": "At the top, the view is magnificent!" },
+        { "fr": "Il y a de la neige sur les **sommets**.", "en": "There's snow on the peaks." }
+      ],
+      "note": "Also a meeting of world leaders: *un sommet européen* (a European summit)." },
+    { "id": "pierre", "fr": "pierre", "pos": "noun", "g": "f", "ipa": "pjɛʁ", "en": "stone",
+      "def": "Un morceau de roche, dur et lourd.", "def_en": "A piece of rock, hard and heavy.",
+      "forms": ["pierres"],
+      "examples": [
+        { "fr": "Le chemin est plein de **pierres**.", "en": "The path is full of stones." },
+        { "fr": "C'est une vieille maison en **pierre**.", "en": "It's an old stone house." },
+        { "fr": "Les enfants jettent des **pierres** dans l'eau.", "en": "The children throw stones into the water." }
+      ],
+      "note": "With a capital, **Pierre** is a name (Peter), like Léa's uncle!" },
+    { "id": "terre", "fr": "terre", "pos": "noun", "g": "f", "ipa": "tɛʁ", "en": "earth, ground; soil",
+      "def": "Le sol, sous nos pieds. Avec une majuscule, la Terre est notre planète.", "def_en": "The ground under our feet. With a capital letter, la Terre is our planet.",
+      "forms": ["terres"],
+      "examples": [
+        { "fr": "Il y a des feuilles par **terre**.", "en": "There are leaves on the ground." },
+        { "fr": "Les légumes poussent dans la **terre**.", "en": "Vegetables grow in the soil." },
+        { "fr": "La **Terre** tourne autour du soleil.", "en": "The Earth goes round the sun." }
+      ],
+      "note": "**par terre** = on the ground, on the floor. **une pomme de terre** = a potato (an *earth apple*)." },
+    { "id": "paysage", "fr": "paysage", "pos": "noun", "g": "m", "ipa": "pe.i.zaʒ", "en": "landscape, scenery",
+      "def": "Tout ce qu'on voit quand on regarde loin, à la campagne ou à la montagne.", "def_en": "Everything you see when you look into the distance, in the country or the mountains.",
+      "forms": ["paysages"],
+      "examples": [
+        { "fr": "Quel beau **paysage** !", "en": "What beautiful scenery!" },
+        { "fr": "Sophie dessine le **paysage**.", "en": "Sophie is drawing the landscape." },
+        { "fr": "Les **paysages** de Provence sont célèbres.", "en": "The landscapes of Provence are famous." }
+      ],
+      "note": "Three syllables, /pe.i.zaʒ/, from **pays** (country)." },
+    { "id": "vue", "fr": "vue", "pos": "noun", "g": "f", "ipa": "vy", "en": "view; sight",
+      "def": "Ce qu'on voit d'un endroit, par exemple d'une fenêtre ou d'un sommet.", "def_en": "What you can see from a place, for example from a window or a summit.",
+      "forms": ["vues"],
+      "examples": [
+        { "fr": "Il y a une belle **vue** depuis le balcon.", "en": "There's a lovely view from the balcony." },
+        { "fr": "La chambre a **[vue|vue]** sur le lac.", "en": "The room looks out over the lake." },
+        { "fr": "Quelle **vue** !", "en": "What a view!" }
+      ],
+      "note": "From **voir** (to see). **avoir vue sur…** = to look out over…" },
+    { "id": "air", "fr": "air", "pos": "noun", "g": "m", "ipa": "ɛʁ", "en": "air; look",
+      "def": "Ce qu'on respire, autour de nous.", "def_en": "What we breathe, all around us.",
+      "examples": [
+        { "fr": "À la campagne, l'**air** est pur.", "en": "In the countryside, the air is clean." },
+        { "fr": "J'ouvre la fenêtre pour avoir de l'**air**.", "en": "I open the window to get some air." },
+        { "fr": "Tu as l'**air** fatigué.", "en": "You look tired." }
+      ],
+      "note": "**avoir l'air** + adjective = to look, to seem: *Il a l'air content*. **en plein air** = outdoors." },
+    { "id": "oiseau", "fr": "oiseau", "pos": "noun", "g": "m", "ipa": "wa.zo", "en": "bird",
+      "def": "Un animal avec des plumes et des ailes. Il vole et il chante.", "def_en": "An animal with feathers and wings. It flies and sings.",
+      "forms": ["oiseaux"],
+      "examples": [
+        { "fr": "J'entends les **oiseaux** le matin.", "en": "I hear the birds in the morning." },
+        { "fr": "Un petit **oiseau** chante dans l'arbre.", "en": "A little bird is singing in the tree." },
+        { "fr": "Le chat regarde les **oiseaux**.", "en": "The cat is watching the birds." }
+      ],
+      "note": "Plural with **-x**: *des oiseaux* /de.zwa.zo/. *oiseau* has all five vowels: o, i, e, a, u!" },
+    { "id": "animal", "fr": "animal", "pos": "noun", "g": "m", "ipa": "a.ni.mal", "en": "animal",
+      "def": "Un chien, un oiseau, un poisson, une vache… : ils bougent, ils mangent, ils vivent.", "def_en": "A dog, a bird, a fish, a cow…: they move, they eat, they live.",
+      "forms": ["animaux"],
+      "examples": [
+        { "fr": "Tu as un **animal** ?", "en": "Have you got a pet?" },
+        { "fr": "Il y a beaucoup d'**animaux** dans la forêt.", "en": "There are lots of animals in the forest." },
+        { "fr": "Le cheval est mon **animal** préféré.", "en": "The horse is my favourite animal." }
+      ],
+      "note": "Plural: **-al → -aux**: *un animal, des animaux* (like *un cheval, des chevaux*)." },
+    { "id": "insecte", "fr": "insecte", "pos": "noun", "g": "m", "ipa": "ɛ̃.sɛkt", "en": "insect",
+      "def": "Un tout petit animal avec six pattes, comme la mouche ou l'abeille.", "def_en": "A tiny animal with six legs, like a fly or a bee.",
+      "forms": ["insectes"],
+      "examples": [
+        { "fr": "Il y a beaucoup d'**insectes** en été.", "en": "There are lots of insects in summer." },
+        { "fr": "Lou a peur des **insectes**.", "en": "Lou is scared of insects." },
+        { "fr": "Regarde cet **insecte** : il est tout bleu !", "en": "Look at that insect: it's completely blue!" }
+      ],
+      "note": "Masculine: **un insecte**." },
+    { "id": "sauvage", "fr": "sauvage", "pos": "adj", "ipa": "so.vaʒ", "en": "wild",
+      "def": "Qui vit libre dans la nature, loin des hommes.", "def_en": "Living free in nature, far from people.",
+      "forms": ["sauvages"],
+      "examples": [
+        { "fr": "Le loup est un animal **sauvage**.", "en": "The wolf is a wild animal." },
+        { "fr": "Il y a des fleurs **sauvages** dans le champ.", "en": "There are wild flowers in the field." },
+        { "fr": "Cette plage est encore **sauvage**.", "en": "This beach is still unspoilt." }
+      ],
+      "note": "The same for masculine and feminine: *un animal sauvage, une fleur sauvage*." }
+  ],
+  "story": {
+    "title": "Un week-end à la campagne",
+    "en": "Léa and her friends visit her uncle Pierre in the countryside.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi, Léa, Sophie et Tom vont chez l'oncle de Léa, Pierre. Il habite à la campagne, près d'Annecy.", "en": "On Saturday, Léa, Sophie and Tom go to see Léa's uncle, Pierre. He lives in the countryside, near Annecy." },
+      { "sp": "Pierre", "fr": "Bienvenue ! Ici, c'est la nature : pas de voitures, pas de bruit… seulement les oiseaux !", "en": "Welcome! Here, it's all nature: no cars, no noise… only the birds!" },
+      { "sp": "Tom", "fr": "Quel paysage ! Les champs, les collines, et les montagnes derrière…", "en": "What scenery! The fields, the hills, and the mountains behind…" },
+      { "sp": "", "fr": "Après le déjeuner, ils font une promenade. Ils traversent un bois, puis une grande forêt.", "en": "After lunch, they go for a walk. They go through a wood, then a big forest." },
+      { "sp": "Sophie", "fr": "Regardez cet arbre ! Il est énorme.", "en": "Look at this tree! It's huge." },
+      { "sp": "Pierre", "fr": "Il a trois cents ans. Dans la forêt, il y a aussi des animaux sauvages : des cerfs, des renards…", "en": "It's three hundred years old. In the forest, there are wild animals too: deer, foxes…" },
+      { "sp": "", "fr": "Le chemin monte. Il y a des pierres partout, et Léa a chaud.", "en": "The path climbs. There are stones everywhere, and Léa is hot." },
+      { "sp": "", "fr": "Enfin, ils arrivent au sommet d'une colline.", "en": "At last, they reach the top of a hill." },
+      { "sp": "Léa", "fr": "Oh ! Quelle vue ! On voit toute la vallée, la rivière, et le lac en bas.", "en": "Oh! What a view! You can see the whole valley, the river, and the lake down below." },
+      { "sp": "Tom", "fr": "Et l'air est si pur ! À Londres, il n'y a pas d'air comme ça.", "en": "And the air is so clean! In London, there's no air like this." },
+      { "sp": "", "fr": "Ils s'assoient dans l'herbe. Il fait doux.", "en": "They sit down on the grass. It's mild." },
+      { "sp": "Sophie", "fr": "Aïe ! Un insecte ! Il y a des insectes partout !", "en": "Ouch! An insect! There are insects everywhere!" },
+      { "sp": "Pierre", "fr": "C'est la campagne, Sophie ! Ici, les insectes sont chez eux.", "en": "This is the countryside, Sophie! Here, the insects are at home." },
+      { "sp": "", "fr": "Le soir, ils rentrent avec de la terre sur leurs chaussures… mais ils sont très contents.", "en": "In the evening, they come back with earth on their shoes… but they're very happy." },
+      { "sp": "Léa", "fr": "Merci, Pierre ! On revient le mois prochain !", "en": "Thank you, Pierre! We'll come back next month!" }
+    ]
+  }
+}

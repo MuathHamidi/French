@@ -1,0 +1,184 @@
+{
+  "id": "u20-futur-irr",
+  "type": "grammar",
+  "unit": 20,
+  "title": "J'irai, je ferai",
+  "en": "Irregular future stems",
+  "intro": "Some common verbs have their own future stem, but the endings never change (**-ai, -as, -a, -ons, -ez, -ont**): *être → je **serai**, avoir → j'**aurai**, aller → j'**irai**, faire → je **ferai***. Learn these by heart: you'll use them every day.",
+  "cases": [
+    { "id": "fi-etre-avoir", "label": "être → serai, avoir → aurai", "rule": "**être → je serai**, tu seras, il sera, nous serons, vous serez, ils seront. **avoir → j'aurai**, tu auras, il aura… And **il y aura** = there will be." },
+    { "id": "fi-aller-faire", "label": "aller → irai, faire → ferai", "rule": "**aller → j'irai**, tu iras, il ira, nous irons, vous irez, ils iront. **faire → je ferai**, tu feras, il fera… (*il fera beau* = the weather will be nice)." },
+    { "id": "fi-venir", "label": "venir → viendrai", "rule": "**venir → je viendrai**, and the same for its family: *devenir → je deviendrai, revenir → je reviendrai, tenir → je tiendrai*." },
+    { "id": "fi-voir", "label": "verrai, enverrai, courrai", "rule": "Some stems have **rr**: *voir → je **verrai**, envoyer → j'**enverrai**, courir → je **courrai**, mourir → je **mourrai***. **On verra !** = We'll see!" },
+    { "id": "fi-modaux", "label": "pourrai, voudrai, devrai, saurai", "rule": "**pouvoir → je pourrai**, **vouloir → je voudrai**, **devoir → je devrai**, **savoir → je saurai**." },
+    { "id": "fi-impersonnel", "label": "il faudra, il pleuvra, il y aura", "rule": "Verbs used with **il** only: **falloir → il faudra** (it will be necessary), **pleuvoir → il pleuvra** (it will rain). Also **il y aura** (there will be) and **il fera** + weather." },
+    { "id": "fi-si", "label": "si + present → future", "rule": "To say what will happen *if*: **si** + present, then the future: *S'il **fait** beau, nous **irons** à la plage.* Never the future after **si**." }
+  ],
+  "sections": [
+    {
+      "title": "1. être and avoir",
+      "table": {
+        "head": ["", "être", "avoir"], "frCols": [1, 2],
+        "rows": [
+          ["je", "je serai", "j'aurai"],
+          ["tu", "tu seras", "tu auras"],
+          ["il / elle", "il sera", "il aura"],
+          ["nous", "nous serons", "nous aurons"],
+          ["vous", "vous serez", "vous aurez"],
+          ["ils / elles", "ils seront", "ils auront"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Demain, je serai à Paris|fi-etre-avoir}.", "en": "Tomorrow, I'll be in Paris." },
+        { "fr": "{Il y aura beaucoup de monde|fi-etre-avoir} à la fête.", "en": "There'll be lots of people at the party." }
+      ]
+    },
+    {
+      "title": "2. aller and faire",
+      "table": {
+        "head": ["", "aller", "faire"], "frCols": [1, 2],
+        "rows": [
+          ["je", "j'irai", "je ferai"],
+          ["tu", "tu iras", "tu feras"],
+          ["il / elle", "il ira", "il fera"],
+          ["nous", "nous irons", "nous ferons"],
+          ["vous", "vous irez", "vous ferez"],
+          ["ils / elles", "ils iront", "ils feront"]
+        ]
+      },
+      "examples": [
+        { "fr": "{L'été prochain, nous irons en Espagne|fi-aller-faire}.", "en": "Next summer, we'll go to Spain." },
+        { "fr": "{Demain, il fera beau|fi-aller-faire}.", "en": "Tomorrow, the weather will be nice." }
+      ]
+    },
+    {
+      "title": "3. venir and its family",
+      "table": {
+        "head": ["Infinitive", "Future"], "frCols": [0, 1],
+        "rows": [
+          ["venir", "je viendrai"],
+          ["revenir", "tu reviendras"],
+          ["devenir", "il deviendra"],
+          ["tenir", "nous tiendrons"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu viendras à ma fête|fi-venir} ?", "en": "Will you come to my party?" },
+        { "fr": "{Plus tard, Lou deviendra peut-être médecin|fi-venir}.", "en": "Later, Lou may become a doctor." }
+      ]
+    },
+    {
+      "title": "4. verrai, enverrai, courrai",
+      "table": {
+        "head": ["Infinitive", "Future"], "frCols": [0, 1],
+        "rows": [
+          ["voir", "je verrai"],
+          ["envoyer", "j'enverrai"],
+          ["courir", "je courrai"],
+          ["mourir", "je mourrai"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je ne sais pas… {On verra|fi-voir} !", "en": "I don't know… We'll see!" },
+        { "fr": "{Je t'enverrai les photos|fi-voir} ce soir.", "en": "I'll send you the photos tonight." }
+      ],
+      "tip": "Listen to the double **r**: *je courrai* /kuʁ.ʁe/ (I will run) is longer than *je courais* /ku.ʁɛ/ (I was running)."
+    },
+    {
+      "title": "5. pouvoir, vouloir, devoir, savoir",
+      "table": {
+        "head": ["Infinitive", "Future"], "frCols": [0, 1],
+        "rows": [
+          ["pouvoir", "je pourrai"],
+          ["vouloir", "je voudrai"],
+          ["devoir", "je devrai"],
+          ["savoir", "je saurai"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu pourras venir demain|fi-modaux} ?", "en": "Will you be able to come tomorrow?" },
+        { "fr": "{Je devrai partir tôt|fi-modaux}.", "en": "I'll have to leave early." }
+      ]
+    },
+    {
+      "title": "6. il faudra, il pleuvra, il y aura",
+      "table": {
+        "head": ["Now", "In the future"], "frCols": [0, 1],
+        "rows": [
+          ["il faut", "il faudra"],
+          ["il pleut", "il pleuvra"],
+          ["il y a", "il y aura"],
+          ["il fait beau", "il fera beau"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Demain, il pleuvra|fi-impersonnel} : prends ton parapluie !", "en": "Tomorrow it'll rain: take your umbrella!" },
+        { "fr": "{Il faudra partir à six heures|fi-impersonnel}.", "en": "We'll have to leave at six." }
+      ]
+    },
+    {
+      "title": "7. si + present → future",
+      "text": ["For something that will happen *if* something else happens: **si** + **present**, then the **future**. Never the future right after **si**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["S'il fait beau, nous irons à la plage.", "If it's nice, we'll go to the beach."],
+          ["Si tu veux, je viendrai avec toi.", "If you like, I'll come with you."],
+          ["Si je trouve un travail, je resterai à Lyon.", "If I find a job, I'll stay in Lyon."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si tu es sage, tu auras un bonbon|fi-si}.", "en": "If you're good, you'll get a sweet." },
+        { "fr": "{S'il pleut, on restera à la maison|fi-si}.", "en": "If it rains, we'll stay at home." }
+      ],
+      "tip": "**si** + **il** → **s'il**; **si** + **elle** stays **si elle**."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "j'allerai", "right": "j'irai", "why": "**aller** → **ir-** in the future." },
+    { "wrong": "je fairai", "right": "je ferai", "why": "**faire** → **fer-**." },
+    { "wrong": "je voirai", "right": "je verrai", "why": "**voir** → **verr-**." },
+    { "wrong": "S'il fera beau, nous irons à la plage.", "right": "S'il fait beau, nous irons à la plage.", "why": "After **si**: the present, never the future." },
+    { "wrong": "je pouvrai", "right": "je pourrai", "why": "**pouvoir** → **pourr-** (double r)." }
+  ],
+  "story": {
+    "title": "Dans dix ans",
+    "en": "On New Year's evening, the friends imagine their lives ten years from now.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le soir du premier janvier, les amis regardent de vieilles photos. Inès pose une question.", "en": "On the evening of 1 January, the friends look at old photos. Inès asks a question." },
+      { "sp": "Inès", "fr": "Et dans dix ans ? Où {serons-nous|fi-etre-avoir} ? Qu'est-ce que {nous ferons|fi-aller-faire} ?", "en": "And in ten years? Where will we be? What will we be doing?" },
+      { "sp": "Sophie", "fr": "Moi, {je serai|fi-etre-avoir} architecte. {Je ferai|fi-aller-faire} des maisons écologiques.", "en": "I'll be an architect. I'll design eco-friendly houses." },
+      { "sp": "Tom", "fr": "Moi, {j'aurai|fi-etre-avoir} un groupe de musique. {Nous irons|fi-aller-faire} chanter partout en Europe !", "en": "I'll have a band. We'll go and sing all over Europe!" },
+      { "sp": "Léa", "fr": "Je ne sais pas où {je serai|fi-etre-avoir}… Peut-être au Canada, chez ma tante. {On verra|fi-voir} !", "en": "I don't know where I'll be… Maybe in Canada, at my aunt's. We'll see!" },
+      { "sp": "Inès", "fr": "{Si je trouve un bon travail, je viendrai te voir|fi-si} à Montréal !", "en": "If I find a good job, I'll come and see you in Montréal!" },
+      { "sp": "Hugo", "fr": "Et moi ? {Je deviendrai|fi-venir} riche et célèbre… grâce à ma poubelle !", "en": "And me? I'll become rich and famous… thanks to my bin!" },
+      { "sp": "Sophie", "fr": "{Tu pourras|fi-modaux} faire des publicités pour les poubelles !", "en": "You'll be able to do adverts for bins!" },
+      { "sp": "Hugo", "fr": "Exactement ! {Je saurai|fi-modaux} tout sur les poubelles. {Je devrai|fi-modaux} voyager dans le monde entier…", "en": "Exactly! I'll know everything about bins. I'll have to travel all over the world…" },
+      { "sp": "Léa", "fr": "Et Lou ? Dans dix ans, {elle aura|fi-etre-avoir} treize ans !", "en": "And Lou? In ten years, she'll be thirteen!" },
+      { "sp": "Sophie", "fr": "{Elle voudra|fi-modaux} un portable, comme Mamie !", "en": "She'll want a mobile, like Grandma!" },
+      { "sp": "Tom", "fr": "Et {il y aura|fi-impersonnel} des voitures volantes et des robots partout…", "en": "And there'll be flying cars and robots everywhere…" },
+      { "sp": "Inès", "fr": "Et {il fera|fi-impersonnel} toujours aussi froid à Lyon en janvier !", "en": "And it'll still be just as cold in Lyon in January!" },
+      { "sp": "Hugo", "fr": "{S'il fait beau demain, j'irai courir|fi-si}. {Je courrai|fi-voir} dix kilomètres !", "en": "If it's nice tomorrow, I'll go running. I'll run ten kilometres!" },
+      { "sp": "Léa", "fr": "Et {s'il pleut|fi-si} ?", "en": "And if it rains?" },
+      { "sp": "Hugo", "fr": "Alors {il faudra|fi-impersonnel} attendre… et {je vous enverrai|fi-voir} une photo de mon canapé !", "en": "Then I'll have to wait… and I'll send you a photo of my sofa!" },
+      { "sp": "", "fr": "Tout le monde rit. Dans dix ans, {ils seront|fi-etre-avoir} toujours amis. Ça, c'est sûr.", "en": "Everyone laughs. In ten years, they'll still be friends. That much is certain." }
+    ]
+  },
+  "quiz": [
+    { "case": "fi-etre-avoir", "type": "mc", "q": "Demain, je ___ à Paris.", "en": "Tomorrow, I'll be in Paris.", "options": ["serai", "êtrerai", "suis"], "answer": "serai" },
+    { "case": "fi-etre-avoir", "type": "type", "q": "Dans dix ans, Lou ___ treize ans.", "en": "In ten years, Lou will be thirteen.", "answer": "aura" },
+    { "case": "fi-aller-faire", "type": "mc", "q": "L'été prochain, nous ___ en Espagne.", "en": "Next summer, we'll go to Spain.", "options": ["irons", "allerons", "allons"], "answer": "irons" },
+    { "case": "fi-aller-faire", "type": "mc", "q": "Demain, il ___ beau.", "en": "Tomorrow, the weather will be nice.", "options": ["fera", "faira", "fait"], "answer": "fera" },
+    { "case": "fi-venir", "type": "mc", "q": "Tu ___ à ma fête ?", "en": "Will you come to my party?", "options": ["viendras", "veniras", "viens"], "answer": "viendras" },
+    { "case": "fi-venir", "type": "mc", "lang": "en", "q": "« Il deviendra médecin » means…", "options": ["He'll become a doctor.", "He became a doctor.", "He's becoming a doctor."], "answer": "He'll become a doctor.", "say": "Il deviendra médecin." },
+    { "case": "fi-voir", "type": "mc", "q": "Je ne sais pas… On ___ demain !", "en": "I don't know… We'll see tomorrow!", "options": ["verra", "voira", "voit"], "answer": "verra" },
+    { "case": "fi-voir", "type": "type", "q": "Je t'___ une photo ce soir.", "en": "I'll send you a photo tonight.", "answer": "enverrai" },
+    { "case": "fi-modaux", "type": "mc", "q": "Tu ___ venir demain ?", "en": "Will you be able to come tomorrow?", "options": ["pourras", "pouvras", "peux"], "answer": "pourras" },
+    { "case": "fi-modaux", "type": "mc", "q": "Je ___ partir tôt.", "en": "I'll have to leave early.", "options": ["devrai", "devoirai", "dois"], "answer": "devrai" },
+    { "case": "fi-impersonnel", "type": "mc", "q": "Demain, il ___ : prends ton parapluie !", "en": "Tomorrow it'll rain: take your umbrella!", "options": ["pleuvra", "pleuvera", "pleut"], "answer": "pleuvra" },
+    { "case": "fi-impersonnel", "type": "mc", "lang": "en", "q": "« Il y aura beaucoup de monde » means…", "options": ["There will be lots of people.", "There were lots of people.", "There are lots of people."], "answer": "There will be lots of people.", "say": "Il y aura beaucoup de monde." },
+    { "case": "fi-si", "type": "mc", "q": "S'il ___ beau, nous irons à la plage.", "en": "If the weather's nice, we'll go to the beach.", "options": ["fait", "fera", "faisait"], "answer": "fait", "why": "After **si**: the present, never the future." },
+    { "case": "fi-si", "type": "mc", "lang": "en", "q": "“If I find a job, I'll stay in Lyon.”", "options": ["Si je trouve un travail, je resterai à Lyon.", "Si je trouverai un travail, je resterai à Lyon."], "answer": "Si je trouve un travail, je resterai à Lyon.", "say": "Si je trouve un travail, je resterai à Lyon." }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "u02-articles",
+  "type": "grammar",
+  "unit": 2,
+  "title": "Le, la, un, une…",
+  "en": "Gender & articles (the, a, some)",
+  "intro": "In French every noun is **masculine** or **feminine**, and the little word in front of it — the **article** — shows which. This lesson covers all of them: *le, la, l', les* (the) and *un, une, des* (a, some).",
+  "cases": [
+    { "id": "art-gender", "label": "masculine or feminine?", "rule": "For people, the gender usually follows the person: *le père, la mère*. For everything else, learn the article with the noun. *le bébé* is always masculine." },
+    { "id": "art-le", "label": "le — the (masculine)", "rule": "**le** + a masculine noun: *le père, le frère*." },
+    { "id": "art-la", "label": "la — the (feminine)", "rule": "**la** + a feminine noun: *la mère, la sœur*." },
+    { "id": "art-l", "label": "l' — before a vowel", "rule": "**le** and **la** become **l'** before a vowel or a silent **h**: *l'oncle, l'enfant, l'homme*." },
+    { "id": "art-les", "label": "les — the (plural)", "rule": "**les** for every plural, masculine or feminine. Before a vowel you hear a /z/: *les‿enfants*." },
+    { "id": "art-un", "label": "un — a (masculine)", "rule": "**un** + a masculine noun: *un frère*. Before a vowel you hear an /n/: *un‿enfant*." },
+    { "id": "art-une", "label": "une — a (feminine)", "rule": "**une** + a feminine noun: *une sœur*. **une** never shortens: *une amie*." },
+    { "id": "art-des", "label": "des — some (plural)", "rule": "**des** is the plural of *un / une*. English often says nothing: *J'ai des cousins* = I have cousins." },
+    { "id": "art-plural", "label": "plural: a silent -s", "rule": "Add **-s** for the plural, but don't say it: *frère* and *frères* sound the same. You hear the plural in the article: *le* /lə/ → *les* /le/. Words ending in **-s** don't change: *les fils*." },
+    { "id": "art-which", "label": "le or un?", "rule": "**le / la / les**: the one we both know, or things in general (*J'aime les enfants*). **un / une / des**: one, some, not a specific one (*C'est un ami*)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Masculine or feminine?",
+      "text": [
+        "Every French noun has a gender. For people it's easy: it usually follows the person.",
+        "For things, there is often no logic, so **always learn a noun with its article**: not *famille* but **la famille**."
+      ],
+      "table": {
+        "head": ["Masculine", "Feminine", "English"], "frCols": [0, 1],
+        "rows": [
+          ["le père", "la mère", "father · mother"],
+          ["le frère", "la sœur", "brother · sister"],
+          ["le fils", "la fille", "son · daughter"],
+          ["l'oncle", "la tante", "uncle · aunt"],
+          ["le mari", "la femme", "husband · wife"],
+          ["le cousin", "la cousine", "cousin"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Le bébé|art-gender} est petit.", "en": "The baby is small. (bébé is always masculine)" },
+        { "fr": "{La famille|art-gender} de Léa est grande.", "en": "Léa's family is big." }
+      ],
+      "tip": "In this app, masculine words are **blue** and feminine words are **pink**."
+    },
+    {
+      "title": "2. The: le, la, l', les",
+      "table": {
+        "head": ["", "the", "Example"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "le", "le père"],
+          ["feminine", "la", "la mère"],
+          ["before a vowel or silent h", "l'", "l'oncle · l'enfant"],
+          ["plural (masc. and fem.)", "les", "les parents"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Le père|art-le} de Léa est grand.", "en": "Léa's father is tall." },
+        { "fr": "{La sœur|art-la} de Hugo est mariée.", "en": "Hugo's sister is married." },
+        { "fr": "{L'oncle|art-l} de Tom habite à Londres.", "en": "Tom's uncle lives in London." },
+        { "fr": "{Les enfants|art-les} sont à l'école.", "en": "The children are at school." }
+      ],
+      "tip": "Listen: **le** /lə/ and **les** /le/ sound different — often that is the only way to hear a plural."
+    },
+    {
+      "title": "3. A, an, some: un, une, des",
+      "table": {
+        "head": ["", "a / some", "Example"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "un", "un frère"],
+          ["feminine", "une", "une sœur"],
+          ["plural (masc. and fem.)", "des", "des cousins"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai {un frère|art-un}.", "en": "I have a brother." },
+        { "fr": "J'ai {une sœur|art-une}.", "en": "I have a sister." },
+        { "fr": "Ils ont {des enfants|art-des}.", "en": "They have children." }
+      ],
+      "tip": "Before a vowel you hear a link: *un‿enfant* /œ̃.nɑ̃.fɑ̃/, *des‿enfants* /de.zɑ̃.fɑ̃/."
+    },
+    {
+      "title": "4. One or more: the plural",
+      "text": [
+        "Most nouns add **-s** in the plural. The -s is silent, so *frère* and *frères* sound exactly the same — listen to the article instead.",
+        "Nouns that already end in **-s** don't change: *le fils → les fils*."
+      ],
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["le frère", "les frères"],
+          ["la sœur", "les sœurs"],
+          ["un enfant", "des enfants"],
+          ["le fils", "les fils"],
+          ["le grand-père", "les grands-pères"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Les frères|art-plural} de Léa sont grands.", "en": "Léa's brothers are tall." },
+        { "fr": "Elle a deux {fils|art-plural}.", "en": "She has two sons." }
+      ]
+    },
+    {
+      "title": "5. le or un?",
+      "text": [
+        "**un / une / des**: one or some — not a specific one, or something new: *C'est un ami*.",
+        "**le / la / les**: the one we both know: *Le frère de Léa s'appelle Hugo*. Also for things in general, especially after **aimer**: *J'aime les enfants*."
+      ],
+      "examples": [
+        { "fr": "C'est {un ami|art-which}.", "en": "He's a friend." },
+        { "fr": "{Le frère|art-which} de Léa s'appelle Hugo.", "en": "Léa's brother is called Hugo." },
+        { "fr": "J'aime {les enfants|art-which}.", "en": "I like children. (in general)" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "le mère", "right": "la mère", "why": "**mère** is feminine: **la**." },
+    { "wrong": "la oncle", "right": "l'oncle", "why": "Before a vowel, **le / la** become **l'**." },
+    { "wrong": "C'est une bébé.", "right": "C'est un bébé.", "why": "**bébé** is always masculine." },
+    { "wrong": "J'ai cousins.", "right": "J'ai des cousins.", "why": "French needs an article. For “some”, use **des**." },
+    { "wrong": "J'aime enfants.", "right": "J'aime les enfants.", "why": "After **aimer**, use **le / la / les**." },
+    { "wrong": "une ami", "right": "une amie", "why": "A woman friend is **une amie**; a man is **un ami**." }
+  ],
+  "story": {
+    "title": "La photo",
+    "en": "Tom looks at a photo of Léa's family.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "Tom", "fr": "Oh, {une photo|art-une} ! C'est ta famille ?", "en": "Oh, a photo! Is that your family?" },
+      { "sp": "Léa", "fr": "Oui ! C'est {la famille|art-la} de mon père.", "en": "Yes! It's my father's family." },
+      { "sp": "Tom", "fr": "Et {l'homme|art-l}, là, c'est qui ?", "en": "And the man there, who's that?" },
+      { "sp": "Léa", "fr": "C'est {le père|art-le} de mon père : mon grand-père Jacques.", "en": "That's my father's father: my grandfather Jacques." },
+      { "sp": "Tom", "fr": "Et {la femme|art-la} avec {le bébé|art-gender} ?", "en": "And the woman with the baby?" },
+      { "sp": "Léa", "fr": "C'est ma mère, avec Lou, ma petite sœur. Lou, c'est {une fille|art-une}, mais on dit « {le bébé|art-gender} » !", "en": "That's my mother, with Lou, my little sister. Lou is a girl, but we say “le bébé”!" },
+      { "sp": "Tom", "fr": "Et {les enfants|art-les}, là ? Ce sont {des cousins|art-des} ?", "en": "And the children there? Are they cousins?" },
+      { "sp": "Léa", "fr": "Oui. Ce sont {les enfants|art-les} de {l'oncle|art-l} Pierre : Jules et Chloé.", "en": "Yes. They're uncle Pierre's children: Jules and Chloé." },
+      { "sp": "Tom", "fr": "Ils sont grands, {les cousins|art-plural} !", "en": "They're tall, the cousins!" },
+      { "sp": "Léa", "fr": "Oui ! Et moi, j'ai {un cousin|art-un} à Montréal aussi.", "en": "Yes! And I have a cousin in Montreal too." },
+      { "sp": "Tom", "fr": "Moi, j'ai {un frère|art-un} et deux {sœurs|art-plural}.", "en": "I have a brother and two sisters." },
+      { "sp": "Léa", "fr": "J'aime {les grandes familles|art-which} !", "en": "I love big families!" },
+      { "sp": "Tom", "fr": "Moi aussi ! C'est {une famille|art-which} très sympa.", "en": "Me too! It's a really nice family." }
+    ]
+  },
+  "quiz": [
+    { "case": "art-gender", "type": "mc", "q": "___ bébé est petit.", "en": "The baby is small.", "options": ["Le", "La"], "answer": "Le", "why": "**bébé** is always masculine, even for a girl." },
+    { "case": "art-gender", "type": "mc", "lang": "en", "q": "Which noun is feminine?", "options": ["famille", "père", "frère", "bébé"], "answer": "famille" },
+    { "case": "art-gender", "type": "mc", "q": "___ famille de Léa est grande.", "en": "Léa's family is big.", "options": ["La", "Le"], "answer": "La" },
+    { "case": "art-le", "type": "type", "q": "___ père de Hugo est professeur.", "en": "Hugo's father is a teacher.", "answer": "Le" },
+    { "case": "art-le", "type": "mc", "q": "C'est ___ frère de Léa.", "en": "It's Léa's brother.", "options": ["le", "la", "l'"], "answer": "le" },
+    { "case": "art-la", "type": "type", "q": "___ tante de Tom habite à Londres.", "en": "Tom's aunt lives in London.", "answer": "La" },
+    { "case": "art-la", "type": "mc", "q": "Voici ___ mère de Jules.", "en": "Here's Jules's mother.", "options": ["la", "le", "l'"], "answer": "la" },
+    { "case": "art-l", "type": "mc", "q": "___ oncle de Léa s'appelle Pierre.", "en": "Léa's uncle is called Pierre.", "options": ["L'", "Le", "La"], "answer": "L'", "why": "**oncle** starts with a vowel: **l'oncle**." },
+    { "case": "art-l", "type": "type", "q": "C'est ___enfant de Sophie.", "en": "It's Sophie's child.", "answer": "l'" },
+    { "case": "art-les", "type": "mc", "q": "___ parents de Léa sont mariés.", "en": "Léa's parents are married.", "options": ["Les", "Le", "La"], "answer": "Les" },
+    { "case": "art-les", "type": "type", "q": "___ enfants sont à l'école.", "en": "The children are at school.", "answer": "Les" },
+    { "case": "art-un", "type": "mc", "q": "J'ai ___ frère.", "en": "I have a brother.", "options": ["un", "une", "des"], "answer": "un" },
+    { "case": "art-un", "type": "type", "q": "C'est ___ cousin de Léa.", "en": "He's a cousin of Léa's.", "answer": "un" },
+    { "case": "art-une", "type": "mc", "q": "Hugo a ___ sœur.", "en": "Hugo has a sister.", "options": ["une", "un", "des"], "answer": "une" },
+    { "case": "art-une", "type": "type", "q": "C'est ___ amie de ma mère.", "en": "She's a friend of my mother's.", "answer": "une", "why": "**une** never shortens: *une amie*." },
+    { "case": "art-des", "type": "mc", "q": "Ils ont ___ enfants.", "en": "They have children.", "options": ["des", "un", "une"], "answer": "des", "why": "No word in English, but French needs **des**." },
+    { "case": "art-des", "type": "type", "q": "Léa a ___ cousins à Marseille.", "en": "Léa has cousins in Marseille.", "answer": "des" },
+    { "case": "art-plural", "type": "mc", "q": "Les ___ de Léa sont grands.", "en": "Léa's brothers are tall.", "options": ["frères", "frère"], "answer": "frères", "why": "After **les**, the noun takes a (silent) **-s**." },
+    { "case": "art-plural", "type": "type", "q": "Mes deux ___ sont à Paris.", "en": "My two sisters are in Paris.", "answer": ["sœurs", "soeurs"] },
+    { "case": "art-plural", "type": "mc", "q": "Les ___ de Paul sont étudiants.", "en": "Paul's sons are students.", "options": ["fils", "filles", "fille"], "answer": "fils", "why": "**fils** already ends in **-s**, so the plural doesn't change." },
+    { "case": "art-which", "type": "mc", "q": "J'aime ___ enfants.", "en": "I like children. (in general)", "options": ["les", "des"], "answer": "les", "why": "After **aimer**, use **les**: children in general." },
+    { "case": "art-which", "type": "mc", "q": "Tu as ___ sœur ?", "en": "Do you have a sister?", "options": ["une", "la"], "answer": "une" },
+    { "case": "art-which", "type": "type", "q": "J'aime ___ grandes familles.", "en": "I love big families.", "answer": "les" }
+  ]
+}

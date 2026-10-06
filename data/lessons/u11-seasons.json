@@ -1,0 +1,223 @@
+{
+  "id": "u11-seasons",
+  "type": "vocab",
+  "unit": 11,
+  "title": "Les saisons et les mois",
+  "en": "Seasons & months",
+  "intro": "The four seasons, the twelve months, and words for talking about the year. Like the days of the week, months are **masculine** and take **no capital letter**: *janvier, février…* And remember: **au** printemps, but **en** été, **en** automne, **en** hiver.",
+  "words": [
+    { "id": "saison", "fr": "saison", "pos": "noun", "g": "f", "ipa": "sɛ.zɔ̃", "en": "season",
+      "def": "Une des quatre parties de l'année : le printemps, l'été, l'automne et l'hiver.", "def_en": "One of the four parts of the year: spring, summer, autumn and winter.",
+      "forms": ["saisons"],
+      "examples": [
+        { "fr": "Il y a quatre **saisons** dans l'année.", "en": "There are four seasons in the year." },
+        { "fr": "Quelle est ta **saison** préférée ?", "en": "What's your favourite season?" },
+        { "fr": "C'est la **saison** des fraises !", "en": "It's strawberry season!" }
+      ],
+      "note": "The **s** between two vowels is said /z/: /sɛ.zɔ̃/." },
+    { "id": "printemps", "fr": "printemps", "pos": "noun", "g": "m", "ipa": "pʁɛ̃.tɑ̃", "en": "spring",
+      "def": "La saison des fleurs, après l'hiver : mars, avril, mai.", "def_en": "The season of flowers, after winter: March, April, May.",
+      "examples": [
+        { "fr": "Au **printemps**, il fait doux.", "en": "In spring, it's mild." },
+        { "fr": "J'adore le **printemps** !", "en": "I love spring!" },
+        { "fr": "Le **printemps** commence le vingt mars.", "en": "Spring begins on the twentieth of March." }
+      ],
+      "note": "**au printemps** (in spring), but **en** été, **en** automne, **en** hiver. The **ps** is silent." },
+    { "id": "ete", "fr": "été", "pos": "noun", "g": "m", "ipa": "e.te", "en": "summer",
+      "def": "La saison chaude, après le printemps : juin, juillet, août.", "def_en": "The hot season, after spring: June, July, August.",
+      "examples": [
+        { "fr": "En **été**, il fait chaud.", "en": "In summer, it's hot." },
+        { "fr": "L'**été** est ma saison préférée.", "en": "Summer is my favourite season." },
+        { "fr": "Cet **été**, nous allons à Montréal.", "en": "This summer, we're going to Montréal." }
+      ],
+      "note": "**l'été** (summer) looks just like **été** (been, from *être*). The context tells you which it is." },
+    { "id": "automne", "fr": "automne", "pos": "noun", "g": "m", "ipa": "o.tɔn", "en": "autumn, fall",
+      "def": "La saison après l'été : les feuilles tombent des arbres.", "def_en": "The season after summer: the leaves fall from the trees.",
+      "examples": [
+        { "fr": "En **automne**, les feuilles sont rouges et jaunes.", "en": "In autumn, the leaves are red and yellow." },
+        { "fr": "Il pleut souvent en **automne**.", "en": "It often rains in autumn." },
+        { "fr": "L'**automne** commence en septembre.", "en": "Autumn begins in September." }
+      ],
+      "note": "The **m** is silent: /o.tɔn/." },
+    { "id": "hiver", "fr": "hiver", "pos": "noun", "g": "m", "ipa": "i.vɛʁ", "en": "winter",
+      "def": "La saison froide, après l'automne : décembre, janvier, février.", "def_en": "The cold season, after autumn: December, January, February.",
+      "examples": [
+        { "fr": "En **hiver**, il neige à la montagne.", "en": "In winter, it snows in the mountains." },
+        { "fr": "L'**hiver** est très long à Montréal.", "en": "Winter is very long in Montréal." },
+        { "fr": "Je porte un manteau en **hiver**.", "en": "I wear a coat in winter." }
+      ],
+      "note": "Silent **h**: **l'hiver**, and a liaison in **en‿hiver** /ɑ̃.ni.vɛʁ/." },
+    { "id": "mois", "fr": "mois", "pos": "noun", "g": "m", "ipa": "mwa", "en": "month",
+      "def": "Une des douze parties de l'année : janvier, février, mars…", "def_en": "One of the twelve parts of the year: January, February, March…",
+      "examples": [
+        { "fr": "Il y a douze **mois** dans l'année.", "en": "There are twelve months in the year." },
+        { "fr": "Je vais à Paris le **mois** prochain.", "en": "I'm going to Paris next month." },
+        { "fr": "C'est quel **mois**, ton anniversaire ?", "en": "Which month is your birthday?" }
+      ],
+      "note": "The same in the singular and the plural: **un mois, deux mois**." },
+    { "id": "annee", "fr": "année", "pos": "noun", "g": "f", "ipa": "a.ne", "en": "year",
+      "def": "Douze mois, de janvier à décembre.", "def_en": "Twelve months, from January to December.",
+      "forms": ["années", "étés"],
+      "examples": [
+        { "fr": "Bonne **année** !", "en": "Happy New Year!" },
+        { "fr": "Cette **année**, j'apprends le français.", "en": "This year, I'm learning French." },
+        { "fr": "Ils habitent à Lyon toute l'**année**.", "en": "They live in Lyon all year round." }
+      ],
+      "note": "**an** or **année**? Use **an** with numbers: *deux ans, vingt ans*. Use **année** with words like *cette, chaque, toute*: *cette année, toute l'année*." },
+    { "id": "janvier", "fr": "janvier", "pos": "noun", "g": "m", "art": "", "ipa": "ʒɑ̃.vje", "en": "January",
+      "def": "Le premier mois de l'année. Il fait froid : c'est l'hiver.", "def_en": "The first month of the year. It's cold: it's winter.",
+      "examples": [
+        { "fr": "Le premier **janvier**, c'est le jour de l'An.", "en": "The first of January is New Year's Day." },
+        { "fr": "En **janvier**, il fait très froid.", "en": "In January, it's very cold." },
+        { "fr": "Mon anniversaire est le dix **janvier**.", "en": "My birthday is on the tenth of January." }
+      ],
+      "note": "Months are masculine and take **no capital letter** in French." },
+    { "id": "fevrier", "fr": "février", "pos": "noun", "g": "m", "art": "", "ipa": "fe.vʁi.je", "en": "February",
+      "def": "Le deuxième mois de l'année. Il a vingt-huit jours.", "def_en": "The second month of the year. It has twenty-eight days.",
+      "examples": [
+        { "fr": "En **février**, on fait du ski.", "en": "In February, we go skiing." },
+        { "fr": "Le quatorze **février**, c'est la fête des amoureux.", "en": "The fourteenth of February is Valentine's Day." },
+        { "fr": "Il neige parfois en **février**.", "en": "It sometimes snows in February." }
+      ],
+      "note": "Three syllables: /fe.vʁi.je/." },
+    { "id": "mars", "fr": "mars", "pos": "noun", "g": "m", "art": "", "ipa": "maʁs", "en": "March",
+      "def": "Le troisième mois de l'année. Le printemps commence.", "def_en": "The third month of the year. Spring begins.",
+      "examples": [
+        { "fr": "Le printemps commence en **mars**.", "en": "Spring begins in March." },
+        { "fr": "Il fait encore frais en **mars**.", "en": "It's still cool in March." },
+        { "fr": "On est le trois **mars** aujourd'hui.", "en": "Today is the third of March." }
+      ],
+      "note": "The **s** is pronounced: /maʁs/." },
+    { "id": "avril", "fr": "avril", "pos": "noun", "g": "m", "art": "", "ipa": "a.vʁil", "en": "April",
+      "def": "Le quatrième mois de l'année. Il y a des fleurs partout.", "def_en": "The fourth month of the year. There are flowers everywhere.",
+      "examples": [
+        { "fr": "En **avril**, les arbres ont des fleurs.", "en": "In April, the trees are in flower." },
+        { "fr": "Le premier **avril**, on fait des blagues.", "en": "On the first of April, people play jokes." },
+        { "fr": "Il pleut beaucoup en **avril**.", "en": "It rains a lot in April." }
+      ],
+      "note": "**Poisson d'avril !** (April fish!) = April fool! French children stick paper fish on people's backs." },
+    { "id": "mai", "fr": "mai", "pos": "noun", "g": "m", "art": "", "ipa": "mɛ", "en": "May",
+      "def": "Le cinquième mois de l'année. Il fait doux.", "def_en": "The fifth month of the year. It's mild.",
+      "examples": [
+        { "fr": "Le premier **mai**, c'est la fête du travail.", "en": "The first of May is Labour Day." },
+        { "fr": "En **mai**, il y a des fleurs partout.", "en": "In May, there are flowers everywhere." },
+        { "fr": "Il fait beau en **mai**.", "en": "The weather is nice in May." }
+      ],
+      "note": "On **le premier mai**, people give each other **du muguet** (lily of the valley) for luck." },
+    { "id": "juin", "fr": "juin", "pos": "noun", "g": "m", "art": "", "ipa": "ʒɥɛ̃", "en": "June",
+      "def": "Le sixième mois de l'année. L'été commence.", "def_en": "The sixth month of the year. Summer begins.",
+      "examples": [
+        { "fr": "L'été commence le vingt et un **juin**.", "en": "Summer begins on the twenty-first of June." },
+        { "fr": "En **juin**, les étudiants ont des examens.", "en": "In June, students have exams." },
+        { "fr": "Il fait beau et chaud en **juin**.", "en": "It's warm and sunny in June." }
+      ],
+      "note": "Don't mix up **juin** /ʒɥɛ̃/ (June) and **juillet** /ʒɥi.jɛ/ (July). On 21 June it's **la fête de la musique**: free concerts in every street!" },
+    { "id": "juillet", "fr": "juillet", "pos": "noun", "g": "m", "art": "", "ipa": "ʒɥi.jɛ", "en": "July",
+      "def": "Le septième mois de l'année. C'est l'été : il fait chaud.", "def_en": "The seventh month of the year. It's summer: it's hot.",
+      "examples": [
+        { "fr": "Le quatorze **juillet**, c'est la fête nationale.", "en": "The fourteenth of July is the national holiday (Bastille Day)." },
+        { "fr": "En **juillet**, il fait très chaud à Lyon.", "en": "In July, it's very hot in Lyon." },
+        { "fr": "Nous partons en vacances en **juillet**.", "en": "We're going on holiday in July." }
+      ],
+      "note": "**le 14 juillet**: parades, fireworks and dancing all over France." },
+    { "id": "aout", "fr": "août", "pos": "noun", "g": "m", "art": "", "ipa": "ut", "en": "August",
+      "def": "Le huitième mois de l'année. Beaucoup de Français sont en vacances.", "def_en": "The eighth month of the year. Lots of French people are on holiday.",
+      "accept": ["aout"],
+      "examples": [
+        { "fr": "En **août**, Paris est presque vide.", "en": "In August, Paris is almost empty." },
+        { "fr": "Je suis à la mer en **août**.", "en": "I'm at the seaside in August." },
+        { "fr": "Le quinze **août**, c'est un jour férié.", "en": "The fifteenth of August is a public holiday." }
+      ],
+      "note": "The **a** is silent: say /ut/ or just /u/. Both are correct." },
+    { "id": "septembre", "fr": "septembre", "pos": "noun", "g": "m", "art": "", "ipa": "sɛp.tɑ̃bʁ", "en": "September",
+      "def": "Le neuvième mois de l'année. C'est la rentrée : les enfants retournent à l'école.", "def_en": "The ninth month of the year. It's *la rentrée*: children go back to school.",
+      "examples": [
+        { "fr": "En **septembre**, c'est la rentrée.", "en": "In September, everyone goes back to school and work." },
+        { "fr": "L'automne commence en **septembre**.", "en": "Autumn begins in September." },
+        { "fr": "Mon cours de français commence en **septembre**.", "en": "My French course starts in September." }
+      ],
+      "note": "**la rentrée** = going back to school or work after the summer holidays, a big moment in France. The **p** is pronounced: /sɛp.tɑ̃bʁ/." },
+    { "id": "octobre", "fr": "octobre", "pos": "noun", "g": "m", "art": "", "ipa": "ɔk.tɔbʁ", "en": "October",
+      "def": "Le dixième mois de l'année. Les feuilles des arbres changent de couleur.", "def_en": "The tenth month of the year. The leaves on the trees change colour.",
+      "examples": [
+        { "fr": "En **octobre**, les feuilles tombent.", "en": "In October, the leaves fall." },
+        { "fr": "Il pleut souvent en **octobre**.", "en": "It often rains in October." },
+        { "fr": "Halloween, c'est le trente et un **octobre**.", "en": "Halloween is on the thirty-first of October." }
+      ] },
+    { "id": "novembre", "fr": "novembre", "pos": "noun", "g": "m", "art": "", "ipa": "nɔ.vɑ̃bʁ", "en": "November",
+      "def": "Le onzième mois de l'année. Il fait gris et froid.", "def_en": "The eleventh month of the year. It's grey and cold.",
+      "examples": [
+        { "fr": "En **novembre**, il fait nuit à cinq heures.", "en": "In November, it's dark at five o'clock." },
+        { "fr": "Le onze **novembre** est un jour férié.", "en": "The eleventh of November is a public holiday." },
+        { "fr": "**Novembre** est un mois triste.", "en": "November is a sad month." }
+      ],
+      "note": "*le onze novembre*: no elision before **onze** (*le onze*, never *l'onze*)." },
+    { "id": "decembre", "fr": "décembre", "pos": "noun", "g": "m", "art": "", "ipa": "de.sɑ̃bʁ", "en": "December",
+      "def": "Le dernier mois de l'année. C'est le mois de Noël.", "def_en": "The last month of the year. It's the month of Christmas.",
+      "examples": [
+        { "fr": "Noël, c'est le vingt-cinq **décembre**.", "en": "Christmas is on the twenty-fifth of December." },
+        { "fr": "En **décembre**, il fait froid et il neige parfois.", "en": "In December, it's cold and it sometimes snows." },
+        { "fr": "La fête des Lumières de Lyon, c'est en **décembre**.", "en": "Lyon's Festival of Lights is in December." }
+      ],
+      "note": "**La fête des Lumières** (around 8 December): for four nights, Lyon lights up its streets and buildings." },
+    { "id": "prochain", "fr": "prochain", "pos": "adj", "ipa": "pʁɔ.ʃɛ̃", "display": "prochain(e)", "en": "next",
+      "def": "Qui vient juste après : après cette semaine, il y a la semaine prochaine.", "def_en": "Coming right after: after this week comes next week.",
+      "forms": ["prochaine", "prochains", "prochaines"],
+      "examples": [
+        { "fr": "À la semaine **prochaine** !", "en": "See you next week!" },
+        { "fr": "Le mois **prochain**, je pars en vacances.", "en": "Next month, I'm going on holiday." },
+        { "fr": "Le **prochain** bus est à dix heures.", "en": "The next bus is at ten o'clock." }
+      ],
+      "note": "**la semaine prochaine** (next week, from now) goes after the noun. **le prochain bus** (the next one in a series) goes before." },
+    { "id": "dernier", "fr": "dernier", "pos": "adj", "ipa": "dɛʁ.nje", "display": "dernier, dernière", "en": "last",
+      "def": "Qui vient à la fin, après tous les autres. Aussi : juste avant maintenant (la semaine dernière).", "def_en": "Coming at the end, after all the others. Also: just before now (last week).",
+      "forms": ["dernière", "derniers", "dernières"],
+      "examples": [
+        { "fr": "Décembre est le **dernier** mois de l'année.", "en": "December is the last month of the year." },
+        { "fr": "C'est la **dernière** fois !", "en": "It's the last time!" },
+        { "fr": "Il habite à Lyon depuis l'année **dernière**.", "en": "He has lived in Lyon since last year." }
+      ],
+      "note": "**le mois dernier** = last month (the one before this one). **le dernier mois** = the final month." },
+    { "id": "fleur", "fr": "fleur", "pos": "noun", "g": "f", "ipa": "flœʁ", "en": "flower",
+      "def": "La partie belle et colorée d'une plante. Elle sent souvent bon.", "def_en": "The pretty, colourful part of a plant. It often smells nice.",
+      "forms": ["fleurs"],
+      "examples": [
+        { "fr": "Au printemps, il y a des **fleurs** partout.", "en": "In spring, there are flowers everywhere." },
+        { "fr": "Il offre des **fleurs** à sa mère.", "en": "He gives his mother flowers." },
+        { "fr": "Quelle est ta **fleur** préférée ?", "en": "What's your favourite flower?" }
+      ] },
+    { "id": "feuille", "fr": "feuille", "pos": "noun", "g": "f", "ipa": "fœj", "en": "leaf; sheet (of paper)",
+      "def": "La partie verte d'un arbre. Aussi : un morceau de papier.", "def_en": "The green part of a tree. Also: a piece of paper.",
+      "forms": ["feuilles"],
+      "examples": [
+        { "fr": "En automne, les **feuilles** tombent.", "en": "In autumn, the leaves fall." },
+        { "fr": "Les **feuilles** sont rouges et jaunes.", "en": "The leaves are red and yellow." },
+        { "fr": "Tu as une **feuille** de papier ?", "en": "Have you got a sheet of paper?" }
+      ],
+      "note": "**ill** is said /j/ again: /fœj/." }
+  ],
+  "story": {
+    "title": "Lyon ou Montréal ?",
+    "en": "Antoine wants to visit Lyon. But when?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Léa parle avec son cousin Antoine, à Montréal, sur l'ordinateur.", "en": "Léa is talking to her cousin Antoine, in Montréal, on the computer." },
+      { "sp": "Antoine", "fr": "Salut, Léa ! Ici, c'est l'hiver : il neige depuis novembre, et il fait moins quinze degrés !", "en": "Hi, Léa! Here it's winter: it's been snowing since November, and it's minus fifteen degrees!" },
+      { "sp": "Léa", "fr": "Moins quinze ?! À Lyon, il fait cinq degrés, et il ne neige pas.", "en": "Minus fifteen?! In Lyon it's five degrees, and it isn't snowing." },
+      { "sp": "Antoine", "fr": "Chez nous, l'hiver est très long : de novembre à mars, et parfois jusqu'en avril !", "en": "Where we live, winter is very long: from November to March, and sometimes until April!" },
+      { "sp": "Antoine", "fr": "Je veux visiter Lyon l'année prochaine. Quel est le meilleur mois ?", "en": "I want to visit Lyon next year. What's the best month?" },
+      { "sp": "Léa", "fr": "Ça dépend de la saison ! Au printemps, en avril et en mai, il fait doux et il y a des fleurs partout.", "en": "It depends on the season! In spring, in April and May, it's mild and there are flowers everywhere." },
+      { "sp": "Léa", "fr": "En juin, il y a la fête de la musique : des concerts dans toutes les rues !", "en": "In June, there's the music festival: concerts in every street!" },
+      { "sp": "Antoine", "fr": "Et l'été ?", "en": "And the summer?" },
+      { "sp": "Léa", "fr": "En juillet et en août, il fait très chaud : trente-cinq degrés ! Le quatorze juillet, il y a un grand feu d'artifice.", "en": "In July and August, it's very hot: thirty-five degrees! On the fourteenth of July, there's a big firework display." },
+      { "sp": "Antoine", "fr": "Trente-cinq degrés ? C'est trop chaud pour moi ! Et l'automne ?", "en": "Thirty-five degrees? That's too hot for me! And the autumn?" },
+      { "sp": "Léa", "fr": "En septembre, c'est la rentrée. En octobre, les feuilles des arbres sont rouges et jaunes, mais il pleut beaucoup.", "en": "In September, everyone goes back to school and work. In October, the leaves on the trees are red and yellow, but it rains a lot." },
+      { "sp": "Léa", "fr": "Et le huit décembre, c'est la fête des Lumières : toute la ville brille !", "en": "And on the eighth of December, it's the Festival of Lights: the whole city shines!" },
+      { "sp": "Antoine", "fr": "Et en janvier et en février ?", "en": "And in January and February?" },
+      { "sp": "Léa", "fr": "Il fait froid et gris. Ce n'est pas le meilleur moment…", "en": "It's cold and grey. It's not the best time…" },
+      { "sp": "Antoine", "fr": "Alors je viens en mai ! Le dernier week-end de mai, d'accord ?", "en": "Then I'll come in May! The last weekend of May, OK?" },
+      { "sp": "Léa", "fr": "Parfait ! Et nous, on se voit cet été, à Montréal !", "en": "Perfect! And we'll see each other this summer, in Montréal!" },
+      { "sp": "Antoine", "fr": "Oui ! En juillet, il fait beau et chaud ici. Pas de neige, promis !", "en": "Yes! In July, it's warm and sunny here. No snow, I promise!" }
+    ]
+  }
+}

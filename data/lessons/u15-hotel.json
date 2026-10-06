@@ -1,0 +1,226 @@
+{
+  "id": "u15-hotel",
+  "type": "vocab",
+  "unit": 15,
+  "title": "À l'hôtel",
+  "en": "At the hotel",
+  "intro": "22 words for staying in a hotel: booking a room, getting your key, asking for the wifi code… and complaining politely when things go wrong!",
+  "words": [
+    { "id": "reception", "fr": "réception", "pos": "noun", "g": "f", "ipa": "ʁe.sɛp.sjɔ̃", "en": "reception (desk)",
+      "def": "Dans un hôtel, l'endroit où on arrive, où on prend sa clé et où on pose ses questions.", "def_en": "In a hotel, the place where you arrive, get your key and ask your questions.",
+      "examples": [
+        { "fr": "La **réception** est ouverte jour et nuit.", "en": "Reception is open day and night." },
+        { "fr": "On laisse la clé à la **réception**.", "en": "We leave the key at reception." },
+        { "fr": "Appelle la **réception**, la clim ne marche pas !", "en": "Call reception, the air con isn't working!" }
+      ] },
+    { "id": "receptionniste", "fr": "réceptionniste", "pos": "noun", "g": "m", "both": true, "ipa": "ʁe.sɛp.sjɔ.nist", "display": "le / la réceptionniste", "en": "receptionist",
+      "def": "La personne qui travaille à la réception d'un hôtel.", "def_en": "The person who works on the reception desk of a hotel.",
+      "forms": ["réceptionnistes"],
+      "accept": ["la réceptionniste", "une réceptionniste"],
+      "examples": [
+        { "fr": "Le **réceptionniste** nous donne la clé.", "en": "The receptionist gives us the key." },
+        { "fr": "La **réceptionniste** parle quatre langues.", "en": "The receptionist speaks four languages." },
+        { "fr": "Demande au **réceptionniste** !", "en": "Ask the receptionist!" }
+      ] },
+    { "id": "reservation", "fr": "réservation", "pos": "noun", "g": "f", "ipa": "ʁe.zɛʁ.va.sjɔ̃", "en": "booking, reservation",
+      "def": "Quand on réserve une chambre, une table ou une place à l'avance.", "def_en": "When you book a room, a table or a seat in advance.",
+      "forms": ["réservations"],
+      "examples": [
+        { "fr": "J'ai une **réservation** au nom de Lambert.", "en": "I have a booking under the name Lambert." },
+        { "fr": "Vous avez une **réservation** ?", "en": "Do you have a reservation?" },
+        { "fr": "Je voudrais annuler ma **réservation**.", "en": "I'd like to cancel my booking." }
+      ] },
+    { "id": "double", "fr": "double", "pos": "adj", "ipa": "dubl", "en": "double",
+      "def": "Deux fois plus grand ; pour deux personnes : une chambre double, un lit double.", "def_en": "Twice as big; for two people: a double room, a double bed.",
+      "forms": ["doubles"],
+      "examples": [
+        { "fr": "Une chambre **double**, s'il vous plaît.", "en": "A double room, please." },
+        { "fr": "Il y a un lit **double** et un canapé.", "en": "There's a double bed and a sofa." },
+        { "fr": "Un café **double** pour moi !", "en": "A double coffee for me!" }
+      ],
+      "note": "A room for one person is **une chambre simple**." },
+    { "id": "cle", "fr": "clé", "pos": "noun", "g": "f", "ipa": "kle", "en": "key",
+      "def": "Le petit objet en métal qui ouvre et [ferme|fermer] une porte.", "def_en": "The small metal object that opens and locks a door.",
+      "forms": ["clés", "clef", "clefs"],
+      "examples": [
+        { "fr": "Voici votre **clé** : chambre douze.", "en": "Here's your key: room twelve." },
+        { "fr": "Je ne trouve pas la **clé** !", "en": "I can't find the key!" },
+        { "fr": "Aujourd'hui, la **clé** est souvent une carte.", "en": "These days, the key is often a card." }
+      ],
+      "note": "Also spelt **clef**, with the same sound: /kle/." },
+    { "id": "ascenseur", "fr": "ascenseur", "pos": "noun", "g": "m", "ipa": "a.sɑ̃.sœʁ", "en": "lift, elevator",
+      "def": "La petite cabine qui monte et qui descend d'un étage à l'autre.", "def_en": "The little cabin that goes up and down from one floor to another.",
+      "forms": ["ascenseurs"],
+      "examples": [
+        { "fr": "On prend l'**ascenseur** ou l'escalier ?", "en": "Shall we take the lift or the stairs?" },
+        { "fr": "L'**ascenseur** est en panne !", "en": "The lift is out of order!" },
+        { "fr": "L'**ascenseur** est au bout du couloir.", "en": "The lift is at the end of the corridor." }
+      ],
+      "note": "**en panne** = out of order, broken down." },
+    { "id": "compris-adj", "fr": "compris", "pos": "adj", "ipa": "kɔ̃.pʁi", "display": "compris(e)", "en": "included",
+      "def": "Dans le prix, sans payer en plus.", "def_en": "In the price, at no extra cost.",
+      "forms": ["comprise", "comprises"],
+      "examples": [
+        { "fr": "Le petit-déjeuner est **[compris|compris-adj]** ?", "en": "Is breakfast included?" },
+        { "fr": "Le service est **[compris|compris-adj]**.", "en": "Service is included." },
+        { "fr": "Le wifi est **[compris|compris-adj]** dans le prix.", "en": "Wifi is included in the price." }
+      ],
+      "note": "Also the past participle of **comprendre**: *Tu as compris ?* (Did you understand?)" },
+    { "id": "complet", "fr": "complet", "pos": "adj", "ipa": "kɔ̃.plɛ", "display": "complet, complète", "en": "full, fully booked; complete",
+      "def": "Plein : il n'y a plus de place.", "def_en": "Full: there's no room left.",
+      "forms": ["complète", "complets", "complètes"],
+      "examples": [
+        { "fr": "Désolé, l'hôtel est **complet**.", "en": "Sorry, the hotel is fully booked." },
+        { "fr": "Le train est **complet** ce soir.", "en": "The train is full tonight." },
+        { "fr": "Je prends un petit-déjeuner **complet**.", "en": "I'm having the full breakfast." }
+      ] },
+    { "id": "libre", "fr": "libre", "pos": "adj", "ipa": "libʁ", "en": "free, available",
+      "def": "Pas occupé : on peut prendre cette place ou cette chambre. Aussi : qui fait ce qu'il veut.", "def_en": "Not taken: you can have this seat or this room. Also: able to do what you want.",
+      "forms": ["libres"],
+      "examples": [
+        { "fr": "Vous avez une chambre **libre** ?", "en": "Do you have a room free?" },
+        { "fr": "Cette place est **libre** ?", "en": "Is this seat free?" },
+        { "fr": "Je suis **libre** samedi soir.", "en": "I'm free on Saturday evening." }
+      ],
+      "note": "**libre** = free (available, not busy). *Free* meaning *no money* is **gratuit**." },
+    { "id": "note", "fr": "note", "pos": "noun", "g": "f", "ipa": "nɔt", "en": "bill (hotel); mark (at school); note",
+      "def": "Ce qu'on paie à la fin d'un séjour à l'hôtel. Aussi : à l'école, le chiffre qui dit si un travail est bon.", "def_en": "What you pay at the end of a hotel stay. Also: at school, the number that says whether a piece of work is good.",
+      "forms": ["notes"],
+      "examples": [
+        { "fr": "La **note**, s'il vous plaît.", "en": "The bill, please." },
+        { "fr": "La **note** de l'hôtel est très chère !", "en": "The hotel bill is very expensive!" },
+        { "fr": "J'ai une bonne **note** en français !", "en": "I got a good mark in French!" }
+      ],
+      "note": "At a restaurant, the bill is **l'addition**; at a hotel, **la note**." },
+    { "id": "wifi", "fr": "wifi", "pos": "noun", "g": "m", "ipa": "wi.fi", "en": "wifi",
+      "def": "Internet sans fil, dans un hôtel, un café, une maison…", "def_en": "Wireless Internet, in a hotel, a café, a home…",
+      "examples": [
+        { "fr": "Quel est le code du **wifi** ?", "en": "What's the wifi password?" },
+        { "fr": "Le **wifi** ne marche pas dans ma chambre.", "en": "The wifi doesn't work in my room." },
+        { "fr": "Il y a le **wifi** gratuit ?", "en": "Is there free wifi?" }
+      ],
+      "note": "Said the French way: /wi.fi/." },
+    { "id": "climatisation", "fr": "climatisation", "pos": "noun", "g": "f", "ipa": "kli.ma.ti.za.sjɔ̃", "en": "air conditioning",
+      "def": "La machine qui rend l'air froid quand il fait chaud.", "def_en": "The machine that cools the air when it's hot.",
+      "forms": ["clim"],
+      "accept": ["clim", "la clim"],
+      "examples": [
+        { "fr": "La **climatisation** est en panne.", "en": "The air conditioning has broken down." },
+        { "fr": "Il fait trente-cinq degrés : vive la **clim** !", "en": "It's thirty-five degrees: hooray for air con!" },
+        { "fr": "Tu peux baisser la **climatisation** ?", "en": "Can you turn the air conditioning down?" }
+      ],
+      "note": "In speech: **la clim**." },
+    { "id": "propre", "fr": "propre", "pos": "adj", "ipa": "pʁɔpʁ", "en": "clean; own",
+      "def": "Pas sale. Aussi, avant un nom : qui est à vous (ma propre chambre).", "def_en": "Not dirty. Also, before a noun: belonging to you (my own room).",
+      "forms": ["propres"],
+      "examples": [
+        { "fr": "La chambre est très **propre**.", "en": "The room is very clean." },
+        { "fr": "Tu as des serviettes **propres** ?", "en": "Have you got clean towels?" },
+        { "fr": "J'ai ma **propre** salle de bains !", "en": "I've got my own bathroom!" }
+      ],
+      "note": "After the noun = clean (*une chambre propre*); before it = own (*ma propre chambre*)." },
+    { "id": "sale", "fr": "sale", "pos": "adj", "ipa": "sal", "en": "dirty",
+      "def": "Le contraire de propre.", "def_en": "The opposite of clean.",
+      "forms": ["sales"],
+      "examples": [
+        { "fr": "Les serviettes sont **sales** !", "en": "The towels are dirty!" },
+        { "fr": "Mes chaussures sont **sales**.", "en": "My shoes are dirty." },
+        { "fr": "Ne mets pas tes vêtements **sales** sur le lit !", "en": "Don't put your dirty clothes on the bed!" }
+      ],
+      "note": "Before a noun, **sale** means nasty: *un sale temps* (horrible weather)." },
+    { "id": "bruyant", "fr": "bruyant", "pos": "adj", "ipa": "bʁɥi.jɑ̃", "display": "bruyant(e)", "en": "noisy",
+      "def": "Qui fait beaucoup de bruit.", "def_en": "Making a lot of noise.",
+      "forms": ["bruyante", "bruyants", "bruyantes"],
+      "examples": [
+        { "fr": "La chambre est trop **bruyante**.", "en": "The room is too noisy." },
+        { "fr": "Les voisins sont **bruyants** !", "en": "The neighbours are noisy!" },
+        { "fr": "C'est une rue très **bruyante**.", "en": "It's a very noisy street." }
+      ],
+      "note": "From **le bruit** (noise)." },
+    { "id": "confortable", "fr": "confortable", "pos": "adj", "ipa": "kɔ̃.fɔʁ.tabl", "en": "comfortable",
+      "def": "Agréable et doux : on se sent bien dedans (un lit, un fauteuil, une chambre).", "def_en": "Pleasant and soft: you feel good in it (a bed, an armchair, a room).",
+      "forms": ["confortables"],
+      "examples": [
+        { "fr": "Le lit est très **confortable**.", "en": "The bed is very comfortable." },
+        { "fr": "Ce fauteuil n'est pas **confortable**.", "en": "This armchair isn't comfortable." },
+        { "fr": "Une chambre **confortable** avec vue sur la mer.", "en": "A comfortable room with a sea view." }
+      ] },
+    { "id": "oreiller", "fr": "oreiller", "pos": "noun", "g": "m", "ipa": "ɔ.ʁɛ.je", "en": "pillow",
+      "def": "Le petit coussin où on met la tête pour dormir.", "def_en": "The small cushion you rest your head on to sleep.",
+      "forms": ["oreillers"],
+      "examples": [
+        { "fr": "Je voudrais un autre **oreiller**, s'il vous plaît.", "en": "I'd like another pillow, please." },
+        { "fr": "Cet **oreiller** est trop dur.", "en": "This pillow is too hard." },
+        { "fr": "Lou dort avec son nounours sur l'**oreiller**.", "en": "Lou sleeps with her teddy on the pillow." }
+      ],
+      "note": "From **l'oreille** (ear)." },
+    { "id": "couverture", "fr": "couverture", "pos": "noun", "g": "f", "ipa": "ku.vɛʁ.tyʁ", "en": "blanket; cover",
+      "def": "Un grand tissu chaud qu'on met sur le lit.", "def_en": "A big warm cloth you put on the bed.",
+      "forms": ["couvertures"],
+      "examples": [
+        { "fr": "J'ai froid : il y a une autre **couverture** ?", "en": "I'm cold: is there another blanket?" },
+        { "fr": "La **couverture** est dans l'armoire.", "en": "The blanket is in the wardrobe." },
+        { "fr": "La **couverture** de ce livre est jolie.", "en": "The cover of this book is pretty." }
+      ],
+      "note": "From **couvrir** (to cover)." },
+    { "id": "etoile", "fr": "étoile", "pos": "noun", "g": "f", "ipa": "e.twal", "en": "star",
+      "def": "Un point qui brille dans le ciel, la nuit. Aussi : la note d'un hôtel ou d'un restaurant.", "def_en": "A point that shines in the sky at night. Also: the rating of a hotel or a restaurant.",
+      "forms": ["étoiles"],
+      "examples": [
+        { "fr": "C'est un hôtel trois **étoiles**.", "en": "It's a three-star hotel." },
+        { "fr": "Il y a beaucoup d'**étoiles** ce soir.", "en": "There are lots of stars tonight." },
+        { "fr": "Un restaurant avec une **étoile**, c'est très cher !", "en": "A restaurant with a star is very expensive!" }
+      ] },
+    { "id": "probleme", "fr": "problème", "pos": "noun", "g": "m", "ipa": "pʁɔ.blɛm", "en": "problem",
+      "def": "Une chose qui ne va pas, qui n'est pas facile.", "def_en": "Something that's wrong or not easy.",
+      "forms": ["problèmes"],
+      "examples": [
+        { "fr": "Il y a un **problème** avec ma chambre.", "en": "There's a problem with my room." },
+        { "fr": "Pas de **problème** !", "en": "No problem!" },
+        { "fr": "Quel est le **problème** ?", "en": "What's the problem?" }
+      ],
+      "note": "Masculine, even though it ends in **-e**: *un problème*." },
+    { "id": "annuler", "fr": "annuler", "pos": "verb", "ipa": "a.ny.le", "en": "to cancel",
+      "def": "Dire qu'une chose prévue ne va pas avoir lieu.", "def_en": "To say that something planned isn't going to happen.",
+      "forms": ["annule", "annules", "annulons", "annulez", "annulent", "annulé", "annulée", "annulés", "annulées", "annulais", "annulait", "annulions", "annuliez", "annulaient", "annulerai", "annuleras", "annulera", "annulerons", "annulerez", "annuleront"],
+      "examples": [
+        { "fr": "Je voudrais **annuler** ma réservation.", "en": "I'd like to cancel my booking." },
+        { "fr": "Le vol est **annulé** à cause de l'orage.", "en": "The flight is cancelled because of the storm." },
+        { "fr": "On **annule** le pique-nique : il pleut !", "en": "We're cancelling the picnic: it's raining!" }
+      ] },
+    { "id": "quitter", "fr": "quitter", "pos": "verb", "ipa": "ki.te", "en": "to leave (a place, a person)",
+      "def": "Partir d'un endroit, ou laisser une personne.", "def_en": "To go away from a place, or to leave a person.",
+      "forms": ["quitte", "quittes", "quittons", "quittez", "quittent", "quitté", "quittais", "quittait", "quittions", "quittiez", "quittaient", "quitterai", "quitteras", "quittera", "quitterons", "quitterez", "quitteront"],
+      "examples": [
+        { "fr": "Il faut **quitter** la chambre avant midi.", "en": "You have to leave the room before noon." },
+        { "fr": "Nous **quittons** l'hôtel demain matin.", "en": "We're leaving the hotel tomorrow morning." },
+        { "fr": "Ne **quittez** pas !", "en": "Hold the line, please!" }
+      ],
+      "note": "On the phone, **Ne quittez pas !** = Please hold. **quitter** always needs an object (*je quitte l'hôtel*); with no object, use **partir** (*je pars*)." }
+  ],
+  "story": {
+    "title": "L'hôtel de Barcelone",
+    "en": "Sophie and Inès spend three nights in a hotel in Barcelona. Not everything goes to plan…",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "En juillet, Sophie et Inès passent trois nuits à Barcelone, dans un hôtel trois étoiles.", "en": "In July, Sophie and Inès spend three nights in Barcelona, in a three-star hotel." },
+      { "sp": "", "fr": "À la réception, Sophie parle avec le réceptionniste.", "en": "At reception, Sophie talks to the receptionist." },
+      { "sp": "Sophie", "fr": "Bonjour ! Nous avons une réservation au nom de Lambert.", "en": "Hello! We have a booking under the name Lambert." },
+      { "sp": "Le réceptionniste", "fr": "Oui… une chambre double, trois nuits, petit-déjeuner [compris|compris-adj]. Voici votre clé : chambre cinquante-deux.", "en": "Yes… a double room, three nights, breakfast included. Here's your key: room fifty-two." },
+      { "sp": "Inès", "fr": "Il y a un ascenseur ?", "en": "Is there a lift?" },
+      { "sp": "Le réceptionniste", "fr": "Oui, mais il est en panne. C'est au cinquième étage…", "en": "Yes, but it's out of order. It's on the fifth floor…" },
+      { "sp": "", "fr": "La chambre est propre, mais elle est très bruyante : il y a une discothèque en face !", "en": "The room is clean, but it's very noisy: there's a nightclub opposite!" },
+      { "sp": "Inès", "fr": "Et regarde : la serviette est sale, et la climatisation ne marche pas !", "en": "And look: the towel is dirty, and the air conditioning doesn't work!" },
+      { "sp": "Sophie", "fr": "Et le wifi ne marche pas non plus…", "en": "And the wifi doesn't work either…" },
+      { "sp": "", "fr": "Elles descendent à la réception.", "en": "They go down to reception." },
+      { "sp": "Sophie", "fr": "Bonsoir. Il y a un problème avec notre chambre. Vous avez une autre chambre libre ?", "en": "Good evening. There's a problem with our room. Do you have another room free?" },
+      { "sp": "Le réceptionniste", "fr": "Désolé, ce soir l'hôtel est complet. Mais demain, oui, avec vue sur la mer !", "en": "Sorry, the hotel is fully booked tonight. But tomorrow, yes, with a sea view!" },
+      { "sp": "", "fr": "La nuit, le lit est confortable, mais la musique est très forte. Inès met son oreiller sur sa tête… et la couverture aussi !", "en": "That night, the bed is comfortable, but the music is very loud. Inès puts her pillow over her head… and the blanket too!" },
+      { "sp": "", "fr": "Le lendemain, elles changent de chambre : la nouvelle chambre est calme, avec un balcon sur la mer.", "en": "The next day, they move rooms: the new room is quiet, with a balcony over the sea." },
+      { "sp": "Inès", "fr": "On annule le restaurant ce soir ? On mange sur le balcon !", "en": "Shall we cancel the restaurant tonight? Let's eat on the balcony!" },
+      { "sp": "", "fr": "Le dernier jour, elles quittent l'hôtel à midi.", "en": "On the last day, they leave the hotel at noon." },
+      { "sp": "Le réceptionniste", "fr": "Voici votre note. Pour vos problèmes, nous vous offrons une nuit !", "en": "Here's your bill. To make up for your problems, one night is on us!" },
+      { "sp": "Sophie", "fr": "Merci ! Mais la prochaine fois, on demande une chambre avec vue sur la mer dès le premier jour !", "en": "Thank you! But next time, we'll ask for a sea-view room from the very first day!" }
+    ]
+  }
+}

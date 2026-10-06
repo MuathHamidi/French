@@ -1,0 +1,187 @@
+{
+  "id": "u03-sounds",
+  "type": "sounds",
+  "unit": 3,
+  "title": "Les lettres muettes",
+  "en": "Pronunciation: silent letters (and numbers)",
+  "intro": "French spelling has many letters you don't pronounce. A few simple rules tell you which ones — and when a silent letter suddenly wakes up. Press 🔊 on every example and repeat it out loud.",
+  "cases": [
+    { "id": "snd-final", "label": "final consonants: silent", "rule": "Most consonants at the end of a word are silent: *petit, grand, vous, trois, Paris*." },
+    { "id": "snd-careful", "label": "C, R, F, L: often heard", "rule": "Final **c, r, f, l** are often pronounced (think *CaReFuL*): *avec, bonjour, neuf, il*. But **-er** verbs end in /e/: *aimer*." },
+    { "id": "snd-e", "label": "final -e: silent, but…", "rule": "A final **-e** is silent, but it makes the consonant before it heard: *petit* /pə.ti/ → *petite* /pə.tit/." },
+    { "id": "snd-s", "label": "plural -s: silent", "rule": "The plural **-s** is silent: *frère* and *frères* sound the same. Listen to the article instead: *le* /lə/ → *les* /le/." },
+    { "id": "snd-ent", "label": "verb ending -ent: silent", "rule": "**-ent** at the end of a verb is silent: *ils parlent* sounds like *il parle*." },
+    { "id": "snd-h", "label": "h: always silent", "rule": "The **h** is never pronounced. Most words with h act as if they start with a vowel: *l'homme, j'habite, les‿hommes*." },
+    { "id": "snd-liaison", "label": "liaison: a silent letter wakes up", "rule": "Before a vowel, a silent final letter can link to the next word: **s / x → /z/** (*les‿enfants*), **n** (*un‿ami*), **t** (*vingt‿ans*)." },
+    { "id": "snd-numbers", "label": "six, huit, dix: three sounds", "rule": "Alone: /sis/, /ɥit/, /dis/. Before a consonant: /si/, /ɥi/, /di/. Before a vowel: /siz/, /ɥit/, /diz/." }
+  ],
+  "sections": [
+    {
+      "title": "1. Final consonants are usually silent",
+      "table": {
+        "head": ["Word", "You hear"], "frCols": [0],
+        "rows": [
+          ["petit", "/pə.ti/ — no t"],
+          ["grand", "/ɡʁɑ̃/ — no d"],
+          ["vous", "/vu/ — no s"],
+          ["trois", "/tʁwa/ — no s"],
+          ["deux", "/dø/ — no x"],
+          ["Dupont", "/dy.pɔ̃/ — no t"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Trois|snd-final} frères.", "en": "Three brothers." },
+        { "fr": "Mon frère est {petit|snd-final}.", "en": "My brother is small." },
+        { "fr": "C'est Madame {Dupont|snd-final}.", "en": "This is Mrs. Dupont." }
+      ],
+      "tip": "When a word ends in a consonant, guess **silent** first — you'll be right most of the time."
+    },
+    {
+      "title": "2. …but C, R, F, L are often heard",
+      "text": ["Remember the English word **CaReFuL**: final **c, r, f, l** are often pronounced."],
+      "table": {
+        "head": ["Word", "You hear"], "frCols": [0],
+        "rows": [
+          ["avec", "/a.vɛk/ — c heard"],
+          ["bonjour", "/bɔ̃.ʒuʁ/ — r heard"],
+          ["neuf", "/nœf/ — f heard"],
+          ["il", "/il/ — l heard"],
+          ["aimer", "/e.me/ — r silent (-er verb)"],
+          ["monsieur", "/mə.sjø/ — r silent"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je suis {avec|snd-careful} mon frère.", "en": "I'm with my brother." },
+        { "fr": "{Bonjour|snd-careful}, madame !", "en": "Hello, madam!" },
+        { "fr": "J'ai {neuf|snd-careful} cousins.", "en": "I have nine cousins." }
+      ],
+      "tip": "Big exception: verbs ending in **-er** end in the sound /e/: *aimer, habiter, parler*."
+    },
+    {
+      "title": "3. Final -e: silent, but it wakes up the consonant",
+      "text": ["This is how you hear the difference between masculine and feminine."],
+      "table": {
+        "head": ["Masculine", "Feminine", "Sounds"], "frCols": [0, 1],
+        "rows": [
+          ["petit", "petite", "/pə.ti/ → /pə.tit/"],
+          ["grand", "grande", "/ɡʁɑ̃/ → /ɡʁɑ̃d/"],
+          ["content", "contente", "/kɔ̃.tɑ̃/ → /kɔ̃.tɑ̃t/"],
+          ["français", "française", "/fʁɑ̃.sɛ/ → /fʁɑ̃.sɛz/"],
+          ["cousin", "cousine", "/ku.zɛ̃/ → /ku.zin/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon frère est {petit|snd-e}, ma sœur est {petite|snd-e}.", "en": "My brother is small, my sister is small." },
+        { "fr": "Il est {content|snd-e}, elle est {contente|snd-e}.", "en": "He's happy, she's happy." }
+      ],
+      "tip": "If the masculine already ends in a vowel, both sound the same: *marié / mariée*."
+    },
+    {
+      "title": "4. Plural -s and verb -ent are silent",
+      "table": {
+        "head": ["One", "Several", "What changes"], "frCols": [0, 1],
+        "rows": [
+          ["le frère", "les frères", "only the article: /lə/ → /le/"],
+          ["la tante", "les tantes", "only the article: /la/ → /le/"],
+          ["il parle", "ils parlent", "nothing: both /il paʁl/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Les frères|snd-s} de Léa sont grands.", "en": "Léa's brothers are tall." },
+        { "fr": "{Ils parlent|snd-ent} français.", "en": "They speak French." },
+        { "fr": "{Elles habitent|snd-ent} à Paris.", "en": "They live in Paris." }
+      ]
+    },
+    {
+      "title": "5. The letter h is always silent",
+      "text": ["French **h** makes no sound. With most words it behaves like a vowel: *l'homme, j'habite, les‿hommes* /le.zɔm/."],
+      "examples": [
+        { "fr": "{L'homme|snd-h} est grand.", "en": "The man is tall." },
+        { "fr": "{J'habite|snd-h} à Lyon.", "en": "I live in Lyon." },
+        { "fr": "{Les hommes|snd-h} sont là.", "en": "The men are here." }
+      ],
+      "tip": "A few words have an “aspirated h” that blocks this (*le haricot*, the bean). You'll meet them later."
+    },
+    {
+      "title": "6. Liaison: a silent letter wakes up",
+      "text": ["Inside a group of words that belong together (article + noun, pronoun + verb, number + noun), a silent final letter links to a following vowel. **s** and **x** sound /z/, **t** and **d** sound /t/."],
+      "table": {
+        "head": ["Words", "You hear"], "frCols": [0],
+        "rows": [
+          ["les enfants", "/le.zɑ̃.fɑ̃/ — s → z"],
+          ["un ami", "/œ̃.na.mi/ — n"],
+          ["deux ans", "/dø.zɑ̃/ — x → z"],
+          ["vous avez", "/vu.za.ve/ — s → z"],
+          ["ils ont", "/il.zɔ̃/ — s → z"],
+          ["vingt ans", "/vɛ̃.tɑ̃/ — t"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Mes enfants|snd-liaison} sont à l'école.", "en": "My children are at school." },
+        { "fr": "{Vous avez|snd-liaison} un chien ?", "en": "Do you have a dog?" },
+        { "fr": "C'est {un ami|snd-liaison}.", "en": "He's a friend." }
+      ]
+    },
+    {
+      "title": "7. Numbers: six, huit, dix have three sounds",
+      "table": {
+        "head": ["Number", "Alone", "+ consonant", "+ vowel"], "frCols": [0],
+        "rows": [
+          ["six", "/sis/", "six frères → /si/", "six‿ans → /siz/"],
+          ["huit", "/ɥit/", "huit frères → /ɥi/", "huit‿ans → /ɥit/"],
+          ["dix", "/dis/", "dix frères → /di/", "dix‿ans → /diz/"]
+        ]
+      },
+      "text": ["Also: **cinq** /sɛ̃k/ (q heard), **sept** /sɛt/ (p silent), **neuf‿ans** /nœ.vɑ̃/ (f → v), **vingt** /vɛ̃/ but *vingt‿ans* /vɛ̃.tɑ̃/, **cent‿ans** /sɑ̃.tɑ̃/."],
+      "examples": [
+        { "fr": "J'ai {six|snd-numbers} cousins.", "en": "I have six cousins." },
+        { "fr": "Il a {six ans|snd-numbers}.", "en": "He's six." },
+        { "fr": "Ils sont {six|snd-numbers}.", "en": "There are six of them." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "petit → “pe-teet”", "right": "petit → /pə.ti/", "why": "The final **t** is silent. You only hear it in the feminine: *petite*." },
+    { "wrong": "Paris → “Pa-riss”", "right": "Paris → /pa.ʁi/", "why": "Final **s**: silent." },
+    { "wrong": "ils parlent → “par-lent”", "right": "ils parlent → /il paʁl/", "why": "**-ent** on a verb is silent." },
+    { "wrong": "homme → “hom”", "right": "homme → /ɔm/", "why": "The **h** is never pronounced." },
+    { "wrong": "les enfants → “lay on-fon”", "right": "les‿enfants → /le.zɑ̃.fɑ̃/", "why": "Liaison: the **s** links as /z/." }
+  ],
+  "story": {
+    "title": "La famille Dupont",
+    "en": "A short text to read aloud. Listen first, then read along with the speaker.",
+    "lines": [
+      { "fr": "Monsieur et Madame {Dupont|snd-final} habitent à {Paris|snd-final}.", "en": "Mr and Mrs Dupont live in Paris." },
+      { "fr": "{Ils ont|snd-liaison} {six enfants|snd-numbers} !", "en": "They have six children!" },
+      { "fr": "{Les enfants|snd-liaison} ont {dix ans|snd-numbers}, {huit ans|snd-numbers}, {six ans|snd-numbers}, {cinq ans|snd-numbers}, {trois ans|snd-liaison} et {un an|snd-liaison}.", "en": "The children are ten, eight, six, five, three and one.", "br": true },
+      { "fr": "Le {grand|snd-final} frère s'appelle Paul. Sa sœur, Claire, est {grande|snd-e} aussi.", "en": "The big brother is called Paul. His sister Claire is tall too." },
+      { "fr": "{Les petits|snd-s} {jouent|snd-ent} avec leur grand-père.", "en": "The little ones play with their grandfather." },
+      { "fr": "Grand-père a {quatre-vingts ans|snd-liaison} et il {habite|snd-h} {avec|snd-careful} eux.", "en": "Grandpa is eighty and he lives with them.", "br": true },
+      { "fr": "Le soir, toute la famille dit : « {Bonsoir|snd-careful} ! »", "en": "In the evening, the whole family says: “Good evening!”" },
+      { "fr": "Et la maison des {Dupont|snd-final} ? C'est une très {grande|snd-e} maison !", "en": "And the Duponts' house? It's a very big house!" }
+    ]
+  },
+  "quiz": [
+    { "case": "snd-final", "type": "mc", "lang": "en", "q": "In « petit », which letter is silent?", "options": ["t", "p", "i"], "answer": "t", "say": "petit" },
+    { "case": "snd-final", "type": "mc", "lang": "en", "q": "Is the s of « trois » pronounced in « trois frères »?", "options": ["no", "yes"], "answer": "no", "say": "trois frères" },
+    { "case": "snd-final", "type": "mc", "lang": "en", "q": "« deux » sounds like…", "options": ["/dø/", "/døks/", "/døz/"], "answer": "/dø/", "say": "deux" },
+    { "case": "snd-careful", "type": "mc", "lang": "en", "q": "In « avec », is the c pronounced?", "options": ["yes", "no"], "answer": "yes", "say": "avec" },
+    { "case": "snd-careful", "type": "mc", "lang": "en", "q": "In « aimer », is the r pronounced?", "options": ["no", "yes"], "answer": "no", "say": "aimer", "why": "Verbs ending in **-er** end in the sound /e/." },
+    { "case": "snd-e", "type": "mc", "lang": "en", "listen": "petite", "q": "Listen: which word do you hear?", "options": ["petite", "petit"], "answer": "petite", "why": "You hear the **t**: feminine *petite*." },
+    { "case": "snd-e", "type": "mc", "lang": "en", "listen": "grand", "q": "Listen: which word do you hear?", "options": ["grand", "grande"], "answer": "grand", "why": "No **d** sound: masculine *grand*." },
+    { "case": "snd-e", "type": "mc", "lang": "en", "q": "« contente » sounds like…", "options": ["/kɔ̃.tɑ̃t/", "/kɔ̃.tɑ̃/", "/kɔ̃.tɑ̃.te/"], "answer": "/kɔ̃.tɑ̃t/", "say": "contente" },
+    { "case": "snd-s", "type": "mc", "lang": "en", "q": "Do « frère » and « frères » sound different?", "options": ["no, they sound the same", "yes"], "answer": "no, they sound the same", "say": "frères" },
+    { "case": "snd-s", "type": "mc", "lang": "en", "listen": "les sœurs", "q": "Listen: one sister or several?", "options": ["several (les sœurs)", "one (la sœur)"], "answer": "several (les sœurs)", "why": "You hear **les** /le/. The **-s** of *sœurs* is silent." },
+    { "case": "snd-ent", "type": "mc", "lang": "en", "q": "Do « il parle » and « ils parlent » sound different?", "options": ["no", "yes"], "answer": "no", "say": "ils parlent", "why": "The **s** of *ils* and the **-ent** of *parlent* are both silent." },
+    { "case": "snd-ent", "type": "mc", "lang": "en", "q": "In « elles habitent », what is silent at the end?", "options": ["-ent", "-nt", "nothing"], "answer": "-ent", "say": "elles habitent" },
+    { "case": "snd-h", "type": "mc", "lang": "en", "q": "« homme » starts with the sound…", "options": ["/ɔ/ — no h sound", "/h/"], "answer": "/ɔ/ — no h sound", "say": "homme" },
+    { "case": "snd-h", "type": "mc", "q": "___ homme est grand.", "en": "The man is tall.", "options": ["L'", "Le"], "answer": "L'", "why": "The **h** is silent, so **le** becomes **l'**." },
+    { "case": "snd-liaison", "type": "mc", "lang": "en", "listen": "les enfants", "q": "Listen: what links « les » and « enfants »?", "options": ["a /z/ sound", "an /s/ sound", "nothing"], "answer": "a /z/ sound" },
+    { "case": "snd-liaison", "type": "mc", "lang": "en", "listen": "un ami", "q": "Listen: what links « un » and « ami »?", "options": ["an /n/ sound", "nothing", "a /z/ sound"], "answer": "an /n/ sound" },
+    { "case": "snd-liaison", "type": "mc", "lang": "en", "q": "« vingt ans » sounds like…", "options": ["/vɛ̃.tɑ̃/", "/vɛ̃.ɑ̃/", "/vɛ̃ɡ.tɑ̃/"], "answer": "/vɛ̃.tɑ̃/", "say": "vingt ans" },
+    { "case": "snd-numbers", "type": "mc", "lang": "en", "listen": "six", "q": "Listen: how does « six » sound on its own?", "options": ["/sis/", "/si/", "/siz/"], "answer": "/sis/" },
+    { "case": "snd-numbers", "type": "mc", "lang": "en", "listen": "six frères", "q": "Listen: how does « six » sound in « six frères »?", "options": ["/si/", "/sis/", "/siz/"], "answer": "/si/" },
+    { "case": "snd-numbers", "type": "mc", "lang": "en", "listen": "dix ans", "q": "Listen: how does « dix » sound in « dix ans »?", "options": ["/diz/", "/di/", "/dis/"], "answer": "/diz/" },
+    { "case": "snd-numbers", "type": "mc", "lang": "en", "q": "« neuf ans » sounds like…", "options": ["/nœ.vɑ̃/", "/nœ.fɑ̃/", "/nø.ɑ̃/"], "answer": "/nœ.vɑ̃/", "say": "neuf ans" }
+  ]
+}

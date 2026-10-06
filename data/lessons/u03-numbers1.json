@@ -1,0 +1,191 @@
+{
+  "id": "u03-numbers1",
+  "type": "vocab",
+  "unit": 3,
+  "title": "De zéro à vingt",
+  "en": "Numbers 0–20",
+  "intro": "The numbers from 0 to 20. Listen carefully: some numbers change sound depending on the next word (*six* /sis/, *six frères* /si/, *six‿ans* /siz/). The notes under each number tell you when.",
+  "words": [
+    { "id": "zero", "fr": "zéro", "pos": "num", "ipa": "ze.ʁo", "en": "zero (0)",
+      "def": "Le nombre avant un : 0. Il n'y a rien.", "def_en": "The number before one: 0. There is nothing.", "accept": ["zero"],
+      "examples": [
+        { "fr": "Le numéro commence par **zéro**.", "en": "The number starts with zero." },
+        { "fr": "Mon numéro, c'est le **zéro** six…", "en": "My number is zero six…" },
+        { "fr": "Zéro et **zéro**, ça fait zéro.", "en": "Zero and zero makes zero." }
+      ] },
+    { "id": "un", "fr": "un", "pos": "num", "ipa": "œ̃", "en": "one (1); also a, an",
+      "def": "Le premier nombre : 1. C'est aussi le mot dans « un frère ».", "def_en": "The first number: 1. It's also the word in “un frère” (a brother).",
+      "extra": "Feminine: **une** (*une sœur*). Before a vowel you hear an /n/: *un‿an* /œ̃.nɑ̃/.",
+      "examples": [
+        { "fr": "J'ai **un** frère.", "en": "I have one brother." },
+        { "fr": "Le bébé a **un** an.", "en": "The baby is one year old." },
+        { "fr": "**Un**, deux, trois… !", "en": "One, two, three…!" }
+      ] },
+    { "id": "deux", "fr": "deux", "pos": "num", "ipa": "dø", "en": "two (2)",
+      "def": "Un et un : 2.", "def_en": "One and one: 2.",
+      "examples": [
+        { "fr": "J'ai **deux** sœurs.", "en": "I have two sisters." },
+        { "fr": "Lou a **deux** ans.", "en": "Lou is two years old." },
+        { "fr": "Un et un, ça fait **deux**.", "en": "One and one makes two." }
+      ],
+      "note": "The **x** is silent, but before a vowel it sounds like /z/: *deux‿ans* /dø.zɑ̃/." },
+    { "id": "trois", "fr": "trois", "pos": "num", "ipa": "tʁwa", "en": "three (3)",
+      "def": "Deux et un : 3.", "def_en": "Two and one: 3.",
+      "examples": [
+        { "fr": "Ils ont **trois** enfants.", "en": "They have three children." },
+        { "fr": "Deux et un, ça fait **trois**.", "en": "Two and one makes three." },
+        { "fr": "Nous sommes **trois** dans la famille.", "en": "There are three of us in the family." }
+      ],
+      "note": "Before a vowel the **s** sounds like /z/: *trois‿ans* /tʁwa.zɑ̃/." },
+    { "id": "quatre", "fr": "quatre", "pos": "num", "ipa": "katʁ", "en": "four (4)",
+      "def": "Deux et deux : 4.", "def_en": "Two and two: 4.",
+      "examples": [
+        { "fr": "J'ai **quatre** cousins.", "en": "I have four cousins." },
+        { "fr": "Nous sommes **quatre** à la maison.", "en": "There are four of us at home." },
+        { "fr": "Deux et deux, ça fait **quatre**.", "en": "Two and two makes four." }
+      ] },
+    { "id": "cinq", "fr": "cinq", "pos": "num", "ipa": "sɛ̃k", "en": "five (5)",
+      "def": "Quatre et un : 5.", "def_en": "Four and one: 5.",
+      "examples": [
+        { "fr": "Il a **cinq** ans.", "en": "He's five." },
+        { "fr": "J'ai **cinq** cousines.", "en": "I have five cousins (girls)." },
+        { "fr": "Quatre et un, ça fait **cinq**.", "en": "Four and one makes five." }
+      ],
+      "note": "You hear the **q** as /k/: /sɛ̃k/." },
+    { "id": "six", "fr": "six", "pos": "num", "ipa": "sis", "en": "six (6)",
+      "def": "Cinq et un : 6.", "def_en": "Five and one: 6.",
+      "examples": [
+        { "fr": "Paul a **six** frères !", "en": "Paul has six brothers!" },
+        { "fr": "Elle a **six** ans.", "en": "She's six." },
+        { "fr": "Cinq et un, ça fait **six**.", "en": "Five and one makes six." }
+      ],
+      "note": "Three sounds: alone /sis/; before a consonant /si/ (*six frères*); before a vowel /siz/ (*six‿ans*)." },
+    { "id": "sept", "fr": "sept", "pos": "num", "ipa": "sɛt", "en": "seven (7)",
+      "def": "Six et un : 7.", "def_en": "Six and one: 7.",
+      "examples": [
+        { "fr": "Hugo a **sept** cousins.", "en": "Hugo has seven cousins." },
+        { "fr": "Il a **sept** ans.", "en": "He's seven." },
+        { "fr": "Six et un, ça fait **sept**.", "en": "Six and one makes seven." }
+      ],
+      "note": "The **p** is silent, the **t** is pronounced: /sɛt/." },
+    { "id": "huit", "fr": "huit", "pos": "num", "ipa": "ɥit", "en": "eight (8)",
+      "def": "Quatre et quatre : 8.", "def_en": "Four and four: 8.",
+      "examples": [
+        { "fr": "J'ai **huit** cousins.", "en": "I have eight cousins." },
+        { "fr": "Ma sœur a **huit** ans.", "en": "My sister is eight." },
+        { "fr": "Quatre et quatre, ça fait **huit**.", "en": "Four and four makes eight." }
+      ],
+      "note": "Alone and before a vowel: /ɥit/ (*huit‿ans*). Before a consonant the **t** is often silent: *huit frères* /ɥi/." },
+    { "id": "neuf", "fr": "neuf", "pos": "num", "ipa": "nœf", "en": "nine (9)",
+      "def": "Huit et un : 9.", "def_en": "Eight and one: 9.",
+      "examples": [
+        { "fr": "Il a **neuf** ans.", "en": "He's nine." },
+        { "fr": "Nous sommes **neuf** dans la classe.", "en": "There are nine of us in the class." },
+        { "fr": "Huit et un, ça fait **neuf**.", "en": "Eight and one makes nine." }
+      ],
+      "note": "Special: before **ans**, the **f** becomes /v/: *neuf‿ans* /nœ.vɑ̃/. (**neuf** also means “new”.)" },
+    { "id": "dix", "fr": "dix", "pos": "num", "ipa": "dis", "en": "ten (10)",
+      "def": "Cinq et cinq : 10.", "def_en": "Five and five: 10.",
+      "examples": [
+        { "fr": "J'ai **dix** cousins !", "en": "I have ten cousins!" },
+        { "fr": "Mon cousin a **dix** ans.", "en": "My cousin is ten." },
+        { "fr": "Cinq et cinq, ça fait **dix**.", "en": "Five and five makes ten." }
+      ],
+      "note": "Like **six**: alone /dis/; before a consonant /di/ (*dix cousins*); before a vowel /diz/ (*dix‿ans*)." },
+    { "id": "onze", "fr": "onze", "pos": "num", "ipa": "ɔ̃z", "en": "eleven (11)",
+      "def": "Dix et un : 11.", "def_en": "Ten and one: 11.",
+      "examples": [
+        { "fr": "Il a **onze** ans.", "en": "He's eleven." },
+        { "fr": "Dix et un, ça fait **onze**.", "en": "Ten and one makes eleven." },
+        { "fr": "Page **onze**, s'il vous plaît.", "en": "Page eleven, please." }
+      ],
+      "note": "No **l'** before onze: *le onze* (the eleventh)." },
+    { "id": "douze", "fr": "douze", "pos": "num", "ipa": "duz", "en": "twelve (12)",
+      "def": "Six et six : 12.", "def_en": "Six and six: 12.",
+      "examples": [
+        { "fr": "Ma cousine a **douze** ans.", "en": "My cousin is twelve." },
+        { "fr": "Nous sommes **douze** dans la classe.", "en": "There are twelve of us in the class." },
+        { "fr": "Six et six, ça fait **douze**.", "en": "Six and six makes twelve." }
+      ] },
+    { "id": "treize", "fr": "treize", "pos": "num", "ipa": "tʁɛz", "en": "thirteen (13)",
+      "def": "Dix et trois : 13.", "def_en": "Ten and three: 13.",
+      "examples": [
+        { "fr": "Tom a **treize** cousins !", "en": "Tom has thirteen cousins!" },
+        { "fr": "Mon frère a **treize** ans.", "en": "My brother is thirteen." },
+        { "fr": "Dix et trois, ça fait **treize**.", "en": "Ten and three makes thirteen." }
+      ] },
+    { "id": "quatorze", "fr": "quatorze", "pos": "num", "ipa": "ka.tɔʁz", "en": "fourteen (14)",
+      "def": "Sept et sept : 14.", "def_en": "Seven and seven: 14.",
+      "examples": [
+        { "fr": "Ma sœur a **quatorze** ans.", "en": "My sister is fourteen." },
+        { "fr": "Page **quatorze**, s'il vous plaît.", "en": "Page fourteen, please." },
+        { "fr": "Sept et sept, ça fait **quatorze**.", "en": "Seven and seven makes fourteen." }
+      ] },
+    { "id": "quinze", "fr": "quinze", "pos": "num", "ipa": "kɛ̃z", "en": "fifteen (15)",
+      "def": "Dix et cinq : 15.", "def_en": "Ten and five: 15.",
+      "examples": [
+        { "fr": "Il a **quinze** ans.", "en": "He's fifteen." },
+        { "fr": "Nous sommes **quinze** dans la classe.", "en": "There are fifteen of us in the class." },
+        { "fr": "Dix et cinq, ça fait **quinze**.", "en": "Ten and five makes fifteen." }
+      ] },
+    { "id": "seize", "fr": "seize", "pos": "num", "ipa": "sɛz", "en": "sixteen (16)",
+      "def": "Huit et huit : 16.", "def_en": "Eight and eight: 16.",
+      "examples": [
+        { "fr": "Mon cousin a **seize** ans.", "en": "My cousin is sixteen." },
+        { "fr": "Page **seize**, s'il vous plaît.", "en": "Page sixteen, please." },
+        { "fr": "Huit et huit, ça fait **seize**.", "en": "Eight and eight makes sixteen." }
+      ] },
+    { "id": "dix-sept", "fr": "dix-sept", "pos": "num", "ipa": "di.sɛt", "en": "seventeen (17)",
+      "def": "Dix et sept : 17.", "def_en": "Ten and seven: 17.", "accept": ["dix sept"],
+      "examples": [
+        { "fr": "Elle a **dix-sept** ans.", "en": "She's seventeen." },
+        { "fr": "Nous sommes **dix-sept** dans la classe.", "en": "There are seventeen of us in the class." },
+        { "fr": "Dix et sept, ça fait **dix-sept**.", "en": "Ten and seven makes seventeen." }
+      ],
+      "note": "From 17, French says “ten-seven”: **dix-sept**, **dix-huit**, **dix-neuf**." },
+    { "id": "dix-huit", "fr": "dix-huit", "pos": "num", "ipa": "di.zɥit", "en": "eighteen (18)",
+      "def": "Neuf et neuf : 18.", "def_en": "Nine and nine: 18.", "accept": ["dix huit"],
+      "examples": [
+        { "fr": "Léa a **dix-huit** ans.", "en": "Léa is eighteen." },
+        { "fr": "Page **dix-huit**, s'il vous plaît.", "en": "Page eighteen, please." },
+        { "fr": "Neuf et neuf, ça fait **dix-huit**.", "en": "Nine and nine makes eighteen." }
+      ],
+      "note": "You hear /z/ in the middle: /di.zɥit/." },
+    { "id": "dix-neuf", "fr": "dix-neuf", "pos": "num", "ipa": "diz.nœf", "en": "nineteen (19)",
+      "def": "Dix et neuf : 19.", "def_en": "Ten and nine: 19.", "accept": ["dix neuf"],
+      "examples": [
+        { "fr": "Tom a **dix-neuf** ans.", "en": "Tom is nineteen." },
+        { "fr": "Nous sommes **dix-neuf** dans la famille !", "en": "There are nineteen of us in the family!" },
+        { "fr": "Dix et neuf, ça fait **dix-neuf**.", "en": "Ten and nine makes nineteen." }
+      ],
+      "note": "You hear /z/ in the middle: /diz.nœf/." },
+    { "id": "vingt", "fr": "vingt", "pos": "num", "ipa": "vɛ̃", "en": "twenty (20)",
+      "def": "Dix et dix : 20.", "def_en": "Ten and ten: 20.",
+      "examples": [
+        { "fr": "Hugo a **vingt** ans.", "en": "Hugo is twenty." },
+        { "fr": "Nous sommes **vingt** dans la classe.", "en": "There are twenty of us in the class." },
+        { "fr": "Dix et dix, ça fait **vingt**.", "en": "Ten and ten makes twenty." }
+      ],
+      "note": "The **g** and **t** are silent: /vɛ̃/. But you hear the **t** in *vingt‿ans* /vɛ̃.tɑ̃/ and in *vingt-deux*." }
+  ],
+  "story": {
+    "title": "On compte !",
+    "en": "Let's count! Marc's class learns the numbers.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dans la classe de Marc, il y a vingt étudiants.", "en": "In Marc's class, there are twenty students." },
+      { "sp": "Marc", "fr": "Aujourd'hui, on compte ! Zéro, un, deux, trois, quatre, cinq…", "en": "Today we're counting! Zero, one, two, three, four, five…" },
+      { "sp": "Tom", "fr": "Six, sept, huit, neuf, dix !", "en": "Six, seven, eight, nine, ten!" },
+      { "sp": "Léa", "fr": "Onze, douze, treize, quatorze, quinze, seize !", "en": "Eleven, twelve, thirteen, fourteen, fifteen, sixteen!" },
+      { "sp": "Inès", "fr": "Dix-sept, dix-huit, dix-neuf… vingt !", "en": "Seventeen, eighteen, nineteen… twenty!" },
+      { "sp": "Marc", "fr": "Très bien ! Maintenant, vos numéros de téléphone.", "en": "Very good! Now, your phone numbers." },
+      { "sp": "Marc", "fr": "En France, on dit les numéros deux par deux : zéro six, douze…", "en": "In France, we say phone numbers two digits at a time: zero six, twelve…" },
+      { "sp": "Léa", "fr": "Mon numéro, c'est le zéro six, douze, quinze, dix-huit, vingt.", "en": "My number is 06 12 15 18 20." },
+      { "sp": "Tom", "fr": "Et moi, c'est le zéro sept, onze, quatorze, seize, dix-neuf.", "en": "And mine is 07 11 14 16 19." },
+      { "sp": "Marc", "fr": "Merci ! Et toi, Hugo ?", "en": "Thank you! And you, Hugo?" },
+      { "sp": "Hugo", "fr": "Euh… zéro, zéro, zéro…", "en": "Um… zero, zero, zero…" },
+      { "sp": "Léa", "fr": "Hugo n'a pas de téléphone !", "en": "Hugo doesn't have a phone!" },
+      { "sp": "Marc", "fr": "Pas de téléphone ? À vingt ans ?", "en": "No phone? At twenty?" }
+    ]
+  }
+}

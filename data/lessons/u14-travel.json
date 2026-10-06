@@ -1,0 +1,227 @@
+{
+  "id": "u14-travel",
+  "type": "vocab",
+  "unit": 14,
+  "title": "En voyage",
+  "en": "Travelling",
+  "intro": "22 words for travelling abroad: suitcases and passports, customs and borders, stays, souvenirs and jet lag. Plus three verbs every traveller needs: **voyager**, **visiter** and **oublier**!",
+  "words": [
+    { "id": "voyage", "fr": "voyage", "pos": "noun", "g": "m", "ipa": "vwa.jaʒ", "en": "trip, journey",
+      "def": "Quand on part loin de chez soi, dans une autre ville ou un autre pays.", "def_en": "When you go far from home, to another town or country.",
+      "forms": ["voyages"],
+      "examples": [
+        { "fr": "Bon **voyage** !", "en": "Have a good trip!" },
+        { "fr": "Le **voyage** dure sept heures.", "en": "The journey takes seven hours." },
+        { "fr": "J'adore les **voyages**.", "en": "I love travelling." }
+      ],
+      "note": "**faire un voyage** = to go on a trip." },
+    { "id": "voyager", "fr": "voyager", "pos": "verb", "ipa": "vwa.ja.ʒe", "en": "to travel",
+      "def": "Aller dans d'autres villes ou d'autres pays.", "def_en": "To go to other towns or countries.",
+      "extra": "Like *manger*: **nous voyageons**, with an e.",
+      "forms": ["voyage", "voyages", "voyageons", "voyagez", "voyagent", "voyagé", "voyageais", "voyageait", "voyagions", "voyagiez", "voyageaient", "voyagerai", "voyageras", "voyagera", "voyagerons", "voyagerez", "voyageront"],
+      "examples": [
+        { "fr": "J'aime **voyager** en train.", "en": "I like travelling by train." },
+        { "fr": "Nous **voyageons** beaucoup.", "en": "We travel a lot." },
+        { "fr": "Elle **voyage** seule en Asie.", "en": "She's travelling alone in Asia." }
+      ] },
+    { "id": "valise", "fr": "valise", "pos": "noun", "g": "f", "ipa": "va.liz", "en": "suitcase",
+      "def": "Un grand sac rigide pour mettre ses vêtements quand on voyage.", "def_en": "A big, rigid bag to put your clothes in when you travel.",
+      "forms": ["valises"],
+      "examples": [
+        { "fr": "Je fais ma **valise** ce soir.", "en": "I'm packing my suitcase tonight." },
+        { "fr": "Ta **valise** est trop lourde !", "en": "Your suitcase is too heavy!" },
+        { "fr": "Où est ma **valise** ?", "en": "Where's my suitcase?" }
+      ],
+      "note": "**faire sa valise** = to pack." },
+    { "id": "bagage", "fr": "bagage", "pos": "noun", "g": "m", "ipa": "ba.ɡaʒ", "en": "piece of luggage; (les bagages) luggage",
+      "def": "Les valises et les sacs qu'on prend en voyage.", "def_en": "The suitcases and bags you take on a trip.",
+      "forms": ["bagages"],
+      "examples": [
+        { "fr": "Vous avez combien de **bagages** ?", "en": "How many bags have you got?" },
+        { "fr": "On récupère les **bagages** à l'arrivée.", "en": "We collect the luggage at Arrivals." },
+        { "fr": "Ce sac est un **bagage** à main.", "en": "This bag is hand luggage." }
+      ],
+      "note": "Usually plural: **les bagages**. **un bagage à main** = a piece of hand luggage." },
+    { "id": "passeport", "fr": "passeport", "pos": "noun", "g": "m", "ipa": "pas.pɔʁ", "en": "passport",
+      "def": "Le petit livre qui dit qui vous êtes, pour voyager dans d'autres pays.", "def_en": "The little booklet that says who you are, for travelling to other countries.",
+      "forms": ["passeports"],
+      "examples": [
+        { "fr": "N'oublie pas ton **passeport** !", "en": "Don't forget your passport!" },
+        { "fr": "Votre **passeport**, s'il vous plaît.", "en": "Your passport, please." },
+        { "fr": "Mon **passeport** est dans mon sac à dos.", "en": "My passport is in my backpack." }
+      ] },
+    { "id": "etranger", "fr": "étranger", "pos": "noun", "g": "m", "ipa": "e.tʁɑ̃.ʒe", "en": "abroad (à l'étranger); foreigner; foreign",
+      "def": "Les autres pays : partir à l'étranger. Aussi : une personne d'un autre pays.", "def_en": "Other countries: going abroad. Also: a person from another country.",
+      "forms": ["étrangère", "étrangers", "étrangères"],
+      "accept": ["l'étrangère", "une étrangère"],
+      "examples": [
+        { "fr": "Je pars à l'**étranger** cet été.", "en": "I'm going abroad this summer." },
+        { "fr": "Il y a beaucoup d'**étrangers** à Paris.", "en": "There are lots of foreigners in Paris." },
+        { "fr": "Tu parles une langue **étrangère** ?", "en": "Do you speak a foreign language?" }
+      ],
+      "note": "**à l'étranger** = abroad (to or in another country). As an adjective: *une langue étrangère*." },
+    { "id": "pays", "fr": "pays", "pos": "noun", "g": "m", "ipa": "pe.i", "en": "country",
+      "def": "Une terre avec ses villes, ses habitants et ses lois : la France, le Canada…", "def_en": "A land with its towns, its people and its laws: France, Canada…",
+      "examples": [
+        { "fr": "Le Canada est un très grand **pays**.", "en": "Canada is a very big country." },
+        { "fr": "Quel **pays** est-ce que tu préfères ?", "en": "Which country do you like best?" },
+        { "fr": "Inès vient d'un autre **pays** : l'Espagne.", "en": "Inès comes from another country: Spain." }
+      ],
+      "note": "The same in the plural: **un pays, deux pays**. Two syllables: /pe.i/." },
+    { "id": "frontiere", "fr": "frontière", "pos": "noun", "g": "f", "ipa": "fʁɔ̃.tjɛʁ", "en": "border",
+      "def": "La ligne entre deux pays.", "def_en": "The line between two countries.",
+      "forms": ["frontières"],
+      "examples": [
+        { "fr": "Genève est près de la **frontière**.", "en": "Geneva is near the border." },
+        { "fr": "On passe la **frontière** en voiture.", "en": "We cross the border by car." },
+        { "fr": "En Europe, on passe souvent les **frontières** sans contrôle.", "en": "In Europe, you often cross borders without any checks." }
+      ] },
+    { "id": "douane", "fr": "douane", "pos": "noun", "g": "f", "ipa": "dwan", "en": "customs",
+      "def": "Le service qui contrôle les bagages et les passeports, à la frontière ou à l'aéroport.", "def_en": "The service that checks luggage and passports, at the border or the airport.",
+      "forms": ["douanes"],
+      "examples": [
+        { "fr": "On passe à la **douane**.", "en": "We go through customs." },
+        { "fr": "À la **douane**, ils ouvrent ma valise.", "en": "At customs, they open my suitcase." },
+        { "fr": "Il y a une longue queue à la **douane**.", "en": "There's a long queue at customs." }
+      ],
+      "note": "**un douanier, une douanière** = a customs officer." },
+    { "id": "touriste", "fr": "touriste", "pos": "noun", "g": "m", "both": true, "ipa": "tu.ʁist", "display": "le / la touriste", "en": "tourist",
+      "def": "Une personne qui visite un pays ou une ville pendant ses vacances.", "def_en": "A person who visits a country or a town on holiday.",
+      "forms": ["touristes"],
+      "accept": ["la touriste", "une touriste"],
+      "examples": [
+        { "fr": "Il y a beaucoup de **touristes** en été.", "en": "There are lots of tourists in summer." },
+        { "fr": "Je suis **touriste**, je ne parle pas bien français.", "en": "I'm a tourist, I don't speak French well." },
+        { "fr": "Les **touristes** prennent des photos.", "en": "The tourists are taking photos." }
+      ],
+      "note": "The same word for a man and a woman. **touristique** = for tourists: *un quartier touristique*." },
+    { "id": "visiter", "fr": "visiter", "pos": "verb", "ipa": "vi.zi.te", "en": "to visit (a place)",
+      "def": "Aller voir un endroit : une ville, un musée, un monument…", "def_en": "To go and see a place: a town, a museum, a monument…",
+      "forms": ["visite", "visites", "visitons", "visitez", "visitent", "visité", "visitais", "visitait", "visitions", "visitiez", "visitaient", "visiterai", "visiteras", "visitera", "visiterons", "visiterez", "visiteront"],
+      "examples": [
+        { "fr": "Nous **visitons** le Vieux-Montréal.", "en": "We're visiting Old Montréal." },
+        { "fr": "Je veux **visiter** le musée.", "en": "I want to visit the museum." },
+        { "fr": "Les touristes **visitent** la cathédrale.", "en": "The tourists visit the cathedral." }
+      ],
+      "note": "For places only! To visit a person, say **rendre visite à**: *je rends visite à ma grand-mère*." },
+    { "id": "souvenir", "fr": "souvenir", "pos": "noun", "g": "m", "ipa": "suv.niʁ", "en": "souvenir; memory",
+      "def": "Un petit objet qu'on achète pendant un voyage. Aussi : une image du passé qu'on garde dans la tête.", "def_en": "A small object you buy on a trip. Also: a picture from the past that you keep in your head.",
+      "forms": ["souvenirs"],
+      "examples": [
+        { "fr": "J'achète des **souvenirs** pour mes amis.", "en": "I'm buying souvenirs for my friends." },
+        { "fr": "Ce magasin de **souvenirs** est trop cher.", "en": "This souvenir shop is too expensive." },
+        { "fr": "C'est un bon **souvenir** !", "en": "It's a happy memory!" }
+      ],
+      "note": "There's also a verb: **se souvenir de** = to remember." },
+    { "id": "sejour", "fr": "séjour", "pos": "noun", "g": "m", "ipa": "se.ʒuʁ", "en": "stay",
+      "def": "Le temps qu'on passe dans un endroit, pendant un voyage.", "def_en": "The time you spend in a place on a trip.",
+      "forms": ["séjours"],
+      "examples": [
+        { "fr": "Notre **séjour** à Montréal dure trois semaines.", "en": "Our stay in Montréal lasts three weeks." },
+        { "fr": "Bon **séjour** !", "en": "Enjoy your stay!" },
+        { "fr": "Un **séjour** de trois nuits à l'hôtel, c'est cher.", "en": "A three-night stay at the hotel is expensive." }
+      ],
+      "note": "**la salle de séjour** (or **le séjour**) is also the living room." },
+    { "id": "reserver", "fr": "réserver", "pos": "verb", "ipa": "ʁe.zɛʁ.ve", "en": "to book, to reserve",
+      "def": "Demander à l'avance une chambre, une table ou une place.", "def_en": "To ask for a room, a table or a seat in advance.",
+      "forms": ["réserve", "réserves", "réservons", "réservez", "réservent", "réservé", "réservais", "réservait", "réservions", "réserviez", "réservaient", "réserverai", "réserveras", "réservera", "réserverons", "réserverez", "réserveront"],
+      "examples": [
+        { "fr": "Je **réserve** une chambre à l'hôtel.", "en": "I'm booking a hotel room." },
+        { "fr": "Il faut **réserver** les billets d'avion.", "en": "You have to book the plane tickets." },
+        { "fr": "Vous **réservez** une table pour quatre ?", "en": "Are you booking a table for four?" }
+      ] },
+    { "id": "aller-retour", "fr": "aller-retour", "pos": "noun", "g": "m", "ipa": "a.le.ʁə.tuʁ", "en": "return ticket; round trip",
+      "def": "Un billet pour aller quelque part et revenir.", "def_en": "A ticket to go somewhere and come back.",
+      "forms": ["allers-retours"],
+      "examples": [
+        { "fr": "Un **aller-retour** pour Québec, s'il vous plaît.", "en": "A return ticket to Quebec City, please." },
+        { "fr": "L'**aller-retour** coûte cent dollars.", "en": "The return trip costs a hundred dollars." },
+        { "fr": "On fait l'**aller-retour** dans la journée.", "en": "We do the round trip in a day." }
+      ],
+      "note": "A one-way ticket is **un aller simple**." },
+    { "id": "guide", "fr": "guide", "pos": "noun", "g": "m", "both": true, "ipa": "ɡid", "display": "le / la guide", "en": "guide; guidebook",
+      "def": "Une personne qui montre une ville aux touristes. Aussi : un livre avec des informations pour voyager.", "def_en": "A person who shows tourists around a town. Also: a book with travel information.",
+      "forms": ["guides"],
+      "accept": ["la guide", "une guide"],
+      "examples": [
+        { "fr": "Le **guide** parle anglais et français.", "en": "The guide speaks English and French." },
+        { "fr": "J'achète un **guide** de Montréal.", "en": "I'm buying a guidebook to Montréal." },
+        { "fr": "Antoine est notre **guide** !", "en": "Antoine is our guide!" }
+      ] },
+    { "id": "decalage-horaire", "fr": "décalage horaire", "pos": "noun", "g": "m", "ipa": "de.ka.laʒ ɔ.ʁɛʁ", "en": "time difference; jet lag",
+      "def": "La différence d'heure entre deux pays. Aussi : la fatigue après un long voyage en avion.", "def_en": "The difference in time between two countries. Also: the tiredness after a long flight.",
+      "examples": [
+        { "fr": "Entre Paris et Montréal, il y a six heures de **décalage horaire**.", "en": "There's a six-hour time difference between Paris and Montréal." },
+        { "fr": "À cause du **décalage horaire**, je ne dors pas.", "en": "Because of the jet lag, I can't sleep." },
+        { "fr": "Le **décalage horaire**, c'est dur pour Lou.", "en": "Jet lag is hard for Lou." }
+      ] },
+    { "id": "adresse", "fr": "adresse", "pos": "noun", "g": "f", "ipa": "a.dʁɛs", "en": "address",
+      "def": "Le numéro, la rue et la ville où on habite.", "def_en": "The number, the street and the town where you live.",
+      "forms": ["adresses"],
+      "examples": [
+        { "fr": "Quelle est ton **adresse** ?", "en": "What's your address?" },
+        { "fr": "J'écris l'**adresse** sur la carte postale.", "en": "I write the address on the postcard." },
+        { "fr": "Donne-moi ton **adresse** mail.", "en": "Give me your email address." }
+      ],
+      "note": "One **d** in French (*adresse*), two in English (*address*)." },
+    { "id": "carte-d-identite", "fr": "carte d'identité", "pos": "noun", "g": "f", "ipa": "kaʁt di.dɑ̃.ti.te", "en": "identity card, ID card",
+      "def": "Une petite carte avec votre photo, votre nom et votre date de naissance.", "def_en": "A small card with your photo, your name and your date of birth.",
+      "forms": ["cartes d'identité"],
+      "examples": [
+        { "fr": "En Europe, on peut voyager avec une **carte d'identité**.", "en": "In Europe, you can travel with an ID card." },
+        { "fr": "Votre **carte d'identité**, s'il vous plaît.", "en": "Your ID card, please." },
+        { "fr": "Je ne trouve pas ma **carte d'identité** !", "en": "I can't find my ID card!" }
+      ] },
+    { "id": "oublier", "fr": "oublier", "pos": "verb", "ipa": "u.bli.je", "en": "to forget",
+      "def": "Ne pas penser à prendre quelque chose, ou ne plus savoir quelque chose.", "def_en": "To not think of taking something, or to no longer know something.",
+      "forms": ["oublie", "oublies", "oublions", "oubliez", "oublient", "oublié", "oubliais", "oubliait", "oubliions", "oubliiez", "oubliaient", "oubliée", "oubliés", "oubliées", "oublierai", "oublieras", "oubliera", "oublierons", "oublierez", "oublieront"],
+      "examples": [
+        { "fr": "N'**oublie** pas ta valise !", "en": "Don't forget your suitcase!" },
+        { "fr": "J'**oublie** toujours les noms.", "en": "I always forget names." },
+        { "fr": "Hugo **oublie** tout !", "en": "Hugo forgets everything!" }
+      ] },
+    { "id": "argent", "fr": "argent", "pos": "noun", "g": "m", "ipa": "aʁ.ʒɑ̃", "en": "money; silver",
+      "def": "Ce qu'on utilise pour payer : des euros, des dollars… Aussi : un métal gris.", "def_en": "What you use to pay: euros, dollars… Also: a grey metal (silver).",
+      "examples": [
+        { "fr": "Je n'ai plus d'**argent** !", "en": "I've got no money left!" },
+        { "fr": "Tu as de l'**argent** canadien ?", "en": "Have you got any Canadian money?" },
+        { "fr": "Elle a une bague en **argent**.", "en": "She has a silver ring." }
+      ],
+      "note": "**l'argent** is always singular: *mon argent est dans mon sac*." },
+    { "id": "langue", "fr": "langue", "pos": "noun", "g": "f", "ipa": "lɑ̃ɡ", "en": "language; tongue",
+      "def": "Le français, l'anglais, l'espagnol… : ce qu'on parle. Aussi : la partie de la bouche qui bouge quand on parle.", "def_en": "French, English, Spanish…: what you speak. Also: the part of your mouth that moves when you talk.",
+      "forms": ["langues"],
+      "examples": [
+        { "fr": "Tu parles combien de **langues** ?", "en": "How many languages do you speak?" },
+        { "fr": "Au Québec, la **langue** officielle est le français.", "en": "In Quebec, the official language is French." },
+        { "fr": "Lou me tire la **langue** !", "en": "Lou is sticking her tongue out at me!" }
+      ],
+      "note": "**tirer la langue** = to stick your tongue out." }
+  ],
+  "story": {
+    "title": "Bienvenue à Montréal",
+    "en": "Customs, a missing suitcase, jet lag… and a city to discover.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "À l'aéroport de Montréal, la famille passe à la douane.", "en": "At Montréal airport, the family goes through customs." },
+      { "sp": "Le douanier", "fr": "Bonjour ! Vos passeports, s'il vous plaît. C'est un voyage touristique ?", "en": "Hello! Your passports, please. Is this a holiday trip?" },
+      { "sp": "Paul", "fr": "Oui, nous sommes touristes. Notre séjour dure trois semaines.", "en": "Yes, we're tourists. Our stay lasts three weeks." },
+      { "sp": "Le douanier", "fr": "Vous avez une adresse à Montréal ?", "en": "Do you have an address in Montréal?" },
+      { "sp": "Anne", "fr": "Oui, chez ma sœur. Moi, je suis de Montréal !", "en": "Yes, at my sister's. I'm from Montréal myself!" },
+      { "sp": "", "fr": "Ils récupèrent leurs bagages. Mais où est la valise de Lou ?", "en": "They collect their luggage. But where's Lou's suitcase?" },
+      { "sp": "Lou", "fr": "Ma valise ! Mon nounours est dedans !", "en": "My suitcase! My teddy bear is in it!" },
+      { "sp": "", "fr": "Heureusement, la valise arrive… la dernière.", "en": "Luckily, the suitcase arrives… last of all." },
+      { "sp": "", "fr": "Le lendemain, tout le monde est fatigué. À cause du décalage horaire, Lou ne dort pas la nuit !", "en": "The next day, everyone is tired. Because of the jet lag, Lou doesn't sleep at night!" },
+      { "sp": "", "fr": "Antoine est leur guide. Ils visitent le Vieux-Montréal et le mont Royal.", "en": "Antoine is their guide. They visit Old Montréal and Mount Royal." },
+      { "sp": "Antoine", "fr": "Le Canada est un pays immense, avec deux langues : le français et l'anglais.", "en": "Canada is a huge country, with two languages: French and English." },
+      { "sp": "Léa", "fr": "Et ici, au Québec, tout le monde parle français, mais avec un accent différent !", "en": "And here in Quebec, everyone speaks French, but with a different accent!" },
+      { "sp": "", "fr": "Léa achète des souvenirs pour Sophie : du sirop d'érable et une carte postale.", "en": "Léa buys souvenirs for Sophie: maple syrup and a postcard." },
+      { "sp": "Léa", "fr": "Papa, tu as de l'argent canadien ? Je n'ai que des euros !", "en": "Dad, have you got any Canadian money? I've only got euros!" },
+      { "sp": "", "fr": "Le soir, Paul veut réserver un aller-retour en train pour Québec.", "en": "In the evening, Paul wants to book a return train trip to Quebec City." },
+      { "sp": "Paul", "fr": "Où est ma carte d'identité ? Je ne [la|la-pron] trouve pas !", "en": "Where's my ID card? I can't find it!" },
+      { "sp": "Anne", "fr": "Dans ta poche, Paul ! Tu oublies tout, comme Hugo…", "en": "In your pocket, Paul! You forget everything, like Hugo…" },
+      { "sp": "", "fr": "Paul adore voyager à l'étranger… mais il ne sait jamais où sont ses papiers !", "en": "Paul loves travelling abroad… but he never knows where his papers are!" },
+      { "sp": "Antoine", "fr": "La semaine prochaine, on va à New York ? C'est à six heures en voiture, après la frontière !", "en": "Next week, shall we go to New York? It's six hours by car, across the border!" }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "u19-quantities",
+  "type": "vocab",
+  "unit": 19,
+  "title": "Quantités et mesures",
+  "en": "Quantities & measures",
+  "intro": "25 essential words for *how much* and *how many*: a lot, a little, too much, enough, a few, several, about, half, a quarter, a dozen… and measures like the kilo, the gram and the litre. After a quantity, use **de** with no article: *beaucoup **de** pain, un kilo **de** pommes*.",
+  "words": [
+    { "id": "quantite", "fr": "quantité", "pos": "noun", "g": "f", "ipa": "kɑ̃.ti.te", "en": "quantity, amount",
+      "def": "Combien il y a de quelque chose.", "def_en": "How much or how many of something there is.",
+      "forms": ["quantités"],
+      "examples": [
+        { "fr": "Quelle **quantité** de farine faut-il ?", "en": "How much flour do you need?" },
+        { "fr": "Il y a une grande **quantité** de neige.", "en": "There's a large amount of snow." },
+        { "fr": "Mange en petites **quantités**.", "en": "Eat small amounts." }
+      ] },
+    { "id": "beaucoup", "fr": "beaucoup", "pos": "adv", "ipa": "bo.ku", "en": "a lot, very much; (beaucoup de) lots of",
+      "def": "Une grande quantité ; très.", "def_en": "A large amount; very much.",
+      "examples": [
+        { "fr": "J'aime **beaucoup** le chocolat.", "en": "I like chocolate very much." },
+        { "fr": "Il y a **beaucoup** de monde au marché.", "en": "There are lots of people at the market." },
+        { "fr": "Merci **beaucoup** !", "en": "Thank you very much!" }
+      ],
+      "note": "**beaucoup de** + noun, with no article: *beaucoup **de** livres* (not *beaucoup des livres*)." },
+    { "id": "peu", "fr": "peu", "pos": "adv", "ipa": "pø", "en": "little, not much; (peu de) few, little",
+      "def": "Une petite quantité ; pas beaucoup.", "def_en": "A small amount; not much.",
+      "examples": [
+        { "fr": "Il mange très **peu**.", "en": "He eats very little." },
+        { "fr": "J'ai **peu** de temps.", "en": "I have little time." },
+        { "fr": "Il y a **peu** d'élèves aujourd'hui.", "en": "There are few pupils today." }
+      ],
+      "note": "**peu** = not much (negative idea); **un peu** = a little (positive idea): *j'ai un peu de temps* (some time) / *j'ai peu de temps* (hardly any)." },
+    { "id": "trop", "fr": "trop", "pos": "adv", "ipa": "tʁo", "en": "too, too much (trop de = too much / too many)",
+      "def": "Plus qu'il faut.", "def_en": "More than you need.",
+      "examples": [
+        { "fr": "C'est **trop** cher !", "en": "It's too expensive!" },
+        { "fr": "Il y a **trop** de sucre dans ce café.", "en": "There's too much sugar in this coffee." },
+        { "fr": "J'ai **trop** mangé…", "en": "I've eaten too much…" }
+      ],
+      "note": "In speech, **trop** also means *really*: *c'est trop bien !* = it's really great!" },
+    { "id": "assez", "fr": "assez", "pos": "adv", "ipa": "a.se", "en": "enough; quite (assez de = enough)",
+      "def": "La quantité qu'il faut, pas plus. Aussi : un peu, plutôt.", "def_en": "The amount you need, no more. Also: quite, fairly.",
+      "examples": [
+        { "fr": "Tu as **assez** d'argent ?", "en": "Have you got enough money?" },
+        { "fr": "C'est **assez** difficile.", "en": "It's quite difficult." },
+        { "fr": "J'en ai **assez** !", "en": "I've had enough!" }
+      ] },
+    { "id": "presque", "fr": "presque", "pos": "adv", "ipa": "pʁɛsk", "en": "almost, nearly",
+      "def": "Pas tout à fait, mais pas loin.", "def_en": "Not quite, but nearly.",
+      "examples": [
+        { "fr": "Il est **presque** midi.", "en": "It's nearly noon." },
+        { "fr": "J'ai **presque** fini !", "en": "I've almost finished!" },
+        { "fr": "Le verre est **presque** vide.", "en": "The glass is almost empty." }
+      ] },
+    { "id": "seulement", "fr": "seulement", "pos": "adv", "ipa": "sœl.mɑ̃", "en": "only",
+      "def": "Pas plus que ça ; rien d'autre.", "def_en": "No more than that; nothing else.",
+      "examples": [
+        { "fr": "J'ai **seulement** dix euros.", "en": "I've only got ten euros." },
+        { "fr": "Lou a **seulement** trois ans.", "en": "Lou is only three." },
+        { "fr": "Non **seulement** il est en retard, mais il a oublié le gâteau !", "en": "Not only is he late, but he's forgotten the cake!" }
+      ],
+      "note": "Also **ne… que**: *je n'ai que dix euros* = I only have ten euros." },
+    { "id": "quelques", "fr": "quelques", "pos": "det", "ipa": "kɛl.kə", "en": "a few, some",
+      "def": "Un petit nombre : pas beaucoup, mais plus d'un.", "def_en": "A small number: not many, but more than one.",
+      "examples": [
+        { "fr": "J'ai **quelques** questions.", "en": "I have a few questions." },
+        { "fr": "Attends **quelques** minutes !", "en": "Wait a few minutes!" },
+        { "fr": "Il reste **quelques** bonbons.", "en": "There are a few sweets left." }
+      ] },
+    { "id": "plusieurs", "fr": "plusieurs", "pos": "det", "ipa": "ply.zjœʁ", "en": "several",
+      "def": "Plus de deux ; un certain nombre.", "def_en": "More than two; a number of.",
+      "examples": [
+        { "fr": "J'ai **plusieurs** amis à Lyon.", "en": "I have several friends in Lyon." },
+        { "fr": "Il a appelé **plusieurs** fois.", "en": "He called several times." },
+        { "fr": "**Plusieurs** élèves sont malades.", "en": "Several pupils are ill." }
+      ],
+      "note": "**plusieurs** never changes: *plusieurs livres, plusieurs filles*." },
+    { "id": "chaque", "fr": "chaque", "pos": "det", "ipa": "ʃak", "en": "each, every",
+      "def": "Tous, mais un par un.", "def_en": "All of them, but one by one.",
+      "examples": [
+        { "fr": "**Chaque** matin, je bois un café.", "en": "Every morning, I have a coffee." },
+        { "fr": "**Chaque** enfant a un cadeau.", "en": "Each child gets a present." },
+        { "fr": "Il y a une salle de bain dans **chaque** chambre.", "en": "There's a bathroom in every bedroom." }
+      ],
+      "note": "**chaque** is always singular: *chaque jour* (every day). Plural idea: **tous les jours**." },
+    { "id": "environ", "fr": "environ", "pos": "adv", "ipa": "ɑ̃.vi.ʁɔ̃", "en": "about, roughly, around",
+      "def": "Pas exactement : un peu plus ou un peu moins.", "def_en": "Not exactly: a bit more or a bit less.",
+      "examples": [
+        { "fr": "Il y a **environ** cent personnes.", "en": "There are about a hundred people." },
+        { "fr": "Le voyage dure **environ** deux heures.", "en": "The trip takes about two hours." },
+        { "fr": "Ça coûte **environ** trente euros.", "en": "It costs around thirty euros." }
+      ] },
+    { "id": "moitie", "fr": "moitié", "pos": "noun", "g": "f", "ipa": "mwa.tje", "en": "half",
+      "def": "Une des deux parties égales d'une chose.", "def_en": "One of two equal parts of something.",
+      "forms": ["moitiés"],
+      "examples": [
+        { "fr": "Je mange la **moitié** de la pizza.", "en": "I eat half the pizza." },
+        { "fr": "La **moitié** des élèves sont en vacances.", "en": "Half the pupils are on holiday." },
+        { "fr": "Coupe la pomme en deux **moitiés**.", "en": "Cut the apple into two halves." }
+      ],
+      "note": "**la moitié de** + noun = half (of). **demi** is used in fixed phrases: *une demi-heure, un kilo et demi*." },
+    { "id": "quart", "fr": "quart", "pos": "noun", "g": "m", "ipa": "kaʁ", "en": "quarter",
+      "def": "Une des quatre parties égales d'une chose.", "def_en": "One of four equal parts of something.",
+      "forms": ["quarts"],
+      "examples": [
+        { "fr": "Il est huit heures et **quart**.", "en": "It's a quarter past eight." },
+        { "fr": "Je prends un **quart** du gâteau.", "en": "I'll take a quarter of the cake." },
+        { "fr": "Trois **quarts** des Français aiment le fromage.", "en": "Three quarters of French people like cheese." }
+      ] },
+    { "id": "tiers", "fr": "tiers", "pos": "noun", "g": "m", "ipa": "tjɛʁ", "en": "third (⅓)",
+      "def": "Une des trois parties égales d'une chose.", "def_en": "One of three equal parts of something.",
+      "examples": [
+        { "fr": "Un **tiers** de la classe est absent.", "en": "A third of the class is absent." },
+        { "fr": "J'ai lu un **tiers** du livre.", "en": "I've read a third of the book." },
+        { "fr": "Deux **tiers** des gens préfèrent le café.", "en": "Two thirds of people prefer coffee." }
+      ] },
+    { "id": "douzaine", "fr": "douzaine", "pos": "noun", "g": "f", "ipa": "du.zɛn", "en": "dozen",
+      "def": "Douze choses : une douzaine d'œufs.", "def_en": "Twelve things: a dozen eggs.",
+      "forms": ["douzaines"],
+      "examples": [
+        { "fr": "Une **douzaine** d'œufs, s'il vous plaît.", "en": "A dozen eggs, please." },
+        { "fr": "J'ai acheté une **douzaine** de croissants.", "en": "I bought a dozen croissants." },
+        { "fr": "Il y a une **douzaine** d'enfants dans le parc.", "en": "There are about twelve children in the park." }
+      ] },
+    { "id": "dizaine", "fr": "dizaine", "pos": "noun", "g": "f", "ipa": "di.zɛn", "en": "about ten",
+      "def": "Environ dix.", "def_en": "About ten.",
+      "forms": ["dizaines"],
+      "examples": [
+        { "fr": "Il y a une **dizaine** de personnes.", "en": "There are about ten people." },
+        { "fr": "Je reviens dans une **dizaine** de minutes.", "en": "I'll be back in ten minutes or so." },
+        { "fr": "Des **dizaines** de touristes attendent devant le musée.", "en": "Dozens of tourists are waiting outside the museum." }
+      ] },
+    { "id": "centaine", "fr": "centaine", "pos": "noun", "g": "f", "ipa": "sɑ̃.tɛn", "en": "about a hundred",
+      "def": "Environ cent.", "def_en": "About a hundred.",
+      "forms": ["centaines"],
+      "examples": [
+        { "fr": "Une **centaine** de personnes sont venues.", "en": "About a hundred people came." },
+        { "fr": "Ce livre a une **centaine** de pages.", "en": "This book has about a hundred pages." },
+        { "fr": "Il y a des **centaines** d'oiseaux sur le lac.", "en": "There are hundreds of birds on the lake." }
+      ] },
+    { "id": "millier", "fr": "millier", "pos": "noun", "g": "m", "ipa": "mi.lje", "en": "about a thousand (des milliers de = thousands of)",
+      "def": "Environ mille.", "def_en": "About a thousand.",
+      "forms": ["milliers"],
+      "examples": [
+        { "fr": "Un **millier** de coureurs participent à la course.", "en": "About a thousand runners take part in the race." },
+        { "fr": "Il y a des **milliers** d'étoiles dans le ciel.", "en": "There are thousands of stars in the sky." },
+        { "fr": "Des **milliers** de gens visitent Paris chaque jour.", "en": "Thousands of people visit Paris every day." }
+      ] },
+    { "id": "kilo", "fr": "kilo", "pos": "noun", "g": "m", "ipa": "ki.lo", "en": "kilo",
+      "def": "Mille grammes.", "def_en": "A thousand grams.",
+      "forms": ["kilos"],
+      "examples": [
+        { "fr": "Un **kilo** de pommes, s'il vous plaît.", "en": "A kilo of apples, please." },
+        { "fr": "Je pèse soixante **kilos**.", "en": "I weigh sixty kilos." },
+        { "fr": "Les tomates coûtent trois euros le **kilo**.", "en": "Tomatoes are three euros a kilo." }
+      ],
+      "note": "Short for **kilogramme**. Price per kilo: **trois euros le kilo**." },
+    { "id": "gramme", "fr": "gramme", "pos": "noun", "g": "m", "ipa": "ɡʁam", "en": "gram",
+      "def": "Mille grammes font un kilo.", "def_en": "A thousand grams make a kilo.",
+      "forms": ["grammes"],
+      "examples": [
+        { "fr": "Il faut deux cents **grammes** de farine.", "en": "You need two hundred grams of flour." },
+        { "fr": "Cent **grammes** de jambon, s'il vous plaît.", "en": "A hundred grams of ham, please." },
+        { "fr": "Cette lettre pèse vingt **grammes**.", "en": "This letter weighs twenty grams." }
+      ] },
+    { "id": "litre", "fr": "litre", "pos": "noun", "g": "m", "ipa": "litʁ", "en": "litre",
+      "def": "On mesure l'eau, le lait ou le vin en litres.", "def_en": "Water, milk or wine are measured in litres.",
+      "forms": ["litres"],
+      "examples": [
+        { "fr": "Un **litre** de lait, s'il vous plaît.", "en": "A litre of milk, please." },
+        { "fr": "Il faut boire un **litre** et demi d'eau par jour.", "en": "You should drink one and a half litres of water a day." },
+        { "fr": "La bouteille fait deux **litres**.", "en": "The bottle holds two litres." }
+      ] },
+    { "id": "metre", "fr": "mètre", "pos": "noun", "g": "m", "ipa": "mɛtʁ", "en": "metre",
+      "def": "Cent centimètres.", "def_en": "A hundred centimetres.",
+      "forms": ["mètres"],
+      "examples": [
+        { "fr": "Le salon fait cinq **mètres** de long.", "en": "The living room is five metres long." },
+        { "fr": "La boulangerie est à cent **mètres**.", "en": "The bakery is a hundred metres away." },
+        { "fr": "Je mesure un **mètre** soixante-dix.", "en": "I'm one metre seventy." }
+      ] },
+    { "id": "tranche", "fr": "tranche", "pos": "noun", "g": "f", "ipa": "tʁɑ̃ʃ", "en": "slice",
+      "def": "Un morceau [fin|fin], coupé dans du pain, du jambon…", "def_en": "A thin piece cut from bread, ham…",
+      "forms": ["tranches"],
+      "examples": [
+        { "fr": "Une **tranche** de jambon, s'il vous plaît.", "en": "A slice of ham, please." },
+        { "fr": "Je mange deux **tranches** de pain le matin.", "en": "I eat two slices of bread in the morning." },
+        { "fr": "Coupe le gâteau en huit **tranches**.", "en": "Cut the cake into eight slices." }
+      ] },
+    { "id": "pot", "fr": "pot", "pos": "noun", "g": "m", "ipa": "po", "en": "pot, jar; (informal) a drink",
+      "def": "Une petite boîte ronde, souvent en verre : un pot de confiture.", "def_en": "A small round container, often glass: a jar of jam.",
+      "forms": ["pots"],
+      "examples": [
+        { "fr": "Un **pot** de confiture : c'est le cadeau de Mamie.", "en": "A jar of jam: that's Grandma's present." },
+        { "fr": "Le **pot** de miel est vide !", "en": "The honey jar is empty!" },
+        { "fr": "On va boire un **pot** après le travail ?", "en": "Shall we go for a drink after work?" }
+      ],
+      "note": "Informal: **prendre un pot** = to have a drink with friends." },
+    { "id": "paquet", "fr": "paquet", "pos": "noun", "g": "m", "ipa": "pa.kɛ", "en": "packet; parcel",
+      "def": "Une boîte ou un sac fermé : un paquet de biscuits. Aussi : ce qu'on envoie par la poste.", "def_en": "A closed box or bag: a packet of biscuits. Also: what you send by post.",
+      "forms": ["paquets"],
+      "examples": [
+        { "fr": "Un **paquet** de pâtes, s'il vous plaît.", "en": "A packet of pasta, please." },
+        { "fr": "Lou a mangé tout le **paquet** de biscuits !", "en": "Lou ate the whole packet of biscuits!" },
+        { "fr": "Le facteur apporte un **paquet** pour toi.", "en": "The postman is bringing a parcel for you." }
+      ] }
+  ],
+  "story": {
+    "title": "La recette de Mamie",
+    "en": "Léa wants to make Grandma's famous chocolate cake. But how much of everything?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi après-midi, Léa veut faire le célèbre gâteau au chocolat de Mamie. Elle téléphone à Marseille.", "en": "Saturday afternoon: Léa wants to make Grandma's famous chocolate cake. She phones Marseille." },
+      { "sp": "Léa", "fr": "Mamie, c'est quoi, les quantités pour ton gâteau ?", "en": "Grandma, what are the quantities for your cake?" },
+      { "sp": "Louise", "fr": "Alors : deux cents grammes de chocolat noir et cent cinquante grammes de beurre.", "en": "Right: two hundred grams of dark chocolate and a hundred and fifty grams of butter." },
+      { "sp": "Léa", "fr": "J'ai seulement un paquet de beurre de deux cent cinquante grammes, pas un kilo ! J'en mets combien ?", "en": "I've only got a 250-gram packet of butter, not a kilo! How much do I put in?" },
+      { "sp": "Louise", "fr": "Un peu plus de la moitié du paquet. Chez moi, on ne pèse pas tout !", "en": "A bit more than half the packet. At my place, we don't weigh everything!" },
+      { "sp": "Louise", "fr": "Ensuite, environ cent grammes de sucre. Pas trop : le chocolat est déjà sucré.", "en": "Then about a hundred grams of sugar. Not too much: the chocolate's already sweet." },
+      { "sp": "Léa", "fr": "Et les œufs ? Une douzaine ?", "en": "And eggs? A dozen?" },
+      { "sp": "Louise", "fr": "Une douzaine ? Mais non ! Quatre œufs, c'est assez.", "en": "A dozen? Of course not! Four eggs is enough." },
+      { "sp": "Louise", "fr": "Et un quart de litre de lait… ou un pot de crème, si tu préfères.", "en": "And a quarter of a litre of milk… or a pot of cream, if you prefer." },
+      { "sp": "Léa", "fr": "Et la farine ? Il en faut beaucoup ?", "en": "And flour? Do you need a lot?" },
+      { "sp": "Louise", "fr": "Très peu : trois cuillères. Et une pincée de sel.", "en": "Very little: three spoonfuls. And a pinch of salt." },
+      { "sp": "", "fr": "Une heure plus tard, le gâteau est presque prêt. On sent le chocolat à dix mètres !", "en": "An hour later, the cake is almost ready. You can smell the chocolate ten metres away!" },
+      { "sp": "Sophie", "fr": "Mmm ! On le coupe en combien de tranches ? Nous sommes plusieurs ce soir !", "en": "Mmm! How many slices shall we cut it into? There are several of us tonight!" },
+      { "sp": "Léa", "fr": "Une dizaine. Chaque personne a une tranche… et pas deux, Hugo !", "en": "About ten. Everyone gets one slice… and not two, Hugo!" },
+      { "sp": "", "fr": "Le soir, quelques amis arrivent. En un quart d'heure, les deux tiers du gâteau ont disparu !", "en": "In the evening, a few friends arrive. In a quarter of an hour, two thirds of the cake have gone!" },
+      { "sp": "Tom", "fr": "C'est le meilleur gâteau du monde ! Ta grand-mère peut en vendre des milliers !", "en": "It's the best cake in the world! Your grandmother could sell thousands of them!" },
+      { "sp": "Hugo", "fr": "Il reste un tiers… Je peux avoir une autre tranche ? Juste une petite ?", "en": "There's a third left… Can I have another slice? Just a small one?" },
+      { "sp": "Léa", "fr": "Non ! Ce morceau, c'est pour Sophie. Elle n'a presque rien mangé !", "en": "No! That piece is for Sophie. She's eaten almost nothing!" },
+      { "sp": "", "fr": "À Marseille, Mamie sourit. Une centaine de personnes connaissent sa recette… et maintenant, une quantité d'amis de Léa aussi !", "en": "In Marseille, Grandma smiles. About a hundred people know her recipe… and now lots of Léa's friends do too!" }
+    ]
+  }
+}

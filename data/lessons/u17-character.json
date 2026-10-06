@@ -1,0 +1,259 @@
+{
+  "id": "u17-character",
+  "type": "vocab",
+  "unit": 17,
+  "title": "Le caractère",
+  "en": "Personality",
+  "intro": "25 words to describe what people are like: kind or mean, shy or chatty, lazy or hard-working… Watch the false friends: **sympa** isn't *sympathetic*, **sensible** isn't *sensible* and **gentil** isn't *gentle*.",
+  "words": [
+    { "id": "caractere", "fr": "caractère", "pos": "noun", "g": "m", "ipa": "ka.ʁak.tɛʁ", "en": "character, personality; temper",
+      "def": "Comment est une personne dans sa tête et dans son cœur : gentille, calme, drôle…", "def_en": "What a person is like in their head and heart: kind, calm, funny…",
+      "forms": ["caractères"],
+      "examples": [
+        { "fr": "Hugo a bon **caractère** : il n'est jamais fâché.", "en": "Hugo is easy-going: he's never cross." },
+        { "fr": "Elle a un **caractère** difficile.", "en": "She has a difficult personality." },
+        { "fr": "Les chats ont du **caractère** !", "en": "Cats have personality!" }
+      ],
+      "note": "**avoir bon caractère** = to be easy-going; **avoir mauvais caractère** = to be bad-tempered." },
+    { "id": "qualite", "fr": "qualité", "pos": "noun", "g": "f", "ipa": "ka.li.te", "en": "quality; good point",
+      "def": "Une bonne chose chez une personne : la patience, le courage… Aussi : si un objet est bien fait ou pas.", "def_en": "A good point in a person: patience, courage… Also: whether an object is well made or not.",
+      "forms": ["qualités"],
+      "examples": [
+        { "fr": "La patience est une grande **qualité**.", "en": "Patience is a great quality." },
+        { "fr": "Quelles sont tes **qualités** ?", "en": "What are your good points?" },
+        { "fr": "Ce sac est de bonne **qualité**.", "en": "This bag is good quality." }
+      ] },
+    { "id": "defaut", "fr": "défaut", "pos": "noun", "g": "m", "ipa": "de.fo", "en": "flaw, weakness; defect",
+      "def": "Une chose pas très bonne chez une personne ou dans un objet.", "def_en": "Something not very good in a person or in an object.",
+      "forms": ["défauts"],
+      "examples": [
+        { "fr": "Son grand **défaut**, c'est le retard !", "en": "His big flaw is being late!" },
+        { "fr": "Tout le monde a des **défauts**.", "en": "Everyone has flaws." },
+        { "fr": "Ce pull a un petit **défaut**.", "en": "This jumper has a small defect." }
+      ],
+      "note": "**qualités et défauts** = strengths and weaknesses: a classic job-interview question!" },
+    { "id": "gentil", "fr": "gentil", "pos": "adj", "ipa": "ʒɑ̃.ti", "display": "gentil, gentille", "en": "kind, nice",
+      "def": "Qui aime aider les autres, qui est agréable avec tout le monde.", "def_en": "Who likes helping others and is nice to everyone.",
+      "forms": ["gentille", "gentils", "gentilles"],
+      "accept": ["gentille"],
+      "examples": [
+        { "fr": "Merci, c'est très **gentil** !", "en": "Thank you, that's very kind!" },
+        { "fr": "La maîtresse de Lou est très **gentille**.", "en": "Lou's teacher is very kind." },
+        { "fr": "Sois **gentil** avec ta sœur !", "en": "Be nice to your sister!" }
+      ],
+      "note": "**gentil** /ʒɑ̃.ti/ (silent l), **gentille** /ʒɑ̃.tij/. False friend: *gentle* is **doux**." },
+    { "id": "mechant", "fr": "méchant", "pos": "adj", "ipa": "me.ʃɑ̃", "display": "méchant, méchante", "en": "nasty, mean; naughty",
+      "def": "Qui fait du mal aux autres, ou qui n'est pas gentil.", "def_en": "Who hurts others, or who isn't kind.",
+      "forms": ["méchante", "méchants", "méchantes"],
+      "accept": ["méchante"],
+      "examples": [
+        { "fr": "Attention, chien **méchant** !", "en": "Beware of the dog!" },
+        { "fr": "Dans les contes, le loup est **méchant**.", "en": "In fairy tales, the wolf is wicked." },
+        { "fr": "Ne sois pas **méchante** avec Lou !", "en": "Don't be mean to Lou!" }
+      ] },
+    { "id": "sympa", "fr": "sympa", "pos": "adj", "ipa": "sɛ̃.pa", "en": "nice, friendly (informal)",
+      "def": "Agréable et gentil ; une personne avec qui on aime passer du temps.", "def_en": "Pleasant and kind; someone you like spending time with.",
+      "forms": ["sympas"],
+      "examples": [
+        { "fr": "Tes amis sont très **sympas** !", "en": "Your friends are really nice!" },
+        { "fr": "C'est **sympa** de venir !", "en": "It's nice of you to come!" },
+        { "fr": "On a passé une soirée **sympa**.", "en": "We had a nice evening." }
+      ],
+      "note": "Short for **sympathique**. False friend: it doesn't mean *sympathetic*." },
+    { "id": "drole", "fr": "drôle", "pos": "adj", "ipa": "dʁol", "en": "funny; strange",
+      "def": "Qui fait rire. Aussi : un peu bizarre.", "def_en": "Who makes you laugh. Also: a bit strange.",
+      "forms": ["drôles"],
+      "examples": [
+        { "fr": "Ton frère est trop **drôle** !", "en": "Your brother is so funny!" },
+        { "fr": "C'est une histoire très **drôle**.", "en": "It's a very funny story." },
+        { "fr": "J'ai une **drôle** d'idée…", "en": "I've got a funny idea…" }
+      ],
+      "note": "Before a noun, with **de**, it means *strange*: **une drôle d'histoire** = a strange story." },
+    { "id": "serieux", "fr": "sérieux", "pos": "adj", "ipa": "se.ʁjø", "display": "sérieux, sérieuse", "en": "serious; reliable, hard-working",
+      "def": "Qui ne rit pas tout le temps ; qui fait bien son travail.", "def_en": "Who doesn't laugh all the time; who does their work well.",
+      "forms": ["sérieuse", "sérieuses"],
+      "accept": ["sérieuse"],
+      "examples": [
+        { "fr": "Léa est une étudiante très **sérieuse**.", "en": "Léa is a very hard-working student." },
+        { "fr": "Tu es **sérieux** ? C'est vrai ?", "en": "Are you serious? Is that true?" },
+        { "fr": "C'est un problème **sérieux**.", "en": "It's a serious problem." }
+      ] },
+    { "id": "timide", "fr": "timide", "pos": "adj", "ipa": "ti.mid", "en": "shy",
+      "def": "Qui a peur de parler aux personnes qu'il ne connaît pas.", "def_en": "Who is afraid to talk to people they don't know.",
+      "forms": ["timides"],
+      "examples": [
+        { "fr": "Lou est **timide** avec les nouvelles personnes.", "en": "Lou is shy with new people." },
+        { "fr": "Ne sois pas **timide**, viens !", "en": "Don't be shy, come on!" },
+        { "fr": "Papi était très **timide**.", "en": "Grandpa was very shy." }
+      ] },
+    { "id": "calme", "fr": "calme", "pos": "adj", "ipa": "kalm", "en": "calm, quiet",
+      "def": "Qui ne s'énerve pas ; où il n'y a pas de bruit.", "def_en": "Who doesn't get worked up; where there's no noise.",
+      "forms": ["calmes"],
+      "examples": [
+        { "fr": "Reste **calme** !", "en": "Stay calm!" },
+        { "fr": "Mon père est toujours très **calme**.", "en": "My father is always very calm." },
+        { "fr": "C'est un quartier **calme**.", "en": "It's a quiet neighbourhood." }
+      ] },
+    { "id": "bavard", "fr": "bavard", "pos": "adj", "ipa": "ba.vaʁ", "display": "bavard, bavarde", "en": "talkative, chatty",
+      "def": "Qui parle beaucoup, tout le temps.", "def_en": "Who talks a lot, all the time.",
+      "forms": ["bavarde", "bavards", "bavardes"],
+      "accept": ["bavarde"],
+      "examples": [
+        { "fr": "Lou est très **bavarde** à table.", "en": "Lou is very chatty at the table." },
+        { "fr": "Mon voisin est **bavard** : il parle pendant une heure !", "en": "My neighbour is talkative: he talks for an hour!" },
+        { "fr": "Les élèves sont trop **bavards** aujourd'hui.", "en": "The pupils are too chatty today." }
+      ] },
+    { "id": "curieux", "fr": "curieux", "pos": "adj", "ipa": "ky.ʁjø", "display": "curieux, curieuse", "en": "curious; nosy",
+      "def": "Qui veut tout savoir, tout découvrir.", "def_en": "Who wants to know everything, discover everything.",
+      "forms": ["curieuse", "curieuses"],
+      "accept": ["curieuse"],
+      "examples": [
+        { "fr": "Les enfants sont **curieux** : ils posent beaucoup de questions.", "en": "Children are curious: they ask lots of questions." },
+        { "fr": "Minou est un chat très **curieux**.", "en": "Minou is a very curious cat." },
+        { "fr": "Ne sois pas trop **curieuse** !", "en": "Don't be so nosy!" }
+      ] },
+    { "id": "genereux", "fr": "généreux", "pos": "adj", "ipa": "ʒe.ne.ʁø", "display": "généreux, généreuse", "en": "generous",
+      "def": "Qui aime donner aux autres.", "def_en": "Who likes giving to others.",
+      "forms": ["généreuse", "généreuses"],
+      "accept": ["généreuse"],
+      "examples": [
+        { "fr": "Mamie est très **généreuse** : elle donne des bonbons à tout le monde !", "en": "Grandma is very generous: she gives sweets to everyone!" },
+        { "fr": "Merci, c'est **généreux** !", "en": "Thank you, that's generous!" },
+        { "fr": "Il laisse toujours un pourboire **généreux**.", "en": "He always leaves a generous tip." }
+      ] },
+    { "id": "egoiste", "fr": "égoïste", "pos": "adj", "ipa": "e.ɡɔ.ist", "en": "selfish",
+      "def": "Qui pense seulement à lui, pas aux autres.", "def_en": "Who only thinks of themselves, not of others.",
+      "forms": ["égoïstes"],
+      "examples": [
+        { "fr": "Ne sois pas **égoïste** : partage !", "en": "Don't be selfish: share!" },
+        { "fr": "Il est un peu **égoïste**, ton copain.", "en": "Your boyfriend is a bit selfish." },
+        { "fr": "C'est une décision **égoïste**.", "en": "It's a selfish decision." }
+      ] },
+    { "id": "patient", "fr": "patient", "pos": "adj", "ipa": "pa.sjɑ̃", "display": "patient, patiente", "en": "patient",
+      "def": "Qui peut attendre longtemps sans s'énerver.", "def_en": "Who can wait a long time without getting annoyed.",
+      "forms": ["patiente", "patients", "patientes"],
+      "accept": ["patiente"],
+      "examples": [
+        { "fr": "Sois **patient**, le bus arrive !", "en": "Be patient, the bus is coming!" },
+        { "fr": "La maîtresse est très **patiente** avec les petits.", "en": "The teacher is very patient with the little ones." },
+        { "fr": "Je ne suis pas très **patient**…", "en": "I'm not very patient…" }
+      ],
+      "note": "The opposite is **impatient**. The **t** sounds /s/: /pa.sjɑ̃/." },
+    { "id": "paresseux", "fr": "paresseux", "pos": "adj", "ipa": "pa.ʁɛ.sø", "display": "paresseux, paresseuse", "en": "lazy",
+      "def": "Qui n'aime pas travailler ou faire des efforts.", "def_en": "Who doesn't like working or making an effort.",
+      "forms": ["paresseuse", "paresseuses"],
+      "accept": ["paresseuse"],
+      "examples": [
+        { "fr": "Mon chat est très **paresseux** : il dort toute la journée.", "en": "My cat is very lazy: he sleeps all day." },
+        { "fr": "Je suis **paresseux** le dimanche.", "en": "I'm lazy on Sundays." },
+        { "fr": "Ce n'est pas un élève **paresseux** : il est juste fatigué.", "en": "He's not a lazy pupil: he's just tired." }
+      ] },
+    { "id": "travailleur", "fr": "travailleur", "pos": "adj", "ipa": "tʁa.va.jœʁ", "display": "travailleur, travailleuse", "en": "hard-working; (un travailleur) a worker",
+      "def": "Qui travaille beaucoup et bien.", "def_en": "Who works a lot and well.",
+      "forms": ["travailleuse", "travailleurs", "travailleuses"],
+      "accept": ["travailleuse"],
+      "examples": [
+        { "fr": "Karim est très **travailleur** : il commence à six heures.", "en": "Karim is very hard-working: he starts at six." },
+        { "fr": "Sophie est **travailleuse** et sérieuse.", "en": "Sophie is hard-working and reliable." },
+        { "fr": "Les **travailleurs** de l'usine commencent tôt.", "en": "The factory workers start early." }
+      ] },
+    { "id": "honnete", "fr": "honnête", "pos": "adj", "ipa": "ɔ.nɛt", "en": "honest",
+      "def": "Qui dit la vérité et ne vole pas.", "def_en": "Who tells the truth and doesn't steal.",
+      "forms": ["honnêtes"],
+      "examples": [
+        { "fr": "Sois **honnête** : tu as mangé le chocolat ?", "en": "Be honest: did you eat the chocolate?" },
+        { "fr": "C'est un homme **honnête**.", "en": "He's an honest man." },
+        { "fr": "Pour être **honnête**, je n'aime pas ce film.", "en": "To be honest, I don't like this film." }
+      ],
+      "note": "The **h** is silent: /ɔ.nɛt/." },
+    { "id": "poli", "fr": "poli", "pos": "adj", "ipa": "pɔ.li", "display": "poli, polie", "en": "polite",
+      "def": "Qui dit bonjour, merci et s'il vous plaît.", "def_en": "Who says hello, thank you and please.",
+      "forms": ["polie", "polis", "polies"],
+      "accept": ["polie"],
+      "examples": [
+        { "fr": "Les enfants, soyez **polis** : dites bonjour !", "en": "Children, be polite: say hello!" },
+        { "fr": "Ce n'est pas **poli** de parler la bouche pleine.", "en": "It isn't polite to talk with your mouth full." },
+        { "fr": "Le serveur est très **poli**.", "en": "The waiter is very polite." }
+      ],
+      "note": "The opposite is **impoli** (rude)." },
+    { "id": "intelligent", "fr": "intelligent", "pos": "adj", "ipa": "ɛ̃.te.li.ʒɑ̃", "display": "intelligent, intelligente", "en": "intelligent, clever",
+      "def": "Qui comprend vite et bien.", "def_en": "Who understands quickly and well.",
+      "forms": ["intelligente", "intelligents", "intelligentes"],
+      "accept": ["intelligente"],
+      "examples": [
+        { "fr": "Les chiens sont très **intelligents**.", "en": "Dogs are very intelligent." },
+        { "fr": "C'est une question **intelligente** !", "en": "That's a clever question!" },
+        { "fr": "Lou est **intelligente** et curieuse.", "en": "Lou is clever and curious." }
+      ] },
+    { "id": "courageux", "fr": "courageux", "pos": "adj", "ipa": "ku.ʁa.ʒø", "display": "courageux, courageuse", "en": "brave",
+      "def": "Qui n'a pas peur devant le danger ou les problèmes.", "def_en": "Who isn't afraid of danger or problems.",
+      "forms": ["courageuse", "courageuses"],
+      "accept": ["courageuse"],
+      "examples": [
+        { "fr": "Les pompiers sont **courageux**.", "en": "Firefighters are brave." },
+        { "fr": "Tu es **courageuse** : moi, j'ai peur de l'avion !", "en": "You're brave: I'm scared of flying!" },
+        { "fr": "Sois **courageux**, ce n'est pas grave !", "en": "Be brave, it's nothing serious!" }
+      ] },
+    { "id": "tetu", "fr": "têtu", "pos": "adj", "ipa": "te.ty", "display": "têtu, têtue", "en": "stubborn",
+      "def": "Qui ne change jamais d'avis, même quand il a tort.", "def_en": "Who never changes their mind, even when they're wrong.",
+      "forms": ["têtue", "têtus", "têtues"],
+      "accept": ["têtue"],
+      "examples": [
+        { "fr": "Il est **têtu** comme une mule !", "en": "He's as stubborn as a mule!" },
+        { "fr": "Lou est très **têtue** : elle veut toujours porter sa robe rouge.", "en": "Lou is very stubborn: she always wants to wear her red dress." },
+        { "fr": "Ne sois pas si **têtu** !", "en": "Don't be so stubborn!" }
+      ],
+      "note": "From **tête** (head): someone with a hard head!" },
+    { "id": "sensible", "fr": "sensible", "pos": "adj", "ipa": "sɑ̃.sibl", "en": "sensitive",
+      "def": "Qui sent les émotions très fort ; qui pleure vite.", "def_en": "Who feels emotions very strongly; who cries easily.",
+      "forms": ["sensibles"],
+      "examples": [
+        { "fr": "Attention, c'est un enfant très **sensible**.", "en": "Careful, he's a very sensitive child." },
+        { "fr": "J'ai la peau **sensible**.", "en": "I have sensitive skin." },
+        { "fr": "Elle est **sensible** : elle pleure devant les films tristes.", "en": "She's sensitive: she cries at sad films." }
+      ],
+      "note": "False friend! **sensible** = *sensitive*. *Sensible* in English is **raisonnable**." },
+    { "id": "gourmand", "fr": "gourmand", "pos": "adj", "ipa": "ɡuʁ.mɑ̃", "display": "gourmand, gourmande", "en": "fond of food; with a sweet tooth",
+      "def": "Qui aime beaucoup manger, surtout les bonnes choses et les gâteaux.", "def_en": "Who loves eating, especially good things and cakes.",
+      "forms": ["gourmande", "gourmands", "gourmandes"],
+      "accept": ["gourmande"],
+      "examples": [
+        { "fr": "Je suis très **gourmand** : j'adore le chocolat !", "en": "I love my food: I adore chocolate!" },
+        { "fr": "Lou est **gourmande** : elle veut encore un bonbon.", "en": "Lou has a sweet tooth: she wants another sweet." },
+        { "fr": "C'est un dessert pour les **gourmands**.", "en": "It's a dessert for food lovers." }
+      ],
+      "note": "In French, **gourmand** is usually a nice word: someone who enjoys good food." },
+    { "id": "confiance", "fr": "confiance", "pos": "noun", "g": "f", "ipa": "kɔ̃.fjɑ̃s", "en": "trust, confidence",
+      "def": "Quand on pense qu'une personne est honnête et qu'on peut compter sur elle.", "def_en": "When you think someone is honest and you can count on them.",
+      "examples": [
+        { "fr": "J'ai **confiance** en toi.", "en": "I trust you." },
+        { "fr": "Tu peux avoir **confiance** : il est très sérieux.", "en": "You can trust him: he's very reliable." },
+        { "fr": "Elle manque de **confiance** en elle.", "en": "She lacks self-confidence." }
+      ],
+      "note": "**avoir confiance en** someone = to trust them; **la confiance en soi** = self-confidence." }
+  ],
+  "story": {
+    "title": "Le profil de Tom",
+    "en": "Inès and Léa help Tom write his profile for a dating app.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Tom est célibataire. Inès et Léa décident de l'aider à écrire son profil sur une application de rencontre.", "en": "Tom is single. Inès and Léa decide to help him write his profile on a dating app." },
+      { "sp": "Inès", "fr": "Alors, Tom, tes qualités ? Tu es gentil, drôle, un peu timide…", "en": "So, Tom, your good points? You're kind, funny, a bit shy…" },
+      { "sp": "Tom", "fr": "Timide, moi ? Pas du tout ! Bon… un peu, avec les filles.", "en": "Me, shy? Not at all! Well… a bit, with girls." },
+      { "sp": "Léa", "fr": "Et tu es travailleur : tu vends des guitares six jours par semaine !", "en": "And you're hard-working: you sell guitars six days a week!" },
+      { "sp": "Inès", "fr": "Tu es honnête, poli, généreux… et intelligent, parfois.", "en": "You're honest, polite, generous… and clever, sometimes." },
+      { "sp": "Tom", "fr": "Merci, c'est sympa ! Et mes défauts ? On les écrit aussi ?", "en": "Thanks, that's nice! And my flaws? Do we write them down too?" },
+      { "sp": "Léa", "fr": "Bien sûr, il faut être sérieux. Tu es un peu paresseux le matin…", "en": "Of course, you have to be serious. You're a bit lazy in the mornings…" },
+      { "sp": "Inès", "fr": "Tu es gourmand, têtu… et très bavard quand tu parles de ton chien !", "en": "You love your food, you're stubborn… and very chatty when you talk about your dog!" },
+      { "sp": "Tom", "fr": "Ce n'est pas un défaut ! Mon chien a un caractère formidable.", "en": "That's not a flaw! My dog has a wonderful personality." },
+      { "sp": "Léa", "fr": "Bon, on écrit : « Tom, dix-neuf ans, calme, curieux, courageux ».", "en": "Right, let's write: 'Tom, nineteen, calm, curious, brave'." },
+      { "sp": "Tom", "fr": "Courageux ? J'ai peur du noir !", "en": "Brave? I'm scared of the dark!" },
+      { "sp": "Inès", "fr": "Personne ne le sait ! Ah, et tu es sensible : tu pleures devant les films tristes.", "en": "Nobody knows that! Oh, and you're sensitive: you cry at sad films." },
+      { "sp": "Tom", "fr": "Arrêtez, vous êtes méchantes !", "en": "Stop it, you're being mean!" },
+      { "sp": "", "fr": "Une semaine plus tard, Tom a un rendez-vous avec une fille très sympa, Camille.", "en": "A week later, Tom has a date with a very nice girl, Camille." },
+      { "sp": "Tom", "fr": "Elle est drôle, généreuse, pas du tout égoïste… et elle a très bon caractère !", "en": "She's funny, generous, not selfish at all… and she's very easy-going!" },
+      { "sp": "Léa", "fr": "Tu vois ? Il faut avoir confiance en toi !", "en": "You see? You have to believe in yourself!" },
+      { "sp": "Tom", "fr": "Le seul problème, c'est qu'elle a un chat. Et mon chien n'est pas très patient…", "en": "The only problem is that she has a cat. And my dog isn't very patient…" }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "u03-avoir",
+  "type": "grammar",
+  "unit": 3,
+  "title": "J'ai, tu as…",
+  "en": "The verb avoir (to have) — and how to say your age",
+  "intro": "**Avoir** (to have) is the second most important verb in French, after *être*. French also uses it where English uses *to be*: for your **age** (*j'ai vingt ans*) and for feelings like hunger or cold (*j'ai faim*).",
+  "cases": [
+    { "id": "av-je", "label": "j'ai — I have", "rule": "**je** becomes **j'** before **ai**: *j'ai* /ʒe/. Never “je ai”." },
+    { "id": "av-tu", "label": "tu as — you have (informal)", "rule": "**tu as** /ty.a/ — for a friend, family, a child." },
+    { "id": "av-il", "label": "il / elle / on a — he / she has, we have", "rule": "**il a, elle a, on a**. **a** (has) has no accent; **à** (to, at) has one." },
+    { "id": "av-nous", "label": "nous avons — we have", "rule": "**nous avons** /nu.za.vɔ̃/ — you hear a /z/." },
+    { "id": "av-vous", "label": "vous avez — you have (polite / plural)", "rule": "**vous avez** /vu.za.ve/ — you hear a /z/." },
+    { "id": "av-ils", "label": "ils / elles ont — they have", "rule": "**ils ont, elles ont** /il.zɔ̃/ — you hear a /z/." },
+    { "id": "av-have", "label": "avoir + people or things", "rule": "To have something or someone: *J'ai un frère. Elle a une maison.*" },
+    { "id": "av-age", "label": "avoir + ans — age", "rule": "Age uses **avoir**, and always **ans**: *J'ai vingt ans* (never “je suis vingt”)." },
+    { "id": "av-neg", "label": "ne … pas de — not any", "rule": "After a negative, **un / une / des** become **de** (**d'** before a vowel): *Je n'ai pas de frère. Ils n'ont pas d'enfants.*" },
+    { "id": "av-expr", "label": "avoir faim, soif, chaud, froid, peur", "rule": "Where English says *I am hungry / thirsty / hot / cold / scared*, French says **j'ai faim / soif / chaud / froid / peur**." },
+    { "id": "av-vs-etre", "label": "ils ont or ils sont?", "rule": "**ils‿ont** /il.zɔ̃/ = they have (you hear /z/). **ils sont** /il.sɔ̃/ = they are (you hear /s/)." },
+    { "id": "av-question", "label": "questions with avoir", "rule": "Raise your voice: *Tu as un frère ?* In set phrases the verb comes first, joined with a hyphen: *Quel âge as-tu ? Quel âge avez-vous ?*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Avoir — to have",
+      "text": ["Like *être*, **avoir** is irregular: learn its six forms by heart."],
+      "table": {
+        "head": ["Form", "English", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["j'ai", "I have", "/ʒe/"],
+          ["tu as", "you have", "/ty.a/"],
+          ["il a · elle a · on a", "he / she has · we have", "/i.la/"],
+          ["nous avons", "we have", "/nu.za.vɔ̃/"],
+          ["vous avez", "you have", "/vu.za.ve/"],
+          ["ils ont · elles ont", "they have", "/il.zɔ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai|av-je} un frère.", "en": "I have a brother." },
+        { "fr": "{Nous avons|av-nous} une maison à Paris.", "en": "We have a house in Paris." },
+        { "fr": "{Ils ont|av-ils} deux enfants.", "en": "They have two children." }
+      ],
+      "tip": "**il a** (he has) has no accent. **à** with an accent means *to / at*: *Il a une maison à Paris.*"
+    },
+    {
+      "title": "2. Having people and things",
+      "examples": [
+        { "fr": "{Tu as|av-tu} des cousins ?", "en": "Do you have cousins?" },
+        { "fr": "{Elle a|av-il} une sœur et deux frères.", "en": "She has a sister and two brothers." },
+        { "fr": "{Vous avez|av-vous} des enfants, madame ?", "en": "Do you have children, madam?" }
+      ]
+    },
+    {
+      "title": "3. Your age: avoir + ans",
+      "text": [
+        "In French you **have** your age: *J'ai vingt ans* (literally “I have twenty years”). Never say “je suis vingt ans”.",
+        "Always add **ans**. To ask: *Tu as quel âge ?* (everyday), *Quel âge as-tu ?*, *Quel âge avez-vous ?* (polite)."
+      ],
+      "examples": [
+        { "fr": "{J'ai dix-huit ans|av-age}.", "en": "I'm eighteen." },
+        { "fr": "{Mon grand-père a quatre-vingts ans|av-age}.", "en": "My grandfather is eighty." },
+        { "fr": "{Tu as quel âge|av-age} ?", "en": "How old are you?" }
+      ],
+      "tip": "Numbers link to **ans**: *un‿an, deux‿ans, trois‿ans, six‿ans* (/z/), *vingt‿ans* (/t/), *neuf‿ans* (/v/!)."
+    },
+    {
+      "title": "4. Saying no: je n'ai pas de…",
+      "text": ["**ne** becomes **n'** before *ai, as, a…*: *je n'ai pas*. And after the negative, **un / une / des** become **de** — or **d'** before a vowel."],
+      "table": {
+        "head": ["Yes", "No"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai un frère.", "Je n'ai pas de frère."],
+          ["J'ai une sœur.", "Je n'ai pas de sœur."],
+          ["J'ai des cousins.", "Je n'ai pas de cousins."],
+          ["Ils ont des enfants.", "Ils n'ont pas d'enfants."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je n'ai pas de frère|av-neg}.", "en": "I don't have a brother." },
+        { "fr": "{Hugo n'a pas de téléphone|av-neg} !", "en": "Hugo doesn't have a phone!" },
+        { "fr": "{Ils n'ont pas d'enfants|av-neg}.", "en": "They don't have children." }
+      ],
+      "tip": "Only **un / une / des** change. With **être** nothing changes: *C'est un ami → Ce n'est pas un ami.*"
+    },
+    {
+      "title": "5. Hungry, thirsty, cold… with avoir",
+      "text": ["For these feelings, French uses **avoir** + a noun, where English uses *to be* + an adjective."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["avoir faim", "to be hungry"],
+          ["avoir soif", "to be thirsty"],
+          ["avoir chaud", "to be hot"],
+          ["avoir froid", "to be cold"],
+          ["avoir peur", "to be scared"],
+          ["avoir sommeil", "to be sleepy"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai faim|av-expr} !", "en": "I'm hungry!" },
+        { "fr": "{Tu as froid|av-expr} ?", "en": "Are you cold?" },
+        { "fr": "{Lou a peur|av-expr}.", "en": "Lou is scared." }
+      ]
+    },
+    {
+      "title": "6. Ils ont or ils sont?",
+      "text": ["These two sound almost the same. Listen for the middle sound: **ils‿ont** /il.zɔ̃/ (they have) has a /z/; **ils sont** /il.sɔ̃/ (they are) has an /s/."],
+      "examples": [
+        { "fr": "{Ils ont|av-vs-etre} deux enfants.", "en": "They have two children." },
+        { "fr": "{Ils sont|av-vs-etre} contents.", "en": "They're happy." },
+        { "fr": "{Elles ont|av-vs-etre} vingt ans.", "en": "They're twenty." }
+      ]
+    },
+    {
+      "title": "7. Asking questions",
+      "text": ["The easy way: say the sentence and raise your voice: *Tu as un frère ?* In a few set phrases, the verb comes first with a hyphen: *Quel âge as-tu ?*"],
+      "examples": [
+        { "fr": "{Tu as un chien|av-question} ?", "en": "Do you have a dog?" },
+        { "fr": "{Quel âge as-tu|av-question} ?", "en": "How old are you?" },
+        { "fr": "{Quel âge avez-vous|av-question}, madame ?", "en": "How old are you, madam?" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je suis vingt ans.", "right": "J'ai vingt ans.", "why": "Age uses **avoir**." },
+    { "wrong": "J'ai vingt.", "right": "J'ai vingt ans.", "why": "Always add **ans**." },
+    { "wrong": "Je ai un frère.", "right": "J'ai un frère.", "why": "**je** becomes **j'** before a vowel." },
+    { "wrong": "Je n'ai pas un frère.", "right": "Je n'ai pas de frère.", "why": "After a negative, **un / une / des** become **de**." },
+    { "wrong": "Je suis faim.", "right": "J'ai faim.", "why": "Hunger, thirst, cold, fear: **avoir**." },
+    { "wrong": "Il à deux sœurs.", "right": "Il a deux sœurs.", "why": "**a** (has) has no accent; **à** means to / at." }
+  ],
+  "story": {
+    "title": "Le questionnaire",
+    "en": "In class, Tom and Inès interview each other.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Aujourd'hui, en classe, les étudiants posent des questions.", "en": "Today in class, the students ask each other questions." },
+      { "sp": "Tom", "fr": "Inès, {tu as quel âge|av-age} ?", "en": "Inès, how old are you?" },
+      { "sp": "Inès", "fr": "{J'ai vingt-deux ans|av-age}. Et toi ?", "en": "I'm twenty-two. And you?" },
+      { "sp": "Tom", "fr": "{J'ai|av-je} dix-neuf ans. {Tu as|av-tu} des frères et sœurs ?", "en": "I'm nineteen. Do you have brothers and sisters?" },
+      { "sp": "Inès", "fr": "Oui, {j'ai une sœur|av-have}, Carla. {Elle a|av-il} vingt ans. Mais {je n'ai pas de frère|av-neg}.", "en": "Yes, I have a sister, Carla. She's twenty. But I don't have a brother." },
+      { "sp": "Tom", "fr": "Moi, {j'ai|av-je} deux sœurs. Et ma famille et moi, {nous avons|av-nous} un chien !", "en": "I have two sisters. And my family and I have a dog!" },
+      { "sp": "Inès", "fr": "Oh ! Et {tes sœurs ont|av-ils} quel âge ?", "en": "Oh! And how old are your sisters?" },
+      { "sp": "Tom", "fr": "{Elles ont|av-ils} douze et quinze ans. {Elles sont|av-vs-etre} très sympas.", "en": "They're twelve and fifteen. They're really nice." },
+      { "sp": "", "fr": "Marc arrive.", "en": "Marc arrives." },
+      { "sp": "Marc", "fr": "Alors, {vous avez|av-vous} toutes les réponses ?", "en": "So, do you have all the answers?" },
+      { "sp": "Tom", "fr": "Oui ! Mais {j'ai faim|av-expr}…", "en": "Yes! But I'm hungry…" },
+      { "sp": "Inès", "fr": "Et moi, {j'ai soif|av-expr} !", "en": "And I'm thirsty!" },
+      { "sp": "Marc", "fr": "Patience ! {On a|av-il} une pause dans dix minutes.", "en": "Patience! We have a break in ten minutes." },
+      { "sp": "Tom", "fr": "Marc, une question : {quel âge avez-vous|av-question} ?", "en": "Marc, a question: how old are you?" },
+      { "sp": "Marc", "fr": "Ah, ça, c'est un secret !", "en": "Ah, that's a secret!" }
+    ]
+  },
+  "quiz": [
+    { "case": "av-je", "type": "mc", "q": "___ un frère.", "en": "I have a brother.", "options": ["J'ai", "Je ai", "Je suis"], "answer": "J'ai" },
+    { "case": "av-je", "type": "type", "q": "J'___ deux sœurs.", "en": "I have two sisters.", "answer": "ai" },
+    { "case": "av-tu", "type": "type", "q": "Tu ___ un chien ?", "en": "Do you have a dog?", "answer": "as" },
+    { "case": "av-tu", "type": "mc", "q": "Léa, tu ___ quel âge ?", "en": "Léa, how old are you?", "options": ["as", "a", "es"], "answer": "as" },
+    { "case": "av-il", "type": "mc", "q": "Hugo ___ vingt ans.", "en": "Hugo is twenty.", "options": ["a", "à", "as"], "answer": "a", "why": "**a** (has) has no accent; **à** means to / at." },
+    { "case": "av-il", "type": "type", "q": "Elle ___ une fille.", "en": "She has a daughter.", "answer": "a" },
+    { "case": "av-il", "type": "mc", "q": "On ___ une pause.", "en": "We have a break.", "options": ["a", "avons", "ont"], "answer": "a", "why": "**on** takes the same form as **il**." },
+    { "case": "av-nous", "type": "type", "q": "Nous ___ un chien.", "en": "We have a dog.", "answer": "avons" },
+    { "case": "av-nous", "type": "mc", "q": "Léa et moi, nous ___ deux cousins.", "en": "Léa and I have two cousins.", "options": ["avons", "avez", "ont"], "answer": "avons" },
+    { "case": "av-vous", "type": "type", "q": "Vous ___ des enfants, madame ?", "en": "Do you have children, madam?", "answer": "avez" },
+    { "case": "av-vous", "type": "mc", "q": "Tom et Hugo, vous ___ faim ?", "en": "Tom and Hugo, are you hungry?", "options": ["avez", "avons", "ont"], "answer": "avez" },
+    { "case": "av-ils", "type": "type", "q": "Ils ___ trois enfants.", "en": "They have three children.", "answer": "ont" },
+    { "case": "av-ils", "type": "mc", "q": "Mes grands-parents ___ une maison à Marseille.", "en": "My grandparents have a house in Marseille.", "options": ["ont", "sont", "a"], "answer": "ont" },
+    { "case": "av-have", "type": "mc", "lang": "en", "q": "How do you say “I have a sister”?", "options": ["J'ai une sœur.", "Je suis une sœur.", "J'ai sœur."], "answer": "J'ai une sœur." },
+    { "case": "av-have", "type": "type", "q": "Paul ___ deux fils.", "en": "Paul has two sons.", "answer": "a" },
+    { "case": "av-age", "type": "mc", "lang": "en", "q": "How do you say “I'm twenty”?", "options": ["J'ai vingt ans.", "Je suis vingt ans.", "J'ai vingt."], "answer": "J'ai vingt ans.", "why": "Age uses **avoir**, and you always add **ans**." },
+    { "case": "av-age", "type": "type", "q": "Lou a deux ___.", "en": "Lou is two (years old).", "answer": "ans" },
+    { "case": "av-age", "type": "mc", "q": "Tu as quel ___ ?", "en": "How old are you?", "options": ["âge", "an", "ans"], "answer": "âge" },
+    { "case": "av-neg", "type": "mc", "q": "Je n'ai pas ___ frère.", "en": "I don't have a brother.", "options": ["de", "un", "le"], "answer": "de", "why": "After a negative, **un / une / des** become **de**." },
+    { "case": "av-neg", "type": "type", "q": "Ils n'ont pas ___enfants.", "en": "They don't have children.", "answer": "d'", "why": "**de** becomes **d'** before a vowel." },
+    { "case": "av-neg", "type": "mc", "q": "Tu ___ pas de cousins ?", "en": "Don't you have any cousins?", "options": ["n'as", "as", "ne as"], "answer": "n'as" },
+    { "case": "av-expr", "type": "mc", "q": "___ faim !", "en": "I'm hungry!", "options": ["J'ai", "Je suis"], "answer": "J'ai", "why": "Hunger, thirst, heat, cold, fear: French uses **avoir**." },
+    { "case": "av-expr", "type": "type", "q": "Tu as ___ ?", "en": "Are you cold?", "answer": "froid" },
+    { "case": "av-expr", "type": "mc", "q": "Lou a ___.", "en": "Lou is scared.", "options": ["peur", "faim", "soif"], "answer": "peur" },
+    { "case": "av-vs-etre", "type": "mc", "q": "Ils ___ deux enfants.", "en": "They have two children.", "options": ["ont", "sont"], "answer": "ont" },
+    { "case": "av-vs-etre", "type": "mc", "q": "Elles ___ contentes.", "en": "They're happy.", "options": ["sont", "ont"], "answer": "sont" },
+    { "case": "av-vs-etre", "type": "mc", "lang": "en", "listen": "Ils ont dix ans.", "q": "Listen: do you hear “ils ont” (they have) or “ils sont” (they are)?", "options": ["ils ont", "ils sont"], "answer": "ils ont", "why": "You hear a /z/: **ils‿ont**." },
+    { "case": "av-question", "type": "mc", "q": "Quel âge ___-tu ?", "en": "How old are you?", "options": ["as", "es", "a"], "answer": "as" },
+    { "case": "av-question", "type": "type", "q": "Quel âge ___-vous ?", "en": "How old are you? (polite)", "answer": "avez" }
+  ]
+}

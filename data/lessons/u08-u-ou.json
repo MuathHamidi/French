@@ -1,0 +1,137 @@
+{
+  "id": "u08-u-ou",
+  "type": "sounds",
+  "unit": 8,
+  "title": "Tu ou tout ?",
+  "en": "Pronunciation: the sounds u /y/ and ou /u/",
+  "intro": "French **u** (/y/) doesn't exist in English, and it's easy to confuse with **ou** (/u/). Many words differ only by this sound: *tu / tout, dessus / dessous, rue / roue*. Train your ear first, then your mouth.",
+  "cases": [
+    { "id": "uo-u", "label": "u /y/: tu, rue, sur", "rule": "**u, û** = /y/: say *ee* (/i/), keep your tongue there, and round your lips like for *oo*. *tu, rue, sur, une, salut*." },
+    { "id": "uo-ou", "label": "ou /u/: tout, vous, sous", "rule": "**ou, où, oû** = /u/, like English *oo* in *food*: *tout, vous, sous, jour, rouge*." },
+    { "id": "uo-pairs", "label": "u or ou: different words", "rule": "One sound changes the word: *tu / tout, dessus / dessous, rue / roue, vu / vous, sur / sous, pur / pour*." },
+    { "id": "uo-ui", "label": "ui /ɥi/: huit, nuit", "rule": "**ui** = a very quick /y/ gliding into /i/: *huit, nuit, lui, cuisine, depuis*." },
+    { "id": "uo-oui", "label": "oui /wi/ vs huit /ɥit/", "rule": "**oui** starts with /w/ (from **ou**), **huit** with /ɥ/ (from **u**): *oui / huit, Louis / lui*." },
+    { "id": "uo-silent-u", "label": "qu, gu: silent u", "rule": "After **q**, the **u** is silent: *qui, que, quatre* (/k/). **gu** before e / i = /ɡ/: *guitare*." }
+  ],
+  "sections": [
+    {
+      "title": "1. The sound u /y/",
+      "text": ["Say **ee** (/i/). Keep your tongue exactly there, and push your lips forward into a small round “o”. That's **u**."],
+      "table": {
+        "head": ["Word", "English"], "frCols": [0],
+        "rows": [
+          ["tu", "you"],
+          ["rue", "street"],
+          ["sur", "on"],
+          ["une", "a, one"],
+          ["salut", "hi"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu|uo-u} es dans la {rue|uo-u} ?", "en": "Are you in the street?" },
+        { "fr": "Le livre est {sur|uo-u} la table.", "en": "The book is on the table." }
+      ]
+    },
+    {
+      "title": "2. The sound ou /u/",
+      "table": {
+        "head": ["Word", "English"], "frCols": [0],
+        "rows": [
+          ["tout", "all, everything"],
+          ["vous", "you"],
+          ["sous", "under"],
+          ["jour", "day"],
+          ["rouge", "red"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Vous|uo-ou} êtes {tous|uo-ou} là ?", "en": "Are you all here?" },
+        { "fr": "Le chat est {sous|uo-ou} la table.", "en": "The cat is under the table." }
+      ]
+    },
+    {
+      "title": "3. One sound, two words",
+      "table": {
+        "head": ["u /y/", "ou /u/", "Meanings"], "frCols": [0, 1],
+        "rows": [
+          ["tu", "tout", "you · all"],
+          ["dessus", "dessous", "on top · underneath"],
+          ["rue", "roue", "street · wheel"],
+          ["vu", "vous", "seen · you"],
+          ["sur", "sous", "on · under"],
+          ["pur", "pour", "pure · for"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le chat est {dessus|uo-pairs} ou {dessous|uo-pairs} ?", "en": "Is the cat on top or underneath?" },
+        { "fr": "{Tu|uo-pairs} manges {tout|uo-pairs} ?", "en": "Are you eating everything?" }
+      ]
+    },
+    {
+      "title": "4. ui /ɥi/",
+      "text": ["**ui** is one quick syllable: start with **u** and slide straight into **i**."],
+      "examples": [
+        { "fr": "Il est {huit|uo-ui} heures.", "en": "It's eight o'clock." },
+        { "fr": "Bonne {nuit|uo-ui} !", "en": "Good night!" },
+        { "fr": "C'est {lui|uo-ui} !", "en": "It's him!" }
+      ]
+    },
+    {
+      "title": "5. oui or huit?",
+      "text": ["**oui** starts like **ou** (lips very round, /w/); **huit** starts like **u** (/ɥ/)."],
+      "examples": [
+        { "fr": "{Oui|uo-oui}, il est {huit|uo-oui} heures.", "en": "Yes, it's eight o'clock." },
+        { "fr": "{Louis|uo-oui} ? Oui, c'est {lui|uo-oui}.", "en": "Louis? Yes, that's him." }
+      ]
+    },
+    {
+      "title": "6. qu and gu: a silent u",
+      "text": ["After **q**, the **u** is (almost always) silent: **qu** = /k/. And **gu** before **e** or **i** = a hard /ɡ/."],
+      "examples": [
+        { "fr": "{Qui|uo-silent-u} est là ?", "en": "Who's there?" },
+        { "fr": "Il a {quatre|uo-silent-u} chats.", "en": "He has four cats." },
+        { "fr": "Il joue de la {guitare|uo-silent-u}.", "en": "He plays the guitar." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "tu → “too”", "right": "tu → /ty/", "why": "That would be **tout**. For **u**, say *ee* with round lips." },
+    { "wrong": "dessous for “on top”", "right": "dessus = on top, dessous = underneath", "why": "**u** vs **ou** changes the meaning." },
+    { "wrong": "huit → “wheat”", "right": "huit → /ɥit/", "why": "Start from **u**, not **ou**." },
+    { "wrong": "qui → “kwee”", "right": "qui → /ki/", "why": "After **q**, the **u** is silent." }
+  ],
+  "story": {
+    "title": "Lou et le loup",
+    "en": "A little fable full of u and ou. Listen first, then read it aloud.",
+    "lines": [
+      { "fr": "Un jour, Lou se promène dans la {rue|uo-u}.", "en": "One day, Lou is walking in the street." },
+      { "fr": "Tout à coup, {sous|uo-ou} un arbre, il y a… un {loup|uo-ou} !", "en": "Suddenly, under a tree, there's… a wolf!" },
+      { "fr": "« Bonjour, loup ! {Tu|uo-pairs} es {tout|uo-pairs} seul ? » dit Lou.", "en": "“Hello, wolf! Are you all alone?” says Lou." },
+      { "fr": "« {Oui|uo-oui}, je suis tout seul. Et toi, tu as peur de moi ? »", "en": "“Yes, I'm all alone. And you — are you afraid of me?”", "br": true },
+      { "fr": "« Non ! Je n'ai pas peur. Tu as l'air {doux|uo-ou}. »", "en": "“No! I'm not afraid. You look gentle.”" },
+      { "fr": "Le loup demande : « {Où|uo-ou} vas-tu, petite Lou ? »", "en": "The wolf asks: “Where are you going, little Lou?”" },
+      { "fr": "« Je vais chez ma grand-mère. Elle fait une {soupe|uo-ou} aux légumes. »", "en": "“I'm going to my grandmother's. She's making vegetable soup.”" },
+      { "fr": "« Une soupe ? {Super|uo-u} ! Moi, j'adore la soupe ! »", "en": "“Soup? Great! I love soup!”", "br": true },
+      { "fr": "Alors, Lou et le loup marchent sur la {route|uo-ou}, {sous|uo-pairs} la {lune|uo-u}, pas {sur|uo-pairs} la lune !", "en": "So Lou and the wolf walk along the road, under the moon — not on the moon!" },
+      { "fr": "Il est {minuit|uo-ui} {quand|uo-silent-u} ils arrivent.", "en": "It's midnight when they arrive." },
+      { "fr": "La grand-mère voit le loup… et elle a très peur !", "en": "The grandmother sees the wolf… and she's very scared!" },
+      { "fr": "Mais le loup est gentil : il mange sa soupe, il dit « merci », et il part dans la {nuit|uo-ui}.", "en": "But the wolf is kind: he eats his soup, says “thank you”, and leaves into the night." }
+    ]
+  },
+  "quiz": [
+    { "case": "uo-u", "type": "mc", "lang": "en", "listen": "tu", "q": "Listen: tu or tout?", "options": ["tu", "tout"], "answer": "tu" },
+    { "case": "uo-u", "type": "mc", "lang": "en", "q": "Which word has the sound /y/, as in « tu »?", "options": ["rue", "roue", "vous"], "answer": "rue", "say": "rue" },
+    { "case": "uo-ou", "type": "mc", "lang": "en", "listen": "roue", "q": "Listen: rue or roue?", "options": ["roue", "rue"], "answer": "roue" },
+    { "case": "uo-ou", "type": "mc", "lang": "en", "q": "Which spelling makes the sound /u/, as in « vous »?", "options": ["ou", "u", "eu"], "answer": "ou", "say": "vous, tout, rouge" },
+    { "case": "uo-pairs", "type": "mc", "lang": "en", "listen": "dessous", "q": "Listen: dessus or dessous?", "options": ["dessous", "dessus"], "answer": "dessous" },
+    { "case": "uo-pairs", "type": "mc", "lang": "en", "listen": "dessus", "q": "Listen: which word do you hear?", "options": ["dessus", "dessous"], "answer": "dessus" },
+    { "case": "uo-pairs", "type": "mc", "lang": "en", "listen": "vous", "q": "Listen: vu or vous?", "options": ["vous", "vu"], "answer": "vous" },
+    { "case": "uo-pairs", "type": "mc", "lang": "en", "listen": "sur", "q": "Listen: sur or sous?", "options": ["sur", "sous"], "answer": "sur" },
+    { "case": "uo-ui", "type": "mc", "lang": "en", "listen": "huit", "q": "Listen: huit or oui?", "options": ["huit", "oui"], "answer": "huit" },
+    { "case": "uo-ui", "type": "mc", "lang": "en", "q": "In « nuit », the « ui » sounds…", "options": ["/ɥi/ — a quick u gliding into i", "/wi/ — like « oui »", "/u.i/ — two separate sounds"], "answer": "/ɥi/ — a quick u gliding into i", "say": "nuit" },
+    { "case": "uo-oui", "type": "mc", "lang": "en", "listen": "oui", "q": "Listen: which word do you hear?", "options": ["oui", "huit"], "answer": "oui" },
+    { "case": "uo-oui", "type": "mc", "lang": "en", "q": "Do « Louis » and « lui » sound the same?", "options": ["no — /lwi/ and /lɥi/", "yes"], "answer": "no — /lwi/ and /lɥi/", "say": "Louis, lui" },
+    { "case": "uo-silent-u", "type": "mc", "lang": "en", "q": "In « qui », do you hear the u?", "options": ["no — qu = /k/", "yes"], "answer": "no — qu = /k/", "say": "qui" },
+    { "case": "uo-silent-u", "type": "mc", "lang": "en", "q": "In « quatre », « qu » sounds…", "options": ["/k/", "/kw/", "/ky/"], "answer": "/k/", "say": "quatre" }
+  ]
+}

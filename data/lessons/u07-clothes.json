@@ -1,0 +1,208 @@
+{
+  "id": "u07-clothes",
+  "type": "vocab",
+  "unit": 7,
+  "title": "Les vêtements",
+  "en": "Clothes",
+  "intro": "20 words for clothes and shopping. Watch out for false friends: **une veste** is a jacket and **une chemise** is a shirt. And French says **un pantalon**, **un jean** — singular, not “a pair”.",
+  "words": [
+    { "id": "vetement", "fr": "vêtement", "pos": "noun", "g": "m", "ipa": "vɛt.mɑ̃", "en": "piece of clothing (des vêtements = clothes)",
+      "def": "Ce qu'on porte sur le corps : un pull, une robe, un pantalon…", "def_en": "What you wear on your body: a jumper, a dress, trousers…",
+      "forms": ["vêtements"], "accept": ["vetement"],
+      "examples": [
+        { "fr": "J'achète des **vêtements** pour l'hiver.", "en": "I'm buying clothes for the winter." },
+        { "fr": "Mes **vêtements** sont dans l'armoire.", "en": "My clothes are in the wardrobe." },
+        { "fr": "Ce **vêtement** est trop petit.", "en": "This piece of clothing is too small." }
+      ] },
+    { "id": "pantalon", "fr": "pantalon", "pos": "noun", "g": "m", "ipa": "pɑ̃.ta.lɔ̃", "en": "trousers, pants",
+      "def": "Un vêtement pour les jambes, avec deux parties.", "def_en": "A piece of clothing for the legs, in two parts.",
+      "forms": ["pantalons"],
+      "examples": [
+        { "fr": "Je porte un **pantalon** noir.", "en": "I'm wearing black trousers." },
+        { "fr": "Ce **pantalon** est trop long.", "en": "These trousers are too long." },
+        { "fr": "Hugo n'a pas de **pantalon** propre !", "en": "Hugo has no clean trousers!" }
+      ],
+      "note": "Singular in French: **un pantalon** = a pair of trousers." },
+    { "id": "jean", "fr": "jean", "pos": "noun", "g": "m", "ipa": "dʒin", "en": "jeans",
+      "def": "Un pantalon bleu, très solide.", "def_en": "Blue trousers, very strong.",
+      "forms": ["jeans"],
+      "examples": [
+        { "fr": "J'aime mon vieux **jean**.", "en": "I love my old jeans." },
+        { "fr": "Tu mets un **jean** ou une jupe ?", "en": "Are you wearing jeans or a skirt?" },
+        { "fr": "Ce **jean** est trop grand.", "en": "These jeans are too big." }
+      ],
+      "note": "Said /dʒin/, like English. Singular: **un jean** = a pair of jeans. (Not the name *Jean* /ʒɑ̃/!)" },
+    { "id": "jupe", "fr": "jupe", "pos": "noun", "g": "f", "ipa": "ʒyp", "en": "skirt",
+      "def": "Comme une robe, mais seulement pour le bas du corps.", "def_en": "Like a dress, but only for the lower body.",
+      "forms": ["jupes"],
+      "examples": [
+        { "fr": "Léa porte une **jupe** rouge.", "en": "Léa is wearing a red skirt." },
+        { "fr": "Cette **jupe** est très jolie.", "en": "This skirt is very pretty." },
+        { "fr": "Je cherche une **jupe** longue.", "en": "I'm looking for a long skirt." }
+      ] },
+    { "id": "robe", "fr": "robe", "pos": "noun", "g": "f", "ipa": "ʁɔb", "en": "dress",
+      "def": "Un vêtement d'une seule partie, pour le haut et le bas du corps.", "def_en": "A one-piece garment for the top and bottom of the body.",
+      "forms": ["robes"],
+      "examples": [
+        { "fr": "Chloé porte une belle **robe** blanche.", "en": "Chloé is wearing a beautiful white dress." },
+        { "fr": "Tu aimes ma nouvelle **robe** ?", "en": "Do you like my new dress?" },
+        { "fr": "Cette **robe** est trop chère.", "en": "This dress is too expensive." }
+      ] },
+    { "id": "chemise", "fr": "chemise", "pos": "noun", "g": "f", "ipa": "ʃə.miz", "en": "shirt",
+      "def": "Un vêtement avec des boutons, souvent pour le travail.", "def_en": "A garment with buttons, often for work.",
+      "forms": ["chemises"],
+      "examples": [
+        { "fr": "Mon père porte une **chemise** blanche.", "en": "My father is wearing a white shirt." },
+        { "fr": "Cette **chemise** est trop petite.", "en": "This shirt is too small." },
+        { "fr": "Hugo met une **chemise** pour le mariage.", "en": "Hugo puts on a shirt for the wedding." }
+      ],
+      "note": "False friend: **une chemise** is a shirt, not a chemise." },
+    { "id": "t-shirt", "fr": "t-shirt", "pos": "noun", "g": "m", "ipa": "ti.ʃœʁt", "en": "T-shirt",
+      "def": "Un vêtement léger, sans boutons, pour l'été.", "def_en": "A light garment without buttons, for summer.",
+      "forms": ["t-shirts", "tee-shirt"], "accept": ["tshirt", "tee-shirt"],
+      "examples": [
+        { "fr": "Il fait chaud : je mets un **t-shirt**.", "en": "It's hot: I'm putting on a T-shirt." },
+        { "fr": "Il a un **t-shirt** noir.", "en": "He has a black T-shirt." },
+        { "fr": "Ce **t-shirt** coûte dix euros.", "en": "This T-shirt costs ten euros." }
+      ] },
+    { "id": "pull", "fr": "pull", "pos": "noun", "g": "m", "ipa": "pyl", "en": "jumper, sweater",
+      "def": "Un vêtement chaud pour le haut du corps, pour l'hiver.", "def_en": "A warm garment for the upper body, for winter.",
+      "forms": ["pulls"],
+      "examples": [
+        { "fr": "J'ai froid : je mets un **pull**.", "en": "I'm cold: I'm putting on a jumper." },
+        { "fr": "Ce **pull** est très chaud.", "en": "This jumper is very warm." },
+        { "fr": "Ma grand-mère fait des **pulls**.", "en": "My grandmother knits jumpers." }
+      ],
+      "note": "Short for **pull-over**. Said /pyl/." },
+    { "id": "veste", "fr": "veste", "pos": "noun", "g": "f", "ipa": "vɛst", "en": "jacket",
+      "def": "Un vêtement qu'on met sur une chemise ou sur un pull.", "def_en": "A garment you wear over a shirt or a jumper.",
+      "forms": ["vestes"],
+      "examples": [
+        { "fr": "Prends ta **veste**, il fait froid !", "en": "Take your jacket, it's cold!" },
+        { "fr": "Il porte une **veste** et une cravate.", "en": "He's wearing a jacket and a tie." },
+        { "fr": "Cette **veste** est trop grande.", "en": "This jacket is too big." }
+      ],
+      "note": "False friend: **une veste** is a jacket, not a vest." },
+    { "id": "manteau", "fr": "manteau", "pos": "noun", "g": "m", "ipa": "mɑ̃.to", "en": "coat",
+      "def": "Un grand vêtement chaud pour sortir en hiver.", "def_en": "A big warm garment for going out in winter.",
+      "forms": ["manteaux"],
+      "examples": [
+        { "fr": "Mets ton **manteau**, il fait froid !", "en": "Put your coat on, it's cold!" },
+        { "fr": "Où est mon **manteau** ?", "en": "Where's my coat?" },
+        { "fr": "Les **manteaux** sont à côté de la porte.", "en": "The coats are next to the door." }
+      ],
+      "note": "Plural with **-x**: **des manteaux**." },
+    { "id": "chaussure", "fr": "chaussure", "pos": "noun", "g": "f", "ipa": "ʃo.syʁ", "en": "shoe",
+      "def": "On la porte aux pieds, pour marcher dehors.", "def_en": "You wear it on your feet to walk outside.",
+      "forms": ["chaussures"],
+      "examples": [
+        { "fr": "Je cherche des **chaussures** noires.", "en": "I'm looking for black shoes." },
+        { "fr": "Ces **chaussures** sont trop petites.", "en": "These shoes are too small." },
+        { "fr": "Enlève tes **chaussures**, s'il te plaît.", "en": "Take your shoes off, please." }
+      ] },
+    { "id": "chaussette", "fr": "chaussette", "pos": "noun", "g": "f", "ipa": "ʃo.sɛt", "en": "sock",
+      "def": "On la met aux pieds, sous la chaussure.", "def_en": "You wear it on your feet, under your shoe.",
+      "forms": ["chaussettes"],
+      "examples": [
+        { "fr": "J'ai froid aux pieds : je mets des **chaussettes**.", "en": "My feet are cold: I'm putting on socks." },
+        { "fr": "Où est mon autre **chaussette** ?", "en": "Where's my other sock?" },
+        { "fr": "Ses **chaussettes** sont rouges.", "en": "His socks are red." }
+      ] },
+    { "id": "chapeau", "fr": "chapeau", "pos": "noun", "g": "m", "ipa": "ʃa.po", "en": "hat",
+      "def": "On le porte sur la tête.", "def_en": "You wear it on your head.",
+      "forms": ["chapeaux"],
+      "examples": [
+        { "fr": "Grand-père porte un **chapeau**.", "en": "Grandpa is wearing a hat." },
+        { "fr": "Ce **chapeau** est trop grand !", "en": "This hat is too big!" },
+        { "fr": "Il y a des **chapeaux** de toutes les couleurs.", "en": "There are hats of all colours." }
+      ],
+      "note": "Plural with **-x**: **des chapeaux**." },
+    { "id": "echarpe", "fr": "écharpe", "pos": "noun", "g": "f", "ipa": "e.ʃaʁp", "en": "scarf",
+      "def": "Un long vêtement qu'on met autour du cou quand il fait froid.", "def_en": "A long garment you put around your neck when it's cold.",
+      "forms": ["écharpes"], "accept": ["echarpe"],
+      "examples": [
+        { "fr": "Mets ton **écharpe**, il fait froid.", "en": "Put your scarf on, it's cold." },
+        { "fr": "Louise fait une **écharpe** pour Lou.", "en": "Louise is knitting a scarf for Lou." },
+        { "fr": "J'aime ton **écharpe** rouge.", "en": "I like your red scarf." }
+      ] },
+    { "id": "lunettes", "fr": "lunettes", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "ly.nɛt", "en": "glasses",
+      "def": "On porte des lunettes pour bien voir.", "def_en": "You wear glasses to see well.",
+      "examples": [
+        { "fr": "Mon grand-père porte des **lunettes**.", "en": "My grandfather wears glasses." },
+        { "fr": "Où sont mes **lunettes** ?", "en": "Where are my glasses?" },
+        { "fr": "Ce sont des **lunettes** de soleil.", "en": "They're sunglasses." }
+      ],
+      "note": "Always plural: **des lunettes**. **des lunettes de soleil** = sunglasses." },
+    { "id": "sac", "fr": "sac", "pos": "noun", "g": "m", "ipa": "sak", "en": "bag",
+      "def": "On met des choses dedans pour aller dehors.", "def_en": "You put things in it to go out.",
+      "forms": ["sacs"],
+      "examples": [
+        { "fr": "Mon **sac** est sur la chaise.", "en": "My bag is on the chair." },
+        { "fr": "Il y a quoi dans ton **sac** ?", "en": "What's in your bag?" },
+        { "fr": "C'est un **sac** très cher.", "en": "It's a very expensive bag." }
+      ] },
+    { "id": "porter", "fr": "porter", "pos": "verb", "ipa": "pɔʁ.te", "en": "to wear; to carry",
+      "def": "Avoir un vêtement sur soi. Aussi : avoir quelque chose dans les mains.", "def_en": "To have a garment on. Also: to hold something in your hands.",
+      "extra": "je **porte** · tu **portes** · il/elle **porte** · nous **portons** · vous **portez** · ils/elles **portent** — a regular -er verb.",
+      "forms": ["porte", "portes", "portons", "portez", "portent", "portais", "portait", "portions", "portiez", "portaient", "porterai", "porteras", "portera", "porterons", "porterez", "porteront"],
+      "examples": [
+        { "fr": "Elle **porte** une robe bleue.", "en": "She's wearing a blue dress." },
+        { "fr": "Tu **portes** des lunettes ?", "en": "Do you wear glasses?" },
+        { "fr": "Hugo **porte** les sacs.", "en": "Hugo is carrying the bags." }
+      ] },
+    { "id": "essayer", "fr": "essayer", "pos": "verb", "ipa": "e.se.je", "en": "to try (on)",
+      "def": "Mettre un vêtement dans le magasin, pour voir s'il va bien.", "def_en": "To put on a garment in the shop, to see if it suits you.",
+      "extra": "Like **payer**: *j'essaie* or *j'essaye*, *nous essayons*. **la cabine d'essayage** = the fitting room.",
+      "forms": ["essaie", "essaies", "essaye", "essayes", "essayons", "essayez", "essaient", "essayent", "essayais", "essayait", "essayions", "essayiez", "essayaient", "essaierai", "essaieras", "essaiera", "essaierons", "essaierez", "essaieront", "essayerai", "essayeras", "essayera", "essayerons", "essayerez", "essayeront"],
+      "examples": [
+        { "fr": "Je peux **essayer** cette robe ?", "en": "Can I try on this dress?" },
+        { "fr": "J'**essaie** le pantalon.", "en": "I'm trying on the trousers." },
+        { "fr": "Tu **essaies** les chaussures ?", "en": "Are you trying on the shoes?" }
+      ] },
+    { "id": "taille", "fr": "taille", "pos": "noun", "g": "f", "ipa": "taj", "en": "size; waist; height",
+      "def": "Petit, moyen ou grand : c'est la taille d'un vêtement.", "def_en": "Small, medium or large: that's the size of a garment.",
+      "forms": ["tailles"],
+      "examples": [
+        { "fr": "Vous faites quelle **taille** ?", "en": "What size are you?" },
+        { "fr": "C'est la bonne **taille** !", "en": "It's the right size!" },
+        { "fr": "Il n'y a pas ma **taille**.", "en": "They don't have my size." }
+      ],
+      "note": "For shoes, say **la pointure**: *Vous faites quelle pointure ?*" },
+    { "id": "cher", "fr": "cher", "pos": "adj", "ipa": "ʃɛʁ", "display": "cher, chère", "en": "expensive; dear",
+      "def": "Qui coûte beaucoup d'argent. Le contraire de « pas cher ».", "def_en": "Costing a lot of money.",
+      "extra": "Feminine **chère**, plural **chers / chères** — all said /ʃɛʁ/.",
+      "forms": ["chère", "chers", "chères"], "accept": ["chère", "chere"],
+      "examples": [
+        { "fr": "Cette robe est trop **chère** !", "en": "This dress is too expensive!" },
+        { "fr": "Ce n'est pas **cher**.", "en": "It's not expensive." },
+        { "fr": "Les chaussures sont **chères**.", "en": "The shoes are expensive." }
+      ],
+      "note": "Also means *dear*: **Cher Hugo,** (at the start of a letter)." }
+  ],
+  "story": {
+    "title": "Les soldes",
+    "en": "January sales: Léa and Sophie go shopping.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "En janvier, ce sont les soldes ! Léa et Sophie vont au magasin.", "en": "In January it's the sales! Léa and Sophie go to the shop." },
+      { "sp": "Léa", "fr": "J'ai besoin d'un manteau et d'une écharpe pour l'hiver.", "en": "I need a coat and a scarf for the winter." },
+      { "sp": "Sophie", "fr": "Et moi, je cherche une robe et des chaussures.", "en": "And I'm looking for a dress and shoes." },
+      { "sp": "", "fr": "Dans le magasin, il y a beaucoup de vêtements : des pantalons, des jupes, des chemises, des pulls, des vestes…", "en": "In the shop there are lots of clothes: trousers, skirts, shirts, jumpers, jackets…" },
+      { "sp": "La vendeuse", "fr": "Bonjour, mesdames ! Vous cherchez quelque chose ?", "en": "Hello, ladies! Are you looking for something?" },
+      { "sp": "Sophie", "fr": "Oui, je voudrais essayer cette robe, s'il vous plaît.", "en": "Yes, I'd like to try on this dress, please." },
+      { "sp": "La vendeuse", "fr": "Bien sûr. Vous faites quelle taille ?", "en": "Of course. What size are you?" },
+      { "sp": "Sophie", "fr": "Du 38.", "en": "A 38." },
+      { "sp": "", "fr": "Sophie essaie la robe. Elle est parfaite !", "en": "Sophie tries on the dress. It's perfect!" },
+      { "sp": "Léa", "fr": "Elle te va très bien ! Elle coûte combien ?", "en": "It really suits you! How much is it?" },
+      { "sp": "La vendeuse", "fr": "Avec les soldes, quarante euros.", "en": "With the sales, forty euros." },
+      { "sp": "Sophie", "fr": "Ce n'est pas cher ! Je [la|la-pron] prends.", "en": "That's not expensive! I'll take it." },
+      { "sp": "", "fr": "Léa essaie un manteau rouge et une écharpe.", "en": "Léa tries on a red coat and a scarf." },
+      { "sp": "Léa", "fr": "Le manteau est trop grand… Vous avez une taille plus petite ?", "en": "The coat is too big… Do you have a smaller size?" },
+      { "sp": "La vendeuse", "fr": "Oui, voilà. Et avec ça, un chapeau ? Des [lunettes|lunettes] de soleil ?", "en": "Yes, here you are. And anything else — a hat? Sunglasses?" },
+      { "sp": "Léa", "fr": "Non merci ! Mais ces chaussettes sont jolies…", "en": "No thanks! But these socks are nice…" },
+      { "sp": "", "fr": "Devant le magasin, il y a Hugo. Il porte un vieux jean et un t-shirt.", "en": "In front of the shop is Hugo. He's wearing old jeans and a T-shirt." },
+      { "sp": "Hugo", "fr": "Vous avez beaucoup de sacs ! Je porte les sacs ?", "en": "You've got lots of bags! Shall I carry the bags?" },
+      { "sp": "Sophie", "fr": "Oh, merci, Hugo ! Tu es un amour.", "en": "Oh, thank you, Hugo! You're a sweetheart." }
+    ]
+  }
+}

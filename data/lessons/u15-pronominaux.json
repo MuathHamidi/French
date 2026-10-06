@@ -1,0 +1,181 @@
+{
+  "id": "u15-pronominaux",
+  "type": "grammar",
+  "unit": 15,
+  "title": "Je me suis baigné(e)",
+  "en": "Reflexive verbs in the passé composé, and telling a story",
+  "intro": "All reflexive verbs (*se lever, se baigner, s'amuser…*) make their passé composé with **être**, and the participle agrees with the subject: *elle s'est levée*. Plus: the little words that put a story in order, **d'abord, ensuite, puis, après, enfin**.",
+  "cases": [
+    { "id": "pr-form", "label": "je me suis levé(e)", "rule": "Reflexive verbs take **être**. The pronoun goes before *être*: *je me suis levé, tu t'es levé, il s'est levé, nous nous sommes levés, vous vous êtes levés, ils se sont levés*." },
+    { "id": "pr-accord", "label": "agreement", "rule": "The participle agrees with the subject: *elle s'est réveillée, ils se sont amusés, elles se sont baignées*." },
+    { "id": "pr-neg", "label": "je ne me suis pas levé", "rule": "**ne** goes before the pronoun, **pas** after *être*: *je **ne** me suis **pas** levé, elle **ne** s'est **pas** baignée*." },
+    { "id": "pr-question", "label": "questions", "rule": "Voice up or *est-ce que*: *Tu t'es bien amusé ? Est-ce que vous vous êtes reposés ? Tu t'es levé à quelle heure ?*" },
+    { "id": "pr-reciproque", "label": "each other", "rule": "With a plural subject, a reflexive verb can mean **each other**: *on s'est rencontrés* (we met), *ils se sont disputés* (they argued)." },
+    { "id": "pr-tenses", "label": "now, past, future", "rule": "Three times, one verb: *je me lève* (now), *je me suis levé* (past), *je vais me lever* (near future). In the near future, the pronoun moves next to the infinitive." },
+    { "id": "pr-recit", "label": "d'abord, ensuite, enfin", "rule": "To tell a story in order: **d'abord** (first), **ensuite / puis / après** (then, next, afterwards), **enfin** (finally)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Reflexive verbs take être",
+      "text": ["All reflexive verbs use **être** in the passé composé. The reflexive pronoun stays in front, before *être*."],
+      "table": {
+        "head": ["A man", "A woman"], "frCols": [0, 1],
+        "rows": [
+          ["je me suis levé", "je me suis levée"],
+          ["tu t'es levé", "tu t'es levée"],
+          ["il s'est levé", "elle s'est levée"],
+          ["nous nous sommes levés", "nous nous sommes levées"],
+          ["vous vous êtes levés", "vous vous êtes levées"],
+          ["ils se sont levés", "elles se sont levées"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je me suis levé|pr-form} à dix heures.", "en": "I got up at ten." },
+        { "fr": "{Nous nous sommes promenés|pr-form} sur le port.", "en": "We went for a walk by the harbour." },
+        { "fr": "{Tu t'es reposé|pr-form} ?", "en": "Did you have a rest?" }
+      ]
+    },
+    {
+      "title": "2. Agreement",
+      "text": ["As with the other *être* verbs, the participle agrees with the subject."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Léa s'est réveillée.", "Léa woke up."],
+          ["Hugo s'est endormi.", "Hugo fell asleep."],
+          ["Les enfants se sont amusés.", "The children had fun."],
+          ["Léa et Lou se sont baignées.", "Léa and Lou went swimming."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Lou s'est endormie|pr-accord} dans la voiture.", "en": "Lou fell asleep in the car." },
+        { "fr": "{Mes grands-parents se sont promenés|pr-accord} sur le port.", "en": "My grandparents went for a walk by the harbour." },
+        { "fr": "{Les filles se sont bien amusées|pr-accord} !", "en": "The girls had a great time!" }
+      ]
+    },
+    {
+      "title": "3. The negative",
+      "text": ["**ne** comes before the reflexive pronoun, and **pas** after *être*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne me suis pas [levé|se-lever].", "I didn't get up."],
+          ["Elle ne s'est pas baignée.", "She didn't go in the water."],
+          ["Nous ne nous sommes pas perdus.", "We didn't get lost."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne me suis pas baigné|pr-neg} : l'eau est trop froide !", "en": "I didn't go in: the water's too cold!" },
+        { "fr": "{Elle ne s'est pas réveillée|pr-neg} à l'heure.", "en": "She didn't wake up on time." }
+      ]
+    },
+    {
+      "title": "4. Questions",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu t'es bien amusé ?", "Did you have a good time?"],
+          ["Est-ce que vous vous êtes reposés ?", "Did you get some rest?"],
+          ["Tu t'es levé à quelle heure ?", "What time did you get up?"],
+          ["Vous vous êtes perdus ?", "Did you get lost?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu t'es bien reposée|pr-question}, Léa ?", "en": "Did you have a good rest, Léa?" },
+        { "fr": "{Vous vous êtes baignés|pr-question} ce matin ?", "en": "Did you go swimming this morning?" }
+      ]
+    },
+    {
+      "title": "5. Each other",
+      "text": ["With a plural subject (*nous, vous, ils*, or *on* meaning *we*), a reflexive verb often means **each other**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["On s'est rencontrés à Lyon.", "We met in Lyon."],
+          ["Ils se sont retrouvés au café.", "They met up at the café."],
+          ["Elles se sont disputées.", "They argued (with each other)."],
+          ["Nous nous sommes réconciliés.", "We made up."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Léa et Sophie se sont rencontrées|pr-reciproque} à Lyon.", "en": "Léa and Sophie met in Lyon." },
+        { "fr": "{On s'est retrouvés|pr-reciproque} au café d'en bas.", "en": "We met up at the café downstairs." }
+      ]
+    },
+    {
+      "title": "6. Now, past, future",
+      "text": ["The same verb in three times. In the near future, the pronoun moves next to the infinitive."],
+      "table": {
+        "head": ["Now", "Past", "Near future"], "frCols": [0, 1, 2],
+        "rows": [
+          ["je me lève", "je me suis levé", "je vais me lever"],
+          ["elle se baigne", "elle s'est baignée", "elle va se baigner"],
+          ["nous nous reposons", "nous nous sommes reposés", "nous allons nous reposer"]
+        ]
+      },
+      "examples": [
+        { "fr": "Hier, {je me suis couché|pr-tenses} tard.", "en": "Yesterday, I went to bed late." },
+        { "fr": "Ce soir, {je vais me coucher|pr-tenses} tôt.", "en": "Tonight, I'm going to go to bed early." }
+      ]
+    },
+    {
+      "title": "7. Telling a story in order",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["d'abord", "first, first of all"],
+          ["ensuite", "then, next"],
+          ["puis", "then"],
+          ["après", "after that, afterwards"],
+          ["enfin", "finally, at last"]
+        ]
+      },
+      "examples": [
+        { "fr": "{D'abord|pr-recit}, je me suis levé. {Ensuite|pr-recit}, j'ai pris le petit-déjeuner.", "en": "First, I got up. Then I had breakfast." },
+        { "fr": "{Puis|pr-recit} nous sommes allés à la plage, et {enfin|pr-recit}, nous sommes rentrés.", "en": "Then we went to the beach, and finally we came home." }
+      ],
+      "tip": "**enfin** can also mean *at last!* when you've been waiting: *Enfin les vacances !*"
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je m'ai levé.", "right": "Je me suis levé.", "why": "Reflexive verbs take **être**." },
+    { "wrong": "Elle s'est levé.", "right": "Elle s'est levée.", "why": "The participle agrees: **+e**." },
+    { "wrong": "Je me ne suis pas levé.", "right": "Je ne me suis pas levé.", "why": "**ne** goes before the pronoun." },
+    { "wrong": "Je me vais lever.", "right": "Je vais me lever.", "why": "In the near future, the pronoun goes before the infinitive." },
+    { "wrong": "Ils ont se rencontré.", "right": "Ils se sont rencontrés.", "why": "Pronoun first, then **être**, then the participle with agreement." }
+  ],
+  "story": {
+    "title": "Le journal de Hugo",
+    "en": "Hugo writes about one day at the seaside in Marseille.",
+    "lines": [
+      { "fr": "Marseille, mardi.", "en": "Marseille, Tuesday.", "br": true },
+      { "fr": "{D'abord|pr-recit}, Léa et Lou {se sont levées|pr-accord} à huit heures. Moi, {je me suis levé|pr-form} à dix heures. Vive les vacances !", "en": "First, Léa and Lou got up at eight. I got up at ten. Hooray for the holidays!" },
+      { "fr": "{Ensuite|pr-recit}, nous sommes allés à la plage. Léa et Lou {se sont baignées|pr-accord} dans les vagues.", "en": "Then we went to the beach. Léa and Lou swam in the waves." },
+      { "fr": "Moi, {je ne me suis pas baigné|pr-neg} : l'eau est trop froide pour moi !", "en": "I didn't go in: the water's too cold for me!" },
+      { "fr": "{Je me suis allongé|pr-form} sur ma serviette… et {je me suis endormi|pr-form} au soleil.", "en": "I lay down on my towel… and fell asleep in the sun.", "br": true },
+      { "fr": "{Après|pr-recit}, quand {je me suis réveillé|pr-form}, j'ai regardé mon nez : tout rouge !", "en": "Afterwards, when I woke up, I looked at my nose: bright red!" },
+      { "fr": "Grand-mère m'a demandé : « {Tu t'es bien reposé|pr-question}, Hugo ? » Très drôle…", "en": "Grandma asked me: “Did you have a good rest, Hugo?” Very funny…", "br": true },
+      { "fr": "Le soir, Léa et moi, {on s'est disputés|pr-reciproque} pour la dernière glace.", "en": "In the evening, Léa and I argued over the last ice cream." },
+      { "fr": "{Puis|pr-recit} {on s'est réconciliés|pr-reciproque} : on a partagé la glace !", "en": "Then we made up: we shared the ice cream!" },
+      { "fr": "{Enfin|pr-recit}, toute la famille {s'est promenée|pr-accord} sur le port.", "en": "Finally, the whole family went for a walk by the harbour.", "br": true },
+      { "fr": "Demain, {je vais me lever|pr-tenses} tôt et je vais mettre de la crème solaire. Promis !", "en": "Tomorrow, I'm going to get up early and put on sunscreen. Promise!" },
+      { "fr": "Mais maintenant, {je me couche|pr-tenses}. Bonne nuit !", "en": "But now I'm going to bed. Good night!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pr-form", "type": "mc", "q": "Je me ___ [levé|se-lever] à dix heures.", "en": "I got up at ten.", "options": ["suis", "ai", "sommes"], "answer": "suis" },
+    { "case": "pr-form", "type": "type", "q": "Tu t'___ bien reposé ?", "en": "Did you have a good rest?", "answer": "es" },
+    { "case": "pr-accord", "type": "mc", "q": "Léa s'est ___ à huit heures.", "en": "Léa got up at eight.", "options": ["levée", "levé", "levés"], "answer": "levée" },
+    { "case": "pr-accord", "type": "type", "q": "Les enfants se sont ___ dans la mer.", "en": "The children swam in the sea.", "answer": "baignés" },
+    { "case": "pr-neg", "type": "mc", "lang": "en", "q": "How do you say “I didn't get up”?", "options": ["Je ne me suis pas levé.", "Je me ne suis pas levé.", "Je ne suis pas me levé."], "answer": "Je ne me suis pas levé." },
+    { "case": "pr-neg", "type": "type", "q": "Elle ne s'est ___ réveillée.", "en": "She didn't wake up.", "answer": "pas" },
+    { "case": "pr-question", "type": "mc", "q": "Vous vous ___ bien amusés ?", "en": "Did you have a good time?", "options": ["êtes", "avez", "sont"], "answer": "êtes" },
+    { "case": "pr-question", "type": "mc", "lang": "en", "q": "Which question means “What time did you get up?”", "options": ["Tu t'es levé à quelle heure ?", "Tu te lèves à quelle heure ?", "Tu vas te lever à quelle heure ?"], "answer": "Tu t'es levé à quelle heure ?" },
+    { "case": "pr-reciproque", "type": "mc", "lang": "en", "q": "« On s'est rencontrés à Lyon » means…", "options": ["We met in Lyon.", "We met ourselves in Lyon.", "I met him in Lyon."], "answer": "We met in Lyon.", "say": "On s'est rencontrés à Lyon." },
+    { "case": "pr-reciproque", "type": "type", "q": "Léa et Hugo se sont ___ pour la dernière glace.", "en": "Léa and Hugo argued over the last ice cream.", "answer": "disputés" },
+    { "case": "pr-tenses", "type": "mc", "lang": "en", "q": "Which one is about the past?", "options": ["Je me suis couché tard.", "Je me couche tard.", "Je vais me coucher tard."], "answer": "Je me suis couché tard." },
+    { "case": "pr-tenses", "type": "mc", "lang": "en", "q": "How do you say “I'm going to get up early”?", "options": ["Je vais me lever tôt.", "Je me suis levé tôt.", "Je vais lever me tôt."], "answer": "Je vais me lever tôt." },
+    { "case": "pr-recit", "type": "mc", "lang": "en", "q": "Which word starts a story?", "options": ["d'abord", "ensuite", "enfin"], "answer": "d'abord", "say": "d'abord" },
+    { "case": "pr-recit", "type": "mc", "lang": "en", "q": "« Enfin » means…", "options": ["finally, at last", "then", "first"], "answer": "finally, at last", "say": "enfin" }
+  ]
+}

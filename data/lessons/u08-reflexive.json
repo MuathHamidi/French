@@ -1,0 +1,167 @@
+{
+  "id": "u08-reflexive",
+  "type": "grammar",
+  "unit": 8,
+  "title": "Je me lève, tu te lèves…",
+  "en": "Reflexive verbs (se lever, s'habiller…)",
+  "intro": "A **reflexive verb** has an extra pronoun that refers back to the subject: *je **me** lève* (I get **myself** up). Most daily-routine verbs work this way. The verb itself is conjugated normally — you just add the right pronoun.",
+  "cases": [
+    { "id": "refl-pronouns", "label": "me, te, se, nous, vous, se", "rule": "Each subject has its own pronoun: *je **me** lève, tu **te** lèves, il **se** lève, nous **nous** levons, vous **vous** levez, ils **se** lèvent*." },
+    { "id": "refl-elision", "label": "m', t', s' before a vowel", "rule": "**me, te, se** become **m', t', s'** before a vowel or silent h: *je m'habille, tu t'appelles, il s'endort*." },
+    { "id": "refl-neg", "label": "ne + pronoun + verb + pas", "rule": "The pronoun stays glued to the verb: *je **ne me** lève **pas**, il **ne s'**habille **pas***." },
+    { "id": "refl-question", "label": "questions", "rule": "Voice up, or **est-ce que**: *Tu te lèves ? Est-ce que tu te lèves ? À quelle heure tu te couches ?*" },
+    { "id": "refl-infinitive", "label": "after another verb: je vais me coucher", "rule": "With an infinitive, the pronoun still matches the subject: *Je vais **me** coucher. Tu dois **te** lever. Nous allons **nous** reposer.*" },
+    { "id": "refl-imperative", "label": "orders: lève-toi !", "rule": "In orders, the pronoun goes after the verb with a hyphen, and **te → toi**: *Lève-toi ! Dépêche-toi ! Couchez-vous ! Reposons-nous !*" },
+    { "id": "refl-vs-not", "label": "je me lave / je lave la voiture", "rule": "With **se**, you do it to yourself: *je me lave*. Without it, you do it to something or someone else: *je lave la voiture, je réveille Lou*." },
+    { "id": "refl-body", "label": "body parts: les, not mes", "rule": "With a reflexive verb, body parts take **le / la / les**: *je me brosse **les** dents, elle se lave **les** mains* (not *mes dents*)." }
+  ],
+  "sections": [
+    {
+      "title": "1. The reflexive pronouns",
+      "table": {
+        "head": ["se lever (to get up)", "Pronoun"], "frCols": [0],
+        "rows": [
+          ["je me lève", "me"],
+          ["tu te lèves", "te"],
+          ["il / elle / on se lève", "se"],
+          ["nous nous levons", "nous"],
+          ["vous vous levez", "vous"],
+          ["ils / elles se lèvent", "se"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je me lève|refl-pronouns} à sept heures.", "en": "I get up at seven." },
+        { "fr": "{Nous nous couchons|refl-pronouns} tard.", "en": "We go to bed late." },
+        { "fr": "{Ils se reposent|refl-pronouns}.", "en": "They're resting." }
+      ],
+      "tip": "*nous nous* and *vous vous* look strange, but they're correct: the first is the subject, the second the reflexive pronoun."
+    },
+    {
+      "title": "2. Before a vowel: m', t', s'",
+      "examples": [
+        { "fr": "{Je m'habille|refl-elision}.", "en": "I'm getting dressed." },
+        { "fr": "{Tu t'appelles|refl-elision} comment ?", "en": "What's your name?" },
+        { "fr": "{Lou s'endort|refl-elision}.", "en": "Lou is falling asleep." }
+      ],
+      "tip": "You've known one since Unit 1: *je m'appelle* is a reflexive verb (*s'appeler*, literally “to call oneself”)."
+    },
+    {
+      "title": "3. Saying no",
+      "text": ["**ne** comes before the pronoun, **pas** after the verb. The pronoun never leaves the verb."],
+      "examples": [
+        { "fr": "{Je ne me lève pas|refl-neg} tôt.", "en": "I don't get up early." },
+        { "fr": "{Il ne s'habille pas|refl-neg}.", "en": "He's not getting dressed." },
+        { "fr": "{Tu ne te reposes pas|refl-neg} ?", "en": "Aren't you resting?" }
+      ]
+    },
+    {
+      "title": "4. Asking questions",
+      "examples": [
+        { "fr": "{Tu te lèves|refl-question} ?", "en": "Are you getting up?" },
+        { "fr": "{Est-ce que vous vous reposez|refl-question} ?", "en": "Are you resting?" },
+        { "fr": "{À quelle heure tu te couches|refl-question} ?", "en": "What time do you go to bed?" }
+      ]
+    },
+    {
+      "title": "5. After another verb",
+      "text": ["After *aller, devoir, vouloir…* the reflexive verb is an infinitive — but its pronoun still matches the subject."],
+      "examples": [
+        { "fr": "{Je vais me coucher|refl-infinitive}.", "en": "I'm going to go to bed." },
+        { "fr": "{Tu dois te lever|refl-infinitive} !", "en": "You must get up!" },
+        { "fr": "{Nous voulons nous reposer|refl-infinitive}.", "en": "We want to rest." }
+      ]
+    },
+    {
+      "title": "6. Orders: Lève-toi !",
+      "text": ["In a command, the pronoun comes **after** the verb with a hyphen, and **te** becomes **toi**."],
+      "table": {
+        "head": ["Order", "English"], "frCols": [0],
+        "rows": [
+          ["Lève-toi !", "Get up!"],
+          ["Dépêche-toi !", "Hurry up!"],
+          ["Couchez-vous !", "Go to bed! (vous)"],
+          ["Reposons-nous !", "Let's rest!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Lève-toi|refl-imperative}, Hugo !", "en": "Get up, Hugo!" },
+        { "fr": "{Dépêchez-vous|refl-imperative}, les enfants !", "en": "Hurry up, children!" }
+      ]
+    },
+    {
+      "title": "7. Reflexive or not?",
+      "text": ["Many verbs exist both ways. With **se**, you do it to yourself. Without it, you do it to someone or something else."],
+      "table": {
+        "head": ["To yourself", "To something else"], "frCols": [0, 1],
+        "rows": [
+          ["Je me lave.", "Je lave la voiture."],
+          ["Je me réveille.", "Je réveille Lou."],
+          ["Je m'habille.", "J'habille le bébé."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Papa lave la voiture|refl-vs-not}.", "en": "Dad is washing the car." },
+        { "fr": "{Je me lave|refl-vs-not} avant de manger.", "en": "I wash before eating." }
+      ]
+    },
+    {
+      "title": "8. Body parts: les, not mes",
+      "text": ["The reflexive pronoun already shows whose body it is, so French uses **le / la / les** — never *mon / ma / mes*."],
+      "examples": [
+        { "fr": "{Je me brosse les dents|refl-body}.", "en": "I brush my teeth." },
+        { "fr": "{Elle se lave les mains|refl-body}.", "en": "She washes her hands." },
+        { "fr": "{Tu te coiffes les cheveux|refl-body} ?", "en": "Are you doing your hair?" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je lève à sept heures.", "right": "Je me lève à sept heures.", "why": "*se lever* needs its pronoun: **je me lève**." },
+    { "wrong": "Je me ne lève pas.", "right": "Je ne me lève pas.", "why": "**ne** comes before the pronoun." },
+    { "wrong": "Je vais se coucher.", "right": "Je vais me coucher.", "why": "The pronoun matches the subject: **je … me**." },
+    { "wrong": "Te lève !", "right": "Lève-toi !", "why": "In orders: verb + hyphen + **toi**." },
+    { "wrong": "Je me brosse mes dents.", "right": "Je me brosse les dents.", "why": "Body parts: **les**, not *mes*." },
+    { "wrong": "Je me habille.", "right": "Je m'habille.", "why": "**me → m'** before a vowel or silent h." }
+  ],
+  "story": {
+    "title": "Hugo, lève-toi !",
+    "en": "Hugo's first morning at his new job doesn't start well.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi matin, six heures. C'est le premier jour de travail de Hugo.", "en": "Monday morning, six o'clock. It's Hugo's first day at work." },
+      { "sp": "", "fr": "Le réveil sonne… mais Hugo {ne se réveille pas|refl-neg}.", "en": "The alarm rings… but Hugo doesn't wake up." },
+      { "sp": "", "fr": "À sept heures, Léa téléphone.", "en": "At seven, Léa phones." },
+      { "sp": "Léa", "fr": "Allô, Hugo ? {Tu te lèves|refl-question} ?", "en": "Hello, Hugo? Are you up?" },
+      { "sp": "Hugo", "fr": "Hmm… Quoi ? Quelle heure il est ?", "en": "Hmm… What? What time is it?" },
+      { "sp": "Léa", "fr": "Sept heures ! {Lève-toi|refl-imperative} ! {Dépêche-toi|refl-imperative} !", "en": "Seven o'clock! Get up! Hurry up!" },
+      { "sp": "Hugo", "fr": "Oh non ! {Je me lève|refl-pronouns}, je me lève !", "en": "Oh no! I'm getting up, I'm getting up!" },
+      { "sp": "", "fr": "Hugo {se douche|refl-pronouns} en deux minutes et {s'habille|refl-elision} très vite.", "en": "Hugo showers in two minutes and gets dressed very quickly." },
+      { "sp": "Hugo", "fr": "Où est ma brosse à dents ? {Je me brosse les dents|refl-body}…", "en": "Where's my toothbrush? I'm brushing my teeth…" },
+      { "sp": "", "fr": "{Il se coiffe avec les mains|refl-body}, et il part.", "en": "He does his hair with his hands, and leaves." },
+      { "sp": "Léa", "fr": "Hugo, {tu ne dois pas te coucher|refl-infinitive} si tard !", "en": "Hugo, you mustn't go to bed so late!" },
+      { "sp": "Hugo", "fr": "Je sais… Ce soir, {je vais me coucher|refl-infinitive} à dix heures !", "en": "I know… Tonight I'm going to bed at ten!" },
+      { "sp": "", "fr": "Dans la rue, il voit son voisin, {qui lave sa voiture|refl-vs-not}.", "en": "In the street, he sees his neighbour, who is washing his car." },
+      { "sp": "Le voisin", "fr": "Bonjour, Hugo ! Vous êtes en retard ?", "en": "Hello, Hugo! Are you late?" },
+      { "sp": "Hugo", "fr": "Oui ! Mon réveil {ne me réveille pas|refl-vs-not} !", "en": "Yes! My alarm doesn't wake me up!" },
+      { "sp": "", "fr": "À huit heures et demie, Hugo arrive au bureau… avec une chaussette rouge et une chaussette bleue !", "en": "At half past eight, Hugo arrives at the office… with one red sock and one blue sock!" }
+    ]
+  },
+  "quiz": [
+    { "case": "refl-pronouns", "type": "mc", "q": "Je ___ [lève|se-lever] à sept heures.", "en": "I get up at seven.", "options": ["me", "te", "se"], "answer": "me" },
+    { "case": "refl-pronouns", "type": "type", "q": "Nous ___ couchons tard.", "en": "We go to bed late.", "answer": "nous" },
+    { "case": "refl-pronouns", "type": "mc", "q": "Ils ___ reposent.", "en": "They're resting.", "options": ["se", "nous", "me"], "answer": "se" },
+    { "case": "refl-elision", "type": "mc", "q": "Je ___habille.", "en": "I'm getting dressed.", "options": ["m'", "me", "je"], "answer": "m'" },
+    { "case": "refl-elision", "type": "type", "q": "Elle ___appelle Léa.", "en": "Her name is Léa.", "answer": "s'" },
+    { "case": "refl-neg", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je ne me lève pas.", "Je me ne lève pas.", "Je ne lève me pas."], "answer": "Je ne me lève pas." },
+    { "case": "refl-neg", "type": "type", "q": "Il ne ___ réveille pas.", "en": "He doesn't wake up.", "answer": "se" },
+    { "case": "refl-question", "type": "mc", "q": "À quelle heure tu ___ couches ?", "en": "What time do you go to bed?", "options": ["te", "me", "se"], "answer": "te" },
+    { "case": "refl-question", "type": "mc", "lang": "en", "q": "How do you ask a friend “Are you getting up?”", "options": ["Tu te lèves ?", "Tu me lèves ?", "Te tu lèves ?"], "answer": "Tu te lèves ?" },
+    { "case": "refl-infinitive", "type": "mc", "q": "Je vais ___ coucher.", "en": "I'm going to go to bed.", "options": ["me", "se", "te"], "answer": "me", "why": "The pronoun matches the subject: **je … me**." },
+    { "case": "refl-infinitive", "type": "type", "q": "Tu dois ___ [lever|se-lever] !", "en": "You must get up!", "answer": "te" },
+    { "case": "refl-imperative", "type": "mc", "q": "___-toi !", "en": "Hurry up!", "options": ["Dépêche", "Dépêches", "Dépêcher"], "answer": "Dépêche" },
+    { "case": "refl-imperative", "type": "type", "q": "[Lève|se-lever]-___ !", "en": "Get up! (to a friend)", "answer": "toi" },
+    { "case": "refl-vs-not", "type": "mc", "q": "Je ___ la voiture.", "en": "I'm washing the car.", "options": ["lave", "me lave"], "answer": "lave" },
+    { "case": "refl-vs-not", "type": "mc", "q": "Je ___ à sept heures.", "en": "I wake up at seven.", "options": ["me réveille", "réveille"], "answer": "me réveille" },
+    { "case": "refl-body", "type": "mc", "q": "Je me brosse ___ dents.", "en": "I brush my teeth.", "options": ["les", "mes", "des"], "answer": "les", "why": "With reflexive verbs, body parts take **le / la / les**." },
+    { "case": "refl-body", "type": "type", "q": "Elle se lave ___ mains.", "en": "She washes her hands.", "answer": "les" }
+  ]
+}

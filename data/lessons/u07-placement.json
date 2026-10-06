@@ -1,0 +1,142 @@
+{
+  "id": "u07-placement",
+  "type": "grammar",
+  "unit": 7,
+  "title": "Une belle robe rouge",
+  "en": "Where adjectives go: before or after the noun",
+  "intro": "In English, adjectives always come before the noun. In French, most come **after** it (*une robe rouge*) — but a small group of very common ones come **before** (*une belle robe*). Remember them with **BAGS**: Beauty, Age, Goodness, Size.",
+  "cases": [
+    { "id": "pla-after", "label": "most adjectives: after the noun", "rule": "Colours, nationalities, shapes and most other adjectives go **after** the noun: *une robe rouge, un film français, un repas délicieux*." },
+    { "id": "pla-bags", "label": "BAGS: before the noun", "rule": "**B**eauty (beau, joli), **A**ge (jeune, vieux, nouveau), **G**oodness (bon, mauvais), **S**ize (grand, petit, gros) go **before**: *une belle robe, un petit chapeau*." },
+    { "id": "pla-bel", "label": "bel, nouvel, vieil", "rule": "Before a masculine noun starting with a vowel or silent h: **beau → bel, nouveau → nouvel, vieux → vieil**: *un bel appartement, un nouvel ami, un vieil homme*." },
+    { "id": "pla-two", "label": "two adjectives", "rule": "Each one goes in its usual place: *une belle robe rouge*. Two adjectives after the noun are joined with **et**: *un t-shirt blanc et bleu*." },
+    { "id": "pla-de", "label": "de belles robes (des → de)", "rule": "In careful French, **des** becomes **de** when an adjective comes before a plural noun: *de belles robes, de grands yeux*. In speech you'll also hear *des*." },
+    { "id": "pla-meaning", "label": "before or after: a different meaning", "rule": "A few adjectives change meaning: *un grand homme* (great) / *un homme grand* (tall); *mon ancien professeur* (former) / *un meuble ancien* (antique); *un cher ami* (dear) / *une robe chère* (expensive)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Most adjectives go after the noun",
+      "text": ["Colours, nationalities, shapes and longer adjectives come **after** the noun — the opposite of English."],
+      "examples": [
+        { "fr": "{Une robe rouge|pla-after}.", "en": "A red dress." },
+        { "fr": "{Un film français|pla-after}.", "en": "A French film." },
+        { "fr": "{Un repas délicieux|pla-after}.", "en": "A delicious meal." }
+      ]
+    },
+    {
+      "title": "2. BAGS: a few short adjectives go before",
+      "table": {
+        "head": ["Group", "Examples"], "frCols": [1],
+        "rows": [
+          ["Beauty", "une belle robe · un joli sac"],
+          ["Age", "un jeune homme · un vieux pull · une nouvelle veste"],
+          ["Goodness", "un bon repas · un mauvais film"],
+          ["Size", "un grand manteau · un petit chapeau · un gros chien"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Une belle robe|pla-bags}.", "en": "A beautiful dress." },
+        { "fr": "{Un petit chapeau|pla-bags}.", "en": "A small hat." },
+        { "fr": "{Un bon restaurant|pla-bags}.", "en": "A good restaurant." }
+      ]
+    },
+    {
+      "title": "3. bel, nouvel, vieil",
+      "text": ["Three BAGS adjectives have a special form before a masculine noun that starts with a vowel or a silent h — it makes the words flow together."],
+      "table": {
+        "head": ["Normal", "Before a vowel"], "frCols": [0, 1],
+        "rows": [
+          ["un beau jardin", "un bel appartement"],
+          ["un nouveau sac", "un nouvel ami"],
+          ["un vieux pull", "un vieil homme"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ils ont {un bel appartement|pla-bel}.", "en": "They have a beautiful apartment." },
+        { "fr": "C'est {un nouvel ami|pla-bel}.", "en": "He's a new friend." }
+      ],
+      "tip": "**bel, nouvel, vieil** sound exactly like the feminine **belle, nouvelle, vieille**."
+    },
+    {
+      "title": "4. Two adjectives",
+      "examples": [
+        { "fr": "{Une belle robe rouge|pla-two}.", "en": "A beautiful red dress." },
+        { "fr": "{Un t-shirt blanc et bleu|pla-two}.", "en": "A white and blue T-shirt." },
+        { "fr": "{Un petit chat gris|pla-two}.", "en": "A little grey cat." }
+      ]
+    },
+    {
+      "title": "5. des → de before an adjective",
+      "text": ["In careful French, when an adjective comes **before** a plural noun, **des** becomes **de**. In everyday speech you'll often hear *des* anyway."],
+      "examples": [
+        { "fr": "Il y a {de belles robes|pla-de}.", "en": "There are beautiful dresses." },
+        { "fr": "Elle a {de grands yeux|pla-de}.", "en": "She has big eyes." }
+      ],
+      "tip": "With the adjective after the noun, keep **des**: *des robes rouges*."
+    },
+    {
+      "title": "6. Before or after: different meanings",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["un grand homme", "a great man"],
+          ["un homme grand", "a tall man"],
+          ["mon ancien professeur", "my former teacher"],
+          ["un meuble ancien", "an antique piece of furniture"],
+          ["un cher ami", "a dear friend"],
+          ["une robe chère", "an expensive dress"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Un cher ami|pla-meaning}.", "en": "A dear friend." },
+        { "fr": "{Une robe chère|pla-meaning}.", "en": "An expensive dress." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "une rouge robe", "right": "une robe rouge", "why": "Colours go **after** the noun." },
+    { "wrong": "une robe belle", "right": "une belle robe", "why": "**beau / belle** (Beauty) goes **before** the noun." },
+    { "wrong": "un beau appartement", "right": "un bel appartement", "why": "Before a masculine vowel: **bel**." },
+    { "wrong": "un nouveau ami", "right": "un nouvel ami", "why": "Before a masculine vowel: **nouvel**." },
+    { "wrong": "un français film", "right": "un film français", "why": "Nationalities go **after** the noun." }
+  ],
+  "story": {
+    "title": "Le nouveau look de Hugo",
+    "en": "Hugo has a job interview — and needs new clothes.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Hugo a un entretien pour un travail lundi. Il n'a pas de vêtements élégants…", "en": "Hugo has a job interview on Monday. He has no smart clothes…" },
+      { "sp": "Hugo", "fr": "J'ai seulement {un vieux jean|pla-bags} et {des t-shirts noirs|pla-after}.", "en": "I only have old jeans and black T-shirts." },
+      { "sp": "Léa", "fr": "On va au magasin ! Tu as besoin d'{une belle chemise blanche|pla-two}.", "en": "Let's go to the shop! You need a nice white shirt." },
+      { "sp": "Sophie", "fr": "Et d'{un pantalon élégant|pla-after}, et d'{une veste noire|pla-after}.", "en": "And smart trousers, and a black jacket." },
+      { "sp": "", "fr": "Au magasin, Hugo essaie un costume.", "en": "At the shop, Hugo tries on a suit." },
+      { "sp": "Léa", "fr": "Oh, Hugo ! Tu es {un bel homme|pla-bel} !", "en": "Oh, Hugo! You're a handsome man!" },
+      { "sp": "Sophie", "fr": "Avec ces vêtements, tu as l'air d'{un homme important|pla-after}.", "en": "In these clothes, you look like an important man." },
+      { "sp": "Hugo", "fr": "Et les chaussures ? J'ai {de vieilles [baskets|basket-shoe]|pla-de}…", "en": "And the shoes? I've got old trainers…" },
+      { "sp": "Léa", "fr": "Non ! Il faut {de belles chaussures noires|pla-two}.", "en": "No! You need nice black shoes." },
+      { "sp": "Le vendeur", "fr": "Ce costume est parfait. C'est {un bon choix|pla-bags}, monsieur.", "en": "This suit is perfect. It's a good choice, sir." },
+      { "sp": "Hugo", "fr": "Merci. C'est combien ?", "en": "Thank you. How much is it?" },
+      { "sp": "Le vendeur", "fr": "Trois cents euros.", "en": "Three hundred euros." },
+      { "sp": "Hugo", "fr": "Trois cents euros ?! C'est {un costume cher|pla-meaning} !", "en": "Three hundred euros?! That's an expensive suit!" },
+      { "sp": "Léa", "fr": "C'est pour ton entretien, Hugo. Et c'est le cadeau de {ta chère sœur|pla-meaning} !", "en": "It's for your interview, Hugo. And it's a present from your dear sister!" },
+      { "sp": "Hugo", "fr": "Merci, Léa ! Tu es {une sœur formidable|pla-after}.", "en": "Thank you, Léa! You're a wonderful sister." }
+    ]
+  },
+  "quiz": [
+    { "case": "pla-after", "type": "mc", "lang": "en", "q": "How do you say “a red dress”?", "options": ["une robe rouge", "une rouge robe"], "answer": "une robe rouge" },
+    { "case": "pla-after", "type": "mc", "lang": "en", "q": "How do you say “a French film”?", "options": ["un film français", "un français film"], "answer": "un film français" },
+    { "case": "pla-bags", "type": "mc", "lang": "en", "q": "How do you say “a beautiful dress”?", "options": ["une belle robe", "une robe belle"], "answer": "une belle robe" },
+    { "case": "pla-bags", "type": "mc", "lang": "en", "q": "How do you say “a small hat”?", "options": ["un petit chapeau", "un chapeau petit"], "answer": "un petit chapeau" },
+    { "case": "pla-bags", "type": "mc", "lang": "en", "q": "Which adjectives usually go BEFORE the noun?", "options": ["beau, jeune, bon, grand (BAGS)", "rouge, français, rond", "all of them"], "answer": "beau, jeune, bon, grand (BAGS)", "say": "beau, jeune, bon, grand" },
+    { "case": "pla-bel", "type": "mc", "q": "Un ___ appartement.", "en": "A beautiful apartment.", "options": ["bel", "beau", "belle"], "answer": "bel" },
+    { "case": "pla-bel", "type": "type", "q": "Un ___ ami.", "en": "A new friend.", "answer": "nouvel" },
+    { "case": "pla-bel", "type": "mc", "q": "Un ___ homme.", "en": "An old man.", "options": ["vieil", "vieux", "vieille"], "answer": "vieil" },
+    { "case": "pla-two", "type": "mc", "lang": "en", "q": "How do you say “a beautiful red dress”?", "options": ["une belle robe rouge", "une robe belle rouge", "une rouge belle robe"], "answer": "une belle robe rouge" },
+    { "case": "pla-two", "type": "mc", "lang": "en", "q": "How do you say “a white and blue T-shirt”?", "options": ["un t-shirt blanc et bleu", "un blanc et bleu t-shirt"], "answer": "un t-shirt blanc et bleu" },
+    { "case": "pla-de", "type": "mc", "q": "Elle a ___ grands yeux.", "en": "She has big eyes.", "options": ["de", "les", "du"], "answer": "de", "why": "Adjective before a plural noun: careful French uses **de**." },
+    { "case": "pla-de", "type": "type", "q": "Il y a ___ belles robes.", "en": "There are beautiful dresses.", "answer": "de" },
+    { "case": "pla-meaning", "type": "mc", "lang": "en", "q": "« un homme grand » means…", "options": ["a tall man", "a great man"], "answer": "a tall man", "say": "un homme grand" },
+    { "case": "pla-meaning", "type": "mc", "lang": "en", "q": "« une robe chère » means…", "options": ["an expensive dress", "a dear dress"], "answer": "an expensive dress", "say": "une robe chère" },
+    { "case": "pla-meaning", "type": "mc", "lang": "en", "q": "« mon ancien professeur » means…", "options": ["my former teacher", "my elderly teacher"], "answer": "my former teacher", "say": "mon ancien professeur" }
+  ]
+}

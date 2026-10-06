@@ -1,0 +1,179 @@
+{
+  "id": "u06-er-spelling",
+  "type": "grammar",
+  "unit": 6,
+  "title": "Je mange, nous mangeons…",
+  "en": "-er verbs with spelling changes — and aller",
+  "intro": "Some **-er** verbs change their spelling a little, only to keep the right sound: *nous mangeons, j'achète, je préfère, j'appelle, je paie*. The endings stay regular. And one **-er** verb breaks every rule: **aller**.",
+  "cases": [
+    { "id": "sp-ger", "label": "-ger: nous mangeons", "rule": "Verbs in **-ger** keep an **e** before **-ons**: *nous mangeons, nous mélangeons* — so the g stays soft (/ʒ/)." },
+    { "id": "sp-cer", "label": "-cer: nous commençons", "rule": "Verbs in **-cer** take **ç** before **-ons**: *nous commençons* — so the c stays /s/." },
+    { "id": "sp-e-grave", "label": "e → è: j'achète", "rule": "**acheter**: the e becomes **è** when the ending is silent: *j'achète, tu achètes, il achète, ils achètent* — but *nous achetons, vous achetez*." },
+    { "id": "sp-e-acute", "label": "é → è: je préfère", "rule": "**préférer**: the last é becomes **è** when the ending is silent: *je préfère, ils préfèrent* — but *nous préférons*." },
+    { "id": "sp-double", "label": "ll / tt: j'appelle, je jette", "rule": "**appeler, jeter** double the consonant when the ending is silent: *j'appelle, je jette* — but *nous appelons, nous jetons*." },
+    { "id": "sp-yer", "label": "-yer: je paie", "rule": "Verbs in **-yer** change **y → i** when the ending is silent: *je paie, il nettoie, ils envoient* — but *nous payons*. (**payer** also accepts *je paye*.)" },
+    { "id": "sp-boot", "label": "the “boot”: je, tu, il, ils change", "rule": "In all these verbs, only **je, tu, il/elle, ils/elles** change. **nous** and **vous** keep the infinitive's spelling. Drawn in a table, the changing forms make the shape of a boot." },
+    { "id": "sp-aller", "label": "aller: je vais, tu vas…", "rule": "**aller** is completely irregular: *je vais, tu vas, il va, nous allons, vous allez, ils vont*." }
+  ],
+  "sections": [
+    {
+      "title": "1. -ger verbs: nous mangeons",
+      "text": ["In French, **g** + **o** sounds /ɡ/ (like *go*). To keep the soft /ʒ/ sound of *manger*, add an **e**: **nous mangeons**."],
+      "table": {
+        "head": ["manger (to eat)", ""], "frCols": [0],
+        "rows": [
+          ["je mange", ""], ["tu manges", ""], ["il mange", ""],
+          ["nous mangeons", "← an extra e"], ["vous mangez", ""], ["ils mangent", ""]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous mangeons|sp-ger} à huit heures.", "en": "We eat at eight o'clock." },
+        { "fr": "{Nous mélangeons|sp-ger} la farine et les œufs.", "en": "We mix the flour and the eggs." }
+      ]
+    },
+    {
+      "title": "2. -cer verbs: nous commençons",
+      "text": ["**c** + **o** sounds /k/. To keep the /s/ sound of *commencer*, write **ç** (c with a cedilla): **nous commençons**."],
+      "examples": [
+        { "fr": "{Nous commençons|sp-cer} le repas.", "en": "We're starting the meal." },
+        { "fr": "Le film commence à neuf heures.", "en": "The film starts at nine." }
+      ]
+    },
+    {
+      "title": "3. The boot verbs: acheter → j'achète",
+      "text": ["When the ending is silent (je, tu, il, ils), the last syllable of the stem is stressed and the **e** opens to **è**. With **nous** and **vous**, the ending is pronounced, so nothing changes. The four changing forms make the shape of a boot."],
+      "table": {
+        "head": ["Changes (the boot)", "No change"], "frCols": [0, 1],
+        "rows": [
+          ["j'achète", "nous achetons"],
+          ["tu achètes", "vous achetez"],
+          ["il achète", ""],
+          ["ils achètent", ""]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'achète|sp-e-grave} du pain.", "en": "I'm buying bread." },
+        { "fr": "{Nous achetons|sp-boot} des fruits.", "en": "We're buying fruit." }
+      ]
+    },
+    {
+      "title": "4. é → è: préférer",
+      "table": {
+        "head": ["Changes", "No change"], "frCols": [0, 1],
+        "rows": [
+          ["je préfère", "nous préférons"],
+          ["tu préfères", "vous préférez"],
+          ["il préfère", ""],
+          ["ils préfèrent", ""]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je préfère|sp-e-acute} le thé.", "en": "I prefer tea." },
+        { "fr": "{Vous préférez|sp-boot} le café ?", "en": "Do you prefer coffee?" }
+      ]
+    },
+    {
+      "title": "5. Doubling the consonant: appeler, jeter",
+      "text": ["Some verbs show the open **è** sound by doubling the consonant instead: **ll** in *appeler*, **tt** in *jeter*."],
+      "table": {
+        "head": ["Changes", "No change"], "frCols": [0, 1],
+        "rows": [
+          ["j'appelle", "nous appelons"],
+          ["tu appelles", "vous appelez"],
+          ["je jette", "nous jetons"],
+          ["ils jettent", "vous jetez"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je m'appelle|sp-double} Léa.", "en": "My name is Léa." },
+        { "fr": "{J'appelle|sp-double} Sophie.", "en": "I'm calling Sophie." },
+        { "fr": "{Je jette|sp-double} le papier.", "en": "I throw the paper away." }
+      ],
+      "tip": "You already know this one: *je m'appelle* is **appeler** with a double **l**!"
+    },
+    {
+      "title": "6. -yer verbs: y → i",
+      "table": {
+        "head": ["Changes", "No change"], "frCols": [0, 1],
+        "rows": [
+          ["je paie", "nous payons"],
+          ["tu paies", "vous payez"],
+          ["il nettoie", "nous nettoyons"],
+          ["ils envoient", "vous envoyez"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je paie|sp-yer} l'addition.", "en": "I'm paying the bill." },
+        { "fr": "{Il nettoie|sp-yer} la cuisine.", "en": "He's cleaning the kitchen." }
+      ],
+      "tip": "**payer** is the one exception that also accepts **y**: *je paye* is correct too."
+    },
+    {
+      "title": "7. aller: the -er verb that breaks the rules",
+      "table": {
+        "head": ["aller (to go)", "English"], "frCols": [0],
+        "rows": [
+          ["je vais", "I go, I'm going"],
+          ["tu vas", "you go"],
+          ["il / elle / on va", "he / she goes, we go"],
+          ["nous allons", "we go"],
+          ["vous allez", "you go"],
+          ["ils / elles vont", "they go"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais|sp-aller} au marché.", "en": "I'm going to the market." },
+        { "fr": "{Ils vont|sp-aller} au café.", "en": "They're going to the café." },
+        { "fr": "Comment {allez-vous|sp-aller} ?", "en": "How are you?" }
+      ],
+      "tip": "You already know *ça va* (it goes → I'm fine) — that's **aller** too."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "nous mangons", "right": "nous mangeons", "why": "Keep the **e** so the g stays soft." },
+    { "wrong": "nous commencons", "right": "nous commençons", "why": "**ç** before **o** keeps the /s/ sound." },
+    { "wrong": "j'achete", "right": "j'achète", "why": "When the ending is silent: **è**." },
+    { "wrong": "nous achètons", "right": "nous achetons", "why": "No accent with **nous / vous** — they're outside the boot." },
+    { "wrong": "j'appele", "right": "j'appelle", "why": "Double **l** when the ending is silent." },
+    { "wrong": "je alle", "right": "je vais", "why": "**aller** is irregular: *je vais, tu vas, il va…*" }
+  ],
+  "story": {
+    "title": "La fête de Sophie",
+    "en": "Léa and Hugo shop for Sophie's party.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi, Léa et Hugo {vont|sp-aller} au supermarché pour la fête de Sophie.", "en": "On Saturday, Léa and Hugo go to the supermarket for Sophie's party." },
+      { "sp": "Léa", "fr": "{Nous achetons|sp-boot} des chips, des boissons et un gâteau.", "en": "We're buying crisps, drinks and a cake." },
+      { "sp": "Hugo", "fr": "Moi, {je préfère|sp-e-acute} la pizza !", "en": "Me, I prefer pizza!" },
+      { "sp": "Léa", "fr": "Toi, {tu préfères|sp-e-acute} toujours la pizza…", "en": "You always prefer pizza…" },
+      { "sp": "Hugo", "fr": "{J'achète|sp-e-grave} aussi du chocolat ?", "en": "Shall I buy chocolate too?" },
+      { "sp": "Léa", "fr": "Non ! {Nous commençons|sp-cer} la fête à sept heures, et {nous mangeons|sp-ger} à huit heures.", "en": "No! We start the party at seven, and we eat at eight." },
+      { "sp": "", "fr": "À la caisse, Hugo cherche son argent.", "en": "At the checkout, Hugo looks for his money." },
+      { "sp": "Hugo", "fr": "Euh… Léa, {tu paies|sp-yer} ?", "en": "Um… Léa, are you paying?" },
+      { "sp": "Léa", "fr": "Encore ?! D'accord, {je paie|sp-yer}. Mais {tu nettoies|sp-yer} l'appartement après la fête !", "en": "Again?! Fine, I'll pay. But you're cleaning the flat after the party!" },
+      { "sp": "", "fr": "Le soir, {ils vont|sp-aller} chez Léa et Sophie.", "en": "In the evening, they go to Léa and Sophie's." },
+      { "sp": "Léa", "fr": "{J'appelle|sp-double} Sophie ? Elle arrive à huit heures.", "en": "Shall I call Sophie? She's arriving at eight." },
+      { "sp": "", "fr": "Après la fête, Hugo {jette|sp-double} les bouteilles et {nettoie|sp-yer} la cuisine.", "en": "After the party, Hugo throws out the bottles and cleans the kitchen." },
+      { "sp": "Hugo", "fr": "{Nous appelons|sp-boot} ça une fête ? Pour moi, c'est du travail !", "en": "We call this a party? For me, it's work!" }
+    ]
+  },
+  "quiz": [
+    { "case": "sp-ger", "type": "mc", "q": "Nous ___ à midi.", "en": "We eat at noon.", "options": ["mangeons", "mangons", "mangez"], "answer": "mangeons" },
+    { "case": "sp-ger", "type": "type", "q": "Nous ___ la farine et le sucre.", "en": "We mix the flour and the sugar.", "answer": "mélangeons" },
+    { "case": "sp-cer", "type": "mc", "q": "Nous ___ le repas.", "en": "We're starting the meal.", "options": ["commençons", "commencons", "commenceons"], "answer": "commençons" },
+    { "case": "sp-cer", "type": "type", "q": "Nous ___ à huit heures.", "en": "We start at eight.", "answer": "commençons" },
+    { "case": "sp-e-grave", "type": "mc", "q": "J'___ du pain.", "en": "I'm buying bread.", "options": ["achète", "achete", "achètes"], "answer": "achète" },
+    { "case": "sp-e-grave", "type": "type", "q": "Ils ___ des fruits.", "en": "They're buying fruit.", "answer": "achètent" },
+    { "case": "sp-e-acute", "type": "mc", "q": "Je ___ le thé.", "en": "I prefer tea.", "options": ["préfère", "préfére", "préferre"], "answer": "préfère" },
+    { "case": "sp-e-acute", "type": "type", "q": "Tu ___ le café ?", "en": "Do you prefer coffee?", "answer": "préfères" },
+    { "case": "sp-double", "type": "mc", "q": "Je m'___ Léa.", "en": "My name is Léa.", "options": ["appelle", "appele", "apelle"], "answer": "appelle" },
+    { "case": "sp-double", "type": "type", "q": "Je ___ le papier.", "en": "I throw the paper away.", "answer": "jette" },
+    { "case": "sp-yer", "type": "mc", "q": "Je ___ l'addition.", "en": "I'm paying the bill.", "options": ["paie", "payons", "payez"], "answer": "paie", "why": "**payer** also accepts *je paye*." },
+    { "case": "sp-yer", "type": "type", "q": "Il ___ la cuisine.", "en": "He's cleaning the kitchen.", "answer": "nettoie" },
+    { "case": "sp-boot", "type": "mc", "lang": "en", "q": "In « acheter », which forms take the accent (è)?", "options": ["je, tu, il, ils — the “boot”", "nous and vous", "all of them"], "answer": "je, tu, il, ils — the “boot”", "say": "j'achète, tu achètes, il achète, ils achètent" },
+    { "case": "sp-boot", "type": "mc", "q": "Nous ___ des pommes.", "en": "We're buying apples.", "options": ["achetons", "achètons"], "answer": "achetons", "why": "No accent with **nous** and **vous**." },
+    { "case": "sp-aller", "type": "mc", "q": "Je ___ au marché.", "en": "I'm going to the market.", "options": ["vais", "alle", "va"], "answer": "vais" },
+    { "case": "sp-aller", "type": "type", "q": "Ils ___ au café.", "en": "They're going to the café.", "answer": "vont" },
+    { "case": "sp-aller", "type": "mc", "q": "Comment ___-vous ?", "en": "How are you?", "options": ["allez", "allons", "vont"], "answer": "allez" }
+  ]
+}

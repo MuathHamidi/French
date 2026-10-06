@@ -1,0 +1,218 @@
+{
+  "id": "u09-places",
+  "type": "vocab",
+  "unit": 9,
+  "title": "En ville",
+  "en": "Places in town",
+  "intro": "22 places you'll find in any French town. Watch the false friend: **la bibliothèque** is a library, but **la librairie** is a bookshop!",
+  "words": [
+    { "id": "ville", "fr": "ville", "pos": "noun", "g": "f", "ipa": "vil", "en": "town, city",
+      "def": "Un grand lieu avec beaucoup de maisons, de rues et de gens.", "def_en": "A big place with lots of houses, streets and people.",
+      "forms": ["villes"],
+      "examples": [
+        { "fr": "Lyon est une grande **ville**.", "en": "Lyon is a big city." },
+        { "fr": "J'habite en **ville**.", "en": "I live in town." },
+        { "fr": "C'est une belle **ville** !", "en": "It's a beautiful city!" }
+      ],
+      "note": "**en ville** = in town, into town." },
+    { "id": "centre-ville", "fr": "centre-ville", "pos": "noun", "g": "m", "ipa": "sɑ̃.tʁə.vil", "en": "town centre, downtown",
+      "def": "Le milieu de la ville, avec beaucoup de magasins.", "def_en": "The middle of the town, with lots of shops.",
+      "accept": ["centre ville"],
+      "examples": [
+        { "fr": "On va au **centre-ville** ?", "en": "Shall we go into town?" },
+        { "fr": "Le **centre-ville** est très joli.", "en": "The town centre is very pretty." },
+        { "fr": "J'habite dans le **centre-ville**.", "en": "I live in the town centre." }
+      ] },
+    { "id": "rue", "fr": "rue", "pos": "noun", "g": "f", "ipa": "ʁy", "en": "street",
+      "def": "Un chemin dans la ville, avec des maisons de chaque côté.", "def_en": "A road in town, with buildings on each side.",
+      "forms": ["rues"],
+      "examples": [
+        { "fr": "J'habite dans cette **rue**.", "en": "I live in this street." },
+        { "fr": "La boulangerie est au bout de la **rue**.", "en": "The bakery is at the end of the street." },
+        { "fr": "Il y a beaucoup de voitures dans la **rue**.", "en": "There are lots of cars in the street." }
+      ] },
+    { "id": "place", "fr": "place", "pos": "noun", "g": "f", "ipa": "plas", "en": "square (in a town); seat; space",
+      "def": "Un grand espace ouvert dans la ville, souvent avec un café.", "def_en": "A big open space in a town, often with a café.",
+      "forms": ["places"],
+      "examples": [
+        { "fr": "Il y a un marché sur la **place**.", "en": "There's a market on the square." },
+        { "fr": "On se voit sur la **place** ?", "en": "Shall we meet on the square?" },
+        { "fr": "Il n'y a pas de **place** dans le bus.", "en": "There's no room on the bus." }
+      ],
+      "note": "**une place** is also a seat or space: *Cette place est libre ?* (Is this seat free?)" },
+    { "id": "quartier", "fr": "quartier", "pos": "noun", "g": "m", "ipa": "kaʁ.tje", "en": "neighbourhood, district",
+      "def": "Une partie de la ville.", "def_en": "A part of the city.",
+      "forms": ["quartiers"],
+      "examples": [
+        { "fr": "J'aime mon **quartier**.", "en": "I like my neighbourhood." },
+        { "fr": "C'est un **quartier** calme.", "en": "It's a quiet neighbourhood." },
+        { "fr": "Il y a un bon restaurant dans le **quartier**.", "en": "There's a good restaurant in the area." }
+      ] },
+    { "id": "gare", "fr": "gare", "pos": "noun", "g": "f", "ipa": "ɡaʁ", "en": "(train) station",
+      "def": "Le lieu où on prend le train.", "def_en": "The place where you take the train.",
+      "forms": ["gares"],
+      "examples": [
+        { "fr": "Je vais à la **gare**.", "en": "I'm going to the station." },
+        { "fr": "La **gare** est loin d'ici ?", "en": "Is the station far from here?" },
+        { "fr": "Le train part de la **gare** à midi.", "en": "The train leaves the station at noon." }
+      ],
+      "note": "A bus station is **une gare routière**; a metro station is **une station**." },
+    { "id": "metro", "fr": "métro", "pos": "noun", "g": "m", "ipa": "me.tʁo", "en": "underground, subway, metro",
+      "def": "Un train sous la ville.", "def_en": "A train under the city.",
+      "accept": ["metro"],
+      "examples": [
+        { "fr": "Je prends le **métro**.", "en": "I take the metro." },
+        { "fr": "On va au musée en **métro** ?", "en": "Shall we go to the museum by metro?" },
+        { "fr": "Le **métro** est rapide.", "en": "The metro is fast." }
+      ] },
+    { "id": "arret", "fr": "arrêt", "pos": "noun", "g": "m", "ipa": "a.ʁɛ", "en": "stop (bus or tram stop)",
+      "def": "Le lieu où le bus s'arrête.", "def_en": "The place where the bus stops.",
+      "forms": ["arrêts"], "accept": ["arret"],
+      "examples": [
+        { "fr": "L'**arrêt** de bus est devant la poste.", "en": "The bus stop is in front of the post office." },
+        { "fr": "Je descends au prochain **arrêt**.", "en": "I'm getting off at the next stop." },
+        { "fr": "Il y a un **arrêt** de métro ici ?", "en": "Is there a metro stop here?" }
+      ] },
+    { "id": "banque", "fr": "banque", "pos": "noun", "g": "f", "ipa": "bɑ̃k", "en": "bank",
+      "def": "Le lieu où on met son argent.", "def_en": "The place where you keep your money.",
+      "forms": ["banques"],
+      "examples": [
+        { "fr": "Je vais à la **banque**.", "en": "I'm going to the bank." },
+        { "fr": "La **banque** est fermée le dimanche.", "en": "The bank is closed on Sundays." },
+        { "fr": "Il y a une **banque** à côté de la gare.", "en": "There's a bank next to the station." }
+      ] },
+    { "id": "poste", "fr": "poste", "pos": "noun", "g": "f", "ipa": "pɔst", "en": "post office",
+      "def": "Le lieu où on envoie des lettres et des paquets.", "def_en": "The place where you send letters and parcels.",
+      "examples": [
+        { "fr": "Je vais à la **poste**.", "en": "I'm going to the post office." },
+        { "fr": "La **poste** est au coin de la rue.", "en": "The post office is on the corner." },
+        { "fr": "À quelle heure ferme la **poste** ?", "en": "What time does the post office close?" }
+      ] },
+    { "id": "pharmacie", "fr": "pharmacie", "pos": "noun", "g": "f", "ipa": "faʁ.ma.si", "en": "pharmacy, chemist's",
+      "def": "Le magasin où on achète des médicaments.", "def_en": "The shop where you buy medicine.",
+      "forms": ["pharmacies"],
+      "examples": [
+        { "fr": "Il y a une **pharmacie** près d'ici ?", "en": "Is there a pharmacy near here?" },
+        { "fr": "La **pharmacie** a une croix verte.", "en": "The pharmacy has a green cross." },
+        { "fr": "Je vais à la **pharmacie** pour ma grand-mère.", "en": "I'm going to the pharmacy for my grandmother." }
+      ] },
+    { "id": "hopital", "fr": "hôpital", "pos": "noun", "g": "m", "ipa": "o.pi.tal", "en": "hospital",
+      "def": "Le lieu où on soigne les personnes malades.", "def_en": "The place where sick people are treated.",
+      "forms": ["hôpitaux"], "accept": ["hopital"],
+      "examples": [
+        { "fr": "L'**hôpital** est loin du centre-ville.", "en": "The hospital is far from the town centre." },
+        { "fr": "Ma tante travaille à l'**hôpital**.", "en": "My aunt works at the hospital." },
+        { "fr": "Il y a deux **hôpitaux** à Lyon ?", "en": "Are there two hospitals in Lyon?" }
+      ],
+      "note": "Plural: **des hôpitaux** (-al → -aux)." },
+    { "id": "boulangerie", "fr": "boulangerie", "pos": "noun", "g": "f", "ipa": "bu.lɑ̃ʒ.ʁi", "en": "bakery",
+      "def": "Le magasin où on achète le pain et les croissants.", "def_en": "The shop where you buy bread and croissants.",
+      "forms": ["boulangeries"],
+      "examples": [
+        { "fr": "Je vais à la **boulangerie** tous les matins.", "en": "I go to the bakery every morning." },
+        { "fr": "La **boulangerie** est fermée le lundi.", "en": "The bakery is closed on Mondays." },
+        { "fr": "Cette **boulangerie** a les meilleurs croissants !", "en": "This bakery has the best croissants!" }
+      ] },
+    { "id": "supermarche", "fr": "supermarché", "pos": "noun", "g": "m", "ipa": "sy.pɛʁ.maʁ.ʃe", "en": "supermarket",
+      "def": "Un grand magasin où on achète de tout pour manger.", "def_en": "A big shop where you buy all kinds of food.",
+      "forms": ["supermarchés"], "accept": ["supermarche"],
+      "examples": [
+        { "fr": "Je fais les courses au **supermarché**.", "en": "I do the shopping at the supermarket." },
+        { "fr": "Le **supermarché** est ouvert le dimanche matin.", "en": "The supermarket is open on Sunday mornings." },
+        { "fr": "Il y a un **supermarché** dans mon quartier.", "en": "There's a supermarket in my neighbourhood." }
+      ] },
+    { "id": "magasin", "fr": "magasin", "pos": "noun", "g": "m", "ipa": "ma.ɡa.zɛ̃", "en": "shop, store",
+      "def": "Un lieu où on achète des choses.", "def_en": "A place where you buy things.",
+      "forms": ["magasins"],
+      "examples": [
+        { "fr": "Ce **magasin** vend des vêtements.", "en": "This shop sells clothes." },
+        { "fr": "Les **magasins** ferment à sept heures.", "en": "The shops close at seven." },
+        { "fr": "Il y a beaucoup de **magasins** au centre-ville.", "en": "There are lots of shops in the town centre." }
+      ],
+      "note": "**un grand magasin** = a department store." },
+    { "id": "restaurant", "fr": "restaurant", "pos": "noun", "g": "m", "ipa": "ʁɛs.tɔ.ʁɑ̃", "en": "restaurant",
+      "def": "Un lieu où on mange un repas et où on paie.", "def_en": "A place where you eat a meal and pay.",
+      "forms": ["restaurants", "resto"],
+      "examples": [
+        { "fr": "On mange au **restaurant** ce soir ?", "en": "Shall we eat out tonight?" },
+        { "fr": "Karim travaille dans un **restaurant**.", "en": "Karim works in a restaurant." },
+        { "fr": "C'est un très bon **restaurant**.", "en": "It's a very good restaurant." }
+      ],
+      "note": "Everyday word: **le resto**." },
+    { "id": "cinema", "fr": "cinéma", "pos": "noun", "g": "m", "ipa": "si.ne.ma", "en": "cinema, movie theater",
+      "def": "Le lieu où on regarde des films sur un grand écran.", "def_en": "The place where you watch films on a big screen.",
+      "forms": ["cinémas"], "accept": ["cinema"],
+      "examples": [
+        { "fr": "On va au **cinéma** samedi ?", "en": "Shall we go to the cinema on Saturday?" },
+        { "fr": "Le **cinéma** est à côté du parc.", "en": "The cinema is next to the park." },
+        { "fr": "J'adore le **cinéma** français.", "en": "I love French cinema." }
+      ] },
+    { "id": "musee", "fr": "musée", "pos": "noun", "g": "m", "ipa": "my.ze", "en": "museum",
+      "def": "Un lieu où on regarde des tableaux et des objets anciens.", "def_en": "A place where you look at paintings and old objects.",
+      "forms": ["musées"], "accept": ["musee"],
+      "examples": [
+        { "fr": "Je visite un **musée**.", "en": "I'm visiting a museum." },
+        { "fr": "Le **musée** est fermé le mardi.", "en": "The museum is closed on Tuesdays." },
+        { "fr": "Il y a de beaux tableaux dans ce **musée**.", "en": "There are beautiful paintings in this museum." }
+      ],
+      "note": "**musée** is masculine, even though it ends in **-ée**." },
+    { "id": "parc", "fr": "parc", "pos": "noun", "g": "m", "ipa": "paʁk", "en": "park",
+      "def": "Un grand jardin dans la ville, pour tout le monde.", "def_en": "A big garden in the city, for everyone.",
+      "forms": ["parcs"],
+      "examples": [
+        { "fr": "On se promène dans le **parc**.", "en": "We're walking in the park." },
+        { "fr": "Les enfants jouent au **parc**.", "en": "The children are playing in the park." },
+        { "fr": "Le **parc** de la [Tête d'Or|n-tete-dor] est très grand.", "en": "The Tête d'Or park is very big." }
+      ] },
+    { "id": "bibliotheque", "fr": "bibliothèque", "pos": "noun", "g": "f", "ipa": "bi.bli.jɔ.tɛk", "en": "library; bookcase",
+      "def": "Un lieu où on lit et où on emprunte des livres.", "def_en": "A place where you read and borrow books.",
+      "forms": ["bibliothèques"], "accept": ["bibliotheque"],
+      "examples": [
+        { "fr": "J'étudie à la **bibliothèque**.", "en": "I study at the library." },
+        { "fr": "La **bibliothèque** ferme à six heures.", "en": "The library closes at six." },
+        { "fr": "Il y a beaucoup de livres dans cette **bibliothèque**.", "en": "There are lots of books in this library." }
+      ],
+      "note": "False friend: **une librairie** is a bookshop. A library is **une bibliothèque**." },
+    { "id": "eglise", "fr": "église", "pos": "noun", "g": "f", "ipa": "e.ɡliz", "en": "church",
+      "def": "Un grand bâtiment pour prier, souvent sur la place de la ville.", "def_en": "A big building for praying, often on the town square.",
+      "forms": ["églises"], "accept": ["eglise"],
+      "examples": [
+        { "fr": "L'**église** est sur la place.", "en": "The church is on the square." },
+        { "fr": "C'est une très vieille **église**.", "en": "It's a very old church." },
+        { "fr": "La poste est derrière l'**église**.", "en": "The post office is behind the church." }
+      ] },
+    { "id": "hotel", "fr": "hôtel", "pos": "noun", "g": "m", "ipa": "o.tɛl", "en": "hotel",
+      "def": "Un lieu où on dort quand on voyage.", "def_en": "A place where you sleep when you travel.",
+      "forms": ["hôtels"], "accept": ["hotel"],
+      "examples": [
+        { "fr": "Mon **hôtel** est près de la gare.", "en": "My hotel is near the station." },
+        { "fr": "C'est un **hôtel** pas cher.", "en": "It's a cheap hotel." },
+        { "fr": "L'**hôtel** de ville est sur la grande place.", "en": "The town hall is on the main square." }
+      ],
+      "note": "Careful: **l'hôtel de ville** is the town hall, not a hotel!" }
+  ],
+  "story": {
+    "title": "Bienvenue à Lyon !",
+    "en": "Léa's Canadian cousin Antoine visits Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Antoine, le cousin canadien de Léa, arrive à Lyon. Léa est à la gare pour lui.", "en": "Antoine, Léa's Canadian cousin, arrives in Lyon. Léa is at the station for him." },
+      { "sp": "Léa", "fr": "Bienvenue à Lyon ! C'est une belle ville, tu vas voir. On va au centre-ville en métro ?", "en": "Welcome to Lyon! It's a beautiful city, you'll see. Shall we take the metro into town?" },
+      { "sp": "Antoine", "fr": "Oui ! C'est loin ?", "en": "Yes! Is it far?" },
+      { "sp": "Léa", "fr": "Non, il y a un arrêt de métro devant la gare.", "en": "No, there's a metro stop in front of the station." },
+      { "sp": "", "fr": "Ils arrivent sur une grande place, au centre-ville.", "en": "They arrive on a big square in the town centre." },
+      { "sp": "Léa", "fr": "Voici la place Bellecour ! Mon quartier est à côté.", "en": "This is Place Bellecour! My neighbourhood is next to it." },
+      { "sp": "Antoine", "fr": "Il y a beaucoup de magasins, de restaurants… et un supermarché !", "en": "There are lots of shops, restaurants… and a supermarket!" },
+      { "sp": "Léa", "fr": "Oui. Là, c'est la boulangerie : le pain est délicieux. Là, c'est la pharmacie, et là, la banque. L'hôpital est plus loin.", "en": "Yes. There's the bakery: the bread is delicious. There's the pharmacy, and there's the bank. The hospital is further away." },
+      { "sp": "Antoine", "fr": "Et la poste ? J'ai une carte pour ma mère.", "en": "And the post office? I have a postcard for my mother." },
+      { "sp": "Léa", "fr": "La poste est dans la rue derrière l'église.", "en": "The post office is in the street behind the church." },
+      { "sp": "", "fr": "L'après-midi, ils visitent un musée et ils se promènent dans un parc.", "en": "In the afternoon, they visit a museum and walk in a park." },
+      { "sp": "Antoine", "fr": "Et ce soir ? On va au cinéma ?", "en": "And tonight? Shall we go to the cinema?" },
+      { "sp": "Léa", "fr": "D'accord ! Mais d'abord, je passe à la bibliothèque : j'ai des livres pour l'école.", "en": "OK! But first I'm stopping at the library: I have books for school." },
+      { "sp": "Antoine", "fr": "Et mon hôtel ? Il est où ?", "en": "And my hotel? Where is it?" },
+      { "sp": "Léa", "fr": "Ton hôtel ? Tu dors chez nous, sur le canapé !", "en": "Your hotel? You're sleeping at our place, on the sofa!" },
+      { "sp": "Antoine", "fr": "Super ! Et Minou ?", "en": "Great! And Minou?" },
+      { "sp": "Léa", "fr": "Minou aussi dort sur le canapé…", "en": "Minou sleeps on the sofa too…" }
+    ]
+  }
+}

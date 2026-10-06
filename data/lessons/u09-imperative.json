@@ -1,0 +1,150 @@
+{
+  "id": "u09-imperative",
+  "type": "grammar",
+  "unit": 9,
+  "title": "Tourne à gauche !",
+  "en": "The imperative: giving directions and orders",
+  "intro": "The **imperative** is for orders, directions and advice: *Tourne à gauche ! Prenez le métro ! Allons-y !* It has only three forms — **tu, nous, vous** — and no subject pronoun.",
+  "cases": [
+    { "id": "imp-tu", "label": "tu form: tourne !", "rule": "Use the **tu** form without **tu**. For **-er** verbs (and *aller*), drop the **-s**: *tu tournes → Tourne !*, *tu vas → Va !* Other verbs keep it: *Prends ! Fais ! Viens !*" },
+    { "id": "imp-nous", "label": "nous form: allons !", "rule": "The **nous** form means *Let's…*: *Allons au cinéma ! Mangeons !*" },
+    { "id": "imp-vous", "label": "vous form: tournez !", "rule": "The **vous** form is polite or plural: *Tournez à droite ! Prenez la deuxième rue !*" },
+    { "id": "imp-irregular", "label": "être, avoir, savoir", "rule": "**être**: *sois, soyons, soyez*. **avoir**: *aie, ayons, ayez*. (*Sois gentil ! N'aie pas peur !*)" },
+    { "id": "imp-neg", "label": "ne … pas: ne tourne pas !", "rule": "Put **ne … pas** around the verb: *Ne tourne pas ! Ne prenez pas ce bus !*" },
+    { "id": "imp-reflexive", "label": "lève-toi ! / ne te lève pas !", "rule": "Reflexive pronoun **after** the verb in positive orders (*Lève-toi ! Dépêchez-vous !*), **before** it in negative ones (*Ne te lève pas !*)." },
+    { "id": "imp-vas-y", "label": "vas-y ! allez-y !", "rule": "Before **y**, *va* takes back its **s** to make a link: **Vas-y !** (go on!). Also *Allez-y ! Allons-y !*" },
+    { "id": "imp-infinitive", "label": "instructions with the infinitive", "rule": "Signs, recipes and instructions often use the infinitive instead: *Tourner à droite. Ajouter le sel. Ne pas fumer.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Three forms, no subject",
+      "table": {
+        "head": ["", "tourner", "prendre", "aller"], "frCols": [1, 2, 3],
+        "rows": [
+          ["(tu)", "Tourne !", "Prends !", "Va !"],
+          ["(nous)", "Tournons !", "Prenons !", "Allons !"],
+          ["(vous)", "Tournez !", "Prenez !", "Allez !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tourne à gauche|imp-tu} !", "en": "Turn left! (to a friend)" },
+        { "fr": "{Allons au cinéma|imp-nous} !", "en": "Let's go to the cinema!" },
+        { "fr": "{Prenez la deuxième rue|imp-vous}.", "en": "Take the second street." }
+      ],
+      "tip": "**-er** verbs (and *aller*) lose the **-s** of the tu form: *tu manges → Mange !* Other verbs keep it: *tu prends → Prends !*"
+    },
+    {
+      "title": "2. Irregular: être and avoir",
+      "table": {
+        "head": ["", "être", "avoir"], "frCols": [1, 2],
+        "rows": [
+          ["(tu)", "Sois !", "Aie !"],
+          ["(nous)", "Soyons !", "Ayons !"],
+          ["(vous)", "Soyez !", "Ayez !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Sois gentil|imp-irregular}, Hugo !", "en": "Be nice, Hugo!" },
+        { "fr": "{N'aie pas peur|imp-irregular} !", "en": "Don't be afraid!" },
+        { "fr": "{Soyez patients|imp-irregular}, les enfants !", "en": "Be patient, children!" }
+      ]
+    },
+    {
+      "title": "3. Negative orders",
+      "examples": [
+        { "fr": "{Ne tourne pas|imp-neg} ici !", "en": "Don't turn here!" },
+        { "fr": "{Ne prenez pas|imp-neg} ce bus !", "en": "Don't take that bus!" },
+        { "fr": "{Ne mange pas|imp-neg} tout le gâteau !", "en": "Don't eat all the cake!" }
+      ]
+    },
+    {
+      "title": "4. Reflexive verbs",
+      "text": ["In a positive order, the pronoun goes **after** the verb (te → **toi**). In a negative order, it goes back **before** the verb."],
+      "table": {
+        "head": ["Do it!", "Don't!"], "frCols": [0, 1],
+        "rows": [
+          ["Lève-toi !", "Ne te lève pas !"],
+          ["Dépêchez-vous !", "Ne vous dépêchez pas !"],
+          ["Couchons-nous !", "Ne nous couchons pas !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Calme-toi|imp-reflexive}, Léa !", "en": "Calm down, Léa!" },
+        { "fr": "{Ne t'énerve pas|imp-reflexive} !", "en": "Don't get annoyed!" }
+      ]
+    },
+    {
+      "title": "5. Vas-y ! Allez-y !",
+      "text": ["**y** means *there*. Before **y**, the tu form *va* takes back its **s**, so the words link: **Vas-y** /va.zi/ = go on! go ahead!"],
+      "examples": [
+        { "fr": "{Vas-y|imp-vas-y}, Hugo !", "en": "Go on, Hugo!" },
+        { "fr": "{Allez-y|imp-vas-y}, madame.", "en": "Go ahead, madam." },
+        { "fr": "{Allons-y|imp-vas-y} !", "en": "Let's go!" }
+      ]
+    },
+    {
+      "title": "6. Instructions with the infinitive",
+      "text": ["On signs, in recipes and in instructions, French often uses the infinitive: it's neutral, neither *tu* nor *vous*."],
+      "examples": [
+        { "fr": "{Ne pas fumer|imp-infinitive}.", "en": "No smoking." },
+        { "fr": "{Ajouter le sel|imp-infinitive} et {mélanger|imp-infinitive}.", "en": "Add the salt and mix." },
+        { "fr": "{Tourner à droite|imp-infinitive}.", "en": "Turn right." }
+      ],
+      "tip": "With the infinitive, **ne pas** stays together before the verb: *Ne pas toucher* (do not touch)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Tournes à gauche !", "right": "Tourne à gauche !", "why": "-er verbs drop the **-s** in the tu form." },
+    { "wrong": "Tu tourne à gauche !", "right": "Tourne à gauche !", "why": "No subject pronoun in the imperative." },
+    { "wrong": "Es gentil !", "right": "Sois gentil !", "why": "**être** is irregular: *sois, soyons, soyez*." },
+    { "wrong": "Lève-te !", "right": "Lève-toi !", "why": "After the verb, **te** becomes **toi**." },
+    { "wrong": "Ne lève-toi pas !", "right": "Ne te lève pas !", "why": "In a negative order, the pronoun goes before the verb." },
+    { "wrong": "Va-y !", "right": "Vas-y !", "why": "Before **y**, *va* takes an **s**." }
+  ],
+  "story": {
+    "title": "Le GPS",
+    "en": "Hugo drives Antoine to the airport — with a GPS and Léa giving directions.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche, Antoine rentre à Montréal. Hugo [l'|le-pron]emmène à l'aéroport en voiture.", "en": "On Sunday, Antoine goes home to Montreal. Hugo drives him to the airport." },
+      { "sp": "Le GPS", "fr": "{Continuez tout droit|imp-vous}.", "en": "Continue straight on." },
+      { "sp": "Léa", "fr": "Hugo, {ne roule pas|imp-neg} trop vite !", "en": "Hugo, don't drive too fast!" },
+      { "sp": "Le GPS", "fr": "Au carrefour, {tournez à droite|imp-vous}.", "en": "At the junction, turn right." },
+      { "sp": "Léa", "fr": "Non ! {Tourne à gauche|imp-tu} ! C'est plus [court|court] !", "en": "No! Turn left! It's shorter!" },
+      { "sp": "Hugo", "fr": "Léa, {sois gentille|imp-irregular}. Le GPS sait, pas toi !", "en": "Léa, be nice. The GPS knows — you don't!" },
+      { "sp": "Le GPS", "fr": "Au rond-point, {prenez la deuxième sortie|imp-vous}.", "en": "At the roundabout, take the second exit." },
+      { "sp": "Antoine", "fr": "{N'aie pas peur|imp-irregular}, Hugo, on a le temps.", "en": "Don't worry, Hugo, we have time." },
+      { "sp": "", "fr": "Mais il y a beaucoup de voitures sur la route…", "en": "But there are lots of cars on the road…" },
+      { "sp": "Léa", "fr": "{Dépêche-toi|imp-reflexive} ! L'avion part à midi !", "en": "Hurry up! The plane leaves at noon!" },
+      { "sp": "Hugo", "fr": "{Calme-toi|imp-reflexive}, Léa ! {Ne t'énerve pas|imp-reflexive} !", "en": "Calm down, Léa! Don't get worked up!" },
+      { "sp": "Le GPS", "fr": "{Faites demi-tour|imp-vous}.", "en": "Make a U-turn." },
+      { "sp": "Hugo", "fr": "Quoi ?! Pourquoi ?", "en": "What?! Why?" },
+      { "sp": "Antoine", "fr": "Hugo… {regarde le panneau|imp-tu} : c'est la route de Paris !", "en": "Hugo… look at the sign: this is the road to Paris!" },
+      { "sp": "", "fr": "Sur le panneau, on lit : « Aéroport : {tourner à droite|imp-infinitive}. »", "en": "The sign says: “Airport: turn right.”" },
+      { "sp": "Léa", "fr": "{Allons-y|imp-nous} ! {Vas-y|imp-vas-y}, Hugo, vite !", "en": "Let's go! Go on, Hugo, quickly!" },
+      { "sp": "", "fr": "À onze heures et demie, ils arrivent enfin à l'aéroport.", "en": "At half past eleven, they finally arrive at the airport." },
+      { "sp": "Antoine", "fr": "Merci pour tout ! {Venez à Montréal|imp-vous} cet été !", "en": "Thanks for everything! Come to Montreal this summer!" },
+      { "sp": "Léa", "fr": "Oui ! Et {envoie-nous des photos|imp-tu} !", "en": "Yes! And send us photos!" }
+    ]
+  },
+  "quiz": [
+    { "case": "imp-tu", "type": "mc", "q": "___ à gauche !", "en": "Turn left! (to a friend)", "options": ["Tourne", "Tournes", "Tourner"], "answer": "Tourne", "why": "-er verbs drop the **-s** in the tu form." },
+    { "case": "imp-tu", "type": "type", "q": "___ ton manteau !", "en": "Take your coat!", "answer": "Prends" },
+    { "case": "imp-tu", "type": "mc", "q": "___ au marché, s'il te plaît.", "en": "Go to the market, please.", "options": ["Va", "Vas", "Allez-tu"], "answer": "Va" },
+    { "case": "imp-nous", "type": "mc", "q": "___ au cinéma !", "en": "Let's go to the cinema!", "options": ["Allons", "Allez", "Nous allons"], "answer": "Allons" },
+    { "case": "imp-nous", "type": "type", "q": "___ une pizza !", "en": "Let's eat a pizza!", "answer": "Mangeons" },
+    { "case": "imp-vous", "type": "mc", "q": "___ la deuxième rue à droite.", "en": "Take the second street on the right.", "options": ["Prenez", "Prends", "Prenons"], "answer": "Prenez" },
+    { "case": "imp-vous", "type": "type", "q": "___ tout droit.", "en": "Keep going straight on.", "answer": "Continuez" },
+    { "case": "imp-irregular", "type": "mc", "q": "___ gentil, Hugo !", "en": "Be nice, Hugo!", "options": ["Sois", "Es", "Être"], "answer": "Sois" },
+    { "case": "imp-irregular", "type": "mc", "q": "N'___ pas peur !", "en": "Don't be afraid!", "options": ["aie", "as", "avoir"], "answer": "aie" },
+    { "case": "imp-irregular", "type": "type", "q": "___ patients, les enfants !", "en": "Be patient, children!", "answer": "Soyez" },
+    { "case": "imp-neg", "type": "mc", "lang": "en", "q": "How do you say “Don't turn here!” to a friend?", "options": ["Ne tourne pas ici !", "Tourne pas ne ici !", "Ne pas tourne ici !"], "answer": "Ne tourne pas ici !" },
+    { "case": "imp-neg", "type": "type", "q": "Ne ___ pas ce bus !", "en": "Don't take that bus! (vous)", "answer": "prenez" },
+    { "case": "imp-reflexive", "type": "mc", "q": "___ ! Il est tard.", "en": "Get up! It's late.", "options": ["Lève-toi", "Te lève", "Lève-te"], "answer": "Lève-toi" },
+    { "case": "imp-reflexive", "type": "mc", "lang": "en", "q": "How do you say “Don't get up!” to a friend?", "options": ["Ne te lève pas !", "Ne lève-toi pas !", "Lève-toi pas !"], "answer": "Ne te lève pas !", "why": "In a negative order, the pronoun goes back **before** the verb." },
+    { "case": "imp-vas-y", "type": "mc", "q": "___-y !", "en": "Go on! / Go ahead!", "options": ["Vas", "Va", "Vais"], "answer": "Vas", "why": "Before **y**, *va* takes an **s**: *vas-y*." },
+    { "case": "imp-vas-y", "type": "type", "q": "Allez-___ !", "en": "Go on! (vous)", "answer": "y" },
+    { "case": "imp-infinitive", "type": "mc", "lang": "en", "q": "On a sign, « Ne pas fumer » means…", "options": ["No smoking", "Don't eat", "Not far"], "answer": "No smoking", "say": "Ne pas fumer." },
+    { "case": "imp-infinitive", "type": "mc", "lang": "en", "q": "In a recipe, « Ajouter le sel » means…", "options": ["Add the salt", "He adds the salt", "Added salt"], "answer": "Add the salt", "say": "Ajouter le sel." }
+  ]
+}

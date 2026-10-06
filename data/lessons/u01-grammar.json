@@ -1,0 +1,227 @@
+{
+  "id": "u01-grammar",
+  "type": "grammar",
+  "unit": 1,
+  "title": "Je suis, tu es…",
+  "en": "Subject pronouns & the verb être (to be)",
+  "intro": "Your first grammar lesson: the little words for *I, you, he, she, we, they*, and **être** (to be), the most used verb in French. Every highlighted example can be pointed at or tapped.",
+  "cases": [
+    { "id": "etre-je", "label": "je suis — I am", "rule": "**je** + **suis**. *Je suis* never changes." },
+    { "id": "etre-tu", "label": "tu es — you are (informal)", "rule": "**tu es**: one person you know well. For strangers or several people, use **vous êtes**." },
+    { "id": "etre-il-elle", "label": "il / elle est — he / she is", "rule": "**il est** for a man or a masculine thing, **elle est** for a woman or a feminine thing. The **t** of *est* is silent." },
+    { "id": "etre-on", "label": "on est — we are (everyday)", "rule": "**on** uses the same verb form as **il**: *on est*. In conversation it means “we”." },
+    { "id": "etre-nous", "label": "nous sommes — we are", "rule": "**nous sommes**. A little more formal than *on est*." },
+    { "id": "etre-vous", "label": "vous êtes — you are (polite / plural)", "rule": "**vous êtes**: one person, politely, or several people. Liaison: /vu.zɛt/." },
+    { "id": "etre-ils-elles", "label": "ils / elles sont — they are", "rule": "**elles sont** for women only. **ils sont** for men or any mixed group." },
+    { "id": "etre-who", "label": "être + job or nationality (no article)", "rule": "No article: *Je suis professeur*, *Il est anglais*. A woman adds **-e**: *anglaise*." },
+    { "id": "etre-adj", "label": "être + adjective (agreement)", "rule": "The adjective matches the subject: **+e** for feminine, **+s** for plural: *contente, contents, contentes*." },
+    { "id": "etre-place", "label": "être + place", "rule": "**à** + a city (*à Lyon*), **au** + a masculine place (*au café*), **ici / là** (here / there)." },
+    { "id": "etre-cest", "label": "c'est — this is / it's", "rule": "**c'est** + a name, or + **un / une / le / la** + noun: *C'est Léa*, *C'est un ami*." },
+    { "id": "etre-neg", "label": "ne … pas — saying no", "rule": "**ne** before the verb, **pas** after it. **ne** becomes **n'** before a vowel: *il n'est pas*." },
+    { "id": "etre-question", "label": "yes/no question (voice goes up)", "rule": "Same words as the statement. Raise your voice at the end, and write **?**." }
+  ],
+  "sections": [
+    {
+      "title": "1. Subject pronouns: who?",
+      "text": ["A **subject pronoun** stands for the person (or thing) doing the action. French has two words for “you” and two for “they”."],
+      "table": {
+        "head": ["French", "English", "When to use it"], "frCols": [0],
+        "rows": [
+          ["je · j'", "I", "**j'** before a vowel sound: *j'ai* (I have)"],
+          ["tu", "you", "one person you know well: a friend, family, a child"],
+          ["il", "he · it", "a man, or a masculine thing"],
+          ["elle", "she · it", "a woman, or a feminine thing"],
+          ["on", "we · people", "everyday “we”; also “people in general”"],
+          ["nous", "we", "a little more formal or written “we”"],
+          ["vous", "you", "one person, politely — or several people"],
+          ["ils", "they", "men, or any mixed group"],
+          ["elles", "they", "women only"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu es|etre-tu} là ?", "en": "Are you there? (to a friend)" },
+        { "fr": "{Vous êtes|etre-vous} Madame Dupont ?", "en": "Are you Mrs. Dupont? (polite)" },
+        { "fr": "Léa et Hugo ? {Ils sont|etre-ils-elles} amis.", "en": "Léa and Hugo? They're friends." }
+      ],
+      "tip": "**ils** wins as soon as there is one man in the group: ten women and one man = **ils**."
+    },
+    {
+      "title": "2. Être — to be",
+      "text": ["**Être** is irregular, so learn its six forms by heart. You will use it in almost every conversation."],
+      "table": {
+        "head": ["Form", "English", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["je suis", "I am", "/ʒə sɥi/"],
+          ["tu es", "you are", "/ty ɛ/"],
+          ["il est · elle est · on est", "he / she / it is · we are", "/il ɛ/"],
+          ["nous sommes", "we are", "/nu sɔm/"],
+          ["vous êtes", "you are", "/vu.zɛt/ — the **s** of *vous* sounds like **z**"],
+          ["ils sont · elles sont", "they are", "/il sɔ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis|etre-je} de Paris.", "en": "I'm from Paris." },
+        { "fr": "{Nous sommes|etre-nous} à Lyon.", "en": "We're in Lyon." },
+        { "fr": "{On est|etre-on} contents !", "en": "We're happy!" }
+      ],
+      "tip": "**es** and **est** sound the same (/ɛ/); only the spelling changes: *tu es*, *il est*."
+    },
+    {
+      "title": "3. Who you are: nationality and job",
+      "text": [
+        "After **être**, a nationality or a job takes **no article**: *Je suis étudiant* (not “je suis un étudiant”).",
+        "Nationalities start with a small letter: *français*, *anglaise*. A woman adds **-e**."
+      ],
+      "table": {
+        "head": ["Man", "Woman", "English"], "frCols": [0, 1],
+        "rows": [
+          ["français", "française", "French"],
+          ["anglais", "anglaise", "English"],
+          ["espagnol", "espagnole", "Spanish"],
+          ["canadien", "canadienne", "Canadian"],
+          ["étudiant", "étudiante", "student"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis anglais|etre-who}.", "en": "I'm English." },
+        { "fr": "{Elle est étudiante|etre-who}.", "en": "She's a student." },
+        { "fr": "{Il est professeur|etre-who}.", "en": "He's a teacher." }
+      ]
+    },
+    {
+      "title": "4. Describing: être + adjective",
+      "text": ["An adjective after **être** matches the subject: add **-e** for a woman, **-s** for several people, **-es** for several women."],
+      "table": {
+        "head": ["", "One person", "Several people"], "frCols": [1, 2],
+        "rows": [
+          ["man · mixed group", "il est content", "ils sont contents"],
+          ["woman", "elle est contente", "elles sont contentes"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Léa est fatiguée|etre-adj}.", "en": "Léa is tired." },
+        { "fr": "{Hugo et Léa sont contents|etre-adj}.", "en": "Hugo and Léa are happy." },
+        { "fr": "{Je suis très contente|etre-adj} !", "en": "I'm very happy! (a woman speaking)" }
+      ],
+      "tip": "Listen: in *contente* you hear the **t** (/kɔ̃.tɑ̃t/), in *content* you don't. But *fatigué* and *fatiguée* sound the same."
+    },
+    {
+      "title": "5. Saying where you are",
+      "text": ["**à** + a city: *Je suis à Paris*. **au** (= à + le) + a masculine place: *Il est au café*. **ici** = here, **là** = here / there."],
+      "examples": [
+        { "fr": "{Je suis à Lyon|etre-place}.", "en": "I'm in Lyon." },
+        { "fr": "{Il est au café|etre-place}.", "en": "He's at the café." },
+        { "fr": "{Tu es là|etre-place} ?", "en": "Are you there?" }
+      ]
+    },
+    {
+      "title": "6. C'est… — pointing to someone or something",
+      "text": ["**C'est** (ce + est) means “this is”, “it's”, “he's” or “she's”. Use it before a name, or before **un / une / le / la** + a noun."],
+      "examples": [
+        { "fr": "{C'est Léa|etre-cest}.", "en": "This is Léa." },
+        { "fr": "{C'est un ami|etre-cest}.", "en": "He's a friend." },
+        { "fr": "{C'est une amie|etre-cest}.", "en": "She's a friend." }
+      ],
+      "tip": "With an article, use **c'est**: *C'est un professeur*. Without one, use **il / elle est**: *Il est professeur*."
+    },
+    {
+      "title": "7. Saying no: ne … pas",
+      "text": ["Put **ne** before the verb and **pas** after it. Before a vowel, **ne** becomes **n'**."],
+      "table": {
+        "head": ["Yes", "No"], "frCols": [0, 1],
+        "rows": [
+          ["je suis", "je ne suis pas"],
+          ["tu es", "tu n'es pas"],
+          ["il est", "il n'est pas"],
+          ["nous sommes", "nous ne sommes pas"],
+          ["vous êtes", "vous n'êtes pas"],
+          ["ils sont", "ils ne sont pas"],
+          ["c'est", "ce n'est pas"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne suis pas|etre-neg} fatigué.", "en": "I'm not tired." },
+        { "fr": "{Elle n'est pas|etre-neg} là.", "en": "She isn't here." },
+        { "fr": "{Ce n'est pas|etre-neg} Hugo.", "en": "That's not Hugo." }
+      ],
+      "tip": "In casual speech people often drop **ne**: *Je suis pas fatigué*. Understand it, but write **ne … pas**."
+    },
+    {
+      "title": "8. Asking yes/no questions",
+      "text": ["The easiest way: say the sentence with your voice going **up** at the end. In writing, just add **?**."],
+      "examples": [
+        { "fr": "{Tu es français|etre-question} ?", "en": "Are you French?" },
+        { "fr": "{Vous êtes Madame Dupont|etre-question} ?", "en": "Are you Mrs. Dupont?" },
+        { "fr": "{C'est Hugo|etre-question} ?", "en": "Is that Hugo?" }
+      ],
+      "tip": "Statement ↘ *Tu es français.* — Question ↗ *Tu es français ?*"
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je suis 20 ans.", "right": "J'ai 20 ans.", "why": "Age uses **avoir** (to have), not être. You'll learn avoir in Unit 3." },
+    { "wrong": "Je suis un étudiant.", "right": "Je suis étudiant.", "why": "No article for a job after **je suis / il est**." },
+    { "wrong": "Elle est content.", "right": "Elle est contente.", "why": "The adjective agrees with **elle**: add **-e**." },
+    { "wrong": "Tu est français.", "right": "Tu es français.", "why": "Same sound, different spelling: **tu es**, **il est**." },
+    { "wrong": "Je ne suis fatigué.", "right": "Je ne suis pas fatigué.", "why": "In writing you need both **ne** and **pas**." },
+    { "wrong": "Léa et Tom ? Elles sont là.", "right": "Léa et Tom ? Ils sont là.", "why": "A mixed group is always **ils**." }
+  ],
+  "story": {
+    "title": "Le premier jour",
+    "en": "The first day — Léa's first French class in Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "{On est|etre-on} lundi matin. {Léa est à Lyon|etre-place}, dans une école de français.", "en": "It's Monday morning. Léa is in Lyon, at a French school." },
+      { "sp": "", "fr": "{C'est|etre-cest} le premier jour. {Elle est|etre-il-elle} un peu {fatiguée|etre-adj}, mais {contente|etre-adj}.", "en": "It's the first day. She's a little tired, but happy." },
+      { "sp": "Marc", "fr": "Bonjour à tous ! Je m'appelle Marc. {Je suis professeur|etre-who}. {Vous êtes|etre-vous} tous là ?", "en": "Hello, everyone! My name is Marc. I'm a teacher. Are you all here?" },
+      { "sp": "Léa", "fr": "Bonjour, monsieur ! Je m'appelle Léa. {Je suis|etre-je} de Paris.", "en": "Hello, sir! My name is Léa. I'm from Paris." },
+      { "sp": "Marc", "fr": "Bienvenue, Léa ! Et toi, {tu es|etre-tu} Hugo ?", "en": "Welcome, Léa! And you — are you Hugo?" },
+      { "sp": "Tom", "fr": "Non, {je ne suis pas|etre-neg} Hugo ! Je m'appelle Tom. {Je suis anglais|etre-who}.", "en": "No, I'm not Hugo! My name is Tom. I'm English." },
+      { "sp": "Marc", "fr": "Pardon, Tom ! Et Hugo ? {Il n'est pas|etre-neg} là ?", "en": "Sorry, Tom! And Hugo? He isn't here?" },
+      { "sp": "Tom", "fr": "Non, {il est au café|etre-place}, avec Inès et Carla.", "en": "No, he's at the café, with Inès and Carla." },
+      { "sp": "", "fr": "Hugo, Inès et Carla arrivent.", "en": "Hugo, Inès and Carla arrive." },
+      { "sp": "Hugo", "fr": "Bonjour ! Pardon, {nous sommes|etre-nous} en retard !", "en": "Hello! Sorry, we're late!" },
+      { "sp": "Marc", "fr": "Pas de problème. Inès et Carla, {vous êtes espagnoles|etre-question} ?", "en": "No problem. Inès and Carla, are you Spanish?" },
+      { "sp": "Inès", "fr": "Oui ! {Nous sommes|etre-nous} de Madrid.", "en": "Yes! We're from Madrid." },
+      { "sp": "Marc", "fr": "Et toi, Hugo ? {Tu es français|etre-question} ?", "en": "And you, Hugo? Are you French?" },
+      { "sp": "Hugo", "fr": "Non, {je ne suis pas|etre-neg} français. {Je suis canadien|etre-who}, de Montréal !", "en": "No, I'm not French. I'm Canadian, from Montreal!" },
+      { "sp": "", "fr": "Inès et Carla ? {Elles sont|etre-ils-elles} de Madrid. Léa et Tom ? {Ils sont|etre-ils-elles} de Paris et de Londres.", "en": "Inès and Carla? They're from Madrid. Léa and Tom? They're from Paris and London." },
+      { "sp": "", "fr": "{C'est une bonne classe|etre-cest}. {Les étudiants sont contents|etre-adj}, et {Marc est très content|etre-adj} aussi.", "en": "It's a good class. The students are happy, and Marc is very happy too." },
+      { "sp": "Marc", "fr": "Bon ! {On est|etre-on} prêts ? On commence !", "en": "Right! Are we ready? Let's begin!" }
+    ]
+  },
+  "quiz": [
+    { "case": "etre-je", "type": "mc", "q": "___ suis étudiante.", "en": "I'm a student.", "options": ["Je", "Tu", "Elle"], "answer": "Je" },
+    { "case": "etre-je", "type": "type", "q": "Je ___ de Paris.", "en": "I'm from Paris.", "answer": "suis" },
+    { "case": "etre-tu", "type": "type", "q": "Tu ___ très gentil !", "en": "You're very kind!", "answer": "es" },
+    { "case": "etre-tu", "type": "mc", "q": "Léa, ___ es là ?", "en": "Léa, are you there?", "options": ["tu", "vous", "il"], "answer": "tu" },
+    { "case": "etre-il-elle", "type": "type", "q": "Elle ___ française.", "en": "She's French.", "answer": "est" },
+    { "case": "etre-il-elle", "type": "mc", "q": "Hugo ? ___ est au café.", "en": "Hugo? He's at the café.", "options": ["Il", "Elle", "Ils"], "answer": "Il", "why": "Hugo is a man: **il**." },
+    { "case": "etre-on", "type": "mc", "q": "Léa et moi, on ___ contents.", "en": "Léa and I — we're happy.", "options": ["est", "sommes", "sont"], "answer": "est", "why": "**on** takes the same form as **il**: *on est*." },
+    { "case": "etre-on", "type": "type", "q": "On ___ lundi.", "en": "It's Monday.", "answer": "est" },
+    { "case": "etre-nous", "type": "type", "q": "Nous ___ en retard !", "en": "We're late!", "answer": "sommes" },
+    { "case": "etre-nous", "type": "mc", "q": "Inès et moi, nous ___ de Madrid.", "en": "Inès and I are from Madrid.", "options": ["sommes", "sont", "êtes"], "answer": "sommes" },
+    { "case": "etre-vous", "type": "type", "q": "Madame, vous ___ française ?", "en": "Madam, are you French?", "answer": "êtes" },
+    { "case": "etre-vous", "type": "mc", "q": "Tom et Hugo, vous ___ là ?", "en": "Tom and Hugo, are you here?", "options": ["êtes", "sont", "es"], "answer": "êtes", "why": "Talking **to** several people: **vous êtes**." },
+    { "case": "etre-vous", "type": "mc", "lang": "en", "q": "You're speaking to your teacher, Mr. Martin. Which question is polite?", "options": ["Vous êtes de Paris ?", "Tu es de Paris ?"], "answer": "Vous êtes de Paris ?", "why": "Use **vous** with people you don't know well, or to be polite." },
+    { "case": "etre-ils-elles", "type": "mc", "q": "Léa et Sophie ? ___ sont amies.", "en": "Léa and Sophie? They're friends.", "options": ["Elles", "Ils", "Nous"], "answer": "Elles", "why": "Two women: **elles**." },
+    { "case": "etre-ils-elles", "type": "mc", "q": "Léa et Tom ? ___ sont de Paris.", "en": "Léa and Tom? They're from Paris.", "options": ["Ils", "Elles"], "answer": "Ils", "why": "A mixed group — even one man — is **ils**." },
+    { "case": "etre-ils-elles", "type": "type", "q": "Les étudiants ___ contents.", "en": "The students are happy.", "answer": "sont" },
+    { "case": "etre-who", "type": "mc", "q": "Il est ___.", "en": "He's a teacher.", "options": ["professeur", "un professeur"], "answer": "professeur", "why": "After **il est**, a job has no article." },
+    { "case": "etre-who", "type": "type", "q": "Je suis ___.", "en": "I'm English. (a man speaking)", "answer": "anglais" },
+    { "case": "etre-who", "type": "mc", "q": "Elle est ___.", "en": "She's Canadian.", "options": ["canadienne", "canadien", "une canadienne"], "answer": "canadienne", "why": "No article, and **-ne** is added for a woman: *canadien → canadienne*." },
+    { "case": "etre-adj", "type": "mc", "q": "Léa est ___.", "en": "Léa is tired.", "options": ["fatiguée", "fatigué", "fatigués"], "answer": "fatiguée" },
+    { "case": "etre-adj", "type": "mc", "q": "Hugo et Tom sont ___.", "en": "Hugo and Tom are happy.", "options": ["contents", "content", "contentes"], "answer": "contents" },
+    { "case": "etre-adj", "type": "type", "q": "Elles sont ___.", "en": "They (women) are happy.", "answer": "contentes" },
+    { "case": "etre-place", "type": "mc", "q": "Nous sommes ___ Lyon.", "en": "We're in Lyon.", "options": ["à", "au", "de"], "answer": "à" },
+    { "case": "etre-place", "type": "type", "q": "Il est ___ café.", "en": "He's at the café.", "answer": "au" },
+    { "case": "etre-place", "type": "mc", "q": "Hugo n'est pas ___.", "en": "Hugo isn't here.", "options": ["là", "la", "le"], "answer": "là", "why": "**là** (with the accent) means here / there; **la** means “the”." },
+    { "case": "etre-cest", "type": "mc", "q": "___ Léa, une amie.", "en": "This is Léa, a friend.", "options": ["C'est", "Elle est", "Il est"], "answer": "C'est", "why": "Before a name: **c'est**." },
+    { "case": "etre-cest", "type": "type", "q": "C'___ un ami.", "en": "He's a friend.", "answer": "est" },
+    { "case": "etre-cest", "type": "mc", "q": "C'est ___ amie.", "en": "She's a friend.", "options": ["une", "un", "la"], "answer": "une" },
+    { "case": "etre-neg", "type": "mc", "q": "Je ___ suis pas fatigué.", "en": "I'm not tired.", "options": ["ne", "n'", "pas"], "answer": "ne" },
+    { "case": "etre-neg", "type": "type", "q": "Il ___ pas là.", "en": "He isn't here.", "answer": "n'est", "why": "**ne** becomes **n'** before *est*." },
+    { "case": "etre-neg", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Nous ne sommes pas de Paris.", "Nous sommes ne pas de Paris.", "Nous ne sommes de Paris pas."], "answer": "Nous ne sommes pas de Paris." },
+    { "case": "etre-question", "type": "mc", "lang": "en", "q": "How do you ask a friend “Are you French?”", "options": ["Tu es français ?", "Tu es français.", "Es français tu ?"], "answer": "Tu es français ?", "why": "Same words as the statement — raise your voice and write **?**." },
+    { "case": "etre-question", "type": "type", "q": "___ êtes Madame Dupont ?", "en": "Are you Mrs. Dupont?", "answer": "Vous" }
+  ]
+}

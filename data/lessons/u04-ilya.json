@@ -1,0 +1,137 @@
+{
+  "id": "u04-ilya",
+  "type": "grammar",
+  "unit": 4,
+  "title": "Il y a…",
+  "en": "There is / there are — and asking questions",
+  "intro": "**Il y a** means *there is* and *there are*. It's one of the most useful phrases in French — and it never changes. This lesson also teaches two new ways to ask questions: **Est-ce que…?** and **Qu'est-ce que…?**",
+  "cases": [
+    { "id": "ilya-sing", "label": "il y a + one thing", "rule": "**Il y a un / une…** = there is: *Il y a un lit dans la chambre.*" },
+    { "id": "ilya-plur", "label": "il y a + several things", "rule": "**Il y a des… / deux…** = there are. **il y a** doesn't change for plurals: *Il y a trois chambres.*" },
+    { "id": "ilya-neg", "label": "il n'y a pas de…", "rule": "**Il n'y a pas de / d'…** = there isn't / there aren't any. **n'** goes before **y**, and **un / une / des → de**." },
+    { "id": "ilya-question", "label": "Il y a… ? (voice up)", "rule": "The easy question: same words, voice going up: *Il y a un balcon ?*" },
+    { "id": "ilya-estceque", "label": "Est-ce qu'il y a… ?", "rule": "Put **Est-ce que** in front of any sentence to make a yes/no question. **que → qu'** before *il*: *Est-ce qu'il y a un jardin ?*" },
+    { "id": "ilya-combien", "label": "combien de… il y a ?", "rule": "**combien de** + noun = how many: *Il y a combien de chambres ?* or *Combien de chambres il y a ?*" },
+    { "id": "ilya-quoi", "label": "Qu'est-ce qu'il y a ?", "rule": "**Qu'est-ce qu'il y a dans… ?** = What is there in…? Alone, **Qu'est-ce qu'il y a ?** means *What's wrong?*" },
+    { "id": "ilya-vs-cest", "label": "il y a or c'est?", "rule": "**il y a** says something is there (new information). **c'est** says what or who it is: *Il y a un chat. C'est Minou.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Il y a = there is, there are",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il y a un lit.", "There is a bed."],
+          ["Il y a une table.", "There is a table."],
+          ["Il y a des chaises.", "There are chairs."],
+          ["Il y a trois chambres.", "There are three bedrooms."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il y a un canapé|ilya-sing} dans le salon.", "en": "There's a sofa in the living room." },
+        { "fr": "Dans la cuisine, {il y a des chaises|ilya-plur}.", "en": "In the kitchen, there are chairs." }
+      ],
+      "tip": "**il y a** never changes. In fast speech it often sounds like /ja/ (written *y'a*)."
+    },
+    {
+      "title": "2. Il n'y a pas de…",
+      "text": ["**n'** goes before **y**: *il n'y a pas*. And, like after *je n'ai pas*, **un / une / des** become **de** (**d'** before a vowel)."],
+      "table": {
+        "head": ["Yes", "No"], "frCols": [0, 1],
+        "rows": [
+          ["Il y a un jardin.", "Il n'y a pas de jardin."],
+          ["Il y a une baignoire.", "Il n'y a pas de baignoire."],
+          ["Il y a des chaises.", "Il n'y a pas de chaises."],
+          ["Il y a des enfants.", "Il n'y a pas d'enfants."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il n'y a pas de garage|ilya-neg}.", "en": "There's no garage." },
+        { "fr": "{Il n'y a rien|ilya-neg} dans le frigo !", "en": "There's nothing in the fridge!" }
+      ],
+      "tip": "**Il n'y a rien** = there's nothing. **Il n'y a personne** = there's nobody."
+    },
+    {
+      "title": "3. Asking: Il y a… ? — Est-ce qu'il y a… ?",
+      "text": [
+        "Way 1: say the sentence with your voice going up: *Il y a un balcon ?*",
+        "Way 2: put **Est-ce que** in front. It works with any sentence and just turns it into a question: *Est-ce qu'il y a un balcon ? Est-ce que tu as un chien ?*"
+      ],
+      "examples": [
+        { "fr": "{Il y a un balcon|ilya-question} ?", "en": "Is there a balcony?" },
+        { "fr": "{Est-ce qu'il y a une baignoire|ilya-estceque} ?", "en": "Is there a bathtub?" },
+        { "fr": "Est-ce que tu as un chien ?", "en": "Do you have a dog?" }
+      ],
+      "tip": "**que** becomes **qu'** before a vowel: *est-ce qu'il, est-ce qu'elle*. But *est-ce que tu*."
+    },
+    {
+      "title": "4. How many? What?",
+      "text": [
+        "**combien de** + noun = how many: *Il y a combien de chambres ?* / *Combien de chambres il y a ?*",
+        "**Qu'est-ce qu'il y a dans… ?** = What is there in…? On its own, **Qu'est-ce qu'il y a ?** means *What's wrong? / What's the matter?*"
+      ],
+      "examples": [
+        { "fr": "{Il y a combien de pièces|ilya-combien} ?", "en": "How many rooms are there?" },
+        { "fr": "{Qu'est-ce qu'il y a|ilya-quoi} dans le frigo ?", "en": "What's in the fridge?" },
+        { "fr": "Tu as peur ? {Qu'est-ce qu'il y a|ilya-quoi} ?", "en": "Are you scared? What's wrong?" }
+      ]
+    },
+    {
+      "title": "5. Il y a or c'est?",
+      "text": ["**il y a** introduces something new (it exists, it's there). **c'est** tells you what or who it is."],
+      "examples": [
+        { "fr": "{Il y a un chat|ilya-vs-cest} sur le lit. {C'est Minou|ilya-vs-cest}.", "en": "There's a cat on the bed. It's Minou." },
+        { "fr": "{Il y a quelqu'un|ilya-vs-cest} à la porte. {C'est Hugo|ilya-vs-cest} !", "en": "There's someone at the door. It's Hugo!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il y ont trois chambres.", "right": "Il y a trois chambres.", "why": "**il y a** never changes, even for plurals." },
+    { "wrong": "Il y n'a pas de jardin.", "right": "Il n'y a pas de jardin.", "why": "**n'** goes before **y**." },
+    { "wrong": "Il n'y a pas un garage.", "right": "Il n'y a pas de garage.", "why": "After a negative, **un / une / des → de**." },
+    { "wrong": "Est-ce que il y a un balcon ?", "right": "Est-ce qu'il y a un balcon ?", "why": "**que → qu'** before a vowel." },
+    { "wrong": "C'est un chat sur le lit.", "right": "Il y a un chat sur le lit.", "why": "To say something is there, use **il y a**." }
+  ],
+  "story": {
+    "title": "Au téléphone",
+    "en": "Léa tells her mother about the new flat.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Léa parle avec sa mère au téléphone.", "en": "Léa is talking to her mother on the phone." },
+      { "sp": "Anne", "fr": "Alors, {qu'est-ce qu'il y a|ilya-quoi} dans l'appartement ?", "en": "So, what's in the flat?" },
+      { "sp": "Léa", "fr": "{Il y a un salon|ilya-sing} et une cuisine. {Il y a aussi deux chambres|ilya-plur}.", "en": "There's a living room and a kitchen. There are also two bedrooms." },
+      { "sp": "Anne", "fr": "{Il y a combien de fenêtres|ilya-combien} dans le salon ?", "en": "How many windows are there in the living room?" },
+      { "sp": "Léa", "fr": "{Il y a deux fenêtres|ilya-plur}, et {il y a un balcon|ilya-sing} !", "en": "There are two windows, and there's a balcony!" },
+      { "sp": "Anne", "fr": "Super ! {Est-ce qu'il y a une baignoire|ilya-estceque} ?", "en": "Great! Is there a bathtub?" },
+      { "sp": "Léa", "fr": "Non, {il n'y a pas de baignoire|ilya-neg}. {Il y a une douche|ilya-sing}.", "en": "No, there's no bathtub. There's a shower." },
+      { "sp": "Anne", "fr": "{Il y a un jardin|ilya-question} ?", "en": "Is there a garden?" },
+      { "sp": "Léa", "fr": "Maman, c'est un appartement ! {Il n'y a pas de jardin|ilya-neg}.", "en": "Mum, it's a flat! There's no garden." },
+      { "sp": "Anne", "fr": "Et {il y a des meubles|ilya-question} ?", "en": "And is there furniture?" },
+      { "sp": "Léa", "fr": "Oui, {il y a des meubles|ilya-plur} : des lits, une table, des chaises, un canapé…", "en": "Yes, there's furniture: beds, a table, chairs, a sofa…" },
+      { "sp": "", "fr": "Dans le salon, Sophie a peur.", "en": "In the living room, Sophie is scared." },
+      { "sp": "Léa", "fr": "Sophie ? {Qu'est-ce qu'il y a|ilya-quoi} ?", "en": "Sophie? What's wrong?" },
+      { "sp": "Sophie", "fr": "{Il y a quelqu'un|ilya-vs-cest} à la porte !", "en": "There's someone at the door!" },
+      { "sp": "Léa", "fr": "Ah, {c'est Hugo|ilya-vs-cest} ! Il a des chaises pour nous.", "en": "Oh, it's Hugo! He's got chairs for us." },
+      { "sp": "Anne", "fr": "Bon, au revoir, ma chérie ! Bisous !", "en": "Right, goodbye, darling! Love you!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ilya-sing", "type": "mc", "q": "___ un lit dans la chambre.", "en": "There's a bed in the bedroom.", "options": ["Il y a", "Il a", "C'est"], "answer": "Il y a" },
+    { "case": "ilya-sing", "type": "type", "q": "Dans la cuisine, il y ___ une table.", "en": "In the kitchen, there's a table.", "answer": "a" },
+    { "case": "ilya-plur", "type": "mc", "q": "Il y ___ trois chambres.", "en": "There are three bedrooms.", "options": ["a", "ont", "sont"], "answer": "a", "why": "**il y a** never changes, even with a plural." },
+    { "case": "ilya-plur", "type": "mc", "lang": "en", "q": "How do you say “There are two windows”?", "options": ["Il y a deux fenêtres.", "Ils sont deux fenêtres.", "Il y ont deux fenêtres."], "answer": "Il y a deux fenêtres." },
+    { "case": "ilya-neg", "type": "mc", "q": "Il n'y a pas ___ jardin.", "en": "There's no garden.", "options": ["de", "un", "le"], "answer": "de" },
+    { "case": "ilya-neg", "type": "type", "q": "Il ___ a pas de garage.", "en": "There's no garage.", "answer": "n'y", "why": "**n'** + **y**: *il n'y a pas*." },
+    { "case": "ilya-neg", "type": "type", "q": "Il n'y a pas ___enfants ici.", "en": "There are no children here.", "answer": "d'" },
+    { "case": "ilya-question", "type": "mc", "lang": "en", "listen": "Il y a un balcon ?", "q": "Listen: is it a question or a statement?", "options": ["a question", "a statement"], "answer": "a question", "why": "The voice goes **up** at the end." },
+    { "case": "ilya-question", "type": "mc", "lang": "en", "q": "Which one is a question?", "options": ["Il y a un jardin ?", "Il y a un jardin."], "answer": "Il y a un jardin ?" },
+    { "case": "ilya-estceque", "type": "mc", "lang": "en", "q": "Make a question: “Is there a garden?”", "options": ["Est-ce qu'il y a un jardin ?", "Est-ce que il y a un jardin ?", "Il y a est-ce un jardin ?"], "answer": "Est-ce qu'il y a un jardin ?", "why": "**que** becomes **qu'** before **il**." },
+    { "case": "ilya-estceque", "type": "type", "q": "Est-ce ___'il y a une douche ?", "en": "Is there a shower?", "answer": "qu" },
+    { "case": "ilya-combien", "type": "mc", "q": "Il y a ___ de chambres ?", "en": "How many bedrooms are there?", "options": ["combien", "quel", "comment"], "answer": "combien" },
+    { "case": "ilya-combien", "type": "type", "q": "Combien ___ pièces il y a ?", "en": "How many rooms are there?", "answer": "de" },
+    { "case": "ilya-quoi", "type": "mc", "lang": "en", "q": "How do you say “What's in the fridge?”", "options": ["Qu'est-ce qu'il y a dans le frigo ?", "Qu'il y a dans le frigo ?", "Est-ce qu'il y a dans le frigo ?"], "answer": "Qu'est-ce qu'il y a dans le frigo ?" },
+    { "case": "ilya-quoi", "type": "mc", "lang": "en", "q": "Your friend looks worried. You ask…", "options": ["Qu'est-ce qu'il y a ?", "Combien il y a ?", "Il y a un chat ?"], "answer": "Qu'est-ce qu'il y a ?", "why": "On its own, **Qu'est-ce qu'il y a ?** means *What's wrong?*" },
+    { "case": "ilya-vs-cest", "type": "mc", "q": "Il y a quelqu'un à la porte. ___ Hugo !", "en": "There's someone at the door. It's Hugo!", "options": ["C'est", "Il y a"], "answer": "C'est" },
+    { "case": "ilya-vs-cest", "type": "mc", "q": "___ un chat sur le lit.", "en": "There's a cat on the bed.", "options": ["Il y a", "C'est"], "answer": "Il y a" }
+  ]
+}

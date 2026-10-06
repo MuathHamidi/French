@@ -1,0 +1,186 @@
+{
+  "id": "u20-futur",
+  "type": "grammar",
+  "unit": 20,
+  "title": "Je parlerai",
+  "en": "The future tense (futur simple)",
+  "intro": "The **futur simple** says what will happen: *Demain, je **partirai** à huit heures.* For most verbs, take the **infinitive** and add **-ai, -as, -a, -ons, -ez, -ont**. For **-re** verbs, drop the final **e** first: *prendre → je prendr**ai***.",
+  "cases": [
+    { "id": "fut-use", "label": "futur simple or aller + infinitive?", "rule": "Both talk about the future. **aller + infinitive** (*je vais partir*) is for plans and things that are about to happen; the **futur simple** (*je partirai*) is for things further away, promises and predictions, and it's very common in writing: *Un jour, je visiterai le Japon.*" },
+    { "id": "fut-er", "label": "-er verbs: je parlerai", "rule": "Infinitive + endings: *parler → je parler**ai**, tu parler**as**, il parler**a**, nous parler**ons**, vous parler**ez**, ils parler**ont***." },
+    { "id": "fut-ir-re", "label": "-ir and -re verbs", "rule": "**-ir**: infinitive + endings: *je finir**ai**, je partir**ai***. **-re**: drop the final **e**: *prendre → je prendr**ai**, attendre → j'attendr**ai**, lire → je lir**ai**, écrire → j'écrir**ai***." },
+    { "id": "fut-endings", "label": "the endings", "rule": "The endings look like the present of **avoir**: *(j')**ai**, (tu) **as**, (il) **a**, (nous av)**ons**, (vous av)**ez**, (ils) **ont***. You always hear an **r** just before them: /ʒə paʁ.lə.ʁe/." },
+    { "id": "fut-spelling", "label": "j'achèterai, j'appellerai", "rule": "Verbs that change spelling in the present keep the change in the whole future: *acheter → j'**achèterai**, appeler → j'**appellerai**, payer → je **paierai**, se lever → je me **lèverai***." },
+    { "id": "fut-quand", "label": "quand + future", "rule": "When the action is in the future, French uses the future after **quand** (English uses the present): *Quand tu **arriveras**, appelle-moi* (When you arrive, call me)." },
+    { "id": "fut-time", "label": "time words for the future", "rule": "**demain, après-demain, la semaine prochaine, l'année prochaine, dans deux jours, un jour, plus tard, bientôt**: *Dans dix ans, j'habiterai à Paris.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. futur simple or aller + infinitive?",
+      "text": ["**aller + infinitive** is for what's planned or about to happen. The **futur simple** is for things further away, promises and predictions."],
+      "table": {
+        "head": ["aller + infinitive", "futur simple"], "frCols": [0, 1],
+        "rows": [
+          ["Je vais partir.", "Je partirai un jour."],
+          ["On va manger.", "On mangera plus tard."],
+          ["Tu vas tomber !", "Tu tomberas peut-être."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Un jour, je visiterai le Japon|fut-use}.", "en": "One day, I'll visit Japan." },
+        { "fr": "{Attention, tu vas tomber|fut-use} !", "en": "Careful, you're going to fall!" }
+      ],
+      "tip": "In conversation, **aller + infinitive** is more common; in writing, promises and predictions, use the **futur simple**."
+    },
+    {
+      "title": "2. -er verbs: je parlerai",
+      "table": {
+        "head": ["", "parler", "manger"], "frCols": [1, 2],
+        "rows": [
+          ["je", "je parlerai", "je mangerai"],
+          ["tu", "tu parleras", "tu mangeras"],
+          ["il / elle", "il parlera", "il mangera"],
+          ["nous", "nous parlerons", "nous mangerons"],
+          ["vous", "vous parlerez", "vous mangerez"],
+          ["ils / elles", "ils parleront", "ils mangeront"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Demain, je travaillerai|fut-er} à la maison.", "en": "Tomorrow, I'll work from home." },
+        { "fr": "{Nous dînerons|fut-er} au restaurant samedi.", "en": "We'll have dinner at the restaurant on Saturday." }
+      ]
+    },
+    {
+      "title": "3. -ir and -re verbs",
+      "table": {
+        "head": ["Infinitive", "Future"], "frCols": [0, 1],
+        "rows": [
+          ["finir", "je finirai"],
+          ["partir", "tu partiras"],
+          ["dormir", "il dormira"],
+          ["prendre", "nous prendrons"],
+          ["attendre", "vous attendrez"],
+          ["lire", "ils liront"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je finirai mes devoirs|fut-ir-re} après le dîner.", "en": "I'll finish my homework after dinner." },
+        { "fr": "{Nous prendrons le train de huit heures|fut-ir-re}.", "en": "We'll take the eight o'clock train." }
+      ],
+      "tip": "**-re** verbs lose their **e**: *prendre → prendr-, boire → boir-, dire → dir-*."
+    },
+    {
+      "title": "4. The endings",
+      "table": {
+        "head": ["avoir (present)", "future ending"], "frCols": [0, 1],
+        "rows": [
+          ["j'ai", "je parlerai"],
+          ["tu as", "tu parleras"],
+          ["il a", "il parlera"],
+          ["nous avons", "nous parlerons"],
+          ["vous avez", "vous parlerez"],
+          ["ils ont", "ils parleront"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ils arriveront|fut-endings} demain soir.", "en": "They'll arrive tomorrow evening." },
+        { "fr": "{Vous aimerez|fut-endings} ce film, c'est sûr !", "en": "You'll love this film, I'm sure!" }
+      ]
+    },
+    {
+      "title": "5. j'achèterai, j'appellerai",
+      "table": {
+        "head": ["Present", "Future"], "frCols": [0, 1],
+        "rows": [
+          ["j'achète", "j'achèterai"],
+          ["j'appelle", "j'appellerai"],
+          ["je paie", "je paierai"],
+          ["je me lève", "je me lèverai"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je t'appellerai|fut-spelling} ce soir.", "en": "I'll call you tonight." },
+        { "fr": "{On achètera le pain|fut-spelling} demain matin.", "en": "We'll buy the bread tomorrow morning." }
+      ]
+    },
+    {
+      "title": "6. quand + future",
+      "text": ["English says *when you arrive* (present) for a future action; French says **quand tu arriveras** (future)."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Quand tu arriveras, appelle-moi.", "When you arrive, call me."],
+          ["Quand je finirai mes études, je voyagerai.", "When I finish my studies, I'll travel."],
+          ["Quand il pleuvra, on restera à la maison.", "When it rains, we'll stay at home."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quand tu verras Léa|fut-quand}, dis-lui bonjour.", "en": "When you see Léa, say hello to her." },
+        { "fr": "{Quand Lou grandira|fut-quand}, elle aura un portable.", "en": "When Lou grows up, she'll have a mobile." }
+      ]
+    },
+    {
+      "title": "7. Time words for the future",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["demain, après-demain", "tomorrow, the day after tomorrow"],
+          ["la semaine prochaine, l'année prochaine", "next week, next year"],
+          ["dans deux jours, dans dix ans", "in two days, in ten years"],
+          ["un jour, plus tard", "one day, later"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Dans dix ans, j'habiterai à Paris|fut-time}.", "en": "In ten years, I'll live in Paris." },
+        { "fr": "{La semaine prochaine, nous commencerons|fut-time} la leçon douze.", "en": "Next week, we'll start lesson twelve." }
+      ],
+      "tip": "**dans** + time = *in* (from now): *dans deux jours* (in two days)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "je prenderai", "right": "je prendrai", "why": "**-re** verbs drop the **e**: *prendr-*." },
+    { "wrong": "j'acheterai", "right": "j'achèterai", "why": "**acheter** keeps its **è** in the future." },
+    { "wrong": "Quand tu arrives demain, appelle-moi.", "right": "Quand tu arriveras demain, appelle-moi.", "why": "After **quand**, a future action takes the future." },
+    { "wrong": "nous parlerez", "right": "nous parlerons", "why": "**nous** → **-ons**, **vous** → **-ez**." },
+    { "wrong": "je mangera", "right": "je mangerai", "why": "**je** → **-ai**: *je mangerai*; **il** → **-a**: *il mangera*." }
+  ],
+  "story": {
+    "title": "Les bonnes résolutions",
+    "en": "New Year's Day: the friends write their resolutions… in the future tense.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le premier janvier, à midi. Tout le monde se réveille chez Léa et Sophie.", "en": "1 January, at noon. Everyone is waking up at Léa and Sophie's." },
+      { "sp": "Léa", "fr": "Bon, c'est le moment des résolutions ! Chacun écrit trois phrases au futur.", "en": "Right, it's time for resolutions! Everyone writes three sentences in the future tense." },
+      { "sp": "Sophie", "fr": "Moi, {je commencerai|fut-er} l'école d'architecture, {je travaillerai|fut-er} beaucoup… et {je dormirai|fut-ir-re} plus !", "en": "Me, I'll start at the school of architecture, I'll work hard… and I'll sleep more!" },
+      { "sp": "Tom", "fr": "Cette année, {j'écrirai|fut-ir-re} des chansons, et {je jouerai|fut-er} dans un groupe.", "en": "This year, I'll write songs, and I'll play in a band." },
+      { "sp": "Inès", "fr": "{Quand je gagnerai|fut-quand} assez d'argent, {je voyagerai|fut-er} en Asie.", "en": "When I earn enough money, I'll travel in Asia." },
+      { "sp": "Hugo", "fr": "Moi, {je mangerai|fut-endings} moins de chocolat, {je dépenserai|fut-er} moins d'argent… et {je rembourserai|fut-er} Léa !", "en": "Me, I'll eat less chocolate, I'll spend less money… and I'll pay Léa back!" },
+      { "sp": "Léa", "fr": "Tu le promets ? {Tu me paieras|fut-spelling} quand ?", "en": "Do you promise? When will you pay me?" },
+      { "sp": "Hugo", "fr": "{Je te paierai|fut-spelling} {la semaine prochaine|fut-time}… ou {le mois prochain|fut-time}.", "en": "I'll pay you next week… or next month." },
+      { "sp": "Sophie", "fr": "Et toi, Léa ? Tes résolutions ?", "en": "And you, Léa? Your resolutions?" },
+      { "sp": "Léa", "fr": "{Je finirai|fut-ir-re} mes études, {j'apprendrai|fut-ir-re} l'espagnol, et {j'appellerai|fut-spelling} Mamie tous les dimanches.", "en": "I'll finish my studies, I'll learn Spanish, and I'll call Grandma every Sunday." },
+      { "sp": "Tom", "fr": "Les résolutions, c'est bien… mais {dans un mois, on oubliera tout|fut-time} !", "en": "Resolutions are all very well… but in a month, we'll forget everything!" },
+      { "sp": "Inès", "fr": "Non ! Cette fois, c'est différent. {On achètera|fut-spelling} un grand cahier, et {on écrira|fut-ir-re} nos progrès.", "en": "No! This time it's different. We'll buy a big notebook, and we'll write down our progress." },
+      { "sp": "Hugo", "fr": "{Je vais acheter|fut-use} le cahier tout de suite !", "en": "I'm going to buy the notebook right now!" },
+      { "sp": "Léa", "fr": "Tu vois, Hugo : « {je vais acheter|fut-use} », c'est maintenant ; « {un jour, j'achèterai|fut-use} », c'est plus tard.", "en": "You see, Hugo: 'je vais acheter' is now; 'un jour, j'achèterai' is later." },
+      { "sp": "Hugo", "fr": "Alors, {un jour, je rangerai|fut-time} ma chambre !", "en": "So, one day, I'll tidy my room!" },
+      { "sp": "", "fr": "Tout le monde rit. {Quand Hugo rangera sa chambre|fut-quand}, il neigera en août !", "en": "Everyone laughs. When Hugo tidies his room, it'll snow in August!" }
+    ]
+  },
+  "quiz": [
+    { "case": "fut-use", "type": "mc", "lang": "en", "q": "« Un jour, je visiterai le Japon » means…", "options": ["One day, I'll visit Japan.", "One day, I visited Japan.", "Every day, I visit Japan."], "answer": "One day, I'll visit Japan.", "say": "Un jour, je visiterai le Japon." },
+    { "case": "fut-use", "type": "mc", "lang": "en", "q": "« Je vais partir » and « Je partirai » both talk about…", "options": ["the future", "the past", "the present"], "answer": "the future", "say": "Je partirai." },
+    { "case": "fut-er", "type": "mc", "q": "Samedi, nous ___ au restaurant.", "en": "On Saturday, we'll eat at the restaurant.", "options": ["mangerons", "mangeons", "mangerez"], "answer": "mangerons" },
+    { "case": "fut-er", "type": "type", "q": "Ce soir, je ___ un film.", "en": "Tonight, I'll watch a film.", "answer": "regarderai" },
+    { "case": "fut-ir-re", "type": "mc", "q": "Je ___ mes devoirs ce soir.", "en": "I'll finish my homework tonight.", "options": ["finirai", "finissais", "finis"], "answer": "finirai" },
+    { "case": "fut-ir-re", "type": "mc", "q": "Nous ___ le train de huit heures.", "en": "We'll take the eight o'clock train.", "options": ["prendrons", "prenderons", "prenons"], "answer": "prendrons" },
+    { "case": "fut-endings", "type": "mc", "lang": "en", "q": "The future endings -ai, -as, -a, -ons, -ez, -ont look like the present of…", "options": ["avoir", "être", "aller"], "answer": "avoir" },
+    { "case": "fut-endings", "type": "mc", "q": "Ils ___ demain.", "en": "They'll arrive tomorrow.", "options": ["arriveront", "arriverons", "arriverez"], "answer": "arriveront" },
+    { "case": "fut-spelling", "type": "mc", "q": "J'___ du pain demain.", "en": "I'll buy some bread tomorrow.", "options": ["achèterai", "acheterai", "achèteras"], "answer": "achèterai" },
+    { "case": "fut-spelling", "type": "type", "q": "Je t'___ ce soir.", "en": "I'll call you tonight.", "answer": "appellerai" },
+    { "case": "fut-quand", "type": "mc", "q": "Quand tu ___, appelle-moi.", "en": "When you arrive, call me.", "options": ["arriveras", "arrives", "arrivais"], "answer": "arriveras" },
+    { "case": "fut-quand", "type": "mc", "lang": "en", "q": "“When I finish, I'll call you.”", "options": ["Quand je finirai, je t'appellerai.", "Quand je finis, je t'appellerai."], "answer": "Quand je finirai, je t'appellerai.", "say": "Quand je finirai, je t'appellerai." },
+    { "case": "fut-time", "type": "mc", "lang": "en", "q": "Which one goes with the future?", "options": ["la semaine prochaine", "la semaine dernière", "hier"], "answer": "la semaine prochaine" },
+    { "case": "fut-time", "type": "mc", "q": "___ dix ans, j'habiterai à Paris.", "en": "In ten years, I'll live in Paris.", "options": ["Dans", "En", "Depuis"], "answer": "Dans" }
+  ]
+}

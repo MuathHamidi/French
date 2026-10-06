@@ -1,0 +1,248 @@
+{
+  "id": "u13-jobs",
+  "type": "vocab",
+  "unit": 13,
+  "title": "Les métiers",
+  "en": "Jobs",
+  "intro": "22 jobs, from *médecin* to *chanteur*. Most jobs have a masculine and a feminine form (**un infirmier, une infirmière**); some are the same for both (**un / une journaliste**). To say what someone does, French uses no article: **il est médecin**, **je suis étudiante**.",
+  "words": [
+    { "id": "metier", "fr": "métier", "pos": "noun", "g": "m", "ipa": "me.tje", "en": "job, trade, profession",
+      "def": "Le travail qu'on fait pour gagner sa vie : médecin, professeur, cuisinier…", "def_en": "The work you do to earn a living: doctor, teacher, cook…",
+      "forms": ["métiers"],
+      "examples": [
+        { "fr": "Qu'est-ce que tu fais comme **métier** ?", "en": "What do you do for a living?" },
+        { "fr": "C'est un **métier** difficile.", "en": "It's a hard job." },
+        { "fr": "J'aime mon **métier**.", "en": "I love my job." }
+      ],
+      "note": "To ask someone what they do: **Qu'est-ce que vous faites dans la vie ?**" },
+    { "id": "medecin", "fr": "médecin", "pos": "noun", "g": "m", "both": true, "ipa": "med.sɛ̃", "display": "le / la médecin", "en": "doctor",
+      "def": "La personne qui soigne les malades.", "def_en": "The person who treats sick people.",
+      "forms": ["médecins"],
+      "accept": ["la médecin", "une médecin", "docteur", "le docteur"],
+      "examples": [
+        { "fr": "Ma mère est **médecin**.", "en": "My mother is a doctor." },
+        { "fr": "Je vais chez le **médecin**.", "en": "I'm going to the doctor's." },
+        { "fr": "Le **médecin** arrive dans dix minutes.", "en": "The doctor is arriving in ten minutes." }
+      ],
+      "note": "For a woman: **elle est médecin** or **une médecin**. You can also say **docteur**: *Bonjour, docteur !*" },
+    { "id": "infirmier", "fr": "infirmier", "pos": "noun", "g": "m", "ipa": "ɛ̃.fiʁ.mje", "display": "l'infirmier, l'infirmière", "en": "nurse",
+      "def": "La personne qui aide le médecin et qui s'occupe des malades à l'hôpital.", "def_en": "The person who helps the doctor and looks after patients in hospital.",
+      "forms": ["infirmière", "infirmiers", "infirmières"],
+      "accept": ["infirmière", "l'infirmière", "une infirmière"],
+      "examples": [
+        { "fr": "L'**infirmière** prend ma température.", "en": "The nurse takes my temperature." },
+        { "fr": "Il est **infirmier** la nuit.", "en": "He's a night nurse." },
+        { "fr": "Les **infirmières** travaillent beaucoup.", "en": "Nurses work very hard." }
+      ] },
+    { "id": "professeur", "fr": "professeur", "pos": "noun", "g": "m", "ipa": "pʁɔ.fɛ.sœʁ", "display": "le professeur, la professeure", "en": "teacher",
+      "def": "La personne qui enseigne dans une école ou à l'université.", "def_en": "The person who teaches in a school or at university.",
+      "forms": ["professeure", "professeurs", "professeures", "prof", "profs"],
+      "accept": ["professeure", "la professeure", "prof", "le prof", "la prof"],
+      "examples": [
+        { "fr": "Marc est **professeur** de français.", "en": "Marc is a French teacher." },
+        { "fr": "Mon père est **professeur**.", "en": "My father is a teacher." },
+        { "fr": "J'aime bien ma **prof** de maths.", "en": "I really like my maths teacher." }
+      ],
+      "note": "In speech: **le / la prof**. A primary-school teacher is **un professeur des écoles**." },
+    { "id": "avocat", "fr": "avocat", "pos": "noun", "g": "m", "ipa": "a.vɔ.ka", "display": "l'avocat, l'avocate", "en": "lawyer; avocado",
+      "def": "La personne qui défend les gens devant le juge. Aussi : un fruit vert.", "def_en": "The person who defends people in court. Also: a green fruit (avocado).",
+      "forms": ["avocate", "avocats", "avocates"],
+      "accept": ["avocate", "l'avocate", "une avocate"],
+      "examples": [
+        { "fr": "Ma cousine Chloé est **avocate**.", "en": "My cousin Chloé is a lawyer." },
+        { "fr": "Il a besoin d'un bon **avocat**.", "en": "He needs a good lawyer." },
+        { "fr": "J'aime les **avocats** avec du citron.", "en": "I like avocados with lemon." }
+      ],
+      "note": "The same word for the fruit: *un avocat* = an avocado!" },
+    { "id": "ingenieur", "fr": "ingénieur", "pos": "noun", "g": "m", "ipa": "ɛ̃.ʒe.njœʁ", "display": "l'ingénieur, l'ingénieure", "en": "engineer",
+      "def": "La personne qui invente et construit des machines, des routes, des ponts…", "def_en": "The person who designs and builds machines, roads, bridges…",
+      "forms": ["ingénieure", "ingénieurs", "ingénieures"],
+      "accept": ["ingénieure", "l'ingénieure", "une ingénieure"],
+      "examples": [
+        { "fr": "Elle est **ingénieure** dans une grande entreprise.", "en": "She's an engineer in a big company." },
+        { "fr": "Les **ingénieurs** construisent un nouveau pont.", "en": "The engineers are building a new bridge." },
+        { "fr": "Mon frère veut devenir **ingénieur**.", "en": "My brother wants to become an engineer." }
+      ] },
+    { "id": "cuisinier", "fr": "cuisinier", "pos": "noun", "g": "m", "ipa": "kɥi.zi.nje", "display": "le cuisinier, la cuisinière", "en": "cook",
+      "def": "La personne qui prépare les repas, dans un restaurant par exemple.", "def_en": "The person who makes the meals, in a restaurant for example.",
+      "forms": ["cuisiniers"],
+      "accept": ["cuisinière", "la cuisinière", "une cuisinière", "chef", "le chef"],
+      "examples": [
+        { "fr": "Karim est **cuisinier** dans un restaurant.", "en": "Karim is a cook in a restaurant." },
+        { "fr": "C'est un très bon **cuisinier** !", "en": "He's a very good cook!" },
+        { "fr": "Les **cuisiniers** travaillent le soir.", "en": "Cooks work in the evening." }
+      ],
+      "note": "**une cuisinière** is a woman cook, but also a cooker (stove)! The head of a kitchen is **le chef**." },
+    { "id": "serveur", "fr": "serveur", "pos": "noun", "g": "m", "ipa": "sɛʁ.vœʁ", "display": "le serveur, la serveuse", "en": "waiter",
+      "def": "La personne qui apporte les plats et les boissons au restaurant ou au café.", "def_en": "The person who brings food and drinks in a restaurant or café.",
+      "forms": ["serveuse", "serveurs", "serveuses"],
+      "accept": ["serveuse", "la serveuse", "une serveuse"],
+      "examples": [
+        { "fr": "Le **serveur** apporte la carte.", "en": "The waiter brings the menu." },
+        { "fr": "Sophie est **serveuse** le samedi.", "en": "Sophie is a waitress on Saturdays." },
+        { "fr": "On appelle le **serveur** : l'addition, s'il vous plaît !", "en": "We call the waiter: the bill, please!" }
+      ],
+      "note": "To call a waiter, just say **Monsieur !** or **Madame !** (never *Garçon !*)." },
+    { "id": "vendeur", "fr": "vendeur", "pos": "noun", "g": "m", "ipa": "vɑ̃.dœʁ", "display": "le vendeur, la vendeuse", "en": "shop assistant, salesperson",
+      "def": "La personne qui vend des choses dans un magasin.", "def_en": "The person who sells things in a shop.",
+      "forms": ["vendeuse", "vendeurs", "vendeuses"],
+      "accept": ["vendeuse", "la vendeuse", "une vendeuse"],
+      "examples": [
+        { "fr": "La **vendeuse** est très gentille.", "en": "The shop assistant is very kind." },
+        { "fr": "Il est **vendeur** dans un magasin de vélos.", "en": "He's a salesman in a bike shop." },
+        { "fr": "Je demande au **vendeur**.", "en": "I ask the shop assistant." }
+      ],
+      "note": "From **vendre** (to sell). **-eur → -euse**: *vendeur / vendeuse, serveur / serveuse*." },
+    { "id": "boulanger", "fr": "boulanger", "pos": "noun", "g": "m", "ipa": "bu.lɑ̃.ʒe", "display": "le boulanger, la boulangère", "en": "baker",
+      "def": "La personne qui fait le pain et les croissants.", "def_en": "The person who makes bread and croissants.",
+      "forms": ["boulangère", "boulangers", "boulangères"],
+      "accept": ["boulangère", "la boulangère", "une boulangère"],
+      "examples": [
+        { "fr": "Le **boulanger** commence à quatre heures du matin.", "en": "The baker starts at four in the morning." },
+        { "fr": "La **boulangère** est souriante.", "en": "The baker is all smiles." },
+        { "fr": "Le **boulanger** travaille dans une boulangerie.", "en": "The baker works in a bakery." }
+      ] },
+    { "id": "coiffeur", "fr": "coiffeur", "pos": "noun", "g": "m", "ipa": "kwa.fœʁ", "display": "le coiffeur, la coiffeuse", "en": "hairdresser",
+      "def": "La personne qui coupe les cheveux.", "def_en": "The person who cuts hair.",
+      "forms": ["coiffeuse", "coiffeurs", "coiffeuses"],
+      "accept": ["coiffeuse", "la coiffeuse", "une coiffeuse"],
+      "examples": [
+        { "fr": "Je vais chez le **coiffeur** samedi.", "en": "I'm going to the hairdresser's on Saturday." },
+        { "fr": "Ma **coiffeuse** est très douée.", "en": "My hairdresser is very talented." },
+        { "fr": "Le **coiffeur** coupe les cheveux de Hugo.", "en": "The hairdresser cuts Hugo's hair." }
+      ],
+      "note": "**chez le coiffeur** = at / to the hairdresser's (*chez* + a person)." },
+    { "id": "policier", "fr": "policier", "pos": "noun", "g": "m", "ipa": "pɔ.li.sje", "display": "le policier, la policière", "en": "police officer; (roman policier) detective novel",
+      "def": "La personne qui protège les gens et qui arrête les voleurs.", "def_en": "The person who protects people and catches thieves.",
+      "forms": ["policière", "policiers", "policières"],
+      "accept": ["policière", "la policière", "une policière"],
+      "examples": [
+        { "fr": "Le **policier** aide les enfants à traverser.", "en": "The police officer helps the children cross." },
+        { "fr": "Ma tante est **policière**.", "en": "My aunt is a police officer." },
+        { "fr": "J'adore les romans **policiers**.", "en": "I love detective novels." }
+      ],
+      "note": "**la police** = the police. In everyday speech: **un flic** (a cop)." },
+    { "id": "pompier", "fr": "pompier", "pos": "noun", "g": "m", "ipa": "pɔ̃.pje", "display": "le pompier, la pompière", "en": "firefighter",
+      "def": "La personne qui éteint les incendies et qui aide les gens en danger.", "def_en": "The person who puts out fires and helps people in danger.",
+      "forms": ["pompière", "pompiers", "pompières"],
+      "accept": ["pompière", "la pompière", "une pompière"],
+      "examples": [
+        { "fr": "Les **pompiers** arrivent vite !", "en": "The firefighters arrive quickly!" },
+        { "fr": "Mon cousin Jules est **pompier**.", "en": "My cousin Jules is a firefighter." },
+        { "fr": "Appelle les **pompiers** : il y a le feu !", "en": "Call the fire brigade: there's a fire!" }
+      ],
+      "note": "In France, call **le 18** for the fire brigade (**le 112** everywhere in Europe)." },
+    { "id": "facteur", "fr": "facteur", "pos": "noun", "g": "m", "ipa": "fak.tœʁ", "display": "le facteur, la factrice", "en": "postman, postwoman",
+      "def": "La personne qui apporte les lettres et les colis.", "def_en": "The person who delivers letters and parcels.",
+      "forms": ["factrice", "facteurs", "factrices"],
+      "accept": ["factrice", "la factrice", "une factrice"],
+      "examples": [
+        { "fr": "Le **facteur** passe à dix heures.", "en": "The postman comes by at ten." },
+        { "fr": "La **factrice** fait sa tournée à vélo.", "en": "The postwoman does her round by bike." },
+        { "fr": "Le **facteur** apporte un colis pour toi.", "en": "The postman is bringing a parcel for you." }
+      ],
+      "note": "**-teur → -trice**: *facteur / factrice, acteur / actrice, agriculteur / agricultrice*." },
+    { "id": "agriculteur", "fr": "agriculteur", "pos": "noun", "g": "m", "ipa": "a.ɡʁi.kyl.tœʁ", "display": "l'agriculteur, l'agricultrice", "en": "farmer",
+      "def": "La personne qui travaille à la ferme : elle cultive les champs et elle a des animaux.", "def_en": "The person who works on a farm: they grow crops and keep animals.",
+      "forms": ["agricultrice", "agriculteurs", "agricultrices"],
+      "accept": ["agricultrice", "l'agricultrice", "une agricultrice", "fermier", "le fermier"],
+      "examples": [
+        { "fr": "Mon oncle Pierre est **agriculteur**.", "en": "My uncle Pierre is a farmer." },
+        { "fr": "Les **agriculteurs** travaillent dans les champs.", "en": "Farmers work in the fields." },
+        { "fr": "L'**agricultrice** a cinquante vaches.", "en": "The farmer has fifty cows." }
+      ],
+      "note": "Also **un fermier, une fermière**, from **la ferme** (farm)." },
+    { "id": "chauffeur", "fr": "chauffeur", "pos": "noun", "g": "m", "ipa": "ʃo.fœʁ", "en": "driver",
+      "def": "La personne qui conduit un bus, un taxi ou un camion.", "def_en": "The person who drives a bus, a taxi or a lorry.",
+      "forms": ["chauffeurs"],
+      "examples": [
+        { "fr": "Le **chauffeur** du bus est sympa.", "en": "The bus driver is nice." },
+        { "fr": "Il est **chauffeur** de taxi.", "en": "He's a taxi driver." },
+        { "fr": "Le **chauffeur** s'arrête devant la gare.", "en": "The driver stops in front of the station." }
+      ],
+      "note": "For a woman you'll hear **une chauffeure** or simply *elle est chauffeur de bus*." },
+    { "id": "journaliste", "fr": "journaliste", "pos": "noun", "g": "m", "both": true, "ipa": "ʒuʁ.na.list", "display": "le / la journaliste", "en": "journalist",
+      "def": "La personne qui écrit dans un journal ou qui parle des informations à la radio et à la télé.", "def_en": "The person who writes for a newspaper or reports the news on radio and TV.",
+      "forms": ["journalistes"],
+      "accept": ["la journaliste", "une journaliste"],
+      "examples": [
+        { "fr": "Tom veut devenir **journaliste**.", "en": "Tom wants to become a journalist." },
+        { "fr": "La **journaliste** pose une question.", "en": "The journalist asks a question." },
+        { "fr": "Les **journalistes** attendent devant la mairie.", "en": "The journalists are waiting outside the town hall." }
+      ],
+      "note": "The same word for a man and a woman: **un / une journaliste**." },
+    { "id": "architecte", "fr": "architecte", "pos": "noun", "g": "m", "both": true, "ipa": "aʁ.ʃi.tɛkt", "en": "architect",
+      "def": "La personne qui dessine les plans des maisons et des immeubles.", "def_en": "The person who draws the plans of houses and buildings.",
+      "forms": ["architectes"],
+      "accept": ["une architecte"],
+      "examples": [
+        { "fr": "Sophie veut être **architecte**.", "en": "Sophie wants to be an architect." },
+        { "fr": "L'**architecte** dessine une nouvelle maison.", "en": "The architect is designing a new house." },
+        { "fr": "Les **architectes** travaillent avec les ingénieurs.", "en": "Architects work with engineers." }
+      ],
+      "note": "The same word for a man and a woman: **un / une architecte**. Here **ch** = /ʃ/." },
+    { "id": "informaticien", "fr": "informaticien", "pos": "noun", "g": "m", "ipa": "ɛ̃.fɔʁ.ma.ti.sjɛ̃", "display": "l'informaticien, l'informaticienne", "en": "IT specialist, computer scientist",
+      "def": "La personne qui travaille avec les ordinateurs : elle écrit des programmes et elle répare les problèmes.", "def_en": "The person who works with computers: they write programs and fix problems.",
+      "forms": ["informaticienne", "informaticiens", "informaticiennes"],
+      "accept": ["informaticienne", "l'informaticienne", "une informaticienne"],
+      "examples": [
+        { "fr": "Hugo est **informaticien**.", "en": "Hugo works in IT." },
+        { "fr": "L'**informaticienne** répare mon ordinateur.", "en": "The IT technician is fixing my computer." },
+        { "fr": "Les **informaticiens** travaillent souvent en équipe.", "en": "IT people often work in teams." }
+      ],
+      "note": "From **l'informatique** (computing, IT)." },
+    { "id": "dentiste", "fr": "dentiste", "pos": "noun", "g": "m", "both": true, "ipa": "dɑ̃.tist", "display": "le / la dentiste", "en": "dentist",
+      "def": "Le médecin des dents.", "def_en": "The doctor for teeth.",
+      "forms": ["dentistes"],
+      "accept": ["la dentiste", "une dentiste"],
+      "examples": [
+        { "fr": "Je vais chez le **dentiste** à trois heures.", "en": "I'm going to the dentist's at three." },
+        { "fr": "Lou a peur du **dentiste**.", "en": "Lou is scared of the dentist." },
+        { "fr": "La **dentiste** est très douce avec les enfants.", "en": "The dentist is very gentle with children." }
+      ],
+      "note": "The same word for a man and a woman: **un / une dentiste**." },
+    { "id": "acteur", "fr": "acteur", "pos": "noun", "g": "m", "ipa": "ak.tœʁ", "display": "l'acteur, l'actrice", "en": "actor",
+      "def": "La personne qui joue un rôle dans un film ou au théâtre.", "def_en": "The person who plays a part in a film or in the theatre.",
+      "forms": ["actrice", "acteurs", "actrices"],
+      "accept": ["actrice", "l'actrice", "une actrice"],
+      "examples": [
+        { "fr": "C'est un **acteur** très célèbre.", "en": "He's a very famous actor." },
+        { "fr": "Inès veut devenir **actrice**.", "en": "Inès wants to become an actress." },
+        { "fr": "Les **acteurs** arrivent sur scène.", "en": "The actors come on stage." }
+      ] },
+    { "id": "chanteur", "fr": "chanteur", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.tœʁ", "display": "le chanteur, la chanteuse", "en": "singer",
+      "def": "La personne qui chante, souvent devant un public.", "def_en": "The person who sings, often in front of an audience.",
+      "forms": ["chanteuse", "chanteurs", "chanteuses"],
+      "accept": ["chanteuse", "la chanteuse", "une chanteuse"],
+      "examples": [
+        { "fr": "Stromae est un **chanteur** belge.", "en": "Stromae is a Belgian singer." },
+        { "fr": "Sophie est la **chanteuse** du groupe.", "en": "Sophie is the band's singer." },
+        { "fr": "Le **chanteur** chante mal… mais il est content !", "en": "The singer sings badly… but he's happy!" }
+      ],
+      "note": "From **chanter** (to sing)." }
+  ],
+  "story": {
+    "title": "Le forum des métiers",
+    "en": "A careers fair at the university. What does Léa want to do later?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "À l'université, il y a un forum des métiers. Léa, Sophie et Tom font le tour des stands.", "en": "At the university, there's a careers fair. Léa, Sophie and Tom go round the stands." },
+      { "sp": "Sophie", "fr": "Regardez ! Il y a des médecins, des infirmières, des ingénieurs, des avocats…", "en": "Look! There are doctors, nurses, engineers, lawyers…" },
+      { "sp": "Tom", "fr": "Et là-bas, des pompiers, des policiers, un facteur… et même un boulanger avec des croissants !", "en": "And over there, firefighters, police officers, a postman… and even a baker with croissants!" },
+      { "sp": "Léa", "fr": "Il y a beaucoup de métiers… Moi, je ne sais pas quoi choisir.", "en": "There are so many jobs… I don't know what to choose." },
+      { "sp": "", "fr": "Une journaliste de la radio pose des questions aux étudiants.", "en": "A radio journalist is asking the students questions." },
+      { "sp": "La journaliste", "fr": "Bonjour ! Qu'est-ce que vous voulez faire plus tard ?", "en": "Hello! What do you want to do later on?" },
+      { "sp": "Tom", "fr": "Moi, je veux être journaliste, comme vous ! Ou acteur…", "en": "I want to be a journalist, like you! Or an actor…" },
+      { "sp": "Sophie", "fr": "Moi, architecte. J'adore dessiner des maisons.", "en": "Me, an architect. I love drawing houses." },
+      { "sp": "La journaliste", "fr": "Et vous ?", "en": "And you?" },
+      { "sp": "Léa", "fr": "Je ne sais pas ! Dans ma famille, il y a tous les métiers. Mon père est professeur, ma mère est médecin, mon frère Hugo est informaticien…", "en": "I don't know! My family has every job you can think of. My father is a teacher, my mother is a doctor, my brother Hugo works in IT…" },
+      { "sp": "Léa", "fr": "Mon oncle Pierre est agriculteur, ma cousine Chloé est avocate, et son mari Karim est cuisinier…", "en": "My uncle Pierre is a farmer, my cousin Chloé is a lawyer, and her husband Karim is a cook…" },
+      { "sp": "Léa", "fr": "Et mon cousin Antoine est chauffeur de taxi à Montréal. Le week-end, il est chanteur dans un groupe !", "en": "And my cousin Antoine is a taxi driver in Montréal. At weekends, he's a singer in a band!" },
+      { "sp": "La journaliste", "fr": "Et pour gagner un peu d'argent, vous travaillez ?", "en": "And do you work, to earn a bit of money?" },
+      { "sp": "Sophie", "fr": "Oui ! Je suis serveuse le samedi, au café d'en bas.", "en": "Yes! I'm a waitress on Saturdays, at the café downstairs." },
+      { "sp": "Tom", "fr": "Et moi, je suis vendeur dans un magasin de guitares.", "en": "And I'm a sales assistant in a guitar shop." },
+      { "sp": "", "fr": "Le soir, Léa a la tête pleine de métiers… et mal aux dents ! Demain, elle va chez le dentiste.", "en": "In the evening, Léa's head is full of jobs… and she has toothache! Tomorrow, she's going to the dentist's." },
+      { "sp": "Léa", "fr": "Et après le dentiste, je vais chez le coiffeur. Une nouvelle vie commence avec une nouvelle coiffure !", "en": "And after the dentist, I'm going to the hairdresser's. A new life starts with a new hairstyle!" }
+    ]
+  }
+}

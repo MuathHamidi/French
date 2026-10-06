@@ -1,0 +1,219 @@
+{
+  "id": "u16-childhood",
+  "type": "vocab",
+  "unit": 16,
+  "title": "Quand j'étais petit",
+  "en": "Childhood",
+  "intro": "22 words for childhood and memories: toys and sweets, cartoons and fairy tales, naps and hide-and-seek, and the key verb **se souvenir de** (to remember). The story already uses a few verbs in the **imparfait** (*j'étais, tu faisais*), the past tense of memories, explained in the next lesson.",
+  "words": [
+    { "id": "enfance", "fr": "enfance", "pos": "noun", "g": "f", "ipa": "ɑ̃.fɑ̃s", "en": "childhood",
+      "def": "Le temps de la vie où on est un enfant.", "def_en": "The time of life when you're a child.",
+      "examples": [
+        { "fr": "C'est un souvenir d'**enfance**.", "en": "It's a childhood memory." },
+        { "fr": "Ma grand-mère parle souvent de son **enfance**.", "en": "My grandmother often talks about her childhood." },
+        { "fr": "Marc et son meilleur ami se connaissent depuis l'**enfance**.", "en": "Marc and his best friend have known each other since childhood." }
+      ] },
+    { "id": "jouet", "fr": "jouet", "pos": "noun", "g": "m", "ipa": "ʒwɛ", "en": "toy",
+      "def": "Un objet pour jouer : une poupée, une petite voiture, un ballon…", "def_en": "An object to play with: a doll, a toy car, a ball…",
+      "forms": ["jouets"],
+      "examples": [
+        { "fr": "Lou range ses **jouets** dans une boîte.", "en": "Lou puts her toys away in a box." },
+        { "fr": "Ce magasin de **jouets** est immense !", "en": "This toy shop is huge!" },
+        { "fr": "Mon **jouet** préféré, c'est mon vélo.", "en": "My favourite toy is my bike." }
+      ] },
+    { "id": "poupee", "fr": "poupée", "pos": "noun", "g": "f", "ipa": "pu.pe", "en": "doll",
+      "def": "Un jouet qui ressemble à un bébé ou à une petite fille.", "def_en": "A toy that looks like a baby or a little girl.",
+      "forms": ["poupées"],
+      "examples": [
+        { "fr": "Lou dort avec sa **poupée**.", "en": "Lou sleeps with her doll." },
+        { "fr": "Cette **poupée** a les cheveux blonds.", "en": "This doll has blond hair." },
+        { "fr": "Ma **poupée** s'appelle Juliette.", "en": "My doll is called Juliette." }
+      ] },
+    { "id": "peluche", "fr": "peluche", "pos": "noun", "g": "f", "ipa": "pə.lyʃ", "en": "soft toy, cuddly toy",
+      "def": "Un jouet doux, en tissu : un ours, un lapin, un chat…", "def_en": "A soft fabric toy: a bear, a rabbit, a cat…",
+      "forms": ["peluches"],
+      "examples": [
+        { "fr": "Lou a une **peluche** en forme de lapin.", "en": "Lou has a soft toy rabbit." },
+        { "fr": "Le nounours est la **peluche** préférée des enfants.", "en": "The teddy bear is children's favourite soft toy." },
+        { "fr": "J'ai encore toutes mes **peluches** !", "en": "I still have all my soft toys!" }
+      ],
+      "note": "**un ours en peluche** or **un nounours** = a teddy bear." },
+    { "id": "bonbon", "fr": "bonbon", "pos": "noun", "g": "m", "ipa": "bɔ̃.bɔ̃", "en": "sweet, candy",
+      "def": "Une petite chose très sucrée qu'on mange entre les repas.", "def_en": "A small, very sweet thing you eat between meals.",
+      "forms": ["bonbons"],
+      "examples": [
+        { "fr": "Pas de **bonbons** avant le dîner !", "en": "No sweets before dinner!" },
+        { "fr": "Mamie a toujours des **bonbons** dans son sac.", "en": "Grandma always has sweets in her bag." },
+        { "fr": "Trop de **bonbons**, c'est mauvais pour les dents.", "en": "Too many sweets are bad for your teeth." }
+      ],
+      "note": "From **bon** + **bon** (good-good)!" },
+    { "id": "dessin-anime", "fr": "dessin animé", "pos": "noun", "g": "m", "ipa": "de.sɛ̃ a.ni.me", "en": "cartoon (animated film)",
+      "def": "Un film avec des images dessinées.", "def_en": "A film made of drawn pictures.",
+      "forms": ["dessins animés"],
+      "examples": [
+        { "fr": "Lou regarde un **dessin animé** à la télé.", "en": "Lou is watching a cartoon on TV." },
+        { "fr": "C'est mon **dessin animé** préféré !", "en": "It's my favourite cartoon!" },
+        { "fr": "Les **dessins animés** japonais sont très populaires.", "en": "Japanese cartoons are very popular." }
+      ] },
+    { "id": "histoire", "fr": "histoire", "pos": "noun", "g": "f", "ipa": "is.twaʁ", "en": "story; history",
+      "def": "Ce qu'on raconte, vrai ou inventé. Aussi : la matière qui parle du passé.", "def_en": "What you tell, true or made up. Also: the school subject about the past.",
+      "forms": ["histoires"],
+      "examples": [
+        { "fr": "Papa, tu me lis une **histoire** ?", "en": "Daddy, will you read me a story?" },
+        { "fr": "C'est une **histoire** vraie.", "en": "It's a true story." },
+        { "fr": "J'adore l'**histoire** de France.", "en": "I love French history." }
+      ],
+      "note": "Silent **h**: **l'histoire**." },
+    { "id": "conte", "fr": "conte", "pos": "noun", "g": "m", "ipa": "kɔ̃t", "en": "tale, fairy tale",
+      "def": "Une histoire inventée pour les enfants, souvent avec des princesses, des loups ou des fées.", "def_en": "A made-up story for children, often with princesses, wolves or fairies.",
+      "forms": ["contes"],
+      "examples": [
+        { "fr": "Ma grand-mère connaît beaucoup de **contes**.", "en": "My grandmother knows lots of fairy tales." },
+        { "fr": "Un **conte** commence souvent par « Il était une fois ».", "en": "A fairy tale often begins with “Once upon a time”." },
+        { "fr": "Le soir, Lou écoute un **conte** avant de dormir.", "en": "In the evening, Lou listens to a story before going to sleep." }
+      ],
+      "note": "**un conte de fées** = a fairy tale. **Il était une fois…** = Once upon a time…" },
+    { "id": "balancoire", "fr": "balançoire", "pos": "noun", "g": "f", "ipa": "ba.lɑ̃.swaʁ", "en": "swing",
+      "def": "Un jeu du parc : on s'assoit dessus, et on monte, on descend, on monte…", "def_en": "A playground ride: you sit on it and go up, down, up…",
+      "forms": ["balançoires"],
+      "examples": [
+        { "fr": "Lou adore la **balançoire** du parc.", "en": "Lou loves the swing in the park." },
+        { "fr": "Pousse-moi sur la **balançoire** !", "en": "Push me on the swing!" },
+        { "fr": "Il y a deux **balançoires** dans le jardin.", "en": "There are two swings in the garden." }
+      ] },
+    { "id": "cache-cache", "fr": "cache-cache", "pos": "noun", "g": "m", "ipa": "kaʃ.kaʃ", "en": "hide-and-seek",
+      "def": "Un jeu : un enfant compte, et les autres se cachent.", "def_en": "A game: one child counts, and the others hide.",
+      "examples": [
+        { "fr": "On joue à **cache-cache** ?", "en": "Shall we play hide-and-seek?" },
+        { "fr": "Lou est très forte à **cache-cache**.", "en": "Lou is very good at hide-and-seek." },
+        { "fr": "Pendant une partie de **cache-cache**, Hugo s'endort dans l'armoire !", "en": "During a game of hide-and-seek, Hugo falls asleep in the wardrobe!" }
+      ],
+      "note": "From **cacher** (to hide). **jouer à cache-cache** = to play hide-and-seek." },
+    { "id": "grenier", "fr": "grenier", "pos": "noun", "g": "m", "ipa": "ɡʁə.nje", "en": "attic, loft",
+      "def": "La pièce tout en haut d'une maison, sous le toit.", "def_en": "The room at the very top of a house, under the roof.",
+      "forms": ["greniers"],
+      "examples": [
+        { "fr": "Il y a des vieux jouets au **grenier**.", "en": "There are old toys in the attic." },
+        { "fr": "Le **grenier** est plein de poussière.", "en": "The attic is full of dust." },
+        { "fr": "On monte au **grenier** ?", "en": "Shall we go up to the attic?" }
+      ] },
+    { "id": "sieste", "fr": "sieste", "pos": "noun", "g": "f", "ipa": "sjɛst", "en": "nap, siesta",
+      "def": "Un petit moment de sommeil, après le déjeuner.", "def_en": "A short sleep after lunch.",
+      "forms": ["siestes"],
+      "examples": [
+        { "fr": "Lou fait la **sieste** après le déjeuner.", "en": "Lou has a nap after lunch." },
+        { "fr": "Grand-père fait une **sieste** dans son fauteuil.", "en": "Grandpa is having a nap in his armchair." },
+        { "fr": "En été, une petite **sieste**, c'est agréable.", "en": "In summer, a little nap is nice." }
+      ],
+      "note": "**faire la sieste** = to have a nap." },
+    { "id": "se-souvenir", "fr": "se souvenir", "pos": "verb", "ipa": "sə su.v(ə).niʁ", "en": "to remember",
+      "def": "Avoir encore une chose dans sa mémoire.", "def_en": "To still have something in your memory.",
+      "extra": "Like *venir*: je **me souviens**, tu **te souviens**, il **se souvient**, nous **nous souvenons**, vous **vous souvenez**, ils **se souviennent**. **se souvenir de** + noun.",
+      "forms": ["me souviens", "te souviens", "se souvient", "nous nous souvenons", "vous vous souvenez", "se souviennent", "souviens", "souvient", "souvenons", "souvenez", "souviennent", "souvenu", "souvenue", "souvenus", "souvenues", "souvenais", "souvenait", "souvenions", "souveniez", "souvenaient", "souvenir", "me souviendrai", "te souviendras", "se souviendra", "nous nous souviendrons", "vous vous souviendrez", "se souviendront"],
+      "examples": [
+        { "fr": "Tu **te souviens** de ta première maîtresse ?", "en": "Do you remember your first teacher?" },
+        { "fr": "Je **me souviens** de cette chanson !", "en": "I remember this song!" },
+        { "fr": "Grand-mère **se souvient** de tout.", "en": "Grandma remembers everything." }
+      ],
+      "note": "**se souvenir de** + noun: *je me souviens de ce jour*. Its noun is **un souvenir** (a memory)." },
+    { "id": "raconter", "fr": "raconter", "pos": "verb", "ipa": "ʁa.kɔ̃.te", "en": "to tell (a story)",
+      "def": "Dire une histoire, vraie ou inventée.", "def_en": "To tell a story, true or made up.",
+      "forms": ["raconte", "racontes", "racontons", "racontez", "racontent", "raconté", "racontais", "racontait", "racontions", "racontiez", "racontaient", "raconterai", "raconteras", "racontera", "raconterons", "raconterez", "raconteront"],
+      "examples": [
+        { "fr": "**Raconte**-moi une histoire !", "en": "Tell me a story!" },
+        { "fr": "Il **raconte** ses vacances à ses amis.", "en": "He tells his friends about his holiday." },
+        { "fr": "Mamie **raconte** des histoires de son village.", "en": "Grandma tells stories about her village." }
+      ] },
+    { "id": "pleurer", "fr": "pleurer", "pos": "verb", "ipa": "plœ.ʁe", "en": "to cry",
+      "def": "Avoir des larmes dans les yeux, quand on est triste ou quand on a mal.", "def_en": "To have tears in your eyes, when you're sad or hurt.",
+      "forms": ["pleure", "pleures", "pleurons", "pleurez", "pleurent", "pleuré", "pleurais", "pleurait", "pleurions", "pleuriez", "pleuraient", "pleurerai", "pleureras", "pleurera", "pleurerons", "pleurerez", "pleureront"],
+      "examples": [
+        { "fr": "Le bébé **pleure** : il a faim.", "en": "The baby is crying: he's hungry." },
+        { "fr": "Ne **pleure** pas, Lou !", "en": "Don't cry, Lou!" },
+        { "fr": "Ce film est trop triste : je **pleure** !", "en": "This film is too sad: I'm crying!" }
+      ],
+      "note": "Don't mix up **il pleure** (he's crying) and **il pleut** (it's raining)!" },
+    { "id": "grandir", "fr": "grandir", "pos": "verb", "ipa": "ɡʁɑ̃.diʁ", "en": "to grow up, to get bigger",
+      "def": "Devenir plus grand, devenir adulte.", "def_en": "To get bigger, to become an adult.",
+      "extra": "Like *finir*: je **grandis**, nous **grandissons**, ils **grandissent**; j'ai **grandi**.",
+      "forms": ["grandis", "grandit", "grandissons", "grandissez", "grandissent", "grandi", "grandissais", "grandissait", "grandissions", "grandissiez", "grandissaient", "grandirai", "grandiras", "grandira", "grandirons", "grandirez", "grandiront"],
+      "examples": [
+        { "fr": "Les enfants **grandissent** vite !", "en": "Children grow up fast!" },
+        { "fr": "J'ai **grandi** à Paris.", "en": "I grew up in Paris." },
+        { "fr": "Lou **grandit** : elle va à l'école maintenant !", "en": "Lou is growing up: she goes to school now!" }
+      ] },
+    { "id": "sage", "fr": "sage", "pos": "adj", "ipa": "saʒ", "en": "good, well-behaved; wise",
+      "def": "Pour un enfant : calme, il fait ce qu'on lui demande. Aussi : qui prend de bonnes décisions.", "def_en": "For a child: calm, doing what they're asked. Also: making good decisions.",
+      "forms": ["sages"],
+      "examples": [
+        { "fr": "Sois **sage** à l'école !", "en": "Be good at school!" },
+        { "fr": "Les enfants sont très **sages** aujourd'hui.", "en": "The children are very well-behaved today." },
+        { "fr": "Mon grand-père est un homme **sage**.", "en": "My grandfather is a wise man." }
+      ] },
+    { "id": "mignon", "fr": "mignon", "pos": "adj", "ipa": "mi.ɲɔ̃", "display": "mignon, mignonne", "en": "cute, sweet",
+      "def": "Joli et agréable à regarder, comme un bébé ou un petit chat.", "def_en": "Pretty and nice to look at, like a baby or a kitten.",
+      "forms": ["mignonne", "mignons", "mignonnes"],
+      "examples": [
+        { "fr": "Oh, il est **mignon**, ce petit chien !", "en": "Oh, this little dog is so cute!" },
+        { "fr": "Lou est très **mignonne** avec son cartable.", "en": "Lou looks so sweet with her schoolbag." },
+        { "fr": "C'est **mignon** !", "en": "That's sweet!" }
+      ] },
+    { "id": "autrefois", "fr": "autrefois", "pos": "adv", "ipa": "o.tʁə.fwa", "en": "in the past, in the old days",
+      "def": "Il y a longtemps, dans le passé.", "def_en": "A long time ago, in the past.",
+      "examples": [
+        { "fr": "Ma grand-mère parle souvent d'**autrefois**.", "en": "My grandmother often talks about the old days." },
+        { "fr": "**Autrefois**, ce quartier était très calme.", "en": "In the old days, this neighbourhood was very quiet." },
+        { "fr": "**Autrefois**, il n'y avait pas de téléphones portables.", "en": "In the old days, there were no mobile phones." }
+      ],
+      "note": "With **autrefois**, French uses the **imparfait** (*c'était, il y avait*): the next lesson." },
+    { "id": "epoque", "fr": "époque", "pos": "noun", "g": "f", "ipa": "e.pɔk", "en": "time, period, era",
+      "def": "Un moment de l'histoire ou de la vie : l'époque des rois, l'époque de mon enfance.", "def_en": "A period of history or of life: the age of kings, the time of my childhood.",
+      "forms": ["époques"],
+      "examples": [
+        { "fr": "C'était une autre **époque** !", "en": "Those were different times!" },
+        { "fr": "À cette **époque**, Mamie habitait à la campagne.", "en": "At that time, Grandma lived in the countryside." },
+        { "fr": "Quelle **époque** de l'histoire est-ce que tu préfères ?", "en": "Which period of history do you like best?" }
+      ],
+      "note": "**à cette époque** = at that time, back then." },
+    { "id": "dessin", "fr": "dessin", "pos": "noun", "g": "m", "ipa": "de.sɛ̃", "en": "drawing",
+      "def": "Une image faite avec un crayon ou un stylo.", "def_en": "A picture made with a pencil or a pen.",
+      "forms": ["dessins"],
+      "examples": [
+        { "fr": "Lou fait un **dessin** pour sa maîtresse.", "en": "Lou is doing a drawing for her teacher." },
+        { "fr": "Sophie a un cahier plein de **dessins**.", "en": "Sophie has a notebook full of drawings." },
+        { "fr": "C'est un **dessin** de ma maison.", "en": "It's a drawing of my house." }
+      ] },
+    { "id": "betise", "fr": "bêtise", "pos": "noun", "g": "f", "ipa": "be.tiz", "en": "silly thing, mischief; nonsense",
+      "def": "Une chose bête ou pas sage qu'on fait ou qu'on dit.", "def_en": "A silly or naughty thing you do or say.",
+      "forms": ["bêtises"],
+      "examples": [
+        { "fr": "Ne fais pas de **bêtises** !", "en": "Don't get up to mischief!" },
+        { "fr": "Hugo fait toujours des **bêtises**.", "en": "Hugo is always up to something." },
+        { "fr": "Arrête de dire des **bêtises** !", "en": "Stop talking nonsense!" }
+      ],
+      "note": "**faire des bêtises** = to be naughty; **dire des bêtises** = to talk nonsense." }
+  ],
+  "story": {
+    "title": "Le grenier",
+    "en": "Léa and Hugo help their mother tidy the attic… full of childhood memories.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un dimanche, Léa et Hugo vont chez leurs parents, à Paris. Anne range le grenier.", "en": "One Sunday, Léa and Hugo visit their parents in Paris. Anne is tidying the attic." },
+      { "sp": "", "fr": "Au grenier, il y a des boîtes pleines de vieux jouets.", "en": "In the attic, there are boxes full of old toys." },
+      { "sp": "Léa", "fr": "Oh ! Ma poupée Juliette ! Tu te souviens, Hugo ?", "en": "Oh! My doll Juliette! Do you remember, Hugo?" },
+      { "sp": "Hugo", "fr": "Et ma peluche ! Un lapin bleu… Je dormais toujours avec lui.", "en": "And my cuddly toy! A blue rabbit… I always slept with it." },
+      { "sp": "Léa", "fr": "Regarde, un dessin de toi : un chat avec six pattes ! C'est trop mignon !", "en": "Look, one of your drawings: a cat with six legs! It's so cute!" },
+      { "sp": "Anne", "fr": "Ah, l'enfance… Vous n'étiez pas toujours sages, tous les deux !", "en": "Ah, childhood… You weren't always good, you two!" },
+      { "sp": "Hugo", "fr": "Moi ? Mais j'étais un ange !", "en": "Me? But I was an angel!" },
+      { "sp": "Anne", "fr": "Un ange ? Tu faisais des bêtises tous les jours !", "en": "An angel? You got up to mischief every day!" },
+      { "sp": "Anne", "fr": "Un jour, pendant une partie de cache-cache, tu es resté deux heures dans l'armoire… et tu t'es endormi !", "en": "One day, during a game of hide-and-seek, you stayed in the wardrobe for two hours… and fell asleep!" },
+      { "sp": "Léa", "fr": "Et la balançoire du jardin ! Tu es tombé, et tu as pleuré tout l'après-midi.", "en": "And the swing in the garden! You fell off, and you cried all afternoon." },
+      { "sp": "Hugo", "fr": "Je ne me souviens pas de ça…", "en": "I don't remember that…" },
+      { "sp": "", "fr": "Dans une autre boîte, il y a des contes et des livres d'histoires.", "en": "In another box, there are fairy tales and storybooks." },
+      { "sp": "Anne", "fr": "Le soir, votre père vous racontait une histoire. Et l'après-midi, c'était l'heure de la sieste !", "en": "In the evening, your father used to tell you a story. And in the afternoon, it was nap time!" },
+      { "sp": "Léa", "fr": "Et les bonbons de Mamie, et les dessins animés du mercredi…", "en": "And Grandma's sweets, and the Wednesday cartoons…" },
+      { "sp": "Anne", "fr": "C'était une autre époque ! Autrefois, vous étiez petits… et maintenant, vous avez grandi.", "en": "Those were different times! Back then you were little… and now you're all grown up." },
+      { "sp": "Hugo", "fr": "Pas tant que ça, maman : je garde le lapin bleu !", "en": "Not that much, Mum: I'm keeping the blue rabbit!" }
+    ]
+  }
+}

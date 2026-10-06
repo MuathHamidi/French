@@ -1,0 +1,154 @@
+{
+  "id": "u05-partitive",
+  "type": "grammar",
+  "unit": 5,
+  "title": "Du, de la, des…",
+  "en": "Some & any: partitive articles and quantities",
+  "intro": "English often says nothing before food: *I eat bread*. French always needs a little word: **je mange du pain**. This lesson explains **du, de la, de l', des**, when they become **de**, and when to use **le** instead.",
+  "cases": [
+    { "id": "part-du", "label": "du + masculine", "rule": "**du** (de + le) + a masculine noun you can't count: *du pain, du fromage, du lait*." },
+    { "id": "part-dela", "label": "de la + feminine", "rule": "**de la** + a feminine noun you can't count: *de la soupe, de la viande*." },
+    { "id": "part-del", "label": "de l' + vowel", "rule": "**de l'** before a vowel or silent h (masculine or feminine): *de l'eau, de l'huile*." },
+    { "id": "part-des", "label": "des + plural", "rule": "**des** + a plural: *des pâtes, des fruits, des tomates*." },
+    { "id": "part-neg", "label": "pas de — not any", "rule": "After a negative, **du / de la / de l' / des** become **de** (**d'** before a vowel): *Je ne mange pas de viande.*" },
+    { "id": "part-quantity", "label": "quantity + de", "rule": "After a quantity, just **de**: *beaucoup de fromage, un peu de lait, un verre de vin, une bouteille d'eau*." },
+    { "id": "part-vs-le", "label": "j'aime le… / je mange du…", "rule": "**aimer, adorer, détester, préférer** + **le / la / les** (in general). **manger, boire, prendre, acheter, vouloir** + **du / de la / des** (some)." },
+    { "id": "part-vs-un", "label": "une pomme or du gâteau?", "rule": "Things you count one by one: **un / une** (*une pomme, un œuf*). A mass or a part of something: **du / de la** (*du pain, du gâteau*)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Some: du, de la, de l', des",
+      "text": ["For things you don't count — bread, water, cheese — French uses **du / de la / de l'**. English says *some*, or nothing at all."],
+      "table": {
+        "head": ["", "Some", "Examples"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "du", "du pain · du fromage"],
+          ["feminine", "de la", "de la viande · de la soupe"],
+          ["before a vowel", "de l'", "de l'eau"],
+          ["plural", "des", "des pâtes · des fruits"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je mange {du pain|part-du}.", "en": "I'm eating bread." },
+        { "fr": "Tu veux {de la soupe|part-dela} ?", "en": "Do you want some soup?" },
+        { "fr": "Je [bois|boire] {de l'eau|part-del}.", "en": "I'm drinking water." },
+        { "fr": "On achète {des pâtes|part-des}.", "en": "We're buying pasta." }
+      ],
+      "tip": "English often drops *some*, but French never drops the article: *Je [bois|boire] du lait* = I drink milk."
+    },
+    {
+      "title": "2. Not any: pas de",
+      "text": ["After a negative, **du / de la / de l' / des** all become **de** — or **d'** before a vowel."],
+      "table": {
+        "head": ["Yes", "No"], "frCols": [0, 1],
+        "rows": [
+          ["Je mange du pain.", "Je ne mange pas de pain."],
+          ["Il y a de la soupe.", "Il n'y a pas de soupe."],
+          ["Je [bois|boire] de l'eau.", "Je ne [bois|boire] pas d'eau."],
+          ["Tu as des pâtes ?", "Je n'ai pas de pâtes."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne mange pas de viande|part-neg}.", "en": "I don't eat meat." },
+        { "fr": "{Il n'y a pas d'eau|part-neg} !", "en": "There's no water!" }
+      ],
+      "tip": "With **être**, nothing changes: *Ce n'est pas du vin, c'est du jus.*"
+    },
+    {
+      "title": "3. How much? Quantity + de",
+      "text": ["After a word of quantity, use just **de** (**d'** before a vowel) — no *le, la, les*."],
+      "table": {
+        "head": ["French", "English", "Example"], "frCols": [0, 2],
+        "rows": [
+          ["beaucoup de", "a lot of", "beaucoup de fromage"],
+          ["un peu de", "a little", "un peu de lait"],
+          ["trop de", "too much, too many", "trop de chocolat"],
+          ["assez de", "enough", "assez de pain"],
+          ["un kilo de", "a kilo of", "un kilo de pommes"],
+          ["une bouteille de", "a bottle of", "une bouteille d'eau"],
+          ["un verre de", "a glass of", "un verre de vin"],
+          ["une tasse de", "a cup of", "une tasse de thé"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a {beaucoup de fromage|part-quantity}.", "en": "There's a lot of cheese." },
+        { "fr": "{Un kilo de tomates|part-quantity}, s'il vous plaît.", "en": "A kilo of tomatoes, please." },
+        { "fr": "Je voudrais {une tasse de thé|part-quantity}.", "en": "I'd like a cup of tea." }
+      ]
+    },
+    {
+      "title": "4. J'aime le fromage… je mange du fromage",
+      "text": [
+        "After verbs of liking — **aimer, adorer, détester, préférer** — use **le / la / les**: you mean the food in general.",
+        "After **manger, boire, prendre, acheter, vouloir**, use **du / de la / des**: you mean *some*."
+      ],
+      "examples": [
+        { "fr": "{J'aime le fromage|part-vs-le}, et {je mange du fromage|part-vs-le} tous les jours.", "en": "I love cheese, and I eat cheese every day." },
+        { "fr": "{Je n'aime pas le café|part-vs-le}.", "en": "I don't like coffee." },
+        { "fr": "{Tu prends du café|part-vs-le} ?", "en": "Will you have some coffee?" }
+      ],
+      "tip": "With **aimer** the article stays the same in the negative: *Je n'aime pas **la** viande.*"
+    },
+    {
+      "title": "5. Une pomme or du gâteau?",
+      "text": ["Things you count one by one take **un / une**: *une pomme, un œuf*. A mass, or a piece of something, takes **du / de la**: *du pain, du gâteau*."],
+      "examples": [
+        { "fr": "Je mange {une pomme|part-vs-un}.", "en": "I'm eating an apple." },
+        { "fr": "Je voudrais {du gâteau|part-vs-un}, s'il te plaît.", "en": "I'd like some cake, please." },
+        { "fr": "Il y a {un poulet|part-vs-un} dans le frigo… et {du poulet|part-vs-un} dans la soupe.", "en": "There's a (whole) chicken in the fridge… and some chicken in the soup." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je mange pain.", "right": "Je mange du pain.", "why": "French always needs an article." },
+    { "wrong": "Je ne mange pas de la viande.", "right": "Je ne mange pas de viande.", "why": "After a negative: just **de**." },
+    { "wrong": "J'aime du fromage.", "right": "J'aime le fromage.", "why": "After **aimer**: **le / la / les**." },
+    { "wrong": "beaucoup du fromage", "right": "beaucoup de fromage", "why": "After a quantity: just **de**." },
+    { "wrong": "un verre de l'eau", "right": "un verre d'eau", "why": "After a quantity: just **de / d'**." },
+    { "wrong": "Je bois de le lait.", "right": "Je bois du lait.", "why": "**de + le** always becomes **du**." }
+  ],
+  "story": {
+    "title": "Le pique-nique",
+    "en": "Sunday picnic in the park.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche, il fait beau. Léa, Sophie, Hugo et Tom font un pique-nique au parc.", "en": "On Sunday the weather is nice. Léa, Sophie, Hugo and Tom have a picnic in the park." },
+      { "sp": "Léa", "fr": "Qu'est-ce qu'on prend ? {Du pain|part-du}, {du fromage|part-du}…", "en": "What shall we take? Bread, cheese…" },
+      { "sp": "Sophie", "fr": "{De la salade|part-dela}, {des tomates|part-des} et {de l'eau|part-del}.", "en": "Salad, tomatoes and water." },
+      { "sp": "Tom", "fr": "Et {de la viande|part-dela} ? {Du jambon|part-du} ?", "en": "And meat? Ham?" },
+      { "sp": "Sophie", "fr": "Tom… {je ne mange pas de viande|part-neg}.", "en": "Tom… I don't eat meat." },
+      { "sp": "Tom", "fr": "Ah oui, pardon ! Alors, {pas de jambon|part-neg} pour toi.", "en": "Oh yes, sorry! So, no ham for you." },
+      { "sp": "Hugo", "fr": "Moi, {j'aime le chocolat|part-vs-le}. Je prends {du chocolat|part-vs-le} !", "en": "Me, I love chocolate. I'm taking chocolate!" },
+      { "sp": "Léa", "fr": "Hugo, tu prends toujours {trop de chocolat|part-quantity} !", "en": "Hugo, you always take too much chocolate!" },
+      { "sp": "", "fr": "Au parc, ils mangent sur l'herbe.", "en": "In the park, they eat on the grass." },
+      { "sp": "Tom", "fr": "Il y a {beaucoup de fromage|part-quantity}, mais {il n'y a pas de couteau|part-neg} !", "en": "There's lots of cheese, but there's no knife!" },
+      { "sp": "Sophie", "fr": "Qui veut {une pomme|part-vs-un} ? Ou {du gâteau|part-vs-un} ?", "en": "Who wants an apple? Or some cake?" },
+      { "sp": "Hugo", "fr": "Moi ! Et {un verre de jus|part-quantity}, s'il te plaît.", "en": "Me! And a glass of juice, please." },
+      { "sp": "Léa", "fr": "Il n'y a pas de jus, Hugo. Il y a {de l'eau|part-del}… ou {du lait|part-du} !", "en": "There's no juice, Hugo. There's water… or milk!" },
+      { "sp": "Hugo", "fr": "{Du lait|part-du} ? Je ne suis pas un bébé !", "en": "Milk? I'm not a baby!" },
+      { "sp": "Tom", "fr": "Moi, {je n'aime pas le lait|part-vs-le} non plus.", "en": "I don't like milk either." },
+      { "sp": "", "fr": "À la fin, il n'y a rien. Tout est délicieux !", "en": "In the end, there's nothing left. Everything was delicious!" }
+    ]
+  },
+  "quiz": [
+    { "case": "part-du", "type": "mc", "q": "Je mange ___ pain.", "en": "I'm eating bread.", "options": ["du", "de la", "le"], "answer": "du" },
+    { "case": "part-du", "type": "type", "q": "Tu veux ___ fromage ?", "en": "Do you want some cheese?", "answer": "du" },
+    { "case": "part-dela", "type": "mc", "q": "Je voudrais ___ soupe.", "en": "I'd like some soup.", "options": ["de la", "du", "des"], "answer": "de la" },
+    { "case": "part-dela", "type": "type", "q": "Il y a ___ confiture ?", "en": "Is there any jam?", "answer": "de la" },
+    { "case": "part-del", "type": "mc", "q": "Tu veux ___eau ?", "en": "Do you want some water?", "options": ["de l'", "de la", "du"], "answer": "de l'" },
+    { "case": "part-del", "type": "type", "q": "Il y a ___huile dans la cuisine.", "en": "There's oil in the kitchen.", "answer": "de l'" },
+    { "case": "part-des", "type": "mc", "q": "On achète ___ pâtes.", "en": "We're buying pasta.", "options": ["des", "du", "de la"], "answer": "des" },
+    { "case": "part-des", "type": "type", "q": "Je mange ___ fruits le matin.", "en": "I eat fruit in the morning.", "answer": "des" },
+    { "case": "part-neg", "type": "mc", "q": "Je ne mange pas ___ viande.", "en": "I don't eat meat.", "options": ["de", "de la", "la"], "answer": "de" },
+    { "case": "part-neg", "type": "type", "q": "Il n'y a pas ___eau !", "en": "There's no water!", "answer": "d'" },
+    { "case": "part-neg", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je n'ai pas de pain.", "Je n'ai pas du pain.", "Je n'ai pas le pain."], "answer": "Je n'ai pas de pain." },
+    { "case": "part-quantity", "type": "mc", "q": "Il y a beaucoup ___ fromage.", "en": "There's a lot of cheese.", "options": ["de", "du", "le"], "answer": "de" },
+    { "case": "part-quantity", "type": "type", "q": "Un verre ___ vin, s'il vous plaît.", "en": "A glass of wine, please.", "answer": "de" },
+    { "case": "part-quantity", "type": "mc", "q": "Je voudrais une tasse ___ thé.", "en": "I'd like a cup of tea.", "options": ["de", "du", "de la"], "answer": "de" },
+    { "case": "part-vs-le", "type": "mc", "q": "J'aime ___ chocolat.", "en": "I love chocolate.", "options": ["le", "du"], "answer": "le", "why": "After **aimer**: le / la / les." },
+    { "case": "part-vs-le", "type": "mc", "q": "Je mange ___ chocolat.", "en": "I'm eating (some) chocolate.", "options": ["du", "le"], "answer": "du" },
+    { "case": "part-vs-le", "type": "type", "q": "Sophie n'aime pas ___ viande.", "en": "Sophie doesn't like meat.", "answer": "la", "why": "With **aimer**, keep **le / la** — even in the negative." },
+    { "case": "part-vs-un", "type": "mc", "q": "Je mange ___ pomme.", "en": "I'm eating an apple.", "options": ["une", "de la"], "answer": "une" },
+    { "case": "part-vs-un", "type": "mc", "q": "Tu veux ___ gâteau ?", "en": "Do you want some cake?", "options": ["du", "un"], "answer": "du" }
+  ]
+}

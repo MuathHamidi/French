@@ -1,0 +1,188 @@
+{
+  "id": "u07-agreement",
+  "type": "grammar",
+  "unit": 7,
+  "title": "Noir, noire, noirs…",
+  "en": "Adjective agreement: masculine, feminine, plural",
+  "intro": "French adjectives change to match their noun: *un pull **noir***, *une robe **noire***, *des chaussures **noires***. Most follow one easy rule; this lesson gives you all the exceptions too.",
+  "cases": [
+    { "id": "agr-e", "label": "feminine: + e", "rule": "Add **-e** for a feminine noun: *noir → noire, vert → verte, petit → petite*. Sometimes you then hear the last consonant (*verte* /vɛʁt/)." },
+    { "id": "agr-same", "label": "already ends in -e", "rule": "If the masculine already ends in **-e**, the feminine is the same: *rouge, jaune, rose, jeune, facile*." },
+    { "id": "agr-s", "label": "plural: + s", "rule": "Add a silent **-s** for the plural: *noirs, noires*. Ending in **-s** or **-x** already? No change: *des pulls gris*." },
+    { "id": "agr-special", "label": "special feminine endings", "rule": "**-er → -ère** (chère), **-eux → -euse** (délicieuse), **-if → -ive** (sportive), **-en → -enne** (italienne), **-on → -onne** (bonne), **-et → -ette** (violette), **-c → -che** (blanche)." },
+    { "id": "agr-irregular", "label": "irregular adjectives", "rule": "Learn these by heart: *beau → belle, nouveau → nouvelle, vieux → vieille, long → longue, gentil → gentille, gros → grosse*." },
+    { "id": "agr-plural-special", "label": "special plurals", "rule": "**-eau → -eaux** (*beaux, nouveaux*), **-al → -aux** (*normaux*)." },
+    { "id": "agr-invariable", "label": "colours that never change", "rule": "**marron** and **orange** never change: *des chaussures marron*. Two-word colours don't change either: *une robe bleu clair*." },
+    { "id": "agr-mixed", "label": "masculine + feminine = masculine plural", "rule": "One adjective for a masculine and a feminine noun → masculine plural: *un pull et une jupe noirs*." }
+  ],
+  "sections": [
+    {
+      "title": "1. Feminine: add -e",
+      "table": {
+        "head": ["Masculine", "Feminine"], "frCols": [0, 1],
+        "rows": [
+          ["un pull noir", "une robe noire"],
+          ["un manteau vert", "une veste verte"],
+          ["un petit sac", "une petite jupe"],
+          ["un pantalon gris", "une chemise grise"]
+        ]
+      },
+      "examples": [
+        { "fr": "Une robe {noire|agr-e}.", "en": "A black dress." },
+        { "fr": "Une veste {verte|agr-e}.", "en": "A green jacket." }
+      ],
+      "tip": "Listen: *noir* and *noire* sound the same, but *vert* /vɛʁ/ → *verte* /vɛʁt/ and *gris* /ɡʁi/ → *grise* /ɡʁiz/: the **-e** makes the consonant heard."
+    },
+    {
+      "title": "2. Already ends in -e: no change",
+      "table": {
+        "head": ["Masculine", "Feminine"], "frCols": [0, 1],
+        "rows": [
+          ["un pull rouge", "une robe rouge"],
+          ["un chapeau jaune", "une jupe jaune"],
+          ["un t-shirt rose", "une écharpe rose"]
+        ]
+      },
+      "examples": [
+        { "fr": "Une jupe {rouge|agr-same}.", "en": "A red skirt." },
+        { "fr": "Un t-shirt {rose|agr-same}.", "en": "A pink T-shirt." }
+      ]
+    },
+    {
+      "title": "3. Plural: add -s",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["un pull noir", "des pulls noirs"],
+          ["une robe noire", "des robes noires"],
+          ["un pantalon gris", "des pantalons gris"]
+        ]
+      },
+      "examples": [
+        { "fr": "Des chaussures {noires|agr-s}.", "en": "Black shoes." },
+        { "fr": "Des pulls {gris|agr-s}.", "en": "Grey jumpers." }
+      ]
+    },
+    {
+      "title": "4. Special feminine endings",
+      "table": {
+        "head": ["Ending", "Masculine", "Feminine"], "frCols": [1, 2],
+        "rows": [
+          ["-er → -ère", "cher", "chère"],
+          ["-eux → -euse", "délicieux", "délicieuse"],
+          ["-if → -ive", "sportif", "sportive"],
+          ["-en → -enne", "italien", "italienne"],
+          ["-on → -onne", "bon", "bonne"],
+          ["-et → -ette", "violet", "violette"],
+          ["-c → -che", "blanc", "blanche"]
+        ]
+      },
+      "examples": [
+        { "fr": "Une robe {chère|agr-special}.", "en": "An expensive dress." },
+        { "fr": "Une écharpe {blanche|agr-special}.", "en": "A white scarf." },
+        { "fr": "Une fille {sportive|agr-special}.", "en": "A sporty girl." }
+      ]
+    },
+    {
+      "title": "5. Irregular adjectives",
+      "table": {
+        "head": ["Masculine", "Feminine"], "frCols": [0, 1],
+        "rows": [
+          ["beau", "belle"],
+          ["nouveau", "nouvelle"],
+          ["vieux", "vieille"],
+          ["long", "longue"],
+          ["gentil", "gentille"],
+          ["gros", "grosse"]
+        ]
+      },
+      "examples": [
+        { "fr": "Une {belle|agr-irregular} robe.", "en": "A beautiful dress." },
+        { "fr": "Une {vieille|agr-irregular} veste.", "en": "An old jacket." },
+        { "fr": "Une jupe {longue|agr-irregular}.", "en": "A long skirt." }
+      ]
+    },
+    {
+      "title": "6. Special plurals",
+      "text": ["Adjectives follow the same plural rules as nouns: **-eau → -eaux** and **-al → -aux**."],
+      "examples": [
+        { "fr": "Les chapeaux sont {beaux|agr-plural-special}.", "en": "The hats are beautiful." },
+        { "fr": "J'ai de {nouveaux|agr-plural-special} amis.", "en": "I have new friends." },
+        { "fr": "Les prix sont {normaux|agr-plural-special}.", "en": "The prices are normal." }
+      ]
+    },
+    {
+      "title": "7. Colours that never change",
+      "text": ["**marron** (chestnut) and **orange** (the fruit) are really nouns, so they never change. Two-word colours like **bleu clair** or **vert foncé** never change either."],
+      "table": {
+        "head": ["Correct", "Not"], "frCols": [0],
+        "rows": [
+          ["des chaussures marron", "« marrons »"],
+          ["des chaussettes orange", "« oranges »"],
+          ["une robe bleu clair", "« bleue claire »"]
+        ]
+      },
+      "examples": [
+        { "fr": "Des chaussures {marron|agr-invariable}.", "en": "Brown shoes." },
+        { "fr": "Une veste {bleu foncé|agr-invariable}.", "en": "A dark blue jacket." }
+      ]
+    },
+    {
+      "title": "8. Masculine + feminine together",
+      "text": ["When one adjective describes a masculine and a feminine noun, it's **masculine plural**."],
+      "examples": [
+        { "fr": "Un pantalon et une veste {noirs|agr-mixed}.", "en": "Black trousers and a black jacket." },
+        { "fr": "Hugo et Léa sont {contents|agr-mixed}.", "en": "Hugo and Léa are happy." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "une robe noir", "right": "une robe noire", "why": "**robe** is feminine: add **-e**." },
+    { "wrong": "des jupes rouge", "right": "des jupes rouges", "why": "Plural noun → plural adjective: add **-s**." },
+    { "wrong": "une chemise blanc", "right": "une chemise blanche", "why": "Irregular feminine: **blanc → blanche**." },
+    { "wrong": "des chaussures marrons", "right": "des chaussures marron", "why": "**marron** never changes." },
+    { "wrong": "une robe bleue claire", "right": "une robe bleu clair", "why": "Two-word colours never change." },
+    { "wrong": "un pull et une jupe noires", "right": "un pull et une jupe noirs", "why": "Masculine + feminine → masculine plural." }
+  ],
+  "story": {
+    "title": "Le défilé",
+    "en": "Léa and Sophie watch a fashion show on TV — and get a surprise.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Ce soir, Léa et Sophie regardent un défilé de mode à la télé.", "en": "This evening, Léa and Sophie are watching a fashion show on TV." },
+      { "sp": "La présentatrice", "fr": "Voici Emma. Elle porte une robe {blanche|agr-special} et des chaussures {noires|agr-s}.", "en": "Here's Emma. She's wearing a white dress and black shoes." },
+      { "sp": "Sophie", "fr": "Oh, j'adore la robe ! Elle est très {belle|agr-irregular}.", "en": "Oh, I love the dress! It's very beautiful." },
+      { "sp": "La présentatrice", "fr": "Et voici Lucas, avec une veste {verte|agr-e} et une chemise {rose|agr-same}.", "en": "And here's Lucas, with a green jacket and a pink shirt." },
+      { "sp": "Léa", "fr": "Une veste verte et une chemise rose ? C'est… original !", "en": "A green jacket and a pink shirt? That's… original!" },
+      { "sp": "La présentatrice", "fr": "Maintenant, Inès porte une jupe {longue|agr-irregular} et une écharpe {violette|agr-special}.", "en": "Now Inès is wearing a long skirt and a purple scarf." },
+      { "sp": "Léa", "fr": "Mais… c'est Inès ! De notre classe de français !", "en": "But… it's Inès! From our French class!" },
+      { "sp": "Sophie", "fr": "Inès ? Elle est mannequin ?", "en": "Inès? She's a model?" },
+      { "sp": "La présentatrice", "fr": "Ses chaussures sont {marron|agr-invariable}, et son sac est {bleu foncé|agr-invariable}.", "en": "Her shoes are brown, and her bag is dark blue." },
+      { "sp": "La présentatrice", "fr": "Et pour finir, Inès et Lucas sont en noir : une robe et un manteau {noirs|agr-mixed}.", "en": "And to finish, Inès and Lucas are in black: a black dress and a black coat." },
+      { "sp": "Sophie", "fr": "Ils sont très {élégants|agr-mixed} !", "en": "They're very elegant!" },
+      { "sp": "Léa", "fr": "Les vêtements sont {beaux|agr-plural-special}, mais ils sont {chers|agr-s}…", "en": "The clothes are beautiful, but they're expensive…" },
+      { "sp": "Sophie", "fr": "Regarde le prix : une robe à mille euros !", "en": "Look at the price: a thousand-euro dress!" },
+      { "sp": "Léa", "fr": "Mille euros ?! Moi, je préfère les soldes !", "en": "A thousand euros?! I prefer the sales!" }
+    ]
+  },
+  "quiz": [
+    { "case": "agr-e", "type": "mc", "q": "Une robe ___.", "en": "A black dress.", "options": ["noire", "noir", "noires"], "answer": "noire" },
+    { "case": "agr-e", "type": "type", "q": "Une veste ___.", "en": "A green jacket.", "answer": "verte" },
+    { "case": "agr-same", "type": "mc", "q": "Une jupe ___.", "en": "A red skirt.", "options": ["rouge", "rouges", "rougee"], "answer": "rouge" },
+    { "case": "agr-same", "type": "mc", "lang": "en", "q": "Which adjective is the same in the masculine and the feminine?", "options": ["jaune", "petit", "vert"], "answer": "jaune", "say": "un pull jaune, une robe jaune" },
+    { "case": "agr-s", "type": "mc", "q": "Des chaussures ___.", "en": "Black shoes.", "options": ["noires", "noire", "noirs"], "answer": "noires" },
+    { "case": "agr-s", "type": "type", "q": "Des pulls ___.", "en": "Grey jumpers.", "answer": "gris", "why": "**gris** already ends in -s: no change." },
+    { "case": "agr-special", "type": "mc", "q": "Une chemise ___.", "en": "A white shirt.", "options": ["blanche", "blanc", "blance"], "answer": "blanche" },
+    { "case": "agr-special", "type": "type", "q": "Cette robe est trop ___.", "en": "This dress is too expensive.", "answer": "chère" },
+    { "case": "agr-special", "type": "mc", "q": "Une écharpe ___.", "en": "A purple scarf.", "options": ["violette", "violete", "violet"], "answer": "violette" },
+    { "case": "agr-irregular", "type": "mc", "q": "C'est une ___ robe.", "en": "It's a beautiful dress.", "options": ["belle", "beau", "bele"], "answer": "belle" },
+    { "case": "agr-irregular", "type": "type", "q": "Une jupe ___.", "en": "A long skirt.", "answer": "longue" },
+    { "case": "agr-irregular", "type": "mc", "q": "Ce sont mes ___ chaussures.", "en": "They're my new shoes.", "options": ["nouvelles", "nouveaux", "nouvelle"], "answer": "nouvelles" },
+    { "case": "agr-plural-special", "type": "mc", "q": "Les chapeaux sont ___.", "en": "The hats are beautiful.", "options": ["beaux", "beaus", "belles"], "answer": "beaux" },
+    { "case": "agr-plural-special", "type": "type", "q": "Les prix sont ___.", "en": "The prices are normal.", "answer": "normaux" },
+    { "case": "agr-invariable", "type": "mc", "q": "Des chaussures ___.", "en": "Brown shoes.", "options": ["marron", "marrons"], "answer": "marron" },
+    { "case": "agr-invariable", "type": "mc", "q": "Une veste ___.", "en": "A dark blue jacket.", "options": ["bleu foncé", "bleue foncée", "bleus foncés"], "answer": "bleu foncé" },
+    { "case": "agr-mixed", "type": "mc", "q": "Un pull et une jupe ___.", "en": "A black jumper and skirt.", "options": ["noirs", "noires", "noir"], "answer": "noirs", "why": "Masculine + feminine = masculine plural." },
+    { "case": "agr-mixed", "type": "type", "q": "Hugo et Léa sont ___.", "en": "Hugo and Léa are happy.", "answer": "contents" }
+  ]
+}

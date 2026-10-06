@@ -1,0 +1,298 @@
+{
+  "id": "u01-vocab",
+  "type": "vocab",
+  "unit": 1,
+  "title": "Bonjour !",
+  "en": "Greetings & introductions",
+  "intro": "Your first 21 French words: how to greet people, be polite and introduce yourself. Listen to every word and repeat it out loud.",
+  "words": [
+    {
+      "id": "bonjour", "fr": "bonjour", "pos": "interj", "ipa": "bɔ̃.ʒuʁ",
+      "en": "hello; good morning / good afternoon",
+      "def": "On dit ce mot quand on voit une personne, le matin ou l'après-midi.",
+      "def_en": "You say this word when you see someone, in the morning or the afternoon.",
+      "examples": [
+        { "fr": "**Bonjour**, madame !", "en": "Hello, madam!" },
+        { "fr": "**Bonjour**, Paul ! Ça va ?", "en": "Hello, Paul! How are you?" },
+        { "fr": "Je dis **bonjour** à mon ami.", "en": "I say hello to my friend." }
+      ],
+      "note": "Use **bonjour** until early evening. After that, say **bonsoir**."
+    },
+    {
+      "id": "bonsoir", "fr": "bonsoir", "pos": "interj", "ipa": "bɔ̃.swaʁ",
+      "en": "good evening",
+      "def": "On dit ce mot quand on voit une personne le soir.",
+      "def_en": "You say this word when you see someone in the evening.",
+      "examples": [
+        { "fr": "**Bonsoir**, monsieur !", "en": "Good evening, sir!" },
+        { "fr": "**Bonsoir** ! Tu es là ?", "en": "Good evening! Are you there?" },
+        { "fr": "Le soir, on dit **bonsoir**.", "en": "In the evening, we say “bonsoir”." }
+      ]
+    },
+    {
+      "id": "salut", "fr": "salut", "pos": "interj", "ipa": "sa.ly",
+      "en": "hi; bye (informal)",
+      "def": "Mot simple pour dire bonjour ou au revoir à un ami.",
+      "def_en": "A simple word for saying hello or goodbye to a friend.",
+      "examples": [
+        { "fr": "**Salut**, Léa ! Ça va ?", "en": "Hi, Léa! How's it going?" },
+        { "fr": "**Salut** ! À bientôt !", "en": "Bye! See you soon!" },
+        { "fr": "Je dis **salut** à mes amis.", "en": "I say hi to my friends." }
+      ],
+      "note": "Informal: use it with friends and family, not with a stranger or your boss. The final **t** is silent."
+    },
+    {
+      "id": "au-revoir", "fr": "au revoir", "pos": "expr", "ipa": "o ʁə.vwaʁ",
+      "en": "goodbye",
+      "def": "On dit ces mots quand on part.",
+      "def_en": "You say these words when you leave.",
+      "examples": [
+        { "fr": "**Au revoir**, madame !", "en": "Goodbye, madam!" },
+        { "fr": "Merci et **au revoir** !", "en": "Thank you and goodbye!" },
+        { "fr": "Je dis **au revoir** et je pars.", "en": "I say goodbye and I leave." }
+      ],
+      "note": "Literally “until seeing again”. In fast speech it often sounds like “or-vwar”."
+    },
+    {
+      "id": "a-bientot", "fr": "à bientôt", "pos": "expr", "ipa": "a bjɛ̃.to",
+      "en": "see you soon",
+      "def": "On dit ça quand on part et qu'on revoit la personne bientôt.",
+      "def_en": "You say this when you leave and will see the person again soon.",
+      "accept": ["a bientot"],
+      "examples": [
+        { "fr": "Au revoir, Hugo ! **À bientôt** !", "en": "Goodbye, Hugo! See you soon!" },
+        { "fr": "Merci, madame. **À bientôt** !", "en": "Thank you, madam. See you soon!" },
+        { "fr": "Salut, et **à bientôt** !", "en": "Bye, and see you soon!" }
+      ]
+    },
+    {
+      "id": "merci", "fr": "merci", "pos": "interj", "ipa": "mɛʁ.si",
+      "en": "thank you; thanks",
+      "def": "On dit ce mot quand une personne est gentille avec nous.",
+      "def_en": "You say this word when someone is kind to you.",
+      "extra": "**Merci beaucoup** = thank you very much.",
+      "examples": [
+        { "fr": "**Merci**, madame !", "en": "Thank you, madam!" },
+        { "fr": "**Merci** beaucoup !", "en": "Thank you very much!" },
+        { "fr": "Oui, **merci** !", "en": "Yes, thank you!" }
+      ]
+    },
+    {
+      "id": "de-rien", "fr": "de rien", "pos": "expr", "ipa": "də ʁjɛ̃",
+      "en": "you're welcome",
+      "def": "On répond ça quand une personne dit « merci ».",
+      "def_en": "You answer this when someone says “thank you”.",
+      "examples": [
+        { "fr": "Merci ! — **De rien** !", "en": "Thanks! — You're welcome!" },
+        { "fr": "**De rien**, madame.", "en": "You're welcome, madam." },
+        { "fr": "**De rien**, c'est normal.", "en": "You're welcome, it's nothing." }
+      ],
+      "note": "Literally “of nothing”."
+    },
+    {
+      "id": "s-il-vous-plait", "fr": "s'il vous plaît", "pos": "expr", "ipa": "sil vu plɛ",
+      "en": "please (polite, or to several people)",
+      "def": "Mots polis pour demander quelque chose.",
+      "def_en": "Polite words for asking for something.",
+      "extra": "With a friend or a child: **s'il te plaît**. Often written **SVP**.",
+      "forms": ["s'il te plaît"],
+      "accept": ["s'il te plaît", "svp", "s'il vous plait"],
+      "examples": [
+        { "fr": "Un café, **s'il vous plaît** !", "en": "A coffee, please!" },
+        { "fr": "Madame, **s'il vous plaît** !", "en": "Excuse me, madam! (to get her attention)" },
+        { "fr": "Votre nom, **s'il vous plaît** ?", "en": "Your name, please?" }
+      ]
+    },
+    {
+      "id": "oui", "fr": "oui", "pos": "adv", "ipa": "wi",
+      "en": "yes",
+      "def": "Le contraire de « non ».",
+      "def_en": "The opposite of “no”.",
+      "examples": [
+        { "fr": "**Oui**, merci !", "en": "Yes, thank you!" },
+        { "fr": "Tu es Léa ? — **Oui** !", "en": "Are you Léa? — Yes!" },
+        { "fr": "**Oui**, ça va bien.", "en": "Yes, I'm fine." }
+      ]
+    },
+    {
+      "id": "non", "fr": "non", "pos": "adv", "ipa": "nɔ̃",
+      "en": "no",
+      "def": "Le contraire de « oui ».",
+      "def_en": "The opposite of “yes”.",
+      "examples": [
+        { "fr": "**Non**, merci.", "en": "No, thank you." },
+        { "fr": "Tu es Paul ? — **Non**, je suis Hugo.", "en": "Are you Paul? — No, I'm Hugo." },
+        { "fr": "Oui ou **non** ?", "en": "Yes or no?" }
+      ]
+    },
+    {
+      "id": "comment", "fr": "comment", "pos": "adv", "ipa": "kɔ.mɑ̃",
+      "en": "how; what (in “what's your name?”)",
+      "def": "Mot pour poser une question. Exemple : « Comment ça va ? »",
+      "def_en": "A word for asking a question. Example: “How are you?”",
+      "examples": [
+        { "fr": "**Comment** ça va ?", "en": "How are you?" },
+        { "fr": "**Comment** tu t'appelles ?", "en": "What's your name? (lit. how do you call yourself?)" },
+        { "fr": "**Comment** allez-vous ?", "en": "How are you? (polite)" }
+      ],
+      "note": "The final **t** is silent: /kɔmɑ̃/."
+    },
+    {
+      "id": "ca-va", "fr": "ça va", "pos": "expr", "ipa": "sa va",
+      "en": "how are you? / I'm fine (lit. “it goes”)",
+      "def": "Question pour savoir si une personne va bien. C'est aussi la réponse : « Ça va ! »",
+      "def_en": "A question to find out if someone is well. It's also the answer: “I'm fine!”",
+      "accept": ["ca va"],
+      "examples": [
+        { "fr": "Salut, Hugo ! **Ça va** ?", "en": "Hi, Hugo! How's it going?" },
+        { "fr": "Oui, **ça va** bien, merci.", "en": "Yes, I'm fine, thanks." },
+        { "fr": "**Ça va** très bien !", "en": "I'm very well!" }
+      ],
+      "note": "Question or answer — only the melody changes. Your voice goes up for the question (Ça va ? ↗) and down for the answer (Ça va. ↘)."
+    },
+    {
+      "id": "bien", "fr": "bien", "pos": "adv", "ipa": "bjɛ̃",
+      "en": "well; fine, good",
+      "def": "Le contraire de « mal ». Exemple : « Ça va bien ? »",
+      "def_en": "The opposite of “badly”. Example: “Are you doing well?”",
+      "examples": [
+        { "fr": "Ça va **bien**, merci !", "en": "I'm fine, thanks!" },
+        { "fr": "Je vais **bien**.", "en": "I'm well." },
+        { "fr": "Très **bien** !", "en": "Very good! / Very well!" }
+      ]
+    },
+    {
+      "id": "tres", "fr": "très", "pos": "adv", "ipa": "tʁɛ",
+      "en": "very",
+      "def": "Mot qui rend un autre mot plus fort : très bien, très content.",
+      "def_en": "A word that makes another word stronger: very good, very happy.",
+      "accept": ["tres"],
+      "examples": [
+        { "fr": "Ça va **très** bien !", "en": "I'm very well!" },
+        { "fr": "Je suis **très** content.", "en": "I'm very happy." },
+        { "fr": "Merci, c'est **très** gentil.", "en": "Thank you, that's very kind." }
+      ],
+      "note": "Say *merci beaucoup* — never “merci très beaucoup”."
+    },
+    {
+      "id": "et", "fr": "et", "pos": "conj", "ipa": "e",
+      "en": "and",
+      "def": "Petit mot pour mettre deux choses ensemble : Léa et Hugo.",
+      "def_en": "A little word that puts two things together: Léa and Hugo.",
+      "examples": [
+        { "fr": "Léa **et** Hugo sont amis.", "en": "Léa and Hugo are friends." },
+        { "fr": "Ça va bien, **et** toi ?", "en": "I'm fine, and you?" },
+        { "fr": "Merci **et** au revoir !", "en": "Thank you and goodbye!" }
+      ],
+      "note": "**et** sounds like “ay”. Its **t** is always silent, even before a vowel."
+    },
+    {
+      "id": "aussi", "fr": "aussi", "pos": "adv", "ipa": "o.si",
+      "en": "also, too; (aussi… que) as… as",
+      "def": "Pour dire « la même chose » : je suis content, et toi aussi.",
+      "def_en": "For saying “the same thing”: I'm happy, and you too.",
+      "examples": [
+        { "fr": "Enchanté ! — Moi **aussi** !", "en": "Nice to meet you! — Me too!" },
+        { "fr": "Je suis étudiant, et Léa **aussi**.", "en": "I'm a student, and so is Léa." },
+        { "fr": "Merci ! — Merci à toi **aussi** !", "en": "Thanks! — Thank you too!" }
+      ]
+    },
+    {
+      "id": "s-appeler", "fr": "s'appeler", "pos": "verb", "ipa": "sa.ple",
+      "en": "to be called (je m'appelle = my name is)",
+      "def": "Avoir un nom. « Je m'appelle Léa » : mon nom est Léa.",
+      "def_en": "To have a name. “Je m'appelle Léa”: my name is Léa.",
+      "extra": "je **m'appelle** · tu **t'appelles** · il/elle **s'appelle** · nous **nous appelons** · vous **vous appelez** · ils/elles **s'appellent**",
+      "forms": ["m'appelle", "t'appelles", "s'appelle", "nous nous appelons", "vous vous appelez", "s'appellent", "appelais", "appelait", "appelions", "appeliez", "appelaient", "m'appellerai", "t'appelleras", "s'appellera", "nous nous appellerons", "vous vous appellerez", "s'appelleront"],
+      "accept": ["s'appeler"],
+      "examples": [
+        { "fr": "Je **m'appelle** Léa.", "en": "My name is Léa." },
+        { "fr": "Comment tu **t'appelles** ?", "en": "What's your name?" },
+        { "fr": "Il **s'appelle** Hugo.", "en": "His name is Hugo." }
+      ],
+      "note": "Spelling trap: **appelle** has two l's when the ending is silent (je m'appelle), but **appeler** and **appelons** have one."
+    },
+    {
+      "id": "enchante", "fr": "enchanté", "pos": "adj", "ipa": "ɑ̃.ʃɑ̃.te", "display": "enchanté(e)",
+      "en": "nice to meet you (lit. “delighted”)",
+      "def": "On dit ce mot quand on voit une personne pour la première fois.",
+      "def_en": "You say this word when you meet someone for the first time.",
+      "extra": "A woman writes **enchantée** — it sounds exactly the same.",
+      "forms": ["enchantée", "enchantés", "enchantées"],
+      "accept": ["enchantée", "enchante", "enchantee"],
+      "examples": [
+        { "fr": "**Enchanté**, Léa !", "en": "Nice to meet you, Léa!" },
+        { "fr": "Je m'appelle Sophie. **Enchantée** !", "en": "My name is Sophie. Nice to meet you!" },
+        { "fr": "**Enchanté**, madame.", "en": "Pleased to meet you, madam." }
+      ]
+    },
+    {
+      "id": "monsieur", "fr": "monsieur", "pos": "noun", "g": "m", "art": "", "ipa": "mə.sjø",
+      "en": "sir; Mr.; gentleman",
+      "def": "Mot poli pour parler à un homme.",
+      "def_en": "A polite word for speaking to a man.",
+      "extra": "Written **M.** before a name: *M. Martin*. Plural: **messieurs**.",
+      "forms": ["messieurs"],
+      "examples": [
+        { "fr": "Bonjour, **monsieur** !", "en": "Hello, sir!" },
+        { "fr": "**Monsieur** Martin est professeur.", "en": "Mr. Martin is a teacher." },
+        { "fr": "Merci, **monsieur**.", "en": "Thank you, sir." }
+      ],
+      "note": "Odd spelling, simple sound: /məsjø/. The **on** sounds like a soft “uh” and the **r** is silent."
+    },
+    {
+      "id": "madame", "fr": "madame", "pos": "noun", "g": "f", "art": "", "ipa": "ma.dam",
+      "en": "madam; Mrs.; lady",
+      "def": "Mot poli pour parler à une femme.",
+      "def_en": "A polite word for speaking to a woman.",
+      "extra": "Written **Mme** before a name: *Mme Dupont*. Plural: **mesdames**.",
+      "forms": ["mesdames"],
+      "examples": [
+        { "fr": "Bonjour, **madame** !", "en": "Hello, madam!" },
+        { "fr": "**Madame** Dupont est française.", "en": "Mrs. Dupont is French." },
+        { "fr": "Au revoir, **madame** !", "en": "Goodbye, madam!" }
+      ]
+    },
+    {
+      "id": "ami", "fr": "ami", "pos": "noun", "g": "m", "ipa": "a.mi",
+      "en": "friend (male)",
+      "def": "Une personne qu'on aime bien et qu'on voit souvent.",
+      "def_en": "A person you like and see often.",
+      "extra": "A female friend is **une amie** — it sounds exactly the same. Plural: **amis**, **amies**.",
+      "forms": ["amie", "amis", "amies"],
+      "accept": ["amie", "une amie", "l'amie"],
+      "examples": [
+        { "fr": "Hugo est mon **ami**.", "en": "Hugo is my friend." },
+        { "fr": "Léa et Sophie sont **amies**.", "en": "Léa and Sophie are friends." },
+        { "fr": "Salut, les **amis** !", "en": "Hi, everyone! (lit. hi, friends!)" }
+      ]
+    }
+  ],
+  "story": {
+    "title": "Au café",
+    "en": "At the café — Hugo meets a new friend.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "Hugo", "fr": "Bonjour, monsieur ! Un café, s'il vous plaît.", "en": "Hello, sir! A coffee, please." },
+      { "sp": "Le serveur", "fr": "Oui, monsieur. Voilà !", "en": "Yes, sir. Here you go!" },
+      { "sp": "Hugo", "fr": "Merci !", "en": "Thank you!" },
+      { "sp": "Le serveur", "fr": "De rien !", "en": "You're welcome!" },
+      { "sp": "Léa", "fr": "Salut, Hugo ! Ça va ?", "en": "Hi, Hugo! How's it going?" },
+      { "sp": "Hugo", "fr": "Salut, Léa ! Oui, ça va très bien. Et toi ?", "en": "Hi, Léa! Yes, I'm very well. And you?" },
+      { "sp": "Léa", "fr": "Ça va bien, merci. Hugo, c'est Sophie, une amie.", "en": "I'm fine, thanks. Hugo, this is Sophie, a friend." },
+      { "sp": "Hugo", "fr": "Bonjour, Sophie ! Je m'appelle Hugo. Enchanté !", "en": "Hello, Sophie! My name is Hugo. Nice to meet you!" },
+      { "sp": "Sophie", "fr": "Enchantée, Hugo ! Tu es un ami de Léa ?", "en": "Nice to meet you, Hugo! Are you a friend of Léa's?" },
+      { "sp": "Hugo", "fr": "Oui ! Et toi aussi ?", "en": "Yes! And you too?" },
+      { "sp": "Sophie", "fr": "Oui, moi aussi.", "en": "Yes, me too." },
+      { "sp": "Le serveur", "fr": "Et pour vous, madame ?", "en": "And for you, madam?" },
+      { "sp": "Sophie", "fr": "Un café aussi, s'il vous plaît.", "en": "A coffee too, please." },
+      { "sp": "Léa", "fr": "Non merci, pas pour moi.", "en": "No thanks, not for me." },
+      { "sp": "Hugo", "fr": "Bon, au revoir, les amies ! À bientôt !", "en": "Well, goodbye, you two! See you soon!" },
+      { "sp": "", "fr": "Le soir, au café…", "en": "In the evening, at the café…" },
+      { "sp": "Le serveur", "fr": "Bonsoir, madame !", "en": "Good evening, madam!" },
+      { "sp": "Léa", "fr": "Bonsoir, monsieur ! Comment allez-vous ?", "en": "Good evening, sir! How are you?" },
+      { "sp": "Le serveur", "fr": "Très bien, merci, madame. Et vous ?", "en": "Very well, thank you, madam. And you?" },
+      { "sp": "Léa", "fr": "Bien, merci !", "en": "Fine, thanks!" }
+    ]
+  }
+}

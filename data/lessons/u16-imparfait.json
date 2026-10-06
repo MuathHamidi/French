@@ -1,0 +1,218 @@
+{
+  "id": "u16-imparfait",
+  "type": "grammar",
+  "unit": 16,
+  "title": "Quand j'étais petite",
+  "en": "The imparfait: describing the past and past habits",
+  "intro": "The **imparfait** is the past tense of memories: what things **were like** (*la maison était petite*) and what **used to happen** (*le dimanche, nous allions chez Mamie*). It's very regular: take the **nous** form of the present, remove **-ons**, and add **-ais, -ais, -ait, -ions, -iez, -aient**.",
+  "cases": [
+    { "id": "imp-form", "label": "the endings: -ais, -ait, -ions…", "rule": "**nous** form of the present, minus **-ons**, + **-ais, -ais, -ait, -ions, -iez, -aient**: *nous parlons → je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient*." },
+    { "id": "imp-etre", "label": "être: j'étais", "rule": "The only irregular stem: **être → ét-**: *j'étais, tu étais, il était, nous étions, vous étiez, ils étaient*. Very common: **c'était** (it was)." },
+    { "id": "imp-habitude", "label": "habits: used to…", "rule": "What **used to happen** again and again: *Le dimanche, nous allions chez mes grands-parents.* Signal words: *tous les jours, le lundi, souvent, toujours, d'habitude*." },
+    { "id": "imp-description", "label": "describing the past", "rule": "Places, people and the weather in the past: *La maison était petite. Il faisait froid. Mon grand-père portait un chapeau.*" },
+    { "id": "imp-etat", "label": "age, feelings, wishes", "rule": "States in the past: age (*j'avais six ans*), feelings (*j'avais peur, j'étais heureux*), wishes and tastes (*je voulais, j'aimais*)." },
+    { "id": "imp-ilyavait", "label": "il y avait, c'était, il faisait", "rule": "**il y a → il y avait**, **c'est → c'était**, **il fait → il faisait**, **il pleut → il pleuvait**." },
+    { "id": "imp-spelling", "label": "mangeais, commençais", "rule": "**-ger** verbs keep an **e** before **a**: *je mangeais*. **-cer** verbs take **ç** before **a**: *je commençais*. Before **i**, no change: *nous mangions, nous commencions*." },
+    { "id": "imp-sound", "label": "hearing the imparfait", "rule": "**-ais, -ait, -aient** all sound /ɛ/: *je parlais = il parlait = ils parlaient*. The passé composé ends in /e/: *j'ai parlé*." }
+  ],
+  "sections": [
+    {
+      "title": "1. The endings",
+      "text": ["Take the **nous** form of the present, remove **-ons**, and add the endings. It works for every verb except *être*."],
+      "table": {
+        "head": ["", "parler", "finir", "prendre"], "frCols": [1, 2, 3],
+        "rows": [
+          ["je", "je parlais", "je finissais", "je prenais"],
+          ["tu", "tu parlais", "tu finissais", "tu prenais"],
+          ["il / elle", "il parlait", "il finissait", "il prenait"],
+          ["nous", "nous parlions", "nous finissions", "nous prenions"],
+          ["vous", "vous parliez", "vous finissiez", "vous preniez"],
+          ["ils / elles", "ils parlaient", "ils finissaient", "ils prenaient"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je jouais|imp-form} dans le jardin.", "en": "I used to play in the garden." },
+        { "fr": "{Nous habitions|imp-form} à la campagne.", "en": "We lived in the countryside." },
+        { "fr": "{Ils prenaient|imp-form} le bus tous les jours.", "en": "They took the bus every day." }
+      ],
+      "tip": "**faire** → nous *faisons* → je **faisais**; **avoir** → nous *avons* → j'**avais**; **aller** → nous *allons* → j'**allais**."
+    },
+    {
+      "title": "2. être: j'étais",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["j'étais", "I was"],
+          ["tu étais", "you were"],
+          ["il était", "he was"],
+          ["nous étions", "we were"],
+          ["vous étiez", "you were"],
+          ["ils étaient", "they were"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quand j'étais petite|imp-etre}, j'habitais à Paris.", "en": "When I was little, I lived in Paris." },
+        { "fr": "{C'était|imp-etre} une belle maison.", "en": "It was a lovely house." },
+        { "fr": "{Nous étions|imp-etre} très heureux.", "en": "We were very happy." }
+      ],
+      "tip": "**Quand j'étais petit(e)…** = When I was little… is the classic way to start a childhood memory."
+    },
+    {
+      "title": "3. Habits: used to…",
+      "text": ["The imparfait tells what **used to happen**, again and again. English often says *used to* or *would*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Le dimanche, nous allions chez mes grands-parents.", "On Sundays, we used to go to my grandparents'."],
+          ["Tous les matins, je prenais le bus.", "Every morning, I took the bus."],
+          ["Je jouais souvent au foot.", "I often played football."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Le samedi, je faisais du vélo|imp-habitude}.", "en": "On Saturdays, I used to go cycling." },
+        { "fr": "{Tous les étés, nous allions|imp-habitude} à la mer.", "en": "Every summer, we would go to the seaside." },
+        { "fr": "Ma grand-mère {faisait toujours des crêpes|imp-habitude}.", "en": "My grandmother always made crêpes." }
+      ],
+      "tip": "Words that call for the imparfait: **tous les jours, le lundi, souvent, toujours, d'habitude, chaque été**."
+    },
+    {
+      "title": "4. Describing the past",
+      "text": ["Use the imparfait to describe **places, people and the weather**: the background of a memory or a story."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["La maison était petite.", "The house was small."],
+          ["Il faisait beau.", "The weather was nice."],
+          ["Ma grand-mère avait les cheveux blancs.", "My grandmother had white hair."],
+          ["Le village était calme.", "The village was quiet."]
+        ]
+      },
+      "examples": [
+        { "fr": "{L'école était|imp-description} à trois kilomètres.", "en": "The school was three kilometres away." },
+        { "fr": "{Il neigeait|imp-description} beaucoup en hiver.", "en": "It used to snow a lot in winter." },
+        { "fr": "{Mon grand-père portait|imp-description} toujours un chapeau.", "en": "My grandfather always wore a hat." }
+      ]
+    },
+    {
+      "title": "5. Age, feelings and wishes",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'avais six ans.", "I was six."],
+          ["J'avais peur du noir.", "I was afraid of the dark."],
+          ["Je voulais être pompier.", "I wanted to be a firefighter."],
+          ["J'aimais les bonbons.", "I loved sweets."],
+          ["J'étais heureux.", "I was happy."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'avais dix ans|imp-etat} quand nous sommes arrivés à Lyon.", "en": "I was ten when we arrived in Lyon." },
+        { "fr": "{Lou avait peur|imp-etat} de l'eau.", "en": "Lou was afraid of the water." },
+        { "fr": "{Je voulais|imp-etat} devenir chanteuse.", "en": "I wanted to become a singer." }
+      ],
+      "tip": "Age always takes **avoir**: *j'avais six ans* (never *j'étais six ans*)."
+    },
+    {
+      "title": "6. il y avait, c'était, il faisait",
+      "table": {
+        "head": ["Now", "In the past"], "frCols": [0, 1],
+        "rows": [
+          ["Il y a un parc.", "Il y avait un parc."],
+          ["C'est super.", "C'était super."],
+          ["Il fait froid.", "Il faisait froid."],
+          ["Il pleut.", "Il pleuvait."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il y avait|imp-ilyavait} une boulangerie au coin de la rue.", "en": "There was a bakery on the corner of the street." },
+        { "fr": "{C'était|imp-ilyavait} génial !", "en": "It was brilliant!" },
+        { "fr": "{Il n'y avait pas|imp-ilyavait} d'ordinateur.", "en": "There was no computer." }
+      ]
+    },
+    {
+      "title": "7. Spelling: mangeais, commençais",
+      "text": ["Verbs in **-ger** keep an **e** before **a**, and verbs in **-cer** take **ç** before **a**, so the sound stays the same. Before **i** (*nous, vous*), no change."],
+      "table": {
+        "head": ["", "manger", "commencer"], "frCols": [1, 2],
+        "rows": [
+          ["je", "je mangeais", "je commençais"],
+          ["il", "il mangeait", "il commençait"],
+          ["nous", "nous mangions", "nous commencions"],
+          ["ils", "ils mangeaient", "ils commençaient"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je mangeais|imp-spelling} beaucoup de bonbons.", "en": "I used to eat lots of sweets." },
+        { "fr": "{L'école commençait|imp-spelling} à huit heures.", "en": "School started at eight." },
+        { "fr": "{Nous voyagions|imp-spelling} souvent en train.", "en": "We often travelled by train." }
+      ]
+    },
+    {
+      "title": "8. Hearing the imparfait",
+      "text": ["**-ais, -ait, -aient** all sound the same: /ɛ/. Listen for /ɛ/ (imparfait) or /e/ (passé composé) at the end."],
+      "table": {
+        "head": ["Imparfait /ɛ/", "Passé composé /e/"], "frCols": [0, 1],
+        "rows": [
+          ["je parlais", "j'ai parlé"],
+          ["il mangeait", "il a mangé"],
+          ["ils jouaient", "ils ont joué"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je parlais|imp-sound} avec Léa.", "en": "I was talking with Léa." },
+        { "fr": "{Ils jouaient|imp-sound} dans le jardin.", "en": "They were playing in the garden." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'étais six ans.", "right": "J'avais six ans.", "why": "Age uses **avoir**." },
+    { "wrong": "Je mangais.", "right": "Je mangeais.", "why": "**-ger**: keep the **e** before **a**." },
+    { "wrong": "Je commencais.", "right": "Je commençais.", "why": "**-cer**: **ç** before **a**." },
+    { "wrong": "Nous parlaient.", "right": "Nous parlions.", "why": "*nous* → **-ions**." },
+    { "wrong": "Il était beau. (the weather)", "right": "Il faisait beau.", "why": "The weather uses **faire**: *il faisait beau*." },
+    { "wrong": "Quand j'ai été petit…", "right": "Quand j'étais petit…", "why": "Describing how things were: **imparfait**." }
+  ],
+  "story": {
+    "title": "Quand j'étais petite",
+    "en": "Grandma Louise tells Léa and Lou about her childhood in a village.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un soir, à Marseille, Lou demande à sa grand-mère : « Mamie, raconte ! Quand tu étais petite, c'était comment ? »", "en": "One evening in Marseille, Lou asks her grandmother: “Grandma, tell us! When you were little, what was it like?”" },
+      { "sp": "Louise", "fr": "{Quand j'étais petite|imp-etre}, {j'habitais|imp-form} dans un petit village, à la campagne.", "en": "When I was little, I lived in a small village in the countryside." },
+      { "sp": "Louise", "fr": "{Il n'y avait pas|imp-ilyavait} de télévision, pas de téléphone portable… pas d'ordinateur !", "en": "There was no television, no mobile phone… no computer!" },
+      { "sp": "Lou", "fr": "Pas de dessins animés ?!", "en": "No cartoons?!" },
+      { "sp": "Louise", "fr": "Non ! Mais {nous jouions dehors|imp-habitude} toute la journée.", "en": "No! But we played outside all day long." },
+      { "sp": "Louise", "fr": "{Le matin, j'allais|imp-habitude} à l'école à pied, avec mes deux frères. {L'école était|imp-description} à trois kilomètres !", "en": "In the mornings, I walked to school with my two brothers. The school was three kilometres away!" },
+      { "sp": "Léa", "fr": "Trois kilomètres ? Et en hiver ?", "en": "Three kilometres? And in winter?" },
+      { "sp": "Louise", "fr": "En hiver, {il faisait très froid|imp-description} et {il neigeait|imp-description} souvent.", "en": "In winter, it was very cold and it often snowed." },
+      { "sp": "Louise", "fr": "{J'avais|imp-etat} toujours froid aux mains. Mais {j'étais|imp-etat} heureuse !", "en": "My hands were always cold. But I was happy!" },
+      { "sp": "Léa", "fr": "Et qu'est-ce que tu {voulais|imp-etat} faire plus tard ?", "en": "And what did you want to do when you grew up?" },
+      { "sp": "Louise", "fr": "{Je voulais|imp-etat} être professeure. Mais {je mangeais|imp-spelling} trop de bonbons, et le dentiste, {c'était|imp-ilyavait} mon pire ennemi !", "en": "I wanted to be a teacher. But I ate too many sweets, and the dentist was my worst enemy!" },
+      { "sp": "Lou", "fr": "Et Papi ? Tu {connaissais|imp-form} Papi ?", "en": "And Grandpa? Did you know Grandpa?" },
+      { "sp": "Louise", "fr": "Oui ! {Il habitait|imp-form} dans la maison à côté. {Il était|imp-etre} très timide, et {il rougissait|imp-sound} quand il me parlait.", "en": "Yes! He lived in the house next door. He was very shy, and he blushed when he talked to me." },
+      { "sp": "Louise", "fr": "{Le dimanche, on dansait|imp-habitude} sur la place du village…", "en": "On Sundays, we used to dance in the village square…" },
+      { "sp": "Lou", "fr": "Et vous {étiez|imp-etre} amoureux ?", "en": "And were you in love?" },
+      { "sp": "Louise", "fr": "Ah, ça, c'est une autre histoire ! Allez, au lit, ma puce !", "en": "Ah, that's another story! Come on, off to bed, sweetie!" }
+    ]
+  },
+  "quiz": [
+    { "case": "imp-form", "type": "mc", "q": "Quand j'étais petit, je ___ au foot tous les jours.", "en": "When I was little, I played football every day.", "options": ["jouais", "jouait", "jouerai"], "answer": "jouais" },
+    { "case": "imp-form", "type": "type", "q": "Nous ___ à la campagne.", "en": "We used to live in the countryside.", "answer": "habitions" },
+    { "case": "imp-form", "type": "mc", "lang": "en", "q": "The imparfait stem comes from…", "options": ["the nous form of the present: nous parlons → parl-", "the infinitive: parler → parler-", "the je form: je parle → parle-"], "answer": "the nous form of the present: nous parlons → parl-" },
+    { "case": "imp-etre", "type": "mc", "q": "Quand j'___ petite, j'habitais à Lyon.", "en": "When I was little, I lived in Lyon.", "options": ["étais", "était", "étions"], "answer": "étais" },
+    { "case": "imp-etre", "type": "type", "q": "C'___ super !", "en": "It was great!", "answer": "était" },
+    { "case": "imp-habitude", "type": "mc", "lang": "en", "q": "« Le dimanche, nous allions chez mes grands-parents » means…", "options": ["On Sundays, we used to go to my grandparents'.", "On Sunday, we went to my grandparents'.", "On Sunday, we're going to my grandparents'."], "answer": "On Sundays, we used to go to my grandparents'.", "say": "Le dimanche, nous allions chez mes grands-parents." },
+    { "case": "imp-habitude", "type": "type", "q": "Tous les matins, il ___ le bus.", "en": "Every morning, he took the bus.", "answer": "prenait" },
+    { "case": "imp-description", "type": "mc", "q": "La maison ___ très grande.", "en": "The house was very big.", "options": ["était", "a été", "est été"], "answer": "était" },
+    { "case": "imp-description", "type": "mc", "q": "Il ___ froid ce jour-là.", "en": "It was cold that day.", "options": ["faisait", "faisais", "faisaient"], "answer": "faisait" },
+    { "case": "imp-etat", "type": "type", "q": "J'___ six ans.", "en": "I was six.", "answer": "avais" },
+    { "case": "imp-etat", "type": "mc", "q": "Elle ___ peur du noir.", "en": "She was afraid of the dark.", "options": ["avait", "était", "faisait"], "answer": "avait" },
+    { "case": "imp-ilyavait", "type": "mc", "lang": "en", "q": "How do you say “There was a bakery”?", "options": ["Il y avait une boulangerie.", "Il y était une boulangerie.", "Il avait une boulangerie."], "answer": "Il y avait une boulangerie." },
+    { "case": "imp-ilyavait", "type": "type", "q": "Il y ___ beaucoup de monde.", "en": "There were lots of people.", "answer": "avait" },
+    { "case": "imp-spelling", "type": "mc", "q": "Je ___ beaucoup de bonbons.", "en": "I used to eat lots of sweets.", "options": ["mangeais", "mangais", "mangeait"], "answer": "mangeais" },
+    { "case": "imp-spelling", "type": "mc", "q": "Nous ___ à huit heures.", "en": "We used to start at eight.", "options": ["commencions", "commençions", "commencons"], "answer": "commencions", "why": "Before **i**, no ç: *nous commencions*." },
+    { "case": "imp-sound", "type": "mc", "lang": "en", "listen": "Je parlais.", "q": "Listen: imparfait or passé composé?", "options": ["imparfait: je parlais", "passé composé: j'ai parlé"], "answer": "imparfait: je parlais" },
+    { "case": "imp-sound", "type": "mc", "lang": "en", "listen": "J'ai parlé.", "q": "Listen: imparfait or passé composé?", "options": ["passé composé: j'ai parlé", "imparfait: je parlais"], "answer": "passé composé: j'ai parlé" },
+    { "case": "imp-sound", "type": "mc", "lang": "en", "q": "Do « je parlais », « il parlait » and « ils parlaient » sound the same?", "options": ["yes: they all end in /ɛ/", "no, they're all different"], "answer": "yes: they all end in /ɛ/", "say": "je parlais, il parlait, ils parlaient" }
+  ]
+}

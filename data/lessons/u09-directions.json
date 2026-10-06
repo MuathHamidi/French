@@ -1,0 +1,202 @@
+{
+  "id": "u09-directions",
+  "type": "vocab",
+  "unit": 9,
+  "title": "Le chemin",
+  "en": "Asking the way & getting around",
+  "intro": "Everything you need to ask for directions and understand the answer: *Continuez tout droit, tournez à gauche au feu, traversez le pont…*",
+  "words": [
+    { "id": "chemin", "fr": "chemin", "pos": "noun", "g": "m", "ipa": "ʃə.mɛ̃", "en": "way, path",
+      "def": "La route pour aller dans un lieu. Demander son chemin = demander où aller.", "def_en": "The route to get somewhere. To ask the way = to ask where to go.",
+      "forms": ["chemins"],
+      "examples": [
+        { "fr": "Je demande mon **chemin**.", "en": "I'm asking the way." },
+        { "fr": "C'est le bon **chemin** ?", "en": "Is this the right way?" },
+        { "fr": "Il y a un petit **chemin** dans le parc.", "en": "There's a little path in the park." }
+      ] },
+    { "id": "plan", "fr": "plan", "pos": "noun", "g": "m", "ipa": "plɑ̃", "en": "map (of a town); plan",
+      "def": "Un dessin de la ville, avec les rues.", "def_en": "A drawing of the town, with the streets.",
+      "forms": ["plans"],
+      "examples": [
+        { "fr": "Tu as un **plan** de la ville ?", "en": "Do you have a map of the town?" },
+        { "fr": "Regarde le **plan** sur ton téléphone.", "en": "Look at the map on your phone." },
+        { "fr": "Le **plan** du métro est à l'entrée.", "en": "The metro map is at the entrance." }
+      ],
+      "note": "A map of a town is **un plan**; a map of a country is **une carte**." },
+    { "id": "perdu", "fr": "perdu", "pos": "adj", "ipa": "pɛʁ.dy", "display": "perdu(e)", "en": "lost",
+      "def": "Qui ne sait pas où il est.", "def_en": "Not knowing where you are.",
+      "forms": ["perdue", "perdus", "perdues"], "accept": ["perdue"],
+      "examples": [
+        { "fr": "Pardon, je suis **perdu**.", "en": "Excuse me, I'm lost." },
+        { "fr": "Léa est **perdue** dans Paris.", "en": "Léa is lost in Paris." },
+        { "fr": "Nous sommes **perdus** !", "en": "We're lost!" }
+      ] },
+    { "id": "trouver", "fr": "trouver", "pos": "verb", "ipa": "tʁu.ve", "en": "to find",
+      "def": "Voir enfin la chose qu'on cherche.", "def_en": "To finally see the thing you're looking for.",
+      "forms": ["trouve", "trouves", "trouvons", "trouvez", "trouvent", "trouvé", "trouvais", "trouvait", "trouvions", "trouviez", "trouvaient", "trouverai", "trouveras", "trouvera", "trouverons", "trouverez", "trouveront"],
+      "examples": [
+        { "fr": "Je ne **trouve** pas la gare.", "en": "I can't find the station." },
+        { "fr": "Tu **trouves** le chemin ?", "en": "Can you find the way?" },
+        { "fr": "Nous **trouvons** un bon restaurant.", "en": "We find a good restaurant." }
+      ] },
+    { "id": "chercher", "fr": "chercher", "pos": "verb", "ipa": "ʃɛʁ.ʃe", "en": "to look for",
+      "def": "Essayer de trouver.", "def_en": "To try to find.",
+      "forms": ["cherche", "cherches", "cherchons", "cherchez", "cherchent", "cherchais", "cherchait", "cherchions", "cherchiez", "cherchaient", "chercherai", "chercheras", "cherchera", "chercherons", "chercherez", "chercheront"],
+      "examples": [
+        { "fr": "Je **cherche** la poste.", "en": "I'm looking for the post office." },
+        { "fr": "Vous **cherchez** quelque chose ?", "en": "Are you looking for something?" },
+        { "fr": "Hugo **cherche** ses clés.", "en": "Hugo is looking for his keys." }
+      ],
+      "note": "No word for “for”: **chercher la gare** = to look **for** the station." },
+    { "id": "tourner", "fr": "tourner", "pos": "verb", "ipa": "tuʁ.ne", "en": "to turn",
+      "def": "Changer de direction : tourner à gauche, à droite.", "def_en": "To change direction: to turn left or right.",
+      "forms": ["tourne", "tournes", "tournons", "tournez", "tournent", "tournais", "tournait", "tournions", "tourniez", "tournaient", "tournerai", "tourneras", "tournera", "tournerons", "tournerez", "tourneront"],
+      "examples": [
+        { "fr": "**Tournez** à gauche au feu.", "en": "Turn left at the lights." },
+        { "fr": "Je **tourne** dans la rue de la gare.", "en": "I turn into the station road." },
+        { "fr": "Ne **tourne** pas ici !", "en": "Don't turn here!" }
+      ] },
+    { "id": "tout-droit", "fr": "tout droit", "pos": "expr", "ipa": "tu dʁwa", "en": "straight ahead, straight on",
+      "def": "Sans tourner, dans la même direction.", "def_en": "Without turning, in the same direction.",
+      "examples": [
+        { "fr": "Continuez **tout droit**.", "en": "Keep going straight on." },
+        { "fr": "La gare est **tout droit**.", "en": "The station is straight ahead." },
+        { "fr": "Allez **tout droit** jusqu'au pont.", "en": "Go straight on as far as the bridge." }
+      ],
+      "note": "Not to be confused with **à droite** (on the right)!" },
+    { "id": "a-gauche", "fr": "à gauche", "pos": "expr", "ipa": "a ɡoʃ", "en": "on the left, to the left",
+      "def": "Du côté de la main gauche.", "def_en": "On the side of your left hand.",
+      "accept": ["a gauche"],
+      "examples": [
+        { "fr": "Tournez **à gauche**.", "en": "Turn left." },
+        { "fr": "La banque est **à gauche**.", "en": "The bank is on the left." },
+        { "fr": "Prenez la première rue **à gauche**.", "en": "Take the first street on the left." }
+      ] },
+    { "id": "a-droite", "fr": "à droite", "pos": "expr", "ipa": "a dʁwat", "en": "on the right, to the right",
+      "def": "Du côté de la main droite.", "def_en": "On the side of your right hand.",
+      "accept": ["a droite"],
+      "examples": [
+        { "fr": "Tournez **à droite** après le pont.", "en": "Turn right after the bridge." },
+        { "fr": "La pharmacie est **à droite**.", "en": "The pharmacy is on the right." },
+        { "fr": "C'est la deuxième rue **à droite**.", "en": "It's the second street on the right." }
+      ] },
+    { "id": "traverser", "fr": "traverser", "pos": "verb", "ipa": "tʁa.vɛʁ.se", "en": "to cross",
+      "def": "Aller de l'autre côté : traverser la rue.", "def_en": "To go to the other side: to cross the road.",
+      "forms": ["traverse", "traverses", "traversons", "traversez", "traversent", "traversais", "traversait", "traversions", "traversiez", "traversaient", "traverserai", "traverseras", "traversera", "traverserons", "traverserez", "traverseront"],
+      "examples": [
+        { "fr": "**Traversez** la rue au feu.", "en": "Cross the road at the lights." },
+        { "fr": "Je **traverse** le pont.", "en": "I cross the bridge." },
+        { "fr": "Attention quand tu **traverses** !", "en": "Be careful when you cross!" }
+      ] },
+    { "id": "continuer", "fr": "continuer", "pos": "verb", "ipa": "kɔ̃.ti.nɥe", "en": "to continue, to keep going",
+      "def": "Ne pas s'arrêter : continuer tout droit.", "def_en": "To not stop: to keep going straight on.",
+      "forms": ["continue", "continues", "continuons", "continuez", "continuent", "continuais", "continuait", "continuions", "continuiez", "continuaient", "continuerai", "continueras", "continuera", "continuerons", "continuerez", "continueront"],
+      "examples": [
+        { "fr": "**Continuez** tout droit.", "en": "Keep going straight on." },
+        { "fr": "Je **continue** jusqu'à la place.", "en": "I keep going as far as the square." },
+        { "fr": "On **continue** à pied ?", "en": "Shall we carry on on foot?" }
+      ] },
+    { "id": "carrefour", "fr": "carrefour", "pos": "noun", "g": "m", "ipa": "kaʁ.fuʁ", "en": "crossroads, junction",
+      "def": "Le lieu où deux rues se rencontrent.", "def_en": "The place where two streets meet.",
+      "forms": ["carrefours"],
+      "examples": [
+        { "fr": "Au **carrefour**, tournez à droite.", "en": "At the crossroads, turn right." },
+        { "fr": "La boulangerie est au **carrefour**.", "en": "The bakery is at the junction." },
+        { "fr": "Ce **carrefour** est dangereux.", "en": "This junction is dangerous." }
+      ] },
+    { "id": "feu", "fr": "feu", "pos": "noun", "g": "m", "ipa": "fø", "en": "traffic light; fire",
+      "def": "La lumière rouge, orange ou verte pour les voitures. Aussi : le feu qui brûle.", "def_en": "The red, amber or green light for cars. Also: fire that burns.",
+      "forms": ["feux"],
+      "examples": [
+        { "fr": "Au **feu** rouge, tournez à gauche.", "en": "At the red light, turn left." },
+        { "fr": "Attends le **feu** vert !", "en": "Wait for the green light!" },
+        { "fr": "La casserole est sur le **feu**.", "en": "The saucepan is on the stove." }
+      ],
+      "note": "Plural with **-x**: **les feux**." },
+    { "id": "coin", "fr": "coin", "pos": "noun", "g": "m", "ipa": "kwɛ̃", "en": "corner",
+      "def": "Le lieu où deux murs ou deux rues se touchent.", "def_en": "The place where two walls or two streets meet.",
+      "forms": ["coins"],
+      "examples": [
+        { "fr": "La poste est au **coin** de la rue.", "en": "The post office is on the corner." },
+        { "fr": "Il y a un café au **coin**.", "en": "There's a café on the corner." },
+        { "fr": "Le chat dort dans un **coin**.", "en": "The cat is sleeping in a corner." }
+      ],
+      "note": "**le café du coin** = the local café." },
+    { "id": "pont", "fr": "pont", "pos": "noun", "g": "m", "ipa": "pɔ̃", "en": "bridge",
+      "def": "On le prend pour traverser une rivière.", "def_en": "You take it to cross a river.",
+      "forms": ["ponts"],
+      "examples": [
+        { "fr": "Traversez le **pont**.", "en": "Cross the bridge." },
+        { "fr": "Il y a beaucoup de **ponts** à Lyon.", "en": "There are lots of bridges in Lyon." },
+        { "fr": "Le musée est après le **pont**.", "en": "The museum is after the bridge." }
+      ] },
+    { "id": "voiture", "fr": "voiture", "pos": "noun", "g": "f", "ipa": "vwa.tyʁ", "en": "car",
+      "def": "On roule dedans sur la route, avec quatre roues.", "def_en": "You drive in it on the road, with four wheels.",
+      "forms": ["voitures"],
+      "examples": [
+        { "fr": "On y va en **voiture** ?", "en": "Shall we go by car?" },
+        { "fr": "Ma **voiture** est dans le garage.", "en": "My car is in the garage." },
+        { "fr": "Il y a beaucoup de **voitures** au centre-ville.", "en": "There are lots of cars in the town centre." }
+      ] },
+    { "id": "velo", "fr": "vélo", "pos": "noun", "g": "m", "ipa": "ve.lo", "en": "bike, bicycle",
+      "def": "On roule dessus, avec deux roues, sans moteur.", "def_en": "You ride on it, with two wheels and no engine.",
+      "forms": ["vélos"], "accept": ["velo"],
+      "examples": [
+        { "fr": "Je vais au travail à **vélo**.", "en": "I cycle to work." },
+        { "fr": "Léa a un **vélo** rouge.", "en": "Léa has a red bike." },
+        { "fr": "Il y a des **vélos** partout à Lyon.", "en": "There are bikes everywhere in Lyon." }
+      ],
+      "note": "**à vélo** or **en vélo** = by bike (both are heard)." },
+    { "id": "a-pied", "fr": "à pied", "pos": "expr", "ipa": "a pje", "en": "on foot",
+      "def": "En marchant, sans voiture ni vélo.", "def_en": "Walking, without a car or bike.",
+      "accept": ["a pied"],
+      "examples": [
+        { "fr": "Je vais à l'école **à pied**.", "en": "I walk to school." },
+        { "fr": "C'est à dix minutes **à pied**.", "en": "It's a ten-minute walk." },
+        { "fr": "Vous êtes **à pied** ?", "en": "Are you on foot?" }
+      ],
+      "note": "Transport: **à** pied, **à** vélo — but **en** voiture, **en** bus, **en** métro, **en** train." },
+    { "id": "prendre", "fr": "prendre", "pos": "verb", "ipa": "pʁɑ̃dʁ", "en": "to take",
+      "def": "Utiliser un moyen de transport, ou choisir un chemin : prendre le bus, prendre une rue.", "def_en": "To use a means of transport, or to choose a way: take the bus, take a street.",
+      "extra": "je **prends** · tu **prends** · il **prend** · nous **prenons** · vous **prenez** · ils **prennent** — irregular.",
+      "forms": ["prends", "prend", "prenons", "prenez", "prennent", "pris", "prenais", "prenait", "prenions", "preniez", "prenaient", "prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
+      "examples": [
+        { "fr": "Je **prends** le métro.", "en": "I take the metro." },
+        { "fr": "**Prenez** la deuxième rue à gauche.", "en": "Take the second street on the left." },
+        { "fr": "Nous **prenons** un taxi.", "en": "We're taking a taxi." }
+      ] },
+    { "id": "descendre", "fr": "descendre", "pos": "verb", "ipa": "de.sɑ̃dʁ", "en": "to go down; to get off (a bus, train)",
+      "def": "Aller en bas. Aussi : sortir du bus ou du train.", "def_en": "To go down. Also: to get off a bus or train.",
+      "extra": "je **descends** · tu **descends** · il **descend** · nous **descendons** · vous **descendez** · ils **descendent**",
+      "forms": ["descends", "descend", "descendons", "descendez", "descendent", "descendu", "descendue", "descendus", "descendues", "descendais", "descendait", "descendions", "descendiez", "descendaient", "descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront"],
+      "examples": [
+        { "fr": "Je **descends** au prochain arrêt.", "en": "I'm getting off at the next stop." },
+        { "fr": "**Descendez** la rue jusqu'à la place.", "en": "Go down the street to the square." },
+        { "fr": "Léa **descend** de son vélo.", "en": "Léa gets off her bike." }
+      ] }
+  ],
+  "story": {
+    "title": "Antoine est perdu",
+    "en": "The next day, Antoine goes out alone — and gets lost.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lendemain, Antoine se promène seul dans Lyon. Il cherche la gare.", "en": "The next day, Antoine walks around Lyon alone. He's looking for the station." },
+      { "sp": "", "fr": "Mais il est perdu ! Il n'a pas de plan.", "en": "But he's lost! He has no map." },
+      { "sp": "Antoine", "fr": "Pardon, madame, je cherche la gare. C'est loin ?", "en": "Excuse me, madam, I'm looking for the station. Is it far?" },
+      { "sp": "La dame", "fr": "Non, c'est tout près. Vous êtes à pied ?", "en": "No, it's very close. Are you on foot?" },
+      { "sp": "Antoine", "fr": "Oui.", "en": "Yes." },
+      { "sp": "La dame", "fr": "Alors, continuez tout droit jusqu'au carrefour.", "en": "Then keep going straight on to the crossroads." },
+      { "sp": "La dame", "fr": "Au feu rouge, tournez à gauche et traversez le pont.", "en": "At the red light, turn left and cross the bridge." },
+      { "sp": "La dame", "fr": "Ensuite, prenez la deuxième rue à droite. La gare est au coin.", "en": "Then take the second street on the right. The station is on the corner." },
+      { "sp": "Antoine", "fr": "Merci beaucoup, madame !", "en": "Thank you very much, madam!" },
+      { "sp": "", "fr": "Antoine marche, tourne, traverse… mais il ne trouve pas la gare !", "en": "Antoine walks, turns, crosses… but he can't find the station!" },
+      { "sp": "", "fr": "Il téléphone à Léa.", "en": "He phones Léa." },
+      { "sp": "Léa", "fr": "Tu es où ?", "en": "Where are you?" },
+      { "sp": "Antoine", "fr": "Je suis devant un grand pont, avec beaucoup de voitures et de vélos.", "en": "I'm in front of a big bridge, with lots of cars and bikes." },
+      { "sp": "Léa", "fr": "Ah ! Ce n'est pas le bon chemin ! Ne bouge pas : j'arrive à vélo.", "en": "Ah! That's not the right way! Don't move: I'm coming by bike." },
+      { "sp": "", "fr": "Dix minutes après, Léa arrive. Elle descend de son vélo.", "en": "Ten minutes later, Léa arrives. She gets off her bike." },
+      { "sp": "Léa", "fr": "La gare, c'est par là !", "en": "The station is this way!" },
+      { "sp": "Antoine", "fr": "Merci ! Lyon, c'est beau… mais c'est compliqué !", "en": "Thanks! Lyon is beautiful… but it's complicated!" }
+    ]
+  }
+}

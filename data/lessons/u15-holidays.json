@@ -1,0 +1,223 @@
+{
+  "id": "u15-holidays",
+  "type": "vocab",
+  "unit": 15,
+  "title": "Les vacances",
+  "en": "Holidays by the sea",
+  "intro": "22 words for the summer holidays: the beach and the sea, waves and sand, sun cream (and sunburn), boats, islands and ice cream. In France, July and August are *les grandes vacances*: half the country heads **à la mer**!",
+  "words": [
+    { "id": "vacances", "fr": "vacances", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "va.kɑ̃s", "en": "holidays, vacation",
+      "def": "Les jours où on ne travaille pas et où on ne va pas à l'école.", "def_en": "The days when you don't work and don't go to school.",
+      "examples": [
+        { "fr": "Bonnes **vacances** !", "en": "Have a good holiday!" },
+        { "fr": "Nous partons en **vacances** en août.", "en": "We're going on holiday in August." },
+        { "fr": "Les **vacances** d'été durent deux mois.", "en": "The summer holidays last two months." }
+      ],
+      "note": "Always plural: **les vacances**. **partir en vacances** = to go on holiday; **être en vacances** = to be on holiday." },
+    { "id": "plage", "fr": "plage", "pos": "noun", "g": "f", "ipa": "plaʒ", "en": "beach",
+      "def": "Le bord de la mer, avec du sable ou des cailloux.", "def_en": "The edge of the sea, with sand or pebbles.",
+      "forms": ["plages"],
+      "examples": [
+        { "fr": "On va à la **plage** cet après-midi ?", "en": "Shall we go to the beach this afternoon?" },
+        { "fr": "La **plage** est pleine de monde.", "en": "The beach is packed." },
+        { "fr": "Lou fait un château de sable sur la **plage**.", "en": "Lou is making a sandcastle on the beach." }
+      ] },
+    { "id": "mer", "fr": "mer", "pos": "noun", "g": "f", "ipa": "mɛʁ", "en": "sea",
+      "def": "Beaucoup, beaucoup d'eau salée, entre les pays.", "def_en": "A huge amount of salt water between countries.",
+      "forms": ["mers"],
+      "examples": [
+        { "fr": "L'eau de la **mer** est chaude en août.", "en": "The sea is warm in August." },
+        { "fr": "Mes grands-parents habitent au bord de la **mer**.", "en": "My grandparents live by the sea." },
+        { "fr": "On se baigne dans la **mer** ?", "en": "Shall we swim in the sea?" }
+      ],
+      "note": "**la mer** (sea), **la mère** (mother) and **le maire** (mayor) all sound the same: /mɛʁ/!" },
+    { "id": "sable", "fr": "sable", "pos": "noun", "g": "m", "ipa": "sabl", "en": "sand",
+      "def": "Les petits grains jaunes ou blancs qu'il y a sur la plage.", "def_en": "The tiny yellow or white grains on the beach.",
+      "examples": [
+        { "fr": "Le **sable** est très chaud !", "en": "The sand is very hot!" },
+        { "fr": "J'ai du **sable** dans mes chaussures.", "en": "I've got sand in my shoes." },
+        { "fr": "Les enfants jouent dans le **sable**.", "en": "The children are playing in the sand." }
+      ] },
+    { "id": "vague", "fr": "vague", "pos": "noun", "g": "f", "ipa": "vaɡ", "en": "wave",
+      "def": "L'eau de la mer qui monte et qui arrive sur la plage.", "def_en": "Sea water that rises and rolls onto the beach.",
+      "forms": ["vagues"],
+      "examples": [
+        { "fr": "Les **vagues** sont grandes aujourd'hui.", "en": "The waves are big today." },
+        { "fr": "Lou a peur des **vagues**.", "en": "Lou is scared of the waves." },
+        { "fr": "On saute dans les **vagues** !", "en": "We jump in the waves!" }
+      ],
+      "note": "Also an adjective: **vague** = vague, unclear." },
+    { "id": "maillot-de-bain", "fr": "maillot de bain", "pos": "noun", "g": "m", "ipa": "ma.jo də bɛ̃", "en": "swimsuit, swimming trunks",
+      "def": "Le vêtement qu'on porte pour nager.", "def_en": "The clothing you wear for swimming.",
+      "forms": ["maillots de bain"],
+      "examples": [
+        { "fr": "N'oublie pas ton **maillot de bain** !", "en": "Don't forget your swimsuit!" },
+        { "fr": "Elle a un nouveau **maillot de bain** rouge.", "en": "She has a new red swimsuit." },
+        { "fr": "Mon **maillot de bain** est encore mouillé.", "en": "My swimsuit is still wet." }
+      ],
+      "note": "In speech, often just **un maillot**." },
+    { "id": "serviette", "fr": "serviette", "pos": "noun", "g": "f", "ipa": "sɛʁ.vjɛt", "en": "towel; napkin",
+      "def": "Un tissu pour se sécher, après la douche ou après la mer.", "def_en": "A cloth for drying yourself, after a shower or after the sea.",
+      "forms": ["serviettes"],
+      "examples": [
+        { "fr": "Je mets ma **serviette** sur le sable.", "en": "I put my towel on the sand." },
+        { "fr": "Il n'y a pas de **serviette** dans la salle de bains.", "en": "There's no towel in the bathroom." },
+        { "fr": "Une **serviette** en papier, s'il vous plaît.", "en": "A paper napkin, please." }
+      ] },
+    { "id": "parasol", "fr": "parasol", "pos": "noun", "g": "m", "ipa": "pa.ʁa.sɔl", "en": "sunshade, beach umbrella",
+      "def": "Un grand parapluie contre le soleil, sur la plage ou en terrasse.", "def_en": "A big umbrella against the sun, on the beach or on a terrace.",
+      "forms": ["parasols"],
+      "examples": [
+        { "fr": "On se met sous le **parasol** ?", "en": "Shall we get under the sunshade?" },
+        { "fr": "Le **parasol** s'envole avec le vent !", "en": "The sunshade is blowing away in the wind!" },
+        { "fr": "On loue un **parasol** pour la journée.", "en": "We're renting a sunshade for the day." }
+      ],
+      "note": "**para** (against) + **sol** (sun), like *parapluie* (against the rain)." },
+    { "id": "lunettes-de-soleil", "fr": "lunettes de soleil", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "ly.nɛt də sɔ.lɛj", "en": "sunglasses",
+      "def": "Des lunettes noires pour protéger les yeux du soleil.", "def_en": "Dark glasses that protect your eyes from the sun.",
+      "examples": [
+        { "fr": "Où sont mes **lunettes de soleil** ?", "en": "Where are my sunglasses?" },
+        { "fr": "Elle porte des **lunettes de soleil** roses.", "en": "She's wearing pink sunglasses." },
+        { "fr": "Hugo oublie ses **lunettes de soleil** à la plage.", "en": "Hugo leaves his sunglasses at the beach." }
+      ] },
+    { "id": "bronzer", "fr": "bronzer", "pos": "verb", "ipa": "bʁɔ̃.ze", "en": "to tan, to sunbathe",
+      "def": "Rester au soleil pour avoir la peau plus foncée.", "def_en": "To stay in the sun to get darker skin.",
+      "forms": ["bronze", "bronzes", "bronzons", "bronzez", "bronzent", "bronzé", "bronzée", "bronzés", "bronzées", "bronzais", "bronzait", "bronzions", "bronziez", "bronzaient", "bronzerai", "bronzeras", "bronzera", "bronzerons", "bronzerez", "bronzeront"],
+      "examples": [
+        { "fr": "Sophie **bronze** sur la plage.", "en": "Sophie is sunbathing on the beach." },
+        { "fr": "Tu es très **bronzé** !", "en": "You're very tanned!" },
+        { "fr": "Je ne **bronze** pas, je deviens rouge !", "en": "I don't tan, I go red!" }
+      ],
+      "note": "**bronzé(e)** = tanned." },
+    { "id": "coup-de-soleil", "fr": "coup de soleil", "pos": "noun", "g": "m", "ipa": "ku də sɔ.lɛj", "en": "sunburn",
+      "def": "Quand la peau devient rouge et fait mal, après trop de soleil.", "def_en": "When your skin goes red and hurts after too much sun.",
+      "forms": ["coups de soleil"],
+      "examples": [
+        { "fr": "Aïe ! J'ai un **coup de soleil** sur le dos !", "en": "Ouch! I've got sunburn on my back!" },
+        { "fr": "Mets de la crème solaire, sinon tu vas avoir un **coup de soleil**.", "en": "Put on some sunscreen, or you'll get sunburnt." },
+        { "fr": "Hugo a un gros **coup de soleil** sur le nez.", "en": "Hugo has a bad sunburn on his nose." }
+      ],
+      "note": "Literally *a blow from the sun*. **prendre un coup de soleil** = to get sunburnt." },
+    { "id": "plonger", "fr": "plonger", "pos": "verb", "ipa": "plɔ̃.ʒe", "en": "to dive",
+      "def": "Sauter dans l'eau, la tête la première.", "def_en": "To jump into water, head first.",
+      "extra": "Like *manger*: **nous plongeons**.",
+      "forms": ["plonge", "plonges", "plongeons", "plongez", "plongent", "plongé", "plongeais", "plongeait", "plongions", "plongiez", "plongeaient", "plongerai", "plongeras", "plongera", "plongerons", "plongerez", "plongeront"],
+      "examples": [
+        { "fr": "Hugo **plonge** du bateau.", "en": "Hugo dives off the boat." },
+        { "fr": "Tu sais **plonger** ?", "en": "Can you dive?" },
+        { "fr": "Nous **plongeons** pour voir les poissons.", "en": "We dive down to see the fish." }
+      ] },
+    { "id": "ile", "fr": "île", "pos": "noun", "g": "f", "ipa": "il", "en": "island",
+      "def": "Une terre avec de l'eau tout autour.", "def_en": "A piece of land with water all around it.",
+      "forms": ["îles"],
+      "examples": [
+        { "fr": "On prend le bateau pour aller sur l'**île**.", "en": "We take the boat to go to the island." },
+        { "fr": "La Corse est une grande **île**.", "en": "Corsica is a big island." },
+        { "fr": "Cette **île** est très petite.", "en": "This island is very small." }
+      ],
+      "note": "The **î** stands for an old **s**: *île* ~ *isle*." },
+    { "id": "cote-mer", "fr": "côte", "pos": "noun", "g": "f", "ipa": "kot", "en": "coast",
+      "def": "La terre au bord de la mer.", "def_en": "The land along the edge of the sea.",
+      "forms": ["côtes"],
+      "examples": [
+        { "fr": "Marseille est sur la **côte** méditerranéenne.", "en": "Marseille is on the Mediterranean coast." },
+        { "fr": "On se promène le long de la **côte**.", "en": "We walk along the coast." },
+        { "fr": "La **côte** est magnifique ici.", "en": "The coast is magnificent here." }
+      ],
+      "note": "Careful: **la côte** /kot/ (coast) and **le côté** /ko.te/ (side). **la Côte d'Azur** = the French Riviera." },
+    { "id": "port", "fr": "port", "pos": "noun", "g": "m", "ipa": "pɔʁ", "en": "harbour, port",
+      "def": "L'endroit où les bateaux arrivent et partent.", "def_en": "The place where boats arrive and leave.",
+      "forms": ["ports"],
+      "examples": [
+        { "fr": "On mange du poisson sur le **port**.", "en": "We eat fish down by the harbour." },
+        { "fr": "Il y a beaucoup de bateaux dans le **port**.", "en": "There are lots of boats in the harbour." },
+        { "fr": "Le bateau quitte le **port** à neuf heures.", "en": "The boat leaves the harbour at nine." }
+      ],
+      "note": "**le Vieux-Port** is the old harbour in the heart of Marseille. **le port** (harbour) and **le porc** (pork) sound the same!" },
+    { "id": "glace", "fr": "glace", "pos": "noun", "g": "f", "ipa": "ɡlas", "en": "ice cream; ice; mirror",
+      "def": "Un dessert très froid, à la vanille, au chocolat, à la fraise… Aussi : de l'eau devenue [dure|dur] à cause du froid.", "def_en": "A very cold dessert, vanilla, chocolate, strawberry… Also: water that has gone hard because of the cold.",
+      "forms": ["glaces"],
+      "examples": [
+        { "fr": "Je voudrais une **glace** à la vanille.", "en": "I'd like a vanilla ice cream." },
+        { "fr": "Lou mange une **glace** au chocolat.", "en": "Lou is eating a chocolate ice cream." },
+        { "fr": "Attention, il y a de la **glace** sur la route.", "en": "Careful, there's ice on the road." }
+      ],
+      "note": "**une glace** can also be a mirror!" },
+    { "id": "chateau", "fr": "château", "pos": "noun", "g": "m", "ipa": "ʃa.to", "en": "castle, château",
+      "def": "Une très grande maison ancienne, pour les rois et les princes. Aussi : un château de sable, sur la plage.", "def_en": "A very big old house for kings and princes. Also: a sandcastle on the beach.",
+      "forms": ["châteaux"],
+      "examples": [
+        { "fr": "Lou fait un **château** de sable.", "en": "Lou is making a sandcastle." },
+        { "fr": "Les **châteaux** de la Loire sont célèbres.", "en": "The châteaux of the Loire are famous." },
+        { "fr": "Ce **château** a cinq cents ans.", "en": "This castle is five hundred years old." }
+      ],
+      "note": "Plural with **-x**: *des châteaux*. The **â** stands for an old **s**: *château* ~ *castle*." },
+    { "id": "louer", "fr": "louer", "pos": "verb", "ipa": "lwe", "en": "to rent, to hire",
+      "def": "Payer pour avoir une chose pendant un temps : un vélo, une voiture, un appartement.", "def_en": "To pay to have something for a while: a bike, a car, a flat.",
+      "forms": ["loue", "loues", "louons", "louez", "louent", "loué", "louais", "louait", "louions", "louiez", "louaient", "louerai", "loueras", "louera", "louerons", "louerez", "loueront"],
+      "examples": [
+        { "fr": "On **loue** des vélos pour la journée.", "en": "We're hiring bikes for the day." },
+        { "fr": "Ils **louent** une maison au bord de la mer.", "en": "They're renting a house by the sea." },
+        { "fr": "Est-ce qu'on peut **louer** un bateau ?", "en": "Can we hire a boat?" }
+      ],
+      "note": "**à louer** = to let, for rent." },
+    { "id": "location", "fr": "location", "pos": "noun", "g": "f", "ipa": "lɔ.ka.sjɔ̃", "en": "rental, hire",
+      "def": "Quand on loue quelque chose : une location de voiture, une location de vacances.", "def_en": "When you rent something: a car rental, a holiday rental.",
+      "forms": ["locations"],
+      "examples": [
+        { "fr": "La **location** du vélo coûte dix euros.", "en": "The bike hire costs ten euros." },
+        { "fr": "Nous avons une **location** près de la plage.", "en": "We have a holiday rental near the beach." },
+        { "fr": "Il y a une agence de **location** de voitures à l'aéroport.", "en": "There's a car hire agency at the airport." }
+      ],
+      "note": "False friend! **une location** = a rental, not *a location* (that's **un endroit, un lieu**)." },
+    { "id": "profiter", "fr": "profiter", "pos": "verb", "ipa": "pʁɔ.fi.te", "en": "(profiter de) to make the most of, to enjoy",
+      "def": "Bien utiliser un moment agréable.", "def_en": "To make good use of a pleasant moment.",
+      "forms": ["profite", "profites", "profitons", "profitez", "profitent", "profité", "profitais", "profitait", "profitions", "profitiez", "profitaient", "profiterai", "profiteras", "profitera", "profiterons", "profiterez", "profiteront"],
+      "examples": [
+        { "fr": "On **profite** du soleil !", "en": "We're making the most of the sun!" },
+        { "fr": "**Profitez** bien de vos vacances !", "en": "Enjoy your holiday!" },
+        { "fr": "Je **profite** de la plage avant la rentrée.", "en": "I'm enjoying the beach before term starts." }
+      ],
+      "note": "French people say **Profite bien !** (Enjoy it!) all the time." },
+    { "id": "se-detendre", "fr": "se détendre", "pos": "verb", "ipa": "sə de.tɑ̃dʁ", "en": "to relax",
+      "def": "Se reposer, ne plus penser au travail.", "def_en": "To rest, to stop thinking about work.",
+      "extra": "Like *attendre*: je **me détends**, il **se détend**, nous **nous détendons**, ils **se détendent**.",
+      "forms": ["me détends", "te détends", "se détend", "nous nous détendons", "vous vous détendez", "se détendent", "détends", "détend", "détendons", "détendez", "détendent", "détendu", "détendue", "détendus", "détendues", "détendais", "détendait", "détendions", "détendiez", "détendaient", "me détendrai", "te détendras", "se détendra", "nous nous détendrons", "vous vous détendrez", "se détendront"],
+      "examples": [
+        { "fr": "En vacances, je **me détends**.", "en": "On holiday, I relax." },
+        { "fr": "Papa **se détend** au soleil.", "en": "Dad is relaxing in the sun." },
+        { "fr": "On **se détend** sur la plage ?", "en": "Shall we chill out on the beach?" }
+      ] },
+    { "id": "carte-postale", "fr": "carte postale", "pos": "noun", "g": "f", "ipa": "kaʁt pɔs.tal", "en": "postcard",
+      "def": "Une carte avec une photo, qu'on envoie à ses amis pendant les vacances.", "def_en": "A card with a photo, which you send to your friends while you're on holiday.",
+      "forms": ["cartes postales"],
+      "examples": [
+        { "fr": "J'écris une **carte postale** à Sophie.", "en": "I'm writing a postcard to Sophie." },
+        { "fr": "Les **cartes postales** coûtent un euro.", "en": "The postcards cost a euro." },
+        { "fr": "Tu as reçu ma **carte postale** ?", "en": "Did you get my postcard?" }
+      ] }
+  ],
+  "story": {
+    "title": "Une semaine à Marseille",
+    "en": "Léa, Hugo and Lou spend a week at their grandparents' by the sea.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin août, Léa, Hugo et Lou passent une semaine de vacances chez leurs grands-parents, à Marseille.", "en": "At the end of August, Léa, Hugo and Lou spend a week's holiday at their grandparents' in Marseille." },
+      { "sp": "", "fr": "Jacques et Louise habitent une petite maison sur la côte, au bord de la mer.", "en": "Jacques and Louise live in a little house on the coast, right by the sea." },
+      { "sp": "Louise", "fr": "Profitez bien, les enfants ! Ici, il y a du soleil tous les jours !", "en": "Make the most of it, kids! Here, the sun shines every day!" },
+      { "sp": "", "fr": "Le matin, ils vont à la plage avec leurs serviettes, un parasol et la crème solaire.", "en": "In the morning, they go to the beach with their towels, a sunshade and the sunscreen." },
+      { "sp": "Léa", "fr": "Hugo, où est ton maillot de bain ?", "en": "Hugo, where are your swimming trunks?" },
+      { "sp": "Hugo", "fr": "Sous mon pantalon ! Et j'ai aussi mes lunettes de soleil.", "en": "Under my trousers! And I've got my sunglasses too." },
+      { "sp": "", "fr": "Lou fait un château de sable. Les vagues arrivent… et le château tombe !", "en": "Lou makes a sandcastle. The waves come in… and the castle falls down!" },
+      { "sp": "Lou", "fr": "Mon château ! Méchantes vagues !", "en": "My castle! Naughty waves!" },
+      { "sp": "", "fr": "Léa se détend sous le parasol. Hugo bronze au soleil… pendant trois heures.", "en": "Léa relaxes under the sunshade. Hugo sunbathes… for three hours." },
+      { "sp": "", "fr": "Le soir, Hugo est tout rouge : il a un énorme coup de soleil !", "en": "In the evening, Hugo is bright red: he's got a terrible sunburn!" },
+      { "sp": "Jacques", "fr": "Demain, on loue un bateau et on va sur une île, d'accord ?", "en": "Tomorrow, we'll hire a boat and go to an island, OK?" },
+      { "sp": "", "fr": "Le lendemain, la location du bateau coûte cher, mais l'île est magnifique.", "en": "The next day, the boat hire is expensive, but the island is magnificent." },
+      { "sp": "", "fr": "Hugo plonge dans l'eau bleue. Lou regarde les poissons.", "en": "Hugo dives into the blue water. Lou watches the fish." },
+      { "sp": "", "fr": "Au retour, ils mangent une glace sur le port.", "en": "On the way back, they eat an ice cream by the harbour." },
+      { "sp": "Léa", "fr": "J'écris une carte postale à Sophie : « Ici, c'est le paradis ! »", "en": "I'm writing a postcard to Sophie: “It's paradise here!”" },
+      { "sp": "Hugo", "fr": "Et moi, j'écris : « Ici, c'est le paradis… sauf pour mon nez ! »", "en": "And I'm writing: “It's paradise here… except for my nose!”" }
+    ]
+  }
+}

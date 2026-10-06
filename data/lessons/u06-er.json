@@ -1,0 +1,154 @@
+{
+  "id": "u06-er",
+  "type": "grammar",
+  "unit": 6,
+  "title": "Je parle, tu parles…",
+  "en": "Regular -er verbs in the present",
+  "intro": "About 9 out of 10 French verbs end in **-er**, and almost all of them follow the same pattern. Learn it once and you can use hundreds of verbs: *parler, aimer, habiter, cuisiner, regarder…*",
+  "cases": [
+    { "id": "er-je", "label": "je … -e", "rule": "**je** + stem + **-e**: *je parle*. Before a vowel or silent h, **je → j'**: *j'aime, j'habite*." },
+    { "id": "er-tu", "label": "tu … -es", "rule": "**tu** + stem + **-es**: *tu parles*. The **-s** is silent." },
+    { "id": "er-il", "label": "il / elle / on … -e", "rule": "**il, elle, on** + stem + **-e**: *il parle, on parle*." },
+    { "id": "er-nous", "label": "nous … -ons", "rule": "**nous** + stem + **-ons**: *nous parlons* /paʁ.lɔ̃/." },
+    { "id": "er-vous", "label": "vous … -ez", "rule": "**vous** + stem + **-ez**: *vous parlez* /paʁ.le/." },
+    { "id": "er-ils", "label": "ils / elles … -ent", "rule": "**ils, elles** + stem + **-ent**: *ils parlent*. The **-ent** is silent!" },
+    { "id": "er-sound", "label": "four forms, one sound", "rule": "*je parle, tu parles, il parle, ils parlent* all sound /paʁl/. Only **nous** (-ons) and **vous** (-ez) sound different." },
+    { "id": "er-liaison", "label": "verbs starting with a vowel", "rule": "**nous‿aimons, vous‿habitez, ils‿aiment**: you hear a /z/. That's how you hear *il aime* /i.lɛm/ vs *ils aiment* /il.zɛm/." },
+    { "id": "er-meaning", "label": "one present = three English tenses", "rule": "*Je regarde* = I watch / I'm watching / I do watch. French has no “-ing” form: never “je suis regardant”." },
+    { "id": "er-neg-q", "label": "negatives and questions", "rule": "**ne … pas** around the verb (*je ne parle pas*, *je n'aime pas*). Questions: voice up, or **est-ce que**: *Est-ce que tu parles anglais ?*" }
+  ],
+  "sections": [
+    {
+      "title": "1. The pattern: stem + ending",
+      "text": ["Take the infinitive, remove **-er** to get the stem (*parler → parl-*), then add the ending for each person."],
+      "table": {
+        "head": ["parler (to speak)", "Ending"], "frCols": [0],
+        "rows": [
+          ["je parle", "-e"],
+          ["tu parles", "-es"],
+          ["il / elle / on parle", "-e"],
+          ["nous parlons", "-ons"],
+          ["vous parlez", "-ez"],
+          ["ils / elles parlent", "-ent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je parle|er-je} français.", "en": "I speak French." },
+        { "fr": "{Tu habites|er-tu} à Lyon ?", "en": "Do you live in Lyon?" },
+        { "fr": "{Elle prépare|er-il} le dîner.", "en": "She's making dinner." }
+      ]
+    },
+    {
+      "title": "2. We, you, they",
+      "examples": [
+        { "fr": "{Nous parlons|er-nous} anglais.", "en": "We speak English." },
+        { "fr": "{Vous habitez|er-vous} où ?", "en": "Where do you live?" },
+        { "fr": "{Ils travaillent|er-ils} à Paris.", "en": "They work in Paris." }
+      ]
+    },
+    {
+      "title": "3. Four forms, one sound",
+      "text": ["The endings **-e, -es, -e, -ent** are all silent, so four forms sound exactly the same. Only **nous** and **vous** sound different."],
+      "table": {
+        "head": ["Form", "Sounds"], "frCols": [0],
+        "rows": [
+          ["je parle", "/ʒə paʁl/"],
+          ["tu parles", "/ty paʁl/"],
+          ["il parle", "/il paʁl/"],
+          ["ils parlent", "/il paʁl/"],
+          ["nous parlons", "/nu paʁ.lɔ̃/"],
+          ["vous parlez", "/vu paʁ.le/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il parle|er-sound} français et {ils parlent|er-sound} anglais.", "en": "He speaks French and they speak English." }
+      ],
+      "tip": "So in speech, *il parle* and *ils parlent* sound the same — the rest of the sentence tells you which one it is."
+    },
+    {
+      "title": "4. Verbs starting with a vowel",
+      "text": ["**je → j'**: *j'aime, j'habite, j'écoute*. With **nous, vous, ils, elles** you hear a /z/ link: *nous‿aimons, vous‿habitez, ils‿aiment*. Here you CAN hear the plural: *il aime* /i.lɛm/, *ils‿aiment* /il.zɛm/."],
+      "examples": [
+        { "fr": "{J'aime|er-je} la cuisine française.", "en": "I love French cooking." },
+        { "fr": "{Ils aiment|er-liaison} le chocolat.", "en": "They love chocolate." },
+        { "fr": "{Vous habitez|er-liaison} à Paris ?", "en": "Do you live in Paris?" }
+      ]
+    },
+    {
+      "title": "5. One present, three English tenses",
+      "text": ["*Je regarde la télé* can mean **I watch TV**, **I'm watching TV** or **I do watch TV**. French has no separate “-ing” form."],
+      "examples": [
+        { "fr": "Chut ! {Je regarde|er-meaning} un film.", "en": "Shh! I'm watching a film." },
+        { "fr": "{Je regarde|er-meaning} la télé tous les soirs.", "en": "I watch TV every evening." }
+      ],
+      "tip": "Never translate “I am watching” word for word: not *je suis regardant*, just **je regarde**."
+    },
+    {
+      "title": "6. Saying no and asking questions",
+      "text": [
+        "**ne** before the verb, **pas** after it: *je ne parle pas*. Before a vowel: *je n'aime pas*.",
+        "Questions: raise your voice (*Tu parles anglais ?*) or put **est-ce que** in front (*Est-ce que tu parles anglais ?*)."
+      ],
+      "examples": [
+        { "fr": "{Je ne parle pas|er-neg-q} italien.", "en": "I don't speak Italian." },
+        { "fr": "{Tu n'aimes pas|er-neg-q} le poisson ?", "en": "Don't you like fish?" },
+        { "fr": "{Est-ce que vous parlez|er-neg-q} français ?", "en": "Do you speak French?" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je parles français.", "right": "Je parle français.", "why": "**je** → **-e**. **-es** is for **tu**." },
+    { "wrong": "Nous parlez.", "right": "Nous parlons.", "why": "**nous** → **-ons**, **vous** → **-ez**." },
+    { "wrong": "ils parlent → “par-lent”", "right": "ils parlent → /il paʁl/", "why": "The **-ent** of a verb is silent." },
+    { "wrong": "Je aime le café.", "right": "J'aime le café.", "why": "**je → j'** before a vowel." },
+    { "wrong": "Je suis regardant la télé.", "right": "Je regarde la télé.", "why": "No “-ing” form in French: **je regarde** = I'm watching." },
+    { "wrong": "Je ne parle français.", "right": "Je ne parle pas français.", "why": "You need **ne** and **pas**." }
+  ],
+  "story": {
+    "title": "Dimanche chez les grands-parents",
+    "en": "The whole family has Sunday lunch at Jacques and Louise's house.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche, toute la famille {déjeune|er-il} chez Jacques et Louise.", "en": "On Sundays, the whole family has lunch at Jacques and Louise's." },
+      { "sp": "", "fr": "Dans la cuisine, Louise {prépare|er-il} un poulet.", "en": "In the kitchen, Louise is cooking a chicken." },
+      { "sp": "Louise", "fr": "Léa, {tu épluches|er-tu} les pommes de terre ?", "en": "Léa, will you peel the potatoes?" },
+      { "sp": "Léa", "fr": "Oui ! Et Hugo, {il coupe|er-il} les carottes.", "en": "Yes! And Hugo is cutting the carrots." },
+      { "sp": "Hugo", "fr": "Non, moi, {je regarde|er-meaning} le match à la télé !", "en": "No, I'm watching the match on TV!" },
+      { "sp": "Louise", "fr": "Hugo ! {Nous préparons|er-nous} le déjeuner ensemble. Tu aides !", "en": "Hugo! We're making lunch together. You're helping!" },
+      { "sp": "", "fr": "Dans le salon, Paul et Jacques {parlent|er-ils}. {Ils écoutent|er-liaison} de la musique.", "en": "In the living room, Paul and Jacques are talking. They're listening to music." },
+      { "sp": "Jacques", "fr": "Karim, {vous travaillez|er-vous} toujours au restaurant ?", "en": "Karim, are you still working at the restaurant?" },
+      { "sp": "Karim", "fr": "Oui ! {Je prépare|er-je} les desserts.", "en": "Yes! I make the desserts." },
+      { "sp": "", "fr": "Lou {joue|er-il} avec le chien sous la table.", "en": "Lou is playing with the dog under the table." },
+      { "sp": "Louise", "fr": "À table ! {On mange|er-il} !", "en": "Lunch is ready! Let's eat!" },
+      { "sp": "", "fr": "Tout le monde {aime|er-sound} le poulet de Louise, et {les enfants adorent|er-sound} les desserts de Karim.", "en": "Everyone loves Louise's chicken, and the children love Karim's desserts." },
+      { "sp": "Hugo", "fr": "Grand-mère, ton poulet est délicieux !", "en": "Grandma, your chicken is delicious!" },
+      { "sp": "Louise", "fr": "Merci, mon chéri. Mais {tu ne manges pas|er-neg-q} tes carottes ?", "en": "Thank you, darling. But aren't you eating your carrots?" },
+      { "sp": "Hugo", "fr": "Euh… {je n'aime pas|er-neg-q} les carottes cuites !", "en": "Um… I don't like cooked carrots!" },
+      { "sp": "", "fr": "Après le repas, Paul et Hugo {lavent|er-ils} la vaisselle, et Louise {regarde|er-sound} les photos avec Léa.", "en": "After the meal, Paul and Hugo do the dishes, and Louise looks at photos with Léa." },
+      { "sp": "Hugo", "fr": "Pourquoi {je lave|er-je} toujours la vaisselle, moi ?", "en": "Why am I always the one doing the dishes?" }
+    ]
+  },
+  "quiz": [
+    { "case": "er-je", "type": "mc", "q": "Je ___ français.", "en": "I speak French.", "options": ["parle", "parles", "parlons"], "answer": "parle" },
+    { "case": "er-je", "type": "type", "q": "J'___ à Paris.", "en": "I live in Paris.", "answer": "habite" },
+    { "case": "er-tu", "type": "mc", "q": "Tu ___ la télé ?", "en": "Are you watching TV?", "options": ["regardes", "regarde", "regardez"], "answer": "regardes" },
+    { "case": "er-tu", "type": "type", "q": "Tu ___ anglais ?", "en": "Do you speak English?", "answer": "parles" },
+    { "case": "er-il", "type": "mc", "q": "Léa ___ le dîner.", "en": "Léa is making dinner.", "options": ["prépare", "prépares", "préparent"], "answer": "prépare" },
+    { "case": "er-il", "type": "type", "q": "On ___ ensemble ?", "en": "Shall we cook together?", "answer": "cuisine" },
+    { "case": "er-nous", "type": "mc", "q": "Nous ___ à Lyon.", "en": "We live in Lyon.", "options": ["habitons", "habitez", "habitent"], "answer": "habitons" },
+    { "case": "er-nous", "type": "type", "q": "Nous ___ la télé.", "en": "We're watching TV.", "answer": "regardons" },
+    { "case": "er-vous", "type": "mc", "q": "Vous ___ français ?", "en": "Do you speak French?", "options": ["parlez", "parlons", "parles"], "answer": "parlez" },
+    { "case": "er-vous", "type": "type", "q": "Vous ___ le café ?", "en": "Do you like coffee?", "answer": "aimez" },
+    { "case": "er-ils", "type": "mc", "q": "Ils ___ à Paris.", "en": "They work in Paris.", "options": ["travaillent", "travaillons", "travaille"], "answer": "travaillent" },
+    { "case": "er-ils", "type": "type", "q": "Elles ___ la vaisselle.", "en": "They're washing the dishes.", "answer": "lavent" },
+    { "case": "er-sound", "type": "mc", "lang": "en", "q": "Which forms sound exactly the same?", "options": ["je parle, tu parles, il parle, ils parlent", "nous parlons, vous parlez", "je parle, nous parlons"], "answer": "je parle, tu parles, il parle, ils parlent", "say": "je parle, tu parles, il parle, ils parlent" },
+    { "case": "er-sound", "type": "mc", "lang": "en", "q": "How do you pronounce « ils regardent » ?", "options": ["/il ʁə.ɡaʁd/ — the -ent is silent", "/il ʁə.ɡaʁ.dɑ̃/"], "answer": "/il ʁə.ɡaʁd/ — the -ent is silent", "say": "ils regardent" },
+    { "case": "er-liaison", "type": "mc", "lang": "en", "listen": "Ils aiment le chocolat.", "q": "Listen: one person or several?", "options": ["several — you hear /z/: ils‿aiment", "one"], "answer": "several — you hear /z/: ils‿aiment" },
+    { "case": "er-liaison", "type": "type", "q": "Nous ___ la musique.", "en": "We love music.", "answer": "aimons" },
+    { "case": "er-meaning", "type": "mc", "lang": "en", "q": "How do you say “I'm cooking”?", "options": ["Je cuisine.", "Je suis cuisine.", "Je suis cuisinant."], "answer": "Je cuisine." },
+    { "case": "er-meaning", "type": "mc", "lang": "en", "q": "« Je regarde la télé » can mean…", "options": ["I watch TV / I'm watching TV", "only “I watch TV”", "only “I watched TV”"], "answer": "I watch TV / I'm watching TV", "say": "Je regarde la télé." },
+    { "case": "er-neg-q", "type": "mc", "q": "Je ___ parle pas italien.", "en": "I don't speak Italian.", "options": ["ne", "n'", "pas"], "answer": "ne" },
+    { "case": "er-neg-q", "type": "type", "q": "Tu ___ aimes pas le poisson ?", "en": "Don't you like fish?", "answer": "n'" },
+    { "case": "er-neg-q", "type": "mc", "lang": "en", "q": "Which question is correct?", "options": ["Est-ce que tu parles français ?", "Est-ce tu parles français ?", "Parles est-ce que tu français ?"], "answer": "Est-ce que tu parles français ?" }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "u18-double",
+  "type": "grammar",
+  "unit": 18,
+  "title": "Je le lui donne",
+  "en": "Two pronouns together",
+  "intro": "Sometimes one verb has two pronouns: *Je donne **le livre** **à Lou** → Je **le lui** donne.* They always come in the same order, before the verb: **me, te, nous, vous** → **le, la, les** → **lui, leur** → **y** → **en**.",
+  "cases": [
+    { "id": "dp-me-le", "label": "me, te, nous, vous + le, la, les", "rule": "**me, te, nous, vous** come first: *Il **me le** donne. Je **te la** prête. On **vous les** montre.*" },
+    { "id": "dp-le-lui", "label": "le, la, les + lui, leur", "rule": "**le, la, les** come before **lui, leur**: *Je **le lui** donne. Elle **les leur** montre.*" },
+    { "id": "dp-y-en", "label": "y and en come last", "rule": "**y**, then **en**, are always last: *Il **y en** a. Je **lui en** parle. Je **t'en** donne un.*" },
+    { "id": "dp-negatif", "label": "in the negative", "rule": "**ne** comes before both pronouns, **pas** after the verb: *Je **ne le lui** donne **pas**. Il **ne m'en** parle **pas**.*" },
+    { "id": "dp-inf", "label": "with an infinitive", "rule": "Both pronouns go before the infinitive: *Je vais **le lui** dire. Tu peux **me la** prêter ?*" },
+    { "id": "dp-imperative", "label": "Donne-le-moi !", "rule": "In a positive command, the pronouns follow the verb with hyphens: **le, la, les** first, then **moi, toi, lui, nous, vous, leur**: *Donne-**le-moi** ! Montre-**la-lui** !* Before **en**, **moi** becomes **m'**: *Donne-**m'en** !* A negative command keeps the normal order: *Ne **me le** donne pas !*" }
+  ],
+  "sections": [
+    {
+      "title": "1. me, te, nous, vous + le, la, les",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il me le donne.", "He gives it to me."],
+          ["Je te la prête.", "I'll lend it to you."],
+          ["On nous les montre.", "They show them to us."],
+          ["Je vous l'envoie.", "I'll send it to you."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ton vélo ? {Tu me le prêtes|dp-me-le} ?", "en": "Your bike? Will you lend it to me?" },
+        { "fr": "La vérité ? {Je te la dis|dp-me-le} : c'est moi !", "en": "The truth? I'll tell you: it was me!" }
+      ],
+      "tip": "Remember the order **me → le**: *il **me le** dit*, never *il le me dit*."
+    },
+    {
+      "title": "2. le, la, les + lui, leur",
+      "table": {
+        "head": ["With the nouns", "With two pronouns"], "frCols": [0, 1],
+        "rows": [
+          ["Je donne le livre à Lou.", "Je le lui donne."],
+          ["Elle montre les photos à ses parents.", "Elle les leur montre."],
+          ["Il prête sa voiture à Hugo.", "Il la lui prête."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le cadeau ? {Je le lui donne|dp-le-lui} ce soir.", "en": "The present? I'm giving it to him tonight." },
+        { "fr": "Les clés ? {Il les leur laisse|dp-le-lui} sur la table.", "en": "The keys? He leaves them for them on the table." }
+      ],
+      "tip": "**lui, leur** always come **after** **le, la, les**: *je **le lui** dis*."
+    },
+    {
+      "title": "3. y and en come last",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il y en a deux.", "There are two (of them)."],
+          ["Je lui en parle.", "I'm talking to him about it."],
+          ["Je t'en donne un.", "I'll give you one."],
+          ["Il nous en reste trois.", "We have three left."]
+        ]
+      },
+      "examples": [
+        { "fr": "Des bonbons ? {Je leur en donne un|dp-y-en} chacun.", "en": "Sweets? I'll give them one each." },
+        { "fr": "Ton problème ? {Tu m'en parles|dp-y-en} ?", "en": "Your problem? Will you tell me about it?" }
+      ]
+    },
+    {
+      "title": "4. In the negative",
+      "table": {
+        "head": ["Positive", "Negative"], "frCols": [0, 1],
+        "rows": [
+          ["Je le lui donne.", "Je ne le lui donne pas."],
+          ["Il me l'a dit.", "Il ne me l'a pas dit."],
+          ["Il y en a.", "Il n'y en a pas."]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon secret ? {Je ne te le dis pas|dp-negatif} !", "en": "My secret? I'm not telling you!" },
+        { "fr": "Sa voiture ? {Il ne nous la prête jamais|dp-negatif}.", "en": "His car? He never lends it to us." }
+      ]
+    },
+    {
+      "title": "5. With an infinitive",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je vais le lui dire.", "I'm going to tell him."],
+          ["Tu peux me la prêter ?", "Can you lend it to me?"],
+          ["Je veux vous les montrer.", "I want to show them to you."]
+        ]
+      },
+      "examples": [
+        { "fr": "La surprise ? {Je vais la leur annoncer|dp-inf} ce soir.", "en": "The surprise? I'm going to tell them about it tonight." },
+        { "fr": "Ton livre ? {Tu peux me le prêter|dp-inf} ?", "en": "Your book? Can you lend it to me?" }
+      ]
+    },
+    {
+      "title": "6. Donne-le-moi !",
+      "table": {
+        "head": ["Positive", "Negative"], "frCols": [0, 1],
+        "rows": [
+          ["Donne-le-moi !", "Ne me le donne pas !"],
+          ["Montre-la-lui !", "Ne la lui montre pas !"],
+          ["Donnez-les-nous !", "Ne nous les donnez pas !"],
+          ["Donne-m'en !", "Ne m'en donne pas !"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ta photo ? {Montre-la-moi|dp-imperative} !", "en": "Your photo? Show it to me!" },
+        { "fr": "Il reste du gâteau ? {Donne-m'en|dp-imperative} un morceau !", "en": "Is there any cake left? Give me a piece!" }
+      ],
+      "tip": "Positive commands: verb + **le/la/les** + **moi/toi/lui/nous/vous/leur**, with hyphens."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je lui le donne.", "right": "Je le lui donne.", "why": "**le, la, les** come before **lui, leur**." },
+    { "wrong": "Il le me donne.", "right": "Il me le donne.", "why": "**me, te, nous, vous** come before **le, la, les**." },
+    { "wrong": "Je le vais lui dire.", "right": "Je vais le lui dire.", "why": "Both pronouns go before the infinitive." },
+    { "wrong": "Donne-moi-le !", "right": "Donne-le-moi !", "why": "Positive command: **le, la, les** first, then **moi, lui, nous, leur**." },
+    { "wrong": "Il en y a.", "right": "Il y en a.", "why": "**y** comes before **en**." }
+  ],
+  "story": {
+    "title": "Les souvenirs de Paris",
+    "en": "Sunday evening at the station: it's time for Jacques and Louise to go home.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche soir, à la gare. Jacques et Louise rentrent à Marseille.", "en": "Sunday evening, at the station. Jacques and Louise are going home to Marseille." },
+      { "sp": "Louise", "fr": "Lou, j'ai un cadeau pour toi : une petite tour Eiffel. {Je te la donne|dp-me-le} !", "en": "Lou, I've got a present for you: a little Eiffel Tower. It's yours!" },
+      { "sp": "Lou", "fr": "Merci, Mamie ! Et ton écharpe rouge ? {Tu me la prêtes|dp-me-le} ?", "en": "Thank you, Grandma! And your red scarf? Will you lend it to me?" },
+      { "sp": "Louise", "fr": "Non, ma chérie, {je ne te la prête pas|dp-negatif} : il fait froid à Marseille aussi !", "en": "No, darling, I'm not lending it to you: it's cold in Marseille too!" },
+      { "sp": "Jacques", "fr": "Paul, les photos de la tour Eiffel… {tu nous les envoies|dp-me-le} ?", "en": "Paul, the photos of the Eiffel Tower… will you send them to us?" },
+      { "sp": "Paul", "fr": "Bien sûr. {Je vais vous les envoyer|dp-inf} ce soir.", "en": "Of course. I'll send them to you tonight." },
+      { "sp": "Anne", "fr": "Et le gâteau de Lou ? Elle veut l'offrir à Papi.", "en": "And Lou's cake? She wants to give it to Grandpa." },
+      { "sp": "Lou", "fr": "Oui ! {Je le lui donne|dp-le-lui} maintenant !", "en": "Yes! I'm giving it to him now!" },
+      { "sp": "Jacques", "fr": "Un gâteau au chocolat ! Merci, ma puce. Tu en veux un morceau ?", "en": "A chocolate cake! Thank you, sweetie. Would you like a piece?" },
+      { "sp": "Lou", "fr": "Oui ! {Donne-m'en|dp-imperative} un gros !", "en": "Yes! Give me a big one!" },
+      { "sp": "Anne", "fr": "Lou ! C'est le gâteau de Papi ! {Ne lui en demande pas|dp-y-en}…", "en": "Lou! It's Grandpa's cake! Don't ask him for any…" },
+      { "sp": "Jacques", "fr": "Ce n'est pas grave. {Je lui en donne un petit|dp-y-en}.", "en": "It doesn't matter. I'll give her a little piece." },
+      { "sp": "", "fr": "Le train arrive. Paul porte la valise de ses parents.", "en": "The train comes in. Paul carries his parents' suitcase." },
+      { "sp": "Paul", "fr": "Votre valise ? {Je vous la monte|dp-me-le} dans le train.", "en": "Your suitcase? I'll put it on the train for you." },
+      { "sp": "Louise", "fr": "Ah, mes lunettes ! Où sont mes lunettes ?", "en": "Oh, my glasses! Where are my glasses?" },
+      { "sp": "Anne", "fr": "Elles sont sur la table de la cuisine… {Je vais vous les envoyer|dp-inf} par la poste !", "en": "They're on the kitchen table… I'll post them to you!" },
+      { "sp": "Louise", "fr": "Merci ! Et les photos de Lou, {montre-les-moi|dp-imperative} vite !", "en": "Thank you! And Lou's photos, show them to me, quick!" },
+      { "sp": "", "fr": "Paul {les lui montre|dp-le-lui} sur son téléphone. Le train part. Tout le monde fait de grands gestes de la main.", "en": "Paul shows them to her on his phone. The train leaves. Everyone waves." },
+      { "sp": "Lou", "fr": "Au revoir, Papi ! Au revoir, Mamie ! Je vous envoie plein de bisous !", "en": "Bye, Grandpa! Bye, Grandma! I'm sending you lots of kisses!" }
+    ]
+  },
+  "quiz": [
+    { "case": "dp-me-le", "type": "mc", "q": "Tu me prêtes ton stylo ? — Oui, je te ___ prête.", "en": "Will you lend me your pen? — Yes, I'll lend it to you.", "options": ["le", "lui", "la"], "answer": "le" },
+    { "case": "dp-me-le", "type": "mc", "lang": "en", "q": "« Il nous les montre » means…", "options": ["He shows them to us.", "We show them to him.", "He shows us to them."], "answer": "He shows them to us.", "say": "Il nous les montre." },
+    { "case": "dp-le-lui", "type": "mc", "q": "Tu donnes le livre à Lou ? — Oui, je le ___ donne.", "en": "Are you giving the book to Lou? — Yes, I'm giving it to her.", "options": ["lui", "leur", "la"], "answer": "lui" },
+    { "case": "dp-le-lui", "type": "mc", "lang": "en", "q": "“I'm giving it to him.” Choose the right sentence:", "options": ["Je le lui donne.", "Je lui le donne.", "Je donne le lui."], "answer": "Je le lui donne.", "say": "Je le lui donne." },
+    { "case": "dp-y-en", "type": "mc", "q": "Tu donnes des bonbons à Lou ? — Oui, je ___ en donne.", "en": "Are you giving Lou some sweets? — Yes, I'm giving her some.", "options": ["lui", "le", "y"], "answer": "lui" },
+    { "case": "dp-y-en", "type": "mc", "lang": "en", "q": "« Il y en a deux » means…", "options": ["There are two (of them).", "He has two there.", "There are two of us."], "answer": "There are two (of them).", "say": "Il y en a deux." },
+    { "case": "dp-negatif", "type": "mc", "lang": "en", "q": "“I'm not giving it to him.”", "options": ["Je ne le lui donne pas.", "Je ne lui le donne pas.", "Je le ne lui donne pas."], "answer": "Je ne le lui donne pas.", "say": "Je ne le lui donne pas." },
+    { "case": "dp-negatif", "type": "mc", "q": "Ma voiture ? Non, je ne te ___ prête pas !", "en": "My car? No, I'm not lending it to you!", "options": ["la", "lui", "le"], "answer": "la" },
+    { "case": "dp-inf", "type": "mc", "lang": "en", "q": "“I'm going to tell her.” (the news)", "options": ["Je vais la lui dire.", "Je la lui vais dire.", "Je vais lui la dire."], "answer": "Je vais la lui dire.", "say": "Je vais la lui dire." },
+    { "case": "dp-inf", "type": "mc", "q": "Les photos ? Je vais vous ___ envoyer ce soir.", "en": "The photos? I'm going to send them to you tonight.", "options": ["les", "leur", "en"], "answer": "les" },
+    { "case": "dp-imperative", "type": "mc", "q": "Ton dessin ? ___ !", "en": "Your drawing? Show it to me!", "options": ["Montre-le-moi", "Montre-moi-le", "Me le montre"], "answer": "Montre-le-moi" },
+    { "case": "dp-imperative", "type": "mc", "lang": "en", "q": "“Give me some!” (cake)", "options": ["Donne-m'en !", "Donne-moi-en !", "M'en donne !"], "answer": "Donne-m'en !", "say": "Donne-m'en !" }
+  ]
+}

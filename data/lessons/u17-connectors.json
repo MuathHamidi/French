@@ -1,0 +1,225 @@
+{
+  "id": "u17-connectors",
+  "type": "vocab",
+  "unit": 17,
+  "title": "Les petits mots",
+  "en": "Linking words: so, actually, anyway…",
+  "intro": "25 little words that make you sound natural: they link ideas (**donc, pourtant, parce que**), add a comment (**en fait, d'ailleurs, au fait**) or wrap things up (**bref, de toute façon**). French people use them in every conversation.",
+  "words": [
+    { "id": "donc", "fr": "donc", "pos": "conj", "ipa": "dɔ̃k", "en": "so, therefore",
+      "def": "Pour dire ce qui arrive à cause d'une autre chose : il pleut, donc je prends mon parapluie.", "def_en": "To say what happens because of something else: it's raining, so I take my umbrella.",
+      "examples": [
+        { "fr": "Il pleut, **donc** je prends mon parapluie.", "en": "It's raining, so I'm taking my umbrella." },
+        { "fr": "Je pense, **donc** je suis.", "en": "I think, therefore I am." },
+        { "fr": "Tu viens **donc** ce soir ?", "en": "So you're coming tonight, then?" }
+      ],
+      "note": "**donc** /dɔ̃k/: the c is pronounced. In speech, people often say **alors** or **du coup** instead." },
+    { "id": "alors", "fr": "alors", "pos": "adv", "ipa": "a.lɔʁ", "en": "so, then; well",
+      "def": "Pour dire ce qui vient après : il fait beau, alors on sort.", "def_en": "To say what comes next: it's sunny, so we're going out.",
+      "examples": [
+        { "fr": "Il fait beau, **alors** on va au parc.", "en": "It's sunny, so we're going to the park." },
+        { "fr": "**Alors**, ça va ?", "en": "So, how's it going?" },
+        { "fr": "Et **alors** ? Ce n'est pas grave !", "en": "So what? It doesn't matter!" }
+      ] },
+    { "id": "pourtant", "fr": "pourtant", "pos": "adv", "ipa": "puʁ.tɑ̃", "en": "yet, and yet, even so",
+      "def": "Pour dire « mais c'est bizarre » : il travaille beaucoup, pourtant il n'est pas fatigué.", "def_en": "To say 'but that's strange': he works a lot, and yet he isn't tired.",
+      "examples": [
+        { "fr": "Il y a du soleil, **pourtant** il fait froid.", "en": "It's sunny, and yet it's cold." },
+        { "fr": "J'ai bien travaillé, et **pourtant** j'ai raté l'examen.", "en": "I worked hard, and yet I failed the exam." },
+        { "fr": "C'est **pourtant** simple !", "en": "But it's so simple!" }
+      ] },
+    { "id": "cependant", "fr": "cependant", "pos": "adv", "ipa": "sə.pɑ̃.dɑ̃", "en": "however",
+      "def": "Comme « mais » ou « pourtant », surtout quand on écrit.", "def_en": "Like 'mais' or 'pourtant', especially in writing.",
+      "examples": [
+        { "fr": "Le musée est fermé ; **cependant**, le jardin est ouvert.", "en": "The museum is closed; however, the garden is open." },
+        { "fr": "C'est une bonne idée. **Cependant**, c'est trop cher.", "en": "It's a good idea. However, it's too expensive." },
+        { "fr": "Il est malade. Il travaille **cependant**.", "en": "He's ill. He's working, however." }
+      ],
+      "note": "**cependant** is more formal than **mais** or **pourtant**: you'll see it mostly in writing." },
+    { "id": "quand-meme", "fr": "quand même", "pos": "expr", "ipa": "kɑ̃ mɛm", "en": "all the same, anyway; really",
+      "def": "Même si une chose ne va pas : il pleut, mais on sort quand même.", "def_en": "Even if something isn't right: it's raining, but we're going out anyway.",
+      "examples": [
+        { "fr": "Il pleut, mais on sort **quand même** !", "en": "It's raining, but we're going out anyway!" },
+        { "fr": "C'est **quand même** bizarre…", "en": "It's a bit strange, all the same…" },
+        { "fr": "Merci **quand même** !", "en": "Thanks anyway!" }
+      ],
+      "note": "Very common in speech. **Quand même !** on its own = Really! Come on!" },
+    { "id": "en-fait", "fr": "en fait", "pos": "expr", "ipa": "ɑ̃ fɛt", "en": "actually, in fact",
+      "def": "Pour dire ce qui est vrai, souvent le contraire de ce qu'on pensait.", "def_en": "To say what's really true, often the opposite of what you thought.",
+      "examples": [
+        { "fr": "**En fait**, je n'ai pas faim.", "en": "Actually, I'm not hungry." },
+        { "fr": "Je croyais qu'il était anglais ; **en fait**, il est canadien.", "en": "I thought he was English; actually, he's Canadian." },
+        { "fr": "**En fait**, c'est très simple.", "en": "In fact, it's very simple." }
+      ],
+      "note": "The **t** of **fait** is pronounced here: /ɑ̃ fɛt/." },
+    { "id": "d-ailleurs", "fr": "d'ailleurs", "pos": "expr", "ipa": "da.jœʁ", "en": "besides, what's more; by the way",
+      "def": "Pour ajouter une idée : en plus, et aussi.", "def_en": "To add an idea: what's more, and also.",
+      "examples": [
+        { "fr": "Je n'ai pas envie de sortir. **D'ailleurs**, il pleut.", "en": "I don't feel like going out. Besides, it's raining." },
+        { "fr": "Il est très gentil ; **d'ailleurs**, tout le monde l'aime.", "en": "He's very kind; in fact, everyone likes him." },
+        { "fr": "Lou adore les chats. **D'ailleurs**, elle parle tout le temps de Minou.", "en": "Lou loves cats. In fact, she talks about Minou all the time." }
+      ] },
+    { "id": "par-exemple", "fr": "par exemple", "pos": "expr", "ipa": "paʁ ɛɡ.zɑ̃pl", "en": "for example",
+      "def": "Pour donner un exemple.", "def_en": "To give an example.",
+      "examples": [
+        { "fr": "J'aime les fruits, **par exemple** les pommes.", "en": "I like fruit, for example apples." },
+        { "fr": "Prends un pull, **par exemple** le bleu.", "en": "Take a jumper, the blue one for example." },
+        { "fr": "Il y a beaucoup de choses à voir : **par exemple**, le musée.", "en": "There are lots of things to see: for example, the museum." }
+      ] },
+    { "id": "surtout", "fr": "surtout", "pos": "adv", "ipa": "syʁ.tu", "en": "especially, above all; (surtout pas) definitely not",
+      "def": "Plus que tout ; d'abord et avant tout.", "def_en": "More than anything; first and foremost.",
+      "examples": [
+        { "fr": "J'aime les fruits, **surtout** les fraises.", "en": "I love fruit, especially strawberries." },
+        { "fr": "**Surtout**, n'oublie pas ton passeport !", "en": "Above all, don't forget your passport!" },
+        { "fr": "Ne le dis **surtout** pas à Hugo !", "en": "Whatever you do, don't tell Hugo!" }
+      ] },
+    { "id": "sinon", "fr": "sinon", "pos": "conj", "ipa": "si.nɔ̃", "en": "otherwise, or else; apart from that",
+      "def": "Si ce n'est pas comme ça : dépêche-toi, sinon on va être en retard !", "def_en": "If not: hurry up, otherwise we'll be late!",
+      "examples": [
+        { "fr": "Dépêche-toi, **sinon** on va rater le train !", "en": "Hurry up, or else we'll miss the train!" },
+        { "fr": "Prends un manteau, **sinon** tu vas avoir froid.", "en": "Take a coat, otherwise you'll be cold." },
+        { "fr": "**Sinon**, ça va ?", "en": "Apart from that, how are you?" }
+      ],
+      "note": "In conversation, **Sinon…** changes the subject: *Sinon, ça va ?* (Anyway, how are you?)" },
+    { "id": "bref", "fr": "bref", "pos": "adv", "ipa": "bʁɛf", "en": "in short, anyway",
+      "def": "Pour finir une histoire vite, en quelques mots.", "def_en": "To finish a story quickly, in a few words.",
+      "examples": [
+        { "fr": "**Bref**, on a passé une très bonne soirée.", "en": "Anyway, we had a really good evening." },
+        { "fr": "Il a raté le bus, il a perdu ses clés… **bref**, une journée normale pour Hugo !", "en": "He missed the bus, lost his keys… in short, a normal day for Hugo!" },
+        { "fr": "**Bref**, je ne viens pas.", "en": "In short, I'm not coming." }
+      ] },
+    { "id": "du-coup", "fr": "du coup", "pos": "expr", "ipa": "dy ku", "en": "so, as a result (informal)",
+      "def": "Quand on parle : à cause de ça, alors.", "def_en": "In speech: because of that, so.",
+      "examples": [
+        { "fr": "Il pleuvait, **du coup** on est restés à la maison.", "en": "It was raining, so we stayed at home." },
+        { "fr": "Le magasin était fermé. **Du coup**, je n'ai rien acheté.", "en": "The shop was closed. So I didn't buy anything." },
+        { "fr": "**Du coup**, tu fais quoi ce soir ?", "en": "So, what are you doing tonight?" }
+      ],
+      "note": "Very common in speech, but use **donc** when you write." },
+    { "id": "c-est-a-dire", "fr": "c'est-à-dire", "pos": "expr", "ipa": "sɛ.ta.diʁ", "en": "that is, I mean",
+      "def": "Pour expliquer avec d'autres mots.", "def_en": "To explain in other words.",
+      "examples": [
+        { "fr": "Je pars dans deux jours, **c'est-à-dire** jeudi.", "en": "I'm leaving in two days, that is, on Thursday." },
+        { "fr": "Sophie est végétarienne, **c'est-à-dire** qu'elle ne mange pas de viande.", "en": "Sophie is a vegetarian, which means she doesn't eat meat." },
+        { "fr": "**C'est-à-dire** ? Je ne comprends pas.", "en": "Meaning? I don't understand." }
+      ] },
+    { "id": "au-contraire", "fr": "au contraire", "pos": "expr", "ipa": "o kɔ̃.tʁɛʁ", "en": "on the contrary, quite the opposite",
+      "def": "Pour dire que c'est tout le contraire.", "def_en": "To say it's quite the opposite.",
+      "examples": [
+        { "fr": "Tu es fatigué ? — **Au contraire**, je suis en forme !", "en": "Are you tired? — On the contrary, I'm full of energy!" },
+        { "fr": "Ce n'est pas difficile, **au contraire** !", "en": "It's not difficult, quite the opposite!" },
+        { "fr": "Il ne pleut pas ; **au contraire**, il fait très beau.", "en": "It's not raining; on the contrary, it's lovely." }
+      ] },
+    { "id": "parce-que", "fr": "parce que", "pos": "conj", "ipa": "paʁs kə", "en": "because",
+      "def": "Pour donner la raison : pourquoi ? Parce que…", "def_en": "To give the reason: why? Because…",
+      "forms": ["parce qu'"],
+      "accept": ["parce qu'"],
+      "examples": [
+        { "fr": "Je reste à la maison **parce que** je suis malade.", "en": "I'm staying at home because I'm ill." },
+        { "fr": "Pourquoi tu ris ? — **Parce que** c'est drôle !", "en": "Why are you laughing? — Because it's funny!" },
+        { "fr": "Il est en retard **parce qu'**il a raté le bus.", "en": "He's late because he missed the bus." }
+      ],
+      "note": "**parce que** answers **pourquoi ?** Before a vowel: **parce qu'il**." },
+    { "id": "car", "fr": "car", "pos": "conj", "ipa": "kaʁ", "en": "because, as (more formal)",
+      "def": "Comme « parce que », surtout quand on écrit.", "def_en": "Like 'parce que', especially in writing.",
+      "examples": [
+        { "fr": "Je ne viens pas, **car** je suis malade.", "en": "I'm not coming, as I'm ill." },
+        { "fr": "Prenez un parapluie, **car** il va pleuvoir.", "en": "Take an umbrella, for it's going to rain." },
+        { "fr": "Le magasin est fermé **car** c'est dimanche.", "en": "The shop is closed because it's Sunday." }
+      ],
+      "note": "**car** never starts a sentence and doesn't answer *pourquoi ?*: use **parce que** for that." },
+    { "id": "puisque", "fr": "puisque", "pos": "conj", "ipa": "pɥis.kə", "en": "since, as (a reason everyone knows)",
+      "def": "Pour donner une raison que tout le monde connaît déjà.", "def_en": "To give a reason everyone already knows.",
+      "forms": ["puisqu'"],
+      "accept": ["puisqu'"],
+      "examples": [
+        { "fr": "**Puisque** tu es là, aide-moi !", "en": "Since you're here, help me!" },
+        { "fr": "**Puisqu'**il pleut, on reste à la maison.", "en": "Since it's raining, we're staying in." },
+        { "fr": "Je ne te le dis pas, **puisque** tu le sais déjà !", "en": "I'm not telling you, since you already know!" }
+      ] },
+    { "id": "peut-etre", "fr": "peut-être", "pos": "adv", "ipa": "pø.tɛtʁ", "en": "maybe, perhaps",
+      "def": "Ce n'est pas sûr, mais c'est possible.", "def_en": "It isn't certain, but it's possible.",
+      "examples": [
+        { "fr": "**Peut-être** qu'il va neiger demain.", "en": "Maybe it'll snow tomorrow." },
+        { "fr": "Tu viens ? — **Peut-être**…", "en": "Are you coming? — Maybe…" },
+        { "fr": "Il a **peut-être** raison.", "en": "He may be right." }
+      ] },
+    { "id": "vraiment", "fr": "vraiment", "pos": "adv", "ipa": "vʁɛ.mɑ̃", "en": "really",
+      "def": "Pour dire que c'est vrai, ou pour dire « très ».", "def_en": "To say it's true, or to say 'very'.",
+      "examples": [
+        { "fr": "Tu es **vraiment** gentil !", "en": "You're really kind!" },
+        { "fr": "C'est **vraiment** vrai ?", "en": "Is it really true?" },
+        { "fr": "Je ne sais pas **vraiment**.", "en": "I don't really know." }
+      ] },
+    { "id": "plutot", "fr": "plutôt", "pos": "adv", "ipa": "ply.to", "en": "rather, quite; instead",
+      "def": "Assez. Aussi : pour dire qu'on préfère une autre chose.", "def_en": "Quite. Also: to say you prefer something else.",
+      "examples": [
+        { "fr": "Il fait **plutôt** beau aujourd'hui.", "en": "It's rather nice today." },
+        { "fr": "Je prends **plutôt** un thé, merci.", "en": "I'll have tea instead, thanks." },
+        { "fr": "**Plutôt** mourir !", "en": "I'd rather die!" }
+      ],
+      "note": "**plutôt que** = rather than: *du thé plutôt que du café*." },
+    { "id": "tout-a-fait", "fr": "tout à fait", "pos": "expr", "ipa": "tu.ta.fɛ", "en": "absolutely, exactly; completely",
+      "def": "Pour dire oui, très fort ; complètement.", "def_en": "To say a strong yes; completely.",
+      "examples": [
+        { "fr": "Tu es d'accord ? — **Tout à fait** !", "en": "Do you agree? — Absolutely!" },
+        { "fr": "C'est **tout à fait** normal.", "en": "It's completely normal." },
+        { "fr": "Je ne suis pas **tout à fait** prêt.", "en": "I'm not quite ready." }
+      ] },
+    { "id": "en-tout-cas", "fr": "en tout cas", "pos": "expr", "ipa": "ɑ̃ tu ka", "en": "in any case, anyway",
+      "def": "Pour dire : ça, c'est sûr.", "def_en": "To say: this much is certain.",
+      "examples": [
+        { "fr": "Je ne sais pas s'il vient. **En tout cas**, moi, je viens !", "en": "I don't know if he's coming. In any case, I'm coming!" },
+        { "fr": "**En tout cas**, merci pour tout !", "en": "Anyway, thanks for everything!" },
+        { "fr": "Il est peut-être malade. **En tout cas**, il n'est pas là.", "en": "Maybe he's ill. Either way, he isn't here." }
+      ] },
+    { "id": "de-toute-facon", "fr": "de toute façon", "pos": "expr", "ipa": "də tut fa.sɔ̃", "en": "anyway, in any case",
+      "def": "Pour dire que ça ne change rien.", "def_en": "To say it doesn't change anything.",
+      "examples": [
+        { "fr": "Ce n'est pas grave : **de toute façon**, je n'avais pas faim.", "en": "It doesn't matter: I wasn't hungry anyway." },
+        { "fr": "**De toute façon**, il est trop tard.", "en": "Anyway, it's too late." },
+        { "fr": "Tu peux venir ou pas : **de toute façon**, on part à huit heures.", "en": "You can come or not: either way, we're leaving at eight." }
+      ] },
+    { "id": "au-fait", "fr": "au fait", "pos": "expr", "ipa": "o fɛt", "en": "by the way",
+      "def": "Pour changer de sujet, ou pour dire une chose qu'on a oubliée.", "def_en": "To change the subject, or to say something you forgot.",
+      "examples": [
+        { "fr": "**Au fait**, tu as vu Hugo ?", "en": "By the way, have you seen Hugo?" },
+        { "fr": "**Au fait**, joyeux anniversaire !", "en": "By the way, happy birthday!" },
+        { "fr": "**Au fait**, c'est quoi, ton numéro ?", "en": "By the way, what's your number?" }
+      ],
+      "note": "The **t** is pronounced: /o fɛt/." },
+    { "id": "malheureusement", "fr": "malheureusement", "pos": "adv", "ipa": "ma.lø.ʁøz.mɑ̃", "en": "unfortunately",
+      "def": "Le contraire de « heureusement » : quand une chose n'est pas comme on veut.", "def_en": "The opposite of 'heureusement': when something isn't how you'd like.",
+      "examples": [
+        { "fr": "**Malheureusement**, il n'y a plus de place.", "en": "Unfortunately, there's no room left." },
+        { "fr": "Je ne peux pas venir, **malheureusement**.", "en": "I can't come, unfortunately." },
+        { "fr": "**Malheureusement**, le musée est fermé le mardi.", "en": "Unfortunately, the museum is closed on Tuesdays." }
+      ] }
+  ],
+  "story": {
+    "title": "Encore en retard !",
+    "en": "Hugo is late for the cinema… again. He has a good explanation. Or several.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Vendredi soir, Léa attend Hugo devant le cinéma. Le film commence à huit heures. Il est huit heures et quart.", "en": "Friday evening: Léa is waiting for Hugo outside the cinema. The film starts at eight. It's a quarter past eight." },
+      { "sp": "", "fr": "Enfin, Hugo arrive. Il a couru : il est tout rouge !", "en": "At last, Hugo arrives. He's been running: he's bright red!" },
+      { "sp": "Léa", "fr": "Alors ? Encore en retard ! Tu dois partir plus tôt, sinon on rate tout !", "en": "So? Late again! You need to leave earlier, otherwise we miss everything!" },
+      { "sp": "Hugo", "fr": "Je sais… Mais c'est parce que… en fait, c'est une longue histoire.", "en": "I know… But it's because… actually, it's a long story." },
+      { "sp": "Léa", "fr": "Vas-y, raconte. De toute façon, on a raté le début du film.", "en": "Go on, tell me. We've missed the beginning of the film anyway." },
+      { "sp": "Hugo", "fr": "D'abord, mon patron m'a demandé de rester au bureau. Je ne pouvais pas dire non, car c'était urgent.", "en": "First, my boss asked me to stay at the office. I couldn't say no, as it was urgent." },
+      { "sp": "Hugo", "fr": "Ensuite, j'ai pris le métro. Malheureusement, il était en panne ! Du coup, j'ai pris un taxi.", "en": "Then I took the metro. Unfortunately, it had broken down! So I took a taxi." },
+      { "sp": "Léa", "fr": "Un taxi ? Pourtant, tu n'as jamais d'argent !", "en": "A taxi? But you never have any money!" },
+      { "sp": "Hugo", "fr": "Justement ! Je n'avais pas assez d'argent, donc je suis descendu au milieu du chemin…", "en": "Exactly! I didn't have enough money, so I got out halfway…" },
+      { "sp": "Hugo", "fr": "Et puis j'ai couru, couru… Bref, me voilà !", "en": "And then I ran and ran… Anyway, here I am!" },
+      { "sp": "Léa", "fr": "C'est-à-dire que tu as couru pendant trois kilomètres ? Tu es vraiment incroyable !", "en": "You mean you ran three kilometres? You really are unbelievable!" },
+      { "sp": "Hugo", "fr": "Tu es fâchée ?", "en": "Are you cross?" },
+      { "sp": "Léa", "fr": "Pas du tout, au contraire ! Tu es en retard, mais tu es venu quand même.", "en": "Not at all, quite the opposite! You're late, but you came all the same." },
+      { "sp": "Léa", "fr": "Et puisque le film a commencé, on va plutôt manger une pizza ?", "en": "And since the film has started, shall we go for a pizza instead?" },
+      { "sp": "Hugo", "fr": "Tout à fait d'accord ! Surtout que j'ai très faim.", "en": "Totally agree! Especially since I'm starving." },
+      { "sp": "Léa", "fr": "Par exemple au petit restaurant italien, à côté ? D'ailleurs, c'est toi qui paies !", "en": "The little Italian restaurant next door, for example? And by the way, you're paying!" },
+      { "sp": "Hugo", "fr": "Euh… au fait, tu as de l'argent ? J'ai tout donné au chauffeur de taxi !", "en": "Er… by the way, have you got any money? I gave it all to the taxi driver!" },
+      { "sp": "Léa", "fr": "Bon… en tout cas, ce soir, c'est moi qui paie. Mais la prochaine fois, c'est toi !", "en": "Well… in any case, tonight I'm paying. But next time, it's on you!" },
+      { "sp": "", "fr": "Hugo est souvent en retard. Cependant, il est toujours drôle… et peut-être un peu fatigant !", "en": "Hugo is often late. However, he's always funny… and maybe a bit tiring!" }
+    ]
+  }
+}

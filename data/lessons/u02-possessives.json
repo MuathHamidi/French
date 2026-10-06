@@ -1,0 +1,139 @@
+{
+  "id": "u02-possessives",
+  "type": "grammar",
+  "unit": 2,
+  "title": "Mon, ma, mes…",
+  "en": "Possessives (my, your, his, her, our, their)",
+  "intro": "To say *my father, her brother, our family*, French uses possessives. The big difference from English: they agree with the **thing owned** (masculine, feminine or plural), not with the owner.",
+  "cases": [
+    { "id": "pos-my", "label": "mon, ma, mes — my", "rule": "**mon** + masculine, **ma** + feminine, **mes** + plural: *mon père, ma mère, mes parents*." },
+    { "id": "pos-your", "label": "ton, ta, tes — your (tu)", "rule": "Same pattern for someone you call **tu**: *ton frère, ta sœur, tes cousins*." },
+    { "id": "pos-his-her", "label": "son, sa, ses — his / her", "rule": "**son / sa / ses** mean both *his* and *her*: *son père, sa mère, ses enfants*." },
+    { "id": "pos-our", "label": "notre, nos — our", "rule": "**notre** + one thing (masculine or feminine), **nos** + plural: *notre famille, nos enfants*." },
+    { "id": "pos-your-pl", "label": "votre, vos — your (vous)", "rule": "**votre** + one thing, **vos** + plural — for **vous** (polite, or several people)." },
+    { "id": "pos-their", "label": "leur, leurs — their", "rule": "**leur** + one thing, **leurs** + plural: *leur fils, leurs enfants*. Both sound the same." },
+    { "id": "pos-vowel", "label": "mon amie — before a vowel", "rule": "Before a feminine noun starting with a vowel, use **mon / ton / son**, not *ma / ta / sa*: *mon amie, son école*." },
+    { "id": "pos-agree", "label": "agrees with the thing, not the owner", "rule": "*Hugo et sa mère* = Hugo and **his** mother. *Léa et son père* = Léa and **her** father. Only the noun after it counts." },
+    { "id": "pos-de", "label": "de + name = 's", "rule": "French has no **'s**: *le frère de Léa* = Léa's brother. Before a vowel: *le père d'Inès*." }
+  ],
+  "sections": [
+    {
+      "title": "1. My, your, his / her",
+      "table": {
+        "head": ["", "Masculine", "Feminine", "Plural"], "frCols": [1, 2, 3],
+        "rows": [
+          ["my", "mon père", "ma mère", "mes parents"],
+          ["your (tu)", "ton frère", "ta sœur", "tes cousins"],
+          ["his / her", "son fils", "sa fille", "ses enfants"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Mon père|pos-my} s'appelle Paul.", "en": "My father's name is Paul." },
+        { "fr": "{Ta sœur|pos-your} est mariée ?", "en": "Is your sister married?" },
+        { "fr": "{Ses enfants|pos-his-her} habitent à Lyon.", "en": "His (or her) children live in Lyon." }
+      ],
+      "tip": "**mes, tes, ses** all end in the sound /e/. Before a vowel you hear a /z/: *mes‿enfants* /me.zɑ̃.fɑ̃/."
+    },
+    {
+      "title": "2. Our, your, their",
+      "table": {
+        "head": ["", "One", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["our", "notre famille", "nos enfants"],
+          ["your (vous)", "votre fils", "vos parents"],
+          ["their", "leur fille", "leurs cousins"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Notre famille|pos-our} habite à Paris.", "en": "Our family lives in Paris." },
+        { "fr": "Madame, {votre fils|pos-your-pl} est là.", "en": "Madam, your son is here." },
+        { "fr": "{Leurs enfants|pos-their} sont jeunes.", "en": "Their children are young." }
+      ],
+      "tip": "With *notre, votre, leur*, masculine or feminine doesn't matter — only one or several."
+    },
+    {
+      "title": "3. His or her? Look at the noun",
+      "text": ["English picks *his* or *her* from the owner. French picks **son / sa / ses** from the noun that follows."],
+      "examples": [
+        { "fr": "Hugo et {sa mère|pos-agree}.", "en": "Hugo and his mother." },
+        { "fr": "Léa et {son père|pos-agree}.", "en": "Léa and her father." },
+        { "fr": "{Sa sœur|pos-agree} est grande.", "en": "His (or her) sister is tall." }
+      ],
+      "tip": "*son père* can mean *his father* or *her father* — the situation tells you which."
+    },
+    {
+      "title": "4. Before a vowel: mon amie",
+      "text": ["**ma, ta, sa** can't go before a vowel sound. Use **mon, ton, son** instead, even for a feminine noun."],
+      "examples": [
+        { "fr": "C'est {mon amie|pos-vowel} Sophie.", "en": "This is my friend Sophie." },
+        { "fr": "{Ton école|pos-vowel} est grande ?", "en": "Is your school big?" },
+        { "fr": "{Son amie|pos-vowel} est française.", "en": "His (or her) friend is French." }
+      ],
+      "tip": "You hear the link: *mon‿amie* /mɔ̃.na.mi/."
+    },
+    {
+      "title": "5. Léa's brother: de + name",
+      "text": ["French has no **'s**. Say “the brother of Léa”: **le frère de Léa**. Before a vowel, **de** becomes **d'**: *la mère d'Inès*."],
+      "examples": [
+        { "fr": "{Le frère de Léa|pos-de} s'appelle Hugo.", "en": "Léa's brother is called Hugo." },
+        { "fr": "{La femme de Paul|pos-de} est canadienne.", "en": "Paul's wife is Canadian." },
+        { "fr": "{Les parents de Tom|pos-de} habitent à Londres.", "en": "Tom's parents live in London." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "ma amie", "right": "mon amie", "why": "Before a vowel, **ma** becomes **mon**." },
+    { "wrong": "Hugo et son mère", "right": "Hugo et sa mère", "why": "**mère** is feminine → **sa**, even though Hugo is a man." },
+    { "wrong": "Léa et sa père", "right": "Léa et son père", "why": "**père** is masculine → **son**, even though Léa is a woman." },
+    { "wrong": "Léa's frère", "right": "le frère de Léa", "why": "No **'s** in French: **le frère de Léa**." },
+    { "wrong": "nos famille", "right": "notre famille", "why": "One family → **notre**. **nos** is for plurals." },
+    { "wrong": "mes frère", "right": "mes frères", "why": "After **mes**, the noun is plural: add a (silent) **-s**." }
+  ],
+  "story": {
+    "title": "Le mariage de Chloé",
+    "en": "At cousin Chloé's wedding.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "C'est {le mariage de Chloé|pos-de}, la cousine de Léa et de Hugo.", "en": "It's Chloé's wedding — Léa and Hugo's cousin." },
+      { "sp": "Hugo", "fr": "Léa, c'est qui, l'homme avec Chloé ? C'est {son mari|pos-his-her} ?", "en": "Léa, who's the man with Chloé? Is that her husband?" },
+      { "sp": "Léa", "fr": "Oui ! Il s'appelle Karim. Et la femme, là, c'est {sa mère|pos-agree}.", "en": "Yes! His name is Karim. And the woman there is his mother." },
+      { "sp": "Hugo", "fr": "Et {les parents de Chloé|pos-de} ?", "en": "And Chloé's parents?" },
+      { "sp": "Léa", "fr": "Ils sont là, avec {leur fils|pos-their} Jules et {leurs amis|pos-their}.", "en": "They're there, with their son Jules and their friends." },
+      { "sp": "", "fr": "{La grand-mère de Karim|pos-de} arrive.", "en": "Karim's grandmother arrives." },
+      { "sp": "La grand-mère", "fr": "Bonjour, les enfants ! Vous êtes de la famille de Chloé ?", "en": "Hello, children! Are you part of Chloé's family?" },
+      { "sp": "Léa", "fr": "Oui, madame. Chloé, c'est {notre cousine|pos-our}. Et voici {mon frère|pos-my}, Hugo.", "en": "Yes, madam. Chloé is our cousin. And this is my brother, Hugo." },
+      { "sp": "La grand-mère", "fr": "Enchantée ! Et {vos parents|pos-your-pl}, ils sont là ?", "en": "Nice to meet you! And your parents, are they here?" },
+      { "sp": "Hugo", "fr": "Oui, {notre père|pos-our} et {notre mère|pos-our} sont avec {nos grands-parents|pos-our}.", "en": "Yes, our father and our mother are with our grandparents." },
+      { "sp": "La grand-mère", "fr": "Très bien ! Moi, je suis la grand-mère de Karim. {Mon fils|pos-my}, c'est {son père|pos-agree}.", "en": "Very good! I'm Karim's grandmother. My son is his father." },
+      { "sp": "", "fr": "Léa voit Sophie, {son amie|pos-vowel} de Paris.", "en": "Léa sees Sophie, her friend from Paris." },
+      { "sp": "Léa", "fr": "Sophie ! Tu es là avec {ton frère|pos-your} ?", "en": "Sophie! Are you here with your brother?" },
+      { "sp": "Sophie", "fr": "Non, avec {ma sœur|pos-my} et {mon amie|pos-vowel} Inès.", "en": "No, with my sister and my friend Inès." },
+      { "sp": "Léa", "fr": "Et {tes parents|pos-your} ? Ils sont à Paris ?", "en": "And your parents? Are they in Paris?" },
+      { "sp": "Sophie", "fr": "Oui. Mais {ta famille|pos-your} est très sympa ! J'aime bien {ton cousin|pos-your} Jules…", "en": "Yes. But your family is really nice! I quite like your cousin Jules…" },
+      { "sp": "Léa", "fr": "Ah bon ?", "en": "Oh really?" }
+    ]
+  },
+  "quiz": [
+    { "case": "pos-my", "type": "mc", "q": "___ mère s'appelle Anne.", "en": "My mother's name is Anne.", "options": ["Ma", "Mon", "Mes"], "answer": "Ma" },
+    { "case": "pos-my", "type": "type", "q": "___ parents habitent à Lyon.", "en": "My parents live in Lyon.", "answer": "Mes" },
+    { "case": "pos-my", "type": "mc", "q": "Voici ___ frère, Hugo.", "en": "This is my brother, Hugo.", "options": ["mon", "ma", "mes"], "answer": "mon" },
+    { "case": "pos-your", "type": "mc", "q": "C'est ___ sœur ?", "en": "Is that your sister? (to a friend)", "options": ["ta", "ton", "tes"], "answer": "ta" },
+    { "case": "pos-your", "type": "type", "q": "___ cousins sont sympas !", "en": "Your cousins are nice! (to a friend)", "answer": "Tes" },
+    { "case": "pos-his-her", "type": "mc", "q": "Léa est avec ___ frère.", "en": "Léa is with her brother.", "options": ["son", "sa", "ses"], "answer": "son", "why": "**frère** is masculine → **son**, even for Léa." },
+    { "case": "pos-his-her", "type": "mc", "q": "Hugo est avec ___ sœur.", "en": "Hugo is with his sister.", "options": ["sa", "son", "ses"], "answer": "sa", "why": "**sœur** is feminine → **sa**, even for Hugo." },
+    { "case": "pos-his-her", "type": "type", "q": "Paul aime ___ enfants.", "en": "Paul loves his children.", "answer": "ses" },
+    { "case": "pos-our", "type": "mc", "q": "___ famille habite à Paris.", "en": "Our family lives in Paris.", "options": ["Notre", "Nos", "Votre"], "answer": "Notre" },
+    { "case": "pos-our", "type": "type", "q": "___ enfants sont à l'école.", "en": "Our children are at school.", "answer": "Nos" },
+    { "case": "pos-your-pl", "type": "mc", "q": "Madame, ___ fils est là.", "en": "Madam, your son is here.", "options": ["votre", "vos", "ton"], "answer": "votre" },
+    { "case": "pos-your-pl", "type": "type", "q": "Monsieur, ___ parents sont canadiens ?", "en": "Sir, are your parents Canadian?", "answer": "vos" },
+    { "case": "pos-their", "type": "mc", "q": "Paul et Anne aiment ___ fille.", "en": "Paul and Anne love their daughter.", "options": ["leur", "leurs", "sa"], "answer": "leur" },
+    { "case": "pos-their", "type": "type", "q": "Ils sont avec ___ enfants.", "en": "They're with their children.", "answer": "leurs" },
+    { "case": "pos-vowel", "type": "mc", "q": "C'est ___ amie Sophie.", "en": "This is my friend Sophie.", "options": ["mon", "ma"], "answer": "mon", "why": "Before a vowel: **mon amie**, never *ma amie*." },
+    { "case": "pos-vowel", "type": "type", "q": "Sophie est avec ___ amie Inès.", "en": "Sophie is with her friend Inès.", "answer": "son" },
+    { "case": "pos-agree", "type": "mc", "q": "Hugo et ___ mère sont à Lyon.", "en": "Hugo and his mother are in Lyon.", "options": ["sa", "son"], "answer": "sa" },
+    { "case": "pos-agree", "type": "mc", "q": "Léa aime ___ père.", "en": "Léa loves her father.", "options": ["son", "sa"], "answer": "son" },
+    { "case": "pos-de", "type": "mc", "lang": "en", "q": "How do you say “Léa's brother”?", "options": ["le frère de Léa", "Léa frère", "le Léa frère"], "answer": "le frère de Léa" },
+    { "case": "pos-de", "type": "type", "q": "C'est la mère ___ Tom.", "en": "It's Tom's mother.", "answer": "de" },
+    { "case": "pos-de", "type": "mc", "lang": "en", "q": "How do you say “Inès's father”?", "options": ["le père d'Inès", "le père de Inès", "Inès père"], "answer": "le père d'Inès", "why": "**de** becomes **d'** before a vowel." }
+  ]
+}

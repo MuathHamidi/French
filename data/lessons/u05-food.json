@@ -1,0 +1,219 @@
+{
+  "id": "u05-food",
+  "type": "vocab",
+  "unit": 5,
+  "title": "La nourriture",
+  "en": "Food",
+  "intro": "22 everyday foods. In the examples you'll see **du, de la, des** (*du pain* = some bread) — they're explained in this unit's grammar lesson.",
+  "words": [
+    { "id": "pain", "fr": "pain", "pos": "noun", "g": "m", "ipa": "pɛ̃", "en": "bread",
+      "def": "En France, on le mange à tous les repas. La baguette, par exemple.", "def_en": "In France, people eat it at every meal. A baguette, for example.",
+      "forms": ["pains"],
+      "examples": [
+        { "fr": "Je voudrais du **pain**, s'il vous plaît.", "en": "I'd like some bread, please." },
+        { "fr": "Le **pain** est sur la table.", "en": "The bread is on the table." },
+        { "fr": "Une baguette, c'est du **pain**.", "en": "A baguette is bread." }
+      ],
+      "note": "**une baguette** = the long French loaf. **un pain au chocolat** = a chocolate pastry." },
+    { "id": "fromage", "fr": "fromage", "pos": "noun", "g": "m", "ipa": "fʁɔ.maʒ", "en": "cheese",
+      "def": "On le fait avec du lait. Il y a beaucoup de fromages en France.", "def_en": "It's made with milk. There are lots of cheeses in France.",
+      "forms": ["fromages"],
+      "examples": [
+        { "fr": "J'aime beaucoup le **fromage**.", "en": "I really like cheese." },
+        { "fr": "Il y a du **fromage** dans le frigo.", "en": "There's cheese in the fridge." },
+        { "fr": "Le camembert est un **fromage** français.", "en": "Camembert is a French cheese." }
+      ] },
+    { "id": "beurre", "fr": "beurre", "pos": "noun", "g": "m", "ipa": "bœʁ", "en": "butter",
+      "def": "Il est jaune, on le fait avec du lait, et on le met sur le pain.", "def_en": "It's yellow, it's made with milk, and you put it on bread.",
+      "examples": [
+        { "fr": "Je mange du pain avec du **beurre**.", "en": "I eat bread with butter." },
+        { "fr": "Le **beurre** est dans le frigo.", "en": "The butter is in the fridge." },
+        { "fr": "Il n'y a pas de **beurre** !", "en": "There's no butter!" }
+      ] },
+    { "id": "confiture", "fr": "confiture", "pos": "noun", "g": "f", "ipa": "kɔ̃.fi.tyʁ", "en": "jam",
+      "def": "Des fruits avec beaucoup de sucre. On la met sur le pain le matin.", "def_en": "Fruit with lots of sugar. You put it on bread in the morning.",
+      "forms": ["confitures"],
+      "examples": [
+        { "fr": "J'aime la **confiture** de fraises.", "en": "I love strawberry jam." },
+        { "fr": "Du pain, du beurre et de la **confiture** !", "en": "Bread, butter and jam!" },
+        { "fr": "La **confiture** est délicieuse.", "en": "The jam is delicious." }
+      ] },
+    { "id": "oeuf", "fr": "œuf", "pos": "noun", "g": "m", "ipa": "œf", "en": "egg",
+      "def": "Il vient de la poule. On le mange souvent au petit-déjeuner.", "def_en": "It comes from a hen. People often eat it at breakfast.",
+      "forms": ["œufs"], "accept": ["oeuf", "un oeuf"],
+      "examples": [
+        { "fr": "Je mange un **œuf** au petit-déjeuner.", "en": "I eat an egg at breakfast." },
+        { "fr": "Il y a six **œufs** dans le frigo.", "en": "There are six eggs in the fridge." },
+        { "fr": "Les **œufs** sont dans la cuisine.", "en": "The eggs are in the kitchen." }
+      ],
+      "note": "One egg: **un‿œuf** /œ̃.nœf/ (you hear the f). Eggs: **des‿œufs** /de.zø/ — the f and the s are both silent!" },
+    { "id": "viande", "fr": "viande", "pos": "noun", "g": "f", "ipa": "vjɑ̃d", "en": "meat",
+      "def": "Le bœuf, le porc, le poulet… On la mange avec des légumes.", "def_en": "Beef, pork, chicken… You eat it with vegetables.",
+      "forms": ["viandes"],
+      "examples": [
+        { "fr": "Je ne mange pas de **viande**.", "en": "I don't eat meat." },
+        { "fr": "La **viande** est délicieuse.", "en": "The meat is delicious." },
+        { "fr": "Il y a de la **viande** et des légumes.", "en": "There's meat and vegetables." }
+      ] },
+    { "id": "poulet", "fr": "poulet", "pos": "noun", "g": "m", "ipa": "pu.lɛ", "en": "chicken",
+      "def": "Un oiseau de la ferme, et sa viande.", "def_en": "A farm bird, and its meat.",
+      "forms": ["poulets"],
+      "examples": [
+        { "fr": "On mange du **poulet** le dimanche.", "en": "We eat chicken on Sundays." },
+        { "fr": "Le **poulet** est avec des pommes de terre.", "en": "The chicken comes with potatoes." },
+        { "fr": "J'aime le **poulet**.", "en": "I like chicken." }
+      ] },
+    { "id": "poisson", "fr": "poisson", "pos": "noun", "g": "m", "ipa": "pwa.sɔ̃", "en": "fish",
+      "def": "Il vit dans l'eau. On le mange aussi.", "def_en": "It lives in water. People eat it too.",
+      "forms": ["poissons"],
+      "examples": [
+        { "fr": "On mange du **poisson** le vendredi.", "en": "We eat fish on Fridays." },
+        { "fr": "Le **poisson** est délicieux.", "en": "The fish is delicious." },
+        { "fr": "Il y a des **poissons** dans l'eau.", "en": "There are fish in the water." }
+      ],
+      "note": "Careful: **poisson** /pwa.sɔ̃/ (fish, with **ss** = /s/) and **poison** /pwa.zɔ̃/ (poison, one **s** = /z/)!" },
+    { "id": "jambon", "fr": "jambon", "pos": "noun", "g": "m", "ipa": "ʒɑ̃.bɔ̃", "en": "ham",
+      "def": "De la viande de porc. On le met dans un sandwich.", "def_en": "Pork meat. You put it in a sandwich.",
+      "forms": ["jambons"],
+      "examples": [
+        { "fr": "Je voudrais un sandwich au **jambon**.", "en": "I'd like a ham sandwich." },
+        { "fr": "Il y a du **jambon** dans le frigo.", "en": "There's ham in the fridge." },
+        { "fr": "Le **jambon** est sur la table.", "en": "The ham is on the table." }
+      ] },
+    { "id": "riz", "fr": "riz", "pos": "noun", "g": "m", "ipa": "ʁi", "en": "rice",
+      "def": "De petits grains. On le mange avec du poulet ou du poisson.", "def_en": "Small grains. You eat it with chicken or fish.",
+      "examples": [
+        { "fr": "Je mange du **riz** avec du poulet.", "en": "I'm eating rice with chicken." },
+        { "fr": "Le **riz** est prêt !", "en": "The rice is ready!" },
+        { "fr": "Il n'y a pas de **riz**.", "en": "There's no rice." }
+      ],
+      "note": "The **z** is silent: /ʁi/." },
+    { "id": "pates", "fr": "pâtes", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "pɑt", "en": "pasta",
+      "def": "Les spaghettis, par exemple. C'est italien.", "def_en": "Spaghetti, for example. It's Italian.",
+      "accept": ["pates"],
+      "examples": [
+        { "fr": "Ce soir, on mange des **pâtes**.", "en": "Tonight we're having pasta." },
+        { "fr": "J'adore les **pâtes** !", "en": "I love pasta!" },
+        { "fr": "Les **pâtes** sont délicieuses.", "en": "The pasta is delicious." }
+      ],
+      "note": "Always plural in French: **les pâtes**, **des pâtes**." },
+    { "id": "soupe", "fr": "soupe", "pos": "noun", "g": "f", "ipa": "sup", "en": "soup",
+      "def": "Un plat chaud avec de l'eau et des légumes.", "def_en": "A hot dish with water and vegetables.",
+      "forms": ["soupes"],
+      "examples": [
+        { "fr": "J'ai froid : je voudrais une **soupe** !", "en": "I'm cold: I'd like a soup!" },
+        { "fr": "La **soupe** est très chaude.", "en": "The soup is very hot." },
+        { "fr": "Ma grand-mère fait une bonne **soupe**.", "en": "My grandmother makes a good soup." }
+      ] },
+    { "id": "salade", "fr": "salade", "pos": "noun", "g": "f", "ipa": "sa.lad", "en": "salad; lettuce",
+      "def": "Des légumes verts, avec de l'huile. On la mange froide.", "def_en": "Green vegetables with oil. You eat it cold.",
+      "forms": ["salades"],
+      "examples": [
+        { "fr": "Je voudrais une **salade**, s'il vous plaît.", "en": "I'd like a salad, please." },
+        { "fr": "Il y a des tomates dans la **salade**.", "en": "There are tomatoes in the salad." },
+        { "fr": "La **salade** est délicieuse.", "en": "The salad is delicious." }
+      ] },
+    { "id": "legume", "fr": "légume", "pos": "noun", "g": "m", "ipa": "le.ɡym", "en": "vegetable",
+      "def": "La carotte, la tomate, la pomme de terre… Ils viennent du jardin.", "def_en": "Carrots, tomatoes, potatoes… They come from the garden.",
+      "forms": ["légumes"], "accept": ["legume"],
+      "examples": [
+        { "fr": "Mange tes **légumes** !", "en": "Eat your vegetables!" },
+        { "fr": "Les **légumes** sont bons.", "en": "The vegetables are good." },
+        { "fr": "Il y a des **légumes** dans la soupe.", "en": "There are vegetables in the soup." }
+      ],
+      "note": "**le légume** is masculine, even though it ends in **-e**." },
+    { "id": "carotte", "fr": "carotte", "pos": "noun", "g": "f", "ipa": "ka.ʁɔt", "en": "carrot",
+      "def": "Un légume long et orange.", "def_en": "A long, orange vegetable.",
+      "forms": ["carottes"],
+      "examples": [
+        { "fr": "Lou mange une **carotte**.", "en": "Lou is eating a carrot." },
+        { "fr": "Il y a des **carottes** dans la soupe.", "en": "There are carrots in the soup." },
+        { "fr": "Les **carottes** sont dans le jardin.", "en": "The carrots are in the garden." }
+      ] },
+    { "id": "tomate", "fr": "tomate", "pos": "noun", "g": "f", "ipa": "tɔ.mat", "en": "tomato",
+      "def": "Un légume rouge et rond. (En fait, c'est un fruit !)", "def_en": "A red, round vegetable. (Actually, it's a fruit!)",
+      "forms": ["tomates"],
+      "examples": [
+        { "fr": "Je voudrais une salade de **tomates**.", "en": "I'd like a tomato salad." },
+        { "fr": "Les **tomates** sont rouges.", "en": "The tomatoes are red." },
+        { "fr": "Il y a une **tomate** dans le frigo.", "en": "There's a tomato in the fridge." }
+      ] },
+    { "id": "pomme-de-terre", "fr": "pomme de terre", "pos": "noun", "g": "f", "ipa": "pɔm də tɛʁ", "en": "potato",
+      "def": "Un légume qui vient de la terre. On fait des frites avec.", "def_en": "A vegetable that comes from the ground. Chips/fries are made with it.",
+      "forms": ["pommes de terre"],
+      "examples": [
+        { "fr": "On mange des **pommes de terre** avec le poulet.", "en": "We eat potatoes with the chicken." },
+        { "fr": "Les frites, ce sont des **pommes de terre**.", "en": "Fries are potatoes." },
+        { "fr": "Il y a des **pommes de terre** dans la cuisine.", "en": "There are potatoes in the kitchen." }
+      ],
+      "note": "Literally “apple of the earth”. In everyday speech also **une patate**." },
+    { "id": "fruit", "fr": "fruit", "pos": "noun", "g": "m", "ipa": "fʁɥi", "en": "fruit",
+      "def": "La pomme, la banane, l'orange… C'est sucré.", "def_en": "Apples, bananas, oranges… They're sweet.",
+      "forms": ["fruits"],
+      "examples": [
+        { "fr": "Je mange des **fruits** au petit-déjeuner.", "en": "I eat fruit at breakfast." },
+        { "fr": "La pomme est un **fruit**.", "en": "The apple is a fruit." },
+        { "fr": "Il y a des **fruits** sur la table.", "en": "There's fruit on the table." }
+      ] },
+    { "id": "pomme", "fr": "pomme", "pos": "noun", "g": "f", "ipa": "pɔm", "en": "apple",
+      "def": "Un fruit rouge, vert ou jaune.", "def_en": "A red, green or yellow fruit.",
+      "forms": ["pommes"],
+      "examples": [
+        { "fr": "Je mange une **pomme**.", "en": "I'm eating an apple." },
+        { "fr": "Les **pommes** sont dans le jardin.", "en": "The apples are in the garden." },
+        { "fr": "J'aime le gâteau aux **pommes**.", "en": "I love apple cake." }
+      ] },
+    { "id": "banane", "fr": "banane", "pos": "noun", "g": "f", "ipa": "ba.nan", "en": "banana",
+      "def": "Un fruit long et jaune.", "def_en": "A long yellow fruit.",
+      "forms": ["bananes"],
+      "examples": [
+        { "fr": "Lou mange une **banane**.", "en": "Lou is eating a banana." },
+        { "fr": "Les **bananes** sont jaunes.", "en": "The bananas are yellow." },
+        { "fr": "Je voudrais une **banane**, s'il te plaît.", "en": "I'd like a banana, please." }
+      ] },
+    { "id": "gateau", "fr": "gâteau", "pos": "noun", "g": "m", "ipa": "ɡɑ.to", "en": "cake",
+      "def": "Un dessert sucré, pour un anniversaire par exemple.", "def_en": "A sweet dessert, for a birthday for example.",
+      "forms": ["gâteaux"], "accept": ["gateau"],
+      "examples": [
+        { "fr": "C'est mon anniversaire : il y a un **gâteau** !", "en": "It's my birthday: there's a cake!" },
+        { "fr": "Le **gâteau** au chocolat est délicieux.", "en": "The chocolate cake is delicious." },
+        { "fr": "Ma grand-mère fait des **gâteaux**.", "en": "My grandmother makes cakes." }
+      ],
+      "note": "Plural with **-x**: **des gâteaux**." },
+    { "id": "chocolat", "fr": "chocolat", "pos": "noun", "g": "m", "ipa": "ʃɔ.kɔ.la", "en": "chocolate",
+      "def": "Il est noir ou au lait, et très bon. Les enfants adorent le chocolat.", "def_en": "It's dark or milk, and very good. Children love chocolate.",
+      "forms": ["chocolats"],
+      "examples": [
+        { "fr": "J'adore le **chocolat** !", "en": "I love chocolate!" },
+        { "fr": "Je voudrais un gâteau au **chocolat**.", "en": "I'd like a chocolate cake." },
+        { "fr": "Un **chocolat** chaud, s'il vous plaît.", "en": "A hot chocolate, please." }
+      ],
+      "note": "The final **t** is silent: /ʃɔ.kɔ.la/." }
+  ],
+  "story": {
+    "title": "Au marché",
+    "en": "Saturday morning: Léa and Sophie go to the market.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Samedi matin, Léa et Sophie vont au marché.", "en": "On Saturday morning, Léa and Sophie go to the market." },
+      { "sp": "Sophie", "fr": "Qu'est-ce qu'on achète ?", "en": "What shall we buy?" },
+      { "sp": "Léa", "fr": "Des fruits et des légumes ! Et du pain, du fromage…", "en": "Fruit and vegetables! And bread, cheese…" },
+      { "sp": "Le marchand", "fr": "Bonjour, mesdames ! Mes tomates sont très belles aujourd'hui !", "en": "Hello, ladies! My tomatoes are lovely today!" },
+      { "sp": "Léa", "fr": "Bonjour ! Je voudrais un kilo de tomates et des carottes, s'il vous plaît.", "en": "Hello! I'd like a kilo of tomatoes and some carrots, please." },
+      { "sp": "Sophie", "fr": "Et des pommes de terre ! Et cinq bananes.", "en": "And potatoes! And five bananas." },
+      { "sp": "Le marchand", "fr": "Voilà. Et avec ça ? J'ai aussi des pommes et une très bonne salade.", "en": "Here you go. Anything else? I also have apples and a very good lettuce." },
+      { "sp": "Léa", "fr": "Non merci, ça va. C'est combien ?", "en": "No thanks, that's fine. How much is it?" },
+      { "sp": "Le marchand", "fr": "Huit euros, s'il vous plaît.", "en": "Eight euros, please." },
+      { "sp": "", "fr": "Après, elles achètent du pain, du beurre, des œufs et du jambon.", "en": "Then they buy bread, butter, eggs and ham." },
+      { "sp": "Sophie", "fr": "Et pour ce soir ? Du poulet ou du poisson ?", "en": "And for tonight? Chicken or fish?" },
+      { "sp": "Léa", "fr": "Du poisson, avec du riz. Et des pâtes pour demain !", "en": "Fish, with rice. And pasta for tomorrow!" },
+      { "sp": "Sophie", "fr": "Je ne mange pas de viande, tu sais…", "en": "I don't eat meat, you know…" },
+      { "sp": "Léa", "fr": "Je sais ! Le poisson, ce n'est pas de la viande !", "en": "I know! Fish isn't meat!" },
+      { "sp": "Sophie", "fr": "Et une soupe de légumes pour lundi.", "en": "And a vegetable soup for Monday." },
+      { "sp": "", "fr": "Devant le marché, il y a une pâtisserie.", "en": "In front of the market there's a cake shop." },
+      { "sp": "Léa", "fr": "Oh, regarde ces gâteaux ! Et ce chocolat !", "en": "Oh, look at these cakes! And this chocolate!" },
+      { "sp": "Sophie", "fr": "Non, Léa ! On a déjà de la confiture pour le petit-déjeuner.", "en": "No, Léa! We already have jam for breakfast." },
+      { "sp": "Léa", "fr": "Un petit gâteau… pour Minou ?", "en": "A little cake… for Minou?" }
+    ]
+  }
+}

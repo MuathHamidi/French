@@ -1,0 +1,194 @@
+{
+  "id": "u19-comparatives",
+  "type": "grammar",
+  "unit": 19,
+  "title": "Plus grand que moi",
+  "en": "Comparing: plus, moins, aussi… que",
+  "intro": "To compare two people or things, put **plus** (more), **moins** (less) or **aussi** (as) before the adjective, and **que** (than, as) after it: *Léa est **plus** grande **que** Lou.* Watch the irregular ones: **meilleur** (better) and **mieux** (better, the adverb).",
+  "cases": [
+    { "id": "comp-plus", "label": "plus… que", "rule": "**plus** + adjective or adverb + **que** = more… than: *Lou est **plus** petite **que** Léa. Le train va **plus** vite **que** le bus.* The adjective agrees as usual." },
+    { "id": "comp-moins", "label": "moins… que", "rule": "**moins** + adjective or adverb + **que** = less… than (often *not as… as*): *Le bus est **moins** cher **que** le taxi.*" },
+    { "id": "comp-aussi", "label": "aussi… que", "rule": "**aussi** + adjective or adverb + **que** = as… as: *Hugo est **aussi** grand **que** son père.* Negative: *pas **aussi**… que* or *pas **si**… que*." },
+    { "id": "comp-meilleur", "label": "meilleur (better)", "rule": "**bon** → **meilleur** (never *plus bon*): *Ce gâteau est **meilleur** que l'autre.* It agrees: **meilleure, meilleurs, meilleures**. For **mauvais**: **plus mauvais** or **pire** (worse)." },
+    { "id": "comp-mieux", "label": "mieux (better, adverb)", "rule": "**bien** → **mieux** (never *plus bien*): *Il chante **mieux** que moi.* **mieux** never changes. **meilleur** goes with a noun, **mieux** with a verb." },
+    { "id": "comp-nom", "label": "plus de, moins de, autant de", "rule": "With a noun: **plus de**, **moins de**, **autant de** (as much, as many) + noun + **que**: *J'ai **plus de** livres **que** toi. Il a **autant d'**amis **que** moi.*" },
+    { "id": "comp-verbe", "label": "verb + plus, moins, autant", "rule": "After a verb: **plus que**, **moins que**, **autant que**: *Hugo mange **plus que** Léa. Je travaille **autant que** toi.*" },
+    { "id": "comp-pronom", "label": "que moi, que toi…", "rule": "After **que**, use **moi, toi, lui, elle, nous, vous, eux, elles**: *Tu es plus grand **que moi**. Elle court plus vite **que lui**.* Before a vowel: **qu'**: *plus âgé **qu'**elle*." }
+  ],
+  "sections": [
+    {
+      "title": "1. plus… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Léa est plus grande que Lou.", "Léa is taller than Lou."],
+          ["Le TGV est plus rapide que le bus.", "The TGV is faster than the bus."],
+          ["Paris est plus cher que Lyon.", "Paris is more expensive than Lyon."],
+          ["Il parle plus vite que moi.", "He speaks faster than me."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ma valise est plus lourde que ta valise|comp-plus} !", "en": "My suitcase is heavier than your suitcase!" },
+        { "fr": "{L'hiver est plus froid que l'automne|comp-plus}.", "en": "Winter is colder than autumn." }
+      ],
+      "tip": "English adds *-er* (taller) or *more*; French always uses **plus**."
+    },
+    {
+      "title": "2. moins… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Le bus est moins cher que le taxi.", "The bus is cheaper than the taxi."],
+          ["Lou est moins grande que Léa.", "Lou isn't as tall as Léa."],
+          ["Il fait moins froid qu'hier.", "It's less cold than yesterday."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ce film est moins long que l'autre|comp-moins}.", "en": "This film is shorter than the other one." },
+        { "fr": "{Le vélo est moins rapide que la voiture|comp-moins}, mais c'est plus sympa !", "en": "Cycling is slower than driving, but it's more fun!" }
+      ]
+    },
+    {
+      "title": "3. aussi… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Hugo est aussi grand que son père.", "Hugo is as tall as his father."],
+          ["Lyon est aussi belle que Paris.", "Lyon is as beautiful as Paris."],
+          ["Ce n'est pas aussi cher que ça !", "It's not as expensive as that!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tom est aussi drôle que Hugo|comp-aussi}.", "en": "Tom is as funny as Hugo." },
+        { "fr": "{Mon chat est aussi paresseux que ton chien|comp-aussi} !", "en": "My cat is as lazy as your dog!" }
+      ]
+    },
+    {
+      "title": "4. bon → meilleur",
+      "text": ["**bon** has its own comparative: **meilleur** (better). It agrees with the noun. Never say *plus bon*."],
+      "table": {
+        "head": ["Adjective", "Comparative"], "frCols": [0, 1],
+        "rows": [
+          ["un bon gâteau", "un meilleur gâteau"],
+          ["une bonne idée", "une meilleure idée"],
+          ["un mauvais film", "un plus mauvais film, un pire film"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ta soupe est meilleure que ma soupe|comp-meilleur} !", "en": "Your soup is better than mine!" },
+        { "fr": "{Le café de Sophie est meilleur que le café du bureau|comp-meilleur}.", "en": "Sophie's coffee is better than the office coffee." }
+      ]
+    },
+    {
+      "title": "5. bien → mieux",
+      "text": ["**bien** (well) becomes **mieux** (better). **mieux** goes with a verb and never changes. Never say *plus bien*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il chante mieux que moi.", "He sings better than me."],
+          ["Je vais mieux, merci.", "I'm feeling better, thanks."],
+          ["Elle parle français mieux que son frère.", "She speaks French better than her brother."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu danses mieux que Hugo|comp-mieux} !", "en": "You dance better than Hugo!" },
+        { "fr": "{Lou dessine mieux que moi|comp-mieux}…", "en": "Lou draws better than I do…" }
+      ],
+      "tip": "**meilleur** describes a noun (*un meilleur chanteur*); **mieux** describes a verb (*il chante mieux*)."
+    },
+    {
+      "title": "6. plus de, moins de, autant de + noun",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai plus de livres que toi.", "I have more books than you."],
+          ["Il y a moins de monde qu'hier.", "There are fewer people than yesterday."],
+          ["Elle a autant d'amis que moi.", "She has as many friends as me."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Lou a plus de jouets qu'Emma|comp-nom}.", "en": "Lou has more toys than Emma." },
+        { "fr": "{Il y a autant de filles que de garçons|comp-nom} dans la classe.", "en": "There are as many girls as boys in the class." }
+      ]
+    },
+    {
+      "title": "7. verb + plus, moins, autant",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Hugo mange plus que Léa.", "Hugo eats more than Léa."],
+          ["Je dors moins que toi.", "I sleep less than you."],
+          ["Il travaille autant que moi.", "He works as much as I do."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Sophie travaille plus que Hugo|comp-verbe}.", "en": "Sophie works more than Hugo." },
+        { "fr": "{Le chat dort autant que le chien|comp-verbe}.", "en": "The cat sleeps as much as the dog." }
+      ]
+    },
+    {
+      "title": "8. que moi, que toi…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu es plus grand que moi.", "You're taller than me."],
+          ["Elle est plus âgée que lui.", "She's older than him."],
+          ["Nous sommes plus rapides qu'eux.", "We're faster than them."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Léa est plus sérieuse que moi|comp-pronom}.", "en": "Léa is more hard-working than me." },
+        { "fr": "{Je cours moins vite que toi|comp-pronom}.", "en": "I run slower than you." }
+      ],
+      "tip": "After **que**, use the stressed pronouns: **moi, toi, lui, elle, nous, vous, eux, elles**."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C'est plus bon.", "right": "C'est meilleur.", "why": "**bon** → **meilleur**." },
+    { "wrong": "Il chante plus bien que moi.", "right": "Il chante mieux que moi.", "why": "**bien** → **mieux**." },
+    { "wrong": "Il est plus grand que je.", "right": "Il est plus grand que moi.", "why": "After **que**: **moi, toi, lui…**" },
+    { "wrong": "J'ai plus des livres que toi.", "right": "J'ai plus de livres que toi.", "why": "**plus de** + noun, with no article." },
+    { "wrong": "Elle est plus grande de moi.", "right": "Elle est plus grande que moi.", "why": "*than* is **que**, not *de*." }
+  ],
+  "story": {
+    "title": "Mon papa est plus fort que ton papa !",
+    "en": "At nursery school, Lou and Emma compare everything.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "À la récréation, Lou et Emma se disputent. Claire, la maîtresse, écoute.", "en": "At break, Lou and Emma are arguing. Claire, the teacher, is listening." },
+      { "sp": "Emma", "fr": "{Mon papa est plus fort que ton papa|comp-plus} !", "en": "My dad is stronger than your dad!" },
+      { "sp": "Lou", "fr": "Non ! {Mon papa est plus grand que ton papa|comp-plus}. Et {il mange plus que ton papa|comp-verbe} !", "en": "No! My dad is taller than your dad. And he eats more than your dad!" },
+      { "sp": "Emma", "fr": "{Ma maison est aussi grande qu'un château|comp-aussi} !", "en": "My house is as big as a castle!" },
+      { "sp": "Lou", "fr": "{Ma mamie fait de meilleurs gâteaux que la boulangerie|comp-meilleur} !", "en": "My grandma makes better cakes than the bakery!" },
+      { "sp": "Emma", "fr": "Et moi, {je chante mieux que toi|comp-mieux} !", "en": "And I sing better than you!" },
+      { "sp": "Lou", "fr": "Non, {tu chantes moins bien que moi|comp-moins} !", "en": "No, you sing worse than me!" },
+      { "sp": "Emma", "fr": "{J'ai plus de jouets que toi|comp-nom} ! Et {plus de bonbons|comp-nom} !", "en": "I've got more toys than you! And more sweets!" },
+      { "sp": "Lou", "fr": "Moi, {j'ai autant de bonbons que toi|comp-nom}… dans mon ventre !", "en": "I've got as many sweets as you… in my tummy!" },
+      { "sp": "", "fr": "Claire arrive avec un grand sourire.", "en": "Claire comes over with a big smile." },
+      { "sp": "Claire", "fr": "Les filles, {vous êtes aussi [bavardes|bavard] que deux perroquets|comp-aussi} !", "en": "Girls, you're as chatty as two parrots!" },
+      { "sp": "Lou", "fr": "Maîtresse, Emma dit qu'{elle est plus grande que moi|comp-pronom} !", "en": "Miss, Emma says she's taller than me!" },
+      { "sp": "Claire", "fr": "C'est vrai, Emma est un peu plus grande. Mais toi, {tu es plus âgée qu'elle|comp-pronom} : tu as un mois de plus !", "en": "It's true, Emma's a little taller. But you're older than her: you're a month older!" },
+      { "sp": "Emma", "fr": "Ce n'est pas juste ! {Elle est moins grande que moi, mais plus vieille|comp-moins}…", "en": "That's not fair! She's shorter than me, but older…" },
+      { "sp": "Claire", "fr": "Et vous savez quoi ? Ensemble, {vous êtes encore meilleures|comp-meilleur} : vous êtes une super équipe !", "en": "And you know what? Together, you're even better: you're a great team!" },
+      { "sp": "", "fr": "Lou et Emma se regardent… et rient. Deux minutes plus tard, elles jouent ensemble dans la cour.", "en": "Lou and Emma look at each other… and laugh. Two minutes later, they're playing together in the playground." }
+    ]
+  },
+  "quiz": [
+    { "case": "comp-plus", "type": "mc", "q": "Léa est ___ grande que Lou.", "en": "Léa is taller than Lou.", "options": ["plus", "moins", "aussi"], "answer": "plus" },
+    { "case": "comp-plus", "type": "mc", "q": "Le train est plus rapide ___ le bus.", "en": "The train is faster than the bus.", "options": ["que", "de", "comme"], "answer": "que" },
+    { "case": "comp-moins", "type": "mc", "q": "Le bus est ___ cher que le taxi.", "en": "The bus is cheaper (less expensive) than the taxi.", "options": ["moins", "plus", "aussi"], "answer": "moins" },
+    { "case": "comp-moins", "type": "mc", "lang": "en", "q": "« Il fait moins froid qu'hier » means…", "options": ["It's not as cold as yesterday.", "It's colder than yesterday.", "It's as cold as yesterday."], "answer": "It's not as cold as yesterday.", "say": "Il fait moins froid qu'hier." },
+    { "case": "comp-aussi", "type": "mc", "q": "Hugo est ___ grand que son père.", "en": "Hugo is as tall as his father.", "options": ["aussi", "autant", "plus"], "answer": "aussi" },
+    { "case": "comp-aussi", "type": "type", "q": "Tom est ___ drôle que Hugo.", "en": "Tom is as funny as Hugo.", "answer": "aussi" },
+    { "case": "comp-meilleur", "type": "mc", "q": "Ce gâteau est ___ que l'autre.", "en": "This cake is better than the other one.", "options": ["meilleur", "mieux", "plus bon"], "answer": "meilleur" },
+    { "case": "comp-meilleur", "type": "mc", "q": "C'est une ___ idée !", "en": "That's a better idea!", "options": ["meilleure", "meilleur", "mieux"], "answer": "meilleure" },
+    { "case": "comp-mieux", "type": "mc", "q": "Il chante ___ que moi.", "en": "He sings better than me.", "options": ["mieux", "meilleur", "plus bien"], "answer": "mieux" },
+    { "case": "comp-mieux", "type": "type", "q": "Tu vas ___ ? — Oui, merci, je n'ai plus de fièvre.", "en": "Are you feeling better? — Yes, thanks, I haven't got a temperature any more.", "answer": "mieux" },
+    { "case": "comp-nom", "type": "mc", "q": "J'ai plus ___ livres que toi.", "en": "I have more books than you.", "options": ["de", "des", "que"], "answer": "de" },
+    { "case": "comp-nom", "type": "mc", "q": "Elle a ___ d'amis que moi.", "en": "She has as many friends as me.", "options": ["autant", "aussi", "si"], "answer": "autant" },
+    { "case": "comp-verbe", "type": "mc", "q": "Hugo mange ___ que Léa.", "en": "Hugo eats more than Léa.", "options": ["plus", "plus de", "meilleur"], "answer": "plus" },
+    { "case": "comp-verbe", "type": "mc", "lang": "en", "q": "“He works as much as I do.”", "options": ["Il travaille autant que moi.", "Il travaille aussi que moi.", "Il travaille autant de moi."], "answer": "Il travaille autant que moi.", "say": "Il travaille autant que moi." },
+    { "case": "comp-pronom", "type": "mc", "q": "Tu es plus grand que ___.", "en": "You're taller than me.", "options": ["moi", "je", "me"], "answer": "moi" },
+    { "case": "comp-pronom", "type": "mc", "q": "Elle est plus âgée que ___.", "en": "She's older than him.", "options": ["lui", "il", "le"], "answer": "lui" }
+  ]
+}

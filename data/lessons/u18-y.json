@@ -1,0 +1,166 @@
+{
+  "id": "u18-y",
+  "type": "grammar",
+  "unit": 18,
+  "title": "J'y vais",
+  "en": "The pronoun y",
+  "intro": "**y** replaces a place (*à Paris, chez moi, dans le jardin*) or **à + a thing**: *Tu vas à Paris ? — Oui, j'**y** vais. Tu penses à ton examen ? — Oui, j'**y** pense.* Like the other pronouns, it goes before the verb.",
+  "cases": [
+    { "id": "y-lieu", "label": "y = there (a place)", "rule": "**y** replaces a place after **à, au, en, dans, chez, sur, sous…**: *Je vais à la plage → j'**y** vais. Il habite en France → il **y** habite. Le chat est sous le lit → il **y** est.*" },
+    { "id": "y-chose", "label": "y = à + a thing", "rule": "With verbs that take **à** (*penser à, répondre à, jouer à, faire attention à*), **y** replaces **à + a thing or an idea**: *Tu penses à tes vacances ? — Oui, j'**y** pense. Il joue au tennis → il **y** joue.*" },
+    { "id": "y-personne", "label": "not for people", "rule": "**y** is never for people. *Je pense à Léa → je pense **à elle**. Je réponds à Léa → je **lui** réponds.*" },
+    { "id": "y-place", "label": "where it goes", "rule": "Before the verb: *j'**y** vais, je n'**y** vais pas*. Before an infinitive: *je vais **y** aller* (not *j'y vais aller*). In the passé composé, before **avoir / être**: *j'**y** suis allé*." },
+    { "id": "y-imperative", "label": "Vas-y !", "rule": "After a positive command, with a hyphen: **Vas-y ! Allons-y ! Allez-y !** (*va* takes back its **s** before **y**). Negative: *N'**y** va pas !*" },
+    { "id": "y-expressions", "label": "il y a, on y va, ça y est", "rule": "Very common phrases: **il y a** (there is), **on y va** (let's go), **ça y est** (done! that's it!), **j'y vais** (I'm off), **je n'y peux rien** (I can't help it)." }
+  ],
+  "sections": [
+    {
+      "title": "1. y = there",
+      "text": ["**y** replaces a place that comes after **à, au, en, dans, chez, sur, sous**. In English, you often just say *there*, or nothing at all."],
+      "table": {
+        "head": ["With the place", "With y"], "frCols": [0, 1],
+        "rows": [
+          ["Je vais à la plage.", "J'y vais."],
+          ["Il habite en France.", "Il y habite."],
+          ["On dîne chez Hugo ?", "On y dîne ?"],
+          ["Les clés sont dans le sac.", "Elles y sont."]
+        ]
+      },
+      "examples": [
+        { "fr": "Marseille ? {J'y vais|y-lieu} pour les vacances.", "en": "Marseille? I'm going there for the holidays." },
+        { "fr": "Le musée ? {Nous y sommes|y-lieu} déjà allés.", "en": "The museum? We've already been there." }
+      ],
+      "tip": "**y** /i/ links with the verb: *j'y vais* /ʒi.vɛ/, *on‿y va* /ɔ̃.ni.va/."
+    },
+    {
+      "title": "2. y = à + a thing",
+      "text": ["Some verbs are followed by **à**. When the thing after **à** is not a person, replace **à + thing** with **y**."],
+      "table": {
+        "head": ["With the thing", "With y"], "frCols": [0, 1],
+        "rows": [
+          ["Je pense à mon examen.", "J'y pense."],
+          ["Tu réponds à la lettre ?", "Tu y réponds ?"],
+          ["Il joue au tennis.", "Il y joue."],
+          ["Fais attention à la route !", "Fais-y attention !"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tes vacances ? {Tu y penses|y-chose} tout le temps !", "en": "Your holiday? You think about it all the time!" },
+        { "fr": "Le football ? {Il y joue|y-chose} le samedi.", "en": "Football? He plays it on Saturdays." }
+      ]
+    },
+    {
+      "title": "3. Not for people",
+      "text": ["For a person, don't use **y**. Use **lui, leur** with most verbs, and **à lui, à elle, à eux** after **penser à**."],
+      "table": {
+        "head": ["A thing: y", "A person"], "frCols": [0, 1],
+        "rows": [
+          ["Je pense à mon voyage. J'y pense.", "Je pense à Léa. Je pense à elle."],
+          ["Je réponds au message. J'y réponds.", "Je réponds à Hugo. Je lui réponds."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ta grand-mère ? {Je pense souvent à elle|y-personne}.", "en": "Your grandmother? I often think about her." },
+        { "fr": "Ton professeur ? {Je lui réponds|y-personne} demain.", "en": "Your teacher? I'll answer him tomorrow." }
+      ]
+    },
+    {
+      "title": "4. Where does y go?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'y vais.", "I'm going (there)."],
+          ["Je n'y vais pas.", "I'm not going (there)."],
+          ["Je vais y aller.", "I'm going to go (there)."],
+          ["J'y suis allé hier.", "I went there yesterday."]
+        ]
+      },
+      "examples": [
+        { "fr": "La piscine ? {Je n'y vais jamais|y-place}.", "en": "The swimming pool? I never go there." },
+        { "fr": "Le marché ? {On peut y aller|y-place} demain.", "en": "The market? We can go tomorrow." }
+      ],
+      "tip": "With **aller** + infinitive: **je vais y aller** (one y, before the infinitive)."
+    },
+    {
+      "title": "5. Vas-y !",
+      "table": {
+        "head": ["Positive", "Negative"], "frCols": [0, 1],
+        "rows": [
+          ["Vas-y !", "N'y va pas !"],
+          ["Allons-y !", "N'y allons pas !"],
+          ["Allez-y !", "N'y allez pas !"],
+          ["Penses-y !", "N'y pense pas !"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu veux parler ? {Vas-y|y-imperative}, je t'écoute.", "en": "You want to talk? Go ahead, I'm listening." },
+        { "fr": "Tout le monde est prêt ? {Allons-y|y-imperative} !", "en": "Is everyone ready? Let's go!" }
+      ],
+      "tip": "Before **y**, the **tu** command of **aller** and of **-er** verbs gets its **s** back: **vas-y, penses-y**."
+    },
+    {
+      "title": "6. il y a, on y va, ça y est",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il y a un problème.", "There's a problem."],
+          ["On y va ?", "Shall we go?"],
+          ["Ça y est, j'ai fini !", "There, I've finished!"],
+          ["Je n'y peux rien.", "I can't help it."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ça y est|y-expressions}, le bébé dort !", "en": "That's it, the baby's asleep!" },
+        { "fr": "Il est huit heures : {on y va|y-expressions} !", "en": "It's eight o'clock: let's go!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'y vais aller.", "right": "Je vais y aller.", "why": "With an infinitive, **y** goes before the infinitive." },
+    { "wrong": "Va-y !", "right": "Vas-y !", "why": "Before **y**, *va* takes back its **s**: **vas-y**." },
+    { "wrong": "Léa ? J'y pense.", "right": "Léa ? Je pense à elle.", "why": "**y** is for places and things, never for people." },
+    { "wrong": "Je ne vais y pas.", "right": "Je n'y vais pas.", "why": "**n'** + **y** + verb + **pas**." },
+    { "wrong": "Je vais là demain.", "right": "J'y vais demain.", "why": "To say *I'm going there*, French uses **y**, before the verb." }
+  ],
+  "story": {
+    "title": "Le week-end à Paris",
+    "en": "Jacques and Louise come to Paris for the weekend the family gave them.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Vendredi soir, Jacques et Louise arrivent à Paris, gare de Lyon. Paul les attend sur le quai.", "en": "On Friday evening, Jacques and Louise arrive in Paris, at the Gare de Lyon. Paul is waiting for them on the platform." },
+      { "sp": "Paul", "fr": "Bienvenue ! On va à la maison : Anne {y prépare|y-lieu} le dîner.", "en": "Welcome! Let's go home: Anne is making dinner there." },
+      { "sp": "", "fr": "Le soir, à table, on parle du programme du week-end.", "en": "In the evening, at the table, they talk about the plans for the weekend." },
+      { "sp": "Anne", "fr": "Demain, la tour Eiffel ! {Vous y êtes déjà montés|y-lieu} ?", "en": "Tomorrow, the Eiffel Tower! Have you ever been up it?" },
+      { "sp": "Louise", "fr": "Oui, il y a cinquante ans ! {Nous y sommes allés|y-lieu} pour notre voyage de noces.", "en": "Yes, fifty years ago! We went there on our honeymoon." },
+      { "sp": "Jacques", "fr": "{J'y pense|y-chose} souvent… et {je pense à elle|y-personne}, ma Louise d'il y a cinquante ans !", "en": "I often think about it… and about her, my Louise of fifty years ago!" },
+      { "sp": "Lou", "fr": "Moi aussi, je veux monter ! {On y va|y-expressions} maintenant ?", "en": "I want to go up too! Shall we go now?" },
+      { "sp": "Paul", "fr": "Non, ma puce, il est tard. {On va y aller|y-place} demain matin.", "en": "No, sweetie, it's late. We'll go tomorrow morning." },
+      { "sp": "", "fr": "Samedi, il fait beau. Toute la famille va à la tour Eiffel.", "en": "On Saturday, it's sunny. The whole family goes to the Eiffel Tower." },
+      { "sp": "Louise", "fr": "Jacques, tes médicaments ! {Tu y as pensé|y-chose} ?", "en": "Jacques, your tablets! Did you remember them?" },
+      { "sp": "Jacques", "fr": "Oui, oui ! Ils sont dans ma poche.", "en": "Yes, yes! They're in my pocket." },
+      { "sp": "", "fr": "Devant la tour, il y a une longue queue. Lou regarde en haut : c'est très haut !", "en": "In front of the tower, there's a long queue. Lou looks up: it's very high!" },
+      { "sp": "Lou", "fr": "Papi, {je n'y vais pas|y-place} ! J'ai peur !", "en": "Grandpa, I'm not going! I'm scared!" },
+      { "sp": "Jacques", "fr": "Donne-moi la main. {Vas-y|y-imperative}, n'aie pas peur : je suis là.", "en": "Give me your hand. Go on, don't be scared: I'm here." },
+      { "sp": "", "fr": "En haut, la vue est magnifique. On voit tout Paris, la Seine, Montmartre…", "en": "At the top, the view is magnificent. You can see the whole of Paris, the Seine, Montmartre…" },
+      { "sp": "Lou", "fr": "C'est beau ! {Ça y est|y-expressions}, je n'ai plus peur !", "en": "It's beautiful! There, I'm not scared any more!" },
+      { "sp": "Louise", "fr": "Paul, tu te souviens de Montmartre ? {Tu y as habité|y-lieu} quand tu étais étudiant.", "en": "Paul, do you remember Montmartre? You lived there when you were a student." },
+      { "sp": "Paul", "fr": "Bien sûr ! Demain, {on y va|y-expressions} tous ensemble. {Je vais vous y montrer|y-place} mon ancien appartement.", "en": "Of course! Tomorrow, we'll all go there together. I'll show you my old flat there." },
+      { "sp": "Lou", "fr": "Et la grande roue ? {On peut y monter|y-place}, Papa ?", "en": "And the big wheel? Can we go on it, Daddy?" },
+      { "sp": "Paul", "fr": "{Allons-y|y-imperative} !", "en": "Let's go!" }
+    ]
+  },
+  "quiz": [
+    { "case": "y-lieu", "type": "mc", "q": "Tu vas à la plage ? — Oui, j'___ vais.", "en": "Are you going to the beach? — Yes, I'm going (there).", "options": ["y", "en", "la"], "answer": "y" },
+    { "case": "y-lieu", "type": "type", "q": "Tu habites à Lyon ? — Oui, j'___ habite depuis deux ans.", "en": "Do you live in Lyon? — Yes, I've lived there for two years.", "answer": "y" },
+    { "case": "y-chose", "type": "mc", "q": "Tu penses à ton examen ? — Oui, j'___ pense.", "en": "Are you thinking about your exam? — Yes, I'm thinking about it.", "options": ["y", "lui", "en"], "answer": "y" },
+    { "case": "y-chose", "type": "mc", "q": "Tu joues au tennis ? — Oui, j'___ joue le samedi.", "en": "Do you play tennis? — Yes, I play on Saturdays.", "options": ["y", "le", "lui"], "answer": "y" },
+    { "case": "y-personne", "type": "mc", "q": "Tu penses à Léa ? — Oui, je pense à ___.", "en": "Are you thinking about Léa? — Yes, I'm thinking about her.", "options": ["elle", "y", "la"], "answer": "elle" },
+    { "case": "y-personne", "type": "mc", "q": "Tu réponds à ta mère ? — Oui, je ___ réponds.", "en": "Are you answering your mother? — Yes, I'm answering her.", "options": ["lui", "y", "la"], "answer": "lui" },
+    { "case": "y-place", "type": "mc", "lang": "en", "q": "“I'm going to go there tomorrow.”", "options": ["Je vais y aller demain.", "J'y vais aller demain.", "Je vais aller y demain."], "answer": "Je vais y aller demain.", "say": "Je vais y aller demain." },
+    { "case": "y-place", "type": "mc", "q": "Le musée ? Non, je n'___ vais pas.", "en": "The museum? No, I'm not going (there).", "options": ["y", "en", "le"], "answer": "y" },
+    { "case": "y-imperative", "type": "mc", "lang": "en", "q": "How do you say “Go on!” to a friend?", "options": ["Vas-y !", "Va-y !", "Y va !"], "answer": "Vas-y !", "say": "Vas-y !" },
+    { "case": "y-imperative", "type": "mc", "lang": "en", "q": "“Let's go!”", "options": ["Allons-y !", "Y allons !", "Allons-en !"], "answer": "Allons-y !", "say": "Allons-y !" },
+    { "case": "y-expressions", "type": "mc", "lang": "en", "q": "« Ça y est ! » means…", "options": ["Done! That's it!", "Here it is!", "It's over there!"], "answer": "Done! That's it!", "say": "Ça y est !" },
+    { "case": "y-expressions", "type": "mc", "lang": "en", "q": "« On y va ? » means…", "options": ["Shall we go?", "Are we there yet?", "Is it there?"], "answer": "Shall we go?", "say": "On y va ?" }
+  ]
+}

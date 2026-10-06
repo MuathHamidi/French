@@ -1,0 +1,247 @@
+{
+  "id": "u18-body",
+  "type": "vocab",
+  "unit": 18,
+  "title": "Le corps",
+  "en": "The body",
+  "intro": "25 words for the body, from head to toe. To say something hurts, French uses **avoir mal à** + the body part: *j'ai mal **à la** tête, **au** dos, **aux** pieds*. And with body parts, French often says **le, la, les** instead of *my*: *je me lave **les** mains*.",
+  "words": [
+    { "id": "corps", "fr": "corps", "pos": "noun", "g": "m", "ipa": "kɔʁ", "en": "body",
+      "def": "Toute la personne : la tête, les bras, les jambes…", "def_en": "The whole person: head, arms, legs…",
+      "examples": [
+        { "fr": "Le **corps** humain a deux cent six os.", "en": "The human body has two hundred and six bones." },
+        { "fr": "J'ai mal partout, dans tout le **corps** !", "en": "I ache all over, my whole body!" },
+        { "fr": "Le sport, c'est bon pour le **corps** et pour la tête.", "en": "Sport is good for the body and the mind." }
+      ],
+      "note": "The **ps** is silent: /kɔʁ/. Same spelling in the plural: **les corps**." },
+    { "id": "tete", "fr": "tête", "pos": "noun", "g": "f", "ipa": "tɛt", "en": "head",
+      "def": "La partie du corps en haut, avec les yeux, le nez et la bouche.", "def_en": "The top part of the body, with the eyes, nose and mouth.",
+      "forms": ["têtes"],
+      "examples": [
+        { "fr": "J'ai mal à la **tête**.", "en": "I've got a headache." },
+        { "fr": "Lou met un chapeau sur sa **tête**.", "en": "Lou puts a hat on her head." },
+        { "fr": "Tourne la **tête** à gauche.", "en": "Turn your head to the left." }
+      ],
+      "note": "**avoir mal à la tête** = to have a headache. **faire la tête** = to sulk." },
+    { "id": "visage", "fr": "visage", "pos": "noun", "g": "m", "ipa": "vi.zaʒ", "en": "face",
+      "def": "Le devant de la tête : les yeux, le nez, la bouche, les joues.", "def_en": "The front of the head: eyes, nose, mouth, cheeks.",
+      "forms": ["visages"],
+      "examples": [
+        { "fr": "Elle a un joli **visage**.", "en": "She has a pretty face." },
+        { "fr": "Lave-toi le **visage** !", "en": "Wash your face!" },
+        { "fr": "Je connais ce **visage**…", "en": "I know that face…" }
+      ],
+      "note": "**le visage** is masculine, even though it ends in -e." },
+    { "id": "cheveu", "fr": "cheveu", "pos": "noun", "g": "m", "ipa": "ʃə.vø", "display": "le cheveu, les cheveux", "en": "a hair (les cheveux = hair)",
+      "def": "Ce qui pousse sur la tête. On les coupe chez le coiffeur.", "def_en": "What grows on your head. You get it cut at the hairdresser's.",
+      "forms": ["cheveux"],
+      "accept": ["cheveux", "les cheveux"],
+      "examples": [
+        { "fr": "Léa a les **cheveux** longs.", "en": "Léa has long hair." },
+        { "fr": "Il y a un **cheveu** dans ma soupe !", "en": "There's a hair in my soup!" },
+        { "fr": "Je me brosse les **cheveux**.", "en": "I brush my hair." }
+      ],
+      "note": "**les cheveux** is plural in French: *mes cheveux **sont** longs* (my hair **is** long)." },
+    { "id": "oeil", "fr": "œil", "pos": "noun", "g": "m", "ipa": "œj", "display": "un œil, des yeux", "en": "eye (plural: des yeux)",
+      "def": "On voit avec. On en a deux.", "def_en": "You see with it. You have two of them.",
+      "forms": ["yeux"],
+      "accept": ["yeux", "les yeux", "des yeux"],
+      "examples": [
+        { "fr": "Elle a les **yeux** bleus.", "en": "She has blue eyes." },
+        { "fr": "[Ferme|fermer] les **yeux** !", "en": "Close your eyes!" },
+        { "fr": "J'ai quelque chose dans l'**œil**.", "en": "I've got something in my eye." }
+      ],
+      "note": "Irregular plural: **un œil** /œj/ → **des yeux** /jø/, with a liaison: *les‿yeux* /le.zjø/." },
+    { "id": "oreille", "fr": "oreille", "pos": "noun", "g": "f", "ipa": "ɔ.ʁɛj", "en": "ear",
+      "def": "On entend avec. Il y en a une de chaque côté de la tête.", "def_en": "You hear with it. There's one on each side of the head.",
+      "forms": ["oreilles"],
+      "examples": [
+        { "fr": "Le lapin a de grandes **oreilles**.", "en": "The rabbit has big ears." },
+        { "fr": "Lou a mal à l'**oreille**.", "en": "Lou has an earache." },
+        { "fr": "Il me dit un secret à l'**oreille**.", "en": "He whispers a secret in my ear." }
+      ] },
+    { "id": "nez", "fr": "nez", "pos": "noun", "g": "m", "ipa": "ne", "en": "nose",
+      "def": "Au milieu du visage : on sent les odeurs avec.", "def_en": "In the middle of the face: you smell things with it.",
+      "examples": [
+        { "fr": "Pinocchio a un très long **nez** !", "en": "Pinocchio has a very long nose!" },
+        { "fr": "J'ai le **nez** qui coule.", "en": "My nose is running." },
+        { "fr": "Ne mets pas tes doigts dans le **nez** !", "en": "Don't pick your nose!" }
+      ],
+      "note": "The **z** is silent: /ne/. Same spelling in the plural: **les nez**." },
+    { "id": "bouche", "fr": "bouche", "pos": "noun", "g": "f", "ipa": "buʃ", "en": "mouth",
+      "def": "On mange, on boit et on parle avec.", "def_en": "You eat, drink and talk with it.",
+      "forms": ["bouches"],
+      "examples": [
+        { "fr": "Ouvre la **bouche** !", "en": "Open your mouth!" },
+        { "fr": "On ne parle pas la **bouche** pleine.", "en": "You don't talk with your mouth full." },
+        { "fr": "Il a du chocolat autour de la **bouche**.", "en": "He has chocolate round his mouth." }
+      ] },
+    { "id": "levre", "fr": "lèvre", "pos": "noun", "g": "f", "ipa": "lɛvʁ", "en": "lip",
+      "def": "Le bord de la bouche, en haut et en bas.", "def_en": "The edge of the mouth, top and bottom.",
+      "forms": ["lèvres"],
+      "examples": [
+        { "fr": "Elle a les **lèvres** rouges.", "en": "She has red lips." },
+        { "fr": "Inès met du rouge à **lèvres**.", "en": "Inès is putting on lipstick." },
+        { "fr": "Il se mord la **lèvre**.", "en": "He bites his lip." }
+      ] },
+    { "id": "joue", "fr": "joue", "pos": "noun", "g": "f", "ipa": "ʒu", "en": "cheek",
+      "def": "Les deux côtés du visage, sous les yeux.", "def_en": "The two sides of the face, under the eyes.",
+      "forms": ["joues"],
+      "examples": [
+        { "fr": "Elle a les **joues** rouges : elle a froid.", "en": "Her cheeks are red: she's cold." },
+        { "fr": "Il fait un bisou sur la **joue** de Lou.", "en": "He gives Lou a kiss on the cheek." },
+        { "fr": "En France, on se fait la bise sur les deux **joues**.", "en": "In France, people greet each other with a kiss on both cheeks." }
+      ],
+      "note": "Same sound as **il joue** (he plays): /ʒu/." },
+    { "id": "cou", "fr": "cou", "pos": "noun", "g": "m", "ipa": "ku", "en": "neck",
+      "def": "La partie du corps entre la tête et les épaules.", "def_en": "The part of the body between the head and the shoulders.",
+      "forms": ["cous"],
+      "examples": [
+        { "fr": "La girafe a un très long **cou**.", "en": "The giraffe has a very long neck." },
+        { "fr": "Mets ton écharpe autour du **cou**.", "en": "Put your scarf round your neck." },
+        { "fr": "J'ai mal au **cou**.", "en": "My neck hurts." }
+      ] },
+    { "id": "epaule", "fr": "épaule", "pos": "noun", "g": "f", "ipa": "e.pol", "en": "shoulder",
+      "def": "Là où le bras commence, en haut.", "def_en": "Where the arm starts, at the top.",
+      "forms": ["épaules"],
+      "examples": [
+        { "fr": "Il porte son sac sur l'**épaule**.", "en": "He carries his bag on his shoulder." },
+        { "fr": "Lou dort sur l'**épaule** de son père.", "en": "Lou is asleep on her father's shoulder." },
+        { "fr": "J'ai mal aux **épaules**.", "en": "My shoulders hurt." }
+      ] },
+    { "id": "bras", "fr": "bras", "pos": "noun", "g": "m", "ipa": "bʁa", "en": "arm",
+      "def": "La partie du corps entre l'épaule et la main.", "def_en": "The part of the body between the shoulder and the hand.",
+      "examples": [
+        { "fr": "Il prend le bébé dans ses **bras**.", "en": "He takes the baby in his arms." },
+        { "fr": "Elle a un tatouage sur le **bras**.", "en": "She has a tattoo on her arm." },
+        { "fr": "Je me suis cassé le **bras**.", "en": "I broke my arm." }
+      ],
+      "note": "Same spelling in the plural: **les bras**." },
+    { "id": "coude", "fr": "coude", "pos": "noun", "g": "m", "ipa": "kud", "en": "elbow",
+      "def": "Le milieu du bras : là où le bras plie.", "def_en": "The middle of the arm: where it bends.",
+      "forms": ["coudes"],
+      "examples": [
+        { "fr": "Pas de **coudes** sur la table !", "en": "No elbows on the table!" },
+        { "fr": "Il me pousse du **coude**.", "en": "He nudges me with his elbow." },
+        { "fr": "Je me suis fait mal au **coude**.", "en": "I hurt my elbow." }
+      ] },
+    { "id": "main", "fr": "main", "pos": "noun", "g": "f", "ipa": "mɛ̃", "en": "hand",
+      "def": "Au bout du bras, avec cinq doigts. On prend les choses avec.", "def_en": "At the end of the arm, with five fingers. You pick things up with it.",
+      "forms": ["mains"],
+      "examples": [
+        { "fr": "Lave-toi les **mains** avant de manger !", "en": "Wash your hands before eating!" },
+        { "fr": "Il écrit de la **main** gauche.", "en": "He writes with his left hand." },
+        { "fr": "Donne-moi la **main** pour traverser.", "en": "Hold my hand to cross the road." }
+      ],
+      "note": "**la main** is feminine. **serrer la main** = to shake hands." },
+    { "id": "doigt", "fr": "doigt", "pos": "noun", "g": "m", "ipa": "dwa", "en": "finger",
+      "def": "Une des cinq petites [parties|partie] au bout de la main.", "def_en": "One of the five small parts at the end of the hand.",
+      "forms": ["doigts"],
+      "examples": [
+        { "fr": "On a cinq **doigts** à chaque main.", "en": "We have five fingers on each hand." },
+        { "fr": "Lou compte sur ses **doigts**.", "en": "Lou counts on her fingers." },
+        { "fr": "Je me suis coupé le **doigt** !", "en": "I've cut my finger!" }
+      ],
+      "note": "The **gt** is silent: /dwa/. **les doigts de pied** = toes." },
+    { "id": "ventre", "fr": "ventre", "pos": "noun", "g": "m", "ipa": "vɑ̃tʁ", "en": "belly, stomach, tummy",
+      "def": "Le milieu du corps, devant : la nourriture y va.", "def_en": "The middle of the body, at the front: that's where food goes.",
+      "forms": ["ventres"],
+      "examples": [
+        { "fr": "J'ai mal au **ventre** : j'ai trop mangé !", "en": "I've got a stomach ache: I ate too much!" },
+        { "fr": "Minou dort sur le **ventre** de Sophie.", "en": "Minou is asleep on Sophie's tummy." },
+        { "fr": "J'ai le **ventre** [vide|vide].", "en": "My stomach is empty." }
+      ] },
+    { "id": "dos", "fr": "dos", "pos": "noun", "g": "m", "ipa": "do", "en": "back (of the body)",
+      "def": "La partie du corps derrière, des épaules jusqu'aux jambes.", "def_en": "The part of the body at the back, from the shoulders down to the legs.",
+      "examples": [
+        { "fr": "J'ai mal au **dos**.", "en": "My back hurts." },
+        { "fr": "Je dors sur le **dos**.", "en": "I sleep on my back." },
+        { "fr": "Il a un tatouage dans le **dos**.", "en": "He has a tattoo on his back." }
+      ],
+      "note": "The **s** is silent: /do/." },
+    { "id": "jambe", "fr": "jambe", "pos": "noun", "g": "f", "ipa": "ʒɑ̃b", "en": "leg",
+      "def": "La partie du corps entre le ventre et le pied ; on marche avec.", "def_en": "The part of the body between the belly and the foot; you walk with it.",
+      "forms": ["jambes"],
+      "examples": [
+        { "fr": "Elle a de longues **jambes**.", "en": "She has long legs." },
+        { "fr": "Il s'est cassé la **jambe** au ski.", "en": "He broke his leg skiing." },
+        { "fr": "J'ai mal aux **jambes** : on a beaucoup marché !", "en": "My legs hurt: we walked a lot!" }
+      ] },
+    { "id": "genou", "fr": "genou", "pos": "noun", "g": "m", "ipa": "ʒə.nu", "en": "knee",
+      "def": "Le milieu de la jambe : là où la jambe plie.", "def_en": "The middle of the leg: where it bends.",
+      "forms": ["genoux"],
+      "examples": [
+        { "fr": "Lou est tombée : elle a mal au **genou**.", "en": "Lou fell over: her knee hurts." },
+        { "fr": "Il se met à **genoux**.", "en": "He kneels down." },
+        { "fr": "Le chat dort sur mes **genoux**.", "en": "The cat is asleep on my lap." }
+      ],
+      "note": "Plural with **x**: **des genoux**. **sur mes genoux** = on my lap." },
+    { "id": "pied", "fr": "pied", "pos": "noun", "g": "m", "ipa": "pje", "en": "foot",
+      "def": "Au bout de la jambe : on marche dessus.", "def_en": "At the end of the leg: you walk on it.",
+      "forms": ["pieds"],
+      "examples": [
+        { "fr": "Je vais au travail à **pied**.", "en": "I walk to work." },
+        { "fr": "J'ai froid aux **pieds**.", "en": "My feet are cold." },
+        { "fr": "Aïe ! Tu marches sur mon **pied** !", "en": "Ouch! You're standing on my foot!" }
+      ],
+      "note": "**à pied** = on foot. **les doigts de pied** = toes." },
+    { "id": "peau", "fr": "peau", "pos": "noun", "g": "f", "ipa": "po", "en": "skin; peel",
+      "def": "Ce qui couvre tout le corps, dehors. Aussi : ce qu'on enlève d'un fruit.", "def_en": "What covers the whole body, on the outside. Also: what you take off a fruit.",
+      "forms": ["peaux"],
+      "examples": [
+        { "fr": "Elle a la **peau** très blanche.", "en": "She has very fair skin." },
+        { "fr": "Mets de la crème solaire sur ta **peau** !", "en": "Put sun cream on your skin!" },
+        { "fr": "On ne mange pas la **peau** de la banane.", "en": "You don't eat the banana peel." }
+      ] },
+    { "id": "coeur", "fr": "cœur", "pos": "noun", "g": "m", "ipa": "kœʁ", "en": "heart",
+      "def": "Il est dans le corps et il envoie le sang partout. Aussi : là où sont les sentiments.", "def_en": "It's inside the body and sends blood everywhere. Also: where feelings live.",
+      "forms": ["cœurs"],
+      "examples": [
+        { "fr": "Mon **cœur** bat très vite !", "en": "My heart is beating very fast!" },
+        { "fr": "Elle a bon **cœur**.", "en": "She's kind-hearted." },
+        { "fr": "Je t'aime de tout mon **cœur**.", "en": "I love you with all my heart." }
+      ],
+      "note": "**par cœur** = by heart: *apprendre par cœur*. **avoir mal au cœur** = to feel sick." },
+    { "id": "sang", "fr": "sang", "pos": "noun", "g": "m", "ipa": "sɑ̃", "en": "blood",
+      "def": "Le liquide rouge dans le corps.", "def_en": "The red liquid in the body.",
+      "examples": [
+        { "fr": "Lou a du **sang** sur le genou.", "en": "Lou has blood on her knee." },
+        { "fr": "Je n'aime pas voir le **sang**.", "en": "I don't like seeing blood." },
+        { "fr": "Il donne son **sang** à l'hôpital.", "en": "He gives blood at the hospital." }
+      ],
+      "note": "The **g** is silent: /sɑ̃/, the same sound as **cent** and **sans**!" },
+    { "id": "os", "fr": "os", "pos": "noun", "g": "m", "ipa": "ɔs", "en": "bone",
+      "def": "Une partie [dure|dur] dans le corps : on en a deux cent six.", "def_en": "A hard part inside the body: we have two hundred and six of them.",
+      "examples": [
+        { "fr": "Le chien mange un **os**.", "en": "The dog is eating a bone." },
+        { "fr": "Il s'est cassé un **os** du pied.", "en": "He broke a bone in his foot." },
+        { "fr": "Le lait, c'est bon pour les **os**.", "en": "Milk is good for your bones." }
+      ],
+      "note": "**un os** /œ̃.nɔs/. In the plural, people say **des os** /de.zɔs/ or /de.zo/." }
+  ],
+  "story": {
+    "title": "Le monstre de Lou",
+    "en": "Lou falls over in the park, then draws a very strange monster.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Mercredi après-midi, au parc. Lou court, et… boum ! Elle tombe.", "en": "Wednesday afternoon, at the park. Lou is running, and… bang! She falls over." },
+      { "sp": "Lou", "fr": "Papa ! J'ai mal ! Il y a du sang sur mon genou !", "en": "Daddy! It hurts! There's blood on my knee!" },
+      { "sp": "Paul", "fr": "Montre-moi… Ce n'est pas grave, ma puce. Juste un petit trou dans la peau.", "en": "Show me… It's nothing serious, sweetie. Just a little hole in the skin." },
+      { "sp": "", "fr": "À la maison, Paul met un pansement. Puis Lou fait un dessin, pour oublier.", "en": "At home, Paul puts a plaster on. Then Lou does a drawing, to forget about it." },
+      { "sp": "Lou", "fr": "Regarde, Papa, c'est un monstre ! Il a trois yeux et quatre oreilles.", "en": "Look, Daddy, it's a monster! It has three eyes and four ears." },
+      { "sp": "Paul", "fr": "Quatre oreilles ? Il entend bien, alors ! Et son visage est tout vert…", "en": "Four ears? He must hear well, then! And his face is all green…" },
+      { "sp": "Lou", "fr": "Oui, et il a un gros nez rouge, une grande bouche et des lèvres bleues.", "en": "Yes, and he has a big red nose, a big mouth and blue lips." },
+      { "sp": "Lou", "fr": "Il n'a pas de cheveux sur la tête, mais il a des poils sur les joues !", "en": "He has no hair on his head, but he has fur on his cheeks!" },
+      { "sp": "Paul", "fr": "Et ce long cou ? On dirait une girafe !", "en": "And that long neck? He looks like a giraffe!" },
+      { "sp": "Lou", "fr": "Il a six bras, avec une main au bout de chaque bras… et dix doigts à chaque main !", "en": "He has six arms, with a hand at the end of each arm… and ten fingers on each hand!" },
+      { "sp": "Paul", "fr": "Ça fait beaucoup de doigts ! Et ces deux ronds, sur ses épaules ?", "en": "That's a lot of fingers! And those two circles on his shoulders?" },
+      { "sp": "Lou", "fr": "Ce sont ses coudes. Ils sont sur ses épaules, parce que c'est un monstre !", "en": "Those are his elbows. They're on his shoulders, because he's a monster!" },
+      { "sp": "Lou", "fr": "Il a un gros ventre plein de bonbons, un dos tout vert et des jambes très courtes.", "en": "He has a big belly full of sweets, a back that's all green and very short legs." },
+      { "sp": "Paul", "fr": "Et ses pieds ? Il n'a pas de pieds ?", "en": "And his feet? Doesn't he have any feet?" },
+      { "sp": "Lou", "fr": "Non, il vole ! Et il a un chien. Le chien mange un os.", "en": "No, he flies! And he has a dog. The dog is eating a bone." },
+      { "sp": "Paul", "fr": "Et il est gentil, ce monstre, ou méchant ?", "en": "And is this monster nice, or nasty?" },
+      { "sp": "Lou", "fr": "Très gentil ! Regarde : il a un grand cœur rouge sur le corps. Et il a mal au genou, comme moi !", "en": "Very nice! Look: he has a big red heart on his body. And his knee hurts, like mine!" },
+      { "sp": "", "fr": "Paul sourit et met le dessin sur le réfrigérateur.", "en": "Paul smiles and puts the drawing on the fridge." }
+    ]
+  }
+}

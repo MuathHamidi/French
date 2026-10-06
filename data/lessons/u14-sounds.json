@@ -1,0 +1,199 @@
+{
+  "id": "u14-sounds",
+  "type": "sounds",
+  "unit": 14,
+  "title": "Été, fête, petit",
+  "en": "Pronunciation: é /e/, è /ɛ/ and e /ə/",
+  "intro": "French has three *e* sounds, and the spelling usually tells you which one: **é** /e/ (*été*), **è** /ɛ/ (*fête*) and **e** /ə/ (*petit*), which often disappears. Hearing the difference really matters: *je mange* (present) and *j'ai mangé* (past) differ only by these sounds!",
+  "cases": [
+    { "id": "es-e", "label": "é /e/: été, parler", "rule": "/e/ is a closed, smiling sound, like *ay* in *say* but without the glide. Spellings: **é** (*été*), **-er, -ez** at the end (*parler, parlez*), **et**, **les, des, mes, ces**, and **ai** in *j'ai*." },
+    { "id": "es-è", "label": "è /ɛ/: mère, fête, mais", "rule": "/ɛ/ is more open, like *e* in *bed*. Spellings: **è, ê** (*mère, fête*), **ai, ei** (*mais, neige*), **-et** at the end (*bonnet*), and **e** before two consonants (*belle, merci*)." },
+    { "id": "es-schwa", "label": "e /ə/: le, petit", "rule": "/ə/ is short and relaxed, like *a* in *about*: *le, je, de, ce, petit, demain*. It's an **e** with no accent at the end of a syllable." },
+    { "id": "es-drop", "label": "the e that disappears", "rule": "In everyday speech, /ə/ often drops out: *samedi* /sam.di/, *maintenant* /mɛ̃t.nɑ̃/, *je ne sais pas* → /ʃɛ.pa/." },
+    { "id": "es-final", "label": "silent -e, -es, -ent", "rule": "At the end of a word, **-e, -es** and the verb ending **-ent** are silent: *une table, des tables, ils parlent*. But the consonant before the **-e** is heard: *petit* /pə.ti/, *petite* /pə.tit/." },
+    { "id": "es-le-les", "label": "le / les, ce / ces", "rule": "/ə/ or /e/ can be the only difference between singular and plural: *le train / les trains*, *ce quartier / ces quartiers*, *de / des*. Listen carefully!" },
+    { "id": "es-pc", "label": "je mange / j'ai mangé", "rule": "The present and the passé composé often differ only by these vowels: *je mange* /ʒə.mɑ̃ʒ/ (I eat) but *j'ai mangé* /ʒe.mɑ̃.ʒe/ (I ate)." },
+    { "id": "es-er-ez", "label": "-er, -ez, -é: one sound", "rule": "*parler, vous parlez, j'ai parlé* all end with the same sound: /e/. Only the grammar tells you the spelling." }
+  ],
+  "sections": [
+    {
+      "title": "1. é /e/",
+      "text": ["Smile a little and keep your tongue high: /e/. No glide at the end, unlike English *say*."],
+      "table": {
+        "head": ["Spelling", "Example", "Sounds like"], "frCols": [1],
+        "rows": [
+          ["é", "été", "/e.te/"],
+          ["-er, -ez", "parler, parlez", "/paʁ.le/"],
+          ["et", "et", "/e/"],
+          ["-es in short words", "les, des, mes", "/le/, /de/, /me/"],
+          ["ai in j'ai", "j'ai", "/ʒe/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Vous {aimez|es-e} {l'été|es-e} ?", "en": "Do you like summer?" },
+        { "fr": "{J'ai|es-e} un frère {et|es-e} une sœur.", "en": "I have a brother and a sister." }
+      ]
+    },
+    {
+      "title": "2. è /ɛ/",
+      "text": ["Open your mouth a bit more: /ɛ/, like *e* in *bed*."],
+      "table": {
+        "head": ["Spelling", "Example", "Sounds like"], "frCols": [1],
+        "rows": [
+          ["è", "mère", "/mɛʁ/"],
+          ["ê", "fête", "/fɛt/"],
+          ["ai, ei", "mais, [neige|neige]", "/mɛ/, /nɛʒ/"],
+          ["-et at the end", "bonnet", "/bɔ.nɛ/"],
+          ["e + two consonants", "belle, merci", "/bɛl/, /mɛʁ.si/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ma {mère|es-è} prépare la {fête|es-è}.", "en": "My mother is getting the party ready." },
+        { "fr": "{Merci|es-è} ! Elle est très {belle|es-è} !", "en": "Thank you! It's really beautiful!" }
+      ]
+    },
+    {
+      "title": "3. e /ə/",
+      "text": ["Relax your mouth and round your lips slightly: /ə/. It's the sound in **le, je, de, ce, me, ne**, and in many words like *petit, demain, premier*."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["le", "/lə/"],
+          ["je", "/ʒə/"],
+          ["petit", "/pə.ti/"],
+          ["demain", "/də.mɛ̃/"],
+          ["premier", "/pʁə.mje/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je|es-schwa} pars {demain|es-schwa}.", "en": "I'm leaving tomorrow." },
+        { "fr": "{Le petit|es-schwa} chat dort.", "en": "The little cat is sleeping." }
+      ]
+    },
+    {
+      "title": "4. The e that disappears",
+      "text": ["In everyday speech, French drops many /ə/ sounds. You'll hear the short version all the time, so learn to recognise it."],
+      "table": {
+        "head": ["Word", "Careful", "Everyday"], "frCols": [0],
+        "rows": [
+          ["samedi", "/sa.mə.di/", "/sam.di/"],
+          ["maintenant", "/mɛ̃.tə.nɑ̃/", "/mɛ̃t.nɑ̃/"],
+          ["petit", "/pə.ti/", "/pti/"],
+          ["je ne sais pas", "/ʒə.nə.sɛ.pa/", "/ʃɛ.pa/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Samedi|es-drop}, je travaille.", "en": "On Saturday, I'm working." },
+        { "fr": "{Je ne sais pas|es-drop} !", "en": "I don't know!" },
+        { "fr": "{Maintenant|es-drop}, on part.", "en": "Now we're leaving." }
+      ]
+    },
+    {
+      "title": "5. Silent -e, -es, -ent",
+      "text": ["A final **-e** is silent, but it makes the consonant before it heard. That's how you hear the feminine of many adjectives."],
+      "table": {
+        "head": ["Without -e", "With -e", "Sounds like"], "frCols": [0, 1],
+        "rows": [
+          ["petit", "petite", "/pə.ti/ → /pə.tit/"],
+          ["grand", "grande", "/ɡʁɑ̃/ → /ɡʁɑ̃d/"],
+          ["il parle", "ils parlent", "/paʁl/ = /paʁl/"],
+          ["une table", "des tables", "/tabl/ = /tabl/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Elle est {petite|es-final}.", "en": "She's small." },
+        { "fr": "{Ils parlent|es-final} français.", "en": "They speak French." },
+        { "fr": "Deux {tables|es-final}, s'il vous plaît.", "en": "Two tables, please." }
+      ]
+    },
+    {
+      "title": "6. le / les, ce / ces",
+      "text": ["The plural *-s* is silent, so the article does all the work: /ə/ for one, /e/ for several."],
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["le train", "les trains"],
+          ["ce quartier", "ces quartiers"],
+          ["le billet", "les billets"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Le train|es-le-les} part. {Les trains|es-le-les} partent.", "en": "The train is leaving. The trains are leaving." },
+        { "fr": "Tu aimes {ce quartier|es-le-les} ?", "en": "Do you like this neighbourhood?" }
+      ]
+    },
+    {
+      "title": "7. je mange / j'ai mangé",
+      "text": ["Listen for /ʒə/ or /ʒe/ at the start and /e/ at the end. That's often the only difference between *now* and *the past*."],
+      "table": {
+        "head": ["Present", "Passé composé"], "frCols": [0, 1],
+        "rows": [
+          ["je mange", "j'ai mangé"],
+          ["je parle", "j'ai parlé"],
+          ["je visite", "j'ai visité"],
+          ["je regarde", "j'ai regardé"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je mange|es-pc} une pomme.", "en": "I'm eating an apple." },
+        { "fr": "{J'ai mangé|es-pc} une pomme.", "en": "I ate an apple." },
+        { "fr": "{Je visite|es-pc} Montréal. Hier, {j'ai visité|es-pc} Québec.", "en": "I'm visiting Montréal. Yesterday, I visited Quebec City." }
+      ]
+    },
+    {
+      "title": "8. -er, -ez, -é: one sound",
+      "table": {
+        "head": ["Infinitive", "vous", "Past participle"], "frCols": [0, 1, 2],
+        "rows": [
+          ["parler", "vous parlez", "j'ai parlé"],
+          ["manger", "vous mangez", "j'ai mangé"],
+          ["voyager", "vous voyagez", "j'ai voyagé"]
+        ]
+      },
+      "examples": [
+        { "fr": "Vous {aimez|es-er-ez} {voyager|es-er-ez} ?", "en": "Do you like travelling?" },
+        { "fr": "J'ai {visité|es-er-ez} le musée.", "en": "I visited the museum." }
+      ],
+      "tip": "Not sure how to spell /e/ at the end of a verb? After *vous*: **-ez**. After another verb or a preposition: **-er** (*je vais manger*). After *avoir*: **-é** (*j'ai mangé*)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "les → /lə/", "right": "/le/", "why": "*le* /lə/ is one, *les* /le/ is several." },
+    { "wrong": "j'ai mangé → /ʒə.mɑ̃ʒ/", "right": "/ʒe.mɑ̃.ʒe/", "why": "That would be *je mange*, the present." },
+    { "wrong": "mère → /meʁ/", "right": "/mɛʁ/", "why": "**è** is the open sound /ɛ/." },
+    { "wrong": "ils parlent → /paʁ.lɑ̃/", "right": "/paʁl/", "why": "The verb ending **-ent** is silent." },
+    { "wrong": "petite → /pə.ti/", "right": "/pə.tit/", "why": "The final **-e** makes the **t** heard." }
+  ],
+  "story": {
+    "title": "Le premier été de Lou",
+    "en": "Lou discovers Montréal. Listen for é, è and e.",
+    "lines": [
+      { "fr": "C'est {l'été|es-e}. Lou a deux ans, et c'est son premier grand [voyage|voyage].", "en": "It's summer. Lou is two, and it's her first big trip." },
+      { "fr": "Elle découvre Montréal avec sa {mère|es-è}, son {père|es-è} et sa grande sœur Léa.", "en": "She's discovering Montréal with her mother, her father and her big sister Léa.", "br": true },
+      { "fr": "{Le matin|es-schwa}, Lou {mange|es-pc} des céréales. Et toute la journée, elle répète : « {J'ai mangé|es-pc} ! {J'ai mangé|es-pc} ! »", "en": "In the morning, Lou eats cereal. And all day long, she repeats: “I ate! I ate!”" },
+      { "fr": "{Samedi|es-drop}, il y a une {fête|es-è} dans {le quartier|es-le-les} : de la musique, des crêpes, des jeux…", "en": "On Saturday, there's a party in the neighbourhood: music, crêpes, games…" },
+      { "fr": "Lou danse avec {les enfants|es-le-les}. Elle est {petite|es-final}, mais elle danse très bien !", "en": "Lou dances with the children. She's little, but she dances very well!", "br": true },
+      { "fr": "« Tu veux encore {danser|es-er-ez} ? » demande Léa. « Oui ! Et toi, tu {as dansé|es-er-ez} ? »", "en": "“Do you want to dance some more?” asks Léa. “Yes! And you, have you danced?”" },
+      { "fr": "Le soir, Lou est fatiguée. Elle regarde le ciel : « Léa, {je ne sais pas|es-drop}… Les étoiles, elles dorment {le|es-schwa} jour ? »", "en": "In the evening, Lou is tired. She looks at the sky: “Léa, I don't know… Do the stars sleep in the daytime?”" },
+      { "fr": "Léa rit : « Oui, ma puce. Et {maintenant|es-drop}, toi aussi, tu vas dormir ! »", "en": "Léa laughs: “Yes, sweetie. And now it's your turn to sleep!”" }
+    ]
+  },
+  "quiz": [
+    { "case": "es-e", "type": "mc", "lang": "en", "q": "Which word ends with the sound /e/, as in « été »?", "options": ["parler", "mère", "petit"], "answer": "parler", "say": "été, parler" },
+    { "case": "es-e", "type": "mc", "lang": "en", "q": "In « et », you hear…", "options": ["/e/, as in été", "/ɛ/, as in fête", "nothing: it's silent"], "answer": "/e/, as in été", "say": "et" },
+    { "case": "es-è", "type": "mc", "lang": "en", "q": "Which word has the open sound /ɛ/, as in « fête »?", "options": ["neige", "été", "le"], "answer": "neige", "say": "fête, neige" },
+    { "case": "es-è", "type": "mc", "lang": "en", "q": "In « belle », the e sounds…", "options": ["/ɛ/: e before two consonants", "/ə/, as in le", "/e/, as in été"], "answer": "/ɛ/: e before two consonants", "say": "belle" },
+    { "case": "es-schwa", "type": "mc", "lang": "en", "q": "Which word has the short sound /ə/?", "options": ["demain", "été", "fête"], "answer": "demain", "say": "demain" },
+    { "case": "es-schwa", "type": "mc", "lang": "en", "q": "In « petit », the e sounds…", "options": ["/ə/, short and relaxed", "/e/, as in été", "/ɛ/, as in mère"], "answer": "/ə/, short and relaxed", "say": "petit" },
+    { "case": "es-drop", "type": "mc", "lang": "en", "q": "In everyday speech, « samedi » sounds like…", "options": ["/sam.di/", "/sa.me.di/", "/sa.mɛ.di/"], "answer": "/sam.di/", "say": "samedi" },
+    { "case": "es-drop", "type": "mc", "lang": "en", "q": "In fast speech, « je ne sais pas » often sounds like…", "options": ["/ʃɛ.pa/", "/ʒe.ne.se.pa/", "/ʒo.no.so.pa/"], "answer": "/ʃɛ.pa/", "say": "je ne sais pas" },
+    { "case": "es-final", "type": "mc", "lang": "en", "listen": "petite", "q": "Listen: petit or petite?", "options": ["petite", "petit"], "answer": "petite" },
+    { "case": "es-final", "type": "mc", "lang": "en", "q": "Do you hear the end of « ils parlent »?", "options": ["no: -ent is silent", "yes: /paʁ.lɑ̃/"], "answer": "no: -ent is silent", "say": "ils parlent" },
+    { "case": "es-le-les", "type": "mc", "lang": "en", "listen": "les trains", "q": "Listen: le train or les trains?", "options": ["les trains", "le train"], "answer": "les trains" },
+    { "case": "es-le-les", "type": "mc", "lang": "en", "listen": "ce quartier", "q": "Listen: ce quartier or ces quartiers?", "options": ["ce quartier", "ces quartiers"], "answer": "ce quartier" },
+    { "case": "es-pc", "type": "mc", "lang": "en", "listen": "J'ai mangé.", "q": "Listen: now or in the past?", "options": ["past: j'ai mangé", "now: je mange"], "answer": "past: j'ai mangé" },
+    { "case": "es-pc", "type": "mc", "lang": "en", "listen": "Je parle.", "q": "Listen: now or in the past?", "options": ["now: je parle", "past: j'ai parlé"], "answer": "now: je parle" },
+    { "case": "es-er-ez", "type": "mc", "lang": "en", "q": "Do « parler », « parlez » and « parlé » sound the same?", "options": ["yes: they all end in /e/", "no, they're all different"], "answer": "yes: they all end in /e/", "say": "parler, parlez, parlé" },
+    { "case": "es-er-ez", "type": "mc", "lang": "en", "q": "« Je vais ___ » (to eat): how do you spell it?", "options": ["manger", "mangez", "mangé"], "answer": "manger", "why": "After another verb, use the infinitive: **-er**.", "say": "Je vais manger." }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "u17-coi",
+  "type": "grammar",
+  "unit": 17,
+  "title": "Je lui parle",
+  "en": "Object pronouns: lui, leur",
+  "intro": "Many verbs use **à** before a person: *parler **à** Léa, téléphoner **à** mes parents*. To replace **à + person**, French uses **lui** (to him, to her) and **leur** (to them), before the verb: *Je **lui** parle. Je **leur** téléphone.*",
+  "cases": [
+    { "id": "coi-what", "label": "à + person", "rule": "An **indirect object** is a person after **à**: *parler à, téléphoner à, dire à, donner à, écrire à, répondre à, demander à, offrir à, montrer à, prêter à*: *Je parle **à Léa**.*" },
+    { "id": "coi-lui", "label": "lui = to him, to her", "rule": "**lui** replaces **à + one person**, man or woman: *Je parle à Paul → je **lui** parle. Je parle à Anne → je **lui** parle.*" },
+    { "id": "coi-leur", "label": "leur = to them", "rule": "**leur** replaces **à + several people**: *Je téléphone à mes parents → je **leur** téléphone.* It never takes an **s** (don't mix it up with *leurs* = their)." },
+    { "id": "coi-me-te", "label": "me, te, nous, vous", "rule": "**me, te, nous, vous** are the same as before: *Tu **me** parles ? Je **te** dis la vérité. Il **nous** écrit. Je **vous** réponds.*" },
+    { "id": "coi-place", "label": "where it goes", "rule": "Like **le, la, les**: before the verb (*je ne **lui** parle pas*), before an infinitive (*je vais **lui** écrire*), and after a positive command (*Dis-**lui** ! Réponds-**moi** !*)." },
+    { "id": "coi-or-cod", "label": "l' or lui?", "rule": "Look at the verb. **appeler, aider, écouter, attendre, regarder** + person (no à) → **le, la, les**. **parler, téléphoner, répondre, dire, donner** + **à** + person → **lui, leur**: *Je **l'**appelle*, but *je **lui** téléphone*." }
+  ],
+  "sections": [
+    {
+      "title": "1. Verbs with à + person",
+      "text": ["Many everyday verbs are followed by **à** + a person. Very often, there's also a thing: *donner **un livre à Lou***."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["parler à quelqu'un", "to talk to someone"],
+          ["téléphoner à quelqu'un", "to phone someone"],
+          ["dire, demander quelque chose à quelqu'un", "to tell, ask someone something"],
+          ["donner, offrir, montrer quelque chose à quelqu'un", "to give, offer, show someone something"],
+          ["écrire, répondre à quelqu'un", "to write to, answer someone"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je donne un livre à Lou|coi-what}.", "en": "I'm giving Lou a book." },
+        { "fr": "{Léa écrit à sa grand-mère|coi-what}.", "en": "Léa is writing to her grandmother." }
+      ]
+    },
+    {
+      "title": "2. lui = to him, to her",
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["Je parle à Paul.", "Je lui parle."],
+          ["Je parle à Anne.", "Je lui parle."],
+          ["Je donne un cadeau à Lou.", "Je lui donne un cadeau."]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo ? {Je lui écris|coi-lui} un message.", "en": "Hugo? I'm writing him a message." },
+        { "fr": "Mamie ? {Je lui offre|coi-lui} des fleurs.", "en": "Grandma? I'm giving her flowers." }
+      ],
+      "tip": "**lui** is for a man **or** a woman: only the context tells you which."
+    },
+    {
+      "title": "3. leur = to them",
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["Je téléphone à mes parents.", "Je leur téléphone."],
+          ["Je parle aux enfants.", "Je leur parle."],
+          ["Tu écris à tes amis ?", "Tu leur écris ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tes parents ? {Je leur téléphone|coi-leur} le dimanche.", "en": "Your parents? I phone them on Sundays." },
+        { "fr": "Les élèves ? La maîtresse {[leur|leur-pron] lit|coi-leur} une histoire.", "en": "The pupils? The teacher is reading them a story." }
+      ],
+      "tip": "Pronoun **leur** (to them) never changes: *je **leur** parle*. Possessive **leur, leurs** (their) goes before a noun: ***leurs** enfants*."
+    },
+    {
+      "title": "4. me, te, nous, vous",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu me parles ?", "Are you talking to me?"],
+          ["Je te dis la vérité.", "I'm telling you the truth."],
+          ["Il nous écrit souvent.", "He often writes to us."],
+          ["Je vous réponds demain.", "I'll answer you tomorrow."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu me prêtes|coi-me-te} ton stylo ?", "en": "Will you lend me your pen?" },
+        { "fr": "Mamie {nous raconte|coi-me-te} une histoire.", "en": "Grandma is telling us a story." }
+      ]
+    },
+    {
+      "title": "5. Where does it go?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne lui parle pas.", "I'm not talking to him."],
+          ["Je vais leur écrire.", "I'm going to write to them."],
+          ["Dis-lui bonjour !", "Say hello to her!"],
+          ["Ne lui dis pas !", "Don't tell him!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais lui téléphoner|coi-place} ce soir.", "en": "I'm going to phone him tonight." },
+        { "fr": "{Réponds-moi|coi-place} !", "en": "Answer me!" },
+        { "fr": "C'est une surprise : {ne lui dis rien|coi-place} !", "en": "It's a surprise: don't tell her anything!" }
+      ]
+    },
+    {
+      "title": "6. l' or lui?",
+      "text": ["English doesn't help here: *call him* and *phone him* look the same. In French, it depends on whether the verb takes **à**."],
+      "table": {
+        "head": ["No à: le, la, les", "With à: lui, leur"], "frCols": [0, 1],
+        "rows": [
+          ["J'appelle Léa. Je l'appelle.", "Je téléphone à Léa. Je lui téléphone."],
+          ["J'aide mon frère. Je l'aide.", "Je parle à mon frère. Je lui parle."],
+          ["J'écoute mes parents. Je les écoute.", "Je réponds à mes parents. Je leur réponds."]
+        ]
+      },
+      "examples": [
+        { "fr": "Léa ? {Je l'appelle, puis je lui écris|coi-or-cod}.", "en": "Léa? I'll call her, then write to her." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je leurs parle.", "right": "Je leur parle.", "why": "The pronoun **leur** never takes an **s**." },
+    { "wrong": "Je le téléphone.", "right": "Je lui téléphone.", "why": "**téléphoner à** + person → **lui**." },
+    { "wrong": "Je lui aide.", "right": "Je l'aide.", "why": "**aider** + person, no **à** → **le, la, l'**." },
+    { "wrong": "Je parle à lui.", "right": "Je lui parle.", "why": "The pronoun goes **before** the verb." },
+    { "wrong": "Dis-me la vérité !", "right": "Dis-moi la vérité !", "why": "After a positive command: **moi, toi**." }
+  ],
+  "story": {
+    "title": "L'anniversaire de Mamie",
+    "en": "It's Grandma Louise's birthday. What will the family give her?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin octobre, c'est l'anniversaire de Louise, la grand-mère de Léa. Toute la famille cherche un cadeau.", "en": "At the end of October, it's the birthday of Louise, Léa's grandmother. The whole family is looking for a present." },
+      { "sp": "Léa", "fr": "Papa, qu'est-ce qu'{on lui offre|coi-lui}, à Mamie ?", "en": "Dad, what shall we give Grandma?" },
+      { "sp": "Paul", "fr": "Je ne sais pas… {Appelle-la|coi-or-cod} et {demande-lui|coi-place} !", "en": "I don't know… Call her and ask her!" },
+      { "sp": "Léa", "fr": "Non, c'est une surprise ! {On ne lui dit rien|coi-place} !", "en": "No, it's a surprise! We're not telling her anything!" },
+      { "sp": "Hugo", "fr": "Elle adore les livres. {On lui donne|coi-lui} un roman ?", "en": "She loves books. Shall we give her a novel?" },
+      { "sp": "Anne", "fr": "Elle a déjà trois cents livres… et elle les lit tous !", "en": "She already has three hundred books… and she reads them all!" },
+      { "sp": "Lou", "fr": "Moi, {je lui fais|coi-lui} un dessin !", "en": "I'm going to do her a drawing!" },
+      { "sp": "Paul", "fr": "Très bonne idée, ma puce. Et si {on leur offre|coi-leur} un week-end à Paris, à Papi et Mamie ?", "en": "Very good idea, sweetie. And what if we give Grandpa and Grandma a weekend in Paris?" },
+      { "sp": "Hugo", "fr": "Super ! {Ils nous parlent|coi-me-te} toujours de Paris !", "en": "Great! They're always talking to us about Paris!" },
+      { "sp": "Anne", "fr": "D'accord. Léa, {tu leur écris|coi-leur} une jolie carte ?", "en": "OK. Léa, will you write them a nice card?" },
+      { "sp": "Léa", "fr": "Oui, et {je vais leur envoyer|coi-place} des photos de nous.", "en": "Yes, and I'll send them some photos of us." },
+      { "sp": "", "fr": "Le jour de son anniversaire, Louise ouvre l'enveloppe. Elle est très émue.", "en": "On her birthday, Louise opens the envelope. She's very moved." },
+      { "sp": "Louise", "fr": "Un week-end à Paris ! Merci, mes chéris ! {Vous me faites|coi-me-te} un très beau cadeau !", "en": "A weekend in Paris! Thank you, my darlings! What a lovely present!" },
+      { "sp": "Lou", "fr": "Mamie, regarde mon dessin ! C'est toi, avec Papi !", "en": "Grandma, look at my drawing! It's you, with Grandpa!" },
+      { "sp": "Louise", "fr": "Il est magnifique ! {Je te dis|coi-me-te} merci avec un gros bisou !", "en": "It's wonderful! I'm saying thank you with a big kiss!" },
+      { "sp": "", "fr": "Le soir, {Jacques téléphone à Paul|coi-what}.", "en": "In the evening, Jacques phones Paul." },
+      { "sp": "Jacques", "fr": "Merci, mon fils ! Mais à Paris, on dort chez vous… et c'est toi qui {nous prépares|coi-me-te} le petit-déjeuner !", "en": "Thank you, son! But in Paris, we're sleeping at your place… and you're making us breakfast!" },
+      { "sp": "Paul", "fr": "Bien sûr, Papa ! Et {je vais lui acheter|coi-place} des fleurs, à Maman.", "en": "Of course, Dad! And I'll buy Mum some flowers." }
+    ]
+  },
+  "quiz": [
+    { "case": "coi-what", "type": "mc", "lang": "en", "q": "In « Je parle à Léa », the indirect object is…", "options": ["à Léa", "je", "parle"], "answer": "à Léa", "say": "Je parle à Léa." },
+    { "case": "coi-what", "type": "mc", "lang": "en", "q": "Which verb is followed by à + person?", "options": ["téléphoner", "appeler", "aider"], "answer": "téléphoner" },
+    { "case": "coi-lui", "type": "mc", "q": "Tu parles à Paul ? — Oui, je ___ parle.", "en": "Are you talking to Paul? — Yes, I'm talking to him.", "options": ["lui", "le", "leur"], "answer": "lui" },
+    { "case": "coi-lui", "type": "type", "q": "Tu écris à ta grand-mère ? — Oui, je ___ écris.", "en": "Are you writing to your grandmother? — Yes, I'm writing to her.", "answer": "lui" },
+    { "case": "coi-leur", "type": "mc", "q": "Tu téléphones à tes parents ? — Oui, je ___ téléphone.", "en": "Are you phoning your parents? — Yes, I'm phoning them.", "options": ["leur", "leurs", "les"], "answer": "leur" },
+    { "case": "coi-leur", "type": "mc", "lang": "en", "q": "« Je leur donne un cadeau » means…", "options": ["I give them a present.", "I give their present.", "I give him a present."], "answer": "I give them a present.", "say": "Je leur donne un cadeau." },
+    { "case": "coi-me-te", "type": "mc", "q": "Tu ___ dis la vérité ? — Oui, je te dis la vérité.", "en": "Are you telling me the truth? — Yes, I'm telling you the truth.", "options": ["me", "te", "lui"], "answer": "me" },
+    { "case": "coi-me-te", "type": "mc", "lang": "en", "q": "« Il nous écrit » means…", "options": ["He writes to us.", "We write to him.", "He writes to them."], "answer": "He writes to us.", "say": "Il nous écrit." },
+    { "case": "coi-place", "type": "mc", "q": "Hugo ? Je ne ___ réponds pas !", "en": "Hugo? I'm not answering him!", "options": ["lui", "le", "l'"], "answer": "lui" },
+    { "case": "coi-place", "type": "mc", "lang": "en", "q": "“I'm going to phone him.” Choose the right sentence:", "options": ["Je vais lui téléphoner.", "Je lui vais téléphoner.", "Je vais téléphoner lui."], "answer": "Je vais lui téléphoner.", "say": "Je vais lui téléphoner." },
+    { "case": "coi-place", "type": "mc", "q": "C'est un secret : ne ___ dis rien !", "en": "It's a secret: don't tell him anything!", "options": ["lui", "le", "leurs"], "answer": "lui" },
+    { "case": "coi-or-cod", "type": "mc", "q": "Tu appelles Léa ? — Oui, je ___appelle.", "en": "Are you calling Léa? — Yes, I'm calling her.", "options": ["l'", "lui"], "answer": "l'", "why": "**appeler** + person, no **à**: **le, la, l'**." },
+    { "case": "coi-or-cod", "type": "mc", "q": "Tu téléphones à Léa ? — Oui, je ___ téléphone.", "en": "Are you phoning Léa? — Yes, I'm phoning her.", "options": ["lui", "la"], "answer": "lui", "why": "**téléphoner à** + person: **lui**." },
+    { "case": "coi-or-cod", "type": "mc", "q": "Tu aides tes parents ? — Oui, je ___ aide.", "en": "Do you help your parents? — Yes, I help them.", "options": ["les", "leur"], "answer": "les", "why": "**aider** + person, no **à**: **les**." }
+  ]
+}

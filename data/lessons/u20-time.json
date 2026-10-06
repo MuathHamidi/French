@@ -1,0 +1,223 @@
+{
+  "id": "u20-time",
+  "type": "vocab",
+  "unit": 20,
+  "title": "Le temps qui passe",
+  "en": "Time words",
+  "intro": "25 essential words for talking about time: now, soon, already, still, never, often, sometimes, for a long time, the beginning and the end, the past, the present and the future… and the day before yesterday (**avant-hier**) and the day after tomorrow (**après-demain**).",
+  "words": [
+    { "id": "maintenant", "fr": "maintenant", "pos": "adv", "ipa": "mɛ̃t.nɑ̃", "en": "now",
+      "def": "En ce moment : pas avant, pas après.", "def_en": "At this moment: not before, not after.",
+      "examples": [
+        { "fr": "Je n'ai pas le temps **maintenant**.", "en": "I haven't got time now." },
+        { "fr": "Viens **maintenant**, s'il te plaît !", "en": "Come now, please!" },
+        { "fr": "Il habite à Lyon **maintenant**.", "en": "He lives in Lyon now." }
+      ] },
+    { "id": "bientot", "fr": "bientôt", "pos": "adv", "ipa": "bjɛ̃.to", "en": "soon",
+      "def": "Dans peu de temps.", "def_en": "In a short time.",
+      "examples": [
+        { "fr": "À **bientôt** !", "en": "See you soon!" },
+        { "fr": "Les vacances arrivent **bientôt**.", "en": "The holidays are coming soon." },
+        { "fr": "Il va **bientôt** pleuvoir.", "en": "It's going to rain soon." }
+      ] },
+    { "id": "deja", "fr": "déjà", "pos": "adv", "ipa": "de.ʒa", "en": "already; ever (in questions)",
+      "def": "Avant maintenant ; plus tôt que prévu.", "def_en": "Before now; earlier than expected.",
+      "examples": [
+        { "fr": "Tu as **déjà** fini ?", "en": "Have you already finished?" },
+        { "fr": "Il est **déjà** minuit !", "en": "It's already midnight!" },
+        { "fr": "Tu es **déjà** allé à Paris ?", "en": "Have you ever been to Paris?" }
+      ] },
+    { "id": "encore", "fr": "encore", "pos": "adv", "ipa": "ɑ̃.kɔʁ", "en": "again; still; more; (pas encore) not yet",
+      "def": "Une autre fois. Aussi : comme avant, toujours.", "def_en": "One more time. Also: as before, still.",
+      "examples": [
+        { "fr": "Tu es **encore** en retard !", "en": "You're late again!" },
+        { "fr": "Il pleut **encore**.", "en": "It's still raining." },
+        { "fr": "Je n'ai pas **encore** mangé.", "en": "I haven't eaten yet." }
+      ] },
+    { "id": "toujours", "fr": "toujours", "pos": "adv", "ipa": "tu.ʒuʁ", "en": "always; still",
+      "def": "Tout le temps. Aussi : encore maintenant.", "def_en": "All the time. Also: even now.",
+      "examples": [
+        { "fr": "Hugo est **toujours** en retard.", "en": "Hugo is always late." },
+        { "fr": "Tu habites **toujours** à Lyon ?", "en": "Do you still live in Lyon?" },
+        { "fr": "Je t'aimerai **toujours**.", "en": "I'll always love you." }
+      ] },
+    { "id": "jamais", "fr": "jamais", "pos": "adv", "ipa": "ʒa.mɛ", "en": "never (ne… jamais); ever",
+      "def": "Pas une seule fois.", "def_en": "Not even once.",
+      "examples": [
+        { "fr": "Je ne bois **jamais** de café.", "en": "I never drink coffee." },
+        { "fr": "Il n'est **jamais** allé à Paris.", "en": "He's never been to Paris." },
+        { "fr": "**Jamais** !", "en": "Never!" }
+      ] },
+    { "id": "souvent", "fr": "souvent", "pos": "adv", "ipa": "su.vɑ̃", "en": "often",
+      "def": "Beaucoup de fois.", "def_en": "Many times.",
+      "examples": [
+        { "fr": "Je vais **souvent** au cinéma.", "en": "I often go to the cinema." },
+        { "fr": "Il pleut **souvent** à Lyon ?", "en": "Does it often rain in Lyon?" },
+        { "fr": "Mamie téléphone **souvent**.", "en": "Grandma often phones." }
+      ] },
+    { "id": "parfois", "fr": "parfois", "pos": "adv", "ipa": "paʁ.fwa", "en": "sometimes",
+      "def": "Quelques fois, pas toujours.", "def_en": "Some of the time, not always.",
+      "examples": [
+        { "fr": "**Parfois**, je travaille le samedi.", "en": "Sometimes I work on Saturdays." },
+        { "fr": "Hugo est **parfois** à l'heure !", "en": "Hugo is sometimes on time!" },
+        { "fr": "Il neige **parfois** en mars.", "en": "It sometimes snows in March." }
+      ] },
+    { "id": "longtemps", "fr": "longtemps", "pos": "adv", "ipa": "lɔ̃.tɑ̃", "en": "a long time, for long",
+      "def": "Pendant beaucoup de temps.", "def_en": "For a lot of time.",
+      "examples": [
+        { "fr": "J'ai attendu **longtemps**.", "en": "I waited a long time." },
+        { "fr": "Tu restes **longtemps** à Paris ?", "en": "Are you staying long in Paris?" },
+        { "fr": "Il y a **longtemps**…", "en": "A long time ago…" }
+      ] },
+    { "id": "moment", "fr": "moment", "pos": "noun", "g": "m", "ipa": "mɔ.mɑ̃", "en": "moment",
+      "def": "Un petit temps.", "def_en": "A short time.",
+      "forms": ["moments"],
+      "examples": [
+        { "fr": "Attends un **moment** !", "en": "Wait a moment!" },
+        { "fr": "En ce **moment**, je travaille beaucoup.", "en": "At the moment, I'm working a lot." },
+        { "fr": "C'est le meilleur **moment** de la journée.", "en": "It's the best moment of the day." }
+      ] },
+    { "id": "debut", "fr": "début", "pos": "noun", "g": "m", "ipa": "de.by", "en": "beginning, start",
+      "def": "Le premier moment d'une chose.", "def_en": "The first moment of something.",
+      "forms": ["débuts"],
+      "examples": [
+        { "fr": "Au **début**, c'était difficile.", "en": "At the beginning, it was hard." },
+        { "fr": "Le **début** du film est un peu long.", "en": "The start of the film is a bit slow." },
+        { "fr": "Je pars **début** janvier.", "en": "I'm leaving at the beginning of January." }
+      ] },
+    { "id": "fin-n", "fr": "fin", "pos": "noun", "g": "f", "ipa": "fɛ̃", "en": "end",
+      "def": "Le dernier moment d'une chose.", "def_en": "The last moment of something.",
+      "forms": ["fins"],
+      "examples": [
+        { "fr": "C'est la **fin** du film.", "en": "It's the end of the film." },
+        { "fr": "À la **fin** de la journée, je suis fatigué.", "en": "At the end of the day, I'm tired." },
+        { "fr": "Je pars **fin** janvier.", "en": "I'm leaving at the end of January." }
+      ],
+      "note": "Not to be confused with the adjective **fin, fine** (thin, fine)." },
+    { "id": "heure", "fr": "heure", "pos": "noun", "g": "f", "ipa": "œʁ", "en": "hour; o'clock; time",
+      "def": "Soixante minutes. Aussi : le moment de la journée : il est huit heures.", "def_en": "Sixty minutes. Also: the time of day: it's eight o'clock.",
+      "forms": ["heures"],
+      "examples": [
+        { "fr": "Quelle **heure** est-il ?", "en": "What time is it?" },
+        { "fr": "Le film dure deux **heures**.", "en": "The film lasts two hours." },
+        { "fr": "Tu es à l'**heure** !", "en": "You're on time!" }
+      ],
+      "note": "**à l'heure** = on time; **tout à l'heure** = in a little while, or a little while ago." },
+    { "id": "minute", "fr": "minute", "pos": "noun", "g": "f", "ipa": "mi.nyt", "en": "minute",
+      "def": "Soixante secondes.", "def_en": "Sixty seconds.",
+      "forms": ["minutes"],
+      "examples": [
+        { "fr": "J'arrive dans cinq **minutes** !", "en": "I'll be there in five minutes!" },
+        { "fr": "Une **minute**, s'il te plaît !", "en": "Just a minute, please!" },
+        { "fr": "Le bus passe toutes les dix **minutes**.", "en": "The bus comes every ten minutes." }
+      ] },
+    { "id": "seconde", "fr": "seconde", "pos": "noun", "g": "f", "ipa": "sə.ɡɔ̃d", "en": "second (of time)",
+      "def": "Un tout petit temps : il y en a soixante dans une minute.", "def_en": "A very short time: there are sixty in a minute.",
+      "forms": ["secondes"],
+      "examples": [
+        { "fr": "Attends une **seconde** !", "en": "Wait a second!" },
+        { "fr": "Il a couru cent mètres en douze **secondes**.", "en": "He ran a hundred metres in twelve seconds." },
+        { "fr": "Dix **secondes** avant minuit !", "en": "Ten seconds to midnight!" }
+      ],
+      "note": "The **c** sounds /ɡ/: /sə.ɡɔ̃d/." },
+    { "id": "siecle", "fr": "siècle", "pos": "noun", "g": "m", "ipa": "sjɛkl", "en": "century",
+      "def": "Cent ans.", "def_en": "A hundred years.",
+      "forms": ["siècles"],
+      "examples": [
+        { "fr": "Cette église a huit **siècles**.", "en": "This church is eight centuries old." },
+        { "fr": "Nous sommes au vingt et unième **siècle**.", "en": "We're in the twenty-first century." },
+        { "fr": "Ça fait un **siècle** que je ne t'ai pas vu !", "en": "I haven't seen you for ages!" }
+      ] },
+    { "id": "futur", "fr": "futur", "pos": "noun", "g": "m", "ipa": "fy.tyʁ", "en": "future; (grammar) the future tense",
+      "def": "Le temps qui vient, après maintenant.", "def_en": "The time to come, after now.",
+      "examples": [
+        { "fr": "Dans le **futur**, on habitera peut-être sur la lune.", "en": "In the future, perhaps we'll live on the moon." },
+        { "fr": "Le **futur** est dans tes mains !", "en": "The future is in your hands!" },
+        { "fr": "Aujourd'hui, on apprend le **futur** : je parlerai, tu parleras…", "en": "Today we're learning the future tense: I will speak, you will speak…" }
+      ],
+      "note": "**l'avenir** = your future (your life, your plans); **le futur** = the future in general, and the tense." },
+    { "id": "present", "fr": "présent", "pos": "adj", "ipa": "pʁe.zɑ̃", "display": "présent, présente", "en": "present, here; (le présent) the present",
+      "def": "Qui est là, maintenant. Le présent : le temps d'aujourd'hui.", "def_en": "Here, now. Le présent: the time we're living in.",
+      "forms": ["présente", "présents", "présentes"],
+      "accept": ["présente"],
+      "examples": [
+        { "fr": "Tous les élèves sont **présents**.", "en": "All the pupils are present." },
+        { "fr": "Il faut vivre le **présent** !", "en": "You have to live in the present!" },
+        { "fr": "« Je parle », c'est le **présent**.", "en": "'Je parle' is the present tense." }
+      ] },
+    { "id": "passe-n", "fr": "passé", "pos": "noun", "g": "m", "ipa": "pa.se", "en": "the past; (grammar) the past tense",
+      "def": "Le temps d'avant, qui est fini.", "def_en": "The time before now, which is over.",
+      "examples": [
+        { "fr": "C'est le **passé**, n'en parlons plus.", "en": "That's in the past, let's not talk about it any more." },
+        { "fr": "Mamie aime parler du **passé**.", "en": "Grandma likes talking about the past." },
+        { "fr": "Dans le **passé**, il n'y avait pas d'internet.", "en": "In the past, there was no internet." }
+      ] },
+    { "id": "apres-demain", "fr": "après-demain", "pos": "adv", "ipa": "a.pʁɛ.də.mɛ̃", "en": "the day after tomorrow",
+      "def": "Le jour après demain.", "def_en": "The day after tomorrow.",
+      "examples": [
+        { "fr": "Je pars **après-demain**.", "en": "I'm leaving the day after tomorrow." },
+        { "fr": "On se voit **après-demain** ?", "en": "Shall we meet the day after tomorrow?" },
+        { "fr": "Aujourd'hui, c'est lundi ; **après-demain**, c'est mercredi.", "en": "Today's Monday; the day after tomorrow is Wednesday." }
+      ] },
+    { "id": "avant-hier", "fr": "avant-hier", "pos": "adv", "ipa": "a.vɑ̃.tjɛʁ", "en": "the day before yesterday",
+      "def": "Le jour avant hier.", "def_en": "The day before yesterday.",
+      "examples": [
+        { "fr": "Je l'ai vu **avant-hier**.", "en": "I saw him the day before yesterday." },
+        { "fr": "**Avant-hier**, il faisait très beau.", "en": "The day before yesterday, the weather was lovely." },
+        { "fr": "Le paquet est arrivé **avant-hier**.", "en": "The parcel arrived the day before yesterday." }
+      ] },
+    { "id": "lendemain", "fr": "lendemain", "pos": "noun", "g": "m", "ipa": "lɑ̃d.mɛ̃", "en": "the next day, the day after",
+      "def": "Le jour qui suit un autre jour.", "def_en": "The day that follows another day.",
+      "examples": [
+        { "fr": "Le **lendemain**, il pleuvait.", "en": "The next day, it was raining." },
+        { "fr": "Je suis arrivé le **lendemain** de Noël.", "en": "I arrived the day after Christmas." },
+        { "fr": "Le **lendemain** de la fête, tout le monde est fatigué.", "en": "The day after the party, everyone is tired." }
+      ],
+      "note": "**le lendemain** (the next day, in a story) vs **demain** (tomorrow, from today)." },
+    { "id": "recemment", "fr": "récemment", "pos": "adv", "ipa": "ʁe.sa.mɑ̃", "en": "recently",
+      "def": "Il n'y a pas longtemps.", "def_en": "Not long ago.",
+      "examples": [
+        { "fr": "J'ai vu ce film **récemment**.", "en": "I saw this film recently." },
+        { "fr": "Ils ont **récemment** déménagé.", "en": "They recently moved house." },
+        { "fr": "**Récemment**, Hugo fait du sport.", "en": "Recently, Hugo has been doing sport." }
+      ],
+      "note": "**-emment** sounds /amɑ̃/: *récemment* /ʁe.sa.mɑ̃/." },
+    { "id": "tout-a-l-heure", "fr": "tout à l'heure", "pos": "expr", "ipa": "tu.ta.lœʁ", "en": "in a little while; a little while ago",
+      "def": "Dans un petit moment, ou il y a un petit moment.", "def_en": "In a short while, or a short while ago.",
+      "examples": [
+        { "fr": "À **tout à l'heure** !", "en": "See you later!" },
+        { "fr": "Je t'appelle **tout à l'heure**.", "en": "I'll call you in a bit." },
+        { "fr": "Il était là **tout à l'heure**.", "en": "He was here a little while ago." }
+      ] },
+    { "id": "en-meme-temps", "fr": "en même temps", "pos": "expr", "ipa": "ɑ̃ mɛm tɑ̃", "en": "at the same time",
+      "def": "Au même moment.", "def_en": "At the same moment.",
+      "examples": [
+        { "fr": "Ne parlez pas tous **en même temps** !", "en": "Don't all talk at once!" },
+        { "fr": "Je mange et je regarde la télé **en même temps**.", "en": "I eat and watch TV at the same time." },
+        { "fr": "Ils sont arrivés **en même temps**.", "en": "They arrived at the same time." }
+      ] }
+  ],
+  "story": {
+    "title": "Le réveillon",
+    "en": "New Year's Eve at Léa and Sophie's: everyone waits for midnight.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le trente et un décembre, c'est le réveillon du Nouvel An. Les amis sont chez Léa et Sophie.", "en": "On 31 December, it's New Year's Eve. The friends are at Léa and Sophie's." },
+      { "sp": "Sophie", "fr": "Quelle semaine ! Récemment, il y a eu beaucoup de surprises : avant-hier, Hugo est passé à la télé, et hier, c'était ma fête !", "en": "What a week! There have been lots of surprises recently: the day before yesterday, Hugo was on TV, and yesterday was my party!" },
+      { "sp": "Hugo", "fr": "Et maintenant, le réveillon ! Je suis toujours fatigué, mais je suis content.", "en": "And now, New Year's Eve! I'm still tired, but I'm happy." },
+      { "sp": "Léa", "fr": "Il est déjà onze heures. Dans une heure, c'est la fin de l'année !", "en": "It's already eleven o'clock. In an hour, it's the end of the year!" },
+      { "sp": "Tom", "fr": "Le début d'une nouvelle année… J'adore ce moment.", "en": "The beginning of a new year… I love this moment." },
+      { "sp": "Inès", "fr": "Parfois, je pense au passé… Et souvent, je pense au futur !", "en": "Sometimes I think about the past… And I often think about the future!" },
+      { "sp": "Hugo", "fr": "Moi, je pense au présent : où sont les crêpes ?", "en": "I'm thinking about the present: where are the crêpes?" },
+      { "sp": "Sophie", "fr": "Tu as mangé tout à l'heure ! Tu manges encore ?", "en": "You ate a little while ago! You're eating again?" },
+      { "sp": "Hugo", "fr": "Je n'ai jamais assez mangé le soir du réveillon. C'est une tradition depuis des siècles !", "en": "I never eat enough on New Year's Eve. It's a centuries-old tradition!" },
+      { "sp": "", "fr": "Léa téléphone longtemps à ses parents, à Paris. Lou passe les vacances chez sa grande sœur, et elle ne dort pas encore : elle veut voir minuit !", "en": "Léa has a long phone call with her parents in Paris. Lou is spending the holidays at her big sister's, and she isn't asleep yet: she wants to see midnight!" },
+      { "sp": "Lou", "fr": "Léa, c'est bientôt minuit ? Il reste combien de minutes ?", "en": "Léa, is it nearly midnight? How many minutes are left?" },
+      { "sp": "Léa", "fr": "Encore quinze minutes, ma puce. Tu es toujours debout ?", "en": "Fifteen more minutes, sweetie. You're still up?" },
+      { "sp": "", "fr": "À minuit moins une, tout le monde [compte|compter] les secondes en même temps : « Dix, neuf, huit… »", "en": "At one minute to midnight, everyone counts down the seconds together: 'Ten, nine, eight…'" },
+      { "sp": "Tous", "fr": "« … trois, deux, un… Bonne année ! »", "en": "'… three, two, one… Happy New Year!'" },
+      { "sp": "", "fr": "On s'embrasse, on rit. Le lendemain, tout le monde dort jusqu'à midi… et après-demain, c'est le retour au travail !", "en": "Everyone hugs and laughs. The next day, everyone sleeps until noon… and the day after tomorrow, it's back to work!" },
+      { "sp": "Hugo", "fr": "Déjà ? Les vacances passent toujours trop vite !", "en": "Already? Holidays always go too fast!" }
+    ]
+  }
+}

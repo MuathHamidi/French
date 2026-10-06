@@ -1,0 +1,204 @@
+{
+  "id": "u08-routine",
+  "type": "vocab",
+  "unit": 8,
+  "title": "Ma journée",
+  "en": "Daily routine",
+  "intro": "Most daily-routine verbs are **reflexive**: they come with a small pronoun meaning “myself, yourself…” (*je **me** lève* = I get up). The grammar lesson explains them; for now, learn them as whole phrases.",
+  "words": [
+    { "id": "se-reveiller", "fr": "se réveiller", "pos": "verb", "ipa": "sə ʁe.ve.je", "en": "to wake up",
+      "def": "Le matin, on ouvre les yeux : on se réveille.", "def_en": "In the morning, you open your eyes: you wake up.",
+      "extra": "je **me réveille** · tu **te réveilles** · il **se réveille** · nous **nous réveillons** · vous **vous réveillez** · ils **se réveillent**",
+      "forms": ["me réveille", "te réveilles", "se réveille", "nous nous réveillons", "vous vous réveillez", "se réveillent", "réveille", "réveilles", "réveillons", "réveillez", "réveillent", "réveiller", "réveillé", "réveillée", "réveillés", "réveillées", "réveillais", "réveillait", "réveillions", "réveilliez", "réveillaient", "me réveillerai", "te réveilleras", "se réveillera", "nous nous réveillerons", "vous vous réveillerez", "se réveilleront"],
+      "accept": ["se reveiller"],
+      "examples": [
+        { "fr": "Je **me réveille** à sept heures.", "en": "I wake up at seven." },
+        { "fr": "Tu **te réveilles** tôt ?", "en": "Do you wake up early?" },
+        { "fr": "Lou **se réveille** la nuit.", "en": "Lou wakes up in the night." }
+      ],
+      "note": "Without **se**, *réveiller* = to wake someone up: *Je réveille Lou.*" },
+    { "id": "se-lever", "fr": "se lever", "pos": "verb", "ipa": "sə lə.ve", "en": "to get up",
+      "def": "Sortir du lit.", "def_en": "To get out of bed.",
+      "extra": "je **me lève** · tu **te lèves** · il **se lève** · nous **nous levons** · vous **vous levez** · ils **se lèvent** — a “boot” verb (è).",
+      "forms": ["me lève", "te lèves", "se lève", "nous nous levons", "vous vous levez", "se lèvent", "lève-toi", "levez-vous", "levons-nous", "me lever", "te lever", "nous lever", "vous lever", "me suis levé", "me suis levée", "t'es levé", "t'es levée", "s'est levé", "s'est levée", "nous sommes levés", "se sont levés", "se sont levées", "me levais", "te levais", "se levait", "nous nous levions", "vous vous leviez", "se levaient", "te lève", "nous sommes levées", "vous êtes levés", "vous êtes levées", "me lèverai", "te lèveras", "se lèvera", "nous nous lèverons", "vous vous lèverez", "se lèveront"],
+      "examples": [
+        { "fr": "Je **me lève** à sept heures et quart.", "en": "I get up at quarter past seven." },
+        { "fr": "Hugo **se lève** toujours tard.", "en": "Hugo always gets up late." },
+        { "fr": "Nous **nous [levons|se-lever]** tôt.", "en": "We get up early." }
+      ] },
+    { "id": "se-doucher", "fr": "se doucher", "pos": "verb", "ipa": "sə du.ʃe", "en": "to shower, to take a shower",
+      "def": "Se laver sous la douche.", "def_en": "To wash under the shower.",
+      "forms": ["me douche", "te douches", "se douche", "nous nous douchons", "vous vous douchez", "se douchent", "douche-toi", "douchais", "douchait", "douchions", "douchiez", "douchaient", "me doucherai", "te doucheras", "se douchera", "nous nous doucherons", "vous vous doucherez", "se doucheront"],
+      "examples": [
+        { "fr": "Je **me douche** le matin.", "en": "I shower in the morning." },
+        { "fr": "Tu **te douches** le soir ?", "en": "Do you shower in the evening?" },
+        { "fr": "Sophie **se douche** pendant vingt minutes !", "en": "Sophie showers for twenty minutes!" }
+      ] },
+    { "id": "se-laver", "fr": "se laver", "pos": "verb", "ipa": "sə la.ve", "en": "to wash (yourself)",
+      "def": "Laver son corps avec de l'eau.", "def_en": "To wash your body with water.",
+      "forms": ["me lave", "te laves", "se lave", "nous nous lavons", "vous vous lavez", "se lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "me laverai", "te laveras", "se lavera", "nous nous laverons", "vous vous laverez", "se laveront"],
+      "examples": [
+        { "fr": "Je **me lave** les mains.", "en": "I wash my hands." },
+        { "fr": "Le chat **se lave** sur le lit.", "en": "The cat is washing itself on the bed." },
+        { "fr": "Les enfants **se lavent** avant le dîner.", "en": "The children wash before dinner." }
+      ] },
+    { "id": "se-brosser", "fr": "se brosser", "pos": "verb", "ipa": "sə bʁɔ.se", "en": "to brush (your teeth, your hair)",
+      "def": "Nettoyer ses dents ou ses cheveux avec une brosse.", "def_en": "To clean your teeth or hair with a brush.",
+      "forms": ["me brosse", "te brosses", "se brosse", "nous nous brossons", "vous vous brossez", "se brossent", "brossais", "brossait", "brossions", "brossiez", "brossaient", "me brosserai", "te brosseras", "se brossera", "nous nous brosserons", "vous vous brosserez", "se brosseront"],
+      "examples": [
+        { "fr": "Je **me brosse** les dents.", "en": "I brush my teeth." },
+        { "fr": "Lou **se brosse** les cheveux.", "en": "Lou brushes her hair." },
+        { "fr": "Tu **te brosses** les dents après le repas ?", "en": "Do you brush your teeth after meals?" }
+      ],
+      "note": "With body parts, French says **les dents** (the teeth), not *mes dents* — **me** already shows they're yours." },
+    { "id": "s-habiller", "fr": "s'habiller", "pos": "verb", "ipa": "sa.bi.je", "en": "to get dressed",
+      "def": "Mettre ses vêtements.", "def_en": "To put your clothes on.",
+      "extra": "je **m'habille** · tu **t'habilles** · il **s'habille** · nous **nous habillons** · vous **vous habillez** · ils **s'habillent**",
+      "forms": ["m'habille", "t'habilles", "s'habille", "nous nous habillons", "vous vous habillez", "s'habillent", "habille", "habilles", "habillons", "habillez", "habillent", "habiller", "habillais", "habillait", "habillions", "habilliez", "habillaient", "habillé", "habillée", "habillés", "habillées", "m'habillerai", "t'habilleras", "s'habillera", "nous nous habillerons", "vous vous habillerez", "s'habilleront"],
+      "accept": ["s'habiller"],
+      "examples": [
+        { "fr": "Je **m'habille** très vite.", "en": "I get dressed very quickly." },
+        { "fr": "Tu **t'habilles** pour la fête ?", "en": "Are you getting dressed for the party?" },
+        { "fr": "Hugo **s'habille** en noir.", "en": "Hugo dresses in black." }
+      ],
+      "note": "The **h** is silent, so **me, te, se** become **m', t', s'**." },
+    { "id": "se-coiffer", "fr": "se coiffer", "pos": "verb", "ipa": "sə kwa.fe", "en": "to do your hair",
+      "def": "Se brosser les cheveux pour être beau ou belle.", "def_en": "To brush your hair to look nice.",
+      "forms": ["me coiffe", "te coiffes", "se coiffe", "nous nous coiffons", "vous vous coiffez", "se coiffent", "coiffais", "coiffait", "coiffions", "coiffiez", "coiffaient", "me coifferai", "te coifferas", "se coiffera", "nous nous coifferons", "vous vous coifferez", "se coifferont"],
+      "examples": [
+        { "fr": "Je **me coiffe** devant le miroir.", "en": "I do my hair in front of the mirror." },
+        { "fr": "Léa **se coiffe** tous les matins.", "en": "Léa does her hair every morning." },
+        { "fr": "Tu ne **te coiffes** pas ?", "en": "Aren't you doing your hair?" }
+      ] },
+    { "id": "se-preparer", "fr": "se préparer", "pos": "verb", "ipa": "sə pʁe.pa.ʁe", "en": "to get ready",
+      "def": "Se laver, s'habiller, se coiffer… avant de partir.", "def_en": "To wash, get dressed, do your hair… before leaving.",
+      "forms": ["me prépare", "te prépares", "se prépare", "nous nous préparons", "vous vous préparez", "se préparent", "préparais", "préparait", "préparions", "prépariez", "préparaient", "me préparerai", "te prépareras", "se préparera", "nous nous préparerons", "vous vous préparerez", "se prépareront"],
+      "accept": ["se preparer"],
+      "examples": [
+        { "fr": "Je **me prépare** pour le travail.", "en": "I'm getting ready for work." },
+        { "fr": "Sophie **se prépare** pendant une heure !", "en": "Sophie takes an hour to get ready!" },
+        { "fr": "Vous **vous préparez** ?", "en": "Are you getting ready?" }
+      ] },
+    { "id": "se-depecher", "fr": "se dépêcher", "pos": "verb", "ipa": "sə de.pe.ʃe", "en": "to hurry",
+      "def": "Faire vite, parce qu'on est en retard.", "def_en": "To do things quickly, because you're late.",
+      "forms": ["me dépêche", "te dépêches", "se dépêche", "nous nous dépêchons", "vous vous dépêchez", "se dépêchent", "dépêche", "dépêchez", "dépêchons", "dépêchais", "dépêchait", "dépêchions", "dépêchiez", "dépêchaient", "me dépêcherai", "te dépêcheras", "se dépêchera", "nous nous dépêcherons", "vous vous dépêcherez", "se dépêcheront"],
+      "accept": ["se depecher"],
+      "examples": [
+        { "fr": "Je **me dépêche** : le train part !", "en": "I'm hurrying: the train is leaving!" },
+        { "fr": "**Dépêche**-toi, Hugo !", "en": "Hurry up, Hugo!" },
+        { "fr": "Nous **nous dépêchons** le matin.", "en": "We rush in the mornings." }
+      ] },
+    { "id": "partir", "fr": "partir", "pos": "verb", "ipa": "paʁ.tiʁ", "en": "to leave, to go (away)",
+      "def": "Aller dans un autre lieu : je pars au travail.", "def_en": "To go somewhere else: I'm leaving for work.",
+      "extra": "je **pars** · tu **pars** · il **part** · nous **partons** · vous **partez** · ils **partent** — irregular.",
+      "forms": ["pars", "part", "partons", "partez", "partent", "parti", "partie", "partis", "parties", "partais", "partait", "partions", "partiez", "partaient", "partirai", "partiras", "partira", "partirons", "partirez", "partiront"],
+      "examples": [
+        { "fr": "Je **pars** à huit heures.", "en": "I leave at eight." },
+        { "fr": "Le train **part** à midi.", "en": "The train leaves at noon." },
+        { "fr": "Vous **partez** déjà ?", "en": "Are you leaving already?" }
+      ] },
+    { "id": "rentrer", "fr": "rentrer", "pos": "verb", "ipa": "ʁɑ̃.tʁe", "en": "to go/come back home",
+      "def": "Aller à la maison après le travail ou l'école.", "def_en": "To go home after work or school.",
+      "forms": ["rentre", "rentres", "rentrons", "rentrez", "rentrent", "rentré", "rentrée", "rentrés", "rentrées", "rentrais", "rentrait", "rentrions", "rentriez", "rentraient", "rentrerai", "rentreras", "rentrera", "rentrerons", "rentrerez", "rentreront"],
+      "examples": [
+        { "fr": "Je **rentre** à six heures.", "en": "I get home at six." },
+        { "fr": "Tu **rentres** tard ce soir ?", "en": "Are you coming home late tonight?" },
+        { "fr": "Les enfants **rentrent** de l'école.", "en": "The children are coming home from school." }
+      ] },
+    { "id": "se-reposer", "fr": "se reposer", "pos": "verb", "ipa": "sə ʁə.po.ze", "en": "to rest",
+      "def": "Arrêter de travailler un peu, quand on est fatigué.", "def_en": "To stop working for a while, when you're tired.",
+      "forms": ["me repose", "te reposes", "se repose", "nous nous reposons", "vous vous reposez", "se reposent", "repose-toi", "repose", "reposes", "reposons", "reposez", "reposent", "reposer", "reposé", "reposée", "reposés", "reposées", "reposais", "reposait", "reposions", "reposiez", "reposaient", "me reposerai", "te reposeras", "se reposera", "nous nous reposerons", "vous vous reposerez", "se reposeront"],
+      "examples": [
+        { "fr": "Le dimanche, je **me repose**.", "en": "On Sundays, I rest." },
+        { "fr": "Grand-père **se repose** dans son fauteuil.", "en": "Grandpa is resting in his armchair." },
+        { "fr": "Vous **vous reposez** un peu ?", "en": "Are you resting a little?" }
+      ] },
+    { "id": "se-coucher", "fr": "se coucher", "pos": "verb", "ipa": "sə ku.ʃe", "en": "to go to bed",
+      "def": "Aller au lit le soir.", "def_en": "To go to bed in the evening.",
+      "forms": ["me couche", "te couches", "se couche", "nous nous couchons", "vous vous couchez", "se couchent", "couche", "coucher", "couches", "couchons", "couchez", "couchent", "couché", "couchée", "couchés", "couchées", "couchais", "couchait", "couchions", "couchiez", "couchaient", "me coucherai", "te coucheras", "se couchera", "nous nous coucherons", "vous vous coucherez", "se coucheront"],
+      "examples": [
+        { "fr": "Je **me couche** à onze heures.", "en": "I go to bed at eleven." },
+        { "fr": "Lou **se couche** tôt.", "en": "Lou goes to bed early." },
+        { "fr": "Tu **te couches** trop tard !", "en": "You go to bed too late!" }
+      ],
+      "note": "**le soleil se couche** = the sun sets." },
+    { "id": "s-endormir", "fr": "s'endormir", "pos": "verb", "ipa": "sɑ̃.dɔʁ.miʁ", "en": "to fall asleep",
+      "def": "Commencer à dormir.", "def_en": "To start sleeping.",
+      "extra": "je **m'endors** · tu **t'endors** · il **s'endort** · nous **nous endormons** · vous **vous endormez** · ils **s'endorment** — like *dormir*.",
+      "forms": ["m'endors", "t'endors", "s'endort", "nous nous endormons", "vous vous endormez", "s'endorment", "endors", "endort", "endormons", "endormez", "endorment", "endormir", "endormi", "endormie", "endormis", "endormies", "endormais", "endormait", "endormions", "endormiez", "endormaient", "m'endormirai", "t'endormiras", "s'endormira", "nous nous endormirons", "vous vous endormirez", "s'endormiront"],
+      "examples": [
+        { "fr": "Je **m'endors** vite.", "en": "I fall asleep quickly." },
+        { "fr": "Lou **s'endort** dans la voiture.", "en": "Lou falls asleep in the car." },
+        { "fr": "Tu **t'endors** devant la télé !", "en": "You're falling asleep in front of the TV!" }
+      ] },
+    { "id": "dormir", "fr": "dormir", "pos": "verb", "ipa": "dɔʁ.miʁ", "en": "to sleep",
+      "def": "Être dans son lit, les yeux fermés, la nuit.", "def_en": "To be in bed with your eyes closed, at night.",
+      "extra": "je **dors** · tu **dors** · il **dort** · nous **dormons** · vous **dormez** · ils **dorment** — irregular.",
+      "forms": ["dors", "dort", "dormons", "dormez", "dorment", "dormi", "dormais", "dormait", "dormions", "dormiez", "dormaient", "dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront"],
+      "examples": [
+        { "fr": "Je **dors** huit heures par nuit.", "en": "I sleep eight hours a night." },
+        { "fr": "Chut ! Le bébé **dort**.", "en": "Shh! The baby's sleeping." },
+        { "fr": "Tu **dors** bien ?", "en": "Do you sleep well?" }
+      ] },
+    { "id": "etudier", "fr": "étudier", "pos": "verb", "ipa": "e.ty.dje", "en": "to study",
+      "def": "Travailler pour apprendre : les étudiants étudient.", "def_en": "To work in order to learn: students study.",
+      "extra": "j'**étudie** · tu **étudies** · il **étudie** · nous **étudions** · vous **étudiez** · ils **étudient**",
+      "forms": ["étudie", "étudies", "étudions", "étudiez", "étudient", "étudiais", "étudiait", "étudiions", "étudiiez", "étudiaient", "étudierai", "étudieras", "étudiera", "étudierons", "étudierez", "étudieront"], "accept": ["etudier"],
+      "examples": [
+        { "fr": "J'**étudie** le français.", "en": "I'm studying French." },
+        { "fr": "Tu **étudies** à Lyon ?", "en": "Do you study in Lyon?" },
+        { "fr": "Nous **étudions** ensemble.", "en": "We study together." }
+      ] },
+    { "id": "reveil", "fr": "réveil", "pos": "noun", "g": "m", "ipa": "ʁe.vɛj", "en": "alarm clock",
+      "def": "Il sonne le matin pour nous réveiller.", "def_en": "It rings in the morning to wake us up.",
+      "forms": ["réveils"], "accept": ["reveil"],
+      "examples": [
+        { "fr": "Mon **réveil** sonne à sept heures.", "en": "My alarm goes off at seven." },
+        { "fr": "Le **réveil** est sur la table, à côté du lit.", "en": "The alarm clock is on the table next to the bed." },
+        { "fr": "Je n'entends pas mon **réveil** !", "en": "I don't hear my alarm!" }
+      ] },
+    { "id": "dent", "fr": "dent", "pos": "noun", "g": "f", "ipa": "dɑ̃", "en": "tooth",
+      "def": "Dans la bouche, elles sont blanches : on mange avec.", "def_en": "In your mouth, they're white: you eat with them.",
+      "forms": ["dents"],
+      "examples": [
+        { "fr": "Je me brosse les **dents**.", "en": "I brush my teeth." },
+        { "fr": "Le bébé a deux **dents** !", "en": "The baby has two teeth!" },
+        { "fr": "J'ai mal aux **dents**.", "en": "I have toothache." }
+      ],
+      "note": "**une brosse à dents** = a toothbrush." },
+    { "id": "fatigue", "fr": "fatigué", "pos": "adj", "ipa": "fa.ti.ɡe", "display": "fatigué(e)", "en": "tired",
+      "def": "Qui a besoin de dormir ou de se reposer.", "def_en": "Needing to sleep or rest.",
+      "forms": ["fatiguée", "fatigués", "fatiguées"], "accept": ["fatiguée", "fatigue"],
+      "examples": [
+        { "fr": "Je suis très **fatigué** ce soir.", "en": "I'm very tired tonight." },
+        { "fr": "Léa est **fatiguée** : elle se couche.", "en": "Léa is tired: she's going to bed." },
+        { "fr": "Les enfants sont **fatigués**.", "en": "The children are tired." }
+      ] },
+    { "id": "en-retard", "fr": "en retard", "pos": "expr", "ipa": "ɑ̃ ʁə.taʁ", "en": "late",
+      "def": "Le cours commence à huit heures, j'arrive à huit heures dix : je suis en retard.", "def_en": "Class starts at eight, I arrive at ten past eight: I'm late.",
+      "extra": "The opposite: **à l'heure** (on time), **en avance** (early).",
+      "examples": [
+        { "fr": "Pardon, je suis **en retard** !", "en": "Sorry, I'm late!" },
+        { "fr": "Le train est **en retard**.", "en": "The train is late." },
+        { "fr": "Hugo est toujours **en retard**.", "en": "Hugo is always late." }
+      ] }
+  ],
+  "story": {
+    "title": "La journée de Léa",
+    "en": "Léa describes a normal weekday.",
+    "lines": [
+      { "fr": "Le matin, mon réveil sonne à sept heures.", "en": "In the morning, my alarm goes off at seven." },
+      { "fr": "Je me réveille, mais je ne me lève pas tout de suite.", "en": "I wake up, but I don't get up right away." },
+      { "fr": "À sept heures et quart, je me lève et je me douche.", "en": "At quarter past seven, I get up and shower." },
+      { "fr": "Après, je m'habille, je me brosse les dents et je me coiffe.", "en": "Then I get dressed, brush my teeth and do my hair." },
+      { "fr": "Sophie, elle, se prépare pendant une heure !", "en": "Sophie takes an hour to get ready!", "br": true },
+      { "fr": "Je pars à huit heures. Je me dépêche, parce que je suis souvent en retard.", "en": "I leave at eight. I hurry, because I'm often late." },
+      { "fr": "À l'école, j'étudie le français toute la journée.", "en": "At school, I study French all day.", "br": true },
+      { "fr": "Le soir, je rentre à la maison et je me repose.", "en": "In the evening, I come home and rest." },
+      { "fr": "Avant le dîner, je me lave les mains.", "en": "Before dinner, I wash my hands." },
+      { "fr": "À onze heures, je suis fatiguée. Je me couche.", "en": "At eleven, I'm tired. I go to bed." },
+      { "fr": "Je lis un peu, et je m'endors vite.", "en": "I read a little, and I fall asleep quickly." },
+      { "fr": "Je dors huit heures par nuit… quand Minou ne me réveille pas !", "en": "I sleep eight hours a night… when Minou doesn't wake me up!" }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "id": "u14-participes",
+  "type": "grammar",
+  "unit": 14,
+  "title": "J'ai pris le train",
+  "en": "Irregular past participles (and venir de)",
+  "intro": "The most common verbs have irregular past participles: *j'ai **pris**, j'ai **fait**, j'ai **eu**, j'ai **vu**…* They fall into a few families (**-u, -is, -it, -ert**), so learn them by group. Plus: the weather in the past, and **venir de** for something that has *just* happened.",
+  "cases": [
+    { "id": "pp-u", "label": "-u: eu, vu, bu, lu", "rule": "Many irregular participles end in **-u**: *avoir → **eu*** (said /y/), *voir → vu, boire → bu, lire → lu, connaître → connu, recevoir → reçu*." },
+    { "id": "pp-modaux", "label": "pu, voulu, dû, su", "rule": "The modal verbs too: *pouvoir → **pu**, vouloir → **voulu**, devoir → **dû**, savoir → **su***. **dû** has a circumflex, so you can tell it from *du*." },
+    { "id": "pp-is", "label": "-is: pris, mis", "rule": "*prendre → **pris*** (and *appris, compris*), *mettre → **mis*** (and *promis*)." },
+    { "id": "pp-it", "label": "-it: fait, dit, écrit", "rule": "*faire → **fait**, dire → **dit**, écrire → **écrit**, conduire → **conduit***." },
+    { "id": "pp-ert", "label": "-ert: ouvert, offert", "rule": "*ouvrir → **ouvert**, offrir → **offert**, découvrir → **découvert***." },
+    { "id": "pp-etre", "label": "être → été", "rule": "**être** takes *avoir* in the passé composé: *j'ai **été** malade* (I was ill, I've been ill). Don't mix it up with *l'été* (summer)!" },
+    { "id": "pp-meteo", "label": "il a plu, il y a eu", "rule": "The weather in the past: *il a **plu*** (pleuvoir), *il a neigé, il a fait beau*. **il y a** becomes **il y a eu**: *il y a eu un orage*." },
+    { "id": "pp-venir-de", "label": "venir de: just", "rule": "For something that has **just** happened, use **venir de** + infinitive: *Je viens de manger* (I've just eaten). *L'avion vient d'atterrir.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Participles in -u",
+      "table": {
+        "head": ["Infinitive", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["avoir", "eu", "J'ai eu peur."],
+          ["voir", "vu", "J'ai vu un film."],
+          ["boire", "bu", "J'ai bu un café."],
+          ["lire", "lu", "J'ai lu un livre."],
+          ["connaître", "connu", "J'ai connu Léa à Lyon."],
+          ["recevoir", "reçu", "J'ai reçu un mail."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai eu|pp-u} très peur !", "en": "I was really scared!" },
+        { "fr": "{Tu as vu|pp-u} le film ?", "en": "Have you seen the film?" },
+        { "fr": "{Nous avons bu|pp-u} un café à l'aéroport.", "en": "We had a coffee at the airport." }
+      ],
+      "tip": "**eu** (from *avoir*) is said just /y/, like *u* in *tu*."
+    },
+    {
+      "title": "2. pouvoir, vouloir, devoir, savoir",
+      "table": {
+        "head": ["Infinitive", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["pouvoir", "pu", "Je n'ai pas pu venir."],
+          ["vouloir", "voulu", "Il a voulu partir."],
+          ["devoir", "dû", "J'ai dû travailler."],
+          ["savoir", "su", "Elle a su répondre."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai dû|pp-modaux} prendre le train suivant.", "en": "I had to take the next train." },
+        { "fr": "{Tu as pu|pp-modaux} dormir ?", "en": "Were you able to sleep?" },
+        { "fr": "{Ils ont voulu|pp-modaux} visiter Québec.", "en": "They wanted to visit Quebec City." }
+      ],
+      "tip": "**dû** (had to) and **du** (some) sound the same; the circumflex shows the difference in writing."
+    },
+    {
+      "title": "3. Participles in -is",
+      "table": {
+        "head": ["Infinitive", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["prendre", "pris", "J'ai pris le train."],
+          ["apprendre", "appris", "J'ai appris le français."],
+          ["comprendre", "[compris|comprendre]", "Tu as compris ?"],
+          ["mettre", "mis", "J'ai mis mon manteau."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous avons pris|pp-is} l'avion à Paris.", "en": "We took the plane in Paris." },
+        { "fr": "{Tu as compris|pp-is} la question ?", "en": "Did you understand the question?" },
+        { "fr": "{Il a mis|pp-is} son passeport dans son sac.", "en": "He put his passport in his bag." }
+      ]
+    },
+    {
+      "title": "4. Participles in -it",
+      "table": {
+        "head": ["Infinitive", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["faire", "fait", "J'ai fait ma valise."],
+          ["dire", "dit", "Il a dit bonjour."],
+          ["écrire", "écrit", "J'ai écrit une carte."],
+          ["conduire", "conduit", "Papa a conduit."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai fait|pp-it} ma valise hier soir.", "en": "I packed my suitcase last night." },
+        { "fr": "{Qu'est-ce qu'il a dit|pp-it} ?", "en": "What did he say?" },
+        { "fr": "{Léa a écrit|pp-it} une carte postale.", "en": "Léa wrote a postcard." }
+      ]
+    },
+    {
+      "title": "5. Participles in -ert",
+      "table": {
+        "head": ["Infinitive", "Participle", "Example"], "frCols": [0, 1, 2],
+        "rows": [
+          ["ouvrir", "ouvert", "J'ai ouvert la fenêtre."],
+          ["offrir", "offert", "Il m'a offert des fleurs."],
+          ["découvrir", "découvert", "Nous avons découvert un lac."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai ouvert|pp-ert} ma valise.", "en": "I opened my suitcase." },
+        { "fr": "{Ils ont offert|pp-ert} un cadeau à Lou.", "en": "They gave Lou a present." },
+        { "fr": "{Tu as découvert|pp-ert} le Vieux-Montréal ?", "en": "Have you discovered Old Montréal?" }
+      ]
+    },
+    {
+      "title": "6. être → été",
+      "text": ["**être** also uses *avoir* in the passé composé, and its participle is **été**: the same spelling as *l'été* (summer)!"],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai été malade.", "I was ill. / I've been ill."],
+          ["Tu as été très gentil.", "You've been very kind."],
+          ["Le voyage a été long.", "The journey was long."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai [été|etre] malade|pp-etre} dans l'avion.", "en": "I was sick on the plane." },
+        { "fr": "{Le vol a [été|etre] long|pp-etre}.", "en": "The flight was long." }
+      ]
+    },
+    {
+      "title": "7. The weather in the past",
+      "table": {
+        "head": ["Now", "In the past"], "frCols": [0, 1],
+        "rows": [
+          ["Il pleut.", "Il a plu."],
+          ["Il neige.", "Il a neigé."],
+          ["Il fait beau.", "Il a fait beau."],
+          ["Il y a un orage.", "Il y a eu un orage."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il a plu|pp-meteo} toute la semaine.", "en": "It rained all week." },
+        { "fr": "Hier, {il a fait très chaud|pp-meteo}.", "en": "Yesterday, it was very hot." },
+        { "fr": "{Il y a eu un orage|pp-meteo} cette nuit.", "en": "There was a storm last night." }
+      ],
+      "tip": "**il y a eu** = there was, there has been: *il y a eu un problème*."
+    },
+    {
+      "title": "8. venir de + infinitive: just",
+      "text": ["To say something has **just** happened, French doesn't use the passé composé. It uses **venir de** (in the present) + infinitive."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je viens de manger.", "I've just eaten."],
+          ["Il vient de partir.", "He's just left."],
+          ["Nous venons d'arriver.", "We've just arrived."],
+          ["L'avion vient d'atterrir.", "The plane has just landed."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je viens de finir|pp-venir-de} mon travail.", "en": "I've just finished my work." },
+        { "fr": "{Le train vient de partir|pp-venir-de} !", "en": "The train has just left!" },
+        { "fr": "{Ils viennent d'arriver|pp-venir-de} à Montréal.", "en": "They've just arrived in Montréal." }
+      ],
+      "tip": "Compare: *je vais manger* (I'm going to eat), *je mange* (I'm eating), *je viens de manger* (I've just eaten)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai prendu le train.", "right": "J'ai pris le train.", "why": "*prendre* → **pris**." },
+    { "wrong": "J'ai faité ma valise.", "right": "J'ai fait ma valise.", "why": "*faire* → **fait**." },
+    { "wrong": "J'ai ouvri la fenêtre.", "right": "J'ai ouvert la fenêtre.", "why": "*ouvrir* → **ouvert**." },
+    { "wrong": "J'ai du partir.", "right": "J'ai dû partir.", "why": "**dû** (from devoir) has a circumflex; *du* means 'some'." },
+    { "wrong": "Il a pleuvu.", "right": "Il a plu.", "why": "*pleuvoir* → **plu**." },
+    { "wrong": "J'ai juste mangé. (= I've just eaten)", "right": "Je viens de manger.", "why": "For *just*, use **venir de** + infinitive." }
+  ],
+  "story": {
+    "title": "Le voyage de Hugo",
+    "en": "In August, Hugo finally arrives in Montréal… after quite a journey.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le cinq août, Hugo arrive enfin à Montréal. Il raconte son voyage à Léa.", "en": "On the fifth of August, Hugo finally arrives in Montréal. He tells Léa about his journey." },
+      { "sp": "Hugo", "fr": "Quel voyage ! Ce matin, à Lyon, {j'ai fait|pp-it} ma valise et {j'ai pris|pp-is} un taxi pour la gare.", "en": "What a journey! This morning in Lyon, I packed my suitcase and took a taxi to the station." },
+      { "sp": "Hugo", "fr": "Dans le taxi, {j'ai ouvert|pp-ert} mon sac… et pas de passeport !", "en": "In the taxi, I opened my bag… and no passport!" },
+      { "sp": "Léa", "fr": "Non ! Hugo ! {Je t'ai dit|pp-it} cent fois : « N'oublie pas ton passeport ! »", "en": "No! Hugo! I told you a hundred times: “Don't forget your passport!”" },
+      { "sp": "Hugo", "fr": "Je sais… {J'ai eu|pp-u} très peur ! J'ai demandé au chauffeur : « Demi-tour, s'il vous plaît ! »", "en": "I know… I was really scared! I asked the driver: “Turn round, please!”" },
+      { "sp": "Hugo", "fr": "J'ai trouvé mon passeport sur la table de la cuisine. Mais j'ai raté mon train, et {j'ai dû|pp-modaux} prendre le train suivant.", "en": "I found my passport on the kitchen table. But I missed my train, and I had to take the next one." },
+      { "sp": "Léa", "fr": "Et l'avion ? {Tu as pu|pp-modaux} prendre ton avion ?", "en": "And the plane? Did you manage to catch your plane?" },
+      { "sp": "Hugo", "fr": "Oui ! {Il y a eu un orage|pp-meteo} à Paris, et l'avion a décollé avec deux heures de retard. Quelle chance !", "en": "Yes! There was a storm in Paris, and the plane took off two hours late. What luck!" },
+      { "sp": "Hugo", "fr": "{J'ai [été|etre] malade|pp-etre} au décollage, mais après, {j'ai bu|pp-u} un café, {j'ai lu|pp-u} un livre et {j'ai vu|pp-u} deux films.", "en": "I felt sick at take-off, but afterwards I had a coffee, read a book and watched two films." },
+      { "sp": "Hugo", "fr": "{J'ai même écrit|pp-it} une carte postale pour Sophie !", "en": "I even wrote a postcard to Sophie!" },
+      { "sp": "Léa", "fr": "Ici, {il a plu|pp-meteo} toute la semaine, mais aujourd'hui, {il a fait|pp-meteo} très beau.", "en": "Here, it's rained all week, but today the weather's been lovely." },
+      { "sp": "", "fr": "Lou arrive avec un petit paquet pour Hugo.", "en": "Lou comes in with a little parcel for Hugo." },
+      { "sp": "Lou", "fr": "Hugo ! Un cadeau pour toi !", "en": "Hugo! A present for you!" },
+      { "sp": "Hugo", "fr": "Merci, Lou ! Qu'est-ce que c'est ? Un porte-passeport !", "en": "Thank you, Lou! What is it? A passport holder!" },
+      { "sp": "Léa", "fr": "{Nous avons voulu|pp-modaux} t'aider : maintenant, ton passeport a une maison !", "en": "We wanted to help you: now your passport has a home!" },
+      { "sp": "Hugo", "fr": "Ha ha ! {Je viens d'arriver|pp-venir-de}, et tout le monde se moque déjà de moi !", "en": "Ha ha! I've only just arrived, and everyone's already making fun of me!" },
+      { "sp": "Hugo", "fr": "Mais {j'ai compris|pp-is} la leçon : maintenant, je vérifie toujours mon sac deux fois !", "en": "But I've learned my lesson: now I always check my bag twice!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pp-u", "type": "mc", "q": "J'___ très peur !", "en": "I was really scared!", "options": ["ai eu", "ai avoir", "ai eué"], "answer": "ai eu" },
+    { "case": "pp-u", "type": "type", "q": "Dans l'avion, j'ai ___ un film.", "en": "On the plane, I watched a film.", "answer": "vu" },
+    { "case": "pp-u", "type": "mc", "q": "Tu as ___ un café ?", "en": "Did you have a coffee?", "options": ["bu", "boiré", "buvu"], "answer": "bu" },
+    { "case": "pp-modaux", "type": "mc", "q": "J'ai ___ prendre le train suivant.", "en": "I had to take the next train.", "options": ["dû", "du", "devu"], "answer": "dû", "why": "**dû** (from devoir) has a circumflex." },
+    { "case": "pp-modaux", "type": "type", "q": "Tu as ___ prendre ton avion ?", "en": "Did you manage to catch your plane?", "answer": "pu" },
+    { "case": "pp-is", "type": "mc", "q": "Hugo a ___ un taxi.", "en": "Hugo took a taxi.", "options": ["pris", "prendu", "prit"], "answer": "pris" },
+    { "case": "pp-is", "type": "type", "q": "J'ai ___ mon passeport dans mon sac.", "en": "I put my passport in my bag.", "answer": "mis" },
+    { "case": "pp-it", "type": "mc", "q": "J'ai ___ ma valise ce matin.", "en": "I packed my suitcase this morning.", "options": ["fait", "faisé", "fais"], "answer": "fait" },
+    { "case": "pp-it", "type": "type", "q": "Il m'a ___ : « Bon [voyage|voyage] ! »", "en": "He said to me: “Have a good trip!”", "answer": "dit" },
+    { "case": "pp-it", "type": "mc", "q": "Léa a ___ une carte postale.", "en": "Léa wrote a postcard.", "options": ["écrit", "écrivu", "écrié"], "answer": "écrit" },
+    { "case": "pp-ert", "type": "mc", "q": "J'ai ___ la fenêtre.", "en": "I opened the window.", "options": ["ouvert", "ouvri", "ouvré"], "answer": "ouvert" },
+    { "case": "pp-ert", "type": "type", "q": "Ils m'ont ___ un cadeau.", "en": "They gave me a present.", "answer": "offert" },
+    { "case": "pp-etre", "type": "mc", "lang": "en", "q": "How do you say “I was ill”?", "options": ["J'ai été malade.", "Je suis été malade.", "J'ai être malade."], "answer": "J'ai été malade." },
+    { "case": "pp-etre", "type": "mc", "lang": "en", "q": "In « J'ai été malade », « été » means…", "options": ["been (from être)", "summer"], "answer": "been (from être)", "say": "J'ai été malade." },
+    { "case": "pp-meteo", "type": "mc", "q": "Hier, il a ___ toute la journée.", "en": "Yesterday, it rained all day.", "options": ["plu", "pleuvu", "pleut"], "answer": "plu" },
+    { "case": "pp-meteo", "type": "type", "q": "Il y a ___ un orage.", "en": "There was a storm.", "answer": "eu" },
+    { "case": "pp-venir-de", "type": "mc", "lang": "en", "q": "How do you say “I've just arrived”?", "options": ["Je viens d'arriver.", "Je viens arriver.", "J'arrive de venir."], "answer": "Je viens d'arriver." },
+    { "case": "pp-venir-de", "type": "type", "q": "L'avion vient ___atterrir.", "en": "The plane has just landed.", "answer": "d'" }
+  ]
+}

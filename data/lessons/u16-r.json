@@ -1,0 +1,177 @@
+{
+  "id": "u16-r",
+  "type": "sounds",
+  "unit": 16,
+  "title": "Le R français",
+  "en": "Pronunciation: the French R",
+  "intro": "The French **R** /ʁ/ is made at the back of the mouth, not with the tip of the tongue. It's softer than people think: a light scrape of air, like a quiet gargle. Get it right and you'll sound French straight away.",
+  "cases": [
+    { "id": "r-how", "label": "how to make it", "rule": "Keep the tip of your tongue **down**, behind your bottom teeth. Raise the **back** of your tongue, as for /ɡ/, but don't close: let the air scrape through gently." },
+    { "id": "r-start", "label": "R at the start: rue, rire", "rule": "At the start of a word: *rue, rouge, rire, rond, rapide*. No English *r*: *rue* is not *roo*!" },
+    { "id": "r-middle", "label": "R between vowels: Paris", "rule": "Between two vowels the R is light and short: *Paris, arriver, heureux*." },
+    { "id": "r-cluster", "label": "R after a consonant: trois, grand", "rule": "After a consonant, say both sounds together, with no vowel in between: *trois, grand, prendre, frère, crêpe*." },
+    { "id": "r-end", "label": "R at the end: bonjour, noir", "rule": "At the end of a word the R is usually **pronounced**, softly: *bonjour, noir, sœur, mer, partir*." },
+    { "id": "r-silent", "label": "the silent R of -er", "rule": "In most words ending in **-er**, the R is silent: *parler, manger, premier, boulanger* (/e/). Also **monsieur** /mə.sjø/." },
+    { "id": "r-pairs", "label": "one R can change the word", "rule": "Forget the R and you say another word: *toi / trois, fait / frais, bas / bar, gant / grand*." }
+  ],
+  "sections": [
+    {
+      "title": "1. How to make the French R",
+      "text": ["Say **/ɡa/** and feel where the back of your tongue touches. Now make it touch *less* and let the air rub through: that's the French R. The tip of your tongue stays down, behind your bottom teeth."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["rue", "/ʁy/"],
+          ["rouge", "/ʁuʒ/"],
+          ["Paris", "/pa.ʁi/"],
+          ["merci", "/mɛʁ.si/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Bonjour|r-how}, {merci|r-how}, {au revoir|r-how} !", "en": "Hello, thank you, goodbye!" }
+      ],
+      "tip": "Practise slowly: *a-ra, a-ra*. Keep it light, like a whisper in your throat, not a growl!"
+    },
+    {
+      "title": "2. At the start of a word",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["rue", "/ʁy/"],
+          ["rire", "/ʁiʁ/"],
+          ["rond", "/ʁɔ̃/"],
+          ["rapide", "/ʁa.pid/"]
+        ]
+      },
+      "examples": [
+        { "fr": "La {robe rouge|r-start} de Léa.", "en": "Léa's red dress." },
+        { "fr": "Le ballon est {rond|r-start}.", "en": "The ball is round." }
+      ]
+    },
+    {
+      "title": "3. Between two vowels",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["Paris", "/pa.ʁi/"],
+          ["arriver", "/a.ʁi.ve/"],
+          ["heureux", "/ø.ʁø/"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'habite à {Paris|r-middle}.", "en": "I live in Paris." },
+        { "fr": "Je suis très {heureux|r-middle} !", "en": "I'm very happy!" }
+      ]
+    },
+    {
+      "title": "4. After a consonant",
+      "text": ["Don't put a little vowel between the consonant and the R: **trois** is one syllable, /tʁwa/."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["trois", "/tʁwa/"],
+          ["grand", "/ɡʁɑ̃/"],
+          ["prendre", "/pʁɑ̃dʁ/"],
+          ["frère", "/fʁɛʁ/"],
+          ["crêpe", "/kʁɛp/"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai {trois frères|r-cluster}.", "en": "I have three brothers." },
+        { "fr": "Je {prends le train|r-cluster}.", "en": "I'm taking the train." }
+      ]
+    },
+    {
+      "title": "5. At the end of a word",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["bonjour", "/bɔ̃.ʒuʁ/"],
+          ["noir", "/nwaʁ/"],
+          ["sœur", "/sœʁ/"],
+          ["partir", "/paʁ.tiʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Bonjour|r-end}, ma {sœur|r-end} !", "en": "Hello, sister!" },
+        { "fr": "Le chat {noir|r-end} dort.", "en": "The black cat is asleep." }
+      ],
+      "tip": "The final R is soft and short: don't drop it, but don't growl it either."
+    },
+    {
+      "title": "6. The silent R of -er",
+      "text": ["In infinitives and in most words ending in **-er**, the R is silent: **-er** sounds /e/."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["parler", "/paʁ.le/"],
+          ["manger", "/mɑ̃.ʒe/"],
+          ["premier", "/pʁə.mje/"],
+          ["boulanger", "/bu.lɑ̃.ʒe/"],
+          ["monsieur", "/mə.sjø/"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'aime {parler|r-silent} français.", "en": "I like speaking French." },
+        { "fr": "Le {boulanger|r-silent} ouvre à sept heures.", "en": "The baker opens at seven." }
+      ],
+      "tip": "Exceptions: short words like **mer, fer, hiver, cher** do say the R: /mɛʁ/, /ʃɛʁ/."
+    },
+    {
+      "title": "7. One R can change the word",
+      "table": {
+        "head": ["Without R", "With R"], "frCols": [0, 1],
+        "rows": [
+          ["toi", "trois"],
+          ["fait", "frais"],
+          ["bas", "bar"],
+          ["gant", "grand"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Toi|r-pairs}, tu as {trois|r-pairs} frères ?", "en": "You've got three brothers?" },
+        { "fr": "Il {fait frais|r-pairs} ce soir.", "en": "It's cool this evening." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "rue with an English r", "right": "rue /ʁy/", "why": "The French R is made at the back of the mouth." },
+    { "wrong": "parler → /paʁ.lɛʁ/", "right": "/paʁ.le/", "why": "**-er** at the end: the R is silent." },
+    { "wrong": "bonjour → /bɔ̃.ʒu/", "right": "/bɔ̃.ʒuʁ/", "why": "Don't drop the final R." },
+    { "wrong": "trois → /twa/", "right": "/tʁwa/", "why": "That would be *toi*! Keep the R after the **t**." }
+  ],
+  "story": {
+    "title": "Le petit rat de Paris",
+    "en": "Grandpa Jacques tells Lou a bedtime story full of R sounds.",
+    "lines": [
+      { "fr": "Grand-père Jacques raconte une histoire à Lou :", "en": "Grandpa Jacques tells Lou a story:", "br": true },
+      { "fr": "« Il était une fois, à {Paris|r-middle}, un petit {rat|r-start} très {rapide|r-start}.", "en": "“Once upon a time, in Paris, there was a very fast little rat." },
+      { "fr": "Il habitait dans une {rue|r-start} calme, avec ses {trois frères|r-cluster} et sa {sœur|r-end}.", "en": "He lived in a quiet street, with his three brothers and his sister." },
+      { "fr": "Le petit rat adorait le {fromage|r-cluster}.", "en": "The little rat loved cheese." },
+      { "fr": "Un matin, il est entré chez le {boulanger|r-silent} : « {Bonjour|r-end}, {monsieur|r-silent} ! »", "en": "One morning, he went into the baker's: “Good morning, sir!”" },
+      { "fr": "Mais le boulanger avait un {grand|r-cluster} chat {noir|r-end}…", "en": "But the baker had a big black cat…" },
+      { "fr": "Le petit rat a couru, couru, couru… Enfin, il est {arrivé|r-middle} chez lui, très {heureux|r-middle}.", "en": "The little rat ran, and ran, and ran… At last, he got home, very happy.", "br": true },
+      { "fr": "Sa sœur a ri : « {Toi|r-pairs} ? Tu as peur d'un chat ? »", "en": "His sister laughed: “You? You're scared of a cat?”" },
+      { "fr": "« Moi ? Non… J'ai peur de {trois|r-pairs} chats ! »", "en": "“Me? No… I'm scared of three cats!”" },
+      { "fr": "Depuis ce jour, le petit rat {préfère|r-cluster} manger son fromage à la maison, avec ses frères. »", "en": "Since that day, the little rat prefers to eat his cheese at home, with his brothers.”", "br": true },
+      { "fr": "Lou applaudit : « Encore ! {Raconte|r-start} encore ! »", "en": "Lou claps: “Again! Tell it again!”" },
+      { "fr": "Elle veut dire « {Merci, grand-père|r-how} »… mais le R français, c'est difficile à trois ans !", "en": "She wants to say “Thank you, Grandpa”… but the French R is hard when you're three!" }
+    ]
+  },
+  "quiz": [
+    { "case": "r-how", "type": "mc", "lang": "en", "q": "Where do you make the French R?", "options": ["at the back of the mouth", "with the tip of the tongue", "with the lips"], "answer": "at the back of the mouth", "say": "rouge" },
+    { "case": "r-how", "type": "mc", "lang": "en", "q": "When you say the French R, the tip of your tongue…", "options": ["stays down, behind the bottom teeth", "touches the roof of the mouth", "curls back, like in English"], "answer": "stays down, behind the bottom teeth", "say": "Paris" },
+    { "case": "r-start", "type": "mc", "lang": "en", "listen": "rire", "q": "Listen: rire or lire?", "options": ["rire", "lire"], "answer": "rire" },
+    { "case": "r-start", "type": "mc", "lang": "en", "listen": "rond", "q": "Listen: rond or long?", "options": ["rond", "long"], "answer": "rond" },
+    { "case": "r-middle", "type": "mc", "lang": "en", "q": "In « Paris », you say…", "options": ["/pa.ʁi/: with a French R", "/pa.i/: no R", "/pa.ʁis/: with an s"], "answer": "/pa.ʁi/: with a French R", "say": "Paris" },
+    { "case": "r-middle", "type": "mc", "lang": "en", "q": "How many R sounds are there in « heureux »?", "options": ["one", "two", "none"], "answer": "one", "say": "heureux" },
+    { "case": "r-cluster", "type": "mc", "lang": "en", "listen": "grand", "q": "Listen: gant or grand?", "options": ["grand", "gant"], "answer": "grand" },
+    { "case": "r-cluster", "type": "mc", "lang": "en", "q": "In « frère », « prendre », « trois », the R comes…", "options": ["right after a consonant: say them together", "at the end of the word", "nowhere: it's silent"], "answer": "right after a consonant: say them together", "say": "frère, prendre, trois" },
+    { "case": "r-end", "type": "mc", "lang": "en", "q": "Do you hear the R at the end of « bonjour »?", "options": ["yes, softly", "no, it's silent"], "answer": "yes, softly", "say": "bonjour" },
+    { "case": "r-end", "type": "mc", "lang": "en", "listen": "bar", "q": "Listen: bas or bar?", "options": ["bar", "bas"], "answer": "bar" },
+    { "case": "r-silent", "type": "mc", "lang": "en", "q": "Do you hear the R in « parler »?", "options": ["no: -er sounds /e/", "yes: /paʁ.lɛʁ/"], "answer": "no: -er sounds /e/", "say": "parler" },
+    { "case": "r-silent", "type": "mc", "lang": "en", "q": "Which word ends with a silent R?", "options": ["boulanger", "bonjour", "noir"], "answer": "boulanger", "say": "boulanger, bonjour, noir" },
+    { "case": "r-pairs", "type": "mc", "lang": "en", "listen": "trois", "q": "Listen: toi or trois?", "options": ["trois", "toi"], "answer": "trois" },
+    { "case": "r-pairs", "type": "mc", "lang": "en", "listen": "frais", "q": "Listen: fait or frais?", "options": ["frais", "fait"], "answer": "frais" }
+  ]
+}

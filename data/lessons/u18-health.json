@@ -1,0 +1,244 @@
+{
+  "id": "u18-health",
+  "type": "vocab",
+  "unit": 18,
+  "title": "Chez le médecin",
+  "en": "Health & illness",
+  "intro": "25 words for being ill and getting better: the cold and the flu, pain and fever, the prescription and the chemist's, A&E and the ambulance. The key phrase: **avoir mal à** (*j'ai mal à la gorge*), and the good news: **aller mieux**.",
+  "words": [
+    { "id": "sante", "fr": "santé", "pos": "noun", "g": "f", "ipa": "sɑ̃.te", "en": "health; (santé !) cheers!",
+      "def": "Quand on est en bonne santé, on n'est pas malade et on se sent bien.", "def_en": "When you're in good health, you're not ill and you feel well.",
+      "examples": [
+        { "fr": "Le sport, c'est bon pour la **santé**.", "en": "Sport is good for your health." },
+        { "fr": "Mes grands-parents sont en bonne **santé**.", "en": "My grandparents are in good health." },
+        { "fr": "À votre **santé** !", "en": "Cheers!" }
+      ],
+      "note": "**en bonne santé** = healthy. **Santé !** = Cheers!" },
+    { "id": "maladie", "fr": "maladie", "pos": "noun", "g": "f", "ipa": "ma.la.di", "en": "illness, disease",
+      "def": "Un problème de santé : la grippe, par exemple.", "def_en": "A health problem: the flu, for example.",
+      "forms": ["maladies"],
+      "examples": [
+        { "fr": "C'est une **maladie** grave ?", "en": "Is it a serious illness?" },
+        { "fr": "Le médecin soigne les **maladies**.", "en": "The doctor treats illnesses." },
+        { "fr": "Il est absent pour **maladie**.", "en": "He's off sick." }
+      ] },
+    { "id": "malade", "fr": "malade", "pos": "adj", "ipa": "ma.lad", "en": "ill, sick; (un, une malade) a patient",
+      "def": "Qui a une maladie ; qui ne se sent pas bien.", "def_en": "Who has an illness; who doesn't feel well.",
+      "forms": ["malades"],
+      "examples": [
+        { "fr": "Je suis **malade** : je reste au lit.", "en": "I'm ill: I'm staying in bed." },
+        { "fr": "Lou est **malade**, elle ne va pas à l'école.", "en": "Lou is ill, she isn't going to school." },
+        { "fr": "L'infirmière s'occupe des **malades**.", "en": "The nurse looks after the patients." }
+      ] },
+    { "id": "douleur", "fr": "douleur", "pos": "noun", "g": "f", "ipa": "du.lœʁ", "en": "pain",
+      "def": "Ce qu'on sent quand on a mal.", "def_en": "What you feel when something hurts.",
+      "forms": ["douleurs"],
+      "examples": [
+        { "fr": "J'ai une **douleur** dans le dos.", "en": "I have a pain in my back." },
+        { "fr": "Prenez ce comprimé contre la **douleur**.", "en": "Take this tablet for the pain." },
+        { "fr": "Quelle **douleur** !", "en": "It hurts so much!" }
+      ] },
+    { "id": "avoir-mal", "fr": "avoir mal", "pos": "expr", "ipa": "a.vwaʁ mal", "en": "to hurt, to ache (avoir mal à = to have a pain in)",
+      "def": "Sentir une douleur dans une partie du corps : j'ai mal à la tête.", "def_en": "To feel pain in a part of the body: I've got a headache.",
+      "forms": ["ai mal", "as mal", "a mal", "avons mal", "avez mal", "ont mal", "avais mal", "avait mal", "avaient mal"],
+      "examples": [
+        { "fr": "J'**ai mal** à la tête.", "en": "I've got a headache." },
+        { "fr": "Tu **as mal** où ?", "en": "Where does it hurt?" },
+        { "fr": "Lou **a mal** aux dents.", "en": "Lou has toothache." }
+      ],
+      "note": "**avoir mal à** + body part: *au dos, à la tête, à l'oreille, aux pieds*. **Ça fait mal !** = It hurts!" },
+    { "id": "fievre", "fr": "fièvre", "pos": "noun", "g": "f", "ipa": "fjɛvʁ", "en": "fever, temperature",
+      "def": "Quand le corps est trop chaud, parce qu'on est malade.", "def_en": "When the body is too hot, because you're ill.",
+      "forms": ["fièvres"],
+      "examples": [
+        { "fr": "J'ai de la **fièvre** : trente-neuf degrés !", "en": "I've got a temperature: thirty-nine degrees!" },
+        { "fr": "Lou a beaucoup de **fièvre** cette nuit.", "en": "Lou has a high temperature tonight." },
+        { "fr": "La **fièvre** baisse enfin.", "en": "The fever is finally going down." }
+      ] },
+    { "id": "rhume", "fr": "rhume", "pos": "noun", "g": "m", "ipa": "ʁym", "en": "cold (the illness)",
+      "def": "Une petite maladie : on a le nez qui coule et on éternue.", "def_en": "A minor illness: your nose runs and you sneeze.",
+      "forms": ["rhumes"],
+      "examples": [
+        { "fr": "J'ai un **rhume**.", "en": "I've got a cold." },
+        { "fr": "Ce n'est pas grave, c'est juste un **rhume**.", "en": "It's nothing serious, just a cold." },
+        { "fr": "En hiver, les enfants ont souvent des **rhumes**.", "en": "In winter, children often have colds." }
+      ],
+      "note": "The **h** is silent: /ʁym/. **attraper un rhume** = to catch a cold." },
+    { "id": "grippe", "fr": "grippe", "pos": "noun", "g": "f", "ipa": "ɡʁip", "en": "flu",
+      "def": "Une maladie avec de la fièvre, des douleurs partout et une grande fatigue.", "def_en": "An illness with a fever, aches everywhere and great tiredness.",
+      "examples": [
+        { "fr": "J'ai la **grippe** : je reste au lit.", "en": "I've got the flu: I'm staying in bed." },
+        { "fr": "Il y a beaucoup de **grippe** en hiver.", "en": "There's a lot of flu around in winter." },
+        { "fr": "Le vaccin contre la **grippe**, c'est en octobre.", "en": "The flu jab is in October." }
+      ] },
+    { "id": "toux", "fr": "toux", "pos": "noun", "g": "f", "ipa": "tu", "en": "cough",
+      "def": "Le bruit qu'on fait quand on tousse.", "def_en": "The noise you make when you cough.",
+      "examples": [
+        { "fr": "J'ai une grosse **toux**.", "en": "I've got a bad cough." },
+        { "fr": "Prenez ce sirop contre la **toux**.", "en": "Take this syrup for your cough." },
+        { "fr": "La **toux** de Hugo réveille tout le monde.", "en": "Hugo's cough wakes everyone up." }
+      ],
+      "note": "The **x** is silent: /tu/, the same sound as **tout**!" },
+    { "id": "tousser", "fr": "tousser", "pos": "verb", "ipa": "tu.se", "en": "to cough",
+      "def": "Faire sortir l'air de la gorge avec du bruit, quand on est malade.", "def_en": "To push air out of your throat noisily, when you're ill.",
+      "forms": ["tousse", "tousses", "toussons", "toussez", "toussent", "toussé", "toussais", "toussait", "toussions", "toussiez", "toussaient", "tousserai", "tousseras", "toussera", "tousserons", "tousserez", "tousseront"],
+      "examples": [
+        { "fr": "Hugo **tousse** toute la nuit.", "en": "Hugo coughs all night." },
+        { "fr": "Mets la main devant la bouche quand tu **tousses** !", "en": "Cover your mouth when you cough!" },
+        { "fr": "Le bébé **tousse** un peu.", "en": "The baby has a bit of a cough." }
+      ] },
+    { "id": "eternuer", "fr": "éternuer", "pos": "verb", "ipa": "e.tɛʁ.nɥe", "en": "to sneeze",
+      "def": "Faire « atchoum ! » avec le nez.", "def_en": "To go 'atchoo!' with your nose.",
+      "forms": ["éternue", "éternues", "éternuons", "éternuez", "éternuent", "éternué", "éternuais", "éternuait", "éternuions", "éternuiez", "éternuaient", "éternuerai", "éternueras", "éternuera", "éternuerons", "éternuerez", "éternueront"],
+      "examples": [
+        { "fr": "J'**éternue** : je crois que j'ai un rhume.", "en": "I'm sneezing: I think I've got a cold." },
+        { "fr": "Le chat me fait **éternuer**.", "en": "The cat makes me sneeze." },
+        { "fr": "Quand quelqu'un **éternue**, on dit « À tes souhaits ! »", "en": "When someone sneezes, you say 'Bless you!'" }
+      ],
+      "note": "When someone sneezes: **À tes souhaits !** (or **À vos souhaits !**) = Bless you!" },
+    { "id": "se-blesser", "fr": "se blesser", "pos": "verb", "ipa": "sə blɛ.se", "en": "to hurt yourself, to get injured; (blessé) injured",
+      "def": "Se faire mal, par exemple quand on tombe.", "def_en": "To hurt yourself, for example when you fall.",
+      "forms": ["me blesse", "te blesses", "se blesse", "nous nous blessons", "vous vous blessez", "se blessent", "blesser", "blessé", "blessée", "blessés", "blessées", "me blessais", "se blessait", "me blesserai", "te blesseras", "se blessera", "nous nous blesserons", "vous vous blesserez", "se blesseront"],
+      "examples": [
+        { "fr": "Attention, tu vas te **blesser** !", "en": "Careful, you'll hurt yourself!" },
+        { "fr": "Il **s'est blessé** au genou pendant le match.", "en": "He hurt his knee during the match." },
+        { "fr": "Deux personnes sont **blessées**.", "en": "Two people are injured." }
+      ] },
+    { "id": "blessure", "fr": "blessure", "pos": "noun", "g": "f", "ipa": "blɛ.syʁ", "en": "injury, wound",
+      "def": "Une partie du corps qui a mal, après un accident.", "def_en": "A part of the body that's hurt, after an accident.",
+      "forms": ["blessures"],
+      "examples": [
+        { "fr": "Ce n'est pas une grave **blessure**.", "en": "It isn't a serious injury." },
+        { "fr": "Le joueur a une **blessure** au pied.", "en": "The player has a foot injury." },
+        { "fr": "Il faut nettoyer la **blessure**.", "en": "The wound needs cleaning." }
+      ] },
+    { "id": "se-casser", "fr": "se casser", "pos": "verb", "ipa": "sə ka.se", "en": "to break (a bone, a leg…)",
+      "def": "Avoir un os cassé : se casser le bras, la jambe…", "def_en": "To have a broken bone: to break your arm, your leg…",
+      "forms": ["me casse", "te casses", "se casse", "se cassent", "me suis cassé", "me suis cassée", "t'es cassé", "t'es cassée", "s'est cassé", "s'est cassée", "me casserai", "te casseras", "se cassera", "nous nous casserons", "vous vous casserez", "se casseront"],
+      "examples": [
+        { "fr": "Il **s'est cassé** la jambe au ski.", "en": "He broke his leg skiing." },
+        { "fr": "Je **me suis cassé** le bras l'année dernière.", "en": "I broke my arm last year." },
+        { "fr": "Attention, ça **se casse** !", "en": "Careful, it breaks!" }
+      ],
+      "note": "**se casser la jambe** = to break your leg (French says **la**, not *ma*). Without *se*, **casser** = to break something: *j'ai cassé un verre*." },
+    { "id": "medicament", "fr": "médicament", "pos": "noun", "g": "m", "ipa": "me.di.ka.mɑ̃", "en": "medicine, drug",
+      "def": "Ce qu'on prend pour guérir ou pour avoir moins mal.", "def_en": "What you take to get better or to hurt less.",
+      "forms": ["médicaments"],
+      "examples": [
+        { "fr": "Tu as pris ton **médicament** ?", "en": "Have you taken your medicine?" },
+        { "fr": "On achète les **médicaments** à la pharmacie.", "en": "You buy medicines at the chemist's." },
+        { "fr": "Ce **médicament** est pour la toux.", "en": "This medicine is for the cough." }
+      ] },
+    { "id": "comprime", "fr": "comprimé", "pos": "noun", "g": "m", "ipa": "kɔ̃.pʁi.me", "en": "tablet, pill",
+      "def": "Un petit médicament qu'on avale avec de l'eau.", "def_en": "A small piece of medicine you swallow with water.",
+      "forms": ["comprimés"],
+      "examples": [
+        { "fr": "Prenez un **comprimé** trois fois par jour.", "en": "Take one tablet three times a day." },
+        { "fr": "J'ai pris deux **comprimés** pour la tête.", "en": "I took two tablets for my headache." },
+        { "fr": "Le **comprimé** est trop gros : je ne peux pas l'avaler !", "en": "The tablet is too big: I can't swallow it!" }
+      ] },
+    { "id": "ordonnance", "fr": "ordonnance", "pos": "noun", "g": "f", "ipa": "ɔʁ.dɔ.nɑ̃s", "en": "prescription",
+      "def": "Le papier du médecin, avec les médicaments à prendre.", "def_en": "The doctor's piece of paper, with the medicines to take.",
+      "forms": ["ordonnances"],
+      "examples": [
+        { "fr": "Le médecin me donne une **ordonnance**.", "en": "The doctor gives me a prescription." },
+        { "fr": "Sans **ordonnance**, on ne peut pas acheter ce médicament.", "en": "You can't buy this medicine without a prescription." },
+        { "fr": "J'apporte l'**ordonnance** à la pharmacie.", "en": "I take the prescription to the chemist's." }
+      ] },
+    { "id": "soigner", "fr": "soigner", "pos": "verb", "ipa": "swa.ɲe", "en": "to treat, to look after (sick people)",
+      "def": "Aider un malade à guérir.", "def_en": "To help a sick person get better.",
+      "forms": ["soigne", "soignes", "soignons", "soignez", "soignent", "soigné", "soignée", "soignais", "soignait", "soignions", "soigniez", "soignaient", "soignerai", "soigneras", "soignera", "soignerons", "soignerez", "soigneront"],
+      "examples": [
+        { "fr": "Le médecin **soigne** les malades.", "en": "The doctor treats the sick." },
+        { "fr": "Ma mère me **soigne** quand je suis malade.", "en": "My mother looks after me when I'm ill." },
+        { "fr": "Il faut **soigner** ce rhume !", "en": "You need to treat that cold!" }
+      ],
+      "note": "**se soigner** = to look after yourself (when you're ill)." },
+    { "id": "guerir", "fr": "guérir", "pos": "verb", "ipa": "ɡe.ʁiʁ", "en": "to get better, to recover; to cure",
+      "def": "Ne plus être malade. Aussi : soigner une maladie et la faire partir.", "def_en": "To stop being ill. Also: to treat an illness and make it go away.",
+      "extra": "Like *finir*: je **guéris**, nous **guérissons**, ils **guérissent**; je suis **guéri(e)**.",
+      "forms": ["guéris", "guérit", "guérissons", "guérissez", "guérissent", "guéri", "guérie", "guéries", "guérissais", "guérissait", "guérissions", "guérissiez", "guérissaient", "guérirai", "guériras", "guérira", "guérirons", "guérirez", "guériront"],
+      "examples": [
+        { "fr": "Je suis **guéri** !", "en": "I'm better!" },
+        { "fr": "Elle **guérit** vite.", "en": "She's recovering quickly." },
+        { "fr": "Ce médicament **guérit** la toux.", "en": "This medicine cures coughs." }
+      ] },
+    { "id": "vaccin", "fr": "vaccin", "pos": "noun", "g": "m", "ipa": "vak.sɛ̃", "en": "vaccine, jab",
+      "def": "Un médicament qu'on reçoit avant d'être malade, pour ne pas avoir une maladie.", "def_en": "Medicine you get before you're ill, so you don't catch a disease.",
+      "forms": ["vaccins"],
+      "examples": [
+        { "fr": "Lou a son **vaccin** demain.", "en": "Lou is having her jab tomorrow." },
+        { "fr": "Les **vaccins**, ça ne fait pas très mal.", "en": "Jabs don't hurt much." },
+        { "fr": "Tu as fait ton **vaccin** contre la grippe ?", "en": "Have you had your flu jab?" }
+      ] },
+    { "id": "urgences", "fr": "urgences", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "yʁ.ʒɑ̃s", "en": "A&E, the emergency department",
+      "def": "Le service de l'hôpital pour les malades et les blessés qu'il faut soigner tout de suite.", "def_en": "The hospital department for patients and injured people who need treatment right away.",
+      "forms": ["urgence"],
+      "examples": [
+        { "fr": "Il est aux **urgences**.", "en": "He's in A&E." },
+        { "fr": "On va aux **urgences** : il s'est cassé la jambe !", "en": "We're going to A&E: he's broken his leg!" },
+        { "fr": "Aux **urgences**, il faut souvent attendre longtemps.", "en": "In A&E, you often have to wait a long time." }
+      ],
+      "note": "Always plural for the hospital department: **les urgences**. **une urgence** = an emergency." },
+    { "id": "ambulance", "fr": "ambulance", "pos": "noun", "g": "f", "ipa": "ɑ̃.by.lɑ̃s", "en": "ambulance",
+      "def": "La voiture qui transporte les malades et les blessés à l'hôpital.", "def_en": "The vehicle that takes sick and injured people to hospital.",
+      "forms": ["ambulances"],
+      "examples": [
+        { "fr": "Appelez une **ambulance** !", "en": "Call an ambulance!" },
+        { "fr": "L'**ambulance** arrive en dix minutes.", "en": "The ambulance arrives in ten minutes." },
+        { "fr": "En France, pour une **ambulance**, on appelle le quinze.", "en": "In France, you dial 15 for an ambulance." }
+      ],
+      "note": "Emergency numbers in France: **15** (medical), **18** (fire brigade), **112** (all of Europe)." },
+    { "id": "pansement", "fr": "pansement", "pos": "noun", "g": "m", "ipa": "pɑ̃s.mɑ̃", "en": "plaster, bandage, dressing",
+      "def": "Ce qu'on met sur une petite blessure pour la protéger.", "def_en": "What you put on a small wound to protect it.",
+      "forms": ["pansements"],
+      "examples": [
+        { "fr": "Tu as un **pansement** ? Je me suis coupé.", "en": "Have you got a plaster? I've cut myself." },
+        { "fr": "Paul met un **pansement** sur le genou de Lou.", "en": "Paul puts a plaster on Lou's knee." },
+        { "fr": "Change ton **pansement** tous les jours.", "en": "Change your dressing every day." }
+      ] },
+    { "id": "allergique", "fr": "allergique", "pos": "adj", "ipa": "a.lɛʁ.ʒik", "en": "allergic",
+      "def": "Qui est malade quand il touche, mange ou respire une certaine chose.", "def_en": "Who gets ill when they touch, eat or breathe in a certain thing.",
+      "forms": ["allergiques"],
+      "examples": [
+        { "fr": "Je suis **allergique** aux chats.", "en": "I'm allergic to cats." },
+        { "fr": "Tom est **allergique** aux fraises.", "en": "Tom is allergic to strawberries." },
+        { "fr": "Tu es **allergique** à un médicament ?", "en": "Are you allergic to any medicine?" }
+      ],
+      "note": "**être allergique à** + noun. The noun is **une allergie**." },
+    { "id": "aller-mieux", "fr": "aller mieux", "pos": "expr", "ipa": "a.le mjø", "en": "to feel better, to be better",
+      "def": "Être moins malade qu'avant.", "def_en": "To be less ill than before.",
+      "forms": ["vais mieux", "vas mieux", "va mieux", "allons mieux", "allez mieux", "vont mieux", "allais mieux", "allait mieux"],
+      "examples": [
+        { "fr": "Tu **vas mieux** ?", "en": "Are you feeling better?" },
+        { "fr": "Je **vais mieux**, merci !", "en": "I'm feeling better, thanks!" },
+        { "fr": "Lou **va mieux** : elle n'a plus de fièvre.", "en": "Lou is better: she hasn't got a temperature any more." }
+      ] }
+  ],
+  "story": {
+    "title": "Hugo est malade",
+    "en": "Hugo has a temperature. Luckily, his mother is a doctor… in Paris.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi matin, Hugo se réveille avec de la fièvre. Il tousse, il éternue… Il appelle sa mère : elle est médecin.", "en": "On Monday morning, Hugo wakes up with a temperature. He's coughing and sneezing… He calls his mother: she's a doctor." },
+      { "sp": "Hugo", "fr": "Maman, je suis très malade ! J'ai mal partout : à la tête, au dos, aux jambes…", "en": "Mum, I'm really ill! I ache all over: my head, my back, my legs…" },
+      { "sp": "Anne", "fr": "Tu as de la fièvre ? Tu tousses beaucoup ?", "en": "Have you got a temperature? Are you coughing a lot?" },
+      { "sp": "Hugo", "fr": "Trente-neuf degrés ! Et j'ai une toux terrible. C'est peut-être une maladie grave…", "en": "Thirty-nine degrees! And I've got a terrible cough. Maybe it's a serious illness…" },
+      { "sp": "Anne", "fr": "Mais non ! C'est un gros rhume, ou peut-être la grippe. Tu as fait ton vaccin ?", "en": "Of course not! It's a bad cold, or maybe the flu. Did you have your jab?" },
+      { "sp": "Hugo", "fr": "Euh… non. J'ai oublié.", "en": "Er… no. I forgot." },
+      { "sp": "Anne", "fr": "Hugo ! Bon, va chez le médecin, à côté de chez toi. Il va te soigner.", "en": "Hugo! OK, go to the doctor's near your place. He'll treat you." },
+      { "sp": "", "fr": "Chez le médecin, Hugo attend une heure. À côté de lui, un homme a une blessure au bras.", "en": "At the doctor's, Hugo waits for an hour. Next to him, a man has an injured arm." },
+      { "sp": "L'homme", "fr": "Je me suis blessé au travail. Ce n'est pas grave : j'ai juste un pansement.", "en": "I hurt myself at work. It's not serious: I've just got a plaster." },
+      { "sp": "", "fr": "Une petite fille pleure : elle s'est cassé la jambe. Une ambulance va l'emmener aux urgences.", "en": "A little girl is crying: she's broken her leg. An ambulance is going to take her to A&E." },
+      { "sp": "Le médecin", "fr": "Bonjour, Hugo. Qu'est-ce qui ne va pas ?", "en": "Hello, Hugo. What's the matter?" },
+      { "sp": "Hugo", "fr": "J'ai de la fièvre, une douleur dans la gorge, et je ne me sens pas bien du tout.", "en": "I have a temperature, a pain in my throat, and I don't feel well at all." },
+      { "sp": "Le médecin", "fr": "Ouvrez la bouche… Voilà : c'est la grippe. Vous êtes allergique à un médicament ?", "en": "Open your mouth… There we are: it's the flu. Are you allergic to any medicine?" },
+      { "sp": "Hugo", "fr": "Non, je ne crois pas.", "en": "No, I don't think so." },
+      { "sp": "Le médecin", "fr": "Voici une ordonnance : un comprimé trois fois par jour, et du sirop pour la toux. Et trois jours au lit !", "en": "Here's a prescription: one tablet three times a day, and some syrup for the cough. And three days in bed!" },
+      { "sp": "", "fr": "Hugo va à la pharmacie avec son ordonnance, puis il rentre se coucher.", "en": "Hugo goes to the chemist's with his prescription, then goes home to bed." },
+      { "sp": "", "fr": "Trois jours plus tard, il est guéri. Il téléphone à sa mère.", "en": "Three days later, he's better. He phones his mother." },
+      { "sp": "Hugo", "fr": "Maman, je vais mieux ! Merci pour tes conseils. La santé, c'est important !", "en": "Mum, I'm feeling better! Thanks for your advice. Health matters!" },
+      { "sp": "Anne", "fr": "Alors, l'année prochaine, tu fais ton vaccin, d'accord ?", "en": "So next year, you'll get your jab, OK?" }
+    ]
+  }
+}

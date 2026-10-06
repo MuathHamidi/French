@@ -1,0 +1,219 @@
+{
+  "id": "u13-cest-ilest",
+  "type": "grammar",
+  "unit": 13,
+  "title": "C'est ou il est ?",
+  "en": "c'est vs il est / elle est",
+  "intro": "English says *he's*, *she's* and *it's*; French has to choose between **c'est** and **il est / elle est**. The rule of thumb: **c'est** + an article (*c'est **un** médecin*), a name or a pronoun (*c'est Julien, c'est moi*); **il / elle est** + a job or an adjective alone (*il est médecin, elle est sympa*).",
+  "cases": [
+    { "id": "ce-metier", "label": "il est + job (no article)", "rule": "To say someone's job, use **il / elle est** with **no article**: *Il est informaticien. Elle est avocate.*" },
+    { "id": "ce-un", "label": "c'est un / une + noun", "rule": "With an article (*un, une, le, mon…*), use **c'est**: *C'est un informaticien. C'est la patronne.*" },
+    { "id": "ce-adj-nom", "label": "c'est un + noun + adjective", "rule": "A job with an adjective needs an article, so **c'est un / une**: *C'est un bon médecin. C'est une collègue formidable.*" },
+    { "id": "ce-il-adj", "label": "il / elle est + adjective", "rule": "To describe a person or a thing you've already named, use **il / elle est** + adjective (it agrees): *Julien ? Il est drôle. La réunion ? Elle est longue.*" },
+    { "id": "ce-cest-adj", "label": "c'est + adjective: a comment", "rule": "To comment on a situation, an idea or an activity, use **c'est** + adjective, always **masculine**: *C'est difficile ! Le télétravail, c'est pratique.*" },
+    { "id": "ce-qui", "label": "c'est + name, c'est moi", "rule": "To say **who** it is: **c'est** + a name or a stressed pronoun (**moi, toi, lui, elle, nous, vous**; plural **ce sont eux, elles**): *C'est Julien. C'est moi.*" },
+    { "id": "ce-sont", "label": "ce sont / ils sont", "rule": "In the plural: **ce sont** + determiner + noun (*Ce sont mes collègues*), **ils / elles sont** + job or adjective (*Ils sont informaticiens*)." },
+    { "id": "ce-nation", "label": "il est français / c'est un Français", "rule": "Nationalities too: **il est français** (an adjective, small letter) but **c'est un Français** (a noun, capital letter)." }
+  ],
+  "sections": [
+    {
+      "title": "1. il / elle est + job",
+      "text": ["To say someone's job, use **il / elle est** with **no article**, just like *je suis étudiante*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il est informaticien.", "He's an IT specialist."],
+          ["Elle est avocate.", "She's a lawyer."],
+          ["Je suis étudiante.", "I'm a student."],
+          ["Ils sont médecins.", "They're doctors."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il est informaticien|ce-metier}.", "en": "He's an IT specialist." },
+        { "fr": "{Elle est médecin|ce-metier} à l'hôpital.", "en": "She's a doctor at the hospital." },
+        { "fr": "{Vous êtes journaliste|ce-metier} ?", "en": "Are you a journalist?" }
+      ],
+      "tip": "English says *a* (*he's **a** doctor*); French doesn't: *il est médecin*."
+    },
+    {
+      "title": "2. c'est un / une + noun",
+      "text": ["As soon as there's an **article** or a determiner (*un, une, le, mon…*), use **c'est**."],
+      "table": {
+        "head": ["il / elle est", "c'est"], "frCols": [0, 1],
+        "rows": [
+          ["Il est médecin.", "C'est un médecin."],
+          ["Elle est avocate.", "C'est une avocate."],
+          ["Elle est patronne.", "C'est la patronne."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est un informaticien|ce-un}.", "en": "He's an IT specialist." },
+        { "fr": "{C'est une collègue|ce-un}.", "en": "She's a colleague." },
+        { "fr": "{C'est la patronne|ce-un}.", "en": "She's the boss." }
+      ],
+      "tip": "*Il est médecin* and *C'est un médecin* mean the same. Just never mix them: there's no *il est un médecin*."
+    },
+    {
+      "title": "3. c'est un + noun + adjective",
+      "text": ["Add an adjective to the job and you need the article, so it's **c'est un / une**."],
+      "table": {
+        "head": ["Job only", "Job + adjective"], "frCols": [0, 1],
+        "rows": [
+          ["Il est cuisinier.", "C'est un très bon cuisinier."],
+          ["Elle est avocate.", "C'est une avocate célèbre."],
+          ["Il est stagiaire.", "C'est un stagiaire sérieux."]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est un bon médecin|ce-adj-nom}.", "en": "He's a good doctor." },
+        { "fr": "{C'est une patronne exigeante|ce-adj-nom}.", "en": "She's a demanding boss." },
+        { "fr": "{C'est un collègue formidable|ce-adj-nom} !", "en": "He's a wonderful colleague!" }
+      ]
+    },
+    {
+      "title": "4. il / elle est + adjective",
+      "text": ["To describe a person or a thing you've already named, use **il / elle est** + adjective. The adjective agrees with it."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Julien ? Il est drôle.", "Julien? He's funny."],
+          ["La patronne ? Elle est sérieuse.", "The boss? She's serious."],
+          ["Le bureau ? Il est grand.", "The office? It's big."],
+          ["La réunion ? Elle est longue.", "The meeting? It's long."]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon collègue ? {Il est très sympa|ce-il-adj}.", "en": "My colleague? He's really nice." },
+        { "fr": "{Elle est occupée|ce-il-adj} : elle est en réunion.", "en": "She's busy: she's in a meeting." },
+        { "fr": "Ton CV ? {Il est parfait|ce-il-adj} !", "en": "Your CV? It's perfect!" }
+      ]
+    },
+    {
+      "title": "5. c'est + adjective: a general comment",
+      "text": ["To comment on a situation, an idea or an activity, use **c'est** + adjective. The adjective is always **masculine**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est difficile !", "It's difficult!"],
+          ["C'est intéressant.", "It's interesting."],
+          ["Le télétravail, c'est pratique.", "Working from home is handy."],
+          ["Travailler le dimanche ? C'est nul !", "Working on Sundays? It's rubbish!"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le travail ? {C'est intéressant|ce-cest-adj}.", "en": "The job? It's interesting." },
+        { "fr": "La cuisine, {c'est facile|ce-cest-adj} !", "en": "Cooking is easy!" },
+        { "fr": "Un stage à Lyon ? {C'est super|ce-cest-adj} !", "en": "An internship in Lyon? That's great!" }
+      ],
+      "tip": "Compare: *Cette réunion ? **Elle** est longue* (this one meeting) and *Les réunions, **c'est** long !* (meetings in general: masculine *long*)."
+    },
+    {
+      "title": "6. c'est + a name or a stressed pronoun",
+      "text": ["To say **who** it is, use **c'est** + a name or a stressed pronoun: **moi, toi, lui, elle, nous, vous, eux, elles**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est moi.", "It's me."],
+          ["C'est toi ?", "Is that you?"],
+          ["C'est lui.", "It's him."],
+          ["C'est elle.", "It's her."],
+          ["C'est nous.", "It's us."],
+          ["C'est vous ?", "Is that you?"],
+          ["Ce sont eux.", "It's them."]
+        ]
+      },
+      "examples": [
+        { "fr": "Qui est-ce ? {C'est Julien|ce-qui}.", "en": "Who's that? It's Julien." },
+        { "fr": "{C'est moi|ce-qui}, Léa !", "en": "It's me, Léa!" },
+        { "fr": "Le patron ? {C'est lui|ce-qui}, là-bas.", "en": "The boss? That's him, over there." }
+      ]
+    },
+    {
+      "title": "7. The plural: ce sont / ils sont",
+      "table": {
+        "head": ["Singular", "Plural"], "frCols": [0, 1],
+        "rows": [
+          ["C'est un collègue.", "Ce sont des collègues."],
+          ["Il est informaticien.", "Ils sont informaticiens."],
+          ["C'est mon amie.", "Ce sont mes amies."],
+          ["Elle est sympa.", "Elles sont sympas."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ce sont mes collègues|ce-sont}.", "en": "They're my colleagues." },
+        { "fr": "{Ils sont informaticiens|ce-sont}.", "en": "They're IT specialists." },
+        { "fr": "{Ce sont des clients|ce-sont} importants.", "en": "They're important clients." }
+      ],
+      "tip": "In everyday speech you'll also hear *c'est mes collègues*, but write **ce sont**."
+    },
+    {
+      "title": "8. Nationalities",
+      "text": ["Nationalities follow the same rule. After **il / elle est**, it's an adjective with a **small letter**. After **c'est un / une**, it's a noun with a **capital letter**."],
+      "table": {
+        "head": ["il / elle est", "c'est"], "frCols": [0, 1],
+        "rows": [
+          ["Il est français.", "C'est un Français."],
+          ["Elle est canadienne.", "C'est une Canadienne."],
+          ["Ils sont belges.", "Ce sont des Belges."]
+        ]
+      },
+      "examples": [
+        { "fr": "Julien ? {Il est belge|ce-nation}.", "en": "Julien? He's Belgian." },
+        { "fr": "{C'est un Belge|ce-nation} de Bruxelles.", "en": "He's a Belgian from Brussels." },
+        { "fr": "Ma mère ? {C'est une Canadienne|ce-nation} de Montréal.", "en": "My mother? She's a Canadian from Montréal." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il est un médecin.", "right": "Il est médecin. / C'est un médecin.", "why": "No article after *il est* + job." },
+    { "wrong": "C'est médecin.", "right": "Il est médecin.", "why": "*c'est* needs an article: *c'est **un** médecin*." },
+    { "wrong": "Elle est une bonne avocate.", "right": "C'est une bonne avocate.", "why": "Job + adjective: **c'est une**." },
+    { "wrong": "Ils sont mes collègues.", "right": "Ce sont mes collègues.", "why": "With *mes, des, les…* + noun, use **ce sont**." },
+    { "wrong": "Il est un Français.", "right": "Il est français. / C'est un Français.", "why": "Small letter after *il est*, capital after *c'est un*." },
+    { "wrong": "Le travail ? C'est intéressante.", "right": "C'est intéressant.", "why": "After *c'est*, the adjective stays masculine." }
+  ],
+  "story": {
+    "title": "Le premier jour de Léa",
+    "en": "Léa's first day as an intern. Hugo introduces the team.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le premier juin, Léa commence son stage dans l'entreprise de Hugo.", "en": "On the first of June, Léa starts her internship at Hugo's company." },
+      { "sp": "Hugo", "fr": "Bienvenue ! Viens, je te présente l'équipe.", "en": "Welcome! Come on, I'll introduce you to the team." },
+      { "sp": "Hugo", "fr": "Ça, {c'est Julien|ce-qui}. {Il est informaticien|ce-metier}, comme moi.", "en": "This is Julien. He works in IT, like me." },
+      { "sp": "Julien", "fr": "Salut, Léa ! Hugo parle beaucoup de toi.", "en": "Hi, Léa! Hugo talks about you a lot." },
+      { "sp": "Hugo", "fr": "{C'est un collègue formidable|ce-adj-nom}. Et {il est très drôle|ce-il-adj} !", "en": "He's a wonderful colleague. And he's very funny!" },
+      { "sp": "Léa", "fr": "Et lui, qui est-ce ?", "en": "And who's he?" },
+      { "sp": "Hugo", "fr": "{C'est Bernard|ce-qui}. {C'est un comptable|ce-un}. Il part à la retraite vendredi.", "en": "That's Bernard. He's an accountant. He retires on Friday." },
+      { "sp": "Hugo", "fr": "Et là-bas, Sarah et Malik : {ce sont des stagiaires|ce-sont}, comme toi.", "en": "And over there, Sarah and Malik: they're interns, like you." },
+      { "sp": "Léa", "fr": "{Ils sont français|ce-nation} ?", "en": "Are they French?" },
+      { "sp": "Hugo", "fr": "Malik, oui. Sarah, non : {c'est une Belge|ce-nation} de Bruxelles.", "en": "Malik, yes. Sarah, no: she's a Belgian from Brussels." },
+      { "sp": "", "fr": "Tout à coup, madame Dupont arrive.", "en": "Suddenly, Mme Dupont arrives." },
+      { "sp": "Hugo", "fr": "Attention, {c'est elle|ce-qui}, la patronne ! {Elle est sympa|ce-il-adj}… mais {elle est très exigeante|ce-il-adj}.", "en": "Careful, that's her, the boss! She's nice… but she's very demanding." },
+      { "sp": "La patronne", "fr": "Bonjour, Léa ! Alors, vos premières impressions ?", "en": "Hello, Léa! So, your first impressions?" },
+      { "sp": "Léa", "fr": "{C'est super|ce-cest-adj} ! Les bureaux sont beaux, et l'équipe est très sympa.", "en": "It's great! The offices are lovely, and the team is really nice." },
+      { "sp": "La patronne", "fr": "Parfait. Hugo, {vous êtes informaticien|ce-metier} : vous pouvez montrer l'ordinateur à Léa ?", "en": "Perfect. Hugo, you're the IT person: can you show Léa the computer?" },
+      { "sp": "", "fr": "À six heures, Léa est fatiguée mais contente.", "en": "At six o'clock, Léa is tired but happy." },
+      { "sp": "Léa", "fr": "Un stage, {c'est difficile|ce-cest-adj}… mais {c'est intéressant|ce-cest-adj} !", "en": "An internship is hard… but it's interesting!" },
+      { "sp": "Hugo", "fr": "Et ton frère ? {C'est un bon professeur|ce-adj-nom}, non ?", "en": "And your brother? He's a good teacher, isn't he?" },
+      { "sp": "Léa", "fr": "Oui… quand il est à l'heure !", "en": "Yes… when he's on time!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ce-metier", "type": "mc", "lang": "en", "q": "How do you say “He's a doctor”?", "options": ["Il est médecin.", "Il est un médecin.", "C'est médecin."], "answer": "Il est médecin." },
+    { "case": "ce-metier", "type": "mc", "q": "Elle ___ avocate.", "en": "She's a lawyer.", "options": ["est", "est une", "c'est"], "answer": "est" },
+    { "case": "ce-un", "type": "mc", "q": "___ un informaticien.", "en": "He's an IT specialist.", "options": ["C'est", "Il est", "Elle est"], "answer": "C'est" },
+    { "case": "ce-un", "type": "type", "q": "C'est ___ avocate.", "en": "She's a lawyer.", "answer": "une" },
+    { "case": "ce-adj-nom", "type": "mc", "q": "___ un très bon cuisinier.", "en": "He's a very good cook.", "options": ["C'est", "Il est"], "answer": "C'est" },
+    { "case": "ce-adj-nom", "type": "mc", "lang": "en", "q": "How do you say “She's a great colleague”?", "options": ["C'est une collègue formidable.", "Elle est une collègue formidable.", "Elle est collègue formidable."], "answer": "C'est une collègue formidable." },
+    { "case": "ce-il-adj", "type": "mc", "q": "Julien ? ___ très drôle.", "en": "Julien? He's very funny.", "options": ["Il est", "C'est un", "Ce sont"], "answer": "Il est" },
+    { "case": "ce-il-adj", "type": "type", "q": "La patronne ? ___ est sérieuse.", "en": "The boss? She's serious.", "answer": "Elle" },
+    { "case": "ce-cest-adj", "type": "mc", "q": "Le télétravail, ___ pratique !", "en": "Working from home is handy!", "options": ["c'est", "il est", "elle est"], "answer": "c'est" },
+    { "case": "ce-cest-adj", "type": "mc", "q": "Les réunions, c'est ___ !", "en": "Meetings are boring!", "options": ["ennuyeux", "ennuyeuses"], "answer": "ennuyeux", "why": "After *c'est*, the adjective stays masculine." },
+    { "case": "ce-qui", "type": "mc", "q": "Qui est-ce ? ___ Julien.", "en": "Who's that? It's Julien.", "options": ["C'est", "Il est", "Il y a"], "answer": "C'est" },
+    { "case": "ce-qui", "type": "type", "q": "Le patron ? C'est ___, là-bas.", "en": "The boss? That's him, over there.", "answer": "lui" },
+    { "case": "ce-sont", "type": "mc", "q": "___ mes collègues.", "en": "They're my colleagues.", "options": ["Ce sont", "Ils sont"], "answer": "Ce sont", "why": "With *mes, des, les…* + noun, write **ce sont**." },
+    { "case": "ce-sont", "type": "type", "q": "Ils ___ informaticiens.", "en": "They're IT specialists.", "answer": "sont" },
+    { "case": "ce-nation", "type": "mc", "lang": "en", "q": "How do you say “She's French”?", "options": ["Elle est française.", "Elle est une Française.", "C'est française."], "answer": "Elle est française." },
+    { "case": "ce-nation", "type": "mc", "q": "C'est un ___ de Bruxelles.", "en": "He's a Belgian from Brussels.", "options": ["Belge", "belge"], "answer": "Belge", "why": "After *c'est un*, the nationality is a noun: **capital letter**." }
+  ]
+}

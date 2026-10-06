@@ -1,0 +1,201 @@
+{
+  "id": "u04-furniture",
+  "type": "vocab",
+  "unit": 4,
+  "title": "Les meubles",
+  "en": "Furniture & things in the house",
+  "intro": "20 words for furniture and objects at home. Notice the plurals in the examples: some words end in **-x** in the plural (*bureaux, tableaux, rideaux*) — you'll learn why in the plurals lesson.",
+  "words": [
+    { "id": "meuble", "fr": "meuble", "pos": "noun", "g": "m", "ipa": "mœbl", "en": "piece of furniture (les meubles = furniture)",
+      "def": "Un objet dans la maison : un lit, une table, une chaise…", "def_en": "An object in the house: a bed, a table, a chair…",
+      "forms": ["meubles"],
+      "examples": [
+        { "fr": "Il y a beaucoup de **meubles** dans le salon.", "en": "There's a lot of furniture in the living room." },
+        { "fr": "C'est un vieux **meuble**.", "en": "It's an old piece of furniture." },
+        { "fr": "Les **meubles** sont très beaux.", "en": "The furniture is very beautiful." }
+      ],
+      "note": "English “furniture” is one word, but French counts the pieces: **des meubles**." },
+    { "id": "lit", "fr": "lit", "pos": "noun", "g": "m", "ipa": "li", "en": "bed",
+      "def": "Le meuble où on dort.", "def_en": "The piece of furniture you sleep in.",
+      "forms": ["lits"],
+      "examples": [
+        { "fr": "Le chat est sur le **lit**.", "en": "The cat is on the bed." },
+        { "fr": "Je suis au **lit**.", "en": "I'm in bed." },
+        { "fr": "Il y a un **lit** et une armoire dans la chambre.", "en": "There's a bed and a wardrobe in the bedroom." }
+      ],
+      "note": "The **t** is silent: /li/." },
+    { "id": "table", "fr": "table", "pos": "noun", "g": "f", "ipa": "tabl", "en": "table",
+      "def": "Le meuble où on mange, avec des chaises.", "def_en": "The piece of furniture where you eat, with chairs.",
+      "forms": ["tables"],
+      "examples": [
+        { "fr": "Le livre est sur la **table**.", "en": "The book is on the table." },
+        { "fr": "On mange à **table**.", "en": "We eat at the table." },
+        { "fr": "La **table** est dans la salle à manger.", "en": "The table is in the dining room." }
+      ],
+      "note": "**À table !** = “Dinner's ready!” (literally “to the table!”)." },
+    { "id": "chaise", "fr": "chaise", "pos": "noun", "g": "f", "ipa": "ʃɛz", "en": "chair",
+      "def": "Un meuble pour une personne, à côté de la table.", "def_en": "A piece of furniture for one person, next to the table.",
+      "forms": ["chaises"],
+      "examples": [
+        { "fr": "Il y a quatre **chaises** autour de la table.", "en": "There are four chairs around the table." },
+        { "fr": "Le chat est sous la **chaise**.", "en": "The cat is under the chair." },
+        { "fr": "Une **chaise**, s'il vous plaît !", "en": "A chair, please!" }
+      ] },
+    { "id": "canape", "fr": "canapé", "pos": "noun", "g": "m", "ipa": "ka.na.pe", "en": "sofa, couch",
+      "def": "Un long meuble pour deux ou trois personnes, dans le salon.", "def_en": "A long piece of furniture for two or three people, in the living room.",
+      "forms": ["canapés"], "accept": ["canape"],
+      "examples": [
+        { "fr": "Le chien dort sur le **canapé**.", "en": "The dog is sleeping on the sofa." },
+        { "fr": "Le **canapé** est devant la télévision.", "en": "The sofa is in front of the TV." },
+        { "fr": "C'est un grand **canapé** pour trois personnes.", "en": "It's a big sofa for three people." }
+      ] },
+    { "id": "fauteuil", "fr": "fauteuil", "pos": "noun", "g": "m", "ipa": "fo.tœj", "en": "armchair",
+      "def": "Une grande chaise confortable, pour une personne.", "def_en": "A big, comfortable chair for one person.",
+      "forms": ["fauteuils"],
+      "examples": [
+        { "fr": "Grand-père est dans son **fauteuil**.", "en": "Grandpa is in his armchair." },
+        { "fr": "Le **fauteuil** est à côté de la fenêtre.", "en": "The armchair is next to the window." },
+        { "fr": "C'est un vieux **fauteuil** très confortable.", "en": "It's a very comfortable old armchair." }
+      ],
+      "note": "The ending **-euil** sounds like /œj/: /fo.tœj/." },
+    { "id": "armoire", "fr": "armoire", "pos": "noun", "g": "f", "ipa": "aʁ.mwaʁ", "en": "wardrobe",
+      "def": "Un grand meuble avec des portes, pour les vêtements.", "def_en": "A big piece of furniture with doors, for clothes.",
+      "forms": ["armoires"],
+      "examples": [
+        { "fr": "Il y a une **armoire** dans ma chambre.", "en": "There's a wardrobe in my bedroom." },
+        { "fr": "Mes vêtements sont dans l'**armoire**.", "en": "My clothes are in the wardrobe." },
+        { "fr": "L'**armoire** est grande et vieille.", "en": "The wardrobe is big and old." }
+      ] },
+    { "id": "placard", "fr": "placard", "pos": "noun", "g": "m", "ipa": "pla.kaʁ", "en": "cupboard, closet",
+      "def": "Une armoire dans le mur.", "def_en": "A wardrobe built into the wall.",
+      "forms": ["placards"],
+      "examples": [
+        { "fr": "Le chat est dans le **placard** !", "en": "The cat is in the cupboard!" },
+        { "fr": "Il y a un **placard** dans la cuisine.", "en": "There's a cupboard in the kitchen." },
+        { "fr": "Les livres sont dans le **placard**.", "en": "The books are in the cupboard." }
+      ] },
+    { "id": "etagere", "fr": "étagère", "pos": "noun", "g": "f", "ipa": "e.ta.ʒɛʁ", "en": "shelf; bookcase",
+      "def": "On met les livres sur une étagère.", "def_en": "You put books on a shelf.",
+      "forms": ["étagères"], "accept": ["etagere"],
+      "examples": [
+        { "fr": "Les livres sont sur l'**étagère**.", "en": "The books are on the shelf." },
+        { "fr": "Il y a trois **étagères** au mur.", "en": "There are three shelves on the wall." },
+        { "fr": "La photo est sur l'**étagère**.", "en": "The photo is on the shelf." }
+      ] },
+    { "id": "bureau", "fr": "bureau", "pos": "noun", "g": "m", "ipa": "by.ʁo", "en": "desk; office",
+      "def": "Une table pour travailler. Aussi : la pièce où on travaille.", "def_en": "A table for working at. Also: the room where you work.",
+      "forms": ["bureaux"],
+      "examples": [
+        { "fr": "Mon ordinateur est sur le **bureau**.", "en": "My computer is on the desk." },
+        { "fr": "Mon père est au **bureau**.", "en": "My father is at the office." },
+        { "fr": "Il y a deux **bureaux** dans la classe.", "en": "There are two desks in the classroom." }
+      ],
+      "note": "Plural with **-x**: **des bureaux**." },
+    { "id": "lampe", "fr": "lampe", "pos": "noun", "g": "f", "ipa": "lɑ̃p", "en": "lamp",
+      "def": "Un objet qui donne de la lumière.", "def_en": "An object that gives light.",
+      "forms": ["lampes"],
+      "examples": [
+        { "fr": "La **lampe** est sur le bureau.", "en": "The lamp is on the desk." },
+        { "fr": "Il y a une **lampe** à côté du lit.", "en": "There's a lamp next to the bed." },
+        { "fr": "C'est une jolie **lampe**.", "en": "It's a pretty lamp." }
+      ] },
+    { "id": "tapis", "fr": "tapis", "pos": "noun", "g": "m", "ipa": "ta.pi", "en": "rug, carpet",
+      "def": "On le met par terre, dans le salon ou dans la chambre.", "def_en": "You put it on the floor, in the living room or the bedroom.",
+      "examples": [
+        { "fr": "Le chien dort sur le **tapis**.", "en": "The dog is sleeping on the rug." },
+        { "fr": "Il y a un grand **tapis** dans le salon.", "en": "There's a big rug in the living room." },
+        { "fr": "Les **tapis** sont sous la table.", "en": "The rugs are under the table." }
+      ],
+      "note": "Already ends in **-s**, so the plural doesn't change: *des tapis*." },
+    { "id": "tableau", "fr": "tableau", "pos": "noun", "g": "m", "ipa": "ta.blo", "en": "painting, picture; board",
+      "def": "Une peinture sur le mur. Aussi : le tableau de la classe.", "def_en": "A painting on the wall. Also: the board in a classroom.",
+      "forms": ["tableaux"],
+      "examples": [
+        { "fr": "Il y a un beau **tableau** au mur.", "en": "There's a beautiful painting on the wall." },
+        { "fr": "Le professeur écrit au **tableau**.", "en": "The teacher writes on the board." },
+        { "fr": "Les **tableaux** sont dans le salon.", "en": "The paintings are in the living room." }
+      ],
+      "note": "Plural with **-x**: **des tableaux**." },
+    { "id": "miroir", "fr": "miroir", "pos": "noun", "g": "m", "ipa": "mi.ʁwaʁ", "en": "mirror",
+      "def": "On se regarde dans le miroir.", "def_en": "You look at yourself in the mirror.",
+      "forms": ["miroirs"],
+      "examples": [
+        { "fr": "Il y a un **miroir** dans la salle de bain.", "en": "There's a mirror in the bathroom." },
+        { "fr": "Lou se regarde dans le **miroir**.", "en": "Lou looks at herself in the mirror." },
+        { "fr": "Le **miroir** est derrière la porte.", "en": "The mirror is behind the door." }
+      ] },
+    { "id": "television", "fr": "télévision", "pos": "noun", "g": "f", "ipa": "te.le.vi.zjɔ̃", "en": "television, TV",
+      "def": "On regarde des films à la télévision.", "def_en": "You watch films on television.",
+      "forms": ["télé", "télévisions", "télés"], "accept": ["télé", "television", "tele"],
+      "examples": [
+        { "fr": "La **télévision** est dans le salon.", "en": "The TV is in the living room." },
+        { "fr": "Mon grand-père regarde la **télé**.", "en": "My grandfather is watching TV." },
+        { "fr": "Il n'y a pas de **télévision** dans ma chambre.", "en": "There's no TV in my bedroom." }
+      ],
+      "note": "Everyday word: **la télé**." },
+    { "id": "ordinateur", "fr": "ordinateur", "pos": "noun", "g": "m", "ipa": "ɔʁ.di.na.tœʁ", "en": "computer",
+      "def": "On travaille et on écrit sur un ordinateur.", "def_en": "You work and write on a computer.",
+      "forms": ["ordinateurs"],
+      "examples": [
+        { "fr": "Mon **ordinateur** est sur le bureau.", "en": "My computer is on the desk." },
+        { "fr": "Tu as un **ordinateur** ?", "en": "Do you have a computer?" },
+        { "fr": "Hugo est devant son **ordinateur**.", "en": "Hugo is in front of his computer." }
+      ] },
+    { "id": "douche", "fr": "douche", "pos": "noun", "g": "f", "ipa": "duʃ", "en": "shower",
+      "def": "Dans la salle de bain : on se lave sous l'eau.", "def_en": "In the bathroom: you wash under the water.",
+      "forms": ["douches"],
+      "examples": [
+        { "fr": "Il y a une **douche** dans la salle de bain.", "en": "There's a shower in the bathroom." },
+        { "fr": "Hugo est sous la **douche**.", "en": "Hugo is in the shower." },
+        { "fr": "La **douche** est petite.", "en": "The shower is small." }
+      ],
+      "note": "In French you're **sous la douche** — under the shower." },
+    { "id": "baignoire", "fr": "baignoire", "pos": "noun", "g": "f", "ipa": "bɛ.ɲwaʁ", "en": "bathtub",
+      "def": "Dans la salle de bain : on prend un bain dedans.", "def_en": "In the bathroom: you take a bath in it.",
+      "forms": ["baignoires"],
+      "examples": [
+        { "fr": "Il n'y a pas de **baignoire**, il y a une douche.", "en": "There's no bathtub, there's a shower." },
+        { "fr": "Le bébé est dans la **baignoire**.", "en": "The baby is in the bath." },
+        { "fr": "La **baignoire** est grande.", "en": "The bathtub is big." }
+      ] },
+    { "id": "refrigerateur", "fr": "réfrigérateur", "pos": "noun", "g": "m", "ipa": "ʁe.fʁi.ʒe.ʁa.tœʁ", "en": "refrigerator, fridge",
+      "def": "Dans la cuisine, un grand meuble froid pour la nourriture.", "def_en": "In the kitchen, a big cold cabinet for food.",
+      "forms": ["frigo", "réfrigérateurs", "frigos"], "accept": ["frigo", "refrigerateur"],
+      "examples": [
+        { "fr": "Le lait est dans le **réfrigérateur**.", "en": "The milk is in the fridge." },
+        { "fr": "Le **frigo** est dans la cuisine.", "en": "The fridge is in the kitchen." },
+        { "fr": "Il n'y a rien dans le **frigo** !", "en": "There's nothing in the fridge!" }
+      ],
+      "note": "Everyday word: **le frigo**." },
+    { "id": "rideau", "fr": "rideau", "pos": "noun", "g": "m", "ipa": "ʁi.do", "en": "curtain",
+      "def": "On le met devant la fenêtre.", "def_en": "You put it in front of the window.",
+      "forms": ["rideaux"],
+      "examples": [
+        { "fr": "Il y a des **rideaux** à la fenêtre.", "en": "There are curtains at the window." },
+        { "fr": "Le chat est derrière le **rideau**.", "en": "The cat is behind the curtain." },
+        { "fr": "Les **rideaux** de ma chambre sont jolis.", "en": "The curtains in my bedroom are pretty." }
+      ],
+      "note": "Plural with **-x**: **des rideaux**." }
+  ],
+  "story": {
+    "title": "Où est Minou ?",
+    "en": "Moving day — and Sophie's cat has disappeared.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Léa et Sophie habitent maintenant dans l'appartement.", "en": "Léa and Sophie now live in the flat." },
+      { "sp": "", "fr": "Il y a des meubles partout : un canapé, un fauteuil, une table et quatre chaises.", "en": "There's furniture everywhere: a sofa, an armchair, a table and four chairs." },
+      { "sp": "Sophie", "fr": "Léa ! Où est Minou, mon chat ?", "en": "Léa! Where's Minou, my cat?" },
+      { "sp": "Léa", "fr": "Il n'est pas sur le canapé… Il n'est pas sous la table…", "en": "He's not on the sofa… He's not under the table…" },
+      { "sp": "Sophie", "fr": "Il est dans l'armoire ? Dans le placard ?", "en": "Is he in the wardrobe? In the cupboard?" },
+      { "sp": "Léa", "fr": "Non ! Il n'est pas derrière les rideaux… Il n'est pas derrière le tableau… Il n'est pas sur l'étagère…", "en": "No! He's not behind the curtains… He's not behind the painting… He's not on the shelf…" },
+      { "sp": "Sophie", "fr": "Et dans la salle de bain ? Dans la douche ? Dans la baignoire ? Derrière le miroir ?", "en": "And in the bathroom? In the shower? In the bath? Behind the mirror?" },
+      { "sp": "Léa", "fr": "Non. Il n'est pas sur le tapis, et il n'est pas dans le fauteuil.", "en": "No. He's not on the rug, and he's not in the armchair." },
+      { "sp": "Sophie", "fr": "Oh non ! Il est peut-être dans la cuisine… dans le réfrigérateur ?!", "en": "Oh no! Maybe he's in the kitchen… in the fridge?!" },
+      { "sp": "Léa", "fr": "Mais non, Sophie ! Pas dans le frigo !", "en": "Of course not, Sophie! Not in the fridge!" },
+      { "sp": "", "fr": "Dans la chambre de Sophie, il y a un lit et un bureau.", "en": "In Sophie's bedroom there's a bed and a desk." },
+      { "sp": "Léa", "fr": "Le voilà ! Il dort sur le bureau, à côté de la lampe… sur ton ordinateur !", "en": "There he is! He's asleep on the desk, next to the lamp… on your computer!" },
+      { "sp": "Sophie", "fr": "Minou ! Mon ordinateur n'est pas un lit !", "en": "Minou! My computer is not a bed!" },
+      { "sp": "", "fr": "Et le soir, Minou dort sur la télévision…", "en": "And in the evening, Minou sleeps on the television…" }
+    ]
+  }
+}

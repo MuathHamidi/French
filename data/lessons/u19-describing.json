@@ -1,0 +1,257 @@
+{
+  "id": "u19-describing",
+  "type": "vocab",
+  "unit": 19,
+  "title": "Décrire les choses",
+  "en": "Describing objects",
+  "intro": "25 essential adjectives for describing things: wide or narrow, heavy or light, hard or soft, full or empty, wet or dry, round or square… Most go **after** the noun: *une table ronde, un livre épais*.",
+  "words": [
+    { "id": "large", "fr": "large", "pos": "adj", "ipa": "laʁʒ", "en": "wide, broad; loose (clothes)",
+      "def": "Qui fait beaucoup de place d'un côté à l'autre.", "def_en": "Taking up a lot of space from one side to the other.",
+      "forms": ["larges"],
+      "examples": [
+        { "fr": "La rue est très **large**.", "en": "The street is very wide." },
+        { "fr": "Ce pantalon est trop **large**.", "en": "These trousers are too loose." },
+        { "fr": "Le lit fait un mètre soixante de **large**.", "en": "The bed is one metre sixty wide." }
+      ],
+      "note": "False friend! **large** = *wide*. *Large* (big) is **grand**." },
+    { "id": "etroit", "fr": "étroit", "pos": "adj", "ipa": "e.tʁwa", "display": "étroit, étroite", "en": "narrow; tight",
+      "def": "Le contraire de large : avec peu de place.", "def_en": "The opposite of wide: with little room.",
+      "forms": ["étroite", "étroits", "étroites"],
+      "accept": ["étroite"],
+      "examples": [
+        { "fr": "Les rues du Vieux-Lyon sont **étroites**.", "en": "The streets of Old Lyon are narrow." },
+        { "fr": "Ce couloir est très **étroit**.", "en": "This corridor is very narrow." },
+        { "fr": "Ma jupe est un peu **étroite**.", "en": "My skirt is a bit tight." }
+      ] },
+    { "id": "lourd", "fr": "lourd", "pos": "adj", "ipa": "luʁ", "display": "lourd, lourde", "en": "heavy",
+      "def": "Qui pèse beaucoup.", "def_en": "That weighs a lot.",
+      "forms": ["lourde", "lourds", "lourdes"],
+      "accept": ["lourde"],
+      "examples": [
+        { "fr": "Ta valise est **lourde** ! Qu'est-ce qu'il y a dedans ?", "en": "Your suitcase is heavy! What's in it?" },
+        { "fr": "Ce carton est trop **lourd** pour moi.", "en": "This box is too heavy for me." },
+        { "fr": "Il fait **lourd** : il va y avoir un orage.", "en": "It's muggy: there's going to be a storm." }
+      ] },
+    { "id": "leger", "fr": "léger", "pos": "adj", "ipa": "le.ʒe", "display": "léger, légère", "en": "light (not heavy)",
+      "def": "Qui ne pèse pas beaucoup.", "def_en": "That doesn't weigh much.",
+      "forms": ["légère", "légers", "légères"],
+      "accept": ["légère"],
+      "examples": [
+        { "fr": "Ce sac est très **léger**.", "en": "This bag is very light." },
+        { "fr": "Je prends un repas **léger** le soir.", "en": "I have a light meal in the evening." },
+        { "fr": "Une petite robe **légère** pour l'été.", "en": "A light little dress for the summer." }
+      ] },
+    { "id": "dur", "fr": "dur", "pos": "adj", "ipa": "dyʁ", "display": "dur, dure", "en": "hard; tough",
+      "def": "Qui ne change pas de forme quand on appuie dessus. Aussi : difficile.", "def_en": "That doesn't change shape when you press on it. Also: difficult.",
+      "forms": ["dure", "durs", "dures"],
+      "accept": ["dure"],
+      "examples": [
+        { "fr": "Ce pain est **dur** : il est d'hier.", "en": "This bread is hard: it's yesterday's." },
+        { "fr": "Le lit de l'hôtel est trop **dur**.", "en": "The hotel bed is too hard." },
+        { "fr": "C'est **dur**, le travail de nuit.", "en": "Night work is tough." }
+      ] },
+    { "id": "mou", "fr": "mou", "pos": "adj", "ipa": "mu", "display": "mou, molle", "en": "soft; limp",
+      "def": "Le contraire de dur : qui change de forme quand on appuie dessus.", "def_en": "The opposite of hard: that changes shape when you press on it.",
+      "forms": ["molle", "mous", "molles"],
+      "accept": ["molle"],
+      "examples": [
+        { "fr": "Ce matelas est trop **mou** pour mon dos.", "en": "This mattress is too soft for my back." },
+        { "fr": "Le beurre est **mou** : il fait chaud.", "en": "The butter is soft: it's hot." },
+        { "fr": "Je n'aime pas les frites **molles**.", "en": "I don't like soggy chips." }
+      ],
+      "note": "**mou** (not firm) and **doux** (soft to the touch, gentle) are different: *un matelas mou, un pull doux*." },
+    { "id": "solide", "fr": "solide", "pos": "adj", "ipa": "sɔ.lid", "en": "sturdy, strong; solid",
+      "def": "Qui ne se casse pas facilement.", "def_en": "That doesn't break easily.",
+      "forms": ["solides"],
+      "examples": [
+        { "fr": "Cette chaise est très **solide**.", "en": "This chair is very sturdy." },
+        { "fr": "Il faut une boîte **solide** pour envoyer ce paquet.", "en": "You need a strong box to send this parcel." },
+        { "fr": "L'eau devient **solide** à zéro degré.", "en": "Water becomes solid at zero degrees." }
+      ] },
+    { "id": "fragile", "fr": "fragile", "pos": "adj", "ipa": "fʁa.ʒil", "en": "fragile, delicate",
+      "def": "Qui se casse facilement.", "def_en": "That breaks easily.",
+      "forms": ["fragiles"],
+      "examples": [
+        { "fr": "Attention, c'est **fragile** !", "en": "Careful, it's fragile!" },
+        { "fr": "Ces verres sont très **fragiles**.", "en": "These glasses are very fragile." },
+        { "fr": "Mamie a la santé **fragile**.", "en": "Grandma's health is delicate." }
+      ] },
+    { "id": "epais", "fr": "épais", "pos": "adj", "ipa": "e.pɛ", "display": "épais, épaisse", "en": "thick",
+      "def": "Le contraire de [fin|fin] : un livre épais, un pull épais.", "def_en": "The opposite of thin: a thick book, a thick jumper.",
+      "forms": ["épaisse", "épaisses"],
+      "accept": ["épaisse"],
+      "examples": [
+        { "fr": "Ce dictionnaire est très **épais**.", "en": "This dictionary is very thick." },
+        { "fr": "Mets un pull **épais**, il fait froid.", "en": "Put on a thick jumper, it's cold." },
+        { "fr": "La soupe est trop **épaisse**.", "en": "The soup is too thick." }
+      ] },
+    { "id": "plat-adj", "fr": "plat", "pos": "adj", "ipa": "pla", "display": "plat, plate", "en": "flat; (eau plate) still water",
+      "def": "Sans montagnes ni collines : comme une table.", "def_en": "Without mountains or hills: like a table.",
+      "forms": ["plate", "plats", "plates"],
+      "accept": ["plate"],
+      "examples": [
+        { "fr": "Ici, la route est **plate** : c'est facile à vélo.", "en": "Here the road is flat: it's easy by bike." },
+        { "fr": "Tu préfères l'eau **plate** ou l'eau gazeuse ?", "en": "Do you prefer still or sparkling water?" },
+        { "fr": "Mets les livres à **[plat|plat-adj]** sur la table.", "en": "Lay the books flat on the table." }
+      ],
+      "note": "Don't mix it up with the noun **un plat** (a dish)." },
+    { "id": "rond", "fr": "rond", "pos": "adj", "ipa": "ʁɔ̃", "display": "rond, ronde", "en": "round",
+      "def": "Comme une balle ou comme le soleil.", "def_en": "Shaped like a ball or like the sun.",
+      "forms": ["ronde", "ronds", "rondes"],
+      "accept": ["ronde"],
+      "examples": [
+        { "fr": "La Terre est **ronde**.", "en": "The Earth is round." },
+        { "fr": "Une table **ronde** pour six personnes.", "en": "A round table for six people." },
+        { "fr": "Lou a les joues **rondes**.", "en": "Lou has round cheeks." }
+      ] },
+    { "id": "carre", "fr": "carré", "pos": "adj", "ipa": "ka.ʁe", "display": "carré, carrée", "en": "square",
+      "def": "Avec quatre côtés pareils.", "def_en": "With four equal sides.",
+      "forms": ["carrée", "carrés", "carrées"],
+      "accept": ["carrée"],
+      "examples": [
+        { "fr": "J'ai acheté une boîte **carrée**.", "en": "I bought a square box." },
+        { "fr": "La chambre fait douze mètres **carrés**.", "en": "The bedroom is twelve square metres." },
+        { "fr": "Il a un visage **carré**.", "en": "He has a square face." }
+      ],
+      "note": "**un mètre carré** (m²) = a square metre: flats are measured this way." },
+    { "id": "pointu", "fr": "pointu", "pos": "adj", "ipa": "pwɛ̃.ty", "display": "pointu, pointue", "en": "pointed, sharp",
+      "def": "Avec un bout très [fin|fin], comme un crayon ou un couteau.", "def_en": "With a very thin end, like a pencil or a knife.",
+      "forms": ["pointue", "pointus", "pointues"],
+      "accept": ["pointue"],
+      "examples": [
+        { "fr": "Attention, ce couteau est **pointu** !", "en": "Careful, this knife is sharp!" },
+        { "fr": "Le chat a des oreilles **pointues**.", "en": "The cat has pointed ears." },
+        { "fr": "Elle porte des chaussures **pointues**.", "en": "She's wearing pointed shoes." }
+      ] },
+    { "id": "d-occasion", "fr": "d'occasion", "pos": "adj", "ipa": "dɔ.ka.zjɔ̃", "en": "second-hand, used",
+      "def": "Qui n'est pas nouveau : une autre personne l'a déjà utilisé.", "def_en": "Not new: someone else has already used it.",
+      "examples": [
+        { "fr": "J'ai acheté une voiture **d'occasion**.", "en": "I bought a second-hand car." },
+        { "fr": "Les livres **d'occasion** sont moins chers.", "en": "Second-hand books are cheaper." },
+        { "fr": "Tom vend aussi des guitares **d'occasion**.", "en": "Tom also sells second-hand guitars." }
+      ],
+      "note": "**neuf, neuve** = brand-new (*une voiture neuve*); **nouveau, nouvelle** = new to you (*ma nouvelle voiture* can be second-hand!)." },
+    { "id": "ancien", "fr": "ancien", "pos": "adj", "ipa": "ɑ̃.sjɛ̃", "display": "ancien, ancienne", "en": "old, antique; (before a noun) former",
+      "def": "Après le nom : très vieux, d'une autre époque. Avant le nom : d'avant.", "def_en": "After the noun: very old, from another era. Before the noun: former.",
+      "forms": ["ancienne", "anciens", "anciennes"],
+      "accept": ["ancienne"],
+      "examples": [
+        { "fr": "Ce sont des meubles **anciens**.", "en": "This is antique furniture." },
+        { "fr": "C'est mon **ancien** professeur.", "en": "He's my former teacher." },
+        { "fr": "Paul nous montre son **ancien** appartement.", "en": "Paul shows us his old flat." }
+      ] },
+    { "id": "moderne", "fr": "moderne", "pos": "adj", "ipa": "mɔ.dɛʁn", "en": "modern",
+      "def": "D'aujourd'hui ; pas ancien.", "def_en": "Of today; not old.",
+      "forms": ["modernes"],
+      "examples": [
+        { "fr": "Ils habitent dans un appartement très **moderne**.", "en": "They live in a very modern flat." },
+        { "fr": "J'aime l'art **moderne**.", "en": "I like modern art." },
+        { "fr": "Mamie n'aime pas la musique **moderne**.", "en": "Grandma doesn't like modern music." }
+      ] },
+    { "id": "plein", "fr": "plein", "pos": "adj", "ipa": "plɛ̃", "display": "plein, pleine", "en": "full (plein de = full of; lots of)",
+      "def": "Où il n'y a plus de place : un verre plein, un bus plein.", "def_en": "Where there's no more room: a full glass, a full bus.",
+      "forms": ["pleine", "pleins", "pleines"],
+      "accept": ["pleine"],
+      "examples": [
+        { "fr": "Le bus est **plein**, j'attends le prochain.", "en": "The bus is full, I'll wait for the next one." },
+        { "fr": "Mon verre est **plein**.", "en": "My glass is full." },
+        { "fr": "Il y a **plein** de monde au marché !", "en": "There are loads of people at the market!" }
+      ],
+      "note": "Informal: **plein de** = lots of: *j'ai plein d'idées*." },
+    { "id": "vide", "fr": "vide", "pos": "adj", "ipa": "vid", "en": "empty",
+      "def": "Où il n'y a rien.", "def_en": "Where there's nothing.",
+      "forms": ["vides"],
+      "examples": [
+        { "fr": "Le réfrigérateur est **vide** !", "en": "The fridge is empty!" },
+        { "fr": "La salle est **vide** : tout le monde est parti.", "en": "The room is empty: everyone has left." },
+        { "fr": "Mon porte-monnaie est **vide**.", "en": "My purse is empty." }
+      ] },
+    { "id": "sec", "fr": "sec", "pos": "adj", "ipa": "sɛk", "display": "sec, sèche", "en": "dry",
+      "def": "Sans eau ; le contraire de mouillé.", "def_en": "Without water; the opposite of wet.",
+      "forms": ["sèche", "secs", "sèches"],
+      "accept": ["sèche"],
+      "examples": [
+        { "fr": "Le linge est **sec**.", "en": "The washing is dry." },
+        { "fr": "J'ai la peau très **sèche** en hiver.", "en": "My skin is very dry in winter." },
+        { "fr": "Un vin blanc **sec**, s'il vous plaît.", "en": "A dry white wine, please." }
+      ] },
+    { "id": "mouille", "fr": "mouillé", "pos": "adj", "ipa": "mu.je", "display": "mouillé, mouillée", "en": "wet",
+      "def": "Plein d'eau ; pas sec.", "def_en": "Full of water; not dry.",
+      "forms": ["mouillée", "mouillés", "mouillées"],
+      "accept": ["mouillée"],
+      "examples": [
+        { "fr": "Je suis tout **mouillé** : il pleut !", "en": "I'm soaking wet: it's raining!" },
+        { "fr": "Ne t'assieds pas, l'herbe est **mouillée**.", "en": "Don't sit down, the grass is wet." },
+        { "fr": "Ne mets pas tes chaussures **mouillées** sur le canapé !", "en": "Don't put your wet shoes on the sofa!" }
+      ] },
+    { "id": "utile", "fr": "utile", "pos": "adj", "ipa": "y.til", "en": "useful",
+      "def": "Qui sert à quelque chose ; qui aide.", "def_en": "That's of use; that helps.",
+      "forms": ["utiles"],
+      "examples": [
+        { "fr": "Merci, c'est très **utile** !", "en": "Thanks, that's very useful!" },
+        { "fr": "Un parapluie, c'est **utile** à Lyon.", "en": "An umbrella is useful in Lyon." },
+        { "fr": "Ce livre est **utile** pour apprendre le français.", "en": "This book is useful for learning French." }
+      ],
+      "note": "The opposite is **inutile** (useless)." },
+    { "id": "pratique", "fr": "pratique", "pos": "adj", "ipa": "pʁa.tik", "en": "practical, handy, convenient",
+      "def": "Facile à utiliser ; qui rend la vie plus simple.", "def_en": "Easy to use; that makes life simpler.",
+      "forms": ["pratiques"],
+      "examples": [
+        { "fr": "Ce sac est très **pratique** : il a beaucoup de poches.", "en": "This bag is very handy: it has lots of pockets." },
+        { "fr": "Habiter près de la gare, c'est **pratique**.", "en": "Living near the station is convenient." },
+        { "fr": "Ce n'est pas très **pratique** pour Lou.", "en": "It's not very practical for Lou." }
+      ] },
+    { "id": "minuscule", "fr": "minuscule", "pos": "adj", "ipa": "mi.nys.kyl", "en": "tiny; (une minuscule) a small letter",
+      "def": "Très, très petit.", "def_en": "Very, very small.",
+      "forms": ["minuscules"],
+      "examples": [
+        { "fr": "Mon appartement est **minuscule** !", "en": "My flat is tiny!" },
+        { "fr": "Écris en lettres **minuscules**.", "en": "Write in small letters." },
+        { "fr": "Le bébé a des mains **minuscules**.", "en": "The baby has tiny hands." }
+      ],
+      "note": "**une minuscule** = a small letter; **une majuscule** = a capital letter." },
+    { "id": "enorme", "fr": "énorme", "pos": "adj", "ipa": "e.nɔʁm", "en": "huge, enormous",
+      "def": "Très, très grand.", "def_en": "Very, very big.",
+      "forms": ["énormes"],
+      "examples": [
+        { "fr": "Ce gâteau est **énorme** !", "en": "This cake is huge!" },
+        { "fr": "Il a un chien **énorme**.", "en": "He has an enormous dog." },
+        { "fr": "C'est un **énorme** problème.", "en": "It's a huge problem." }
+      ] },
+    { "id": "pareil", "fr": "pareil", "pos": "adj", "ipa": "pa.ʁɛj", "display": "pareil, pareille", "en": "the same, alike",
+      "def": "Qui est comme une autre chose ; le même.", "def_en": "Like something else; the same.",
+      "forms": ["pareille", "pareils", "pareilles"],
+      "accept": ["pareille"],
+      "examples": [
+        { "fr": "Nos deux robes sont **pareilles** !", "en": "Our two dresses are the same!" },
+        { "fr": "C'est **pareil** pour moi.", "en": "It's the same for me." },
+        { "fr": "Ce n'est pas **pareil** !", "en": "It's not the same!" }
+      ] }
+  ],
+  "story": {
+    "title": "Le vide-grenier",
+    "en": "Sunday morning: Tom and Camille sell their old things at a flea market.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche matin, il y a un vide-grenier à la Croix-Rousse. Tom et Camille vendent de vieilles choses.", "en": "On Sunday morning, there's a flea market in the Croix-Rousse. Tom and Camille are selling old things." },
+      { "sp": "Camille", "fr": "Tout est d'occasion, mais en bon état !", "en": "Everything's second-hand, but in good condition!" },
+      { "sp": "", "fr": "Léa et Hugo arrivent. Hugo regarde une énorme lampe ancienne.", "en": "Léa and Hugo arrive. Hugo looks at a huge antique lamp." },
+      { "sp": "Hugo", "fr": "Elle est belle ! Mais elle est trop large pour mon bureau. Et lourde ! Elle est solide, au moins ?", "en": "It's lovely! But it's too wide for my desk. And heavy! Is it sturdy, at least?" },
+      { "sp": "Tom", "fr": "Très solide : elle a cent ans ! Mais attention, le verre est fragile.", "en": "Very sturdy: it's a hundred years old! But careful, the glass is fragile." },
+      { "sp": "", "fr": "Léa trouve une petite boîte ronde en bois et un miroir carré.", "en": "Léa finds a little round wooden box and a square mirror." },
+      { "sp": "Léa", "fr": "C'est pratique pour ranger mes bijoux… Elle est vide ?", "en": "It's handy for keeping my jewellery… Is it empty?" },
+      { "sp": "Camille", "fr": "Non, elle est pleine de vieilles photos. Elles sont à vous en plus !", "en": "No, it's full of old photos. You get them as a bonus!" },
+      { "sp": "Hugo", "fr": "Et ce livre épais, là ? C'est un livre de cuisine ?", "en": "And that thick book there? Is it a cookbook?" },
+      { "sp": "Tom", "fr": "Oui, mais il est un peu mouillé : il a plu hier. Il va être sec dans une heure !", "en": "Yes, but it's a bit wet: it rained yesterday. It'll be dry in an hour!" },
+      { "sp": "", "fr": "Sur la table, il y a aussi un vieux [téléphone|telephone], des assiettes plates, des chaussures pointues, un pull léger et un matelas mou.", "en": "On the table there's also an old phone, some dinner plates, pointed shoes, a light jumper and a soft mattress." },
+      { "sp": "Léa", "fr": "Un matelas ? Il est à toi, Tom ?", "en": "A mattress? Is it yours, Tom?" },
+      { "sp": "Tom", "fr": "Oui, il est trop mou pour mon dos. Maintenant, je dors sur un matelas plus dur, plus moderne.", "en": "Yes, it's too soft for my back. Now I sleep on a harder, more modern one." },
+      { "sp": "", "fr": "Hugo trouve un robot minuscule pour Lou, et une guitare… avec une seule corde.", "en": "Hugo finds a tiny robot for Lou, and a guitar… with only one string." },
+      { "sp": "Hugo", "fr": "Elle est utile, cette guitare ?", "en": "Is this guitar any use?" },
+      { "sp": "Tom", "fr": "Pas très utile, non… Mais elle est pareille à ma première guitare !", "en": "Not very useful, no… But it's just like my first guitar!" },
+      { "sp": "", "fr": "À midi, la rue étroite est pleine de monde. La table de Tom et Camille est presque vide : ils ont tout vendu !", "en": "At noon, the narrow street is packed. Tom and Camille's table is almost empty: they've sold everything!" },
+      { "sp": "Camille", "fr": "On a gagné quatre-vingts euros… et Tom a déjà acheté trois choses aux autres vendeurs !", "en": "We made eighty euros… and Tom has already bought three things from the other sellers!" }
+    ]
+  }
+}

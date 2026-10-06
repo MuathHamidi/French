@@ -1,0 +1,231 @@
+{
+  "id": "u12-ir-re",
+  "type": "grammar",
+  "unit": 12,
+  "title": "Je finis, j'attends",
+  "en": "-ir and -re verbs in the present",
+  "intro": "You know the **-er** verbs (*parler*). Now the two other big families: verbs in **-ir** (*finir, partir, ouvrir*) and in **-re** (*attendre, prendre*). Good news: in each group, *je, tu* and *il* sound the same, so most of the work is the spelling and the plural.",
+  "cases": [
+    { "id": "irr-finir", "label": "finir: je finis, il finit", "rule": "Most -ir verbs work like **finir**: remove *-ir* and add **-is, -is, -it**: *je finis, tu finis, il finit*. All three sound the same: /fi.ni/." },
+    { "id": "irr-iss", "label": "nous finissons: + iss", "rule": "In the plural, these verbs add **-iss-**: *nous finissons, vous finissez, ils finissent*. The same goes for *choisir, réussir, grandir, réfléchir*." },
+    { "id": "irr-partir", "label": "partir, sortir, dormir", "rule": "A small group loses a consonant in the singular: *je pars, je sors, je dors* (also *servir, sentir*). It comes back in the plural: *nous partons, ils dorment*. No *-iss-*!" },
+    { "id": "irr-ouvrir", "label": "ouvrir: -er endings", "rule": "**ouvrir, offrir, découvrir, cueillir** take the endings of -er verbs: *j'ouvre, tu ouvres, il ouvre, nous ouvrons, ils ouvrent*." },
+    { "id": "irr-attendre", "label": "attendre: il attend", "rule": "-re verbs: remove *-re* and add **-s, -s, (nothing), -ons, -ez, -ent**: *j'attends, tu attends, **il attend***, *nous attendons, vous attendez, ils attendent*. The same for *entendre, répondre, vendre, perdre, descendre*." },
+    { "id": "irr-prendre", "label": "prendre: nous prenons, ils prennent", "rule": "**prendre**, **apprendre** and **comprendre** lose the **d** in the plural: *nous prenons, vous prenez*, and take **nn** with *ils*: *ils prennent*." },
+    { "id": "irr-hear", "label": "hearing the plural", "rule": "*il finit / ils finissent*, *il attend / ils attendent*, *il dort / ils dorment*: in the plural you **hear a consonant**: /fi.nis/, /a.tɑ̃d/, /dɔʁm/." },
+    { "id": "irr-imp", "label": "giving orders", "rule": "The imperative uses the **tu, nous, vous** forms without the pronoun: *Finis ! Attends ! Choisissez ! Partons !* Verbs with -er endings drop the **s**: *Ouvre la porte !*" }
+  ],
+  "sections": [
+    {
+      "title": "1. -ir verbs like finir: the singular",
+      "text": ["Take **finir** (to finish): remove **-ir**, then add **-is, -is, -it**. The three forms sound exactly the same: /fi.ni/."],
+      "table": {
+        "head": ["", "finir", "choisir"], "frCols": [1, 2],
+        "rows": [
+          ["I", "je finis", "je choisis"],
+          ["you", "tu finis", "tu choisis"],
+          ["he / she", "il finit", "elle choisit"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je finis|irr-finir} mon travail à six heures.", "en": "I finish my work at six." },
+        { "fr": "{Tu choisis|irr-finir} le restaurant ?", "en": "Will you choose the restaurant?" },
+        { "fr": "Le film {finit|irr-finir} à dix heures.", "en": "The film finishes at ten." }
+      ]
+    },
+    {
+      "title": "2. The plural: -iss-",
+      "text": ["In the plural, verbs like *finir* add **-iss-** before the ending."],
+      "table": {
+        "head": ["", "finir", "choisir"], "frCols": [1, 2],
+        "rows": [
+          ["we", "nous finissons", "nous choisissons"],
+          ["you", "vous finissez", "vous choisissez"],
+          ["they", "ils finissent", "elles choisissent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous finissons|irr-iss} à midi.", "en": "We finish at noon." },
+        { "fr": "{Vous choisissez|irr-iss} quel sentier ?", "en": "Which path are you choosing?" },
+        { "fr": "Les enfants {grandissent|irr-iss} vite !", "en": "Children grow up fast!" }
+      ],
+      "tip": "Other verbs like *finir*: **choisir** (to choose), **réussir** (to succeed, to pass), **grandir** (to grow up), **réfléchir** (to think)."
+    },
+    {
+      "title": "3. partir, dormir, sortir: a different group",
+      "text": ["These common verbs **don't** take *-iss-*. In the singular they lose the consonant before *-ir* (*part-ir → je pars*). It comes back in the plural."],
+      "table": {
+        "head": ["", "partir", "dormir", "sortir"], "frCols": [1, 2, 3],
+        "rows": [
+          ["je", "je pars", "je dors", "je sors"],
+          ["tu", "tu pars", "tu dors", "tu sors"],
+          ["il / elle", "il part", "il dort", "il sort"],
+          ["nous", "nous partons", "nous dormons", "nous sortons"],
+          ["vous", "vous partez", "vous dormez", "vous sortez"],
+          ["ils / elles", "ils partent", "ils dorment", "ils sortent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je pars|irr-partir} demain matin.", "en": "I'm leaving tomorrow morning." },
+        { "fr": "{Tu dors|irr-partir} sous la tente ?", "en": "Are you sleeping in the tent?" },
+        { "fr": "{Nous sortons|irr-partir} ce soir.", "en": "We're going out tonight." }
+      ],
+      "tip": "The same pattern: **servir** (je sers, nous servons) and **sentir** (je sens, nous sentons)."
+    },
+    {
+      "title": "4. ouvrir and friends: -er endings",
+      "text": ["A few -ir verbs behave like -er verbs: **-e, -es, -e, -ons, -ez, -ent**."],
+      "table": {
+        "head": ["ouvrir", "découvrir", "cueillir"], "frCols": [0, 1, 2],
+        "rows": [
+          ["j'ouvre", "je découvre", "je cueille"],
+          ["tu ouvres", "tu découvres", "tu cueilles"],
+          ["il ouvre", "il découvre", "il cueille"],
+          ["nous ouvrons", "nous découvrons", "nous cueillons"],
+          ["vous ouvrez", "vous découvrez", "vous cueillez"],
+          ["ils ouvrent", "ils découvrent", "ils cueillent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ouvre|irr-ouvrir} la fenêtre.", "en": "I'm opening the window." },
+        { "fr": "{Il offre|irr-ouvrir} des fleurs à sa mère.", "en": "He gives his mother flowers." },
+        { "fr": "{Vous découvrez|irr-ouvrir} la ville ?", "en": "Are you discovering the town?" }
+      ]
+    },
+    {
+      "title": "5. -re verbs like attendre",
+      "text": ["Remove **-re** and add **-s, -s, -ons, -ez, -ent**. With *il / elle* there's **no ending at all**: *il attend*."],
+      "table": {
+        "head": ["", "attendre", "répondre"], "frCols": [1, 2],
+        "rows": [
+          ["je", "j'attends", "je réponds"],
+          ["tu", "tu attends", "tu réponds"],
+          ["il / elle", "il attend", "elle répond"],
+          ["nous", "nous attendons", "nous répondons"],
+          ["vous", "vous attendez", "vous répondez"],
+          ["ils / elles", "ils attendent", "elles répondent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'attends|irr-attendre} le bus.", "en": "I'm waiting for the bus." },
+        { "fr": "{Tu entends|irr-attendre} les oiseaux ?", "en": "Can you hear the birds?" },
+        { "fr": "{Il répond|irr-attendre} à la question.", "en": "He answers the question." }
+      ],
+      "tip": "The same pattern: **entendre** (to hear), **vendre** (to sell), **perdre** (to lose), **descendre** (to go down). And **attendre** already means *to wait for*: *j'attends le bus* (no *pour*!)."
+    },
+    {
+      "title": "6. prendre, apprendre, comprendre",
+      "text": ["**prendre** is irregular in the plural: the **d** disappears, and *ils* takes **nn**."],
+      "table": {
+        "head": ["", "prendre", "comprendre"], "frCols": [1, 2],
+        "rows": [
+          ["je", "je prends", "je comprends"],
+          ["tu", "tu prends", "tu comprends"],
+          ["il / elle", "il prend", "elle comprend"],
+          ["nous", "nous prenons", "nous comprenons"],
+          ["vous", "vous prenez", "vous comprenez"],
+          ["ils / elles", "ils prennent", "elles comprennent"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous prenons|irr-prendre} le train.", "en": "We're taking the train." },
+        { "fr": "{Vous comprenez|irr-prendre} ?", "en": "Do you understand?" },
+        { "fr": "{Ils apprennent|irr-prendre} le français.", "en": "They're learning French." }
+      ],
+      "tip": "Listen to the vowel: *nous prenons* /pʁə.nɔ̃/ but *ils prennent* /pʁɛn/."
+    },
+    {
+      "title": "7. Hearing the plural",
+      "text": ["In the singular, the last consonant is silent. In the plural (*ils, elles*), you **hear** a consonant. That's how you know there's more than one person."],
+      "table": {
+        "head": ["One", "Several", "Sounds like"], "frCols": [0, 1],
+        "rows": [
+          ["il finit", "ils finissent", "/fi.ni/ → /fi.nis/"],
+          ["il attend", "ils attendent", "/a.tɑ̃/ → /a.tɑ̃d/"],
+          ["elle dort", "elles dorment", "/dɔʁ/ → /dɔʁm/"],
+          ["il part", "ils partent", "/paʁ/ → /paʁt/"],
+          ["elle prend", "elles prennent", "/pʁɑ̃/ → /pʁɛn/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Elle dort|irr-hear} dans la tente.", "en": "She's sleeping in the tent." },
+        { "fr": "{Elles dorment|irr-hear} dans la tente.", "en": "They're sleeping in the tent." },
+        { "fr": "{Ils attendent|irr-hear} le train.", "en": "They're waiting for the train." }
+      ],
+      "tip": "Compare the -er verbs: *il parle* and *ils parlent* sound **exactly the same**. With -ir and -re verbs, your ear can tell the difference."
+    },
+    {
+      "title": "8. Giving orders",
+      "text": ["The imperative uses the **tu, nous, vous** forms without the subject. Verbs with -er endings (*ouvrir, cueillir*) drop the **s** of *tu*, like *parle !*"],
+      "table": {
+        "head": ["tu", "nous", "vous"], "frCols": [0, 1, 2],
+        "rows": [
+          ["Finis !", "Finissons !", "Finissez !"],
+          ["Pars !", "Partons !", "Partez !"],
+          ["Attends !", "Attendons !", "Attendez !"],
+          ["Prends !", "Prenons !", "Prenez !"],
+          ["Ouvre !", "Ouvrons !", "Ouvrez !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Attends|irr-imp} ! Je viens avec toi.", "en": "Wait! I'm coming with you." },
+        { "fr": "{Choisissez|irr-imp} une table.", "en": "Choose a table." },
+        { "fr": "{Ouvre|irr-imp} la fenêtre, s'il te plaît.", "en": "Open the window, please." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "nous finons", "right": "nous finissons", "why": "Verbs like *finir* add **-iss-** in the plural." },
+    { "wrong": "je partis", "right": "je pars", "why": "*partir* doesn't follow *finir*: **je pars**." },
+    { "wrong": "il attendt", "right": "il attend", "why": "With *il*, -re verbs take no ending." },
+    { "wrong": "ils prendent", "right": "ils prennent", "why": "**prendre**: *ils prennent*, with **nn**." },
+    { "wrong": "j'ouvris", "right": "j'ouvre", "why": "*ouvrir* takes -er endings: **j'ouvre**." },
+    { "wrong": "J'attends pour le bus.", "right": "J'attends le bus.", "why": "*attendre* already means *to wait for*." }
+  ],
+  "story": {
+    "title": "La nuit au refuge",
+    "en": "After a long hike, the friends spend the night in a mountain hut.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Après la randonnée, les amis arrivent au refuge, à deux mille mètres.", "en": "After the hike, the friends reach the mountain hut, at two thousand metres." },
+      { "sp": "La gardienne", "fr": "Bonsoir ! {Vous choisissez|irr-iss} vos lits ? Le dîner {finit|irr-finir} à neuf heures.", "en": "Good evening! Will you choose your beds? Dinner finishes at nine." },
+      { "sp": "Sophie", "fr": "{Je choisis|irr-finir} ce lit, près de la fenêtre !", "en": "I'm choosing this bed, near the window!" },
+      { "sp": "", "fr": "La gardienne {sert|irr-partir} une soupe chaude. Tout le monde a faim.", "en": "The warden serves a hot soup. Everyone is hungry." },
+      { "sp": "Tom", "fr": "Mmm… {Vous sentez|irr-partir} ? Ça sent bon !", "en": "Mmm… Can you smell that? It smells good!" },
+      { "sp": "", "fr": "Après le dîner, Léa {ouvre|irr-ouvrir} la porte. Dehors, il fait nuit et il fait froid.", "en": "After dinner, Léa opens the door. Outside, it's dark and cold." },
+      { "sp": "Léa", "fr": "Venez voir ! On {découvre|irr-ouvrir} des milliers d'étoiles !", "en": "Come and see! You can see thousands of stars!" },
+      { "sp": "", "fr": "{Ils sortent|irr-hear}. Dans le silence, {ils entendent|irr-hear} le vent.", "en": "They go outside. In the silence, they hear the wind." },
+      { "sp": "Hugo", "fr": "{J'entends|irr-attendre} un bruit… C'est un loup ?", "en": "I can hear a noise… Is it a wolf?" },
+      { "sp": "Tom", "fr": "Mais non, Hugo ! C'est une vache. Ici, les vaches {dorment|irr-hear} dehors !", "en": "Of course not, Hugo! It's a cow. Here, the cows sleep outside!" },
+      { "sp": "", "fr": "À dix heures, tout le monde {dort|irr-partir}… sauf Hugo.", "en": "At ten o'clock, everyone is asleep… except Hugo." },
+      { "sp": "Hugo", "fr": "{Je ne dors pas|irr-partir} : {j'attends|irr-attendre} le lever du soleil !", "en": "I'm not sleeping: I'm waiting for the sunrise!" },
+      { "sp": "", "fr": "À six heures, le ciel devient rose. Hugo appelle ses amis.", "en": "At six o'clock, the sky turns pink. Hugo calls his friends." },
+      { "sp": "Hugo", "fr": "{Sortez|irr-imp} ! {Prenez|irr-imp} vos téléphones !", "en": "Come outside! Take your phones!" },
+      { "sp": "", "fr": "{Ils prennent|irr-prendre} des photos. Le soleil se lève derrière les montagnes.", "en": "They take photos. The sun is rising behind the mountains." },
+      { "sp": "Léa", "fr": "Merci, Hugo ! Pour une fois, {tu réussis|irr-finir} quelque chose !", "en": "Thank you, Hugo! For once, you've pulled something off!" },
+      { "sp": "Hugo", "fr": "{Vous comprenez|irr-prendre} maintenant ? Je ne suis pas toujours en retard !", "en": "Do you see now? I'm not always late!" }
+    ]
+  },
+  "quiz": [
+    { "case": "irr-finir", "type": "type", "q": "Je ___ mon travail à six heures.", "en": "I finish my work at six.", "answer": "finis" },
+    { "case": "irr-finir", "type": "mc", "q": "Le film ___ à dix heures.", "en": "The film finishes at ten.", "options": ["finit", "finis", "finissent"], "answer": "finit" },
+    { "case": "irr-iss", "type": "type", "q": "Nous ___ à midi.", "en": "We finish at noon.", "answer": "finissons" },
+    { "case": "irr-iss", "type": "mc", "q": "Vous ___ quel sentier ?", "en": "Which path are you choosing?", "options": ["choisissez", "choisez", "choisis"], "answer": "choisissez" },
+    { "case": "irr-iss", "type": "mc", "q": "Les enfants ___ vite.", "en": "Children grow up fast.", "options": ["grandissent", "grandent", "grandit"], "answer": "grandissent" },
+    { "case": "irr-partir", "type": "mc", "q": "Je ___ demain matin.", "en": "I'm leaving tomorrow morning.", "options": ["pars", "part", "partis"], "answer": "pars" },
+    { "case": "irr-partir", "type": "type", "q": "Tu ___ sous la tente ?", "en": "Are you sleeping in the tent?", "answer": "dors" },
+    { "case": "irr-partir", "type": "mc", "q": "Nous ___ ce soir.", "en": "We're going out tonight.", "options": ["sortons", "sorons", "sortissons"], "answer": "sortons" },
+    { "case": "irr-ouvrir", "type": "mc", "q": "J'___ la fenêtre.", "en": "I'm opening the window.", "options": ["ouvre", "ouvris", "ouvrit"], "answer": "ouvre" },
+    { "case": "irr-ouvrir", "type": "type", "q": "Lou ___ des fleurs pour sa mère.", "en": "Lou picks flowers for her mother.", "answer": "cueille" },
+    { "case": "irr-attendre", "type": "type", "q": "J'___ le bus.", "en": "I'm waiting for the bus.", "answer": "attends" },
+    { "case": "irr-attendre", "type": "mc", "q": "Il ___ à la question.", "en": "He answers the question.", "options": ["répond", "réponds", "répondt"], "answer": "répond" },
+    { "case": "irr-prendre", "type": "mc", "q": "Nous ___ le train.", "en": "We're taking the train.", "options": ["prenons", "prendons", "prennons"], "answer": "prenons" },
+    { "case": "irr-prendre", "type": "type", "q": "Ils ___ le français.", "en": "They're learning French.", "answer": "apprennent" },
+    { "case": "irr-hear", "type": "mc", "lang": "en", "listen": "Ils attendent.", "q": "Listen: one person or several?", "options": ["several: ils attendent", "one: il attend"], "answer": "several: ils attendent" },
+    { "case": "irr-hear", "type": "mc", "lang": "en", "listen": "Elle dort.", "q": "Listen: one person or several?", "options": ["one: elle dort", "several: elles dorment"], "answer": "one: elle dort" },
+    { "case": "irr-hear", "type": "mc", "lang": "en", "q": "Which pair sounds exactly the same?", "options": ["il parle / ils parlent", "il finit / ils finissent", "il part / ils partent"], "answer": "il parle / ils parlent", "say": "il parle, ils parlent" },
+    { "case": "irr-imp", "type": "mc", "lang": "en", "q": "How do you tell a friend “Wait!”?", "options": ["Attends !", "Attend !", "Tu attends !"], "answer": "Attends !" },
+    { "case": "irr-imp", "type": "type", "q": "___ la fenêtre, s'il te plaît !", "en": "Open the window, please!", "answer": "Ouvre" },
+    { "case": "irr-imp", "type": "mc", "lang": "en", "q": "How do you say “Let's leave!”?", "options": ["Partons !", "Nous partons !", "Partir !"], "answer": "Partons !" }
+  ]
+}

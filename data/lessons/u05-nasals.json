@@ -1,0 +1,165 @@
+{
+  "id": "u05-nasals",
+  "type": "sounds",
+  "unit": 5,
+  "title": "Les voyelles nasales",
+  "en": "Pronunciation: nasal vowels (an, on, in)",
+  "intro": "French has three nasal vowels — the air goes out through your nose. The **n** or **m** after the vowel is not pronounced: it's just a signal. Listen to each example, then hum it with your mouth open.",
+  "cases": [
+    { "id": "nas-an", "label": "/ɑ̃/ — an, am, en, em", "rule": "**an, am, en, em** sound /ɑ̃/: *maman, chambre, enfant, temps*. Open mouth, like a deep “ah” through the nose." },
+    { "id": "nas-on", "label": "/ɔ̃/ — on, om", "rule": "**on, om** sound /ɔ̃/: *bonjour, poisson, nom*. Round lips, like “oh” through the nose." },
+    { "id": "nas-in", "label": "/ɛ̃/ — in, ain, ein, un, ien", "rule": "**in, im, ain, ein** sound /ɛ̃/: *vin, pain, plein*. **un** is /œ̃/ or /ɛ̃/ (most people now say /ɛ̃/). **ien** = /jɛ̃/: *bien, chien*." },
+    { "id": "nas-not", "label": "not nasal: n + vowel, nn, mm", "rule": "If **n / m** is followed by a vowel, or doubled, the vowel is NOT nasal and you hear the n/m: *une, ami, banane, bonne, pomme, femme*." },
+    { "id": "nas-pairs", "label": "bon / bonne: masculine nasal, feminine not", "rule": "Adding **-e** (or **-ne**) removes the nasal: *bon → bonne* /bɔ̃/ → /bɔn/, *fin → fine*, *cousin → cousine*." },
+    { "id": "nas-minimal", "label": "vent, vont, vin — different words", "rule": "The three nasal vowels make different words: *vent* /vɑ̃/ (wind), *vont* /vɔ̃/ (they go), *vin* /vɛ̃/ (wine)." },
+    { "id": "nas-liaison", "label": "nasals before a vowel", "rule": "*un, mon, ton, son* keep the nasal and add /n/: *un‿ami* /œ̃.na.mi/. But **bon** loses it: *bon‿anniversaire* /bɔ.na.ni.vɛʁ.sɛʁ/." }
+  ],
+  "sections": [
+    {
+      "title": "1. /ɑ̃/ — an, am, en, em",
+      "table": {
+        "head": ["Spelling", "Examples"], "frCols": [1],
+        "rows": [
+          ["an", "maman · viande"],
+          ["am", "chambre · jambon"],
+          ["en", "enfant · cent"],
+          ["em", "temps · ensemble"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Maman|nas-an} est dans la {chambre|nas-an}.", "en": "Mum is in the bedroom." },
+        { "fr": "Les {enfants|nas-an} mangent de la {viande|nas-an}.", "en": "The children are eating meat." }
+      ],
+      "tip": "**an** and **en** sound exactly the same: *cent* and *sans* (without) are both /sɑ̃/."
+    },
+    {
+      "title": "2. /ɔ̃/ — on, om",
+      "table": {
+        "head": ["Spelling", "Examples"], "frCols": [1],
+        "rows": [
+          ["on", "bonjour · poisson"],
+          ["om", "nom · combien"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Bonjour|nas-on}, {mon oncle|nas-on} !", "en": "Hello, uncle!" },
+        { "fr": "Il y a {combien|nas-on} de {poissons|nas-on} ?", "en": "How many fish are there?" }
+      ]
+    },
+    {
+      "title": "3. /ɛ̃/ — in, im, ain, ein, un, ien",
+      "table": {
+        "head": ["Spelling", "Examples"], "frCols": [1],
+        "rows": [
+          ["in, im", "vin · important"],
+          ["ain", "pain · demain"],
+          ["ein", "plein"],
+          ["un", "un · lundi"],
+          ["ien (/jɛ̃/)", "bien · chien"]
+        ]
+      },
+      "examples": [
+        { "fr": "Du {vin|nas-in} et du {pain|nas-in}.", "en": "Wine and bread." },
+        { "fr": "{Un|nas-in} {chien|nas-in} {brun|nas-in}.", "en": "A brown dog." }
+      ],
+      "tip": "**un** used to have its own sound (/œ̃/), and the voice in this app still says it that way. Today most people in France say it like *in*. Both are understood."
+    },
+    {
+      "title": "4. When it is NOT nasal",
+      "text": ["A vowel is nasal only if the **n / m** ends the syllable. If a vowel follows (*une, ami*), or the n/m is doubled (*bonne, pomme*), the vowel is normal and you hear the **n / m**."],
+      "examples": [
+        { "fr": "{Une|nas-not} {femme|nas-not}.", "en": "A woman." },
+        { "fr": "{Une|nas-not} {bonne|nas-not} {banane|nas-not}.", "en": "A good banana." }
+      ],
+      "tip": "In **banane** /ba.nan/, no vowel is nasal: each **n** is followed by a vowel."
+    },
+    {
+      "title": "5. Masculine nasal, feminine not",
+      "table": {
+        "head": ["Masculine", "Feminine", "Sounds"], "frCols": [0, 1],
+        "rows": [
+          ["bon", "bonne", "/bɔ̃/ → /bɔn/"],
+          ["un", "une", "/œ̃/ → /yn/"],
+          ["fin", "fine", "/fɛ̃/ → /fin/"],
+          ["plein", "pleine", "/plɛ̃/ → /plɛn/"],
+          ["cousin", "cousine", "/ku.zɛ̃/ → /ku.zin/"],
+          ["américain", "américaine", "/a.me.ʁi.kɛ̃/ → /a.me.ʁi.kɛn/"],
+          ["italien", "italienne", "/i.ta.ljɛ̃/ → /i.ta.ljɛn/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le pain est {bon|nas-pairs}, la soupe est {bonne|nas-pairs}.", "en": "The bread is good, the soup is good." },
+        { "fr": "Mon {cousin|nas-pairs} et ma {cousine|nas-pairs}.", "en": "My cousin (m.) and my cousin (f.)." }
+      ]
+    },
+    {
+      "title": "6. Telling them apart",
+      "table": {
+        "head": ["Word", "Sound", "Meaning"], "frCols": [0],
+        "rows": [
+          ["vent", "/vɑ̃/", "wind"],
+          ["vont", "/vɔ̃/", "(they) go"],
+          ["vin", "/vɛ̃/", "wine"],
+          ["blanc", "/blɑ̃/", "white"],
+          ["blond", "/blɔ̃/", "blond"],
+          ["cent", "/sɑ̃/", "a hundred"],
+          ["son", "/sɔ̃/", "his, her; sound"],
+          ["cinq", "/sɛ̃k/", "five"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a du {vent|nas-minimal}.", "en": "It's windy." },
+        { "fr": "Ils {vont|nas-minimal} au café.", "en": "They're going to the café." },
+        { "fr": "Un verre de {vin|nas-minimal} {blanc|nas-minimal}.", "en": "A glass of white wine." }
+      ]
+    },
+    {
+      "title": "7. Nasal vowels before a vowel",
+      "text": ["**un, mon, ton, son** keep their nasal vowel and add an /n/: *un‿ami* /œ̃.na.mi/, *mon‿amie* /mɔ̃.na.mi/. But **bon** loses its nasal: *bon‿anniversaire* /bɔ.na.ni.vɛʁ.sɛʁ/."],
+      "examples": [
+        { "fr": "C'est {un ami|nas-liaison}.", "en": "He's a friend." },
+        { "fr": "{Mon amie|nas-liaison} Sophie.", "en": "My friend Sophie." },
+        { "fr": "{Bon anniversaire|nas-liaison} !", "en": "Happy birthday!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "bon → “bonn”", "right": "bon → /bɔ̃/", "why": "Don't pronounce the **n** — it only makes the vowel nasal." },
+    { "wrong": "vin and vent: same sound", "right": "vin /vɛ̃/ · vent /vɑ̃/", "why": "Different nasal vowels make different words." },
+    { "wrong": "bonne → /bɔ̃/", "right": "bonne → /bɔn/", "why": "Double **n**: not nasal, and you hear the n." },
+    { "wrong": "banane → /bɑ̃.nan/", "right": "banane → /ba.nan/", "why": "**an** + vowel: not nasal." },
+    { "wrong": "femme → /fɑ̃m/", "right": "femme → /fam/", "why": "**mm**: not nasal." }
+  ],
+  "story": {
+    "title": "Le dimanche de l'oncle Jean",
+    "en": "A short text full of nasal vowels. Listen, then read it aloud.",
+    "lines": [
+      { "fr": "Le dimanche, mon {oncle|nas-on} Jean mange du {pain|nas-in} avec du {jambon|nas-on}.", "en": "On Sundays, my uncle Jean eats bread with ham." },
+      { "fr": "Il boit un {bon|nas-on} {vin|nas-in} {blanc|nas-an}.", "en": "He drinks a good white wine." },
+      { "fr": "Ses {enfants|nas-an} ont {cinq|nas-in} et {onze|nas-on} ans.", "en": "His children are five and eleven.", "br": true },
+      { "fr": "Ils mangent {une|nas-not} {pomme|nas-not} et {une|nas-not} {banane|nas-not}.", "en": "They eat an apple and a banana." },
+      { "fr": "La cuisine est {pleine|nas-pairs} de {bonnes|nas-pairs} choses.", "en": "The kitchen is full of good things." },
+      { "fr": "Dehors, il y a du {vent|nas-minimal}, mais dedans, tout va {bien|nas-in}.", "en": "Outside it's windy, but inside, all is well.", "br": true },
+      { "fr": "Aujourd'hui, c'est l'anniversaire de {son ami|nas-liaison} Simon.", "en": "Today is his friend Simon's birthday." },
+      { "fr": "« {Bon anniversaire|nas-liaison}, Simon ! »", "en": "“Happy birthday, Simon!”" }
+    ]
+  },
+  "quiz": [
+    { "case": "nas-an", "type": "mc", "lang": "en", "listen": "blanc", "q": "Listen: which word do you hear?", "options": ["blanc", "blond"], "answer": "blanc" },
+    { "case": "nas-an", "type": "mc", "lang": "en", "q": "Which word has the sound /ɑ̃/, as in « enfant »?", "options": ["chambre", "bonjour", "vin"], "answer": "chambre", "say": "chambre" },
+    { "case": "nas-on", "type": "mc", "lang": "en", "listen": "vont", "q": "Listen: which word do you hear?", "options": ["vont", "vent", "vin"], "answer": "vont" },
+    { "case": "nas-on", "type": "mc", "lang": "en", "q": "Which word has the sound /ɔ̃/, as in « bonjour »?", "options": ["poisson", "maman", "pain"], "answer": "poisson", "say": "poisson" },
+    { "case": "nas-in", "type": "mc", "lang": "en", "listen": "vin", "q": "Listen: which word do you hear?", "options": ["vin", "vent", "vont"], "answer": "vin" },
+    { "case": "nas-in", "type": "mc", "lang": "en", "q": "« pain », « vin » and « plein » all have the sound…", "options": ["/ɛ̃/, as in « vin »", "/ɑ̃/, as in « vent »", "/ɔ̃/, as in « vont »"], "answer": "/ɛ̃/, as in « vin »", "say": "pain, vin, plein" },
+    { "case": "nas-not", "type": "mc", "lang": "en", "q": "In « banane », do you hear a nasal vowel?", "options": ["no — n + vowel is not nasal", "yes"], "answer": "no — n + vowel is not nasal", "say": "banane" },
+    { "case": "nas-not", "type": "mc", "lang": "en", "listen": "une", "q": "Listen: un or une?", "options": ["une", "un"], "answer": "une", "why": "You hear the **n**: *une* /yn/ is not nasal." },
+    { "case": "nas-pairs", "type": "mc", "lang": "en", "listen": "bonne", "q": "Listen: which word do you hear?", "options": ["bonne", "bon"], "answer": "bonne" },
+    { "case": "nas-pairs", "type": "mc", "lang": "en", "listen": "fin", "q": "Listen: which word do you hear?", "options": ["fin", "fine"], "answer": "fin" },
+    { "case": "nas-pairs", "type": "mc", "q": "La soupe est très ___.", "en": "The soup is very good.", "options": ["bonne", "bon"], "answer": "bonne" },
+    { "case": "nas-minimal", "type": "mc", "lang": "en", "listen": "vent", "q": "Listen: which word do you hear?", "options": ["vent", "vin", "vont"], "answer": "vent" },
+    { "case": "nas-minimal", "type": "mc", "lang": "en", "listen": "cinq", "q": "Listen: which number do you hear?", "options": ["cinq", "cent"], "answer": "cinq" },
+    { "case": "nas-minimal", "type": "mc", "lang": "en", "listen": "cent", "q": "Listen: which word do you hear?", "options": ["cent", "son", "cinq"], "answer": "cent" },
+    { "case": "nas-liaison", "type": "mc", "lang": "en", "q": "In « un ami », what do you hear?", "options": ["/œ̃.na.mi/ — a nasal, then n", "/œ̃.a.mi/ — no n", "/y.na.mi/"], "answer": "/œ̃.na.mi/ — a nasal, then n", "say": "un ami" },
+    { "case": "nas-liaison", "type": "mc", "lang": "en", "q": "How do you say « Bon anniversaire » ?", "options": ["/bɔ.na.ni.vɛʁ.sɛʁ/ — the “on” is not nasal", "/bɔ̃.a.ni.vɛʁ.sɛʁ/"], "answer": "/bɔ.na.ni.vɛʁ.sɛʁ/ — the “on” is not nasal", "say": "Bon anniversaire !" }
+  ]
+}

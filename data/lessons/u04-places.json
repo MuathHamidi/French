@@ -1,0 +1,163 @@
+{
+  "id": "u04-places",
+  "type": "grammar",
+  "unit": 4,
+  "title": "Sur, sous, dans…",
+  "en": "Where things are: prepositions of place",
+  "intro": "How to say where something is: *on* the table, *under* the bed, *next to* the window… and how to ask **Où est… ?** (Where is…?). Watch the little word **de**: *à côté de + le lit* becomes **à côté du lit**.",
+  "cases": [
+    { "id": "pl-ou", "label": "Où est… ? Où sont… ?", "rule": "**Où est** + one thing, **Où sont** + several: *Où est le chat ? Où sont mes clés ?* In speech also: *Il est où ?*" },
+    { "id": "pl-dans", "label": "dans — in, inside", "rule": "**dans** = in, inside: *dans le placard, dans la cuisine*." },
+    { "id": "pl-sur", "label": "sur — on", "rule": "**sur** /syʁ/ = on: *sur la table, sur le lit*." },
+    { "id": "pl-sous", "label": "sous — under", "rule": "**sous** /su/ = under: *sous le lit*. Don't mix it up with **sur** /syʁ/." },
+    { "id": "pl-devant", "label": "devant — in front of", "rule": "**devant** = in front of: *devant la télé*." },
+    { "id": "pl-derriere", "label": "derrière — behind", "rule": "**derrière** = behind: *derrière la porte*." },
+    { "id": "pl-entre", "label": "entre — between", "rule": "**entre … et …** = between … and …: *entre le canapé et la fenêtre*." },
+    { "id": "pl-cote", "label": "à côté de — next to", "rule": "**à côté de** = next to: *à côté de la porte, à côté du lit*." },
+    { "id": "pl-face", "label": "en face de — opposite", "rule": "**en face de** = opposite, facing: *en face de la fenêtre, en face du canapé*." },
+    { "id": "pl-pres-loin", "label": "près de / loin de — near / far from", "rule": "**près de** = near, **loin de** = far from: *près de l'école, loin d'ici*." },
+    { "id": "pl-gauche-droite", "label": "à gauche de / à droite de", "rule": "**à gauche de** = to the left of, **à droite de** = to the right of. Alone: *à gauche, à droite*." },
+    { "id": "pl-de-contraction", "label": "de + le = du, de + les = des", "rule": "After *à côté de, près de, en face de…*: **de + le → du**, **de + les → des**. **de la** and **de l'** don't change." }
+  ],
+  "sections": [
+    {
+      "title": "1. Asking: Où est… ? Où sont… ?",
+      "text": ["**où** (with an accent) = where. **ou** (no accent) = or. Use **est** for one thing and **sont** for several."],
+      "examples": [
+        { "fr": "{Où est|pl-ou} le chat ?", "en": "Where's the cat?" },
+        { "fr": "{Où sont|pl-ou} mes clés ?", "en": "Where are my keys?" },
+        { "fr": "La salle de bain, {elle est où|pl-ou} ?", "en": "Where's the bathroom? (casual)" }
+      ]
+    },
+    {
+      "title": "2. In, on, under: dans, sur, sous",
+      "table": {
+        "head": ["French", "English", "Example"], "frCols": [0, 2],
+        "rows": [
+          ["dans", "in, inside", "dans le placard"],
+          ["sur", "on", "sur la table"],
+          ["sous", "under", "sous le lit"]
+        ]
+      },
+      "examples": [
+        { "fr": "Les livres sont {dans l'armoire|pl-dans}.", "en": "The books are in the wardrobe." },
+        { "fr": "La lampe est {sur le bureau|pl-sur}.", "en": "The lamp is on the desk." },
+        { "fr": "Le chat est {sous le lit|pl-sous}.", "en": "The cat is under the bed." }
+      ],
+      "tip": "**sur** /syʁ/ and **sous** /su/ sound close: listen for the **r** and for the **u** sound."
+    },
+    {
+      "title": "3. In front, behind, between: devant, derrière, entre",
+      "table": {
+        "head": ["French", "English", "Example"], "frCols": [0, 2],
+        "rows": [
+          ["devant", "in front of", "devant la télé"],
+          ["derrière", "behind", "derrière la porte"],
+          ["entre … et …", "between … and …", "entre la table et le lit"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le canapé est {devant la télévision|pl-devant}.", "en": "The sofa is in front of the TV." },
+        { "fr": "Le jardin est {derrière la maison|pl-derriere}.", "en": "The garden is behind the house." },
+        { "fr": "La table est {entre le canapé et la fenêtre|pl-entre}.", "en": "The table is between the sofa and the window." }
+      ]
+    },
+    {
+      "title": "4. With de: à côté de, en face de, près de, loin de…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["à côté de", "next to"],
+          ["en face de", "opposite, facing"],
+          ["près de", "near"],
+          ["loin de", "far from"],
+          ["à gauche de", "to the left of"],
+          ["à droite de", "to the right of"]
+        ]
+      },
+      "examples": [
+        { "fr": "L'armoire est {à côté de la porte|pl-cote}.", "en": "The wardrobe is next to the door." },
+        { "fr": "Le café est {en face de la maison|pl-face}.", "en": "The café is opposite the house." },
+        { "fr": "L'école est {près de la maison|pl-pres-loin}, mais le bureau est {loin d'ici|pl-pres-loin}.", "en": "The school is near the house, but the office is far from here." },
+        { "fr": "La salle de bain est {à gauche de la chambre|pl-gauche-droite}.", "en": "The bathroom is to the left of the bedroom." }
+      ],
+      "tip": "Without a noun after them, drop **de**: *C'est à gauche. C'est tout près. C'est loin.*"
+    },
+    {
+      "title": "5. de + le = du, de + les = des",
+      "text": ["When **de** meets **le** or **les**, they join together. This happens after every expression with **de**."],
+      "table": {
+        "head": ["", "Becomes", "Example"], "frCols": [1, 2],
+        "rows": [
+          ["de + le", "du", "à côté du lit"],
+          ["de + la", "de la", "à côté de la porte"],
+          ["de + l'", "de l'", "à côté de l'armoire"],
+          ["de + les", "des", "à côté des chaises"]
+        ]
+      },
+      "examples": [
+        { "fr": "La lampe est {à côté du lit|pl-de-contraction}.", "en": "The lamp is next to the bed." },
+        { "fr": "Le tapis est {près des fenêtres|pl-de-contraction}.", "en": "The rug is near the windows." },
+        { "fr": "La télé est {en face du canapé|pl-de-contraction}.", "en": "The TV is opposite the sofa." }
+      ],
+      "tip": "It's the same with **à**: à + le = **au**, à + les = **aux** (*au salon, aux toilettes*)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "à côté de le lit", "right": "à côté du lit", "why": "**de + le** always becomes **du**." },
+    { "wrong": "près de les fenêtres", "right": "près des fenêtres", "why": "**de + les** always becomes **des**." },
+    { "wrong": "Ou est le chat ?", "right": "Où est le chat ?", "why": "**où** (where) has an accent; **ou** means *or*." },
+    { "wrong": "Où est mes clés ?", "right": "Où sont mes clés ?", "why": "Several things → **sont**." },
+    { "wrong": "en face la fenêtre", "right": "en face de la fenêtre", "why": "Don't drop **de** before a noun: *en face de, à côté de, près de*." }
+  ],
+  "story": {
+    "title": "Où sont mes clés ?",
+    "en": "Hugo can't find his keys at Léa and Sophie's flat.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Hugo est chez Léa et Sophie. Il cherche ses clés.", "en": "Hugo is at Léa and Sophie's place. He's looking for his keys." },
+      { "sp": "Hugo", "fr": "{Où sont|pl-ou} mes clés ?", "en": "Where are my keys?" },
+      { "sp": "Léa", "fr": "Elles sont {sur la table|pl-sur} ?", "en": "Are they on the table?" },
+      { "sp": "Hugo", "fr": "Non. Et elles ne sont pas {sous la table|pl-sous} non plus.", "en": "No. And they're not under the table either." },
+      { "sp": "Sophie", "fr": "Regarde {dans ton sac|pl-dans} !", "en": "Look in your bag!" },
+      { "sp": "Hugo", "fr": "Non, pas dans mon sac.", "en": "No, not in my bag." },
+      { "sp": "Léa", "fr": "{Derrière le canapé|pl-derriere} ? {Entre le canapé et le fauteuil|pl-entre} ?", "en": "Behind the sofa? Between the sofa and the armchair?" },
+      { "sp": "Hugo", "fr": "Non… et pas {devant la télé|pl-devant}.", "en": "No… and not in front of the TV." },
+      { "sp": "Sophie", "fr": "Et ton manteau, {il est où|pl-ou} ?", "en": "And where's your coat?" },
+      { "sp": "Hugo", "fr": "{À côté de la porte|pl-cote}, {à droite du miroir|pl-gauche-droite}.", "en": "Next to the door, to the right of the mirror." },
+      { "sp": "", "fr": "Le manteau est là, mais les clés ne sont pas dedans.", "en": "The coat is there, but the keys aren't in it." },
+      { "sp": "Hugo", "fr": "Oh non ! Et ma maison est {loin d'ici|pl-pres-loin}…", "en": "Oh no! And my place is far from here…" },
+      { "sp": "Sophie", "fr": "Attends… Regarde Minou, {en face de la fenêtre|pl-face} !", "en": "Wait… Look at Minou, opposite the window!" },
+      { "sp": "", "fr": "Minou joue avec quelque chose {près des rideaux|pl-de-contraction}.", "en": "Minou is playing with something near the curtains." },
+      { "sp": "Léa", "fr": "Ce sont tes clés !", "en": "Those are your keys!" },
+      { "sp": "Hugo", "fr": "Minou ! Mes clés ne sont pas des jouets !", "en": "Minou! My keys are not toys!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pl-ou", "type": "mc", "q": "___ sont mes clés ?", "en": "Where are my keys?", "options": ["Où", "Ou", "Qui"], "answer": "Où", "why": "**où** (with an accent) = where; **ou** = or." },
+    { "case": "pl-ou", "type": "mc", "q": "Où ___ la salle de bain ?", "en": "Where is the bathroom?", "options": ["est", "sont"], "answer": "est" },
+    { "case": "pl-dans", "type": "type", "q": "Le lait est ___ le frigo.", "en": "The milk is in the fridge.", "answer": "dans" },
+    { "case": "pl-dans", "type": "mc", "q": "Les livres sont ___ le placard.", "en": "The books are in the cupboard.", "options": ["dans", "sur", "sous"], "answer": "dans" },
+    { "case": "pl-sur", "type": "mc", "q": "Le chat est ___ le lit.", "en": "The cat is on the bed.", "options": ["sur", "sous", "dans"], "answer": "sur" },
+    { "case": "pl-sur", "type": "type", "q": "La lampe est ___ le bureau.", "en": "The lamp is on the desk.", "answer": "sur" },
+    { "case": "pl-sous", "type": "mc", "q": "Le chien est ___ la table.", "en": "The dog is under the table.", "options": ["sous", "sur", "entre"], "answer": "sous" },
+    { "case": "pl-sous", "type": "mc", "lang": "en", "listen": "Le chat est sous le lit.", "q": "Listen: is the cat on the bed or under it?", "options": ["under it (sous)", "on it (sur)"], "answer": "under it (sous)", "why": "**sous** /su/ = under; **sur** /syʁ/ = on." },
+    { "case": "pl-devant", "type": "mc", "q": "Le canapé est ___ la télé.", "en": "The sofa is in front of the TV.", "options": ["devant", "derrière", "sous"], "answer": "devant" },
+    { "case": "pl-devant", "type": "type", "q": "Hugo est ___ son ordinateur.", "en": "Hugo is in front of his computer.", "answer": "devant" },
+    { "case": "pl-derriere", "type": "mc", "q": "Le chat est ___ le rideau.", "en": "The cat is behind the curtain.", "options": ["derrière", "devant", "sur"], "answer": "derrière" },
+    { "case": "pl-derriere", "type": "type", "q": "Le jardin est ___ la maison.", "en": "The garden is behind the house.", "answer": "derrière" },
+    { "case": "pl-entre", "type": "mc", "q": "La table est ___ le canapé et la fenêtre.", "en": "The table is between the sofa and the window.", "options": ["entre", "dans", "sous"], "answer": "entre" },
+    { "case": "pl-entre", "type": "type", "q": "Léa est ___ Hugo et Lou.", "en": "Léa is between Hugo and Lou.", "answer": "entre" },
+    { "case": "pl-cote", "type": "mc", "q": "La lampe est à côté ___ [lit|lit].", "en": "The lamp is next to the bed.", "options": ["du", "de le", "de"], "answer": "du" },
+    { "case": "pl-cote", "type": "type", "q": "L'armoire est à ___ de la porte.", "en": "The wardrobe is next to the door.", "answer": "côté" },
+    { "case": "pl-face", "type": "mc", "q": "Le café est en ___ de la maison.", "en": "The café is opposite the house.", "options": ["face", "côté", "droite"], "answer": "face" },
+    { "case": "pl-face", "type": "type", "q": "La télé est ___ face du canapé.", "en": "The TV is opposite the sofa.", "answer": "en" },
+    { "case": "pl-pres-loin", "type": "mc", "q": "Paris est ___ de Marseille.", "en": "Paris is far from Marseille.", "options": ["loin", "près", "entre"], "answer": "loin" },
+    { "case": "pl-pres-loin", "type": "type", "q": "L'école est ___ de la maison : cinq minutes !", "en": "The school is near the house: five minutes!", "answer": "près" },
+    { "case": "pl-gauche-droite", "type": "mc", "q": "La salle de bain est à ___ de la chambre.", "en": "The bathroom is to the left of the bedroom.", "options": ["gauche", "droite", "côté"], "answer": "gauche" },
+    { "case": "pl-gauche-droite", "type": "type", "q": "Le miroir est à ___ de la porte.", "en": "The mirror is to the right of the door.", "answer": "droite" },
+    { "case": "pl-de-contraction", "type": "mc", "q": "La chaise est à côté ___ fenêtres.", "en": "The chair is next to the windows.", "options": ["des", "de les", "de"], "answer": "des", "why": "**de + les = des**." },
+    { "case": "pl-de-contraction", "type": "mc", "q": "Le tapis est près ___ canapé.", "en": "The rug is near the sofa.", "options": ["du", "de la", "de le"], "answer": "du", "why": "**de + le = du**." },
+    { "case": "pl-de-contraction", "type": "type", "q": "Le bureau est à côté ___armoire.", "en": "The desk is next to the wardrobe.", "answer": "de l'", "why": "Before a vowel: **de l'**." }
+  ]
+}

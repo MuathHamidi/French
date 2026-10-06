@@ -1,0 +1,228 @@
+{
+  "id": "u16-school",
+  "type": "vocab",
+  "unit": 16,
+  "title": "À l'école",
+  "en": "School",
+  "intro": "22 words for school: the classroom, the schoolbag and what goes in it, break time, the canteen, homework and exams. In France, children go to **l'école maternelle** (3–6), **l'école primaire** (6–11), **le collège** (11–15) and **le lycée** (15–18).",
+  "words": [
+    { "id": "ecole", "fr": "école", "pos": "noun", "g": "f", "ipa": "e.kɔl", "en": "school",
+      "def": "L'endroit où les enfants vont pour apprendre à lire, à écrire et à compter.", "def_en": "The place where children go to learn to read, write and count.",
+      "forms": ["écoles"],
+      "examples": [
+        { "fr": "Lou va à l'**école** pour la première fois.", "en": "Lou is going to school for the first time." },
+        { "fr": "L'**école** commence à huit heures et demie.", "en": "School starts at half past eight." },
+        { "fr": "Mon **école** est à côté de la mairie.", "en": "My school is next to the town hall." }
+      ],
+      "note": "**l'école maternelle** = nursery school (3–6); **l'école primaire** = primary school (6–11)." },
+    { "id": "classe", "fr": "classe", "pos": "noun", "g": "f", "ipa": "klas", "en": "class; classroom",
+      "def": "Le groupe d'élèves qui apprennent ensemble. Aussi : la salle où ils travaillent.", "def_en": "The group of pupils who learn together. Also: the room where they work.",
+      "forms": ["classes"],
+      "examples": [
+        { "fr": "Il y a vingt-cinq élèves dans ma **classe**.", "en": "There are twenty-five pupils in my class." },
+        { "fr": "La **classe** de Lou est jaune et bleue.", "en": "Lou's classroom is yellow and blue." },
+        { "fr": "Silence, la **classe** commence !", "en": "Quiet, class is starting!" }
+      ] },
+    { "id": "eleve", "fr": "élève", "pos": "noun", "g": "m", "both": true, "ipa": "e.lɛv", "en": "pupil, student (at school)",
+      "def": "Un enfant ou un jeune qui va à l'école.", "def_en": "A child or young person who goes to school.",
+      "forms": ["élèves"],
+      "accept": ["une élève"],
+      "examples": [
+        { "fr": "Les **élèves** entrent dans la classe.", "en": "The pupils go into the classroom." },
+        { "fr": "C'est une très bonne **élève**.", "en": "She's a very good pupil." },
+        { "fr": "Il y a combien d'**élèves** dans ton école ?", "en": "How many pupils are there in your school?" }
+      ],
+      "note": "The same word for a boy and a girl: **un / une élève**. At university: **un étudiant, une étudiante**." },
+    { "id": "maitre", "fr": "maître", "pos": "noun", "g": "m", "ipa": "mɛtʁ", "display": "le maître, la maîtresse", "en": "(primary school) teacher",
+      "def": "Pour les petits enfants : la personne qui fait la classe, à l'école maternelle ou primaire.", "def_en": "For young children: the person who teaches the class, at nursery or primary school.",
+      "forms": ["maîtresse", "maîtres", "maîtresses"],
+      "accept": ["maîtresse", "la maîtresse", "une maîtresse"],
+      "examples": [
+        { "fr": "La **maîtresse** de Lou s'appelle Claire.", "en": "Lou's teacher is called Claire." },
+        { "fr": "Le **maître** lit une histoire aux enfants.", "en": "The teacher reads the children a story." },
+        { "fr": "Oui, **maîtresse** !", "en": "Yes, Miss!" }
+      ],
+      "note": "Children say **maître / maîtresse**; the official name is **professeur des écoles**. Also: *le maître du chien* = the dog's owner." },
+    { "id": "cartable", "fr": "cartable", "pos": "noun", "g": "m", "ipa": "kaʁ.tabl", "en": "schoolbag",
+      "def": "Le sac où les élèves mettent leurs livres et leurs cahiers.", "def_en": "The bag where pupils carry their books and exercise books.",
+      "forms": ["cartables"],
+      "examples": [
+        { "fr": "Mon **cartable** est très lourd !", "en": "My schoolbag is really heavy!" },
+        { "fr": "Lou a un petit **cartable** rose.", "en": "Lou has a little pink schoolbag." },
+        { "fr": "N'oublie pas ton **cartable** !", "en": "Don't forget your schoolbag!" }
+      ] },
+    { "id": "cahier", "fr": "cahier", "pos": "noun", "g": "m", "ipa": "ka.je", "en": "exercise book, notebook",
+      "def": "Des feuilles de papier attachées ensemble, pour écrire.", "def_en": "Sheets of paper fastened together, for writing in.",
+      "forms": ["cahiers"],
+      "examples": [
+        { "fr": "Ouvrez vos **cahiers** à la page dix.", "en": "Open your exercise books at page ten." },
+        { "fr": "J'écris dans mon **cahier**.", "en": "I write in my exercise book." },
+        { "fr": "J'ai un **cahier** rouge pour le français.", "en": "I have a red exercise book for French." }
+      ],
+      "note": "The **h** is silent: /ka.je/." },
+    { "id": "stylo", "fr": "stylo", "pos": "noun", "g": "m", "ipa": "sti.lo", "en": "pen",
+      "def": "Un objet pour écrire avec de l'encre.", "def_en": "An object for writing with ink.",
+      "forms": ["stylos"],
+      "examples": [
+        { "fr": "Tu as un **stylo**, s'il te plaît ?", "en": "Have you got a pen, please?" },
+        { "fr": "J'écris au **stylo** bleu.", "en": "I write in blue pen." },
+        { "fr": "Mon **stylo** ne marche plus.", "en": "My pen has stopped working." }
+      ] },
+    { "id": "crayon", "fr": "crayon", "pos": "noun", "g": "m", "ipa": "kʁɛ.jɔ̃", "en": "pencil",
+      "def": "Un objet en bois pour écrire ou dessiner. On peut effacer ce qu'on écrit.", "def_en": "A wooden object for writing or drawing. You can rub out what you write.",
+      "forms": ["crayons"],
+      "examples": [
+        { "fr": "Lou dessine avec des **crayons** de couleur.", "en": "Lou draws with coloured pencils." },
+        { "fr": "Écrivez au **crayon**, s'il vous plaît.", "en": "Write in pencil, please." },
+        { "fr": "Mon **crayon** est cassé.", "en": "My pencil is broken." }
+      ],
+      "note": "**un crayon de couleur** = a coloured pencil." },
+    { "id": "gomme", "fr": "gomme", "pos": "noun", "g": "f", "ipa": "ɡɔm", "en": "rubber, eraser",
+      "def": "Un petit objet pour effacer le crayon.", "def_en": "A small object for rubbing out pencil.",
+      "forms": ["gommes"],
+      "examples": [
+        { "fr": "Tu me prêtes ta **gomme** ?", "en": "Can you lend me your rubber?" },
+        { "fr": "J'efface avec ma **gomme**.", "en": "I rub it out with my eraser." },
+        { "fr": "La **gomme** est dans la trousse.", "en": "The rubber is in the pencil case." }
+      ] },
+    { "id": "regle", "fr": "règle", "pos": "noun", "g": "f", "ipa": "ʁɛɡl", "en": "ruler; rule",
+      "def": "Un objet long, en bois ou en plastique, pour faire des lignes. Aussi : ce qu'il faut faire dans un jeu ou à l'école.", "def_en": "A long wooden or plastic object for drawing lines. Also: what you have to do in a game or at school.",
+      "forms": ["règles"],
+      "examples": [
+        { "fr": "Prends ta **règle** et fais une ligne.", "en": "Take your ruler and draw a line." },
+        { "fr": "Quelles sont les **règles** du jeu ?", "en": "What are the rules of the game?" },
+        { "fr": "C'est la **règle** : pas de téléphone en classe !", "en": "That's the rule: no phones in class!" }
+      ] },
+    { "id": "lecon", "fr": "leçon", "pos": "noun", "g": "f", "ipa": "lə.sɔ̃", "en": "lesson",
+      "def": "Ce qu'on apprend en classe, sur un sujet.", "def_en": "What you learn in class, on a topic.",
+      "forms": ["leçons"],
+      "examples": [
+        { "fr": "La **leçon** d'aujourd'hui parle des animaux.", "en": "Today's lesson is about animals." },
+        { "fr": "Tu as appris ta **leçon** ?", "en": "Have you learnt your lesson?" },
+        { "fr": "J'ai compris la **leçon** !", "en": "I understood the lesson!" }
+      ],
+      "note": "**ç** = /s/: /lə.sɔ̃/." },
+    { "id": "devoirs", "fr": "devoirs", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "də.vwaʁ", "en": "homework",
+      "def": "Le travail que l'élève fait à la maison, après l'école.", "def_en": "The work a pupil does at home, after school.",
+      "examples": [
+        { "fr": "Tu as fini tes **devoirs** ?", "en": "Have you finished your homework?" },
+        { "fr": "Je fais mes **devoirs** dans ma chambre.", "en": "I do my homework in my bedroom." },
+        { "fr": "Le professeur donne beaucoup de **devoirs**.", "en": "The teacher gives a lot of homework." }
+      ],
+      "note": "Always plural for homework: **les devoirs**. (The verb **devoir** means *must*.)" },
+    { "id": "recreation", "fr": "récréation", "pos": "noun", "g": "f", "ipa": "ʁe.kʁe.a.sjɔ̃", "en": "break, playtime",
+      "def": "La pause entre deux cours, quand les élèves jouent dans la cour.", "def_en": "The break between two lessons, when pupils play in the playground.",
+      "forms": ["récréations", "récré"],
+      "accept": ["récré", "la récré"],
+      "examples": [
+        { "fr": "À la **récréation**, on joue au ballon.", "en": "At break, we play ball." },
+        { "fr": "La **récré** dure quinze minutes.", "en": "Break lasts fifteen minutes." },
+        { "fr": "Lou attend la **récréation** avec impatience.", "en": "Lou can't wait for playtime." }
+      ],
+      "note": "Children always say **la récré**." },
+    { "id": "cantine", "fr": "cantine", "pos": "noun", "g": "f", "ipa": "kɑ̃.tin", "en": "(school) canteen",
+      "def": "L'endroit où les élèves mangent le déjeuner, à l'école.", "def_en": "The place where pupils eat lunch at school.",
+      "forms": ["cantines"],
+      "examples": [
+        { "fr": "À midi, je mange à la **cantine**.", "en": "At noon, I eat in the canteen." },
+        { "fr": "Aujourd'hui, il y a des frites à la **cantine** !", "en": "There are chips in the canteen today!" },
+        { "fr": "La **cantine** est bonne dans cette école.", "en": "The canteen food is good at this school." }
+      ] },
+    { "id": "cour", "fr": "cour", "pos": "noun", "g": "f", "ipa": "kuʁ", "en": "playground; courtyard",
+      "def": "À l'école, l'espace dehors où les élèves jouent.", "def_en": "At school, the outdoor space where pupils play.",
+      "examples": [
+        { "fr": "Les enfants jouent dans la **cour**.", "en": "The children are playing in the playground." },
+        { "fr": "La **cour** de l'école est grande.", "en": "The school playground is big." },
+        { "fr": "Notre immeuble a une petite **cour** avec des fleurs.", "en": "Our building has a small courtyard with flowers." }
+      ],
+      "note": "**la cour** (playground), **le cours** (lesson) and **court** (short; he runs) all sound /kuʁ/!" },
+    { "id": "matiere", "fr": "matière", "pos": "noun", "g": "f", "ipa": "ma.tjɛʁ", "en": "(school) subject; material",
+      "def": "À l'école : le français, les maths, l'histoire… Aussi : le bois, le métal, le tissu…", "def_en": "At school: French, maths, history… Also: wood, metal, fabric… (materials)",
+      "forms": ["matières"],
+      "examples": [
+        { "fr": "Quelle est ta **matière** préférée ?", "en": "What's your favourite subject?" },
+        { "fr": "Les maths, c'est une **matière** difficile.", "en": "Maths is a hard subject." },
+        { "fr": "Ce sac est en quelle **matière** ?", "en": "What material is this bag made of?" }
+      ] },
+    { "id": "examen", "fr": "examen", "pos": "noun", "g": "m", "ipa": "ɛɡ.za.mɛ̃", "en": "exam",
+      "def": "Un test important pour voir ce qu'un élève sait.", "def_en": "An important test to see what a pupil knows.",
+      "forms": ["examens"],
+      "examples": [
+        { "fr": "J'ai un **examen** de maths demain.", "en": "I have a maths exam tomorrow." },
+        { "fr": "Léa a réussi son **examen** !", "en": "Léa passed her exam!" },
+        { "fr": "Les **examens** commencent en juin.", "en": "The exams start in June." }
+      ],
+      "note": "**passer un examen** = to *take* an exam; **réussir un examen** = to *pass* it!" },
+    { "id": "college", "fr": "collège", "pos": "noun", "g": "m", "ipa": "kɔ.lɛʒ", "en": "secondary school (age 11–15)",
+      "def": "L'école pour les élèves de onze à quinze ans, après l'école primaire.", "def_en": "The school for pupils aged eleven to fifteen, after primary school.",
+      "forms": ["collèges"],
+      "examples": [
+        { "fr": "Mon petit frère entre au **collège** en septembre.", "en": "My little brother starts secondary school in September." },
+        { "fr": "Le **collège** est à côté du parc.", "en": "The secondary school is next to the park." },
+        { "fr": "Au **collège**, on apprend l'anglais.", "en": "At secondary school, you learn English." }
+      ],
+      "note": "False friend! **le collège** isn't *college*: it's the school for 11-to-15-year-olds." },
+    { "id": "lycee", "fr": "lycée", "pos": "noun", "g": "m", "ipa": "li.se", "en": "high school (age 15–18)",
+      "def": "L'école pour les élèves de quinze à dix-huit ans, après le collège.", "def_en": "The school for pupils aged fifteen to eighteen, after collège.",
+      "forms": ["lycées"],
+      "examples": [
+        { "fr": "Ma cousine va au **lycée** en bus.", "en": "My cousin goes to high school by bus." },
+        { "fr": "Le **lycée** finit avec le bac.", "en": "High school ends with the baccalauréat." },
+        { "fr": "Il y a mille élèves dans ce **lycée**.", "en": "There are a thousand pupils at this high school." }
+      ],
+      "note": "Masculine, even though it ends in **-ée**: *le lycée*. At the end, students take **le bac** (*le baccalauréat*)." },
+    { "id": "copain", "fr": "copain", "pos": "noun", "g": "m", "ipa": "kɔ.pɛ̃", "display": "le copain, la copine", "en": "friend, mate; boyfriend",
+      "def": "Un ami, en langage familier. Aussi : un petit ami.", "def_en": "A friend, in casual language. Also: a boyfriend.",
+      "forms": ["copine", "copains", "copines"],
+      "accept": ["copine", "la copine", "une copine"],
+      "examples": [
+        { "fr": "Lou joue avec ses **copains** dans la cour.", "en": "Lou plays with her friends in the playground." },
+        { "fr": "C'est ma meilleure **copine** !", "en": "She's my best friend!" },
+        { "fr": "Hugo a une nouvelle **copine** ?", "en": "Has Hugo got a new girlfriend?" }
+      ],
+      "note": "**mon copain, ma copine** can also mean *my boyfriend, my girlfriend*: the context tells you." },
+    { "id": "apprendre", "fr": "apprendre", "pos": "verb", "ipa": "a.pʁɑ̃dʁ", "en": "to learn; (apprendre à quelqu'un) to teach",
+      "def": "Commencer à savoir une chose : une langue, un métier, une leçon…", "def_en": "To start to know something: a language, a trade, a lesson…",
+      "extra": "Like *prendre*: j'**apprends**, nous **apprenons**, ils **apprennent**; passé composé: j'ai **appris**.",
+      "forms": ["apprends", "apprend", "apprenons", "apprenez", "apprennent", "appris", "apprenais", "apprenait", "apprenions", "appreniez", "apprenaient", "apprendrai", "apprendras", "apprendra", "apprendrons", "apprendrez", "apprendront"],
+      "examples": [
+        { "fr": "J'**apprends** le français.", "en": "I'm learning French." },
+        { "fr": "À l'école, Lou **apprend** les couleurs.", "en": "At school, Lou is learning the colours." },
+        { "fr": "Ma grand-mère m'**apprend** à faire des crêpes.", "en": "My grandmother is teaching me to make crêpes." }
+      ],
+      "note": "**apprendre à quelqu'un** = to teach someone." },
+    { "id": "ecrire", "fr": "écrire", "pos": "verb", "ipa": "e.kʁiʁ", "en": "to write",
+      "def": "Faire des lettres et des mots avec un stylo, un crayon ou un clavier.", "def_en": "To make letters and words with a pen, a pencil or a keyboard.",
+      "extra": "j'**écris** · tu **écris** · il **écrit** · nous **écrivons** · vous **écrivez** · ils **écrivent**; passé composé: j'ai **écrit**.",
+      "forms": ["écris", "écrit", "écrivons", "écrivez", "écrivent", "écrivais", "écrivait", "écrivions", "écriviez", "écrivaient", "écrirai", "écriras", "écrira", "écrirons", "écrirez", "écriront"],
+      "examples": [
+        { "fr": "Lou **écrit** son prénom.", "en": "Lou writes her first name." },
+        { "fr": "J'**écris** une lettre à mon oncle.", "en": "I'm writing a letter to my uncle." },
+        { "fr": "Comment ça s'**écrit** ?", "en": "How do you spell that?" }
+      ],
+      "note": "**Comment ça s'écrit ?** = How do you spell it?" }
+  ],
+  "story": {
+    "title": "Le premier jour de Lou",
+    "en": "Lou is three, and today she starts nursery school.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début septembre, Lou a trois ans. Aujourd'hui, c'est son premier jour à l'école maternelle !", "en": "Early September: Lou is three. Today is her first day at nursery school!" },
+      { "sp": "", "fr": "Elle a un petit cartable rose avec un cahier, des crayons et une gomme.", "en": "She has a little pink schoolbag with an exercise book, some pencils and a rubber." },
+      { "sp": "Lou", "fr": "Maman, je n'ai pas de stylo ! Les grands élèves ont des stylos !", "en": "Mummy, I haven't got a pen! The big pupils have pens!" },
+      { "sp": "Anne", "fr": "À ton âge, on écrit au crayon, ma puce.", "en": "At your age, you write in pencil, sweetie." },
+      { "sp": "", "fr": "Devant l'école, la maîtresse attend les enfants.", "en": "Outside the school, the teacher is waiting for the children." },
+      { "sp": "La maîtresse", "fr": "Bonjour, Lou ! Je m'appelle Claire. Viens, je te montre la classe.", "en": "Hello, Lou! My name's Claire. Come on, I'll show you the classroom." },
+      { "sp": "", "fr": "Dans la classe, il y a des petites tables, des livres et un grand tableau.", "en": "In the classroom, there are little tables, books and a big board." },
+      { "sp": "", "fr": "Le matin, la maîtresse lit une histoire. Puis les enfants apprennent une chanson.", "en": "In the morning, the teacher reads a story. Then the children learn a song." },
+      { "sp": "", "fr": "À dix heures, c'est la récréation. Lou joue dans la cour avec une nouvelle copine, Emma.", "en": "At ten o'clock, it's playtime. Lou plays in the playground with a new friend, Emma." },
+      { "sp": "", "fr": "À midi, les enfants mangent à la cantine : il y a des pâtes !", "en": "At noon, the children eat in the canteen: there's pasta!" },
+      { "sp": "", "fr": "Le soir, Léa appelle sa petite sœur : « Alors, Lou ? Tu as appris quoi aujourd'hui ? »", "en": "In the evening, Léa calls her little sister: “So, Lou? What did you learn today?”" },
+      { "sp": "Lou", "fr": "La leçon des couleurs ! Et la règle de la classe : on ne mord pas les copains !", "en": "The colours lesson! And the class rule: we don't bite our friends!" },
+      { "sp": "Léa", "fr": "Profite bien, Lou ! Au collège et au lycée, il y a des examens et beaucoup de devoirs !", "en": "Enjoy it, Lou! At secondary school and high school, there are exams and lots of homework!" },
+      { "sp": "Lou", "fr": "C'est quoi, des devoirs ?", "en": "What's homework?" },
+      { "sp": "Léa", "fr": "Du travail à la maison… dans toutes les matières !", "en": "Work at home… in every subject!" },
+      { "sp": "Lou", "fr": "Alors moi, je reste à la maternelle !", "en": "Then I'm staying at nursery school!" }
+    ]
+  }
+}

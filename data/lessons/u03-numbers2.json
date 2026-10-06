@@ -1,0 +1,151 @@
+{
+  "id": "u03-numbers2",
+  "type": "vocab",
+  "unit": 3,
+  "title": "De vingt à cent, et l'âge",
+  "en": "Numbers 20–100 & age",
+  "intro": "**How to build any number:** 21 = *vingt et un*, 22 = *vingt-deux*, 23 = *vingt-trois*… and the same with 30, 40, 50, 60. Then French counts in a funny way: **70 = 60 + 10** (*soixante-dix*, 71 *soixante et onze*, 72 *soixante-douze*…), **80 = 4 × 20** (*quatre-vingts*; 81 *quatre-vingt-un*), **90 = 80 + 10** (*quatre-vingt-dix*, 91 *quatre-vingt-onze*… 99 *quatre-vingt-dix-neuf*). In Belgium and Switzerland you'll also hear *septante* (70) and *nonante* (90).",
+  "words": [
+    { "id": "trente", "fr": "trente", "pos": "num", "ipa": "tʁɑ̃t", "en": "thirty (30)",
+      "def": "Trois fois dix : 30.", "def_en": "Three times ten: 30.",
+      "examples": [
+        { "fr": "Karim a **trente** ans.", "en": "Karim is thirty." },
+        { "fr": "Il y a **trente** étudiants dans la classe.", "en": "There are thirty students in the class." },
+        { "fr": "**Trente** et un, trente-deux, trente-trois…", "en": "Thirty-one, thirty-two, thirty-three…" }
+      ] },
+    { "id": "quarante", "fr": "quarante", "pos": "num", "ipa": "ka.ʁɑ̃t", "en": "forty (40)",
+      "def": "Quatre fois dix : 40.", "def_en": "Four times ten: 40.",
+      "examples": [
+        { "fr": "Ma mère a **quarante**-sept ans.", "en": "My mother is forty-seven." },
+        { "fr": "Page **quarante**, s'il vous plaît.", "en": "Page forty, please." },
+        { "fr": "Vingt et vingt, ça fait **quarante**.", "en": "Twenty and twenty makes forty." }
+      ] },
+    { "id": "cinquante", "fr": "cinquante", "pos": "num", "ipa": "sɛ̃.kɑ̃t", "en": "fifty (50)",
+      "def": "Cinq fois dix : 50.", "def_en": "Five times ten: 50.",
+      "examples": [
+        { "fr": "Mon père a **cinquante** ans.", "en": "My father is fifty." },
+        { "fr": "Il y a **cinquante** personnes au mariage.", "en": "There are fifty people at the wedding." },
+        { "fr": "Vingt-cinq et vingt-cinq, ça fait **cinquante**.", "en": "Twenty-five and twenty-five makes fifty." }
+      ] },
+    { "id": "soixante", "fr": "soixante", "pos": "num", "ipa": "swa.sɑ̃t", "en": "sixty (60)",
+      "def": "Six fois dix : 60.", "def_en": "Six times ten: 60.",
+      "examples": [
+        { "fr": "L'oncle Pierre a **soixante** ans.", "en": "Uncle Pierre is sixty." },
+        { "fr": "**Soixante** et un, soixante-deux…", "en": "Sixty-one, sixty-two…" },
+        { "fr": "Trente et trente, ça fait **soixante**.", "en": "Thirty and thirty makes sixty." }
+      ],
+      "note": "The **x** sounds like /s/: /swasɑ̃t/." },
+    { "id": "soixante-dix", "fr": "soixante-dix", "pos": "num", "ipa": "swa.sɑ̃t.dis", "en": "seventy (70)",
+      "def": "Soixante et dix : 70.", "def_en": "Sixty and ten: 70.", "accept": ["soixante dix"],
+      "examples": [
+        { "fr": "La grand-mère de Karim a **soixante-dix** ans.", "en": "Karim's grandmother is seventy." },
+        { "fr": "**Soixante-dix**, c'est soixante et dix.", "en": "Seventy is sixty and ten." },
+        { "fr": "Il y a **soixante-dix** personnes ici.", "en": "There are seventy people here." }
+      ],
+      "note": "71 = *soixante et onze*, 72 = *soixante-douze*… up to 79 = *soixante-dix-neuf*." },
+    { "id": "quatre-vingts", "fr": "quatre-vingts", "pos": "num", "ipa": "ka.tʁə.vɛ̃", "en": "eighty (80)",
+      "def": "Quatre fois vingt : 80.", "def_en": "Four times twenty: 80.",
+      "forms": ["quatre-vingt"], "accept": ["quatre vingts", "quatre-vingt"],
+      "examples": [
+        { "fr": "Mon grand-père a **quatre-vingts** ans.", "en": "My grandfather is eighty." },
+        { "fr": "**Quatre-vingts**, c'est quatre fois vingt.", "en": "Eighty is four times twenty." },
+        { "fr": "Il y a **quatre-vingts** étudiants.", "en": "There are eighty students." }
+      ],
+      "note": "80 has an **-s**, but it disappears when another number follows: *quatre-vingt-un* (81), *quatre-vingt-dix* (90)." },
+    { "id": "quatre-vingt-dix", "fr": "quatre-vingt-dix", "pos": "num", "ipa": "ka.tʁə.vɛ̃.dis", "en": "ninety (90)",
+      "def": "Quatre-vingts et dix : 90.", "def_en": "Eighty and ten: 90.", "accept": ["quatre vingt dix"],
+      "examples": [
+        { "fr": "Sa grand-mère a **quatre-vingt-dix** ans !", "en": "His grandmother is ninety!" },
+        { "fr": "**Quatre-vingt-dix**, c'est quatre-vingts et dix.", "en": "Ninety is eighty and ten." },
+        { "fr": "**Quatre-vingt-dix**-neuf, et après… cent !", "en": "Ninety-nine, and then… a hundred!" }
+      ],
+      "note": "91 = *quatre-vingt-onze* (no **et**), 99 = *quatre-vingt-dix-neuf*." },
+    { "id": "cent", "fr": "cent", "pos": "num", "ipa": "sɑ̃", "en": "a hundred (100)",
+      "forms": ["cents"], "def": "Dix fois dix : 100.", "def_en": "Ten times ten: 100.",
+      "examples": [
+        { "fr": "Elle a **cent** ans !", "en": "She's a hundred!" },
+        { "fr": "Dix fois dix, ça fait **cent**.", "en": "Ten times ten makes a hundred." },
+        { "fr": "Il y a **cent** personnes au mariage.", "en": "There are a hundred people at the wedding." }
+      ],
+      "note": "Just **cent**, never “un cent”. The **t** is silent, except before a vowel: *cent‿ans* /sɑ̃.tɑ̃/." },
+    { "id": "combien", "fr": "combien", "pos": "adv", "ipa": "kɔ̃.bjɛ̃", "en": "how many; how much",
+      "def": "Mot pour demander un nombre : « Combien de frères ? »", "def_en": "A word for asking for a number: “How many brothers?”",
+      "extra": "**combien de** + noun: *combien de cousins* (how many cousins).",
+      "examples": [
+        { "fr": "Tu as **combien** de frères ?", "en": "How many brothers do you have?" },
+        { "fr": "**Combien** de personnes il y a ?", "en": "How many people are there?" },
+        { "fr": "Vous êtes **combien** ?", "en": "How many of you are there?" }
+      ] },
+    { "id": "age", "fr": "âge", "pos": "noun", "g": "m", "ipa": "ɑʒ", "en": "age",
+      "def": "Le nombre d'années d'une personne.", "def_en": "A person's number of years.", "forms": ["âges"], "accept": ["age"],
+      "examples": [
+        { "fr": "Tu as quel **âge** ?", "en": "How old are you?" },
+        { "fr": "Quel **âge** as-tu ?", "en": "How old are you?" },
+        { "fr": "Mon **âge** ? C'est un secret !", "en": "My age? It's a secret!" }
+      ] },
+    { "id": "an", "fr": "an", "pos": "noun", "g": "m", "ipa": "ɑ̃", "en": "year (for age: j'ai 20 ans)",
+      "def": "Douze mois. Pour l'âge, on dit : « J'ai vingt ans. »", "def_en": "Twelve months. For age, you say: “J'ai vingt ans.”", "forms": ["ans"],
+      "examples": [
+        { "fr": "J'ai vingt **ans**.", "en": "I'm twenty (years old)." },
+        { "fr": "Le bébé a un **an**.", "en": "The baby is one year old." },
+        { "fr": "Il y a douze mois dans un **an**.", "en": "There are twelve months in a year." }
+      ],
+      "note": "Always say **ans** with an age: *J'ai vingt ans*, never just “j'ai vingt”. Listen for the links: *un‿an, deux‿ans, vingt‿ans*." },
+    { "id": "anniversaire", "fr": "anniversaire", "pos": "noun", "g": "m", "ipa": "a.ni.vɛʁ.sɛʁ", "en": "birthday",
+      "def": "Le jour où on a un an de plus.", "def_en": "The day you become one year older.", "forms": ["anniversaires"],
+      "examples": [
+        { "fr": "Bon **anniversaire** !", "en": "Happy birthday!" },
+        { "fr": "Aujourd'hui, c'est mon **anniversaire**.", "en": "Today is my birthday." },
+        { "fr": "C'est quand, ton **anniversaire** ?", "en": "When is your birthday?" }
+      ],
+      "note": "You'll also hear **Joyeux anniversaire !** (happy birthday)." },
+    { "id": "quel", "fr": "quel", "pos": "det", "ipa": "kɛl", "display": "quel(le)", "en": "which; what",
+      "def": "Mot pour poser une question : « Quel âge as-tu ? »", "def_en": "A word for asking a question: “How old are you?”",
+      "extra": "It agrees with the noun: **quel** (m.), **quelle** (f.), **quels**, **quelles** — all sound the same: /kɛl/.",
+      "forms": ["quelle", "quels", "quelles"], "accept": ["quelle"],
+      "examples": [
+        { "fr": "**Quel** âge as-tu ?", "en": "How old are you?" },
+        { "fr": "Tu as **quel** âge ?", "en": "How old are you?" },
+        { "fr": "**Quelle** famille !", "en": "What a family!" }
+      ] },
+    { "id": "vieux", "fr": "vieux", "pos": "adj", "ipa": "vjø", "display": "vieux, vieille", "en": "old",
+      "def": "Qui a beaucoup d'années. Le contraire de « jeune ».", "def_en": "Having many years. The opposite of “young”.",
+      "extra": "Feminine: **vieille** /vjɛj/. Plural: **vieux**, **vieilles**.",
+      "forms": ["vieille", "vieilles", "vieil"], "accept": ["vieille"],
+      "examples": [
+        { "fr": "Mon grand-père est **vieux**.", "en": "My grandfather is old." },
+        { "fr": "Ma grand-mère n'est pas **vieille** !", "en": "My grandmother isn't old!" },
+        { "fr": "C'est une **vieille** photo.", "en": "It's an old photo." }
+      ],
+      "note": "About people, **âgé** (elderly) is more polite than **vieux**." },
+    { "id": "aujourd-hui", "fr": "aujourd'hui", "pos": "adv", "ipa": "o.ʒuʁ.dɥi", "en": "today",
+      "def": "Ce jour, le jour où on est.", "def_en": "This day, the day we are in.", "accept": ["aujourdhui"],
+      "examples": [
+        { "fr": "**Aujourd'hui**, c'est mon anniversaire !", "en": "Today is my birthday!" },
+        { "fr": "Tu es là **aujourd'hui** ?", "en": "Are you here today?" },
+        { "fr": "**Aujourd'hui**, j'ai dix-huit ans.", "en": "Today I'm eighteen." }
+      ],
+      "note": "The apostrophe is part of the word." }
+  ],
+  "story": {
+    "title": "L'anniversaire de grand-père",
+    "en": "Grandpa Jacques's birthday.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Aujourd'hui, c'est l'anniversaire de Jacques, le grand-père de Léa.", "en": "Today is the birthday of Jacques, Léa's grandfather." },
+      { "sp": "", "fr": "Toute la famille est chez lui.", "en": "The whole family is at his house." },
+      { "sp": "Léa", "fr": "Bon anniversaire, grand-père ! Tu as quel âge aujourd'hui ?", "en": "Happy birthday, grandpa! How old are you today?" },
+      { "sp": "Jacques", "fr": "J'ai quatre-vingts ans ! Je suis vieux !", "en": "I'm eighty! I'm old!" },
+      { "sp": "Louise", "fr": "Mais non ! Moi, j'ai soixante-dix-huit ans, et je ne suis pas vieille !", "en": "Of course not! I'm seventy-eight, and I'm not old!" },
+      { "sp": "Lou", "fr": "Grand-père, tu as cent ans ?", "en": "Grandpa, are you a hundred?" },
+      { "sp": "Jacques", "fr": "Non, ma petite, quatre-vingts ! Et toi, Lou, tu as quel âge ?", "en": "No, little one, eighty! And you, Lou, how old are you?" },
+      { "sp": "Lou", "fr": "Deux ans !", "en": "Two!" },
+      { "sp": "", "fr": "Le père de Léa, Paul, a cinquante ans. Sa mère, Anne, a quarante-sept ans.", "en": "Léa's father, Paul, is fifty. Her mother, Anne, is forty-seven." },
+      { "sp": "", "fr": "L'oncle Pierre a soixante ans, et Karim, le mari de Chloé, a trente ans.", "en": "Uncle Pierre is sixty, and Karim, Chloé's husband, is thirty." },
+      { "sp": "Hugo", "fr": "Et nous sommes combien ici ? Un, deux, trois… dix-neuf, vingt ! Nous sommes vingt !", "en": "And how many of us are here? One, two, three… nineteen, twenty! There are twenty of us!" },
+      { "sp": "Jacques", "fr": "Vingt personnes pour mes quatre-vingts ans ! Je suis très content.", "en": "Twenty people for my eightieth birthday! I'm very happy." },
+      { "sp": "Léa", "fr": "Et dans dix ans, quatre-vingt-dix ans !", "en": "And in ten years, ninety!" },
+      { "sp": "Jacques", "fr": "Quatre-vingt-dix ? Pourquoi pas cent ?", "en": "Ninety? Why not a hundred?" }
+    ]
+  }
+}

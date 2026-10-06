@@ -1,0 +1,257 @@
+{
+  "id": "u17-emotions",
+  "type": "vocab",
+  "unit": 17,
+  "title": "Les émotions",
+  "en": "Emotions",
+  "intro": "25 words for how you feel: joy, fear, anger, pride, worry… and the verbs **se sentir** (to feel), **s'ennuyer** (to be bored) and **s'inquiéter** (to worry). Most feelings use **être** (*je suis triste*), but some use **avoir**: *j'ai peur, j'ai honte, j'ai envie de…*",
+  "words": [
+    { "id": "sentiment", "fr": "sentiment", "pos": "noun", "g": "m", "ipa": "sɑ̃.ti.mɑ̃", "en": "feeling",
+      "def": "Ce qu'on a dans le cœur : la joie, la peur, l'amour…", "def_en": "What you have in your heart: joy, fear, love…",
+      "forms": ["sentiments"],
+      "examples": [
+        { "fr": "Je ne sais pas expliquer ce **sentiment**.", "en": "I can't explain this feeling." },
+        { "fr": "Il ne montre jamais ses **sentiments**.", "en": "He never shows his feelings." },
+        { "fr": "Elle a des **sentiments** pour Hugo.", "en": "She has feelings for Hugo." }
+      ] },
+    { "id": "emotion", "fr": "émotion", "pos": "noun", "g": "f", "ipa": "e.mo.sjɔ̃", "en": "emotion",
+      "def": "Un sentiment fort : la joie, la colère, la peur…", "def_en": "A strong feeling: joy, anger, fear…",
+      "forms": ["émotions"],
+      "examples": [
+        { "fr": "Avec l'**émotion**, elle ne peut plus parler.", "en": "Overcome with emotion, she can't speak any more." },
+        { "fr": "Les enfants montrent leurs **émotions**.", "en": "Children show their emotions." },
+        { "fr": "Quelle **émotion** !", "en": "How moving!" }
+      ] },
+    { "id": "joie", "fr": "joie", "pos": "noun", "g": "f", "ipa": "ʒwa", "en": "joy",
+      "def": "Le sentiment qu'on a quand on est très content.", "def_en": "The feeling you have when you're very happy.",
+      "forms": ["joies"],
+      "examples": [
+        { "fr": "Lou saute de **joie** !", "en": "Lou is jumping for joy!" },
+        { "fr": "Quelle **joie** de vous voir !", "en": "What a joy to see you!" },
+        { "fr": "Elle pleure de **joie**.", "en": "She's crying with joy." }
+      ] },
+    { "id": "bonheur", "fr": "bonheur", "pos": "noun", "g": "m", "ipa": "bɔ.nœʁ", "en": "happiness",
+      "def": "Quand on est heureux, longtemps : une vie pleine de joie.", "def_en": "Being happy for a long time: a life full of joy.",
+      "examples": [
+        { "fr": "Le **bonheur**, c'est simple.", "en": "Happiness is simple." },
+        { "fr": "Je vous souhaite beaucoup de **bonheur** !", "en": "I wish you lots of happiness!" },
+        { "fr": "Quel **bonheur**, ces vacances !", "en": "What bliss, this holiday!" }
+      ],
+      "note": "**bonheur** sounds exactly like **bonne heure**. Its opposite is **le malheur** (misfortune)." },
+    { "id": "tristesse", "fr": "tristesse", "pos": "noun", "g": "f", "ipa": "tʁis.tɛs", "en": "sadness",
+      "def": "Le sentiment qu'on a quand on est triste.", "def_en": "The feeling you have when you're sad.",
+      "examples": [
+        { "fr": "Il y a de la **tristesse** dans ses yeux.", "en": "There's sadness in her eyes." },
+        { "fr": "Le film parle de la **tristesse** d'un enfant.", "en": "The film is about a child's sadness." },
+        { "fr": "Après la **tristesse**, la joie revient.", "en": "After sadness, joy comes back." }
+      ] },
+    { "id": "colere", "fr": "colère", "pos": "noun", "g": "f", "ipa": "kɔ.lɛʁ", "en": "anger",
+      "def": "Le sentiment fort qu'on a quand on n'est pas content du tout.", "def_en": "The strong feeling you have when you're not happy at all.",
+      "examples": [
+        { "fr": "Hugo est en **colère** : il a raté son train.", "en": "Hugo is angry: he missed his train." },
+        { "fr": "Je comprends ta **colère**.", "en": "I understand your anger." },
+        { "fr": "Elle crie de **colère**.", "en": "She's shouting with anger." }
+      ],
+      "note": "**être en colère** = to be angry; **se mettre en colère** = to get angry." },
+    { "id": "peur", "fr": "peur", "pos": "noun", "g": "f", "ipa": "pœʁ", "en": "fear (avoir peur = to be scared)",
+      "def": "Le sentiment qu'on a devant un danger.", "def_en": "The feeling you have when facing danger.",
+      "forms": ["peurs"],
+      "examples": [
+        { "fr": "J'ai **peur** des gros chiens.", "en": "I'm scared of big dogs." },
+        { "fr": "N'aie pas **peur** !", "en": "Don't be afraid!" },
+        { "fr": "Lou a **peur** du noir.", "en": "Lou is afraid of the dark." }
+      ],
+      "note": "**avoir peur de** + noun: *j'ai peur des chiens*. **faire peur à** = to scare: *tu me fais peur !*" },
+    { "id": "honte", "fr": "honte", "pos": "noun", "g": "f", "hAsp": true, "ipa": "ɔ̃t", "en": "shame (avoir honte = to be ashamed)",
+      "def": "Le sentiment qu'on a quand on a fait une bêtise et que les autres le savent.", "def_en": "The feeling you have when you've done something silly and others know it.",
+      "examples": [
+        { "fr": "J'ai **honte** : j'ai oublié son anniversaire !", "en": "I'm ashamed: I forgot her birthday!" },
+        { "fr": "Il n'y a pas de **honte** à demander de l'aide.", "en": "There's no shame in asking for help." },
+        { "fr": "La **honte** !", "en": "How embarrassing!" }
+      ],
+      "note": "The **h** is aspirated: **la honte**, not *l'honte*. **avoir honte de** = to be ashamed of." },
+    { "id": "espoir", "fr": "espoir", "pos": "noun", "g": "m", "ipa": "ɛs.pwaʁ", "en": "hope",
+      "def": "Le sentiment qu'une bonne chose va peut-être arriver.", "def_en": "The feeling that something good might happen.",
+      "forms": ["espoirs"],
+      "examples": [
+        { "fr": "Il y a encore de l'**espoir** !", "en": "There's still hope!" },
+        { "fr": "Elle garde l'**espoir**.", "en": "She isn't giving up hope." },
+        { "fr": "Tu es mon seul **espoir** !", "en": "You're my only hope!" }
+      ] },
+    { "id": "heureux", "fr": "heureux", "pos": "adj", "ipa": "ø.ʁø", "display": "heureux, heureuse", "en": "happy",
+      "def": "Qui a du bonheur, qui est très content de sa vie.", "def_en": "Full of happiness, very content with your life.",
+      "forms": ["heureuse", "heureuses"],
+      "accept": ["heureuse"],
+      "examples": [
+        { "fr": "Je suis **heureux** de te voir !", "en": "I'm happy to see you!" },
+        { "fr": "Ils sont **heureux** ensemble.", "en": "They're happy together." },
+        { "fr": "Louise a eu une enfance **heureuse**.", "en": "Louise had a happy childhood." }
+      ],
+      "note": "**heureux** is a deep happiness; **content** is pleased about one thing: *je suis content de mon café*." },
+    { "id": "triste", "fr": "triste", "pos": "adj", "ipa": "tʁist", "en": "sad",
+      "def": "Qui n'est pas content, qui a envie de pleurer.", "def_en": "Not happy, feeling like crying.",
+      "forms": ["tristes"],
+      "examples": [
+        { "fr": "Pourquoi tu es **triste** ?", "en": "Why are you sad?" },
+        { "fr": "C'est une histoire très **triste**.", "en": "It's a very sad story." },
+        { "fr": "Minou a l'air **triste** aujourd'hui.", "en": "Minou looks sad today." }
+      ] },
+    { "id": "content", "fr": "content", "pos": "adj", "ipa": "kɔ̃.tɑ̃", "display": "content, contente", "en": "happy, pleased",
+      "def": "Qui a ce qu'il veut ; qui aime ce qui se passe.", "def_en": "Having what you want; liking what's happening.",
+      "forms": ["contente", "contents", "contentes"],
+      "accept": ["contente"],
+      "examples": [
+        { "fr": "Je suis **content** de mon nouveau travail.", "en": "I'm pleased with my new job." },
+        { "fr": "Lou est **contente** : il y a des frites !", "en": "Lou is happy: there are chips!" },
+        { "fr": "Tu n'as pas l'air **content**.", "en": "You don't look happy." }
+      ] },
+    { "id": "fier", "fr": "fier", "pos": "adj", "ipa": "fjɛʁ", "display": "fier, fière", "en": "proud",
+      "def": "Content de ce qu'on a fait, ou de ce qu'une autre personne a fait.", "def_en": "Pleased with what you've done, or with what someone else has done.",
+      "forms": ["fière", "fiers", "fières"],
+      "accept": ["fière"],
+      "examples": [
+        { "fr": "Je suis **fier** de toi !", "en": "I'm proud of you!" },
+        { "fr": "Sophie est **fière** de son dessin.", "en": "Sophie is proud of her drawing." },
+        { "fr": "Ses parents sont très **fiers**.", "en": "Her parents are very proud." }
+      ],
+      "note": "The **r** is pronounced: /fjɛʁ/. **être fier de** + a person or a thing." },
+    { "id": "jaloux", "fr": "jaloux", "pos": "adj", "ipa": "ʒa.lu", "display": "jaloux, jalouse", "en": "jealous",
+      "def": "Qui veut ce qu'une autre personne a.", "def_en": "Wanting what someone else has.",
+      "forms": ["jalouse", "jalouses"],
+      "accept": ["jalouse"],
+      "examples": [
+        { "fr": "Il est **jaloux** de son petit frère.", "en": "He's jealous of his little brother." },
+        { "fr": "Ne sois pas **jalouse** !", "en": "Don't be jealous!" },
+        { "fr": "Inès est un peu **jalouse** de Sophie.", "en": "Inès is a bit jealous of Sophie." }
+      ] },
+    { "id": "inquiet", "fr": "inquiet", "pos": "adj", "ipa": "ɛ̃.kjɛ", "display": "inquiet, inquiète", "en": "worried",
+      "def": "Qui pense qu'une mauvaise chose va peut-être arriver.", "def_en": "Thinking that something bad might happen.",
+      "forms": ["inquiète", "inquiets", "inquiètes"],
+      "accept": ["inquiète"],
+      "examples": [
+        { "fr": "Ma mère est **inquiète** : il est minuit !", "en": "My mother is worried: it's midnight!" },
+        { "fr": "Je suis **inquiet** pour l'examen.", "en": "I'm worried about the exam." },
+        { "fr": "Pourquoi tu as l'air **inquiet** ?", "en": "Why do you look worried?" }
+      ] },
+    { "id": "decu", "fr": "déçu", "pos": "adj", "ipa": "de.sy", "display": "déçu, déçue", "en": "disappointed",
+      "def": "Pas content, parce qu'une chose n'est pas comme on l'espérait.", "def_en": "Not happy, because something isn't how you hoped.",
+      "forms": ["déçue", "déçus", "déçues"],
+      "accept": ["déçue"],
+      "examples": [
+        { "fr": "Je suis **déçu** : le film est nul.", "en": "I'm disappointed: the film is rubbish." },
+        { "fr": "Lou est **déçue** : pas de dessert !", "en": "Lou is disappointed: no dessert!" },
+        { "fr": "Les joueurs sont **déçus** : ils ont perdu le match.", "en": "The players are disappointed: they lost the match." }
+      ],
+      "note": "False friend: **déçu** means *disappointed*, not *deceived*." },
+    { "id": "surpris", "fr": "surpris", "pos": "adj", "ipa": "syʁ.pʁi", "display": "surpris, surprise", "en": "surprised",
+      "def": "Qui ne pensait pas qu'une chose allait arriver.", "def_en": "Not expecting something to happen.",
+      "forms": ["surprise", "surprises"],
+      "accept": ["surprise"],
+      "examples": [
+        { "fr": "Je suis **surpris** de te voir ici !", "en": "I'm surprised to see you here!" },
+        { "fr": "Elle a l'air **surprise**.", "en": "She looks surprised." },
+        { "fr": "Tout le monde est **surpris**.", "en": "Everyone is surprised." }
+      ] },
+    { "id": "emu", "fr": "ému", "pos": "adj", "ipa": "e.my", "display": "ému, émue", "en": "moved, touched (by emotion)",
+      "def": "Qui a une émotion forte, souvent avec des larmes, parce qu'une chose est belle ou triste.", "def_en": "Feeling a strong emotion, often with tears, because something is beautiful or sad.",
+      "forms": ["émue", "émus", "émues"],
+      "accept": ["émue"],
+      "examples": [
+        { "fr": "Au mariage, le père de Chloé est très **ému**.", "en": "At the wedding, Chloé's father is very moved." },
+        { "fr": "Je suis **émue** par ta lettre.", "en": "I'm touched by your letter." },
+        { "fr": "Il parle avec une voix **émue**.", "en": "He speaks in a voice full of emotion." }
+      ] },
+    { "id": "fache", "fr": "fâché", "pos": "adj", "ipa": "fa.ʃe", "display": "fâché, fâchée", "en": "cross, angry",
+      "def": "Pas content contre une personne ; un peu en colère.", "def_en": "Unhappy with someone; a bit angry.",
+      "forms": ["fâchée", "fâchés", "fâchées"],
+      "accept": ["fâchée"],
+      "examples": [
+        { "fr": "Tu es **fâché** contre moi ?", "en": "Are you cross with me?" },
+        { "fr": "Maman est **fâchée** : Hugo est encore en retard.", "en": "Mum is cross: Hugo is late again." },
+        { "fr": "Ils sont **fâchés** depuis une semaine.", "en": "They haven't been speaking for a week." }
+      ],
+      "note": "**fâché contre** someone. Two people who **sont fâchés** aren't speaking to each other." },
+    { "id": "s-ennuyer", "fr": "s'ennuyer", "pos": "verb", "ipa": "sɑ̃.nɥi.je", "en": "to be bored",
+      "def": "Ne pas savoir quoi faire ; trouver le temps long.", "def_en": "Not knowing what to do; finding that time drags.",
+      "extra": "je **m'ennuie**, tu **t'ennuies**, il **s'ennuie**, nous **nous ennuyons**, vous **vous ennuyez**, ils **s'ennuient** (y → i before a silent ending).",
+      "forms": ["m'ennuie", "t'ennuies", "s'ennuie", "nous nous ennuyons", "vous vous ennuyez", "s'ennuient", "ennuyons", "ennuyez", "ennuyé", "ennuyée", "ennuyés", "ennuyées", "m'ennuyais", "t'ennuyais", "s'ennuyait", "nous nous ennuyions", "vous vous ennuyiez", "s'ennuyaient", "m'ennuierai", "t'ennuieras", "s'ennuiera", "nous nous ennuierons", "vous vous ennuierez", "s'ennuieront"],
+      "examples": [
+        { "fr": "Je **m'ennuie** : il n'y a rien à faire !", "en": "I'm bored: there's nothing to do!" },
+        { "fr": "Les enfants **s'ennuient** en voiture.", "en": "The children get bored in the car." },
+        { "fr": "On ne **s'ennuie** jamais avec Hugo !", "en": "You're never bored with Hugo!" }
+      ] },
+    { "id": "se-sentir", "fr": "se sentir", "pos": "verb", "ipa": "sə sɑ̃.tiʁ", "en": "to feel (well, tired, sad…)",
+      "def": "Avoir une émotion ou une sensation : se sentir bien, fatigué, seul…", "def_en": "To have an emotion or a sensation: to feel well, tired, lonely…",
+      "extra": "Like *sentir*: je **me sens**, tu **te sens**, il **se sent**, nous **nous sentons**, vous **vous sentez**, ils **se sentent**.",
+      "forms": ["me sens", "te sens", "se sent", "nous nous sentons", "vous vous sentez", "se sentent", "me sentais", "te sentais", "se sentait", "nous nous sentions", "vous vous sentiez", "se sentaient", "me sentirai", "te sentiras", "se sentira", "nous nous sentirons", "vous vous sentirez", "se sentiront"],
+      "examples": [
+        { "fr": "Je **me sens** bien aujourd'hui.", "en": "I feel good today." },
+        { "fr": "Tu **te sens** mieux ?", "en": "Are you feeling better?" },
+        { "fr": "Elle **se sent** seule à Lyon.", "en": "She feels lonely in Lyon." }
+      ],
+      "note": "**se sentir** + adjective (how you feel). **sentir** without *se* = to smell: *ça sent bon !*" },
+    { "id": "esperer", "fr": "espérer", "pos": "verb", "ipa": "ɛs.pe.ʁe", "en": "to hope",
+      "def": "Penser qu'une bonne chose va arriver, et la vouloir.", "def_en": "To think that something good will happen, and to want it.",
+      "extra": "é → è before a silent ending: j'**espère**, tu **espères**, il **espère**, nous **espérons**, vous **espérez**, ils **espèrent**.",
+      "forms": ["espère", "espères", "espérons", "espérez", "espèrent", "espéré", "espérais", "espérait", "espérions", "espériez", "espéraient", "espérerai", "espéreras", "espérera", "espérerons", "espérerez", "espéreront"],
+      "examples": [
+        { "fr": "J'**espère** qu'il fait beau demain.", "en": "I hope it's nice tomorrow." },
+        { "fr": "On **espère** te voir bientôt !", "en": "We hope to see you soon!" },
+        { "fr": "Tu viens ce soir ? — J'**espère** !", "en": "Are you coming tonight? — I hope so!" }
+      ],
+      "note": "**espérer** + infinitive, with no preposition: *j'espère venir*. Its noun is **l'espoir**." },
+    { "id": "sourire", "fr": "sourire", "pos": "verb", "ipa": "su.ʁiʁ", "en": "to smile; (un sourire) a smile",
+      "def": "Faire un petit rire avec la bouche, sans bruit.", "def_en": "To give a little laugh with your mouth, without any noise.",
+      "extra": "Like *rire*: je **souris**, tu **souris**, il **sourit**, nous **sourions**, vous **souriez**, ils **sourient**; j'ai **souri**.",
+      "forms": ["souris", "sourit", "sourions", "souriez", "sourient", "souri", "souriais", "souriait", "souriions", "souriiez", "souriaient", "sourires", "sourirai", "souriras", "sourira", "sourirons", "sourirez", "souriront"],
+      "examples": [
+        { "fr": "**Souris** pour la photo !", "en": "Smile for the photo!" },
+        { "fr": "Le bébé **sourit** à sa maman.", "en": "The baby smiles at his mum." },
+        { "fr": "Elle a un joli **sourire**.", "en": "She has a lovely smile." }
+      ] },
+    { "id": "s-inquieter", "fr": "s'inquiéter", "pos": "verb", "ipa": "sɛ̃.kje.te", "en": "to worry (ne t'inquiète pas = don't worry)",
+      "def": "Être inquiet ; penser à une chose qui peut mal se passer.", "def_en": "To be worried; to think about something that could go wrong.",
+      "extra": "é → è before a silent ending: je **m'inquiète**, tu **t'inquiètes**, il **s'inquiète**, nous **nous inquiétons**, vous **vous inquiétez**, ils **s'inquiètent**.",
+      "forms": ["m'inquiète", "t'inquiètes", "t'inquiète", "s'inquiète", "nous nous inquiétons", "vous vous inquiétez", "s'inquiètent", "inquiétons", "inquiétez", "inquiètent", "inquiété", "m'inquiétais", "t'inquiétais", "s'inquiétait", "nous nous inquiétions", "vous vous inquiétiez", "s'inquiétaient", "m'inquiéterai", "t'inquiéteras", "s'inquiétera", "nous nous inquiéterons", "vous vous inquiéterez", "s'inquiéteront"],
+      "examples": [
+        { "fr": "Ne **t'inquiète** pas, tout va bien !", "en": "Don't worry, everything's fine!" },
+        { "fr": "Ma mère **s'inquiète** pour moi.", "en": "My mother worries about me." },
+        { "fr": "Je **m'inquiète** : Hugo ne répond pas.", "en": "I'm worried: Hugo isn't answering." }
+      ],
+      "note": "**Ne t'inquiète pas !** / **Ne vous inquiétez pas !** = Don't worry! The adjective is **inquiet, inquiète**." },
+    { "id": "envie", "fr": "envie", "pos": "noun", "g": "f", "ipa": "ɑ̃.vi", "display": "avoir envie de", "en": "to feel like, to want (une envie = a wish)",
+      "def": "Quand on veut faire ou avoir une chose : j'ai envie d'une glace !", "def_en": "When you want to do or have something: I fancy an ice cream!",
+      "forms": ["envies"],
+      "accept": ["avoir envie de", "envie de", "une envie"],
+      "examples": [
+        { "fr": "J'ai **envie** d'une glace !", "en": "I fancy an ice cream!" },
+        { "fr": "Tu as **envie** de sortir ce soir ?", "en": "Do you feel like going out tonight?" },
+        { "fr": "Je n'ai pas **envie** de travailler aujourd'hui.", "en": "I don't feel like working today." }
+      ],
+      "note": "**avoir envie de** + noun or infinitive, like **avoir peur de** and **avoir besoin de**." }
+  ],
+  "story": {
+    "title": "La lettre",
+    "en": "Sophie is waiting for an answer from the school of architecture.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début octobre, à Lyon. Depuis deux semaines, Sophie attend une lettre de l'école d'architecture.", "en": "Early October, in Lyon. For two weeks, Sophie has been waiting for a letter from the school of architecture." },
+      { "sp": "Sophie", "fr": "Je m'ennuie, je m'inquiète, je dors mal… Je ne me sens pas bien, Léa !", "en": "I'm bored, I'm worried, I'm sleeping badly… I don't feel well, Léa!" },
+      { "sp": "Léa", "fr": "Ne t'inquiète pas ! Ton dossier est très beau. Il faut garder l'espoir !", "en": "Don't worry! Your application is really good. You have to keep hoping!" },
+      { "sp": "Sophie", "fr": "J'espère… Mais si c'est non, je vais être tellement déçue !", "en": "I hope so… But if it's a no, I'll be so disappointed!" },
+      { "sp": "", "fr": "Au café, le samedi, Sophie est triste : elle ne sourit plus. Les clients ont l'air inquiets pour elle.", "en": "At the café on Saturday, Sophie is sad: she doesn't smile any more. The customers look worried about her." },
+      { "sp": "", "fr": "Lundi matin, enfin, la lettre arrive ! Mais Sophie a peur de l'ouvrir.", "en": "On Monday morning, the letter finally arrives! But Sophie is afraid to open it." },
+      { "sp": "Léa", "fr": "Allez, courage ! Ouvre-la !", "en": "Come on, be brave! Open it!" },
+      { "sp": "", "fr": "Sophie lit la lettre. D'abord, elle ne dit rien. Elle a l'air surprise… puis très émue.", "en": "Sophie reads the letter. At first, she says nothing. She looks surprised… then very moved." },
+      { "sp": "Sophie", "fr": "C'est oui ! Je commence en janvier ! Je vais être architecte !", "en": "It's a yes! I start in January! I'm going to be an architect!" },
+      { "sp": "", "fr": "Elle saute de joie, elle rit, elle pleure de bonheur. Minou a peur du bruit et se cache sous le lit.", "en": "She jumps for joy, laughs, cries with happiness. Minou is scared of the noise and hides under the bed." },
+      { "sp": "Léa", "fr": "Je suis tellement fière de toi ! Tes parents vont être heureux !", "en": "I'm so proud of you! Your parents are going to be happy!" },
+      { "sp": "", "fr": "Le soir, il y a une petite fête. Tom est content pour Sophie… mais il a honte : il a oublié le gâteau dans le bus !", "en": "In the evening, there's a little party. Tom is happy for Sophie… but he's ashamed: he left the cake on the bus!" },
+      { "sp": "Inès", "fr": "Moi, je suis un peu jalouse : tu vas dessiner des maisons, et moi, je porte des robes toute la journée !", "en": "I'm a bit jealous: you're going to design houses, and I wear dresses all day long!" },
+      { "sp": "", "fr": "Hugo arrive en retard, comme toujours. Léa est un peu fâchée… mais ce soir, pas de colère !", "en": "Hugo arrives late, as always. Léa is a bit cross… but tonight, no anger!" },
+      { "sp": "Sophie", "fr": "Merci à tous ! Il y a deux semaines, c'était la tristesse. Aujourd'hui, c'est la joie !", "en": "Thank you, everyone! Two weeks ago, it was all sadness. Today, it's joy!" },
+      { "sp": "Hugo", "fr": "Quelle émotion ! Bon… on a envie de manger, nous ! Il est où, ce gâteau, Tom ?", "en": "How moving! Right… we'd like to eat! Where's that cake, Tom?" },
+      { "sp": "Tom", "fr": "Euh… j'ai un sentiment bizarre : je crois qu'il est à Villeurbanne !", "en": "Er… I have a funny feeling: I think it's in Villeurbanne!" }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "u08-week",
+  "type": "vocab",
+  "unit": 8,
+  "title": "La semaine",
+  "en": "Days of the week & times of day",
+  "intro": "The days of the week, the parts of the day, and words to put things in order. Days and months are **masculine** and take **no capital letter** in French: *lundi, mardi…*",
+  "words": [
+    { "id": "lundi", "fr": "lundi", "pos": "noun", "g": "m", "art": "", "ipa": "lœ̃.di", "en": "Monday",
+      "def": "Le premier jour de la semaine.", "def_en": "The first day of the week.",
+      "forms": ["lundis"],
+      "examples": [
+        { "fr": "**Lundi**, je commence un nouveau travail.", "en": "On Monday, I'm starting a new job." },
+        { "fr": "Le **lundi**, je vais au marché.", "en": "On Mondays, I go to the market." },
+        { "fr": "On est **lundi** aujourd'hui.", "en": "It's Monday today." }
+      ],
+      "note": "**lundi** = on (this) Monday. **le lundi** = on Mondays (every Monday)." },
+    { "id": "mardi", "fr": "mardi", "pos": "noun", "g": "m", "art": "", "ipa": "maʁ.di", "en": "Tuesday",
+      "def": "Le jour après lundi.", "def_en": "The day after Monday.",
+      "examples": [
+        { "fr": "**Mardi**, j'ai un cours de français.", "en": "On Tuesday, I have a French class." },
+        { "fr": "Le **mardi**, le musée est fermé.", "en": "On Tuesdays, the museum is closed." },
+        { "fr": "À **mardi** !", "en": "See you on Tuesday!" }
+      ] },
+    { "id": "mercredi", "fr": "mercredi", "pos": "noun", "g": "m", "art": "", "ipa": "mɛʁ.kʁə.di", "en": "Wednesday",
+      "def": "Le jour au milieu de la semaine, après mardi.", "def_en": "The day in the middle of the week, after Tuesday.",
+      "examples": [
+        { "fr": "**Mercredi**, je travaille tard.", "en": "On Wednesday, I'm working late." },
+        { "fr": "Le **mercredi**, les enfants n'ont pas école.", "en": "On Wednesdays, children don't have school." },
+        { "fr": "On est **mercredi** ou jeudi ?", "en": "Is it Wednesday or Thursday?" }
+      ],
+      "note": "In France, many young children don't go to school on Wednesday." },
+    { "id": "jeudi", "fr": "jeudi", "pos": "noun", "g": "m", "art": "", "ipa": "ʒø.di", "en": "Thursday",
+      "def": "Le jour après mercredi.", "def_en": "The day after Wednesday.",
+      "examples": [
+        { "fr": "**Jeudi**, je dîne chez ma sœur.", "en": "On Thursday, I'm having dinner at my sister's." },
+        { "fr": "Le **jeudi**, il y a un marché.", "en": "On Thursdays, there's a market." },
+        { "fr": "À **jeudi**, Léa !", "en": "See you Thursday, Léa!" }
+      ] },
+    { "id": "vendredi", "fr": "vendredi", "pos": "noun", "g": "m", "art": "", "ipa": "vɑ̃.dʁə.di", "en": "Friday",
+      "def": "Le dernier jour de travail de la semaine.", "def_en": "The last working day of the week.",
+      "examples": [
+        { "fr": "**Vendredi** soir, on va au cinéma.", "en": "On Friday evening, we're going to the cinema." },
+        { "fr": "On mange du poisson le **vendredi**.", "en": "We eat fish on Fridays." },
+        { "fr": "Enfin **vendredi** !", "en": "Friday at last!" }
+      ] },
+    { "id": "samedi", "fr": "samedi", "pos": "noun", "g": "m", "art": "", "ipa": "sam.di", "en": "Saturday",
+      "def": "Le premier jour du week-end.", "def_en": "The first day of the weekend.",
+      "examples": [
+        { "fr": "**Samedi**, je fais les courses.", "en": "On Saturday, I'm doing the shopping." },
+        { "fr": "Le **samedi**, je dors tard.", "en": "On Saturdays, I sleep late." },
+        { "fr": "Tu es libre **samedi** ?", "en": "Are you free on Saturday?" }
+      ] },
+    { "id": "dimanche", "fr": "dimanche", "pos": "noun", "g": "m", "art": "", "ipa": "di.mɑ̃ʃ", "en": "Sunday",
+      "def": "Le dernier jour de la semaine. Beaucoup de magasins sont fermés.", "def_en": "The last day of the week. Many shops are closed.",
+      "forms": ["dimanches"],
+      "examples": [
+        { "fr": "Le **dimanche**, toute la famille déjeune ensemble.", "en": "On Sundays, the whole family has lunch together." },
+        { "fr": "**Dimanche**, on va chez mes grands-parents.", "en": "On Sunday, we're going to my grandparents'." },
+        { "fr": "Bon **dimanche** !", "en": "Have a nice Sunday!" }
+      ] },
+    { "id": "semaine", "fr": "semaine", "pos": "noun", "g": "f", "ipa": "sə.mɛn", "en": "week",
+      "def": "Sept jours, de lundi à dimanche.", "def_en": "Seven days, from Monday to Sunday.",
+      "forms": ["semaines"],
+      "examples": [
+        { "fr": "Je travaille cinq jours par **semaine**.", "en": "I work five days a week." },
+        { "fr": "Bonne **semaine** !", "en": "Have a good week!" },
+        { "fr": "La **semaine** prochaine, je pars à Paris.", "en": "Next week, I'm going to Paris." }
+      ] },
+    { "id": "week-end", "fr": "week-end", "pos": "noun", "g": "m", "ipa": "wi.kɛnd", "en": "weekend",
+      "def": "Samedi et dimanche : beaucoup de gens ne travaillent pas.", "def_en": "Saturday and Sunday: many people don't work.",
+      "forms": ["week-ends"], "accept": ["weekend"],
+      "examples": [
+        { "fr": "Bon **week-end** !", "en": "Have a nice weekend!" },
+        { "fr": "Qu'est-ce que tu fais ce **week-end** ?", "en": "What are you doing this weekend?" },
+        { "fr": "Le **week-end**, je me repose.", "en": "At weekends, I rest." }
+      ] },
+    { "id": "jour", "fr": "jour", "pos": "noun", "g": "m", "ipa": "ʒuʁ", "en": "day",
+      "def": "Vingt-quatre heures. Une semaine a sept jours.", "def_en": "Twenty-four hours. A week has seven days.",
+      "forms": ["jours"],
+      "examples": [
+        { "fr": "Quel **jour** on est ?", "en": "What day is it?" },
+        { "fr": "Il y a sept **jours** dans une semaine.", "en": "There are seven days in a week." },
+        { "fr": "C'est mon premier **jour** de travail.", "en": "It's my first day at work." }
+      ],
+      "note": "**le jour** = the day as a unit (count them). **la journée** = the day as a length of time (what you do in it)." },
+    { "id": "journee", "fr": "journée", "pos": "noun", "g": "f", "ipa": "ʒuʁ.ne", "en": "day (daytime, the whole day)",
+      "def": "Le temps du matin au soir.", "def_en": "The time from morning to evening.",
+      "forms": ["journées"], "accept": ["journee"],
+      "examples": [
+        { "fr": "Bonne **journée** !", "en": "Have a nice day!" },
+        { "fr": "Je travaille toute la **journée**.", "en": "I work all day." },
+        { "fr": "La **journée** est longue.", "en": "The day is long." }
+      ] },
+    { "id": "matin", "fr": "matin", "pos": "noun", "g": "m", "ipa": "ma.tɛ̃", "en": "morning",
+      "def": "Le début de la journée, avant midi.", "def_en": "The start of the day, before noon.",
+      "forms": ["matins"],
+      "examples": [
+        { "fr": "Le **matin**, je bois un café.", "en": "In the morning, I drink a coffee." },
+        { "fr": "Ce **matin**, il fait froid.", "en": "This morning it's cold." },
+        { "fr": "Je pars à six heures du **matin**.", "en": "I leave at six in the morning." }
+      ] },
+    { "id": "apres-midi", "fr": "après-midi", "pos": "noun", "g": "m", "ipa": "a.pʁɛ.mi.di", "en": "afternoon",
+      "def": "Le temps entre midi et le soir.", "def_en": "The time between noon and the evening.",
+      "accept": ["apres-midi", "après midi"],
+      "examples": [
+        { "fr": "Cet **après-midi**, je vais au parc.", "en": "This afternoon, I'm going to the park." },
+        { "fr": "L'**après-midi**, Lou dort.", "en": "In the afternoon, Lou sleeps." },
+        { "fr": "Il est trois heures de l'**après-midi**.", "en": "It's three in the afternoon." }
+      ] },
+    { "id": "soir", "fr": "soir", "pos": "noun", "g": "m", "ipa": "swaʁ", "en": "evening",
+      "def": "La fin de la journée, avant la nuit.", "def_en": "The end of the day, before the night.",
+      "forms": ["soirs"],
+      "examples": [
+        { "fr": "Ce **soir**, on mange des pâtes.", "en": "Tonight we're having pasta." },
+        { "fr": "Le **soir**, je regarde la télé.", "en": "In the evening, I watch TV." },
+        { "fr": "Il est huit heures du **soir**.", "en": "It's eight in the evening." }
+      ],
+      "note": "**ce soir** = tonight, this evening." },
+    { "id": "nuit", "fr": "nuit", "pos": "noun", "g": "f", "ipa": "nɥi", "en": "night",
+      "def": "Quand il fait noir et qu'on dort.", "def_en": "When it's dark and people sleep.",
+      "forms": ["nuits"],
+      "examples": [
+        { "fr": "Bonne **nuit**, Lou !", "en": "Good night, Lou!" },
+        { "fr": "Je dors huit heures par **nuit**.", "en": "I sleep eight hours a night." },
+        { "fr": "La **nuit**, il fait froid.", "en": "At night, it's cold." }
+      ] },
+    { "id": "hier", "fr": "hier", "pos": "adv", "ipa": "jɛʁ", "en": "yesterday",
+      "def": "Le jour avant aujourd'hui.", "def_en": "The day before today.",
+      "examples": [
+        { "fr": "**Hier**, c'était mercredi.", "en": "Yesterday was Wednesday." },
+        { "fr": "La fête ? C'était **hier** !", "en": "The party? It was yesterday!" },
+        { "fr": "**Hier** soir, c'était la fête de Sophie.", "en": "Last night was Sophie's party." }
+      ],
+      "note": "**c'était** = it was (you'll learn the past tenses later)." },
+    { "id": "demain", "fr": "demain", "pos": "adv", "ipa": "də.mɛ̃", "en": "tomorrow",
+      "def": "Le jour après aujourd'hui.", "def_en": "The day after today.",
+      "examples": [
+        { "fr": "À **demain** !", "en": "See you tomorrow!" },
+        { "fr": "**Demain**, c'est samedi.", "en": "Tomorrow is Saturday." },
+        { "fr": "Tu travailles **demain** ?", "en": "Are you working tomorrow?" }
+      ] },
+    { "id": "tot", "fr": "tôt", "pos": "adv", "ipa": "to", "en": "early",
+      "def": "Avant l'heure normale : se lever tôt.", "def_en": "Before the usual time: to get up early.",
+      "accept": ["tot"],
+      "examples": [
+        { "fr": "Je me lève **tôt**.", "en": "I get up early." },
+        { "fr": "Il est trop **tôt** !", "en": "It's too early!" },
+        { "fr": "Lou se couche **tôt**.", "en": "Lou goes to bed early." }
+      ] },
+    { "id": "tard", "fr": "tard", "pos": "adv", "ipa": "taʁ", "en": "late",
+      "def": "Après l'heure normale : se coucher tard.", "def_en": "After the usual time: to go to bed late.",
+      "examples": [
+        { "fr": "Je me couche **tard**.", "en": "I go to bed late." },
+        { "fr": "Il est **tard**, je rentre.", "en": "It's late, I'm going home." },
+        { "fr": "À plus **tard** !", "en": "See you later!" }
+      ],
+      "note": "**tard** = late in the day. For being late for something, say **en retard**." },
+    { "id": "d-abord", "fr": "d'abord", "pos": "adv", "ipa": "da.bɔʁ", "en": "first, first of all",
+      "def": "En premier : d'abord ça, ensuite autre chose.", "def_en": "In first place: this first, then something else.",
+      "accept": ["dabord"],
+      "examples": [
+        { "fr": "**D'abord**, je me douche.", "en": "First, I have a shower." },
+        { "fr": "**D'abord** les légumes, ensuite le dessert !", "en": "Vegetables first, then dessert!" },
+        { "fr": "On fait quoi **d'abord** ?", "en": "What shall we do first?" }
+      ] },
+    { "id": "ensuite", "fr": "ensuite", "pos": "adv", "ipa": "ɑ̃.sɥit", "en": "then, next",
+      "def": "Après ça, en deuxième.", "def_en": "After that, second.",
+      "examples": [
+        { "fr": "D'abord je me lève, **ensuite** je m'habille.", "en": "First I get up, then I get dressed." },
+        { "fr": "Et **ensuite** ?", "en": "And then?" },
+        { "fr": "On mange, et **ensuite** on va au cinéma.", "en": "We'll eat, and then we'll go to the cinema." }
+      ] },
+    { "id": "enfin", "fr": "enfin", "pos": "adv", "ipa": "ɑ̃.fɛ̃", "en": "finally, at last",
+      "def": "À la fin, en dernier.", "def_en": "At the end, last of all.",
+      "examples": [
+        { "fr": "**Enfin**, je me couche.", "en": "Finally, I go to bed." },
+        { "fr": "**Enfin** le week-end !", "en": "The weekend at last!" },
+        { "fr": "Tu es là ! **Enfin** !", "en": "You're here! At last!" }
+      ] }
+  ],
+  "story": {
+    "title": "La semaine de Hugo",
+    "en": "Hugo's first week at his new job.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Hugo a un nouveau travail ! Il travaille dans un bureau, du lundi au vendredi.", "en": "Hugo has a new job! He works in an office, Monday to Friday." },
+      { "sp": "Hugo", "fr": "Lundi, c'est mon premier jour. Je me lève très tôt : à six heures !", "en": "Monday is my first day. I get up very early: at six!" },
+      { "sp": "", "fr": "Le matin, il prend le bus. L'après-midi, il a des réunions.", "en": "In the morning, he takes the bus. In the afternoon, he has meetings." },
+      { "sp": "Hugo", "fr": "Mardi et mercredi, je travaille tard. Je rentre à neuf heures du soir.", "en": "On Tuesday and Wednesday, I work late. I get home at nine in the evening." },
+      { "sp": "", "fr": "Jeudi, il est très fatigué. La journée est longue !", "en": "On Thursday, he's very tired. The day is long!" },
+      { "sp": "Léa", "fr": "Hugo, tu viens dîner chez nous demain ?", "en": "Hugo, are you coming to dinner at our place tomorrow?" },
+      { "sp": "Hugo", "fr": "Demain ? Euh… quel jour on est ?", "en": "Tomorrow? Um… what day is it?" },
+      { "sp": "Léa", "fr": "Hier, c'était mercredi. Aujourd'hui, c'est jeudi. Demain, c'est vendredi !", "en": "Yesterday was Wednesday. Today is Thursday. Tomorrow is Friday!" },
+      { "sp": "Hugo", "fr": "Ah oui ! D'accord, avec plaisir !", "en": "Oh yes! OK, with pleasure!" },
+      { "sp": "", "fr": "Vendredi soir, Hugo dîne chez Léa et Sophie.", "en": "On Friday evening, Hugo has dinner at Léa and Sophie's." },
+      { "sp": "Sophie", "fr": "Alors, ta première semaine ?", "en": "So, how was your first week?" },
+      { "sp": "Hugo", "fr": "D'abord, je suis fatigué. Ensuite, j'ai faim. Et enfin… c'est le week-end !", "en": "First, I'm tired. Next, I'm hungry. And finally… it's the weekend!" },
+      { "sp": "Léa", "fr": "Qu'est-ce que tu fais samedi et dimanche ?", "en": "What are you doing on Saturday and Sunday?" },
+      { "sp": "Hugo", "fr": "Samedi, je dors ! Dimanche… je dors aussi.", "en": "On Saturday, I sleep! On Sunday… I sleep too." },
+      { "sp": "Sophie", "fr": "Et la nuit ?", "en": "And at night?" },
+      { "sp": "Hugo", "fr": "La nuit ? Je dors, bien sûr !", "en": "At night? I sleep, of course!" }
+    ]
+  }
+}

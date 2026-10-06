@@ -1,0 +1,229 @@
+{
+  "id": "u14-transport",
+  "type": "vocab",
+  "unit": 14,
+  "title": "Les transports",
+  "en": "Transport",
+  "intro": "22 words for getting around: trains, planes, buses and taxis, tickets and delays. To say how you travel, French uses **en** for things you sit inside (*en train, en avion, en bus, en voiture*) and **à** for things you sit on (*à vélo, à moto*), and *à pied* on foot.",
+  "words": [
+    { "id": "transport", "fr": "transport", "pos": "noun", "g": "m", "ipa": "tʁɑ̃s.pɔʁ", "en": "transport",
+      "def": "Le moyen de voyager d'un endroit à un autre : le train, le bus, l'avion…", "def_en": "The means of travelling from one place to another: the train, the bus, the plane…",
+      "forms": ["transports"],
+      "examples": [
+        { "fr": "À Lyon, je prends les **transports** en commun.", "en": "In Lyon, I use public transport." },
+        { "fr": "Le **transport** est cher en été.", "en": "Transport is expensive in summer." },
+        { "fr": "Quel est ton moyen de **transport** préféré ?", "en": "What's your favourite means of transport?" }
+      ],
+      "note": "**les transports en commun** = public transport (bus, metro, tram)." },
+    { "id": "train", "fr": "train", "pos": "noun", "g": "m", "ipa": "tʁɛ̃", "en": "train",
+      "def": "Il roule sur des rails et il transporte des passagers d'une ville à une autre.", "def_en": "It runs on rails and carries passengers from one town to another.",
+      "forms": ["trains"],
+      "examples": [
+        { "fr": "Je prends le **train** pour Paris.", "en": "I'm taking the train to Paris." },
+        { "fr": "Le **train** part à huit heures.", "en": "The train leaves at eight." },
+        { "fr": "Le TGV est un **train** très rapide.", "en": "The TGV is a very fast train." }
+      ],
+      "note": "**le TGV** (*train à grande vitesse*, high-speed train) goes up to 320 km/h. **en train** = by train." },
+    { "id": "avion", "fr": "avion", "pos": "noun", "g": "m", "ipa": "a.vjɔ̃", "en": "plane, aeroplane",
+      "def": "Il vole dans le ciel et il transporte des passagers très loin.", "def_en": "It flies in the sky and carries passengers very far.",
+      "forms": ["avions"],
+      "examples": [
+        { "fr": "Nous prenons l'**avion** pour Montréal.", "en": "We're flying to Montréal." },
+        { "fr": "L'**avion** a deux heures de retard.", "en": "The plane is two hours late." },
+        { "fr": "Lou a peur de l'**avion**.", "en": "Lou is scared of flying." }
+      ],
+      "note": "**prendre l'avion** = to fly. **en avion** = by plane." },
+    { "id": "bus", "fr": "bus", "pos": "noun", "g": "m", "ipa": "bys", "en": "bus",
+      "def": "Un grand véhicule qui transporte des passagers en ville, avec des arrêts.", "def_en": "A big vehicle that carries passengers around town, with stops.",
+      "examples": [
+        { "fr": "J'attends le **bus** à l'arrêt.", "en": "I'm waiting for the bus at the stop." },
+        { "fr": "Le **bus** numéro douze va à la gare.", "en": "The number twelve bus goes to the station." },
+        { "fr": "Je vais au travail en **bus**.", "en": "I go to work by bus." }
+      ],
+      "note": "The **s** is pronounced: /bys/. A coach between towns is **un car**." },
+    { "id": "tram", "fr": "tram", "pos": "noun", "g": "m", "ipa": "tʁam", "en": "tram",
+      "def": "Un long véhicule sur des rails, qui roule dans les rues de la ville.", "def_en": "A long vehicle on rails that runs along the streets of a town.",
+      "forms": ["trams"],
+      "accept": ["tramway", "le tramway"],
+      "examples": [
+        { "fr": "À Lyon, il y a plusieurs lignes de **tram**.", "en": "In Lyon, there are several tram lines." },
+        { "fr": "Je prends le **tram** pour aller à l'université.", "en": "I take the tram to go to the university." },
+        { "fr": "Le **tram** est plein le matin.", "en": "The tram is full in the morning." }
+      ],
+      "note": "Short for **le tramway**." },
+    { "id": "moto", "fr": "moto", "pos": "noun", "g": "f", "ipa": "mɔ.to", "en": "motorbike",
+      "def": "Un véhicule à deux roues, avec un moteur.", "def_en": "A two-wheeled vehicle with an engine.",
+      "forms": ["motos"],
+      "examples": [
+        { "fr": "Mon oncle a une grosse **moto**.", "en": "My uncle has a big motorbike." },
+        { "fr": "Il va au travail à **moto**.", "en": "He goes to work by motorbike." },
+        { "fr": "Attention, une **moto** arrive !", "en": "Careful, a motorbike is coming!" }
+      ],
+      "note": "Short for **la motocyclette**, so it's feminine. **à moto**, like *à vélo*." },
+    { "id": "taxi", "fr": "taxi", "pos": "noun", "g": "m", "ipa": "tak.si", "en": "taxi",
+      "def": "Une voiture avec un chauffeur : on paie pour aller où on veut.", "def_en": "A car with a driver: you pay to go wherever you want.",
+      "forms": ["taxis"],
+      "examples": [
+        { "fr": "On prend un **taxi** pour aller à la gare.", "en": "We're taking a taxi to the station." },
+        { "fr": "Le **taxi** attend devant l'hôtel.", "en": "The taxi is waiting outside the hotel." },
+        { "fr": "Antoine est chauffeur de **taxi**.", "en": "Antoine is a taxi driver." }
+      ] },
+    { "id": "station", "fr": "station", "pos": "noun", "g": "f", "ipa": "sta.sjɔ̃", "en": "station (metro, tram); rank (taxi)",
+      "def": "L'endroit où le métro ou le tram s'arrête.", "def_en": "The place where the metro or the tram stops.",
+      "forms": ["stations"],
+      "examples": [
+        { "fr": "Je descends à la prochaine **station**.", "en": "I'm getting off at the next station." },
+        { "fr": "La **station** de métro est à côté de la mairie.", "en": "The metro station is next to the town hall." },
+        { "fr": "Il y a une **station** de taxis devant la gare.", "en": "There's a taxi rank outside the station." }
+      ],
+      "note": "A train station is **une gare**; a metro or tram stop is **une station**. **une station de ski** = a ski resort." },
+    { "id": "quai", "fr": "quai", "pos": "noun", "g": "m", "ipa": "ke", "en": "platform; quay, riverbank",
+      "def": "L'endroit où on attend le train, à la gare. Aussi : le bord d'une rivière.", "def_en": "The place where you wait for the train at the station. Also: a riverbank.",
+      "forms": ["quais"],
+      "examples": [
+        { "fr": "Le train part du **quai** numéro trois.", "en": "The train leaves from platform three." },
+        { "fr": "Les passagers attendent sur le **quai**.", "en": "The passengers are waiting on the platform." },
+        { "fr": "On se promène sur les **quais** du Rhône.", "en": "We walk along the banks of the Rhône." }
+      ] },
+    { "id": "billet", "fr": "billet", "pos": "noun", "g": "m", "ipa": "bi.jɛ", "en": "ticket; (bank)note",
+      "def": "Le papier qui montre qu'on a payé son voyage. Aussi : l'argent en papier.", "def_en": "The piece of paper that shows you've paid for your journey. Also: paper money.",
+      "forms": ["billets"],
+      "examples": [
+        { "fr": "J'achète un **billet** de train.", "en": "I'm buying a train ticket." },
+        { "fr": "Vous avez vos **billets** ?", "en": "Have you got your tickets?" },
+        { "fr": "Tu as un **billet** de vingt euros ?", "en": "Have you got a twenty-euro note?" }
+      ],
+      "note": "For the bus or the metro, people often say **un ticket**." },
+    { "id": "aeroport", "fr": "aéroport", "pos": "noun", "g": "m", "ipa": "a.e.ʁɔ.pɔʁ", "en": "airport",
+      "def": "L'endroit où les avions partent et arrivent.", "def_en": "The place where planes leave and arrive.",
+      "forms": ["aéroports"],
+      "examples": [
+        { "fr": "On va à l'**aéroport** en taxi.", "en": "We're going to the airport by taxi." },
+        { "fr": "L'**aéroport** est loin de la ville.", "en": "The airport is a long way from the town." },
+        { "fr": "J'attends ma cousine à l'**aéroport**.", "en": "I'm waiting for my cousin at the airport." }
+      ],
+      "note": "Four syllables: /a.e.ʁɔ.pɔʁ/." },
+    { "id": "vol", "fr": "vol", "pos": "noun", "g": "m", "ipa": "vɔl", "en": "flight; theft",
+      "def": "Un voyage en avion. Aussi : quand un voleur prend quelque chose.", "def_en": "A journey by plane. Also: when a thief takes something.",
+      "forms": ["vols"],
+      "examples": [
+        { "fr": "Le **vol** pour Montréal dure sept heures.", "en": "The flight to Montréal takes seven hours." },
+        { "fr": "Notre **vol** part à treize heures.", "en": "Our flight leaves at 1 p.m." },
+        { "fr": "Attention aux **vols** dans le métro !", "en": "Watch out for thieves in the metro!" }
+      ],
+      "note": "From **voler**, which means both *to fly* and *to steal*!" },
+    { "id": "passager", "fr": "passager", "pos": "noun", "g": "m", "ipa": "pa.sa.ʒe", "display": "le passager, la passagère", "en": "passenger",
+      "def": "Une personne qui voyage dans un train, un bus, un avion ou une voiture, mais qui ne conduit pas.", "def_en": "A person travelling in a train, a bus, a plane or a car, but not driving.",
+      "forms": ["passagère", "passagers", "passagères"],
+      "accept": ["passagère", "la passagère", "une passagère"],
+      "examples": [
+        { "fr": "L'avion transporte trois cents **passagers**.", "en": "The plane carries three hundred passengers." },
+        { "fr": "Les **passagers** montent dans le train.", "en": "The passengers are getting on the train." },
+        { "fr": "Une **passagère** cherche son sac.", "en": "A passenger is looking for her bag." }
+      ] },
+    { "id": "retard", "fr": "retard", "pos": "noun", "g": "m", "ipa": "ʁə.taʁ", "en": "delay, lateness",
+      "def": "Quand on arrive après l'heure prévue.", "def_en": "When you arrive after the planned time.",
+      "forms": ["retards"],
+      "examples": [
+        { "fr": "Le train a dix minutes de **retard**.", "en": "The train is ten minutes late." },
+        { "fr": "Hugo est toujours en **retard** !", "en": "Hugo is always late!" },
+        { "fr": "Désolé pour le **retard** !", "en": "Sorry I'm late!" }
+      ],
+      "note": "**être en retard** = to be late. The opposite: **à l'heure** (on time) or **en avance** (early)." },
+    { "id": "depart", "fr": "départ", "pos": "noun", "g": "m", "ipa": "de.paʁ", "en": "departure",
+      "def": "Le moment où on part.", "def_en": "The moment when you leave.",
+      "forms": ["départs"],
+      "examples": [
+        { "fr": "Le **départ** du train est à neuf heures.", "en": "The train leaves at nine." },
+        { "fr": "Regarde le tableau des **départs**.", "en": "Look at the departures board." },
+        { "fr": "Le jour du **départ**, tout le monde est stressé.", "en": "On the day we leave, everyone is stressed." }
+      ] },
+    { "id": "arrivee", "fr": "arrivée", "pos": "noun", "g": "f", "ipa": "a.ʁi.ve", "en": "arrival",
+      "def": "Le moment où on arrive.", "def_en": "The moment when you arrive.",
+      "forms": ["arrivées"],
+      "examples": [
+        { "fr": "L'**arrivée** à Montréal est prévue à quinze heures.", "en": "Arrival in Montréal is scheduled for 3 p.m." },
+        { "fr": "Antoine nous attend aux **arrivées**.", "en": "Antoine is waiting for us at Arrivals." },
+        { "fr": "À notre **arrivée**, il pleut.", "en": "When we arrive, it's raining." }
+      ] },
+    { "id": "embouteillage", "fr": "embouteillage", "pos": "noun", "g": "m", "ipa": "ɑ̃.bu.tɛ.jaʒ", "en": "traffic jam",
+      "def": "Quand il y a trop de voitures sur la route et qu'elles n'avancent plus.", "def_en": "When there are too many cars on the road and they stop moving.",
+      "forms": ["embouteillages"],
+      "examples": [
+        { "fr": "Il y a un **embouteillage** sur l'autoroute.", "en": "There's a traffic jam on the motorway." },
+        { "fr": "Le matin, il y a toujours des **embouteillages** en ville.", "en": "In the morning, there are always traffic jams in town." },
+        { "fr": "À vélo, pas d'**embouteillage** !", "en": "By bike, no traffic jams!" }
+      ],
+      "note": "In everyday speech: **un bouchon** (literally *a cork*)." },
+    { "id": "permis", "fr": "permis", "pos": "noun", "g": "m", "ipa": "pɛʁ.mi", "en": "licence, permit; driving licence",
+      "def": "Le papier qui donne le droit de conduire une voiture.", "def_en": "The document that gives you the right to drive a car.",
+      "examples": [
+        { "fr": "Tu as ton **permis** ?", "en": "Have you got your driving licence?" },
+        { "fr": "Léa passe son **permis** en septembre.", "en": "Léa is taking her driving test in September." },
+        { "fr": "Sans **permis**, on ne peut pas conduire.", "en": "Without a licence, you can't drive." }
+      ],
+      "note": "**le permis de conduire** = driving licence. **passer son permis** = to take your driving test." },
+    { "id": "conduire", "fr": "conduire", "pos": "verb", "ipa": "kɔ̃.dɥiʁ", "en": "to drive",
+      "def": "Faire avancer une voiture, un bus ou un camion.", "def_en": "To make a car, a bus or a lorry move along.",
+      "extra": "je **conduis** · tu **conduis** · il **conduit** · nous **conduisons** · vous **conduisez** · ils **conduisent**",
+      "forms": ["conduis", "conduit", "conduisons", "conduisez", "conduisent", "conduisais", "conduisait", "conduisions", "conduisiez", "conduisaient", "conduirai", "conduiras", "conduira", "conduirons", "conduirez", "conduiront"],
+      "examples": [
+        { "fr": "Tu sais **conduire** ?", "en": "Can you drive?" },
+        { "fr": "Mon père **conduit** très bien.", "en": "My father drives very well." },
+        { "fr": "En France, on **conduit** à droite.", "en": "In France, people drive on the right." }
+      ] },
+    { "id": "rater", "fr": "rater", "pos": "verb", "ipa": "ʁa.te", "en": "to miss (a train, a bus); to fail",
+      "def": "Arriver trop tard pour prendre le train ou le bus.", "def_en": "To arrive too late to catch the train or the bus.",
+      "forms": ["rate", "rates", "ratons", "ratez", "ratent", "raté", "ratais", "ratait", "rations", "ratiez", "rataient", "raterai", "rateras", "ratera", "raterons", "raterez", "rateront"],
+      "examples": [
+        { "fr": "Vite, on va **rater** le train !", "en": "Quick, we're going to miss the train!" },
+        { "fr": "Si tu pars maintenant, tu ne **rates** pas le bus.", "en": "If you leave now, you won't miss the bus." },
+        { "fr": "Hugo **rate** souvent son bus.", "en": "Hugo often misses his bus." }
+      ],
+      "note": "Also: to fail (*rater un examen*) or to mess up (*rater un gâteau*)." },
+    { "id": "atterrir", "fr": "atterrir", "pos": "verb", "ipa": "a.te.ʁiʁ", "en": "to land",
+      "def": "Pour un avion : descendre du ciel et arriver au sol.", "def_en": "For a plane: to come down from the sky and reach the ground.",
+      "extra": "Like *finir*: l'avion **atterrit**, nous **atterrissons**, les avions **atterrissent**.",
+      "forms": ["atterris", "atterrit", "atterrissons", "atterrissez", "atterrissent", "atterrissais", "atterrissait", "atterrissions", "atterrissiez", "atterrissaient", "atterrirai", "atterriras", "atterrira", "atterrirons", "atterrirez", "atterriront"],
+      "examples": [
+        { "fr": "L'avion **atterrit** à Montréal à quinze heures.", "en": "The plane lands in Montréal at 3 p.m." },
+        { "fr": "Nous **atterrissons** dans dix minutes.", "en": "We're landing in ten minutes." },
+        { "fr": "Ici, les avions **atterrissent** toutes les deux minutes.", "en": "Here, planes land every two minutes." }
+      ],
+      "note": "**a + terre** (earth): to come down to earth." },
+    { "id": "decoller", "fr": "décoller", "pos": "verb", "ipa": "de.kɔ.le", "en": "to take off",
+      "def": "Pour un avion : quitter le sol et monter dans le ciel.", "def_en": "For a plane: to leave the ground and climb into the sky.",
+      "forms": ["décolle", "décolles", "décollons", "décollez", "décollent", "décollé", "décollais", "décollait", "décollions", "décolliez", "décollaient", "décollerai", "décolleras", "décollera", "décollerons", "décollerez", "décolleront"],
+      "examples": [
+        { "fr": "L'avion **décolle** à midi.", "en": "The plane takes off at noon." },
+        { "fr": "Attachez vos ceintures : nous **décollons** !", "en": "Fasten your seat belts: we're taking off!" },
+        { "fr": "Lou regarde les avions qui **décollent**.", "en": "Lou watches the planes taking off." }
+      ],
+      "note": "Also: to unstick, to peel off (*décoller une affiche*)." }
+  ],
+  "story": {
+    "title": "Le grand départ",
+    "en": "The first of July: Léa and her family fly to Montréal.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le premier juillet, c'est le grand départ ! Léa part pour Montréal avec ses parents et sa petite sœur, Lou.", "en": "The first of July is the big day! Léa is leaving for Montréal with her parents and her little sister, Lou." },
+      { "sp": "", "fr": "À six heures du matin, Léa prend un taxi jusqu'à la gare de la Part-Dieu, à Lyon.", "en": "At six in the morning, Léa takes a taxi to Part-Dieu station in Lyon." },
+      { "sp": "Le chauffeur", "fr": "Il n'y a pas d'embouteillage à cette heure. On arrive dans dix minutes !", "en": "There are no traffic jams at this time of day. We'll be there in ten minutes!" },
+      { "sp": "", "fr": "Sur le quai, mauvaise nouvelle : le train pour l'aéroport de Paris a vingt minutes de retard.", "en": "On the platform, bad news: the train to the Paris airport is twenty minutes late." },
+      { "sp": "Léa", "fr": "Maman, mon train est en retard ! Je ne veux pas rater l'avion !", "en": "Mum, my train's late! I don't want to miss the plane!" },
+      { "sp": "Anne", "fr": "Ne t'inquiète pas. Le vol part à treize heures. Nous t'attendons aux départs.", "en": "Don't worry. The flight leaves at 1 p.m. We'll wait for you at Departures." },
+      { "sp": "", "fr": "Dans le train, il y a beaucoup de passagers avec de grosses valises.", "en": "On the train, there are lots of passengers with big suitcases." },
+      { "sp": "", "fr": "À onze heures, Léa arrive enfin à l'aéroport. Lou court vers elle : « Léa ! On prend l'avion ! »", "en": "At eleven o'clock, Léa finally gets to the airport. Lou runs towards her: “Léa! We're taking the plane!”" },
+      { "sp": "Paul", "fr": "Tu as ton billet et ton passeport ?", "en": "Have you got your ticket and your passport?" },
+      { "sp": "Léa", "fr": "Oui, papa ! Ce soir, on est au Canada…", "en": "Yes, Dad! Tonight we'll be in Canada…" },
+      { "sp": "", "fr": "À midi, l'avion décolle. Lou regarde par la fenêtre : « Au revoir, les voitures, les bus, les motos ! »", "en": "At noon, the plane takes off. Lou looks out of the window: “Bye-bye, cars, buses, motorbikes!”" },
+      { "sp": "Anne", "fr": "À Montréal, il n'y a pas de tram comme à Lyon, mais il y a un métro avec soixante-huit stations.", "en": "In Montréal, there's no tram like in Lyon, but there's a metro with sixty-eight stations." },
+      { "sp": "Paul", "fr": "Parfait. Là-bas, on prend les transports en commun !", "en": "Perfect. Over there, we'll use public transport!" },
+      { "sp": "", "fr": "Sept heures plus tard, l'avion atterrit à Montréal. Il est seulement quatorze heures ici !", "en": "Seven hours later, the plane lands in Montréal. It's only two in the afternoon here!" },
+      { "sp": "", "fr": "À l'arrivée, Antoine [les|les-pron] attend… avec son taxi.", "en": "At Arrivals, Antoine is waiting for them… with his taxi." },
+      { "sp": "Antoine", "fr": "Bienvenue au Québec ! Montez, je conduis !", "en": "Welcome to Quebec! Get in, I'm driving!" },
+      { "sp": "Léa", "fr": "Attention, Antoine conduit vite… Tu as ton permis, au moins ?", "en": "Careful, Antoine drives fast… Have you even got your licence?" },
+      { "sp": "Antoine", "fr": "Bien sûr ! Je suis chauffeur de taxi !", "en": "Of course! I'm a taxi driver!" }
+    ]
+  }
+}

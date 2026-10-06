@@ -1,0 +1,178 @@
+{
+  "id": "u04-plurals",
+  "type": "grammar",
+  "unit": 4,
+  "title": "Les pluriels",
+  "en": "Plurals: one table, two tables — and the exceptions",
+  "intro": "Most French plurals just add a silent **-s**. But some words take **-x**, some change their ending, and a few change completely (*un œil → des yeux*). Here is the complete list of rules.",
+  "cases": [
+    { "id": "plu-s", "label": "most nouns: + s", "rule": "Add **-s**: *une chaise → des chaises*. The **-s** is silent — you hear the plural in the article (*le / la → les*)." },
+    { "id": "plu-same", "label": "-s, -x, -z: no change", "rule": "Nouns already ending in **-s, -x, -z** stay the same: *un tapis → des tapis, un fils → des fils, un prix → des prix, un nez → des nez*." },
+    { "id": "plu-x", "label": "-eau, -eu: + x", "rule": "Nouns in **-eau** and **-eu** add **-x**: *un bureau → des bureaux, un rideau → des rideaux, un jeu → des jeux*." },
+    { "id": "plu-al", "label": "-al → -aux", "rule": "Nouns in **-al** change to **-aux**: *un journal → des journaux, un animal → des animaux*. You hear it: /a.ni.mal/ → /a.ni.mo/." },
+    { "id": "plu-ou", "label": "-ou: + s (7 words + x)", "rule": "Nouns in **-ou** add **-s** (*un trou → des trous*), except 7 that take **-x**: *bijou, caillou, chou, genou, hibou, joujou, pou* (*des bijoux*)." },
+    { "id": "plu-irregular", "label": "irregular plurals", "rule": "A few change completely: *un œil → des yeux, monsieur → messieurs, madame → mesdames*." },
+    { "id": "plu-adj", "label": "adjectives follow the same rules", "rule": "Adjectives agree too: *petit → petits, beau → beaux*. If they already end in **-s / -x**, no change: *vieux → vieux*." }
+  ],
+  "sections": [
+    {
+      "title": "1. Most nouns: add a silent -s",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["un lit", "des lits"],
+          ["une chaise", "des chaises"],
+          ["une armoire", "des armoires"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a deux {chaises|plu-s} dans la cuisine.", "en": "There are two chairs in the kitchen." },
+        { "fr": "Les {lits|plu-s} sont dans les chambres.", "en": "The beds are in the bedrooms." }
+      ],
+      "tip": "You can't hear the **-s**, so listen for the article: *la chaise* /la/ → *les chaises* /le/. Before a vowel, you hear a link: *des‿armoires* /de.zaʁ.mwaʁ/."
+    },
+    {
+      "title": "2. Ending in -s, -x or -z: no change",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["un tapis", "des tapis"],
+          ["un fils", "des fils"],
+          ["un prix", "des prix"],
+          ["un nez", "des nez"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a trois {tapis|plu-same} dans le salon.", "en": "There are three rugs in the living room." },
+        { "fr": "Paul a deux {fils|plu-same}.", "en": "Paul has two sons." }
+      ]
+    },
+    {
+      "title": "3. -eau and -eu: add -x",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["un bureau", "des bureaux"],
+          ["un tableau", "des tableaux"],
+          ["un rideau", "des rideaux"],
+          ["un jeu", "des jeux"],
+          ["un cheveu", "des cheveux"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a des {tableaux|plu-x} au mur.", "en": "There are paintings on the wall." },
+        { "fr": "Lou aime les {jeux|plu-x}.", "en": "Lou loves games." }
+      ],
+      "tip": "The **-x** is silent too: *bureau* and *bureaux* sound the same."
+    },
+    {
+      "title": "4. -al becomes -aux",
+      "table": {
+        "head": ["One", "Several", "Sounds"], "frCols": [0, 1],
+        "rows": [
+          ["un journal", "des journaux", "/ʒuʁ.nal/ → /ʒuʁ.no/"],
+          ["un animal", "des animaux", "/a.ni.mal/ → /a.ni.mo/"],
+          ["un cheval", "des chevaux", "/ʃə.val/ → /ʃə.vo/"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'aime les {animaux|plu-al}.", "en": "I love animals." },
+        { "fr": "Il y a des {journaux|plu-al} sur la table.", "en": "There are newspapers on the table." }
+      ],
+      "tip": "This plural you can **hear**. (A few exceptions just add **-s**, like *un festival → des festivals*.)"
+    },
+    {
+      "title": "5. -ou: usually -s, but 7 words take -x",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["un trou", "des trous"],
+          ["un bijou", "des bijoux"],
+          ["un genou", "des genoux"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a des {trous|plu-ou} dans le mur.", "en": "There are holes in the wall." },
+        { "fr": "Les {bijoux|plu-ou} sont dans l'armoire.", "en": "The jewellery is in the wardrobe." }
+      ],
+      "tip": "The 7 words with **-oux**: *bijou, caillou, chou, genou, hibou, joujou, pou* (jewel, pebble, cabbage, knee, owl, toy, louse). French children learn them by heart!"
+    },
+    {
+      "title": "6. Irregular plurals",
+      "table": {
+        "head": ["One", "Several", "English"], "frCols": [0, 1],
+        "rows": [
+          ["un œil", "des yeux", "eye · eyes"],
+          ["monsieur", "messieurs", "sir · gentlemen"],
+          ["madame", "mesdames", "madam · ladies"]
+        ]
+      },
+      "examples": [
+        { "fr": "Lou a les {yeux|plu-irregular} bleus.", "en": "Lou has blue eyes." },
+        { "fr": "Bonjour, {mesdames|plu-irregular} et {messieurs|plu-irregular} !", "en": "Hello, ladies and gentlemen!" }
+      ]
+    },
+    {
+      "title": "7. Adjectives follow the same rules",
+      "table": {
+        "head": ["One", "Several"], "frCols": [0, 1],
+        "rows": [
+          ["Le lit est petit.", "Les lits sont petits."],
+          ["Le tableau est beau.", "Les tableaux sont beaux."],
+          ["Le fauteuil est vieux.", "Les fauteuils sont vieux."]
+        ]
+      },
+      "examples": [
+        { "fr": "Les chambres sont {petites|plu-adj}.", "en": "The bedrooms are small." },
+        { "fr": "Les fauteuils sont {vieux|plu-adj}.", "en": "The armchairs are old." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "des bureaus", "right": "des bureaux", "why": "**-eau → -eaux**." },
+    { "wrong": "des animals", "right": "des animaux", "why": "**-al → -aux**." },
+    { "wrong": "des tapiss", "right": "des tapis", "why": "Words ending in **-s** don't change." },
+    { "wrong": "des œils", "right": "des yeux", "why": "**œil → yeux** is completely irregular." },
+    { "wrong": "Les tableaux sont beau.", "right": "Les tableaux sont beaux.", "why": "The adjective is plural too: **beau → beaux**." }
+  ],
+  "story": {
+    "title": "Le vide-grenier",
+    "en": "Sunday flea market: Léa and Sophie shop for the new flat.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche, il y a un vide-grenier dans la rue.", "en": "On Sunday there's a flea market in the street." },
+      { "sp": "", "fr": "On vend des {meubles|plu-s}, des {jeux|plu-x}, des {bijoux|plu-ou} et des {journaux|plu-al}.", "en": "People are selling furniture, games, jewellery and newspapers." },
+      { "sp": "Sophie", "fr": "Regarde, Léa ! Des {rideaux|plu-x} pour nos fenêtres !", "en": "Look, Léa! Curtains for our windows!" },
+      { "sp": "Léa", "fr": "Et des {tapis|plu-same} ! Ils sont très {jolis|plu-adj}.", "en": "And rugs! They're really pretty." },
+      { "sp": "Le vendeur", "fr": "Bonjour, {mesdames|plu-irregular} ! J'ai aussi des {tableaux|plu-x} et des {bureaux|plu-x}.", "en": "Hello, ladies! I also have paintings and desks." },
+      { "sp": "Léa", "fr": "Combien coûtent les {lampes|plu-s} ?", "en": "How much are the lamps?" },
+      { "sp": "Le vendeur", "fr": "Cinq euros. Et les {chaises|plu-s} sont à dix euros.", "en": "Five euros. And the chairs are ten euros." },
+      { "sp": "Sophie", "fr": "Oh, regarde : des petits {animaux|plu-al} en bois pour Lou !", "en": "Oh, look: little wooden animals for Lou!" },
+      { "sp": "", "fr": "Hugo arrive.", "en": "Hugo arrives." },
+      { "sp": "Hugo", "fr": "Salut, les filles ! Vous avez beaucoup de choses !", "en": "Hi, girls! You've got lots of things!" },
+      { "sp": "Léa", "fr": "Oui ! Des rideaux, deux tapis, une lampe… et des {bijoux|plu-ou} pour maman.", "en": "Yes! Curtains, two rugs, a lamp… and jewellery for mum." },
+      { "sp": "Hugo", "fr": "Et pour moi ?", "en": "And for me?" },
+      { "sp": "Sophie", "fr": "Pour toi, il y a des {jeux|plu-x} et des {journaux|plu-al} !", "en": "For you, there are games and newspapers!" },
+      { "sp": "Hugo", "fr": "Ah… des {vieux|plu-adj} journaux. Merci !", "en": "Ah… old newspapers. Thanks!" },
+      { "sp": "", "fr": "Le vendeur regarde Hugo avec de grands {yeux|plu-irregular}.", "en": "The seller looks at Hugo with wide eyes." }
+    ]
+  },
+  "quiz": [
+    { "case": "plu-s", "type": "mc", "q": "Il y a deux ___ dans la cuisine.", "en": "There are two chairs in the kitchen.", "options": ["chaises", "chaise"], "answer": "chaises" },
+    { "case": "plu-s", "type": "type", "q": "Les ___ sont dans la chambre.", "en": "The beds are in the bedroom.", "answer": "lits" },
+    { "case": "plu-same", "type": "mc", "lang": "en", "q": "What's the plural of « un tapis »?", "options": ["des tapis", "des tapiss", "des tapix"], "answer": "des tapis", "say": "des tapis" },
+    { "case": "plu-same", "type": "type", "q": "Paul a deux ___.", "en": "Paul has two sons.", "answer": "fils" },
+    { "case": "plu-x", "type": "mc", "q": "Il y a deux ___ dans la classe.", "en": "There are two desks in the classroom.", "options": ["bureaux", "bureaus", "bureau"], "answer": "bureaux" },
+    { "case": "plu-x", "type": "type", "q": "Les ___ sont jolis.", "en": "The curtains are pretty.", "answer": "rideaux" },
+    { "case": "plu-x", "type": "mc", "q": "Lou aime les ___.", "en": "Lou loves games.", "options": ["jeux", "jeus"], "answer": "jeux" },
+    { "case": "plu-al", "type": "mc", "q": "J'aime les ___.", "en": "I love animals.", "options": ["animaux", "animals", "animales"], "answer": "animaux" },
+    { "case": "plu-al", "type": "type", "q": "Il y a des ___ sur la table.", "en": "There are newspapers on the table.", "answer": "journaux" },
+    { "case": "plu-ou", "type": "mc", "q": "Ma mère a beaucoup de ___.", "en": "My mother has lots of jewellery.", "options": ["bijoux", "bijous"], "answer": "bijoux", "why": "**bijou** is one of the 7 words in **-ou** that take **-x**." },
+    { "case": "plu-ou", "type": "mc", "q": "Il y a des ___ dans le mur.", "en": "There are holes in the wall.", "options": ["trous", "troux"], "answer": "trous", "why": "Most words in **-ou** just add **-s**." },
+    { "case": "plu-irregular", "type": "mc", "q": "Lou a les ___ bleus.", "en": "Lou has blue eyes.", "options": ["yeux", "œils", "œil"], "answer": "yeux" },
+    { "case": "plu-irregular", "type": "type", "q": "Bonjour, ___ !", "en": "Hello, ladies!", "answer": "mesdames" },
+    { "case": "plu-adj", "type": "mc", "q": "Les tableaux sont très ___.", "en": "The paintings are very beautiful.", "options": ["beaux", "beau", "beaus"], "answer": "beaux" },
+    { "case": "plu-adj", "type": "type", "q": "Les chambres sont ___.", "en": "The bedrooms are small.", "answer": "petites" },
+    { "case": "plu-adj", "type": "mc", "q": "Les fauteuils sont ___.", "en": "The armchairs are old.", "options": ["vieux", "vieuxs", "vieils"], "answer": "vieux", "why": "**vieux** already ends in **-x**: no change." }
+  ]
+}

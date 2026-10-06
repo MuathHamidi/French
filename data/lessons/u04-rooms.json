@@ -1,0 +1,205 @@
+{
+  "id": "u04-rooms",
+  "type": "vocab",
+  "unit": 4,
+  "title": "Les pièces de la maison",
+  "en": "Rooms of the house",
+  "intro": "20 words for the home: the rooms, the parts of a house, and two adjectives to describe them. Remember the colours: blue = masculine, pink = feminine.",
+  "words": [
+    { "id": "maison", "fr": "maison", "pos": "noun", "g": "f", "ipa": "mɛ.zɔ̃", "en": "house; home",
+      "def": "Là où on habite, avec sa famille. Une maison a des pièces, des portes et des fenêtres.", "def_en": "Where you live, with your family. A house has rooms, doors and windows.",
+      "forms": ["maisons"],
+      "examples": [
+        { "fr": "J'habite dans une grande **maison**.", "en": "I live in a big house." },
+        { "fr": "La **maison** de mes grands-parents est à Marseille.", "en": "My grandparents' house is in Marseille." },
+        { "fr": "Je suis à la **maison**.", "en": "I'm at home." }
+      ],
+      "note": "**à la maison** = at home." },
+    { "id": "appartement", "fr": "appartement", "pos": "noun", "g": "m", "ipa": "a.paʁ.tə.mɑ̃", "en": "apartment, flat",
+      "def": "Comme une maison, mais à un étage d'un grand bâtiment.", "def_en": "Like a house, but on one floor of a big building.",
+      "forms": ["appartements"],
+      "examples": [
+        { "fr": "J'habite dans un **appartement** à Paris.", "en": "I live in an apartment in Paris." },
+        { "fr": "L'**appartement** est au troisième étage.", "en": "The apartment is on the third floor." },
+        { "fr": "C'est un petit **appartement** avec deux chambres.", "en": "It's a small apartment with two bedrooms." }
+      ] },
+    { "id": "piece", "fr": "pièce", "pos": "noun", "g": "f", "ipa": "pjɛs", "en": "room (any room)",
+      "def": "Une partie de la maison : la chambre, le salon, la cuisine…", "def_en": "A part of the house: the bedroom, the living room, the kitchen…",
+      "forms": ["pièces"], "accept": ["piece"],
+      "examples": [
+        { "fr": "La maison a cinq **pièces**.", "en": "The house has five rooms." },
+        { "fr": "Il y a combien de **pièces** ?", "en": "How many rooms are there?" },
+        { "fr": "Le salon est une grande **pièce**.", "en": "The living room is a big room." }
+      ],
+      "note": "**une pièce** is any room. **une chambre** is only a bedroom." },
+    { "id": "chambre", "fr": "chambre", "pos": "noun", "g": "f", "ipa": "ʃɑ̃bʁ", "en": "bedroom",
+      "def": "La pièce où on dort, avec un lit.", "def_en": "The room where you sleep, with a bed.",
+      "forms": ["chambres"],
+      "examples": [
+        { "fr": "Ma **chambre** est petite.", "en": "My bedroom is small." },
+        { "fr": "Il y a trois **chambres** dans l'appartement.", "en": "There are three bedrooms in the apartment." },
+        { "fr": "Lou dort dans la **chambre** de ses parents.", "en": "Lou sleeps in her parents' bedroom." }
+      ] },
+    { "id": "salon", "fr": "salon", "pos": "noun", "g": "m", "ipa": "sa.lɔ̃", "en": "living room",
+      "def": "La grande pièce où la famille est ensemble, avec un canapé.", "def_en": "The big room where the family is together, with a sofa.",
+      "forms": ["salons"],
+      "examples": [
+        { "fr": "Le **salon** est très grand.", "en": "The living room is very big." },
+        { "fr": "La famille est dans le **salon**.", "en": "The family is in the living room." },
+        { "fr": "Il y a un canapé dans le **salon**.", "en": "There's a sofa in the living room." }
+      ] },
+    { "id": "cuisine", "fr": "cuisine", "pos": "noun", "g": "f", "ipa": "kɥi.zin", "en": "kitchen; cooking",
+      "def": "La pièce où on prépare à manger.", "def_en": "The room where you make food.",
+      "forms": ["cuisines"],
+      "examples": [
+        { "fr": "Ma mère est dans la **cuisine**.", "en": "My mother is in the kitchen." },
+        { "fr": "La **cuisine** est petite mais jolie.", "en": "The kitchen is small but pretty." },
+        { "fr": "J'aime la **cuisine** française.", "en": "I love French cooking." }
+      ],
+      "note": "**la cuisine** is the kitchen, and also cooking: *la cuisine française*." },
+    { "id": "salle-de-bain", "fr": "salle de bain", "pos": "noun", "g": "f", "ipa": "sal də bɛ̃", "en": "bathroom",
+      "def": "La pièce où on se lave, avec une douche ou une baignoire.", "def_en": "The room where you wash, with a shower or a bath.",
+      "forms": ["salles de bain", "salle de bains", "salles de bains"],
+      "examples": [
+        { "fr": "La **salle de bain** est à l'étage.", "en": "The bathroom is upstairs." },
+        { "fr": "Il y a une douche dans la **salle de bain**.", "en": "There's a shower in the bathroom." },
+        { "fr": "L'appartement a deux **salles de bain**.", "en": "The apartment has two bathrooms." }
+      ],
+      "note": "Also written **salle de bains**. The toilet is often in a separate room: **les toilettes**." },
+    { "id": "toilettes", "fr": "toilettes", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "twa.lɛt", "en": "toilet (the room)",
+      "def": "Une petite pièce. En public, on demande : « Où sont les toilettes ? »", "def_en": "A small room. In public, you ask: “Where is the toilet?”",
+      "examples": [
+        { "fr": "Où sont les **toilettes**, s'il vous plaît ?", "en": "Where is the toilet, please?" },
+        { "fr": "Les **toilettes** sont à côté de la cuisine.", "en": "The toilet is next to the kitchen." },
+        { "fr": "Il y a des **toilettes** au rez-de-chaussée.", "en": "There's a toilet on the ground floor." }
+      ],
+      "note": "Always plural: **les toilettes**. You'll also see **W.-C.**" },
+    { "id": "salle-a-manger", "fr": "salle à manger", "pos": "noun", "g": "f", "ipa": "sal a mɑ̃.ʒe", "en": "dining room",
+      "def": "La pièce où on mange, avec une grande table.", "def_en": "The room where you eat, with a big table.",
+      "forms": ["salles à manger"], "accept": ["salle a manger"],
+      "examples": [
+        { "fr": "On mange dans la **salle à manger**.", "en": "We eat in the dining room." },
+        { "fr": "La **salle à manger** est à côté du salon.", "en": "The dining room is next to the living room." },
+        { "fr": "Il y a une grande table dans la **salle à manger**.", "en": "There's a big table in the dining room." }
+      ] },
+    { "id": "jardin", "fr": "jardin", "pos": "noun", "g": "m", "ipa": "ʒaʁ.dɛ̃", "en": "garden, yard",
+      "def": "Dehors, à côté de la maison : il y a des fleurs et des arbres.", "def_en": "Outside, next to the house: there are flowers and trees.",
+      "forms": ["jardins"],
+      "examples": [
+        { "fr": "Mes grands-parents ont un grand **jardin**.", "en": "My grandparents have a big garden." },
+        { "fr": "Le chien est dans le **jardin**.", "en": "The dog is in the garden." },
+        { "fr": "Il y a des fleurs dans le **jardin**.", "en": "There are flowers in the garden." }
+      ] },
+    { "id": "balcon", "fr": "balcon", "pos": "noun", "g": "m", "ipa": "bal.kɔ̃", "en": "balcony",
+      "def": "Un petit espace dehors, à l'étage, devant une fenêtre.", "def_en": "A small space outside, upstairs, in front of a window.",
+      "forms": ["balcons"],
+      "examples": [
+        { "fr": "L'appartement a un petit **balcon**.", "en": "The apartment has a small balcony." },
+        { "fr": "Je suis sur le **balcon**.", "en": "I'm on the balcony." },
+        { "fr": "Il y a des fleurs sur le **balcon**.", "en": "There are flowers on the balcony." }
+      ] },
+    { "id": "porte", "fr": "porte", "pos": "noun", "g": "f", "ipa": "pɔʁt", "en": "door",
+      "def": "On l'ouvre pour entrer dans une pièce ou dans la maison.", "def_en": "You open it to go into a room or into the house.",
+      "forms": ["portes"],
+      "examples": [
+        { "fr": "La **porte** est ouverte.", "en": "The door is open." },
+        { "fr": "La **porte** de la chambre est fermée.", "en": "The bedroom door is closed." },
+        { "fr": "Il y a quelqu'un à la **porte** !", "en": "There's someone at the door!" }
+      ] },
+    { "id": "fenetre", "fr": "fenêtre", "pos": "noun", "g": "f", "ipa": "fə.nɛtʁ", "en": "window",
+      "def": "Dans le mur, on regarde dehors par la fenêtre.", "def_en": "It's in the wall; you look outside through the window.",
+      "forms": ["fenêtres"], "accept": ["fenetre"],
+      "examples": [
+        { "fr": "La **fenêtre** est ouverte.", "en": "The window is open." },
+        { "fr": "Ma chambre a deux **fenêtres**.", "en": "My bedroom has two windows." },
+        { "fr": "Le chat regarde par la **fenêtre**.", "en": "The cat is looking out of the window." }
+      ] },
+    { "id": "mur", "fr": "mur", "pos": "noun", "g": "m", "ipa": "myʁ", "en": "wall",
+      "def": "Une pièce a quatre murs.", "def_en": "A room has four walls.",
+      "forms": ["murs"],
+      "examples": [
+        { "fr": "Il y a une photo sur le **mur**.", "en": "There's a photo on the wall." },
+        { "fr": "Les **murs** sont très vieux.", "en": "The walls are very old." },
+        { "fr": "Une pièce a quatre **murs**.", "en": "A room has four walls." }
+      ] },
+    { "id": "escalier", "fr": "escalier", "pos": "noun", "g": "m", "ipa": "ɛs.ka.lje", "en": "stairs, staircase",
+      "def": "On le monte pour aller à l'étage.", "def_en": "You go up it to get upstairs.",
+      "forms": ["escaliers"],
+      "examples": [
+        { "fr": "L'**escalier** est à côté de la porte.", "en": "The stairs are next to the door." },
+        { "fr": "Je monte l'**escalier**.", "en": "I go up the stairs." },
+        { "fr": "Lou a peur de l'**escalier**.", "en": "Lou is scared of the stairs." }
+      ],
+      "note": "Often plural too: *les escaliers*." },
+    { "id": "etage", "fr": "étage", "pos": "noun", "g": "m", "ipa": "e.taʒ", "en": "floor, storey",
+      "def": "Dans un grand bâtiment, il y a des étages : le premier, le deuxième, le troisième…", "def_en": "In a big building there are floors: the first, the second, the third…",
+      "forms": ["étages"], "accept": ["etage"],
+      "examples": [
+        { "fr": "Ma chambre est à l'**étage**.", "en": "My bedroom is upstairs." },
+        { "fr": "J'habite au troisième **étage**.", "en": "I live on the third floor." },
+        { "fr": "La maison a deux **étages**.", "en": "The house has two floors." }
+      ],
+      "note": "**à l'étage** = upstairs. In France, **le premier étage** is one floor above the ground floor." },
+    { "id": "rez-de-chaussee", "fr": "rez-de-chaussée", "pos": "noun", "g": "m", "ipa": "ʁe.d(ə).ʃo.se", "en": "ground floor",
+      "def": "L'étage en bas, au niveau de la rue.", "def_en": "The bottom floor, at street level.",
+      "accept": ["rez-de-chaussee", "rez de chaussée"],
+      "examples": [
+        { "fr": "La cuisine est au **rez-de-chaussée**.", "en": "The kitchen is on the ground floor." },
+        { "fr": "J'habite au **rez-de-chaussée**.", "en": "I live on the ground floor." },
+        { "fr": "Au **rez-de-chaussée**, il y a le salon et la cuisine.", "en": "On the ground floor there's the living room and the kitchen." }
+      ],
+      "note": "The **z** of *rez* is silent: /ʁe/." },
+    { "id": "garage", "fr": "garage", "pos": "noun", "g": "m", "ipa": "ɡa.ʁaʒ", "en": "garage",
+      "def": "La pièce pour la voiture.", "def_en": "The room for the car.",
+      "forms": ["garages"],
+      "examples": [
+        { "fr": "La voiture est dans le **garage**.", "en": "The car is in the garage." },
+        { "fr": "Il y a un **garage** à côté de la maison.", "en": "There's a garage next to the house." },
+        { "fr": "Mon père est dans le **garage**.", "en": "My father is in the garage." }
+      ] },
+    { "id": "beau", "fr": "beau", "pos": "adj", "ipa": "bo", "display": "beau, belle", "en": "beautiful, nice-looking",
+      "def": "Très, très joli : une belle maison, un beau jardin.", "def_en": "Very, very pretty: a beautiful house, a beautiful garden.",
+      "extra": "**beau** (m.), **belle** (f.), **beaux**, **belles**. Before a masculine noun starting with a vowel: **bel** (*un bel appartement*). It usually goes **before** the noun.",
+      "forms": ["belle", "beaux", "belles", "bel"], "accept": ["belle"],
+      "examples": [
+        { "fr": "C'est une **belle** maison !", "en": "It's a beautiful house!" },
+        { "fr": "Le jardin est très **beau**.", "en": "The garden is very beautiful." },
+        { "fr": "Ils ont un **bel** appartement.", "en": "They have a beautiful apartment." }
+      ] },
+    { "id": "joli", "fr": "joli", "pos": "adj", "ipa": "ʒɔ.li", "display": "joli(e)", "en": "pretty, nice",
+      "def": "Agréable à regarder : une jolie chambre.", "def_en": "Nice to look at: a pretty bedroom.",
+      "extra": "Feminine **jolie**, plural **jolis / jolies** — all sound the same. It goes **before** the noun: *un joli jardin*.",
+      "forms": ["jolie", "jolis", "jolies"], "accept": ["jolie"],
+      "examples": [
+        { "fr": "Ta chambre est très **jolie** !", "en": "Your bedroom is really pretty!" },
+        { "fr": "C'est un **joli** jardin.", "en": "It's a pretty garden." },
+        { "fr": "Les fenêtres sont **jolies**.", "en": "The windows are pretty." }
+      ] }
+  ],
+  "story": {
+    "title": "L'appartement",
+    "en": "Léa and Sophie visit a flat in Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Léa et son amie Sophie cherchent un appartement à Lyon.", "en": "Léa and her friend Sophie are looking for a flat in Lyon." },
+      { "sp": "", "fr": "Aujourd'hui, elles visitent un appartement avec Madame Martin.", "en": "Today they're visiting a flat with Mrs. Martin." },
+      { "sp": "Mme Martin", "fr": "Bonjour ! L'appartement est au troisième étage. On monte l'escalier !", "en": "Hello! The flat is on the third floor. Up the stairs we go!" },
+      { "sp": "Sophie", "fr": "Au rez-de-chaussée, il y a un café ? C'est super !", "en": "There's a café on the ground floor? That's great!" },
+      { "sp": "", "fr": "Madame Martin ouvre la porte.", "en": "Mrs. Martin opens the door." },
+      { "sp": "Mme Martin", "fr": "Voici l'appartement. Il y a quatre pièces.", "en": "Here's the flat. There are four rooms." },
+      { "sp": "Mme Martin", "fr": "Ici, c'est le salon. Il est grand, avec deux fenêtres.", "en": "This is the living room. It's big, with two windows." },
+      { "sp": "Léa", "fr": "Oh, c'est très joli ! Et il y a des photos sur les murs.", "en": "Oh, it's really pretty! And there are photos on the walls." },
+      { "sp": "Mme Martin", "fr": "Et voici le balcon ! À côté du salon, il y a la cuisine.", "en": "And here's the balcony! Next to the living room is the kitchen." },
+      { "sp": "Sophie", "fr": "Il n'y a pas de salle à manger ?", "en": "Isn't there a dining room?" },
+      { "sp": "Mme Martin", "fr": "Non, mais la cuisine est grande : on mange dans la cuisine.", "en": "No, but the kitchen is big: you eat in the kitchen." },
+      { "sp": "Mme Martin", "fr": "Il y a aussi deux chambres, une salle de bain et des toilettes.", "en": "There are also two bedrooms, a bathroom and a toilet." },
+      { "sp": "Léa", "fr": "Deux chambres : une pour moi et une pour toi, Sophie !", "en": "Two bedrooms: one for me and one for you, Sophie!" },
+      { "sp": "Sophie", "fr": "Et il y a un jardin ? Un garage ?", "en": "And is there a garden? A garage?" },
+      { "sp": "Mme Martin", "fr": "Ah non, ce n'est pas une maison ! Pas de jardin, pas de garage.", "en": "Oh no, it's not a house! No garden, no garage." },
+      { "sp": "Léa", "fr": "Ce n'est pas grave. L'appartement est très beau !", "en": "That doesn't matter. The flat is very beautiful!" },
+      { "sp": "Sophie", "fr": "Oui ! J'aime beaucoup le balcon.", "en": "Yes! I really like the balcony." },
+      { "sp": "Mme Martin", "fr": "Alors, c'est oui ?", "en": "So, is that a yes?" },
+      { "sp": "Léa et Sophie", "fr": "Oui !", "en": "Yes!" }
+    ]
+  }
+}

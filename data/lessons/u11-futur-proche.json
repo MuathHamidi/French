@@ -1,0 +1,230 @@
+{
+  "id": "u11-futur-proche",
+  "type": "grammar",
+  "unit": 11,
+  "title": "Je vais partir",
+  "en": "The near future: aller + infinitive",
+  "intro": "The easiest way to talk about the future: **aller** + a verb in the infinitive, exactly like English *I'm going to…*: *je **vais** partir, il **va** pleuvoir*. You already know the forms of aller, so you already know half of it!",
+  "cases": [
+    { "id": "fp-form", "label": "aller + infinitive", "rule": "The present of **aller** + an **infinitive**: *je vais manger, tu vas partir, nous allons voir, ils vont venir*. Only **aller** changes." },
+    { "id": "fp-neg", "label": "the negative", "rule": "**ne … pas** goes around **aller**: *je **ne** vais **pas** partir*. Same with *jamais* and *plus*." },
+    { "id": "fp-question", "label": "questions", "rule": "Raise your voice (*Tu vas venir ?*), or use **est-ce que** / **qu'est-ce que**: *Qu'est-ce que tu vas faire ?*" },
+    { "id": "fp-reflexive", "label": "reflexive verbs", "rule": "The reflexive pronoun goes **just before the infinitive** and matches the subject: *je vais **me** lever, nous allons **nous** promener*." },
+    { "id": "fp-weather", "label": "il va pleuvoir", "rule": "The weather to come: *il va pleuvoir, il va neiger, il va faire beau*. **il y a** becomes **il va y avoir**." },
+    { "id": "fp-time", "label": "demain, la semaine prochaine…", "rule": "Time words for the future: *demain, ce soir, ce week-end, bientôt, la semaine prochaine, le mois prochain, l'année prochaine, cet été*." },
+    { "id": "fp-dans", "label": "dans + time = in", "rule": "**dans** + a length of time = *in* (from now): *dans deux jours, dans une heure, dans dix minutes*." },
+    { "id": "fp-place", "label": "aller + place or aller + verb", "rule": "**aller + a place** is the present: *je vais au cinéma*. **aller + a verb** is the future: *je vais regarder un film*. Both together are fine: *je vais aller au cinéma*." }
+  ],
+  "sections": [
+    {
+      "title": "1. aller + infinitive",
+      "text": ["Take the present of **aller** and add a verb in the **infinitive** (the dictionary form: *manger, partir, faire…*). It works just like English *I'm going to…*"],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["je vais partir", "I'm going to leave"],
+          ["tu vas partir", "you're going to leave"],
+          ["elle va partir", "she's going to leave"],
+          ["nous allons partir", "we're going to leave"],
+          ["vous allez partir", "you're going to leave"],
+          ["ils vont partir", "they're going to leave"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais manger|fp-form} au restaurant ce soir.", "en": "I'm going to eat at the restaurant tonight." },
+        { "fr": "{Nous allons visiter|fp-form} Montréal.", "en": "We're going to visit Montréal." },
+        { "fr": "{Ils vont arriver|fp-form} à huit heures.", "en": "They're going to arrive at eight o'clock." }
+      ],
+      "tip": "Only **aller** changes. The second verb stays in the infinitive: *ils vont **partir*** (never *ils vont partent*)."
+    },
+    {
+      "title": "2. The negative",
+      "text": ["**ne … pas** goes around the conjugated verb, **aller**. The infinitive comes after it."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne vais pas partir.", "I'm not going to leave."],
+          ["Il ne va pas pleuvoir.", "It isn't going to rain."],
+          ["On ne va jamais finir !", "We're never going to finish!"],
+          ["Je ne vais plus manger de pizza.", "I'm not going to eat pizza any more."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne vais pas partir|fp-neg} cet été.", "en": "I'm not going to go away this summer." },
+        { "fr": "{Elle ne va pas venir|fp-neg} ce soir.", "en": "She isn't going to come tonight." },
+        { "fr": "{On ne va pas jouer|fp-neg} au foot sous la pluie !", "en": "We're not going to play football in the rain!" }
+      ]
+    },
+    {
+      "title": "3. Questions",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu vas venir ?", "Are you going to come?"],
+          ["Est-ce que tu vas venir ?", "Are you going to come?"],
+          ["Qu'est-ce que tu vas faire ?", "What are you going to do?"],
+          ["Où est-ce que vous allez dormir ?", "Where are you going to sleep?"],
+          ["Quand est-ce qu'il va arriver ?", "When is he going to arrive?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu vas venir|fp-question} à la fête ?", "en": "Are you going to come to the party?" },
+        { "fr": "{Qu'est-ce que tu vas faire|fp-question} ce week-end ?", "en": "What are you going to do this weekend?" },
+        { "fr": "{Quand est-ce que vous allez partir|fp-question} ?", "en": "When are you going to leave?" }
+      ],
+      "tip": "In casual speech the question word can go at the end: *Tu vas faire **quoi** ?*"
+    },
+    {
+      "title": "4. Reflexive verbs",
+      "text": ["With a reflexive verb, the pronoun stays **with the infinitive**, just before it, and it matches the subject."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["je vais me lever", "I'm going to get up"],
+          ["tu vas te lever", "you're going to get up"],
+          ["il va se lever", "he's going to get up"],
+          ["nous allons nous lever", "we're going to get up"],
+          ["vous allez vous lever", "you're going to get up"],
+          ["ils vont se lever", "they're going to get up"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais me coucher|fp-reflexive} tôt ce soir.", "en": "I'm going to go to bed early tonight." },
+        { "fr": "{Tu vas te lever|fp-reflexive} à quelle heure ?", "en": "What time are you going to get up?" },
+        { "fr": "Demain, {nous allons nous promener|fp-reflexive} au parc.", "en": "Tomorrow, we're going to go for a walk in the park." }
+      ],
+      "tip": "In the negative, **ne … pas** still goes around **aller**: *je **ne** vais **pas** me lever*."
+    },
+    {
+      "title": "5. The weather tomorrow",
+      "text": ["Weather forecasts love the near future. Notice that **il y a** becomes **il va y avoir**."],
+      "table": {
+        "head": ["Today", "Tomorrow"], "frCols": [0, 1],
+        "rows": [
+          ["Il pleut.", "Il va pleuvoir."],
+          ["Il neige.", "Il va neiger."],
+          ["Il fait beau.", "Il va faire beau."],
+          ["Il y a du vent.", "Il va y avoir du vent."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il va pleuvoir|fp-weather} cet après-midi.", "en": "It's going to rain this afternoon." },
+        { "fr": "Demain, {il va faire beau|fp-weather}.", "en": "Tomorrow, the weather is going to be nice." },
+        { "fr": "{Il va y avoir un orage|fp-weather} ce soir.", "en": "There's going to be a storm tonight." }
+      ]
+    },
+    {
+      "title": "6. Time words for the future",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["demain", "tomorrow"],
+          ["ce soir", "this evening, tonight"],
+          ["ce week-end", "this weekend"],
+          ["bientôt", "soon"],
+          ["la semaine prochaine", "next week"],
+          ["le mois prochain", "next month"],
+          ["l'année prochaine", "next year"],
+          ["cet été", "this summer"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Demain|fp-time}, je vais faire du sport.", "en": "Tomorrow, I'm going to do some sport." },
+        { "fr": "{La semaine prochaine|fp-time}, nous allons partir à Paris.", "en": "Next week, we're going to leave for Paris." },
+        { "fr": "Je vais {bientôt|fp-time} avoir vingt ans.", "en": "I'm soon going to be twenty." }
+      ],
+      "tip": "Short words like **bientôt** often go between **aller** and the infinitive: *je vais bientôt partir*."
+    },
+    {
+      "title": "7. dans + time = in",
+      "text": ["To say *in* ten minutes, *in* two days (from now), use **dans**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["dans dix minutes", "in ten minutes"],
+          ["dans une heure", "in an hour"],
+          ["dans deux jours", "in two days"],
+          ["dans un mois", "in a month"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le train part {dans dix minutes|fp-dans} !", "en": "The train leaves in ten minutes!" },
+        { "fr": "Je vais finir {dans une heure|fp-dans}.", "en": "I'm going to finish in an hour." },
+        { "fr": "{Dans deux mois|fp-dans}, nous allons être à Montréal.", "en": "In two months, we're going to be in Montréal." }
+      ],
+      "tip": "Don't use **en** here: *en deux jours* means *within two days* (how long something takes)."
+    },
+    {
+      "title": "8. aller + place or aller + verb?",
+      "text": ["**aller** + a place is simply the present: *je vais au cinéma* (I'm going to the cinema). **aller** + a verb is the near future. You can even use both: *je vais aller au cinéma*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je vais au cinéma.", "I'm going to the cinema."],
+          ["Je vais regarder un film.", "I'm going to watch a film."],
+          ["Je vais aller au cinéma.", "I'm going to go to the cinema."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais à la piscine|fp-place}.", "en": "I'm going to the pool." },
+        { "fr": "{Je vais nager|fp-place}.", "en": "I'm going to swim." },
+        { "fr": "Samedi, {je vais aller|fp-place} à la plage.", "en": "On Saturday, I'm going to go to the beach." }
+      ],
+      "tip": "*Je vais aller…* may look odd, but it's perfectly normal French."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Ils vont partent.", "right": "Ils vont partir.", "why": "The second verb stays in the infinitive." },
+    { "wrong": "Je vais à manger.", "right": "Je vais manger.", "why": "No **à** between aller and the infinitive." },
+    { "wrong": "Je vais ne pas partir.", "right": "Je ne vais pas partir.", "why": "**ne … pas** goes around **aller**." },
+    { "wrong": "Je me vais lever.", "right": "Je vais me lever.", "why": "The reflexive pronoun goes just before the infinitive." },
+    { "wrong": "Il va pleut.", "right": "Il va pleuvoir.", "why": "Use the infinitive: **pleuvoir**." },
+    { "wrong": "en deux jours (= two days from now)", "right": "dans deux jours", "why": "**dans** + time = in (from now)." }
+  ],
+  "story": {
+    "title": "Les projets de l'été",
+    "en": "At the café downstairs, everyone talks about their summer plans.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Il fait beau. Léa, Sophie, Hugo et Tom prennent un café au café d'en bas.", "en": "The weather's nice. Léa, Sophie, Hugo and Tom are having a coffee at the café downstairs." },
+      { "sp": "Tom", "fr": "{Qu'est-ce que vous allez faire|fp-question} cet été ?", "en": "What are you going to do this summer?" },
+      { "sp": "Léa", "fr": "{Dans deux mois|fp-dans}, {nous allons partir|fp-form} à Montréal : mes parents, Lou et moi !", "en": "In two months, we're going to leave for Montréal: my parents, Lou and me!" },
+      { "sp": "Léa", "fr": "On va voir mon cousin Antoine, et {on va se promener|fp-reflexive} dans la ville.", "en": "We're going to see my cousin Antoine, and we're going to walk around the city." },
+      { "sp": "Sophie", "fr": "Moi, {je vais à Madrid|fp-place} avec Inès. {On va visiter|fp-form} la ville et {on va danser|fp-form} tous les soirs !", "en": "Me, I'm going to Madrid with Inès. We're going to visit the city and we're going to dance every night!" },
+      { "sp": "Tom", "fr": "Et toi, Hugo ? Tu pars à Montréal avec ta famille ?", "en": "And you, Hugo? Are you going to Montréal with your family?" },
+      { "sp": "Hugo", "fr": "En juillet, {je ne vais pas partir|fp-neg} : je dois travailler. Mais {je vais aller|fp-place} à Montréal en août !", "en": "In July, I'm not going to go away: I have to work. But I'm going to go to Montréal in August!" },
+      { "sp": "Léa", "fr": "Hugo, {tu ne vas pas oublier|fp-neg} ton passeport, d'accord ?", "en": "Hugo, you're not going to forget your passport, OK?" },
+      { "sp": "Hugo", "fr": "Mais non ! Et {je vais me lever|fp-reflexive} tôt pour l'avion, promis !", "en": "Of course not! And I'm going to get up early for the plane, I promise!" },
+      { "sp": "Sophie", "fr": "{Il va arriver|fp-form} en retard, c'est sûr…", "en": "He's going to be late, that's for sure…" },
+      { "sp": "Tom", "fr": "Moi, {je vais rentrer|fp-form} en Angleterre {la semaine prochaine|fp-time}, pour voir ma famille.", "en": "I'm going to go back to England next week, to see my family." },
+      { "sp": "Léa", "fr": "Et en Angleterre, {il va faire beau|fp-weather} ?", "en": "And in England, is the weather going to be nice?" },
+      { "sp": "Tom", "fr": "Non ! {Il va pleuvoir|fp-weather}, bien sûr !", "en": "No! It's going to rain, of course!" },
+      { "sp": "Sophie", "fr": "À Madrid, {il va faire très chaud|fp-weather} : quarante degrés !", "en": "In Madrid, it's going to be very hot: forty degrees!" },
+      { "sp": "Hugo", "fr": "Regardez le ciel… {Il va y avoir un orage|fp-weather} ! Vite, on rentre !", "en": "Look at the sky… There's going to be a storm! Quick, let's go inside!" },
+      { "sp": "Léa", "fr": "Pas de panique, Hugo : on va {bientôt|fp-time} être à la maison. Le café d'en bas, c'est sous notre appartement !", "en": "Don't panic, Hugo: we'll soon be home. The café downstairs is right under our flat!" }
+    ]
+  },
+  "quiz": [
+    { "case": "fp-form", "type": "type", "q": "Nous ___ visiter Montréal.", "en": "We're going to visit Montréal.", "answer": "allons" },
+    { "case": "fp-form", "type": "mc", "q": "Ils vont ___ ce soir.", "en": "They're going to arrive this evening.", "options": ["arriver", "arrivent", "arrivé"], "answer": "arriver", "why": "After **aller**, the verb stays in the infinitive." },
+    { "case": "fp-form", "type": "mc", "lang": "en", "q": "How do you say “I'm going to eat”?", "options": ["Je vais manger.", "Je vais à manger.", "Je mange aller."], "answer": "Je vais manger." },
+    { "case": "fp-neg", "type": "mc", "lang": "en", "q": "How do you say “I'm not going to leave”?", "options": ["Je ne vais pas partir.", "Je vais ne pas partir.", "Je ne vais partir pas."], "answer": "Je ne vais pas partir." },
+    { "case": "fp-neg", "type": "type", "q": "Elle ne ___ pas venir ce soir.", "en": "She isn't going to come tonight.", "answer": "va" },
+    { "case": "fp-question", "type": "mc", "q": "Qu'est-ce que tu ___ faire ce week-end ?", "en": "What are you going to do this weekend?", "options": ["vas", "va", "vais"], "answer": "vas" },
+    { "case": "fp-question", "type": "type", "q": "Est-ce que vous ___ venir ?", "en": "Are you going to come?", "answer": "allez" },
+    { "case": "fp-reflexive", "type": "mc", "q": "Je vais ___ coucher tôt.", "en": "I'm going to go to bed early.", "options": ["me", "se", "te"], "answer": "me" },
+    { "case": "fp-reflexive", "type": "type", "q": "Nous allons ___ promener au parc.", "en": "We're going to go for a walk in the park.", "answer": "nous" },
+    { "case": "fp-reflexive", "type": "mc", "lang": "en", "q": "How do you say “I'm going to get up”?", "options": ["Je vais me lever.", "Je me vais lever.", "Je vais lever me."], "answer": "Je vais me lever." },
+    { "case": "fp-weather", "type": "mc", "lang": "en", "q": "How do you say “It's going to rain”?", "options": ["Il va pleuvoir.", "Il va pleut.", "Il pleut aller."], "answer": "Il va pleuvoir." },
+    { "case": "fp-weather", "type": "type", "q": "Demain, il va ___ beau.", "en": "Tomorrow, the weather is going to be nice.", "answer": "faire" },
+    { "case": "fp-weather", "type": "mc", "q": "Ce soir, il va ___ un orage.", "en": "There's going to be a storm tonight.", "options": ["y avoir", "avoir", "être"], "answer": "y avoir", "why": "**il y a** → **il va y avoir**." },
+    { "case": "fp-time", "type": "mc", "lang": "en", "q": "« bientôt » means…", "options": ["soon", "now", "yesterday"], "answer": "soon", "say": "bientôt" },
+    { "case": "fp-time", "type": "type", "q": "L'année ___, je vais aller au Canada.", "en": "Next year, I'm going to go to Canada.", "answer": "prochaine" },
+    { "case": "fp-time", "type": "mc", "lang": "en", "q": "Which one is in the future?", "options": ["la semaine prochaine", "la semaine dernière"], "answer": "la semaine prochaine", "say": "la semaine prochaine" },
+    { "case": "fp-dans", "type": "mc", "lang": "en", "q": "How do you say “in two days” (from now)?", "options": ["dans deux jours", "en deux jours", "à deux jours"], "answer": "dans deux jours" },
+    { "case": "fp-dans", "type": "type", "q": "Le train part ___ dix minutes.", "en": "The train leaves in ten minutes.", "answer": "dans" },
+    { "case": "fp-place", "type": "mc", "lang": "en", "q": "« Je vais nager » means…", "options": ["I'm going to swim.", "I'm going to the pool.", "I swim every day."], "answer": "I'm going to swim.", "say": "Je vais nager." },
+    { "case": "fp-place", "type": "mc", "lang": "en", "q": "« Je vais à la piscine » means…", "options": ["I'm going to the pool.", "I'm going to swim."], "answer": "I'm going to the pool.", "say": "Je vais à la piscine." },
+    { "case": "fp-place", "type": "mc", "lang": "en", "q": "Can you say « Je vais aller à Paris » ?", "options": ["yes: I'm going to go to Paris", "no: you can't use aller twice"], "answer": "yes: I'm going to go to Paris", "say": "Je vais aller à Paris." }
+  ]
+}

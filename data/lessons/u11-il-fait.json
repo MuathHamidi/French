@@ -1,0 +1,237 @@
+{
+  "id": "u11-il-fait",
+  "type": "grammar",
+  "unit": 11,
+  "title": "Il fait beau !",
+  "en": "Talking about the weather, the seasons and dates",
+  "intro": "French talks about the weather with three patterns: **il fait** + adjective (*il fait beau*), the weather verbs (*il pleut, il neige*) and **il y a** + noun (*il y a du vent*). This lesson also covers the temperature, feeling hot or cold, the seasons and dates.",
+  "cases": [
+    { "id": "met-fait", "label": "il fait + adjective", "rule": "For most weather, use **il fait** (from *faire*): *il fait beau, il fait mauvais, il fait chaud, il fait froid, il fait doux*. Also **il fait jour / nuit** (it's light / dark)." },
+    { "id": "met-verb", "label": "il pleut, il neige", "rule": "Rain and snow are verbs, used only with **il**: **il pleut** (pleuvoir), **il neige** (neiger)." },
+    { "id": "met-ilya", "label": "il y a du vent, des nuages", "rule": "With a weather noun, use **il y a** + du / de la / des / un: *il y a du vent, du soleil, des nuages, un orage*." },
+    { "id": "met-degres", "label": "il fait vingt degrés", "rule": "The temperature: **il fait** + number + **degrés**: *il fait vingt degrés*. Below zero, use **moins**: *il fait moins cinq*." },
+    { "id": "met-question", "label": "Quel temps fait-il ?", "rule": "To ask about the weather: **Quel temps fait-il ?** (in speech, *Quel temps il fait ?*). For the temperature: **Il fait combien ?**" },
+    { "id": "met-avoir", "label": "j'ai chaud, j'ai froid", "rule": "For how a **person** feels, use **avoir**: *j'ai chaud, tu as froid*. Never *je suis chaud*! The weather: *il fait chaud*. A thing: *le café est chaud*." },
+    { "id": "met-saison", "label": "au printemps, en été", "rule": "**au printemps**, but **en été, en automne, en hiver**." },
+    { "id": "met-date", "label": "en mai, le quatorze juillet", "rule": "In a month: **en mai** (or *au mois de mai*). A date: **le** + number + month: *le quatorze juillet*. The 1st is **premier**: *le premier mai*." }
+  ],
+  "sections": [
+    {
+      "title": "1. il fait + adjective",
+      "text": ["For most weather, French uses **il fait…** (literally *it makes…*). The **il** is an empty *it*, as in English *it's raining*."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il fait beau.", "The weather's nice."],
+          ["Il fait mauvais.", "The weather's bad."],
+          ["Il fait chaud.", "It's hot."],
+          ["Il fait froid.", "It's cold."],
+          ["Il fait frais.", "It's cool."],
+          ["Il fait doux.", "It's mild."],
+          ["Il fait gris.", "It's grey (overcast)."],
+          ["Il fait jour. Il fait nuit.", "It's light. It's dark."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il fait beau|met-fait} aujourd'hui !", "en": "The weather's lovely today!" },
+        { "fr": "{Il fait froid|met-fait} ce matin.", "en": "It's cold this morning." },
+        { "fr": "En décembre, {il fait nuit|met-fait} à cinq heures.", "en": "In December, it's dark at five o'clock." }
+      ],
+      "tip": "Never use *il est beau* for the weather: it means *he's handsome*!"
+    },
+    {
+      "title": "2. il pleut, il neige",
+      "text": ["Rain and snow have their own verbs, **pleuvoir** and **neiger**. They are only ever used with **il**."],
+      "table": {
+        "head": ["Verb", "Now", "Not now"], "frCols": [0, 1, 2],
+        "rows": [
+          ["pleuvoir", "il pleut", "il ne pleut pas"],
+          ["neiger", "il neige", "il ne neige pas"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il pleut|met-verb} ! Prends ton parapluie.", "en": "It's raining! Take your umbrella." },
+        { "fr": "{Il neige|met-verb} à la montagne.", "en": "It's snowing in the mountains." },
+        { "fr": "{Il ne pleut pas|met-verb} aujourd'hui.", "en": "It isn't raining today." }
+      ],
+      "tip": "The nouns are **la pluie** and **la neige**: *J'aime la neige* (I like snow)."
+    },
+    {
+      "title": "3. il y a + a weather noun",
+      "text": ["With a noun, use **il y a** (there is) with **du, de la, des** or **un**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il y a du vent.", "It's windy."],
+          ["Il y a du soleil.", "It's sunny."],
+          ["Il y a des nuages.", "It's cloudy."],
+          ["Il y a de la neige.", "There's snow (on the ground)."],
+          ["Il y a un orage.", "There's a storm."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il y a du vent|met-ilya} sur le balcon.", "en": "It's windy on the balcony." },
+        { "fr": "{Il y a des nuages|met-ilya} dans le ciel.", "en": "There are clouds in the sky." },
+        { "fr": "Ce soir, {il y a un orage|met-ilya}.", "en": "There's a storm this evening." }
+      ],
+      "tip": "In the negative, **du** and **des** become **de**: *il n'y a **pas de** vent, il n'y a **pas de** nuages*."
+    },
+    {
+      "title": "4. The temperature",
+      "text": ["Give the temperature with **il fait** + a number + **degrés**. Below zero, use **moins** (minus)."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il fait vingt degrés.", "It's 20 °C."],
+          ["Il fait trente-deux degrés !", "It's 32 °C!"],
+          ["Il fait zéro degré.", "It's 0 °C."],
+          ["Il fait moins cinq.", "It's minus 5 °C."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il fait vingt-cinq degrés|met-degres} à Marseille.", "en": "It's twenty-five degrees in Marseille." },
+        { "fr": "{Il fait moins dix|met-degres} ce matin !", "en": "It's minus ten this morning!" },
+        { "fr": "{La température est de quinze degrés|met-degres}.", "en": "The temperature is fifteen degrees." }
+      ],
+      "tip": "**zéro degré** is singular; from two upwards, it's **degrés**."
+    },
+    {
+      "title": "5. Asking about the weather",
+      "table": {
+        "head": ["Question", "When"], "frCols": [0],
+        "rows": [
+          ["Quel temps fait-il ?", "the standard question"],
+          ["Quel temps il fait ?", "everyday speech"],
+          ["Il fait beau ?", "a yes / no question"],
+          ["Il fait combien ?", "the temperature (speech)"],
+          ["Quelle est la température ?", "the temperature"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quel temps fait-il|met-question} à Montréal ?", "en": "What's the weather like in Montréal?" },
+        { "fr": "{Quel temps il fait|met-question} chez toi ?", "en": "What's the weather like where you are?" },
+        { "fr": "{Il fait combien|met-question} aujourd'hui ?", "en": "What's the temperature today?" }
+      ],
+      "tip": "Answer with the same verb: *Quel temps fait-il ?* → ***Il fait** beau.*"
+    },
+    {
+      "title": "6. Feeling hot or cold: avoir chaud, avoir froid",
+      "text": ["For a **person**, French says *I have hot, I have cold*: **avoir chaud, avoir froid**. Using **être** here is a classic mistake: *je suis chaud* doesn't mean what you think!"],
+      "table": {
+        "head": ["Who / what", "French", "English"], "frCols": [1],
+        "rows": [
+          ["the weather", "Il fait chaud.", "It's hot."],
+          ["a person", "J'ai chaud.", "I'm hot."],
+          ["a thing", "Le café est chaud.", "The coffee is hot."],
+          ["the weather", "Il fait froid.", "It's cold."],
+          ["a person", "Tu as froid ?", "Are you cold?"],
+          ["a thing", "L'eau est froide.", "The water is cold."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai froid|met-avoir} : tu fermes la fenêtre ?", "en": "I'm cold: can you close the window?" },
+        { "fr": "{Tu as chaud|met-avoir} ? Enlève ton pull !", "en": "Are you hot? Take your jumper off!" },
+        { "fr": "Il fait trente degrés et {nous avons chaud|met-avoir}.", "en": "It's thirty degrees and we're hot." }
+      ],
+      "tip": "It's the same pattern as **avoir faim** (to be hungry) and **avoir soif** (to be thirsty)."
+    },
+    {
+      "title": "7. The seasons: au printemps, en été",
+      "table": {
+        "head": ["Season", "In…"], "frCols": [0, 1],
+        "rows": [
+          ["le printemps", "au printemps"],
+          ["l'été", "en été"],
+          ["l'automne", "en automne"],
+          ["l'hiver", "en hiver"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Au printemps|met-saison}, il y a des fleurs.", "en": "In spring, there are flowers." },
+        { "fr": "{En été|met-saison}, il fait chaud.", "en": "In summer, it's hot." },
+        { "fr": "{En hiver|met-saison}, il neige à Montréal.", "en": "In winter, it snows in Montréal." }
+      ],
+      "tip": "**printemps** starts with a consonant, so it takes **au**. The other three start with a vowel and take **en**, with a liaison: *en‿été, en‿automne, en‿hiver*."
+    },
+    {
+      "title": "8. Months and dates",
+      "text": ["**In** a month: **en** (or *au mois de*). **On** a date: **le** + number + month. The 1st is **le premier**; every other day is just the number: *le deux, le trois…* Months have no capital letter."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["en mai", "in May"],
+          ["au mois de mai", "in (the month of) May"],
+          ["le premier mai", "the first of May"],
+          ["le huit mai", "the eighth of May"],
+          ["le quatorze juillet", "the fourteenth of July"],
+          ["On est le combien ?", "What's the date?"],
+          ["On est le trois mars.", "It's the third of March."]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon anniversaire est {en avril|met-date}.", "en": "My birthday is in April." },
+        { "fr": "{Le quatorze juillet|met-date}, c'est la fête nationale.", "en": "The fourteenth of July is the national holiday." },
+        { "fr": "{On est le combien|met-date} aujourd'hui ? {On est le premier mars|met-date}.", "en": "What's the date today? It's the first of March." }
+      ],
+      "tip": "No word for *on*: *le premier mai* = **on** the first of May. And no *-th*: just *le dix*, not *le dixième*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il est froid. (the weather)", "right": "Il fait froid.", "why": "For the weather, use **faire**." },
+    { "wrong": "Je suis chaud.", "right": "J'ai chaud.", "why": "For a person: **avoir** chaud / froid." },
+    { "wrong": "Il fait pluie.", "right": "Il pleut.", "why": "Rain is a verb: **il pleut**." },
+    { "wrong": "en printemps", "right": "au printemps", "why": "*printemps* takes **au**." },
+    { "wrong": "le un mai", "right": "le premier mai", "why": "The 1st is **premier**." },
+    { "wrong": "en Janvier", "right": "en janvier", "why": "Months take no capital letter." }
+  ],
+  "story": {
+    "title": "La météo de Tom",
+    "en": "Tom has to present the weather forecast in French class.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Au cours de français, Marc demande à Tom de présenter la météo… en français !", "en": "In French class, Marc asks Tom to present the weather forecast… in French!" },
+      { "sp": "Tom", "fr": "Bonjour à tous ! {Nous sommes le douze avril|met-date}. Voici la météo.", "en": "Hello everyone! It's the twelfth of April. Here's the weather forecast." },
+      { "sp": "Tom", "fr": "{Au printemps|met-saison}, le temps change beaucoup. Regardons la carte de France !", "en": "In spring, the weather changes a lot. Let's look at the map of France!" },
+      { "sp": "Tom", "fr": "À Paris, {il pleut|met-verb} toute la journée.", "en": "In Paris, it's raining all day." },
+      { "sp": "Tom", "fr": "À Lille, {il y a du vent et des nuages|met-ilya}.", "en": "In Lille, it's windy and cloudy." },
+      { "sp": "Tom", "fr": "À Lyon, {il fait beau|met-fait} : {il fait vingt degrés|met-degres}.", "en": "In Lyon, the weather's nice: it's twenty degrees." },
+      { "sp": "Tom", "fr": "À Marseille, {il fait chaud|met-fait} : vingt-six degrés !", "en": "In Marseille, it's hot: twenty-six degrees!" },
+      { "sp": "Tom", "fr": "Et à la montagne, {il neige|met-verb} encore. {Il fait moins deux|met-degres}.", "en": "And in the mountains, it's still snowing. It's minus two." },
+      { "sp": "Marc", "fr": "Merci, Tom ! Une question : {quel temps fait-il|met-question} à Londres ?", "en": "Thank you, Tom! A question: what's the weather like in London?" },
+      { "sp": "Tom", "fr": "À Londres ? {Il pleut|met-verb}, bien sûr ! {En été|met-saison}, {en automne|met-saison}, {en hiver|met-saison}… il pleut toujours !", "en": "In London? It's raining, of course! In summer, in autumn, in winter… it always rains!" },
+      { "sp": "Léa", "fr": "Et {il fait combien|met-question} à Londres ?", "en": "And what's the temperature in London?" },
+      { "sp": "Tom", "fr": "Onze degrés. {Il fait frais|met-fait}.", "en": "Eleven degrees. It's cool." },
+      { "sp": "Marc", "fr": "Très bien ! Mais Tom, tu es tout rouge…", "en": "Very good! But Tom, you've gone all red…" },
+      { "sp": "Tom", "fr": "Oui, {j'ai chaud|met-avoir} ! Je suis stressé…", "en": "Yes, I'm hot! I'm stressed…" },
+      { "sp": "Léa", "fr": "Et moi, {j'ai froid|met-avoir} : la fenêtre est ouverte !", "en": "And I'm cold: the window's open!" },
+      { "sp": "Marc", "fr": "Dernière question : ton anniversaire, c'est quand ?", "en": "Last question: when's your birthday?" },
+      { "sp": "Tom", "fr": "C'est {le premier juin|met-date}. {En juin|met-date}, {il fait toujours beau|met-fait} !", "en": "It's on the first of June. In June, the weather's always nice!" },
+      { "sp": "Marc", "fr": "Même à Londres ?", "en": "Even in London?" },
+      { "sp": "Tom", "fr": "Euh… non.", "en": "Er… no." }
+    ]
+  },
+  "quiz": [
+    { "case": "met-fait", "type": "mc", "lang": "en", "q": "How do you say “The weather's nice”?", "options": ["Il fait beau.", "Il est beau.", "C'est beau temps."], "answer": "Il fait beau.", "why": "Weather = **il fait** + adjective. *Il est beau* means *he's handsome*." },
+    { "case": "met-fait", "type": "type", "q": "Il ___ froid ce matin.", "en": "It's cold this morning.", "answer": "fait" },
+    { "case": "met-fait", "type": "mc", "lang": "en", "q": "How do you say “It's dark” (night has come)?", "options": ["Il fait nuit.", "Il est nuit.", "C'est nuit."], "answer": "Il fait nuit." },
+    { "case": "met-verb", "type": "mc", "lang": "en", "q": "How do you say “It's raining”?", "options": ["Il pleut.", "Il fait pluie.", "Il y a pleut."], "answer": "Il pleut." },
+    { "case": "met-verb", "type": "type", "q": "Il ___ à la montagne.", "en": "It's snowing in the mountains.", "answer": "neige" },
+    { "case": "met-ilya", "type": "mc", "q": "Il y a ___ vent.", "en": "It's windy.", "options": ["du", "de la", "des"], "answer": "du" },
+    { "case": "met-ilya", "type": "mc", "q": "Il y a ___ nuages.", "en": "It's cloudy.", "options": ["des", "du", "un"], "answer": "des" },
+    { "case": "met-ilya", "type": "type", "q": "Il n'y a pas ___ vent.", "en": "It isn't windy.", "answer": "de", "why": "After **pas**, du / de la / des become **de**." },
+    { "case": "met-degres", "type": "mc", "lang": "en", "q": "How do you say “It's twenty degrees”?", "options": ["Il fait vingt degrés.", "Il est vingt degrés.", "Il a vingt degrés."], "answer": "Il fait vingt degrés." },
+    { "case": "met-degres", "type": "mc", "lang": "en", "listen": "Il fait treize degrés.", "q": "Listen: what's the temperature?", "options": ["13 °C", "30 °C", "3 °C"], "answer": "13 °C" },
+    { "case": "met-degres", "type": "mc", "lang": "en", "q": "How do you say “It's minus five”?", "options": ["Il fait moins cinq.", "Il fait sous cinq.", "Il fait cinq moins."], "answer": "Il fait moins cinq." },
+    { "case": "met-question", "type": "mc", "lang": "en", "q": "How do you ask “What's the weather like?”", "options": ["Quel temps fait-il ?", "Quel temps est-il ?", "Quelle heure est-il ?"], "answer": "Quel temps fait-il ?" },
+    { "case": "met-question", "type": "type", "q": "Quel temps ___-il à Paris ?", "en": "What's the weather like in Paris?", "answer": "fait" },
+    { "case": "met-question", "type": "mc", "lang": "en", "q": "How do you ask about the temperature?", "options": ["Quelle est la température ?", "Quelle heure est-il ?", "Quel âge as-tu ?"], "answer": "Quelle est la température ?" },
+    { "case": "met-avoir", "type": "mc", "lang": "en", "q": "How do you say “I'm cold”?", "options": ["J'ai froid.", "Je suis froid.", "Il fait froid."], "answer": "J'ai froid.", "why": "For a person, use **avoir**: *j'ai froid*." },
+    { "case": "met-avoir", "type": "type", "q": "Tu ___ chaud ? Enlève ton pull !", "en": "Are you hot? Take your jumper off!", "answer": "as" },
+    { "case": "met-saison", "type": "mc", "q": "___ printemps, il fait doux.", "en": "In spring, it's mild.", "options": ["Au", "En", "Le"], "answer": "Au" },
+    { "case": "met-saison", "type": "mc", "q": "___ hiver, il neige.", "en": "In winter, it snows.", "options": ["En", "Au", "À"], "answer": "En" },
+    { "case": "met-saison", "type": "type", "q": "Il fait chaud ___ été.", "en": "It's hot in summer.", "answer": "en" },
+    { "case": "met-date", "type": "mc", "lang": "en", "q": "How do you say “the first of May”?", "options": ["le premier mai", "le un mai", "le une mai"], "answer": "le premier mai" },
+    { "case": "met-date", "type": "mc", "q": "Mon anniversaire est ___ avril.", "en": "My birthday is in April.", "options": ["en", "à", "au"], "answer": "en" },
+    { "case": "met-date", "type": "type", "q": "C'est ___ quatorze juillet.", "en": "It's the fourteenth of July.", "answer": "le" }
+  ]
+}

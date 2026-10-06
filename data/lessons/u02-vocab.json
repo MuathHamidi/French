@@ -1,0 +1,359 @@
+{
+  "id": "u02-vocab",
+  "type": "vocab",
+  "unit": 2,
+  "title": "La famille",
+  "en": "Family",
+  "intro": "25 words to talk about your family. Learn every noun **with its article** (*le père, la mère*): the colour shows the gender — blue for masculine, pink for feminine.",
+  "words": [
+    {
+      "id": "famille", "fr": "famille", "pos": "noun", "g": "f", "ipa": "fa.mij",
+      "en": "family",
+      "def": "Le groupe des parents, des enfants et des grands-parents.",
+      "def_en": "The group of parents, children and grandparents.",
+      "forms": ["familles"],
+      "examples": [
+        { "fr": "Voici ma **famille** !", "en": "Here's my family!" },
+        { "fr": "J'aime ma **famille**.", "en": "I love my family." },
+        { "fr": "La **famille** de Léa habite à Paris.", "en": "Léa's family lives in Paris." }
+      ],
+      "note": "The **ll** sounds like “y”: /famij/."
+    },
+    {
+      "id": "parents", "fr": "parents", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "pa.ʁɑ̃",
+      "en": "parents",
+      "def": "Le père et la mère.",
+      "def_en": "The father and the mother.",
+      "forms": ["parent"],
+      "examples": [
+        { "fr": "Mes **parents** sont à Lyon.", "en": "My parents are in Lyon." },
+        { "fr": "Tes **parents** s'appellent comment ?", "en": "What are your parents' names?" },
+        { "fr": "Ses **parents** sont très gentils.", "en": "His parents are very kind." }
+      ],
+      "note": "**des parents** can also mean “relatives”: *J'ai des parents au Canada* = I have relatives in Canada."
+    },
+    {
+      "id": "pere", "fr": "père", "pos": "noun", "g": "m", "ipa": "pɛʁ",
+      "en": "father",
+      "def": "L'homme qui a un enfant. C'est le papa.",
+      "def_en": "The man who has a child. He's the dad.",
+      "forms": ["pères"],
+      "accept": ["pere"],
+      "examples": [
+        { "fr": "Mon **père** s'appelle Paul.", "en": "My father's name is Paul." },
+        { "fr": "Le **père** de Hugo est professeur.", "en": "Hugo's father is a teacher." },
+        { "fr": "Voici mon **père** et ma mère.", "en": "Here are my father and my mother." }
+      ]
+    },
+    {
+      "id": "mere", "fr": "mère", "pos": "noun", "g": "f", "ipa": "mɛʁ",
+      "en": "mother",
+      "def": "La femme qui a un enfant. C'est la maman.",
+      "def_en": "The woman who has a child. She's the mum.",
+      "forms": ["mères"],
+      "accept": ["mere"],
+      "examples": [
+        { "fr": "Ma **mère** est française.", "en": "My mother is French." },
+        { "fr": "La **mère** de Léa s'appelle Anne.", "en": "Léa's mother is called Anne." },
+        { "fr": "J'aime ma **mère**.", "en": "I love my mother." }
+      ]
+    },
+    {
+      "id": "mari", "fr": "mari", "pos": "noun", "g": "m", "ipa": "ma.ʁi",
+      "en": "husband",
+      "def": "L'homme avec qui une femme est mariée.",
+      "def_en": "The man a woman is married to.",
+      "forms": ["maris"],
+      "examples": [
+        { "fr": "Voici mon **mari**, Marc.", "en": "This is my husband, Marc." },
+        { "fr": "Son **mari** est canadien.", "en": "Her husband is Canadian." },
+        { "fr": "Le **mari** de ma sœur est très gentil.", "en": "My sister's husband is very kind." }
+      ]
+    },
+    {
+      "id": "femme", "fr": "femme", "pos": "noun", "g": "f", "ipa": "fam",
+      "en": "wife; woman",
+      "def": "Le contraire de « homme ». Aussi : la personne avec qui un homme est marié.",
+      "def_en": "The opposite of “man”. Also: the person a man is married to.",
+      "forms": ["femmes"],
+      "examples": [
+        { "fr": "Voici ma **femme**, Sophie.", "en": "This is my wife, Sophie." },
+        { "fr": "Sa **femme** est professeur.", "en": "His wife is a teacher." },
+        { "fr": "C'est une **femme** très gentille.", "en": "She's a very kind woman." }
+      ],
+      "note": "Strange spelling: **femme** sounds like /fam/."
+    },
+    {
+      "id": "enfant", "fr": "enfant", "pos": "noun", "g": "m", "both": true, "ipa": "ɑ̃.fɑ̃",
+      "en": "child",
+      "def": "Une petite personne, un garçon ou une fille. Aussi : le fils ou la fille de quelqu'un.",
+      "def_en": "A small person, a boy or a girl. Also: someone's son or daughter.",
+      "extra": "A girl can be **une enfant**.",
+      "forms": ["enfants"],
+      "accept": ["une enfant"],
+      "examples": [
+        { "fr": "Ils ont deux **enfants**.", "en": "They have two children." },
+        { "fr": "C'est un **enfant** très gentil.", "en": "He's a very nice child." },
+        { "fr": "Les **enfants** sont à l'école.", "en": "The children are at school." }
+      ]
+    },
+    {
+      "id": "fils", "fr": "fils", "pos": "noun", "g": "m", "ipa": "fis",
+      "en": "son",
+      "def": "L'enfant (un garçon) d'un père et d'une mère.",
+      "def_en": "The child (a boy) of a father and a mother.",
+      "examples": [
+        { "fr": "Voici mon **fils**, Hugo.", "en": "This is my son, Hugo." },
+        { "fr": "Leur **fils** est étudiant.", "en": "Their son is a student." },
+        { "fr": "Elle a un **fils** et une fille.", "en": "She has a son and a daughter." }
+      ],
+      "note": "Say /fis/: the **l** is silent and the **s** is pronounced. The plural is the same: *les fils*."
+    },
+    {
+      "id": "fille", "fr": "fille", "pos": "noun", "g": "f", "ipa": "fij",
+      "en": "daughter; girl",
+      "def": "L'enfant (pas un garçon) d'un père et d'une mère. Aussi : le contraire de « garçon ».",
+      "def_en": "The child (not a boy) of a father and a mother. Also: the opposite of “boy”.",
+      "forms": ["filles"],
+      "examples": [
+        { "fr": "Ma **fille** s'appelle Léa.", "en": "My daughter's name is Léa." },
+        { "fr": "Ils ont une **fille** et deux fils.", "en": "They have a daughter and two sons." },
+        { "fr": "La petite **fille** est très contente.", "en": "The little girl is very happy." }
+      ],
+      "note": "**une petite fille** = a little girl, but **une petite-fille** (with a hyphen) = a granddaughter."
+    },
+    {
+      "id": "frere", "fr": "frère", "pos": "noun", "g": "m", "ipa": "fʁɛʁ",
+      "en": "brother",
+      "def": "Un garçon qui a le même père et la même mère que toi.",
+      "def_en": "A boy who has the same father and mother as you.",
+      "forms": ["frères"],
+      "accept": ["frere"],
+      "examples": [
+        { "fr": "J'ai un **frère** et une sœur.", "en": "I have a brother and a sister." },
+        { "fr": "Mon **frère** s'appelle Tom.", "en": "My brother's name is Tom." },
+        { "fr": "Mes **frères** sont grands.", "en": "My brothers are tall." }
+      ]
+    },
+    {
+      "id": "soeur", "fr": "sœur", "pos": "noun", "g": "f", "ipa": "sœʁ",
+      "en": "sister",
+      "def": "Une fille qui a le même père et la même mère que toi.",
+      "def_en": "A girl who has the same father and mother as you.",
+      "forms": ["sœurs"],
+      "accept": ["soeur", "la soeur", "une soeur"],
+      "examples": [
+        { "fr": "Ma **sœur** est mariée.", "en": "My sister is married." },
+        { "fr": "Tu as une **sœur** ?", "en": "Do you have a sister?" },
+        { "fr": "Léa et sa **sœur** sont à Paris.", "en": "Léa and her sister are in Paris." }
+      ],
+      "note": "**œ** is one letter (o and e stuck together). If you can't type it, *soeur* is accepted."
+    },
+    {
+      "id": "bebe", "fr": "bébé", "pos": "noun", "g": "m", "ipa": "be.be",
+      "en": "baby",
+      "def": "Un très petit enfant.",
+      "def_en": "A very small child.",
+      "forms": ["bébés"],
+      "accept": ["bebe"],
+      "examples": [
+        { "fr": "Le **bébé** s'appelle Lou.", "en": "The baby's name is Lou." },
+        { "fr": "Le **bébé** est avec sa mère.", "en": "The baby is with its mother." },
+        { "fr": "Ma sœur a un **bébé** !", "en": "My sister has a baby!" }
+      ],
+      "note": "**le bébé** is always masculine, even for a baby girl."
+    },
+    {
+      "id": "grands-parents", "fr": "grands-parents", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "ɡʁɑ̃.pa.ʁɑ̃",
+      "en": "grandparents",
+      "def": "Le père et la mère de ton père ou de ta mère.",
+      "def_en": "The father and the mother of your father or your mother.",
+      "examples": [
+        { "fr": "Mes **grands-parents** habitent à Marseille.", "en": "My grandparents live in Marseille." },
+        { "fr": "J'aime mes **grands-parents**.", "en": "I love my grandparents." },
+        { "fr": "Les **grands-parents** de Hugo sont canadiens.", "en": "Hugo's grandparents are Canadian." }
+      ]
+    },
+    {
+      "id": "grand-pere", "fr": "grand-père", "pos": "noun", "g": "m", "ipa": "ɡʁɑ̃.pɛʁ",
+      "en": "grandfather",
+      "def": "Le père de ton père ou de ta mère.",
+      "def_en": "The father of your father or your mother.",
+      "forms": ["grands-pères"],
+      "accept": ["grand-pere", "grand pere", "grand père"],
+      "examples": [
+        { "fr": "Mon **grand-père** s'appelle Jacques.", "en": "My grandfather's name is Jacques." },
+        { "fr": "Le **grand-père** de Léa est très gentil.", "en": "Léa's grandfather is very kind." },
+        { "fr": "Mon **grand-père** et ma grand-mère sont mariés.", "en": "My grandfather and my grandmother are married." }
+      ]
+    },
+    {
+      "id": "grand-mere", "fr": "grand-mère", "pos": "noun", "g": "f", "ipa": "ɡʁɑ̃.mɛʁ",
+      "en": "grandmother",
+      "def": "La mère de ton père ou de ta mère.",
+      "def_en": "The mother of your father or your mother.",
+      "forms": ["grands-mères"],
+      "accept": ["grand-mere", "grand mere", "grand mère"],
+      "examples": [
+        { "fr": "Ma **grand-mère** est très jeune !", "en": "My grandmother is very young!" },
+        { "fr": "Voici ma **grand-mère**, Louise.", "en": "This is my grandmother, Louise." },
+        { "fr": "La **grand-mère** de Tom habite à Londres.", "en": "Tom's grandmother lives in London." }
+      ],
+      "note": "**grand-mère** is feminine, but **grand** keeps its masculine form here."
+    },
+    {
+      "id": "oncle", "fr": "oncle", "pos": "noun", "g": "m", "ipa": "ɔ̃kl",
+      "en": "uncle",
+      "def": "Le frère de ton père ou de ta mère.",
+      "def_en": "The brother of your father or your mother.",
+      "forms": ["oncles"],
+      "examples": [
+        { "fr": "Mon **oncle** s'appelle Marc.", "en": "My uncle's name is Marc." },
+        { "fr": "Voici mon **oncle** et ma tante.", "en": "Here are my uncle and my aunt." },
+        { "fr": "L'**oncle** de Sophie est professeur.", "en": "Sophie's uncle is a teacher." }
+      ]
+    },
+    {
+      "id": "tante", "fr": "tante", "pos": "noun", "g": "f", "ipa": "tɑ̃t",
+      "en": "aunt",
+      "def": "La sœur de ton père ou de ta mère.",
+      "def_en": "The sister of your father or your mother.",
+      "forms": ["tantes"],
+      "examples": [
+        { "fr": "Ma **tante** est mariée.", "en": "My aunt is married." },
+        { "fr": "Ma **tante** habite à Montréal.", "en": "My aunt lives in Montreal." },
+        { "fr": "La **tante** de Léa a deux enfants.", "en": "Léa's aunt has two children." }
+      ]
+    },
+    {
+      "id": "cousin", "fr": "cousin", "pos": "noun", "g": "m", "ipa": "ku.zɛ̃",
+      "en": "cousin (male)",
+      "def": "L'enfant de ton oncle et de ta tante.",
+      "def_en": "The child of your uncle and your aunt.",
+      "extra": "A female cousin: **la cousine** /ku.zin/ (you hear the **n**).",
+      "forms": ["cousine", "cousins", "cousines"],
+      "accept": ["cousine", "la cousine", "une cousine"],
+      "examples": [
+        { "fr": "Mon **cousin** s'appelle Hugo.", "en": "My cousin's name is Hugo." },
+        { "fr": "Ma **cousine** est étudiante.", "en": "My cousin (a girl) is a student." },
+        { "fr": "J'ai des **cousins** au Canada.", "en": "I have cousins in Canada." }
+      ]
+    },
+    {
+      "id": "voici", "fr": "voici", "pos": "adv", "ipa": "vwa.si",
+      "en": "here is, here are; this is",
+      "def": "Mot pour montrer une personne ou une chose : « Voici mon frère. »",
+      "def_en": "A word for showing a person or a thing: “This is my brother.”",
+      "extra": "**voilà** means “there is / there you go”, but in speech people often use **voilà** for both.",
+      "examples": [
+        { "fr": "**Voici** ma famille !", "en": "Here's my family!" },
+        { "fr": "**Voici** mon père et ma mère.", "en": "Here are my father and my mother." },
+        { "fr": "**Voici** Léa, une amie.", "en": "This is Léa, a friend." }
+      ]
+    },
+    {
+      "id": "aimer", "fr": "aimer", "pos": "verb", "ipa": "e.me",
+      "en": "to love; to like",
+      "def": "Mot pour dire qu'une personne ou une chose est très importante pour toi : « J'aime ma famille. »",
+      "def_en": "A word for saying that a person or a thing is very important to you: “I love my family.”",
+      "extra": "j'**aime** · tu **aimes** · il/elle **aime** · nous **aimons** · vous **aimez** · ils/elles **aiment**",
+      "forms": ["aime", "aimes", "aimons", "aimez", "aiment", "aimé", "aimais", "aimait", "aimions", "aimiez", "aimaient", "aimerai", "aimeras", "aimera", "aimerons", "aimerez", "aimeront"],
+      "examples": [
+        { "fr": "J'**aime** ma famille.", "en": "I love my family." },
+        { "fr": "Tu **aimes** le café ?", "en": "Do you like coffee?" },
+        { "fr": "Elle **aime** bien Hugo.", "en": "She likes Hugo." }
+      ],
+      "note": "With a person, **aimer** = to love and **aimer bien** = to like. With things, **aimer** = to like."
+    },
+    {
+      "id": "habiter", "fr": "habiter", "pos": "verb", "ipa": "a.bi.te",
+      "en": "to live (in a place)",
+      "def": "Avoir sa maison dans une ville : « J'habite à Paris. »",
+      "def_en": "To have your home in a town: “I live in Paris.”",
+      "extra": "j'**habite** · tu **habites** · il/elle **habite** · nous **habitons** · vous **habitez** · ils/elles **habitent**",
+      "forms": ["habite", "habites", "habitons", "habitez", "habitent", "habitais", "habitait", "habitions", "habitiez", "habitaient", "habité", "habiterai", "habiteras", "habitera", "habiterons", "habiterez", "habiteront"],
+      "examples": [
+        { "fr": "J'**habite** à Paris.", "en": "I live in Paris." },
+        { "fr": "Mes parents **habitent** à Lyon.", "en": "My parents live in Lyon." },
+        { "fr": "Tu **habites** où ?", "en": "Where do you live?" }
+      ],
+      "note": "The **h** is silent, so **je** becomes **j'**: *j'habite*. In *ils habitent*, the **-ent** is silent too."
+    },
+    {
+      "id": "marie-adj", "fr": "marié", "pos": "adj", "ipa": "ma.ʁje", "display": "marié(e)",
+      "en": "married",
+      "def": "Une personne mariée a un mari ou une femme.",
+      "def_en": "A married person has a husband or a wife.",
+      "extra": "A woman: **mariée**. Plural: **mariés**, **mariées** — they all sound the same.",
+      "forms": ["mariée", "mariés", "mariées"],
+      "accept": ["mariée", "marie", "mariee"],
+      "examples": [
+        { "fr": "Ma sœur est **mariée**.", "en": "My sister is married." },
+        { "fr": "Mon frère n'est pas **marié**.", "en": "My brother isn't married." },
+        { "fr": "Ils sont **mariés**.", "en": "They're married." }
+      ]
+    },
+    {
+      "id": "grand", "fr": "grand", "pos": "adj", "ipa": "ɡʁɑ̃", "display": "grand(e)",
+      "en": "tall; big",
+      "def": "Le contraire de « petit ». Mon frère est très grand.",
+      "def_en": "The opposite of “small”. My brother is very tall.",
+      "extra": "Feminine: **grande** — you hear the **d**. **un grand frère** = an older brother.",
+      "forms": ["grande", "grands", "grandes"],
+      "accept": ["grande"],
+      "examples": [
+        { "fr": "Mon frère est très **grand**.", "en": "My brother is very tall." },
+        { "fr": "Ma sœur est **grande**.", "en": "My sister is tall." },
+        { "fr": "J'ai un **grand** frère.", "en": "I have an older brother." }
+      ]
+    },
+    {
+      "id": "petit", "fr": "petit", "pos": "adj", "ipa": "pə.ti", "display": "petit(e)",
+      "en": "small, little; short",
+      "def": "Le contraire de « grand ». Un bébé est petit.",
+      "def_en": "The opposite of “big”. A baby is small.",
+      "extra": "Feminine: **petite** — you hear the **t**. **un petit frère** = a younger brother.",
+      "forms": ["petite", "petits", "petites"],
+      "accept": ["petite"],
+      "examples": [
+        { "fr": "Le bébé est très **petit**.", "en": "The baby is very small." },
+        { "fr": "Ma **petite** sœur s'appelle Lou.", "en": "My little sister's name is Lou." },
+        { "fr": "J'ai deux **petits** frères.", "en": "I have two younger brothers." }
+      ]
+    },
+    {
+      "id": "jeune", "fr": "jeune", "pos": "adj", "ipa": "ʒœn",
+      "en": "young",
+      "def": "Un bébé, un enfant, un étudiant : ils sont jeunes. Le contraire de « vieux ».",
+      "def_en": "A baby, a child, a student: they are young. The opposite of “old”.",
+      "extra": "Same form for masculine and feminine: *un jeune homme, une jeune femme*.",
+      "forms": ["jeunes"],
+      "examples": [
+        { "fr": "Mes parents sont **jeunes**.", "en": "My parents are young." },
+        { "fr": "C'est une **jeune** femme.", "en": "She's a young woman." },
+        { "fr": "Le professeur est très **jeune**.", "en": "The teacher is very young." }
+      ]
+    }
+  ],
+  "story": {
+    "title": "La famille de Léa",
+    "en": "Léa introduces her family.",
+    "lines": [
+      { "fr": "Bonjour ! Je m'appelle Léa. Voici ma famille !", "en": "Hello! My name is Léa. Here's my family!", "br": true },
+      { "fr": "Mon père s'appelle Paul. Il est très grand.", "en": "My father's name is Paul. He's very tall." },
+      { "fr": "Ma mère s'appelle Anne. Elle est canadienne, de Montréal.", "en": "My mother's name is Anne. She's Canadian, from Montreal." },
+      { "fr": "Mes parents sont mariés et ils habitent à Paris.", "en": "My parents are married and they live in Paris.", "br": true },
+      { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister." },
+      { "fr": "Mon frère s'appelle Hugo. Il est étudiant.", "en": "My brother's name is Hugo. He's a student." },
+      { "fr": "Ma petite sœur, Lou, est très jeune : c'est un bébé !", "en": "My little sister, Lou, is very young: she's a baby!", "br": true },
+      { "fr": "Mon oncle et ma tante habitent à Marseille.", "en": "My uncle and my aunt live in Marseille." },
+      { "fr": "Ils ont deux enfants : un fils, Jules, et une fille, Chloé.", "en": "They have two children: a son, Jules, and a daughter, Chloé." },
+      { "fr": "Jules et Chloé sont mes cousins. J'aime beaucoup mes cousins !", "en": "Jules and Chloé are my cousins. I really like my cousins!", "br": true },
+      { "fr": "Le dimanche, toute la famille est chez mes grands-parents.", "en": "On Sundays, the whole family is at my grandparents' house." },
+      { "fr": "Mon grand-père s'appelle Jacques et ma grand-mère s'appelle Louise.", "en": "My grandfather's name is Jacques and my grandmother's name is Louise." },
+      { "fr": "Mon grand-père, c'est le père de mon père.", "en": "My grandfather is my father's father." },
+      { "fr": "Et la femme de mon oncle, c'est ma tante. Le mari de ma tante, c'est mon oncle !", "en": "And my uncle's wife is my aunt. My aunt's husband is my uncle!", "br": true },
+      { "fr": "Voilà ! C'est ma famille, et j'aime ma famille.", "en": "There you go! That's my family, and I love my family." }
+    ]
+  }
+}

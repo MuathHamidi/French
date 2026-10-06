@@ -1,0 +1,164 @@
+{
+  "id": "u10-faire-jouer",
+  "type": "grammar",
+  "unit": 10,
+  "title": "Faire du sport, jouer au foot",
+  "en": "faire de, jouer à, jouer de",
+  "intro": "English says *play* for sports and instruments. French uses three patterns: **faire de** + an activity (*faire **du** ski*), **jouer à** + a game or sport (*jouer **au** foot*), and **jouer de** + an instrument (*jouer **du** piano*). And the irregular verb **faire** is everywhere.",
+  "cases": [
+    { "id": "fj-faire", "label": "faire: je fais, nous faisons…", "rule": "**faire** is irregular: *je fais, tu fais, il fait, nous faisons* (/fə.zɔ̃/!), *vous faites, ils font*." },
+    { "id": "fj-faire-du", "label": "faire du + masculine activity", "rule": "**faire du** + a masculine activity: *faire du sport, du vélo, du ski, du tennis*." },
+    { "id": "fj-faire-dela", "label": "faire de la / de l'", "rule": "**faire de la** + a feminine activity, **de l'** before a vowel: *faire de la natation, de la danse, de l'escalade*." },
+    { "id": "fj-jouer-a", "label": "jouer à + game or sport", "rule": "Games and sports: **jouer au / à la / aux**: *jouer au foot, au tennis, aux cartes, aux jeux vidéo*." },
+    { "id": "fj-jouer-de", "label": "jouer de + instrument", "rule": "Instruments: **jouer du / de la / des**: *jouer du piano, de la guitare*." },
+    { "id": "fj-neg", "label": "in the negative", "rule": "**faire du / jouer du** → **pas de**: *je ne fais pas de sport, je ne joue pas de piano*. But **jouer à** keeps **à**: *je ne joue pas au foot*." },
+    { "id": "fj-both", "label": "jouer au tennis = faire du tennis", "rule": "Many sports work both ways: *jouer au tennis / faire du tennis, jouer au foot / faire du foot*." },
+    { "id": "fj-aimer", "label": "j'aime le tennis (not du)", "rule": "With **aimer, adorer, détester, préférer**, use **le / la / les**: *j'aime **le** tennis, je déteste **la** danse*." }
+  ],
+  "sections": [
+    {
+      "title": "1. The verb faire",
+      "table": {
+        "head": ["faire (to do, to make)", "Sounds"], "frCols": [0],
+        "rows": [
+          ["je fais", "/fɛ/"],
+          ["tu fais", "/fɛ/"],
+          ["il / elle / on fait", "/fɛ/"],
+          ["nous faisons", "/fə.zɔ̃/ — the ai sounds like “e”!"],
+          ["vous faites", "/fɛt/ — not “faisez”"],
+          ["ils / elles font", "/fɔ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Qu'est-ce que tu fais|fj-faire} ce week-end ?", "en": "What are you doing this weekend?" },
+        { "fr": "{Nous faisons|fj-faire} une promenade.", "en": "We're going for a walk." },
+        { "fr": "{Ils font|fj-faire} du vélo.", "en": "They're cycling." }
+      ]
+    },
+    {
+      "title": "2. faire du, de la, de l' + activity",
+      "text": ["For an activity you *do*, use **faire de** — with the same little words as for food: **du, de la, de l'**."],
+      "table": {
+        "head": ["", "Example"], "frCols": [1],
+        "rows": [
+          ["masculine", "faire du sport · du vélo · du ski"],
+          ["feminine", "faire de la natation · de la danse"],
+          ["before a vowel", "faire de l'escalade"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je fais du vélo|fj-faire-du} le dimanche.", "en": "I cycle on Sundays." },
+        { "fr": "{Léa fait de la natation|fj-faire-dela}.", "en": "Léa swims." },
+        { "fr": "{Ils font de l'escalade|fj-faire-dela}.", "en": "They go climbing." }
+      ]
+    },
+    {
+      "title": "3. jouer à + game or sport",
+      "table": {
+        "head": ["", "Example"], "frCols": [1],
+        "rows": [
+          ["à + le = au", "jouer au foot · au tennis"],
+          ["à la", "jouer à la pétanque"],
+          ["à + les = aux", "jouer aux cartes · aux jeux vidéo"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je joue au foot|fj-jouer-a} avec mes collègues.", "en": "I play football with my colleagues." },
+        { "fr": "{On joue aux cartes|fj-jouer-a} ?", "en": "Shall we play cards?" }
+      ]
+    },
+    {
+      "title": "4. jouer de + instrument",
+      "table": {
+        "head": ["", "Example"], "frCols": [1],
+        "rows": [
+          ["de + le = du", "jouer du piano · du violon"],
+          ["de la", "jouer de la guitare · de la batterie"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tom joue de la guitare|fj-jouer-de}.", "en": "Tom plays the guitar." },
+        { "fr": "{Ma sœur joue du piano|fj-jouer-de}.", "en": "My sister plays the piano." }
+      ],
+      "tip": "Remember it this way: you play **with** a ball (**à**), you play **from** an instrument (**de**)."
+    },
+    {
+      "title": "5. In the negative",
+      "table": {
+        "head": ["Yes", "No"], "frCols": [0, 1],
+        "rows": [
+          ["Je fais du sport.", "Je ne fais pas de sport."],
+          ["Je fais de la danse.", "Je ne fais pas de danse."],
+          ["Je joue du piano.", "Je ne joue pas de piano."],
+          ["Je joue au foot.", "Je ne joue pas au foot."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne fais pas de sport|fj-neg}.", "en": "I don't do any sport." },
+        { "fr": "{Il ne joue pas au tennis|fj-neg}.", "en": "He doesn't play tennis." }
+      ],
+      "tip": "Only **du / de la / de l' / des** turn into **de**. **au / à la / aux** stay as they are."
+    },
+    {
+      "title": "6. Both ways — and liking",
+      "text": [
+        "Many sports work with both verbs: *jouer au tennis* = *faire du tennis*.",
+        "To say you like a sport, use **le / la / les**, as with food: *J'aime **le** tennis, et je fais **du** tennis le samedi.*"
+      ],
+      "examples": [
+        { "fr": "{Je joue au tennis|fj-both} = {je fais du tennis|fj-both}.", "en": "I play tennis." },
+        { "fr": "{J'aime le foot|fj-aimer}, mais {je déteste la danse|fj-aimer}.", "en": "I like football, but I hate dance." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je joue le foot.", "right": "Je joue au foot.", "why": "Sports and games: **jouer à** (au, à la, aux)." },
+    { "wrong": "Je joue la guitare.", "right": "Je joue de la guitare.", "why": "Instruments: **jouer de**." },
+    { "wrong": "Je fais le ski.", "right": "Je fais du ski.", "why": "Activities: **faire du / de la**." },
+    { "wrong": "Vous faisez du sport ?", "right": "Vous faites du sport ?", "why": "**faire** is irregular: *vous faites*." },
+    { "wrong": "Je ne fais pas du sport.", "right": "Je ne fais pas de sport.", "why": "After a negative: **de**." },
+    { "wrong": "J'aime du tennis.", "right": "J'aime le tennis.", "why": "After **aimer**: **le / la / les**." }
+  ],
+  "story": {
+    "title": "Au club de sport",
+    "en": "Hugo signs up at the local sports club.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Hugo va au club de sport du quartier.", "en": "Hugo goes to the local sports club." },
+      { "sp": "La réceptionniste", "fr": "Bonjour ! {Vous faites du sport|fj-faire-du} ?", "en": "Hello! Do you do any sport?" },
+      { "sp": "Hugo", "fr": "Euh… {je joue aux jeux vidéo|fj-jouer-a}. C'est un sport ?", "en": "Um… I play video games. Is that a sport?" },
+      { "sp": "La réceptionniste", "fr": "Non ! Ici, {on fait de la natation|fj-faire-dela}, du tennis, de la danse…", "en": "No! Here we do swimming, tennis, dance…" },
+      { "sp": "Hugo", "fr": "{Je ne fais pas de danse|fj-neg}, c'est sûr !", "en": "I don't do dance, that's for sure!" },
+      { "sp": "La réceptionniste", "fr": "Et le tennis ? {Vous aimez le tennis|fj-aimer} ?", "en": "And tennis? Do you like tennis?" },
+      { "sp": "Hugo", "fr": "{Je joue au tennis|fj-both}… un peu. Mais {je ne joue pas au foot|fj-neg} : mon équipe perd toujours !", "en": "I play tennis… a bit. But I don't play football: my team always loses!" },
+      { "sp": "La réceptionniste", "fr": "Et la musique ? Il y a aussi un club de musique. {Vous jouez d'un instrument|fj-jouer-de} ?", "en": "And music? There's a music club too. Do you play an instrument?" },
+      { "sp": "Hugo", "fr": "{Ma sœur joue du piano|fj-jouer-de}, et mon ami Tom joue de la guitare. Moi, {je ne joue pas de musique|fj-neg}.", "en": "My sister plays the piano, and my friend Tom plays the guitar. I don't play any music." },
+      { "sp": "La réceptionniste", "fr": "D'accord. Alors, {qu'est-ce que vous faites|fj-faire} le week-end ?", "en": "OK. So what do you do at weekends?" },
+      { "sp": "Hugo", "fr": "{Nous faisons|fj-faire} des promenades, mes amis et moi. Et parfois, {ils font du vélo|fj-faire}.", "en": "We go for walks, my friends and I. And sometimes they go cycling." },
+      { "sp": "La réceptionniste", "fr": "Parfait : on a un club de vélo ! {Vous faites du vélo|fj-both} ou {vous jouez au tennis|fj-both} ?", "en": "Perfect: we have a cycling club! Do you cycle or play tennis?" },
+      { "sp": "Hugo", "fr": "Les deux ! Et le samedi, {je fais de l'escalade|fj-faire-dela} !", "en": "Both! And on Saturdays, I go climbing!" },
+      { "sp": "La réceptionniste", "fr": "Vraiment ?", "en": "Really?" },
+      { "sp": "Hugo", "fr": "Non… mais je vais essayer !", "en": "No… but I'm going to try!" }
+    ]
+  },
+  "quiz": [
+    { "case": "fj-faire", "type": "mc", "q": "Nous ___ du sport.", "en": "We do sport.", "options": ["faisons", "faites", "font"], "answer": "faisons" },
+    { "case": "fj-faire", "type": "type", "q": "Ils ___ du ski en hiver.", "en": "They go skiing in winter.", "answer": "font" },
+    { "case": "fj-faire", "type": "mc", "q": "Vous ___ quoi ce week-end ?", "en": "What are you doing this weekend?", "options": ["faites", "faisez", "fais"], "answer": "faites" },
+    { "case": "fj-faire-du", "type": "mc", "q": "Je fais ___ vélo.", "en": "I cycle.", "options": ["du", "de la", "au"], "answer": "du" },
+    { "case": "fj-faire-du", "type": "type", "q": "Tu fais ___ sport ?", "en": "Do you do any sport?", "answer": "du" },
+    { "case": "fj-faire-dela", "type": "mc", "q": "Léa fait ___ natation.", "en": "Léa swims.", "options": ["de la", "du", "à la"], "answer": "de la" },
+    { "case": "fj-faire-dela", "type": "type", "q": "Elle fait ___escalade.", "en": "She goes climbing.", "answer": "de l'" },
+    { "case": "fj-jouer-a", "type": "mc", "q": "Je joue ___ foot.", "en": "I play football.", "options": ["au", "du", "de la"], "answer": "au" },
+    { "case": "fj-jouer-a", "type": "type", "q": "On joue ___ cartes ?", "en": "Shall we play cards?", "answer": "aux" },
+    { "case": "fj-jouer-de", "type": "mc", "q": "Tom joue ___ guitare.", "en": "Tom plays the guitar.", "options": ["de la", "à la", "du"], "answer": "de la", "why": "Instruments: **jouer de**." },
+    { "case": "fj-jouer-de", "type": "type", "q": "Ma sœur joue ___ piano.", "en": "My sister plays the piano.", "answer": "du" },
+    { "case": "fj-neg", "type": "mc", "q": "Je ne fais pas ___ sport.", "en": "I don't do any sport.", "options": ["de", "du", "le"], "answer": "de" },
+    { "case": "fj-neg", "type": "mc", "q": "Je ne joue pas ___ foot.", "en": "I don't play football.", "options": ["au", "de", "du"], "answer": "au", "why": "**jouer à** keeps **au** in the negative." },
+    { "case": "fj-neg", "type": "type", "q": "Il ne joue pas ___ piano.", "en": "He doesn't play the piano.", "answer": "de", "why": "**jouer du** → **pas de** after a negative." },
+    { "case": "fj-both", "type": "mc", "lang": "en", "q": "Which pair is correct?", "options": ["Je joue au tennis. / Je fais du tennis.", "Je joue du tennis. / Je fais au tennis."], "answer": "Je joue au tennis. / Je fais du tennis." },
+    { "case": "fj-both", "type": "mc", "q": "Tu joues ___ tennis ?", "en": "Do you play tennis?", "options": ["au", "du"], "answer": "au" },
+    { "case": "fj-aimer", "type": "mc", "q": "J'aime ___ tennis.", "en": "I like tennis.", "options": ["le", "du", "au"], "answer": "le" },
+    { "case": "fj-aimer", "type": "type", "q": "Tu aimes ___ [danse|danse] ?", "en": "Do you like dance?", "answer": "la" }
+  ]
+}

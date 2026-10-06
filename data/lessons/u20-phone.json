@@ -1,0 +1,246 @@
+{
+  "id": "u20-phone",
+  "type": "vocab",
+  "unit": 20,
+  "title": "Le téléphone et internet",
+  "en": "Phone & internet",
+  "intro": "25 words for phones and the internet: calling and hanging up, texts and voicemail, the screen and the mouse, passwords, apps, battery and signal. On the phone, French says **Allô ?**, and *who's calling?* is **Qui est à l'appareil ?**",
+  "words": [
+    { "id": "telephone", "fr": "téléphone", "pos": "noun", "g": "m", "ipa": "te.le.fɔn", "en": "telephone, phone",
+      "def": "L'appareil pour parler avec une personne qui est loin.", "def_en": "The device for talking to someone far away.",
+      "forms": ["téléphones"],
+      "examples": [
+        { "fr": "Ton **téléphone** sonne !", "en": "Your phone's ringing!" },
+        { "fr": "Léa parle au **téléphone** avec sa mère.", "en": "Léa is on the phone with her mother." },
+        { "fr": "Quel est ton numéro de **téléphone** ?", "en": "What's your phone number?" }
+      ] },
+    { "id": "telephoner", "fr": "téléphoner", "pos": "verb", "ipa": "te.le.fɔ.ne", "en": "to phone (téléphoner à quelqu'un)",
+      "def": "Parler à une personne au téléphone.", "def_en": "To talk to someone on the phone.",
+      "forms": ["téléphone", "téléphones", "téléphonons", "téléphonez", "téléphonent", "téléphoné", "téléphonais", "téléphonait", "téléphonions", "téléphoniez", "téléphonaient", "téléphonerai", "téléphoneras", "téléphonera", "téléphonerons", "téléphonerez", "téléphoneront"],
+      "examples": [
+        { "fr": "Je **téléphone** à Mamie tous les dimanches.", "en": "I phone Grandma every Sunday." },
+        { "fr": "Tu peux me **téléphoner** ce soir ?", "en": "Can you phone me tonight?" },
+        { "fr": "Lou adore **téléphoner** à Papi.", "en": "Lou loves phoning Grandpa." }
+      ],
+      "note": "**téléphoner à** + person: *je lui téléphone*. Same meaning: **appeler** + person: *je l'appelle*." },
+    { "id": "portable", "fr": "portable", "pos": "noun", "g": "m", "ipa": "pɔʁ.tabl", "en": "mobile phone; laptop",
+      "def": "Un téléphone qu'on a toujours avec soi. Aussi : un ordinateur qu'on peut porter.", "def_en": "A phone you always have with you. Also: a computer you can carry around.",
+      "forms": ["portables"],
+      "examples": [
+        { "fr": "J'ai oublié mon **portable** à la maison !", "en": "I've left my mobile at home!" },
+        { "fr": "Éteignez vos **portables**, s'il vous plaît.", "en": "Please switch off your phones." },
+        { "fr": "Il travaille sur son **portable** dans le train.", "en": "He works on his laptop on the train." }
+      ],
+      "note": "In Canada: **un cellulaire**." },
+    { "id": "appeler", "fr": "appeler", "pos": "verb", "ipa": "a.ple", "en": "to call (s'appeler = to be called)",
+      "def": "Téléphoner à une personne. Aussi : dire son nom pour la faire venir.", "def_en": "To phone someone. Also: to say someone's name to make them come.",
+      "extra": "l → ll before a silent ending: j'**appelle**, nous **appelons**, ils **appellent**.",
+      "forms": ["appelle", "appelles", "appelons", "appelez", "appellent", "appelé", "appelée", "appelais", "appelait", "appelions", "appeliez", "appelaient", "appellerai", "appelleras", "appellera", "appellerons", "appellerez", "appelleront"],
+      "examples": [
+        { "fr": "Je t'**appelle** ce soir !", "en": "I'll call you tonight!" },
+        { "fr": "**Appelle** le médecin !", "en": "Call the doctor!" },
+        { "fr": "La maîtresse **appelle** les enfants.", "en": "The teacher calls the children." }
+      ] },
+    { "id": "rappeler", "fr": "rappeler", "pos": "verb", "ipa": "ʁa.ple", "en": "to call back; to remind",
+      "def": "Téléphoner une deuxième fois, quand on n'a pas pu parler.", "def_en": "To phone again, when you couldn't talk the first time.",
+      "forms": ["rappelle", "rappelles", "rappelons", "rappelez", "rappellent", "rappelé", "rappelais", "rappelait", "rappelions", "rappeliez", "rappelaient", "rappellerai", "rappelleras", "rappellera", "rappellerons", "rappellerez", "rappelleront"],
+      "examples": [
+        { "fr": "Je suis occupé, je te **rappelle** !", "en": "I'm busy, I'll call you back!" },
+        { "fr": "Vous pouvez **rappeler** demain ?", "en": "Can you call back tomorrow?" },
+        { "fr": "**Rappelle**-moi d'acheter du pain !", "en": "Remind me to buy bread!" }
+      ],
+      "note": "With *se*: **se rappeler** = to remember." },
+    { "id": "raccrocher", "fr": "raccrocher", "pos": "verb", "ipa": "ʁa.kʁɔ.ʃe", "en": "to hang up",
+      "def": "Finir un appel au téléphone.", "def_en": "To end a phone call.",
+      "forms": ["raccroche", "raccroches", "raccrochons", "raccrochez", "raccrochent", "raccroché", "raccrochais", "raccrochait", "raccrochions", "raccrochiez", "raccrochaient", "raccrocherai", "raccrocheras", "raccrochera", "raccrocherons", "raccrocherez", "raccrocheront"],
+      "examples": [
+        { "fr": "Ne **raccroche** pas !", "en": "Don't hang up!" },
+        { "fr": "Il m'a **raccroché** au nez !", "en": "He hung up on me!" },
+        { "fr": "Bon, je **raccroche**, à demain !", "en": "Right, I'm hanging up, see you tomorrow!" }
+      ],
+      "note": "**décrocher** = to pick up (the phone)." },
+    { "id": "sonner", "fr": "sonner", "pos": "verb", "ipa": "sɔ.ne", "en": "to ring",
+      "def": "Faire du bruit pour appeler : un téléphone, un réveil ou une porte sonnent.", "def_en": "To make a noise to call you: phones, alarm clocks and doorbells ring.",
+      "forms": ["sonne", "sonnes", "sonnons", "sonnez", "sonnent", "sonné", "sonnais", "sonnait", "sonnions", "sonniez", "sonnaient", "sonnerai", "sonneras", "sonnera", "sonnerons", "sonnerez", "sonneront"],
+      "examples": [
+        { "fr": "Le téléphone **sonne** !", "en": "The phone's ringing!" },
+        { "fr": "Mon réveil a **sonné** à six heures.", "en": "My alarm went off at six." },
+        { "fr": "On **sonne** à la porte.", "en": "Someone's ringing at the door." }
+      ] },
+    { "id": "message", "fr": "message", "pos": "noun", "g": "m", "ipa": "me.saʒ", "en": "message",
+      "def": "Quelques mots qu'on écrit ou qu'on laisse pour une personne.", "def_en": "A few words you write or leave for someone.",
+      "forms": ["messages"],
+      "examples": [
+        { "fr": "Laissez un **message** après le bip.", "en": "Leave a message after the beep." },
+        { "fr": "J'ai reçu ton **message**.", "en": "I got your message." },
+        { "fr": "Hugo envoie cinquante **messages** par jour !", "en": "Hugo sends fifty messages a day!" }
+      ] },
+    { "id": "texto", "fr": "texto", "pos": "noun", "g": "m", "ipa": "tɛk.sto", "en": "text message",
+      "def": "Un petit message écrit sur un portable.", "def_en": "A short message written on a mobile.",
+      "forms": ["textos"],
+      "examples": [
+        { "fr": "Envoie-moi un **texto** quand tu arrives.", "en": "Send me a text when you arrive." },
+        { "fr": "Mamie écrit des **textos** très longs !", "en": "Grandma writes very long texts!" },
+        { "fr": "Je n'ai pas lu ton **texto**.", "en": "I haven't read your text." }
+      ],
+      "note": "Also **un SMS** /ɛ.sɛ.mɛs/." },
+    { "id": "numero", "fr": "numéro", "pos": "noun", "g": "m", "ipa": "ny.me.ʁo", "en": "number (phone, house, page)",
+      "def": "Les chiffres pour appeler une personne. Aussi : le chiffre d'une maison, d'une page…", "def_en": "The figures you dial to call someone. Also: the number of a house, a page…",
+      "forms": ["numéros"],
+      "examples": [
+        { "fr": "Tu as mon **numéro** ?", "en": "Have you got my number?" },
+        { "fr": "J'habite au **numéro** dix.", "en": "I live at number ten." },
+        { "fr": "Désolé, c'est un faux **numéro**.", "en": "Sorry, it's a wrong number." }
+      ] },
+    { "id": "allo", "fr": "allô", "pos": "interj", "ipa": "a.lo", "en": "hello? (on the phone)",
+      "def": "Le mot qu'on dit quand on répond au téléphone.", "def_en": "The word you say when you answer the phone.",
+      "examples": [
+        { "fr": "**Allô** ? Qui est à l'appareil ?", "en": "Hello? Who's speaking?" },
+        { "fr": "**Allô**, Mamie ? C'est Léa !", "en": "Hello, Grandma? It's Léa!" },
+        { "fr": "**Allô** ? Tu m'entends ?", "en": "Hello? Can you hear me?" }
+      ],
+      "note": "Only on the phone! Face to face, say **bonjour**." },
+    { "id": "repondeur", "fr": "répondeur", "pos": "noun", "g": "m", "ipa": "ʁe.pɔ̃.dœʁ", "en": "voicemail, answering machine",
+      "def": "La machine qui prend les messages quand on ne répond pas.", "def_en": "The machine that takes messages when you don't answer.",
+      "forms": ["répondeurs"],
+      "examples": [
+        { "fr": "Je suis tombé sur son **répondeur**.", "en": "I got her voicemail." },
+        { "fr": "Laisse un message sur le **répondeur** !", "en": "Leave a message on the answering machine!" },
+        { "fr": "Mamie écoute son **répondeur** tous les soirs.", "en": "Grandma listens to her voicemail every evening." }
+      ] },
+    { "id": "ecran", "fr": "écran", "pos": "noun", "g": "m", "ipa": "e.kʁɑ̃", "en": "screen",
+      "def": "La partie d'un téléphone, d'un ordinateur ou d'une télé où on voit les images.", "def_en": "The part of a phone, computer or TV where you see the pictures.",
+      "forms": ["écrans"],
+      "examples": [
+        { "fr": "L'**écran** de mon portable est cassé.", "en": "My phone screen is broken." },
+        { "fr": "Les enfants passent trop de temps devant les **écrans**.", "en": "Children spend too much time in front of screens." },
+        { "fr": "Touche l'**écran** avec ton doigt.", "en": "Touch the screen with your finger." }
+      ] },
+    { "id": "souris-n", "fr": "souris", "pos": "noun", "g": "f", "ipa": "su.ʁi", "en": "mouse (animal and computer)",
+      "def": "Un petit animal gris. Aussi : l'objet qu'on bouge avec la main pour utiliser un ordinateur.", "def_en": "A small grey animal. Also: the thing you move with your hand to use a computer.",
+      "examples": [
+        { "fr": "Clique avec la **souris**.", "en": "Click with the mouse." },
+        { "fr": "Le chat a peur d'une **souris** !", "en": "The cat is scared of a mouse!" },
+        { "fr": "Ma **souris** ne marche plus.", "en": "My mouse has stopped working." }
+      ],
+      "note": "Same spelling in the plural: **les souris**." },
+    { "id": "internet", "fr": "internet", "pos": "noun", "g": "m", "art": "", "ipa": "ɛ̃.tɛʁ.nɛt", "en": "the internet",
+      "def": "Le réseau des ordinateurs du monde : on y trouve des sites, des vidéos, des messages…", "def_en": "The network of the world's computers: you find websites, videos and messages on it…",
+      "examples": [
+        { "fr": "Je cherche la recette sur **internet**.", "en": "I'm looking up the recipe online." },
+        { "fr": "Il n'y a pas d'**internet** chez Mamie !", "en": "There's no internet at Grandma's!" },
+        { "fr": "Tu as **internet** chez toi ?", "en": "Have you got internet at home?" }
+      ],
+      "note": "Usually without an article: *sur internet, avoir internet*." },
+    { "id": "site", "fr": "site", "pos": "noun", "g": "m", "ipa": "sit", "en": "website; site",
+      "def": "Des pages sur internet, avec une adresse : un site de cuisine, le site d'un musée…", "def_en": "Pages on the internet, with an address: a cooking website, a museum's website…",
+      "forms": ["sites"],
+      "examples": [
+        { "fr": "Tu connais un bon **site** de recettes ?", "en": "Do you know a good recipe website?" },
+        { "fr": "Les horaires sont sur le **site** du musée.", "en": "The opening hours are on the museum's website." },
+        { "fr": "J'ai réservé l'hôtel sur un **site** internet.", "en": "I booked the hotel on a website." }
+      ] },
+    { "id": "en-ligne", "fr": "en ligne", "pos": "expr", "ipa": "ɑ̃ liɲ", "en": "online",
+      "def": "Sur internet.", "def_en": "On the internet.",
+      "examples": [
+        { "fr": "J'achète mes livres **en ligne**.", "en": "I buy my books online." },
+        { "fr": "Tu es **en ligne** ? Je t'envoie la photo.", "en": "Are you online? I'll send you the photo." },
+        { "fr": "Les cours **en ligne**, c'est pratique.", "en": "Online courses are handy." }
+      ],
+      "note": "On the phone, **Restez en ligne** = Please hold." },
+    { "id": "mot-de-passe", "fr": "mot de passe", "pos": "noun", "g": "m", "ipa": "mo d pas", "en": "password",
+      "def": "Le mot secret pour ouvrir un compte ou un site.", "def_en": "The secret word that opens an account or a website.",
+      "forms": ["mots de passe"],
+      "examples": [
+        { "fr": "J'ai oublié mon **mot de passe** !", "en": "I've forgotten my password!" },
+        { "fr": "Ne donne jamais ton **mot de passe**.", "en": "Never give out your password." },
+        { "fr": "Ton **mot de passe**, c'est le nom de ton chat ? Ce n'est pas très sûr !", "en": "Your password is your cat's name? That's not very safe!" }
+      ] },
+    { "id": "telecharger", "fr": "télécharger", "pos": "verb", "ipa": "te.le.ʃaʁ.ʒe", "en": "to download",
+      "def": "Mettre sur son ordinateur ou son portable une chose qui est sur internet.", "def_en": "To put something from the internet onto your computer or phone.",
+      "extra": "-ger verb: nous **téléchargeons**, je **téléchargeais**.",
+      "forms": ["télécharge", "télécharges", "téléchargeons", "téléchargez", "téléchargent", "téléchargé", "téléchargée", "téléchargeais", "téléchargeait", "téléchargions", "téléchargiez", "téléchargeaient", "téléchargerai", "téléchargeras", "téléchargera", "téléchargerons", "téléchargerez", "téléchargeront"],
+      "examples": [
+        { "fr": "Je **télécharge** une application.", "en": "I'm downloading an app." },
+        { "fr": "Tu peux **télécharger** le document ?", "en": "Can you download the document?" },
+        { "fr": "J'ai **téléchargé** les photos de Noël.", "en": "I've downloaded the Christmas photos." }
+      ] },
+    { "id": "application", "fr": "application", "pos": "noun", "g": "f", "ipa": "a.pli.ka.sjɔ̃", "en": "app, application",
+      "def": "Un petit programme sur un portable : pour la météo, les messages, les jeux…", "def_en": "A small program on a phone: for the weather, messages, games…",
+      "forms": ["applications"],
+      "examples": [
+        { "fr": "Il y a une **application** pour ça !", "en": "There's an app for that!" },
+        { "fr": "Mamie a cinq **applications** sur son portable.", "en": "Grandma has five apps on her phone." },
+        { "fr": "Cette **application** est gratuite.", "en": "This app is free." }
+      ],
+      "note": "In speech: **une appli**." },
+    { "id": "batterie", "fr": "batterie", "pos": "noun", "g": "f", "ipa": "ba.tʁi", "en": "battery; drums",
+      "def": "Ce qui donne l'énergie à un portable ou à une voiture. Aussi : un instrument de musique.", "def_en": "What powers a phone or a car. Also: a musical instrument (the drums).",
+      "forms": ["batteries"],
+      "examples": [
+        { "fr": "Je n'ai plus de **batterie** !", "en": "My battery's dead!" },
+        { "fr": "Ma **batterie** est à dix pour cent.", "en": "My battery is at ten per cent." },
+        { "fr": "Tom joue de la **batterie** et de la guitare.", "en": "Tom plays the drums and the guitar." }
+      ] },
+    { "id": "charger", "fr": "charger", "pos": "verb", "ipa": "ʃaʁ.ʒe", "en": "to charge (a phone); to load",
+      "def": "Remettre de l'énergie dans une batterie. Aussi : mettre des choses dans une voiture.", "def_en": "To put energy back into a battery. Also: to load things into a car.",
+      "extra": "-ger verb: nous **chargeons**, je **chargeais**.",
+      "forms": ["charge", "charges", "chargeons", "chargez", "chargent", "chargé", "chargée", "chargeais", "chargeait", "chargions", "chargiez", "chargeaient", "chargerai", "chargeras", "chargera", "chargerons", "chargerez", "chargeront"],
+      "examples": [
+        { "fr": "Je dois **charger** mon portable.", "en": "I need to charge my phone." },
+        { "fr": "Tu as un chargeur ? Mon téléphone ne **charge** pas.", "en": "Have you got a charger? My phone isn't charging." },
+        { "fr": "On **charge** les valises dans la voiture.", "en": "We load the suitcases into the car." }
+      ] },
+    { "id": "reseau", "fr": "réseau", "pos": "noun", "g": "m", "ipa": "ʁe.zo", "en": "network; (phone) signal",
+      "def": "Pour un portable : quand on peut appeler et aller sur internet. Aussi : des lignes de bus, de métro…", "def_en": "For a phone: when you can call and go online. Also: a system of bus or metro lines…",
+      "forms": ["réseaux"],
+      "examples": [
+        { "fr": "Il n'y a pas de **réseau** à la montagne.", "en": "There's no signal in the mountains." },
+        { "fr": "Le **réseau** de bus de Lyon est très pratique.", "en": "Lyon's bus network is very handy." },
+        { "fr": "Allô ? Je t'entends mal, j'ai peu de **réseau**.", "en": "Hello? I can barely hear you, I've hardly got any signal." }
+      ] },
+    { "id": "cliquer", "fr": "cliquer", "pos": "verb", "ipa": "kli.ke", "en": "to click",
+      "def": "Appuyer avec le doigt sur la souris pour choisir quelque chose sur l'écran.", "def_en": "To press the mouse with your finger to choose something on the screen.",
+      "forms": ["clique", "cliques", "cliquons", "cliquez", "cliquent", "cliqué", "cliquais", "cliquait", "cliquions", "cliquiez", "cliquaient", "cliquerai", "cliqueras", "cliquera", "cliquerons", "cliquerez", "cliqueront"],
+      "examples": [
+        { "fr": "**Cliquez** ici pour commander.", "en": "Click here to order." },
+        { "fr": "Mamie **clique** partout !", "en": "Grandma clicks on everything!" },
+        { "fr": "J'ai **cliqué** sur le mauvais bouton.", "en": "I clicked the wrong button." }
+      ] },
+    { "id": "recevoir", "fr": "recevoir", "pos": "verb", "ipa": "ʁə.sə.vwaʁ", "en": "to receive, to get",
+      "def": "Avoir une chose qu'une autre personne envoie ou donne.", "def_en": "To get something that someone else sends or gives.",
+      "extra": "je **reçois**, il **reçoit**, nous **recevons**, ils **reçoivent**; j'ai **reçu**.",
+      "forms": ["reçois", "reçoit", "recevons", "recevez", "reçoivent", "reçu", "reçue", "reçus", "reçues", "recevais", "recevait", "recevions", "receviez", "recevaient", "recevrai", "recevras", "recevra", "recevrons", "recevrez", "recevront"],
+      "examples": [
+        { "fr": "J'ai **reçu** ton message.", "en": "I got your message." },
+        { "fr": "Je **reçois** beaucoup de mails.", "en": "I get a lot of emails." },
+        { "fr": "Lou a **reçu** un cadeau de Mamie.", "en": "Lou got a present from Grandma." }
+      ],
+      "note": "**ç** before **o** and **u**: *je reçois, j'ai reçu*." }
+  ],
+  "story": {
+    "title": "Le portable de Mamie",
+    "en": "Christmas in Marseille: Grandma gets her first mobile phone.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Noël à Marseille. Toute la famille est chez Jacques et Louise. Le cadeau de Mamie : un portable !", "en": "Christmas in Marseille. The whole family is at Jacques and Louise's. Grandma's present: a mobile phone!" },
+      { "sp": "Louise", "fr": "Un portable ? Mais j'ai déjà un téléphone, dans le salon !", "en": "A mobile? But I've already got a phone, in the living room!" },
+      { "sp": "Léa", "fr": "Oui, Mamie, mais avec un portable, tu peux téléphoner partout. Et envoyer des textos !", "en": "Yes, Grandma, but with a mobile you can phone from anywhere. And send texts!" },
+      { "sp": "", "fr": "Léa explique. Louise regarde l'écran avec ses lunettes.", "en": "Léa explains. Louise peers at the screen through her glasses." },
+      { "sp": "Léa", "fr": "D'abord, il faut un mot de passe. Choisis quatre chiffres.", "en": "First, you need a password. Choose four numbers." },
+      { "sp": "Louise", "fr": "Facile : l'anniversaire de Papi ! Ah non… je l'ai oublié.", "en": "Easy: Grandpa's birthday! Oh no… I've forgotten it." },
+      { "sp": "Jacques", "fr": "Merci, ma chérie !", "en": "Thanks, darling!" },
+      { "sp": "", "fr": "Ensuite, Léa télécharge des applications : la météo, les photos, les messages… Lou regarde l'écran.", "en": "Next, Léa downloads some apps: the weather, photos, messages… Lou watches the screen." },
+      { "sp": "Léa", "fr": "Regarde : tu cliques là… Non, pardon : tu touches l'écran avec le doigt. Il n'y a pas de souris !", "en": "Look: you click there… No, sorry: you touch the screen with your finger. There's no mouse!" },
+      { "sp": "Louise", "fr": "Pas de souris ? Heureusement, j'ai peur des souris !", "en": "No mouse? Thank goodness, I'm scared of mice!" },
+      { "sp": "", "fr": "Le lendemain, le portable de Mamie sonne. C'est Hugo qui l'appelle, de Lyon.", "en": "The next day, Grandma's mobile rings. It's Hugo calling her from Lyon." },
+      { "sp": "Louise", "fr": "Allô ? Allô ? Je ne t'entends pas ! Il n'y a pas de réseau dans la cuisine…", "en": "Hello? Hello? I can't hear you! There's no signal in the kitchen…" },
+      { "sp": "", "fr": "Elle raccroche, puis Hugo la rappelle. Cette fois, elle va dans le jardin.", "en": "She hangs up, then Hugo calls her back. This time, she goes into the garden." },
+      { "sp": "Hugo", "fr": "Mamie, tu as reçu mon message ? Et ma photo ? Tu as internet, maintenant !", "en": "Grandma, did you get my message? And my photo? You've got internet now!" },
+      { "sp": "Louise", "fr": "Ton message ? Je ne sais pas… J'ai seulement un message sur le répondeur. Oh, la batterie est presque vide !", "en": "Your message? I don't know… I've only got a message on voicemail. Oh, the battery's almost flat!" },
+      { "sp": "Hugo", "fr": "Il faut le charger tous les soirs, Mamie. Et donne-moi ton numéro : je vais le mettre sur le site de la famille !", "en": "You have to charge it every evening, Grandma. And give me your number: I'll put it on the family website!" },
+      { "sp": "", "fr": "Une semaine plus tard, Louise est en ligne tous les jours. Elle envoie des textos à toute la famille… à six heures du matin.", "en": "A week later, Louise is online every day. She sends texts to the whole family… at six in the morning." },
+      { "sp": "Hugo", "fr": "Mamie, c'est très bien… mais le dimanche, je dors ! Tu peux éteindre ton portable la nuit ?", "en": "Grandma, that's great… but on Sundays I'm asleep! Can you switch your phone off at night?" }
+    ]
+  }
+}

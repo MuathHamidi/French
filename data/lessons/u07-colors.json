@@ -1,0 +1,203 @@
+{
+  "id": "u07-colors",
+  "type": "vocab",
+  "unit": 7,
+  "title": "Les couleurs",
+  "en": "Colours & describing clothes",
+  "intro": "Colours and a few adjectives to describe clothes. Colours are adjectives: they usually come **after** the noun and agree with it (*une robe verte*). **orange** and **marron** never change.",
+  "words": [
+    { "id": "couleur", "fr": "couleur", "pos": "noun", "g": "f", "ipa": "ku.lœʁ", "en": "colour",
+      "def": "Le rouge, le bleu, le vert… sont des couleurs.", "def_en": "Red, blue, green… are colours.",
+      "forms": ["couleurs"],
+      "examples": [
+        { "fr": "Quelle est ta **couleur** préférée ?", "en": "What's your favourite colour?" },
+        { "fr": "Ta robe est de quelle **couleur** ?", "en": "What colour is your dress?" },
+        { "fr": "Il y a des pulls de toutes les **couleurs**.", "en": "There are jumpers in every colour." }
+      ] },
+    { "id": "rouge", "fr": "rouge", "pos": "adj", "ipa": "ʁuʒ", "en": "red",
+      "def": "La couleur des tomates et des fraises.", "def_en": "The colour of tomatoes and strawberries.",
+      "forms": ["rouges"],
+      "examples": [
+        { "fr": "J'aime ta robe **rouge**.", "en": "I like your red dress." },
+        { "fr": "Les tomates sont **rouges**.", "en": "The tomatoes are red." },
+        { "fr": "Un verre de vin **rouge**, s'il vous plaît.", "en": "A glass of red wine, please." }
+      ],
+      "note": "Ends in **-e** already, so it's the same for masculine and feminine." },
+    { "id": "bleu", "fr": "bleu", "pos": "adj", "ipa": "blø", "en": "blue",
+      "def": "La couleur du ciel et de la mer.", "def_en": "The colour of the sky and the sea.",
+      "forms": ["bleue", "bleus", "bleues"], "accept": ["bleue"],
+      "examples": [
+        { "fr": "Le ciel est **bleu**.", "en": "The sky is blue." },
+        { "fr": "Elle porte une jupe **bleue**.", "en": "She's wearing a blue skirt." },
+        { "fr": "Lou a les yeux **bleus**.", "en": "Lou has blue eyes." }
+      ] },
+    { "id": "vert", "fr": "vert", "pos": "adj", "ipa": "vɛʁ", "display": "vert(e)", "en": "green",
+      "def": "La couleur de l'herbe et des feuilles.", "def_en": "The colour of grass and leaves.",
+      "forms": ["verte", "verts", "vertes"], "accept": ["verte"],
+      "examples": [
+        { "fr": "L'herbe est **verte**.", "en": "The grass is green." },
+        { "fr": "J'ai un pull **vert**.", "en": "I have a green jumper." },
+        { "fr": "Les feuilles sont **vertes**.", "en": "The leaves are green." }
+      ],
+      "note": "Feminine **verte** — you hear the **t** /vɛʁt/." },
+    { "id": "jaune", "fr": "jaune", "pos": "adj", "ipa": "ʒon", "en": "yellow",
+      "def": "La couleur du soleil et des bananes.", "def_en": "The colour of the sun and of bananas.",
+      "forms": ["jaunes"],
+      "examples": [
+        { "fr": "Le soleil est **jaune**.", "en": "The sun is yellow." },
+        { "fr": "Les bananes sont **jaunes**.", "en": "Bananas are yellow." },
+        { "fr": "Il porte un t-shirt **jaune**.", "en": "He's wearing a yellow T-shirt." }
+      ] },
+    { "id": "blanc", "fr": "blanc", "pos": "adj", "ipa": "blɑ̃", "display": "blanc, blanche", "en": "white",
+      "def": "La couleur du lait et de la neige.", "def_en": "The colour of milk and snow.",
+      "forms": ["blanche", "blancs", "blanches"], "accept": ["blanche"],
+      "examples": [
+        { "fr": "Mon père porte une chemise **blanche**.", "en": "My father is wearing a white shirt." },
+        { "fr": "Le lait est **blanc**.", "en": "Milk is white." },
+        { "fr": "Un vin **blanc**, s'il vous plaît.", "en": "A white wine, please." }
+      ],
+      "note": "Irregular feminine: **blanche** /blɑ̃ʃ/." },
+    { "id": "noir", "fr": "noir", "pos": "adj", "ipa": "nwaʁ", "display": "noir(e)", "en": "black",
+      "def": "La couleur de la nuit.", "def_en": "The colour of the night.",
+      "forms": ["noire", "noirs", "noires"], "accept": ["noire"],
+      "examples": [
+        { "fr": "Je cherche des chaussures **noires**.", "en": "I'm looking for black shoes." },
+        { "fr": "Il a un chat **noir**.", "en": "He has a black cat." },
+        { "fr": "Un café **noir**, s'il vous plaît.", "en": "A black coffee, please." }
+      ] },
+    { "id": "gris", "fr": "gris", "pos": "adj", "ipa": "ɡʁi", "display": "gris(e)", "en": "grey",
+      "def": "Entre le blanc et le noir : la couleur des nuages.", "def_en": "Between white and black: the colour of clouds.",
+      "forms": ["grise", "grises"], "accept": ["grise"],
+      "examples": [
+        { "fr": "Le chat est **gris**.", "en": "The cat is grey." },
+        { "fr": "Elle porte une veste **grise**.", "en": "She's wearing a grey jacket." },
+        { "fr": "Aujourd'hui, le ciel est **gris**.", "en": "Today the sky is grey." }
+      ],
+      "note": "Masculine plural is the same: *des pulls gris*. Feminine: **grise** /ɡʁiz/." },
+    { "id": "rose", "fr": "rose", "pos": "adj", "ipa": "ʁoz", "en": "pink; (une rose) a rose",
+      "def": "Entre le rouge et le blanc.", "def_en": "Between red and white.",
+      "forms": ["roses"],
+      "examples": [
+        { "fr": "Lou aime le **rose**.", "en": "Lou loves pink." },
+        { "fr": "Elle a une robe **rose**.", "en": "She has a pink dress." },
+        { "fr": "Les fleurs sont **roses**.", "en": "The flowers are pink." }
+      ] },
+    { "id": "violet", "fr": "violet", "pos": "adj", "ipa": "vjɔ.lɛ", "display": "violet, violette", "en": "purple",
+      "def": "Le bleu et le rouge mélangés.", "def_en": "Blue and red mixed together.",
+      "forms": ["violette", "violets", "violettes"], "accept": ["violette"],
+      "examples": [
+        { "fr": "J'ai une écharpe **violette**.", "en": "I have a purple scarf." },
+        { "fr": "Ce pull **violet** est très joli.", "en": "This purple jumper is very pretty." },
+        { "fr": "Les fleurs sont **violettes**.", "en": "The flowers are purple." }
+      ],
+      "note": "Feminine: **violette** (double **t**) /vjɔ.lɛt/." },
+    { "id": "orange", "fr": "orange", "pos": "adj", "ipa": "ɔ.ʁɑ̃ʒ", "en": "orange",
+      "def": "Le rouge et le jaune mélangés, comme le fruit.", "def_en": "Red and yellow mixed together, like the fruit.",
+      "examples": [
+        { "fr": "Ma robe est **orange**.", "en": "My dress is orange." },
+        { "fr": "Il porte des chaussettes **orange**.", "en": "He's wearing orange socks." },
+        { "fr": "Je voudrais un jus d'**orange**.", "en": "I'd like an orange juice." }
+      ],
+      "note": "Never changes, even in the plural: *des chaussettes orange* (it comes from the name of the fruit)." },
+    { "id": "marron", "fr": "marron", "pos": "adj", "ipa": "ma.ʁɔ̃", "en": "brown",
+      "def": "La couleur du chocolat.", "def_en": "The colour of chocolate.",
+      "examples": [
+        { "fr": "J'ai des chaussures **marron**.", "en": "I have brown shoes." },
+        { "fr": "Son sac est **marron**.", "en": "His bag is brown." },
+        { "fr": "La table est **marron**.", "en": "The table is brown." }
+      ],
+      "note": "Never changes: *des chaussures marron*. For hair and eyes, use **brun**." },
+    { "id": "brun", "fr": "brun", "pos": "adj", "ipa": "bʁœ̃", "display": "brun(e)", "en": "brown (hair, eyes); dark-haired",
+      "def": "Marron, pour les cheveux ou les yeux.", "def_en": "Brown, for hair or eyes.",
+      "forms": ["brune", "bruns", "brunes"], "accept": ["brune"],
+      "examples": [
+        { "fr": "Léa a les cheveux **bruns**.", "en": "Léa has brown hair." },
+        { "fr": "Sa sœur est **brune**.", "en": "His sister has dark hair." },
+        { "fr": "Il a les yeux **bruns**.", "en": "He has brown eyes." }
+      ] },
+    { "id": "blond", "fr": "blond", "pos": "adj", "ipa": "blɔ̃", "display": "blond(e)", "en": "blond, fair-haired",
+      "def": "Jaune clair, pour les cheveux.", "def_en": "Light yellow, for hair.",
+      "forms": ["blonde", "blonds", "blondes"], "accept": ["blonde"],
+      "examples": [
+        { "fr": "Les cheveux de maman sont **blonds**.", "en": "Mum's hair is blond." },
+        { "fr": "Lou est **blonde**.", "en": "Lou is blonde." },
+        { "fr": "Il y a un garçon **blond** dans la classe.", "en": "There's a blond boy in the class." }
+      ],
+      "note": "**une bière blonde** = a lager." },
+    { "id": "clair", "fr": "clair", "pos": "adj", "ipa": "klɛʁ", "display": "clair(e)", "en": "light (colour); clear, bright",
+      "def": "Avec beaucoup de lumière : bleu clair.", "def_en": "With lots of light: light blue.",
+      "forms": ["claire", "clairs", "claires"], "accept": ["claire"],
+      "examples": [
+        { "fr": "Le ciel est bleu **clair**.", "en": "The sky is light blue." },
+        { "fr": "Cette pièce est très **claire**.", "en": "This room is very bright." },
+        { "fr": "Je préfère les couleurs **claires**.", "en": "I prefer light colours." }
+      ],
+      "note": "After a colour, **clair** never changes: *une robe bleu clair*." },
+    { "id": "fonce", "fr": "foncé", "pos": "adj", "ipa": "fɔ̃.se", "display": "foncé(e)", "en": "dark (colour)",
+      "def": "Le contraire de « clair » : bleu foncé.", "def_en": "The opposite of “light”: dark blue.",
+      "forms": ["foncée", "foncés", "foncées"], "accept": ["foncée", "fonce"],
+      "examples": [
+        { "fr": "La mer est bleu **foncé**.", "en": "The sea is dark blue." },
+        { "fr": "Il porte un pantalon vert **foncé**.", "en": "He's wearing dark green trousers." },
+        { "fr": "Je n'aime pas les couleurs **foncées**.", "en": "I don't like dark colours." }
+      ],
+      "note": "After a colour, **foncé** never changes: *une veste bleu foncé*." },
+    { "id": "nouveau", "fr": "nouveau", "pos": "adj", "ipa": "nu.vo", "display": "nouveau, nouvelle", "en": "new",
+      "def": "Le contraire de « vieux » pour une chose : une nouvelle robe.", "def_en": "The opposite of “old” for a thing: a new dress.",
+      "extra": "**nouveau** (m.), **nouvelle** (f.), **nouveaux**, **nouvelles**. Before a masculine vowel: **nouvel** (*un nouvel appartement*). It goes **before** the noun.",
+      "forms": ["nouvelle", "nouveaux", "nouvelles", "nouvel"], "accept": ["nouvelle"],
+      "examples": [
+        { "fr": "Tu aimes ma **nouvelle** robe ?", "en": "Do you like my new dress?" },
+        { "fr": "J'ai un **nouveau** [téléphone|telephone].", "en": "I have a new phone." },
+        { "fr": "C'est un **nouvel** appartement.", "en": "It's a new apartment." }
+      ] },
+    { "id": "court", "fr": "court", "pos": "adj", "ipa": "kuʁ", "display": "court(e)", "en": "short",
+      "def": "Le contraire de « long ».", "def_en": "The opposite of “long”.",
+      "forms": ["courte", "courts", "courtes"], "accept": ["courte"],
+      "examples": [
+        { "fr": "Cette jupe est trop **courte**.", "en": "This skirt is too short." },
+        { "fr": "Il a les cheveux **courts**.", "en": "He has short hair." },
+        { "fr": "C'est un film très **court**.", "en": "It's a very short film." }
+      ],
+      "note": "For a short *person*, say **petit**." },
+    { "id": "long", "fr": "long", "pos": "adj", "ipa": "lɔ̃", "display": "long, longue", "en": "long",
+      "def": "Le contraire de « court ».", "def_en": "The opposite of “short”.",
+      "forms": ["longue", "longs", "longues"], "accept": ["longue"],
+      "examples": [
+        { "fr": "Elle a les cheveux **longs**.", "en": "She has long hair." },
+        { "fr": "Je cherche une robe **longue**.", "en": "I'm looking for a long dress." },
+        { "fr": "Le repas est très **long**.", "en": "The meal is very long." }
+      ],
+      "note": "Irregular feminine: **longue** /lɔ̃ɡ/." },
+    { "id": "mode", "fr": "mode", "pos": "noun", "g": "f", "ipa": "mɔd", "en": "fashion",
+      "def": "Ce que les gens aiment porter maintenant. « À la mode » = très moderne.", "def_en": "What people like to wear right now. “À la mode” = fashionable.",
+      "examples": [
+        { "fr": "Cette robe est à la **mode**.", "en": "This dress is fashionable." },
+        { "fr": "Paris, c'est la ville de la **mode**.", "en": "Paris is the city of fashion." },
+        { "fr": "Hugo ne suit pas la **mode**.", "en": "Hugo doesn't follow fashion." }
+      ] }
+  ],
+  "story": {
+    "title": "Lou apprend les couleurs",
+    "en": "Léa teaches her little sister the colours.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Léa est chez ses parents. Elle dessine avec Lou.", "en": "Léa is at her parents' house. She's drawing with Lou." },
+      { "sp": "Léa", "fr": "Lou, tu connais les couleurs ?", "en": "Lou, do you know the colours?" },
+      { "sp": "Lou", "fr": "Oui ! Rouge, bleu, vert…", "en": "Yes! Red, blue, green…" },
+      { "sp": "Léa", "fr": "Bravo ! Regarde mon dessin. Le ciel est bleu clair, et la mer est bleu foncé.", "en": "Well done! Look at my drawing. The sky is light blue, and the sea is dark blue." },
+      { "sp": "Lou", "fr": "Et le soleil est jaune !", "en": "And the sun is yellow!" },
+      { "sp": "Léa", "fr": "Oui. L'herbe est verte, et les fleurs sont roses et violettes.", "en": "Yes. The grass is green, and the flowers are pink and purple." },
+      { "sp": "Lou", "fr": "Et le chat ?", "en": "And the cat?" },
+      { "sp": "Léa", "fr": "Le chat est gris, avec un petit nez rose.", "en": "The cat is grey, with a little pink nose." },
+      { "sp": "Lou", "fr": "Et toi, Léa ? Ta robe, c'est quelle couleur ?", "en": "And you, Léa? What colour is your dress?" },
+      { "sp": "Léa", "fr": "Ma robe est orange, et mes chaussures sont marron.", "en": "My dress is orange, and my shoes are brown." },
+      { "sp": "Lou", "fr": "Et tes cheveux sont bruns ! Les cheveux de maman sont blonds.", "en": "And your hair is brown! Mum's hair is blond." },
+      { "sp": "", "fr": "Anne arrive avec une nouvelle robe noire.", "en": "Anne arrives in a new black dress." },
+      { "sp": "Anne", "fr": "Regardez ! C'est ma nouvelle robe. Elle est à la mode, non ?", "en": "Look! It's my new dress. It's fashionable, isn't it?" },
+      { "sp": "Léa", "fr": "Elle est très belle, maman ! Mais elle est un peu courte…", "en": "It's very beautiful, mum! But it's a bit short…" },
+      { "sp": "Anne", "fr": "Courte ? Les robes longues, ce n'est pas à la mode !", "en": "Short? Long dresses aren't in fashion!" },
+      { "sp": "Lou", "fr": "Moi, je veux une robe rouge, blanche et… arc-en-ciel !", "en": "I want a red, white and… rainbow dress!" }
+    ]
+  }
+}

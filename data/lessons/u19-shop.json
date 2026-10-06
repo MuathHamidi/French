@@ -1,0 +1,250 @@
+{
+  "id": "u19-shop",
+  "type": "vocab",
+  "unit": 19,
+  "title": "Au magasin",
+  "en": "Shopping",
+  "intro": "25 words for shopping: buying and selling, prices and special offers, the checkout and the receipt, shoe sizes, exchanges and refunds. Two useful questions: **Ça coûte combien ?** (How much is it?) and **Je peux payer par carte ?** (Can I pay by card?)",
+  "words": [
+    { "id": "courses", "fr": "courses", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "kuʁs", "en": "shopping (food, everyday things)",
+      "def": "Ce qu'on achète pour la maison : la nourriture, les produits de tous les jours.", "def_en": "What you buy for the home: food, everyday products.",
+      "examples": [
+        { "fr": "Je fais les **courses** le samedi.", "en": "I do the shopping on Saturdays." },
+        { "fr": "Tu peux m'aider à porter les **courses** ?", "en": "Can you help me carry the shopping?" },
+        { "fr": "J'ai oublié la liste de **courses** !", "en": "I've forgotten the shopping list!" }
+      ],
+      "note": "**faire les courses** = to do the (food) shopping; **faire du shopping** = to go shopping for fun. Careful: **une course** is also a race!" },
+    { "id": "acheter", "fr": "acheter", "pos": "verb", "ipa": "aʃ.te", "en": "to buy",
+      "def": "Donner de l'argent pour avoir une chose.", "def_en": "To give money to get something.",
+      "extra": "e → è before a silent ending: j'**achète**, tu **achètes**, il **achète**, nous **achetons**, vous **achetez**, ils **achètent**.",
+      "forms": ["achète", "achètes", "achetons", "achetez", "achètent", "acheté", "achetée", "achetés", "achetées", "achetais", "achetait", "achetions", "achetiez", "achetaient", "achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront"],
+      "examples": [
+        { "fr": "J'**achète** du pain à la boulangerie.", "en": "I buy bread at the bakery." },
+        { "fr": "Qu'est-ce que tu as **acheté** ?", "en": "What did you buy?" },
+        { "fr": "On **achète** un cadeau pour Lou ?", "en": "Shall we buy a present for Lou?" }
+      ] },
+    { "id": "vendre", "fr": "vendre", "pos": "verb", "ipa": "vɑ̃dʁ", "en": "to sell",
+      "def": "Donner une chose contre de l'argent.", "def_en": "To give something in exchange for money.",
+      "forms": ["vends", "vend", "vendons", "vendez", "vendent", "vendu", "vendue", "vendus", "vendues", "vendais", "vendait", "vendions", "vendiez", "vendaient", "vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront"],
+      "examples": [
+        { "fr": "Tom **vend** des guitares.", "en": "Tom sells guitars." },
+        { "fr": "Ils **vendent** leur voiture.", "en": "They're selling their car." },
+        { "fr": "Maison à **vendre**.", "en": "House for sale." }
+      ] },
+    { "id": "payer", "fr": "payer", "pos": "verb", "ipa": "pe.je", "en": "to pay (for)",
+      "def": "Donner l'argent qu'on doit pour une chose.", "def_en": "To give the money you owe for something.",
+      "extra": "je **paie** or je **paye**, nous **payons**, ils **paient**; j'ai **payé**.",
+      "forms": ["paie", "paies", "payons", "payez", "paient", "paye", "payes", "payent", "payé", "payée", "payais", "payait", "payions", "payiez", "payaient", "paierai", "paieras", "paiera", "paierons", "paierez", "paieront", "payerai", "payeras", "payera", "payerons", "payerez", "payeront"],
+      "examples": [
+        { "fr": "Je **paie** par carte.", "en": "I'll pay by card." },
+        { "fr": "C'est moi qui **paie** !", "en": "It's on me!" },
+        { "fr": "Tu as **payé** combien ?", "en": "How much did you pay?" }
+      ],
+      "note": "No preposition: **payer le café** = to pay **for** the coffee." },
+    { "id": "couter", "fr": "coûter", "pos": "verb", "ipa": "ku.te", "en": "to cost",
+      "def": "Avoir un prix : ça coûte dix euros.", "def_en": "To have a price: it costs ten euros.",
+      "forms": ["coûte", "coûtent", "coûté", "coûtait", "coûtaient", "coûterai", "coûteras", "coûtera", "coûterons", "coûterez", "coûteront"],
+      "examples": [
+        { "fr": "Ça **coûte** combien ?", "en": "How much does it cost?" },
+        { "fr": "Ces chaussures **coûtent** cent euros.", "en": "These shoes cost a hundred euros." },
+        { "fr": "Ça **coûte** trop cher !", "en": "It's too expensive!" }
+      ] },
+    { "id": "prix", "fr": "prix", "pos": "noun", "g": "m", "ipa": "pʁi", "en": "price; prize",
+      "def": "Combien coûte une chose.", "def_en": "How much something costs.",
+      "examples": [
+        { "fr": "Quel est le **prix** de cette robe ?", "en": "What's the price of this dress?" },
+        { "fr": "Les **prix** augmentent.", "en": "Prices are going up." },
+        { "fr": "Elle a gagné le premier **prix** !", "en": "She won first prize!" }
+      ],
+      "note": "The **x** is silent: /pʁi/. Same spelling in the plural." },
+    { "id": "caisse", "fr": "caisse", "pos": "noun", "g": "f", "ipa": "kɛs", "en": "checkout, till",
+      "def": "L'endroit du magasin où on paie.", "def_en": "The place in the shop where you pay.",
+      "forms": ["caisses"],
+      "examples": [
+        { "fr": "Payez à la **caisse**, s'il vous plaît.", "en": "Please pay at the checkout." },
+        { "fr": "Il y a une longue queue à la **caisse**.", "en": "There's a long queue at the till." },
+        { "fr": "La **caisse** numéro trois est fermée.", "en": "Checkout number three is closed." }
+      ] },
+    { "id": "caissier", "fr": "caissier", "pos": "noun", "g": "m", "ipa": "kɛ.sje", "display": "le caissier, la caissière", "en": "cashier, checkout assistant",
+      "def": "La personne qui travaille à la caisse.", "def_en": "The person who works on the till.",
+      "forms": ["caissière", "caissiers", "caissières"],
+      "accept": ["caissière", "la caissière", "une caissière"],
+      "examples": [
+        { "fr": "Le **caissier** me rend la monnaie.", "en": "The cashier gives me my change." },
+        { "fr": "La **caissière** est très sympa.", "en": "The checkout assistant is very nice." },
+        { "fr": "Elle travaille comme **caissière** au supermarché.", "en": "She works as a cashier at the supermarket." }
+      ] },
+    { "id": "rayon", "fr": "rayon", "pos": "noun", "g": "m", "ipa": "ʁɛ.jɔ̃", "en": "aisle, department (in a shop)",
+      "def": "Une partie du magasin : le rayon des fruits, le rayon des vêtements…", "def_en": "A part of the shop: the fruit aisle, the clothes department…",
+      "forms": ["rayons"],
+      "examples": [
+        { "fr": "Le lait est au **rayon** frais.", "en": "The milk is in the chilled aisle." },
+        { "fr": "Où est le **rayon** des jouets ?", "en": "Where's the toy department?" },
+        { "fr": "Ce livre est au **rayon** enfants.", "en": "This book is in the children's section." }
+      ] },
+    { "id": "vitrine", "fr": "vitrine", "pos": "noun", "g": "f", "ipa": "vi.tʁin", "en": "shop window",
+      "def": "La grande fenêtre d'un magasin, où on montre les produits.", "def_en": "The big window of a shop, where products are displayed.",
+      "forms": ["vitrines"],
+      "examples": [
+        { "fr": "Regarde la robe dans la **vitrine** !", "en": "Look at the dress in the window!" },
+        { "fr": "À Noël, les **vitrines** sont magnifiques.", "en": "At Christmas, the shop windows are magnificent." },
+        { "fr": "Lou regarde les jouets dans la **vitrine**.", "en": "Lou looks at the toys in the window." }
+      ],
+      "note": "**faire du lèche-vitrines** = to go window-shopping (literally, window-licking)!" },
+    { "id": "boutique", "fr": "boutique", "pos": "noun", "g": "f", "ipa": "bu.tik", "en": "(small) shop, boutique",
+      "def": "Un petit magasin, souvent de vêtements ou de cadeaux.", "def_en": "A small shop, often for clothes or gifts.",
+      "forms": ["boutiques"],
+      "examples": [
+        { "fr": "Il y a une jolie **boutique** dans ma rue.", "en": "There's a nice little shop in my street." },
+        { "fr": "Cette **boutique** vend des chapeaux.", "en": "This shop sells hats." },
+        { "fr": "La **boutique** du musée est fermée.", "en": "The museum shop is closed." }
+      ] },
+    { "id": "centre-commercial", "fr": "centre commercial", "pos": "noun", "g": "m", "ipa": "sɑ̃tʁ kɔ.mɛʁ.sjal", "en": "shopping centre, mall",
+      "def": "Un grand bâtiment avec beaucoup de magasins.", "def_en": "A big building with lots of shops.",
+      "forms": ["centres commerciaux"],
+      "examples": [
+        { "fr": "Le samedi, le **centre commercial** est plein de monde.", "en": "On Saturdays, the shopping centre is packed." },
+        { "fr": "On se retrouve devant le **centre commercial** ?", "en": "Shall we meet outside the shopping centre?" },
+        { "fr": "Il y a un cinéma dans le **centre commercial**.", "en": "There's a cinema in the shopping centre." }
+      ] },
+    { "id": "chariot", "fr": "chariot", "pos": "noun", "g": "m", "ipa": "ʃa.ʁjo", "en": "(shopping) trolley",
+      "def": "Un grand panier avec des roues, au supermarché.", "def_en": "A big basket on wheels, at the supermarket.",
+      "forms": ["chariots"],
+      "examples": [
+        { "fr": "Prends un **chariot**, on a beaucoup de courses !", "en": "Get a trolley, we've got lots of shopping!" },
+        { "fr": "Lou veut monter dans le **chariot**.", "en": "Lou wants to ride in the trolley." },
+        { "fr": "Le **chariot** est plein.", "en": "The trolley is full." }
+      ] },
+    { "id": "panier", "fr": "panier", "pos": "noun", "g": "m", "ipa": "pa.nje", "en": "basket",
+      "def": "Un petit sac ou une petite boîte, pour porter les courses.", "def_en": "A small bag or container for carrying your shopping.",
+      "forms": ["paniers"],
+      "examples": [
+        { "fr": "Je prends un **panier**, j'achète juste du pain.", "en": "I'll take a basket, I'm only buying bread." },
+        { "fr": "Le **panier** de pique-nique est dans la voiture.", "en": "The picnic basket is in the car." },
+        { "fr": "Mets les fruits dans le **panier**.", "en": "Put the fruit in the basket." }
+      ] },
+    { "id": "soldes", "fr": "soldes", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "sɔld", "en": "the sales",
+      "def": "Les semaines où les magasins vendent moins cher, en janvier et en été.", "def_en": "The weeks when shops sell things cheaper, in January and in summer.",
+      "examples": [
+        { "fr": "Les **soldes** commencent en janvier.", "en": "The sales start in January." },
+        { "fr": "J'ai acheté ce manteau en **soldes**.", "en": "I bought this coat in the sales." },
+        { "fr": "Pendant les **soldes**, il y a beaucoup de monde.", "en": "During the sales, it's very crowded." }
+      ],
+      "note": "**les soldes** is masculine plural. **en soldes** = in the sales." },
+    { "id": "promotion", "fr": "promotion", "pos": "noun", "g": "f", "ipa": "pʁɔ.mo.sjɔ̃", "en": "special offer; promotion (at work)",
+      "def": "Un prix plus bas, pendant quelques jours.", "def_en": "A lower price, for a few days.",
+      "forms": ["promotions"],
+      "examples": [
+        { "fr": "Les pommes sont en **promotion** cette semaine.", "en": "Apples are on special offer this week." },
+        { "fr": "Deux pour le prix d'un : c'est une **promotion** !", "en": "Two for the price of one: it's a special offer!" },
+        { "fr": "Hugo a eu une **promotion** au travail.", "en": "Hugo got a promotion at work." }
+      ],
+      "note": "**en promotion** (or **en promo**) = on special offer." },
+    { "id": "reduction", "fr": "réduction", "pos": "noun", "g": "f", "ipa": "ʁe.dyk.sjɔ̃", "en": "discount, reduction",
+      "def": "Une partie du prix qu'on ne paie pas.", "def_en": "Part of the price that you don't pay.",
+      "forms": ["réductions"],
+      "examples": [
+        { "fr": "Les étudiants ont une **réduction** au cinéma.", "en": "Students get a discount at the cinema." },
+        { "fr": "Vous avez une **réduction** de vingt pour cent.", "en": "You have a twenty per cent discount." },
+        { "fr": "Il y a une **réduction** pour les enfants ?", "en": "Is there a discount for children?" }
+      ] },
+    { "id": "gratuit", "fr": "gratuit", "pos": "adj", "ipa": "ɡʁa.tɥi", "display": "gratuit, gratuite", "en": "free (no money)",
+      "def": "Qu'on n'a pas besoin de payer.", "def_en": "That you don't have to pay for.",
+      "forms": ["gratuite", "gratuits", "gratuites"],
+      "accept": ["gratuite"],
+      "examples": [
+        { "fr": "L'entrée est **gratuite** pour les enfants.", "en": "Entry is free for children." },
+        { "fr": "Le wifi est **gratuit** ?", "en": "Is the wifi free?" },
+        { "fr": "Rien n'est **gratuit** !", "en": "Nothing's free!" }
+      ],
+      "note": "*Free* meaning *not busy* is **libre**: *Tu es libre ce soir ?*" },
+    { "id": "ouvert", "fr": "ouvert", "pos": "adj", "ipa": "u.vɛʁ", "display": "ouvert, ouverte", "en": "open",
+      "def": "Pour un magasin : on peut entrer et acheter.", "def_en": "For a shop: you can go in and buy things.",
+      "forms": ["ouverte", "ouverts", "ouvertes"],
+      "accept": ["ouverte"],
+      "examples": [
+        { "fr": "La boulangerie est **ouverte** le dimanche matin.", "en": "The bakery is open on Sunday mornings." },
+        { "fr": "Le magasin est **ouvert** de neuf heures à dix-neuf heures.", "en": "The shop is open from 9 a.m. to 7 p.m." },
+        { "fr": "La porte est **ouverte**, entrez !", "en": "The door's open, come in!" }
+      ] },
+    { "id": "ferme", "fr": "fermé", "pos": "adj", "ipa": "fɛʁ.me", "display": "fermé, fermée", "en": "closed, shut",
+      "def": "Le contraire d'ouvert.", "def_en": "The opposite of open.",
+      "forms": ["fermée", "fermés", "fermées"],
+      "accept": ["fermée"],
+      "examples": [
+        { "fr": "Le musée est **fermé** le lundi.", "en": "The museum is closed on Mondays." },
+        { "fr": "La pharmacie est **fermée** : c'est dimanche.", "en": "The chemist's is closed: it's Sunday." },
+        { "fr": "[Garde|garder] la fenêtre **fermée**, il fait froid.", "en": "Keep the window shut, it's cold." }
+      ] },
+    { "id": "pointure", "fr": "pointure", "pos": "noun", "g": "f", "ipa": "pwɛ̃.tyʁ", "en": "shoe size",
+      "def": "La taille des chaussures.", "def_en": "Shoe size.",
+      "forms": ["pointures"],
+      "examples": [
+        { "fr": "Quelle est votre **pointure** ? — Du trente-huit.", "en": "What's your shoe size? — Thirty-eight." },
+        { "fr": "Vous avez la **pointure** au-dessus ?", "en": "Have you got the next size up?" },
+        { "fr": "Lou change de **pointure** tous les six mois !", "en": "Lou goes up a shoe size every six months!" }
+      ],
+      "note": "For clothes: **la taille**; for shoes: **la pointure**." },
+    { "id": "ticket-de-caisse", "fr": "ticket de caisse", "pos": "noun", "g": "m", "ipa": "ti.kɛ də kɛs", "en": "receipt",
+      "def": "Le petit papier qu'on reçoit à la caisse, avec les prix.", "def_en": "The little piece of paper you get at the till, with the prices.",
+      "forms": ["tickets de caisse"],
+      "examples": [
+        { "fr": "Gardez votre **ticket de caisse**.", "en": "Keep your receipt." },
+        { "fr": "Sans **ticket de caisse**, on ne peut pas échanger.", "en": "Without a receipt, you can't exchange it." },
+        { "fr": "Le **ticket de caisse** est dans le sac.", "en": "The receipt is in the bag." }
+      ] },
+    { "id": "rembourser", "fr": "rembourser", "pos": "verb", "ipa": "ʁɑ̃.buʁ.se", "en": "to refund; to pay back",
+      "def": "Rendre l'argent : un magasin rembourse un produit, ou on rembourse une personne.", "def_en": "To give money back: a shop refunds a product, or you pay someone back.",
+      "forms": ["rembourse", "rembourses", "remboursons", "remboursez", "remboursent", "remboursé", "remboursée", "remboursais", "remboursait", "remboursions", "remboursiez", "remboursaient", "rembourserai", "rembourseras", "remboursera", "rembourserons", "rembourserez", "rembourseront"],
+      "examples": [
+        { "fr": "Le magasin m'a **remboursé**.", "en": "The shop gave me a refund." },
+        { "fr": "Je te **rembourse** demain, promis !", "en": "I'll pay you back tomorrow, I promise!" },
+        { "fr": "Satisfait ou **remboursé** !", "en": "Satisfaction or your money back!" }
+      ] },
+    { "id": "echanger", "fr": "échanger", "pos": "verb", "ipa": "e.ʃɑ̃.ʒe", "en": "to exchange, to swap",
+      "def": "Donner une chose et prendre une autre chose à la place.", "def_en": "To give one thing and take another instead.",
+      "extra": "-ger verb: nous **échangeons**, j'**échangeais**.",
+      "forms": ["échange", "échanges", "échangeons", "échangez", "échangent", "échangé", "échangée", "échangeais", "échangeait", "échangions", "échangiez", "échangeaient", "échangerai", "échangeras", "échangera", "échangerons", "échangerez", "échangeront"],
+      "examples": [
+        { "fr": "Je peux **échanger** ce pull ? Il est trop petit.", "en": "Can I exchange this jumper? It's too small." },
+        { "fr": "On **échange** nos places ?", "en": "Shall we swap seats?" },
+        { "fr": "Les enfants **échangent** des cartes à la récré.", "en": "The children swap cards at break." }
+      ] },
+    { "id": "commander", "fr": "commander", "pos": "verb", "ipa": "kɔ.mɑ̃.de", "en": "to order (in a café, online)",
+      "def": "Demander un produit au café, au restaurant ou sur internet.", "def_en": "To ask for something in a café, a restaurant or online.",
+      "forms": ["commande", "commandes", "commandons", "commandez", "commandent", "commandé", "commandée", "commandés", "commandées", "commandais", "commandait", "commandions", "commandiez", "commandaient", "commanderai", "commanderas", "commandera", "commanderons", "commanderez", "commanderont"],
+      "examples": [
+        { "fr": "Je **commande** un café, et toi ?", "en": "I'm ordering a coffee, what about you?" },
+        { "fr": "J'ai **commandé** des livres sur internet.", "en": "I ordered some books online." },
+        { "fr": "Lou **commande** une glace au chocolat.", "en": "Lou orders a chocolate ice cream." }
+      ],
+      "note": "The noun is **une commande** (an order)." }
+  ],
+  "story": {
+    "title": "Les cadeaux de Noël",
+    "en": "Early December: Léa and Sophie go Christmas shopping.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début décembre, Léa et Sophie vont au centre commercial de la Part-Dieu pour acheter des cadeaux de Noël.", "en": "Early December: Léa and Sophie go to the Part-Dieu shopping centre to buy Christmas presents." },
+      { "sp": "Sophie", "fr": "Regarde les vitrines ! C'est magnifique !", "en": "Look at the shop windows! They're gorgeous!" },
+      { "sp": "Léa", "fr": "Oui, mais tout coûte cher ! Et les soldes, c'est seulement en janvier…", "en": "Yes, but everything's expensive! And the sales aren't until January…" },
+      { "sp": "Sophie", "fr": "Attends, cette boutique fait des promotions : moins trente pour cent !", "en": "Wait, this shop has special offers: thirty per cent off!" },
+      { "sp": "", "fr": "Dans la boutique, on vend des chaussures et des sacs. Léa trouve des chaussures pour sa mère.", "en": "The shop sells shoes and bags. Léa finds some shoes for her mother." },
+      { "sp": "La vendeuse", "fr": "Quelle pointure ?", "en": "What size?" },
+      { "sp": "Léa", "fr": "Du trente-neuf. Et elles sont à quel prix ?", "en": "Thirty-nine. And how much are they?" },
+      { "sp": "La vendeuse", "fr": "Quatre-vingts euros… mais avec la réduction, ça fait cinquante-six euros.", "en": "Eighty euros… but with the discount, that comes to fifty-six." },
+      { "sp": "Léa", "fr": "Parfait, je les prends ! Et si la pointure ne va pas, je peux les échanger ?", "en": "Perfect, I'll take them! And if the size isn't right, can I exchange them?" },
+      { "sp": "La vendeuse", "fr": "Bien sûr, ou on vous rembourse. Gardez bien votre ticket de caisse !", "en": "Of course, or we'll refund you. Keep your receipt safe!" },
+      { "sp": "", "fr": "Ensuite, elles vont au supermarché du centre commercial. Sophie prend un chariot.", "en": "Next, they go to the supermarket in the shopping centre. Sophie takes a trolley." },
+      { "sp": "Léa", "fr": "Un chariot ? On a juste quelques courses. Un panier, c'est assez !", "en": "A trolley? We've only got a bit of shopping. A basket's enough!" },
+      { "sp": "", "fr": "Au rayon des jouets, Sophie trouve une grosse peluche pour Lou : un lapin blanc.", "en": "In the toy aisle, Sophie finds a big soft toy for Lou: a white rabbit." },
+      { "sp": "Sophie", "fr": "Et regarde : le papier cadeau est gratuit !", "en": "And look: the gift wrap is free!" },
+      { "sp": "", "fr": "À la caisse, il y a une longue queue. Le caissier est très lent.", "en": "At the checkout, there's a long queue. The cashier is very slow." },
+      { "sp": "Léa", "fr": "Vite, le magasin ferme dans dix minutes !", "en": "Quick, the shop closes in ten minutes!" },
+      { "sp": "Le caissier", "fr": "Ne vous inquiétez pas, mesdames : en décembre, c'est ouvert jusqu'à vingt et une heures !", "en": "Don't worry, ladies: in December we're open until nine p.m.!" },
+      { "sp": "", "fr": "Léa paie avec sa carte. Mais à la maison, surprise : les chaussures ne sont pas dans le sac !", "en": "Léa pays by card. But at home, surprise: the shoes aren't in the bag!" },
+      { "sp": "Sophie", "fr": "Ah… Je crois qu'elles sont restées à la caisse. Et maintenant, le magasin est fermé !", "en": "Ah… I think they got left at the till. And now the shop's closed!" },
+      { "sp": "Léa", "fr": "Tant pis. Demain, j'y retourne avec mon ticket de caisse… ou je les commande sur internet !", "en": "Never mind. Tomorrow I'll go back with my receipt… or I'll order them online!" }
+    ]
+  }
+}

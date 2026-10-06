@@ -1,0 +1,233 @@
+{
+  "id": "u12-outdoor",
+  "type": "vocab",
+  "unit": 12,
+  "title": "En plein air",
+  "en": "Outdoor activities",
+  "intro": "22 words for getting outside: hiking, camping, boats, fishing and swimming in the lake. Some of the verbs are **-ir** and **-re** verbs (*découvrir, cueillir, se perdre*); the next grammar lesson shows how that whole family works.",
+  "words": [
+    { "id": "en-plein-air", "fr": "en plein air", "pos": "expr", "ipa": "ɑ̃ plɛ.nɛʁ", "en": "outdoors, in the open air",
+      "def": "Dehors, dans la nature, pas dans une maison.", "def_en": "Outside, in nature, not in a building.",
+      "examples": [
+        { "fr": "On mange **en plein air** ?", "en": "Shall we eat outside?" },
+        { "fr": "J'adore les activités **en plein air**.", "en": "I love outdoor activities." },
+        { "fr": "Il y a un concert **en plein air** au parc.", "en": "There's an open-air concert in the park." }
+      ],
+      "note": "**plein** = full: literally *in full air*. With a liaison: /ɑ̃.plɛ.nɛʁ/." },
+    { "id": "randonnee", "fr": "randonnée", "pos": "noun", "g": "f", "ipa": "ʁɑ̃.dɔ.ne", "en": "hike; hiking",
+      "def": "Une longue promenade à pied, dans la nature.", "def_en": "A long walk on foot, in nature.",
+      "forms": ["randonnées"],
+      "examples": [
+        { "fr": "On fait une **randonnée** dimanche ?", "en": "Shall we go hiking on Sunday?" },
+        { "fr": "La **randonnée** dure cinq heures.", "en": "The hike takes five hours." },
+        { "fr": "J'aime la **randonnée** en montagne.", "en": "I like hiking in the mountains." }
+      ],
+      "note": "**faire une randonnée** = to go on a hike. In speech: **une rando**." },
+    { "id": "sentier", "fr": "sentier", "pos": "noun", "g": "m", "ipa": "sɑ̃.tje", "en": "path, trail",
+      "def": "Un petit chemin dans la nature, pour marcher.", "def_en": "A small path in nature, for walking.",
+      "forms": ["sentiers"],
+      "examples": [
+        { "fr": "On suit le **sentier** jusqu'au lac.", "en": "We follow the trail to the lake." },
+        { "fr": "Ce **sentier** monte au sommet.", "en": "This path goes up to the summit." },
+        { "fr": "Ne quittez pas le **sentier** !", "en": "Don't leave the path!" }
+      ],
+      "note": "A **sentier** is narrower than a **chemin**." },
+    { "id": "carte", "fr": "carte", "pos": "noun", "g": "f", "ipa": "kaʁt", "en": "map; card",
+      "def": "Le dessin d'une région ou d'un pays, pour trouver son chemin. Aussi : une carte bancaire, une carte postale.", "def_en": "A drawing of a region or a country, to find your way. Also: a bank card, a postcard.",
+      "forms": ["cartes"],
+      "examples": [
+        { "fr": "Regarde la **carte** : où est le lac ?", "en": "Look at the map: where's the lake?" },
+        { "fr": "J'envoie une **carte** à ma grand-mère.", "en": "I'm sending a card to my grandmother." },
+        { "fr": "Je peux payer par **carte** ?", "en": "Can I pay by card?" }
+      ],
+      "note": "In a restaurant, **la carte** is the menu. A map of a town is usually **un plan**." },
+    { "id": "sac-a-dos", "fr": "sac à dos", "pos": "noun", "g": "m", "ipa": "sak a do", "en": "backpack, rucksack",
+      "def": "Un sac qu'on porte sur le dos.", "def_en": "A bag you carry on your back.",
+      "forms": ["sacs à dos"],
+      "examples": [
+        { "fr": "Mets la gourde dans ton **sac à dos**.", "en": "Put the water bottle in your backpack." },
+        { "fr": "Mon **sac à dos** est trop lourd !", "en": "My backpack is too heavy!" },
+        { "fr": "Tu as un **sac à dos** pour la randonnée ?", "en": "Have you got a backpack for the hike?" }
+      ],
+      "note": "**le dos** = the back. The **s** is silent: /do/." },
+    { "id": "gourde", "fr": "gourde", "pos": "noun", "g": "f", "ipa": "ɡuʁd", "en": "water bottle",
+      "def": "Une bouteille pour emporter de l'eau quand on marche.", "def_en": "A bottle for taking water with you when you walk.",
+      "forms": ["gourdes"],
+      "examples": [
+        { "fr": "N'oublie pas ta **gourde** !", "en": "Don't forget your water bottle!" },
+        { "fr": "Ma **gourde** est vide.", "en": "My water bottle is empty." },
+        { "fr": "Il fait chaud : [bois|boire] de l'eau de ta **gourde**.", "en": "It's hot: drink some water from your bottle." }
+      ] },
+    { "id": "camping", "fr": "camping", "pos": "noun", "g": "m", "ipa": "kɑ̃.piŋ", "en": "camping; campsite",
+      "def": "Dormir dehors, sous une tente. Aussi : l'endroit où on met les tentes.", "def_en": "Sleeping outside, in a tent. Also: the place where you pitch tents.",
+      "forms": ["campings"],
+      "examples": [
+        { "fr": "Cet été, on fait du **camping** !", "en": "This summer, we're going camping!" },
+        { "fr": "Le **camping** est au bord du lac.", "en": "The campsite is on the edge of the lake." },
+        { "fr": "Tu aimes le **camping** ?", "en": "Do you like camping?" }
+      ],
+      "note": "An English word, said the French way: /kɑ̃.piŋ/. **faire du camping** = to go camping; **un camping** = a campsite." },
+    { "id": "tente", "fr": "tente", "pos": "noun", "g": "f", "ipa": "tɑ̃t", "en": "tent",
+      "def": "Une petite maison en tissu, pour dormir dehors.", "def_en": "A small house made of fabric, for sleeping outside.",
+      "forms": ["tentes"],
+      "examples": [
+        { "fr": "On monte la **tente** près de la rivière.", "en": "We put up the tent near the river." },
+        { "fr": "Nous dormons sous la **tente**.", "en": "We sleep in the tent." },
+        { "fr": "La **tente** est trop petite pour quatre !", "en": "The tent is too small for four!" }
+      ],
+      "note": "**monter la tente** = to put up the tent. *Sous la tente* = in the tent (literally: under it)." },
+    { "id": "feu-de-camp", "fr": "feu de camp", "pos": "noun", "g": "m", "ipa": "fø də kɑ̃", "en": "campfire",
+      "def": "Un feu qu'on fait dehors, le soir, pour avoir chaud et chanter.", "def_en": "A fire you make outside in the evening, to keep warm and sing.",
+      "forms": ["feux de camp"],
+      "examples": [
+        { "fr": "Le soir, on fait un **feu de camp**.", "en": "In the evening, we make a campfire." },
+        { "fr": "On chante autour du **feu de camp**.", "en": "We sing around the campfire." },
+        { "fr": "Attention : les **feux de camp** sont interdits ici.", "en": "Careful: campfires are not allowed here." }
+      ],
+      "note": "**un feu** = a fire (and a traffic light!)." },
+    { "id": "peche", "fr": "pêche", "pos": "noun", "g": "f", "ipa": "pɛʃ", "en": "fishing; peach",
+      "def": "Le loisir où on attrape des poissons. Aussi : un fruit rond, doux et sucré.", "def_en": "The hobby of catching fish. Also: a round, soft, sweet fruit.",
+      "forms": ["pêches"],
+      "examples": [
+        { "fr": "Mon grand-père va à la **pêche** le dimanche.", "en": "My grandfather goes fishing on Sundays." },
+        { "fr": "La **pêche** est interdite dans ce lac.", "en": "Fishing is not allowed in this lake." },
+        { "fr": "J'adore les **pêches** en été.", "en": "I love peaches in summer." }
+      ],
+      "note": "**aller à la pêche** = to go fishing. The fruit has the same name: *une pêche* = a peach." },
+    { "id": "bateau", "fr": "bateau", "pos": "noun", "g": "m", "ipa": "ba.to", "en": "boat",
+      "def": "Il transporte des personnes ou des choses sur l'eau.", "def_en": "It carries people or things on the water.",
+      "forms": ["bateaux"],
+      "examples": [
+        { "fr": "On fait un tour en **bateau** sur le lac.", "en": "We go for a boat trip on the lake." },
+        { "fr": "Le **bateau** part à dix heures.", "en": "The boat leaves at ten." },
+        { "fr": "Il y a des **bateaux** sur la rivière.", "en": "There are boats on the river." }
+      ],
+      "note": "Plural: **-eau → -eaux**: *des bateaux* (like *des gâteaux, des oiseaux*)." },
+    { "id": "moustique", "fr": "moustique", "pos": "noun", "g": "m", "ipa": "mus.tik", "en": "mosquito",
+      "def": "Un petit insecte qui pique. Après, la peau gratte !", "def_en": "A small insect that bites. Afterwards, your skin itches!",
+      "forms": ["moustiques"],
+      "examples": [
+        { "fr": "Il y a des **moustiques** près du lac.", "en": "There are mosquitoes near the lake." },
+        { "fr": "[Ferme|fermer] la tente : les **moustiques** arrivent !", "en": "Close the tent: the mosquitoes are coming!" },
+        { "fr": "Je déteste les **moustiques** !", "en": "I hate mosquitoes!" }
+      ],
+      "note": "In French, mosquitoes **piquent** (sting): *ça pique* = it stings." },
+    { "id": "creme-solaire", "fr": "crème solaire", "pos": "noun", "g": "f", "ipa": "kʁɛm sɔ.lɛʁ", "en": "sunscreen, suncream",
+      "def": "Une crème qui protège la peau du soleil.", "def_en": "A cream that protects your skin from the sun.",
+      "examples": [
+        { "fr": "Mets de la **crème solaire** !", "en": "Put some sunscreen on!" },
+        { "fr": "La **crème solaire** est dans mon sac.", "en": "The sunscreen is in my bag." },
+        { "fr": "Sans **crème solaire**, tu vas être tout rouge !", "en": "Without sunscreen, you're going to be bright red!" }
+      ],
+      "note": "**solaire** = of the sun (*le soleil*), like English *solar*." },
+    { "id": "se-promener", "fr": "se promener", "pos": "verb", "ipa": "sə pʁɔm.ne", "en": "to go for a walk",
+      "def": "Marcher pour le plaisir, sans aller vite.", "def_en": "To walk for pleasure, without hurrying.",
+      "extra": "je **me promène** · tu **te promènes** · il **se promène** · nous **nous promenons** · vous **vous promenez** · ils **se promènent**: **è** when the ending is silent.",
+      "forms": ["me promène", "te promènes", "se promène", "nous nous promenons", "vous vous promenez", "se promènent", "promène", "promènes", "promenons", "promenez", "promènent", "promener", "promené", "promenée", "promenés", "promenées", "promenais", "promenait", "promenions", "promeniez", "promenaient", "me promènerai", "te promèneras", "se promènera", "nous nous promènerons", "vous vous promènerez", "se promèneront"],
+      "examples": [
+        { "fr": "On **se promène** dans la forêt ?", "en": "Shall we go for a walk in the forest?" },
+        { "fr": "Je **me promène** avec mon chien.", "en": "I go for a walk with my dog." },
+        { "fr": "Le dimanche, ils **se promènent** au bord du lac.", "en": "On Sundays, they walk along the lakeside." }
+      ],
+      "note": "Like *acheter*: **è** in *je me promène*, but **e** in *nous nous promenons*." },
+    { "id": "monter", "fr": "monter", "pos": "verb", "ipa": "mɔ̃.te", "en": "to go up, to climb; to get on",
+      "def": "Aller en haut. Le contraire de descendre.", "def_en": "To go up. The opposite of going down.",
+      "forms": ["monte", "montes", "montons", "montez", "montent", "monté", "montée", "montés", "montées", "montais", "montait", "montions", "montiez", "montaient", "monterai", "monteras", "montera", "monterons", "monterez", "monteront"],
+      "examples": [
+        { "fr": "On **monte** au sommet à pied.", "en": "We climb to the top on foot." },
+        { "fr": "**Montez** dans le bus !", "en": "Get on the bus!" },
+        { "fr": "Le sentier **monte** beaucoup.", "en": "The path goes steeply uphill." }
+      ],
+      "note": "**monter** = to go up, to get on (a bus, a bike). **descendre** = to go down, to get off." },
+    { "id": "se-baigner", "fr": "se baigner", "pos": "verb", "ipa": "sə bɛ.ɲe", "en": "to go swimming, to bathe",
+      "def": "Aller dans l'eau de la mer, d'un lac ou d'une rivière, pour nager ou jouer.", "def_en": "To go into the water of the sea, a lake or a river, to swim or play.",
+      "extra": "je **me baigne** · tu **te baignes** · il **se baigne** · nous **nous baignons** · vous **vous baignez** · ils **se baignent**",
+      "forms": ["me baigne", "te baignes", "se baigne", "nous nous baignons", "vous vous baignez", "se baignent", "baigne", "baignes", "baignons", "baignez", "baignent", "baigner", "baigné", "baignée", "baignés", "baignées", "baignais", "baignait", "baignions", "baigniez", "baignaient", "me baignerai", "te baigneras", "se baignera", "nous nous baignerons", "vous vous baignerez", "se baigneront"],
+      "examples": [
+        { "fr": "On **se baigne** dans le lac ?", "en": "Shall we go for a swim in the lake?" },
+        { "fr": "L'eau est froide : je ne **me baigne** pas !", "en": "The water's cold: I'm not going in!" },
+        { "fr": "Les enfants **se baignent** dans la rivière.", "en": "The children are swimming in the river." }
+      ],
+      "note": "**gn** = /ɲ/, as in *montagne*. For a swim in the sea or a lake, French usually says **se baigner** rather than *nager*." },
+    { "id": "decouvrir", "fr": "découvrir", "pos": "verb", "ipa": "de.ku.vʁiʁ", "en": "to discover",
+      "def": "Trouver ou voir quelque chose pour la première fois.", "def_en": "To find or see something for the first time.",
+      "extra": "Like *ouvrir*, with -er endings: je **découvre** · tu **découvres** · il **découvre** · nous **découvrons** · vous **découvrez** · ils **découvrent**.",
+      "forms": ["découvre", "découvres", "découvrons", "découvrez", "découvrent", "découvert", "découvrais", "découvrait", "découvrions", "découvriez", "découvraient", "découvrirai", "découvriras", "découvrira", "découvrirons", "découvrirez", "découvriront"],
+      "examples": [
+        { "fr": "Je **découvre** la région.", "en": "I'm discovering the region." },
+        { "fr": "On **découvre** un petit lac dans la forêt.", "en": "We discover a little lake in the forest." },
+        { "fr": "Les enfants **découvrent** la nature.", "en": "The children are discovering nature." }
+      ],
+      "note": "**dé** + **couvrir** (to cover): to *un-cover*." },
+    { "id": "cueillir", "fr": "cueillir", "pos": "verb", "ipa": "kœ.jiʁ", "en": "to pick (flowers, fruit)",
+      "def": "Prendre des fleurs ou des fruits sur une plante ou un arbre.", "def_en": "To take flowers or fruit from a plant or a tree.",
+      "extra": "je **cueille** · tu **cueilles** · il **cueille** · nous **cueillons** · vous **cueillez** · ils **cueillent**: an -ir verb with -er endings.",
+      "forms": ["cueille", "cueilles", "cueillons", "cueillez", "cueillent", "cueillais", "cueillait", "cueillions", "cueilliez", "cueillaient", "cueillerai", "cueilleras", "cueillera", "cueillerons", "cueillerez", "cueilleront"],
+      "examples": [
+        { "fr": "Lou **cueille** des fleurs pour sa mère.", "en": "Lou picks flowers for her mother." },
+        { "fr": "On **cueille** des fraises au jardin.", "en": "We pick strawberries in the garden." },
+        { "fr": "Ne **cueillez** pas les fleurs du parc !", "en": "Don't pick the flowers in the park!" }
+      ],
+      "note": "A tricky spelling: here **ue** sounds /œ/, as in *feuille*: /kœj/." },
+    { "id": "observer", "fr": "observer", "pos": "verb", "ipa": "ɔp.sɛʁ.ve", "en": "to observe, to watch",
+      "def": "Regarder avec attention, longtemps.", "def_en": "To look carefully, for a long time.",
+      "forms": ["observe", "observes", "observons", "observez", "observent", "observais", "observait", "observions", "observiez", "observaient", "observerai", "observeras", "observera", "observerons", "observerez", "observeront"],
+      "examples": [
+        { "fr": "J'**observe** les oiseaux dans le jardin.", "en": "I watch the birds in the garden." },
+        { "fr": "La nuit, on **observe** les étoiles.", "en": "At night, we watch the stars." },
+        { "fr": "**Observez** bien la carte.", "en": "Look carefully at the map." }
+      ] },
+    { "id": "respirer", "fr": "respirer", "pos": "verb", "ipa": "ʁɛs.pi.ʁe", "en": "to breathe",
+      "def": "Prendre de l'air par le nez ou par la bouche.", "def_en": "To take in air through your nose or your mouth.",
+      "forms": ["respire", "respires", "respirons", "respirez", "respirent", "respirais", "respirait", "respirions", "respiriez", "respiraient", "respirerai", "respireras", "respirera", "respirerons", "respirerez", "respireront"],
+      "examples": [
+        { "fr": "**Respirez** profondément !", "en": "Breathe deeply!" },
+        { "fr": "À la montagne, on **respire** bien.", "en": "In the mountains, you can breathe easily." },
+        { "fr": "Je ne **respire** pas bien en ville.", "en": "I can't breathe well in town." }
+      ],
+      "note": "**Ouf, on respire !** = Phew, what a relief! (literally: we can breathe)" },
+    { "id": "se-perdre", "fr": "se perdre", "pos": "verb", "ipa": "sə pɛʁdʁ", "en": "to get lost",
+      "def": "Ne plus savoir où on est, ne plus trouver son chemin.", "def_en": "To no longer know where you are, to lose your way.",
+      "extra": "je **me perds** · tu **te perds** · il **se perd** · nous **nous perdons** · vous **vous perdez** · ils **se perdent**",
+      "forms": ["me perds", "te perds", "se perd", "nous nous perdons", "vous vous perdez", "se perdent", "perdais", "perdait", "perdions", "perdiez", "perdaient", "me perdrai", "te perdras", "se perdra", "nous nous perdrons", "vous vous perdrez", "se perdront"],
+      "examples": [
+        { "fr": "Sans carte, on **se perd** !", "en": "Without a map, you get lost!" },
+        { "fr": "Je **me perds** toujours dans cette ville.", "en": "I always get lost in this town." },
+        { "fr": "Hugo et Tom **se perdent** dans la forêt.", "en": "Hugo and Tom get lost in the forest." }
+      ],
+      "note": "From **perdre** (to lose): literally *to lose yourself*." },
+    { "id": "allumer", "fr": "allumer", "pos": "verb", "ipa": "a.ly.me", "en": "to light; to switch on",
+      "def": "Faire commencer un feu ou une lumière.", "def_en": "To start a fire or a light.",
+      "forms": ["allume", "allumes", "allumons", "allumez", "allument", "allumais", "allumait", "allumions", "allumiez", "allumaient", "allumerai", "allumeras", "allumera", "allumerons", "allumerez", "allumeront"],
+      "examples": [
+        { "fr": "Qui **allume** le feu de camp ?", "en": "Who's lighting the campfire?" },
+        { "fr": "**Allume** la lampe, il fait nuit !", "en": "Turn on the lamp, it's dark!" },
+        { "fr": "Hugo n'arrive pas à **allumer** le feu.", "en": "Hugo can't get the fire lit." }
+      ],
+      "note": "The opposite: **éteindre** (to put out, to switch off)." }
+  ],
+  "story": {
+    "title": "Le camping au lac",
+    "en": "A weekend of camping by a mountain lake. Who has the map?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "En juin, les amis font du camping au bord d'un lac, à la montagne. Ils adorent les activités en plein air.", "en": "In June, the friends go camping by a lake in the mountains. They love outdoor activities." },
+      { "sp": "", "fr": "Ils arrivent au camping avec leurs sacs à dos. Tom et Sophie montent la tente.", "en": "They arrive at the campsite with their backpacks. Tom and Sophie put up the tent." },
+      { "sp": "Léa", "fr": "Qui a la crème solaire ? Il fait très chaud !", "en": "Who's got the sunscreen? It's very hot!" },
+      { "sp": "Hugo", "fr": "Moi ! Et j'ai aussi une gourde, une carte et… un petit bateau !", "en": "Me! And I've also got a water bottle, a map and… a little boat!" },
+      { "sp": "", "fr": "L'après-midi, ils se baignent dans le lac et ils font un tour en bateau.", "en": "In the afternoon, they swim in the lake and go for a ride in the boat." },
+      { "sp": "", "fr": "Le lendemain matin, Léa et Sophie se promènent au bord de l'eau.", "en": "The next morning, Léa and Sophie go for a walk along the water's edge." },
+      { "sp": "", "fr": "Puis tout le groupe fait une randonnée. Le sentier monte dans la forêt.", "en": "Then the whole group goes on a hike. The trail climbs through the forest." },
+      { "sp": "", "fr": "Léa observe les oiseaux. Sophie cueille des fleurs.", "en": "Léa watches the birds. Sophie picks flowers." },
+      { "sp": "Tom", "fr": "Respirez ! L'air est si pur ici.", "en": "Breathe! The air is so clean here." },
+      { "sp": "", "fr": "Hugo et Tom découvrent un autre chemin. Ils prennent ce chemin… et ils se perdent !", "en": "Hugo and Tom discover another path. They take that path… and they get lost!" },
+      { "sp": "Tom", "fr": "Hugo, où est la carte ?", "en": "Hugo, where's the map?" },
+      { "sp": "Hugo", "fr": "La carte ? Euh… dans la tente.", "en": "The map? Er… in the tent." },
+      { "sp": "", "fr": "Heureusement, Léa [les|les-pron] trouve une heure plus tard.", "en": "Luckily, Léa finds them an hour later." },
+      { "sp": "", "fr": "Le soir, ils font un feu de camp. Hugo allume le feu… après trente minutes !", "en": "In the evening, they make a campfire. Hugo lights the fire… after thirty minutes!" },
+      { "sp": "Sophie", "fr": "Aïe ! Les moustiques ! Ils piquent !", "en": "Ouch! The mosquitoes! They're biting!" },
+      { "sp": "Léa", "fr": "Demain, on va à la pêche ?", "en": "Shall we go fishing tomorrow?" },
+      { "sp": "Hugo", "fr": "D'accord. Mais cette fois, c'est moi qui prends la carte !", "en": "OK. But this time, I'm taking the map!" }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "u10-hobbies",
+  "type": "vocab",
+  "unit": 10,
+  "title": "Les loisirs",
+  "en": "Free time & hobbies",
+  "intro": "22 words to talk about what you do in your free time: music, reading, films, going out — and how much you like (or hate) it.",
+  "words": [
+    { "id": "loisirs", "fr": "loisirs", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "lwa.ziʁ", "en": "leisure activities, hobbies",
+      "def": "Ce qu'on fait quand on ne travaille pas : le sport, la musique, la lecture…", "def_en": "What you do when you're not working: sport, music, reading…",
+      "forms": ["loisir"],
+      "examples": [
+        { "fr": "Quels sont tes **loisirs** ?", "en": "What are your hobbies?" },
+        { "fr": "La lecture est mon **loisir** préféré.", "en": "Reading is my favourite pastime." },
+        { "fr": "Il n'a pas le temps pour ses **loisirs**.", "en": "He has no time for his hobbies." }
+      ] },
+    { "id": "temps-libre", "fr": "temps libre", "pos": "noun", "g": "m", "ipa": "tɑ̃ libʁ", "en": "free time",
+      "def": "Le temps où on ne travaille pas.", "def_en": "The time when you're not working.",
+      "examples": [
+        { "fr": "Qu'est-ce que tu fais pendant ton **temps libre** ?", "en": "What do you do in your free time?" },
+        { "fr": "Je n'ai pas beaucoup de **temps libre**.", "en": "I don't have much free time." },
+        { "fr": "Pendant mon **temps libre**, je lis.", "en": "In my free time, I read." }
+      ] },
+    { "id": "musique", "fr": "musique", "pos": "noun", "g": "f", "ipa": "my.zik", "en": "music",
+      "def": "Ce qu'on chante, ou ce qu'on joue avec un instrument.", "def_en": "The sounds you sing or play on an instrument.",
+      "examples": [
+        { "fr": "J'écoute de la **musique**.", "en": "I'm listening to music." },
+        { "fr": "Tu aimes la **musique** française ?", "en": "Do you like French music?" },
+        { "fr": "Il y a de la **musique** à la fête.", "en": "There's music at the party." }
+      ] },
+    { "id": "piano", "fr": "piano", "pos": "noun", "g": "m", "ipa": "pja.no", "en": "piano",
+      "def": "Un grand instrument de musique, noir et blanc.", "def_en": "A big musical instrument, black and white.",
+      "forms": ["pianos"],
+      "examples": [
+        { "fr": "Je joue du **piano**.", "en": "I play the piano." },
+        { "fr": "Il y a un **piano** dans le salon.", "en": "There's a piano in the living room." },
+        { "fr": "Lou adore le **piano**.", "en": "Lou loves the piano." }
+      ] },
+    { "id": "guitare", "fr": "guitare", "pos": "noun", "g": "f", "ipa": "ɡi.taʁ", "en": "guitar",
+      "def": "Un instrument de musique avec six cordes.", "def_en": "A musical instrument with six strings.",
+      "forms": ["guitares"],
+      "examples": [
+        { "fr": "Tom joue de la **guitare**.", "en": "Tom plays the guitar." },
+        { "fr": "Ma **guitare** est dans ma chambre.", "en": "My guitar is in my bedroom." },
+        { "fr": "J'apprends la **guitare**.", "en": "I'm learning the guitar." }
+      ],
+      "note": "The **u** is silent: /ɡi.taʁ/." },
+    { "id": "chanter", "fr": "chanter", "pos": "verb", "ipa": "ʃɑ̃.te", "en": "to sing",
+      "def": "Faire de la musique avec la voix.", "def_en": "To make music with your voice.",
+      "forms": ["chante", "chantes", "chantons", "chantez", "chantent", "chantais", "chantait", "chantions", "chantiez", "chantaient", "chanterai", "chanteras", "chantera", "chanterons", "chanterez", "chanteront"],
+      "examples": [
+        { "fr": "Je **chante** sous la douche.", "en": "I sing in the shower." },
+        { "fr": "Tom **chante** mal !", "en": "Tom sings badly!" },
+        { "fr": "Nous **chantons** « Joyeux anniversaire ».", "en": "We sing “Happy Birthday”." }
+      ] },
+    { "id": "danser", "fr": "danser", "pos": "verb", "ipa": "dɑ̃.se", "en": "to dance",
+      "def": "Bouger le corps avec la musique.", "def_en": "To move your body to music.",
+      "forms": ["danse", "danses", "dansons", "dansez", "dansent", "dansé", "dansais", "dansait", "dansions", "dansiez", "dansaient", "danserai", "danseras", "dansera", "danserons", "danserez", "danseront"],
+      "examples": [
+        { "fr": "Tu **danses** avec moi ?", "en": "Will you dance with me?" },
+        { "fr": "Sophie adore **danser**.", "en": "Sophie loves dancing." },
+        { "fr": "Nous **dansons** toute la nuit !", "en": "We dance all night!" }
+      ],
+      "note": "*je danse* looks exactly like the noun **la danse** (dance) — the little word before it tells you which." },
+    { "id": "lire", "fr": "lire", "pos": "verb", "ipa": "liʁ", "en": "to read",
+      "def": "Regarder des mots et les comprendre.", "def_en": "To look at words and understand them.",
+      "extra": "je **lis** · tu **lis** · il **lit** · nous **lisons** · vous **lisez** · ils **lisent** — irregular.",
+      "forms": ["lis", "lit", "lisons", "lisez", "lisent", "lu", "lisais", "lisait", "lisions", "lisiez", "lisaient", "lirai", "liras", "lira", "lirons", "lirez", "liront"],
+      "examples": [
+        { "fr": "Je **lis** beaucoup.", "en": "I read a lot." },
+        { "fr": "Tu **lis** quoi ?", "en": "What are you reading?" },
+        { "fr": "Nous **lisons** le journal le dimanche.", "en": "We read the newspaper on Sundays." }
+      ],
+      "note": "**il lit** (he reads) and **le lit** (the bed) look the same!" },
+    { "id": "livre", "fr": "livre", "pos": "noun", "g": "m", "ipa": "livʁ", "en": "book",
+      "def": "Des pages avec une histoire ou des informations.", "def_en": "Pages with a story or information.",
+      "forms": ["livres"],
+      "examples": [
+        { "fr": "Je lis un **livre**.", "en": "I'm reading a book." },
+        { "fr": "Ce **livre** est très bon.", "en": "This book is very good." },
+        { "fr": "Il y a beaucoup de **livres** dans la bibliothèque.", "en": "There are lots of books in the library." }
+      ] },
+    { "id": "roman", "fr": "roman", "pos": "noun", "g": "m", "ipa": "ʁɔ.mɑ̃", "en": "novel",
+      "def": "Un long livre qui raconte une histoire.", "def_en": "A long book that tells a story.",
+      "forms": ["romans"],
+      "examples": [
+        { "fr": "Je lis un **roman** policier.", "en": "I'm reading a detective novel." },
+        { "fr": "C'est un **roman** de Victor Hugo.", "en": "It's a novel by Victor Hugo." },
+        { "fr": "Léa adore les **romans**.", "en": "Léa loves novels." }
+      ],
+      "note": "False friend: **un roman** is a novel, not something Roman!" },
+    { "id": "film", "fr": "film", "pos": "noun", "g": "m", "ipa": "film", "en": "film, movie",
+      "def": "Une histoire qu'on regarde au cinéma ou à la télévision.", "def_en": "A story you watch at the cinema or on TV.",
+      "forms": ["films"],
+      "examples": [
+        { "fr": "On regarde un **film** ce soir ?", "en": "Shall we watch a film tonight?" },
+        { "fr": "C'est un **film** français.", "en": "It's a French film." },
+        { "fr": "J'aime les **films** d'amour.", "en": "I like romantic films." }
+      ] },
+    { "id": "serie", "fr": "série", "pos": "noun", "g": "f", "ipa": "se.ʁi", "en": "(TV) series, show",
+      "def": "Une histoire en plusieurs épisodes, à la télé.", "def_en": "A story in several episodes, on TV.",
+      "forms": ["séries"], "accept": ["serie"],
+      "examples": [
+        { "fr": "Je regarde une **série** le soir.", "en": "I watch a series in the evening." },
+        { "fr": "Cette **série** est très drôle.", "en": "This series is very funny." },
+        { "fr": "Hugo regarde trop de **séries** !", "en": "Hugo watches too many series!" }
+      ] },
+    { "id": "jeu-video", "fr": "jeu vidéo", "pos": "noun", "g": "m", "ipa": "ʒø vi.de.o", "en": "video game",
+      "def": "Un jeu sur un ordinateur, une console ou un téléphone.", "def_en": "A game on a computer, a console or a phone.",
+      "forms": ["jeux vidéo"], "accept": ["jeu video"],
+      "examples": [
+        { "fr": "Hugo joue aux **jeux vidéo**.", "en": "Hugo plays video games." },
+        { "fr": "C'est un nouveau **jeu vidéo**.", "en": "It's a new video game." },
+        { "fr": "Tu aimes les **jeux vidéo** ?", "en": "Do you like video games?" }
+      ],
+      "note": "Plural: **des jeux vidéo** — *vidéo* doesn't change." },
+    { "id": "jouer", "fr": "jouer", "pos": "verb", "ipa": "ʒwe", "en": "to play",
+      "def": "Faire un jeu, un sport ou de la musique pour s'amuser.", "def_en": "To do a game, a sport or music for fun.",
+      "forms": ["joue", "joues", "jouons", "jouez", "jouent", "jouais", "jouait", "jouions", "jouiez", "jouaient", "joué", "jouerai", "joueras", "jouera", "jouerons", "jouerez", "joueront"],
+      "examples": [
+        { "fr": "Les enfants **jouent** dans le jardin.", "en": "The children are playing in the garden." },
+        { "fr": "Tu **joues** au tennis ?", "en": "Do you play tennis?" },
+        { "fr": "Il **joue** de la guitare.", "en": "He plays the guitar." }
+      ],
+      "note": "Games and sports: **jouer à** (*au foot*). Instruments: **jouer de** (*du piano*)." },
+    { "id": "dessiner", "fr": "dessiner", "pos": "verb", "ipa": "de.si.ne", "en": "to draw",
+      "def": "Faire une image avec un crayon.", "def_en": "To make a picture with a pencil.",
+      "forms": ["dessine", "dessines", "dessinons", "dessinez", "dessinent", "dessinais", "dessinait", "dessinions", "dessiniez", "dessinaient", "dessiné", "dessinée", "dessinés", "dessinées", "dessinerai", "dessineras", "dessinera", "dessinerons", "dessinerez", "dessineront"],
+      "examples": [
+        { "fr": "Sophie **dessine** très bien.", "en": "Sophie draws very well." },
+        { "fr": "Lou **dessine** un chat.", "en": "Lou is drawing a cat." },
+        { "fr": "J'aime **dessiner** au parc.", "en": "I like drawing in the park." }
+      ] },
+    { "id": "photo", "fr": "photo", "pos": "noun", "g": "f", "ipa": "fɔ.to", "en": "photo",
+      "def": "Une image qu'on prend avec un appareil ou un téléphone.", "def_en": "A picture you take with a camera or a phone.",
+      "forms": ["photos"],
+      "examples": [
+        { "fr": "Je prends des **photos**.", "en": "I take photos." },
+        { "fr": "C'est une belle **photo** !", "en": "It's a beautiful photo!" },
+        { "fr": "Envoie-moi la **photo** !", "en": "Send me the photo!" }
+      ] },
+    { "id": "promenade", "fr": "promenade", "pos": "noun", "g": "f", "ipa": "pʁɔm.nad", "en": "walk, stroll",
+      "def": "On marche pour le plaisir, sans aller à un lieu précis.", "def_en": "You walk for pleasure, without going anywhere in particular.",
+      "forms": ["promenades"],
+      "examples": [
+        { "fr": "On fait une **promenade** au parc ?", "en": "Shall we go for a walk in the park?" },
+        { "fr": "La **promenade** au bord de l'eau est jolie.", "en": "The walk by the water is pretty." },
+        { "fr": "Après le repas, une petite **promenade** !", "en": "After the meal, a little walk!" }
+      ] },
+    { "id": "sortir", "fr": "sortir", "pos": "verb", "ipa": "sɔʁ.tiʁ", "en": "to go out",
+      "def": "Aller dehors, ou aller s'amuser le soir.", "def_en": "To go outside, or to go out and have fun in the evening.",
+      "extra": "je **sors** · tu **sors** · il **sort** · nous **sortons** · vous **sortez** · ils **sortent** — irregular.",
+      "forms": ["sors", "sort", "sortons", "sortez", "sortent", "sorti", "sortie", "sortis", "sorties", "sortais", "sortait", "sortions", "sortiez", "sortaient", "sortirai", "sortiras", "sortira", "sortirons", "sortirez", "sortiront"],
+      "examples": [
+        { "fr": "On **sort** ce soir ?", "en": "Shall we go out tonight?" },
+        { "fr": "Je **sors** avec mes amis.", "en": "I'm going out with my friends." },
+        { "fr": "Ils **sortent** du cinéma.", "en": "They're coming out of the cinema." }
+      ] },
+    { "id": "inviter", "fr": "inviter", "pos": "verb", "ipa": "ɛ̃.vi.te", "en": "to invite",
+      "def": "Demander à une personne de venir chez soi ou à une fête.", "def_en": "To ask someone to come to your home or a party.",
+      "forms": ["invite", "invites", "invitons", "invitez", "invitent", "invitais", "invitait", "invitions", "invitiez", "invitaient", "inviterai", "inviteras", "invitera", "inviterons", "inviterez", "inviteront"],
+      "examples": [
+        { "fr": "J'**invite** mes amis à dîner.", "en": "I'm inviting my friends to dinner." },
+        { "fr": "Tu **invites** qui à ta fête ?", "en": "Who are you inviting to your party?" },
+        { "fr": "C'est moi qui **invite** !", "en": "It's my treat!" }
+      ] },
+    { "id": "fete", "fr": "fête", "pos": "noun", "g": "f", "ipa": "fɛt", "en": "party; celebration",
+      "def": "Un moment où on mange, on danse et on s'amuse avec des amis.", "def_en": "A time when you eat, dance and have fun with friends.",
+      "forms": ["fêtes"], "accept": ["fete"],
+      "examples": [
+        { "fr": "Il y a une **fête** chez Inès samedi.", "en": "There's a party at Inès's on Saturday." },
+        { "fr": "La **fête** commence à neuf heures.", "en": "The party starts at nine." },
+        { "fr": "Bonne **fête** !", "en": "Happy name day!" }
+      ] },
+    { "id": "detester", "fr": "détester", "pos": "verb", "ipa": "de.tɛs.te", "en": "to hate",
+      "def": "Le contraire de « adorer » : ne pas aimer du tout.", "def_en": "The opposite of “to love”: not to like at all.",
+      "forms": ["déteste", "détestes", "détestons", "détestez", "détestent", "détestais", "détestait", "détestions", "détestiez", "détestaient", "détesterai", "détesteras", "détestera", "détesterons", "détesterez", "détesteront"], "accept": ["detester"],
+      "examples": [
+        { "fr": "Je **déteste** le sport !", "en": "I hate sport!" },
+        { "fr": "Tom **déteste** le piano.", "en": "Tom hates the piano." },
+        { "fr": "Tu **détestes** les séries ?", "en": "Do you hate TV series?" }
+      ],
+      "note": "Like **aimer**, it takes **le / la / les**: *je déteste **le** sport*." },
+    { "id": "preferer", "fr": "préférer", "pos": "verb", "ipa": "pʁe.fe.ʁe", "en": "to prefer",
+      "def": "Aimer une chose plus qu'une autre.", "def_en": "To like one thing more than another.",
+      "extra": "je **préfère** · tu **préfères** · il **préfère** · nous **préférons** · vous **préférez** · ils **préfèrent** — a “boot” verb.",
+      "forms": ["préfère", "préfères", "préférons", "préférez", "préfèrent", "préférais", "préférait", "préférions", "préfériez", "préféraient", "préférerai", "préféreras", "préférera", "préférerons", "préférerez", "préféreront"], "accept": ["preferer"],
+      "examples": [
+        { "fr": "Je **préfère** la musique au sport.", "en": "I prefer music to sport." },
+        { "fr": "Tu **préfères** le thé ou le café ?", "en": "Do you prefer tea or coffee?" },
+        { "fr": "Nous **préférons** sortir.", "en": "We'd rather go out." }
+      ] }
+  ],
+  "story": {
+    "title": "Le temps libre",
+    "en": "Friday evening at the café: the friends talk about their hobbies.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Vendredi soir, les amis sont au café d'en bas.", "en": "On Friday evening, the friends are at the café downstairs." },
+      { "sp": "Tom", "fr": "Qu'est-ce que vous faites pendant votre temps libre ?", "en": "What do you do in your free time?" },
+      { "sp": "Sophie", "fr": "Moi, je dessine et je prends des photos. Et j'adore danser !", "en": "I draw and take photos. And I love dancing!" },
+      { "sp": "Léa", "fr": "Moi, je lis beaucoup : des romans, surtout.", "en": "I read a lot: novels, mostly." },
+      { "sp": "Tom", "fr": "Moi, je joue de la guitare et je chante… mal !", "en": "I play the guitar and sing… badly!" },
+      { "sp": "Hugo", "fr": "Et moi, je joue aux jeux vidéo et je regarde des séries.", "en": "And I play video games and watch series." },
+      { "sp": "Léa", "fr": "Hugo, ce n'est pas un loisir, c'est ta vie !", "en": "Hugo, that's not a hobby, that's your life!" },
+      { "sp": "Hugo", "fr": "Ce n'est pas vrai ! J'aime aussi le cinéma… et les films à la télé.", "en": "That's not true! I also like the cinema… and films on TV." },
+      { "sp": "Sophie", "fr": "Tom, tu joues du piano aussi ?", "en": "Tom, do you play the piano too?" },
+      { "sp": "Tom", "fr": "Non, je déteste le piano. Je préfère la guitare.", "en": "No, I hate the piano. I prefer the guitar." },
+      { "sp": "Léa", "fr": "Samedi, on fait une promenade au parc ?", "en": "Shall we go for a walk in the park on Saturday?" },
+      { "sp": "Sophie", "fr": "Oui ! Et le soir, on sort ? Il y a une fête chez Inès.", "en": "Yes! And in the evening, shall we go out? There's a party at Inès's." },
+      { "sp": "Tom", "fr": "Elle nous invite ?", "en": "Is she inviting us?" },
+      { "sp": "Sophie", "fr": "Oui, tout le monde ! Il y a de la musique, et on danse toute la nuit.", "en": "Yes, everyone! There's music, and we dance all night." },
+      { "sp": "Hugo", "fr": "Super ! Je prends mon livre ?", "en": "Great! Shall I bring my book?" },
+      { "sp": "Léa", "fr": "Ton livre ? À une fête ?", "en": "Your book? To a party?" },
+      { "sp": "Hugo", "fr": "C'est un livre sur les jeux vidéo !", "en": "It's a book about video games!" }
+    ]
+  }
+}

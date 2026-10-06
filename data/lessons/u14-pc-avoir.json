@@ -1,0 +1,219 @@
+{
+  "id": "u14-pc-avoir",
+  "type": "grammar",
+  "unit": 14,
+  "title": "J'ai voyagé",
+  "en": "The passé composé with avoir",
+  "intro": "To tell what happened, French uses the **passé composé**: **avoir** in the present + a **past participle**. *J'ai visité* = I visited, I have visited. For regular verbs the participle is easy: **-er → -é**, **-ir → -i**, **-re → -u**. (A few verbs use *être* instead; that's the next unit.)",
+  "cases": [
+    { "id": "pc-form", "label": "avoir + past participle", "rule": "The passé composé tells finished actions in the past: **avoir** in the present + the **past participle**: *j'ai visité, tu as visité, il a visité, nous avons visité, vous avez visité, ils ont visité*." },
+    { "id": "pc-er", "label": "-er → -é", "rule": "-er verbs: **-er → -é**: *parler → parlé, manger → mangé, acheter → acheté*. The participle sounds just like the infinitive." },
+    { "id": "pc-ir", "label": "-ir → -i", "rule": "Most -ir verbs: **-ir → -i**: *finir → fini, choisir → choisi, dormir → dormi*." },
+    { "id": "pc-re", "label": "-re → -u", "rule": "-re verbs: **-re → -u**: *attendre → attendu, perdre → perdu, répondre → répondu, entendre → entendu*." },
+    { "id": "pc-neg", "label": "je n'ai pas mangé", "rule": "**ne … pas** goes around **avoir**: *je n'ai pas mangé, il n'a pas fini*. Also with *jamais*: *je n'ai jamais voyagé en avion*." },
+    { "id": "pc-question", "label": "questions", "rule": "Voice up (*Tu as mangé ?*), **est-ce que** (*Est-ce que tu as mangé ?*) or inversion (*As-tu mangé ?*). With a question word: *Qu'est-ce que tu as acheté ?*" },
+    { "id": "pc-time", "label": "hier, il y a deux jours", "rule": "Time words for the past: *hier, avant-hier, hier soir, ce matin, la semaine dernière, l'année dernière*. **il y a** + a length of time = *ago*: *il y a deux jours* (two days ago)." },
+    { "id": "pc-adverb", "label": "j'ai déjà mangé", "rule": "Short adverbs go **between avoir and the participle**: *j'ai **déjà** visité, j'ai **bien** dormi, j'ai **beaucoup** marché, je n'ai **pas encore** fini*." }
+  ],
+  "sections": [
+    {
+      "title": "1. avoir + past participle",
+      "text": ["Take **avoir** in the present and add the **past participle** of the verb. Only *avoir* changes with the person; the participle stays the same."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["j'ai visité", "I visited, I have visited"],
+          ["tu as visité", "you visited"],
+          ["il a visité", "he visited"],
+          ["nous avons visité", "we visited"],
+          ["vous avez visité", "you visited"],
+          ["ils ont visité", "they visited"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai visité|pc-form} le musée.", "en": "I visited the museum." },
+        { "fr": "{Nous avons mangé|pc-form} au restaurant.", "en": "We ate at the restaurant." },
+        { "fr": "{Ils ont acheté|pc-form} des souvenirs.", "en": "They bought some souvenirs." }
+      ],
+      "tip": "One French tense, three English ones: *j'ai mangé* = I ate, I have eaten, I did eat."
+    },
+    {
+      "title": "2. -er verbs: -é",
+      "table": {
+        "head": ["Infinitive", "Past participle"], "frCols": [0, 1],
+        "rows": [
+          ["parler", "parlé"],
+          ["manger", "mangé"],
+          ["acheter", "acheté"],
+          ["voyager", "voyagé"],
+          ["regarder", "regardé"],
+          ["travailler", "travaillé"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu {as regardé|pc-er} le film ?", "en": "Did you watch the film?" },
+        { "fr": "Elle {a acheté|pc-er} une valise.", "en": "She bought a suitcase." },
+        { "fr": "Nous {avons voyagé|pc-er} en train.", "en": "We travelled by train." }
+      ],
+      "tip": "*parler, parlez, parlé* all sound the same: /paʁ.le/. Only the spelling changes!"
+    },
+    {
+      "title": "3. -ir verbs: -i",
+      "table": {
+        "head": ["Infinitive", "Past participle"], "frCols": [0, 1],
+        "rows": [
+          ["finir", "fini"],
+          ["choisir", "choisi"],
+          ["dormir", "dormi"],
+          ["réussir", "réussi"],
+          ["servir", "servi"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai fini|pc-ir} mon travail.", "en": "I've finished my work." },
+        { "fr": "Lou {a dormi|pc-ir} dans l'avion.", "en": "Lou slept on the plane." },
+        { "fr": "Vous {avez choisi|pc-ir} ?", "en": "Have you chosen?" }
+      ]
+    },
+    {
+      "title": "4. -re verbs: -u",
+      "table": {
+        "head": ["Infinitive", "Past participle"], "frCols": [0, 1],
+        "rows": [
+          ["attendre", "attendu"],
+          ["perdre", "perdu"],
+          ["répondre", "répondu"],
+          ["entendre", "entendu"],
+          ["vendre", "vendu"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Nous avons attendu|pc-re} le bus.", "en": "We waited for the bus." },
+        { "fr": "{Il a perdu|pc-re} son passeport.", "en": "He's lost his passport." },
+        { "fr": "{Tu as entendu|pc-re} ?", "en": "Did you hear that?" }
+      ]
+    },
+    {
+      "title": "5. The negative",
+      "text": ["**ne … pas** goes around **avoir**, and the participle comes after."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je n'ai pas mangé.", "I didn't eat. / I haven't eaten."],
+          ["Il n'a pas fini.", "He hasn't finished."],
+          ["Nous n'avons pas attendu.", "We didn't wait."],
+          ["Je n'ai jamais voyagé en avion.", "I've never travelled by plane."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je n'ai pas dormi|pc-neg} cette nuit.", "en": "I didn't sleep last night." },
+        { "fr": "{Elle n'a pas répondu|pc-neg}.", "en": "She didn't answer." },
+        { "fr": "{Il n'a jamais travaillé|pc-neg} le dimanche.", "en": "He has never worked on a Sunday." }
+      ]
+    },
+    {
+      "title": "6. Questions",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu as mangé ?", "Have you eaten?"],
+          ["Est-ce que tu as mangé ?", "Have you eaten?"],
+          ["As-tu mangé ?", "Have you eaten? (formal)"],
+          ["Qu'est-ce que tu as acheté ?", "What did you buy?"],
+          ["Où est-ce que vous avez dormi ?", "Where did you sleep?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Vous avez trouvé|pc-question} l'hôtel ?", "en": "Did you find the hotel?" },
+        { "fr": "{Qu'est-ce que tu as acheté|pc-question} ?", "en": "What did you buy?" },
+        { "fr": "{Est-ce qu'il a réservé|pc-question} les billets ?", "en": "Has he booked the tickets?" }
+      ]
+    },
+    {
+      "title": "7. When? Time words",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["hier", "yesterday"],
+          ["avant-hier", "the day before yesterday"],
+          ["hier soir", "last night, yesterday evening"],
+          ["ce matin", "this morning"],
+          ["la semaine dernière", "last week"],
+          ["l'année dernière", "last year"],
+          ["il y a deux jours", "two days ago"],
+          ["il y a un mois", "a month ago"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Hier|pc-time}, nous avons visité le Vieux-Montréal.", "en": "Yesterday, we visited Old Montréal." },
+        { "fr": "J'ai acheté ce billet {il y a deux semaines|pc-time}.", "en": "I bought this ticket two weeks ago." },
+        { "fr": "{La semaine dernière|pc-time}, il a travaillé tous les jours.", "en": "Last week, he worked every day." }
+      ],
+      "tip": "**il y a** + time = *ago*. Careful with the order: *two days ago* → **il y a deux jours**."
+    },
+    {
+      "title": "8. Short adverbs: j'ai déjà mangé",
+      "text": ["Short adverbs like **déjà, bien, beaucoup, trop, encore** go **between avoir and the participle**."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai déjà visité Paris.", "I've already visited Paris."],
+          ["J'ai bien dormi.", "I slept well."],
+          ["J'ai beaucoup marché.", "I walked a lot."],
+          ["J'ai trop mangé !", "I ate too much!"],
+          ["Je n'ai pas encore fini.", "I haven't finished yet."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai déjà visité|pc-adverb} le musée.", "en": "I've already visited the museum." },
+        { "fr": "{Tu as bien dormi|pc-adverb} ?", "en": "Did you sleep well?" },
+        { "fr": "{Je n'ai pas encore réservé|pc-adverb} l'hôtel.", "en": "I haven't booked the hotel yet." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai mange.", "right": "J'ai mangé.", "why": "The participle of an -er verb ends in **-é**." },
+    { "wrong": "J'ai finis.", "right": "J'ai fini.", "why": "-ir participles end in **-i**, with no s." },
+    { "wrong": "J'ai attendé.", "right": "J'ai attendu.", "why": "-re verbs: **-u**." },
+    { "wrong": "Je n'ai mangé pas.", "right": "Je n'ai pas mangé.", "why": "**ne … pas** goes around **avoir**." },
+    { "wrong": "J'ai visité Paris avant deux ans.", "right": "J'ai visité Paris il y a deux ans.", "why": "*ago* = **il y a** + time." },
+    { "wrong": "J'ai mangé déjà.", "right": "J'ai déjà mangé.", "why": "Short adverbs go between avoir and the participle." }
+  ],
+  "story": {
+    "title": "Le mail de Léa",
+    "en": "Léa writes to Sophie about her first days in Montréal.",
+    "lines": [
+      { "fr": "Chère Sophie,", "en": "Dear Sophie," },
+      { "fr": "Je suis à Montréal depuis trois jours, et tout va bien !", "en": "I've been in Montréal for three days, and everything's fine!", "br": true },
+      { "fr": "{Hier|pc-time}, {nous avons visité|pc-form} le Vieux-Montréal avec Antoine. {Nous avons beaucoup marché|pc-adverb} dans les petites rues.", "en": "Yesterday, we visited Old Montréal with Antoine. We walked a lot through the little streets." },
+      { "fr": "À midi, on {a mangé|pc-er} une poutine : des frites avec du fromage et de la sauce.", "en": "At noon, we had a poutine: chips with cheese and gravy." },
+      { "fr": "Lou {n'a pas aimé|pc-neg}, mais papa {a fini|pc-ir} son assiette… et l'assiette de Lou !", "en": "Lou didn't like it, but Dad finished his plate… and Lou's!", "br": true },
+      { "fr": "L'après-midi, {j'ai acheté|pc-er} des souvenirs pour toi. [Surprise|surprise] !", "en": "In the afternoon, I bought some souvenirs for you. Surprise!" },
+      { "fr": "Ensuite, {nous avons attendu|pc-re} le bus pendant une heure. Finalement, Antoine {a appelé|pc-er} un collègue… chauffeur de taxi, bien sûr !", "en": "Then we waited for the bus for an hour. In the end, Antoine called a colleague… a taxi driver, of course!" },
+      { "fr": "Le soir, Lou {a dormi|pc-ir} tout de suite. Moi, {je n'ai pas dormi|pc-neg} : à cause du décalage horaire, {j'ai entendu|pc-re} toutes les voitures de la rue !", "en": "In the evening, Lou fell asleep straight away. I didn't sleep: because of the jet lag, I heard every car in the street!", "br": true },
+      { "fr": "{Hier soir|pc-time}, papa {a enfin réservé|pc-adverb} les billets pour Québec. Nous partons demain !", "en": "Last night, Dad finally booked the tickets to Quebec City. We're leaving tomorrow!", "br": true },
+      { "fr": "Et toi ? {Qu'est-ce que tu as visité|pc-question} à Madrid ? {Tu as dansé|pc-question} avec Inès ?", "en": "And you? What have you visited in Madrid? Did you dance with Inès?" },
+      { "fr": "{Tu as déjà mangé|pc-adverb} des churros ? Moi, {je n'ai jamais goûté|pc-neg} !", "en": "Have you had churros yet? I've never tried them!", "br": true },
+      { "fr": "Gros bisous,", "en": "Lots of love," },
+      { "fr": "Léa", "en": "Léa" }
+    ]
+  },
+  "quiz": [
+    { "case": "pc-form", "type": "type", "q": "Nous ___ visité le musée.", "en": "We visited the museum.", "answer": "avons" },
+    { "case": "pc-form", "type": "mc", "q": "Ils ___ acheté des souvenirs.", "en": "They bought some souvenirs.", "options": ["ont", "sont", "avons"], "answer": "ont" },
+    { "case": "pc-er", "type": "type", "q": "Hier, j'ai ___ une poutine.", "en": "Yesterday, I ate a poutine.", "answer": "mangé" },
+    { "case": "pc-er", "type": "mc", "q": "Tu as ___ le film ?", "en": "Did you watch the film?", "options": ["regardé", "regarder", "regardez"], "answer": "regardé", "why": "They all sound the same, but the past participle is spelt **-é**." },
+    { "case": "pc-ir", "type": "mc", "q": "J'ai ___ mon travail.", "en": "I've finished my work.", "options": ["fini", "finis", "finit"], "answer": "fini" },
+    { "case": "pc-ir", "type": "type", "q": "Lou a ___ dans l'avion.", "en": "Lou slept on the plane.", "answer": "dormi" },
+    { "case": "pc-re", "type": "mc", "q": "Nous avons ___ le bus pendant une heure.", "en": "We waited for the bus for an hour.", "options": ["attendu", "attendé", "attendi"], "answer": "attendu" },
+    { "case": "pc-re", "type": "type", "q": "Il a ___ son passeport !", "en": "He's lost his passport!", "answer": "perdu" },
+    { "case": "pc-neg", "type": "mc", "lang": "en", "q": "How do you say “I didn't sleep”?", "options": ["Je n'ai pas dormi.", "Je n'ai dormi pas.", "Je ai pas dormi."], "answer": "Je n'ai pas dormi." },
+    { "case": "pc-neg", "type": "type", "q": "Elle n'a ___ répondu.", "en": "She didn't answer.", "answer": "pas" },
+    { "case": "pc-question", "type": "mc", "q": "Qu'est-ce que tu ___ acheté ?", "en": "What did you buy?", "options": ["as", "es", "a"], "answer": "as" },
+    { "case": "pc-question", "type": "mc", "lang": "en", "q": "Which question means “Did you sleep well?”", "options": ["Tu as bien dormi ?", "Tu dors bien ?", "Tu vas bien dormir ?"], "answer": "Tu as bien dormi ?" },
+    { "case": "pc-time", "type": "mc", "lang": "en", "q": "How do you say “two days ago”?", "options": ["il y a deux jours", "avant deux jours", "deux jours avant"], "answer": "il y a deux jours" },
+    { "case": "pc-time", "type": "type", "q": "___, nous avons visité le Vieux-Montréal.", "en": "Yesterday, we visited Old Montréal.", "answer": "Hier" },
+    { "case": "pc-adverb", "type": "mc", "lang": "en", "q": "Where does « déjà » go? “I've already visited Paris.”", "options": ["J'ai déjà visité Paris.", "J'ai visité déjà Paris.", "Déjà j'ai visité Paris."], "answer": "J'ai déjà visité Paris." },
+    { "case": "pc-adverb", "type": "mc", "q": "Je n'ai pas ___ fini.", "en": "I haven't finished yet.", "options": ["encore", "déjà", "jamais"], "answer": "encore" }
+  ]
+}

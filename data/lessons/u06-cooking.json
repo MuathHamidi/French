@@ -1,0 +1,197 @@
+{
+  "id": "u06-cooking",
+  "type": "vocab",
+  "unit": 6,
+  "title": "On cuisine !",
+  "en": "Cooking verbs & adjectives",
+  "intro": "The verbs you need to follow a recipe, and a few adjectives for food. Most of these verbs end in **-er** — the grammar lesson after this one shows how to conjugate them all.",
+  "words": [
+    { "id": "cuisiner", "fr": "cuisiner", "pos": "verb", "ipa": "kɥi.zi.ne", "en": "to cook",
+      "def": "Préparer des plats, faire la cuisine.", "def_en": "To make dishes, to do the cooking.",
+      "extra": "je **cuisine** · tu **cuisines** · il/elle **cuisine** · nous **cuisinons** · vous **cuisinez** · ils/elles **cuisinent**",
+      "forms": ["cuisinons", "cuisinez", "cuisinent", "cuisinais", "cuisinait", "cuisinions", "cuisiniez", "cuisinaient", "cuisinerai", "cuisineras", "cuisinera", "cuisinerons", "cuisinerez", "cuisineront"],
+      "examples": [
+        { "fr": "J'aime **cuisiner**.", "en": "I love cooking." },
+        { "fr": "Nous **cuisinons** ensemble.", "en": "We cook together." },
+        { "fr": "Vous **cuisinez** très bien !", "en": "You cook very well!" }
+      ],
+      "note": "Also: **faire la cuisine** = to do the cooking." },
+    { "id": "preparer", "fr": "préparer", "pos": "verb", "ipa": "pʁe.pa.ʁe", "en": "to prepare, to make",
+      "def": "Faire une chose pour plus tard : préparer le dîner, un gâteau…", "def_en": "To make something for later: to make dinner, a cake…",
+      "forms": ["prépare", "prépares", "préparons", "préparez", "préparent", "préparais", "préparait", "préparions", "prépariez", "préparaient", "préparerai", "prépareras", "préparera", "préparerons", "préparerez", "prépareront"], "accept": ["preparer"],
+      "examples": [
+        { "fr": "Je **prépare** le dîner.", "en": "I'm making dinner." },
+        { "fr": "Maman **prépare** un gâteau.", "en": "Mum is making a cake." },
+        { "fr": "Vous **préparez** une soupe ?", "en": "Are you making a soup?" }
+      ] },
+    { "id": "couper", "fr": "couper", "pos": "verb", "ipa": "ku.pe", "en": "to cut",
+      "def": "Faire des morceaux avec un couteau.", "def_en": "To make pieces with a knife.",
+      "forms": ["coupe", "coupes", "coupons", "coupez", "coupent", "coupais", "coupait", "coupions", "coupiez", "coupaient", "coupé", "coupée", "coupés", "coupées", "couperai", "couperas", "coupera", "couperons", "couperez", "couperont"],
+      "examples": [
+        { "fr": "Je **coupe** le pain.", "en": "I'm cutting the bread." },
+        { "fr": "**Coupe** les tomates en morceaux.", "en": "Cut the tomatoes into pieces." },
+        { "fr": "Elle **coupe** les légumes.", "en": "She's cutting the vegetables." }
+      ] },
+    { "id": "eplucher", "fr": "éplucher", "pos": "verb", "ipa": "e.ply.ʃe", "en": "to peel",
+      "def": "Enlever la peau d'un fruit ou d'un légume.", "def_en": "To take the skin off a fruit or vegetable.",
+      "forms": ["épluche", "épluches", "épluchons", "épluchez", "épluchent", "épluchais", "épluchait", "épluchions", "épluchiez", "épluchaient", "éplucherai", "éplucheras", "épluchera", "éplucherons", "éplucherez", "éplucheront"], "accept": ["eplucher"],
+      "examples": [
+        { "fr": "J'**épluche** les pommes de terre.", "en": "I'm peeling the potatoes." },
+        { "fr": "Tu **épluches** les carottes ?", "en": "Are you peeling the carrots?" },
+        { "fr": "On n'**épluche** pas les tomates.", "en": "You don't peel tomatoes." }
+      ] },
+    { "id": "laver", "fr": "laver", "pos": "verb", "ipa": "la.ve", "en": "to wash",
+      "def": "Rendre propre avec de l'eau.", "def_en": "To make clean with water.",
+      "extra": "**se laver** = to wash yourself: *je me lave*.",
+      "forms": ["lave", "laves", "lavons", "lavez", "lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "laverai", "laveras", "lavera", "laverons", "laverez", "laveront"],
+      "examples": [
+        { "fr": "Je **lave** les légumes.", "en": "I'm washing the vegetables." },
+        { "fr": "On **lave** la salade dans l'évier.", "en": "You wash the lettuce in the sink." },
+        { "fr": "Tu **laves** les assiettes ?", "en": "Are you washing the plates?" }
+      ] },
+    { "id": "melanger", "fr": "mélanger", "pos": "verb", "ipa": "me.lɑ̃.ʒe", "en": "to mix, to stir",
+      "def": "Mettre ensemble et tourner avec une cuillère.", "def_en": "To put together and turn with a spoon.",
+      "extra": "Like *manger*: **nous mélangeons** (with an e).",
+      "forms": ["mélange", "mélanges", "mélangeons", "mélangez", "mélangent", "mélangé", "mélangée", "mélangés", "mélangées", "mélangeais", "mélangeait", "mélangions", "mélangiez", "mélangeaient", "mélangerai", "mélangeras", "mélangera", "mélangerons", "mélangerez", "mélangeront"], "accept": ["melanger"],
+      "examples": [
+        { "fr": "Je **mélange** la farine et les œufs.", "en": "I mix the flour and the eggs." },
+        { "fr": "**Mélange** bien !", "en": "Mix well!" },
+        { "fr": "Nous **mélangeons** le sucre et le beurre.", "en": "We mix the sugar and the butter." }
+      ] },
+    { "id": "ajouter", "fr": "ajouter", "pos": "verb", "ipa": "a.ʒu.te", "en": "to add",
+      "def": "Mettre en plus : ajouter du sel.", "def_en": "To put in as well: to add salt.",
+      "forms": ["ajoute", "ajoutes", "ajoutons", "ajoutez", "ajoutent", "ajoutais", "ajoutait", "ajoutions", "ajoutiez", "ajoutaient", "ajouterai", "ajouteras", "ajoutera", "ajouterons", "ajouterez", "ajouteront"],
+      "examples": [
+        { "fr": "J'**ajoute** un peu de sel.", "en": "I add a little salt." },
+        { "fr": "**Ajoute** le sucre, s'il te plaît.", "en": "Add the sugar, please." },
+        { "fr": "On **ajoute** du lait ?", "en": "Shall we add milk?" }
+      ] },
+    { "id": "verser", "fr": "verser", "pos": "verb", "ipa": "vɛʁ.se", "en": "to pour",
+      "def": "Mettre un liquide dans un verre, un bol… : verser du lait.", "def_en": "To put a liquid into a glass, a bowl…: to pour milk.",
+      "forms": ["verse", "verses", "versons", "versez", "versent", "versais", "versait", "versions", "versiez", "versaient", "verserai", "verseras", "versera", "verserons", "verserez", "verseront"],
+      "examples": [
+        { "fr": "Je **verse** le lait dans le bol.", "en": "I pour the milk into the bowl." },
+        { "fr": "**Verse** l'eau dans la casserole.", "en": "Pour the water into the saucepan." },
+        { "fr": "Tu **verses** du vin ?", "en": "Will you pour some wine?" }
+      ] },
+    { "id": "chauffer", "fr": "chauffer", "pos": "verb", "ipa": "ʃo.fe", "en": "to heat (up)",
+      "def": "Rendre chaud.", "def_en": "To make hot.",
+      "forms": ["chauffe", "chauffes", "chauffons", "chauffez", "chauffent", "chauffais", "chauffait", "chauffions", "chauffiez", "chauffaient", "chaufferai", "chaufferas", "chauffera", "chaufferons", "chaufferez", "chaufferont"],
+      "examples": [
+        { "fr": "Je **chauffe** le lait.", "en": "I'm heating the milk." },
+        { "fr": "Fais **chauffer** l'huile dans la poêle.", "en": "Heat the oil in the pan." },
+        { "fr": "La poêle **chauffe**.", "en": "The pan is heating up." }
+      ] },
+    { "id": "cuire", "fr": "cuire", "pos": "verb", "ipa": "kɥiʁ", "en": "to cook (food cooks)",
+      "def": "Devenir chaud et prêt à manger : les pâtes cuisent dans l'eau.", "def_en": "To become hot and ready to eat: pasta cooks in water.",
+      "extra": "je **cuis** · tu **cuis** · il **cuit** · nous **cuisons** · vous **cuisez** · ils **cuisent**. To cook something: **faire cuire** (*je fais cuire le riz*).",
+      "forms": ["cuis", "cuisons", "cuisez", "cuisent", "cuisais", "cuisait", "cuisions", "cuisiez", "cuisaient", "cuirai", "cuiras", "cuira", "cuirons", "cuirez", "cuiront"],
+      "examples": [
+        { "fr": "Les pâtes **cuisent** dix minutes.", "en": "The pasta cooks for ten minutes." },
+        { "fr": "Je fais **cuire** le poulet au four.", "en": "I'm cooking the chicken in the oven." },
+        { "fr": "Tu fais **cuire** les œufs ?", "en": "Are you cooking the eggs?" }
+      ] },
+    { "id": "gouter", "fr": "goûter", "pos": "verb", "ipa": "ɡu.te", "en": "to taste",
+      "def": "Manger un peu pour savoir si c'est bon.", "def_en": "To eat a little to find out if it's good.",
+      "forms": ["goûte", "goûtes", "goûtons", "goûtez", "goûtent", "goûté", "goûtais", "goûtait", "goûtions", "goûtiez", "goûtaient", "goûterai", "goûteras", "goûtera", "goûterons", "goûterez", "goûteront"], "accept": ["gouter"],
+      "examples": [
+        { "fr": "Tu veux **goûter** ?", "en": "Do you want a taste?" },
+        { "fr": "Je **goûte** la soupe.", "en": "I'm tasting the soup." },
+        { "fr": "**Goûte** ce fromage !", "en": "Taste this cheese!" }
+      ],
+      "note": "**le goûter** = the afternoon snack French children eat around 4 p.m." },
+    { "id": "mettre", "fr": "mettre", "pos": "verb", "ipa": "mɛtʁ", "en": "to put",
+      "def": "Poser une chose : mettre le pain sur la table.", "def_en": "To place something: to put the bread on the table.",
+      "extra": "je **mets** · tu **mets** · il **met** · nous **mettons** · vous **mettez** · ils **mettent** — irregular. **mettre la table** = to set the table.",
+      "forms": ["mets", "met", "mettons", "mettez", "mettent", "mis", "mettais", "mettait", "mettions", "mettiez", "mettaient", "mettrai", "mettras", "mettra", "mettrons", "mettrez", "mettront"],
+      "examples": [
+        { "fr": "Je **mets** le sel sur la table.", "en": "I put the salt on the table." },
+        { "fr": "Tu **mets** du sucre dans ton café ?", "en": "Do you put sugar in your coffee?" },
+        { "fr": "On **met** le gâteau au four.", "en": "We put the cake in the oven." }
+      ] },
+    { "id": "sentir", "fr": "sentir", "pos": "verb", "ipa": "sɑ̃.tiʁ", "en": "to smell",
+      "def": "Ce qu'on fait avec le nez : ça sent bon !", "def_en": "What you do with your nose: it smells good!",
+      "extra": "je **sens** · tu **sens** · il **sent** · nous **sentons** · vous **sentez** · ils **sentent**",
+      "forms": ["sens", "sent", "sentons", "sentez", "sentent", "sentais", "sentait", "sentions", "sentiez", "sentaient", "sentirai", "sentiras", "sentira", "sentirons", "sentirez", "sentiront"],
+      "examples": [
+        { "fr": "Mmm, ça **sent** bon !", "en": "Mmm, that smells good!" },
+        { "fr": "Je **sens** le pain chaud.", "en": "I can smell the warm bread." },
+        { "fr": "Ça **sent** le chocolat ici.", "en": "It smells of chocolate in here." }
+      ] },
+    { "id": "aider", "fr": "aider", "pos": "verb", "ipa": "e.de", "en": "to help",
+      "def": "Faire quelque chose avec une personne, pour elle.", "def_en": "To do something with a person, for them.",
+      "forms": ["aide", "aides", "aidons", "aidez", "aident", "aidais", "aidait", "aidions", "aidiez", "aidaient", "aiderai", "aideras", "aidera", "aiderons", "aiderez", "aideront"],
+      "examples": [
+        { "fr": "Je peux **aider** ?", "en": "Can I help?" },
+        { "fr": "Hugo **aide** Léa dans la cuisine.", "en": "Hugo helps Léa in the kitchen." },
+        { "fr": "Tu m'**aides** ?", "en": "Will you help me?" }
+      ] },
+    { "id": "brulant", "fr": "brûlant", "pos": "adj", "ipa": "bʁy.lɑ̃", "display": "brûlant(e)", "en": "scorching hot, burning",
+      "def": "Très, très chaud : attention !", "def_en": "Very, very hot: careful!",
+      "forms": ["brûlante", "brûlants", "brûlantes"], "accept": ["brûlante", "brulant"],
+      "examples": [
+        { "fr": "Attention, la poêle est **brûlante** !", "en": "Careful, the pan is scorching hot!" },
+        { "fr": "Le café est **brûlant**.", "en": "The coffee is burning hot." },
+        { "fr": "La soupe est **brûlante**, attends un peu.", "en": "The soup is very hot, wait a bit." }
+      ] },
+    { "id": "cru", "fr": "cru", "pos": "adj", "ipa": "kʁy", "display": "cru(e)", "en": "raw",
+      "def": "Pas cuit : on mange les carottes crues ou cuites.", "def_en": "Not cooked: you can eat carrots raw or cooked.",
+      "forms": ["crue", "crus", "crues"], "accept": ["crue"],
+      "examples": [
+        { "fr": "J'aime les carottes **crues**.", "en": "I like raw carrots." },
+        { "fr": "Le poisson est **cru** !", "en": "The fish is raw!" },
+        { "fr": "On ne mange pas les pommes de terre **crues**.", "en": "You don't eat raw potatoes." }
+      ] },
+    { "id": "cuit", "fr": "cuit", "pos": "adj", "ipa": "kɥi", "display": "cuit(e)", "en": "cooked, done",
+      "def": "Prêt à manger, après le four ou la poêle. Le contraire de « cru ».", "def_en": "Ready to eat, after the oven or the pan. The opposite of “raw”.",
+      "extra": "It's the past participle of **cuire**.",
+      "forms": ["cuite", "cuits", "cuites"], "accept": ["cuite"],
+      "examples": [
+        { "fr": "Le poulet est **cuit**.", "en": "The chicken is cooked." },
+        { "fr": "Les pâtes sont **cuites** ?", "en": "Is the pasta done?" },
+        { "fr": "Le gâteau est bien **cuit**.", "en": "The cake is well baked." }
+      ] },
+    { "id": "facile", "fr": "facile", "pos": "adj", "ipa": "fa.sil", "en": "easy",
+      "def": "Pas difficile : on le fait sans problème.", "def_en": "Not difficult: you can do it without any problem.",
+      "forms": ["faciles"],
+      "examples": [
+        { "fr": "Cette recette est très **facile**.", "en": "This recipe is very easy." },
+        { "fr": "Les crêpes, c'est **facile** !", "en": "Crêpes are easy!" },
+        { "fr": "Le français, c'est **facile** ?", "en": "Is French easy?" }
+      ] },
+    { "id": "difficile", "fr": "difficile", "pos": "adj", "ipa": "di.fi.sil", "en": "difficult, hard",
+      "def": "Le contraire de « facile ».", "def_en": "The opposite of “easy”.",
+      "forms": ["difficiles"],
+      "examples": [
+        { "fr": "C'est **difficile** !", "en": "It's hard!" },
+        { "fr": "Cette recette est **difficile**.", "en": "This recipe is difficult." },
+        { "fr": "Le français n'est pas **difficile**.", "en": "French isn't difficult." }
+      ] }
+  ],
+  "story": {
+    "title": "La soupe de Tom",
+    "en": "Tom cooks for the first time — and Sophie teaches him.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Ce soir, Tom prépare le dîner pour la première fois. Sophie est là pour aider.", "en": "Tonight, Tom is making dinner for the first time. Sophie is there to help." },
+      { "sp": "Tom", "fr": "Je veux faire une soupe de légumes. C'est facile ?", "en": "I want to make a vegetable soup. Is it easy?" },
+      { "sp": "Sophie", "fr": "Très facile ! D'abord, on lave les légumes.", "en": "Very easy! First, we wash the vegetables." },
+      { "sp": "", "fr": "Tom lave les carottes et les pommes de terre dans l'évier.", "en": "Tom washes the carrots and potatoes in the sink." },
+      { "sp": "Sophie", "fr": "Maintenant, on épluche les pommes de terre et on coupe les carottes.", "en": "Now we peel the potatoes and cut the carrots." },
+      { "sp": "Tom", "fr": "Je coupe en petits morceaux ?", "en": "Shall I cut them into small pieces?" },
+      { "sp": "Sophie", "fr": "Oui. Attention au couteau !", "en": "Yes. Careful with the knife!" },
+      { "sp": "", "fr": "Ils mettent les légumes dans une grande casserole.", "en": "They put the vegetables in a big saucepan." },
+      { "sp": "Sophie", "fr": "On ajoute de l'eau et un peu de sel. Et on chauffe.", "en": "We add water and a little salt. And we heat it." },
+      { "sp": "Tom", "fr": "Les légumes cuisent combien de temps ?", "en": "How long do the vegetables cook?" },
+      { "sp": "Sophie", "fr": "Vingt minutes. Après, on mélange tout.", "en": "Twenty minutes. After that, we blend everything." },
+      { "sp": "", "fr": "Vingt minutes après, la soupe est prête.", "en": "Twenty minutes later, the soup is ready." },
+      { "sp": "Tom", "fr": "Mmm, ça sent bon ! Je peux goûter ?", "en": "Mmm, it smells good! Can I taste it?" },
+      { "sp": "Sophie", "fr": "Attends, elle est brûlante !", "en": "Wait, it's scorching hot!" },
+      { "sp": "Tom", "fr": "Aïe ! Oui, elle est brûlante… Et les carottes ? Elles sont cuites ?", "en": "Ow! Yes, it's very hot… And the carrots? Are they cooked?" },
+      { "sp": "Sophie", "fr": "Oui, elles sont cuites, pas crues. On verse la soupe dans les bols !", "en": "Yes, they're cooked, not raw. Let's pour the soup into the bowls!" },
+      { "sp": "", "fr": "Tom goûte la soupe.", "en": "Tom tastes the soup." },
+      { "sp": "Tom", "fr": "C'est délicieux ! Cuisiner, ce n'est pas difficile !", "en": "It's delicious! Cooking isn't difficult!" },
+      { "sp": "Sophie", "fr": "Tu vois ? Demain, tu prépares le dîner pour tout le monde !", "en": "You see? Tomorrow, you're making dinner for everyone!" }
+    ]
+  }
+}

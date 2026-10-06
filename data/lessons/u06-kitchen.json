@@ -1,0 +1,204 @@
+{
+  "id": "u06-kitchen",
+  "type": "vocab",
+  "unit": 6,
+  "title": "Dans la cuisine",
+  "en": "In the kitchen",
+  "intro": "20 words for cooking: pans, cutlery, ingredients. Watch the genders — **la poêle** (frying pan) and **le poêle** (stove) are different words!",
+  "words": [
+    { "id": "poele", "fr": "poêle", "pos": "noun", "g": "f", "ipa": "pwal", "en": "frying pan",
+      "def": "Un objet de cuisine rond et [plat|plat-adj] qu'on met sur le feu pour faire cuire des œufs, de la viande…", "def_en": "A round, flat kitchen object you put on the heat to cook eggs, meat…",
+      "forms": ["poêles"], "accept": ["poele"],
+      "examples": [
+        { "fr": "Fais chauffer un peu d'huile dans la **poêle**.", "en": "Heat a little oil in the frying pan." },
+        { "fr": "Elle fait sauter les légumes à la **poêle**.", "en": "She sautés the vegetables in the pan." },
+        { "fr": "Attention, la **poêle** est brûlante !", "en": "Careful, the pan is scorching hot!" }
+      ],
+      "note": "⚠ **le poêle** (masculine) = a heating stove. Same sound /pwal/, different gender, different word." },
+    { "id": "casserole", "fr": "casserole", "pos": "noun", "g": "f", "ipa": "kas.ʁɔl", "en": "saucepan",
+      "def": "Un objet de cuisine profond, pour faire cuire l'eau, les pâtes ou la soupe.", "def_en": "A deep kitchen pot for cooking water, pasta or soup.",
+      "forms": ["casseroles"],
+      "examples": [
+        { "fr": "L'eau est dans la **casserole**.", "en": "The water is in the saucepan." },
+        { "fr": "Je fais cuire les pâtes dans une grande **casserole**.", "en": "I cook the pasta in a big saucepan." },
+        { "fr": "La **casserole** est sur la cuisinière.", "en": "The saucepan is on the cooker." }
+      ],
+      "note": "False friend: **une casserole** is a saucepan, not a casserole dish." },
+    { "id": "four", "fr": "four", "pos": "noun", "g": "m", "ipa": "fuʁ", "en": "oven",
+      "def": "On fait cuire les gâteaux et le pain dedans. Il est très chaud.", "def_en": "You bake cakes and bread in it. It's very hot.",
+      "forms": ["fours"],
+      "examples": [
+        { "fr": "Le gâteau est dans le **four**.", "en": "The cake is in the oven." },
+        { "fr": "Le **four** est très chaud !", "en": "The oven is very hot!" },
+        { "fr": "Je mets le poulet au **four**.", "en": "I'm putting the chicken in the oven." }
+      ] },
+    { "id": "cuisiniere", "fr": "cuisinière", "pos": "noun", "g": "f", "ipa": "kɥi.zi.njɛʁ", "en": "cooker, stove; (female) cook",
+      "def": "Le meuble de la cuisine pour faire cuire, avec un four.", "def_en": "The kitchen appliance for cooking, with an oven.",
+      "forms": ["cuisinières"], "accept": ["cuisiniere"],
+      "examples": [
+        { "fr": "La casserole est sur la **cuisinière**.", "en": "The saucepan is on the cooker." },
+        { "fr": "La **cuisinière** est à côté de l'évier.", "en": "The cooker is next to the sink." },
+        { "fr": "Ma mère est une très bonne **cuisinière**.", "en": "My mother is a very good cook." }
+      ],
+      "note": "Also: a (female) cook. A male cook is **un cuisinier**." },
+    { "id": "micro-ondes", "fr": "micro-ondes", "pos": "noun", "g": "m", "ipa": "mi.kʁo.ɔ̃d", "en": "microwave",
+      "def": "Une petite machine pour chauffer vite la nourriture.", "def_en": "A small machine for heating food quickly.",
+      "accept": ["micro ondes", "micro-onde"],
+      "examples": [
+        { "fr": "Je chauffe le lait au **micro-ondes**.", "en": "I heat the milk in the microwave." },
+        { "fr": "Le **micro-ondes** est à côté du frigo.", "en": "The microwave is next to the fridge." },
+        { "fr": "Il n'y a pas de **micro-ondes** chez mes grands-parents.", "en": "There's no microwave at my grandparents' house." }
+      ],
+      "note": "Same word in the singular and plural: **un micro-ondes**." },
+    { "id": "evier", "fr": "évier", "pos": "noun", "g": "m", "ipa": "e.vje", "en": "(kitchen) sink",
+      "def": "Dans la cuisine, on lave la vaisselle dans l'évier.", "def_en": "In the kitchen, you wash the dishes in the sink.",
+      "forms": ["éviers"], "accept": ["evier"],
+      "examples": [
+        { "fr": "Les assiettes sont dans l'**évier**.", "en": "The plates are in the sink." },
+        { "fr": "L'**évier** est sous la fenêtre.", "en": "The sink is under the window." },
+        { "fr": "Je lave les légumes dans l'**évier**.", "en": "I wash the vegetables in the sink." }
+      ] },
+    { "id": "assiette", "fr": "assiette", "pos": "noun", "g": "f", "ipa": "a.sjɛt", "en": "plate",
+      "def": "On met la nourriture dedans pour manger.", "def_en": "You put food on it to eat.",
+      "forms": ["assiettes"],
+      "examples": [
+        { "fr": "Il y a quatre **assiettes** sur la table.", "en": "There are four plates on the table." },
+        { "fr": "Mon **assiette** est vide !", "en": "My plate is empty!" },
+        { "fr": "Les **assiettes** sont dans le placard.", "en": "The plates are in the cupboard." }
+      ] },
+    { "id": "bol", "fr": "bol", "pos": "noun", "g": "m", "ipa": "bɔl", "en": "bowl",
+      "def": "Une petite assiette ronde et profonde, pour la soupe ou le café du matin.", "def_en": "A small, round, deep dish for soup or morning coffee.",
+      "forms": ["bols"],
+      "examples": [
+        { "fr": "Je [bois|boire] mon café dans un **bol**.", "en": "I drink my coffee from a bowl." },
+        { "fr": "Un **bol** de soupe, s'il te plaît.", "en": "A bowl of soup, please." },
+        { "fr": "Les **bols** sont sur l'étagère.", "en": "The bowls are on the shelf." }
+      ],
+      "note": "Many French people drink their breakfast coffee or hot chocolate from **un bol**!" },
+    { "id": "fourchette", "fr": "fourchette", "pos": "noun", "g": "f", "ipa": "fuʁ.ʃɛt", "en": "fork",
+      "def": "On l'utilise pour manger la viande ou les pâtes.", "def_en": "You use it to eat meat or pasta.",
+      "forms": ["fourchettes"],
+      "examples": [
+        { "fr": "Il n'y a pas de **fourchette** !", "en": "There's no fork!" },
+        { "fr": "On mange les pâtes avec une **fourchette**.", "en": "You eat pasta with a fork." },
+        { "fr": "La **fourchette** est à gauche de l'assiette.", "en": "The fork goes to the left of the plate." }
+      ] },
+    { "id": "couteau", "fr": "couteau", "pos": "noun", "g": "m", "ipa": "ku.to", "en": "knife",
+      "def": "On coupe la viande ou le pain avec.", "def_en": "You cut meat or bread with it.",
+      "forms": ["couteaux"],
+      "examples": [
+        { "fr": "Je coupe le pain avec un **couteau**.", "en": "I cut the bread with a knife." },
+        { "fr": "Le **couteau** est à droite de l'assiette.", "en": "The knife goes to the right of the plate." },
+        { "fr": "Attention, le **couteau** est dangereux !", "en": "Careful, the knife is dangerous!" }
+      ],
+      "note": "Plural with **-x**: **des couteaux**." },
+    { "id": "cuillere", "fr": "cuillère", "pos": "noun", "g": "f", "ipa": "kɥi.jɛʁ", "en": "spoon",
+      "def": "On mange la soupe avec.", "def_en": "You eat soup with it.",
+      "forms": ["cuillères", "cuiller", "cuillers"], "accept": ["cuillere", "cuiller"],
+      "examples": [
+        { "fr": "Une **cuillère** de sucre, s'il vous plaît.", "en": "A spoonful of sugar, please." },
+        { "fr": "Je mange la soupe avec une **cuillère**.", "en": "I eat soup with a spoon." },
+        { "fr": "Les **cuillères** sont dans le placard.", "en": "The spoons are in the cupboard." }
+      ],
+      "note": "Also spelled **cuiller** — same pronunciation." },
+    { "id": "recette", "fr": "recette", "pos": "noun", "g": "f", "ipa": "ʁə.sɛt", "en": "recipe",
+      "def": "Elle explique comment préparer un plat.", "def_en": "It explains how to make a dish.",
+      "forms": ["recettes"],
+      "examples": [
+        { "fr": "C'est la **recette** de ma grand-mère.", "en": "It's my grandmother's recipe." },
+        { "fr": "Tu as la **recette** du gâteau ?", "en": "Do you have the recipe for the cake?" },
+        { "fr": "Cette **recette** est facile.", "en": "This recipe is easy." }
+      ] },
+    { "id": "sel", "fr": "sel", "pos": "noun", "g": "m", "ipa": "sɛl", "en": "salt",
+      "def": "Une poudre blanche, pas sucrée, qu'on met dans les plats.", "def_en": "A white powder, not sweet, that you put in food.",
+      "examples": [
+        { "fr": "Le **sel**, s'il te plaît !", "en": "The salt, please!" },
+        { "fr": "Il n'y a pas assez de **sel**.", "en": "There isn't enough salt." },
+        { "fr": "Du **sel** et du poivre.", "en": "Salt and pepper." }
+      ] },
+    { "id": "poivre", "fr": "poivre", "pos": "noun", "g": "m", "ipa": "pwavʁ", "en": "pepper (spice)",
+      "def": "Une poudre noire qui pique un peu. On la met avec le sel.", "def_en": "A black powder that's a little spicy. You use it with salt.",
+      "examples": [
+        { "fr": "Le sel et le **poivre** sont sur la table.", "en": "The salt and pepper are on the table." },
+        { "fr": "Un peu de **poivre**, s'il te plaît.", "en": "A little pepper, please." },
+        { "fr": "Il y a trop de **poivre** !", "en": "There's too much pepper!" }
+      ] },
+    { "id": "sucre", "fr": "sucre", "pos": "noun", "g": "m", "ipa": "sykʁ", "en": "sugar",
+      "def": "Une poudre blanche et sucrée. On la met dans le café ou dans les gâteaux.", "def_en": "A sweet white powder. You put it in coffee or cakes.",
+      "examples": [
+        { "fr": "Tu prends du **sucre** dans ton café ?", "en": "Do you take sugar in your coffee?" },
+        { "fr": "Il y a trop de **sucre** dans ce gâteau.", "en": "There's too much sugar in this cake." },
+        { "fr": "Le **sucre** est dans le placard.", "en": "The sugar is in the cupboard." }
+      ] },
+    { "id": "huile", "fr": "huile", "pos": "noun", "g": "f", "ipa": "ɥil", "en": "oil",
+      "def": "Un liquide jaune, pour faire cuire ou pour la salade.", "def_en": "A yellow liquid for cooking or for salad.",
+      "forms": ["huiles"],
+      "examples": [
+        { "fr": "Je mets un peu d'**huile** dans la poêle.", "en": "I put a little oil in the pan." },
+        { "fr": "J'aime la salade avec de l'**huile**.", "en": "I like salad with oil." },
+        { "fr": "Il n'y a pas d'**huile**.", "en": "There's no oil." }
+      ],
+      "note": "**l'huile** is feminine, and the **h** is silent: *de l'huile*." },
+    { "id": "farine", "fr": "farine", "pos": "noun", "g": "f", "ipa": "fa.ʁin", "en": "flour",
+      "def": "Une poudre blanche, faite avec du blé. On fait le pain et les gâteaux avec.", "def_en": "A white powder made from wheat. Bread and cakes are made with it.",
+      "examples": [
+        { "fr": "Pour le gâteau : de la **farine**, des œufs et du sucre.", "en": "For the cake: flour, eggs and sugar." },
+        { "fr": "Il n'y a pas de **farine** !", "en": "There's no flour!" },
+        { "fr": "Un kilo de **farine**, s'il vous plaît.", "en": "A kilo of flour, please." }
+      ] },
+    { "id": "morceau", "fr": "morceau", "pos": "noun", "g": "m", "ipa": "mɔʁ.so", "en": "piece, bit",
+      "def": "Une petite partie de quelque chose : un morceau de pain.", "def_en": "A small part of something: a piece of bread.",
+      "forms": ["morceaux"],
+      "examples": [
+        { "fr": "Je voudrais un **morceau** de gâteau.", "en": "I'd like a piece of cake." },
+        { "fr": "Coupe la viande en petits **morceaux**.", "en": "Cut the meat into small pieces." },
+        { "fr": "Un **morceau** de fromage, s'il te plaît.", "en": "A piece of cheese, please." }
+      ] },
+    { "id": "plat", "fr": "plat", "pos": "noun", "g": "m", "ipa": "pla", "en": "dish; course (of a meal)",
+      "def": "La nourriture qu'on prépare ; aussi la grande assiette pour la servir.", "def_en": "Food you've prepared; also the big plate you serve it on.",
+      "forms": ["plats"],
+      "examples": [
+        { "fr": "C'est mon **plat** préféré !", "en": "It's my favourite dish!" },
+        { "fr": "Le **plat** est très chaud.", "en": "The dish is very hot." },
+        { "fr": "Il y a trois **plats** sur la table.", "en": "There are three dishes on the table." }
+      ],
+      "note": "**le plat principal** = the main course. The **t** is silent: /pla/." },
+    { "id": "vaisselle", "fr": "vaisselle", "pos": "noun", "g": "f", "ipa": "vɛ.sɛl", "en": "dishes, crockery",
+      "def": "Les assiettes, les verres, les tasses… Après le repas, on fait la vaisselle.", "def_en": "Plates, glasses, cups… After the meal, you do the dishes.",
+      "examples": [
+        { "fr": "Je fais la **vaisselle**.", "en": "I'm doing the washing-up." },
+        { "fr": "La **vaisselle** est dans l'évier.", "en": "The dishes are in the sink." },
+        { "fr": "Ce soir, c'est Hugo qui fait la **vaisselle** !", "en": "Tonight, Hugo is doing the dishes!" }
+      ],
+      "note": "**faire la vaisselle** = to do the washing-up." }
+  ],
+  "story": {
+    "title": "Les crêpes de Louise",
+    "en": "Léa makes her grandmother's crêpes for her friends.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Ce soir, Léa fait des crêpes pour ses amis.", "en": "This evening, Léa is making crêpes for her friends." },
+      { "sp": "Léa", "fr": "C'est la recette de ma grand-mère Louise !", "en": "It's my grandmother Louise's recipe!" },
+      { "sp": "", "fr": "Dans un grand bol, elle met de la farine, des œufs et du lait.", "en": "In a big bowl, she puts flour, eggs and milk." },
+      { "sp": "Sophie", "fr": "Et du sucre ?", "en": "And sugar?" },
+      { "sp": "Léa", "fr": "Oui, une cuillère de sucre et un peu de sel.", "en": "Yes, a spoonful of sugar and a little salt." },
+      { "sp": "Hugo", "fr": "Et du poivre ?", "en": "And pepper?" },
+      { "sp": "Léa", "fr": "Du poivre ? Dans les crêpes ? Non, Hugo !", "en": "Pepper? In crêpes? No, Hugo!" },
+      { "sp": "", "fr": "Léa mélange avec une fourchette.", "en": "Léa mixes it with a fork." },
+      { "sp": "Sophie", "fr": "Et le four ?", "en": "And the oven?" },
+      { "sp": "Léa", "fr": "Non, pas de four pour les crêpes ! Il faut une poêle.", "en": "No, no oven for crêpes! You need a frying pan." },
+      { "sp": "", "fr": "Elle met un morceau de beurre dans une petite casserole, sur la cuisinière.", "en": "She puts a piece of butter in a small saucepan on the cooker." },
+      { "sp": "", "fr": "Puis elle met un peu d'huile dans la poêle.", "en": "Then she puts a little oil in the frying pan." },
+      { "sp": "Léa", "fr": "Attention, la poêle est brûlante !", "en": "Careful, the pan is scorching hot!" },
+      { "sp": "", "fr": "La première crêpe n'est pas très belle.", "en": "The first crêpe isn't very pretty." },
+      { "sp": "Hugo", "fr": "Ce n'est pas grave, c'est pour moi !", "en": "Never mind, that one's for me!" },
+      { "sp": "", "fr": "Après, les crêpes sont parfaites, avec de la confiture ou du chocolat.", "en": "After that, the crêpes are perfect, with jam or chocolate." },
+      { "sp": "Sophie", "fr": "Je chauffe le chocolat au micro-ondes ?", "en": "Shall I heat the chocolate in the microwave?" },
+      { "sp": "", "fr": "Sophie met les assiettes, les fourchettes et les couteaux sur la table.", "en": "Sophie puts the plates, forks and knives on the table." },
+      { "sp": "Tom", "fr": "Mmm, c'est délicieux ! C'est mon plat préféré !", "en": "Mmm, it's delicious! It's my favourite dish!" },
+      { "sp": "Léa", "fr": "Merci ! Et maintenant… qui fait la vaisselle ?", "en": "Thank you! And now… who's doing the dishes?" },
+      { "sp": "", "fr": "Tout le monde regarde Hugo.", "en": "Everyone looks at Hugo." },
+      { "sp": "Hugo", "fr": "Encore moi ? Bon… les bols et les assiettes, dans l'évier !", "en": "Me again? Fine… bowls and plates, into the sink!" }
+    ]
+  }
+}

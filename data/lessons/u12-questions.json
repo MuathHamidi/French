@@ -1,0 +1,212 @@
+{
+  "id": "u12-questions",
+  "type": "grammar",
+  "unit": 12,
+  "title": "Où vas-tu ?",
+  "en": "Asking questions",
+  "intro": "French has three ways to ask a question, from relaxed to formal: raise your voice (*Tu viens ?*), put **est-ce que** in front (*Est-ce que tu viens ?*), or swap the subject and the verb (*Viens-tu ?*). Add the question words (*où, quand, comment, pourquoi, qui, que, quel*) and you can ask anything.",
+  "cases": [
+    { "id": "q-voice", "label": "voice going up", "rule": "In everyday speech, keep the sentence as it is and **raise your voice** at the end: *Tu viens ? Il fait beau ?*" },
+    { "id": "q-estceque", "label": "est-ce que", "rule": "Put **est-ce que** in front of any sentence: *Est-ce que tu viens ?* Before a vowel: **est-ce qu'**: *Est-ce qu'il pleut ?*" },
+    { "id": "q-inversion", "label": "inversion: viens-tu ?", "rule": "In careful French, put the pronoun **after** the verb, with a hyphen: *Viens-tu ? Parlez-vous anglais ?* Between two vowels, add **-t-**: *A-t-il… ? Va-t-elle… ?*" },
+    { "id": "q-words", "label": "où, quand, comment, combien", "rule": "Question words go at the start, with *est-ce que* or inversion (*Où est-ce que tu vas ? Où vas-tu ?*), or at the end in speech (*Tu vas où ?*). Also **quand** (when), **comment** (how), **combien** (how much, how many)." },
+    { "id": "q-pourquoi", "label": "pourquoi ? parce que…", "rule": "**pourquoi** = why. Answer with **parce que** (because), **parce qu'** before a vowel: *Pourquoi tu pars ? Parce qu'il est tard.*" },
+    { "id": "q-que", "label": "what: qu'est-ce que, que, quoi", "rule": "*What?* has three forms: **Qu'est-ce que** tu fais ? (standard), **Que** fais-tu ? (formal), Tu fais **quoi** ? (speech, at the end)." },
+    { "id": "q-qui", "label": "who: qui", "rule": "**qui** = who: *Qui vient ce soir ? Qui est-ce ?* After a preposition it stays **qui**: *avec qui, pour qui, à qui*." },
+    { "id": "q-quel", "label": "which, what: quel + noun", "rule": "**quel** + noun = which / what. It agrees with the noun: **quel** sentier, **quelle** heure, **quels** amis, **quelles** fleurs. Also **Quel est… ?**: *Quel est ton nom ?*" },
+    { "id": "q-si", "label": "si: yes to a negative question", "rule": "To say *yes* to a **negative** question, use **si**, not *oui*: *Tu ne viens pas ? **Si** !* (Yes, I am!)" }
+  ],
+  "sections": [
+    {
+      "title": "1. Three ways to ask a yes / no question",
+      "text": ["The same question can be asked three ways. They all mean *Are you coming?*; only the style changes."],
+      "table": {
+        "head": ["Style", "French", "When"], "frCols": [1],
+        "rows": [
+          ["voice going up", "Tu viens ?", "everyday speech"],
+          ["est-ce que", "Est-ce que tu viens ?", "speech and writing"],
+          ["inversion", "Viens-tu ?", "careful speech, writing"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu viens avec nous|q-voice} ?", "en": "Are you coming with us?" },
+        { "fr": "{Il fait beau à Lyon|q-voice} ?", "en": "Is the weather nice in Lyon?" },
+        { "fr": "{Vous avez une tente|q-voice} ?", "en": "Have you got a tent?" }
+      ],
+      "tip": "In speech, the **voice going up** is all you need. Try it: *Tu viens.* (falling) and *Tu viens ?* (rising)."
+    },
+    {
+      "title": "2. est-ce que",
+      "text": ["**Est-ce que** (literally *is it that*) turns any sentence into a question without changing anything else. Before a vowel it becomes **est-ce qu'**."],
+      "examples": [
+        { "fr": "{Est-ce que tu viens|q-estceque} ?", "en": "Are you coming?" },
+        { "fr": "{Est-ce qu'il pleut|q-estceque} ?", "en": "Is it raining?" },
+        { "fr": "{Est-ce que vous aimez|q-estceque} la randonnée ?", "en": "Do you like hiking?" }
+      ],
+      "tip": "*Est-ce que* is said in one breath: /ɛs.kə/."
+    },
+    {
+      "title": "3. Inversion: viens-tu ?",
+      "text": ["In careful French, put the **pronoun after the verb**, with a hyphen. When the verb ends in a vowel and the pronoun starts with one (*il, elle, on*), add **-t-** so the words flow."],
+      "table": {
+        "head": ["Statement", "Inversion"], "frCols": [0, 1],
+        "rows": [
+          ["Tu viens.", "Viens-tu ?"],
+          ["Vous parlez anglais.", "Parlez-vous anglais ?"],
+          ["Il a un chien.", "A-t-il un chien ?"],
+          ["Elle va bien.", "Va-t-elle bien ?"],
+          ["Il y a un lac.", "Y a-t-il un lac ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Parlez-vous|q-inversion} français ?", "en": "Do you speak French?" },
+        { "fr": "{A-t-elle|q-inversion} un vélo ?", "en": "Does she have a bike?" },
+        { "fr": "{Y a-t-il|q-inversion} un camping près d'ici ?", "en": "Is there a campsite near here?" }
+      ],
+      "tip": "You already know some: *Comment allez-vous ? Quel âge as-tu ? Quel temps fait-il ?*"
+    },
+    {
+      "title": "4. où, quand, comment, combien",
+      "text": ["Question words can go **at the start**, with *est-ce que* or inversion, or **at the end** in everyday speech."],
+      "table": {
+        "head": ["Word", "With est-ce que", "Everyday speech"], "frCols": [1, 2],
+        "rows": [
+          ["où (where)", "Où est-ce que tu vas ?", "Tu vas où ?"],
+          ["quand (when)", "Quand est-ce que tu pars ?", "Tu pars quand ?"],
+          ["comment (how)", "Comment est-ce que tu viens ?", "Tu viens comment ?"],
+          ["combien (how much)", "Combien est-ce que ça coûte ?", "Ça coûte combien ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Où est-ce que vous dormez|q-words} ce soir ?", "en": "Where are you sleeping tonight?" },
+        { "fr": "{Quand est-ce que le bateau part|q-words} ?", "en": "When does the boat leave?" },
+        { "fr": "Tu rentres {quand|q-words} ?", "en": "When are you coming home?" }
+      ],
+      "tip": "**combien de** + noun = how many, how much: *Combien de jours ?* (no article)."
+    },
+    {
+      "title": "5. Pourquoi ? Parce que…",
+      "examples": [
+        { "fr": "{Pourquoi|q-pourquoi} tu pars ?", "en": "Why are you leaving?" },
+        { "fr": "{Parce qu'il est tard|q-pourquoi}.", "en": "Because it's late." },
+        { "fr": "{Pourquoi est-ce que|q-pourquoi} tu es en retard ?", "en": "Why are you late?" }
+      ],
+      "tip": "**parce que** becomes **parce qu'** before a vowel: *parce qu'il pleut*."
+    },
+    {
+      "title": "6. What? qu'est-ce que, que, quoi",
+      "table": {
+        "head": ["Style", "French", "English"], "frCols": [1],
+        "rows": [
+          ["standard", "Qu'est-ce que tu fais ?", "What are you doing?"],
+          ["formal", "Que fais-tu ?", "What are you doing?"],
+          ["everyday", "Tu fais quoi ?", "What are you doing?"],
+          ["about a thing", "Qu'est-ce que c'est ?", "What is it?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Qu'est-ce que tu manges|q-que} ?", "en": "What are you eating?" },
+        { "fr": "{Qu'est-ce que c'est|q-que} ?", "en": "What is it?" },
+        { "fr": "Tu cherches {quoi|q-que} ?", "en": "What are you looking for?" }
+      ],
+      "tip": "**Quoi ?** on its own (What?) sounds a bit rude. To be polite, say **Pardon ?** or **Comment ?**"
+    },
+    {
+      "title": "7. Who? qui",
+      "examples": [
+        { "fr": "{Qui est-ce|q-qui} ?", "en": "Who is it?" },
+        { "fr": "{Qui|q-qui} vient ce soir ?", "en": "Who's coming tonight?" },
+        { "fr": "Tu pars {avec qui|q-qui} ?", "en": "Who are you going with?" }
+      ],
+      "tip": "After a preposition, **qui** stays the same: *avec qui, pour qui, à qui, chez qui*."
+    },
+    {
+      "title": "8. Which, what: quel + noun",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "quel sentier ?", "quels amis ?"],
+          ["feminine", "quelle heure ?", "quelles fleurs ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quelle heure|q-quel} est-il ?", "en": "What time is it?" },
+        { "fr": "{Quel sentier|q-quel} on prend ?", "en": "Which path shall we take?" },
+        { "fr": "{Quel est|q-quel} ton numéro de téléphone ?", "en": "What's your phone number?" }
+      ],
+      "tip": "All four forms sound the same: /kɛl/. **Quel est… ?** = What is…? (*Quel est ton nom ?*)."
+    },
+    {
+      "title": "9. Si! Yes to a negative question",
+      "text": ["English says *yes* to both questions. French uses **oui** to answer a normal question, but **si** to contradict a negative one."],
+      "table": {
+        "head": ["Question", "Answer", "English"], "frCols": [0, 1],
+        "rows": [
+          ["Tu viens ?", "Oui !", "Yes (I'm coming)!"],
+          ["Tu ne viens pas ?", "Si !", "Yes, I am (coming)!"],
+          ["Tu ne viens pas ?", "Non.", "No, I'm not."]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu n'aimes pas le camping ? {Si|q-si}, j'adore ça !", "en": "Don't you like camping? Yes, I love it!" },
+        { "fr": "Il ne fait pas froid ? {Si|q-si} !", "en": "Isn't it cold? Yes, it is!" }
+      ],
+      "tip": "**Mais si !** = Oh yes it is! (insisting)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Est-ce que il pleut ?", "right": "Est-ce qu'il pleut ?", "why": "**que → qu'** before a vowel." },
+    { "wrong": "A-il un chien ?", "right": "A-t-il un chien ?", "why": "Add **-t-** between two vowels." },
+    { "wrong": "Quoi tu fais ?", "right": "Qu'est-ce que tu fais ? / Tu fais quoi ?", "why": "**quoi** goes at the end. At the start, use *qu'est-ce que*." },
+    { "wrong": "Qu'est-ce que c'est ton nom ?", "right": "Quel est ton nom ?", "why": "*What is your…?* = **Quel est** ton… ?" },
+    { "wrong": "Tu ne viens pas ? — Oui !", "right": "Tu ne viens pas ? — Si !", "why": "To contradict a negative question, use **si**." }
+  ],
+  "story": {
+    "title": "Le garde du parc",
+    "en": "A park ranger visits the campsite… and asks a lot of questions.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Au camping, un garde du parc arrive. Il pose beaucoup de questions.", "en": "At the campsite, a park ranger arrives. He asks lots of questions." },
+      { "sp": "Le garde", "fr": "Bonjour ! {C'est votre tente|q-voice} ?", "en": "Hello! Is this your tent?" },
+      { "sp": "Léa", "fr": "Oui, monsieur. {Pourquoi|q-pourquoi} ? Il y a un problème ?", "en": "Yes, sir. Why? Is there a problem?" },
+      { "sp": "Le garde", "fr": "Non, non. {Combien de personnes|q-words} dorment dedans ?", "en": "No, no. How many people sleep in it?" },
+      { "sp": "Tom", "fr": "Quatre.", "en": "Four." },
+      { "sp": "Le garde", "fr": "Quatre ? Dans cette petite tente ? {Est-ce que vous dormez bien|q-estceque} ?", "en": "Four? In that little tent? Do you sleep well?" },
+      { "sp": "Sophie", "fr": "Non ! {Parce que|q-pourquoi} Hugo ronfle !", "en": "No! Because Hugo snores!" },
+      { "sp": "Le garde", "fr": "{Qui|q-qui} est Hugo ?", "en": "Who's Hugo?" },
+      { "sp": "Hugo", "fr": "C'est moi. Bonjour, monsieur !", "en": "That's me. Hello, sir!" },
+      { "sp": "Le garde", "fr": "{Qu'est-ce que vous faites|q-que} demain ?", "en": "What are you doing tomorrow?" },
+      { "sp": "Hugo", "fr": "Une randonnée jusqu'au sommet !", "en": "A hike up to the summit!" },
+      { "sp": "Le garde", "fr": "Très bien. {Quel sentier|q-quel} est-ce que vous prenez ?", "en": "Very good. Which trail are you taking?" },
+      { "sp": "Hugo", "fr": "Le sentier rouge. Euh… {il commence où|q-words} ?", "en": "The red trail. Er… where does it start?" },
+      { "sp": "Le garde", "fr": "{Avez-vous|q-inversion} une carte ?", "en": "Do you have a map?" },
+      { "sp": "Hugo", "fr": "Oui… mais elle est dans la tente. Je crois.", "en": "Yes… but it's in the tent. I think." },
+      { "sp": "Le garde", "fr": "Le sentier rouge commence derrière le camping. Et vous n'avez pas peur des ours ?", "en": "The red trail starts behind the campsite. And aren't you afraid of bears?" },
+      { "sp": "Hugo", "fr": "{Si|q-si} ! Il y a des ours ici ?!", "en": "Yes, I am! Are there bears here?!" },
+      { "sp": "Le garde", "fr": "Mais non, je plaisante ! Bonne randonnée !", "en": "No, I'm joking! Have a good hike!" },
+      { "sp": "Tom", "fr": "Bon… {Y a-t-il|q-inversion} d'autres questions ? Non ? Alors, {qui|q-qui} veut des crêpes ?", "en": "Right… Are there any other questions? No? Then who wants crêpes?" }
+    ]
+  },
+  "quiz": [
+    { "case": "q-voice", "type": "mc", "lang": "en", "q": "In everyday speech, how do you make « Tu viens. » a question?", "options": ["Raise your voice: Tu viens ?", "Add « non » at the end", "Change the verb"], "answer": "Raise your voice: Tu viens ?", "say": "Tu viens ?" },
+    { "case": "q-voice", "type": "mc", "lang": "en", "q": "« Vous avez une tente ? » means…", "options": ["Have you got a tent?", "You've got a tent.", "Get a tent!"], "answer": "Have you got a tent?", "say": "Vous avez une tente ?" },
+    { "case": "q-estceque", "type": "type", "q": "___ tu aimes la randonnée ?", "en": "Do you like hiking?", "answer": "Est-ce que" },
+    { "case": "q-estceque", "type": "mc", "q": "___il pleut ?", "en": "Is it raining?", "options": ["Est-ce qu'", "Est-ce que", "Est-ce"], "answer": "Est-ce qu'", "why": "**que → qu'** before a vowel." },
+    { "case": "q-inversion", "type": "mc", "lang": "en", "q": "Which question is careful, formal French?", "options": ["Parlez-vous anglais ?", "Vous parlez anglais ?"], "answer": "Parlez-vous anglais ?" },
+    { "case": "q-inversion", "type": "mc", "q": "___ un chien ?", "en": "Does he have a dog?", "options": ["A-t-il", "A-il", "Il-a"], "answer": "A-t-il", "why": "Between two vowels, add **-t-**." },
+    { "case": "q-inversion", "type": "type", "q": "Y ___ un lac près d'ici ?", "en": "Is there a lake near here?", "answer": "a-t-il" },
+    { "case": "q-words", "type": "mc", "lang": "en", "q": "How do you ask “Where are you going?”", "options": ["Où est-ce que tu vas ?", "Quand est-ce que tu vas ?", "Comment est-ce que tu vas ?"], "answer": "Où est-ce que tu vas ?" },
+    { "case": "q-words", "type": "type", "q": "Tu pars ___ ?", "en": "When are you leaving?", "answer": "quand" },
+    { "case": "q-words", "type": "mc", "q": "___ de personnes dorment ici ?", "en": "How many people sleep here?", "options": ["Combien", "Comment", "Quand"], "answer": "Combien" },
+    { "case": "q-pourquoi", "type": "mc", "lang": "en", "q": "How do you start your answer to « Pourquoi ? »", "options": ["Parce que…", "Pour que…", "Pourquoi…"], "answer": "Parce que…", "say": "parce que" },
+    { "case": "q-pourquoi", "type": "type", "q": "Je reste à la maison ___il pleut.", "en": "I'm staying at home because it's raining.", "answer": "parce qu'" },
+    { "case": "q-que", "type": "mc", "lang": "en", "q": "How do you ask “What are you doing?” (standard)", "options": ["Qu'est-ce que tu fais ?", "Quoi tu fais ?", "Qui est-ce que tu fais ?"], "answer": "Qu'est-ce que tu fais ?" },
+    { "case": "q-que", "type": "type", "q": "Tu fais ___ ce soir ?", "en": "What are you doing tonight?", "answer": "quoi" },
+    { "case": "q-qui", "type": "mc", "q": "___ vient ce soir ?", "en": "Who's coming tonight?", "options": ["Qui", "Que", "Quoi"], "answer": "Qui" },
+    { "case": "q-qui", "type": "type", "q": "Tu pars avec ___ ?", "en": "Who are you going with?", "answer": "qui" },
+    { "case": "q-quel", "type": "mc", "q": "___ heure est-il ?", "en": "What time is it?", "options": ["Quelle", "Quel", "Quels"], "answer": "Quelle" },
+    { "case": "q-quel", "type": "mc", "q": "___ est ton nom ?", "en": "What's your name?", "options": ["Quel", "Qu'est-ce que", "Quoi"], "answer": "Quel" },
+    { "case": "q-si", "type": "mc", "lang": "en", "q": "« Tu n'aimes pas le camping ? » You DO like it. You answer…", "options": ["Si !", "Oui !", "Non !"], "answer": "Si !", "say": "Si !" },
+    { "case": "q-si", "type": "mc", "lang": "en", "q": "When do you answer « si »?", "options": ["to say yes to a negative question", "to say no politely", "to say “if”"], "answer": "to say yes to a negative question" }
+  ]
+}

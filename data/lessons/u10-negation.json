@@ -1,0 +1,130 @@
+{
+  "id": "u10-negation",
+  "type": "grammar",
+  "unit": 10,
+  "title": "Ne… jamais, ne… plus, ne… rien",
+  "en": "More negatives: never, no longer, nothing, nobody, not yet, only",
+  "intro": "You know **ne … pas**. French has more negatives built the same way — **ne** before the verb, another word after it: *ne … **jamais*** (never), *ne … **plus*** (no longer), *ne … **rien*** (nothing), *ne … **personne*** (nobody)…",
+  "cases": [
+    { "id": "neg-jamais", "label": "ne … jamais — never", "rule": "**ne … jamais** = never: *Je ne vais jamais à la piscine.*" },
+    { "id": "neg-plus", "label": "ne … plus — no longer", "rule": "**ne … plus** = not any more, no longer: *Je ne joue plus au foot.* Here **plus** is said /ply/." },
+    { "id": "neg-rien", "label": "ne … rien — nothing", "rule": "**ne … rien** = nothing, not anything: *Je ne fais rien.* Alone as an answer: **Rien !**" },
+    { "id": "neg-personne", "label": "ne … personne — nobody", "rule": "**ne … personne** = nobody, not anybody: *Je ne vois personne.* Alone: **Personne !**" },
+    { "id": "neg-pas-encore", "label": "ne … pas encore — not yet", "rule": "**ne … pas encore** = not yet: *Je ne suis pas encore prêt.* Alone: **Pas encore !**" },
+    { "id": "neg-que", "label": "ne … que — only", "rule": "**ne … que** = only (it's not really negative): *Je n'ai qu'un frère* = I only have one brother. **que** goes right before what it limits." },
+    { "id": "neg-subject", "label": "Rien ne… / Personne ne…", "rule": "As the subject, **rien** and **personne** come first, then **ne** + verb (no *pas*!): *Rien ne marche. Personne ne vient.*" },
+    { "id": "neg-de", "label": "jamais de, plus de", "rule": "Like after *pas*, **un / une / des / du / de la** become **de** after *jamais* and *plus*: *Je ne mange plus de viande.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. The pattern",
+      "text": ["All these negatives work like **ne … pas**: **ne** (n') before the verb, the second word after it."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne fais pas de sport.", "I don't do any sport."],
+          ["Je ne fais jamais de sport.", "I never do any sport."],
+          ["Je ne fais plus de sport.", "I don't do sport any more."],
+          ["Je ne fais rien.", "I do nothing."],
+          ["Je ne vois personne.", "I don't see anybody."],
+          ["Je ne suis pas encore prêt.", "I'm not ready yet."],
+          ["Je ne fais que du yoga.", "I only do yoga."]
+        ]
+      },
+      "tip": "In everyday speech, people often drop **ne**: *J'ai plus faim. Je sais pas.* You'll hear it all the time — but write the **ne**."
+    },
+    {
+      "title": "2. never, no longer",
+      "examples": [
+        { "fr": "{Je ne vais jamais|neg-jamais} au stade.", "en": "I never go to the stadium." },
+        { "fr": "{Il ne fume plus|neg-plus}.", "en": "He doesn't smoke any more." },
+        { "fr": "{Elle n'habite plus|neg-plus} à Paris.", "en": "She no longer lives in Paris." }
+      ],
+      "tip": "In **ne … plus**, *plus* is said /ply/ (no s). In *plus de*, *encore plus* (more), you often hear /plys/."
+    },
+    {
+      "title": "3. nothing, nobody",
+      "examples": [
+        { "fr": "{Je ne fais rien|neg-rien} le dimanche.", "en": "I do nothing on Sundays." },
+        { "fr": "{Il n'y a personne|neg-personne} à la maison.", "en": "There's nobody at home." },
+        { "fr": "Qu'est-ce que tu manges ? — {Rien|neg-rien} !", "en": "What are you eating? — Nothing!" }
+      ]
+    },
+    {
+      "title": "4. not yet, only",
+      "examples": [
+        { "fr": "{Je ne suis pas encore|neg-pas-encore} prêt.", "en": "I'm not ready yet." },
+        { "fr": "Tu as faim ? — {Pas encore|neg-pas-encore}.", "en": "Are you hungry? — Not yet." },
+        { "fr": "{Je n'ai qu'un|neg-que} frère.", "en": "I only have one brother." },
+        { "fr": "{Il ne mange que|neg-que} des pâtes !", "en": "He only eats pasta!" }
+      ],
+      "tip": "**ne … que** isn't really negative, so the article doesn't change: *il ne mange que **des** pâtes*."
+    },
+    {
+      "title": "5. Rien ne…, Personne ne… as subjects",
+      "text": ["When *nothing* or *nobody* is the subject, it comes first, followed by **ne** + verb. There's no *pas*."],
+      "examples": [
+        { "fr": "{Rien ne marche|neg-subject} !", "en": "Nothing works!" },
+        { "fr": "{Personne ne vient|neg-subject} à la fête.", "en": "Nobody's coming to the party." }
+      ]
+    },
+    {
+      "title": "6. jamais de, plus de",
+      "examples": [
+        { "fr": "{Je ne mange plus de viande|neg-de}.", "en": "I don't eat meat any more." },
+        { "fr": "{Il n'a jamais d'argent|neg-de} !", "en": "He never has any money!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je ne vais pas jamais au stade.", "right": "Je ne vais jamais au stade.", "why": "**jamais** replaces **pas** — never both." },
+    { "wrong": "Je ne vois pas personne.", "right": "Je ne vois personne.", "why": "**personne** replaces **pas**." },
+    { "wrong": "Personne ne vient pas.", "right": "Personne ne vient.", "why": "As a subject: **Personne ne** + verb, no *pas*." },
+    { "wrong": "Je ne mange plus de la viande.", "right": "Je ne mange plus de viande.", "why": "After *plus*: **de**." },
+    { "wrong": "Je ne suis encore pas prêt.", "right": "Je ne suis pas encore prêt.", "why": "Word order: **pas encore**." }
+  ],
+  "story": {
+    "title": "Hugo, le sportif ?",
+    "en": "One month later, Léa checks on Hugo's new sporty life.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un mois après, Léa téléphone à Hugo.", "en": "A month later, Léa phones Hugo." },
+      { "sp": "Léa", "fr": "Alors, tu vas au club de sport ?", "en": "So, are you going to the sports club?" },
+      { "sp": "Hugo", "fr": "Euh… {je n'y vais plus|neg-plus}.", "en": "Um… I don't go any more." },
+      { "sp": "Léa", "fr": "Quoi ? Et le foot avec tes collègues ?", "en": "What? And football with your colleagues?" },
+      { "sp": "Hugo", "fr": "{Je ne joue plus|neg-plus} au foot. {Personne ne me passe|neg-subject} le ballon !", "en": "I don't play football any more. Nobody passes me the ball!" },
+      { "sp": "Léa", "fr": "Et la piscine ?", "en": "And the pool?" },
+      { "sp": "Hugo", "fr": "{Je ne vais jamais|neg-jamais} à la piscine. L'eau est trop froide !", "en": "I never go to the pool. The water's too cold!" },
+      { "sp": "Léa", "fr": "Tu fais quoi, alors, le soir ?", "en": "So what do you do in the evenings?" },
+      { "sp": "Hugo", "fr": "{Rien|neg-rien} ! {Je ne fais rien|neg-rien}. Je regarde des séries.", "en": "Nothing! I do nothing. I watch series." },
+      { "sp": "Léa", "fr": "Hugo ! Et ton vélo ?", "en": "Hugo! And your bike?" },
+      { "sp": "Hugo", "fr": "{Je n'ai plus de vélo|neg-de} : il est chez Tom.", "en": "I haven't got a bike any more: it's at Tom's." },
+      { "sp": "Léa", "fr": "Et tes amis ? Tu [les|les-pron] vois ?", "en": "And your friends? Do you see them?" },
+      { "sp": "Hugo", "fr": "{Je ne vois personne|neg-personne}. Tout le monde travaille !", "en": "I don't see anybody. Everyone's working!" },
+      { "sp": "Léa", "fr": "Bon. Demain matin, on court ensemble au parc. Tu es prêt ?", "en": "Right. Tomorrow morning, we're running together in the park. Are you ready?" },
+      { "sp": "Hugo", "fr": "{Pas encore|neg-pas-encore}… Mais demain, oui !", "en": "Not yet… But tomorrow, yes!" },
+      { "sp": "Léa", "fr": "Hugo, {tu n'as qu'un|neg-que} problème : tu ne veux pas !", "en": "Hugo, you only have one problem: you don't want to!" },
+      { "sp": "", "fr": "Le lendemain, à sept heures, Léa attend au parc. À sept heures et quart, Hugo arrive… en pyjama !", "en": "The next day at seven, Léa waits in the park. At quarter past seven, Hugo arrives… in his pyjamas!" }
+    ]
+  },
+  "quiz": [
+    { "case": "neg-jamais", "type": "mc", "q": "Je ne vais ___ à la piscine.", "en": "I never go to the pool.", "options": ["jamais", "rien", "personne"], "answer": "jamais" },
+    { "case": "neg-jamais", "type": "type", "q": "Il ne fait ___ de sport.", "en": "He never does any sport.", "answer": "jamais" },
+    { "case": "neg-plus", "type": "mc", "q": "Je ne joue ___ au foot.", "en": "I don't play football any more.", "options": ["plus", "jamais", "rien"], "answer": "plus" },
+    { "case": "neg-plus", "type": "type", "q": "Elle n'habite ___ à Paris.", "en": "She no longer lives in Paris.", "answer": "plus" },
+    { "case": "neg-plus", "type": "mc", "lang": "en", "q": "In speech, « J'ai plus faim » means…", "options": ["I'm not hungry any more", "I'm hungrier"], "answer": "I'm not hungry any more", "say": "J'ai plus faim." },
+    { "case": "neg-rien", "type": "mc", "q": "Je ne fais ___.", "en": "I'm doing nothing.", "options": ["rien", "personne", "jamais"], "answer": "rien" },
+    { "case": "neg-rien", "type": "mc", "lang": "en", "q": "“What are you doing?” — “Nothing!”", "options": ["Rien !", "Personne !", "Jamais !"], "answer": "Rien !" },
+    { "case": "neg-personne", "type": "mc", "q": "Je ne vois ___.", "en": "I can't see anybody.", "options": ["personne", "rien", "plus"], "answer": "personne" },
+    { "case": "neg-personne", "type": "mc", "lang": "en", "q": "“Who's there?” — “Nobody.”", "options": ["Personne.", "Rien.", "Jamais."], "answer": "Personne." },
+    { "case": "neg-personne", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je ne vois personne.", "Je ne vois pas personne.", "Je vois ne personne."], "answer": "Je ne vois personne." },
+    { "case": "neg-pas-encore", "type": "mc", "q": "Je ne suis pas ___ prêt.", "en": "I'm not ready yet.", "options": ["encore", "plus", "jamais"], "answer": "encore" },
+    { "case": "neg-pas-encore", "type": "type", "q": "Tu as faim ? — Non, pas ___.", "en": "Are you hungry? — No, not yet.", "answer": "encore" },
+    { "case": "neg-que", "type": "mc", "lang": "en", "q": "« Je n'ai qu'un frère » means…", "options": ["I only have one brother", "I don't have a brother", "I don't have a brother any more"], "answer": "I only have one brother", "say": "Je n'ai qu'un frère." },
+    { "case": "neg-que", "type": "type", "q": "Il ne mange ___ des pâtes.", "en": "He only eats pasta.", "answer": "que" },
+    { "case": "neg-subject", "type": "mc", "q": "___ ne marche !", "en": "Nothing works!", "options": ["Rien", "Personne", "Jamais"], "answer": "Rien" },
+    { "case": "neg-subject", "type": "mc", "q": "___ ne vient à la fête.", "en": "Nobody's coming to the party.", "options": ["Personne", "Rien", "Plus"], "answer": "Personne" },
+    { "case": "neg-de", "type": "mc", "q": "Je ne mange plus ___ viande.", "en": "I don't eat meat any more.", "options": ["de", "de la", "la"], "answer": "de" },
+    { "case": "neg-de", "type": "type", "q": "Il n'a jamais ___argent.", "en": "He never has any money.", "answer": "d'" }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "u05-cafe",
+  "type": "vocab",
+  "unit": 5,
+  "title": "Au café",
+  "en": "Drinks, meals & ordering",
+  "intro": "Drinks, meals, and the phrases you need in a French café: **je voudrais…** (I'd like…), **l'addition** (the bill) — and the verbs **manger** and **boire**.",
+  "words": [
+    { "id": "eau", "fr": "eau", "pos": "noun", "g": "f", "ipa": "o", "en": "water",
+      "def": "On la boit quand on a soif.", "def_en": "You drink it when you're thirsty.",
+      "forms": ["eaux"],
+      "examples": [
+        { "fr": "Je voudrais un verre d'**eau**, s'il vous plaît.", "en": "I'd like a glass of water, please." },
+        { "fr": "L'**eau** est froide.", "en": "The water is cold." },
+        { "fr": "Une bouteille d'**eau**, s'il vous plaît.", "en": "A bottle of water, please." }
+      ],
+      "note": "Three letters, one sound: **eau** = /o/. In a restaurant, **une carafe d'eau** (tap water) is free." },
+    { "id": "lait", "fr": "lait", "pos": "noun", "g": "m", "ipa": "lɛ", "en": "milk",
+      "def": "Une boisson blanche. Elle vient de la vache.", "def_en": "A white drink. It comes from the cow.",
+      "examples": [
+        { "fr": "Lou boit du **lait**.", "en": "Lou drinks milk." },
+        { "fr": "Un café au **lait**, s'il vous plaît.", "en": "A coffee with milk, please." },
+        { "fr": "Il n'y a pas de **lait** !", "en": "There's no milk!" }
+      ] },
+    { "id": "cafe", "fr": "café", "pos": "noun", "g": "m", "ipa": "ka.fe", "en": "coffee; café",
+      "def": "Une boisson chaude et noire. C'est aussi le lieu où on la boit.", "def_en": "A hot black drink. It's also the place where you drink it.",
+      "forms": ["cafés"], "accept": ["cafe"],
+      "examples": [
+        { "fr": "Je voudrais un **café**, s'il vous plaît.", "en": "I'd like a coffee, please." },
+        { "fr": "On va au **café** ?", "en": "Shall we go to the café?" },
+        { "fr": "Le **café** est très chaud.", "en": "The coffee is very hot." }
+      ],
+      "note": "In a French café, **un café** is a small espresso. For coffee with milk, ask for **un café au lait** or **un crème**." },
+    { "id": "the", "fr": "thé", "pos": "noun", "g": "m", "ipa": "te", "en": "tea",
+      "def": "Une boisson chaude, avec des feuilles dans l'eau.", "def_en": "A hot drink made with leaves in water.",
+      "forms": ["thés"], "accept": ["the"],
+      "examples": [
+        { "fr": "Tu veux du **thé** ou du café ?", "en": "Do you want tea or coffee?" },
+        { "fr": "Je bois du **thé** le matin.", "en": "I drink tea in the morning." },
+        { "fr": "Un **thé** au citron, s'il vous plaît.", "en": "A lemon tea, please." }
+      ],
+      "note": "The **h** is silent: /te/." },
+    { "id": "jus", "fr": "jus", "pos": "noun", "g": "m", "ipa": "ʒy", "en": "juice",
+      "def": "La boisson qu'on fait avec des fruits.", "def_en": "The drink made from fruit.",
+      "examples": [
+        { "fr": "Je voudrais un **jus** d'orange.", "en": "I'd like an orange juice." },
+        { "fr": "Lou aime le **jus** de pomme.", "en": "Lou likes apple juice." },
+        { "fr": "Il y a du **jus** dans le frigo.", "en": "There's juice in the fridge." }
+      ],
+      "note": "The **s** is silent: /ʒy/." },
+    { "id": "vin", "fr": "vin", "pos": "noun", "g": "m", "ipa": "vɛ̃", "en": "wine",
+      "def": "Une boisson rouge ou blanche, faite avec du raisin.", "def_en": "A red or white drink made from grapes.",
+      "forms": ["vins"],
+      "examples": [
+        { "fr": "Un verre de **vin** rouge, s'il vous plaît.", "en": "A glass of red wine, please." },
+        { "fr": "La France a beaucoup de bons **vins**.", "en": "France has lots of good wines." },
+        { "fr": "Mon père aime le **vin**.", "en": "My father likes wine." }
+      ],
+      "note": "**vin** and **vingt** sound the same: /vɛ̃/. **vent** (wind) is /vɑ̃/ — practise them in the nasal-vowels lesson." },
+    { "id": "biere", "fr": "bière", "pos": "noun", "g": "f", "ipa": "bjɛʁ", "en": "beer",
+      "def": "Une boisson jaune avec des bulles et de l'alcool.", "def_en": "A yellow drink with bubbles and alcohol.",
+      "forms": ["bières"], "accept": ["biere"],
+      "examples": [
+        { "fr": "Une **bière**, s'il vous plaît !", "en": "A beer, please!" },
+        { "fr": "Hugo boit une **bière** avec ses amis.", "en": "Hugo is having a beer with his friends." },
+        { "fr": "Il n'y a pas de **bière** au café ?", "en": "Isn't there any beer at the café?" }
+      ] },
+    { "id": "boisson", "fr": "boisson", "pos": "noun", "g": "f", "ipa": "bwa.sɔ̃", "en": "drink",
+      "def": "Ce qu'on boit : l'eau, le café, le jus…", "def_en": "What you drink: water, coffee, juice…",
+      "forms": ["boissons"],
+      "examples": [
+        { "fr": "Qu'est-ce que tu veux comme **boisson** ?", "en": "What would you like to drink?" },
+        { "fr": "Les **boissons** sont dans le frigo.", "en": "The drinks are in the fridge." },
+        { "fr": "Une **boisson** chaude, s'il vous plaît.", "en": "A hot drink, please." }
+      ] },
+    { "id": "verre", "fr": "verre", "pos": "noun", "g": "m", "ipa": "vɛʁ", "en": "glass",
+      "def": "On boit de l'eau ou du vin dans un verre.", "def_en": "You drink water or wine from a glass.",
+      "forms": ["verres"],
+      "examples": [
+        { "fr": "Un **verre** d'eau, s'il vous plaît.", "en": "A glass of water, please." },
+        { "fr": "Les **verres** sont sur la table.", "en": "The glasses are on the table." },
+        { "fr": "On prend un **verre** ce soir ?", "en": "Shall we have a drink tonight?" }
+      ],
+      "note": "**prendre un verre** = to have a drink (with friends)." },
+    { "id": "tasse", "fr": "tasse", "pos": "noun", "g": "f", "ipa": "tas", "en": "cup",
+      "def": "On boit le café ou le thé dans une tasse.", "def_en": "You drink coffee or tea from a cup.",
+      "forms": ["tasses"],
+      "examples": [
+        { "fr": "Une **tasse** de thé, s'il vous plaît.", "en": "A cup of tea, please." },
+        { "fr": "La **tasse** est très chaude.", "en": "The cup is very hot." },
+        { "fr": "Il y a des **tasses** dans le placard.", "en": "There are cups in the cupboard." }
+      ] },
+    { "id": "bouteille", "fr": "bouteille", "pos": "noun", "g": "f", "ipa": "bu.tɛj", "en": "bottle",
+      "def": "On met l'eau, le vin ou le jus dans une bouteille.", "def_en": "Water, wine or juice goes in a bottle.",
+      "forms": ["bouteilles"],
+      "examples": [
+        { "fr": "Une **bouteille** d'eau, s'il vous plaît.", "en": "A bottle of water, please." },
+        { "fr": "Il y a une **bouteille** de vin sur la table.", "en": "There's a bottle of wine on the table." },
+        { "fr": "Les **bouteilles** sont dans le frigo.", "en": "The bottles are in the fridge." }
+      ] },
+    { "id": "petit-dejeuner", "fr": "petit-déjeuner", "pos": "noun", "g": "m", "ipa": "pə.ti de.ʒœ.ne", "en": "breakfast",
+      "def": "Le repas du matin.", "def_en": "The morning meal.",
+      "forms": ["petits-déjeuners", "petit déjeuner"], "accept": ["petit dejeuner", "petit déjeuner", "petit-dejeuner"],
+      "examples": [
+        { "fr": "Au **petit-déjeuner**, je mange du pain et de la confiture.", "en": "At breakfast I eat bread and jam." },
+        { "fr": "Le **petit-déjeuner** est prêt !", "en": "Breakfast is ready!" },
+        { "fr": "On prend le **petit-déjeuner** au café ?", "en": "Shall we have breakfast at the café?" }
+      ] },
+    { "id": "dejeuner", "fr": "déjeuner", "pos": "noun", "g": "m", "ipa": "de.ʒœ.ne", "en": "lunch; to have lunch",
+      "def": "Le repas de midi.", "def_en": "The midday meal.",
+      "forms": ["déjeuners", "déjeune", "déjeunes", "déjeunons", "déjeunez", "déjeunent", "déjeunerai", "déjeuneras", "déjeunera", "déjeunerons", "déjeunerez", "déjeuneront"], "accept": ["dejeuner"],
+      "examples": [
+        { "fr": "Le **déjeuner** est à midi.", "en": "Lunch is at noon." },
+        { "fr": "On mange du poulet au **déjeuner**.", "en": "We're having chicken for lunch." },
+        { "fr": "Tu viens pour le **déjeuner** ?", "en": "Are you coming for lunch?" }
+      ],
+      "note": "Also a verb: *on déjeune à midi* (we have lunch at noon). In Belgium, Switzerland and Québec, **le déjeuner** can mean breakfast!" },
+    { "id": "diner", "fr": "dîner", "pos": "noun", "g": "m", "ipa": "di.ne", "en": "dinner; to have dinner",
+      "def": "Le repas du soir.", "def_en": "The evening meal.",
+      "forms": ["dîners", "dîne", "dînes", "dînons", "dînez", "dînent", "dînerai", "dîneras", "dînera", "dînerons", "dînerez", "dîneront"], "accept": ["diner"],
+      "examples": [
+        { "fr": "Le **dîner** est à huit heures.", "en": "Dinner is at eight o'clock." },
+        { "fr": "Qu'est-ce qu'on mange au **dîner** ?", "en": "What are we having for dinner?" },
+        { "fr": "Ce soir, le **dîner** est chez mes parents.", "en": "Tonight, dinner is at my parents' house." }
+      ] },
+    { "id": "repas", "fr": "repas", "pos": "noun", "g": "m", "ipa": "ʁə.pa", "en": "meal",
+      "def": "Le petit-déjeuner, le déjeuner et le dîner sont des repas.", "def_en": "Breakfast, lunch and dinner are meals.",
+      "examples": [
+        { "fr": "En France, le **repas** est long.", "en": "In France, meals are long." },
+        { "fr": "Il y a trois **repas** par jour.", "en": "There are three meals a day." },
+        { "fr": "Le **repas** est prêt !", "en": "The meal is ready!" }
+      ],
+      "note": "Before eating, say **Bon appétit !** (enjoy your meal)." },
+    { "id": "manger", "fr": "manger", "pos": "verb", "ipa": "mɑ̃.ʒe", "en": "to eat",
+      "def": "On mange quand on a faim.", "def_en": "You eat when you're hungry.",
+      "extra": "je **mange** · tu **manges** · il/elle **mange** · nous **mangeons** · vous **mangez** · ils/elles **mangent** — note the **e** in *mangeons*.",
+      "forms": ["mange", "manges", "mangeons", "mangez", "mangent", "mangé", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient", "mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
+      "examples": [
+        { "fr": "Je **mange** une pomme.", "en": "I'm eating an apple." },
+        { "fr": "Nous **mangeons** au café.", "en": "We're eating at the café." },
+        { "fr": "Qu'est-ce que tu **manges** ?", "en": "What are you eating?" }
+      ] },
+    { "id": "boire", "fr": "boire", "pos": "verb", "ipa": "bwaʁ", "en": "to drink",
+      "def": "On boit quand on a soif.", "def_en": "You drink when you're thirsty.",
+      "extra": "je **bois** · tu **bois** · il/elle **boit** · nous **buvons** · vous **buvez** · ils/elles **boivent** — irregular!",
+      "forms": ["bois", "boit", "buvons", "buvez", "boivent", "bu", "buvais", "buvait", "buvions", "buviez", "buvaient", "boirai", "boiras", "boira", "boirons", "boirez", "boiront"],
+      "examples": [
+        { "fr": "Je **bois** de l'eau.", "en": "I'm drinking water." },
+        { "fr": "Tu **bois** du café ?", "en": "Do you drink coffee?" },
+        { "fr": "Ils **boivent** du thé.", "en": "They drink tea." }
+      ] },
+    { "id": "je-voudrais", "fr": "je voudrais", "pos": "expr", "ipa": "ʒə vu.dʁɛ", "en": "I would like",
+      "def": "La façon polie de dire « je veux ».", "def_en": "The polite way to say “I want”.",
+      "extra": "From **vouloir** (to want). When ordering, **je veux** (I want) can sound rude — say **je voudrais**.",
+      "forms": ["voudrais", "voudrait", "voudrions", "voudriez", "voudraient"],
+      "examples": [
+        { "fr": "**Je voudrais** un café, s'il vous plaît.", "en": "I'd like a coffee, please." },
+        { "fr": "**Je voudrais** l'addition.", "en": "I'd like the bill." },
+        { "fr": "Tu **voudrais** du thé ?", "en": "Would you like some tea?" }
+      ] },
+    { "id": "addition", "fr": "addition", "pos": "noun", "g": "f", "ipa": "a.di.sjɔ̃", "en": "the bill, the check",
+      "def": "Au café ou au restaurant, le papier avec le prix à payer.", "def_en": "At a café or restaurant, the piece of paper with the price to pay.",
+      "forms": ["additions"],
+      "examples": [
+        { "fr": "L'**addition**, s'il vous plaît !", "en": "The bill, please!" },
+        { "fr": "Je voudrais l'**addition**.", "en": "I'd like the bill." },
+        { "fr": "L'**addition** est sur la table.", "en": "The bill is on the table." }
+      ] },
+    { "id": "delicieux", "fr": "délicieux", "pos": "adj", "ipa": "de.li.sjø", "display": "délicieux, délicieuse", "en": "delicious",
+      "def": "Très, très bon à manger ou à boire.", "def_en": "Very, very good to eat or drink.",
+      "extra": "Feminine: **délicieuse** — you hear the /z/.",
+      "forms": ["délicieuse", "délicieuses"], "accept": ["délicieuse", "delicieux"],
+      "examples": [
+        { "fr": "Ce gâteau est **délicieux** !", "en": "This cake is delicious!" },
+        { "fr": "La soupe est **délicieuse**.", "en": "The soup is delicious." },
+        { "fr": "Merci, c'est **délicieux** !", "en": "Thank you, it's delicious!" }
+      ] }
+  ],
+  "story": {
+    "title": "Le café d'en bas",
+    "en": "A day at the café downstairs from Léa and Sophie's flat.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Il y a un café au rez-de-chaussée de l'immeuble de Léa et Sophie.", "en": "There's a café on the ground floor of Léa and Sophie's building." },
+      { "sp": "", "fr": "Le matin, elles prennent le petit-déjeuner au café.", "en": "In the morning, they have breakfast at the café." },
+      { "sp": "Le serveur", "fr": "Bonjour, mesdames ! Qu'est-ce que vous voulez boire ?", "en": "Good morning, ladies! What would you like to drink?" },
+      { "sp": "Léa", "fr": "Je voudrais un café et un jus d'orange, s'il vous plaît.", "en": "I'd like a coffee and an orange juice, please." },
+      { "sp": "Sophie", "fr": "Et pour moi, un thé avec un peu de lait.", "en": "And for me, a tea with a little milk." },
+      { "sp": "Le serveur", "fr": "Et à manger ? Des croissants ?", "en": "And to eat? Croissants?" },
+      { "sp": "Léa", "fr": "Oui, deux croissants ! Ils sont délicieux ici.", "en": "Yes, two croissants! They're delicious here." },
+      { "sp": "", "fr": "À midi, Hugo arrive pour le déjeuner.", "en": "At noon, Hugo arrives for lunch." },
+      { "sp": "Hugo", "fr": "J'ai faim ! Qu'est-ce qu'il y a comme repas ?", "en": "I'm hungry! What's on the menu?" },
+      { "sp": "Le serveur", "fr": "Aujourd'hui, il y a du poulet avec des légumes.", "en": "Today there's chicken with vegetables." },
+      { "sp": "Hugo", "fr": "Parfait ! Et une bouteille d'eau, s'il vous plaît.", "en": "Perfect! And a bottle of water, please." },
+      { "sp": "Le serveur", "fr": "Et comme boisson ? Un verre de vin ? Une bière ?", "en": "And to drink? A glass of wine? A beer?" },
+      { "sp": "Hugo", "fr": "Non merci, l'eau, ça va. Je bois du vin seulement au dîner.", "en": "No thanks, water's fine. I only drink wine at dinner." },
+      { "sp": "", "fr": "Après le repas, Hugo boit une tasse de café.", "en": "After the meal, Hugo has a cup of coffee." },
+      { "sp": "Hugo", "fr": "L'addition, s'il vous plaît !", "en": "The bill, please!" },
+      { "sp": "Léa", "fr": "Hugo… tu n'as pas ton sac. Et ton argent ?", "en": "Hugo… you don't have your bag. What about your money?" },
+      { "sp": "Hugo", "fr": "Oh non ! Léa… tu as de l'argent ?", "en": "Oh no! Léa… do you have any money?" }
+    ]
+  }
+}

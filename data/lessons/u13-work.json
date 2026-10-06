@@ -1,0 +1,224 @@
+{
+  "id": "u13-work",
+  "type": "vocab",
+  "unit": 13,
+  "title": "Au travail",
+  "en": "At work",
+  "intro": "22 words for the world of work: the company, the boss and colleagues, meetings, emails, interviews and internships. You'll need them for a job, a work placement… or just to understand your friends talking about their day!",
+  "words": [
+    { "id": "travail", "fr": "travail", "pos": "noun", "g": "m", "ipa": "tʁa.vaj", "en": "work; job",
+      "def": "Ce qu'on fait pour gagner de l'argent. Aussi : l'endroit où on travaille.", "def_en": "What you do to earn money. Also: the place where you work.",
+      "forms": ["travaux"],
+      "examples": [
+        { "fr": "Je cherche du **travail**.", "en": "I'm looking for work." },
+        { "fr": "Hugo va au **travail** à vélo.", "en": "Hugo goes to work by bike." },
+        { "fr": "Bon **travail** !", "en": "Good work!" }
+      ],
+      "note": "**au travail** = at work, to work. Careful: **les travaux** = roadworks, building work." },
+    { "id": "travailler", "fr": "travailler", "pos": "verb", "ipa": "tʁa.va.je", "en": "to work",
+      "def": "Faire son travail, faire des efforts.", "def_en": "To do your job; to make an effort.",
+      "forms": ["travaille", "travailles", "travaillons", "travaillez", "travaillent", "travaillé", "travaillais", "travaillait", "travaillions", "travailliez", "travaillaient", "travaillerai", "travailleras", "travaillera", "travaillerons", "travaillerez", "travailleront"],
+      "examples": [
+        { "fr": "Je **travaille** dans une banque.", "en": "I work in a bank." },
+        { "fr": "Vous **travaillez** le samedi ?", "en": "Do you work on Saturdays?" },
+        { "fr": "Léa **travaille** beaucoup pour ses examens.", "en": "Léa works hard for her exams." }
+      ],
+      "note": "**ill** = /j/: *je travaille* /tʁa.vaj/." },
+    { "id": "entreprise", "fr": "entreprise", "pos": "noun", "g": "f", "ipa": "ɑ̃.tʁə.pʁiz", "en": "company, business",
+      "def": "Une organisation qui fabrique ou qui vend quelque chose : une banque, un magasin, une usine…", "def_en": "An organisation that makes or sells something: a bank, a shop, a factory…",
+      "forms": ["entreprises"],
+      "examples": [
+        { "fr": "Hugo travaille dans une petite **entreprise**.", "en": "Hugo works in a small company." },
+        { "fr": "C'est une **entreprise** de quarante personnes.", "en": "It's a company of forty people." },
+        { "fr": "Elle crée sa propre **entreprise**.", "en": "She's setting up her own business." }
+      ] },
+    { "id": "patron", "fr": "patron", "pos": "noun", "g": "m", "ipa": "pa.tʁɔ̃", "display": "le patron, la patronne", "en": "boss",
+      "def": "La personne qui dirige une entreprise ou un restaurant.", "def_en": "The person who runs a company or a restaurant.",
+      "forms": ["patronne", "patrons", "patronnes"],
+      "accept": ["patronne", "la patronne", "une patronne", "chef", "le chef"],
+      "examples": [
+        { "fr": "La **patronne** de Hugo s'appelle madame Dupont.", "en": "Hugo's boss is called Mme Dupont." },
+        { "fr": "Le **patron** du café est très sympa.", "en": "The owner of the café is very nice." },
+        { "fr": "Je demande un jour de congé à mon **patron**.", "en": "I ask my boss for a day off." }
+      ],
+      "note": "At the office, people also say **le chef** (the boss, the manager)." },
+    { "id": "collegue", "fr": "collègue", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ.lɛɡ", "display": "le / la collègue", "en": "colleague",
+      "def": "Une personne qui travaille avec toi, dans la même entreprise.", "def_en": "A person who works with you, in the same company.",
+      "forms": ["collègues"],
+      "accept": ["la collègue", "une collègue"],
+      "examples": [
+        { "fr": "Mes **collègues** sont très sympas.", "en": "My colleagues are really nice." },
+        { "fr": "Je déjeune avec une **collègue**.", "en": "I'm having lunch with a colleague." },
+        { "fr": "Julien est le **collègue** de Hugo.", "en": "Julien is Hugo's colleague." }
+      ],
+      "note": "The same word for a man and a woman: **un / une collègue**." },
+    { "id": "client", "fr": "client", "pos": "noun", "g": "m", "ipa": "kli.jɑ̃", "display": "le client, la cliente", "en": "customer, client",
+      "def": "La personne qui achète quelque chose ou qui paie pour un service.", "def_en": "The person who buys something or pays for a service.",
+      "forms": ["cliente", "clients", "clientes"],
+      "accept": ["cliente", "la cliente", "une cliente"],
+      "examples": [
+        { "fr": "Le magasin a beaucoup de **clients** le samedi.", "en": "The shop has lots of customers on Saturdays." },
+        { "fr": "Une **cliente** attend à la caisse.", "en": "A customer is waiting at the till." },
+        { "fr": "Hugo a un rendez-vous avec un **client**.", "en": "Hugo has a meeting with a client." }
+      ] },
+    { "id": "reunion", "fr": "réunion", "pos": "noun", "g": "f", "ipa": "ʁe.y.njɔ̃", "en": "meeting",
+      "def": "Quand des collègues se retrouvent pour parler du travail.", "def_en": "When colleagues get together to talk about work.",
+      "forms": ["réunions"],
+      "examples": [
+        { "fr": "J'ai une **réunion** à dix heures.", "en": "I have a meeting at ten." },
+        { "fr": "La **réunion** est trop longue !", "en": "The meeting is too long!" },
+        { "fr": "Le lundi, il y a toujours une **réunion** d'équipe.", "en": "On Mondays, there's always a team meeting." }
+      ] },
+    { "id": "rendez-vous", "fr": "rendez-vous", "pos": "noun", "g": "m", "ipa": "ʁɑ̃.de.vu", "en": "appointment; meeting; date",
+      "def": "Une heure et un endroit choisis pour voir quelqu'un : chez le médecin, avec un client, avec un ami…", "def_en": "A time and place chosen to see someone: at the doctor's, with a client, with a friend…",
+      "examples": [
+        { "fr": "J'ai **rendez-vous** chez le dentiste à trois heures.", "en": "I've got a dentist's appointment at three." },
+        { "fr": "On se donne **rendez-vous** devant le cinéma ?", "en": "Shall we meet in front of the cinema?" },
+        { "fr": "La patronne a un **rendez-vous** important.", "en": "The boss has an important meeting." }
+      ],
+      "note": "Literally *go (there) yourselves*! Also a romantic date: *un premier rendez-vous*. Same in the plural: *des rendez-vous*." },
+    { "id": "salaire", "fr": "salaire", "pos": "noun", "g": "m", "ipa": "sa.lɛʁ", "en": "salary, pay",
+      "def": "L'argent qu'on gagne chaque mois pour son travail.", "def_en": "The money you earn each month for your work.",
+      "forms": ["salaires"],
+      "examples": [
+        { "fr": "Mon **salaire** arrive le premier du mois.", "en": "My pay comes in on the first of the month." },
+        { "fr": "C'est un bon **salaire**.", "en": "It's a good salary." },
+        { "fr": "Les infirmières veulent un meilleur **salaire**.", "en": "Nurses want better pay." }
+      ] },
+    { "id": "emploi", "fr": "emploi", "pos": "noun", "g": "m", "ipa": "ɑ̃.plwa", "en": "job, employment",
+      "def": "Un travail avec un salaire : on cherche un emploi, on trouve un emploi…", "def_en": "Work with a salary: you look for a job, you find a job…",
+      "forms": ["emplois"],
+      "examples": [
+        { "fr": "Je cherche un **emploi**.", "en": "I'm looking for a job." },
+        { "fr": "Il y a beaucoup d'**emplois** à Lyon.", "en": "There are lots of jobs in Lyon." },
+        { "fr": "Quel est ton **emploi** du temps ?", "en": "What's your timetable?" }
+      ],
+      "note": "**un emploi du temps** = a timetable, a schedule." },
+    { "id": "chomage", "fr": "chômage", "pos": "noun", "g": "m", "ipa": "ʃo.maʒ", "en": "unemployment",
+      "def": "Quand on n'a pas de travail, on est au chômage.", "def_en": "When you don't have a job, you're unemployed.",
+      "examples": [
+        { "fr": "Mon voisin est au **chômage**.", "en": "My neighbour is out of work." },
+        { "fr": "Le **chômage** baisse cette année.", "en": "Unemployment is going down this year." },
+        { "fr": "Après six mois de **chômage**, il trouve un travail.", "en": "After six months out of work, he finds a job." }
+      ],
+      "note": "**être au chômage** = to be unemployed." },
+    { "id": "stage", "fr": "stage", "pos": "noun", "g": "m", "ipa": "staʒ", "en": "internship, work placement; course",
+      "def": "Un moment où un étudiant travaille dans une entreprise pour apprendre un métier.", "def_en": "A period when a student works in a company to learn a trade.",
+      "forms": ["stages"],
+      "examples": [
+        { "fr": "Léa cherche un **stage** pour l'été.", "en": "Léa is looking for an internship for the summer." },
+        { "fr": "Le **stage** dure deux mois.", "en": "The internship lasts two months." },
+        { "fr": "Je fais un **stage** de cuisine.", "en": "I'm doing a cookery course." }
+      ],
+      "note": "**un / une stagiaire** = an intern, a trainee." },
+    { "id": "entretien", "fr": "entretien", "pos": "noun", "g": "m", "ipa": "ɑ̃.tʁə.tjɛ̃", "en": "interview (job interview)",
+      "def": "Une conversation avec un patron avant d'avoir un emploi.", "def_en": "A conversation with an employer before getting a job.",
+      "forms": ["entretiens"],
+      "examples": [
+        { "fr": "J'ai un **entretien** demain matin !", "en": "I've got an interview tomorrow morning!" },
+        { "fr": "Pour l'**entretien**, Hugo porte un costume.", "en": "For the interview, Hugo wears a suit." },
+        { "fr": "L'**entretien** se passe bien.", "en": "The interview is going well." }
+      ],
+      "note": "**passer un entretien** = to have an interview. **un entretien d'embauche** = a job interview." },
+    { "id": "cv", "fr": "CV", "pos": "noun", "g": "m", "ipa": "se.ve", "en": "CV, résumé",
+      "def": "Une feuille avec vos études, votre expérience et vos qualités.", "def_en": "A sheet with your education, your experience and your strengths.",
+      "examples": [
+        { "fr": "J'envoie mon **CV** à trois entreprises.", "en": "I'm sending my CV to three companies." },
+        { "fr": "Ton **CV** est trop long !", "en": "Your CV is too long!" },
+        { "fr": "Mets ta photo sur ton **CV**.", "en": "Put your photo on your CV." }
+      ],
+      "note": "Said /se.ve/, from Latin *curriculum vitae*. In France, a CV often has a photo." },
+    { "id": "pause", "fr": "pause", "pos": "noun", "g": "f", "ipa": "poz", "en": "break",
+      "def": "Un petit moment de repos pendant le travail.", "def_en": "A short rest during work.",
+      "forms": ["pauses"],
+      "examples": [
+        { "fr": "On fait une **pause** ?", "en": "Shall we take a break?" },
+        { "fr": "La **pause** déjeuner dure une heure.", "en": "The lunch break lasts an hour." },
+        { "fr": "Pendant la **pause**, je bois un café.", "en": "During the break, I have a coffee." }
+      ] },
+    { "id": "dossier", "fr": "dossier", "pos": "noun", "g": "m", "ipa": "do.sje", "en": "file, folder",
+      "def": "Des papiers ou des documents sur un même sujet.", "def_en": "Papers or documents on one subject.",
+      "forms": ["dossiers"],
+      "examples": [
+        { "fr": "Le **dossier** est sur mon bureau.", "en": "The file is on my desk." },
+        { "fr": "Je range mes **dossiers**.", "en": "I'm tidying up my files." },
+        { "fr": "Hugo oublie toujours ses **dossiers** !", "en": "Hugo always forgets his files!" }
+      ] },
+    { "id": "mail", "fr": "mail", "pos": "noun", "g": "m", "ipa": "mɛl", "en": "email",
+      "def": "Un message qu'on envoie par Internet.", "def_en": "A message you send over the Internet.",
+      "forms": ["mails", "e-mail", "e-mails"],
+      "accept": ["e-mail", "un e-mail", "courriel"],
+      "examples": [
+        { "fr": "J'envoie un **mail** à ma patronne.", "en": "I'm sending an email to my boss." },
+        { "fr": "J'ai cinquante **mails** ce matin !", "en": "I've got fifty emails this morning!" },
+        { "fr": "Tu lis tes **mails** le week-end ?", "en": "Do you read your emails at the weekend?" }
+      ],
+      "note": "Also **un e-mail**, and in Québec **un courriel**. Said /mɛl/, not like English *mail*." },
+    { "id": "imprimante", "fr": "imprimante", "pos": "noun", "g": "f", "ipa": "ɛ̃.pʁi.mɑ̃t", "en": "printer",
+      "def": "La machine qui met sur papier les documents de l'ordinateur.", "def_en": "The machine that puts documents from the computer on paper.",
+      "forms": ["imprimantes"],
+      "examples": [
+        { "fr": "L'**imprimante** ne marche pas !", "en": "The printer isn't working!" },
+        { "fr": "Il n'y a plus de papier dans l'**imprimante**.", "en": "There's no paper left in the printer." },
+        { "fr": "L'**imprimante** est à côté de la porte.", "en": "The printer is next to the door." }
+      ],
+      "note": "From **imprimer** (to print)." },
+    { "id": "teletravail", "fr": "télétravail", "pos": "noun", "g": "m", "ipa": "te.le.tʁa.vaj", "en": "working from home, remote work",
+      "def": "Travailler chez soi, avec un ordinateur, sans aller au bureau.", "def_en": "Working at home, with a computer, without going to the office.",
+      "examples": [
+        { "fr": "Le vendredi, je suis en **télétravail**.", "en": "On Fridays, I work from home." },
+        { "fr": "Julien fait du **télétravail** deux jours par semaine.", "en": "Julien works from home two days a week." },
+        { "fr": "Le **télétravail**, c'est pratique !", "en": "Working from home is handy!" }
+      ],
+      "note": "**être en télétravail** = to be working from home." },
+    { "id": "retraite", "fr": "retraite", "pos": "noun", "g": "f", "ipa": "ʁə.tʁɛt", "en": "retirement",
+      "def": "Quand on est vieux et qu'on ne travaille plus, on est à la retraite.", "def_en": "When you're old and don't work any more, you're retired.",
+      "examples": [
+        { "fr": "Mes grands-parents sont à la **retraite**.", "en": "My grandparents are retired." },
+        { "fr": "Il prend sa **retraite** à soixante-quatre ans.", "en": "He's retiring at sixty-four." },
+        { "fr": "À la **retraite**, ma grand-mère voyage beaucoup.", "en": "In retirement, my grandmother travels a lot." }
+      ],
+      "note": "**être à la retraite** = to be retired. **prendre sa retraite** = to retire. A retired person: **un retraité, une retraitée**." },
+    { "id": "occupe", "fr": "occupé", "pos": "adj", "ipa": "ɔ.ky.pe", "display": "occupé(e)", "en": "busy; taken",
+      "def": "Qui a beaucoup de choses à faire. Aussi : pas libre (la place est occupée).", "def_en": "Having lots to do. Also: not free (the seat is taken).",
+      "forms": ["occupée", "occupés", "occupées"],
+      "examples": [
+        { "fr": "Désolé, je suis très **occupé** aujourd'hui.", "en": "Sorry, I'm very busy today." },
+        { "fr": "La patronne est **occupée** : elle est en réunion.", "en": "The boss is busy: she's in a meeting." },
+        { "fr": "Cette place est **occupée** ?", "en": "Is this seat taken?" }
+      ] },
+    { "id": "envoyer", "fr": "envoyer", "pos": "verb", "ipa": "ɑ̃.vwa.je", "en": "to send",
+      "def": "Faire partir une lettre, un colis ou un message vers quelqu'un.", "def_en": "To make a letter, a parcel or a message go to someone.",
+      "extra": "j'**envoie** · tu **envoies** · il **envoie** · nous **envoyons** · vous **envoyez** · ils **envoient**: **y → i** before a silent ending.",
+      "forms": ["envoie", "envoies", "envoyons", "envoyez", "envoient", "envoyais", "envoyait", "envoyions", "envoyiez", "envoyaient", "envoyé", "envoyée", "envoyés", "envoyées", "enverrai", "enverras", "enverra", "enverrons", "enverrez", "enverront"],
+      "examples": [
+        { "fr": "J'**envoie** un mail à mon collègue.", "en": "I'm sending an email to my colleague." },
+        { "fr": "Tu **envoies** ton CV ?", "en": "Are you sending your CV?" },
+        { "fr": "Nous **envoyons** les dossiers ce soir.", "en": "We're sending the files tonight." }
+      ] }
+  ],
+  "story": {
+    "title": "Le lundi de Hugo",
+    "en": "Monday at the office: a meeting, a broken printer… and good news for Léa.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi, huit heures et demie. Hugo arrive au travail… en retard, bien sûr.", "en": "Monday, half past eight. Hugo arrives at work… late, of course." },
+      { "sp": "", "fr": "Il travaille dans une petite entreprise d'informatique, à Lyon. Son collègue Julien [l'|le-pron]attend devant la porte.", "en": "He works in a small IT company in Lyon. His colleague Julien is waiting for him at the door." },
+      { "sp": "Julien", "fr": "Vite, Hugo ! La réunion commence, et la patronne n'est pas contente…", "en": "Quick, Hugo! The meeting's starting, and the boss isn't happy…" },
+      { "sp": "La patronne", "fr": "Bonjour à tous. Aujourd'hui, je suis très occupée : j'ai un rendez-vous avec un client important.", "en": "Good morning, everyone. Today I'm very busy: I have a meeting with an important client." },
+      { "sp": "La patronne", "fr": "Hugo, vous préparez le dossier du client, s'il vous plaît ?", "en": "Hugo, could you prepare the client's file, please?" },
+      { "sp": "", "fr": "Hugo prépare le dossier. Il envoie dix mails… puis l'imprimante ne marche plus !", "en": "Hugo prepares the file. He sends ten emails… then the printer stops working!" },
+      { "sp": "Hugo", "fr": "Julien, tu sais réparer l'imprimante ?", "en": "Julien, do you know how to fix the printer?" },
+      { "sp": "Julien", "fr": "Non… Et demain, je suis en télétravail : pas d'imprimante chez moi !", "en": "No… And tomorrow I'm working from home: no printer at my place!" },
+      { "sp": "", "fr": "À midi, c'est la pause. Les collègues déjeunent ensemble.", "en": "At noon, it's the break. The colleagues have lunch together." },
+      { "sp": "Julien", "fr": "Tu sais, notre collègue Bernard part à la retraite vendredi.", "en": "You know, our colleague Bernard is retiring on Friday." },
+      { "sp": "Hugo", "fr": "Ah bon ? Alors il y a un emploi pour quelqu'un ?", "en": "Really? So there's a job for someone?" },
+      { "sp": "Julien", "fr": "Non, mais la patronne cherche un stagiaire pour le mois de juin. C'est un stage d'un mois.", "en": "No, but the boss is looking for an intern for June. It's a one-month internship." },
+      { "sp": "Hugo", "fr": "Un stage ? Ma sœur Léa cherche un stage ! Elle peut envoyer son CV ?", "en": "An internship? My sister Léa is looking for one! Can she send her CV?" },
+      { "sp": "Julien", "fr": "Bien sûr ! Après, elle passe un entretien avec la patronne.", "en": "Of course! Then she has an interview with the boss." },
+      { "sp": "Julien", "fr": "Mais attention : le salaire d'un stagiaire, ce n'est pas beaucoup !", "en": "But be warned: an intern's pay isn't much!" },
+      { "sp": "Hugo", "fr": "Ce n'est pas grave. Avec le chômage aujourd'hui, un stage, c'est une chance !", "en": "Never mind. With unemployment the way it is, an internship is a real opportunity!" },
+      { "sp": "", "fr": "Le soir, Hugo appelle Léa : « J'ai une bonne nouvelle pour toi ! »", "en": "In the evening, Hugo calls Léa: “I've got good news for you!”" }
+    ]
+  }
+}

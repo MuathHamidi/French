@@ -1,0 +1,210 @@
+{
+  "id": "u17-cod",
+  "type": "grammar",
+  "unit": 17,
+  "title": "Je le vois",
+  "en": "Object pronouns: le, la, les, me, te…",
+  "intro": "To avoid repeating a noun, French replaces it with a small word that goes **before the verb**: *Tu vois Léa ? — Oui, je **la** vois.* These are the **direct object pronouns**: **me, te, le, la, nous, vous, les**.",
+  "cases": [
+    { "id": "cod-what", "label": "the direct object", "rule": "The **direct object** comes right after the verb, with **no preposition**. It answers *what?* or *who?*: *Je prends **le bus**. J'aime **Léa**.* That's what a pronoun can replace." },
+    { "id": "cod-le-la-les", "label": "le, la, les", "rule": "**le** replaces a masculine noun, **la** a feminine noun, **les** a plural noun, for things or people: *Je prends le bus → je **le** prends. Je vois Léa → je **la** vois. Je cherche mes clés → je **les** cherche.*" },
+    { "id": "cod-elision", "label": "l' before a vowel", "rule": "**le** and **la** become **l'** before a vowel or a silent h: *J'aime la musique → je **l'**aime. J'attends Hugo → je **l'**attends.* **les** never changes: *je **les** aime* (with a /z/ sound)." },
+    { "id": "cod-me-te", "label": "me, te, nous, vous", "rule": "For people: **me** (me), **te** (you), **nous** (us), **vous** (you): *Tu **m'**aimes ? Je **t'**appelle ce soir. Il **nous** invite.* **me** and **te** become **m'** and **t'** before a vowel." },
+    { "id": "cod-place", "label": "before the verb", "rule": "The pronoun goes **before the conjugated verb**: *je **le** vois, tu **la** connais ?* In the negative, **ne** comes first: *je **ne le** vois **pas***." },
+    { "id": "cod-inf", "label": "with an infinitive", "rule": "With two verbs, the pronoun goes **before the infinitive**: *je vais **la** voir, tu peux **les** prendre, je veux **le** faire*." },
+    { "id": "cod-imperative", "label": "in commands", "rule": "In a positive command, the pronoun comes **after** the verb, with a hyphen: *Regarde-**le** ! Prends-**les** !* **me** and **te** become **moi** and **toi**: *Aide-**moi** !* In a negative command, it goes back before the verb: *Ne **le** regarde pas !*" },
+    { "id": "cod-verbs", "label": "regarder, écouter, attendre, chercher", "rule": "These verbs take a direct object in French, but a preposition in English: **regarder** (look at), **écouter** (listen to), **attendre** (wait for), **chercher** (look for), **payer** (pay for): *J'attends le bus → je **l'**attends.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. What is a direct object?",
+      "text": ["The direct object is the thing or person **right after the verb**, with no **à** or **de** in between. Find it, and you can replace it with a pronoun."],
+      "table": {
+        "head": ["Sentence", "Direct object"], "frCols": [0, 1],
+        "rows": [
+          ["Je prends le bus.", "le bus"],
+          ["Tu regardes la télé.", "la télé"],
+          ["Il aime ses enfants.", "ses enfants"],
+          ["Nous attendons Sophie.", "Sophie"]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo cherche {ses clés|cod-what}.", "en": "Hugo is looking for his keys." },
+        { "fr": "Léa lit {un roman|cod-what}.", "en": "Léa is reading a novel." }
+      ]
+    },
+    {
+      "title": "2. le, la, les",
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["Je prends le bus.", "Je le prends."],
+          ["Je vois Léa.", "Je la vois."],
+          ["Je cherche mes clés.", "Je les cherche."],
+          ["Tu connais Paul et Anne ?", "Tu les connais ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le gâteau ? {Je le mange|cod-le-la-les} !", "en": "The cake? I'm eating it!" },
+        { "fr": "Ta robe ? {Je la trouve|cod-le-la-les} très jolie.", "en": "Your dress? I think it's very pretty." },
+        { "fr": "Les enfants ? {Je les vois|cod-le-la-les} dans le jardin.", "en": "The children? I can see them in the garden." }
+      ],
+      "tip": "The pronoun has the same gender and number as the noun it replaces: **le** bus → **le**, **la** télé → **la**, **les** clés → **les**."
+    },
+    {
+      "title": "3. l' before a vowel",
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["J'aime la musique.", "Je l'aime."],
+          ["J'attends Hugo.", "Je l'attends."],
+          ["J'ouvre la fenêtre.", "Je l'ouvre."],
+          ["J'aime ces chansons.", "Je les aime."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le café ? {Je l'adore|cod-elision} !", "en": "Coffee? I love it!" },
+        { "fr": "Sophie ? {Je l'appelle|cod-elision} ce soir.", "en": "Sophie? I'm calling her tonight." }
+      ],
+      "tip": "**les** before a vowel keeps its **s** and links with a /z/: *je les‿aime* /ʒə le.zɛm/."
+    },
+    {
+      "title": "4. me, te, nous, vous",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu m'aimes ?", "Do you love me?"],
+          ["Je t'appelle demain.", "I'll call you tomorrow."],
+          ["Il nous invite.", "He's inviting us."],
+          ["Je vous écoute.", "I'm listening to you."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu m'entends|cod-me-te} ? Oui, {je t'entends|cod-me-te} !", "en": "Can you hear me? Yes, I can hear you!" },
+        { "fr": "Léa {nous attend|cod-me-te} devant le cinéma.", "en": "Léa is waiting for us outside the cinema." }
+      ]
+    },
+    {
+      "title": "5. Before the verb",
+      "text": ["The pronoun sits **just before the conjugated verb**, in statements, questions and negatives."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je le connais.", "I know him."],
+          ["Tu la vois ?", "Can you see her?"],
+          ["Je ne le connais pas.", "I don't know him."],
+          ["Il ne les aime pas.", "He doesn't like them."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce film ? {Je ne le connais pas|cod-place}.", "en": "This film? I don't know it." },
+        { "fr": "Ta veste ? {Tu la prends|cod-place} ?", "en": "Your jacket? Are you taking it?" }
+      ],
+      "tip": "Negative: **ne** + pronoun + verb + **pas**: *je **ne la** vois **pas***."
+    },
+    {
+      "title": "6. With an infinitive",
+      "text": ["When there are two verbs (**aller, vouloir, pouvoir, devoir** + infinitive), the pronoun goes before the **infinitive**, the verb it belongs to."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je vais la voir demain.", "I'm going to see her tomorrow."],
+          ["Tu peux les prendre.", "You can take them."],
+          ["Je veux le faire.", "I want to do it."],
+          ["Je ne vais pas l'acheter.", "I'm not going to buy it."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce gâteau ? {Je vais le manger|cod-inf} !", "en": "This cake? I'm going to eat it!" },
+        { "fr": "Tes lunettes ? {Tu dois les chercher|cod-inf} !", "en": "Your glasses? You need to look for them!" }
+      ]
+    },
+    {
+      "title": "7. In commands",
+      "table": {
+        "head": ["Positive", "Negative"], "frCols": [0, 1],
+        "rows": [
+          ["Regarde-le !", "Ne le regarde pas !"],
+          ["Prends-la !", "Ne la prends pas !"],
+          ["Aide-moi !", "Ne m'aide pas !"],
+          ["Écoutez-nous !", "Ne nous écoutez pas !"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ta veste ? {Prends-la|cod-imperative}, il pleut !", "en": "Your jacket? Take it, it's raining!" },
+        { "fr": "{Ne le mange pas|cod-imperative}, c'est pour Lou !", "en": "Don't eat it, it's for Lou!" }
+      ],
+      "tip": "After the verb: **moi, toi** (not *me, te*): *Écoute-**moi** ! Lève-**toi** !*"
+    },
+    {
+      "title": "8. regarder, écouter, attendre, chercher",
+      "text": ["In English you *look **at***, *listen **to***, *wait **for*** and *look **for***. In French, no preposition: the person or thing is a direct object."],
+      "table": {
+        "head": ["English", "French"], "frCols": [1],
+        "rows": [
+          ["watch TV → watch it", "Je regarde la télé. Je la regarde."],
+          ["listen to the radio → listen to it", "J'écoute la radio. Je l'écoute."],
+          ["wait for the bus → wait for it", "J'attends le bus. Je l'attends."],
+          ["look for my keys → look for them", "Je cherche mes clés. Je les cherche."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le bus ? {Je l'attends|cod-verbs} depuis vingt minutes !", "en": "The bus? I've been waiting for it for twenty minutes!" },
+        { "fr": "Cette chanson ? {Je l'écoute|cod-verbs} tous les jours.", "en": "This song? I listen to it every day." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je vois la.", "right": "Je la vois.", "why": "The pronoun goes **before** the verb." },
+    { "wrong": "Je la aime.", "right": "Je l'aime.", "why": "**le, la** → **l'** before a vowel." },
+    { "wrong": "Je ne vois le pas.", "right": "Je ne le vois pas.", "why": "**ne** + pronoun + verb + **pas**." },
+    { "wrong": "Je le vais voir.", "right": "Je vais le voir.", "why": "With an infinitive, the pronoun goes before the infinitive." },
+    { "wrong": "Aide-me !", "right": "Aide-moi !", "why": "After the verb, **me** becomes **moi**." },
+    { "wrong": "J'attends pour le bus.", "right": "J'attends le bus.", "why": "**attendre** has no preposition: *wait for* = **attendre**." }
+  ],
+  "story": {
+    "title": "Où sont mes clés ?",
+    "en": "Monday morning at Hugo's: he can't find anything. Luckily, his sister is there.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi matin, chez Hugo. Léa a dormi chez son frère, sur le canapé.", "en": "Monday morning, at Hugo's. Léa slept at her brother's, on the sofa." },
+      { "sp": "", "fr": "Il est huit heures. Hugo cherche {ses affaires|cod-what} partout… comme toujours.", "en": "It's eight o'clock. Hugo is looking everywhere for his things… as always." },
+      { "sp": "Hugo", "fr": "Léa ! Mes clés ! {Tu les vois|cod-le-la-les} ?", "en": "Léa! My keys! Can you see them?" },
+      { "sp": "Léa", "fr": "Oui, {je les vois|cod-place} : elles sont sur la table. {Prends-les|cod-imperative} !", "en": "Yes, I can see them: they're on the table. Take them!" },
+      { "sp": "Hugo", "fr": "Et mon téléphone ? {Je ne le trouve pas|cod-place} !", "en": "And my phone? I can't find it!" },
+      { "sp": "Léa", "fr": "{Je l'appelle|cod-elision}… {Écoute-le|cod-verbs} : il sonne dans la cuisine !", "en": "I'll call it… Listen to it: it's ringing in the kitchen!" },
+      { "sp": "Hugo", "fr": "Merci ! Et mes lunettes ? {Je les cherche|cod-verbs} depuis dix minutes !", "en": "Thanks! And my glasses? I've been looking for them for ten minutes!" },
+      { "sp": "Léa", "fr": "Tes lunettes ? Hugo… {tu les portes|cod-le-la-les} sur ta tête !", "en": "Your glasses? Hugo… you're wearing them on your head!" },
+      { "sp": "Hugo", "fr": "Ah oui ! Bon, je pars. {Tu m'attends|cod-me-te} ce soir ? On mange ensemble ?", "en": "Oh yes! Right, I'm off. Will you wait for me tonight? Shall we eat together?" },
+      { "sp": "Léa", "fr": "D'accord, {je t'attends|cod-me-te}. Et ta veste ? {Tu ne la prends pas|cod-place} ? Il pleut !", "en": "OK, I'll wait for you. And your jacket? Aren't you taking it? It's raining!" },
+      { "sp": "Hugo", "fr": "Ma veste ? {Je vais la chercher|cod-inf}… Ah, [la|la-pron] voilà, sur la chaise !", "en": "My jacket? I'll go and look for it… Ah, there it is, on the chair!" },
+      { "sp": "", "fr": "Hugo part. Deux minutes plus tard, il revient.", "en": "Hugo leaves. Two minutes later, he comes back." },
+      { "sp": "Hugo", "fr": "Léa ! Mon sac ! {Tu peux le prendre|cod-inf} ? Il est à côté de la porte !", "en": "Léa! My bag! Can you grab it? It's next to the door!" },
+      { "sp": "Léa", "fr": "Tiens ! Et {ne m'appelle pas|cod-imperative} à midi : je dors !", "en": "Here you go! And don't call me at noon: I'll be asleep!" },
+      { "sp": "Hugo", "fr": "{Je t'aime|cod-me-te}, petite sœur ! Tu me sauves la vie !", "en": "I love you, little sister! You're a lifesaver!" },
+      { "sp": "", "fr": "La porte se ferme. Léa sourit… puis elle voit le portefeuille de Hugo sur la table.", "en": "The door closes. Léa smiles… then she sees Hugo's wallet on the table." },
+      { "sp": "Léa", "fr": "Oh non ! {Il l'oublie|cod-elision} tous les jours ! Bon… {je vais l'appeler|cod-inf}.", "en": "Oh no! He forgets it every day! Right… I'll call him." },
+      { "sp": "", "fr": "Dans le bus, Hugo cherche son portefeuille… et {ne le trouve pas|cod-place}.", "en": "On the bus, Hugo looks for his wallet… and can't find it." }
+    ]
+  },
+  "quiz": [
+    { "case": "cod-what", "type": "mc", "lang": "en", "q": "In « Je regarde le film », the direct object is…", "options": ["le film", "je", "regarde"], "answer": "le film", "say": "Je regarde le film." },
+    { "case": "cod-what", "type": "mc", "lang": "en", "q": "Which sentence has a direct object?", "options": ["Je prends le bus.", "Je vais à Paris.", "Je parle à Léa."], "answer": "Je prends le bus." },
+    { "case": "cod-le-la-les", "type": "mc", "q": "Tu prends le bus ? — Oui, je ___ prends.", "en": "Are you taking the bus? — Yes, I'm taking it.", "options": ["le", "la", "les"], "answer": "le" },
+    { "case": "cod-le-la-les", "type": "type", "q": "Tu vois Léa ? — Oui, je ___ vois.", "en": "Can you see Léa? — Yes, I can see her.", "answer": "la" },
+    { "case": "cod-le-la-les", "type": "mc", "q": "Tu connais Paul et Anne ? — Oui, je ___ connais.", "en": "Do you know Paul and Anne? — Yes, I know them.", "options": ["les", "la", "le"], "answer": "les" },
+    { "case": "cod-elision", "type": "mc", "q": "Tu aimes la musique ? — Oui, je ___aime.", "en": "Do you like music? — Yes, I love it.", "options": ["l'", "la", "le"], "answer": "l'" },
+    { "case": "cod-elision", "type": "type", "q": "Tu attends Hugo ? — Oui, je ___attends.", "en": "Are you waiting for Hugo? — Yes, I'm waiting for him.", "answer": "l'" },
+    { "case": "cod-me-te", "type": "mc", "q": "Tu ___entends ? — Oui, je t'entends bien.", "en": "Can you hear me? — Yes, I can hear you fine.", "options": ["m'", "t'", "l'"], "answer": "m'" },
+    { "case": "cod-me-te", "type": "mc", "lang": "en", "q": "« Il nous invite » means…", "options": ["He's inviting us.", "We're inviting him.", "He's inviting them."], "answer": "He's inviting us.", "say": "Il nous invite." },
+    { "case": "cod-place", "type": "mc", "q": "Ce film ? Je ___ connais pas.", "en": "This film? I don't know it.", "options": ["ne le", "le ne", "ne"], "answer": "ne le" },
+    { "case": "cod-place", "type": "mc", "lang": "en", "q": "“I can see her.” Choose the right sentence:", "options": ["Je la vois.", "Je vois la.", "La je vois."], "answer": "Je la vois.", "say": "Je la vois." },
+    { "case": "cod-inf", "type": "mc", "lang": "en", "q": "“I'm going to eat it.” Choose the right sentence:", "options": ["Je vais le manger.", "Je le vais manger.", "Je vais manger le."], "answer": "Je vais le manger.", "say": "Je vais le manger." },
+    { "case": "cod-inf", "type": "mc", "q": "Tes clés ? Tu dois ___ chercher !", "en": "Your keys? You need to look for them!", "options": ["les", "la", "leur"], "answer": "les" },
+    { "case": "cod-imperative", "type": "mc", "q": "Ta veste ? ___, il pleut !", "en": "Your jacket? Take it, it's raining!", "options": ["Prends-la", "La prends", "Prends-le"], "answer": "Prends-la" },
+    { "case": "cod-imperative", "type": "mc", "q": "Je suis perdu ! ___ !", "en": "I'm lost! Help me!", "options": ["Aide-moi", "Aide-me", "Me aide"], "answer": "Aide-moi" },
+    { "case": "cod-imperative", "type": "type", "q": "Ce film est nul. Ne ___ regarde pas !", "en": "This film is rubbish. Don't watch it!", "answer": "le" },
+    { "case": "cod-verbs", "type": "mc", "lang": "en", "q": "« J'écoute la radio » with a pronoun:", "options": ["Je l'écoute.", "Je lui écoute.", "J'écoute à elle."], "answer": "Je l'écoute.", "say": "Je l'écoute." },
+    { "case": "cod-verbs", "type": "mc", "lang": "en", "q": "“I'm waiting for the bus” in French:", "options": ["J'attends le bus.", "J'attends pour le bus.", "J'attends au bus."], "answer": "J'attends le bus.", "say": "J'attends le bus." }
+  ]
+}

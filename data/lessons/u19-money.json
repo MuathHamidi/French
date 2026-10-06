@@ -1,0 +1,241 @@
+{
+  "id": "u19-money",
+  "type": "vocab",
+  "unit": 19,
+  "title": "L'argent",
+  "en": "Money",
+  "intro": "25 words for money: euros and cents, cash and cards, the bank account and the cash machine, spending and saving, borrowing and lending. Remember the pair **prêter** (to lend) / **emprunter** (to borrow).",
+  "words": [
+    { "id": "euro", "fr": "euro", "pos": "noun", "g": "m", "ipa": "ø.ʁo", "en": "euro",
+      "def": "L'argent de la France et de beaucoup de pays d'Europe.", "def_en": "The money of France and many European countries.",
+      "forms": ["euros"],
+      "examples": [
+        { "fr": "Ça coûte dix **euros**.", "en": "It costs ten euros." },
+        { "fr": "Tu as un billet de vingt **euros** ?", "en": "Have you got a twenty-euro note?" },
+        { "fr": "Un **euro**, c'est cent centimes.", "en": "One euro is a hundred cents." }
+      ],
+      "note": "Liaison: *deux‿euros* /dø.zø.ʁo/, *vingt‿euros* /vɛ̃.tø.ʁo/. Prices: **3,50 €** = *trois euros cinquante*." },
+    { "id": "centime", "fr": "centime", "pos": "noun", "g": "m", "ipa": "sɑ̃.tim", "en": "cent (1/100 of a euro)",
+      "def": "La petite [partie|partie] d'un euro : un euro, c'est cent centimes.", "def_en": "The small part of a euro: one euro is a hundred cents.",
+      "forms": ["centimes"],
+      "examples": [
+        { "fr": "Ça fait deux euros et cinquante **centimes**.", "en": "That's two euros fifty cents." },
+        { "fr": "Je n'ai plus un **centime** !", "en": "I haven't got a penny left!" },
+        { "fr": "Il me manque dix **centimes**.", "en": "I'm ten cents short." }
+      ] },
+    { "id": "dollar", "fr": "dollar", "pos": "noun", "g": "m", "ipa": "dɔ.laʁ", "en": "dollar",
+      "def": "L'argent des États-Unis, du Canada et d'autres pays.", "def_en": "The money of the United States, Canada and other countries.",
+      "forms": ["dollars"],
+      "examples": [
+        { "fr": "À Montréal, on paie en **dollars** canadiens.", "en": "In Montreal, you pay in Canadian dollars." },
+        { "fr": "Un café coûte trois **dollars**.", "en": "A coffee costs three dollars." },
+        { "fr": "Combien d'euros pour cent **dollars** ?", "en": "How many euros for a hundred dollars?" }
+      ] },
+    { "id": "monnaie", "fr": "monnaie", "pos": "noun", "g": "f", "ipa": "mɔ.nɛ", "en": "change (money); currency",
+      "def": "L'argent qu'on rend au client quand il paie avec un gros billet. Aussi : l'argent d'un pays.", "def_en": "The money given back to a customer who pays with a big note. Also: a country's money.",
+      "examples": [
+        { "fr": "Gardez la **monnaie** !", "en": "Keep the change!" },
+        { "fr": "Vous avez de la **monnaie** ? Je n'ai qu'un billet de cinquante.", "en": "Have you got any change? I've only got a fifty." },
+        { "fr": "L'euro est la **monnaie** de la France.", "en": "The euro is France's currency." }
+      ],
+      "note": "**rendre la monnaie** = to give change. **une pièce** = a coin." },
+    { "id": "especes", "fr": "espèces", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "ɛs.pɛs", "en": "cash (en espèces = in cash)",
+      "def": "L'argent qu'on a dans la main, pas sur une carte.", "def_en": "Money you hold in your hand, not on a card.",
+      "examples": [
+        { "fr": "Vous payez en **espèces** ou par carte ?", "en": "Are you paying cash or by card?" },
+        { "fr": "Je n'ai pas d'**espèces** sur moi.", "en": "I haven't got any cash on me." },
+        { "fr": "Au marché, on accepte seulement les **espèces**.", "en": "At the market, they only take cash." }
+      ],
+      "note": "In speech, people also say **du liquide**: *payer en liquide*." },
+    { "id": "carte-bancaire", "fr": "carte bancaire", "pos": "noun", "g": "f", "ipa": "kaʁt bɑ̃.kɛʁ", "en": "bank card, debit card",
+      "def": "La petite carte pour payer ou pour prendre de l'argent à la banque.", "def_en": "The little card for paying, or for getting money from the bank.",
+      "forms": ["cartes bancaires"],
+      "examples": [
+        { "fr": "Je paie avec ma **carte bancaire**.", "en": "I'm paying with my bank card." },
+        { "fr": "J'ai perdu ma **carte bancaire** !", "en": "I've lost my bank card!" },
+        { "fr": "Votre **carte bancaire** ne marche pas, monsieur.", "en": "Your card isn't working, sir." }
+      ],
+      "note": "In speech: **la carte** or **la CB**. **payer par carte** = to pay by card." },
+    { "id": "compte", "fr": "compte", "pos": "noun", "g": "m", "ipa": "kɔ̃t", "en": "(bank) account",
+      "def": "L'argent qu'une personne a à la banque.", "def_en": "The money a person has in the bank.",
+      "forms": ["comptes"],
+      "examples": [
+        { "fr": "J'ai ouvert un **compte** à la banque.", "en": "I opened a bank account." },
+        { "fr": "Il n'y a plus d'argent sur mon **compte** !", "en": "There's no money left in my account!" },
+        { "fr": "Hugo a deux **comptes** : un pour tous les jours, un pour les vacances.", "en": "Hugo has two accounts: one for everyday spending, one for holidays." }
+      ] },
+    { "id": "distributeur", "fr": "distributeur", "pos": "noun", "g": "m", "ipa": "dis.tʁi.by.tœʁ", "en": "cash machine, ATM",
+      "def": "La machine dans la rue où on prend de l'argent avec sa carte.", "def_en": "The machine in the street where you take out money with your card.",
+      "forms": ["distributeurs"],
+      "examples": [
+        { "fr": "Il y a un **distributeur** près d'ici ?", "en": "Is there a cash machine near here?" },
+        { "fr": "Le **distributeur** a gardé ma carte !", "en": "The cash machine kept my card!" },
+        { "fr": "Je vais au **distributeur** : je n'ai plus d'espèces.", "en": "I'm going to the cash machine: I've run out of cash." }
+      ] },
+    { "id": "retirer", "fr": "retirer", "pos": "verb", "ipa": "ʁə.ti.ʁe", "en": "to withdraw (money); to take off",
+      "def": "Prendre de l'argent sur son compte. Aussi : enlever.", "def_en": "To take money out of your account. Also: to take off.",
+      "forms": ["retire", "retires", "retirons", "retirez", "retirent", "retiré", "retirée", "retirais", "retirait", "retirions", "retiriez", "retiraient", "retirerai", "retireras", "retirera", "retirerons", "retirerez", "retireront"],
+      "examples": [
+        { "fr": "Je dois **retirer** de l'argent.", "en": "I need to take out some money." },
+        { "fr": "Il **retire** cinquante euros au distributeur.", "en": "He takes out fifty euros at the cash machine." },
+        { "fr": "**Retirez** vos chaussures, s'il vous plaît.", "en": "Please take your shoes off." }
+      ] },
+    { "id": "depenser", "fr": "dépenser", "pos": "verb", "ipa": "de.pɑ̃.se", "en": "to spend (money)",
+      "def": "Utiliser son argent pour acheter des choses.", "def_en": "To use your money to buy things.",
+      "forms": ["dépense", "dépenses", "dépensons", "dépensez", "dépensent", "dépensé", "dépensais", "dépensait", "dépensions", "dépensiez", "dépensaient", "dépenserai", "dépenseras", "dépensera", "dépenserons", "dépenserez", "dépenseront"],
+      "examples": [
+        { "fr": "Je **dépense** trop d'argent en vêtements.", "en": "I spend too much money on clothes." },
+        { "fr": "Combien tu as **dépensé** ?", "en": "How much did you spend?" },
+        { "fr": "Ne **dépense** pas tout !", "en": "Don't spend it all!" }
+      ],
+      "note": "For time, French says **passer**: *passer une heure à lire* (to spend an hour reading)." },
+    { "id": "economiser", "fr": "économiser", "pos": "verb", "ipa": "e.kɔ.nɔ.mi.ze", "en": "to save (money)",
+      "def": "Ne pas dépenser son argent, pour l'avoir plus tard.", "def_en": "Not to spend your money, so you have it later.",
+      "forms": ["économise", "économises", "économisons", "économisez", "économisent", "économisé", "économisais", "économisait", "économisions", "économisiez", "économisaient", "économiserai", "économiseras", "économisera", "économiserons", "économiserez", "économiseront"],
+      "examples": [
+        { "fr": "J'**économise** pour un voyage au Canada.", "en": "I'm saving up for a trip to Canada." },
+        { "fr": "Il faut **économiser** l'eau.", "en": "We must save water." },
+        { "fr": "Hugo n'arrive pas à **économiser**.", "en": "Hugo can't manage to save money." }
+      ] },
+    { "id": "emprunter", "fr": "emprunter", "pos": "verb", "ipa": "ɑ̃.pʁœ̃.te", "en": "to borrow",
+      "def": "Prendre une chose à une personne pour un temps, et la rendre après.", "def_en": "To take something from someone for a while, and give it back afterwards.",
+      "forms": ["emprunte", "empruntes", "empruntons", "empruntez", "empruntent", "emprunté", "empruntais", "empruntait", "empruntions", "empruntiez", "empruntaient", "emprunterai", "emprunteras", "empruntera", "emprunterons", "emprunterez", "emprunteront"],
+      "examples": [
+        { "fr": "Je peux t'**emprunter** ton vélo ?", "en": "Can I borrow your bike?" },
+        { "fr": "Il **emprunte** de l'argent à la banque.", "en": "He's borrowing money from the bank." },
+        { "fr": "J'ai **emprunté** trois livres à la bibliothèque.", "en": "I borrowed three books from the library." }
+      ],
+      "note": "**emprunter** (borrow) ↔ **prêter** (lend): *Je t'emprunte ton stylo ? — Oui, je te le prête.*" },
+    { "id": "preter", "fr": "prêter", "pos": "verb", "ipa": "pʁɛ.te", "en": "to lend",
+      "def": "Donner une chose à une personne pour un temps.", "def_en": "To give someone something for a while.",
+      "forms": ["prête", "prêtes", "prêtons", "prêtez", "prêtent", "prêté", "prêtée", "prêtais", "prêtait", "prêtions", "prêtiez", "prêtaient", "prêterai", "prêteras", "prêtera", "prêterons", "prêterez", "prêteront"],
+      "examples": [
+        { "fr": "Tu me **prêtes** ton parapluie ?", "en": "Will you lend me your umbrella?" },
+        { "fr": "Léa **prête** souvent de l'argent à Hugo.", "en": "Léa often lends Hugo money." },
+        { "fr": "La banque ne veut pas nous **prêter** d'argent.", "en": "The bank won't lend us any money." }
+      ] },
+    { "id": "dette", "fr": "dette", "pos": "noun", "g": "f", "ipa": "dɛt", "en": "debt",
+      "def": "L'argent qu'on doit rendre à une personne ou à la banque.", "def_en": "Money you have to pay back to someone or to the bank.",
+      "forms": ["dettes"],
+      "examples": [
+        { "fr": "Hugo a une **dette** : il doit cent euros à Léa.", "en": "Hugo has a debt: he owes Léa a hundred euros." },
+        { "fr": "Il a beaucoup de **dettes**.", "en": "He's got a lot of debts." },
+        { "fr": "Je n'aime pas avoir de **dettes**.", "en": "I don't like being in debt." }
+      ] },
+    { "id": "riche", "fr": "riche", "pos": "adj", "ipa": "ʁiʃ", "en": "rich, wealthy",
+      "def": "Qui a beaucoup d'argent.", "def_en": "Who has a lot of money.",
+      "forms": ["riches"],
+      "examples": [
+        { "fr": "Il est très **riche** : il a trois maisons !", "en": "He's very rich: he has three houses!" },
+        { "fr": "Je ne suis pas **riche**, mais je suis heureux.", "en": "I'm not rich, but I'm happy." },
+        { "fr": "Ce gâteau est très **riche** : il y a beaucoup de beurre !", "en": "This cake is very rich: there's lots of butter in it!" }
+      ] },
+    { "id": "pauvre", "fr": "pauvre", "pos": "adj", "ipa": "povʁ", "en": "poor",
+      "def": "Qui n'a pas beaucoup d'argent. Aussi : qui n'a pas de chance.", "def_en": "Who doesn't have much money. Also: unlucky.",
+      "forms": ["pauvres"],
+      "examples": [
+        { "fr": "C'est un pays **pauvre**.", "en": "It's a poor country." },
+        { "fr": "Mon **pauvre** Hugo, tu es encore malade ?", "en": "My poor Hugo, are you ill again?" },
+        { "fr": "Les **pauvres** ont besoin d'aide.", "en": "Poor people need help." }
+      ],
+      "note": "Before a noun, **pauvre** means *unlucky*: *le pauvre chat !* After it, *without money*: *un homme pauvre*." },
+    { "id": "bon-marche", "fr": "bon marché", "pos": "adj", "ipa": "bɔ̃ maʁ.ʃe", "en": "cheap, inexpensive",
+      "def": "Qui ne coûte pas cher.", "def_en": "That doesn't cost much.",
+      "examples": [
+        { "fr": "Ce restaurant est **bon marché** et très bon.", "en": "This restaurant is cheap and very good." },
+        { "fr": "Les fruits sont **bon marché** au marché.", "en": "Fruit is cheap at the market." },
+        { "fr": "Les vêtements **bon marché** ne sont pas toujours de bonne qualité.", "en": "Cheap clothes aren't always good quality." }
+      ],
+      "note": "**bon marché** never changes: *des chaussures bon marché*. Its opposite is **cher**." },
+    { "id": "budget", "fr": "budget", "pos": "noun", "g": "m", "ipa": "byd.ʒɛ", "en": "budget",
+      "def": "L'argent qu'on peut dépenser pour une chose ou pour un mois.", "def_en": "The money you can spend on something or in a month.",
+      "forms": ["budgets"],
+      "examples": [
+        { "fr": "Quel est ton **budget** pour les vacances ?", "en": "What's your budget for the holiday?" },
+        { "fr": "Je fais mon **budget** chaque mois.", "en": "I do my budget every month." },
+        { "fr": "C'est trop cher pour mon **budget**.", "en": "It's too expensive for my budget." }
+      ] },
+    { "id": "porte-monnaie", "fr": "porte-monnaie", "pos": "noun", "g": "m", "ipa": "pɔʁt.mɔ.nɛ", "en": "purse",
+      "def": "Un petit sac où on garde son argent.", "def_en": "A small bag where you keep your money.",
+      "examples": [
+        { "fr": "Mon **porte-monnaie** est vide !", "en": "My purse is empty!" },
+        { "fr": "Lou a un petit **porte-monnaie** rose.", "en": "Lou has a little pink purse." },
+        { "fr": "J'ai trouvé un **porte-monnaie** dans la rue.", "en": "I found a purse in the street." }
+      ] },
+    { "id": "portefeuille", "fr": "portefeuille", "pos": "noun", "g": "m", "ipa": "pɔʁ.tə.fœj", "en": "wallet",
+      "def": "Une petite chose en cuir pour les billets et les cartes, qu'on met dans la poche.", "def_en": "A small leather case for notes and cards, that you keep in your pocket.",
+      "forms": ["portefeuilles"],
+      "examples": [
+        { "fr": "J'ai oublié mon **portefeuille** à la maison !", "en": "I've left my wallet at home!" },
+        { "fr": "Il met son **portefeuille** dans sa poche.", "en": "He puts his wallet in his pocket." },
+        { "fr": "Mon **portefeuille** est plein de tickets de caisse !", "en": "My wallet is full of receipts!" }
+      ] },
+    { "id": "facture", "fr": "facture", "pos": "noun", "g": "f", "ipa": "fak.tyʁ", "en": "bill, invoice",
+      "def": "Le papier qui dit combien on doit payer : pour l'eau, le téléphone, internet…", "def_en": "The paper that says how much you have to pay: for water, the phone, the internet…",
+      "forms": ["factures"],
+      "examples": [
+        { "fr": "La **facture** de téléphone est très chère ce mois-ci.", "en": "The phone bill is very high this month." },
+        { "fr": "Je paie mes **factures** sur internet.", "en": "I pay my bills online." },
+        { "fr": "Vous pouvez m'envoyer la **facture** par mail ?", "en": "Can you send me the invoice by email?" }
+      ],
+      "note": "At a restaurant, the bill is **l'addition**." },
+    { "id": "cheque", "fr": "chèque", "pos": "noun", "g": "m", "ipa": "ʃɛk", "en": "cheque",
+      "def": "Un papier de la banque qu'on signe pour payer.", "def_en": "A bank document you sign to pay.",
+      "forms": ["chèques"],
+      "examples": [
+        { "fr": "Vous acceptez les **chèques** ?", "en": "Do you take cheques?" },
+        { "fr": "Mamie paie toujours par **chèque**.", "en": "Grandma always pays by cheque." },
+        { "fr": "Il me donne un **chèque** de cent euros pour mon anniversaire.", "en": "He gives me a cheque for a hundred euros for my birthday." }
+      ] },
+    { "id": "virement", "fr": "virement", "pos": "noun", "g": "m", "ipa": "viʁ.mɑ̃", "en": "bank transfer",
+      "def": "Quand on envoie de l'argent d'un compte à un autre compte.", "def_en": "When you send money from one account to another.",
+      "forms": ["virements"],
+      "examples": [
+        { "fr": "Je te fais un **virement** ce soir.", "en": "I'll send you a transfer this evening." },
+        { "fr": "Mon salaire arrive par **virement**.", "en": "My salary is paid by transfer." },
+        { "fr": "Le **virement** prend deux jours.", "en": "The transfer takes two days." }
+      ] },
+    { "id": "valoir", "fr": "valoir", "pos": "verb", "ipa": "va.lwaʁ", "en": "to be worth (il vaut mieux = it's better to)",
+      "def": "Avoir un certain prix ; être assez bien pour quelque chose.", "def_en": "To have a certain price; to be good enough for something.",
+      "extra": "je **vaux**, il **vaut**, ils **valent**; il **valait**. **Il vaut mieux** + infinitive = it's better to.",
+      "forms": ["vaux", "vaut", "valons", "valez", "valent", "valu", "valais", "valait", "valions", "valiez", "valaient", "vaudrai", "vaudras", "vaudra", "vaudrons", "vaudrez", "vaudront"],
+      "examples": [
+        { "fr": "Cette bague **vaut** très cher.", "en": "This ring is worth a lot." },
+        { "fr": "Ça **vaut** la peine !", "en": "It's worth it!" },
+        { "fr": "Il **vaut** mieux partir tôt.", "en": "It's better to leave early." }
+      ] },
+    { "id": "pourboire", "fr": "pourboire", "pos": "noun", "g": "m", "ipa": "puʁ.bwaʁ", "en": "tip (money for a waiter)",
+      "def": "Un peu d'argent en plus, pour dire merci au serveur.", "def_en": "A little extra money to thank the waiter.",
+      "forms": ["pourboires"],
+      "examples": [
+        { "fr": "On laisse un **pourboire** ?", "en": "Shall we leave a tip?" },
+        { "fr": "En France, le service est compris : le **pourboire** n'est pas obligatoire.", "en": "In France, service is included: tipping isn't compulsory." },
+        { "fr": "Il laisse toujours un gros **pourboire**.", "en": "He always leaves a big tip." }
+      ] }
+  ],
+  "story": {
+    "title": "Le budget de Hugo",
+    "en": "Hugo is broke again. Léa helps him with a budget.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin novembre, Hugo regarde son compte en banque. Il n'y a plus d'argent !", "en": "At the end of November, Hugo looks at his bank account. There's no money left!" },
+      { "sp": "Hugo", "fr": "Léa, tu peux me prêter cinquante euros ? Je te rembourse le mois prochain, promis !", "en": "Léa, can you lend me fifty euros? I'll pay you back next month, I promise!" },
+      { "sp": "Léa", "fr": "Encore ? Tu as déjà une dette de cent euros ! Où va ton argent, Hugo ?", "en": "Again? You already owe me a hundred euros! Where does your money go, Hugo?" },
+      { "sp": "Hugo", "fr": "Je ne sais pas… Je ne suis pas riche, mais je ne suis pas pauvre non plus !", "en": "I don't know… I'm not rich, but I'm not poor either!" },
+      { "sp": "Léa", "fr": "On va faire ton budget. Montre-moi tes factures et tes tickets de caisse.", "en": "We're going to do your budget. Show me your bills and your receipts." },
+      { "sp": "", "fr": "Hugo vide son portefeuille sur la table : des tickets de caisse, deux billets de dix euros, des dollars de Montréal… et pas un centime.", "en": "Hugo empties his wallet onto the table: receipts, two ten-euro notes, dollars from Montreal… and not a single cent." },
+      { "sp": "Léa", "fr": "Regarde : tu dépenses trente euros par semaine au café ! Et des pourboires énormes !", "en": "Look: you spend thirty euros a week at the café! And huge tips!" },
+      { "sp": "Hugo", "fr": "Sophie est notre amie… Je suis généreux !", "en": "Sophie is our friend… I'm generous!" },
+      { "sp": "Léa", "fr": "Et ça ? Un virement de deux cents euros pour… une console de jeux ?", "en": "And this? A transfer of two hundred euros for… a games console?" },
+      { "sp": "Hugo", "fr": "Elle était en promotion ! Elle ne coûtait pas cher… enfin, pas très cher.", "en": "It was on special offer! It wasn't expensive… well, not very expensive." },
+      { "sp": "Léa", "fr": "Bon. À partir de maintenant, tu paies en espèces : c'est plus facile de voir ce qu'on dépense.", "en": "Right. From now on, you pay in cash: it's easier to see what you're spending." },
+      { "sp": "Léa", "fr": "Le lundi, tu retires cent euros au distributeur. Pas de carte bancaire pendant la semaine !", "en": "On Mondays, you take out a hundred euros at the cash machine. No bank card during the week!" },
+      { "sp": "Hugo", "fr": "Et les chèques ? Mamie m'a envoyé un chèque de cinquante euros !", "en": "And cheques? Grandma sent me a cheque for fifty euros!" },
+      { "sp": "Léa", "fr": "Parfait : tu le mets sur ton compte, et tu économises pour les vacances.", "en": "Perfect: you put it in your account, and you save it for the holidays." },
+      { "sp": "", "fr": "Une semaine plus tard, Hugo a encore quarante euros et de la monnaie dans son porte-monnaie. Il est très fier.", "en": "A week later, Hugo still has forty euros and some change in his purse. He's very proud." },
+      { "sp": "Hugo", "fr": "Tu vois ? Je mange au café bon marché, je bois de l'eau… La vie simple, ça vaut la peine !", "en": "You see? I eat at the cheap café, I drink water… The simple life is worth it!" },
+      { "sp": "Léa", "fr": "Bravo ! Et mes cent cinquante euros ?", "en": "Well done! And my hundred and fifty euros?" },
+      { "sp": "Hugo", "fr": "Euh… est-ce que je peux t'emprunter dix euros pour te rembourser ?", "en": "Er… can I borrow ten euros from you to pay you back?" }
+    ]
+  }
+}

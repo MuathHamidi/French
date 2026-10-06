@@ -1,0 +1,164 @@
+{
+  "id": "u18-en",
+  "type": "grammar",
+  "unit": 18,
+  "title": "J'en veux",
+  "en": "The pronoun en",
+  "intro": "**en** replaces a quantity: **du, de la, des** + noun, or a number + noun: *Tu veux du café ? — Oui, j'**en** veux. Tu as des frères ? — Oui, j'**en** ai deux.* It also replaces **de + a thing**: *Tu parles de ton voyage ? — Oui, j'**en** parle.*",
+  "cases": [
+    { "id": "en-partitif", "label": "du, de la, des → en", "rule": "**en** replaces **du, de la, de l', des** + noun: *Tu veux du pain ? — Oui, j'**en** veux. Elle mange de la viande ? — Oui, elle **en** mange.*" },
+    { "id": "en-quantite", "label": "en + a number", "rule": "With a number or a quantity, **en** replaces the noun, and the number stays at the end: *J'**en** ai deux. Il **en** reste un peu. Elle **en** mange beaucoup. J'**en** voudrais un kilo.*" },
+    { "id": "en-negatif", "label": "je n'en ai pas", "rule": "In the negative, **ne** comes before **en**: *Tu as de l'argent ? — Non, je **n'en** ai **pas**.*" },
+    { "id": "en-de", "label": "en = de + a thing", "rule": "With verbs and phrases that take **de** (*parler de, avoir besoin de, avoir envie de, se souvenir de, revenir de*), **en** replaces **de + a thing**: *J'ai besoin de mon téléphone → j'**en** ai besoin.*" },
+    { "id": "en-place", "label": "where it goes", "rule": "Before the verb (*j'**en** prends*), before an infinitive (*je vais **en** acheter*), after a positive command with a hyphen: *Prends-**en** ! Manges-**en** !* (**-er** verbs take back their **s**)." },
+    { "id": "en-ilyena", "label": "il y en a", "rule": "**il y a des…** → **il y en a**: *Il y **en** a trois. Il n'y **en** a plus.* The order is always **y** then **en**." }
+  ],
+  "sections": [
+    {
+      "title": "1. du, de la, des → en",
+      "text": ["When you'd say **du, de la, de l'** or **des** (*some*), the pronoun is **en**. In English, it's often *some* or *any*."],
+      "table": {
+        "head": ["With the noun", "With en"], "frCols": [0, 1],
+        "rows": [
+          ["Tu veux du café ?", "Oui, j'en veux."],
+          ["Il mange de la viande.", "Il en mange."],
+          ["Vous avez des enfants ?", "Oui, nous en avons."],
+          ["Je bois de l'eau.", "J'en bois."]
+        ]
+      },
+      "examples": [
+        { "fr": "Du thé ? Oui, {j'en veux bien|en-partitif}, merci.", "en": "Tea? Yes, I'd love some, thanks." },
+        { "fr": "Des fraises ? {Lou en mange tous les jours|en-partitif} !", "en": "Strawberries? Lou eats them every day!" }
+      ]
+    },
+    {
+      "title": "2. With a number or a quantity",
+      "text": ["With a number, **beaucoup, un peu, trop, assez, un kilo…**, use **en** and keep the number or the quantity at the end of the sentence."],
+      "table": {
+        "head": ["With the noun", "With en"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai deux frères.", "J'en ai deux."],
+          ["Il a beaucoup d'amis.", "Il en a beaucoup."],
+          ["Je voudrais un kilo de pommes.", "J'en voudrais un kilo."],
+          ["Il reste un peu de gâteau.", "Il en reste un peu."]
+        ]
+      },
+      "examples": [
+        { "fr": "Des croissants ? {J'en prends trois|en-quantite} !", "en": "Croissants? I'll take three!" },
+        { "fr": "Des livres ? {Mamie en a beaucoup|en-quantite}.", "en": "Books? Grandma has lots." }
+      ],
+      "tip": "Don't repeat the noun: *J'en ai deux* (not *j'en ai deux frères*)."
+    },
+    {
+      "title": "3. Je n'en ai pas",
+      "table": {
+        "head": ["Question", "Negative answer"], "frCols": [0, 1],
+        "rows": [
+          ["Tu as de l'argent ?", "Non, je n'en ai pas."],
+          ["Il y a du lait ?", "Non, il n'y en a pas."],
+          ["Vous voulez du dessert ?", "Non merci, je n'en veux pas."]
+        ]
+      },
+      "examples": [
+        { "fr": "Des frères ? Non, {je n'en ai pas|en-negatif}.", "en": "Brothers? No, I haven't got any." },
+        { "fr": "Du sucre ? {Il n'en prend jamais|en-negatif}.", "en": "Sugar? He never takes it." }
+      ]
+    },
+    {
+      "title": "4. en = de + a thing",
+      "text": ["Verbs and phrases with **de** use **en** for things: **parler de** (talk about), **avoir besoin de** (need), **avoir envie de** (want), **se souvenir de** (remember), **revenir de** (come back from)."],
+      "table": {
+        "head": ["With the thing", "With en"], "frCols": [0, 1],
+        "rows": [
+          ["Il parle de son voyage.", "Il en parle."],
+          ["J'ai besoin de mon téléphone.", "J'en ai besoin."],
+          ["J'ai envie d'une glace.", "J'en ai envie."],
+          ["Elle revient de Paris.", "Elle en revient."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ton anniversaire ? {Je m'en souviens|en-de} très bien !", "en": "Your birthday? I remember it very well!" },
+        { "fr": "Cette robe ? {J'en ai vraiment envie|en-de}…", "en": "That dress? I really want it…" }
+      ]
+    },
+    {
+      "title": "5. Where does en go?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'en prends.", "I'll take some."],
+          ["Je vais en acheter.", "I'm going to buy some."],
+          ["Prends-en !", "Take some!"],
+          ["N'en mange pas trop !", "Don't eat too much of it!"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il n'y a plus de pain. {Je vais en acheter|en-place}.", "en": "There's no bread left. I'll go and buy some." },
+        { "fr": "Il reste des bonbons : {prends-en|en-place} !", "en": "There are some sweets left: have some!" }
+      ],
+      "tip": "**-er** verbs and **aller** take back their **s** before **en** and **y**: *manges-en, vas-y*."
+    },
+    {
+      "title": "6. il y en a",
+      "table": {
+        "head": ["With the noun", "With en"], "frCols": [0, 1],
+        "rows": [
+          ["Il y a des œufs ?", "Oui, il y en a."],
+          ["Il y a trois chambres.", "Il y en a trois."],
+          ["Il n'y a plus de lait.", "Il n'y en a plus."]
+        ]
+      },
+      "examples": [
+        { "fr": "Des chaises ? {Il y en a dans la cuisine|en-ilyena}.", "en": "Chairs? There are some in the kitchen." },
+        { "fr": "Du fromage ? Désolé, {il n'y en a plus|en-ilyena} !", "en": "Cheese? Sorry, there's none left!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai en deux.", "right": "J'en ai deux.", "why": "**en** goes before the verb." },
+    { "wrong": "Je n'ai pas en.", "right": "Je n'en ai pas.", "why": "**ne** + **en** + verb + **pas**." },
+    { "wrong": "J'en ai deux frères.", "right": "J'en ai deux.", "why": "With **en**, don't repeat the noun." },
+    { "wrong": "Mange-en !", "right": "Manges-en !", "why": "Before **en**, the **tu** command of an **-er** verb takes back its **s**." },
+    { "wrong": "Il en y a.", "right": "Il y en a.", "why": "The order is always **y** then **en**." }
+  ],
+  "story": {
+    "title": "Le petit-déjeuner de Paul",
+    "en": "Sunday morning in Paris: Paul makes breakfast for his parents, as promised.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche matin, Paul prépare le petit-déjeuner pour ses parents, comme promis.", "en": "On Sunday morning, Paul makes breakfast for his parents, as promised." },
+      { "sp": "Paul", "fr": "Papa, tu veux du café ?", "en": "Dad, would you like some coffee?" },
+      { "sp": "Jacques", "fr": "Oui, {j'en veux bien|en-partitif}. Avec du sucre, s'il te plaît.", "en": "Yes, I'd love some. With sugar, please." },
+      { "sp": "Paul", "fr": "Du sucre… {Il n'y en a plus|en-ilyena} ! Lou a tout mangé hier.", "en": "Sugar… There's none left! Lou ate it all yesterday." },
+      { "sp": "Louise", "fr": "Et des croissants ? {Il y en a|en-ilyena} ?", "en": "And croissants? Are there any?" },
+      { "sp": "Paul", "fr": "Oui, {j'en ai acheté six|en-quantite} à la boulangerie.", "en": "Yes, I bought six at the bakery." },
+      { "sp": "Lou", "fr": "Moi, {j'en veux trois|en-quantite} !", "en": "I want three!" },
+      { "sp": "Anne", "fr": "Trois ? {Prends-en un|en-place}, ma puce. Il faut en laisser pour Papi et Mamie !", "en": "Three? Take one, sweetie. We have to leave some for Grandpa and Grandma!" },
+      { "sp": "Louise", "fr": "Et de la confiture ? {Tu en as|en-partitif}, Paul ?", "en": "And jam? Have you got any, Paul?" },
+      { "sp": "Paul", "fr": "Non, {je n'en ai pas|en-negatif}… Mais j'ai du miel !", "en": "No, I haven't… But I've got honey!" },
+      { "sp": "Jacques", "fr": "Du miel, très bien ! {J'en mange beaucoup|en-quantite} à Marseille.", "en": "Honey, very good! I eat a lot of it in Marseille." },
+      { "sp": "", "fr": "Après le petit-déjeuner, on parle du week-end.", "en": "After breakfast, they talk about the weekend." },
+      { "sp": "Louise", "fr": "La tour Eiffel, Montmartre… {Je vais en parler|en-place} à toutes mes amies !", "en": "The Eiffel Tower, Montmartre… I'm going to tell all my friends about it!" },
+      { "sp": "Jacques", "fr": "Et moi, {je vais m'en souvenir|en-de} longtemps.", "en": "And I'll remember it for a long time." },
+      { "sp": "Paul", "fr": "Des vacances, {vous en avez besoin|en-de} ! Vous travaillez trop dans votre jardin.", "en": "You need a holiday! You work too hard in your garden." },
+      { "sp": "Lou", "fr": "Papi, tu as des bonbons ?", "en": "Grandpa, have you got any sweets?" },
+      { "sp": "Jacques", "fr": "Des bonbons ? Hmm… {j'en ai deux|en-quantite} dans ma poche. Tiens, [en|en-pron] voilà un !", "en": "Sweets? Hmm… I've got two in my pocket. Here's one!" },
+      { "sp": "Anne", "fr": "Jacques ! Pas de bonbons avant le déjeuner ! Lou, {n'en mange pas|en-place} maintenant !", "en": "Jacques! No sweets before lunch! Lou, don't eat it now!" },
+      { "sp": "Lou", "fr": "Trop tard… {Il n'y en a plus|en-ilyena} !", "en": "Too late… There aren't any left!" }
+    ]
+  },
+  "quiz": [
+    { "case": "en-partitif", "type": "mc", "q": "Tu veux du café ? — Oui, j'___ veux bien.", "en": "Would you like some coffee? — Yes, I'd love some.", "options": ["en", "y", "le"], "answer": "en" },
+    { "case": "en-partitif", "type": "type", "q": "Tu manges de la viande ? — Oui, j'___ mange.", "en": "Do you eat meat? — Yes, I do.", "answer": "en" },
+    { "case": "en-quantite", "type": "mc", "q": "Tu as des frères ? — Oui, j'en ai ___.", "en": "Do you have any brothers? — Yes, I have two.", "options": ["deux", "deux frères", "de deux"], "answer": "deux" },
+    { "case": "en-quantite", "type": "mc", "lang": "en", "q": "« J'en voudrais un kilo » (at the market, about apples) means…", "options": ["I'd like a kilo of them.", "I'd like one apple.", "I'd like them all."], "answer": "I'd like a kilo of them.", "say": "J'en voudrais un kilo." },
+    { "case": "en-negatif", "type": "mc", "q": "Tu as de l'argent ? — Non, je n'___ ai pas.", "en": "Have you got any money? — No, I haven't.", "options": ["en", "y", "le"], "answer": "en" },
+    { "case": "en-negatif", "type": "mc", "lang": "en", "q": "Choose the right answer to « Tu as des enfants ? »:", "options": ["Non, je n'en ai pas.", "Non, je n'ai pas en.", "Non, j'en n'ai pas."], "answer": "Non, je n'en ai pas.", "say": "Non, je n'en ai pas." },
+    { "case": "en-de", "type": "mc", "q": "Tu as besoin de ton téléphone ? — Oui, j'___ ai besoin.", "en": "Do you need your phone? — Yes, I need it.", "options": ["en", "y", "le"], "answer": "en" },
+    { "case": "en-de", "type": "mc", "q": "Tu parles de tes vacances ? — Oui, j'___ parle.", "en": "Are you talking about your holiday? — Yes, I'm talking about it.", "options": ["en", "y", "lui"], "answer": "en" },
+    { "case": "en-place", "type": "mc", "lang": "en", "q": "“I'm going to buy some.”", "options": ["Je vais en acheter.", "J'en vais acheter.", "Je vais acheter en."], "answer": "Je vais en acheter.", "say": "Je vais en acheter." },
+    { "case": "en-place", "type": "mc", "q": "Il reste du gâteau ! ___ !", "en": "There's some cake left! Have some!", "options": ["Prends-en", "En prends", "Prends-le-en"], "answer": "Prends-en" },
+    { "case": "en-ilyena", "type": "mc", "q": "Il y a des œufs ? — Oui, il y ___ a six.", "en": "Are there any eggs? — Yes, there are six.", "options": ["en", "y", "les"], "answer": "en" },
+    { "case": "en-ilyena", "type": "type", "q": "Il y a du lait ? — Non, il n'y ___ a plus.", "en": "Is there any milk? — No, there's none left.", "answer": "en" }
+  ]
+}

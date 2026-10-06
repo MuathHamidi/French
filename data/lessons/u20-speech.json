@@ -1,0 +1,253 @@
+{
+  "id": "u20-speech",
+  "type": "vocab",
+  "unit": 20,
+  "title": "Dire, demander, répondre",
+  "en": "Speaking verbs",
+  "intro": "25 essential words for talking: say, ask, answer, explain, whisper, shout, promise, suggest, thank, apologise, lie, admit, complain… Many take **à** + the person: *dire **à**, demander **à**, répondre **à**, promettre **à***, so the pronoun is **lui, leur**: *je lui dis*.",
+  "words": [
+    { "id": "dire", "fr": "dire", "pos": "verb", "ipa": "diʁ", "en": "to say, to tell",
+      "def": "Utiliser des mots pour donner une information ou une idée.", "def_en": "To use words to give a piece of information or an idea.",
+      "extra": "je **dis**, tu **dis**, il **dit**, nous **disons**, vous **dites**, ils **disent**; j'ai **dit**.",
+      "forms": ["dis", "dit", "dite", "dits", "dites", "disons", "disent", "disais", "disait", "disions", "disiez", "disaient", "dirait", "dirai", "diras", "dira", "dirons", "direz", "diront"],
+      "examples": [
+        { "fr": "Qu'est-ce que tu **dis** ?", "en": "What are you saying?" },
+        { "fr": "**Dis** bonjour à Mamie !", "en": "Say hello to Grandma!" },
+        { "fr": "Il m'a **dit** la vérité.", "en": "He told me the truth." }
+      ],
+      "note": "**dire quelque chose à quelqu'un**: *je lui dis*. Careful: **vous dites** (not *vous disez*)." },
+    { "id": "parler", "fr": "parler", "pos": "verb", "ipa": "paʁ.le", "en": "to speak, to talk",
+      "def": "Dire des mots avec la bouche.", "def_en": "To say words with your mouth.",
+      "forms": ["parle", "parles", "parlons", "parlez", "parlent", "parlé", "parlais", "parlait", "parlions", "parliez", "parlaient", "parlerai", "parleras", "parlera", "parlerons", "parlerez", "parleront"],
+      "examples": [
+        { "fr": "Tu **parles** français ?", "en": "Do you speak French?" },
+        { "fr": "On **parle** de quoi ?", "en": "What are we talking about?" },
+        { "fr": "Je **parle** à ma sœur tous les jours.", "en": "I talk to my sister every day." }
+      ],
+      "note": "**parler à** someone (to talk to), **parler de** something (to talk about)." },
+    { "id": "demander", "fr": "demander", "pos": "verb", "ipa": "də.mɑ̃.de", "en": "to ask (for)",
+      "def": "Poser une question, ou dire qu'on veut une chose.", "def_en": "To ask a question, or to say you want something.",
+      "forms": ["demande", "demandes", "demandons", "demandez", "demandent", "demandé", "demandais", "demandait", "demandions", "demandiez", "demandaient", "demanderai", "demanderas", "demandera", "demanderons", "demanderez", "demanderont"],
+      "examples": [
+        { "fr": "Je peux te **demander** quelque chose ?", "en": "Can I ask you something?" },
+        { "fr": "Il **demande** l'addition.", "en": "He asks for the bill." },
+        { "fr": "**Demande** à ton père !", "en": "Ask your father!" }
+      ],
+      "note": "False friend! **demander** = *to ask*, not *to demand*. **demander à** + person: *je lui demande*." },
+    { "id": "repondre", "fr": "répondre", "pos": "verb", "ipa": "ʁe.pɔ̃dʁ", "en": "to answer, to reply",
+      "def": "Dire ou écrire quelque chose après une question ou un message.", "def_en": "To say or write something after a question or a message.",
+      "forms": ["réponds", "répond", "répondons", "répondez", "répondent", "répondu", "répondais", "répondait", "répondions", "répondiez", "répondaient", "répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront"],
+      "examples": [
+        { "fr": "**Réponds**-moi !", "en": "Answer me!" },
+        { "fr": "Elle ne **répond** pas au téléphone.", "en": "She isn't answering the phone." },
+        { "fr": "J'ai **répondu** à son mail.", "en": "I replied to her email." }
+      ] },
+    { "id": "expliquer", "fr": "expliquer", "pos": "verb", "ipa": "ɛks.pli.ke", "en": "to explain",
+      "def": "Dire comment une chose marche, ou pourquoi.", "def_en": "To say how something works, or why.",
+      "forms": ["explique", "expliques", "expliquons", "expliquez", "expliquent", "expliqué", "expliquais", "expliquait", "expliquions", "expliquiez", "expliquaient", "expliquerai", "expliqueras", "expliquera", "expliquerons", "expliquerez", "expliqueront"],
+      "examples": [
+        { "fr": "Tu peux m'**expliquer** cette règle ?", "en": "Can you explain this rule to me?" },
+        { "fr": "Léa **explique** les applications à Mamie.", "en": "Léa explains the apps to Grandma." },
+        { "fr": "Je t'**explique** : c'est très simple.", "en": "Let me explain: it's very simple." }
+      ] },
+    { "id": "discuter", "fr": "discuter", "pos": "verb", "ipa": "dis.ky.te", "en": "to talk, to chat; to discuss",
+      "def": "Parler avec une ou plusieurs personnes ; échanger des idées.", "def_en": "To talk with one or more people; to exchange ideas.",
+      "forms": ["discute", "discutes", "discutons", "discutez", "discutent", "discuté", "discutais", "discutait", "discutions", "discutiez", "discutaient", "discuterai", "discuteras", "discutera", "discuterons", "discuterez", "discuteront"],
+      "examples": [
+        { "fr": "On a **discuté** toute la nuit.", "en": "We talked all night." },
+        { "fr": "Ils **discutent** du prix de la voiture.", "en": "They're discussing the price of the car." },
+        { "fr": "Viens, on **discute** un peu !", "en": "Come on, let's have a chat!" }
+      ] },
+    { "id": "bavarder", "fr": "bavarder", "pos": "verb", "ipa": "ba.vaʁ.de", "en": "to chat, to natter",
+      "def": "Parler longtemps de petites choses, avec plaisir.", "def_en": "To talk at length about little things, happily.",
+      "forms": ["bavarde", "bavardes", "bavardons", "bavardez", "bavardent", "bavardé", "bavardais", "bavardait", "bavardions", "bavardiez", "bavardaient", "bavarderai", "bavarderas", "bavardera", "bavarderons", "bavarderez", "bavarderont"],
+      "examples": [
+        { "fr": "Les élèves **bavardent** pendant la leçon.", "en": "The pupils chatter during the lesson." },
+        { "fr": "Mamie et sa voisine **bavardent** devant la porte.", "en": "Grandma and her neighbour are chatting outside the door." },
+        { "fr": "Arrêtez de **bavarder** !", "en": "Stop chattering!" }
+      ] },
+    { "id": "crier", "fr": "crier", "pos": "verb", "ipa": "kʁi.je", "en": "to shout, to scream",
+      "def": "Parler très fort.", "def_en": "To speak very loudly.",
+      "forms": ["crie", "cries", "crions", "criez", "crient", "crié", "criais", "criait", "criions", "criiez", "criaient", "crierai", "crieras", "criera", "crierons", "crierez", "crieront"],
+      "examples": [
+        { "fr": "Ne **crie** pas, je ne suis pas sourd !", "en": "Don't shout, I'm not deaf!" },
+        { "fr": "Lou **crie** de joie.", "en": "Lou shouts for joy." },
+        { "fr": "Le professeur **crie** : « Silence ! »", "en": "The teacher shouts: 'Quiet!'" }
+      ] },
+    { "id": "chuchoter", "fr": "chuchoter", "pos": "verb", "ipa": "ʃy.ʃɔ.te", "en": "to whisper",
+      "def": "Parler très doucement, à l'oreille.", "def_en": "To speak very softly, in someone's ear.",
+      "forms": ["chuchote", "chuchotes", "chuchotons", "chuchotez", "chuchotent", "chuchoté", "chuchotais", "chuchotait", "chuchotions", "chuchotiez", "chuchotaient", "chuchoterai", "chuchoteras", "chuchotera", "chuchoterons", "chuchoterez", "chuchoteront"],
+      "examples": [
+        { "fr": "Elle me **chuchote** un secret.", "en": "She whispers a secret to me." },
+        { "fr": "**Chuchote**, le bébé dort !", "en": "Whisper, the baby's asleep!" },
+        { "fr": "Ils **chuchotent** au fond de la classe.", "en": "They're whispering at the back of the class." }
+      ] },
+    { "id": "annoncer", "fr": "annoncer", "pos": "verb", "ipa": "a.nɔ̃.se", "en": "to announce; (weather) to forecast",
+      "def": "Dire une information importante à tout le monde.", "def_en": "To tell everyone an important piece of news.",
+      "extra": "-cer verb: nous **annonçons**, j'**annonçais**.",
+      "forms": ["annonce", "annonces", "annonçons", "annoncez", "annoncent", "annoncé", "annoncée", "annonçais", "annonçait", "annoncions", "annonciez", "annonçaient", "annoncerai", "annonceras", "annoncera", "annoncerons", "annoncerez", "annonceront"],
+      "examples": [
+        { "fr": "Tom nous **annonce** une surprise.", "en": "Tom has a surprise to announce." },
+        { "fr": "La météo **annonce** de la pluie.", "en": "The forecast says rain." },
+        { "fr": "Le train de neuf heures est **annoncé** en retard.", "en": "The nine o'clock train is announced as delayed." }
+      ] },
+    { "id": "prevenir", "fr": "prévenir", "pos": "verb", "ipa": "pʁev.niʁ", "en": "to warn; to let (someone) know",
+      "def": "Dire à l'avance à une personne ce qui va arriver.", "def_en": "To tell someone in advance what's going to happen.",
+      "extra": "Like *venir*: je **préviens**, nous **prévenons**, ils **préviennent**; j'ai **prévenu**.",
+      "forms": ["préviens", "prévient", "prévenons", "prévenez", "préviennent", "prévenu", "prévenue", "prévenais", "prévenait", "prévenions", "préveniez", "prévenaient", "préviendrai", "préviendras", "préviendra", "préviendrons", "préviendrez", "préviendront"],
+      "examples": [
+        { "fr": "**Préviens**-moi si tu es en retard !", "en": "Let me know if you're late!" },
+        { "fr": "Je vous **préviens** : c'est difficile.", "en": "I'm warning you: it's difficult." },
+        { "fr": "Il est parti sans **prévenir**.", "en": "He left without warning." }
+      ] },
+    { "id": "promettre", "fr": "promettre", "pos": "verb", "ipa": "pʁɔ.mɛtʁ", "en": "to promise (promis ! = I promise!)",
+      "def": "Dire qu'on va faire une chose, c'est sûr.", "def_en": "To say you'll definitely do something.",
+      "extra": "Like *mettre*: je **promets**, nous **promettons**; j'ai **promis**.",
+      "forms": ["promets", "promet", "promettons", "promettez", "promettent", "promis", "promise", "promettais", "promettait", "promettions", "promettiez", "promettaient", "promettrai", "promettras", "promettra", "promettrons", "promettrez", "promettront"],
+      "examples": [
+        { "fr": "Je te **promets** de venir.", "en": "I promise you I'll come." },
+        { "fr": "Il a **promis** de ne rien dire.", "en": "He promised not to say anything." },
+        { "fr": "C'est **promis** !", "en": "It's a promise!" }
+      ] },
+    { "id": "proposer", "fr": "proposer", "pos": "verb", "ipa": "pʁɔ.po.ze", "en": "to suggest, to offer",
+      "def": "Donner une idée, ou offrir une chose à une personne.", "def_en": "To give someone an idea, or offer them something.",
+      "forms": ["propose", "proposes", "proposons", "proposez", "proposent", "proposé", "proposée", "proposais", "proposait", "proposions", "proposiez", "proposaient", "proposerai", "proposeras", "proposera", "proposerons", "proposerez", "proposeront"],
+      "examples": [
+        { "fr": "Je **propose** d'aller au cinéma.", "en": "I suggest going to the cinema." },
+        { "fr": "Il me **propose** un café.", "en": "He offers me a coffee." },
+        { "fr": "Qu'est-ce que tu **proposes** ?", "en": "What do you suggest?" }
+      ] },
+    { "id": "conseiller", "fr": "conseiller", "pos": "verb", "ipa": "kɔ̃.se.je", "en": "to advise, to recommend",
+      "def": "Dire à une personne ce qui est bien pour elle.", "def_en": "To tell someone what's good for them.",
+      "forms": ["conseille", "conseilles", "conseillons", "conseillez", "conseillent", "conseillé", "conseillais", "conseillait", "conseillions", "conseilliez", "conseillaient", "conseillerai", "conseilleras", "conseillera", "conseillerons", "conseillerez", "conseilleront"],
+      "examples": [
+        { "fr": "Je te **conseille** ce restaurant.", "en": "I recommend this restaurant." },
+        { "fr": "Le médecin me **conseille** de dormir plus.", "en": "The doctor advises me to sleep more." },
+        { "fr": "Qu'est-ce que vous me **conseillez** ?", "en": "What do you recommend?" }
+      ],
+      "note": "**un conseil** = a piece of advice. **conseiller à quelqu'un de** + infinitive." },
+    { "id": "remercier", "fr": "remercier", "pos": "verb", "ipa": "ʁə.mɛʁ.sje", "en": "to thank",
+      "def": "Dire merci.", "def_en": "To say thank you.",
+      "forms": ["remercie", "remercies", "remercions", "remerciez", "remercient", "remercié", "remerciais", "remerciait", "remerciions", "remerciiez", "remerciaient", "remercierai", "remercieras", "remerciera", "remercierons", "remercierez", "remercieront"],
+      "examples": [
+        { "fr": "Je vous **remercie** pour votre aide.", "en": "Thank you for your help." },
+        { "fr": "Lou **remercie** Mamie pour le cadeau.", "en": "Lou thanks Grandma for the present." },
+        { "fr": "Il faut **remercier** tes grands-parents !", "en": "You must thank your grandparents!" }
+      ] },
+    { "id": "s-excuser", "fr": "s'excuser", "pos": "verb", "ipa": "sɛks.ky.ze", "en": "to apologise (excusez-moi = excuse me)",
+      "def": "Dire pardon quand on a fait une erreur.", "def_en": "To say sorry when you've made a mistake.",
+      "forms": ["m'excuse", "t'excuses", "s'excuse", "nous nous excusons", "vous vous excusez", "s'excusent", "excuse", "excuses", "excusons", "excusez", "excusent", "excusé", "excusée", "m'excusais", "s'excusait", "m'excuserai", "t'excuseras", "s'excusera", "nous nous excuserons", "vous vous excuserez", "s'excuseront"],
+      "examples": [
+        { "fr": "Je m'**excuse** pour mon retard.", "en": "I'm sorry I'm late." },
+        { "fr": "**Excusez**-moi, où est la gare ?", "en": "Excuse me, where's the station?" },
+        { "fr": "Il ne s'**excuse** jamais !", "en": "He never apologises!" }
+      ] },
+    { "id": "mentir", "fr": "mentir", "pos": "verb", "ipa": "mɑ̃.tiʁ", "en": "to lie (tell lies)",
+      "def": "Dire une chose qui n'est pas vraie.", "def_en": "To say something that isn't true.",
+      "extra": "je **mens**, il **ment**, nous **mentons**, ils **mentent**; j'ai **menti**.",
+      "forms": ["mens", "ment", "mentons", "mentez", "mentent", "menti", "mentais", "mentait", "mentions", "mentiez", "mentaient", "mentirai", "mentiras", "mentira", "mentirons", "mentirez", "mentiront"],
+      "examples": [
+        { "fr": "Tu **mens** ! Ce n'est pas vrai !", "en": "You're lying! It's not true!" },
+        { "fr": "Pinocchio **ment**, et son nez grandit.", "en": "Pinocchio lies, and his nose grows." },
+        { "fr": "Je n'ai jamais **menti** à mes parents… enfin, presque !", "en": "I've never lied to my parents… well, almost!" }
+      ],
+      "note": "**un mensonge** = a lie." },
+    { "id": "avouer", "fr": "avouer", "pos": "verb", "ipa": "a.vwe", "en": "to admit, to confess",
+      "def": "Dire la vérité sur une chose qu'on a cachée.", "def_en": "To tell the truth about something you've hidden.",
+      "forms": ["avoue", "avoues", "avouons", "avouez", "avouent", "avoué", "avouais", "avouait", "avouions", "avouiez", "avouaient", "avouerai", "avoueras", "avouera", "avouerons", "avouerez", "avoueront"],
+      "examples": [
+        { "fr": "J'**avoue** : c'est moi qui ai mangé le gâteau.", "en": "I admit it: I ate the cake." },
+        { "fr": "Il **avoue** qu'il a peur.", "en": "He admits he's scared." },
+        { "fr": "**Avoue**, tu as oublié !", "en": "Admit it, you forgot!" }
+      ] },
+    { "id": "se-plaindre", "fr": "se plaindre", "pos": "verb", "ipa": "sə plɛ̃dʁ", "en": "to complain",
+      "def": "Dire qu'on n'est pas content, qu'on a mal ou qu'on a un problème.", "def_en": "To say you're unhappy, in pain, or have a problem.",
+      "extra": "je **me plains**, il **se plaint**, nous **nous plaignons**, ils **se plaignent**.",
+      "forms": ["me plains", "te plains", "se plaint", "nous nous plaignons", "vous vous plaignez", "se plaignent", "plaindre", "plains", "plaint", "plaignons", "plaignez", "plaignent", "me plaignais", "se plaignait", "me plaindrai", "te plaindras", "se plaindra", "nous nous plaindrons", "vous vous plaindrez", "se plaindront"],
+      "examples": [
+        { "fr": "Hugo **se plaint** toujours de son travail.", "en": "Hugo is always complaining about his job." },
+        { "fr": "Arrête de te **plaindre** !", "en": "Stop complaining!" },
+        { "fr": "Les clients **se plaignent** : le café est froid.", "en": "The customers are complaining: the coffee is cold." }
+      ],
+      "note": "**se plaindre de** + noun: *il se plaint du bruit*." },
+    { "id": "repeter", "fr": "répéter", "pos": "verb", "ipa": "ʁe.pe.te", "en": "to repeat, to say again; to rehearse",
+      "def": "Dire encore une fois la même chose.", "def_en": "To say the same thing again.",
+      "extra": "é → è before a silent ending: je **répète**, nous **répétons**.",
+      "forms": ["répète", "répètes", "répétons", "répétez", "répètent", "répété", "répétais", "répétait", "répétions", "répétiez", "répétaient", "répéterai", "répéteras", "répétera", "répéterons", "répéterez", "répéteront"],
+      "examples": [
+        { "fr": "Vous pouvez **répéter**, s'il vous plaît ?", "en": "Could you repeat that, please?" },
+        { "fr": "**Répétez** après moi : bonjour !", "en": "Repeat after me: bonjour!" },
+        { "fr": "Je te **répète** : ne touche pas !", "en": "I'm telling you again: don't touch!" }
+      ] },
+    { "id": "traduire", "fr": "traduire", "pos": "verb", "ipa": "tʁa.dɥiʁ", "en": "to translate",
+      "def": "Dire ou écrire dans une autre langue.", "def_en": "To say or write in another language.",
+      "extra": "Like *conduire*: je **traduis**, nous **traduisons**; j'ai **traduit**.",
+      "forms": ["traduis", "traduit", "traduite", "traduits", "traduites", "traduisons", "traduisez", "traduisent", "traduisais", "traduisait", "traduisions", "traduisiez", "traduisaient", "traduirai", "traduiras", "traduira", "traduirons", "traduirez", "traduiront"],
+      "examples": [
+        { "fr": "Tu peux **traduire** ce mot en anglais ?", "en": "Can you translate this word into English?" },
+        { "fr": "Tom **traduit** les menus pour les touristes.", "en": "Tom translates menus for the tourists." },
+        { "fr": "Ce livre est **traduit** en trente langues.", "en": "This book has been translated into thirty languages." }
+      ] },
+    { "id": "mot", "fr": "mot", "pos": "noun", "g": "m", "ipa": "mo", "en": "word; (short) note",
+      "def": "Un petit groupe de lettres qui veut dire quelque chose.", "def_en": "A small group of letters that means something.",
+      "forms": ["mots"],
+      "examples": [
+        { "fr": "Je ne connais pas ce **mot**.", "en": "I don't know this word." },
+        { "fr": "Écris-moi un petit **mot** !", "en": "Write me a little note!" },
+        { "fr": "En un **mot** : génial !", "en": "In a word: brilliant!" }
+      ] },
+    { "id": "question", "fr": "question", "pos": "noun", "g": "f", "ipa": "kɛs.tjɔ̃", "en": "question",
+      "def": "Ce qu'on demande pour savoir quelque chose.", "def_en": "What you ask to find something out.",
+      "forms": ["questions"],
+      "examples": [
+        { "fr": "Je peux poser une **question** ?", "en": "Can I ask a question?" },
+        { "fr": "Bonne **question** !", "en": "Good question!" },
+        { "fr": "Pas de **questions** ? Alors, on continue.", "en": "No questions? Then let's carry on." }
+      ],
+      "note": "**poser une question** = to ask a question (not *demander une question*)." },
+    { "id": "reponse", "fr": "réponse", "pos": "noun", "g": "f", "ipa": "ʁe.pɔ̃s", "en": "answer, reply",
+      "def": "Ce qu'on dit ou écrit après une question.", "def_en": "What you say or write after a question.",
+      "forms": ["réponses"],
+      "examples": [
+        { "fr": "Quelle est la bonne **réponse** ?", "en": "What's the right answer?" },
+        { "fr": "J'attends ta **réponse**.", "en": "I'm waiting for your reply." },
+        { "fr": "Je n'ai pas de **réponse**.", "en": "I don't have an answer." }
+      ] },
+    { "id": "conversation", "fr": "conversation", "pos": "noun", "g": "f", "ipa": "kɔ̃.vɛʁ.sa.sjɔ̃", "en": "conversation",
+      "def": "Quand deux personnes ou plus parlent ensemble.", "def_en": "When two or more people talk together.",
+      "forms": ["conversations"],
+      "examples": [
+        { "fr": "On a eu une longue **conversation**.", "en": "We had a long conversation." },
+        { "fr": "Je n'aime pas les **conversations** au téléphone.", "en": "I don't like phone conversations." },
+        { "fr": "Il écoute notre **conversation** !", "en": "He's listening in on our conversation!" }
+      ] }
+  ],
+  "story": {
+    "title": "La fête surprise",
+    "en": "Léa organises a surprise party for Sophie. But Hugo can't keep a secret.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin décembre, Léa prépare une fête [surprise|surprise] avec ses amis : le trente, c'est l'anniversaire de Sophie.", "en": "At the end of December, Léa is planning a surprise party with her friends: Sophie's birthday is on the thirtieth." },
+      { "sp": "Léa", "fr": "Attention, c'est un secret ! On ne dit rien à Sophie. Promettez-le !", "en": "Careful, it's a secret! We don't say anything to Sophie. Promise!" },
+      { "sp": "Tom", "fr": "Promis ! Et je propose une chose : on fait la fête chez moi, c'est plus grand.", "en": "Promise! And I suggest something: we have the party at my place, it's bigger." },
+      { "sp": "Léa", "fr": "Bonne idée. Hugo, tu ne parles pas à Sophie cette semaine. Tu es trop bavard !", "en": "Good idea. Hugo, don't talk to Sophie this week. You're too chatty!" },
+      { "sp": "Hugo", "fr": "Moi ? Je ne suis pas bavard ! Je bavarde un peu, c'est tout…", "en": "Me? I'm not chatty! I chat a bit, that's all…" },
+      { "sp": "", "fr": "Le lendemain, Sophie rencontre Hugo au café. Il a l'air bizarre.", "en": "The next day, Sophie runs into Hugo at the café. He looks odd." },
+      { "sp": "Sophie", "fr": "Hugo, je peux te demander quelque chose ? Pourquoi tout le monde chuchote quand j'arrive ?", "en": "Hugo, can I ask you something? Why does everyone whisper when I arrive?" },
+      { "sp": "Hugo", "fr": "Euh… je ne peux pas répondre. Il n'y a pas de fête ! Je veux dire… il n'y a rien ! Rien du tout !", "en": "Er… I can't answer that. There's no party! I mean… there's nothing! Nothing at all!" },
+      { "sp": "Sophie", "fr": "Une fête ? Quelle fête ? Tu mens très mal, Hugo !", "en": "A party? What party? You're a terrible liar, Hugo!" },
+      { "sp": "Hugo", "fr": "D'accord, j'avoue… Mais ne le répète pas à Léa ! Elle va crier !", "en": "OK, I admit it… But don't tell Léa! She'll shout!" },
+      { "sp": "", "fr": "Le soir, Hugo téléphone à Léa. Il s'excuse.", "en": "In the evening, Hugo phones Léa. He apologises." },
+      { "sp": "Hugo", "fr": "Léa… Je dois t'expliquer quelque chose. Il y a un petit problème avec la surprise.", "en": "Léa… I need to explain something. There's a little problem with the surprise." },
+      { "sp": "Léa", "fr": "Quoi ? Tu lui as tout dit ? Tu ne peux pas garder un secret pendant deux jours !", "en": "What? You told her everything? You can't keep a secret for two days!" },
+      { "sp": "", "fr": "Léa discute avec Tom. Il lui conseille une chose : changer l'heure de la fête, et ne pas prévenir Hugo !", "en": "Léa talks it over with Tom. He advises her to do one thing: change the time of the party, and not tell Hugo!" },
+      { "sp": "", "fr": "Le trente décembre, à midi, Sophie arrive chez Tom… [Surprise|surprise] ! Tout le monde est là, et Tom annonce : « Joyeux anniversaire, Sophie ! »", "en": "On 30 December at noon, Sophie arrives at Tom's… Surprise! Everyone's there, and Tom announces: 'Happy birthday, Sophie!'" },
+      { "sp": "Sophie", "fr": "Merci, merci à tous ! Je vous remercie du fond du cœur !", "en": "Thank you, thank you all! From the bottom of my heart!" },
+      { "sp": "Tom", "fr": "Mes parents sont en Angleterre, mais ils t'envoient un message. Je le traduis : « Bon anniversaire, Sophie ! »", "en": "My parents are in England, but they're sending you a message. I'll translate it: 'Happy birthday, Sophie!'" },
+      { "sp": "", "fr": "À une heure, Hugo arrive enfin, très surpris.", "en": "At one o'clock, Hugo finally arrives, very surprised." },
+      { "sp": "Hugo", "fr": "Je me plains : personne ne m'a prévenu de la nouvelle heure !", "en": "I want to complain: nobody told me about the new time!" },
+      { "sp": "Léa", "fr": "C'est ma réponse à ta question, Hugo : on ne dit pas un mot aux bavards !", "en": "That's my answer to your question, Hugo: you don't say a word to chatterboxes!" },
+      { "sp": "", "fr": "Tout le monde rit. Et la conversation continue jusqu'au soir.", "en": "Everyone laughs. And the conversation goes on until the evening." }
+    ]
+  }
+}
