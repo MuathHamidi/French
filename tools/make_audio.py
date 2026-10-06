@@ -79,6 +79,8 @@ FIXES = {
     "bronzer": "bʁɔ̃zˈe",  # the voice says /bʁɔ̃zœʁ/
     "wifi": "wifˈi",  # otherwise read in English
     "scotch": "skˈɔtʃ", "scotchs": "skˈɔtʃ",  # otherwise read with an English vowel
+    "parking": "paʁkˈiŋ", "parkings": "paʁkˈiŋ", "jury": "ʒyʁˈi", "jurys": "ʒyʁˈi",  # otherwise read in English
+    "champs-élysées": "ʃɑ̃zelizˈe",  # the voice skips the liaison /z/
     "louent": "lˈu", "loues": "lˈu",  # the voice swallows the vowel, like jouent
     "jouions": "ʒujˈɔ̃", "jouiez": "ʒujˈe",  # the voice says /ʒwjɔ̃/
     "habitions": "abitjˈɔ̃", "habitiez": "abitjˈe",  # the voice reads -tions as in "nation": /abisjɔ̃/

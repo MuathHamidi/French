@@ -1,0 +1,162 @@
+{
+  "id": "u22-bank-post",
+  "type": "vocab",
+  "unit": 22,
+  "title": "La banque et la poste",
+  "en": "The bank and the post office",
+  "intro": "25 words for the bank and the post office: counters and queues, savings and loans, stamps, parcels and registered letters. In France, the post office (**La Poste**) also has a bank, so you can send a parcel and take out money at the same place.",
+  "words": [
+    { "id": "bureau-de-poste", "fr": "bureau de poste", "pos": "noun", "g": "m", "ipa": "by.ʁo də pɔst", "en": "post office", "def": "Le bâtiment où on envoie des lettres et des colis : la poste.", "def_en": "The building where you send letters and parcels: the post office.", "forms": ["bureaux de poste"], "examples": [
+      { "fr": "Le **bureau de poste** ferme à dix-huit heures.", "en": "The post office closes at six p.m." },
+      { "fr": "Il y a un **bureau de poste** dans mon quartier.", "en": "There's a post office in my neighbourhood." },
+      { "fr": "Je vais au **bureau de poste** avec mon colis.", "en": "I'm going to the post office with my parcel." }
+    ], "note": "In everyday speech, people just say **la poste**." },
+    { "id": "guichet", "fr": "guichet", "pos": "noun", "g": "m", "ipa": "ɡi.ʃɛ", "en": "counter, window (in a post office, a bank, a station)", "def": "L'endroit où une personne vous aide, à la poste, à la banque ou à la gare.", "def_en": "The place where someone serves you, at the post office, the bank or the station.", "forms": ["guichets"], "examples": [
+      { "fr": "Allez au **guichet** numéro trois, s'il vous plaît.", "en": "Go to window number three, please." },
+      { "fr": "Le **guichet** est fermé le dimanche.", "en": "The counter is closed on Sundays." },
+      { "fr": "J'achète mon billet au **guichet**.", "en": "I buy my ticket at the counter." }
+    ] },
+    { "id": "file-d-attente", "fr": "file d'attente", "pos": "noun", "g": "f", "ipa": "fil da.tɑ̃t", "en": "queue, line", "def": "Les personnes qui attendent, l'une derrière l'autre.", "def_en": "The people who are waiting, one behind the other.", "forms": ["files d'attente"], "examples": [
+      { "fr": "Il y a une longue **file d'attente** à la poste.", "en": "There's a long queue at the post office." },
+      { "fr": "Je me mets dans la **file d'attente**.", "en": "I join the queue." },
+      { "fr": "La **file d'attente** avance lentement.", "en": "The queue is moving slowly." }
+    ], "note": "Also **la queue**: *faire la queue* = to queue." },
+    { "id": "agence", "fr": "agence", "pos": "noun", "g": "f", "ipa": "a.ʒɑ̃s", "en": "branch (of a bank); agency", "def": "Un bureau d'une banque ou d'une entreprise, dans un quartier.", "def_en": "An office of a bank or a company, in a neighbourhood.", "forms": ["agences"], "examples": [
+      { "fr": "Mon **agence** est à côté du métro.", "en": "My branch is next to the metro station." },
+      { "fr": "L'**agence** ouvre à neuf heures.", "en": "The branch opens at nine." },
+      { "fr": "Elle travaille dans une **agence** de voyages.", "en": "She works in a travel agency." }
+    ] },
+    { "id": "conseiller-n", "fr": "conseiller", "pos": "noun", "g": "m", "ipa": "kɔ̃.se.je", "display": "le conseiller, la conseillère", "en": "adviser (at a bank)", "def": "À la banque, la personne qui vous aide et qui répond à vos questions.", "def_en": "At the bank, the person who helps you and answers your questions.", "forms": ["conseillère", "conseillers", "conseillères"], "accept": ["conseillère", "la conseillère", "une conseillère"], "examples": [
+      { "fr": "J'ai rendez-vous avec ma **conseillère** à dix heures.", "en": "I've got an appointment with my adviser at ten." },
+      { "fr": "Le **conseiller** m'explique le [prêt|pret-n].", "en": "The adviser explains the loan to me." },
+      { "fr": "Demandez à votre **conseiller**, à la banque.", "en": "Ask your adviser at the bank." }
+    ], "note": "Same spelling as the verb **conseiller** (to advise): *je te conseille ce film*." },
+    { "id": "epargne", "fr": "épargne", "pos": "noun", "g": "f", "ipa": "e.paʁɲ", "en": "savings", "def": "L'argent qu'on garde à la banque pour plus tard.", "def_en": "The money you keep in the bank for later.", "examples": [
+      { "fr": "J'ai un peu d'**épargne** pour les vacances.", "en": "I have a bit of savings for the holidays." },
+      { "fr": "Il met son **épargne** sur un livret.", "en": "He puts his savings in a savings account." },
+      { "fr": "Toute mon **épargne** est partie en cadeaux !", "en": "All my savings went on presents!" }
+    ], "note": "The verb: **épargner** (= *économiser*, to save)." },
+    { "id": "livret", "fr": "livret", "pos": "noun", "g": "m", "ipa": "li.vʁɛ", "en": "savings account (livret d'épargne); booklet", "def": "Un compte à la banque pour mettre de l'argent de côté. Aussi : un petit livre.", "def_en": "A bank account for putting money aside. Also: a small book.", "forms": ["livrets"], "examples": [
+      { "fr": "J'ouvre un **livret** d'épargne.", "en": "I'm opening a savings account." },
+      { "fr": "Il y a deux cents euros sur mon **livret**.", "en": "There are two hundred euros in my savings account." },
+      { "fr": "Le **livret** de famille est dans le tiroir.", "en": "The family record book is in the drawer." }
+    ], "note": "The best-known one is the **livret A**." },
+    { "id": "pret-n", "fr": "prêt", "pos": "noun", "g": "m", "manual": true, "ipa": "pʁɛ", "en": "loan", "def": "L'argent que la banque vous prête, et que vous devez rendre plus tard.", "def_en": "Money the bank lends you, which you must pay back later.", "forms": ["prêts"], "examples": [
+      { "fr": "Ils demandent un **[prêt|pret-n]** pour acheter une maison.", "en": "They're asking for a loan to buy a house." },
+      { "fr": "Le **[prêt|pret-n]** est sur dix ans.", "en": "The loan is over ten years." },
+      { "fr": "La banque refuse le **[prêt|pret-n]**.", "en": "The bank turns down the loan." }
+    ], "note": "From **prêter** (to lend). Don't mix it up with the adjective **prêt** (ready)." },
+    { "id": "interet", "fr": "intérêt", "pos": "noun", "g": "m", "ipa": "ɛ̃.te.ʁɛ", "en": "interest", "def": "L'argent en plus que la banque vous paie, ou que vous payez pour un [prêt|pret-n].", "def_en": "The extra money the bank pays you, or that you pay on a loan.", "forms": ["intérêts"], "examples": [
+      { "fr": "Mon livret donne un peu d'**intérêts**.", "en": "My savings account pays a little interest." },
+      { "fr": "Le [prêt|pret-n] a un **intérêt** de trois pour cent.", "en": "The loan has three per cent interest." },
+      { "fr": "Ce film n'a aucun **intérêt** !", "en": "This film is of no interest at all!" }
+    ], "note": "Also *interest* in the sense of *being interesting*: **intéressant**." },
+    { "id": "a-decouvert", "fr": "à découvert", "pos": "expr", "ipa": "a de.ku.vɛʁ", "en": "overdrawn, in the red", "def": "Quand il n'y a plus d'argent sur le compte, et même moins que zéro.", "def_en": "When there's no money left in the account, and even less than zero.", "examples": [
+      { "fr": "Je suis **à découvert** depuis Noël.", "en": "I've been overdrawn since Christmas." },
+      { "fr": "Attention, ton compte est **à découvert** !", "en": "Careful, your account is overdrawn!" },
+      { "fr": "Il ne veut pas être **à découvert**.", "en": "He doesn't want to be overdrawn." }
+    ], "note": "**un découvert** = an overdraft." },
+    { "id": "code", "fr": "code", "pos": "noun", "g": "m", "ipa": "kɔd", "en": "PIN, code; password", "def": "Les chiffres secrets de la carte bancaire, ou de la porte d'un immeuble.", "def_en": "The secret numbers of a bank card, or of the door of a building.", "forms": ["codes"], "examples": [
+      { "fr": "Tapez votre **code**, s'il vous plaît.", "en": "Enter your PIN, please." },
+      { "fr": "J'ai oublié mon **code** !", "en": "I've forgotten my PIN!" },
+      { "fr": "Quel est le **code** de la porte ?", "en": "What's the door code?" }
+    ] },
+    { "id": "signature", "fr": "signature", "pos": "noun", "g": "f", "ipa": "si.ɲa.tyʁ", "en": "signature", "def": "Son nom écrit à la main, à sa façon, en bas d'un document.", "def_en": "Your name written by hand, in your own way, at the bottom of a document.", "forms": ["signatures"], "examples": [
+      { "fr": "Il manque votre **signature**, ici.", "en": "Your signature is missing, here." },
+      { "fr": "Sa **signature** est très jolie.", "en": "Her signature is very pretty." },
+      { "fr": "Je fais ma **signature** en bas de la page.", "en": "I sign at the bottom of the page." }
+    ], "note": "The verb: **signer** (to sign)." },
+    { "id": "timbre", "fr": "timbre", "pos": "noun", "g": "m", "ipa": "tɛ̃bʁ", "en": "stamp", "def": "La petite image qu'on met sur une lettre pour l'envoyer.", "def_en": "The little picture you put on a letter to send it.", "forms": ["timbres"], "examples": [
+      { "fr": "Il faut un **timbre** pour cette lettre.", "en": "This letter needs a stamp." },
+      { "fr": "Je voudrais dix **timbres**, s'il vous plaît.", "en": "I'd like ten stamps, please." },
+      { "fr": "Mon grand-père garde tous ses vieux **timbres**.", "en": "My grandfather keeps all his old stamps." }
+    ] },
+    { "id": "colis", "fr": "colis", "pos": "noun", "g": "m", "ipa": "kɔ.li", "en": "parcel, package", "def": "Un paquet qu'on envoie par la poste.", "def_en": "A package you send by post.", "examples": [
+      { "fr": "J'envoie un **colis** à ma sœur.", "en": "I'm sending a parcel to my sister." },
+      { "fr": "Le facteur apporte un **colis**.", "en": "The postman brings a parcel." },
+      { "fr": "Ce **colis** pèse deux kilos.", "en": "This parcel weighs two kilos." }
+    ], "note": "Same in the plural: *des colis*." },
+    { "id": "lettre", "fr": "lettre", "pos": "noun", "g": "f", "ipa": "lɛtʁ", "en": "letter", "def": "Un texte écrit sur du papier, qu'on envoie dans une enveloppe. Aussi : on écrit « Lou » avec trois lettres.", "def_en": "A text written on paper that you send in an envelope. Also: you write « Lou » with three letters.", "forms": ["lettres"], "examples": [
+      { "fr": "J'écris une **lettre** à mes grands-parents.", "en": "I'm writing a letter to my grandparents." },
+      { "fr": "Il y a une **lettre** pour toi !", "en": "There's a letter for you!" },
+      { "fr": "« Lou » a trois **lettres**.", "en": "'Lou' has three letters." }
+    ] },
+    { "id": "enveloppe", "fr": "enveloppe", "pos": "noun", "g": "f", "ipa": "ɑ̃v.lɔp", "en": "envelope", "def": "Le papier où on met une lettre pour l'envoyer.", "def_en": "The paper cover you put a letter in to send it.", "forms": ["enveloppes"], "examples": [
+      { "fr": "Je mets la lettre dans une **enveloppe**.", "en": "I put the letter in an envelope." },
+      { "fr": "Écris l'adresse sur l'**enveloppe**.", "en": "Write the address on the envelope." },
+      { "fr": "Il y a de l'argent dans cette **enveloppe** !", "en": "There's money in this envelope!" }
+    ] },
+    { "id": "boite-aux-lettres", "fr": "boîte aux lettres", "pos": "noun", "g": "f", "ipa": "bwat o lɛtʁ", "en": "letterbox, postbox, mailbox", "def": "La boîte où le facteur met le courrier. Aussi : la boîte jaune, dans la rue, pour envoyer ses lettres.", "def_en": "The box where the postman puts the mail. Also: the yellow box in the street for posting letters.", "forms": ["boîtes aux lettres"], "examples": [
+      { "fr": "Il y a une lettre dans la **boîte aux lettres**.", "en": "There's a letter in the letterbox." },
+      { "fr": "Je mets la carte dans la **boîte aux lettres** jaune.", "en": "I'm putting the card in the yellow postbox." },
+      { "fr": "Notre **boîte aux lettres** est pleine de publicités.", "en": "Our letterbox is full of adverts." }
+    ], "note": "In France, the postboxes in the street are **yellow**. For e-mail: **une boîte mail**." },
+    { "id": "courrier", "fr": "courrier", "pos": "noun", "g": "m", "ipa": "ku.ʁje", "en": "mail, post", "def": "Les lettres et les colis qu'on reçoit ou qu'on envoie.", "def_en": "The letters and parcels you receive or send.", "examples": [
+      { "fr": "Le **courrier** arrive à onze heures.", "en": "The post comes at eleven." },
+      { "fr": "Tu as regardé le **courrier** ?", "en": "Have you checked the mail?" },
+      { "fr": "Il n'y a pas de **courrier** le dimanche.", "en": "There's no post on Sundays." }
+    ] },
+    { "id": "recommande", "fr": "recommandé", "pos": "adj", "ipa": "ʁə.kɔ.mɑ̃.de", "en": "registered (en recommandé = by registered post)", "def": "Une lettre recommandée : la poste vérifie que la personne l'a bien reçue.", "def_en": "A registered letter: the post office makes sure the person really received it.", "forms": ["recommandée", "recommandés", "recommandées"], "examples": [
+      { "fr": "J'envoie ce dossier en **recommandé**.", "en": "I'm sending this file by registered post." },
+      { "fr": "Vous avez reçu une lettre **recommandée**.", "en": "You've received a registered letter." },
+      { "fr": "Un **recommandé** coûte plus cher.", "en": "A registered letter costs more." }
+    ], "note": "Also a noun: **un recommandé** = a registered letter." },
+    { "id": "destinataire", "fr": "destinataire", "pos": "noun", "g": "m", "both": true, "ipa": "dɛs.ti.na.tɛʁ", "display": "le / la destinataire", "en": "addressee, recipient", "def": "La personne qui reçoit la lettre ou le colis.", "def_en": "The person who receives the letter or the parcel.", "forms": ["destinataires"], "accept": ["la destinataire", "une destinataire"], "examples": [
+      { "fr": "Écrivez le nom du **destinataire** ici.", "en": "Write the addressee's name here." },
+      { "fr": "Le **destinataire** habite à Londres.", "en": "The addressee lives in London." },
+      { "fr": "Il y a trois **destinataires** dans ce mail.", "en": "There are three recipients on this e-mail." }
+    ] },
+    { "id": "expediteur", "fr": "expéditeur", "pos": "noun", "g": "m", "ipa": "ɛks.pe.di.tœʁ", "display": "l'expéditeur, l'expéditrice", "en": "sender", "def": "La personne qui envoie la lettre ou le colis.", "def_en": "The person who sends the letter or the parcel.", "forms": ["expéditrice", "expéditeurs", "expéditrices"], "accept": ["expéditrice", "l'expéditrice", "une expéditrice"], "examples": [
+      { "fr": "Le nom de l'**expéditeur** est au dos de l'enveloppe.", "en": "The sender's name is on the back of the envelope." },
+      { "fr": "Qui est l'**expéditeur** de ce colis ?", "en": "Who sent this parcel?" },
+      { "fr": "L'**expéditrice**, c'est ma grand-mère !", "en": "The sender is my grandmother!" }
+    ] },
+    { "id": "code-postal", "fr": "code postal", "pos": "noun", "g": "m", "ipa": "kɔd pɔs.tal", "en": "postcode, zip code", "def": "Les cinq chiffres de l'adresse qui montrent la ville : à Lyon, ils commencent par 69.", "def_en": "The five digits of the address that show the town: in Lyon, they start with 69.", "forms": ["codes postaux"], "examples": [
+      { "fr": "Quel est ton **code postal** ?", "en": "What's your postcode?" },
+      { "fr": "N'oublie pas le **code postal** sur l'enveloppe !", "en": "Don't forget the postcode on the envelope!" },
+      { "fr": "Le **code postal** de Paris commence par 75.", "en": "Paris postcodes start with 75." }
+    ] },
+    { "id": "tarif", "fr": "tarif", "pos": "noun", "g": "m", "ipa": "ta.ʁif", "en": "rate, price", "def": "Le prix qu'on paie pour un service : le tarif d'une lettre, d'un billet…", "def_en": "The price you pay for a service: the rate for a letter, a ticket…", "forms": ["tarifs"], "examples": [
+      { "fr": "Quel est le **tarif** pour l'Angleterre ?", "en": "What's the rate for England?" },
+      { "fr": "Il y a un **tarif** réduit pour les étudiants.", "en": "There's a reduced rate for students." },
+      { "fr": "Les **tarifs** augmentent en janvier.", "en": "Prices go up in January." }
+    ] },
+    { "id": "deposer", "fr": "déposer", "pos": "verb", "ipa": "de.po.ze", "en": "to drop off, to leave; to deposit (money)", "def": "Laisser une chose quelque part : déposer un colis, déposer de l'argent sur son compte.", "def_en": "To leave something somewhere: to drop off a parcel, to put money into your account.", "forms": ["dépose", "déposes", "déposons", "déposez", "déposent", "déposé", "déposée", "déposés", "déposées", "déposais", "déposait", "déposions", "déposiez", "déposaient", "déposerai", "déposeras", "déposera", "déposerons", "déposerez", "déposeront", "déposerais", "déposerait", "déposerions", "déposeriez", "déposeraient"], "examples": [
+      { "fr": "Je **dépose** un colis à la poste.", "en": "I'm dropping off a parcel at the post office." },
+      { "fr": "Tu peux me **déposer** à la gare ?", "en": "Can you drop me off at the station?" },
+      { "fr": "Il a **déposé** cent euros sur son compte.", "en": "He paid a hundred euros into his account." }
+    ] },
+    { "id": "chequier", "fr": "chéquier", "pos": "noun", "g": "m", "ipa": "ʃe.kje", "en": "chequebook", "def": "Le petit livre de chèques qu'on reçoit de la banque.", "def_en": "The little book of cheques you get from the bank.", "forms": ["chéquiers"], "examples": [
+      { "fr": "J'ai oublié mon **chéquier** à la maison.", "en": "I've left my chequebook at home." },
+      { "fr": "Mamie paie toujours avec son **chéquier**.", "en": "Grandma always pays with her chequebook." },
+      { "fr": "Je commande un nouveau **chéquier**.", "en": "I'm ordering a new chequebook." }
+    ] }
+  ],
+  "story": {
+    "title": "À la poste",
+    "en": "16 January: Tom sends a parcel to England, and Hugo finally pays Léa back.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le seize janvier, Tom et Hugo vont au bureau de poste. Il y a une longue file d'attente devant les guichets.", "en": "16 January: Tom and Hugo go to the post office. There's a long queue in front of the counters." },
+      { "sp": "Tom", "fr": "Je dépose un colis pour mon neveu, en Angleterre. C'est un pull pour bébé !", "en": "I'm sending a parcel to my nephew in England. It's a baby jumper!" },
+      { "sp": "Hugo", "fr": "Et moi, je vais au guichet de la banque. Pas besoin d'aller à mon agence : ici, à la poste, il y a aussi une banque !", "en": "And I'm going to the bank counter. No need to go to my branch: here at the post office, there's a bank too!" },
+      { "sp": "", "fr": "Au guichet, on pèse le colis de Tom.", "en": "At the counter, they weigh Tom's parcel." },
+      { "sp": "La guichetière", "fr": "Pour l'Angleterre, le tarif est de vingt euros. Vous voulez l'envoyer en recommandé ?", "en": "For England, the rate is twenty euros. Do you want to send it by registered post?" },
+      { "sp": "Tom", "fr": "Oui, s'il vous plaît. Le destinataire, c'est mon frère, et l'expéditeur, c'est moi.", "en": "Yes, please. The addressee is my brother, and the sender is me." },
+      { "sp": "La guichetière", "fr": "Écrivez l'adresse et le code postal sur le colis, ici.", "en": "Write the address and the postcode on the parcel, here." },
+      { "sp": "", "fr": "Tom achète aussi des timbres et une enveloppe, pour une lettre à ses parents.", "en": "Tom also buys some stamps and an envelope, for a letter to his parents." },
+      { "sp": "", "fr": "Pendant ce temps, au guichet de la banque, Hugo parle avec une conseillère.", "en": "Meanwhile, at the bank counter, Hugo is talking to an adviser." },
+      { "sp": "La conseillère", "fr": "Votre compte est à découvert, monsieur… depuis Noël.", "en": "Your account is overdrawn, sir… since Christmas." },
+      { "sp": "Hugo", "fr": "Oui, je sais. Mais j'ai mis de l'argent sur mon livret d'épargne : cent cinquante euros !", "en": "Yes, I know. But I've put some money in my savings account: a hundred and fifty euros!" },
+      { "sp": "La conseillère", "fr": "Très bien. Vous voulez les retirer ? Il faut votre code, ou une signature.", "en": "Very good. Do you want to take it out? I need your PIN, or a signature." },
+      { "sp": "", "fr": "Hugo fait sa signature. La conseillère lui donne cent cinquante euros… et dix centimes d'intérêts !", "en": "Hugo signs. The adviser gives him a hundred and fifty euros… and ten cents of interest!" },
+      { "sp": "Hugo", "fr": "Des intérêts ! Super, je suis riche !", "en": "Interest! Great, I'm rich!" },
+      { "sp": "La conseillère", "fr": "Vous voulez aussi un [prêt|pret-n], ou un chéquier ?", "en": "Would you also like a loan, or a chequebook?" },
+      { "sp": "Hugo", "fr": "Non merci ! Pas de [prêt|pret-n], et pas de chéquier : maintenant, je paie tout en espèces.", "en": "No thanks! No loan, and no chequebook: from now on, I pay for everything in cash." },
+      { "sp": "", "fr": "Hugo met les billets dans une enveloppe. Il écrit dessus : « Pour Léa, avec les intérêts ! »", "en": "Hugo puts the notes in an envelope. On it, he writes: 'For Léa, with interest!'" },
+      { "sp": "Tom", "fr": "Tu la mets dans la boîte aux lettres ?", "en": "Are you posting it?" },
+      { "sp": "Hugo", "fr": "Non ! Je la donne à Léa ce soir. Le courrier, c'est trop lent !", "en": "No! I'm giving it to Léa tonight. The post is too slow!" },
+      { "sp": "", "fr": "Le soir, Léa ouvre l'enveloppe et rit : Hugo a enfin rendu les cent cinquante euros… avec dix centimes d'intérêts !", "en": "That evening, Léa opens the envelope and laughs: Hugo has finally paid back the hundred and fifty euros… with ten cents of interest!" }
+    ]
+  }
+}

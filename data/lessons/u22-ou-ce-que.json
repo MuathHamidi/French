@@ -1,0 +1,152 @@
+{
+  "id": "u22-ou-ce-que",
+  "type": "grammar",
+  "unit": 22,
+  "title": "Où, ce qui, ce que",
+  "en": "Relative où; ce qui and ce que (what)",
+  "intro": "**où** joins a sentence about a **place** or a **time**: *la ville **où** j'habite*, *le jour **où** je suis né*. **ce qui** and **ce que** mean *what* in the sense of *the thing that*: ***Ce qui** me plaît, c'est le calme. Je ne sais pas **ce que** tu veux.*",
+  "cases": [
+    { "id": "ou-place", "label": "où for a place", "rule": "**où** replaces a place: *Lyon est la ville. J'habite à Lyon.* → *Lyon est la ville **où** j'habite.*" },
+    { "id": "ou-time", "label": "où for a time (when)", "rule": "**où** also replaces a moment, where English says *when*: *le jour **où** je t'ai rencontré*, *l'année **où** Lou est née*. After a word of time, never *quand*." },
+    { "id": "ce-qui", "label": "ce qui = what (+ verb)", "rule": "**ce qui** = *the thing that*, followed by a **verb**: ***Ce qui** me plaît, c'est le calme. Dis-moi **ce qui** ne va pas.*" },
+    { "id": "ce-que", "label": "ce que = what (+ subject)", "rule": "**ce que** = *the thing that*, followed by a **subject**: ***Ce que** je préfère, c'est le chocolat. Fais **ce que** tu veux.* Before a vowel: **ce qu'**." },
+    { "id": "tout-ce", "label": "tout ce qui, tout ce que = everything", "rule": "***Tout ce que** tu veux* = anything you want; ***tout ce qui** est ici* = everything that's here. *C'est **tout ce que** je sais* = that's all I know." },
+    { "id": "ce-indirect", "label": "asking indirectly: qu'est-ce que → ce que", "rule": "In a question inside a sentence, **qu'est-ce que** becomes **ce que**, and **qu'est-ce qui** becomes **ce qui**: *Qu'est-ce que tu veux ?* → *Je ne sais pas **ce que** tu veux.* *Qu'est-ce qui se passe ?* → *Dis-moi **ce qui** se passe.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. où for a place",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["la ville où j'habite", "the town where I live"],
+          ["le café où on se retrouve", "the café where we meet"],
+          ["la rue où Léa travaille", "the street where Léa works"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est la maison {où je suis né|ou-place}.", "en": "It's the house where I was born." },
+        { "fr": "Le café {où on se retrouve|ou-place} est en bas.", "en": "The café where we meet is downstairs." }
+      ]
+    },
+    {
+      "title": "2. où for a time",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["le jour où je t'ai rencontré", "the day (when) I met you"],
+          ["l'année où Lou est née", "the year (when) Lou was born"],
+          ["au moment où le téléphone a sonné", "just as the phone rang"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je me souviens du jour {où j'ai rencontré|ou-time} Sophie.", "en": "I remember the day I met Sophie." },
+        { "fr": "{Au moment où|ou-time} je suis sorti, il a commencé à pleuvoir.", "en": "Just as I went out, it started to rain." }
+      ],
+      "tip": "English says *the day **when***; French says *le jour **où***, never *quand*."
+    },
+    {
+      "title": "3. ce qui + verb",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Ce qui me plaît, c'est le calme.", "What I like is the peace and quiet."],
+          ["Ce qui est difficile, c'est la grammaire.", "What's hard is the grammar."],
+          ["Dis-moi ce qui ne va pas.", "Tell me what's wrong."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ce qui est bien|ce-qui}, c'est que tout est près.", "en": "What's good is that everything's close by." },
+        { "fr": "Je ne comprends pas {ce qui se passe|ce-qui}.", "en": "I don't understand what's happening." }
+      ]
+    },
+    {
+      "title": "4. ce que + subject",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Ce que je préfère, c'est le chocolat.", "What I like best is chocolate."],
+          ["Fais ce que tu veux.", "Do what you want."],
+          ["Fais ce qu'il dit.", "Do what he says."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ce que j'aime|ce-que} à Lyon, c'est la cuisine.", "en": "What I love about Lyon is the food." },
+        { "fr": "Tu as vu {ce qu'il a fait|ce-que} ?", "en": "Did you see what he did?" }
+      ],
+      "tip": "The same choice as **qui / que**: a verb after the gap → **ce qui**; a subject → **ce que**."
+    },
+    {
+      "title": "5. tout ce qui, tout ce que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Prends tout ce que tu veux.", "Take anything you want."],
+          ["Tout ce qui est ici est à moi !", "Everything here is mine!"],
+          ["C'est tout ce que je sais.", "That's all I know."]
+        ]
+      },
+      "examples": [
+        { "fr": "Merci pour {tout ce que|tout-ce} tu fais !", "en": "Thank you for everything you do!" },
+        { "fr": "{Tout ce qui|tout-ce} est dans le réfrigérateur est pour la fête.", "en": "Everything in the fridge is for the party." }
+      ]
+    },
+    {
+      "title": "6. Asking indirectly",
+      "table": {
+        "head": ["Direct question", "Inside a sentence"], "frCols": [0, 1],
+        "rows": [
+          ["Qu'est-ce que tu veux ?", "Je ne sais pas ce que tu veux."],
+          ["Qu'est-ce qui se passe ?", "Dis-moi ce qui se passe."],
+          ["Qu'est-ce qu'il fait ?", "Je me demande ce qu'il fait."]
+        ]
+      },
+      "examples": [
+        { "fr": "Explique-moi {ce que tu cherches|ce-indirect}.", "en": "Tell me what you're looking for." },
+        { "fr": "Je me demande {ce qui est arrivé|ce-indirect}.", "en": "I wonder what happened." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "le jour quand je suis né", "right": "le jour où je suis né", "why": "After a word of time, use **où**, not *quand*." },
+    { "wrong": "Je ne sais pas qu'est-ce que tu veux.", "right": "Je ne sais pas ce que tu veux.", "why": "Inside a sentence, **qu'est-ce que** becomes **ce que**." },
+    { "wrong": "Ce que me plaît, c'est le calme.", "right": "Ce qui me plaît, c'est le calme.", "why": "A verb comes next (**plaît**): use **ce qui**." },
+    { "wrong": "Prends tout que tu veux.", "right": "Prends tout ce que tu veux.", "why": "Don't forget **ce**: *tout **ce** que*." }
+  ],
+  "story": {
+    "title": "Les traboules",
+    "en": "1 February: Sophie shows Inès and Carla the secret passages of Vieux-Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le premier février, Sophie fait découvrir les traboules du Vieux-Lyon à Inès et Carla.", "en": "1 February: Sophie shows Inès and Carla the traboules of Vieux-Lyon." },
+      { "sp": "Sophie", "fr": "Voici la rue {où|ou-place} j'ai fait mon premier dessin d'architecture.", "en": "Here's the street where I did my first architecture drawing." },
+      { "sp": "Carla", "fr": "{Ce qui|ce-qui} est incroyable, ce sont ces vieilles maisons !", "en": "What's amazing is these old houses!" },
+      { "sp": "Sophie", "fr": "Attendez, vous allez voir {ce que|ce-que} les Lyonnais cachent ici…", "en": "Wait, you're going to see what the people of Lyon hide here…" },
+      { "sp": "", "fr": "Elle ouvre une vieille porte. Derrière, il y a un long couloir, puis une cour, puis une autre rue !", "en": "She opens an old door. Behind it there's a long passage, then a courtyard, then another street!" },
+      { "sp": "Sophie", "fr": "C'est une traboule : un passage secret {où|ou-place} on traverse les immeubles.", "en": "It's a traboule: a secret passage where you walk through the buildings." },
+      { "sp": "Inès", "fr": "Je ne savais pas {ce que|ce-indirect} c'était, une traboule !", "en": "I didn't know what a traboule was!" },
+      { "sp": "Sophie", "fr": "Autrefois, les gens les utilisaient pour aller vite d'une rue à l'autre, même sous la pluie.", "en": "In the old days, people used them to get quickly from one street to another, even in the rain." },
+      { "sp": "Carla", "fr": "{Ce que|ce-que} j'aime, c'est le mystère ! On ne sait jamais {ce qui|ce-indirect} est derrière une porte.", "en": "What I love is the mystery! You never know what's behind a door." },
+      { "sp": "", "fr": "Elles passent par cinq traboules. {Au moment où|ou-time} elles sortent de la dernière, elles voient la cathédrale Saint-Jean.", "en": "They go through five traboules. Just as they come out of the last one, they see Saint-Jean cathedral." },
+      { "sp": "Inès", "fr": "Je me souviens du jour {où|ou-time} je suis arrivée à Lyon : il pleuvait, et je me suis perdue ici !", "en": "I remember the day I arrived in Lyon: it was raining, and I got lost right here!" },
+      { "sp": "Sophie", "fr": "Maintenant, tu connais {tout ce qu'il faut|tout-ce} savoir sur le Vieux-Lyon !", "en": "Now you know everything there is to know about Vieux-Lyon!" },
+      { "sp": "Carla", "fr": "Pas tout ! {Ce que|ce-que} je veux savoir, c'est où on va manger !", "en": "Not everything! What I want to know is where we're going to eat!" },
+      { "sp": "", "fr": "Sophie rit et les emmène dans un bouchon, un petit restaurant lyonnais {où|ou-place} on mange très bien.", "en": "Sophie laughs and takes them to a bouchon, a little Lyon restaurant where the food is very good." },
+      { "sp": "Inès", "fr": "{Tout ce qui|tout-ce} est sur la carte a l'air délicieux !", "en": "Everything on the menu looks delicious!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ou-place", "type": "mc", "q": "C'est la ville ___ j'habite.", "en": "It's the town where I live.", "options": ["où", "que", "qui"], "answer": "où" },
+    { "case": "ou-place", "type": "type", "q": "Le café ___ on se retrouve est en bas.", "en": "The café where we meet is downstairs.", "answer": "où" },
+    { "case": "ou-time", "type": "mc", "q": "Je me souviens du jour ___ je t'ai rencontré.", "en": "I remember the day I met you.", "options": ["où", "quand", "que"], "answer": "où" },
+    { "case": "ou-time", "type": "mc", "lang": "en", "q": "« l'année où Lou est née » means…", "options": ["the year when Lou was born", "the place where Lou was born", "the year Lou will be born"], "answer": "the year when Lou was born", "say": "l'année où Lou est née" },
+    { "case": "ce-qui", "type": "mc", "q": "___ me plaît, c'est le calme.", "en": "What I like is the peace and quiet.", "options": ["Ce qui", "Ce que", "Qu'est-ce qui"], "answer": "Ce qui" },
+    { "case": "ce-qui", "type": "type", "q": "Dis-moi ___ ne va pas.", "en": "Tell me what's wrong.", "answer": "ce qui" },
+    { "case": "ce-que", "type": "mc", "q": "___ je préfère, c'est le chocolat.", "en": "What I like best is chocolate.", "options": ["Ce que", "Ce qui", "Que"], "answer": "Ce que" },
+    { "case": "ce-que", "type": "type", "q": "Fais ___ tu veux !", "en": "Do what you want!", "answer": "ce que" },
+    { "case": "tout-ce", "type": "mc", "q": "Prends ___ tu veux.", "en": "Take anything you want.", "options": ["tout ce que", "tout que", "tout ce qui"], "answer": "tout ce que" },
+    { "case": "tout-ce", "type": "mc", "q": "___ est dans le réfrigérateur est pour la fête.", "en": "Everything in the fridge is for the party.", "options": ["Tout ce qui", "Tout ce que", "Tout qui"], "answer": "Tout ce qui" },
+    { "case": "ce-indirect", "type": "mc", "q": "Je ne sais pas ___ tu veux.", "en": "I don't know what you want.", "options": ["ce que", "qu'est-ce que", "quoi que"], "answer": "ce que" },
+    { "case": "ce-indirect", "type": "mc", "lang": "en", "q": "« Qu'est-ce qui se passe ? » inside a sentence becomes…", "options": ["Dis-moi ce qui se passe.", "Dis-moi qu'est-ce qui se passe."], "answer": "Dis-moi ce qui se passe.", "say": "Dis-moi ce qui se passe." }
+  ]
+}

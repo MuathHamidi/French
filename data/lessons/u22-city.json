@@ -1,0 +1,161 @@
+{
+  "id": "u22-city",
+  "type": "vocab",
+  "unit": 22,
+  "title": "La ville (2)",
+  "en": "The town (2)",
+  "intro": "25 more words for the town: pavements and pedestrian crossings, benches and street lamps, fountains and statues, traffic and roadworks. A big French city has an **hôtel de ville**; a small town has a **mairie**.",
+  "words": [
+    { "id": "trottoir", "fr": "trottoir", "pos": "noun", "g": "m", "ipa": "tʁɔ.twaʁ", "en": "pavement, sidewalk", "def": "Le bord de la rue, un peu plus haut, où marchent les piétons.", "def_en": "The raised edge of the street, where pedestrians walk.", "forms": ["trottoirs"], "examples": [
+      { "fr": "Marche sur le **trottoir**, Lou !", "en": "Walk on the pavement, Lou!" },
+      { "fr": "Les **trottoirs** sont très étroits ici.", "en": "The pavements are very narrow here." },
+      { "fr": "Une voiture est garée sur le **trottoir**.", "en": "A car is parked on the pavement." }
+    ] },
+    { "id": "immeuble", "fr": "immeuble", "pos": "noun", "g": "m", "ipa": "i.mœbl", "en": "block of flats, building", "def": "Un grand bâtiment avec beaucoup d'appartements.", "def_en": "A big building with lots of flats.", "forms": ["immeubles"], "examples": [
+      { "fr": "J'habite au troisième étage de cet **immeuble**.", "en": "I live on the third floor of this building." },
+      { "fr": "Il y a cinquante appartements dans l'**immeuble**.", "en": "There are fifty flats in the building." },
+      { "fr": "Les **immeubles** sont très hauts dans ce quartier.", "en": "The buildings are very tall in this neighbourhood." }
+    ] },
+    { "id": "panneau", "fr": "panneau", "pos": "noun", "g": "m", "ipa": "pa.no", "en": "sign, road sign; board", "def": "Un objet dans la rue, avec des mots ou des dessins, pour donner une information : « Stop », « Parking »…", "def_en": "A thing in the street with words or pictures that gives information: 'Stop', 'Car park'…", "forms": ["panneaux"], "examples": [
+      { "fr": "Regarde le **panneau** : c'est à gauche.", "en": "Look at the sign: it's on the left." },
+      { "fr": "Il y a un **panneau** « Stop » au carrefour.", "en": "There's a stop sign at the crossroads." },
+      { "fr": "Je ne comprends pas tous les **panneaux**.", "en": "I don't understand all the signs." }
+    ], "note": "Plural: **des panneaux**." },
+    { "id": "rond-point", "fr": "rond-point", "pos": "noun", "g": "m", "ipa": "ʁɔ̃.pwɛ̃", "en": "roundabout, traffic circle", "def": "Un carrefour rond : les voitures tournent autour.", "def_en": "A round crossroads: the cars go round it.", "forms": ["ronds-points"], "examples": [
+      { "fr": "Au **rond-point**, prenez la deuxième rue.", "en": "At the roundabout, take the second exit." },
+      { "fr": "Il y a des fleurs au milieu du **rond-point**.", "en": "There are flowers in the middle of the roundabout." },
+      { "fr": "La France a beaucoup de **ronds-points** !", "en": "France has lots of roundabouts!" }
+    ] },
+    { "id": "monument", "fr": "monument", "pos": "noun", "g": "m", "ipa": "mɔ.ny.mɑ̃", "en": "monument, historic building", "def": "Un bâtiment ou une statue célèbre et ancienne : la tour Eiffel, une cathédrale…", "def_en": "A famous old building or statue: the Eiffel Tower, a cathedral…", "forms": ["monuments"], "examples": [
+      { "fr": "On visite les **monuments** de Paris.", "en": "We're visiting the monuments of Paris." },
+      { "fr": "C'est le **monument** le plus célèbre de la ville.", "en": "It's the most famous monument in the town." },
+      { "fr": "Ce **monument** a cinq cents ans.", "en": "This monument is five hundred years old." }
+    ] },
+    { "id": "batiment", "fr": "bâtiment", "pos": "noun", "g": "m", "ipa": "bɑ.ti.mɑ̃", "en": "building", "def": "Ce qu'on construit pour y habiter ou pour y travailler : une maison, une école, une usine…", "def_en": "What you build to live or work in: a house, a school, a factory…", "forms": ["bâtiments"], "examples": [
+      { "fr": "L'école est dans un vieux **bâtiment**.", "en": "The school is in an old building." },
+      { "fr": "Le grand **bâtiment**, à droite, c'est la bibliothèque.", "en": "The big building on the right is the library." },
+      { "fr": "Sophie dessine des **bâtiments** modernes.", "en": "Sophie draws modern buildings." }
+    ] },
+    { "id": "habitant", "fr": "habitant", "pos": "noun", "g": "m", "ipa": "a.bi.tɑ̃", "display": "l'habitant, l'habitante", "en": "inhabitant, resident (les habitants = the people who live there)", "def": "Une personne qui habite dans une ville, dans un quartier ou dans un pays.", "def_en": "Someone who lives in a town, a neighbourhood or a country.", "forms": ["habitante", "habitants", "habitantes"], "accept": ["habitante", "l'habitante", "une habitante"], "examples": [
+      { "fr": "Lyon a plus de cinq cent mille **habitants**.", "en": "Lyon has more than five hundred thousand inhabitants." },
+      { "fr": "Les **habitants** du quartier sont sympas.", "en": "The people who live in the neighbourhood are nice." },
+      { "fr": "Je suis une **habitante** de Lyon depuis un an.", "en": "I've lived in Lyon for a year." }
+    ] },
+    { "id": "commissariat", "fr": "commissariat", "pos": "noun", "g": "m", "ipa": "kɔ.mi.sa.ʁja", "en": "police station", "def": "Le bâtiment de la police.", "def_en": "The police building.", "forms": ["commissariats"], "examples": [
+      { "fr": "Où est le **commissariat** le plus proche ?", "en": "Where's the nearest police station?" },
+      { "fr": "Il va au **commissariat** parce qu'on a volé son vélo.", "en": "He's going to the police station because his bike has been stolen." },
+      { "fr": "Le **commissariat** est ouvert la nuit.", "en": "The police station is open at night." }
+    ] },
+    { "id": "pieton", "fr": "piéton", "pos": "noun", "g": "m", "ipa": "pje.tɔ̃", "display": "le piéton, la piétonne", "en": "pedestrian", "def": "Une personne qui marche dans la rue, pas en voiture.", "def_en": "A person walking in the street, not in a car.", "forms": ["piétonne", "piétons", "piétonnes"], "accept": ["piétonne", "la piétonne", "une piétonne"], "examples": [
+      { "fr": "Attention aux **piétons** !", "en": "Watch out for pedestrians!" },
+      { "fr": "Cette rue est **piétonne** : pas de voitures.", "en": "This street is pedestrianised: no cars." },
+      { "fr": "Les **piétons** attendent le feu vert.", "en": "The pedestrians are waiting for the green light." }
+    ], "note": "**une rue piétonne** = a pedestrian street." },
+    { "id": "passage-pieton", "fr": "passage piéton", "pos": "noun", "g": "m", "ipa": "pa.saʒ pje.tɔ̃", "en": "pedestrian crossing, zebra crossing", "def": "Les lignes blanches sur la rue, où les piétons traversent.", "def_en": "The white lines on the road where pedestrians cross.", "forms": ["passages piétons"], "examples": [
+      { "fr": "Traverse sur le **passage piéton** !", "en": "Cross at the zebra crossing!" },
+      { "fr": "La voiture s'arrête devant le **passage piéton**.", "en": "The car stops at the pedestrian crossing." },
+      { "fr": "Il n'y a pas de **passage piéton** ici.", "en": "There's no pedestrian crossing here." }
+    ] },
+    { "id": "parking", "fr": "parking", "pos": "noun", "g": "m", "ipa": "paʁ.kiŋ", "en": "car park, parking lot", "def": "Un endroit où on laisse sa voiture.", "def_en": "A place where you leave your car.", "forms": ["parkings"], "examples": [
+      { "fr": "Le **parking** du supermarché est plein.", "en": "The supermarket car park is full." },
+      { "fr": "Il y a un **parking** sous la place.", "en": "There's a car park under the square." },
+      { "fr": "Le **parking** coûte deux euros l'heure.", "en": "The car park costs two euros an hour." }
+    ], "note": "An English word, but in French it means the *place*, not the action: to park = **se garer**." },
+    { "id": "fontaine", "fr": "fontaine", "pos": "noun", "g": "f", "ipa": "fɔ̃.tɛn", "en": "fountain", "def": "Un monument sur une place, avec de l'eau qui coule.", "def_en": "A monument in a square, with running water.", "forms": ["fontaines"], "examples": [
+      { "fr": "Les enfants jouent près de la **fontaine**.", "en": "The children are playing near the fountain." },
+      { "fr": "Il y a une belle **fontaine** sur la place.", "en": "There's a beautiful fountain in the square." },
+      { "fr": "En hiver, la **fontaine** ne fonctionne pas.", "en": "In winter, the fountain doesn't work." }
+    ] },
+    { "id": "statue", "fr": "statue", "pos": "noun", "g": "f", "ipa": "sta.ty", "en": "statue", "def": "Une personne ou un animal en pierre ou en métal, sur une place ou dans un musée.", "def_en": "A person or an animal made of stone or metal, in a square or a museum.", "forms": ["statues"], "examples": [
+      { "fr": "Il y a une **statue** de Victor Hugo dans le parc.", "en": "There's a statue of Victor Hugo in the park." },
+      { "fr": "Les pigeons sont sur la tête de la **statue** !", "en": "The pigeons are on the statue's head!" },
+      { "fr": "Cette **statue** est en [bronze|bronze].", "en": "This statue is made of bronze." }
+    ] },
+    { "id": "banc", "fr": "banc", "pos": "noun", "g": "m", "ipa": "bɑ̃", "en": "bench", "def": "Une longue chaise pour plusieurs personnes, dans un parc ou dans la rue.", "def_en": "A long seat for several people, in a park or in the street.", "forms": ["bancs"], "examples": [
+      { "fr": "On s'assoit sur un **banc** ?", "en": "Shall we sit on a bench?" },
+      { "fr": "Mamie lit son journal sur un **banc**.", "en": "Grandma reads her paper on a bench." },
+      { "fr": "Tous les **bancs** du parc sont mouillés.", "en": "All the benches in the park are wet." }
+    ], "note": "The **c** is silent: /bɑ̃/." },
+    { "id": "lampadaire", "fr": "lampadaire", "pos": "noun", "g": "m", "ipa": "lɑ̃.pa.dɛʁ", "en": "street lamp, lamppost", "def": "La grande lampe dans la rue, qui s'allume le soir.", "def_en": "The tall lamp in the street that comes on in the evening.", "forms": ["lampadaires"], "examples": [
+      { "fr": "Les **lampadaires** s'allument à six heures.", "en": "The street lamps come on at six." },
+      { "fr": "Le vélo est attaché au **lampadaire**.", "en": "The bike is chained to the lamppost." },
+      { "fr": "Ce **lampadaire** ne fonctionne plus.", "en": "This street lamp doesn't work any more." }
+    ] },
+    { "id": "banlieue", "fr": "banlieue", "pos": "noun", "g": "f", "ipa": "bɑ̃.ljø", "en": "suburbs, outskirts", "def": "Les villes et les quartiers autour d'une grande ville.", "def_en": "The towns and neighbourhoods around a big city.", "forms": ["banlieues"], "examples": [
+      { "fr": "Il habite en **banlieue**, et il travaille à Lyon.", "en": "He lives in the suburbs and works in Lyon." },
+      { "fr": "Villeurbanne est dans la **banlieue** de Lyon.", "en": "Villeurbanne is in the suburbs of Lyon." },
+      { "fr": "Les loyers sont moins chers en **banlieue**.", "en": "Rents are cheaper in the suburbs." }
+    ], "note": "**en banlieue** = in the suburbs." },
+    { "id": "avenue", "fr": "avenue", "pos": "noun", "g": "f", "ipa": "av.ny", "en": "avenue", "def": "Une grande rue large, souvent avec des arbres.", "def_en": "A big, wide street, often lined with trees.", "forms": ["avenues"], "examples": [
+      { "fr": "L'hôtel est sur l'**avenue** principale.", "en": "The hotel is on the main avenue." },
+      { "fr": "Les Champs-Élysées sont une **avenue** célèbre.", "en": "The Champs-Élysées is a famous avenue." },
+      { "fr": "Il y a des arbres tout le long de l'**avenue**.", "en": "There are trees all along the avenue." }
+    ] },
+    { "id": "boulevard", "fr": "boulevard", "pos": "noun", "g": "m", "ipa": "bul.vaʁ", "en": "boulevard", "def": "Une très grande rue, avec beaucoup de circulation.", "def_en": "A very big street with a lot of traffic.", "forms": ["boulevards"], "examples": [
+      { "fr": "Le **boulevard** est très bruyant.", "en": "The boulevard is very noisy." },
+      { "fr": "Prenez le **boulevard** jusqu'au rond-point.", "en": "Take the boulevard as far as the roundabout." },
+      { "fr": "Il y a des cafés sur le **boulevard**.", "en": "There are cafés on the boulevard." }
+    ] },
+    { "id": "ruelle", "fr": "ruelle", "pos": "noun", "g": "f", "ipa": "ʁɥɛl", "en": "alley, lane", "def": "Une petite rue étroite.", "def_en": "A small, narrow street.", "forms": ["ruelles"], "examples": [
+      { "fr": "Le Vieux-Lyon est plein de **ruelles**.", "en": "Vieux-Lyon is full of little lanes." },
+      { "fr": "On se perd facilement dans ces **ruelles**.", "en": "It's easy to get lost in these alleys." },
+      { "fr": "La boulangerie est au fond de la **ruelle**.", "en": "The bakery is at the end of the lane." }
+    ], "note": "From **rue** + the small-word ending **-elle**." },
+    { "id": "kiosque", "fr": "kiosque", "pos": "noun", "g": "m", "ipa": "kjɔsk", "en": "kiosk, newsstand", "def": "Une petite boutique dans la rue, où on vend des journaux.", "def_en": "A small shop in the street that sells newspapers.", "forms": ["kiosques"], "examples": [
+      { "fr": "J'achète le journal au **kiosque**.", "en": "I buy the paper at the newsstand." },
+      { "fr": "Le **kiosque** est à côté de la fontaine.", "en": "The kiosk is next to the fountain." },
+      { "fr": "Il y a un **kiosque** à musique dans le parc.", "en": "There's a bandstand in the park." }
+    ], "note": "**un kiosque à journaux** = a newsstand; **un kiosque à musique** = a bandstand." },
+    { "id": "pigeon", "fr": "pigeon", "pos": "noun", "g": "m", "ipa": "pi.ʒɔ̃", "en": "pigeon", "def": "Un oiseau gris qui habite dans les villes.", "def_en": "A grey bird that lives in towns.", "forms": ["pigeons"], "examples": [
+      { "fr": "Il y a des **pigeons** partout sur la place.", "en": "There are pigeons all over the square." },
+      { "fr": "Lou court après les **pigeons**.", "en": "Lou runs after the pigeons." },
+      { "fr": "Ne donne pas de pain aux **pigeons** !", "en": "Don't feed the pigeons bread!" }
+    ] },
+    { "id": "en-travaux", "fr": "en travaux", "pos": "expr", "ipa": "ɑ̃ tʁa.vo", "en": "under construction, being repaired; (a road) dug up", "def": "Quand on répare ou qu'on construit quelque chose : la rue est en travaux.", "def_en": "When something is being repaired or built: the road is being dug up.", "examples": [
+      { "fr": "La gare est **en travaux** jusqu'en mars.", "en": "The station is being renovated until March." },
+      { "fr": "Notre rue est **en travaux** : il y a du bruit tout le temps.", "en": "Our street is being dug up: it's noisy all the time." },
+      { "fr": "L'ascenseur est **en travaux**.", "en": "The lift is being repaired." }
+    ], "note": "**les travaux** = building work, roadworks: the plural of **le travail**." },
+    { "id": "circulation", "fr": "circulation", "pos": "noun", "g": "f", "ipa": "siʁ.ky.la.sjɔ̃", "en": "traffic", "def": "Les voitures, les bus et les vélos qui roulent dans les rues.", "def_en": "The cars, buses and bikes moving along the streets.", "examples": [
+      { "fr": "Il y a beaucoup de **circulation** le matin.", "en": "There's a lot of traffic in the morning." },
+      { "fr": "La **circulation** est difficile à cause des travaux.", "en": "Traffic is bad because of the roadworks." },
+      { "fr": "Le centre est fermé à la **circulation** le dimanche.", "en": "The centre is closed to traffic on Sundays." }
+    ] },
+    { "id": "se-garer", "fr": "se garer", "pos": "verb", "ipa": "sə ɡa.ʁe", "en": "to park", "def": "Mettre sa voiture à un endroit et la laisser là.", "def_en": "To put your car somewhere and leave it there.", "forms": ["me gare", "te gares", "se gare", "nous nous garons", "vous vous garez", "se garent", "gare-toi", "garez-vous", "me garer", "te garer", "nous garer", "vous garer", "garé", "garée", "garés", "garées", "me suis garé", "me suis garée", "t'es garé", "t'es garée", "s'est garé", "s'est garée", "nous sommes garés", "vous êtes garés", "se sont garés", "se sont garées", "me garais", "te garais", "se garait", "nous nous garions", "vous vous gariez", "se garaient", "me garerai", "te gareras", "se garera", "nous nous garerons", "vous vous garerez", "se gareront", "me garerais", "te garerais", "se garerait", "nous nous garerions", "vous vous gareriez", "se gareraient"], "examples": [
+      { "fr": "Je ne trouve pas d'endroit pour **me garer**.", "en": "I can't find anywhere to park." },
+      { "fr": "Il **se gare** devant la boulangerie.", "en": "He parks in front of the bakery." },
+      { "fr": "Où est-ce que tu t'es **garé** ?", "en": "Where did you park?" }
+    ], "note": "Not the noun **la gare** (the station)!" },
+    { "id": "hotel-de-ville", "fr": "hôtel de ville", "pos": "noun", "g": "m", "ipa": "o.tɛl də vil", "en": "town hall, city hall (in a big city)", "def": "La grande mairie d'une ville : à Lyon, elle est sur la place des Terreaux.", "def_en": "The main town hall of a city: in Lyon, it's on the place des Terreaux.", "forms": ["hôtels de ville"], "examples": [
+      { "fr": "L'**hôtel de ville** de Paris est magnifique.", "en": "Paris city hall is magnificent." },
+      { "fr": "Il y a une fête devant l'**hôtel de ville**.", "en": "There's a celebration in front of the town hall." },
+      { "fr": "Ils se sont mariés à l'**hôtel de ville**.", "en": "They got married at the town hall." }
+    ], "note": "Not a hotel! In a small town, it's called **la mairie**." }
+  ],
+  "story": {
+    "title": "Place des Terreaux",
+    "en": "Late January: Sophie draws a square in Lyon for her architecture school… and helps the police.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vingt-sept janvier. Pour l'école d'architecture, Sophie doit dessiner une place de Lyon.", "en": "27 January. For architecture school, Sophie has to draw a square in Lyon." },
+      { "sp": "", "fr": "Elle choisit la place des Terreaux, devant l'hôtel de ville. Léa vient avec elle.", "en": "She chooses the place des Terreaux, in front of the town hall. Léa comes with her." },
+      { "sp": "", "fr": "Elles s'assoient sur un banc, à côté de la fontaine. Il y a des pigeons partout.", "en": "They sit down on a bench, next to the fountain. There are pigeons everywhere." },
+      { "sp": "Léa", "fr": "Elle est belle, cette fontaine ! Et la statue, au milieu ?", "en": "This fountain is beautiful! And the statue in the middle?" },
+      { "sp": "Sophie", "fr": "C'est un monument célèbre. Il est de Bartholdi : c'est aussi lui qui a fait la statue de la Liberté, à New York !", "en": "It's a famous monument. It's by Bartholdi: he's also the one who made the Statue of Liberty, in New York!" },
+      { "sp": "", "fr": "Sophie dessine : l'hôtel de ville, un vieux bâtiment, les immeubles, les lampadaires, le kiosque à journaux…", "en": "Sophie draws: the town hall, an old building, the blocks of flats, the street lamps, the newspaper kiosk…" },
+      { "sp": "Léa", "fr": "Tu dessines aussi les habitants ? Regarde ce monsieur avec son chien !", "en": "Are you drawing the locals too? Look at that man with his dog!" },
+      { "sp": "", "fr": "Mais la place n'est pas calme : le boulevard à côté est en travaux, et il y a beaucoup de circulation.", "en": "But the square isn't quiet: the boulevard next to it is being dug up, and there's a lot of traffic." },
+      { "sp": "", "fr": "Tout à coup, une voiture se gare sur le trottoir, devant le passage piéton. Les piétons ne peuvent plus passer !", "en": "Suddenly, a car parks on the pavement, in front of the pedestrian crossing. The pedestrians can't get past!" },
+      { "sp": "Léa", "fr": "Il y a un parking juste à côté… Et le panneau est clair : interdit aux voitures !", "en": "There's a car park right next door… And the sign is clear: no cars allowed!" },
+      { "sp": "", "fr": "Un policier arrive. Le conducteur part à toute vitesse et disparaît au rond-point.", "en": "A police officer arrives. The driver speeds off and disappears at the roundabout." },
+      { "sp": "Le policier", "fr": "Bonjour ! Vous avez vu cette voiture ?", "en": "Hello! Did you see that car?" },
+      { "sp": "Sophie", "fr": "Oui… et je l'ai même dessinée !", "en": "Yes… and I even drew it!" },
+      { "sp": "", "fr": "Sophie montre son dessin. On voit la voiture sur le trottoir… et son numéro !", "en": "Sophie shows her drawing. You can see the car on the pavement… and its number plate!" },
+      { "sp": "Le policier", "fr": "Bravo, mademoiselle ! Vous pouvez venir au commissariat avec ce dessin ?", "en": "Well done, miss! Could you come to the police station with this drawing?" },
+      { "sp": "", "fr": "Une heure plus tard, au commissariat, tout le monde regarde le dessin de Sophie.", "en": "An hour later, at the police station, everyone is looking at Sophie's drawing." },
+      { "sp": "Le policier", "fr": "Merci ! Grâce à vous, on a trouvé la voiture : elle est en banlieue.", "en": "Thank you! Thanks to you, we've found the car: it's in the suburbs." },
+      { "sp": "Léa", "fr": "Tu vois, avec l'architecture, on peut tout faire… même aider les policiers !", "en": "You see, with architecture you can do anything… even help the police!" },
+      { "sp": "", "fr": "Le soir, Léa et Sophie rentrent à pied par l'avenue, puis par les petites ruelles du centre.", "en": "In the evening, Léa and Sophie walk home along the avenue, then through the little lanes of the centre." }
+    ]
+  }
+}

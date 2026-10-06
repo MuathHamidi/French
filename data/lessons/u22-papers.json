@@ -1,0 +1,161 @@
+{
+  "id": "u22-papers",
+  "type": "vocab",
+  "unit": 22,
+  "title": "Les papiers",
+  "en": "Paperwork",
+  "intro": "25 words for French paperwork: forms, copies, proofs of address, appointments at the town hall… In France, *les papiers* are your identity documents, and getting them often means filling in a **formulaire** and bringing a **justificatif**.",
+  "words": [
+    { "id": "papier", "fr": "papier", "pos": "noun", "g": "m", "ipa": "pa.pje", "en": "paper; (les papiers) identity papers, documents", "def": "Ce qu'on utilise pour écrire ou pour dessiner. Au pluriel, les papiers : la carte d'identité, le passeport…", "def_en": "What you write or draw on. In the plural, papers: your identity card, passport…", "forms": ["papiers"], "examples": [
+      { "fr": "Je n'ai plus de **papier** pour l'imprimante.", "en": "I've run out of paper for the printer." },
+      { "fr": "Vos **papiers**, s'il vous plaît !", "en": "Your papers, please!" },
+      { "fr": "Range tes **papiers** dans le tiroir.", "en": "Put your documents away in the drawer." }
+    ] },
+    { "id": "document", "fr": "document", "pos": "noun", "g": "m", "ipa": "dɔ.ky.mɑ̃", "en": "document", "def": "Un papier important : une facture, une carte d'identité, une attestation…", "def_en": "An important paper: a bill, an identity card, a certificate…", "forms": ["documents"], "examples": [
+      { "fr": "Apportez tous vos **documents**.", "en": "Bring all your documents." },
+      { "fr": "Il manque un **document** dans le dossier.", "en": "A document is missing from the file." },
+      { "fr": "J'envoie le **document** par mail.", "en": "I'm sending the document by e-mail." }
+    ] },
+    { "id": "formulaire", "fr": "formulaire", "pos": "noun", "g": "m", "ipa": "fɔʁ.my.lɛʁ", "en": "form (to fill in)", "def": "Un papier avec des questions, qu'on remplit pour une demande.", "def_en": "A paper with questions that you fill in to apply for something.", "forms": ["formulaires"], "examples": [
+      { "fr": "Remplissez ce **formulaire**, s'il vous plaît.", "en": "Please fill in this form." },
+      { "fr": "Le **formulaire** est sur internet.", "en": "The form is online." },
+      { "fr": "J'ai fait une erreur sur le **formulaire**.", "en": "I made a mistake on the form." }
+    ] },
+    { "id": "copie", "fr": "copie", "pos": "noun", "g": "f", "ipa": "kɔ.pi", "en": "copy", "def": "Un document qui est pareil qu'un autre.", "def_en": "A document that's the same as another one.", "forms": ["copies"], "examples": [
+      { "fr": "Gardez une **copie** de votre demande.", "en": "Keep a copy of your application." },
+      { "fr": "Je fais une **copie** de mon passeport.", "en": "I'm making a copy of my passport." },
+      { "fr": "Ce n'est pas l'original, c'est une **copie**.", "en": "It's not the original, it's a copy." }
+    ], "note": "At school, **une copie** is also a pupil's written work." },
+    { "id": "photocopie", "fr": "photocopie", "pos": "noun", "g": "f", "ipa": "fɔ.tɔ.kɔ.pi", "en": "photocopy", "def": "Une copie faite par une machine.", "def_en": "A copy made by a machine.", "forms": ["photocopies"], "examples": [
+      { "fr": "Une **photocopie** de la facture, ça va ?", "en": "Is a photocopy of the bill OK?" },
+      { "fr": "Je fais dix **photocopies** pour la réunion.", "en": "I'm making ten photocopies for the meeting." },
+      { "fr": "La **photocopie** n'est pas claire.", "en": "The photocopy isn't clear." }
+    ] },
+    { "id": "attestation", "fr": "attestation", "pos": "noun", "g": "f", "ipa": "a.tɛs.ta.sjɔ̃", "en": "certificate, official statement", "def": "Un document qui dit qu'une chose est vraie, par exemple que vous habitez à cette adresse.", "def_en": "A document that says something is true, for example that you live at this address.", "forms": ["attestations"], "examples": [
+      { "fr": "Mon patron m'a donné une **attestation** de travail.", "en": "My boss gave me a certificate of employment." },
+      { "fr": "Il faut une **attestation** de l'école.", "en": "You need a certificate from the school." },
+      { "fr": "Je signe l'**attestation** en bas.", "en": "I sign the statement at the bottom." }
+    ] },
+    { "id": "justificatif", "fr": "justificatif", "pos": "noun", "g": "m", "ipa": "ʒys.ti.fi.ka.tif", "en": "proof, supporting document", "def": "Un document qui montre qu'une chose est vraie : une facture pour l'adresse, par exemple.", "def_en": "A document that shows something is true: a bill for your address, for example.", "forms": ["justificatifs"], "examples": [
+      { "fr": "Vous avez un **justificatif** de domicile ?", "en": "Do you have proof of address?" },
+      { "fr": "Gardez tous les **justificatifs** de vos achats.", "en": "Keep all the receipts for your purchases." },
+      { "fr": "Une facture d'électricité est un bon **justificatif**.", "en": "An electricity bill is good proof." }
+    ], "note": "**un justificatif de domicile** = proof of address (usually a recent bill)." },
+    { "id": "domicile", "fr": "domicile", "pos": "noun", "g": "m", "ipa": "dɔ.mi.sil", "en": "home, address (on official papers)", "def": "L'endroit où on habite, dans les documents officiels.", "def_en": "The place where you live, on official documents.", "forms": ["domiciles"], "examples": [
+      { "fr": "Quelle est votre adresse de **domicile** ?", "en": "What's your home address?" },
+      { "fr": "Le médecin vient à **domicile**.", "en": "The doctor makes home visits." },
+      { "fr": "Il a changé de **domicile**.", "en": "He's moved house." }
+    ], "note": "**à domicile** = at home: *livraison à domicile* = home delivery." },
+    { "id": "mairie", "fr": "mairie", "pos": "noun", "g": "f", "ipa": "mɛ.ʁi", "en": "town hall", "def": "Le bâtiment de la ville où on fait ses papiers : la carte d'identité, le passeport…", "def_en": "The town building where you get your papers done: your identity card, your passport…", "forms": ["mairies"], "examples": [
+      { "fr": "J'ai rendez-vous à la **mairie** à dix heures.", "en": "I have an appointment at the town hall at ten." },
+      { "fr": "La **mairie** est sur la place.", "en": "The town hall is on the square." },
+      { "fr": "Ils se sont mariés à la **mairie**.", "en": "They got married at the town hall." }
+    ], "note": "In big cities: **l'hôtel de ville**. The mayor is **le maire**." },
+    { "id": "prefecture", "fr": "préfecture", "pos": "noun", "g": "f", "ipa": "pʁe.fɛk.tyʁ", "en": "prefecture (regional government office)", "def": "Le grand bureau officiel de la région, où on fait certains papiers, comme le titre de séjour.", "def_en": "The main official office of the region, where some papers are done, like residence permits.", "forms": ["préfectures"], "examples": [
+      { "fr": "Tom a rendez-vous à la **préfecture**.", "en": "Tom has an appointment at the prefecture." },
+      { "fr": "La **préfecture** est fermée l'après-midi.", "en": "The prefecture is closed in the afternoon." },
+      { "fr": "Il y a toujours du monde à la **préfecture**.", "en": "The prefecture is always busy." }
+    ] },
+    { "id": "titre-de-sejour", "fr": "titre de séjour", "pos": "noun", "g": "m", "ipa": "titʁ də se.ʒuʁ", "en": "residence permit", "def": "Le document qui permet à une personne étrangère d'habiter en France.", "def_en": "The document that allows a foreign person to live in France.", "forms": ["titres de séjour"], "examples": [
+      { "fr": "Tom renouvelle son **titre de séjour**.", "en": "Tom is renewing his residence permit." },
+      { "fr": "Ton **titre de séjour** est valable dix ans.", "en": "Your residence permit is valid for ten years." },
+      { "fr": "Il faut un **titre de séjour** pour travailler ici.", "en": "You need a residence permit to work here." }
+    ] },
+    { "id": "demande-n", "fr": "demande", "pos": "noun", "g": "f", "ipa": "də.mɑ̃d", "en": "request, application", "def": "Ce qu'on écrit ou ce qu'on dit pour avoir quelque chose : une demande de passeport.", "def_en": "What you write or say to get something: a passport application.", "forms": ["demandes"], "examples": [
+      { "fr": "J'ai fait une **demande** de carte d'identité.", "en": "I've applied for an ID card." },
+      { "fr": "Votre **demande** est acceptée !", "en": "Your application has been accepted!" },
+      { "fr": "Il y a beaucoup de **demandes** en été.", "en": "There are lots of applications in summer." }
+    ], "note": "From **demander** (to ask)." },
+    { "id": "delai", "fr": "délai", "pos": "noun", "g": "m", "ipa": "de.lɛ", "en": "time it takes, waiting time; deadline", "def": "Le temps qu'il faut attendre, ou le dernier jour pour faire quelque chose.", "def_en": "The time you have to wait, or the last day to do something.", "forms": ["délais"], "examples": [
+      { "fr": "Le **délai** est de trois semaines.", "en": "It takes three weeks." },
+      { "fr": "Vous avez un **délai** de dix jours pour répondre.", "en": "You have ten days to reply." },
+      { "fr": "Les **délais** sont longs en été.", "en": "The waiting times are long in summer." }
+    ], "note": "Careful: **un délai** is not a *delay* (that's **un retard**)." },
+    { "id": "fonctionnaire", "fr": "fonctionnaire", "pos": "noun", "g": "m", "both": true, "ipa": "fɔ̃k.sjɔ.nɛʁ", "display": "le / la fonctionnaire", "en": "civil servant, public employee", "def": "Une personne qui travaille pour le pays ou pour la ville : à la mairie, à l'école, à l'hôpital…", "def_en": "Someone who works for the country or the town: at the town hall, at school, at the hospital…", "forms": ["fonctionnaires"], "accept": ["la fonctionnaire", "une fonctionnaire"], "examples": [
+      { "fr": "La **fonctionnaire** vérifie mes papiers.", "en": "The official checks my papers." },
+      { "fr": "Les professeurs sont des **fonctionnaires**.", "en": "Teachers are civil servants." },
+      { "fr": "Mon père est **fonctionnaire**.", "en": "My father is a civil servant." }
+    ] },
+    { "id": "nom", "fr": "nom", "pos": "noun", "g": "m", "ipa": "nɔ̃", "en": "name; surname; (grammar) noun", "def": "Le mot qui dit qui est une personne. Le nom de famille : Dupont, Lambert…", "def_en": "The word that says who someone is. The family name: Dupont, Lambert…", "forms": ["noms"], "examples": [
+      { "fr": "Écrivez votre **nom** en majuscules.", "en": "Write your surname in capitals." },
+      { "fr": "Quel est le **nom** de ce restaurant ?", "en": "What's the name of this restaurant?" },
+      { "fr": "« Maison » est un **nom** féminin.", "en": "'Maison' is a feminine noun." }
+    ], "note": "**le nom de famille** = the surname; **le prénom** = the first name." },
+    { "id": "prenom", "fr": "prénom", "pos": "noun", "g": "m", "ipa": "pʁe.nɔ̃", "en": "first name", "def": "Le nom qu'on donne à un enfant : Léa, Hugo, Lou…", "def_en": "The name given to a child: Léa, Hugo, Lou…", "forms": ["prénoms"], "examples": [
+      { "fr": "Quel est ton **prénom** ?", "en": "What's your first name?" },
+      { "fr": "Lou, c'est un joli **prénom**.", "en": "Lou is a pretty first name." },
+      { "fr": "Écrivez votre nom et votre **prénom**.", "en": "Write your surname and first name." }
+    ] },
+    { "id": "naissance", "fr": "naissance", "pos": "noun", "g": "f", "ipa": "nɛ.sɑ̃s", "en": "birth (la date de naissance = date of birth)", "def": "Le moment où un bébé vient au monde.", "def_en": "The moment a baby comes into the world.", "forms": ["naissances"], "examples": [
+      { "fr": "Quelle est votre date de **naissance** ?", "en": "What's your date of birth?" },
+      { "fr": "La **naissance** du bébé, c'était le quinze août.", "en": "The baby was born on the fifteenth of August." },
+      { "fr": "Il est français de **naissance**.", "en": "He's French by birth." }
+    ], "note": "From **naître** (to be born)." },
+    { "id": "nationalite", "fr": "nationalité", "pos": "noun", "g": "f", "ipa": "na.sjɔ.na.li.te", "en": "nationality", "def": "Le pays d'une personne, dans ses papiers : Tom a la nationalité anglaise.", "def_en": "Someone's country, on their papers: Tom has British nationality.", "forms": ["nationalités"], "examples": [
+      { "fr": "Quelle est votre **nationalité** ?", "en": "What's your nationality?" },
+      { "fr": "Inès a la **nationalité** espagnole.", "en": "Inès has Spanish nationality." },
+      { "fr": "Il y a dix **nationalités** dans notre classe.", "en": "There are ten nationalities in our class." }
+    ] },
+    { "id": "lieu", "fr": "lieu", "pos": "noun", "g": "m", "ipa": "ljø", "en": "place (le lieu de naissance = place of birth)", "def": "Un endroit. Le lieu de naissance : la ville où on est né.", "def_en": "A place. The place of birth: the town where you were born.", "forms": ["lieux"], "examples": [
+      { "fr": "Quel est votre **lieu** de naissance ?", "en": "What's your place of birth?" },
+      { "fr": "Ce café est mon **lieu** préféré.", "en": "This café is my favourite place." },
+      { "fr": "La fête a **lieu** samedi.", "en": "The party is on Saturday." }
+    ], "note": "**avoir lieu** = to take place. Plural: **des lieux**." },
+    { "id": "photo-d-identite", "fr": "photo d'identité", "pos": "noun", "g": "f", "ipa": "fɔ.to di.dɑ̃.ti.te", "en": "passport photo, ID photo", "def": "Une petite photo du visage, pour les papiers.", "def_en": "A small photo of your face, for your papers.", "forms": ["photos d'identité"], "examples": [
+      { "fr": "Il faut deux **photos d'identité**.", "en": "You need two passport photos." },
+      { "fr": "Sur une **photo d'identité**, on ne sourit pas.", "en": "You don't smile in a passport photo." },
+      { "fr": "Je fais mes **photos d'identité** à la gare.", "en": "I get my passport photos done at the station." }
+    ] },
+    { "id": "signer", "fr": "signer", "pos": "verb", "ipa": "si.ɲe", "en": "to sign", "def": "Écrire son nom à sa façon, en bas d'un document.", "def_en": "To write your name in your own way at the bottom of a document.", "forms": ["signe", "signes", "signons", "signez", "signent", "signé", "signée", "signés", "signées", "signais", "signait", "signions", "signiez", "signaient", "signerai", "signeras", "signera", "signerons", "signerez", "signeront", "signerais", "signerait", "signerions", "signeriez", "signeraient"], "examples": [
+      { "fr": "**Signez** ici, s'il vous plaît.", "en": "Sign here, please." },
+      { "fr": "J'ai **signé** le contrat hier.", "en": "I signed the contract yesterday." },
+      { "fr": "Tu dois **signer** en bas de la page.", "en": "You have to sign at the bottom of the page." }
+    ], "note": "The noun: **une signature**." },
+    { "id": "remplir", "fr": "remplir", "pos": "verb", "ipa": "ʁɑ̃.pliʁ", "en": "to fill; to fill in (a form)", "def": "Mettre quelque chose dans un objet [vide|vide]. Aussi : écrire les réponses sur un formulaire.", "def_en": "To put something into an empty container. Also: to write the answers on a form.", "forms": ["remplis", "remplit", "remplissons", "remplissez", "remplissent", "rempli", "remplie", "remplis", "remplies", "remplissais", "remplissait", "remplissions", "remplissiez", "remplissaient", "remplirai", "rempliras", "remplira", "remplirons", "remplirez", "rempliront", "remplirais", "remplirait", "remplirions", "rempliriez", "rempliraient"], "examples": [
+      { "fr": "Je **remplis** le formulaire.", "en": "I'm filling in the form." },
+      { "fr": "**Remplis** la bouteille d'eau.", "en": "Fill the bottle with water." },
+      { "fr": "La salle est **remplie** de monde.", "en": "The room is full of people." }
+    ], "note": "Like **finir**: *nous remplissons*." },
+    { "id": "valable", "fr": "valable", "pos": "adj", "ipa": "va.labl", "en": "valid", "def": "Qu'on peut encore utiliser : un billet valable jusqu'à demain.", "def_en": "That you can still use: a ticket valid until tomorrow.", "forms": ["valables"], "examples": [
+      { "fr": "Votre passeport n'est plus **valable**.", "en": "Your passport is no longer valid." },
+      { "fr": "Ce billet est **valable** une heure.", "en": "This ticket is valid for one hour." },
+      { "fr": "Le titre de séjour est **valable** dix ans.", "en": "The residence permit is valid for ten years." }
+    ] },
+    { "id": "perime", "fr": "périmé", "pos": "adj", "ipa": "pe.ʁi.me", "en": "out of date, expired", "def": "Qu'on ne peut plus utiliser, parce que la date est passée : un passeport périmé, du lait périmé.", "def_en": "That can no longer be used because the date has passed: an expired passport, out-of-date milk.", "forms": ["périmée", "périmés", "périmées"], "examples": [
+      { "fr": "Ma carte d'identité est **périmée**.", "en": "My ID card has expired." },
+      { "fr": "Ce yaourt est **périmé** depuis lundi !", "en": "This yoghurt has been out of date since Monday!" },
+      { "fr": "Tu ne peux pas voyager avec un passeport **périmé**.", "en": "You can't travel with an expired passport." }
+    ] },
+    { "id": "renouveler", "fr": "renouveler", "pos": "verb", "ipa": "ʁə.nu.vle", "en": "to renew", "def": "Faire un nouveau document quand l'ancien est périmé.", "def_en": "To get a new document when the old one has expired.", "forms": ["renouvelle", "renouvelles", "renouvelons", "renouvelez", "renouvellent", "renouvelé", "renouvelée", "renouvelés", "renouvelées", "renouvelais", "renouvelait", "renouvelions", "renouveliez", "renouvelaient", "renouvellerai", "renouvelleras", "renouvellera", "renouvellerons", "renouvellerez", "renouvelleront", "renouvellerais", "renouvellerait", "renouvellerions", "renouvelleriez", "renouvelleraient"], "examples": [
+      { "fr": "Je dois **renouveler** mon passeport.", "en": "I need to renew my passport." },
+      { "fr": "Tom **renouvelle** son titre de séjour.", "en": "Tom is renewing his residence permit." },
+      { "fr": "Ils ont **renouvelé** le contrat.", "en": "They renewed the contract." }
+    ], "note": "Like **appeler**, it doubles the **l** before a silent e: *je renouvelle, je renouvellerai*." }
+  ],
+  "story": {
+    "title": "Les papiers de Hugo",
+    "en": "20 January: Hugo loses his wallet… and discovers French paperwork.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vingt janvier, Hugo arrive chez Léa, très inquiet.", "en": "20 January: Hugo turns up at Léa's, very worried." },
+      { "sp": "Hugo", "fr": "J'ai perdu mon portefeuille dans le bus ! Avec ma carte bancaire, mes papiers… tout !", "en": "I've lost my wallet on the bus! With my bank card, my papers… everything!" },
+      { "sp": "Léa", "fr": "Ta carte d'identité aussi ? Et ton passeport ?", "en": "Your ID card too? And your passport?" },
+      { "sp": "Hugo", "fr": "Mon passeport est à la maison… mais il est périmé depuis deux ans.", "en": "My passport's at home… but it's been out of date for two years." },
+      { "sp": "Léa", "fr": "Bon. Il faut faire une demande de carte d'identité à la mairie.", "en": "Right. You need to apply for an ID card at the town hall." },
+      { "sp": "", "fr": "Le lendemain, à la mairie, une fonctionnaire donne un formulaire à Hugo.", "en": "The next day, at the town hall, an official gives Hugo a form." },
+      { "sp": "La fonctionnaire", "fr": "Remplissez ce formulaire : votre nom, votre prénom, la date et le lieu de naissance, votre nationalité…", "en": "Fill in this form: your surname, your first name, your date and place of birth, your nationality…" },
+      { "sp": "", "fr": "Hugo remplit le formulaire. Pour le lieu de naissance, il écrit : « Paris ».", "en": "Hugo fills in the form. For place of birth, he writes: 'Paris'." },
+      { "sp": "La fonctionnaire", "fr": "Il me faut aussi deux photos d'identité, un justificatif de domicile et une attestation de perte.", "en": "I also need two ID photos, proof of address and a declaration of loss." },
+      { "sp": "Hugo", "fr": "Un justificatif de domicile ? Mais j'habite chez moi !", "en": "Proof of address? But I live at my place!" },
+      { "sp": "La fonctionnaire", "fr": "Une facture d'électricité, par exemple. Une photocopie, ça va aussi.", "en": "An electricity bill, for example. A photocopy is fine too." },
+      { "sp": "", "fr": "Hugo retourne chez lui, il cherche une facture… et il en fait une copie. Puis il va faire ses photos.", "en": "Hugo goes back home, looks for a bill… and makes a copy of it. Then he goes to get his photos done." },
+      { "sp": "Hugo", "fr": "Sur les photos d'identité, on ne doit pas sourire. Je ressemble à un voleur !", "en": "You mustn't smile in ID photos. I look like a thief!" },
+      { "sp": "", "fr": "Enfin, tout est prêt. Hugo signe la demande, et la fonctionnaire vérifie les documents.", "en": "At last, everything's ready. Hugo signs the application, and the official checks the documents." },
+      { "sp": "La fonctionnaire", "fr": "Parfait. Le délai est de trois semaines.", "en": "Perfect. It takes three weeks." },
+      { "sp": "Hugo", "fr": "Trois semaines ? Et pendant trois semaines, je n'ai pas de papiers valables ?", "en": "Three weeks? And for three weeks, I won't have any valid papers?" },
+      { "sp": "", "fr": "Le soir, Tom téléphone à Hugo. Lui aussi a passé la journée dans les papiers : il renouvelle son titre de séjour à la préfecture.", "en": "That evening, Tom calls Hugo. He's spent the day on paperwork too: he's renewing his residence permit at the prefecture." },
+      { "sp": "", "fr": "Trois jours plus tard, Hugo reçoit un courrier : on a trouvé son portefeuille… avec sa carte d'identité dedans !", "en": "Three days later, Hugo gets a letter: his wallet has been found… with his ID card inside!" },
+      { "sp": "Hugo", "fr": "Tous ces papiers… pour rien !", "en": "All that paperwork… for nothing!" }
+    ]
+  }
+}

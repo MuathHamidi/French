@@ -37,7 +37,8 @@ From Unit 17 on, a unit has four 25-word vocabulary lessons (two on its topic, t
 - Each vocabulary example has one `**target**`, used for fill-in-the-blank questions.
 - Quiz items with `"lang": "en"` need a French `say` (or `listen`); otherwise the French voice reads the English answer aloud.
 - A word card shows the word's own meaning, so use each word in the sense it has in the dictionary: for a machine that works, write *fonctionner*, not *marcher* (= to walk); don't use *personne* for *nobody* (its card says *person*).
-- Context doesn't settle a noun/verb homograph after an adjective (*la première partie*: *partie* or *partir*?): mark it up, as in *la première [partie|partie]*.
+- Context doesn't settle a noun/verb homograph after an adjective (*la première partie*: *partie* or *partir*?), or after a noun (*un objet vide*): mark it up, as in *la première [partie|partie]*.
+- A newly taught word wins every tie against a helper with the same spelling, even in older lessons. When the new word is the rarer sense (*un prêt*, a loan, against the helper *prêt*, ready), make it `"manual": true` and mark its uses: *un [prêt|pret-n]*. `--compare-links` shows these cases.
 - The stories share one recurring cast (below). Keep ages, places and past events consistent from unit to unit.
 
 ## Story bible
@@ -46,7 +47,7 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
 
 ### Cast
 
-- **Léa**: from Paris (u01-grammar). She studies French in Lyon in Marc's class and shares a flat with Sophie (u04-furniture). Younger than Hugo (implied, u17-cod); her age is never given. Brown hair; reads, swims, cycles. June intern at Hugo's firm (u13-cest-ilest). Hugo owes her €150 (u19-money).
+- **Léa**: from Paris (u01-grammar). She studies French in Lyon in Marc's class and shares a flat with Sophie (u04-furniture). Younger than Hugo (implied, u17-cod); her age is never given. Brown hair; reads, swims, cycles. June intern at Hugo's firm (u13-cest-ilest). Hugo owed her €150 (u19-money) and paid it back, "with ten cents of interest", on 16 January (u22-bank-post).
 - **Hugo**: Léa's brother (u01-vocab, u02-vocab), 20 in Unit 3 (u03-numbers1). He was in Marc's class and has worked in IT at a small Lyon firm since Unit 8 (u13-work). His own place is far from Léa's (u04-places). Always late, forgetful and broke; loves chocolate, pizza, TV series and video games; snores; can't keep a secret; wears glasses.
 - **Sophie**: Léa's friend from Paris, where her parents and a sister live, and her flatmate (u02-possessives). Surname Lambert (u15-hotel); birthday 30 December (u20-speech). Doesn't eat meat; draws, takes photos, dances. Saturday waitress at the café downstairs (u13-jobs); starts architecture school in January (u17-emotions). Her male cat **Minou** sleeps on computers and the TV and plays with keys.
 - **Tom**: English, from London. 19 in Unit 3 (u03-avoir) and 20 since his birthday on 1 June (u11-il-fait, u17-character). Has a big brother and two sisters aged 12 and 15 (u02-articles, u03-avoir), a dog, and parents in England. His brother had a baby on 15 August, making Tom an uncle (u15-pc-etre). Sells and plays guitars; shy, afraid of the dark. With Camille since October (u17-character). His flat is bigger than Léa's (u20-speech).
@@ -111,9 +112,15 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - 8 January: Sophie's first project at architecture school is an ideal house; the friends give their ideas at the café downstairs (u21-conditionnel).
   - 11 January: galette des rois at Léa and Sophie's. Hugo is suspected of swallowing the charm, but Minou finds it and wears the crown (u21-ment).
   - A Saturday in January: Tom buys bread at the bakery downstairs from his flat and notices the silent e's (u21-e-muet).
+- **U22**:
+  - 16 January: at the post office, Tom sends a baby jumper to his nephew in England by registered post; Hugo, overdrawn since Christmas, takes his savings out and pays Léa back (u22-bank-post).
+  - 20–23 January: Hugo loses his wallet on the bus and applies for a new ID card at the town hall; Tom renews his residence permit at the prefecture; the wallet turns up three days later (u22-papers).
+  - Late January: Carla enters a dance competition with Hugo as her partner (Tom refused, too shy); they come third, and everyone dances at Sophie's party, even Tom (u22-verbs).
+  - 27 January: Sophie draws the place des Terreaux for school, and her drawing helps the police find a car parked on a pedestrian crossing (u22-city).
+  - A rainy evening: the friends play a guessing game at Léa and Sophie's; Tom wins, so he does the washing-up (u22-qui-que).
+  - 1 February: Sophie shows Inès and Carla the traboules of Vieux-Lyon, then they eat in a bouchon (u22-ou-ce-que).
 
-**Where the story stands:** mid-January (u21-ment). Lou is back in Paris at nursery school, Sophie is at architecture school, and Hugo is learning to cook. Open threads:
-- the €150 Hugo owes Léa;
+**Where the story stands:** 1 February (u22-ou-ce-que). Lou is back in Paris at nursery school, Sophie is at architecture school, Hugo is learning to cook and has paid Léa back. Open threads:
 - the race on 1 May (u19-numbers);
 - Antoine's visit planned for late May (u11-seasons);
 - Hugo's fame from the bin video.
@@ -132,7 +139,9 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
 - **Léa** used to be often late (u08-routine) but isn't any more (u13-modaux).
 - **Léa and Sophie's flat**: no dishwasher, so they wash up by hand (u21-chores, u21-conditionnel); the washing dries on the balcony; a kitchen drawer holds scissors, glue, tape and a torch with no batteries (u21-objects).
 - **Hugo** carries a lighter (u21-objects) and is learning to cook: he can make Mamie's crêpes (u21-manner).
-- **Tom** lives above a bakery; his neighbours want to practise their English with him (u21-e-muet).
+- **Tom** lives above a bakery; his neighbours want to practise their English with him (u21-e-muet). As a British citizen, he has a French residence permit (u22-papers). His nephew, his brother's baby, lives in England (u22-bank-post).
+- **Hugo** was born in Paris; his passport expired two years ago (u22-papers). He now pays everything in cash, with no chequebook (u22-bank-post), and can dance a little (u22-verbs).
+- **Inès** got lost in Vieux-Lyon on the rainy day she arrived in Lyon (u22-ou-ce-que). **Carla** loves dancing and came third in a Lyon dance competition (u22-verbs).
 - **Loose ends**:
   - Hugo says "ma sœur joue du piano" (u10-faire-jouer) without saying which sister.
   - Anne's Christmas shoes (size 39) were left at the till (u19-shop).

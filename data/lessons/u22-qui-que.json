@@ -1,0 +1,155 @@
+{
+  "id": "u22-qui-que",
+  "type": "grammar",
+  "unit": 22,
+  "title": "Qui ou que ?",
+  "en": "Relative pronouns: qui and que",
+  "intro": "**qui** and **que** join two sentences about the same person or thing: *J'ai une amie. Elle habite à Madrid.* → *J'ai une amie **qui** habite à Madrid.* **qui** is the subject of the verb after it; **que** is its object. Both work for people **and** things: English *who, which* and *that*.",
+  "cases": [
+    { "id": "rel-qui", "label": "qui = subject", "rule": "**qui** replaces the **subject** of the verb that follows: *J'ai un ami. **Il** habite à Paris.* → *J'ai un ami **qui** habite à Paris.* The verb comes straight after **qui**." },
+    { "id": "rel-que", "label": "que = object", "rule": "**que** replaces the **object**: *Le livre est super. Je lis **le livre**.* → *Le livre **que** je lis est super.* After **que** comes a new subject: *que **je** lis*." },
+    { "id": "rel-elision", "label": "qu' before a vowel, but never qui", "rule": "**que** becomes **qu'** before a vowel: *le film **qu'**il regarde*. **qui** never changes: *l'ami **qui** arrive*." },
+    { "id": "rel-choose", "label": "qui or que? Look after the gap", "rule": "Look at the word right after the gap: a **verb** → **qui** (*la fille **qui** chante*); a **subject** (je, tu, Léa, le chat…) → **que** (*la fille **que** je connais*)." },
+    { "id": "rel-cest", "label": "c'est… qui, c'est… que", "rule": "To point at one part of the sentence: ***C'est Hugo qui** a mangé la galette* (Hugo, nobody else). ***C'est le gâteau que** je préfère.* After **c'est moi qui**, the verb agrees with **moi**: *c'est moi qui **ai** payé*." },
+    { "id": "rel-middle", "label": "a clause in the middle", "rule": "The **qui / que** part comes right after its noun, even in the middle of the sentence: *La femme **qui** habite en face est médecin. Le pull **que** tu portes est joli.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. qui = subject",
+      "table": {
+        "head": ["Two sentences", "One sentence"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai un ami. Il habite à Paris.", "J'ai un ami qui habite à Paris."],
+          ["Regarde le chat. Il dort.", "Regarde le chat qui dort."],
+          ["C'est un objet. Il sert à couper.", "C'est un objet qui sert à couper."]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai une sœur {qui habite|rel-qui} à Paris.", "en": "I have a sister who lives in Paris." },
+        { "fr": "C'est un objet {qui sert|rel-qui} à couper le papier.", "en": "It's a thing used for cutting paper." }
+      ]
+    },
+    {
+      "title": "2. que = object",
+      "table": {
+        "head": ["Two sentences", "One sentence"], "frCols": [0, 1],
+        "rows": [
+          ["Le livre est super. Je lis le livre.", "Le livre que je lis est super."],
+          ["J'aime le pull. Tu portes le pull.", "J'aime le pull que tu portes."],
+          ["C'est un objet. On l'utilise le matin.", "C'est un objet qu'on utilise le matin."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le gâteau {que Mamie fait|rel-que} est délicieux.", "en": "The cake Grandma makes is delicious." },
+        { "fr": "Le film {que je regarde|rel-que} est très long.", "en": "The film I'm watching is very long." }
+      ],
+      "tip": "English often drops *that*: *the film I'm watching*. French never drops **que**: *le film **que** je regarde*."
+    },
+    {
+      "title": "3. qu' before a vowel, but never qui",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["le film qu'il regarde", "the film he's watching"],
+          ["la ville qu'on visite", "the town we're visiting"],
+          ["l'ami qui arrive", "the friend who's arriving"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est la chanson {qu'elle préfère|rel-elision}.", "en": "It's the song she likes best." },
+        { "fr": "Je connais l'homme {qui arrive|rel-elision}.", "en": "I know the man who's arriving." }
+      ]
+    },
+    {
+      "title": "4. qui or que? Look after the gap",
+      "table": {
+        "head": ["After the gap", "French"], "frCols": [1],
+        "rows": [
+          ["a verb → qui", "la fille qui chante"],
+          ["a subject → que", "la fille que je connais"],
+          ["a verb → qui", "le bus qui arrive"],
+          ["a subject → que", "le bus que je prends"]
+        ]
+      },
+      "examples": [
+        { "fr": "La fille {qui chante|rel-choose}, c'est Inès.", "en": "The girl who's singing is Inès." },
+        { "fr": "Le bus {que je prends|rel-choose} part à huit heures.", "en": "The bus I take leaves at eight." }
+      ],
+      "tip": "Both work for people **and** things: *la fille **qui** chante*, *le bus **qui** arrive*."
+    },
+    {
+      "title": "5. C'est… qui, c'est… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["C'est Hugo qui a mangé la galette.", "Hugo's the one who ate the galette."],
+          ["C'est le gâteau que je préfère.", "That's the cake I like best."],
+          ["C'est moi qui paie !", "It's on me!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{C'est Sophie qui|rel-cest} dessine le mieux.", "en": "Sophie's the one who draws best." },
+        { "fr": "{C'est Lyon que|rel-cest} je préfère.", "en": "It's Lyon I like best." }
+      ],
+      "tip": "After **moi qui**, **toi qui**, **nous qui**, the verb agrees with the person: *c'est moi qui **paie**, c'est toi qui **paies**, c'est nous qui **payons***."
+    },
+    {
+      "title": "6. A clause in the middle",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["La femme qui habite en face est médecin.", "The woman who lives opposite is a doctor."],
+          ["Le pull que tu portes est joli.", "The jumper you're wearing is nice."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le colis {que Tom envoie|rel-middle} est pour son neveu.", "en": "The parcel Tom's sending is for his nephew." },
+        { "fr": "Les gens {qui habitent ici|rel-middle} sont sympas.", "en": "The people who live here are nice." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Le livre qui je lis est super.", "right": "Le livre que je lis est super.", "why": "After the gap comes a subject (**je**): use **que**." },
+    { "wrong": "L'homme qu'arrive est mon père.", "right": "L'homme qui arrive est mon père.", "why": "**qui** never becomes **qu'**." },
+    { "wrong": "Le film je regarde est long.", "right": "Le film que je regarde est long.", "why": "French never leaves out **que**." },
+    { "wrong": "C'est moi qui a payé.", "right": "C'est moi qui ai payé.", "why": "After **moi qui**, the verb agrees with **moi** (je): *j'ai* → *moi qui ai*." }
+  ],
+  "story": {
+    "title": "Devine !",
+    "en": "A rainy evening: the friends play a guessing game… with qui and que.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un soir de janvier, chez Léa et Sophie. Il pleut, alors les amis jouent à un jeu : « Devine ! »", "en": "One January evening at Léa and Sophie's. It's raining, so the friends play a game: 'Guess!'" },
+      { "sp": "Léa", "fr": "Je pense à un objet {qui sert|rel-qui} à sécher les cheveux.", "en": "I'm thinking of a thing that's used for drying hair." },
+      { "sp": "Tom", "fr": "Facile ! C'est le sèche-cheveux {que Sophie utilisait|rel-que} pendant la panne !", "en": "Easy! It's the hair dryer Sophie was using during the power cut!" },
+      { "sp": "Léa", "fr": "Bravo ! À toi, Tom.", "en": "Well done! Your turn, Tom." },
+      { "sp": "Tom", "fr": "Je pense à une personne {qui adore|rel-qui} le chocolat, {qui dort|rel-qui} sur le canapé, et {qu'on voit|rel-elision} toujours en retard…", "en": "I'm thinking of someone who loves chocolate, who sleeps on the sofa, and who's always late…" },
+      { "sp": "Tout le monde", "fr": "Hugo !", "en": "Hugo!" },
+      { "sp": "Hugo", "fr": "Hé ! Mais {c'est moi qui|rel-cest} ai les meilleures idées, aussi !", "en": "Hey! But I'm also the one with the best ideas!" },
+      { "sp": "Sophie", "fr": "À moi. Je pense à une personne {que nous connaissons|rel-que} tous, {qui a|rel-qui} trois ans, et {qui adore|rel-qui} les crêpes.", "en": "My turn. I'm thinking of someone we all know, who's three, and who loves crêpes." },
+      { "sp": "Inès", "fr": "C'est Lou ! La petite sœur {que tout le monde adore|rel-que} !", "en": "It's Lou! The little sister everyone adores!" },
+      { "sp": "Hugo", "fr": "À moi ! Je pense à un animal {qui porte|rel-qui} une couronne, et {que Sophie aime|rel-choose} plus que nous !", "en": "My turn! I'm thinking of an animal that wears a crown, and that Sophie loves more than us!" },
+      { "sp": "Sophie", "fr": "Minou ! Mais {c'est lui qui|rel-cest} a trouvé la fève, pas toi !", "en": "Minou! But he's the one who found the charm, not you!" },
+      { "sp": "Inès", "fr": "Mon tour. Je pense à un papier {que Hugo a perdu|rel-que}, et {qui demande|rel-qui} beaucoup de patience à la mairie…", "en": "My turn. I'm thinking of a paper that Hugo lost, and that takes a lot of patience at the town hall…" },
+      { "sp": "Tom", "fr": "Sa carte d'identité !", "en": "His ID card!" },
+      { "sp": "Hugo", "fr": "{La carte que j'ai perdue|rel-middle} est revenue toute seule ! Je n'ai rien fait !", "en": "The card I lost came back all by itself! I didn't do anything!" },
+      { "sp": "Léa", "fr": "Dernière devinette… Non : dernière règle ! {La personne qui gagne|rel-middle} ce jeu fait la vaisselle.", "en": "Last riddle… No: last rule! The person who wins this game does the washing-up." },
+      { "sp": "Hugo", "fr": "Alors… {c'est Tom qui|rel-cest} gagne ! Il a trouvé toutes les réponses.", "en": "So… Tom's the winner! He found all the answers." },
+      { "sp": "Tom", "fr": "Hé, ce n'est pas juste !", "en": "Hey, that's not fair!" }
+    ]
+  },
+  "quiz": [
+    { "case": "rel-qui", "type": "mc", "q": "J'ai une amie ___ habite à Madrid.", "en": "I have a friend who lives in Madrid.", "options": ["qui", "que", "qu'"], "answer": "qui" },
+    { "case": "rel-qui", "type": "type", "q": "Regarde le chat ___ dort sur le radiateur !", "en": "Look at the cat sleeping on the radiator!", "answer": "qui" },
+    { "case": "rel-que", "type": "mc", "q": "Le livre ___ je lis est super.", "en": "The book I'm reading is great.", "options": ["que", "qui", "où"], "answer": "que" },
+    { "case": "rel-que", "type": "type", "q": "C'est le pull ___ Mamie a fait.", "en": "It's the jumper Grandma made.", "answer": "que" },
+    { "case": "rel-elision", "type": "mc", "q": "Le film ___ regarde est drôle.", "en": "The film he's watching is funny.", "options": ["qu'il", "qui il", "que il"], "answer": "qu'il" },
+    { "case": "rel-elision", "type": "mc", "lang": "en", "q": "Which one is correct?", "options": ["l'ami qui arrive", "l'ami qu'arrive"], "answer": "l'ami qui arrive", "say": "l'ami qui arrive" },
+    { "case": "rel-choose", "type": "mc", "q": "La fille ___ je connais s'appelle Carla.", "en": "The girl I know is called Carla.", "options": ["que", "qui"], "answer": "que" },
+    { "case": "rel-choose", "type": "mc", "lang": "en", "q": "« le bus ___ arrive »: after the gap comes a verb, so…", "options": ["qui", "que"], "answer": "qui", "say": "le bus qui arrive" },
+    { "case": "rel-cest", "type": "mc", "q": "C'est Hugo ___ a mangé la galette !", "en": "Hugo's the one who ate the galette!", "options": ["qui", "que"], "answer": "qui" },
+    { "case": "rel-cest", "type": "mc", "q": "C'est moi qui ___ payé.", "en": "I'm the one who paid.", "options": ["ai", "a", "as"], "answer": "ai" },
+    { "case": "rel-middle", "type": "mc", "q": "La femme ___ habite en face est médecin.", "en": "The woman who lives opposite is a doctor.", "options": ["qui", "que"], "answer": "qui" },
+    { "case": "rel-middle", "type": "type", "q": "Le colis ___ Tom envoie est pour son neveu.", "en": "The parcel Tom's sending is for his nephew.", "answer": "que" }
+  ]
+}
