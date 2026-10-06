@@ -1,0 +1,166 @@
+{
+  "id": "u32-espace",
+  "type": "vocab",
+  "unit": 32,
+  "title": "L'espace et l'énergie",
+  "en": "Space and energy",
+  "intro": "25 words for space (**l'espace, l'univers, la galaxie, la lune, le satellite, l'orbite, l'atmosphère, le télescope, l'astronaute, la fusée, le décollage, spatial, l'apesanteur, flotter**) and energy (**l'énergie, le courant, la centrale, nucléaire, solaire, le panneau solaire, l'éolienne, renouvelable, le charbon, le pétrole, isoler**).",
+  "words": [
+    { "id": "espace", "fr": "espace", "pos": "noun", "g": "m", "ipa": "ɛs.pas", "en": "space; room", "def": "Le lieu immense où sont les planètes et les étoiles. Aussi : la place libre, pour mettre des choses.", "def_en": "The huge place where the planets and stars are. Also: free room to put things in.", "forms": ["espaces"], "examples": [
+      { "fr": "Elle part dans l'**espace** pour six mois.", "en": "She's going into space for six months." },
+      { "fr": "Il n'y a plus d'**espace** dans ma valise !", "en": "There's no more room in my suitcase!" },
+      { "fr": "Ce bureau manque d'**espace**.", "en": "This office is short of space." }
+    ] },
+    { "id": "univers", "fr": "univers", "pos": "noun", "g": "m", "ipa": "y.ni.vɛʁ", "en": "universe; world", "def": "Tout ce qu'il y a : la Terre, le Soleil, les planètes, les étoiles et l'espace entre elles.", "def_en": "Everything there is: the Earth, the Sun, the planets, the stars and the space between them.", "examples": [
+      { "fr": "L'**univers** est immense.", "en": "The universe is huge." },
+      { "fr": "Sommes-nous seuls dans l'**univers** ?", "en": "Are we alone in the universe?" },
+      { "fr": "Pour Lou, sa chambre est tout son **univers**.", "en": "For Lou, her bedroom is her whole world." }
+    ] },
+    { "id": "galaxie", "fr": "galaxie", "pos": "noun", "g": "f", "ipa": "ɡa.lak.si", "en": "galaxy", "def": "Un groupe de milliards d'étoiles, comme celui où se trouve notre Soleil.", "def_en": "A group of billions of stars, like the one our Sun is in.", "forms": ["galaxies"], "examples": [
+      { "fr": "Il y a des milliards de **galaxies**.", "en": "There are billions of galaxies." },
+      { "fr": "Notre Soleil est une petite étoile de notre **galaxie**.", "en": "Our Sun is a small star in our galaxy." },
+      { "fr": "Cette **galaxie** est très loin de nous.", "en": "This galaxy is very far from us." }
+    ] },
+    { "id": "astronaute", "fr": "astronaute", "pos": "noun", "g": "m", "both": true, "ipa": "as.tʁɔ.not", "display": "un / une astronaute", "en": "astronaut", "def": "Une personne qui voyage dans l'espace.", "def_en": "A person who travels into space.", "forms": ["astronautes"], "accept": ["une astronaute", "la astronaute"], "examples": [
+      { "fr": "L'**astronaute** est partie hier.", "en": "The astronaut left yesterday." },
+      { "fr": "Quand j'étais petit, je voulais être **astronaute**.", "en": "When I was little, I wanted to be an astronaut." },
+      { "fr": "Les **astronautes** vivent six mois dans la station.", "en": "The astronauts live in the station for six months." }
+    ] },
+    { "id": "fusee", "fr": "fusée", "pos": "noun", "g": "f", "ipa": "fy.ze", "en": "rocket", "def": "Une machine qui monte très vite vers l'espace, avec beaucoup de feu derrière elle.", "def_en": "A machine that climbs very fast into space, with lots of fire behind it.", "forms": ["fusées"], "examples": [
+      { "fr": "La **fusée** décolle à vingt heures.", "en": "The rocket takes off at 8 p.m." },
+      { "fr": "Lou dessine une **fusée** rouge.", "en": "Lou is drawing a red rocket." },
+      { "fr": "Cette **fusée** va jusqu'à la Lune.", "en": "This rocket goes all the way to the Moon." }
+    ] },
+    { "id": "satellite", "fr": "satellite", "pos": "noun", "g": "m", "ipa": "sa.te.lit", "en": "satellite", "def": "Un objet qui tourne autour d'une planète : la Lune, ou une machine pour la télévision, le téléphone ou la météo.", "def_en": "An object that goes round a planet: the Moon, or a machine for TV, phones or the weather.", "forms": ["satellites"], "examples": [
+      { "fr": "La Lune est le **satellite** de la Terre.", "en": "The Moon is the Earth's satellite." },
+      { "fr": "Ton téléphone utilise des **satellites** pour trouver la route.", "en": "Your phone uses satellites to find the way." },
+      { "fr": "Ce **satellite** prend des photos des nuages.", "en": "This satellite takes photos of the clouds." }
+    ] },
+    { "id": "spatial", "fr": "spatial", "pos": "adj", "ipa": "spa.sjal", "display": "spatial, spatiale", "en": "space (as in space station, space travel)", "def": "Qui a un rapport avec l'espace, et avec les voyages dans l'espace.", "def_en": "To do with space and with travel in space.", "forms": ["spatiale", "spatiaux", "spatiales"], "accept": ["spatiale"], "examples": [
+      { "fr": "La station **spatiale** tourne autour de la Terre.", "en": "The space station goes round the Earth." },
+      { "fr": "C'est un voyage **spatial** de six mois.", "en": "It's a six-month space journey." },
+      { "fr": "Les agences **spatiales** travaillent ensemble.", "en": "The space agencies work together." }
+    ] },
+    { "id": "orbite", "fr": "orbite", "pos": "noun", "g": "f", "ipa": "ɔʁ.bit", "en": "orbit", "def": "Le chemin d'un objet qui tourne autour d'une planète ou d'une étoile.", "def_en": "The path of an object going round a planet or a star.", "forms": ["orbites"], "note": "**en orbite** = in orbit.", "examples": [
+      { "fr": "La station est en **orbite** autour de la Terre.", "en": "The station is in orbit around the Earth." },
+      { "fr": "L'**orbite** de la Terre autour du Soleil dure un an.", "en": "The Earth's orbit around the Sun takes a year." },
+      { "fr": "Le satellite a quitté son **orbite**.", "en": "The satellite has left its orbit." }
+    ] },
+    { "id": "telescope", "fr": "télescope", "pos": "noun", "g": "m", "ipa": "te.lɛs.kɔp", "en": "telescope", "def": "Un long appareil avec des verres, pour regarder les étoiles et les planètes de près.", "def_en": "A long instrument with lenses, for looking at the stars and planets close up.", "forms": ["télescopes"], "examples": [
+      { "fr": "Avec un **télescope**, on voit les montagnes de la Lune.", "en": "With a telescope, you can see the mountains on the Moon." },
+      { "fr": "Pierre a acheté un **télescope** pour la ferme.", "en": "Pierre has bought a telescope for the farm." },
+      { "fr": "Ce **télescope** est dans l'espace.", "en": "This telescope is in space." }
+    ] },
+    { "id": "atmosphere", "fr": "atmosphère", "pos": "noun", "g": "f", "ipa": "at.mɔs.fɛʁ", "en": "atmosphere (the air around the Earth); mood, feel", "def": "L'air qui entoure la Terre. Aussi : l'ambiance d'un lieu.", "def_en": "The air surrounding the Earth. Also: the mood of a place.", "forms": ["atmosphères"], "examples": [
+      { "fr": "La fusée a quitté l'**atmosphère**.", "en": "The rocket has left the atmosphere." },
+      { "fr": "Il y a trop de gaz dans l'**atmosphère**.", "en": "There's too much gas in the atmosphere." },
+      { "fr": "Au café d'en bas, l'**atmosphère** est toujours sympa.", "en": "The atmosphere at the café downstairs is always friendly." }
+    ] },
+    { "id": "apesanteur", "fr": "apesanteur", "pos": "noun", "g": "f", "ipa": "a.pə.zɑ̃.tœʁ", "en": "weightlessness (en apesanteur = weightless)", "def": "Quand on ne pèse plus rien et qu'on flotte, comme dans l'espace.", "def_en": "When you weigh nothing any more and float, as in space.", "examples": [
+      { "fr": "Dans la station, les astronautes sont en **apesanteur**.", "en": "In the station, the astronauts are weightless." },
+      { "fr": "En **apesanteur**, on ne peut pas boire dans un verre !", "en": "When you're weightless, you can't drink from a glass!" },
+      { "fr": "Hugo rêve de dormir en **apesanteur**.", "en": "Hugo dreams of sleeping weightless." }
+    ] },
+    { "id": "flotter", "fr": "flotter", "pos": "verb", "ipa": "flɔ.te", "en": "to float", "def": "Rester sur l'eau sans aller au fond, ou rester en l'air sans tomber.", "def_en": "To stay on the water without sinking, or to stay in the air without falling.", "forms": ["flotte", "flottes", "flottons", "flottez", "flottent", "flotté", "flottais", "flottait", "flottions", "flottiez", "flottaient", "flotterai", "flotteras", "flottera", "flotterons", "flotterez", "flotteront", "flotterais", "flotterait", "flotterions", "flotteriez", "flotteraient", "flottant"], "examples": [
+      { "fr": "Le bateau **flotte** sur le lac.", "en": "The boat floats on the lake." },
+      { "fr": "En apesanteur, on **flotte** dans la station.", "en": "When you're weightless, you float around the station." },
+      { "fr": "Les feuilles **flottaient** sur l'eau.", "en": "The leaves were floating on the water." }
+    ] },
+    { "id": "decollage", "fr": "décollage", "pos": "noun", "g": "m", "ipa": "de.kɔ.laʒ", "en": "take-off; lift-off", "def": "Le moment où un avion ou une fusée quitte le sol.", "def_en": "The moment when a plane or a rocket leaves the ground.", "forms": ["décollages"], "examples": [
+      { "fr": "Le **décollage** est à vingt heures.", "en": "Lift-off is at 8 p.m." },
+      { "fr": "Attachez vos ceintures pour le **décollage** !", "en": "Fasten your seat belts for take-off!" },
+      { "fr": "Tom n'aime pas le **décollage** des avions.", "en": "Tom doesn't like planes taking off." }
+    ] },
+    { "id": "lune", "fr": "lune", "pos": "noun", "g": "f", "ipa": "lyn", "en": "moon", "def": "Ce qui tourne autour de la Terre, et qui brille la nuit.", "def_en": "What goes round the Earth and shines at night.", "forms": ["lunes"], "note": "**la Lune** (with a capital) = the Moon. **être dans la lune** = to be daydreaming.", "examples": [
+      { "fr": "Ce soir, la **lune** est pleine.", "en": "Tonight, there's a full moon." },
+      { "fr": "Hugo est toujours dans la **lune** !", "en": "Hugo is always daydreaming!" },
+      { "fr": "Des astronautes sont allés sur la **Lune** en mille neuf cent soixante-neuf.", "en": "Astronauts went to the Moon in 1969." }
+    ] },
+    { "id": "energie", "fr": "énergie", "pos": "noun", "g": "f", "ipa": "e.nɛʁ.ʒi", "en": "energy", "def": "Ce qui fait fonctionner les machines, chauffe les maisons et fait avancer les voitures. Aussi : la force d'une personne.", "def_en": "What makes machines work, heats houses and makes cars go. Also: a person's strength.", "forms": ["énergies"], "examples": [
+      { "fr": "Il faut économiser l'**énergie**.", "en": "We must save energy." },
+      { "fr": "Les enfants ont beaucoup d'**énergie** !", "en": "Children have lots of energy!" },
+      { "fr": "Le soleil est une **énergie** gratuite.", "en": "The sun is a free source of energy." }
+    ] },
+    { "id": "courant", "fr": "courant", "pos": "noun", "g": "m", "ipa": "ku.ʁɑ̃", "en": "current; (electric) power; (adj) common, everyday", "def": "L'électricité qui arrive dans les maisons. Aussi : l'eau d'une rivière qui avance. Comme adjectif : normal, de tous les jours.", "def_en": "The electricity that reaches people's homes. Also: the moving water of a river. As an adjective: normal, everyday.", "forms": ["courants", "courante", "courantes"], "note": "**une panne de courant** = a power cut; **être au courant** = to know (about it).", "examples": [
+      { "fr": "Il y a une panne de **courant** !", "en": "There's a power cut!" },
+      { "fr": "Le **courant** de la rivière est très fort.", "en": "The river's current is very strong." },
+      { "fr": "C'est un mot **courant**.", "en": "It's a common word." }
+    ] },
+    { "id": "centrale", "fr": "centrale", "pos": "noun", "g": "f", "ipa": "sɑ̃.tʁal", "en": "power station", "def": "Une grande usine qui produit de l'électricité.", "def_en": "A big plant that produces electricity.", "forms": ["centrales"], "examples": [
+      { "fr": "Il y a une **centrale** nucléaire près de Lyon.", "en": "There's a nuclear power station near Lyon." },
+      { "fr": "Cette **centrale** produit de l'électricité pour toute la région.", "en": "This power station produces electricity for the whole region." },
+      { "fr": "On a fermé les vieilles **centrales** au charbon.", "en": "The old coal power stations have been shut down." }
+    ] },
+    { "id": "nucleaire", "fr": "nucléaire", "pos": "adj", "ipa": "ny.kle.ɛʁ", "en": "nuclear", "def": "Qui utilise l'énergie des atomes.", "def_en": "Using the energy of atoms.", "forms": ["nucléaires"], "examples": [
+      { "fr": "En France, l'électricité est surtout **nucléaire**.", "en": "In France, electricity is mostly nuclear." },
+      { "fr": "Il y a dix-huit centrales **nucléaires** en France.", "en": "There are eighteen nuclear power stations in France." },
+      { "fr": "L'énergie **nucléaire** pose beaucoup de questions.", "en": "Nuclear energy raises a lot of questions." }
+    ] },
+    { "id": "solaire", "fr": "solaire", "pos": "adj", "ipa": "sɔ.lɛʁ", "en": "solar; sun (cream)", "def": "Qui a un rapport avec le soleil.", "def_en": "To do with the sun.", "forms": ["solaires"], "note": "**la crème solaire** = sun cream.", "examples": [
+      { "fr": "L'énergie **solaire** est gratuite.", "en": "Solar energy is free." },
+      { "fr": "N'oublie pas la crème **solaire** !", "en": "Don't forget the sun cream!" },
+      { "fr": "Notre système **solaire** a huit planètes.", "en": "Our solar system has eight planets." }
+    ] },
+    { "id": "panneau-solaire", "fr": "panneau solaire", "pos": "noun", "g": "m", "ipa": "pa.no sɔ.lɛʁ", "en": "solar panel", "def": "Ce qu'on met sur un toit, pour faire de l'électricité avec la lumière du soleil.", "def_en": "What you put on a roof to make electricity from sunlight.", "forms": ["panneaux solaires"], "examples": [
+      { "fr": "Jules et Manon ont mis des **panneaux solaires** sur la grange.", "en": "Jules and Manon have put solar panels on the barn." },
+      { "fr": "Avec des **panneaux solaires**, on paie moins d'électricité.", "en": "With solar panels, you pay less for electricity." },
+      { "fr": "Ce **panneau solaire** fonctionne même quand il y a des nuages.", "en": "This solar panel works even when it's cloudy." }
+    ] },
+    { "id": "eolienne", "fr": "éolienne", "pos": "noun", "g": "f", "ipa": "e.ɔ.ljɛn", "en": "wind turbine", "def": "Une grande machine qui tourne avec le vent, pour faire de l'électricité.", "def_en": "A big machine turned by the wind to make electricity.", "forms": ["éoliennes"], "examples": [
+      { "fr": "Il y a beaucoup d'**éoliennes** au bord de la mer.", "en": "There are lots of wind turbines by the sea." },
+      { "fr": "Cette **éolienne** est haute comme un immeuble !", "en": "This wind turbine is as tall as a block of flats!" },
+      { "fr": "Les **éoliennes** tournent quand il y a du vent.", "en": "Wind turbines turn when there's wind." }
+    ] },
+    { "id": "renouvelable", "fr": "renouvelable", "pos": "adj", "ipa": "ʁə.nuv.labl", "en": "renewable", "def": "Qui ne finit jamais, parce que la nature la donne encore et encore : le soleil, le vent, l'eau.", "def_en": "That never runs out, because nature keeps giving it: the sun, the wind, water.", "forms": ["renouvelables"], "examples": [
+      { "fr": "Le vent est une énergie **renouvelable**.", "en": "Wind is a renewable energy." },
+      { "fr": "Il faut plus d'énergies **renouvelables**.", "en": "We need more renewable energy." },
+      { "fr": "Le pétrole n'est pas **renouvelable**.", "en": "Oil isn't renewable." }
+    ] },
+    { "id": "charbon", "fr": "charbon", "pos": "noun", "g": "m", "ipa": "ʃaʁ.bɔ̃", "en": "coal; charcoal", "def": "Une pierre noire qu'on brûle pour faire de la chaleur ou de l'électricité.", "def_en": "A black stone burnt to make heat or electricity.", "examples": [
+      { "fr": "Le **charbon** pollue beaucoup.", "en": "Coal causes a lot of pollution." },
+      { "fr": "Avant, on chauffait les maisons au **charbon**.", "en": "People used to heat their houses with coal." },
+      { "fr": "Il y a encore des centrales au **charbon** dans le monde.", "en": "There are still coal power stations around the world." }
+    ] },
+    { "id": "isoler", "fr": "isoler", "pos": "verb", "ipa": "i.zɔ.le", "en": "to insulate; to isolate", "def": "Protéger une maison du froid et du chaud, avec de bons murs et de bonnes fenêtres. Aussi : mettre une personne loin des autres.", "def_en": "To protect a house from cold and heat, with good walls and windows. Also: to put a person far away from the others.", "forms": ["isole", "isoles", "isolons", "isolez", "isolent", "isolé", "isolée", "isolés", "isolées", "isolais", "isolait", "isolions", "isoliez", "isolaient", "isolerai", "isoleras", "isolera", "isolerons", "isolerez", "isoleront", "isolerais", "isolerait", "isolerions", "isoleriez", "isoleraient", "isolant"], "examples": [
+      { "fr": "Il faut **isoler** le toit.", "en": "The roof needs insulating." },
+      { "fr": "Une maison bien **isolée** consomme moins d'énergie.", "en": "A well-insulated house uses less energy." },
+      { "fr": "Le malade est **isolé** dans une chambre.", "en": "The patient is isolated in a room." }
+    ] },
+    { "id": "petrole", "fr": "pétrole", "pos": "noun", "g": "m", "ipa": "pe.tʁɔl", "en": "oil, petroleum", "def": "Un liquide noir qu'on trouve sous la terre, et qui sert à faire de l'essence.", "def_en": "A black liquid found underground, used to make petrol.", "examples": [
+      { "fr": "Le prix du **pétrole** augmente.", "en": "The price of oil is going up." },
+      { "fr": "Ce pays vend beaucoup de **pétrole**.", "en": "This country sells a lot of oil." },
+      { "fr": "Un jour, il n'y aura plus de **pétrole**.", "en": "One day, there won't be any oil left." }
+    ] }
+  ],
+  "story": {
+    "title": "Le décollage",
+    "en": "Thursday 8 October: the café downstairs shows a French astronaut's launch on TV. Then the power goes off.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi huit octobre, à vingt heures, le café d'en bas est plein. À la télé, une astronaute française va partir dans l'espace.", "en": "Thursday 8 October, 8 p.m.: the café downstairs is packed. On TV, a French astronaut is about to go into space." },
+      { "sp": "Le patron", "fr": "C'est en direct : le décollage est dans dix minutes !", "en": "It's live: lift-off is in ten minutes!" },
+      { "sp": "", "fr": "La fusée va l'emmener à la station spatiale, à quatre cents kilomètres de la Terre.", "en": "The rocket will take her to the space station, four hundred kilometres from the Earth." },
+      { "sp": "Tom", "fr": "Elle va rester combien de temps là-bas ?", "en": "How long is she going to stay up there?" },
+      { "sp": "Inès", "fr": "Six mois. Elle va faire des expériences scientifiques en apesanteur.", "en": "Six months. She's going to do scientific experiments in weightlessness." },
+      { "sp": "Hugo", "fr": "En apesanteur ? Alors elle va flotter toute la journée. Moi aussi, je veux devenir astronaute !", "en": "Weightless? So she'll float around all day. I want to be an astronaut too!" },
+      { "sp": "Carla", "fr": "Toi ? Tu as le vertige sur une échelle !", "en": "You? You get dizzy on a ladder!" },
+      { "sp": "Hugo", "fr": "Et la station, elle tourne autour de la Lune, c'est ça ?", "en": "And the station goes round the Moon, right?" },
+      { "sp": "Sophie", "fr": "Non, Hugo ! Elle tourne autour de la Terre, en une heure et demie : c'est son orbite.", "en": "No, Hugo! It goes round the Earth, in an hour and a half: that's its orbit." },
+      { "sp": "Léa", "fr": "Et la Lune tourne aussi autour de la Terre : c'est notre satellite.", "en": "And the Moon goes round the Earth too: it's our satellite." },
+      { "sp": "Tom", "fr": "Il y a combien d'étoiles dans l'univers ?", "en": "How many stars are there in the universe?" },
+      { "sp": "Inès", "fr": "Des milliards de milliards. Rien que dans notre galaxie, il y en a plus de cent milliards.", "en": "Billions of billions. In our galaxy alone, there are over a hundred billion." },
+      { "sp": "Le patron", "fr": "Silence, ça commence ! Dix, neuf, huit…", "en": "Quiet, it's starting! Ten, nine, eight…" },
+      { "sp": "", "fr": "À zéro, la fusée décolle… et tout à coup, la télé s'éteint. Plus de lumière dans le café : c'est une panne de courant !", "en": "At zero, the rocket lifts off… and suddenly the TV goes off. No more lights in the café: it's a power cut!" },
+      { "sp": "Le patron", "fr": "Encore ! Avec ma facture d'électricité, je paie déjà trop cher pour l'énergie !", "en": "Not again! With my electricity bill, I'm already paying too much for energy!" },
+      { "sp": "", "fr": "Tom regarde la fin sur son téléphone. La fusée traverse l'atmosphère : bientôt, l'astronaute sera dans l'espace.", "en": "Tom watches the end on his phone. The rocket is going through the atmosphere: soon the astronaut will be in space." },
+      { "sp": "Sophie", "fr": "Patron, il vous faut des panneaux solaires sur le toit ! Avec l'énergie solaire, vous paierez moins.", "en": "You need solar panels on the roof! With solar energy, you'll pay less." },
+      { "sp": "Le patron", "fr": "Et la nuit, je fais comment ? En France, l'électricité vient surtout des centrales nucléaires.", "en": "And what do I do at night? In France, electricity comes mostly from nuclear power stations." },
+      { "sp": "Carla", "fr": "En Espagne, il y a beaucoup d'éoliennes. Le vent, c'est une énergie renouvelable, comme le soleil.", "en": "In Spain, there are lots of wind turbines. Wind is a renewable energy, like the sun." },
+      { "sp": "Tom", "fr": "En Angleterre aussi. Avant, on utilisait beaucoup de charbon et de pétrole, et ça pollue.", "en": "In England too. We used to use a lot of coal and oil, and they pollute." },
+      { "sp": "Sophie", "fr": "Et il faut bien isoler les maisons : comme ça, on consomme moins.", "en": "And houses need to be well insulated: that way, you use less." },
+      { "sp": "", "fr": "Le courant revient. À la télé, l'astronaute sourit dans la fusée.", "en": "The power comes back. On TV, the astronaut is smiling in the rocket." },
+      { "sp": "Hugo", "fr": "Un jour, moi aussi, je regarderai les étoiles avec un télescope… depuis la Lune !", "en": "One day, I'll look at the stars through a telescope too… from the Moon!" },
+      { "sp": "Léa", "fr": "Commence par regarder où tu marches, Hugo.", "en": "Start by looking where you're walking, Hugo." }
+    ]
+  }
+}

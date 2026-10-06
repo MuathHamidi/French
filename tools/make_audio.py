@@ -128,6 +128,7 @@ FIXES = {
     "cheville": "ʃəvˈij", "chevilles": "ʃəvˈij",  # the voice says /ʃəvil/, like ville
     "oups": "ˈups",  # the voice drops the s
     "suspect": "syspˈɛ", "suspects": "syspˈɛ",  # the masculine keeps ct silent (suspecte /syspɛkt/)
+    "cobaye": "kɔbˈaj", "cobayes": "kɔbˈaj",  # the voice says /kobɛj/
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

@@ -1,0 +1,164 @@
+{
+  "id": "u32-informatique",
+  "type": "vocab",
+  "unit": 32,
+  "title": "L'informatique",
+  "en": "Computing",
+  "intro": "25 words for working on a computer: the basics (**l'informatique, le logiciel, le fichier, les données, la technologie, numérique, la tablette, la clé USB**), getting in (**l'identifiant, se connecter, la connexion, le lien**), working (**programmer, le développeur, copier, coller, sauvegarder, la sauvegarde, la mise à jour**) and when things go wrong (**le bug, planter, redémarrer, le virus, le pirate, pirater**).",
+  "words": [
+    { "id": "informatique", "fr": "informatique", "pos": "noun", "g": "f", "ipa": "ɛ̃.fɔʁ.ma.tik", "en": "computing, IT; (adj) computer", "def": "La science des ordinateurs, et le travail avec les ordinateurs.", "def_en": "The science of computers, and work with computers.", "forms": ["informatiques"], "examples": [
+      { "fr": "Hugo travaille dans l'**informatique**.", "en": "Hugo works in IT." },
+      { "fr": "J'ai un problème **informatique**.", "en": "I've got a computer problem." },
+      { "fr": "Elle a fait des études d'**informatique**.", "en": "She studied computing." }
+    ] },
+    { "id": "logiciel", "fr": "logiciel", "pos": "noun", "g": "m", "ipa": "lɔ.ʒi.sjɛl", "en": "software, program", "def": "Un programme qu'on utilise sur un ordinateur : pour écrire, pour dessiner, pour regarder des photos…", "def_en": "A program you use on a computer: to write, to draw, to look at photos…", "forms": ["logiciels"], "examples": [
+      { "fr": "Ce **logiciel** est gratuit.", "en": "This software is free." },
+      { "fr": "Hugo ouvre son **logiciel** et commence à travailler.", "en": "Hugo opens his program and starts work." },
+      { "fr": "Je ne sais pas utiliser ce **logiciel**.", "en": "I don't know how to use this software." }
+    ] },
+    { "id": "fichier", "fr": "fichier", "pos": "noun", "g": "m", "ipa": "fi.ʃje", "en": "file (computer)", "def": "Un document, une photo ou une chanson qu'on garde dans un ordinateur.", "def_en": "A document, a photo or a song kept on a computer.", "forms": ["fichiers"], "examples": [
+      { "fr": "J'ai perdu mon **fichier** !", "en": "I've lost my file!" },
+      { "fr": "Envoie-moi le **fichier** par mail.", "en": "Send me the file by email." },
+      { "fr": "Il y a cent **fichiers** dans ce dossier.", "en": "There are a hundred files in this folder." }
+    ] },
+    { "id": "sauvegarder", "fr": "sauvegarder", "pos": "verb", "ipa": "sov.ɡaʁ.de", "en": "to save, to back up", "def": "Garder une copie de son travail, pour ne pas le perdre.", "def_en": "To keep a copy of your work, so as not to lose it.", "forms": ["sauvegarde", "sauvegardes", "sauvegardons", "sauvegardez", "sauvegardent", "sauvegardé", "sauvegardée", "sauvegardés", "sauvegardées", "sauvegardais", "sauvegardait", "sauvegardions", "sauvegardiez", "sauvegardaient", "sauvegarderai", "sauvegarderas", "sauvegardera", "sauvegarderons", "sauvegarderez", "sauvegarderont", "sauvegarderais", "sauvegarderait", "sauvegarderions", "sauvegarderiez", "sauvegarderaient", "sauvegardant"], "examples": [
+      { "fr": "N'oublie pas de **sauvegarder** ton travail !", "en": "Don't forget to save your work!" },
+      { "fr": "J'ai **sauvegardé** les photos sur une clé USB.", "en": "I've backed up the photos on a USB stick." },
+      { "fr": "**Sauvegarde** souvent !", "en": "Save often!" }
+    ] },
+    { "id": "sauvegarde", "fr": "sauvegarde", "pos": "noun", "g": "f", "ipa": "sov.ɡaʁd", "en": "backup; save", "def": "Une copie d'un travail ou de fichiers, gardée pour ne rien perdre.", "def_en": "A copy of some work or files, kept so that nothing gets lost.", "forms": ["sauvegardes"], "examples": [
+      { "fr": "Heureusement, j'ai une **sauvegarde** !", "en": "Luckily, I've got a backup!" },
+      { "fr": "Il faut faire une **sauvegarde** chaque semaine.", "en": "You should make a backup every week." },
+      { "fr": "La **sauvegarde** de vendredi est sur la clé USB.", "en": "Friday's backup is on the USB stick." }
+    ] },
+    { "id": "identifiant", "fr": "identifiant", "pos": "noun", "g": "m", "ipa": "i.dɑ̃.ti.fjɑ̃", "en": "username, login", "def": "Le nom qu'on tape pour entrer sur un site ou dans un ordinateur, avec un mot de passe.", "def_en": "The name you type to get into a website or a computer, with a password.", "forms": ["identifiants"], "examples": [
+      { "fr": "Tapez votre **identifiant** et votre mot de passe.", "en": "Type your username and password." },
+      { "fr": "Mon **identifiant**, c'est mon adresse mail.", "en": "My username is my email address." },
+      { "fr": "J'ai oublié mon **identifiant** !", "en": "I've forgotten my username!" }
+    ] },
+    { "id": "se-connecter", "fr": "se connecter", "pos": "verb", "ipa": "sə kɔ.nɛk.te", "en": "to log in, to connect", "def": "Entrer sur un site, un réseau ou un ordinateur, souvent avec un mot de passe.", "def_en": "To get into a website, a network or a computer, often with a password.", "forms": ["me connecte", "te connectes", "se connecte", "nous nous connectons", "vous vous connectez", "se connectent", "me connecter", "te connecter", "nous connecter", "vous connecter", "connecter", "me connecterai", "te connecteras", "se connectera", "nous nous connecterons", "vous vous connecterez", "se connecteront", "me connecterais", "te connecterais", "se connecterait", "nous nous connecterions", "vous vous connecteriez", "se connecteraient", "connecte", "connectes", "connectons", "connectez", "connectent", "connecté", "connectée", "connectés", "connectées", "connectais", "connectait", "connections", "connectiez", "connectaient", "connecterai", "connecteras", "connectera", "connecterons", "connecterez", "connecteront", "connecterais", "connecterait", "connecterions", "connecteriez", "connecteraient", "connectant"], "examples": [
+      { "fr": "Je n'arrive pas à me **connecter**.", "en": "I can't log in." },
+      { "fr": "**Connectez**-vous au wifi de l'hôtel.", "en": "Connect to the hotel wifi." },
+      { "fr": "Elle se **connecte** tous les matins.", "en": "She logs in every morning." }
+    ] },
+    { "id": "connexion", "fr": "connexion", "pos": "noun", "g": "f", "ipa": "kɔ.nɛk.sjɔ̃", "en": "connection", "def": "Le lien entre un ordinateur ou un téléphone et internet.", "def_en": "The link between a computer or a phone and the internet.", "forms": ["connexions"], "examples": [
+      { "fr": "La **connexion** est très lente.", "en": "The connection is very slow." },
+      { "fr": "Il n'y a pas de **connexion** dans le train.", "en": "There's no connection on the train." },
+      { "fr": "Ma **connexion** a coupé pendant l'appel.", "en": "My connection dropped during the call." }
+    ] },
+    { "id": "mise-a-jour", "fr": "mise à jour", "pos": "noun", "g": "f", "ipa": "mi.za ʒuʁ", "en": "update", "def": "Les changements qu'on fait dans un logiciel ou une application, pour les rendre meilleurs.", "def_en": "The changes made to some software or an app to improve it.", "forms": ["mises à jour"], "note": "**mettre à jour** = to update.", "examples": [
+      { "fr": "Mon téléphone fait une **mise à jour**.", "en": "My phone is doing an update." },
+      { "fr": "Les **mises à jour** prennent du temps.", "en": "Updates take time." },
+      { "fr": "Cette **mise à jour** corrige un bug.", "en": "This update fixes a bug." }
+    ] },
+    { "id": "bug", "fr": "bug", "pos": "noun", "g": "m", "ipa": "bœɡ", "en": "bug, glitch", "def": "Une erreur dans un programme, qui fait qu'il ne fonctionne pas bien.", "def_en": "A mistake in a program that stops it working properly.", "forms": ["bugs"], "note": "The official word is **un bogue**, but everyone says **un bug**, pronounced as in English *burg* without the r.", "examples": [
+      { "fr": "Il y a un **bug** dans l'application.", "en": "There's a bug in the app." },
+      { "fr": "Les **bugs** arrivent toujours au mauvais moment !", "en": "Bugs always happen at the wrong time!" },
+      { "fr": "Ce **bug** est corrigé.", "en": "This bug is fixed." }
+    ] },
+    { "id": "planter", "fr": "planter", "pos": "verb", "ipa": "plɑ̃.te", "en": "to plant; (computer) to crash", "def": "Mettre une plante ou un arbre dans la terre. Pour un ordinateur : s'arrêter tout à coup, à cause d'un problème.", "def_en": "To put a plant or a tree in the ground. For a computer: to stop suddenly because of a problem.", "forms": ["plante", "plantes", "plantons", "plantez", "plantent", "planté", "plantée", "plantés", "plantées", "plantais", "plantait", "plantions", "plantiez", "plantaient", "planterai", "planteras", "plantera", "planterons", "planterez", "planteront", "planterais", "planterait", "planterions", "planteriez", "planteraient", "plantant"], "examples": [
+      { "fr": "Mon ordinateur a **planté** !", "en": "My computer has crashed!" },
+      { "fr": "Pierre **plante** des arbres.", "en": "Pierre is planting trees." },
+      { "fr": "Le site **plante** tout le temps.", "en": "The website keeps crashing." }
+    ] },
+    { "id": "redemarrer", "fr": "redémarrer", "pos": "verb", "ipa": "ʁə.de.ma.ʁe", "en": "to restart, to reboot", "def": "Arrêter un ordinateur ou une machine, puis l'allumer de nouveau.", "def_en": "To turn off a computer or a machine, then turn it on again.", "forms": ["redémarre", "redémarres", "redémarrons", "redémarrez", "redémarrent", "redémarré", "redémarrée", "redémarrés", "redémarrées", "redémarrais", "redémarrait", "redémarrions", "redémarriez", "redémarraient", "redémarrerai", "redémarreras", "redémarrera", "redémarrerons", "redémarrerez", "redémarreront", "redémarrerais", "redémarrerait", "redémarrerions", "redémarreriez", "redémarreraient", "redémarrant"], "examples": [
+      { "fr": "**Redémarre** l'ordinateur !", "en": "Restart the computer!" },
+      { "fr": "Le téléphone **redémarre** tout seul.", "en": "The phone restarts by itself." },
+      { "fr": "J'ai **redémarré** trois fois.", "en": "I've restarted three times." }
+    ] },
+    { "id": "virus", "fr": "virus", "pos": "noun", "g": "m", "ipa": "vi.ʁys", "en": "virus", "def": "Une très petite chose vivante, qui donne des maladies comme la grippe. Aussi : un programme qui abîme les ordinateurs.", "def_en": "A tiny living thing that causes illnesses like flu. Also: a program that damages computers.", "examples": [
+      { "fr": "Mon ordinateur a un **virus**.", "en": "My computer has a virus." },
+      { "fr": "La grippe est un **virus**.", "en": "Flu is a virus." },
+      { "fr": "Attention aux **virus** dans les mails !", "en": "Watch out for viruses in emails!" }
+    ] },
+    { "id": "pirate", "fr": "pirate", "pos": "noun", "g": "m", "both": true, "ipa": "pi.ʁat", "display": "le / la pirate", "en": "hacker; pirate", "def": "Une personne qui entre dans les ordinateurs des autres, sans autorisation. Aussi : un voleur qui vole les bateaux.", "def_en": "A person who gets into other people's computers without permission. Also: a thief who steals ships.", "forms": ["pirates"], "accept": ["la pirate", "une pirate"], "examples": [
+      { "fr": "Un **pirate** a volé mes données.", "en": "A hacker stole my data." },
+      { "fr": "Lou adore les histoires de **pirates**.", "en": "Lou loves pirate stories." },
+      { "fr": "Les **pirates** cherchent les mots de passe faciles.", "en": "Hackers look for easy passwords." }
+    ] },
+    { "id": "pirater", "fr": "pirater", "pos": "verb", "ipa": "pi.ʁa.te", "en": "to hack (into)", "def": "Entrer dans un ordinateur, un compte ou un site, sans autorisation.", "def_en": "To get into a computer, an account or a website without permission.", "forms": ["pirate", "pirates", "piratons", "piratez", "piratent", "piraté", "piratée", "piratés", "piratées", "piratais", "piratait", "pirations", "piratiez", "pirataient", "piraterai", "pirateras", "piratera", "piraterons", "piraterez", "pirateront", "piraterais", "piraterait", "piraterions", "pirateriez", "pirateraient", "piratant"], "examples": [
+      { "fr": "On a **piraté** mon compte !", "en": "My account's been hacked!" },
+      { "fr": "Ils **piratent** les sites des entreprises.", "en": "They hack into company websites." },
+      { "fr": "C'est difficile de **pirater** ce téléphone.", "en": "This phone is hard to hack." }
+    ] },
+    { "id": "donnees", "fr": "données", "pos": "noun", "g": "f", "ipa": "dɔ.ne", "display": "les données", "en": "data", "def": "Toutes les informations qu'un ordinateur garde : des chiffres, des noms, des textes…", "def_en": "All the information a computer keeps: figures, names, texts…", "examples": [
+      { "fr": "Nos **données** sont protégées.", "en": "Our data is protected." },
+      { "fr": "L'application garde les **données** des clients.", "en": "The app keeps the customers' data." },
+      { "fr": "Il a perdu toutes ses **données**.", "en": "He's lost all his data." }
+    ] },
+    { "id": "programmer", "fr": "programmer", "pos": "verb", "ipa": "pʁɔ.ɡʁa.me", "en": "to program; to schedule, to set", "def": "Écrire le code d'un logiciel. Aussi : décider à l'avance de l'heure d'une chose.", "def_en": "To write the code of some software. Also: to decide in advance when something will happen.", "forms": ["programme", "programmes", "programmons", "programmez", "programment", "programmé", "programmée", "programmés", "programmées", "programmais", "programmait", "programmions", "programmiez", "programmaient", "programmerai", "programmeras", "programmera", "programmerons", "programmerez", "programmeront", "programmerais", "programmerait", "programmerions", "programmeriez", "programmeraient", "programmant"], "examples": [
+      { "fr": "Hugo **programme** une application.", "en": "Hugo is programming an app." },
+      { "fr": "J'ai **programmé** le réveil à six heures.", "en": "I've set the alarm for six." },
+      { "fr": "Elle apprend à **programmer**.", "en": "She's learning to code." }
+    ] },
+    { "id": "developpeur", "fr": "développeur", "pos": "noun", "g": "m", "ipa": "dev.lɔ.pœʁ", "display": "le développeur, la développeuse", "en": "(software) developer", "def": "Une personne qui écrit le code des logiciels, des sites et des applications.", "def_en": "A person who writes the code for software, websites and apps.", "forms": ["développeuse", "développeurs", "développeuses"], "accept": ["développeuse", "la développeuse", "une développeuse"], "examples": [
+      { "fr": "Sarah veut devenir **développeuse**.", "en": "Sarah wants to become a developer." },
+      { "fr": "Les **développeurs** travaillent sur l'application.", "en": "The developers are working on the app." },
+      { "fr": "On cherche un **développeur** pour notre site.", "en": "We're looking for a developer for our website." }
+    ] },
+    { "id": "lien", "fr": "lien", "pos": "noun", "g": "m", "ipa": "ljɛ̃", "en": "link; bond, tie", "def": "Ce sur quoi on clique pour aller sur une autre page. Aussi : ce qui attache deux personnes, comme l'amitié.", "def_en": "What you click on to go to another page. Also: what binds two people, like friendship.", "forms": ["liens"], "examples": [
+      { "fr": "Clique sur le **lien** !", "en": "Click on the link!" },
+      { "fr": "Je t'envoie le **lien** du site.", "en": "I'll send you the link to the website." },
+      { "fr": "Il y a un **lien** très fort entre les deux sœurs.", "en": "There's a very strong bond between the two sisters." }
+    ] },
+    { "id": "copier", "fr": "copier", "pos": "verb", "ipa": "kɔ.pje", "en": "to copy", "def": "Faire une deuxième chose exactement pareille. Aussi : faire comme une autre personne.", "def_en": "To make a second thing exactly the same. Also: to do the same as someone else.", "forms": ["copie", "copies", "copions", "copiez", "copient", "copié", "copiée", "copiés", "copiées", "copiais", "copiait", "copiions", "copiiez", "copiaient", "copierai", "copieras", "copiera", "copierons", "copierez", "copieront", "copierais", "copierait", "copierions", "copieriez", "copieraient", "copiant"], "examples": [
+      { "fr": "**[Copie|copier]** le fichier sur la clé USB.", "en": "Copy the file to the USB stick." },
+      { "fr": "Ne **copie** pas sur ton voisin !", "en": "Don't copy from the person next to you!" },
+      { "fr": "J'ai **copié** le texte.", "en": "I've copied the text." }
+    ] },
+    { "id": "coller", "fr": "coller", "pos": "verb", "ipa": "kɔ.le", "en": "to stick, to glue; to paste", "def": "Mettre deux choses ensemble avec de la colle. Sur un ordinateur : mettre un texte qu'on a copié.", "def_en": "To join two things with glue. On a computer: to put in some text you've copied.", "forms": ["colle", "colles", "collons", "collez", "collent", "collé", "collée", "collés", "collées", "collais", "collait", "collions", "colliez", "collaient", "collerai", "colleras", "collera", "collerons", "collerez", "colleront", "collerais", "collerait", "collerions", "colleriez", "colleraient", "collant"], "examples": [
+      { "fr": "[Copie|copier] et **colle** le lien.", "en": "Copy and paste the link." },
+      { "fr": "Lou **colle** des photos dans son cahier.", "en": "Lou is sticking photos in her exercise book." },
+      { "fr": "Le papier est **collé** sous le clavier.", "en": "The paper is stuck under the keyboard." }
+    ] },
+    { "id": "cle-usb", "fr": "clé USB", "pos": "noun", "g": "f", "ipa": "kle y.ɛs.be", "en": "USB stick, memory stick", "def": "Un petit objet qu'on met dans l'ordinateur, pour garder et transporter des fichiers.", "def_en": "A small object you put in the computer to store and carry files.", "forms": ["clés USB"], "examples": [
+      { "fr": "Mets les photos sur une **clé USB**.", "en": "Put the photos on a USB stick." },
+      { "fr": "J'ai perdu ma **clé USB** !", "en": "I've lost my memory stick!" },
+      { "fr": "Cette **clé USB** est pleine.", "en": "This USB stick is full." }
+    ] },
+    { "id": "tablette", "fr": "tablette", "pos": "noun", "g": "f", "ipa": "ta.blɛt", "en": "tablet (computer); bar (of chocolate)", "def": "Un petit ordinateur [plat|plat-adj], qu'on utilise avec les doigts. Aussi : une tablette de chocolat.", "def_en": "A small flat computer you use with your fingers. Also: a bar of chocolate.", "forms": ["tablettes"], "examples": [
+      { "fr": "Mamie lit le journal sur sa **tablette**.", "en": "Granny reads the paper on her tablet." },
+      { "fr": "Hugo a mangé toute la **tablette** de chocolat !", "en": "Hugo has eaten the whole bar of chocolate!" },
+      { "fr": "Les enfants passent trop de temps sur la **tablette**.", "en": "The children spend too much time on the tablet." }
+    ] },
+    { "id": "numerique", "fr": "numérique", "pos": "adj", "ipa": "ny.me.ʁik", "en": "digital", "def": "Qui utilise les ordinateurs, internet et les nouvelles technologies.", "def_en": "Using computers, the internet and new technologies.", "forms": ["numériques"], "note": "**le numérique** = digital technology.", "examples": [
+      { "fr": "J'ai un appareil photo **numérique**.", "en": "I've got a digital camera." },
+      { "fr": "Le monde **numérique** change vite.", "en": "The digital world changes fast." },
+      { "fr": "On lit de plus en plus de livres **numériques**.", "en": "People read more and more e-books." }
+    ] },
+    { "id": "technologie", "fr": "technologie", "pos": "noun", "g": "f", "ipa": "tɛk.nɔ.lɔ.ʒi", "en": "technology", "def": "Les machines et les outils modernes : les ordinateurs, les téléphones, les robots…", "def_en": "Modern machines and tools: computers, phones, robots…", "forms": ["technologies"], "examples": [
+      { "fr": "La **technologie** change notre vie.", "en": "Technology is changing our lives." },
+      { "fr": "Mamie n'aime pas la **technologie**… sauf sa tablette !", "en": "Granny doesn't like technology… except her tablet!" },
+      { "fr": "C'est une entreprise de nouvelles **technologies**.", "en": "It's a new-technology company." }
+    ] }
+  ],
+  "story": {
+    "title": "Hugo en télétravail",
+    "en": "Tuesday 22 September: on crutches, with no lift in his building, Hugo works from home. The bakery app needs a big update.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi vingt-deux septembre, Hugo travaille à la maison. Avec ses béquilles, et sans ascenseur, il ne peut pas aller au bureau.", "en": "Tuesday 22 September: Hugo is working from home. On crutches, and with no lift, he can't get to the office." },
+      { "sp": "", "fr": "Depuis juillet, l'application des boulangeries est en ligne. Aujourd'hui, Hugo doit faire une grande mise à jour.", "en": "The bakeries' app has been online since July. Today, Hugo has to do a big update." },
+      { "sp": "", "fr": "À neuf heures, il allume son ordinateur et tape son identifiant… Mais il a oublié son mot de passe !", "en": "At nine, he turns on his computer and types his username… But he's forgotten his password!" },
+      { "sp": "Hugo", "fr": "Tom ! Tu peux venir ? Je n'arrive pas à me connecter !", "en": "Tom! Can you come over? I can't log in!" },
+      { "sp": "", "fr": "Tom traverse le palier. Il trouve le mot de passe sur un petit papier, collé sous le clavier.", "en": "Tom crosses the landing. He finds the password on a little piece of paper, stuck under the keyboard." },
+      { "sp": "Tom", "fr": "Hugo, un mot de passe sous le clavier, c'est un cadeau pour les pirates !", "en": "Hugo, a password under the keyboard is a gift for hackers!" },
+      { "sp": "", "fr": "Hugo se connecte enfin. Mais la connexion est lente, et l'ordinateur annonce une mise à jour du système : quarante minutes !", "en": "Hugo finally logs in. But the connection is slow, and the computer announces a system update: forty minutes!" },
+      { "sp": "", "fr": "Ensuite, Hugo ouvre son logiciel et commence à programmer. Pour lui, l'informatique, c'est facile… en général.", "en": "Then Hugo opens his program and starts coding. For him, computing is easy… usually." },
+      { "sp": "", "fr": "À midi, l'écran devient noir. L'ordinateur a planté !", "en": "At noon, the screen goes black. The computer has crashed!" },
+      { "sp": "Hugo", "fr": "Non ! J'ai travaillé trois heures, et je n'ai pas sauvegardé mon fichier !", "en": "No! I've worked for three hours, and I didn't save my file!" },
+      { "sp": "Hugo", "fr": "C'est un virus ? Un pirate a piraté mon ordinateur ?", "en": "Is it a virus? Has a hacker hacked my computer?" },
+      { "sp": "Tom", "fr": "Ce n'est pas un virus, Hugo. Redémarre, et on va voir.", "en": "It's not a virus, Hugo. Restart it, and we'll see." },
+      { "sp": "", "fr": "Hugo redémarre, mais le fichier ne s'ouvre plus. Il appelle Sarah, la stagiaire, en vidéo. Sarah veut devenir développeuse.", "en": "Hugo restarts, but the file won't open any more. He video-calls Sarah, the intern. Sarah wants to become a developer." },
+      { "sp": "Sarah", "fr": "Pas de panique ! Toutes nos données ont une sauvegarde. Je t'envoie un lien.", "en": "Don't panic! All our data is backed up. I'll send you a link." },
+      { "sp": "", "fr": "Hugo clique sur le lien. Il copie le fichier et le colle sur son ordinateur. Ouf, tout est là !", "en": "Hugo clicks on the link. He copies the file and pastes it onto his computer. Phew, it's all there!" },
+      { "sp": "Tom", "fr": "Et sauvegarde aussi le fichier sur une clé USB. On ne sait jamais !", "en": "And save the file on a USB stick too. You never know!" },
+      { "sp": "", "fr": "À cinq heures, la mise à jour de l'application est prête. Mais il y a un bug : chaque client reçoit cent baguettes au lieu d'une !", "en": "At five, the app update is ready. But there's a bug: every customer gets a hundred baguettes instead of one!" },
+      { "sp": "Sarah", "fr": "C'est un petit bug dans ton code. Regarde la ligne quarante-deux.", "en": "It's a little bug in your code. Look at line forty-two." },
+      { "sp": "", "fr": "Hugo corrige le bug. Cette fois, tout fonctionne.", "en": "Hugo fixes the bug. This time, everything works." },
+      { "sp": "", "fr": "Le soir, Madame Dupont l'appelle sur sa tablette.", "en": "In the evening, Mme Dupont calls him on her tablet." },
+      { "sp": "Mme Dupont", "fr": "Bravo, Hugo ! Avec le numérique, on peut travailler partout. Vous voyez, la technologie, ce n'est pas si difficile !", "en": "Well done, Hugo! With digital tools, you can work anywhere. You see, technology isn't that hard!" },
+      { "sp": "Hugo", "fr": "Merci, Madame Dupont. Demain, je change mon mot de passe… et je ne le colle pas sous le clavier !", "en": "Thank you, Mme Dupont. Tomorrow I'm changing my password… and I'm not sticking it under the keyboard!" }
+    ]
+  }
+}

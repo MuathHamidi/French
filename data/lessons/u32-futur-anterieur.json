@@ -1,0 +1,161 @@
+{
+  "id": "u32-futur-anterieur",
+  "type": "grammar",
+  "unit": 32,
+  "title": "Quand tu liras cette lettre",
+  "en": "The futur antérieur",
+  "intro": "The **futur antérieur** looks back from the future: it says that something **will have happened** by a certain moment. It's the future of **avoir** or **être** + the past participle: *Dans dix ans, j'**aurai construit** ma maison.* After **quand** or **dès que**, it marks the action that comes first: *Quand tu **auras fini**, tu m'appelleras.* It can also be a guess about the past: *Hugo n'est pas là ? Il **aura** encore **oublié** l'heure !*",
+  "cases": [
+    { "id": "fa-forme", "label": "aurai / serai + past participle", "rule": "The future of **avoir** or **être**, then the past participle, exactly like the passé composé: same auxiliary, same agreement. *j'**aurai fini**, tu **auras appris**, elle **sera partie**, nous **serons devenus***." },
+    { "id": "fa-avant", "label": "quand, dès que + futur antérieur", "rule": "When one future action will be finished before another, use the futur antérieur after **quand, lorsque, dès que, une fois que, après que**: *Quand tu **auras fini**, tu m'appelleras.* English uses the present perfect: *when you've finished*." },
+    { "id": "fa-date", "label": "done by a future moment", "rule": "It says that something will be done by a time in the future: ***Dans dix ans**, j'**aurai construit** ma maison. **Avant Noël**, ils **auront fini** la piste cyclable.*" },
+    { "id": "fa-supposition", "label": "a guess about the past", "rule": "It can also mean *must have*: a guess about something that has probably happened. *Hugo n'est pas là ? Il **aura** encore **oublié** l'heure !* (= he must have forgotten)." },
+    { "id": "fa-ou-futur", "label": "futur simple or futur antérieur?", "rule": "Two actions at the same time: futur simple twice (*quand je **lirai** la lettre, je **rirai***). One action finished before the other: futur antérieur for the first one (*quand j'**aurai lu** la lettre, je la **rangerai***)." },
+    { "id": "fa-negation", "label": "negation and pronouns", "rule": "As in the passé composé, **ne… pas** and the object pronouns go around the auxiliary: *je **n'aurai pas** fini, je **l'aurai** fini, il **ne sera pas** encore rentré*." }
+  ],
+  "sections": [
+    {
+      "title": "1. aurai / serai + past participle",
+      "table": {
+        "head": ["with avoir", "with être"], "frCols": [0, 1],
+        "rows": [
+          ["j'aurai fini", "je serai parti"],
+          ["tu auras appris", "tu seras venu"],
+          ["il aura écrit", "elle sera arrivée"],
+          ["nous aurons changé", "nous serons devenus"],
+          ["vous aurez vu", "vous serez rentrés"],
+          ["ils auront oublié", "elles seront allées"]
+        ]
+      },
+      "examples": [
+        { "fr": "Quand tu liras cette lettre, {tu seras devenue|fa-forme} architecte.", "en": "When you read this letter, you'll have become an architect." },
+        { "fr": "Dans dix ans, {nous aurons tous changé|fa-forme}.", "en": "In ten years, we'll all have changed." }
+      ],
+      "tip": "Choose **avoir** or **être** as in the passé composé: *je **suis** devenu* → *je **serai** devenu*."
+    },
+    {
+      "title": "2. quand, dès que + futur antérieur",
+      "table": {
+        "head": ["First (futur antérieur)", "Then (futur)"], "frCols": [0, 1],
+        "rows": [
+          ["Quand tu auras fini,", "tu m'appelleras."],
+          ["Dès que Jules aura caché la boîte,", "on l'oubliera."],
+          ["Une fois que vous aurez lu la lettre,", "vous la rangerez."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quand tu auras fini|fa-avant} ta lettre, mets-la dans la boîte.", "en": "When you've finished your letter, put it in the box." },
+        { "fr": "{Dès qu'il l'aura cachée|fa-avant}, on l'oubliera pendant dix ans.", "en": "As soon as he's hidden it, we'll forget it for ten years." }
+      ],
+      "tip": "English says *when you've finished*; French stays in the future: *quand tu **auras** fini*."
+    },
+    {
+      "title": "3. Done by a future moment",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Dans dix ans, j'aurai fini mes études.", "In ten years, I'll have finished my studies."],
+          ["Avant Noël, ils auront fini la piste cyclable.", "Before Christmas, they'll have finished the cycle lane."],
+          ["À minuit, tout le monde sera parti.", "By midnight, everyone will have left."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Dans dix ans, tu auras ouvert|fa-date} ton école de danse.", "en": "In ten years, you'll have opened your dance school." },
+        { "fr": "{Avant trente ans, j'aurai écrit|fa-date} une chanson pour Camille.", "en": "Before I'm thirty, I'll have written a song for Camille." }
+      ]
+    },
+    {
+      "title": "4. A guess about the past",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il n'est pas là ? Il aura oublié l'heure.", "He isn't here? He must have forgotten the time."],
+          ["Elle ne répond pas : elle sera partie.", "She isn't answering: she must have left."],
+          ["La boîte est vide : Lou aura pris les alliances.", "The box is empty: Lou must have taken the rings."]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo est en retard ? {Il aura encore oublié|fa-supposition} l'heure !", "en": "Hugo's late? He must have forgotten the time again!" },
+        { "fr": "{Il se sera endormi|fa-supposition} devant la télé.", "en": "He must have fallen asleep in front of the TV." }
+      ],
+      "tip": "This use is a little literary: in conversation, people also say *il **a dû** oublier*."
+    },
+    {
+      "title": "5. Futur simple or futur antérieur?",
+      "table": {
+        "head": ["At the same time", "One after the other"], "frCols": [0, 1],
+        "rows": [
+          ["Quand je lirai la lettre, je rirai.", "Quand j'aurai lu la lettre, je la rangerai."],
+          ["Quand il arrivera, on mangera.", "Quand il sera arrivé, on commencera."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quand tu liras cette lettre, tu seras|fa-ou-futur} architecte.", "en": "When you read this letter, you'll be an architect." },
+        { "fr": "{Quand on aura lu les lettres, on rira|fa-ou-futur} de nous !", "en": "When we've read the letters, we'll laugh at ourselves!" }
+      ]
+    },
+    {
+      "title": "6. Negation and pronouns",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je n'aurai pas fini avant ce soir.", "I won't have finished before tonight."],
+          ["Je l'aurai fini avant ce soir.", "I'll have finished it before tonight."],
+          ["Il ne sera pas encore rentré.", "He won't have come home yet."]
+        ]
+      },
+      "examples": [
+        { "fr": "Dans dix ans, {tu n'auras pas appris|fa-negation} à cuisiner.", "en": "In ten years, you won't have learnt to cook." },
+        { "fr": "Camille {l'aura chantée|fa-negation} avec moi.", "en": "Camille will have sung it with me." }
+      ],
+      "tip": "With **avoir**, the participle agrees with a pronoun placed before it: *la chanson* → *elle **l'**aura chant**ée***."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Quand tu as fini, tu m'appelleras.", "right": "Quand tu auras fini, tu m'appelleras.", "why": "After **quand** about the future, French uses a future tense: here the futur antérieur." },
+    { "wrong": "Dans dix ans, j'aurai devenu architecte.", "right": "Dans dix ans, je serai devenu architecte.", "why": "**devenir** takes **être**, as in the passé composé." },
+    { "wrong": "Elle sera parti avant midi.", "right": "Elle sera partie avant midi.", "why": "With **être**, the participle agrees with the subject: *partie*." },
+    { "wrong": "Quand je serai fini, je partirai.", "right": "Quand j'aurai fini, je partirai.", "why": "**finir** takes **avoir**." },
+    { "wrong": "Je n'aurai fini pas avant ce soir.", "right": "Je n'aurai pas fini avant ce soir.", "why": "**ne… pas** goes around the auxiliary, not the participle." }
+  ],
+  "story": {
+    "title": "Une lettre pour dans dix ans",
+    "en": "Sunday 4 October, at Léa and Sophie's: everyone writes a letter to themselves, to be opened in ten years. Hugo is late.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche quatre octobre, chez Léa et Sophie, chaque ami écrit une lettre pour dans dix ans. Les lettres iront dans une vieille boîte en métal.", "en": "Sunday 4 October, at Léa and Sophie's: each friend writes a letter to be read in ten years. The letters will go in an old metal box." },
+      { "sp": "Léa", "fr": "On ouvrira la boîte dans dix ans. {Quand on aura lu les lettres, on rira|fa-ou-futur} de nous !", "en": "We'll open the box in ten years. When we've read the letters, we'll laugh at ourselves!" },
+      { "sp": "Sophie", "fr": "J'écris : « Chère Sophie, {quand tu liras cette lettre, tu seras|fa-ou-futur} architecte. {Tu auras construit|fa-forme} ta première maison. »", "en": "I'm writing: 'Dear Sophie, when you read this letter, you'll be an architect. You'll have built your first house.'" },
+      { "sp": "Tom", "fr": "Moi : « {Avant trente ans, j'aurai écrit|fa-date} une chanson pour Camille, et {elle l'aura chantée|fa-negation} avec moi. »", "en": "Me: 'Before I'm thirty, I'll have written a song for Camille, and she'll have sung it with me.'" },
+      { "sp": "Carla", "fr": "Et moi : « Carla, {dans dix ans, tu auras ouvert|fa-date} ton école de danse. »", "en": "And me: 'Carla, in ten years, you'll have opened your dance school.'" },
+      { "sp": "Inès", "fr": "Moi, je ne sais pas. {Je serai peut-être rentrée|fa-forme} à Madrid… ou pas.", "en": "I don't know. Maybe I'll have gone back to Madrid… or not." },
+      { "sp": "", "fr": "À trois heures, Hugo n'est toujours pas là.", "en": "At three, Hugo still isn't there." },
+      { "sp": "Léa", "fr": "{Il aura encore oublié|fa-supposition} l'heure.", "en": "He must have forgotten the time again." },
+      { "sp": "Sophie", "fr": "Ou {il se sera endormi|fa-supposition} devant la télé.", "en": "Or he must have fallen asleep in front of the TV." },
+      { "sp": "", "fr": "Enfin, on sonne. C'est Hugo, avec un gâteau… un peu brûlé.", "en": "At last, the doorbell rings. It's Hugo, with a cake… slightly burnt." },
+      { "sp": "Hugo", "fr": "Pardon ! Le gâteau n'était pas cuit, alors j'ai attendu.", "en": "Sorry! The cake wasn't done, so I waited." },
+      { "sp": "Hugo", "fr": "Ma lettre est courte : « Hugo, {quand tu auras lu|fa-avant} cette lettre, va acheter un gâteau. {Tu n'auras pas appris|fa-negation} à cuisiner. »", "en": "My letter's short: 'Hugo, when you've read this letter, go and buy a cake. You won't have learnt to cook.'" },
+      { "sp": "", "fr": "Tout le monde rit.", "en": "Everyone laughs." },
+      { "sp": "Tom", "fr": "Et la boîte, on la met où ?", "en": "And where do we put the box?" },
+      { "sp": "Léa", "fr": "À la ferme. Jules va la cacher dans la grange. {Dès qu'il l'aura cachée|fa-avant}, on l'oubliera pendant dix ans.", "en": "At the farm. Jules is going to hide it in the barn. As soon as he's hidden it, we'll forget it for ten years." },
+      { "sp": "Carla", "fr": "Et si on l'ouvre avant ?", "en": "And what if we open it before then?" },
+      { "sp": "Sophie", "fr": "Interdit ! {Dans dix ans, on aura tous changé|fa-date}… sauf Hugo.", "en": "Not allowed! In ten years, we'll all have changed… except Hugo." },
+      { "sp": "Hugo", "fr": "Pas sûr ! {Dans dix ans, je serai devenu|fa-date} un grand chef !", "en": "Not so sure! In ten years, I'll have become a great chef!" },
+      { "sp": "Léa", "fr": "Alors, {quand tu seras devenu|fa-avant} un grand chef, tu nous inviteras.", "en": "Then, when you've become a great chef, you'll invite us." }
+    ]
+  },
+  "quiz": [
+    { "case": "fa-forme", "type": "mc", "q": "Dans dix ans, nous ___ tous changé.", "en": "In ten years, we'll all have changed.", "options": ["aurons", "serons", "avons"], "answer": "aurons" },
+    { "case": "fa-forme", "type": "mc", "q": "Dans dix ans, elle ___ devenue architecte.", "en": "In ten years, she'll have become an architect.", "options": ["sera", "aura", "est"], "answer": "sera" },
+    { "case": "fa-avant", "type": "mc", "q": "Quand tu ___ fini, tu m'appelleras.", "en": "When you've finished, you'll call me.", "options": ["auras", "as", "aurais"], "answer": "auras" },
+    { "case": "fa-avant", "type": "mc", "q": "Dès que Jules ___ caché la boîte, on l'oubliera.", "en": "As soon as Jules has hidden the box, we'll forget it.", "options": ["aura", "a", "avait"], "answer": "aura" },
+    { "case": "fa-date", "type": "mc", "q": "Avant Noël, ils ___ fini la piste cyclable.", "en": "Before Christmas, they'll have finished the cycle lane.", "options": ["auront", "ont", "seront"], "answer": "auront" },
+    { "case": "fa-date", "type": "type", "q": "Dans dix ans, j'aurai ___ (ouvrir) mon école.", "en": "In ten years, I'll have opened my school.", "answer": "ouvert" },
+    { "case": "fa-supposition", "type": "mc", "lang": "en", "q": "« Il aura oublié l'heure » means…", "options": ["He must have forgotten the time.", "He will forget the time.", "He forgot the time yesterday."], "answer": "He must have forgotten the time.", "say": "Il aura oublié l'heure." },
+    { "case": "fa-supposition", "type": "mc", "q": "Elle ne répond pas : elle ___ partie.", "en": "She isn't answering: she must have left.", "options": ["sera", "aura", "est"], "answer": "sera" },
+    { "case": "fa-ou-futur", "type": "mc", "q": "Quand ___ la lettre, je la rangerai.", "en": "When I've read the letter, I'll put it away.", "options": ["j'aurai lu", "j'ai lu", "je lis"], "answer": "j'aurai lu" },
+    { "case": "fa-ou-futur", "type": "mc", "q": "Quand il arrivera, on ___.", "en": "When he arrives, we'll eat.", "options": ["mangera", "aura mangé", "mange"], "answer": "mangera" },
+    { "case": "fa-negation", "type": "mc", "q": "Je ___ pas fini avant ce soir.", "en": "I won't have finished before tonight.", "options": ["n'aurai", "aurai", "ne serai"], "answer": "n'aurai" },
+    { "case": "fa-negation", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je l'aurai fini avant ce soir.", "J'aurai le fini avant ce soir.", "J'aurai fini le avant ce soir."], "answer": "Je l'aurai fini avant ce soir." }
+  ]
+}

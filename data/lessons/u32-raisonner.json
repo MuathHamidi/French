@@ -1,0 +1,166 @@
+{
+  "id": "u32-raisonner",
+  "type": "vocab",
+  "unit": 32,
+  "title": "Raisonner",
+  "en": "Reasoning",
+  "intro": "25 words for thinking things through: reasoning (**raisonner, le raisonnement, logique, logiquement, cohérent, absurde, la contradiction**), building an argument (**l'hypothèse, déduire, démontrer, éliminer, conclure, la conclusion, la cause, la conséquence, par conséquent, autrement dit**), how sure you are (**certainement, probablement, paraître**) and puzzles (**l'énigme, l'indice, le mystère, le piège, résoudre**).",
+  "words": [
+    { "id": "raisonner", "fr": "raisonner", "pos": "verb", "ipa": "ʁɛ.zɔ.ne", "en": "to reason, to think logically", "def": "Utiliser sa tête pour aller d'une idée à une autre, et trouver une réponse.", "def_en": "To use your head to go from one idea to the next and find an answer.", "forms": ["raisonne", "raisonnes", "raisonnons", "raisonnez", "raisonnent", "raisonné", "raisonnais", "raisonnait", "raisonnions", "raisonniez", "raisonnaient", "raisonnerai", "raisonneras", "raisonnera", "raisonnerons", "raisonnerez", "raisonneront", "raisonnerais", "raisonnerait", "raisonnerions", "raisonneriez", "raisonneraient", "raisonnant"], "examples": [
+      { "fr": "Arrête de paniquer, et **raisonne** !", "en": "Stop panicking and think!" },
+      { "fr": "Elle **raisonne** comme la police.", "en": "She reasons like the police." },
+      { "fr": "On a bien **raisonné**.", "en": "We reasoned it out well." }
+    ] },
+    { "id": "raisonnement", "fr": "raisonnement", "pos": "noun", "g": "m", "ipa": "ʁɛ.zɔn.mɑ̃", "en": "reasoning, argument", "def": "Des idées qui se suivent, et qui vont vers une réponse.", "def_en": "Ideas that follow on from each other towards an answer.", "forms": ["raisonnements"], "examples": [
+      { "fr": "Ton **raisonnement** est faux.", "en": "Your reasoning is wrong." },
+      { "fr": "Je ne comprends pas ton **raisonnement**.", "en": "I don't follow your reasoning." },
+      { "fr": "C'est un **raisonnement** très simple.", "en": "It's a very simple argument." }
+    ] },
+    { "id": "logique", "fr": "logique", "pos": "adj", "ipa": "lɔ.ʒik", "en": "logical; (la logique) logic", "def": "Qui suit un bon raisonnement. Comme nom : l'art de bien raisonner.", "def_en": "Following sound reasoning. As a noun: the art of reasoning well.", "forms": ["logiques"], "examples": [
+      { "fr": "C'est **logique** !", "en": "That makes sense!" },
+      { "fr": "Ce n'est pas très **logique**.", "en": "That's not very logical." },
+      { "fr": "Tom a une **logique** bien à lui.", "en": "Tom has a logic all of his own." }
+    ] },
+    { "id": "logiquement", "fr": "logiquement", "pos": "adv", "ipa": "lɔ.ʒik.mɑ̃", "en": "logically; normally, if all goes to plan", "def": "En suivant un bon raisonnement. Aussi : si tout se passe comme prévu.", "def_en": "Following sound reasoning. Also: if everything goes as planned.", "examples": [
+      { "fr": "**Logiquement**, la clé est dans la boîte.", "en": "Logically, the key is in the box." },
+      { "fr": "**Logiquement**, il arrive à huit heures.", "en": "He should be here at eight." },
+      { "fr": "Réfléchis **logiquement** !", "en": "Think logically!" }
+    ] },
+    { "id": "conclure", "fr": "conclure", "pos": "verb", "ipa": "kɔ̃.klyʁ", "en": "to conclude; to finish", "extra": "je **conclus**, nous **concluons**, ils **concluent**; j'ai **conclu**.", "def": "Trouver la réponse, à la fin d'un raisonnement. Aussi : finir un discours ou un texte.", "def_en": "To find the answer at the end of some reasoning. Also: to finish a speech or a text.", "forms": ["conclus", "conclut", "concluons", "concluez", "concluent", "conclu", "conclue", "conclues", "concluais", "concluait", "concluions", "concluiez", "concluaient", "conclurai", "concluras", "conclura", "conclurons", "conclurez", "concluront", "conclurais", "conclurait", "conclurions", "concluriez", "concluraient", "concluant"], "examples": [
+      { "fr": "J'en **conclus** que tu as faim.", "en": "I take it you're hungry." },
+      { "fr": "Pour **conclure**, merci à tous !", "en": "To finish, thank you all!" },
+      { "fr": "Qu'est-ce que vous **concluez** ?", "en": "What do you conclude?" }
+    ] },
+    { "id": "conclusion", "fr": "conclusion", "pos": "noun", "g": "f", "ipa": "kɔ̃.kly.zjɔ̃", "en": "conclusion", "def": "Ce qu'on décide ou ce qu'on comprend à la fin. Aussi : la fin d'un texte.", "def_en": "What you decide or understand at the end. Also: the end of a text.", "forms": ["conclusions"], "note": "**en conclusion** = to conclude.", "examples": [
+      { "fr": "Quelle est ta **conclusion** ?", "en": "What's your conclusion?" },
+      { "fr": "La **conclusion** est simple : on a perdu.", "en": "The conclusion is simple: we've lost." },
+      { "fr": "En **conclusion**, je suis d'accord.", "en": "To conclude, I agree." }
+    ] },
+    { "id": "deduire", "fr": "déduire", "pos": "verb", "ipa": "de.dɥiʁ", "en": "to deduce, to work out; to deduct", "extra": "like **conduire**: je **déduis**, nous **déduisons**; j'ai **déduit**.", "def": "Comprendre une chose grâce à d'autres informations.", "def_en": "To understand something thanks to other information.", "forms": ["déduis", "déduit", "déduisons", "déduisez", "déduisent", "déduite", "déduits", "déduites", "déduisais", "déduisait", "déduisions", "déduisiez", "déduisaient", "déduirai", "déduiras", "déduira", "déduirons", "déduirez", "déduiront", "déduirais", "déduirait", "déduirions", "déduiriez", "déduiraient", "déduise", "déduises", "déduisant"], "examples": [
+      { "fr": "J'en **déduis** que tu n'as pas dormi.", "en": "I gather you didn't sleep." },
+      { "fr": "Qu'est-ce que tu **déduis** de cet indice ?", "en": "What do you work out from this clue?" },
+      { "fr": "Elle a **déduit** le code grâce à la photo.", "en": "She worked out the code from the photo." }
+    ] },
+    { "id": "hypothese", "fr": "hypothèse", "pos": "noun", "g": "f", "ipa": "i.pɔ.tɛz", "en": "hypothesis, theory", "def": "Une idée qu'on pense possible, mais qu'il faut encore vérifier.", "def_en": "An idea you think is possible, but which still needs checking.", "forms": ["hypothèses"], "examples": [
+      { "fr": "J'ai une **hypothèse** !", "en": "I've got a theory!" },
+      { "fr": "Ton **hypothèse** est intéressante.", "en": "Your hypothesis is interesting." },
+      { "fr": "Il faut vérifier toutes les **hypothèses**.", "en": "We need to check every hypothesis." }
+    ] },
+    { "id": "consequence", "fr": "conséquence", "pos": "noun", "g": "f", "ipa": "kɔ̃.se.kɑ̃s", "en": "consequence", "def": "Ce qui arrive à cause d'une autre chose.", "def_en": "What happens because of something else.", "forms": ["conséquences"], "examples": [
+      { "fr": "Le retard a des **conséquences** graves.", "en": "The delay has serious consequences." },
+      { "fr": "Réfléchis aux **conséquences** !", "en": "Think about the consequences!" },
+      { "fr": "La **conséquence**, c'est qu'on est bloqués.", "en": "The result is that we're stuck." }
+    ] },
+    { "id": "par-consequent", "fr": "par conséquent", "pos": "expr", "ipa": "paʁ kɔ̃.se.kɑ̃", "en": "consequently, therefore", "def": "Des mots pour dire qu'une chose arrive à cause de la chose d'avant.", "def_en": "Words to say that something happens because of what came before.", "examples": [
+      { "fr": "Il pleut, **par conséquent** on reste à la maison.", "en": "It's raining, so we're staying in." },
+      { "fr": "Le train est supprimé ; **par conséquent**, on prend l'autocar.", "en": "The train's cancelled; therefore we're taking the coach." },
+      { "fr": "Tu as raison, **par conséquent** je change d'avis.", "en": "You're right, so I'm changing my mind." }
+    ] },
+    { "id": "autrement-dit", "fr": "autrement dit", "pos": "expr", "ipa": "o.tʁə.mɑ̃ di", "en": "in other words", "def": "Des mots pour dire la même chose d'une autre façon.", "def_en": "Words for saying the same thing another way.", "examples": [
+      { "fr": "Hugo est toujours en retard ; **autrement dit**, il n'est jamais à l'heure !", "en": "Hugo is always late; in other words, he's never on time!" },
+      { "fr": "C'est gratuit, **autrement dit** on ne paie rien.", "en": "It's free, in other words you pay nothing." },
+      { "fr": "**Autrement dit**, tu ne viens pas ?", "en": "In other words, you're not coming?" }
+    ] },
+    { "id": "certainement", "fr": "certainement", "pos": "adv", "ipa": "sɛʁ.tɛn.mɑ̃", "en": "certainly; most likely", "def": "Sans aucun doute, ou presque.", "def_en": "Without any doubt, or almost.", "examples": [
+      { "fr": "Il viendra **certainement** demain.", "en": "He'll most likely come tomorrow." },
+      { "fr": "Tu as **certainement** raison.", "en": "You're certainly right." },
+      { "fr": "**Certainement** pas !", "en": "Certainly not!" }
+    ] },
+    { "id": "probablement", "fr": "probablement", "pos": "adv", "ipa": "pʁɔ.ba.blə.mɑ̃", "en": "probably", "def": "Avec beaucoup de chances, mais pas à cent pour cent.", "def_en": "Very likely, but not a hundred per cent.", "examples": [
+      { "fr": "Il va **probablement** pleuvoir.", "en": "It's probably going to rain." },
+      { "fr": "C'est **probablement** une erreur.", "en": "It's probably a mistake." },
+      { "fr": "Hugo dort **probablement** encore.", "en": "Hugo is probably still asleep." }
+    ] },
+    { "id": "indice", "fr": "indice", "pos": "noun", "g": "m", "ipa": "ɛ̃.dis", "en": "clue", "def": "Une petite information qui aide à trouver la solution.", "def_en": "A small piece of information that helps you find the solution.", "forms": ["indices"], "examples": [
+      { "fr": "Donne-moi un **indice** !", "en": "Give me a clue!" },
+      { "fr": "La police cherche des **indices**.", "en": "The police are looking for clues." },
+      { "fr": "Cet **indice** est très utile.", "en": "This clue is very useful." }
+    ] },
+    { "id": "enigme", "fr": "énigme", "pos": "noun", "g": "f", "ipa": "e.niɡm", "en": "riddle, puzzle; mystery", "def": "Une question difficile, qu'il faut deviner ou comprendre.", "def_en": "A hard question that you have to guess or figure out.", "forms": ["énigmes"], "examples": [
+      { "fr": "Je n'arrive pas à trouver la réponse de cette **énigme**.", "en": "I can't find the answer to this riddle." },
+      { "fr": "Lou adore les **énigmes**.", "en": "Lou loves riddles." },
+      { "fr": "Pour moi, Hugo est une **énigme**.", "en": "To me, Hugo is a mystery." }
+    ] },
+    { "id": "resoudre", "fr": "résoudre", "pos": "verb", "ipa": "ʁe.zudʁ", "en": "to solve, to resolve", "extra": "je **résous**, il **résout**, nous **résolvons**, ils **résolvent**; j'ai **résolu**.", "def": "Trouver la solution d'un problème ou d'une énigme.", "def_en": "To find the solution to a problem or a riddle.", "forms": ["résous", "résout", "résolvons", "résolvez", "résolvent", "résolu", "résolue", "résolus", "résolues", "résolvais", "résolvait", "résolvions", "résolviez", "résolvaient", "résoudrai", "résoudras", "résoudra", "résoudrons", "résoudrez", "résoudront", "résoudrais", "résoudrait", "résoudrions", "résoudriez", "résoudraient", "résolve", "résolves", "résolvant"], "examples": [
+      { "fr": "On a **résolu** l'énigme !", "en": "We've solved the riddle!" },
+      { "fr": "Il faut **résoudre** ce problème vite.", "en": "This problem needs solving fast." },
+      { "fr": "La police **résout** l'affaire.", "en": "The police solve the case." }
+    ] },
+    { "id": "demontrer", "fr": "démontrer", "pos": "verb", "ipa": "de.mɔ̃.tʁe", "en": "to demonstrate, to prove, to show", "def": "Montrer qu'une chose est vraie, avec des preuves ou un raisonnement.", "def_en": "To show that something is true, with evidence or reasoning.", "forms": ["démontre", "démontres", "démontrons", "démontrez", "démontrent", "démontré", "démontrée", "démontrés", "démontrées", "démontrais", "démontrait", "démontrions", "démontriez", "démontraient", "démontrerai", "démontreras", "démontrera", "démontrerons", "démontrerez", "démontreront", "démontrerais", "démontrerait", "démontrerions", "démontreriez", "démontreraient", "démontrant"], "examples": [
+      { "fr": "Inès **démontre** que la clé est un piège.", "en": "Inès proves the key is a trap." },
+      { "fr": "Je vais te **démontrer** que j'ai raison.", "en": "I'll prove to you that I'm right." },
+      { "fr": "Les chercheurs ont **démontré** que le vaccin fonctionne.", "en": "The researchers have shown that the vaccine works." }
+    ] },
+    { "id": "eliminer", "fr": "éliminer", "pos": "verb", "ipa": "e.li.mi.ne", "en": "to eliminate, to rule out; to get rid of", "def": "Enlever une réponse possible, parce qu'elle est fausse. Aussi : faire sortir d'un jeu ou d'un concours.", "def_en": "To remove a possible answer because it's wrong. Also: to put out of a game or a competition.", "forms": ["élimine", "élimines", "éliminons", "éliminez", "éliminent", "éliminé", "éliminée", "éliminés", "éliminées", "éliminais", "éliminait", "éliminions", "éliminiez", "éliminaient", "éliminerai", "élimineras", "éliminera", "éliminerons", "éliminerez", "élimineront", "éliminerais", "éliminerait", "éliminerions", "élimineriez", "élimineraient", "éliminant"], "examples": [
+      { "fr": "On peut **éliminer** la boîte rouge.", "en": "We can rule out the red box." },
+      { "fr": "Notre équipe est **éliminée** !", "en": "Our team is knocked out!" },
+      { "fr": "Il faut **éliminer** les mauvaises réponses.", "en": "We need to get rid of the wrong answers." }
+    ] },
+    { "id": "absurde", "fr": "absurde", "pos": "adj", "ipa": "ap.syʁd", "en": "absurd, ridiculous", "def": "Qui n'a pas de sens, qui est contraire à la logique.", "def_en": "Making no sense, contrary to logic.", "forms": ["absurdes"], "examples": [
+      { "fr": "C'est **absurde** !", "en": "That's absurd!" },
+      { "fr": "Quelle idée **absurde** !", "en": "What a ridiculous idea!" },
+      { "fr": "Cette règle est **absurde**.", "en": "This rule is absurd." }
+    ] },
+    { "id": "coherent", "fr": "cohérent", "pos": "adj", "ipa": "kɔ.e.ʁɑ̃", "display": "cohérent, cohérente", "en": "consistent, coherent", "def": "Logique, avec toutes les parties qui vont bien ensemble.", "def_en": "Logical, with all the parts fitting together.", "forms": ["cohérente", "cohérents", "cohérentes"], "accept": ["cohérente"], "examples": [
+      { "fr": "Ton histoire n'est pas **cohérente**.", "en": "Your story doesn't hang together." },
+      { "fr": "C'est un plan **cohérent**.", "en": "It's a coherent plan." },
+      { "fr": "Il faut être **cohérent** : tu ne peux pas dire oui et non.", "en": "You have to be consistent: you can't say yes and no." }
+    ] },
+    { "id": "contradiction", "fr": "contradiction", "pos": "noun", "g": "f", "ipa": "kɔ̃.tʁa.dik.sjɔ̃", "en": "contradiction", "def": "Quand deux idées ou deux phrases ne peuvent pas être vraies en même temps.", "def_en": "When two ideas or two sentences can't both be true at the same time.", "forms": ["contradictions"], "examples": [
+      { "fr": "Il y a une **contradiction** dans ton raisonnement.", "en": "There's a contradiction in your reasoning." },
+      { "fr": "Tu es plein de **contradictions** !", "en": "You're full of contradictions!" },
+      { "fr": "Ce n'est pas une **contradiction**.", "en": "It isn't a contradiction." }
+    ] },
+    { "id": "paraitre", "fr": "paraître", "pos": "verb", "ipa": "pa.ʁɛtʁ", "en": "to seem, to appear; (il paraît que) apparently, they say that", "extra": "like **connaître**: il **paraît**, ils **paraissent**; il a **paru**.", "def": "Avoir l'air. « Il paraît que » : on dit que, j'ai entendu que.", "def_en": "To look, to seem. 'Il paraît que': people say that, I've heard that.", "forms": ["parais", "paraît", "paraissons", "paraissez", "paraissent", "paru", "parue", "parus", "parues", "paraissais", "paraissait", "paraissions", "paraissiez", "paraissaient", "paraîtrai", "paraîtras", "paraîtra", "paraîtrons", "paraîtrez", "paraîtront", "paraîtrais", "paraîtrait", "paraîtrions", "paraîtriez", "paraîtraient", "paraisse", "paraisses", "paraissant"], "note": "Its most common use is the phrase **il paraît que** (apparently, I've heard that).", "examples": [
+      { "fr": "Ça **paraît** facile, mais c'est difficile.", "en": "It looks easy, but it's hard." },
+      { "fr": "Elle **paraît** fatiguée.", "en": "She looks tired." },
+      { "fr": "Ce problème **paraît** simple, mais il ne l'est pas.", "en": "This problem looks simple, but it isn't." }
+    ] },
+    { "id": "cause", "fr": "cause", "pos": "noun", "g": "f", "ipa": "koz", "en": "cause", "def": "Ce qui fait arriver une chose ; la raison d'un événement.", "def_en": "What makes something happen; the reason for an event.", "forms": ["causes"], "note": "**à cause de** = because of.", "examples": [
+      { "fr": "Quelle est la **cause** de l'accident ?", "en": "What caused the accident?" },
+      { "fr": "La pluie est la **cause** du retard.", "en": "The rain is the cause of the delay." },
+      { "fr": "On ne connaît pas les **causes** de la panne.", "en": "We don't know what caused the breakdown." }
+    ] },
+    { "id": "mystere", "fr": "mystère", "pos": "noun", "g": "m", "ipa": "mis.tɛʁ", "en": "mystery", "def": "Une chose qu'on ne comprend pas, ou qu'on ne peut pas expliquer.", "def_en": "Something you don't understand or can't explain.", "forms": ["mystères"], "examples": [
+      { "fr": "C'est un **mystère** !", "en": "It's a mystery!" },
+      { "fr": "Où sont mes clés ? **Mystère** !", "en": "Where are my keys? No idea!" },
+      { "fr": "La police n'a pas résolu le **mystère**.", "en": "The police haven't solved the mystery." }
+    ] },
+    { "id": "piege", "fr": "piège", "pos": "noun", "g": "m", "ipa": "pjɛʒ", "en": "trap", "def": "Une chose cachée, pour attraper un animal ou une personne. Aussi : une question faite pour qu'on se trompe.", "def_en": "A hidden thing for catching an animal or a person. Also: a question meant to trick you.", "forms": ["pièges"], "examples": [
+      { "fr": "Attention, c'est un **piège** !", "en": "Careful, it's a trap!" },
+      { "fr": "Le renard est tombé dans le **piège**.", "en": "The fox fell into the trap." },
+      { "fr": "Cette question est un **piège**.", "en": "This question is a trick." }
+    ] }
+  ],
+  "story": {
+    "title": "Le jeu d'évasion",
+    "en": "Wednesday 7 October: the six friends are locked in a mad scientist's laboratory, with an hour to find the way out.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi sept octobre, les six amis font un jeu d'évasion : « Le mystère du savant fou ». Ils ont une heure pour sortir de son laboratoire.", "en": "Wednesday 7 October: the six friends are doing an escape room, 'The Mystery of the Mad Scientist'. They have an hour to get out of his laboratory." },
+      { "sp": "Le maître du jeu", "fr": "Pour ouvrir la porte, il faut trouver le code du cadenas. Attention aux pièges ! Bonne chance.", "en": "To open the door, you need the padlock code. Watch out for traps! Good luck." },
+      { "sp": "", "fr": "La porte se ferme. Sur le mur, il y a une énigme : « J'ai des aiguilles, mais je ne pique pas. Qui suis-je ? »", "en": "The door closes. On the wall, there's a riddle: 'I have needles, but I don't sting. What am I?'" },
+      { "sp": "Tom", "fr": "Des aiguilles qui ne piquent pas ? Ça paraît absurde !", "en": "Needles that don't sting? That sounds absurd!" },
+      { "sp": "Inès", "fr": "Raisonnons. Les aiguilles d'une montre ne piquent pas. Par conséquent, la réponse, c'est une montre… ou une horloge !", "en": "Let's think. The hands of a watch don't sting. So the answer is a watch… or a clock!" },
+      { "sp": "", "fr": "Il y a une grande horloge au mur. Derrière, Sophie trouve une petite clé.", "en": "There's a big clock on the wall. Behind it, Sophie finds a little key." },
+      { "sp": "Hugo", "fr": "La clé de la porte ! On a gagné !", "en": "The key to the door! We've won!" },
+      { "sp": "Léa", "fr": "Attends, Hugo. Elle est trop petite pour la porte. C'est certainement un piège.", "en": "Wait, Hugo. It's too small for the door. It must be a trap." },
+      { "sp": "Carla", "fr": "Ou un indice. Elle ouvre probablement autre chose… Le tiroir du bureau !", "en": "Or a clue. It probably opens something else… The desk drawer!" },
+      { "sp": "", "fr": "Dans le tiroir, il y a une feuille : « Mon code : les pattes d'un oiseau, d'un chat, d'une araignée et d'un insecte. »", "en": "In the drawer there's a sheet of paper: 'My code: the legs of a bird, a cat, a spider and an insect.'" },
+      { "sp": "Hugo", "fr": "Une araignée a… quatre pattes ? Mon hypothèse : quatre !", "en": "A spider has… four legs? My theory: four!" },
+      { "sp": "Inès", "fr": "Ton hypothèse n'est pas logique, Hugo : une araignée a huit pattes ! Un oiseau en a deux, un chat quatre, et un insecte six.", "en": "Your theory doesn't make sense, Hugo: a spider has eight legs! A bird has two, a cat four, and an insect six." },
+      { "sp": "Hugo", "fr": "Facile : huit, six, quatre, deux ! Du plus grand au plus petit !", "en": "Easy: eight, six, four, two! From biggest to smallest!" },
+      { "sp": "", "fr": "Hugo tape huit, six, quatre, deux. Le cadenas reste fermé. Conséquence : le maître du jeu enlève cinq minutes !", "en": "Hugo types eight, six, four, two. The padlock stays shut. As a result, the game master takes off five minutes!" },
+      { "sp": "Carla", "fr": "Il y a une contradiction dans ton raisonnement, Hugo. Pourquoi cet ordre ? Ce n'est pas cohérent avec la feuille.", "en": "There's a contradiction in your reasoning, Hugo. Why that order? It doesn't fit the sheet." },
+      { "sp": "Tom", "fr": "Logiquement, il faut suivre l'ordre de la phrase : oiseau, chat, araignée, insecte.", "en": "Logically, we should follow the order of the sentence: bird, cat, spider, insect." },
+      { "sp": "Inès", "fr": "Autrement dit : deux, quatre, huit, six. J'en déduis que c'est le bon code !", "en": "In other words: two, four, eight, six. I deduce that's the right code!" },
+      { "sp": "Sophie", "fr": "On peut éliminer l'idée de Hugo, et tester celle d'Inès.", "en": "We can rule out Hugo's idea and try Inès's." },
+      { "sp": "", "fr": "Inès tape deux, quatre, huit, six… et le cadenas s'ouvre ! Ils sortent trente secondes avant la fin.", "en": "Inès types two, four, eight, six… and the padlock opens! They get out thirty seconds before the end." },
+      { "sp": "Le maître du jeu", "fr": "Bravo ! Il paraît que seulement dix pour cent des joueurs résolvent cette énigme.", "en": "Well done! Apparently only ten per cent of players solve this riddle." },
+      { "sp": "Sophie", "fr": "J'en conclus une chose : sans Inès, on serait encore dans le laboratoire.", "en": "I draw one conclusion: without Inès, we'd still be in the lab." },
+      { "sp": "Inès", "fr": "Et la cause de nos cinq minutes perdues, c'est Hugo !", "en": "And the cause of our five lost minutes is Hugo!" },
+      { "sp": "Hugo", "fr": "Je peux démontrer que j'ai aidé : sans mon erreur, vous n'auriez pas trouvé le bon ordre !", "en": "I can prove I helped: without my mistake, you wouldn't have found the right order!" },
+      { "sp": "Léa", "fr": "Conclusion : le vrai mystère, c'est ton cerveau, Hugo.", "en": "Conclusion: the real mystery is your brain, Hugo." }
+    ]
+  }
+}

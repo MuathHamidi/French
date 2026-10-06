@@ -37,7 +37,7 @@
         "head": ["With the nouns", "With two pronouns"], "frCols": [0, 1],
         "rows": [
           ["Je donne le livre à Lou.", "Je le lui donne."],
-          ["Elle montre les photos à ses parents.", "Elle les leur montre."],
+          ["Elle montre les photos à ses parents.", "Elle les [leur|leur-pron] [montre|montrer]."],
           ["Il prête sa voiture à Hugo.", "Il la lui prête."]
         ]
       },

@@ -1,0 +1,161 @@
+{
+  "id": "u32-depuis",
+  "type": "grammar",
+  "unit": 32,
+  "title": "Depuis quand ?",
+  "en": "depuis, il y a, pendant, en, dans, pour",
+  "intro": "English says *for*, *ago* and *in* for very different things. French has a word for each: **depuis** (still going on), **il y a** (ago), **pendant** (a finished stretch of time), **en** (the time it takes), **dans** (from now) and **pour** (a planned length). *Je suis tombé **il y a** deux semaines, j'ai des béquilles **depuis** deux semaines, et **dans** une semaine je pourrai danser.*",
+  "cases": [
+    { "id": "dep-depuis", "label": "depuis: still going on", "rule": "**depuis** + a length of time or a date, with the **present** because it's still true: *J'ai des béquilles **depuis** deux semaines* (for two weeks), ***depuis** le dix-neuf septembre* (since). Same meaning: **ça fait… que**: *ça fait deux semaines que j'ai des béquilles*." },
+    { "id": "dep-il-y-a", "label": "il y a: ago", "rule": "**il y a** + a length of time = *ago*, with a past tense: *Je suis tombé **il y a** deux semaines.*" },
+    { "id": "dep-pendant", "label": "pendant: a finished stretch of time", "rule": "**pendant** gives the length of an action that is over, or planned: *J'ai mis de la glace **pendant** une semaine. Pas de course **pendant** un mois.*" },
+    { "id": "dep-en", "label": "en: the time it takes", "rule": "**en** + a length of time = how long it takes to do something: *Il a monté l'escalier **en** deux minutes.*" },
+    { "id": "dep-dans", "label": "dans: from now", "rule": "**dans** + a length of time = a moment in the future, counted from now: ***Dans** une semaine, vous pourrez danser.*" },
+    { "id": "dep-pour", "label": "pour: a planned length", "rule": "**pour** + a length of time, often with *partir, venir, donner, louer*: the time something is meant to last. *Je vous donne des exercices **pour** trois semaines.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. depuis: still going on",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai des béquilles depuis deux semaines.", "I've had crutches for two weeks."],
+          ["J'habite ici depuis le mois de juillet.", "I've lived here since July."],
+          ["Ça fait deux semaines que je travaille à la maison.", "I've been working from home for two weeks."]
+        ]
+      },
+      "examples": [
+        { "fr": "Et vous marchez avec des béquilles {depuis|dep-depuis} deux semaines ?", "en": "And you've been on crutches for two weeks?" },
+        { "fr": "{Ça fait|dep-depuis} deux semaines que je travaille à la maison.", "en": "I've been working from home for two weeks." }
+      ],
+      "tip": "English uses *have been* + *for*; French uses the present + **depuis**: *I've been waiting for an hour* = *j'attends **depuis** une heure*."
+    },
+    {
+      "title": "2. il y a: ago",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis tombé il y a deux semaines.", "I fell two weeks ago."],
+          ["Il est parti il y a cinq minutes.", "He left five minutes ago."],
+          ["On s'est rencontrés il y a trois ans.", "We met three years ago."]
+        ]
+      },
+      "examples": [
+        { "fr": "Vous êtes tombé {il y a|dep-il-y-a} combien de temps ?", "en": "How long ago did you fall?" },
+        { "fr": "{Il y a|dep-il-y-a} deux semaines, le dix-neuf septembre.", "en": "Two weeks ago, on 19 September." }
+      ],
+      "tip": "**il y a** comes before the length of time: *il y a deux semaines* (two weeks ago)."
+    },
+    {
+      "title": "3. pendant: a finished stretch of time",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai mis de la glace pendant une semaine.", "I put ice on it for a week."],
+          ["Il a dormi pendant douze heures.", "He slept for twelve hours."],
+          ["Pas de course pendant un mois !", "No running for a month!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Pendant|dep-pendant} une semaine, trois fois par jour.", "en": "For a week, three times a day." },
+        { "fr": "Pas de course {pendant|dep-pendant} un mois.", "en": "No running for a month." }
+      ]
+    },
+    {
+      "title": "4. en: the time it takes",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il a monté l'escalier en deux minutes.", "He climbed the stairs in two minutes."],
+          ["Elle a lu le livre en une journée.", "She read the book in a day."],
+          ["On va à Marseille en deux heures de train.", "It takes two hours to get to Marseille by train."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le soir, il monte les trois étages {en|dep-en} deux minutes.", "en": "In the evening, he climbs the three floors in two minutes." },
+        { "fr": "Avant, je les montais {en|dep-en} dix minutes !", "en": "Before, it took me ten minutes to climb them!" }
+      ],
+      "tip": "**en** is the time it takes; **dans** is when it will happen: *je fais le gâteau **en** une heure* (it takes an hour), *le gâteau est prêt **dans** une heure* (an hour from now)."
+    },
+    {
+      "title": "5. dans: from now",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Dans une semaine, vous pourrez danser.", "In a week, you'll be able to dance."],
+          ["Le train part dans dix minutes.", "The train leaves in ten minutes."],
+          ["Dans deux semaines, c'est le festival Lumière.", "The Lumière Festival is two weeks from now."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Dans|dep-dans} une semaine, vous pourrez danser.", "en": "In a week, you'll be able to dance." },
+        { "fr": "Et {dans|dep-dans} une semaine, je pourrai danser !", "en": "And in a week, I'll be able to dance!" }
+      ]
+    },
+    {
+      "title": "6. pour: a planned length",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je vous donne des exercices pour trois semaines.", "I'm giving you exercises for three weeks."],
+          ["Il part à la ferme pour le week-end.", "He's going to the farm for the weekend."],
+          ["On a loué une voiture pour quatre jours.", "We've hired a car for four days."]
+        ]
+      },
+      "examples": [
+        { "fr": "Je vous donne des exercices {pour|dep-pour} trois semaines.", "en": "I'm giving you exercises for three weeks." },
+        { "fr": "Viens à Marseille {pour|dep-pour} un week-end !", "en": "Come to Marseille for a weekend!" }
+      ],
+      "tip": "**pour** is the plan; **pendant** is what really happens: *je suis parti **pour** une semaine, mais je suis resté **pendant** un mois*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai eu des béquilles depuis deux semaines.", "right": "J'ai des béquilles depuis deux semaines.", "why": "When it's still true, **depuis** goes with the present." },
+    { "wrong": "Je travaille ici il y a deux ans.", "right": "Je travaille ici depuis deux ans.", "why": "For a situation still going on, use **depuis**, not **il y a**." },
+    { "wrong": "Je suis tombé deux semaines il y a.", "right": "Je suis tombé il y a deux semaines.", "why": "**il y a** comes before the length of time." },
+    { "wrong": "Il a monté l'escalier dans deux minutes.", "right": "Il a monté l'escalier en deux minutes.", "why": "The time it takes is **en**; **dans** means *from now*." },
+    { "wrong": "J'ai des béquilles pour deux semaines.", "right": "J'ai des béquilles depuis deux semaines.", "why": "For *I've had them for two weeks* (and still have them), use **depuis**." }
+  ],
+  "story": {
+    "title": "Plus de béquilles !",
+    "en": "Friday 2 October, two weeks after the wedding: Hugo goes back to the doctor with Carla.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi deux octobre, Hugo a rendez-vous chez le médecin, à Lyon. Carla vient avec lui.", "en": "Friday 2 October: Hugo has a doctor's appointment in Lyon. Carla comes with him." },
+      { "sp": "Le médecin", "fr": "Alors, vous êtes tombé {il y a|dep-il-y-a} combien de temps ?", "en": "So, how long ago did you fall?" },
+      { "sp": "Hugo", "fr": "{Il y a|dep-il-y-a} deux semaines, le dix-neuf septembre. À cause d'une abeille.", "en": "Two weeks ago, on 19 September. Because of a bee." },
+      { "sp": "Le médecin", "fr": "Et vous marchez avec des béquilles {depuis|dep-depuis} deux semaines ?", "en": "And you've been on crutches for two weeks?" },
+      { "sp": "Hugo", "fr": "Oui, et {ça fait|dep-depuis} deux semaines que je travaille à la maison. Je n'en peux plus !", "en": "Yes, and I've been working from home for two weeks. I can't take it any more!" },
+      { "sp": "Le médecin", "fr": "Vous avez mis de la glace {pendant|dep-pendant} combien de temps ?", "en": "How long did you put ice on it for?" },
+      { "sp": "Carla", "fr": "{Pendant|dep-pendant} une semaine, trois fois par jour. Je l'ai surveillé !", "en": "For a week, three times a day. I kept an eye on him!" },
+      { "sp": "", "fr": "Le médecin regarde la cheville. Elle n'est plus gonflée.", "en": "The doctor examines the ankle. It isn't swollen any more." },
+      { "sp": "Le médecin", "fr": "Très bien. Vous pouvez arrêter les béquilles aujourd'hui. {Dans|dep-dans} une semaine, vous pourrez danser.", "en": "Very good. You can stop using the crutches today. In a week, you'll be able to dance." },
+      { "sp": "Hugo", "fr": "Et courir ? Carla veut faire un marathon avec moi !", "en": "And running? Carla wants to run a marathon with me!" },
+      { "sp": "Le médecin", "fr": "Pas de course {pendant|dep-pendant} un mois. Je vous donne des exercices {pour|dep-pour} trois semaines.", "en": "No running for a month. I'm giving you exercises for three weeks." },
+      { "sp": "", "fr": "Hugo laisse ses béquilles au médecin et sort en marchant, tout seul.", "en": "Hugo leaves his crutches with the doctor and walks out on his own." },
+      { "sp": "", "fr": "Le soir, il monte les trois étages de son immeuble {en|dep-en} deux minutes.", "en": "In the evening, he climbs the three floors of his building in two minutes." },
+      { "sp": "Hugo", "fr": "Tom, regarde ! Avant, je les montais {en|dep-en} dix minutes !", "en": "Tom, look! Before, it took me ten minutes to climb them!" },
+      { "sp": "Tom", "fr": "Bravo ! {Depuis|dep-depuis} que tu es mon voisin, je ne t'ai jamais vu aussi rapide.", "en": "Well done! Since you became my neighbour, I've never seen you so fast." },
+      { "sp": "Hugo", "fr": "Demain, je vais à la Fête de la science… à pied !", "en": "Tomorrow, I'm going to the Science Festival… on foot!" },
+      { "sp": "", "fr": "Le téléphone sonne. C'est Mamie, en vidéo.", "en": "The phone rings. It's Granny, on a video call." },
+      { "sp": "Louise", "fr": "Mon chéri ! Tu marches sans béquilles {depuis|dep-depuis} quand ?", "en": "Darling! Since when have you been walking without crutches?" },
+      { "sp": "Hugo", "fr": "{Depuis|dep-depuis} ce matin, Mamie ! Et {dans|dep-dans} une semaine, je pourrai danser.", "en": "Since this morning, Granny! And in a week, I'll be able to dance." },
+      { "sp": "Louise", "fr": "Alors, viens à Marseille {pour|dep-pour} un week-end. Je te ferai des crêpes !", "en": "Then come to Marseille for a weekend. I'll make you crêpes!" },
+      { "sp": "Hugo", "fr": "J'arrive, Mamie ! Lyon, Marseille : {en|dep-en} deux heures de train, je suis chez toi.", "en": "I'm coming, Granny! Lyon to Marseille: two hours by train and I'm at your place." }
+    ]
+  },
+  "quiz": [
+    { "case": "dep-depuis", "type": "mc", "q": "J'ai des béquilles ___ deux semaines.", "en": "I've had crutches for two weeks.", "options": ["depuis", "il y a", "pendant"], "answer": "depuis" },
+    { "case": "dep-depuis", "type": "mc", "lang": "en", "q": "« Ça fait deux semaines que j'ai des béquilles » means…", "options": ["I've had crutches for two weeks.", "I had crutches two weeks ago.", "I'll have crutches in two weeks."], "answer": "I've had crutches for two weeks.", "say": "Ça fait deux semaines que j'ai des béquilles." },
+    { "case": "dep-il-y-a", "type": "mc", "q": "Je suis tombé ___ deux semaines.", "en": "I fell two weeks ago.", "options": ["il y a", "depuis", "dans"], "answer": "il y a" },
+    { "case": "dep-il-y-a", "type": "mc", "lang": "en", "q": "« Il y a dix jours » means…", "options": ["ten days ago", "for ten days", "in ten days"], "answer": "ten days ago", "say": "Il y a dix jours." },
+    { "case": "dep-pendant", "type": "mc", "q": "J'ai mis de la glace ___ une semaine.", "en": "I put ice on it for a week.", "options": ["pendant", "depuis", "dans"], "answer": "pendant" },
+    { "case": "dep-pendant", "type": "mc", "q": "Pas de course ___ un mois !", "en": "No running for a month!", "options": ["pendant", "il y a", "en"], "answer": "pendant" },
+    { "case": "dep-en", "type": "mc", "q": "Il a monté l'escalier ___ deux minutes.", "en": "He climbed the stairs in two minutes.", "options": ["en", "dans", "pour"], "answer": "en" },
+    { "case": "dep-en", "type": "mc", "q": "Elle a lu le livre ___ une journée.", "en": "She read the book in a day.", "options": ["en", "dans", "depuis"], "answer": "en" },
+    { "case": "dep-dans", "type": "mc", "q": "___ une semaine, vous pourrez danser.", "en": "In a week, you'll be able to dance.", "options": ["Dans", "En", "Il y a"], "answer": "Dans" },
+    { "case": "dep-dans", "type": "mc", "lang": "en", "q": "« Dans dix minutes » means…", "options": ["ten minutes from now", "ten minutes ago", "for ten minutes"], "answer": "ten minutes from now", "say": "Dans dix minutes." },
+    { "case": "dep-pour", "type": "mc", "q": "Je vous donne des exercices ___ trois semaines.", "en": "I'm giving you exercises for three weeks.", "options": ["pour", "il y a", "depuis"], "answer": "pour" },
+    { "case": "dep-pour", "type": "mc", "q": "Viens à Marseille ___ un week-end !", "en": "Come to Marseille for a weekend!", "options": ["pour", "il y a", "en"], "answer": "pour" }
+  ]
+}

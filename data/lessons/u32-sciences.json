@@ -1,0 +1,163 @@
+{
+  "id": "u32-sciences",
+  "type": "vocab",
+  "unit": 32,
+  "title": "Les sciences",
+  "en": "Science",
+  "intro": "25 words for science: the subjects (**la science, la chimie, la biologie, les mathématiques, scientifique, chimique**), the people and places (**le chercheur, la recherche, le laboratoire, le cobaye**), the ideas (**la théorie, la découverte, l'invention, inventer, l'évolution, la gravité**), what is studied (**la molécule, l'atome, la cellule, l'ADN, le cerveau, l'aimant**) and the work itself (**le microscope, tester, analyser**).",
+  "words": [
+    { "id": "science", "fr": "science", "pos": "noun", "g": "f", "ipa": "sjɑ̃s", "en": "science; (les sciences) science subjects", "def": "Ce qu'on sait sur le monde, et qu'on apprend en observant et en faisant des expériences.", "def_en": "What we know about the world, learnt by observing and doing experiments.", "forms": ["sciences"], "examples": [
+      { "fr": "La **science** avance vite.", "en": "Science is moving fast." },
+      { "fr": "Inès est bonne en **sciences**.", "en": "Inès is good at science." },
+      { "fr": "C'est la Fête de la **science** !", "en": "It's the Science Festival!" }
+    ] },
+    { "id": "scientifique", "fr": "scientifique", "pos": "adj", "ipa": "sjɑ̃.ti.fik", "en": "scientific; (noun) scientist", "def": "Qui a un rapport avec la science. Comme nom : une personne qui travaille dans la science.", "def_en": "To do with science. As a noun: a person who works in science.", "forms": ["scientifiques"], "examples": [
+      { "fr": "C'est une découverte **scientifique**.", "en": "It's a scientific discovery." },
+      { "fr": "Les **scientifiques** sont d'accord.", "en": "Scientists agree." },
+      { "fr": "Elle veut devenir **scientifique**.", "en": "She wants to become a scientist." }
+    ] },
+    { "id": "chercheur", "fr": "chercheur", "pos": "noun", "g": "m", "ipa": "ʃɛʁ.ʃœʁ", "display": "le chercheur, la chercheuse", "en": "researcher, scientist", "def": "Une personne qui étudie une question, pour trouver des choses nouvelles, souvent dans un laboratoire.", "def_en": "A person who studies a question to find out new things, often in a laboratory.", "forms": ["chercheuse", "chercheurs", "chercheuses"], "accept": ["chercheuse", "la chercheuse", "une chercheuse"], "examples": [
+      { "fr": "La **chercheuse** nous montre son microscope.", "en": "The researcher shows us her microscope." },
+      { "fr": "Les **chercheurs** étudient le cerveau.", "en": "The researchers study the brain." },
+      { "fr": "Mon oncle est **chercheur** en biologie.", "en": "My uncle is a biology researcher." }
+    ] },
+    { "id": "recherche", "fr": "recherche", "pos": "noun", "g": "f", "ipa": "ʁə.ʃɛʁʃ", "en": "research; search", "def": "Le travail des scientifiques, pour découvrir des choses nouvelles. Aussi : quand on cherche quelque chose.", "def_en": "Scientists' work to discover new things. Also: looking for something.", "forms": ["recherches"], "examples": [
+      { "fr": "Elle fait de la **recherche** sur les abeilles.", "en": "She does research on bees." },
+      { "fr": "Après une heure de **recherche**, on a trouvé les clés.", "en": "After an hour's search, we found the keys." },
+      { "fr": "La **recherche** coûte cher.", "en": "Research is expensive." }
+    ] },
+    { "id": "laboratoire", "fr": "laboratoire", "pos": "noun", "g": "m", "ipa": "la.bɔ.ʁa.twaʁ", "en": "laboratory, lab", "def": "Le lieu où les scientifiques font des expériences.", "def_en": "The place where scientists do experiments.", "forms": ["laboratoires"], "note": "Often shortened to **le labo**.", "examples": [
+      { "fr": "Le **laboratoire** est au troisième étage.", "en": "The lab is on the third floor." },
+      { "fr": "Dans ce **laboratoire**, on étudie les vaccins.", "en": "In this lab, they study vaccines." },
+      { "fr": "Il travaille dans un **laboratoire** de chimie.", "en": "He works in a chemistry lab." }
+    ] },
+    { "id": "chimie", "fr": "chimie", "pos": "noun", "g": "f", "ipa": "ʃi.mi", "en": "chemistry", "def": "La science qui étudie de quoi les choses sont faites, et ce qui se passe quand on les mélange.", "def_en": "The science that studies what things are made of, and what happens when they're mixed.", "examples": [
+      { "fr": "J'adore la **chimie** !", "en": "I love chemistry!" },
+      { "fr": "En **chimie**, il faut faire attention.", "en": "In chemistry, you have to be careful." },
+      { "fr": "Le cours de **chimie** est le jeudi.", "en": "The chemistry class is on Thursdays." }
+    ] },
+    { "id": "biologie", "fr": "biologie", "pos": "noun", "g": "f", "ipa": "bjɔ.lɔ.ʒi", "en": "biology", "def": "La science qui étudie la vie : les plantes, les animaux et le corps.", "def_en": "The science that studies life: plants, animals and the body.", "examples": [
+      { "fr": "Elle étudie la **biologie** à l'université.", "en": "She studies biology at university." },
+      { "fr": "En **biologie**, on observe des cellules.", "en": "In biology, you look at cells." },
+      { "fr": "J'ai eu une bonne note en **biologie**.", "en": "I got a good mark in biology." }
+    ] },
+    { "id": "mathematiques", "fr": "mathématiques", "pos": "noun", "g": "f", "ipa": "ma.te.ma.tik", "display": "les mathématiques", "en": "mathematics, maths", "def": "La science des nombres et des formes.", "def_en": "The science of numbers and shapes.", "note": "Informally **les maths**.", "examples": [
+      { "fr": "Tom est nul en **mathématiques**.", "en": "Tom is hopeless at maths." },
+      { "fr": "Les **mathématiques**, c'est partout !", "en": "Maths is everywhere!" },
+      { "fr": "Elle est professeure de **mathématiques**.", "en": "She's a maths teacher." }
+    ] },
+    { "id": "theorie", "fr": "théorie", "pos": "noun", "g": "f", "ipa": "te.ɔ.ʁi", "en": "theory", "def": "Une idée qui explique une chose, mais qu'on n'a pas encore vérifiée.", "def_en": "An idea that explains something, but hasn't been checked yet.", "forms": ["théories"], "note": "**en théorie** = in theory.", "examples": [
+      { "fr": "C'est une **théorie** intéressante.", "en": "It's an interesting theory." },
+      { "fr": "En **théorie**, c'est simple.", "en": "In theory, it's simple." },
+      { "fr": "Hugo a une **théorie** sur tout !", "en": "Hugo has a theory about everything!" }
+    ] },
+    { "id": "decouverte", "fr": "découverte", "pos": "noun", "g": "f", "ipa": "de.ku.vɛʁt", "en": "discovery", "def": "Une chose nouvelle qu'on trouve, ou qu'on comprend pour la première fois.", "def_en": "Something new that is found, or understood for the first time.", "forms": ["découvertes"], "examples": [
+      { "fr": "C'est une grande **découverte** !", "en": "It's a great discovery!" },
+      { "fr": "Les **découvertes** scientifiques changent le monde.", "en": "Scientific discoveries change the world." },
+      { "fr": "Ce petit restaurant, quelle belle **découverte** !", "en": "This little restaurant is a real find!" }
+    ] },
+    { "id": "invention", "fr": "invention", "pos": "noun", "g": "f", "ipa": "ɛ̃.vɑ̃.sjɔ̃", "en": "invention", "def": "Une chose nouvelle, créée par une personne : une machine, un objet, une idée.", "def_en": "Something new created by a person: a machine, an object, an idea.", "forms": ["inventions"], "examples": [
+      { "fr": "Le cinéma est une **invention** des frères Lumière.", "en": "Cinema was invented by the Lumière brothers." },
+      { "fr": "Quelle est la plus grande **invention** du monde ?", "en": "What's the greatest invention in the world?" },
+      { "fr": "Hugo a une nouvelle **invention** : un réveil qui crie.", "en": "Hugo has a new invention: an alarm clock that shouts." }
+    ] },
+    { "id": "inventer", "fr": "inventer", "pos": "verb", "ipa": "ɛ̃.vɑ̃.te", "en": "to invent; to make up", "def": "Créer une chose tout à fait nouvelle. Aussi : raconter une histoire qui n'est pas vraie.", "def_en": "To create something completely new. Also: to tell a story that isn't true.", "forms": ["invente", "inventes", "inventons", "inventez", "inventent", "inventé", "inventée", "inventés", "inventées", "inventais", "inventait", "inventions", "inventiez", "inventaient", "inventerai", "inventeras", "inventera", "inventerons", "inventerez", "inventeront", "inventerais", "inventerait", "inventerions", "inventeriez", "inventeraient", "inventant"], "examples": [
+      { "fr": "Qui a **inventé** le téléphone ?", "en": "Who invented the telephone?" },
+      { "fr": "Il **invente** toujours des histoires !", "en": "He's always making things up!" },
+      { "fr": "Lou **invente** des chansons pour son nounours.", "en": "Lou makes up songs for her teddy bear." }
+    ] },
+    { "id": "microscope", "fr": "microscope", "pos": "noun", "g": "m", "ipa": "mi.kʁɔs.kɔp", "en": "microscope", "def": "Un appareil qui montre les choses très petites, beaucoup plus grandes.", "def_en": "An instrument that shows very small things much bigger.", "forms": ["microscopes"], "examples": [
+      { "fr": "Regarde dans le **microscope** !", "en": "Look through the microscope!" },
+      { "fr": "Au **microscope**, on voit les cellules.", "en": "Under the microscope, you can see the cells." },
+      { "fr": "Ce **microscope** coûte très cher.", "en": "This microscope is very expensive." }
+    ] },
+    { "id": "molecule", "fr": "molécule", "pos": "noun", "g": "f", "ipa": "mɔ.le.kyl", "en": "molecule", "def": "Un très petit groupe d'atomes : la plus petite [partie|partie] d'une matière.", "def_en": "A tiny group of atoms: the smallest part of a substance.", "forms": ["molécules"], "examples": [
+      { "fr": "L'eau est faite de **molécules**.", "en": "Water is made of molecules." },
+      { "fr": "Une **molécule** d'eau a trois atomes.", "en": "A water molecule has three atoms." },
+      { "fr": "Les **molécules** bougent plus vite quand il fait chaud.", "en": "Molecules move faster when it's hot." }
+    ] },
+    { "id": "atome", "fr": "atome", "pos": "noun", "g": "m", "ipa": "a.tom", "en": "atom", "def": "La plus petite [partie|partie] de la matière.", "def_en": "The smallest part of matter.", "forms": ["atomes"], "examples": [
+      { "fr": "Tout est fait d'**atomes**.", "en": "Everything is made of atoms." },
+      { "fr": "Un **atome** est très, très petit.", "en": "An atom is very, very small." },
+      { "fr": "Il y a des milliards d'**atomes** dans une goutte d'eau.", "en": "There are billions of atoms in a drop of water." }
+    ] },
+    { "id": "cellule", "fr": "cellule", "pos": "noun", "g": "f", "ipa": "se.lyl", "en": "cell", "def": "La plus petite [partie|partie] vivante d'une plante ou d'un animal. Aussi : une petite pièce, dans une prison.", "def_en": "The smallest living part of a plant or an animal. Also: a small room in a prison.", "forms": ["cellules"], "examples": [
+      { "fr": "Notre corps a des milliards de **cellules**.", "en": "Our bodies have billions of cells." },
+      { "fr": "On observe les **cellules** au microscope.", "en": "We look at the cells under the microscope." },
+      { "fr": "Le voleur passe la nuit en **cellule**.", "en": "The thief spends the night in a cell." }
+    ] },
+    { "id": "adn", "fr": "ADN", "pos": "noun", "g": "m", "ipa": "a.de.ɛn", "display": "l'ADN", "en": "DNA", "def": "La molécule qui se trouve dans chaque cellule, et qui donne des informations sur la personne : la couleur des yeux, des cheveux…", "def_en": "The molecule found in every cell, which carries information about the person: the colour of their eyes, their hair…", "examples": [
+      { "fr": "Les jumeaux n'ont pas le même **ADN**.", "en": "The twins don't have the same DNA." },
+      { "fr": "La police a trouvé de l'**ADN** sur le verre.", "en": "The police found DNA on the glass." },
+      { "fr": "Il paraît qu'on a beaucoup d'**ADN** en commun avec les bananes !", "en": "Apparently we share a lot of DNA with bananas!" }
+    ] },
+    { "id": "cerveau", "fr": "cerveau", "pos": "noun", "g": "m", "ipa": "sɛʁ.vo", "en": "brain", "def": "La partie dans la tête qui pense, qui se souvient et qui fait bouger le corps.", "def_en": "The part inside the head that thinks, remembers and makes the body move.", "forms": ["cerveaux"], "examples": [
+      { "fr": "Le **cerveau** ne dort jamais.", "en": "The brain never sleeps." },
+      { "fr": "Fais travailler ton **cerveau** !", "en": "Use your brain!" },
+      { "fr": "Les **cerveaux** des enfants apprennent vite.", "en": "Children's brains learn fast." }
+    ] },
+    { "id": "evolution", "fr": "évolution", "pos": "noun", "g": "f", "ipa": "e.vɔ.ly.sjɔ̃", "en": "evolution; development, change", "def": "Un changement lent, qui se fait petit à petit. Aussi : comment les animaux et les plantes changent, pendant des millions d'années.", "def_en": "A slow change, little by little. Also: how animals and plants change over millions of years.", "forms": ["évolutions"], "examples": [
+      { "fr": "La théorie de l'**évolution** explique beaucoup de choses.", "en": "The theory of evolution explains a lot." },
+      { "fr": "L'**évolution** des prix est rapide.", "en": "Prices are changing fast." },
+      { "fr": "Quelle **évolution** : Hugo arrive à l'heure !", "en": "What progress: Hugo's on time!" }
+    ] },
+    { "id": "aimant", "fr": "aimant", "pos": "noun", "g": "m", "ipa": "ɛ.mɑ̃", "en": "magnet", "def": "Un petit objet qui se colle tout seul au métal, par exemple sur le frigo.", "def_en": "A small object that sticks to metal by itself, on the fridge for example.", "forms": ["aimants"], "examples": [
+      { "fr": "Lou met des **aimants** sur le frigo.", "en": "Lou puts magnets on the fridge." },
+      { "fr": "Cet **aimant** est très fort.", "en": "This magnet is very strong." },
+      { "fr": "Avec un **aimant**, Pierre trouve les clous dans l'herbe.", "en": "With a magnet, Pierre finds the nails in the grass." }
+    ] },
+    { "id": "gravite", "fr": "gravité", "pos": "noun", "g": "f", "ipa": "ɡʁa.vi.te", "en": "gravity; seriousness", "def": "La force qui fait tomber les choses vers la Terre. Aussi : quand une chose est grave.", "def_en": "The force that makes things fall towards the Earth. Also: how serious something is.", "examples": [
+      { "fr": "Sans **gravité**, tout flotterait !", "en": "Without gravity, everything would float!" },
+      { "fr": "La pomme tombe à cause de la **gravité**.", "en": "The apple falls because of gravity." },
+      { "fr": "Les médecins ont compris la **gravité** de la situation.", "en": "The doctors realised how serious the situation was." }
+    ] },
+    { "id": "chimique", "fr": "chimique", "pos": "adj", "ipa": "ʃi.mik", "en": "chemical", "def": "Qui a un rapport avec la chimie, ou qui est fabriqué par la chimie.", "def_en": "To do with chemistry, or made by chemistry.", "forms": ["chimiques"], "examples": [
+      { "fr": "Attention, c'est un produit **chimique** !", "en": "Careful, it's a chemical!" },
+      { "fr": "Il y a une réaction **chimique** : la couleur change !", "en": "There's a chemical reaction: the colour changes!" },
+      { "fr": "Pierre n'utilise pas de produits **chimiques** à la ferme.", "en": "Pierre doesn't use chemicals on the farm." }
+    ] },
+    { "id": "cobaye", "fr": "cobaye", "pos": "noun", "g": "m", "ipa": "kɔ.baj", "en": "guinea pig (also as a test subject)", "def": "Un petit animal qu'on utilise pour les expériences. Aussi : une personne sur qui on teste une chose.", "def_en": "A small animal used for experiments. Also: a person something is tested on.", "forms": ["cobayes"], "examples": [
+      { "fr": "Qui veut être notre **cobaye** ?", "en": "Who wants to be our guinea pig?" },
+      { "fr": "Hugo est le **cobaye** du chercheur.", "en": "Hugo is the researcher's guinea pig." },
+      { "fr": "Je ne veux pas être ton **cobaye** pour ta nouvelle recette !", "en": "I don't want to be your guinea pig for your new recipe!" }
+    ] },
+    { "id": "tester", "fr": "tester", "pos": "verb", "ipa": "tɛs.te", "en": "to test, to try out", "def": "Essayer une chose, pour voir si elle fonctionne bien.", "def_en": "To try something out, to see if it works well.", "forms": ["teste", "testes", "testons", "testez", "testent", "testé", "testée", "testés", "testées", "testais", "testait", "testions", "testiez", "testaient", "testerai", "testeras", "testera", "testerons", "testerez", "testeront", "testerais", "testerait", "testerions", "testeriez", "testeraient", "testant"], "examples": [
+      { "fr": "On va **tester** ton cerveau.", "en": "We're going to test your brain." },
+      { "fr": "J'ai **testé** la nouvelle application.", "en": "I've tried out the new app." },
+      { "fr": "**Teste** cette sauce : elle est bonne ?", "en": "Try this sauce: is it good?" }
+    ] },
+    { "id": "analyser", "fr": "analyser", "pos": "verb", "ipa": "a.na.li.ze", "en": "to analyse", "def": "Regarder une chose de très près, morceau par morceau, pour bien la comprendre.", "def_en": "To look at something very closely, part by part, to understand it properly.", "forms": ["analyse", "analyses", "analysons", "analysez", "analysent", "analysé", "analysée", "analysés", "analysées", "analysais", "analysait", "analysions", "analysiez", "analysaient", "analyserai", "analyseras", "analysera", "analyserons", "analyserez", "analyseront", "analyserais", "analyserait", "analyserions", "analyseriez", "analyseraient", "analysant"], "examples": [
+      { "fr": "Le laboratoire **analyse** l'eau du lac.", "en": "The lab is analysing the water from the lake." },
+      { "fr": "Il faut **analyser** les résultats.", "en": "The results need analysing." },
+      { "fr": "Elle a **analysé** le problème.", "en": "She analysed the problem." }
+    ] }
+  ],
+  "story": {
+    "title": "La Fête de la science",
+    "en": "Saturday 3 October: the six friends spend the day at the Science Festival, and Hugo, off his crutches, volunteers for an experiment.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi trois octobre, c'est la Fête de la science. Les six amis vont à l'université, où des chercheurs présentent leur travail.", "en": "Saturday 3 October is the Science Festival. The six friends go to the university, where researchers present their work." },
+      { "sp": "", "fr": "Hugo marche sans béquilles depuis hier. Il est très content.", "en": "Hugo has been walking without crutches since yesterday. He's very happy." },
+      { "sp": "", "fr": "Au premier stand, une chercheuse en biologie montre des cellules au microscope.", "en": "At the first stand, a biology researcher shows cells under a microscope." },
+      { "sp": "La chercheuse", "fr": "Votre corps a des milliards de cellules. Et dans chaque cellule, il y a votre ADN.", "en": "Your body has billions of cells. And in every cell, there's your DNA." },
+      { "sp": "Tom", "fr": "Et dans l'ADN de Hugo, il y a du chocolat ?", "en": "And is there chocolate in Hugo's DNA?" },
+      { "sp": "", "fr": "Au stand de chimie, un chercheur mélange deux liquides dans un tube. Tout à coup, le tube devient bleu !", "en": "At the chemistry stand, a researcher mixes two liquids in a tube. Suddenly, the tube turns blue!" },
+      { "sp": "Le chercheur", "fr": "C'est une réaction chimique. Les molécules changent, mais les atomes restent les mêmes.", "en": "It's a chemical reaction. The molecules change, but the atoms stay the same." },
+      { "sp": "Inès", "fr": "J'étais nulle en chimie à l'école, mais là, c'est magique !", "en": "I was hopeless at chemistry at school, but this is magic!" },
+      { "sp": "", "fr": "Au stand de physique, il y a des aimants, et une pomme qui tombe sans arrêt.", "en": "At the physics stand, there are magnets, and an apple that keeps falling." },
+      { "sp": "Une étudiante", "fr": "Pourquoi la pomme tombe ? À cause de la gravité. C'est la même force qui garde la Lune autour de la Terre.", "en": "Why does the apple fall? Because of gravity. It's the same force that keeps the Moon around the Earth." },
+      { "sp": "Sophie", "fr": "Pour les architectes, les mathématiques et la physique sont très importantes. Sans elles, la maison tombe aussi !", "en": "For architects, maths and physics are very important. Without them, the house falls down too!" },
+      { "sp": "", "fr": "Au dernier stand, un chercheur étudie le cerveau. Il cherche un cobaye.", "en": "At the last stand, a researcher studies the brain. He's looking for a guinea pig." },
+      { "sp": "Le chercheur", "fr": "Qui veut tester son cerveau ? Regardez l'écran, et cliquez quand vous voyez un carré rouge.", "en": "Who wants to test their brain? Look at the screen, and click when you see a red square." },
+      { "sp": "", "fr": "Hugo lève la main. Il clique, il clique… Le chercheur analyse le résultat.", "en": "Hugo puts up his hand. He clicks and clicks… The researcher analyses the result." },
+      { "sp": "Le chercheur", "fr": "Intéressant : votre cerveau va très vite… mais seulement quand il y a du chocolat sur l'écran !", "en": "Interesting: your brain is very fast… but only when there's chocolate on the screen!" },
+      { "sp": "Carla", "fr": "Ce n'est pas une découverte, ça : on le sait depuis longtemps !", "en": "That's no discovery: we've known it for ages!" },
+      { "sp": "", "fr": "À la fin, Léa lit les panneaux sur l'histoire de la science : les grandes inventions, la théorie de l'évolution, la recherche sur les vaccins…", "en": "At the end, Léa reads the boards about the history of science: the great inventions, the theory of evolution, research on vaccines…" },
+      { "sp": "Léa", "fr": "Vous savez que le cinéma est né ici ? Les frères Lumière l'ont inventé à Lyon !", "en": "Did you know cinema was born here? The Lumière brothers invented it in Lyon!" },
+      { "sp": "Tom", "fr": "On peut voir leur laboratoire ?", "en": "Can we see their lab?" },
+      { "sp": "Léa", "fr": "Oui, c'est un musée maintenant. Et dans deux semaines, il y a le festival Lumière, avec le film d'Antoine !", "en": "Yes, it's a museum now. And in two weeks there's the Lumière Festival, with Antoine's film!" },
+      { "sp": "Hugo", "fr": "Moi aussi, je vais devenir scientifique. Ma première invention : une échelle sans danger !", "en": "I'm going to be a scientist too. My first invention: a danger-free ladder!" }
+    ]
+  }
+}
