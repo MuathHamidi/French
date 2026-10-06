@@ -1,0 +1,136 @@
+{
+  "id": "u35-laisser-voir",
+  "type": "grammar",
+  "unit": 35,
+  "title": "Laisse-le faire !",
+  "en": "Laisser, voir, entendre + infinitive",
+  "intro": "After verbs of the senses (**voir, regarder, entendre, écouter, sentir**) and after **laisser** (to let), French simply adds an infinitive: *j'entends Enzo **chanter*** (I can hear Enzo singing), *elle le laisse **travailler*** (she lets him work). There's no *de* or *à*, and object pronouns go before the first verb: *je **l'**entends chanter*.",
+  "cases": [
+    { "id": "lv-voir", "label": "voir, regarder + infinitive", "rule": "After **voir** and **regarder**, an infinitive shows the action you see: *Je **vois** Enzo **arriver**. Ils **regardent** Enzo **travailler**.* English often uses *-ing*: *I can see Enzo coming.*" },
+    { "id": "lv-entendre", "label": "entendre, écouter + infinitive", "rule": "After **entendre** and **écouter**: *J'**entends** Enzo **chanter**. On **écoute** Tom **jouer**.* The person can also come after the infinitive: *J'entends chanter Enzo.*" },
+    { "id": "lv-sentir", "label": "sentir + infinitive", "rule": "**Sentir** works the same way, for smells and feelings: *Je **sens** le pain **cuire**. Il **sent** son cœur **battre**.*" },
+    { "id": "lv-laisser", "label": "laisser + infinitive: to let", "rule": "**Laisser** + infinitive means *to let someone do something*: *Elle **laisse** Enzo **travailler** seul. **Laisse-moi faire** !* No *de*, no *à*." },
+    { "id": "lv-pronom", "label": "pronouns before the first verb", "rule": "Object pronouns go before **voir, entendre, laisser**: *Je **l'**entends chanter. Ne **le** laisse pas partir ! On **les** voit sourire.* In a positive order, after: *Laissez-**le** dormir !*" }
+  ],
+  "sections": [
+    {
+      "title": "1. voir, regarder",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je vois Enzo arriver.", "I can see Enzo coming."],
+          ["Ils voient Enzo courir.", "They see Enzo running."],
+          ["Elle regarde le pain cuire.", "She watches the bread baking."]
+        ]
+      },
+      "examples": [
+        { "fr": "Par la fenêtre, {je vois la pluie tomber|lv-voir}.", "en": "Through the window, I can see the rain falling." },
+        { "fr": "{Madame Fournier regarde Enzo travailler|lv-voir}.", "en": "Mme Fournier watches Enzo working." }
+      ]
+    },
+    {
+      "title": "2. entendre, écouter",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'entends Enzo chanter.", "I can hear Enzo singing."],
+          ["J'entends chanter Enzo.", "I can hear Enzo singing (same meaning)."],
+          ["On écoute Tom jouer.", "We're listening to Tom playing."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'entends quelqu'un chanter|lv-entendre} en bas.", "en": "I can hear someone singing downstairs." },
+        { "fr": "{On écoute Tom jouer de la guitare|lv-entendre}.", "en": "We're listening to Tom playing the guitar." }
+      ]
+    },
+    {
+      "title": "3. sentir",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je sens le pain cuire.", "I can smell the bread baking."],
+          ["Je sens mon cœur battre.", "I can feel my heart beating."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je sens les croissants cuire|lv-sentir} !", "en": "I can smell the croissants baking!" },
+        { "fr": "{Il sent son cœur battre|lv-sentir} très vite.", "en": "He can feel his heart beating very fast." }
+      ]
+    },
+    {
+      "title": "4. laisser: to let",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Elle laisse Enzo travailler seul.", "She lets Enzo work alone."],
+          ["Laisse-moi faire !", "Let me do it!"],
+          ["Ne le laisse pas partir !", "Don't let him go!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Madame Fournier laisse Enzo faire les croissants|lv-laisser}.", "en": "Mme Fournier lets Enzo make the croissants." },
+        { "fr": "{Laisse-moi essayer|lv-laisser} !", "en": "Let me try!" }
+      ],
+      "tip": "Careful: *laisser* + a noun alone means *to leave*: *Je laisse mon sac ici.*"
+    },
+    {
+      "title": "5. Pronouns before the first verb",
+      "table": {
+        "head": ["Noun", "Pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["J'entends Enzo chanter.", "Je l'entends chanter."],
+          ["Elle laisse les apprentis travailler.", "Elle les laisse travailler."],
+          ["Laissez Enzo dormir !", "Laissez-le dormir !"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je l'entends chanter|lv-pronom} tous les matins.", "en": "I hear him singing every morning." },
+        { "fr": "{Laisse-le faire|lv-pronom} : il apprend !", "en": "Let him do it: he's learning!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'entends Enzo chante.", "right": "J'entends Enzo chanter.", "why": "After **entendre**, the second verb is an infinitive." },
+    { "wrong": "Je vois lui arriver.", "right": "Je le vois arriver.", "why": "Use **le**, and put it before **voir**." },
+    { "wrong": "Laisse-moi de faire !", "right": "Laisse-moi faire !", "why": "No **de** after *laisser*: the infinitive follows directly." },
+    { "wrong": "Je lui ai entendu chanter.", "right": "Je l'ai entendu chanter.", "why": "Enzo is the one singing: use **le** (l'), not *lui*." }
+  ],
+  "story": {
+    "title": "Le premier matin d'Enzo",
+    "en": "Saturday 28 November, four in the morning: for the first time, Mme Fournier lets Enzo make the croissants on his own.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-huit novembre, à quatre heures du matin, Madame Fournier fait une chose nouvelle : {elle laisse Enzo préparer les croissants|lv-laisser} tout seul.", "en": "On Saturday 28 November, at four in the morning, Mme Fournier does something new: she lets Enzo make the croissants on his own." },
+      { "sp": "Mme Fournier", "fr": "Moi, je fais le pain à côté. Les croissants, c'est pour toi. {Je te laisse faire|lv-pronom}.", "en": "I'm making the bread next door. The croissants are yours. I'll let you get on with it." },
+      { "sp": "Enzo", "fr": "Cimer, Mamie… euh, merci ! Tu vas voir : ils seront parfaits.", "en": "Ta, Grandma… er, thank you! You'll see: they'll be perfect." },
+      { "sp": "", "fr": "Au troisième étage, Tom se réveille. {Il entend quelqu'un chanter|lv-entendre} en bas.", "en": "On the third floor, Tom wakes up. He can hear someone singing downstairs." },
+      { "sp": "", "fr": "Sur le palier, il trouve Hugo, en pyjama, devant sa porte.", "en": "On the landing, he finds Hugo in his pyjamas, outside his door." },
+      { "sp": "Hugo", "fr": "{Toi aussi, tu l'entends chanter|lv-pronom} ? Je jouais en ligne avec la fibre… Et maintenant, {je sens les croissants cuire|lv-sentir} !", "en": "You can hear him singing too? I was playing online with the fibre… And now I can smell the croissants baking!" },
+      { "sp": "Tom", "fr": "Ça sent bon… mais ça sent aussi le brûlé, non ?", "en": "It smells good… but it smells burnt too, doesn't it?" },
+      { "sp": "", "fr": "Ils descendent. Par la vitrine de la boulangerie, {ils voient Enzo courir|lv-voir} entre le four et le comptoir.", "en": "They go down. Through the bakery window, they see Enzo running between the oven and the counter." },
+      { "sp": "Enzo", "fr": "Ma première plaque ! Elle est toute noire ! Mamie va me tuer…", "en": "My first tray! It's all black! Grandma's going to kill me…" },
+      { "sp": "Mme Fournier", "fr": "Mais non. {Je t'ai regardé travailler|lv-voir} : tu as tout fait comme il faut. Le four est juste trop chaud.", "en": "Of course not. I watched you working: you did everything right. The oven's just too hot." },
+      { "sp": "Mme Fournier", "fr": "{Laisse-moi baisser le four|lv-laisser}, et recommence.", "en": "Let me turn the oven down, and start again." },
+      { "sp": "", "fr": "Tom et Hugo restent devant la vitrine. {Ils regardent Enzo travailler|lv-voir}, comme un vrai boulanger.", "en": "Tom and Hugo stay at the window. They watch Enzo working, like a real baker." },
+      { "sp": "", "fr": "À six heures, {on entend le four sonner|lv-entendre}. Enzo sort la deuxième plaque : des croissants dorés, parfaits.", "en": "At six, they hear the oven ring. Enzo takes out the second tray: golden croissants, perfect ones." },
+      { "sp": "Enzo", "fr": "Venez goûter ! C'est moi qui invite.", "en": "Come and try them! They're on me." },
+      { "sp": "Hugo", "fr": "Miam ! {Je sens le beurre fondre|lv-sentir} dans ma bouche. C'est chanmé !", "en": "Yum! I can feel the butter melting in my mouth. It's wicked!" },
+      { "sp": "Mme Fournier", "fr": "Bravo, Enzo ! La semaine prochaine, {je te laisse faire le pain|lv-pronom} aussi.", "en": "Well done, Enzo! Next week, I'll let you make the bread too." },
+      { "sp": "Enzo", "fr": "Le pain ? À quatre heures du matin ? Tout seul ?", "en": "The bread? At four in the morning? On my own?" },
+      { "sp": "Tom", "fr": "Madame Fournier, {laissez-le dormir|lv-pronom} un peu, d'abord !", "en": "Mme Fournier, let him get a bit of sleep first!" },
+      { "sp": "", "fr": "À sept heures, les premiers clients arrivent. {On les voit sourire|lv-pronom} quand ils goûtent les croissants d'Enzo.", "en": "At seven, the first customers arrive. You can see them smile as they taste Enzo's croissants." }
+    ]
+  },
+  "quiz": [
+    { "case": "lv-voir", "type": "mc", "q": "Par la vitrine, ils voient Enzo ___ entre le four et le comptoir.", "en": "Through the window, they see Enzo running between the oven and the counter.", "options": ["courir", "court", "couru"], "answer": "courir" },
+    { "case": "lv-voir", "type": "mc", "lang": "en", "q": "« Elle regarde Enzo travailler » means…", "options": ["She watches Enzo working.", "She looks for Enzo's work.", "She makes Enzo work."], "answer": "She watches Enzo working.", "say": "Elle regarde Enzo travailler." },
+    { "case": "lv-entendre", "type": "mc", "q": "J'entends quelqu'un ___ en bas.", "en": "I can hear someone singing downstairs.", "options": ["chanter", "chante", "chanté"], "answer": "chanter" },
+    { "case": "lv-entendre", "type": "mc", "lang": "en", "q": "« J'entends chanter Enzo » means the same as…", "options": ["J'entends Enzo chanter.", "Enzo m'entend chanter.", "J'entends Enzo qui a chanté."], "answer": "J'entends Enzo chanter." },
+    { "case": "lv-sentir", "type": "mc", "q": "Je sens les croissants ___ !", "en": "I can smell the croissants baking!", "options": ["cuire", "cuits", "cuisent"], "answer": "cuire" },
+    { "case": "lv-sentir", "type": "mc", "lang": "en", "q": "« Il sent son cœur battre » means…", "options": ["He can feel his heart beating.", "His heart smells good.", "He hits his heart."], "answer": "He can feel his heart beating.", "say": "Il sent son cœur battre." },
+    { "case": "lv-laisser", "type": "mc", "q": "Laisse-moi ___ !", "en": "Let me do it!", "options": ["faire", "de faire", "à faire"], "answer": "faire" },
+    { "case": "lv-laisser", "type": "mc", "lang": "en", "q": "« Elle laisse Enzo travailler seul » means…", "options": ["She lets Enzo work alone.", "She leaves Enzo's work alone.", "She makes Enzo work alone."], "answer": "She lets Enzo work alone.", "say": "Elle laisse Enzo travailler seul." },
+    { "case": "lv-pronom", "type": "mc", "q": "Enzo chante ? Oui, je ___ entends chanter.", "en": "Is Enzo singing? Yes, I can hear him singing.", "options": ["l'", "lui", "y"], "answer": "l'" },
+    { "case": "lv-pronom", "type": "mc", "q": "Ne ___ laisse pas partir !", "en": "Don't let him leave!", "options": ["le", "lui", "en"], "answer": "le" }
+  ]
+}

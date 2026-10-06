@@ -1,0 +1,163 @@
+{
+  "id": "u35-poliment",
+  "type": "vocab",
+  "unit": 35,
+  "title": "Demander poliment",
+  "en": "Asking politely",
+  "intro": "25 words and phrases for asking politely, on the phone and in writing: opening (**déranger, se permettre, puis-je, veuillez, si possible**), asking (**le renseignement, se renseigner, épeler, ne quittez pas, merci d'avance, n'hésitez pas**), thanking and answering (**je vous en prie, il n'y a pas de quoi, à votre service, bien entendu, navré, reconnaissant**), the tone (**la politesse, l'amabilité, aimable, courtois, impoli, calmement**) and signing off (**cordialement, bien à vous**).",
+  "words": [
+    { "id": "deranger", "fr": "déranger", "pos": "verb", "ipa": "de.ʁɑ̃.ʒe", "en": "to disturb, to bother", "def": "Venir ou appeler au mauvais moment, empêcher quelqu'un de travailler ou de se reposer.", "def_en": "To come or call at a bad time, to stop someone working or resting.", "note": "*Excusez-moi de vous déranger* = sorry to bother you. *Ça vous dérange si… ?* = do you mind if…?", "forms": ["dérange", "déranges", "dérangeons", "dérangez", "dérangent", "dérangé", "dérangée", "dérangés", "dérangées", "dérangeais", "dérangeait", "dérangions", "dérangiez", "dérangeaient", "dérangerai", "dérangeras", "dérangera", "dérangerons", "dérangerez", "dérangeront", "dérangerais", "dérangerait", "dérangerions", "dérangeriez", "dérangeraient", "dérangeant", "dérangeai", "dérangeas", "dérangea", "dérangâmes", "dérangâtes", "dérangèrent"], "examples": [
+      { "fr": "Excusez-moi de vous **déranger**.", "en": "Sorry to bother you." },
+      { "fr": "Ne **dérange** pas ton frère, il travaille.", "en": "Don't disturb your brother, he's working." },
+      { "fr": "Ça vous **dérange** si j'ouvre la fenêtre ?", "en": "Do you mind if I open the window?" }
+    ] },
+    { "id": "je-vous-en-prie", "fr": "je vous en prie", "pos": "expr", "ipa": "ʒə vu.zɑ̃ pʁi", "en": "you're welcome; please, go ahead", "def": "Réponse polie à « merci ». Aussi : « allez-y, faites ».", "def_en": "A polite answer to 'thank you'. Also: 'go ahead, please do'.", "forms": ["je t'en prie"], "examples": [
+      { "fr": "Merci beaucoup ! — **Je vous en prie**.", "en": "Thank you very much! — You're welcome." },
+      { "fr": "Je peux m'asseoir ? — **Je vous en prie**.", "en": "May I sit down? — Please do." },
+      { "fr": "**Je t'en prie**, Léa, prends ma place.", "en": "Please, Léa, take my seat." }
+    ] },
+    { "id": "merci-d-avance", "fr": "merci d'avance", "pos": "expr", "ipa": "mɛʁ.si da.vɑ̃s", "en": "thanks in advance", "def": "Une formule polie, à la fin d'une demande, avant de recevoir l'aide.", "def_en": "A polite formula at the end of a request, before you get the help.", "examples": [
+      { "fr": "**Merci d'avance** pour votre réponse.", "en": "Thanks in advance for your reply." },
+      { "fr": "Tu peux m'aider ? **Merci d'avance** !", "en": "Can you help me? Thanks in advance!" },
+      { "fr": "**Merci d'avance** pour la confirmation.", "en": "Thanks in advance for the confirmation." }
+    ] },
+    { "id": "n-hesitez-pas", "fr": "n'hésitez pas", "pos": "expr", "ipa": "ne.zi.te pa", "en": "don't hesitate, feel free", "def": "Pour dire à quelqu'un qu'il peut le faire, sans avoir peur de déranger.", "def_en": "To tell someone they can do it without being afraid of bothering you.", "forms": ["n'hésite pas"], "examples": [
+      { "fr": "Si vous avez une question, **n'hésitez pas** à nous appeler.", "en": "If you have any questions, feel free to call us." },
+      { "fr": "**N'hésite pas** à me demander.", "en": "Don't hesitate to ask me." },
+      { "fr": "Besoin d'aide ? **N'hésitez pas** !", "en": "Need help? Just ask!" }
+    ] },
+    { "id": "veuillez", "fr": "veuillez", "pos": "expr", "ipa": "vœ.je", "en": "please, kindly (formal)", "def": "Forme très polie pour dire « s'il vous plaît, faites… ».", "def_en": "A very polite way of saying 'please do…'.", "examples": [
+      { "fr": "**Veuillez** patienter.", "en": "Please hold." },
+      { "fr": "**Veuillez** fermer la porte.", "en": "Kindly close the door." },
+      { "fr": "**Veuillez** signer ici.", "en": "Please sign here." }
+    ] },
+    { "id": "aimable", "fr": "aimable", "pos": "adj", "ipa": "ɛ.mabl", "en": "kind, pleasant (polite: c'est très aimable = that's very kind)", "def": "Gentil et poli avec les autres.", "def_en": "Kind and polite to others.", "forms": ["aimables"], "examples": [
+      { "fr": "C'est très **aimable**, merci beaucoup !", "en": "That's very kind, thank you very much!" },
+      { "fr": "La conseillère était très **aimable**.", "en": "The adviser was very nice." },
+      { "fr": "Vous êtes trop **aimable**.", "en": "You're too kind." }
+    ] },
+    { "id": "amabilite", "fr": "amabilité", "pos": "noun", "g": "f", "ipa": "a.ma.bi.li.te", "en": "kindness, friendliness", "def": "La qualité d'une personne gentille et agréable.", "def_en": "The quality of a kind and pleasant person.", "note": "*Auriez-vous l'amabilité de… ?* = would you be so kind as to…?", "forms": ["amabilités"], "examples": [
+      { "fr": "Avec un peu d'**amabilité**, on obtient tout.", "en": "With a little kindness, you get everything." },
+      { "fr": "Auriez-vous l'**amabilité** de m'aider ?", "en": "Would you be so kind as to help me?" },
+      { "fr": "Merci pour votre **amabilité**.", "en": "Thank you for your kindness." }
+    ] },
+    { "id": "se-permettre", "fr": "se permettre", "pos": "verb", "ipa": "sə pɛʁ.mɛtʁ", "en": "to take the liberty (of), to allow yourself", "def": "Prendre la liberté de faire quelque chose (pour être poli).", "def_en": "To take the liberty of doing something (to be polite).", "note": "*Je me permets de…* = may I…, I'm writing/calling to…", "forms": ["me permets", "te permets", "se permet", "nous nous permettons", "vous vous permettez", "se permettent", "me permettre", "te permettre", "me suis permis", "s'est permis", "s'est permise", "me permettais", "se permettait", "me permettrai", "se permettra", "me permettrais", "se permettrait"], "examples": [
+      { "fr": "Je **me permets** de vous appeler au sujet de ma ligne.", "en": "I'm calling you about my line, if I may." },
+      { "fr": "Il **s'est permis** de lire mon courrier !", "en": "He took the liberty of reading my post!" },
+      { "fr": "Je **me permettrai** de vous rappeler demain.", "en": "I'll take the liberty of calling you back tomorrow." }
+    ] },
+    { "id": "reconnaissant", "fr": "reconnaissant", "pos": "adj", "ipa": "ʁə.kɔ.nɛ.sɑ̃", "display": "reconnaissant, reconnaissante", "en": "grateful", "def": "Qui n'oublie pas l'aide reçue.", "def_en": "Who doesn't forget the help they received.", "forms": ["reconnaissante", "reconnaissants", "reconnaissantes"], "accept": ["reconnaissante"], "examples": [
+      { "fr": "Je vous serais très **reconnaissant**.", "en": "I would be very grateful." },
+      { "fr": "Elle est **reconnaissante** à ses amis.", "en": "She's grateful to her friends." },
+      { "fr": "Nous vous sommes **reconnaissants** pour votre aide.", "en": "We are grateful for your help." }
+    ] },
+    { "id": "si-possible", "fr": "si possible", "pos": "expr", "ipa": "si pɔ.sibl", "en": "if possible", "def": "Si ça peut se faire.", "def_en": "If it can be done.", "examples": [
+      { "fr": "Pourriez-vous, **si possible**, enregistrer ma résiliation ?", "en": "Could you, if possible, register my cancellation?" },
+      { "fr": "Rappelez-moi demain, **si possible**.", "en": "Call me back tomorrow, if possible." },
+      { "fr": "**Si possible**, avant midi.", "en": "Before noon, if possible." }
+    ] },
+    { "id": "il-n-y-a-pas-de-quoi", "fr": "il n'y a pas de quoi", "pos": "expr", "ipa": "il nja pad kwa", "en": "don't mention it, you're welcome", "def": "Réponse à « merci » : ce n'est rien, c'était normal.", "def_en": "An answer to 'thank you': it's nothing, it was only natural.", "examples": [
+      { "fr": "Merci, Mamie ! — **Il n'y a pas de quoi**, mon chéri.", "en": "Thanks, Grandma! — Don't mention it, darling." },
+      { "fr": "Merci pour ton aide ! — **Il n'y a pas de quoi**.", "en": "Thanks for your help! — You're welcome." },
+      { "fr": "**Il n'y a pas de quoi**, c'est normal.", "en": "Don't mention it, it's nothing." }
+    ] },
+    { "id": "bien-entendu", "fr": "bien entendu", "pos": "expr", "ipa": "bjɛ̃.nɑ̃.tɑ̃.dy", "en": "of course, naturally", "def": "Bien sûr, évidemment.", "def_en": "Of course, obviously.", "examples": [
+      { "fr": "**Bien entendu**, monsieur.", "en": "Of course, sir." },
+      { "fr": "Tu viens ? — **Bien entendu** !", "en": "Are you coming? — Of course!" },
+      { "fr": "**Bien entendu**, c'est gratuit.", "en": "Naturally, it's free." }
+    ] },
+    { "id": "cordialement", "fr": "cordialement", "pos": "adv", "ipa": "kɔʁ.dja.lə.mɑ̃", "en": "kind regards (at the end of an email)", "def": "Formule pour finir un mail ou une lettre, de façon polie mais simple.", "def_en": "A way of ending an email or a letter, politely but simply.", "examples": [
+      { "fr": "On termine par « **Cordialement** » ?", "en": "Shall we end with 'Kind regards'?" },
+      { "fr": "**Cordialement**, Hugo.", "en": "Kind regards, Hugo." },
+      { "fr": "Elle signe toujours « **cordialement** ».", "en": "She always signs off 'kind regards'." }
+    ] },
+    { "id": "politesse", "fr": "politesse", "pos": "noun", "g": "f", "ipa": "pɔ.li.tɛs", "en": "politeness, good manners", "def": "Les bonnes manières : dire bonjour, merci, s'il vous plaît…", "def_en": "Good manners: saying hello, thank you, please…", "note": "*une formule de politesse* = a polite closing formula.", "examples": [
+      { "fr": "La **politesse**, c'est gratuit.", "en": "Politeness costs nothing." },
+      { "fr": "Il manque de **politesse**.", "en": "He lacks manners." },
+      { "fr": "Une formule de **politesse** termine la lettre.", "en": "A polite formula ends the letter." }
+    ] },
+    { "id": "navre", "fr": "navré", "pos": "adj", "ipa": "na.vʁe", "display": "navré, navrée", "en": "very sorry", "def": "Très désolé.", "def_en": "Very sorry.", "forms": ["navrée", "navrés", "navrées"], "accept": ["navrée"], "examples": [
+      { "fr": "Je suis **navrée** pour ce problème.", "en": "I'm very sorry about this problem." },
+      { "fr": "Nous sommes **navrés** du retard.", "en": "We are very sorry for the delay." },
+      { "fr": "**Navré**, monsieur, c'est complet.", "en": "Very sorry, sir, we're fully booked." }
+    ] },
+    { "id": "a-votre-service", "fr": "à votre service", "pos": "expr", "ipa": "a vɔ.tʁə sɛʁ.vis", "en": "at your service; my pleasure", "def": "Je suis là pour vous aider. Aussi : réponse polie à « merci ».", "def_en": "I'm here to help you. Also: a polite answer to 'thank you'.", "forms": ["à ton service"], "examples": [
+      { "fr": "Bonjour, je suis **à votre service**.", "en": "Hello, I'm at your service." },
+      { "fr": "Merci ! — **À votre service** !", "en": "Thank you! — My pleasure!" },
+      { "fr": "Toujours **à votre service**, madame.", "en": "Always at your service, madam." }
+    ] },
+    { "id": "puis-je", "fr": "puis-je", "pos": "expr", "manual": true, "ipa": "pɥiʒ", "en": "may I, can I (formal)", "def": "Forme polie de « est-ce que je peux ».", "def_en": "A polite form of 'est-ce que je peux'.", "examples": [
+      { "fr": "Que **[puis-je|puis-je]** faire pour vous ?", "en": "What can I do for you?" },
+      { "fr": "**[Puis-je|puis-je]** vous poser une question ?", "en": "May I ask you a question?" },
+      { "fr": "**[Puis-je|puis-je]** entrer ?", "en": "May I come in?" }
+    ] },
+    { "id": "renseignement", "fr": "renseignement", "pos": "noun", "g": "m", "ipa": "ʁɑ̃.sɛɲ.mɑ̃", "en": "(piece of) information", "def": "Une information qu'on demande ou qu'on donne.", "def_en": "Information you ask for or give.", "forms": ["renseignements"], "examples": [
+      { "fr": "Si vous avez besoin d'un autre **renseignement**, n'hésitez pas.", "en": "If you need any other information, don't hesitate." },
+      { "fr": "Je voudrais un **renseignement**, s'il vous plaît.", "en": "I'd like some information, please." },
+      { "fr": "Les **renseignements** sont au premier étage.", "en": "Information is on the first floor." }
+    ] },
+    { "id": "se-renseigner", "fr": "se renseigner", "pos": "verb", "ipa": "sə ʁɑ̃.sɛ.ɲe", "en": "to find out, to make enquiries", "def": "Chercher des informations, poser des questions.", "def_en": "To look for information, to ask questions.", "forms": ["me renseigne", "te renseignes", "se renseigne", "nous nous renseignons", "vous vous renseignez", "se renseignent", "me renseigner", "te renseigner", "nous renseigner", "vous renseigner", "renseigner", "me renseignerai", "te renseigneras", "se renseignera", "nous nous renseignerons", "vous vous renseignerez", "se renseigneront", "me renseignerais", "te renseignerais", "se renseignerait", "nous nous renseignerions", "vous vous renseigneriez", "se renseigneraient", "renseigne", "renseignes", "renseignons", "renseignez", "renseignent", "renseigné", "renseignée", "renseignés", "renseignées", "renseignais", "renseignait", "renseignions", "renseigniez", "renseignaient", "renseignerai", "renseigneras", "renseignera", "renseignerons", "renseignerez", "renseigneront", "renseignerais", "renseignerait", "renseignerions", "renseigneriez", "renseigneraient", "renseignant", "renseignai", "renseignas", "renseigna", "renseignâmes", "renseignâtes", "renseignèrent"], "examples": [
+      { "fr": "Ne quittez pas, je **me renseigne**.", "en": "Please hold, I'll find out." },
+      { "fr": "Il faut **se renseigner** avant de signer.", "en": "You need to find out before signing." },
+      { "fr": "Tu t'es **renseigné** sur les prix ?", "en": "Did you find out about the prices?" }
+    ] },
+    { "id": "epeler", "fr": "épeler", "pos": "verb", "ipa": "e.pə.le", "en": "to spell (out)", "def": "Dire les lettres d'un mot, une par une.", "def_en": "To say the letters of a word, one by one.", "forms": ["épelle", "épelles", "épelons", "épelez", "épellent", "épelé", "épelée", "épelés", "épelées", "épelais", "épelait", "épelions", "épeliez", "épelaient", "épellerai", "épelleras", "épellera", "épellerons", "épellerez", "épelleront", "épellerais", "épellerait", "épellerions", "épelleriez", "épelleraient", "épelant", "épelai", "épelas", "épela", "épelâmes", "épelâtes", "épelèrent"], "examples": [
+      { "fr": "Pouvez-vous **épeler** votre nom ?", "en": "Could you spell your name?" },
+      { "fr": "Hugo **épelle** son nom, lettre par lettre.", "en": "Hugo spells out his name, letter by letter." },
+      { "fr": "Comment ça s'**épelle** ?", "en": "How do you spell that?" }
+    ] },
+    { "id": "calmement", "fr": "calmement", "pos": "adv", "ipa": "kal.mə.mɑ̃", "en": "calmly", "def": "Sans s'énerver, tranquillement.", "def_en": "Without getting worked up, quietly.", "examples": [
+      { "fr": "Cette fois, tu parles **calmement**.", "en": "This time, you speak calmly." },
+      { "fr": "Elle a répondu **calmement**.", "en": "She answered calmly." },
+      { "fr": "Respire, et explique-moi **calmement**.", "en": "Breathe, and explain it to me calmly." }
+    ] },
+    { "id": "impoli", "fr": "impoli", "pos": "adj", "ipa": "ɛ̃.pɔ.li", "display": "impoli, impolie", "en": "rude, impolite", "def": "Qui manque de respect, qui ne dit ni bonjour ni merci.", "def_en": "Disrespectful, not saying hello or thank you.", "forms": ["impolie", "impolis", "impolies"], "accept": ["impolie"], "examples": [
+      { "fr": "Tu as été très **impoli** !", "en": "You were very rude!" },
+      { "fr": "C'est **impoli** de crier au téléphone.", "en": "It's rude to shout on the phone." },
+      { "fr": "Quelle cliente **impolie** !", "en": "What a rude customer!" }
+    ] },
+    { "id": "courtois", "fr": "courtois", "pos": "adj", "ipa": "kuʁ.twa", "display": "courtois, courtoise", "en": "courteous", "def": "Très poli et agréable avec les autres.", "def_en": "Very polite and pleasant to others.", "forms": ["courtoise", "courtoises"], "accept": ["courtoise"], "examples": [
+      { "fr": "Elle était tellement **courtoise** !", "en": "She was so courteous!" },
+      { "fr": "Restez **courtois**, s'il vous plaît.", "en": "Please remain courteous." },
+      { "fr": "Un client **courtois** obtient plus.", "en": "A courteous customer gets more." }
+    ] },
+    { "id": "ne-quittez-pas", "fr": "ne quittez pas", "pos": "expr", "ipa": "nə ki.te pa", "en": "(on the phone) please hold, hold the line", "def": "Au téléphone : restez en ligne, attendez un moment.", "def_en": "On the phone: stay on the line, wait a moment.", "forms": ["ne quitte pas"], "examples": [
+      { "fr": "**Ne quittez pas**, je me renseigne.", "en": "Please hold, I'll find out." },
+      { "fr": "**Ne quittez pas**, je vous passe le service.", "en": "Hold the line, I'm putting you through." },
+      { "fr": "Allô ? **Ne quitte pas**, je cherche un stylo.", "en": "Hello? Hold on, I'm looking for a pen." }
+    ] },
+    { "id": "bien-a-vous", "fr": "bien à vous", "pos": "expr", "ipa": "bjɛ̃.na vu", "en": "best wishes, yours (at the end of an email)", "def": "Formule pour finir un mail ou une lettre, un peu plus gentille que « cordialement ».", "def_en": "A way of ending an email or a letter, a little warmer than 'cordialement'.", "examples": [
+      { "fr": "« **Bien à vous** », c'est plus gentil.", "en": "'Best wishes' is nicer." },
+      { "fr": "**Bien à vous**, Léa.", "en": "Best wishes, Léa." },
+      { "fr": "Il termine ses mails par « **Bien à vous** ».", "en": "He ends his emails with 'Best wishes'." }
+    ] }
+  ],
+  "story": {
+    "title": "La politesse, c'est gratuit",
+    "en": "Monday 23 November: eight days without internet. Hugo calls to cancel, with Léa beside him and Mamie on video.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi vingt-trois novembre, ça fait huit jours. Hugo va appeler son opérateur pour résilier. Léa est là, et Mamie aussi, en appel vidéo depuis Marseille.", "en": "On Monday 23 November, it's been eight days. Hugo is going to call his provider to cancel. Léa is with him, and so is Mamie, on a video call from Marseille." },
+      { "sp": "Mamie", "fr": "Mon chéri, la politesse, c'est gratuit. On n'attrape pas les mouches avec du vinaigre !", "en": "Darling, politeness costs nothing. You don't catch flies with vinegar!" },
+      { "sp": "Hugo", "fr": "Je sais, Mamie. Mais la dernière fois, j'ai un peu crié…", "en": "I know, Mamie. But last time, I shouted a bit…" },
+      { "sp": "Léa", "fr": "Un peu ? Tu as été très impoli ! Cette fois, tu parles calmement. Et tu commences par t'excuser de déranger.", "en": "A bit? You were very rude! This time, you speak calmly. And you start by apologising for the bother." },
+      { "sp": "", "fr": "Hugo appelle. Au standard, une voix dit : « Veuillez patienter. »", "en": "Hugo calls. At the switchboard, a voice says: 'Please hold.'" },
+      { "sp": "La conseillère", "fr": "Bonsoir, monsieur. Je suis à votre service. Que [puis-je|puis-je] faire pour vous ?", "en": "Good evening, sir. I'm at your service. What can I do for you?" },
+      { "sp": "Hugo", "fr": "Bonsoir, madame. Excusez-moi de vous déranger. Je me permets de vous appeler au sujet de ma ligne internet.", "en": "Good evening, madam. Sorry to bother you. I'm calling about my internet line, if I may." },
+      { "sp": "La conseillère", "fr": "Bien entendu. Pouvez-vous épeler votre nom, s'il vous plaît ?", "en": "Of course. Could you spell your name, please?" },
+      { "sp": "", "fr": "Hugo épelle son nom, lettre par lettre, très calmement.", "en": "Hugo spells his name, letter by letter, very calmly." },
+      { "sp": "Hugo", "fr": "Ma ligne est en panne depuis huit jours. Selon la clause douze, je peux résilier sans frais. Pourriez-vous, si possible, enregistrer ma résiliation ? Je vous serais très reconnaissant.", "en": "My line has been down for eight days. According to clause twelve, I can cancel free of charge. Could you, if possible, register my cancellation? I'd be very grateful." },
+      { "sp": "La conseillère", "fr": "Ne quittez pas, je me renseigne.", "en": "Please hold, I'll find out." },
+      { "sp": "", "fr": "Trois minutes de musique. Sur l'écran du téléphone, Mamie danse.", "en": "Three minutes of music. On the phone screen, Mamie dances." },
+      { "sp": "La conseillère", "fr": "C'est noté, monsieur : votre résiliation est sans frais. Et nous vous remboursons le mois de novembre. Je suis navrée pour ce problème.", "en": "That's done, sir: your cancellation is free of charge. And we're refunding you for November. I'm very sorry about this problem." },
+      { "sp": "Hugo", "fr": "C'est très aimable, merci beaucoup !", "en": "That's very kind, thank you very much!" },
+      { "sp": "La conseillère", "fr": "Je vous en prie. Si vous avez besoin d'un autre renseignement, n'hésitez pas à nous appeler.", "en": "You're welcome. If you need any other information, don't hesitate to call us." },
+      { "sp": "Hugo", "fr": "Merci d'avance pour la confirmation par mail. Bonne soirée, madame !", "en": "Thanks in advance for the confirmation by email. Have a good evening, madam!" },
+      { "sp": "", "fr": "Hugo raccroche. Il n'en revient pas.", "en": "Hugo hangs up. He can't believe it." },
+      { "sp": "Hugo", "fr": "Elle était tellement courtoise ! Merci, Mamie, tu avais raison.", "en": "She was so courteous! Thanks, Mamie, you were right." },
+      { "sp": "Mamie", "fr": "Il n'y a pas de quoi, mon chéri. Tu vois ? Avec un peu d'amabilité, on obtient tout.", "en": "Don't mention it, darling. You see? With a little kindness, you get everything." },
+      { "sp": "Léa", "fr": "Maintenant, on écrit un petit mail pour remercier. On termine par « Cordialement » ou « Bien à vous » ?", "en": "Now we write a short email to say thank you. Shall we end with 'Kind regards' or 'Best wishes'?" },
+      { "sp": "Hugo", "fr": "« Bien à vous », c'est plus gentil. Et j'ajoute : « Merci pour votre patience. »", "en": "'Best wishes' is nicer. And I'll add: 'Thank you for your patience.'" }
+    ]
+  }
+}

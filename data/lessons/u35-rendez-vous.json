@@ -1,0 +1,166 @@
+{
+  "id": "u35-rendez-vous",
+  "type": "vocab",
+  "unit": 35,
+  "title": "Les rendez-vous",
+  "en": "Appointments",
+  "intro": "25 words for appointments: making them (**joindre, le standard, l'attente, le créneau, fixer, noter, le rappel, le planning, la matinée**), changing them (**reporter, décaler, décommander, l'empêchement, le contretemps, l'oubli, se libérer**), being called in (**convoquer, la convocation**) and the people and places (**la consultation, le cabinet, la salle d'attente, la secrétaire, le généraliste, le technicien, ponctuel**).",
+  "words": [
+    { "id": "creneau", "fr": "créneau", "pos": "noun", "g": "m", "ipa": "kʁe.no", "en": "slot, time slot", "def": "Un moment libre dans une journée, pour un rendez-vous ou une activité.", "def_en": "A free moment in a day, for an appointment or an activity.", "forms": ["créneaux"], "examples": [
+      { "fr": "Je peux vous proposer un **créneau** jeudi matin.", "en": "I can offer you a slot on Thursday morning." },
+      { "fr": "Il n'y a plus de **créneau** libre cette semaine.", "en": "There are no free slots left this week." },
+      { "fr": "Les **créneaux** du samedi sont complets.", "en": "The Saturday slots are fully booked." }
+    ] },
+    { "id": "fixer", "fr": "fixer", "pos": "verb", "ipa": "fik.se", "en": "to set (a date, a time); to fix, to attach", "def": "Décider d'une date ou d'une heure. Aussi : attacher une chose à un mur.", "def_en": "To decide on a date or a time. Also: to attach something to a wall.", "forms": ["fixe", "fixes", "fixons", "fixez", "fixent", "fixé", "fixée", "fixés", "fixées", "fixais", "fixait", "fixions", "fixiez", "fixaient", "fixerai", "fixeras", "fixera", "fixerons", "fixerez", "fixeront", "fixerais", "fixerait", "fixerions", "fixeriez", "fixeraient", "fixant", "fixai", "fixas", "fixa", "fixâmes", "fixâtes", "fixèrent"], "examples": [
+      { "fr": "On a **fixé** la présentation à mercredi.", "en": "The presentation has been set for Wednesday." },
+      { "fr": "On **fixe** une date pour le dîner ?", "en": "Shall we set a date for the dinner?" },
+      { "fr": "Il faut **fixer** l'étagère au mur.", "en": "The shelf needs fixing to the wall." }
+    ] },
+    { "id": "reporter", "fr": "reporter", "pos": "verb", "ipa": "ʁə.pɔʁ.te", "en": "to postpone, to put off", "def": "Mettre à plus tard.", "def_en": "To move to a later time.", "forms": ["reporte", "reportes", "reportons", "reportez", "reportent", "reporté", "reportée", "reportés", "reportées", "reportais", "reportait", "reportions", "reportiez", "reportaient", "reporterai", "reporteras", "reportera", "reporterons", "reporterez", "reporteront", "reporterais", "reporterait", "reporterions", "reporteriez", "reporteraient", "reportant", "reportai", "reportas", "reporta", "reportâmes", "reportâtes", "reportèrent"], "examples": [
+      { "fr": "Votre rendez-vous est **reporté** à mardi.", "en": "Your appointment has been postponed to Tuesday." },
+      { "fr": "On peut **reporter** la réunion ?", "en": "Can we put off the meeting?" },
+      { "fr": "Il **reporte** toujours ses rendez-vous.", "en": "He always puts off his appointments." }
+    ] },
+    { "id": "decaler", "fr": "décaler", "pos": "verb", "ipa": "de.ka.le", "en": "to move, to shift (a time or a date)", "def": "Changer un peu l'heure ou la date de quelque chose.", "def_en": "To change the time or date of something a little.", "forms": ["décale", "décales", "décalons", "décalez", "décalent", "décalé", "décalée", "décalés", "décalées", "décalais", "décalait", "décalions", "décaliez", "décalaient", "décalerai", "décaleras", "décalera", "décalerons", "décalerez", "décaleront", "décalerais", "décalerait", "décalerions", "décaleriez", "décaleraient", "décalant", "décalai", "décalas", "décala", "décalâmes", "décalâtes", "décalèrent"], "examples": [
+      { "fr": "La secrétaire a **décalé** mon rendez-vous à mardi.", "en": "The receptionist moved my appointment to Tuesday." },
+      { "fr": "On peut **décaler** le dîner d'une heure ?", "en": "Can we push dinner back an hour?" },
+      { "fr": "Je **décale** mon cours à dix heures.", "en": "I'm moving my lesson to ten." }
+    ] },
+    { "id": "decommander", "fr": "décommander", "pos": "verb", "ipa": "de.kɔ.mɑ̃.de", "en": "to cancel (an appointment, an order)", "def": "Dire qu'on ne viendra pas à un rendez-vous prévu.", "def_en": "To say you won't come to an arranged appointment.", "forms": ["décommande", "décommandes", "décommandons", "décommandez", "décommandent", "décommandé", "décommandée", "décommandés", "décommandées", "décommandais", "décommandait", "décommandions", "décommandiez", "décommandaient", "décommanderai", "décommanderas", "décommandera", "décommanderons", "décommanderez", "décommanderont", "décommanderais", "décommanderait", "décommanderions", "décommanderiez", "décommanderaient", "décommandant", "décommandai", "décommandas", "décommanda", "décommandâmes", "décommandâtes", "décommandèrent"], "examples": [
+      { "fr": "Mon agence a **décommandé** la séance de photos.", "en": "My agency has cancelled the photo shoot." },
+      { "fr": "Je dois **décommander** mon rendez-vous chez le coiffeur.", "en": "I have to cancel my hairdresser's appointment." },
+      { "fr": "Si vous **décommandez**, prévenez-nous la veille.", "en": "If you cancel, let us know the day before." }
+    ] },
+    { "id": "consultation", "fr": "consultation", "pos": "noun", "g": "f", "ipa": "kɔ̃.syl.ta.sjɔ̃", "en": "consultation, (doctor's) appointment", "def": "Le moment où on voit le médecin, dans son cabinet.", "def_en": "The time when you see the doctor, in their surgery.", "forms": ["consultations"], "examples": [
+      { "fr": "Ma **consultation** est à dix heures.", "en": "My appointment is at ten." },
+      { "fr": "Une **consultation** chez le généraliste coûte trente euros.", "en": "A consultation with a GP costs thirty euros." },
+      { "fr": "Le médecin a fini ses **consultations** à sept heures.", "en": "The doctor finished seeing patients at seven." }
+    ] },
+    { "id": "attente", "fr": "attente", "pos": "noun", "g": "f", "ipa": "a.tɑ̃t", "en": "wait, waiting", "def": "Le temps qu'on passe sans rien faire, avant qu'une chose arrive.", "def_en": "The time you spend doing nothing before something happens.", "note": "*en attente* = on hold, pending.", "forms": ["attentes"], "examples": [
+      { "fr": "Temps d'**attente** : quarante minutes.", "en": "Waiting time: forty minutes." },
+      { "fr": "Après une heure d'**attente**, il a enfin vu le médecin.", "en": "After an hour's wait, he finally saw the doctor." },
+      { "fr": "L'**attente** est longue, à la préfecture.", "en": "The wait is long at the prefecture." }
+    ] },
+    { "id": "salle-d-attente", "fr": "salle d'attente", "pos": "noun", "g": "f", "ipa": "sal da.tɑ̃t", "en": "waiting room", "def": "La pièce où on reste avant de voir le médecin ou le dentiste.", "def_en": "The room where you stay before seeing the doctor or the dentist.", "forms": ["salles d'attente"], "examples": [
+      { "fr": "Il y a beaucoup de monde dans la **salle d'attente**.", "en": "There are lots of people in the waiting room." },
+      { "fr": "Je lis des magazines dans la **salle d'attente**.", "en": "I read magazines in the waiting room." },
+      { "fr": "La **salle d'attente** du dentiste est toujours pleine.", "en": "The dentist's waiting room is always full." }
+    ] },
+    { "id": "standard", "fr": "standard", "pos": "noun", "g": "m", "ipa": "stɑ̃.daʁ", "en": "switchboard; (adj) standard", "def": "Le numéro principal d'une entreprise, où on répond aux appels.", "def_en": "A company's main number, where calls are answered.", "examples": [
+      { "fr": "Au **standard**, une voix enregistrée répond.", "en": "At the switchboard, a recorded voice answers." },
+      { "fr": "Appelez le **standard** : ils vous donneront le bon service.", "en": "Call the switchboard: they'll put you through to the right department." },
+      { "fr": "Le **standard** est fermé le dimanche.", "en": "The switchboard is closed on Sundays." }
+    ] },
+    { "id": "joindre", "fr": "joindre", "pos": "verb", "ipa": "ʒwɛ̃dʁ", "en": "to reach (by phone); to attach (a document)", "def": "Réussir à parler à quelqu'un, par téléphone ou par mail. Aussi : ajouter un document.", "def_en": "To manage to talk to someone, by phone or email. Also: to add a document.", "forms": ["joins", "joint", "joignons", "joignez", "joignent", "jointe", "joints", "jointes", "joignais", "joignait", "joignions", "joigniez", "joignaient", "joindrai", "joindras", "joindra", "joindrons", "joindrez", "joindront", "joindrais", "joindrait", "joindrions", "joindriez", "joindraient", "joigne", "joignes", "joignant", "joignis", "joignit", "joignîmes", "joignîtes", "joignirent"], "examples": [
+      { "fr": "J'essaie de **joindre** mon opérateur depuis ce matin.", "en": "I've been trying to reach my provider since this morning." },
+      { "fr": "On peut vous **joindre** à quel numéro ?", "en": "What number can we reach you on?" },
+      { "fr": "Je **joins** une copie de la facture.", "en": "I'm attaching a copy of the bill." }
+    ] },
+    { "id": "rappel", "fr": "rappel", "pos": "noun", "g": "m", "ipa": "ʁa.pɛl", "en": "reminder", "def": "Un message pour ne pas oublier quelque chose.", "def_en": "A message so you don't forget something.", "forms": ["rappels"], "examples": [
+      { "fr": "Vous recevrez un **rappel** par texto la veille.", "en": "You'll get a reminder by text the day before." },
+      { "fr": "J'ai mis un **rappel** sur mon téléphone.", "en": "I've set a reminder on my phone." },
+      { "fr": "Merci pour le **rappel** !", "en": "Thanks for the reminder!" }
+    ] },
+    { "id": "technicien", "fr": "technicien", "pos": "noun", "g": "m", "ipa": "tɛk.ni.sjɛ̃", "display": "le technicien, la technicienne", "en": "technician, engineer", "def": "Une personne qui installe ou répare des machines et des réseaux.", "def_en": "A person who installs or repairs machines and networks.", "forms": ["technicienne", "techniciens", "techniciennes"], "accept": ["technicienne", "la technicienne"], "examples": [
+      { "fr": "Un **technicien** doit passer chez vous jeudi.", "en": "A technician is due to call round on Thursday." },
+      { "fr": "La **technicienne** a réparé la box en dix minutes.", "en": "The technician fixed the box in ten minutes." },
+      { "fr": "Le **technicien** n'est jamais venu.", "en": "The technician never came." }
+    ] },
+    { "id": "ponctuel", "fr": "ponctuel", "pos": "adj", "ipa": "pɔ̃k.tɥɛl", "display": "ponctuel, ponctuelle", "en": "punctual, on time", "def": "Qui arrive à l'heure, jamais en retard.", "def_en": "Who arrives on time, never late.", "forms": ["ponctuelle", "ponctuels", "ponctuelles"], "accept": ["ponctuelle"], "examples": [
+      { "fr": "Mon médecin est très **ponctuel**.", "en": "My doctor is very punctual." },
+      { "fr": "Sois **ponctuel**, s'il te plaît !", "en": "Be on time, please!" },
+      { "fr": "Elle est toujours **ponctuelle**.", "en": "She's always on time." }
+    ] },
+    { "id": "empechement", "fr": "empêchement", "pos": "noun", "g": "m", "ipa": "ɑ̃.pɛʃ.mɑ̃", "en": "something that stops you coming (j'ai un empêchement = something's come up)", "def": "Une raison qui fait qu'on ne peut pas venir.", "def_en": "A reason why you can't come.", "forms": ["empêchements"], "examples": [
+      { "fr": "Le dentiste a un **empêchement**.", "en": "The dentist can't make it." },
+      { "fr": "Désolé, j'ai un **empêchement** ce soir.", "en": "Sorry, something's come up tonight." },
+      { "fr": "En cas d'**empêchement**, appelez-nous.", "en": "If you can't make it, call us." }
+    ] },
+    { "id": "contretemps", "fr": "contretemps", "pos": "noun", "g": "m", "ipa": "kɔ̃.tʁə.tɑ̃", "en": "hitch, setback, inconvenience", "def": "Un petit problème qu'on n'attendait pas, et qui change les plans.", "def_en": "A small unexpected problem that changes your plans.", "examples": [
+      { "fr": "Jeudi ? Quel **contretemps** !", "en": "Thursday? What a nuisance!" },
+      { "fr": "Un **contretemps** au bureau m'a mis en retard.", "en": "A hitch at the office made me late." },
+      { "fr": "Désolé pour ce **contretemps**.", "en": "Sorry for the inconvenience." }
+    ] },
+    { "id": "se-liberer", "fr": "se libérer", "pos": "verb", "ipa": "sə li.be.ʁe", "en": "to get away, to make yourself free (from work)", "def": "Réussir à trouver du temps, malgré son travail.", "def_en": "To manage to find time, despite your work.", "forms": ["me libère", "te libères", "se libère", "nous nous libérons", "vous vous libérez", "se libèrent", "me libérer", "te libérer", "nous libérer", "vous libérer", "me suis libéré", "me suis libérée", "s'est libéré", "s'est libérée", "me libérais", "te libérais", "se libérait", "me libérerai", "te libéreras", "se libérera", "nous nous libérerons", "vous vous libérerez", "se libéreront", "me libérerais", "te libérerais", "se libérerait", "nous nous libérerions", "vous vous libéreriez", "se libéreraient"], "examples": [
+      { "fr": "Vous ne pouvez pas **vous libérer** un autre jour ?", "en": "Can't you get away another day?" },
+      { "fr": "Je n'arrive pas à **me libérer** avant six heures.", "en": "I can't get away before six." },
+      { "fr": "Elle **s'est libérée** pour venir à la fête.", "en": "She made herself free to come to the party." }
+    ] },
+    { "id": "convoquer", "fr": "convoquer", "pos": "verb", "ipa": "kɔ̃.vɔ.ke", "en": "to summon, to call in", "def": "Demander à quelqu'un, par une lettre ou un message, de venir à un endroit, à une heure précise.", "def_en": "To ask someone, by letter or message, to come to a place at a set time.", "forms": ["convoque", "convoques", "convoquons", "convoquez", "convoquent", "convoqué", "convoquée", "convoqués", "convoquées", "convoquais", "convoquait", "convoquions", "convoquiez", "convoquaient", "convoquerai", "convoqueras", "convoquera", "convoquerons", "convoquerez", "convoqueront", "convoquerais", "convoquerait", "convoquerions", "convoqueriez", "convoqueraient", "convoquant", "convoquai", "convoquas", "convoqua", "convoquâmes", "convoquâtes", "convoquèrent"], "examples": [
+      { "fr": "Je vous **convoque** vendredi à huit heures.", "en": "I want to see you on Friday at eight." },
+      { "fr": "Hugo est **convoqué** dans le bureau de Madame Dupont.", "en": "Hugo has been called into Mme Dupont's office." },
+      { "fr": "Le juge a **convoqué** les témoins.", "en": "The judge summoned the witnesses." }
+    ] },
+    { "id": "convocation", "fr": "convocation", "pos": "noun", "g": "f", "ipa": "kɔ̃.vɔ.ka.sjɔ̃", "en": "notice to attend, summons", "def": "Une lettre qui demande de venir à un endroit, à une date précise.", "def_en": "A letter asking you to come to a place on a set date.", "forms": ["convocations"], "examples": [
+      { "fr": "J'ai reçu une **convocation** de mon école.", "en": "I've had a notice from my school." },
+      { "fr": "N'oubliez pas votre **convocation** le jour de l'examen.", "en": "Don't forget your notice on the day of the exam." },
+      { "fr": "La **convocation** est arrivée par la poste.", "en": "The notice came by post." }
+    ] },
+    { "id": "cabinet", "fr": "cabinet", "pos": "noun", "g": "m", "ipa": "ka.bi.nɛ", "en": "(doctor's, dentist's) surgery, practice; (lawyer's) firm", "def": "L'endroit où travaille un médecin, un dentiste ou un avocat.", "def_en": "The place where a doctor, a dentist or a lawyer works.", "forms": ["cabinets"], "examples": [
+      { "fr": "Le **cabinet** de mon dentiste m'a appelée.", "en": "My dentist's surgery called me." },
+      { "fr": "Le **cabinet** médical est au premier étage.", "en": "The medical practice is on the first floor." },
+      { "fr": "Chloé travaille dans un **cabinet** d'avocats.", "en": "Chloé works in a law firm." }
+    ] },
+    { "id": "secretaire", "fr": "secrétaire", "pos": "noun", "g": "m", "both": true, "ipa": "sə.kʁe.tɛʁ", "en": "secretary, receptionist", "def": "La personne qui répond au téléphone, prend les rendez-vous et s'occupe du courrier.", "def_en": "The person who answers the phone, makes appointments and deals with the post.", "forms": ["secrétaires"], "examples": [
+      { "fr": "La **secrétaire** a décalé mon rendez-vous.", "en": "The receptionist moved my appointment." },
+      { "fr": "Demandez à la **secrétaire** : elle a l'agenda.", "en": "Ask the secretary: she has the diary." },
+      { "fr": "Le **secrétaire** du club envoie les convocations.", "en": "The club secretary sends out the notices." }
+    ] },
+    { "id": "generaliste", "fr": "généraliste", "pos": "noun", "g": "m", "both": true, "ipa": "ʒe.ne.ʁa.list", "en": "GP, family doctor", "def": "Le médecin qu'on va voir d'abord, pour tous les problèmes de santé.", "def_en": "The doctor you see first, for all health problems.", "forms": ["généralistes"], "examples": [
+      { "fr": "Demain, je vais chez mon **généraliste**.", "en": "Tomorrow I'm going to see my GP." },
+      { "fr": "Ma **généraliste** est très gentille.", "en": "My GP is very nice." },
+      { "fr": "Il faut d'abord voir un **généraliste**.", "en": "You have to see a GP first." }
+    ] },
+    { "id": "planning", "fr": "planning", "pos": "noun", "g": "m", "ipa": "pla.niŋ", "en": "schedule, rota", "def": "Le tableau qui montre qui travaille, et quand.", "def_en": "The chart that shows who's working, and when.", "forms": ["plannings"], "examples": [
+      { "fr": "Madame Dupont regarde son **planning**.", "en": "Mme Dupont looks at her schedule." },
+      { "fr": "Mon **planning** est très chargé cette semaine.", "en": "My schedule is very full this week." },
+      { "fr": "Le **planning** change chaque semaine.", "en": "The rota changes every week." }
+    ] },
+    { "id": "matinee", "fr": "matinée", "pos": "noun", "g": "f", "ipa": "ma.ti.ne", "en": "morning (the whole morning)", "def": "Le matin, du réveil jusqu'à midi.", "def_en": "The morning, from waking up until noon.", "forms": ["matinées"], "examples": [
+      { "fr": "Toute la **matinée** ? Mais je travaille !", "en": "The whole morning? But I'm working!" },
+      { "fr": "Il a attendu toute la **matinée**.", "en": "He waited all morning." },
+      { "fr": "Bonne **matinée** !", "en": "Have a good morning!" }
+    ] },
+    { "id": "noter", "fr": "noter", "pos": "verb", "ipa": "nɔ.te", "en": "to note (down), to write down; to mark", "def": "Écrire une information pour ne pas l'oublier.", "def_en": "To write down a piece of information so as not to forget it.", "forms": ["note", "notes", "notons", "notez", "notent", "noté", "notée", "notés", "notées", "notais", "notait", "notions", "notiez", "notaient", "noterai", "noteras", "notera", "noterons", "noterez", "noteront", "noterais", "noterait", "noterions", "noteriez", "noteraient", "notant", "notai", "notas", "nota", "notâmes", "notâtes", "notèrent"], "examples": [
+      { "fr": "Hugo **note** tout sur son téléphone.", "en": "Hugo writes everything down on his phone." },
+      { "fr": "**Notez** bien la date et l'heure.", "en": "Make a note of the date and time." },
+      { "fr": "J'ai **noté** ton numéro.", "en": "I've written your number down." }
+    ] },
+    { "id": "oubli", "fr": "oubli", "pos": "noun", "g": "m", "ipa": "u.bli", "en": "oversight, something forgotten", "def": "Quand on ne pense pas à une chose qu'on devait faire.", "def_en": "When you don't think of something you were supposed to do.", "forms": ["oublis"], "examples": [
+      { "fr": "C'est peut-être un **oubli**.", "en": "Maybe it's an oversight." },
+      { "fr": "Désolé, c'est un **oubli** de ma part.", "en": "Sorry, that was an oversight on my part." },
+      { "fr": "Un petit **oubli**, et tout le planning change !", "en": "One small slip, and the whole schedule changes!" }
+    ] }
+  ],
+  "story": {
+    "title": "Le technicien fantôme",
+    "en": "Sunday 15 to Thursday 19 November: Hugo's internet dies, and the technician never comes.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche quinze novembre, à dix heures du soir, l'internet de Hugo tombe en panne. Plus de séries, plus de jeux vidéo !", "en": "On Sunday 15 November, at ten in the evening, Hugo's internet goes down. No more series, no more video games!" },
+      { "sp": "", "fr": "Le lundi matin, il essaie de joindre son opérateur. Au standard, une voix enregistrée répond.", "en": "On Monday morning, he tries to reach his provider. At the switchboard, a recorded voice answers." },
+      { "sp": "La voix", "fr": "Pour un problème technique, tapez deux. Ne quittez pas. Temps d'attente : quarante minutes.", "en": "For a technical problem, press two. Please hold. Waiting time: forty minutes." },
+      { "sp": "", "fr": "Quarante minutes plus tard, une conseillère répond enfin.", "en": "Forty minutes later, an adviser finally answers." },
+      { "sp": "La conseillère", "fr": "Votre ligne ne fonctionne plus, monsieur. Un technicien doit passer chez vous. Je peux vous proposer un créneau jeudi, entre huit heures et midi.", "en": "Your line isn't working any more, sir. A technician needs to come round. I can offer you a slot on Thursday, between eight and noon." },
+      { "sp": "Hugo", "fr": "Toute la matinée ? Mais je travaille !", "en": "The whole morning? But I'm working!" },
+      { "sp": "La conseillère", "fr": "Désolée, c'est le seul créneau disponible. Vous recevrez un rappel par texto la veille.", "en": "Sorry, it's the only slot available. You'll get a reminder by text the day before." },
+      { "sp": "", "fr": "Au bureau, Hugo demande un jour de congé. Madame Dupont regarde son planning.", "en": "At the office, Hugo asks for a day off. Mme Dupont looks at her schedule." },
+      { "sp": "Mme Dupont", "fr": "Jeudi ? Quel contretemps ! Vous ne pouvez pas vous libérer un autre jour ? Bon, d'accord… Mais je vous convoque vendredi à huit heures : on a beaucoup de travail.", "en": "Thursday? What a nuisance! Can't you get away another day? Well, all right… But I want you here on Friday at eight: we've got a lot of work." },
+      { "sp": "", "fr": "Le soir, au café d'en bas, chacun parle de ses rendez-vous.", "en": "In the evening, at the café downstairs, everyone talks about their appointments." },
+      { "sp": "Léa", "fr": "Le cabinet de mon dentiste m'a appelée : le dentiste a un empêchement. La secrétaire a décalé mon rendez-vous à mardi.", "en": "My dentist's surgery called me: the dentist can't make it. The receptionist has moved my appointment to Tuesday." },
+      { "sp": "Sophie", "fr": "Moi, j'ai reçu une convocation de mon école : on a fixé la présentation de mon projet à mercredi.", "en": "I've had a notice from my school: my project presentation has been set for Wednesday." },
+      { "sp": "Tom", "fr": "Et moi, demain, j'ai une consultation chez mon généraliste. Il est très ponctuel : on ne reste jamais longtemps dans la salle d'attente.", "en": "And tomorrow I've got an appointment with my GP. He's very punctual: you never stay long in the waiting room." },
+      { "sp": "Inès", "fr": "Vous avez de la chance. Mon agence a décommandé la séance de photos de samedi. Encore une annulation !", "en": "You're lucky. My agency has cancelled Saturday's photo shoot. Another cancellation!" },
+      { "sp": "Hugo", "fr": "Moi, je note tout. Jeudi, je serai prêt.", "en": "I'm writing everything down. On Thursday, I'll be ready." },
+      { "sp": "", "fr": "Le jeudi dix-neuf novembre, Hugo attend toute la matinée. Huit heures, rien. Dix heures, rien. Midi, toujours rien.", "en": "On Thursday 19 November, Hugo waits all morning. Eight o'clock, nothing. Ten o'clock, nothing. Noon, still nothing." },
+      { "sp": "", "fr": "Tom vient lui apporter un thé.", "en": "Tom comes over to bring him a cup of tea." },
+      { "sp": "Tom", "fr": "C'est peut-être un oubli ?", "en": "Maybe it's an oversight?" },
+      { "sp": "", "fr": "À midi et quart, Hugo reçoit un texto : « À cause d'un imprévu, votre rendez-vous est reporté au mardi vingt-quatre novembre. »", "en": "At a quarter past twelve, Hugo gets a text: 'Owing to an unforeseen problem, your appointment has been postponed to Tuesday 24 November.'" },
+      { "sp": "Hugo", "fr": "Quoi ? Il m'a posé un lapin !", "en": "What? He's stood me up!" },
+      { "sp": "Tom", "fr": "Un lapin ? Où ça ?", "en": "A rabbit? Where?" },
+      { "sp": "Hugo", "fr": "C'est une expression, Tom ! Ça veut dire qu'il n'est pas venu. Et j'ai perdu un jour de congé pour rien.", "en": "It's an expression, Tom! It means he didn't turn up. And I've wasted a day off for nothing." },
+      { "sp": "Tom", "fr": "En attendant, tu peux utiliser mon wifi.", "en": "In the meantime, you can use my wifi." },
+      { "sp": "Hugo", "fr": "Merci, Tom. Toi, au moins, tu es là quand on a besoin de toi.", "en": "Thanks, Tom. You, at least, are there when people need you." }
+    ]
+  }
+}

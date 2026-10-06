@@ -143,6 +143,8 @@ FIXES = {
     "enzo": "ɛnzˈo",  # the voice says /ɑ̃zo/
     "t'es où": "tɛ ˈu",  # spoken French: no liaison
     "à plus !": "a plˈys!",  # the s is said here, but not in à plus tard
+    "sav": "ɛsavˈe",  # read as a word: say the letters
+    "box": "bˈɔks", "planning": "planˈiŋ", "plannings": "planˈiŋ",  # English vowels otherwise
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

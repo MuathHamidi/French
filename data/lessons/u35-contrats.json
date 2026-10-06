@@ -1,0 +1,164 @@
+{
+  "id": "u35-contrats",
+  "type": "vocab",
+  "unit": 35,
+  "title": "Les contrats et les abonnements",
+  "en": "Contracts and subscriptions",
+  "intro": "25 words for contracts and subscriptions: signing up (**s'abonner, souscrire, l'offre, le forfait, l'opérateur, la box, la fibre, l'installation**), what you sign (**la clause, les petites lignes, l'engagement, la durée, la période d'essai, la reconduction, le titulaire, abusif**), paying (**mensuel, annuel, le prélèvement, les frais, la pénalité, l'échéance**) and getting out (**résilier, la résiliation, la rétractation**).",
+  "words": [
+    { "id": "s-abonner", "fr": "s'abonner", "pos": "verb", "ipa": "sa.bɔ.ne", "en": "to subscribe (to)", "def": "Payer chaque mois ou chaque année pour recevoir un service, un journal ou des séries.", "def_en": "To pay every month or every year to receive a service, a newspaper or TV series.", "forms": ["m'abonne", "t'abonnes", "s'abonne", "nous nous abonnons", "vous vous abonnez", "s'abonnent", "m'abonner", "t'abonner", "nous abonner", "vous abonner", "abonner", "m'abonnerai", "t'abonneras", "s'abonnera", "nous nous abonnerons", "vous vous abonnerez", "s'abonneront", "m'abonnerais", "t'abonnerais", "s'abonnerait", "nous nous abonnerions", "vous vous abonneriez", "s'abonneraient", "abonne", "abonnes", "abonnons", "abonnez", "abonnent", "abonné", "abonnée", "abonnés", "abonnées", "abonnais", "abonnait", "abonnions", "abonniez", "abonnaient", "abonnerai", "abonneras", "abonnera", "abonnerons", "abonnerez", "abonneront", "abonnerais", "abonnerait", "abonnerions", "abonneriez", "abonneraient", "abonnant", "abonnai", "abonnas", "abonna", "abonnâmes", "abonnâtes", "abonnèrent"], "examples": [
+      { "fr": "Je peux **m'abonner** à autre chose ?", "en": "Can I subscribe to something else?" },
+      { "fr": "Tom s'est **abonné** à un journal anglais.", "en": "Tom has subscribed to an English newspaper." },
+      { "fr": "On **s'abonne** en ligne.", "en": "You subscribe online." }
+    ] },
+    { "id": "resilier", "fr": "résilier", "pos": "verb", "ipa": "ʁe.zi.lje", "en": "to cancel (a contract, a subscription)", "def": "Mettre fin à un contrat ou à un abonnement.", "def_en": "To end a contract or a subscription.", "forms": ["résilie", "résilies", "résilions", "résiliez", "résilient", "résilié", "résiliée", "résiliés", "résiliées", "résiliais", "résiliait", "résiliions", "résiliiez", "résiliaient", "résilierai", "résilieras", "résiliera", "résilierons", "résilierez", "résilieront", "résilierais", "résilierait", "résilierions", "résilieriez", "résilieraient", "résiliant", "résiliai", "résilias", "résilia", "résiliâmes", "résiliâtes", "résilièrent"], "examples": [
+      { "fr": "Je veux **résilier** mon abonnement.", "en": "I want to cancel my subscription." },
+      { "fr": "Si je **résilie** avant l'échéance, je paie ?", "en": "If I cancel before the end date, do I have to pay?" },
+      { "fr": "Il a **résilié** son contrat de téléphone.", "en": "He cancelled his phone contract." }
+    ] },
+    { "id": "resiliation", "fr": "résiliation", "pos": "noun", "g": "f", "ipa": "ʁe.zi.lja.sjɔ̃", "en": "cancellation (of a contract)", "def": "La fin d'un contrat, décidée par le client ou par l'entreprise.", "def_en": "The end of a contract, decided by the customer or the company.", "forms": ["résiliations"], "examples": [
+      { "fr": "Les frais de **résiliation** sont de cent cinquante euros.", "en": "The cancellation fee is a hundred and fifty euros." },
+      { "fr": "Envoyez votre **résiliation** en recommandé.", "en": "Send your cancellation by registered post." },
+      { "fr": "La **résiliation** est gratuite après un an.", "en": "Cancellation is free after a year." }
+    ] },
+    { "id": "engagement", "fr": "engagement", "pos": "noun", "g": "m", "ipa": "ɑ̃.ɡaʒ.mɑ̃", "en": "commitment; minimum term (of a contract)", "def": "La période pendant laquelle on promet de rester client. Aussi : une promesse.", "def_en": "The period during which you promise to remain a customer. Also: a promise.", "forms": ["engagements"], "examples": [
+      { "fr": "Il y a un **engagement** de vingt-quatre mois.", "en": "There's a twenty-four-month minimum term." },
+      { "fr": "Une offre sans **engagement** !", "en": "A no-commitment deal!" },
+      { "fr": "Il respecte toujours ses **engagements**.", "en": "He always keeps his commitments." }
+    ] },
+    { "id": "clause", "fr": "clause", "pos": "noun", "g": "f", "ipa": "kloz", "en": "clause, term (of a contract)", "def": "Une partie d'un contrat qui dit ce qu'on doit faire ou ne pas faire.", "def_en": "A part of a contract that says what you must or mustn't do.", "forms": ["clauses"], "examples": [
+      { "fr": "Regarde la **clause** sept.", "en": "Look at clause seven." },
+      { "fr": "Cette **clause** est très claire.", "en": "This clause is very clear." },
+      { "fr": "Lis bien toutes les **clauses** avant de signer.", "en": "Read all the clauses carefully before signing." }
+    ] },
+    { "id": "souscrire", "fr": "souscrire", "pos": "verb", "ipa": "su.skʁiʁ", "en": "to take out (a contract, insurance), to sign up for", "def": "Signer un contrat pour avoir un service : une assurance, un abonnement…", "def_en": "To sign a contract to get a service: insurance, a subscription…", "forms": ["souscris", "souscrit", "souscrivons", "souscrivez", "souscrivent", "souscrite", "souscrits", "souscrites", "souscrivais", "souscrivait", "souscrivions", "souscriviez", "souscrivaient", "souscrirai", "souscriras", "souscrira", "souscrirons", "souscrirez", "souscriront", "souscrirais", "souscrirait", "souscririons", "souscririez", "souscriraient", "souscrive", "souscrives", "souscrivant", "souscrivis", "souscrivit", "souscrivîmes", "souscrivîtes", "souscrivirent"], "examples": [
+      { "fr": "J'ai **souscrit** l'offre en juillet.", "en": "I signed up for the deal in July." },
+      { "fr": "Il faut **souscrire** une assurance pour l'appartement.", "en": "You have to take out insurance for the flat." },
+      { "fr": "Vous pouvez **souscrire** en ligne.", "en": "You can sign up online." }
+    ] },
+    { "id": "reconduction", "fr": "reconduction", "pos": "noun", "g": "f", "ipa": "ʁə.kɔ̃.dyk.sjɔ̃", "en": "renewal (of a contract)", "def": "Quand un contrat continue pour une nouvelle période.", "def_en": "When a contract carries on for a new period.", "note": "*reconduction tacite* = automatic renewal, unless you cancel in time.", "forms": ["reconductions"], "examples": [
+      { "fr": "Attention à la **reconduction** du contrat !", "en": "Watch out for the contract renewal!" },
+      { "fr": "La **reconduction** est automatique chaque année.", "en": "Renewal is automatic every year." },
+      { "fr": "Il a oublié la date de **reconduction**.", "en": "He forgot the renewal date." }
+    ] },
+    { "id": "forfait", "fr": "forfait", "pos": "noun", "g": "m", "ipa": "fɔʁ.fɛ", "en": "package, plan (phone, internet)", "def": "Un prix pour tout un service : des appels et internet pour un mois, par exemple.", "def_en": "One price for a whole service: calls and internet for a month, for example.", "forms": ["forfaits"], "examples": [
+      { "fr": "La box, la télé et le téléphone : un **forfait** à trente euros.", "en": "Box, TV and phone: a thirty-euro package." },
+      { "fr": "Mon **forfait** de téléphone est trop cher.", "en": "My phone plan is too expensive." },
+      { "fr": "Il change de **forfait** tous les ans.", "en": "He changes plans every year." }
+    ] },
+    { "id": "mensuel", "fr": "mensuel", "pos": "adj", "ipa": "mɑ̃.sɥɛl", "display": "mensuel, mensuelle", "en": "monthly", "def": "Qui a lieu ou qu'on paie chaque mois.", "def_en": "That happens or is paid every month.", "forms": ["mensuelle", "mensuels", "mensuelles"], "accept": ["mensuelle"], "examples": [
+      { "fr": "Trente euros, c'est un prix **mensuel**.", "en": "Thirty euros is a monthly price." },
+      { "fr": "Le loyer **mensuel** est de six cent cinquante euros.", "en": "The monthly rent is six hundred and fifty euros." },
+      { "fr": "C'est une réunion **mensuelle**.", "en": "It's a monthly meeting." }
+    ] },
+    { "id": "annuel", "fr": "annuel", "pos": "adj", "ipa": "a.nɥɛl", "display": "annuel, annuelle", "en": "annual, yearly", "def": "Qui a lieu ou qu'on paie chaque année.", "def_en": "That happens or is paid every year.", "forms": ["annuelle", "annuels", "annuelles"], "accept": ["annuelle"], "examples": [
+      { "fr": "C'est un abonnement **annuel** !", "en": "It's an annual subscription!" },
+      { "fr": "La fête **annuelle** du quartier est en juin.", "en": "The annual neighbourhood party is in June." },
+      { "fr": "Le prix **annuel** est moins cher.", "en": "The yearly price is cheaper." }
+    ] },
+    { "id": "frais-n", "fr": "frais", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "fʁɛ", "en": "costs, fees, charges (sans frais = free of charge)", "def": "L'argent qu'on doit payer en plus pour un service.", "def_en": "The money you have to pay on top for a service.", "note": "The adjective **frais** means *cool, fresh*.", "forms": ["sans frais"], "examples": [
+      { "fr": "Il y a des **frais** de résiliation.", "en": "There's a cancellation fee." },
+      { "fr": "La livraison est **sans frais**.", "en": "Delivery is free of charge." },
+      { "fr": "On partage les **frais** ?", "en": "Shall we split the costs?" }
+    ] },
+    { "id": "penalite", "fr": "pénalité", "pos": "noun", "g": "f", "ipa": "pe.na.li.te", "en": "penalty", "def": "De l'argent qu'on doit payer quand on ne respecte pas un contrat ou une règle.", "def_en": "Money you have to pay when you don't respect a contract or a rule.", "forms": ["pénalités"], "examples": [
+      { "fr": "Vous pouvez résilier sans **pénalité**.", "en": "You can cancel without penalty." },
+      { "fr": "En cas de retard, il y a une **pénalité**.", "en": "If you're late, there's a penalty." },
+      { "fr": "Les **pénalités** sont écrites dans le contrat.", "en": "The penalties are written in the contract." }
+    ] },
+    { "id": "duree", "fr": "durée", "pos": "noun", "g": "f", "ipa": "dy.ʁe", "en": "length, duration", "def": "Le temps entre le début et la fin d'une chose.", "def_en": "The time between the beginning and the end of something.", "forms": ["durées"], "examples": [
+      { "fr": "Lis bien la **durée** du contrat.", "en": "Read the length of the contract carefully." },
+      { "fr": "C'est pour une **durée** de deux ans.", "en": "It's for a period of two years." },
+      { "fr": "Quelle est la **durée** du film ?", "en": "How long is the film?" }
+    ] },
+    { "id": "titulaire", "fr": "titulaire", "pos": "noun", "g": "m", "both": true, "ipa": "ti.ty.lɛʁ", "en": "holder (of a contract, an account, a card)", "def": "La personne qui a un contrat, une carte ou un compte à son nom.", "def_en": "The person who has a contract, a card or an account in their name.", "forms": ["titulaires"], "examples": [
+      { "fr": "Le **titulaire**, c'est moi !", "en": "The holder is me!" },
+      { "fr": "Le **titulaire** du compte doit signer.", "en": "The account holder must sign." },
+      { "fr": "Elle est **titulaire** d'un permis de conduire.", "en": "She holds a driving licence." }
+    ] },
+    { "id": "prelevement", "fr": "prélèvement", "pos": "noun", "g": "m", "ipa": "pʁe.lɛv.mɑ̃", "en": "direct debit", "def": "Quand une entreprise prend l'argent sur votre compte en banque, chaque mois, sans rien vous demander.", "def_en": "When a company takes money from your bank account every month, without asking you.", "forms": ["prélèvements"], "examples": [
+      { "fr": "Le **prélèvement** de décembre sera annulé.", "en": "December's direct debit will be cancelled." },
+      { "fr": "Je paie le loyer par **prélèvement**.", "en": "I pay the rent by direct debit." },
+      { "fr": "Il y a trois **prélèvements** sur mon compte.", "en": "There are three direct debits on my account." }
+    ] },
+    { "id": "periode-d-essai", "fr": "période d'essai", "pos": "noun", "g": "f", "ipa": "pe.ʁjɔd de.sɛ", "en": "trial period", "def": "Un temps, au début d'un contrat, pendant lequel on peut arrêter facilement.", "def_en": "A time at the start of a contract during which you can stop easily.", "forms": ["périodes d'essai"], "examples": [
+      { "fr": "Lis bien la durée, la reconduction, la **période d'essai**…", "en": "Read the length, the renewal, the trial period carefully…" },
+      { "fr": "J'ai une **période d'essai** de deux mois.", "en": "I've got a two-month trial period." },
+      { "fr": "Pendant la **période d'essai**, on peut partir sans préavis.", "en": "During the trial period, you can leave without notice." }
+    ] },
+    { "id": "box", "fr": "box", "pos": "noun", "g": "f", "ipa": "bɔks", "en": "(internet) box, router", "def": "Le petit appareil qui donne internet, la télé et le téléphone à la maison.", "def_en": "The little device that gives you internet, TV and phone at home.", "examples": [
+      { "fr": "La **box** ne fonctionne plus.", "en": "The box doesn't work any more." },
+      { "fr": "Redémarre la **box** !", "en": "Restart the box!" },
+      { "fr": "Le technicien installe la nouvelle **box**.", "en": "The technician installs the new box." }
+    ] },
+    { "id": "fibre", "fr": "fibre", "pos": "noun", "g": "f", "ipa": "fibʁ", "en": "fibre (broadband)", "def": "Un internet très rapide, qui passe par un câble très fin.", "def_en": "Very fast internet that runs through a very thin cable.", "forms": ["fibres"], "examples": [
+      { "fr": "Un autre opérateur propose la **fibre**.", "en": "Another provider offers fibre." },
+      { "fr": "Avec la **fibre**, tout est plus rapide.", "en": "With fibre, everything is faster." },
+      { "fr": "La **fibre** arrive dans notre rue.", "en": "Fibre is coming to our street." }
+    ] },
+    { "id": "operateur", "fr": "opérateur", "pos": "noun", "g": "m", "ipa": "o.pe.ʁa.tœʁ", "en": "(phone, internet) provider, operator", "def": "L'entreprise qui vend des services de téléphone et d'internet.", "def_en": "The company that sells phone and internet services.", "forms": ["opérateurs"], "examples": [
+      { "fr": "Ton **opérateur**, tu l'as depuis quand ?", "en": "How long have you had your provider?" },
+      { "fr": "Je vais changer d'**opérateur**.", "en": "I'm going to switch providers." },
+      { "fr": "Les **opérateurs** font beaucoup de publicité.", "en": "Providers do a lot of advertising." }
+    ] },
+    { "id": "installation", "fr": "installation", "pos": "noun", "g": "f", "ipa": "ɛ̃s.ta.la.sjɔ̃", "en": "installation; setting up", "def": "Le travail pour brancher et préparer un appareil ou un service.", "def_en": "The work of connecting and setting up a device or a service.", "forms": ["installations"], "examples": [
+      { "fr": "L'**installation** est offerte.", "en": "Installation is free." },
+      { "fr": "L'**installation** de la fibre prend deux heures.", "en": "Installing fibre takes two hours." },
+      { "fr": "Le technicien a fini l'**installation**.", "en": "The technician has finished the installation." }
+    ] },
+    { "id": "petites-lignes", "fr": "petites lignes", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "pə.tit liɲ", "en": "the small print", "def": "Le texte écrit en tout petit dans un contrat, qu'on ne lit jamais.", "def_en": "The text written in tiny letters in a contract, which nobody ever reads.", "examples": [
+      { "fr": "C'est écrit dans les **petites lignes**.", "en": "It's in the small print." },
+      { "fr": "Lis toujours les **petites lignes** !", "en": "Always read the small print!" },
+      { "fr": "Chloé lit même les **petites lignes**.", "en": "Chloé even reads the small print." }
+    ] },
+    { "id": "offre-n", "fr": "offre", "pos": "noun", "g": "f", "ipa": "ɔfʁ", "en": "offer, deal", "def": "Ce qu'une entreprise propose à ses clients, souvent à un prix spécial.", "def_en": "What a company offers its customers, often at a special price.", "forms": ["offres"], "examples": [
+      { "fr": "Cette **offre** est valable jusqu'à dimanche.", "en": "This offer is valid until Sunday." },
+      { "fr": "Il y a une **offre** spéciale pour les étudiants.", "en": "There's a special offer for students." },
+      { "fr": "Il compare les **offres** des opérateurs.", "en": "He compares the providers' deals." }
+    ] },
+    { "id": "echeance", "fr": "échéance", "pos": "noun", "g": "f", "ipa": "e.ʃe.ɑ̃s", "en": "due date; end date (of a contract)", "def": "La date où on doit payer, ou la date où un contrat se termine.", "def_en": "The date when you have to pay, or when a contract ends.", "forms": ["échéances"], "examples": [
+      { "fr": "Et si je résilie avant l'**échéance** ?", "en": "And if I cancel before the end date?" },
+      { "fr": "L'**échéance** du loyer est le premier du mois.", "en": "The rent is due on the first of the month." },
+      { "fr": "N'oublie pas les **échéances** !", "en": "Don't forget the due dates!" }
+    ] },
+    { "id": "retractation", "fr": "rétractation", "pos": "noun", "g": "f", "ipa": "ʁe.tʁak.ta.sjɔ̃", "en": "withdrawal (le droit de rétractation = the right to cancel, the cooling-off period)", "def": "Le droit de changer d'avis après avoir signé ou acheté : quatorze jours en France.", "def_en": "The right to change your mind after signing or buying: fourteen days in France.", "forms": ["rétractations"], "examples": [
+      { "fr": "Et le droit de **rétractation** : quatorze jours pour changer d'avis.", "en": "And the right to cancel: fourteen days to change your mind." },
+      { "fr": "Le délai de **rétractation** est de quatorze jours.", "en": "The cooling-off period is fourteen days." },
+      { "fr": "Envoyez le formulaire de **rétractation**.", "en": "Send the withdrawal form." }
+    ] },
+    { "id": "abusif", "fr": "abusif", "pos": "adj", "ipa": "a.by.zif", "display": "abusif, abusive", "en": "unfair, excessive (une clause abusive = an unfair term)", "def": "Qui va trop loin, qui n'est pas juste pour l'autre.", "def_en": "That goes too far, that isn't fair to the other person.", "forms": ["abusive", "abusifs", "abusives"], "accept": ["abusive"], "examples": [
+      { "fr": "Pas de clause **abusive** !", "en": "No unfair terms!" },
+      { "fr": "Ces frais sont **abusifs**.", "en": "These charges are excessive." },
+      { "fr": "C'est un prix **abusif**.", "en": "That's an outrageous price." }
+    ] }
+  ],
+  "story": {
+    "title": "Les petites lignes",
+    "en": "Saturday 21 November: at Chloé and Karim's, Chloé reads Hugo's internet contract, all of it.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt et un novembre, après sa course avec Carla, Hugo arrive chez Chloé et Karim, à la Croix-Rousse, avec son contrat internet.", "en": "On Saturday 21 November, after his run with Carla, Hugo arrives at Chloé and Karim's in the Croix-Rousse, with his internet contract." },
+      { "sp": "Hugo", "fr": "Chloé, tu es avocate. Je veux résilier mon abonnement. C'est possible ?", "en": "Chloé, you're a lawyer. I want to cancel my subscription. Is that possible?" },
+      { "sp": "Chloé", "fr": "Montre… Ton opérateur, tu l'as depuis quand ?", "en": "Show me… How long have you had your provider?" },
+      { "sp": "Hugo", "fr": "J'ai souscrit l'offre en juillet, quand j'ai déménagé. La box, la télé et le téléphone : un forfait à trente euros.", "en": "I signed up for the deal in July, when I moved. Box, TV and phone: a thirty-euro package." },
+      { "sp": "Chloé", "fr": "Trente euros, c'est un prix mensuel. Et il y a un engagement de vingt-quatre mois : regarde la clause sept.", "en": "Thirty euros is a monthly price. And there's a twenty-four-month minimum term: look at clause seven." },
+      { "sp": "Hugo", "fr": "Vingt-quatre mois ! Et si je résilie avant l'échéance ?", "en": "Twenty-four months! And if I cancel before the end date?" },
+      { "sp": "Chloé", "fr": "Alors tu paies des frais de résiliation : cent cinquante euros. C'est écrit dans les petites lignes.", "en": "Then you pay a cancellation fee: a hundred and fifty euros. It's in the small print." },
+      { "sp": "Hugo", "fr": "Cent cinquante euros ! Pour un internet qui ne fonctionne pas !", "en": "A hundred and fifty euros! For an internet that doesn't work!" },
+      { "sp": "", "fr": "Pendant ce temps, Karim donne le biberon à Nina, et Hugo prend Adam dans ses bras.", "en": "Meanwhile, Karim gives Nina her bottle, and Hugo takes Adam in his arms." },
+      { "sp": "Chloé", "fr": "Attends… Clause douze : « En cas de panne de plus de huit jours, le titulaire peut résilier sans frais et sans pénalité. »", "en": "Wait… Clause twelve: 'In the event of a breakdown lasting more than eight days, the holder may cancel free of charge and without penalty.'" },
+      { "sp": "Hugo", "fr": "Le titulaire, c'est moi ! Ma ligne est en panne depuis le quinze…", "en": "The holder is me! My line has been down since the fifteenth…" },
+      { "sp": "Chloé", "fr": "Lundi, ça fera huit jours. Tu pourras résilier gratuitement, et le prélèvement de décembre sera annulé.", "en": "On Monday, it'll be eight days. You'll be able to cancel for free, and December's direct debit will be cancelled." },
+      { "sp": "Karim", "fr": "Et après, tu prends quoi ? La fibre ?", "en": "And then what will you get? Fibre?" },
+      { "sp": "Hugo", "fr": "Oui. Un autre opérateur propose la fibre, avec un mois gratuit et l'installation offerte.", "en": "Yes. Another provider offers fibre, with a free month and free installation." },
+      { "sp": "Chloé", "fr": "Lis bien leur contrat, cette fois : la durée, la reconduction, la période d'essai…", "en": "Read their contract carefully this time: the length, the renewal, the trial period…" },
+      { "sp": "Karim", "fr": "Et le droit de rétractation : quatorze jours pour changer d'avis.", "en": "And the right to cancel: fourteen days to change your mind." },
+      { "sp": "Chloé", "fr": "Et pas de clause abusive. Moi, je lis toujours tout.", "en": "And no unfair terms. I always read everything." },
+      { "sp": "Hugo", "fr": "Merci, Chloé. Je te dois combien ?", "en": "Thanks, Chloé. How much do I owe you?" },
+      { "sp": "Chloé", "fr": "Rien… Mais tu te souviens de ta promesse ? Un an de couches. Je l'ai écrite : c'est un abonnement annuel !", "en": "Nothing… But do you remember your promise? A year of nappies. I've written it down: it's an annual subscription!" },
+      { "sp": "", "fr": "Chloé lui tend un papier : « Contrat de couches. [Durée|duree] : un an. Signature : Hugo. »", "en": "Chloé hands him a sheet of paper: 'Nappy contract. Term: one year. Signature: Hugo.'" },
+      { "sp": "Hugo", "fr": "Je peux m'abonner à autre chose ? Aux croissants, par exemple ?", "en": "Can I subscribe to something else? To croissants, for example?" },
+      { "sp": "Karim", "fr": "Trop tard ! Adam a besoin de toi tout de suite.", "en": "Too late! Adam needs you right now." }
+    ]
+  }
+}

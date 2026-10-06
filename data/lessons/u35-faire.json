@@ -1,0 +1,138 @@
+{
+  "id": "u35-faire",
+  "type": "grammar",
+  "unit": 35,
+  "title": "Je l'ai fait installer",
+  "en": "Faire + infinitive: having things done",
+  "intro": "When someone else does the job for you, French uses **faire + infinitive**: *je fais réparer mon vélo* (I'm having my bike repaired). The same structure means *to make someone do something*: *il m'a fait attendre* (he kept me waiting). With **se faire**, it happens to you: *je me suis fait couper les cheveux*. Pronouns go before **faire**, and in the past, **fait** never agrees.",
+  "cases": [
+    { "id": "fc-faire", "label": "faire + infinitive: having something done", "rule": "**Faire** + an infinitive means that someone else does the action for you: *Je **fais réparer** mon vélo* (a mechanic repairs it). Compare: *Je répare mon vélo* (I do it myself)." },
+    { "id": "fc-quelquun", "label": "making someone do something", "rule": "**Faire** + an infinitive also means *to make someone do something*: *Il **m'a fait attendre**. Elle **fait rire** les enfants.* The person comes after the infinitive, or as a pronoun before **faire**." },
+    { "id": "fc-pronom", "label": "pronouns go before faire", "rule": "Object pronouns go **before faire**, not before the infinitive: *Je **la fais** réparer. Il **les fait** attendre.* In a positive order, they go after, with a hyphen: *Fais-**le** entrer ! Fais-**moi** voir !*" },
+    { "id": "fc-se-faire", "label": "se faire + infinitive", "rule": "**Se faire** + infinitive: someone does something to you or for you: *Je **me fais couper** les cheveux. Il **s'est fait voler** son vélo. Je **me suis fait avoir** !*" },
+    { "id": "fc-passe", "label": "the past: j'ai fait réparer", "rule": "In the passé composé, **faire** takes **avoir** (*se faire* takes **être**), and **fait** never agrees before an infinitive: *J'**ai fait** réparer la box. La box que j'ai **fait** installer. Elle s'est **fait** couper les cheveux.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Having something done",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je répare mon vélo.", "I repair my bike (myself)."],
+          ["Je fais réparer mon vélo.", "I'm having my bike repaired."],
+          ["Hugo fait installer la fibre.", "Hugo is having fibre installed."]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo {fait installer|fc-faire} la fibre.", "en": "Hugo is having fibre installed." },
+        { "fr": "Tom {fait réparer|fc-faire} son ampli.", "en": "Tom is having his amp repaired." }
+      ]
+    },
+    {
+      "title": "2. Making someone do something",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il m'a fait attendre.", "He kept me waiting."],
+          ["Elle fait rire les enfants.", "She makes the children laugh."],
+          ["Ce film me fait pleurer.", "This film makes me cry."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le technicien {m'a fait attendre|fc-quelquun} toute la matinée.", "en": "The technician kept me waiting all morning." },
+        { "fr": "Hugo {fait rire|fc-quelquun} tout le monde.", "en": "Hugo makes everyone laugh." }
+      ],
+      "tip": "The person comes after the infinitive (*fait rire les enfants*), or as a pronoun before **faire** (*les fait rire*)."
+    },
+    {
+      "title": "3. Pronouns go before faire",
+      "table": {
+        "head": ["Noun", "Pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["Je fais réparer ma guitare.", "Je la fais réparer."],
+          ["Il fait attendre ses clients.", "Il les fait attendre."],
+          ["Fais entrer le technicien !", "Fais-le entrer !"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ma guitare ? {Je la fais réparer|fc-pronom}.", "en": "My guitar? I'm having it repaired." },
+        { "fr": "{Fais-moi voir|fc-pronom} ta nouvelle box !", "en": "Show me your new box!" }
+      ]
+    },
+    {
+      "title": "4. se faire + infinitive",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je me fais couper les cheveux.", "I'm having my hair cut."],
+          ["Il s'est fait voler son vélo.", "He had his bike stolen."],
+          ["Je me suis fait avoir !", "I've been had!"]
+        ]
+      },
+      "examples": [
+        { "fr": "Léa {s'est fait couper|fc-se-faire} les cheveux.", "en": "Léa had her hair cut." },
+        { "fr": "Avec mon ancien opérateur, {je me suis fait avoir|fc-se-faire}.", "en": "With my old provider, I got ripped off." }
+      ],
+      "tip": "*Je me suis coupé les cheveux* means you cut them yourself. At the hairdresser's, you *te fais couper* les cheveux."
+    },
+    {
+      "title": "5. The past: fait never agrees",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai fait réparer la box.", "I had the box repaired."],
+          ["Je l'ai fait réparer.", "I had it repaired."],
+          ["Elle s'est fait couper les cheveux.", "She had her hair cut."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai fait venir|fc-passe} un technicien.", "en": "I got a technician to come." },
+        { "fr": "La box ? {Je l'ai fait installer|fc-passe} jeudi.", "en": "The box? I had it installed on Thursday." }
+      ],
+      "tip": "Before an infinitive, *fait* stays *fait*: *la box que j'ai fait installer* (never *faite*)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je fais mon vélo réparer.", "right": "Je fais réparer mon vélo.", "why": "The infinitive comes straight after **faire**." },
+    { "wrong": "Je fais la réparer.", "right": "Je la fais réparer.", "why": "The pronoun goes before **faire**, not before the infinitive." },
+    { "wrong": "Je me suis coupé les cheveux chez le coiffeur.", "right": "Je me suis fait couper les cheveux chez le coiffeur.", "why": "The hairdresser cut them: **se faire couper**. *Je me suis coupé les cheveux* means you did it yourself." },
+    { "wrong": "La box que j'ai faite installer.", "right": "La box que j'ai fait installer.", "why": "Before an infinitive, **fait** never agrees." },
+    { "wrong": "Il a fait moi attendre.", "right": "Il m'a fait attendre.", "why": "The pronoun goes before the auxiliary: *il m'a fait…*" }
+  ],
+  "story": {
+    "title": "Plus jamais d'échelle !",
+    "en": "Thursday 26 November: the new provider installs Hugo's fibre. In the evening, at the café, everyone talks about what they've had done.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi vingt-six novembre, Hugo {fait installer|fc-faire} la fibre. Le technicien de son nouvel opérateur arrive à huit heures précises.", "en": "On Thursday 26 November, Hugo is having fibre installed. His new provider's technician arrives at eight o'clock sharp." },
+      { "sp": "Le technicien", "fr": "Bonjour ! Pour la fibre, il faut passer un câble par la fenêtre. Il me faut une échelle.", "en": "Good morning! For the fibre, I need to run a cable through the window. I'll need a ladder." },
+      { "sp": "Hugo", "fr": "Une échelle ? Pas pour moi ! J'ai promis : plus jamais d'échelle.", "en": "A ladder? Not for me! I promised: no more ladders, ever." },
+      { "sp": "Le technicien", "fr": "Ne vous inquiétez pas, c'est moi qui monte. Vous, vous tenez l'échelle.", "en": "Don't worry, I'm the one going up. You hold the ladder." },
+      { "sp": "", "fr": "Le technicien travaille vite. D'abord, {il le fait descendre|fc-pronom} à la cave pour ouvrir une porte. Ensuite, {il le fait monter|fc-pronom}… mais au troisième étage, par l'escalier !", "en": "The technician works fast. First, he sends Hugo down to the cellar to open a door. Then he makes him go up… but to the third floor, by the stairs!" },
+      { "sp": "Le technicien", "fr": "Voilà, c'est fini. {Je vous fais signer|fc-pronom} ici, et c'est tout.", "en": "There you go, it's done. I'll just get you to sign here, and that's it." },
+      { "sp": "Hugo", "fr": "Déjà ? L'autre technicien {m'a fait attendre|fc-quelquun} toute une matinée… pour rien !", "en": "Already? The other technician kept me waiting a whole morning… for nothing!" },
+      { "sp": "", "fr": "Le soir, au café d'en bas, Hugo {fait rire|fc-quelquun} tout le monde avec son histoire.", "en": "In the evening, at the café downstairs, Hugo makes everyone laugh with his story." },
+      { "sp": "Hugo", "fr": "Avec l'ancien opérateur, {je me suis fait avoir|fc-se-faire}. Maintenant, j'ai la fibre : c'est trois fois plus rapide !", "en": "With the old provider, I got ripped off. Now I've got fibre: it's three times as fast!" },
+      { "sp": "Tom", "fr": "Moi, {j'ai fait réparer|fc-passe} mon ampli. Gratuitement, grâce à la garantie !", "en": "I've had my amp repaired. For free, thanks to the warranty!" },
+      { "sp": "Sophie", "fr": "Et moi, la semaine dernière, mon jury {m'a fait recommencer|fc-quelquun} deux dessins… mais il a aimé mon projet !", "en": "And last week, my panel made me redo two drawings… but they liked my project!" },
+      { "sp": "Carla", "fr": "Léa, tu as changé quelque chose… Tu {t'es fait couper|fc-se-faire} les cheveux ?", "en": "Léa, you've changed something… Have you had your hair cut?" },
+      { "sp": "Léa", "fr": "Oui, cet après-midi ! Ma coiffeuse {m'a fait essayer|fc-quelquun} une nouvelle couleur.", "en": "Yes, this afternoon! My hairdresser had me try a new colour." },
+      { "sp": "Hugo", "fr": "{Fais-moi voir|fc-pronom} ! … C'est très joli, petite sœur.", "en": "Let me see! … It's very pretty, little sister." },
+      { "sp": "Tom", "fr": "Et ta vieille box, Hugo ? Tu dois la rendre à l'ancien opérateur ?", "en": "And your old box, Hugo? Do you have to give it back to the old provider?" },
+      { "sp": "Hugo", "fr": "Oui. {Je la fais reprendre|fc-pronom} vendredi : un livreur passe la chercher… entre huit heures et midi !", "en": "Yes. I'm having it collected on Friday: a courier is coming to pick it up… between eight and noon!" },
+      { "sp": "", "fr": "Tout le monde rit. Encore un créneau !", "en": "Everyone laughs. Another time slot!" }
+    ]
+  },
+  "quiz": [
+    { "case": "fc-faire", "type": "mc", "lang": "en", "q": "« Je fais réparer mon vélo » means…", "options": ["I'm having my bike repaired.", "I'm repairing my bike myself.", "I've repaired my bike."], "answer": "I'm having my bike repaired.", "say": "Je fais réparer mon vélo." },
+    { "case": "fc-faire", "type": "mc", "q": "Hugo ___ installer la fibre.", "en": "Hugo is having fibre installed.", "options": ["fait", "a", "est"], "answer": "fait" },
+    { "case": "fc-quelquun", "type": "mc", "q": "Le technicien m'a fait ___ toute la matinée.", "en": "The technician kept me waiting all morning.", "options": ["attendre", "attendu", "attends"], "answer": "attendre" },
+    { "case": "fc-quelquun", "type": "mc", "lang": "en", "q": "« Hugo fait rire tout le monde » means…", "options": ["Hugo makes everyone laugh.", "Hugo laughs at everyone.", "Everyone makes Hugo laugh."], "answer": "Hugo makes everyone laugh.", "say": "Hugo fait rire tout le monde." },
+    { "case": "fc-pronom", "type": "mc", "q": "Ma guitare ? Je ___ fais réparer.", "en": "My guitar? I'm having it repaired.", "options": ["la", "lui", "le"], "answer": "la" },
+    { "case": "fc-pronom", "type": "mc", "lang": "en", "q": "Where does the pronoun go? « Je fais réparer ma guitare » becomes…", "options": ["Je la fais réparer.", "Je fais la réparer.", "Je fais réparer la."], "answer": "Je la fais réparer." },
+    { "case": "fc-se-faire", "type": "mc", "q": "Léa s'est fait ___ les cheveux.", "en": "Léa had her hair cut.", "options": ["couper", "coupé", "coupée"], "answer": "couper" },
+    { "case": "fc-se-faire", "type": "mc", "lang": "en", "q": "« Il s'est fait voler son vélo » means…", "options": ["He had his bike stolen.", "He stole a bike.", "He got someone to steal a bike."], "answer": "He had his bike stolen.", "say": "Il s'est fait voler son vélo." },
+    { "case": "fc-passe", "type": "mc", "q": "J'___ fait venir un technicien.", "en": "I got a technician to come.", "options": ["ai", "suis", "me suis"], "answer": "ai" },
+    { "case": "fc-passe", "type": "mc", "q": "La box que j'ai ___ installer.", "en": "The box I had installed.", "options": ["fait", "faite", "faits"], "answer": "fait" }
+  ]
+}

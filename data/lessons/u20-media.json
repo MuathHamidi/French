@@ -145,7 +145,7 @@
       "accept": ["abonnée", "l'abonnée", "une abonnée"],
       "examples": [
         { "fr": "Elle a dix mille **abonnés** !", "en": "She has ten thousand followers!" },
-        { "fr": "Je suis **abonné** à un magazine de sport.", "en": "I subscribe to a sports magazine." },
+        { "fr": "Je suis **[abonné|abonne]** à un magazine de sport.", "en": "I subscribe to a sports magazine." },
         { "fr": "Merci à tous mes **abonnés** !", "en": "Thank you to all my followers!" }
       ] },
     { "id": "video", "fr": "vidéo", "pos": "noun", "g": "f", "ipa": "vi.de.o", "en": "video",

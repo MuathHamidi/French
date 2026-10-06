@@ -1,0 +1,165 @@
+{
+  "id": "u35-reclamations",
+  "type": "vocab",
+  "unit": 35,
+  "title": "Les réclamations",
+  "en": "Complaints",
+  "intro": "25 words for complaining, the polite and effective way: being unhappy (**mécontent, inadmissible, une arnaque, un dysfonctionnement, défectueux, facturer**), complaining (**la réclamation, réclamer, exiger, contester, relancer, la référence**), who deals with it (**le service client, le SAV, traiter, en cours, l'accusé de réception**) and how it ends (**la garantie, dédommager, le dédommagement, le geste commercial, le bon d'achat, le litige, le médiateur, le recours**).",
+  "words": [
+    { "id": "reclamation", "fr": "réclamation", "pos": "noun", "g": "f", "ipa": "ʁe.kla.ma.sjɔ̃", "en": "complaint (to a company)", "def": "Une demande, écrite ou orale, quand on n'est pas content d'un service ou d'un produit.", "def_en": "A request, written or spoken, when you're not happy with a service or a product.", "forms": ["réclamations"], "examples": [
+      { "fr": "Je vais écrire une **réclamation** au service client.", "en": "I'm going to write a complaint to customer service." },
+      { "fr": "Votre **réclamation** a bien [été|etre] reçue.", "en": "Your complaint has been received." },
+      { "fr": "Il a fait une **réclamation** pour la facture.", "en": "He made a complaint about the bill." }
+    ] },
+    { "id": "reclamer", "fr": "réclamer", "pos": "verb", "ipa": "ʁe.kla.me", "en": "to ask for, to demand (what you're owed)", "def": "Demander une chose à laquelle on a droit : un remboursement, une réponse.", "def_en": "To ask for something you have a right to: a refund, an answer.", "forms": ["réclame", "réclames", "réclamons", "réclamez", "réclament", "réclamé", "réclamée", "réclamés", "réclamées", "réclamais", "réclamait", "réclamions", "réclamiez", "réclamaient", "réclamerai", "réclameras", "réclamera", "réclamerons", "réclamerez", "réclameront", "réclamerais", "réclamerait", "réclamerions", "réclameriez", "réclameraient", "réclamant", "réclamai", "réclamas", "réclama", "réclamâmes", "réclamâtes", "réclamèrent"], "examples": [
+      { "fr": "Je **réclame** le remboursement de ce mois.", "en": "I'm asking for a refund for this month." },
+      { "fr": "Les clients **réclament** une réponse.", "en": "The customers are demanding an answer." },
+      { "fr": "Lou **réclame** son gâteau.", "en": "Lou is asking for her cake." }
+    ] },
+    { "id": "exiger", "fr": "exiger", "pos": "verb", "ipa": "ɛɡ.zi.ʒe", "en": "to demand; to require", "def": "Demander quelque chose avec force, sans accepter un « non ».", "def_en": "To ask for something forcefully, without taking no for an answer.", "forms": ["exige", "exiges", "exigeons", "exigez", "exigent", "exigé", "exigée", "exigés", "exigées", "exigeais", "exigeait", "exigions", "exigiez", "exigeaient", "exigerai", "exigeras", "exigera", "exigerons", "exigerez", "exigeront", "exigerais", "exigerait", "exigerions", "exigeriez", "exigeraient", "exigeant", "exigeai", "exigeas", "exigea", "exigâmes", "exigâtes", "exigèrent"], "examples": [
+      { "fr": "J'**exige** une solution rapide.", "en": "I demand a quick solution." },
+      { "fr": "Ce travail **exige** beaucoup de patience.", "en": "This work requires a lot of patience." },
+      { "fr": "Madame Dupont **exige** des rapports précis.", "en": "Mme Dupont demands precise reports." }
+    ] },
+    { "id": "mecontent", "fr": "mécontent", "pos": "adj", "ipa": "me.kɔ̃.tɑ̃", "display": "mécontent, mécontente", "en": "unhappy, dissatisfied", "def": "Pas satisfait, un peu en colère.", "def_en": "Not satisfied, a bit angry.", "forms": ["mécontente", "mécontents", "mécontentes"], "accept": ["mécontente"], "examples": [
+      { "fr": "Hugo est très **mécontent** de son opérateur.", "en": "Hugo is very unhappy with his provider." },
+      { "fr": "Les clients **mécontents** appellent le service client.", "en": "Unhappy customers call customer service." },
+      { "fr": "Elle est **mécontente** du résultat.", "en": "She's dissatisfied with the result." }
+    ] },
+    { "id": "inadmissible", "fr": "inadmissible", "pos": "adj", "ipa": "i.nad.mi.sibl", "en": "unacceptable, outrageous", "def": "Qu'on ne peut pas accepter, tellement c'est grave.", "def_en": "That can't be accepted, it's so serious.", "forms": ["inadmissibles"], "examples": [
+      { "fr": "Ce retard est **inadmissible** !", "en": "This delay is outrageous!" },
+      { "fr": "C'est **inadmissible** de traiter les clients comme ça.", "en": "It's unacceptable to treat customers like that." },
+      { "fr": "Trois semaines sans réponse : c'est **inadmissible**.", "en": "Three weeks without an answer: that's unacceptable." }
+    ] },
+    { "id": "service-client", "fr": "service client", "pos": "noun", "g": "m", "ipa": "sɛʁ.vis kli.jɑ̃", "en": "customer service", "def": "Les personnes d'une entreprise qui répondent aux questions et aux problèmes des gens qui ont acheté quelque chose.", "def_en": "The people in a company who answer the questions and problems of those who bought something.", "examples": [
+      { "fr": "J'appelle le **service client**.", "en": "I'm calling customer service." },
+      { "fr": "Le **service client** est ouvert de neuf heures à dix-huit heures.", "en": "Customer service is open from nine to six." },
+      { "fr": "Le **service client** ne répond jamais.", "en": "Customer service never answers." }
+    ] },
+    { "id": "sav", "fr": "SAV", "pos": "noun", "g": "m", "ipa": "ɛs.a.ve", "en": "after-sales service, repairs department", "def": "Le service après-vente : il répare ou remplace un produit acheté qui ne fonctionne pas.", "def_en": "The after-sales service: it repairs or replaces a product you bought that doesn't work.", "examples": [
+      { "fr": "Le magasin a envoyé l'ampli au **SAV**.", "en": "The shop sent the amp to the repairs department." },
+      { "fr": "Le **SAV** répare l'appareil gratuitement.", "en": "The after-sales service repairs the device for free." },
+      { "fr": "Appelez le **SAV** de la marque.", "en": "Call the brand's after-sales service." }
+    ] },
+    { "id": "garantie", "fr": "garantie", "pos": "noun", "g": "f", "ipa": "ɡa.ʁɑ̃.ti", "en": "guarantee, warranty (sous garantie = under warranty)", "def": "La promesse qu'un produit sera réparé ou remplacé gratuitement pendant un certain temps.", "def_en": "The promise that a product will be repaired or replaced free of charge for a certain time.", "forms": ["garanties"], "examples": [
+      { "fr": "Mon ampli est encore sous **garantie**.", "en": "My amp is still under warranty." },
+      { "fr": "La **garantie** dure deux ans.", "en": "The warranty lasts two years." },
+      { "fr": "Gardez le ticket : c'est votre **garantie**.", "en": "Keep the receipt: it's your guarantee." }
+    ] },
+    { "id": "defectueux", "fr": "défectueux", "pos": "adj", "ipa": "de.fɛk.tɥø", "display": "défectueux, défectueuse", "en": "faulty, defective", "def": "Qui a un défaut et qui ne fonctionne pas bien.", "def_en": "That has a defect and doesn't work properly.", "forms": ["défectueuse", "défectueuses"], "accept": ["défectueuse"], "examples": [
+      { "fr": "Il était **défectueux** ?", "en": "Was it faulty?" },
+      { "fr": "On vous remplace un produit **défectueux**.", "en": "We'll replace a faulty product for you." },
+      { "fr": "La machine est **défectueuse**.", "en": "The machine is faulty." }
+    ] },
+    { "id": "dedommager", "fr": "dédommager", "pos": "verb", "ipa": "de.dɔ.ma.ʒe", "en": "to compensate", "def": "Donner de l'argent à quelqu'un pour réparer un problème ou une perte.", "def_en": "To give someone money to make up for a problem or a loss.", "forms": ["dédommage", "dédommages", "dédommageons", "dédommagez", "dédommagent", "dédommagé", "dédommagée", "dédommagés", "dédommagées", "dédommageais", "dédommageait", "dédommagions", "dédommagiez", "dédommageaient", "dédommagerai", "dédommageras", "dédommagera", "dédommagerons", "dédommagerez", "dédommageront", "dédommagerais", "dédommagerait", "dédommagerions", "dédommageriez", "dédommageraient", "dédommageant", "dédommageai", "dédommageas", "dédommagea", "dédommagâmes", "dédommagâtes", "dédommagèrent"], "examples": [
+      { "fr": "Ils vont peut-être te **dédommager**.", "en": "They might compensate you." },
+      { "fr": "Le train avait trois heures de retard : on nous a **dédommagés**.", "en": "The train was three hours late: we were compensated." },
+      { "fr": "Qui va me **dédommager** ?", "en": "Who's going to compensate me?" }
+    ] },
+    { "id": "dedommagement", "fr": "dédommagement", "pos": "noun", "g": "m", "ipa": "de.dɔ.maʒ.mɑ̃", "en": "compensation", "def": "L'argent qu'on reçoit pour réparer un problème ou une perte.", "def_en": "The money you receive to make up for a problem or a loss.", "forms": ["dédommagements"], "examples": [
+      { "fr": "Je veux un vrai **dédommagement** !", "en": "I want proper compensation!" },
+      { "fr": "Elle a reçu cinquante euros de **dédommagement**.", "en": "She received fifty euros in compensation." },
+      { "fr": "Un **dédommagement** ? Pour un retard de cinq minutes ?", "en": "Compensation? For a five-minute delay?" }
+    ] },
+    { "id": "geste-commercial", "fr": "geste commercial", "pos": "noun", "g": "m", "ipa": "ʒɛst kɔ.mɛʁ.sjal", "en": "goodwill gesture", "def": "Un cadeau ou une réduction qu'une entreprise offre à un client mécontent.", "def_en": "A present or a discount that a company gives an unhappy customer.", "forms": ["gestes commerciaux"], "examples": [
+      { "fr": "Ils m'ont fait un **geste commercial**.", "en": "They made a goodwill gesture." },
+      { "fr": "Comme **geste commercial**, le café est offert.", "en": "As a goodwill gesture, the coffee is on the house." },
+      { "fr": "Un **geste commercial**, c'est mieux que rien.", "en": "A goodwill gesture is better than nothing." }
+    ] },
+    { "id": "bon-d-achat", "fr": "bon d'achat", "pos": "noun", "g": "m", "ipa": "bɔ̃ da.ʃa", "en": "voucher, credit note", "def": "Un papier qui vaut de l'argent dans un magasin : on l'utilise pour acheter.", "def_en": "A slip of paper worth money in a shop: you use it to buy things.", "forms": ["bons d'achat"], "examples": [
+      { "fr": "Ils m'ont donné un **bon d'achat** de vingt euros.", "en": "They gave me a twenty-euro voucher." },
+      { "fr": "Ce **bon d'achat** est valable un an.", "en": "This voucher is valid for a year." },
+      { "fr": "Je préfère un remboursement à un **bon d'achat**.", "en": "I'd rather have a refund than a voucher." }
+    ] },
+    { "id": "contester", "fr": "contester", "pos": "verb", "ipa": "kɔ̃.tɛs.te", "en": "to dispute, to challenge", "def": "Dire qu'on n'est pas d'accord avec une décision ou une facture, et demander un changement.", "def_en": "To say you disagree with a decision or a bill, and ask for a change.", "forms": ["conteste", "contestes", "contestons", "contestez", "contestent", "contesté", "contestée", "contestés", "contestées", "contestais", "contestait", "contestions", "contestiez", "contestaient", "contesterai", "contesteras", "contestera", "contesterons", "contesterez", "contesteront", "contesterais", "contesterait", "contesterions", "contesteriez", "contesteraient", "contestant", "contestai", "contestas", "contesta", "contestâmes", "contestâtes", "contestèrent"], "examples": [
+      { "fr": "Tu pourras toujours **contester** leur réponse.", "en": "You can always challenge their answer." },
+      { "fr": "Je **conteste** cette facture.", "en": "I'm disputing this bill." },
+      { "fr": "Il a **contesté** la décision du juge.", "en": "He contested the judge's decision." }
+    ] },
+    { "id": "facturer", "fr": "facturer", "pos": "verb", "ipa": "fak.ty.ʁe", "en": "to charge (for), to bill", "def": "Faire payer un service ou un produit à un client.", "def_en": "To make a customer pay for a service or a product.", "forms": ["facture", "factures", "facturons", "facturez", "facturent", "facturé", "facturée", "facturés", "facturées", "facturais", "facturait", "facturions", "facturiez", "facturaient", "facturerai", "factureras", "facturera", "facturerons", "facturerez", "factureront", "facturerais", "facturerait", "facturerions", "factureriez", "factureraient", "facturant", "facturai", "facturas", "factura", "facturâmes", "facturâtes", "facturèrent"], "examples": [
+      { "fr": "Ils me **facturent** un mois sans internet !", "en": "They're charging me for a month without internet!" },
+      { "fr": "Le plombier **facture** cinquante euros de l'heure.", "en": "The plumber charges fifty euros an hour." },
+      { "fr": "On ne vous **facturera** rien.", "en": "You won't be charged anything." }
+    ] },
+    { "id": "litige", "fr": "litige", "pos": "noun", "g": "m", "ipa": "li.tiʒ", "en": "dispute", "def": "Un désaccord entre deux personnes ou deux parties, souvent sur de l'argent.", "def_en": "A disagreement between two people or two parties, often about money.", "forms": ["litiges"], "examples": [
+      { "fr": "Le médiateur aide à résoudre un **litige**.", "en": "The ombudsman helps settle a dispute." },
+      { "fr": "Il y a un **litige** entre le client et le magasin.", "en": "There's a dispute between the customer and the shop." },
+      { "fr": "En cas de **litige**, contactez le service client.", "en": "In case of dispute, contact customer service." }
+    ] },
+    { "id": "mediateur", "fr": "médiateur", "pos": "noun", "g": "m", "ipa": "me.dja.tœʁ", "display": "le médiateur, la médiatrice", "en": "mediator, ombudsman", "def": "Une personne qui n'est d'aucun côté, et qui aide deux parties à trouver un accord.", "def_en": "A neutral person who helps two parties reach an agreement.", "forms": ["médiatrice", "médiateurs", "médiatrices"], "accept": ["médiatrice", "la médiatrice"], "examples": [
+      { "fr": "Je contacterai le **médiateur**.", "en": "I'll contact the ombudsman." },
+      { "fr": "La **médiatrice** a trouvé une solution.", "en": "The mediator found a solution." },
+      { "fr": "Le **médiateur** est gratuit pour les clients.", "en": "The ombudsman is free for customers." }
+    ] },
+    { "id": "dysfonctionnement", "fr": "dysfonctionnement", "pos": "noun", "g": "m", "ipa": "dis.fɔ̃k.sjɔn.mɑ̃", "en": "malfunction, fault", "def": "Quand une machine ou un service ne fonctionne pas comme il faut.", "def_en": "When a machine or a service doesn't work as it should.", "forms": ["dysfonctionnements"], "examples": [
+      { "fr": "Ce **dysfonctionnement** est inadmissible.", "en": "This malfunction is unacceptable." },
+      { "fr": "Il y a un **dysfonctionnement** dans le système.", "en": "There's a malfunction in the system." },
+      { "fr": "Le technicien cherche la cause du **dysfonctionnement**.", "en": "The technician is looking for the cause of the fault." }
+    ] },
+    { "id": "recours", "fr": "recours", "pos": "noun", "g": "m", "ipa": "ʁə.kuʁ", "en": "recourse, means of redress; appeal", "def": "Une solution pour se défendre ou pour contester une décision.", "def_en": "A way to defend yourself or to challenge a decision.", "examples": [
+      { "fr": "C'est un **recours** gratuit.", "en": "It's a free means of redress." },
+      { "fr": "Il n'y a pas d'autre **recours**.", "en": "There's no other recourse." },
+      { "fr": "En dernier **recours**, il faut aller au tribunal.", "en": "As a last resort, you have to go to court." }
+    ] },
+    { "id": "reference", "fr": "référence", "pos": "noun", "g": "f", "ipa": "ʁe.fe.ʁɑ̃s", "en": "reference (number)", "def": "Un numéro ou un code qui permet de retrouver un dossier ou un client.", "def_en": "A number or a code for finding a file or a customer.", "forms": ["références"], "examples": [
+      { "fr": "Il faut donner sa **référence** client.", "en": "You have to give your customer reference." },
+      { "fr": "Quelle est la **référence** de votre dossier ?", "en": "What's your file reference?" },
+      { "fr": "Notez bien cette **référence**.", "en": "Write this reference down carefully." }
+    ] },
+    { "id": "traiter", "fr": "traiter", "pos": "verb", "ipa": "tʁɛ.te", "en": "to deal with, to handle; to treat", "def": "S'occuper d'une demande ou d'un problème. Aussi : soigner un malade.", "def_en": "To take care of a request or a problem. Also: to treat a patient.", "forms": ["traite", "traites", "traitons", "traitez", "traitent", "traité", "traitée", "traités", "traitées", "traitais", "traitait", "traitions", "traitiez", "traitaient", "traiterai", "traiteras", "traitera", "traiterons", "traiterez", "traiteront", "traiterais", "traiterait", "traiterions", "traiteriez", "traiteraient", "traitant", "traitai", "traitas", "traita", "traitâmes", "traitâtes", "traitèrent"], "examples": [
+      { "fr": "Nous **traiterons** votre demande sous dix jours.", "en": "We'll deal with your request within ten days." },
+      { "fr": "Ce médecin **traite** les allergies.", "en": "This doctor treats allergies." },
+      { "fr": "Votre dossier a été **traité**.", "en": "Your file has been dealt with." }
+    ] },
+    { "id": "accuse-de-reception", "fr": "accusé de réception", "pos": "noun", "g": "m", "ipa": "a.ky.ze də ʁe.sɛp.sjɔ̃", "en": "acknowledgement of receipt; proof of delivery", "def": "Un message ou un papier qui prouve qu'une lettre a bien [été|etre] reçue.", "def_en": "A message or a piece of paper that proves a letter was received.", "forms": ["accusés de réception"], "examples": [
+      { "fr": "Il reçoit un **accusé de réception**.", "en": "He receives an acknowledgement of receipt." },
+      { "fr": "Envoyez la lettre avec **accusé de réception**.", "en": "Send the letter with proof of delivery." },
+      { "fr": "Je n'ai même pas d'**accusé de réception** !", "en": "I haven't even had an acknowledgement!" }
+    ] },
+    { "id": "en-cours", "fr": "en cours", "pos": "expr", "ipa": "ɑ̃ kuʁ", "en": "in progress, under way; (at school) in class", "def": "Pas encore fini. Aussi : pendant un cours, en classe.", "def_en": "Not finished yet. Also: during a lesson, in class.", "examples": [
+      { "fr": "Votre réclamation est **en cours**.", "en": "Your complaint is being dealt with." },
+      { "fr": "Les travaux sont **en cours**.", "en": "The work is under way." },
+      { "fr": "Sophie est **en cours** jusqu'à cinq heures.", "en": "Sophie is in class until five." }
+    ] },
+    { "id": "relancer", "fr": "relancer", "pos": "verb", "ipa": "ʁə.lɑ̃.se", "en": "to chase up, to follow up; to restart", "def": "Rappeler ou écrire encore à quelqu'un qui n'a pas répondu.", "def_en": "To call or write again to someone who hasn't answered.", "forms": ["relance", "relances", "relançons", "relancez", "relancent", "relancé", "relancée", "relancés", "relancées", "relançais", "relançait", "relancions", "relanciez", "relançaient", "relancerai", "relanceras", "relancera", "relancerons", "relancerez", "relanceront", "relancerais", "relancerait", "relancerions", "relanceriez", "relanceraient", "relançant", "relançai", "relanças", "relança", "relancâmes", "relancâtes", "relancèrent"], "examples": [
+      { "fr": "Je les **relance** tous les jours !", "en": "I'll chase them up every day!" },
+      { "fr": "**Relance** le plombier, il n'a pas répondu.", "en": "Chase up the plumber, he hasn't answered." },
+      { "fr": "Elle a **relancé** le service client trois fois.", "en": "She chased up customer service three times." }
+    ] },
+    { "id": "arnaque", "fr": "arnaque", "pos": "noun", "g": "f", "ipa": "aʁ.nak", "en": "rip-off, scam (informal)", "def": "Quand on paie trop cher pour un mauvais service, ou qu'on vous prend votre argent par un mensonge (familier).", "def_en": "When you pay too much for a bad service, or someone takes your money with a lie (informal).", "forms": ["arnaques"], "examples": [
+      { "fr": "C'est une **arnaque** !", "en": "It's a rip-off!" },
+      { "fr": "Attention aux **arnaques** sur internet.", "en": "Watch out for scams online." },
+      { "fr": "Vingt euros pour un café ? C'est de l'**arnaque** !", "en": "Twenty euros for a coffee? That's a rip-off!" }
+    ] }
+  ],
+  "story": {
+    "title": "Madame, Monsieur",
+    "en": "Friday 20 November: Léa helps Hugo turn his angry message into a real complaint, and Tom's amp goes back under warranty.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi vingt novembre, après le travail, Hugo arrive chez Léa et Sophie avec son ordinateur. Tom est déjà là. Hugo est très mécontent.", "en": "On Friday 20 November, after work, Hugo arrives at Léa and Sophie's with his laptop. Tom is already there. Hugo is very unhappy." },
+      { "sp": "Hugo", "fr": "Cinq jours sans internet, et ils me facturent tout le mois ! C'est une arnaque ! Je vais écrire une réclamation au service client.", "en": "Five days without internet, and they're charging me for the whole month! It's a rip-off! I'm going to write a complaint to customer service." },
+      { "sp": "Léa", "fr": "Bonne idée. Montre-moi ce que tu as écrit.", "en": "Good idea. Show me what you've written." },
+      { "sp": "Hugo", "fr": "« Vous êtes des voleurs ! Rendez-moi mon internet ! »", "en": "'You're a bunch of thieves! Give me back my internet!'" },
+      { "sp": "Sophie", "fr": "Avec ça, ils ne vont jamais te répondre, Hugo.", "en": "They'll never answer you with that, Hugo." },
+      { "sp": "Léa", "fr": "Il faut être poli et précis. Ils ont un formulaire en ligne ?", "en": "You have to be polite and precise. Do they have an online form?" },
+      { "sp": "Hugo", "fr": "Oui. Il faut donner sa référence client et joindre un justificatif : la facture.", "en": "Yes. You have to give your customer reference and attach proof: the bill." },
+      { "sp": "", "fr": "Léa écrit, et Hugo lit avec elle.", "en": "Léa types, and Hugo reads along with her." },
+      { "sp": "Léa", "fr": "« Madame, Monsieur, ma ligne internet ne fonctionne plus depuis le quinze novembre. Le technicien n'est pas venu au rendez-vous du dix-neuf. »", "en": "'Dear Sir or Madam, my internet line has not worked since 15 November. The technician did not come to the appointment on the 19th.'" },
+      { "sp": "Léa", "fr": "« Ce dysfonctionnement est inadmissible : je paie un service que je ne reçois pas. Je réclame donc le remboursement de ce mois, et j'exige une solution rapide. »", "en": "'This fault is unacceptable: I am paying for a service I am not receiving. I therefore ask for a refund for this month, and I demand a quick solution.'" },
+      { "sp": "Sophie", "fr": "Et ajoute : « Sans réponse sous huit jours, je contacterai le médiateur. »", "en": "And add: 'If I receive no answer within a week, I will contact the ombudsman.'" },
+      { "sp": "Hugo", "fr": "Le médiateur ? C'est qui ?", "en": "The ombudsman? Who's that?" },
+      { "sp": "Léa", "fr": "Une personne qui aide à résoudre un litige entre un client et une entreprise. C'est un recours gratuit.", "en": "Someone who helps settle a dispute between a customer and a company. It's a free way to get redress." },
+      { "sp": "", "fr": "Hugo clique sur « Envoyer ». Une minute plus tard, il reçoit un accusé de réception.", "en": "Hugo clicks 'Send'. A minute later, he gets an acknowledgement." },
+      { "sp": "Hugo", "fr": "« Votre réclamation est en cours. Nous la traiterons sous dix jours. » Dix jours !", "en": "'Your complaint is being processed. We will deal with it within ten days.' Ten days!" },
+      { "sp": "Tom", "fr": "Moi aussi, j'ai eu un problème cette semaine. Mon ampli est tombé en panne.", "en": "I had a problem this week too. My amp broke down." },
+      { "sp": "Tom", "fr": "Heureusement, il est encore sous garantie. Le magasin l'a envoyé au SAV.", "en": "Luckily, it's still under warranty. The shop sent it to the repairs department." },
+      { "sp": "Sophie", "fr": "Il était défectueux ? Ils vont te le remplacer ?", "en": "Was it faulty? Are they going to replace it?" },
+      { "sp": "Tom", "fr": "Mieux : ils m'ont fait un geste commercial. Un bon d'achat de vingt euros !", "en": "Better: they made a goodwill gesture. A twenty-euro voucher!" },
+      { "sp": "Hugo", "fr": "Un geste commercial… Moi, je veux un vrai dédommagement !", "en": "A goodwill gesture… I want proper compensation!" },
+      { "sp": "Léa", "fr": "Patience. Ils vont peut-être te dédommager. Et si leur réponse ne te plaît pas, tu pourras toujours la contester.", "en": "Patience. They may compensate you. And if you don't like their answer, you can always challenge it." },
+      { "sp": "Hugo", "fr": "En attendant, je les relance tous les jours !", "en": "Meanwhile, I'll chase them up every day!" },
+      { "sp": "Sophie", "fr": "Pauvre conseillère…", "en": "Poor adviser…" }
+    ]
+  }
+}
