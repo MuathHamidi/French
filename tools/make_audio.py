@@ -118,6 +118,10 @@ FIXES = {
     "vo": "veˈo", "bd": "bedˈe",  # said letter by letter (the voice reads "BD" as "boulevard")
     "saint-exupéry": "sɛ̃tɛɡzypeʁˈi",  # otherwise read in English
     "chef-d'œuvre": "ʃɛdˈœvʁ", "chefs-d'œuvre": "ʃɛdˈœvʁ",  # the f is silent
+    "cdi": "sˌedeˈi",  # alone, the voice says /sedi/
+    "monopoly": "mɔnɔpɔlˈi",  # otherwise read in English
+    "échouerai": "eʃuʁˈe", "échoueras": "eʃuʁˈa", "échouera": "eʃuʁˈa", "échouerons": "eʃuʁˈɔ̃", "échouerez": "eʃuʁˈe", "échoueront": "eʃuʁˈɔ̃",  # -ouer verbs: the voice says /eʃwʁe/
+    "échouerais": "eʃuʁˈɛ", "échouerait": "eʃuʁˈɛ", "échouerions": "eʃuʁjˈɔ̃", "échoueriez": "eʃuʁjˈe", "échoueraient": "eʃuʁˈɛ",
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

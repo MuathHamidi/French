@@ -1,0 +1,164 @@
+{
+  "id": "u28-projets",
+  "type": "vocab",
+  "unit": 28,
+  "title": "Les projets",
+  "en": "Plans and goals",
+  "intro": "25 words for plans and dreams: having them (**le projet, le but, le rêve, l'ambition, l'intention, envisager, prévoir**), going for it (**oser, se lancer, tenter, le risque, le courage, la décision**) and how it turns out (**réaliser, atteindre, avancer, l'étape, la réussite, l'échec, échouer**).",
+  "words": [
+    { "id": "projet", "fr": "projet", "pos": "noun", "g": "m", "ipa": "pʁɔ.ʒɛ", "en": "project; plan", "def": "Une chose qu'on veut faire dans le futur, ou un travail qu'on prépare.", "def_en": "Something you want to do in the future, or a piece of work you're preparing.", "forms": ["projets"], "examples": [
+      { "fr": "Quels sont tes **projets** pour l'été ?", "en": "What are your plans for the summer?" },
+      { "fr": "Hugo gère un grand **projet** au bureau.", "en": "Hugo is managing a big project at the office." },
+      { "fr": "On a un **projet** : partir au Canada l'année prochaine.", "en": "We have a plan: to go to Canada next year." }
+    ] },
+    { "id": "but", "fr": "but", "pos": "noun", "g": "m", "ipa": "byt", "en": "goal, aim; (football) goal", "def": "Ce qu'on veut faire ou avoir, à la fin. Aussi : au football, un point.", "def_en": "What you want to do or have, in the end. Also: in football, a goal.", "forms": ["buts"], "examples": [
+      { "fr": "Mon **but**, c'est de parler français sans accent.", "en": "My goal is to speak French without an accent." },
+      { "fr": "Quel est le **but** de ce jeu ?", "en": "What's the aim of this game?" },
+      { "fr": "Quel beau **but** !", "en": "What a great goal!" }
+    ], "note": "The final **t** is often pronounced: [byt]." },
+    { "id": "reve", "fr": "rêve", "pos": "noun", "g": "m", "ipa": "ʁɛv", "en": "dream", "def": "Les images qu'on voit quand on dort. Aussi : une chose qu'on veut très fort pour sa vie.", "def_en": "The pictures you see when you sleep. Also: something you really want in your life.", "forms": ["rêves"], "examples": [
+      { "fr": "J'ai fait un **rêve** bizarre cette nuit.", "en": "I had a strange dream last night." },
+      { "fr": "Son **rêve**, c'est d'avoir une maison au bord de la mer.", "en": "Her dream is to have a house by the sea." },
+      { "fr": "Ce voyage, c'est un **rêve** pour moi.", "en": "This trip is a dream come true for me." }
+    ] },
+    { "id": "changement", "fr": "changement", "pos": "noun", "g": "m", "ipa": "ʃɑ̃ʒ.mɑ̃", "en": "change", "def": "Quand une chose devient différente.", "def_en": "When something becomes different.", "forms": ["changements"], "examples": [
+      { "fr": "Un nouveau travail, c'est un grand **changement**.", "en": "A new job is a big change." },
+      { "fr": "Il y a eu beaucoup de **changements** dans l'entreprise.", "en": "There have been lots of changes in the company." },
+      { "fr": "J'aime le **changement**.", "en": "I like change." }
+    ] },
+    { "id": "decision", "fr": "décision", "pos": "noun", "g": "f", "ipa": "de.si.zjɔ̃", "en": "decision", "def": "Ce qu'on choisit, après avoir réfléchi.", "def_en": "What you choose, after thinking it over.", "forms": ["décisions"], "examples": [
+      { "fr": "C'est une **décision** difficile.", "en": "It's a difficult decision." },
+      { "fr": "J'ai pris ma **décision** : je pars !", "en": "I've made my decision: I'm leaving!" },
+      { "fr": "Qui prend les **décisions** dans ta famille ?", "en": "Who makes the decisions in your family?" }
+    ], "note": "**prendre une décision** = to make a decision." },
+    { "id": "courage", "fr": "courage", "pos": "noun", "g": "m", "ipa": "ku.ʁaʒ", "en": "courage, bravery; (Courage !) hang in there!", "def": "Ce qu'il faut pour faire une chose difficile, ou qui fait peur.", "def_en": "What it takes to do something difficult, or frightening.", "examples": [
+      { "fr": "Il faut du **courage** pour changer de vie.", "en": "It takes courage to change your life." },
+      { "fr": "Tu as un examen demain ? **Courage** !", "en": "You've got an exam tomorrow? Hang in there!" },
+      { "fr": "Je n'ai pas le **courage** de faire mes valises ce soir.", "en": "I can't face packing my suitcases tonight." }
+    ] },
+    { "id": "realiser", "fr": "réaliser", "pos": "verb", "ipa": "ʁe.a.li.ze", "en": "to carry out, to achieve, to make (a film); to realise", "def": "Faire une chose qu'on a imaginée ou décidée : un projet, un rêve, un film. Aussi : comprendre tout à coup.", "def_en": "To do something you imagined or decided on: a project, a dream, a film. Also: to understand suddenly.", "forms": ["réalise", "réalises", "réalisons", "réalisez", "réalisent", "réalisé", "réalisée", "réalisés", "réalisées", "réalisais", "réalisait", "réalisions", "réalisiez", "réalisaient", "réaliserai", "réaliseras", "réalisera", "réaliserons", "réaliserez", "réaliseront", "réaliserais", "réaliserait", "réaliserions", "réaliseriez", "réaliseraient"], "examples": [
+      { "fr": "Pierre va enfin **réaliser** son rêve.", "en": "Pierre is finally going to make his dream come true." },
+      { "fr": "Ce réalisateur a **réalisé** dix films.", "en": "This director has made ten films." },
+      { "fr": "Je **réalise** que j'ai oublié mes clés !", "en": "I realise I've forgotten my keys!" }
+    ], "note": "*to realise* is also **se rendre compte**: *je me rends compte que…*" },
+    { "id": "reussite", "fr": "réussite", "pos": "noun", "g": "f", "ipa": "ʁe.y.sit", "en": "success", "def": "Quand on réussit ce qu'on voulait faire.", "def_en": "When you succeed in what you wanted to do.", "forms": ["réussites"], "examples": [
+      { "fr": "La fête était une grande **réussite**.", "en": "The party was a great success." },
+      { "fr": "Félicitations pour ta **réussite** à l'examen !", "en": "Congratulations on passing your exam!" },
+      { "fr": "Le travail est la clé de la **réussite**.", "en": "Hard work is the key to success." }
+    ] },
+    { "id": "echec", "fr": "échec", "pos": "noun", "g": "m", "ipa": "e.ʃɛk", "en": "failure; (les échecs) chess", "def": "Quand on ne réussit pas ce qu'on voulait faire.", "def_en": "When you don't manage to do what you wanted.", "forms": ["échecs"], "examples": [
+      { "fr": "Ce n'est pas un **échec**, c'est une leçon.", "en": "It's not a failure, it's a lesson." },
+      { "fr": "Après deux **échecs**, il a enfin eu son permis.", "en": "After failing twice, he finally passed his driving test." },
+      { "fr": "Jacques joue aux **échecs** avec Tom.", "en": "Jacques plays chess with Tom." }
+    ], "note": "**jouer aux échecs** = to play chess." },
+    { "id": "echouer", "fr": "échouer", "pos": "verb", "ipa": "e.ʃu.e", "en": "to fail", "def": "Ne pas réussir.", "def_en": "Not to succeed.", "forms": ["échoue", "échoues", "échouons", "échouez", "échouent", "échoué", "échouais", "échouait", "échouions", "échouiez", "échouaient", "échouerai", "échoueras", "échouera", "échouerons", "échouerez", "échoueront", "échouerais", "échouerait", "échouerions", "échoueriez", "échoueraient"], "examples": [
+      { "fr": "Il a **échoué** à son examen.", "en": "He failed his exam." },
+      { "fr": "Si tu **échoues**, tu peux essayer encore une fois.", "en": "If you fail, you can try again." },
+      { "fr": "Le projet a **échoué** : il n'y avait pas assez d'argent.", "en": "The project failed: there wasn't enough money." }
+    ] },
+    { "id": "risque", "fr": "risque", "pos": "noun", "g": "m", "ipa": "ʁisk", "en": "risk", "def": "Quand il peut arriver quelque chose de mauvais.", "def_en": "When something bad might happen.", "forms": ["risques"], "examples": [
+      { "fr": "Créer une entreprise, c'est un **risque**.", "en": "Starting a company is a risk." },
+      { "fr": "Il y a un **risque** de pluie demain.", "en": "There's a chance of rain tomorrow." },
+      { "fr": "Tu prends trop de **risques** sur ton vélo !", "en": "You take too many risks on your bike!" }
+    ], "note": "**prendre un risque** = to take a risk." },
+    { "id": "risquer", "fr": "risquer", "pos": "verb", "ipa": "ʁis.ke", "en": "to risk; (risquer de) to be likely to", "def": "Mettre une chose en danger. Aussi : quand une chose mauvaise peut arriver.", "def_en": "To put something at risk. Also: when something bad might happen.", "forms": ["risque", "risques", "risquons", "risquez", "risquent", "risqué", "risquée", "risqués", "risquées", "risquais", "risquait", "risquions", "risquiez", "risquaient", "risquerai", "risqueras", "risquera", "risquerons", "risquerez", "risqueront", "risquerais", "risquerait", "risquerions", "risqueriez", "risqueraient"], "examples": [
+      { "fr": "Tu **risques** d'avoir froid sans manteau.", "en": "You're likely to get cold without a coat." },
+      { "fr": "Il a **risqué** toutes ses économies.", "en": "He risked all his savings." },
+      { "fr": "On **risque** d'arriver en retard !", "en": "We might be late!" }
+    ], "note": "**risquer de** + infinitive = to be likely to, might." },
+    { "id": "oser", "fr": "oser", "pos": "verb", "ipa": "o.ze", "en": "to dare", "def": "Avoir le courage de faire une chose.", "def_en": "To have the courage to do something.", "forms": ["ose", "oses", "osons", "osez", "osent", "osé", "osée", "osés", "osées", "osais", "osait", "osions", "osiez", "osaient", "oserai", "oseras", "osera", "oserons", "oserez", "oseront", "oserais", "oserait", "oserions", "oseriez", "oseraient"], "examples": [
+      { "fr": "Tom n'**ose** pas chanter devant tout le monde.", "en": "Tom doesn't dare sing in front of everyone." },
+      { "fr": "J'ai **osé** demander une augmentation !", "en": "I dared to ask for a pay rise!" },
+      { "fr": "**Ose** ! Tu n'as rien à perdre.", "en": "Go for it! You've got nothing to lose." }
+    ] },
+    { "id": "se-lancer", "fr": "se lancer", "pos": "verb", "ipa": "sə lɑ̃.se", "en": "to take the plunge, to go for it; to launch into", "def": "Commencer une chose nouvelle et difficile, avec courage.", "def_en": "To start something new and difficult, bravely.", "extra": "je **me lance**, nous **nous lançons**, ils **se lancent** — like *lancer* (to throw), with **se**.", "forms": ["me lance", "te lances", "se lance", "nous nous lançons", "vous vous lancez", "se lancent", "me lancer", "te lancer", "nous lancer", "vous lancer", "lance-toi", "lançons-nous", "lancez-vous", "me lançais", "te lançais", "se lançait", "nous nous lancions", "vous vous lanciez", "se lançaient", "me lancerai", "te lanceras", "se lancera", "nous nous lancerons", "vous vous lancerez", "se lanceront", "me lancerais", "te lancerais", "se lancerait", "nous nous lancerions", "vous vous lanceriez", "se lanceraient"], "examples": [
+      { "fr": "Allez, **lance-toi** !", "en": "Come on, go for it!" },
+      { "fr": "Jules et Manon **se lancent** dans un nouveau projet.", "en": "Jules and Manon are launching into a new project." },
+      { "fr": "J'ai envie de **me lancer** dans la cuisine.", "en": "I feel like getting into cooking." }
+    ] },
+    { "id": "prevoir", "fr": "prévoir", "pos": "verb", "ipa": "pʁe.vwaʁ", "en": "to plan; to expect, to forecast", "def": "Penser à l'avance à ce qui va arriver, et s'organiser.", "def_en": "To think ahead about what will happen, and get organised.", "extra": "je **prévois**, nous **prévoyons**, ils **prévoient**; j'ai **prévu** (planned). Like *voir*, but the future is **je prévoirai**.", "forms": ["prévois", "prévoit", "prévoyons", "prévoyez", "prévoient", "prévoyais", "prévoyait", "prévoyions", "prévoyiez", "prévoyaient", "prévoirai", "prévoiras", "prévoira", "prévoirons", "prévoirez", "prévoiront", "prévoirais", "prévoirait", "prévoirions", "prévoiriez", "prévoiraient", "prévoie", "prévoies"], "examples": [
+      { "fr": "Qu'est-ce que tu **prévois** pour ce week-end ?", "en": "What are you planning for this weekend?" },
+      { "fr": "La météo **prévoit** de la pluie.", "en": "The weather forecast says rain." },
+      { "fr": "Il faut **prévoir** de l'eau pour la randonnée.", "en": "You need to bring water for the hike." }
+    ] },
+    { "id": "envisager", "fr": "envisager", "pos": "verb", "ipa": "ɑ̃.vi.za.ʒe", "en": "to consider, to think about (doing)", "def": "Penser sérieusement à faire une chose dans le futur.", "def_en": "To think seriously about doing something in the future.", "forms": ["envisage", "envisages", "envisageons", "envisagez", "envisagent", "envisagé", "envisagée", "envisagés", "envisagées", "envisageais", "envisageait", "envisagions", "envisagiez", "envisageaient", "envisagerai", "envisageras", "envisagera", "envisagerons", "envisagerez", "envisageront", "envisagerais", "envisagerait", "envisagerions", "envisageriez", "envisageraient"], "examples": [
+      { "fr": "J'**envisage** de changer de travail.", "en": "I'm thinking about changing jobs." },
+      { "fr": "Ils **envisagent** d'ouvrir un restaurant.", "en": "They're considering opening a restaurant." },
+      { "fr": "Tu as **envisagé** toutes les solutions ?", "en": "Have you considered every solution?" }
+    ], "note": "**envisager de** + infinitive = to consider doing." },
+    { "id": "intention", "fr": "intention", "pos": "noun", "g": "f", "ipa": "ɛ̃.tɑ̃.sjɔ̃", "en": "intention", "def": "Ce qu'on a décidé, ou ce qu'on veut faire.", "def_en": "What you've decided, or what you want to do.", "forms": ["intentions"], "examples": [
+      { "fr": "J'ai l'**intention** de partir en septembre.", "en": "I intend to leave in September." },
+      { "fr": "Quelles sont tes **intentions** ?", "en": "What are your intentions?" },
+      { "fr": "Il avait de bonnes **intentions**.", "en": "He meant well." }
+    ], "note": "**avoir l'intention de** + infinitive = to intend to." },
+    { "id": "ambition", "fr": "ambition", "pos": "noun", "g": "f", "ipa": "ɑ̃.bi.sjɔ̃", "en": "ambition", "def": "Quand on veut très fort réussir dans la vie.", "def_en": "Really wanting to succeed in life.", "forms": ["ambitions"], "examples": [
+      { "fr": "Elle a beaucoup d'**ambition**.", "en": "She's very ambitious." },
+      { "fr": "Mon **ambition** : devenir chef.", "en": "My ambition: to become a chef." },
+      { "fr": "Hugo n'a qu'une **ambition** : dormir jusqu'à midi.", "en": "Hugo has only one ambition: to sleep till noon." }
+    ] },
+    { "id": "ambitieux", "fr": "ambitieux", "pos": "adj", "ipa": "ɑ̃.bi.sjø", "display": "ambitieux, ambitieuse", "en": "ambitious", "def": "Qui a beaucoup d'ambition, qui veut aller loin.", "def_en": "Having a lot of ambition, wanting to go far.", "forms": ["ambitieuse", "ambitieuses"], "accept": ["ambitieuse"], "examples": [
+      { "fr": "C'est un projet très **ambitieux**.", "en": "It's a very ambitious project." },
+      { "fr": "Sophie est **ambitieuse** : elle veut construire des musées.", "en": "Sophie is ambitious: she wants to build museums." },
+      { "fr": "Ne sois pas trop **ambitieux** : commence petit.", "en": "Don't be too ambitious: start small." }
+    ] },
+    { "id": "etape", "fr": "étape", "pos": "noun", "g": "f", "ipa": "e.tap", "en": "stage, step; stop (on a journey)", "def": "Une des parties d'un projet ou d'un voyage.", "def_en": "One of the parts of a project or a journey.", "forms": ["étapes"], "examples": [
+      { "fr": "La première **étape**, c'est d'écrire ton CV.", "en": "The first step is to write your CV." },
+      { "fr": "On avance **étape** par étape.", "en": "We're moving forward step by step." },
+      { "fr": "Lyon est une **étape** sur la route de Marseille.", "en": "Lyon is a stop on the road to Marseille." }
+    ] },
+    { "id": "atteindre", "fr": "atteindre", "pos": "verb", "ipa": "a.tɛ̃dʁ", "en": "to reach, to achieve", "def": "Arriver à un endroit ou à un but.", "def_en": "To get to a place or a goal.", "extra": "j'**atteins**, nous **atteignons**, ils **atteignent**; j'ai **atteint**.", "forms": ["atteins", "atteint", "atteignons", "atteignez", "atteignent", "atteinte", "atteints", "atteintes", "atteignais", "atteignait", "atteignions", "atteigniez", "atteignaient", "atteindrai", "atteindras", "atteindra", "atteindrons", "atteindrez", "atteindront", "atteindrais", "atteindrait", "atteindrions", "atteindriez", "atteindraient", "atteigne", "atteignes"], "examples": [
+      { "fr": "On a **atteint** le sommet à midi.", "en": "We reached the summit at noon." },
+      { "fr": "Il a **atteint** son but : il parle français !", "en": "He's achieved his goal: he speaks French!" },
+      { "fr": "Je n'**atteins** pas l'étagère, elle est trop haute.", "en": "I can't reach the shelf, it's too high." }
+    ] },
+    { "id": "reprendre", "fr": "reprendre", "pos": "verb", "ipa": "ʁə.pʁɑ̃dʁ", "en": "to take back; to take over (a business); to start again; to have more (food)", "def": "Prendre de nouveau. Aussi : continuer après une pause, ou diriger une entreprise après une autre personne.", "def_en": "To take again. Also: to start again after a break, or to run a business after someone else.", "extra": "like *prendre*: je **reprends**, nous **reprenons**, ils **reprennent**; j'ai **repris**.", "forms": ["reprends", "reprend", "reprenons", "reprenez", "reprennent", "repris", "reprise", "reprises", "reprenais", "reprenait", "reprenions", "repreniez", "reprenaient", "reprendrai", "reprendras", "reprendra", "reprendrons", "reprendrez", "reprendront", "reprendrais", "reprendrait", "reprendrions", "reprendriez", "reprendraient", "reprenne", "reprennes"], "examples": [
+      { "fr": "Jules va **reprendre** la ferme de son père.", "en": "Jules is going to take over his father's farm." },
+      { "fr": "Les cours **reprennent** en septembre.", "en": "Classes start again in September." },
+      { "fr": "Tu **reprends** un peu de gâteau ?", "en": "Will you have some more cake?" }
+    ] },
+    { "id": "tenter", "fr": "tenter", "pos": "verb", "ipa": "tɑ̃.te", "en": "to try, to attempt; to tempt", "def": "Essayer, surtout une chose difficile. Aussi : donner envie.", "def_en": "To try, especially something difficult. Also: to make you want something.", "forms": ["tente", "tentes", "tentons", "tentez", "tentent", "tenté", "tentée", "tentés", "tentées", "tentais", "tentait", "tentions", "tentiez", "tentaient", "tenterai", "tenteras", "tentera", "tenterons", "tenterez", "tenteront", "tenterais", "tenterait", "tenterions", "tenteriez", "tenteraient"], "examples": [
+      { "fr": "Je vais **tenter** ma chance.", "en": "I'm going to try my luck." },
+      { "fr": "Il a **tenté** de réparer la télé, sans succès.", "en": "He tried to repair the TV, without success." },
+      { "fr": "Ce gâteau me **tente** beaucoup !", "en": "This cake is really tempting!" }
+    ] },
+    { "id": "occasion", "fr": "occasion", "pos": "noun", "g": "f", "ipa": "ɔ.ka.zjɔ̃", "en": "opportunity, chance; occasion; (d'occasion) second-hand", "def": "Un bon moment pour faire une chose.", "def_en": "A good time to do something.", "forms": ["occasions"], "examples": [
+      { "fr": "C'est une belle **occasion** d'apprendre.", "en": "It's a great opportunity to learn." },
+      { "fr": "J'ai acheté un vélo d'**occasion**.", "en": "I bought a second-hand bike." },
+      { "fr": "Pour les grandes **occasions**, Mamie fait son gâteau au chocolat.", "en": "For special occasions, Grandma makes her chocolate cake." }
+    ], "note": "**d'occasion** = second-hand: *une voiture d'occasion*." },
+    { "id": "avancer", "fr": "avancer", "pos": "verb", "ipa": "a.vɑ̃.se", "en": "to move forward; to make progress; to bring forward", "def": "Aller en avant. Aussi : faire des progrès dans un travail.", "def_en": "To go forward. Also: to make progress with a piece of work.", "forms": ["avance", "avances", "avançons", "avancez", "avancent", "avancé", "avancée", "avancés", "avancées", "avançais", "avançait", "avancions", "avanciez", "avançaient", "avancerai", "avanceras", "avancera", "avancerons", "avancerez", "avanceront", "avancerais", "avancerait", "avancerions", "avanceriez", "avanceraient"], "examples": [
+      { "fr": "**Avancez**, s'il vous plaît : il y a de la place au fond du bus !", "en": "Move along, please: there's room at the back of the bus!" },
+      { "fr": "Mon projet **avance** bien.", "en": "My project is coming along nicely." },
+      { "fr": "La réunion est **avancée** à neuf heures.", "en": "The meeting has been brought forward to nine." }
+    ] }
+  ],
+  "story": {
+    "title": "La retraite de Pierre",
+    "en": "Saturday 27 June: the whole family comes to the farm for Pierre's retirement, and Jules has an announcement to make.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-sept juin, toute la famille est à la ferme de Pierre, près d'Annecy. Après quarante-cinq ans de travail, Pierre prend sa retraite.", "en": "Saturday 27 June: the whole family is at Pierre's farm near Annecy. After forty-five years of work, Pierre is retiring." },
+      { "sp": "Pierre", "fr": "Merci à tous d'être venus ! Aujourd'hui, une nouvelle étape commence pour moi.", "en": "Thank you all for coming! Today a new chapter begins for me." },
+      { "sp": "Paul", "fr": "Alors, quels sont tes projets ?", "en": "So, what are your plans?" },
+      { "sp": "Pierre", "fr": "Mon premier but : dormir après six heures du matin ! Et j'ai un vieux rêve : voir la mer du Nord. Je vais enfin le réaliser.", "en": "My first goal: to sleep past six in the morning! And I have an old dream: to see the North Sea. I'm finally going to make it happen." },
+      { "sp": "Anne", "fr": "Et la ferme ? Qu'est-ce que tu prévois ?", "en": "And the farm? What are you planning?" },
+      { "sp": "Jules", "fr": "C'est nous qui allons la reprendre, Manon et moi !", "en": "We're going to take it over, Manon and me!" },
+      { "sp": "", "fr": "Tout le monde applaudit. C'est un grand changement pour eux : ils travaillent tous les deux en ville, à Annecy.", "en": "Everyone claps. It's a big change for them: they both work in town, in Annecy." },
+      { "sp": "Manon", "fr": "On a beaucoup hésité. Ce n'était pas une décision facile.", "en": "We hesitated for a long time. It wasn't an easy decision." },
+      { "sp": "Jules", "fr": "Mais on a décidé d'oser. On a l'intention de faire du fromage bio, et de le vendre ici, dans une petite boutique.", "en": "But we decided to go for it. We intend to make organic cheese, and sell it here, in a little shop." },
+      { "sp": "Pierre", "fr": "C'est un projet ambitieux… et il y a des risques.", "en": "It's an ambitious project… and there are risks." },
+      { "sp": "Hugo", "fr": "Et si vous échouez ?", "en": "And what if you fail?" },
+      { "sp": "Léa", "fr": "Hugo !", "en": "Hugo!" },
+      { "sp": "Manon", "fr": "Un échec, ce n'est pas la fin du monde. Le plus grand risque, c'est de ne rien tenter.", "en": "Failing isn't the end of the world. The biggest risk is not to try anything." },
+      { "sp": "Jules", "fr": "On a un plan en trois étapes, et on avance doucement.", "en": "We have a three-step plan, and we're taking it slowly." },
+      { "sp": "Pierre", "fr": "Je suis fier de vous. Pour réussir, il faut d'abord avoir le courage de se lancer.", "en": "I'm proud of you. To succeed, you first need the courage to take the plunge." },
+      { "sp": "Chloé", "fr": "Moi, j'ai une seule ambition cet été : atteindre le mois d'août… avec deux bébés dans le ventre !", "en": "I have just one ambition this summer: to make it to August… with two babies inside me!" },
+      { "sp": "Karim", "fr": "Et moi, j'envisage d'ouvrir mon restaurant… quand les jumeaux dormiront la nuit.", "en": "And I'm thinking of opening my own restaurant… when the twins sleep through the night." },
+      { "sp": "Hugo", "fr": "Moi, je ne risque rien : je suis chef de projet depuis lundi !", "en": "I'm not risking anything: I've been a project manager since Monday!" },
+      { "sp": "Léa", "fr": "Depuis lundi ? Et quelle est ta première réussite ?", "en": "Since Monday? And what's your first success?" },
+      { "sp": "Hugo", "fr": "J'ai envoyé la recette de crêpes de Mamie à notre client. Il a adoré !", "en": "I sent Grandma's crêpe recipe to our client. He loved it!" },
+      { "sp": "Lou", "fr": "Moi, quand je serai grande, je ferai du fromage avec Jules !", "en": "When I'm big, I'm going to make cheese with Jules!" },
+      { "sp": "Pierre", "fr": "C'est une belle occasion de fêter ça. Le fromage de Jules, ce sera pour bientôt… mais le gâteau, c'est maintenant !", "en": "That's a good reason to celebrate. Jules's cheese is coming soon… but the cake is right now!" }
+    ]
+  }
+}

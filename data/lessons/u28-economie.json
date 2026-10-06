@@ -1,0 +1,166 @@
+{
+  "id": "u28-economie",
+  "type": "vocab",
+  "unit": 28,
+  "title": "L'économie",
+  "en": "The economy",
+  "intro": "25 words to follow the economy in the news: the big picture (**l'économie, la croissance, la crise, l'inflation, le pouvoir d'achat, la hausse, la baisse**), business (**le marché, le commerce, l'industrie, la concurrence, le bénéfice, la perte, la faillite, investir**), trade (**produire, le produit, exporter, importer, la vente, l'achat**) and your own wallet (**le revenu, l'impôt, le consommateur**).",
+  "words": [
+    { "id": "economie", "fr": "économie", "pos": "noun", "g": "f", "ipa": "e.kɔ.nɔ.mi", "en": "economy; economics; (les économies) savings", "def": "L'argent, le travail, les entreprises et le commerce d'un pays.", "def_en": "A country's money, work, companies and trade.", "forms": ["économies"], "examples": [
+      { "fr": "L'**économie** française va mieux cette année.", "en": "The French economy is doing better this year." },
+      { "fr": "Paul lit des livres sur l'**économie**.", "en": "Paul reads books about economics." },
+      { "fr": "Je fais des **économies** pour partir en vacances.", "en": "I'm saving up to go on holiday." }
+    ], "note": "**faire des économies** = to save money." },
+    { "id": "economique", "fr": "économique", "pos": "adj", "ipa": "e.kɔ.nɔ.mik", "en": "economic; economical, cheap", "def": "Qui a un rapport avec l'économie. Aussi : qui ne coûte pas cher.", "def_en": "To do with the economy. Also: cheap, economical.", "forms": ["économiques"], "examples": [
+      { "fr": "Le pays traverse une crise **économique**.", "en": "The country is going through an economic crisis." },
+      { "fr": "Le train, c'est plus **économique** que l'avion.", "en": "The train is cheaper than the plane." },
+      { "fr": "Jacques lit les pages **économiques** du journal.", "en": "Jacques reads the business pages of the paper." }
+    ] },
+    { "id": "inflation", "fr": "inflation", "pos": "noun", "g": "f", "ipa": "ɛ̃.fla.sjɔ̃", "en": "inflation", "def": "Quand les prix augmentent, et qu'on peut acheter moins de choses avec le même argent.", "def_en": "When prices go up, and you can buy fewer things with the same money.", "examples": [
+      { "fr": "Avec l'**inflation**, tout est plus cher.", "en": "With inflation, everything is more expensive." },
+      { "fr": "L'**inflation** est de trois pour cent cette année.", "en": "Inflation is three per cent this year." },
+      { "fr": "Les salaires n'augmentent pas aussi vite que l'**inflation**.", "en": "Wages aren't rising as fast as inflation." }
+    ] },
+    { "id": "croissance", "fr": "croissance", "pos": "noun", "g": "f", "ipa": "kʁwa.sɑ̃s", "en": "growth", "def": "Quand une chose devient plus grande. En économie : quand un pays produit plus de richesse.", "def_en": "When something gets bigger. In economics: when a country produces more wealth.", "examples": [
+      { "fr": "La **croissance** est faible cette année.", "en": "Growth is weak this year." },
+      { "fr": "Les enfants ont besoin de lait pour leur **croissance**.", "en": "Children need milk to grow." },
+      { "fr": "Cette entreprise est en pleine **croissance**.", "en": "This company is growing fast." }
+    ] },
+    { "id": "crise", "fr": "crise", "pos": "noun", "g": "f", "ipa": "kʁiz", "en": "crisis; fit, attack", "def": "Un moment difficile et dangereux, quand les choses vont mal.", "def_en": "A difficult, dangerous time when things are going badly.", "forms": ["crises"], "examples": [
+      { "fr": "Pendant la **crise**, beaucoup d'entreprises ont fermé.", "en": "During the crisis, lots of companies closed." },
+      { "fr": "C'est la **crise** : les gens achètent moins.", "en": "Times are hard: people are buying less." },
+      { "fr": "Hugo a fait une **crise** de rire.", "en": "Hugo had a fit of laughter." }
+    ] },
+    { "id": "marche", "fr": "marché", "pos": "noun", "g": "m", "ipa": "maʁ.ʃe", "en": "market", "def": "Un endroit où on achète et vend des fruits, des légumes… Aussi, en économie : tout ce qu'on achète et vend.", "def_en": "A place where people buy and sell fruit, vegetables… Also, in economics: all the buying and selling.", "forms": ["marchés"], "examples": [
+      { "fr": "Le samedi, je fais mes courses au **marché**.", "en": "On Saturdays, I do my shopping at the market." },
+      { "fr": "Le **marché** du vélo est en pleine croissance.", "en": "The bike market is booming." },
+      { "fr": "Ces tomates viennent du **marché**.", "en": "These tomatoes come from the market." }
+    ], "note": "**bon marché** = cheap; **le marché du travail** = the job market." },
+    { "id": "consommateur", "fr": "consommateur", "pos": "noun", "g": "m", "ipa": "kɔ̃.sɔ.ma.tœʁ", "display": "le consommateur, la consommatrice", "en": "consumer", "def": "Une personne qui achète et utilise des produits ou des services.", "def_en": "A person who buys and uses goods or services.", "forms": ["consommatrice", "consommateurs", "consommatrices"], "accept": ["consommatrice", "la consommatrice", "une consommatrice"], "examples": [
+      { "fr": "Les **consommateurs** achètent moins à cause de l'inflation.", "en": "Consumers are buying less because of inflation." },
+      { "fr": "Le **consommateur** veut des prix bas.", "en": "The consumer wants low prices." },
+      { "fr": "Comme **consommatrice**, je préfère les produits bio.", "en": "As a consumer, I prefer organic products." }
+    ] },
+    { "id": "pouvoir-d-achat", "fr": "pouvoir d'achat", "pos": "noun", "g": "m", "ipa": "pu.vwaʁ da.ʃa", "en": "purchasing power", "def": "Ce qu'on peut acheter avec son salaire ou ses revenus.", "def_en": "What you can buy with your salary or income.", "examples": [
+      { "fr": "Le **pouvoir d'achat** des Français [baisse|baisser].", "en": "French people's purchasing power is falling." },
+      { "fr": "Avec l'inflation, on perd du **pouvoir d'achat**.", "en": "With inflation, you lose purchasing power." },
+      { "fr": "Les salaires augmentent, et le **pouvoir d'achat** aussi.", "en": "Wages are going up, and so is purchasing power." }
+    ] },
+    { "id": "impot", "fr": "impôt", "pos": "noun", "g": "m", "ipa": "ɛ̃.po", "en": "tax", "def": "L'argent qu'on doit payer à l'État, pour les écoles, les hôpitaux, les routes…", "def_en": "The money you have to pay the state, for schools, hospitals, roads…", "forms": ["impôts"], "examples": [
+      { "fr": "Je paie mes **impôts** en septembre.", "en": "I pay my taxes in September." },
+      { "fr": "Les **impôts** servent à payer les écoles et les hôpitaux.", "en": "Taxes pay for schools and hospitals." },
+      { "fr": "Hugo a oublié de payer ses **impôts** !", "en": "Hugo forgot to pay his taxes!" }
+    ] },
+    { "id": "investir", "fr": "investir", "pos": "verb", "ipa": "ɛ̃.vɛs.tiʁ", "en": "to invest", "def": "Mettre de l'argent dans une chose, pour gagner plus plus tard.", "def_en": "To put money into something, to earn more later.", "forms": ["investis", "investit", "investissons", "investissez", "investissent", "investi", "investie", "investies", "investissais", "investissait", "investissions", "investissiez", "investissaient", "investirai", "investiras", "investira", "investirons", "investirez", "investiront", "investirais", "investirait", "investirions", "investiriez", "investiraient", "investisse", "investisses"], "examples": [
+      { "fr": "Jules et Manon **investissent** tout leur argent dans la ferme.", "en": "Jules and Manon are investing all their money in the farm." },
+      { "fr": "Hugo **investit** tout dans des hôtels.", "en": "Hugo invests everything in hotels." },
+      { "fr": "Il faut **investir** dans l'éducation.", "en": "We need to invest in education." }
+    ] },
+    { "id": "benefice", "fr": "bénéfice", "pos": "noun", "g": "m", "ipa": "be.ne.fis", "en": "profit; benefit", "def": "L'argent qu'une entreprise gagne, quand elle a tout payé.", "def_en": "The money a company makes once it has paid for everything.", "forms": ["bénéfices"], "examples": [
+      { "fr": "Le café fait des **bénéfices** en été.", "en": "The café makes a profit in summer." },
+      { "fr": "Cette année, l'entreprise n'a fait aucun **bénéfice**.", "en": "This year, the company didn't make any profit." },
+      { "fr": "Le **bénéfice** est de dix mille euros.", "en": "The profit is ten thousand euros." }
+    ] },
+    { "id": "perte", "fr": "perte", "pos": "noun", "g": "f", "ipa": "pɛʁt", "en": "loss", "def": "Quand on perd quelque chose : de l'argent, du temps, un objet…", "def_en": "When you lose something: money, time, an object…", "forms": ["pertes"], "examples": [
+      { "fr": "L'entreprise a fait des **pertes** cette année.", "en": "The company made a loss this year." },
+      { "fr": "Cette réunion, c'est une **perte** de temps !", "en": "This meeting is a waste of time!" },
+      { "fr": "La **perte** de son portefeuille a été un drame pour Hugo.", "en": "Losing his wallet was a disaster for Hugo." }
+    ] },
+    { "id": "faillite", "fr": "faillite", "pos": "noun", "g": "f", "ipa": "fa.jit", "en": "bankruptcy", "def": "Quand une entreprise n'a plus d'argent pour payer ses dettes, et qu'elle doit fermer.", "def_en": "When a company has no money left to pay its debts and has to close.", "forms": ["faillites"], "examples": [
+      { "fr": "Le magasin a fait **faillite**.", "en": "The shop went bankrupt." },
+      { "fr": "Beaucoup de petits commerces sont en **faillite**.", "en": "Lots of small shops are bankrupt." },
+      { "fr": "Hugo a fait **faillite** au Monopoly.", "en": "Hugo went bankrupt at Monopoly." }
+    ], "note": "**faire faillite** = to go bankrupt." },
+    { "id": "concurrence", "fr": "concurrence", "pos": "noun", "g": "f", "ipa": "kɔ̃.ky.ʁɑ̃s", "en": "competition (between businesses)", "def": "Quand plusieurs entreprises vendent la même chose et veulent avoir les mêmes clients.", "def_en": "When several companies sell the same thing and want the same customers.", "examples": [
+      { "fr": "Avec la **concurrence** d'internet, les librairies ont du mal.", "en": "With competition from the internet, bookshops are struggling." },
+      { "fr": "Il y a beaucoup de **concurrence** entre les supermarchés.", "en": "There's a lot of competition between supermarkets." },
+      { "fr": "Ce café n'a pas de **concurrence** dans la rue.", "en": "This café has no competition in the street." }
+    ] },
+    { "id": "commerce", "fr": "commerce", "pos": "noun", "g": "m", "ipa": "kɔ.mɛʁs", "en": "trade, commerce; shop", "def": "L'achat et la vente de produits. Aussi : un magasin.", "def_en": "The buying and selling of goods. Also: a shop.", "forms": ["commerces"], "examples": [
+      { "fr": "Le **commerce** entre la France et le Canada augmente.", "en": "Trade between France and Canada is growing." },
+      { "fr": "Il y a beaucoup de petits **commerces** dans ce quartier.", "en": "There are lots of little shops in this neighbourhood." },
+      { "fr": "Il a fait des études de **commerce**.", "en": "He studied business." }
+    ] },
+    { "id": "industrie", "fr": "industrie", "pos": "noun", "g": "f", "ipa": "ɛ̃.dys.tʁi", "en": "industry", "def": "Les usines et les entreprises qui fabriquent des produits.", "def_en": "The factories and companies that make goods.", "forms": ["industries"], "examples": [
+      { "fr": "L'**industrie** du savon était importante à Marseille.", "en": "The soap industry used to be important in Marseille." },
+      { "fr": "Il travaille dans l'**industrie** du chocolat.", "en": "He works in the chocolate industry." },
+      { "fr": "Cette région a beaucoup d'**industrie**.", "en": "This region has a lot of industry." }
+    ] },
+    { "id": "exporter", "fr": "exporter", "pos": "verb", "ipa": "ɛks.pɔʁ.te", "en": "to export", "def": "Vendre des produits à un autre pays.", "def_en": "To sell goods to another country.", "forms": ["exporte", "exportes", "exportons", "exportez", "exportent", "exporté", "exportée", "exportés", "exportées", "exportais", "exportait", "exportions", "exportiez", "exportaient", "exporterai", "exporteras", "exportera", "exporterons", "exporterez", "exporteront", "exporterais", "exporterait", "exporterions", "exporteriez", "exporteraient"], "examples": [
+      { "fr": "La France **exporte** beaucoup de vin.", "en": "France exports a lot of wine." },
+      { "fr": "Cette entreprise **exportait** du savon dans le monde entier.", "en": "This company used to export soap all over the world." },
+      { "fr": "On peut **exporter** ces fromages au Canada ?", "en": "Can these cheeses be exported to Canada?" }
+    ] },
+    { "id": "importer", "fr": "importer", "pos": "verb", "ipa": "ɛ̃.pɔʁ.te", "en": "to import; to matter", "def": "Acheter des produits dans un autre pays. Aussi : être important pour quelqu'un.", "def_en": "To buy goods from another country. Also: to matter to someone.", "forms": ["importe", "importes", "importons", "importez", "importent", "importé", "importée", "importés", "importées", "importais", "importait", "importions", "importiez", "importaient", "importerai", "importeras", "importera", "importerons", "importerez", "importeront", "importerais", "importerait", "importerions", "importeriez", "importeraient"], "examples": [
+      { "fr": "On **importe** beaucoup de fruits d'Espagne.", "en": "We import lots of fruit from Spain." },
+      { "fr": "Ce magasin **importe** du thé du Japon.", "en": "This shop imports tea from Japan." },
+      { "fr": "Les bananes sont **importées** : elles viennent de loin.", "en": "Bananas are imported: they come from far away." }
+    ], "note": "**peu importe** = it doesn't matter; **n'importe quoi** = anything; nonsense." },
+    { "id": "produit", "fr": "produit", "pos": "noun", "g": "m", "ipa": "pʁɔ.dɥi", "en": "product", "def": "Une chose qu'on fabrique, ou qu'on fait pousser, pour la vendre.", "def_en": "A thing that's made, or grown, to be sold.", "forms": ["produits"], "examples": [
+      { "fr": "Jules veut vendre ses **produits** à la ferme.", "en": "Jules wants to sell his products at the farm." },
+      { "fr": "Ce **produit** est fabriqué en France.", "en": "This product is made in France." },
+      { "fr": "Les **produits** bio coûtent plus cher.", "en": "Organic products cost more." }
+    ] },
+    { "id": "produire", "fr": "produire", "pos": "verb", "ipa": "pʁɔ.dɥiʁ", "en": "to produce, to make", "def": "Fabriquer ou faire pousser quelque chose : du lait, des voitures, de l'électricité…", "def_en": "To make or grow something: milk, cars, electricity…", "extra": "je **produis**, nous **produisons**, ils **produisent**; j'ai **produit**.", "forms": ["produis", "produit", "produisons", "produisez", "produisent", "produite", "produites", "produisais", "produisait", "produisions", "produisiez", "produisaient", "produirai", "produiras", "produira", "produirons", "produirez", "produiront", "produirais", "produirait", "produirions", "produiriez", "produiraient", "produise", "produises"], "examples": [
+      { "fr": "Pierre **produit** du lait bio.", "en": "Pierre produces organic milk." },
+      { "fr": "Je **produis** mes tomates moi-même.", "en": "I grow my own tomatoes." },
+      { "fr": "Cette usine **produisait** du savon.", "en": "This factory used to make soap." }
+    ] },
+    { "id": "vente", "fr": "vente", "pos": "noun", "g": "f", "ipa": "vɑ̃t", "en": "sale, selling", "def": "Quand on vend quelque chose.", "def_en": "When you sell something.", "forms": ["ventes"], "examples": [
+      { "fr": "Les **ventes** de vélos augmentent.", "en": "Bike sales are going up." },
+      { "fr": "Cette maison est en **vente**.", "en": "This house is for sale." },
+      { "fr": "Il travaille dans la **vente**.", "en": "He works in sales." }
+    ], "note": "**en vente** = for sale." },
+    { "id": "achat", "fr": "achat", "pos": "noun", "g": "m", "ipa": "a.ʃa", "en": "purchase, buying", "def": "Quand on achète une chose. Aussi : la chose qu'on a achetée.", "def_en": "When you buy something. Also: the thing you've bought.", "forms": ["achats"], "examples": [
+      { "fr": "Hugo montre ses **achats** à Léa.", "en": "Hugo shows Léa what he's bought." },
+      { "fr": "Un vélo, c'est un bon **achat**.", "en": "A bike is a good buy." },
+      { "fr": "Je fais mes **achats** sur internet.", "en": "I do my shopping online." }
+    ] },
+    { "id": "hausse", "fr": "hausse", "pos": "noun", "g": "f", "hAsp": true, "ipa": "os", "en": "rise, increase", "def": "Quand une chose monte : un prix, un nombre, une température…", "def_en": "When something goes up: a price, a number, a temperature…", "forms": ["hausses"], "examples": [
+      { "fr": "Les prix sont en **hausse**.", "en": "Prices are rising." },
+      { "fr": "Il y a une forte **hausse** du chômage.", "en": "There's a sharp rise in unemployment." },
+      { "fr": "La **hausse** du prix de l'essence est un problème.", "en": "The rise in the price of petrol is a problem." }
+    ], "note": "**en hausse** = rising. The **h** is aspirated: *la hausse*, not *l'hausse*." },
+    { "id": "baisse", "fr": "baisse", "pos": "noun", "g": "f", "ipa": "bɛs", "en": "fall, drop, decrease", "def": "Quand une chose descend : un prix, un nombre, une température…", "def_en": "When something goes down: a price, a number, a temperature…", "forms": ["baisses"], "examples": [
+      { "fr": "Le chômage est en **[baisse|baisse]**.", "en": "Unemployment is falling." },
+      { "fr": "Il y a une **baisse** des ventes en hiver.", "en": "Sales drop in winter." },
+      { "fr": "La **baisse** des prix fait plaisir aux consommateurs.", "en": "Falling prices make consumers happy." }
+    ], "note": "**en baisse** = falling." },
+    { "id": "revenu", "fr": "revenu", "pos": "noun", "g": "m", "ipa": "ʁə.və.ny", "en": "income", "def": "L'argent qu'on reçoit : un salaire, une aide, un loyer…", "def_en": "The money you receive: a salary, benefits, rent…", "forms": ["revenus"], "examples": [
+      { "fr": "Leur **revenu** est de deux mille euros par mois.", "en": "Their income is two thousand euros a month." },
+      { "fr": "Avec ses **revenus**, il ne peut pas acheter d'appartement.", "en": "On his income, he can't buy a flat." },
+      { "fr": "Les familles pauvres ont des **revenus** très bas.", "en": "Poor families have very low incomes." }
+    ] }
+  ],
+  "story": {
+    "title": "L'économie selon Mamie",
+    "en": "Early July in Marseille: a morning at the market, and a game of Monopoly with the grandparents in the evening.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début juillet, à Marseille. Le matin, Louise emmène les amis au marché, près du port.", "en": "Early July, in Marseille. In the morning, Louise takes the friends to the market near the harbour." },
+      { "sp": "Louise", "fr": "Regardez le prix des tomates ! Avec l'inflation, tout est en hausse.", "en": "Look at the price of the tomatoes! With inflation, everything's going up." },
+      { "sp": "Le vendeur", "fr": "Ce n'est pas ma faute, madame ! Je produis mes tomates ici, mais l'essence et l'électricité coûtent plus cher.", "en": "It's not my fault, madam! I grow my tomatoes here, but petrol and electricity cost more." },
+      { "sp": "Tom", "fr": "En Angleterre aussi, les consommateurs achètent moins. Le pouvoir d'achat est en [baisse|baisse].", "en": "In England too, consumers are buying less. Purchasing power is falling." },
+      { "sp": "Le vendeur", "fr": "Et avec la concurrence des supermarchés, le petit commerce est en crise !", "en": "And with competition from the supermarkets, small shops are in crisis!" },
+      { "sp": "", "fr": "À midi, Jacques lit le journal.", "en": "At noon, Jacques reads the paper." },
+      { "sp": "Jacques", "fr": "« La croissance de l'économie française est faible cette année. » Rien de nouveau !", "en": "'The growth of the French economy is weak this year.' Nothing new!" },
+      { "sp": "Sophie", "fr": "Vous lisez toujours les pages économiques, Jacques ?", "en": "Do you always read the business pages, Jacques?" },
+      { "sp": "Jacques", "fr": "Toute ma vie ! J'ai travaillé quarante ans dans une entreprise de savon de Marseille. On exportait notre savon dans le monde entier.", "en": "All my life! I worked for forty years at a Marseille soap company. We exported our soap all over the world." },
+      { "sp": "Louise", "fr": "Et maintenant, les magasins importent du savon de l'autre bout du monde… Quelle époque !", "en": "And now the shops import soap from the other side of the world… What times we live in!" },
+      { "sp": "", "fr": "Le soir, il fait trop chaud pour sortir. Jacques apporte un vieux jeu : le Monopoly.", "en": "In the evening, it's too hot to go out. Jacques brings out an old game: Monopoly." },
+      { "sp": "Jacques", "fr": "Je suis le banquier. Le but du jeu : acheter des rues, investir… et ruiner les autres !", "en": "I'm the banker. The aim of the game: buy streets, invest… and ruin everybody else!" },
+      { "sp": "", "fr": "Hugo investit tout son argent dès le début. Il fait beaucoup d'achats : des rues, des maisons, des hôtels…", "en": "Hugo invests all his money right from the start. He buys lots of things: streets, houses, hotels…" },
+      { "sp": "Léa", "fr": "Attention, Hugo ! Il faut garder de l'argent pour les impôts.", "en": "Careful, Hugo! You have to keep some money for the taxes." },
+      { "sp": "Hugo", "fr": "Je n'ai pas peur. Avec tous mes hôtels, mes revenus vont beaucoup augmenter !", "en": "I'm not scared. With all my hotels, my income's going to shoot up!" },
+      { "sp": "", "fr": "Mais les autres ne s'arrêtent jamais sur ses rues. Hugo n'a aucun bénéfice, seulement des pertes.", "en": "But the others never land on his streets. Hugo makes no profit, only losses." },
+      { "sp": "Hugo", "fr": "Une grande vente ! Je vends toutes mes maisons à moitié prix !", "en": "A big sale! I'm selling all my houses at half price!" },
+      { "sp": "Tom", "fr": "Trop tard, Hugo. Tu as fait faillite.", "en": "Too late, Hugo. You're bankrupt." },
+      { "sp": "", "fr": "C'est Louise qui gagne. Elle a acheté peu de rues… mais les bonnes.", "en": "Louise wins. She bought few streets… but the right ones." },
+      { "sp": "Hugo", "fr": "Mamie, comment tu fais ?", "en": "Grandma, how do you do it?" },
+      { "sp": "Louise", "fr": "J'ai travaillé trente-cinq ans dans une banque, mon chéri.", "en": "I worked in a bank for thirty-five years, darling." },
+      { "sp": "Jacques", "fr": "C'est elle qui connaît le mieux l'économie, dans la famille. Moi, je vendais seulement du savon.", "en": "She's the one in the family who knows most about the economy. I only sold soap." },
+      { "sp": "Inès", "fr": "Et toi, Hugo, tu devrais travailler dans l'industrie… du chocolat !", "en": "And you, Hugo, you should work in the… chocolate industry!" },
+      { "sp": "Hugo", "fr": "Bonne idée ! Je serai le premier consommateur de nos produits.", "en": "Good idea! I'll be our products' number-one consumer." }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "u28-emploi",
+  "type": "vocab",
+  "unit": 28,
+  "title": "Chercher un emploi",
+  "en": "Looking for a job",
+  "intro": "25 words for the job hunt: finding a job (**l'offre d'emploi, l'annonce, le poste, le job**), applying (**postuler, la candidature, la lettre de motivation, le candidat**), selling yourself (**l'expérience, la compétence, la formation, le diplôme, motivé, disponible**) and the job itself (**l'employeur, embaucher, le contrat, le CDI, le CDD, à temps plein, à temps partiel, les horaires**).",
+  "words": [
+    { "id": "offre-d-emploi", "fr": "offre d'emploi", "pos": "noun", "g": "f", "ipa": "ɔfʁ dɑ̃.plwa", "en": "job offer, job advert", "def": "Une annonce d'une entreprise qui cherche quelqu'un pour un travail.", "def_en": "An advert from a company looking for someone for a job.", "forms": ["offres d'emploi"], "examples": [
+      { "fr": "Il y a beaucoup d'**offres d'emploi** en été.", "en": "There are lots of job offers in summer." },
+      { "fr": "J'ai trouvé une **offre d'emploi** intéressante sur internet.", "en": "I found an interesting job advert online." },
+      { "fr": "Cette **offre d'emploi** est parfaite pour toi !", "en": "This job offer is perfect for you!" }
+    ] },
+    { "id": "annonce", "fr": "annonce", "pos": "noun", "g": "f", "ipa": "a.nɔ̃s", "en": "advert, ad; announcement", "def": "Un petit texte, dans un journal ou sur internet, pour vendre, acheter ou chercher quelque chose. Aussi : une information importante qu'on donne à tout le monde.", "def_en": "A short text, in a newspaper or online, to sell, buy or look for something. Also: important news you give everyone.", "forms": ["annonces"], "examples": [
+      { "fr": "J'ai lu une **annonce** pour un job d'été.", "en": "I read an ad for a summer job." },
+      { "fr": "Il a mis une **annonce** pour vendre son vélo.", "en": "He put an ad up to sell his bike." },
+      { "fr": "Jules a une **annonce** à faire !", "en": "Jules has an announcement to make!" }
+    ] },
+    { "id": "candidature", "fr": "candidature", "pos": "noun", "g": "f", "ipa": "kɑ̃.di.da.tyʁ", "en": "application (for a job)", "def": "Ce qu'on envoie à une entreprise quand on veut un travail : le CV et la lettre de motivation.", "def_en": "What you send a company when you want a job: your CV and cover letter.", "forms": ["candidatures"], "examples": [
+      { "fr": "J'ai envoyé ma **candidature** hier.", "en": "I sent my application yesterday." },
+      { "fr": "Ils ont reçu cent **candidatures** en une semaine.", "en": "They got a hundred applications in a week." },
+      { "fr": "Ta **candidature** est très bien écrite.", "en": "Your application is very well written." }
+    ] },
+    { "id": "candidat", "fr": "candidat", "pos": "noun", "g": "m", "ipa": "kɑ̃.di.da", "display": "le candidat, la candidate", "en": "candidate, applicant", "def": "Une personne qui veut un travail, une place ou un prix, et qui se présente pour l'avoir.", "def_en": "A person who wants a job, a place or a prize, and puts themselves forward for it.", "forms": ["candidate", "candidats", "candidates"], "accept": ["candidate", "la candidate", "une candidate"], "examples": [
+      { "fr": "Il y a vingt **candidats** pour ce travail.", "en": "There are twenty applicants for this job." },
+      { "fr": "La **candidate** arrive à l'entretien en avance.", "en": "The applicant arrives early for the interview." },
+      { "fr": "Chaque **candidat** a dix minutes pour se présenter.", "en": "Each candidate has ten minutes to introduce themselves." }
+    ] },
+    { "id": "postuler", "fr": "postuler", "pos": "verb", "ipa": "pɔs.ty.le", "en": "to apply (for a job)", "def": "Envoyer sa candidature pour un travail.", "def_en": "To send your application for a job.", "forms": ["postule", "postules", "postulons", "postulez", "postulent", "postulé", "postulais", "postulait", "postulions", "postuliez", "postulaient", "postulerai", "postuleras", "postulera", "postulerons", "postulerez", "postuleront", "postulerais", "postulerait", "postulerions", "postuleriez", "postuleraient"], "examples": [
+      { "fr": "Je vais **postuler** dans cette entreprise.", "en": "I'm going to apply to this company." },
+      { "fr": "Carla **postule** pour un job d'été.", "en": "Carla is applying for a summer job." },
+      { "fr": "Tu as **postulé** où ?", "en": "Where did you apply?" }
+    ] },
+    { "id": "lettre-de-motivation", "fr": "lettre de motivation", "pos": "noun", "g": "f", "ipa": "lɛtʁ də mɔ.ti.va.sjɔ̃", "en": "cover letter", "def": "Une lettre où on explique pourquoi on veut un travail, et pourquoi on est la bonne personne.", "def_en": "A letter explaining why you want a job, and why you're the right person.", "forms": ["lettres de motivation"], "examples": [
+      { "fr": "J'ai écrit ma **lettre de motivation** en une heure.", "en": "I wrote my cover letter in an hour." },
+      { "fr": "Ta **lettre de motivation** est trop longue.", "en": "Your cover letter is too long." },
+      { "fr": "Il faut envoyer un CV et une **lettre de motivation**.", "en": "You have to send a CV and a cover letter." }
+    ] },
+    { "id": "motive", "fr": "motivé", "pos": "adj", "ipa": "mɔ.ti.ve", "display": "motivé, motivée", "en": "motivated, keen", "def": "Qui a très envie de faire une chose, et qui travaille pour y arriver.", "def_en": "Really wanting to do something, and working to get there.", "forms": ["motivée", "motivés", "motivées"], "accept": ["motivée"], "examples": [
+      { "fr": "Je suis très **motivée** pour ce travail.", "en": "I'm really keen on this job." },
+      { "fr": "Les élèves sont **motivés** le premier jour.", "en": "The pupils are motivated on the first day." },
+      { "fr": "Il faut être **motivé** pour courir à six heures du matin !", "en": "You have to be motivated to run at six in the morning!" }
+    ] },
+    { "id": "employeur", "fr": "employeur", "pos": "noun", "g": "m", "ipa": "ɑ̃.plwa.jœʁ", "display": "l'employeur, l'employeuse", "en": "employer", "def": "La personne ou l'entreprise qui donne du travail et qui paie un salaire.", "def_en": "The person or company that gives work and pays a salary.", "forms": ["employeuse", "employeurs", "employeuses"], "accept": ["employeuse", "l'employeuse", "une employeuse"], "examples": [
+      { "fr": "Mon **employeur** me paie à la fin du mois.", "en": "My employer pays me at the end of the month." },
+      { "fr": "Les **employeurs** cherchent des gens motivés.", "en": "Employers are looking for motivated people." },
+      { "fr": "Il faut envoyer ce papier à ton **employeur**.", "en": "You have to send this paper to your employer." }
+    ] },
+    { "id": "employe", "fr": "employé", "pos": "noun", "g": "m", "ipa": "ɑ̃.plwa.je", "display": "l'employé, l'employée", "en": "employee", "def": "Une personne qui travaille pour une entreprise et qui reçoit un salaire.", "def_en": "A person who works for a company and gets a salary.", "forms": ["employée", "employés", "employées"], "accept": ["employée", "l'employée", "une employée"], "examples": [
+      { "fr": "Cette entreprise a cinquante **employés**.", "en": "This company has fifty employees." },
+      { "fr": "Hugo est **employé** dans une petite entreprise.", "en": "Hugo works for a small company." },
+      { "fr": "L'**employée** de la banque est très gentille.", "en": "The bank clerk is very nice." }
+    ] },
+    { "id": "embaucher", "fr": "embaucher", "pos": "verb", "ipa": "ɑ̃.bo.ʃe", "en": "to hire, to take on", "def": "Donner un travail à une personne : la prendre comme employé.", "def_en": "To give someone a job: to take them on as an employee.", "forms": ["embauche", "embauches", "embauchons", "embauchez", "embauchent", "embauché", "embauchée", "embauchés", "embauchées", "embauchais", "embauchait", "embauchions", "embauchiez", "embauchaient", "embaucherai", "embaucheras", "embauchera", "embaucherons", "embaucherez", "embaucheront", "embaucherais", "embaucherait", "embaucherions", "embaucheriez", "embaucheraient"], "examples": [
+      { "fr": "Le café **embauche** une serveuse pour l'été.", "en": "The café is taking on a waitress for the summer." },
+      { "fr": "On m'a **embauché** après un seul entretien.", "en": "I was hired after a single interview." },
+      { "fr": "Ils vont **embaucher** deux stagiaires.", "en": "They're going to take on two interns." }
+    ], "note": "**un entretien d'embauche** = a job interview." },
+    { "id": "recruter", "fr": "recruter", "pos": "verb", "ipa": "ʁə.kʁy.te", "en": "to recruit", "def": "Chercher et choisir de nouvelles personnes pour travailler dans une entreprise.", "def_en": "To look for and choose new people to work in a company.", "forms": ["recrute", "recrutes", "recrutons", "recrutez", "recrutent", "recruté", "recrutée", "recrutés", "recrutées", "recrutais", "recrutait", "recrutions", "recrutiez", "recrutaient", "recruterai", "recruteras", "recrutera", "recruterons", "recruterez", "recruteront", "recruterais", "recruterait", "recruterions", "recruteriez", "recruteraient"], "examples": [
+      { "fr": "Notre entreprise **recrute** des informaticiens.", "en": "Our company is recruiting IT specialists." },
+      { "fr": "Ils **recrutent** pour l'été.", "en": "They're recruiting for the summer." },
+      { "fr": "C'est difficile de **recruter** de bons cuisiniers.", "en": "It's hard to recruit good cooks." }
+    ] },
+    { "id": "poste-m", "fr": "poste", "pos": "noun", "g": "m", "manual": true, "ipa": "pɔst", "en": "position, post, job; (TV, radio) set", "def": "Un travail précis dans une entreprise. Aussi : un appareil de radio ou de télévision.", "def_en": "A particular job in a company. Also: a radio or TV set.", "forms": ["postes"], "examples": [
+      { "fr": "Elle a un bon **[poste|poste-m]** dans une banque.", "en": "She has a good position in a bank." },
+      { "fr": "Ce **[poste|poste-m]** est fait pour toi !", "en": "This job is made for you!" },
+      { "fr": "Il y a trois **[postes|poste-m]** de serveur dans ce restaurant.", "en": "There are three waiter jobs in this restaurant." }
+    ], "note": "**le poste** (masculine) = a job, a position; **la poste** (feminine) = the post office." },
+    { "id": "contrat", "fr": "contrat", "pos": "noun", "g": "m", "ipa": "kɔ̃.tʁa", "en": "contract", "def": "Un papier qu'on signe, avec les règles d'un accord : pour un travail, un appartement…", "def_en": "A paper you sign, with the terms of an agreement: for a job, a flat…", "forms": ["contrats"], "examples": [
+      { "fr": "J'ai signé mon **contrat** ce matin !", "en": "I signed my contract this morning!" },
+      { "fr": "Lis bien le **contrat** avant de signer.", "en": "Read the contract carefully before you sign." },
+      { "fr": "Mon **contrat** finit en août.", "en": "My contract ends in August." }
+    ] },
+    { "id": "cdi", "fr": "CDI", "pos": "noun", "g": "m", "ipa": "se.de.i", "en": "permanent contract", "def": "Un contrat de travail sans date de fin. C'est le contraire du CDD.", "def_en": "A work contract with no end date. The opposite of a CDD.", "accept": ["cdi"], "examples": [
+      { "fr": "Après son stage, elle a eu un **CDI**.", "en": "After her internship, she got a permanent contract." },
+      { "fr": "Avec un **CDI**, c'est plus facile de louer un appartement.", "en": "With a permanent contract, it's easier to rent a flat." },
+      { "fr": "Hugo a un **CDI** depuis un an et demi.", "en": "Hugo has had a permanent contract for a year and a half." }
+    ], "note": "**CDI** = *contrat à durée indéterminée*." },
+    { "id": "cdd", "fr": "CDD", "pos": "noun", "g": "m", "ipa": "se.de.de", "en": "fixed-term contract", "def": "Un contrat de travail pour un temps précis : un mois, six mois, un an…", "def_en": "A work contract for a set time: a month, six months, a year…", "accept": ["cdd"], "examples": [
+      { "fr": "Elle a un **CDD** de six mois.", "en": "She has a six-month contract." },
+      { "fr": "Le restaurant propose un **CDD** pour l'été.", "en": "The restaurant is offering a summer contract." },
+      { "fr": "Mon **CDD** finit le trente et un août.", "en": "My contract ends on 31 August." }
+    ], "note": "**CDD** = *contrat à durée déterminée*." },
+    { "id": "temps-partiel", "fr": "temps partiel", "pos": "noun", "g": "m", "ipa": "tɑ̃ paʁ.sjɛl", "en": "part-time (work)", "def": "Quand on travaille moins d'heures que la normale, par exemple le matin seulement.", "def_en": "When you work fewer hours than usual, for example only in the mornings.", "examples": [
+      { "fr": "Je travaille à **temps partiel** : seulement le matin.", "en": "I work part-time: only in the mornings." },
+      { "fr": "Un **temps partiel**, c'est parfait pour les étudiants.", "en": "A part-time job is perfect for students." },
+      { "fr": "Elle cherche un travail à **temps partiel**.", "en": "She's looking for a part-time job." }
+    ], "note": "**à temps partiel** = part-time; **à temps plein** = full-time." },
+    { "id": "temps-plein", "fr": "temps plein", "pos": "noun", "g": "m", "ipa": "tɑ̃ plɛ̃", "en": "full-time (work)", "def": "Quand on travaille toute la semaine : environ trente-cinq heures, en France.", "def_en": "When you work all week: about thirty-five hours, in France.", "examples": [
+      { "fr": "Hugo travaille à **temps plein**.", "en": "Hugo works full-time." },
+      { "fr": "Un **temps plein**, c'est trente-cinq heures par semaine.", "en": "Full-time is thirty-five hours a week." },
+      { "fr": "Je ne peux pas travailler à **temps plein** et étudier.", "en": "I can't work full-time and study." }
+    ] },
+    { "id": "experience", "fr": "expérience", "pos": "noun", "g": "f", "ipa": "ɛks.pe.ʁjɑ̃s", "en": "experience; experiment", "def": "Ce qu'on a appris quand on a fait une chose, surtout au travail. Aussi : un test qu'on fait pour voir ce qui se passe.", "def_en": "What you've learnt from doing something, especially at work. Also: a test you do to see what happens.", "forms": ["expériences"], "examples": [
+      { "fr": "J'ai deux ans d'**expérience** dans la vente.", "en": "I have two years' experience in sales." },
+      { "fr": "C'était une belle **expérience**.", "en": "It was a great experience." },
+      { "fr": "Sans **expérience**, c'est difficile de trouver un travail.", "en": "Without experience, it's hard to find a job." }
+    ] },
+    { "id": "competence", "fr": "compétence", "pos": "noun", "g": "f", "ipa": "kɔ̃.pe.tɑ̃s", "en": "skill, competence", "def": "Une chose qu'on sait bien faire, qu'on a apprise à l'école ou au travail.", "def_en": "Something you do well, which you learnt at school or at work.", "forms": ["compétences"], "examples": [
+      { "fr": "Quelles sont tes **compétences** ?", "en": "What are your skills?" },
+      { "fr": "Parler trois langues, c'est une vraie **compétence**.", "en": "Speaking three languages is a real skill." },
+      { "fr": "Dans ton CV, écris tes **compétences** en informatique.", "en": "In your CV, write down your computer skills." }
+    ] },
+    { "id": "formation", "fr": "formation", "pos": "noun", "g": "f", "ipa": "fɔʁ.ma.sjɔ̃", "en": "training; education", "def": "Les cours et les études qu'on fait pour apprendre un métier.", "def_en": "The courses and studies you do to learn a trade.", "forms": ["formations"], "examples": [
+      { "fr": "Elle a une **formation** de cuisinière.", "en": "She trained as a cook." },
+      { "fr": "L'entreprise paie une **formation** d'anglais à ses employés.", "en": "The company pays for English training for its staff." },
+      { "fr": "Quelle est ta **formation** ?", "en": "What's your educational background?" }
+    ] },
+    { "id": "diplome", "fr": "diplôme", "pos": "noun", "g": "m", "ipa": "di.plom", "en": "diploma, qualification, degree", "def": "Le papier qu'on reçoit quand on a réussi ses études ou un examen.", "def_en": "The certificate you get when you've completed your studies or passed an exam.", "forms": ["diplômes"], "examples": [
+      { "fr": "Sophie aura son **diplôme** d'architecte dans cinq ans.", "en": "Sophie will get her architecture degree in five years." },
+      { "fr": "Sans **diplôme**, Yanis a du mal à trouver un travail.", "en": "Without qualifications, Yanis is struggling to find work." },
+      { "fr": "Il a eu son **diplôme** avec une très bonne note.", "en": "He got his diploma with a very good mark." }
+    ] },
+    { "id": "job", "fr": "job", "pos": "noun", "g": "m", "ipa": "dʒɔb", "en": "job (informal)", "def": "Un petit travail, souvent pour quelques semaines.", "def_en": "A small job, often for a few weeks.", "forms": ["jobs"], "examples": [
+      { "fr": "Carla cherche un **job** d'été.", "en": "Carla is looking for a summer job." },
+      { "fr": "J'ai trouvé un petit **job** dans un café.", "en": "I found a little job in a café." },
+      { "fr": "Beaucoup d'étudiants ont un **job** le week-end.", "en": "Lots of students have a weekend job." }
+    ], "note": "**un job d'été** = a summer job. **job** is informal: in a letter, write **un emploi** or **un travail**." },
+    { "id": "carriere", "fr": "carrière", "pos": "noun", "g": "f", "ipa": "ka.ʁjɛʁ", "en": "career", "def": "Tous les emplois qu'une personne a pendant sa vie, et comment elle avance dans son métier.", "def_en": "All the jobs a person has in their life, and how they progress in their profession.", "forms": ["carrières"], "examples": [
+      { "fr": "Elle a fait toute sa **carrière** dans la même entreprise.", "en": "She spent her whole career at the same company." },
+      { "fr": "Pour ma **carrière**, je dois apprendre l'anglais.", "en": "For my career, I need to learn English." },
+      { "fr": "Il a commencé sa **carrière** comme serveur.", "en": "He started his career as a waiter." }
+    ] },
+    { "id": "disponible", "fr": "disponible", "pos": "adj", "ipa": "dis.pɔ.nibl", "en": "available, free", "def": "Libre : qu'on peut avoir ou utiliser tout de suite. Aussi : qui a du temps pour les autres.", "def_en": "Free: that you can have or use right away. Also: having time for others.", "forms": ["disponibles"], "examples": [
+      { "fr": "Je suis **disponible** à partir du premier août.", "en": "I'm available from 1 August." },
+      { "fr": "Cette chambre est **disponible** ce soir.", "en": "This room is free tonight." },
+      { "fr": "Le médecin n'est pas **disponible** avant lundi.", "en": "The doctor isn't available before Monday." }
+    ] },
+    { "id": "horaire", "fr": "horaire", "pos": "noun", "g": "m", "ipa": "ɔ.ʁɛʁ", "en": "timetable; (les horaires) working hours, opening hours", "def": "Les heures où on travaille, où un magasin est ouvert, ou où un train part.", "def_en": "The hours when you work, when a shop is open, or when a train leaves.", "forms": ["horaires"], "examples": [
+      { "fr": "Quels sont les **horaires** de travail ?", "en": "What are the working hours?" },
+      { "fr": "J'aime ce travail : les **horaires** sont faciles.", "en": "I like this job: the hours are easy." },
+      { "fr": "Regarde l'**horaire** du train sur internet.", "en": "Check the train timetable online." }
+    ] }
+  ],
+  "story": {
+    "title": "Le job d'été de Carla",
+    "en": "23 June: Carla is looking for a summer job, and all her friends want to help. Hugo most of all.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi vingt-trois juin, le soir, au café d'en bas. Carla cherche un job pour le mois d'août : elle veut gagner un peu d'argent avant la rentrée.", "en": "Tuesday 23 June, in the evening, at the café downstairs. Carla is looking for a job for August: she wants to earn a bit of money before the new term." },
+      { "sp": "Inès", "fr": "Regarde toutes ces offres d'emploi sur internet ! « Restaurant cherche serveur, CDD de deux mois, temps plein. »", "en": "Look at all these job adverts online! 'Restaurant seeks waiter, two-month contract, full-time.'" },
+      { "sp": "Carla", "fr": "À temps plein ? Non, je préfère un travail à temps partiel. Je veux danser, moi aussi !", "en": "Full-time? No, I'd rather have a part-time job. I want to dance too!" },
+      { "sp": "Sophie", "fr": "Et cette annonce ? « Centre de danse recrute un professeur pour les enfants, en août. Horaires : de neuf heures à midi. Expérience demandée. »", "en": "And this ad? 'Dance centre recruiting a teacher for children in August. Hours: nine to twelve. Experience required.'" },
+      { "sp": "Carla", "fr": "C'est parfait pour moi ! Mais je n'ai pas de diplôme de professeur…", "en": "That's perfect for me! But I don't have a teaching qualification…" },
+      { "sp": "Tom", "fr": "Mais tu as de l'expérience : tu as fini troisième au concours de danse, en janvier !", "en": "But you have experience: you came third in the dance competition in January!" },
+      { "sp": "Carla", "fr": "Bon, je vais postuler. Mais d'abord, il me faut un CV.", "en": "All right, I'll apply. But first, I need a CV." },
+      { "sp": "", "fr": "Tout le monde aide Carla. Hugo veut écrire la partie « compétences ».", "en": "Everyone helps Carla. Hugo wants to write the 'skills' section." },
+      { "sp": "Hugo", "fr": "Écris : « danse, courir, et beaucoup de patience avec son petit ami ».", "en": "Write: 'dancing, running, and lots of patience with her boyfriend'." },
+      { "sp": "Carla", "fr": "Très drôle. Et la lettre de motivation ?", "en": "Very funny. And the cover letter?" },
+      { "sp": "Sophie", "fr": "Explique à l'employeur pourquoi tu es motivée, et pourquoi ce [poste|poste-m] est fait pour toi.", "en": "Explain to the employer why you're keen, and why this job is made for you." },
+      { "sp": "Hugo", "fr": "Et dis que tu es disponible tout de suite. Les employeurs adorent ça !", "en": "And say you're available right away. Employers love that!" },
+      { "sp": "Inès", "fr": "Hugo, ils cherchent quelqu'un pour le mois d'août. Pas tout de suite !", "en": "Hugo, they're looking for someone for August. Not right away!" },
+      { "sp": "", "fr": "Le soir même, Carla envoie sa candidature. Le lendemain, le téléphone sonne : le centre de danse veut la rencontrer vendredi !", "en": "That same evening, Carla sends her application. The next day, the phone rings: the dance centre wants to meet her on Friday!" },
+      { "sp": "Carla", "fr": "Ils ont vingt candidats, et ils veulent me voir !", "en": "They have twenty applicants, and they want to see me!" },
+      { "sp": "Hugo", "fr": "Je vais t'aider à préparer l'entretien. Moi, on m'a embauché après un seul entretien !", "en": "I'll help you prepare for the interview. I got hired after a single interview!" },
+      { "sp": "Léa", "fr": "Oui… avec le costume à trois cents euros que je t'ai acheté.", "en": "Yes… in the three-hundred-euro suit I bought you." },
+      { "sp": "Hugo", "fr": "Première question : quel est votre plus grand défaut ?", "en": "First question: what's your biggest weakness?" },
+      { "sp": "Carla", "fr": "Euh… je suis un peu trop exigeante ?", "en": "Er… I'm a bit too demanding?" },
+      { "sp": "Hugo", "fr": "Non ! Il faut dire : « Je travaille trop. » Tous les candidats le disent.", "en": "No! You have to say: 'I work too hard.' All the candidates say that." },
+      { "sp": "Tom", "fr": "Sois naturelle, Carla. Tu as une vraie formation : quinze ans de danse !", "en": "Just be yourself, Carla. You have real training: fifteen years of dance!" },
+      { "sp": "Carla", "fr": "Et si on m'embauche, je signe un contrat ? Un CDI ?", "en": "And if they hire me, do I sign a contract? A permanent one?" },
+      { "sp": "Inès", "fr": "Pour un mois ? Non, ce sera un CDD. Un CDI, c'est un contrat sans date de fin.", "en": "For one month? No, it'll be a fixed-term contract. A permanent contract has no end date." },
+      { "sp": "Hugo", "fr": "Comme moi ! Je suis employé en CDI depuis un an et demi. Ma carrière avance très bien.", "en": "Like me! I've been on a permanent contract for a year and a half. My career is going very well." },
+      { "sp": "Léa", "fr": "Elle avance… mais toi, tu arrives en retard tous les matins.", "en": "It's going… but you arrive late every morning." }
+    ]
+  }
+}

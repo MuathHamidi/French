@@ -1,0 +1,165 @@
+{
+  "id": "u28-tout-chaque",
+  "type": "grammar",
+  "unit": 28,
+  "title": "Tout le monde est là ?",
+  "en": "tout, chaque, aucun, quelqu'un",
+  "intro": "Words for **how many**: all (**tout, tous**), each (**chaque, chacun**), none (**aucun**), some (**quelques, plusieurs, certains**) and someone or something (**quelqu'un, quelque chose**). Some go before a noun (*chaque jour, aucune idée*), others replace it (*chacun, aucun*).",
+  "cases": [
+    { "id": "tout-adj", "label": "tout le, toute la, tous les, toutes les", "rule": "Before a noun, **tout** agrees with it and comes before the article: ***tout le** gâteau, **toute la** journée, **tous les** jours, **toutes les** semaines*. **tous les** + time = every: *tous les matins* (every morning)." },
+    { "id": "tout-pron", "label": "tout, tous, toutes on their own", "rule": "On its own, **tout** = everything: *J'ai **tout** mangé. **Tout** va bien.* **tous / toutes** = all of them, everybody: *Ils sont **tous** là.* As a pronoun, **tous** is said with an **s**: [tus]." },
+    { "id": "chaque", "label": "chaque or chacun", "rule": "**chaque** goes before a singular noun and never changes: ***chaque** jour, **chaque** personne*. On its own, use **chacun** (m) or **chacune** (f): ***Chacun** prend son billet.* The verb is singular." },
+    { "id": "aucun", "label": "aucun… ne / ne… aucun", "rule": "**aucun, aucune** = not a single one. It goes with **ne**, never with **pas**: *Je **n'**ai **aucune** idée. **Aucun** candidat **n'**est venu.* It agrees with the noun and stays singular." },
+    { "id": "quelqu-un", "label": "quelqu'un, quelque chose (de…)", "rule": "**quelqu'un** = someone, **quelque chose** = something. To add an adjective, use **de** and keep it masculine: *quelqu'un **de** gentil, quelque chose **de** bon*." },
+    { "id": "quelques", "label": "quelques, quelques-uns, plusieurs, certains", "rule": "**quelques** (a few) goes before a noun: *quelques sandwichs*. On its own: **quelques-uns, quelques-unes**. **plusieurs** = several, and never changes. **certains, certaines** = some (but not others)." }
+  ],
+  "sections": [
+    {
+      "title": "1. tout le, toute la, tous les, toutes les",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "tout le gâteau", "tous les jours"],
+          ["feminine", "toute la journée", "toutes les semaines"]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo a mangé {tout le|tout-adj} gâteau !", "en": "Hugo ate the whole cake!" },
+        { "fr": "Je cours {tous les|tout-adj} dimanches.", "en": "I run every Sunday." }
+      ],
+      "tip": "**tout le monde** (everybody) takes a singular verb: *Tout le monde **est** là.*"
+    },
+    {
+      "title": "2. tout, tous, toutes on their own",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai tout [compris|comprendre].", "I understood everything."],
+          ["Tout va bien.", "Everything's fine."],
+          ["Ils sont tous là.", "They're all here."],
+          ["Elles sont toutes parties.", "They've all left."]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo a {tout|tout-pron} pris : le maillot de bain, les lunettes de soleil…", "en": "Hugo has taken everything: the swimsuit, the sunglasses…" },
+        { "fr": "Nous sommes {tous|tout-pron} là.", "en": "We're all here." }
+      ],
+      "tip": "**tous** before a noun is [tu]: *tous les jours*. On its own, it's [tus]: *ils sont tous là*."
+    },
+    {
+      "title": "3. chaque or chacun",
+      "table": {
+        "head": ["Before a noun", "On its own"], "frCols": [0, 1],
+        "rows": [
+          ["chaque jour", "chacun"],
+          ["chaque personne", "chacune"],
+          ["Chaque passager a un billet.", "Chacun a son billet."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Chaque|chaque} passager cherche sa place.", "en": "Each passenger looks for their seat." },
+        { "fr": "{Chacun|chaque} prend un sandwich.", "en": "Everyone takes a sandwich." }
+      ],
+      "tip": "**chaque** is always singular: never *chaques*."
+    },
+    {
+      "title": "4. aucun… ne, ne… aucun",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je n'ai aucune idée.", "I have no idea."],
+          ["Il n'y a aucun problème.", "There's no problem at all."],
+          ["Aucun train n'est en retard.", "No train is late."],
+          ["Aucune n'est venue.", "None of them came."]
+        ]
+      },
+      "examples": [
+        { "fr": "Il {n'y a aucun|aucun} problème.", "en": "There's no problem at all." },
+        { "fr": "{Aucun sandwich n'est|aucun} resté !", "en": "Not a single sandwich is left!" }
+      ],
+      "tip": "**aucun** replaces **pas**: *je n'ai **pas** d'idée* → *je n'ai **aucune** idée*. Never *pas aucun*."
+    },
+    {
+      "title": "5. quelqu'un, quelque chose (de…)",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["quelqu'un de gentil", "someone kind"],
+          ["quelque chose de bon", "something good"],
+          ["quelque chose d'important", "something important"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Quelqu'un|quelqu-un} a vu mon billet ?", "en": "Has anyone seen my ticket?" },
+        { "fr": "Tu as oublié {quelque chose d'important|quelqu-un} !", "en": "You've forgotten something important!" }
+      ],
+      "tip": "The adjective after **de** stays masculine: *quelque chose de **bon***, even though *chose* is feminine."
+    },
+    {
+      "title": "6. quelques, quelques-uns, plusieurs, certains",
+      "table": {
+        "head": ["Before a noun", "On its own"], "frCols": [0, 1],
+        "rows": [
+          ["quelques sandwichs", "quelques-uns"],
+          ["quelques pommes", "quelques-unes"],
+          ["plusieurs jours", "plusieurs"],
+          ["certains enfants", "certains"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai apporté {quelques|quelques} sandwichs.", "en": "I've brought a few sandwiches." },
+        { "fr": "{Certains|quelques} sandwichs sont au jambon, d'autres au fromage.", "en": "Some sandwiches are ham, others cheese." }
+      ],
+      "tip": "**quelques** is plural, but **quelque chose** is one thing: *quelque chose **est** arrivé*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "tous le monde", "right": "tout le monde", "why": "**le monde** is masculine singular: **tout le monde**." },
+    { "wrong": "Chaques jours, je cours.", "right": "Chaque jour, je cours.", "why": "**chaque** is always singular, and so is its noun." },
+    { "wrong": "Chaque prend un sandwich.", "right": "Chacun prend un sandwich.", "why": "On its own, use **chacun**: **chaque** needs a noun." },
+    { "wrong": "Je n'ai pas aucune idée.", "right": "Je n'ai aucune idée.", "why": "**aucun** goes with **ne** only, never with **pas**." },
+    { "wrong": "J'ai quelque chose bon pour toi.", "right": "J'ai quelque chose de bon pour toi.", "why": "Before an adjective, **quelque chose** needs **de**." }
+  ],
+  "story": {
+    "title": "Le départ",
+    "en": "Saturday 4 July: the friends are leaving for Marseille. Everybody's at the station… nearly everybody.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi quatre juillet, à la gare de la Part-Dieu. Les amis partent à Marseille, chez Jacques et Louise.", "en": "Saturday 4 July, at Part-Dieu station. The friends are leaving for Marseille, to stay with Jacques and Louise." },
+      { "sp": "Léa", "fr": "Bon ! {Tout le monde|tout-adj} est là ? {Chacun|chaque} a son billet ?", "en": "Right! Is everybody here? Has everyone got their ticket?" },
+      { "sp": "Sophie", "fr": "Oui, nous sommes {tous|tout-pron} là… sauf Hugo.", "en": "Yes, we're all here… except Hugo." },
+      { "sp": "Tom", "fr": "Comme d'habitude !", "en": "As usual!" },
+      { "sp": "Carla", "fr": "Je l'ai appelé trois fois. {Aucune réponse|aucun} !", "en": "I've called him three times. No answer!" },
+      { "sp": "Inès", "fr": "Le train part dans dix minutes, mais il {n'y a aucun|aucun} problème : Hugo arrive toujours au dernier moment.", "en": "The train leaves in ten minutes, but there's no problem at all: Hugo always turns up at the last minute." },
+      { "sp": "", "fr": "Cinq minutes avant le départ, voilà Hugo, avec trois sacs.", "en": "Five minutes before departure, here comes Hugo, with three bags." },
+      { "sp": "Hugo", "fr": "Je suis là ! J'ai {tout|tout-pron} : le maillot de bain, les lunettes de soleil, le chocolat…", "en": "I'm here! I've got everything: swimsuit, sunglasses, chocolate…" },
+      { "sp": "Léa", "fr": "Et {quelque chose d'important|quelqu-un} : ton billet ?", "en": "And something important: your ticket?" },
+      { "sp": "Hugo", "fr": "Euh… {quelqu'un|quelqu-un} a mon billet ?", "en": "Er… has someone got my ticket?" },
+      { "sp": "Carla", "fr": "Je l'ai pris hier. Je connais mon chéri.", "en": "I took it yesterday. I know my boyfriend." },
+      { "sp": "", "fr": "Dans le train, {chaque|chaque} passager cherche sa place. Les six amis sont {tous|tout-pron} dans la même voiture.", "en": "On the train, each passenger looks for their seat. The six friends are all in the same carriage." },
+      { "sp": "Tom", "fr": "J'ai apporté {quelques|quelques} sandwichs pour {tout le monde|tout-adj}.", "en": "I've brought a few sandwiches for everybody." },
+      { "sp": "Hugo", "fr": "{Quelques-uns|quelques} seulement ? Mais j'ai faim, moi !", "en": "Only a few? But I'm hungry!" },
+      { "sp": "Sophie", "fr": "{Plusieurs|quelques} personnes ont faim, Hugo. {Chacun|chaque} prend un sandwich.", "en": "Several people are hungry, Hugo. Everyone takes one sandwich." },
+      { "sp": "Inès", "fr": "{Certains|quelques} sandwichs sont au jambon, d'autres au fromage. Sophie, ceux-ci sont pour toi.", "en": "Some sandwiches are ham, others cheese. Sophie, these ones are for you." },
+      { "sp": "", "fr": "Une heure plus tard, {aucun sandwich n'est|aucun} resté. Hugo a {tout|tout-pron} mangé.", "en": "An hour later, not a single sandwich is left. Hugo has eaten the lot." },
+      { "sp": "Hugo", "fr": "Je dois manger quelque chose {toutes les|tout-adj} heures. C'est médical !", "en": "I have to eat something every hour. It's medical!" },
+      { "sp": "Léa", "fr": "Maman est médecin, Hugo. Elle va bien rire !", "en": "Mum's a doctor, Hugo. She's going to laugh!" },
+      { "sp": "", "fr": "À Marseille, Louise attend sur le quai. Elle a préparé un grand repas… pour {tout le monde|tout-adj}.", "en": "In Marseille, Louise is waiting on the platform. She's made a big meal… for everybody." }
+    ]
+  },
+  "quiz": [
+    { "case": "tout-adj", "type": "mc", "q": "Il a plu ___ journée.", "en": "It rained all day.", "options": ["toute la", "tout la", "toutes la"], "answer": "toute la" },
+    { "case": "tout-adj", "type": "mc", "q": "Je cours ___ dimanches.", "en": "I run every Sunday.", "options": ["tous les", "tout les", "toutes les"], "answer": "tous les" },
+    { "case": "tout-adj", "type": "type", "q": "___ le monde est là ?", "en": "Is everybody here?", "answer": "Tout" },
+    { "case": "tout-pron", "type": "mc", "q": "Hugo a ___ mangé !", "en": "Hugo has eaten everything!", "options": ["tout", "tous", "toute"], "answer": "tout" },
+    { "case": "tout-pron", "type": "mc", "q": "Les filles sont ___ parties.", "en": "The girls have all left.", "options": ["toutes", "tous", "tout"], "answer": "toutes" },
+    { "case": "chaque", "type": "mc", "q": "___ passager a un billet.", "en": "Each passenger has a ticket.", "options": ["Chaque", "Chacun", "Chaques"], "answer": "Chaque" },
+    { "case": "chaque", "type": "mc", "q": "___ prend un sandwich.", "en": "Everyone takes a sandwich.", "options": ["Chacun", "Chaque", "Tous"], "answer": "Chacun" },
+    { "case": "aucun", "type": "mc", "q": "Je n'ai ___ idée.", "en": "I have no idea.", "options": ["aucune", "aucun", "pas"], "answer": "aucune" },
+    { "case": "aucun", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Il n'y a aucun problème.", "Il n'y a pas aucun problème.", "Il y a aucuns problèmes."], "answer": "Il n'y a aucun problème.", "say": "Il n'y a aucun problème." },
+    { "case": "quelqu-un", "type": "mc", "q": "J'ai quelque chose ___ bon pour toi.", "en": "I've got something good for you.", "options": ["de", "que", "à"], "answer": "de" },
+    { "case": "quelqu-un", "type": "mc", "q": "___ a vu mes clés ?", "en": "Has anyone seen my keys?", "options": ["Quelqu'un", "Quelque chose", "Chaque"], "answer": "Quelqu'un" },
+    { "case": "quelques", "type": "mc", "q": "J'ai apporté ___ sandwichs.", "en": "I've brought a few sandwiches.", "options": ["quelques", "quelque", "quelques-uns"], "answer": "quelques" },
+    { "case": "quelques", "type": "mc", "q": "Des sandwichs ? J'en ai pris ___.", "en": "Sandwiches? I took a few.", "options": ["quelques-uns", "quelques", "chaque"], "answer": "quelques-uns" }
+  ]
+}

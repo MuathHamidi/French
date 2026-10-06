@@ -1,0 +1,164 @@
+{
+  "id": "u28-bureau",
+  "type": "vocab",
+  "unit": 28,
+  "title": "Au bureau",
+  "en": "At the office",
+  "intro": "25 words for office life: meetings (**l'ordre du jour, la présentation, la visioconférence, l'agenda**), the work itself (**le rapport, rédiger, imprimer, classer, la pièce jointe, la date limite, urgent**), the people (**le directeur, le chef de projet, le stagiaire**) and the ups and downs of a career (**l'augmentation, les heures supplémentaires, démissionner, licencier**).",
+  "words": [
+    { "id": "presentation", "fr": "présentation", "pos": "noun", "g": "f", "ipa": "pʁe.zɑ̃.ta.sjɔ̃", "en": "presentation; introduction", "def": "Quand on présente un projet ou un travail devant d'autres personnes, souvent avec des images. Aussi : quand on dit qui on est.", "def_en": "When you present a project or a piece of work to other people, often with pictures. Also: saying who you are.", "forms": ["présentations"], "examples": [
+      { "fr": "Hugo prépare une **présentation** pour le client.", "en": "Hugo is preparing a presentation for the client." },
+      { "fr": "Ta **présentation** était très claire.", "en": "Your presentation was very clear." },
+      { "fr": "Après les **présentations**, la réunion commence.", "en": "After the introductions, the meeting begins." }
+    ] },
+    { "id": "rapport", "fr": "rapport", "pos": "noun", "g": "m", "ipa": "ʁa.pɔʁ", "en": "report; connection, relationship", "def": "Un texte qui explique ce qu'on a fait ou ce qu'on a vu, souvent pour un chef. Aussi : une relation entre deux choses ou deux personnes.", "def_en": "A text explaining what you did or saw, often for a boss. Also: a connection between two things or two people.", "forms": ["rapports"], "examples": [
+      { "fr": "Je dois finir mon **rapport** avant vendredi.", "en": "I have to finish my report before Friday." },
+      { "fr": "Le **rapport** fait trente pages.", "en": "The report is thirty pages long." },
+      { "fr": "Quel est le **rapport** entre ces deux histoires ?", "en": "What's the connection between these two stories?" }
+    ] },
+    { "id": "agenda", "fr": "agenda", "pos": "noun", "g": "m", "ipa": "a.ʒɛ̃.da", "en": "diary, planner", "def": "Un petit livre, ou une application, où on écrit ses rendez-vous de chaque jour.", "def_en": "A little book, or an app, where you write your appointments for each day.", "forms": ["agendas"], "examples": [
+      { "fr": "Attends, je regarde mon **agenda**.", "en": "Wait, I'll check my diary." },
+      { "fr": "Mon **agenda** est plein cette semaine.", "en": "My diary is full this week." },
+      { "fr": "Hugo note tout dans l'**agenda** de son téléphone.", "en": "Hugo writes everything in the planner on his phone." }
+    ], "note": "False friend: the agenda of a meeting is **l'ordre du jour**." },
+    { "id": "ordre-du-jour", "fr": "ordre du jour", "pos": "noun", "g": "m", "ipa": "ɔʁ.dʁə dy ʒuʁ", "en": "agenda (of a meeting)", "def": "La liste des points dont on va parler pendant une réunion.", "def_en": "The list of points to discuss during a meeting.", "examples": [
+      { "fr": "Quel est l'**ordre du jour** de la réunion ?", "en": "What's on the agenda for the meeting?" },
+      { "fr": "Il y a trois points à l'**ordre du jour**.", "en": "There are three items on the agenda." },
+      { "fr": "Madame Dupont envoie l'**ordre du jour** le vendredi.", "en": "Mme Dupont sends out the agenda on Fridays." }
+    ] },
+    { "id": "date-limite", "fr": "date limite", "pos": "noun", "g": "f", "ipa": "dat li.mit", "en": "deadline", "def": "Le dernier jour pour finir ou envoyer quelque chose.", "def_en": "The last day to finish or send something.", "forms": ["dates limites"], "examples": [
+      { "fr": "La **date limite** est le trois juillet.", "en": "The deadline is 3 July." },
+      { "fr": "J'ai envoyé mon dossier avant la **date limite**.", "en": "I sent my file in before the deadline." },
+      { "fr": "Attention, la **date limite**, c'est demain !", "en": "Careful, the deadline is tomorrow!" }
+    ] },
+    { "id": "directeur", "fr": "directeur", "pos": "noun", "g": "m", "ipa": "di.ʁɛk.tœʁ", "display": "le directeur, la directrice", "en": "director, manager; head (of a school)", "def": "La personne qui dirige une entreprise, une partie d'une entreprise ou une école.", "def_en": "The person who runs a company, part of a company or a school.", "forms": ["directrice", "directeurs", "directrices"], "accept": ["directrice", "la directrice", "une directrice"], "examples": [
+      { "fr": "Le **directeur** veut nous voir.", "en": "The manager wants to see us." },
+      { "fr": "La **directrice** de l'école parle aux parents.", "en": "The head teacher is talking to the parents." },
+      { "fr": "Il est **directeur** d'une banque.", "en": "He's the manager of a bank." }
+    ] },
+    { "id": "chef-de-projet", "fr": "chef de projet", "pos": "noun", "g": "m", "both": true, "ipa": "ʃɛf də pʁɔ.ʒɛ", "display": "le / la chef de projet", "en": "project manager", "def": "La personne qui organise un projet et qui travaille avec toute l'équipe pour le finir à temps.", "def_en": "The person who organises a project and works with the whole team to finish it on time.", "forms": ["chefs de projet"], "accept": ["la chef de projet", "une chef de projet"], "examples": [
+      { "fr": "Hugo est **chef de projet** depuis lundi.", "en": "Hugo has been a project manager since Monday." },
+      { "fr": "La **chef de projet** organise une réunion chaque matin.", "en": "The project manager holds a meeting every morning." },
+      { "fr": "Un bon **chef de projet** écoute son équipe.", "en": "A good project manager listens to the team." }
+    ] },
+    { "id": "stagiaire", "fr": "stagiaire", "pos": "noun", "g": "m", "both": true, "ipa": "sta.ʒjɛʁ", "display": "le / la stagiaire", "en": "intern, trainee", "def": "Une personne qui fait un stage dans une entreprise, pour apprendre un métier.", "def_en": "A person doing an internship in a company, to learn a trade.", "forms": ["stagiaires"], "accept": ["la stagiaire", "une stagiaire"], "examples": [
+      { "fr": "Sarah et Malik sont **stagiaires** dans l'entreprise de Hugo.", "en": "Sarah and Malik are interns at Hugo's firm." },
+      { "fr": "Le **stagiaire** fait des photocopies.", "en": "The intern is making photocopies." },
+      { "fr": "L'entreprise prend deux **stagiaires** chaque été.", "en": "The company takes on two interns every summer." }
+    ] },
+    { "id": "augmentation", "fr": "augmentation", "pos": "noun", "g": "f", "ipa": "oɡ.mɑ̃.ta.sjɔ̃", "en": "rise, increase; pay rise", "def": "Quand une chose devient plus grande. Au travail : quand le salaire augmente.", "def_en": "When something gets bigger. At work: when your salary goes up.", "forms": ["augmentations"], "examples": [
+      { "fr": "Je vais demander une **augmentation** à ma patronne.", "en": "I'm going to ask my boss for a pay rise." },
+      { "fr": "Il y a une **augmentation** du prix du pain.", "en": "There's an increase in the price of bread." },
+      { "fr": "Avec son **augmentation**, Hugo peut enfin économiser.", "en": "With his pay rise, Hugo can finally save." }
+    ] },
+    { "id": "demissionner", "fr": "démissionner", "pos": "verb", "ipa": "de.mi.sjɔ.ne", "en": "to resign, to quit (a job)", "def": "Quitter son travail parce qu'on le décide soi-même.", "def_en": "To leave your job because you yourself decide to.", "forms": ["démissionne", "démissionnes", "démissionnons", "démissionnez", "démissionnent", "démissionné", "démissionnais", "démissionnait", "démissionnions", "démissionniez", "démissionnaient", "démissionnerai", "démissionneras", "démissionnera", "démissionnerons", "démissionnerez", "démissionneront", "démissionnerais", "démissionnerait", "démissionnerions", "démissionneriez", "démissionneraient"], "examples": [
+      { "fr": "Elle a **démissionné** pour créer son entreprise.", "en": "She resigned to start her own company." },
+      { "fr": "Si mon patron continue, je **démissionne** !", "en": "If my boss keeps this up, I'm quitting!" },
+      { "fr": "Ne **démissionne** pas : parle d'abord avec ta directrice.", "en": "Don't quit: talk to your manager first." }
+    ] },
+    { "id": "licencier", "fr": "licencier", "pos": "verb", "ipa": "li.sɑ̃.sje", "en": "to dismiss, to lay off, to fire", "def": "Quand un employeur décide qu'un employé ne travaille plus dans l'entreprise.", "def_en": "When an employer decides an employee no longer works at the company.", "forms": ["licencie", "licencies", "licencions", "licenciez", "licencient", "licencié", "licenciée", "licenciés", "licenciées", "licenciais", "licenciait", "licenciions", "licenciiez", "licenciaient", "licencierai", "licencieras", "licenciera", "licencierons", "licencierez", "licencieront", "licencierais", "licencierait", "licencierions", "licencieriez", "licencieraient"], "examples": [
+      { "fr": "L'usine va **licencier** cent employés.", "en": "The factory is going to lay off a hundred workers." },
+      { "fr": "Il a été **licencié** : il arrivait toujours en retard.", "en": "He was fired: he was always late." },
+      { "fr": "On ne **licencie** pas quelqu'un pour une seule erreur.", "en": "You don't fire someone for a single mistake." }
+    ] },
+    { "id": "heures-supplementaires", "fr": "heures supplémentaires", "pos": "noun", "g": "f", "ipa": "œʁ sy.ple.mɑ̃.tɛʁ", "display": "les heures supplémentaires", "en": "overtime", "def": "Les heures qu'on travaille en plus de son horaire normal.", "def_en": "The hours you work on top of your normal hours.", "forms": ["heure supplémentaire"], "examples": [
+      { "fr": "Cette semaine, j'ai fait dix **heures supplémentaires**.", "en": "This week, I did ten hours of overtime." },
+      { "fr": "Les **heures supplémentaires** sont mieux payées.", "en": "Overtime is better paid." },
+      { "fr": "Il faudra faire des **heures supplémentaires** avant les vacances.", "en": "We'll have to do overtime before the holidays." }
+    ] },
+    { "id": "photocopieuse", "fr": "photocopieuse", "pos": "noun", "g": "f", "ipa": "fo.to.kɔ.pjøz", "en": "photocopier", "def": "Une machine qui fait des photocopies.", "def_en": "A machine that makes photocopies.", "forms": ["photocopieuses"], "examples": [
+      { "fr": "La **photocopieuse** ne fonctionne plus !", "en": "The photocopier isn't working any more!" },
+      { "fr": "Il y a du papier partout autour de la **photocopieuse**.", "en": "There's paper everywhere around the photocopier." },
+      { "fr": "Malik passe sa journée devant la **photocopieuse**.", "en": "Malik spends his day at the photocopier." }
+    ] },
+    { "id": "imprimer", "fr": "imprimer", "pos": "verb", "ipa": "ɛ̃.pʁi.me", "en": "to print", "def": "Mettre sur du papier un texte ou une image de l'ordinateur, avec une imprimante.", "def_en": "To put a text or picture from the computer onto paper, with a printer.", "forms": ["imprime", "imprimes", "imprimons", "imprimez", "impriment", "imprimé", "imprimée", "imprimés", "imprimées", "imprimais", "imprimait", "imprimions", "imprimiez", "imprimaient", "imprimerai", "imprimeras", "imprimera", "imprimerons", "imprimerez", "imprimeront", "imprimerais", "imprimerait", "imprimerions", "imprimeriez", "imprimeraient"], "examples": [
+      { "fr": "Tu peux **imprimer** mon billet de train ?", "en": "Can you print my train ticket?" },
+      { "fr": "J'**imprime** le rapport et je te l'apporte.", "en": "I'll print the report and bring it to you." },
+      { "fr": "Les billets sont **imprimés**.", "en": "The tickets are printed." }
+    ] },
+    { "id": "classer", "fr": "classer", "pos": "verb", "ipa": "kla.se", "en": "to file; to sort, to arrange", "def": "Mettre des papiers ou des choses dans un ordre précis, au bon endroit.", "def_en": "To put papers or things in a particular order, in the right place.", "forms": ["classe", "classes", "classons", "classez", "classent", "classé", "classée", "classés", "classées", "classais", "classait", "classions", "classiez", "classaient", "classerai", "classeras", "classera", "classerons", "classerez", "classeront", "classerais", "classerait", "classerions", "classeriez", "classeraient"], "examples": [
+      { "fr": "Sarah **classe** les dossiers par date.", "en": "Sarah is filing the folders by date." },
+      { "fr": "J'ai **classé** mes photos par année.", "en": "I've sorted my photos by year." },
+      { "fr": "Il faut **classer** ces papiers avant ce soir.", "en": "These papers need filing before tonight." }
+    ] },
+    { "id": "visioconference", "fr": "visioconférence", "pos": "noun", "g": "f", "ipa": "vi.zjo.kɔ̃.fe.ʁɑ̃s", "en": "video conference, video call", "def": "Une réunion avec des personnes qui sont loin : on se voit et on se parle sur un écran.", "def_en": "A meeting with people who are far away: you see and talk to each other on a screen.", "forms": ["visioconférences"], "examples": [
+      { "fr": "J'ai une **visioconférence** avec Montréal à seize heures.", "en": "I have a video conference with Montréal at 4 p.m." },
+      { "fr": "En télétravail, on fait beaucoup de **visioconférences**.", "en": "When working from home, you have lots of video calls." },
+      { "fr": "Mamie fait des **visioconférences** avec son nouveau téléphone !", "en": "Grandma makes video calls on her new phone!" }
+    ] },
+    { "id": "stresse", "fr": "stressé", "pos": "adj", "ipa": "stʁɛ.se", "display": "stressé, stressée", "en": "stressed", "def": "Qui est très inquiet, parce qu'il a trop de travail ou trop de problèmes.", "def_en": "Very worried, because of too much work or too many problems.", "forms": ["stressée", "stressés", "stressées"], "accept": ["stressée"], "examples": [
+      { "fr": "Avant un entretien, je suis toujours **stressé**.", "en": "Before an interview, I'm always stressed." },
+      { "fr": "Madame Dupont a l'air **stressée** ce matin.", "en": "Mme Dupont looks stressed this morning." },
+      { "fr": "Les étudiants sont **stressés** pendant les examens.", "en": "Students are stressed during exams." }
+    ] },
+    { "id": "gerer", "fr": "gérer", "pos": "verb", "ipa": "ʒe.ʁe", "en": "to manage, to handle, to run", "def": "S'occuper d'une chose et prendre les décisions : un projet, une équipe, de l'argent…", "def_en": "To take care of something and make the decisions: a project, a team, money…", "extra": "é → è before a silent ending: je **gère**, nous **gérons**.", "forms": ["gère", "gères", "gérons", "gérez", "gèrent", "géré", "gérée", "gérés", "gérées", "gérais", "gérait", "gérions", "gériez", "géraient", "gérerai", "géreras", "gérera", "gérerons", "gérerez", "géreront", "gérerais", "gérerait", "gérerions", "géreriez", "géreraient"], "examples": [
+      { "fr": "Hugo va **gérer** un grand projet.", "en": "Hugo is going to manage a big project." },
+      { "fr": "Ma mère **gère** le budget de la famille.", "en": "My mother manages the family budget." },
+      { "fr": "Ne t'inquiète pas, je **gère** !", "en": "Don't worry, I've got it under control!" }
+    ] },
+    { "id": "negocier", "fr": "négocier", "pos": "verb", "ipa": "ne.ɡɔ.sje", "en": "to negotiate", "def": "Discuter pour trouver un accord : sur un prix, un salaire, un contrat…", "def_en": "To discuss in order to reach an agreement: on a price, a salary, a contract…", "forms": ["négocie", "négocies", "négocions", "négociez", "négocient", "négocié", "négociée", "négociés", "négociées", "négociais", "négociait", "négociions", "négociiez", "négociaient", "négocierai", "négocieras", "négociera", "négocierons", "négocierez", "négocieront", "négocierais", "négocierait", "négocierions", "négocieriez", "négocieraient"], "examples": [
+      { "fr": "J'ai **négocié** mon salaire avant de signer.", "en": "I negotiated my salary before signing." },
+      { "fr": "Au marché, Louise **négocie** toujours les prix.", "en": "At the market, Louise always haggles over the prices." },
+      { "fr": "Il faut **négocier** avec le client.", "en": "We have to negotiate with the client." }
+    ] },
+    { "id": "rediger", "fr": "rédiger", "pos": "verb", "ipa": "ʁe.di.ʒe", "en": "to write, to draft (a text)", "def": "Écrire un texte bien construit : un rapport, une lettre…", "def_en": "To write a well-structured text: a report, a letter…", "forms": ["rédige", "rédiges", "rédigeons", "rédigez", "rédigent", "rédigé", "rédigée", "rédigés", "rédigées", "rédigeais", "rédigeait", "rédigions", "rédigiez", "rédigeaient", "rédigerai", "rédigeras", "rédigera", "rédigerons", "rédigerez", "rédigeront", "rédigerais", "rédigerait", "rédigerions", "rédigeriez", "rédigeraient"], "examples": [
+      { "fr": "Hugo **rédige** un rapport pour le client.", "en": "Hugo is writing a report for the client." },
+      { "fr": "J'ai **rédigé** ma lettre de motivation hier soir.", "en": "I wrote my cover letter last night." },
+      { "fr": "Qui va **rédiger** le texte pour le site internet ?", "en": "Who's going to write the text for the website?" }
+    ] },
+    { "id": "piece-jointe", "fr": "pièce jointe", "pos": "noun", "g": "f", "ipa": "pjɛs ʒwɛ̃t", "en": "attachment (to an email)", "def": "Une photo, un texte ou un tableau qu'on envoie avec un mail.", "def_en": "A photo, text or table that you send with an email.", "forms": ["pièces jointes"], "examples": [
+      { "fr": "Mon CV est en **pièce jointe**.", "en": "My CV is attached." },
+      { "fr": "Tu as oublié la **pièce jointe** !", "en": "You forgot the attachment!" },
+      { "fr": "Je ne peux pas ouvrir la **pièce jointe**.", "en": "I can't open the attachment." }
+    ] },
+    { "id": "urgent", "fr": "urgent", "pos": "adj", "ipa": "yʁ.ʒɑ̃", "display": "urgent, urgente", "en": "urgent", "def": "Qu'il faut faire tout de suite, sans attendre.", "def_en": "That must be done right away, without waiting.", "forms": ["urgente", "urgents", "urgentes"], "accept": ["urgente"], "examples": [
+      { "fr": "C'est **urgent** : appelle-moi !", "en": "It's urgent: call me!" },
+      { "fr": "J'ai un dossier **urgent** à finir.", "en": "I have an urgent file to finish." },
+      { "fr": "Ce n'est pas **urgent**, ça peut attendre demain.", "en": "It's not urgent, it can wait till tomorrow." }
+    ] },
+    { "id": "affaire", "fr": "affaire", "pos": "noun", "g": "f", "ipa": "a.fɛʁ", "en": "matter, deal; bargain; (les affaires) business; things, belongings", "def": "Une chose dont on s'occupe, ou un accord pour vendre ou acheter. Au pluriel : le commerce, ou les objets qu'on a avec soi.", "def_en": "A matter you're dealing with, or a deal to buy or sell. In the plural: business, or the things you have with you.", "forms": ["affaires"], "examples": [
+      { "fr": "C'est une grosse **affaire** pour notre entreprise.", "en": "It's a big deal for our company." },
+      { "fr": "Ce manteau à vingt euros, c'est une bonne **affaire** !", "en": "This coat for twenty euros is a bargain!" },
+      { "fr": "Range tes **affaires**, on part !", "en": "Put your things away, we're leaving!" }
+    ] },
+    { "id": "mission", "fr": "mission", "pos": "noun", "g": "f", "ipa": "mi.sjɔ̃", "en": "assignment, task; mission", "def": "Un travail important qu'on donne à quelqu'un.", "def_en": "An important job given to someone.", "forms": ["missions"], "examples": [
+      { "fr": "Ta **mission** : trouver un nouveau client.", "en": "Your task: find a new client." },
+      { "fr": "Elle part en **mission** à Paris pour trois jours.", "en": "She's going to Paris on assignment for three days." },
+      { "fr": "Cette **mission** est très difficile.", "en": "This assignment is very difficult." }
+    ] },
+    { "id": "efficace", "fr": "efficace", "pos": "adj", "ipa": "e.fi.kas", "en": "efficient, effective", "def": "Qui fait bien son travail, vite et sans perdre de temps. Aussi : qui donne de bons résultats.", "def_en": "Doing the job well, quickly and without wasting time. Also: giving good results.", "forms": ["efficaces"], "examples": [
+      { "fr": "Sarah est une stagiaire très **efficace**.", "en": "Sarah is a very efficient intern." },
+      { "fr": "Ce médicament est **efficace** contre la grippe.", "en": "This medicine works against flu." },
+      { "fr": "La réunion était courte et **efficace**.", "en": "The meeting was short and productive." }
+    ] }
+  ],
+  "story": {
+    "title": "Hugo, chef de projet",
+    "en": "Monday 22 June: Mme Dupont has big news, and a new job for Hugo.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi vingt-deux juin, Hugo arrive au bureau à l'heure. Julien n'en croit pas ses yeux.", "en": "Monday 22 June: Hugo arrives at the office on time. Julien can't believe his eyes." },
+      { "sp": "Julien", "fr": "Vite, Hugo ! Madame Dupont veut voir tout le monde. Elle a l'air stressée…", "en": "Quick, Hugo! Mme Dupont wants to see everyone. She looks stressed…" },
+      { "sp": "", "fr": "Dans la salle de réunion, Madame Dupont présente l'ordre du jour.", "en": "In the meeting room, Mme Dupont goes through the agenda." },
+      { "sp": "Mme Dupont", "fr": "Premier point : une grande chaîne de boulangeries veut une application pour commander son pain. C'est une très grosse affaire pour nous.", "en": "Item one: a big chain of bakeries wants an app for ordering its bread. It's a very big deal for us." },
+      { "sp": "Mme Dupont", "fr": "Deuxième point : la date limite est le trois juillet. Il faudra peut-être faire des heures supplémentaires.", "en": "Item two: the deadline is 3 July. We may have to do some overtime." },
+      { "sp": "Julien", "fr": "Des heures supplémentaires ? Juste avant les vacances ?", "en": "Overtime? Just before the holidays?" },
+      { "sp": "Mme Dupont", "fr": "Troisième point : il me faut un chef de projet pour gérer cette mission. Hugo, c'est vous.", "en": "Item three: I need a project manager to run this assignment. Hugo, it's you." },
+      { "sp": "Hugo", "fr": "Moi ? Mais… pourquoi moi ?", "en": "Me? But… why me?" },
+      { "sp": "Mme Dupont", "fr": "Vous connaissez bien les boulangeries : vous mangez trois croissants chaque matin.", "en": "You know bakeries well: you eat three croissants every morning." },
+      { "sp": "", "fr": "Mercredi, Hugo doit faire une présentation au directeur de la chaîne, en visioconférence. Il l'écrit dans son agenda.", "en": "On Wednesday, Hugo has to give a presentation to the chain's director, by video conference. He writes it in his diary." },
+      { "sp": "", "fr": "Toute la journée, il rédige un rapport. Sarah, la stagiaire, aide Hugo.", "en": "All day long, he writes a report. Sarah, the intern, helps him." },
+      { "sp": "Sarah", "fr": "J'imprime le rapport ? Et je classe les dossiers du client ?", "en": "Shall I print the report? And file the client's folders?" },
+      { "sp": "Hugo", "fr": "Oui, merci, Sarah ! Tu es vraiment efficace.", "en": "Yes, thanks, Sarah! You're really efficient." },
+      { "sp": "Malik", "fr": "Hugo ! La photocopieuse ne fonctionne plus. Il y a du papier partout !", "en": "Hugo! The photocopier's stopped working. There's paper everywhere!" },
+      { "sp": "", "fr": "Le soir, Hugo envoie le rapport au directeur… mais avec la mauvaise pièce jointe.", "en": "In the evening, Hugo sends the report to the director… but with the wrong attachment." },
+      { "sp": "", "fr": "Le lendemain matin, Madame Dupont l'appelle dans son bureau. C'est urgent.", "en": "The next morning, Mme Dupont calls him into her office. It's urgent." },
+      { "sp": "Mme Dupont", "fr": "Hugo, le directeur a reçu votre mail. Dans la pièce jointe, il n'y a pas de rapport : il y a une recette de crêpes !", "en": "Hugo, the director got your email. The attachment isn't a report: it's a crêpe recipe!" },
+      { "sp": "Hugo", "fr": "La recette de ma grand-mère ! Je vais démissionner…", "en": "My grandmother's recipe! I'm going to resign…" },
+      { "sp": "Mme Dupont", "fr": "Ne démissionnez pas. Il a fait les crêpes hier soir avec ses enfants, et il a adoré. Mercredi, je vais négocier le prix avec lui. Vous, préparez votre présentation.", "en": "Don't resign. He made the crêpes last night with his children, and he loved them. On Wednesday, I'll negotiate the price with him. You get your presentation ready." },
+      { "sp": "Julien", "fr": "Si tout va bien, tu vas peut-être avoir une augmentation !", "en": "If all goes well, you might get a pay rise!" },
+      { "sp": "Hugo", "fr": "Ou on va me licencier…", "en": "Or they'll fire me…" },
+      { "sp": "Mme Dupont", "fr": "On ne licencie pas un chef de projet le premier jour, Hugo. Mais la prochaine fois, lisez vos mails deux fois !", "en": "We don't fire a project manager on his first day, Hugo. But next time, read your emails twice!" }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "u28-infinitif",
+  "type": "grammar",
+  "unit": 28,
+  "title": "J'ai décidé de postuler",
+  "en": "Verb + à / de + infinitive",
+  "intro": "When one verb follows another, the second one is an infinitive, and the first verb decides what comes in between: nothing (*j'aime **danser***), **à** (*j'ai commencé **à** danser*) or **de** (*j'ai décidé **de** postuler*). There's no rule that covers every verb: learn each verb with its little word.",
+  "cases": [
+    { "id": "inf-direct", "label": "verb + infinitive", "rule": "After **aimer, adorer, détester, préférer, vouloir, pouvoir, devoir, savoir, aller, espérer**, the infinitive follows directly: *J'aime **danser**. Je sais **parler** espagnol. J'espère **commencer** en août.*" },
+    { "id": "inf-a", "label": "verb + à + infinitive", "rule": "**commencer à, continuer à, apprendre à, réussir à, arriver à, hésiter à, penser à, aider quelqu'un à**: *J'ai commencé **à** danser à cinq ans. Tu as réussi **à** les convaincre ?*" },
+    { "id": "inf-de", "label": "verb + de + infinitive", "rule": "**décider de, essayer de, arrêter de, finir de, oublier de, accepter de, refuser de, éviter de, rêver de, choisir de**: *J'ai décidé **de** postuler. Arrête **de** m'appeler !* Before a vowel, **de** becomes **d'**: *je rêve **d'**enseigner*." },
+    { "id": "inf-qqn", "label": "à quelqu'un + de + infinitive", "rule": "**demander, dire, conseiller, proposer, promettre, permettre, interdire** take **à** + the person, then **de** + the infinitive: *Je demande **aux** enfants **de** ranger.* With a pronoun: *Je **vous** propose **de** commencer.*" },
+    { "id": "inf-adj", "label": "être + adjective + de / à", "rule": "**être content de, heureux de, fier de, triste de, désolé de** + infinitive: *Je suis contente **de** vous rencontrer.* But **être prêt à**, **être le premier à**: *Vous êtes prête **à** commencer ?*" },
+    { "id": "inf-neg", "label": "de ne pas + infinitive; de l'éteindre", "rule": "To make an infinitive negative, put **ne pas** together, **before** it: *Je vous demande **de ne pas utiliser** votre téléphone.* Object pronouns also go just before the infinitive: *Je vous promets **de l'éteindre**.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Verb + infinitive",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'aime danser.", "I like dancing."],
+          ["Je sais parler espagnol.", "I can speak Spanish."],
+          ["Je veux travailler avec des enfants.", "I want to work with children."],
+          ["J'espère commencer en août.", "I hope to start in August."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'aime travailler|inf-direct} avec les enfants.", "en": "I like working with children." },
+        { "fr": "{Vous savez parler|inf-direct} anglais ?", "en": "Can you speak English?" }
+      ],
+      "tip": "Never *j'aime de danser*: with these verbs, there's no little word at all."
+    },
+    {
+      "title": "2. Verb + à + infinitive",
+      "table": {
+        "head": ["Verb", "Example"], "frCols": [0, 1],
+        "rows": [
+          ["commencer à", "J'ai commencé à danser à cinq ans."],
+          ["apprendre à", "J'apprends à cuisiner."],
+          ["réussir à", "Tu as réussi à les convaincre ?"],
+          ["aider quelqu'un à", "J'aide les enfants à danser."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai commencé à danser|inf-a} à cinq ans.", "en": "I started dancing at five." },
+        { "fr": "{Tu as réussi à les convaincre|inf-a} ?", "en": "Did you manage to convince them?" }
+      ]
+    },
+    {
+      "title": "3. Verb + de + infinitive",
+      "table": {
+        "head": ["Verb", "Example"], "frCols": [0, 1],
+        "rows": [
+          ["décider de", "J'ai décidé de postuler."],
+          ["essayer de", "J'ai essayé de jouer au foot."],
+          ["arrêter de", "Arrête de m'appeler !"],
+          ["oublier de", "J'ai oublié d'allumer mon téléphone."]
+        ]
+      },
+      "examples": [
+        { "fr": "Pourquoi {avez-vous décidé de postuler|inf-de} ?", "en": "Why did you decide to apply?" },
+        { "fr": "{J'ai vite arrêté de jouer|inf-de} au foot.", "en": "I soon stopped playing football." }
+      ],
+      "tip": "**de** becomes **d'** before a vowel: *j'ai oublié **d'**appeler*."
+    },
+    {
+      "title": "4. À quelqu'un + de + infinitive",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je demande aux enfants de ranger.", "I ask the children to tidy up."],
+          ["Je vous propose de commencer lundi.", "I suggest you start on Monday."],
+          ["Il m'a dit de venir.", "He told me to come."],
+          ["Mon médecin m'a conseillé de dormir plus.", "My doctor advised me to sleep more."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vous propose de commencer|inf-qqn} le premier août.", "en": "I suggest you start on 1 August." },
+        { "fr": "{Léa a dit à Hugo d'arriver|inf-qqn} à l'heure.", "en": "Léa told Hugo to arrive on time." }
+      ],
+      "tip": "The person comes with **à** (or as a pronoun: *me, te, lui, nous, vous, leur*), the action with **de**."
+    },
+    {
+      "title": "5. Être + adjective + de / à",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis content de te voir.", "I'm glad to see you."],
+          ["Elle est fière d'avoir gagné.", "She's proud she won."],
+          ["Tu es prêt à partir ?", "Are you ready to go?"],
+          ["Il est le premier à arriver.", "He's the first to arrive."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis contente de vous rencontrer|inf-adj}.", "en": "I'm pleased to meet you." },
+        { "fr": "{Vous êtes prête à commencer|inf-adj} si tôt ?", "en": "Are you ready to start so early?" }
+      ]
+    },
+    {
+      "title": "6. De ne pas + infinitive; de l'éteindre",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai décidé de ne pas partir.", "I've decided not to go."],
+          ["Il essaie de ne pas rire.", "He's trying not to laugh."],
+          ["Je te promets de l'appeler.", "I promise I'll call him."],
+          ["Il est content de nous voir.", "He's glad to see us."]
+        ]
+      },
+      "examples": [
+        { "fr": "Je vous demande {de ne pas utiliser|inf-neg} votre téléphone.", "en": "I'd ask you not to use your phone." },
+        { "fr": "Je vous promets {de l'éteindre|inf-neg} !", "en": "I promise I'll switch it off!" }
+      ],
+      "tip": "**ne pas** stays together before the infinitive: *de **ne pas** venir*, never *de ne venir pas*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'aime de danser.", "right": "J'aime danser.", "why": "**aimer** + infinitive, with no little word." },
+    { "wrong": "J'ai réussi de finir.", "right": "J'ai réussi à finir.", "why": "**réussir à** + infinitive." },
+    { "wrong": "J'ai décidé à postuler.", "right": "J'ai décidé de postuler.", "why": "**décider de** + infinitive." },
+    { "wrong": "J'ai oublié de appeler.", "right": "J'ai oublié d'appeler.", "why": "**de** becomes **d'** before a vowel." },
+    { "wrong": "Je demande les enfants de ranger.", "right": "Je demande aux enfants de ranger.", "why": "**demander à** quelqu'un **de** faire quelque chose." },
+    { "wrong": "Je vous demande de ne utiliser pas votre téléphone.", "right": "Je vous demande de ne pas utiliser votre téléphone.", "why": "**ne pas** stays together before the infinitive." }
+  ],
+  "story": {
+    "title": "L'entretien de Carla",
+    "en": "Friday 26 June: Carla has her interview at the dance centre. Everything goes well, until her phone rings.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi vingt-six juin, Carla a rendez-vous au centre de danse. La directrice, Madame Garnier, l'attend dans son bureau.", "en": "Friday 26 June: Carla has an appointment at the dance centre. The director, Mme Garnier, is waiting for her in her office." },
+      { "sp": "Mme Garnier", "fr": "Bonjour, Carla. Alors, {vous avez commencé à danser|inf-a} à quel âge ?", "en": "Hello, Carla. So, how old were you when you started dancing?" },
+      { "sp": "Carla", "fr": "{J'ai commencé à danser|inf-a} à cinq ans. {J'ai aussi essayé de jouer|inf-de} au foot, mais {j'ai vite arrêté|inf-de} !", "en": "I started dancing at five. I tried playing football too, but I soon stopped!" },
+      { "sp": "Mme Garnier", "fr": "{Vous avez déjà appris à des enfants à danser|inf-a} ?", "en": "Have you taught children to dance before?" },
+      { "sp": "Carla", "fr": "Oui ! {J'aide souvent les enfants de mes voisins à danser|inf-a}. Ils adorent ça.", "en": "Yes! I often help my neighbours' children with their dancing. They love it." },
+      { "sp": "Mme Garnier", "fr": "Et pourquoi {avez-vous décidé de postuler|inf-de} chez nous ?", "en": "And why did you decide to apply to us?" },
+      { "sp": "Carla", "fr": "Parce que {je rêve d'enseigner|inf-de} la danse. Et {j'aime travailler|inf-direct} avec les enfants.", "en": "Because I dream of teaching dance. And I love working with children." },
+      { "sp": "Mme Garnier", "fr": "Les cours commencent à neuf heures. {Vous êtes prête à commencer|inf-adj} si tôt ?", "en": "Classes start at nine. Are you ready to start so early?" },
+      { "sp": "Carla", "fr": "Bien sûr ! Le dimanche, je cours dix kilomètres à six heures du matin.", "en": "Of course! On Sundays, I run ten kilometres at six in the morning." },
+      { "sp": "Mme Garnier", "fr": "Parfait. {Vous savez parler|inf-direct} anglais ? Certains enfants ne parlent pas français.", "en": "Perfect. Can you speak English? Some of the children don't speak French." },
+      { "sp": "Carla", "fr": "Oui, et espagnol aussi : {je peux enseigner|inf-direct} en trois langues !", "en": "Yes, and Spanish too: I can teach in three languages!" },
+      { "sp": "Mme Garnier", "fr": "Une dernière chose : {je demande à mes professeurs de|inf-qqn} {ne pas utiliser|inf-neg} leur téléphone pendant les cours.", "en": "One last thing: I ask my teachers not to use their phones during classes." },
+      { "sp": "Carla", "fr": "Pas de problème. Ce matin, {j'ai même oublié de l'allumer|inf-de} !", "en": "No problem. This morning, I even forgot to switch it on!" },
+      { "sp": "", "fr": "À ce moment-là, le téléphone de Carla sonne dans son sac. C'est Hugo.", "en": "At that very moment, Carla's phone rings in her bag. It's Hugo." },
+      { "sp": "Carla", "fr": "Oh, pardon ! Je vous promets {de l'éteindre|inf-neg} !", "en": "Oh, sorry! I promise I'll switch it off!" },
+      { "sp": "Mme Garnier", "fr": "Ce n'est pas grave. {Je suis contente de vous rencontrer|inf-adj}, Carla. {Je vous propose de commencer|inf-qqn} le premier août.", "en": "Never mind. I'm pleased to have met you, Carla. I suggest you start on 1 August." },
+      { "sp": "Carla", "fr": "Merci ! {J'accepte de commencer|inf-de} quand vous voulez !", "en": "Thank you! I'm happy to start whenever you like!" },
+      { "sp": "", "fr": "Dehors, Hugo l'attend avec des fleurs.", "en": "Outside, Hugo is waiting for her with flowers." },
+      { "sp": "Hugo", "fr": "Alors ? {Tu as réussi à les convaincre|inf-a} ?", "en": "So? Did you manage to convince them?" },
+      { "sp": "Carla", "fr": "Oui ! Mais la prochaine fois, {évite de m'appeler|inf-de} pendant un entretien !", "en": "Yes! But next time, try not to call me during an interview!" },
+      { "sp": "Hugo", "fr": "{Je voulais te souhaiter|inf-direct} bonne chance… {Je n'ai pas réussi à attendre|inf-a} !", "en": "I wanted to wish you luck… I couldn't wait!" }
+    ]
+  },
+  "quiz": [
+    { "case": "inf-direct", "type": "mc", "q": "J'aime ___ avec les enfants.", "en": "I like working with children.", "options": ["travailler", "de travailler", "à travailler"], "answer": "travailler" },
+    { "case": "inf-direct", "type": "mc", "q": "Vous savez ___ espagnol ?", "en": "Can you speak Spanish?", "options": ["parler", "de parler", "à parler"], "answer": "parler" },
+    { "case": "inf-a", "type": "mc", "q": "J'ai commencé ___ danser à cinq ans.", "en": "I started dancing at five.", "options": ["à", "de", "pour"], "answer": "à" },
+    { "case": "inf-a", "type": "type", "q": "Tu as réussi ___ les convaincre ?", "en": "Did you manage to convince them?", "answer": "à" },
+    { "case": "inf-de", "type": "mc", "q": "J'ai décidé ___ postuler.", "en": "I've decided to apply.", "options": ["de", "à", "pour"], "answer": "de" },
+    { "case": "inf-de", "type": "mc", "q": "N'oublie pas ___ fermer la porte !", "en": "Don't forget to shut the door!", "options": ["de", "à", "pour"], "answer": "de" },
+    { "case": "inf-de", "type": "type", "q": "Arrête ___ m'appeler !", "en": "Stop calling me!", "answer": "de" },
+    { "case": "inf-qqn", "type": "mc", "q": "Je demande ___ enfants de ranger.", "en": "I ask the children to tidy up.", "options": ["aux", "les", "des"], "answer": "aux" },
+    { "case": "inf-qqn", "type": "mc", "q": "Je vous propose ___ commencer le premier août.", "en": "I suggest you start on 1 August.", "options": ["de", "à", "pour"], "answer": "de" },
+    { "case": "inf-adj", "type": "mc", "q": "Je suis contente ___ vous rencontrer.", "en": "I'm pleased to meet you.", "options": ["de", "à", "pour"], "answer": "de" },
+    { "case": "inf-adj", "type": "mc", "q": "Vous êtes prête ___ commencer ?", "en": "Are you ready to start?", "options": ["à", "de", "pour"], "answer": "à" },
+    { "case": "inf-neg", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["J'ai décidé de ne pas partir.", "J'ai décidé de ne partir pas.", "J'ai décidé ne pas de partir."], "answer": "J'ai décidé de ne pas partir.", "say": "J'ai décidé de ne pas partir." },
+    { "case": "inf-neg", "type": "mc", "q": "Il essaie de ___ rire.", "en": "He's trying not to laugh.", "options": ["ne pas", "pas", "ne"], "answer": "ne pas" }
+  ]
+}
