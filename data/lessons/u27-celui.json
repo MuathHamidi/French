@@ -1,0 +1,164 @@
+{
+  "id": "u27-celui",
+  "type": "grammar",
+  "unit": 27,
+  "title": "Celui-ci ou celui-là ?",
+  "en": "Demonstrative pronouns: celui, celle, ceux, celles",
+  "intro": "To avoid repeating a noun, French uses **celui** (masculine), **celle** (feminine), **ceux** and **celles** (plural): *Quel disque ? — **Celui de** Tom. **Celui-ci**. **Celui que** tu aimes.* They never stand alone: they always come with **de**, **-ci / -là**, or **qui, que, dont, où**. With no noun at all, French uses **ça, cela** or **ceci**.",
+  "cases": [
+    { "id": "celui-forms", "label": "celui, celle, ceux, celles", "rule": "The pronoun agrees with the noun it replaces: **celui** (masculine), **celle** (feminine), **ceux** (masculine plural), **celles** (feminine plural): *ce disque → **celui**, cette chanson → **celle**, ces livres → **ceux**, ces photos → **celles***." },
+    { "id": "celui-de", "label": "celui de: Tom's", "rule": "**celui de** + a person = the one belonging to that person: *le vélo de Tom → **celui de** Tom* (Tom's). It also gives the origin: *le train de Paris → **celui de** Paris*." },
+    { "id": "celui-ci", "label": "celui-ci, celui-là: this one, that one", "rule": "**-ci** points to what is near, **-là** to what is further away: *Tu préfères **celui-ci** ou **celui-là** ?* In everyday French, **celui-là** is often used for both." },
+    { "id": "celui-qui", "label": "celui qui, celui que: the one who / that", "rule": "**celui qui** + verb, **celui que** + subject: *le chanteur qui chante → **celui qui** chante; le disque que je veux → **celui que** je veux*. **ceux qui** = those who: ***Ceux qui** ont faim peuvent manger.*" },
+    { "id": "celui-dont", "label": "celui dont, celui où", "rule": "With **dont** and **où** too: *le livre dont je parle → **celui dont** je parle; la ville où j'habite → **celle où** j'habite*." },
+    { "id": "ceci-cela", "label": "ça, cela, ceci: no noun", "rule": "When there's no noun, use the neutral pronouns: **ça** (everyday), **cela** (written, or more formal), **ceci** (this, for something you're about to show or say): ***Ça** me plaît. **Cela** dépend. Écoutez **ceci**.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. celui, celle, ceux, celles",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "celui", "ceux"],
+          ["feminine", "celle", "celles"]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon vélo est vieux, mais {celui|celui-forms} de Tom est encore plus vieux !", "en": "My bike is old, but Tom's is even older!" },
+        { "fr": "Tu aimes ces chaussures ? Moi, je préfère {celles|celui-forms} que tu portais hier.", "en": "Do you like these shoes? I prefer the ones you were wearing yesterday." }
+      ],
+      "tip": "**ceux** sounds like **ce** + **eux**: [sø]."
+    },
+    {
+      "title": "2. celui de: Tom's",
+      "table": {
+        "head": ["With the noun", "With celui"], "frCols": [0, 1],
+        "rows": [
+          ["le vélo de Tom", "celui de Tom"],
+          ["la voiture de Paul", "celle de Paul"],
+          ["les disques de mon père", "ceux de mon père"],
+          ["les chansons de Piaf", "celles de Piaf"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce n'est pas mon téléphone, c'est {celui de|celui-de} Hugo.", "en": "It's not my phone, it's Hugo's." },
+        { "fr": "Le gâteau de Sophie est meilleur que {celui de|celui-de} Hugo.", "en": "Sophie's cake is better than Hugo's." }
+      ],
+      "tip": "French has no **'s**: *Tom's bike* = *le vélo **de** Tom*, and *Tom's* on its own = ***celui de** Tom*."
+    },
+    {
+      "title": "3. celui-ci, celui-là",
+      "table": {
+        "head": ["", "Here (-ci)", "There (-là)"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "celui-ci", "celui-là"],
+          ["feminine", "celle-ci", "celle-là"],
+          ["masculine plural", "ceux-ci", "ceux-là"],
+          ["feminine plural", "celles-ci", "celles-là"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu préfères {celui-ci|celui-ci} ou {celui-là|celui-ci} ?", "en": "Do you prefer this one or that one?" },
+        { "fr": "Ces deux robes ? Je prends {celle-ci|celui-ci}.", "en": "These two dresses? I'll take this one." }
+      ],
+      "tip": "Spoken French often uses **celui-là** for everything: *Je prends **celui-là**.*"
+    },
+    {
+      "title": "4. celui qui, celui que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["celui qui chante", "the one who's singing"],
+          ["celle que je préfère", "the one I like best"],
+          ["ceux qui ont faim", "those who are hungry"],
+          ["celles qu'on a vues", "the ones we saw"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est {celui que|celui-qui} je voulais !", "en": "It's the one I wanted!" },
+        { "fr": "{Ceux qui|celui-qui} ont faim peuvent commencer.", "en": "Those who are hungry can start." }
+      ],
+      "tip": "Same rule as in Unit 22: a **verb** after the gap → **qui**; a **subject** after the gap → **que**."
+    },
+    {
+      "title": "5. celui dont, celui où",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["celui dont je parle", "the one I'm talking about"],
+          ["celle dont j'ai besoin", "the one I need"],
+          ["celle où j'habite", "the one I live in"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le disque ? C'est {celui dont|celui-dont} je t'ai parlé.", "en": "The record? It's the one I told you about." },
+        { "fr": "La plus belle ville du monde ? {Celle où|celui-dont} j'habite !", "en": "The most beautiful city in the world? The one I live in!" }
+      ]
+    },
+    {
+      "title": "6. ça, cela, ceci",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Ça me plaît.", "I like it."],
+          ["Cela dépend.", "It depends."],
+          ["Écoutez ceci !", "Listen to this!"],
+          ["Ceci est un cadeau.", "This is a present."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ça|ceci-cela} me fait très plaisir !", "en": "I'm really pleased!" },
+        { "fr": "Et {ceci|ceci-cela}, c'est de ma part.", "en": "And this is from me." }
+      ],
+      "tip": "**ça** is the short, everyday form of **cela**. **celui** never replaces an idea or a sentence: *Ça me plaît*, not *Celui me plaît*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je prends celui.", "right": "Je prends celui-ci.", "why": "**celui** never stands alone: add **-ci, -là, de, qui, que…**" },
+    { "wrong": "Ce n'est pas mon vélo, c'est celle de Tom.", "right": "Ce n'est pas mon vélo, c'est celui de Tom.", "why": "**vélo** is masculine: **celui**." },
+    { "wrong": "Ces photos ? Je préfère ceux de Sophie.", "right": "Ces photos ? Je préfère celles de Sophie.", "why": "**photos** is feminine plural: **celles**." },
+    { "wrong": "C'est celui qui je veux.", "right": "C'est celui que je veux.", "why": "After the gap comes a subject (**je**): **que**." },
+    { "wrong": "Celui me plaît beaucoup.", "right": "Ça me plaît beaucoup.", "why": "With no noun, use **ça** or **cela**." }
+  ],
+  "story": {
+    "title": "Le cadeau de Tom",
+    "en": "31 May: Tom turns twenty-one tomorrow, and his friends are looking for a present. But which record?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le trente et un mai. Demain, Tom a vingt et un ans. Léa, Sophie, Hugo et Antoine cherchent un cadeau dans un magasin de disques.", "en": "31 May. Tomorrow Tom turns twenty-one. Léa, Sophie, Hugo and Antoine are looking for a present in a record shop." },
+      { "sp": "Léa", "fr": "Tom veut apprendre le français avec des chansons. On lui achète un disque français ?", "en": "Tom wants to learn French with songs. Shall we buy him a French record?" },
+      { "sp": "Hugo", "fr": "{Celui-ci|celui-ci} ! Il y a un chat sur la photo.", "en": "This one! There's a cat in the picture." },
+      { "sp": "Sophie", "fr": "Non, Tom l'a déjà. C'est {celui de|celui-de} Camille : elle l'écoute tout le temps.", "en": "No, Tom's already got it. It's Camille's: she listens to it all the time." },
+      { "sp": "Antoine", "fr": "Et {celui qui|celui-qui} est à côté ? C'est un chanteur québécois génial !", "en": "And the one next to it? It's a brilliant Québécois singer!" },
+      { "sp": "Léa", "fr": "{Celui dont|celui-dont} tu parles depuis ton arrivée ? Non merci !", "en": "The one you've been talking about since you arrived? No thanks!" },
+      { "sp": "Le vendeur", "fr": "Vous cherchez un cadeau ? {Ceux qui|celui-qui} se vendent le mieux, ce sont {ceux-ci|celui-ci} : les chansons d'Édith Piaf.", "en": "Looking for a present? The ones that sell best are these: Édith Piaf's songs." },
+      { "sp": "Sophie", "fr": "Tom adore Piaf ! Surtout {celles|celui-forms} qu'elle chante sur Paris.", "en": "Tom loves Piaf! Especially the songs she sings about Paris." },
+      { "sp": "Hugo", "fr": "Il y a deux disques de Piaf. {Celui-ci|celui-ci}, en noir et blanc, ou {celui-là|celui-ci}, en couleurs ?", "en": "There are two Piaf records. This one, in black and white, or that one, in colour?" },
+      { "sp": "Antoine", "fr": "{Celui-là|celui-ci} ! Les paroles sont dans la boîte : Tom pourra les apprendre.", "en": "That one! The lyrics are in the case: Tom will be able to learn them." },
+      { "sp": "", "fr": "Le lendemain, chez Tom. Tous ses amis sont là pour son anniversaire.", "en": "The next day, at Tom's. All his friends are there for his birthday." },
+      { "sp": "Tom", "fr": "Un disque de Piaf ! C'est exactement {celui que|celui-qui} je voulais !", "en": "A Piaf record! It's exactly the one I wanted!" },
+      { "sp": "Camille", "fr": "Et {ceci|ceci-cela}, c'est de ma part : un livre de recettes anglaises… en français.", "en": "And this is from me: a book of English recipes… in French." },
+      { "sp": "Antoine", "fr": "Moi, j'ai deux billets de train pour Paris, pour la Fête de la musique. Un pour toi, et {celui-ci|celui-ci} pour Camille. Vous venez à mon concert !", "en": "I've got two train tickets to Paris, for the Fête de la musique. One for you, and this one for Camille. You're coming to my concert!" },
+      { "sp": "Tom", "fr": "Merci ! {Ça|ceci-cela} me fait très plaisir !", "en": "Thank you! I'm really pleased!" },
+      { "sp": "Hugo", "fr": "Et maintenant, les gâteaux ! Il y en a deux : {celui de|celui-de} Sophie, et {celui que|celui-qui} j'ai fait.", "en": "And now, the cakes! There are two: Sophie's, and the one I made." },
+      { "sp": "Sophie", "fr": "{Celui-là|celui-ci} est un peu noir, Hugo…", "en": "That one's a bit black, Hugo…" },
+      { "sp": "Hugo", "fr": "{Cela|ceci-cela} s'appelle « bien cuit » !", "en": "That's called 'well done'!" },
+      { "sp": "Tom", "fr": "Pas de problème. {Ceux qui|celui-qui} ont faim mangent {celui de|celui-de} Sophie. Et moi, je goûte {celui de|celui-de} Hugo : c'est mon anniversaire, je suis courageux !", "en": "No problem. Those who are hungry can eat Sophie's. And I'll try Hugo's: it's my birthday, I'm feeling brave!" }
+    ]
+  },
+  "quiz": [
+    { "case": "celui-forms", "type": "mc", "q": "Ces chaussures ? Je préfère ___ de Léa.", "en": "These shoes? I prefer Léa's.", "options": ["celles", "ceux", "celle"], "answer": "celles" },
+    { "case": "celui-forms", "type": "mc", "q": "Ce disque est bien, mais ___ de Tom est meilleur.", "en": "This record is good, but Tom's is better.", "options": ["celui", "celle", "ceux"], "answer": "celui" },
+    { "case": "celui-forms", "type": "type", "q": "Mes livres sont ici, et ___ de Sophie sont sur la table.", "en": "My books are here, and Sophie's are on the table.", "answer": "ceux" },
+    { "case": "celui-de", "type": "mc", "q": "Ce n'est pas mon téléphone, c'est celui ___ Hugo.", "en": "It's not my phone, it's Hugo's.", "options": ["de", "à", "que"], "answer": "de" },
+    { "case": "celui-de", "type": "mc", "lang": "en", "q": "How do you say « Tom's » (about his bike)?", "options": ["celui de Tom", "celui Tom", "le Tom"], "answer": "celui de Tom", "say": "celui de Tom" },
+    { "case": "celui-ci", "type": "mc", "q": "Tu préfères cette robe-ci ou ___ ?", "en": "Do you prefer this dress or that one?", "options": ["celle-là", "celui-là", "ceux-là"], "answer": "celle-là" },
+    { "case": "celui-ci", "type": "mc", "q": "Ces deux livres ? Je prends ___.", "en": "These two books? I'll take this one.", "options": ["celui-ci", "celle-ci", "ceux-ci"], "answer": "celui-ci" },
+    { "case": "celui-qui", "type": "mc", "q": "C'est celui ___ je voulais !", "en": "It's the one I wanted!", "options": ["que", "qui", "dont"], "answer": "que" },
+    { "case": "celui-qui", "type": "mc", "q": "Ceux ___ ont faim peuvent manger.", "en": "Those who are hungry can eat.", "options": ["qui", "que", "dont"], "answer": "qui" },
+    { "case": "celui-dont", "type": "mc", "q": "Le livre ? Oui, celui ___ je t'ai parlé.", "en": "The book? Yes, the one I told you about.", "options": ["dont", "que", "où"], "answer": "dont" },
+    { "case": "celui-dont", "type": "mc", "q": "Quelle ville ? Celle ___ j'habite.", "en": "Which town? The one I live in.", "options": ["où", "que", "dont"], "answer": "où" },
+    { "case": "ceci-cela", "type": "mc", "q": "___ me fait très plaisir !", "en": "That makes me very happy!", "options": ["Ça", "Celui", "Celle"], "answer": "Ça" },
+    { "case": "ceci-cela", "type": "mc", "lang": "en", "q": "Which one is correct?", "options": ["Cela dépend.", "Celui dépend.", "Celle dépend."], "answer": "Cela dépend.", "say": "Cela dépend." }
+  ]
+}

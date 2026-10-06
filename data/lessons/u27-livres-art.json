@@ -1,0 +1,165 @@
+{
+  "id": "u27-livres-art",
+  "type": "vocab",
+  "unit": 27,
+  "title": "Les livres et l'art",
+  "en": "Books and art",
+  "intro": "25 words for books (**l'auteur, l'écrivain, le titre, le chapitre, la page, le lecteur, la librairie, la bande dessinée**), for poetry (**le poème, la poésie, le poète**) and for art (**l'artiste, le peintre, la peinture, la sculpture, le portrait, l'exposition, l'œuvre, le chef-d'œuvre**).",
+  "words": [
+    { "id": "auteur", "fr": "auteur", "pos": "noun", "g": "m", "ipa": "o.tœʁ", "display": "l'auteur, l'autrice", "en": "author, writer", "def": "La personne qui a écrit un livre, une chanson ou un film.", "def_en": "The person who wrote a book, a song or a film.", "forms": ["autrice", "auteurs", "autrices"], "accept": ["autrice", "l'autrice", "une autrice", "auteure", "l'auteure"], "examples": [
+      { "fr": "Qui est l'**auteur** de ce roman ?", "en": "Who's the author of this novel?" },
+      { "fr": "Saint-Exupéry est l'**auteur** du Petit Prince.", "en": "Saint-Exupéry is the author of The Little Prince." },
+      { "fr": "L'**autrice** signe ses livres à la librairie.", "en": "The author is signing her books at the bookshop." }
+    ], "note": "For a woman: **l'autrice**, also written **l'auteure**." },
+    { "id": "ecrivain", "fr": "écrivain", "pos": "noun", "g": "m", "ipa": "e.kʁi.vɛ̃", "display": "l'écrivain, l'écrivaine", "en": "writer, author", "def": "Une personne dont le métier est d'écrire des livres.", "def_en": "A person whose job is writing books.", "forms": ["écrivaine", "écrivains", "écrivaines"], "accept": ["écrivaine", "l'écrivaine", "une écrivaine"], "examples": [
+      { "fr": "Saint-Exupéry était **écrivain** et pilote.", "en": "Saint-Exupéry was a writer and a pilot." },
+      { "fr": "Plus tard, je veux être **écrivaine**.", "en": "When I grow up, I want to be a writer." },
+      { "fr": "Beaucoup d'**écrivains** ont habité à Paris.", "en": "Lots of writers have lived in Paris." }
+    ] },
+    { "id": "poeme", "fr": "poème", "pos": "noun", "g": "m", "ipa": "pɔ.ɛm", "en": "poem", "def": "Un petit texte écrit avec beaucoup d'attention à la musique des mots.", "def_en": "A short text written with great care for the music of the words.", "forms": ["poèmes"], "examples": [
+      { "fr": "Lou a appris un **poème** pour la fête des mères.", "en": "Lou learnt a poem for Mother's Day." },
+      { "fr": "Il a écrit un **poème** d'amour pour elle.", "en": "He wrote a love poem for her." },
+      { "fr": "Ce **poème** est très beau, mais je ne le comprends pas.", "en": "This poem is beautiful, but I don't understand it." }
+    ] },
+    { "id": "poesie", "fr": "poésie", "pos": "noun", "g": "f", "ipa": "pɔ.e.zi", "en": "poetry; poem", "def": "L'art d'écrire des poèmes. Aussi : un poème.", "def_en": "The art of writing poems. Also: a poem.", "forms": ["poésies"], "examples": [
+      { "fr": "Mamie lit beaucoup de **poésie**.", "en": "Grandma reads a lot of poetry." },
+      { "fr": "À l'école, on apprend une **poésie** par cœur.", "en": "At school, you learn a poem by heart." },
+      { "fr": "Ce paysage, c'est de la **poésie** !", "en": "This landscape is pure poetry!" }
+    ] },
+    { "id": "poete", "fr": "poète", "pos": "noun", "g": "m", "both": true, "ipa": "pɔ.ɛt", "display": "le / la poète", "en": "poet", "def": "Une personne qui écrit des poèmes.", "def_en": "A person who writes poems.", "forms": ["poètes"], "accept": ["la poète", "une poète"], "examples": [
+      { "fr": "Ce **poète** a écrit beaucoup de poèmes sur Paris.", "en": "This poet wrote lots of poems about Paris." },
+      { "fr": "Antoine est un peu **poète** : il écrit les paroles de ses chansons.", "en": "Antoine is a bit of a poet: he writes the lyrics of his songs." },
+      { "fr": "Les **poètes** aiment la nuit et la lune.", "en": "Poets love the night and the moon." }
+    ] },
+    { "id": "chapitre", "fr": "chapitre", "pos": "noun", "g": "m", "ipa": "ʃa.pitʁ", "en": "chapter", "def": "Une des parties d'un livre.", "def_en": "One of the parts of a book.", "forms": ["chapitres"], "examples": [
+      { "fr": "Je lis un **chapitre** chaque soir avant de dormir.", "en": "I read a chapter every evening before I go to sleep." },
+      { "fr": "Le livre a vingt-sept **chapitres**.", "en": "The book has twenty-seven chapters." },
+      { "fr": "Ne me raconte pas la fin du **chapitre** !", "en": "Don't tell me the end of the chapter!" }
+    ] },
+    { "id": "titre", "fr": "titre", "pos": "noun", "g": "m", "ipa": "titʁ", "en": "title; headline", "def": "Le nom d'un livre, d'un film ou d'une chanson. Aussi : les mots en gros sur la première page d'un journal.", "def_en": "The name of a book, a film or a song. Also: the big words on the front page of a newspaper.", "forms": ["titres"], "examples": [
+      { "fr": "Quel est le **titre** de ce film ?", "en": "What's the title of this film?" },
+      { "fr": "J'ai oublié le **titre** de la chanson.", "en": "I've forgotten the song's title." },
+      { "fr": "Hugo est dans les **titres** des journaux !", "en": "Hugo is in the newspaper headlines!" }
+    ] },
+    { "id": "page", "fr": "page", "pos": "noun", "g": "f", "ipa": "paʒ", "en": "page", "def": "Un des côtés d'une feuille, dans un livre ou un cahier.", "def_en": "One side of a sheet of paper, in a book or an exercise book.", "forms": ["pages"], "examples": [
+      { "fr": "Ouvrez vos livres à la **page** vingt.", "en": "Open your books at page twenty." },
+      { "fr": "Ce roman fait cinq cents **pages** !", "en": "This novel is five hundred pages long!" },
+      { "fr": "Il y a un dessin sur chaque **page**.", "en": "There's a drawing on every page." }
+    ] },
+    { "id": "lecture", "fr": "lecture", "pos": "noun", "g": "f", "ipa": "lɛk.tyʁ", "en": "reading", "def": "Quand on lit. Aussi : ce qu'on lit.", "def_en": "Reading. Also: what you read.", "forms": ["lectures"], "examples": [
+      { "fr": "La **lecture** est le loisir préféré de Léa.", "en": "Reading is Léa's favourite pastime." },
+      { "fr": "Quinze minutes de **lecture** par jour, c'est bien.", "en": "Fifteen minutes of reading a day is good." },
+      { "fr": "Tu as des **lectures** pour les vacances ?", "en": "Have you got some reading for the holidays?" }
+    ], "note": "False friend: a lecture (at university) is **un cours**." },
+    { "id": "lecteur", "fr": "lecteur", "pos": "noun", "g": "m", "ipa": "lɛk.tœʁ", "display": "le lecteur, la lectrice", "en": "reader", "def": "Une personne qui lit un livre ou un journal.", "def_en": "A person who reads a book or a newspaper.", "forms": ["lectrice", "lecteurs", "lectrices"], "accept": ["lectrice", "la lectrice", "une lectrice"], "examples": [
+      { "fr": "Louise est une grande **lectrice** : elle a trois cents livres.", "en": "Louise is a great reader: she has three hundred books." },
+      { "fr": "Ce journal a beaucoup de **lecteurs**.", "en": "This newspaper has lots of readers." },
+      { "fr": "Les **lecteurs** attendent le prochain livre avec impatience.", "en": "Readers are eagerly waiting for the next book." }
+    ] },
+    { "id": "librairie", "fr": "librairie", "pos": "noun", "g": "f", "ipa": "li.bʁɛ.ʁi", "en": "bookshop", "def": "Un magasin où on achète des livres.", "def_en": "A shop where you buy books.", "forms": ["librairies"], "examples": [
+      { "fr": "Il y a une petite **librairie** dans le Vieux-Lyon.", "en": "There's a little bookshop in Vieux-Lyon." },
+      { "fr": "J'ai acheté ce roman à la **librairie** de mon quartier.", "en": "I bought this novel at my local bookshop." },
+      { "fr": "La **librairie** ferme à dix-neuf heures.", "en": "The bookshop closes at 7 p.m." }
+    ], "note": "False friend: a library is **une bibliothèque**, where you borrow books." },
+    { "id": "bande-dessinee", "fr": "bande dessinée", "pos": "noun", "g": "f", "ipa": "bɑ̃d de.si.ne", "en": "comic book, comic strip", "def": "Une histoire racontée avec des dessins : les personnages parlent dans des bulles. On dit souvent « une BD ».", "def_en": "A story told in pictures, with the characters' words in speech bubbles. Often called 'une BD'.", "forms": ["bandes dessinées", "BD"], "examples": [
+      { "fr": "Hugo lit des **bandes dessinées** dans son lit.", "en": "Hugo reads comics in bed." },
+      { "fr": "La Belgique est le pays de la **bande dessinée**.", "en": "Belgium is the land of comics." },
+      { "fr": "Tu me prêtes ta **BD** ?", "en": "Will you lend me your comic?" }
+    ], "note": "**la BD** is said [be.de]." },
+    { "id": "dessinateur", "fr": "dessinateur", "pos": "noun", "g": "m", "ipa": "de.si.na.tœʁ", "display": "le dessinateur, la dessinatrice", "en": "illustrator, cartoonist", "def": "Une personne dont le métier est de dessiner, par exemple des bandes dessinées.", "def_en": "A person whose job is drawing, for example comics.", "forms": ["dessinatrice", "dessinateurs", "dessinatrices"], "accept": ["dessinatrice", "la dessinatrice", "une dessinatrice"], "examples": [
+      { "fr": "Le **dessinateur** fait un petit dessin dans mon livre.", "en": "The cartoonist does a little drawing in my book." },
+      { "fr": "Sophie dessine comme une vraie **dessinatrice**.", "en": "Sophie draws like a real illustrator." },
+      { "fr": "Les **dessinateurs** de BD viennent au festival.", "en": "Comic artists come to the festival." }
+    ] },
+    { "id": "art", "fr": "art", "pos": "noun", "g": "m", "ipa": "aʁ", "en": "art", "def": "La peinture, la musique, la danse… : tout ce qu'on crée pour dire une émotion ou une idée.", "def_en": "Painting, music, dance…: everything people create to express a feeling or an idea.", "forms": ["arts"], "examples": [
+      { "fr": "J'aime beaucoup l'**art** moderne.", "en": "I really like modern art." },
+      { "fr": "La cuisine, c'est un **art** !", "en": "Cooking is an art!" },
+      { "fr": "Au musée, il y a des œuvres d'**art** de tous les pays.", "en": "At the museum, there are works of art from every country." }
+    ] },
+    { "id": "artiste", "fr": "artiste", "pos": "noun", "g": "m", "both": true, "ipa": "aʁ.tist", "display": "l'artiste", "en": "artist; performer", "def": "Une personne qui crée des œuvres d'art, ou qui chante, danse ou joue devant un public.", "def_en": "A person who creates works of art, or who sings, dances or performs for an audience.", "forms": ["artistes"], "examples": [
+      { "fr": "Sophie est une vraie **artiste** : elle dessine très bien.", "en": "Sophie is a real artist: she draws very well." },
+      { "fr": "Les **artistes** ont fait ce grand dessin sur le mur.", "en": "The artists made this big picture on the wall." },
+      { "fr": "Montmartre était le quartier des **artistes**.", "en": "Montmartre was the artists' district." }
+    ] },
+    { "id": "peinture", "fr": "peinture", "pos": "noun", "g": "f", "ipa": "pɛ̃.tyʁ", "en": "painting; paint", "def": "Un tableau, ou l'art de faire des tableaux. Aussi : un liquide de couleur pour les murs.", "def_en": "A picture, or the art of painting. Also: coloured liquid for walls.", "forms": ["peintures"], "examples": [
+      { "fr": "J'aime la **peinture**, surtout les paysages.", "en": "I love painting, especially landscapes." },
+      { "fr": "Attention, **peinture** fraîche !", "en": "Careful, wet paint!" },
+      { "fr": "Cette **peinture** est très ancienne.", "en": "This painting is very old." }
+    ] },
+    { "id": "peintre", "fr": "peintre", "pos": "noun", "g": "m", "both": true, "ipa": "pɛ̃tʁ", "display": "le / la peintre", "en": "painter", "def": "Une personne qui fait des tableaux. Aussi : une personne qui met de la peinture sur les murs.", "def_en": "A person who paints pictures. Also: a person who paints walls.", "forms": ["peintres"], "accept": ["la peintre", "une peintre"], "examples": [
+      { "fr": "Ce **peintre** utilise beaucoup de bleu.", "en": "This painter uses a lot of blue." },
+      { "fr": "Beaucoup de **peintres** ont habité à Montmartre.", "en": "Lots of painters lived in Montmartre." },
+      { "fr": "On cherche un **peintre** pour les murs de l'appartement.", "en": "We're looking for a painter for the flat's walls." }
+    ] },
+    { "id": "sculpture", "fr": "sculpture", "pos": "noun", "g": "f", "ipa": "skyl.tyʁ", "en": "sculpture", "def": "Une œuvre d'art qu'on peut toucher et regarder de tous les côtés, en pierre ou en métal.", "def_en": "A work of art you can touch and look at from every side, in stone or metal.", "forms": ["sculptures"], "examples": [
+      { "fr": "Ne touchez pas les **sculptures** !", "en": "Don't touch the sculptures!" },
+      { "fr": "Dans le jardin du musée, il y a une **sculpture** en métal.", "en": "In the museum garden, there's a metal sculpture." },
+      { "fr": "Ma voisine fait de la **sculpture** dans son atelier.", "en": "My neighbour makes sculptures in her studio." }
+    ] },
+    { "id": "exposition", "fr": "exposition", "pos": "noun", "g": "f", "ipa": "ɛk.spo.zi.sjɔ̃", "en": "exhibition", "def": "Des œuvres d'art ou des objets qu'un musée montre au public, pendant quelques semaines ou quelques mois.", "def_en": "Works of art or objects that a museum shows the public for a few weeks or months.", "forms": ["expositions"], "examples": [
+      { "fr": "On va voir l'**exposition** de photos au musée ?", "en": "Shall we go and see the photo exhibition at the museum?" },
+      { "fr": "L'**exposition** est gratuite le premier dimanche du mois.", "en": "The exhibition is free on the first Sunday of the month." },
+      { "fr": "Les dessins des enfants sont dans une **exposition** à l'école.", "en": "The children's drawings are in an exhibition at school." }
+    ], "note": "Informal: **une expo**." },
+    { "id": "oeuvre", "fr": "œuvre", "pos": "noun", "g": "f", "ipa": "œvʁ", "en": "work (of art, of literature)", "def": "Ce qu'un artiste ou un écrivain a créé : un tableau, un livre, une sculpture…", "def_en": "What an artist or writer has created: a painting, a book, a sculpture…", "forms": ["œuvres"], "examples": [
+      { "fr": "Le musée a plus de mille **œuvres**.", "en": "The museum has more than a thousand works." },
+      { "fr": "Pour Hugo, sa vidéo est une **œuvre** d'art !", "en": "To Hugo, his video is a work of art!" },
+      { "fr": "On étudie l'**œuvre** de cet écrivain en classe.", "en": "We're studying this writer's work in class." }
+    ], "note": "**une œuvre d'art** = a work of art." },
+    { "id": "chef-d-oeuvre", "fr": "chef-d'œuvre", "pos": "noun", "g": "m", "ipa": "ʃɛ.dœvʁ", "en": "masterpiece", "def": "Une œuvre très réussie, la meilleure d'un artiste.", "def_en": "A very successful work, an artist's best.", "forms": ["chefs-d'œuvre"], "examples": [
+      { "fr": "Ce roman est un **chef-d'œuvre**.", "en": "This novel is a masterpiece." },
+      { "fr": "Le musée a beaucoup de **chefs-d'œuvre**.", "en": "The museum has lots of masterpieces." },
+      { "fr": "Ton gâteau est un **chef-d'œuvre**, Karim !", "en": "Your cake is a masterpiece, Karim!" }
+    ], "note": "The **f** is silent: [ʃɛ.dœvʁ]." },
+    { "id": "portrait", "fr": "portrait", "pos": "noun", "g": "m", "ipa": "pɔʁ.tʁɛ", "en": "portrait", "def": "Un tableau, un dessin ou une photo qui montre une personne, souvent son visage.", "def_en": "A painting, drawing or photo of a person, often their face.", "forms": ["portraits"], "examples": [
+      { "fr": "Sophie fait le **portrait** de Minou.", "en": "Sophie is drawing Minou's portrait." },
+      { "fr": "Dans ce musée, il y a beaucoup de **portraits** de rois.", "en": "In this museum, there are lots of portraits of kings." },
+      { "fr": "C'est le **portrait** de mon grand-père à vingt ans.", "en": "It's a portrait of my grandfather at twenty." }
+    ] },
+    { "id": "abstrait", "fr": "abstrait", "pos": "adj", "ipa": "ab.stʁɛ", "display": "abstrait, abstraite", "en": "abstract", "def": "Qui ne montre pas des choses vraies, mais des formes et des couleurs. Aussi : difficile à imaginer.", "def_en": "That doesn't show real things, but shapes and colours. Also: hard to picture.", "forms": ["abstraite", "abstraits", "abstraites"], "accept": ["abstraite"], "examples": [
+      { "fr": "Je ne comprends pas l'art **abstrait**.", "en": "I don't understand abstract art." },
+      { "fr": "C'est un tableau **abstrait** : il y a seulement des carrés rouges.", "en": "It's an abstract painting: there are only red squares." },
+      { "fr": "Cette idée est trop **abstraite** pour moi.", "en": "This idea is too abstract for me." }
+    ] },
+    { "id": "fresque", "fr": "fresque", "pos": "noun", "g": "f", "ipa": "fʁɛsk", "en": "fresco, mural", "def": "Une très grande peinture faite sur un mur.", "def_en": "A very large painting done on a wall.", "forms": ["fresques"], "examples": [
+      { "fr": "À Lyon, il y a beaucoup de **fresques** sur les murs.", "en": "In Lyon, there are lots of murals on the walls." },
+      { "fr": "Sur cette **fresque**, on voit trente Lyonnais célèbres.", "en": "On this mural, you can see thirty famous people from Lyon." },
+      { "fr": "Les enfants ont fait une **fresque** dans la cour de l'école.", "en": "The children made a mural in the school playground." }
+    ] },
+    { "id": "creer", "fr": "créer", "pos": "verb", "ipa": "kʁe.e", "en": "to create; to set up", "def": "Faire une chose nouvelle, qui n'existait pas avant.", "def_en": "To make something new that didn't exist before.", "forms": ["crée", "crées", "créons", "créez", "créent", "créé", "créée", "créés", "créées", "créais", "créait", "créions", "créiez", "créaient", "créerai", "créeras", "créera", "créerons", "créerez", "créeront", "créerais", "créerait", "créerions", "créeriez", "créeraient"], "examples": [
+      { "fr": "Cet artiste **crée** des sculptures en métal.", "en": "This artist creates metal sculptures." },
+      { "fr": "Mon cousin veut **créer** son entreprise.", "en": "My cousin wants to set up his own company." },
+      { "fr": "Les frères Lumière ont **créé** le cinéma à Lyon.", "en": "The Lumière brothers created cinema in Lyon." }
+    ] }
+  ],
+  "story": {
+    "title": "Le Lyon des artistes",
+    "en": "A Saturday in June: Sophie shows Antoine the artists' Lyon, from a giant mural to a little bookshop.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un samedi de juin. Sophie fait visiter le Lyon des artistes à Antoine. Léa, Hugo et Tom viennent aussi.", "en": "A Saturday in June. Sophie is showing Antoine the artists' Lyon. Léa, Hugo and Tom come too." },
+      { "sp": "", "fr": "D'abord, au bord de la Saône, une grande fresque couvre tout un mur.", "en": "First, by the Saône, a huge mural covers a whole wall." },
+      { "sp": "Tom", "fr": "Incroyable ! On croit que les fenêtres sont vraies !", "en": "Incredible! You'd think the windows were real!" },
+      { "sp": "Sophie", "fr": "C'est de la peinture ! Les artistes ont tout dessiné à la main. Sur cette fresque, il y a trente Lyonnais célèbres.", "en": "It's paint! The artists drew it all by hand. On this mural, there are thirty famous Lyonnais." },
+      { "sp": "Sophie", "fr": "Là, ce sont les frères Lumière, qui ont créé le cinéma. Et là-haut, c'est Saint-Exupéry, l'auteur du Petit Prince.", "en": "There are the Lumière brothers, who created cinema. And up there is Saint-Exupéry, the author of The Little Prince." },
+      { "sp": "Antoine", "fr": "Il s'appelait Antoine, comme moi ! Un grand écrivain, et un grand pilote.", "en": "His name was Antoine, like me! A great writer, and a great pilot." },
+      { "sp": "Hugo", "fr": "Et pourquoi je ne suis pas sur la fresque ? Moi aussi, je suis célèbre !", "en": "And why aren't I on the mural? I'm famous too!" },
+      { "sp": "Léa", "fr": "Pour être sur ce mur, il faut créer quelque chose : un livre, une œuvre d'art… Pas une vidéo dans une poubelle !", "en": "To be on this wall, you have to create something: a book, a work of art… Not a video in a bin!" },
+      { "sp": "", "fr": "Ensuite, le musée des Beaux-Arts, place des Terreaux. Il y a une exposition de portraits.", "en": "Next, the Musée des Beaux-Arts on place des Terreaux. There's an exhibition of portraits." },
+      { "sp": "Hugo", "fr": "Regardez ce tableau ! Un homme avec des lunettes sur la tête… C'est mon portrait !", "en": "Look at this painting! A man with glasses on his head… It's my portrait!" },
+      { "sp": "Sophie", "fr": "Hugo, c'est un chef-d'œuvre du dix-septième siècle.", "en": "Hugo, it's a seventeenth-century masterpiece." },
+      { "sp": "", "fr": "Dans la salle suivante, il y a une sculpture en métal et un grand tableau abstrait, tout bleu.", "en": "In the next room, there's a metal sculpture and a big abstract painting, all blue." },
+      { "sp": "Hugo", "fr": "Tout bleu ? Lou peut faire ça !", "en": "All blue? Lou could do that!" },
+      { "sp": "Sophie", "fr": "Peut-être. Mais c'est ce peintre qui a eu l'idée le premier.", "en": "Maybe. But this painter had the idea first." },
+      { "sp": "", "fr": "Pour finir, une petite librairie dans le Vieux-Lyon.", "en": "Last of all, a little bookshop in Vieux-Lyon." },
+      { "sp": "", "fr": "Léa cherche un livre pour Mamie, une grande lectrice. Elle choisit les poèmes d'un poète québécois.", "en": "Léa is looking for a book for Grandma, a great reader. She chooses the poems of a Québécois poet." },
+      { "sp": "Antoine", "fr": "Bon choix ! Pour moi, la poésie, c'est de la musique avec des mots.", "en": "Good choice! To me, poetry is music made of words." },
+      { "sp": "", "fr": "Tom achète le Petit Prince en français. Il veut lire un chapitre chaque soir.", "en": "Tom buys The Little Prince in French. He wants to read a chapter every evening." },
+      { "sp": "Tom", "fr": "Le titre est facile, et il y a des dessins sur presque chaque page !", "en": "The title is easy, and there are drawings on almost every page!" },
+      { "sp": "Hugo", "fr": "Moi, la lecture, c'est fatigant. Mais une bande dessinée, c'est différent : il y a plus de dessins que de mots !", "en": "Reading wears me out. But a comic is different: there are more pictures than words!" },
+      { "sp": "La vendeuse", "fr": "Alors, vous avez de la chance : aujourd'hui, le dessinateur de cette BD est ici. Il fait un dessin dans le livre de chaque lecteur.", "en": "Then you're in luck: the artist who drew this comic is here today. He's doing a drawing in each reader's book." },
+      { "sp": "", "fr": "Hugo attend une heure. Le dessinateur le reconnaît, et il fait un petit dessin pour lui : un homme dans une poubelle !", "en": "Hugo waits an hour. The cartoonist recognises him and does a little drawing for him: a man in a bin!" },
+      { "sp": "Hugo", "fr": "Vous voyez ? Maintenant, moi aussi, je suis une œuvre d'art !", "en": "You see? Now I'm a work of art too!" }
+    ]
+  }
+}

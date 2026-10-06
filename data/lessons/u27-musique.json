@@ -1,0 +1,165 @@
+{
+  "id": "u27-musique",
+  "type": "vocab",
+  "unit": 27,
+  "title": "La musique",
+  "en": "Music",
+  "intro": "25 words for music: the people who make it (**le musicien, le batteur, le groupe, l'orchestre**), what they make (**la chanson, la mélodie, le rythme, les paroles, le refrain**), kinds of music (**le rock, le jazz, le rap, la musique classique**) and the concert itself (**le micro, la répétition, applaudir, le fan**).",
+  "words": [
+    { "id": "musicien", "fr": "musicien", "pos": "noun", "g": "m", "ipa": "my.zi.sjɛ̃", "display": "le musicien, la musicienne", "en": "musician", "def": "Une personne qui joue d'un instrument de musique.", "def_en": "A person who plays a musical instrument.", "forms": ["musicienne", "musiciens", "musiciennes"], "accept": ["musicienne", "la musicienne", "une musicienne"], "examples": [
+      { "fr": "Dans la rue, un **musicien** joue du violon.", "en": "In the street, a musician is playing the violin." },
+      { "fr": "Tom est un très bon **musicien**.", "en": "Tom is a very good musician." },
+      { "fr": "Ma sœur veut devenir **musicienne**.", "en": "My sister wants to become a musician." }
+    ] },
+    { "id": "groupe", "fr": "groupe", "pos": "noun", "g": "m", "ipa": "ɡʁup", "en": "group; (music) band", "def": "Plusieurs personnes ou plusieurs choses ensemble. Aussi : des musiciens qui jouent ensemble.", "def_en": "Several people or things together. Also: musicians who play together.", "forms": ["groupes"], "examples": [
+      { "fr": "Antoine chante dans un **groupe** le week-end.", "en": "Antoine sings in a band at weekends." },
+      { "fr": "C'est quoi, ton **groupe** préféré ?", "en": "What's your favourite band?" },
+      { "fr": "On visite le musée en **groupe**.", "en": "We're visiting the museum as a group." }
+    ] },
+    { "id": "chanson", "fr": "chanson", "pos": "noun", "g": "f", "ipa": "ʃɑ̃.sɔ̃", "en": "song", "def": "Un texte avec de la musique, qu'on chante.", "def_en": "Words set to music, which you sing.", "forms": ["chansons"], "examples": [
+      { "fr": "C'est ma **chanson** préférée !", "en": "It's my favourite song!" },
+      { "fr": "Lou connaît toutes les **chansons** de son dessin animé.", "en": "Lou knows all the songs from her cartoon." },
+      { "fr": "Tom apprend le français avec des **chansons**.", "en": "Tom learns French with songs." }
+    ] },
+    { "id": "concert", "fr": "concert", "pos": "noun", "g": "m", "ipa": "kɔ̃.sɛʁ", "en": "concert, gig", "def": "Un spectacle où des musiciens jouent devant un public.", "def_en": "A show where musicians play in front of an audience.", "forms": ["concerts"], "examples": [
+      { "fr": "Le **concert** commence à vingt et une heures.", "en": "The concert starts at 9 p.m." },
+      { "fr": "J'ai deux places pour le **concert** de samedi.", "en": "I've got two tickets for Saturday's gig." },
+      { "fr": "Pendant la Fête de la musique, tous les **concerts** sont gratuits.", "en": "During the Fête de la musique, all the concerts are free." }
+    ] },
+    { "id": "instrument", "fr": "instrument", "pos": "noun", "g": "m", "ipa": "ɛ̃s.tʁy.mɑ̃", "en": "(musical) instrument; tool", "def": "Un objet qui sert à faire de la musique : le piano, la guitare… Aussi : un objet pour faire un travail précis.", "def_en": "An object used for making music: the piano, the guitar… Also: an object for a particular job.", "forms": ["instruments"], "examples": [
+      { "fr": "Tu joues d'un **instrument** ?", "en": "Do you play an instrument?" },
+      { "fr": "La guitare est un **instrument** facile pour commencer.", "en": "The guitar is an easy instrument to start with." },
+      { "fr": "Dans un orchestre, il y a beaucoup d'**instruments**.", "en": "In an orchestra, there are lots of instruments." }
+    ] },
+    { "id": "violon", "fr": "violon", "pos": "noun", "g": "m", "ipa": "vjɔ.lɔ̃", "en": "violin; fiddle", "def": "Un petit instrument de musique avec quatre cordes : on le tient contre l'épaule.", "def_en": "A small musical instrument with four strings, held against the shoulder.", "forms": ["violons"], "examples": [
+      { "fr": "Je joue du **violon** depuis dix ans.", "en": "I've been playing the violin for ten years." },
+      { "fr": "Au Québec, il y a souvent du **violon** dans la musique traditionnelle.", "en": "In Quebec, there's often a fiddle in traditional music." },
+      { "fr": "Le **violon** est difficile : au début, ça fait mal aux oreilles !", "en": "The violin is hard: at first, it hurts your ears!" }
+    ] },
+    { "id": "applaudir", "fr": "applaudir", "pos": "verb", "ipa": "a.plo.diʁ", "en": "to clap, to applaud", "def": "Frapper ses mains l'une contre l'autre pour dire bravo.", "def_en": "To clap your hands to say well done.", "forms": ["applaudis", "applaudit", "applaudissons", "applaudissez", "applaudissent", "applaudi", "applaudissais", "applaudissait", "applaudissions", "applaudissiez", "applaudissaient", "applaudirai", "applaudiras", "applaudira", "applaudirons", "applaudirez", "applaudiront", "applaudirais", "applaudirait", "applaudirions", "applaudiriez", "applaudiraient", "applaudisse", "applaudisses"], "examples": [
+      { "fr": "À la fin du concert, tout le monde **applaudit**.", "en": "At the end of the concert, everyone claps." },
+      { "fr": "Les spectateurs ont **applaudi** pendant cinq minutes.", "en": "The audience clapped for five minutes." },
+      { "fr": "**Applaudissez** les musiciens !", "en": "Give the musicians a round of applause!" }
+    ] },
+    { "id": "voix", "fr": "voix", "pos": "noun", "g": "f", "ipa": "vwa", "en": "voice; vote", "def": "Ce qu'on entend quand une personne parle ou chante. Aussi : ce qu'on donne quand on vote.", "def_en": "What you hear when someone speaks or sings. Also: what you give when you vote.", "examples": [
+      { "fr": "Antoine a une très belle **voix**.", "en": "Antoine has a lovely voice." },
+      { "fr": "Après le concert, il n'a plus de **voix** !", "en": "After the concert, he's lost his voice!" },
+      { "fr": "Parle à **voix** basse : Lou dort.", "en": "Speak quietly: Lou's asleep." }
+    ] },
+    { "id": "orchestre", "fr": "orchestre", "pos": "noun", "g": "m", "ipa": "ɔʁ.kɛstʁ", "en": "orchestra; band", "def": "Un grand groupe de musiciens qui jouent ensemble, souvent de la musique classique.", "def_en": "A large group of musicians playing together, often classical music.", "forms": ["orchestres"], "examples": [
+      { "fr": "L'**orchestre** joue sur la place, devant l'église.", "en": "The orchestra is playing on the square, outside the church." },
+      { "fr": "Il y a cent musiciens dans cet **orchestre**.", "en": "There are a hundred musicians in this orchestra." },
+      { "fr": "Le chef d'**orchestre** dirige les musiciens.", "en": "The conductor leads the musicians." }
+    ], "note": "**le chef d'orchestre** = the conductor." },
+    { "id": "rythme", "fr": "rythme", "pos": "noun", "g": "m", "ipa": "ʁitm", "en": "rhythm, beat; pace", "def": "Dans la musique, ce qu'on suit avec les pieds ou les mains pour danser. Aussi : la vitesse à laquelle on vit.", "def_en": "In music, what you follow with your feet or hands when you dance. Also: the pace of life.", "forms": ["rythmes"], "examples": [
+      { "fr": "Cette chanson a un bon **rythme** : on a envie de danser !", "en": "This song has a good beat: it makes you want to dance!" },
+      { "fr": "Tom suit le **rythme** avec son pied.", "en": "Tom keeps the beat with his foot." },
+      { "fr": "À Paris, le **rythme** de la vie est trop rapide pour moi.", "en": "In Paris, the pace of life is too fast for me." }
+    ] },
+    { "id": "melodie", "fr": "mélodie", "pos": "noun", "g": "f", "ipa": "me.lɔ.di", "en": "melody, tune", "def": "Les notes d'une chanson qu'on peut chanter, et qui restent dans la tête.", "def_en": "The notes of a song that you can sing, and that stay in your head.", "forms": ["mélodies"], "examples": [
+      { "fr": "Je connais la **mélodie**, mais pas les paroles.", "en": "I know the tune, but not the words." },
+      { "fr": "Cette **mélodie** est très douce.", "en": "This melody is very gentle." },
+      { "fr": "Depuis ce matin, j'ai cette **mélodie** dans la tête !", "en": "I've had that tune in my head since this morning!" }
+    ] },
+    { "id": "paroles", "fr": "paroles", "pos": "noun", "g": "f", "ipa": "pa.ʁɔl", "display": "les paroles", "en": "lyrics, words (of a song)", "def": "Le texte d'une chanson : les mots qu'on chante.", "def_en": "The text of a song: the words you sing.", "examples": [
+      { "fr": "Antoine écrit les **paroles**, et le batteur écrit la musique.", "en": "Antoine writes the lyrics, and the drummer writes the music." },
+      { "fr": "Je ne comprends pas les **paroles** de cette chanson.", "en": "I don't understand the words of this song." },
+      { "fr": "Tom apprend les **paroles** par cœur.", "en": "Tom is learning the lyrics by heart." }
+    ], "note": "In the singular, **la parole** = speech, the right to speak: *prendre la parole* = to speak up (in a meeting)." },
+    { "id": "album", "fr": "album", "pos": "noun", "g": "m", "ipa": "al.bɔm", "en": "album", "def": "Plusieurs chansons d'un même musicien ou d'un même groupe, qu'on achète ensemble. Aussi : un livre pour les photos.", "def_en": "Several songs by one musician or band, sold together. Also: a book for photos.", "forms": ["albums"], "examples": [
+      { "fr": "Le groupe a enregistré son premier **album** l'année dernière.", "en": "The band recorded its first album last year." },
+      { "fr": "Son nouvel **album** sort vendredi.", "en": "Her new album comes out on Friday." },
+      { "fr": "Mamie a gardé toutes les photos dans un **album**.", "en": "Grandma has kept all the photos in an album." }
+    ] },
+    { "id": "tube", "fr": "tube", "pos": "noun", "g": "m", "ipa": "tyb", "en": "(informal) hit (song); tube", "def": "Une chanson qui a beaucoup de succès : on l'entend partout. Aussi : un tube de colle.", "def_en": "A very successful song that you hear everywhere. Also: a tube (of glue…).", "forms": ["tubes"], "examples": [
+      { "fr": "Cette chanson est le **tube** de l'été.", "en": "This song is the hit of the summer." },
+      { "fr": "Tout le monde connaît ce vieux **tube** des années quatre-vingt.", "en": "Everyone knows this old hit from the eighties." },
+      { "fr": "Au Québec, leur chanson est un **tube** : on l'entend partout à la radio.", "en": "In Quebec, their song is a hit: you hear it everywhere on the radio." }
+    ] },
+    { "id": "rock", "fr": "rock", "pos": "noun", "g": "m", "ipa": "ʁɔk", "en": "rock (music)", "def": "Une musique forte, avec des guitares électriques et une batterie.", "def_en": "Loud music with electric guitars and drums.", "examples": [
+      { "fr": "Mon père écoutait du **rock** quand il était jeune.", "en": "My dad listened to rock when he was young." },
+      { "fr": "C'est un groupe de **rock** anglais.", "en": "It's an English rock band." },
+      { "fr": "Le **rock**, c'est trop fort pour mes oreilles !", "en": "Rock is too loud for my ears!" }
+    ] },
+    { "id": "jazz", "fr": "jazz", "pos": "noun", "g": "m", "ipa": "dʒaz", "en": "jazz", "def": "Une musique américaine, souvent avec un piano : les musiciens inventent la musique pendant qu'ils jouent.", "def_en": "American music, often with a piano: the musicians make up the music as they play.", "examples": [
+      { "fr": "Dans ce bar, il y a un concert de **jazz** le jeudi.", "en": "This bar has a jazz gig on Thursdays." },
+      { "fr": "Mon grand-père adore le **jazz**.", "en": "My grandfather loves jazz." },
+      { "fr": "Le **jazz**, c'est la musique préférée de mon père.", "en": "Jazz is my dad's favourite music." }
+    ] },
+    { "id": "rap", "fr": "rap", "pos": "noun", "g": "m", "ipa": "ʁap", "en": "rap (music)", "def": "Une musique où on dit les paroles très vite, sur un rythme fort, sans vraiment chanter.", "def_en": "Music where the words are spoken very fast over a strong beat, without really singing.", "examples": [
+      { "fr": "Mon petit frère n'écoute que du **rap**.", "en": "My little brother only listens to rap." },
+      { "fr": "Le **rap** français est très populaire.", "en": "French rap is very popular." },
+      { "fr": "Sur la place, des jeunes font du **rap**.", "en": "On the square, some young people are rapping." }
+    ] },
+    { "id": "classique", "fr": "classique", "pos": "adj", "ipa": "kla.sik", "en": "classical; classic", "def": "La musique classique, c'est la musique ancienne qu'on joue avec un orchestre. Aussi : simple, traditionnel.", "def_en": "Classical music is old music played by an orchestra. Also: simple, traditional, classic.", "forms": ["classiques"], "examples": [
+      { "fr": "Pour travailler, j'écoute de la musique **classique**.", "en": "I listen to classical music when I work." },
+      { "fr": "Ce roman est un **classique** : tout le monde l'a lu.", "en": "This novel is a classic: everyone has read it." },
+      { "fr": "Je porte une robe **classique** : noire et simple.", "en": "I'm wearing a classic dress: black and simple." }
+    ] },
+    { "id": "micro", "fr": "micro", "pos": "noun", "g": "m", "ipa": "mi.kʁo", "en": "microphone, mic", "def": "Un petit appareil qui rend la voix plus forte, pour que tout le monde entende.", "def_en": "A small device that makes your voice louder so that everyone can hear.", "forms": ["micros"], "examples": [
+      { "fr": "Antoine prend le **micro** et dit : « Bonsoir, Paris ! »", "en": "Antoine takes the mic and says: 'Good evening, Paris!'" },
+      { "fr": "Le **micro** ne fonctionne pas : on n'entend rien !", "en": "The mic isn't working: you can't hear a thing!" },
+      { "fr": "Parle plus près du **micro**.", "en": "Speak closer to the microphone." }
+    ] },
+    { "id": "disque", "fr": "disque", "pos": "noun", "g": "m", "ipa": "disk", "en": "record, disc", "def": "Un objet rond sur lequel il y a de la musique : on l'écoute à la maison.", "def_en": "A round object with music on it, which you listen to at home.", "forms": ["disques"], "examples": [
+      { "fr": "Mon père a gardé tous ses vieux **disques**.", "en": "My dad has kept all his old records." },
+      { "fr": "Ce magasin vend des **disques** et des livres.", "en": "This shop sells records and books." },
+      { "fr": "Antoine donne un **disque** de son groupe à Lou.", "en": "Antoine gives Lou a record by his band." }
+    ] },
+    { "id": "enregistrer", "fr": "enregistrer", "pos": "verb", "ipa": "ɑ̃.ʁə.ʒis.tʁe", "en": "to record; to save (a file); to check in (luggage)", "def": "Garder de la musique, une voix ou des images pour les écouter ou les voir plus tard. Aussi : donner ses bagages à l'aéroport.", "def_en": "To keep music, a voice or images so you can hear or see them later. Also: to hand in your luggage at the airport.", "forms": ["enregistre", "enregistres", "enregistrons", "enregistrez", "enregistrent", "enregistré", "enregistrée", "enregistrés", "enregistrées", "enregistrais", "enregistrait", "enregistrions", "enregistriez", "enregistraient", "enregistrerai", "enregistreras", "enregistrera", "enregistrerons", "enregistrerez", "enregistreront", "enregistrerais", "enregistrerait", "enregistrerions", "enregistreriez", "enregistreraient"], "examples": [
+      { "fr": "Le groupe a **enregistré** un album à Montréal.", "en": "The band recorded an album in Montréal." },
+      { "fr": "Attends, j'**enregistre** la vidéo !", "en": "Wait, I'm saving the video!" },
+      { "fr": "Il faut **enregistrer** les valises deux heures avant le vol.", "en": "You have to check the suitcases in two hours before the flight." }
+    ] },
+    { "id": "fan", "fr": "fan", "pos": "noun", "g": "m", "both": true, "ipa": "fan", "display": "le / la fan", "en": "fan", "def": "Une personne qui aime beaucoup un artiste, un groupe ou une équipe.", "def_en": "A person who really loves an artist, a band or a team.", "forms": ["fans"], "accept": ["la fan", "une fan"], "examples": [
+      { "fr": "Lou est la plus grande **fan** du groupe.", "en": "Lou is the band's biggest fan." },
+      { "fr": "Les **fans** attendent devant la salle depuis le matin.", "en": "The fans have been waiting outside the venue since the morning." },
+      { "fr": "Je suis **fan** de cette série !", "en": "I'm a big fan of this series!" }
+    ] },
+    { "id": "repetition", "fr": "répétition", "pos": "noun", "g": "f", "ipa": "ʁe.pe.ti.sjɔ̃", "en": "rehearsal; repetition", "def": "Le moment où des musiciens ou des acteurs travaillent ensemble avant le spectacle. Aussi : quand on dit une chose plusieurs fois.", "def_en": "The time when musicians or actors practise together before the show. Also: saying something several times.", "forms": ["répétitions"], "examples": [
+      { "fr": "Le groupe a une **répétition** le mardi.", "en": "The band rehearses on Tuesdays." },
+      { "fr": "La dernière **répétition** est demain matin.", "en": "The last rehearsal is tomorrow morning." },
+      { "fr": "Il y a trop de **répétitions** dans ton texte.", "en": "There's too much repetition in your text." }
+    ] },
+    { "id": "refrain", "fr": "refrain", "pos": "noun", "g": "m", "ipa": "ʁə.fʁɛ̃", "en": "chorus, refrain", "def": "La partie d'une chanson qui revient plusieurs fois, avec les mêmes paroles.", "def_en": "The part of a song that comes back several times, with the same words.", "forms": ["refrains"], "examples": [
+      { "fr": "Tout le monde chante le **refrain** !", "en": "Everybody sing the chorus!" },
+      { "fr": "Je ne connais que le **refrain**.", "en": "I only know the chorus." },
+      { "fr": "Le **refrain** est facile : il y a seulement trois mots.", "en": "The chorus is easy: there are only three words." }
+    ] },
+    { "id": "batteur", "fr": "batteur", "pos": "noun", "g": "m", "ipa": "ba.tœʁ", "display": "le batteur, la batteuse", "en": "drummer", "def": "Le musicien ou la musicienne qui joue de la batterie.", "def_en": "The musician who plays the drums.", "forms": ["batteuse", "batteurs", "batteuses"], "accept": ["batteuse", "la batteuse", "une batteuse"], "examples": [
+      { "fr": "Le **batteur** donne le rythme.", "en": "The drummer keeps the beat." },
+      { "fr": "La **batteuse** du groupe a seize ans.", "en": "The band's drummer is sixteen." },
+      { "fr": "Les voisins détestent les **batteurs** !", "en": "Neighbours hate drummers!" }
+    ] }
+  ],
+  "story": {
+    "title": "La Fête de la musique",
+    "en": "21 June: the friends go to Paris for Antoine's concert at the Fête de la musique. But his band is missing a guitarist.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vingt et un juin, c'est la Fête de la musique. Partout en France, des musiciens jouent dans la rue, et les concerts sont gratuits.", "en": "21 June is the Fête de la musique. All over France, musicians play in the street, and the concerts are free." },
+      { "sp": "", "fr": "Léa, Hugo, Tom et Camille ont pris le train pour Paris : ce soir, Antoine chante avec son groupe à Montmartre.", "en": "Léa, Hugo, Tom and Camille have taken the train to Paris: tonight, Antoine is singing with his band in Montmartre." },
+      { "sp": "", "fr": "Mais il y a un problème : le musicien qui joue de la guitare est malade.", "en": "But there's a problem: the band's guitarist is ill." },
+      { "sp": "Antoine", "fr": "Tom, tu connais toutes nos chansons : on a fait des répétitions tous les soirs, à Lyon. Tu joues avec nous ?", "en": "Tom, you know all our songs: we rehearsed every evening in Lyon. Will you play with us?" },
+      { "sp": "Tom", "fr": "Moi ? Sur scène ? Devant tout le monde ?", "en": "Me? On stage? In front of everyone?" },
+      { "sp": "Camille", "fr": "Tu peux le faire, Tom. Tu es un vrai musicien !", "en": "You can do it, Tom. You're a real musician!" },
+      { "sp": "", "fr": "Avant le concert, ils se promènent. Dans chaque rue, il y a de la musique : du jazz devant un café, du rap sur une place, du rock dans un bar…", "en": "Before the concert, they go for a walk. There's music in every street: jazz outside a café, rap on a square, rock in a bar…" },
+      { "sp": "", "fr": "Devant une église, un orchestre joue de la musique classique.", "en": "Outside a church, an orchestra is playing classical music." },
+      { "sp": "", "fr": "À neuf heures, Paul, Anne et Lou arrivent. Lou est sur les épaules de son père : elle voit tout !", "en": "At nine, Paul, Anne and Lou arrive. Lou is on her dad's shoulders: she can see everything!" },
+      { "sp": "", "fr": "Le concert commence. Le batteur donne le rythme, Antoine prend le micro… et Tom joue très bien.", "en": "The concert begins. The drummer sets the beat, Antoine takes the mic… and Tom plays very well." },
+      { "sp": "Anne", "fr": "Je connais cette mélodie ! C'est une vieille chanson de Montréal. Et Antoine a la voix de ma sœur !", "en": "I know this tune! It's an old song from Montréal. And Antoine has my sister's voice!" },
+      { "sp": "Antoine", "fr": "Oui, mais j'ai écrit de nouvelles paroles. Au Québec, c'est un tube : on l'entend partout à la radio !", "en": "Yes, but I wrote new lyrics. In Quebec, it's a hit: you hear it everywhere on the radio!" },
+      { "sp": "Léa", "fr": "Papa, tu jouais d'un instrument, quand tu habitais à Montmartre ?", "en": "Dad, did you play an instrument when you lived in Montmartre?" },
+      { "sp": "Paul", "fr": "De la batterie, dans un groupe de rock. Mais j'étais un très mauvais batteur… Les voisins détestaient ça !", "en": "The drums, in a rock band. But I was a very bad drummer… The neighbours hated it!" },
+      { "sp": "", "fr": "Pour la dernière chanson, il y a aussi un violon. Antoine se tourne vers ses cousins.", "en": "For the last song, there's a fiddle too. Antoine turns to his cousins." },
+      { "sp": "Antoine", "fr": "Hugo, viens chanter le refrain avec nous !", "en": "Hugo, come and sing the chorus with us!" },
+      { "sp": "", "fr": "Hugo chante… très faux. Mais tout le monde chante avec lui, et à la fin, le public applaudit pendant cinq minutes.", "en": "Hugo sings… very out of tune. But everyone sings along with him, and at the end, the audience claps for five minutes." },
+      { "sp": "Lou", "fr": "Encore ! Encore !", "en": "More! More!" },
+      { "sp": "", "fr": "Après le concert, des fans veulent une photo avec Tom.", "en": "After the concert, some fans want a photo with Tom." },
+      { "sp": "Camille", "fr": "Attention, je vais être jalouse !", "en": "Careful, I'm going to get jealous!" },
+      { "sp": "Antoine", "fr": "Lou, tiens : c'est le premier album de notre groupe. On l'a enregistré l'année dernière.", "en": "Lou, here you are: it's our band's first album. We recorded it last year." },
+      { "sp": "Lou", "fr": "Merci ! Je vais écouter ton disque tous les jours. Je suis ta plus grande fan !", "en": "Thank you! I'm going to listen to your record every day. I'm your biggest fan!" },
+      { "sp": "Paul", "fr": "Tous les jours ? Les voisins vont détester ça…", "en": "Every day? The neighbours are going to hate that…" }
+    ]
+  }
+}

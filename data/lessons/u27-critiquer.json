@@ -1,0 +1,166 @@
+{
+  "id": "u27-critiquer",
+  "type": "vocab",
+  "unit": 27,
+  "title": "Critiquer et apprécier",
+  "en": "Reviewing and appreciating",
+  "intro": "25 words to say what you thought of a film, a show or a book: praise (**génial, magnifique, passionnant, émouvant, impressionnant, original**), something in between (**pas mal, bof, divertissant, lent**), criticism (**ennuyeux, décevant, nul, pas terrible, un navet**) and the question everyone asks afterwards: **ça valait le coup ?**",
+  "words": [
+    { "id": "apprecier", "fr": "apprécier", "pos": "verb", "ipa": "a.pʁe.sje", "en": "to appreciate; to enjoy, to like", "def": "Aimer une chose ou une personne, voir ses qualités.", "def_en": "To like something or someone, to see their good qualities.", "forms": ["apprécie", "apprécies", "apprécions", "appréciez", "apprécient", "apprécié", "appréciée", "appréciés", "appréciées", "appréciais", "appréciait", "appréciions", "appréciiez", "appréciaient", "apprécierai", "apprécieras", "appréciera", "apprécierons", "apprécierez", "apprécieront", "apprécierais", "apprécierait", "apprécierions", "apprécieriez", "apprécieraient"], "examples": [
+      { "fr": "J'ai beaucoup **apprécié** le spectacle.", "en": "I really enjoyed the show." },
+      { "fr": "Madame Dupont **apprécie** les gens qui arrivent à l'heure.", "en": "Mme Dupont appreciates people who arrive on time." },
+      { "fr": "Merci pour ton aide, je l'**apprécie** beaucoup.", "en": "Thanks for your help, I really appreciate it." }
+    ] },
+    { "id": "interessant", "fr": "intéressant", "pos": "adj", "ipa": "ɛ̃.te.ʁɛ.sɑ̃", "display": "intéressant, intéressante", "en": "interesting", "def": "Qui donne envie d'écouter, de lire ou d'apprendre plus.", "def_en": "That makes you want to listen, read or learn more.", "forms": ["intéressante", "intéressants", "intéressantes"], "accept": ["intéressante"], "examples": [
+      { "fr": "Ce documentaire est très **intéressant**.", "en": "This documentary is very interesting." },
+      { "fr": "C'est une question **intéressante**.", "en": "That's an interesting question." },
+      { "fr": "Le prix est **intéressant** : seulement dix euros !", "en": "The price is attractive: only ten euros!" }
+    ], "note": "**s'intéresser à** = to be interested in: *Je m'intéresse à l'art.*" },
+    { "id": "ennuyeux", "fr": "ennuyeux", "pos": "adj", "ipa": "ɑ̃.nɥi.jø", "display": "ennuyeux, ennuyeuse", "en": "boring; annoying", "def": "Qui n'est pas intéressant : on a envie de dormir. Aussi : qui pose un problème.", "def_en": "Not interesting: it makes you want to sleep. Also: that causes a problem.", "forms": ["ennuyeuse", "ennuyeuses"], "accept": ["ennuyeuse"], "examples": [
+      { "fr": "Ce film est long et **ennuyeux**.", "en": "This film is long and boring." },
+      { "fr": "Le cours de lundi était un peu **ennuyeux**.", "en": "Monday's class was a bit boring." },
+      { "fr": "J'ai perdu mes clés. C'est **ennuyeux** !", "en": "I've lost my keys. That's annoying!" }
+    ] },
+    { "id": "super", "fr": "super", "pos": "adj", "ipa": "sy.pɛʁ", "en": "great, super (informal); (before an adjective) really", "def": "Très bien, génial : on le dit surtout entre amis.", "def_en": "Really good, great: said mostly among friends.", "examples": [
+      { "fr": "On a passé une soirée **super**.", "en": "We had a great evening." },
+      { "fr": "Tu viens avec nous ? **Super** !", "en": "You're coming with us? Great!" },
+      { "fr": "Ce gâteau est **super** bon !", "en": "This cake is really good!" }
+    ], "note": "**super** never changes: *des films super*. Before an adjective, it means *very*: *super bon*." },
+    { "id": "passionnant", "fr": "passionnant", "pos": "adj", "ipa": "pa.sjɔ.nɑ̃", "display": "passionnant, passionnante", "en": "fascinating, gripping, exciting", "def": "Très intéressant : on ne peut pas s'arrêter de lire, d'écouter ou de regarder.", "def_en": "Very interesting: you can't stop reading, listening or watching.", "forms": ["passionnante", "passionnants", "passionnantes"], "accept": ["passionnante"], "examples": [
+      { "fr": "Ce livre est **passionnant** : je l'ai lu en une nuit !", "en": "This book is gripping: I read it in one night!" },
+      { "fr": "Le match était **passionnant** jusqu'à la fin.", "en": "The match was exciting right to the end." },
+      { "fr": "Mamie raconte des histoires **passionnantes**.", "en": "Grandma tells fascinating stories." }
+    ] },
+    { "id": "emouvant", "fr": "émouvant", "pos": "adj", "ipa": "e.mu.vɑ̃", "display": "émouvant, émouvante", "en": "moving, touching", "def": "Qui touche le cœur, qui rend ému et donne envie de pleurer.", "def_en": "That touches your heart, moves you and makes you want to cry.", "forms": ["émouvante", "émouvants", "émouvantes"], "accept": ["émouvante"], "examples": [
+      { "fr": "La fin du film est très **émouvante**.", "en": "The end of the film is very moving." },
+      { "fr": "La lettre de Mamie était très **émouvante**.", "en": "Grandma's letter was very moving." },
+      { "fr": "C'est une histoire **émouvante** : j'ai pleuré.", "en": "It's a touching story: I cried." }
+    ] },
+    { "id": "decevant", "fr": "décevant", "pos": "adj", "ipa": "de.sə.vɑ̃", "display": "décevant, décevante", "en": "disappointing", "def": "Moins bon que ce qu'on attendait : on est déçu.", "def_en": "Not as good as you expected: you're disappointed.", "forms": ["décevante", "décevants", "décevantes"], "accept": ["décevante"], "examples": [
+      { "fr": "Le film est un peu **décevant**.", "en": "The film is a bit disappointing." },
+      { "fr": "Les résultats sont **décevants**.", "en": "The results are disappointing." },
+      { "fr": "J'attendais mieux : la fin est **décevante**.", "en": "I expected better: the ending is disappointing." }
+    ] },
+    { "id": "etonnant", "fr": "étonnant", "pos": "adj", "ipa": "e.tɔ.nɑ̃", "display": "étonnant, étonnante", "en": "surprising, astonishing; amazing", "def": "Qui rend surpris, parce qu'on ne s'y attendait pas.", "def_en": "Surprising, because you didn't expect it.", "forms": ["étonnante", "étonnants", "étonnantes"], "accept": ["étonnante"], "examples": [
+      { "fr": "Hugo est à l'heure ? C'est **étonnant** !", "en": "Hugo's on time? That's surprising!" },
+      { "fr": "Ce n'est pas **étonnant** : il ne dort jamais assez.", "en": "No wonder: he never gets enough sleep." },
+      { "fr": "Cette actrice a une voix **étonnante**.", "en": "This actress has an amazing voice." }
+    ] },
+    { "id": "impressionnant", "fr": "impressionnant", "pos": "adj", "ipa": "ɛ̃.pʁe.sjɔ.nɑ̃", "display": "impressionnant, impressionnante", "en": "impressive", "def": "Si grand, si beau ou si fort qu'on est très surpris.", "def_en": "So big, beautiful or strong that you're amazed.", "forms": ["impressionnante", "impressionnants", "impressionnantes"], "accept": ["impressionnante"], "examples": [
+      { "fr": "La vue depuis Fourvière est **impressionnante**.", "en": "The view from Fourvière is impressive." },
+      { "fr": "Il a couru dix kilomètres ? C'est **impressionnant** !", "en": "He ran ten kilometres? That's impressive!" },
+      { "fr": "Les effets spéciaux sont **impressionnants**.", "en": "The special effects are impressive." }
+    ] },
+    { "id": "genial", "fr": "génial", "pos": "adj", "ipa": "ʒe.njal", "display": "génial, géniale", "en": "great, brilliant", "def": "Très, très bien ! Aussi : très intelligent, très doué.", "def_en": "Really great! Also: brilliant, very gifted.", "forms": ["géniale", "géniaux", "géniales"], "accept": ["géniale"], "examples": [
+      { "fr": "Le concert était **génial** !", "en": "The concert was brilliant!" },
+      { "fr": "On part en vacances ensemble ? **Génial** !", "en": "We're going on holiday together? Great!" },
+      { "fr": "Tu as eu une idée **géniale**.", "en": "You had a brilliant idea." }
+    ] },
+    { "id": "nul", "fr": "nul", "pos": "adj", "ipa": "nyl", "display": "nul, nulle", "en": "rubbish, useless (informal); zero", "def": "Très mauvais, sans aucune qualité. Aussi : qui ne sait pas du tout faire une chose.", "def_en": "Very bad, with nothing good about it. Also: hopeless at something.", "forms": ["nulle", "nuls", "nulles"], "accept": ["nulle"], "examples": [
+      { "fr": "Ce film est **nul** : ne va pas le voir !", "en": "This film is rubbish: don't go and see it!" },
+      { "fr": "Je suis **nul** en maths.", "en": "I'm hopeless at maths." },
+      { "fr": "Il pleut, il fait froid… Quelle journée **nulle** !", "en": "It's raining, it's cold… What a rubbish day!" }
+    ] },
+    { "id": "magnifique", "fr": "magnifique", "pos": "adj", "ipa": "ma.ɲi.fik", "en": "magnificent, wonderful", "def": "Très, très beau.", "def_en": "Very, very beautiful.", "forms": ["magnifiques"], "examples": [
+      { "fr": "La vue est **magnifique** !", "en": "The view is magnificent!" },
+      { "fr": "Tu es **magnifique** dans cette robe.", "en": "You look wonderful in that dress." },
+      { "fr": "Il a fait un temps **magnifique** tout le week-end.", "en": "The weather was wonderful all weekend." }
+    ] },
+    { "id": "original", "fr": "original", "pos": "adj", "ipa": "ɔ.ʁi.ʒi.nal", "display": "original, originale", "en": "original, unusual", "def": "Nouveau, différent de ce qu'on voit d'habitude.", "def_en": "New, different from what you usually see.", "forms": ["originale", "originaux", "originales"], "accept": ["originale"], "examples": [
+      { "fr": "La mise en scène est très **originale**.", "en": "The staging is very original." },
+      { "fr": "Un cadeau **original** pour Tom ? Un disque en français !", "en": "An original present for Tom? A record in French!" },
+      { "fr": "Ce n'est pas très **original**, mais c'est bon.", "en": "It's not very original, but it's good." }
+    ] },
+    { "id": "terrible", "fr": "terrible", "pos": "adj", "ipa": "tɛ.ʁibl", "en": "terrible, awful; (pas terrible) not great", "def": "Très grave, qui fait peur. Mais « pas terrible » = pas très bon !", "def_en": "Very serious, frightening. But 'pas terrible' = not very good!", "forms": ["terribles"], "examples": [
+      { "fr": "Il y a eu un accident **terrible**.", "en": "There was a terrible accident." },
+      { "fr": "Le film n'était pas **terrible**.", "en": "The film wasn't great." },
+      { "fr": "J'ai une faim **terrible** !", "en": "I'm terribly hungry!" }
+    ], "note": "In informal French, **terrible** can also mean *terrific*: *Ce groupe est terrible !*" },
+    { "id": "pas-mal", "fr": "pas mal", "pos": "expr", "ipa": "pa mal", "en": "not bad, quite good; (pas mal de) quite a lot of", "def": "Assez bien, plutôt bon. « Pas mal de » = beaucoup de.", "def_en": "Fairly good, quite good. 'Pas mal de' = quite a lot of.", "examples": [
+      { "fr": "Le film ? **Pas mal**, mais un peu long.", "en": "The film? Not bad, but a bit long." },
+      { "fr": "Ta soupe n'est **pas mal** du tout !", "en": "Your soup isn't bad at all!" },
+      { "fr": "Il y a **pas mal** de monde ce soir.", "en": "There are quite a lot of people tonight." }
+    ] },
+    { "id": "bof", "fr": "bof", "pos": "interj", "ipa": "bɔf", "en": "meh, so-so", "def": "Ce qu'on dit quand on n'aime pas beaucoup une chose, ou quand on n'a pas d'avis.", "def_en": "What you say when you don't really like something, or have no opinion.", "examples": [
+      { "fr": "Tu as aimé le film ? — **Bof**…", "en": "Did you like the film? – Meh…" },
+      { "fr": "**Bof**, je n'ai pas très envie de sortir ce soir.", "en": "Meh, I don't really feel like going out tonight." },
+      { "fr": "Le repas était **bof** : pas mauvais, pas bon.", "en": "The meal was so-so: not bad, not good." }
+    ] },
+    { "id": "valoir-le-coup", "fr": "valoir le coup", "pos": "expr", "ipa": "va.lwaʁ lə ku", "en": "to be worth it", "def": "Être assez bon ou assez intéressant pour le temps, l'argent ou l'effort qu'on donne.", "def_en": "To be good or interesting enough for the time, money or effort you put in.", "forms": ["vaut le coup", "valent le coup", "valait le coup", "valaient le coup", "valu le coup", "vaudra le coup", "vaudrait le coup", "vaille le coup"], "examples": [
+      { "fr": "Ce musée **vaut le coup** : il est magnifique.", "en": "This museum is worth it: it's magnificent." },
+      { "fr": "Le voyage était long, mais ça **valait le coup** !", "en": "The journey was long, but it was worth it!" },
+      { "fr": "Ça **vaut le coup** d'essayer.", "en": "It's worth a try." }
+    ], "note": "In the negative, **pas** goes in the middle: *ça ne vaut pas le coup* = it's not worth it." },
+    { "id": "navet", "fr": "navet", "pos": "noun", "g": "m", "ipa": "na.vɛ", "en": "turnip; (informal) dud, really bad film", "def": "Un légume blanc et rond. Aussi : un très mauvais film !", "def_en": "A round white vegetable. Also: a really bad film!", "forms": ["navets"], "examples": [
+      { "fr": "Ce film est un **navet** : ne perds pas ton argent.", "en": "This film is a dud: don't waste your money." },
+      { "fr": "Pierre a des **navets** dans son jardin.", "en": "Pierre has turnips in his garden." },
+      { "fr": "Cet acteur a joué dans beaucoup de **navets**.", "en": "This actor has been in lots of bad films." }
+    ] },
+    { "id": "theatre", "fr": "théâtre", "pos": "noun", "g": "m", "ipa": "te.ɑtʁ", "en": "theatre; drama", "def": "Un endroit où des acteurs jouent une histoire devant un public. Aussi : l'art de jouer ces histoires.", "def_en": "A place where actors perform a story for an audience. Also: the art of acting out stories.", "forms": ["théâtres"], "examples": [
+      { "fr": "Ce soir, on va au **théâtre**.", "en": "Tonight we're going to the theatre." },
+      { "fr": "À Lyon, il y a un **théâtre** romain de deux mille ans.", "en": "In Lyon, there's a two-thousand-year-old Roman theatre." },
+      { "fr": "Je fais du **théâtre** le mercredi soir.", "en": "I do drama on Wednesday evenings." }
+    ], "note": "**une pièce de théâtre** = a play." },
+    { "id": "spectacle", "fr": "spectacle", "pos": "noun", "g": "m", "ipa": "spɛk.takl", "en": "show, performance; sight", "def": "Ce qu'on regarde au théâtre ou à un concert : des artistes jouent devant un public.", "def_en": "What you watch at the theatre or a concert: artists performing for an audience.", "forms": ["spectacles"], "examples": [
+      { "fr": "Le **spectacle** commence à vingt et une heures.", "en": "The show starts at 9 p.m." },
+      { "fr": "Lou a dansé dans le **spectacle** de l'école.", "en": "Lou danced in the school show." },
+      { "fr": "Quel **spectacle** ! Hugo danse sur la table !", "en": "What a sight! Hugo's dancing on the table!" }
+    ] },
+    { "id": "mise-en-scene", "fr": "mise en scène", "pos": "noun", "g": "f", "ipa": "mi.zɑ̃.sɛn", "en": "staging, direction (of a play or a film)", "def": "La façon dont on montre une histoire au théâtre ou au cinéma : le décor, les lumières, les gestes des acteurs…", "def_en": "The way a story is presented on stage or on screen: the set, the lighting, the actors' movements…", "forms": ["mises en scène"], "examples": [
+      { "fr": "La **mise en scène** est très originale.", "en": "The staging is very original." },
+      { "fr": "J'aime l'histoire, mais pas la **mise en scène**.", "en": "I like the story, but not the direction." },
+      { "fr": "Dans cette **mise en scène**, les acteurs jouent au milieu du public.", "en": "In this production, the actors perform among the audience." }
+    ] },
+    { "id": "decor", "fr": "décor", "pos": "noun", "g": "m", "ipa": "de.kɔʁ", "en": "set, scenery; decor", "def": "Ce qu'on construit sur la scène pour montrer où se passe l'histoire. Aussi : les meubles et les couleurs d'un lieu.", "def_en": "What is built on stage to show where the story takes place. Also: the furniture and colours of a place.", "forms": ["décors"], "examples": [
+      { "fr": "Le **décor** est simple : une table et deux chaises.", "en": "The set is simple: a table and two chairs." },
+      { "fr": "Les **décors** de ce film sont magnifiques.", "en": "The sets in this film are magnificent." },
+      { "fr": "J'adore le **décor** de ce café.", "en": "I love the decor of this café." }
+    ] },
+    { "id": "rire", "fr": "rire", "pos": "verb", "ipa": "ʁiʁ", "en": "to laugh; (le rire) laughter", "def": "Faire un bruit avec la bouche quand on trouve une chose drôle.", "def_en": "To make a noise with your mouth when you find something funny.", "extra": "je **ris**, il **rit**, nous **rions**, ils **rient**; j'ai **ri**.", "forms": ["ris", "rit", "rions", "riez", "rient", "ri", "riais", "riait", "riions", "riiez", "riaient", "rirai", "riras", "rira", "rirons", "rirez", "riront", "rirais", "rirait", "ririons", "ririez", "riraient", "rie", "ries"], "examples": [
+      { "fr": "Tout le monde **rit** quand Hugo raconte ses histoires.", "en": "Everyone laughs when Hugo tells his stories." },
+      { "fr": "On a beaucoup **ri** au spectacle.", "en": "We laughed a lot at the show." },
+      { "fr": "Arrête de me faire **rire** !", "en": "Stop making me laugh!" }
+    ], "note": "**faire rire** = to make someone laugh." },
+    { "id": "lent", "fr": "lent", "pos": "adj", "ipa": "lɑ̃", "display": "lent, lente", "en": "slow", "def": "Qui ne va pas vite, qui prend beaucoup de temps.", "def_en": "Not fast, taking a lot of time.", "forms": ["lente", "lents", "lentes"], "accept": ["lente"], "examples": [
+      { "fr": "Le film est beau, mais un peu **lent**.", "en": "The film is beautiful, but a bit slow." },
+      { "fr": "Internet est très **lent** aujourd'hui.", "en": "The internet is really slow today." },
+      { "fr": "Les tortues sont **lentes**.", "en": "Tortoises are slow." }
+    ] },
+    { "id": "divertissant", "fr": "divertissant", "pos": "adj", "ipa": "di.vɛʁ.ti.sɑ̃", "display": "divertissant, divertissante", "en": "entertaining", "def": "Qui fait passer un bon moment, sans être très sérieux.", "def_en": "That gives you a good time, without being very serious.", "forms": ["divertissante", "divertissants", "divertissantes"], "accept": ["divertissante"], "examples": [
+      { "fr": "Ce n'est pas un chef-d'œuvre, mais c'est **divertissant**.", "en": "It's not a masterpiece, but it's entertaining." },
+      { "fr": "C'est une émission **divertissante** pour toute la famille.", "en": "It's an entertaining show for the whole family." },
+      { "fr": "Les jeux télévisés sont **divertissants**.", "en": "Game shows are entertaining." }
+    ] }
+  ],
+  "story": {
+    "title": "Une nuit à Fourvière",
+    "en": "A June evening: the friends see Cyrano de Bergerac in Lyon's Roman theatre, then everyone gives their verdict.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un soir de juin. Chaque été, Lyon organise les Nuits de Fourvière : des spectacles en plein air, dans un théâtre romain de deux mille ans.", "en": "A June evening. Every summer, Lyon holds the Nuits de Fourvière: open-air shows in a two-thousand-year-old Roman theatre." },
+      { "sp": "", "fr": "Ce soir, on joue Cyrano de Bergerac, une histoire d'amour très célèbre. Tous les amis sont venus.", "en": "Tonight they're performing Cyrano de Bergerac, a very famous love story. All the friends have come." },
+      { "sp": "Hugo", "fr": "Trois heures de théâtre… Tu es sûre que ça vaut le coup ?", "en": "Three hours of theatre… Are you sure it's worth it?" },
+      { "sp": "Carla", "fr": "Bien sûr ! Ça va être super. Et regarde la vue sur Lyon : c'est magnifique !", "en": "Of course! It's going to be great. And look at the view over Lyon: it's magnificent!" },
+      { "sp": "", "fr": "Le spectacle commence. Le décor est simple : un mur, un balcon et un grand arbre.", "en": "The show begins. The set is simple: a wall, a balcony and a big tree." },
+      { "sp": "", "fr": "Au début, tout le monde rit : Cyrano a un très grand nez, mais il a beaucoup d'humour.", "en": "At first, everyone laughs: Cyrano has a very big nose, but he's very funny." },
+      { "sp": "", "fr": "Après une heure, Hugo commence à s'ennuyer. Après deux heures, il dort.", "en": "After an hour, Hugo starts to get bored. After two hours, he's asleep." },
+      { "sp": "", "fr": "À la fin, Cyrano meurt sous l'arbre. Tom pleure, et Carla aussi.", "en": "At the end, Cyrano dies under the tree. Tom cries, and so does Carla." },
+      { "sp": "", "fr": "Après le spectacle, au café d'en bas, chacun donne son avis.", "en": "After the show, at the café downstairs, everyone gives their opinion." },
+      { "sp": "Tom", "fr": "C'était tellement émouvant ! J'ai pleuré comme un bébé.", "en": "It was so moving! I cried like a baby." },
+      { "sp": "Carla", "fr": "L'acteur était impressionnant : il a parlé pendant trois heures !", "en": "The actor was impressive: he talked for three hours!" },
+      { "sp": "Camille", "fr": "Moi, j'ai beaucoup apprécié la mise en scène. Elle était très originale, avec les lumières dans l'arbre.", "en": "I really enjoyed the staging. It was very original, with the lights in the tree." },
+      { "sp": "Inès", "fr": "Bof. J'ai trouvé ça un peu décevant. L'histoire est belle, mais les autres acteurs n'étaient pas terribles, et c'était lent.", "en": "Meh. I found it a bit disappointing. The story's beautiful, but the other actors weren't great, and it was slow." },
+      { "sp": "Sophie", "fr": "Moi, je trouve que c'était passionnant, du début à la fin.", "en": "I thought it was gripping, from start to finish." },
+      { "sp": "Antoine", "fr": "Pas mal… Mais j'ai vu le film à Montréal, et il est plus divertissant. Au moins, au cinéma, il y a des sous-titres !", "en": "Not bad… But I saw the film in Montréal, and it's more entertaining. At least at the cinema, there are subtitles!" },
+      { "sp": "Léa", "fr": "Et toi, Hugo ? Tu as trouvé ça intéressant ?", "en": "And you, Hugo? Did you find it interesting?" },
+      { "sp": "Hugo", "fr": "Euh… C'était un peu ennuyeux. Pour moi, c'est un navet.", "en": "Er… It was a bit boring. For me, it's a dud." },
+      { "sp": "Carla", "fr": "Un navet ? Ce n'est pas un film, et ce n'est pas un légume ! Tu as dormi pendant une heure !", "en": "A dud? It isn't a film, and it isn't a vegetable! You slept for an hour!" },
+      { "sp": "Hugo", "fr": "Je ne dormais pas, je réfléchissais !", "en": "I wasn't asleep, I was thinking!" },
+      { "sp": "Léa", "fr": "Ce n'est pas étonnant, alors : tu réfléchis très fort. Tout le théâtre t'a entendu ronfler !", "en": "No wonder, then: you think very loudly. The whole theatre heard you snoring!" },
+      { "sp": "Hugo", "fr": "C'est vrai, je suis nul au théâtre. Mais j'ai fait un rêve génial : j'étais Cyrano !", "en": "True, I'm hopeless at theatre. But I had a brilliant dream: I was Cyrano!" },
+      { "sp": "Tom", "fr": "Alors, ça valait le coup ?", "en": "So, was it worth it?" },
+      { "sp": "Tout le monde", "fr": "Oui !", "en": "Yes!" },
+      { "sp": "Hugo", "fr": "Oui. Surtout pour la vue… et pour la sieste !", "en": "Yes. Especially for the view… and for the nap!" }
+    ]
+  }
+}

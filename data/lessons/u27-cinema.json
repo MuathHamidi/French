@@ -1,0 +1,169 @@
+{
+  "id": "u27-cinema",
+  "type": "vocab",
+  "unit": 27,
+  "title": "Le cinéma et la télévision",
+  "en": "Cinema and TV",
+  "intro": "25 words for an evening at the cinema (**la séance, la bande-annonce, les sous-titres, la version originale, doublé**), for the kinds of film (**la comédie, le drame, l'horreur, la science-fiction**), for the people who make them (**le réalisateur, le scénario, le personnage, le rôle, le tournage**) and for a night in front of the TV (**l'épisode, zapper, la télé-réalité, le jeu télévisé**).",
+  "words": [
+    { "id": "seance", "fr": "séance", "pos": "noun", "g": "f", "ipa": "se.ɑ̃s", "en": "showing, screening (at the cinema); session", "def": "Le moment où un cinéma montre un film, à une heure précise. Aussi : un moment de travail ou de sport.", "def_en": "The time when a cinema shows a film, at a set time. Also: a session of work or sport.", "forms": ["séances"], "examples": [
+      { "fr": "On prend la **séance** de vingt heures ?", "en": "Shall we go to the 8 p.m. showing?" },
+      { "fr": "Vite ! La **séance** commence dans cinq minutes.", "en": "Quick! The showing starts in five minutes." },
+      { "fr": "Le lundi, toutes les **séances** coûtent cinq euros.", "en": "On Mondays, every showing costs five euros." }
+    ] },
+    { "id": "realisateur", "fr": "réalisateur", "pos": "noun", "g": "m", "ipa": "ʁe.a.li.za.tœʁ", "display": "le réalisateur, la réalisatrice", "en": "(film) director", "def": "La personne qui fait un film : elle choisit les acteurs, travaille avec eux et décide de tout.", "def_en": "The person who makes a film: they choose the actors, work with them and decide everything.", "forms": ["réalisatrice", "réalisateurs", "réalisatrices"], "accept": ["réalisatrice", "la réalisatrice", "une réalisatrice"], "examples": [
+      { "fr": "Le **réalisateur** de ce film est québécois.", "en": "This film's director is from Quebec." },
+      { "fr": "Plus tard, je voudrais être **réalisatrice**.", "en": "When I'm older, I'd like to be a director." },
+      { "fr": "Le **réalisateur** parle aux acteurs avant chaque scène.", "en": "The director talks to the actors before each scene." }
+    ] },
+    { "id": "scenario", "fr": "scénario", "pos": "noun", "g": "m", "ipa": "se.na.ʁjo", "en": "script, screenplay; scenario", "def": "L'histoire d'un film, écrite avant le tournage, avec les mots de chaque personnage. Aussi : ce qui peut arriver dans le futur.", "def_en": "The story of a film, written before the shoot, with every character's lines. Also: what might happen in the future.", "forms": ["scénarios"], "examples": [
+      { "fr": "Le **scénario** est excellent, mais les acteurs ne sont pas bons.", "en": "The script is excellent, but the actors aren't good." },
+      { "fr": "Qui a écrit le **scénario** de ce film ?", "en": "Who wrote the screenplay for this film?" },
+      { "fr": "Le pire **scénario** ? Il pleut le jour du concert.", "en": "The worst-case scenario? It rains on the day of the concert." }
+    ] },
+    { "id": "personnage", "fr": "personnage", "pos": "noun", "g": "m", "ipa": "pɛʁ.sɔ.naʒ", "en": "character (in a story)", "def": "Une personne dans une histoire, un film ou un livre.", "def_en": "A person in a story, a film or a book.", "forms": ["personnages"], "examples": [
+      { "fr": "Mon **personnage** préféré, c'est le chat.", "en": "My favourite character is the cat." },
+      { "fr": "Il y a trop de **personnages** dans ce film : je suis perdu !", "en": "There are too many characters in this film: I'm lost!" },
+      { "fr": "Ce **personnage** ressemble à Hugo : il est toujours en retard.", "en": "This character is like Hugo: he's always late." }
+    ], "note": "**le personnage principal** = the main character. A real person is **une personne**." },
+    { "id": "role", "fr": "rôle", "pos": "noun", "g": "m", "ipa": "ʁol", "en": "role, part", "def": "Le personnage qu'un acteur joue. Aussi : ce qu'une personne fait dans un groupe.", "def_en": "The character an actor plays. Also: what someone does in a group.", "forms": ["rôles"], "examples": [
+      { "fr": "Il a un petit **rôle** dans le film : il dit un seul mot.", "en": "He has a small part in the film: he says one word." },
+      { "fr": "Elle joue le **rôle** d'une avocate.", "en": "She plays the part of a lawyer." },
+      { "fr": "Quel est ton **rôle** dans l'équipe ?", "en": "What's your role in the team?" }
+    ] },
+    { "id": "heros", "fr": "héros", "pos": "noun", "g": "m", "hAsp": true, "ipa": "e.ʁo", "display": "le héros, l'héroïne", "en": "hero, heroine; main character", "def": "Le personnage principal d'une histoire. Aussi : une personne très courageuse, qui aide ou sauve les autres.", "def_en": "The main character of a story. Also: a very brave person who helps or saves others.", "forms": ["héroïne", "héroïnes"], "accept": ["héroïne", "l'héroïne", "une héroïne"], "examples": [
+      { "fr": "À la fin, le **héros** sauve la ville.", "en": "At the end, the hero saves the city." },
+      { "fr": "L'**héroïne** du film est une jeune médecin.", "en": "The film's heroine is a young doctor." },
+      { "fr": "Pour Lou, son papa est un **héros**.", "en": "To Lou, her dad is a hero." }
+    ], "note": "The **h** of **héros** is aspirated: *le héros, les héros*, with no liaison. But **l'héroïne**." },
+    { "id": "scene", "fr": "scène", "pos": "noun", "g": "f", "ipa": "sɛn", "en": "scene; stage", "def": "Une partie d'un film ou d'une histoire. Aussi : l'endroit où les acteurs et les musiciens jouent, devant le public.", "def_en": "A part of a film or a story. Also: the place where actors and musicians perform, in front of the audience.", "forms": ["scènes"], "examples": [
+      { "fr": "La dernière **scène** est très triste.", "en": "The last scene is very sad." },
+      { "fr": "Les musiciens montent sur **scène**.", "en": "The musicians go on stage." },
+      { "fr": "Ils ont tourné cette **scène** à Montréal.", "en": "They shot this scene in Montréal." }
+    ] },
+    { "id": "episode", "fr": "épisode", "pos": "noun", "g": "m", "ipa": "e.pi.zɔd", "en": "episode", "def": "Une partie d'une série : on la regarde en une fois.", "def_en": "One part of a series, which you watch in one go.", "forms": ["épisodes"], "examples": [
+      { "fr": "Encore un **épisode**, et je vais dormir !", "en": "One more episode, and then I'm going to bed!" },
+      { "fr": "Hugo a regardé dix **épisodes** en une nuit.", "en": "Hugo watched ten episodes in one night." },
+      { "fr": "Dans le dernier **épisode**, le héros meurt.", "en": "In the last episode, the hero dies." }
+    ] },
+    { "id": "bande-annonce", "fr": "bande-annonce", "pos": "noun", "g": "f", "ipa": "bɑ̃d.a.nɔ̃s", "en": "trailer (for a film)", "def": "Un petit film de deux minutes, avec les meilleures scènes d'un nouveau film, pour donner envie de le voir.", "def_en": "A short two-minute film with the best scenes of a new film, to make you want to see it.", "forms": ["bandes-annonces"], "examples": [
+      { "fr": "J'ai vu la **bande-annonce** : ça a l'air drôle.", "en": "I've seen the trailer: it looks funny." },
+      { "fr": "Avant le film, il y a toujours des **bandes-annonces**.", "en": "Before the film, there are always trailers." },
+      { "fr": "La **bande-annonce** était meilleure que le film !", "en": "The trailer was better than the film!" }
+    ] },
+    { "id": "sous-titre", "fr": "sous-titre", "pos": "noun", "g": "m", "ipa": "su.titʁ", "en": "subtitle", "def": "Le texte écrit en bas de l'écran, qui traduit ce que disent les personnages.", "def_en": "The text written at the bottom of the screen, translating what the characters say.", "forms": ["sous-titres"], "examples": [
+      { "fr": "Je regarde les films anglais avec des **sous-titres**.", "en": "I watch English films with subtitles." },
+      { "fr": "Les **sous-titres** vont trop vite : je n'ai pas le temps de lire !", "en": "The subtitles go too fast: I don't have time to read!" },
+      { "fr": "Tom lit les **sous-titres** en français pour apprendre.", "en": "Tom reads the subtitles in French to learn." }
+    ] },
+    { "id": "version-originale", "fr": "version originale", "pos": "noun", "g": "f", "ipa": "vɛʁ.sjɔ̃ ɔ.ʁi.ʒi.nal", "en": "original version (not dubbed)", "def": "Un film dans la langue des acteurs, souvent avec des sous-titres. On dit aussi « la VO ».", "def_en": "A film in the actors' own language, often with subtitles. Also called 'la VO'.", "forms": ["versions originales", "VO"], "examples": [
+      { "fr": "Je préfère voir les films en **version originale**.", "en": "I prefer to see films in the original version." },
+      { "fr": "Le film est en **version originale**, avec des sous-titres.", "en": "The film is in the original version, with subtitles." },
+      { "fr": "En **VO**, on entend la vraie voix des acteurs.", "en": "In the original version, you hear the actors' real voices." }
+    ] },
+    { "id": "double-film", "fr": "doublé", "pos": "adj", "ipa": "du.ble", "display": "doublé, doublée", "en": "dubbed (film)", "def": "Quand on entend un film dans une autre langue : d'autres personnes parlent à la place des acteurs.", "def_en": "When you hear a film in another language: other people speak instead of the actors.", "forms": ["doublée", "doublés", "doublées"], "accept": ["doublée"], "examples": [
+      { "fr": "En France, beaucoup de films sont **doublés**.", "en": "In France, lots of films are dubbed." },
+      { "fr": "Je n'aime pas les séries **doublées** : les voix sont bizarres.", "en": "I don't like dubbed series: the voices are weird." },
+      { "fr": "Le film est **doublé** en français.", "en": "The film is dubbed into French." }
+    ] },
+    { "id": "comedie", "fr": "comédie", "pos": "noun", "g": "f", "ipa": "kɔ.me.di", "en": "comedy", "def": "Un film ou une histoire drôle, qui fait rire.", "def_en": "A funny film or story, which makes you laugh.", "forms": ["comédies"], "examples": [
+      { "fr": "Ce soir, j'ai envie de voir une **comédie**.", "en": "Tonight I feel like seeing a comedy." },
+      { "fr": "C'est une **comédie** : on a ri pendant deux heures.", "en": "It's a comedy: we laughed for two hours." },
+      { "fr": "Les **comédies** françaises ont souvent du succès.", "en": "French comedies are often successful." }
+    ], "note": "**une comédie musicale** = a musical." },
+    { "id": "drame", "fr": "drame", "pos": "noun", "g": "m", "ipa": "dʁam", "en": "drama; tragedy", "def": "Un film ou une histoire triste et sérieuse. Aussi : une chose très grave qui arrive.", "def_en": "A sad, serious film or story. Also: something very serious that happens.", "forms": ["drames"], "examples": [
+      { "fr": "C'est un **drame** : prends des mouchoirs !", "en": "It's a drama: take some tissues!" },
+      { "fr": "Ce **drame** raconte la vie d'une famille pauvre.", "en": "This drama tells the story of a poor family." },
+      { "fr": "Tu as raté le bus ? Ce n'est pas un **drame** !", "en": "You missed the bus? It's not the end of the world!" }
+    ] },
+    { "id": "horreur", "fr": "horreur", "pos": "noun", "g": "f", "ipa": "ɔ.ʁœʁ", "en": "horror", "def": "Une très grande peur. Aussi : une chose très laide.", "def_en": "Very great fear. Also: something very ugly.", "forms": ["horreurs"], "examples": [
+      { "fr": "Hugo adore les films d'**horreur**.", "en": "Hugo loves horror films." },
+      { "fr": "Tom regarde les films d'**horreur** les yeux fermés.", "en": "Tom watches horror films with his eyes shut." },
+      { "fr": "Quelle **horreur** ! Il y a une araignée dans ma chaussure !", "en": "How horrible! There's a spider in my shoe!" }
+    ], "note": "**un film d'horreur** = a horror film; **Quelle horreur !** = How awful!" },
+    { "id": "science-fiction", "fr": "science-fiction", "pos": "noun", "g": "f", "ipa": "sjɑ̃s.fik.sjɔ̃", "en": "science fiction, sci-fi", "def": "Des histoires qui se passent dans le futur ou dans l'espace, avec des robots, d'autres planètes…", "def_en": "Stories set in the future or in space, with robots, other planets…", "examples": [
+      { "fr": "Dans ce film de **science-fiction**, les robots parlent français.", "en": "In this sci-fi film, the robots speak French." },
+      { "fr": "J'adore les livres de **science-fiction**.", "en": "I love science-fiction books." },
+      { "fr": "La **science-fiction**, ça ne m'intéresse pas.", "en": "Sci-fi doesn't interest me." }
+    ] },
+    { "id": "tournage", "fr": "tournage", "pos": "noun", "g": "m", "ipa": "tuʁ.naʒ", "en": "shoot, filming", "def": "Le moment où on fait un film, avec les acteurs et les caméras.", "def_en": "The time when a film is made, with the actors and the cameras.", "forms": ["tournages"], "examples": [
+      { "fr": "Le **tournage** a duré trois mois.", "en": "The shoot lasted three months." },
+      { "fr": "Pendant le **tournage**, la rue était fermée.", "en": "During filming, the street was closed." },
+      { "fr": "Il y a un **tournage** devant chez moi !", "en": "There's a film shoot outside my place!" }
+    ], "note": "**tourner un film** = to shoot a film." },
+    { "id": "festival", "fr": "festival", "pos": "noun", "g": "m", "ipa": "fɛs.ti.val", "en": "festival", "def": "Une grande fête avec des films, de la musique ou du théâtre, pendant plusieurs jours.", "def_en": "A big celebration with films, music or theatre, over several days.", "forms": ["festivals"], "examples": [
+      { "fr": "Le **festival** de Cannes a lieu chaque année en mai.", "en": "The Cannes festival takes place every year in May." },
+      { "fr": "Cet été, on va à un **festival** de musique.", "en": "This summer, we're going to a music festival." },
+      { "fr": "Le **festival** dure une semaine.", "en": "The festival lasts a week." }
+    ] },
+    { "id": "succes", "fr": "succès", "pos": "noun", "g": "m", "ipa": "syk.sɛ", "en": "success; hit", "def": "Quand beaucoup de gens aiment une chose : un film, un livre, une chanson…", "def_en": "When lots of people like something: a film, a book, a song…", "examples": [
+      { "fr": "Le film a un grand **succès** : les salles sont pleines.", "en": "The film is a big hit: the cinemas are full." },
+      { "fr": "Bonne chance ! Je te souhaite beaucoup de **succès**.", "en": "Good luck! I wish you every success." },
+      { "fr": "Sa première chanson a été un **succès** au Québec.", "en": "Her first song was a hit in Quebec." }
+    ], "note": "**avoir du succès** = to be successful." },
+    { "id": "spectateur", "fr": "spectateur", "pos": "noun", "g": "m", "ipa": "spɛk.ta.tœʁ", "display": "le spectateur, la spectatrice", "en": "spectator, viewer; (les spectateurs) the audience", "def": "Une personne qui regarde un film, un spectacle ou un match.", "def_en": "A person who watches a film, a show or a match.", "forms": ["spectatrice", "spectateurs", "spectatrices"], "accept": ["spectatrice", "la spectatrice", "une spectatrice"], "examples": [
+      { "fr": "Les **spectateurs** applaudissent à la fin du film.", "en": "The audience claps at the end of the film." },
+      { "fr": "Une **spectatrice** reconnaît Hugo.", "en": "A woman in the audience recognises Hugo." },
+      { "fr": "Il y a deux mille **spectateurs** dans le théâtre.", "en": "There are two thousand people in the theatre." }
+    ] },
+    { "id": "effets-speciaux", "fr": "effets spéciaux", "pos": "noun", "g": "m", "ipa": "e.fɛ spe.sjo", "display": "les effets spéciaux", "en": "special effects", "def": "Des images faites par ordinateur, pour montrer des choses impossibles dans la vraie vie.", "def_en": "Computer-made images that show things impossible in real life.", "forms": ["effet spécial"], "examples": [
+      { "fr": "Les **effets spéciaux** sont incroyables !", "en": "The special effects are amazing!" },
+      { "fr": "Ce film a coûté cher à cause des **effets spéciaux**.", "en": "This film cost a lot because of the special effects." },
+      { "fr": "Sans **effets spéciaux**, le film serait ennuyeux.", "en": "Without special effects, the film would be boring." }
+    ] },
+    { "id": "camera", "fr": "caméra", "pos": "noun", "g": "f", "ipa": "ka.me.ʁa", "en": "(film, video) camera", "def": "Un appareil pour faire des films et des vidéos. Pour les photos, on dit « un appareil photo ».", "def_en": "A device for making films and videos. For photos, you say 'un appareil photo'.", "forms": ["caméras"], "examples": [
+      { "fr": "Attention, la **caméra** tourne !", "en": "Careful, the camera's rolling!" },
+      { "fr": "Il y avait des **caméras** partout dans ma rue.", "en": "There were cameras all over my street." },
+      { "fr": "Regardez la **caméra**, s'il vous plaît !", "en": "Look at the camera, please!" }
+    ], "note": "False friend: a camera for photos is **un appareil photo**." },
+    { "id": "zapper", "fr": "zapper", "pos": "verb", "ipa": "za.pe", "en": "to channel-hop, to flick through the channels", "def": "Changer tout le temps de chaîne, avec la télécommande.", "def_en": "To keep changing channels with the remote.", "forms": ["zappe", "zappes", "zappons", "zappez", "zappent", "zappé", "zappais", "zappait", "zappions", "zappiez", "zappaient", "zapperai", "zapperas", "zappera", "zapperons", "zapperez", "zapperont", "zapperais", "zapperait", "zapperions", "zapperiez", "zapperaient"], "examples": [
+      { "fr": "Arrête de **zapper** : je veux voir le film !", "en": "Stop channel-hopping: I want to watch the film!" },
+      { "fr": "Hugo **zappe** pendant une heure, et il ne regarde rien.", "en": "Hugo flicks through the channels for an hour and doesn't watch anything." },
+      { "fr": "Avant, on **zappait** ; maintenant, on choisit sur internet.", "en": "We used to channel-hop; now we choose online." }
+    ] },
+    { "id": "tele-realite", "fr": "télé-réalité", "pos": "noun", "g": "f", "ipa": "te.le.ʁe.a.li.te", "en": "reality TV", "def": "Des émissions avec des gens normaux, pas des acteurs : une caméra les suit toute la journée.", "def_en": "Shows with ordinary people, not actors: a camera follows them all day.", "examples": [
+      { "fr": "Je déteste la **télé-réalité**.", "en": "I hate reality TV." },
+      { "fr": "Dans cette **télé-réalité**, dix personnes vivent sur une île.", "en": "In this reality show, ten people live on an island." },
+      { "fr": "Tu regardes la **télé-réalité**, toi ?", "en": "Do you watch reality TV?" }
+    ] },
+    { "id": "jeu-televise", "fr": "jeu télévisé", "pos": "noun", "g": "m", "ipa": "ʒø te.le.vi.ze", "en": "game show, quiz show", "def": "Une émission où des personnes répondent à des questions pour gagner de l'argent ou des cadeaux.", "def_en": "A show where people answer questions to win money or prizes.", "forms": ["jeux télévisés"], "examples": [
+      { "fr": "Mamie regarde un **jeu télévisé** tous les soirs.", "en": "Grandma watches a quiz show every evening." },
+      { "fr": "Il a gagné une voiture dans un **jeu télévisé** !", "en": "He won a car on a game show!" },
+      { "fr": "Dans un **jeu télévisé**, Léa gagnerait beaucoup d'argent.", "en": "On a quiz show, Léa would win a lot of money." }
+    ] }
+  ],
+  "story": {
+    "title": "Le premier rôle d'Antoine",
+    "en": "Early June: Antoine takes everyone to see a film from Quebec… in which he has a part.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début juin, un mercredi : en France, c'est le jour où les nouveaux films sortent. Ce soir, Antoine a une surprise pour ses cousins et leurs amis.", "en": "Early June, a Wednesday: in France, that's the day new films come out. Tonight Antoine has a surprise for his cousins and their friends." },
+      { "sp": "Antoine", "fr": "L'année dernière, il y a eu un tournage dans ma rue, à Montréal. Et devinez qui conduit le taxi dans le film ?", "en": "Last year there was a film shoot in my street in Montréal. And guess who drives the taxi in the film?" },
+      { "sp": "Hugo", "fr": "Toi ? Tu as un rôle dans un film ?", "en": "You? You've got a part in a film?" },
+      { "sp": "Antoine", "fr": "Un tout petit rôle. Mais le film a eu un grand succès au Québec, et il sort en France aujourd'hui !", "en": "A tiny part. But the film was a big hit in Quebec, and it comes out in France today!" },
+      { "sp": "Sophie", "fr": "C'est une comédie ?", "en": "Is it a comedy?" },
+      { "sp": "Antoine", "fr": "Oui, une comédie… avec un peu de drame à la fin.", "en": "Yes, a comedy… with a bit of drama at the end." },
+      { "sp": "Hugo", "fr": "Dommage. Moi, je préfère les films d'horreur, ou la science-fiction, avec beaucoup d'effets spéciaux.", "en": "Shame. I prefer horror films, or sci-fi, with lots of special effects." },
+      { "sp": "Tom", "fr": "Pas d'horreur, s'il te plaît ! Après le dernier film, j'ai dormi avec la lumière pendant une semaine.", "en": "No horror, please! After the last one, I slept with the light on for a week." },
+      { "sp": "", "fr": "Ils prennent la séance de vingt heures. Le film est en version originale, avec des sous-titres.", "en": "They go to the 8 p.m. showing. The film is in the original version, with subtitles." },
+      { "sp": "Hugo", "fr": "Des sous-titres ? Mais il est en français !", "en": "Subtitles? But it's in French!" },
+      { "sp": "Antoine", "fr": "Oui, mais avec notre accent, les Français ne comprennent pas tout !", "en": "Yes, but with our accent, the French don't understand everything!" },
+      { "sp": "Léa", "fr": "Heureusement, il n'est pas doublé. On n'entendrait pas ta vraie voix !", "en": "Luckily, it isn't dubbed. We wouldn't hear your real voice!" },
+      { "sp": "", "fr": "Avant le film, il y a des publicités et une bande-annonce. Tout à coup, sur l'écran, on voit Hugo tomber dans une poubelle : c'est une publicité pour trier ses déchets !", "en": "Before the film, there are adverts and a trailer. Suddenly, on the screen, there's Hugo falling into a bin: it's an advert for sorting your rubbish!" },
+      { "sp": "", "fr": "Tous les spectateurs rient. Une spectatrice se tourne vers Hugo.", "en": "The whole audience laughs. A woman turns towards Hugo." },
+      { "sp": "La spectatrice", "fr": "C'est vous, l'homme de la poubelle ? Je peux avoir une photo ?", "en": "Is that you, the man in the bin? Can I have a photo?" },
+      { "sp": "Hugo", "fr": "Bien sûr. Il faut être gentil avec son public.", "en": "Of course. You have to be nice to your audience." },
+      { "sp": "", "fr": "Le film commence. Le héros est un vieux musicien qui cherche sa fille partout dans Montréal.", "en": "The film starts. The hero is an old musician looking for his daughter all over Montréal." },
+      { "sp": "", "fr": "Au milieu du film, il y a une scène dans un taxi. Le chauffeur se tourne vers la caméra et dit : « Bonsoir ! »", "en": "Halfway through the film, there's a scene in a taxi. The driver turns to the camera and says: 'Good evening!'" },
+      { "sp": "Antoine", "fr": "C'est moi ! C'est moi !", "en": "That's me! That's me!" },
+      { "sp": "", "fr": "C'est tout : son personnage dit un mot, et il disparaît. Mais toute la salle a entendu Antoine, et tout le monde rit encore.", "en": "That's all: his character says one word and disappears. But the whole cinema heard Antoine, and everyone laughs again." },
+      { "sp": "", "fr": "Après la séance, au café d'en bas.", "en": "After the film, at the café downstairs." },
+      { "sp": "Sophie", "fr": "Le scénario est très drôle, et le réalisateur est génial.", "en": "The script is very funny, and the director is brilliant." },
+      { "sp": "Antoine", "fr": "Le réalisateur dit que la caméra m'adore ! En octobre, il va montrer le film au festival Lumière, ici, à Lyon.", "en": "The director says the camera loves me! In October, he's showing the film at the Lumière festival, here in Lyon." },
+      { "sp": "Léa", "fr": "Attention, Hugo : tu n'es plus la seule vedette de la famille !", "en": "Careful, Hugo: you're not the family's only star any more!" },
+      { "sp": "Hugo", "fr": "Et alors ? Moi, une chaîne m'a proposé une émission de télé-réalité. Et un jeu télévisé !", "en": "So what? A channel offered me a reality TV show. And a quiz show!" },
+      { "sp": "Tom", "fr": "Et tu as dit oui ?", "en": "And did you say yes?" },
+      { "sp": "Hugo", "fr": "Non. Le soir, je suis trop occupé : je regarde un épisode de ma série, et après, je zappe.", "en": "No. In the evenings, I'm too busy: I watch an episode of my series, and then I channel-hop." }
+    ]
+  }
+}

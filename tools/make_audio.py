@@ -114,6 +114,10 @@ FIXES = {
     "en plus": "ɑ̃ plˈys", "de plus en plus": "də plyz ɑ̃ plˈy",  # en plus (what's more, extra) keeps its s
     "yanis": "janˈis",  # the final s of the name is pronounced
     "le leur": "lə lˈœʁ", "la leur": "la lˈœʁ", "les leurs": "le lˈœʁ",  # the voice says /løʁ/ after an article
+    "quiz": "kwˈiz",  # the voice says /kiz/
+    "vo": "veˈo", "bd": "bedˈe",  # said letter by letter (the voice reads "BD" as "boulevard")
+    "saint-exupéry": "sɛ̃tɛɡzypeʁˈi",  # otherwise read in English
+    "chef-d'œuvre": "ʃɛdˈœvʁ", "chefs-d'œuvre": "ʃɛdˈœvʁ",  # the f is silent
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

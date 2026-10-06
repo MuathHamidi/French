@@ -1,0 +1,165 @@
+{
+  "id": "u27-dont-lequel",
+  "type": "grammar",
+  "unit": 27,
+  "title": "Le film dont tout le monde parle",
+  "en": "Relative pronouns: dont and lequel",
+  "intro": "**dont** replaces **de** + a noun: *Tout le monde parle **de ce film*** → *le film **dont** tout le monde parle*. It also means **whose**. After other prepositions, French uses **lequel** (*la ville **dans laquelle** j'habite*), which can also ask **which one?**",
+  "cases": [
+    { "id": "dont-de", "label": "dont = de + noun", "rule": "When the verb or expression takes **de** (*parler de, avoir besoin de, avoir peur de, être fier de, jouer de*), the relative pronoun is **dont**: *J'ai besoin **de ce livre**.* → *le livre **dont** j'ai besoin*." },
+    { "id": "dont-whose", "label": "dont = whose", "rule": "**dont** + a noun with its article means **whose**: *C'est un écrivain. **Ses** livres sont célèbres.* → *C'est un écrivain **dont les** livres sont célèbres.* After **dont**, use **le, la, les**, never **son, sa, ses**." },
+    { "id": "lequel-prep", "label": "preposition + lequel", "rule": "After a preposition (**avec, pour, sur, dans, sous, sans, par**), use **lequel, laquelle, lesquels, lesquelles**, which agree with the noun: *le stylo **avec lequel** j'écris, la ville **dans laquelle** j'habite*. For people, **qui** is more usual: *l'ami **avec qui** je pars*." },
+    { "id": "auquel", "label": "à + lequel = auquel", "rule": "**à** + lequel joins up, like **à + le = au**: **auquel, à laquelle, auxquels, auxquelles**: *le concours **auquel** je participe, la question **à laquelle** je pense*." },
+    { "id": "duquel", "label": "à côté duquel, au milieu de laquelle", "rule": "After a long preposition ending in **de** (*près de, à côté de, en face de, au milieu de, au bord de*), use **duquel, de laquelle, desquels, desquelles**: *le café **à côté duquel** j'habite, la place **au milieu de laquelle** il y a une statue*. **dont** is impossible here." },
+    { "id": "lequel-question", "label": "Lequel ? Which one?", "rule": "**lequel, laquelle, lesquels, lesquelles** also ask **which one(s)?**, agreeing with the noun they stand for: *J'ai deux billets. **Lequel** veux-tu ? **Laquelle** de ces villes est la plus grande ?*" }
+  ],
+  "sections": [
+    {
+      "title": "1. dont = de + noun",
+      "table": {
+        "head": ["With de", "With dont"], "frCols": [0, 1],
+        "rows": [
+          ["Je parle de ce film.", "le film dont je parle"],
+          ["J'ai besoin de ce livre.", "le livre dont j'ai besoin"],
+          ["Hugo a peur de cet animal.", "l'animal dont Hugo a peur"],
+          ["Elle est fière de son dessin.", "le dessin dont elle est fière"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est le film {dont tout le monde parle|dont-de}.", "en": "It's the film everyone's talking about." },
+        { "fr": "Voilà le livre {dont j'ai besoin|dont-de} pour le cours.", "en": "Here's the book I need for the class." }
+      ],
+      "tip": "English often puts the preposition at the end: *the film everyone's talking **about***. French puts **dont** straight after the noun."
+    },
+    {
+      "title": "2. dont = whose",
+      "table": {
+        "head": ["Two sentences", "One sentence"], "frCols": [0, 1],
+        "rows": [
+          ["C'est un écrivain. Ses livres sont célèbres.", "C'est un écrivain dont les livres sont célèbres."],
+          ["J'ai une amie. Son père est acteur.", "J'ai une amie dont le père est acteur."],
+          ["C'est un groupe. Sa chanson est un tube.", "C'est un groupe dont la chanson est un tube."]
+        ]
+      },
+      "examples": [
+        { "fr": "Saint-Exupéry est l'écrivain {dont le livre|dont-whose} le plus célèbre est le Petit Prince.", "en": "Saint-Exupéry is the writer whose most famous book is The Little Prince." },
+        { "fr": "J'ai un cousin {dont la voix|dont-whose} est magnifique.", "en": "I have a cousin whose voice is magnificent." }
+      ],
+      "tip": "After **dont**, the word order stays normal: *l'ami **dont le frère** habite à Londres*."
+    },
+    {
+      "title": "3. Preposition + lequel",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "lequel", "lesquels"],
+          ["feminine", "laquelle", "lesquelles"]
+        ]
+      },
+      "examples": [
+        { "fr": "Lyon est la ville {dans laquelle|lequel-prep} les frères Lumière ont tourné le premier film.", "en": "Lyon is the city where the Lumière brothers shot the first film." },
+        { "fr": "Écrivez votre réponse sur le papier {sur lequel|lequel-prep} il y a votre nom.", "en": "Write your answer on the paper that has your name on it." }
+      ],
+      "tip": "For people, **qui** is simpler: *la fille **avec qui** je danse*. **lequel** for people is correct, but more formal."
+    },
+    {
+      "title": "4. à + lequel = auquel",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "auquel", "auxquels"],
+          ["feminine", "à laquelle", "auxquelles"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est la seule question {à laquelle|auquel} je connais la réponse !", "en": "It's the only question I know the answer to!" },
+        { "fr": "C'est le festival {auquel|auquel} les Lyonnais vont chaque été.", "en": "It's the festival the people of Lyon go to every summer." }
+      ],
+      "tip": "Think of verbs with **à**: *penser à, participer à, répondre à, aller à* → *le concours **auquel** je participe*."
+    },
+    {
+      "title": "5. de + lequel: à côté duquel",
+      "table": {
+        "head": ["", "Singular", "Plural"], "frCols": [1, 2],
+        "rows": [
+          ["masculine", "duquel", "desquels"],
+          ["feminine", "de laquelle", "desquelles"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est la place {au milieu de laquelle|duquel} il y a un roi à cheval.", "en": "It's the square with a king on horseback in the middle." },
+        { "fr": "Le café {à côté duquel|duquel} j'habite est très bruyant.", "en": "The café I live next to is very noisy." }
+      ],
+      "tip": "**dont** only replaces a simple **de**. After **à côté de, près de, en face de, au milieu de**, use **duquel** or **de laquelle**."
+    },
+    {
+      "title": "6. Lequel ? Which one?",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai deux billets. Lequel veux-tu ?", "I've got two tickets. Which one do you want?"],
+          ["Laquelle de ces villes est la plus grande ?", "Which of these cities is the biggest?"],
+          ["Lesquels préfères-tu ?", "Which ones do you prefer?"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il y a deux prix. {Lequel|lequel-question} voulez-vous ?", "en": "There are two prizes. Which one do you want?" },
+        { "fr": "{Laquelle|lequel-question} de ces réponses est la bonne ?", "en": "Which of these answers is the right one?" }
+      ],
+      "tip": "With a noun, ask with **quel**: *quel billet ?* Without a noun, use **lequel**: ***Lequel** ?*"
+    }
+  ],
+  "mistakes": [
+    { "wrong": "le film que je parle", "right": "le film dont je parle", "why": "**parler de** → **dont**." },
+    { "wrong": "l'écrivain dont ses livres sont célèbres", "right": "l'écrivain dont les livres sont célèbres", "why": "After **dont**, use **le, la, les**, not **son, sa, ses**." },
+    { "wrong": "la ville dans lequel j'habite", "right": "la ville dans laquelle j'habite", "why": "**ville** is feminine: **laquelle**." },
+    { "wrong": "le concours à lequel je participe", "right": "le concours auquel je participe", "why": "**à + lequel** becomes **auquel**." },
+    { "wrong": "le café à côté dont j'habite", "right": "le café à côté duquel j'habite", "why": "After **à côté de**, use **duquel**, never **dont**." },
+    { "wrong": "J'ai deux billets. Quel veux-tu ?", "right": "J'ai deux billets. Lequel veux-tu ?", "why": "Without a noun, use **lequel**." }
+  ],
+  "story": {
+    "title": "Le quiz du café",
+    "en": "19 June: Marc ends the school year with a culture quiz at the café downstairs. The last question is about someone everybody knows.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dix-neuf juin, c'est le dernier [cours|cours] de l'année. Pour fêter ça, Marc organise un quiz au café d'en bas.", "en": "19 June is the last class of the year. To celebrate, Marc is running a quiz at the café downstairs." },
+      { "sp": "", "fr": "Il y a deux équipes : Léa, Sophie et Tom contre Hugo, Carla, Inès et Antoine.", "en": "There are two teams: Léa, Sophie and Tom against Hugo, Carla, Inès and Antoine." },
+      { "sp": "Marc", "fr": "Écrivez vos réponses sur le papier {sur lequel|lequel-prep} il y a le nom de votre équipe. Première question : comment s'appelle l'écrivain lyonnais {dont le livre|dont-whose} le plus célèbre est le Petit Prince ?", "en": "Write your answers on the paper with your team's name on it. First question: what's the name of the Lyon writer whose most famous book is The Little Prince?" },
+      { "sp": "Tom", "fr": "Saint-Exupéry ! C'est le livre {dont je parle|dont-de} tout le temps !", "en": "Saint-Exupéry! It's the book I talk about all the time!" },
+      { "sp": "Marc", "fr": "Bravo ! Deuxième question : quelle est la ville {dans laquelle|lequel-prep} les frères Lumière ont tourné le premier film de l'histoire ?", "en": "Well done! Second question: in which city did the Lumière brothers shoot the first film in history?" },
+      { "sp": "Hugo", "fr": "Paris !", "en": "Paris!" },
+      { "sp": "Carla", "fr": "Mais non, Hugo : Lyon ! La ville {dans laquelle|lequel-prep} tu habites !", "en": "No, Hugo: Lyon! The city you live in!" },
+      { "sp": "Marc", "fr": "Troisième question : comment s'appelle l'instrument {dont joue|dont-de} un batteur ?", "en": "Third question: what's the instrument a drummer plays called?" },
+      { "sp": "Antoine", "fr": "La batterie ! C'est le seul instrument {dont je ne joue pas|dont-de}.", "en": "The drums! It's the only instrument I don't play." },
+      { "sp": "Marc", "fr": "Quatrième question : quelle est la place {au milieu de laquelle|duquel} il y a la statue d'un roi à cheval ?", "en": "Fourth question: which square has the statue of a king on horseback in the middle?" },
+      { "sp": "Sophie", "fr": "La place Bellecour ! C'est la place {à côté de laquelle|duquel} on habite, Léa et moi.", "en": "Place Bellecour! It's the square Léa and I live next to." },
+      { "sp": "Marc", "fr": "Cinquième question : comment s'appelle le festival {auquel|auquel} les Lyonnais vont chaque été, dans le théâtre romain ?", "en": "Fifth question: what's the festival the people of Lyon go to every summer, in the Roman theatre?" },
+      { "sp": "Inès", "fr": "Les Nuits de Fourvière ! On y était la semaine dernière… et Hugo a dormi.", "en": "The Nuits de Fourvière! We were there last week… and Hugo slept." },
+      { "sp": "Marc", "fr": "Sixième question : le premier film dure cinquante secondes, cinq minutes ou une heure ? {Laquelle|lequel-question} de ces réponses est la bonne ?", "en": "Sixth question: does the first film last fifty seconds, five minutes or an hour? Which of these answers is right?" },
+      { "sp": "Tom", "fr": "Cinquante secondes !", "en": "Fifty seconds!" },
+      { "sp": "Marc", "fr": "Bravo ! Trois points pour chaque équipe. Dernière question, {à laquelle|auquel} tout le monde peut répondre, je pense…", "en": "Well done! Three points each. The last question, which I think everyone can answer…" },
+      { "sp": "Marc", "fr": "Comment s'appelle le Lyonnais {dont la vidéo|dont-whose} est passée à la télé, et qui est tombé dans une poubelle ?", "en": "What's the name of the Lyonnais whose video was on TV, and who fell into a bin?" },
+      { "sp": "", "fr": "Tout le monde regarde Hugo. Les deux équipes écrivent la même réponse.", "en": "Everyone looks at Hugo. Both teams write the same answer." },
+      { "sp": "Hugo", "fr": "Enfin une question {à laquelle|auquel} je connais la réponse !", "en": "At last, a question I know the answer to!" },
+      { "sp": "Marc", "fr": "Alors, les deux équipes gagnent ! Il y a deux prix : un livre et un disque. {Lequel|lequel-question} voulez-vous ?", "en": "So both teams win! There are two prizes: a book and a record. Which one do you want?" },
+      { "sp": "Hugo", "fr": "Le disque ! Le livre, c'est pour l'équipe de ma sœur : elle lit tout le temps.", "en": "The record! The book is for my sister's team: she reads all the time." }
+    ]
+  },
+  "quiz": [
+    { "case": "dont-de", "type": "mc", "q": "C'est le film ___ tout le monde parle.", "en": "It's the film everyone's talking about.", "options": ["dont", "que", "qui"], "answer": "dont" },
+    { "case": "dont-de", "type": "type", "q": "Voilà le livre ___ j'ai besoin.", "en": "Here's the book I need.", "answer": "dont" },
+    { "case": "dont-de", "type": "mc", "q": "L'araignée ___ Lou a peur est sous le lit.", "en": "The spider Lou's scared of is under the bed.", "options": ["dont", "que", "où"], "answer": "dont" },
+    { "case": "dont-whose", "type": "mc", "q": "J'ai une amie ___ le père est acteur.", "en": "I have a friend whose father is an actor.", "options": ["dont", "qui", "que"], "answer": "dont" },
+    { "case": "dont-whose", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["C'est l'écrivain dont les livres sont célèbres.", "C'est l'écrivain dont ses livres sont célèbres.", "C'est l'écrivain que les livres sont célèbres."], "answer": "C'est l'écrivain dont les livres sont célèbres.", "say": "C'est l'écrivain dont les livres sont célèbres." },
+    { "case": "lequel-prep", "type": "mc", "q": "La ville dans ___ j'habite est très belle.", "en": "The town I live in is very beautiful.", "options": ["laquelle", "lequel", "qui"], "answer": "laquelle" },
+    { "case": "lequel-prep", "type": "mc", "q": "Le stylo avec ___ j'écris est bleu.", "en": "The pen I write with is blue.", "options": ["lequel", "laquelle", "dont"], "answer": "lequel" },
+    { "case": "lequel-prep", "type": "mc", "q": "Les raisons pour ___ je reste sont simples.", "en": "The reasons why I'm staying are simple.", "options": ["lesquelles", "lesquels", "laquelle"], "answer": "lesquelles" },
+    { "case": "auquel", "type": "mc", "q": "Le concours ___ je participe est difficile.", "en": "The competition I'm taking part in is hard.", "options": ["auquel", "à lequel", "dont"], "answer": "auquel" },
+    { "case": "auquel", "type": "mc", "q": "C'est la question ___ je pense.", "en": "It's the question I'm thinking about.", "options": ["à laquelle", "auquel", "dont"], "answer": "à laquelle" },
+    { "case": "auquel", "type": "type", "q": "Les festivals ___ nous allons sont gratuits.", "en": "The festivals we go to are free.", "answer": "auxquels" },
+    { "case": "duquel", "type": "mc", "q": "Le café à côté ___ j'habite est bruyant.", "en": "The café I live next to is noisy.", "options": ["duquel", "dont", "de lequel"], "answer": "duquel" },
+    { "case": "duquel", "type": "mc", "q": "C'est la place au milieu ___ il y a une statue.", "en": "It's the square with a statue in the middle.", "options": ["de laquelle", "dont", "duquel"], "answer": "de laquelle" },
+    { "case": "lequel-question", "type": "mc", "q": "J'ai deux billets. ___ veux-tu ?", "en": "I've got two tickets. Which one do you want?", "options": ["Lequel", "Quel", "Laquelle"], "answer": "Lequel" },
+    { "case": "lequel-question", "type": "mc", "q": "___ de ces villes est la plus grande ?", "en": "Which of these cities is the biggest?", "options": ["Laquelle", "Lequel", "Quelle"], "answer": "Laquelle" }
+  ]
+}
