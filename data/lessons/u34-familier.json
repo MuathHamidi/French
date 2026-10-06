@@ -1,0 +1,169 @@
+{
+  "id": "u34-familier",
+  "type": "vocab",
+  "unit": 34,
+  "title": "Le français familier",
+  "en": "Informal French",
+  "intro": "25 everyday informal words, the ones you hear more often than you read them: people (**le mec, la nana, le pote, le gosse, le flic**), work and money (**le boulot, bosser, le fric**), everyday things (**la bouffe, bouffer, la bagnole, les fringues, le bouquin, le truc, le machin**), short forms (**l'appart, l'ordi, la fac, le petit-déj**) and a few more (**rigoler, piger, marrant, dingue, vachement, un coup de fil**). Use them with friends and family, not in a job interview!",
+  "words": [
+    { "id": "mec", "fr": "mec", "pos": "noun", "g": "m", "ipa": "mɛk", "en": "guy, bloke", "def": "Un homme, un garçon (familier).", "def_en": "A man, a boy (informal).", "forms": ["mecs"], "examples": [
+      { "fr": "Enzo est un **mec** sympa.", "en": "Enzo is a nice guy." },
+      { "fr": "Salut, les **mecs** !", "en": "Hi, guys!" },
+      { "fr": "C'est qui, ce **mec** ?", "en": "Who's that guy?" }
+    ] },
+    { "id": "nana", "fr": "nana", "pos": "noun", "g": "f", "ipa": "na.na", "en": "girl, woman; (ma nana) my girlfriend", "def": "Une femme, une fille (familier). Avec « ma » : ma copine.", "def_en": "A woman, a girl (informal). With 'ma': my girlfriend.", "forms": ["nanas"], "examples": [
+      { "fr": "Ma **nana** adore l'anglais.", "en": "My girlfriend loves English." },
+      { "fr": "C'est une **nana** très drôle.", "en": "She's a really funny girl." },
+      { "fr": "Les **nanas** sont au café.", "en": "The girls are at the café." }
+    ] },
+    { "id": "pote", "fr": "pote", "pos": "noun", "g": "m", "both": true, "ipa": "pɔt", "en": "mate, pal", "def": "Un ami, un copain (familier).", "def_en": "A friend (informal).", "forms": ["potes"], "examples": [
+      { "fr": "C'est mon meilleur **pote**.", "en": "He's my best mate." },
+      { "fr": "Enzo parle comme ses **potes**.", "en": "Enzo talks like his mates." },
+      { "fr": "Je sors avec des **potes** ce soir.", "en": "I'm going out with some mates tonight." }
+    ] },
+    { "id": "gosse", "fr": "gosse", "pos": "noun", "g": "m", "both": true, "ipa": "ɡɔs", "en": "kid", "def": "Un enfant (familier).", "def_en": "A child (informal).", "note": "Careful in Quebec, where **gosses** is a rude word: say *les enfants* there.", "forms": ["gosses"], "examples": [
+      { "fr": "Quand il était **gosse**, il parlait si bien.", "en": "When he was a kid, he spoke so nicely." },
+      { "fr": "Les **gosses** jouent dans le parc.", "en": "The kids are playing in the park." },
+      { "fr": "Arrête, tu fais le **gosse** !", "en": "Stop it, you're acting like a kid!" }
+    ] },
+    { "id": "boulot", "fr": "boulot", "pos": "noun", "g": "m", "ipa": "bu.lo", "en": "job, work (informal)", "def": "Le travail, un emploi (familier).", "def_en": "Work, a job (informal).", "forms": ["boulots"], "examples": [
+      { "fr": "Enzo a trouvé un **boulot** à la boulangerie.", "en": "Enzo has found a job at the bakery." },
+      { "fr": "Je rentre du **boulot** à six heures.", "en": "I get home from work at six." },
+      { "fr": "Quel **boulot** !", "en": "What a lot of work!" }
+    ] },
+    { "id": "bosser", "fr": "bosser", "pos": "verb", "ipa": "bɔ.se", "en": "to work (informal)", "def": "Travailler (familier).", "def_en": "To work (informal).", "forms": ["bosse", "bosses", "bossons", "bossez", "bossent", "bossé", "bossée", "bossés", "bossées", "bossais", "bossait", "bossions", "bossiez", "bossaient", "bosserai", "bosseras", "bossera", "bosserons", "bosserez", "bosseront", "bosserais", "bosserait", "bosserions", "bosseriez", "bosseraient", "bossant", "bossai", "bossas", "bossa", "bossâmes", "bossâtes", "bossèrent"], "examples": [
+      { "fr": "Maintenant, je **bosse** ici.", "en": "I work here now." },
+      { "fr": "Tu **bosses** demain ?", "en": "Are you working tomorrow?" },
+      { "fr": "Il a **bossé** toute la nuit.", "en": "He worked all night." }
+    ] },
+    { "id": "fric", "fr": "fric", "pos": "noun", "g": "m", "ipa": "fʁik", "en": "money, cash (informal)", "def": "L'argent, en français familier.", "def_en": "Money, in informal French.", "examples": [
+      { "fr": "Je n'ai plus de **fric**.", "en": "I've got no money left." },
+      { "fr": "Avec mon **fric**, je vais acheter des fringues.", "en": "With my money, I'm going to buy some clothes." },
+      { "fr": "Ça coûte beaucoup de **fric** !", "en": "That costs a lot of money!" }
+    ] },
+    { "id": "bouffe", "fr": "bouffe", "pos": "noun", "g": "f", "ipa": "buf", "en": "food, grub", "def": "La nourriture, les repas (familier).", "def_en": "Food, meals (informal).", "examples": [
+      { "fr": "La **bouffe** est bonne, ici !", "en": "The food's good here!" },
+      { "fr": "Qui apporte la **bouffe** pour la fête ?", "en": "Who's bringing the food for the party?" },
+      { "fr": "Ici, c'est de la bonne **bouffe**.", "en": "Here, it's good grub." }
+    ] },
+    { "id": "bouffer", "fr": "bouffer", "pos": "verb", "ipa": "bu.fe", "en": "to eat, to scoff", "def": "Manger (familier).", "def_en": "To eat (informal).", "forms": ["bouffe", "bouffes", "bouffons", "bouffez", "bouffent", "bouffé", "bouffée", "bouffés", "bouffées", "bouffais", "bouffait", "bouffions", "bouffiez", "bouffaient", "boufferai", "boufferas", "bouffera", "boufferons", "boufferez", "boufferont", "boufferais", "boufferait", "boufferions", "boufferiez", "boufferaient", "bouffant", "bouffai", "bouffas", "bouffa", "bouffâmes", "bouffâtes", "bouffèrent"], "examples": [
+      { "fr": "Il **bouffe** nos croissants !", "en": "He's scoffing our croissants!" },
+      { "fr": "On va **bouffer** ?", "en": "Shall we go and eat?" },
+      { "fr": "Hugo a **bouffé** toute la pizza.", "en": "Hugo ate the whole pizza." }
+    ] },
+    { "id": "bagnole", "fr": "bagnole", "pos": "noun", "g": "f", "ipa": "ba.ɲɔl", "en": "car (informal)", "def": "Une voiture (familier).", "def_en": "A car (informal).", "forms": ["bagnoles"], "examples": [
+      { "fr": "Un jour, j'aurai une **bagnole** !", "en": "One day, I'll have a car!" },
+      { "fr": "Ta **bagnole** est mal garée.", "en": "Your car's badly parked." },
+      { "fr": "Il adore les belles **bagnoles**.", "en": "He loves nice cars." }
+    ] },
+    { "id": "fringues", "fr": "fringues", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "fʁɛ̃ɡ", "en": "clothes, gear", "def": "Les vêtements (familier).", "def_en": "Clothes (informal).", "examples": [
+      { "fr": "D'abord, je vais acheter des **fringues**.", "en": "First, I'm going to buy some clothes." },
+      { "fr": "Elle a toujours de belles **fringues**.", "en": "She always has nice clothes." },
+      { "fr": "Range tes **fringues** !", "en": "Put your clothes away!" }
+    ] },
+    { "id": "bouquin", "fr": "bouquin", "pos": "noun", "g": "m", "ipa": "bu.kɛ̃", "en": "book (informal)", "def": "Un livre (familier).", "def_en": "A book (informal).", "forms": ["bouquins"], "examples": [
+      { "fr": "Moi, les **bouquins**, c'est pas mon truc.", "en": "Books aren't my thing." },
+      { "fr": "Tu me prêtes ce **bouquin** ?", "en": "Will you lend me this book?" },
+      { "fr": "Mamie a trois cents **bouquins**.", "en": "Grandma has three hundred books." }
+    ] },
+    { "id": "flic", "fr": "flic", "pos": "noun", "g": "m", "both": true, "ipa": "flik", "en": "cop", "def": "Un policier (familier).", "def_en": "A police officer (informal).", "forms": ["flics"], "examples": [
+      { "fr": "Mamie, c'est un **flic** !", "en": "Grandma, it's a cop!" },
+      { "fr": "Les **flics** sont arrivés.", "en": "The cops arrived." },
+      { "fr": "Il regarde des films de **flics**.", "en": "He watches cop films." }
+    ] },
+    { "id": "truc", "fr": "truc", "pos": "noun", "g": "m", "ipa": "tʁyk", "en": "thing, thingy; trick", "def": "Une chose, surtout quand on ne connaît pas son nom (familier).", "def_en": "A thing, especially when you don't know what it's called (informal).", "note": "*C'est pas mon truc* = it's not my thing.", "forms": ["trucs"], "examples": [
+      { "fr": "C'est quoi, ce **truc** ?", "en": "What's this thing?" },
+      { "fr": "Le sport, c'est pas mon **truc**.", "en": "Sport isn't my thing." },
+      { "fr": "J'ai beaucoup de **trucs** à faire.", "en": "I've got lots of things to do." }
+    ] },
+    { "id": "machin", "fr": "machin", "pos": "noun", "g": "m", "ipa": "ma.ʃɛ̃", "en": "thingummy, whatsit; what's-his-name", "def": "Une chose ou une personne dont on a oublié le nom (familier).", "def_en": "A thing or a person whose name you've forgotten (informal).", "forms": ["machins"], "examples": [
+      { "fr": "Passe-moi le **machin**, là… le couteau à pain !", "en": "Pass me the whatsit, there… the bread knife!" },
+      { "fr": "Il y a un **machin** bizarre dans ton sac.", "en": "There's a weird thingy in your bag." },
+      { "fr": "Tu te souviens de **Machin** ?", "en": "Do you remember what's-his-name?" }
+    ] },
+    { "id": "appart", "fr": "appart", "pos": "noun", "g": "m", "ipa": "a.paʁt", "en": "flat, apartment (informal)", "def": "Un logement dans un immeuble (familier).", "def_en": "A home in a block of flats (informal).", "forms": ["apparts"], "examples": [
+      { "fr": "Mon **appart** est au troisième.", "en": "My flat's on the third floor." },
+      { "fr": "Ton **appart** est vachement grand !", "en": "Your flat is really big!" },
+      { "fr": "Ils cherchent un **appart** à Lyon.", "en": "They're looking for a flat in Lyon." }
+    ] },
+    { "id": "ordi", "fr": "ordi", "pos": "noun", "g": "m", "ipa": "ɔʁ.di", "en": "computer (informal)", "def": "Une machine pour travailler, jouer ou aller sur internet (familier).", "def_en": "A machine for working, playing or going online (informal).", "forms": ["ordis"], "examples": [
+      { "fr": "Il a passé l'été devant son **ordi**.", "en": "He spent the summer in front of his computer." },
+      { "fr": "Mon **ordi** est encore en panne.", "en": "My computer's broken down again." },
+      { "fr": "Je travaille sur mon **ordi**.", "en": "I'm working on my computer." }
+    ] },
+    { "id": "fac", "fr": "fac", "pos": "noun", "g": "f", "ipa": "fak", "en": "uni, university (informal)", "def": "L'université (familier).", "def_en": "University (informal).", "forms": ["facs"], "examples": [
+      { "fr": "Tu vas à la **fac** ?", "en": "Are you going to uni?" },
+      { "fr": "Sa sœur étudie à la **fac** de Lyon.", "en": "His sister studies at the university in Lyon." },
+      { "fr": "Après le bac, il va à la **fac**.", "en": "After the bac, he's going to uni." }
+    ] },
+    { "id": "petit-dej", "fr": "petit-déj", "pos": "noun", "g": "m", "ipa": "pə.ti.deʒ", "en": "breakfast (informal)", "def": "Le premier repas de la journée (familier).", "def_en": "The first meal of the day (informal).", "forms": ["petits-déj"], "examples": [
+      { "fr": "Tom et Hugo descendent acheter leur **petit-déj**.", "en": "Tom and Hugo go down to buy their breakfast." },
+      { "fr": "On prend le **petit-déj** ensemble ?", "en": "Shall we have breakfast together?" },
+      { "fr": "Un café et un croissant : c'est mon **petit-déj**.", "en": "A coffee and a croissant: that's my breakfast." }
+    ] },
+    { "id": "rigoler", "fr": "rigoler", "pos": "verb", "ipa": "ʁi.ɡɔ.le", "en": "to laugh; to joke", "def": "Rire, s'amuser (familier).", "def_en": "To laugh, to have fun (informal).", "note": "*Tu rigoles !* = you're joking!", "forms": ["rigole", "rigoles", "rigolons", "rigolez", "rigolent", "rigolé", "rigolais", "rigolait", "rigolions", "rigoliez", "rigolaient", "rigolerai", "rigoleras", "rigolera", "rigolerons", "rigolerez", "rigoleront", "rigolerais", "rigolerait", "rigolerions", "rigoleriez", "rigoleraient", "rigolant", "rigolai", "rigolas", "rigola", "rigolâmes", "rigolâtes", "rigolèrent"], "examples": [
+      { "fr": "Dans l'escalier, Tom **rigole**.", "en": "On the stairs, Tom laughs." },
+      { "fr": "Tu **rigoles** ? C'est vrai ?", "en": "You're joking? Is it true?" },
+      { "fr": "On a bien **rigolé** hier soir.", "en": "We had a good laugh last night." }
+    ] },
+    { "id": "piger", "fr": "piger", "pos": "verb", "ipa": "pi.ʒe", "en": "to get it, to understand (informal)", "def": "Comprendre (familier).", "def_en": "To understand (informal).", "forms": ["pige", "piges", "pigez", "pigent", "pigé", "pigée", "pigés", "pigées", "pigeais", "pigeait", "pigions", "pigiez", "pigeaient", "pigerai", "pigeras", "pigera", "pigerons", "pigerez", "pigeront", "pigerais", "pigerait", "pigerions", "pigeriez", "pigeraient", "pigeant", "pigeai", "pigeas", "pigea", "pigâmes", "pigâtes", "pigèrent"], "examples": [
+      { "fr": "Tu **piges** ?", "en": "Get it?" },
+      { "fr": "Je n'ai rien **pigé**.", "en": "I didn't get any of it." },
+      { "fr": "Il **pige** vite.", "en": "He catches on fast." }
+    ] },
+    { "id": "marrant", "fr": "marrant", "pos": "adj", "ipa": "ma.ʁɑ̃", "display": "marrant, marrante", "en": "funny", "def": "Qui fait rire (familier).", "def_en": "That makes you laugh (informal).", "forms": ["marrante", "marrants", "marrantes"], "accept": ["marrante"], "examples": [
+      { "fr": "[T'es|t-es] anglais ? Trop **marrant** !", "en": "You're English? That's so funny!" },
+      { "fr": "Il est **marrant**, ce gosse.", "en": "He's funny, that kid." },
+      { "fr": "C'est une histoire **marrante**.", "en": "It's a funny story." }
+    ] },
+    { "id": "dingue", "fr": "dingue", "pos": "adj", "ipa": "dɛ̃ɡ", "en": "crazy, mad; amazing", "def": "Fou, incroyable (familier).", "def_en": "Mad, incredible (informal).", "forms": ["dingues"], "examples": [
+      { "fr": "Je me lève à trois heures et demie. C'est **dingue**, non ?", "en": "I get up at half past three. Crazy, isn't it?" },
+      { "fr": "Il est **dingue** de jeux vidéo.", "en": "He's crazy about video games." },
+      { "fr": "On a vu un film **dingue** !", "en": "We saw an amazing film!" }
+    ] },
+    { "id": "vachement", "fr": "vachement", "pos": "adv", "ipa": "vaʃ.mɑ̃", "en": "really, very (informal)", "def": "Très, beaucoup (familier).", "def_en": "Very, a lot (informal).", "examples": [
+      { "fr": "Ils sont **vachement** bons, ce matin.", "en": "They're really good this morning." },
+      { "fr": "Il fait **vachement** froid !", "en": "It's really cold!" },
+      { "fr": "Elle a **vachement** changé.", "en": "She's changed a lot." }
+    ] },
+    { "id": "coup-de-fil", "fr": "coup de fil", "pos": "noun", "g": "m", "ipa": "kud.fil", "en": "phone call (informal)", "def": "Un appel au téléphone (familier).", "def_en": "A phone call (informal).", "note": "*passer un coup de fil* = to give someone a ring.", "forms": ["coups de fil"], "examples": [
+      { "fr": "Passe-moi un **coup de fil** ce soir.", "en": "Give me a ring tonight." },
+      { "fr": "J'attends un **coup de fil** de ma mère.", "en": "I'm waiting for a call from my mother." },
+      { "fr": "Il a reçu trois **coups de fil** ce matin.", "en": "He got three phone calls this morning." }
+    ] }
+  ],
+  "story": {
+    "title": "Le nouveau de la boulangerie",
+    "en": "Monday 2 November: Mme Fournier's grandson starts work at the bakery, and Tom discovers a whole new French.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi deux novembre, à sept heures du matin, Tom et Hugo descendent à la boulangerie pour acheter leur petit-déj.", "en": "On Monday 2 November, at seven in the morning, Tom and Hugo go down to the bakery to buy their breakfast." },
+      { "sp": "", "fr": "Derrière le comptoir, il y a un nouveau : un grand garçon avec une casquette et de la farine sur le nez.", "en": "Behind the counter, there's someone new: a tall boy with a cap and flour on his nose." },
+      { "sp": "Mme Fournier", "fr": "Je vous présente Enzo, mon [petit-fils|petit-fils]. Il a dix-sept ans, et il est apprenti boulanger depuis ce matin.", "en": "Let me introduce Enzo, my grandson. He's seventeen, and he's been an apprentice baker since this morning." },
+      { "sp": "Enzo", "fr": "Salut, les mecs ! Moi, c'est Enzo. Maintenant, je bosse ici.", "en": "Hi, guys! I'm Enzo. I work here now." },
+      { "sp": "Mme Fournier", "fr": "Enzo ! On ne dit pas « salut, les mecs » aux clients. On dit « bonjour, messieurs » !", "en": "Enzo! You don't say 'hi, guys' to customers. You say 'good morning, gentlemen'!" },
+      { "sp": "Enzo", "fr": "Pardon, Mamie. Bonjour, messieurs ! Prenez des croissants : ils sont vachement bons, ce matin.", "en": "Sorry, Grandma. Good morning, gentlemen! Have some croissants: they're really good this morning." },
+      { "sp": "Tom", "fr": "« Vachement » ? Ça vient de « vache » ?", "en": "'Vachement'? Does it come from 'vache', a cow?" },
+      { "sp": "Hugo", "fr": "Oui, mais ça n'a rien à voir avec les vaches ! Ça veut dire « très ». C'est du français familier.", "en": "Yes, but it's got nothing to do with cows! It means 'very'. It's informal French." },
+      { "sp": "Enzo", "fr": "Tu piges ? C'est comme « super », mais en mieux.", "en": "Get it? It's like 'super', but better." },
+      { "sp": "Mme Fournier", "fr": "Il parle comme ses potes. Cet été, il a passé ses journées devant son ordi, avec ses jeux vidéo.", "en": "He talks like his mates. This summer, he spent his days in front of his computer, playing video games." },
+      { "sp": "Hugo", "fr": "Des jeux vidéo ? Moi aussi, j'adore ! Tu joues à quoi ?", "en": "Video games? I love them too! What do you play?" },
+      { "sp": "Enzo", "fr": "À tout ! Mais maintenant, j'ai un vrai boulot. Je me lève à trois heures et demie. C'est dingue, non ?", "en": "Everything! But now I've got a real job. I get up at half past three. Crazy, isn't it?" },
+      { "sp": "Tom", "fr": "Et l'école ? Tu vas à la fac ?", "en": "What about school? Are you going to uni?" },
+      { "sp": "Enzo", "fr": "Non, moi, les bouquins, c'est pas mon truc. Une semaine à l'école, deux semaines ici : je préfère faire du pain.", "en": "No, books aren't my thing. A week at school, two weeks here: I'd rather make bread." },
+      { "sp": "Hugo", "fr": "Et avec ton salaire, tu vas faire quoi ?", "en": "And what are you going to do with your pay?" },
+      { "sp": "Enzo", "fr": "Avec mon fric ? D'abord, des fringues. Et un jour, une bagnole !", "en": "With my money? First, some clothes. And one day, a car!" },
+      { "sp": "Mme Fournier", "fr": "Une voiture ! Tu n'as même pas ton permis !", "en": "A car! You haven't even got your licence!" },
+      { "sp": "", "fr": "À ce moment-là, un policier entre et achète deux croissants. Il en mange un tout de suite.", "en": "Just then, a police officer comes in and buys two croissants. He eats one straight away." },
+      { "sp": "Enzo", "fr": "Mamie, c'est un flic ! Et il bouffe nos croissants !", "en": "Grandma, it's a cop! And he's scoffing our croissants!" },
+      { "sp": "Mme Fournier", "fr": "Enzo ! On dit « un policier », et on dit « il mange » ! Et passe-moi le machin, là… le couteau à pain !", "en": "Enzo! You say 'a police officer', and you say 'he's eating'! And pass me the whatsit, there… the bread knife!" },
+      { "sp": "Enzo", "fr": "Tu vois, Mamie ? Toi aussi, tu parles familier ! Mais la meilleure [bouffe|bouffe] de Lyon, c'est chez toi.", "en": "See, Grandma? You talk informally too! But the best grub in Lyon is at your place." },
+      { "sp": "Tom", "fr": "Attends, je note tout dans mon carnet : « bosser », « boulot », « fric »…", "en": "Wait, I'm writing it all down in my notebook: 'bosser', 'boulot', 'fric'…" },
+      { "sp": "Enzo", "fr": "[T'es|t-es] anglais, toi ? Trop marrant ! Ma nana adore l'anglais. Tu me donnes des cours ? Et moi, je t'apprends le vrai français, celui de la rue.", "en": "You're English? That's so funny! My girlfriend loves English. Will you give me lessons? And I'll teach you real French, street French." },
+      { "sp": "Tom", "fr": "D'accord ! Mercredi soir, chez moi ?", "en": "Deal! Wednesday evening, at my place?" },
+      { "sp": "Mme Fournier", "fr": "Quand il était gosse, il parlait si bien…", "en": "When he was a kid, he spoke so nicely…" },
+      { "sp": "Hugo", "fr": "Enzo, passe-moi un coup de fil si tu veux jouer à la console. Mon appart est au troisième, en face de celui de Tom.", "en": "Enzo, give me a ring if you want to play on the console. My flat's on the third floor, opposite Tom's." },
+      { "sp": "", "fr": "Dans l'escalier, Tom rigole. Il a déjà dix mots nouveaux dans son carnet, et il n'est que sept heures et quart.", "en": "On the stairs, Tom laughs. He's already got ten new words in his notebook, and it's only a quarter past seven." }
+    ]
+  }
+}

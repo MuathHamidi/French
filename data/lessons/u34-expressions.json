@@ -1,0 +1,172 @@
+{
+  "id": "u34-expressions",
+  "type": "vocab",
+  "unit": 34,
+  "title": "Les expressions du quotidien",
+  "en": "Everyday expressions",
+  "intro": "25 expressions you'll hear every day: saying yes and no (**ça marche, ça roule, c'est clair, chiche, ça te dit, ce n'est pas la peine**), reassuring and warning (**t'inquiète, ça va le faire, faire gaffe, on verra**), complaining (**la flemme, la galère, galérer, ça caille, j'en peux plus, ça me saoule**), reacting (**tu m'étonnes, mon œil, tu parles, halluciner, c'est le pied, nickel**) and coming and going (**c'est parti, à plus, à tout à l'heure**).",
+  "words": [
+    { "id": "ca-marche", "fr": "ça marche", "pos": "expr", "ipa": "sa maʁʃ", "en": "OK, deal, coming right up; it works", "def": "D'accord, c'est entendu. Aussi : ça fonctionne.", "def_en": "All right, agreed. Also: it works.", "forms": ["ça a marché", "ça va marcher"], "examples": [
+      { "fr": "Trois croissants ? **Ça marche** !", "en": "Three croissants? Coming right up!" },
+      { "fr": "On se voit à huit heures ? — **Ça marche**.", "en": "See you at eight? — Deal." },
+      { "fr": "Ton idée, **ça marche** !", "en": "Your idea works!" }
+    ] },
+    { "id": "ca-roule", "fr": "ça roule", "pos": "expr", "ipa": "sa ʁul", "en": "all good; OK (ça roule ? = how's it going?)", "def": "Tout va bien. Aussi : d'accord.", "def_en": "Everything's fine. Also: OK.", "examples": [
+      { "fr": "Wesh, les sportifs ! **Ça roule** ?", "en": "Yo, sporty lot! All good?" },
+      { "fr": "Demain à dix heures ? **Ça roule** !", "en": "Tomorrow at ten? OK!" },
+      { "fr": "Au travail, **ça roule** en ce moment.", "en": "Things are going well at work at the moment." }
+    ] },
+    { "id": "pas-la-peine", "fr": "ce n'est pas la peine", "pos": "expr", "ipa": "sə nɛ pa la pɛn", "en": "there's no need, don't bother", "def": "On n'a pas besoin de faire ça, ça ne sert à rien.", "def_en": "You don't need to do that, it's pointless.", "note": "In speech: *c'est pas la peine*.", "forms": ["c'est pas la peine", "ce n'était pas la peine", "c'était pas la peine"], "examples": [
+      { "fr": "**Ce n'est pas la peine**, madame Fournier.", "en": "There's no need, Mme Fournier." },
+      { "fr": "**C'est pas la peine** de courir, on a le temps.", "en": "No need to run, we've got time." },
+      { "fr": "**Ce n'était pas la peine** d'apporter un cadeau !", "en": "You didn't need to bring a present!" }
+    ] },
+    { "id": "t-inquiete", "fr": "t'inquiète", "pos": "expr", "ipa": "tɛ̃.kjɛt", "en": "don't worry (spoken for ne t'inquiète pas)", "def": "Ne te fais pas de souci (familier).", "def_en": "Don't worry yourself (informal).", "examples": [
+      { "fr": "**T'inquiète**, c'est normal.", "en": "Don't worry, it's normal." },
+      { "fr": "**T'inquiète**, je m'occupe de tout.", "en": "Don't worry, I'll take care of everything." },
+      { "fr": "**T'inquiète**, je garde le secret.", "en": "Don't worry, I'll keep the secret." }
+    ] },
+    { "id": "flemme", "fr": "flemme", "pos": "noun", "g": "f", "ipa": "flɛm", "en": "laziness (avoir la flemme = can't be bothered)", "def": "L'envie de ne rien faire (familier).", "def_en": "Not wanting to do anything (informal).", "note": "*avoir la flemme (de faire quelque chose)* = can't be bothered (to do something).", "examples": [
+      { "fr": "J'ai la **flemme**…", "en": "I can't be bothered…" },
+      { "fr": "J'ai la **flemme** de faire la vaisselle.", "en": "I can't be bothered to do the washing-up." },
+      { "fr": "Quelle **flemme** !", "en": "What a drag!" }
+    ] },
+    { "id": "galere", "fr": "galère", "pos": "noun", "g": "f", "ipa": "ɡa.lɛʁ", "en": "hassle, nightmare (c'est la galère = it's a nightmare)", "def": "Une situation difficile et pénible (familier).", "def_en": "A difficult and tiresome situation (informal).", "forms": ["galères"], "examples": [
+      { "fr": "Quelle **galère** !", "en": "What a nightmare!" },
+      { "fr": "Trouver un appart à Lyon, c'est la **galère**.", "en": "Finding a flat in Lyon is a nightmare." },
+      { "fr": "On a eu des **galères** pendant le voyage.", "en": "We had loads of hassle on the trip." }
+    ] },
+    { "id": "galerer", "fr": "galérer", "pos": "verb", "ipa": "ɡa.le.ʁe", "en": "to struggle, to have a hard time", "def": "Avoir beaucoup de problèmes, faire beaucoup d'efforts (familier).", "def_en": "To have a lot of problems, to make a lot of effort (informal).", "forms": ["galère", "galères", "galérons", "galérez", "galèrent", "galéré", "galérais", "galérait", "galérions", "galériez", "galéraient", "galérerai", "galéreras", "galérera", "galérerons", "galérerez", "galéreront", "galérerais", "galérerait", "galérerions", "galéreriez", "galéreraient", "galérant", "galérai", "galéras", "galéra", "galérâmes", "galérâtes", "galérèrent"], "examples": [
+      { "fr": "Hugo **galère**, mais il arrive au pont.", "en": "Hugo struggles, but he makes it to the bridge." },
+      { "fr": "J'ai **galéré** pour trouver la salle.", "en": "I had a hard time finding the room." },
+      { "fr": "Tu **galères** avec tes devoirs ?", "en": "Are you struggling with your homework?" }
+    ] },
+    { "id": "ca-caille", "fr": "ça caille", "pos": "expr", "ipa": "sa kaj", "en": "it's freezing (informal)", "def": "Il fait très froid (familier).", "def_en": "It's very cold (informal).", "forms": ["ça caillait"], "examples": [
+      { "fr": "Il fait nuit, et **ça caille** !", "en": "It's dark, and it's freezing!" },
+      { "fr": "Ferme la fenêtre, **ça caille** !", "en": "Shut the window, it's freezing!" },
+      { "fr": "Hier soir, **ça caillait** !", "en": "It was freezing last night!" }
+    ] },
+    { "id": "c-est-parti", "fr": "c'est parti", "pos": "expr", "ipa": "sɛ paʁ.ti", "en": "here we go, off we go", "def": "On commence, on y va !", "def_en": "We're starting, let's go!", "examples": [
+      { "fr": "Allez, **c'est parti** !", "en": "Come on, here we go!" },
+      { "fr": "Tout le monde est prêt ? **C'est parti** !", "en": "Is everyone ready? Off we go!" },
+      { "fr": "Et **c'est parti** pour deux heures de cours !", "en": "And here we go for two hours of class!" }
+    ] },
+    { "id": "a-plus", "fr": "à plus", "pos": "expr", "manual": true, "ipa": "a plys", "en": "see you (later)", "def": "Au revoir, à bientôt (familier).", "def_en": "Goodbye, see you soon (informal).", "note": "Say the **s**: /a plys/. Also *à plus tard*, and among friends *à toute* (= à tout à l'heure).", "examples": [
+      { "fr": "**[À plus|a-plus]** !", "en": "See you!" },
+      { "fr": "Je retourne au lit. **[À plus|a-plus]** !", "en": "I'm going back to bed. See you!" },
+      { "fr": "Bon, j'y vais. **[À plus|a-plus]** !", "en": "Right, I'm off. See you!" }
+    ] },
+    { "id": "a-tout-a-l-heure", "fr": "à tout à l'heure", "pos": "expr", "ipa": "a tu.ta.lœʁ", "en": "see you later (today)", "def": "Au revoir, quand on va se revoir le même jour.", "def_en": "Goodbye, when you'll see each other again the same day.", "examples": [
+      { "fr": "Allez, **à tout à l'heure** !", "en": "Right, see you later!" },
+      { "fr": "**À tout à l'heure**, au café !", "en": "See you later, at the café!" },
+      { "fr": "Je pars, **à tout à l'heure** !", "en": "I'm off, see you later!" }
+    ] },
+    { "id": "ca-te-dit", "fr": "ça te dit", "pos": "expr", "ipa": "sa tə di", "en": "do you fancy it?, are you up for it?", "def": "Est-ce que tu as envie de faire ça ?", "def_en": "Do you feel like doing that?", "forms": ["ça vous dit", "ça me dit", "ça lui dit", "ça te dirait", "ça vous dirait", "ça me dirait"], "examples": [
+      { "fr": "Un croissant, **ça te dit** ?", "en": "Fancy a croissant?" },
+      { "fr": "On va au cinéma ? **Ça vous dit** ?", "en": "Shall we go to the cinema? Are you up for it?" },
+      { "fr": "Courir ? **Ça me dit** bien !", "en": "Running? I like the sound of that!" }
+    ] },
+    { "id": "chiche", "fr": "chiche", "pos": "interj", "ipa": "ʃiʃ", "en": "I dare you!; you're on!", "def": "Un mot pour accepter un défi, ou pour dire à quelqu'un qu'il n'ose pas.", "def_en": "A word to accept a dare, or to tell someone they don't dare.", "examples": [
+      { "fr": "Tu viens courir avec nous ? — **Chiche** !", "en": "Coming running with us? — You're on!" },
+      { "fr": "**Chiche** que tu ne finis pas le gâteau !", "en": "I bet you can't finish the cake!" },
+      { "fr": "Tu sautes dans l'eau ? **Chiche** !", "en": "Will you jump in the water? I dare you!" }
+    ] },
+    { "id": "tu-m-etonnes", "fr": "tu m'étonnes", "pos": "expr", "ipa": "ty me.tɔn", "en": "you don't say!, no wonder!", "def": "Ce n'est pas une surprise, c'est normal (familier).", "def_en": "That's no surprise, it's only natural (informal).", "forms": ["vous m'étonnez"], "examples": [
+      { "fr": "**Tu m'étonnes** : il n'a pas couru depuis deux mois !", "en": "No wonder: he hasn't run for two months!" },
+      { "fr": "Il est fatigué ? **Tu m'étonnes**, il s'est couché à trois heures !", "en": "He's tired? You don't say, he went to bed at three!" },
+      { "fr": "Elle a raté son train ? **Tu m'étonnes** !", "en": "She missed her train? Surprise, surprise!" }
+    ] },
+    { "id": "halluciner", "fr": "halluciner", "pos": "verb", "ipa": "a.ly.si.ne", "en": "to hallucinate; (spoken) not to believe your eyes", "def": "Voir des choses qui n'existent pas. Aussi (familier) : être très surpris.", "def_en": "To see things that don't exist. Also (informal): to be very surprised.", "note": "*J'hallucine !* = I can't believe it!", "forms": ["hallucine", "hallucines", "hallucinons", "hallucinez", "hallucinent", "halluciné", "hallucinais", "hallucinait", "hallucinions", "halluciniez", "hallucinaient", "hallucinerai", "hallucineras", "hallucinera", "hallucinerons", "hallucinerez", "hallucineront", "hallucinerais", "hallucinerait", "hallucinerions", "hallucineriez", "hallucineraient", "hallucinant", "hallucinai", "hallucinas", "hallucina", "hallucinâmes", "hallucinâtes", "hallucinèrent"], "examples": [
+      { "fr": "J'**hallucine** !", "en": "I can't believe it!" },
+      { "fr": "Tu **hallucines** ou quoi ?", "en": "Are you seeing things or what?" },
+      { "fr": "J'ai cru **halluciner** quand j'ai vu le prix.", "en": "I couldn't believe my eyes when I saw the price." }
+    ] },
+    { "id": "c-est-le-pied", "fr": "c'est le pied", "pos": "expr", "ipa": "sɛ lə pje", "en": "it's brilliant, it's bliss", "def": "C'est génial, c'est un vrai plaisir (familier).", "def_en": "It's great, it's a real pleasure (informal).", "forms": ["c'était le pied"], "examples": [
+      { "fr": "**C'est le pied** ! Je cours comme avant !", "en": "This is brilliant! I'm running like before!" },
+      { "fr": "Une semaine à la mer, **c'est le pied**.", "en": "A week by the sea is bliss." },
+      { "fr": "**C'était le pied**, ce concert !", "en": "That gig was brilliant!" }
+    ] },
+    { "id": "faire-gaffe", "fr": "faire gaffe", "pos": "expr", "ipa": "fɛʁ ɡaf", "en": "to watch out, to be careful (informal)", "def": "Être prudent, bien regarder autour de soi (familier).", "def_en": "To be careful, to keep your eyes open (informal).", "forms": ["fais gaffe", "faites gaffe", "fait gaffe", "faisons gaffe", "faisait gaffe", "ferai gaffe", "fera gaffe", "ai fait gaffe", "a fait gaffe"], "examples": [
+      { "fr": "**Fais gaffe**, quand même : doucement au début.", "en": "Careful, though: take it easy at first." },
+      { "fr": "**Faites gaffe**, la route glisse !", "en": "Watch out, the road's slippery!" },
+      { "fr": "Il faut **faire gaffe** aux voitures.", "en": "You have to watch out for cars." }
+    ] },
+    { "id": "mon-oeil", "fr": "mon œil", "pos": "expr", "ipa": "mɔ̃.nœj", "en": "my foot!, I don't believe you!", "def": "Je ne te crois pas (familier).", "def_en": "I don't believe you (informal).", "examples": [
+      { "fr": "Ta cheville te fait mal ? **Mon œil** !", "en": "Your ankle hurts? My foot!" },
+      { "fr": "Il a fini ses devoirs ? **Mon œil** !", "en": "He's done his homework? I don't believe it!" },
+      { "fr": "« J'ai couru dix kilomètres. » **Mon œil** !", "en": "'I ran ten kilometres.' My foot!" }
+    ] },
+    { "id": "tu-parles", "fr": "tu parles", "pos": "expr", "manual": true, "ipa": "ty paʁl", "en": "yeah right!; you bet!", "def": "Pour dire « pas du tout » ou, au contraire, « bien sûr » (familier).", "def_en": "To say 'not at all' or, on the contrary, 'of course' (informal).", "examples": [
+      { "fr": "**[Tu parles|tu-parles]** ! Il fait huit degrés.", "en": "Yeah right! It's eight degrees." },
+      { "fr": "Lui, sportif ? **[Tu parles|tu-parles]** !", "en": "Him, sporty? Yeah right!" },
+      { "fr": "Tu viens à la fête ? — **[Tu parles|tu-parles]** !", "en": "Are you coming to the party? — You bet!" }
+    ] },
+    { "id": "on-verra", "fr": "on verra", "pos": "expr", "ipa": "ɔ̃ ve.ʁa", "en": "we'll see", "def": "On décidera plus tard.", "def_en": "We'll decide later.", "examples": [
+      { "fr": "Cours jusqu'au pont, et après, **on verra**.", "en": "Run to the bridge, and then we'll see." },
+      { "fr": "On part en vacances ? — **On verra**.", "en": "Are we going on holiday? — We'll see." },
+      { "fr": "Pour l'instant, je ne sais pas. **On verra** bien.", "en": "I don't know for now. We'll see." }
+    ] },
+    { "id": "c-est-clair", "fr": "c'est clair", "pos": "expr", "ipa": "sɛ klɛʁ", "en": "definitely, absolutely; it's clear", "def": "Oui, bien sûr, je suis d'accord (familier).", "def_en": "Yes, of course, I agree (informal).", "examples": [
+      { "fr": "Un croissant ? **C'est clair** !", "en": "A croissant? Definitely!" },
+      { "fr": "Il est fort, Tom. — **C'est clair**.", "en": "Tom's good. — Absolutely." },
+      { "fr": "**C'est clair**, on a bien mérité ce café.", "en": "We've definitely earned this coffee." }
+    ] },
+    { "id": "j-en-peux-plus", "fr": "j'en peux plus", "pos": "expr", "ipa": "ʒɑ̃ pø ply", "en": "I can't take any more, I'm exhausted", "def": "Je suis très fatigué, je ne peux pas continuer (familier).", "def_en": "I'm very tired, I can't go on (informal).", "forms": ["je n'en peux plus", "on en peut plus", "on n'en peut plus", "il en peut plus", "il n'en peut plus", "elle en peut plus", "elle n'en peut plus", "j'en pouvais plus", "je n'en pouvais plus"], "examples": [
+      { "fr": "**J'en peux plus**… Je vais mourir…", "en": "I can't go on… I'm going to die…" },
+      { "fr": "Encore un kilomètre ? **J'en peux plus** !", "en": "Another kilometre? I can't take any more!" },
+      { "fr": "**Je n'en peux plus** de ce bruit.", "en": "I can't stand this noise any longer." }
+    ] },
+    { "id": "ca-me-saoule", "fr": "ça me saoule", "pos": "expr", "ipa": "sa mə sul", "en": "it's doing my head in, I'm fed up with it", "def": "Ça m'énerve, ça m'ennuie (familier).", "def_en": "It annoys me, it bores me (informal).", "forms": ["ça te saoule", "ça nous saoule", "ça vous saoule", "ça m'a saoulé"], "examples": [
+      { "fr": "**Ça me saoule**, ces histoires de sport !", "en": "All this sport stuff is doing my head in!" },
+      { "fr": "Ce bruit, **ça me saoule**.", "en": "That noise is getting on my nerves." },
+      { "fr": "Les devoirs, **ça te saoule** ?", "en": "Is homework doing your head in?" }
+    ] },
+    { "id": "ca-va-le-faire", "fr": "ça va le faire", "pos": "expr", "ipa": "sa va lə fɛʁ", "en": "it'll be fine, it'll work out", "def": "Ça va bien se passer, on va réussir (familier).", "def_en": "It'll go well, we'll manage (informal).", "examples": [
+      { "fr": "Samedi prochain, **ça va le faire** !", "en": "Next Saturday, it'll be fine!" },
+      { "fr": "T'inquiète, **ça va le faire**.", "en": "Don't worry, it'll work out." },
+      { "fr": "Deux heures pour tout préparer ? **Ça va le faire**.", "en": "Two hours to get everything ready? We'll manage." }
+    ] },
+    { "id": "nickel", "fr": "nickel", "pos": "adj", "ipa": "ni.kɛl", "en": "spotless; perfect, great (informal)", "def": "Très propre ; parfait (familier).", "def_en": "Very clean; perfect (informal).", "examples": [
+      { "fr": "Ta cheville va bien : c'est **nickel** !", "en": "Your ankle's fine: perfect!" },
+      { "fr": "La cuisine est **nickel**.", "en": "The kitchen's spotless." },
+      { "fr": "Ton travail est **nickel**, bravo !", "en": "Your work is perfect, well done!" }
+    ] }
+  ],
+  "story": {
+    "title": "Le grand retour",
+    "en": "Saturday 7 November: Hugo's first run since his sprained ankle, with Carla and Tom.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi sept novembre, à sept heures et demie, Carla sonne chez Hugo. Aujourd'hui, c'est son grand retour : sa première course depuis son entorse.", "en": "On Saturday 7 November, at half past seven, Carla rings Hugo's doorbell. Today is his big comeback: his first run since his sprain." },
+      { "sp": "Carla", "fr": "Hugo ! Le médecin a dit : pas de course pendant un mois. Le mois est fini !", "en": "Hugo! The doctor said: no running for a month. The month is over!" },
+      { "sp": "Hugo", "fr": "J'ai la flemme… Il fait nuit, et ça caille !", "en": "I can't be bothered… It's dark, and it's freezing!" },
+      { "sp": "Carla", "fr": "[Tu parles|tu-parles] ! Il fait huit degrés. Allez, c'est parti !", "en": "Yeah, right! It's eight degrees. Come on, here we go!" },
+      { "sp": "", "fr": "Sur le palier, la porte d'en face s'ouvre. C'est Tom, en pyjama.", "en": "On the landing, the door opposite opens. It's Tom, in his pyjamas." },
+      { "sp": "Tom", "fr": "Vous allez courir ? Ça me dit bien… Je peux venir ?", "en": "You're going for a run? I like the sound of that… Can I come?" },
+      { "sp": "Carla", "fr": "Chiche ! On part dans cinq minutes.", "en": "You're on! We're leaving in five minutes." },
+      { "sp": "", "fr": "Ils courent le long du Rhône. Au début, Hugo va très bien.", "en": "They run along the Rhône. At first, Hugo is doing very well." },
+      { "sp": "Hugo", "fr": "C'est le pied ! Ma cheville va bien, je cours comme avant !", "en": "This is brilliant! My ankle's fine, I'm running like before!" },
+      { "sp": "Carla", "fr": "Fais gaffe, quand même : doucement au début.", "en": "Careful, though: take it easy at first." },
+      { "sp": "", "fr": "Au bout de dix minutes, Hugo s'arrête, tout rouge.", "en": "After ten minutes, Hugo stops, bright red." },
+      { "sp": "Hugo", "fr": "J'en peux plus… Je crois que ma cheville me fait mal.", "en": "I can't go on… I think my ankle hurts." },
+      { "sp": "Carla", "fr": "Mon œil ! Tu as surtout la flemme.", "en": "My foot! You just can't be bothered." },
+      { "sp": "Tom", "fr": "Tu m'étonnes : il n'a pas couru depuis deux mois !", "en": "No wonder: he hasn't run for two months!" },
+      { "sp": "Carla", "fr": "T'inquiète, c'est normal. On marche un peu, puis on recommence. Jusqu'au pont, et après, on verra.", "en": "Don't worry, it's normal. We'll walk a bit, then start again. To the bridge, and then we'll see." },
+      { "sp": "", "fr": "Hugo galère, mais il arrive au pont. Tom, lui, [court|courir] sans problème.", "en": "Hugo struggles, but he makes it to the bridge. Tom, on the other hand, runs with no trouble at all." },
+      { "sp": "Hugo", "fr": "Quelle galère ! Tom, comment tu fais ? Tu cours jamais !", "en": "What a nightmare! Tom, how do you do it? You never run!" },
+      { "sp": "Tom", "fr": "Si : chaque fois que je vais à Londres, je cours pour attraper mon train !", "en": "Yes I do: every time I go to London, I run to catch my train!" },
+      { "sp": "Carla", "fr": "Bon, on rentre ? Un croissant à la boulangerie, ça vous dit ?", "en": "Right, shall we head back? Fancy a croissant at the bakery?" },
+      { "sp": "Hugo", "fr": "C'est clair ! Je l'ai mérité.", "en": "Definitely! I've earned it." },
+      { "sp": "", "fr": "À la boulangerie, Enzo est derrière le comptoir.", "en": "At the bakery, Enzo is behind the counter." },
+      { "sp": "Enzo", "fr": "Wesh, les sportifs ! Ça roule ?", "en": "Yo, sporty lot! All good?" },
+      { "sp": "Hugo", "fr": "Ça roule… lentement. Trois croissants, s'il te plaît.", "en": "All good… slowly. Three croissants, please." },
+      { "sp": "Enzo", "fr": "Ça marche ! Trois croissants pour les champions !", "en": "Coming right up! Three croissants for the champions!" },
+      { "sp": "Mme Fournier", "fr": "Hugo, vous êtes tout rouge ! Vous voulez un verre d'eau ?", "en": "Hugo, you're bright red! Would you like a glass of water?" },
+      { "sp": "Hugo", "fr": "Ce n'est pas la peine, madame Fournier. Le premier jour, c'est toujours dur. Samedi prochain, ça va le faire !", "en": "There's no need, Mme Fournier. The first day is always hard. Next Saturday, it'll be fine!" },
+      { "sp": "Carla", "fr": "Samedi prochain, on court deux fois plus longtemps.", "en": "Next Saturday, we'll run twice as long." },
+      { "sp": "Hugo", "fr": "J'hallucine… Ça me saoule, ces histoires de sport !", "en": "I can't believe it… All this sport stuff is doing my head in!" },
+      { "sp": "Carla", "fr": "Mais ta cheville va bien. C'est nickel ! Allez, à tout à l'heure : je donne mon cours de danse aux enfants.", "en": "But your ankle's fine. Perfect! Right, see you later: I'm teaching my dance class to the children." },
+      { "sp": "Tom", "fr": "Et moi, je retourne au lit. [À plus|a-plus] !", "en": "And I'm going back to bed. See you!" }
+    ]
+  }
+}

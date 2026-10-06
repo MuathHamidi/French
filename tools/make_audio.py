@@ -135,6 +135,14 @@ FIXES = {
     "moyen âge": "mwajɛnˈaʒ",  # with the liaison; the voice says /mwajɛ̃ aʒ/
     "jadis": "ʒadˈis",  # the voice drops the s
     "mammouth": "mamˈut", "mammouths": "mamˈut",  # otherwise read in English
+    "appart": "apˈaʁt", "apparts": "apˈaʁt",  # the voice drops the t
+    "cimer": "simˈɛʁ",  # verlan of merci: the voice reads it like an -er verb
+    "thune": "tˈyn", "thunes": "tˈyn",  # otherwise read in English
+    "ben": "bˈɛ̃", "nan": "nˈɑ̃",  # spoken bien and non: the voice says /bɛn/, /nan/
+    "ciao": "tʃˈao",  # the voice says /sjao/
+    "enzo": "ɛnzˈo",  # the voice says /ɑ̃zo/
+    "t'es où": "tɛ ˈu",  # spoken French: no liaison
+    "à plus !": "a plˈys!",  # the s is said here, but not in à plus tard
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}
@@ -143,6 +151,7 @@ CASE_FIX_RE = re.compile(rf"(?<![{V.L}'’])({'|'.join(map(re.escape, CASE_FIXES
 ALONE_FIXES = {
     "y": "ˈi",  # alone, the voice reads the letter name "i grec"
     "vis": "vˈis",  # the noun (a screw); no text uses the verb (je vis) yet, which would need /vi/
+    "à plus": "a plˈys",  # see you! (in sentences, see "à plus !" in FIXES)
 }
 # A fixed word after an elision (l'immeuble, d'Annecy) takes the elided consonant into its
 # phoneme block: alone before a block, Piper would read "l'" as the letter name.

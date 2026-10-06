@@ -1,0 +1,170 @@
+{
+  "id": "u34-argot",
+  "type": "vocab",
+  "unit": 34,
+  "title": "L'argot et le verlan",
+  "en": "Slang and verlan",
+  "intro": "Slang (**l'argot**) and **verlan**, the slang that turns words back to front: *fou → ouf, louche → chelou, femme → meuf*. You'll hear these words from young people, in films and in songs. Verlan: **le verlan, ouf, relou, chelou, la meuf, le reuf, vénère, zarbi, la teuf, chanmé, cimer, laisse béton**. Slang: **l'argot, kiffer, la thune, le taf, le daron, le seum, stylé, ça craint, wesh, kif-kif, le bled, paumé, l'embrouille**. Understand them, but use them carefully: they're for friends, not for teachers or grandmothers!",
+  "words": [
+    { "id": "argot", "fr": "argot", "pos": "noun", "g": "m", "ipa": "aʁ.ɡo", "en": "slang", "def": "Des mots très familiers, qu'on utilise entre amis ou dans un groupe, mais pas dans une lettre ou un examen.", "def_en": "Very informal words, used between friends or within a group, but not in a letter or an exam.", "examples": [
+      { "fr": "Enzo parle en **argot**.", "en": "Enzo talks in slang." },
+      { "fr": "« Thune », c'est de l'**argot** pour « argent ».", "en": "'Thune' is slang for 'money'." },
+      { "fr": "Tom apprend l'**argot** de la rue.", "en": "Tom is learning street slang." }
+    ] },
+    { "id": "verlan", "fr": "verlan", "pos": "noun", "g": "m", "ipa": "vɛʁ.lɑ̃", "en": "verlan (slang that turns words back to front)", "def": "Un argot où on met les syllabes des mots à l'envers : « fou » devient « [ouf|ouf-verlan] ».", "def_en": "A slang in which you put the syllables of words back to front: 'fou' becomes 'ouf'.", "note": "The word itself is *l'envers* (back to front) said back to front.", "examples": [
+      { "fr": "« Meuf », c'est « femme » en **verlan**.", "en": "'Meuf' is 'femme' in verlan." },
+      { "fr": "Le **verlan** vient des mots « à l'envers ».", "en": "'Verlan' comes from the words 'à l'envers' (back to front)." },
+      { "fr": "Enzo donne des cours de **verlan** à Tom.", "en": "Enzo gives Tom verlan lessons." }
+    ] },
+    { "id": "ouf-verlan", "fr": "ouf", "pos": "adj", "manual": true, "ipa": "uf", "en": "crazy; amazing (verlan of fou)", "def": "Fou, incroyable (verlan).", "def_en": "Mad, incredible (verlan).", "note": "*un truc de ouf* = something crazy, amazing. Not to be confused with **ouf !** (phew!).", "examples": [
+      { "fr": "C'est **[ouf|ouf-verlan]** !", "en": "That's crazy!" },
+      { "fr": "On a vu un concert de **[ouf|ouf-verlan]**.", "en": "We saw an amazing gig." },
+      { "fr": "Il est complètement **[ouf|ouf-verlan]**, ce mec.", "en": "That guy's completely nuts." }
+    ] },
+    { "id": "relou", "fr": "relou", "pos": "adj", "ipa": "ʁə.lu", "en": "annoying, a pain (verlan of lourd)", "def": "Pénible, qui embête les autres (verlan).", "def_en": "Tiresome, bothering other people (verlan).", "forms": ["relous"], "examples": [
+      { "fr": "Arrête, tu es **relou** !", "en": "Stop it, you're so annoying!" },
+      { "fr": "Ce travail est vraiment **relou**.", "en": "This work is a real pain." },
+      { "fr": "Ton voisin est **relou** ?", "en": "Is your neighbour annoying?" }
+    ] },
+    { "id": "chelou", "fr": "chelou", "pos": "adj", "ipa": "ʃə.lu", "en": "weird, dodgy (verlan of louche)", "def": "Bizarre, un peu suspect (verlan).", "def_en": "Strange, a bit suspicious (verlan).", "forms": ["chelous"], "examples": [
+      { "fr": "Ce mec est un peu **chelou**.", "en": "That guy's a bit dodgy." },
+      { "fr": "Il y a un bruit **chelou** dans la cuisine.", "en": "There's a weird noise in the kitchen." },
+      { "fr": "C'est **chelou**, cette histoire.", "en": "This story is weird." }
+    ] },
+    { "id": "meuf", "fr": "meuf", "pos": "noun", "g": "f", "ipa": "mœf", "en": "woman, girl; (ma meuf) my girlfriend (verlan of femme)", "def": "Une femme, une fille (verlan). Avec « ma » : ma copine.", "def_en": "A woman, a girl (verlan). With 'ma': my girlfriend.", "forms": ["meufs"], "examples": [
+      { "fr": "Ma **meuf** parle anglais.", "en": "My girlfriend speaks English." },
+      { "fr": "Les **meufs** arrivent à huit heures.", "en": "The girls are coming at eight." },
+      { "fr": "C'est qui, cette **meuf** ?", "en": "Who's that girl?" }
+    ] },
+    { "id": "reuf", "fr": "reuf", "pos": "noun", "g": "m", "ipa": "ʁœf", "en": "brother, bro (verlan of frère)", "def": "Un frère (verlan). Aussi : un ami très proche.", "def_en": "A brother (verlan). Also: a very close friend.", "forms": ["reufs"], "examples": [
+      { "fr": "Samedi, il y a une teuf chez mon **reuf**.", "en": "On Saturday, there's a party at my brother's." },
+      { "fr": "Mon **reuf** a vingt ans.", "en": "My brother is twenty." },
+      { "fr": "Merci, **reuf** !", "en": "Thanks, bro!" }
+    ] },
+    { "id": "venere", "fr": "vénère", "pos": "adj", "ipa": "ve.nɛʁ", "en": "angry, wound up (verlan of énervé)", "def": "En colère (verlan).", "def_en": "Angry (verlan).", "forms": ["vénères"], "examples": [
+      { "fr": "Mes darons sont **vénères**.", "en": "My folks are furious." },
+      { "fr": "Ne sois pas **vénère** !", "en": "Don't be angry!" },
+      { "fr": "Il était **vénère** contre son frère.", "en": "He was mad at his brother." }
+    ] },
+    { "id": "zarbi", "fr": "zarbi", "pos": "adj", "ipa": "zaʁ.bi", "en": "weird (verlan of bizarre)", "def": "Étrange, pas normal (verlan).", "def_en": "Strange, not normal (verlan).", "forms": ["zarbis"], "examples": [
+      { "fr": "Il porte une casquette **zarbi**.", "en": "He's wearing a weird cap." },
+      { "fr": "C'est **zarbi** : la boulangerie est fermée.", "en": "That's weird: the bakery's closed." },
+      { "fr": "Quel rêve **zarbi** !", "en": "What a weird dream!" }
+    ] },
+    { "id": "teuf", "fr": "teuf", "pos": "noun", "g": "f", "ipa": "tœf", "en": "party (verlan of fête)", "def": "Une soirée où on danse et on s'amuse (verlan).", "def_en": "An evening of dancing and fun (verlan).", "forms": ["teufs"], "examples": [
+      { "fr": "Samedi, [y a|y-a] une **teuf** chez mon reuf.", "en": "There's a party at my brother's on Saturday." },
+      { "fr": "C'était une **teuf** de [ouf|ouf-verlan] !", "en": "It was a crazy party!" },
+      { "fr": "On fait la **teuf** ce soir ?", "en": "Shall we party tonight?" }
+    ] },
+    { "id": "chanme", "fr": "chanmé", "pos": "adj", "ipa": "ʃɑ̃.me", "en": "awesome, wicked (verlan of méchant)", "def": "Génial, excellent (verlan).", "def_en": "Great, excellent (verlan).", "forms": ["chanmée", "chanmés", "chanmées"], "examples": [
+      { "fr": "Ton cours, il est **chanmé** !", "en": "Your lesson is awesome!" },
+      { "fr": "Cette musique est **chanmée**.", "en": "This music is wicked." },
+      { "fr": "Le concert était **chanmé**.", "en": "The gig was awesome." }
+    ] },
+    { "id": "cimer", "fr": "cimer", "pos": "interj", "ipa": "si.mɛʁ", "en": "thanks (verlan of merci)", "def": "Un mot pour remercier quelqu'un (verlan).", "def_en": "A word to thank someone (verlan).", "examples": [
+      { "fr": "**Cimer**, Hugo !", "en": "Thanks, Hugo!" },
+      { "fr": "**Cimer** pour le cours, Tom.", "en": "Thanks for the lesson, Tom." },
+      { "fr": "Tu me passes le sel ? **Cimer** !", "en": "Can you pass me the salt? Ta!" }
+    ] },
+    { "id": "laisse-beton", "fr": "laisse béton", "pos": "expr", "ipa": "lɛs be.tɔ̃", "en": "forget it, drop it (verlan of laisse tomber)", "def": "Oublie ça, ce n'est pas important (verlan).", "def_en": "Forget it, it doesn't matter (verlan).", "note": "From *laisse tomber*, made famous by a 1977 song.", "forms": ["laissez béton"], "examples": [
+      { "fr": "**Laisse béton**, c'est pas grave !", "en": "Forget it, it doesn't matter!" },
+      { "fr": "Il est relou ? **Laisse béton**.", "en": "He's annoying? Just drop it." },
+      { "fr": "« **Laisse béton** », c'est une vieille chanson.", "en": "'Laisse béton' is an old song." }
+    ] },
+    { "id": "kiffer", "fr": "kiffer", "pos": "verb", "ipa": "ki.fe", "en": "to love, to be really into (slang)", "def": "Aimer beaucoup, adorer (argot).", "def_en": "To like a lot, to love (slang).", "forms": ["kiffe", "kiffes", "kiffons", "kiffez", "kiffent", "kiffé", "kiffée", "kiffés", "kiffées", "kiffais", "kiffait", "kiffions", "kiffiez", "kiffaient", "kifferai", "kifferas", "kiffera", "kifferons", "kifferez", "kifferont", "kifferais", "kifferait", "kifferions", "kifferiez", "kifferaient", "kiffant", "kiffai", "kiffas", "kiffa", "kiffâmes", "kiffâtes", "kiffèrent"], "examples": [
+      { "fr": "Je **kiffe** ce cours !", "en": "I love this lesson!" },
+      { "fr": "Il **kiffe** le rap.", "en": "He's really into rap." },
+      { "fr": "Tu vas **kiffer**, c'est sûr.", "en": "You'll love it, for sure." }
+    ] },
+    { "id": "thune", "fr": "thune", "pos": "noun", "g": "f", "ipa": "tyn", "en": "dosh, dough (slang)", "def": "L'argent, en argot des jeunes.", "def_en": "Money, in young people's slang.", "forms": ["thunes"], "examples": [
+      { "fr": "Pas de **thune** entre potes !", "en": "No money between mates!" },
+      { "fr": "J'ai plus de **thune**.", "en": "I'm out of cash." },
+      { "fr": "Il gagne un peu de **thune** à la boulangerie.", "en": "He earns a bit of dosh at the bakery." }
+    ] },
+    { "id": "taf", "fr": "taf", "pos": "noun", "g": "m", "ipa": "taf", "en": "work, a job (slang)", "def": "Le travail (argot).", "def_en": "Work (slang).", "forms": ["tafs"], "examples": [
+      { "fr": "Il a fini son **taf** à midi.", "en": "He finished work at noon." },
+      { "fr": "J'ai trouvé un **taf** pour l'été.", "en": "I found a summer job." },
+      { "fr": "Trop de **taf** cette semaine !", "en": "Too much work this week!" }
+    ] },
+    { "id": "daron", "fr": "daron", "pos": "noun", "g": "m", "ipa": "da.ʁɔ̃", "display": "le daron, la daronne", "en": "dad; (la daronne) mum (slang)", "def": "Le père ou la mère (argot).", "def_en": "Father or mother (slang).", "note": "*les darons* = your parents.", "forms": ["daronne", "darons", "daronnes"], "accept": ["daronne", "la daronne"], "examples": [
+      { "fr": "Mes **darons** sont vénères.", "en": "My folks are furious." },
+      { "fr": "Ma **daronne** a le seum.", "en": "My mum's gutted." },
+      { "fr": "Mon **daron** travaille à Villeurbanne.", "en": "My dad works in Villeurbanne." }
+    ] },
+    { "id": "seum", "fr": "seum", "pos": "noun", "g": "m", "ipa": "sœm", "en": "(avoir le seum) to be gutted, to be fed up (slang)", "def": "La colère ou la tristesse quand quelque chose ne va pas (argot).", "def_en": "Anger or sadness when something goes wrong (slang).", "note": "*avoir le seum* = to be gutted. It comes from an Arabic word for poison.", "examples": [
+      { "fr": "Ma daronne a le **seum**.", "en": "My mum's gutted." },
+      { "fr": "J'ai le **seum** : on a perdu le match.", "en": "I'm gutted: we lost the match." },
+      { "fr": "Quel **seum** !", "en": "How annoying!" }
+    ] },
+    { "id": "style-adj", "fr": "stylé", "pos": "adj", "ipa": "sti.le", "en": "cool, stylish", "def": "Beau, élégant, qui plaît (argot).", "def_en": "Good-looking, elegant, appealing (slang).", "forms": ["stylée", "stylés", "stylées"], "examples": [
+      { "fr": "Ton pote, il est **stylé** !", "en": "Your mate's cool!" },
+      { "fr": "Elle a une veste **stylée**.", "en": "She's got a stylish jacket." },
+      { "fr": "C'est **stylé**, ton appart !", "en": "Your flat's cool!" }
+    ] },
+    { "id": "ca-craint", "fr": "ça craint", "pos": "expr", "ipa": "sa kʁɛ̃", "en": "that sucks, that's bad (slang)", "def": "C'est nul, pas agréable, ou même dangereux (argot).", "def_en": "It's rubbish, not nice, or even dangerous (slang).", "forms": ["ça craignait"], "examples": [
+      { "fr": "Pas de réseau ? **Ça craint** !", "en": "No signal? That sucks!" },
+      { "fr": "**Ça craint**, ce quartier, la nuit.", "en": "This area's dodgy at night." },
+      { "fr": "On a raté le train… **Ça craint** !", "en": "We've missed the train… That's bad!" }
+    ] },
+    { "id": "wesh", "fr": "wesh", "pos": "interj", "ipa": "wɛʃ", "en": "hey, yo (slang greeting)", "def": "Un mot pour dire bonjour entre jeunes (argot).", "def_en": "A word young people use to say hello (slang).", "examples": [
+      { "fr": "**Wesh**, Tom ! Ça va ?", "en": "Yo, Tom! How's it going?" },
+      { "fr": "**Wesh**, les sportifs !", "en": "Hey, you sporty lot!" },
+      { "fr": "On ne dit pas « **wesh** » à sa grand-mère !", "en": "You don't say 'yo' to your grandmother!" }
+    ] },
+    { "id": "kif-kif", "fr": "kif-kif", "pos": "adj", "ipa": "kif.kif", "en": "the same, all the same", "def": "Pareil, la même chose (familier).", "def_en": "The same, the same thing (informal).", "note": "From Arabic, like *le bled* and *kiffer*.", "examples": [
+      { "fr": "C'est **kif-kif** : il m'apprend l'anglais, et moi, je lui apprends la rue.", "en": "It's even: he teaches me English, and I teach him the street." },
+      { "fr": "Le train ou le bus, c'est **kif-kif**.", "en": "Train or bus, it's all the same." },
+      { "fr": "Vos deux idées, c'est **kif-kif**.", "en": "Your two ideas are the same thing." }
+    ] },
+    { "id": "bled", "fr": "bled", "pos": "noun", "g": "m", "ipa": "blɛd", "en": "village, the back of beyond; (also) home country", "def": "Un petit village loin de tout (familier). Aussi : le pays d'où vient sa famille.", "def_en": "A small village far from everything (informal). Also: your family's home country.", "forms": ["bleds"], "examples": [
+      { "fr": "L'été, je vais au **bled** de mon grand-père.", "en": "In summer, I go to my grandfather's village." },
+      { "fr": "Il habite dans un petit **bled**.", "en": "He lives in a tiny village." },
+      { "fr": "Il n'y a rien à faire dans ce **bled** !", "en": "There's nothing to do in this dump!" }
+    ] },
+    { "id": "paume-adj", "fr": "paumé", "pos": "adj", "ipa": "po.me", "en": "lost; in the middle of nowhere (informal)", "def": "Perdu, ou très loin de tout (familier).", "def_en": "Lost, or very far from everything (informal).", "forms": ["paumée", "paumés", "paumées"], "examples": [
+      { "fr": "C'est un petit village **paumé** en Ardèche.", "en": "It's a little village in the middle of nowhere in the Ardèche." },
+      { "fr": "Je suis complètement **paumé** dans cette ville.", "en": "I'm completely lost in this city." },
+      { "fr": "Après le cours, Tom est un peu **paumé**.", "en": "After the lesson, Tom is a bit lost." }
+    ] },
+    { "id": "embrouille", "fr": "embrouille", "pos": "noun", "g": "f", "ipa": "ɑ̃.bʁuj", "en": "trouble, hassle; a row", "def": "Un problème, une dispute (familier).", "def_en": "A problem, an argument (informal).", "forms": ["embrouilles"], "examples": [
+      { "fr": "J'arrive, Mamie. Pas d'**embrouille** !", "en": "Coming, Grandma. No trouble!" },
+      { "fr": "Il cherche toujours les **embrouilles**.", "en": "He's always looking for trouble." },
+      { "fr": "Il y a eu une **embrouille** à la teuf.", "en": "There was a row at the party." }
+    ] }
+  ],
+  "story": {
+    "title": "Le cours de verlan",
+    "en": "Wednesday 4 November: Tom swaps an hour of English for an hour of slang with Enzo.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi quatre novembre, à sept heures du soir, Enzo sonne chez Tom. Il a fini son taf à la boulangerie depuis longtemps : il commence à quatre heures du matin !", "en": "On Wednesday 4 November, at seven in the evening, Enzo rings Tom's doorbell. He finished work at the bakery ages ago: he starts at four in the morning!" },
+      { "sp": "Enzo", "fr": "Wesh, Tom ! Ça va ?", "en": "Yo, Tom! How's it going?" },
+      { "sp": "Tom", "fr": "« Wesh » ? Euh… bonsoir, Enzo. Alors, une heure d'anglais, puis une heure de… comment tu dis ?", "en": "'Yo'? Er… good evening, Enzo. So, one hour of English, then one hour of… what do you call it?" },
+      { "sp": "Enzo", "fr": "D'argot ! Et de verlan. Le verlan, c'est simple : tu mets les syllabes à l'envers. « L'envers », ça donne « verlan ».", "en": "Slang! And verlan. Verlan is easy: you put the syllables back to front. 'L'envers' gives 'verlan'." },
+      { "sp": "Tom", "fr": "À l'envers ? Montre-moi.", "en": "Back to front? Show me." },
+      { "sp": "Enzo", "fr": "« Fou », ça devient « [ouf|ouf-verlan] ». « Louche », ça donne « chelou ». Et « femme », c'est « meuf ». Facile, non ?", "en": "'Fou' becomes 'ouf'. 'Louche' gives 'chelou'. And 'femme' is 'meuf'. Easy, isn't it?" },
+      { "sp": "Tom", "fr": "Alors… mon voisin Hugo est un peu chelou ?", "en": "So… my neighbour Hugo is a bit dodgy?" },
+      { "sp": "Enzo", "fr": "Exactement ! Et si quelqu'un t'embête tout le temps, il est « relou ». Ça vient de « lourd ».", "en": "Exactly! And if someone bugs you all the time, they're 'relou'. It comes from 'lourd', heavy." },
+      { "sp": "", "fr": "À ce moment-là, Hugo entre sans frapper, avec une pizza.", "en": "Just then, Hugo comes in without knocking, carrying a pizza." },
+      { "sp": "Hugo", "fr": "Salut ! J'ai entendu « relou ». Vous parlez de moi ?", "en": "Hi! I heard 'relou'. Are you talking about me?" },
+      { "sp": "Enzo", "fr": "Ton pote, il est stylé ! Il a apporté une pizza !", "en": "Your mate's cool! He's brought a pizza!" },
+      { "sp": "Tom", "fr": "Cimer, Hugo. C'est « merci » en verlan… Je kiffe ce cours !", "en": "'Cimer', Hugo. That's 'merci' in verlan… I love this lesson!" },
+      { "sp": "Enzo", "fr": "Et une fête, c'est une « teuf ». Samedi, [y a|y-a] une teuf chez mon reuf. Mon frère, quoi.", "en": "And a party is a 'teuf'. On Saturday there's a party at my 'reuf''s. My brother, I mean." },
+      { "sp": "Tom", "fr": "Et toi, tu y vas ?", "en": "And are you going?" },
+      { "sp": "Enzo", "fr": "Non. Mes darons sont vénères : j'ai eu une mauvaise note à l'école. Ma daronne a le seum.", "en": "No. My folks are fuming: I got a bad mark at school. My mum's gutted." },
+      { "sp": "Hugo", "fr": "Laisse béton ! Moi, à ton âge, j'avais de très mauvaises notes. Et regarde-moi aujourd'hui !", "en": "Forget it! At your age, my marks were terrible. And look at me now!" },
+      { "sp": "Enzo", "fr": "Ouais… C'est un exemple un peu zarbi.", "en": "Yeah… That's a slightly weird example." },
+      { "sp": "Hugo", "fr": "Et toi, Tom, tu lui donnes combien de thune pour ses cours ?", "en": "And you, Tom, how much dosh do you give him for his lessons?" },
+      { "sp": "Enzo", "fr": "Zéro thune ! C'est kif-kif : il m'apprend l'anglais, et moi, je lui apprends la rue.", "en": "No dosh at all! It's even: he teaches me English, and I teach him the street." },
+      { "sp": "", "fr": "Ensuite, Tom donne son cours d'anglais. Enzo répète tout, et il traduit tout de suite en argot.", "en": "Then Tom gives his English lesson. Enzo repeats everything, and translates it straight into slang." },
+      { "sp": "Enzo", "fr": "Ton cours, il est chanmé ! Ma meuf ne va pas me croire quand je vais lui parler anglais !", "en": "Your lesson is wicked! My girlfriend won't believe me when I speak English to her!" },
+      { "sp": "Tom", "fr": "Et tu viens d'où, Enzo ?", "en": "And where are you from, Enzo?" },
+      { "sp": "Enzo", "fr": "De Villeurbanne. Mais l'été, je vais au bled de mon grand-père, un petit village paumé en Ardèche. [Y a|y-a] rien, même pas de réseau !", "en": "From Villeurbanne. But in summer, I go to my grandfather's village, a tiny place in the middle of nowhere in the Ardèche. There's nothing there, not even a signal!" },
+      { "sp": "Hugo", "fr": "Pas de réseau ? Ça craint !", "en": "No signal? That sucks!" },
+      { "sp": "", "fr": "À neuf heures, on sonne. C'est Madame Fournier.", "en": "At nine, the doorbell rings. It's Mme Fournier." },
+      { "sp": "Mme Fournier", "fr": "Enzo ! Tu te lèves à trois heures et demie demain ! Au lit !", "en": "Enzo! You're getting up at half past three tomorrow! Bed!" },
+      { "sp": "Enzo", "fr": "J'arrive, Mamie. Pas d'embrouille ! Cimer pour le cours, Tom !", "en": "Coming, Grandma. No trouble! Thanks for the lesson, Tom!" },
+      { "sp": "", "fr": "Tom ouvre son carnet : vingt-cinq mots nouveaux. Hugo, lui, a mangé toute la pizza.", "en": "Tom opens his notebook: twenty-five new words. Hugo, for his part, has eaten the whole pizza." }
+    ]
+  }
+}

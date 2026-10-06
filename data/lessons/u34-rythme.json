@@ -1,0 +1,165 @@
+{
+  "id": "u34-rythme",
+  "type": "sounds",
+  "unit": 34,
+  "title": "Tu viens ? Tu viens.",
+  "en": "Pronunciation: rhythm and intonation",
+  "intro": "French has its own music. Words are grouped into **rhythmic groups**, and only the **last syllable** of each group is a little longer: all the other syllables are short and even. On top of that rhythm, the **melody** of your voice tells people whether you're asking, telling or listing. Get the rhythm and the melody right, and you'll be understood even with an accent.",
+  "cases": [
+    { "id": "ry-egal", "label": "even syllables", "rule": "In English, some syllables are strong and others are swallowed. In French, every syllable is clear and about the same length: *ca-ra-mel, Mon-tré-al, té-lé-phone, pho-to-gra-phie*." },
+    { "id": "ry-final", "label": "the stress goes at the end", "rule": "French stresses the **last syllable of a group of words**, not of each word: *un café*, *un grand café*, *un café noir*. That syllable is a little longer, not louder." },
+    { "id": "ry-groupe", "label": "rhythmic groups", "rule": "A sentence is cut into **groups of meaning**. Each group ends with a slightly longer syllable, and you can breathe there: *Le samedi matin | je vais au marché | avec Léa.*" },
+    { "id": "ry-question", "label": "yes/no questions: the voice goes up", "rule": "Without *est-ce que*, only the melody turns a sentence into a question: *Tu viens ?* (the voice rises) / *Tu viens.* (it falls)." },
+    { "id": "ry-liste", "label": "lists: up, up… down", "rule": "In a list, the voice rises at the end of each item and falls on the last one: *du pain ↗, du fromage ↗ et du vin ↘*. A rise means: *wait, there's more*." },
+    { "id": "ry-insistance", "label": "emphasis: the first syllable", "rule": "To insist on a word, French puts a strong stress on its **first** syllable: *C'est IN-croyable ! C'est MA-gnifique ! AB-solument !*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Even syllables",
+      "table": {
+        "head": ["Word", "Syllables"], "frCols": [0],
+        "rows": [
+          ["caramel", "ca-ra-mel (3)"],
+          ["Montréal", "Mon-tré-al (3)"],
+          ["téléphone", "té-lé-phone (3)"],
+          ["photographie", "pho-to-gra-phie (4)"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'adore le {caramel|ry-egal} !", "en": "I love caramel!" },
+        { "fr": "Antoine habite à {Montréal|ry-egal}.", "en": "Antoine lives in Montréal." }
+      ],
+      "tip": "English speakers often say *PHO-to-graph*. In French, give each syllable the same time: *pho-to-gra-phie*."
+    },
+    {
+      "title": "2. The stress at the end of the group",
+      "table": {
+        "head": ["French", "Stress"], "frCols": [0],
+        "rows": [
+          ["un café", "on -fé"],
+          ["un grand café", "still on -fé"],
+          ["un café noir", "now on noir"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je voudrais {un grand café|ry-final}.", "en": "I'd like a large coffee." },
+        { "fr": "Pour moi, {un café noir|ry-final}, s'il vous plaît.", "en": "A black coffee for me, please." }
+      ],
+      "tip": "That's why stressing English words is hard for French people: in their language, the stress belongs to the group, not to the word."
+    },
+    {
+      "title": "3. Rhythmic groups",
+      "text": ["Cut long sentences into groups of meaning. Each group ends with a slightly longer syllable: that's where you can breathe."],
+      "table": {
+        "head": ["Sentence", "Groups"], "frCols": [0],
+        "rows": [
+          ["Le samedi matin, je vais au marché.", "2 groups: …matin | …marché"],
+          ["Je vais au marché avec Léa.", "2 groups: …marché | …Léa"],
+          ["Ce soir, on va au cinéma avec Hugo.", "3 groups: …soir | …cinéma | …Hugo"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Le samedi matin|ry-groupe}, {je vais au marché|ry-groupe}.", "en": "On Saturday mornings, I go to the market." },
+        { "fr": "{Ce soir|ry-groupe}, {on va au cinéma|ry-groupe} {avec Hugo|ry-groupe}.", "en": "Tonight, we're going to the cinema with Hugo." }
+      ]
+    },
+    {
+      "title": "4. Questions: the voice goes up",
+      "table": {
+        "head": ["French", "Melody"], "frCols": [0],
+        "rows": [
+          ["Tu viens.", "↘ the voice falls: a statement"],
+          ["Tu viens ?", "↗ the voice rises: a question"],
+          ["Il est là.", "↘ a statement"],
+          ["Il est là ?", "↗ a question"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu viens ?|ry-question}", "en": "Are you coming?" },
+        { "fr": "{Il est là ?|ry-question} Je ne le vois pas.", "en": "Is he here? I can't see him." }
+      ],
+      "tip": "With a question word (*où, quand, comment*), the voice usually starts high and falls: *Où tu vas ?* The question word already says it's a question."
+    },
+    {
+      "title": "5. Lists: up, up… down",
+      "table": {
+        "head": ["French", "Melody"], "frCols": [0],
+        "rows": [
+          ["du pain, du fromage et du vin", "↗ ↗ ↘"],
+          ["lundi, mardi et mercredi", "↗ ↗ ↘"],
+          ["Je parle anglais, français et un peu d'espagnol.", "↗ ↗ ↘"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai acheté {du pain, du fromage et du vin|ry-liste}.", "en": "I bought bread, cheese and wine." },
+        { "fr": "Je parle {anglais, français et un peu d'espagnol|ry-liste}.", "en": "I speak English, French and a bit of Spanish." }
+      ]
+    },
+    {
+      "title": "6. Emphasis: the first syllable",
+      "table": {
+        "head": ["French", "Said as"], "frCols": [0],
+        "rows": [
+          ["C'est incroyable !", "IN-croyable"],
+          ["C'est magnifique !", "MA-gnifique"],
+          ["Absolument !", "AB-solument"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est {incroyable|ry-insistance} !", "en": "It's incredible!" },
+        { "fr": "{Absolument|ry-insistance} !", "en": "Absolutely!" }
+      ],
+      "tip": "Use it to show feelings, not on every word: if everything is stressed, nothing is. The voice in this app speaks calmly, so listen for this in films and songs."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Montréal → MON-tré-al", "right": "mon-tré-AL", "why": "French doesn't hit the first syllable of a word: the syllables are even, and the last one is a little longer." },
+    { "wrong": "un GRAND café", "right": "un grand ca-FÉ", "why": "The stress goes at the end of the group, not on the adjective." },
+    { "wrong": "Tu viens ? (with a falling voice)", "right": "Tu viens ? (with a rising voice)", "why": "Without *est-ce que*, only the rising voice shows it's a question." },
+    { "wrong": "du pain ↘, du fromage ↘ et du vin ↘", "right": "du pain ↗, du fromage ↗ et du vin ↘", "why": "In a list, a falling voice means *that's all*: keep it up until the last item." }
+  ],
+  "story": {
+    "title": "L'oral de Tom",
+    "en": "Wednesday 11 November: Tom rehearses his DELF oral with Léa and Sophie. On Thursday, it's the real thing.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi onze novembre, c'est férié. Chez Léa et Sophie, Tom prépare son examen de demain : l'oral du DELF.", "en": "Wednesday 11 November is a public holiday. At Léa and Sophie's, Tom is preparing for tomorrow's exam: the DELF oral." },
+      { "sp": "Sophie", "fr": "Bon, je suis l'examinatrice. « Bonjour, monsieur. {Vous êtes prêt ?|ry-question} »", "en": "Right, I'm the examiner. 'Good morning. Are you ready?'" },
+      { "sp": "Tom", "fr": "Oui. {Je m'appelle Tom, j'ai vingt et un ans et j'habite à Lyon|ry-liste}.", "en": "Yes. My name's Tom, I'm twenty-one and I live in Lyon." },
+      { "sp": "Léa", "fr": "Très bien ! Ta voix monte après « Tom » et après « vingt et un ans », puis elle descend à la fin. C'est parfait.", "en": "Very good! Your voice goes up after 'Tom' and after 'twenty-one', then it comes down at the end. That's perfect." },
+      { "sp": "Sophie", "fr": "« Qu'est-ce que vous faites le week-end ? »", "en": "'What do you do at weekends?'" },
+      { "sp": "Tom", "fr": "Le week-end, je vais souvent au cinéma avec mes amis.", "en": "At weekends, I often go to the cinema with my friends." },
+      { "sp": "Léa", "fr": "Attention : tu dis « cinéma » comme en anglais, avec une syllabe très forte au début. En français, on dit « {cinéma|ry-egal} », avec trois syllabes égales.", "en": "Careful: you say 'cinéma' as in English, with a very strong first syllable. In French, it's 'cinéma', with three even syllables." },
+      { "sp": "Tom", "fr": "{Cinéma|ry-egal}… {Montréal|ry-egal}… {téléphone|ry-egal}…", "en": "Cinéma… Montréal… téléphone…" },
+      { "sp": "Hugo", "fr": "On dirait un robot ! Bon, qui veut un café ?", "en": "You sound like a robot! Right, who wants a coffee?" },
+      { "sp": "Tom", "fr": "{Un grand café|ry-final}, s'il te plaît !", "en": "A large coffee, please!" },
+      { "sp": "Léa", "fr": "Tu entends ? La syllabe la plus longue est à la fin : « {un grand café|ry-final} ». Pas sur « grand ».", "en": "Hear that? The longest syllable is at the end: 'un grand café'. Not on 'grand'." },
+      { "sp": "Léa", "fr": "Et on fait des groupes : « {le week-end|ry-groupe}, {je vais au cinéma|ry-groupe}, {avec mes amis|ry-groupe} ». À la fin de chaque groupe, tu peux respirer.", "en": "And you make groups: 'le week-end', 'je vais au cinéma', 'avec mes amis'. At the end of each group, you can breathe." },
+      { "sp": "Sophie", "fr": "Dernière question. « Qu'est-ce que vous pensez du français parlé ? »", "en": "Last question. 'What do you think of spoken French?'" },
+      { "sp": "Tom", "fr": "C'est {incroyable|ry-insistance} ! Il y a l'argot, le verlan, les petits mots… C'est {magnifique|ry-insistance} !", "en": "It's incredible! There's slang, verlan, all the little words… It's magnificent!" },
+      { "sp": "Hugo", "fr": "Il insiste bien, hein ?", "en": "He really lays it on, eh?" },
+      { "sp": "Léa", "fr": "Parfait : pour insister, on met la force sur la première syllabe. Et quand tu poses une question, ta voix monte : « {Tu as compris ?|ry-question} »", "en": "Perfect: to insist, you put the force on the first syllable. And when you ask a question, your voice goes up: 'Tu as compris ?'" },
+      { "sp": "Tom", "fr": "Oui, j'ai compris. Ma voix descend : c'est une réponse !", "en": "Yes, I've understood. My voice is going down: it's an answer!" },
+      { "sp": "", "fr": "Le lendemain, le jeudi douze novembre, Tom passe son oral. L'examinatrice a des lunettes et un grand sourire.", "en": "The next day, Thursday 12 November, Tom takes his oral. The examiner has glasses and a big smile." },
+      { "sp": "L'examinatrice", "fr": "{Vous aimez Lyon ?|ry-question}", "en": "Do you like Lyon?" },
+      { "sp": "Tom", "fr": "{Absolument|ry-insistance} ! J'aime {les gens, les marchés et les cafés|ry-liste}.", "en": "Absolutely! I love the people, the markets and the cafés." },
+      { "sp": "", "fr": "Tom parle pendant quinze minutes. Il garde le « ne », il dit « euh » deux fois… et ses phrases ont un vrai rythme français.", "en": "Tom talks for fifteen minutes. He keeps the 'ne', he says 'euh' twice… and his sentences have a real French rhythm." },
+      { "sp": "L'examinatrice", "fr": "Merci, monsieur. C'est très bien. Vous avez presque l'accent de Lyon !", "en": "Thank you. That's very good. You almost have a Lyon accent!" },
+      { "sp": "", "fr": "Les résultats arriveront en décembre. Mais dans la rue, Tom chante, en rythme : « Je suis content, très content, vachement content ! »", "en": "The results will come out in December. But in the street, Tom sings, in rhythm: 'I'm happy, very happy, really happy!'" }
+    ]
+  },
+  "quiz": [
+    { "case": "ry-egal", "type": "mc", "lang": "en", "q": "In French, the syllables of « téléphone » are…", "options": ["about the same length", "strong, weak, weak, as in English", "all silent except the first"], "answer": "about the same length", "say": "téléphone" },
+    { "case": "ry-egal", "type": "mc", "lang": "en", "q": "Which is the French way to say « cinéma »?", "options": ["three even syllables, the last a little longer", "a strong first syllable, like the English word"], "answer": "three even syllables, the last a little longer", "say": "cinéma" },
+    { "case": "ry-final", "type": "mc", "lang": "en", "q": "In « un grand café », the stress falls on…", "options": ["-fé, the last syllable", "grand", "un"], "answer": "-fé, the last syllable", "say": "un grand café" },
+    { "case": "ry-final", "type": "mc", "lang": "en", "q": "In « un café noir », the stress moves to…", "options": ["noir", "ca-", "-fé"], "answer": "noir", "say": "un café noir" },
+    { "case": "ry-groupe", "type": "mc", "lang": "en", "q": "Where can you take a breath in « Le samedi matin, je vais au marché »?", "options": ["after « matin »", "after « samedi »", "after « je »"], "answer": "after « matin »", "say": "Le samedi matin, je vais au marché." },
+    { "case": "ry-groupe", "type": "mc", "lang": "en", "q": "Each rhythmic group ends with…", "options": ["a slightly longer syllable", "a silent syllable", "a higher voice on every word"], "answer": "a slightly longer syllable", "say": "Ce soir, on va au cinéma avec Hugo." },
+    { "case": "ry-question", "type": "mc", "lang": "en", "q": "In « Tu viens ? », without est-ce que, the voice…", "options": ["rises at the end", "falls at the end", "stays flat"], "answer": "rises at the end", "say": "Tu viens ?" },
+    { "case": "ry-question", "type": "mc", "lang": "en", "q": "« Tu viens. » with a falling voice is…", "options": ["a statement", "a question", "a list"], "answer": "a statement", "say": "Tu viens." },
+    { "case": "ry-liste", "type": "mc", "lang": "en", "q": "In « du pain, du fromage et du vin », the voice…", "options": ["rises on each item and falls on the last", "falls on every item", "rises only on the last item"], "answer": "rises on each item and falls on the last", "say": "du pain, du fromage et du vin" },
+    { "case": "ry-liste", "type": "mc", "lang": "en", "q": "In a list, a rising voice means…", "options": ["wait, there's more", "that's all", "it's a question"], "answer": "wait, there's more", "say": "Je parle anglais, français et un peu d'espagnol." },
+    { "case": "ry-insistance", "type": "mc", "lang": "en", "q": "To insist, « C'est incroyable ! » is said…", "options": ["with a strong first syllable: IN-croyable", "with every syllable strong", "very quietly"], "answer": "with a strong first syllable: IN-croyable", "say": "C'est incroyable !" },
+    { "case": "ry-insistance", "type": "mc", "lang": "en", "q": "Where does the emphasis fall in « Absolument ! »?", "options": ["on the first syllable: AB-", "on the last syllable: -ment", "on the middle: -so-"], "answer": "on the first syllable: AB-", "say": "Absolument !" }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "u34-euh-bah",
+  "type": "vocab",
+  "unit": 34,
+  "title": "Euh, bah, quoi",
+  "en": "Fillers: the little words of speech",
+  "intro": "The little words that fill spoken French: hesitating (**bah, ben, comment dire, je veux dire, à vrai dire**), yes and no (**ouais, mouais, nan, OK**), checking that the other person is with you (**hein, tu vois, tu sais, n'est-ce pas, ou quoi**), telling a story (**en gros, genre, en mode, hop, bon ben, dis donc**), greetings and reactions (**coucou, ciao, miam, waouh, effectivement**). You already know some others: *euh, bref, du coup, en fait, voilà, quoi*.",
+  "words": [
+    { "id": "bah", "fr": "bah", "pos": "interj", "ipa": "ba", "en": "well, er; (bah oui) well, yes", "def": "Un petit mot qu'on dit quand on hésite, ou quand une chose est évidente.", "def_en": "A little word you say when you hesitate, or when something is obvious.", "examples": [
+      { "fr": "**Bah**… bonjour !", "en": "Er… hello!" },
+      { "fr": "**Bah** oui, c'est évident !", "en": "Well, yes, obviously!" },
+      { "fr": "**Bah**, je ne sais pas.", "en": "Well, I don't know." }
+    ] },
+    { "id": "ben", "fr": "ben", "pos": "interj", "ipa": "bɛ̃", "en": "well (spoken)", "def": "« Eh bien », en plus court et plus familier.", "def_en": "'Eh bien', shorter and more informal.", "examples": [
+      { "fr": "**Ben**, en gros, j'étais devant la gare.", "en": "Well, basically, I was outside the station." },
+      { "fr": "**Ben** non !", "en": "Well, no!" },
+      { "fr": "**Ben** quoi ? Qu'est-ce qu'il y a ?", "en": "What? What's the matter?" }
+    ] },
+    { "id": "hein", "fr": "hein", "pos": "interj", "ipa": "ɛ̃", "en": "eh?, what?; right?, isn't it?", "def": "Un petit mot pour demander de répéter, ou pour chercher l'accord de l'autre.", "def_en": "A little word to ask someone to repeat, or to look for the other person's agreement.", "examples": [
+      { "fr": "**Hein** ? Qu'est-ce que tu dis ?", "en": "Eh? What are you saying?" },
+      { "fr": "C'est bon, **hein** ?", "en": "It's good, isn't it?" },
+      { "fr": "Tu viens demain, **hein** ?", "en": "You're coming tomorrow, right?" }
+    ] },
+    { "id": "ouais", "fr": "ouais", "pos": "interj", "ipa": "wɛ", "en": "yeah", "def": "Oui (familier).", "def_en": "Yes (informal).", "examples": [
+      { "fr": "**Ouais**, c'est moi.", "en": "Yeah, it's me." },
+      { "fr": "Tu as faim ? — **Ouais** !", "en": "Are you hungry? — Yeah!" },
+      { "fr": "**Ouais**, peut-être.", "en": "Yeah, maybe." }
+    ] },
+    { "id": "mouais", "fr": "mouais", "pos": "interj", "ipa": "mwɛ", "en": "hmm, yeah… (not convinced)", "def": "Oui, mais sans être vraiment convaincu (familier).", "def_en": "Yes, but without being really convinced (informal).", "examples": [
+      { "fr": "**Mouais**… c'est compliqué.", "en": "Hmm, yeah… it's complicated." },
+      { "fr": "C'est bon ? — **Mouais**.", "en": "Is it good? — Meh." },
+      { "fr": "**Mouais**, je ne suis pas sûr.", "en": "Hmm, I'm not sure." }
+    ] },
+    { "id": "nan", "fr": "nan", "pos": "interj", "ipa": "nɑ̃", "en": "nah, nope", "def": "Non (familier).", "def_en": "No (informal).", "examples": [
+      { "fr": "**Nan**, je parle comme un idiot.", "en": "Nah, I talk like an idiot." },
+      { "fr": "Tu viens ? — **Nan**.", "en": "Coming? — Nope." },
+      { "fr": "**Nan** mais, tu rigoles ?", "en": "No way, are you kidding?" }
+    ] },
+    { "id": "genre", "fr": "genre", "pos": "noun", "g": "m", "ipa": "ʒɑ̃ʁ", "en": "kind, type; genre; (spoken) like", "def": "Une sorte, une espèce. À l'oral : un petit mot pour donner un exemple, ou pour dire « à peu près ».", "def_en": "A sort, a type. In speech: a little word for giving an example, or for saying 'roughly'.", "forms": ["genres"], "examples": [
+      { "fr": "[Y avait|y-a] une journaliste, **genre**, de la télé.", "en": "There was a journalist, like, from the TV." },
+      { "fr": "Quel **genre** de musique tu aimes ?", "en": "What kind of music do you like?" },
+      { "fr": "Il était **genre** énorme.", "en": "It was, like, huge." }
+    ] },
+    { "id": "tu-vois", "fr": "tu vois", "pos": "expr", "manual": true, "ipa": "ty vwa", "en": "you see, you know", "def": "Un petit mot pour vérifier que l'autre personne suit ce qu'on dit.", "def_en": "A little phrase to check the other person is following what you're saying.", "examples": [
+      { "fr": "J'étais devant la gare, **[tu vois|tu-vois]** ?", "en": "I was outside the station, you know?" },
+      { "fr": "C'est compliqué, **[tu vois|tu-vois]**.", "en": "It's complicated, you see." },
+      { "fr": "**[Tu vois|tu-vois]**, je te l'avais dit !", "en": "See, I told you!" }
+    ] },
+    { "id": "tu-sais", "fr": "tu sais", "pos": "expr", "manual": true, "ipa": "ty sɛ", "en": "you know", "def": "Un petit mot pour attirer l'attention de l'autre.", "def_en": "A little phrase to get the other person's attention.", "examples": [
+      { "fr": "**[Tu sais|tu-sais]**, les gens me reconnaissent dans la rue.", "en": "You know, people recognise me in the street." },
+      { "fr": "C'est difficile, **[tu sais|tu-sais]**.", "en": "It's hard, you know." },
+      { "fr": "**[Tu sais|tu-sais]**, je suis content pour toi.", "en": "You know, I'm happy for you." }
+    ] },
+    { "id": "je-veux-dire", "fr": "je veux dire", "pos": "expr", "manual": true, "ipa": "ʒə vø diʁ", "en": "I mean", "def": "Pour mieux expliquer ou corriger ses propres mots.", "def_en": "To explain better or to correct your own words.", "examples": [
+      { "fr": "Et moi, **[je veux dire|je-veux-dire]**, j'étais pas prêt.", "en": "And me, I mean, I wasn't ready." },
+      { "fr": "Il est grand, **[je veux dire|je-veux-dire]**, très grand.", "en": "He's tall, I mean, really tall." },
+      { "fr": "Demain… **[je veux dire|je-veux-dire]** samedi.", "en": "Tomorrow… I mean Saturday." }
+    ] },
+    { "id": "en-gros", "fr": "en gros", "pos": "expr", "ipa": "ɑ̃ ɡʁo", "en": "basically, roughly", "def": "Sans entrer dans les détails, à peu près.", "def_en": "Without going into detail, roughly.", "examples": [
+      { "fr": "**En gros**, j'étais devant la gare.", "en": "Basically, I was outside the station." },
+      { "fr": "Ça coûte, **en gros**, cent euros.", "en": "It costs roughly a hundred euros." },
+      { "fr": "**En gros**, il faut tout recommencer.", "en": "Basically, we have to start all over again." }
+    ] },
+    { "id": "comment-dire", "fr": "comment dire", "pos": "expr", "ipa": "kɔ.mɑ̃ diʁ", "en": "how can I put it", "def": "Une petite pause, quand on cherche le bon mot.", "def_en": "A little pause, when you're looking for the right word.", "examples": [
+      { "fr": "C'est… **comment dire**… compliqué.", "en": "It's… how can I put it… complicated." },
+      { "fr": "Il est, **comment dire**, un peu bizarre.", "en": "He's, how can I put it, a bit strange." },
+      { "fr": "**Comment dire** ? C'était une catastrophe.", "en": "How can I put it? It was a disaster." }
+    ] },
+    { "id": "a-vrai-dire", "fr": "à vrai dire", "pos": "expr", "ipa": "a vʁɛ diʁ", "en": "to tell the truth, actually", "def": "Pour être honnête, en réalité.", "def_en": "To be honest, in reality.", "examples": [
+      { "fr": "**À vrai dire**, je préfère le thé.", "en": "To tell the truth, I prefer tea." },
+      { "fr": "**À vrai dire**, je ne sais pas.", "en": "Actually, I don't know." },
+      { "fr": "Je n'ai pas aimé le film, **à vrai dire**.", "en": "To be honest, I didn't like the film." }
+    ] },
+    { "id": "bon-ben", "fr": "bon ben", "pos": "expr", "ipa": "bɔ̃ bɛ̃", "en": "well then, right then", "def": "Pour conclure, ou pour passer à autre chose, à l'oral.", "def_en": "To wrap up, or to move on to something else, in speech.", "forms": ["bon bah"], "examples": [
+      { "fr": "**Bon ben**, mon roi, je suis fière de toi.", "en": "Well then, my king, I'm proud of you." },
+      { "fr": "**Bon ben**, on y va ?", "en": "Right then, shall we go?" },
+      { "fr": "**Bon bah**, tant pis.", "en": "Oh well, never mind." }
+    ] },
+    { "id": "dis-donc", "fr": "dis donc", "pos": "expr", "ipa": "di dɔ̃k", "en": "wow, I say; hey", "def": "Pour montrer la surprise, ou pour attirer l'attention de quelqu'un.", "def_en": "To show surprise, or to get someone's attention.", "forms": ["dites donc"], "examples": [
+      { "fr": "**Dis donc**, l'épisode a déjà [été|etre] écouté mille fois !", "en": "Hey, the episode's already been played a thousand times!" },
+      { "fr": "**Dis donc**, tu as grandi !", "en": "My, you've grown!" },
+      { "fr": "**Dites donc**, vous deux, arrêtez !", "en": "Hey, you two, stop it!" }
+    ] },
+    { "id": "en-mode", "fr": "en mode", "pos": "expr", "ipa": "ɑ̃ mɔd", "en": "in … mode; (spoken) all…, like", "def": "Dans un certain état, d'une certaine façon (familier).", "def_en": "In a certain state, in a certain way (informal).", "examples": [
+      { "fr": "Et moi, **en mode** [panique|panique], je glisse…", "en": "And me, in full panic mode, I slip…" },
+      { "fr": "Ce week-end, je suis **en mode** vacances.", "en": "This weekend, I'm in holiday mode." },
+      { "fr": "Mets ton téléphone **en mode** avion.", "en": "Put your phone in airplane mode." }
+    ] },
+    { "id": "ou-quoi", "fr": "ou quoi", "pos": "expr", "ipa": "u kwa", "en": "or what?", "def": "À la fin d'une question, pour insister (familier).", "def_en": "At the end of a question, to insist (informal).", "examples": [
+      { "fr": "[T'es|t-es] content d'être célèbre, **ou quoi** ?", "en": "Are you happy to be famous, or what?" },
+      { "fr": "Tu viens, **ou quoi** ?", "en": "Are you coming or what?" },
+      { "fr": "Tu rigoles, **ou quoi** ?", "en": "Are you kidding, or what?" }
+    ] },
+    { "id": "hop", "fr": "hop", "pos": "interj", "ipa": "ɔp", "en": "hop!, there you go!, off it goes!", "def": "Un petit mot qu'on dit en faisant un geste rapide.", "def_en": "A little word you say as you make a quick gesture.", "examples": [
+      { "fr": "Et là, **hop**, un chien arrive !", "en": "And then, whoosh, a dog turns up!" },
+      { "fr": "**Hop**, au lit !", "en": "Off to bed!" },
+      { "fr": "Allez, **hop**, on y va !", "en": "Come on, off we go!" }
+    ] },
+    { "id": "coucou", "fr": "coucou", "pos": "interj", "ipa": "ku.ku", "en": "hi!, hello there! (friendly)", "def": "Bonjour, entre amis ou en famille.", "def_en": "Hello, between friends or in the family.", "examples": [
+      { "fr": "**Coucou** à tous !", "en": "Hi, everyone!" },
+      { "fr": "**Coucou**, Mamie !", "en": "Hello, Grandma!" },
+      { "fr": "Je passe faire un petit **coucou**.", "en": "I'm dropping in to say hi." }
+    ] },
+    { "id": "ciao", "fr": "ciao", "pos": "interj", "ipa": "tʃao", "en": "bye!", "def": "Au revoir (familier, de l'italien).", "def_en": "Goodbye (informal, from Italian).", "examples": [
+      { "fr": "**Ciao**, tout le monde !", "en": "Bye, everyone!" },
+      { "fr": "Bon, j'y vais. **Ciao** !", "en": "Right, I'm off. Bye!" },
+      { "fr": "**Ciao**, à demain !", "en": "Bye, see you tomorrow!" }
+    ] },
+    { "id": "ok", "fr": "OK", "pos": "interj", "ipa": "o.kɛ", "en": "OK", "def": "D'accord (familier, de l'anglais).", "def_en": "All right (informal, from English).", "examples": [
+      { "fr": "Mille fois ? **OK**…", "en": "A thousand times? OK…" },
+      { "fr": "**OK**, on se voit demain.", "en": "OK, see you tomorrow." },
+      { "fr": "Tu es **OK** avec ça ?", "en": "Are you OK with that?" }
+    ] },
+    { "id": "miam", "fr": "miam", "pos": "interj", "ipa": "mjam", "en": "yum!", "def": "Un mot pour dire que c'est bon à manger.", "def_en": "A word to say that something tastes good.", "examples": [
+      { "fr": "**Miam** ! Un gâteau au chocolat !", "en": "Yum! A chocolate cake!" },
+      { "fr": "**Miam**, ça sent bon !", "en": "Yum, that smells good!" },
+      { "fr": "Des crêpes ? **Miam** !", "en": "Pancakes? Yum!" }
+    ] },
+    { "id": "waouh", "fr": "waouh", "pos": "interj", "ipa": "wau", "en": "wow!", "def": "Un mot pour montrer une grande [surprise|surprise].", "def_en": "A word to show great surprise.", "examples": [
+      { "fr": "**Waouh** ! C'est un record !", "en": "Wow! That's a record!" },
+      { "fr": "**Waouh**, quelle vue !", "en": "Wow, what a view!" },
+      { "fr": "Tu as gagné ? **Waouh** !", "en": "You won? Wow!" }
+    ] },
+    { "id": "effectivement", "fr": "effectivement", "pos": "adv", "ipa": "e.fɛk.tiv.mɑ̃", "en": "that's true, sure enough (agreeing)", "def": "C'est vrai, en effet (pour confirmer).", "def_en": "It's true, indeed (to confirm).", "examples": [
+      { "fr": "**Effectivement**, ça se fête !", "en": "That's true, that calls for a celebration!" },
+      { "fr": "Tu as raison, **effectivement**.", "en": "You're right, sure enough." },
+      { "fr": "Il pleuvait **effectivement** ce jour-là.", "en": "It was indeed raining that day." }
+    ] },
+    { "id": "n-est-ce-pas", "fr": "n'est-ce pas", "pos": "expr", "ipa": "nɛs pa", "en": "isn't it?, aren't you?, right?", "def": "À la fin d'une phrase, pour demander à l'autre s'il est d'accord (plus poli que « hein »).", "def_en": "At the end of a sentence, to ask the other person if they agree (more polite than 'hein').", "examples": [
+      { "fr": "C'est un record, **n'est-ce pas** ?", "en": "That's a record, isn't it?" },
+      { "fr": "Vous êtes anglais, **n'est-ce pas** ?", "en": "You're English, aren't you?" },
+      { "fr": "Il fait beau, **n'est-ce pas** ?", "en": "It's a lovely day, isn't it?" }
+    ] }
+  ],
+  "story": {
+    "title": "Le roi de la poubelle",
+    "en": "Monday 9 November: at the café downstairs, the friends listen to Hugo's podcast interview… and count his little words.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi neuf novembre, au café d'en bas, les amis écoutent un podcast sur le téléphone de Léa : « Lyon insolite », épisode douze, « Le roi de la poubelle ».", "en": "On Monday 9 November, at the café downstairs, the friends listen to a podcast on Léa's phone: 'Lyon insolite' ('Unusual Lyon'), episode twelve, 'The King of the Bin'." },
+      { "sp": "Lina (podcast)", "fr": "Coucou à tous ! Aujourd'hui, j'ai un invité très spécial : Hugo, le roi de la poubelle !", "en": "Hi, everyone! Today I've got a very special guest: Hugo, the king of the bin!" },
+      { "sp": "Hugo (podcast)", "fr": "Euh… bah… bonjour ! Ouais, c'est moi.", "en": "Er… well… hello! Yeah, it's me." },
+      { "sp": "Lina (podcast)", "fr": "Alors, Hugo, raconte : qu'est-ce qui s'est passé, le vingt-neuf décembre ?", "en": "So, Hugo, tell us: what happened on 29 December?" },
+      { "sp": "Hugo (podcast)", "fr": "Ben, en gros, j'étais devant la gare, [tu vois|tu-vois] ? Et [y avait|y-a] une journaliste, genre, de la télé…", "en": "Well, basically, I was outside the station, you know? And there was a journalist, like, from the TV…" },
+      { "sp": "Hugo (podcast)", "fr": "Du coup, elle m'a posé une question, et moi, [je veux dire|je-veux-dire], j'étais pas prêt, quoi.", "en": "So she asked me a question, and me, I mean, I wasn't ready, you know." },
+      { "sp": "Hugo (podcast)", "fr": "Et là, hop, un petit chien arrive, et moi, en mode [panique|panique], je glisse… et boum, dans la poubelle !", "en": "And then, whoosh, a little dog turns up, and me, in full panic mode, I slip… and bang, into the bin!" },
+      { "sp": "", "fr": "Au café, tout le monde rit. Hugo cache son visage dans ses mains.", "en": "At the café, everyone laughs. Hugo hides his face in his hands." },
+      { "sp": "Hugo", "fr": "C'est pas possible… J'ai dit « genre » combien de fois ?", "en": "I don't believe it… How many times did I say 'like'?" },
+      { "sp": "Léa", "fr": "Attends, j'ai compté : quatorze « genre », vingt « du coup » et trente « euh » !", "en": "Hang on, I counted: fourteen 'like's, twenty 'so's and thirty 'er's!" },
+      { "sp": "Sophie", "fr": "Waouh ! C'est un record, n'est-ce pas, monsieur le roi ?", "en": "Wow! That's a record, isn't it, Your Majesty?" },
+      { "sp": "Tom", "fr": "Moi, j'adore ! C'est du vrai français. Je note tout pour mon examen de jeudi.", "en": "I love it! That's real French. I'm writing it all down for my exam on Thursday." },
+      { "sp": "", "fr": "Dans le podcast, Lina pose une dernière question.", "en": "In the podcast, Lina asks one last question." },
+      { "sp": "Lina (podcast)", "fr": "Et aujourd'hui, [t'es|t-es] content d'être célèbre, ou quoi ?", "en": "And today, are you happy to be famous, or what?" },
+      { "sp": "Hugo (podcast)", "fr": "Mouais… à vrai dire… comment dire… c'est compliqué. [Tu sais|tu-sais], les gens me reconnaissent dans la rue, hein.", "en": "Hmm… to tell the truth… how can I put it… it's complicated. You know, people recognise me in the street, eh." },
+      { "sp": "Lina (podcast)", "fr": "Merci, Hugo ! Ciao, tout le monde, et à la semaine prochaine !", "en": "Thanks, Hugo! Bye, everyone, and see you next week!" },
+      { "sp": "Carla", "fr": "Bon ben, mon roi, je suis fière de toi.", "en": "Well then, my king, I'm proud of you." },
+      { "sp": "Hugo", "fr": "Nan, je parle comme un idiot. Plus jamais de podcast !", "en": "Nah, I talk like an idiot. No more podcasts, ever!" },
+      { "sp": "Inès", "fr": "Dis donc, Hugo : l'épisode a déjà [été|etre] écouté mille fois !", "en": "Hey, Hugo: the episode's already been played a thousand times!" },
+      { "sp": "Hugo", "fr": "Mille fois ? OK… Bon, je vous offre un café. Pour fêter ça.", "en": "A thousand times? OK… Right, the coffees are on me. To celebrate." },
+      { "sp": "Sophie", "fr": "Effectivement, ça se fête !", "en": "That's true, that calls for a celebration!" },
+      { "sp": "", "fr": "Le patron du café apporte les cafés et un gâteau au chocolat.", "en": "The café owner brings the coffees and a chocolate cake." },
+      { "sp": "Hugo", "fr": "Miam ! Finalement, être célèbre, c'est pas si mal.", "en": "Yum! Being famous isn't so bad after all." }
+    ]
+  }
+}

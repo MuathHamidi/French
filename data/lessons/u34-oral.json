@@ -1,0 +1,163 @@
+{
+  "id": "u34-oral",
+  "type": "grammar",
+  "unit": 34,
+  "title": "T'as vu ? Y a du monde !",
+  "en": "Spoken French: t'as, y a, and the missing ne",
+  "intro": "People don't talk the way they write. In conversation, French drops the **ne** of the negation (*je sais pas*), shortens **tu** to **t'** (*t'as faim ?*), loses the **il** of *il y a* and *il faut* (*y a du monde, faut y aller*), says **on** instead of *nous*, asks questions with the voice alone (*tu viens ? tu fais quoi ?*) and names things twice to stress them (*moi, je…*). Understand all of it, use it with friends, and keep the full forms for writing.",
+  "cases": [
+    { "id": "or-ne", "label": "no ne: je sais pas", "rule": "In speech, the **ne** of the negation almost always disappears: *Je sais pas. C'est pas grave. J'ai rien compris. Il vient jamais.* The **pas** (or **rien, jamais, plus**) stays in its place, after the verb. In writing, always keep the **ne**." },
+    { "id": "or-tu", "label": "t'as, t'es", "rule": "Before a vowel, **tu** often loses its **u**: *t'as* (tu as), *t'es* (tu es), *t'avais* (tu avais). You'll see it in messages and comics too. In an exam or a letter, write *tu as, tu es*." },
+    { "id": "or-il", "label": "y a, faut: no il", "rule": "The **il** of *il y a* and *il faut* often disappears: *Y a du monde. Y avait rien. Faut y aller.*" },
+    { "id": "or-on", "label": "on for nous", "rule": "In speech, **on** replaces **nous** almost everywhere: *On y va ? On est contents.* The verb takes the **il** form: *on est, on a, on va*. To insist, add *nous*: *Nous, on reste.*" },
+    { "id": "or-question", "label": "questions: tu viens ? tu fais quoi ?", "rule": "Spoken questions keep the order of a statement, and the voice rises at the end: *Tu viens ?* instead of *Viens-tu ?* or *Est-ce que tu viens ?* Question words often go at the end: *Tu fais quoi ? C'est qui ? Il arrive quand ? Tu vas où ?*" },
+    { "id": "or-moi", "label": "moi, je… / il est sympa, ton pote", "rule": "To stress something, spoken French names it twice: a stressed pronoun or the noun, plus the small pronoun: *Moi, je trouve ça nul. Il est sympa, ton pote. Le café, je l'aime noir.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. No ne",
+      "table": {
+        "head": ["Written", "Spoken"], "frCols": [0, 1],
+        "rows": [
+          ["Je ne sais pas.", "Je sais pas."],
+          ["Ce n'est pas grave.", "C'est pas grave."],
+          ["Je n'ai rien [compris|comprendre].", "J'ai rien [compris|comprendre]."],
+          ["Il ne vient jamais.", "Il vient jamais."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je sais pas|or-ne}, moi !", "en": "I don't know!" },
+        { "fr": "{C'est pas grave|or-ne}, [t'inquiète|t-inquiete].", "en": "It doesn't matter, don't worry." }
+      ],
+      "tip": "Listen for the **pas**: it carries the negation. *Je sais pas* often sounds like /ʃɛ pa/."
+    },
+    {
+      "title": "2. t'as, t'es",
+      "table": {
+        "head": ["Written", "Spoken"], "frCols": [0, 1],
+        "rows": [
+          ["Tu as faim ?", "T'as faim ?"],
+          ["Tu es où ?", "[T'es|t-es] où ?"],
+          ["Tu as vu ça ?", "T'as vu ça ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{T'as|or-tu} faim ?", "en": "Are you hungry?" },
+        { "fr": "{[T'es|t-es]|or-tu} où ? Je t'attends !", "en": "Where are you? I'm waiting for you!" }
+      ],
+      "tip": "Only before a vowel sound: *tu viens* stays *tu viens*."
+    },
+    {
+      "title": "3. y a, faut",
+      "table": {
+        "head": ["Written", "Spoken"], "frCols": [0, 1],
+        "rows": [
+          ["Il y a du monde.", "[Y a|y-a] du monde."],
+          ["Il y avait un chien.", "[Y avait|y-a] un chien."],
+          ["Il faut y aller.", "Faut y aller."]
+        ]
+      },
+      "examples": [
+        { "fr": "{[Y a|y-a]|or-il} du monde, ce soir !", "en": "There are lots of people tonight!" },
+        { "fr": "{Faut|or-il} y aller !", "en": "We've got to go!" }
+      ]
+    },
+    {
+      "title": "4. on = nous",
+      "table": {
+        "head": ["Written", "Spoken"], "frCols": [0, 1],
+        "rows": [
+          ["Nous allons au cinéma.", "On va au cinéma."],
+          ["Nous sommes contents.", "On est contents."],
+          ["Nous, nous restons ici.", "Nous, on reste ici."]
+        ]
+      },
+      "examples": [
+        { "fr": "{On y va|or-on} ?", "en": "Shall we go?" },
+        { "fr": "{Nous, on|or-on} reste ici.", "en": "We're staying here." }
+      ],
+      "tip": "*On est contents*: the verb is singular, but the adjective often agrees with the people: *contents, contentes*."
+    },
+    {
+      "title": "5. Questions with the voice",
+      "table": {
+        "head": ["Written", "Spoken"], "frCols": [0, 1],
+        "rows": [
+          ["Est-ce que tu viens ?", "Tu viens ?"],
+          ["Qu'est-ce que tu fais ?", "Tu fais quoi ?"],
+          ["Qui est-ce ?", "C'est qui ?"],
+          ["Où vas-tu ?", "Tu vas où ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu viens ?|or-question}", "en": "Are you coming?" },
+        { "fr": "{Tu fais quoi|or-question}, ce soir ?", "en": "What are you doing tonight?" }
+      ],
+      "tip": "*Quoi* goes at the end. At the start of a question, say *qu'est-ce que*: *Qu'est-ce que tu fais ?*"
+    },
+    {
+      "title": "6. Moi, je… / il est sympa, ton pote",
+      "table": {
+        "head": ["Neutral", "Stressed"], "frCols": [0, 1],
+        "rows": [
+          ["Je trouve ça nul.", "Moi, je trouve ça nul."],
+          ["Ton pote est sympa.", "Il est sympa, ton pote."],
+          ["J'aime le café noir.", "Le café, je l'aime noir."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Moi, je|or-moi} trouve ça génial !", "en": "Personally, I think it's great!" },
+        { "fr": "{Il est sympa, ton pote|or-moi}.", "en": "Your mate's nice." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Madame, je sais pas si je peux venir.", "right": "Madame, je ne sais pas si je peux venir.", "why": "In writing, and when you speak formally, keep the **ne**." },
+    { "wrong": "Je pas sais.", "right": "Je sais pas.", "why": "Only the **ne** disappears: **pas** stays after the verb." },
+    { "wrong": "T'es faim ?", "right": "T'as faim ?", "why": "It's *avoir faim*: **t'as** = tu as, **t'es** = tu es." },
+    { "wrong": "On sommes contents.", "right": "On est contents.", "why": "**On** takes the *il* form of the verb." },
+    { "wrong": "Quoi tu fais ?", "right": "Tu fais quoi ?", "why": "**Quoi** goes at the end. At the start, say *Qu'est-ce que tu fais ?*" }
+  ],
+  "story": {
+    "title": "Le podcast en classe",
+    "en": "Tuesday 10 November: Marc plays Hugo's podcast in class, and the students find everything that makes spoken French different.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi dix novembre, Marc commence son cours avec une surprise : le podcast de Hugo.", "en": "On Tuesday 10 November, Marc starts his class with a surprise: Hugo's podcast." },
+      { "sp": "Marc", "fr": "Hugo est d'accord, il est même un peu fier. Écoutez bien, et notez tout ce qui est différent de l'écrit.", "en": "Hugo said yes, he's even a bit proud. Listen carefully, and note everything that's different from written French." },
+      { "sp": "", "fr": "La classe écoute. Puis Marc écrit des phrases de Hugo au tableau.", "en": "The class listens. Then Marc writes some of Hugo's sentences on the board." },
+      { "sp": "Marc", "fr": "Première phrase : « {J'étais pas prêt|or-ne} ». Qu'est-ce qui manque ?", "en": "First sentence: 'J'étais pas prêt'. What's missing?" },
+      { "sp": "Inès", "fr": "Le « ne » ! À l'écrit, on dit « je n'étais pas prêt ».", "en": "The 'ne'! In writing, you say 'je n'étais pas prêt'." },
+      { "sp": "Marc", "fr": "Exactement. À l'oral, il disparaît presque toujours : « {c'est pas grave|or-ne} », « {j'ai rien [compris|comprendre]|or-ne} »…", "en": "Exactly. In speech, it almost always disappears: 'c'est pas grave', 'j'ai rien compris'…" },
+      { "sp": "Tom", "fr": "Et Lina dit « {[t'es|t-es] content|or-tu} ». Ce n'est pas « tu es » ?", "en": "And Lina says 't'es content'. Isn't it 'tu es'?" },
+      { "sp": "Marc", "fr": "Si. Devant une voyelle, « tu » devient souvent « t' » : « {t'as faim ?|or-tu} », « {[t'es|t-es] où ?|or-tu} »", "en": "Yes. Before a vowel, 'tu' often becomes 't'': 't'as faim ?', 't'es où ?'" },
+      { "sp": "Carla", "fr": "Et Hugo dit « {[y avait|y-a]|or-il} une journaliste ». Il a oublié le « il » !", "en": "And Hugo says 'y avait une journaliste'. He's forgotten the 'il'!" },
+      { "sp": "Marc", "fr": "Bien vu, Carla. « Il y a » devient « {[y a|y-a]|or-il} », et « il faut » devient « faut » : « {faut y aller|or-il} » !", "en": "Well spotted, Carla. 'Il y a' becomes 'y a', and 'il faut' becomes 'faut': 'faut y aller'!" },
+      { "sp": "Léa", "fr": "Et on n'entend jamais « nous » !", "en": "And you never hear 'nous'!" },
+      { "sp": "Marc", "fr": "C'est vrai : à l'oral, « on » remplace « nous ». « {On y va ?|or-on} » « {Nous, on reste.|or-on} » Et le verbe est le même qu'avec « il » : « {on est|or-on} », « {on a|or-on} ».", "en": "That's right: in speech, 'on' replaces 'nous'. 'On y va ?' 'Nous, on reste.' And the verb is the same as with 'il': 'on est', 'on a'." },
+      { "sp": "Inès", "fr": "Et les questions ? Hugo et Lina ne disent jamais « est-ce que ».", "en": "What about the questions? Hugo and Lina never say 'est-ce que'." },
+      { "sp": "Marc", "fr": "Non. À l'oral, on garde l'ordre de la phrase, et la voix monte à la fin : « {Tu viens ?|or-question} » Et les mots comme « quoi » ou « qui » vont souvent à la fin : « {Tu fais quoi ?|or-question} », « {C'est qui ?|or-question} »", "en": "No. In speech, you keep the order of the sentence, and your voice goes up at the end: 'Tu viens ?' And words like 'quoi' or 'qui' often go at the end: 'Tu fais quoi ?', 'C'est qui ?'" },
+      { "sp": "Carla", "fr": "Et Hugo dit « {et moi, en mode [panique|panique], je glisse|or-moi} ». Pourquoi « moi » et « je » ?", "en": "And Hugo says 'et moi, en mode panique, je glisse'. Why 'moi' and 'je'?" },
+      { "sp": "Marc", "fr": "Pour insister. À l'oral, on dit les choses deux fois : « {Moi, je trouve ça génial|or-moi} », « {Il est sympa, ton pote|or-moi} ».", "en": "To stress it. In speech, you say things twice: 'Moi, je trouve ça génial', 'Il est sympa, ton pote'." },
+      { "sp": "Tom", "fr": "Alors, tout ce que vous nous avez appris, c'est faux ?", "en": "So everything you've taught us is wrong?" },
+      { "sp": "Marc", "fr": "Non ! L'écrit, c'est la cravate ; l'oral, c'est le jean. Il faut savoir changer de vêtements.", "en": "No! Written French is the tie; spoken French is the jeans. You have to know when to change clothes." },
+      { "sp": "Tom", "fr": "Et jeudi, à mon examen ?", "en": "And on Thursday, at my exam?" },
+      { "sp": "Marc", "fr": "Jeudi, tu mets la cravate : tu gardes le « ne » ! Mais tu peux dire « euh ». Même les Français le disent.", "en": "On Thursday, you wear the tie: you keep the 'ne'! But you can say 'euh'. Even French people say it." },
+      { "sp": "", "fr": "À la fin du cours, Tom écrit dans son carnet : « L'écrit, c'est la cravate. L'oral, c'est le jean. Et l'examen ? La cravate… avec un peu de jean. »", "en": "At the end of the class, Tom writes in his notebook: 'Written French is the tie. Spoken French is the jeans. And the exam? The tie… with a bit of jeans.'" }
+    ]
+  },
+  "quiz": [
+    { "case": "or-ne", "type": "mc", "lang": "en", "q": "In conversation, « Je ne sais pas » usually becomes…", "options": ["Je sais pas.", "Je ne sais.", "Je pas sais."], "answer": "Je sais pas." },
+    { "case": "or-ne", "type": "mc", "q": "C'est ___ grave, [t'inquiète|t-inquiete].", "en": "It doesn't matter, don't worry.", "options": ["pas", "ne", "rien"], "answer": "pas" },
+    { "case": "or-tu", "type": "mc", "q": "___ faim ?", "en": "Are you hungry?", "options": ["T'as", "T'es", "T'a"], "answer": "T'as" },
+    { "case": "or-tu", "type": "mc", "lang": "en", "q": "« T'es où ? » means…", "options": ["Where are you?", "Where have you been?", "Where is it?"], "answer": "Where are you?", "say": "T'es où ?" },
+    { "case": "or-il", "type": "mc", "q": "___ du monde au café ce soir !", "en": "There are lots of people at the café tonight!", "options": ["Y a", "Y est", "Il a"], "answer": "Y a" },
+    { "case": "or-il", "type": "mc", "lang": "en", "q": "« Faut y aller » is short for…", "options": ["Il faut y aller.", "Il faudrait aller.", "Tu vas y aller."], "answer": "Il faut y aller." },
+    { "case": "or-on", "type": "mc", "q": "Nous, on ___ contents.", "en": "We're happy.", "options": ["est", "sommes", "sont"], "answer": "est" },
+    { "case": "or-on", "type": "mc", "q": "On ___ au cinéma ce soir ?", "en": "Shall we go to the cinema tonight?", "options": ["va", "allons", "vont"], "answer": "va" },
+    { "case": "or-question", "type": "mc", "q": "Tu fais ___, ce soir ?", "en": "What are you doing tonight?", "options": ["quoi", "que", "qu'est-ce"], "answer": "quoi" },
+    { "case": "or-question", "type": "mc", "lang": "en", "q": "How do people usually ask « Est-ce que tu viens ? » in conversation?", "options": ["Tu viens ?", "Viens-tu ?", "Est-ce tu viens ?"], "answer": "Tu viens ?" },
+    { "case": "or-moi", "type": "mc", "q": "___, je trouve ça nul.", "en": "Personally, I think it's rubbish.", "options": ["Moi", "Je", "Me"], "answer": "Moi" },
+    { "case": "or-moi", "type": "mc", "q": "Il est sympa, ___ pote.", "en": "He's nice, your mate.", "options": ["ton", "tu", "toi"], "answer": "ton" }
+  ]
+}
