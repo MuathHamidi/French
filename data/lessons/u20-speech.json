@@ -9,7 +9,7 @@
     { "id": "dire", "fr": "dire", "pos": "verb", "ipa": "diʁ", "en": "to say, to tell",
       "def": "Utiliser des mots pour donner une information ou une idée.", "def_en": "To use words to give a piece of information or an idea.",
       "extra": "je **dis**, tu **dis**, il **dit**, nous **disons**, vous **dites**, ils **disent**; j'ai **dit**.",
-      "forms": ["dis", "dit", "dite", "dits", "dites", "disons", "disent", "disais", "disait", "disions", "disiez", "disaient", "dirait", "dirai", "diras", "dira", "dirons", "direz", "diront", "dirais", "dirions", "diriez", "diraient"],
+      "forms": ["dis", "dit", "dite", "dits", "dites", "disons", "disent", "disais", "disait", "disions", "disiez", "disaient", "dirait", "dirai", "diras", "dira", "dirons", "direz", "diront", "dirais", "dirions", "diriez", "diraient", "dise", "dises"],
       "examples": [
         { "fr": "Qu'est-ce que tu **dis** ?", "en": "What are you saying?" },
         { "fr": "**Dis** bonjour à Mamie !", "en": "Say hello to Grandma!" },
@@ -36,7 +36,7 @@
       "note": "False friend! **demander** = *to ask*, not *to demand*. **demander à** + person: *je lui demande*." },
     { "id": "repondre", "fr": "répondre", "pos": "verb", "ipa": "ʁe.pɔ̃dʁ", "en": "to answer, to reply",
       "def": "Dire ou écrire quelque chose après une question ou un message.", "def_en": "To say or write something after a question or a message.",
-      "forms": ["réponds", "répond", "répondons", "répondez", "répondent", "répondu", "répondais", "répondait", "répondions", "répondiez", "répondaient", "répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront", "répondrais", "répondrait", "répondrions", "répondriez", "répondraient"],
+      "forms": ["réponds", "répond", "répondons", "répondez", "répondent", "répondu", "répondais", "répondait", "répondions", "répondiez", "répondaient", "répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront", "répondrais", "répondrait", "répondrions", "répondriez", "répondraient", "réponde", "répondes"],
       "examples": [
         { "fr": "**Réponds**-moi !", "en": "Answer me!" },
         { "fr": "Elle ne **répond** pas au téléphone.", "en": "She isn't answering the phone." },
@@ -94,7 +94,7 @@
     { "id": "prevenir", "fr": "prévenir", "pos": "verb", "ipa": "pʁev.niʁ", "en": "to warn; to let (someone) know",
       "def": "Dire à l'avance à une personne ce qui va arriver.", "def_en": "To tell someone in advance what's going to happen.",
       "extra": "Like *venir*: je **préviens**, nous **prévenons**, ils **préviennent**; j'ai **prévenu**.",
-      "forms": ["préviens", "prévient", "prévenons", "prévenez", "préviennent", "prévenu", "prévenue", "prévenais", "prévenait", "prévenions", "préveniez", "prévenaient", "préviendrai", "préviendras", "préviendra", "préviendrons", "préviendrez", "préviendront", "préviendrais", "préviendrait", "préviendrions", "préviendriez", "préviendraient"],
+      "forms": ["préviens", "prévient", "prévenons", "prévenez", "préviennent", "prévenu", "prévenue", "prévenais", "prévenait", "prévenions", "préveniez", "prévenaient", "préviendrai", "préviendras", "préviendra", "préviendrons", "préviendrez", "préviendront", "préviendrais", "préviendrait", "préviendrions", "préviendriez", "préviendraient", "prévienne", "préviennes"],
       "examples": [
         { "fr": "**Préviens**-moi si tu es en retard !", "en": "Let me know if you're late!" },
         { "fr": "Je vous **préviens** : c'est difficile.", "en": "I'm warning you: it's difficult." },
@@ -103,7 +103,7 @@
     { "id": "promettre", "fr": "promettre", "pos": "verb", "ipa": "pʁɔ.mɛtʁ", "en": "to promise (promis ! = I promise!)",
       "def": "Dire qu'on va faire une chose, c'est sûr.", "def_en": "To say you'll definitely do something.",
       "extra": "Like *mettre*: je **promets**, nous **promettons**; j'ai **promis**.",
-      "forms": ["promets", "promet", "promettons", "promettez", "promettent", "promis", "promise", "promettais", "promettait", "promettions", "promettiez", "promettaient", "promettrai", "promettras", "promettra", "promettrons", "promettrez", "promettront", "promettrais", "promettrait", "promettrions", "promettriez", "promettraient"],
+      "forms": ["promets", "promet", "promettons", "promettez", "promettent", "promis", "promise", "promettais", "promettait", "promettions", "promettiez", "promettaient", "promettrai", "promettras", "promettra", "promettrons", "promettrez", "promettront", "promettrais", "promettrait", "promettrions", "promettriez", "promettraient", "promette", "promettes"],
       "examples": [
         { "fr": "Je te **promets** de venir.", "en": "I promise you I'll come." },
         { "fr": "Il a **promis** de ne rien dire.", "en": "He promised not to say anything." },
@@ -145,7 +145,7 @@
     { "id": "mentir", "fr": "mentir", "pos": "verb", "ipa": "mɑ̃.tiʁ", "en": "to lie (tell lies)",
       "def": "Dire une chose qui n'est pas vraie.", "def_en": "To say something that isn't true.",
       "extra": "je **mens**, il **ment**, nous **mentons**, ils **mentent**; j'ai **menti**.",
-      "forms": ["mens", "ment", "mentons", "mentez", "mentent", "menti", "mentais", "mentait", "mentions", "mentiez", "mentaient", "mentirai", "mentiras", "mentira", "mentirons", "mentirez", "mentiront", "mentirais", "mentirait", "mentirions", "mentiriez", "mentiraient"],
+      "forms": ["mens", "ment", "mentons", "mentez", "mentent", "menti", "mentais", "mentait", "mentions", "mentiez", "mentaient", "mentirai", "mentiras", "mentira", "mentirons", "mentirez", "mentiront", "mentirais", "mentirait", "mentirions", "mentiriez", "mentiraient", "mente", "mentes"],
       "examples": [
         { "fr": "Tu **mens** ! Ce n'est pas vrai !", "en": "You're lying! It's not true!" },
         { "fr": "Pinocchio **ment**, et son nez grandit.", "en": "Pinocchio lies, and his nose grows." },
@@ -163,7 +163,7 @@
     { "id": "se-plaindre", "fr": "se plaindre", "pos": "verb", "ipa": "sə plɛ̃dʁ", "en": "to complain",
       "def": "Dire qu'on n'est pas content, qu'on a mal ou qu'on a un problème.", "def_en": "To say you're unhappy, in pain, or have a problem.",
       "extra": "je **me plains**, il **se plaint**, nous **nous plaignons**, ils **se plaignent**.",
-      "forms": ["me plains", "te plains", "se plaint", "nous nous plaignons", "vous vous plaignez", "se plaignent", "plaindre", "plains", "plaint", "plaignons", "plaignez", "plaignent", "me plaignais", "se plaignait", "me plaindrai", "te plaindras", "se plaindra", "nous nous plaindrons", "vous vous plaindrez", "se plaindront", "me plaindrais", "te plaindrais", "se plaindrait", "nous nous plaindrions", "vous vous plaindriez", "se plaindraient"],
+      "forms": ["me plains", "te plains", "se plaint", "nous nous plaignons", "vous vous plaignez", "se plaignent", "plaindre", "plains", "plaint", "plaignons", "plaignez", "plaignent", "me plaignais", "se plaignait", "me plaindrai", "te plaindras", "se plaindra", "nous nous plaindrons", "vous vous plaindrez", "se plaindront", "me plaindrais", "te plaindrais", "se plaindrait", "nous nous plaindrions", "vous vous plaindriez", "se plaindraient", "plaigne", "plaignes"],
       "examples": [
         { "fr": "Hugo **se plaint** toujours de son travail.", "en": "Hugo is always complaining about his job." },
         { "fr": "Arrête de te **plaindre** !", "en": "Stop complaining!" },
@@ -182,7 +182,7 @@
     { "id": "traduire", "fr": "traduire", "pos": "verb", "ipa": "tʁa.dɥiʁ", "en": "to translate",
       "def": "Dire ou écrire dans une autre langue.", "def_en": "To say or write in another language.",
       "extra": "Like *conduire*: je **traduis**, nous **traduisons**; j'ai **traduit**.",
-      "forms": ["traduis", "traduit", "traduite", "traduits", "traduites", "traduisons", "traduisez", "traduisent", "traduisais", "traduisait", "traduisions", "traduisiez", "traduisaient", "traduirai", "traduiras", "traduira", "traduirons", "traduirez", "traduiront", "traduirais", "traduirait", "traduirions", "traduiriez", "traduiraient"],
+      "forms": ["traduis", "traduit", "traduite", "traduits", "traduites", "traduisons", "traduisez", "traduisent", "traduisais", "traduisait", "traduisions", "traduisiez", "traduisaient", "traduirai", "traduiras", "traduira", "traduirons", "traduirez", "traduiront", "traduirais", "traduirait", "traduirions", "traduiriez", "traduiraient", "traduise", "traduises"],
       "examples": [
         { "fr": "Tu peux **traduire** ce mot en anglais ?", "en": "Can you translate this word into English?" },
         { "fr": "Tom **traduit** les menus pour les touristes.", "en": "Tom translates menus for the tourists." },

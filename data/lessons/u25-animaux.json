@@ -1,0 +1,165 @@
+{
+  "id": "u25-animaux",
+  "type": "vocab",
+  "unit": 25,
+  "title": "Les animaux",
+  "en": "Animals",
+  "intro": "25 animals: pets (**le chien, le chat, le lapin**), the farm (**la vache, le cochon, le mouton, la chèvre, la poule, le canard, le cheval**), the wild (**l'ours, le loup, le renard, le lion, le tigre, l'éléphant…**), the sea, and a few small creatures, from the butterfly to the spider.",
+  "words": [
+    { "id": "chien", "fr": "chien", "pos": "noun", "g": "m", "ipa": "ʃjɛ̃", "en": "dog", "display": "le chien, la chienne", "def": "Un animal qui vit avec les gens et garde la maison : le meilleur ami de l'homme.", "def_en": "An animal that lives with people and guards the house: man's best friend.", "forms": ["chiens", "chienne"], "examples": [
+      { "fr": "Le **chien** de Pierre s'appelle Max.", "en": "Pierre's dog is called Max." },
+      { "fr": "Attention, **chien** méchant !", "en": "Beware of the dog!" },
+      { "fr": "Tom a un **chien** en Angleterre.", "en": "Tom has a dog in England." }
+    ] },
+    { "id": "chat", "fr": "chat", "pos": "noun", "g": "m", "ipa": "ʃa", "en": "cat", "def": "Un petit animal de la maison, avec des moustaches, qui aime dormir.", "def_en": "A small pet with whiskers that loves sleeping.", "forms": ["chats", "chatte"], "examples": [
+      { "fr": "Minou est le **chat** de Sophie.", "en": "Minou is Sophie's cat." },
+      { "fr": "Le **chat** dort sur l'ordinateur.", "en": "The cat is sleeping on the computer." },
+      { "fr": "Camille a un **chat** noir.", "en": "Camille has a black cat." }
+    ] },
+    { "id": "lapin", "fr": "lapin", "pos": "noun", "g": "m", "ipa": "la.pɛ̃", "en": "rabbit", "def": "Un petit animal avec de longues oreilles, qui mange des carottes.", "def_en": "A small animal with long ears that eats carrots.", "forms": ["lapins"], "examples": [
+      { "fr": "Lou donne des carottes aux **lapins**.", "en": "Lou gives carrots to the rabbits." },
+      { "fr": "En Angleterre, c'est un **lapin** qui apporte les œufs de Pâques.", "en": "In England, it's a rabbit that brings the Easter eggs." },
+      { "fr": "Poser un **lapin**, c'est ne pas venir à un rendez-vous !", "en": "Poser un lapin means not turning up to a date!" }
+    ] },
+    { "id": "cheval", "fr": "cheval", "pos": "noun", "g": "m", "ipa": "ʃə.val", "en": "horse", "def": "Un grand animal qui court très vite, et qu'on peut monter.", "def_en": "A large animal that runs very fast and that you can ride.", "forms": ["chevaux"], "examples": [
+      { "fr": "Il y a trois **chevaux** dans le champ.", "en": "There are three horses in the field." },
+      { "fr": "Ce **cheval** court très vite.", "en": "This horse runs very fast." },
+      { "fr": "Lou veut faire du **cheval**.", "en": "Lou wants to go horse riding." }
+    ], "note": "Plural: **des chevaux**. **faire du cheval** = to go riding." },
+    { "id": "vache", "fr": "vache", "pos": "noun", "g": "f", "ipa": "vaʃ", "en": "cow", "def": "Un grand animal de la ferme, qui donne du lait.", "def_en": "A large farm animal that gives milk.", "forms": ["vaches"], "examples": [
+      { "fr": "Les **vaches** mangent de l'herbe.", "en": "Cows eat grass." },
+      { "fr": "L'oncle Pierre a vingt **vaches**.", "en": "Uncle Pierre has twenty cows." },
+      { "fr": "Le lait de **vache** est bon pour faire du fromage.", "en": "Cow's milk is good for making cheese." }
+    ] },
+    { "id": "cochon", "fr": "cochon", "pos": "noun", "g": "m", "ipa": "kɔ.ʃɔ̃", "en": "pig", "def": "Un animal de la ferme, rose et gros, qui mange de tout.", "def_en": "A pink, fat farm animal that eats anything.", "forms": ["cochons"], "examples": [
+      { "fr": "Le **cochon** mange tout !", "en": "The pig eats everything!" },
+      { "fr": "Tu manges comme un **cochon** !", "en": "You eat like a pig!" },
+      { "fr": "Il y a un **cochon** et trois moutons à la ferme.", "en": "There's a pig and three sheep on the farm." }
+    ], "note": "The meat is **le porc** (pork)." },
+    { "id": "mouton", "fr": "mouton", "pos": "noun", "g": "m", "ipa": "mu.tɔ̃", "en": "sheep", "def": "Un animal de la ferme, avec une laine blanche et épaisse.", "def_en": "A farm animal with thick white wool.", "forms": ["moutons"], "examples": [
+      { "fr": "Les **moutons** sont dans la montagne.", "en": "The sheep are up in the mountains." },
+      { "fr": "Pour dormir, on compte les **moutons**.", "en": "To fall asleep, you count sheep." },
+      { "fr": "Ce pull est en laine de **mouton**.", "en": "This jumper is made of sheep's wool." }
+    ] },
+    { "id": "chevre", "fr": "chèvre", "pos": "noun", "g": "f", "ipa": "ʃɛvʁ", "en": "goat; (le chèvre) goat's cheese", "def": "Un animal de la ferme, plus petit qu'une vache, qui donne du lait pour faire du fromage.", "def_en": "A farm animal smaller than a cow, whose milk is used to make cheese.", "forms": ["chèvres"], "examples": [
+      { "fr": "Le fromage de **chèvre** est délicieux.", "en": "Goat's cheese is delicious." },
+      { "fr": "La **chèvre** mange tout, même les fleurs !", "en": "The goat eats everything, even the flowers!" },
+      { "fr": "Les **chèvres** de Pierre montent partout.", "en": "Pierre's goats climb on everything." }
+    ] },
+    { "id": "poule", "fr": "poule", "pos": "noun", "g": "f", "ipa": "pul", "en": "hen", "def": "Un oiseau de la ferme, qui donne des œufs.", "def_en": "A farm bird that lays eggs.", "forms": ["poules"], "examples": [
+      { "fr": "Les **poules** donnent des œufs.", "en": "Hens lay eggs." },
+      { "fr": "Lou cherche les œufs des **poules**.", "en": "Lou is looking for the hens' eggs." },
+      { "fr": "Il y a cinq **poules** dans le jardin.", "en": "There are five hens in the garden." }
+    ] },
+    { "id": "canard", "fr": "canard", "pos": "noun", "g": "m", "ipa": "ka.naʁ", "en": "duck", "def": "Un oiseau qui vit près de l'eau et qui nage très bien.", "def_en": "A bird that lives near water and swims very well.", "forms": ["canards"], "examples": [
+      { "fr": "Les **canards** nagent sur le lac.", "en": "The ducks are swimming on the lake." },
+      { "fr": "Lou donne du pain aux **canards**.", "en": "Lou gives bread to the ducks." },
+      { "fr": "Il fait un froid de **canard** !", "en": "It's freezing!" }
+    ] },
+    { "id": "ours", "fr": "ours", "pos": "noun", "g": "m", "ipa": "uʁs", "en": "bear", "def": "Un grand animal sauvage, très fort, qui adore le miel.", "def_en": "A large, very strong wild animal that loves honey.", "examples": [
+      { "fr": "L'**ours** brun vit dans les montagnes.", "en": "The brown bear lives in the mountains." },
+      { "fr": "Le nounours de Lou est un petit **ours**.", "en": "Lou's teddy is a little bear." },
+      { "fr": "L'**ours** blanc vit dans le Grand Nord.", "en": "The polar bear lives in the far north." }
+    ], "note": "The plural doesn't change: **des ours**. **un ours blanc** = a polar bear." },
+    { "id": "loup", "fr": "loup", "pos": "noun", "g": "m", "ipa": "lu", "en": "wolf", "def": "Un animal sauvage qui ressemble à un grand chien et qui vit en groupe.", "def_en": "A wild animal that looks like a big dog and lives in packs.", "forms": ["loups"], "examples": [
+      { "fr": "Il y a des **loups** dans les Alpes.", "en": "There are wolves in the Alps." },
+      { "fr": "Les **loups** vivent en groupe.", "en": "Wolves live in packs." },
+      { "fr": "J'ai une faim de **loup** !", "en": "I'm starving!" }
+    ] },
+    { "id": "renard", "fr": "renard", "pos": "noun", "g": "m", "ipa": "ʁə.naʁ", "en": "fox", "def": "Un animal sauvage roux, avec une grande queue, qui vit dans la forêt.", "def_en": "A red-haired wild animal with a big tail that lives in the forest.", "forms": ["renards"], "examples": [
+      { "fr": "Un **renard** a mangé une poule !", "en": "A fox has eaten a hen!" },
+      { "fr": "Le **renard** a une belle queue rousse.", "en": "The fox has a beautiful red tail." },
+      { "fr": "La nuit, on voit parfois un **renard** dans le jardin.", "en": "At night, you sometimes see a fox in the garden." }
+    ] },
+    { "id": "lion", "fr": "lion", "pos": "noun", "g": "m", "ipa": "ljɔ̃", "en": "lion", "display": "le lion, la lionne", "def": "Un grand animal sauvage d'Afrique : le roi des animaux.", "def_en": "A large wild animal from Africa: the king of the animals.", "forms": ["lions", "lionne", "lionnes"], "examples": [
+      { "fr": "Le **lion** est le roi des animaux.", "en": "The lion is the king of the animals." },
+      { "fr": "Au zoo, Lou a vu un **lion**.", "en": "At the zoo, Lou saw a lion." },
+      { "fr": "La **lionne** s'occupe des petits.", "en": "The lioness looks after the cubs." }
+    ] },
+    { "id": "tigre", "fr": "tigre", "pos": "noun", "g": "m", "ipa": "tiɡʁ", "en": "tiger", "def": "Un grand animal sauvage d'Asie, orange et noir.", "def_en": "A large wild animal from Asia, orange and black.", "forms": ["tigres"], "examples": [
+      { "fr": "Le **tigre** est en voie de disparition.", "en": "The tiger is endangered." },
+      { "fr": "Hugo a un pyjama avec un **tigre**.", "en": "Hugo has pyjamas with a tiger on them." },
+      { "fr": "Le **tigre** est le plus grand des chats.", "en": "The tiger is the biggest of the cats." }
+    ] },
+    { "id": "elephant", "fr": "éléphant", "pos": "noun", "g": "m", "ipa": "e.le.fɑ̃", "en": "elephant", "def": "Le plus grand animal sur terre : il est gris, avec de grandes oreilles et un nez très long.", "def_en": "The biggest animal on land: it's grey, with big ears and a very long nose.", "forms": ["éléphants"], "examples": [
+      { "fr": "L'**éléphant** a une très bonne mémoire.", "en": "Elephants have a very good memory." },
+      { "fr": "Les **éléphants** vivent en Afrique et en Asie.", "en": "Elephants live in Africa and Asia." },
+      { "fr": "Hugo marche comme un **éléphant** !", "en": "Hugo walks like an elephant!" }
+    ] },
+    { "id": "girafe", "fr": "girafe", "pos": "noun", "g": "f", "ipa": "ʒi.ʁaf", "en": "giraffe", "def": "Un animal d'Afrique très grand, avec un cou très long.", "def_en": "A very tall animal from Africa with a very long neck.", "forms": ["girafes"], "examples": [
+      { "fr": "La **girafe** mange les feuilles des arbres.", "en": "The giraffe eats the leaves of the trees." },
+      { "fr": "Lou adore les **girafes**.", "en": "Lou loves giraffes." },
+      { "fr": "Papa est grand comme une **girafe** !", "en": "Daddy's as tall as a giraffe!" }
+    ] },
+    { "id": "singe", "fr": "singe", "pos": "noun", "g": "m", "ipa": "sɛ̃ʒ", "en": "monkey", "def": "Un animal qui vit dans les arbres et qui ressemble un peu à l'homme.", "def_en": "An animal that lives in trees and looks a little like a human.", "forms": ["singes"], "examples": [
+      { "fr": "Les **singes** mangent des bananes.", "en": "Monkeys eat bananas." },
+      { "fr": "Arrête de faire le **singe** !", "en": "Stop monkeying around!" },
+      { "fr": "Au zoo, les **singes** jouent dans les arbres.", "en": "At the zoo, the monkeys play in the trees." }
+    ] },
+    { "id": "serpent", "fr": "serpent", "pos": "noun", "g": "m", "ipa": "sɛʁ.pɑ̃", "en": "snake", "def": "Un animal long, sans pattes, qui avance par terre.", "def_en": "A long animal with no legs that moves along the ground.", "forms": ["serpents"], "examples": [
+      { "fr": "J'ai peur des **serpents** !", "en": "I'm scared of snakes!" },
+      { "fr": "Certains **serpents** sont dangereux.", "en": "Some snakes are dangerous." },
+      { "fr": "Un **serpent** dort au soleil.", "en": "A snake is sleeping in the sun." }
+    ] },
+    { "id": "tortue", "fr": "tortue", "pos": "noun", "g": "f", "ipa": "tɔʁ.ty", "en": "tortoise; turtle", "def": "Un animal très lent, qui porte une maison [dure|dur] sur son dos.", "def_en": "A very slow animal that carries a hard house on its back.", "forms": ["tortues"], "examples": [
+      { "fr": "La **tortue** avance lentement.", "en": "The tortoise moves slowly." },
+      { "fr": "Les **tortues** de mer mangent parfois du plastique.", "en": "Sea turtles sometimes eat plastic." },
+      { "fr": "Lou a trouvé une petite **tortue**.", "en": "Lou has found a little tortoise." }
+    ] },
+    { "id": "dauphin", "fr": "dauphin", "pos": "noun", "g": "m", "ipa": "do.fɛ̃", "en": "dolphin", "def": "Un animal de la mer, très intelligent, qui aime jouer.", "def_en": "A very intelligent sea animal that loves to play.", "forms": ["dauphins"], "examples": [
+      { "fr": "Les **dauphins** sautent dans les vagues.", "en": "Dolphins jump in the waves." },
+      { "fr": "Le **dauphin** n'est pas un poisson.", "en": "The dolphin isn't a fish." },
+      { "fr": "On a vu des **dauphins** près de Marseille !", "en": "We saw dolphins near Marseille!" }
+    ] },
+    { "id": "baleine", "fr": "baleine", "pos": "noun", "g": "f", "ipa": "ba.lɛn", "en": "whale", "def": "Le plus grand animal du monde ; elle vit dans la mer.", "def_en": "The biggest animal in the world; it lives in the sea.", "forms": ["baleines"], "examples": [
+      { "fr": "La **baleine** bleue est le plus grand animal du monde.", "en": "The blue whale is the biggest animal in the world." },
+      { "fr": "Les **baleines** chantent sous l'eau.", "en": "Whales sing underwater." },
+      { "fr": "Au Canada, on peut voir des **baleines**.", "en": "In Canada, you can see whales." }
+    ] },
+    { "id": "papillon", "fr": "papillon", "pos": "noun", "g": "m", "ipa": "pa.pi.jɔ̃", "en": "butterfly", "def": "Un insecte avec de grandes ailes de toutes les couleurs.", "def_en": "An insect with big wings of every colour.", "forms": ["papillons"], "examples": [
+      { "fr": "Un **papillon** s'arrête sur la fleur.", "en": "A butterfly stops on the flower." },
+      { "fr": "Lou court après les **papillons**.", "en": "Lou runs after the butterflies." },
+      { "fr": "Au printemps, il y a beaucoup de **papillons**.", "en": "In spring, there are lots of butterflies." }
+    ] },
+    { "id": "abeille", "fr": "abeille", "pos": "noun", "g": "f", "ipa": "a.bɛj", "en": "bee", "def": "Un insecte jaune et noir, qui fait le miel.", "def_en": "A yellow and black insect that makes honey.", "forms": ["abeilles"], "examples": [
+      { "fr": "Les **abeilles** font du miel.", "en": "Bees make honey." },
+      { "fr": "Hugo a peur des **abeilles**.", "en": "Hugo is scared of bees." },
+      { "fr": "Sans les **abeilles**, il n'y a pas de fruits !", "en": "Without bees, there's no fruit!" }
+    ] },
+    { "id": "araignee", "fr": "araignée", "pos": "noun", "g": "f", "ipa": "a.ʁɛ.ɲe", "en": "spider", "def": "Un petit animal avec huit pattes, qui attrape les insectes.", "def_en": "A small creature with eight legs that catches insects.", "forms": ["araignées"], "examples": [
+      { "fr": "Lou a peur des **araignées**.", "en": "Lou is scared of spiders." },
+      { "fr": "Il y a une **araignée** dans la salle de bains !", "en": "There's a spider in the bathroom!" },
+      { "fr": "Une **araignée** a huit pattes.", "en": "A spider has eight legs." }
+    ] }
+  ],
+  "story": {
+    "title": "Le jeu des animaux",
+    "en": "The Easter holidays: Léa and Hugo take Lou to Uncle Pierre's farm.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Pendant les vacances de Pâques, Léa et Hugo emmènent Lou chez l'oncle Pierre, à la campagne.", "en": "During the Easter holidays, Léa and Hugo take Lou to Uncle Pierre's, in the countryside." },
+      { "sp": "", "fr": "À la ferme, il y a des vaches, des moutons, des chèvres, un cochon, des poules et des canards.", "en": "On the farm, there are cows, sheep, goats, a pig, hens and ducks." },
+      { "sp": "", "fr": "Max, le chien de Pierre, [court|courir] partout. Le chat dort au soleil.", "en": "Max, Pierre's dog, runs everywhere. The cat is sleeping in the sun." },
+      { "sp": "Lou", "fr": "Oncle Pierre, je peux donner à manger aux lapins ?", "en": "Uncle Pierre, can I feed the rabbits?" },
+      { "sp": "Pierre", "fr": "Bien sûr ! Et après, tu iras chercher les œufs des poules. Mais attention au cheval : il est très grand !", "en": "Of course! And then you'll go and fetch the hens' eggs. But mind the horse: he's very big!" },
+      { "sp": "", "fr": "Le soir, Lou veut jouer au jeu des animaux : on pense à un animal, et les autres devinent.", "en": "In the evening, Lou wants to play the animal game: you think of an animal, and the others guess." },
+      { "sp": "Lou", "fr": "Il est très grand, il a un long cou, et il mange des feuilles.", "en": "It's very tall, it has a long neck, and it eats leaves." },
+      { "sp": "Hugo", "fr": "La girafe !", "en": "The giraffe!" },
+      { "sp": "Hugo", "fr": "À moi. Il est gris, très gros, avec de grandes oreilles et un nez très, très long.", "en": "My turn. It's grey, very big, with big ears and a very, very long nose." },
+      { "sp": "Lou", "fr": "L'éléphant !", "en": "The elephant!" },
+      { "sp": "Léa", "fr": "À moi. Il vit dans la mer, il est très intelligent, et il adore jouer dans les vagues.", "en": "My turn. It lives in the sea, it's very intelligent, and it loves playing in the waves." },
+      { "sp": "Pierre", "fr": "Le dauphin ! Et la baleine, c'est le plus grand animal du monde.", "en": "The dolphin! And the whale is the biggest animal in the world." },
+      { "sp": "Lou", "fr": "Moi, j'ai peur des serpents et des araignées !", "en": "I'm scared of snakes and spiders!" },
+      { "sp": "Hugo", "fr": "Et moi, j'ai peur des abeilles. Mais les papillons, c'est joli.", "en": "And I'm scared of bees. But butterflies are pretty." },
+      { "sp": "Pierre", "fr": "La nuit, on entend parfois un renard dans la forêt. Et dans la montagne, il y a même des loups !", "en": "At night, you sometimes hear a fox in the forest. And up in the mountains, there are even wolves!" },
+      { "sp": "Lou", "fr": "Et des ours ? Et des lions ?", "en": "And bears? And lions?" },
+      { "sp": "Léa", "fr": "Non, ma chérie. Les lions vivent en Afrique, et les tigres en Asie.", "en": "No, sweetheart. Lions live in Africa, and tigers in Asia." },
+      { "sp": "Lou", "fr": "Et les singes ?", "en": "And monkeys?" },
+      { "sp": "Hugo", "fr": "Les singes vivent dans les arbres… comme toi, quand tu montes partout !", "en": "Monkeys live in trees… like you, when you climb on everything!" },
+      { "sp": "", "fr": "Lou rit. Puis elle voit une petite tortue dans le jardin.", "en": "Lou laughs. Then she sees a little tortoise in the garden." },
+      { "sp": "Lou", "fr": "Je peux la garder ? Je l'appellerai Minou, comme le chat de Sophie !", "en": "Can I keep it? I'll call it Minou, like Sophie's cat!" },
+      { "sp": "Pierre", "fr": "Non, ma chérie. C'est un animal sauvage : elle habite ici.", "en": "No, sweetheart. It's a wild animal: it lives here." },
+      { "sp": "", "fr": "Avant de dormir, Lou fait un dessin : un cheval, une vache, un cochon… et une tortue qui s'appelle Minou.", "en": "Before going to sleep, Lou does a drawing: a horse, a cow, a pig… and a tortoise called Minou." }
+    ]
+  }
+}

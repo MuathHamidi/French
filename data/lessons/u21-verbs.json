@@ -6,12 +6,12 @@
   "en": "Everyday verbs",
   "intro": "25 verbs you use every day, several with irregular forms: **voir, venir, ouvrir, rendre**… Four are easy to mix up: **apporter / emporter** for a thing (here / away), **amener / emmener** for a person (here / away).",
   "words": [
-    { "id": "voir", "fr": "voir", "pos": "verb", "ipa": "vwaʁ", "en": "to see", "def": "Utiliser ses yeux. Aussi : rencontrer quelqu'un.", "def_en": "To use your eyes. Also: to meet someone.", "forms": ["vois", "voit", "voyons", "voyez", "voient", "vu", "vue", "vus", "vues", "voyais", "voyait", "voyions", "voyiez", "voyaient", "verrai", "verras", "verra", "verrons", "verrez", "verront", "verrais", "verrait", "verrions", "verriez", "verraient"], "examples": [
+    { "id": "voir", "fr": "voir", "pos": "verb", "ipa": "vwaʁ", "en": "to see", "def": "Utiliser ses yeux. Aussi : rencontrer quelqu'un.", "def_en": "To use your eyes. Also: to meet someone.", "forms": ["vois", "voit", "voyons", "voyez", "voient", "vu", "vue", "vus", "vues", "voyais", "voyait", "voyions", "voyiez", "voyaient", "verrai", "verras", "verra", "verrons", "verrez", "verront", "verrais", "verrait", "verrions", "verriez", "verraient", "voie", "voies"], "examples": [
       { "fr": "Je ne **vois** rien sans mes lunettes !", "en": "I can't see anything without my glasses!" },
       { "fr": "On se **voit** demain ?", "en": "Shall we meet up tomorrow?" },
       { "fr": "Tu as **vu** ce film ?", "en": "Have you seen this film?" }
     ], "note": "**regarder** = to look at (on purpose); **voir** = to see: *je regarde le ciel, et je vois un oiseau*." },
-    { "id": "venir", "fr": "venir", "pos": "verb", "ipa": "və.niʁ", "en": "to come", "def": "Aller vers l'endroit où est la personne qui parle.", "def_en": "To go towards the place where the speaker is.", "forms": ["viens", "vient", "venons", "venez", "viennent", "venu", "venue", "venus", "venues", "venais", "venait", "venions", "veniez", "venaient", "viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront", "viendrais", "viendrait", "viendrions", "viendriez", "viendraient"], "examples": [
+    { "id": "venir", "fr": "venir", "pos": "verb", "ipa": "və.niʁ", "en": "to come", "def": "Aller vers l'endroit où est la personne qui parle.", "def_en": "To go towards the place where the speaker is.", "forms": ["viens", "vient", "venons", "venez", "viennent", "venu", "venue", "venus", "venues", "venais", "venait", "venions", "veniez", "venaient", "viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront", "viendrais", "viendrait", "viendrions", "viendriez", "viendraient", "vienne", "viennes"], "examples": [
       { "fr": "Tu **viens** avec nous au cinéma ?", "en": "Are you coming to the cinema with us?" },
       { "fr": "Je **viens** de Paris.", "en": "I come from Paris." },
       { "fr": "Ils sont **venus** dîner hier soir.", "en": "They came to dinner last night." }
@@ -31,7 +31,7 @@
       { "fr": "Le musée **ferme** à six heures.", "en": "The museum closes at six." },
       { "fr": "Je **ferme** les yeux et je dors.", "en": "I close my eyes and go to sleep." }
     ], "note": "**fermer à clé** = to lock. Past participle: **fermé**." },
-    { "id": "attendre", "fr": "attendre", "pos": "verb", "ipa": "a.tɑ̃dʁ", "en": "to wait (for)", "def": "Rester au même endroit jusqu'à l'arrivée de quelqu'un ou de quelque chose.", "def_en": "To stay in the same place until someone or something arrives.", "forms": ["attends", "attend", "attendons", "attendez", "attendent", "attendu", "attendais", "attendait", "attendions", "attendiez", "attendaient", "attendrai", "attendras", "attendra", "attendrons", "attendrez", "attendront", "attendrais", "attendrait", "attendrions", "attendriez", "attendraient", "attendue", "attendus", "attendues"], "examples": [
+    { "id": "attendre", "fr": "attendre", "pos": "verb", "ipa": "a.tɑ̃dʁ", "en": "to wait (for)", "def": "Rester au même endroit jusqu'à l'arrivée de quelqu'un ou de quelque chose.", "def_en": "To stay in the same place until someone or something arrives.", "forms": ["attends", "attend", "attendons", "attendez", "attendent", "attendu", "attendais", "attendait", "attendions", "attendiez", "attendaient", "attendrai", "attendras", "attendra", "attendrons", "attendrez", "attendront", "attendrais", "attendrait", "attendrions", "attendriez", "attendraient", "attendue", "attendus", "attendues", "attende", "attendes"], "examples": [
       { "fr": "J'**attends** le bus depuis vingt minutes !", "en": "I've been waiting for the bus for twenty minutes!" },
       { "fr": "**Attends**-moi, j'arrive !", "en": "Wait for me, I'm coming!" },
       { "fr": "Nous **attendons** Paul à la gare.", "en": "We're waiting for Paul at the station." }
@@ -61,7 +61,7 @@
       { "fr": "On **commence** ? Tout le monde est là.", "en": "Shall we start? Everyone's here." },
       { "fr": "Nous **commençons** les cours lundi.", "en": "We start lessons on Monday." }
     ], "note": "**ç** before **a** and **o**: *nous commençons, je commençais*. **commencer à** + infinitive: *il commence à pleuvoir*." },
-    { "id": "finir", "fr": "finir", "pos": "verb", "ipa": "fi.niʁ", "en": "to finish, to end", "def": "Faire la dernière [partie|partie] de quelque chose. Le contraire de commencer.", "def_en": "To do the last part of something. The opposite of to start.", "forms": ["finis", "finit", "finissons", "finissez", "finissent", "fini", "finissais", "finissait", "finissions", "finissiez", "finissaient", "finirai", "finiras", "finira", "finirons", "finirez", "finiront", "finirais", "finirait", "finirions", "finiriez", "finiraient"], "examples": [
+    { "id": "finir", "fr": "finir", "pos": "verb", "ipa": "fi.niʁ", "en": "to finish, to end", "def": "Faire la dernière [partie|partie] de quelque chose. Le contraire de commencer.", "def_en": "To do the last part of something. The opposite of to start.", "forms": ["finis", "finit", "finissons", "finissez", "finissent", "fini", "finissais", "finissait", "finissions", "finissiez", "finissaient", "finirai", "finiras", "finira", "finirons", "finirez", "finiront", "finirais", "finirait", "finirions", "finiriez", "finiraient", "finisse", "finisses"], "examples": [
       { "fr": "Je **finis** mes devoirs, et j'arrive !", "en": "I'm finishing my homework, then I'll come!" },
       { "fr": "Le film **finit** à dix heures.", "en": "The film ends at ten." },
       { "fr": "Tu as **fini** ton assiette ?", "en": "Have you finished your plate?" }
@@ -81,7 +81,7 @@
       { "fr": "Hugo a **arrêté** le sport.", "en": "Hugo has given up sport." },
       { "fr": "Le policier **arrête** le voleur.", "en": "The police officer arrests the thief." }
     ], "note": "**arrêter de** + infinitive = to stop doing: *arrête de pleurer*. **s'arrêter** = to stop (yourself): *le bus s'arrête ici*." },
-    { "id": "entendre", "fr": "entendre", "pos": "verb", "ipa": "ɑ̃.tɑ̃dʁ", "en": "to hear", "def": "Recevoir un bruit ou une voix avec les oreilles.", "def_en": "To take in a noise or a voice with your ears.", "forms": ["entends", "entend", "entendons", "entendez", "entendent", "entendu", "entendais", "entendait", "entendions", "entendiez", "entendaient", "entendrai", "entendras", "entendra", "entendrons", "entendrez", "entendront", "entendrais", "entendrait", "entendrions", "entendriez", "entendraient"], "examples": [
+    { "id": "entendre", "fr": "entendre", "pos": "verb", "ipa": "ɑ̃.tɑ̃dʁ", "en": "to hear", "def": "Recevoir un bruit ou une voix avec les oreilles.", "def_en": "To take in a noise or a voice with your ears.", "forms": ["entends", "entend", "entendons", "entendez", "entendent", "entendu", "entendais", "entendait", "entendions", "entendiez", "entendaient", "entendrai", "entendras", "entendra", "entendrons", "entendrez", "entendront", "entendrais", "entendrait", "entendrions", "entendriez", "entendraient", "entende", "entendes"], "examples": [
       { "fr": "Tu **entends** ? Quelqu'un frappe à la porte.", "en": "Can you hear? Someone's knocking at the door." },
       { "fr": "Je n'**entends** rien, il y a trop de bruit !", "en": "I can't hear anything, it's too noisy!" },
       { "fr": "On a **entendu** un bruit bizarre cette nuit.", "en": "We heard a strange noise last night." }
@@ -96,7 +96,7 @@
       { "fr": "Tu peux **réparer** mon ordinateur ?", "en": "Can you fix my computer?" },
       { "fr": "Hugo a **réparé** la valise avec du scotch.", "en": "Hugo fixed the suitcase with tape." }
     ] },
-    { "id": "rendre", "fr": "rendre", "pos": "verb", "ipa": "ʁɑ̃dʁ", "en": "to give back; to make (+ adjective)", "def": "Donner à quelqu'un une chose qui est à lui.", "def_en": "To give someone back something that's theirs.", "forms": ["rends", "rend", "rendons", "rendez", "rendent", "rendu", "rendue", "rendus", "rendues", "rendais", "rendait", "rendions", "rendiez", "rendaient", "rendrai", "rendras", "rendra", "rendrons", "rendrez", "rendront", "rendrais", "rendrait", "rendrions", "rendriez", "rendraient"], "examples": [
+    { "id": "rendre", "fr": "rendre", "pos": "verb", "ipa": "ʁɑ̃dʁ", "en": "to give back; to make (+ adjective)", "def": "Donner à quelqu'un une chose qui est à lui.", "def_en": "To give someone back something that's theirs.", "forms": ["rends", "rend", "rendons", "rendez", "rendent", "rendu", "rendue", "rendus", "rendues", "rendais", "rendait", "rendions", "rendiez", "rendaient", "rendrai", "rendras", "rendra", "rendrons", "rendrez", "rendront", "rendrais", "rendrait", "rendrions", "rendriez", "rendraient", "rende", "rendes"], "examples": [
       { "fr": "Je te **rends** ton livre demain.", "en": "I'll give you your book back tomorrow." },
       { "fr": "**Rends**-moi mon stylo !", "en": "Give me my pen back!" },
       { "fr": "Ce film me **rend** triste.", "en": "This film makes me sad." }
@@ -121,7 +121,7 @@
       { "fr": "Léa **emmène** Lou au parc.", "en": "Léa takes Lou to the park." },
       { "fr": "Le taxi nous a **emmenés** à l'aéroport.", "en": "The taxi took us to the airport." }
     ], "note": "Like **acheter**: *j'emmène, nous emmenons, j'emmènerai*." },
-    { "id": "servir", "fr": "servir", "pos": "verb", "ipa": "sɛʁ.viʁ", "en": "to serve; (servir à) to be used for", "def": "Donner à manger ou à boire. Aussi : être utile (« ça sert à quoi ? »).", "def_en": "To give food or drink. Also: to be useful ('what's it for?').", "forms": ["sers", "sert", "servons", "servez", "servent", "servi", "servais", "servait", "servions", "serviez", "servaient", "servirai", "serviras", "servira", "servirons", "servirez", "serviront", "servirais", "servirait", "servirions", "serviriez", "serviraient", "servie", "servis", "servies"], "examples": [
+    { "id": "servir", "fr": "servir", "pos": "verb", "ipa": "sɛʁ.viʁ", "en": "to serve; (servir à) to be used for", "def": "Donner à manger ou à boire. Aussi : être utile (« ça sert à quoi ? »).", "def_en": "To give food or drink. Also: to be useful ('what's it for?').", "forms": ["sers", "sert", "servons", "servez", "servent", "servi", "servais", "servait", "servions", "serviez", "servaient", "servirai", "serviras", "servira", "servirons", "servirez", "serviront", "servirais", "servirait", "servirions", "serviriez", "serviraient", "servie", "servis", "servies", "serve", "serves"], "examples": [
       { "fr": "Le serveur **sert** le café.", "en": "The waiter serves the coffee." },
       { "fr": "Ça **sert** à quoi, cet objet ?", "en": "What's this thing for?" },
       { "fr": "Je te **sers** un verre d'eau ?", "en": "Shall I pour you a glass of water?" }

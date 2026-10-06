@@ -108,6 +108,8 @@ FIXES = {
     "curry": "kyʁˈi", "currys": "kyʁˈi", "steak": "stˈɛk", "steaks": "stˈɛk", "beurk": "bˈœʁk",  # otherwise read in English
     "bon appétit": "bɔn apetˈi",  # "bon" loses its nasal before a vowel
     "maghreb": "maɡʁˈɛb",  # otherwise read with an English r
+    "chamonix": "ʃamonˈi",  # the x is silent
+    "pleuve": "plˈœv",  # the voice says /pløv/, like veuve
     "le leur": "lə lˈœʁ", "la leur": "la lˈœʁ", "les leurs": "le lˈœʁ",  # the voice says /løʁ/ after an article
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.

@@ -1,0 +1,192 @@
+{
+  "id": "u25-semi-voyelles",
+  "type": "sounds",
+  "unit": 25,
+  "title": "Oui, huit, fille",
+  "en": "Pronunciation: the semi-vowels",
+  "intro": "French has three quick sounds that glide into the next vowel, the **semi-vowels**: /w/ as in **oui**, /ɥ/ as in **huit**, and /j/ as in **fille**. They turn two vowels into one syllable: *oui* is /wi/, not /u.i/. The hardest one for English speakers is /ɥ/: *lui* /lɥi/ is not *Louis* /lwi/.",
+  "cases": [
+    { "id": "sv-oi", "label": "oi = /wa/", "rule": "**oi** is always /wa/: *moi* /mwa/, *trois* /tʁwa/, *voiture* /vwa.tyʁ/, *poisson* /pwa.sɔ̃/, *boire* /bwaʁ/." },
+    { "id": "sv-ou", "label": "ou + vowel = /w/", "rule": "**ou** before another vowel glides into /w/, in one syllable: *oui* /wi/, *jouer* /ʒwe/, *Louis* /lwi/, *ouest* /wɛst/." },
+    { "id": "sv-u", "label": "u + vowel = /ɥ/: huit, lui", "rule": "**u** before another vowel becomes /ɥ/: round your lips for **u** and slide straight into the next vowel. *huit* /ɥit/, *nuit* /nɥi/, *lui* /lɥi/, *cuisine* /kɥi.zin/, *juin* /ʒɥɛ̃/." },
+    { "id": "sv-i", "label": "i + vowel = /j/", "rule": "**i** before another vowel becomes /j/, like the English *y* in *yes*: *pied* /pje/, *bien* /bjɛ̃/, *hier* /jɛʁ/, *viande* /vjɑ̃d/, *chien* /ʃjɛ̃/." },
+    { "id": "sv-ill", "label": "ill = /ij/: fille", "rule": "After a consonant, **ill** sounds /ij/, with no /l/: *fille* /fij/, *famille* /fa.mij/, *gentille* /ʒɑ̃.tij/. Three common exceptions keep the /l/: **ville, mille, tranquille**." },
+    { "id": "sv-ail", "label": "ail, eil, euil, ouille = /j/", "rule": "After a vowel, **il** or **ill** is just /j/: *travail* /tʁa.vaj/, *soleil* /sɔ.lɛj/, *feuille* /fœj/, *bouteille* /bu.tɛj/, *grenouille* /ɡʁə.nuj/." },
+    { "id": "sv-y", "label": "y = /j/", "rule": "**y** before a vowel is /j/: *yeux* /jø/. Between two vowels, it works like **i + i**: *crayon* /kʁɛ.jɔ̃/, *payer* /pe.je/, *voyage* /vwa.jaʒ/." }
+  ],
+  "sections": [
+    {
+      "title": "1. oi = /wa/",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["moi", "/mwa/"],
+          ["trois", "/tʁwa/"],
+          ["voiture", "/vwa.tyʁ/"],
+          ["poisson", "/pwa.sɔ̃/"],
+          ["boire", "/bwaʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Moi|sv-oi}, je {bois|sv-oi} du jus d'orange.", "en": "I drink orange juice." },
+        { "fr": "Il y a {trois|sv-oi} {poissons|sv-oi} rouges.", "en": "There are three goldfish." }
+      ],
+      "tip": "Never /oi/: *moi* is /mwa/."
+    },
+    {
+      "title": "2. ou + vowel = /w/",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["oui", "/wi/"],
+          ["jouer", "/ʒwe/"],
+          ["Louis", "/lwi/"],
+          ["ouest", "/wɛst/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Oui|sv-ou}, on va {jouer|sv-ou} !", "en": "Yes, we're going to play!" },
+        { "fr": "Le vent vient de l'{ouest|sv-ou}.", "en": "The wind is coming from the west." }
+      ],
+      "tip": "*oui* is one quick syllable: /wi/, not /u.i/."
+    },
+    {
+      "title": "3. u + vowel = /ɥ/",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["huit", "/ɥit/"],
+          ["nuit", "/nɥi/"],
+          ["lui", "/lɥi/"],
+          ["cuisine", "/kɥi.zin/"],
+          ["juin", "/ʒɥɛ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il est {huit|sv-u} heures : bonne {nuit|sv-u} !", "en": "It's eight o'clock: good night!" },
+        { "fr": "Je {lui|sv-u} parle dans la {cuisine|sv-u}.", "en": "I'm talking to him in the kitchen." }
+      ],
+      "tip": "Compare *lui* /lɥi/ (him) and *Louis* /lwi/ (a name), *huit* /ɥit/ and *oui* /wi/. For /ɥ/, keep your lips round, as for **u**."
+    },
+    {
+      "title": "4. i + vowel = /j/",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["pied", "/pje/"],
+          ["bien", "/bjɛ̃/"],
+          ["hier", "/jɛʁ/"],
+          ["viande", "/vjɑ̃d/"],
+          ["chien", "/ʃjɛ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Hier|sv-i}, on a mangé de la {viande|sv-i}.", "en": "Yesterday, we ate meat." },
+        { "fr": "Le {chien|sv-i} va {bien|sv-i}.", "en": "The dog is fine." }
+      ],
+      "tip": "Like the *y* in *yes*: *bien* is one syllable."
+    },
+    {
+      "title": "5. ill = /ij/: fille",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["fille", "/fij/"],
+          ["famille", "/fa.mij/"],
+          ["gentille", "/ʒɑ̃.tij/"],
+          ["ville", "/vil/"],
+          ["mille", "/mil/"],
+          ["tranquille", "/tʁɑ̃.kil/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ma {fille|sv-ill} est très {gentille|sv-ill}.", "en": "My daughter is very kind." },
+        { "fr": "Il y a {mille|sv-ill} habitants dans cette petite {ville|sv-ill}.", "en": "There are a thousand people in this little town." }
+      ],
+      "tip": "The exceptions **ville, mille, tranquille** keep their /l/: *une ville tranquille* /vil tʁɑ̃.kil/."
+    },
+    {
+      "title": "6. ail, eil, euil, ouille",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["travail", "/tʁa.vaj/"],
+          ["soleil", "/sɔ.lɛj/"],
+          ["feuille", "/fœj/"],
+          ["bouteille", "/bu.tɛj/"],
+          ["grenouille", "/ɡʁə.nuj/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le {soleil|sv-ail} brille sur les {feuilles|sv-ail}.", "en": "The sun is shining on the leaves." },
+        { "fr": "Une {grenouille|sv-ail} dans une {bouteille|sv-ail} !", "en": "A frog in a bottle!" }
+      ],
+      "tip": "After a vowel, you never hear an /l/: *soleil* ends with /j/, like *yes* without the *es*."
+    },
+    {
+      "title": "7. y = /j/",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["yeux", "/jø/"],
+          ["crayon", "/kʁɛ.jɔ̃/"],
+          ["payer", "/pe.je/"],
+          ["voyage", "/vwa.jaʒ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu as de beaux {yeux|sv-y}.", "en": "You have beautiful eyes." },
+        { "fr": "Il faut {payer|sv-y} le {voyage|sv-y}.", "en": "We have to pay for the trip." }
+      ],
+      "tip": "Between two vowels, **y** = **i + i**: *crayon* sounds like *crai-ion*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "oui → /u.i/", "right": "/wi/", "why": "**ou** + vowel glides: one syllable." },
+    { "wrong": "huit → /wit/", "right": "/ɥit/", "why": "**u** + vowel is /ɥ/, with round lips, not /w/." },
+    { "wrong": "fille → /fil/", "right": "/fij/", "why": "**ill** after a consonant is /ij/: no /l/." },
+    { "wrong": "ville → /vij/", "right": "/vil/", "why": "**ville, mille, tranquille** are exceptions: you hear the /l/." },
+    { "wrong": "soleil → /sɔ.lɛl/", "right": "/sɔ.lɛj/", "why": "After a vowel, **il** is just /j/." }
+  ],
+  "story": {
+    "title": "Huit, pas oui !",
+    "en": "The Easter holidays: Tom visits Léa and Lou, and a little girl gives him a pronunciation lesson.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Pendant les vacances de Pâques, Tom vient voir Léa et Lou. Lou veut jouer à compter.", "en": "During the Easter holidays, Tom comes to see Léa and Lou. Lou wants to play counting." },
+      { "sp": "Lou", "fr": "Un, deux, {trois|sv-oi}, quatre, cinq, six, sept, {huit|sv-u} !", "en": "One, two, three, four, five, six, seven, eight!" },
+      { "sp": "Tom", "fr": "Bravo, Lou ! {Moi|sv-oi} aussi : six, sept… {oui|sv-ou} !", "en": "Well done, Lou! Me too: six, seven… yes!" },
+      { "sp": "Lou", "fr": "Non ! Pas « {oui|sv-ou} » ! « {Huit|sv-u} » !", "en": "No! Not 'yes'! 'Eight'!" },
+      { "sp": "Léa", "fr": "Pour « {huit|sv-u} », Tom, il faut faire une petite bouche ronde, comme pour « tu ».", "en": "For 'huit', Tom, you have to make a small round mouth, as for 'tu'." },
+      { "sp": "Tom", "fr": "{Huit|sv-u}… {huit|sv-u}… Et « {lui|sv-u} », c'est comme « {Louis|sv-ou} » ?", "en": "Huit… huit… And 'lui' is like 'Louis'?" },
+      { "sp": "Léa", "fr": "Non ! Écoute bien : « {lui|sv-u} », « {Louis|sv-ou} ». Ce n'est pas pareil !", "en": "No! Listen carefully: 'lui', 'Louis'. They're not the same!" },
+      { "sp": "", "fr": "Lou montre son dessin.", "en": "Lou shows her drawing." },
+      { "sp": "Lou", "fr": "Regarde, Tom : une petite {fille|sv-ill}, sa {famille|sv-ill}, le {soleil|sv-ail} et une {abeille|sv-ail} !", "en": "Look, Tom: a little girl, her family, the sun and a bee!" },
+      { "sp": "Tom", "fr": "Une {fille|sv-ill}… et une {ville|sv-ill} ? On dit pareil ?", "en": "A girl… and a town? Do you say them the same?" },
+      { "sp": "Léa", "fr": "Non, écoute : « {fille|sv-ill} », « {ville|sv-ill} ». Ce n'est pas pareil ! Et « {ville|sv-ill} », c'est comme « {mille|sv-ill} » et « {tranquille|sv-ill} ».", "en": "No, listen: 'fille', 'ville'. They're not the same! And 'ville' is like 'mille' and 'tranquille'." },
+      { "sp": "Lou", "fr": "Et le {soleil|sv-ail} a des {yeux|sv-y} ! Je l'ai fait avec mon {crayon|sv-y} jaune.", "en": "And the sun has eyes! I did it with my yellow pencil." },
+      { "sp": "Léa", "fr": "Bon, il est {huit|sv-u} heures. Au lit, Lou !", "en": "Right, it's eight o'clock. Bedtime, Lou!" },
+      { "sp": "Lou", "fr": "Tom, tu me racontes une histoire de {chien|sv-i} ?", "en": "Tom, will you tell me a story about a dog?" },
+      { "sp": "Tom", "fr": "Il était une fois un {chien|sv-i} qui avait {huit|sv-u} amis, et qui {voyageait|sv-y} toute la {nuit|sv-u}…", "en": "Once upon a time, there was a dog who had eight friends, and who travelled all night…" },
+      { "sp": "", "fr": "Lou rit. Après trois histoires, elle dort enfin. Tom dit tout bas : « Bonne {nuit|sv-u}, Lou ! »", "en": "Lou laughs. After three stories, she's finally asleep. Tom says quietly: 'Good night, Lou!'" },
+      { "sp": "Lou", "fr": "Bonne {nuit|sv-u}… Et c'est {huit|sv-u}… pas {oui|sv-ou}…", "en": "Good night… And it's 'huit'… not 'oui'…" }
+    ]
+  },
+  "quiz": [
+    { "case": "sv-oi", "type": "mc", "lang": "en", "q": "How do you say « moi »?", "options": ["/mwa/", "/moi/", "/mɔj/"], "answer": "/mwa/", "say": "moi" },
+    { "case": "sv-oi", "type": "mc", "lang": "en", "listen": "trois", "q": "Listen: which word is it?", "options": ["trois", "très", "trou"], "answer": "trois" },
+    { "case": "sv-ou", "type": "mc", "lang": "en", "q": "How many syllables in « oui »?", "options": ["one: /wi/", "two: /u.i/"], "answer": "one: /wi/", "say": "oui" },
+    { "case": "sv-ou", "type": "mc", "lang": "en", "listen": "jouer", "q": "Listen: which word is it?", "options": ["jouer", "juger", "joue"], "answer": "jouer" },
+    { "case": "sv-u", "type": "mc", "lang": "en", "listen": "huit", "q": "Listen: « huit » or « oui »?", "options": ["huit", "oui"], "answer": "huit" },
+    { "case": "sv-u", "type": "mc", "lang": "en", "listen": "lui", "q": "Listen: « lui » or « Louis »?", "options": ["lui", "Louis"], "answer": "lui" },
+    { "case": "sv-u", "type": "mc", "lang": "en", "q": "To say the u in « nuit », your lips are…", "options": ["round, as for u", "wide, as for i", "open, as for a"], "answer": "round, as for u", "say": "nuit" },
+    { "case": "sv-i", "type": "mc", "lang": "en", "q": "How many syllables in « bien »?", "options": ["one: /bjɛ̃/", "two: /bi.ɛ̃/"], "answer": "one: /bjɛ̃/", "say": "bien" },
+    { "case": "sv-i", "type": "mc", "lang": "en", "listen": "pied", "q": "Listen: which word is it?", "options": ["pied", "pays", "paix"], "answer": "pied" },
+    { "case": "sv-ill", "type": "mc", "lang": "en", "q": "In which word do you hear an /l/?", "options": ["ville", "fille", "famille"], "answer": "ville", "say": "ville" },
+    { "case": "sv-ill", "type": "mc", "lang": "en", "listen": "fille", "q": "Listen: do you hear an /l/ at the end?", "options": ["no: /fij/", "yes: /fil/"], "answer": "no: /fij/" },
+    { "case": "sv-ail", "type": "mc", "lang": "en", "q": "« soleil » ends with…", "options": ["/ɛj/", "/ɛl/", "/il/"], "answer": "/ɛj/", "say": "soleil" },
+    { "case": "sv-ail", "type": "mc", "lang": "en", "listen": "feuille", "q": "Listen: which word is it?", "options": ["feuille", "fille", "fil"], "answer": "feuille" },
+    { "case": "sv-y", "type": "mc", "lang": "en", "q": "« crayon » sounds like…", "options": ["/kʁɛ.jɔ̃/", "/kʁa.jɔ̃/", "/kʁɛ.ɔ̃/"], "answer": "/kʁɛ.jɔ̃/", "say": "crayon" },
+    { "case": "sv-y", "type": "mc", "lang": "en", "listen": "yeux", "q": "Listen: which word is it?", "options": ["yeux", "deux", "œufs"], "answer": "yeux" }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "u25-subj-formes",
+  "type": "grammar",
+  "unit": 25,
+  "title": "Que je sois, que je fasse",
+  "en": "The subjunctive: forms",
+  "intro": "The **subjunctive** (*le subjonctif*) is a verb form that comes after **que** in some sentences, above all after **il faut que**: *Il faut **que tu viennes**.* For most verbs, it's easy: take the **ils** form of the present and change the ending. Only a handful of verbs are irregular.",
+  "cases": [
+    { "id": "subj-que", "label": "after que", "rule": "The subjunctive almost always comes after **que**, when something is necessary, wanted or felt. The first trigger to learn is **il faut que** (it's necessary that…): *Il faut **que je parte**. Il faut **qu'il soit** là.*" },
+    { "id": "subj-regular", "label": "regular: the ils stem", "rule": "Take the **ils** form of the present, drop **-ent**, and add **-e, -es, -e, -ions, -iez, -ent**: *ils finiss-ent → que je finisse, que tu finisses, qu'il finisse, que nous finissions, que vous finissiez, qu'ils finissent*." },
+    { "id": "subj-er", "label": "-er verbs: like the present", "rule": "For **-er** verbs, **je, tu, il, ils** look and sound like the present: *que je parle, que tu parles, qu'il parle, qu'ils parlent*. Only **nous** and **vous** change, like the imparfait: *que nous parlions, que vous parliez*." },
+    { "id": "subj-two", "label": "two stems: prenne, prenions", "rule": "With **nous** and **vous**, the subjunctive is like the **imparfait**, so verbs with two stems keep both: *que je prenne, que nous prenions; que je vienne, que nous venions; que je boive, que nous buvions*." },
+    { "id": "subj-etre-avoir", "label": "être and avoir", "rule": "Completely irregular. **être**: *que je sois, tu sois, il soit, nous soyons, vous soyez, ils soient*. **avoir**: *que j'aie, tu aies, il ait, nous ayons, vous ayez, ils aient*." },
+    { "id": "subj-irr", "label": "faire, aller, pouvoir, savoir, vouloir", "rule": "Five more irregular verbs: **faire** → *que je fasse, que nous fassions*; **aller** → *que j'aille, que nous allions*; **pouvoir** → *que je puisse, que nous puissions*; **savoir** → *que je sache, que nous sachions*; **vouloir** → *que je veuille, que nous voulions*." }
+  ],
+  "sections": [
+    {
+      "title": "1. After que",
+      "text": ["The subjunctive isn't a tense but a **mood**: it doesn't say *when*, it shows that something is necessary, wanted or uncertain. You'll meet it after **que**, very often in **il faut que** + subject + verb."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il faut que je parte.", "I have to leave."],
+          ["Il faut que tu viennes.", "You have to come."],
+          ["Il faut qu'il soit là.", "He has to be there."],
+          ["Il faut que nous fassions les courses.", "We have to do the shopping."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il faut que je parte|subj-que}, il est tard !", "en": "I have to go, it's late!" },
+        { "fr": "{Il faut que tu dormes|subj-que} un peu.", "en": "You need to get some sleep." }
+      ],
+      "tip": "After **il faut que**, the normal present is wrong: say *il faut que tu viennes*, not *il faut que tu viens*."
+    },
+    {
+      "title": "2. Regular verbs",
+      "table": {
+        "head": ["ils (present)", "que je, tu, il", "que nous, vous"], "frCols": [0, 1, 2],
+        "rows": [
+          ["ils finissent", "que je finisse, que tu finisses, qu'il finisse", "que nous finissions, que vous finissiez"],
+          ["ils attendent", "que j'attende, que tu attendes, qu'il attende", "que nous attendions, que vous attendiez"],
+          ["ils dorment", "que je dorme, que tu dormes, qu'il dorme", "que nous dormions, que vous dormiez"],
+          ["ils écrivent", "que j'écrive, que tu écrives, qu'il écrive", "que nous écrivions, que vous écriviez"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il faut {que tu finisses|subj-regular} tes devoirs.", "en": "You have to finish your homework." },
+        { "fr": "Il faut {qu'elle dorme|subj-regular} à huit heures.", "en": "She has to be asleep by eight." }
+      ],
+      "tip": "With **ils**, the subjunctive is the same as the present: *qu'ils finissent*."
+    },
+    {
+      "title": "3. -er verbs",
+      "table": {
+        "head": ["Present", "Subjunctive"], "frCols": [0, 1],
+        "rows": [
+          ["je parle", "que je parle"],
+          ["tu manges", "que tu manges"],
+          ["nous parlons", "que nous parlions"],
+          ["vous mangez", "que vous mangiez"],
+          ["ils parlent", "qu'ils parlent"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il faut {que tu manges|subj-er} des légumes.", "en": "You have to eat vegetables." },
+        { "fr": "Il faut {que vous parliez|subj-er} plus fort.", "en": "You need to speak louder." }
+      ],
+      "tip": "For **-er** verbs, you only *see* the subjunctive with **nous** and **vous**."
+    },
+    {
+      "title": "4. Two stems",
+      "table": {
+        "head": ["que je", "que nous"], "frCols": [0, 1],
+        "rows": [
+          ["que je prenne", "que nous prenions"],
+          ["que je vienne", "que nous venions"],
+          ["que je boive", "que nous buvions"],
+          ["que je voie", "que nous voyions"],
+          ["que je doive", "que nous devions"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il faut {que tu prennes|subj-two} ton manteau.", "en": "You have to take your coat." },
+        { "fr": "Il faut {que nous venions|subj-two} à huit heures.", "en": "We have to come at eight." }
+      ],
+      "tip": "nous and vous = the imparfait: *nous prenions, vous veniez*."
+    },
+    {
+      "title": "5. être and avoir",
+      "table": {
+        "head": ["être", "avoir"], "frCols": [0, 1],
+        "rows": [
+          ["que je sois", "que j'aie"],
+          ["que tu sois", "que tu aies"],
+          ["qu'il soit", "qu'il ait"],
+          ["que nous soyons", "que nous ayons"],
+          ["que vous soyez", "que vous ayez"],
+          ["qu'ils soient", "qu'ils aient"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il faut {que tu sois|subj-etre-avoir} sage.", "en": "You have to be good." },
+        { "fr": "Il faut {qu'elle ait|subj-etre-avoir} son nounours.", "en": "She has to have her teddy." }
+      ],
+      "tip": "*que j'aie* sounds like *j'ai*, and *qu'il ait* like *il est*: only the spelling shows the difference."
+    },
+    {
+      "title": "6. faire, aller, pouvoir, savoir, vouloir",
+      "table": {
+        "head": ["Infinitive", "que je", "que nous"], "frCols": [0, 1, 2],
+        "rows": [
+          ["faire", "que je fasse", "que nous fassions"],
+          ["aller", "que j'aille", "que nous allions"],
+          ["pouvoir", "que je puisse", "que nous puissions"],
+          ["savoir", "que je sache", "que nous sachions"],
+          ["vouloir", "que je veuille", "que nous voulions"]
+        ]
+      },
+      "examples": [
+        { "fr": "Il faut {que je fasse|subj-irr} mes valises.", "en": "I have to pack my bags." },
+        { "fr": "Il faut {que tu ailles|subj-irr} chez le médecin.", "en": "You have to go to the doctor's." }
+      ],
+      "tip": "**aller** and **vouloir** go back to their usual stem with nous and vous: *que nous allions, que vous vouliez*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il faut que tu viens.", "right": "Il faut que tu viennes.", "why": "After **il faut que**, use the subjunctive." },
+    { "wrong": "Il faut que je suis là.", "right": "Il faut que je sois là.", "why": "**être** → *que je sois*." },
+    { "wrong": "Il faut que nous prennions le train.", "right": "Il faut que nous prenions le train.", "why": "**nous** and **vous** are like the imparfait: *nous prenions*." },
+    { "wrong": "Il faut qu'il fait ses devoirs.", "right": "Il faut qu'il fasse ses devoirs.", "why": "**faire** → *qu'il fasse*." },
+    { "wrong": "Il faut que tu vas chez le médecin.", "right": "Il faut que tu ailles chez le médecin.", "why": "**aller** → *que tu ailles*." },
+    { "wrong": "Il faut que j'ai mon passeport.", "right": "Il faut que j'aie mon passeport.", "why": "**avoir** → *que j'aie*, with an **e**, even though it sounds the same." }
+  ],
+  "story": {
+    "title": "Les instructions de Maman",
+    "en": "The Easter holidays: Lou is spending a week with Léa in Lyon, and Anne has a long list of instructions.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Pendant les vacances de Pâques, Lou passe une semaine chez Léa, à Lyon. Avant de partir, Anne donne une longue liste à Léa.", "en": "During the Easter holidays, Lou is spending a week at Léa's, in Lyon. Before leaving, Anne gives Léa a long list." },
+      { "sp": "Anne", "fr": "Alors, ma chérie… {Il faut que Lou dorme|subj-regular} à huit heures. Et {il faut que tu lui lises|subj-regular} une histoire avant.", "en": "So, darling… Lou has to be asleep by eight. And you have to read her a story first." },
+      { "sp": "Léa", "fr": "Oui, Maman.", "en": "Yes, Mum." },
+      { "sp": "Anne", "fr": "{Il faut qu'elle mange|subj-er} des légumes, et {qu'elle boive|subj-two} beaucoup d'eau.", "en": "She has to eat vegetables, and drink lots of water." },
+      { "sp": "Anne", "fr": "{Il faut qu'elle prenne|subj-two} son bain tous les soirs, et {qu'elle mette|subj-regular} son pyjama bleu.", "en": "She has to have her bath every evening, and put on her blue pyjamas." },
+      { "sp": "Léa", "fr": "Maman, je sais. Ce n'est pas la première fois !", "en": "Mum, I know. It's not the first time!" },
+      { "sp": "Anne", "fr": "Attends, ce n'est pas fini. {Il faut qu'elle ait|subj-etre-avoir} toujours son nounours. Sans lui, elle ne dort pas.", "en": "Wait, I haven't finished. She always has to have her teddy. Without it, she won't sleep." },
+      { "sp": "Anne", "fr": "Et dans la rue, {il faut que vous soyez|subj-etre-avoir} prudents : {il faut que tu lui donnes|subj-er} la main.", "en": "And in the street, you have to be careful: you have to hold her hand." },
+      { "sp": "Léa", "fr": "Et Hugo ? {Il faut qu'il fasse|subj-irr} quelque chose, lui aussi ?", "en": "And Hugo? Does he have to do something too?" },
+      { "sp": "Anne", "fr": "Oui ! {Il faut qu'il vienne|subj-two} t'aider… et qu'il n'oublie pas Lou au parc !", "en": "Yes! He has to come and help you… and not forget Lou at the park!" },
+      { "sp": "", "fr": "Le premier soir, Léa lit la liste à Hugo.", "en": "On the first evening, Léa reads the list to Hugo." },
+      { "sp": "Hugo", "fr": "« {Il faut que vous alliez|subj-irr} au parc tous les jours. {Il faut que vous puissiez|subj-irr} répondre au téléphone… » Maman pense à tout !", "en": "'You have to go to the park every day. You have to be able to answer the phone…' Mum thinks of everything!" },
+      { "sp": "Léa", "fr": "Et {il faut que nous sachions|subj-irr} où sont les médicaments de Lou.", "en": "And we need to know where Lou's medicine is." },
+      { "sp": "", "fr": "Lou arrive en courant, avec son nounours.", "en": "Lou comes running in with her teddy." },
+      { "sp": "Lou", "fr": "Et moi ? {Qu'est-ce qu'il faut que je fasse|subj-que} ?", "en": "And me? What do I have to do?" },
+      { "sp": "Hugo", "fr": "Toi ? {Il faut que tu sois|subj-etre-avoir} sage… et {que tu dormes|subj-regular} à huit heures !", "en": "You? You have to be good… and be asleep by eight!" },
+      { "sp": "Lou", "fr": "Non ! {Il faut que vous jouiez|subj-er} avec moi ! C'est les vacances !", "en": "No! You have to play with me! It's the holidays!" },
+      { "sp": "", "fr": "À neuf heures et demie, Lou dort enfin… sur le canapé, entre Léa et Hugo. Et les deux grands dorment aussi.", "en": "At half past nine, Lou is finally asleep… on the sofa, between Léa and Hugo. And the two grown-ups are asleep too." }
+    ]
+  },
+  "quiz": [
+    { "case": "subj-que", "type": "mc", "q": "Il faut que tu ___ avec nous.", "en": "You have to come with us.", "options": ["viennes", "viens", "venir"], "answer": "viennes" },
+    { "case": "subj-que", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Il faut que je parte.", "Il faut que je pars.", "Il faut que je partir."], "answer": "Il faut que je parte.", "say": "Il faut que je parte." },
+    { "case": "subj-regular", "type": "mc", "q": "Il faut que tu ___ ton travail.", "en": "You have to finish your work.", "options": ["finisses", "finis", "finissais"], "answer": "finisses" },
+    { "case": "subj-regular", "type": "type", "q": "Il faut qu'elle ___ (dormir) à huit heures.", "en": "She has to be asleep by eight.", "answer": "dorme" },
+    { "case": "subj-er", "type": "mc", "q": "Il faut que vous ___ plus fort.", "en": "You need to speak louder.", "options": ["parliez", "parlez", "parlerez"], "answer": "parliez" },
+    { "case": "subj-er", "type": "mc", "lang": "en", "q": "« Il faut que je mange. » Is « mange » the same as the present?", "options": ["yes", "no"], "answer": "yes", "say": "Il faut que je mange." },
+    { "case": "subj-two", "type": "mc", "q": "Il faut que nous ___ le train de huit heures.", "en": "We have to catch the eight o'clock train.", "options": ["prenions", "prennions", "prenons"], "answer": "prenions" },
+    { "case": "subj-two", "type": "mc", "q": "Il faut qu'il ___ beaucoup d'eau.", "en": "He has to drink lots of water.", "options": ["boive", "boit", "buvait"], "answer": "boive" },
+    { "case": "subj-etre-avoir", "type": "mc", "q": "Il faut que tu ___ sage.", "en": "You have to be good.", "options": ["sois", "es", "soit"], "answer": "sois" },
+    { "case": "subj-etre-avoir", "type": "mc", "q": "Il faut que nous ___ nos passeports.", "en": "We have to have our passports.", "options": ["ayons", "avons", "aions"], "answer": "ayons" },
+    { "case": "subj-etre-avoir", "type": "type", "q": "Il faut qu'ils ___ (être) là à midi.", "en": "They have to be there at noon.", "answer": "soient" },
+    { "case": "subj-irr", "type": "mc", "q": "Il faut que je ___ mes valises.", "en": "I have to pack my bags.", "options": ["fasse", "fais", "faisse"], "answer": "fasse" },
+    { "case": "subj-irr", "type": "mc", "q": "Il faut que tu ___ chez le médecin.", "en": "You have to go to the doctor's.", "options": ["ailles", "vas", "alles"], "answer": "ailles" },
+    { "case": "subj-irr", "type": "mc", "q": "Il faut que vous ___ répondre au téléphone.", "en": "You have to be able to answer the phone.", "options": ["puissiez", "pouvez", "puissez"], "answer": "puissiez" }
+  ]
+}

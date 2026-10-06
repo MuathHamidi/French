@@ -41,7 +41,7 @@
     { "id": "pleuvoir", "fr": "pleuvoir", "pos": "verb", "ipa": "plø.vwaʁ", "en": "to rain",
       "def": "L'eau tombe des nuages : il pleut.", "def_en": "Water falls from the clouds: it's raining.",
       "extra": "Used only with **il**: **il pleut** (it's raining, it rains).",
-      "forms": ["pleut", "plu", "pleuvait", "pleuvra", "pleuvrait"],
+      "forms": ["pleut", "plu", "pleuvait", "pleuvra", "pleuvrait", "pleuve"],
       "examples": [
         { "fr": "Il **pleut** ! Tu as ton parapluie ?", "en": "It's raining! Have you got your umbrella?" },
         { "fr": "Il **pleut** souvent à Londres.", "en": "It often rains in London." },
@@ -98,7 +98,7 @@
         { "fr": "Il y a beaucoup d'étoiles dans le **ciel**.", "en": "There are lots of stars in the sky." }
       ],
       "note": "**un arc-en-ciel** = a rainbow (an arc in the sky)." },
-    { "id": "temperature", "fr": "température", "pos": "noun", "g": "f", "ipa": "tɑ̃.pe.ʁa.tyʁ", "en": "temperature",
+    { "id": "temperature", "fr": "température", "pos": "noun", "g": "f", "ipa": "tɑ̃.pe.ʁa.tyʁ", "en": "temperature", "forms": ["températures"],
       "def": "Le chiffre qui dit s'il fait chaud ou froid, en degrés.", "def_en": "The number that tells you whether it's hot or cold, in degrees.",
       "examples": [
         { "fr": "Quelle est la **température** aujourd'hui ?", "en": "What's the temperature today?" },

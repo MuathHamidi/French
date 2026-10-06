@@ -1,0 +1,161 @@
+{
+  "id": "u25-environnement",
+  "type": "vocab",
+  "unit": 25,
+  "title": "L'environnement",
+  "en": "The environment",
+  "intro": "25 words for looking after the planet: what pollutes (**la pollution, les déchets, le plastique, les emballages**), what helps (**recycler, trier, réutilisable, durable, bio**), and why it matters (**protéger les ressources, les espèces en voie de disparition**).",
+  "words": [
+    { "id": "environnement", "fr": "environnement", "pos": "noun", "g": "m", "ipa": "ɑ̃.vi.ʁɔn.mɑ̃", "en": "environment", "def": "Tout ce qui est autour de nous : l'air, l'eau, la terre, les plantes et les animaux.", "def_en": "Everything around us: the air, the water, the land, plants and animals.", "examples": [
+      { "fr": "Il faut protéger l'**environnement**.", "en": "We must protect the environment." },
+      { "fr": "Les voitures sont mauvaises pour l'**environnement**.", "en": "Cars are bad for the environment." },
+      { "fr": "Sophie dessine une maison bonne pour l'**environnement**.", "en": "Sophie is drawing an environmentally friendly house." }
+    ] },
+    { "id": "pollution", "fr": "pollution", "pos": "noun", "g": "f", "ipa": "pɔ.ly.sjɔ̃", "en": "pollution", "def": "Ce qui rend l'air, l'eau ou la terre sales et dangereux.", "def_en": "What makes the air, the water or the land dirty and dangerous.", "examples": [
+      { "fr": "Il y a beaucoup de **pollution** dans les grandes villes.", "en": "There's a lot of pollution in big cities." },
+      { "fr": "La **pollution** de l'air est dangereuse pour la santé.", "en": "Air pollution is dangerous for your health." },
+      { "fr": "Les plastiques dans la mer, c'est une **pollution** terrible.", "en": "Plastic in the sea is terrible pollution." }
+    ] },
+    { "id": "polluer", "fr": "polluer", "pos": "verb", "ipa": "pɔ.lɥe", "en": "to pollute", "def": "Rendre l'air, l'eau ou la terre sales.", "def_en": "To make the air, the water or the land dirty.", "forms": ["pollue", "pollues", "polluons", "polluez", "polluent", "pollué", "polluée", "pollués", "polluées", "polluais", "polluait", "polluions", "polluiez", "polluaient", "polluerai", "pollueras", "polluera", "polluerons", "polluerez", "pollueront", "polluerais", "polluerait", "polluerions", "pollueriez", "pollueraient"], "examples": [
+      { "fr": "Les voitures **polluent** l'air de la ville.", "en": "Cars pollute the city air." },
+      { "fr": "Cette usine **pollue** la rivière.", "en": "This factory is polluting the river." },
+      { "fr": "La mer est **polluée** par le plastique.", "en": "The sea is polluted with plastic." }
+    ] },
+    { "id": "dechet", "fr": "déchet", "pos": "noun", "g": "m", "ipa": "de.ʃɛ", "en": "(piece of) waste, rubbish (les déchets)", "def": "Ce qu'on jette parce qu'on ne peut plus l'utiliser.", "def_en": "What you throw away because you can't use it any more.", "forms": ["déchets"], "examples": [
+      { "fr": "On ramasse les **déchets** sur la plage.", "en": "We're picking up the rubbish on the beach." },
+      { "fr": "Chaque année, on jette beaucoup de **déchets**.", "en": "Every year, we throw away a lot of rubbish." },
+      { "fr": "Ne jette pas tes **déchets** par terre !", "en": "Don't throw your rubbish on the ground!" }
+    ], "note": "Mostly plural: **les déchets**." },
+    { "id": "recycler", "fr": "recycler", "pos": "verb", "ipa": "ʁə.si.kle", "en": "to recycle", "def": "Utiliser une vieille chose pour fabriquer une chose nouvelle.", "def_en": "To use a worn-out thing to make a new one.", "forms": ["recycle", "recycles", "recyclons", "recyclez", "recyclent", "recyclé", "recyclée", "recyclés", "recyclées", "recyclais", "recyclait", "recyclions", "recycliez", "recyclaient", "recyclerai", "recycleras", "recyclera", "recyclerons", "recyclerez", "recycleront", "recyclerais", "recyclerait", "recyclerions", "recycleriez", "recycleraient"], "examples": [
+      { "fr": "Tom **recycle** le papier et le verre.", "en": "Tom recycles paper and glass." },
+      { "fr": "On peut **recycler** les bouteilles en plastique.", "en": "You can recycle plastic bottles." },
+      { "fr": "Ce cahier est en papier **recyclé**.", "en": "This exercise book is made of recycled paper." }
+    ] },
+    { "id": "recyclage", "fr": "recyclage", "pos": "noun", "g": "m", "ipa": "ʁə.si.klaʒ", "en": "recycling", "def": "Le fait de recycler.", "def_en": "The act of recycling.", "examples": [
+      { "fr": "Le **recyclage** du verre est très simple.", "en": "Recycling glass is very simple." },
+      { "fr": "Où est la poubelle pour le **recyclage** ?", "en": "Where's the recycling bin?" },
+      { "fr": "Le **recyclage**, c'est bien, mais il faut aussi moins acheter.", "en": "Recycling is good, but we also need to buy less." }
+    ] },
+    { "id": "trier", "fr": "trier", "pos": "verb", "ipa": "tʁi.je", "en": "to sort (rubbish, things)", "def": "Mettre les choses dans des groupes différents. Trier ses déchets : mettre le plastique, le papier et le verre dans des poubelles différentes.", "def_en": "To put things into different groups. Sorting your rubbish: putting plastic, paper and glass in different bins.", "forms": ["trie", "tries", "trions", "triez", "trient", "trié", "triée", "triés", "triées", "triais", "triait", "triions", "triiez", "triaient", "trierai", "trieras", "triera", "trierons", "trierez", "trieront", "trierais", "trierait", "trierions", "trieriez", "trieraient"], "examples": [
+      { "fr": "À la maison, on **trie** nos déchets.", "en": "At home, we sort our rubbish." },
+      { "fr": "Il faut **trier** le verre et le plastique.", "en": "You have to sort glass and plastic." },
+      { "fr": "Sophie **trie** ses vieux dessins.", "en": "Sophie is sorting through her old drawings." }
+    ], "note": "**le tri** = sorting: *le tri des déchets*." },
+    { "id": "plastique", "fr": "plastique", "pos": "noun", "g": "m", "ipa": "plas.tik", "en": "plastic", "def": "Une matière légère, faite avec du pétrole, qu'on utilise pour beaucoup d'objets.", "def_en": "A light material, made from oil, used for lots of objects.", "forms": ["plastiques"], "examples": [
+      { "fr": "Il y a trop de **plastique** dans la mer.", "en": "There's too much plastic in the sea." },
+      { "fr": "Un sac en **plastique** dure des centaines d'années.", "en": "A plastic bag lasts hundreds of years." },
+      { "fr": "Les bouteilles en **plastique** vont dans la poubelle jaune.", "en": "Plastic bottles go in the yellow bin." }
+    ], "note": "**en plastique** = made of plastic." },
+    { "id": "emballage", "fr": "emballage", "pos": "noun", "g": "m", "ipa": "ɑ̃.ba.laʒ", "en": "packaging, wrapping", "def": "Le papier, le carton ou le plastique autour d'un produit, au magasin.", "def_en": "What a product comes in at the shop: a box, a bag, plastic.", "forms": ["emballages"], "examples": [
+      { "fr": "Il y a trop d'**emballages** au supermarché.", "en": "There's too much packaging at the supermarket." },
+      { "fr": "J'achète du riz sans **emballage**, au marché.", "en": "I buy rice without packaging, at the market." },
+      { "fr": "L'**emballage** est plus grand que le produit !", "en": "The packaging is bigger than the product!" }
+    ] },
+    { "id": "carton", "fr": "carton", "pos": "noun", "g": "m", "ipa": "kaʁ.tɔ̃", "en": "cardboard; cardboard box", "def": "Un papier très épais et dur. Aussi : une boîte faite avec ce papier.", "def_en": "Very thick, stiff paper. Also: a box made of it.", "forms": ["cartons"], "examples": [
+      { "fr": "Le **carton** se recycle facilement.", "en": "Cardboard is easy to recycle." },
+      { "fr": "Mets les livres dans ce **carton**.", "en": "Put the books in this box." },
+      { "fr": "Lou joue dans un grand **carton**.", "en": "Lou is playing in a big cardboard box." }
+    ] },
+    { "id": "canette", "fr": "canette", "pos": "noun", "g": "f", "ipa": "ka.nɛt", "en": "(drinks) can", "def": "Une petite boîte en métal pour une boisson.", "def_en": "A small metal container for a drink.", "forms": ["canettes"], "examples": [
+      { "fr": "Une **canette** de jus d'orange, s'il vous plaît.", "en": "A can of orange juice, please." },
+      { "fr": "Il y a des **canettes** [vides|vide] partout dans le parc.", "en": "There are empty cans all over the park." },
+      { "fr": "Les **canettes** se recyclent très bien.", "en": "Cans recycle very well." }
+    ] },
+    { "id": "jetable", "fr": "jetable", "pos": "adj", "ipa": "ʒə.tabl", "en": "disposable", "def": "Qu'on utilise une fois, puis qu'on jette.", "def_en": "That you use once, then throw away.", "forms": ["jetables"], "examples": [
+      { "fr": "Pas de verres **jetables** : prends ta tasse !", "en": "No disposable cups: take your mug!" },
+      { "fr": "Les assiettes **jetables** sont mauvaises pour la planète.", "en": "Disposable plates are bad for the planet." },
+      { "fr": "Ce stylo est **jetable**.", "en": "This pen is disposable." }
+    ] },
+    { "id": "reutilisable", "fr": "réutilisable", "pos": "adj", "ipa": "ʁe.y.ti.li.zabl", "en": "reusable", "def": "Qu'on peut utiliser plusieurs fois.", "def_en": "That you can use several times.", "forms": ["réutilisables"], "examples": [
+      { "fr": "J'ai toujours un sac **réutilisable** pour les courses.", "en": "I always have a reusable bag for the shopping." },
+      { "fr": "Une gourde est **réutilisable**, une bouteille en plastique non.", "en": "A water bottle is reusable, a plastic bottle isn't." },
+      { "fr": "Les bouteilles en verre sont **réutilisables**.", "en": "Glass bottles are reusable." }
+    ] },
+    { "id": "gaspiller", "fr": "gaspiller", "pos": "verb", "ipa": "ɡas.pi.je", "en": "to waste", "def": "Utiliser trop d'une chose, ou la jeter, sans bonne raison.", "def_en": "To use too much of something, or throw it away, for no good reason.", "forms": ["gaspille", "gaspilles", "gaspillons", "gaspillez", "gaspillent", "gaspillé", "gaspillée", "gaspillés", "gaspillées", "gaspillais", "gaspillait", "gaspillions", "gaspilliez", "gaspillaient", "gaspillerai", "gaspilleras", "gaspillera", "gaspillerons", "gaspillerez", "gaspilleront", "gaspillerais", "gaspillerait", "gaspillerions", "gaspilleriez", "gaspilleraient"], "examples": [
+      { "fr": "Ne **gaspille** pas l'eau !", "en": "Don't waste water!" },
+      { "fr": "On **gaspille** beaucoup de nourriture.", "en": "We waste a lot of food." },
+      { "fr": "Hugo **gaspille** son argent en jeux vidéo.", "en": "Hugo wastes his money on video games." }
+    ] },
+    { "id": "gaspillage", "fr": "gaspillage", "pos": "noun", "g": "m", "ipa": "ɡas.pi.jaʒ", "en": "waste, wastefulness", "def": "Le fait de gaspiller.", "def_en": "The act of wasting.", "examples": [
+      { "fr": "Jeter du pain, c'est du **gaspillage** !", "en": "Throwing bread away is wasteful!" },
+      { "fr": "Le **gaspillage** de nourriture est un grand problème.", "en": "Food waste is a big problem." },
+      { "fr": "Contre le **gaspillage**, Mamie ne jette jamais le pain.", "en": "To avoid waste, Grandma never throws bread away." }
+    ] },
+    { "id": "ecologique", "fr": "écologique", "pos": "adj", "ipa": "e.kɔ.lɔ.ʒik", "en": "ecological, eco-friendly", "def": "Qui est bon pour la nature et l'environnement.", "def_en": "That respects nature and the environment.", "forms": ["écologiques"], "examples": [
+      { "fr": "Le vélo est un transport **écologique**.", "en": "Cycling is an eco-friendly way to travel." },
+      { "fr": "Sophie dessine une maison **écologique**.", "en": "Sophie is drawing an eco-friendly house." },
+      { "fr": "Ce produit n'est pas très **écologique**.", "en": "This product isn't very green." }
+    ], "note": "Informal: **écolo**." },
+    { "id": "ecologie", "fr": "écologie", "pos": "noun", "g": "f", "ipa": "e.kɔ.lɔ.ʒi", "en": "ecology; environmentalism", "def": "Les idées pour protéger la nature et l'environnement.", "def_en": "The science of nature. Also: the ideas for protecting the environment.", "examples": [
+      { "fr": "Tom lit beaucoup de livres sur l'**écologie**.", "en": "Tom reads lots of books about the environment." },
+      { "fr": "À l'école, Lou apprend un peu d'**écologie**.", "en": "At school, Lou is learning a little about ecology." },
+      { "fr": "L'**écologie** est un sujet important pour les jeunes.", "en": "The environment is an important subject for young people." }
+    ] },
+    { "id": "proteger", "fr": "protéger", "pos": "verb", "ipa": "pʁɔ.te.ʒe", "en": "to protect", "def": "Faire attention à une personne ou à une chose, pour qu'il ne lui arrive rien de mal.", "def_en": "To look after someone or something, so that nothing bad happens to them.", "forms": ["protège", "protèges", "protégeons", "protégez", "protègent", "protégé", "protégée", "protégés", "protégées", "protégeais", "protégeait", "protégions", "protégiez", "protégeaient", "protégerai", "protégeras", "protégera", "protégerons", "protégerez", "protégeront", "protégerais", "protégerait", "protégerions", "protégeriez", "protégeraient"], "examples": [
+      { "fr": "Il faut **protéger** la nature.", "en": "We have to protect nature." },
+      { "fr": "La crème **protège** la peau du soleil.", "en": "The cream protects your skin from the sun." },
+      { "fr": "Ces animaux sont **protégés**.", "en": "These animals are protected." }
+    ] },
+    { "id": "ramasser", "fr": "ramasser", "pos": "verb", "ipa": "ʁa.ma.se", "en": "to pick up, to collect", "def": "Prendre une chose par terre.", "def_en": "To take something off the ground.", "forms": ["ramasse", "ramasses", "ramassons", "ramassez", "ramassent", "ramassé", "ramassée", "ramassés", "ramassées", "ramassais", "ramassait", "ramassions", "ramassiez", "ramassaient", "ramasserai", "ramasseras", "ramassera", "ramasserons", "ramasserez", "ramasseront", "ramasserais", "ramasserait", "ramasserions", "ramasseriez", "ramasseraient"], "examples": [
+      { "fr": "**Ramasse** tes jouets, Lou !", "en": "Pick up your toys, Lou!" },
+      { "fr": "On a **ramassé** vingt sacs de déchets.", "en": "We collected twenty bags of rubbish." },
+      { "fr": "Tom **ramasse** une canette dans l'herbe.", "en": "Tom picks up a can from the grass." }
+    ] },
+    { "id": "durable", "fr": "durable", "pos": "adj", "ipa": "dy.ʁabl", "en": "sustainable; lasting", "def": "Qui dure longtemps. Aussi : qui protège la planète pour l'avenir.", "def_en": "That lasts a long time. Also: that protects the planet for the future.", "forms": ["durables"], "examples": [
+      { "fr": "On veut une énergie **durable**.", "en": "We want sustainable energy." },
+      { "fr": "Ces chaussures sont très **durables**.", "en": "These shoes last a long time." },
+      { "fr": "Sophie apprend à construire des maisons **durables**.", "en": "Sophie is learning to build sustainable houses." }
+    ], "note": "**le développement durable** = sustainable development." },
+    { "id": "bio", "fr": "bio", "pos": "adj", "ipa": "bjo", "en": "organic", "def": "Fait sans produits dangereux pour la nature.", "def_en": "Made without products that harm nature.", "examples": [
+      { "fr": "J'achète des légumes **bio** au marché.", "en": "I buy organic vegetables at the market." },
+      { "fr": "Les produits **bio** sont un peu plus chers.", "en": "Organic products are a bit more expensive." },
+      { "fr": "L'oncle Pierre vend du lait **bio**.", "en": "Uncle Pierre sells organic milk." }
+    ], "note": "Short for **biologique**. It never changes: *des pommes bio*." },
+    { "id": "planete", "fr": "planète", "pos": "noun", "g": "f", "ipa": "pla.nɛt", "en": "planet", "def": "Un grand corps rond qui tourne autour du soleil, comme la Terre.", "def_en": "A large round body that goes round the sun, like the Earth.", "forms": ["planètes"], "examples": [
+      { "fr": "Il faut protéger notre **planète**.", "en": "We have to protect our planet." },
+      { "fr": "La Terre est une **planète** bleue.", "en": "The Earth is a blue planet." },
+      { "fr": "Nous avons une seule **planète** !", "en": "We only have one planet!" }
+    ] },
+    { "id": "ressource", "fr": "ressource", "pos": "noun", "g": "f", "ipa": "ʁə.suʁs", "en": "resource", "def": "Ce que la nature nous donne et qu'on peut utiliser : l'eau, le bois, le pétrole…", "def_en": "What nature gives us and we can use: water, wood, oil…", "forms": ["ressources"], "examples": [
+      { "fr": "L'eau est une **ressource** très importante.", "en": "Water is a very important resource." },
+      { "fr": "Les **ressources** de la Terre ne durent pas toujours.", "en": "The Earth's resources won't last for ever." },
+      { "fr": "Il faut économiser les **ressources** naturelles.", "en": "We need to save natural resources." }
+    ] },
+    { "id": "espece", "fr": "espèce", "pos": "noun", "g": "f", "ipa": "ɛs.pɛs", "en": "species; kind", "def": "Un groupe d'animaux ou de plantes de la même sorte.", "def_en": "A group of animals or plants of the same kind.", "forms": ["espèces"], "examples": [
+      { "fr": "Il reste peu de papillons de cette **espèce**.", "en": "There are few butterflies of this species left." },
+      { "fr": "Il y a des milliers d'**[espèces|espece]** d'insectes.", "en": "There are thousands of species of insects." },
+      { "fr": "L'ours blanc est une **espèce** protégée.", "en": "The polar bear is a protected species." }
+    ], "note": "Careful: **les espèces** also means cash, as in *payer en espèces*." },
+    { "id": "en-voie-de-disparition", "fr": "en voie de disparition", "pos": "expr", "ipa": "ɑ̃ vwa də dis.pa.ʁi.sjɔ̃", "en": "endangered", "def": "Qui va peut-être disparaître : il en reste très peu.", "def_en": "At risk of disappearing: there are very few left.", "examples": [
+      { "fr": "Le tigre est une espèce **en voie de disparition**.", "en": "The tiger is an endangered species." },
+      { "fr": "Beaucoup d'abeilles sont **en voie de disparition**.", "en": "Many bees are endangered." },
+      { "fr": "Cette langue est **en voie de disparition**.", "en": "This language is dying out." }
+    ] }
+  ],
+  "story": {
+    "title": "Le grand nettoyage",
+    "en": "Early April: Sophie's school organises a clean-up on the banks of the Rhône.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début avril, un samedi matin. L'école de Sophie organise un grand nettoyage sur les quais du Rhône.", "en": "Early April, on a Saturday morning. Sophie's school is organising a big clean-up on the banks of the Rhône." },
+      { "sp": "", "fr": "Tout le monde a des gants et de grands sacs. Il faut ramasser les déchets.", "en": "Everyone has gloves and big bags. They have to pick up the rubbish." },
+      { "sp": "Mathis", "fr": "Attention, on trie ! Le plastique et les canettes dans le sac jaune, le carton et le papier dans le sac bleu.", "en": "Careful, we're sorting! Plastic and cans in the yellow bag, cardboard and paper in the blue bag." },
+      { "sp": "Tom", "fr": "Il y a tellement d'emballages ! Les gens jettent tout par terre.", "en": "There's so much packaging! People throw everything on the ground." },
+      { "sp": "Inès", "fr": "C'est ça, la pollution. Et un sac en plastique reste dans la nature pendant des centaines d'années !", "en": "That's pollution. And a plastic bag stays in the environment for hundreds of years!" },
+      { "sp": "Léa", "fr": "Et les poissons le mangent. Beaucoup d'[espèces|espece] sont en voie de disparition.", "en": "And the fish eat it. Lots of species are endangered." },
+      { "sp": "Tom", "fr": "Et les voitures polluent l'air de la ville…", "en": "And cars pollute the city air…" },
+      { "sp": "", "fr": "Hugo trouve une vieille poubelle, au bord de l'eau.", "en": "Hugo finds an old bin by the water." },
+      { "sp": "Hugo", "fr": "Une poubelle ! Attention : cette fois, je ne tombe pas dedans !", "en": "A bin! Careful: this time, I'm not falling in!" },
+      { "sp": "Sophie", "fr": "Hugo, ramasse les canettes, s'il te plaît !", "en": "Hugo, pick up the cans, please!" },
+      { "sp": "", "fr": "À midi, ils ont rempli vingt sacs. Ils font un pique-nique sur l'herbe.", "en": "By noon, they've filled twenty bags. They have a picnic on the grass." },
+      { "sp": "Carla", "fr": "J'ai apporté des gourdes : pas de bouteilles jetables aujourd'hui !", "en": "I've brought water bottles: no disposable bottles today!" },
+      { "sp": "Mathis", "fr": "Et des sandwichs sans emballage, dans des boîtes réutilisables. C'est plus écologique.", "en": "And sandwiches with no wrapping, in reusable boxes. It's greener." },
+      { "sp": "Tom", "fr": "Chez moi, je recycle tout. Mais en écologie, j'ai encore beaucoup à apprendre.", "en": "At home, I recycle everything. But when it comes to the environment, I still have a lot to learn." },
+      { "sp": "Léa", "fr": "Le recyclage, c'est bien, mais le mieux, c'est d'éviter le gaspillage.", "en": "Recycling is good, but the best thing is to avoid waste." },
+      { "sp": "Inès", "fr": "Oui : moins d'emballages, des produits bio et locaux, et on ne gaspille pas l'eau.", "en": "Yes: less packaging, organic local products, and we don't waste water." },
+      { "sp": "Sophie", "fr": "Les ressources de la planète ne durent pas toujours. Il faut protéger l'environnement.", "en": "The planet's resources won't last for ever. We have to protect the environment." },
+      { "sp": "Mathis", "fr": "À l'école, on apprend à construire des maisons durables. C'est notre avenir !", "en": "At school, we're learning to build sustainable houses. It's our future!" },
+      { "sp": "", "fr": "Le soir, Hugo rentre chez lui, fatigué mais content. Il ne veut plus rien gaspiller… sauf son temps devant ses jeux vidéo !", "en": "In the evening, Hugo goes home tired but happy. He doesn't want to waste anything any more… except his time in front of his video games!" }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "u25-il-faut-que",
+  "type": "grammar",
+  "unit": 25,
+  "title": "Il faut que tu coures !",
+  "en": "il faut que + subjunctive",
+  "intro": "**Il faut** says that something is necessary. With an infinitive, it's a rule for everyone: *Il faut **dormir**.* With **que** + a subject + the **subjunctive**, it's for one person: *Il faut **que tu dormes**.* This lesson also covers *il ne faut pas que*, *il faudra que*, *il faudrait que*, and other ways to say *must*.",
+  "cases": [
+    { "id": "ifq-inf", "label": "il faut + infinitive: for everyone", "rule": "**il faut** + infinitive gives a general rule, true for everybody: *Il faut manger des légumes. Il faut réserver.* There's no subject: you don't say who." },
+    { "id": "ifq-que", "label": "il faut que + subjunctive: for someone", "rule": "To say **who** must do it, use **il faut que** + subject + **subjunctive**: *Il faut **que tu manges** des légumes. Il faut **que nous partions**.*" },
+    { "id": "ifq-neg", "label": "il ne faut pas que = must not", "rule": "**il ne faut pas que** (or *il ne faut pas* + infinitive) means **must not**: *Il ne faut pas que tu manges trop.* It never means *don't have to*: for that, say **ce n'est pas la peine de** or **tu n'es pas obligé de**." },
+    { "id": "ifq-tenses", "label": "il faudra, il fallait, il faudrait", "rule": "**falloir** can change tense, but the verb after it stays in the **present subjunctive**: *Il **faudra** que tu viennes* (future). *Il **fallait** que je parte* (past). *Il **a fallu** que je marche.* *Il **faudrait** que tu dormes plus* (advice)." },
+    { "id": "ifq-other", "label": "il vaut mieux que, il est important que", "rule": "Other ways to say that something is necessary or better, also with the subjunctive: **il vaut mieux que** (it's better that), **il est important que**, **il est nécessaire que**: *Il vaut mieux que tu prennes un parapluie.*" },
+    { "id": "ifq-devoir", "label": "il faut que or devoir?", "rule": "**devoir** + infinitive says almost the same thing: *Tu dois partir* = *Il faut que tu partes*. **Il faut que** is a little stronger, and very common when you speak." }
+  ],
+  "sections": [
+    {
+      "title": "1. il faut + infinitive: for everyone",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il faut manger des légumes.", "You (everyone) should eat vegetables."],
+          ["Il faut réserver.", "You have to book."],
+          ["Il faut boire beaucoup d'eau.", "You need to drink lots of water."]
+        ]
+      },
+      "examples": [
+        { "fr": "Pour bien courir, {il faut dormir|ifq-inf} huit heures.", "en": "To run well, you need eight hours' sleep." },
+        { "fr": "En France, {il faut dire|ifq-inf} bonjour quand on entre dans un magasin.", "en": "In France, you have to say hello when you go into a shop." }
+      ]
+    },
+    {
+      "title": "2. il faut que + subjunctive: for someone",
+      "table": {
+        "head": ["For everyone", "For one person"], "frCols": [0, 1],
+        "rows": [
+          ["Il faut partir.", "Il faut que je parte."],
+          ["Il faut dormir.", "Il faut que tu dormes."],
+          ["Il faut faire du sport.", "Il faut qu'il fasse du sport."],
+          ["Il faut être patient.", "Il faut que vous soyez patients."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il faut que tu coures|ifq-que} tous les matins.", "en": "You have to run every morning." },
+        { "fr": "{Il faut que nous partions|ifq-que} avant midi.", "en": "We have to leave before noon." }
+      ],
+      "tip": "*Il faut que tu…* is a friendly but firm way to give someone instructions."
+    },
+    {
+      "title": "3. il ne faut pas que = must not",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il ne faut pas que tu manges trop.", "You mustn't eat too much."],
+          ["Il ne faut pas toucher.", "Don't touch. (You mustn't touch.)"],
+          ["Ce n'est pas la peine de venir.", "You don't need to come."],
+          ["Tu n'es pas obligé de venir.", "You don't have to come."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il ne faut pas que tu oublies|ifq-neg} ton billet !", "en": "You mustn't forget your ticket!" },
+        { "fr": "{Il ne faut pas regarder|ifq-neg} ton portable en classe.", "en": "You mustn't look at your phone in class." }
+      ],
+      "tip": "Careful, English speakers: **il ne faut pas** = *must not*, never *don't have to*."
+    },
+    {
+      "title": "4. il faudra, il fallait, il faudrait",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il faudra que tu viennes.", "You'll have to come."],
+          ["Il fallait que je parte.", "I had to leave."],
+          ["Il a fallu que je marche.", "I had to walk."],
+          ["Il faudrait que tu dormes plus.", "You ought to sleep more."]
+        ]
+      },
+      "examples": [
+        { "fr": "Demain, {il faudra que tu te lèves|ifq-tenses} à six heures.", "en": "Tomorrow, you'll have to get up at six." },
+        { "fr": "Tu es fatigué : {il faudrait que tu dormes|ifq-tenses} plus.", "en": "You're tired: you ought to sleep more." }
+      ],
+      "tip": "Whatever the tense of **falloir**, the verb after **que** stays in the present subjunctive."
+    },
+    {
+      "title": "5. il vaut mieux que, il est important que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il vaut mieux que tu prennes un parapluie.", "You'd better take an umbrella."],
+          ["Il est important que tu boives de l'eau.", "It's important that you drink water."],
+          ["Il est nécessaire que vous soyez là.", "You need to be there."]
+        ]
+      },
+      "examples": [
+        { "fr": "Il pleut : {il vaut mieux que tu prennes|ifq-other} le bus.", "en": "It's raining: you'd better take the bus." },
+        { "fr": "{Il est important que tu manges|ifq-other} bien avant la course.", "en": "It's important that you eat well before the race." }
+      ],
+      "tip": "With no subject, these take an infinitive with **de**: *Il est important **de** manger.* But *il vaut mieux* takes it directly: *Il vaut mieux partir.*"
+    },
+    {
+      "title": "6. il faut que or devoir?",
+      "table": {
+        "head": ["devoir", "il faut que"], "frCols": [0, 1],
+        "rows": [
+          ["Tu dois partir.", "Il faut que tu partes."],
+          ["Je dois travailler.", "Il faut que je travaille."],
+          ["Nous devons acheter du pain.", "Il faut que nous achetions du pain."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu dois te reposer|ifq-devoir}, et {il faut que tu boives|ifq-devoir} beaucoup.", "en": "You must rest, and you have to drink a lot." },
+        { "fr": "{Je dois vraiment courir|ifq-devoir} tous les jours ?", "en": "Do I really have to run every day?" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il faut que tu cours.", "right": "Il faut que tu coures.", "why": "After **il faut que**, use the subjunctive." },
+    { "wrong": "Il faut que partir.", "right": "Il faut partir.", "why": "With an infinitive, no **que**." },
+    { "wrong": "Tu es fatigué ? Il ne faut pas venir demain.", "right": "Tu es fatigué ? Ce n'est pas la peine de venir demain.", "why": "To say *you don't have to*, use **ce n'est pas la peine de**: **il ne faut pas** means *must not*." },
+    { "wrong": "Il faudra que tu viendras.", "right": "Il faudra que tu viennes.", "why": "After **que**, the subjunctive stays in the present, even after *il faudra*." },
+    { "wrong": "Il faut je parte.", "right": "Il faut que je parte.", "why": "Don't forget **que**." }
+  ],
+  "story": {
+    "title": "Le programme d'entraînement",
+    "en": "The Sunday after the climate march: the race is in five days, and Carla has a plan for Hugo.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche matin, chez Hugo. La course du premier mai, c'est dans cinq jours. Et cette fois, Hugo a dit oui !", "en": "Sunday morning, at Hugo's. The race on the first of May is in five days. And this time, Hugo has said yes!" },
+      { "sp": "Carla", "fr": "Bon. Si tu veux finir la course, {il faut que tu t'entraînes|ifq-que} tous les jours cette semaine.", "en": "Right. If you want to finish the race, you have to train every day this week." },
+      { "sp": "Hugo", "fr": "Tous les jours ?! Mais je travaille !", "en": "Every day?! But I'm working!" },
+      { "sp": "Carla", "fr": "{Il faut que tu coures|ifq-que} le matin, avant le travail. Trente minutes, pas plus.", "en": "You have to run in the morning, before work. Thirty minutes, no more." },
+      { "sp": "Hugo", "fr": "Le matin ? Alors {il faut que je me lève|ifq-que} à six heures…", "en": "In the morning? Then I have to get up at six…" },
+      { "sp": "Carla", "fr": "Exactement. Et {il faut dormir|ifq-inf} huit heures par nuit. Pas de séries jusqu'à minuit !", "en": "Exactly. And you need eight hours' sleep a night. No series until midnight!" },
+      { "sp": "Hugo", "fr": "{Il ne faut pas que je regarde|ifq-neg} mes séries ? C'est dur…", "en": "I mustn't watch my series? That's hard…" },
+      { "sp": "Carla", "fr": "{Il ne faut pas que tu manges|ifq-neg} de pizza non plus. {Il vaut mieux que tu prennes|ifq-other} des pâtes et des légumes.", "en": "You mustn't eat pizza either. You'd better have pasta and vegetables." },
+      { "sp": "Hugo", "fr": "Et le chocolat ?", "en": "And chocolate?" },
+      { "sp": "Carla", "fr": "Un petit carré par jour. Et {il est important que tu boives|ifq-other} beaucoup d'eau.", "en": "One little square a day. And it's important that you drink lots of water." },
+      { "sp": "Hugo", "fr": "Tu es pire que Madame Dupont !", "en": "You're worse than Mme Dupont!" },
+      { "sp": "Carla", "fr": "Léa m'a raconté ta course de décembre. À la fin, {il a fallu que tu marches|ifq-tenses} !", "en": "Léa told me about your race in December. At the end, you had to walk!" },
+      { "sp": "Hugo", "fr": "C'était à cause du chocolat chaud…", "en": "That was because of the hot chocolate…" },
+      { "sp": "Carla", "fr": "Le chocolat chaud, c'était après la course, Hugo ! Cette fois, {il faudra que tu finisses|ifq-tenses} sans marcher. Et moi, je cours avec toi.", "en": "The hot chocolate was after the race, Hugo! This time, you'll have to finish without walking. And I'm running with you." },
+      { "sp": "Hugo", "fr": "Toi aussi ? Alors {il faudrait que tu m'attendes|ifq-tenses} à chaque kilomètre…", "en": "You too? Then you'd have to wait for me at every kilometre…" },
+      { "sp": "Hugo", "fr": "Mais… {je dois vraiment courir|ifq-devoir} demain matin ?", "en": "But… do I really have to run tomorrow morning?" },
+      { "sp": "Carla", "fr": "Oui, tu dois. Ce n'est pas la peine de discuter !", "en": "Yes, you do. There's no point arguing!" },
+      { "sp": "", "fr": "Lundi, six heures. Le réveil sonne. Hugo se lève… et il retourne au lit.", "en": "Monday, six o'clock. The alarm goes off. Hugo gets up… and goes back to bed." },
+      { "sp": "", "fr": "Six heures cinq. Son portable sonne : c'est Carla, en bas de chez lui, en baskets.", "en": "Five past six. His phone rings: it's Carla, downstairs, in her trainers." },
+      { "sp": "Carla", "fr": "Hugo ! {Il faut que tu descendes|ifq-que}. Tout de suite !", "en": "Hugo! You have to come down. Right now!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ifq-inf", "type": "mc", "q": "Pour être en forme, il faut ___ du sport.", "en": "To be fit, you need to do some sport.", "options": ["faire", "que fasse", "fais"], "answer": "faire" },
+    { "case": "ifq-inf", "type": "mc", "lang": "en", "q": "« Il faut réserver. » Who has to book?", "options": ["everyone (a general rule)", "only me", "only you"], "answer": "everyone (a general rule)", "say": "Il faut réserver." },
+    { "case": "ifq-que", "type": "mc", "q": "Il faut que tu ___ tous les matins.", "en": "You have to run every morning.", "options": ["coures", "cours", "courir"], "answer": "coures" },
+    { "case": "ifq-que", "type": "type", "q": "Il faut que nous ___ (partir) avant midi.", "en": "We have to leave before noon.", "answer": "partions" },
+    { "case": "ifq-neg", "type": "mc", "lang": "en", "q": "« Il ne faut pas que tu viennes » means…", "options": ["You mustn't come.", "You don't have to come."], "answer": "You mustn't come.", "say": "Il ne faut pas que tu viennes." },
+    { "case": "ifq-neg", "type": "mc", "lang": "en", "q": "“You don't need to come.” Choose the right sentence:", "options": ["Ce n'est pas la peine de venir.", "Il ne faut pas venir."], "answer": "Ce n'est pas la peine de venir.", "say": "Ce n'est pas la peine de venir." },
+    { "case": "ifq-tenses", "type": "mc", "q": "Demain, il faudra que tu ___ à six heures.", "en": "Tomorrow, you'll have to get up at six.", "options": ["te lèves", "te lèveras", "te lever"], "answer": "te lèves" },
+    { "case": "ifq-tenses", "type": "mc", "q": "Tu es fatigué : il ___ que tu dormes plus.", "en": "You're tired: you ought to sleep more.", "options": ["faudrait", "faut que", "fallu"], "answer": "faudrait" },
+    { "case": "ifq-other", "type": "mc", "q": "Il pleut : il vaut mieux que tu ___ le bus.", "en": "It's raining: you'd better take the bus.", "options": ["prennes", "prends", "prendre"], "answer": "prennes" },
+    { "case": "ifq-other", "type": "mc", "q": "Il est important que vous ___ là.", "en": "It's important that you're there.", "options": ["soyez", "êtes", "soyiez"], "answer": "soyez" },
+    { "case": "ifq-devoir", "type": "mc", "lang": "en", "q": "« Tu dois partir » means the same as…", "options": ["Il faut que tu partes.", "Il faut que tu pars.", "Tu vas partir."], "answer": "Il faut que tu partes.", "say": "Tu dois partir." },
+    { "case": "ifq-devoir", "type": "mc", "q": "Il faut que je travaille = Je ___ travailler.", "en": "I have to work.", "options": ["dois", "faut", "veux"], "answer": "dois" }
+  ]
+}

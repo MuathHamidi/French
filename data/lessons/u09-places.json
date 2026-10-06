@@ -57,7 +57,7 @@
         { "fr": "Le train part de la **gare** à midi.", "en": "The train leaves the station at noon." }
       ],
       "note": "A bus station is **une gare routière**; a metro station is **une station**." },
-    { "id": "metro", "fr": "métro", "pos": "noun", "g": "m", "ipa": "me.tʁo", "en": "underground, subway, metro",
+    { "id": "metro", "fr": "métro", "pos": "noun", "g": "m", "ipa": "me.tʁo", "en": "underground, subway, metro", "forms": ["métros"],
       "def": "Un train sous la ville.", "def_en": "A train under the city.",
       "accept": ["metro"],
       "examples": [
