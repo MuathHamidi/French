@@ -1,0 +1,162 @@
+{
+  "id": "u23-traditions",
+  "type": "vocab",
+  "unit": 23,
+  "title": "Les fêtes et les traditions",
+  "en": "Holidays and traditions",
+  "intro": "25 words for French holidays and traditions through the year: wishes in January, crêpes at **la Chandeleur**, costumes at **Mardi gras**, chocolate eggs at **Pâques**, lily of the valley on 1 May, fireworks on 14 July, and the tree and the Yule log at Christmas.",
+  "words": [
+    { "id": "tradition", "fr": "tradition", "pos": "noun", "g": "f", "ipa": "tʁa.di.sjɔ̃", "en": "tradition", "def": "Une chose qu'on fait depuis très longtemps, chaque année, dans une famille ou dans un pays.", "def_en": "Something people have done for a very long time, every year, in a family or a country.", "forms": ["traditions"], "examples": [
+      { "fr": "Manger la galette en janvier, c'est une **tradition**.", "en": "Eating the galette in January is a tradition." },
+      { "fr": "Dans ma famille, il y a beaucoup de **traditions**.", "en": "There are lots of traditions in my family." },
+      { "fr": "C'est une vieille **tradition** lyonnaise.", "en": "It's an old Lyon tradition." }
+    ] },
+    { "id": "feter", "fr": "fêter", "pos": "verb", "ipa": "fe.te", "en": "to celebrate", "def": "Faire une fête pour un jour important : fêter un anniversaire, fêter Noël.", "def_en": "To have a celebration for an important day: to celebrate a birthday, Christmas.", "forms": ["fête", "fêtes", "fêtons", "fêtez", "fêtent", "fêté", "fêtée", "fêtés", "fêtées", "fêtais", "fêtait", "fêtions", "fêtiez", "fêtaient", "fêterai", "fêteras", "fêtera", "fêterons", "fêterez", "fêteront", "fêterais", "fêterait", "fêterions", "fêteriez", "fêteraient"], "examples": [
+      { "fr": "On **fête** l'anniversaire de Lou samedi.", "en": "We're celebrating Lou's birthday on Saturday." },
+      { "fr": "Comment est-ce que vous **fêtez** Noël ?", "en": "How do you celebrate Christmas?" },
+      { "fr": "Nous avons **fêté** la nouvelle année chez Léa.", "en": "We celebrated the New Year at Léa's." }
+    ], "note": "**fêter** quelque chose = to celebrate something; **faire la fête** = to party." },
+    { "id": "jour-ferie", "fr": "jour férié", "pos": "noun", "g": "m", "ipa": "ʒuʁ fe.ʁje", "en": "public holiday, bank holiday", "def": "Un jour où on ne travaille pas, pour une fête : le premier mai, Noël…", "def_en": "A day when people don't work, for a holiday: 1 May, Christmas…", "forms": ["jours fériés"], "examples": [
+      { "fr": "Le premier mai est un **jour férié**.", "en": "1 May is a public holiday." },
+      { "fr": "La banque est fermée : c'est un **jour férié**.", "en": "The bank is closed: it's a bank holiday." },
+      { "fr": "Il y a onze **jours fériés** en France.", "en": "There are eleven public holidays in France." }
+    ] },
+    { "id": "fete-nationale", "fr": "fête nationale", "pos": "noun", "g": "f", "ipa": "fɛt na.sjɔ.nal", "en": "national holiday", "def": "La fête d'un pays : en France, c'est le quatorze juillet.", "def_en": "A country's national day: in France, it's 14 July.", "forms": ["fêtes nationales"], "examples": [
+      { "fr": "Le quatorze juillet, c'est la **fête nationale**.", "en": "14 July is the national holiday." },
+      { "fr": "Pour la **fête nationale**, il y a un défilé à Paris.", "en": "For the national holiday, there's a parade in Paris." },
+      { "fr": "La **fête nationale** du Québec est le vingt-quatre juin.", "en": "Quebec's national holiday is 24 June." }
+    ] },
+    { "id": "feu-d-artifice", "fr": "feu d'artifice", "pos": "noun", "g": "m", "ipa": "fø daʁ.ti.fis", "en": "fireworks (display)", "def": "Des lumières de toutes les couleurs dans le ciel, la nuit, pour une fête.", "def_en": "Lights of every colour in the night sky, for a celebration.", "forms": ["feux d'artifice"], "examples": [
+      { "fr": "On regarde le **feu d'artifice** au bord du Rhône.", "en": "We watch the fireworks on the banks of the Rhône." },
+      { "fr": "Il y a un **feu d'artifice** le quatorze juillet.", "en": "There are fireworks on 14 July." },
+      { "fr": "Lou a peur du bruit des **feux d'artifice**.", "en": "Lou is scared of the noise of fireworks." }
+    ] },
+    { "id": "defile", "fr": "défilé", "pos": "noun", "g": "m", "ipa": "de.fi.le", "en": "parade; fashion show", "def": "Des personnes qui marchent ensemble dans la rue, pour une fête. Aussi : un défilé de mode.", "def_en": "People walking together through the streets for a celebration. Also: a fashion show.", "forms": ["défilés"], "examples": [
+      { "fr": "Le **défilé** passe sur l'avenue.", "en": "The parade goes along the avenue." },
+      { "fr": "Inès marche dans un **défilé** de mode.", "en": "Inès is walking in a fashion show." },
+      { "fr": "Les enfants regardent le **défilé** du carnaval.", "en": "The children are watching the carnival parade." }
+    ] },
+    { "id": "reveillon", "fr": "réveillon", "pos": "noun", "g": "m", "ipa": "ʁe.vɛ.jɔ̃", "en": "Christmas Eve or New Year's Eve dinner", "def": "Le grand repas du soir de Noël ou du trente et un décembre.", "def_en": "The big dinner on Christmas Eve or on 31 December.", "forms": ["réveillons"], "examples": [
+      { "fr": "Le **réveillon** de Noël, c'est chez Mamie.", "en": "Christmas Eve dinner is at Grandma's." },
+      { "fr": "On a dansé jusqu'à deux heures au **réveillon** !", "en": "We danced until two o'clock at the New Year's Eve party!" },
+      { "fr": "Au **réveillon**, on mange une bûche.", "en": "At the Christmas dinner, we eat a Yule log." }
+    ] },
+    { "id": "sapin", "fr": "sapin", "pos": "noun", "g": "m", "ipa": "sa.pɛ̃", "en": "fir tree; Christmas tree", "def": "Un arbre toujours vert. À Noël, on le décore dans la maison.", "def_en": "A tree that's always green. At Christmas, people decorate one indoors.", "forms": ["sapins"], "examples": [
+      { "fr": "On décore le **sapin** de Noël.", "en": "We decorate the Christmas tree." },
+      { "fr": "Il y a des cadeaux sous le **sapin**.", "en": "There are presents under the tree." },
+      { "fr": "La forêt est pleine de **sapins**.", "en": "The forest is full of fir trees." }
+    ] },
+    { "id": "guirlande", "fr": "guirlande", "pos": "noun", "g": "f", "ipa": "ɡiʁ.lɑ̃d", "en": "garland, string of lights; tinsel", "def": "Une longue décoration avec des lumières ou des couleurs, pour le sapin ou pour une fête.", "def_en": "A long decoration with lights or colours, for the tree or a party.", "forms": ["guirlandes"], "examples": [
+      { "fr": "Les **guirlandes** brillent sur le sapin.", "en": "The lights are twinkling on the tree." },
+      { "fr": "J'ai mis une **guirlande** sur le balcon.", "en": "I've put a string of lights on the balcony." },
+      { "fr": "Sophie fait des **guirlandes** en papier.", "en": "Sophie is making paper garlands." }
+    ] },
+    { "id": "decorer", "fr": "décorer", "pos": "verb", "ipa": "de.kɔ.ʁe", "en": "to decorate", "def": "Rendre une chose plus belle avec des objets, des couleurs ou des lumières.", "def_en": "To make something prettier with objects, colours or lights.", "forms": ["décore", "décores", "décorons", "décorez", "décorent", "décoré", "décorée", "décorés", "décorées", "décorais", "décorait", "décorions", "décoriez", "décoraient", "décorerai", "décoreras", "décorera", "décorerons", "décorerez", "décoreront", "décorerais", "décorerait", "décorerions", "décoreriez", "décoreraient"], "examples": [
+      { "fr": "On **décore** la maison pour Noël.", "en": "We're decorating the house for Christmas." },
+      { "fr": "Lou **décore** son gâteau avec du chocolat.", "en": "Lou decorates her cake with chocolate." },
+      { "fr": "La salle est **décorée** avec des ballons.", "en": "The room is decorated with balloons." }
+    ] },
+    { "id": "decoration", "fr": "décoration", "pos": "noun", "g": "f", "ipa": "de.kɔ.ʁa.sjɔ̃", "en": "decoration", "def": "Un objet qui rend un endroit plus beau.", "def_en": "Something that makes a place prettier.", "forms": ["décorations"], "examples": [
+      { "fr": "Où sont les **décorations** de Noël ?", "en": "Where are the Christmas decorations?" },
+      { "fr": "J'aime la **décoration** de ce café.", "en": "I like the decor in this café." },
+      { "fr": "Sophie fait toutes les **décorations** de la fête.", "en": "Sophie is doing all the decorations for the party." }
+    ] },
+    { "id": "cadeau", "fr": "cadeau", "pos": "noun", "g": "m", "ipa": "ka.do", "en": "present, gift", "def": "Une chose qu'on offre à quelqu'un.", "def_en": "Something you give someone.", "forms": ["cadeaux"], "examples": [
+      { "fr": "Merci pour le **cadeau** !", "en": "Thank you for the present!" },
+      { "fr": "Il y a beaucoup de **cadeaux** sous le sapin.", "en": "There are lots of presents under the tree." },
+      { "fr": "C'est un **cadeau** pour toi.", "en": "It's a present for you." }
+    ], "note": "Plural: **des cadeaux**." },
+    { "id": "voeu", "fr": "vœu", "pos": "noun", "g": "m", "ipa": "vø", "en": "wish (meilleurs vœux = best wishes)", "def": "Ce qu'on souhaite pour quelqu'un ou pour soi. En janvier, on envoie ses vœux : bonne année !", "def_en": "What you wish for someone or for yourself. In January, people send their best wishes: Happy New Year!", "forms": ["vœux"], "examples": [
+      { "fr": "Meilleurs **vœux** pour la nouvelle année !", "en": "Best wishes for the New Year!" },
+      { "fr": "Fais un **vœu** !", "en": "Make a wish!" },
+      { "fr": "Je t'envoie tous mes **vœux** de bonheur.", "en": "I send you all my wishes for happiness." }
+    ] },
+    { "id": "souhaiter", "fr": "souhaiter", "pos": "verb", "ipa": "swe.te", "en": "to wish", "def": "Dire ce qu'on veut de bien pour quelqu'un : souhaiter un bon anniversaire.", "def_en": "To say what good things you want for someone: to wish someone a happy birthday.", "forms": ["souhaite", "souhaites", "souhaitons", "souhaitez", "souhaitent", "souhaité", "souhaitée", "souhaités", "souhaitées", "souhaitais", "souhaitait", "souhaitions", "souhaitiez", "souhaitaient", "souhaiterai", "souhaiteras", "souhaitera", "souhaiterons", "souhaiterez", "souhaiteront", "souhaiterais", "souhaiterait", "souhaiterions", "souhaiteriez", "souhaiteraient"], "examples": [
+      { "fr": "Je te **souhaite** un joyeux anniversaire !", "en": "I wish you a happy birthday!" },
+      { "fr": "Nous vous **souhaitons** une bonne année.", "en": "We wish you a happy New Year." },
+      { "fr": "Qu'est-ce que tu **souhaites** pour Noël ?", "en": "What do you wish for at Christmas?" }
+    ] },
+    { "id": "paques", "fr": "Pâques", "pos": "noun", "g": "f", "art": "", "pl": true, "ipa": "pɑk", "en": "Easter", "def": "La fête du printemps : les enfants cherchent des œufs en chocolat dans le jardin.", "def_en": "The spring holiday: children look for chocolate eggs in the garden.", "examples": [
+      { "fr": "À **Pâques**, on mange des œufs en chocolat.", "en": "At Easter, we eat chocolate eggs." },
+      { "fr": "Joyeuses **Pâques** !", "en": "Happy Easter!" },
+      { "fr": "Les vacances de **Pâques** commencent demain.", "en": "The Easter holidays start tomorrow." }
+    ], "note": "Usually no article: **à Pâques**. In France, the chocolate eggs are brought by **les cloches** (the church bells)." },
+    { "id": "chandeleur", "fr": "Chandeleur", "pos": "noun", "g": "f", "ipa": "ʃɑ̃d.lœʁ", "en": "Candlemas (2 February, crêpe day)", "def": "La fête du deux février : en France, ce jour-là, on mange des crêpes.", "def_en": "The holiday on 2 February: in France, people eat crêpes that day.", "examples": [
+      { "fr": "À la **Chandeleur**, on fait des crêpes.", "en": "At Candlemas, we make crêpes." },
+      { "fr": "La **Chandeleur**, c'est le deux février.", "en": "Candlemas is on 2 February." },
+      { "fr": "Pour la **Chandeleur**, Hugo invite tout le monde.", "en": "For Candlemas, Hugo invites everyone." }
+    ], "note": "Tradition: flip your first crêpe with a coin in your other hand, and you'll have money all year!" },
+    { "id": "carnaval", "fr": "carnaval", "pos": "noun", "g": "m", "ipa": "kaʁ.na.val", "en": "carnival", "def": "Une grande [fête|fete] dans la rue, en février ou en mars, avec des déguisements et de la musique.", "def_en": "A big street celebration in February or March, with costumes and music.", "forms": ["carnavals"], "examples": [
+      { "fr": "Le **carnaval** de Nice est très célèbre.", "en": "The Nice carnival is very famous." },
+      { "fr": "Les enfants se déguisent pour le **carnaval**.", "en": "The children dress up for the carnival." },
+      { "fr": "Il y a un défilé de **carnaval** dans la ville.", "en": "There's a carnival parade in town." }
+    ] },
+    { "id": "mardi-gras", "fr": "Mardi gras", "pos": "noun", "g": "m", "art": "", "ipa": "maʁ.di ɡʁa", "en": "Mardi Gras, Shrove Tuesday", "def": "Le dernier jour du carnaval, un mardi de février ou de mars : on mange des crêpes et des bugnes.", "def_en": "The last day of the carnival, a Tuesday in February or March: people eat crêpes and bugnes.", "examples": [
+      { "fr": "À **Mardi gras**, les enfants se déguisent.", "en": "On Shrove Tuesday, children dress up." },
+      { "fr": "**Mardi gras**, c'est demain !", "en": "Mardi Gras is tomorrow!" },
+      { "fr": "À Lyon, on mange des bugnes pour **Mardi gras**.", "en": "In Lyon, people eat bugnes for Mardi Gras." }
+    ], "note": "**gras** = fat: the last day to eat rich food before Lent." },
+    { "id": "deguisement", "fr": "déguisement", "pos": "noun", "g": "m", "ipa": "de.ɡiz.mɑ̃", "en": "costume, fancy dress", "def": "Les vêtements qu'on porte pour ressembler à une autre personne ou à un animal.", "def_en": "The clothes you wear to look like someone else or an animal.", "forms": ["déguisements"], "examples": [
+      { "fr": "Lou a un **déguisement** de chat.", "en": "Lou has a cat costume." },
+      { "fr": "Ton **déguisement** est génial !", "en": "Your costume is brilliant!" },
+      { "fr": "On choisit nos **déguisements** pour le carnaval.", "en": "We're choosing our costumes for the carnival." }
+    ] },
+    { "id": "se-deguiser", "fr": "se déguiser", "pos": "verb", "ipa": "sə de.ɡi.ze", "en": "to dress up (as)", "def": "Mettre un déguisement : se déguiser en chat, en roi…", "def_en": "To put on a costume: to dress up as a cat, a king…", "forms": ["me déguise", "te déguises", "se déguise", "nous nous déguisons", "vous vous déguisez", "se déguisent", "me déguiser", "te déguiser", "nous déguiser", "vous déguiser", "déguisé", "déguisée", "déguisés", "déguisées", "me suis déguisé", "me suis déguisée", "s'est déguisé", "s'est déguisée", "nous sommes déguisés", "se sont déguisés", "se sont déguisées", "me déguisais", "se déguisait", "se déguisaient", "me déguiserai", "se déguisera", "se déguiseront", "me déguiserais", "se déguiserait", "se déguiseraient"], "examples": [
+      { "fr": "Je **me déguise** en roi.", "en": "I'm dressing up as a king." },
+      { "fr": "Pour Halloween, Lou s'est **déguisée** en chat.", "en": "For Halloween, Lou dressed up as a cat." },
+      { "fr": "Tu vas **te déguiser** pour le carnaval ?", "en": "Are you going to dress up for the carnival?" }
+    ], "note": "**se déguiser en** + noun, with no article." },
+    { "id": "masque", "fr": "masque", "pos": "noun", "g": "m", "ipa": "mask", "en": "mask", "def": "Un objet qu'on met sur le visage, pour se cacher ou pour une fête.", "def_en": "Something you put over your face, to hide or for a party.", "forms": ["masques"], "examples": [
+      { "fr": "Tom porte un **masque** noir.", "en": "Tom is wearing a black mask." },
+      { "fr": "Les enfants font des **masques** en papier.", "en": "The children are making paper masks." },
+      { "fr": "Avec ce **masque**, je ne te reconnais pas !", "en": "With that mask on, I don't recognise you!" }
+    ] },
+    { "id": "crepe", "fr": "crêpe", "pos": "noun", "g": "f", "ipa": "kʁɛp", "en": "crêpe (a thin French pancake)", "def": "Une galette très fine, faite avec de la farine, du lait et des œufs.", "def_en": "A very thin pancake made with flour, milk and eggs.", "forms": ["crêpes"], "examples": [
+      { "fr": "Tu veux une **crêpe** au chocolat ?", "en": "Would you like a chocolate crêpe?" },
+      { "fr": "Hugo fait des **crêpes** comme Mamie.", "en": "Hugo makes crêpes like Grandma." },
+      { "fr": "À la Chandeleur, on mange des **crêpes**.", "en": "At Candlemas, people eat crêpes." }
+    ] },
+    { "id": "buche", "fr": "bûche", "pos": "noun", "g": "f", "ipa": "byʃ", "en": "log; (la bûche de Noël) Yule log cake", "def": "Un gros morceau de bois pour le feu. À Noël, la bûche est aussi un gâteau.", "def_en": "A big piece of wood for the fire. At Christmas, a bûche is also a cake.", "forms": ["bûches"], "examples": [
+      { "fr": "Le dessert de Noël, c'est une **bûche** au chocolat.", "en": "The Christmas dessert is a chocolate Yule log." },
+      { "fr": "On met une **bûche** dans le feu.", "en": "We put a log on the fire." },
+      { "fr": "Mamie fait la **bûche** elle-même.", "en": "Grandma makes the Yule log herself." }
+    ] },
+    { "id": "muguet", "fr": "muguet", "pos": "noun", "g": "m", "ipa": "my.ɡɛ", "en": "lily of the valley", "def": "Une petite fleur blanche qu'on offre le premier mai, pour porter bonheur.", "def_en": "A small white flower given on 1 May, to bring luck.", "examples": [
+      { "fr": "Le premier mai, on offre du **muguet**.", "en": "On 1 May, people give lily of the valley." },
+      { "fr": "Le **muguet** sent très bon.", "en": "Lily of the valley smells lovely." },
+      { "fr": "J'ai acheté un petit bouquet de **muguet**.", "en": "I bought a little bunch of lily of the valley." }
+    ], "note": "**porter bonheur** = to bring luck." },
+    { "id": "cloche", "fr": "cloche", "pos": "noun", "g": "f", "ipa": "klɔʃ", "en": "bell", "def": "Un objet en métal qui sonne : il y a des cloches dans les églises.", "def_en": "A metal object that rings: there are bells in churches.", "forms": ["cloches"], "examples": [
+      { "fr": "Les **cloches** de l'église sonnent à midi.", "en": "The church bells ring at noon." },
+      { "fr": "À Pâques, les **cloches** apportent des œufs en chocolat.", "en": "At Easter, the bells bring chocolate eggs." },
+      { "fr": "Il y a une petite **cloche** sur la porte du magasin.", "en": "There's a little bell on the shop door." }
+    ] }
+  ],
+  "story": {
+    "title": "Mardi gras",
+    "en": "A few days after Valentine's Day: carnival in Lyon, and Tom discovers French traditions.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Quelques jours après la Saint-Valentin, c'est Mardi gras. À Lyon, on fête le carnaval, et tout le monde se déguise.", "en": "A few days after Valentine's Day, it's Mardi Gras. In Lyon, people celebrate the carnival, and everyone dresses up." },
+      { "sp": "", "fr": "Chez Léa et Sophie, on prépare les déguisements et les décorations. Léa se déguise en reine, avec la couronne de la galette des rois. Minou n'est pas content : c'est sa couronne !", "en": "At Léa and Sophie's, they're getting the costumes and decorations ready. Léa dresses up as a queen, with the crown from the galette des rois. Minou isn't happy: it's his crown!" },
+      { "sp": "", "fr": "Sophie fait des masques en papier pour tout le monde. Tom porte un masque noir, et Camille se déguise en chat.", "en": "Sophie makes paper masks for everyone. Tom wears a black mask, and Camille dresses up as a cat." },
+      { "sp": "Tom", "fr": "À Londres, il y a un grand carnaval, mais en été. Ici, c'est en hiver ?", "en": "In London, there's a big carnival, but in summer. Here it's in winter?" },
+      { "sp": "Léa", "fr": "Oui, le carnaval finit à Mardi gras. C'est une très vieille tradition. Et à Lyon, pour Mardi gras, on mange des bugnes. Regarde, Hugo en a apporté !", "en": "Yes, the carnival ends on Mardi Gras. It's a very old tradition. And in Lyon, for Mardi Gras, we eat bugnes. Look, Hugo's brought some!" },
+      { "sp": "Hugo", "fr": "Ce sont des petits gâteaux très légers, avec du sucre dessus. C'est la tradition !", "en": "They're little light pastries with sugar on top. It's tradition!" },
+      { "sp": "Tom", "fr": "En Angleterre, Mardi gras, c'est le jour des crêpes !", "en": "In England, Shrove Tuesday is Pancake Day!" },
+      { "sp": "Léa", "fr": "Nous, les crêpes, c'est à la Chandeleur, le deux février. Cette année, Hugo en a fait pour tout le monde !", "en": "For us, crêpes are for Candlemas, on 2 February. This year, Hugo made some for everyone!" },
+      { "sp": "Hugo", "fr": "Avec la recette de Mamie, bien sûr !", "en": "With Grandma's recipe, of course!" },
+      { "sp": "Tom", "fr": "Vous avez beaucoup de fêtes en France ! Il y a d'autres traditions ?", "en": "You have lots of holidays in France! Are there other traditions?" },
+      { "sp": "Sophie", "fr": "Plein ! À Noël, on décore le sapin avec des guirlandes, on met les cadeaux dessous, et on mange une bûche au réveillon.", "en": "Loads! At Christmas, we decorate the tree with tinsel, we put the presents under it, and we eat a Yule log at the Christmas Eve dinner." },
+      { "sp": "Léa", "fr": "En janvier, on envoie ses vœux et on souhaite une bonne année à tout le monde.", "en": "In January, you send your best wishes and wish everyone a happy New Year." },
+      { "sp": "Sophie", "fr": "Et à Pâques, les cloches apportent des œufs en chocolat aux enfants.", "en": "And at Easter, the bells bring chocolate eggs to the children." },
+      { "sp": "Tom", "fr": "Des cloches ? Chez nous, c'est un lapin !", "en": "Bells? Where I come from, it's a rabbit!" },
+      { "sp": "Léa", "fr": "Le premier mai, c'est un jour férié : on offre du muguet. Et il y a ta course, Hugo !", "en": "1 May is a public holiday: people give lily of the valley. And there's your race, Hugo!" },
+      { "sp": "Hugo", "fr": "Un jour férié ? Alors on ne travaille pas… et on ne court pas !", "en": "A public holiday? Then nobody works… and nobody runs!" },
+      { "sp": "Sophie", "fr": "Et le quatorze juillet, c'est la fête nationale, avec un défilé et un feu d'artifice.", "en": "And 14 July is the national holiday, with a parade and fireworks." },
+      { "sp": "", "fr": "Le soir, les amis vont au défilé du carnaval. Il y a de la musique, des masques, des déguisements de toutes les couleurs.", "en": "In the evening, the friends go to the carnival parade. There's music, masks, costumes of every colour." },
+      { "sp": "", "fr": "Tom mange sa cinquième bugne et sourit sous son masque.", "en": "Tom eats his fifth bugne and smiles under his mask." },
+      { "sp": "Tom", "fr": "J'adore vos traditions ! Mais si vous fêtez tout, quand est-ce que vous travaillez ?", "en": "I love your traditions! But if you celebrate everything, when do you work?" }
+    ]
+  }
+}

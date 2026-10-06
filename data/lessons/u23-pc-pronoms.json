@@ -1,0 +1,180 @@
+{
+  "id": "u23-pc-pronoms",
+  "type": "grammar",
+  "unit": 23,
+  "title": "Je l'ai vu",
+  "en": "Pronouns in the passé composé",
+  "intro": "In the passé composé, object pronouns go **before the auxiliary** (**avoir** or **être**): *Tu as vu le film ? — Oui, je **l'ai** vu.* And when **la** or **les** comes before **avoir**, the participle agrees with it: *La valise ? Je l'ai pris**e**.*",
+  "cases": [
+    { "id": "pcp-place", "label": "before the auxiliary", "rule": "The pronoun goes **before the auxiliary**, never before the participle: *je **l'ai** vu, tu **m'as** appelé, il **lui a** parlé, je **les ai** invités*. **le** and **la** become **l'** before *ai, as, a, avons, avez, ont*." },
+    { "id": "pcp-neg", "label": "in the negative", "rule": "**ne** + pronoun + auxiliary + **pas** + participle: *je **ne l'ai pas** vu, il **ne m'a pas** appelé, je **ne lui ai pas** répondu*." },
+    { "id": "pcp-accord", "label": "agreement with la, les", "rule": "When a **direct object** pronoun comes before **avoir**, the participle agrees with it, like an adjective: *la tarte → je l'ai fait**e***, *les gâteaux → je les ai fait**s***, *les crêpes → je les ai fait**es***. The same goes for **me, te, nous, vous**: *Sophie, je t'ai attendu**e** !*" },
+    { "id": "pcp-coi", "label": "no agreement with lui, leur", "rule": "**lui** and **leur** replace **à** + a person: they are **indirect** objects, and the participle **never** agrees with them: *Sophie ? Je **lui** ai parlé* (not *parlée*). *Mes parents ? Je **leur** ai téléphoné.*" },
+    { "id": "pcp-en-y", "label": "en and y", "rule": "**en** and **y** also go before the auxiliary: *Des crêpes ? J'**en** ai mangé trois. Marseille ? J'**y** suis allé.* The participle **doesn't agree** with **en**: *j'en ai mangé*, not *mangées*." },
+    { "id": "pcp-que", "label": "agreement after que", "rule": "**que** also puts the object **before** the verb, so the participle agrees with the noun it stands for: *la robe **que** j'ai achet**ée**, les photos **que** tu as pris**es***." }
+  ],
+  "sections": [
+    {
+      "title": "1. Before the auxiliary",
+      "text": ["In the passé composé, the verb has two parts: the auxiliary (**avoir** or **être**) and the participle. The pronoun goes **before the auxiliary**, the part that is conjugated."],
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai vu le film.", "Je l'ai vu."],
+          ["Tu as appelé Hugo ?", "Tu l'as appelé ?"],
+          ["Il a parlé à Sophie.", "Il lui a parlé."],
+          ["Nous avons invité nos amis.", "Nous les avons invités."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le film ? {Je l'ai vu|pcp-place} hier.", "en": "The film? I saw it yesterday." },
+        { "fr": "Hugo ? {Je l'ai appelé|pcp-place} ce matin.", "en": "Hugo? I called him this morning." }
+      ],
+      "tip": "Never between the two parts: say *je l'ai vu*, not *j'ai le vu*. Before *ai, as, a…*, **le** and **la** become **l'**."
+    },
+    {
+      "title": "2. In the negative",
+      "table": {
+        "head": ["Positive", "Negative"], "frCols": [0, 1],
+        "rows": [
+          ["Je l'ai vu.", "Je ne l'ai pas vu."],
+          ["Tu l'as fini ?", "Tu ne l'as pas fini ?"],
+          ["Il m'a appelé.", "Il ne m'a pas appelé."],
+          ["Je lui ai répondu.", "Je ne lui ai pas répondu."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ton portable ? {Je ne l'ai pas vu|pcp-neg}.", "en": "Your phone? I haven't seen it." },
+        { "fr": "Hugo {ne m'a pas appelé|pcp-neg} hier soir.", "en": "Hugo didn't call me last night." }
+      ],
+      "tip": "The pronoun stays glued to the auxiliary: **ne** + pronoun + auxiliary + **pas** + participle."
+    },
+    {
+      "title": "3. Agreement with la, les",
+      "text": ["When **la, l'** or **les** stands for a **direct object** and comes before **avoir**, the participle agrees with it: **-e** for a feminine, **-s** for a plural, **-es** for both."],
+      "table": {
+        "head": ["French", "Agreement"], "frCols": [0],
+        "rows": [
+          ["Le gâteau ? Je l'ai fait.", "masculine: no change"],
+          ["La tarte ? Je l'ai faite.", "feminine: + e"],
+          ["Les gâteaux ? Je les ai faits.", "masculine plural: + s"],
+          ["Les crêpes ? Je les ai faites.", "feminine plural: + es"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ta valise ? {Je l'ai prise|pcp-accord} !", "en": "Your suitcase? I've got it!" },
+        { "fr": "Tes lunettes ? {Je les ai trouvées|pcp-accord} sous le canapé.", "en": "Your glasses? I found them under the sofa." },
+        { "fr": "Sophie, {je t'ai attendue|pcp-accord} une heure !", "en": "Sophie, I waited an hour for you!" }
+      ],
+      "tip": "You can **hear** the agreement when the participle ends in a consonant: *pris → prise* /pʁiz/, *fait → faite* /fɛt/, *mis → mise*. With **-é**, you only see it: *trouvées* sounds like *trouvé*."
+    },
+    {
+      "title": "4. No agreement with lui, leur",
+      "text": ["**lui** and **leur** replace **à** + a person: they are **indirect** objects. The participle **never** agrees with them, even for a woman or a group."],
+      "table": {
+        "head": ["With the noun", "With the pronoun"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai téléphoné à Mamie.", "Je lui ai téléphoné."],
+          ["Tu as écrit à tes parents ?", "Tu leur as écrit ?"],
+          ["Il a répondu à Sophie.", "Il lui a répondu."],
+          ["Nous avons parlé aux enfants.", "Nous leur avons parlé."]
+        ]
+      },
+      "examples": [
+        { "fr": "Mamie ? {Je lui ai téléphoné|pcp-coi} hier.", "en": "Grandma? I phoned her yesterday." },
+        { "fr": "Tes parents ? {Tu leur as écrit|pcp-coi} ?", "en": "Your parents? Have you written to them?" }
+      ],
+      "tip": "Compare: *Sophie ? Je l'ai vue* (voir quelqu'un: direct, so it agrees) but *Sophie ? Je lui ai parlé* (parler **à** quelqu'un: indirect, no agreement)."
+    },
+    {
+      "title": "5. en and y",
+      "table": {
+        "head": ["Question", "Answer"], "frCols": [0, 1],
+        "rows": [
+          ["Tu as acheté du pain ?", "Oui, j'en ai acheté."],
+          ["Tu as mangé des crêpes ?", "Oui, j'en ai mangé trois."],
+          ["Tu n'as pas pris de photos ?", "Non, je n'en ai pas pris."],
+          ["Tu es allé à Marseille ?", "Oui, j'y suis allé."]
+        ]
+      },
+      "examples": [
+        { "fr": "Des croissants ? {J'en ai acheté|pcp-en-y} six.", "en": "Croissants? I bought six." },
+        { "fr": "Le musée ? {Nous y sommes allés|pcp-en-y} dimanche.", "en": "The museum? We went there on Sunday." }
+      ],
+      "tip": "No agreement with **en**: *des crêpes → j'en ai mangé*, never *mangées*."
+    },
+    {
+      "title": "6. Agreement after que",
+      "text": ["**que** also puts the object **before** the verb, so the participle agrees with the noun that **que** stands for."],
+      "table": {
+        "head": ["Sentence", "With que"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai acheté une robe.", "C'est la robe que j'ai achetée."],
+          ["Tu as pris des photos.", "Ce sont les photos que tu as prises."],
+          ["Il a écrit une lettre.", "C'est la lettre qu'il a écrite."],
+          ["Nous avons vu des films.", "Ce sont les films que nous avons vus."]
+        ]
+      },
+      "examples": [
+        { "fr": "{La lettre que Jacques a écrite|pcp-que} est très drôle.", "en": "The letter Jacques wrote is very funny." },
+        { "fr": "Montre-moi {les photos que tu as prises|pcp-que} !", "en": "Show me the photos you took!" }
+      ],
+      "tip": "The participle agrees only when the object comes **before** it. In *j'ai acheté une robe*, the object comes after: no agreement."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai le vu.", "right": "Je l'ai vu.", "why": "The pronoun goes before **avoir**, not before the participle." },
+    { "wrong": "Je ne l'ai vu pas.", "right": "Je ne l'ai pas vu.", "why": "**pas** comes right after the auxiliary." },
+    { "wrong": "La valise ? Je l'ai pris.", "right": "La valise ? Je l'ai prise.", "why": "**l'** stands for *la valise*: the participle agrees (+ e)." },
+    { "wrong": "Sophie ? Je lui ai parlée.", "right": "Sophie ? Je lui ai parlé.", "why": "No agreement with **lui** or **leur**." },
+    { "wrong": "Des crêpes ? J'en ai mangées.", "right": "Des crêpes ? J'en ai mangé.", "why": "No agreement with **en**." },
+    { "wrong": "Les photos que j'ai pris.", "right": "Les photos que j'ai prises.", "why": "After **que**, the participle agrees with the noun before it." }
+  ],
+  "story": {
+    "title": "Tu l'as pris ?",
+    "en": "A Saturday morning at Part-Dieu station: before the train to Marseille, Léa checks that Hugo hasn't forgotten anything.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin février, un samedi matin, à la gare de la Part-Dieu. Léa et Hugo prennent le train pour Marseille.", "en": "At the end of February, on a Saturday morning, at Part-Dieu station. Léa and Hugo are taking the train to Marseille." },
+      { "sp": "", "fr": "Le train part dans dix minutes. Léa vérifie tout, comme toujours.", "en": "The train leaves in ten minutes. Léa checks everything, as always." },
+      { "sp": "Léa", "fr": "Les billets ? {Tu les as pris|pcp-place} ?", "en": "The tickets? Have you got them?" },
+      { "sp": "Hugo", "fr": "Oui, {je les ai mis|pcp-place} dans mon sac.", "en": "Yes, I put them in my bag." },
+      { "sp": "Léa", "fr": "Et ta carte d'identité ? {Tu l'as prise|pcp-accord} ?", "en": "And your ID card? Have you got it?" },
+      { "sp": "Hugo", "fr": "Ma carte ? Euh… {je ne l'ai pas prise|pcp-neg}… Ah si ! {Je l'ai mise|pcp-accord} dans mon portefeuille.", "en": "My card? Er… I haven't got it… Oh yes I have! I put it in my wallet." },
+      { "sp": "Léa", "fr": "Et ton portefeuille ? {Tu ne l'as pas perdu|pcp-neg}, cette fois ?", "en": "And your wallet? You haven't lost it this time?" },
+      { "sp": "Hugo", "fr": "Non, regarde : {je l'ai gardé|pcp-place} dans ma poche !", "en": "No, look: I've kept it in my pocket!" },
+      { "sp": "Léa", "fr": "Tu as appelé Mamie ?", "en": "Have you called Grandma?" },
+      { "sp": "Hugo", "fr": "Oui, {je lui ai téléphoné|pcp-coi} hier soir. Papi et elle nous attendent à la gare.", "en": "Yes, I phoned her last night. She and Grandpa are meeting us at the station." },
+      { "sp": "Léa", "fr": "Et les fleurs pour Mamie ? {Tu les as achetées|pcp-accord} ?", "en": "And the flowers for Grandma? Have you bought them?" },
+      { "sp": "Hugo", "fr": "Euh… non, {je ne les ai pas achetées|pcp-neg}. Mais j'ai des bugnes : {j'en ai acheté|pcp-en-y} une grande boîte !", "en": "Er… no, I haven't bought them. But I've got bugnes: I bought a big box!" },
+      { "sp": "Léa", "fr": "Hugo, il y a du sucre sur ton pull. {Tu en as mangé|pcp-en-y} combien ?", "en": "Hugo, there's sugar on your jumper. How many have you eaten?" },
+      { "sp": "Hugo", "fr": "Seulement trois… ou six.", "en": "Only three… or six." },
+      { "sp": "Léa", "fr": "Et tes lunettes ? {Tu les as oubliées|pcp-accord} ?", "en": "And your glasses? Have you forgotten them?" },
+      { "sp": "Hugo", "fr": "Non… Mais où {est-ce que je les ai mises|pcp-accord} ?", "en": "No… But where did I put them?" },
+      { "sp": "Léa", "fr": "Sur ta tête, comme toujours !", "en": "On your head, as always!" },
+      { "sp": "", "fr": "Dans le train, Léa montre des photos à Hugo.", "en": "On the train, Léa shows Hugo some photos." },
+      { "sp": "Léa", "fr": "Regarde {les photos que j'ai prises|pcp-que} en août : Lou et toi, sur la plage de Marseille !", "en": "Look at the photos I took in August: Lou and you, on the beach in Marseille!" },
+      { "sp": "Hugo", "fr": "Ah, Marseille… {On y est allés|pcp-en-y} tous les trois. Mamie nous a fait des crêpes tous les jours !", "en": "Ah, Marseille… The three of us went there. Grandma made us crêpes every day!" },
+      { "sp": "", "fr": "À Marseille, Jacques et Louise les attendent sur le quai.", "en": "In Marseille, Jacques and Louise are waiting for them on the platform." },
+      { "sp": "Louise", "fr": "Bonjour, mes chéris ! Hugo, {tu m'as apporté|pcp-place} des bugnes ?", "en": "Hello, my darlings! Hugo, have you brought me some bugnes?" },
+      { "sp": "Hugo", "fr": "Oui, Mamie ! {Je les ai choisies|pcp-accord} pour toi.", "en": "Yes, Grandma! I chose them for you." },
+      { "sp": "", "fr": "Louise ouvre la boîte : il reste trois bugnes. Léa lève les yeux au ciel.", "en": "Louise opens the box: there are three bugnes left. Léa rolls her eyes." }
+    ]
+  },
+  "quiz": [
+    { "case": "pcp-place", "type": "mc", "q": "Le film ? Je ___ vu hier.", "en": "The film? I saw it yesterday.", "options": ["l'ai", "ai le", "ai l'"], "answer": "l'ai" },
+    { "case": "pcp-place", "type": "mc", "lang": "en", "q": "“I called him.” Choose the right sentence:", "options": ["Je l'ai appelé.", "J'ai l'appelé.", "J'ai appelé le."], "answer": "Je l'ai appelé.", "say": "Je l'ai appelé." },
+    { "case": "pcp-place", "type": "type", "q": "Hugo ? Je ___ai vu ce matin.", "en": "Hugo? I saw him this morning.", "answer": "l'" },
+    { "case": "pcp-neg", "type": "mc", "q": "Ton portable ? Je ___ vu.", "en": "Your phone? I haven't seen it.", "options": ["ne l'ai pas", "l'ai ne pas", "ne pas l'ai"], "answer": "ne l'ai pas" },
+    { "case": "pcp-neg", "type": "mc", "lang": "en", "q": "“He didn't call me.” Choose the right sentence:", "options": ["Il ne m'a pas appelé.", "Il ne m'a appelé pas.", "Il m'a ne pas appelé."], "answer": "Il ne m'a pas appelé.", "say": "Il ne m'a pas appelé." },
+    { "case": "pcp-accord", "type": "mc", "q": "La valise ? Je l'ai ___.", "en": "The suitcase? I've got it.", "options": ["prise", "pris", "prises"], "answer": "prise" },
+    { "case": "pcp-accord", "type": "mc", "q": "Les clés ? Je les ai ___.", "en": "The keys? I've found them.", "options": ["trouvées", "trouvé", "trouvée"], "answer": "trouvées" },
+    { "case": "pcp-accord", "type": "type", "q": "La tarte ? Je l'ai ___.", "en": "The tart? I made it.", "answer": "faite" },
+    { "case": "pcp-coi", "type": "mc", "q": "Sophie ? Je lui ai ___.", "en": "Sophie? I've spoken to her.", "options": ["parlé", "parlée", "parlés"], "answer": "parlé" },
+    { "case": "pcp-coi", "type": "mc", "q": "Tes parents ? Tu ___ as écrit ?", "en": "Your parents? Have you written to them?", "options": ["leur", "les", "lui"], "answer": "leur" },
+    { "case": "pcp-en-y", "type": "mc", "q": "Des crêpes ? J'en ai ___ trois.", "en": "Crêpes? I ate three.", "options": ["mangé", "mangées", "mangés"], "answer": "mangé" },
+    { "case": "pcp-en-y", "type": "mc", "q": "Marseille ? J'___ suis allé en août.", "en": "Marseille? I went there in August.", "options": ["y", "en", "l'"], "answer": "y" },
+    { "case": "pcp-que", "type": "mc", "q": "Voici les photos que j'ai ___.", "en": "Here are the photos I took.", "options": ["prises", "pris", "prise"], "answer": "prises" },
+    { "case": "pcp-que", "type": "mc", "lang": "en", "q": "Which one is correct?", "options": ["la lettre qu'il a écrite", "la lettre qu'il a écrit"], "answer": "la lettre qu'il a écrite", "say": "la lettre qu'il a écrite" }
+  ]
+}

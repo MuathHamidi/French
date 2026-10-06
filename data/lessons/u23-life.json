@@ -1,0 +1,169 @@
+{
+  "id": "u23-life",
+  "type": "vocab",
+  "unit": 23,
+  "title": "Les étapes de la vie",
+  "en": "The stages of life",
+  "intro": "25 words for a whole life, from birth to old age: being born (**naître**), growing up (**adolescent, adulte, majeur**), getting engaged and married (**se fiancer, se marier**), getting old (**vieillir**) and dying (**mourir**). Plus the family words that come with it: twins, grandchildren, nephews and nieces.",
+  "words": [
+    { "id": "vie", "fr": "vie", "pos": "noun", "g": "f", "ipa": "vi", "en": "life", "def": "Le temps entre le jour où on naît et le jour où on meurt. Aussi : la façon de vivre.", "def_en": "The time between the day you're born and the day you die. Also: the way you live.", "forms": ["vies"], "examples": [
+      { "fr": "C'est la **vie** !", "en": "That's life!" },
+      { "fr": "Jacques et Louise ont passé presque toute leur **vie** ensemble.", "en": "Jacques and Louise have spent almost their whole lives together." },
+      { "fr": "La **vie** à Paris est chère.", "en": "Life in Paris is expensive." }
+    ], "note": "**C'est la vie !** = That's life! **gagner sa vie** = to earn a living." },
+    { "id": "naitre", "fr": "naître", "pos": "verb", "ipa": "nɛtʁ", "en": "to be born", "def": "Arriver dans la vie, venir au monde.", "def_en": "To come into life, into the world.", "forms": ["nais", "naît", "naissons", "naissez", "naissent", "né", "née", "nés", "nées", "naissais", "naissait", "naissions", "naissiez", "naissaient", "naîtrai", "naîtras", "naîtra", "naîtrons", "naîtrez", "naîtront", "naîtrais", "naîtrait", "naîtrions", "naîtriez", "naîtraient"], "examples": [
+      { "fr": "Hugo est **né** à Paris.", "en": "Hugo was born in Paris." },
+      { "fr": "Les bébés vont **naître** cet été.", "en": "The babies will be born this summer." },
+      { "fr": "Lou est **née** en septembre.", "en": "Lou was born in September." }
+    ], "note": "In the past, always with **être**: *je suis né(e)* = I was born. **la naissance** = birth." },
+    { "id": "enceinte", "fr": "enceinte", "pos": "adj", "ipa": "ɑ̃.sɛ̃t", "en": "pregnant", "def": "Une femme enceinte attend un bébé.", "def_en": "A pregnant woman is expecting a baby.", "forms": ["enceintes"], "examples": [
+      { "fr": "Chloé est **enceinte** !", "en": "Chloé is pregnant!" },
+      { "fr": "Elle est **enceinte** de trois mois.", "en": "She's three months pregnant." },
+      { "fr": "Dans le bus, il y a des places pour les femmes **enceintes**.", "en": "On the bus, there are seats for pregnant women." }
+    ], "note": "Only feminine: *elle est enceinte de trois mois* = she's three months pregnant." },
+    { "id": "jumeau", "fr": "jumeau", "pos": "noun", "g": "m", "ipa": "ʒy.mo", "display": "le jumeau, la jumelle", "en": "twin", "def": "Deux enfants nés le même jour, de la même mère, sont des jumeaux.", "def_en": "Two children born on the same day to the same mother are twins.", "forms": ["jumelle", "jumeaux", "jumelles"], "examples": [
+      { "fr": "Chloé attend des **jumeaux** !", "en": "Chloé is expecting twins!" },
+      { "fr": "Mon frère **jumeau** est né cinq minutes avant moi.", "en": "My twin brother was born five minutes before me." },
+      { "fr": "Les deux **jumelles** se ressemblent beaucoup.", "en": "The twin sisters look very alike." }
+    ] },
+    { "id": "aine", "fr": "aîné", "pos": "adj", "ipa": "ɛ.ne", "display": "aîné(e)", "en": "eldest, older (child)", "def": "Le plus âgé des enfants d'une famille.", "def_en": "The oldest of the children in a family.", "forms": ["aînée", "aînés", "aînées"], "examples": [
+      { "fr": "Hugo est l'**aîné** : il a deux petites sœurs.", "en": "Hugo is the eldest: he has two little sisters." },
+      { "fr": "Tom a un frère **aîné** et deux petites sœurs.", "en": "Tom has an older brother and two little sisters." },
+      { "fr": "Inès est l'**aînée** : Carla a deux ans de moins.", "en": "Inès is the elder: Carla is two years younger." }
+    ] },
+    { "id": "cadet", "fr": "cadet", "pos": "adj", "ipa": "ka.dɛ", "display": "cadet(te)", "en": "youngest, younger (child)", "def": "Le plus jeune des enfants d'une famille.", "def_en": "The youngest of the children in a family.", "forms": ["cadette", "cadets", "cadettes"], "examples": [
+      { "fr": "Lou est la **cadette** de la famille.", "en": "Lou is the youngest in the family." },
+      { "fr": "Carla est la sœur **cadette** d'Inès.", "en": "Carla is Inès's younger sister." },
+      { "fr": "Mon frère **cadet** a quinze ans.", "en": "My younger brother is fifteen." }
+    ], "note": "**l'aîné(e)** = the eldest, **le cadet, la cadette** = the youngest (or the younger of two)." },
+    { "id": "adolescent", "fr": "adolescent", "pos": "noun", "g": "m", "ipa": "a.dɔ.le.sɑ̃", "display": "l'adolescent(e)", "en": "teenager, adolescent", "def": "Une personne entre l'enfance et l'âge adulte, de douze à dix-huit ans environ.", "def_en": "A person between childhood and adulthood, from about twelve to eighteen.", "forms": ["adolescente", "adolescents", "adolescentes", "ado", "ados"], "examples": [
+      { "fr": "Les sœurs de Tom sont des **adolescentes**.", "en": "Tom's sisters are teenagers." },
+      { "fr": "Quand il était **adolescent**, Jacques écrivait des lettres d'amour à Louise.", "en": "When he was a teenager, Jacques wrote love letters to Louise." },
+      { "fr": "Les **ados** passent beaucoup de temps sur leur portable.", "en": "Teenagers spend a lot of time on their phones." }
+    ], "note": "Informal: **un ado, une ado**. **l'adolescence** = the teenage years." },
+    { "id": "jeunesse", "fr": "jeunesse", "pos": "noun", "g": "f", "ipa": "ʒœ.nɛs", "en": "youth", "def": "Les années de la vie quand on est jeune.", "def_en": "The years of your life when you're young.", "examples": [
+      { "fr": "Dans sa **jeunesse**, Paul habitait à Montmartre.", "en": "In his youth, Paul lived in Montmartre." },
+      { "fr": "Louise aime parler de sa **jeunesse**.", "en": "Louise likes talking about her youth." },
+      { "fr": "La **jeunesse** passe vite !", "en": "Youth goes by fast!" }
+    ] },
+    { "id": "adulte", "fr": "adulte", "pos": "noun", "g": "m", "both": true, "ipa": "a.dylt", "en": "adult, grown-up", "def": "Une personne qui n'est plus un enfant, qui a fini de grandir.", "def_en": "A person who is no longer a child, who has finished growing up.", "forms": ["adultes"], "examples": [
+      { "fr": "Le billet coûte dix euros pour les **adultes** et cinq euros pour les enfants.", "en": "The ticket costs ten euros for adults and five euros for children." },
+      { "fr": "Hugo est un **adulte**, mais il oublie tout comme un enfant !", "en": "Hugo is a grown-up, but he forgets everything like a child!" },
+      { "fr": "Lou parle comme une **adulte**.", "en": "Lou talks like a grown-up." }
+    ], "note": "Also an adjective: *l'âge adulte* = adulthood." },
+    { "id": "vieillir", "fr": "vieillir", "pos": "verb", "ipa": "vje.jiʁ", "en": "to get old, to age", "def": "Devenir plus vieux, avec le temps.", "def_en": "To become older, with time.", "forms": ["vieillis", "vieillit", "vieillissons", "vieillissez", "vieillissent", "vieilli", "vieillissais", "vieillissait", "vieillissions", "vieillissiez", "vieillissaient", "vieillirai", "vieilliras", "vieillira", "vieillirons", "vieillirez", "vieilliront", "vieillirais", "vieillirait", "vieillirions", "vieilliriez", "vieilliraient"], "examples": [
+      { "fr": "On **vieillit**, mais on reste jeune dans sa tête !", "en": "We get older, but we stay young at heart!" },
+      { "fr": "Mon grand-père a beaucoup **vieilli**.", "en": "My grandfather has aged a lot." },
+      { "fr": "Le bon vin **vieillit** bien.", "en": "Good wine ages well." }
+    ], "note": "Like **finir**: *je vieillis, nous vieillissons*." },
+    { "id": "vieillesse", "fr": "vieillesse", "pos": "noun", "g": "f", "ipa": "vjɛ.jɛs", "en": "old age", "def": "Les dernières années de la vie, quand on est vieux.", "def_en": "The last years of your life, when you're old.", "examples": [
+      { "fr": "Louise n'a pas peur de la **vieillesse**.", "en": "Louise isn't afraid of old age." },
+      { "fr": "La **vieillesse** n'est pas une maladie.", "en": "Old age isn't an illness." },
+      { "fr": "Jacques et Louise passent leur **vieillesse** au bord de la mer.", "en": "Jacques and Louise are spending their old age by the sea." }
+    ] },
+    { "id": "se-fiancer", "fr": "se fiancer", "pos": "verb", "ipa": "sə fjɑ̃.se", "en": "to get engaged", "def": "Promettre de se marier avec quelqu'un.", "def_en": "To promise to marry someone.", "forms": ["me fiance", "te fiances", "se fiance", "nous nous fiançons", "vous vous fiancez", "se fiancent", "me fiancer", "te fiancer", "nous fiancer", "vous fiancer", "me suis fiancé", "me suis fiancée", "t'es fiancé", "t'es fiancée", "s'est fiancé", "s'est fiancée", "nous nous sommes fiancés", "vous vous êtes fiancés", "se sont fiancés", "se sont fiancées", "se fiançait", "se fiançaient", "se fiancera", "se fianceront", "se fiancerait", "se fianceraient"], "examples": [
+      { "fr": "Jules et Manon **se sont fiancés** à la Saint-Valentin.", "en": "Jules and Manon got engaged on Valentine's Day." },
+      { "fr": "Ils vont **se fiancer** cet été.", "en": "They're going to get engaged this summer." },
+      { "fr": "Tu **t'es fiancé** ? Félicitations !", "en": "You've got engaged? Congratulations!" }
+    ] },
+    { "id": "fiance", "fr": "fiancé", "pos": "noun", "g": "m", "ipa": "fjɑ̃.se", "display": "le fiancé, la fiancée", "en": "fiancé, fiancée; (être fiancés) to be engaged", "def": "La personne avec qui on va se marier.", "def_en": "The person you're going to marry.", "forms": ["fiancée", "fiancés", "fiancées"], "examples": [
+      { "fr": "Je vous présente ma **fiancée**, Manon.", "en": "Let me introduce my fiancée, Manon." },
+      { "fr": "Ils sont **fiancés** depuis un an.", "en": "They've been engaged for a year." },
+      { "fr": "Le **fiancé** arrive avec des fleurs.", "en": "The fiancé arrives with flowers." }
+    ] },
+    { "id": "se-marier", "fr": "se marier", "pos": "verb", "ipa": "sə ma.ʁje", "en": "to get married", "def": "Devenir le mari ou la femme de quelqu'un.", "def_en": "To become someone's husband or wife.", "forms": ["me marie", "te maries", "se marie", "nous nous marions", "vous vous mariez", "se marient", "me marier", "te marier", "nous marier", "vous marier", "me suis marié", "me suis mariée", "t'es marié", "t'es mariée", "s'est marié", "s'est mariée", "nous nous sommes mariés", "vous vous êtes mariés", "se sont mariés", "se sont mariées", "me mariais", "se mariait", "se mariaient", "me marierai", "te marieras", "se mariera", "nous nous marierons", "vous vous marierez", "se marieront", "me marierais", "se marierait", "se marieraient"], "examples": [
+      { "fr": "Jules et Manon vont **se marier** en septembre.", "en": "Jules and Manon are going to get married in September." },
+      { "fr": "Tu veux **te marier** avec moi ?", "en": "Will you marry me?" },
+      { "fr": "Mes parents **se sont mariés** à Paris.", "en": "My parents got married in Paris." }
+    ], "note": "**se marier avec** quelqu'un = to marry someone. **marié(e)** = married." },
+    { "id": "mariage", "fr": "mariage", "pos": "noun", "g": "m", "ipa": "ma.ʁjaʒ", "en": "wedding; marriage", "def": "La fête quand deux personnes se marient. Aussi : leur vie ensemble après.", "def_en": "The celebration when two people get married. Also: their life together afterwards.", "forms": ["mariages"], "examples": [
+      { "fr": "Le **mariage** de Jules et Manon est en septembre.", "en": "Jules and Manon's wedding is in September." },
+      { "fr": "Tout le monde [danse|danser] au **mariage**.", "en": "Everyone dances at the wedding." },
+      { "fr": "Ils fêtent leurs vingt-cinq ans de **mariage**.", "en": "They're celebrating twenty-five years of marriage." }
+    ], "note": "**un anniversaire de mariage** = a wedding anniversary; **les noces d'or** = a golden wedding (50 years)." },
+    { "id": "divorcer", "fr": "divorcer", "pos": "verb", "ipa": "di.vɔʁ.se", "en": "to get divorced, to divorce", "def": "Mettre fin à un mariage.", "def_en": "To end a marriage.", "forms": ["divorce", "divorces", "divorçons", "divorcez", "divorcent", "divorcé", "divorcée", "divorcés", "divorcées", "divorçais", "divorçait", "divorcions", "divorciez", "divorçaient", "divorcerai", "divorceras", "divorcera", "divorcerons", "divorcerez", "divorceront", "divorcerais", "divorcerait", "divorcerions", "divorceriez", "divorceraient"], "examples": [
+      { "fr": "Ses parents ont **divorcé** quand il avait dix ans.", "en": "His parents got divorced when he was ten." },
+      { "fr": "Ils sont **divorcés** depuis longtemps.", "en": "They've been divorced for a long time." },
+      { "fr": "Beaucoup de couples **divorcent** aujourd'hui.", "en": "Lots of couples get divorced these days." }
+    ], "note": "**divorcé(e)** = divorced; **le divorce** = divorce." },
+    { "id": "veuf", "fr": "veuf", "pos": "adj", "ipa": "vœf", "display": "veuf, veuve", "en": "widowed; widower, widow", "def": "Quand le mari ou la femme est mort, l'autre est veuf ou veuve.", "def_en": "When a husband or wife has died, the other one is widowed.", "forms": ["veuve", "veufs", "veuves"], "examples": [
+      { "fr": "Ma voisine est **veuve** depuis dix ans.", "en": "My neighbour has been a widow for ten years." },
+      { "fr": "Le vieux monsieur est **veuf** et il vit seul.", "en": "The old man is a widower and lives alone." },
+      { "fr": "Elle est devenue **veuve** très jeune.", "en": "She was widowed very young." }
+    ] },
+    { "id": "retraite-e", "fr": "retraité", "pos": "adj", "ipa": "ʁə.tʁɛ.te", "display": "retraité(e)", "en": "retired; pensioner", "def": "Qui ne travaille plus, qui est à la retraite.", "def_en": "No longer working; who has retired.", "forms": ["retraitée", "retraités", "retraitées"], "examples": [
+      { "fr": "Bernard est **retraité** depuis juin.", "en": "Bernard has been retired since June." },
+      { "fr": "Jacques et Louise sont **retraités**.", "en": "Jacques and Louise are retired." },
+      { "fr": "Les **retraités** ont plus de temps libre.", "en": "Pensioners have more free time." }
+    ], "note": "**la retraite** = retirement; **un retraité, une retraitée** = a pensioner." },
+    { "id": "mourir", "fr": "mourir", "pos": "verb", "ipa": "mu.ʁiʁ", "en": "to die", "def": "Arrêter de vivre.", "def_en": "To stop living.", "forms": ["meurs", "meurt", "mourons", "mourez", "meurent", "mort", "morte", "morts", "mortes", "mourais", "mourait", "mourions", "mouriez", "mouraient", "mourrai", "mourras", "mourra", "mourrons", "mourrez", "mourront", "mourrais", "mourrait", "mourrions", "mourriez", "mourraient"], "examples": [
+      { "fr": "Les fleurs **meurent** sans eau.", "en": "Flowers die without water." },
+      { "fr": "Ce vieil arbre est **mort**.", "en": "This old tree is dead." },
+      { "fr": "Je **meurs** de faim !", "en": "I'm starving!" }
+    ], "note": "In the past, with **être**: *il est mort, elle est morte*. **mort** also means *dead*. **mourir de faim** = to be starving." },
+    { "id": "majeur", "fr": "majeur", "pos": "adj", "ipa": "ma.ʒœʁ", "display": "majeur(e)", "en": "of age (18 or over)", "def": "Qui a dix-huit ans ou plus : un adulte devant la loi.", "def_en": "Eighteen or older: an adult in the eyes of the law.", "forms": ["majeure", "majeurs", "majeures"], "examples": [
+      { "fr": "En France, on est **majeur** à dix-huit ans.", "en": "In France, you come of age at eighteen." },
+      { "fr": "Il n'est pas encore **majeur** : il a seize ans.", "en": "He isn't of age yet: he's sixteen." },
+      { "fr": "Tu es **majeure**, tu peux décider seule.", "en": "You're eighteen now, you can decide for yourself." }
+    ], "note": "The opposite: **mineur(e)** = under 18." },
+    { "id": "enterrement", "fr": "enterrement", "pos": "noun", "g": "m", "ipa": "ɑ̃.tɛʁ.mɑ̃", "en": "funeral, burial", "def": "Le moment où la famille et les amis disent au revoir à une personne morte.", "def_en": "When family and friends say goodbye to a person who has died.", "forms": ["enterrements"], "examples": [
+      { "fr": "Toute la famille est venue à l'**enterrement**.", "en": "The whole family came to the funeral." },
+      { "fr": "On s'habille souvent en noir pour un **enterrement**.", "en": "People often wear black for a funeral." },
+      { "fr": "Il y a un **enterrement** à l'église ce matin.", "en": "There's a funeral at the church this morning." }
+    ] },
+    { "id": "generation", "fr": "génération", "pos": "noun", "g": "f", "ipa": "ʒe.ne.ʁa.sjɔ̃", "en": "generation", "def": "Les personnes qui ont à peu près le même âge : les grands-parents, les parents et les enfants sont trois générations.", "def_en": "People of about the same age: grandparents, parents and children are three generations.", "forms": ["générations"], "examples": [
+      { "fr": "Il y a quatre **générations** autour de la table !", "en": "There are four generations around the table!" },
+      { "fr": "Les jeunes de ma **génération** adorent leur portable.", "en": "Young people of my generation love their phones." },
+      { "fr": "La recette passe de **génération** en génération.", "en": "The recipe is handed down from generation to generation." }
+    ] },
+    { "id": "petit-enfant", "fr": "petit-enfant", "pos": "noun", "g": "m", "manual": true, "ipa": "pə.ti.tɑ̃.fɑ̃", "display": "le petit-enfant", "en": "grandchild", "def": "L'enfant de son fils ou de sa fille.", "def_en": "Your son's or daughter's child.", "forms": ["petits-enfants"], "examples": [
+      { "fr": "Louise adore ses **[petits-enfants|petit-enfant]**.", "en": "Louise adores her grandchildren." },
+      { "fr": "Pierre va avoir deux **[petits-enfants|petit-enfant]** cet été !", "en": "Pierre is going to have two grandchildren this summer!" },
+      { "fr": "Jacques montre des photos de ses **[petits-enfants|petit-enfant]** à tout le monde.", "en": "Jacques shows photos of his grandchildren to everyone." }
+    ], "note": "Mostly plural: **les petits-enfants**. **le petit-fils** = grandson, **la petite-fille** = granddaughter (with a hyphen: *une petite fille* is a little girl)." },
+    { "id": "neveu", "fr": "neveu", "pos": "noun", "g": "m", "ipa": "nə.vø", "en": "nephew", "def": "Le fils de son frère ou de sa sœur.", "def_en": "Your brother's or sister's son.", "forms": ["neveux"], "examples": [
+      { "fr": "Tom envoie un pull à son **neveu**.", "en": "Tom is sending a jumper to his nephew." },
+      { "fr": "Jules va avoir un **neveu** et une nièce.", "en": "Jules is going to have a nephew and a niece." },
+      { "fr": "Mes **neveux** viennent chez moi pendant les vacances.", "en": "My nephews come to stay with me in the holidays." }
+    ], "note": "Plural: **des neveux**." },
+    { "id": "niece", "fr": "nièce", "pos": "noun", "g": "f", "ipa": "njɛs", "en": "niece", "def": "La fille de son frère ou de sa sœur.", "def_en": "Your brother's or sister's daughter.", "forms": ["nièces"], "examples": [
+      { "fr": "Lou est la **nièce** de Pierre.", "en": "Lou is Pierre's niece." },
+      { "fr": "J'ai acheté un cadeau pour ma **nièce**.", "en": "I've bought a present for my niece." },
+      { "fr": "Ma **nièce** a trois ans et elle parle déjà beaucoup !", "en": "My niece is three and she already talks a lot!" }
+    ] }
+  ],
+  "story": {
+    "title": "Une grande nouvelle",
+    "en": "The end of February: the whole family meets in Marseille, and Chloé and Karim have news.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Fin février, toute la famille est à Marseille, chez Jacques et Louise. Chloé et Karim ont une grande [nouvelle|nouvelle-n], et ils veulent l'annoncer à tout le monde ensemble.", "en": "At the end of February, the whole family is in Marseille, at Jacques and Louise's. Chloé and Karim have big news, and they want to announce it to everyone together." },
+      { "sp": "Jacques", "fr": "D'habitude, toute la famille se retrouve pour un mariage ou pour un enterrement. J'espère que c'est une bonne [nouvelle|nouvelle-n] !", "en": "Usually, the whole family gets together for a wedding or a funeral. I hope it's good news!" },
+      { "sp": "", "fr": "Après le dessert, Chloé se lève.", "en": "After dessert, Chloé stands up." },
+      { "sp": "Chloé", "fr": "Voilà… je suis enceinte !", "en": "So… I'm pregnant!" },
+      { "sp": "", "fr": "Tout le monde crie de joie. Louise pleure de bonheur.", "en": "Everyone shouts with joy. Louise cries with happiness." },
+      { "sp": "Karim", "fr": "Et ce n'est pas tout : ce sont des jumeaux ! Un garçon et une fille. Ils vont naître cet été.", "en": "And that's not all: it's twins! A boy and a girl. They'll be born this summer." },
+      { "sp": "Jules", "fr": "Un neveu et une nièce pour moi ! Génial !", "en": "A nephew and a niece for me! Brilliant!" },
+      { "sp": "Jacques", "fr": "Des jumeaux ! Louise, tu entends ? Des arrière-petits-enfants ! Quatre générations !", "en": "Twins! Louise, do you hear that? Great-grandchildren! Four generations!" },
+      { "sp": "Louise", "fr": "On vieillit, mon Jacques. La vieillesse, ce n'est pas toujours facile… Mais avec des bébés, on reste jeunes !", "en": "We're getting old, my Jacques. Old age isn't always easy… But with babies around, we stay young!" },
+      { "sp": "Jacques", "fr": "Moi, je ne vais pas mourir tout de suite : je veux voir les jumeaux grandir !", "en": "I'm not going to die just yet: I want to see the twins grow up!" },
+      { "sp": "Karim", "fr": "Ma grand-mère est veuve, elle a quatre-vingt-dix ans, et elle danse encore à toutes les fêtes !", "en": "My grandmother is a widow, she's ninety, and she still dances at every party!" },
+      { "sp": "Pierre", "fr": "Et moi, je serai retraité en juin. J'aurai le temps de m'occuper de mes [petits-enfants|petit-enfant] !", "en": "And I'll be retired in June. I'll have time to look after my grandchildren!" },
+      { "sp": "Lou", "fr": "C'est quoi, des jumeaux ?", "en": "What are twins?" },
+      { "sp": "Léa", "fr": "Deux bébés qui naissent le même jour, de la même maman.", "en": "Two babies who are born on the same day, to the same mum." },
+      { "sp": "Lou", "fr": "Alors, Emma et moi, on est jumelles ?", "en": "So Emma and I are twins?" },
+      { "sp": "Léa", "fr": "Non, ma chérie. Emma est née un mois après toi !", "en": "No, sweetheart. Emma was born a month after you!" },
+      { "sp": "Paul", "fr": "Lou, tu es la cadette de la famille… mais plus pour longtemps !", "en": "Lou, you're the youngest in the family… but not for long!" },
+      { "sp": "Hugo", "fr": "Et moi, je suis l'aîné ! Je vais apprendre les jeux vidéo aux jumeaux.", "en": "And I'm the eldest! I'll teach the twins video games." },
+      { "sp": "Léa", "fr": "Toi ? Tu es majeur, Hugo, mais tu n'es pas encore vraiment adulte !", "en": "You? You're over eighteen, Hugo, but you're not really a grown-up yet!" },
+      { "sp": "", "fr": "Tout le monde rit. Puis Jules se lève aussi, avec sa petite amie, Manon.", "en": "Everyone laughs. Then Jules stands up too, with his girlfriend, Manon." },
+      { "sp": "Jules", "fr": "Moi aussi, j'ai une [nouvelle|nouvelle-n] ! Manon et moi, nous nous sommes fiancés. On va se marier en septembre !", "en": "I've got news too! Manon and I have got engaged. We're getting married in September!" },
+      { "sp": "Louise", "fr": "Bienvenue dans la famille, Manon ! Une fiancée, un mariage et deux bébés : quelle année !", "en": "Welcome to the family, Manon! A fiancée, a wedding and two babies: what a year!" },
+      { "sp": "Louise", "fr": "Vous savez, dans notre jeunesse, Jacques et moi, nous étions voisins. Quand il était adolescent, il m'écrivait des lettres d'amour… très mauvaises !", "en": "You know, when we were young, Jacques and I were neighbours. When he was a teenager, he wrote me love letters… very bad ones!" },
+      { "sp": "Jacques", "fr": "Mais tu as dit oui ! Toute une vie ensemble, ma Louise.", "en": "But you said yes! A whole life together, my Louise." },
+      { "sp": "Hugo", "fr": "Moi, je ne me marierai jamais. Comme ça, je ne divorcerai jamais !", "en": "Me, I'll never get married. That way, I'll never get divorced!" },
+      { "sp": "Léa", "fr": "Ah oui ? Et Carla, elle est d'accord ?", "en": "Oh really? And does Carla agree?" },
+      { "sp": "", "fr": "Hugo devient tout rouge. Toute la famille rit, et Louise sort un deuxième gâteau au chocolat : il faut fêter ça !", "en": "Hugo goes bright red. The whole family laughs, and Louise brings out a second chocolate cake: this calls for a celebration!" }
+    ]
+  }
+}

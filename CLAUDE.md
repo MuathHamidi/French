@@ -39,6 +39,9 @@ From Unit 17 on, a unit has four 25-word vocabulary lessons (two on its topic, t
 - A word card shows the word's own meaning, so use each word in the sense it has in the dictionary: for a machine that works, write *fonctionner*, not *marcher* (= to walk); don't use *personne* for *nobody* (its card says *person*).
 - Context doesn't settle a noun/verb homograph after an adjective (*la première partie*: *partie* or *partir*?), or after a noun (*un objet vide*): mark it up, as in *la première [partie|partie]*.
 - A newly taught word wins every tie against a helper with the same spelling, even in older lessons. When the new word is the rarer sense (*un prêt*, a loan, against the helper *prêt*, ready), make it `"manual": true` and mark its uses: *un [prêt|pret-n]*. `--compare-links` shows these cases.
+- Hyphens and spaces match alike: a taught *petit-enfant* (grandchild) would also link *un petit enfant* (a small child), so it is manual.
+- After a noun or a name, an object pronoun is only recognised when the next word can only be a verb (*Inès la rassure*). When that word is also a noun, mark both: *Tom [la|la-pron] [console|consoler]*.
+- Every word of a vocabulary lesson must appear in its story (`validate.py` checks).
 - The stories share one recurring cast (below). Keep ages, places and past events consistent from unit to unit.
 
 ## Story bible
@@ -48,20 +51,20 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
 ### Cast
 
 - **Léa**: from Paris (u01-grammar). She studies French in Lyon in Marc's class and shares a flat with Sophie (u04-furniture). Younger than Hugo (implied, u17-cod); her age is never given. Brown hair; reads, swims, cycles. June intern at Hugo's firm (u13-cest-ilest). Hugo owed her €150 (u19-money) and paid it back, "with ten cents of interest", on 16 January (u22-bank-post).
-- **Hugo**: Léa's brother (u01-vocab, u02-vocab), 20 in Unit 3 (u03-numbers1). He was in Marc's class and has worked in IT at a small Lyon firm since Unit 8 (u13-work). His own place is far from Léa's (u04-places). Always late, forgetful and broke; loves chocolate, pizza, TV series and video games; snores; can't keep a secret; wears glasses.
-- **Sophie**: Léa's friend from Paris, where her parents and a sister live, and her flatmate (u02-possessives). Surname Lambert (u15-hotel); birthday 30 December (u20-speech). Doesn't eat meat; draws, takes photos, dances. Saturday waitress at the café downstairs (u13-jobs); starts architecture school in January (u17-emotions). Her male cat **Minou** sleeps on computers and the TV and plays with keys.
-- **Tom**: English, from London. 19 in Unit 3 (u03-avoir) and 20 since his birthday on 1 June (u11-il-fait, u17-character). Has a big brother and two sisters aged 12 and 15 (u02-articles, u03-avoir), a dog, and parents in England. His brother had a baby on 15 August, making Tom an uncle (u15-pc-etre). Sells and plays guitars; shy, afraid of the dark. With Camille since October (u17-character). His flat is bigger than Léa's (u20-speech).
-- **Inès**: from Madrid, where her parents live; 22 (u03-avoir). Classmate, Sophie's close friend, works as a model (u07-agreement, u17-emotions). Her sister **Carla** (20) is also in the class and prefers dancing to football.
+- **Hugo**: Léa's brother (u01-vocab, u02-vocab), 20 in Unit 3 (u03-numbers1). He was in Marc's class and has worked in IT at a small Lyon firm since Unit 8 (u13-work). His own place is far from Léa's (u04-places). Always late, forgetful and broke; loves chocolate, pizza, TV series and video games; snores; can't keep a secret; wears glasses (often on his head). Going out with **Carla** since Valentine's Day (implied, u23-love, u23-life).
+- **Sophie**: Léa's friend from Paris, where her parents and a sister live, and her flatmate (u02-possessives). Surname Lambert (u15-hotel); birthday 30 December (u20-speech). Doesn't eat meat; draws, takes photos, dances. Saturday waitress at the café downstairs (u13-jobs); starts architecture school in January (u17-emotions). Likes **Mathis**, a student at her school, who asked her out for a coffee (u23-heart). Her male cat **Minou** sleeps on computers and the TV and plays with keys.
+- **Tom**: English, from London. 19 in Unit 3 (u03-avoir) and 20 since his birthday on 1 June (u11-il-fait, u17-character). Has a big brother and two sisters aged 12 and 15 (u02-articles, u03-avoir), a dog, and parents in England. His brother had a baby on 15 August, making Tom an uncle (u15-pc-etre). Sells and plays guitars; shy, afraid of the dark. With Camille since October (u17-character); he told her he loves her on Valentine's Day (u23-love). His flat is bigger than Léa's (u20-speech).
+- **Inès**: from Madrid, where her parents live; 22 (u03-avoir). Classmate, Sophie's close friend, works as a model (u07-agreement, u17-emotions). Her sister **Carla** (20) is also in the class and prefers dancing to football. Carla sent Hugo an unsigned Valentine's card (u23-love).
 - **Marc**: the French teacher. His age is a secret.
-- **Lou**: Léa and Hugo's little sister, 2 in Unit 3 (u03-numbers2) and 3 since early September (u16-school). Lives with her parents (implied). Teddy bear, drawings, sweets. Her nursery teacher is **Claire**. Her friend and rival **Emma** is a month younger but taller (u19-comparatives).
+- **Lou**: Léa and Hugo's little sister, 2 in Unit 3 (u03-numbers2) and 3 since early September (u16-school); the youngest of the family until the twins (u23-life). Lives with her parents (implied). Teddy bear, drawings, sweets. Her nursery teacher is **Claire**. Her friend and rival **Emma** is a month younger but taller (u19-comparatives).
 - **Paul**: Léa's father, 50 (u03-numbers2). Very tall; teacher; Jacques and Louise's son (u17-coi). Lived in Montmartre as a student (u18-y); loses his papers.
 - **Anne**: Léa's mother, 47. Canadian, from Montréal, where her sister lives (u01-grammar, u14-travel). Doctor; blond. She met Paul at a rainy Paris bus stop when they were 20 (u16-pc-imparfait).
-- **Jacques** (80) and **Louise** (78) (u03-numbers2): Paul's parents. They have a seaside house with a garden in Marseille (u15-holidays), were childhood neighbours and honeymooned in Paris 50 years ago (u18-y). Louise has her birthday in late October (u17-coi), the family's crêpe and chocolate-cake recipes and 300 books. She got her first mobile at Christmas (u20-phone).
-- **Pierre**: Léa's uncle, 60, a farmer living in the countryside near Annecy (u03-numbers2, u13-jobs, u02-vocab, u12-nature). Father of **Jules** and **Chloé** (u02-articles). Chloé is a lawyer married to **Karim** (30), a restaurant cook who makes desserts (u02-possessives, u06-er). Sophie once liked Jules (u02-possessives).
+- **Jacques** (80) and **Louise** (78) (u03-numbers2): Paul's parents. They have a seaside house with a garden in Marseille (u15-holidays), were childhood neighbours and honeymooned in Paris 50 years ago (u18-y). Louise has her birthday in late October (u17-coi), the family's crêpe and chocolate-cake recipes and 300 books (she reads all the time, with glasses). She got her first mobile at Christmas (u20-phone). As a teenager, Jacques wrote her bad love letters (u23-life). Both are retired.
+- **Pierre**: Léa's uncle, 60, a farmer living in the countryside near Annecy (u03-numbers2, u13-jobs, u02-vocab, u12-nature); he retires in June (u23-life). Father of **Jules** and **Chloé** (u02-articles). Chloé is a lawyer married to **Karim** (30), a restaurant cook who makes desserts (u02-possessives, u06-er); they are expecting twins, a boy and a girl, in the summer (u23-life). Karim's grandmother is a widow of 90 who still dances. Jules got engaged to **Manon** on Valentine's Day; their wedding is in September (u23-life). Sophie once liked Jules (u02-possessives).
 - **Antoine**: Léa's cousin in Montréal (u09-places), probably Anne's sister's son (implied). Taxi driver who sings in a band at weekends (u13-jobs); drives fast.
 - **Hugo's firm**: **Mme Dupont**, his demanding boss (u13-cest-ilest, u17-connectors); **Julien**, a funny colleague (u13-work); **Bernard**, the accountant who retired on the Friday after Léa started, in June (u13-work, u13-cest-ilest); interns **Sarah** and **Malik**.
 - **Camille**: Tom's girlfriend since October (implied); has a cat (u17-character, u19-describing).
-- **One-offs**: Mme Martin, who showed the flat (u04-rooms); Oscar, Tom's English friend (u11-liaison); an actor nicknamed "the croissant thief" (u18-appearance).
+- **One-offs**: Mme Martin, who showed the flat (u04-rooms); Oscar, Tom's English friend (u11-liaison); an actor nicknamed "the croissant thief" (u18-appearance); Mathis, Sophie's schoolmate (u23-heart).
 
 ### Places
 
@@ -119,19 +122,29 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - 27 January: Sophie draws the place des Terreaux for school, and her drawing helps the police find a car parked on a pedestrian crossing (u22-city).
   - A rainy evening: the friends play a guessing game at Léa and Sophie's; Tom wins, so he does the washing-up (u22-qui-que).
   - 1 February: Sophie shows Inès and Carla the traboules of Vieux-Lyon, then they eat in a bouchon (u22-ou-ce-que).
+- **U23**:
+  - 2 February: Hugo makes crêpes for everyone for Candlemas, with Mamie's recipe (u23-traditions).
+  - 14 February: at a romantic dinner at his flat, Tom tells Camille he loves her, in English and French. Léa, Sophie and Inès, all single, celebrate friendship at the café. Hugo gets an unsigned card with two dancers, guesses it's from Carla and asks her for a coffee; she says yes (u23-love). Jules and Manon get engaged the same day (u23-life).
+  - Mardi gras, a few days later: costumes at Léa and Sophie's (Léa as a queen with Minou's crown, Camille as a cat, Tom in a black mask), Hugo's bugnes, the carnival parade; Tom learns the French holidays and Hugo dodges the 1 May race again (u23-traditions).
+  - End of February, Saturday: Léa checks Hugo's things before the train to Marseille; he forgot the flowers for Mamie and ate half the bugnes (u23-pc-pronoms). On the train, Léa tells him Sophie's secret (u23-heart).
+  - Sunday: family lunch at Jacques and Louise's. Chloé and Karim are expecting twins; Jules and Manon will marry in September; Pierre retires in June (u23-life). Packing in the evening: Paul's old teddy bear goes to the twins, and Hugo leaves with Paul's blue jumper (u23-toniques).
+  - Monday and Tuesday: Hugo has told the café that Sophie likes Mathis; Léa and Sophie have their first real argument. Hugo carries Sophie's model to school without falling, Mathis asks her out, and Léa and Sophie make up (u23-heart).
 
-**Where the story stands:** 1 February (u22-ou-ce-que). Lou is back in Paris at nursery school, Sophie is at architecture school, Hugo is learning to cook and has paid Léa back. Open threads:
-- the race on 1 May (u19-numbers);
+**Where the story stands:** end of February (u23-heart). Lou is back in Paris at nursery school, Sophie is at architecture school, Hugo is learning to cook and has paid Léa back. Open threads:
+- Hugo and Carla are going out; Sophie's coffee with Mathis;
+- Chloé's twins are due in the summer, Jules's wedding is in September, Pierre retires in June;
+- the race on 1 May (u19-numbers), which Hugo keeps dodging (u23-traditions);
 - Antoine's visit planned for late May (u11-seasons);
-- Hugo's fame from the bin video.
+- Hugo's fame from the bin video; Hugo still has Paul's blue jumper.
 
 ### Continuity facts
 
 - **Family tree**:
-  - Jacques and Louise are the parents of Paul (and of Pierre, implied).
+  - Jacques and Louise are the parents of Paul (and of Pierre, implied). Chloé's twins will be their great-grandchildren (u23-life). Never state that Pierre is their son: at 60 in Unit 3, he would be older than their marriage.
   - Paul and Anne, married and living in Paris, are the parents of Hugo, Léa and Lou.
   - Pierre and an unnamed aunt are the parents of Jules and Chloé (Chloé is married to Karim).
-- **Ages** were given in Unit 3, at least a year before Unit 20, so everyone is now about a year older (implied). Birthdays shown since: Tom (1 June), Lou (now 3), Louise (October), Sophie (30 December).
+- **Ages** were given in Unit 3, at least a year before Unit 20, so everyone is now about a year older (implied). Birthdays shown since: Tom (1 June), Lou (September, now 3), Louise (October), Sophie (30 December).
+- **Jacques and Louise's wedding**: Louise says "fifty years ago" in u18-y, but Paul is now about 51, so the wedding was more than fifty years ago. Don't give its date or celebrate a golden wedding.
 - **Hugo's things**:
   - He has a phone, a €200 console (u19-money) and Lou's passport holder (u14-participes). His bike is at Tom's.
   - He plays a little tennis, badly (u10-sports, u10-faire-jouer). He quit the sports club (u10-negation) and skipped his flu jab (u18-health).

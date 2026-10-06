@@ -1,0 +1,163 @@
+{
+  "id": "u23-love",
+  "type": "vocab",
+  "unit": 23,
+  "title": "L'amour et l'amitié",
+  "en": "Love and friendship",
+  "intro": "25 words for love and friendship: couples and best friends, first dates and break-ups, hugs and kisses. Careful with **aimer**: for people, *je t'aime* means *I love you*, but *je t'aime bien* only means *I like you*!",
+  "words": [
+    { "id": "amour", "fr": "amour", "pos": "noun", "g": "m", "ipa": "a.muʁ", "en": "love (mon amour = my love)", "def": "Le sentiment très fort qu'on a pour une personne qu'on aime.", "def_en": "The very strong feeling you have for someone you love.", "forms": ["amours"], "examples": [
+      { "fr": "C'est une histoire d'**amour**.", "en": "It's a love story." },
+      { "fr": "L'**amour** rend heureux.", "en": "Love makes you happy." },
+      { "fr": "Mon **amour**, tu viens ?", "en": "Are you coming, my love?" }
+    ], "note": "**mon amour** = my love (to a partner)." },
+    { "id": "amitie", "fr": "amitié", "pos": "noun", "g": "f", "ipa": "a.mi.tje", "en": "friendship", "def": "Le sentiment entre deux amis.", "def_en": "The feeling between two friends.", "forms": ["amitiés"], "examples": [
+      { "fr": "Notre **amitié** est très importante pour moi.", "en": "Our friendship is very important to me." },
+      { "fr": "C'est le début d'une belle **amitié**.", "en": "It's the start of a beautiful friendship." },
+      { "fr": "**Amitiés**, Léa.", "en": "Best wishes, Léa." }
+    ], "note": "At the end of a letter: **Amitiés** = Best wishes." },
+    { "id": "couple", "fr": "couple", "pos": "noun", "g": "m", "ipa": "kupl", "en": "couple", "def": "Deux personnes qui s'aiment et qui vivent ensemble, ou qui sortent ensemble.", "def_en": "Two people who love each other and live together, or go out together.", "forms": ["couples"], "examples": [
+      { "fr": "Tom et Camille sont un joli **couple**.", "en": "Tom and Camille make a lovely couple." },
+      { "fr": "Il y a beaucoup de **couples** au restaurant ce soir.", "en": "There are lots of couples at the restaurant tonight." },
+      { "fr": "Ils vivent en **couple** depuis deux ans.", "en": "They've been living together for two years." }
+    ] },
+    { "id": "petit-ami", "fr": "petit ami", "pos": "noun", "g": "m", "ipa": "pə.ti.ta.mi", "display": "le petit ami, la petite amie", "en": "boyfriend; (petite amie) girlfriend", "def": "La personne avec qui on sort, avec qui on est en couple.", "def_en": "The person you're going out with, the one you're in a couple with.", "forms": ["petite amie", "petits amis", "petites amies"], "accept": ["petite amie", "la petite amie", "une petite amie"], "examples": [
+      { "fr": "Camille est la **petite amie** de Tom.", "en": "Camille is Tom's girlfriend." },
+      { "fr": "Tu as un **petit ami** ?", "en": "Have you got a boyfriend?" },
+      { "fr": "Elle présente son **petit ami** à ses parents.", "en": "She introduces her boyfriend to her parents." }
+    ], "note": "In everyday speech: **mon copain, ma copine**." },
+    { "id": "meilleur-ami", "fr": "meilleur ami", "pos": "noun", "g": "m", "ipa": "mɛ.jœ.ʁa.mi", "display": "le meilleur ami, la meilleure amie", "en": "best friend", "def": "L'ami qu'on préfère, à qui on dit tout.", "def_en": "The friend you like best, who you tell everything.", "forms": ["meilleure amie", "meilleurs amis", "meilleures amies"], "accept": ["meilleure amie", "la meilleure amie", "une meilleure amie"], "examples": [
+      { "fr": "Sophie est ma **meilleure amie**.", "en": "Sophie is my best friend." },
+      { "fr": "Ils sont **meilleurs amis** depuis l'école.", "en": "They've been best friends since school." },
+      { "fr": "Mon **meilleur ami** habite à Londres.", "en": "My best friend lives in London." }
+    ] },
+    { "id": "amoureux", "fr": "amoureux", "pos": "adj", "ipa": "a.mu.ʁø", "en": "in love; (les amoureux) lovers, couples", "def": "Qui aime une personne très fort. Tomber amoureux, c'est commencer à aimer.", "def_en": "Who loves someone very much. Falling in love is starting to love.", "forms": ["amoureuse", "amoureuses"], "examples": [
+      { "fr": "Tom est **amoureux** de Camille.", "en": "Tom is in love with Camille." },
+      { "fr": "Elle est tombée **amoureuse** à Paris.", "en": "She fell in love in Paris." },
+      { "fr": "Les **amoureux** se promènent au bord du Rhône.", "en": "The lovers stroll along the Rhône." }
+    ], "note": "**tomber amoureux de** quelqu'un = to fall in love with someone." },
+    { "id": "celibataire", "fr": "célibataire", "pos": "adj", "ipa": "se.li.ba.tɛʁ", "en": "single (not married, not in a couple)", "def": "Qui n'est pas en couple et qui n'est pas marié.", "def_en": "Not in a couple and not married.", "forms": ["célibataires"], "examples": [
+      { "fr": "Hugo est **célibataire**.", "en": "Hugo is single." },
+      { "fr": "Elle est **célibataire**, et très heureuse comme ça.", "en": "She's single, and very happy that way." },
+      { "fr": "C'est une soirée pour les **célibataires**.", "en": "It's an evening for single people." }
+    ] },
+    { "id": "partenaire", "fr": "partenaire", "pos": "noun", "g": "m", "both": true, "ipa": "paʁ.tə.nɛʁ", "display": "le / la partenaire", "en": "partner", "def": "La personne avec qui on fait quelque chose : un jeu, une danse, ou la vie.", "def_en": "The person you do something with: a game, a dance, or your life.", "forms": ["partenaires"], "accept": ["la partenaire", "une partenaire"], "examples": [
+      { "fr": "Carla et Hugo sont **partenaires** de danse.", "en": "Carla and Hugo are dance partners." },
+      { "fr": "Mon **partenaire** de tennis est en retard.", "en": "My tennis partner is late." },
+      { "fr": "Elle vit avec sa **partenaire** depuis cinq ans.", "en": "She's lived with her partner for five years." }
+    ] },
+    { "id": "saint-valentin", "fr": "Saint-Valentin", "pos": "noun", "g": "f", "ipa": "sɛ̃.va.lɑ̃.tɛ̃", "en": "Valentine's Day (14 February)", "def": "La fête des amoureux, le quatorze février.", "def_en": "The lovers' holiday, on 14 February.", "examples": [
+      { "fr": "Qu'est-ce que tu fais pour la **Saint-Valentin** ?", "en": "What are you doing for Valentine's Day?" },
+      { "fr": "À la **Saint-Valentin**, les restaurants sont pleins.", "en": "On Valentine's Day, the restaurants are full." },
+      { "fr": "Joyeuse **Saint-Valentin** !", "en": "Happy Valentine's Day!" }
+    ], "note": "Feminine: **la** Saint-Valentin (= *la fête de saint Valentin*)." },
+    { "id": "coup-de-foudre", "fr": "coup de foudre", "pos": "noun", "g": "m", "ipa": "ku də fudʁ", "en": "love at first sight", "def": "Quand on tombe amoureux tout de suite, dès la première [rencontre|rencontre].", "def_en": "When you fall in love straight away, from the very first meeting.", "forms": ["coups de foudre"], "examples": [
+      { "fr": "Pour Paul et Anne, c'était le **coup de foudre**.", "en": "For Paul and Anne, it was love at first sight." },
+      { "fr": "J'ai eu un **coup de foudre** pour cette maison !", "en": "I fell in love with this house at first sight!" },
+      { "fr": "Le **coup de foudre**, ça existe ?", "en": "Does love at first sight really exist?" }
+    ], "note": "Literally *a lightning strike*. Also for places and things." },
+    { "id": "ame-soeur", "fr": "âme sœur", "pos": "noun", "g": "f", "ipa": "am sœʁ", "en": "soulmate", "def": "La personne parfaite pour soi, qu'on cherche pour toute la vie.", "def_en": "The perfect person for you, the one you look for all your life.", "forms": ["âmes sœurs"], "examples": [
+      { "fr": "Il a trouvé son **âme sœur**.", "en": "He's found his soulmate." },
+      { "fr": "Tu crois à l'**âme sœur** ?", "en": "Do you believe in soulmates?" },
+      { "fr": "Pour Mamie, Papi est son **âme sœur**.", "en": "For Grandma, Grandpa is her soulmate." }
+    ], "note": "Literally *sister soul*." },
+    { "id": "bouquet", "fr": "bouquet", "pos": "noun", "g": "m", "ipa": "bu.kɛ", "en": "bouquet, bunch of flowers", "def": "Des fleurs qu'on met ensemble pour les offrir.", "def_en": "Flowers put together to give as a present.", "forms": ["bouquets"], "examples": [
+      { "fr": "Tom achète un **bouquet** de fleurs.", "en": "Tom buys a bunch of flowers." },
+      { "fr": "Quel joli **bouquet** !", "en": "What a lovely bouquet!" },
+      { "fr": "Elle met le **bouquet** dans l'eau.", "en": "She puts the flowers in water." }
+    ] },
+    { "id": "calin", "fr": "câlin", "pos": "noun", "g": "m", "ipa": "ka.lɛ̃", "en": "cuddle, hug", "def": "Quand on prend une personne dans ses bras, avec tendresse.", "def_en": "When you take someone in your arms, tenderly.", "forms": ["câlins"], "examples": [
+      { "fr": "Lou fait un **câlin** à sa maman.", "en": "Lou gives her mummy a cuddle." },
+      { "fr": "Viens faire un **câlin** !", "en": "Come and give me a hug!" },
+      { "fr": "Les enfants adorent les **câlins**.", "en": "Children love cuddles." }
+    ] },
+    { "id": "bisou", "fr": "bisou", "pos": "noun", "g": "m", "ipa": "bi.zu", "en": "kiss (bisous ! = love, at the end of a message)", "def": "Quand on pose gentiment les lèvres sur la joue d'une personne.", "def_en": "When you gently put your lips on someone's cheek.", "forms": ["bisous"], "examples": [
+      { "fr": "Fais un **bisou** à Mamie !", "en": "Give Grandma a kiss!" },
+      { "fr": "Gros **bisous**, à bientôt !", "en": "Lots of love, see you soon!" },
+      { "fr": "Lou me donne un **bisou** avant de dormir.", "en": "Lou gives me a kiss before she goes to sleep." }
+    ], "note": "**la bise** = the kiss on each cheek to say hello." },
+    { "id": "declaration", "fr": "déclaration", "pos": "noun", "g": "f", "ipa": "de.kla.ʁa.sjɔ̃", "en": "declaration (une déclaration d'amour = telling someone you love them)", "def": "Quand on dit une chose importante à une ou plusieurs personnes : une déclaration d'amour.", "def_en": "When you say something important, to a person or officially: a declaration of love.", "forms": ["déclarations"], "examples": [
+      { "fr": "Tom prépare sa **déclaration** d'amour.", "en": "Tom is preparing to tell her he loves her." },
+      { "fr": "Il a fait une **déclaration** à la police.", "en": "He made a statement to the police." },
+      { "fr": "Quelle belle **déclaration** !", "en": "What a beautiful declaration!" }
+    ] },
+    { "id": "fidele", "fr": "fidèle", "pos": "adj", "ipa": "fi.dɛl", "en": "faithful, loyal", "def": "Qui reste avec quelqu'un, qui ne change pas d'amour ou d'amitié.", "def_en": "Who stays with someone, whose love or friendship doesn't change.", "forms": ["fidèles"], "examples": [
+      { "fr": "Minou est un chat très **fidèle**.", "en": "Minou is a very loyal cat." },
+      { "fr": "C'est une amie **fidèle**.", "en": "She's a loyal friend." },
+      { "fr": "Il est **fidèle** à son petit café.", "en": "He's loyal to his little café." }
+    ] },
+    { "id": "jalousie", "fr": "jalousie", "pos": "noun", "g": "f", "ipa": "ʒa.lu.zi", "en": "jealousy", "def": "Le sentiment d'une personne jalouse : elle a peur de perdre quelqu'un, ou elle veut ce qu'une autre personne a.", "def_en": "The feeling of a jealous person: they're afraid of losing someone, or they want what someone else has.", "examples": [
+      { "fr": "La **jalousie**, c'est mauvais pour un couple.", "en": "Jealousy is bad for a couple." },
+      { "fr": "Il dit ça par **jalousie**.", "en": "He's saying that out of jealousy." },
+      { "fr": "Pas de **jalousie** entre nous !", "en": "No jealousy between us!" }
+    ] },
+    { "id": "tendresse", "fr": "tendresse", "pos": "noun", "g": "f", "ipa": "tɑ̃.dʁɛs", "en": "tenderness, affection", "def": "Un amour doux et gentil.", "def_en": "A soft, gentle kind of love.", "examples": [
+      { "fr": "Elle regarde son bébé avec **tendresse**.", "en": "She looks at her baby tenderly." },
+      { "fr": "Mamie a beaucoup de **tendresse** pour ses [petits-enfants|petit-enfant].", "en": "Grandma has a lot of affection for her grandchildren." },
+      { "fr": "Un peu de **tendresse**, ça fait du bien.", "en": "A bit of affection does you good." }
+    ] },
+    { "id": "romantique", "fr": "romantique", "pos": "adj", "ipa": "ʁɔ.mɑ̃.tik", "en": "romantic", "def": "Plein d'amour et de rêve : un dîner romantique, avec des bougies.", "def_en": "Full of love and dreams: a romantic dinner, with candles.", "forms": ["romantiques"], "examples": [
+      { "fr": "Un dîner **romantique** au bord du lac.", "en": "A romantic dinner by the lake." },
+      { "fr": "Tom est très **romantique**.", "en": "Tom is very romantic." },
+      { "fr": "Paris est une ville **romantique**.", "en": "Paris is a romantic city." }
+    ] },
+    { "id": "plaire", "fr": "plaire", "pos": "verb", "ipa": "plɛʁ", "en": "to please; (ça me plaît) I like it; (il me plaît) I fancy him", "def": "Être agréable pour quelqu'un : « ce film me plaît », c'est « j'aime ce film ».", "def_en": "To be pleasing to someone: « ce film me plaît » means « I like this film ».", "forms": ["plais", "plaît", "plaisons", "plaisez", "plaisent", "plaisais", "plaisait", "plaisions", "plaisiez", "plaisaient", "plairai", "plairas", "plaira", "plairons", "plairez", "plairont", "plairais", "plairait", "plairions", "plairiez", "plairaient"], "examples": [
+      { "fr": "Cette robe te **plaît** ?", "en": "Do you like this dress?" },
+      { "fr": "Carla **plaît** beaucoup à Hugo.", "en": "Hugo really likes Carla." },
+      { "fr": "Ça me **plaît** !", "en": "I like it!" }
+    ], "note": "**plaire à** quelqu'un: the thing you like is the subject: *Lyon me plaît* = I like Lyon. **s'il vous plaît** = please (literally *if it pleases you*)." },
+    { "id": "aimer-bien", "fr": "aimer bien", "pos": "expr", "ipa": "ɛ.me bjɛ̃", "en": "to like (for people: less than to love)", "def": "Aimer un peu. Pour une personne, « je t'aime bien » est moins fort que « je t'aime ».", "def_en": "To like. For a person, « je t'aime bien » is less strong than « je t'aime ».", "forms": ["aime bien", "aimes bien", "aimons bien", "aimez bien", "aiment bien", "aimais bien", "aimait bien", "aimé bien"], "examples": [
+      { "fr": "J'**aime bien** ce café.", "en": "I quite like this café." },
+      { "fr": "Hugo **aime bien** Carla… ou il l'aime ?", "en": "Hugo likes Carla… or does he love her?" },
+      { "fr": "Tu **aimes bien** tes collègues ?", "en": "Do you like your colleagues?" }
+    ], "note": "For people, **je t'aime** = I love you; **je t'aime bien** = I like you (as a friend)!" },
+    { "id": "embrasser", "fr": "embrasser", "pos": "verb", "ipa": "ɑ̃.bʁa.se", "en": "to kiss; to hug", "def": "Poser ses lèvres sur une personne, pour dire bonjour ou pour dire qu'on l'aime. Aussi : prendre dans ses bras.", "def_en": "To put your lips on someone, to say hello or to show you love them. Also: to take in your arms.", "forms": ["embrasse", "embrasses", "embrassons", "embrassez", "embrassent", "embrassé", "embrassée", "embrassés", "embrassées", "embrassais", "embrassait", "embrassions", "embrassiez", "embrassaient", "embrasserai", "embrasseras", "embrassera", "embrasserons", "embrasserez", "embrasseront", "embrasserais", "embrasserait", "embrasserions", "embrasseriez", "embrasseraient"], "examples": [
+      { "fr": "Il **embrasse** Camille.", "en": "He kisses Camille." },
+      { "fr": "Je t'**embrasse**, à bientôt !", "en": "Love, see you soon!" },
+      { "fr": "Ils se sont **embrassés** sous la pluie.", "en": "They kissed in the rain." }
+    ], "note": "At the end of a message, **je t'embrasse** = love." },
+    { "id": "sortir-avec", "fr": "sortir avec", "pos": "expr", "ipa": "sɔʁ.tiʁ a.vɛk", "en": "to go out with (someone); to date", "def": "Être en couple avec une personne. Aussi : sortir avec des amis, aller quelque part ensemble.", "def_en": "To be in a couple with someone. Also: to go out with friends somewhere.", "forms": ["sors avec", "sort avec", "sortons avec", "sortez avec", "sortent avec", "sorti avec", "sortie avec", "sortis avec", "sortais avec", "sortait avec", "sortirai avec", "sortira avec"], "examples": [
+      { "fr": "Tom **sort avec** Camille depuis octobre.", "en": "Tom has been going out with Camille since October." },
+      { "fr": "Tu **sors avec** quelqu'un ?", "en": "Are you seeing anyone?" },
+      { "fr": "Ce soir, je **sors avec** mes collègues.", "en": "Tonight, I'm going out with my colleagues." }
+    ] },
+    { "id": "rompre", "fr": "rompre", "pos": "verb", "ipa": "ʁɔ̃pʁ", "en": "to break up; to break", "def": "Ne plus être en couple avec une personne.", "def_en": "To stop being in a couple with someone.", "forms": ["romps", "rompt", "rompons", "rompez", "rompent", "rompu", "rompue", "rompus", "rompues", "rompais", "rompait", "rompions", "rompiez", "rompaient", "romprai", "rompras", "rompra", "romprons", "romprez", "rompront", "romprais", "romprait", "romprions", "rompriez", "rompraient"], "examples": [
+      { "fr": "Ils ont **rompu** après deux ans.", "en": "They broke up after two years." },
+      { "fr": "Elle veut **rompre** avec lui.", "en": "She wants to break up with him." },
+      { "fr": "Il **rompt** par message ? C'est méchant !", "en": "He's breaking up by text? That's mean!" }
+    ], "note": "In everyday speech: **se séparer**, or **quitter** quelqu'un." },
+    { "id": "se-separer", "fr": "se séparer", "pos": "verb", "ipa": "sə se.pa.ʁe", "en": "to separate, to split up", "def": "Ne plus vivre ensemble, ne plus être en couple.", "def_en": "To stop living together, to stop being a couple.", "forms": ["me sépare", "te sépares", "se sépare", "nous nous séparons", "vous vous séparez", "se séparent", "me séparer", "te séparer", "nous séparer", "vous séparer", "séparé", "séparée", "séparés", "séparées", "me suis séparé", "me suis séparée", "s'est séparé", "s'est séparée", "nous sommes séparés", "se sont séparés", "se sont séparées", "me séparais", "se séparait", "se séparaient", "me séparerai", "se séparera", "se sépareront", "me séparerais", "se séparerait", "se sépareraient"], "examples": [
+      { "fr": "Ses parents se sont **séparés** quand il avait dix ans.", "en": "His parents split up when he was ten." },
+      { "fr": "Ils **se séparent** après cinq ans.", "en": "They're splitting up after five years." },
+      { "fr": "On ne va jamais **se séparer** !", "en": "We'll never split up!" }
+    ] }
+  ],
+  "story": {
+    "title": "La Saint-Valentin",
+    "en": "14 February: Tom tells Camille he loves her, the girls celebrate friendship… and Hugo gets a mysterious card.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le quatorze février, c'est la Saint-Valentin. Partout en ville, il y a des cœurs et des bouquets de fleurs.", "en": "14 February is Valentine's Day. All over town, there are hearts and bunches of flowers." },
+      { "sp": "", "fr": "Tom sort avec Camille depuis octobre. Ce soir, il prépare un dîner romantique chez lui.", "en": "Tom has been going out with Camille since October. Tonight, he's making a romantic dinner at his place." },
+      { "sp": "Tom", "fr": "Léa, aide-moi ! Je veux faire une déclaration à Camille, mais je suis trop timide…", "en": "Léa, help me! I want to tell Camille how I feel, but I'm too shy…" },
+      { "sp": "Léa", "fr": "Dis-lui simplement ce que tu as dans le cœur. C'est de l'amour, non ? Tu es amoureux !", "en": "Just tell her what's in your heart. It's love, isn't it? You're in love!" },
+      { "sp": "Tom", "fr": "Oui… Pour moi, c'était le coup de foudre. Je crois que Camille est mon âme sœur.", "en": "Yes… For me, it was love at first sight. I think Camille is my soulmate." },
+      { "sp": "", "fr": "Le soir, Tom offre un bouquet à Camille. Il lui dit tout, en anglais et en français. Camille l'embrasse.", "en": "That evening, Tom gives Camille a bunch of flowers. He tells her everything, in English and in French. Camille kisses him." },
+      { "sp": "Camille", "fr": "Moi aussi, je t'aime. Et j'adore ton accent !", "en": "I love you too. And I love your accent!" },
+      { "sp": "", "fr": "Pendant ce temps, Léa et Sophie, les meilleures amies du monde, sont au café avec Inès. Elles sont toutes les trois célibataires.", "en": "Meanwhile, Léa and Sophie, the best friends in the world, are at the café with Inès. All three of them are single." },
+      { "sp": "Sophie", "fr": "La Saint-Valentin, c'est pour les couples. Nous, on fête l'amitié !", "en": "Valentine's Day is for couples. We're celebrating friendship!" },
+      { "sp": "Inès", "fr": "À notre amitié ! Entre nous, pas de jalousie, seulement de la tendresse. On est fidèles, et on ne se sépare jamais !", "en": "To our friendship! Between us, no jealousy, only affection. We're loyal, and we never split up!" },
+      { "sp": "Sophie", "fr": "Et entre amis, on ne rompt jamais par message !", "en": "And friends never break up by text!" },
+      { "sp": "", "fr": "Hugo arrive au café. Il a l'air bizarre : il tient une carte rose à la main.", "en": "Hugo arrives at the café. He looks strange: he's holding a pink card." },
+      { "sp": "Hugo", "fr": "Quelqu'un m'a envoyé une carte. Elle dit : « Tu me plais beaucoup. » Mais il n'y a pas de nom !", "en": "Someone's sent me a card. It says: 'I really like you.' But there's no name!" },
+      { "sp": "Léa", "fr": "Tu es célibataire, et quelqu'un est amoureux de toi ? C'est génial !", "en": "You're single, and someone's in love with you? That's great!" },
+      { "sp": "Hugo", "fr": "Il y a aussi un petit dessin… deux danseurs.", "en": "There's a little drawing too… two dancers." },
+      { "sp": "Inès", "fr": "Deux danseurs ? Hugo… ta partenaire de danse, c'est ma sœur !", "en": "Two dancers? Hugo… your dance partner is my sister!" },
+      { "sp": "", "fr": "Hugo devient tout rouge. Carla ? Sa petite amie ? Il ne sait pas quoi dire.", "en": "Hugo goes bright red. Carla? His girlfriend? He doesn't know what to say." },
+      { "sp": "Sophie", "fr": "Alors, tu l'aimes bien, Carla ?", "en": "So, do you like Carla?" },
+      { "sp": "Hugo", "fr": "Je… oui, je l'aime bien. Elle me plaît beaucoup, même.", "en": "I… yes, I like her. I really like her, actually." },
+      { "sp": "", "fr": "Il prend son portable et écrit à Carla : « Merci pour la carte. Un café demain ? » Avec beaucoup de bisous, et un gros câlin.", "en": "He takes out his phone and writes to Carla: 'Thanks for the card. Coffee tomorrow?' With lots of kisses, and a big hug." },
+      { "sp": "", "fr": "Trente secondes plus tard, Carla répond : « Oui ! » C'est peut-être le début d'une belle histoire…", "en": "Thirty seconds later, Carla replies: 'Yes!' Maybe it's the start of a beautiful story…" }
+    ]
+  }
+}

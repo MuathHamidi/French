@@ -99,6 +99,11 @@ FIXES = {
     "louerai": "luʁˈe", "loueras": "luʁˈa", "louera": "luʁˈa", "louerons": "luʁˈɔ̃", "louerez": "luʁˈe", "loueront": "luʁˈɔ̃", "avouerai": "avuʁˈe", "avoueras": "avuʁˈa", "avouera": "avuʁˈa", "avouerons": "avuʁˈɔ̃", "avouerez": "avuʁˈe", "avoueront": "avuʁˈɔ̃",
     "jouerais": "ʒuʁˈɛ", "jouerait": "ʒuʁˈɛ", "jouerions": "ʒuʁjˈɔ̃", "joueriez": "ʒuʁjˈe", "joueraient": "ʒuʁˈɛ",  # conditional of -ouer verbs: the voice says /ʒwʁɛ/
     "louerais": "luʁˈɛ", "louerait": "luʁˈɛ", "louerions": "luʁjˈɔ̃", "loueriez": "luʁjˈe", "loueraient": "luʁˈɛ", "avouerais": "avuʁˈɛ", "avouerait": "avuʁˈɛ", "avouerions": "avuʁjˈɔ̃", "avoueriez": "avuʁjˈe", "avoueraient": "avuʁˈɛ",
+    "vœu": "vˈø",  # the voice says /vœ/
+    "veuve": "vˈœv", "veuves": "vˈœv",  # the voice says /vøv/
+    "bugnes": "bˈyɲ",  # the voice says /nj/, like -gnent
+    "mathis": "matˈis",  # the final s of the name is pronounced
+    "le leur": "lə lˈœʁ", "la leur": "la lˈœʁ", "les leurs": "le lˈœʁ",  # the voice says /løʁ/ after an article
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

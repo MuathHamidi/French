@@ -1,0 +1,198 @@
+{
+  "id": "u23-toniques",
+  "type": "grammar",
+  "unit": 23,
+  "title": "Moi, toi… le mien",
+  "en": "Stressed pronouns (moi, toi…) and possessive pronouns (le mien…)",
+  "intro": "French has a second set of pronouns for emphasis and after prepositions: **moi, toi, lui, elle, nous, vous, eux, elles**: *Moi, je reste. C'est pour toi.* And to say *mine, yours, his…*, it uses **le mien, la tienne, les siens…**: *C'est ton pull ? — Non, c'est **le mien** !*",
+  "cases": [
+    { "id": "ton-forms", "label": "moi, toi, lui, elle…", "rule": "The stressed pronouns: **moi** (me), **toi** (you), **lui** (him), **elle** (her), **nous** (us), **vous** (you), **eux** (them), **elles** (them, women only). **elle, nous, vous, elles** look like the subject pronouns; **moi, toi, lui, eux** are different." },
+    { "id": "ton-prep", "label": "after a preposition", "rule": "After **avec, pour, chez, sans, à côté de, devant, après**…, use a stressed pronoun: *avec **moi**, pour **toi**, chez **eux**, sans **elle***." },
+    { "id": "ton-emph", "label": "for emphasis: moi, je…", "rule": "To stress the subject, put the stressed pronoun first, then the normal subject: ***Moi**, je reste ici. **Toi**, tu as toujours faim !* Also after **c'est**: *C'est **moi** ! C'est **lui** qui a mangé le gâteau.*" },
+    { "id": "ton-short", "label": "moi aussi, moi non plus", "rule": "Alone, without a verb: *Qui veut du café ? — **Moi** ! J'adore les crêpes. — **Moi aussi**. Je n'aime pas le thé. — **Moi non plus**.* After a negative sentence, **non plus**, not *aussi*." },
+    { "id": "ton-a", "label": "c'est à moi = it's mine", "rule": "**être à** + a stressed pronoun says who something belongs to: *Ce pull est **à moi**. C'est **à qui** ? — C'est **à eux**.*" },
+    { "id": "pos-forms", "label": "le mien, la mienne…", "rule": "A possessive pronoun replaces **mon, ton, son… + noun**. Its article and ending agree with the **thing**: *mon pull → **le mien**, ma valise → **la mienne**, mes clés → **les miennes***. For several owners: **le nôtre, le vôtre, le leur** (+ **la**, **les** …**s**)." },
+    { "id": "pos-sien", "label": "le sien = his or hers", "rule": "**le sien, la sienne** agree with the **thing**, not with the owner, so they can mean *his* or *hers*: *la valise de Hugo → **la sienne**, le pull de Léa → **le sien***." }
+  ],
+  "sections": [
+    {
+      "title": "1. moi, toi, lui, elle…",
+      "table": {
+        "head": ["Subject", "Stressed"], "frCols": [0, 1],
+        "rows": [
+          ["je", "moi"],
+          ["tu", "toi"],
+          ["il", "lui"],
+          ["elle", "elle"],
+          ["nous", "nous"],
+          ["vous", "vous"],
+          ["ils", "eux"],
+          ["elles", "elles"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu viens avec {nous|ton-forms} ?", "en": "Are you coming with us?" },
+        { "fr": "Mes cousins ? Je pense souvent à {eux|ton-forms}.", "en": "My cousins? I often think about them." }
+      ],
+      "tip": "Only **moi, toi, lui** and **eux** look different from the subject pronouns."
+    },
+    {
+      "title": "2. After a preposition",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu viens avec moi ?", "Are you coming with me?"],
+          ["C'est pour toi.", "It's for you."],
+          ["On dîne chez eux.", "We're having dinner at their place."],
+          ["Je ne pars pas sans elle.", "I'm not leaving without her."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce gâteau ? C'est {pour toi|ton-prep} !", "en": "This cake? It's for you!" },
+        { "fr": "Lou passe le week-end {chez eux|ton-prep}.", "en": "Lou is spending the weekend at their place." }
+      ],
+      "tip": "**chez moi** = at my place, at home; **chez eux** = at their place."
+    },
+    {
+      "title": "3. For emphasis",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Moi, je reste ici.", "I'm staying here."],
+          ["Toi, tu as toujours faim !", "You're always hungry!"],
+          ["C'est moi !", "It's me!"],
+          ["C'est lui qui a mangé le gâteau.", "He's the one who ate the cake."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Moi, je|ton-emph} préfère la mer. {Lui, il|ton-emph} préfère la montagne.", "en": "I prefer the sea. He prefers the mountains." },
+        { "fr": "Qui a fini les bugnes ? {C'est lui|ton-emph} !", "en": "Who finished the bugnes? He did!" }
+      ],
+      "tip": "English stresses a word with the voice (*I'm staying*); French adds the stressed pronoun. Always **c'est moi**, never *c'est je*."
+    },
+    {
+      "title": "4. Moi aussi, moi non plus",
+      "table": {
+        "head": ["Sentence", "Answer"], "frCols": [0, 1],
+        "rows": [
+          ["Qui veut du café ?", "Moi !"],
+          ["J'aime les crêpes.", "Moi aussi."],
+          ["Je n'aime pas le thé.", "Moi non plus."],
+          ["Tu es fatigué ?", "Pas moi !"]
+        ]
+      },
+      "examples": [
+        { "fr": "J'adore Marseille. — {Moi aussi|ton-short} !", "en": "I love Marseille. — Me too!" },
+        { "fr": "Je ne veux pas partir. — {Nous non plus|ton-short}.", "en": "I don't want to leave. — Neither do we." }
+      ],
+      "tip": "After a negative sentence, say **non plus**: *Je n'ai pas faim. — Moi non plus.*"
+    },
+    {
+      "title": "5. C'est à moi",
+      "table": {
+        "head": ["Question", "Answer"], "frCols": [0, 1],
+        "rows": [
+          ["C'est à qui, ce pull ?", "C'est à moi."],
+          ["Ces valises sont à vous ?", "Oui, elles sont à nous."],
+          ["Ce sac est à Hugo ?", "Oui, il est à lui."],
+          ["Ces jouets sont à Lou ?", "Oui, ils sont à elle."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce téléphone {est à toi|ton-a} ?", "en": "Is this phone yours?" },
+        { "fr": "Ces lunettes {sont à lui|ton-a}.", "en": "These glasses are his." }
+      ],
+      "tip": "**C'est à qui ?** = Whose is it?"
+    },
+    {
+      "title": "6. le mien, la mienne…",
+      "text": ["A possessive pronoun replaces **mon, ton, son… + noun**. Its article and its ending agree with the **thing**, not with the owner."],
+      "table": {
+        "head": ["Masculine", "Feminine", "Masculine plural", "Feminine plural", "English"], "frCols": [0, 1, 2, 3],
+        "rows": [
+          ["le mien", "la mienne", "les miens", "les miennes", "mine"],
+          ["le tien", "la tienne", "les tiens", "les tiennes", "yours"],
+          ["le sien", "la sienne", "les siens", "les siennes", "his, hers"],
+          ["le nôtre", "la nôtre", "les nôtres", "les nôtres", "ours"],
+          ["le vôtre", "la vôtre", "les vôtres", "les vôtres", "yours"],
+          ["[le leur|le-leur]", "[la leur|le-leur]", "[les leurs|le-leur]", "[les leurs|le-leur]", "theirs"]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce n'est pas ton pull, c'est {le mien|pos-forms} !", "en": "That's not your jumper, it's mine!" },
+        { "fr": "Ma valise est bleue. Et {la tienne|pos-forms} ?", "en": "My suitcase is blue. What about yours?" }
+      ],
+      "tip": "**nôtre** and **vôtre** have a circumflex and a closed o, as in *beau*: *le nôtre* /lə notʁ/. Without it, *notre* (our) has an open o: *notre maison* /nɔtʁ/."
+    },
+    {
+      "title": "7. le sien: his or hers",
+      "text": ["English chooses *his* or *hers* by the owner. French chooses **le sien** or **la sienne** by the thing."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Le pull de Léa ? C'est le sien.", "Léa's jumper? It's hers."],
+          ["Le pull de Hugo ? C'est le sien.", "Hugo's jumper? It's his."],
+          ["La valise de Hugo ? C'est la sienne.", "Hugo's suitcase? It's his."],
+          ["Les clés de Sophie ? Ce sont les siennes.", "Sophie's keys? They're hers."]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo a oublié son parapluie : Léa lui prête {le sien|pos-sien}.", "en": "Hugo has forgotten his umbrella: Léa lends him hers." },
+        { "fr": "Sophie a ses clés, et Léa a {les siennes|pos-sien}.", "en": "Sophie has her keys, and Léa has hers." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C'est je.", "right": "C'est moi.", "why": "After **c'est**, use a stressed pronoun." },
+    { "wrong": "Tu viens avec je ?", "right": "Tu viens avec moi ?", "why": "After a preposition, use **moi, toi, lui…**" },
+    { "wrong": "On dîne chez ils.", "right": "On dîne chez eux.", "why": "After a preposition, **ils** becomes **eux**." },
+    { "wrong": "Je n'aime pas le thé. — Moi aussi.", "right": "Je n'aime pas le thé. — Moi non plus.", "why": "After a negative sentence, **non plus**." },
+    { "wrong": "C'est ma valise, c'est la mien.", "right": "C'est ma valise, c'est la mienne.", "why": "**la valise** is feminine: **la mienne**." },
+    { "wrong": "La valise de Hugo ? C'est le sien.", "right": "La valise de Hugo ? C'est la sienne.", "why": "**le sien, la sienne** agree with the thing (*la valise*), not with Hugo." }
+  ],
+  "story": {
+    "title": "C'est à qui ?",
+    "en": "Sunday evening in Marseille: everyone packs, and nobody knows whose things are whose.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche soir, à Marseille. Après la grande [nouvelle|nouvelle-n], tout le monde fait ses valises. Dans le salon, il y a des affaires partout.", "en": "Sunday evening, in Marseille. After the big news, everyone is packing. In the living room, there are things everywhere." },
+      { "sp": "Anne", "fr": "Bon. {C'est à qui|ton-a}, ce pull bleu ?", "en": "Right. Whose is this blue jumper?" },
+      { "sp": "Hugo", "fr": "{À moi|ton-a} ! Euh… non, {le mien|pos-forms} est vert.", "en": "Mine! Er… no, mine is green." },
+      { "sp": "Paul", "fr": "C'est {le mien|pos-forms} ! Je le cherche depuis ce matin.", "en": "It's mine! I've been looking for it since this morning." },
+      { "sp": "Anne", "fr": "Et ces lunettes ? {Ce sont les tiennes|pos-forms}, Hugo ?", "en": "And these glasses? Are they yours, Hugo?" },
+      { "sp": "Hugo", "fr": "Non, {les miennes|pos-forms} sont… sur ma tête. Comme toujours !", "en": "No, mine are… on my head. As always!" },
+      { "sp": "Léa", "fr": "Ce sont les lunettes de Mamie. {Ce sont les siennes|pos-sien} : elle lit tout le temps !", "en": "They're Grandma's glasses. They're hers: she reads all the time!" },
+      { "sp": "", "fr": "Lou arrive avec deux nounours dans les bras.", "en": "Lou comes in with two teddy bears in her arms." },
+      { "sp": "Lou", "fr": "Les nounours, {ils sont à moi|ton-a} !", "en": "The teddies are mine!" },
+      { "sp": "Anne", "fr": "Lou, {le tien|pos-forms}, c'est le marron. Le blanc, c'est le vieux nounours de Papa. Mamie le donne aux jumeaux : maintenant, {c'est [le leur|le-leur]|pos-forms} !", "en": "Lou, yours is the brown one. The white one is Daddy's old teddy. Grandma is giving it to the twins: now it's theirs!" },
+      { "sp": "Lou", "fr": "Mais les jumeaux ne sont pas là ! Et {moi, je|ton-emph} suis là !", "en": "But the twins aren't here! And I am!" },
+      { "sp": "Jacques", "fr": "Elle a raison ! {Toi, tu|ton-emph} es la plus intelligente de la famille.", "en": "She's right! You're the smartest in the family." },
+      { "sp": "Louise", "fr": "Et la boîte de bugnes ? Elle est vide !", "en": "And the box of bugnes? It's empty!" },
+      { "sp": "Léa", "fr": "{C'est lui|ton-emph} ! C'est toujours lui !", "en": "It was him! It's always him!" },
+      { "sp": "Hugo", "fr": "Moi ? Euh… oui, {c'est moi|ton-emph}. Je ne veux pas partir, alors je mange.", "en": "Me? Er… yes, it was me. I don't want to leave, so I eat." },
+      { "sp": "Lou", "fr": "{Moi non plus|ton-short}, je ne veux pas partir !", "en": "I don't want to leave either!" },
+      { "sp": "Louise", "fr": "Revenez vite ! {Chez nous|ton-prep}, il y a toujours de la place {pour vous|ton-prep}.", "en": "Come back soon! At our place, there's always room for you." },
+      { "sp": "Paul", "fr": "Allez, Lou, tu viens {avec nous|ton-prep} ?", "en": "Come on, Lou, are you coming with us?" },
+      { "sp": "Lou", "fr": "Non ! Je reste {chez eux|ton-prep}, avec Papi et Mamie !", "en": "No! I'm staying at their place, with Grandpa and Grandma!" },
+      { "sp": "", "fr": "Enfin, tout le monde part. Dans le train pour Lyon, Hugo ouvre son sac. Dedans, il y a un pull bleu…", "en": "At last, everyone leaves. On the train to Lyon, Hugo opens his bag. Inside, there's a blue jumper…" },
+      { "sp": "Hugo", "fr": "Léa… ce n'est pas {le mien|pos-forms}. C'est le pull de Papa : {c'est le sien|pos-sien} !", "en": "Léa… this isn't mine. It's Dad's jumper: it's his!" },
+      { "sp": "Léa", "fr": "Hugo ! Avec {toi|ton-forms}, c'est toujours la même chose !", "en": "Hugo! With you, it's always the same!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ton-forms", "type": "mc", "q": "Ils viennent ce soir ? — Oui, je dîne avec ___.", "en": "Are they coming tonight? — Yes, I'm having dinner with them.", "options": ["eux", "ils", "leur"], "answer": "eux" },
+    { "case": "ton-forms", "type": "mc", "q": "Tu penses à Sophie ? — Oui, je pense à ___.", "en": "Are you thinking about Sophie? — Yes, I'm thinking about her.", "options": ["elle", "la", "lui"], "answer": "elle" },
+    { "case": "ton-prep", "type": "mc", "q": "Ce cadeau est pour ___.", "en": "This present is for you.", "options": ["toi", "tu", "te"], "answer": "toi" },
+    { "case": "ton-prep", "type": "type", "q": "Lou dort chez ___ ce soir, chez Papi et Mamie.", "en": "Lou is sleeping at their place tonight, at Grandpa and Grandma's.", "answer": "eux" },
+    { "case": "ton-emph", "type": "mc", "q": "Qui a mangé les bugnes ? — C'est ___ !", "en": "Who ate the bugnes? — He did!", "options": ["lui", "il", "le"], "answer": "lui" },
+    { "case": "ton-emph", "type": "mc", "q": "___, je préfère la montagne.", "en": "Me, I prefer the mountains.", "options": ["Moi", "Je", "Me"], "answer": "Moi" },
+    { "case": "ton-short", "type": "mc", "q": "J'adore les crêpes. — Moi ___ !", "en": "I love crêpes. — Me too!", "options": ["aussi", "non plus", "pas"], "answer": "aussi" },
+    { "case": "ton-short", "type": "mc", "q": "Je n'aime pas le thé. — Moi ___.", "en": "I don't like tea. — Me neither.", "options": ["non plus", "aussi", "pas"], "answer": "non plus" },
+    { "case": "ton-a", "type": "mc", "q": "C'est à qui, ce sac ? — Il est à ___.", "en": "Whose bag is this? — It's mine.", "options": ["moi", "je", "mon"], "answer": "moi" },
+    { "case": "ton-a", "type": "type", "q": "Ces lunettes sont à Hugo ? — Oui, elles sont à ___.", "en": "Are these glasses Hugo's? — Yes, they're his.", "answer": "lui" },
+    { "case": "pos-forms", "type": "mc", "q": "C'est ta valise ? — Oui, c'est ___.", "en": "Is it your suitcase? — Yes, it's mine.", "options": ["la mienne", "le mien", "les miennes"], "answer": "la mienne" },
+    { "case": "pos-forms", "type": "mc", "q": "Mes clés sont ici. Où sont ___ ?", "en": "My keys are here. Where are yours?", "options": ["les tiennes", "le tien", "la tienne"], "answer": "les tiennes" },
+    { "case": "pos-sien", "type": "mc", "q": "La valise de Hugo ? C'est ___.", "en": "Hugo's suitcase? It's his.", "options": ["la sienne", "le sien", "la mienne"], "answer": "la sienne" },
+    { "case": "pos-sien", "type": "mc", "lang": "en", "q": "« Le pull de Léa ? C'est le sien. » Here, le sien means…", "options": ["hers", "his", "mine"], "answer": "hers", "say": "Le pull de Léa ? C'est le sien." }
+  ]
+}
