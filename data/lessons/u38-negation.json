@@ -1,0 +1,143 @@
+{
+  "id": "u38-negation",
+  "type": "grammar",
+  "unit": 38,
+  "title": "Ni chocolat ni jeux vidéo",
+  "en": "ne… que, ni… ni, aucun",
+  "intro": "**Ne… que** isn't really a negation: it means *only* (*seulement*): *Je **n'**ai mangé **qu'**un carré.* **Ne… ni… ni** says no to two things at once: *Je **ne** mange **ni** chocolat **ni** bonbons.* **Ne… aucun(e)** means *not a single*: *Je **n'**ai **aucune** idée.* As subjects, these words come first and keep the **ne**: ***Aucun** de nous **n'**a réussi. **Rien n'**est perdu.* And negations combine: *ne… plus que, ne… plus aucun, ne… plus jamais*.",
+  "cases": [
+    { "id": "ng-que", "label": "ne… que: only", "rule": "**Ne** before the verb, **que** before the word it limits: *Je **n'**ai mangé **qu'**un carré par jour* (only one square). It's the same as *seulement*, and it's not a negation: *de* doesn't replace *un*, *une* or *des*." },
+    { "id": "ng-ni", "label": "ne… ni… ni: neither… nor", "rule": "**Ne** before the verb, **ni** before each word, and no *pas*: *Je **ne** bois **ni** thé **ni** café.* Usually without *un* or *du*: *ni chocolat ni jeux vidéo*." },
+    { "id": "ng-aucun", "label": "ne… aucun(e): not a single, no", "rule": "**Aucun** agrees with its noun and stays singular: *Je **n'**ai **aucune** idée. Il **n'**a **aucun** regret.* Alone, as an answer: ***Aucune** fois.*" },
+    { "id": "ng-sujet", "label": "aucun… ne, ni… ni… ne, rien ne, personne ne", "rule": "As the subject, these words come first, and **ne** stays before the verb: ***Aucun** de nous **n'**a réussi. **Ni** Hugo **ni** Inès **n'**ont tenu. **Rien n'**est perdu. **Personne ne** le croit.*" },
+    { "id": "ng-combi", "label": "ne… plus que, ne… plus aucun, ne… plus jamais", "rule": "Negations can combine: *Il **ne** reste **plus qu'**une part* (only one left). *Je **n'**avais **plus aucune** volonté. Je **ne** mangerai **plus jamais** de chocolat.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. ne… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je n'ai que dix euros.", "I've only got ten euros."],
+          ["Il ne parle que français.", "He only speaks French."],
+          ["Je n'ai mangé qu'un carré par jour.", "I only ate one square a day."]
+        ]
+      },
+      "examples": [
+        { "fr": "Inès {n'a acheté qu'une paire|ng-que} de chaussures.", "en": "Inès only bought one pair of shoes." },
+        { "fr": "Le bus {ne passe que le matin|ng-que}.", "en": "The bus only comes in the morning." }
+      ],
+      "tip": "*Ne… pas que* means *not only*: *Je n'ai pas que dix euros* (I've got more than ten euros)."
+    },
+    {
+      "title": "2. ne… ni… ni",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne bois ni thé ni café.", "I drink neither tea nor coffee."],
+          ["Elle ne comprend ni mes blagues ni mes histoires.", "She understands neither my jokes nor my stories."],
+          ["Il n'a ni joué ni triché.", "He neither played nor cheated."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce mois-ci, {je ne mange ni chocolat ni bonbons|ng-ni}.", "en": "This month, I'm eating neither chocolate nor sweets." },
+        { "fr": "{Il n'a ni téléphone ni ordinateur|ng-ni}.", "en": "He has neither a phone nor a computer." }
+      ],
+      "tip": "No *pas* with *ni… ni*: *je ne bois **ni** thé **ni** café*, never *je ne bois pas ni…*"
+    },
+    {
+      "title": "3. ne… aucun, ne… aucune",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je n'ai aucune idée.", "I have no idea."],
+          ["Il n'a aucun regret.", "He has no regrets."],
+          ["Tu as triché ? — Aucune fois !", "Did you cheat? — Not once!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je n'ai ouvert aucune application|ng-aucun} après dix heures.", "en": "I didn't open a single app after ten." },
+        { "fr": "{Il n'y a aucun problème|ng-aucun}.", "en": "There's no problem at all." }
+      ]
+    },
+    {
+      "title": "4. aucun… ne, ni… ni… ne, rien ne, personne ne",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Aucun de nous n'a réussi.", "None of us succeeded."],
+          ["Ni Hugo ni Inès n'ont tenu.", "Neither Hugo nor Inès held out."],
+          ["Rien n'est perdu.", "Nothing is lost."],
+          ["Personne ne le croit.", "Nobody believes him."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Aucun étudiant n'a répondu|ng-sujet}.", "en": "Not a single student answered." },
+        { "fr": "{Rien ne fonctionne|ng-sujet} dans cette maison !", "en": "Nothing works in this house!" }
+      ],
+      "tip": "*Aucun* is singular, so its verb is too: *aucun étudiant **n'a***. After *ni… ni*, the verb is usually plural: *ni Hugo ni Inès **n'ont***."
+    },
+    {
+      "title": "5. ne… plus que, ne… plus aucun, ne… plus jamais",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il ne reste plus qu'une part.", "There's only one piece left."],
+          ["Je n'ai plus aucune volonté.", "I have no willpower left at all."],
+          ["Je ne mangerai plus jamais de chocolat.", "I'll never eat chocolate again."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il ne reste plus que deux jours|ng-combi}.", "en": "There are only two days left." },
+        { "fr": "{Ma mère ne m'[appelle|appeler] plus que|ng-combi} le dimanche.", "en": "My mother only calls me on Sundays now." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je ne mange pas ni chocolat ni bonbons.", "right": "Je ne mange ni chocolat ni bonbons.", "why": "No *pas* with *ni… ni*." },
+    { "wrong": "Je n'ai aucuns amis ici.", "right": "Je n'ai aucun ami ici.", "why": "*Aucun* stays singular, and so does its noun." },
+    { "wrong": "Aucun étudiant n'ont réussi.", "right": "Aucun étudiant n'a réussi.", "why": "*Aucun* is singular, so the verb is too." },
+    { "wrong": "Personne a réussi.", "right": "Personne n'a réussi.", "why": "As subjects, *personne*, *rien* and *aucun* keep the *ne*." },
+    { "wrong": "Je n'ai pas que dix euros.", "right": "Je n'ai que dix euros.", "why": "*Ne… que* means *only*; *ne… pas que* means *not only*." }
+  ],
+  "story": {
+    "title": "Le défi de janvier",
+    "en": "Sunday 31 January: at Léa and Sophie's, the friends check how their January challenges went.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche trente et un janvier, les amis se retrouvent chez Léa et Sophie. Le premier janvier, chacun avait choisi un défi pour le mois. Ce soir, c'est l'heure de vérité.", "en": "On Sunday 31 January, the friends get together at Léa and Sophie's. On the first of January, each of them chose a challenge for the month. Tonight is the moment of truth." },
+      { "sp": "Léa", "fr": "Hugo, ton défi, c'était : {ni chocolat ni jeux vidéo|ng-ni}. Alors ?", "en": "Hugo, your challenge was: no chocolate and no video games. So?" },
+      { "sp": "Hugo", "fr": "Les jeux vidéo, c'est réussi. Le chocolat… {je n'en ai mangé qu'un carré|ng-que} par jour.", "en": "Video games: done. Chocolate… I only ate one square a day." },
+      { "sp": "Carla", "fr": "Un carré par jour, pendant trente et un jours… Ça fait une tablette entière !", "en": "One square a day, for thirty-one days… That's a whole bar!" },
+      { "sp": "Hugo", "fr": "{Je n'ai aucun regret|ng-aucun}.", "en": "I have no regrets." },
+      { "sp": "Inès", "fr": "Et toi, Tom ? Ton défi, c'était de {ne parler que français|ng-que}, même au téléphone avec ta famille.", "en": "And you, Tom? Your challenge was to speak only French, even on the phone with your family." },
+      { "sp": "Tom", "fr": "J'ai réussi ! Mais maintenant, {ma mère ne m'[appelle|appeler] plus que|ng-combi} le dimanche. {Elle ne comprend ni mes blagues ni mes histoires|ng-ni}.", "en": "I did it! But now my mother only calls me on Sundays. She understands neither my jokes nor my stories." },
+      { "sp": "Léa", "fr": "Moi, mon défi : {aucun écran|ng-aucun} après dix heures du soir. J'ai tenu jusqu'au vingt janvier.", "en": "My challenge: no screens after ten at night. I held out until 20 January." },
+      { "sp": "Sophie", "fr": "Et pourquoi tu as arrêté ?", "en": "And why did you stop?" },
+      { "sp": "Léa", "fr": "Parce que Hugo m'a envoyé quarante photos de Madrid à onze heures du soir. {Je n'avais plus aucune volonté|ng-combi} !", "en": "Because Hugo sent me forty photos of Madrid at eleven at night. I had no willpower left!" },
+      { "sp": "Sophie", "fr": "Moi, je ne devais plus travailler après minuit. {Je n'ai dépassé minuit que deux fois|ng-que}.", "en": "I wasn't supposed to work after midnight any more. I only went past midnight twice." },
+      { "sp": "Inès", "fr": "Et moi… pas d'achats pendant les soldes. Bon… {je n'ai acheté qu'une paire|ng-que} de chaussures. Et deux robes.", "en": "And me… no shopping during the sales. Well… I only bought one pair of shoes. And two dresses." },
+      { "sp": "Carla", "fr": "Moi, {je n'ai bu ni vin ni bière|ng-ni} pendant un mois. C'était mon défi sans alcool.", "en": "I drank neither wine nor beer for a month. That was my alcohol-free challenge." },
+      { "sp": "Hugo", "fr": "Et tu n'as triché aucune fois ?", "en": "And you didn't cheat even once?" },
+      { "sp": "Carla", "fr": "{Aucune fois|ng-aucun}. Même le premier janvier, à Madrid, {je ne buvais que de l'eau|ng-que}.", "en": "Not once. Even on the first of January, in Madrid, I only drank water." },
+      { "sp": "Léa", "fr": "Résultat : {aucun de nous n'a réussi|ng-sujet}… sauf Carla.", "en": "Result: none of us succeeded… except Carla." },
+      { "sp": "Tom", "fr": "Hé ! Moi aussi, j'ai réussi !", "en": "Hey! I succeeded too!" },
+      { "sp": "Léa", "fr": "C'est vrai. {Ni Hugo ni Inès n'ont tenu|ng-sujet}, mais Tom et Carla, oui.", "en": "That's true. Neither Hugo nor Inès held out, but Tom and Carla did." },
+      { "sp": "Hugo", "fr": "{Rien n'est perdu|ng-sujet} : en février, je recommence ! {Je ne mangerai plus jamais|ng-combi} de chocolat !", "en": "Nothing is lost: in February, I'm starting again! I'll never eat chocolate again!" },
+      { "sp": "", "fr": "Silence. Puis tout le monde rit. {Personne ne le croit|ng-sujet}.", "en": "Silence. Then everyone laughs. Nobody believes him." },
+      { "sp": "", "fr": "Dix minutes plus tard, Sophie sort un gâteau au chocolat du four. Bientôt, {il ne reste plus qu'une part|ng-combi}… et Hugo a du chocolat sur le nez.", "en": "Ten minutes later, Sophie takes a chocolate cake out of the oven. Soon, there's only one piece left… and Hugo has chocolate on his nose." }
+    ]
+  },
+  "quiz": [
+    { "case": "ng-que", "type": "mc", "q": "Je n'ai ___ dix euros.", "en": "I've only got ten euros.", "options": ["que", "pas que", "aucun"], "answer": "que" },
+    { "case": "ng-que", "type": "mc", "lang": "en", "q": "« Il ne parle que français » means…", "options": ["He only speaks French.", "He doesn't speak French.", "He speaks French too."], "answer": "He only speaks French.", "say": "Il ne parle que français." },
+    { "case": "ng-ni", "type": "mc", "q": "Je ne mange ___ chocolat ni bonbons.", "en": "I eat neither chocolate nor sweets.", "options": ["ni", "pas", "aucun"], "answer": "ni" },
+    { "case": "ng-ni", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Je ne bois ni thé ni café.", "Je ne bois pas ni thé ni café.", "Je bois pas ni thé ni café."], "answer": "Je ne bois ni thé ni café." },
+    { "case": "ng-aucun", "type": "mc", "q": "Je n'ai ___ idée.", "en": "I have no idea.", "options": ["aucune", "aucun", "aucunes"], "answer": "aucune" },
+    { "case": "ng-aucun", "type": "mc", "q": "Il n'a ___ regret.", "en": "He has no regrets.", "options": ["aucun", "aucune", "pas aucun"], "answer": "aucun" },
+    { "case": "ng-sujet", "type": "mc", "q": "Aucun étudiant ___ réussi.", "en": "Not a single student passed.", "options": ["n'a", "a", "n'ont"], "answer": "n'a" },
+    { "case": "ng-sujet", "type": "mc", "q": "Ni Hugo ni Inès ___ tenu.", "en": "Neither Hugo nor Inès held out.", "options": ["n'ont", "ont", "n'ont pas"], "answer": "n'ont" },
+    { "case": "ng-combi", "type": "mc", "q": "Il ne reste plus ___ deux jours.", "en": "There are only two days left.", "options": ["que", "aucun", "rien"], "answer": "que" },
+    { "case": "ng-combi", "type": "mc", "q": "Je ne mangerai plus ___ de chocolat !", "en": "I'll never eat chocolate again!", "options": ["jamais", "aucun", "que"], "answer": "jamais" }
+  ]
+}

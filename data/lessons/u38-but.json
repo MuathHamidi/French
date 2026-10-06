@@ -1,0 +1,142 @@
+{
+  "id": "u38-but",
+  "type": "grammar",
+  "unit": 38,
+  "title": "Pour que le pain soit bon",
+  "en": "Purpose: pour, afin de, pour que…",
+  "intro": "To say **why** you do something, use **pour** + infinitive when the subject stays the same, and **pour que** + subjunctive when it changes. **Afin de** and **afin que** are the same, more formal. To avoid something, use **pour ne pas** + infinitive and **de peur de** + infinitive or **de peur que** + subjunctive. **De façon à** and **de manière à** + infinitive mean *so as to*, and **de sorte que** + subjunctive means *so that*. **Dans le but de** and **en vue de** are written French; **histoire de** is spoken.",
+  "cases": [
+    { "id": "bu-pour", "label": "pour + infinitive, pour que + subjunctive", "rule": "Same subject: **pour** + infinitive: *Enzo travaille **pour devenir** boulanger.* Another subject: **pour que** + subjunctive: *On pétrit **pour que** la pâte **devienne** élastique.*" },
+    { "id": "bu-afin", "label": "afin de, afin que: in order to (formal)", "rule": "**Afin de** + infinitive and **afin que** + subjunctive work like *pour* and *pour que*, in a more careful style: *On laisse reposer la pâte **afin qu'**elle **lève**.*" },
+    { "id": "bu-eviter", "label": "pour ne pas, de peur de, de peur que: to avoid", "rule": "To avoid something: **pour ne pas** + infinitive (*ne pas* stays together, before the verb): *Il met des gants **pour ne pas** se brûler.* **De peur de** + infinitive, **de peur que** + subjunctive: *Il surveille le four **de peur que** le pain **brûle**.*" },
+    { "id": "bu-maniere", "label": "de façon à, de manière à, de sorte que", "rule": "**De façon à** and **de manière à** + infinitive (so as to): *On met un bol d'eau dans le four, **de manière à** faire de la vapeur.* **De sorte que** + subjunctive (so that): *Range tout **de sorte que** ce **soit** prêt demain.*" },
+    { "id": "bu-oral", "label": "dans le but de, en vue de, histoire de", "rule": "**Dans le but de** + infinitive and **en vue de** + noun are written French: *Il s'entraîne **en vue de** son CAP.* In speech, **histoire de** + infinitive (just to): *J'en prends un deuxième, **histoire de** vérifier.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. pour, pour que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Enzo travaille pour devenir boulanger.", "Enzo works to become a baker: same subject, pour + infinitive."],
+          ["On pétrit pour que la pâte devienne élastique.", "You knead so that the dough becomes elastic: another subject, pour que + subjunctive."]
+        ]
+      },
+      "examples": [
+        { "fr": "On fait des entailles {pour que le pain s'ouvre|bu-pour} bien.", "en": "You cut slashes so that the bread opens up well." },
+        { "fr": "Je me lève tôt {pour être|bu-pour} à l'heure.", "en": "I get up early to be on time." }
+      ]
+    },
+    {
+      "title": "2. afin de, afin que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Lavez-vous les mains, afin que tout soit propre.", "Wash your hands, so that everything is clean."],
+          ["Je goûte afin de donner mon avis.", "I'm tasting it in order to give my opinion."]
+        ]
+      },
+      "examples": [
+        { "fr": "On laisse reposer la pâte {afin qu'elle lève|bu-afin}.", "en": "You let the dough rest so that it rises." },
+        { "fr": "Il écrit tout {afin de ne rien oublier|bu-afin}.", "en": "He writes everything down so as not to forget anything." }
+      ],
+      "tip": "*Afin de* and *afin que* sound more formal: you'll find them in letters, instructions and recipes."
+    },
+    {
+      "title": "3. pour ne pas, de peur de, de peur que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il met des gants pour ne pas se brûler.", "He puts gloves on so as not to burn himself."],
+          ["Elle part tôt de peur d'être en retard.", "She leaves early for fear of being late."],
+          ["Il surveille le four de peur que le pain brûle.", "He watches the oven for fear the bread burns."]
+        ]
+      },
+      "examples": [
+        { "fr": "Parle doucement {pour ne pas réveiller|bu-eviter} Lou.", "en": "Speak quietly so as not to wake Lou." },
+        { "fr": "Elle ne dit rien, {de peur de se tromper|bu-eviter}.", "en": "She says nothing, for fear of getting it wrong." }
+      ],
+      "tip": "With an infinitive, *ne pas* stays together before the verb: *pour **ne pas** oublier*, never *pour ne oublier pas*."
+    },
+    {
+      "title": "4. de façon à, de manière à, de sorte que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["On met un bol d'eau dans le four, de manière à faire de la vapeur.", "You put a bowl of water in the oven, so as to make steam."],
+          ["Il range tout de façon à travailler tranquille.", "He tidies everything up so as to work in peace."],
+          ["Range la boulangerie de sorte que tout soit prêt demain.", "Tidy the bakery so that everything is ready tomorrow."]
+        ]
+      },
+      "examples": [
+        { "fr": "Un bon boulanger attend {de façon à avoir|bu-maniere} une mie légère.", "en": "A good baker waits so as to get a light crumb." },
+        { "fr": "Il parle lentement, {de sorte que tout le monde comprenne|bu-maniere}.", "en": "He speaks slowly, so that everyone understands." }
+      ],
+      "tip": "With the indicative, *de sorte que* gives a result instead: *il a parlé lentement, de sorte que tout le monde **a compris***."
+    },
+    {
+      "title": "5. dans le but de, en vue de, histoire de",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il s'entraîne en vue de son CAP.", "He's practising for his CAP."],
+          ["Elle économise dans le but de voyager.", "She's saving with the aim of travelling."],
+          ["J'en prends un deuxième, [histoire de|histoire-de] vérifier.", "I'll take a second one, just to check."]
+        ]
+      },
+      "examples": [
+        { "fr": "Elle étudie {dans le but de devenir|bu-oral} professeure.", "en": "She's studying with the aim of becoming a teacher." },
+        { "fr": "On sort un peu, {[histoire de|histoire-de] prendre l'air|bu-oral} ?", "en": "Shall we go out for a bit, just to get some air?" }
+      ],
+      "tip": "*Histoire de* is relaxed spoken French; in an essay, write *afin de* or *dans le but de*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je travaille pour je réussis.", "right": "Je travaille pour réussir.", "why": "*Pour* is followed by an infinitive, never by a conjugated verb." },
+    { "wrong": "On pétrit pour que la pâte devient élastique.", "right": "On pétrit pour que la pâte devienne élastique.", "why": "*Pour que* is always followed by the subjunctive." },
+    { "wrong": "Je me lève tôt pour que je sois à l'heure.", "right": "Je me lève tôt pour être à l'heure.", "why": "Same subject: *pour* + infinitive, not *pour que*." },
+    { "wrong": "Il met des gants pour ne se brûler pas.", "right": "Il met des gants pour ne pas se brûler.", "why": "Before an infinitive, *ne pas* stays together." },
+    { "wrong": "J'en prends un deuxième, histoire que je vérifie.", "right": "J'en prends un deuxième, histoire de vérifier.", "why": "*Histoire de* is only followed by an infinitive." }
+  ],
+  "story": {
+    "title": "Le pain d'Enzo",
+    "en": "Saturday 23 January: at five in the morning, Madame Fournier finally lets Enzo make the bread.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-trois janvier, à cinq heures du matin, Madame Fournier laisse enfin Enzo faire le pain. Tom et Hugo descendent {pour regarder|bu-pour}… et pour goûter.", "en": "On Saturday 23 January, at five in the morning, Madame Fournier finally lets Enzo make the bread. Tom and Hugo come down to watch… and to taste." },
+      { "sp": "Madame Fournier", "fr": "D'abord, la farine, l'eau, le sel et la levure. Ensuite, on pétrit longtemps, {pour que la pâte devienne|bu-pour} élastique.", "en": "First, the flour, the water, the salt and the yeast. Then you knead for a long time, so that the dough becomes elastic." },
+      { "sp": "Enzo", "fr": "Je pétris de toutes mes forces, {pour devenir|bu-pour} un vrai boulanger !", "en": "I'm kneading with all my strength, to become a real baker!" },
+      { "sp": "Hugo", "fr": "Et nous, on peut aider ?", "en": "And can we help?" },
+      { "sp": "Madame Fournier", "fr": "Lavez-vous les mains, {afin que tout soit|bu-afin} propre.", "en": "Wash your hands, so that everything is clean." },
+      { "sp": "", "fr": "Ensuite, on laisse reposer la pâte {afin qu'elle lève|bu-afin}. Pendant ce temps, Madame Fournier fait du café, {[histoire de|histoire-de] réveiller|bu-oral} tout le monde.", "en": "Next, you let the dough rest so that it rises. Meanwhile, Madame Fournier makes coffee, just to wake everyone up." },
+      { "sp": "Tom", "fr": "Pourquoi on attend si longtemps ?", "en": "Why do we wait so long?" },
+      { "sp": "Madame Fournier", "fr": "Un bon boulanger ne se dépêche jamais. On attend {de façon à avoir|bu-maniere} une mie légère.", "en": "A good baker never hurries. You wait so as to get a light crumb." },
+      { "sp": "", "fr": "Enzo roule la pâte en longues baguettes. Puis il fait des entailles sur chaque pain, avec un petit couteau.", "en": "Enzo rolls the dough into long baguettes. Then he cuts slashes on each loaf, with a small knife." },
+      { "sp": "Madame Fournier", "fr": "On fait des entailles {pour que le pain s'ouvre|bu-pour} bien dans le four.", "en": "You cut slashes so that the bread opens up well in the oven." },
+      { "sp": "", "fr": "Enzo met un bol d'eau dans le four, {de manière à faire|bu-maniere} de la vapeur. {Pour ne pas se brûler|bu-eviter}, il met de gros gants.", "en": "Enzo puts a bowl of water in the oven, so as to make steam. So as not to burn himself, he puts on thick gloves." },
+      { "sp": "Hugo", "fr": "Pourquoi de la vapeur ?", "en": "Why steam?" },
+      { "sp": "Enzo", "fr": "{Pour que la croûte soit|bu-pour} croustillante, frère !", "en": "So that the crust is crispy, bro!" },
+      { "sp": "", "fr": "Pendant la cuisson, Enzo ne [quitte|quitter] pas le four des yeux, {de peur que le pain brûle|bu-eviter}, comme ses premiers croissants.", "en": "While it bakes, Enzo doesn't take his eyes off the oven, for fear the bread burns, like his first croissants." },
+      { "sp": "Madame Fournier", "fr": "Très bien, Enzo. Tu t'entraînes {en vue de ton CAP|bu-oral} : c'est sérieux.", "en": "Very good, Enzo. You're practising for your CAP: this is serious." },
+      { "sp": "", "fr": "À six heures et demie, les baguettes sortent du four, dorées et croustillantes.", "en": "At half past six, the baguettes come out of the oven, golden and crispy." },
+      { "sp": "Tom", "fr": "Je peux en goûter une, {afin de donner|bu-afin} mon avis ?", "en": "Can I taste one, in order to give my opinion?" },
+      { "sp": "Hugo", "fr": "Et moi, j'en prends une deuxième, {[histoire de|histoire-de] vérifier|bu-oral}.", "en": "And I'll take a second one, just to check." },
+      { "sp": "Madame Fournier", "fr": "Enzo, range la boulangerie {de sorte que tout soit|bu-maniere} prêt pour demain.", "en": "Enzo, tidy the bakery so that everything is ready for tomorrow." },
+      { "sp": "Enzo", "fr": "Mamie… je les ai faites {pour que tu sois|bu-pour} fière de moi.", "en": "Grandma… I made them so that you'd be proud of me." },
+      { "sp": "Madame Fournier", "fr": "Je suis fière de toi. À sept heures, tes baguettes seront dans la vitrine, {pour que tout le quartier les goûte|bu-pour}.", "en": "I'm proud of you. At seven, your baguettes will be in the window, so that the whole neighbourhood can taste them." },
+      { "sp": "", "fr": "À sept heures, la première cliente achète une baguette d'Enzo. Elle ne sait pas qu'Enzo la regarde, caché derrière la porte de la cuisine.", "en": "At seven, the first customer buys one of Enzo's baguettes. She doesn't know Enzo is watching her, hidden behind the kitchen door." }
+    ]
+  },
+  "quiz": [
+    { "case": "bu-pour", "type": "mc", "q": "Enzo travaille pour ___ boulanger.", "en": "Enzo works to become a baker.", "options": ["devenir", "qu'il devienne", "devient"], "answer": "devenir" },
+    { "case": "bu-pour", "type": "mc", "q": "On pétrit pour que la pâte ___ élastique.", "en": "You knead so that the dough becomes elastic.", "options": ["devienne", "devient", "deviendra"], "answer": "devienne" },
+    { "case": "bu-afin", "type": "mc", "q": "Lavez-vous les mains, afin que tout ___ propre.", "en": "Wash your hands, so that everything is clean.", "options": ["soit", "est", "sera"], "answer": "soit" },
+    { "case": "bu-afin", "type": "mc", "lang": "en", "q": "« afin de » is…", "options": ["a more formal « pour »", "another way to say « parce que »", "another way to say « bien que »"], "answer": "a more formal « pour »", "say": "afin de" },
+    { "case": "bu-eviter", "type": "mc", "q": "Il met des gants pour ___ se brûler.", "en": "He puts gloves on so as not to burn himself.", "options": ["ne pas", "pas", "ne"], "answer": "ne pas" },
+    { "case": "bu-eviter", "type": "mc", "q": "Il surveille le four de peur que le pain ___.", "en": "He watches the oven for fear the bread burns.", "options": ["brûle", "brûlera", "brûlait"], "answer": "brûle" },
+    { "case": "bu-maniere", "type": "mc", "q": "On met un bol d'eau, de manière ___ faire de la vapeur.", "en": "You put a bowl of water in, so as to make steam.", "options": ["à", "que", "de"], "answer": "à" },
+    { "case": "bu-maniere", "type": "mc", "q": "Range tout de sorte que ce ___ prêt demain.", "en": "Tidy everything so that it's ready tomorrow.", "options": ["soit", "est", "sera"], "answer": "soit" },
+    { "case": "bu-oral", "type": "mc", "lang": "en", "q": "« histoire de vérifier » means…", "options": ["just to check", "a story about checking", "because I checked"], "answer": "just to check", "say": "histoire de vérifier" },
+    { "case": "bu-oral", "type": "mc", "q": "Il s'entraîne ___ son CAP.", "en": "He's practising for his CAP.", "options": ["en vue de", "pour que", "de peur que"], "answer": "en vue de" }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "u38-universite",
+  "type": "vocab",
+  "unit": 38,
+  "title": "L'université",
+  "en": "University",
+  "intro": "25 words for university: the place (**le campus, l'amphithéâtre, la cité universitaire, le resto U, la journée portes ouvertes**), the classes (**le cours magistral, les travaux dirigés, l'emploi du temps, assister, sécher, l'enseignant, l'enseignement**), the degrees (**la filière, la licence, le master, le doctorat, l'inscription, la bourse, la rentrée**) and the exams (**le semestre, le partiel, réviser, la moyenne, valider, le rattrapage**). A French *licence* takes three years, a *master* two more.",
+  "words": [
+    { "id": "campus", "fr": "campus", "pos": "noun", "g": "m", "ipa": "kɑ̃.pys", "en": "campus", "def": "L'ensemble des bâtiments et des jardins d'une université.", "def_en": "All the buildings and grounds of a university.", "examples": [
+      { "fr": "Le **campus** est au bord du Rhône.", "en": "The campus is on the banks of the Rhône." },
+      { "fr": "Une étudiante nous fait visiter le **campus**.", "en": "A student shows us round the campus." },
+      { "fr": "Il y a une bibliothèque sur le **campus**.", "en": "There's a library on campus." }
+    ] },
+    { "id": "amphitheatre", "fr": "amphithéâtre", "pos": "noun", "g": "m", "ipa": "ɑ̃.fi.te.ɑtʁ", "en": "lecture hall", "def": "Une très grande salle de cours, où les places montent comme au théâtre.", "def_en": "A very large classroom, where the seats rise as in a theatre.", "note": "Students say *l'amphi*.", "forms": ["amphithéâtres"], "examples": [
+      { "fr": "L'**amphithéâtre** a trois cents places.", "en": "The lecture hall has three hundred seats." },
+      { "fr": "Le cours est dans le grand **amphithéâtre**.", "en": "The lecture is in the big lecture hall." },
+      { "fr": "Au fond de l'**amphithéâtre**, on entend mal.", "en": "At the back of the lecture hall, you can't hear well." }
+    ] },
+    { "id": "cours-magistral", "fr": "cours magistral", "pos": "noun", "g": "m", "ipa": "kuʁ ma.ʒis.tʁal", "en": "lecture (to a large group)", "def": "Un cours où l'enseignant parle devant beaucoup d'étudiants, qui prennent des notes.", "def_en": "A class where the teacher talks in front of many students, who take notes.", "forms": ["cours magistraux"], "examples": [
+      { "fr": "Le **cours magistral** [dure|durer] deux heures.", "en": "The lecture lasts two hours." },
+      { "fr": "Pendant les **cours magistraux**, on prend des notes.", "en": "During lectures, you take notes." },
+      { "fr": "Dans un **cours magistral**, on ne pose pas de questions.", "en": "In a lecture, you don't ask questions." }
+    ] },
+    { "id": "travaux-diriges", "fr": "travaux dirigés", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "tʁa.vo di.ʁi.ʒe", "en": "tutorials, seminars (classes in small groups)", "def": "Les cours en petits groupes, où les étudiants font des exercices avec un enseignant.", "def_en": "Classes in small groups, where students do exercises with a teacher.", "note": "Students say *les TD*.", "examples": [
+      { "fr": "Les **travaux dirigés** sont en petits groupes.", "en": "Tutorials are in small groups." },
+      { "fr": "En **travaux dirigés**, on peut poser des questions.", "en": "In tutorials, you can ask questions." },
+      { "fr": "J'ai trois heures de **travaux dirigés** le jeudi.", "en": "I have three hours of tutorials on Thursdays." }
+    ] },
+    { "id": "partiel", "fr": "partiel", "pos": "noun", "g": "m", "ipa": "paʁ.sjɛl", "en": "end-of-semester exam (at university)", "def": "Un examen à l'université, à la fin d'un semestre.", "def_en": "An exam at university, at the end of a semester.", "note": "As an adjective: *à temps partiel* = part-time.", "forms": ["partiels"], "examples": [
+      { "fr": "Les **partiels** commencent lundi.", "en": "The exams start on Monday." },
+      { "fr": "J'ai raté mon **partiel** d'histoire.", "en": "I failed my history exam." },
+      { "fr": "En janvier, les étudiants passent leurs **partiels**.", "en": "In January, students sit their exams." }
+    ] },
+    { "id": "semestre", "fr": "semestre", "pos": "noun", "g": "m", "ipa": "sə.mɛstʁ", "en": "semester, half-year", "def": "Une moitié de l'année à l'université : six mois.", "def_en": "Half of the university year: six months.", "forms": ["semestres"], "examples": [
+      { "fr": "Il y a deux **semestres** dans l'année.", "en": "There are two semesters in the year." },
+      { "fr": "Le deuxième **semestre** commence en janvier.", "en": "The second semester starts in January." },
+      { "fr": "J'ai validé mon premier **semestre** !", "en": "I've passed my first semester!" }
+    ] },
+    { "id": "inscription", "fr": "inscription", "pos": "noun", "g": "f", "ipa": "ɛ̃s.kʁip.sjɔ̃", "en": "registration, enrolment", "def": "Le fait de s'inscrire, par exemple à l'université ou à un club.", "def_en": "Signing up, for example at university or for a club.", "forms": ["inscriptions"], "examples": [
+      { "fr": "L'**inscription** à l'université coûte environ deux cents euros.", "en": "Enrolling at university costs about two hundred euros." },
+      { "fr": "Les **inscriptions** commencent en mars.", "en": "Registration starts in March." },
+      { "fr": "Pour l'**inscription**, il faut un dossier complet.", "en": "To enrol, you need a complete file." }
+    ] },
+    { "id": "licence", "fr": "licence", "pos": "noun", "g": "f", "ipa": "li.sɑ̃s", "en": "bachelor's degree (three years at university); licence", "def": "Le diplôme qu'on obtient après trois ans à l'université.", "def_en": "The degree you get after three years at university.", "forms": ["licences"], "examples": [
+      { "fr": "Tom veut faire une **licence** de musique.", "en": "Tom wants to do a music degree." },
+      { "fr": "La **licence** dure trois ans.", "en": "The bachelor's degree takes three years." },
+      { "fr": "Après sa **licence**, elle a fait un master.", "en": "After her bachelor's, she did a master's." }
+    ] },
+    { "id": "master", "fr": "master", "pos": "noun", "g": "m", "ipa": "mas.tɛʁ", "en": "master's degree", "def": "Le diplôme qu'on obtient après cinq ans d'études à l'université.", "def_en": "The degree you get after five years of study at university.", "forms": ["masters"], "examples": [
+      { "fr": "Elle est étudiante en **master**.", "en": "She's a master's student." },
+      { "fr": "Le **master** dure deux ans, après la licence.", "en": "The master's takes two years, after the bachelor's." },
+      { "fr": "Il faut un **master** pour enseigner le français aux étrangers.", "en": "You need a master's to teach French to foreigners." }
+    ] },
+    { "id": "doctorat", "fr": "doctorat", "pos": "noun", "g": "m", "ipa": "dɔk.tɔ.ʁa", "en": "doctorate, PhD", "def": "Le plus haut diplôme de l'université, après plusieurs années de recherche.", "def_en": "The highest university degree, after several years of research.", "forms": ["doctorats"], "examples": [
+      { "fr": "Elle prépare un **doctorat** en biologie.", "en": "She's working on a PhD in biology." },
+      { "fr": "Un **doctorat** prend trois ans, ou plus.", "en": "A PhD takes three years, or more." },
+      { "fr": "Avec un **doctorat**, on peut devenir chercheur.", "en": "With a PhD, you can become a researcher." }
+    ] },
+    { "id": "bourse", "fr": "bourse", "pos": "noun", "g": "f", "ipa": "buʁs", "en": "grant, scholarship; (la Bourse) the stock exchange", "def": "L'argent que l'État donne à certains étudiants pour payer leurs études.", "def_en": "The money the state gives some students to pay for their studies.", "forms": ["bourses"], "examples": [
+      { "fr": "Il a une **bourse** pour ses études.", "en": "He has a grant for his studies." },
+      { "fr": "Vous pouvez demander une **bourse**.", "en": "You can apply for a grant." },
+      { "fr": "Sans **bourse**, elle ne pourrait pas étudier.", "en": "Without a grant, she couldn't study." }
+    ] },
+    { "id": "resto-u", "fr": "resto U", "pos": "noun", "g": "m", "ipa": "ʁɛs.to y", "en": "university canteen (short for restaurant universitaire)", "def": "Le restaurant pas cher des étudiants, à l'université.", "def_en": "The cheap students' restaurant at university.", "forms": ["restos U"], "examples": [
+      { "fr": "Au **resto U**, un repas coûte trois euros.", "en": "At the university canteen, a meal costs three euros." },
+      { "fr": "On mange au **resto U** à midi ?", "en": "Shall we eat at the canteen at lunchtime?" },
+      { "fr": "Le **resto U** est plein à midi et demi.", "en": "The canteen is full at half past twelve." }
+    ] },
+    { "id": "cite-universitaire", "fr": "cité universitaire", "pos": "noun", "g": "f", "ipa": "si.te y.ni.vɛʁ.si.tɛʁ", "en": "student halls of residence", "def": "Un ensemble de logements pour les étudiants, près de l'université.", "def_en": "A group of student housing near the university.", "note": "Students say *la cité U*.", "forms": ["cités universitaires", "cité U"], "examples": [
+      { "fr": "Il habite à la **cité universitaire**.", "en": "He lives in the halls of residence." },
+      { "fr": "À la **cité U**, les chambres sont petites.", "en": "In the halls, the rooms are small." },
+      { "fr": "La **cité universitaire** est à cinq minutes des cours.", "en": "The halls are five minutes from the lectures." }
+    ] },
+    { "id": "reviser", "fr": "réviser", "pos": "verb", "ipa": "ʁe.vi.ze", "en": "to revise, to study (for an exam); to service (a car)", "def": "Lire et apprendre encore ses cours, avant un examen.", "def_en": "To read and learn your notes again, before an exam.", "forms": ["révise", "révises", "révisons", "révisez", "révisent", "révisé", "révisée", "révisés", "révisées", "révisais", "révisait", "révisions", "révisiez", "révisaient", "réviserai", "réviseras", "révisera", "réviserons", "réviserez", "réviseront", "réviserais", "réviserait", "réviserions", "réviseriez", "réviseraient", "révisant", "révisai", "révisas", "révisa", "révisâmes", "révisâtes", "révisèrent"], "examples": [
+      { "fr": "En janvier, tout le monde **révise** à la bibliothèque.", "en": "In January, everyone revises in the library." },
+      { "fr": "J'ai **révisé** toute la nuit.", "en": "I revised all night." },
+      { "fr": "Tu **révises** avec moi ce soir ?", "en": "Will you revise with me tonight?" }
+    ] },
+    { "id": "rattrapage", "fr": "rattrapage", "pos": "noun", "g": "m", "ipa": "ʁa.tʁa.paʒ", "en": "resit (exam)", "def": "Une deuxième chance de passer un examen, quand on n'a pas réussi la première fois.", "def_en": "A second chance to sit an exam, when you didn't pass the first time.", "forms": ["rattrapages"], "examples": [
+      { "fr": "Il y a une session de **rattrapage** en juin.", "en": "There's a resit session in June." },
+      { "fr": "Hugo a eu son bac au **rattrapage**.", "en": "Hugo got his bac at the resit." },
+      { "fr": "Si tu n'as pas la moyenne, tu vas au **rattrapage**.", "en": "If you don't get the pass mark, you have to resit." }
+    ] },
+    { "id": "moyenne-n", "fr": "moyenne", "pos": "noun", "g": "f", "ipa": "mwa.jɛn", "en": "average; (school) pass mark (avoir la moyenne = to get at least 10 out of 20)", "def": "Le résultat de toutes les notes ensemble. Il faut au moins dix sur vingt pour réussir.", "def_en": "The result of all your marks together. You need at least ten out of twenty to pass.", "forms": ["moyennes"], "examples": [
+      { "fr": "Pour valider ton année, il faut avoir la **moyenne**.", "en": "To pass your year, you need the pass mark." },
+      { "fr": "J'ai douze de **moyenne** en maths.", "en": "I have an average of twelve in maths." },
+      { "fr": "Elle a eu tout juste la **moyenne**.", "en": "She only just got the pass mark." }
+    ] },
+    { "id": "valider", "fr": "valider", "pos": "verb", "ipa": "va.li.de", "en": "to pass (a year, a module); to validate, to confirm", "def": "Réussir une année ou un examen, pour pouvoir continuer. Aussi : confirmer.", "def_en": "To pass a year or an exam, so you can carry on. Also: to confirm.", "forms": ["valide", "valides", "validons", "validez", "valident", "validé", "validée", "validés", "validées", "validais", "validait", "validions", "validiez", "validaient", "validerai", "valideras", "validera", "validerons", "validerez", "valideront", "validerais", "validerait", "validerions", "valideriez", "valideraient", "validant", "validai", "validas", "valida", "validâmes", "validâtes", "validèrent"], "examples": [
+      { "fr": "J'ai **validé** mon premier semestre !", "en": "I've passed my first semester!" },
+      { "fr": "Pour **valider** ton année, il faut la moyenne.", "en": "To pass your year, you need the pass mark." },
+      { "fr": "**Validez** votre ticket dans le tram.", "en": "Validate your ticket on the tram." }
+    ] },
+    { "id": "emploi-du-temps", "fr": "emploi du temps", "pos": "noun", "g": "m", "ipa": "ɑ̃.plwa dy tɑ̃", "en": "timetable, schedule", "def": "La liste des cours ou des activités de chaque jour de la semaine.", "def_en": "The list of classes or activities for each day of the week.", "forms": ["emplois du temps"], "examples": [
+      { "fr": "Mon **emploi du temps** est très chargé.", "en": "My timetable is very full." },
+      { "fr": "Regarde ton **emploi du temps** : on a [cours|cours] à huit heures !", "en": "Look at your timetable: we have class at eight!" },
+      { "fr": "Tom dessine déjà son **emploi du temps**.", "en": "Tom is already drawing up his timetable." }
+    ] },
+    { "id": "assister", "fr": "assister", "pos": "verb", "ipa": "a.sis.te", "en": "to attend (assister à); to assist", "def": "Être présent à un cours, à un spectacle ou à un événement.", "def_en": "To be present at a class, a show or an event.", "forms": ["assiste", "assistes", "assistons", "assistez", "assistent", "assisté", "assistée", "assistés", "assistées", "assistais", "assistait", "assistions", "assistiez", "assistaient", "assisterai", "assisteras", "assistera", "assisterons", "assisterez", "assisteront", "assisterais", "assisterait", "assisterions", "assisteriez", "assisteraient", "assistant", "assistai", "assistas", "assista", "assistâmes", "assistâtes", "assistèrent"], "examples": [
+      { "fr": "Trois cents étudiants **assistent** au cours.", "en": "Three hundred students attend the lecture." },
+      { "fr": "Tu dois **assister** à tous les travaux dirigés.", "en": "You have to attend all the tutorials." },
+      { "fr": "Nous avons **assisté** à un concert magnifique.", "en": "We attended a wonderful concert." }
+    ] },
+    { "id": "secher", "fr": "sécher", "pos": "verb", "ipa": "se.ʃe", "en": "to dry; (informal) to skip (a class)", "def": "Enlever l'eau de quelque chose. Familier : ne pas aller en cours.", "def_en": "To remove the water from something. Informal: not to go to class.", "forms": ["sèche", "sèches", "séchons", "séchez", "sèchent", "séchais", "séchait", "séchions", "séchiez", "séchaient", "sécherai", "sécheras", "séchera", "sécherons", "sécherez", "sécheront", "sécherais", "sécherait", "sécherions", "sécheriez", "sécheraient", "séché", "séchée", "séchés", "séchées", "séchant", "séchai", "séchas", "sécha", "séchâmes", "séchâtes", "séchèrent"], "examples": [
+      { "fr": "Hugo **séchait** les cours au lycée.", "en": "Hugo used to skip classes at school." },
+      { "fr": "Si tu **sèches** les cours, tu ne réussiras pas.", "en": "If you skip classes, you won't pass." },
+      { "fr": "Le linge **sèche** sur le balcon.", "en": "The washing is drying on the balcony." }
+    ] },
+    { "id": "journee-portes-ouvertes", "fr": "journée portes ouvertes", "pos": "noun", "g": "f", "ipa": "ʒuʁ.ne pɔʁt.z‿u.vɛʁt", "en": "open day", "def": "Un jour où une école ou une entreprise reçoit le public pour se présenter.", "def_en": "A day when a school or a company welcomes the public to show itself.", "forms": ["journées portes ouvertes"], "examples": [
+      { "fr": "Samedi, c'est la **journée portes ouvertes** de l'université.", "en": "On Saturday, it's the university's open day." },
+      { "fr": "À la **journée portes ouvertes**, on peut parler aux enseignants.", "en": "At the open day, you can talk to the teachers." },
+      { "fr": "L'école d'architecture organise une **journée portes ouvertes**.", "en": "The architecture school is holding an open day." }
+    ] },
+    { "id": "enseignant", "fr": "enseignant", "pos": "noun", "g": "m", "ipa": "ɑ̃.sɛ.ɲɑ̃", "display": "l'enseignant, l'enseignante", "en": "teacher, lecturer", "def": "La personne dont le métier est de faire [cours|cours], à l'école ou à l'université.", "def_en": "The person whose job is to teach, at school or at university.", "forms": ["enseignants", "enseignante", "enseignantes"], "examples": [
+      { "fr": "L'**enseignant** [présente|presenter] la licence de musique.", "en": "The lecturer presents the music degree." },
+      { "fr": "Les **enseignants** de cette université sont excellents.", "en": "The teachers at this university are excellent." },
+      { "fr": "Ma tante est **enseignante** dans un lycée.", "en": "My aunt is a teacher at a high school." }
+    ] },
+    { "id": "enseignement", "fr": "enseignement", "pos": "noun", "g": "m", "ipa": "ɑ̃.sɛɲ.mɑ̃", "en": "teaching; education", "def": "Le métier de professeur, ou la manière d'apprendre quelque chose aux autres.", "def_en": "The job of a teacher, or the way of teaching something to others.", "forms": ["enseignements"], "examples": [
+      { "fr": "L'**enseignement**, c'est un beau métier.", "en": "Teaching is a fine job." },
+      { "fr": "En France, l'**enseignement** public est gratuit.", "en": "In France, state education is free." },
+      { "fr": "Elle s'intéresse à l'**enseignement** des langues.", "en": "She's interested in language teaching." }
+    ] },
+    { "id": "filiere", "fr": "filière", "pos": "noun", "g": "f", "ipa": "fi.ljɛʁ", "en": "(study) track, stream", "def": "Le chemin d'études qu'on choisit, par exemple les sciences ou la musique.", "def_en": "The course of study you choose, for example science or music.", "forms": ["filières"], "examples": [
+      { "fr": "La **filière** musique a beaucoup de candidats.", "en": "The music track has lots of applicants." },
+      { "fr": "Quelle **filière** tu as choisie ?", "en": "Which track did you choose?" },
+      { "fr": "Après le bac, il faut choisir une **filière**.", "en": "After the bac, you have to choose a track." }
+    ] },
+    { "id": "rentree", "fr": "rentrée", "pos": "noun", "g": "f", "ipa": "ʁɑ̃.tʁe", "en": "going back to school or work after the summer (in September)", "def": "Le moment, en septembre, où les élèves et les étudiants reprennent les cours.", "def_en": "The time, in September, when pupils and students start classes again.", "forms": ["rentrées"], "examples": [
+      { "fr": "À la **rentrée**, Tom commencera sa licence.", "en": "In September, Tom will start his degree." },
+      { "fr": "La **rentrée** des classes, c'est en septembre.", "en": "Schools go back in September." },
+      { "fr": "Lou a fait sa **rentrée** en maternelle.", "en": "Lou has started back at nursery school." }
+    ] }
+  ],
+  "story": {
+    "title": "La journée portes ouvertes",
+    "en": "Saturday 9 January: Tom wants to go to university in September, and Léa goes with him to the open day.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi neuf janvier, c'est la journée portes ouvertes de l'université. Tom, rentré de Londres, voudrait s'inscrire en licence de musique à la rentrée de septembre. Léa l'accompagne, et Hugo aussi… pour le resto U.", "en": "On Saturday 9 January, it's the university's open day. Tom, back from London, would like to enrol on a music degree in September. Léa goes with him, and so does Hugo… for the canteen." },
+      { "sp": "Hugo", "fr": "Il paraît qu'au resto U, un repas coûte trois euros. C'est le meilleur argument de l'université !", "en": "Apparently a meal at the canteen costs three euros. That's the university's best argument!" },
+      { "sp": "", "fr": "Une étudiante en master leur fait visiter le campus : la bibliothèque, les salles de cours, et un immense amphithéâtre.", "en": "A master's student shows them round the campus: the library, the classrooms, and a huge lecture hall." },
+      { "sp": "L'étudiante", "fr": "Ici, ce sont les cours magistraux : un enseignant parle, et trois cents étudiants assistent au cours et prennent des notes.", "en": "This is where the lectures are: a lecturer talks, and three hundred students attend and take notes." },
+      { "sp": "Tom", "fr": "Trois cents ? À Londres, à mes cours de guitare, on était trois !", "en": "Three hundred? In London, at my guitar lessons, there were three of us!" },
+      { "sp": "L'étudiante", "fr": "Rassure-toi : il y a aussi les travaux dirigés, en petits groupes. Là, on pose des questions et on fait des exercices.", "en": "Don't worry: there are tutorials too, in small groups. There, you ask questions and do exercises." },
+      { "sp": "Léa", "fr": "Et les examens ?", "en": "And the exams?" },
+      { "sp": "L'étudiante", "fr": "L'année a deux semestres, avec des partiels en janvier et en mai. En ce moment, tout le monde révise à la bibliothèque. Pour valider ton année, il faut avoir la moyenne : dix sur vingt.", "en": "The year has two semesters, with exams in January and May. Right now, everyone is revising in the library. To pass your year, you need the pass mark: ten out of twenty." },
+      { "sp": "Hugo", "fr": "Et si on n'a pas la moyenne ?", "en": "And if you don't get the pass mark?" },
+      { "sp": "L'étudiante", "fr": "Il y a une session de rattrapage en juin. Mais attention : si tu sèches les cours, tu ne réussiras pas.", "en": "There's a resit session in June. But careful: if you skip classes, you won't pass." },
+      { "sp": "Hugo", "fr": "Sécher les cours ? Moi ? Jamais !", "en": "Skip classes? Me? Never!" },
+      { "sp": "Léa", "fr": "Au lycée, tu séchais un cours sur deux…", "en": "At school, you skipped every other class…" },
+      { "sp": "", "fr": "Au stand de musique, un enseignant présente la filière à Tom : trois ans de licence, deux ans de master, et pour les plus courageux, un doctorat.", "en": "At the music stand, a lecturer presents the course to Tom: three years of bachelor's, two years of master's, and for the bravest, a PhD." },
+      { "sp": "L'enseignant", "fr": "Pour l'inscription, il faut envoyer un dossier avant le mois de mars. Et il faut un bon niveau de français. Vous avez le DELF ?", "en": "To enrol, you have to send a file before March. And you need a good level of French. Do you have the DELF?" },
+      { "sp": "Tom", "fr": "Oui ! Quatre-vingts sur cent !", "en": "Yes! Eighty out of a hundred!" },
+      { "sp": "L'enseignant", "fr": "Parfait. Vous pouvez aussi demander une bourse, et une chambre à la cité universitaire.", "en": "Perfect. You can also apply for a grant, and a room in the halls of residence." },
+      { "sp": "Tom", "fr": "Merci, j'ai déjà un appartement… et Hugo comme voisin.", "en": "Thanks, I already have a flat… and Hugo as my neighbour." },
+      { "sp": "", "fr": "Pendant ce temps, Léa s'arrête devant un autre stand : « Enseigner le français aux étrangers ». Elle lit tout, longtemps.", "en": "Meanwhile, Léa stops at another stand: 'Teaching French to foreigners'. She reads everything, for a long time." },
+      { "sp": "Léa", "fr": "Tom… je crois que j'ai trouvé ce que je veux faire plus tard. Enseigner le français, comme Marc !", "en": "Tom… I think I've found what I want to do later. Teach French, like Marc!" },
+      { "sp": "Tom", "fr": "Toi, prof ? Tu serais parfaite. Tu corriges déjà toutes mes fautes !", "en": "You, a teacher? You'd be perfect. You already correct all my mistakes!" },
+      { "sp": "L'enseignante", "fr": "Après la licence, il y a un master pour ça. L'enseignement du français aux étrangers, c'est un beau métier : on voyage beaucoup.", "en": "After the bachelor's, there's a master's for that. Teaching French to foreigners is a fine job: you travel a lot." },
+      { "sp": "", "fr": "Hugo revient, très content.", "en": "Hugo comes back, very pleased." },
+      { "sp": "Hugo", "fr": "J'ai mangé au resto U : trois euros, avec un dessert ! Et j'ai vu une affiche pour des cours du soir d'espagnol. Je commence mardi !", "en": "I ate at the canteen: three euros, with a dessert! And I saw a poster for evening Spanish classes. I start on Tuesday!" },
+      { "sp": "", "fr": "Le soir, Tom dessine son futur emploi du temps : guitare, histoire de la musique, solfège… Et Léa lit des pages sur le master jusqu'à minuit.", "en": "In the evening, Tom draws up his future timetable: guitar, history of music, music theory… And Léa reads pages about the master's until midnight." }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "u38-diplomes",
+  "type": "vocab",
+  "unit": 38,
+  "title": "Les diplômes",
+  "en": "Qualifications",
+  "intro": "25 words for qualifications in France: the exams on the way (**le brevet, le bac, la mention, la session, la prépa, la grande école, les études supérieures, le diplôme d'État**), learning a trade (**le CAP, l'alternance, l'apprentissage, autodidacte**), getting in (**l'examen d'entrée, le concours, le jury, le classement, l'équivalence**) and the result (**décrocher, recalé, diplômé, le certificat, le relevé de notes, la remise des diplômes, encadrer, le parcours**). The *brevet* ends the *collège* at fifteen, the *bac* ends the *lycée* at eighteen.",
+  "words": [
+    { "id": "bac", "fr": "bac", "pos": "noun", "g": "m", "ipa": "bak", "en": "the bac (the exam at the end of the lycée, needed for university)", "def": "Le grand examen à la fin du lycée, qui permet d'aller à l'université.", "def_en": "The big exam at the end of the lycée, which lets you go to university.", "note": "The full name is *le baccalauréat*.", "forms": ["bacs"], "examples": [
+      { "fr": "Hugo a eu son **bac** au rattrapage.", "en": "Hugo got his bac at the resit." },
+      { "fr": "Après le **bac**, il est parti à l'étranger.", "en": "After the bac, he went abroad." },
+      { "fr": "Elle passe le **bac** en juin.", "en": "She's sitting the bac in June." }
+    ] },
+    { "id": "mention", "fr": "mention", "pos": "noun", "g": "f", "ipa": "mɑ̃.sjɔ̃", "en": "(exam) distinction, honours (mention très bien = with highest honours)", "def": "La récompense quand on a de bonnes notes à un examen : assez bien, bien ou très bien.", "def_en": "The reward when you get good marks in an exam: fairly good, good or very good.", "forms": ["mentions"], "examples": [
+      { "fr": "Léa a eu son bac avec **mention** très bien.", "en": "Léa got her bac with the highest honours." },
+      { "fr": "Hugo a eu son bac sans **mention**.", "en": "Hugo got his bac with no distinction." },
+      { "fr": "Pour avoir une **mention**, il faut au moins douze de moyenne.", "en": "To get a distinction, you need an average of at least twelve." }
+    ] },
+    { "id": "brevet", "fr": "brevet", "pos": "noun", "g": "m", "ipa": "bʁə.vɛ", "en": "the brevet (exam at the end of the collège, at fifteen); licence, patent", "def": "L'examen à la fin du collège, vers quinze ans.", "def_en": "The exam at the end of the collège, at about fifteen.", "forms": ["brevets"], "examples": [
+      { "fr": "Au **brevet**, Hugo avait déjà des mauvaises notes en orthographe.", "en": "In the brevet, Hugo was already getting bad marks in spelling." },
+      { "fr": "Ma petite sœur passe le **brevet** cette année.", "en": "My little sister is sitting the brevet this year." },
+      { "fr": "Il a un **brevet** de pilote.", "en": "He has a pilot's licence." }
+    ] },
+    { "id": "cap-n", "fr": "CAP", "pos": "noun", "g": "m", "ipa": "se.a.pe", "en": "CAP (a vocational qualification, for example for bakers or hairdressers)", "def": "Un diplôme pour apprendre un métier manuel, comme boulanger ou coiffeur.", "def_en": "A qualification for learning a manual trade, like baker or hairdresser.", "note": "*Certificat d'aptitude professionnelle*. Say the letters: /se.a.pe/.", "examples": [
+      { "fr": "Enzo passe son **CAP** de boulanger en juin.", "en": "Enzo is taking his baker's CAP in June." },
+      { "fr": "Il a un **CAP** de cuisinier.", "en": "He has a cook's qualification." },
+      { "fr": "Le **CAP** se [prépare|preparer] en deux ans.", "en": "The CAP takes two years." }
+    ] },
+    { "id": "alternance", "fr": "alternance", "pos": "noun", "g": "f", "ipa": "al.tɛʁ.nɑ̃s", "en": "work-study (en alternance = alternating school and work)", "def": "Une formation où on passe du temps à l'école et du temps en entreprise.", "def_en": "Training where you spend time at school and time in a company.", "examples": [
+      { "fr": "Enzo est en **alternance** : une semaine à l'école, deux semaines à la boulangerie.", "en": "Enzo is on a work-study course: one week at school, two weeks at the bakery." },
+      { "fr": "L'**alternance**, c'est apprendre en travaillant.", "en": "Work-study means learning while you work." },
+      { "fr": "Elle fait son master en **alternance**.", "en": "She's doing her master's as a work-study programme." }
+    ] },
+    { "id": "apprentissage", "fr": "apprentissage", "pos": "noun", "g": "m", "ipa": "a.pʁɑ̃.ti.saʒ", "en": "apprenticeship; learning", "def": "La formation d'un apprenti, chez un patron. Aussi : le fait d'apprendre.", "def_en": "An apprentice's training, with an employer. Also: the act of learning.", "forms": ["apprentissages"], "examples": [
+      { "fr": "Son **apprentissage** [dure|durer] deux ans.", "en": "His apprenticeship lasts two years." },
+      { "fr": "L'**apprentissage** d'une langue prend du temps.", "en": "Learning a language takes time." },
+      { "fr": "Il a fait son **apprentissage** chez un grand chef.", "en": "He did his apprenticeship with a great chef." }
+    ] },
+    { "id": "certificat", "fr": "certificat", "pos": "noun", "g": "m", "ipa": "sɛʁ.ti.fi.ka", "en": "certificate", "def": "Un papier officiel qui montre qu'on a fait ou réussi quelque chose.", "def_en": "An official paper that shows you've done or passed something.", "forms": ["certificats"], "examples": [
+      { "fr": "Ce n'est pas un simple **certificat** : c'est un vrai diplôme !", "en": "It's not just a certificate: it's a real diploma!" },
+      { "fr": "Le médecin m'a donné un **certificat**.", "en": "The doctor gave me a certificate." },
+      { "fr": "Après la formation, on reçoit un **certificat**.", "en": "After the training, you get a certificate." }
+    ] },
+    { "id": "decrocher", "fr": "décrocher", "pos": "verb", "ipa": "de.kʁɔ.ʃe", "en": "to get, to land (a diploma, a job); to pick up (the phone); to take down", "def": "Familier : obtenir quelque chose de difficile. Aussi : prendre le téléphone pour répondre.", "def_en": "Informal: to get something difficult. Also: to pick up the phone to answer.", "forms": ["décroche", "décroches", "décrochons", "décrochez", "décrochent", "décroché", "décrochée", "décrochés", "décrochées", "décrochais", "décrochait", "décrochions", "décrochiez", "décrochaient", "décrocherai", "décrocheras", "décrochera", "décrocherons", "décrocherez", "décrocheront", "décrocherais", "décrocherait", "décrocherions", "décrocheriez", "décrocheraient", "décrochant", "décrochai", "décrochas", "décrocha", "décrochâmes", "décrochâtes", "décrochèrent"], "examples": [
+      { "fr": "Il a **décroché** son bac !", "en": "He got his bac!" },
+      { "fr": "Elle a **décroché** un stage à Paris.", "en": "She's landed an internship in Paris." },
+      { "fr": "**Décroche**, c'est ta mère !", "en": "Pick up, it's your mother!" }
+    ] },
+    { "id": "recale", "fr": "recalé", "pos": "adj", "ipa": "ʁə.ka.le", "display": "recalé, recalée", "en": "(informal) failed (an exam)", "def": "Familier : qui n'a pas réussi un examen.", "def_en": "Informal: who didn't pass an exam.", "forms": ["recalée", "recalés", "recalées"], "examples": [
+      { "fr": "Si je suis **recalée**, je recommence.", "en": "If I fail, I'll start again." },
+      { "fr": "Il a été **recalé** au permis de conduire.", "en": "He failed his driving test." },
+      { "fr": "Trois étudiants ont été **recalés**.", "en": "Three students failed." }
+    ] },
+    { "id": "remise-des-diplomes", "fr": "remise des diplômes", "pos": "noun", "g": "f", "ipa": "ʁə.miz de di.plom", "en": "graduation (ceremony)", "def": "La cérémonie où les étudiants reçoivent leur diplôme.", "def_en": "The ceremony where students receive their diploma.", "forms": ["remises des diplômes"], "examples": [
+      { "fr": "À la **remise des diplômes**, les parents prennent des photos.", "en": "At the graduation, parents take photos." },
+      { "fr": "La **remise des diplômes** est en juillet.", "en": "Graduation is in July." },
+      { "fr": "En Angleterre, à la **remise des diplômes**, on lance son chapeau.", "en": "In England, at graduation, you throw your cap." }
+    ] },
+    { "id": "jury", "fr": "jury", "pos": "noun", "g": "m", "ipa": "ʒy.ʁi", "en": "panel of examiners, jury", "def": "Le groupe de personnes qui juge un examen, un concours ou un procès.", "def_en": "The group of people who judge an exam, a competition or a trial.", "forms": ["jurys"], "examples": [
+      { "fr": "Carla passera devant un **jury** en avril.", "en": "Carla will go before a panel in April." },
+      { "fr": "Le **jury** a aimé son projet.", "en": "The panel liked her project." },
+      { "fr": "Les membres du **jury** sont très sévères.", "en": "The members of the panel are very strict." }
+    ] },
+    { "id": "concours", "fr": "concours", "pos": "noun", "g": "m", "ipa": "kɔ̃.kuʁ", "en": "competitive exam; contest, competition", "def": "Un examen où seuls les meilleurs sont pris, parce qu'il y a peu de places.", "def_en": "An exam where only the best are taken, because there are few places.", "examples": [
+      { "fr": "C'est un vrai **concours** : il y a peu de places.", "en": "It's a real competitive exam: there are few places." },
+      { "fr": "Elle a gagné un **concours** de danse.", "en": "She won a dance competition." },
+      { "fr": "Pour devenir professeur, il faut réussir un **concours**.", "en": "To become a teacher, you have to pass a competitive exam." }
+    ] },
+    { "id": "equivalence", "fr": "équivalence", "pos": "noun", "g": "f", "ipa": "e.ki.va.lɑ̃s", "en": "equivalence (recognition of a foreign qualification)", "def": "Un papier qui dit qu'un diplôme étranger vaut un diplôme français.", "def_en": "A paper saying that a foreign qualification is worth a French one.", "forms": ["équivalences"], "examples": [
+      { "fr": "Pour mon diplôme anglais, il faut une **équivalence**.", "en": "For my English qualification, I need an equivalence." },
+      { "fr": "L'université m'a donné une **équivalence**.", "en": "The university has recognised my qualification." },
+      { "fr": "La demande d'**équivalence** prend deux mois.", "en": "The equivalence application takes two months." }
+    ] },
+    { "id": "diplome-adj", "fr": "diplômé", "pos": "adj", "ipa": "di.plo.me", "display": "diplômé, diplômée", "en": "qualified, with a degree (un diplômé = a graduate)", "def": "Qui a obtenu un diplôme.", "def_en": "Who has got a qualification.", "forms": ["diplômée", "diplômés", "diplômées"], "examples": [
+      { "fr": "Dans deux ans, je serai **diplômée** !", "en": "In two years, I'll be qualified!" },
+      { "fr": "Elle est **diplômée** en architecture.", "en": "She has a degree in architecture." },
+      { "fr": "Les jeunes **diplômés** cherchent du travail.", "en": "Young graduates are looking for work." }
+    ] },
+    { "id": "autodidacte", "fr": "autodidacte", "pos": "adj", "ipa": "o.to.di.dakt", "en": "self-taught", "def": "Qui a appris seul, sans professeur et sans école.", "def_en": "Who learnt alone, without a teacher and without a school.", "forms": ["autodidactes"], "examples": [
+      { "fr": "Madame Fournier est **autodidacte** : elle a tout appris avec son père.", "en": "Madame Fournier is self-taught: she learnt everything from her father." },
+      { "fr": "Beaucoup de musiciens sont **autodidactes**.", "en": "Lots of musicians are self-taught." },
+      { "fr": "Je suis **autodidacte** en informatique.", "en": "I taught myself computing." }
+    ] },
+    { "id": "releve-de-notes", "fr": "relevé de notes", "pos": "noun", "g": "m", "ipa": "ʁəl.ve d(ə) nɔt", "en": "transcript (of marks)", "def": "Le papier qui donne toutes les notes d'un élève ou d'un étudiant.", "def_en": "The paper that gives all a pupil's or a student's marks.", "forms": ["relevés de notes"], "examples": [
+      { "fr": "Avec le diplôme, il y a mon **relevé de notes**.", "en": "With the diploma, there's my transcript." },
+      { "fr": "Envoyez votre **relevé de notes** avec votre dossier.", "en": "Send your transcript with your file." },
+      { "fr": "Sur mon **relevé de notes**, il y a vingt-trois à l'oral.", "en": "On my transcript, there's twenty-three for the oral." }
+    ] },
+    { "id": "grande-ecole", "fr": "grande école", "pos": "noun", "g": "f", "ipa": "ɡʁɑ̃.d‿e.kɔl", "en": "grande école (a top higher-education school, entered by competitive exam)", "def": "Une école très difficile d'études supérieures, où on entre après un concours.", "def_en": "A very demanding school of higher education, which you get into after a competitive exam.", "forms": ["grandes écoles"], "examples": [
+      { "fr": "Julien a fait une **grande école**.", "en": "Julien went to a grande école." },
+      { "fr": "Pour entrer dans une **grande école**, il faut réussir un concours.", "en": "To get into a grande école, you have to pass a competitive exam." },
+      { "fr": "Elle rêve d'entrer dans une **grande école** de commerce.", "en": "She dreams of getting into a top business school." }
+    ] },
+    { "id": "prepa", "fr": "prépa", "pos": "noun", "g": "f", "ipa": "pʁe.pa", "en": "prépa (two years of intensive study to prepare for the grandes écoles)", "def": "Deux années de travail très dur après le bac, pour préparer les concours des grandes écoles.", "def_en": "Two years of very hard work after the bac, to prepare for the grandes écoles' competitive exams.", "note": "Short for *classe préparatoire*.", "forms": ["prépas"], "examples": [
+      { "fr": "Julien a fait une **prépa**, puis une grande école.", "en": "Julien did a prépa, then a grande école." },
+      { "fr": "En **prépa**, on travaille jour et nuit.", "en": "In prépa, you work day and night." },
+      { "fr": "Après le bac, elle est entrée en **prépa**.", "en": "After the bac, she went into a prépa." }
+    ] },
+    { "id": "diplome-d-etat", "fr": "diplôme d'État", "pos": "noun", "g": "m", "ipa": "di.plom de.ta", "en": "state diploma (a national qualification, for example for dance teachers, nurses, architects)", "def": "Un diplôme donné par l'État, pour certains métiers.", "def_en": "A qualification awarded by the state, for certain professions.", "forms": ["diplômes d'État"], "examples": [
+      { "fr": "Carla prépare le **diplôme d'État** de professeur de danse.", "en": "Carla is preparing for the state dance-teaching diploma." },
+      { "fr": "Pour être infirmière, il faut un **diplôme d'État**.", "en": "To be a nurse, you need a state diploma." },
+      { "fr": "Sophie aura son **diplôme d'État** d'architecte dans quatre ans.", "en": "Sophie will get her state architect's diploma in four years." }
+    ] },
+    { "id": "etudes-superieures", "fr": "études supérieures", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "e.tyd sy.pe.ʁjœʁ", "en": "higher education", "def": "Les études après le bac : à l'université ou dans une école.", "def_en": "Studies after the bac: at university or in a school.", "examples": [
+      { "fr": "Tom veut faire des **études supérieures** en France.", "en": "Tom wants to go into higher education in France." },
+      { "fr": "Les **études supérieures** coûtent cher dans certains pays.", "en": "Higher education is expensive in some countries." },
+      { "fr": "Ses parents l'aident pendant ses **études supérieures**.", "en": "Her parents help her during her studies." }
+    ] },
+    { "id": "session", "fr": "session", "pos": "noun", "g": "f", "ipa": "se.sjɔ̃", "en": "(exam) session; (computer) session", "def": "La période où on passe un examen. Aussi : le temps où on est connecté à un ordinateur.", "def_en": "The period when you sit an exam. Also: the time you're logged in on a computer.", "forms": ["sessions"], "examples": [
+      { "fr": "Je passe mon CAP à la **session** de juin.", "en": "I'm taking my CAP in the June session." },
+      { "fr": "Il y a une **session** de rattrapage en septembre.", "en": "There's a resit session in September." },
+      { "fr": "N'oublie pas de fermer ta **session** !", "en": "Don't forget to log out!" }
+    ] },
+    { "id": "parcours", "fr": "parcours", "pos": "noun", "g": "m", "ipa": "paʁ.kuʁ", "en": "route, course; (study or career) path, background", "def": "Le chemin qu'on suit. Aussi : les études et les métiers qu'on a faits.", "def_en": "The route you follow. Also: the studies and jobs you've done.", "examples": [
+      { "fr": "Tom a déjà prévu tout son **parcours**.", "en": "Tom has already planned his whole path." },
+      { "fr": "Elle a un **parcours** original : danseuse, puis professeure.", "en": "She has an unusual background: dancer, then teacher." },
+      { "fr": "Le **parcours** de la course fait dix kilomètres.", "en": "The race route is ten kilometres long." }
+    ] },
+    { "id": "encadrer", "fr": "encadrer", "pos": "verb", "ipa": "ɑ̃.ka.dʁe", "en": "to frame; to supervise", "def": "Mettre dans un cadre. Aussi : surveiller et aider un groupe.", "def_en": "To put in a frame. Also: to supervise and help a group.", "forms": ["encadre", "encadres", "encadrons", "encadrez", "encadrent", "encadré", "encadrée", "encadrés", "encadrées", "encadrais", "encadrait", "encadrions", "encadriez", "encadraient", "encadrerai", "encadreras", "encadrera", "encadrerons", "encadrerez", "encadreront", "encadrerais", "encadrerait", "encadrerions", "encadreriez", "encadreraient", "encadrant", "encadrai", "encadras", "encadra", "encadrâmes", "encadrâtes", "encadrèrent"], "examples": [
+      { "fr": "Tu vas **encadrer** ton diplôme ?", "en": "Are you going to frame your diploma?" },
+      { "fr": "J'ai **encadré** la photo des jumeaux.", "en": "I've framed the photo of the twins." },
+      { "fr": "Trois enseignants **encadrent** les étudiants.", "en": "Three teachers supervise the students." }
+    ] },
+    { "id": "examen-d-entree", "fr": "examen d'entrée", "pos": "noun", "g": "m", "ipa": "ɛɡ.za.mɛ̃ dɑ̃.tʁe", "en": "entrance exam", "def": "L'examen qu'on passe pour entrer dans une école ou une formation.", "def_en": "The exam you take to get into a school or a training course.", "forms": ["examens d'entrée"], "examples": [
+      { "fr": "Il y a un **examen d'entrée** en avril.", "en": "There's an entrance exam in April." },
+      { "fr": "Elle prépare l'**examen d'entrée** d'une école de danse.", "en": "She's preparing for a dance school's entrance exam." },
+      { "fr": "J'ai raté l'**examen d'entrée**, mais je recommence.", "en": "I failed the entrance exam, but I'm trying again." }
+    ] },
+    { "id": "classement", "fr": "classement", "pos": "noun", "g": "m", "ipa": "klas.mɑ̃", "en": "ranking, league table", "def": "La liste des personnes, de la première à la dernière, selon leurs résultats.", "def_en": "The list of people, from first to last, according to their results.", "forms": ["classements"], "examples": [
+      { "fr": "Seuls les quinze premiers du **classement** sont pris.", "en": "Only the top fifteen in the ranking get in." },
+      { "fr": "Elle est première au **classement** !", "en": "She's top of the ranking!" },
+      { "fr": "Lyon a monté dans le **classement** des villes où il fait bon vivre.", "en": "Lyon has gone up in the ranking of good places to live." }
+    ] }
+  ],
+  "story": {
+    "title": "Le diplôme de Tom",
+    "en": "Thursday 14 January: Tom's DELF certificate has arrived, and everyone at the café has a diploma story.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi quatorze janvier, Tom arrive au café d'en bas avec une grande enveloppe. Son diplôme du DELF est arrivé !", "en": "On Thursday 14 January, Tom arrives at the café downstairs with a big envelope. His DELF diploma has arrived!" },
+      { "sp": "Tom", "fr": "Regardez ! Ce n'est pas un simple certificat : c'est un vrai diplôme, avec mon relevé de notes. Vingt-trois sur vingt-cinq à l'oral !", "en": "Look! It's not just a certificate: it's a real diploma, with my transcript. Twenty-three out of twenty-five for the oral!" },
+      { "sp": "Léa", "fr": "Bravo ! Tu vas l'encadrer ?", "en": "Well done! Are you going to frame it?" },
+      { "sp": "Tom", "fr": "Bien sûr ! Avec ce diplôme, je peux m'inscrire à l'université. Et pour mon diplôme anglais, je dois demander une équivalence.", "en": "Of course! With this diploma, I can enrol at university. And for my English qualification, I have to ask for an equivalence." },
+      { "sp": "Hugo", "fr": "Moi, mon bac, je l'ai eu au rattrapage, sans mention. Mais je l'ai décroché !", "en": "I got my bac at the resit, with no distinction. But I got it!" },
+      { "sp": "Léa", "fr": "Et moi, mention très bien.", "en": "And I got the highest honours." },
+      { "sp": "Hugo", "fr": "Oui, oui, on sait… Et au brevet, j'avais déjà des mauvaises notes en orthographe.", "en": "Yes, yes, we know… And in the brevet, I already had bad marks in spelling." },
+      { "sp": "Sophie", "fr": "Moi, j'aurai mon diplôme d'État d'architecte dans quatre ans… si je ne suis pas recalée avant !", "en": "I'll get my state architect's diploma in four years… if I don't fail before then!" },
+      { "sp": "", "fr": "Enzo entre avec un sac de croissants. Il vient de finir sa semaine à l'école de boulangerie.", "en": "Enzo comes in with a bag of croissants. He's just finished his week at baking school." },
+      { "sp": "Enzo", "fr": "Moi, je passe mon CAP à la session de juin. Je suis en alternance : une semaine à l'école, deux semaines chez Mamie. C'est ça, l'apprentissage.", "en": "I'm taking my CAP in the June session. I'm on a work-study course: one week at school, two weeks at Grandma's. That's what an apprenticeship is." },
+      { "sp": "Enzo", "fr": "Mamie, elle, n'a jamais eu de CAP. Elle est autodidacte : elle a tout appris avec son père.", "en": "Grandma never had a CAP. She's self-taught: she learnt everything from her father." },
+      { "sp": "Carla", "fr": "Moi aussi, j'ai une nouvelle. En septembre, je commence une formation pour le diplôme d'État de professeur de danse !", "en": "I've got news too. In September, I'm starting a course for the state dance-teaching diploma!" },
+      { "sp": "Hugo", "fr": "Mais tu enseignes déjà la danse aux enfants !", "en": "But you already teach dance to children!" },
+      { "sp": "Carla", "fr": "Oui, mais sans diplôme. Pour entrer en formation, il y a un examen d'entrée en avril, devant un jury. Seuls les quinze premiers du classement sont pris.", "en": "Yes, but without a qualification. To get into the course, there's an entrance exam in April, in front of a panel. Only the top fifteen in the ranking get in." },
+      { "sp": "Inès", "fr": "Un vrai concours ! Moi, pour être mannequin, je n'ai besoin d'aucun diplôme.", "en": "A real competitive exam! To be a model, I don't need any qualifications." },
+      { "sp": "Hugo", "fr": "Les diplômes, ce n'est pas tout. Mon collègue Julien a fait une prépa et une grande école… et il travaille dans le même bureau que moi !", "en": "Qualifications aren't everything. My colleague Julien did a prépa and a grande école… and he works in the same office as me!" },
+      { "sp": "Léa", "fr": "Et à ton école, Sophie, il y a une remise des diplômes ?", "en": "And at your school, Sophie, is there a graduation ceremony?" },
+      { "sp": "Sophie", "fr": "Oui, une grande cérémonie, avec les familles. Et chez toi, Tom ?", "en": "Yes, a big ceremony, with the families. And in your country, Tom?" },
+      { "sp": "Tom", "fr": "En Angleterre, à la remise des diplômes, on porte un chapeau carré, et on le lance vers le ciel !", "en": "In England, at graduation, you wear a square cap, and you throw it up into the sky!" },
+      { "sp": "Hugo", "fr": "Pour mon bac, personne ne m'a donné de chapeau…", "en": "For my bac, nobody gave me a cap…" },
+      { "sp": "", "fr": "Tom a déjà tout prévu : son parcours dans les études supérieures. D'abord la licence, puis un master, à Lyon… ou ailleurs.", "en": "Tom has already planned everything: his path through higher education. First the bachelor's, then a master's, in Lyon… or somewhere else." },
+      { "sp": "Carla", "fr": "Et moi, dans deux ans, je serai diplômée !", "en": "And in two years, I'll be qualified!" },
+      { "sp": "Enzo", "fr": "Et moi, après mon CAP, je vous ferai le meilleur pain de Lyon. Bientôt, Mamie me laisse faire le pain tout seul !", "en": "And after my CAP, I'll make you the best bread in Lyon. Soon, Grandma is letting me make the bread on my own!" },
+      { "sp": "", "fr": "Ce soir-là, Tom encadre son diplôme. Il l'accroche juste au-dessus de sa guitare.", "en": "That evening, Tom frames his diploma. He hangs it just above his guitar." }
+    ]
+  }
+}

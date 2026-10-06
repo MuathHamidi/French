@@ -1,0 +1,162 @@
+{
+  "id": "u38-raisonnement",
+  "type": "vocab",
+  "unit": 38,
+  "title": "Les mots du raisonnement",
+  "en": "Words for arguing",
+  "intro": "25 words for building an argument, the French way: the parts of an essay (**la dissertation, l'introduction, la problématique, la thèse, l'antithèse, la synthèse, le paragraphe**), the words that order your ideas (**premièrement, deuxièmement, d'une part, d'autre part, de plus, en outre, par ailleurs, notamment, à savoir, certes, en résumé**) and what you do with them (**argumenter, justifier, constater, souligner, nuancer, subjectif, pertinent**). *Certes* admits a point before a *mais*.",
+  "words": [
+    { "id": "argumenter", "fr": "argumenter", "pos": "verb", "ipa": "aʁ.ɡy.mɑ̃.te", "en": "to argue (a case), to give reasons", "def": "Donner des raisons pour défendre une idée.", "def_en": "To give reasons to defend an idea.", "forms": ["argumente", "argumentes", "argumentons", "argumentez", "argumentent", "argumenté", "argumentée", "argumentés", "argumentées", "argumentais", "argumentait", "argumentions", "argumentiez", "argumentaient", "argumenterai", "argumenteras", "argumentera", "argumenterons", "argumenterez", "argumenteront", "argumenterais", "argumenterait", "argumenterions", "argumenteriez", "argumenteraient", "argumentant", "argumentai", "argumentas", "argumenta", "argumentâmes", "argumentâtes", "argumentèrent"], "examples": [
+      { "fr": "Tu sais **argumenter** mieux que les avocats !", "en": "You can argue better than lawyers!" },
+      { "fr": "Il faut **argumenter** chaque idée.", "en": "You have to back up every idea." },
+      { "fr": "Elle **argumente** toujours avec des exemples.", "en": "She always argues with examples." }
+    ] },
+    { "id": "these", "fr": "thèse", "pos": "noun", "g": "f", "ipa": "tɛz", "en": "thesis (the idea you defend; a doctoral thesis)", "def": "L'idée qu'on défend dans un texte. Aussi : le long travail écrit d'un doctorat.", "def_en": "The idea you defend in a text. Also: the long written work for a doctorate.", "forms": ["thèses"], "examples": [
+      { "fr": "D'abord, la **thèse** : les arguments pour.", "en": "First, the thesis: the arguments for." },
+      { "fr": "Elle écrit une **thèse** sur les volcans.", "en": "She's writing a thesis on volcanoes." },
+      { "fr": "Quelle est ta **thèse** ?", "en": "What's your thesis?" }
+    ] },
+    { "id": "antithese", "fr": "antithèse", "pos": "noun", "g": "f", "ipa": "ɑ̃.ti.tɛz", "en": "antithesis (the opposite side of the argument)", "def": "La partie d'une dissertation qui présente les arguments contre la thèse.", "def_en": "The part of an essay that presents the arguments against the thesis.", "forms": ["antithèses"], "examples": [
+      { "fr": "Après la thèse, l'**antithèse** : les arguments contre.", "en": "After the thesis, the antithesis: the arguments against." },
+      { "fr": "Ton **antithèse** est trop courte.", "en": "Your antithesis is too short." },
+      { "fr": "Hugo est l'**antithèse** de Léa : toujours en retard !", "en": "Hugo is the opposite of Léa: always late!" }
+    ] },
+    { "id": "synthese", "fr": "synthèse", "pos": "noun", "g": "f", "ipa": "sɛ̃.tɛz", "en": "synthesis; summary", "def": "La partie qui met ensemble les meilleures idées, après la thèse et l'antithèse. Aussi : un texte [court|court] qui donne l'essentiel.", "def_en": "The part that brings together the best ideas, after the thesis and the antithesis. Also: a short text giving the main points.", "forms": ["synthèses"], "examples": [
+      { "fr": "Et pour finir, la **synthèse**.", "en": "And to finish, the synthesis." },
+      { "fr": "Fais-moi une **synthèse** de la réunion.", "en": "Give me a summary of the meeting." },
+      { "fr": "Sa **synthèse** est claire et courte.", "en": "Her summary is clear and short." }
+    ] },
+    { "id": "dissertation", "fr": "dissertation", "pos": "noun", "g": "f", "ipa": "di.sɛʁ.ta.sjɔ̃", "en": "(structured) essay", "def": "Un long texte où on répond à une question, avec un plan et des arguments.", "def_en": "A long text where you answer a question, with a plan and arguments.", "forms": ["dissertations"], "examples": [
+      { "fr": "Fais comme pour une **dissertation**.", "en": "Do it the way you'd write an essay." },
+      { "fr": "J'ai une **dissertation** à rendre lundi.", "en": "I have an essay to hand in on Monday." },
+      { "fr": "La **dissertation**, c'est une spécialité française.", "en": "The dissertation essay is a French speciality." }
+    ] },
+    { "id": "problematique", "fr": "problématique", "pos": "noun", "g": "f", "ipa": "pʁɔ.ble.ma.tik", "en": "central question (of an essay); set of issues", "def": "La question principale à laquelle un texte va répondre.", "def_en": "The main question that a text is going to answer.", "forms": ["problématiques"], "examples": [
+      { "fr": "Commence par ta **problématique**.", "en": "Start with your central question." },
+      { "fr": "Quelle est la **problématique** de ton exposé ?", "en": "What's the central question of your presentation?" },
+      { "fr": "Ta **problématique** est trop large.", "en": "Your question is too broad." }
+    ] },
+    { "id": "paragraphe", "fr": "paragraphe", "pos": "noun", "g": "m", "ipa": "pa.ʁa.ɡʁaf", "en": "paragraph", "def": "Une partie d'un texte, qui commence par une nouvelle ligne.", "def_en": "A part of a text that starts on a new line.", "forms": ["paragraphes"], "examples": [
+      { "fr": "Chaque argument a son **paragraphe**.", "en": "Each argument has its own paragraph." },
+      { "fr": "Lis-moi ton dernier **paragraphe**.", "en": "Read me your last paragraph." },
+      { "fr": "Ce **paragraphe** est trop long.", "en": "This paragraph is too long." }
+    ] },
+    { "id": "introduction", "fr": "introduction", "pos": "noun", "g": "f", "ipa": "ɛ̃.tʁɔ.dyk.sjɔ̃", "en": "introduction", "def": "Le début d'un texte, qui présente le sujet.", "def_en": "The beginning of a text, which presents the subject.", "forms": ["introductions"], "examples": [
+      { "fr": "D'abord, une **introduction**, avec ta problématique.", "en": "First, an introduction, with your central question." },
+      { "fr": "L'**introduction** doit être courte.", "en": "The introduction should be short." },
+      { "fr": "J'ai écrit l'**introduction** en dix minutes.", "en": "I wrote the introduction in ten minutes." }
+    ] },
+    { "id": "premierement", "fr": "premièrement", "pos": "adv", "ipa": "pʁə.mjɛʁ.mɑ̃", "en": "firstly, first", "def": "Au début d'une liste d'idées.", "def_en": "At the start of a list of ideas.", "examples": [
+      { "fr": "**Premièrement**, c'est la capitale du vélo.", "en": "Firstly, it's the cycling capital." },
+      { "fr": "**Premièrement**, je n'ai pas le temps.", "en": "Firstly, I don't have the time." },
+      { "fr": "**Premièrement**, lisez bien la question.", "en": "First, read the question carefully." }
+    ] },
+    { "id": "deuxiemement", "fr": "deuxièmement", "pos": "adv", "ipa": "dø.zjɛm.mɑ̃", "en": "secondly", "def": "Pour présenter l'idée qui vient après la première.", "def_en": "To present the idea that comes after the first one.", "examples": [
+      { "fr": "**Deuxièmement**, l'architecture danoise est célèbre.", "en": "Secondly, Danish architecture is famous." },
+      { "fr": "**Deuxièmement**, c'est trop cher.", "en": "Secondly, it's too expensive." },
+      { "fr": "Premièrement, il pleut ; **deuxièmement**, je suis fatigué.", "en": "Firstly, it's raining; secondly, I'm tired." }
+    ] },
+    { "id": "d-une-part", "fr": "d'une part", "pos": "expr", "ipa": "dyn paʁ", "en": "on the one hand; for one thing", "def": "Pour présenter la première de deux idées. Ensuite, on dit « d'autre part ».", "def_en": "To present the first of two ideas. Then you say 'd'autre part'.", "examples": [
+      { "fr": "**D'une part**, là-bas, je parlerais français.", "en": "On the one hand, over there, I'd speak French." },
+      { "fr": "**D'une part**, c'est loin ; d'autre part, c'est cher.", "en": "On the one hand, it's far; on the other, it's expensive." },
+      { "fr": "**D'une part**, j'aime le froid ; d'autre part, j'adore la neige.", "en": "For one thing, I like the cold; for another, I love snow." }
+    ] },
+    { "id": "d-autre-part", "fr": "d'autre part", "pos": "expr", "ipa": "do.tʁə paʁ", "en": "on the other hand; besides", "def": "Pour présenter la deuxième de deux idées, après « d'une part ».", "def_en": "To present the second of two ideas, after 'd'une part'.", "examples": [
+      { "fr": "**D'autre part**, il y a Habitat 67.", "en": "On the other hand, there's Habitat 67." },
+      { "fr": "D'une part, c'est loin ; **d'autre part**, c'est cher.", "en": "On the one hand, it's far; on the other, it's expensive." },
+      { "fr": "**D'autre part**, je n'ai pas le temps.", "en": "Besides, I don't have the time." }
+    ] },
+    { "id": "de-plus", "fr": "de plus", "pos": "expr", "manual": true, "ipa": "də plys", "en": "what's more, moreover", "def": "Pour ajouter une idée à une autre.", "def_en": "To add one idea to another.", "examples": [
+      { "fr": "**[De plus|de-plus]**, ton argument est pertinent.", "en": "What's more, your argument is relevant." },
+      { "fr": "C'est cher. **[De plus|de-plus]**, c'est loin.", "en": "It's expensive. What's more, it's far." },
+      { "fr": "Il pleut ; **[de plus|de-plus]**, j'ai froid.", "en": "It's raining; what's more, I'm cold." }
+    ] },
+    { "id": "en-outre", "fr": "en outre", "pos": "expr", "ipa": "ɑ̃.n‿utʁ", "en": "moreover, besides (formal)", "def": "Pour ajouter une idée, dans un style écrit et soigné.", "def_en": "To add an idea, in a careful written style.", "examples": [
+      { "fr": "**En outre**, Mathis y va.", "en": "Moreover, Mathis is going there." },
+      { "fr": "Le loyer est cher. **En outre**, l'appartement est petit.", "en": "The rent is high. Moreover, the flat is small." },
+      { "fr": "**En outre**, il faut un passeport.", "en": "Besides, you need a passport." }
+    ] },
+    { "id": "par-ailleurs", "fr": "par ailleurs", "pos": "expr", "ipa": "paʁ a.jœʁ", "en": "besides, in addition; otherwise", "def": "Pour ajouter une idée d'un autre type.", "def_en": "To add an idea of another kind.", "examples": [
+      { "fr": "**Par ailleurs**, Antoine pourrait m'aider.", "en": "Besides, Antoine could help me." },
+      { "fr": "C'est un bon film. **Par ailleurs**, les acteurs sont excellents.", "en": "It's a good film. Besides, the actors are excellent." },
+      { "fr": "Il est médecin ; **par ailleurs**, il joue du piano.", "en": "He's a doctor; he also plays the piano." }
+    ] },
+    { "id": "certes", "fr": "certes", "pos": "adv", "ipa": "sɛʁt", "en": "admittedly, of course (… but)", "def": "Pour reconnaître qu'une idée est vraie, avant de dire « mais ».", "def_en": "To admit that an idea is true, before saying 'but'.", "examples": [
+      { "fr": "**Certes**, Copenhague est magnifique.", "en": "Admittedly, Copenhagen is magnificent." },
+      { "fr": "**Certes**, il est en retard, mais il est venu.", "en": "Of course, he's late, but he came." },
+      { "fr": "C'est cher, **certes**, mais c'est beau.", "en": "It's expensive, admittedly, but it's beautiful." }
+    ] },
+    { "id": "notamment", "fr": "notamment", "pos": "adv", "ipa": "nɔ.ta.mɑ̃", "en": "notably, in particular, especially", "def": "En particulier ; par exemple.", "def_en": "In particular; for example.", "examples": [
+      { "fr": "L'architecture danoise est célèbre, **notamment** pour ses bâtiments écologiques.", "en": "Danish architecture is famous, especially for its green buildings." },
+      { "fr": "J'aime les fruits, **notamment** les fraises.", "en": "I like fruit, especially strawberries." },
+      { "fr": "Plusieurs amis sont venus, **notamment** Tom.", "en": "Several friends came, including Tom." }
+    ] },
+    { "id": "a-savoir", "fr": "à savoir", "pos": "expr", "manual": true, "ipa": "a sa.vwaʁ", "en": "namely, that is", "def": "Pour annoncer une liste ou une explication précise.", "def_en": "To announce a list or an exact explanation.", "examples": [
+      { "fr": "J'ai deux raisons, **[à savoir|a-savoir]** la langue et Habitat 67.", "en": "I have two reasons, namely the language and Habitat 67." },
+      { "fr": "Il manque une chose, **[à savoir|a-savoir]** l'argent.", "en": "One thing is missing, namely the money." },
+      { "fr": "Trois villes, **[à savoir|a-savoir]** Paris, Lyon et Marseille.", "en": "Three cities, namely Paris, Lyon and Marseille." }
+    ] },
+    { "id": "en-resume", "fr": "en résumé", "pos": "expr", "ipa": "ɑ̃ ʁe.zy.me", "en": "in short, to sum up", "def": "Pour dire l'essentiel en quelques mots, à la fin.", "def_en": "To say the main thing in a few words, at the end.", "examples": [
+      { "fr": "**En résumé**, je choisis Montréal.", "en": "In short, I choose Montreal." },
+      { "fr": "**En résumé** : il pleut, et on reste à la maison.", "en": "To sum up: it's raining, and we're staying at home." },
+      { "fr": "**En résumé**, tout s'est bien [passé|passer].", "en": "In short, everything went well." }
+    ] },
+    { "id": "constater", "fr": "constater", "pos": "verb", "ipa": "kɔ̃s.ta.te", "en": "to note, to observe, to see", "def": "Voir qu'une chose est vraie, en la regardant.", "def_en": "To see that something is true, by looking at it.", "forms": ["constate", "constates", "constatons", "constatez", "constatent", "constaté", "constatée", "constatés", "constatées", "constatais", "constatait", "constations", "constatiez", "constataient", "constaterai", "constateras", "constatera", "constaterons", "constaterez", "constateront", "constaterais", "constaterait", "constaterions", "constateriez", "constateraient", "constatant", "constatai", "constatas", "constata", "constatâmes", "constatâtes", "constatèrent"], "examples": [
+      { "fr": "Je **constate** que j'ai écrit « Montréal » douze fois.", "en": "I notice I've written 'Montréal' twelve times." },
+      { "fr": "Le médecin a **constaté** une entorse.", "en": "The doctor found a sprain." },
+      { "fr": "On **constate** que les prix augmentent.", "en": "We can see that prices are going up." }
+    ] },
+    { "id": "souligner", "fr": "souligner", "pos": "verb", "ipa": "su.li.ɲe", "en": "to underline; to emphasise", "def": "Tirer un trait sous un mot. Aussi : montrer qu'une idée est importante.", "def_en": "To draw a line under a word. Also: to show that an idea is important.", "forms": ["souligne", "soulignes", "soulignons", "soulignez", "soulignent", "souligné", "soulignée", "soulignés", "soulignées", "soulignais", "soulignait", "soulignions", "souligniez", "soulignaient", "soulignerai", "souligneras", "soulignera", "soulignerons", "soulignerez", "souligneront", "soulignerais", "soulignerait", "soulignerions", "souligneriez", "souligneraient", "soulignant", "soulignai", "soulignas", "souligna", "soulignâmes", "soulignâtes", "soulignèrent"], "examples": [
+      { "fr": "**Souligne** ta conclusion !", "en": "Underline your conclusion!" },
+      { "fr": "Le professeur a **souligné** mes fautes en rouge.", "en": "The teacher underlined my mistakes in red." },
+      { "fr": "Je voudrais **souligner** un point important.", "en": "I'd like to stress an important point." }
+    ] },
+    { "id": "justifier", "fr": "justifier", "pos": "verb", "ipa": "ʒys.ti.fje", "en": "to justify, to explain (a choice)", "def": "Donner les raisons d'un choix ou d'une décision.", "def_en": "To give the reasons for a choice or a decision.", "forms": ["justifie", "justifies", "justifions", "justifiez", "justifient", "justifié", "justifiée", "justifiés", "justifiées", "justifiais", "justifiait", "justifiions", "justifiiez", "justifiaient", "justifierai", "justifieras", "justifiera", "justifierons", "justifierez", "justifieront", "justifierais", "justifierait", "justifierions", "justifieriez", "justifieraient", "justifiant", "justifiai", "justifias", "justifia", "justifiâmes", "justifiâtes", "justifièrent"], "examples": [
+      { "fr": "Il faut un texte pour **justifier** sa décision.", "en": "You need a text to justify your decision." },
+      { "fr": "Comment tu **justifies** ce prix ?", "en": "How do you justify this price?" },
+      { "fr": "Rien ne **justifie** un tel retard.", "en": "Nothing justifies such a delay." }
+    ] },
+    { "id": "nuancer", "fr": "nuancer", "pos": "verb", "ipa": "nɥɑ̃.se", "en": "to qualify (an opinion), to add nuance", "def": "Rendre une idée moins simple, en montrant qu'elle n'est pas toujours vraie.", "def_en": "To make an idea less simple, by showing it isn't always true.", "forms": ["nuance", "nuances", "nuançons", "nuancez", "nuancent", "nuancé", "nuancée", "nuancés", "nuancées", "nuançais", "nuançait", "nuancions", "nuanciez", "nuançaient", "nuancerai", "nuanceras", "nuancera", "nuancerons", "nuancerez", "nuanceront", "nuancerais", "nuancerait", "nuancerions", "nuanceriez", "nuanceraient", "nuançant", "nuançai", "nuanças", "nuança", "nuancâmes", "nuancâtes", "nuancèrent"], "examples": [
+      { "fr": "Il faut **nuancer**.", "en": "You have to qualify that." },
+      { "fr": "Je voudrais **nuancer** ce que tu dis.", "en": "I'd like to qualify what you're saying." },
+      { "fr": "Son avis est très **nuancé**.", "en": "Her opinion is very nuanced." }
+    ] },
+    { "id": "subjectif", "fr": "subjectif", "pos": "adj", "ipa": "syb.ʒɛk.tif", "display": "subjectif, subjective", "en": "subjective", "def": "Qui dépend des goûts et des sentiments d'une personne.", "def_en": "That depends on a person's tastes and feelings.", "forms": ["subjective", "subjectifs", "subjectives"], "examples": [
+      { "fr": "Cet argument est **subjectif**.", "en": "This argument is subjective." },
+      { "fr": "Le goût, c'est **subjectif**.", "en": "Taste is subjective." },
+      { "fr": "Ton avis est très **subjectif** !", "en": "Your opinion is very subjective!" }
+    ] },
+    { "id": "pertinent", "fr": "pertinent", "pos": "adj", "ipa": "pɛʁ.ti.nɑ̃", "display": "pertinent, pertinente", "en": "relevant, to the point", "def": "Qui va bien avec le sujet ; intelligent et utile.", "def_en": "That fits the subject well; clever and useful.", "forms": ["pertinente", "pertinents", "pertinentes"], "examples": [
+      { "fr": "Ton argument sur la langue est **pertinent**.", "en": "Your argument about the language is relevant." },
+      { "fr": "C'est une question très **pertinente**.", "en": "That's a very relevant question." },
+      { "fr": "Ses remarques sont toujours **pertinentes**.", "en": "Her comments are always to the point." }
+    ] }
+  ],
+  "story": {
+    "title": "Copenhague ou Montréal ?",
+    "en": "Friday 15 January: Sophie has until midnight to choose her summer workshop, and Léa helps her argue it out like an essay.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi quinze janvier, il est vingt heures. Sophie doit envoyer son choix avant minuit, avec un texte pour justifier sa décision.", "en": "On Friday 15 January, it's eight p.m. Sophie has to send her choice before midnight, with a text justifying her decision." },
+      { "sp": "Sophie", "fr": "Je n'y arrive pas ! J'ai écrit trois pages, sans plan.", "en": "I can't do it! I've written three pages, with no plan." },
+      { "sp": "Léa", "fr": "Fais comme pour une dissertation. D'abord, une introduction, avec ta problématique.", "en": "Do it like an essay. First, an introduction, with your central question." },
+      { "sp": "Sophie", "fr": "Ma problématique ? « Où est-ce que je vais apprendre le plus ? »", "en": "My central question? 'Where will I learn the most?'" },
+      { "sp": "Léa", "fr": "Parfait. Ensuite, la thèse : les arguments pour Copenhague.", "en": "Perfect. Next, the thesis: the arguments for Copenhagen." },
+      { "sp": "Sophie", "fr": "Premièrement, c'est la capitale du vélo. Deuxièmement, l'architecture danoise est célèbre, notamment pour ses bâtiments écologiques. En outre, Mathis y va.", "en": "Firstly, it's the cycling capital. Secondly, Danish architecture is famous, especially for its green buildings. Moreover, Mathis is going there." },
+      { "sp": "Léa", "fr": "Ce dernier argument n'est pas très objectif…", "en": "That last argument isn't very objective…" },
+      { "sp": "Sophie", "fr": "Je sais, il est subjectif. Bon, je le garde pour la fin.", "en": "I know, it's subjective. All right, I'll keep it for the end." },
+      { "sp": "Léa", "fr": "Maintenant, l'antithèse : Montréal.", "en": "Now, the antithesis: Montreal." },
+      { "sp": "Sophie", "fr": "D'une part, là-bas, je parlerais français. D'autre part, il y a Habitat 67, un bâtiment incroyable. Par ailleurs, Antoine et ta tante pourraient m'aider.", "en": "On the one hand, over there, I'd speak French. On the other, there's Habitat 67, an incredible building. Besides, Antoine and your aunt could help me." },
+      { "sp": "Léa", "fr": "Certes, Copenhague est magnifique. Mais ton argument sur la langue est pertinent : tu comprendras tout, en cours comme dans la rue. [De plus|de-plus], je pourrais venir te voir.", "en": "Admittedly, Copenhagen is magnificent. But your argument about the language is relevant: you'll understand everything, in class and in the street. What's more, I could come and see you." },
+      { "sp": "Sophie", "fr": "Alors, la synthèse ?", "en": "So, the synthesis?" },
+      { "sp": "Léa", "fr": "Il faut nuancer. Les deux villes sont parfaites pour une architecte, mais une seule répond à ta problématique.", "en": "You have to qualify it. Both cities are perfect for an architect, but only one answers your question." },
+      { "sp": "Sophie", "fr": "Je constate que j'ai écrit le mot « Montréal » douze fois… et « Copenhague » trois fois.", "en": "I notice I've written the word 'Montréal' twelve times… and 'Copenhague' three times." },
+      { "sp": "Léa", "fr": "Voilà ta conclusion. Souligne-la !", "en": "There's your conclusion. Underline it!" },
+      { "sp": "", "fr": "Sophie écrit son dernier paragraphe : « En résumé, je choisis Montréal, pour deux raisons, [à savoir|a-savoir] la langue et Habitat 67. »", "en": "Sophie writes her last paragraph: 'In short, I choose Montreal, for two reasons, namely the language and Habitat 67.'" },
+      { "sp": "", "fr": "À vingt-trois heures cinquante-huit, elle envoie son texte… et une copie à Mathis.", "en": "At 11.58 p.m., she sends her text… and a copy to Mathis." },
+      { "sp": "", "fr": "À vingt-trois heures cinquante-neuf, Mathis répond : « Tes arguments sont pertinents. Je change mon choix : moi aussi, Montréal ! »", "en": "At 11.59 p.m., Mathis replies: 'Your arguments are spot on. I'm changing my choice: Montreal for me too!'" },
+      { "sp": "Sophie", "fr": "Léa ! Il a changé d'avis ! Tu sais argumenter mieux que tous les avocats de Lyon !", "en": "Léa! He's changed his mind! You can argue better than all the lawyers in Lyon!" },
+      { "sp": "Léa", "fr": "Ce n'est pas moi. C'est la dissertation !", "en": "It's not me. It's the essay!" }
+    ]
+  }
+}

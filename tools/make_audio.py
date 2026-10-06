@@ -154,9 +154,11 @@ FIXES = {
     "dépaysement": "depeizmˈɑ̃",  # the voice drops the z
     "mot à mot": "motamˈo",  # with the liaison
     "copenhague": "kɔpənˈaɡ", "niemeyer": "nimɛjˈɛʁ", "puerta del sol": "pwˈɛʁta dɛl sˈɔl",
+    "master": "mastˈɛʁ", "masters": "mastˈɛʁ",  # the voice says /mastœʁ/
+    "de plus,": "də plˈys,", "mois de plus": "mwˈa də plˈys", "faire de plus": "fˈɛʁ də plˈys",  # more: the s is said
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
-CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}
+CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap
 CASE_FIX_RE = re.compile(rf"(?<![{V.L}'’])({'|'.join(map(re.escape, CASE_FIXES))})(?![{V.L}])")
 # Fixes only for a word said on its own (in sentences the voice gets these right).
 ALONE_FIXES = {
@@ -164,6 +166,7 @@ ALONE_FIXES = {
     "vis": "vˈis",  # the noun (a screw); no text uses the verb (je vis) yet, which would need /vi/
     "à plus": "a plˈys",  # see you! (in sentences, see "à plus !" in FIXES)
     "l'est": "lˈɛst",  # east, clicked or on its word card (in sentences, see "à l'est" in FIXES)
+    "de plus": "də plˈys",  # what's more (in sentences, see "de plus," in FIXES)
 }
 # A fixed word after an elision (l'immeuble, d'Annecy) takes the elided consonant into its
 # phoneme block: alone before a block, Piper would read "l'" as the letter name.

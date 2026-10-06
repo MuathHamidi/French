@@ -1,0 +1,165 @@
+{
+  "id": "u38-apprendre",
+  "type": "vocab",
+  "unit": 38,
+  "title": "Apprendre une langue",
+  "en": "Learning a language",
+  "intro": "25 words for learning a language: the class (**le cours du soir, débutant, intermédiaire, la méthode, le manuel, l'exercice, la dictée, la fiche, le dictionnaire**), what you learn (**le vocabulaire, la grammaire, la conjugaison, conjuguer, irrégulier, la prononciation, prononcer, l'orthographe, la compréhension, l'écrit, l'oral**) and how you learn it (**la faute, mémoriser, retenir, l'immersion, le tandem**).",
+  "words": [
+    { "id": "cours-du-soir", "fr": "cours du soir", "pos": "noun", "g": "m", "ipa": "kuʁ dy swaʁ", "en": "evening class", "def": "Un cours pour adultes, après le travail.", "def_en": "A class for adults, after work.", "examples": [
+      { "fr": "Hugo prend des **cours du soir** d'espagnol.", "en": "Hugo is taking evening classes in Spanish." },
+      { "fr": "Le **cours du soir** commence à dix-neuf heures.", "en": "The evening class starts at seven p.m." },
+      { "fr": "Ma mère suit un **cours du soir** de peinture.", "en": "My mother goes to an evening painting class." }
+    ] },
+    { "id": "debutant", "fr": "débutant", "pos": "adj", "ipa": "de.by.tɑ̃", "display": "débutant, débutante", "en": "beginner; (adj) beginning", "def": "Qui commence à apprendre quelque chose.", "def_en": "Who is starting to learn something.", "forms": ["débutante", "débutants", "débutantes"], "examples": [
+      { "fr": "Hugo est **débutant** en espagnol.", "en": "Hugo is a beginner in Spanish." },
+      { "fr": "Ce cours est pour les **débutants**.", "en": "This class is for beginners." },
+      { "fr": "Elle joue de la guitare, mais elle est encore **débutante**.", "en": "She plays the guitar, but she's still a beginner." }
+    ] },
+    { "id": "intermediaire", "fr": "intermédiaire", "pos": "adj", "ipa": "ɛ̃.tɛʁ.me.djɛʁ", "en": "intermediate", "def": "Entre le début et le niveau le plus haut.", "def_en": "Between the start and the highest level.", "note": "After it comes the *niveau avancé* (advanced level).", "forms": ["intermédiaires"], "examples": [
+      { "fr": "Je cherche un cours de niveau **intermédiaire**.", "en": "I'm looking for an intermediate class." },
+      { "fr": "Après six mois, elle est passée au niveau **intermédiaire**.", "en": "After six months, she moved up to intermediate level." },
+      { "fr": "Le niveau **intermédiaire**, c'est entre débutant et avancé.", "en": "Intermediate is between beginner and advanced." }
+    ] },
+    { "id": "vocabulaire", "fr": "vocabulaire", "pos": "noun", "g": "m", "ipa": "vɔ.ka.by.lɛʁ", "en": "vocabulary", "def": "L'ensemble des mots d'une langue, ou des mots que quelqu'un connaît.", "def_en": "All the words of a language, or the words someone knows.", "examples": [
+      { "fr": "Hugo a déjà du **vocabulaire** pour la nourriture.", "en": "Hugo already knows some food vocabulary." },
+      { "fr": "J'apprends dix mots de **vocabulaire** par jour.", "en": "I learn ten words of vocabulary a day." },
+      { "fr": "Ton **vocabulaire** est très riche !", "en": "Your vocabulary is very rich!" }
+    ] },
+    { "id": "grammaire", "fr": "grammaire", "pos": "noun", "g": "f", "ipa": "ɡʁa.mɛʁ", "en": "grammar", "def": "Les règles d'une langue : comment on construit les phrases.", "def_en": "The rules of a language: how you build sentences.", "forms": ["grammaires"], "examples": [
+      { "fr": "La **grammaire** espagnole n'est pas facile.", "en": "Spanish grammar isn't easy." },
+      { "fr": "J'ai acheté un livre de **grammaire**.", "en": "I've bought a grammar book." },
+      { "fr": "Il y a une faute de **grammaire** dans ta phrase.", "en": "There's a grammar mistake in your sentence." }
+    ] },
+    { "id": "conjugaison", "fr": "conjugaison", "pos": "noun", "g": "f", "ipa": "kɔ̃.ʒy.ɡɛ.zɔ̃", "en": "conjugation", "def": "Les différentes formes d'un verbe, selon la personne et le temps.", "def_en": "The different forms of a verb, depending on the person and the tense.", "forms": ["conjugaisons"], "examples": [
+      { "fr": "La **conjugaison** est pleine de verbes irréguliers.", "en": "Conjugation is full of irregular verbs." },
+      { "fr": "J'ai révisé la **conjugaison** du futur.", "en": "I've revised the conjugation of the future tense." },
+      { "fr": "Ce livre a toutes les **conjugaisons**.", "en": "This book has all the conjugations." }
+    ] },
+    { "id": "conjuguer", "fr": "conjuguer", "pos": "verb", "ipa": "kɔ̃.ʒy.ɡe", "en": "to conjugate", "def": "Donner les formes d'un verbe, avec je, tu, il…", "def_en": "To give the forms of a verb, with I, you, he…", "forms": ["conjugue", "conjugues", "conjuguons", "conjuguez", "conjuguent", "conjugué", "conjuguée", "conjugués", "conjuguées", "conjuguais", "conjuguait", "conjuguions", "conjuguiez", "conjuguaient", "conjuguerai", "conjugueras", "conjuguera", "conjuguerons", "conjuguerez", "conjugueront", "conjuguerais", "conjuguerait", "conjuguerions", "conjugueriez", "conjugueraient", "conjuguant", "conjuguai", "conjuguas", "conjugua", "conjuguâmes", "conjuguâtes", "conjuguèrent"], "examples": [
+      { "fr": "Je ne sais pas quel verbe **conjuguer**.", "en": "I don't know which verb to conjugate." },
+      { "fr": "**Conjuguez** le verbe « être » au présent.", "en": "Conjugate the verb 'être' in the present." },
+      { "fr": "Il **conjugue** tous les verbes au présent.", "en": "He conjugates every verb in the present." }
+    ] },
+    { "id": "prononciation", "fr": "prononciation", "pos": "noun", "g": "f", "ipa": "pʁɔ.nɔ̃.sja.sjɔ̃", "en": "pronunciation", "def": "La manière de dire les mots d'une langue.", "def_en": "The way you say the words of a language.", "forms": ["prononciations"], "examples": [
+      { "fr": "La **prononciation** du R espagnol est difficile.", "en": "The pronunciation of the Spanish R is difficult." },
+      { "fr": "Ta **prononciation** est parfaite !", "en": "Your pronunciation is perfect!" },
+      { "fr": "Écoute bien la **prononciation** de ce mot.", "en": "Listen carefully to how this word is pronounced." }
+    ] },
+    { "id": "prononcer", "fr": "prononcer", "pos": "verb", "ipa": "pʁɔ.nɔ̃.se", "en": "to pronounce; to say (a word, a speech)", "def": "Dire un mot à voix haute, de la bonne manière.", "def_en": "To say a word out loud, the right way.", "forms": ["prononce", "prononces", "prononçons", "prononcez", "prononcent", "prononcé", "prononcée", "prononcés", "prononcées", "prononçais", "prononçait", "prononcions", "prononciez", "prononçaient", "prononcerai", "prononceras", "prononcera", "prononcerons", "prononcerez", "prononceront", "prononcerais", "prononcerait", "prononcerions", "prononceriez", "prononceraient", "prononçant", "prononçai", "prononças", "prononça", "prononcâmes", "prononcâtes", "prononcèrent"], "examples": [
+      { "fr": "Je ne sais pas **prononcer** ce mot.", "en": "I don't know how to pronounce this word." },
+      { "fr": "Comment on **prononce** « Lucía » ?", "en": "How do you pronounce 'Lucía'?" },
+      { "fr": "Il **prononce** très bien le français.", "en": "His French pronunciation is very good." }
+    ] },
+    { "id": "orthographe", "fr": "orthographe", "pos": "noun", "g": "f", "ipa": "ɔʁ.tɔ.ɡʁaf", "en": "spelling", "def": "La bonne manière d'écrire les mots.", "def_en": "The right way to write words.", "examples": [
+      { "fr": "L'**orthographe** française est très difficile.", "en": "French spelling is very difficult." },
+      { "fr": "Tu as fait une faute d'**orthographe**.", "en": "You've made a spelling mistake." },
+      { "fr": "En espagnol, l'**orthographe** suit la prononciation.", "en": "In Spanish, spelling follows pronunciation." }
+    ] },
+    { "id": "faute", "fr": "faute", "pos": "noun", "g": "f", "ipa": "fot", "en": "mistake; fault (ce n'est pas ma faute = it's not my fault)", "def": "Une erreur, surtout quand on écrit ou qu'on parle une langue.", "def_en": "A mistake, especially when you write or speak a language.", "forms": ["fautes"], "examples": [
+      { "fr": "Hugo a fait vingt **fautes** en dix lignes.", "en": "Hugo made twenty mistakes in ten lines." },
+      { "fr": "Ce n'est pas ma **faute** !", "en": "It's not my fault!" },
+      { "fr": "Il y a une **faute** dans ta phrase.", "en": "There's a mistake in your sentence." }
+    ] },
+    { "id": "exercice", "fr": "exercice", "pos": "noun", "g": "m", "ipa": "ɛɡ.zɛʁ.sis", "en": "exercise", "def": "Un petit travail pour s'entraîner, en classe ou à la maison.", "def_en": "A small task for practice, in class or at home.", "forms": ["exercices"], "examples": [
+      { "fr": "Faites l'**exercice** numéro trois.", "en": "Do exercise number three." },
+      { "fr": "Je n'aime pas les **exercices** de grammaire.", "en": "I don't like grammar exercises." },
+      { "fr": "Le sport, c'est un bon **exercice**.", "en": "Sport is good exercise." }
+    ] },
+    { "id": "dictionnaire", "fr": "dictionnaire", "pos": "noun", "g": "m", "ipa": "dik.sjɔ.nɛʁ", "en": "dictionary", "def": "Un livre ou un site qui donne le sens de tous les mots d'une langue.", "def_en": "A book or a website that gives the meaning of all the words of a language.", "note": "Informal: *le dico*.", "forms": ["dictionnaires"], "examples": [
+      { "fr": "Cherche ce mot dans le **dictionnaire**.", "en": "Look this word up in the dictionary." },
+      { "fr": "J'ai un **dictionnaire** en ligne sur mon téléphone.", "en": "I have an online dictionary on my phone." },
+      { "fr": "Ce **dictionnaire** pèse deux kilos !", "en": "This dictionary weighs two kilos!" }
+    ] },
+    { "id": "memoriser", "fr": "mémoriser", "pos": "verb", "ipa": "me.mɔ.ʁi.ze", "en": "to memorise", "def": "Mettre quelque chose dans sa mémoire, pour ne pas l'oublier.", "def_en": "To put something in your memory, so as not to forget it.", "forms": ["mémorise", "mémorises", "mémorisons", "mémorisez", "mémorisent", "mémorisé", "mémorisée", "mémorisés", "mémorisées", "mémorisais", "mémorisait", "mémorisions", "mémorisiez", "mémorisaient", "mémoriserai", "mémoriseras", "mémorisera", "mémoriserons", "mémoriserez", "mémoriseront", "mémoriserais", "mémoriserait", "mémoriserions", "mémoriseriez", "mémoriseraient", "mémorisant", "mémorisai", "mémorisas", "mémorisa", "mémorisâmes", "mémorisâtes", "mémorisèrent"], "examples": [
+      { "fr": "C'est comme ça qu'on **mémorise** le vocabulaire.", "en": "That's how you memorise vocabulary." },
+      { "fr": "Je n'arrive pas à **mémoriser** les dates.", "en": "I can't memorise dates." },
+      { "fr": "Il a **mémorisé** tout le poème.", "en": "He memorised the whole poem." }
+    ] },
+    { "id": "retenir", "fr": "retenir", "pos": "verb", "ipa": "ʁə.tə.niʁ", "en": "to remember (a fact); to hold back", "def": "Garder dans sa mémoire. Aussi : empêcher quelqu'un de partir ou de tomber.", "def_en": "To keep in your memory. Also: to stop someone from leaving or falling.", "forms": ["retiens", "retient", "retenons", "retenez", "retiennent", "retenu", "retenue", "retenus", "retenues", "retenais", "retenait", "retenions", "reteniez", "retenaient", "retiendrai", "retiendras", "retiendra", "retiendrons", "retiendrez", "retiendront", "retiendrais", "retiendrait", "retiendrions", "retiendriez", "retiendraient", "retienne", "retiennes", "retenant", "retins", "retint", "retînmes", "retîntes", "retinrent"], "examples": [
+      { "fr": "Je ne vais jamais **retenir** vingt mots !", "en": "I'll never remember twenty words!" },
+      { "fr": "J'ai **retenu** le nom de ton prof.", "en": "I've remembered your teacher's name." },
+      { "fr": "**Retiens** bien cette règle.", "en": "Remember this rule well." }
+    ] },
+    { "id": "fiche", "fr": "fiche", "pos": "noun", "g": "f", "ipa": "fiʃ", "en": "index card, flashcard; form (to fill in)", "def": "Un petit carton où on écrit des informations, par exemple un mot et sa traduction.", "def_en": "A small card where you write information, for example a word and its translation.", "forms": ["fiches"], "examples": [
+      { "fr": "Faites des **fiches** de vocabulaire.", "en": "Make vocabulary flashcards." },
+      { "fr": "Sur chaque **fiche**, il y a un mot et sa traduction.", "en": "On each card, there's a word and its translation." },
+      { "fr": "Remplissez cette **fiche**, s'il vous plaît.", "en": "Please fill in this form." }
+    ] },
+    { "id": "methode", "fr": "méthode", "pos": "noun", "g": "f", "ipa": "me.tɔd", "en": "method; (language) course book", "def": "Une manière organisée de faire quelque chose. Aussi : un livre pour apprendre une langue.", "def_en": "An organised way of doing something. Also: a book for learning a language.", "forms": ["méthodes"], "examples": [
+      { "fr": "Avec une bonne **méthode**, on apprend vite.", "en": "With a good method, you learn fast." },
+      { "fr": "Quelle est ta **méthode** pour retenir les mots ?", "en": "What's your method for remembering words?" },
+      { "fr": "J'ai acheté une **méthode** d'espagnol.", "en": "I've bought a Spanish course book." }
+    ] },
+    { "id": "manuel", "fr": "manuel", "pos": "noun", "g": "m", "ipa": "ma.nɥɛl", "en": "textbook, manual; (adj) manual", "def": "Le livre qu'on utilise en classe pour apprendre une matière.", "def_en": "The book you use in class to learn a subject.", "forms": ["manuels"], "examples": [
+      { "fr": "Ouvrez votre **manuel** à la page dix.", "en": "Open your textbook at page ten." },
+      { "fr": "Lucía nous donne un **manuel** et un cahier.", "en": "Lucía gives us a textbook and an exercise book." },
+      { "fr": "Il aime les travaux **manuels**.", "en": "He likes working with his hands." }
+    ] },
+    { "id": "immersion", "fr": "immersion", "pos": "noun", "g": "f", "ipa": "i.mɛʁ.sjɔ̃", "en": "immersion (en immersion = surrounded by the language)", "def": "Le fait de vivre dans un pays, au milieu de sa langue, pour l'apprendre.", "def_en": "Living in a country, surrounded by its language, to learn it.", "examples": [
+      { "fr": "Une semaine d'**immersion** vaut un an de cours.", "en": "A week of immersion is worth a year of classes." },
+      { "fr": "Tom a appris le français en **immersion**.", "en": "Tom learnt French by immersion." },
+      { "fr": "Cet été, Hugo fera une semaine d'**immersion** à Madrid.", "en": "This summer, Hugo will spend an immersion week in Madrid." }
+    ] },
+    { "id": "tandem", "fr": "tandem", "pos": "noun", "g": "m", "ipa": "tɑ̃.dɛm", "en": "language exchange (with a partner); tandem bike", "def": "Un échange entre deux personnes qui apprennent chacune la langue de l'autre.", "def_en": "An exchange between two people who each learn the other's language.", "forms": ["tandems"], "examples": [
+      { "fr": "Tom et Enzo font un **tandem** : anglais contre argot.", "en": "Tom and Enzo do a language exchange: English for slang." },
+      { "fr": "On fait un **tandem** ? Je t'aide en français, tu m'aides en anglais.", "en": "Shall we do an exchange? I help you with French, you help me with English." },
+      { "fr": "Ils ont roulé jusqu'au lac en **tandem**.", "en": "They rode to the lake on a tandem." }
+    ] },
+    { "id": "dictee", "fr": "dictée", "pos": "noun", "g": "f", "ipa": "dik.te", "en": "dictation", "def": "Un exercice où le professeur lit un texte, et les élèves l'écrivent sans fautes.", "def_en": "An exercise where the teacher reads a text, and the pupils write it down without mistakes.", "forms": ["dictées"], "examples": [
+      { "fr": "À l'école, j'avais zéro en **dictée**.", "en": "At school, I got zero in dictation." },
+      { "fr": "La **dictée**, c'est un grand classique en France.", "en": "Dictation is a great classic in France." },
+      { "fr": "Lou fera sa première **dictée** dans trois ans.", "en": "Lou will do her first dictation in three years." }
+    ] },
+    { "id": "irregulier", "fr": "irrégulier", "pos": "adj", "ipa": "i.ʁe.ɡy.lje", "display": "irrégulier, irrégulière", "en": "irregular", "def": "Qui ne suit pas la règle.", "def_en": "That doesn't follow the rule.", "forms": ["irrégulière", "irréguliers", "irrégulières"], "examples": [
+      { "fr": "« Être » est un verbe **irrégulier**.", "en": "'Être' is an irregular verb." },
+      { "fr": "Les verbes **irréguliers**, il faut les apprendre par cœur.", "en": "Irregular verbs have to be learnt by heart." },
+      { "fr": "Il a un sommeil très **irrégulier**.", "en": "His sleep is very irregular." }
+    ] },
+    { "id": "comprehension", "fr": "compréhension", "pos": "noun", "g": "f", "ipa": "kɔ̃.pʁe.ɑ̃.sjɔ̃", "en": "comprehension, understanding", "def": "Le fait de comprendre ce qu'on entend ou ce qu'on lit.", "def_en": "Understanding what you hear or read.", "examples": [
+      { "fr": "On fait un exercice de **compréhension** orale.", "en": "We're doing a listening comprehension exercise." },
+      { "fr": "Ta **compréhension** de l'espagnol progresse.", "en": "Your understanding of Spanish is improving." },
+      { "fr": "Merci pour votre **compréhension**.", "en": "Thank you for your understanding." }
+    ] },
+    { "id": "ecrit-n", "fr": "écrit", "pos": "noun", "g": "m", "ipa": "e.kʁi", "en": "the written part, written exam (à l'écrit = in writing)", "def": "La partie d'un examen où on écrit. Le contraire de l'oral.", "def_en": "The part of an exam where you write. The opposite of the oral.", "forms": ["écrits"], "examples": [
+      { "fr": "À l'**écrit**, Hugo fait beaucoup de fautes.", "en": "In writing, Hugo makes lots of mistakes." },
+      { "fr": "L'**écrit** du DELF dure une heure.", "en": "The written part of the DELF lasts an hour." },
+      { "fr": "J'ai eu une bonne note à l'**écrit**.", "en": "I got a good mark in the written exam." }
+    ] },
+    { "id": "oral", "fr": "oral", "pos": "noun", "g": "m", "ipa": "ɔ.ʁal", "en": "oral exam; (à l'oral) when speaking; (adj) oral, spoken", "def": "La partie d'un examen où on parle. Aussi : ce qui se dit, et ne s'écrit pas.", "def_en": "The part of an exam where you speak. Also: what is said, not written.", "forms": ["oraux", "orale", "orales"], "examples": [
+      { "fr": "À l'**oral**, Hugo n'a pas peur de parler.", "en": "When speaking, Hugo isn't afraid to talk." },
+      { "fr": "Tom a eu vingt-trois sur vingt-cinq à l'**oral**.", "en": "Tom got twenty-three out of twenty-five in the oral." },
+      { "fr": "Le français **oral** est différent du français [écrit|ecrire].", "en": "Spoken French is different from written French." }
+    ] }
+  ],
+  "story": {
+    "title": "Le premier cours de Hugo",
+    "en": "Tuesday 12 January: Hugo's first evening Spanish class. His app had made him confident.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi douze janvier, à dix-neuf heures, Hugo commence son cours du soir d'espagnol, au centre de langues de l'université. Il arrive avec cinq minutes de retard.", "en": "On Tuesday 12 January, at seven p.m., Hugo starts his evening Spanish class, at the university's language centre. He arrives five minutes late." },
+      { "sp": "Lucía", "fr": "Bienvenue ! Je m'appelle Lucía. D'abord, un petit test, pour savoir si vous êtes débutants ou de niveau intermédiaire.", "en": "Welcome! My name is Lucía. First, a little test, to see whether you're beginners or intermediate." },
+      { "sp": "Hugo", "fr": "Intermédiaire, sans doute. J'ai une application, et j'ai passé le réveillon à Madrid !", "en": "Intermediate, no doubt. I've got an app, and I spent New Year's Eve in Madrid!" },
+      { "sp": "", "fr": "Dix minutes plus tard, Lucía corrige les tests. Hugo a fait vingt fautes en dix lignes.", "en": "Ten minutes later, Lucía marks the tests. Hugo has made twenty mistakes in ten lines." },
+      { "sp": "Lucía", "fr": "Débutant, Hugo. Mais un bon débutant ! Vous avez déjà du vocabulaire, surtout pour la nourriture.", "en": "Beginner, Hugo. But a good beginner! You already know some vocabulary, especially for food." },
+      { "sp": "Hugo", "fr": "C'est grâce à la mère de Carla. Elle m'a fait goûter tout Madrid !", "en": "That's thanks to Carla's mother. She had me taste the whole of Madrid!" },
+      { "sp": "Lucía", "fr": "Le problème, c'est la grammaire. En espagnol, il y a deux verbes « être ». Et la conjugaison est pleine de verbes irréguliers.", "en": "The problem is grammar. In Spanish, there are two verbs 'to be'. And conjugation is full of irregular verbs." },
+      { "sp": "Hugo", "fr": "Deux verbes « être » ? Et lequel je conjugue, alors ?", "en": "Two verbs 'to be'? So which one do I conjugate?" },
+      { "sp": "", "fr": "Ensuite, la prononciation. Lucía demande à chacun de rouler les R. Hugo essaie… et toute la classe rit.", "en": "Next, pronunciation. Lucía asks everyone to roll their Rs. Hugo tries… and the whole class laughs." },
+      { "sp": "Hugo", "fr": "En français, on ne roule pas les R ! Je ne sais pas prononcer ça.", "en": "In French, we don't roll our Rs! I can't pronounce that." },
+      { "sp": "Lucía", "fr": "Ça viendra. Et l'orthographe, c'est facile : en espagnol, on écrit presque comme on parle. Pas comme en français !", "en": "It'll come. And spelling is easy: in Spanish, you write almost the way you speak. Not like in French!" },
+      { "sp": "Hugo", "fr": "Ça, c'est vrai. Moi, à l'école, j'avais zéro en dictée.", "en": "That's true. At school, I got zero in dictation." },
+      { "sp": "", "fr": "Pour finir, un exercice de compréhension : Lucía passe une chanson, et chacun [écrit|ecrire] les mots qu'il entend.", "en": "To finish, a comprehension exercise: Lucía plays a song, and everyone writes down the words they hear." },
+      { "sp": "Lucía", "fr": "À l'écrit, vous avez du mal, Hugo. Mais à l'oral, vous n'avez pas peur de parler. C'est le plus important !", "en": "In writing, you struggle, Hugo. But when speaking, you're not afraid to talk. That's the most important thing!" },
+      { "sp": "Hugo", "fr": "C'est vrai, je n'ai jamais peur de parler. C'est même mon problème.", "en": "That's true, I'm never afraid to talk. That's actually my problem." },
+      { "sp": "Lucía", "fr": "Pour mardi, apprenez ces vingt mots. Faites des fiches : le mot d'un [côté|cote], la traduction de l'autre.", "en": "For Tuesday, learn these twenty words. Make flashcards: the word on one side, the translation on the other." },
+      { "sp": "Hugo", "fr": "Vingt mots ? Je ne vais jamais les retenir !", "en": "Twenty words? I'll never remember them!" },
+      { "sp": "Lucía", "fr": "Si, avec une bonne méthode : lisez vos fiches le soir, et encore le matin. C'est comme ça qu'on mémorise.", "en": "Yes, you will, with a good method: read your cards in the evening, and again in the morning. That's how you memorise." },
+      { "sp": "", "fr": "Elle leur donne aussi un manuel, et le nom d'un bon dictionnaire en ligne.", "en": "She also gives them a textbook, and the name of a good online dictionary." },
+      { "sp": "", "fr": "Après le cours, Hugo appelle Carla.", "en": "After the class, Hugo calls Carla." },
+      { "sp": "Hugo", "fr": "Carla, on fait un tandem ? Toi, tu me parles espagnol, et moi… je te fais des crêpes.", "en": "Carla, shall we do a language exchange? You speak Spanish to me, and I… make you pancakes." },
+      { "sp": "Carla", "fr": "D'accord ! Et cet été, une semaine d'immersion à Madrid, chez mes parents. C'est la meilleure méthode !", "en": "Deal! And this summer, an immersion week in Madrid, at my parents'. It's the best method!" },
+      { "sp": "", "fr": "Ce soir-là, Hugo écrit ses vingt fiches. À minuit, il en a retenu dix-neuf… et il a oublié la vingtième : « dormir ».", "en": "That evening, Hugo writes his twenty flashcards. At midnight, he has remembered nineteen… and forgotten the twentieth: 'to sleep'." }
+    ]
+  }
+}
