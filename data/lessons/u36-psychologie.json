@@ -1,0 +1,164 @@
+{
+  "id": "u36-psychologie",
+  "type": "vocab",
+  "unit": 36,
+  "title": "La psychologie",
+  "en": "Psychology",
+  "intro": "25 words for talking about how we feel inside: getting help (**la psychologie, le psychologue, la thérapie, le patient, l'écoute, le jugement**), feeling down (**le moral, déprimé, la déprime, la solitude, la phobie**), what we feel (**ressentir, exprimer, culpabiliser, la culpabilité, le soulagement**), how we see ourselves (**la confiance en soi, l'estime de soi, la timidité, complexé, perfectionniste, se remettre en question**) and getting better (**bienveillant, la bienveillance, épanoui**).",
+  "words": [
+    { "id": "psychologie", "fr": "psychologie", "pos": "noun", "g": "f", "ipa": "psi.kɔ.lɔ.ʒi", "en": "psychology", "def": "La science qui étudie les pensées, les émotions et la manière d'agir des gens.", "def_en": "The science that studies people's thoughts, emotions and behaviour.", "examples": [
+      { "fr": "En sortant du service de **psychologie**, Sophie appelle Léa.", "en": "As she leaves the psychology service, Sophie calls Léa." },
+      { "fr": "Elle étudie la **psychologie** à la fac.", "en": "She studies psychology at uni." },
+      { "fr": "C'est une question de **psychologie**.", "en": "It's a question of psychology." }
+    ] },
+    { "id": "psychologue", "fr": "psychologue", "pos": "noun", "g": "m", "both": true, "ipa": "psi.kɔ.lɔɡ", "en": "psychologist", "def": "La personne qui écoute les problèmes des gens et les [aide|aider] à aller mieux, sans médicaments.", "def_en": "The person who listens to people's problems and helps them get better, without medicines.", "note": "Informal: *le psy, la psy*.", "forms": ["psychologues"], "examples": [
+      { "fr": "Sophie entre dans le bureau de la **psychologue**.", "en": "Sophie goes into the psychologist's office." },
+      { "fr": "Léa lui a conseillé de voir une **psychologue**.", "en": "Léa advised her to see a psychologist." },
+      { "fr": "Le **psychologue** de l'école est très gentil.", "en": "The school psychologist is very nice." }
+    ] },
+    { "id": "therapie", "fr": "thérapie", "pos": "noun", "g": "f", "ipa": "te.ʁa.pi", "en": "therapy", "def": "Une série de rencontres avec un psychologue, pour aller mieux.", "def_en": "A series of meetings with a psychologist, to get better.", "forms": ["thérapies"], "examples": [
+      { "fr": "Une **thérapie** en une semaine ?", "en": "Therapy in a week?" },
+      { "fr": "Il suit une **thérapie** depuis un an.", "en": "He's been in therapy for a year." },
+      { "fr": "La **thérapie** l'[aide|aider] beaucoup.", "en": "Therapy helps him a lot." }
+    ] },
+    { "id": "moral", "fr": "moral", "pos": "noun", "g": "m", "ipa": "mɔ.ʁal", "en": "morale, spirits (avoir le moral = to be in good spirits)", "def": "L'énergie et la joie qu'on a dans la tête, ou pas.", "def_en": "The energy and cheerfulness you have in your head, or don't.", "note": "*ne pas avoir le moral* = to feel down. Not to be confused with **la morale** (the moral of a story).", "examples": [
+      { "fr": "En ce moment, je n'ai pas le **moral**.", "en": "At the moment, I'm feeling down." },
+      { "fr": "Le sport, c'est bon pour le **moral**.", "en": "Sport is good for morale." },
+      { "fr": "Allez, garde le **moral** !", "en": "Come on, keep your spirits up!" }
+    ] },
+    { "id": "deprime", "fr": "déprimé", "pos": "adj", "ipa": "de.pʁi.me", "display": "déprimé, déprimée", "en": "depressed, down", "def": "Très triste, sans énergie et sans envie.", "def_en": "Very sad, with no energy or drive.", "forms": ["déprimée", "déprimés", "déprimées"], "accept": ["déprimée"], "examples": [
+      { "fr": "Vous n'êtes pas **déprimée**, rassurez-vous.", "en": "You're not depressed, don't worry." },
+      { "fr": "Il est un peu **déprimé** depuis son départ.", "en": "He's been a bit down since he left." },
+      { "fr": "En hiver, beaucoup de gens sont **déprimés**.", "en": "In winter, lots of people feel down." }
+    ] },
+    { "id": "deprime-n", "fr": "déprime", "pos": "noun", "g": "f", "ipa": "de.pʁim", "en": "the blues, a low patch (informal)", "def": "Une période de tristesse et de fatigue (familier).", "def_en": "A time of sadness and tiredness (informal).", "examples": [
+      { "fr": "C'est une petite **déprime** de fatigue.", "en": "It's just a low patch from tiredness." },
+      { "fr": "La **déprime** de novembre, tu connais ?", "en": "The November blues, you know them?" },
+      { "fr": "Pas de **déprime** : on sort ce soir !", "en": "No moping: we're going out tonight!" }
+    ] },
+    { "id": "confiance-en-soi", "fr": "confiance en soi", "pos": "noun", "g": "f", "ipa": "kɔ̃.fjɑ̃s ɑ̃ swa", "en": "self-confidence", "def": "Le fait de croire qu'on est capable, et de ne pas avoir peur de se tromper.", "def_en": "Believing you're capable, and not being afraid of making mistakes.", "examples": [
+      { "fr": "Cette culpabilité vient souvent d'un problème de **confiance en soi**.", "en": "That guilt often comes from a lack of self-confidence." },
+      { "fr": "Le théâtre donne **confiance en soi**.", "en": "Theatre gives you self-confidence." },
+      { "fr": "Elle manque de **confiance en soi**.", "en": "She lacks self-confidence." }
+    ] },
+    { "id": "estime-de-soi", "fr": "estime de soi", "pos": "noun", "g": "f", "ipa": "ɛs.tim də swa", "en": "self-esteem", "def": "La bonne ou la mauvaise image qu'on a de sa propre personne.", "def_en": "The good or bad image you have of yourself.", "examples": [
+      { "fr": "Il faut travailler votre **estime de soi**.", "en": "You need to work on your self-esteem." },
+      { "fr": "Le sport aide l'**estime de soi**.", "en": "Sport helps self-esteem." },
+      { "fr": "Une bonne **estime de soi**, ça s'apprend.", "en": "Good self-esteem can be learnt." }
+    ] },
+    { "id": "timidite", "fr": "timidité", "pos": "noun", "g": "f", "ipa": "ti.mi.di.te", "en": "shyness", "def": "Le fait d'avoir du mal à parler aux autres, d'être mal à l'aise devant eux.", "def_en": "Finding it hard to talk to others, feeling uncomfortable in front of them.", "examples": [
+      { "fr": "Petite, j'avais une **timidité** terrible.", "en": "As a little girl, I was terribly shy." },
+      { "fr": "Tom a oublié sa **timidité** sur scène.", "en": "Tom forgot his shyness on stage." },
+      { "fr": "La **timidité**, ce n'est pas un défaut.", "en": "Shyness isn't a flaw." }
+    ] },
+    { "id": "complexe-adj", "fr": "complexé", "pos": "adj", "ipa": "kɔ̃.plɛk.se", "display": "complexé, complexée", "en": "self-conscious, hung up", "def": "Qui n'aime pas une partie de son corps ou de sa personne, et qui en a honte.", "def_en": "Who doesn't like part of their body or personality, and is ashamed of it.", "forms": ["complexée", "complexés", "complexées"], "accept": ["complexée"], "examples": [
+      { "fr": "Même aujourd'hui, je suis un peu **complexée**.", "en": "Even today, I'm a bit self-conscious." },
+      { "fr": "Il est **complexé** par son nez.", "en": "He's self-conscious about his nose." },
+      { "fr": "Ne sois pas **complexé**, tu es très bien !", "en": "Don't be self-conscious, you're great!" }
+    ] },
+    { "id": "ressentir", "fr": "ressentir", "pos": "verb", "ipa": "ʁə.sɑ̃.tiʁ", "en": "to feel (an emotion, a sensation)", "def": "Avoir en soi une émotion ou une sensation.", "def_en": "To have an emotion or a sensation inside you.", "forms": ["ressens", "ressent", "ressentons", "ressentez", "ressentent", "ressenti", "ressentie", "ressentis", "ressenties", "ressentais", "ressentait", "ressentions", "ressentiez", "ressentaient", "ressentirai", "ressentiras", "ressentira", "ressentirons", "ressentirez", "ressentiront", "ressentirais", "ressentirait", "ressentirions", "ressentiriez", "ressentiraient", "ressente", "ressentes", "ressentant", "ressentit", "ressentîmes", "ressentîtes", "ressentirent"], "examples": [
+      { "fr": "Qu'est-ce que vous **ressentez**, exactement ?", "en": "What exactly are you feeling?" },
+      { "fr": "Je **ressens** une grande fatigue.", "en": "I feel very tired." },
+      { "fr": "Il a **ressenti** de la peur.", "en": "He felt fear." }
+    ] },
+    { "id": "exprimer", "fr": "exprimer", "pos": "verb", "ipa": "ɛks.pʁi.me", "en": "to express", "def": "Dire ou montrer ce qu'on pense ou ce qu'on ressent.", "def_en": "To say or show what you think or feel.", "forms": ["exprime", "exprimes", "exprimons", "exprimez", "expriment", "exprimé", "exprimée", "exprimés", "exprimées", "exprimais", "exprimait", "exprimions", "exprimiez", "exprimaient", "exprimerai", "exprimeras", "exprimera", "exprimerons", "exprimerez", "exprimeront", "exprimerais", "exprimerait", "exprimerions", "exprimeriez", "exprimeraient", "exprimant", "exprimai", "exprimas", "exprima", "exprimâmes", "exprimâtes", "exprimèrent"], "examples": [
+      { "fr": "Ça vous aide d'**exprimer** tout ça ?", "en": "Does it help you to express all that?" },
+      { "fr": "Il n'arrive pas à **exprimer** ses émotions.", "en": "He can't express his emotions." },
+      { "fr": "Elle **exprime** sa joie en dansant.", "en": "She expresses her joy by dancing." }
+    ] },
+    { "id": "bienveillant", "fr": "bienveillant", "pos": "adj", "ipa": "bjɛ̃.vɛ.jɑ̃", "display": "bienveillant, bienveillante", "en": "kind, caring, well-meaning", "def": "Qui veut du bien aux autres et ne les juge pas.", "def_en": "Who wishes others well and doesn't judge them harshly.", "forms": ["bienveillante", "bienveillants", "bienveillantes"], "accept": ["bienveillante"], "examples": [
+      { "fr": "J'ai des amis très **bienveillants**.", "en": "I have very caring friends." },
+      { "fr": "Sa psychologue est très **bienveillante**.", "en": "Her psychologist is very kind." },
+      { "fr": "Il a un regard **bienveillant**.", "en": "He has a kind look." }
+    ] },
+    { "id": "bienveillance", "fr": "bienveillance", "pos": "noun", "g": "f", "ipa": "bjɛ̃.vɛ.jɑ̃s", "en": "kindness, goodwill", "def": "Le fait de vouloir du bien aux autres, sans les juger.", "def_en": "Wishing others well, without judging them.", "examples": [
+      { "fr": "Un peu de **bienveillance** avec toi-même !", "en": "Be a little kinder to yourself!" },
+      { "fr": "Elle parle aux enfants avec **bienveillance**.", "en": "She talks to the children kindly." },
+      { "fr": "La **bienveillance**, c'est la base d'une bonne équipe.", "en": "Kindness is the basis of a good team." }
+    ] },
+    { "id": "culpabiliser", "fr": "culpabiliser", "pos": "verb", "ipa": "kyl.pa.bi.li.ze", "en": "to feel guilty; to make someone feel guilty", "def": "Se sentir responsable d'une faute, même petite.", "def_en": "To feel responsible for a mistake, even a small one.", "forms": ["culpabilise", "culpabilises", "culpabilisons", "culpabilisez", "culpabilisent", "culpabilisé", "culpabilisée", "culpabilisés", "culpabilisées", "culpabilisais", "culpabilisait", "culpabilisions", "culpabilisiez", "culpabilisaient", "culpabiliserai", "culpabiliseras", "culpabilisera", "culpabiliserons", "culpabiliserez", "culpabiliseront", "culpabiliserais", "culpabiliserait", "culpabiliserions", "culpabiliseriez", "culpabiliseraient", "culpabilisant", "culpabilisai", "culpabilisas", "culpabilisa", "culpabilisâmes", "culpabilisâtes", "culpabilisèrent"], "examples": [
+      { "fr": "Quand je me repose, je **culpabilise**.", "en": "When I rest, I feel guilty." },
+      { "fr": "Ne **culpabilise** pas : tu as le droit de dormir !", "en": "Don't feel guilty: you're allowed to sleep!" },
+      { "fr": "Elle **culpabilise** de ne pas appeler sa mère.", "en": "She feels guilty for not calling her mother." }
+    ] },
+    { "id": "culpabilite", "fr": "culpabilité", "pos": "noun", "g": "f", "ipa": "kyl.pa.bi.li.te", "en": "guilt", "def": "Le sentiment d'avoir fait quelque chose de mal.", "def_en": "The feeling of having done something wrong.", "examples": [
+      { "fr": "Cette **culpabilité** vient souvent d'un problème de confiance en soi.", "en": "That guilt often comes from a lack of self-confidence." },
+      { "fr": "Il a un sentiment de **culpabilité**.", "en": "He has a feeling of guilt." },
+      { "fr": "La **culpabilité** l'empêche de dormir.", "en": "Guilt keeps her awake." }
+    ] },
+    { "id": "soulagement", "fr": "soulagement", "pos": "noun", "g": "m", "ipa": "su.laʒ.mɑ̃", "en": "relief", "def": "Ce qu'on ressent quand une peur ou une douleur s'arrête.", "def_en": "What you feel when a fear or a pain stops.", "examples": [
+      { "fr": "Quel **soulagement** !", "en": "What a relief!" },
+      { "fr": "Les résultats sont bons : c'est un vrai **soulagement**.", "en": "The results are good: it's a real relief." },
+      { "fr": "Elle sourit de **soulagement**.", "en": "She smiles with relief." }
+    ] },
+    { "id": "perfectionniste", "fr": "perfectionniste", "pos": "adj", "ipa": "pɛʁ.fɛk.sjɔ.nist", "en": "perfectionist", "def": "Qui veut que tout soit parfait.", "def_en": "Who wants everything to be perfect.", "forms": ["perfectionnistes"], "examples": [
+      { "fr": "Vous êtes un peu **perfectionniste**, non ?", "en": "You're a bit of a perfectionist, aren't you?" },
+      { "fr": "Il est très **perfectionniste** : il recommence tout.", "en": "He's a real perfectionist: he redoes everything." },
+      { "fr": "Les architectes sont souvent **perfectionnistes**.", "en": "Architects are often perfectionists." }
+    ] },
+    { "id": "epanoui", "fr": "épanoui", "pos": "adj", "ipa": "e.pa.nwi", "display": "épanoui, épanouie", "en": "fulfilled, happy, blossoming", "def": "Qui se sent bien dans sa vie, heureux et libre.", "def_en": "Who feels good in their life, happy and free.", "forms": ["épanouie", "épanouis", "épanouies"], "accept": ["épanouie"], "examples": [
+      { "fr": "Je veux être **épanouie**, pas juste diplômée !", "en": "I want to be fulfilled, not just qualified!" },
+      { "fr": "Depuis qu'il fait de la musique, il est **épanoui**.", "en": "Since he took up music, he's blossomed." },
+      { "fr": "C'est un enfant **épanoui**.", "en": "He's a happy, well-adjusted child." }
+    ] },
+    { "id": "phobie", "fr": "phobie", "pos": "noun", "g": "f", "ipa": "fɔ.bi", "en": "phobia", "def": "Une peur très forte, et pas raisonnable, d'une chose précise.", "def_en": "A very strong, unreasonable fear of a particular thing.", "forms": ["phobies"], "examples": [
+      { "fr": "Dire non, c'est presque une **phobie**, pour moi !", "en": "Saying no is almost a phobia for me!" },
+      { "fr": "Lou a la **phobie** des serpents.", "en": "Lou has a phobia of snakes." },
+      { "fr": "Il a la **phobie** de l'avion.", "en": "He has a fear of flying." }
+    ] },
+    { "id": "solitude", "fr": "solitude", "pos": "noun", "g": "f", "ipa": "sɔ.li.tyd", "en": "loneliness; solitude", "def": "Le fait d'être seul, ou de se sentir seul.", "def_en": "Being alone, or feeling alone.", "examples": [
+      { "fr": "Parfois, la **solitude**, c'est le plus dur.", "en": "Sometimes loneliness is the hardest part." },
+      { "fr": "Il aime la **solitude** de la montagne.", "en": "He loves the solitude of the mountains." },
+      { "fr": "La **solitude** des personnes âgées est un vrai problème.", "en": "Loneliness among the elderly is a real problem." }
+    ] },
+    { "id": "ecoute-n", "fr": "écoute", "pos": "noun", "g": "f", "ipa": "e.kut", "en": "listening (être à l'écoute = to be a good listener)", "def": "Le fait de bien entendre et de comprendre ce que dit quelqu'un.", "def_en": "Hearing properly and understanding what someone says.", "examples": [
+      { "fr": "Vous avez des amis à l'**écoute** ?", "en": "Do you have friends who listen?" },
+      { "fr": "Merci pour ton **écoute**.", "en": "Thanks for listening." },
+      { "fr": "Une bonne **écoute**, ça aide beaucoup.", "en": "Being listened to helps a lot." }
+    ] },
+    { "id": "patient-n", "fr": "patient", "pos": "noun", "g": "m", "ipa": "pa.sjɑ̃", "display": "le patient, la patiente", "en": "patient (of a doctor)", "def": "Une personne que soigne un médecin ou un psychologue.", "def_en": "A person treated by a doctor or a psychologist.", "note": "The adjective **patient** means *patient* (not in a hurry).", "forms": ["patiente", "patients", "patientes"], "accept": ["patiente", "la patiente"], "examples": [
+      { "fr": "Nos **patients** ne changent pas en un jour.", "en": "Our patients don't change overnight." },
+      { "fr": "Le médecin reçoit ses **patients** le matin.", "en": "The doctor sees his patients in the morning." },
+      { "fr": "La **patiente** attend dans la salle d'attente.", "en": "The patient is waiting in the waiting room." }
+    ] },
+    { "id": "jugement", "fr": "jugement", "pos": "noun", "g": "m", "ipa": "ʒyʒ.mɑ̃", "en": "judgement", "def": "L'opinion, bonne ou mauvaise, qu'on a sur quelqu'un ou sur quelque chose.", "def_en": "The good or bad opinion you have of someone or something.", "forms": ["jugements"], "examples": [
+      { "fr": "Ici, il n'y a pas de **jugement**.", "en": "There's no judgement here." },
+      { "fr": "Il a peur du **jugement** des autres.", "en": "He's afraid of what others think of him." },
+      { "fr": "Le **jugement** du tribunal est arrivé.", "en": "The court's judgement has come." }
+    ] },
+    { "id": "se-remettre-en-question", "fr": "se remettre en question", "pos": "expr", "ipa": "sə ʁə.mɛtʁ ɑ̃ kɛs.tjɔ̃", "en": "to question yourself, to take a hard look at yourself", "def": "Réfléchir à ses erreurs, et accepter de changer.", "def_en": "To think about your mistakes, and accept that you need to change.", "forms": ["me remettre en question", "te remettre en question", "nous remettre en question", "vous remettre en question", "se remet en question", "me remets en question", "remets-toi en question"], "examples": [
+      { "fr": "Il faut savoir **se remettre en question**.", "en": "You have to be able to question yourself." },
+      { "fr": "Je dois **me remettre en question**.", "en": "I need to take a hard look at myself." },
+      { "fr": "Il refuse de **se remettre en question**.", "en": "He refuses to question himself." }
+    ] }
+  ],
+  "story": {
+    "title": "Pas de jugement",
+    "en": "Thursday 3 December: worn out by her deadline, Sophie goes to see her school's psychologist.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi trois décembre, Sophie entre dans le bureau de la psychologue de son école. C'est Léa qui lui a conseillé de venir.", "en": "On Thursday 3 December, Sophie goes into the office of her school's psychologist. It was Léa who advised her to come." },
+      { "sp": "La psychologue", "fr": "Entrez, asseyez-vous. Ici, il n'y a pas de jugement : je suis là pour vous écouter.", "en": "Come in, sit down. There's no judgement here: I'm here to listen to you." },
+      { "sp": "Sophie", "fr": "Merci. Je ne sais pas par où commencer… En ce moment, je n'ai pas le moral.", "en": "Thank you. I don't know where to start… At the moment, I'm feeling low." },
+      { "sp": "La psychologue", "fr": "Qu'est-ce que vous ressentez, exactement ?", "en": "What exactly are you feeling?" },
+      { "sp": "Sophie", "fr": "Je suis fatiguée, je pleure pour rien. Je travaille à l'école, au café le samedi, à l'atelier de vélos le dimanche… Et quand je me repose, je culpabilise.", "en": "I'm tired, I cry over nothing. I work at school, at the café on Saturdays, at the bike workshop on Sundays… And when I rest, I feel guilty." },
+      { "sp": "La psychologue", "fr": "Vous êtes un peu perfectionniste, non ?", "en": "You're a bit of a perfectionist, aren't you?" },
+      { "sp": "Sophie", "fr": "Un peu ? Je recommence mes dessins dix fois ! Il y a deux semaines, mon jury m'a fait recommencer deux dessins, et je n'ai pas dormi de la nuit.", "en": "A bit? I redo my drawings ten times! Two weeks ago, my panel made me redo two drawings, and I didn't sleep all night." },
+      { "sp": "La psychologue", "fr": "Vous n'êtes pas déprimée, rassurez-vous : c'est une petite déprime de fatigue. Ça vous aide d'exprimer tout ça ?", "en": "You're not depressed, don't worry: it's a low patch from tiredness. Does it help you to put all this into words?" },
+      { "sp": "Sophie", "fr": "Oui… Je me sens moins seule. Parfois, la solitude, c'est le plus dur.", "en": "Yes… I feel less alone. Sometimes loneliness is the hardest part." },
+      { "sp": "La psychologue", "fr": "Vous avez des amis à l'écoute ?", "en": "Do you have friends who listen?" },
+      { "sp": "Sophie", "fr": "Oui, des amis très bienveillants. Mon amie Léa, mon copain Mathis… Mais je ne veux pas les déranger.", "en": "Yes, very caring friends. My friend Léa, my boyfriend Mathis… But I don't want to bother them." },
+      { "sp": "La psychologue", "fr": "Vous ne les dérangez pas. Les gens qui vous aiment veulent vous aider. Et cette culpabilité vient souvent d'un problème de confiance en soi.", "en": "You don't bother them. The people who love you want to help you. And that guilt often comes from a lack of self-confidence." },
+      { "sp": "Sophie", "fr": "C'est vrai. Petite, j'avais une timidité terrible. Même aujourd'hui, je suis un peu complexée.", "en": "That's true. As a little girl, I was terribly shy. Even today, I'm a bit self-conscious." },
+      { "sp": "La psychologue", "fr": "Pourtant, vous êtes à l'école d'architecture, vous travaillez, vous faites du bénévolat… Il faut travailler votre estime de soi, et apprendre à dire non.", "en": "And yet you're at architecture school, you work, you do volunteer work… You need to work on your self-esteem, and learn to say no." },
+      { "sp": "Sophie", "fr": "Dire non… C'est presque une phobie, pour moi !", "en": "Saying no… It's almost a phobia for me!" },
+      { "sp": "La psychologue", "fr": "Alors, voici un exercice : cette semaine, vous dites non une fois. Par exemple, au café, ce samedi.", "en": "Then here's an exercise: this week, you say no once. At the café this Saturday, for example." },
+      { "sp": "Sophie", "fr": "Une thérapie en une semaine ?", "en": "Therapy in a week?" },
+      { "sp": "La psychologue", "fr": "Non, une première étape. Revenez jeudi prochain, et on fera le point. Nos patients ne changent pas en un jour.", "en": "No, a first step. Come back next Thursday, and we'll see where you are. Our patients don't change overnight." },
+      { "sp": "", "fr": "En sortant du service de psychologie, Sophie appelle Léa.", "en": "As she leaves the psychology service, Sophie calls Léa." },
+      { "sp": "Sophie", "fr": "Je me sens légère. Quel soulagement ! Samedi, je dis non au café. Et dimanche, pas d'atelier : je viens courir avec vous.", "en": "I feel light. What a relief! On Saturday, I'm saying no to the café. And on Sunday, no workshop: I'm coming running with you." },
+      { "sp": "Léa", "fr": "Bravo ! Il faut savoir se remettre en question. Et maintenant, un peu de bienveillance avec toi-même !", "en": "Well done! You have to be able to take a hard look at yourself. And now, be a little kinder to yourself!" },
+      { "sp": "Sophie", "fr": "Promis. Je veux être épanouie, pas juste diplômée !", "en": "I promise. I want to be fulfilled, not just qualified!" }
+    ]
+  }
+}

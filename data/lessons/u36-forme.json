@@ -1,0 +1,163 @@
+{
+  "id": "u36-forme",
+  "type": "vocab",
+  "unit": 36,
+  "title": "La forme",
+  "en": "Fitness",
+  "intro": "25 words for keeping fit: before and after (**s'échauffer, l'échauffement, s'étirer, l'étirement, la récupération, s'hydrater, les courbatures**), during the effort (**le souffle, essoufflé, transpirer, la sueur, le pouls, accélérer, l'endurance**), the gym (**la salle de sport, la musculation, les abdominaux, la souplesse, souple**) and the rest (**la méditation, méditer, la respiration, équilibré, progresser, garder la forme**).",
+  "words": [
+    { "id": "s-echauffer", "fr": "s'échauffer", "pos": "verb", "ipa": "se.ʃo.fe", "en": "to warm up", "def": "Préparer son corps avant le sport, avec des mouvements doux.", "def_en": "To get your body ready before sport, with gentle movements.", "forms": ["m'échauffe", "t'échauffes", "s'échauffe", "nous nous échauffons", "vous vous échauffez", "s'échauffent", "m'échauffer", "t'échauffer", "nous échauffer", "vous échauffer", "échauffer", "m'échaufferai", "t'échaufferas", "s'échauffera", "nous nous échaufferons", "vous vous échaufferez", "s'échaufferont", "m'échaufferais", "t'échaufferais", "s'échaufferait", "nous nous échaufferions", "vous vous échaufferiez", "s'échaufferaient", "échauffe", "échauffes", "échauffons", "échauffez", "échauffent", "échauffé", "échauffée", "échauffés", "échauffées", "échauffais", "échauffait", "échauffions", "échauffiez", "échauffaient", "échaufferai", "échaufferas", "échauffera", "échaufferons", "échaufferez", "échaufferont", "échaufferais", "échaufferait", "échaufferions", "échaufferiez", "échaufferaient", "échauffant", "échauffai", "échauffas", "échauffa", "échauffâmes", "échauffâtes", "échauffèrent"], "examples": [
+      { "fr": "D'abord, on **s'échauffe**.", "en": "First, we warm up." },
+      { "fr": "Il faut toujours **s'échauffer** avant de courir.", "en": "You should always warm up before running." },
+      { "fr": "**Échauffez-vous** bien avant le match !", "en": "Warm up properly before the match!" }
+    ] },
+    { "id": "echauffement", "fr": "échauffement", "pos": "noun", "g": "m", "ipa": "e.ʃof.mɑ̃", "en": "warm-up", "def": "Les exercices doux qu'on fait avant le sport.", "def_en": "The gentle exercises you do before sport.", "forms": ["échauffements"], "examples": [
+      { "fr": "Un bon **échauffement**, c'est la clé pour éviter les blessures.", "en": "A good warm-up is the key to avoiding injuries." },
+      { "fr": "L'**échauffement** dure dix minutes.", "en": "The warm-up lasts ten minutes." },
+      { "fr": "Pas de match sans **échauffement** !", "en": "No match without a warm-up!" }
+    ] },
+    { "id": "s-etirer", "fr": "s'étirer", "pos": "verb", "ipa": "se.ti.ʁe", "en": "to stretch", "def": "Faire des mouvements lents pour rendre ses muscles plus longs, souvent après le sport.", "def_en": "To make slow movements to lengthen your muscles, often after sport.", "forms": ["m'étire", "t'étires", "s'étire", "nous nous étirons", "vous vous étirez", "s'étirent", "m'étirer", "t'étirer", "nous étirer", "vous étirer", "étirer", "m'étirerai", "t'étireras", "s'étirera", "nous nous étirerons", "vous vous étirerez", "s'étireront", "m'étirerais", "t'étirerais", "s'étirerait", "nous nous étirerions", "vous vous étireriez", "s'étireraient", "étire", "étires", "étirons", "étirez", "étirent", "étiré", "étirée", "étirés", "étirées", "étirais", "étirait", "étirions", "étiriez", "étiraient", "étirerai", "étireras", "étirera", "étirerons", "étirerez", "étireront", "étirerais", "étirerait", "étirerions", "étireriez", "étireraient", "étirant", "étirai", "étiras", "étira", "étirâmes", "étirâtes", "étirèrent"], "examples": [
+      { "fr": "On **s'étire** bien les jambes.", "en": "We give our legs a good stretch." },
+      { "fr": "Le matin, le chat **s'étire** au soleil.", "en": "In the morning, the cat stretches in the sun." },
+      { "fr": "N'oublie pas de **t'étirer** après la course.", "en": "Don't forget to stretch after your run." }
+    ] },
+    { "id": "etirement", "fr": "étirement", "pos": "noun", "g": "m", "ipa": "e.tiʁ.mɑ̃", "en": "stretch, stretching", "def": "Un exercice lent pour rendre les muscles plus longs et plus souples.", "def_en": "A slow exercise to make the muscles longer and more supple.", "forms": ["étirements"], "examples": [
+      { "fr": "Carla propose des **étirements** à tout le monde.", "en": "Carla suggests some stretches for everyone." },
+      { "fr": "Dix minutes d'**étirements**, chaque soir.", "en": "Ten minutes of stretching every evening." },
+      { "fr": "Cet **étirement** fait du bien au dos.", "en": "This stretch is good for your back." }
+    ] },
+    { "id": "musculation", "fr": "musculation", "pos": "noun", "g": "f", "ipa": "mys.ky.la.sjɔ̃", "en": "weight training", "def": "Le sport qu'on fait avec des poids, pour avoir plus de muscles.", "def_en": "The sport you do with weights, to build muscle.", "note": "Informal: *la muscu*.", "examples": [
+      { "fr": "Le mardi, je fais de la **musculation**.", "en": "On Tuesdays, I do weight training." },
+      { "fr": "Hugo n'aime pas la **musculation**.", "en": "Hugo doesn't like weight training." },
+      { "fr": "La **musculation**, c'est bon pour le dos.", "en": "Weight training is good for your back." }
+    ] },
+    { "id": "abdominaux", "fr": "abdominaux", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "ab.dɔ.mi.no", "en": "abdominals, abs; sit-ups", "def": "Les muscles du ventre, et les exercices qui les font travailler.", "def_en": "The stomach muscles, and the exercises that work them.", "note": "Informal: *les abdos*.", "examples": [
+      { "fr": "Musculation et **abdominaux**, le mardi.", "en": "Weights and abs, on Tuesdays." },
+      { "fr": "Il fait cent **abdominaux** par jour !", "en": "He does a hundred sit-ups a day!" },
+      { "fr": "Il montre ses **abdominaux** à la plage.", "en": "He shows off his abs on the beach." }
+    ] },
+    { "id": "souplesse", "fr": "souplesse", "pos": "noun", "g": "f", "ipa": "su.plɛs", "en": "flexibility, suppleness", "def": "La qualité d'un corps qui peut bouger et se plier facilement.", "def_en": "The quality of a body that can move and bend easily.", "examples": [
+      { "fr": "Quelle **souplesse** !", "en": "How flexible you are!" },
+      { "fr": "La danse donne de la **souplesse**.", "en": "Dancing makes you supple." },
+      { "fr": "Avec l'âge, on perd de la **souplesse**.", "en": "With age, you lose flexibility." }
+    ] },
+    { "id": "souple", "fr": "souple", "pos": "adj", "ipa": "supl", "en": "flexible, supple", "def": "Qui peut bouger et se plier facilement.", "def_en": "That can move and bend easily.", "forms": ["souples"], "examples": [
+      { "fr": "Pour être **souple**, il faut s'étirer tous les jours.", "en": "To be supple, you have to stretch every day." },
+      { "fr": "Les danseurs sont très **souples**.", "en": "Dancers are very supple." },
+      { "fr": "Un chat est plus **souple** qu'un chien.", "en": "A cat is more supple than a dog." }
+    ] },
+    { "id": "endurance", "fr": "endurance", "pos": "noun", "g": "f", "ipa": "ɑ̃.dy.ʁɑ̃s", "en": "endurance, stamina", "def": "Le fait de pouvoir faire un effort pendant longtemps.", "def_en": "Being able to keep up an effort for a long time.", "examples": [
+      { "fr": "Le secret, c'est l'**endurance**.", "en": "The secret is stamina." },
+      { "fr": "Courir lentement, c'est bon pour l'**endurance**.", "en": "Running slowly is good for stamina." },
+      { "fr": "Elle a beaucoup d'**endurance**.", "en": "She has a lot of stamina." }
+    ] },
+    { "id": "souffle", "fr": "souffle", "pos": "noun", "g": "m", "ipa": "sufl", "en": "breath", "def": "L'air qui sort de la bouche quand on respire.", "def_en": "The air that comes out of your mouth when you breathe.", "note": "*à bout de souffle* = out of breath.", "examples": [
+      { "fr": "J'ai plus de **souffle**…", "en": "I'm out of breath…" },
+      { "fr": "Il court sans perdre son **souffle**.", "en": "He runs without getting out of breath." },
+      { "fr": "Reprends ton **souffle**, et on recommence.", "en": "Get your breath back, and we'll start again." }
+    ] },
+    { "id": "essouffle", "fr": "essoufflé", "pos": "adj", "ipa": "e.su.fle", "display": "essoufflé, essoufflée", "en": "out of breath", "def": "Qui respire vite et fort, après un effort.", "def_en": "Breathing fast and hard after an effort.", "forms": ["essoufflée", "essoufflés", "essoufflées"], "accept": ["essoufflée"], "examples": [
+      { "fr": "Après deux kilomètres, Hugo est déjà **essoufflé**.", "en": "After two kilometres, Hugo is already out of breath." },
+      { "fr": "Elle monte l'escalier, **essoufflée**.", "en": "She climbs the stairs, out of breath." },
+      { "fr": "Les coureurs arrivent **essoufflés**.", "en": "The runners arrive out of breath." }
+    ] },
+    { "id": "transpirer", "fr": "transpirer", "pos": "verb", "ipa": "tʁɑ̃s.pi.ʁe", "en": "to sweat", "def": "Avoir la peau mouillée parce qu'on a chaud ou qu'on fait un effort.", "def_en": "To have wet skin because you're hot or making an effort.", "forms": ["transpire", "transpires", "transpirons", "transpirez", "transpirent", "transpiré", "transpirais", "transpirait", "transpirions", "transpiriez", "transpiraient", "transpirerai", "transpireras", "transpirera", "transpirerons", "transpirerez", "transpireront", "transpirerais", "transpirerait", "transpirerions", "transpireriez", "transpireraient", "transpirant", "transpirai", "transpiras", "transpira", "transpirâmes", "transpirâtes", "transpirèrent"], "examples": [
+      { "fr": "Je **transpire** comme un croissant dans le four !", "en": "I'm sweating like a croissant in the oven!" },
+      { "fr": "En été, on **transpire** beaucoup.", "en": "In summer, you sweat a lot." },
+      { "fr": "Il a **transpiré** pendant tout le match.", "en": "He sweated throughout the match." }
+    ] },
+    { "id": "sueur", "fr": "sueur", "pos": "noun", "g": "f", "ipa": "sɥœʁ", "en": "sweat", "def": "L'eau salée qui sort de la peau quand on a chaud.", "def_en": "The salty water that comes out of your skin when you're hot.", "examples": [
+      { "fr": "Neuf heures, au bureau… et sans **sueur**, s'il vous plaît.", "en": "Nine o'clock at the office… and no sweat, please." },
+      { "fr": "La **sueur** coule sur son visage.", "en": "Sweat is running down his face." },
+      { "fr": "Ça sent la **sueur** dans la salle de sport.", "en": "It smells of sweat in the gym." }
+    ] },
+    { "id": "courbature", "fr": "courbature", "pos": "noun", "g": "f", "ipa": "kuʁ.ba.tyʁ", "en": "ache, stiffness (avoir des courbatures = to be stiff)", "def": "Une douleur dans les muscles, le lendemain d'un effort.", "def_en": "A pain in your muscles the day after an effort.", "forms": ["courbatures"], "examples": [
+      { "fr": "Le lundi matin, Hugo a des **courbatures** partout.", "en": "On Monday morning, Hugo is stiff all over." },
+      { "fr": "J'ai une **courbature** à la jambe.", "en": "My leg aches." },
+      { "fr": "Les **courbatures**, ça passe en deux jours.", "en": "Stiffness goes away in two days." }
+    ] },
+    { "id": "salle-de-sport", "fr": "salle de sport", "pos": "noun", "g": "f", "ipa": "sal də spɔʁ", "en": "gym", "def": "Un endroit avec des machines, où on va faire du sport.", "def_en": "A place with machines, where you go to exercise.", "forms": ["salles de sport"], "examples": [
+      { "fr": "Le mardi, je vais à la **salle de sport**.", "en": "On Tuesdays, I go to the gym." },
+      { "fr": "Il s'est abonné à une **salle de sport**.", "en": "He's joined a gym." },
+      { "fr": "La **salle de sport** est ouverte jusqu'à vingt-deux heures.", "en": "The gym is open until ten p.m." }
+    ] },
+    { "id": "meditation", "fr": "méditation", "pos": "noun", "g": "f", "ipa": "me.di.ta.sjɔ̃", "en": "meditation", "def": "Un moment de calme, assis, où on fait attention seulement à sa respiration.", "def_en": "A calm moment, sitting down, when you pay attention only to your breathing.", "examples": [
+      { "fr": "Chaque matin, dix minutes de **méditation**.", "en": "Ten minutes of meditation every morning." },
+      { "fr": "La **méditation** aide à dormir.", "en": "Meditation helps you sleep." },
+      { "fr": "Elle fait de la **méditation** avant le travail.", "en": "She meditates before work." }
+    ] },
+    { "id": "mediter", "fr": "méditer", "pos": "verb", "ipa": "me.di.te", "en": "to meditate; to think deeply", "def": "Rester assis, calme, en pensant seulement à sa respiration. Aussi : réfléchir longtemps.", "def_en": "To sit calmly, thinking only of your breathing. Also: to think for a long time.", "forms": ["médite", "médites", "méditons", "méditez", "méditent", "médité", "méditais", "méditait", "méditions", "méditiez", "méditaient", "méditerai", "méditeras", "méditera", "méditerons", "méditerez", "méditeront", "méditerais", "méditerait", "méditerions", "méditeriez", "méditeraient", "méditant", "méditai", "méditas", "médita", "méditâmes", "méditâtes", "méditèrent"], "examples": [
+      { "fr": "Vous **méditez** ? Vous ?", "en": "You meditate? You?" },
+      { "fr": "Je **médite** dix minutes chaque matin.", "en": "I meditate for ten minutes every morning." },
+      { "fr": "**Méditez** sur cette question.", "en": "Think hard about this question." }
+    ] },
+    { "id": "respiration", "fr": "respiration", "pos": "noun", "g": "f", "ipa": "ʁɛs.pi.ʁa.sjɔ̃", "en": "breathing", "def": "Le fait de faire entrer et sortir l'air de son corps.", "def_en": "Taking air in and out of your body.", "examples": [
+      { "fr": "La **respiration**, c'est la moitié de la récupération.", "en": "Breathing is half of recovery." },
+      { "fr": "Pensez à votre **respiration**.", "en": "Think about your breathing." },
+      { "fr": "Sa **respiration** est rapide.", "en": "His breathing is fast." }
+    ] },
+    { "id": "recuperation", "fr": "récupération", "pos": "noun", "g": "f", "ipa": "ʁe.ky.pe.ʁa.sjɔ̃", "en": "recovery", "def": "Le temps où le corps se repose et [retrouve|retrouver] ses forces après un effort.", "def_en": "The time when your body rests and gets its strength back after an effort.", "examples": [
+      { "fr": "Après un marathon, la **récupération** prend une semaine.", "en": "After a marathon, recovery takes a week." },
+      { "fr": "Le sommeil, c'est la meilleure **récupération**.", "en": "Sleep is the best way to recover." },
+      { "fr": "Un jour de **récupération** entre deux courses.", "en": "A recovery day between two runs." }
+    ] },
+    { "id": "s-hydrater", "fr": "s'hydrater", "pos": "verb", "ipa": "si.dʁa.te", "en": "to drink enough water, to stay hydrated", "def": "Boire assez d'eau pour son corps.", "def_en": "To drink enough water for your body.", "forms": ["m'hydrate", "t'hydrates", "s'hydrate", "nous nous hydratons", "vous vous hydratez", "s'hydratent", "m'hydrater", "t'hydrater", "nous hydrater", "vous hydrater", "hydrater", "m'hydraterai", "t'hydrateras", "s'hydratera", "nous nous hydraterons", "vous vous hydraterez", "s'hydrateront", "m'hydraterais", "t'hydraterais", "s'hydraterait", "nous nous hydraterions", "vous vous hydrateriez", "s'hydrateraient", "hydrate", "hydrates", "hydratons", "hydratez", "hydratent", "hydraté", "hydratée", "hydratés", "hydratées", "hydratais", "hydratait", "hydrations", "hydratiez", "hydrataient", "hydraterai", "hydrateras", "hydratera", "hydraterons", "hydraterez", "hydrateront", "hydraterais", "hydraterait", "hydraterions", "hydrateriez", "hydrateraient", "hydratant", "hydratai", "hydratas", "hydrata", "hydratâmes", "hydratâtes", "hydratèrent"], "examples": [
+      { "fr": "N'oubliez pas de **vous hydrater**.", "en": "Don't forget to drink water." },
+      { "fr": "Il faut **s'hydrater** pendant l'effort.", "en": "You need to drink while you exercise." },
+      { "fr": "En été, je **m'hydrate** beaucoup.", "en": "In summer, I drink lots of water." }
+    ] },
+    { "id": "equilibre-adj", "fr": "équilibré", "pos": "adj", "ipa": "e.ki.li.bʁe", "display": "équilibré, équilibrée", "en": "balanced", "def": "Où il y a un peu de tout, en bonne quantité.", "def_en": "With a bit of everything, in the right amounts.", "forms": ["équilibrée", "équilibrés", "équilibrées"], "accept": ["équilibrée"], "examples": [
+      { "fr": "Après, un repas **équilibré** !", "en": "After that, a balanced meal!" },
+      { "fr": "Une vie **équilibrée** : du travail, du sport et du repos.", "en": "A balanced life: work, sport and rest." },
+      { "fr": "Les enfants ont besoin de repas **équilibrés**.", "en": "Children need balanced meals." }
+    ] },
+    { "id": "accelerer", "fr": "accélérer", "pos": "verb", "ipa": "ak.se.le.ʁe", "en": "to speed up, to accelerate", "def": "Aller plus vite.", "def_en": "To go faster.", "forms": ["accélère", "accélères", "accélérons", "accélérez", "accélèrent", "accéléré", "accélérée", "accélérés", "accélérées", "accélérais", "accélérait", "accélérions", "accélériez", "accéléraient", "accélérerai", "accéléreras", "accélérera", "accélérerons", "accélérerez", "accéléreront", "accélérerais", "accélérerait", "accélérerions", "accéléreriez", "accéléreraient", "accélérant", "accélérai", "accéléras", "accéléra", "accélérâmes", "accélérâtes", "accélérèrent"], "examples": [
+      { "fr": "Il ne faut pas **accélérer** trop vite.", "en": "You mustn't speed up too fast." },
+      { "fr": "Le bus **accélère** dans la rue.", "en": "The bus speeds up in the street." },
+      { "fr": "Allez, **accélère** !", "en": "Come on, faster!" }
+    ] },
+    { "id": "pouls", "fr": "pouls", "pos": "noun", "g": "m", "ipa": "pu", "en": "pulse", "def": "Le rythme du cœur, qu'on peut compter au bras.", "def_en": "The rhythm of your heart, which you can count at your wrist.", "examples": [
+      { "fr": "Regardez votre **pouls**.", "en": "Look at your pulse." },
+      { "fr": "Son **pouls** est à soixante.", "en": "Her pulse is sixty." },
+      { "fr": "Le médecin prend mon **pouls**.", "en": "The doctor takes my pulse." }
+    ] },
+    { "id": "progresser", "fr": "progresser", "pos": "verb", "ipa": "pʁɔ.ɡʁɛ.se", "en": "to make progress, to improve", "def": "Devenir meilleur, petit à petit.", "def_en": "To get better, little by little.", "forms": ["progresse", "progresses", "progressons", "progressez", "progressent", "progressé", "progressais", "progressait", "progressions", "progressiez", "progressaient", "progresserai", "progresseras", "progressera", "progresserons", "progresserez", "progresseront", "progresserais", "progresserait", "progresserions", "progresseriez", "progresseraient", "progressant", "progressai", "progressas", "progressa", "progressâmes", "progressâtes", "progressèrent"], "examples": [
+      { "fr": "Je **progresse**.", "en": "I'm making progress." },
+      { "fr": "Tom **progresse** vite en français.", "en": "Tom is improving fast in French." },
+      { "fr": "Il a beaucoup **progressé** cette année.", "en": "He's made a lot of progress this year." }
+    ] },
+    { "id": "garder-la-forme", "fr": "garder la forme", "pos": "expr", "ipa": "ɡaʁ.de la fɔʁm", "en": "to keep fit", "def": "Rester en bonne santé grâce au sport et à une vie équilibrée.", "def_en": "To stay healthy through sport and a balanced life.", "forms": ["garde la forme", "gardez la forme", "gardent la forme", "gardait la forme", "gardons la forme"], "examples": [
+      { "fr": "Pour **garder la forme**, vous faites autre chose ?", "en": "Do you do anything else to keep fit?" },
+      { "fr": "Ma grand-mère fait du yoga pour **garder la forme**.", "en": "My grandmother does yoga to keep fit." },
+      { "fr": "**Gardez la forme** pendant l'hiver !", "en": "Keep fit over the winter!" }
+    ] }
+  ],
+  "story": {
+    "title": "Le dimanche de Madame Dupont",
+    "en": "Sunday 6 December: the friends go running in the park, and Hugo bumps into his boss.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche six décembre, à neuf heures, les amis se retrouvent au parc de la Tête d'Or. Sophie est là aussi : ce dimanche, pas d'atelier de vélos !", "en": "On Sunday 6 December, at nine o'clock, the friends meet at the Parc de la Tête d'Or. Sophie is there too: no bike workshop this Sunday!" },
+      { "sp": "Carla", "fr": "D'abord, on s'échauffe. Un bon échauffement, c'est la clé pour éviter les blessures.", "en": "First, we warm up. A good warm-up is the key to avoiding injuries." },
+      { "sp": "", "fr": "Ils courent autour du lac. Après deux kilomètres, Hugo est déjà essoufflé.", "en": "They run around the lake. After two kilometres, Hugo is already out of breath." },
+      { "sp": "Hugo", "fr": "J'ai plus de souffle… Je transpire comme un croissant dans le four !", "en": "I'm out of breath… I'm sweating like a croissant in the oven!" },
+      { "sp": "", "fr": "Soudain, une femme les dépasse, très vite. Elle s'arrête et revient vers eux.", "en": "Suddenly, a woman overtakes them, very fast. She stops and comes back towards them." },
+      { "sp": "Mme Dupont", "fr": "Hugo ? Quelle surprise ! Je cours ici tous les dimanches : quinze kilomètres.", "en": "Hugo? What a surprise! I run here every Sunday: fifteen kilometres." },
+      { "sp": "Hugo", "fr": "Madame Dupont ! Euh… bonjour. Je… je progresse. Il y a un mois, je ne pouvais pas courir dix minutes.", "en": "Mme Dupont! Er… good morning. I… I'm making progress. A month ago, I couldn't run for ten minutes." },
+      { "sp": "Mme Dupont", "fr": "Bravo. Le secret, c'est l'endurance : il ne faut pas accélérer trop vite. Regardez votre pouls.", "en": "Well done. The secret is stamina: you mustn't speed up too fast. Look at your pulse." },
+      { "sp": "", "fr": "Elle montre sa montre : son pouls est à soixante. Celui de Hugo est à cent soixante-dix.", "en": "She shows them her watch: her pulse is sixty. Hugo's is a hundred and seventy." },
+      { "sp": "Tom", "fr": "Et pour garder la forme, vous faites autre chose ?", "en": "And do you do anything else to keep fit?" },
+      { "sp": "Mme Dupont", "fr": "Le mardi, je vais à la salle de sport : musculation et abdominaux. Et chaque matin, dix minutes de méditation.", "en": "On Tuesdays, I go to the gym: weights and abs. And every morning, ten minutes of meditation." },
+      { "sp": "Hugo", "fr": "Vous méditez ? Vous ?", "en": "You meditate? You?" },
+      { "sp": "Mme Dupont", "fr": "Oui, Hugo. Moi aussi, j'ai besoin de calme. Surtout avec une équipe comme la vôtre !", "en": "Yes, Hugo. I need some calm too. Especially with a team like yours!" },
+      { "sp": "", "fr": "Tout le monde rit. Ensuite, Carla propose des étirements à tout le monde.", "en": "Everyone laughs. Then Carla suggests some stretches for everyone." },
+      { "sp": "Carla", "fr": "On s'étire bien les jambes. Et on respire : la respiration, c'est la moitié de la récupération.", "en": "Give your legs a good stretch. And breathe: breathing is half of recovery." },
+      { "sp": "Mme Dupont", "fr": "Quelle souplesse ! Vous êtes danseuse ?", "en": "How supple you are! Are you a dancer?" },
+      { "sp": "Carla", "fr": "Oui, et prof de danse. Pour être souple, il faut s'étirer tous les jours.", "en": "Yes, and a dance teacher. To be supple, you have to stretch every day." },
+      { "sp": "Mme Dupont", "fr": "Et n'oubliez pas de vous hydrater. Hugo, buvez de l'eau !", "en": "And don't forget to drink water. Hugo, have some water!" },
+      { "sp": "Hugo", "fr": "Et après, un bon croissant ?", "en": "And afterwards, a nice croissant?" },
+      { "sp": "Mme Dupont", "fr": "Après, un repas équilibré ! À demain, Hugo. Neuf heures, au bureau… et sans sueur, s'il vous plaît.", "en": "Afterwards, a balanced meal! See you tomorrow, Hugo. Nine o'clock at the office… and no sweat, please." },
+      { "sp": "", "fr": "Le lundi matin, Hugo a des courbatures partout. Mais il arrive au bureau à l'heure, et Madame Dupont lui sourit.", "en": "On Monday morning, Hugo is stiff all over. But he gets to the office on time, and Mme Dupont smiles at him." }
+    ]
+  }
+}

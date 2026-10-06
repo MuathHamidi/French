@@ -1,0 +1,163 @@
+{
+  "id": "u36-sensations",
+  "type": "vocab",
+  "unit": 36,
+  "title": "Les sensations",
+  "en": "Sensations",
+  "intro": "25 words for what the body feels: the senses (**les cinq sens, l'ouïe, l'odorat, le toucher**), cold, heat and emotion (**frissonner, le frisson, la chair de poule, tiède, moite, noué, engourdi**), dizziness (**le tournis, étourdi, éblouir, éblouissant, assourdissant**), touch (**rugueux, lisse, collant, chatouiller**) and the Fête des Lumières in Lyon (**la foule, le lumignon, le vin chaud, la cannelle, le marron**).",
+  "words": [
+    { "id": "frissonner", "fr": "frissonner", "pos": "verb", "ipa": "fʁi.sɔ.ne", "en": "to shiver", "def": "Trembler un peu, de froid, de peur ou d'émotion.", "def_en": "To tremble a little, from cold, fear or emotion.", "forms": ["frissonne", "frissonnes", "frissonnons", "frissonnez", "frissonnent", "frissonné", "frissonnais", "frissonnait", "frissonnions", "frissonniez", "frissonnaient", "frissonnerai", "frissonneras", "frissonnera", "frissonnerons", "frissonnerez", "frissonneront", "frissonnerais", "frissonnerait", "frissonnerions", "frissonneriez", "frissonneraient", "frissonnant", "frissonnai", "frissonnas", "frissonna", "frissonnâmes", "frissonnâtes", "frissonnèrent"], "examples": [
+      { "fr": "Il fait froid, et Tom **frissonne**.", "en": "It's cold, and Tom is shivering." },
+      { "fr": "Ce film fait **frissonner**.", "en": "This film sends shivers down your spine." },
+      { "fr": "Elle **frissonne** en entendant la musique.", "en": "She shivers when she hears the music." }
+    ] },
+    { "id": "frisson", "fr": "frisson", "pos": "noun", "g": "m", "ipa": "fʁi.sɔ̃", "en": "shiver, thrill", "def": "Un petit mouvement du corps qui tremble, de froid ou d'émotion.", "def_en": "A little trembling of the body, from cold or emotion.", "forms": ["frissons"], "examples": [
+      { "fr": "Un **frisson** de joie lui traverse le dos.", "en": "A thrill of joy runs down his back." },
+      { "fr": "Cette chanson me donne des **frissons**.", "en": "This song gives me shivers." },
+      { "fr": "J'ai des **frissons** : j'ai de la fièvre ?", "en": "I'm shivering: have I got a temperature?" }
+    ] },
+    { "id": "chair-de-poule", "fr": "chair de poule", "pos": "noun", "g": "f", "ipa": "ʃɛʁ də pul", "en": "goose pimples (avoir la chair de poule = to get goose bumps)", "def": "Des petits points sur la peau, quand on a froid ou qu'on est ému.", "def_en": "Little bumps on your skin when you're cold or moved.", "examples": [
+      { "fr": "Moi, j'ai la **chair de poule**.", "en": "I've got goose bumps." },
+      { "fr": "Cette musique me donne la **chair de poule**.", "en": "This music gives me goose bumps." },
+      { "fr": "Il fait si froid que j'ai la **chair de poule**.", "en": "It's so cold that I've got goose pimples." }
+    ] },
+    { "id": "tournis", "fr": "tournis", "pos": "noun", "g": "m", "ipa": "tuʁ.ni", "en": "dizziness (avoir le tournis = to feel dizzy)", "def": "L'impression que tout tourne autour de soi (familier).", "def_en": "The feeling that everything is spinning around you (informal).", "examples": [
+      { "fr": "J'ai le **tournis** !", "en": "I feel dizzy!" },
+      { "fr": "Tous ces chiffres me donnent le **tournis**.", "en": "All these figures make my head spin." },
+      { "fr": "Arrête de tourner, tu me donnes le **tournis** !", "en": "Stop spinning, you're making me dizzy!" }
+    ] },
+    { "id": "eblouir", "fr": "éblouir", "pos": "verb", "ipa": "e.blu.iʁ", "en": "to dazzle", "def": "Envoyer une lumière trop forte dans les yeux. Aussi : beaucoup étonner.", "def_en": "To send light that's too strong into someone's eyes. Also: to amaze.", "forms": ["éblouis", "éblouit", "éblouissons", "éblouissez", "éblouissent", "ébloui", "éblouie", "éblouies", "éblouissais", "éblouissait", "éblouissions", "éblouissiez", "éblouissaient", "éblouirai", "éblouiras", "éblouira", "éblouirons", "éblouirez", "éblouiront", "éblouirais", "éblouirait", "éblouirions", "éblouiriez", "éblouiraient", "éblouisse", "éblouisses", "éblouîmes", "éblouîtes", "éblouirent"], "examples": [
+      { "fr": "Ces lumières m'**éblouissent**.", "en": "These lights are dazzling me." },
+      { "fr": "Le soleil m'**éblouit**.", "en": "The sun is in my eyes." },
+      { "fr": "Elle a **ébloui** tout le monde avec sa voix.", "en": "She dazzled everyone with her voice." }
+    ] },
+    { "id": "eblouissant", "fr": "éblouissant", "pos": "adj", "ipa": "e.blu.i.sɑ̃", "display": "éblouissant, éblouissante", "en": "dazzling", "def": "Si brillant qu'on ne peut pas le regarder. Aussi : magnifique.", "def_en": "So bright you can't look at it. Also: magnificent.", "forms": ["éblouissante", "éblouissants", "éblouissantes"], "accept": ["éblouissante"], "examples": [
+      { "fr": "Les couleurs sont **éblouissantes**.", "en": "The colours are dazzling." },
+      { "fr": "Il y a un soleil **éblouissant**.", "en": "There's a dazzling sun." },
+      { "fr": "Elle était **éblouissante** dans sa robe rouge.", "en": "She looked stunning in her red dress." }
+    ] },
+    { "id": "rugueux", "fr": "rugueux", "pos": "adj", "ipa": "ʁy.ɡø", "display": "rugueux, rugueuse", "en": "rough (to the touch)", "def": "Qui n'est pas doux quand on le touche, avec de petites bosses.", "def_en": "Not soft when you touch it, with little bumps.", "forms": ["rugueuse", "rugueuses"], "accept": ["rugueuse"], "examples": [
+      { "fr": "La pierre est **rugueuse**.", "en": "The stone is rough." },
+      { "fr": "Ce tissu est un peu **rugueux**.", "en": "This fabric is a bit rough." },
+      { "fr": "Ses mains sont **rugueuses** à cause du travail.", "en": "His hands are rough from work." }
+    ] },
+    { "id": "lisse", "fr": "lisse", "pos": "adj", "ipa": "lis", "en": "smooth", "def": "Sans bosses, très doux quand on le touche.", "def_en": "With no bumps, very soft when you touch it.", "forms": ["lisses"], "examples": [
+      { "fr": "La pierre n'est pas **lisse** comme une fenêtre.", "en": "The stone isn't smooth like a window." },
+      { "fr": "Un bébé a la peau **lisse**.", "en": "A baby has smooth skin." },
+      { "fr": "La mer est **lisse** ce matin.", "en": "The sea is calm this morning." }
+    ] },
+    { "id": "tiede", "fr": "tiède", "pos": "adj", "ipa": "tjɛd", "en": "lukewarm", "def": "Ni chaud ni froid.", "def_en": "Neither hot nor cold.", "forms": ["tièdes"], "examples": [
+      { "fr": "Il est **tiède**, mais il est bon.", "en": "It's lukewarm, but it's good." },
+      { "fr": "Le bain est **tiède**.", "en": "The bath is lukewarm." },
+      { "fr": "Bois de l'eau **tiède** avec du miel.", "en": "Drink some warm water with honey." }
+    ] },
+    { "id": "chatouiller", "fr": "chatouiller", "pos": "verb", "ipa": "ʃa.tu.je", "en": "to tickle", "def": "[Toucher|toucher] quelqu'un tout doucement, pour le faire rire.", "def_en": "To touch someone very gently to make them laugh.", "forms": ["chatouille", "chatouilles", "chatouillons", "chatouillez", "chatouillent", "chatouillé", "chatouillée", "chatouillés", "chatouillées", "chatouillais", "chatouillait", "chatouillions", "chatouilliez", "chatouillaient", "chatouillerai", "chatouilleras", "chatouillera", "chatouillerons", "chatouillerez", "chatouilleront", "chatouillerais", "chatouillerait", "chatouillerions", "chatouilleriez", "chatouilleraient", "chatouillant", "chatouillai", "chatouillas", "chatouilla", "chatouillâmes", "chatouillâtes", "chatouillèrent"], "examples": [
+      { "fr": "L'écharpe de Camille lui **chatouille** le nez.", "en": "Camille's scarf tickles his nose." },
+      { "fr": "Arrête, tu me **chatouilles** !", "en": "Stop it, you're tickling me!" },
+      { "fr": "Lou rit quand on la **chatouille**.", "en": "Lou laughs when you tickle her." }
+    ] },
+    { "id": "engourdi", "fr": "engourdi", "pos": "adj", "ipa": "ɑ̃.ɡuʁ.di", "display": "engourdi, engourdie", "en": "numb", "def": "Qu'on ne sent presque plus, à cause du froid ou parce qu'on n'a pas bougé.", "def_en": "That you can hardly feel, because of the cold or because you haven't moved.", "forms": ["engourdie", "engourdis", "engourdies"], "accept": ["engourdie"], "examples": [
+      { "fr": "Mes doigts sont **engourdis** par le froid.", "en": "My fingers are numb with cold." },
+      { "fr": "J'ai la jambe **engourdie** : je suis resté assis trop longtemps.", "en": "My leg's gone numb: I sat down for too long." },
+      { "fr": "Il a la main **engourdie**.", "en": "His hand is numb." }
+    ] },
+    { "id": "moite", "fr": "moite", "pos": "adj", "ipa": "mwat", "en": "clammy, sweaty", "def": "Un peu mouillé de sueur.", "def_en": "A little wet with sweat.", "forms": ["moites"], "examples": [
+      { "fr": "J'ai les mains **moites**.", "en": "My hands are clammy." },
+      { "fr": "Il fait une chaleur **moite**.", "en": "It's muggy." },
+      { "fr": "Elle a les mains **moites** avant l'oral.", "en": "Her hands are sweaty before the oral." }
+    ] },
+    { "id": "noue", "fr": "noué", "pos": "adj", "ipa": "nwe", "display": "noué, nouée", "en": "tight, knotted (la gorge nouée = a lump in your throat)", "def": "Serré par l'émotion ou par la peur.", "def_en": "Tight with emotion or fear.", "forms": ["nouée", "noués", "nouées"], "accept": ["nouée"], "examples": [
+      { "fr": "J'ai la gorge **nouée**.", "en": "I've got a lump in my throat." },
+      { "fr": "Avant l'examen, il a le ventre **noué**.", "en": "Before the exam, his stomach is in knots." },
+      { "fr": "Elle parle, la voix **nouée**.", "en": "She speaks, her voice choked." }
+    ] },
+    { "id": "etourdi", "fr": "étourdi", "pos": "adj", "ipa": "e.tuʁ.di", "display": "étourdi, étourdie", "en": "dizzy, light-headed; scatterbrained", "def": "Qui a un peu le vertige. Aussi : qui oublie tout, qui ne fait pas attention.", "def_en": "A bit dizzy. Also: who forgets everything, who doesn't pay attention.", "forms": ["étourdie", "étourdis", "étourdies"], "accept": ["étourdie"], "examples": [
+      { "fr": "Je suis tout **étourdi**.", "en": "I feel all light-headed." },
+      { "fr": "Hugo est **étourdi** : il oublie toujours ses clés.", "en": "Hugo is scatterbrained: he always forgets his keys." },
+      { "fr": "Après la danse, elle est **étourdie**.", "en": "After the dance, she's dizzy." }
+    ] },
+    { "id": "assourdissant", "fr": "assourdissant", "pos": "adj", "ipa": "a.suʁ.di.sɑ̃", "display": "assourdissant, assourdissante", "en": "deafening", "def": "Si fort qu'on n'entend plus rien d'autre.", "def_en": "So loud that you can't hear anything else.", "forms": ["assourdissante", "assourdissants", "assourdissantes"], "accept": ["assourdissante"], "examples": [
+      { "fr": "La musique est **assourdissante**.", "en": "The music is deafening." },
+      { "fr": "Un bruit **assourdissant** sort de la cave.", "en": "A deafening noise comes from the cellar." },
+      { "fr": "Le concert était **assourdissant**.", "en": "The gig was deafening." }
+    ] },
+    { "id": "ouie", "fr": "ouïe", "pos": "noun", "g": "f", "ipa": "wi", "en": "hearing (the sense)", "def": "Le sens qui permet d'entendre.", "def_en": "The sense that lets you hear.", "examples": [
+      { "fr": "Les chiens ont une **ouïe** excellente.", "en": "Dogs have excellent hearing." },
+      { "fr": "Avec l'âge, l'**ouïe** baisse.", "en": "With age, your hearing gets worse." },
+      { "fr": "L'**ouïe** du chat est très fine.", "en": "A cat's hearing is very sharp." }
+    ] },
+    { "id": "odorat", "fr": "odorat", "pos": "noun", "g": "m", "ipa": "ɔ.dɔ.ʁa", "en": "sense of smell", "def": "Le sens qui permet de sentir les odeurs.", "def_en": "The sense that lets you smell things.", "examples": [
+      { "fr": "Les chiens ont un très bon **odorat**.", "en": "Dogs have a very good sense of smell." },
+      { "fr": "Quand on est malade, on perd parfois l'**odorat**.", "en": "When you're ill, you sometimes lose your sense of smell." },
+      { "fr": "L'**odorat** et le goût vont ensemble.", "en": "Smell and taste go together." }
+    ] },
+    { "id": "cinq-sens", "fr": "cinq sens", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "sɛ̃k sɑ̃s", "en": "the five senses", "def": "La vue, l'ouïe, l'odorat, le goût et le toucher.", "def_en": "Sight, hearing, smell, taste and touch.", "examples": [
+      { "fr": "C'est une fête pour les **cinq sens**.", "en": "It's a festival for the five senses." },
+      { "fr": "Les bébés découvrent le monde avec leurs **cinq sens**.", "en": "Babies discover the world with their five senses." },
+      { "fr": "Ce repas réveille les **cinq sens**.", "en": "This meal awakens all five senses." }
+    ] },
+    { "id": "foule", "fr": "foule", "pos": "noun", "g": "f", "ipa": "ful", "en": "crowd", "def": "Beaucoup de gens au même endroit.", "def_en": "A lot of people in the same place.", "forms": ["foules"], "examples": [
+      { "fr": "Les amis marchent dans la **foule**.", "en": "The friends walk through the crowd." },
+      { "fr": "Il y a une **foule** énorme sur la place.", "en": "There's a huge crowd in the square." },
+      { "fr": "Je n'aime pas la **foule**.", "en": "I don't like crowds." }
+    ] },
+    { "id": "vin-chaud", "fr": "vin chaud", "pos": "noun", "g": "m", "ipa": "vɛ̃ ʃo", "en": "mulled wine", "def": "Une boisson d'hiver, rouge et épicée, qu'on boit très chaude.", "def_en": "A red, spiced winter drink that you drink hot.", "forms": ["vins chauds"], "examples": [
+      { "fr": "Tiens, un **vin chaud** !", "en": "Here, have a mulled wine!" },
+      { "fr": "Le **vin chaud** sent la cannelle.", "en": "The mulled wine smells of cinnamon." },
+      { "fr": "Au marché de Noël, on boit du **vin chaud**.", "en": "At the Christmas market, you drink mulled wine." }
+    ] },
+    { "id": "marron-n", "fr": "marron", "pos": "noun", "g": "m", "ipa": "ma.ʁɔ̃", "en": "chestnut (des marrons chauds = roasted chestnuts)", "def": "Un fruit brun et brillant, qu'on mange chaud en hiver.", "def_en": "A shiny brown nut that you eat roasted in winter.", "note": "The adjective **marron** means *brown*.", "forms": ["marrons"], "examples": [
+      { "fr": "Ça sent les **marrons** chauds partout !", "en": "It smells of roasted chestnuts everywhere!" },
+      { "fr": "On achète des **marrons** chauds dans la rue.", "en": "We buy roasted chestnuts in the street." },
+      { "fr": "Lou trouve des **marrons** dans le parc.", "en": "Lou finds some chestnuts in the park." }
+    ] },
+    { "id": "cannelle", "fr": "cannelle", "pos": "noun", "g": "f", "ipa": "ka.nɛl", "en": "cinnamon", "def": "Une épice brune au goût sucré, qu'on met dans les gâteaux.", "def_en": "A brown spice with a sweet taste, used in cakes.", "examples": [
+      { "fr": "Avec de la **cannelle**, ça réchauffe.", "en": "With cinnamon, it warms you up." },
+      { "fr": "Un gâteau aux pommes et à la **cannelle**.", "en": "An apple and cinnamon cake." },
+      { "fr": "J'adore l'odeur de la **cannelle**.", "en": "I love the smell of cinnamon." }
+    ] },
+    { "id": "toucher-n", "fr": "toucher", "pos": "noun", "g": "m", "ipa": "tu.ʃe", "en": "(sense of) touch; feel", "def": "Le sens qui permet de sentir les choses avec la peau.", "def_en": "The sense that lets you feel things with your skin.", "examples": [
+      { "fr": "Le **toucher** ? Touche ce mur.", "en": "Touch? Touch this wall." },
+      { "fr": "Ce tissu est doux au **toucher**.", "en": "This fabric feels soft." },
+      { "fr": "Le bébé découvre le monde par le **toucher**.", "en": "The baby discovers the world through touch." }
+    ] },
+    { "id": "collant", "fr": "collant", "pos": "adj", "ipa": "kɔ.lɑ̃", "display": "collant, collante", "en": "sticky; (un collant) tights", "def": "Qui reste sur les doigts quand on le touche, comme du miel.", "def_en": "That stays on your fingers when you touch it, like honey.", "forms": ["collante", "collants", "collantes"], "accept": ["collante"], "examples": [
+      { "fr": "Ta veste est **collante** !", "en": "Your jacket's sticky!" },
+      { "fr": "J'ai les doigts **collants** : c'est le miel.", "en": "My fingers are sticky: it's the honey." },
+      { "fr": "Ce bonbon est **collant**.", "en": "This sweet is sticky." }
+    ] },
+    { "id": "lumignon", "fr": "lumignon", "pos": "noun", "g": "m", "ipa": "ly.mi.ɲɔ̃", "en": "small candle in a glass (put on windowsills in Lyon on 8 December)", "def": "Une petite bougie dans un verre, qu'on met aux fenêtres à Lyon, le huit décembre.", "def_en": "A small candle in a glass, put in the windows in Lyon on 8 December.", "forms": ["lumignons"], "examples": [
+      { "fr": "Il y a des **lumignons** à toutes les fenêtres.", "en": "There are candles in every window." },
+      { "fr": "Léa allume un **lumignon** sur le balcon.", "en": "Léa lights a candle on the balcony." },
+      { "fr": "Le huit décembre, chaque fenêtre a son **lumignon**.", "en": "On 8 December, every window has its candle." }
+    ] }
+  ],
+  "story": {
+    "title": "La nuit des lumières",
+    "en": "Tuesday 8 December: the Fête des Lumières in Lyon, and an email Tom has been waiting for.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi huit décembre, c'est la Fête des Lumières. Ce soir, tout Lyon brille : il y a des lumignons à toutes les fenêtres.", "en": "Tuesday 8 December is the Fête des Lumières. Tonight, all of Lyon is shining: there are candles in every window." },
+      { "sp": "", "fr": "Les amis marchent dans la foule, entre Bellecour et les Terreaux. Il fait froid, et Tom frissonne.", "en": "The friends walk through the crowd, between Bellecour and the Terreaux. It's cold, and Tom is shivering." },
+      { "sp": "Camille", "fr": "Tiens, un vin chaud ! Avec de la cannelle, ça réchauffe.", "en": "Here, have a mulled wine! With cinnamon, it warms you up." },
+      { "sp": "Tom", "fr": "Merci. Il est tiède, mais il est bon. Et ça sent les marrons chauds partout !", "en": "Thanks. It's lukewarm, but it's good. And it smells of roasted chestnuts everywhere!" },
+      { "sp": "", "fr": "Sur la place des Terreaux, la musique est assourdissante, et les couleurs sont éblouissantes.", "en": "On the place des Terreaux, the music is deafening, and the colours are dazzling." },
+      { "sp": "Hugo", "fr": "Ces lumières m'éblouissent… J'ai le tournis !", "en": "These lights are dazzling me… I feel dizzy!" },
+      { "sp": "Carla", "fr": "Moi, j'ai la chair de poule. C'est magnifique !", "en": "I've got goose bumps. It's magnificent!" },
+      { "sp": "Léa", "fr": "La Fête des Lumières, c'est une fête pour les cinq sens : la vue, l'ouïe, l'odorat, le goût… et le toucher.", "en": "The Fête des Lumières is a festival for all five senses: sight, hearing, smell, taste… and touch." },
+      { "sp": "Sophie", "fr": "Le toucher ? Touche ce mur : il est glacé. Et la pierre est rugueuse, pas lisse comme une fenêtre.", "en": "Touch? Touch this wall: it's ice-cold. And the stone is rough, not smooth like a window." },
+      { "sp": "", "fr": "Soudain, le téléphone de Tom sonne. Un mail : « Vos résultats du DELF sont disponibles. »", "en": "Suddenly, Tom's phone rings. An email: 'Your DELF results are available.'" },
+      { "sp": "Tom", "fr": "Ça y est… J'ai les mains moites et la gorge nouée.", "en": "This is it… My hands are clammy and I've got a lump in my throat." },
+      { "sp": "Camille", "fr": "Ouvre-le ! Je ne supporte pas le suspense !", "en": "Open it! I can't stand the suspense!" },
+      { "sp": "Tom", "fr": "Attends… Mes doigts sont engourdis par le froid.", "en": "Wait… My fingers are numb with cold." },
+      { "sp": "", "fr": "Les jambes de Tom tremblent. Tout le monde le regarde. Il ouvre le mail.", "en": "Tom's legs are shaking. Everyone's looking at him. He opens the email." },
+      { "sp": "Tom", "fr": "J'ai réussi ! Quatre-vingts sur cent !", "en": "I've passed! Eighty out of a hundred!" },
+      { "sp": "", "fr": "Un frisson de joie lui traverse le dos. Camille le serre dans ses bras.", "en": "A thrill of joy runs down his back. Camille hugs him." },
+      { "sp": "Hugo", "fr": "Bravo, Tom ! Je suis tout étourdi… C'est la joie, ou le vin chaud ?", "en": "Well done, Tom! I feel all light-headed… Is it joy, or the mulled wine?" },
+      { "sp": "Carla", "fr": "Tom, ta veste est collante ! Hugo a renversé son vin chaud sur toi.", "en": "Tom, your jacket's sticky! Hugo has spilt his mulled wine on you." },
+      { "sp": "Tom", "fr": "Ce n'est pas grave. Ce soir, rien ne peut me déranger !", "en": "It doesn't matter. Tonight, nothing can bother me!" },
+      { "sp": "", "fr": "Camille et Tom dansent sur la place. L'écharpe de Camille lui chatouille le nez.", "en": "Camille and Tom dance in the square. Camille's scarf tickles his nose." },
+      { "sp": "Tom", "fr": "Merci, tout le monde. C'est la plus belle nuit de lumières de ma vie !", "en": "Thank you, everyone. It's the most beautiful night of lights of my life!" }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "u36-subj-conj",
+  "type": "grammar",
+  "unit": 36,
+  "title": "Bien que tu sois fatigué",
+  "en": "The subjunctive after pour que, bien que, avant que…",
+  "intro": "Some conjunctions are always followed by the **subjunctive**: they introduce something wished, feared or not yet real. Learn them as a group: **pour que, afin que** (so that), **bien que, quoique** (although), **avant que, jusqu'à ce que** (before, until), **à condition que, à moins que** (provided that, unless), **sans que, de peur que** (without, for fear that). Careful: **après que** takes the indicative.",
+  "cases": [
+    { "id": "sj-but", "label": "pour que, afin que: so that", "rule": "**Pour que** and **afin que** (more formal) + subjunctive give a purpose: *Je t'aide **pour que** tu **dormes** mieux.* With the same subject, use **pour** + infinitive: *Je cours **pour être** en forme.*" },
+    { "id": "sj-concession", "label": "bien que, quoique: although", "rule": "**Bien que** and **quoique** + subjunctive: *Bien que tu **sois** fatigué, tu viens courir. Quoique ce **soit** dur, j'aime ça.*" },
+    { "id": "sj-temps", "label": "avant que, jusqu'à ce que: before, until", "rule": "**Avant que** and **jusqu'à ce que** + subjunctive: *Lis un livre **avant que** le sommeil **vienne**. Je reste **jusqu'à ce que** tu **dormes**.* But **après que** takes the indicative: *après que tu **as** fini*." },
+    { "id": "sj-condition", "label": "à condition que, à moins que: provided that, unless", "rule": "**À condition que** (provided that) and **à moins que** (unless) + subjunctive: *Tu peux jouer, **à condition que** tu te **couches** avant une heure. Pas d'exception, **à moins que** tu **sois** malade.*" },
+    { "id": "sj-sans-que", "label": "sans que, de peur que: without, for fear that", "rule": "**Sans que** + subjunctive: *Il joue **sans que** je le **sache**.* **De peur que** (for fear that): *Il ne ment pas, **de peur que** je le **découvre**.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. pour que, afin que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je t'aide pour que tu dormes mieux.", "I'm helping you so that you sleep better."],
+          ["Signe ici, afin que tout soit officiel.", "Sign here, so that it's all official."],
+          ["Je cours pour être en forme.", "I run (in order) to be fit: same subject, pour + infinitive."]
+        ]
+      },
+      "examples": [
+        { "fr": "Éteins les écrans {pour que tu dormes|sj-but} mieux.", "en": "Switch off the screens so that you sleep better." },
+        { "fr": "Je parle lentement {afin que tout le monde comprenne|sj-but}.", "en": "I speak slowly so that everyone understands." }
+      ]
+    },
+    {
+      "title": "2. bien que, quoique",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["[Bien que|bien-que] tu sois fatigué, tu viens courir.", "Although you're tired, you're coming running."],
+          ["Quoique ce soit dur, j'aime courir.", "Although it's hard, I like running."]
+        ]
+      },
+      "examples": [
+        { "fr": "{[Bien qu'|bien-que]il fasse froid|sj-concession}, on va au parc.", "en": "Although it's cold, we're going to the park." },
+        { "fr": "{Quoique Hugo soit fatigué|sj-concession}, il court.", "en": "Although Hugo is tired, he runs." }
+      ]
+    },
+    {
+      "title": "3. avant que, jusqu'à ce que… but après que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Lis un livre avant que le sommeil vienne.", "Read a book before sleep comes."],
+          ["Je reste jusqu'à ce que tu dormes.", "I'll stay until you're asleep."],
+          ["On mange après que tu as fini.", "We eat after you've finished: après que + indicative."]
+        ]
+      },
+      "examples": [
+        { "fr": "Rentre {avant qu'il fasse nuit|sj-temps}.", "en": "Come home before it gets dark." },
+        { "fr": "Je t'attends {jusqu'à ce que tu reviennes|sj-temps}.", "en": "I'll wait for you until you come back." }
+      ],
+      "tip": "Many French people say *après qu'il soit parti*, but the correct form is *après qu'il **est** parti*: what happens after something is real."
+    },
+    {
+      "title": "4. à condition que, à moins que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu peux jouer, à condition que tu te couches tôt.", "You can play, provided you go to bed early."],
+          ["Pas d'exception, à moins que tu sois malade.", "No exceptions, unless you're ill."]
+        ]
+      },
+      "examples": [
+        { "fr": "On ira courir, {à condition qu'il fasse beau|sj-condition}.", "en": "We'll go running, provided the weather's nice." },
+        { "fr": "Je viens, {à moins que tu sois trop fatigué|sj-condition}.", "en": "I'll come, unless you're too tired." }
+      ],
+      "tip": "In formal French, you'll see *à moins que tu **ne** sois…*, with a **ne** that doesn't make it negative."
+    },
+    {
+      "title": "5. sans que, de peur que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il joue sans que je le sache.", "He plays without my knowing."],
+          ["Il ne ment pas, de peur que je le découvre.", "He doesn't lie, for fear that I'll find out."]
+        ]
+      },
+      "examples": [
+        { "fr": "Il sort {sans que ses parents le voient|sj-sans-que}.", "en": "He goes out without his parents seeing him." },
+        { "fr": "Elle parle doucement, {de peur que le bébé se réveille|sj-sans-que}.", "en": "She speaks quietly, for fear the baby wakes up." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Bien que tu es fatigué, tu viens.", "right": "Bien que tu sois fatigué, tu viens.", "why": "*Bien que* is always followed by the subjunctive." },
+    { "wrong": "Je cours pour que je sois en forme.", "right": "Je cours pour être en forme.", "why": "Same subject: use *pour* + infinitive, not *pour que*." },
+    { "wrong": "Après que tu sois parti, j'ai dormi.", "right": "Après que tu es parti, j'ai dormi.", "why": "*Après que* takes the indicative: what came first is real." },
+    { "wrong": "Je reste jusqu'à tu dors.", "right": "Je reste jusqu'à ce que tu dormes.", "why": "Before a verb, *jusqu'à* becomes *jusqu'à ce que*, + subjunctive." }
+  ],
+  "story": {
+    "title": "Le contrat bien-être",
+    "en": "Wednesday 9 December: Carla arrives at Hugo's with a new kind of contract.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi neuf décembre, Carla arrive chez Hugo avec une feuille et un stylo.", "en": "On Wednesday 9 December, Carla arrives at Hugo's with a sheet of paper and a pen." },
+      { "sp": "Carla", "fr": "Hier soir, après la Fête des Lumières, tu as encore joué jusqu'à quatre heures ! Tu as besoin d'un contrat. Pas de couches, cette fois : un contrat bien-être !", "en": "Last night, after the Fête des Lumières, you played until four again! You need a contract. No nappies this time: a well-being contract!" },
+      { "sp": "Hugo", "fr": "Encore un contrat ? Bon, lis.", "en": "Another contract? All right, read it." },
+      { "sp": "Carla", "fr": "Article un : {pour que tu dormes|sj-but} mieux, tu éteins les écrans à onze heures.", "en": "Article one: so that you sleep better, you switch off your screens at eleven." },
+      { "sp": "Hugo", "fr": "Onze heures ? Mais mes amis jouent jusqu'à trois heures !", "en": "Eleven? But my friends play until three!" },
+      { "sp": "Carla", "fr": "Article deux : tu peux jouer le week-end, {à condition que tu te couches|sj-condition} avant une heure.", "en": "Article two: you can play at the weekend, provided you go to bed before one." },
+      { "sp": "Hugo", "fr": "Et si c'est une partie très importante ?", "en": "And if it's a really important game?" },
+      { "sp": "Carla", "fr": "Pas d'exception, {à moins que tu sois|sj-condition} malade.", "en": "No exceptions, unless you're ill." },
+      { "sp": "Carla", "fr": "Article trois : {[bien que|bien-que] tu sois|sj-concession} fatigué, tu viens courir le dimanche.", "en": "Article three: although you're tired, you come running on Sundays." },
+      { "sp": "Hugo", "fr": "{Quoique ce soit|sj-concession} dur, j'aime bien courir avec toi, en fait.", "en": "Although it's hard, I actually quite like running with you." },
+      { "sp": "Carla", "fr": "Article quatre : le soir, tu ne joues pas {jusqu'à ce que tu tombes|sj-temps} de sommeil. Tu lis un livre {avant que le sommeil vienne|sj-temps}.", "en": "Article four: in the evening, you don't play until you drop. You read a book before sleep comes." },
+      { "sp": "Hugo", "fr": "Un livre ? Je n'ai pas de livre…", "en": "A book? I haven't got a book…" },
+      { "sp": "Carla", "fr": "Tom te prêtera Le Petit Prince. Un chapitre par soir, comme lui.", "en": "Tom will lend you The Little Prince. A chapter a night, like him." },
+      { "sp": "Carla", "fr": "Article cinq : tu ne joues pas en cachette, {sans que je le sache|sj-sans-que}.", "en": "Article five: you don't play in secret, without my knowing." },
+      { "sp": "Hugo", "fr": "Tu me connais : je ne pourrais jamais te mentir… {de peur que tu le découvres|sj-sans-que} !", "en": "You know me: I could never lie to you… for fear that you'd find out!" },
+      { "sp": "Carla", "fr": "Très bien. Signe ici, {afin que tout soit|sj-but} officiel.", "en": "Very good. Sign here, so that it's all official." },
+      { "sp": "", "fr": "Hugo signe. Puis il ajoute un article six.", "en": "Hugo signs. Then he adds an article six." },
+      { "sp": "Hugo", "fr": "Article six : Carla me fait des crêpes le dimanche, {pour que j'aie|sj-but} la force de courir.", "en": "Article six: Carla makes me pancakes on Sundays, so that I have the strength to run." },
+      { "sp": "Carla", "fr": "D'accord… {à condition que tu les fasses|sj-condition} avec moi !", "en": "All right… provided you make them with me!" },
+      { "sp": "", "fr": "Ce soir-là, à onze heures, Hugo éteint son ordinateur. Il ouvre Le Petit Prince… et il s'endort à la page deux.", "en": "That evening, at eleven, Hugo switches off his computer. He opens The Little Prince… and falls asleep on page two." }
+    ]
+  },
+  "quiz": [
+    { "case": "sj-but", "type": "mc", "q": "Je t'aide pour que tu ___ mieux.", "en": "I'm helping you so that you sleep better.", "options": ["dormes", "dors", "dormiras"], "answer": "dormes" },
+    { "case": "sj-but", "type": "mc", "lang": "en", "q": "Same subject: « I run (in order) to be fit » is…", "options": ["Je cours pour être en forme.", "Je cours pour que je sois en forme.", "Je cours pour que suis en forme."], "answer": "Je cours pour être en forme." },
+    { "case": "sj-concession", "type": "mc", "q": "[Bien que|bien-que] tu ___ fatigué, tu viens courir.", "en": "Although you're tired, you're coming running.", "options": ["sois", "es", "seras"], "answer": "sois" },
+    { "case": "sj-concession", "type": "mc", "lang": "en", "q": "« Quoique ce soit dur » means…", "options": ["Although it's hard", "Because it's hard", "As soon as it's hard"], "answer": "Although it's hard", "say": "Quoique ce soit dur" },
+    { "case": "sj-temps", "type": "mc", "q": "Lis un livre avant que le sommeil ___.", "en": "Read a book before sleep comes.", "options": ["vienne", "vient", "viendra"], "answer": "vienne" },
+    { "case": "sj-temps", "type": "mc", "q": "On mange après que tu ___ fini.", "en": "We eat after you've finished.", "options": ["as", "aies", "auras"], "answer": "as" },
+    { "case": "sj-condition", "type": "mc", "q": "Tu peux jouer, à condition que tu ___ tes devoirs.", "en": "You can play, provided you do your homework.", "options": ["fasses", "fais", "feras"], "answer": "fasses" },
+    { "case": "sj-condition", "type": "mc", "lang": "en", "q": "« à moins que tu sois malade » means…", "options": ["unless you're ill", "because you're ill", "although you're ill"], "answer": "unless you're ill", "say": "à moins que tu sois malade" },
+    { "case": "sj-sans-que", "type": "mc", "q": "Il joue sans que je le ___.", "en": "He plays without my knowing.", "options": ["sache", "sais", "saurai"], "answer": "sache" },
+    { "case": "sj-sans-que", "type": "mc", "q": "Il ne ment pas, de peur que je le ___.", "en": "He doesn't lie, for fear that I'll find out.", "options": ["découvre", "découvrirai", "découvrais"], "answer": "découvre" }
+  ]
+}

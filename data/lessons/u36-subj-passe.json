@@ -1,0 +1,136 @@
+{
+  "id": "u36-subj-passe",
+  "type": "grammar",
+  "unit": 36,
+  "title": "Je suis fier que tu aies réussi",
+  "en": "The past subjunctive",
+  "intro": "When the subjunctive is needed (after a feeling, a doubt, *bien que*…) but the action has **already happened**, use the **past subjunctive**: **avoir** or **être** in the subjunctive + the past participle. *Je suis content que tu **sois venu** ! Je ne crois pas qu'il **ait dormi**.* It works just like the passé composé, with *aie, ait, sois, soit…* instead of *ai, a, suis, est…*",
+  "cases": [
+    { "id": "sp-forme", "label": "que j'aie fini, qu'il soit parti", "rule": "Past subjunctive = **avoir** or **être** in the subjunctive + the past participle: *que j'**aie** fini, que tu **aies** réussi, qu'elle **soit** partie, qu'ils **se soient** trompés*. The verbs that take *être* in the passé composé take it here too, and the participle agrees the same way." },
+    { "id": "sp-emotion", "label": "a feeling about something that's done", "rule": "After a feeling (*je suis content que, ravi que, fier que, désolé que, c'est dommage que, je regrette que*), use the past subjunctive for something that has already happened: *Je suis ravi que tu **aies réussi**.*" },
+    { "id": "sp-doute", "label": "doubt about the past", "rule": "After a doubt or a possibility (*je ne crois pas que, je doute que, il est possible que*): *Je ne crois pas qu'il **ait dormi** huit heures. Il est possible que je **me sois endormi** tard.*" },
+    { "id": "sp-conj", "label": "after bien que, avant que…", "rule": "After the conjunctions of the last lesson, for an action that comes first: *Bien que j'**aie eu** peur, l'oral s'est bien passé. Je ne pars pas avant que tu **aies fini**.*" },
+    { "id": "sp-choix", "label": "present or past subjunctive?", "rule": "Same time or later: **present** subjunctive: *Je suis content que tu **sois** là* (you're here now). Before: **past** subjunctive: *Je suis content que tu **sois venu*** (you came earlier)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Forming it",
+      "table": {
+        "head": ["Infinitive", "Past subjunctive"], "frCols": [0, 1],
+        "rows": [
+          ["réussir", "que tu aies réussi"],
+          ["avoir", "que j'aie eu"],
+          ["venir", "qu'elle soit venue"],
+          ["s'endormir", "que je me sois endormi"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je suis fier {que tu aies réussi|sp-forme}.", "en": "I'm proud that you passed." },
+        { "fr": "C'est bien {qu'elle soit venue|sp-forme}.", "en": "It's good that she came." }
+      ]
+    },
+    {
+      "title": "2. Feelings about the past",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis ravie que tu aies réussi.", "I'm delighted you passed."],
+          ["C'est dommage qu'il ne soit pas venu.", "It's a pity he didn't come."],
+          ["Je regrette que tu aies attendu.", "I'm sorry you had to wait."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis contente que vous soyez venus|sp-emotion}.", "en": "I'm glad you came." },
+        { "fr": "{C'est dommage qu'Antoine n'ait pas pu venir|sp-emotion}.", "en": "It's a pity Antoine couldn't come." }
+      ]
+    },
+    {
+      "title": "3. Doubt about the past",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne crois pas qu'il ait dormi.", "I don't think he slept."],
+          ["Il est possible qu'elle se soit trompée.", "She may have made a mistake."],
+          ["Je doute qu'il ait lu le livre.", "I doubt he read the book."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne crois pas qu'il ait dormi huit heures|sp-doute}.", "en": "I don't think he slept eight hours." },
+        { "fr": "{Il est possible que je me sois trompé|sp-doute}.", "en": "I may have made a mistake." }
+      ]
+    },
+    {
+      "title": "4. After bien que, avant que…",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["[Bien qu'|bien-que]il ait eu peur, il a réussi.", "Although he was scared, he passed."],
+          ["Je ne pars pas avant que tu aies fini.", "I'm not leaving until you've finished."]
+        ]
+      },
+      "examples": [
+        { "fr": "{[Bien que|bien-que] j'aie eu très peur|sp-conj}, l'oral s'est bien [passé|passer].", "en": "Although I was very scared, the oral went well." },
+        { "fr": "Je ne pars pas {avant que tu aies fini|sp-conj}.", "en": "I'm not leaving until you've finished." }
+      ]
+    },
+    {
+      "title": "5. Present or past?",
+      "table": {
+        "head": ["Present subjunctive (now)", "Past subjunctive (before)"], "frCols": [0, 1],
+        "rows": [
+          ["Je suis content que tu sois là.", "Je suis content que tu sois venu."],
+          ["Je doute qu'il dorme.", "Je doute qu'il ait dormi."],
+          ["C'est dommage qu'elle parte.", "C'est dommage qu'elle soit partie."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je suis heureux que tu sois là|sp-choix} !", "en": "I'm happy you're here!" },
+        { "fr": "{Je suis heureux que tu sois venu|sp-choix} !", "en": "I'm happy you came!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je suis content que tu as réussi.", "right": "Je suis content que tu aies réussi.", "why": "After a feeling, use the subjunctive: **aies**, not *as*." },
+    { "wrong": "Je suis content que tu aies venu.", "right": "Je suis content que tu sois venu.", "why": "*Venir* takes **être**, in the past subjunctive too." },
+    { "wrong": "Je ne crois pas qu'il a dormi.", "right": "Je ne crois pas qu'il ait dormi.", "why": "After *je ne crois pas que*, use the subjunctive: **ait**." },
+    { "wrong": "Bien qu'il a eu peur, il a réussi.", "right": "Bien qu'il ait eu peur, il a réussi.", "why": "*Bien que* + subjunctive: **ait eu**." }
+  ],
+  "story": {
+    "title": "La fête du DELF",
+    "en": "Friday 11 December: at the café downstairs, the friends celebrate Tom's diploma and Sophie's finished project.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi onze décembre, au café d'en bas, les amis fêtent le DELF de Tom. Marc, leur professeur, est venu aussi.", "en": "On Friday 11 December, at the café downstairs, the friends are celebrating Tom's DELF. Marc, their teacher, has come too." },
+      { "sp": "Marc", "fr": "Tom, je suis très fier {que tu aies réussi|sp-forme} ! Quatre-vingts sur cent, c'est excellent.", "en": "Tom, I'm very proud that you passed! Eighty out of a hundred is excellent." },
+      { "sp": "Tom", "fr": "Merci, Marc. {Je suis content que vous soyez venu|sp-emotion}.", "en": "Thank you, Marc. I'm glad you came." },
+      { "sp": "Sophie", "fr": "Et moi, j'ai rendu mon projet ce matin ! {Je suis tellement soulagée que ce soit fini|sp-choix}.", "en": "And I handed in my project this morning! I'm so relieved it's over." },
+      { "sp": "Léa", "fr": "{Je suis ravie que tu aies dit non au café|sp-emotion}, samedi dernier. Ça t'a fait du bien.", "en": "I'm delighted you said no to the café last Saturday. It did you good." },
+      { "sp": "Hugo", "fr": "Et moi, j'ai dormi huit heures cette nuit !", "en": "And I slept eight hours last night!" },
+      { "sp": "Carla", "fr": "{Je ne crois pas qu'il ait dormi huit heures|sp-doute}… Il a éteint son ordi à minuit, pas à onze heures !", "en": "I don't think he slept eight hours… He switched his computer off at midnight, not eleven!" },
+      { "sp": "Hugo", "fr": "{Il est possible que je me sois endormi|sp-doute} un peu tard… mais j'ai lu trois chapitres du Petit Prince !", "en": "I may have fallen asleep a bit late… but I read three chapters of The Little Prince!" },
+      { "sp": "Tom", "fr": "{[Bien que|bien-que] j'aie eu très peur|sp-conj}, l'oral s'est bien [passé|passer]. Merci pour vos conseils sur le rythme !", "en": "Although I was very scared, the oral went well. Thanks for your advice on rhythm!" },
+      { "sp": "Marc", "fr": "{C'est dommage qu'Enzo ne soit pas venu|sp-emotion} : c'est un peu ton deuxième professeur !", "en": "It's a pity Enzo didn't come: he's a bit like your second teacher!" },
+      { "sp": "", "fr": "À ce moment-là, Enzo entre avec une boîte de croissants.", "en": "Just then, Enzo comes in with a box of croissants." },
+      { "sp": "Enzo", "fr": "Wesh ! Je suis pas en retard ? Mamie m'a donné des croissants pour toi, Tom.", "en": "Yo! I'm not late, am I? Grandma gave me some croissants for you, Tom." },
+      { "sp": "Tom", "fr": "{Je suis heureux que tu sois là|sp-choix} !", "en": "I'm so happy you're here!" },
+      { "sp": "Enzo", "fr": "Je suis trop content {que tu aies eu|sp-forme} ton diplôme, reuf !", "en": "I'm so happy you got your diploma, bro!" },
+      { "sp": "Camille", "fr": "{Avant que tout le monde soit parti|sp-conj}, je voudrais lever mon verre. À Tom !", "en": "Before everyone leaves, I'd like to raise my glass. To Tom!" },
+      { "sp": "Tous", "fr": "À Tom !", "en": "To Tom!" },
+      { "sp": "Hugo", "fr": "Et à Sophie, et à mes huit heures de sommeil !", "en": "And to Sophie, and to my eight hours' sleep!" },
+      { "sp": "Carla", "fr": "Sept heures, Hugo. Sept.", "en": "Seven hours, Hugo. Seven." },
+      { "sp": "", "fr": "Tout le monde rit. {Tom regrette que ses parents n'aient pas pu venir|sp-emotion} d'Angleterre, alors il les appelle en vidéo.", "en": "Everyone laughs. Tom is sorry his parents couldn't come from England, so he calls them on video." }
+    ]
+  },
+  "quiz": [
+    { "case": "sp-forme", "type": "mc", "q": "Je suis fier que tu ___ réussi.", "en": "I'm proud that you passed.", "options": ["aies", "as", "sois"], "answer": "aies" },
+    { "case": "sp-forme", "type": "mc", "q": "C'est bien qu'elle ___ venue.", "en": "It's good that she came.", "options": ["soit", "ait", "est"], "answer": "soit" },
+    { "case": "sp-emotion", "type": "mc", "q": "Je suis ravie que tu ___ dit non.", "en": "I'm delighted you said no.", "options": ["aies", "as", "auras"], "answer": "aies" },
+    { "case": "sp-emotion", "type": "mc", "lang": "en", "q": "« C'est dommage qu'il ne soit pas venu » means…", "options": ["It's a pity he didn't come.", "It's a pity he isn't coming.", "It's a pity he won't come."], "answer": "It's a pity he didn't come.", "say": "C'est dommage qu'il ne soit pas venu." },
+    { "case": "sp-doute", "type": "mc", "q": "Je ne crois pas qu'il ___ dormi huit heures.", "en": "I don't think he slept eight hours.", "options": ["ait", "a", "est"], "answer": "ait" },
+    { "case": "sp-doute", "type": "mc", "q": "Il est possible que je me ___ trompé.", "en": "I may have made a mistake.", "options": ["sois", "suis", "aie"], "answer": "sois" },
+    { "case": "sp-conj", "type": "mc", "q": "[Bien qu'|bien-que]il ___ eu peur, il a réussi.", "en": "Although he was scared, he passed.", "options": ["ait", "a", "avait"], "answer": "ait" },
+    { "case": "sp-conj", "type": "mc", "q": "Je ne pars pas avant que tu ___ fini.", "en": "I'm not leaving until you've finished.", "options": ["aies", "as", "auras"], "answer": "aies" },
+    { "case": "sp-choix", "type": "mc", "lang": "en", "q": "« Je suis content que tu sois venu » is about…", "options": ["something that has already happened", "something happening now", "something that will happen"], "answer": "something that has already happened", "say": "Je suis content que tu sois venu." },
+    { "case": "sp-choix", "type": "mc", "q": "Je suis heureux que tu ___ là ce soir.", "en": "I'm happy you're here tonight.", "options": ["sois", "aies été", "es"], "answer": "sois" }
+  ]
+}

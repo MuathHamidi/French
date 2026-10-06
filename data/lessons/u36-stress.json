@@ -1,0 +1,163 @@
+{
+  "id": "u36-stress",
+  "type": "vocab",
+  "unit": 36,
+  "title": "Le stress et le repos",
+  "en": "Stress and rest",
+  "intro": "25 words for stress and rest: when it's too much (**le stress, stressant, la pression, débordé, le surmenage, la tension, anxieux, l'angoisse, nerveux, à bout, épuisant, l'épuisement**), what it does to you (**l'insomnie, bâiller, les cernes**) and how to recover (**le bien-être, la détente, décompresser, souffler, se ressourcer, se changer les idées, lâcher prise, la grasse matinée, serein, zen**).",
+  "words": [
+    { "id": "stress", "fr": "stress", "pos": "noun", "g": "m", "ipa": "stʁɛs", "en": "stress", "def": "La tension qu'on ressent quand on a trop de travail ou de problèmes.", "def_en": "The tension you feel when you have too much work or too many problems.", "examples": [
+      { "fr": "C'est le **stress** de décembre ?", "en": "Is it the December stress?" },
+      { "fr": "Le **stress** m'empêche de dormir.", "en": "Stress keeps me awake." },
+      { "fr": "Comment tu gères le **stress** ?", "en": "How do you handle stress?" }
+    ] },
+    { "id": "stressant", "fr": "stressant", "pos": "adj", "ipa": "stʁɛ.sɑ̃", "display": "stressant, stressante", "en": "stressful", "def": "Qui rend nerveux et inquiet.", "def_en": "That makes you nervous and worried.", "forms": ["stressante", "stressants", "stressantes"], "accept": ["stressante"], "examples": [
+      { "fr": "C'est la période la plus **stressante** de l'année.", "en": "It's the most stressful time of the year." },
+      { "fr": "Mon travail est très **stressant**.", "en": "My job is very stressful." },
+      { "fr": "Les examens, c'est **stressant** !", "en": "Exams are stressful!" }
+    ] },
+    { "id": "pression", "fr": "pression", "pos": "noun", "g": "f", "ipa": "pʁɛ.sjɔ̃", "en": "pressure (sous pression = under pressure)", "def": "Le poids des choses qu'on doit faire vite, ou de ce que les autres attendent de nous.", "def_en": "The weight of things you have to do quickly, or of what others expect of you.", "forms": ["pressions"], "examples": [
+      { "fr": "Je suis sous **pression** jusqu'au onze décembre.", "en": "I'm under pressure until 11 December." },
+      { "fr": "Il met trop de **pression** sur son équipe.", "en": "He puts too much pressure on his team." },
+      { "fr": "La **pression** monte avant l'examen.", "en": "The pressure builds before the exam." }
+    ] },
+    { "id": "deborde", "fr": "débordé", "pos": "adj", "ipa": "de.bɔʁ.de", "display": "débordé, débordée", "en": "snowed under, swamped", "def": "Qui a trop de travail et pas assez de temps.", "def_en": "Who has too much work and not enough time.", "forms": ["débordée", "débordés", "débordées"], "accept": ["débordée"], "examples": [
+      { "fr": "Je suis **débordée** cette semaine.", "en": "I'm snowed under this week." },
+      { "fr": "Désolé, je suis **débordé** : je te rappelle demain.", "en": "Sorry, I'm swamped: I'll call you back tomorrow." },
+      { "fr": "Les médecins sont **débordés** en hiver.", "en": "Doctors are overwhelmed in winter." }
+    ] },
+    { "id": "epuisement", "fr": "épuisement", "pos": "noun", "g": "m", "ipa": "e.pɥiz.mɑ̃", "en": "exhaustion", "def": "Une très grande fatigue, quand on n'a plus aucune force.", "def_en": "Extreme tiredness, when you have no strength left at all.", "examples": [
+      { "fr": "Si tu continues, c'est l'**épuisement** assuré.", "en": "If you carry on, exhaustion is guaranteed." },
+      { "fr": "Il est tombé malade d'**épuisement**.", "en": "He fell ill from exhaustion." },
+      { "fr": "Après la course, c'est l'**épuisement** total.", "en": "After the race, it's total exhaustion." }
+    ] },
+    { "id": "surmenage", "fr": "surmenage", "pos": "noun", "g": "m", "ipa": "syʁ.mə.naʒ", "en": "overwork", "def": "Quand on travaille beaucoup trop, sans se reposer.", "def_en": "When you work far too much, without resting.", "examples": [
+      { "fr": "C'est le **surmenage**.", "en": "It's overwork." },
+      { "fr": "Attention au **surmenage** avant les vacances !", "en": "Watch out for overwork before the holidays!" },
+      { "fr": "Le médecin parle de **surmenage**.", "en": "The doctor talks about overwork." }
+    ] },
+    { "id": "insomnie", "fr": "insomnie", "pos": "noun", "g": "f", "ipa": "ɛ̃.sɔm.ni", "en": "insomnia", "def": "Quand on n'arrive pas à dormir la nuit.", "def_en": "When you can't sleep at night.", "forms": ["insomnies"], "examples": [
+      { "fr": "Après, impossible de dormir : c'est l'**insomnie**.", "en": "After that, I can't sleep: it's insomnia." },
+      { "fr": "Le café me donne des **insomnies**.", "en": "Coffee keeps me awake at night." },
+      { "fr": "Contre l'**insomnie**, il faut éteindre les écrans.", "en": "To fight insomnia, you need to switch off screens." }
+    ] },
+    { "id": "detente", "fr": "détente", "pos": "noun", "g": "f", "ipa": "de.tɑ̃t", "en": "relaxation", "def": "Un moment calme, où on se repose et on oublie ses soucis.", "def_en": "A calm moment when you rest and forget your worries.", "examples": [
+      { "fr": "Vous avez tous besoin de **détente**.", "en": "You all need some relaxation." },
+      { "fr": "Un moment de **détente** au soleil.", "en": "A relaxing moment in the sun." },
+      { "fr": "Le yoga, c'est ma **détente**.", "en": "Yoga is how I relax." }
+    ] },
+    { "id": "decompresser", "fr": "décompresser", "pos": "verb", "ipa": "de.kɔ̃.pʁɛ.se", "en": "to unwind, to decompress", "def": "Retrouver le calme après une période difficile.", "def_en": "To find calm again after a difficult time.", "forms": ["décompresse", "décompresses", "décompressons", "décompressez", "décompressent", "décompressé", "décompressée", "décompressés", "décompressées", "décompressais", "décompressait", "décompressions", "décompressiez", "décompressaient", "décompresserai", "décompresseras", "décompressera", "décompresserons", "décompresserez", "décompresseront", "décompresserais", "décompresserait", "décompresserions", "décompresseriez", "décompresseraient", "décompressant", "décompressai", "décompressas", "décompressa", "décompressâmes", "décompressâtes", "décompressèrent"], "examples": [
+      { "fr": "Moi, pour **décompresser**, je joue aux jeux vidéo.", "en": "To unwind, I play video games." },
+      { "fr": "J'ai besoin de **décompresser** après cette semaine.", "en": "I need to unwind after this week." },
+      { "fr": "Le week-end, on **décompresse** à la campagne.", "en": "At weekends, we unwind in the country." }
+    ] },
+    { "id": "souffler", "fr": "souffler", "pos": "verb", "ipa": "su.fle", "en": "to take a breather; to blow", "def": "Faire une petite pause pour se reposer. Aussi : pousser de l'air avec la bouche.", "def_en": "To take a short break to rest. Also: to push air out of your mouth.", "forms": ["souffle", "souffles", "soufflons", "soufflez", "soufflent", "soufflé", "soufflée", "soufflés", "soufflées", "soufflais", "soufflait", "soufflions", "souffliez", "soufflaient", "soufflerai", "souffleras", "soufflera", "soufflerons", "soufflerez", "souffleront", "soufflerais", "soufflerait", "soufflerions", "souffleriez", "souffleraient", "soufflant", "soufflai", "soufflas", "souffla", "soufflâmes", "soufflâtes", "soufflèrent"], "examples": [
+      { "fr": "Il faut **souffler** un peu, même dix minutes.", "en": "You need to take a breather, even ten minutes." },
+      { "fr": "Lou **souffle** les bougies de son gâteau.", "en": "Lou blows out the candles on her cake." },
+      { "fr": "Laisse-moi **souffler** !", "en": "Give me a moment to breathe!" }
+    ] },
+    { "id": "se-ressourcer", "fr": "se ressourcer", "pos": "verb", "ipa": "sə ʁə.suʁ.se", "en": "to recharge your batteries", "def": "Retrouver des forces et de l'énergie, souvent dans la nature ou au calme.", "def_en": "To get your strength and energy back, often in nature or somewhere quiet.", "forms": ["me ressource", "te ressources", "se ressource", "nous nous ressourçons", "vous vous ressourcez", "se ressourcent", "me ressourcer", "te ressourcer", "nous ressourcer", "vous ressourcer", "ressourcer", "me ressourcerai", "te ressourceras", "se ressourcera", "nous nous ressourcerons", "vous vous ressourcerez", "se ressourceront", "me ressourcerais", "te ressourcerais", "se ressourcerait", "nous nous ressourcerions", "vous vous ressourceriez", "se ressourceraient", "ressource", "ressources", "ressourçons", "ressourcez", "ressourcent", "ressourcé", "ressourcée", "ressourcés", "ressourcées", "ressourçais", "ressourçait", "ressourcions", "ressourciez", "ressourçaient", "ressourcerai", "ressourceras", "ressourcera", "ressourcerons", "ressourcerez", "ressourceront", "ressourcerais", "ressourcerait", "ressourcerions", "ressourceriez", "ressourceraient", "ressourçant", "ressourçai", "ressourças", "ressourça", "ressourcâmes", "ressourcâtes", "ressourcèrent"], "examples": [
+      { "fr": "Marcher au bord du Rhône, ça **me ressource**.", "en": "Walking along the Rhône recharges my batteries." },
+      { "fr": "J'ai besoin de **me ressourcer** à la montagne.", "en": "I need to recharge my batteries in the mountains." },
+      { "fr": "Il part **se ressourcer** chez son oncle.", "en": "He's going to his uncle's to recharge." }
+    ] },
+    { "id": "bien-etre", "fr": "bien-être", "pos": "noun", "g": "m", "ipa": "bjɛ̃.nɛtʁ", "en": "well-being", "def": "L'état d'une personne qui se sent bien, dans son corps et dans sa tête.", "def_en": "The state of someone who feels good, in body and mind.", "examples": [
+      { "fr": "Votre **bien-être**, c'est important.", "en": "Your well-being matters." },
+      { "fr": "Le sport, c'est bon pour le **bien-être**.", "en": "Sport is good for your well-being." },
+      { "fr": "Elle s'occupe du **bien-être** des enfants.", "en": "She looks after the children's well-being." }
+    ] },
+    { "id": "tension", "fr": "tension", "pos": "noun", "g": "f", "ipa": "tɑ̃.sjɔ̃", "en": "tension; (la tension) blood pressure", "def": "L'état de quelqu'un de très nerveux. Aussi : la pression du sang.", "def_en": "The state of someone who is very nervous. Also: the pressure of the blood.", "forms": ["tensions"], "examples": [
+      { "fr": "La **tension** va durer jusqu'aux résultats.", "en": "The tension will last until the results." },
+      { "fr": "Il y a de la **tension** dans l'équipe.", "en": "There's tension in the team." },
+      { "fr": "Le médecin prend ma **tension**.", "en": "The doctor takes my blood pressure." }
+    ] },
+    { "id": "anxieux", "fr": "anxieux", "pos": "adj", "ipa": "ɑ̃k.sjø", "display": "anxieux, anxieuse", "en": "anxious", "def": "Qui a souvent peur de ce qui va se passer.", "def_en": "Who is often afraid of what's going to happen.", "forms": ["anxieuse", "anxieuses"], "accept": ["anxieuse"], "examples": [
+      { "fr": "Je suis tellement **anxieux** que j'ai mal au ventre.", "en": "I'm so anxious that my stomach hurts." },
+      { "fr": "C'est une personne **anxieuse**.", "en": "She's an anxious person." },
+      { "fr": "Ne sois pas **anxieux**, ça va bien se passer.", "en": "Don't be anxious, it'll go well." }
+    ] },
+    { "id": "angoisse", "fr": "angoisse", "pos": "noun", "g": "f", "ipa": "ɑ̃.ɡwas", "en": "anxiety, dread", "def": "Une peur forte, sans raison claire, qui serre le cœur.", "def_en": "A strong fear, with no clear reason, that grips your heart.", "forms": ["angoisses"], "examples": [
+      { "fr": "Si je m'arrête, l'**angoisse** revient.", "en": "If I stop, the anxiety comes back." },
+      { "fr": "Quelle **angoisse**, ce silence !", "en": "This silence is so nerve-racking!" },
+      { "fr": "Il a des **angoisses** la nuit.", "en": "He gets anxious at night." }
+    ] },
+    { "id": "serein", "fr": "serein", "pos": "adj", "ipa": "sə.ʁɛ̃", "display": "serein, sereine", "en": "serene, calm", "def": "Calme et tranquille, sans peur pour la suite.", "def_en": "Calm and peaceful, not worried about what comes next.", "forms": ["sereine", "sereins", "sereines"], "accept": ["sereine"], "examples": [
+      { "fr": "Après, je serai **sereine**… peut-être.", "en": "After that, I'll be calm… maybe." },
+      { "fr": "Il est **serein** avant l'examen.", "en": "He's calm before the exam." },
+      { "fr": "Une soirée **sereine** à la maison.", "en": "A peaceful evening at home." }
+    ] },
+    { "id": "se-changer-les-idees", "fr": "se changer les idées", "pos": "expr", "ipa": "sə ʃɑ̃.ʒe le.zi.de", "en": "to take your mind off things", "def": "Faire autre chose, pour penser à autre chose.", "def_en": "To do something else, so as to think about something else.", "forms": ["me changer les idées", "te changer les idées", "nous changer les idées", "vous changer les idées", "se change les idées", "me change les idées", "change-toi les idées", "changez-vous les idées"], "examples": [
+      { "fr": "Pour **me changer les idées**, je marche au bord du Rhône.", "en": "To take my mind off things, I walk along the Rhône." },
+      { "fr": "Viens au cinéma, ça va **te changer les idées**.", "en": "Come to the cinema, it'll take your mind off things." },
+      { "fr": "**Change-toi les idées** !", "en": "Take your mind off it!" }
+    ] },
+    { "id": "lacher-prise", "fr": "lâcher prise", "pos": "expr", "ipa": "la.ʃe pʁiz", "en": "to let go", "def": "Accepter qu'on ne peut pas tout contrôler, et arrêter de s'inquiéter.", "def_en": "To accept that you can't control everything, and stop worrying.", "forms": ["lâche prise"], "examples": [
+      { "fr": "J'ai appris à **lâcher prise**.", "en": "I've learnt to let go." },
+      { "fr": "Respire, et **lâche prise** !", "en": "Breathe, and let go!" },
+      { "fr": "Il n'arrive pas à **lâcher prise**.", "en": "He can't let go." }
+    ] },
+    { "id": "a-bout", "fr": "à bout", "pos": "expr", "ipa": "a bu", "en": "at the end of your tether, worn out", "def": "Très fatigué, sans plus aucune force ni patience.", "def_en": "Very tired, with no strength or patience left.", "examples": [
+      { "fr": "Vous êtes tous **à bout** !", "en": "You're all at the end of your tether!" },
+      { "fr": "Je suis **à bout** : je vais me coucher.", "en": "I'm worn out: I'm going to bed." },
+      { "fr": "Elle est **à bout** de patience.", "en": "She's run out of patience." }
+    ] },
+    { "id": "bailler", "fr": "bâiller", "pos": "verb", "ipa": "ba.je", "en": "to yawn", "def": "Ouvrir grand la bouche quand on est fatigué ou qu'on s'ennuie.", "def_en": "To open your mouth wide when you're tired or bored.", "forms": ["bâille", "bâilles", "bâillons", "bâillez", "bâillent", "bâillé", "bâillais", "bâillait", "bâillions", "bâilliez", "bâillaient", "bâillerai", "bâilleras", "bâillera", "bâillerons", "bâillerez", "bâilleront", "bâillerais", "bâillerait", "bâillerions", "bâilleriez", "bâilleraient", "bâillant", "bâillai", "bâillas", "bâilla", "bâillâmes", "bâillâtes", "bâillèrent"], "examples": [
+      { "fr": "Hugo **bâille** toutes les deux minutes.", "en": "Hugo yawns every two minutes." },
+      { "fr": "Arrête de **bâiller** : tu me donnes sommeil !", "en": "Stop yawning: you're making me sleepy!" },
+      { "fr": "Les enfants **bâillent** : c'est l'heure de dormir.", "en": "The children are yawning: it's bedtime." }
+    ] },
+    { "id": "cerne", "fr": "cerne", "pos": "noun", "g": "m", "ipa": "sɛʁn", "en": "(les cernes) dark circles, bags under your eyes", "def": "Une marque sombre sous les yeux, quand on est fatigué.", "def_en": "A dark mark under your eyes when you're tired.", "forms": ["cernes"], "examples": [
+      { "fr": "Sophie a des **cernes** énormes.", "en": "Sophie has huge bags under her eyes." },
+      { "fr": "Tu as des **cernes** : tu as mal dormi ?", "en": "You've got dark circles: did you sleep badly?" },
+      { "fr": "Il cache ses **cernes** sous ses lunettes.", "en": "He hides the bags under his eyes behind his glasses." }
+    ] },
+    { "id": "nerveux", "fr": "nerveux", "pos": "adj", "ipa": "nɛʁ.vø", "display": "nerveux, nerveuse", "en": "nervous, edgy", "def": "Qui n'arrive pas à rester calme, qui s'énerve vite.", "def_en": "Who can't stay calm, who gets worked up quickly.", "forms": ["nerveuse", "nerveuses"], "accept": ["nerveuse"], "examples": [
+      { "fr": "Les jeux vidéo te rendent **nerveux**.", "en": "Video games make you edgy." },
+      { "fr": "Elle est **nerveuse** avant son oral.", "en": "She's nervous before her oral." },
+      { "fr": "Ne sois pas si **nerveux** !", "en": "Don't be so nervous!" }
+    ] },
+    { "id": "zen", "fr": "zen", "pos": "adj", "ipa": "zɛn", "en": "calm, chilled (informal)", "def": "Très calme, détendu (familier).", "def_en": "Very calm, relaxed (informal).", "examples": [
+      { "fr": "Comment tu fais pour rester **zen** ?", "en": "How do you stay so calm?" },
+      { "fr": "Reste **zen**, ce n'est pas grave.", "en": "Stay calm, it doesn't matter." },
+      { "fr": "Carla est toujours **zen**.", "en": "Carla is always chilled." }
+    ] },
+    { "id": "epuisant", "fr": "épuisant", "pos": "adj", "ipa": "e.pɥi.zɑ̃", "display": "épuisant, épuisante", "en": "exhausting", "def": "Qui fatigue beaucoup.", "def_en": "That tires you out a lot.", "forms": ["épuisante", "épuisants", "épuisantes"], "accept": ["épuisante"], "examples": [
+      { "fr": "C'est encore plus **épuisant** que mes jeux vidéo !", "en": "That's even more exhausting than my video games!" },
+      { "fr": "Quelle semaine **épuisante** !", "en": "What an exhausting week!" },
+      { "fr": "Les enfants sont **épuisants** le mercredi.", "en": "The children are exhausting on Wednesdays." }
+    ] },
+    { "id": "grasse-matinee", "fr": "grasse matinée", "pos": "noun", "g": "f", "ipa": "ɡʁas ma.ti.ne", "en": "lie-in (faire la grasse matinée = to sleep in)", "def": "Le matin où on reste au lit très tard.", "def_en": "A morning when you stay in bed very late.", "forms": ["grasses matinées"], "examples": [
+      { "fr": "Le dimanche, je fais la **grasse matinée**.", "en": "On Sundays, I sleep in." },
+      { "fr": "Demain, **grasse matinée** !", "en": "Tomorrow, a lie-in!" },
+      { "fr": "Rien de mieux qu'une **grasse matinée** en hiver.", "en": "Nothing beats a lie-in in winter." }
+    ] }
+  ],
+  "story": {
+    "title": "Tous à bout",
+    "en": "Tuesday 1 December: at the café downstairs, everyone is exhausted, and Carla has a plan.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi premier décembre, au café d'en bas, tout le monde a l'air fatigué.", "en": "On Tuesday 1 December, at the café downstairs, everyone looks tired." },
+      { "sp": "", "fr": "Sophie a des cernes énormes, Hugo bâille toutes les deux minutes, et Tom regarde son téléphone toutes les trente secondes.", "en": "Sophie has huge bags under her eyes, Hugo yawns every two minutes, and Tom checks his phone every thirty seconds." },
+      { "sp": "Carla", "fr": "Vous êtes tous à bout ! C'est le stress de décembre ?", "en": "You're all at the end of your tether! Is it the December stress?" },
+      { "sp": "Sophie", "fr": "Je rends mon grand projet dans dix jours. Je dessine toute la nuit, je suis débordée. C'est la période la plus stressante de l'année.", "en": "I hand in my big project in ten days. I draw all night, I'm snowed under. It's the most stressful time of the year." },
+      { "sp": "Hugo", "fr": "Moi, depuis que j'ai la fibre, je joue en ligne jusqu'à trois heures du matin. Après, impossible de dormir : c'est l'insomnie.", "en": "Since I got fibre, I play online until three in the morning. After that, I can't sleep: it's insomnia." },
+      { "sp": "Tom", "fr": "Et moi, j'attends les résultats du DELF. Je suis tellement anxieux que j'ai mal au ventre.", "en": "And I'm waiting for my DELF results. I'm so anxious that my stomach hurts." },
+      { "sp": "Léa", "fr": "Tom, arrête de regarder ton téléphone ! Les résultats ne vont pas arriver plus vite.", "en": "Tom, stop looking at your phone! The results won't come any faster." },
+      { "sp": "Carla", "fr": "Bon. Votre bien-être, c'est important. Vous avez tous besoin de détente. Sophie, quand est-ce que tu as fait une vraie pause ?", "en": "Right. Your well-being matters. You all need some relaxation. Sophie, when did you last take a real break?" },
+      { "sp": "Sophie", "fr": "Une pause ? Je n'ai pas le temps ! Si je m'arrête, l'angoisse revient.", "en": "A break? I haven't got time! If I stop, the anxiety comes back." },
+      { "sp": "Carla", "fr": "C'est le surmenage. Si tu continues, c'est l'épuisement assuré.", "en": "That's overwork. If you carry on, exhaustion is guaranteed." },
+      { "sp": "Léa", "fr": "Carla a raison. Il faut souffler un peu, même dix minutes.", "en": "Carla's right. You need to take a breather, even ten minutes." },
+      { "sp": "Hugo", "fr": "Moi, pour décompresser, je joue aux jeux vidéo…", "en": "To unwind, I play video games…" },
+      { "sp": "Carla", "fr": "Justement : ça te rend nerveux, et tu dors quatre heures. Ce n'est pas une solution.", "en": "Exactly: it makes you edgy, and you sleep four hours. That's no solution." },
+      { "sp": "Tom", "fr": "Et toi, Carla, comment tu fais pour rester zen ?", "en": "And you, Carla, how do you stay so calm?" },
+      { "sp": "Carla", "fr": "Je danse, je respire, et quand je peux, je fais la grasse matinée. Et j'ai appris à lâcher prise : je ne peux pas tout contrôler.", "en": "I dance, I breathe, and when I can, I sleep in. And I've learnt to let go: I can't control everything." },
+      { "sp": "Léa", "fr": "Moi, pour me changer les idées, je marche au bord du Rhône. Ça me ressource.", "en": "To take my mind off things, I walk along the Rhône. It recharges my batteries." },
+      { "sp": "Sophie", "fr": "Marcher… Je ne sais même plus comment on fait ! Je suis sous pression jusqu'au onze décembre. Après, je serai sereine… peut-être.", "en": "Walking… I don't even remember how! I'm under pressure until 11 December. After that, I'll be calm… maybe." },
+      { "sp": "Tom", "fr": "Et moi, la tension va durer jusqu'aux résultats.", "en": "And for me, the tension will last until the results." },
+      { "sp": "Carla", "fr": "Alors, voici mon plan : ce soir, tout le monde éteint son téléphone à dix heures. Et dimanche, on va courir au parc, tous ensemble.", "en": "So here's my plan: tonight, everyone switches off their phone at ten. And on Sunday, we're all going running in the park together." },
+      { "sp": "Hugo", "fr": "Courir ? Un dimanche ? C'est encore plus épuisant que mes jeux vidéo !", "en": "Running? On a Sunday? That's even more exhausting than my video games!" },
+      { "sp": "", "fr": "Ce soir-là, à dix heures, quatre téléphones sont éteints. Le cinquième, celui de Hugo, reste allumé jusqu'à minuit.", "en": "That evening, at ten, four phones are switched off. The fifth, Hugo's, stays on until midnight." }
+    ]
+  }
+}

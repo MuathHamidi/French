@@ -145,6 +145,8 @@ FIXES = {
     "à plus !": "a plˈys!",  # the s is said here, but not in à plus tard
     "sav": "ɛsavˈe",  # read as a word: say the letters
     "box": "bˈɔks", "planning": "planˈiŋ", "plannings": "planˈiŋ",  # English vowels otherwise
+    "stress": "stʁˈɛs",  # the voice says an English r
+    "ouïe": "wˈi",  # the voice says /wj/
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}
