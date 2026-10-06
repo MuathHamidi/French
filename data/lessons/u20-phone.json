@@ -16,7 +16,7 @@
       ] },
     { "id": "telephoner", "fr": "téléphoner", "pos": "verb", "ipa": "te.le.fɔ.ne", "en": "to phone (téléphoner à quelqu'un)",
       "def": "Parler à une personne au téléphone.", "def_en": "To talk to someone on the phone.",
-      "forms": ["téléphone", "téléphones", "téléphonons", "téléphonez", "téléphonent", "téléphoné", "téléphonais", "téléphonait", "téléphonions", "téléphoniez", "téléphonaient", "téléphonerai", "téléphoneras", "téléphonera", "téléphonerons", "téléphonerez", "téléphoneront"],
+      "forms": ["téléphone", "téléphones", "téléphonons", "téléphonez", "téléphonent", "téléphoné", "téléphonais", "téléphonait", "téléphonions", "téléphoniez", "téléphonaient", "téléphonerai", "téléphoneras", "téléphonera", "téléphonerons", "téléphonerez", "téléphoneront", "téléphonerais", "téléphonerait", "téléphonerions", "téléphoneriez", "téléphoneraient"],
       "examples": [
         { "fr": "Je **téléphone** à Mamie tous les dimanches.", "en": "I phone Grandma every Sunday." },
         { "fr": "Tu peux me **téléphoner** ce soir ?", "en": "Can you phone me tonight?" },
@@ -35,7 +35,7 @@
     { "id": "appeler", "fr": "appeler", "pos": "verb", "ipa": "a.ple", "en": "to call (s'appeler = to be called)",
       "def": "Téléphoner à une personne. Aussi : dire son nom pour la faire venir.", "def_en": "To phone someone. Also: to say someone's name to make them come.",
       "extra": "l → ll before a silent ending: j'**appelle**, nous **appelons**, ils **appellent**.",
-      "forms": ["appelle", "appelles", "appelons", "appelez", "appellent", "appelé", "appelée", "appelais", "appelait", "appelions", "appeliez", "appelaient", "appellerai", "appelleras", "appellera", "appellerons", "appellerez", "appelleront"],
+      "forms": ["appelle", "appelles", "appelons", "appelez", "appellent", "appelé", "appelée", "appelais", "appelait", "appelions", "appeliez", "appelaient", "appellerai", "appelleras", "appellera", "appellerons", "appellerez", "appelleront", "appellerais", "appellerait", "appellerions", "appelleriez", "appelleraient"],
       "examples": [
         { "fr": "Je t'**appelle** ce soir !", "en": "I'll call you tonight!" },
         { "fr": "**Appelle** le médecin !", "en": "Call the doctor!" },
@@ -43,7 +43,7 @@
       ] },
     { "id": "rappeler", "fr": "rappeler", "pos": "verb", "ipa": "ʁa.ple", "en": "to call back; to remind",
       "def": "Téléphoner une deuxième fois, quand on n'a pas pu parler.", "def_en": "To phone again, when you couldn't talk the first time.",
-      "forms": ["rappelle", "rappelles", "rappelons", "rappelez", "rappellent", "rappelé", "rappelais", "rappelait", "rappelions", "rappeliez", "rappelaient", "rappellerai", "rappelleras", "rappellera", "rappellerons", "rappellerez", "rappelleront"],
+      "forms": ["rappelle", "rappelles", "rappelons", "rappelez", "rappellent", "rappelé", "rappelais", "rappelait", "rappelions", "rappeliez", "rappelaient", "rappellerai", "rappelleras", "rappellera", "rappellerons", "rappellerez", "rappelleront", "rappellerais", "rappellerait", "rappellerions", "rappelleriez", "rappelleraient"],
       "examples": [
         { "fr": "Je suis occupé, je te **rappelle** !", "en": "I'm busy, I'll call you back!" },
         { "fr": "Vous pouvez **rappeler** demain ?", "en": "Can you call back tomorrow?" },
@@ -52,7 +52,7 @@
       "note": "With *se*: **se rappeler** = to remember." },
     { "id": "raccrocher", "fr": "raccrocher", "pos": "verb", "ipa": "ʁa.kʁɔ.ʃe", "en": "to hang up",
       "def": "Finir un appel au téléphone.", "def_en": "To end a phone call.",
-      "forms": ["raccroche", "raccroches", "raccrochons", "raccrochez", "raccrochent", "raccroché", "raccrochais", "raccrochait", "raccrochions", "raccrochiez", "raccrochaient", "raccrocherai", "raccrocheras", "raccrochera", "raccrocherons", "raccrocherez", "raccrocheront"],
+      "forms": ["raccroche", "raccroches", "raccrochons", "raccrochez", "raccrochent", "raccroché", "raccrochais", "raccrochait", "raccrochions", "raccrochiez", "raccrochaient", "raccrocherai", "raccrocheras", "raccrochera", "raccrocherons", "raccrocherez", "raccrocheront", "raccrocherais", "raccrocherait", "raccrocherions", "raccrocheriez", "raccrocheraient"],
       "examples": [
         { "fr": "Ne **raccroche** pas !", "en": "Don't hang up!" },
         { "fr": "Il m'a **raccroché** au nez !", "en": "He hung up on me!" },
@@ -61,7 +61,7 @@
       "note": "**décrocher** = to pick up (the phone)." },
     { "id": "sonner", "fr": "sonner", "pos": "verb", "ipa": "sɔ.ne", "en": "to ring",
       "def": "Faire du bruit pour appeler : un téléphone, un réveil ou une porte sonnent.", "def_en": "To make a noise to call you: phones, alarm clocks and doorbells ring.",
-      "forms": ["sonne", "sonnes", "sonnons", "sonnez", "sonnent", "sonné", "sonnais", "sonnait", "sonnions", "sonniez", "sonnaient", "sonnerai", "sonneras", "sonnera", "sonnerons", "sonnerez", "sonneront"],
+      "forms": ["sonne", "sonnes", "sonnons", "sonnez", "sonnent", "sonné", "sonnais", "sonnait", "sonnions", "sonniez", "sonnaient", "sonnerai", "sonneras", "sonnera", "sonnerons", "sonnerez", "sonneront", "sonnerais", "sonnerait", "sonnerions", "sonneriez", "sonneraient"],
       "examples": [
         { "fr": "Le téléphone **sonne** !", "en": "The phone's ringing!" },
         { "fr": "Mon réveil a **sonné** à six heures.", "en": "My alarm went off at six." },
@@ -159,7 +159,7 @@
     { "id": "telecharger", "fr": "télécharger", "pos": "verb", "ipa": "te.le.ʃaʁ.ʒe", "en": "to download",
       "def": "Mettre sur son ordinateur ou son portable une chose qui est sur internet.", "def_en": "To put something from the internet onto your computer or phone.",
       "extra": "-ger verb: nous **téléchargeons**, je **téléchargeais**.",
-      "forms": ["télécharge", "télécharges", "téléchargeons", "téléchargez", "téléchargent", "téléchargé", "téléchargée", "téléchargeais", "téléchargeait", "téléchargions", "téléchargiez", "téléchargeaient", "téléchargerai", "téléchargeras", "téléchargera", "téléchargerons", "téléchargerez", "téléchargeront"],
+      "forms": ["télécharge", "télécharges", "téléchargeons", "téléchargez", "téléchargent", "téléchargé", "téléchargée", "téléchargeais", "téléchargeait", "téléchargions", "téléchargiez", "téléchargeaient", "téléchargerai", "téléchargeras", "téléchargera", "téléchargerons", "téléchargerez", "téléchargeront", "téléchargerais", "téléchargerait", "téléchargerions", "téléchargeriez", "téléchargeraient"],
       "examples": [
         { "fr": "Je **télécharge** une application.", "en": "I'm downloading an app." },
         { "fr": "Tu peux **télécharger** le document ?", "en": "Can you download the document?" },
@@ -185,7 +185,7 @@
     { "id": "charger", "fr": "charger", "pos": "verb", "ipa": "ʃaʁ.ʒe", "en": "to charge (a phone); to load",
       "def": "Remettre de l'énergie dans une batterie. Aussi : mettre des choses dans une voiture.", "def_en": "To put energy back into a battery. Also: to load things into a car.",
       "extra": "-ger verb: nous **chargeons**, je **chargeais**.",
-      "forms": ["charge", "charges", "chargeons", "chargez", "chargent", "chargé", "chargée", "chargeais", "chargeait", "chargions", "chargiez", "chargeaient", "chargerai", "chargeras", "chargera", "chargerons", "chargerez", "chargeront"],
+      "forms": ["charge", "charges", "chargeons", "chargez", "chargent", "chargé", "chargée", "chargeais", "chargeait", "chargions", "chargiez", "chargeaient", "chargerai", "chargeras", "chargera", "chargerons", "chargerez", "chargeront", "chargerais", "chargerait", "chargerions", "chargeriez", "chargeraient"],
       "examples": [
         { "fr": "Je dois **charger** mon portable.", "en": "I need to charge my phone." },
         { "fr": "Tu as un chargeur ? Mon téléphone ne **charge** pas.", "en": "Have you got a charger? My phone isn't charging." },
@@ -201,7 +201,7 @@
       ] },
     { "id": "cliquer", "fr": "cliquer", "pos": "verb", "ipa": "kli.ke", "en": "to click",
       "def": "Appuyer avec le doigt sur la souris pour choisir quelque chose sur l'écran.", "def_en": "To press the mouse with your finger to choose something on the screen.",
-      "forms": ["clique", "cliques", "cliquons", "cliquez", "cliquent", "cliqué", "cliquais", "cliquait", "cliquions", "cliquiez", "cliquaient", "cliquerai", "cliqueras", "cliquera", "cliquerons", "cliquerez", "cliqueront"],
+      "forms": ["clique", "cliques", "cliquons", "cliquez", "cliquent", "cliqué", "cliquais", "cliquait", "cliquions", "cliquiez", "cliquaient", "cliquerai", "cliqueras", "cliquera", "cliquerons", "cliquerez", "cliqueront", "cliquerais", "cliquerait", "cliquerions", "cliqueriez", "cliqueraient"],
       "examples": [
         { "fr": "**Cliquez** ici pour commander.", "en": "Click here to order." },
         { "fr": "Mamie **clique** partout !", "en": "Grandma clicks on everything!" },
@@ -210,7 +210,7 @@
     { "id": "recevoir", "fr": "recevoir", "pos": "verb", "ipa": "ʁə.sə.vwaʁ", "en": "to receive, to get",
       "def": "Avoir une chose qu'une autre personne envoie ou donne.", "def_en": "To get something that someone else sends or gives.",
       "extra": "je **reçois**, il **reçoit**, nous **recevons**, ils **reçoivent**; j'ai **reçu**.",
-      "forms": ["reçois", "reçoit", "recevons", "recevez", "reçoivent", "reçu", "reçue", "reçus", "reçues", "recevais", "recevait", "recevions", "receviez", "recevaient", "recevrai", "recevras", "recevra", "recevrons", "recevrez", "recevront"],
+      "forms": ["reçois", "reçoit", "recevons", "recevez", "reçoivent", "reçu", "reçue", "reçus", "reçues", "recevais", "recevait", "recevions", "receviez", "recevaient", "recevrai", "recevras", "recevra", "recevrons", "recevrez", "recevront", "recevrais", "recevrait", "recevrions", "recevriez", "recevraient"],
       "examples": [
         { "fr": "J'ai **reçu** ton message.", "en": "I got your message." },
         { "fr": "Je **reçois** beaucoup de mails.", "en": "I get a lot of emails." },

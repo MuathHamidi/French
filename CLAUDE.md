@@ -19,14 +19,15 @@ The course was built on Linux (`~/Data/Courses/French`) and moved to Windows in 
 
 From Unit 17 on, a unit has four 25-word vocabulary lessons (two on its topic, two on high-frequency words) and two or three grammar or sound lessons, about 100 new words in all. Its plan is the `planned` list in `data/curriculum.json`.
 
-1. Write the lessons, then replace the unit's `planned` list with its `lessons` ids.
-2. Reuse what exists: look in `data/lexicon.json` and earlier lessons first. When a lesson teaches a helper word, move its entry into the lesson with the same id. Add helpers for any other new word the texts need.
-3. When a unit introduces a tense, add its forms to the `forms` of every verb (done so far for the imparfait and the future, 309 verbs). Make sure no new form collides with another entry.
-4. `validate.py` must print OK.
-5. Review homographs with `node tools/check_app.mjs --homographs <new lesson ids>`, and fix wrong picks with `[word|id]`.
-6. Generate the audio with `make_audio.py --prune` and read its IPA report for the new words. The report always lists some harmless variants (o/ɔ, ɥ/y, a schwa kept or dropped). When a word really sounds wrong, add it to `FIXES` and run again; only the changed texts are regenerated.
-7. `node tools/check_app.mjs <new lesson ids>` must print OK, then the full `node tools/check_app.mjs`. Also run it for any older lesson you edited.
-8. Open the new pages in the preview (words, lesson, story and quiz tabs; no console errors). Check the stories against the bible below. Update the README roadmap and the bible.
+1. Before changing anything, save a snapshot of every word link: `node tools/check_app.mjs --save-links links-before.json`.
+2. Write the lessons, then replace the unit's `planned` list with its `lessons` ids.
+3. Reuse what exists: look in `data/lexicon.json` and earlier lessons first. When a lesson teaches a helper word, move its entry into the lesson with the same id. Add helpers for any other new word the texts need.
+4. When a unit introduces a tense, add its forms to the `forms` of every verb (done so far for the imparfait, the future and the conditional, about 316 verbs). Make sure no new form collides with another entry. Derive new tenses from forms that exist (the conditional came from each verb's future forms) and listen-check one form per verb against the old one: the voice swallows the vowel of **-ouer** verbs (*jouerais*), which needs `FIXES`.
+5. `validate.py` must print OK. When two taught words share a spelling, read the "Ambiguous" list it prints: the tie goes to the older lesson.
+6. Review homographs with `node tools/check_app.mjs --homographs <new lesson ids>`, and fix wrong picks with `[word|id]`.
+7. Generate the audio with `make_audio.py --prune` and read its IPA report for the new words. The report always lists some harmless variants (e/ɛ, o/ɔ, ɥ/y, a schwa kept or dropped). When a word really sounds wrong (often English loanwords like *scotch*), add it to `FIXES` and run again; only the changed texts are regenerated.
+8. `node tools/check_app.mjs --compare-links links-before.json` must print OK. Read its warnings: every older text that now links a word to a different entry is listed, and each change must be intended. Also run it for any older lesson you edited.
+9. Open the new pages in the preview (words, lesson, story and quiz tabs; no console errors). Check the stories against the bible below. Update the README roadmap and the bible.
 
 ## Writing rules learned so far
 
@@ -34,6 +35,9 @@ From Unit 17 on, a unit has four 25-word vocabulary lessons (two on its topic, t
 - A `mistakes` entry must be a real learner error ("je mangera"), never correct French.
 - Tips, rules, mistakes and translations are not linked, so they must not contain `[word|id]` or `{text|case}` markup (`check_app.mjs` flags it).
 - Each vocabulary example has one `**target**`, used for fill-in-the-blank questions.
+- Quiz items with `"lang": "en"` need a French `say` (or `listen`); otherwise the French voice reads the English answer aloud.
+- A word card shows the word's own meaning, so use each word in the sense it has in the dictionary: for a machine that works, write *fonctionner*, not *marcher* (= to walk); don't use *personne* for *nobody* (its card says *person*).
+- Context doesn't settle a noun/verb homograph after an adjective (*la première partie*: *partie* or *partir*?): mark it up, as in *la première [partie|partie]*.
 - The stories share one recurring cast (below). Keep ages, places and past events consistent from unit to unit.
 
 ## Story bible
@@ -99,8 +103,16 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - 29 December: Hugo falls into a bin on live TV.
   - 30 December: Sophie's surprise party at Tom's.
   - New Year's Eve at Léa and Sophie's.
+- **U21**:
+  - 2 January: the big clean-up after the party (u21-chores). Hugo takes the bins out without falling in.
+  - 3 January: a power cut at Léa and Sophie's (u21-objects). Hugo plugged the kettle, the toaster and the hair dryer into one socket; Tom, afraid of the dark, screams when he touches a coat hanger.
+  - 4 January: Paul comes to Lyon and takes Lou home to Paris by train (u21-verbs). Hugo breaks her suitcase and fixes it with tape; Lou gives Léa a drawing of Minou with a broom.
+  - 5 January: Mamie teaches Hugo her crêpes by video call on her new mobile (u21-manner).
+  - 8 January: Sophie's first project at architecture school is an ideal house; the friends give their ideas at the café downstairs (u21-conditionnel).
+  - 11 January: galette des rois at Léa and Sophie's. Hugo is suspected of swallowing the charm, but Minou finds it and wears the crown (u21-ment).
+  - A Saturday in January: Tom buys bread at the bakery downstairs from his flat and notices the silent e's (u21-e-muet).
 
-**Where the story stands:** the evening of 1 January (u20-futur-irr). Lou is spending the holidays with Léa, and Sophie starts architecture school this month. Open threads:
+**Where the story stands:** mid-January (u21-ment). Lou is back in Paris at nursery school, Sophie is at architecture school, and Hugo is learning to cook. Open threads:
 - the €150 Hugo owes Léa;
 - the race on 1 May (u19-numbers);
 - Antoine's visit planned for late May (u11-seasons);
@@ -118,6 +130,9 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - He plays a little tennis, badly (u10-sports, u10-faire-jouer). He quit the sports club (u10-negation) and skipped his flu jab (u18-health).
   - He now likes camembert (u17-thinking) but still dislikes cooked carrots.
 - **Léa** used to be often late (u08-routine) but isn't any more (u13-modaux).
+- **Léa and Sophie's flat**: no dishwasher, so they wash up by hand (u21-chores, u21-conditionnel); the washing dries on the balcony; a kitchen drawer holds scissors, glue, tape and a torch with no batteries (u21-objects).
+- **Hugo** carries a lighter (u21-objects) and is learning to cook: he can make Mamie's crêpes (u21-manner).
+- **Tom** lives above a bakery; his neighbours want to practise their English with him (u21-e-muet).
 - **Loose ends**:
   - Hugo says "ma sœur joue du piano" (u10-faire-jouer) without saying which sister.
   - Anne's Christmas shoes (size 39) were left at the till (u19-shop).

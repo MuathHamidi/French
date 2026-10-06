@@ -78,6 +78,7 @@ FIXES = {
     "churros": "ʃuʁˈɔs", "nounours": "nunˈuʁs",  # the final s is pronounced
     "bronzer": "bʁɔ̃zˈe",  # the voice says /bʁɔ̃zœʁ/
     "wifi": "wifˈi",  # otherwise read in English
+    "scotch": "skˈɔtʃ", "scotchs": "skˈɔtʃ",  # otherwise read with an English vowel
     "louent": "lˈu", "loues": "lˈu",  # the voice swallows the vowel, like jouent
     "jouions": "ʒujˈɔ̃", "jouiez": "ʒujˈe",  # the voice says /ʒwjɔ̃/
     "habitions": "abitjˈɔ̃", "habitiez": "abitjˈe",  # the voice reads -tions as in "nation": /abisjɔ̃/
@@ -94,6 +95,8 @@ FIXES = {
     "ils éteignent": "ilz etˈɛɲ", "elles éteignent": "ɛlz etˈɛɲ",  # keep the liaison /z/
     "jouerai": "ʒuʁˈe", "joueras": "ʒuʁˈa", "jouera": "ʒuʁˈa", "jouerons": "ʒuʁˈɔ̃", "jouerez": "ʒuʁˈe", "joueront": "ʒuʁˈɔ̃",  # future of -ouer verbs: the voice says /ʒwʁe/
     "louerai": "luʁˈe", "loueras": "luʁˈa", "louera": "luʁˈa", "louerons": "luʁˈɔ̃", "louerez": "luʁˈe", "loueront": "luʁˈɔ̃", "avouerai": "avuʁˈe", "avoueras": "avuʁˈa", "avouera": "avuʁˈa", "avouerons": "avuʁˈɔ̃", "avouerez": "avuʁˈe", "avoueront": "avuʁˈɔ̃",
+    "jouerais": "ʒuʁˈɛ", "jouerait": "ʒuʁˈɛ", "jouerions": "ʒuʁjˈɔ̃", "joueriez": "ʒuʁjˈe", "joueraient": "ʒuʁˈɛ",  # conditional of -ouer verbs: the voice says /ʒwʁɛ/
+    "louerais": "luʁˈɛ", "louerait": "luʁˈɛ", "louerions": "luʁjˈɔ̃", "loueriez": "luʁjˈe", "loueraient": "luʁˈɛ", "avouerais": "avuʁˈɛ", "avouerait": "avuʁˈɛ", "avouerions": "avuʁjˈɔ̃", "avoueriez": "avuʁjˈe", "avoueraient": "avuʁˈɛ",
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

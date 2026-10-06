@@ -13,8 +13,11 @@
 //       node tools/check_app.mjs --homographs u21-a u21-b
 //           also lists every word in these lessons with several dictionary entries, the entry each
 //           text gets and an example, to review before publishing (fix wrong ones with [word|id])
+//       node tools/check_app.mjs --save-links links-before.json      (before adding or promoting entries)
+//       node tools/check_app.mjs --compare-links links-before.json   (after: lists texts whose words now
+//           link to other entries, so a new entry can't silently change older lessons)
 // Needs Node.js 22+ and Python 3 (set PYTHON to choose the interpreter).
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -44,6 +47,8 @@ await loadAll();
 await initAudio();
 
 const args = process.argv.slice(2);
+const option = (name) => { const i = args.indexOf(name); return i >= 0 ? args.splice(i, 2)[1] : null; };
+const saveLinks = option('--save-links'), compareLinks = option('--compare-links');
 const only = args.filter((a) => !a.startsWith('--'));
 const unknownIds = only.filter((id) => !lessons.has(id));
 if (unknownIds.length) {
@@ -284,6 +289,31 @@ if (args.includes('--homographs')) {
   console.log('');
 }
 
+// ---------- links snapshot: which entry every word of every text links to ----------
+const links = {};
+for (const lesson of all) {
+  const seen = new Map();
+  for (const t of [...pages.get(lesson.id).shown, ...prompts(lesson)]) {
+    const n = (seen.get(t.where) || 0) + 1;
+    seen.set(t.where, n);
+    links[`${t.where} #${n}`] = { text: t.text, links: tokenize(t.text, t.prefer).filter((s) => s.w).map((s) => `${s.text}=${s.id ?? '?'}`) };
+  }
+}
+if (saveLinks) writeFileSync(saveLinks, JSON.stringify(links));
+let linksCompared = 0;
+if (compareLinks) {
+  for (const [where, before] of Object.entries(JSON.parse(readFileSync(compareLinks, 'utf8')))) {
+    const now = links[where];
+    if (!now || now.text !== before.text) continue; // edited or removed texts are reviewed with --homographs
+    linksCompared++;
+    if (now.links.join(' ') === before.links.join(' ')) continue;
+    const pairs = now.links.length === before.links.length
+      ? now.links.map((l, i) => (l !== before.links[i] ? `${before.links[i]} → ${l.split('=')[1]}` : null)).filter(Boolean)
+      : [`${before.links.join(' ')} → ${now.links.join(' ')}`];
+    warn('Words that now link to another entry than before (check they are right)', where, `${where}: ${pairs.join('; ')}`);
+  }
+}
+
 // ---------- report ----------
 const count = (kind) => problems[kind].length;
 console.log(`Tokenizer: ${texts.length} texts compared with tools/validate.py, ${count('tokenizer')} mismatch(es)`);
@@ -291,6 +321,8 @@ console.log(`Quizzes:   ${questionCount} possible questions in ${selected.length
 console.log(`Audio:     ${spoken.size} texts read aloud, ${count('audio')} problem(s)` +
   (unused ? `; ${unused} unused file(s) in audio/ (make_audio.py --prune deletes them)` : ''));
 console.log(`Display:   ${count('display')} problem(s)`);
+if (saveLinks) console.log(`Links:     saved ${Object.keys(links).length} texts to ${saveLinks}`);
+if (compareLinks) console.log(`Links:     ${linksCompared} unchanged texts compared with ${compareLinks}, ${warnings.get('Words that now link to another entry than before (check they are right)')?.size || 0} link differently`);
 for (const [kind, list] of Object.entries(problems)) {
   if (!list.length) continue;
   console.log(`\n${kind} problems:`);

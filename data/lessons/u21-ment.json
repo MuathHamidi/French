@@ -1,0 +1,192 @@
+{
+  "id": "u21-ment",
+  "type": "grammar",
+  "unit": 21,
+  "title": "Lentement, vraiment, évidemment",
+  "en": "Adverbs in -ment",
+  "intro": "Most French adverbs of manner end in **-ment**, like English *-ly*: *lent → lentement* (slowly). You usually build them from the **feminine** adjective: *heureux → heureuse → heureusement*. A few patterns change the ending: *évident → évidemment*, *constant → constamment*.",
+  "cases": [
+    { "id": "ment-fem", "label": "feminine + -ment: lentement", "rule": "Take the **feminine** adjective and add **-ment**: *lent → lente → lent**ement**, doux → douce → douc**ement**, heureux → heureuse → heureus**ement**, sérieux → sérieus**ement**, complet → complète → complèt**ement***." },
+    { "id": "ment-vowel", "label": "after a vowel: vraiment, poliment", "rule": "When the adjective ends in a vowel (**-e, -i, -é, -u**), add **-ment** to it: *vrai → vrai**ment**, poli → poli**ment**, absolu → absolu**ment**, facile → facile**ment**, rapide → rapide**ment***." },
+    { "id": "ment-amment", "label": "-ant → -amment", "rule": "**-ant** becomes **-amment**: *constant → const**amment**, courant → cour**amment**, bruyant → bruy**amment***. You say /a.mɑ̃/." },
+    { "id": "ment-emment", "label": "-ent → -emment, said /a.mɑ̃/", "rule": "**-ent** becomes **-emment**, but you **say** /a.mɑ̃/: *évident → évid**emment** /e.vi.da.mɑ̃/, prudent → prud**emment**, récent → réc**emment**, patient → pati**emment***. Exception: *lent → lentement*." },
+    { "id": "ment-irr", "label": "special ones: gentiment, énormément", "rule": "Some take **é** before **-ment**: *précis → précis**ément**, énorme → énorm**ément**, profond → profond**ément***. A few are irregular: *gentil → genti**ment**, bref → briève**ment***." },
+    { "id": "ment-bien", "label": "bien, mal, mieux, vite", "rule": "Some adverbs don't end in **-ment** at all: *bon → **bien**, mauvais → **mal**, meilleur → **mieux**, rapide → **vite** (or rapidement)*: *Il chante **bien**. Elle conduit **mal**.*" },
+    { "id": "ment-place", "label": "where the adverb goes", "rule": "After the verb: *Il parle **lentement**.* In the passé composé, short adverbs (**bien, mal, vite, déjà, beaucoup**) go between **avoir/être** and the participle: *J'ai **bien** dormi.* Long **-ment** adverbs usually go after it: *Il a répondu **poliment**.* Adverbs like **heureusement, malheureusement, évidemment** often start the sentence." }
+  ],
+  "sections": [
+    {
+      "title": "1. Feminine + -ment",
+      "table": {
+        "head": ["Adjective", "Feminine", "Adverb"], "frCols": [0, 1, 2],
+        "rows": [
+          ["lent", "lente", "lentement"],
+          ["doux", "douce", "doucement"],
+          ["heureux", "heureuse", "heureusement"],
+          ["sérieux", "sérieuse", "sérieusement"],
+          ["complet", "complète", "complètement"],
+          ["léger", "légère", "légèrement"]
+        ]
+      },
+      "examples": [
+        { "fr": "Parle {lentement|ment-fem}, s'il te plaît.", "en": "Speak slowly, please." },
+        { "fr": "{Heureusement|ment-fem}, Hugo a un briquet !", "en": "Luckily, Hugo has a lighter!" }
+      ],
+      "tip": "The adverb doesn't change: *il parle lentement, elles parlent lentement*."
+    },
+    {
+      "title": "2. After a vowel: vrai → vraiment",
+      "table": {
+        "head": ["Adjective", "Adverb"], "frCols": [0, 1],
+        "rows": [
+          ["vrai", "vraiment"],
+          ["poli", "poliment"],
+          ["absolu", "absolument"],
+          ["facile", "facilement"],
+          ["rapide", "rapidement"],
+          ["simple", "simplement"]
+        ]
+      },
+      "examples": [
+        { "fr": "C'est {vraiment|ment-vowel} délicieux !", "en": "It's really delicious!" },
+        { "fr": "Il répond {poliment|ment-vowel}.", "en": "He answers politely." }
+      ]
+    },
+    {
+      "title": "3. -ant → -amment",
+      "table": {
+        "head": ["Adjective", "Adverb"], "frCols": [0, 1],
+        "rows": [
+          ["constant", "constamment"],
+          ["courant", "couramment"],
+          ["bruyant", "bruyamment"],
+          ["méchant", "méchamment"]
+        ]
+      },
+      "examples": [
+        { "fr": "Inès parle {couramment|ment-amment} trois langues.", "en": "Inès speaks three languages fluently." },
+        { "fr": "Les enfants jouent {bruyamment|ment-amment} dans la cour.", "en": "The children are playing noisily in the playground." }
+      ]
+    },
+    {
+      "title": "4. -ent → -emment",
+      "text": ["Spelled **-emment**, said /a.mɑ̃/: it sounds exactly like **-amment**."],
+      "table": {
+        "head": ["Adjective", "Adverb", "Sounds like"], "frCols": [0, 1],
+        "rows": [
+          ["évident", "évidemment", "/e.vi.da.mɑ̃/"],
+          ["prudent", "prudemment", "/pʁy.da.mɑ̃/"],
+          ["récent", "récemment", "/ʁe.sa.mɑ̃/"],
+          ["patient", "patiemment", "/pa.sja.mɑ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Évidemment|ment-emment}, Hugo est en retard !", "en": "Of course, Hugo is late!" },
+        { "fr": "Conduis {prudemment|ment-emment}, il neige.", "en": "Drive carefully, it's snowing." }
+      ],
+      "tip": "**lent** is the exception: *lentement*, not *lemment*."
+    },
+    {
+      "title": "5. Special ones",
+      "table": {
+        "head": ["Adjective", "Adverb"], "frCols": [0, 1],
+        "rows": [
+          ["précis", "précisément"],
+          ["énorme", "énormément"],
+          ["profond", "profondément"],
+          ["gentil", "gentiment"],
+          ["bref", "brièvement"]
+        ]
+      },
+      "examples": [
+        { "fr": "Lou dort {profondément|ment-irr}.", "en": "Lou is fast asleep." },
+        { "fr": "Hugo mange {énormément|ment-irr} de chocolat.", "en": "Hugo eats an enormous amount of chocolate." }
+      ]
+    },
+    {
+      "title": "6. bien, mal, mieux, vite",
+      "table": {
+        "head": ["Adjective", "Adverb"], "frCols": [0, 1],
+        "rows": [
+          ["bon", "bien"],
+          ["mauvais", "mal"],
+          ["meilleur", "mieux"],
+          ["rapide", "vite"]
+        ]
+      },
+      "examples": [
+        { "fr": "Sophie dessine très {bien|ment-bien}.", "en": "Sophie draws very well." },
+        { "fr": "Hugo cuisine {mal|ment-bien}… mais il fait des progrès !", "en": "Hugo cooks badly… but he's making progress!" }
+      ],
+      "tip": "*Il est bon* = he's good (adjective); *il chante bien* = he sings well (adverb). Words like *bonement* or *mauvaisement* don't exist."
+    },
+    {
+      "title": "7. Where the adverb goes",
+      "text": ["In a simple tense, the adverb comes after the verb. In the passé composé, short adverbs go between the auxiliary and the participle; long ones usually go at the end. Comments like **heureusement** often start the sentence."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il parle lentement.", "He speaks slowly."],
+          ["J'ai bien dormi.", "I slept well."],
+          ["Il a vite [compris|comprendre].", "He understood quickly."],
+          ["Elle a répondu poliment.", "She answered politely."],
+          ["Heureusement, il fait beau.", "Luckily, the weather's nice."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai bien dormi|ment-place}, merci.", "en": "I slept well, thanks." },
+        { "fr": "{Malheureusement|ment-place}, il pleut.", "en": "Unfortunately, it's raining." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "lentment", "right": "lentement", "why": "Use the **feminine**: *lente* + **-ment** → *lentement*." },
+    { "wrong": "heureuxment", "right": "heureusement", "why": "Feminine first: *heureuse* + **-ment**." },
+    { "wrong": "évidamment", "right": "évidemment", "why": "**évident** → **-emment**, with an **e**, even though you say /a.mɑ̃/." },
+    { "wrong": "Il chante bon.", "right": "Il chante bien.", "why": "**bon** is an adjective; the adverb is **bien**." },
+    { "wrong": "J'ai dormi bien.", "right": "J'ai bien dormi.", "why": "Short adverbs like **bien** go between **avoir** and the participle." }
+  ],
+  "story": {
+    "title": "La galette des rois",
+    "en": "A Sunday in January: the friends share a galette des rois… but where is the charm?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le onze janvier, chez Léa et Sophie. Sur la table, il y a une belle galette des rois.", "en": "11 January, at Léa and Sophie's. On the table there's a lovely galette des rois." },
+      { "sp": "Léa", "fr": "En janvier, on mange la galette des rois. Dans la galette, il y a une fève : la personne qui la trouve est le roi… ou la reine !", "en": "In January, people eat the galette des rois. Inside, there's a little charm: whoever finds it is the king… or the queen!" },
+      { "sp": "Sophie", "fr": "D'habitude, c'est un enfant qui va sous la table et qui dit qui prend chaque part. Lou est à Paris… alors c'est Hugo !", "en": "Usually, a child goes under the table and says who gets each slice. Lou's in Paris… so it's Hugo!" },
+      { "sp": "", "fr": "Hugo va {rapidement|ment-vowel} sous la table, et Léa coupe la galette {soigneusement|ment-fem}.", "en": "Hugo quickly gets under the table, and Léa carefully cuts the galette." },
+      { "sp": "Léa", "fr": "Cette part, c'est pour qui ?", "en": "Who's this slice for?" },
+      { "sp": "Hugo", "fr": "Pour Tom ! Puis pour Inès, pour Sophie… et la dernière, {évidemment|ment-emment}, pour moi !", "en": "For Tom! Then for Inès, for Sophie… and the last one, obviously, for me!" },
+      { "sp": "", "fr": "Tout le monde mange {lentement|ment-fem} et {prudemment|ment-emment} : on ne veut pas se casser une dent sur la fève !", "en": "Everyone eats slowly and carefully: nobody wants to break a tooth on the charm!" },
+      { "sp": "Tom", "fr": "Ce n'est pas moi… {Malheureusement|ment-place} !", "en": "It's not me… Unfortunately!" },
+      { "sp": "Inès", "fr": "Pas moi non plus.", "en": "Not me either." },
+      { "sp": "Sophie", "fr": "Moi non plus ! Où est la fève ? C'est {vraiment|ment-vowel} bizarre…", "en": "Me neither! Where's the charm? That's really strange…" },
+      { "sp": "", "fr": "Tout le monde regarde Hugo. {Il a vite mangé|ment-place} sa part, et il ne dit rien.", "en": "Everyone looks at Hugo. He ate his slice quickly, and he isn't saying anything." },
+      { "sp": "Léa", "fr": "Hugo… tu as mangé la fève ?", "en": "Hugo… did you eat the charm?" },
+      { "sp": "Hugo", "fr": "Euh… J'ai mangé un peu trop vite. Je n'ai {absolument|ment-vowel} rien remarqué !", "en": "Er… I ate a bit too fast. I didn't notice anything at all!" },
+      { "sp": "Sophie", "fr": "{Sérieusement|ment-fem}, Hugo ? Tu as avalé la fève ?", "en": "Seriously, Hugo? You swallowed the charm?" },
+      { "sp": "", "fr": "Tout à coup, Minou passe {doucement|ment-fem} sous la table… avec quelque chose dans la bouche. La fève !", "en": "Suddenly, Minou walks softly under the table… with something in his mouth. The charm!" },
+      { "sp": "Léa", "fr": "{Heureusement|ment-fem}, Hugo n'a rien avalé ! La fève est tombée par terre, et Minou l'a trouvée.", "en": "Luckily, Hugo didn't swallow anything! The charm fell on the floor, and Minou found it." },
+      { "sp": "", "fr": "Tout le monde rit {bruyamment|ment-amment}.", "en": "Everyone laughs loudly." },
+      { "sp": "Inès", "fr": "Alors, le roi, c'est Minou !", "en": "So the king is Minou!" },
+      { "sp": "", "fr": "Sophie met {gentiment|ment-irr} la couronne sur la tête de Minou. Il s'en va {tranquillement|ment-fem}, très fier.", "en": "Sophie gently puts the crown on Minou's head. He walks off calmly, very proud." },
+      { "sp": "Tom", "fr": "Il porte {bien|ment-bien} la couronne. {Mieux|ment-bien} que Hugo !", "en": "He wears the crown well. Better than Hugo!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ment-fem", "type": "mc", "q": "Parle ___, s'il te plaît : je ne comprends pas.", "en": "Speak slowly, please: I don't understand.", "options": ["lentement", "lent", "lentment"], "answer": "lentement" },
+    { "case": "ment-fem", "type": "type", "q": "___, Hugo a un briquet !", "en": "Luckily, Hugo has a lighter!", "answer": "Heureusement" },
+    { "case": "ment-vowel", "type": "mc", "q": "C'est ___ délicieux !", "en": "It's really delicious!", "options": ["vraiment", "vraiement", "vrai"], "answer": "vraiment" },
+    { "case": "ment-vowel", "type": "type", "q": "Il répond ___ : « Merci, madame. »", "en": "He answers politely: 'Thank you, madam.'", "answer": "poliment" },
+    { "case": "ment-amment", "type": "mc", "q": "Inès parle ___ espagnol.", "en": "Inès speaks Spanish fluently.", "options": ["couramment", "couremment", "courantement"], "answer": "couramment" },
+    { "case": "ment-amment", "type": "mc", "lang": "en", "q": "constant → ?", "options": ["constamment", "constantement", "constemment"], "answer": "constamment", "say": "constamment" },
+    { "case": "ment-emment", "type": "mc", "q": "___, Hugo est en retard !", "en": "Of course, Hugo is late!", "options": ["Évidemment", "Évidamment", "Évidentement"], "answer": "Évidemment" },
+    { "case": "ment-emment", "type": "mc", "lang": "en", "q": "How do you say the end of « prudemment »?", "options": ["/a.mɑ̃/, like -amment", "/ə.mɑ̃/, like -ement"], "answer": "/a.mɑ̃/, like -amment", "say": "prudemment" },
+    { "case": "ment-irr", "type": "mc", "q": "Sophie aide Hugo ___.", "en": "Sophie kindly helps Hugo.", "options": ["gentiment", "gentilment", "gentillement"], "answer": "gentiment" },
+    { "case": "ment-irr", "type": "mc", "q": "Lou dort ___.", "en": "Lou is fast asleep.", "options": ["profondément", "profondement", "profond"], "answer": "profondément" },
+    { "case": "ment-bien", "type": "mc", "q": "Sophie dessine très ___.", "en": "Sophie draws very well.", "options": ["bien", "bon", "bonne"], "answer": "bien" },
+    { "case": "ment-bien", "type": "type", "q": "Hugo chante très ___ : c'est terrible !", "en": "Hugo sings very badly: it's terrible!", "answer": "mal" },
+    { "case": "ment-place", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["J'ai bien dormi.", "J'ai dormi bien."], "answer": "J'ai bien dormi.", "say": "J'ai bien dormi." },
+    { "case": "ment-place", "type": "mc", "lang": "en", "q": "Where does « heureusement » usually go?", "options": ["at the start of the sentence", "between avoir and the participle"], "answer": "at the start of the sentence", "say": "Heureusement, il fait beau." }
+  ]
+}

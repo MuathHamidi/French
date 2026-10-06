@@ -1,0 +1,164 @@
+{
+  "id": "u21-chores",
+  "type": "vocab",
+  "unit": 21,
+  "title": "Les tâches ménagères",
+  "en": "Housework",
+  "intro": "25 words for housework: tidying, sweeping, hoovering, washing and ironing. Many chores go with **faire** or **passer**: *faire le ménage, faire la lessive, faire la poussière, passer l'aspirateur, passer la serpillière*.",
+  "words": [
+    { "id": "menage", "fr": "ménage", "pos": "noun", "g": "m", "ipa": "me.naʒ", "en": "housework, cleaning", "def": "Le travail pour garder la maison propre : ranger, nettoyer, laver.", "def_en": "The work of keeping the home clean: tidying, cleaning, washing.", "forms": ["ménages"], "examples": [
+      { "fr": "Le samedi, je fais le **ménage**.", "en": "On Saturdays, I do the housework." },
+      { "fr": "Hugo déteste faire le **ménage**.", "en": "Hugo hates doing housework." },
+      { "fr": "Après la fête, il y a beaucoup de **ménage** !", "en": "After the party, there's a lot of cleaning to do!" }
+    ], "note": "**faire le ménage** = to do the housework, to clean." },
+    { "id": "tache", "fr": "tâche", "pos": "noun", "g": "f", "ipa": "taʃ", "en": "task, job (les tâches ménagères = household chores)", "def": "Un travail qu'on doit faire. Les tâches ménagères, ce sont le ménage, la vaisselle, la lessive…", "def_en": "A piece of work you have to do. Household chores are cleaning, washing up, laundry…", "forms": ["tâches"], "examples": [
+      { "fr": "Chacun a sa **tâche** : moi, je fais la vaisselle.", "en": "Everyone has their job: I do the washing-up." },
+      { "fr": "On partage les **tâches** ménagères.", "en": "We share the household chores." },
+      { "fr": "C'est une **tâche** difficile.", "en": "It's a difficult task." }
+    ], "note": "Careful: **une tâche** (a task) has a ^; **une tache** (a stain) doesn't." },
+    { "id": "corvee", "fr": "corvée", "pos": "noun", "g": "f", "ipa": "kɔʁ.ve", "en": "chore, drudgery", "def": "Une tâche qu'on n'aime pas du tout, mais qu'on doit faire.", "def_en": "A task you don't like at all, but have to do.", "forms": ["corvées"], "examples": [
+      { "fr": "Repasser, quelle **corvée** !", "en": "Ironing, what a chore!" },
+      { "fr": "Pour Hugo, les courses sont une **corvée**.", "en": "For Hugo, the shopping is a chore." },
+      { "fr": "Ce n'est pas une **corvée**, c'est un plaisir !", "en": "It's not a chore, it's a pleasure!" }
+    ] },
+    { "id": "ranger", "fr": "ranger", "pos": "verb", "ipa": "ʁɑ̃.ʒe", "en": "to tidy (up), to put away", "def": "Mettre chaque chose à sa place.", "def_en": "To put each thing in its place.", "forms": ["range", "ranges", "rangeons", "rangez", "rangent", "rangé", "rangée", "rangés", "rangées", "rangeais", "rangeait", "rangions", "rangiez", "rangeaient", "rangerai", "rangeras", "rangera", "rangerons", "rangerez", "rangeront", "rangerais", "rangerait", "rangerions", "rangeriez", "rangeraient"], "examples": [
+      { "fr": "**Range** ta chambre, s'il te plaît !", "en": "Tidy your room, please!" },
+      { "fr": "Je **range** les assiettes dans le placard.", "en": "I put the plates away in the cupboard." },
+      { "fr": "Hugo n'a jamais **rangé** sa chambre.", "en": "Hugo has never tidied his room." }
+    ], "note": "**ranger** keeps an **e** before **a** and **o**: *nous rangeons, je rangeais*." },
+    { "id": "nettoyer", "fr": "nettoyer", "pos": "verb", "ipa": "nɛ.twa.je", "en": "to clean", "def": "Rendre propre.", "def_en": "To make clean.", "forms": ["nettoie", "nettoies", "nettoyons", "nettoyez", "nettoient", "nettoyé", "nettoyée", "nettoyés", "nettoyées", "nettoyais", "nettoyait", "nettoyions", "nettoyiez", "nettoyaient", "nettoierai", "nettoieras", "nettoiera", "nettoierons", "nettoierez", "nettoieront", "nettoierais", "nettoierait", "nettoierions", "nettoieriez", "nettoieraient"], "examples": [
+      { "fr": "Je **nettoie** la cuisine après le dîner.", "en": "I clean the kitchen after dinner." },
+      { "fr": "Il faut **nettoyer** la salle de bain.", "en": "The bathroom needs cleaning." },
+      { "fr": "Sophie a **nettoyé** les fenêtres.", "en": "Sophie cleaned the windows." }
+    ], "note": "**-oyer** verbs change **y** to **i** before a silent e: *je nettoie, je nettoierai*." },
+    { "id": "balayer", "fr": "balayer", "pos": "verb", "ipa": "ba.le.je", "en": "to sweep", "def": "Nettoyer le sol avec un balai.", "def_en": "To clean the floor with a broom.", "forms": ["balaie", "balaies", "balayons", "balayez", "balaient", "balaye", "balayes", "balayent", "balayé", "balayée", "balayais", "balayait", "balayions", "balayiez", "balayaient", "balaierai", "balaieras", "balaiera", "balaierons", "balaierez", "balaieront", "balaierais", "balaierait", "balaierions", "balaieriez", "balaieraient"], "examples": [
+      { "fr": "Je **balaie** la cuisine tous les soirs.", "en": "I sweep the kitchen every evening." },
+      { "fr": "Lou veut **balayer** toute seule.", "en": "Lou wants to sweep all by herself." },
+      { "fr": "Qui a **balayé** le salon ?", "en": "Who swept the living room?" }
+    ], "note": "Two spellings: *je balaie* or *je balaye*." },
+    { "id": "essuyer", "fr": "essuyer", "pos": "verb", "ipa": "e.sɥi.je", "en": "to wipe; to dry (the dishes)", "def": "Rendre sec avec une serviette ou un chiffon.", "def_en": "To make something dry with a towel or a cloth.", "forms": ["essuie", "essuies", "essuyons", "essuyez", "essuient", "essuyé", "essuyée", "essuyés", "essuyées", "essuyais", "essuyait", "essuyions", "essuyiez", "essuyaient", "essuierai", "essuieras", "essuiera", "essuierons", "essuierez", "essuieront", "essuierais", "essuierait", "essuierions", "essuieriez", "essuieraient"], "examples": [
+      { "fr": "Tu laves, et moi, j'**essuie**.", "en": "You wash, and I'll dry." },
+      { "fr": "**Essuie** la table avec un chiffon.", "en": "Wipe the table with a cloth." },
+      { "fr": "Elle **essuie** ses larmes.", "en": "She wipes away her tears." }
+    ], "note": "**-uyer** verbs change **y** to **i** before a silent e: *j'essuie, j'essuierai*." },
+    { "id": "jeter", "fr": "jeter", "pos": "verb", "ipa": "ʒə.te", "en": "to throw (away)", "def": "Mettre à la poubelle une chose qu'on ne veut plus. Aussi : lancer.", "def_en": "To put something you don't want any more in the bin. Also: to throw.", "forms": ["jette", "jettes", "jetons", "jetez", "jettent", "jeté", "jetée", "jetés", "jetées", "jetais", "jetait", "jetions", "jetiez", "jetaient", "jetterai", "jetteras", "jettera", "jetterons", "jetterez", "jetteront", "jetterais", "jetterait", "jetterions", "jetteriez", "jetteraient"], "examples": [
+      { "fr": "Ne **jette** pas ce papier par terre !", "en": "Don't throw that paper on the floor!" },
+      { "fr": "J'ai **jeté** les vieilles chaussures.", "en": "I threw away the old shoes." },
+      { "fr": "Il **jette** la balle au chien.", "en": "He throws the ball to the dog." }
+    ], "note": "**jeter** doubles the **t** before a silent e: *je jette, je jetterai*." },
+    { "id": "aspirateur", "fr": "aspirateur", "pos": "noun", "g": "m", "ipa": "as.pi.ʁa.tœʁ", "en": "vacuum cleaner, hoover", "def": "La machine qui enlève la poussière du sol.", "def_en": "The machine that removes dust from the floor.", "forms": ["aspirateurs"], "examples": [
+      { "fr": "Je passe l'**aspirateur** dans le salon.", "en": "I'm hoovering the living room." },
+      { "fr": "L'**aspirateur** fait beaucoup de bruit.", "en": "The vacuum cleaner makes a lot of noise." },
+      { "fr": "Où est l'**aspirateur** ? Dans le placard ?", "en": "Where's the hoover? In the cupboard?" }
+    ], "note": "**passer l'aspirateur** = to vacuum, to hoover." },
+    { "id": "balai", "fr": "balai", "pos": "noun", "g": "m", "ipa": "ba.lɛ", "en": "broom", "def": "L'objet qu'on utilise pour balayer le sol.", "def_en": "The thing you use to sweep the floor.", "forms": ["balais"], "examples": [
+      { "fr": "Passe-moi le **balai**, s'il te plaît.", "en": "Pass me the broom, please." },
+      { "fr": "Le **balai** est derrière la porte.", "en": "The broom's behind the door." },
+      { "fr": "Lou joue avec le **balai**.", "en": "Lou is playing with the broom." }
+    ] },
+    { "id": "eponge", "fr": "éponge", "pos": "noun", "g": "f", "ipa": "e.pɔ̃ʒ", "en": "sponge", "def": "Un objet mou qui boit l'eau. On l'utilise pour faire la vaisselle.", "def_en": "A soft thing that soaks up water. You use it for the washing-up.", "forms": ["éponges"], "examples": [
+      { "fr": "Je lave la poêle avec une **éponge**.", "en": "I wash the frying pan with a sponge." },
+      { "fr": "L'**éponge** est toute mouillée.", "en": "The sponge is soaking wet." },
+      { "fr": "Prends l'**éponge** pour nettoyer la table.", "en": "Take the sponge to clean the table." }
+    ] },
+    { "id": "seau", "fr": "seau", "pos": "noun", "g": "m", "ipa": "so", "en": "bucket", "def": "Un grand pot qu'on remplit d'eau pour faire le ménage.", "def_en": "A big container you fill with water to do the cleaning.", "forms": ["seaux"], "examples": [
+      { "fr": "Il remplit le **seau** d'eau chaude.", "en": "He fills the bucket with hot water." },
+      { "fr": "Attention, le **seau** est plein !", "en": "Careful, the bucket's full!" },
+      { "fr": "Lou fait un château de sable avec son petit **seau**.", "en": "Lou makes a sandcastle with her little bucket." }
+    ], "note": "Plural: **des seaux**." },
+    { "id": "serpilliere", "fr": "serpillière", "pos": "noun", "g": "f", "ipa": "sɛʁ.pi.jɛʁ", "en": "floorcloth, mop", "def": "Un grand tissu qu'on met dans l'eau pour laver le sol.", "def_en": "A big cloth you dip in water to wash the floor.", "forms": ["serpillières", "serpillère", "serpillères"], "accept": ["serpillère"], "examples": [
+      { "fr": "Je passe la **serpillière** dans la cuisine.", "en": "I'm mopping the kitchen floor." },
+      { "fr": "La **serpillière** est dans le seau.", "en": "The floorcloth is in the bucket." },
+      { "fr": "Il y a de l'eau partout : vite, la **serpillière** !", "en": "There's water everywhere: quick, the floorcloth!" }
+    ], "note": "**passer la serpillière** = to mop the floor. Also spelled *serpillère*." },
+    { "id": "chiffon", "fr": "chiffon", "pos": "noun", "g": "m", "ipa": "ʃi.fɔ̃", "en": "cloth, duster", "def": "Un petit morceau de tissu pour essuyer ou pour faire la poussière.", "def_en": "A small piece of cloth for wiping or dusting.", "forms": ["chiffons"], "examples": [
+      { "fr": "Je fais la poussière avec un **chiffon**.", "en": "I dust with a cloth." },
+      { "fr": "Ce vieux t-shirt ? C'est un **chiffon** maintenant !", "en": "That old T-shirt? It's a duster now!" },
+      { "fr": "Prends un **chiffon** sec.", "en": "Take a dry cloth." }
+    ] },
+    { "id": "poubelle", "fr": "poubelle", "pos": "noun", "g": "f", "ipa": "pu.bɛl", "en": "bin, rubbish bin, trash can", "def": "La boîte où on jette ce qu'on ne garde pas.", "def_en": "The container where you throw what you don't keep.", "forms": ["poubelles"], "examples": [
+      { "fr": "Mets ce papier à la **poubelle**.", "en": "Put this paper in the bin." },
+      { "fr": "C'est ton tour de sortir les **poubelles** !", "en": "It's your turn to take the bins out!" },
+      { "fr": "La **poubelle** de la cuisine est pleine.", "en": "The kitchen bin is full." }
+    ], "note": "**sortir les poubelles** = to take the bins out." },
+    { "id": "poussiere", "fr": "poussière", "pos": "noun", "g": "f", "ipa": "pu.sjɛʁ", "en": "dust", "def": "Les petits grains gris qui tombent sur les meubles.", "def_en": "The little grey specks that settle on the furniture.", "forms": ["poussières"], "examples": [
+      { "fr": "Il y a de la **poussière** sur la télé.", "en": "There's dust on the TV." },
+      { "fr": "Je fais la **poussière** le samedi.", "en": "I do the dusting on Saturdays." },
+      { "fr": "Atchoum ! La **poussière** me fait éternuer.", "en": "Atishoo! Dust makes me sneeze." }
+    ], "note": "**faire la poussière** = to dust." },
+    { "id": "desordre", "fr": "désordre", "pos": "noun", "g": "m", "ipa": "de.zɔʁdʁ", "en": "mess, untidiness (en désordre = messy)", "def": "Quand les choses ne sont pas à leur place.", "def_en": "When things aren't in their place.", "forms": ["désordres"], "examples": [
+      { "fr": "Quel **désordre** dans ta chambre !", "en": "What a mess your room is!" },
+      { "fr": "La maison est en **désordre** après la fête.", "en": "The house is a mess after the party." },
+      { "fr": "Je n'aime pas le **désordre**.", "en": "I don't like mess." }
+    ], "note": "The opposite: **l'ordre** (order)." },
+    { "id": "lessive", "fr": "lessive", "pos": "noun", "g": "f", "ipa": "le.siv", "en": "washing, laundry; washing powder", "def": "Laver le linge, c'est faire la lessive. C'est aussi le produit qu'on met dans la machine à laver.", "def_en": "Washing clothes is doing the laundry. It's also the product you put in the washing machine.", "forms": ["lessives"], "examples": [
+      { "fr": "Je fais la **lessive** le dimanche.", "en": "I do the washing on Sundays." },
+      { "fr": "Il n'y a plus de **lessive** !", "en": "We're out of washing powder!" },
+      { "fr": "Cette **lessive** sent bon.", "en": "This washing powder smells nice." }
+    ], "note": "**faire la lessive** = to do the washing." },
+    { "id": "linge", "fr": "linge", "pos": "noun", "g": "m", "ipa": "lɛ̃ʒ", "en": "washing, laundry; linen", "def": "Les vêtements, les draps et les serviettes qu'on lave.", "def_en": "The clothes, sheets and towels that you wash.", "examples": [
+      { "fr": "Le **linge** sale va dans le panier.", "en": "Dirty laundry goes in the basket." },
+      { "fr": "J'étends le **linge** sur le balcon.", "en": "I'm hanging the washing out on the balcony." },
+      { "fr": "Le **linge** est sec : on peut le ranger.", "en": "The washing's dry: we can put it away." }
+    ], "note": "Usually singular: **le linge** = all the washing." },
+    { "id": "machine-a-laver", "fr": "machine à laver", "pos": "noun", "g": "f", "ipa": "ma.ʃin a la.ve", "en": "washing machine", "def": "La machine qui lave le linge.", "def_en": "The machine that washes clothes.", "forms": ["machines à laver"], "examples": [
+      { "fr": "La **machine à laver** est en panne !", "en": "The washing machine has broken down!" },
+      { "fr": "Je mets le linge dans la **machine à laver**.", "en": "I put the washing in the washing machine." },
+      { "fr": "La **machine à laver** fait du bruit.", "en": "The washing machine is noisy." }
+    ], "note": "Also: **le lave-linge**." },
+    { "id": "etendre", "fr": "étendre", "pos": "verb", "ipa": "e.tɑ̃dʁ", "en": "to hang out (washing); to spread out", "def": "Mettre le linge mouillé sur un fil pour qu'il sèche.", "def_en": "To put wet washing on a line so it dries.", "forms": ["étends", "étend", "étendons", "étendez", "étendent", "étendu", "étendue", "étendus", "étendues", "étendais", "étendait", "étendions", "étendiez", "étendaient", "étendrai", "étendras", "étendra", "étendrons", "étendrez", "étendront", "étendrais", "étendrait", "étendrions", "étendriez", "étendraient"], "examples": [
+      { "fr": "J'**étends** le linge dans le jardin.", "en": "I'm hanging the washing out in the garden." },
+      { "fr": "Tu peux **étendre** les serviettes ?", "en": "Can you hang the towels out?" },
+      { "fr": "Il **étend** une couverture sur l'herbe.", "en": "He spreads a blanket on the grass." }
+    ], "note": "**étendre le linge** = to hang out the washing." },
+    { "id": "repasser", "fr": "repasser", "pos": "verb", "ipa": "ʁə.pa.se", "en": "to iron; to come back, to pass by again", "def": "Rendre un vêtement bien [plat|plat-adj] avec un fer chaud.", "def_en": "To make clothes smooth with a hot iron.", "forms": ["repasse", "repasses", "repassons", "repassez", "repassent", "repassé", "repassée", "repassés", "repassées", "repassais", "repassait", "repassions", "repassiez", "repassaient", "repasserai", "repasseras", "repassera", "repasserons", "repasserez", "repasseront", "repasserais", "repasserait", "repasserions", "repasseriez", "repasseraient"], "examples": [
+      { "fr": "Je **repasse** ma chemise pour l'entretien.", "en": "I'm ironing my shirt for the interview." },
+      { "fr": "Sophie déteste **repasser**.", "en": "Sophie hates ironing." },
+      { "fr": "Je **repasserai** demain.", "en": "I'll come back tomorrow." }
+    ], "note": "**le fer à repasser** = the iron. **repasser** also means *to come back, to pass by again*: *je repasse demain*." },
+    { "id": "lave-vaisselle", "fr": "lave-vaisselle", "pos": "noun", "g": "m", "ipa": "lav.vɛ.sɛl", "en": "dishwasher", "def": "La machine qui lave la vaisselle.", "def_en": "The machine that washes the dishes.", "forms": ["lave-vaisselles"], "examples": [
+      { "fr": "Mets les assiettes dans le **lave-vaisselle**.", "en": "Put the plates in the dishwasher." },
+      { "fr": "On n'a pas de **lave-vaisselle** : on lave tout à la main.", "en": "We haven't got a dishwasher: we wash everything by hand." },
+      { "fr": "Tu peux vider le **lave-vaisselle** ?", "en": "Can you empty the dishwasher?" }
+    ], "note": "Usually invariable: *des lave-vaisselle*." },
+    { "id": "debarrasser", "fr": "débarrasser", "pos": "verb", "ipa": "de.ba.ʁa.se", "en": "to clear (the table); to clear out", "def": "Enlever les assiettes et les verres de la table après le repas.", "def_en": "To take the plates and glasses off the table after the meal.", "forms": ["débarrasse", "débarrasses", "débarrassons", "débarrassez", "débarrassent", "débarrassé", "débarrassée", "débarrassés", "débarrassées", "débarrassais", "débarrassait", "débarrassions", "débarrassiez", "débarrassaient", "débarrasserai", "débarrasseras", "débarrassera", "débarrasserons", "débarrasserez", "débarrasseront", "débarrasserais", "débarrasserait", "débarrasserions", "débarrasseriez", "débarrasseraient"], "examples": [
+      { "fr": "Qui **débarrasse** la table ce soir ?", "en": "Who's clearing the table tonight?" },
+      { "fr": "Les enfants **débarrassent** après le dîner.", "en": "The children clear the table after dinner." },
+      { "fr": "On a **débarrassé** le grenier.", "en": "We cleared out the attic." }
+    ], "note": "**débarrasser la table** = to clear the table. **se débarrasser de** = to get rid of." },
+    { "id": "vider", "fr": "vider", "pos": "verb", "ipa": "vi.de", "en": "to empty", "def": "Enlever tout ce qu'il y a dans une chose.", "def_en": "To take out everything that's inside something.", "forms": ["vide", "vides", "vidons", "videz", "vident", "vidé", "vidée", "vidés", "vidées", "vidais", "vidait", "vidions", "vidiez", "vidaient", "viderai", "videras", "videra", "viderons", "viderez", "videront", "viderais", "viderait", "viderions", "videriez", "videraient"], "examples": [
+      { "fr": "Tu peux **vider** la poubelle ?", "en": "Can you empty the bin?" },
+      { "fr": "Il **vide** son sac sur la table.", "en": "He empties his bag onto the table." },
+      { "fr": "Elle a **vidé** son verre d'un coup.", "en": "She emptied her glass in one go." }
+    ], "note": "The opposite of **remplir** (to fill). The adjective is **vide** (empty)." }
+  ],
+  "story": {
+    "title": "Le grand ménage",
+    "en": "2 January: after the party, the flat needs a big clean.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le deux janvier, chez Léa et Sophie. Après la fête, l'appartement est en désordre : il y a des verres partout, et de la poussière sur les meubles.", "en": "2 January, at Léa and Sophie's. After the party, the flat is a mess: there are glasses everywhere, and dust on the furniture." },
+      { "sp": "Léa", "fr": "Bon, aujourd'hui, c'est le grand ménage ! J'ai écrit une liste des tâches pour chacun.", "en": "Right, today it's the big clean! I've written a list of chores for everyone." },
+      { "sp": "Hugo", "fr": "Des tâches ? Pour moi aussi ? Mais je suis un invité !", "en": "Chores? For me too? But I'm a guest!" },
+      { "sp": "Sophie", "fr": "Tu as dormi ici deux nuits, Hugo. Tu n'es plus un invité !", "en": "You've slept here two nights, Hugo. You're not a guest any more!" },
+      { "sp": "Léa", "fr": "Sophie passe l'aspirateur dans le salon. Moi, je fais la lessive : tout le linge sale dans la machine à laver !", "en": "Sophie hoovers the living room. I'm doing the washing: all the dirty laundry into the washing machine!" },
+      { "sp": "Léa", "fr": "Hugo, toi, tu débarrasses la table, tu fais la vaisselle et tu vides les poubelles.", "en": "Hugo, you clear the table, do the washing-up and empty the bins." },
+      { "sp": "Hugo", "fr": "La vaisselle ? À la main ? Vous n'avez pas de lave-vaisselle ? Quelle corvée !", "en": "The washing-up? By hand? You haven't got a dishwasher? What a chore!" },
+      { "sp": "Sophie", "fr": "Et les poubelles, Hugo. Mais attention : ne tombe pas dedans, cette fois !", "en": "And the bins, Hugo. But careful: don't fall in this time!" },
+      { "sp": "", "fr": "Tout le monde rit. Même Lou rit, mais elle ne sait pas pourquoi.", "en": "Everyone laughs. Even Lou laughs, but she doesn't know why." },
+      { "sp": "Lou", "fr": "Moi aussi, je veux aider ! Je peux balayer ?", "en": "I want to help too! Can I sweep?" },
+      { "sp": "Sophie", "fr": "Bien sûr ! Voilà le balai.", "en": "Of course! Here's the broom." },
+      { "sp": "", "fr": "Lou balaie… et elle pousse toute la poussière sous le canapé. Bravo, Lou !", "en": "Lou sweeps… and she pushes all the dust under the sofa. Well done, Lou!" },
+      { "sp": "", "fr": "Dans la cuisine, Hugo lave une poêle avec une éponge. Lou essuie les verres, très lentement.", "en": "In the kitchen, Hugo washes a frying pan with a sponge. Lou dries the glasses, very slowly." },
+      { "sp": "Léa", "fr": "Hugo ! Il y a de l'eau partout sur le sol ! Vite, le seau et la serpillière !", "en": "Hugo! There's water all over the floor! Quick, the bucket and the mop!" },
+      { "sp": "", "fr": "Ensuite, Hugo jette les bouteilles de la fête dans la poubelle. Il fait très attention… et il ne tombe pas dedans !", "en": "Then Hugo throws the bottles from the party into the bin. He's very careful… and he doesn't fall in!" },
+      { "sp": "", "fr": "Léa étend le linge sur le balcon. Il fait froid, mais il y a du soleil.", "en": "Léa hangs the washing out on the balcony. It's cold, but it's sunny." },
+      { "sp": "Sophie", "fr": "Et qui repasse les chemises ? Moi, je déteste repasser…", "en": "And who's ironing the shirts? I hate ironing…" },
+      { "sp": "Léa", "fr": "Pas moi ! On les met sur des cintres, et voilà : pas besoin de repasser !", "en": "Not me! We put them on hangers, and there you go: no need to iron!" },
+      { "sp": "", "fr": "À cinq heures, l'appartement est propre. Sophie nettoie la dernière fenêtre avec un chiffon.", "en": "At five o'clock, the flat is clean. Sophie cleans the last window with a cloth." },
+      { "sp": "Léa", "fr": "Hugo, tu as dit : « Un jour, je rangerai ma chambre. » Tu peux commencer : range ton sac !", "en": "Hugo, you said: 'One day, I'll tidy my room.' You can start now: put your bag away!" },
+      { "sp": "", "fr": "Mais Hugo ne répond pas. Il dort sur le canapé, à côté du balai.", "en": "But Hugo doesn't answer. He's asleep on the sofa, next to the broom." },
+      { "sp": "Lou", "fr": "Chut ! Hugo est fatigué : il a beaucoup travaillé !", "en": "Shh! Hugo's tired: he's worked really hard!" }
+    ]
+  }
+}

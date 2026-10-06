@@ -1,0 +1,162 @@
+{
+  "id": "u21-manner",
+  "type": "vocab",
+  "unit": 21,
+  "title": "Comment ?",
+  "en": "How: words of manner",
+  "intro": "25 words that answer the question **Comment ?** (how?): *vite, lentement, ensemble, tout seul, par cœur, à la main, exprès…* Many adverbs end in **-ment**, like English *-ly*; the grammar lesson on **-ment** shows how to make them.",
+  "words": [
+    { "id": "facon", "fr": "façon", "pos": "noun", "g": "f", "ipa": "fa.sɔ̃", "en": "way, manner", "def": "Comment on fait une chose : il y a plusieurs façons de cuisiner le poulet.", "def_en": "How you do something: there are several ways to cook chicken.", "forms": ["façons"], "examples": [
+      { "fr": "Je n'aime pas sa **façon** de parler.", "en": "I don't like the way he talks." },
+      { "fr": "Il y a deux **façons** de faire.", "en": "There are two ways of doing it." },
+      { "fr": "Fais-le à ta **façon** !", "en": "Do it your way!" }
+    ], "note": "**à ma façon** = my way. **de toute façon** = anyway." },
+    { "id": "ainsi", "fr": "ainsi", "pos": "adv", "ipa": "ɛ̃.si", "en": "like this, in this way; so", "def": "De cette façon, comme ça.", "def_en": "In this way, like this.", "examples": [
+      { "fr": "C'est **ainsi** qu'on fait les crêpes.", "en": "That's how you make crêpes." },
+      { "fr": "**Ainsi**, tout le monde est content.", "en": "That way, everyone's happy." },
+      { "fr": "Il parle **ainsi** à tout le monde.", "en": "He talks like that to everyone." }
+    ], "note": "A little formal; in conversation, people say **comme ça**." },
+    { "id": "comme-ca", "fr": "comme ça", "pos": "expr", "ipa": "kɔm sa", "en": "like this, like that; that way", "def": "De cette façon : on fait comme ça.", "def_en": "In this way: you do it like this.", "examples": [
+      { "fr": "Regarde, on plie le papier **comme ça**.", "en": "Look, you fold the paper like this." },
+      { "fr": "Ne me parle pas **comme ça** !", "en": "Don't talk to me like that!" },
+      { "fr": "**Comme ça**, tu n'oublies pas.", "en": "That way, you won't forget." }
+    ], "note": "Very common in speech. **C'est comme ça** = that's the way it is." },
+    { "id": "autrement", "fr": "autrement", "pos": "adv", "ipa": "o.tʁə.mɑ̃", "en": "differently, another way; otherwise", "def": "D'une autre façon.", "def_en": "In another way.", "examples": [
+      { "fr": "Essaie **autrement** : comme ça, c'est trop difficile.", "en": "Try another way: like that, it's too hard." },
+      { "fr": "Je vois les choses **autrement** maintenant.", "en": "I see things differently now." },
+      { "fr": "Dépêche-toi, **autrement** on va rater le train !", "en": "Hurry up, otherwise we'll miss the train!" }
+    ], "note": "Also means **otherwise** (= *sinon*)." },
+    { "id": "vite", "fr": "vite", "pos": "adv", "ipa": "vit", "en": "fast, quickly", "def": "En peu de temps, à grande vitesse.", "def_en": "In a short time, at high speed.", "examples": [
+      { "fr": "Ne parle pas si **vite** !", "en": "Don't talk so fast!" },
+      { "fr": "Viens **vite**, le film commence !", "en": "Come quickly, the film's starting!" },
+      { "fr": "Le temps passe **vite**.", "en": "Time flies." }
+    ], "note": "**vite** is an adverb (*il court vite*); **rapide** is an adjective (*une voiture rapide*)." },
+    { "id": "lentement", "fr": "lentement", "pos": "adv", "ipa": "lɑ̃t.mɑ̃", "en": "slowly", "def": "Pas vite : avec beaucoup de temps.", "def_en": "Not fast: taking a lot of time.", "examples": [
+      { "fr": "Parlez **lentement**, s'il vous plaît.", "en": "Please speak slowly." },
+      { "fr": "Le vieux bus avance **lentement**.", "en": "The old bus moves along slowly." },
+      { "fr": "Mange **lentement** !", "en": "Eat slowly!" }
+    ], "note": "From **lent** (slow) → **lente** → **lentement**." },
+    { "id": "doucement", "fr": "doucement", "pos": "adv", "ipa": "dus.mɑ̃", "en": "gently, softly; slowly", "def": "Sans force, sans bruit, sans aller vite.", "def_en": "Without force, without noise, without hurrying.", "examples": [
+      { "fr": "Ferme la porte **doucement** : le bébé dort.", "en": "Close the door gently: the baby's asleep." },
+      { "fr": "**Doucement** ! Tu vas tomber !", "en": "Steady! You'll fall!" },
+      { "fr": "Il parle **doucement** à son chien.", "en": "He talks softly to his dog." }
+    ] },
+    { "id": "tranquillement", "fr": "tranquillement", "pos": "adv", "ipa": "tʁɑ̃.kil.mɑ̃", "en": "calmly, quietly, peacefully", "def": "Sans se dépêcher, sans bruit : de façon calme.", "def_en": "Without hurrying or noise: in a calm way.", "examples": [
+      { "fr": "Le dimanche, je lis **tranquillement** au lit.", "en": "On Sundays, I read quietly in bed." },
+      { "fr": "Les enfants jouent **tranquillement** dans le jardin.", "en": "The children are playing quietly in the garden." },
+      { "fr": "On a le temps : marche **tranquillement**.", "en": "We've got time: walk calmly." }
+    ], "note": "From **tranquille** (calm, quiet): *laisse-moi tranquille* = leave me alone." },
+    { "id": "a-toute-vitesse", "fr": "à toute vitesse", "pos": "expr", "ipa": "a tut vi.tɛs", "en": "at top speed, really fast", "def": "Très, très vite.", "def_en": "Very, very fast.", "examples": [
+      { "fr": "Hugo court **à toute vitesse** pour prendre le bus.", "en": "Hugo runs at top speed to catch the bus." },
+      { "fr": "Les voitures passent **à toute vitesse**.", "en": "The cars go by at top speed." },
+      { "fr": "Elle a mangé son gâteau **à toute vitesse**.", "en": "She ate her cake really fast." }
+    ] },
+    { "id": "peu-a-peu", "fr": "peu à peu", "pos": "expr", "ipa": "pø a pø", "en": "little by little, gradually", "def": "Pas tout en même temps, mais un petit peu chaque fois.", "def_en": "Not all at once, but a little bit each time.", "examples": [
+      { "fr": "**Peu à peu**, Tom comprend le français.", "en": "Little by little, Tom is understanding French." },
+      { "fr": "**Peu à peu**, la pièce devient chaude.", "en": "Gradually, the room gets warm." },
+      { "fr": "On apprend une langue **peu à peu**.", "en": "You learn a language little by little." }
+    ] },
+    { "id": "ensemble", "fr": "ensemble", "pos": "adv", "ipa": "ɑ̃.sɑ̃bl", "en": "together", "def": "Avec une autre personne ou avec d'autres personnes, au même moment.", "def_en": "With another person or other people, at the same time.", "examples": [
+      { "fr": "On fait le ménage **ensemble** ?", "en": "Shall we do the housework together?" },
+      { "fr": "Léa et Sophie habitent **ensemble**.", "en": "Léa and Sophie live together." },
+      { "fr": "Chantons tous **ensemble** !", "en": "Let's all sing together!" }
+    ], "note": "Also a noun: **un ensemble** = a set; an outfit." },
+    { "id": "seul", "fr": "seul", "pos": "adj", "ipa": "sœl", "en": "alone; only, single", "def": "Sans personne avec soi. Aussi : un seul, c'est un, pas deux.", "def_en": "With nobody else. Also: un seul is one, not two.", "forms": ["seule", "seuls", "seules"], "examples": [
+      { "fr": "Lou veut tout faire toute **seule**.", "en": "Lou wants to do everything all by herself." },
+      { "fr": "J'habite **seul** depuis un an.", "en": "I've been living alone for a year." },
+      { "fr": "Il y a un **seul** problème.", "en": "There's only one problem." }
+    ], "note": "**tout seul / toute seule** = all by yourself." },
+    { "id": "expres", "fr": "exprès", "pos": "adv", "ipa": "ɛk.spʁɛ", "en": "on purpose, deliberately", "def": "Parce qu'on veut le faire, pas par accident.", "def_en": "Because you mean to, not by accident.", "examples": [
+      { "fr": "Pardon, je ne l'ai pas fait **exprès** !", "en": "Sorry, I didn't do it on purpose!" },
+      { "fr": "Il est en retard **exprès**.", "en": "He's late on purpose." },
+      { "fr": "Tu as cassé le verre **exprès** ?", "en": "Did you break the glass on purpose?" }
+    ], "note": "The final **s** is silent: /ɛk.spʁɛ/." },
+    { "id": "par-hasard", "fr": "par hasard", "pos": "expr", "ipa": "paʁ a.zaʁ", "en": "by chance", "def": "Sans le vouloir, sans savoir avant.", "def_en": "Without meaning to, without knowing beforehand.", "examples": [
+      { "fr": "J'ai rencontré Inès **par hasard** au marché.", "en": "I bumped into Inès by chance at the market." },
+      { "fr": "Tu n'as pas vu mes clés, **par hasard** ?", "en": "You haven't seen my keys, by any chance?" },
+      { "fr": "On a trouvé ce café **par hasard**.", "en": "We found this café by chance." }
+    ], "note": "**le hasard** = chance. The **h** is aspirated: no liaison, /paʁ a.zaʁ/." },
+    { "id": "par-coeur", "fr": "par cœur", "pos": "expr", "ipa": "paʁ kœʁ", "en": "by heart", "def": "Dans sa mémoire, sans lire : savoir une chanson par cœur.", "def_en": "From memory, without reading: to know a song by heart.", "examples": [
+      { "fr": "Lou connaît cette chanson **par cœur**.", "en": "Lou knows this song by heart." },
+      { "fr": "J'apprends le texte **par cœur**.", "en": "I'm learning the text by heart." },
+      { "fr": "Mamie n'a pas besoin de recette : elle la connaît **par cœur** !", "en": "Grandma doesn't need a recipe: she knows it by heart!" }
+    ] },
+    { "id": "a-la-main", "fr": "à la main", "pos": "expr", "ipa": "a la mɛ̃", "en": "by hand; in your hand", "def": "Avec les mains, sans machine.", "def_en": "With your hands, without a machine.", "examples": [
+      { "fr": "On fait la vaisselle **à la main**.", "en": "We do the washing-up by hand." },
+      { "fr": "J'écris mes lettres **à la main**.", "en": "I write my letters by hand." },
+      { "fr": "Il arrive, un cadeau **à la main**.", "en": "He arrives with a present in his hand." }
+    ] },
+    { "id": "a-voix-basse", "fr": "à voix basse", "pos": "expr", "ipa": "a vwa bas", "en": "in a low voice, quietly", "def": "Doucement, pour ne pas faire de bruit.", "def_en": "Softly, so as not to make any noise.", "examples": [
+      { "fr": "Parle **à voix basse**, Lou dort.", "en": "Speak quietly, Lou's asleep." },
+      { "fr": "Ils discutent **à voix basse** au fond de la classe.", "en": "They're talking quietly at the back of the class." },
+      { "fr": "« Tu as un secret ? » demande Léa **à voix basse**.", "en": "'Have you got a secret?' Léa asks in a low voice." }
+    ] },
+    { "id": "a-haute-voix", "fr": "à haute voix", "pos": "expr", "ipa": "a ot vwa", "en": "aloud, out loud", "def": "Avec la voix, et assez fort : tout le monde peut entendre.", "def_en": "With your voice, and loud enough for everyone to hear.", "examples": [
+      { "fr": "Le professeur lit l'histoire **à haute voix**.", "en": "The teacher reads the story aloud." },
+      { "fr": "Répète la phrase **à haute voix**.", "en": "Say the sentence again out loud." },
+      { "fr": "Elle pense **à haute voix**.", "en": "She's thinking aloud." }
+    ], "note": "The **h** of **haute** is aspirated: no liaison, /a ot vwa/." },
+    { "id": "en-silence", "fr": "en silence", "pos": "expr", "ipa": "ɑ̃ si.lɑ̃s", "en": "in silence, silently", "def": "Sans parler, sans faire de bruit.", "def_en": "Without talking, without making any noise.", "examples": [
+      { "fr": "Ils mangent **en silence**.", "en": "They eat in silence." },
+      { "fr": "Sophie travaille **en silence** à son bureau.", "en": "Sophie works silently at her desk." },
+      { "fr": "Le chat entre **en silence**.", "en": "The cat comes in silently." }
+    ] },
+    { "id": "volontiers", "fr": "volontiers", "pos": "adv", "ipa": "vɔ.lɔ̃.tje", "en": "gladly, with pleasure", "def": "Avec plaisir : « Un café ? Volontiers ! »", "def_en": "With pleasure: 'A coffee? I'd love one!'", "examples": [
+      { "fr": "Tu veux du thé ? **Volontiers** !", "en": "Would you like some tea? Yes, please!" },
+      { "fr": "Je t'aide **volontiers**.", "en": "I'll gladly help you." },
+      { "fr": "Il prête **volontiers** ses livres.", "en": "He's happy to lend his books." }
+    ], "note": "A polite, warm way to say *yes*: *Volontiers !*" },
+    { "id": "n-importe-comment", "fr": "n'importe comment", "pos": "expr", "ipa": "nɛ̃.pɔʁt kɔ.mɑ̃", "en": "any old how, carelessly", "def": "Mal, sans faire attention, sans règle.", "def_en": "Badly, carelessly, without any method.", "examples": [
+      { "fr": "Hugo range ses vêtements **n'importe comment**.", "en": "Hugo puts his clothes away any old how." },
+      { "fr": "Ne conduis pas **n'importe comment** !", "en": "Don't drive carelessly!" },
+      { "fr": "Il a fait ses devoirs **n'importe comment**.", "en": "He did his homework carelessly." }
+    ], "note": "**n'importe** + question word = any…: **n'importe qui** (anyone), **n'importe quoi** (anything; nonsense!), **n'importe où** (anywhere)." },
+    { "id": "mieux", "fr": "mieux", "pos": "adv", "ipa": "mjø", "en": "better (le mieux = the best)", "def": "Plus que « bien » : Léa chante bien, mais Sophie chante mieux.", "def_en": "More than « bien »: Léa sings well, but Sophie sings better.", "examples": [
+      { "fr": "Tu vas **mieux** aujourd'hui ?", "en": "Are you feeling better today?" },
+      { "fr": "Inès danse **mieux** que moi.", "en": "Inès dances better than me." },
+      { "fr": "C'est **mieux** comme ça !", "en": "It's better like this!" }
+    ], "note": "**bien → mieux** (adverb), **bon → meilleur** (adjective): *il chante mieux*, *une meilleure chanson*." },
+    { "id": "mal", "fr": "mal", "pos": "adv", "ipa": "mal", "en": "badly; (avoir mal à) to hurt", "def": "Le contraire de « bien » : pas comme il faut.", "def_en": "The opposite of « bien »: not the way it should be.", "examples": [
+      { "fr": "Hugo chante très **mal**.", "en": "Hugo sings very badly." },
+      { "fr": "Il dort **mal** quand il fait chaud.", "en": "He sleeps badly when it's hot." },
+      { "fr": "Ce n'est pas **mal** !", "en": "It's not bad!" }
+    ], "note": "**pas mal** = not bad; **avoir mal à** = to hurt: *j'ai mal à la tête*." },
+    { "id": "soigneusement", "fr": "soigneusement", "pos": "adv", "ipa": "swa.ɲøz.mɑ̃", "en": "carefully, neatly", "def": "Avec beaucoup d'attention, pour bien faire.", "def_en": "With great attention, to do it well.", "examples": [
+      { "fr": "Elle plie **soigneusement** ses vêtements.", "en": "She folds her clothes carefully." },
+      { "fr": "Lis **soigneusement** les questions.", "en": "Read the questions carefully." },
+      { "fr": "Mamie écrit **soigneusement** sa recette.", "en": "Grandma carefully writes out her recipe." }
+    ], "note": "From **soigneux** (careful) → **soigneuse** → **soigneusement**." },
+    { "id": "facilement", "fr": "facilement", "pos": "adv", "ipa": "fa.sil.mɑ̃", "en": "easily", "def": "Sans problème, sans effort.", "def_en": "Without any problem or effort.", "examples": [
+      { "fr": "Tom comprend **facilement** le français maintenant.", "en": "Tom understands French easily now." },
+      { "fr": "On trouve **facilement** un taxi à la gare.", "en": "You can easily find a taxi at the station." },
+      { "fr": "Ce gâteau se fait **facilement**.", "en": "This cake is easy to make." }
+    ], "note": "From **facile** (easy) → **facilement**." }
+  ],
+  "story": {
+    "title": "La recette de Mamie",
+    "en": "5 January: Grandma teaches Hugo her crêpes… by video call.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le cinq janvier, Hugo a une nouvelle résolution : apprendre à cuisiner. Il appelle Mamie en vidéo avec son portable.", "en": "5 January: Hugo has a new resolution: learning to cook. He calls Grandma by video on his phone." },
+      { "sp": "Louise", "fr": "Bonjour, mon chéri ! Tu me vois ? Je ne sais pas bien utiliser ce portable…", "en": "Hello, darling! Can you see me? I don't really know how to use this phone…" },
+      { "sp": "Hugo", "fr": "Je te vois très bien, Mamie ! Tu peux m'apprendre ta recette des crêpes ?", "en": "I can see you perfectly, Grandma! Can you teach me your crêpe recipe?" },
+      { "sp": "Louise", "fr": "Volontiers ! Je la connais par cœur. On les fait ensemble ?", "en": "Gladly! I know it by heart. Shall we make them together?" },
+      { "sp": "Louise", "fr": "Chacun fait les crêpes à sa façon, mais ma recette est la meilleure. Écris-la, et lis-la à haute voix !", "en": "Everyone makes crêpes their own way, but my recipe is the best. Write it down, and read it out loud!" },
+      { "sp": "", "fr": "Hugo écrit soigneusement la recette, puis il la lit à haute voix.", "en": "Hugo carefully writes down the recipe, then reads it out loud." },
+      { "sp": "Louise", "fr": "D'abord, la farine et les œufs. Tu mélanges doucement, comme ça…", "en": "First, the flour and the eggs. You mix gently, like this…" },
+      { "sp": "", "fr": "Mais Hugo mélange à toute vitesse, n'importe comment. Il y a de la farine partout !", "en": "But Hugo mixes at top speed, any old how. There's flour everywhere!" },
+      { "sp": "Louise", "fr": "Pas si vite ! Lentement… Et tu ajoutes le lait peu à peu.", "en": "Not so fast! Slowly… And you add the milk little by little." },
+      { "sp": "Hugo", "fr": "Pourquoi ? C'est plus rapide autrement !", "en": "Why? It's quicker another way!" },
+      { "sp": "Louise", "fr": "Parce que c'est ainsi qu'on fait de bonnes crêpes. Fais-moi confiance.", "en": "Because that's how you make good crêpes. Trust me." },
+      { "sp": "", "fr": "Hugo essaie encore. Cette fois, il mélange tranquillement, à la main, en silence.", "en": "Hugo tries again. This time, he mixes calmly, by hand, in silence." },
+      { "sp": "", "fr": "Léa entre dans la cuisine. Elle demande à voix basse : « Alors, ce cours de cuisine ? »", "en": "Léa comes into the kitchen. She asks in a low voice: 'So, how's the cooking lesson going?'" },
+      { "sp": "", "fr": "Hugo fait cuire la première crêpe… et elle tombe par terre.", "en": "Hugo cooks the first crêpe… and it falls on the floor." },
+      { "sp": "Hugo", "fr": "Oh non ! Je ne l'ai pas fait exprès !", "en": "Oh no! I didn't do it on purpose!" },
+      { "sp": "Louise", "fr": "Ce n'est rien, mon chéri : la première crêpe, on la rate toujours. Essaie encore !", "en": "Never mind, darling: everyone gets the first crêpe wrong. Try again!" },
+      { "sp": "", "fr": "Hugo fait la deuxième crêpe un peu mieux. La troisième est parfaite !", "en": "Hugo makes the second crêpe a bit better. The third one is perfect!" },
+      { "sp": "Léa", "fr": "Pas mal, Hugo ! Et par hasard… il y en a une pour moi ?", "en": "Not bad, Hugo! And by any chance… is there one for me?" },
+      { "sp": "Hugo", "fr": "Désolé, je les mange toutes, tout seul !", "en": "Sorry, I'm eating them all, by myself!" },
+      { "sp": "Louise", "fr": "Hugo ! Les crêpes, ça se partage. Et maintenant, tu peux en faire facilement, pour tout le monde !", "en": "Hugo! Crêpes are for sharing. And now you can make them easily, for everyone!" }
+    ]
+  }
+}

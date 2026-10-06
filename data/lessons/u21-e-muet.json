@@ -1,0 +1,182 @@
+{
+  "id": "u21-e-muet",
+  "type": "sounds",
+  "unit": 21,
+  "title": "Le e muet",
+  "en": "Pronunciation: the silent e",
+  "intro": "French has a little **e** that often disappears: the **e muet**. It's written **e**, with no accent, and when you hear it, it sounds /ə/. Knowing when it drops makes your French sound natural, and helps you understand people who speak fast: *samedi* is /sam.di/, and *je ne sais pas* often sounds like /ʃɛ pa/.",
+  "cases": [
+    { "id": "e-final", "label": "the final e is silent", "rule": "A plain **e** at the end of a word is silent: *une table* /tabl/, *la porte* /pɔʁt/, *il parle* /paʁl/. But it makes you **say the consonant before it**: *petit* /pə.ti/ → *petite* /pə.tit/, *grand* /ɡʁɑ̃/ → *grande* /ɡʁɑ̃d/." },
+    { "id": "e-middle", "label": "dropped inside a word: samedi", "rule": "Inside a word, an **e** between two single consonants usually drops: *samedi* /sam.di/, *maintenant* /mɛ̃t.nɑ̃/, *acheter* /aʃ.te/, *boulangerie* /bu.lɑ̃ʒ.ʁi/, *lentement* /lɑ̃t.mɑ̃/." },
+    { "id": "e-three", "label": "kept to avoid three consonants: vendredi", "rule": "If dropping the **e** would put **three consonants** together, you keep it: *vendredi* /vɑ̃.dʁə.di/, *mercredi* /mɛʁ.kʁə.di/, *appartement* /a.paʁ.tə.mɑ̃/, *je parlerai* /paʁ.lə.ʁe/." },
+    { "id": "e-start", "label": "kept at the start: demain, devant", "rule": "In the first syllable of a word, careful speech keeps the **e**: *demain* /də.mɛ̃/, *devant* /də.vɑ̃/, *fenêtre* /fə.nɛtʁ/. In fast speech, after a vowel, it often drops: *à demain* → /a dmɛ̃/." },
+    { "id": "e-small", "label": "small words: je, ne, de, le…", "rule": "The small words **je, me, te, se, le, de, ne, que, ce** all have this **e**. In everyday speech, many lose it: *je ne sais pas* → /ʒən sɛ pa/ or /ʃɛ pa/; *pas de problème* → /pad pʁɔ.blɛm/. When several come together, drop one **e** in two: *je te le dis* → /ʒət lə di/." },
+    { "id": "e-ent", "label": "-ent: silent in verbs, /ɑ̃/ elsewhere", "rule": "The verb ending **-ent** (ils, elles) is silent: *ils parlent* sounds exactly like *il parle*. In other words, **-ent** is /ɑ̃/: *le vent, souvent, lentement, un parent*." },
+    { "id": "e-accent", "label": "é, è, ê are never silent", "rule": "Only a plain **e** can disappear. With an accent, you always say it: *été* /e.te/, *père* /pɛʁ/, *fête* /fɛt/." }
+  ],
+  "sections": [
+    {
+      "title": "1. The final e",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["une table", "/yn tabl/"],
+          ["la porte", "/la pɔʁt/"],
+          ["il parle", "/il paʁl/"],
+          ["petit", "/pə.ti/"],
+          ["petite", "/pə.tit/"],
+          ["grande", "/ɡʁɑ̃d/"]
+        ]
+      },
+      "examples": [
+        { "fr": "La {porte|e-final} est {grande|e-final}.", "en": "The door is big." },
+        { "fr": "Un {petit|e-final} garçon et une {petite|e-final} fille.", "en": "A little boy and a little girl." }
+      ],
+      "tip": "That's why the feminine often *sounds* different: you hear the consonant before the silent **e**: *petit / petite, grand / grande, vert / verte*."
+    },
+    {
+      "title": "2. Inside a word",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["samedi", "/sam.di/"],
+          ["maintenant", "/mɛ̃t.nɑ̃/"],
+          ["acheter", "/aʃ.te/"],
+          ["boulangerie", "/bu.lɑ̃ʒ.ʁi/"],
+          ["lentement", "/lɑ̃t.mɑ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Samedi|e-middle}, je vais à la {boulangerie|e-middle}.", "en": "On Saturday, I'm going to the bakery." },
+        { "fr": "On part {maintenant|e-middle} ?", "en": "Shall we leave now?" }
+      ]
+    },
+    {
+      "title": "3. Three consonants: keep the e",
+      "text": ["Say *samedi* /sam.di/, but *vendredi* /vɑ̃.dʁə.di/: without its **e**, *vendredi* would put **d-r-d** together."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["vendredi", "/vɑ̃.dʁə.di/"],
+          ["mercredi", "/mɛʁ.kʁə.di/"],
+          ["appartement", "/a.paʁ.tə.mɑ̃/"],
+          ["je parlerai", "/ʒə paʁ.lə.ʁe/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Je travaille {mercredi|e-three} et {vendredi|e-three}.", "en": "I work on Wednesday and Friday." },
+        { "fr": "Notre {appartement|e-three} est petit.", "en": "Our flat is small." }
+      ]
+    },
+    {
+      "title": "4. At the start of a word",
+      "text": ["In careful speech, like the voice in this app, the **e** of a first syllable stays: *demain, devant*. In fast conversation, after a vowel, you'll often hear it drop."],
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["demain", "/də.mɛ̃/"],
+          ["devant", "/də.vɑ̃/"],
+          ["cheval", "/ʃə.val/"],
+          ["fenêtre", "/fə.nɛtʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "À {demain|e-start} !", "en": "See you tomorrow!" },
+        { "fr": "Le bus est {devant|e-start} la gare.", "en": "The bus is in front of the station." }
+      ]
+    },
+    {
+      "title": "5. Small words: je, ne, de, le…",
+      "text": ["In everyday speech, the **e** of *je, me, te, se, le, de, ne, que, ce* often disappears. With two or three small words in a row, drop one **e** in two."],
+      "table": {
+        "head": ["Careful", "Everyday", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["je ne sais pas", "j'sais pas", "/ʒən sɛ pa/, /ʃɛ pa/"],
+          ["pas de problème", "pas d'problème", "/pad pʁɔ.blɛm/"],
+          ["je te le dis", "j'te l'dis", "/ʒət lə di/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne sais pas|e-small}.", "en": "I don't know." },
+        { "fr": "{Pas de problème|e-small} !", "en": "No problem!" }
+      ],
+      "tip": "The voice in this app speaks carefully and keeps these **e**'s. Real conversations are faster: listen for *j'sais pas* in films and songs!"
+    },
+    {
+      "title": "6. -ent: silent in verbs",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["il parle", "/il paʁl/"],
+          ["ils parlent", "/il paʁl/"],
+          ["le vent", "/lə vɑ̃/"],
+          ["souvent", "/su.vɑ̃/"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ils parlent|e-ent} trop vite !", "en": "They talk too fast!" },
+        { "fr": "Il y a {souvent|e-ent} du {vent|e-ent} ici.", "en": "It's often windy here." }
+      ]
+    },
+    {
+      "title": "7. é, è, ê: always heard",
+      "table": {
+        "head": ["Word", "Sounds like"], "frCols": [0],
+        "rows": [
+          ["été", "/e.te/"],
+          ["père", "/pɛʁ/"],
+          ["fête", "/fɛt/"],
+          ["mère", "/mɛʁ/"]
+        ]
+      },
+      "examples": [
+        { "fr": "Mon {père|e-accent} adore l'{été|e-accent}.", "en": "My father loves summer." },
+        { "fr": "C'est la {fête|e-accent} !", "en": "It's party time!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "samedi → /sa.mə.di/", "right": "/sam.di/", "why": "The **e** between **m** and **d** drops: two syllables." },
+    { "wrong": "vendredi → /vɑ̃d.di/", "right": "/vɑ̃.dʁə.di/", "why": "Keep the **e**: without it, three consonants would meet." },
+    { "wrong": "ils parlent → /il paʁ.lɑ̃/", "right": "/il paʁl/", "why": "The verb ending **-ent** is silent." },
+    { "wrong": "une table → /yn ta.blə/", "right": "/yn tabl/", "why": "The final **e** is silent." }
+  ],
+  "story": {
+    "title": "Tom à la boulangerie",
+    "en": "Saturday morning: Tom buys some bread… and discovers that French people swallow their e's.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "{Samedi|e-middle} matin, Tom va à la {boulangerie|e-middle}, en bas de chez lui.", "en": "Saturday morning: Tom goes to the bakery downstairs from his flat." },
+      { "sp": "", "fr": "Il veut {acheter|e-middle} du pain et deux croissants.", "en": "He wants to buy some bread and two croissants." },
+      { "sp": "La boulangère", "fr": "Bonjour, monsieur ! Qu'est-ce que je vous sers ?", "en": "Good morning! What can I get you?" },
+      { "sp": "Tom", "fr": "Une baguette et deux croissants, s'il vous plaît.", "en": "A baguette and two croissants, please." },
+      { "sp": "La boulangère", "fr": "Ah, désolée, il n'y a plus de croissants. Revenez {demain|e-start} !", "en": "Oh, sorry, there are no croissants left. Come back tomorrow!" },
+      { "sp": "Tom", "fr": "{Je ne sais pas|e-small} si je peux venir {demain|e-start}…", "en": "I don't know if I can come tomorrow…" },
+      { "sp": "La boulangère", "fr": "{Pas de problème|e-small} ! Je vous les garde.", "en": "No problem! I'll keep them for you." },
+      { "sp": "", "fr": "La boulangère parle vite. Tom n'entend pas tous les e : « je ne sais pas » devient presque « j'sais pas » !", "en": "The baker talks fast. Tom doesn't hear all the e's: 'je ne sais pas' almost becomes 'j'sais pas'!" },
+      { "sp": "", "fr": "Dans la rue, Tom répète {doucement|e-middle} : « {maintenant|e-middle}, {samedi|e-middle}, {lentement|e-middle} ».", "en": "In the street, Tom softly repeats: 'maintenant, samedi, lentement'." },
+      { "sp": "", "fr": "Mais dans « {mercredi|e-three} » et « {vendredi|e-three} », il garde le e : sans lui, il y aurait trois consonnes ensemble.", "en": "But in 'mercredi' and 'vendredi', he keeps the e: without it, there would be three consonants together." },
+      { "sp": "", "fr": "Devant son {appartement|e-three}, il rencontre ses voisines. {Elles parlent|e-ent} anglais avec lui : elles veulent apprendre !", "en": "Outside his flat, he meets his neighbours. They speak English with him: they want to learn!" },
+      { "sp": "Tom", "fr": "Non, non ! {Je parle|e-final} français {maintenant|e-middle} !", "en": "No, no! I speak French now!" },
+      { "sp": "", "fr": "Il rentre chez lui et il appelle son {père|e-accent}, en Angleterre.", "en": "He goes home and calls his father, in England." },
+      { "sp": "Tom", "fr": "Papa, j'ai {été|e-accent} à la boulangerie… et j'ai parlé comme un vrai Français !", "en": "Dad, I've been to the bakery… and I talked like a real French person!" },
+      { "sp": "", "fr": "Il y a du {vent|e-ent}, la {fenêtre|e-start} est ouverte, et Tom mange sa baguette. Une {petite|e-final} victoire !", "en": "It's windy, the window's open, and Tom eats his baguette. A little victory!" }
+    ]
+  },
+  "quiz": [
+    { "case": "e-final", "type": "mc", "lang": "en", "listen": "petite", "q": "Listen: petit or petite?", "options": ["petite", "petit"], "answer": "petite" },
+    { "case": "e-final", "type": "mc", "lang": "en", "q": "In « une table », the final e is…", "options": ["silent", "said /ə/", "said /e/"], "answer": "silent", "say": "une table" },
+    { "case": "e-middle", "type": "mc", "lang": "en", "q": "How many syllables do you hear in « samedi »?", "options": ["two: /sam.di/", "three: /sa.mə.di/"], "answer": "two: /sam.di/", "say": "samedi" },
+    { "case": "e-middle", "type": "mc", "lang": "en", "q": "Which word loses its middle e?", "options": ["maintenant", "vendredi", "mercredi"], "answer": "maintenant", "say": "maintenant" },
+    { "case": "e-three", "type": "mc", "lang": "en", "q": "Why do you keep the e in « vendredi »?", "options": ["without it, three consonants would meet", "it's at the end of the word", "it has an accent"], "answer": "without it, three consonants would meet", "say": "vendredi" },
+    { "case": "e-three", "type": "mc", "lang": "en", "listen": "appartement", "q": "Listen: do you hear the e in « appartement »?", "options": ["yes: /a.paʁ.tə.mɑ̃/", "no: /a.paʁt.mɑ̃/"], "answer": "yes: /a.paʁ.tə.mɑ̃/" },
+    { "case": "e-start", "type": "mc", "lang": "en", "q": "In careful speech, « demain » is said…", "options": ["/də.mɛ̃/", "/dmɛ̃/"], "answer": "/də.mɛ̃/", "say": "demain" },
+    { "case": "e-start", "type": "mc", "lang": "en", "q": "Which word keeps its first e in careful speech?", "options": ["devant", "samedi", "acheter"], "answer": "devant", "say": "devant" },
+    { "case": "e-small", "type": "mc", "lang": "en", "q": "In everyday speech, « je ne sais pas » often sounds like…", "options": ["/ʒən sɛ pa/", "/ʒe ne sɛ pa/", "/ʒa na sɛ pa/"], "answer": "/ʒən sɛ pa/", "say": "j'sais pas" },
+    { "case": "e-small", "type": "mc", "lang": "en", "q": "When small words come together, like « je te le dis », you usually drop…", "options": ["one e in two", "every e", "no e at all"], "answer": "one e in two", "say": "je te le dis" },
+    { "case": "e-ent", "type": "mc", "lang": "en", "listen": "ils parlent", "q": "Listen: is it « il parle » or « ils parlent »?", "options": ["you can't tell: they sound the same", "il parle", "ils parlent"], "answer": "you can't tell: they sound the same" },
+    { "case": "e-ent", "type": "mc", "lang": "en", "q": "In which word do you hear -ent as /ɑ̃/?", "options": ["souvent", "ils chantent", "elles dansent"], "answer": "souvent", "say": "souvent" },
+    { "case": "e-accent", "type": "mc", "lang": "en", "q": "Which e is never silent?", "options": ["é, è, ê: an e with an accent", "an e at the end of a word", "the e in « samedi »"], "answer": "é, è, ê: an e with an accent", "say": "été, père, fête" },
+    { "case": "e-accent", "type": "mc", "lang": "en", "listen": "été", "q": "Listen: how many syllables?", "options": ["two: /e.te/", "one: /et/"], "answer": "two: /e.te/" }
+  ]
+}

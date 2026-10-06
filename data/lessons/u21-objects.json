@@ -1,0 +1,164 @@
+{
+  "id": "u21-objects",
+  "type": "vocab",
+  "unit": 21,
+  "title": "Les objets de la maison",
+  "en": "Everyday objects",
+  "intro": "25 words for the objects around the house: drawers and boxes, scissors and glue, batteries and bulbs, the heating, the kettle and the toaster… everything you need when the power goes off. Some nouns made of two words don't change in the plural: *un sèche-cheveux, des sèche-cheveux*.",
+  "words": [
+    { "id": "objet", "fr": "objet", "pos": "noun", "g": "m", "ipa": "ɔb.ʒɛ", "en": "object, thing", "def": "Une chose qu'on peut voir et toucher : un livre, une clé, un stylo… sont des objets.", "def_en": "A thing you can see and touch: a book, a key, a pen… are objects.", "forms": ["objets"], "examples": [
+      { "fr": "Il y a beaucoup d'**objets** dans ce tiroir.", "en": "There are lots of things in this drawer." },
+      { "fr": "Quel est cet **objet** bizarre ?", "en": "What's this strange object?" },
+      { "fr": "Mamie garde de vieux **objets** dans le grenier.", "en": "Grandma keeps old things in the attic." }
+    ], "note": "**les objets trouvés** = lost property." },
+    { "id": "tiroir", "fr": "tiroir", "pos": "noun", "g": "m", "ipa": "ti.ʁwaʁ", "en": "drawer", "def": "Une petite boîte dans un meuble, qu'on tire pour l'ouvrir.", "def_en": "A small box in a piece of furniture that you pull to open.", "forms": ["tiroirs"], "examples": [
+      { "fr": "Les fourchettes sont dans le **tiroir**.", "en": "The forks are in the drawer." },
+      { "fr": "Ferme le **tiroir**, s'il te plaît.", "en": "Close the drawer, please." },
+      { "fr": "J'ai cherché dans tous les **tiroirs** !", "en": "I've looked in all the drawers!" }
+    ] },
+    { "id": "boite", "fr": "boîte", "pos": "noun", "g": "f", "ipa": "bwat", "en": "box; tin", "def": "Un objet en carton ou en métal pour mettre ou garder des choses.", "def_en": "A cardboard or metal container for putting or keeping things in.", "forms": ["boîtes"], "examples": [
+      { "fr": "Lou range ses jouets dans une **boîte**.", "en": "Lou puts her toys away in a box." },
+      { "fr": "J'ai acheté une **boîte** de biscuits.", "en": "I bought a tin of biscuits." },
+      { "fr": "Les photos sont dans une vieille **boîte**.", "en": "The photos are in an old box." }
+    ], "note": "**une boîte aux lettres** = a letterbox; **une boîte de nuit** = a nightclub." },
+    { "id": "ciseaux", "fr": "ciseaux", "pos": "noun", "g": "m", "art": "les", "pl": true, "ipa": "si.zo", "en": "scissors", "def": "L'objet qu'on utilise pour couper du papier ou du tissu.", "def_en": "The tool you use to cut paper or fabric.", "examples": [
+      { "fr": "Tu as des **ciseaux** ? Je dois couper ce papier.", "en": "Have you got any scissors? I need to cut this paper." },
+      { "fr": "Les **ciseaux** sont dans le tiroir.", "en": "The scissors are in the drawer." },
+      { "fr": "Attention, Lou ! Les **ciseaux**, ce n'est pas un jouet !", "en": "Careful, Lou! Scissors aren't a toy!" }
+    ], "note": "Always plural: **des ciseaux**, **une paire de ciseaux**." },
+    { "id": "colle", "fr": "colle", "pos": "noun", "g": "f", "ipa": "kɔl", "en": "glue", "def": "Un produit pour faire tenir deux choses ensemble : du papier, du bois…", "def_en": "A product for sticking two things together: paper, wood…", "forms": ["colles"], "examples": [
+      { "fr": "Je répare la tasse avec de la **colle**.", "en": "I'm fixing the cup with glue." },
+      { "fr": "Lou a de la **colle** sur les doigts !", "en": "Lou has glue on her fingers!" },
+      { "fr": "Cette **colle** sèche très vite.", "en": "This glue dries very quickly." }
+    ] },
+    { "id": "scotch", "fr": "scotch", "pos": "noun", "g": "m", "ipa": "skɔtʃ", "en": "sticky tape, Sellotape", "def": "Du plastique avec de la colle, pour fermer un paquet ou réparer une page.", "def_en": "Plastic with glue on it, for closing a parcel or mending a page.", "forms": ["scotchs"], "examples": [
+      { "fr": "Tu as du **scotch** pour fermer ce paquet ?", "en": "Have you got any tape to close this parcel?" },
+      { "fr": "Il répare la carte avec du **scotch**.", "en": "He mends the map with tape." },
+      { "fr": "Il n'y a plus de **scotch** !", "en": "We're out of tape!" }
+    ], "note": "A brand name that became a word. Also: **le ruban adhésif**." },
+    { "id": "pile", "fr": "pile", "pos": "noun", "g": "f", "ipa": "pil", "en": "battery (for a torch, a remote…)", "def": "Un petit objet qui donne de l'électricité à une lampe de poche, une télécommande…", "def_en": "A small object that powers a torch, a remote control…", "forms": ["piles"], "examples": [
+      { "fr": "La télécommande ne fonctionne plus : il faut changer les **piles**.", "en": "The remote doesn't work any more: the batteries need changing." },
+      { "fr": "J'ai acheté des **piles** au supermarché.", "en": "I bought batteries at the supermarket." },
+      { "fr": "Il faut deux **piles** pour ce jouet.", "en": "This toy needs two batteries." }
+    ], "note": "A phone or a car has **une batterie**; a torch or a remote has **des piles**. *À huit heures **pile*** = at eight o'clock sharp." },
+    { "id": "ampoule", "fr": "ampoule", "pos": "noun", "g": "f", "ipa": "ɑ̃.pul", "en": "light bulb; blister", "def": "Le petit objet en verre qui donne la lumière dans une lampe.", "def_en": "The little glass object that gives light in a lamp.", "forms": ["ampoules"], "examples": [
+      { "fr": "L'**ampoule** de la cuisine est cassée.", "en": "The kitchen light bulb has gone." },
+      { "fr": "Tu peux changer l'**ampoule** ?", "en": "Can you change the bulb?" },
+      { "fr": "Après la randonnée, j'ai des **ampoules** aux pieds.", "en": "After the hike, I've got blisters on my feet." }
+    ], "note": "Also **a blister**: *j'ai une ampoule au pied*." },
+    { "id": "prise", "fr": "prise", "pos": "noun", "g": "f", "ipa": "pʁiz", "en": "socket; plug", "def": "L'objet dans le mur qui donne de l'électricité aux appareils.", "def_en": "The thing in the wall that gives power to appliances.", "forms": ["prises"], "examples": [
+      { "fr": "Où est la **prise** ? Je dois charger mon portable.", "en": "Where's the socket? I need to charge my phone." },
+      { "fr": "Il y a une **prise** derrière le canapé.", "en": "There's a socket behind the sofa." },
+      { "fr": "Ne mets pas trop d'appareils sur la même **prise** !", "en": "Don't plug too many appliances into the same socket!" }
+    ], "note": "Also **une prise de courant**." },
+    { "id": "interrupteur", "fr": "interrupteur", "pos": "noun", "g": "m", "ipa": "ɛ̃.te.ʁyp.tœʁ", "en": "light switch", "def": "Le bouton sur le mur pour allumer ou éteindre la lumière.", "def_en": "The button on the wall for switching the light on or off.", "forms": ["interrupteurs"], "examples": [
+      { "fr": "L'**interrupteur** est à côté de la porte.", "en": "The light switch is next to the door." },
+      { "fr": "Je ne trouve pas l'**interrupteur** !", "en": "I can't find the light switch!" },
+      { "fr": "Appuie sur l'**interrupteur**.", "en": "Press the switch." }
+    ] },
+    { "id": "bougie", "fr": "bougie", "pos": "noun", "g": "f", "ipa": "bu.ʒi", "en": "candle", "def": "Un objet qu'on allume pour avoir de la lumière, ou qu'on met sur un gâteau d'anniversaire.", "def_en": "Something you light to have light, or that you put on a birthday cake.", "forms": ["bougies"], "examples": [
+      { "fr": "Il y a trois **bougies** sur le gâteau de Lou.", "en": "There are three candles on Lou's cake." },
+      { "fr": "On dîne à la lumière des **bougies**.", "en": "We're having dinner by candlelight." },
+      { "fr": "Attention, la **bougie** brûle !", "en": "Careful, the candle's burning!" }
+    ] },
+    { "id": "allumette", "fr": "allumette", "pos": "noun", "g": "f", "ipa": "a.ly.mɛt", "en": "match", "def": "Un petit morceau de bois pour allumer une bougie ou le feu.", "def_en": "A little stick of wood for lighting a candle or a fire.", "forms": ["allumettes"], "examples": [
+      { "fr": "Tu as des **allumettes** ? Je veux allumer une bougie.", "en": "Have you got any matches? I want to light a candle." },
+      { "fr": "Les **allumettes**, ce n'est pas pour les enfants !", "en": "Matches aren't for children!" },
+      { "fr": "Il allume le feu avec une **allumette**.", "en": "He lights the fire with a match." }
+    ], "note": "From **allumer** (to light)." },
+    { "id": "briquet", "fr": "briquet", "pos": "noun", "g": "m", "ipa": "bʁi.kɛ", "en": "lighter", "def": "Un petit objet pour faire du feu, par exemple pour allumer une bougie.", "def_en": "A small object for making a flame, for example to light a candle.", "forms": ["briquets"], "examples": [
+      { "fr": "Hugo a toujours un **briquet** dans sa poche.", "en": "Hugo always has a lighter in his pocket." },
+      { "fr": "Mon **briquet** ne fonctionne plus.", "en": "My lighter doesn't work any more." },
+      { "fr": "Tu me prêtes ton **briquet** ?", "en": "Will you lend me your lighter?" }
+    ] },
+    { "id": "lampe-de-poche", "fr": "lampe de poche", "pos": "noun", "g": "f", "ipa": "lɑ̃p də pɔʃ", "en": "torch, flashlight", "def": "Une petite lampe avec des piles, qu'on peut porter dans la main.", "def_en": "A small lamp with batteries that you can carry in your hand.", "forms": ["lampes de poche"], "examples": [
+      { "fr": "Il fait noir : prends la **lampe de poche** !", "en": "It's dark: take the torch!" },
+      { "fr": "Ma **lampe de poche** n'a plus de piles.", "en": "My torch has no batteries left." },
+      { "fr": "On cherche le chat avec une **lampe de poche**.", "en": "We're looking for the cat with a torch." }
+    ], "note": "Literally *a pocket lamp*." },
+    { "id": "electricite", "fr": "électricité", "pos": "noun", "g": "f", "ipa": "e.lɛk.tʁi.si.te", "en": "electricity, power", "def": "L'énergie qui fait fonctionner les lampes, les machines et les ordinateurs.", "def_en": "The energy that makes lamps, machines and computers work.", "examples": [
+      { "fr": "Il n'y a plus d'**électricité** dans tout l'immeuble !", "en": "There's no power in the whole building!" },
+      { "fr": "Ces appareils utilisent beaucoup d'**électricité**.", "en": "These appliances use a lot of electricity." },
+      { "fr": "La facture d'**électricité** est arrivée.", "en": "The electricity bill has arrived." }
+    ], "note": "**une panne d'électricité** (or **de courant**) = a power cut." },
+    { "id": "chauffage", "fr": "chauffage", "pos": "noun", "g": "m", "ipa": "ʃo.faʒ", "en": "heating", "def": "Ce qui rend une maison chaude en hiver.", "def_en": "What keeps a home warm in winter.", "examples": [
+      { "fr": "Il fait froid : tu peux allumer le **chauffage** ?", "en": "It's cold: can you turn the heating on?" },
+      { "fr": "Le **chauffage** ne fonctionne pas.", "en": "The heating isn't working." },
+      { "fr": "Baisse le **chauffage**, il fait trop chaud !", "en": "Turn the heating down, it's too hot!" }
+    ], "note": "From **chauffer** (to heat)." },
+    { "id": "radiateur", "fr": "radiateur", "pos": "noun", "g": "m", "ipa": "ʁa.dja.tœʁ", "en": "radiator, heater", "def": "L'appareil, souvent sous la fenêtre, qui chauffe la pièce.", "def_en": "The appliance, often under the window, that heats the room.", "forms": ["radiateurs"], "examples": [
+      { "fr": "Le chat dort sur le **radiateur**.", "en": "The cat sleeps on the radiator." },
+      { "fr": "Les **radiateurs** sont froids !", "en": "The radiators are cold!" },
+      { "fr": "Mets tes chaussettes sur le **radiateur** pour les sécher.", "en": "Put your socks on the radiator to dry them." }
+    ] },
+    { "id": "robinet", "fr": "robinet", "pos": "noun", "g": "m", "ipa": "ʁɔ.bi.nɛ", "en": "tap, faucet", "def": "L'objet qui donne l'eau, dans la cuisine ou dans la salle de bain.", "def_en": "The thing that gives water, in the kitchen or the bathroom.", "forms": ["robinets"], "examples": [
+      { "fr": "Ferme le **robinet**, s'il te plaît !", "en": "Turn the tap off, please!" },
+      { "fr": "L'eau du **robinet** est bonne à Lyon.", "en": "The tap water is good in Lyon." },
+      { "fr": "Le **robinet** de la salle de bain coule.", "en": "The bathroom tap is dripping." }
+    ], "note": "**ouvrir / fermer le robinet** = to turn the tap on / off. **l'eau du robinet** = tap water." },
+    { "id": "bouilloire", "fr": "bouilloire", "pos": "noun", "g": "f", "ipa": "bu.jwaʁ", "en": "kettle", "def": "L'appareil pour chauffer de l'eau, pour le thé ou le café.", "def_en": "The appliance for heating water, for tea or coffee.", "forms": ["bouilloires"], "examples": [
+      { "fr": "Je mets de l'eau dans la **bouilloire**.", "en": "I put some water in the kettle." },
+      { "fr": "La **bouilloire** est chaude, attention !", "en": "The kettle's hot, careful!" },
+      { "fr": "Tom a une **bouilloire** anglaise pour son thé.", "en": "Tom has an English kettle for his tea." }
+    ] },
+    { "id": "grille-pain", "fr": "grille-pain", "pos": "noun", "g": "m", "ipa": "ɡʁij.pɛ̃", "en": "toaster", "def": "L'appareil qui chauffe les tranches de pain, le matin.", "def_en": "The appliance that toasts slices of bread in the morning.", "forms": ["grille-pains"], "examples": [
+      { "fr": "Je mets deux tranches dans le **grille-pain**.", "en": "I put two slices in the toaster." },
+      { "fr": "Le **grille-pain** a brûlé mon pain !", "en": "The toaster has burnt my bread!" },
+      { "fr": "Au petit-déjeuner, on utilise le **grille-pain**.", "en": "At breakfast, we use the toaster." }
+    ], "note": "Usually invariable: *des grille-pain*." },
+    { "id": "seche-cheveux", "fr": "sèche-cheveux", "pos": "noun", "g": "m", "ipa": "sɛʃ.ʃə.vø", "en": "hair dryer", "def": "L'appareil qui sèche les cheveux avec de l'air chaud.", "def_en": "The appliance that dries your hair with hot air.", "examples": [
+      { "fr": "Sophie utilise son **sèche-cheveux** tous les matins.", "en": "Sophie uses her hair dryer every morning." },
+      { "fr": "Le **sèche-cheveux** fait beaucoup de bruit.", "en": "The hair dryer makes a lot of noise." },
+      { "fr": "Il y a un **sèche-cheveux** dans la salle de bain de l'hôtel.", "en": "There's a hair dryer in the hotel bathroom." }
+    ], "note": "Invariable: *des sèche-cheveux*." },
+    { "id": "savon", "fr": "savon", "pos": "noun", "g": "m", "ipa": "sa.vɔ̃", "en": "soap", "def": "Le produit pour se laver les mains et le corps, avec de l'eau.", "def_en": "The product for washing your hands and body with water.", "forms": ["savons"], "examples": [
+      { "fr": "Lave-toi les mains avec du **savon** !", "en": "Wash your hands with soap!" },
+      { "fr": "Ce **savon** sent bon.", "en": "This soap smells nice." },
+      { "fr": "Il n'y a plus de **savon** dans la salle de bain.", "en": "There's no soap left in the bathroom." }
+    ] },
+    { "id": "drap", "fr": "drap", "pos": "noun", "g": "m", "ipa": "dʁa", "en": "sheet", "def": "Le grand tissu qu'on met sur le lit, sous la couverture.", "def_en": "The big piece of fabric you put on the bed, under the blanket.", "forms": ["draps"], "examples": [
+      { "fr": "Je change les **draps** tous les dimanches.", "en": "I change the sheets every Sunday." },
+      { "fr": "Les **draps** sont propres.", "en": "The sheets are clean." },
+      { "fr": "Lou se cache sous le **drap**.", "en": "Lou hides under the sheet." }
+    ] },
+    { "id": "cintre", "fr": "cintre", "pos": "noun", "g": "m", "ipa": "sɛ̃tʁ", "en": "coat hanger", "def": "L'objet pour mettre une chemise ou une veste dans l'armoire.", "def_en": "The thing for hanging a shirt or a jacket in the wardrobe.", "forms": ["cintres"], "examples": [
+      { "fr": "Mets ta veste sur un **cintre**.", "en": "Put your jacket on a hanger." },
+      { "fr": "Il n'y a plus de **cintres** dans l'armoire.", "en": "There are no hangers left in the wardrobe." },
+      { "fr": "Les chemises sont sur des **cintres**.", "en": "The shirts are on hangers." }
+    ] },
+    { "id": "mouchoir", "fr": "mouchoir", "pos": "noun", "g": "m", "ipa": "mu.ʃwaʁ", "en": "handkerchief, tissue", "def": "Un petit morceau de papier ou de tissu pour le nez, quand on a un rhume.", "def_en": "A small piece of paper or cloth for your nose when you have a cold.", "forms": ["mouchoirs"], "examples": [
+      { "fr": "Tu as un **mouchoir** ? J'ai un rhume.", "en": "Have you got a tissue? I've got a cold." },
+      { "fr": "Il y a des **mouchoirs** dans mon sac.", "en": "There are tissues in my bag." },
+      { "fr": "Elle pleure : donne-lui un **mouchoir**.", "en": "She's crying: give her a tissue." }
+    ], "note": "**un mouchoir en papier** = a paper tissue." }
+  ],
+  "story": {
+    "title": "La panne d'électricité",
+    "en": "3 January: a power cut at Léa and Sophie's.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le trois janvier, le soir. Il fait très froid à Lyon. Hugo et Tom sont venus dîner chez Léa et Sophie.", "en": "3 January, evening. It's very cold in Lyon. Hugo and Tom have come for dinner at Léa and Sophie's." },
+      { "sp": "", "fr": "Dans la cuisine, Léa met de l'eau dans la bouilloire, et Hugo met du pain dans le grille-pain.", "en": "In the kitchen, Léa puts water in the kettle, and Hugo puts some bread in the toaster." },
+      { "sp": "", "fr": "Dans la salle de bain, Sophie utilise son sèche-cheveux. Et tous les radiateurs sont chauds.", "en": "In the bathroom, Sophie is using her hair dryer. And all the radiators are hot." },
+      { "sp": "", "fr": "Et puis, tout à coup… plus rien ! Il n'y a plus d'électricité.", "en": "And then, suddenly… nothing! The power's gone." },
+      { "sp": "Tom", "fr": "Ah ! Je ne vois rien ! Où est l'interrupteur ?", "en": "Ah! I can't see a thing! Where's the light switch?" },
+      { "sp": "", "fr": "Tom cherche l'interrupteur sur le mur… et il touche une veste sur un cintre. Il crie !", "en": "Tom feels the wall for the light switch… and touches a jacket on a hanger. He screams!" },
+      { "sp": "Léa", "fr": "L'interrupteur ne sert à rien, Tom : c'est une panne d'électricité.", "en": "The switch won't help, Tom: it's a power cut." },
+      { "sp": "Hugo", "fr": "Pardon… C'est peut-être moi. La bouilloire, le grille-pain et le sèche-cheveux sur la même prise…", "en": "Sorry… It might be me. The kettle, the toaster and the hair dryer on the same socket…" },
+      { "sp": "Sophie", "fr": "Il nous faut une lampe de poche. Il y en a une dans le tiroir de la cuisine !", "en": "We need a torch. There's one in the kitchen drawer!" },
+      { "sp": "", "fr": "Dans le tiroir, il y a de tout : des ciseaux, de la colle, du scotch, un vieux savon… et la lampe de poche. Mais elle ne fonctionne pas : il n'y a pas de piles dedans !", "en": "There's everything in the drawer: scissors, glue, tape, an old bar of soap… and the torch. But it doesn't work: there are no batteries in it!" },
+      { "sp": "Léa", "fr": "Tous ces objets, et pas une seule pile !", "en": "All these things, and not a single battery!" },
+      { "sp": "Lou", "fr": "Léa, j'ai peur du noir !", "en": "Léa, I'm scared of the dark!" },
+      { "sp": "Tom", "fr": "Moi aussi…", "en": "Me too…" },
+      { "sp": "Léa", "fr": "Pas de panique ! J'ai des bougies dans une boîte. Qui a des allumettes ?", "en": "Don't panic! I've got candles in a box. Who's got matches?" },
+      { "sp": "Hugo", "fr": "Moi, j'ai un briquet !", "en": "I've got a lighter!" },
+      { "sp": "", "fr": "Hugo allume les bougies. Peu à peu, la pièce devient jolie et calme.", "en": "Hugo lights the candles. Little by little, the room becomes pretty and calm." },
+      { "sp": "Sophie", "fr": "C'est joli… mais le chauffage ne fonctionne plus, et il n'y a pas d'eau chaude au robinet !", "en": "It's pretty… but the heating's stopped working, and there's no hot water from the tap!" },
+      { "sp": "", "fr": "Tout le monde met un pull. Léa apporte des draps et des couvertures, et tout le monde s'assoit sur le canapé.", "en": "Everyone puts on a jumper. Léa brings sheets and blankets, and everyone sits down on the sofa." },
+      { "sp": "", "fr": "Lou éternue. Sophie lui donne un mouchoir.", "en": "Lou sneezes. Sophie gives her a tissue." },
+      { "sp": "", "fr": "Une heure plus tard, la lumière revient ! Sauf dans la cuisine : l'ampoule est cassée.", "en": "An hour later, the lights come back on! Except in the kitchen: the bulb has gone." },
+      { "sp": "Léa", "fr": "Hugo, à partir d'aujourd'hui : un seul appareil par prise !", "en": "Hugo, from now on: one appliance per socket!" },
+      { "sp": "Hugo", "fr": "D'accord… Mais d'abord, le grille-pain : j'ai faim !", "en": "OK… But first, the toaster: I'm hungry!" }
+    ]
+  }
+}

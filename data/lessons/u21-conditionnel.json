@@ -1,0 +1,192 @@
+{
+  "id": "u21-conditionnel",
+  "type": "grammar",
+  "unit": 21,
+  "title": "Je voudrais, tu pourrais",
+  "en": "The conditional (conditionnel présent)",
+  "intro": "The **conditionnel** is the *would* tense: *je **voudrais*** (I'd like), *tu **pourrais*** (you could), *ce **serait** génial* (that would be great). It's easy to build: take the **future stem** and add the **imparfait** endings: *parler → je parler**ais***. You use it to be polite, to make wishes, to give advice and to imagine.",
+  "cases": [
+    { "id": "cond-form", "label": "the forms: future stem + imparfait endings", "rule": "Take the stem of the future (for most verbs, the infinitive; **-re** verbs drop the **e**) and add the imparfait endings **-ais, -ais, -ait, -ions, -iez, -aient**: *je parler**ais**, tu finir**ais**, il prendr**ait**, nous parler**ions**, vous parler**iez**, ils parler**aient***." },
+    { "id": "cond-irr", "label": "irregular stems: je serais, j'irais", "rule": "The same irregular stems as the future: *être → je **ser**ais, avoir → j'**aur**ais, aller → j'**ir**ais, faire → je **fer**ais, pouvoir → je **pourr**ais, vouloir → je **voudr**ais, devoir → je **devr**ais, savoir → je **saur**ais, venir → je **viendr**ais, voir → je **verr**ais, falloir → il **faudr**ait*." },
+    { "id": "cond-polite", "label": "being polite: je voudrais, vous pourriez", "rule": "The conditional makes a request softer: *je veux* → ***je voudrais*** (I'd like); *tu peux m'aider ?* → ***tu pourrais** m'aider ?* (could you…?); ***Pourriez-vous** répéter ?*" },
+    { "id": "cond-wish", "label": "wishes: j'aimerais, ce serait…", "rule": "To say what you'd like or dream of: ***J'aimerais** voyager.* ***Ce serait** génial !* ***Je voudrais bien** un chien.*" },
+    { "id": "cond-advice", "label": "advice: tu devrais, à ta place…", "rule": "***Tu devrais** + infinitive* = you should; ***il faudrait*** = we should, it would be necessary; ***à ta place, je** + conditional* = if I were you: *À ta place, je partirais.*" },
+    { "id": "cond-imagine", "label": "imagining: il y aurait, on pourrait", "rule": "To imagine something that isn't real: *Dans ma maison idéale, **il y aurait** une piscine, et **on pourrait** nager tous les jours.* (Sentences with **si**, like *si j'étais riche…*, come in Unit 29.)" },
+    { "id": "cond-vs-fut", "label": "je viendrai or je viendrais?", "rule": "Future **-rai** /ʁe/ = *will*; conditional **-rais** /ʁɛ/ = *would*: *Je **viendrai** demain* (I will come) / *Je **viendrais** bien* (I'd like to come). In writing, look for the **s**; when you speak, open the last vowel." }
+  ],
+  "sections": [
+    {
+      "title": "1. The forms",
+      "text": ["Future stem + imparfait endings. You already know both!"],
+      "table": {
+        "head": ["", "parler", "finir", "prendre"], "frCols": [1, 2, 3],
+        "rows": [
+          ["je", "je parlerais", "je finirais", "je prendrais"],
+          ["tu", "tu parlerais", "tu finirais", "tu prendrais"],
+          ["il / elle", "il parlerait", "il finirait", "il prendrait"],
+          ["nous", "nous parlerions", "nous finirions", "nous prendrions"],
+          ["vous", "vous parleriez", "vous finiriez", "vous prendriez"],
+          ["ils / elles", "ils parleraient", "ils finiraient", "ils prendraient"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'habiterais|cond-form} bien à la campagne.", "en": "I'd happily live in the country." },
+        { "fr": "{Ils finiraient|cond-form} plus tôt avec un lave-vaisselle !", "en": "They'd finish earlier with a dishwasher!" }
+      ],
+      "tip": "Compare the imparfait *je parlais* with the conditional *je parler**ais***: the only difference is the **r** of the future stem."
+    },
+    {
+      "title": "2. Irregular stems",
+      "table": {
+        "head": ["Infinitive", "Conditional"], "frCols": [0, 1],
+        "rows": [
+          ["être", "je serais"],
+          ["avoir", "j'aurais"],
+          ["aller", "j'irais"],
+          ["faire", "je ferais"],
+          ["pouvoir", "je pourrais"],
+          ["vouloir", "je voudrais"],
+          ["devoir", "je devrais"],
+          ["savoir", "je saurais"],
+          ["venir", "je viendrais"],
+          ["voir", "je verrais"],
+          ["falloir", "il faudrait"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Ce serait|cond-irr} trop cher.", "en": "It would be too expensive." },
+        { "fr": "{Tu ferais|cond-irr} ça pour moi ?", "en": "Would you do that for me?" }
+      ],
+      "tip": "The stems are the same as in the future (Unit 20): if you know *je serai*, you know *je serais*."
+    },
+    {
+      "title": "3. Being polite",
+      "table": {
+        "head": ["Direct", "Polite"], "frCols": [0, 1],
+        "rows": [
+          ["Je veux un café.", "Je voudrais un café."],
+          ["Tu peux m'aider ?", "Tu pourrais m'aider ?"],
+          ["Vous pouvez répéter ?", "Pourriez-vous répéter ?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je voudrais|cond-polite} un billet pour Paris, s'il vous plaît.", "en": "I'd like a ticket to Paris, please." },
+        { "fr": "{Pourriez-vous|cond-polite} parler plus lentement ?", "en": "Could you speak more slowly?" }
+      ],
+      "tip": "In a shop or a café, **je voudrais** is the normal way to ask: **je veux** can sound rude."
+    },
+    {
+      "title": "4. Wishes and dreams",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'aimerais voyager.", "I'd like to travel."],
+          ["Ce serait génial !", "That would be great!"],
+          ["Je voudrais bien un chien.", "I'd really like a dog."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'aimerais|cond-wish} habiter près de la mer.", "en": "I'd love to live near the sea." },
+        { "fr": "{Ce serait|cond-wish} bien d'avoir un jardin.", "en": "It would be nice to have a garden." }
+      ]
+    },
+    {
+      "title": "5. Giving advice",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu devrais dormir.", "You should sleep."],
+          ["Vous devriez appeler un médecin.", "You should call a doctor."],
+          ["Il faudrait ranger.", "We should tidy up."],
+          ["À ta place, je partirais.", "If I were you, I'd leave."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu devrais|cond-advice} faire le ménage plus souvent.", "en": "You should do the housework more often." },
+        { "fr": "{À ta place, je prendrais|cond-advice} un parapluie.", "en": "If I were you, I'd take an umbrella." }
+      ],
+      "tip": "**devoir** in the conditional is softer than in the present: *tu dois* (you must) → *tu devrais* (you should)."
+    },
+    {
+      "title": "6. Imagining",
+      "text": ["To imagine something that isn't real, French uses the conditional, often after *dans un monde idéal*, *à ta place*, *avec…* or *sans…*"],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Dans ma maison idéale, il y aurait une piscine.", "In my ideal house, there'd be a swimming pool."],
+          ["Avec plus de temps, on pourrait voyager.", "With more time, we could travel."],
+          ["Sans toi, je serais perdu.", "Without you, I'd be lost."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Avec un lave-vaisselle, on aurait|cond-imagine} plus de temps libre.", "en": "With a dishwasher, we'd have more free time." },
+        { "fr": "{Dans un monde idéal, la maison se nettoierait|cond-imagine} toute seule !", "en": "In an ideal world, the house would clean itself!" }
+      ]
+    },
+    {
+      "title": "7. Future or conditional?",
+      "text": ["With **je** and **tu**, only the **s** shows the difference in writing: in speech, the future ends in a closed /e/, the conditional in an open /ɛ/. With the other persons, the forms look different: *il parlera / il parlerait*."],
+      "table": {
+        "head": ["Future (will)", "Conditional (would)"], "frCols": [0, 1],
+        "rows": [
+          ["je parlerai", "je parlerais"],
+          ["je viendrai", "je viendrais"],
+          ["je serai", "je serais"],
+          ["il aura", "il aurait"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je viendrai|cond-vs-fut} demain, c'est promis.", "en": "I'll come tomorrow, I promise." },
+        { "fr": "{Je viendrais|cond-vs-fut} bien, mais je travaille.", "en": "I'd love to come, but I'm working." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je voudrai un café, s'il vous plaît.", "right": "Je voudrais un café, s'il vous plaît.", "why": "A polite request takes the conditional, **-rais** with an **s**. *Je voudrai* is the future (I will want)." },
+    { "wrong": "je pouvrais", "right": "je pourrais", "why": "**pouvoir** has the stem **pourr-**, with a double **r**, as in the future *je pourrai*." },
+    { "wrong": "tu devrais de partir", "right": "tu devrais partir", "why": "No **de** after **devoir**: *tu devrais* + infinitive." },
+    { "wrong": "ils parlerient", "right": "ils parleraient", "why": "**ils** → **-aient**, as in the imparfait (*ils parlaient*)." },
+    { "wrong": "j'allerais", "right": "j'irais", "why": "**aller** uses the stem **ir-**: *j'irais, tu irais, il irait*." }
+  ],
+  "story": {
+    "title": "La maison idéale",
+    "en": "Sophie's first project at architecture school: an ideal house. Her friends have lots of ideas…",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le huit janvier, au café d'en bas. Sophie a commencé l'école d'architecture. Son premier projet : dessiner une maison idéale.", "en": "8 January, at the café downstairs. Sophie has started at architecture school. Her first project: designing an ideal house." },
+      { "sp": "Sophie", "fr": "{Vous pourriez|cond-polite} m'aider ? {J'aimerais|cond-wish} avoir vos idées.", "en": "Could you help me? I'd like to have your ideas." },
+      { "sp": "Léa", "fr": "Bien sûr ! Dans ma maison idéale, {il y aurait|cond-imagine} une grande cuisine… avec un lave-vaisselle !", "en": "Of course! In my ideal house, there'd be a big kitchen… with a dishwasher!" },
+      { "sp": "Hugo", "fr": "Moi, {je voudrais|cond-wish} une maison qui {ferait|cond-irr} le ménage toute seule !", "en": "I'd like a house that does the housework all by itself!" },
+      { "sp": "Tom", "fr": "{Ce serait|cond-wish} génial ! Et {il faudrait|cond-advice} un grand salon pour les concerts.", "en": "That would be great! And you'd need a big living room for concerts." },
+      { "sp": "Inès", "fr": "{Tu devrais|cond-advice} mettre beaucoup de fenêtres. La lumière, c'est important.", "en": "You should put in lots of windows. Light is important." },
+      { "sp": "Sophie", "fr": "Bonne idée. Et vous, {vous habiteriez|cond-form} où, dans un monde idéal ?", "en": "Good idea. And where would you live, in an ideal world?" },
+      { "sp": "Tom", "fr": "Moi, {j'habiterais|cond-form} au bord de la mer, et {je jouerais|cond-form} de la guitare tous les soirs.", "en": "I'd live by the sea, and I'd play the guitar every evening." },
+      { "sp": "Léa", "fr": "Et {nous irions|cond-irr} tous chez toi en vacances !", "en": "And we'd all go to your place on holiday!" },
+      { "sp": "Hugo", "fr": "Sophie, {à ta place, je ferais|cond-advice} une maison sans escalier. Les escaliers, c'est fatigant.", "en": "Sophie, if I were you, I'd design a house without stairs. Stairs are tiring." },
+      { "sp": "Sophie", "fr": "Hugo, {tu pourrais|cond-polite} me passer le crayon, s'il te plaît ?", "en": "Hugo, could you pass me the pencil, please?" },
+      { "sp": "", "fr": "Sophie dessine. Peu à peu, on voit la maison idéale : une grande cuisine, beaucoup de fenêtres, un salon pour les concerts…", "en": "Sophie draws. Little by little, the ideal house appears: a big kitchen, lots of windows, a living room for concerts…" },
+      { "sp": "Inès", "fr": "Et {vous voudriez|cond-irr} combien de chambres ?", "en": "And how many bedrooms would you want?" },
+      { "sp": "Hugo", "fr": "Une pour chacun ! Et moi, {je viendrais|cond-vs-fut} tous les week-ends.", "en": "One each! And I'd come every weekend." },
+      { "sp": "Léa", "fr": "Attention, Hugo : « {je viendrai|cond-vs-fut} », c'est sûr ; « {je viendrais|cond-vs-fut} », c'est seulement un rêve !", "en": "Careful, Hugo: 'je viendrai' is certain; 'je viendrais' is only a dream!" },
+      { "sp": "Sophie", "fr": "Merci, tout le monde ! Avec vos idées, {ce serait|cond-imagine} la plus belle maison du monde.", "en": "Thanks, everyone! With your ideas, it would be the most beautiful house in the world." },
+      { "sp": "Hugo", "fr": "Et la première fête, {on la ferait|cond-imagine} chez toi ?", "en": "And the first party, we'd have it at your place?" },
+      { "sp": "Sophie", "fr": "Bien sûr ! Mais d'abord, {il faudrait|cond-advice} une maison… et beaucoup d'argent !", "en": "Of course! But first, we'd need a house… and a lot of money!" }
+    ]
+  },
+  "quiz": [
+    { "case": "cond-form", "type": "mc", "q": "Nous ___ plus souvent avec un lave-vaisselle.", "en": "We'd cook more often with a dishwasher.", "options": ["cuisinerions", "cuisinerons", "cuisinions"], "answer": "cuisinerions" },
+    { "case": "cond-form", "type": "type", "q": "Ils ___ bien à la campagne.", "en": "They'd happily live in the country.", "answer": "habiteraient" },
+    { "case": "cond-irr", "type": "mc", "q": "Ce ___ génial !", "en": "That would be great!", "options": ["serait", "sera", "était"], "answer": "serait" },
+    { "case": "cond-irr", "type": "type", "q": "À ta place, j'___ chez le médecin.", "en": "If I were you, I'd go to the doctor's.", "answer": "irais" },
+    { "case": "cond-polite", "type": "mc", "q": "Je ___ un café, s'il vous plaît.", "en": "I'd like a coffee, please.", "options": ["voudrais", "voudrai", "veux bien"], "answer": "voudrais" },
+    { "case": "cond-polite", "type": "mc", "lang": "en", "q": "Which question is the most polite?", "options": ["Pourriez-vous m'aider ?", "Vous pouvez m'aider ?", "Aidez-moi !"], "answer": "Pourriez-vous m'aider ?", "say": "Pourriez-vous m'aider ?" },
+    { "case": "cond-wish", "type": "mc", "lang": "en", "q": "« J'aimerais voyager » means…", "options": ["I'd like to travel.", "I like travelling.", "I'll travel."], "answer": "I'd like to travel.", "say": "J'aimerais voyager." },
+    { "case": "cond-wish", "type": "type", "q": "J'___ bien avoir un chien.", "en": "I'd really like to have a dog.", "answer": "aimerais" },
+    { "case": "cond-advice", "type": "mc", "q": "Tu es fatigué : tu ___ dormir.", "en": "You're tired: you should sleep.", "options": ["devrais", "dois de", "devras"], "answer": "devrais" },
+    { "case": "cond-advice", "type": "mc", "lang": "en", "q": "« À ta place, je partirais » means…", "options": ["If I were you, I'd leave.", "In your place, I left.", "I'm leaving your place."], "answer": "If I were you, I'd leave.", "say": "À ta place, je partirais." },
+    { "case": "cond-imagine", "type": "mc", "q": "Dans ma maison idéale, il y ___ une piscine.", "en": "In my ideal house, there'd be a swimming pool.", "options": ["aurait", "avait", "aura"], "answer": "aurait" },
+    { "case": "cond-imagine", "type": "mc", "q": "Avec plus de temps, on ___ voyager.", "en": "With more time, we could travel.", "options": ["pourrait", "pourra", "peut"], "answer": "pourrait" },
+    { "case": "cond-vs-fut", "type": "mc", "lang": "en", "listen": "je parlerais", "q": "Listen: future or conditional?", "options": ["conditional: je parlerais", "future: je parlerai"], "answer": "conditional: je parlerais" },
+    { "case": "cond-vs-fut", "type": "mc", "q": "Demain, je ___ à huit heures, c'est promis !", "en": "Tomorrow, I'll come at eight, I promise!", "options": ["viendrai", "viendrais"], "answer": "viendrai" }
+  ]
+}
