@@ -43,18 +43,18 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
 ### Cast
 
 - **Léa**: from Paris (u01-grammar). She studies French in Lyon in Marc's class and shares a flat with Sophie (u04-furniture). Younger than Hugo (implied, u17-cod); her age is never given. Brown hair; reads, swims, cycles. June intern at Hugo's firm (u13-cest-ilest). Hugo owes her €150 (u19-money).
-- **Hugo**: Léa's brother (u02-vocab), 20 in Unit 3 (u03-numbers1). He was in Marc's class and has worked in IT at a small Lyon firm since Unit 8 (u13-work). His own place is far from Léa's (u04-places). Always late, forgetful and broke; loves chocolate, pizza, TV series and video games; snores; can't keep a secret; wears glasses.
+- **Hugo**: Léa's brother (u01-vocab, u02-vocab), 20 in Unit 3 (u03-numbers1). He was in Marc's class and has worked in IT at a small Lyon firm since Unit 8 (u13-work). His own place is far from Léa's (u04-places). Always late, forgetful and broke; loves chocolate, pizza, TV series and video games; snores; can't keep a secret; wears glasses.
 - **Sophie**: Léa's friend from Paris, where her parents and a sister live, and her flatmate (u02-possessives). Surname Lambert (u15-hotel); birthday 30 December (u20-speech). Doesn't eat meat; draws, takes photos, dances. Saturday waitress at the café downstairs (u13-jobs); starts architecture school in January (u17-emotions). Her male cat **Minou** sleeps on computers and the TV and plays with keys.
-- **Tom**: English, from London. 19 in Unit 3 (u03-avoir); birthday 1 June (u11-il-fait). Has a brother (u02-articles) and two sisters aged 12 and 15 (u03-avoir), a dog, and parents in England. Became an uncle on 15 August (u15-pc-etre). Sells and plays guitars; shy, afraid of the dark. With Camille since October (u17-character). His flat is bigger than Léa's (u20-speech).
+- **Tom**: English, from London. 19 in Unit 3 (u03-avoir) and 20 since his birthday on 1 June (u11-il-fait, u17-character). Has a big brother and two sisters aged 12 and 15 (u02-articles, u03-avoir), a dog, and parents in England. His brother had a baby on 15 August, making Tom an uncle (u15-pc-etre). Sells and plays guitars; shy, afraid of the dark. With Camille since October (u17-character). His flat is bigger than Léa's (u20-speech).
 - **Inès**: from Madrid, where her parents live; 22 (u03-avoir). Classmate, Sophie's close friend, works as a model (u07-agreement, u17-emotions). Her sister **Carla** (20) is also in the class and prefers dancing to football.
 - **Marc**: the French teacher. His age is a secret.
 - **Lou**: Léa and Hugo's little sister, 2 in Unit 3 (u03-numbers2) and 3 since early September (u16-school). Lives with her parents (implied). Teddy bear, drawings, sweets. Her nursery teacher is **Claire**. Her friend and rival **Emma** is a month younger but taller (u19-comparatives).
 - **Paul**: Léa's father, 50 (u03-numbers2). Very tall; teacher; Jacques and Louise's son (u17-coi). Lived in Montmartre as a student (u18-y); loses his papers.
-- **Anne**: Léa's mother, 47. Canadian, from Montréal, where her sister lives (u14-travel). Doctor; blond. She met Paul at a rainy Paris bus stop when they were 20 (u16-pc-imparfait).
+- **Anne**: Léa's mother, 47. Canadian, from Montréal, where her sister lives (u01-grammar, u14-travel). Doctor; blond. She met Paul at a rainy Paris bus stop when they were 20 (u16-pc-imparfait).
 - **Jacques** (80) and **Louise** (78) (u03-numbers2): Paul's parents. They have a seaside house with a garden in Marseille (u15-holidays), were childhood neighbours and honeymooned in Paris 50 years ago (u18-y). Louise has her birthday in late October (u17-coi), the family's crêpe and chocolate-cake recipes and 300 books. She got her first mobile at Christmas (u20-phone).
-- **Pierre**: Léa's uncle, 60, a farmer (u03-numbers2, u13-jobs). Father of **Jules** and **Chloé** (u02-articles). Chloé is a lawyer married to **Karim** (30), a restaurant cook who makes desserts (u02-possessives, u06-er). Sophie once liked Jules (u02-possessives).
+- **Pierre**: Léa's uncle, 60, a farmer living in the countryside near Annecy (u03-numbers2, u13-jobs, u02-vocab, u12-nature). Father of **Jules** and **Chloé** (u02-articles). Chloé is a lawyer married to **Karim** (30), a restaurant cook who makes desserts (u02-possessives, u06-er). Sophie once liked Jules (u02-possessives).
 - **Antoine**: Léa's cousin in Montréal (u09-places), probably Anne's sister's son (implied). Taxi driver who sings in a band at weekends (u13-jobs); drives fast.
-- **Hugo's firm**: **Mme Dupont**, his demanding boss (u13-cest-ilest); **Julien**, a funny colleague (u13-work); **Bernard**, the accountant who retires (u13-cest-ilest); interns **Sarah** and **Malik**.
+- **Hugo's firm**: **Mme Dupont**, his demanding boss (u13-cest-ilest, u17-connectors); **Julien**, a funny colleague (u13-work); **Bernard**, the accountant who retired on the Friday after Léa started, in June (u13-work, u13-cest-ilest); interns **Sarah** and **Malik**.
 - **Camille**: Tom's girlfriend since October (implied); has a cat (u17-character, u19-describing).
 - **One-offs**: Mme Martin, who showed the flat (u04-rooms); Oscar, Tom's English friend (u11-liaison); an actor nicknamed "the croissant thief" (u18-appearance).
 
@@ -65,8 +65,8 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - It is above **le café d'en bas**, the friends' hangout where Sophie works, near place Bellecour (u09-places).
   - Also the Part-Dieu and Croix-Rousse districts.
 - **Paris**: the parents' home with its attic (u16-childhood), Sophie's parents, and Paul's old Montmartre flat.
-- **Marseille**: the grandparents' seaside house, with a beach and harbour nearby.
-- **Near Annecy**: Pierre's home in the countryside (u12-nature).
+- **Marseille**: the grandparents' seaside house, with a beach and harbour nearby. The family gathers there in the holidays (u02-vocab).
+- **Near Annecy**: Pierre's home in the countryside (u02-vocab, u12-nature).
 - **Abroad**:
   - Montréal: Anne's sister (the family stayed with her) and Antoine.
   - Madrid: Inès and Carla's family.
@@ -80,15 +80,15 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
   - Jacques's 80th birthday; Hugo has no phone.
   - Léa and Sophie move into the flat with Minou.
   - Market, the café downstairs, a picnic.
-  - Crêpes, Tom's first soup, Sunday lunch at the grandparents', Sophie's party.
+  - Crêpes, Tom's first soup, a Sunday lunch at the grandparents' in Marseille, Sophie's party.
 - **U7**: January sales; Inès on TV; Léa buys Hugo a €300 suit for his interview.
-- **U8**: Hugo starts his office job.
+- **U8**: Hugo starts his office job; he finally has a mobile phone.
 - **U9**: Antoine visits Lyon, gets lost, flies home.
 - **U10**: Hugo's failed sporty phase.
 - **U11**: winter call with Antoine; Tom's weather report (12 April); summer plans; dinner with Oscar.
 - **U12**: a day at Pierre's; camping and a mountain hut in June.
 - **U13**: careers fair; Léa's internship at Hugo's firm from 1 June.
-- **U14**: on 1 July Léa, her parents and Lou fly to Montréal; Hugo joins them on 5 August.
+- **U14**: on 1 July Léa, her parents and Lou fly to Montréal (1 p.m. flight from Paris) for six weeks; Hugo joins them on 5 August.
 - **U15**: in July, Sophie and Inès in Madrid, then Barcelona; in late August, Léa, Hugo and Lou's week in Marseille; catching up in early September.
 - **U16**: in early September Lou starts nursery school; the Paris attic; Louise's and Anne's memories.
 - **U17**: October. Sophie gets into architecture school; Tom meets Camille; Louise's birthday.
@@ -115,28 +115,9 @@ Lesson ids in brackets show where a fact is stated. "Implied" means the stories 
 - **Ages** were given in Unit 3, at least a year before Unit 20, so everyone is now about a year older (implied). Birthdays shown since: Tom (1 June), Lou (now 3), Louise (October), Sophie (30 December).
 - **Hugo's things**:
   - He has a phone, a €200 console (u19-money) and Lou's passport holder (u14-participes). His bike is at Tom's.
-  - He quit the sports club (u10-negation) and skipped his flu jab (u18-health).
+  - He plays a little tennis, badly (u10-sports, u10-faire-jouer). He quit the sports club (u10-negation) and skipped his flu jab (u18-health).
   - He now likes camembert (u17-thinking) but still dislikes cooked carrots.
+- **Léa** used to be often late (u08-routine) but isn't any more (u13-modaux).
 - **Loose ends**:
   - Hugo says "ma sœur joue du piano" (u10-faire-jouer) without saying which sister.
   - Anne's Christmas shoes (size 39) were left at the till (u19-shop).
-
-### Known inconsistencies (not fixed yet)
-
-- **Hugo**: Léa's brother from Unit 2 on, but he answers "Oui !" to "Tu es un ami de Léa ?" (u01-vocab) and says "Je suis canadien, de Montréal !" (u01-grammar).
-- **Pierre's home**: Léa's uncle and aunt, Jules and Chloé's parents, "habitent à Marseille" (u02-vocab), but uncle Pierre lives "près d'Annecy" (u12-nature).
-- **The bathtub**: the flat has none (u04-ilya), yet Sophie looks for Minou "dans la baignoire" (u04-furniture).
-- **Léa's punctuality**: she is "souvent en retard" (u08-routine) but "jamais en retard" (u13-modaux).
-- **Tom's age**: 19 in Unit 3, and still "dix-neuf ans" in October (u17-character), after his 1 June birthday.
-- **Tom's family**:
-  - His sisters are 12 and 15 (u03-avoir), yet "ma sœur a eu un bébé" (u15-pc-etre).
-  - His brother (u02-articles) is missing from u03-avoir.
-- **Hugo's boss**: "la patronne de Hugo, madame Dupont" (u13-modaux), but "mon patron" (u17-connectors).
-- **The flight** (u14-transport): it "part à treize heures", then "À midi, l'avion décolle".
-- **The Montréal stay**: it "dure trois semaines" from 1 July (u14-travel), yet Léa is there when Hugo arrives on 5 August (u14-participes).
-- **Minor**:
-  - Sunday lunch at the grandparents' every week (u02-vocab, u06-er), though they live in Marseille.
-  - Antoine wants to "visiter Lyon l'année prochaine" (u11-seasons) after already visiting it (u09-places).
-  - Hugo has no phone in u03-numbers1 but answers Léa's call in u08-reflexive.
-  - Hugo "ne sait pas jouer" tennis (u10-sports), then plays "un peu" (u10-faire-jouer).
-  - Bernard retires "vendredi" both before Léa's interview (u13-work) and around 1 June (u13-cest-ilest).
