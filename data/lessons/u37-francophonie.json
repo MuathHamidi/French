@@ -1,0 +1,167 @@
+{
+  "id": "u37-francophonie",
+  "type": "vocab",
+  "unit": 37,
+  "title": "La francophonie",
+  "en": "The French-speaking world",
+  "intro": "25 words for the French-speaking world: countries and people (**la francophonie, francophone, la Belgique, belge, la Suisse, suisse, le Sénégal, sénégalais, québécois, maghrébin, l'outre-mer**), languages (**la langue officielle, le wolof, le créole**), the Belgian and Swiss numbers (**septante, nonante, huitante**) and words from Quebec (**la tuque, magasiner, souper, le dépanneur, pantoute, frette, le courriel, le chum**). The Quebec words are marked as such: in France, you'd say *un bonnet*, *faire les magasins*, *dîner*, *une épicerie*, *pas du tout*, *très froid*, *un mail* and *un ami*.",
+  "words": [
+    { "id": "francophonie", "fr": "francophonie", "pos": "noun", "g": "f", "ipa": "fʁɑ̃.kɔ.fɔ.ni", "en": "the French-speaking world", "def": "L'ensemble des pays et des gens qui parlent français dans le monde.", "def_en": "All the countries and people who speak French around the world.", "examples": [
+      { "fr": "La **francophonie**, c'est plus de trois cents millions de personnes.", "en": "The French-speaking world is more than three hundred million people." },
+      { "fr": "Le vingt mars, c'est la journée de la **francophonie**.", "en": "20 March is International Francophonie Day." },
+      { "fr": "Marc fait un cours sur la **francophonie**.", "en": "Marc is giving a class on the French-speaking world." }
+    ] },
+    { "id": "francophone", "fr": "francophone", "pos": "adj", "ipa": "fʁɑ̃.kɔ.fɔn", "en": "French-speaking; (un francophone) a French speaker", "def": "Qui parle français.", "def_en": "Who speaks French.", "forms": ["francophones"], "examples": [
+      { "fr": "Montréal est une grande ville **francophone**.", "en": "Montreal is a big French-speaking city." },
+      { "fr": "Il y a des **francophones** sur les cinq continents.", "en": "There are French speakers on all five continents." },
+      { "fr": "Le Sénégal est un pays **francophone**.", "en": "Senegal is a French-speaking country." }
+    ] },
+    { "id": "quebecois", "fr": "québécois", "pos": "adj", "ipa": "ke.be.kwa", "display": "québécois, québécoise", "en": "from Quebec, Québécois", "def": "Qui vient du Québec, la province francophone du Canada.", "def_en": "From Quebec, the French-speaking province of Canada.", "forms": ["québécoise", "québécoises"], "examples": [
+      { "fr": "Antoine a un accent **québécois**.", "en": "Antoine has a Quebec accent." },
+      { "fr": "Les **Québécois** disent « magasiner ».", "en": "Quebecers say 'magasiner'." },
+      { "fr": "J'adore la musique **québécoise**.", "en": "I love music from Quebec." }
+    ] },
+    { "id": "n-belgique", "fr": "Belgique", "pos": "name", "art": "la", "ipa": "bɛl.ʒik", "say": "la Belgique", "en": "Belgium", "def": "Le pays au nord de la France, dont la capitale est Bruxelles.", "def_en": "The country north of France, whose capital is Brussels.", "examples": [
+      { "fr": "Bruxelles est la capitale de la **Belgique**.", "en": "Brussels is the capital of Belgium." },
+      { "fr": "En **Belgique**, on parle français, néerlandais et allemand.", "en": "In Belgium, people speak French, Dutch and German." },
+      { "fr": "La **Belgique** est célèbre pour ses frites.", "en": "Belgium is famous for its chips." }
+    ] },
+    { "id": "belge", "fr": "belge", "pos": "adj", "ipa": "bɛlʒ", "en": "Belgian; (un / une Belge) a Belgian", "def": "Qui vient de Belgique.", "def_en": "From Belgium.", "forms": ["belges"], "examples": [
+      { "fr": "Les **Belges** disent « septante ».", "en": "Belgians say 'septante'." },
+      { "fr": "Tintin est un héros **belge**.", "en": "Tintin is a Belgian hero." },
+      { "fr": "J'adore le chocolat **belge**.", "en": "I love Belgian chocolate." }
+    ] },
+    { "id": "n-suisse", "fr": "Suisse", "pos": "name", "art": "la", "ipa": "sɥis", "say": "la Suisse", "en": "Switzerland", "def": "Le petit pays des Alpes, voisin de la France, où on parle quatre langues.", "def_en": "The small Alpine country next to France, where four languages are spoken.", "examples": [
+      { "fr": "Genève est en **Suisse**.", "en": "Geneva is in Switzerland." },
+      { "fr": "En **Suisse**, il y a quatre langues officielles.", "en": "In Switzerland, there are four official languages." },
+      { "fr": "La **Suisse** est célèbre pour ses montres.", "en": "Switzerland is famous for its watches." }
+    ] },
+    { "id": "suisse", "fr": "suisse", "pos": "adj", "ipa": "sɥis", "en": "Swiss; (un / une Suisse) a Swiss person", "def": "Qui vient de Suisse.", "def_en": "From Switzerland.", "forms": ["suisses"], "examples": [
+      { "fr": "Le chocolat **suisse** est délicieux.", "en": "Swiss chocolate is delicious." },
+      { "fr": "Certains **Suisses** disent « huitante ».", "en": "Some Swiss people say 'huitante'." },
+      { "fr": "Ma voisine est **suisse**, de Genève.", "en": "My neighbour is Swiss, from Geneva." }
+    ] },
+    { "id": "n-senegal", "fr": "Sénégal", "pos": "name", "art": "le", "ipa": "se.ne.ɡal", "say": "le Sénégal", "en": "Senegal", "def": "Un pays d'Afrique de l'Ouest, au bord de l'océan, dont la capitale est Dakar.", "def_en": "A country in West Africa, on the ocean, whose capital is Dakar.", "examples": [
+      { "fr": "Amadou vient du **Sénégal**.", "en": "Amadou comes from Senegal." },
+      { "fr": "Au **Sénégal**, il fait chaud toute l'année.", "en": "In Senegal, it's hot all year round." },
+      { "fr": "Dakar est la capitale du **Sénégal**.", "en": "Dakar is the capital of Senegal." }
+    ] },
+    { "id": "senegalais", "fr": "sénégalais", "pos": "adj", "ipa": "se.ne.ɡa.lɛ", "display": "sénégalais, sénégalaise", "en": "Senegalese", "def": "Qui vient du Sénégal.", "def_en": "From Senegal.", "forms": ["sénégalaise", "sénégalaises"], "examples": [
+      { "fr": "Amadou est **sénégalais**.", "en": "Amadou is Senegalese." },
+      { "fr": "La cuisine **sénégalaise** est délicieuse.", "en": "Senegalese food is delicious." },
+      { "fr": "Les **Sénégalais** parlent souvent wolof et français.", "en": "Senegalese people often speak Wolof and French." }
+    ] },
+    { "id": "wolof", "fr": "wolof", "pos": "noun", "g": "m", "ipa": "wɔ.lɔf", "en": "Wolof (the main language of Senegal)", "def": "La langue la plus parlée au Sénégal.", "def_en": "The most widely spoken language in Senegal.", "examples": [
+      { "fr": "À la maison, Amadou parle **wolof**.", "en": "At home, Amadou speaks Wolof." },
+      { "fr": "Le **wolof** est une langue africaine.", "en": "Wolof is an African language." },
+      { "fr": "Il apprend quelques mots de **wolof**.", "en": "He's learning a few words of Wolof." }
+    ] },
+    { "id": "langue-officielle", "fr": "langue officielle", "pos": "noun", "g": "f", "ipa": "lɑ̃ɡ ɔ.fi.sjɛl", "en": "official language", "def": "La langue de l'État, de l'école et des lois dans un pays.", "def_en": "The language of the state, of schools and of the law in a country.", "forms": ["langues officielles"], "examples": [
+      { "fr": "Au Sénégal, le français est la **langue officielle**.", "en": "In Senegal, French is the official language." },
+      { "fr": "La Suisse a quatre **langues officielles**.", "en": "Switzerland has four official languages." },
+      { "fr": "Le Canada a deux **langues officielles**.", "en": "Canada has two official languages." }
+    ] },
+    { "id": "creole", "fr": "créole", "pos": "noun", "g": "m", "ipa": "kʁe.ɔl", "en": "Creole (language)", "def": "Une langue née du français et de langues d'Afrique, qu'on parle aux Antilles, à la Réunion ou en Haïti.", "def_en": "A language born from French and African languages, spoken in the French Caribbean, Réunion or Haiti.", "examples": [
+      { "fr": "En Martinique, on parle français et **créole**.", "en": "In Martinique, people speak French and Creole." },
+      { "fr": "Elle chante en **créole**.", "en": "She sings in Creole." },
+      { "fr": "Le **créole** est né du français.", "en": "Creole was born from French." }
+    ] },
+    { "id": "outre-mer", "fr": "outre-mer", "pos": "noun", "g": "m", "ipa": "u.tʁə.mɛʁ", "en": "France's overseas territories", "def": "Les régions françaises loin de l'Europe, comme la Martinique ou la Réunion.", "def_en": "The French regions far from Europe, like Martinique or Réunion.", "note": "*d'outre-mer* = overseas.", "examples": [
+      { "fr": "L'**outre-mer**, c'est la France aussi.", "en": "The overseas territories are France too." },
+      { "fr": "La Martinique fait [partie|partie] de l'**outre-mer**.", "en": "Martinique is one of France's overseas territories." },
+      { "fr": "Les régions d'**outre-mer** sont très loin de Paris.", "en": "The overseas regions are very far from Paris." }
+    ] },
+    { "id": "septante", "fr": "septante", "pos": "num", "ipa": "sɛp.tɑ̃t", "en": "seventy (in Belgium and Switzerland)", "def": "Soixante-dix, en Belgique et en Suisse.", "def_en": "Seventy, in Belgium and Switzerland.", "examples": [
+      { "fr": "En Belgique, on dit **septante**.", "en": "In Belgium, people say 'septante'." },
+      { "fr": "Ça coûte **septante** euros.", "en": "It costs seventy euros." },
+      { "fr": "**Septante**, c'est plus logique que soixante-dix !", "en": "Septante is more logical than soixante-dix!" }
+    ] },
+    { "id": "nonante", "fr": "nonante", "pos": "num", "ipa": "nɔ.nɑ̃t", "en": "ninety (in Belgium and Switzerland)", "def": "Quatre-vingt-dix, en Belgique et en Suisse.", "def_en": "Ninety, in Belgium and Switzerland.", "examples": [
+      { "fr": "Ma grand-mère a **nonante** ans.", "en": "My grandmother is ninety." },
+      { "fr": "En Suisse, on dit **nonante** au lieu de quatre-vingt-dix.", "en": "In Switzerland, people say 'nonante' instead of 'quatre-vingt-dix'." },
+      { "fr": "Le bus **nonante** passe ici.", "en": "The number ninety bus stops here." }
+    ] },
+    { "id": "huitante", "fr": "huitante", "pos": "num", "ipa": "ɥi.tɑ̃t", "en": "eighty (in parts of Switzerland)", "def": "Quatre-vingts, dans certaines régions de Suisse.", "def_en": "Eighty, in some parts of Switzerland.", "examples": [
+      { "fr": "En Suisse, certains disent **huitante**.", "en": "In Switzerland, some people say 'huitante'." },
+      { "fr": "**Huitante**, c'est huit fois dix.", "en": "Huitante is eight times ten." },
+      { "fr": "Mon voisin suisse a **huitante** ans.", "en": "My Swiss neighbour is eighty." }
+    ] },
+    { "id": "tuque", "fr": "tuque", "pos": "noun", "g": "f", "ipa": "tyk", "en": "(Quebec) woolly hat, beanie", "def": "Au Québec, un bonnet chaud pour l'hiver.", "def_en": "In Quebec, a warm hat for winter.", "forms": ["tuques"], "examples": [
+      { "fr": "Antoine porte une **tuque** rouge.", "en": "Antoine is wearing a red woolly hat." },
+      { "fr": "Sans **tuque**, on a froid aux oreilles.", "en": "Without a woolly hat, your ears get cold." },
+      { "fr": "Au Québec, on ne dit pas bonnet, mais **tuque**.", "en": "In Quebec, they don't say 'bonnet', but 'tuque'." }
+    ] },
+    { "id": "magasiner", "fr": "magasiner", "pos": "verb", "ipa": "ma.ɡa.zi.ne", "en": "(Quebec) to go shopping", "def": "Au Québec, faire les magasins.", "def_en": "In Quebec, to go round the shops.", "forms": ["magasine", "magasines", "magasinons", "magasinez", "magasinent", "magasiné", "magasinée", "magasinés", "magasinées", "magasinais", "magasinait", "magasinions", "magasiniez", "magasinaient", "magasinerai", "magasineras", "magasinera", "magasinerons", "magasinerez", "magasineront", "magasinerais", "magasinerait", "magasinerions", "magasineriez", "magasineraient", "magasinant", "magasinai", "magasinas", "magasina", "magasinâmes", "magasinâtes", "magasinèrent"], "examples": [
+      { "fr": "Samedi, on va **magasiner** au centre-ville.", "en": "On Saturday, we're going shopping in town." },
+      { "fr": "Les Québécois **magasinent** beaucoup avant Noël.", "en": "Quebecers shop a lot before Christmas." },
+      { "fr": "J'ai **magasiné** toute la journée.", "en": "I've been shopping all day." }
+    ] },
+    { "id": "souper", "fr": "souper", "pos": "verb", "ipa": "su.pe", "en": "(Quebec, Belgium, Switzerland) to have dinner; (France) to have a late supper", "def": "Au Québec, en Belgique et en Suisse : manger le repas du soir.", "def_en": "In Quebec, Belgium and Switzerland: to eat the evening meal.", "note": "*Le souper* is dinner there; in France, *le dîner*. Careful: *la soupe* is soup.", "forms": ["soupons", "soupez", "soupent", "soupé", "soupais", "soupait", "soupions", "soupiez", "soupaient", "souperai", "souperas", "soupera", "souperons", "souperez", "souperont", "souperais", "souperait", "souperions", "souperiez", "souperaient", "soupant", "soupai", "soupas", "soupa", "soupâmes", "soupâtes", "soupèrent"], "examples": [
+      { "fr": "Ce soir, on va **souper** chez ma mère.", "en": "Tonight, we're having dinner at my mother's." },
+      { "fr": "Nous **soupons** à six heures.", "en": "We have dinner at six." },
+      { "fr": "Vous avez déjà **soupé** ?", "en": "Have you had dinner yet?" }
+    ] },
+    { "id": "depanneur", "fr": "dépanneur", "pos": "noun", "g": "m", "ipa": "de.pa.nœʁ", "en": "(Quebec) corner shop; (France) breakdown mechanic", "def": "Au Québec, la petite épicerie du quartier, ouverte tard. En France, celui qui répare les voitures sur la route.", "def_en": "In Quebec, the little local shop that stays open late. In France, the person who repairs cars on the road.", "forms": ["dépanneurs"], "examples": [
+      { "fr": "Je vais au **dépanneur** acheter du lait.", "en": "I'm going to the corner shop to buy milk." },
+      { "fr": "Le **dépanneur** est ouvert jusqu'à minuit.", "en": "The corner shop is open until midnight." },
+      { "fr": "Ma voiture est en panne : j'appelle un **dépanneur**.", "en": "My car has broken down: I'm calling a breakdown mechanic." }
+    ] },
+    { "id": "pantoute", "fr": "pantoute", "pos": "adv", "ipa": "pɑ̃.tut", "en": "(Quebec) not at all", "def": "Au Québec : pas du tout.", "def_en": "In Quebec: not at all.", "examples": [
+      { "fr": "Tu es fatigué ? — **Pantoute** !", "en": "Are you tired? — Not at all!" },
+      { "fr": "Ce n'est pas logique **pantoute** !", "en": "It's not logical at all!" },
+      { "fr": "J'aime pas ça **pantoute** !", "en": "I don't like that at all!" }
+    ] },
+    { "id": "frette", "fr": "frette", "pos": "adj", "ipa": "fʁɛt", "en": "(Quebec) freezing cold (il fait frette)", "def": "Au Québec : très froid.", "def_en": "In Quebec: very cold.", "examples": [
+      { "fr": "Il fait **frette** à Montréal !", "en": "It's freezing in Montreal!" },
+      { "fr": "L'eau du lac est **frette**.", "en": "The lake water is ice-cold." },
+      { "fr": "Ce matin, il faisait **frette** : moins vingt.", "en": "This morning, it was freezing: minus twenty." }
+    ] },
+    { "id": "courriel", "fr": "courriel", "pos": "noun", "g": "m", "ipa": "ku.ʁjɛl", "en": "email (a word from Quebec, also used in official French)", "def": "Un message envoyé par internet. Le mot vient du Québec.", "def_en": "A message sent over the internet. The word comes from Quebec.", "forms": ["courriels"], "examples": [
+      { "fr": "Je vous envoie un **courriel** avec les détails.", "en": "I'll send you an email with the details." },
+      { "fr": "Au Québec, on n'écrit pas un mail, mais un **courriel**.", "en": "In Quebec, you don't write a 'mail', but a 'courriel'." },
+      { "fr": "J'ai reçu trente **courriels** aujourd'hui.", "en": "I've had thirty emails today." }
+    ] },
+    { "id": "chum", "fr": "chum", "pos": "noun", "g": "m", "ipa": "tʃɔm", "en": "(Quebec) friend, buddy; boyfriend", "def": "Au Québec, un ami. Aussi : un petit ami.", "def_en": "In Quebec, a friend. Also: a boyfriend.", "forms": ["chums"], "examples": [
+      { "fr": "Salut, mon **chum** !", "en": "Hi, buddy!" },
+      { "fr": "Elle sort avec son **chum** ce soir.", "en": "She's going out with her boyfriend tonight." },
+      { "fr": "Tom, tu es mon **chum** anglais !", "en": "Tom, you're my English buddy!" }
+    ] },
+    { "id": "maghrebin", "fr": "maghrébin", "pos": "adj", "ipa": "ma.ɡʁe.bɛ̃", "display": "maghrébin, maghrébine", "en": "North African (from the Maghreb)", "def": "Qui vient du Maghreb : du Maroc, de l'Algérie ou de la Tunisie.", "def_en": "From the Maghreb: Morocco, Algeria or Tunisia.", "forms": ["maghrébine", "maghrébins", "maghrébines"], "examples": [
+      { "fr": "Beaucoup de familles **maghrébines** vivent à Lyon.", "en": "Many North African families live in Lyon." },
+      { "fr": "Le couscous est un plat **maghrébin**.", "en": "Couscous is a North African dish." },
+      { "fr": "La cuisine **maghrébine** utilise beaucoup d'épices.", "en": "North African cooking uses lots of spices." }
+    ] }
+  ],
+  "story": {
+    "title": "Le français autour du monde",
+    "en": "Thursday 17 December: Marc's last class of the year takes everyone round the French-speaking world.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi dix-sept décembre, c'est le dernier [cours|cours] de l'année. Marc a préparé une surprise : un voyage dans la francophonie.", "en": "On Thursday 17 December, it's the last class of the year. Marc has prepared a surprise: a trip around the French-speaking world." },
+      { "sp": "Marc", "fr": "Le français n'est pas seulement la langue de la France ! Il y a des francophones sur les cinq continents. Aujourd'hui, nous avons deux invités.", "en": "French isn't just the language of France! There are French speakers on all five continents. Today we have two guests." },
+      { "sp": "", "fr": "Sur l'écran, on voit Antoine, à Montréal, avec une tuque sur la tête. Derrière lui, il neige.", "en": "On the screen, there's Antoine, in Montreal, with a woolly hat on his head. Behind him, it's snowing." },
+      { "sp": "Antoine", "fr": "Salut tout le monde ! Ici, il fait frette : moins vingt-cinq ! Ce matin, mon taxi était sous la neige.", "en": "Hi everyone! It's freezing here: minus twenty-five! This morning, my taxi was under the snow." },
+      { "sp": "Tom", "fr": "Une tuque ? Qu'est-ce que c'est ?", "en": "A tuque? What's that?" },
+      { "sp": "Antoine", "fr": "Ben, mon bonnet ! Au Québec, on dit une tuque. Et on ne fait pas les magasins : on magasine. Cet après-midi, je magasine pour Noël.", "en": "Well, my woolly hat! In Quebec, we say tuque. And we don't 'faire les magasins': we 'magasine'. This afternoon, I'm going Christmas shopping." },
+      { "sp": "Léa", "fr": "Et ce soir, tu dînes chez ta mère ?", "en": "And tonight, are you having dinner at your mum's?" },
+      { "sp": "Antoine", "fr": "Non : ce soir, je vais souper chez ma mère ! Chez nous, le déjeuner, c'est le matin, le dîner, à midi, et le souper, le soir.", "en": "No: tonight, I'm having 'souper' at my mum's! Back home, 'déjeuner' is in the morning, 'dîner' at noon, and 'souper' in the evening." },
+      { "sp": "Tom", "fr": "Le dîner à midi ? Ce n'est pas logique !", "en": "Dinner at noon? That's not logical!" },
+      { "sp": "Antoine", "fr": "Pas logique pantoute, mon chum ! Et après le souper, je vais au dépanneur acheter du lait.", "en": "Not logical at all, my friend! And after supper, I'm going to the dépanneur to buy milk." },
+      { "sp": "Carla", "fr": "Au dépanneur ? Ton taxi est en panne ?", "en": "To the breakdown mechanic? Has your taxi broken down?" },
+      { "sp": "Antoine", "fr": "Non ! Ici, le dépanneur, c'est la petite épicerie du coin. Au fait, j'ai une nouvelle : le tournage de mon film commence en mars… à Lyon ! Je vous envoie un courriel avec les détails.", "en": "No! Here, the dépanneur is the little corner shop. By the way, I've got news: shooting for my film starts in March… in Lyon! I'll send you an email with the details." },
+      { "sp": "", "fr": "Tout le monde applaudit. Puis Marc présente son deuxième [invité|invite-n] : Amadou, un ami de Sophie, de l'atelier de vélos.", "en": "Everyone claps. Then Marc introduces his second guest: Amadou, a friend of Sophie's from the bike workshop." },
+      { "sp": "Amadou", "fr": "Bonjour à tous. Je suis sénégalais, de Dakar. Au Sénégal, le français est la langue officielle : à l'école, au travail, dans les journaux. Mais à la maison, on parle wolof.", "en": "Hello everyone. I'm Senegalese, from Dakar. In Senegal, French is the official language: at school, at work, in the newspapers. But at home, we speak Wolof." },
+      { "sp": "Inès", "fr": "Le wolof ? Je ne connais pas.", "en": "Wolof? I don't know it." },
+      { "sp": "Amadou", "fr": "C'est la langue la plus parlée au Sénégal. Chez nous, on passe du wolof au français dans la même phrase !", "en": "It's the most widely spoken language in Senegal. At home, we switch from Wolof to French in the same sentence!" },
+      { "sp": "Marc", "fr": "Et n'oubliez pas l'outre-mer : la Martinique, la Guadeloupe, la Réunion. C'est la France aussi ! On y parle français et créole.", "en": "And don't forget the overseas territories: Martinique, Guadeloupe, Réunion. That's France too! People there speak French and Creole." },
+      { "sp": "Léa", "fr": "Et au Maghreb ? La grand-mère de Mathis est marocaine.", "en": "And in the Maghreb? Mathis's grandmother is Moroccan." },
+      { "sp": "Marc", "fr": "Au Maroc, en Algérie et en Tunisie, beaucoup de gens parlent arabe et français. Et à Lyon, il y a beaucoup de familles maghrébines.", "en": "In Morocco, Algeria and Tunisia, lots of people speak Arabic and French. And in Lyon, there are many North African families." },
+      { "sp": "Marc", "fr": "Maintenant, l'Europe. En Belgique et en Suisse, soixante-dix, c'est septante, et quatre-vingt-dix, c'est nonante !", "en": "Now, Europe. In Belgium and Switzerland, seventy is 'septante', and ninety is 'nonante'!" },
+      { "sp": "Tom", "fr": "Septante, nonante… Enfin des nombres logiques ! Pourquoi les Français ne disent pas ça ?", "en": "Septante, nonante… Logical numbers at last! Why don't the French say that?" },
+      { "sp": "Marc", "fr": "Bonne question ! Et en Suisse, certains disent même huitante. Les Belges et les Suisses ont leur accent… comme les Québécois et les Lyonnais !", "en": "Good question! And in Switzerland, some even say 'huitante'. Belgians and Swiss people have their own accent… like Quebecers and the people of Lyon!" },
+      { "sp": "Carla", "fr": "Alors, il y a plusieurs français ?", "en": "So there are several kinds of French?" },
+      { "sp": "Marc", "fr": "Exactement : il n'y a pas un français, il y a des français. Et nous sommes tous francophones !", "en": "Exactly: there isn't one French, there are many. And we're all French speakers!" },
+      { "sp": "", "fr": "À la fin du cours, Tom écrit dans son carnet : « septante, nonante, huitante, une tuque, magasiner, souper, pantoute ». Son carnet devient francophone !", "en": "At the end of the class, Tom writes in his notebook: 'septante, nonante, huitante, tuque, magasiner, souper, pantoute'. His notebook is going French-speaking!" }
+    ]
+  }
+}

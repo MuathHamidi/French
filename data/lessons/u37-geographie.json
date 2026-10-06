@@ -1,0 +1,170 @@
+{
+  "id": "u37-geographie",
+  "type": "vocab",
+  "unit": 37,
+  "title": "La géographie",
+  "en": "Geography",
+  "intro": "25 words for the map of the world: the big picture (**le globe, le continent, l'océan, l'Amérique, l'Océanie, l'Antarctique, le pôle, l'équateur, l'hémisphère, tropical, polaire, peuplé**), the four directions (**le nord, le sud, l'est, l'ouest**), the land (**le volcan, la plaine, le tunnel**) and the sea (**la falaise, la marée, la dune, le phare, la Manche, la mer du Nord**). Careful: *l'est* (east) is said /ɛst/, with its *t*, unlike *il est* /ɛ/.",
+  "words": [
+    { "id": "globe", "fr": "globe", "pos": "noun", "g": "m", "ipa": "ɡlɔb", "en": "globe", "def": "Une carte du monde en forme de ballon, qui tourne.", "def_en": "A ball-shaped map of the world that spins.", "forms": ["globes"], "examples": [
+      { "fr": "Lou fait tourner son **globe**.", "en": "Lou spins her globe." },
+      { "fr": "Sur le **globe**, la France est toute petite.", "en": "On the globe, France is tiny." },
+      { "fr": "Montre-moi le Canada sur le **globe**.", "en": "Show me Canada on the globe." }
+    ] },
+    { "id": "continent", "fr": "continent", "pos": "noun", "g": "m", "ipa": "kɔ̃.ti.nɑ̃", "en": "continent", "def": "Une très grande [partie|partie] de la Terre, entourée par la mer.", "def_en": "A very large part of the Earth, surrounded by sea.", "forms": ["continents"], "examples": [
+      { "fr": "L'Afrique est un **continent** immense.", "en": "Africa is a huge continent." },
+      { "fr": "Il y a des francophones sur cinq **continents**.", "en": "There are French speakers on five continents." },
+      { "fr": "Pour les Britanniques, la France, c'est le **continent**.", "en": "For the British, France is the Continent." }
+    ] },
+    { "id": "ocean", "fr": "océan", "pos": "noun", "g": "m", "ipa": "ɔ.se.ɑ̃", "en": "ocean", "def": "Une immense étendue d'eau salée, plus grande qu'une mer.", "def_en": "A huge stretch of salt water, bigger than a sea.", "forms": ["océans"], "examples": [
+      { "fr": "Le Pacifique est le plus grand **océan** du monde.", "en": "The Pacific is the biggest ocean in the world." },
+      { "fr": "Montréal est de l'autre côté de l'**océan** Atlantique.", "en": "Montreal is on the other side of the Atlantic Ocean." },
+      { "fr": "Il y a cinq **océans** sur la Terre.", "en": "There are five oceans on Earth." }
+    ] },
+    { "id": "n-amerique", "fr": "Amérique", "pos": "name", "art": "l'", "ipa": "a.me.ʁik", "say": "l'Amérique", "en": "America (l'Amérique du Nord, l'Amérique du Sud)", "def": "Le continent de l'autre côté de l'océan Atlantique, avec le Canada, les États-Unis et le Brésil.", "def_en": "The continent across the Atlantic Ocean, with Canada, the United States and Brazil.", "examples": [
+      { "fr": "Le Canada est en **Amérique** du Nord.", "en": "Canada is in North America." },
+      { "fr": "Antoine vit en **Amérique**.", "en": "Antoine lives in America." },
+      { "fr": "Au Brésil, en **Amérique** du Sud, on parle portugais.", "en": "In Brazil, in South America, people speak Portuguese." }
+    ] },
+    { "id": "n-oceanie", "fr": "Océanie", "pos": "name", "art": "l'", "ipa": "ɔ.se.a.ni", "say": "l'Océanie", "en": "Oceania", "def": "Le continent de l'Australie et de milliers d'îles du Pacifique.", "def_en": "The continent of Australia and thousands of Pacific islands.", "examples": [
+      { "fr": "L'Australie est en **Océanie**.", "en": "Australia is in Oceania." },
+      { "fr": "L'**Océanie** est très loin de la France.", "en": "Oceania is very far from France." },
+      { "fr": "En **Océanie**, Noël, c'est en été.", "en": "In Oceania, Christmas is in summer." }
+    ] },
+    { "id": "n-antarctique", "fr": "Antarctique", "pos": "name", "art": "l'", "ipa": "ɑ̃.taʁk.tik", "say": "l'Antarctique", "en": "Antarctica", "def": "Le continent glacé autour du pôle Sud, où il n'y a presque pas d'habitants.", "def_en": "The frozen continent around the South Pole, where almost nobody lives.", "examples": [
+      { "fr": "En **Antarctique**, il fait moins cinquante.", "en": "In Antarctica, it's minus fifty." },
+      { "fr": "Il y a des manchots en **Antarctique**.", "en": "There are penguins in Antarctica." },
+      { "fr": "L'**Antarctique** est le continent le plus froid.", "en": "Antarctica is the coldest continent." }
+    ] },
+    { "id": "pole", "fr": "pôle", "pos": "noun", "g": "m", "ipa": "pol", "en": "pole (le pôle Nord, le pôle Sud)", "def": "Le point tout en haut ou tout en bas de la Terre.", "def_en": "The point right at the top or right at the bottom of the Earth.", "forms": ["pôles"], "examples": [
+      { "fr": "Le Père Noël habite au **pôle** Nord.", "en": "Father Christmas lives at the North Pole." },
+      { "fr": "Au **pôle** Sud, il y a des manchots.", "en": "At the South Pole, there are penguins." },
+      { "fr": "Aux **pôles**, il fait toujours froid.", "en": "At the poles, it's always cold." }
+    ] },
+    { "id": "equateur", "fr": "équateur", "pos": "noun", "g": "m", "ipa": "e.kwa.tœʁ", "en": "equator", "def": "La ligne imaginaire qui coupe la Terre en deux, au milieu.", "def_en": "The imaginary line that cuts the Earth in two, in the middle.", "note": "*L'Équateur*, with a capital, is Ecuador.", "examples": [
+      { "fr": "Près de l'**équateur**, il fait chaud toute l'année.", "en": "Near the equator, it's hot all year round." },
+      { "fr": "L'Afrique est traversée par l'**équateur**.", "en": "The equator runs through Africa." },
+      { "fr": "Sur le globe, l'**équateur** est une ligne rouge.", "en": "On the globe, the equator is a red line." }
+    ] },
+    { "id": "hemisphere", "fr": "hémisphère", "pos": "noun", "g": "m", "ipa": "e.mi.sfɛʁ", "en": "hemisphere", "def": "Chaque moitié de la Terre, au nord ou au sud de l'équateur.", "def_en": "Each half of the Earth, north or south of the equator.", "note": "Masculine: *l'hémisphère sud*.", "forms": ["hémisphères"], "examples": [
+      { "fr": "Dans l'**hémisphère** sud, Noël, c'est l'été.", "en": "In the southern hemisphere, Christmas is in summer." },
+      { "fr": "La France est dans l'**hémisphère** nord.", "en": "France is in the northern hemisphere." },
+      { "fr": "L'Australie est dans l'**hémisphère** sud.", "en": "Australia is in the southern hemisphere." }
+    ] },
+    { "id": "nord", "fr": "nord", "pos": "noun", "g": "m", "ipa": "nɔʁ", "en": "north (le Grand Nord = the far north)", "def": "La direction qui est en haut sur une carte.", "def_en": "The direction at the top of a map.", "examples": [
+      { "fr": "Lille est dans le **nord** de la France.", "en": "Lille is in the north of France." },
+      { "fr": "Il fait plus froid dans le **nord**.", "en": "It's colder in the north." },
+      { "fr": "La Belgique est au **nord** de la France.", "en": "Belgium is north of France." }
+    ] },
+    { "id": "sud", "fr": "sud", "pos": "noun", "g": "m", "ipa": "syd", "en": "south", "def": "La direction qui est en bas sur une carte.", "def_en": "The direction at the bottom of a map.", "examples": [
+      { "fr": "Marseille est dans le **sud** de la France.", "en": "Marseille is in the south of France." },
+      { "fr": "Au **sud**, il fait plus chaud.", "en": "In the south, it's warmer." },
+      { "fr": "Madrid est au **sud** de Lyon.", "en": "Madrid is south of Lyon." }
+    ] },
+    { "id": "est-n", "fr": "est", "pos": "noun", "g": "m", "manual": true, "ipa": "ɛst", "say": "l'est", "en": "east", "def": "La direction où le soleil se lève.", "def_en": "The direction where the sun rises.", "note": "Said /ɛst/, with the *t*, unlike *il est* /ɛ/.", "examples": [
+      { "fr": "Le soleil se lève à **[l'est|est-n]**.", "en": "The sun rises in the east." },
+      { "fr": "Annecy est à **[l'est|est-n]** de Lyon.", "en": "Annecy is east of Lyon." },
+      { "fr": "Le vent vient de **[l'est|est-n]**.", "en": "The wind is coming from the east." }
+    ] },
+    { "id": "ouest", "fr": "ouest", "pos": "noun", "g": "m", "ipa": "wɛst", "en": "west", "def": "La direction où le soleil se couche.", "def_en": "The direction where the sun sets.", "examples": [
+      { "fr": "Le soleil se couche à l'**ouest**.", "en": "The sun sets in the west." },
+      { "fr": "L'océan Atlantique est à l'**ouest** de la France.", "en": "The Atlantic Ocean is west of France." },
+      { "fr": "Montréal est à l'**ouest**, de l'autre côté de l'océan.", "en": "Montreal is to the west, on the other side of the ocean." }
+    ] },
+    { "id": "volcan", "fr": "volcan", "pos": "noun", "g": "m", "ipa": "vɔl.kɑ̃", "en": "volcano", "def": "Une montagne d'où sortent parfois du feu et des pierres très chaudes.", "def_en": "A mountain that sometimes throws out fire and very hot stones.", "forms": ["volcans"], "examples": [
+      { "fr": "En Auvergne, il y a de vieux **volcans**.", "en": "In Auvergne, there are old volcanoes." },
+      { "fr": "Le **volcan** dort depuis des milliers d'années.", "en": "The volcano has been asleep for thousands of years." },
+      { "fr": "Lou veut voir un **volcan**.", "en": "Lou wants to see a volcano." }
+    ] },
+    { "id": "plaine", "fr": "plaine", "pos": "noun", "g": "f", "ipa": "plɛn", "en": "plain", "def": "Une grande étendue de terre plate, sans collines.", "def_en": "A large stretch of flat land, without hills.", "forms": ["plaines"], "examples": [
+      { "fr": "Le nord de la France est une grande **plaine**.", "en": "The north of France is a big plain." },
+      { "fr": "Dans la **plaine**, on voit très loin.", "en": "On the plain, you can see a long way." },
+      { "fr": "Les vaches mangent dans la **plaine**.", "en": "The cows are grazing on the plain." }
+    ] },
+    { "id": "falaise", "fr": "falaise", "pos": "noun", "g": "f", "ipa": "fa.lɛz", "en": "cliff", "def": "Un mur de pierre très haut, au bord de la mer.", "def_en": "A very high wall of rock, by the sea.", "forms": ["falaises"], "examples": [
+      { "fr": "À Douvres, il y a de grandes **falaises** blanches.", "en": "In Dover, there are big white cliffs." },
+      { "fr": "N'allez pas au bord de la **falaise** !", "en": "Don't go to the edge of the cliff!" },
+      { "fr": "Les oiseaux vivent sur la **falaise**.", "en": "The birds live on the cliff." }
+    ] },
+    { "id": "maree", "fr": "marée", "pos": "noun", "g": "f", "ipa": "ma.ʁe", "en": "tide (marée haute / basse = high / low tide)", "def": "Le mouvement de la mer, qui monte et descend deux fois par jour.", "def_en": "The movement of the sea, which comes in and goes out twice a day.", "forms": ["marées"], "examples": [
+      { "fr": "Dans la mer du Nord, les **marées** sont fortes.", "en": "In the North Sea, the tides are strong." },
+      { "fr": "À **marée** basse, on peut marcher très loin.", "en": "At low tide, you can walk a long way out." },
+      { "fr": "En Méditerranée, il n'y a presque pas de **marée**.", "en": "In the Mediterranean, there's almost no tide." }
+    ] },
+    { "id": "n-manche", "fr": "Manche", "pos": "name", "art": "la", "ipa": "mɑ̃ʃ", "say": "la Manche", "en": "the English Channel", "def": "La mer entre la France et l'Angleterre.", "def_en": "The sea between France and England.", "examples": [
+      { "fr": "Le train passe sous la **Manche**.", "en": "The train goes under the Channel." },
+      { "fr": "La **Manche** est entre la France et l'Angleterre.", "en": "The Channel lies between France and England." },
+      { "fr": "On peut traverser la **Manche** en bateau.", "en": "You can cross the Channel by boat." }
+    ] },
+    { "id": "tunnel", "fr": "tunnel", "pos": "noun", "g": "m", "ipa": "ty.nɛl", "en": "tunnel", "def": "Un long passage sous la terre, sous une montagne ou sous la mer.", "def_en": "A long passage under the ground, under a mountain or under the sea.", "forms": ["tunnels"], "examples": [
+      { "fr": "Le **tunnel** sous la Manche fait cinquante kilomètres.", "en": "The Channel Tunnel is fifty kilometres long." },
+      { "fr": "Le train entre dans le **tunnel**.", "en": "The train goes into the tunnel." },
+      { "fr": "Dans le **tunnel**, il fait tout noir.", "en": "In the tunnel, it's pitch dark." }
+    ] },
+    { "id": "tropical", "fr": "tropical", "pos": "adj", "ipa": "tʁɔ.pi.kal", "display": "tropical, tropicale", "en": "tropical", "def": "Des pays chauds et humides, près de l'équateur.", "def_en": "Of the hot, humid countries near the equator.", "forms": ["tropicale", "tropicaux", "tropicales"], "examples": [
+      { "fr": "La forêt **tropicale** est pleine d'animaux.", "en": "The rainforest is full of animals." },
+      { "fr": "Au Brésil, le climat est **tropical**.", "en": "In Brazil, the climate is tropical." },
+      { "fr": "Les fruits **tropicaux** viennent de loin.", "en": "Tropical fruit comes from far away." }
+    ] },
+    { "id": "polaire", "fr": "polaire", "pos": "adj", "ipa": "pɔ.lɛʁ", "en": "polar; (une polaire) a fleece", "def": "Des régions très froides, autour des pôles.", "def_en": "Of the very cold regions around the poles.", "forms": ["polaires"], "examples": [
+      { "fr": "L'ours **polaire** vit au pôle Nord.", "en": "The polar bear lives at the North Pole." },
+      { "fr": "Il fait un froid **polaire** !", "en": "It's freezing cold!" },
+      { "fr": "Mets ta **polaire** : il fait froid.", "en": "Put your fleece on: it's cold." }
+    ] },
+    { "id": "peuple-adj", "fr": "peuplé", "pos": "adj", "ipa": "pœ.ple", "display": "peuplé, peuplée", "en": "populated (très peuplé = densely populated)", "def": "Où il y a beaucoup d'habitants.", "def_en": "Where a lot of people live.", "forms": ["peuplée", "peuplés", "peuplées"], "examples": [
+      { "fr": "L'Inde est le pays le plus **peuplé** du monde.", "en": "India is the most populated country in the world." },
+      { "fr": "Le Sahara n'est pas très **peuplé**.", "en": "The Sahara isn't very populated." },
+      { "fr": "Paris est une ville très **peuplée**.", "en": "Paris is a very crowded city." }
+    ] },
+    { "id": "dune", "fr": "dune", "pos": "noun", "g": "f", "ipa": "dyn", "en": "dune", "def": "Une petite colline de sable, faite par le vent.", "def_en": "A small hill of sand, made by the wind.", "forms": ["dunes"], "examples": [
+      { "fr": "Au bord de la mer du Nord, il y a des **dunes**.", "en": "Along the North Sea, there are dunes." },
+      { "fr": "Lou court sur la **dune**.", "en": "Lou runs on the dune." },
+      { "fr": "Le vent change la forme des **dunes**.", "en": "The wind changes the shape of the dunes." }
+    ] },
+    { "id": "phare", "fr": "phare", "pos": "noun", "g": "m", "ipa": "faʁ", "en": "lighthouse; (car) headlight", "def": "Une haute tour au bord de la mer, avec une lumière qui aide les bateaux la nuit.", "def_en": "A tall tower by the sea, with a light that helps boats at night.", "forms": ["phares"], "examples": [
+      { "fr": "Le **phare** aide les bateaux la nuit.", "en": "The lighthouse helps the boats at night." },
+      { "fr": "On voit la lumière du **phare** de très loin.", "en": "You can see the lighthouse's light from far away." },
+      { "fr": "Allume tes **phares**, il fait nuit !", "en": "Turn your headlights on, it's dark!" }
+    ] },
+    { "id": "n-mer-du-nord", "fr": "mer du Nord", "pos": "name", "art": "la", "ipa": "mɛʁ dy nɔʁ", "say": "la mer du Nord", "en": "the North Sea", "def": "La mer froide entre l'Angleterre, la Belgique, les Pays-Bas, l'Allemagne et le Danemark.", "def_en": "The cold sea between England, Belgium, the Netherlands, Germany and Denmark.", "examples": [
+      { "fr": "Pierre rêve de voir la **mer du Nord**.", "en": "Pierre dreams of seeing the North Sea." },
+      { "fr": "La **mer du Nord** est froide et grise.", "en": "The North Sea is cold and grey." },
+      { "fr": "Ostende est au bord de la **mer du Nord**.", "en": "Ostend is on the North Sea." }
+    ] }
+  ],
+  "story": {
+    "title": "Le globe de Lou",
+    "en": "Saturday 19 December: the holidays begin. At Part-Dieu everyone is leaving, and Lou arrives with a globe.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi dix-neuf décembre, les vacances commencent. À la gare de la Part-Dieu, Tom part pour Londres, et Inès et Carla pour Madrid. Paul arrive de Paris avec Lou, qui va passer quelques jours chez Léa avant Noël.", "en": "On Saturday 19 December, the holidays begin. At Part-Dieu station, Tom is leaving for London, and Inès and Carla for Madrid. Paul arrives from Paris with Lou, who's going to spend a few days at Léa's before Christmas." },
+      { "sp": "Lou", "fr": "Tom ! Regarde mon globe ! C'est un cadeau de Papi Jacques.", "en": "Tom! Look at my globe! It's a present from Grandpa Jacques." },
+      { "sp": "Tom", "fr": "Il est super ! Regarde : Londres, c'est ici, en Angleterre. Entre la France et l'Angleterre, il y a la Manche. Et à Douvres, il y a de grandes falaises blanches.", "en": "It's great! Look: London is here, in England. Between France and England, there's the Channel. And in Dover, there are big white cliffs." },
+      { "sp": "Lou", "fr": "Alors ton train, il nage ?", "en": "So your train swims?" },
+      { "sp": "Tom", "fr": "Presque ! Il passe dans un tunnel, sous la mer.", "en": "Almost! It goes through a tunnel, under the sea." },
+      { "sp": "Lou", "fr": "Sous la mer ? Avec les poissons ?", "en": "Under the sea? With the fish?" },
+      { "sp": "Carla", "fr": "Et nous, on va ici, à Madrid, au sud. On change de train à Barcelone.", "en": "And we're going here, to Madrid, in the south. We change trains in Barcelona." },
+      { "sp": "", "fr": "Les trains partent. Chez Léa, avec Hugo et Sophie, Lou fait tourner son globe.", "en": "The trains leave. At Léa's, with Hugo and Sophie, Lou spins her globe." },
+      { "sp": "Lou", "fr": "Pourquoi il y a beaucoup de bleu ?", "en": "Why is there lots of blue?" },
+      { "sp": "Léa", "fr": "Le bleu, ce sont les océans. Il y en a cinq, et le plus grand, c'est le Pacifique. Et les grandes terres, ce sont les continents : l'Europe, l'Afrique, l'Asie, l'Amérique, l'Océanie et l'Antarctique.", "en": "The blue is the oceans. There are five of them, and the biggest is the Pacific. And the big pieces of land are the continents: Europe, Africa, Asia, America, Oceania and Antarctica." },
+      { "sp": "Lou", "fr": "Il habite où, le Père Noël ?", "en": "Where does Father Christmas live?" },
+      { "sp": "Hugo", "fr": "Tout en haut, au pôle Nord ! Il fait un froid polaire, et il y a des ours blancs.", "en": "Right at the top, at the North Pole! It's freezing cold, and there are polar bears." },
+      { "sp": "Lou", "fr": "Et tout en bas ?", "en": "And right at the bottom?" },
+      { "sp": "Hugo", "fr": "En bas, c'est le pôle Sud, en Antarctique. Il y a des pingouins.", "en": "At the bottom, it's the South Pole, in Antarctica. There are pingouins." },
+      { "sp": "Léa", "fr": "Des manchots, Hugo ! Les pingouins vivent au nord.", "en": "Manchots, Hugo! Pingouins, auks, live in the north." },
+      { "sp": "Lou", "fr": "Et cette ligne, au milieu ?", "en": "And this line, in the middle?" },
+      { "sp": "Léa", "fr": "C'est l'équateur. Il coupe la Terre en deux hémisphères. Près de l'équateur, il fait chaud toute l'année : c'est le climat tropical.", "en": "That's the equator. It cuts the Earth into two hemispheres. Near the equator, it's hot all year round: that's the tropical climate." },
+      { "sp": "Sophie", "fr": "Et dans l'hémisphère sud, Noël, c'est en été ! En Océanie, le Père Noël va à la plage.", "en": "And in the southern hemisphere, Christmas is in summer! In Oceania, Father Christmas goes to the beach." },
+      { "sp": "Lou", "fr": "Et nous, on va où, pour Noël ?", "en": "And where are we going for Christmas?" },
+      { "sp": "Léa", "fr": "Chez Tonton Pierre, ici, dans les montagnes, à [l'est|est-n] de Lyon. Et Antoine, il est là-bas, à l'ouest, de l'autre côté de l'océan Atlantique.", "en": "To Uncle Pierre's, here, in the mountains, east of Lyon. And Antoine is over there, to the west, on the other side of the Atlantic Ocean." },
+      { "sp": "Lou", "fr": "C'est quoi, cette montagne rouge ?", "en": "What's this red mountain?" },
+      { "sp": "Sophie", "fr": "Un volcan. Il y en a même en France, en Auvergne, mais ils dorment depuis très longtemps.", "en": "A volcano. There are even some in France, in Auvergne, but they've been asleep for a very long time." },
+      { "sp": "Hugo", "fr": "Et regarde : ici, en Chine et en Inde, c'est très peuplé. Et là, le Sahara : du sable, des dunes, et presque pas d'habitants.", "en": "And look: here, in China and India, it's very crowded. And there, the Sahara: sand, dunes, and hardly anyone." },
+      { "sp": "Lou", "fr": "Tonton Pierre veut voir la mer du Nord. Elle est où ?", "en": "Uncle Pierre wants to see the North Sea. Where is it?" },
+      { "sp": "Léa", "fr": "Ici, au nord, entre la Belgique, les Pays-Bas, l'Allemagne et l'Angleterre. Pour y aller, on traverse une grande plaine. Là-bas, il y a des dunes, des phares… et des marées : deux fois par jour, la mer part très loin, puis elle revient.", "en": "Here, in the north, between Belgium, the Netherlands, Germany and England. To get there, you cross a big plain. Up there, there are dunes, lighthouses… and tides: twice a day, the sea goes out a long way, then it comes back." },
+      { "sp": "Lou", "fr": "La mer part ? Elle va où ?", "en": "The sea goes out? Where does it go?" },
+      { "sp": "Hugo", "fr": "Elle va chercher Tonton Pierre !", "en": "It's going to fetch Uncle Pierre!" },
+      { "sp": "", "fr": "Le soir, Lou s'endort avec son globe dans les bras. Et Léa a une idée pour le cadeau de Noël de Pierre…", "en": "In the evening, Lou falls asleep with her globe in her arms. And Léa has an idea for Pierre's Christmas present…" }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "u37-langues",
+  "type": "vocab",
+  "unit": 37,
+  "title": "Les langues",
+  "en": "Languages",
+  "intro": "25 words for languages: speaking them (**la langue maternelle, bilingue, trilingue, natif, couramment, maîtriser, baragouiner, l'accent, anglophone, hispanophone, l'espagnol**), going from one to another (**la traduction, le traducteur, l'interprète, mot à mot, intraduisible, le malentendu, signifier, vouloir dire, se faire comprendre, l'expression**) and four idioms (**comme une vache espagnole, c'est du chinois, avoir la langue bien pendue, avoir un chat dans la gorge**).",
+  "words": [
+    { "id": "langue-maternelle", "fr": "langue maternelle", "pos": "noun", "g": "f", "ipa": "lɑ̃ɡ ma.tɛʁ.nɛl", "en": "mother tongue, native language", "def": "La première langue qu'on apprend, quand on est petit.", "def_en": "The first language you learn, when you're small.", "forms": ["langues maternelles"], "examples": [
+      { "fr": "Ma **langue maternelle**, c'est l'anglais.", "en": "My mother tongue is English." },
+      { "fr": "Inès et Carla ont la même **langue maternelle**.", "en": "Inès and Carla have the same mother tongue." },
+      { "fr": "On compte souvent dans sa **langue maternelle**.", "en": "People often count in their mother tongue." }
+    ] },
+    { "id": "bilingue", "fr": "bilingue", "pos": "adj", "ipa": "bi.lɛ̃ɡ", "en": "bilingual", "def": "Qui parle très bien deux langues.", "def_en": "Who speaks two languages very well.", "forms": ["bilingues"], "examples": [
+      { "fr": "Au Canada, beaucoup de gens sont **bilingues**.", "en": "In Canada, lots of people are bilingual." },
+      { "fr": "Les enfants **bilingues** passent d'une langue à l'autre.", "en": "Bilingual children switch from one language to the other." },
+      { "fr": "Cette école est **bilingue** : français et anglais.", "en": "This school is bilingual: French and English." }
+    ] },
+    { "id": "trilingue", "fr": "trilingue", "pos": "adj", "ipa": "tʁi.lɛ̃ɡ", "en": "trilingual", "def": "Qui parle très bien trois langues.", "def_en": "Who speaks three languages very well.", "forms": ["trilingues"], "examples": [
+      { "fr": "Carla est **trilingue** : espagnol, français et anglais.", "en": "Carla is trilingual: Spanish, French and English." },
+      { "fr": "En Suisse, beaucoup de gens sont **trilingues**.", "en": "In Switzerland, lots of people are trilingual." },
+      { "fr": "Le menu est **trilingue** : c'est pratique pour les touristes.", "en": "The menu is in three languages: that's handy for tourists." }
+    ] },
+    { "id": "accent", "fr": "accent", "pos": "noun", "g": "m", "ipa": "ak.sɑ̃", "en": "accent", "def": "La manière de parler une langue, qui montre d'où on vient.", "def_en": "The way you speak a language, which shows where you come from.", "note": "Also a written accent: *é, è, ê*.", "forms": ["accents"], "examples": [
+      { "fr": "Hugo parle espagnol avec un **accent** très français.", "en": "Hugo speaks Spanish with a very French accent." },
+      { "fr": "Tom a un petit **accent** anglais.", "en": "Tom has a slight English accent." },
+      { "fr": "J'adore l'**accent** québécois.", "en": "I love the Quebec accent." }
+    ] },
+    { "id": "couramment", "fr": "couramment", "pos": "adv", "ipa": "ku.ʁa.mɑ̃", "en": "fluently; commonly", "def": "Très bien et sans effort, quand on parle une langue.", "def_en": "Very well and effortlessly, when you speak a language.", "examples": [
+      { "fr": "Carla parle anglais **couramment**.", "en": "Carla speaks English fluently." },
+      { "fr": "Tu parles espagnol **couramment** ?", "en": "Do you speak Spanish fluently?" },
+      { "fr": "Il lit le chinois **couramment**.", "en": "He reads Chinese fluently." }
+    ] },
+    { "id": "interprete", "fr": "interprète", "pos": "noun", "g": "m", "both": true, "ipa": "ɛ̃.tɛʁ.pʁɛt", "en": "interpreter", "def": "La personne qui traduit à l'oral ce qu'une autre personne dit.", "def_en": "The person who translates out loud what someone else is saying.", "forms": ["interprètes"], "examples": [
+      { "fr": "Carla fait l'**interprète** pour son père.", "en": "Carla interprets for her father." },
+      { "fr": "Chaque président a son **interprète**.", "en": "Every president has an interpreter." },
+      { "fr": "Elle voudrait devenir **interprète**.", "en": "She'd like to become an interpreter." }
+    ] },
+    { "id": "traduction", "fr": "traduction", "pos": "noun", "g": "f", "ipa": "tʁa.dyk.sjɔ̃", "en": "translation", "def": "Un texte passé d'une langue à une autre.", "def_en": "A text moved from one language into another.", "forms": ["traductions"], "examples": [
+      { "fr": "Cette **traduction** est pleine d'erreurs.", "en": "This translation is full of mistakes." },
+      { "fr": "Tom lit Le Petit Prince sans **traduction**.", "en": "Tom reads The Little Prince without a translation." },
+      { "fr": "La **traduction** automatique fait des erreurs drôles.", "en": "Machine translation makes funny mistakes." }
+    ] },
+    { "id": "traducteur", "fr": "traducteur", "pos": "noun", "g": "m", "ipa": "tʁa.dyk.tœʁ", "display": "le traducteur, la traductrice", "en": "translator; translation app", "def": "La personne dont le métier est de passer des textes d'une langue à une autre. Aussi : une application qui fait ce travail.", "def_en": "The person whose job is to put texts from one language into another. Also: an app that does this.", "forms": ["traducteurs", "traductrice", "traductrices"], "examples": [
+      { "fr": "Hugo tape sa phrase dans le **traducteur**.", "en": "Hugo types his sentence into the translation app." },
+      { "fr": "Ma tante est **traductrice**.", "en": "My aunt is a translator." },
+      { "fr": "Un bon **traducteur** connaît bien les deux langues.", "en": "A good translator knows both languages well." }
+    ] },
+    { "id": "malentendu", "fr": "malentendu", "pos": "noun", "g": "m", "ipa": "ma.lɑ̃.tɑ̃.dy", "en": "misunderstanding", "def": "Quand on croit avoir [compris|comprendre], mais qu'on a compris autre chose.", "def_en": "When you think you've understood, but you've understood something else.", "forms": ["malentendus"], "examples": [
+      { "fr": "C'est un **malentendu** : je déteste le football !", "en": "It's a misunderstanding: I hate football!" },
+      { "fr": "Pour éviter les **malentendus**, parle lentement.", "en": "To avoid misunderstandings, speak slowly." },
+      { "fr": "Ce n'est qu'un petit **malentendu**.", "en": "It's just a small misunderstanding." }
+    ] },
+    { "id": "mot-a-mot", "fr": "mot à mot", "pos": "expr", "ipa": "mo.ta.mo", "en": "word for word, literally", "def": "En suivant le texte de très près, sans penser au sens de la phrase entière.", "def_en": "Following the text very closely, without thinking about what the whole sentence means.", "examples": [
+      { "fr": "Le traducteur traduit **mot à mot**.", "en": "The app translates word for word." },
+      { "fr": "Ne traduis pas **mot à mot** !", "en": "Don't translate word for word!" },
+      { "fr": "Traduite **mot à mot**, cette expression ne veut rien dire.", "en": "Translated word for word, this expression means nothing." }
+    ] },
+    { "id": "intraduisible", "fr": "intraduisible", "pos": "adj", "ipa": "ɛ̃.tʁa.dɥi.zibl", "en": "untranslatable", "def": "Qu'on ne peut pas passer dans une autre langue sans perdre son sens.", "def_en": "That can't be put into another language without losing its meaning.", "forms": ["intraduisibles"], "examples": [
+      { "fr": "Cette expression est **intraduisible**.", "en": "This expression is untranslatable." },
+      { "fr": "Chaque langue a des mots **intraduisibles**.", "en": "Every language has untranslatable words." },
+      { "fr": "Les blagues sont souvent **intraduisibles**.", "en": "Jokes are often untranslatable." }
+    ] },
+    { "id": "comme-une-vache-espagnole", "fr": "comme une vache espagnole", "pos": "expr", "ipa": "kɔm yn vaʃ ɛs.pa.ɲɔl", "en": "(to speak a language) very badly", "def": "Très mal, quand on parle une langue étrangère.", "def_en": "Very badly, when you speak a foreign language.", "note": "Always with *parler*: *parler français comme une vache espagnole*. Literally: like a Spanish cow.", "examples": [
+      { "fr": "Je parle français **comme une vache espagnole** !", "en": "My French is terrible!" },
+      { "fr": "Il parle anglais **comme une vache espagnole**.", "en": "He speaks English very badly." },
+      { "fr": "Au début, je parlais allemand **comme une vache espagnole**.", "en": "At first, my German was awful." }
+    ] },
+    { "id": "c-est-du-chinois", "fr": "c'est du chinois", "pos": "expr", "ipa": "sɛ dy ʃi.nwa", "en": "it's all Greek to me", "def": "Se dit d'une chose qu'on ne comprend pas du tout.", "def_en": "Said of something you don't understand at all.", "forms": ["c'était du chinois"], "examples": [
+      { "fr": "L'espagnol ? Pour moi, **c'est du chinois** !", "en": "Spanish? It's all Greek to me!" },
+      { "fr": "Ce contrat, **c'est du chinois**.", "en": "This contract is double Dutch." },
+      { "fr": "Les maths, **c'était du chinois** pour moi.", "en": "Maths was all Greek to me." }
+    ] },
+    { "id": "baragouiner", "fr": "baragouiner", "pos": "verb", "ipa": "ba.ʁa.ɡwi.ne", "en": "to speak (a language) badly, to have a smattering of", "def": "Parler mal une langue, avec quelques mots seulement.", "def_en": "To speak a language badly, with only a few words.", "forms": ["baragouine", "baragouines", "baragouinons", "baragouinez", "baragouinent", "baragouiné", "baragouinée", "baragouinés", "baragouinées", "baragouinais", "baragouinait", "baragouinions", "baragouiniez", "baragouinaient", "baragouinerai", "baragouineras", "baragouinera", "baragouinerons", "baragouinerez", "baragouineront", "baragouinerais", "baragouinerait", "baragouinerions", "baragouineriez", "baragouineraient", "baragouinant", "baragouinai", "baragouinas", "baragouina", "baragouinâmes", "baragouinâtes", "baragouinèrent"], "examples": [
+      { "fr": "Ma mère **baragouine** un peu de français.", "en": "My mother speaks a bit of broken French." },
+      { "fr": "Je **baragouine** trois mots d'espagnol.", "en": "I can mumble three words of Spanish." },
+      { "fr": "Au début, Tom **baragouinait** le français.", "en": "At first, Tom spoke broken French." }
+    ] },
+    { "id": "maitriser", "fr": "maîtriser", "pos": "verb", "ipa": "mɛ.tʁi.ze", "en": "to master", "def": "Connaître très bien quelque chose, et savoir s'en servir.", "def_en": "To know something very well, and know how to use it.", "forms": ["maîtrise", "maîtrises", "maîtrisons", "maîtrisez", "maîtrisent", "maîtrisé", "maîtrisée", "maîtrisés", "maîtrisées", "maîtrisais", "maîtrisait", "maîtrisions", "maîtrisiez", "maîtrisaient", "maîtriserai", "maîtriseras", "maîtrisera", "maîtriserons", "maîtriserez", "maîtriseront", "maîtriserais", "maîtriserait", "maîtriserions", "maîtriseriez", "maîtriseraient", "maîtrisant", "maîtrisai", "maîtrisas", "maîtrisa", "maîtrisâmes", "maîtrisâtes", "maîtrisèrent"], "examples": [
+      { "fr": "Carla **maîtrise** trois langues.", "en": "Carla has mastered three languages." },
+      { "fr": "Il faut des années pour **maîtriser** une langue.", "en": "It takes years to master a language." },
+      { "fr": "Hugo veut **maîtriser** l'espagnol en deux semaines.", "en": "Hugo wants to master Spanish in two weeks." }
+    ] },
+    { "id": "signifier", "fr": "signifier", "pos": "verb", "ipa": "si.ɲi.fje", "en": "to mean, to signify", "def": "Avoir un sens, pour un mot, une phrase ou un signe.", "def_en": "To have a meaning, for a word, a sentence or a sign.", "forms": ["signifie", "signifies", "signifions", "signifiez", "signifient", "signifié", "signifiée", "signifiés", "signifiées", "signifiais", "signifiait", "signifiions", "signifiiez", "signifiaient", "signifierai", "signifieras", "signifiera", "signifierons", "signifierez", "signifieront", "signifierais", "signifierait", "signifierions", "signifieriez", "signifieraient", "signifiant", "signifiai", "signifias", "signifia", "signifiâmes", "signifiâtes", "signifièrent"], "examples": [
+      { "fr": "Qu'est-ce que ce mot **signifie** ?", "en": "What does this word mean?" },
+      { "fr": "Un feu rouge **signifie** : stop.", "en": "A red light means: stop." },
+      { "fr": "Ce geste **signifie** « bravo ».", "en": "This gesture means 'well done'." }
+    ] },
+    { "id": "vouloir-dire", "fr": "vouloir dire", "pos": "verb", "ipa": "vu.lwaʁ diʁ", "en": "to mean (everyday French)", "def": "Avoir un sens, dans la langue de tous les jours.", "def_en": "To mean, in everyday language.", "forms": ["veux dire", "veut dire", "voulons dire", "voulez dire", "veulent dire", "voulais dire", "voulait dire", "voulions dire", "vouliez dire", "voulaient dire", "voudra dire", "voudrait dire", "voulu dire", "veuille dire"], "examples": [
+      { "fr": "Qu'est-ce que ça **veut dire** ?", "en": "What does that mean?" },
+      { "fr": "Je ne sais pas ce que ce mot **veut dire**.", "en": "I don't know what this word means." },
+      { "fr": "« Hola » **veut dire** « bonjour ».", "en": "'Hola' means 'hello'." }
+    ] },
+    { "id": "espagnol", "fr": "espagnol", "pos": "adj", "ipa": "ɛs.pa.ɲɔl", "display": "espagnol, espagnole", "en": "Spanish; (l'espagnol) Spanish, the language", "def": "Qui vient d'Espagne. Aussi : la langue qu'on parle à Madrid et dans presque toute l'Amérique du Sud.", "def_en": "From Spain. Also: the language spoken in Madrid and in almost all of South America.", "forms": ["espagnole", "espagnols", "espagnoles"], "examples": [
+      { "fr": "Hugo apprend l'**espagnol** avec une application.", "en": "Hugo is learning Spanish with an app." },
+      { "fr": "Les **Espagnols** dînent tard.", "en": "Spaniards have dinner late." },
+      { "fr": "J'adore la musique **espagnole**.", "en": "I love Spanish music." }
+    ] },
+    { "id": "natif", "fr": "natif", "pos": "adj", "ipa": "na.tif", "display": "natif, native", "en": "native (un locuteur natif = a native speaker)", "def": "Qui parle une langue depuis qu'il est tout petit.", "def_en": "Who has spoken a language since early childhood.", "forms": ["native", "natifs", "natives"], "examples": [
+      { "fr": "Pour progresser, parle avec des **natifs**.", "en": "To make progress, talk to native speakers." },
+      { "fr": "Carla parle anglais presque comme une **native**.", "en": "Carla speaks English almost like a native." },
+      { "fr": "Mon professeur d'anglais est **natif** de Londres.", "en": "My English teacher is a native of London." }
+    ] },
+    { "id": "avoir-la-langue-bien-pendue", "fr": "avoir la langue bien pendue", "pos": "expr", "ipa": "a.vwaʁ la lɑ̃ɡ bjɛ̃ pɑ̃.dy", "en": "to be a chatterbox, to have the gift of the gab", "def": "Parler beaucoup, et facilement.", "def_en": "To talk a lot, and easily.", "forms": ["ai la langue bien pendue", "as la langue bien pendue", "a la langue bien pendue", "avons la langue bien pendue", "avez la langue bien pendue", "ont la langue bien pendue", "avais la langue bien pendue", "avait la langue bien pendue", "avaient la langue bien pendue"], "examples": [
+      { "fr": "Ma mère **a la langue bien pendue** !", "en": "My mother's a real chatterbox!" },
+      { "fr": "Lou **a la langue bien pendue** pour son âge.", "en": "Lou is very chatty for her age." },
+      { "fr": "Pour vendre des voitures, il faut **avoir la langue bien pendue**.", "en": "To sell cars, you need the gift of the gab." }
+    ] },
+    { "id": "se-faire-comprendre", "fr": "se faire comprendre", "pos": "verb", "ipa": "sə fɛʁ kɔ̃.pʁɑ̃dʁ", "en": "to make oneself understood", "def": "Réussir à expliquer ce qu'on veut, même avec peu de mots.", "def_en": "To manage to explain what you want, even with few words.", "forms": ["me faire comprendre", "te faire comprendre", "se fait comprendre", "se font comprendre", "se faisait comprendre", "nous nous faisons comprendre", "vous vous faites comprendre", "me suis fait comprendre", "s'est fait comprendre"], "examples": [
+      { "fr": "Avec les mains, on arrive toujours à **se faire comprendre**.", "en": "With your hands, you can always make yourself understood." },
+      { "fr": "Tom **se fait comprendre** partout.", "en": "Tom makes himself understood everywhere." },
+      { "fr": "J'ai du mal à **me faire comprendre** en anglais.", "en": "I struggle to make myself understood in English." }
+    ] },
+    { "id": "hispanophone", "fr": "hispanophone", "pos": "adj", "ipa": "is.pa.nɔ.fɔn", "en": "Spanish-speaking; (un hispanophone) a Spanish speaker", "def": "Qui parle espagnol.", "def_en": "Who speaks Spanish.", "forms": ["hispanophones"], "examples": [
+      { "fr": "Le Mexique est un pays **hispanophone**.", "en": "Mexico is a Spanish-speaking country." },
+      { "fr": "En Amérique du Sud, presque tous les pays sont **hispanophones**.", "en": "In South America, almost every country is Spanish-speaking." },
+      { "fr": "À Madrid, tout le monde est **hispanophone**.", "en": "In Madrid, everyone speaks Spanish." }
+    ] },
+    { "id": "expression", "fr": "expression", "pos": "noun", "g": "f", "ipa": "ɛks.pʁɛ.sjɔ̃", "en": "expression, phrase; idiom", "def": "Un groupe de mots qui a un sens spécial, différent du sens de chaque mot.", "def_en": "A group of words with a special meaning, different from the meaning of each word.", "forms": ["expressions"], "examples": [
+      { "fr": "C'est une **expression** : ça veut dire « très mal ».", "en": "It's an expression: it means 'very badly'." },
+      { "fr": "Tom note les **expressions** dans son carnet.", "en": "Tom writes the expressions down in his notebook." },
+      { "fr": "Chaque langue a ses **expressions**.", "en": "Every language has its own expressions." }
+    ] },
+    { "id": "anglophone", "fr": "anglophone", "pos": "adj", "ipa": "ɑ̃.ɡlɔ.fɔn", "en": "English-speaking; (un anglophone) an English speaker", "def": "Qui parle anglais.", "def_en": "Who speaks English.", "forms": ["anglophones"], "examples": [
+      { "fr": "Tom est **anglophone**.", "en": "Tom is an English speaker." },
+      { "fr": "Beaucoup d'**anglophones** apprennent le français.", "en": "Lots of English speakers learn French." },
+      { "fr": "Les touristes **anglophones** adorent Paris.", "en": "English-speaking tourists love Paris." }
+    ] },
+    { "id": "avoir-un-chat-dans-la-gorge", "fr": "avoir un chat dans la gorge", "pos": "expr", "ipa": "a.vwaʁ œ̃ ʃa dɑ̃ la ɡɔʁʒ", "en": "to have a frog in one's throat", "def": "Avoir la voix un peu cassée, pendant un moment.", "def_en": "To have a slightly hoarse voice, for a moment.", "forms": ["ai un chat dans la gorge", "as un chat dans la gorge", "a un chat dans la gorge", "avons un chat dans la gorge", "avez un chat dans la gorge", "ont un chat dans la gorge", "avais un chat dans la gorge", "avait un chat dans la gorge"], "examples": [
+      { "fr": "Pardon, j'**ai un chat dans la gorge**.", "en": "Sorry, I've got a frog in my throat." },
+      { "fr": "Le chanteur **a un chat dans la gorge**.", "en": "The singer has a frog in his throat." },
+      { "fr": "Bois un peu d'eau si tu **as un chat dans la gorge**.", "en": "Drink some water if you've got a frog in your throat." }
+    ] }
+  ],
+  "story": {
+    "title": "Hola, Hugo !",
+    "en": "Wednesday 16 December: Hugo meets Carla's parents, on a video call to Madrid.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi seize décembre, chez Hugo. Dans dix minutes, il rencontre les parents de Carla, en appel vidéo avec Madrid. Il est très nerveux.", "en": "On Wednesday 16 December, at Hugo's. In ten minutes, he's meeting Carla's parents, on a video call to Madrid. He's very nervous." },
+      { "sp": "Hugo", "fr": "J'apprends l'espagnol depuis deux semaines, avec une application. Écoutez : « Hola ! »", "en": "I've been learning Spanish for two weeks, with an app. Listen: 'Hola!'" },
+      { "sp": "Inès", "fr": "Pas mal… mais tu as un accent très français.", "en": "Not bad… but you have a very French accent." },
+      { "sp": "Hugo", "fr": "Normal : ma langue maternelle, c'est le français ! Et ton père, Carla, il parle français ?", "en": "Of course: my mother tongue is French! And your father, Carla, does he speak French?" },
+      { "sp": "Carla", "fr": "Pas un mot. Ma mère baragouine un peu, mais mon père ne parle que l'espagnol. Ne t'inquiète pas : je serai ton interprète.", "en": "Not a word. My mother speaks a little, badly, but my father only speaks Spanish. Don't worry: I'll be your interpreter." },
+      { "sp": "Inès", "fr": "Nous, on est bilingues, et Carla est même trilingue : elle parle aussi anglais couramment.", "en": "We're bilingual, and Carla's even trilingual: she speaks fluent English too." },
+      { "sp": "Hugo", "fr": "Et moi, l'espagnol, c'est du chinois !", "en": "And for me, Spanish is all Greek!" },
+      { "sp": "", "fr": "L'écran s'allume. Les parents de Carla sourient, dans leur salon, à Madrid.", "en": "The screen comes on. Carla's parents are smiling, in their living room in Madrid." },
+      { "sp": "Hugo", "fr": "Hola ! Euh… Bonsoir, madame. Bonsoir, monsieur.", "en": "Hola! Er… Good evening, madam. Good evening, sir." },
+      { "sp": "La mère de Carla", "fr": "Bonsoir, Hugo ! Excusez-moi, je parle français comme une vache espagnole !", "en": "Good evening, Hugo! Sorry, my French is terrible, 'like a Spanish cow', as you say!" },
+      { "sp": "Hugo", "fr": "Une vache ? Mais pourquoi une vache ?", "en": "A cow? But why a cow?" },
+      { "sp": "Carla", "fr": "C'est une expression, Hugo ! Ça veut dire « très mal ». En espagnol, elle est intraduisible.", "en": "It's an expression, Hugo! It means 'very badly'. You can't translate it into Spanish." },
+      { "sp": "", "fr": "Le père de Carla parle très vite, en espagnol. Hugo ne comprend rien, mais il répond « oui, oui » avec un grand sourire.", "en": "Carla's father talks very fast, in Spanish. Hugo doesn't understand a thing, but he answers 'yes, yes' with a big smile." },
+      { "sp": "Carla", "fr": "Il t'a demandé si tu aimais le football. Tu as dit oui… Maintenant, il veut t'emmener au stade !", "en": "He asked if you liked football. You said yes… Now he wants to take you to the stadium!" },
+      { "sp": "Hugo", "fr": "Au stade ? Mais je déteste le football ! C'est un malentendu !", "en": "To the stadium? But I hate football! It's a misunderstanding!" },
+      { "sp": "", "fr": "Hugo tousse : il a un chat dans la gorge. Pour s'expliquer, il tape la phrase dans son traducteur, qui la traduit mot à mot. Le père de Carla, très inquiet, cherche un chat partout.", "en": "Hugo coughs: he has a frog in his throat. To explain, he types the French phrase into his translation app, which translates it word for word. Carla's father, very worried, looks everywhere for a cat." },
+      { "sp": "Carla", "fr": "Papa, il n'y a pas de chat ! En français, ça signifie qu'on a la voix un peu cassée.", "en": "Dad, there's no cat! In French, it means your voice is a bit hoarse." },
+      { "sp": "La mère de Carla", "fr": "Vous voyez, Hugo : avec les mains, c'est plus simple. Avec des gestes, on arrive toujours à se faire comprendre !", "en": "You see, Hugo: it's simpler with your hands. With gestures, you can always make yourself understood!" },
+      { "sp": "Carla", "fr": "Ma mère a la langue bien pendue : elle parle avec la bouche et avec les mains !", "en": "My mother's a real chatterbox: she talks with her mouth and with her hands!" },
+      { "sp": "", "fr": "À la fin, le père de Carla dit quelque chose de long et de très sérieux. Silence.", "en": "At the end, Carla's father says something long and very serious. Silence." },
+      { "sp": "Carla", "fr": "Il dit : « Hugo, viens à Madrid pour le réveillon. À minuit, on mange douze raisins. Et on parlera, avec ou sans interprète. »", "en": "He says: 'Hugo, come to Madrid for New Year's Eve. At midnight, we eat twelve grapes. And we'll talk, with or without an interpreter.'" },
+      { "sp": "Hugo", "fr": "Oui ! Ça, je sais le dire en espagnol !", "en": "Yes! That one I can say in Spanish!" },
+      { "sp": "Inès", "fr": "Pour progresser vite, il faut parler avec des natifs. À Madrid, tout le monde est hispanophone : c'est parfait !", "en": "To make quick progress, you have to talk to native speakers. In Madrid, everyone speaks Spanish: it's perfect!" },
+      { "sp": "Hugo", "fr": "Tom est anglophone, et maintenant, il parle français couramment. Moi, je vais maîtriser l'espagnol en deux semaines !", "en": "Tom is an English speaker, and now he speaks French fluently. I'm going to master Spanish in two weeks!" },
+      { "sp": "Carla", "fr": "Tom a mis plus d'un an, Hugo… Commence par « bonne année », sans traduction !", "en": "It took Tom more than a year, Hugo… Start with 'happy new year', without a translation!" }
+    ]
+  }
+}

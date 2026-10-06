@@ -1,0 +1,164 @@
+{
+  "id": "u37-pays",
+  "type": "vocab",
+  "unit": 37,
+  "title": "Les pays et les nationalités",
+  "en": "Countries & nationalities",
+  "intro": "25 words for countries and the people who live there: ten countries with their nationality (**l'Allemagne, allemand; l'Italie, italien; le Portugal, portugais; les Pays-Bas, néerlandais; le Danemark, danois; la Grèce, grec; la Chine, chinois; le Brésil, brésilien; le Royaume-Uni, britannique; les États-Unis, américain**), and life between countries (**international, accueillant, originaire, la double nationalité, le dépaysement**). A nationality adjective takes no capital (*une amie allemande*), the people do (*les Allemands*), and the language is masculine (*l'allemand*). Countries ending in *-e* are feminine (*la Grèce*, *en Grèce*); the others are masculine (*le Brésil*, *au Brésil*).",
+  "words": [
+    { "id": "international", "fr": "international", "pos": "adj", "ipa": "ɛ̃.tɛʁ.na.sjɔ.nal", "display": "international, internationale", "en": "international", "def": "Qui se passe entre plusieurs pays.", "def_en": "Happening between several countries.", "forms": ["internationale", "internationaux", "internationales"], "examples": [
+      { "fr": "Mon école organise un atelier **international**.", "en": "My school is organising an international workshop." },
+      { "fr": "Lyon a un aéroport **international**.", "en": "Lyon has an international airport." },
+      { "fr": "Le français est une langue **internationale**.", "en": "French is an international language." }
+    ] },
+    { "id": "n-allemagne", "fr": "Allemagne", "pos": "name", "art": "l'", "ipa": "al.maɲ", "say": "l'Allemagne", "en": "Germany", "def": "Le grand pays voisin de la France, dont la capitale est Berlin.", "def_en": "The big country next to France, whose capital is Berlin.", "examples": [
+      { "fr": "Berlin est la capitale de l'**Allemagne**.", "en": "Berlin is the capital of Germany." },
+      { "fr": "On peut aller en **Allemagne** en train.", "en": "You can go to Germany by train." },
+      { "fr": "L'**Allemagne** a neuf pays voisins.", "en": "Germany has nine neighbouring countries." }
+    ] },
+    { "id": "allemand", "fr": "allemand", "pos": "adj", "ipa": "al.mɑ̃", "display": "allemand, allemande", "en": "German; (l'allemand) German, the language", "def": "Qui vient d'Allemagne. Aussi : la langue qu'on parle à Berlin.", "def_en": "From Germany. Also: the language spoken in Berlin.", "forms": ["allemande", "allemands", "allemandes"], "examples": [
+      { "fr": "Je ne parle pas un mot d'**allemand**.", "en": "I don't speak a word of German." },
+      { "fr": "Elle a une amie **allemande**.", "en": "She has a German friend." },
+      { "fr": "Les **Allemands** dînent tôt.", "en": "Germans have dinner early." }
+    ] },
+    { "id": "n-italie", "fr": "Italie", "pos": "name", "art": "l'", "ipa": "i.ta.li", "say": "l'Italie", "en": "Italy", "def": "Le pays en forme de botte, au sud des Alpes, dont la capitale est Rome.", "def_en": "The boot-shaped country south of the Alps, whose capital is Rome.", "examples": [
+      { "fr": "Rome est la capitale de l'**Italie**.", "en": "Rome is the capital of Italy." },
+      { "fr": "Cet été, nous partons en **Italie**.", "en": "This summer, we're going to Italy." },
+      { "fr": "L'**Italie** est célèbre pour ses pâtes.", "en": "Italy is famous for its pasta." }
+    ] },
+    { "id": "italien", "fr": "italien", "pos": "adj", "ipa": "i.ta.ljɛ̃", "display": "italien, italienne", "en": "Italian; (l'italien) Italian, the language", "def": "Qui vient d'Italie. Aussi : la langue qu'on parle à Rome.", "def_en": "From Italy. Also: the language spoken in Rome.", "forms": ["italienne", "italiens", "italiennes"], "examples": [
+      { "fr": "J'adore la cuisine **italienne**.", "en": "I love Italian food." },
+      { "fr": "L'**italien** ressemble au français.", "en": "Italian is like French." },
+      { "fr": "Les **Italiens** parlent avec les mains.", "en": "Italians talk with their hands." }
+    ] },
+    { "id": "n-portugal", "fr": "Portugal", "pos": "name", "art": "le", "ipa": "pɔʁ.ty.ɡal", "say": "le Portugal", "en": "Portugal", "def": "Le pays voisin de l'Espagne, au bord de l'océan, dont la capitale est Lisbonne.", "def_en": "Spain's neighbour, on the ocean, whose capital is Lisbon.", "examples": [
+      { "fr": "Lisbonne est la capitale du **Portugal**.", "en": "Lisbon is the capital of Portugal." },
+      { "fr": "Au **Portugal**, il fait doux en hiver.", "en": "In Portugal, it's mild in winter." },
+      { "fr": "Léa rêve de visiter le **Portugal**.", "en": "Léa dreams of visiting Portugal." }
+    ] },
+    { "id": "portugais", "fr": "portugais", "pos": "adj", "ipa": "pɔʁ.ty.ɡɛ", "display": "portugais, portugaise", "en": "Portuguese; (le portugais) Portuguese, the language", "def": "Qui vient du Portugal. Aussi : la langue qu'on parle à Lisbonne et au Brésil.", "def_en": "From Portugal. Also: the language spoken in Lisbon and in Brazil.", "forms": ["portugaise", "portugaises"], "examples": [
+      { "fr": "Le **portugais** ressemble un peu à l'espagnol.", "en": "Portuguese is a bit like Spanish." },
+      { "fr": "Les **Portugais** sont très accueillants.", "en": "The Portuguese are very welcoming." },
+      { "fr": "J'adore les gâteaux **portugais**.", "en": "I love Portuguese cakes." }
+    ] },
+    { "id": "n-pays-bas", "fr": "Pays-Bas", "pos": "name", "art": "les", "ipa": "pe.i.ba", "say": "les Pays-Bas", "en": "the Netherlands", "def": "Le pays sans montagnes, au nord de la Belgique, dont la capitale est Amsterdam.", "def_en": "The country without mountains, north of Belgium, whose capital is Amsterdam.", "examples": [
+      { "fr": "Amsterdam est aux **Pays-Bas**.", "en": "Amsterdam is in the Netherlands." },
+      { "fr": "Aux **Pays-Bas**, il y a plus de vélos que d'habitants.", "en": "In the Netherlands, there are more bikes than people." },
+      { "fr": "Les **Pays-Bas** sont célèbres pour leurs fleurs.", "en": "The Netherlands is famous for its flowers." }
+    ] },
+    { "id": "neerlandais", "fr": "néerlandais", "pos": "adj", "ipa": "ne.ɛʁ.lɑ̃.dɛ", "display": "néerlandais, néerlandaise", "en": "Dutch; (le néerlandais) Dutch, the language", "def": "Qui vient des Pays-Bas. Aussi : la langue qu'on parle à Amsterdam.", "def_en": "From the Netherlands. Also: the language spoken in Amsterdam.", "forms": ["néerlandaise", "néerlandaises"], "examples": [
+      { "fr": "Les **Néerlandais** parlent souvent très bien anglais.", "en": "The Dutch often speak very good English." },
+      { "fr": "Le **néerlandais** ressemble à l'allemand.", "en": "Dutch is like German." },
+      { "fr": "J'ai un collègue **néerlandais**.", "en": "I have a Dutch colleague." }
+    ] },
+    { "id": "n-danemark", "fr": "Danemark", "pos": "name", "art": "le", "ipa": "dan.maʁk", "say": "le Danemark", "en": "Denmark", "def": "Le petit pays au nord de l'Allemagne, dont la capitale est Copenhague.", "def_en": "The small country north of Germany, whose capital is Copenhagen.", "examples": [
+      { "fr": "Copenhague est la capitale du **Danemark**.", "en": "Copenhagen is the capital of Denmark." },
+      { "fr": "Au **Danemark**, beaucoup de gens vont au travail à vélo.", "en": "In Denmark, lots of people cycle to work." },
+      { "fr": "Mathis veut partir au **Danemark**.", "en": "Mathis wants to go to Denmark." }
+    ] },
+    { "id": "danois", "fr": "danois", "pos": "adj", "ipa": "da.nwa", "display": "danois, danoise", "en": "Danish; (le danois) Danish, the language; (un Danois) a Dane", "def": "Qui vient du Danemark.", "def_en": "From Denmark.", "forms": ["danoise", "danoises"], "examples": [
+      { "fr": "Les **Danois** roulent à vélo, même sous la neige.", "en": "Danes cycle, even in the snow." },
+      { "fr": "Le **danois** est une langue difficile.", "en": "Danish is a difficult language." },
+      { "fr": "Les maisons **danoises** sont simples et claires.", "en": "Danish houses are simple and bright." }
+    ] },
+    { "id": "n-grece", "fr": "Grèce", "pos": "name", "art": "la", "ipa": "ɡʁɛs", "say": "la Grèce", "en": "Greece", "def": "Le pays du sud de l'Europe, avec des milliers d'îles, dont la capitale est Athènes.", "def_en": "The country in southern Europe with thousands of islands, whose capital is Athens.", "examples": [
+      { "fr": "Athènes est la capitale de la **Grèce**.", "en": "Athens is the capital of Greece." },
+      { "fr": "En **Grèce**, il y a plus de six mille îles.", "en": "In Greece, there are more than six thousand islands." },
+      { "fr": "Cet été, ils partent en **Grèce**.", "en": "This summer, they're going to Greece." }
+    ] },
+    { "id": "grec", "fr": "grec", "pos": "adj", "ipa": "ɡʁɛk", "display": "grec, grecque", "en": "Greek; (le grec) Greek, the language; (les Grecs) the Greeks", "def": "Qui vient de Grèce. Aussi : la langue qu'on parle à Athènes.", "def_en": "From Greece. Also: the language spoken in Athens.", "forms": ["grecque", "grecs", "grecques"], "examples": [
+      { "fr": "Les temples **grecs** sont magnifiques.", "en": "Greek temples are magnificent." },
+      { "fr": "J'adore la salade **grecque**.", "en": "I love Greek salad." },
+      { "fr": "Les **Grecs** ont inventé le théâtre.", "en": "The Greeks invented theatre." }
+    ] },
+    { "id": "n-chine", "fr": "Chine", "pos": "name", "art": "la", "ipa": "ʃin", "say": "la Chine", "en": "China", "def": "Le très grand pays d'Asie dont la capitale est Pékin.", "def_en": "The huge Asian country whose capital is Beijing.", "examples": [
+      { "fr": "Pékin est la capitale de la **Chine**.", "en": "Beijing is the capital of China." },
+      { "fr": "La **Chine** a plus d'un milliard d'habitants.", "en": "China has more than a billion inhabitants." },
+      { "fr": "Ce téléphone vient de **Chine**.", "en": "This phone comes from China." }
+    ] },
+    { "id": "chinois", "fr": "chinois", "pos": "adj", "ipa": "ʃi.nwa", "display": "chinois, chinoise", "en": "Chinese; (le chinois) Chinese, the language", "def": "Qui vient de Chine. Aussi : la langue qu'on parle à Pékin.", "def_en": "From China. Also: the language spoken in Beijing.", "forms": ["chinoise", "chinoises"], "examples": [
+      { "fr": "On mange au restaurant **chinois** ?", "en": "Shall we eat at the Chinese restaurant?" },
+      { "fr": "Le **chinois** est une langue difficile pour nous.", "en": "Chinese is a difficult language for us." },
+      { "fr": "Le Nouvel An **chinois** est en février.", "en": "Chinese New Year is in February." }
+    ] },
+    { "id": "n-bresil", "fr": "Brésil", "pos": "name", "art": "le", "ipa": "bʁe.zil", "say": "le Brésil", "en": "Brazil", "def": "Le plus grand pays d'Amérique du Sud, où on parle portugais.", "def_en": "The biggest country in South America, where people speak Portuguese.", "examples": [
+      { "fr": "Au **Brésil**, on parle portugais.", "en": "In Brazil, people speak Portuguese." },
+      { "fr": "Le **Brésil** est un pays immense.", "en": "Brazil is a huge country." },
+      { "fr": "Le carnaval de Rio, au **Brésil**, est très célèbre.", "en": "The Rio carnival, in Brazil, is very famous." }
+    ] },
+    { "id": "bresilien", "fr": "brésilien", "pos": "adj", "ipa": "bʁe.zi.ljɛ̃", "display": "brésilien, brésilienne", "en": "Brazilian", "def": "Qui vient du Brésil.", "def_en": "From Brazil.", "forms": ["brésilienne", "brésiliens", "brésiliennes"], "examples": [
+      { "fr": "Oscar Niemeyer est un grand architecte **brésilien**.", "en": "Oscar Niemeyer is a great Brazilian architect." },
+      { "fr": "La musique **brésilienne** donne envie de danser.", "en": "Brazilian music makes you want to dance." },
+      { "fr": "Les **Brésiliens** adorent le football.", "en": "Brazilians love football." }
+    ] },
+    { "id": "n-royaume-uni", "fr": "Royaume-Uni", "pos": "name", "art": "le", "ipa": "ʁwa.jom.y.ni", "say": "le Royaume-Uni", "en": "the United Kingdom", "def": "Le pays de l'Angleterre, de l'Écosse, du pays de Galles et de l'Irlande du Nord.", "def_en": "The country made up of England, Scotland, Wales and Northern Ireland.", "examples": [
+      { "fr": "Londres est la capitale du **Royaume-Uni**.", "en": "London is the capital of the United Kingdom." },
+      { "fr": "Tom vient du **Royaume-Uni**.", "en": "Tom comes from the United Kingdom." },
+      { "fr": "Au **Royaume-Uni**, on roule à gauche.", "en": "In the United Kingdom, people drive on the left." }
+    ] },
+    { "id": "britannique", "fr": "britannique", "pos": "adj", "ipa": "bʁi.ta.nik", "en": "British", "def": "Qui vient du Royaume-Uni.", "def_en": "From the United Kingdom.", "forms": ["britanniques"], "examples": [
+      { "fr": "Tom est **britannique**.", "en": "Tom is British." },
+      { "fr": "L'humour **britannique** est très spécial.", "en": "British humour is very special." },
+      { "fr": "Les **Britanniques** boivent beaucoup de thé.", "en": "The British drink a lot of tea." }
+    ] },
+    { "id": "n-etats-unis", "fr": "États-Unis", "pos": "name", "art": "les", "ipa": "e.ta.zy.ni", "say": "les États-Unis", "en": "the United States", "def": "Le grand pays d'Amérique du Nord, entre le Canada et le Mexique.", "def_en": "The big country in North America, between Canada and Mexico.", "examples": [
+      { "fr": "New York est aux **États-Unis**.", "en": "New York is in the United States." },
+      { "fr": "Les **États-Unis** ont cinquante États.", "en": "The United States has fifty states." },
+      { "fr": "Hugo rêve de voyager aux **États-Unis**.", "en": "Hugo dreams of travelling to the United States." }
+    ] },
+    { "id": "americain", "fr": "américain", "pos": "adj", "ipa": "a.me.ʁi.kɛ̃", "display": "américain, américaine", "en": "American", "def": "Qui vient des États-Unis.", "def_en": "From the United States.", "forms": ["américaine", "américains", "américaines"], "examples": [
+      { "fr": "Les **Américains** font tout en grand.", "en": "Americans do everything big." },
+      { "fr": "J'adore les films **américains**.", "en": "I love American films." },
+      { "fr": "Elle a un accent **américain**.", "en": "She has an American accent." }
+    ] },
+    { "id": "accueillant", "fr": "accueillant", "pos": "adj", "ipa": "a.kœ.jɑ̃", "display": "accueillant, accueillante", "en": "welcoming, friendly", "def": "Qui reçoit bien les gens, avec plaisir.", "def_en": "Who receives people well, gladly.", "forms": ["accueillante", "accueillants", "accueillantes"], "examples": [
+      { "fr": "Les Portugais sont très **accueillants**.", "en": "The Portuguese are very welcoming." },
+      { "fr": "C'est une ville très **accueillante**.", "en": "It's a very welcoming city." },
+      { "fr": "Merci pour tout : vous êtes très **accueillants** !", "en": "Thanks for everything: you're very welcoming!" }
+    ] },
+    { "id": "double-nationalite", "fr": "double nationalité", "pos": "noun", "g": "f", "ipa": "dubl na.sjɔ.na.li.te", "en": "dual nationality", "def": "Le fait d'être citoyen de deux pays.", "def_en": "Being a citizen of two countries.", "forms": ["doubles nationalités"], "examples": [
+      { "fr": "Léa a la **double nationalité**, française et canadienne.", "en": "Léa has dual nationality, French and Canadian." },
+      { "fr": "Avec la **double nationalité**, on a deux passeports.", "en": "With dual nationality, you have two passports." },
+      { "fr": "Beaucoup d'enfants ont la **double nationalité**.", "en": "Lots of children have dual nationality." }
+    ] },
+    { "id": "depaysement", "fr": "dépaysement", "pos": "noun", "g": "m", "ipa": "de.pe.iz.mɑ̃", "en": "change of scene; feeling far from home", "def": "Le plaisir ou la surprise d'être dans un endroit très différent de chez soi.", "def_en": "The pleasure or surprise of being somewhere very different from home.", "examples": [
+      { "fr": "Le **dépaysement**, c'est important aussi.", "en": "A change of scene matters too." },
+      { "fr": "À Tokyo, le **dépaysement** est total.", "en": "In Tokyo, everything feels completely different." },
+      { "fr": "Je voyage pour le **dépaysement**.", "en": "I travel for the change of scene." }
+    ] },
+    { "id": "originaire", "fr": "originaire", "pos": "adj", "ipa": "ɔ.ʁi.ʒi.nɛʁ", "en": "originally from (originaire de)", "def": "Qui est né dans un endroit, ou dont la famille vient de cet endroit.", "def_en": "Born in a place, or whose family comes from that place.", "forms": ["originaires"], "examples": [
+      { "fr": "Maman est **originaire** de Montréal.", "en": "Mum is originally from Montreal." },
+      { "fr": "La grand-mère de Mathis est **originaire** du Maroc.", "en": "Mathis's grandmother is originally from Morocco." },
+      { "fr": "Ce plat est **originaire** du Portugal.", "en": "This dish comes from Portugal." }
+    ] }
+  ],
+  "story": {
+    "title": "Le tour du monde de Sophie",
+    "en": "Monday 14 December: next summer, Sophie's school is sending her abroad for a month. But where?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi quatorze décembre, Sophie arrive au café d'en bas à vélo, par la nouvelle piste cyclable, ouverte samedi.", "en": "On Monday 14 December, Sophie arrives at the café downstairs by bike, along the new cycle lane, which opened on Saturday." },
+      { "sp": "Sophie", "fr": "Grande nouvelle ! L'été prochain, mon école organise un atelier international d'un mois à l'étranger. Je dois choisir une ville avant le quinze janvier.", "en": "Big news! Next summer, my school is organising a month-long international workshop abroad. I have to choose a city before 15 January." },
+      { "sp": "Léa", "fr": "Génial ! Tu as le choix entre quelles villes ?", "en": "Brilliant! Which cities can you choose from?" },
+      { "sp": "Sophie", "fr": "Berlin, Rome, Lisbonne, Amsterdam, Copenhague, Athènes, Pékin, Brasília, New York… et Montréal.", "en": "Berlin, Rome, Lisbon, Amsterdam, Copenhagen, Athens, Beijing, Brasília, New York… and Montreal." },
+      { "sp": "Tom", "fr": "Pas Londres ? Le Royaume-Uni n'est même pas sur la liste ! Les Britanniques vont être jaloux.", "en": "Not London? The United Kingdom isn't even on the list! The British are going to be jealous." },
+      { "sp": "Hugo", "fr": "Moi, je choisirais New York. Les États-Unis, c'est le rêve ! Les Américains font tout en grand.", "en": "I'd choose New York. The United States is the dream! Americans do everything big." },
+      { "sp": "Sophie", "fr": "Tout en grand… sauf les pistes cyclables.", "en": "Everything big… except cycle lanes." },
+      { "sp": "Carla", "fr": "Et Rome ? L'architecture italienne, les places, les fontaines… L'Italie, c'est un musée à ciel ouvert !", "en": "And Rome? Italian architecture, the squares, the fountains… Italy is an open-air museum!" },
+      { "sp": "Léa", "fr": "Moi, je pense au Portugal. Lisbonne est magnifique, et les Portugais sont très accueillants. En plus, le portugais ressemble un peu à l'espagnol.", "en": "I'm thinking of Portugal. Lisbon is gorgeous, and the Portuguese are very welcoming. Plus, Portuguese is a bit like Spanish." },
+      { "sp": "Inès", "fr": "Un peu… Moi, quand les Brésiliens parlent, je ne comprends rien !", "en": "A bit… When Brazilians talk, I don't understand a thing!" },
+      { "sp": "Sophie", "fr": "Et l'Allemagne ? Berlin est très moderne. Mais je ne parle pas un mot d'allemand.", "en": "And Germany? Berlin is very modern. But I don't speak a word of German." },
+      { "sp": "Tom", "fr": "Aux Pays-Bas, pas de problème : tout le monde parle anglais. Les Néerlandais sont champions des langues… et du vélo !", "en": "In the Netherlands, no problem: everyone speaks English. The Dutch are champions at languages… and at cycling!" },
+      { "sp": "Sophie", "fr": "Justement, le vélo… Mathis, lui, a déjà choisi Copenhague. Au Danemark, les Danois vont au travail à vélo, même sous la neige.", "en": "Speaking of cycling… Mathis has already chosen Copenhagen. In Denmark, Danes cycle to work, even in the snow." },
+      { "sp": "Inès", "fr": "Ah ! Et tu vas le suivre ?", "en": "Ah! And are you going to follow him?" },
+      { "sp": "Sophie", "fr": "Je ne sais pas… Pour une étudiante en architecture, Athènes, c'est un rêve aussi. La Grèce, les temples grecs, les colonnes…", "en": "I don't know… For an architecture student, Athens is a dream too. Greece, the Greek temples, the columns…" },
+      { "sp": "Hugo", "fr": "Et Pékin ? La Chine, c'est loin… mais pense à la cuisine chinoise !", "en": "And Beijing? China's far away… but think of the Chinese food!" },
+      { "sp": "Carla", "fr": "Hugo pense toujours avec son ventre.", "en": "Hugo always thinks with his stomach." },
+      { "sp": "Sophie", "fr": "Et Brasília, au Brésil : c'est la ville d'Oscar Niemeyer, un grand architecte brésilien. Elle est pleine de bâtiments incroyables.", "en": "And Brasília, in Brazil: it's Oscar Niemeyer's city, a great Brazilian architect. It's full of incredible buildings." },
+      { "sp": "Léa", "fr": "Et Montréal ? Maman est originaire de Montréal, et j'ai la double nationalité : je pourrais venir te voir quand je veux ! Et Antoine te ferait visiter la ville.", "en": "And Montreal? Mum is from Montreal, and I have dual nationality: I could come and see you whenever I like! And Antoine would show you round the city." },
+      { "sp": "Tom", "fr": "Le dépaysement, c'est important aussi. À Montréal, tu parlerais français. À Pékin, tu serais vraiment ailleurs.", "en": "A change of scene matters too. In Montreal, you'd speak French. In Beijing, you'd really be somewhere else." },
+      { "sp": "Sophie", "fr": "Vous voyez ? C'est impossible de choisir. Chaque pays a quelque chose de spécial.", "en": "You see? It's impossible to choose. Every country has something special." },
+      { "sp": "", "fr": "À la fin de la soirée, il reste deux villes sur la liste de Sophie : Copenhague… et Montréal. Elle a un mois pour choisir.", "en": "By the end of the evening, there are two cities left on Sophie's list: Copenhagen… and Montreal. She has a month to choose." }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "u37-cause",
+  "type": "grammar",
+  "unit": 37,
+  "title": "Pourquoi ? Parce que…",
+  "en": "Cause and consequence",
+  "intro": "To give a **cause**, use **parce que** or **car** after the fact, and **comme** or **puisque** before it. Before a noun, use **grâce à** (a good cause), **à cause de** (a bad one), **en raison de** (formal) and **faute de** (for lack of). For the **consequence**, use **donc, alors, du coup, c'est pourquoi, si bien que**, and to show how strong something is, **si… que, tellement… que, tant de… que**. All of them take the indicative.",
+  "cases": [
+    { "id": "ca-parce-que", "label": "parce que, car: because", "rule": "**Parce que** answers *pourquoi ?*: *Pourquoi le sapin est dans la maison ? — **Parce que** dehors, il aurait froid.* **Car** is more formal and more written, and never starts a sentence: *Ils arrivent en retard, **car** le train a eu un problème.*" },
+    { "id": "ca-comme", "label": "comme, puisque: as, since", "rule": "**Comme** gives the cause first, at the start of the sentence: ***Comme** il neige, on prend le tracteur.* **Puisque** gives a cause the other person already knows: ***Puisque** tu rêves de la mer du Nord, voici ton cadeau.*" },
+    { "id": "ca-grace", "label": "grâce à, à cause de, en raison de, faute de", "rule": "These go before a **noun**. **Grâce à** is for a good cause, **à cause de** for a bad one: ***Grâce à** Jules, tout le monde est là. Ils sont en retard **à cause de** la neige.* **En raison de** is formal, and **faute de** means *for lack of*: ***Faute de** bûche, on mange des crêpes.*" },
+    { "id": "ca-donc", "label": "donc, alors, du coup, c'est pourquoi, si bien que: so", "rule": "These give the **consequence**: *Max a du chocolat sur le nez : c'est **donc** lui !* **Alors** and **du coup** are spoken; **c'est pourquoi** and **si bien que** are more written: *Lou dort, **si bien que** le Père Noël peut passer.*" },
+    { "id": "ca-tellement", "label": "si… que, tellement… que, tant de… que: so… that", "rule": "**Si** or **tellement** + adjective or adverb + **que**: *Je suis **si** ému **que** je ne trouve pas mes mots.* After a verb, **tellement** or **tant**: *Il a **tellement** neigé **que** la route est blanche.* Before a noun, **tant de** or **tellement de**: *Il y a **tant de** cadeaux **qu'**on ne voit plus le sapin.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. parce que, car",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Pourquoi tu pleures ? — Parce que je suis heureux.", "Why are you crying? — Because I'm happy."],
+          ["On reste ici, car la route est fermée.", "We're staying here, as the road is closed."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le sapin est dans la maison {parce qu'il aurait froid|ca-parce-que} dehors.", "en": "The tree is in the house because it would be cold outside." },
+        { "fr": "Ils arrivent en retard, {car le train a eu un problème|ca-parce-que}.", "en": "They're arriving late, as the train had a problem." }
+      ],
+      "tip": "*Parce que* answers a question; *car* adds an explanation, mostly in writing. Never start a sentence with *car*."
+    },
+    {
+      "title": "2. comme, puisque",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Comme il neige, on prend le tracteur.", "As it's snowing, we're taking the tractor."],
+          ["Puisque tu as faim, mange une crêpe !", "Since you're hungry, have a pancake!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Comme la route est fermée|ca-comme}, Jules vient les chercher.", "en": "As the road is closed, Jules comes to fetch them." },
+        { "fr": "{Puisque tu adores le chocolat|ca-comme}, c'est toi le coupable !", "en": "Since you love chocolate, you're the culprit!" }
+      ],
+      "tip": "*Comme* (as) goes at the start of the sentence. *Puisque* (since) gives a cause the other person already knows, so it often sounds like an argument."
+    },
+    {
+      "title": "3. grâce à, à cause de, en raison de, faute de",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Grâce à Jules, tout le monde est là.", "Thanks to Jules, everyone's here."],
+          ["Ils ont deux heures de retard à cause de la neige.", "They're two hours late because of the snow."],
+          ["En raison de la neige, le train est en retard.", "Due to the snow, the train is late."],
+          ["[Faute de|faute-de] bûche, on mange des crêpes.", "For lack of a Yule log, we're eating pancakes."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Grâce à son tracteur|ca-grace}, Jules arrive en haut.", "en": "Thanks to his tractor, Jules gets to the top." },
+        { "fr": "{[Faute de|faute-de] dessert|ca-grace}, Karim fait des crêpes.", "en": "With no dessert, Karim makes pancakes." }
+      ],
+      "tip": "These four come before a noun, never before a verb: *à cause de la neige*, but *parce qu'il neige*. *À cause de* + *le* becomes *à cause du*."
+    },
+    {
+      "title": "4. donc, alors, du coup, c'est pourquoi, si bien que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Max a du chocolat sur le nez : c'est donc lui !", "Max has chocolate on his nose: so it's him!"],
+          ["Il n'y a plus de bûche, alors on fait des crêpes.", "There's no Yule log left, so we're making pancakes."],
+          ["La route est fermée, c'est pourquoi on reste ici.", "The road is closed; that's why we're staying here."],
+          ["Lou s'est endormie, si bien que le Père Noël peut passer.", "Lou has fallen asleep, so Father Christmas can come."]
+        ]
+      },
+      "examples": [
+        { "fr": "Il n'y a plus de dessert, {du coup on mange des crêpes|ca-donc}.", "en": "There's no dessert left, so we're eating pancakes." },
+        { "fr": "Il a neigé toute la nuit, {c'est pourquoi la route est fermée|ca-donc}.", "en": "It snowed all night; that's why the road is closed." }
+      ],
+      "tip": "*Du coup* and *alors* are spoken; *c'est pourquoi* and *si bien que* are more written. *Donc* fits everywhere, even after the verb: *c'est donc lui*."
+    },
+    {
+      "title": "5. si… que, tellement… que, tant de… que",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis si ému que je ne trouve pas mes mots.", "I'm so moved that I can't find my words."],
+          ["Il a tellement neigé que la route est blanche.", "It's snowed so much that the road is white."],
+          ["Il y a tant de cadeaux qu'on ne voit plus le sapin.", "There are so many presents you can't see the tree any more."]
+        ]
+      },
+      "examples": [
+        { "fr": "Lou est {si fatiguée qu'elle s'endort|ca-tellement} à table.", "en": "Lou is so tired that she falls asleep at the table." },
+        { "fr": "Les jumeaux ont {tellement de cadeaux qu'ils|ca-tellement} ne savent pas où regarder.", "en": "The twins have so many presents they don't know where to look." }
+      ],
+      "tip": "*Si* and *tellement* go before an adjective or an adverb; *tant de* and *tellement de* before a noun; after a verb, use *tellement* or *tant*: *il a tant neigé*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Car il neige, on reste à la maison.", "right": "Comme il neige, on reste à la maison.", "why": "*Car* never starts a sentence: use *comme* at the start." },
+    { "wrong": "Comme il neige, donc on reste à la maison.", "right": "Comme il neige, on reste à la maison.", "why": "One link is enough: *comme* already gives the cause." },
+    { "wrong": "À cause de il neige, on est en retard.", "right": "À cause de la neige, on est en retard.", "why": "*À cause de* is followed by a noun. Before a verb, use *parce que*." },
+    { "wrong": "Grâce à la neige, on a eu un accident.", "right": "À cause de la neige, on a eu un accident.", "why": "*Grâce à* is for a good cause; for a bad one, use *à cause de*." },
+    { "wrong": "Il y a si de neige que la route est fermée.", "right": "Il y a tellement de neige que la route est fermée.", "why": "Before a noun, use *tellement de* or *tant de*, not *si*." }
+  ],
+  "story": {
+    "title": "Les pourquoi de Lou",
+    "en": "Thursday 24 December: Christmas Eve at the farm, in the snow, with a four-year-old who wants to know why.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi vingt-quatre décembre, toute la famille fête Noël à la ferme, près d'Annecy. {Il a tellement neigé que|ca-tellement} la route du village est toute blanche.", "en": "On Thursday 24 December, the whole family is celebrating Christmas at the farm near Annecy. It has snowed so much that the village road is completely white." },
+      { "sp": "", "fr": "{Comme la voiture de Paul ne peut pas monter|ca-comme} jusqu'à la ferme, Jules vient chercher tout le monde en tracteur.", "en": "As Paul's car can't get up to the farm, Jules comes to fetch everyone by tractor." },
+      { "sp": "Jules", "fr": "Bienvenue à la ferme ! {Grâce à mon tracteur|ca-grace}, tout le monde arrive en haut !", "en": "Welcome to the farm! Thanks to my tractor, everyone makes it to the top!" },
+      { "sp": "Lou", "fr": "Pourquoi tu as un tracteur, Jules ?", "en": "Why have you got a tractor, Jules?" },
+      { "sp": "Jules", "fr": "{Parce que la ferme, c'est moi|ca-parce-que}, maintenant ! Et les vaches n'aiment pas marcher dans la neige.", "en": "Because I'm the farmer now! And the cows don't like walking in the snow." },
+      { "sp": "Anne", "fr": "Lou a quatre ans : c'est l'âge des « pourquoi ».", "en": "Lou's four: it's the 'why' age." },
+      { "sp": "", "fr": "Jacques et Louise arrivent les derniers. {En raison de la neige|ca-grace}, leur train de Marseille a eu deux heures de retard.", "en": "Jacques and Louise arrive last. Due to the snow, their train from Marseille was two hours late." },
+      { "sp": "Louise", "fr": "Deux heures dans le train, {si bien que j'ai lu|ca-donc} un livre entier !", "en": "Two hours on the train, so I read a whole book!" },
+      { "sp": "Lou", "fr": "Pourquoi le sapin est dans la maison ?", "en": "Why is the tree in the house?" },
+      { "sp": "Pierre", "fr": "{Parce que dehors, il aurait froid|ca-parce-que} !", "en": "Because it would be cold outside!" },
+      { "sp": "", "fr": "Karim a fait une bûche au chocolat. Il la pose sur la table de la cuisine, à côté de la fenêtre.", "en": "Karim has made a chocolate Yule log. He puts it on the kitchen table, next to the window." },
+      { "sp": "", "fr": "Une heure plus tard, la bûche a disparu !", "en": "An hour later, the Yule log has disappeared!" },
+      { "sp": "Karim", "fr": "Qui a mangé ma bûche ? Hugo, {puisque tu adores le chocolat|ca-comme}, c'est toi ?", "en": "Who ate my Yule log? Hugo, since you love chocolate, was it you?" },
+      { "sp": "Hugo", "fr": "Ce n'est pas moi ! J'étais dehors avec Lou, {car elle voulait|ca-parce-que} faire un bonhomme de neige.", "en": "It wasn't me! I was outside with Lou, because she wanted to build a snowman." },
+      { "sp": "Lou", "fr": "Regardez ! Max a du chocolat sur le nez !", "en": "Look! Max has chocolate on his nose!" },
+      { "sp": "Pierre", "fr": "Max a du chocolat sur le nez : {c'est donc lui|ca-donc} !", "en": "Max has chocolate on his nose: so it's him!" },
+      { "sp": "Karim", "fr": "{[Faute de|faute-de] bûche|ca-grace}, je vais faire des crêpes, avec la recette de Louise.", "en": "With no Yule log, I'll make pancakes, with Louise's recipe." },
+      { "sp": "Hugo", "fr": "{Du coup, on mange des crêpes|ca-donc} à Noël ? C'est le plus beau Noël de ma vie !", "en": "So we're having pancakes for Christmas? Best Christmas of my life!" },
+      { "sp": "", "fr": "Après le dîner, Paul donne une enveloppe à Pierre.", "en": "After dinner, Paul gives Pierre an envelope." },
+      { "sp": "Paul", "fr": "{Puisque tu rêves de voir la mer du Nord|ca-comme}, voici ton cadeau, de toute la famille : un voyage en Belgique, à Ostende, au printemps.", "en": "Since you dream of seeing the North Sea, here's your present, from the whole family: a trip to Belgium, to Ostend, in the spring." },
+      { "sp": "Pierre", "fr": "Je suis {si ému que je ne trouve pas|ca-tellement} mes mots…", "en": "I'm so moved that I can't find my words…" },
+      { "sp": "Lou", "fr": "Pourquoi Tonton Pierre pleure ?", "en": "Why is Uncle Pierre crying?" },
+      { "sp": "Anne", "fr": "{Parce qu'il est heureux|ca-parce-que}, ma chérie.", "en": "Because he's happy, sweetheart." },
+      { "sp": "", "fr": "Sous le sapin, il y a {tant de cadeaux qu'on ne voit plus|ca-tellement} le pied de l'arbre. C'est le premier Noël d'Adam et Nina.", "en": "Under the tree, there are so many presents that you can't see the bottom of it any more. It's Adam and Nina's first Christmas." },
+      { "sp": "", "fr": "À minuit, Lou dort profondément, {si bien que le Père Noël peut passer|ca-donc}. Et Max dort sous le sapin, le nez plein de chocolat.", "en": "At midnight, Lou is fast asleep, so Father Christmas can come. And Max sleeps under the tree, his nose covered in chocolate." }
+    ]
+  },
+  "quiz": [
+    { "case": "ca-parce-que", "type": "mc", "q": "Pourquoi tu pleures ? — ___ je suis heureux.", "en": "Why are you crying? — Because I'm happy.", "options": ["Parce que", "Donc", "Grâce à"], "answer": "Parce que" },
+    { "case": "ca-parce-que", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["On reste ici, car la route est fermée.", "Car la route est fermée, on reste ici.", "On reste ici, car de la route fermée."], "answer": "On reste ici, car la route est fermée." },
+    { "case": "ca-comme", "type": "mc", "q": "___ il neige, on prend le tracteur.", "en": "As it's snowing, we're taking the tractor.", "options": ["Comme", "Car", "Donc"], "answer": "Comme" },
+    { "case": "ca-comme", "type": "mc", "q": "___ tu as faim, mange une crêpe !", "en": "Since you're hungry, have a pancake!", "options": ["Puisque", "Grâce à", "Si bien que"], "answer": "Puisque" },
+    { "case": "ca-grace", "type": "mc", "q": "On est en retard ___ la neige.", "en": "We're late because of the snow.", "options": ["à cause de", "grâce à", "parce que"], "answer": "à cause de" },
+    { "case": "ca-grace", "type": "mc", "q": "___ Jules, tout le monde est arrivé.", "en": "Thanks to Jules, everyone has arrived.", "options": ["Grâce à", "À cause de", "Faute de"], "answer": "Grâce à" },
+    { "case": "ca-grace", "type": "mc", "lang": "en", "q": "« Faute de bûche » means…", "options": ["For lack of a Yule log", "Because of the Yule log", "Thanks to the Yule log"], "answer": "For lack of a Yule log", "say": "Faute de bûche" },
+    { "case": "ca-donc", "type": "mc", "q": "Max a du chocolat sur le nez : c'est ___ lui !", "en": "Max has chocolate on his nose: so it's him!", "options": ["donc", "car", "comme"], "answer": "donc" },
+    { "case": "ca-donc", "type": "mc", "q": "Il a neigé toute la nuit, ___ la route est fermée.", "en": "It snowed all night; that's why the road is closed.", "options": ["c'est pourquoi", "parce que", "grâce à"], "answer": "c'est pourquoi" },
+    { "case": "ca-tellement", "type": "mc", "q": "Il a ___ neigé que la route est blanche.", "en": "It has snowed so much that the road is white.", "options": ["tellement", "si", "tant de"], "answer": "tellement" },
+    { "case": "ca-tellement", "type": "mc", "q": "Il y a ___ cadeaux qu'on ne voit plus le sapin.", "en": "There are so many presents you can't see the tree any more.", "options": ["tant de", "si", "tellement"], "answer": "tant de" },
+    { "case": "ca-tellement", "type": "mc", "q": "Je suis ___ ému que je ne trouve pas mes mots.", "en": "I'm so moved that I can't find my words.", "options": ["si", "tant de", "tellement de"], "answer": "si" }
+  ]
+}

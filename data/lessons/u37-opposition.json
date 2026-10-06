@@ -1,0 +1,143 @@
+{
+  "id": "u37-opposition",
+  "type": "grammar",
+  "unit": 37,
+  "title": "J'ai beau essayer…",
+  "en": "Opposition and concession",
+  "intro": "To **contrast** two facts, use **alors que** or **tandis que** (whereas), **contrairement à** + noun (unlike) and **au lieu de** (instead of). Inside a sentence, use **par contre** or **en revanche** (on the other hand). For a **concession** (something that should change the result, but doesn't), use **pourtant, cependant, quand même**, **malgré** + noun, **même si** + indicative and **avoir beau** + infinitive. *Bien que* + subjunctive (Unit 36) belongs here too.",
+  "cases": [
+    { "id": "op-pourtant", "label": "pourtant, cependant, quand même: and yet", "rule": "The result is a surprise: *Je mange vite d'habitude. **Pourtant**, je n'ai mangé que six raisins.* **Cependant** is more formal. **Quand même** goes after the verb: *Tu auras **quand même** une bonne année.*" },
+    { "id": "op-alors-que", "label": "alors que, tandis que, contrairement à, au lieu de", "rule": "To compare two different facts: *En France, on dîne à huit heures, **alors qu'**ici, on dîne à dix heures.* **Tandis que** means the same. Before a noun or a pronoun: ***Contrairement à** toi, Papa a gardé de la place.* **Au lieu de** + infinitive: ***Au lieu de** dormir, tout le monde danse.*" },
+    { "id": "op-malgre", "label": "malgré + noun: despite", "rule": "**Malgré** is followed by a noun or a pronoun: ***Malgré** mes efforts, je n'ai mangé que six raisins.* With a verb, use **bien que** + subjunctive: ***Bien qu'**il **ait** neigé, Hugo est arrivé.*" },
+    { "id": "op-meme-si", "label": "même si + indicative: even if, even though", "rule": "**Même si** takes the indicative, never the subjunctive or the conditional: ***Même si** on **dîne** tard, on se couche tard aussi. **Même si** j'**avais** le temps, je ne viendrais pas.*" },
+    { "id": "op-avoir-beau", "label": "avoir beau + infinitive: however much…", "rule": "**Avoir beau** + infinitive: you try, and it changes nothing. *J'**ai beau** me **dépêcher**, je n'y arrive pas* (however fast I go…). Only *avoir* changes: *il **avait beau** chercher, j'**ai eu beau** essayer*." }
+  ],
+  "sections": [
+    {
+      "title": "1. pourtant, cependant, quand même",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il mange vite. Pourtant, il n'a pas fini.", "He eats fast. And yet he hasn't finished."],
+          ["Il fait froid ; cependant, on sort.", "It's cold; however, we're going out."],
+          ["Tu n'as pas fini, mais tu auras quand même une bonne année.", "You haven't finished, but you'll have a good year all the same."]
+        ]
+      },
+      "examples": [
+        { "fr": "Je mange vite d'habitude. {Pourtant, je n'ai mangé que six raisins|op-pourtant} !", "en": "I usually eat fast. And yet I only ate six grapes!" },
+        { "fr": "Ce n'est pas grave : {tu auras quand même une bonne année|op-pourtant}.", "en": "Never mind: you'll have a good year all the same." }
+      ]
+    },
+    {
+      "title": "2. alors que, tandis que, contrairement à, au lieu de",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["En France, on dîne à huit heures, alors qu'ici, on dîne à dix heures.", "In France we have dinner at eight, whereas here we have it at ten."],
+          ["Lou dort, tandis que les adultes dansent.", "Lou is asleep, while the grown-ups dance."],
+          ["Contrairement à Hugo, Inès a fini ses raisins.", "Unlike Hugo, Inès finished her grapes."],
+          ["Au lieu de dormir, tout le monde [danse|danser].", "Instead of sleeping, everyone dances."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Contrairement aux enfants français|op-alors-que}, les enfants espagnols reçoivent leurs cadeaux le six janvier.", "en": "Unlike French children, Spanish children get their presents on 6 January." },
+        { "fr": "Les Français s'embrassent à minuit, {tandis que les Espagnols mangent|op-alors-que} douze raisins.", "en": "The French kiss at midnight, whereas the Spanish eat twelve grapes." }
+      ],
+      "tip": "*Par contre* and *en revanche* do the same job at the start of a new sentence: *Hugo n'a pas fini ses raisins. Par contre, il a fini le jambon.*"
+    },
+    {
+      "title": "3. malgré + noun",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Malgré la neige, Hugo est arrivé à l'heure.", "Despite the snow, Hugo arrived on time."],
+          ["Malgré ses efforts, il n'a pas fini.", "Despite his efforts, he didn't finish."],
+          ["[Bien qu'|bien-que]il ait neigé, Hugo est arrivé.", "Although it snowed, Hugo arrived: bien que + a verb."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Malgré mes efforts|op-malgre}, je n'ai mangé que six raisins.", "en": "Despite my efforts, I only ate six grapes." },
+        { "fr": "Ils dansent encore, {malgré l'heure|op-malgre}.", "en": "They're still dancing, despite the time." }
+      ],
+      "tip": "You'll hear *malgré que* + a verb, but it's considered incorrect: say *bien que* + subjunctive."
+    },
+    {
+      "title": "4. même si + indicative",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Même si tu n'as pas fini, tu auras une bonne année.", "Even if you haven't finished, you'll have a good year."],
+          ["Même s'il ne parle pas français, il a appris trois mots.", "Even though he doesn't speak French, he learnt three words."],
+          ["Même si j'avais le temps, je ne viendrais pas.", "Even if I had the time, I wouldn't come."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Même si on dîne tard|op-meme-si}, on se couche tard aussi.", "en": "Even though we have dinner late, we go to bed late too." },
+        { "fr": "{Même si je ne comprends pas tout|op-meme-si}, je me sens chez moi.", "en": "Even though I don't understand everything, I feel at home." }
+      ],
+      "tip": "*Même si* + present or imperfect, never the subjunctive or the conditional. *Si* becomes *s'* before *il* and *ils*."
+    },
+    {
+      "title": "5. avoir beau + infinitive",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'ai beau me dépêcher, je n'y arrive pas.", "However fast I go, I can't do it."],
+          ["Il a beau chercher, il ne trouve pas ses lunettes.", "However hard he looks, he can't find his glasses."],
+          ["Elle avait beau parler lentement, il ne comprenait rien.", "However slowly she spoke, he understood nothing."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'ai beau m'entraîner|op-avoir-beau}, je n'arrive pas à manger douze raisins !", "en": "However much I practise, I can't eat twelve grapes!" },
+        { "fr": "{Il a beau ne pas parler|op-avoir-beau} espagnol, tout le monde le comprend.", "en": "Even though he doesn't speak Spanish, everyone understands him." }
+      ],
+      "tip": "*Avoir beau* has nothing to do with beauty: it means *it's no use…*. Only *avoir* changes; the infinitive stays: *nous **avons** beau courir*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Malgré il neige, on sort.", "right": "Malgré la neige, on sort.", "why": "*Malgré* is followed by a noun. With a verb: *bien qu'il neige*." },
+    { "wrong": "Même si il fasse froid, on sort.", "right": "Même s'il fait froid, on sort.", "why": "*Même si* takes the indicative, and *si il* becomes *s'il*." },
+    { "wrong": "Même si j'aurais le temps, je ne viendrais pas.", "right": "Même si j'avais le temps, je ne viendrais pas.", "why": "No conditional after *si*, even in *même si*: use the imperfect." },
+    { "wrong": "J'ai beau de chercher, je ne trouve rien.", "right": "J'ai beau chercher, je ne trouve rien.", "why": "*Avoir beau* is followed directly by the infinitive." },
+    { "wrong": "Contrairement que toi, j'aime le jambon.", "right": "Contrairement à toi, j'aime le jambon.", "why": "*Contrairement à* + a noun or a pronoun." }
+  ],
+  "story": {
+    "title": "Douze raisins à minuit",
+    "en": "Thursday 31 December: New Year's Eve in Madrid, at Inès and Carla's parents'. Hugo has twelve seconds to eat twelve grapes.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi trente et un décembre, Hugo est à Madrid, chez les parents d'Inès et de Carla. {Malgré deux changements de train|op-malgre}, il est arrivé à l'heure.", "en": "On Thursday 31 December, Hugo is in Madrid, at Inès and Carla's parents'. Despite two changes of train, he arrived on time." },
+      { "sp": "Hugo", "fr": "En France, on dîne à huit heures, {alors qu'ici, on dîne|op-alors-que} à dix heures ! J'ai faim !", "en": "In France we have dinner at eight, whereas here we have dinner at ten! I'm starving!" },
+      { "sp": "Carla", "fr": "{Même si on dîne tard|op-meme-si}, on se couche tard aussi. Ce soir, on danse jusqu'au matin !", "en": "Even though we have dinner late, we go to bed late too. Tonight, we're dancing till morning!" },
+      { "sp": "La mère de Carla", "fr": "Hugo, vous connaissez la tradition ? À minuit, on mange douze raisins, un à chaque coup de l'horloge. Ça porte bonheur pour les douze mois de l'année.", "en": "Hugo, do you know the tradition? At midnight, we eat twelve grapes, one at each stroke of the clock. It brings luck for the twelve months of the year." },
+      { "sp": "Hugo", "fr": "Douze raisins en douze secondes ? Facile ! Je mange toujours très vite.", "en": "Twelve grapes in twelve seconds? Easy! I always eat very fast." },
+      { "sp": "Inès", "fr": "Attention, Hugo ! {Tu as beau être rapide|op-avoir-beau}, ce n'est pas si facile.", "en": "Careful, Hugo! However quick you are, it's not that easy." },
+      { "sp": "", "fr": "Pendant le dîner, le père de Carla parle de Noël en espagnol, et Carla traduit.", "en": "During dinner, Carla's father talks about Christmas in Spanish, and Carla translates." },
+      { "sp": "Carla", "fr": "Papa dit qu'ici, les enfants reçoivent leurs cadeaux le six janvier, avec les Rois mages, {tandis qu'en France, ils les reçoivent|op-alors-que} à Noël.", "en": "Dad says that here, children get their presents on 6 January, from the Three Kings, whereas in France they get them at Christmas." },
+      { "sp": "Hugo", "fr": "Chez nous, le six janvier, on mange la galette des rois. En janvier, c'est Minou qui a trouvé la fève !", "en": "At home, on 6 January, we eat the galette des rois. In January, it was Minou who found the charm!" },
+      { "sp": "Inès", "fr": "Hugo, tu as déjà mangé tout le jambon ! {Contrairement à toi|op-alors-que}, Papa a gardé de la place pour le dessert.", "en": "Hugo, you've already eaten all the ham! Unlike you, Dad has saved some room for dessert." },
+      { "sp": "", "fr": "Il est presque minuit. À la télévision, tout le monde regarde la grande horloge de la Puerta del Sol, avec douze raisins dans la main.", "en": "It's nearly midnight. On TV, everyone watches the big clock of the Puerta del Sol, with twelve grapes in their hand." },
+      { "sp": "", "fr": "Premier coup : un raisin. Deuxième coup : deux raisins. Hugo mange, mange… Au douzième coup, il en a encore six dans la main.", "en": "First stroke: one grape. Second stroke: two grapes. Hugo eats and eats… At the twelfth stroke, he still has six in his hand." },
+      { "sp": "Hugo", "fr": "{J'ai eu beau me dépêcher|op-avoir-beau}, je n'en ai mangé que six ! {Pourtant, je mange vite|op-pourtant}, d'habitude !", "en": "However much I hurried, I only ate six! And yet I usually eat fast!" },
+      { "sp": "Inès", "fr": "{Malgré tes efforts|op-malgre}, tu n'as eu que six mois de chance…", "en": "Despite your efforts, you only got six months of luck…" },
+      { "sp": "Carla", "fr": "Ce n'est pas grave ! Tu auras {quand même une bonne année|op-pourtant}.", "en": "Never mind! You'll have a good year all the same." },
+      { "sp": "", "fr": "Le père de Carla se lève, lève son verre et dit, en français, avec un grand sourire : « Bonne année, Hugo ! »", "en": "Carla's father stands up, raises his glass and says, in French, with a big smile: 'Happy New Year, Hugo!'" },
+      { "sp": "Hugo", "fr": "{Même s'il ne parle pas français|op-meme-si}, il a appris trois mots pour moi !", "en": "Even though he doesn't speak French, he learnt three words for me!" },
+      { "sp": "La mère de Carla", "fr": "Et vous, Hugo, {vous avez beau parler espagnol|op-avoir-beau} comme une vache française, ici, vous êtes chez vous !", "en": "And you, Hugo, you may speak Spanish like a French cow, but here, you're at home!" },
+      { "sp": "", "fr": "{Au lieu de dormir|op-alors-que}, tout le monde [danse|danser] jusqu'à quatre heures du matin. Hugo aussi, {malgré la fatigue|op-malgre}.", "en": "Instead of sleeping, everyone dances until four in the morning. Hugo too, despite being tired." },
+      { "sp": "", "fr": "À quatre heures, Hugo envoie un message à Léa : « Bonne année ! Six raisins seulement, mais je suis l'homme le plus heureux de Madrid. »", "en": "At four, Hugo sends Léa a message: 'Happy New Year! Only six grapes, but I'm the happiest man in Madrid.'" }
+    ]
+  },
+  "quiz": [
+    { "case": "op-pourtant", "type": "mc", "q": "Il mange vite. ___, il n'a pas fini.", "en": "He eats fast. And yet he hasn't finished.", "options": ["Pourtant", "Donc", "Parce que"], "answer": "Pourtant" },
+    { "case": "op-pourtant", "type": "mc", "q": "Tu n'as pas fini, mais tu auras ___ une bonne année.", "en": "You haven't finished, but you'll have a good year all the same.", "options": ["quand même", "malgré", "tandis que"], "answer": "quand même" },
+    { "case": "op-alors-que", "type": "mc", "q": "Lou dort, ___ les adultes dansent.", "en": "Lou is asleep, while the grown-ups dance.", "options": ["tandis que", "malgré", "même si"], "answer": "tandis que" },
+    { "case": "op-alors-que", "type": "mc", "q": "___ Hugo, Inès a mangé ses douze raisins.", "en": "Unlike Hugo, Inès ate her twelve grapes.", "options": ["Contrairement à", "Malgré", "Même si"], "answer": "Contrairement à" },
+    { "case": "op-malgre", "type": "mc", "q": "___ la neige, Hugo est arrivé à l'heure.", "en": "Despite the snow, Hugo arrived on time.", "options": ["Malgré", "Même si", "Pourtant"], "answer": "Malgré" },
+    { "case": "op-malgre", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Malgré la pluie, on sort.", "Malgré il pleut, on sort.", "Malgré qu'il pleut, on sort."], "answer": "Malgré la pluie, on sort." },
+    { "case": "op-meme-si", "type": "mc", "q": "Même si tu n'___ pas fini, tu auras une bonne année.", "en": "Even if you haven't finished, you'll have a good year.", "options": ["as", "aies", "aurais"], "answer": "as" },
+    { "case": "op-meme-si", "type": "mc", "q": "Même si j'___ le temps, je ne viendrais pas.", "en": "Even if I had the time, I wouldn't come.", "options": ["avais", "aurais", "aie"], "answer": "avais" },
+    { "case": "op-avoir-beau", "type": "mc", "q": "J'ai beau ___, je ne trouve pas mes lunettes.", "en": "However hard I look, I can't find my glasses.", "options": ["chercher", "de chercher", "cherche"], "answer": "chercher" },
+    { "case": "op-avoir-beau", "type": "mc", "lang": "en", "q": "« Il a beau courir » means…", "options": ["However fast he runs…", "He runs beautifully…", "He has a nice run…"], "answer": "However fast he runs…", "say": "Il a beau courir" }
+  ]
+}

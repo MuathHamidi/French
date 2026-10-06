@@ -221,7 +221,11 @@ for (const lesson of selected) {
 }
 
 // ---------- warnings: right answers a quiz could mark wrong ----------
-const sound = (e) => (e.ipa || '').normalize('NFC').replace(/[ˈˌ.‿\-\s]/g, '');
+// What a listening question plays: a word whose `say` is its form with the article (la Suisse) is heard with it.
+const sound = (e) => {
+  const ipa = (e.ipa || '').normalize('NFC').replace(/[ˈˌ.‿\-\s]/g, '');
+  return ipa && e.say && e.say === displayForm(e) && e.art ? `${e.art}${ipa}` : ipa;
+};
 const byPrompt = new Map(); // "Write it in French" prompt + hint -> taught words (reviews mix every lesson)
 for (const lesson of all) {
   for (const e of lesson.words || []) {

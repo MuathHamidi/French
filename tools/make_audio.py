@@ -147,6 +147,13 @@ FIXES = {
     "box": "bˈɔks", "planning": "planˈiŋ", "plannings": "planˈiŋ",  # English vowels otherwise
     "stress": "stʁˈɛs",  # the voice says an English r
     "ouïe": "wˈi",  # the voice says /wj/
+    "à l'est": "a lˈɛst", "de l'est": "də lˈɛst",  # east: the voice reads est as the verb /ɛ/
+    "danemark": "danmˈaʁk",  # otherwise read in English
+    "maghrébin": "maɡʁebˈɛ̃", "maghrébins": "maɡʁebˈɛ̃", "maghrébine": "maɡʁebˈin", "maghrébines": "maɡʁebˈin",  # read in English
+    "chum": "tʃˈɔm", "chums": "tʃˈɔm",  # Quebec French says the t
+    "dépaysement": "depeizmˈɑ̃",  # the voice drops the z
+    "mot à mot": "motamˈo",  # with the liaison
+    "copenhague": "kɔpənˈaɡ", "niemeyer": "nimɛjˈɛʁ", "puerta del sol": "pwˈɛʁta dɛl sˈɔl",
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}
@@ -156,6 +163,7 @@ ALONE_FIXES = {
     "y": "ˈi",  # alone, the voice reads the letter name "i grec"
     "vis": "vˈis",  # the noun (a screw); no text uses the verb (je vis) yet, which would need /vi/
     "à plus": "a plˈys",  # see you! (in sentences, see "à plus !" in FIXES)
+    "l'est": "lˈɛst",  # east, clicked or on its word card (in sentences, see "à l'est" in FIXES)
 }
 # A fixed word after an elision (l'immeuble, d'Annecy) takes the elided consonant into its
 # phoneme block: alone before a block, Piper would read "l'" as the letter name.
