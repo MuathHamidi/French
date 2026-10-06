@@ -1,0 +1,166 @@
+{
+  "id": "u31-urgences",
+  "type": "vocab",
+  "unit": 31,
+  "title": "Les urgences",
+  "en": "Emergencies",
+  "intro": "25 words for an emergency: the accident (**la chute, le vertige, le danger, grave, le choc, piquer, la piqûre**), the injuries (**inconscient, s'évanouir, le malaise, saigner, la bosse, gonfler, la cheville, l'entorse, la fracture**), first aid (**au secours, la trousse de secours, désinfecter, le glaçon**) and the emergency services (**le SAMU, la sirène, le brancard, le plâtre, la béquille**).",
+  "words": [
+    { "id": "secours", "fr": "secours", "pos": "noun", "g": "m", "ipa": "sə.kuʁ", "en": "help, rescue (au secours ! = help!; les secours = the emergency services)", "def": "L'aide qu'on donne à une personne en danger. « Les secours » : les pompiers, les médecins et les ambulances.", "def_en": "The help given to a person in danger. 'Les secours': the fire brigade, the doctors and the ambulances.", "note": "**les premiers secours** = first aid.", "examples": [
+      { "fr": "Au **secours** ! Hugo est tombé !", "en": "Help! Hugo has fallen!" },
+      { "fr": "Les **secours** arrivent en dix minutes.", "en": "The emergency services arrive in ten minutes." },
+      { "fr": "Anne a appris les premiers **secours** à vingt ans.", "en": "Anne learnt first aid when she was twenty." }
+    ] },
+    { "id": "trousse-de-secours", "fr": "trousse de secours", "pos": "noun", "g": "f", "ipa": "tʁus də sə.kuʁ", "en": "first-aid kit", "def": "Une petite boîte avec des pansements et des médicaments, pour soigner les petites blessures.", "def_en": "A small box with plasters and medicines, for treating minor injuries.", "forms": ["trousses de secours"], "examples": [
+      { "fr": "Il y a une **trousse de secours** dans la voiture.", "en": "There's a first-aid kit in the car." },
+      { "fr": "Va chercher la **trousse de secours** !", "en": "Go and get the first-aid kit!" },
+      { "fr": "Notre **trousse de secours** est vide : il faut acheter des pansements.", "en": "Our first-aid kit is empty: we need to buy some plasters." }
+    ] },
+    { "id": "samu", "fr": "SAMU", "pos": "noun", "g": "m", "ipa": "sa.my", "display": "le SAMU", "en": "emergency medical service, ambulance service (dial 15)", "def": "Le service de médecins qui vient en urgence, quand on fait le quinze au téléphone.", "def_en": "The doctors' service that comes in an emergency when you dial 15.", "note": "In France, dial **15** for the SAMU, **18** for the fire brigade, **17** for the police, or **112** anywhere in Europe.", "examples": [
+      { "fr": "Appelle le **SAMU** : fais le quinze !", "en": "Call an ambulance: dial 15!" },
+      { "fr": "Le **SAMU** est arrivé en dix minutes.", "en": "The ambulance arrived in ten minutes." },
+      { "fr": "Le médecin du **SAMU** parle au blessé.", "en": "The emergency doctor talks to the injured man." }
+    ] },
+    { "id": "sirene", "fr": "sirène", "pos": "noun", "g": "f", "ipa": "si.ʁɛn", "en": "siren; mermaid", "def": "Le bruit très fort des voitures de police, des pompiers et des ambulances. Aussi : une femme-poisson, dans les histoires.", "def_en": "The very loud noise of police cars, fire engines and ambulances. Also: a fish-woman, in stories.", "forms": ["sirènes"], "examples": [
+      { "fr": "On entend la **sirène** des pompiers.", "en": "You can hear the fire engine's siren." },
+      { "fr": "La **sirène** de l'ambulance me fait peur.", "en": "The ambulance siren scares me." },
+      { "fr": "Lou adore les histoires de **sirènes**.", "en": "Lou loves stories about mermaids." }
+    ] },
+    { "id": "brancard", "fr": "brancard", "pos": "noun", "g": "m", "ipa": "bʁɑ̃.kaʁ", "en": "stretcher", "def": "Une sorte de lit qu'on porte à deux, pour transporter un blessé.", "def_en": "A kind of bed carried by two people, to move an injured person.", "forms": ["brancards"], "examples": [
+      { "fr": "Les pompiers mettent Hugo sur un **brancard**.", "en": "The firefighters put Hugo on a stretcher." },
+      { "fr": "On le transporte sur un **brancard** jusqu'à l'ambulance.", "en": "He's carried on a stretcher to the ambulance." },
+      { "fr": "Il est parti sur un **brancard**, mais il souriait !", "en": "He left on a stretcher, but he was smiling!" }
+    ] },
+    { "id": "chute", "fr": "chute", "pos": "noun", "g": "f", "ipa": "ʃyt", "en": "fall", "def": "Quand on tombe. Aussi : quand une chose tombe ou baisse beaucoup.", "def_en": "When you fall. Also: when something falls or drops a lot.", "forms": ["chutes"], "examples": [
+      { "fr": "Il a fait une **chute** de deux mètres.", "en": "He fell two metres." },
+      { "fr": "Attention aux **chutes** dans l'escalier !", "en": "Mind you don't fall on the stairs!" },
+      { "fr": "Il y a eu une grosse **chute** de neige cette nuit.", "en": "There was a heavy snowfall last night." }
+    ] },
+    { "id": "vertige", "fr": "vertige", "pos": "noun", "g": "m", "ipa": "vɛʁ.tiʒ", "en": "dizziness; (avoir le vertige) to be afraid of heights", "def": "Quand la tête tourne, surtout quand on est en haut et qu'on regarde en bas.", "def_en": "When your head spins, especially when you're high up and look down.", "forms": ["vertiges"], "examples": [
+      { "fr": "J'ai le **vertige** : je ne monte pas sur l'échelle !", "en": "I'm scared of heights: I'm not going up the ladder!" },
+      { "fr": "Ce balcon me donne le **vertige**.", "en": "This balcony makes me dizzy." },
+      { "fr": "Elle a des **vertiges** quand elle se lève trop vite.", "en": "She gets dizzy when she stands up too fast." }
+    ] },
+    { "id": "inconscient", "fr": "inconscient", "pos": "adj", "ipa": "ɛ̃.kɔ̃.sjɑ̃", "display": "inconscient, inconsciente", "en": "unconscious; reckless", "def": "Qui ne voit rien et n'entend rien, comme une personne qui dort et qu'on ne peut pas réveiller. Aussi : qui ne pense pas au danger.", "def_en": "Who sees and hears nothing, like someone asleep who can't be woken. Also: who doesn't think about danger.", "forms": ["inconsciente", "inconscients", "inconscientes"], "accept": ["inconsciente"], "examples": [
+      { "fr": "Le blessé est **inconscient**.", "en": "The injured man is unconscious." },
+      { "fr": "Elle est restée **inconsciente** pendant une minute.", "en": "She was unconscious for a minute." },
+      { "fr": "Conduire si vite, c'est **inconscient** !", "en": "Driving so fast is reckless!" }
+    ] },
+    { "id": "bosse", "fr": "bosse", "pos": "noun", "g": "f", "ipa": "bɔs", "en": "bump, lump", "def": "Ce qui gonfle sur la tête, après un coup. Aussi : un endroit plus haut, sur une route.", "def_en": "What swells up on your head after a knock. Also: a higher spot on a road.", "forms": ["bosses"], "examples": [
+      { "fr": "Hugo a une grosse **bosse** sur la tête.", "en": "Hugo has a big bump on his head." },
+      { "fr": "Mets un glaçon sur ta **bosse**.", "en": "Put an ice cube on your bump." },
+      { "fr": "Attention, il y a une **bosse** sur la route !", "en": "Careful, there's a bump in the road!" }
+    ] },
+    { "id": "saigner", "fr": "saigner", "pos": "verb", "ipa": "se.ɲe", "en": "to bleed", "def": "Perdre du sang, après une blessure.", "def_en": "To lose blood after an injury.", "forms": ["saigne", "saignes", "saignons", "saignez", "saignent", "saigné", "saignais", "saignait", "saignions", "saigniez", "saignaient", "saignerai", "saigneras", "saignera", "saignerons", "saignerez", "saigneront", "saignerais", "saignerait", "saignerions", "saigneriez", "saigneraient"], "examples": [
+      { "fr": "Il **saigne** du nez.", "en": "He has a nosebleed." },
+      { "fr": "Ma main **saigne** : je me suis coupé.", "en": "My hand is bleeding: I've cut myself." },
+      { "fr": "Le genou de Lou a un peu **saigné**.", "en": "Lou's knee bled a little." }
+    ] },
+    { "id": "cheville", "fr": "cheville", "pos": "noun", "g": "f", "ipa": "ʃə.vij", "en": "ankle", "def": "La partie du corps entre la jambe et le pied.", "def_en": "The part of the body between the leg and the foot.", "forms": ["chevilles"], "examples": [
+      { "fr": "J'ai mal à la **cheville**.", "en": "My ankle hurts." },
+      { "fr": "Sa **cheville** est toute bleue.", "en": "His ankle is all blue." },
+      { "fr": "Ces chaussures protègent les **chevilles**.", "en": "These shoes protect your ankles." }
+    ] },
+    { "id": "gonfler", "fr": "gonfler", "pos": "verb", "ipa": "ɡɔ̃.fle", "en": "to swell; to inflate, to blow up", "def": "Devenir plus gros, ou rendre une chose plus grosse en mettant de l'air dedans.", "def_en": "To get bigger, or to make something bigger by putting air in it.", "forms": ["gonfle", "gonfles", "gonflons", "gonflez", "gonflent", "gonflé", "gonflée", "gonflés", "gonflées", "gonflais", "gonflait", "gonflions", "gonfliez", "gonflaient", "gonflerai", "gonfleras", "gonflera", "gonflerons", "gonflerez", "gonfleront", "gonflerais", "gonflerait", "gonflerions", "gonfleriez", "gonfleraient", "gonflant"], "examples": [
+      { "fr": "Sa cheville commence à **gonfler**.", "en": "His ankle is starting to swell." },
+      { "fr": "On **gonfle** des ballons pour la fête.", "en": "We're blowing up balloons for the party." },
+      { "fr": "Les pneus sont bien **gonflés** ?", "en": "Are the tyres pumped up properly?" }
+    ] },
+    { "id": "piqure", "fr": "piqûre", "pos": "noun", "g": "f", "ipa": "pi.kyʁ", "en": "sting, bite (insect); injection, jab", "def": "La marque qu'une abeille ou un moustique laisse sur la peau. Aussi : quand un médecin met un médicament sous la peau.", "def_en": "The mark a bee or a mosquito leaves on your skin. Also: when a doctor puts medicine under your skin.", "forms": ["piqûres"], "examples": [
+      { "fr": "Une **piqûre** d'abeille, ça fait mal !", "en": "A bee sting really hurts!" },
+      { "fr": "L'infirmière fait une **piqûre** à Hugo.", "en": "The nurse gives Hugo an injection." },
+      { "fr": "J'ai des **piqûres** de moustique partout.", "en": "I've got mosquito bites everywhere." }
+    ] },
+    { "id": "piquer", "fr": "piquer", "pos": "verb", "ipa": "pi.ke", "en": "to sting; to bite (insect); to be spicy (ça pique = it's spicy)", "def": "Pour une abeille ou un moustique : faire un petit trou dans la peau. Pour un plat : brûler un peu la bouche.", "def_en": "For a bee or a mosquito: to make a little hole in the skin. For a dish: to burn your mouth a little.", "forms": ["pique", "piques", "piquons", "piquez", "piquent", "piquais", "piquait", "piquions", "piquiez", "piquaient", "piquerai", "piqueras", "piquera", "piquerons", "piquerez", "piqueront", "piquerais", "piquerait", "piquerions", "piqueriez", "piqueraient", "piqué", "piquée", "piqués", "piquées"], "examples": [
+      { "fr": "Une abeille m'a **piqué** !", "en": "A bee stung me!" },
+      { "fr": "Attention, cette sauce **pique** !", "en": "Careful, this sauce is hot!" },
+      { "fr": "Les moustiques **piquent** le soir.", "en": "Mosquitoes bite in the evening." }
+    ] },
+    { "id": "s-evanouir", "fr": "s'évanouir", "pos": "verb", "ipa": "se.va.nwiʁ", "en": "to faint, to pass out", "extra": "like **finir**: je **m'évanouis**, nous **nous évanouissons**; je **me suis évanoui(e)**.", "def": "Tomber et ne plus rien voir, ne plus rien entendre, pendant quelques secondes.", "def_en": "To fall and stop seeing or hearing anything for a few seconds.", "forms": ["m'évanouis", "t'évanouis", "s'évanouit", "nous nous évanouissons", "vous vous évanouissez", "s'évanouissent", "m'évanouir", "t'évanouir", "nous évanouir", "vous évanouir", "évanouir", "m'évanouirai", "t'évanouiras", "s'évanouira", "nous nous évanouirons", "vous vous évanouirez", "s'évanouiront", "m'évanouirais", "t'évanouirais", "s'évanouirait", "nous nous évanouirions", "vous vous évanouiriez", "s'évanouiraient", "évanouis", "évanouit", "évanouissons", "évanouissez", "évanouissent", "évanoui", "évanouie", "évanouies", "évanouissais", "évanouissait", "évanouissions", "évanouissiez", "évanouissaient", "évanouirai", "évanouiras", "évanouira", "évanouirons", "évanouirez", "évanouiront", "évanouirais", "évanouirait", "évanouirions", "évanouiriez", "évanouiraient", "évanouisse", "évanouisses", "évanouissant"], "examples": [
+      { "fr": "Tom **s'évanouit** quand il voit du sang.", "en": "Tom faints when he sees blood." },
+      { "fr": "Il fait trop chaud, je vais m'**évanouir** !", "en": "It's too hot, I'm going to faint!" },
+      { "fr": "Elle s'est **évanouie** à cause de la chaleur.", "en": "She fainted because of the heat." }
+    ] },
+    { "id": "malaise", "fr": "malaise", "pos": "noun", "g": "m", "ipa": "ma.lɛz", "en": "dizzy spell, fainting fit; unease", "def": "Quand on se sent mal tout à coup : la tête tourne, et on peut tomber. Aussi : quand on se sent mal avec d'autres personnes.", "def_en": "When you suddenly feel ill: your head spins and you may fall. Also: when you feel uncomfortable with other people.", "forms": ["malaises"], "examples": [
+      { "fr": "Tom a eu un petit **malaise**.", "en": "Tom had a little dizzy spell." },
+      { "fr": "Elle a fait un **malaise** dans le métro.", "en": "She fainted on the metro." },
+      { "fr": "Il y a un **malaise** entre eux depuis la dispute.", "en": "Things have been awkward between them since the argument." }
+    ] },
+    { "id": "grave", "fr": "grave", "pos": "adj", "ipa": "ɡʁav", "en": "serious (ce n'est pas grave = it doesn't matter)", "def": "Qui est sérieux et qui peut être dangereux.", "def_en": "Serious, and possibly dangerous.", "forms": ["graves"], "examples": [
+      { "fr": "Ce n'est pas **grave**.", "en": "It doesn't matter." },
+      { "fr": "L'accident est **grave** : il y a trois blessés.", "en": "The accident is serious: three people are hurt." },
+      { "fr": "C'est une maladie **grave** ?", "en": "Is it a serious illness?" }
+    ] },
+    { "id": "fracture", "fr": "fracture", "pos": "noun", "g": "f", "ipa": "fʁak.tyʁ", "en": "fracture, break", "def": "Quand un os est cassé.", "def_en": "When a bone is broken.", "forms": ["fractures"], "examples": [
+      { "fr": "Il a une **fracture** du bras.", "en": "He has a broken arm." },
+      { "fr": "La radio montre une **fracture**.", "en": "The X-ray shows a fracture." },
+      { "fr": "Ce n'est pas une **fracture**, c'est une entorse.", "en": "It isn't a break, it's a sprain." }
+    ] },
+    { "id": "entorse", "fr": "entorse", "pos": "noun", "g": "f", "ipa": "ɑ̃.tɔʁs", "en": "sprain", "def": "Quand on se fait mal à la cheville ou au genou, en tournant mal le pied.", "def_en": "When you hurt your ankle or knee by twisting your foot.", "forms": ["entorses"], "examples": [
+      { "fr": "Hugo a une **entorse** à la cheville.", "en": "Hugo has a sprained ankle." },
+      { "fr": "Avec une **entorse**, il faut se reposer.", "en": "With a sprain, you need to rest." },
+      { "fr": "Elle s'est fait une **entorse** au ski.", "en": "She sprained something skiing." }
+    ] },
+    { "id": "platre", "fr": "plâtre", "pos": "noun", "g": "m", "ipa": "plɑtʁ", "en": "plaster cast; plaster", "def": "Ce qu'on met autour d'un bras ou d'une jambe cassés, blanc et dur, pour les protéger. Aussi : la matière blanche des murs.", "def_en": "What is put round a broken arm or leg, white and hard, to protect it. Also: the white material walls are made with.", "forms": ["plâtres"], "examples": [
+      { "fr": "Il a un **plâtre** au bras pendant six semaines.", "en": "He has his arm in plaster for six weeks." },
+      { "fr": "Tous ses amis ont écrit sur son **plâtre**.", "en": "All his friends wrote on his cast." },
+      { "fr": "Le **plâtre** du mur est abîmé.", "en": "The plaster on the wall is damaged." }
+    ] },
+    { "id": "bequille", "fr": "béquille", "pos": "noun", "g": "f", "ipa": "be.kij", "en": "crutch", "def": "Un long morceau de bois ou de métal qu'on met sous le bras, pour marcher quand on a mal à la jambe.", "def_en": "A long piece of wood or metal you put under your arm, to walk when your leg hurts.", "forms": ["béquilles"], "examples": [
+      { "fr": "Il marche avec des **béquilles**.", "en": "He walks on crutches." },
+      { "fr": "Donne-moi ma **béquille** !", "en": "Give me my crutch!" },
+      { "fr": "Avec des **béquilles**, l'escalier, c'est difficile !", "en": "Stairs are hard on crutches!" }
+    ] },
+    { "id": "desinfecter", "fr": "désinfecter", "pos": "verb", "ipa": "de.zɛ̃.fɛk.te", "en": "to disinfect, to clean (a wound)", "def": "Nettoyer une blessure ou un objet avec un produit, pour éviter une maladie.", "def_en": "To clean a wound or an object with a product, to prevent an illness.", "forms": ["désinfecte", "désinfectes", "désinfectons", "désinfectez", "désinfectent", "désinfecté", "désinfectée", "désinfectés", "désinfectées", "désinfectais", "désinfectait", "désinfections", "désinfectiez", "désinfectaient", "désinfecterai", "désinfecteras", "désinfectera", "désinfecterons", "désinfecterez", "désinfecteront", "désinfecterais", "désinfecterait", "désinfecterions", "désinfecteriez", "désinfecteraient", "désinfectant"], "examples": [
+      { "fr": "L'infirmière **désinfecte** la blessure.", "en": "The nurse cleans the wound." },
+      { "fr": "Il faut **désinfecter** la piqûre.", "en": "The sting needs disinfecting." },
+      { "fr": "J'ai **désinfecté** la table de la cuisine.", "en": "I've disinfected the kitchen table." }
+    ] },
+    { "id": "glacon", "fr": "glaçon", "pos": "noun", "g": "m", "ipa": "ɡla.sɔ̃", "en": "ice cube", "def": "Un petit morceau de glace, qu'on met dans un verre pour avoir une boisson froide.", "def_en": "A small piece of ice you put in a glass to get a cold drink.", "forms": ["glaçons"], "examples": [
+      { "fr": "Un jus d'orange avec des **glaçons**, s'il vous plaît.", "en": "An orange juice with ice, please." },
+      { "fr": "Mets des **glaçons** sur ta cheville.", "en": "Put some ice cubes on your ankle." },
+      { "fr": "Les **glaçons** fondent au soleil.", "en": "Ice cubes melt in the sun." }
+    ] },
+    { "id": "choc", "fr": "choc", "pos": "noun", "g": "m", "ipa": "ʃɔk", "en": "shock; impact", "def": "Quand deux choses se touchent très fort. Aussi : une grande émotion, quand on apprend une chose terrible.", "def_en": "When two things hit each other very hard. Also: a strong emotion when you learn something terrible.", "forms": ["chocs"], "note": "**être sous le choc** = to be in shock.", "examples": [
+      { "fr": "Il est encore sous le **choc**.", "en": "He's still in shock." },
+      { "fr": "Le **choc** a cassé le miroir.", "en": "The impact broke the mirror." },
+      { "fr": "Quel **choc** ! Je ne m'attendais pas à ça.", "en": "What a shock! I wasn't expecting that." }
+    ] },
+    { "id": "danger", "fr": "danger", "pos": "noun", "g": "m", "ipa": "dɑ̃.ʒe", "en": "danger (en danger = in danger)", "def": "Une situation où on peut avoir un accident ou se faire mal.", "def_en": "A situation where you might have an accident or get hurt.", "forms": ["dangers"], "examples": [
+      { "fr": "Attention, **danger** !", "en": "Careful, danger!" },
+      { "fr": "Ces enfants sont en **danger**.", "en": "These children are in danger." },
+      { "fr": "La montagne a beaucoup de **dangers**.", "en": "The mountains have many dangers." }
+    ] }
+  ],
+  "story": {
+    "title": "La chute",
+    "en": "Saturday 19 September, late morning: Hugo is back with the right suitcase and wants to help. The wedding is at three.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "À onze heures, Hugo est de retour à la ferme, avec sa valise et les alliances. Il veut aider, alors il monte sur une échelle dans la grange.", "en": "At eleven, Hugo is back at the farm with his suitcase and the rings. He wants to help, so he climbs a ladder in the barn." },
+      { "sp": "Pierre", "fr": "Fais attention, Hugo : l'échelle est vieille. Tu n'as pas le vertige ?", "en": "Be careful, Hugo: the ladder's old. You're not scared of heights?" },
+      { "sp": "Hugo", "fr": "Le vertige, moi ? Jamais ! Passe-moi les guirlandes.", "en": "Me, scared of heights? Never! Pass me the fairy lights." },
+      { "sp": "", "fr": "Tout à coup, une abeille arrive. Hugo crie, lève les bras… et tombe de l'échelle ! Une chute de deux mètres.", "en": "Suddenly, a bee appears. Hugo yells, throws up his arms… and falls off the ladder! A two-metre fall." },
+      { "sp": "Lou", "fr": "Au secours ! Hugo est tombé !", "en": "Help! Hugo's fallen!" },
+      { "sp": "", "fr": "Tout le monde arrive en [courant|courir]. Anne, qui est médecin, se met à genoux à côté de son fils.", "en": "Everyone comes running. Anne, who's a doctor, kneels down next to her son." },
+      { "sp": "Anne", "fr": "Ne bouge pas, Hugo. Tu m'entends ? Combien de doigts ?", "en": "Don't move, Hugo. Can you hear me? How many fingers?" },
+      { "sp": "Hugo", "fr": "Trois… ou quatre ?", "en": "Three… or four?" },
+      { "sp": "Anne", "fr": "Bon, il n'est pas inconscient. Mais il a une grosse bosse sur la tête, et il saigne du nez.", "en": "Well, he isn't unconscious. But he has a big bump on his head, and his nose is bleeding." },
+      { "sp": "", "fr": "Il a aussi une piqûre sur la main : l'abeille l'a piqué. Et sa cheville commence à gonfler.", "en": "He also has a sting on his hand: the bee got him. And his ankle is starting to swell." },
+      { "sp": "", "fr": "Tom voit le sang… et s'évanouit.", "en": "Tom sees the blood… and faints." },
+      { "sp": "Sophie", "fr": "Encore un blessé ! Non, ce n'est rien : un petit malaise. Respire, Tom !", "en": "Another casualty! No, it's nothing: just a dizzy spell. Breathe, Tom!" },
+      { "sp": "Anne", "fr": "Ce n'est peut-être pas grave, mais c'est peut-être une fracture. Il faut une radio.", "en": "It may not be serious, but it might be a fracture. He needs an X-ray." },
+      { "sp": "", "fr": "Pierre apporte la trousse de secours. Anne désinfecte la piqûre et met des glaçons sur la cheville.", "en": "Pierre brings the first-aid kit. Anne disinfects the sting and puts ice cubes on the ankle." },
+      { "sp": "", "fr": "Paul appelle le SAMU, le quinze. Dix minutes plus tard, on entend la sirène : les pompiers arrivent.", "en": "Paul calls the ambulance service, 15. Ten minutes later, there's a siren: the fire brigade is here." },
+      { "sp": "", "fr": "Ils mettent Hugo sur un brancard.", "en": "They put Hugo on a stretcher." },
+      { "sp": "Hugo", "fr": "Attendez ! Le mariage est à trois heures, et c'est moi, le témoin !", "en": "Wait! The wedding is at three, and I'm the best man!" },
+      { "sp": "Un pompier", "fr": "Restez calme, monsieur. Vous êtes encore sous le choc.", "en": "Stay calm, sir. You're still in shock." },
+      { "sp": "Pierre", "fr": "Hugo, tu es un vrai danger public !", "en": "Hugo, you're a menace to society!" },
+      { "sp": "", "fr": "Aux urgences d'Annecy, avec Anne et Carla, Hugo attend une heure. Puis on lui fait une radio.", "en": "At A&E in Annecy, with Anne and Carla, Hugo waits for an hour. Then he has an X-ray." },
+      { "sp": "Le médecin", "fr": "Ce n'est pas une fracture, c'est une entorse. Pas de plâtre : juste des béquilles pendant deux semaines.", "en": "It isn't a fracture, it's a sprain. No cast: just crutches for two weeks." },
+      { "sp": "Le médecin", "fr": "Et pas de danse ce soir !", "en": "And no dancing tonight!" },
+      { "sp": "Hugo", "fr": "Pas de danse ? À un mariage ? Le vrai choc, c'est ça !", "en": "No dancing? At a wedding? Now that's the real shock!" },
+      { "sp": "", "fr": "À deux heures et demie, Hugo revient à la ferme… sur ses béquilles.", "en": "At half past two, Hugo comes back to the farm… on his crutches." }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "u31-police",
+  "type": "vocab",
+  "unit": 31,
+  "title": "La police et les assurances",
+  "en": "Police and insurance",
+  "intro": "25 words for when something goes missing: who to see (**la police, le gendarme, la gendarmerie**), what happened (**voler, le voleur, cambrioler, le cambriolage, le pickpocket, s'enfuir, la disparition, l'erreur**), what you do there (**déclarer, signaler, la description, l'identité, identique, fouiller, interroger, le suspect, les menottes, surveiller**) and the insurance (**assurer, l'assureur, couvrir, la franchise**).",
+  "words": [
+    { "id": "gendarme", "fr": "gendarme", "pos": "noun", "g": "m", "both": true, "ipa": "ʒɑ̃.daʁm", "display": "le / la gendarme", "en": "gendarme, police officer (outside big towns)", "def": "Une personne qui fait le travail de la police, surtout à la campagne et dans les petites villes.", "def_en": "A person who does police work, mainly in the countryside and in small towns.", "forms": ["gendarmes"], "accept": ["la gendarme", "une gendarme"], "examples": [
+      { "fr": "Le **gendarme** écoute Hugo.", "en": "The gendarme listens to Hugo." },
+      { "fr": "Les **gendarmes** arrêtent les voitures sur la route.", "en": "The gendarmes are stopping cars on the road." },
+      { "fr": "Ma voisine est **gendarme**.", "en": "My neighbour is a gendarme." }
+    ] },
+    { "id": "gendarmerie", "fr": "gendarmerie", "pos": "noun", "g": "f", "ipa": "ʒɑ̃.daʁ.mə.ʁi", "en": "police station (outside big towns); the gendarmerie", "def": "Le bureau de la police, à la campagne et dans les petites villes.", "def_en": "The police station, in the countryside and in small towns.", "forms": ["gendarmeries"], "note": "In big towns, you go to the **commissariat**.", "examples": [
+      { "fr": "On va à la **gendarmerie** du village.", "en": "We're going to the village police station." },
+      { "fr": "La **gendarmerie** est fermée la nuit ?", "en": "Is the police station closed at night?" },
+      { "fr": "J'ai appelé la **gendarmerie** pour signaler un accident.", "en": "I called the police to report an accident." }
+    ] },
+    { "id": "police", "fr": "police", "pos": "noun", "g": "f", "ipa": "pɔ.lis", "en": "police", "def": "Les personnes qui protègent les gens, font respecter la loi et cherchent les voleurs.", "def_en": "The people who protect the public, enforce the law and look for thieves.", "examples": [
+      { "fr": "Appelle la **police** !", "en": "Call the police!" },
+      { "fr": "La **police** cherche le voleur.", "en": "The police are looking for the thief." },
+      { "fr": "Il y a une voiture de **police** devant la maison.", "en": "There's a police car outside the house." }
+    ] },
+    { "id": "voleur", "fr": "voleur", "pos": "noun", "g": "m", "ipa": "vɔ.lœʁ", "display": "le voleur, la voleuse", "en": "thief", "def": "Une personne qui prend les choses des autres, sans payer et sans demander.", "def_en": "A person who takes other people's things without paying or asking.", "forms": ["voleurs", "voleuse", "voleuses"], "accept": ["voleuse", "la voleuse", "une voleuse"], "examples": [
+      { "fr": "Au **voleur** ! Il a pris mon sac !", "en": "Stop thief! He took my bag!" },
+      { "fr": "La police a arrêté les **voleurs**.", "en": "The police arrested the thieves." },
+      { "fr": "La **voleuse** a pris trois portefeuilles dans le métro.", "en": "The thief took three wallets on the metro." }
+    ] },
+    { "id": "voler", "fr": "voler", "pos": "verb", "ipa": "vɔ.le", "en": "to steal; to fly", "def": "Prendre une chose à quelqu'un, sans payer et sans demander. Aussi : aller dans l'air, comme un oiseau ou un avion.", "def_en": "To take something from someone without paying or asking. Also: to go through the air, like a bird or a plane.", "forms": ["vole", "voles", "volons", "volez", "volent", "volais", "volait", "volions", "voliez", "volaient", "volerai", "voleras", "volera", "volerons", "volerez", "voleront", "volerais", "volerait", "volerions", "voleriez", "voleraient", "volé", "volée", "volés", "volées"], "examples": [
+      { "fr": "On m'a **volé** mon téléphone !", "en": "My phone's been stolen!" },
+      { "fr": "Il **vole** des bonbons au supermarché.", "en": "He steals sweets from the supermarket." },
+      { "fr": "Les oiseaux **volent** vers le sud.", "en": "The birds are flying south." }
+    ] },
+    { "id": "cambrioler", "fr": "cambrioler", "pos": "verb", "ipa": "kɑ̃.bʁi.jɔ.le", "en": "to burgle, to break into", "def": "Entrer dans une maison ou un magasin pour voler.", "def_en": "To get into a house or a shop to steal.", "forms": ["cambriole", "cambrioles", "cambriolons", "cambriolez", "cambriolent", "cambriolé", "cambriolée", "cambriolés", "cambriolées", "cambriolais", "cambriolait", "cambriolions", "cambrioliez", "cambriolaient", "cambriolerai", "cambrioleras", "cambriolera", "cambriolerons", "cambriolerez", "cambrioleront", "cambriolerais", "cambriolerait", "cambriolerions", "cambrioleriez", "cambrioleraient", "cambriolant"], "examples": [
+      { "fr": "Des voleurs ont **cambriolé** la boulangerie cette nuit.", "en": "Thieves broke into the bakery last night." },
+      { "fr": "Notre appartement a été **cambriolé** pendant les vacances.", "en": "Our flat was burgled during the holidays." },
+      { "fr": "On ne **cambriole** pas une maison avec un chien comme Max !", "en": "Nobody burgles a house with a dog like Max!" }
+    ] },
+    { "id": "cambriolage", "fr": "cambriolage", "pos": "noun", "g": "m", "ipa": "kɑ̃.bʁi.jɔ.laʒ", "en": "burglary, break-in", "def": "Quand des voleurs entrent dans une maison ou un magasin, et prennent des choses.", "def_en": "When thieves get into a house or a shop and take things.", "forms": ["cambriolages"], "examples": [
+      { "fr": "Il y a eu deux **cambriolages** dans le village cette semaine.", "en": "There were two break-ins in the village this week." },
+      { "fr": "Après le **cambriolage**, on a changé la serrure.", "en": "After the burglary, we changed the lock." },
+      { "fr": "Votre assurance couvre les **cambriolages** ?", "en": "Does your insurance cover burglary?" }
+    ] },
+    { "id": "pickpocket", "fr": "pickpocket", "pos": "noun", "g": "m", "ipa": "pik.pɔ.kɛt", "en": "pickpocket", "def": "Un voleur qui prend les portefeuilles dans les poches et les sacs, sans qu'on le voie.", "def_en": "A thief who takes wallets from pockets and bags without being seen.", "forms": ["pickpockets"], "examples": [
+      { "fr": "Attention aux **pickpockets** dans le métro !", "en": "Watch out for pickpockets on the metro!" },
+      { "fr": "Un **pickpocket** a pris mon portefeuille.", "en": "A pickpocket took my wallet." },
+      { "fr": "Les **pickpockets** aiment les endroits où il y a beaucoup de monde.", "en": "Pickpockets love crowded places." }
+    ] },
+    { "id": "declarer", "fr": "déclarer", "pos": "verb", "ipa": "de.kla.ʁe", "en": "to declare; to report (a theft, an accident)", "def": "Donner une information officielle, à la police, à une assurance ou à l'État.", "def_en": "To give a piece of information officially, to the police, an insurer or the State.", "forms": ["déclare", "déclares", "déclarons", "déclarez", "déclarent", "déclaré", "déclarée", "déclarés", "déclarées", "déclarais", "déclarait", "déclarions", "déclariez", "déclaraient", "déclarerai", "déclareras", "déclarera", "déclarerons", "déclarerez", "déclareront", "déclarerais", "déclarerait", "déclarerions", "déclareriez", "déclareraient", "déclarant"], "examples": [
+      { "fr": "Je viens **déclarer** un vol.", "en": "I've come to report a theft." },
+      { "fr": "Il faut **déclarer** l'accident à votre assurance.", "en": "You have to report the accident to your insurance." },
+      { "fr": "Le maire les a **déclarés** mari et femme.", "en": "The mayor declared them husband and wife." }
+    ] },
+    { "id": "signaler", "fr": "signaler", "pos": "verb", "ipa": "si.ɲa.le", "en": "to report; to point out", "def": "Faire savoir une chose à quelqu'un : un problème, un danger, une erreur.", "def_en": "To let someone know about something: a problem, a danger, a mistake.", "forms": ["signale", "signales", "signalons", "signalez", "signalent", "signalé", "signalée", "signalés", "signalées", "signalais", "signalait", "signalions", "signaliez", "signalaient", "signalerai", "signaleras", "signalera", "signalerons", "signalerez", "signaleront", "signalerais", "signalerait", "signalerions", "signaleriez", "signaleraient", "signalant"], "examples": [
+      { "fr": "Je voudrais **signaler** un vol de vélo.", "en": "I'd like to report a stolen bike." },
+      { "fr": "Il a **signalé** l'accident aux pompiers.", "en": "He reported the accident to the fire brigade." },
+      { "fr": "Merci de **signaler** les problèmes au guichet.", "en": "Please report any problems at the counter." }
+    ] },
+    { "id": "suspect", "fr": "suspect", "pos": "noun", "g": "m", "ipa": "sys.pɛ", "display": "le suspect, la suspecte", "en": "suspect; (adj) suspicious", "def": "Une personne qui a peut-être fait une chose mauvaise ou interdite. Comme adjectif : bizarre, qui fait peur ou qui inquiète.", "def_en": "A person who may have done something wrong or forbidden. As an adjective: strange, worrying.", "forms": ["suspecte", "suspects", "suspectes"], "accept": ["suspecte", "la suspecte", "une suspecte"], "examples": [
+      { "fr": "La police interroge le **suspect**.", "en": "The police are questioning the suspect." },
+      { "fr": "Un paquet **suspect** est resté dans la gare.", "en": "A suspicious package was left in the station." },
+      { "fr": "Pour moi, ce monsieur est très **suspect** !", "en": "If you ask me, that man is very suspicious!" }
+    ] },
+    { "id": "menottes", "fr": "menottes", "pos": "noun", "g": "f", "ipa": "mə.nɔt", "display": "les menottes", "en": "handcuffs", "def": "Un objet en métal qui attache les deux mains d'une personne arrêtée par la police.", "def_en": "A metal object that ties together the hands of someone arrested by the police.", "examples": [
+      { "fr": "Le gendarme lui met les **menottes**.", "en": "The gendarme puts the handcuffs on him." },
+      { "fr": "Le voleur part avec les **menottes**.", "en": "The thief leaves in handcuffs." },
+      { "fr": "Des **menottes** ? Pour une valise ?", "en": "Handcuffs? For a suitcase?" }
+    ] },
+    { "id": "description", "fr": "description", "pos": "noun", "g": "f", "ipa": "dɛs.kʁip.sjɔ̃", "en": "description", "def": "Ce qu'on dit pour expliquer comment est une personne, un objet ou un lieu.", "def_en": "What you say to explain what a person, an object or a place is like.", "forms": ["descriptions"], "examples": [
+      { "fr": "Pouvez-vous faire une **description** de la valise ?", "en": "Can you describe the suitcase?" },
+      { "fr": "La police a une **description** du voleur.", "en": "The police have a description of the thief." },
+      { "fr": "La **description** de l'appartement ne parle pas de l'ascenseur !", "en": "The flat's description doesn't mention the lift!" }
+    ] },
+    { "id": "identite", "fr": "identité", "pos": "noun", "g": "f", "ipa": "i.dɑ̃.ti.te", "en": "identity", "def": "Qui est une personne : son nom, sa date de naissance, sa nationalité…", "def_en": "Who a person is: their name, date of birth, nationality…", "forms": ["identités"], "note": "**une pièce d'identité** = an ID document: a passport or an ID card.", "examples": [
+      { "fr": "Votre pièce d'**identité**, s'il vous plaît.", "en": "Your ID, please." },
+      { "fr": "La police ne connaît pas l'**identité** du voleur.", "en": "The police don't know who the thief is." },
+      { "fr": "Le gendarme vérifie l'**identité** de Hugo.", "en": "The gendarme checks Hugo's identity." }
+    ] },
+    { "id": "identique", "fr": "identique", "pos": "adj", "ipa": "i.dɑ̃.tik", "en": "identical", "def": "Tout à fait pareil, sans aucune différence.", "def_en": "Exactly the same, with no difference at all.", "forms": ["identiques"], "examples": [
+      { "fr": "Nos deux valises sont **identiques** !", "en": "Our two suitcases are identical!" },
+      { "fr": "Les jumeaux ne sont pas **identiques** : c'est un garçon et une fille.", "en": "The twins aren't identical: they're a boy and a girl." },
+      { "fr": "Ton manteau est **identique** au mien.", "en": "Your coat is exactly like mine." }
+    ] },
+    { "id": "fouiller", "fr": "fouiller", "pos": "verb", "ipa": "fu.je", "en": "to search (a bag, a place), to rummage", "def": "Regarder partout dans un sac, une pièce ou une poche, pour trouver quelque chose.", "def_en": "To look everywhere in a bag, a room or a pocket, to find something.", "forms": ["fouille", "fouilles", "fouillons", "fouillez", "fouillent", "fouillé", "fouillée", "fouillés", "fouillées", "fouillais", "fouillait", "fouillions", "fouilliez", "fouillaient", "fouillerai", "fouilleras", "fouillera", "fouillerons", "fouillerez", "fouilleront", "fouillerais", "fouillerait", "fouillerions", "fouilleriez", "fouilleraient", "fouillant"], "examples": [
+      { "fr": "Le gendarme **fouille** la valise.", "en": "The gendarme searches the suitcase." },
+      { "fr": "Arrête de **fouiller** dans mon sac !", "en": "Stop rummaging in my bag!" },
+      { "fr": "J'ai **fouillé** toute la maison : pas de clés !", "en": "I've searched the whole house: no keys!" }
+    ] },
+    { "id": "interroger", "fr": "interroger", "pos": "verb", "ipa": "ɛ̃.te.ʁɔ.ʒe", "en": "to question, to interview", "def": "Poser des questions à quelqu'un, pour savoir la vérité.", "def_en": "To ask someone questions to find out the truth.", "forms": ["interroge", "interroges", "interrogeons", "interrogez", "interrogent", "interrogé", "interrogée", "interrogés", "interrogées", "interrogeais", "interrogeait", "interrogions", "interrogiez", "interrogeaient", "interrogerai", "interrogeras", "interrogera", "interrogerons", "interrogerez", "interrogeront", "interrogerais", "interrogerait", "interrogerions", "interrogeriez", "interrogeraient", "interrogeant"], "examples": [
+      { "fr": "La police **interroge** les témoins.", "en": "The police are questioning the witnesses." },
+      { "fr": "On l'a **interrogé** pendant une heure.", "en": "He was questioned for an hour." },
+      { "fr": "Le journaliste **interroge** le maire.", "en": "The journalist interviews the mayor." }
+    ] },
+    { "id": "s-enfuir", "fr": "s'enfuir", "pos": "verb", "ipa": "sɑ̃.fɥiʁ", "en": "to run away, to escape", "extra": "like **fuir**: je **m'enfuis**, nous **nous enfuyons**, ils **s'enfuient**; je **me suis enfui(e)**.", "def": "Partir très vite, pour ne pas être attrapé, ou parce qu'on a peur.", "def_en": "To leave very quickly so as not to be caught, or because you're scared.", "forms": ["m'enfuis", "t'enfuis", "s'enfuit", "nous nous enfuyons", "vous vous enfuyez", "s'enfuient", "m'enfuir", "t'enfuir", "nous enfuir", "vous enfuir", "enfuir", "enfuis", "enfuit", "enfuyons", "enfuyez", "enfuient", "enfui", "enfuie", "enfuies", "enfuyais", "enfuyait", "enfuyions", "enfuyiez", "enfuyaient", "m'enfuirai", "t'enfuiras", "s'enfuira", "nous nous enfuirons", "vous vous enfuirez", "s'enfuiront", "m'enfuirais", "t'enfuirais", "s'enfuirait", "nous nous enfuirions", "vous vous enfuiriez", "s'enfuiraient", "enfuyant"], "examples": [
+      { "fr": "Le voleur s'est **enfui** par la fenêtre.", "en": "The thief escaped through the window." },
+      { "fr": "Le chat **s'enfuit** quand il voit le chien.", "en": "The cat runs away when it sees the dog." },
+      { "fr": "Les enfants **s'enfuient** en riant.", "en": "The children run off laughing." }
+    ] },
+    { "id": "assurer", "fr": "assurer", "pos": "verb", "ipa": "a.sy.ʁe", "en": "to insure; to assure; (informal) to do brilliantly", "def": "Payer une assurance pour protéger une chose. Aussi : dire avec force qu'une chose est vraie.", "def_en": "To pay for insurance to protect something. Also: to say firmly that something is true.", "forms": ["assure", "assures", "assurons", "assurez", "assurent", "assuré", "assurée", "assurés", "assurées", "assurais", "assurait", "assurions", "assuriez", "assuraient", "assurerai", "assureras", "assurera", "assurerons", "assurerez", "assureront", "assurerais", "assurerait", "assurerions", "assureriez", "assureraient", "assurant"], "examples": [
+      { "fr": "Ma voiture est **assurée** contre le vol.", "en": "My car is insured against theft." },
+      { "fr": "Je vous **assure** que c'est vrai !", "en": "I assure you it's true!" },
+      { "fr": "Bravo, tu **assures** !", "en": "Well done, you're brilliant!" }
+    ] },
+    { "id": "assureur", "fr": "assureur", "pos": "noun", "g": "m", "ipa": "a.sy.ʁœʁ", "en": "insurer, insurance company", "def": "L'entreprise ou la personne qui vend des assurances.", "def_en": "The company or the person that sells insurance.", "forms": ["assureurs"], "examples": [
+      { "fr": "J'appelle mon **assureur** après l'accident.", "en": "I'm calling my insurer after the accident." },
+      { "fr": "L'**assureur** va rembourser la fenêtre.", "en": "The insurance company will pay for the window." },
+      { "fr": "Change d'**assureur**, le tien est trop cher !", "en": "Change insurers, yours is too expensive!" }
+    ] },
+    { "id": "couvrir", "fr": "couvrir", "pos": "verb", "ipa": "ku.vʁiʁ", "en": "to cover", "def": "Mettre une chose sur une autre, pour la protéger ou la cacher. Pour une assurance : payer quand il y a un problème.", "def_en": "To put something over something else, to protect it or hide it. For insurance: to pay when there's a problem.", "forms": ["couvre", "couvres", "couvrons", "couvrez", "couvrent", "couvrais", "couvrait", "couvrions", "couvriez", "couvraient", "couvrirai", "couvriras", "couvrira", "couvrirons", "couvrirez", "couvriront", "couvrirais", "couvrirait", "couvririons", "couvririez", "couvriraient", "couvert", "couverte", "couverts", "couvertes", "couvrant"], "examples": [
+      { "fr": "Mon assurance **couvre** le vol des bagages.", "en": "My insurance covers stolen luggage." },
+      { "fr": "**Couvre**-toi, il fait froid !", "en": "Wrap up warm, it's cold!" },
+      { "fr": "La neige **couvre** les montagnes.", "en": "Snow covers the mountains." }
+    ] },
+    { "id": "franchise", "fr": "franchise", "pos": "noun", "g": "f", "ipa": "fʁɑ̃.ʃiz", "en": "excess (insurance); frankness", "def": "La partie de l'argent que l'assurance ne rembourse pas, et qu'on doit payer. Aussi : quand on dit la vérité, sans rien cacher.", "def_en": "The part of the money that the insurance doesn't pay back, which you have to pay. Also: telling the truth without hiding anything.", "forms": ["franchises"], "examples": [
+      { "fr": "Il y a une **franchise** de cent cinquante euros.", "en": "There's a hundred-and-fifty-euro excess." },
+      { "fr": "Avec la **franchise**, l'assurance ne rembourse presque rien !", "en": "With the excess, the insurance pays back almost nothing!" },
+      { "fr": "Je te parle avec **franchise** : ton gâteau est raté.", "en": "I'll be frank: your cake is a flop." }
+    ] },
+    { "id": "erreur", "fr": "erreur", "pos": "noun", "g": "f", "ipa": "e.ʁœʁ", "en": "mistake, error", "def": "Une chose fausse, qu'on fait ou qu'on dit sans le vouloir.", "def_en": "Something wrong that you do or say without meaning to.", "forms": ["erreurs"], "examples": [
+      { "fr": "C'est une **erreur** : ce n'est pas ma valise !", "en": "It's a mistake: that's not my suitcase!" },
+      { "fr": "Il y a une **erreur** dans l'adresse.", "en": "There's a mistake in the address." },
+      { "fr": "Tout le monde fait des **erreurs**.", "en": "Everybody makes mistakes." }
+    ] },
+    { "id": "disparition", "fr": "disparition", "pos": "noun", "g": "f", "ipa": "dis.pa.ʁi.sjɔ̃", "en": "disappearance", "def": "Quand une personne ou une chose n'est plus là, et qu'on ne sait pas où elle est.", "def_en": "When a person or a thing isn't there any more, and nobody knows where it is.", "forms": ["disparitions"], "examples": [
+      { "fr": "Je viens signaler la **disparition** de ma valise.", "en": "I've come to report my suitcase missing." },
+      { "fr": "La **disparition** des abeilles est un problème pour la planète.", "en": "The disappearance of bees is a problem for the planet." },
+      { "fr": "Après la **disparition** du chat, les enfants étaient tristes.", "en": "When the cat went missing, the children were sad." }
+    ] },
+    { "id": "surveiller", "fr": "surveiller", "pos": "verb", "ipa": "syʁ.vɛ.je", "en": "to watch, to keep an eye on", "def": "Regarder avec attention, pour éviter un problème ou un danger.", "def_en": "To watch carefully, to avoid a problem or a danger.", "forms": ["surveille", "surveilles", "surveillons", "surveillez", "surveillent", "surveillé", "surveillée", "surveillés", "surveillées", "surveillais", "surveillait", "surveillions", "surveilliez", "surveillaient", "surveillerai", "surveilleras", "surveillera", "surveillerons", "surveillerez", "surveilleront", "surveillerais", "surveillerait", "surveillerions", "surveilleriez", "surveilleraient", "surveillant"], "examples": [
+      { "fr": "**Surveillez** vos bagages !", "en": "Keep an eye on your luggage!" },
+      { "fr": "Tu peux **surveiller** les jumeaux deux minutes ?", "en": "Can you watch the twins for two minutes?" },
+      { "fr": "Une caméra **surveille** le parking.", "en": "A camera watches the car park." }
+    ] }
+  ],
+  "story": {
+    "title": "La valise du magicien",
+    "en": "Saturday 19 September, the morning of the wedding: Hugo opens his suitcase, and it isn't his.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi matin, à la ferme, Hugo ouvre sa valise pour prendre son costume… Mais il n'y a pas de costume !", "en": "Saturday morning at the farm: Hugo opens his suitcase to take out his suit… But there's no suit!" },
+      { "sp": "", "fr": "Dans la valise, il y a un nez rouge, une perruque bleue, un grand chapeau noir et un faux lapin blanc.", "en": "In the suitcase there's a red nose, a blue wig, a big black hat and a toy white rabbit." },
+      { "sp": "Hugo", "fr": "Ce n'est pas ma valise ! On m'a volé ma valise… et les alliances !", "en": "This isn't my suitcase! Someone's stolen my suitcase… and the rings!" },
+      { "sp": "", "fr": "Paul prend la voiture et emmène Hugo et Léa à la gendarmerie du village.", "en": "Paul takes the car and drives Hugo and Léa to the village police station." },
+      { "sp": "Le gendarme", "fr": "Bonjour. Je vous écoute.", "en": "Good morning. How can I help you?" },
+      { "sp": "Hugo", "fr": "Je viens déclarer un vol ! Un voleur a pris ma valise dans la soute d'un autocar. Appelez la police !", "en": "I've come to report a theft! A thief took my suitcase from the hold of a coach. Call the police!" },
+      { "sp": "Le gendarme", "fr": "Monsieur, ici, à la campagne, la police, c'est nous. Votre pièce d'identité, s'il vous plaît.", "en": "Sir, out here in the countryside, we are the police. Your ID, please." },
+      { "sp": "Hugo", "fr": "Elle est… dans ma valise.", "en": "It's… in my suitcase." },
+      { "sp": "", "fr": "Paul fouille ses poches : il ne trouve pas ses papiers non plus. Heureusement, Léa a sa carte d'identité.", "en": "Paul searches his pockets: he can't find his papers either. Luckily, Léa has her ID card." },
+      { "sp": "Le gendarme", "fr": "Bien. Faites-moi une description de votre valise.", "en": "Right. Describe your suitcase for me." },
+      { "sp": "Hugo", "fr": "Elle est grosse et noire… En fait, elle est identique à celle-ci !", "en": "It's big and black… Actually, it's exactly like this one!" },
+      { "sp": "", "fr": "Le gendarme fouille la valise. Sous le chapeau, il trouve une étiquette : « Monsieur Morel, magicien », avec un numéro de téléphone.", "en": "The gendarme searches the suitcase. Under the hat, he finds a label: 'Mr Morel, magician', with a phone number." },
+      { "sp": "Le gendarme", "fr": "Ce n'est pas un vol, monsieur. C'est une erreur : il y avait deux valises identiques dans l'autocar.", "en": "It isn't a theft, sir. It's a mistake: there were two identical suitcases on the coach." },
+      { "sp": "Hugo", "fr": "Ou alors, c'est un magicien voleur ! Le suspect s'est enfui avec mes alliances ! Il faut lui mettre les menottes !", "en": "Or else he's a thieving magician! The suspect has run off with my rings! He needs handcuffing!" },
+      { "sp": "Le gendarme", "fr": "Calmez-vous. Moi, j'ai de vrais problèmes : deux cambriolages cette semaine, et des pickpockets au marché d'Annecy.", "en": "Calm down. I've got real problems: two burglaries this week, and pickpockets at the market in Annecy." },
+      { "sp": "Le gendarme", "fr": "Pendant un mariage, les maisons sont vides : c'est parfait pour cambrioler. Ce soir, surveillez bien la ferme !", "en": "During a wedding, houses are empty: perfect for burglars. Keep a good eye on the farm tonight!" },
+      { "sp": "", "fr": "Il appelle le numéro de l'étiquette. Monsieur Morel répond tout de suite.", "en": "He calls the number on the label. Mr Morel answers straight away." },
+      { "sp": "", "fr": "Lui aussi a ouvert sa valise ce matin, et il a trouvé un costume et deux alliances ! Il arrive dans dix minutes.", "en": "He opened his suitcase this morning too, and found a suit and two rings! He'll be there in ten minutes." },
+      { "sp": "Léa", "fr": "Tu vois, Hugo ? Ton suspect ne s'est pas enfui.", "en": "You see, Hugo? Your suspect hasn't run away." },
+      { "sp": "Hugo", "fr": "Et si la valise avait disparu ? Mon assurance couvre le vol des bagages ?", "en": "And what if the suitcase had disappeared? Does my insurance cover stolen luggage?" },
+      { "sp": "Léa", "fr": "Demande à ton assureur. Ta valise est sûrement assurée, mais il y a une franchise : tu paierais quand même cent cinquante euros.", "en": "Ask your insurer. Your suitcase is probably insured, but there's an excess: you'd still pay a hundred and fifty euros." },
+      { "sp": "", "fr": "Monsieur Morel arrive avec la valise de Hugo. Le gendarme les interroge tous les deux, pour être sûr.", "en": "Mr Morel arrives with Hugo's suitcase. The gendarme questions them both, to be sure." },
+      { "sp": "Le gendarme", "fr": "Qu'est-ce qu'il y a dans votre valise, Monsieur Morel ?", "en": "What's in your suitcase, Mr Morel?" },
+      { "sp": "Monsieur Morel", "fr": "Un lapin, un chapeau, une perruque… C'est mon spectacle de cet après-midi, pour un anniversaire d'enfants !", "en": "A rabbit, a hat, a wig… It's my show for this afternoon, at a children's birthday party!" },
+      { "sp": "", "fr": "Ils échangent leurs valises. Puis le magicien sort une pièce de monnaie de l'oreille du gendarme.", "en": "They swap suitcases. Then the magician pulls a coin out of the gendarme's ear." },
+      { "sp": "Hugo", "fr": "Merci ! La prochaine fois, je ne signalerai pas la disparition d'une valise sans l'ouvrir avant !", "en": "Thank you! Next time, I won't report a suitcase missing without opening it first!" },
+      { "sp": "Le gendarme", "fr": "Et la prochaine fois, surveillez vos bagages. Les gendarmes ne sont pas magiciens !", "en": "And next time, keep an eye on your luggage. Gendarmes aren't magicians!" }
+    ]
+  }
+}

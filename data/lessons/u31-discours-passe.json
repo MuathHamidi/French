@@ -1,0 +1,163 @@
+{
+  "id": "u31-discours-passe",
+  "type": "grammar",
+  "unit": 31,
+  "title": "Il a dit qu'il serait à l'heure",
+  "en": "Reported speech in the past",
+  "intro": "When the reporting verb is in the past (*il **a dit** que, elle **a demandé** si*), the tenses take one step back into the past: the present becomes the **imparfait**, the passé composé the **plus-que-parfait**, the future the **conditional**. *« Je **serai** à l'heure. »* → *Hugo a dit qu'il **serait** à l'heure.* Words of time move too: *demain* becomes *le lendemain*.",
+  "cases": [
+    { "id": "dip-imparfait", "label": "present → imparfait", "rule": "After **il a dit que** or **il a demandé si / où…**, a present becomes an imparfait: *« Je **suis** crevé. »* → *Il a dit qu'il **était** crevé. « Où **est** ma valise ? »* → *Il a demandé où **était** sa valise.*" },
+    { "id": "dip-pqp", "label": "passé composé → plus-que-parfait", "rule": "A passé composé becomes a plus-que-parfait: *« J'**ai pris** la mauvaise valise. »* → *Il a dit qu'il **avait pris** la mauvaise valise.* Only the auxiliary moves: **ai** → **avais**, **est** → **était**." },
+    { "id": "dip-cond", "label": "future → conditional", "rule": "A future becomes a conditional: *« Je **serai** à l'heure. »* → *Il a dit qu'il **serait** à l'heure.* And **aller** + infinitive becomes **allait** + infinitive: *« Je **vais** danser. »* → *Il a dit qu'il **allait** danser.*" },
+    { "id": "dip-same", "label": "imparfait, plus-que-parfait, conditional: no change", "rule": "These tenses are already in the past, so they don't move: *« J'**étais** sûr que l'abeille voulait me piquer. »* → *Il a dit qu'il **était** sûr que l'abeille voulait le piquer.*" },
+    { "id": "dip-temps", "label": "time words: le lendemain, la veille", "rule": "Words that depend on *today* change too: **demain** → **le lendemain**, **hier** → **la veille**, **aujourd'hui** → **ce jour-là**, **ce soir** → **ce soir-là**, **ici** → **là**." },
+    { "id": "dip-verbes", "label": "other reporting verbs", "rule": "Besides **dire** and **demander**, use **répondre, expliquer, ajouter, promettre, raconter, annoncer, avouer** + que: *Il **a promis** qu'il ne monterait plus jamais sur une échelle.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Present → imparfait",
+      "table": {
+        "head": ["What they said", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Je suis crevé.", "Il a dit qu'il était crevé."],
+          ["Où est ma valise ?", "Il a demandé où était sa valise."],
+          ["Nous avons faim.", "Ils ont dit qu'ils avaient faim."]
+        ]
+      },
+      "examples": [
+        { "fr": "Léa {m'a dit que l'autocar était|dip-imparfait} en panne.", "en": "Léa told me the coach had broken down." },
+        { "fr": "Le gendarme {a demandé où était|dip-imparfait} sa pièce d'identité.", "en": "The gendarme asked where his ID was." }
+      ],
+      "tip": "Only a reporting verb in the past does this. With **il dit que** (present), nothing changes."
+    },
+    {
+      "title": "2. Passé composé → plus-que-parfait",
+      "table": {
+        "head": ["What they said", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai pris la mauvaise valise.", "Il a dit qu'il avait pris la mauvaise valise."],
+          ["Elle est tombée.", "Il a dit qu'elle était tombée."],
+          ["Tu as vu les alliances ?", "Il a demandé si j'avais vu les alliances."]
+        ]
+      },
+      "examples": [
+        { "fr": "Elle {a dit que Hugo avait pris|dip-pqp} une valise de magicien !", "en": "She said Hugo had taken a magician's suitcase!" },
+        { "fr": "Lou {a avoué qu'elle les avait prises|dip-pqp}.", "en": "Lou admitted she'd taken them." }
+      ],
+      "tip": "The participle doesn't change: *elle **est** tombée* → *qu'elle **était** tombée*."
+    },
+    {
+      "title": "3. Future → conditional",
+      "table": {
+        "head": ["What they said", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Je serai à l'heure.", "Il a dit qu'il serait à l'heure."],
+          ["Tu ne pourras pas danser.", "Le médecin a dit qu'il ne pourrait pas danser."],
+          ["Je vais danser quand même.", "Il a dit qu'il allait danser quand même."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le médecin {a dit qu'il ne pourrait pas|dip-cond} danser.", "en": "The doctor said he wouldn't be able to dance." },
+        { "fr": "Hugo {a répondu qu'il danserait|dip-cond} quand même.", "en": "Hugo replied that he'd dance anyway." }
+      ],
+      "tip": "This is the *future in the past*. English does the same: *will* → *would*."
+    },
+    {
+      "title": "4. No change: imparfait, plus-que-parfait, conditional",
+      "table": {
+        "head": ["What they said", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["J'étais sûr.", "Il a dit qu'il était sûr."],
+          ["J'avais oublié.", "Elle a dit qu'elle avait oublié."],
+          ["Je voudrais un café.", "Il a dit qu'il voudrait un café."]
+        ]
+      },
+      "examples": [
+        { "fr": "Il {a dit qu'il était|dip-same} sûr que l'abeille voulait le piquer.", "en": "He said he was sure the bee wanted to sting him." },
+        { "fr": "Tom {a dit qu'il voudrait|dip-same} jouer à un autre mariage.", "en": "Tom said he'd like to play at another wedding." }
+      ]
+    },
+    {
+      "title": "5. Time words",
+      "table": {
+        "head": ["Said that day", "Reported later"], "frCols": [0, 1],
+        "rows": [
+          ["aujourd'hui", "ce jour-là"],
+          ["demain", "le lendemain"],
+          ["hier", "la veille"],
+          ["ce soir", "ce soir-là"],
+          ["ici", "là"]
+        ]
+      },
+      "examples": [
+        { "fr": "Hugo {a dit qu'il dormirait toute la journée le lendemain|dip-temps}.", "en": "Hugo said he'd sleep all day the next day." },
+        { "fr": "Pierre {a dit qu'il avait préparé la grange la veille|dip-temps}.", "en": "Pierre said he'd got the barn ready the day before." }
+      ],
+      "tip": "If you report it the same day, keep the words: *ce matin, il a dit qu'il viendrait demain*."
+    },
+    {
+      "title": "6. Other reporting verbs",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il a répondu qu'il danserait quand même.", "He replied that he'd dance anyway."],
+          ["Il a expliqué qu'il avait une entorse.", "He explained that he had a sprain."],
+          ["Il a promis qu'il ne monterait plus sur une échelle.", "He promised he'd never climb a ladder again."],
+          ["Elle a avoué qu'elle avait pris les alliances.", "She admitted she'd taken the rings."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le médecin {a expliqué que Hugo avait|dip-verbes} une entorse.", "en": "The doctor explained that Hugo had a sprain." },
+        { "fr": "Hugo {a promis qu'il ne monterait plus jamais|dip-verbes} sur une échelle.", "en": "Hugo promised he'd never climb a ladder again." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il a dit qu'il sera à l'heure.", "right": "Il a dit qu'il serait à l'heure.", "why": "After a reporting verb in the past, the future becomes the conditional." },
+    { "wrong": "Elle a demandé où est sa valise.", "right": "Elle a demandé où était sa valise.", "why": "The present becomes the imparfait." },
+    { "wrong": "Il a dit qu'il a pris la mauvaise valise.", "right": "Il a dit qu'il avait pris la mauvaise valise.", "why": "The passé composé becomes the plus-que-parfait." },
+    { "wrong": "Il a dit qu'il va danser.", "right": "Il a dit qu'il allait danser.", "why": "**aller** + infinitive goes into the imparfait: **allait**." },
+    { "wrong": "Il a dit qu'il partirait le demain.", "right": "Il a dit qu'il partirait le lendemain.", "why": "Reported later, **demain** becomes **le lendemain**." }
+  ],
+  "story": {
+    "title": "Lundi, au cours de Marc",
+    "en": "Monday 21 September: Inès stayed in Lyon, so in Marc's class she reports what the others told her about the wedding.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi vingt et un septembre, c'est le cours de Marc. Inès n'est pas allée au mariage : elle est restée à Lyon pour garder Minou.", "en": "Monday 21 September: it's Marc's class. Inès didn't go to the wedding: she stayed in Lyon to look after Minou." },
+      { "sp": "Marc", "fr": "Inès, vos amis vous ont tout raconté, j'imagine. Alors, qu'est-ce qu'ils vous ont dit ?", "en": "Inès, I imagine your friends have told you everything. So, what did they tell you?" },
+      { "sp": "Inès", "fr": "Vendredi soir, Léa m'a appelée. Elle {m'a dit que l'autocar était|dip-imparfait} en panne sur la route.", "en": "On Friday evening, Léa called me. She told me the coach had broken down on the road." },
+      { "sp": "Inès", "fr": "Et samedi matin, elle {a dit que Hugo avait pris|dip-pqp} une valise de magicien !", "en": "And on Saturday morning, she said Hugo had taken a magician's suitcase!" },
+      { "sp": "Marc", "fr": "Très bien : « a pris » devient « avait pris ». Continuez !", "en": "Very good: 'a pris' becomes 'avait pris'. Go on!" },
+      { "sp": "Léa", "fr": "À la gendarmerie, le gendarme {a demandé où était|dip-imparfait} sa pièce d'identité. Hugo {a répondu qu'elle était|dip-imparfait} dans sa valise… celle du magicien !", "en": "At the police station, the gendarme asked where his ID was. Hugo replied that it was in his suitcase… the magician's one!" },
+      { "sp": "Carla", "fr": "À l'hôpital, le médecin {a expliqué que Hugo avait|dip-verbes} une entorse. Il {a ajouté qu'il ne pourrait pas|dip-cond} danser le soir.", "en": "At the hospital, the doctor explained that Hugo had a sprain. He added that he wouldn't be able to dance in the evening." },
+      { "sp": "Inès", "fr": "Et qu'est-ce que Hugo a répondu ?", "en": "And what did Hugo say?" },
+      { "sp": "Carla", "fr": "Il {a répondu qu'il danserait|dip-cond} quand même. Bien sûr, il n'a pas pu !", "en": "He replied that he'd dance anyway. Of course, he couldn't!" },
+      { "sp": "Tom", "fr": "À la mairie, le maire {a demandé si le témoin pouvait|dip-imparfait} donner les alliances. Mais la boîte était vide !", "en": "At the town hall, the mayor asked if the best man could hand over the rings. But the box was empty!" },
+      { "sp": "Sophie", "fr": "Et Lou {a avoué qu'elle les avait prises|dip-pqp} pour jouer au mariage.", "en": "And Lou admitted she'd taken them to play weddings." },
+      { "sp": "Marc", "fr": "« Elle les avait prises » : vous voyez l'accord de « prises » ? Bravo, Sophie !", "en": "'Elle les avait prises': do you see the agreement on 'prises'? Well done, Sophie!" },
+      { "sp": "Tom", "fr": "Samedi soir, Hugo nous a dit : « Demain, je dormirai toute la journée ! »", "en": "On Saturday night, Hugo told us: 'Tomorrow, I'll sleep all day!'" },
+      { "sp": "Marc", "fr": "Et au discours indirect, Inès ?", "en": "And in reported speech, Inès?" },
+      { "sp": "Inès", "fr": "Hugo {a dit qu'il dormirait toute la journée le lendemain|dip-temps}.", "en": "Hugo said he'd sleep all day the next day." },
+      { "sp": "Marc", "fr": "Parfait : « demain » devient « le lendemain ». Et il a dormi ?", "en": "Perfect: 'demain' becomes 'le lendemain'. And did he sleep?" },
+      { "sp": "Léa", "fr": "Jusqu'à quatre heures de l'après-midi ! Ce matin, il m'a envoyé un message. Il {a dit qu'il allait|dip-imparfait} mieux…", "en": "Until four in the afternoon! This morning, he sent me a message. He said he was feeling better…" },
+      { "sp": "Léa", "fr": "… et il {a promis qu'il ne monterait plus jamais|dip-verbes} sur une échelle.", "en": "…and he promised he'd never climb a ladder again." },
+      { "sp": "Carla", "fr": "Il {a aussi dit qu'il était|dip-same} sûr que l'abeille voulait le piquer.", "en": "He also said he was sure the bee wanted to sting him." },
+      { "sp": "Marc", "fr": "Hugo et les abeilles… Bon. Pour demain, racontez-moi le mariage, au discours indirect !", "en": "Hugo and bees… Right. For tomorrow, tell me about the wedding, in reported speech!" }
+    ]
+  },
+  "quiz": [
+    { "case": "dip-imparfait", "type": "mc", "q": "« Je suis crevé. » Il a dit qu'il ___ crevé.", "en": "He said he was shattered.", "options": ["était", "est", "sera"], "answer": "était" },
+    { "case": "dip-imparfait", "type": "mc", "q": "Le gendarme a demandé où ___ sa valise.", "en": "The gendarme asked where his suitcase was.", "options": ["était", "est", "a été"], "answer": "était" },
+    { "case": "dip-pqp", "type": "mc", "q": "Il a dit qu'il ___ pris la mauvaise valise.", "en": "He said he'd taken the wrong suitcase.", "options": ["avait", "a", "aurait"], "answer": "avait" },
+    { "case": "dip-pqp", "type": "type", "q": "Elle a dit qu'elle était ___ (tomber).", "en": "She said she'd fallen.", "answer": "tombée" },
+    { "case": "dip-cond", "type": "mc", "q": "« Je serai à l'heure. » Il a dit qu'il ___ à l'heure.", "en": "He said he'd be on time.", "options": ["serait", "sera", "était"], "answer": "serait" },
+    { "case": "dip-cond", "type": "mc", "q": "« Je vais danser. » Il a dit qu'il ___ danser.", "en": "He said he was going to dance.", "options": ["allait", "va", "ira"], "answer": "allait" },
+    { "case": "dip-same", "type": "mc", "q": "« J'étais fatigué. » Il a dit qu'il ___ fatigué.", "en": "He said he'd been tired.", "options": ["était", "est", "sera"], "answer": "était" },
+    { "case": "dip-same", "type": "mc", "q": "« Je voudrais un café. » Il a dit qu'il ___ un café.", "en": "He said he'd like a coffee.", "options": ["voudrait", "voulait avoir", "veut"], "answer": "voudrait" },
+    { "case": "dip-temps", "type": "mc", "q": "« Je partirai demain. » Il a dit qu'il partirait ___.", "en": "He said he'd leave the next day.", "options": ["le lendemain", "demain", "la veille"], "answer": "le lendemain" },
+    { "case": "dip-temps", "type": "mc", "q": "« Je suis arrivé hier. » Il a dit qu'il était arrivé ___.", "en": "He said he'd arrived the day before.", "options": ["la veille", "le lendemain", "hier soir"], "answer": "la veille" },
+    { "case": "dip-verbes", "type": "mc", "q": "Il a ___ qu'il ne monterait plus jamais sur une échelle.", "en": "He promised he'd never climb a ladder again.", "options": ["promis", "demandé", "dit de"], "answer": "promis" },
+    { "case": "dip-verbes", "type": "mc", "q": "Lou a ___ qu'elle avait pris les alliances.", "en": "Lou admitted she'd taken the rings.", "options": ["avoué", "demandé", "promis"], "answer": "avoué" }
+  ]
+}

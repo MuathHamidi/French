@@ -1,0 +1,168 @@
+{
+  "id": "u31-discours",
+  "type": "grammar",
+  "unit": 31,
+  "title": "Il dit qu'il t'aime",
+  "en": "Reported speech",
+  "intro": "To pass on what someone says or asks, French uses **dire que**, **demander si**, **demander où / quand / ce que…** and **dire de** + infinitive. There are no quotation marks: the words become part of your own sentence, so the pronouns and possessives change. *« **Je** cherche **mes** chaussures. »* → *Manon dit qu'**elle** cherche **ses** chaussures.*",
+  "cases": [
+    { "id": "di-que", "label": "dire que + statement", "rule": "To report a statement, use **dire que** (or *expliquer que, répondre que…*). **que** never disappears, and becomes **qu'** before a vowel: *« J'ai faim. »* → *Il dit **qu'**il a faim.*" },
+    { "id": "di-pronoms", "label": "pronouns and possessives change", "rule": "The words follow the people: **je, me, mon** become **il / elle, le / la, son / sa / ses**, and the person you talk to becomes **tu** or **vous**: *Jules : « Je l'aime. »* → *Lou à Manon : Jules dit qu'il **t'**aime.*" },
+    { "id": "di-si", "label": "yes/no questions: si", "rule": "A yes/no question becomes **demander si** + the normal word order: *« Tu as du sucre ? »* → *Il demande **si** tu as du sucre.* **si** becomes **s'** only before **il** and **ils**: *s'il, s'ils*, but *si elle*." },
+    { "id": "di-ou", "label": "où, quand, comment, pourquoi…", "rule": "Question words stay, but the question form goes: no **est-ce que**, no inversion, no question mark. *« Où sont les alliances ? »* → *Il demande **où** sont les alliances.*" },
+    { "id": "di-ce-que", "label": "qu'est-ce que → ce que, ce qui", "rule": "**qu'est-ce que** becomes **ce que**, and **qu'est-ce qui** becomes **ce qui**: *« Qu'est-ce que je vais faire ? »* → *Elle demande **ce qu'**elle va faire. « Qu'est-ce qui se passe ? »* → *Il veut savoir **ce qui** se passe.*" },
+    { "id": "di-de", "label": "orders: dire de + infinitive", "rule": "An order becomes **dire de** + infinitive: *« Regarde sous le lit ! »* → *Maman dit **de regarder** sous le lit.* In the negative: **dire de ne pas** + infinitive." }
+  ],
+  "sections": [
+    {
+      "title": "1. dire que + statement",
+      "table": {
+        "head": ["What they say", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["J'ai faim.", "Il dit qu'il a faim."],
+          ["Le sucre est dans le placard.", "Mamie dit que le sucre est dans le placard."],
+          ["Nous arrivons.", "Ils disent qu'ils arrivent."]
+        ]
+      },
+      "examples": [
+        { "fr": "Mamie {dit que le sucre est|di-que} dans le placard bleu.", "en": "Granny says the sugar is in the blue cupboard." },
+        { "fr": "Léa {dit que la valise est|di-que} chez un magicien !", "en": "Léa says the suitcase is at a magician's!" }
+      ],
+      "tip": "English can drop *that*: *he says he's hungry*. In French, **que** must stay: *il dit **qu'**il a faim*."
+    },
+    {
+      "title": "2. Pronouns and possessives change",
+      "table": {
+        "head": ["What they say", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Je cherche mes chaussures.", "Elle dit qu'elle cherche ses chaussures."],
+          ["Mon costume est prêt.", "Hugo dit que son costume est prêt."],
+          ["Je l'aime.", "Il dit qu'il t'aime."]
+        ]
+      },
+      "examples": [
+        { "fr": "Manon {dit qu'elle ne trouve pas ses chaussures|di-pronoms}.", "en": "Manon says she can't find her shoes." },
+        { "fr": "Manon, Jules {dit qu'il t'aime|di-pronoms} !", "en": "Manon, Jules says he loves you!" }
+      ],
+      "tip": "Ask yourself who is speaking and who is listening: the pronouns follow the people, not the words."
+    },
+    {
+      "title": "3. Yes/no questions: si",
+      "table": {
+        "head": ["What they ask", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Tu as du sucre ?", "Il demande si tu as du sucre."],
+          ["Est-ce qu'il vient ?", "Elle demande s'il vient."],
+          ["Vous êtes prêts ?", "Il demande si nous sommes prêts."]
+        ]
+      },
+      "examples": [
+        { "fr": "Karim {demande si tu as|di-si} encore du sucre.", "en": "Karim's asking if you've got any more sugar." },
+        { "fr": "Pierre {demande s'il peut|di-si} prendre l'échelle.", "en": "Pierre's asking if he can take the ladder." }
+      ],
+      "tip": "**s'il** but **si elle**: only **il** and **ils** make **si** lose its vowel."
+    },
+    {
+      "title": "4. Où, quand, comment, pourquoi…",
+      "table": {
+        "head": ["What they ask", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Où sont les alliances ?", "Il demande où sont les alliances."],
+          ["Quand est-ce que tu arrives ?", "Elle demande quand tu arrives."],
+          ["Pourquoi est-ce qu'il pleure ?", "Il veut savoir pourquoi il pleure."]
+        ]
+      },
+      "examples": [
+        { "fr": "Jules {demande où sont|di-ou} les alliances.", "en": "Jules is asking where the rings are." },
+        { "fr": "Mamie {veut savoir quand Hugo revient|di-ou}.", "en": "Granny wants to know when Hugo's coming back." }
+      ],
+      "tip": "**vouloir savoir** (to want to know) works like **demander**: *il veut savoir où tu es*."
+    },
+    {
+      "title": "5. qu'est-ce que → ce que, ce qui",
+      "table": {
+        "head": ["What they ask", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Qu'est-ce que tu fais ?", "Il demande ce que tu fais."],
+          ["Qu'est-ce que je vais faire ?", "Elle demande ce qu'elle va faire."],
+          ["Qu'est-ce qui se passe ?", "Il veut savoir ce qui se passe."]
+        ]
+      },
+      "examples": [
+        { "fr": "Elle {demande ce qu'elle va faire|di-ce-que} !", "en": "She's asking what she's going to do!" },
+        { "fr": "Jules {veut savoir ce qui se passe|di-ce-que} à la gendarmerie.", "en": "Jules wants to know what's happening at the police station." }
+      ],
+      "tip": "**ce que** is the object (*what you're doing*), **ce qui** the subject (*what is happening*), as with the relative pronouns."
+    },
+    {
+      "title": "6. Orders: dire de + infinitive",
+      "table": {
+        "head": ["What they say", "Reported"], "frCols": [0, 1],
+        "rows": [
+          ["Regarde sous le lit !", "Elle dit de regarder sous le lit."],
+          ["Fermez la porte !", "Il dit de fermer la porte."],
+          ["Ne paniquez pas !", "Il dit de ne pas paniquer."]
+        ]
+      },
+      "examples": [
+        { "fr": "Maman {dit de regarder|di-de} sous le lit !", "en": "Mummy says to look under the bed!" },
+        { "fr": "Tout le monde {dit de ne pas paniquer|di-de} !", "en": "Everyone says not to panic!" }
+      ],
+      "tip": "To say who is told: **dire à** quelqu'un **de** + infinitive. *Il me dit de venir* = he tells me to come."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il dit il a faim.", "right": "Il dit qu'il a faim.", "why": "**que** can't be left out in French." },
+    { "wrong": "Il demande que tu as du sucre.", "right": "Il demande si tu as du sucre.", "why": "A yes/no question is reported with **si**." },
+    { "wrong": "Elle demande qu'est-ce que tu fais.", "right": "Elle demande ce que tu fais.", "why": "**qu'est-ce que** becomes **ce que**." },
+    { "wrong": "Il demande où est-ce que tu vas.", "right": "Il demande où tu vas.", "why": "No **est-ce que** in reported speech." },
+    { "wrong": "Il demande si il vient.", "right": "Il demande s'il vient.", "why": "**si** + **il** = **s'il**." },
+    { "wrong": "Elle dit que regarde sous le lit.", "right": "Elle dit de regarder sous le lit.", "why": "An order becomes **de** + infinitive." }
+  ],
+  "story": {
+    "title": "Lou, la messagère",
+    "en": "Saturday morning at the farm, while Hugo is at the police station: Lou, four since the beginning of the month, carries everyone's messages.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi matin, à la ferme, tout le monde prépare le mariage. Hugo, Léa et Paul sont à la gendarmerie.", "en": "Saturday morning at the farm: everyone is getting ready for the wedding. Hugo, Léa and Paul are at the police station." },
+      { "sp": "", "fr": "Lou a quatre ans depuis le début du mois. Aujourd'hui, c'est la messagère de la maison.", "en": "Lou has been four since the beginning of the month. Today, she's the house messenger." },
+      { "sp": "Karim", "fr": "Lou, va voir Mamie. Est-ce qu'elle a encore du sucre ?", "en": "Lou, go and see Granny. Has she got any sugar left?" },
+      { "sp": "Lou", "fr": "Mamie ! Karim {demande si tu as|di-si} encore du sucre !", "en": "Granny! Karim's asking if you've got any sugar left!" },
+      { "sp": "Louise", "fr": "Dis-lui que le sucre est dans le placard bleu.", "en": "Tell him the sugar's in the blue cupboard." },
+      { "sp": "Lou", "fr": "Karim ! Mamie {dit que le sucre est|di-que} dans le placard bleu !", "en": "Karim! Granny says the sugar's in the blue cupboard!" },
+      { "sp": "", "fr": "En haut, Manon se prépare avec la coiffeuse. Elle ne doit pas voir Jules avant la mairie.", "en": "Upstairs, Manon is getting ready with the hairdresser. She mustn't see Jules before the town hall." },
+      { "sp": "Manon", "fr": "Lou, je ne trouve pas mes chaussures ! Qu'est-ce que je vais faire ?", "en": "Lou, I can't find my shoes! What am I going to do?" },
+      { "sp": "Lou", "fr": "Maman ! Manon {dit qu'elle ne trouve pas ses chaussures|di-pronoms}. Elle {demande ce qu'elle va faire|di-ce-que} !", "en": "Mummy! Manon says she can't find her shoes. She's asking what she's going to do!" },
+      { "sp": "Anne", "fr": "Dis-lui de regarder sous le lit.", "en": "Tell her to look under the bed." },
+      { "sp": "Lou", "fr": "Manon ! Maman {dit de regarder|di-de} sous le lit !", "en": "Manon! Mummy says to look under the bed!" },
+      { "sp": "", "fr": "Dans la grange, Jules prépare les tables avec Pierre.", "en": "In the barn, Jules is setting up the tables with Pierre." },
+      { "sp": "Jules", "fr": "Lou, dis à Manon que je l'aime !", "en": "Lou, tell Manon I love her!" },
+      { "sp": "Lou", "fr": "Manon ! Jules {dit qu'il t'aime|di-pronoms} !", "en": "Manon! Jules says he loves you!" },
+      { "sp": "Manon", "fr": "Dis-lui que moi aussi, je l'aime… et qu'il ne doit pas monter !", "en": "Tell him I love him too… and that he mustn't come up!" },
+      { "sp": "", "fr": "Le téléphone de Louise sonne. C'est Léa, à la gendarmerie.", "en": "Louise's phone rings. It's Léa, at the police station." },
+      { "sp": "Louise", "fr": "Léa {dit que la valise de Hugo est|di-que} chez un magicien ! Elle {demande si Karim peut|di-si} garder un morceau de gâteau pour lui.", "en": "Léa says Hugo's suitcase is at a magician's! She's asking if Karim can keep a piece of cake for him." },
+      { "sp": "Jules", "fr": "Et les alliances ? Où sont les alliances ?", "en": "And the rings? Where are the rings?" },
+      { "sp": "Louise", "fr": "Léa, Jules {demande où sont|di-ou} les alliances… Elle {dit qu'elles sont|di-que} dans la valise, dans une petite boîte.", "en": "Léa, Jules is asking where the rings are… She says they're in the suitcase, in a little box." },
+      { "sp": "", "fr": "Lou écoute avec de grands yeux.", "en": "Lou listens with wide eyes." },
+      { "sp": "Pierre", "fr": "Lou, va demander à Karim quand le gâteau sera prêt.", "en": "Lou, go and ask Karim when the cake will be ready." },
+      { "sp": "Lou", "fr": "Karim ! Pierre {veut savoir quand|di-ou} les chaussures seront prêtes, et Manon {demande si|di-si} le magicien aime le sucre !", "en": "Karim! Pierre wants to know when the shoes will be ready, and Manon's asking if the magician likes sugar!" },
+      { "sp": "Karim", "fr": "Quoi ? Lou, qu'est-ce que tu dis ?", "en": "What? Lou, what are you saying?" },
+      { "sp": "Lou", "fr": "Je ne sais plus… Tout le monde {dit de ne pas paniquer|di-de} !", "en": "I don't remember… Everyone says not to panic!" },
+      { "sp": "", "fr": "Karim rit. Lou est une très bonne messagère… presque.", "en": "Karim laughs. Lou is a very good messenger… almost." }
+    ]
+  },
+  "quiz": [
+    { "case": "di-que", "type": "mc", "q": "Il dit ___ il a faim.", "en": "He says he's hungry.", "options": ["qu'", "si", "de"], "answer": "qu'" },
+    { "case": "di-que", "type": "type", "q": "Mamie dit ___ le sucre est dans le placard.", "en": "Granny says the sugar is in the cupboard.", "answer": "que" },
+    { "case": "di-pronoms", "type": "mc", "q": "Manon : « Je cherche mes chaussures. » Elle dit qu'elle cherche ___ chaussures.", "en": "She says she's looking for her shoes.", "options": ["ses", "mes", "leurs"], "answer": "ses" },
+    { "case": "di-pronoms", "type": "mc", "q": "Hugo : « Mon costume est prêt. » Hugo dit que ___ costume est prêt.", "en": "Hugo says his suit is ready.", "options": ["son", "mon", "ton"], "answer": "son" },
+    { "case": "di-si", "type": "mc", "q": "Il demande ___ tu as du sucre.", "en": "He's asking if you have any sugar.", "options": ["si", "que", "ce que"], "answer": "si" },
+    { "case": "di-si", "type": "mc", "q": "Elle demande ___ vient ce soir.", "en": "She's asking if he's coming tonight.", "options": ["s'il", "si il", "qu'il"], "answer": "s'il" },
+    { "case": "di-ou", "type": "mc", "q": "Il demande ___ sont les alliances.", "en": "He's asking where the rings are.", "options": ["où", "si", "que"], "answer": "où" },
+    { "case": "di-ou", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Il demande quand tu arrives.", "Il demande quand est-ce que tu arrives.", "Il demande quand arrives-tu."], "answer": "Il demande quand tu arrives." },
+    { "case": "di-ce-que", "type": "mc", "q": "Elle demande ___ tu fais.", "en": "She's asking what you're doing.", "options": ["ce que", "qu'est-ce que", "ce qui"], "answer": "ce que" },
+    { "case": "di-ce-que", "type": "mc", "q": "Il veut savoir ___ se passe.", "en": "He wants to know what's happening.", "options": ["ce qui", "ce que", "qu'est-ce qui"], "answer": "ce qui" },
+    { "case": "di-de", "type": "mc", "q": "Maman dit ___ regarder sous le lit.", "en": "Mummy says to look under the bed.", "options": ["de", "que", "à"], "answer": "de" },
+    { "case": "di-de", "type": "type", "q": "Il dit de ne pas ___ (paniquer).", "en": "He says not to panic.", "answer": "paniquer" }
+  ]
+}

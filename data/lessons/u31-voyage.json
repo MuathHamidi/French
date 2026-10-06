@@ -1,0 +1,167 @@
+{
+  "id": "u31-voyage",
+  "type": "vocab",
+  "unit": 31,
+  "title": "Les problèmes en voyage",
+  "en": "Travel problems",
+  "intro": "25 words for when a journey goes wrong: at the station (**supprimer, l'annulation, perturber, le contrôleur, le voyageur, la correspondance, patienter, le remboursement, les objets trouvés**), by coach (**l'autocar, le remplacement, la soute, l'heure de pointe**), on the road (**le péage, bloquer, la déviation, le détour, le pneu, crevé, la dépanneuse, le mécanicien, la station-service**), and three more: **l'imprévu, rattraper, le mal des transports**.",
+  "words": [
+    { "id": "supprimer", "fr": "supprimer", "pos": "verb", "ipa": "sy.pʁi.me", "en": "to cancel (a train, a flight); to delete, to remove", "def": "Dire qu'une chose ne va pas avoir lieu, ou la faire disparaître : un train, un message, une photo.", "def_en": "To say that something won't take place, or to make it disappear: a train, a message, a photo.", "forms": ["supprime", "supprimes", "supprimons", "supprimez", "suppriment", "supprimé", "supprimée", "supprimés", "supprimées", "supprimais", "supprimait", "supprimions", "supprimiez", "supprimaient", "supprimerai", "supprimeras", "supprimera", "supprimerons", "supprimerez", "supprimeront", "supprimerais", "supprimerait", "supprimerions", "supprimeriez", "supprimeraient", "supprimant"], "examples": [
+      { "fr": "Le train de dix-sept heures est **supprimé**.", "en": "The 5 p.m. train is cancelled." },
+      { "fr": "J'ai **supprimé** la photo : je n'aime pas ma tête dessus !", "en": "I deleted the photo: I don't like how I look in it!" },
+      { "fr": "On a **supprimé** mon cours de danse.", "en": "My dance class has been cancelled." }
+    ] },
+    { "id": "perturber", "fr": "perturber", "pos": "verb", "ipa": "pɛʁ.tyʁ.be", "en": "to disrupt; to disturb", "def": "Créer des problèmes, pour qu'une chose ne fonctionne plus bien.", "def_en": "To cause problems, so that something stops working properly.", "forms": ["perturbe", "perturbes", "perturbons", "perturbez", "perturbent", "perturbé", "perturbée", "perturbés", "perturbées", "perturbais", "perturbait", "perturbions", "perturbiez", "perturbaient", "perturberai", "perturberas", "perturbera", "perturberons", "perturberez", "perturberont", "perturberais", "perturberait", "perturberions", "perturberiez", "perturberaient", "perturbant"], "examples": [
+      { "fr": "La grève **perturbe** les trains.", "en": "The strike is disrupting the trains." },
+      { "fr": "Les vols sont **perturbés** à cause de la neige.", "en": "Flights are disrupted because of the snow." },
+      { "fr": "Le bruit des voisins me **perturbe**.", "en": "The neighbours' noise bothers me." }
+    ] },
+    { "id": "annulation", "fr": "annulation", "pos": "noun", "g": "f", "ipa": "a.ny.la.sjɔ̃", "en": "cancellation", "def": "Quand on décide qu'une chose prévue n'aura pas lieu : un train, un voyage, une fête.", "def_en": "When it's decided that something planned won't take place: a train, a trip, a party.", "forms": ["annulations"], "examples": [
+      { "fr": "Encore une **annulation** ! On ne va jamais partir.", "en": "Another cancellation! We'll never get away." },
+      { "fr": "Après l'**annulation** du train, on a pris un bus.", "en": "After the train was cancelled, we took a bus." },
+      { "fr": "Il y a beaucoup d'**annulations** à cause de la grève.", "en": "There are lots of cancellations because of the strike." }
+    ] },
+    { "id": "autocar", "fr": "autocar", "pos": "noun", "g": "m", "ipa": "o.to.kaʁ", "en": "coach (long-distance bus)", "def": "Un grand bus confortable, pour aller d'une ville à une autre.", "def_en": "A big, comfortable bus for going from one town to another.", "forms": ["autocars"], "note": "People often just say **le car**: don't mix it up with **car** (= because).", "examples": [
+      { "fr": "On prend l'**autocar** pour aller à l'aéroport.", "en": "We're taking the coach to the airport." },
+      { "fr": "L'**autocar** part à dix-sept heures trente.", "en": "The coach leaves at 5.30 p.m." },
+      { "fr": "Les enfants de l'école partent en **autocar**.", "en": "The schoolchildren are going by coach." }
+    ] },
+    { "id": "remplacement", "fr": "remplacement", "pos": "noun", "g": "m", "ipa": "ʁɑ̃.plas.mɑ̃", "en": "replacement; (job) temporary cover", "def": "Quand une personne ou une chose prend la place d'une autre.", "def_en": "When a person or a thing takes the place of another.", "forms": ["remplacements"], "examples": [
+      { "fr": "Un bus de **remplacement** attend devant la gare.", "en": "A replacement bus is waiting outside the station." },
+      { "fr": "Je fais un **remplacement** de deux semaines dans une école.", "en": "I'm covering for someone for two weeks at a school." },
+      { "fr": "Le **remplacement** de la fenêtre coûte cher.", "en": "Replacing the window is expensive." }
+    ] },
+    { "id": "voyageur", "fr": "voyageur", "pos": "noun", "g": "m", "ipa": "vwa.ja.ʒœʁ", "display": "le voyageur, la voyageuse", "en": "traveller; passenger", "def": "Une personne qui fait un voyage, en train, en bus ou en avion.", "def_en": "A person who is making a journey, by train, bus or plane.", "forms": ["voyageuse", "voyageurs", "voyageuses"], "accept": ["voyageuse", "la voyageuse", "une voyageuse"], "examples": [
+      { "fr": "Les **voyageurs** attendent sur le quai.", "en": "The passengers are waiting on the platform." },
+      { "fr": "Le train est plein de **voyageurs**.", "en": "The train is full of passengers." },
+      { "fr": "C'est une grande **voyageuse** : elle a vu quarante pays.", "en": "She's a great traveller: she's seen forty countries." }
+    ] },
+    { "id": "controleur", "fr": "contrôleur", "pos": "noun", "g": "m", "ipa": "kɔ̃.tʁo.lœʁ", "display": "le contrôleur, la contrôleuse", "en": "ticket inspector", "def": "La personne qui vérifie les billets dans le train.", "def_en": "The person who checks tickets on the train.", "forms": ["contrôleuse", "contrôleurs", "contrôleuses"], "accept": ["contrôleuse", "la contrôleuse", "une contrôleuse"], "examples": [
+      { "fr": "Le **contrôleur** vérifie les billets.", "en": "The inspector checks the tickets." },
+      { "fr": "La **contrôleuse** est très gentille.", "en": "The inspector is very nice." },
+      { "fr": "Sans billet, le **contrôleur** va te donner une amende !", "en": "Without a ticket, the inspector will give you a fine!" }
+    ] },
+    { "id": "correspondance", "fr": "correspondance", "pos": "noun", "g": "f", "ipa": "kɔ.ʁɛs.pɔ̃.dɑ̃s", "en": "connection (train, plane); correspondence (letters)", "def": "Un deuxième train, bus ou avion qu'on prend pour continuer son voyage. Aussi : les lettres que deux personnes s'écrivent.", "def_en": "A second train, bus or plane you take to continue your journey. Also: the letters two people write to each other.", "forms": ["correspondances"], "examples": [
+      { "fr": "J'ai raté ma **correspondance** à Lyon.", "en": "I missed my connection in Lyon." },
+      { "fr": "Vous avez dix minutes pour votre **correspondance**.", "en": "You have ten minutes for your connection." },
+      { "fr": "Les deux écrivains ont une longue **correspondance**.", "en": "The two writers have a long correspondence." }
+    ] },
+    { "id": "patienter", "fr": "patienter", "pos": "verb", "ipa": "pa.sjɑ̃.te", "en": "to wait (patiently), to hold on", "def": "Attendre, sans s'énerver.", "def_en": "To wait without getting annoyed.", "forms": ["patiente", "patientes", "patientons", "patientez", "patientent", "patienté", "patientais", "patientait", "patientions", "patientiez", "patientaient", "patienterai", "patienteras", "patientera", "patienterons", "patienterez", "patienteront", "patienterais", "patienterait", "patienterions", "patienteriez", "patienteraient", "patientant"], "examples": [
+      { "fr": "Merci de **patienter** quelques minutes.", "en": "Please wait a few minutes." },
+      { "fr": "Le médecin est en retard : nous **patientons**.", "en": "The doctor is late: we're waiting." },
+      { "fr": "**Patiente** un peu, j'arrive !", "en": "Hang on a moment, I'm coming!" }
+    ] },
+    { "id": "heure-de-pointe", "fr": "heure de pointe", "pos": "noun", "g": "f", "ipa": "œʁ də pwɛ̃t", "en": "rush hour", "def": "Le moment de la journée où il y a le plus de monde dans les transports et sur les routes.", "def_en": "The time of day when there are the most people on public transport and on the roads.", "forms": ["heures de pointe"], "examples": [
+      { "fr": "À l'**heure de pointe**, le métro est plein.", "en": "At rush hour, the metro is full." },
+      { "fr": "Évite la route aux **heures de pointe** !", "en": "Avoid the roads at rush hour!" },
+      { "fr": "Je pars avant l'**heure de pointe**.", "en": "I leave before rush hour." }
+    ] },
+    { "id": "soute", "fr": "soute", "pos": "noun", "g": "f", "ipa": "sut", "en": "hold (of a coach, a plane), luggage compartment", "def": "La partie d'un bus ou d'un avion où on met les grosses valises.", "def_en": "The part of a coach or a plane where the big suitcases go.", "forms": ["soutes"], "examples": [
+      { "fr": "Les grosses valises vont dans la **soute**.", "en": "Big suitcases go in the hold." },
+      { "fr": "Le chauffeur ouvre la **soute** de l'autocar.", "en": "The driver opens the coach's luggage compartment." },
+      { "fr": "Mon sac est resté dans la **soute** de l'avion !", "en": "My bag stayed in the plane's hold!" }
+    ] },
+    { "id": "peage", "fr": "péage", "pos": "noun", "g": "m", "ipa": "pe.aʒ", "en": "toll; toll booth", "def": "L'endroit où on paie pour utiliser l'autoroute, et l'argent qu'on paie.", "def_en": "The place where you pay to use the motorway, and the money you pay.", "forms": ["péages"], "examples": [
+      { "fr": "Le **péage** coûte douze euros jusqu'à Annecy.", "en": "The toll is twelve euros to Annecy." },
+      { "fr": "Il y a un embouteillage au **péage**.", "en": "There's a traffic jam at the toll." },
+      { "fr": "On paie le **péage** avec la carte bancaire.", "en": "We pay the toll by card." }
+    ] },
+    { "id": "bloquer", "fr": "bloquer", "pos": "verb", "ipa": "blɔ.ke", "en": "to block; (être bloqué) to be stuck", "def": "Ne pas laisser passer, ou ne pas laisser bouger. « Être bloqué » : ne plus pouvoir avancer.", "def_en": "To stop something getting through or moving. 'Être bloqué': not to be able to move on.", "forms": ["bloque", "bloques", "bloquons", "bloquez", "bloquent", "bloqué", "bloquée", "bloqués", "bloquées", "bloquais", "bloquait", "bloquions", "bloquiez", "bloquaient", "bloquerai", "bloqueras", "bloquera", "bloquerons", "bloquerez", "bloqueront", "bloquerais", "bloquerait", "bloquerions", "bloqueriez", "bloqueraient", "bloquant"], "examples": [
+      { "fr": "Un camion **bloque** la rue.", "en": "A lorry is blocking the street." },
+      { "fr": "On est **bloqués** dans l'ascenseur !", "en": "We're stuck in the lift!" },
+      { "fr": "La neige a **bloqué** la route.", "en": "The snow has blocked the road." }
+    ] },
+    { "id": "deviation", "fr": "déviation", "pos": "noun", "g": "f", "ipa": "de.vja.sjɔ̃", "en": "diversion (road)", "def": "Une autre route qu'on doit prendre quand une route est fermée.", "def_en": "Another road you have to take when a road is closed.", "forms": ["déviations"], "examples": [
+      { "fr": "La route est fermée : suivez la **déviation**.", "en": "The road is closed: follow the diversion." },
+      { "fr": "À cause des travaux, il y a une **déviation**.", "en": "Because of the roadworks, there's a diversion." },
+      { "fr": "La **déviation** nous fait perdre une heure.", "en": "The diversion costs us an hour." }
+    ] },
+    { "id": "detour", "fr": "détour", "pos": "noun", "g": "m", "ipa": "de.tuʁ", "en": "detour, roundabout way", "def": "Un chemin plus long que le chemin normal.", "def_en": "A longer way than the usual way.", "forms": ["détours"], "note": "**sans détour** = frankly, straight out.", "examples": [
+      { "fr": "On fait un **détour** pour voir le lac.", "en": "We're making a detour to see the lake." },
+      { "fr": "Ce **détour** est plus long, mais plus joli.", "en": "This detour is longer, but prettier." },
+      { "fr": "Il m'a dit sans **détour** qu'il n'était pas d'accord.", "en": "He told me straight out that he didn't agree." }
+    ] },
+    { "id": "mal-des-transports", "fr": "mal des transports", "pos": "noun", "g": "m", "ipa": "mal de tʁɑ̃s.pɔʁ", "en": "travel sickness (avoir le mal des transports = to be travel sick)", "def": "Quand on se sent mal dans une voiture, un bus ou un bateau, parce que ça bouge.", "def_en": "When you feel ill in a car, a bus or a boat because of the movement.", "examples": [
+      { "fr": "En voiture, Lou a souvent le **mal des transports**.", "en": "Lou often gets carsick." },
+      { "fr": "Contre le **mal des transports**, regarde loin devant toi.", "en": "For travel sickness, look far ahead of you." },
+      { "fr": "Prends ce médicament contre le **mal des transports**.", "en": "Take this medicine for travel sickness." }
+    ] },
+    { "id": "pneu", "fr": "pneu", "pos": "noun", "g": "m", "ipa": "pnø", "en": "tyre", "def": "Ce qui entoure une roue de voiture ou de vélo, et qui est plein d'air.", "def_en": "What goes round a car or bicycle wheel, and is full of air.", "forms": ["pneus"], "examples": [
+      { "fr": "Il faut gonfler les **pneus** du vélo.", "en": "The bike's tyres need pumping up." },
+      { "fr": "Ce **pneu** est trop vieux.", "en": "This tyre is too old." },
+      { "fr": "On a acheté de nouveaux **pneus** avant l'hiver.", "en": "We bought new tyres before the winter." }
+    ] },
+    { "id": "creve", "fr": "crevé", "pos": "adj", "ipa": "kʁə.ve", "display": "crevé, crevée", "en": "flat, punctured; (informal) shattered, worn out", "def": "Pour un pneu ou un ballon : qui a un trou et qui n'a plus d'air. Pour une personne : très fatigué.", "def_en": "For a tyre or a balloon: with a hole in it and no more air. For a person: very tired.", "forms": ["crevée", "crevés", "crevées"], "accept": ["crevée"], "note": "For a person, **crevé** is informal: say it to friends, not to your boss.", "examples": [
+      { "fr": "J'ai un pneu **crevé** !", "en": "I've got a flat tyre!" },
+      { "fr": "Après le déménagement, on était tous **crevés**.", "en": "After the move, we were all shattered." },
+      { "fr": "Je suis **crevée**, je vais me coucher.", "en": "I'm worn out, I'm going to bed." }
+    ] },
+    { "id": "depanneuse", "fr": "dépanneuse", "pos": "noun", "g": "f", "ipa": "de.pa.nøz", "en": "breakdown truck, tow truck", "def": "Un camion qui emporte les voitures en panne.", "def_en": "A lorry that takes away broken-down cars.", "forms": ["dépanneuses"], "examples": [
+      { "fr": "La **dépanneuse** emporte la voiture au garage.", "en": "The breakdown truck takes the car to the garage." },
+      { "fr": "On attend la **dépanneuse** depuis une heure.", "en": "We've been waiting for the tow truck for an hour." },
+      { "fr": "Appelle une **dépanneuse** !", "en": "Call a breakdown truck!" }
+    ] },
+    { "id": "mecanicien", "fr": "mécanicien", "pos": "noun", "g": "m", "ipa": "me.ka.ni.sjɛ̃", "display": "le mécanicien, la mécanicienne", "en": "mechanic", "def": "La personne qui répare les voitures et les machines.", "def_en": "The person who repairs cars and machines.", "forms": ["mécanicienne", "mécaniciens", "mécaniciennes"], "accept": ["mécanicienne", "la mécanicienne", "une mécanicienne"], "examples": [
+      { "fr": "Le **mécanicien** répare le moteur.", "en": "The mechanic is repairing the engine." },
+      { "fr": "Ma cousine est **mécanicienne**.", "en": "My cousin is a mechanic." },
+      { "fr": "Le **mécanicien** dit que la voiture est prête.", "en": "The mechanic says the car is ready." }
+    ] },
+    { "id": "station-service", "fr": "station-service", "pos": "noun", "g": "f", "ipa": "sta.sjɔ̃ sɛʁ.vis", "en": "petrol station, service station", "def": "L'endroit où on achète de l'essence pour sa voiture, au bord de la route.", "def_en": "The place by the road where you buy petrol for your car.", "forms": ["stations-service"], "examples": [
+      { "fr": "On s'arrête à la **station-service** pour prendre de l'essence.", "en": "We're stopping at the petrol station to get some petrol." },
+      { "fr": "La **station-service** est ouverte toute la nuit.", "en": "The service station is open all night." },
+      { "fr": "J'ai acheté un café à la **station-service**.", "en": "I bought a coffee at the service station." }
+    ] },
+    { "id": "imprevu", "fr": "imprévu", "pos": "noun", "g": "m", "ipa": "ɛ̃.pʁe.vy", "en": "something unexpected, a hitch; (adj) unexpected", "def": "Une chose qu'on n'attendait pas, et qui change le programme.", "def_en": "Something you weren't expecting, which changes the plans.", "forms": ["imprévus", "imprévue", "imprévues"], "examples": [
+      { "fr": "Désolé, j'ai un **imprévu** : je ne peux pas venir.", "en": "Sorry, something's come up: I can't come." },
+      { "fr": "Un voyage sans **imprévus**, c'est un voyage parfait !", "en": "A journey with no hitches is a perfect journey!" },
+      { "fr": "C'était une visite **imprévue**.", "en": "It was an unexpected visit." }
+    ] },
+    { "id": "rattraper", "fr": "rattraper", "pos": "verb", "ipa": "ʁa.tʁa.pe", "en": "to catch up (with); to make up for; to catch", "def": "Aller plus vite pour arriver avec une personne qui est devant. « Rattraper son retard » : faire vite ce qu'on n'a pas encore fait.", "def_en": "To go faster to reach someone who is ahead. 'Rattraper son retard': to quickly do what you haven't done yet.", "forms": ["rattrape", "rattrapes", "rattrapons", "rattrapez", "rattrapent", "rattrapé", "rattrapée", "rattrapés", "rattrapées", "rattrapais", "rattrapait", "rattrapions", "rattrapiez", "rattrapaient", "rattraperai", "rattraperas", "rattrapera", "rattraperons", "rattraperez", "rattraperont", "rattraperais", "rattraperait", "rattraperions", "rattraperiez", "rattraperaient", "rattrapant"], "examples": [
+      { "fr": "Cours, tu vas **rattraper** le bus !", "en": "Run, you'll catch the bus!" },
+      { "fr": "Je dois **rattraper** mon retard au travail.", "en": "I have to catch up at work." },
+      { "fr": "Il a **rattrapé** le verre juste avant sa chute.", "en": "He caught the glass just before it fell." }
+    ] },
+    { "id": "remboursement", "fr": "remboursement", "pos": "noun", "g": "m", "ipa": "ʁɑ̃.buʁs.mɑ̃", "en": "refund, repayment", "def": "L'argent qu'on vous rend, quand un service n'a pas eu lieu ou quand un produit n'est pas bon.", "def_en": "The money you get back when a service didn't happen or a product isn't any good.", "forms": ["remboursements"], "examples": [
+      { "fr": "J'ai demandé un **remboursement** pour mon billet.", "en": "I've asked for a refund for my ticket." },
+      { "fr": "Le **remboursement** arrive dans dix jours.", "en": "The refund will come in ten days." },
+      { "fr": "Pas de **remboursement** après trente jours.", "en": "No refunds after thirty days." }
+    ] },
+    { "id": "objets-trouves", "fr": "objets trouvés", "pos": "noun", "g": "m", "ipa": "ɔb.ʒɛ tʁu.ve", "display": "les objets trouvés", "en": "lost property (office)", "def": "Le bureau où on garde les choses perdues, en attendant que leur propriétaire vienne les chercher.", "def_en": "The office where lost things are kept until their owner comes to collect them.", "examples": [
+      { "fr": "J'ai perdu mon écharpe : je vais aux **objets trouvés**.", "en": "I've lost my scarf: I'm going to lost property." },
+      { "fr": "Le bureau des **objets trouvés** est à la gare.", "en": "The lost property office is at the station." },
+      { "fr": "Aux **objets trouvés**, il y a cent parapluies !", "en": "There are a hundred umbrellas at lost property!" }
+    ] }
+  ],
+  "story": {
+    "title": "Un vendredi sans train",
+    "en": "Friday 18 September: the friends are going to Jules and Manon's wedding near Annecy, but nothing goes to plan.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi dix-huit septembre, à cinq heures de l'après-midi, Léa, Sophie, Tom et Carla attendent à la gare de la Part-Dieu. Demain, Jules et Manon se marient à la ferme, près d'Annecy.", "en": "Friday 18 September, 5 p.m.: Léa, Sophie, Tom and Carla are waiting at Part-Dieu station. Tomorrow, Jules and Manon are getting married at the farm, near Annecy." },
+      { "sp": "", "fr": "Sur l'écran, à côté du train pour Annecy, il y a un mot en rouge : « supprimé ». Léa va voir un contrôleur sur le quai.", "en": "On the screen, next to the train to Annecy, there's a word in red: 'cancelled'. Léa goes to ask a ticket inspector on the platform." },
+      { "sp": "Le contrôleur", "fr": "À cause de la grève, les trains sont perturbés dans toute la région. Tous les trains pour Annecy sont supprimés ce soir.", "en": "Because of the strike, trains are disrupted across the whole region. All the trains to Annecy are cancelled tonight." },
+      { "sp": "Le contrôleur", "fr": "Mais un autocar de remplacement part à dix-sept heures trente. Merci de patienter devant la gare.", "en": "But a replacement coach leaves at 5.30. Please wait outside the station." },
+      { "sp": "Carla", "fr": "Encore une annulation ! Et on peut avoir un remboursement ?", "en": "Another cancellation! And can we get a refund?" },
+      { "sp": "Le contrôleur", "fr": "Oui, demandez-le sur internet. Et bon courage !", "en": "Yes, ask for it online. And good luck!" },
+      { "sp": "", "fr": "Devant la gare, ils retrouvent Jacques et Louise. Ils arrivent de Marseille, mais leur correspondance pour Annecy est supprimée, elle aussi.", "en": "Outside the station, they meet Jacques and Louise. They've come from Marseille, but their connection to Annecy is cancelled too." },
+      { "sp": "Louise", "fr": "À notre âge, un voyage sans imprévu, ce n'est pas un vrai voyage !", "en": "At our age, a journey with no hitches isn't a real journey!" },
+      { "sp": "", "fr": "À la dernière minute, Hugo arrive en [courant|courir], avec une grosse valise noire.", "en": "At the last minute, Hugo arrives running, with a big black suitcase." },
+      { "sp": "Hugo", "fr": "Mon costume et les alliances sont dedans ! Je suis le témoin de Jules, je ne peux pas les perdre.", "en": "My suit and the rings are in here! I'm Jules's best man, I can't lose them." },
+      { "sp": "", "fr": "Le chauffeur met les valises dans la soute. Tom, lui, garde sa guitare sur ses genoux.", "en": "The driver puts the suitcases in the hold. Tom keeps his guitar on his knees." },
+      { "sp": "Tom", "fr": "Ma guitare ne voyage jamais dans une soute. Jamais !", "en": "My guitar never travels in a hold. Never!" },
+      { "sp": "", "fr": "C'est l'heure de pointe : l'autocar est bloqué une heure dans les embouteillages. Au péage, encore un imprévu : un accident.", "en": "It's rush hour: the coach is stuck in traffic jams for an hour. At the toll, another hitch: an accident." },
+      { "sp": "", "fr": "Il y a une déviation, et le chauffeur fait un long détour par une petite route de montagne. Tom devient tout vert : il a le mal des transports.", "en": "There's a diversion, and the driver makes a long detour along a little mountain road. Tom turns green: he's travel sick." },
+      { "sp": "Sophie", "fr": "Regarde dehors et respire, Tom. Ça va passer.", "en": "Look outside and breathe, Tom. It'll pass." },
+      { "sp": "", "fr": "Tout à coup, l'autocar s'arrête près d'une station-service : un pneu est crevé !", "en": "Suddenly, the coach stops near a service station: a tyre has gone flat!" },
+      { "sp": "Le chauffeur", "fr": "J'ai appelé une dépanneuse. Le mécanicien arrive dans une heure.", "en": "I've called a breakdown truck. The mechanic will be here in an hour." },
+      { "sp": "Hugo", "fr": "Une heure ? On ne va jamais rattraper notre retard !", "en": "An hour? We'll never make up the time!" },
+      { "sp": "", "fr": "Carla danse sur le parking, Jacques achète des sandwichs, et Louise joue aux cartes avec les voyageurs.", "en": "Carla dances in the car park, Jacques buys sandwiches, and Louise plays cards with the passengers." },
+      { "sp": "", "fr": "Son voisin est un monsieur très drôle, avec une grosse valise noire… comme celle de Hugo.", "en": "The man next to her is very funny, and has a big black suitcase… just like Hugo's." },
+      { "sp": "", "fr": "Ils arrivent à Annecy à dix heures du soir. Pierre les attend avec la camionnette de la ferme.", "en": "They reach Annecy at ten in the evening. Pierre is waiting for them with the farm van." },
+      { "sp": "Le chauffeur", "fr": "Prenez bien tous vos bagages ! Sinon, il faudra appeler les objets trouvés.", "en": "Make sure you take all your luggage! Otherwise you'll have to call lost property." },
+      { "sp": "Léa", "fr": "Enfin ! Je suis crevée.", "en": "At last! I'm shattered." },
+      { "sp": "Pierre", "fr": "Crevée, comme le pneu ? Allez, tout le monde dans la camionnette !", "en": "Shattered, like the tyre? Come on, everyone into the van!" },
+      { "sp": "", "fr": "Il fait nuit, et Hugo dort debout. Dans la soute, il prend une grosse valise noire… Mais est-ce que c'est bien la sienne ?", "en": "It's dark, and Hugo is asleep on his feet. In the hold, he takes a big black suitcase… But is it really his?" }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "u31-reagir",
+  "type": "vocab",
+  "unit": 31,
+  "title": "Réagir",
+  "en": "Reacting",
+  "intro": "25 words for reacting like a French speaker: little words (**zut, mince, ouf, oups, oh là là, eh bien, ça alors, sans blague, chouette**), calming things down (**ça ne fait rien, pas de souci, le sang-froid, se débrouiller, s'en sortir**), feelings (**soulagé, étonner, paniquer, sursauter, trembler, hurler, râler, en avoir marre, laisser tomber**) and the words themselves: **réagir, la réaction**.",
+  "words": [
+    { "id": "reagir", "fr": "réagir", "pos": "verb", "ipa": "ʁe.a.ʒiʁ", "en": "to react", "extra": "like **finir**: je **réagis**, nous **réagissons**; j'ai **réagi**.", "def": "Faire ou dire quelque chose, juste après un événement ou une surprise.", "def_en": "To do or say something right after an event or a surprise.", "forms": ["réagis", "réagit", "réagissons", "réagissez", "réagissent", "réagi", "réagissais", "réagissait", "réagissions", "réagissiez", "réagissaient", "réagirai", "réagiras", "réagira", "réagirons", "réagirez", "réagiront", "réagirais", "réagirait", "réagirions", "réagiriez", "réagiraient", "réagisse", "réagisses", "réagissant"], "examples": [
+      { "fr": "Comment a-t-il **réagi** ?", "en": "How did he react?" },
+      { "fr": "Il **réagit** toujours trop vite.", "en": "He always reacts too quickly." },
+      { "fr": "Ne **réagis** pas comme ça, ce n'est pas grave !", "en": "Don't react like that, it doesn't matter!" }
+    ] },
+    { "id": "reaction", "fr": "réaction", "pos": "noun", "g": "f", "ipa": "ʁe.ak.sjɔ̃", "en": "reaction", "def": "Ce qu'on fait ou ce qu'on dit, quand quelque chose arrive.", "def_en": "What you do or say when something happens.", "forms": ["réactions"], "examples": [
+      { "fr": "Quelle a été sa **réaction** ?", "en": "How did she react?" },
+      { "fr": "Sa **réaction** m'a surpris.", "en": "His reaction surprised me." },
+      { "fr": "J'ai eu une **réaction** allergique au chat.", "en": "I had an allergic reaction to the cat." }
+    ] },
+    { "id": "zut", "fr": "zut", "pos": "interj", "ipa": "zyt", "en": "darn!, blast!, oh no!", "def": "Un petit mot qu'on dit quand on est un peu énervé ou déçu.", "def_en": "A little word you say when you're a bit annoyed or disappointed.", "examples": [
+      { "fr": "**Zut** ! J'ai oublié mes clés !", "en": "Blast! I've forgotten my keys!" },
+      { "fr": "**Zut**, il pleut !", "en": "Oh no, it's raining!" },
+      { "fr": "Oh, **zut** ! Le train est parti.", "en": "Oh, darn! The train's gone." }
+    ] },
+    { "id": "mince-interj", "fr": "mince", "pos": "interj", "manual": true, "ipa": "mɛ̃s", "en": "darn!, oh no!; (mince alors !) well I never!", "def": "Un petit mot pour dire qu'on est surpris, ou qu'il y a un petit problème.", "def_en": "A little word to say you're surprised, or that there's a small problem.", "note": "The adjective **mince** means *thin*: *une femme mince*.", "examples": [
+      { "fr": "**[Mince|mince-interj]** ! J'ai raté le bus !", "en": "Oh no! I've missed the bus!" },
+      { "fr": "**[Mince|mince-interj]**, il n'y a plus de pain.", "en": "Darn, there's no bread left." },
+      { "fr": "**[Mince|mince-interj]** alors ! Tu es déjà là ?", "en": "Well I never! You're here already?" }
+    ] },
+    { "id": "ouf", "fr": "ouf", "pos": "interj", "ipa": "uf", "en": "phew!", "def": "Un petit mot qu'on dit quand un problème est fini, et qu'on n'a plus peur.", "def_en": "A little word you say when a problem is over and you're not scared any more.", "examples": [
+      { "fr": "**Ouf** ! On a eu le train !", "en": "Phew! We caught the train!" },
+      { "fr": "**Ouf**, ce n'est pas une fracture.", "en": "Phew, it isn't a fracture." },
+      { "fr": "Les examens sont finis : **ouf** !", "en": "The exams are over: phew!" }
+    ] },
+    { "id": "oups", "fr": "oups", "pos": "interj", "ipa": "ups", "en": "oops!", "def": "Un petit mot qu'on dit quand on fait une petite erreur.", "def_en": "A little word you say when you make a small mistake.", "examples": [
+      { "fr": "**Oups**, j'ai cassé un verre !", "en": "Oops, I've broken a glass!" },
+      { "fr": "**Oups** ! Je me suis trompé de porte.", "en": "Oops! I've got the wrong door." },
+      { "fr": "**Oups**… Ce n'était pas ton gâteau ?", "en": "Oops… Wasn't that your cake?" }
+    ] },
+    { "id": "oh-la-la", "fr": "oh là là", "pos": "interj", "ipa": "o la la", "en": "oh dear!, oh no!, wow!", "def": "Ce qu'on dit quand on est très surpris, ou quand il y a un problème.", "def_en": "What you say when you're very surprised, or when there's a problem.", "examples": [
+      { "fr": "**Oh là là** ! Il est déjà midi !", "en": "Oh dear! It's already noon!" },
+      { "fr": "**Oh là là**, ta cheville est toute bleue !", "en": "Oh no, your ankle is all blue!" },
+      { "fr": "**Oh là là**, quelle belle robe !", "en": "Wow, what a lovely dress!" }
+    ] },
+    { "id": "eh-bien", "fr": "eh bien", "pos": "expr", "ipa": "e bjɛ̃", "en": "well…; well!", "def": "Des mots pour commencer une phrase, ou pour montrer qu'on est surpris.", "def_en": "Words to start a sentence, or to show you're surprised.", "examples": [
+      { "fr": "**Eh bien**, on peut commencer ?", "en": "Well, shall we begin?" },
+      { "fr": "**Eh bien** ! Quelle journée !", "en": "Well! What a day!" },
+      { "fr": "Tu veux savoir ? **Eh bien**, je ne sais pas.", "en": "You want to know? Well, I don't know." }
+    ] },
+    { "id": "ca-alors", "fr": "ça alors", "pos": "expr", "ipa": "sa a.lɔʁ", "en": "well I never!, no way!", "def": "Ce qu'on dit quand on est très surpris.", "def_en": "What you say when you're very surprised.", "examples": [
+      { "fr": "**Ça alors** ! Tu es déjà rentré ?", "en": "Well I never! You're back already?" },
+      { "fr": "**Ça alors**, c'est toi sur la photo ?", "en": "No way, is that you in the photo?" },
+      { "fr": "Tu as gagné ? **Ça alors** !", "en": "You won? Well I never!" }
+    ] },
+    { "id": "sans-blague", "fr": "sans blague", "pos": "expr", "ipa": "sɑ̃ blaɡ", "en": "no kidding!, really?", "def": "Ce qu'on dit quand on a du mal à croire une information.", "def_en": "What you say when you can hardly believe some news.", "examples": [
+      { "fr": "**Sans blague** ? Tu vas te marier ?", "en": "No kidding? You're getting married?" },
+      { "fr": "**Sans blague**, c'est vrai ?", "en": "Really, is it true?" },
+      { "fr": "Hugo est arrivé à l'heure ? **Sans blague** !", "en": "Hugo arrived on time? You're kidding!" }
+    ] },
+    { "id": "chouette", "fr": "chouette", "pos": "adj", "ipa": "ʃwɛt", "en": "great, nice (chouette ! = great!); (noun) owl", "def": "Ce qu'on dit quand une chose fait plaisir. Comme nom : un oiseau qui vit la nuit.", "def_en": "What you say when something makes you happy. As a noun: a bird that lives at night.", "forms": ["chouettes"], "examples": [
+      { "fr": "On va à la mer ? **Chouette** !", "en": "We're going to the seaside? Great!" },
+      { "fr": "C'est une **chouette** idée.", "en": "It's a great idea." },
+      { "fr": "La nuit, on entend une **chouette** dans le jardin.", "en": "At night, you can hear an owl in the garden." }
+    ] },
+    { "id": "souci", "fr": "souci", "pos": "noun", "g": "m", "ipa": "su.si", "en": "worry; problem (pas de souci = no problem)", "def": "Une chose qui inquiète, ou qui fait peur pour l'avenir.", "def_en": "Something that worries you, or that makes you afraid for the future.", "forms": ["soucis"], "examples": [
+      { "fr": "Pas de **souci**, je m'en occupe !", "en": "No problem, I'll deal with it!" },
+      { "fr": "Il a beaucoup de **soucis** en ce moment.", "en": "He has a lot of worries at the moment." },
+      { "fr": "Mon seul **souci**, c'est la météo.", "en": "My only worry is the weather." }
+    ] },
+    { "id": "ca-ne-fait-rien", "fr": "ça ne fait rien", "pos": "expr", "ipa": "sa nə fɛ ʁjɛ̃", "en": "never mind, it doesn't matter", "def": "Ce qu'on dit pour montrer qu'une chose n'est pas grave.", "def_en": "What you say to show that something isn't serious.", "examples": [
+      { "fr": "Tu as oublié ? **Ça ne fait rien**.", "en": "You forgot? Never mind." },
+      { "fr": "Je suis en retard, pardon ! — **Ça ne fait rien**.", "en": "I'm late, sorry! — It doesn't matter." },
+      { "fr": "**Ça ne fait rien**, on essaie encore une fois.", "en": "Never mind, let's try again." }
+    ] },
+    { "id": "soulage", "fr": "soulagé", "pos": "adj", "ipa": "su.la.ʒe", "display": "soulagé, soulagée", "en": "relieved", "def": "Qui n'a plus peur ou plus mal, parce qu'un problème est fini.", "def_en": "No longer afraid or in pain, because a problem is over.", "forms": ["soulagée", "soulagés", "soulagées"], "accept": ["soulagée"], "examples": [
+      { "fr": "Je suis **soulagé** : ce n'est pas grave.", "en": "I'm relieved: it isn't serious." },
+      { "fr": "Elle est **soulagée** d'avoir fini.", "en": "She's relieved to have finished." },
+      { "fr": "Les parents sont **soulagés** : les enfants sont rentrés.", "en": "The parents are relieved: the children are home." }
+    ] },
+    { "id": "etonner", "fr": "étonner", "pos": "verb", "ipa": "e.tɔ.ne", "en": "to surprise, to amaze (ça m'étonne = I'm surprised)", "def": "Être une chose qu'on n'attendait pas, et qui rend surpris.", "def_en": "To be something unexpected that makes you surprised.", "forms": ["étonne", "étonnes", "étonnons", "étonnez", "étonnent", "étonné", "étonnée", "étonnés", "étonnées", "étonnais", "étonnait", "étonnions", "étonniez", "étonnaient", "étonnerai", "étonneras", "étonnera", "étonnerons", "étonnerez", "étonneront", "étonnerais", "étonnerait", "étonnerions", "étonneriez", "étonneraient"], "note": "**étonné(e)** = surprised; **étonnant** = surprising.", "examples": [
+      { "fr": "Ça m'**étonne** qu'il soit en retard.", "en": "I'm surprised he's late." },
+      { "fr": "Ta réaction m'a **étonné**.", "en": "Your reaction surprised me." },
+      { "fr": "Elle était **étonnée** de nous voir.", "en": "She was surprised to see us." }
+    ] },
+    { "id": "paniquer", "fr": "paniquer", "pos": "verb", "ipa": "pa.ni.ke", "en": "to panic", "def": "Avoir très peur, et ne plus savoir quoi faire.", "def_en": "To be very scared and not know what to do any more.", "forms": ["panique", "paniques", "paniquons", "paniquez", "paniquent", "paniqué", "paniquée", "paniqués", "paniquées", "paniquais", "paniquait", "paniquions", "paniquiez", "paniquaient", "paniquerai", "paniqueras", "paniquera", "paniquerons", "paniquerez", "paniqueront", "paniquerais", "paniquerait", "paniquerions", "paniqueriez", "paniqueraient", "paniquant"], "examples": [
+      { "fr": "Ne **panique** pas, on va trouver une solution.", "en": "Don't panic, we'll find a solution." },
+      { "fr": "Il a **paniqué** quand il a vu l'abeille.", "en": "He panicked when he saw the bee." },
+      { "fr": "Tout le monde **panique** avant les examens.", "en": "Everyone panics before exams." }
+    ] },
+    { "id": "sursauter", "fr": "sursauter", "pos": "verb", "ipa": "syʁ.so.te", "en": "to jump, to start (with surprise)", "def": "Faire un petit mouvement rapide, parce qu'on a peur ou qu'on est surpris.", "def_en": "To make a small quick movement because you're scared or surprised.", "forms": ["sursaute", "sursautes", "sursautons", "sursautez", "sursautent", "sursauté", "sursautais", "sursautait", "sursautions", "sursautiez", "sursautaient", "sursauterai", "sursauteras", "sursautera", "sursauterons", "sursauterez", "sursauteront", "sursauterais", "sursauterait", "sursauterions", "sursauteriez", "sursauteraient", "sursautant"], "examples": [
+      { "fr": "Le téléphone sonne : je **sursaute** !", "en": "The phone rings: I jump!" },
+      { "fr": "Tu m'as fait **sursauter** !", "en": "You made me jump!" },
+      { "fr": "Toute la salle a **sursauté**.", "en": "The whole room jumped." }
+    ] },
+    { "id": "trembler", "fr": "trembler", "pos": "verb", "ipa": "tʁɑ̃.ble", "en": "to shake, to tremble", "def": "Bouger un peu, très vite, à cause du froid ou de la peur.", "def_en": "To move slightly and very fast, because of cold or fear.", "forms": ["tremble", "trembles", "tremblons", "tremblez", "tremblent", "tremblé", "tremblais", "tremblait", "tremblions", "trembliez", "tremblaient", "tremblerai", "trembleras", "tremblera", "tremblerons", "tremblerez", "trembleront", "tremblerais", "tremblerait", "tremblerions", "trembleriez", "trembleraient", "tremblant"], "examples": [
+      { "fr": "Je **tremble** de froid.", "en": "I'm shaking with cold." },
+      { "fr": "Sa voix **tremble** un peu.", "en": "Her voice is shaking a little." },
+      { "fr": "Les mains de Jules **tremblaient** à la mairie.", "en": "Jules's hands were shaking at the town hall." }
+    ] },
+    { "id": "hurler", "fr": "hurler", "pos": "verb", "ipa": "yʁ.le", "en": "to scream, to yell; to howl", "def": "Crier très fort.", "def_en": "To shout very loudly.", "forms": ["hurle", "hurles", "hurlons", "hurlez", "hurlent", "hurlé", "hurlais", "hurlait", "hurlions", "hurliez", "hurlaient", "hurlerai", "hurleras", "hurlera", "hurlerons", "hurlerez", "hurleront", "hurlerais", "hurlerait", "hurlerions", "hurleriez", "hurleraient", "hurlant"], "note": "The h is aspirate: *je hurle*, not *j'hurle*.", "hAsp": true, "examples": [
+      { "fr": "Lou **hurle** : il y a une araignée !", "en": "Lou screams: there's a spider!" },
+      { "fr": "Ne **hurle** pas, je t'entends très bien !", "en": "Don't yell, I can hear you perfectly well!" },
+      { "fr": "Le chien **hurle** la nuit.", "en": "The dog howls at night." }
+    ] },
+    { "id": "raler", "fr": "râler", "pos": "verb", "ipa": "ʁɑ.le", "en": "to grumble, to moan", "def": "Dire qu'on n'est pas content, souvent pour des petites choses.", "def_en": "To say you're not happy, often about little things.", "forms": ["râle", "râles", "râlons", "râlez", "râlent", "râlé", "râlais", "râlait", "râlions", "râliez", "râlaient", "râlerai", "râleras", "râlera", "râlerons", "râlerez", "râleront", "râlerais", "râlerait", "râlerions", "râleriez", "râleraient", "râlant"], "note": "Informal. People say it's the French national sport.", "examples": [
+      { "fr": "Arrête de **râler** !", "en": "Stop moaning!" },
+      { "fr": "Les Français **râlent** beaucoup, mais ils aiment leur pays.", "en": "The French grumble a lot, but they love their country." },
+      { "fr": "Hugo a **râlé** toute la journée.", "en": "Hugo grumbled all day." }
+    ] },
+    { "id": "en-avoir-marre", "fr": "en avoir marre", "pos": "verb", "ipa": "ɑ̃.na.vwaʁ maʁ", "en": "to be fed up (with)", "def": "Ne plus pouvoir accepter une chose, parce qu'elle dure depuis trop longtemps.", "def_en": "To be unable to put up with something any longer, because it's been going on too long.", "forms": ["en ai marre", "en as marre", "en a marre", "en avons marre", "en avez marre", "en ont marre", "en avais marre", "en avait marre", "en avions marre", "en aviez marre", "en avaient marre", "en ai eu marre", "en a eu marre", "en aurai marre", "en aura marre", "en aurais marre", "en aurait marre"], "note": "Informal. **J'en ai marre de** + noun or infinitive: *j'en ai marre d'attendre*.", "examples": [
+      { "fr": "J'**en ai marre** de la pluie !", "en": "I'm fed up with the rain!" },
+      { "fr": "On **en a marre** d'attendre.", "en": "We're sick of waiting." },
+      { "fr": "Les voyageurs **en avaient marre** du retard.", "en": "The passengers were fed up with the delay." }
+    ] },
+    { "id": "laisser-tomber", "fr": "laisser tomber", "pos": "verb", "ipa": "le.se tɔ̃.be", "en": "to drop; to give up; (laisse tomber !) forget it!", "def": "Ne plus tenir une chose, et la faire tomber. Aussi : arrêter, ne plus continuer.", "def_en": "To stop holding something and let it fall. Also: to stop, not to carry on.", "forms": ["laisse tomber", "laisses tomber", "laissons tomber", "laissez tomber", "laissent tomber", "laissé tomber", "laissais tomber", "laissait tomber", "laissions tomber", "laissiez tomber", "laissaient tomber", "laisserai tomber", "laisseras tomber", "laissera tomber", "laisserons tomber", "laisserez tomber", "laisseront tomber", "laisserais tomber", "laisserait tomber", "laisserions tomber", "laisseriez tomber", "laisseraient tomber", "laissant tomber"], "examples": [
+      { "fr": "**Laisse tomber**, ce n'est pas important.", "en": "Forget it, it doesn't matter." },
+      { "fr": "Il a **laissé tomber** son verre.", "en": "He dropped his glass." },
+      { "fr": "J'ai **laissé tomber** le piano à dix ans.", "en": "I gave up the piano when I was ten." }
+    ] },
+    { "id": "se-debrouiller", "fr": "se débrouiller", "pos": "verb", "ipa": "sə de.bʁu.je", "en": "to manage, to cope, to get by", "def": "Trouver une solution tout seul, même quand c'est difficile.", "def_en": "To find a solution on your own, even when it's difficult.", "forms": ["me débrouille", "te débrouilles", "se débrouille", "nous nous débrouillons", "vous vous débrouillez", "se débrouillent", "me débrouiller", "te débrouiller", "nous débrouiller", "vous débrouiller", "débrouiller", "me débrouillerai", "te débrouilleras", "se débrouillera", "nous nous débrouillerons", "vous vous débrouillerez", "se débrouilleront", "me débrouillerais", "te débrouillerais", "se débrouillerait", "nous nous débrouillerions", "vous vous débrouilleriez", "se débrouilleraient", "débrouille", "débrouilles", "débrouillons", "débrouillez", "débrouillent", "débrouillé", "débrouillée", "débrouillés", "débrouillées", "débrouillais", "débrouillait", "débrouillions", "débrouilliez", "débrouillaient", "débrouillerai", "débrouilleras", "débrouillera", "débrouillerons", "débrouillerez", "débrouilleront", "débrouillerais", "débrouillerait", "débrouillerions", "débrouilleriez", "débrouilleraient", "débrouillant"], "note": "**Débrouille-toi !** = Sort it out yourself!", "examples": [
+      { "fr": "Je me **débrouille** en espagnol.", "en": "I get by in Spanish." },
+      { "fr": "Ne t'inquiète pas, on va se **débrouiller**.", "en": "Don't worry, we'll manage." },
+      { "fr": "Il s'est bien **débrouillé** pour son premier jour.", "en": "He coped well on his first day." }
+    ] },
+    { "id": "s-en-sortir", "fr": "s'en sortir", "pos": "verb", "ipa": "sɑ̃ sɔʁ.tiʁ", "en": "to manage, to get through (it), to pull through", "def": "Réussir à finir une chose difficile, ou à quitter une mauvaise situation.", "def_en": "To manage to finish something difficult, or to get out of a bad situation.", "forms": ["m'en sortir", "t'en sortir", "nous en sortir", "vous en sortir", "m'en sors", "t'en sors", "s'en sort", "nous en sortons", "vous en sortez", "s'en sortent", "m'en suis sorti", "m'en suis sortie", "t'en es sorti", "t'en es sortie", "s'en est sorti", "s'en est sortie", "nous en sommes sortis", "vous en êtes sortis", "s'en sont sortis", "s'en sont sorties", "m'en sortais", "s'en sortait", "s'en sortaient", "m'en sortirai", "t'en sortiras", "s'en sortira", "nous en sortirons", "vous en sortirez", "s'en sortiront", "m'en sortirais", "s'en sortirait", "s'en sortiraient"], "examples": [
+      { "fr": "Tu vas **t'en sortir**, j'en suis sûre.", "en": "You'll get through it, I'm sure." },
+      { "fr": "Avec ce salaire, on **s'en sort** juste.", "en": "On this salary, we only just get by." },
+      { "fr": "Il **s'en est sorti** sans problème.", "en": "He got through it without any trouble." }
+    ] },
+    { "id": "sang-froid", "fr": "sang-froid", "pos": "noun", "g": "m", "ipa": "sɑ̃.fʁwa", "en": "composure, calm (garder son sang-froid = to keep calm)", "def": "Le calme qu'on garde quand il y a un danger ou un problème.", "def_en": "The calm you keep when there's a danger or a problem.", "examples": [
+      { "fr": "Il faut garder son **sang-froid**.", "en": "You have to keep calm." },
+      { "fr": "Anne ne perd jamais son **sang-froid**.", "en": "Anne never loses her composure." },
+      { "fr": "Avec beaucoup de **sang-froid**, elle a appelé les pompiers.", "en": "Very calmly, she called the fire brigade." }
+    ] }
+  ],
+  "story": {
+    "title": "Le grand jour",
+    "en": "Saturday 19 September, three o'clock: the wedding at the village town hall, then the party at the farm.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "À trois heures, toute la famille attend devant la mairie du village. Jules est très stressé, et ses mains tremblent.", "en": "At three, the whole family is waiting outside the village town hall. Jules is very nervous, and his hands are shaking." },
+      { "sp": "", "fr": "Une voiture arrive. Hugo sort, sur ses béquilles, avec une grosse bosse sur la tête.", "en": "A car pulls up. Hugo gets out, on his crutches, with a big bump on his head." },
+      { "sp": "Lou", "fr": "Oh là là ! Hugo est cassé !", "en": "Oh no! Hugo's broken!" },
+      { "sp": "Jules", "fr": "Ouf, tu es là ! Ça va ?", "en": "Phew, you're here! Are you OK?" },
+      { "sp": "Hugo", "fr": "Juste une entorse. Ne panique pas, cousin : je me suis débrouillé !", "en": "Just a sprain. Don't panic, cousin: I managed!" },
+      { "sp": "", "fr": "Dans la salle des mariages, le maire fait un petit discours, puis il se tourne vers Hugo.", "en": "In the wedding room, the mayor gives a short speech, then turns to Hugo." },
+      { "sp": "Le maire", "fr": "Eh bien, le témoin peut nous donner les alliances ?", "en": "Well, can the best man give us the rings?" },
+      { "sp": "", "fr": "Hugo ouvre la petite boîte… Elle est vide ! Tout le monde sursaute.", "en": "Hugo opens the little box… It's empty! Everyone jumps." },
+      { "sp": "Hugo", "fr": "[Mince|mince-interj] ! Ce n'est pas possible ! Elles étaient là ce matin !", "en": "Oh no! It's not possible! They were there this morning!" },
+      { "sp": "Le maire", "fr": "Gardons notre sang-froid. Quelqu'un a vu les alliances ?", "en": "Let's keep calm. Has anyone seen the rings?" },
+      { "sp": "", "fr": "Alors, Lou lève la main. Elle a deux bagues sur ses petits doigts.", "en": "Then Lou raises her hand. She has two rings on her little fingers." },
+      { "sp": "Lou", "fr": "Oups… Je voulais juste jouer au mariage.", "en": "Oops… I just wanted to play weddings." },
+      { "sp": "", "fr": "Toute la salle rit. Manon embrasse Lou.", "en": "The whole room laughs. Manon gives Lou a kiss." },
+      { "sp": "Manon", "fr": "Ça ne fait rien, ma puce. Tu me les donnes ?", "en": "Never mind, sweetie. Will you give them to me?" },
+      { "sp": "", "fr": "Les mariés se disent « oui », et tout le monde applaudit.", "en": "The bride and groom say 'I do', and everyone claps." },
+      { "sp": "", "fr": "Le soir, c'est la fête dans la grange. Avant le dessert, Carla regarde le gâteau de Karim.", "en": "In the evening, there's a party in the barn. Before dessert, Carla looks at Karim's cake." },
+      { "sp": "Carla", "fr": "Il y a des noisettes dedans ? Je ne veux pas avoir une réaction allergique ce soir !", "en": "Are there hazelnuts in it? I don't want an allergic reaction tonight!" },
+      { "sp": "Karim", "fr": "Pas de souci, Carla : zéro noisette ! J'ai pensé à toi.", "en": "No problem, Carla: zero hazelnuts! I thought of you." },
+      { "sp": "Carla", "fr": "Chouette !", "en": "Great!" },
+      { "sp": "", "fr": "Tom joue de la guitare, et tout le monde danse… sauf Hugo.", "en": "Tom plays the guitar, and everyone dances… except Hugo." },
+      { "sp": "Hugo", "fr": "Zut ! J'en ai marre de ces béquilles ! Je veux danser !", "en": "Blast! I'm fed up with these crutches! I want to dance!" },
+      { "sp": "Carla", "fr": "Laisse tomber les béquilles. Reste assis : je danse autour de toi.", "en": "Forget the crutches. Stay sitting down: I'll dance around you." },
+      { "sp": "Sophie", "fr": "Tu te souviens, Léa ? Avant, j'étais amoureuse de Jules. Ce soir, je ne suis pas jalouse du tout. Je suis même soulagée !", "en": "Do you remember, Léa? I used to be in love with Jules. Tonight, I'm not jealous at all. I'm even relieved!" },
+      { "sp": "", "fr": "Pendant son discours de témoin, Hugo raconte sa journée : la valise du magicien, l'abeille, la chute, l'hôpital, les alliances…", "en": "In his best man's speech, Hugo tells the story of his day: the magician's suitcase, the bee, the fall, the hospital, the rings…" },
+      { "sp": "Hugo", "fr": "Mais je m'en suis sorti ! Je suis le témoin le plus courageux de France !", "en": "But I got through it! I'm the bravest best man in France!" },
+      { "sp": "Jacques", "fr": "Ça alors ! Tout ça en une journée ?", "en": "Well I never! All that in one day?" },
+      { "sp": "Paul", "fr": "Sans blague ? Et tu n'as pas perdu ton costume ?", "en": "No kidding? And you didn't lose your suit?" },
+      { "sp": "Louise", "fr": "Ça ne m'étonne pas de toi, mon chéri.", "en": "That doesn't surprise me, coming from you, darling." },
+      { "sp": "Anne", "fr": "Et ne râle pas pour la danse : tu as une belle histoire à raconter !", "en": "And don't moan about the dancing: you've got a great story to tell!" },
+      { "sp": "Pierre", "fr": "La prochaine fois qu'une abeille arrive, Hugo, ne réagis pas !", "en": "Next time a bee turns up, Hugo, don't react!" },
+      { "sp": "", "fr": "À ce moment-là, une abeille entre dans la grange… Hugo hurle, et toute la fête rit.", "en": "At that very moment, a bee flies into the barn… Hugo screams, and the whole party laughs." }
+    ]
+  }
+}
