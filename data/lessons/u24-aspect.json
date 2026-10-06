@@ -1,0 +1,165 @@
+{
+  "id": "u24-aspect",
+  "type": "grammar",
+  "unit": 24,
+  "title": "Je viens de finir",
+  "en": "venir de, être en train de, être sur le point de",
+  "intro": "Three expressions put an action on a timeline. **être sur le point de**: it's about to happen. **être en train de**: it's happening right now. **venir de**: it has just happened. *Je **suis sur le point de** manger. Je **suis en train de** manger. Je **viens de** manger.*",
+  "cases": [
+    { "id": "asp-venir", "label": "venir de = to have just", "rule": "**venir** in the present + **de** + infinitive: something has **just** happened. *Je **viens de** manger* = I've just eaten. *Le train **vient de** partir.* English uses the past (*I've just eaten*); French uses the present of **venir**." },
+    { "id": "asp-train", "label": "être en train de = in the middle of", "rule": "**être** + **en train de** + infinitive: the action is going on **right now**, and it takes time. *Je **suis en train de** cuisiner* = I'm busy cooking. Use it to stress *right now*; the plain present (*je cuisine*) is fine too." },
+    { "id": "asp-point", "label": "être sur le point de = about to", "rule": "**être** + **sur le point de** + infinitive: the action will happen **any second now**. *Le film **est sur le point de** commencer.*" },
+    { "id": "asp-timeline", "label": "the timeline", "rule": "From the future to the past: *Je **vais** partir* (soon) → *Je **suis sur le point de** partir* (any second) → *Je **suis en train de** partir* (now) → *Je **viens de** partir* (just now)." },
+    { "id": "asp-past", "label": "in the past: je venais de…", "rule": "In a story about the past, put **venir** and **être** in the **imparfait**: *Je **venais de** rentrer quand tu as appelé. J'**étais en train de** dormir quand le téléphone a sonné. Il **était sur le point de** partir.*" },
+    { "id": "asp-d", "label": "d' before a vowel, and pronouns", "rule": "**de** becomes **d'** before a vowel: *Je viens **d'**arriver. Il est en train **d'**écrire.* An object pronoun goes before the infinitive: *Je viens de **le** voir. Je suis en train de **lui** écrire.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. venir de: it has just happened",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je viens de manger.", "I've just eaten."],
+          ["Tu viens de rentrer ?", "Have you just got home?"],
+          ["Le train vient de partir.", "The train has just left."],
+          ["Nous venons de finir.", "We've just finished."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je viens de finir|asp-venir} mes devoirs !", "en": "I've just finished my homework!" },
+        { "fr": "Sophie ? {Elle vient de partir|asp-venir}.", "en": "Sophie? She's just left." }
+      ],
+      "tip": "Careful: **venir de** + a place means *to come from*: *Je viens de Paris.* With an infinitive, it means *to have just done*."
+    },
+    {
+      "title": "2. être en train de: right now",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je suis en train de cuisiner.", "I'm busy cooking."],
+          ["Tu es en train de dormir ?", "Are you sleeping?"],
+          ["Ils sont en train de manger.", "They're eating right now."],
+          ["Ne m'appelle pas, je suis en train de travailler !", "Don't call me, I'm working!"]
+        ]
+      },
+      "examples": [
+        { "fr": "Tu peux rappeler ? {Je suis en train de manger|asp-train}.", "en": "Can you call back? I'm in the middle of eating." },
+        { "fr": "Chut ! {Lou est en train de dormir|asp-train}.", "en": "Shh! Lou is sleeping." }
+      ],
+      "tip": "**en train de** has nothing to do with trains: it just means *in the middle of*."
+    },
+    {
+      "title": "3. être sur le point de: any second",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Le film est sur le point de commencer.", "The film is about to start."],
+          ["J'étais sur le point de t'appeler !", "I was just about to call you!"],
+          ["Le bébé est sur le point de naître.", "The baby is about to be born."]
+        ]
+      },
+      "examples": [
+        { "fr": "Dépêche-toi : {le train est sur le point de partir|asp-point} !", "en": "Hurry up: the train is about to leave!" },
+        { "fr": "{Je suis sur le point de sortir|asp-point}. Je t'appelle ce soir ?", "en": "I'm just about to go out. Shall I call you tonight?" }
+      ]
+    },
+    {
+      "title": "4. The timeline",
+      "table": {
+        "head": ["When?", "French"], "frCols": [1],
+        "rows": [
+          ["soon", "Je vais manger."],
+          ["any second", "Je suis sur le point de manger."],
+          ["right now", "Je suis en train de manger."],
+          ["just now", "Je viens de manger."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je vais cuisiner|asp-timeline}, puis {je vais manger|asp-timeline}.", "en": "I'm going to cook, then I'm going to eat." },
+        { "fr": "Il pleut ? Non, {il vient d'arrêter|asp-timeline} !", "en": "Is it raining? No, it's just stopped!" }
+      ]
+    },
+    {
+      "title": "5. In the past: je venais de…",
+      "text": ["In a story, these expressions go into the **imparfait**. They describe the situation when something else happened (in the passé composé)."],
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je venais de rentrer quand tu as appelé.", "I had just got home when you called."],
+          ["J'étais en train de dormir quand le téléphone a sonné.", "I was sleeping when the phone rang."],
+          ["Il était sur le point de partir quand elle est arrivée.", "He was about to leave when she arrived."]
+        ]
+      },
+      "examples": [
+        { "fr": "Quand Carla a sonné, {Hugo venait de finir|asp-past} la vaisselle.", "en": "When Carla rang, Hugo had just finished the washing-up." },
+        { "fr": "{J'étais en train de cuisiner|asp-past} quand tu as appelé.", "en": "I was cooking when you called." }
+      ],
+      "tip": "**je venais de** + infinitive = *I had just…*: the imparfait of venir works like a plus-que-parfait."
+    },
+    {
+      "title": "6. d' before a vowel, and pronouns",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je viens d'arriver.", "I've just arrived."],
+          ["Il est en train d'écrire.", "He's writing."],
+          ["Je viens de le voir.", "I've just seen him."],
+          ["Je suis en train de lui écrire.", "I'm writing to her right now."]
+        ]
+      },
+      "examples": [
+        { "fr": "Bonjour ! {Je viens d'arriver|asp-d}.", "en": "Hello! I've just arrived." },
+        { "fr": "Le gâteau ? {Je viens de le mettre|asp-d} au four.", "en": "The cake? I've just put it in the oven." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je viens manger.", "right": "Je viens de manger.", "why": "*I've just eaten* needs **de**: *je viens **de** manger*. (*Je viens manger* means *I'm coming to eat*.)" },
+    { "wrong": "J'ai juste mangé.", "right": "Je viens de manger.", "why": "French says *I've just eaten* with **venir de**." },
+    { "wrong": "Je suis en train manger.", "right": "Je suis en train de manger.", "why": "Don't forget **de**." },
+    { "wrong": "Je suis sur le point partir.", "right": "Je suis sur le point de partir.", "why": "**sur le point de** + infinitive." },
+    { "wrong": "Je viens de arriver.", "right": "Je viens d'arriver.", "why": "**de** → **d'** before a vowel." },
+    { "wrong": "Je viens de suis arrivé.", "right": "Je viens d'arriver.", "why": "After **de**, the verb is in the infinitive." }
+  ],
+  "story": {
+    "title": "Hugo cuisine",
+    "en": "The Saturday after the bouchon: Hugo invites Carla to dinner at his place. This time, he's cooking.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi suivant, chez Hugo. Après le bouchon, il veut inviter Carla chez lui : cette fois, c'est lui qui cuisine !", "en": "The following Saturday, at Hugo's. After the bouchon, he wants to have Carla over: this time, he's the one cooking!" },
+      { "sp": "", "fr": "À sept heures, il appelle Mamie en vidéo.", "en": "At seven o'clock, he video-calls Grandma." },
+      { "sp": "Louise", "fr": "Bonsoir, mon chéri ! Qu'est-ce que tu fais ?", "en": "Good evening, darling! What are you doing?" },
+      { "sp": "Hugo", "fr": "{Je suis en train de préparer|asp-train} ta tarte aux pommes ! Et {je viens de mettre|asp-venir} le poulet au four.", "en": "I'm making your apple tart! And I've just put the chicken in the oven." },
+      { "sp": "Louise", "fr": "Très bien. Et les légumes ?", "en": "Very good. And the vegetables?" },
+      { "sp": "Hugo", "fr": "{Je viens de les couper|asp-d}. Mais… attends, Mamie. Ça sent le brûlé !", "en": "I've just chopped them. But… hang on, Grandma. Something's burning!" },
+      { "sp": "", "fr": "Hugo ouvre le four : le poulet est tout noir.", "en": "Hugo opens the oven: the chicken is black." },
+      { "sp": "Hugo", "fr": "Oh non ! {Le poulet vient de brûler|asp-venir} ! Et Carla {est sur le point d'arriver|asp-point} !", "en": "Oh no! The chicken has just burnt! And Carla is about to arrive!" },
+      { "sp": "Louise", "fr": "Ne panique pas. Tu as des œufs ? Fais une omelette !", "en": "Don't panic. Have you got eggs? Make an omelette!" },
+      { "sp": "Hugo", "fr": "D'accord. {Je vais faire|asp-timeline} une omelette… {Je suis en train de casser|asp-train} les œufs…", "en": "OK. I'm going to make an omelette… I'm cracking the eggs…" },
+      { "sp": "", "fr": "On sonne. Hugo ouvre la porte, avec un œuf dans la main.", "en": "The doorbell rings. Hugo opens the door with an egg in his hand." },
+      { "sp": "Carla", "fr": "Bonsoir ! {Je viens d'arriver|asp-d}… Mais qu'est-ce qui se passe ? Ça sent le brûlé !", "en": "Good evening! I've just got here… But what's going on? Something's burning!" },
+      { "sp": "Hugo", "fr": "Rien ! {J'étais en train de préparer|asp-past} une surprise…", "en": "Nothing! I was preparing a surprise…" },
+      { "sp": "", "fr": "Carla regarde la cuisine : le poulet noir, les œufs cassés… et une belle tarte aux pommes.", "en": "Carla looks at the kitchen: the black chicken, the broken eggs… and a beautiful apple tart." },
+      { "sp": "Carla", "fr": "Bon. Le poulet est mort, mais la tarte est parfaite ! On fait l'omelette ensemble ?", "en": "Right. The chicken is dead, but the tart is perfect! Shall we make the omelette together?" },
+      { "sp": "", "fr": "Une demi-heure plus tard, ils mangent l'omelette et la tarte. Carla rit.", "en": "Half an hour later, they're eating the omelette and the tart. Carla laughs." },
+      { "sp": "Carla", "fr": "Quand je suis arrivée, {tu venais de brûler|asp-past} le poulet, non ?", "en": "When I arrived, you'd just burnt the chicken, hadn't you?" },
+      { "sp": "Hugo", "fr": "Oui… et {j'étais sur le point d'appeler|asp-past} les pompiers !", "en": "Yes… and I was about to call the fire brigade!" },
+      { "sp": "", "fr": "Soudain, une voix sort du portable, sur la table.", "en": "Suddenly, a voice comes out of the phone on the table." },
+      { "sp": "Louise", "fr": "Hugo ? Je suis toujours là ! Bonsoir, Carla ! Bon appétit, les amoureux !", "en": "Hugo? I'm still here! Good evening, Carla! Enjoy your meal, lovebirds!" }
+    ]
+  },
+  "quiz": [
+    { "case": "asp-venir", "type": "mc", "q": "Le train ___ partir : il est trop tard !", "en": "The train has just left: it's too late!", "options": ["vient de", "va", "est en train de"], "answer": "vient de" },
+    { "case": "asp-venir", "type": "mc", "lang": "en", "q": "“I've just eaten.” Choose the right sentence:", "options": ["Je viens de manger.", "Je viens manger.", "J'ai juste de manger."], "answer": "Je viens de manger.", "say": "Je viens de manger." },
+    { "case": "asp-train", "type": "mc", "q": "Chut ! Lou est en train ___ dormir.", "en": "Shh! Lou is sleeping.", "options": ["de", "à", "pour"], "answer": "de" },
+    { "case": "asp-train", "type": "type", "q": "Je ne peux pas parler : je suis en ___ de cuisiner.", "en": "I can't talk: I'm busy cooking.", "answer": "train" },
+    { "case": "asp-point", "type": "mc", "q": "Vite, le film est sur le ___ de commencer !", "en": "Quick, the film is about to start!", "options": ["point", "train", "moment"], "answer": "point" },
+    { "case": "asp-point", "type": "mc", "lang": "en", "q": "« Je suis sur le point de partir » means…", "options": ["I'm about to leave.", "I've just left.", "I'm leaving tomorrow."], "answer": "I'm about to leave.", "say": "Je suis sur le point de partir." },
+    { "case": "asp-timeline", "type": "mc", "lang": "en", "q": "Which one happened most recently?", "options": ["Je viens de manger.", "Je vais manger.", "Je suis sur le point de manger."], "answer": "Je viens de manger.", "say": "Je viens de manger." },
+    { "case": "asp-timeline", "type": "mc", "q": "Je ___ manger : j'ai fini !", "en": "I've just eaten: I've finished!", "options": ["viens de", "vais", "suis sur le point de"], "answer": "viens de" },
+    { "case": "asp-past", "type": "mc", "q": "Je ___ de rentrer quand tu as appelé.", "en": "I had just got home when you called.", "options": ["venais", "viens", "suis venu"], "answer": "venais" },
+    { "case": "asp-past", "type": "mc", "q": "J'___ en train de dormir quand le téléphone a sonné.", "en": "I was sleeping when the phone rang.", "options": ["étais", "ai été", "suis"], "answer": "étais" },
+    { "case": "asp-d", "type": "mc", "q": "Bonjour ! Je viens ___ arriver.", "en": "Hello! I've just arrived.", "options": ["d'", "de", "à"], "answer": "d'" },
+    { "case": "asp-d", "type": "mc", "q": "Le gâteau ? Je viens de ___ mettre au four.", "en": "The cake? I've just put it in the oven.", "options": ["le", "lui", "la"], "answer": "le" }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "u24-restaurant",
+  "type": "vocab",
+  "unit": 24,
+  "title": "Au restaurant",
+  "en": "At the restaurant",
+  "intro": "25 words for eating out: choosing a **menu** or a **formule**, the three courses (**entrée, plat principal, dessert**), how you like your meat (**saignant, à point, bien cuit**), and the **bouchon**, Lyon's traditional little restaurant.",
+  "words": [
+    { "id": "bouchon", "fr": "bouchon", "pos": "noun", "g": "m", "ipa": "bu.ʃɔ̃", "en": "(in Lyon) small traditional restaurant; cork, cap; traffic jam", "def": "À Lyon, un petit restaurant traditionnel, avec des plats copieux. Aussi : ce qui ferme une bouteille.", "def_en": "In Lyon, a small traditional restaurant with hearty dishes. Also: what closes a bottle.", "forms": ["bouchons"], "examples": [
+      { "fr": "On dîne dans un **bouchon** du Vieux-Lyon.", "en": "We're having dinner in a bouchon in Vieux-Lyon." },
+      { "fr": "Le **bouchon** de la bouteille est tombé par terre.", "en": "The bottle's cork fell on the floor." },
+      { "fr": "Il y a un **bouchon** sur l'autoroute.", "en": "There's a traffic jam on the motorway." }
+    ], "note": "Three meanings: a cork or cap, a traffic jam, and in Lyon a traditional restaurant." },
+    { "id": "menu", "fr": "menu", "pos": "noun", "g": "m", "ipa": "mə.ny", "en": "set menu; menu", "def": "Un repas à prix fixe, avec plusieurs plats au choix. Aussi : la liste des plats.", "def_en": "A fixed-price meal with a choice of dishes. Also: the list of dishes.", "forms": ["menus"], "examples": [
+      { "fr": "Le **menu** à vingt euros, c'est [entrée|entree], plat et dessert.", "en": "The twenty-euro set menu is starter, main course and dessert." },
+      { "fr": "Il y a un **menu** pour les enfants ?", "en": "Is there a children's menu?" },
+      { "fr": "Le **menu** du jour est écrit sur le tableau.", "en": "Today's menu is written on the board." }
+    ], "note": "In France, **le menu** is usually a fixed-price meal; the list of all the dishes is **la carte**: *manger à la carte*." },
+    { "id": "formule", "fr": "formule", "pos": "noun", "g": "f", "ipa": "fɔʁ.myl", "en": "set meal (often two courses); formula", "def": "Un petit menu à prix fixe, souvent à midi : [entrée|entree] et plat, ou plat et dessert.", "def_en": "A small fixed-price menu, often at lunchtime: starter and main course, or main course and dessert.", "forms": ["formules"], "examples": [
+      { "fr": "La **formule** du midi coûte quinze euros.", "en": "The lunchtime set meal costs fifteen euros." },
+      { "fr": "Je prends la **formule** plat et dessert.", "en": "I'll have the main course and dessert set meal." },
+      { "fr": "Il y a une **formule** pour les étudiants ?", "en": "Is there a set meal for students?" }
+    ], "note": "Also a formula, in maths or chemistry." },
+    { "id": "entree", "fr": "entrée", "pos": "noun", "g": "f", "ipa": "ɑ̃.tʁe", "en": "starter (of a meal); entrance", "def": "Le premier plat d'un repas, avant le plat principal. Aussi : la porte par où on entre.", "def_en": "The first course of a meal, before the main course. Also: the door you come in by.", "forms": ["entrées"], "examples": [
+      { "fr": "Comme **[entrée|entree]**, je prends une soupe.", "en": "As a starter, I'll have a soup." },
+      { "fr": "Les **entrées** sont froides ou chaudes.", "en": "The starters are cold or hot." },
+      { "fr": "On se retrouve à l'**entrée** du musée.", "en": "Let's meet at the entrance to the museum." }
+    ], "note": "Careful: in American English an *entrée* is the main course. In France, **l'entrée** is the starter." },
+    { "id": "plat-principal", "fr": "plat principal", "pos": "noun", "g": "m", "ipa": "pla pʁɛ̃.si.pal", "en": "main course", "def": "Le plat le plus important d'un repas, après l'entrée.", "def_en": "The most important dish of a meal, after the starter.", "forms": ["plats principaux"], "examples": [
+      { "fr": "Comme **plat principal**, je voudrais le poisson.", "en": "For the main course, I'd like the fish." },
+      { "fr": "Le **plat principal** est très copieux.", "en": "The main course is very generous." },
+      { "fr": "Quels sont les **plats principaux** aujourd'hui ?", "en": "What are the main courses today?" }
+    ], "note": "Often just **le plat**: *entrée, plat, dessert*." },
+    { "id": "dessert", "fr": "dessert", "pos": "noun", "g": "m", "ipa": "de.sɛʁ", "en": "dessert", "def": "Le plat sucré à la fin du repas.", "def_en": "The sweet dish at the end of the meal.", "forms": ["desserts"], "examples": [
+      { "fr": "Qu'est-ce que vous avez comme **desserts** ?", "en": "What do you have for dessert?" },
+      { "fr": "Hugo prend toujours un **dessert** au chocolat.", "en": "Hugo always has a chocolate dessert." },
+      { "fr": "Le **dessert** est dans le menu.", "en": "Dessert is included in the set menu." }
+    ] },
+    { "id": "plat-du-jour", "fr": "plat du jour", "pos": "noun", "g": "m", "ipa": "pla dy ʒuʁ", "en": "dish of the day", "def": "Le plat que le chef prépare pour aujourd'hui, souvent moins cher.", "def_en": "The dish the chef makes specially today, often cheaper.", "forms": ["plats du jour"], "examples": [
+      { "fr": "Quel est le **plat du jour** ?", "en": "What's the dish of the day?" },
+      { "fr": "Le **plat du jour**, c'est un poulet avec des frites.", "en": "The dish of the day is chicken and chips." },
+      { "fr": "À midi, Hugo prend toujours le **plat du jour**.", "en": "At lunchtime, Hugo always has the dish of the day." }
+    ] },
+    { "id": "recommander", "fr": "recommander", "pos": "verb", "ipa": "ʁə.kɔ.mɑ̃.de", "en": "to recommend", "def": "Dire à quelqu'un qu'une chose est bonne et qu'il doit la choisir.", "def_en": "To tell someone that something is good and they should choose it.", "forms": ["recommande", "recommandes", "recommandons", "recommandez", "recommandent", "recommandé", "recommandée", "recommandés", "recommandées", "recommandais", "recommandait", "recommandions", "recommandiez", "recommandaient", "recommanderai", "recommanderas", "recommandera", "recommanderons", "recommanderez", "recommanderont", "recommanderais", "recommanderait", "recommanderions", "recommanderiez", "recommanderaient"], "examples": [
+      { "fr": "Qu'est-ce que vous me **recommandez** ?", "en": "What would you recommend?" },
+      { "fr": "Je te **recommande** la tarte aux pommes.", "en": "I recommend the apple tart." },
+      { "fr": "Le serveur nous a **recommandé** le poisson.", "en": "The waiter recommended the fish to us." }
+    ], "note": "**recommander** quelque chose **à** quelqu'un. (A letter sent *en recommandé* is sent by registered post.)" },
+    { "id": "cuisson", "fr": "cuisson", "pos": "noun", "g": "f", "ipa": "kɥi.sɔ̃", "en": "cooking (how long or how much something is cooked)", "def": "La façon de cuire une chose, et le temps qu'il faut. Pour une viande : saignante, à point ou bien cuite.", "def_en": "How something is cooked, and how long it takes. For meat: rare, medium or well done.", "examples": [
+      { "fr": "Quelle **cuisson** pour la viande ?", "en": "How would you like your meat cooked?" },
+      { "fr": "La **cuisson** du poisson est parfaite.", "en": "The fish is cooked perfectly." },
+      { "fr": "Le temps de **cuisson** est de vingt minutes.", "en": "The cooking time is twenty minutes." }
+    ] },
+    { "id": "saignant", "fr": "saignant", "pos": "adj", "ipa": "sɛ.ɲɑ̃", "display": "saignant(e)", "en": "rare (meat)", "def": "Pas beaucoup cuit : la viande est encore rouge à l'intérieur.", "def_en": "Not cooked much: the meat is still red inside.", "forms": ["saignante", "saignants", "saignantes"], "examples": [
+      { "fr": "Je voudrais mon steak **saignant**.", "en": "I'd like my steak rare." },
+      { "fr": "En France, on mange souvent la viande **saignante**.", "en": "In France, people often eat their meat rare." },
+      { "fr": "**Saignant** ? Non merci, je préfère bien cuit.", "en": "Rare? No thanks, I prefer it well done." }
+    ] },
+    { "id": "a-point", "fr": "à point", "pos": "expr", "ipa": "a pwɛ̃", "en": "medium (meat); just right", "def": "Cuit juste comme il faut : ni saignant, ni trop cuit. Aussi : au bon moment.", "def_en": "Cooked just right: neither rare nor overcooked. Also: at the right moment.", "examples": [
+      { "fr": "Un steak **à point**, s'il vous plaît.", "en": "A medium steak, please." },
+      { "fr": "La viande est cuite **à point**.", "en": "The meat is cooked just right." },
+      { "fr": "Tu arrives **à point** : le dîner est prêt !", "en": "You've come at just the right moment: dinner's ready!" }
+    ] },
+    { "id": "bien-cuit", "fr": "bien cuit", "pos": "expr", "ipa": "bjɛ̃ kɥi", "en": "well done (meat); well cooked", "def": "Très cuit, sans rouge à l'intérieur.", "def_en": "Cooked a lot, with no red inside.", "forms": ["bien cuite", "bien cuits", "bien cuites"], "examples": [
+      { "fr": "Hugo veut toujours sa viande **bien cuite**.", "en": "Hugo always wants his meat well done." },
+      { "fr": "Le poulet doit être **bien cuit**.", "en": "Chicken has to be well cooked." },
+      { "fr": "Ces frites sont **bien cuites** et croustillantes.", "en": "These chips are well cooked and crispy." }
+    ], "note": "Rare to well done: **bleu, saignant, à point, bien cuit**." },
+    { "id": "carafe", "fr": "carafe", "pos": "noun", "g": "f", "ipa": "ka.ʁaf", "en": "carafe, jug", "def": "Une bouteille ouverte, en verre, pour servir l'eau ou le vin à table.", "def_en": "An open glass bottle for serving water or wine at the table.", "forms": ["carafes"], "examples": [
+      { "fr": "Une **carafe** d'eau, s'il vous plaît !", "en": "A jug of water, please!" },
+      { "fr": "La **carafe** est vide.", "en": "The jug is empty." },
+      { "fr": "On prend une **carafe** de vin rouge ?", "en": "Shall we get a carafe of red wine?" }
+    ], "note": "**Une carafe d'eau** is tap water, and it's free in French restaurants." },
+    { "id": "aperitif", "fr": "apéritif", "pos": "noun", "g": "m", "ipa": "a.pe.ʁi.tif", "en": "aperitif, pre-dinner drink", "def": "Une boisson avant le repas, souvent avec des petites choses à manger.", "def_en": "A drink before the meal, often with little things to eat.", "forms": ["apéritifs", "apéro", "apéros"], "examples": [
+      { "fr": "Vous prenez un **apéritif** ?", "en": "Would you like an aperitif?" },
+      { "fr": "On fait l'**apéro** chez Tom ce soir !", "en": "We're having drinks at Tom's tonight!" },
+      { "fr": "Pour l'**apéritif**, il y a des chips et des olives.", "en": "For drinks, there are crisps and olives." }
+    ], "note": "Informal: **l'apéro**." },
+    { "id": "se-regaler", "fr": "se régaler", "pos": "verb", "ipa": "sə ʁe.ɡa.le", "en": "to have a wonderful meal, to really enjoy (food)", "def": "Manger une chose très bonne, avec beaucoup de plaisir.", "def_en": "To eat something very good, with a lot of pleasure.", "forms": ["régale", "régales", "régalons", "régalez", "régalent", "régaler", "régalé", "régalée", "régalés", "régalées", "régalait", "régalaient", "me régale", "te régales", "se régale", "nous nous régalons", "vous vous régalez", "se régalent", "me suis régalé", "me suis régalée", "s'est régalé", "s'est régalée", "s'est régalés", "nous nous sommes régalés", "se sont régalés", "se sont régalées", "me régalerai", "se régalera", "se régaleront", "me régalerais", "se régalerait", "se régaleraient"], "examples": [
+      { "fr": "Merci, on **s'est régalés** !", "en": "Thank you, that was delicious!" },
+      { "fr": "Les enfants **se régalent** avec les crêpes.", "en": "The children are loving the crêpes." },
+      { "fr": "Dans ce bouchon, on **se régale** toujours.", "en": "We always eat really well in this bouchon." }
+    ], "note": "Without **se**: **C'est moi qui régale !** = It's on me! (I'm paying)." },
+    { "id": "ambiance", "fr": "ambiance", "pos": "noun", "g": "f", "ipa": "ɑ̃.bjɑ̃s", "en": "atmosphere", "def": "Ce qu'on sent dans un endroit : la musique, les gens, la lumière…", "def_en": "What a place feels like: the music, the people, the lighting…", "forms": ["ambiances"], "examples": [
+      { "fr": "J'adore l'**ambiance** de ce bouchon.", "en": "I love the atmosphere in this bouchon." },
+      { "fr": "Il y a une bonne **ambiance** au café d'en bas.", "en": "There's a nice atmosphere at the café downstairs." },
+      { "fr": "La musique met de l'**ambiance** !", "en": "The music livens things up!" }
+    ] },
+    { "id": "chef", "fr": "chef", "pos": "noun", "g": "m", "both": true, "ipa": "ʃɛf", "en": "chef; boss", "def": "La personne qui dirige la cuisine d'un restaurant. Aussi : la personne qui dirige un groupe.", "def_en": "The person in charge of a restaurant's kitchen. Also: the person in charge of a group.", "forms": ["chefs"], "examples": [
+      { "fr": "Le **chef** prépare tous les desserts.", "en": "The chef makes all the desserts." },
+      { "fr": "Bravo au **chef** : c'est délicieux !", "en": "Well done to the chef: it's delicious!" },
+      { "fr": "Madame Dupont est la **chef** de Hugo.", "en": "Mme Dupont is Hugo's boss." }
+    ] },
+    { "id": "terrasse", "fr": "terrasse", "pos": "noun", "g": "f", "ipa": "tɛ.ʁas", "en": "terrace, outside tables (en terrasse = outside, at a café)", "def": "Les tables dehors, devant un café ou un restaurant.", "def_en": "The tables outside a café or a restaurant.", "forms": ["terrasses"], "examples": [
+      { "fr": "On mange en **terrasse** ? Il fait beau !", "en": "Shall we eat outside? It's a lovely day!" },
+      { "fr": "En mars, il fait trop froid pour la **terrasse**.", "en": "In March, it's too cold to sit outside." },
+      { "fr": "Les **terrasses** des cafés sont pleines.", "en": "The café terraces are full." }
+    ] },
+    { "id": "salle", "fr": "salle", "pos": "noun", "g": "f", "ipa": "sal", "en": "room, hall; (in a restaurant) the dining room", "def": "Une grande pièce, pour beaucoup de personnes. Au restaurant : les tables à l'intérieur.", "def_en": "A large room for many people. In a restaurant: the tables inside.", "forms": ["salles"], "examples": [
+      { "fr": "En **salle** ou en terrasse ?", "en": "Inside or outside?" },
+      { "fr": "La **salle** de classe est au premier étage.", "en": "The classroom is on the first floor." },
+      { "fr": "Ce soir, la **salle** est pleine.", "en": "Tonight, the dining room is full." }
+    ], "note": "**la salle de bains** = the bathroom, **la salle de classe** = the classroom." },
+    { "id": "vegetarien", "fr": "végétarien", "pos": "adj", "ipa": "ve.ʒe.ta.ʁjɛ̃", "display": "végétarien(ne)", "en": "vegetarian", "def": "Qui ne mange pas de viande ni de poisson.", "def_en": "Who doesn't eat meat or fish.", "forms": ["végétarienne", "végétariens", "végétariennes"], "examples": [
+      { "fr": "Sophie est **végétarienne**.", "en": "Sophie is a vegetarian." },
+      { "fr": "Vous avez un plat **végétarien** ?", "en": "Do you have a vegetarian dish?" },
+      { "fr": "Les **végétariens** ne mangent pas de viande.", "en": "Vegetarians don't eat meat." }
+    ] },
+    { "id": "allergie", "fr": "allergie", "pos": "noun", "g": "f", "ipa": "a.lɛʁ.ʒi", "en": "allergy", "def": "Quand une chose (un aliment, une fleur, un animal) rend malade certaines personnes.", "def_en": "When something (a food, a flower, an animal) makes some people ill.", "forms": ["allergies"], "examples": [
+      { "fr": "Vous avez des **allergies** ?", "en": "Do you have any allergies?" },
+      { "fr": "Carla a une **allergie** aux noix.", "en": "Carla has a nut allergy." },
+      { "fr": "J'ai une **allergie** aux chats.", "en": "I'm allergic to cats." }
+    ], "note": "**être allergique à** = to be allergic to." },
+    { "id": "sur-place", "fr": "sur place", "pos": "expr", "ipa": "syʁ plas", "en": "on the premises; (eat) in; on the spot", "def": "Dans le restaurant, et pas chez soi. Aussi : à l'endroit où une chose se passe.", "def_en": "In the restaurant, not at home. Also: at the place where something happens.", "examples": [
+      { "fr": "C'est pour manger **sur place** ?", "en": "Is it to eat in?" },
+      { "fr": "On mange **sur place** : il y a des tables.", "en": "We're eating in: there are tables." },
+      { "fr": "Les policiers sont arrivés **sur place**.", "en": "The police arrived on the scene." }
+    ] },
+    { "id": "a-emporter", "fr": "à emporter", "pos": "expr", "ipa": "a ɑ̃.pɔʁ.te", "en": "to take away, takeaway", "def": "Pour manger ailleurs, chez soi ou dehors.", "def_en": "To eat somewhere else, at home or outside.", "examples": [
+      { "fr": "Un café **à emporter**, s'il vous plaît.", "en": "A coffee to go, please." },
+      { "fr": "Ce soir, on prend des pizzas **à emporter**.", "en": "Tonight, we're getting takeaway pizzas." },
+      { "fr": "Sur place ou **à emporter** ?", "en": "Eat in or take away?" }
+    ] },
+    { "id": "copieux", "fr": "copieux", "pos": "adj", "ipa": "kɔ.pjø", "display": "copieux, copieuse", "en": "generous, hearty (meal)", "def": "Avec beaucoup de nourriture : on n'a plus faim après.", "def_en": "With a lot of food: you're not hungry afterwards.", "forms": ["copieuse", "copieuses"], "examples": [
+      { "fr": "Les plats sont très **copieux** ici.", "en": "The portions are very generous here." },
+      { "fr": "Le petit-déjeuner de l'hôtel est **copieux**.", "en": "The hotel breakfast is hearty." },
+      { "fr": "Après un repas aussi **copieux**, je vais dormir !", "en": "After such a big meal, I'm going to sleep!" }
+    ] },
+    { "id": "service", "fr": "service", "pos": "noun", "g": "m", "ipa": "sɛʁ.vis", "en": "service (in a restaurant); service", "def": "Le travail des serveurs dans un restaurant. « Service [compris|compris-adj] » : le prix du service est dans l'addition.", "def_en": "The waiters' work in a restaurant. « Service compris »: the service charge is included in the bill.", "forms": ["services"], "examples": [
+      { "fr": "Le **service** est compris.", "en": "Service is included." },
+      { "fr": "Le **service** est rapide dans ce café.", "en": "The service is quick in this café." },
+      { "fr": "Le **service** du soir commence à dix-neuf heures.", "en": "Evening service starts at 7 p.m." }
+    ], "note": "In France, service is always included; a **pourboire** (tip) is extra. **rendre service** = to do a favour." }
+  ],
+  "story": {
+    "title": "Le premier dîner",
+    "en": "Early March: Hugo takes Carla out to dinner for the first time.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Début mars, un samedi soir. Hugo invite Carla au restaurant pour la première fois.", "en": "Early March, on a Saturday evening. Hugo takes Carla to a restaurant for the first time." },
+      { "sp": "", "fr": "Il a choisi un restaurant célèbre, vu à la télé. Mais il n'a pas réservé…", "en": "He's chosen a famous restaurant he saw on TV. But he hasn't booked…" },
+      { "sp": "Le serveur", "fr": "Désolé, monsieur, c'est complet ce soir.", "en": "Sorry, sir, we're full tonight." },
+      { "sp": "Hugo", "fr": "Pas de problème ! On achète des frites à emporter ?", "en": "No problem! Shall we get some takeaway chips?" },
+      { "sp": "Carla", "fr": "Hugo… On mange sur place, s'il te plaît. Je connais un bouchon dans le Vieux-Lyon.", "en": "Hugo… Let's eat in, please. I know a bouchon in Vieux-Lyon." },
+      { "sp": "", "fr": "Le bouchon est petit, plein de monde, avec de vieilles photos sur les murs. L'ambiance est géniale.", "en": "The bouchon is small and crowded, with old photos on the walls. The atmosphere is great." },
+      { "sp": "Le serveur", "fr": "Bonsoir ! En salle ou en terrasse ?", "en": "Good evening! Inside or outside?" },
+      { "sp": "Carla", "fr": "En salle ! En mars, il fait trop froid pour la terrasse.", "en": "Inside! In March, it's too cold to sit outside." },
+      { "sp": "", "fr": "Le serveur apporte une carafe d'eau et propose un apéritif.", "en": "The waiter brings a jug of water and offers them an aperitif." },
+      { "sp": "Le serveur", "fr": "Nous avons un menu à vingt-cinq euros : [entrée|entree], plat principal et dessert. À midi, il y a aussi une formule, mais pas le soir.", "en": "We have a set menu at twenty-five euros: starter, main course and dessert. At lunchtime there's also a set meal, but not in the evening." },
+      { "sp": "Carla", "fr": "Qu'est-ce que vous nous recommandez ?", "en": "What would you recommend?" },
+      { "sp": "Le serveur", "fr": "Le plat du jour : un steak avec des frites. Le chef le fait très bien.", "en": "The dish of the day: steak and chips. The chef does it very well." },
+      { "sp": "Hugo", "fr": "Parfait, un steak pour moi !", "en": "Perfect, a steak for me!" },
+      { "sp": "Le serveur", "fr": "Quelle cuisson ? Saignant, à point ?", "en": "How would you like it? Rare, medium?" },
+      { "sp": "Hugo", "fr": "Bien cuit, s'il vous plaît.", "en": "Well done, please." },
+      { "sp": "", "fr": "Le serveur fait une drôle de tête. Dans un bouchon, on ne mange pas un bon steak bien cuit !", "en": "The waiter pulls a face. In a bouchon, you don't eat a good steak well done!" },
+      { "sp": "Carla", "fr": "Moi, je prends les quenelles. Mais attention : j'ai une allergie aux noix.", "en": "I'll have the quenelles. But be careful: I'm allergic to nuts." },
+      { "sp": "Le serveur", "fr": "Il n'y a pas de noix dans les quenelles, madame.", "en": "There are no nuts in the quenelles, madam." },
+      { "sp": "Hugo", "fr": "Et pour notre amie Sophie, la prochaine fois ? Vous avez des plats végétariens ?", "en": "And for our friend Sophie, next time? Do you have any vegetarian dishes?" },
+      { "sp": "Le serveur", "fr": "Dans un bouchon ? Euh… la salade verte !", "en": "In a bouchon? Er… the green salad!" },
+      { "sp": "", "fr": "Les plats arrivent. Ils sont très copieux, et Hugo et Carla se régalent.", "en": "The food arrives. The portions are huge, and Hugo and Carla love it." },
+      { "sp": "Carla", "fr": "Et en dessert, la tarte aux pralines ! C'est la spécialité de Lyon.", "en": "And for dessert, the praline tart! It's Lyon's speciality." },
+      { "sp": "", "fr": "À la fin, Hugo demande l'addition. Il paie tout en espèces, comme toujours… mais il compte son argent, et il lui manque cinq euros.", "en": "At the end, Hugo asks for the bill. He pays for everything in cash, as always… but he counts his money, and he's five euros short." },
+      { "sp": "Hugo", "fr": "Euh… Le service est compris ?", "en": "Er… Is service included?" },
+      { "sp": "Le serveur", "fr": "Oui, monsieur. Mais le pourboire, non !", "en": "Yes, sir. But the tip isn't!" },
+      { "sp": "Carla", "fr": "Ne t'inquiète pas, Hugo. Le dessert, c'est moi qui régale !", "en": "Don't worry, Hugo. Dessert is on me!" },
+      { "sp": "", "fr": "Ils rient. Ce soir, Hugo a appris deux choses : il faut réserver, et il faut compter son argent avant de sortir !", "en": "They laugh. Tonight, Hugo has learnt two things: you have to book, and you have to count your money before you go out!" }
+    ]
+  }
+}

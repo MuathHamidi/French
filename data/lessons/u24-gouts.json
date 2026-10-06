@@ -1,0 +1,165 @@
+{
+  "id": "u24-gouts",
+  "type": "vocab",
+  "unit": 24,
+  "title": "Les goûts et les saveurs",
+  "en": "Tastes and flavours",
+  "intro": "25 words to say what food tastes like: the basic tastes (**sucré, salé, amer, acide**), heat (**épicé, piquant**), textures (**croustillant, moelleux, fondant, crémeux**), and how to praise a dish, or not (**savoureux, appétissant, fade, dégoûtant**).",
+  "words": [
+    { "id": "gout", "fr": "goût", "pos": "noun", "g": "m", "ipa": "ɡu", "en": "taste", "def": "Ce qu'on sent dans la bouche quand on mange ou quand on boit. Aussi : ce qu'on aime.", "def_en": "What you sense in your mouth when you eat or drink. Also: what you like.", "forms": ["goûts"], "examples": [
+      { "fr": "Cette soupe a un **goût** de tomate.", "en": "This soup tastes of tomato." },
+      { "fr": "Ces fraises n'ont pas de **goût**.", "en": "These strawberries have no taste." },
+      { "fr": "Tous les **goûts** sont dans la nature !", "en": "It takes all sorts!" }
+    ], "note": "**avoir bon goût** = to taste good, or to have good taste. **goûter** = to taste." },
+    { "id": "saveur", "fr": "saveur", "pos": "noun", "g": "f", "ipa": "sa.vœʁ", "en": "flavour", "def": "Le goût d'un aliment : chaque fruit a sa saveur.", "def_en": "The particular taste of a food.", "forms": ["saveurs"], "examples": [
+      { "fr": "Cette sauce a une **saveur** très douce.", "en": "This sauce has a very mild flavour." },
+      { "fr": "J'aime les **saveurs** de la cuisine marocaine.", "en": "I love the flavours of Moroccan food." },
+      { "fr": "Le citron donne de la **saveur** au poisson.", "en": "Lemon gives the fish flavour." }
+    ] },
+    { "id": "sucre-adj", "fr": "sucré", "pos": "adj", "ipa": "sy.kʁe", "display": "sucré(e)", "en": "sweet", "def": "Qui a le goût du sucre.", "def_en": "That tastes of sugar.", "forms": ["sucrée", "sucrés", "sucrées"], "examples": [
+      { "fr": "Ce gâteau est trop **sucré**.", "en": "This cake is too sweet." },
+      { "fr": "Tu préfères le salé ou le **sucré** ?", "en": "Do you prefer savoury or sweet?" },
+      { "fr": "Les crêpes **sucrées**, c'est pour le dessert.", "en": "Sweet crêpes are for dessert." }
+    ] },
+    { "id": "sale-salty", "fr": "salé", "pos": "adj", "ipa": "sa.le", "display": "salé(e)", "en": "salty, savoury", "def": "Qui a le goût du sel. Aussi : qui n'est pas sucré.", "def_en": "That tastes of salt. Also: not sweet.", "forms": ["salée", "salés", "salées"], "examples": [
+      { "fr": "La soupe est un peu trop **salée**.", "en": "The soup is a bit too salty." },
+      { "fr": "Pour l'apéritif, il y a des petits gâteaux **salés**.", "en": "For drinks, there are savoury nibbles." },
+      { "fr": "L'eau de la mer est **salée**.", "en": "Sea water is salty." }
+    ] },
+    { "id": "amer", "fr": "amer", "pos": "adj", "ipa": "a.mɛʁ", "display": "amer, amère", "en": "bitter", "def": "Qui a un goût fort et pas agréable, comme le café sans sucre.", "def_en": "With a strong, unpleasant taste, like coffee without sugar.", "forms": ["amère", "amers", "amères"], "examples": [
+      { "fr": "Le café sans sucre est **amer**.", "en": "Coffee without sugar is bitter." },
+      { "fr": "Ce chocolat noir est très **amer**.", "en": "This dark chocolate is very bitter." },
+      { "fr": "Cette salade a un goût **amer**.", "en": "This lettuce tastes bitter." }
+    ] },
+    { "id": "acide", "fr": "acide", "pos": "adj", "ipa": "a.sid", "en": "sour, acidic", "def": "Qui a le goût du citron.", "def_en": "That tastes like lemon.", "forms": ["acides"], "examples": [
+      { "fr": "Le citron est **acide**.", "en": "Lemons are sour." },
+      { "fr": "Ces pommes vertes sont un peu **acides**.", "en": "These green apples are a bit sour." },
+      { "fr": "La tarte au citron est **acide**, mais délicieuse.", "en": "The lemon tart is sharp, but delicious." }
+    ] },
+    { "id": "epice-adj", "fr": "épicé", "pos": "adj", "ipa": "e.pi.se", "display": "épicé(e)", "en": "spicy, with spices", "def": "Avec beaucoup d'épices.", "def_en": "With a lot of spices.", "forms": ["épicée", "épicés", "épicées"], "examples": [
+      { "fr": "Le curry est très **épicé**.", "en": "The curry is very spicy." },
+      { "fr": "Je n'aime pas la cuisine trop **épicée**.", "en": "I don't like food that's too spicy." },
+      { "fr": "Ce plat est **épicé**, mais il ne pique pas.", "en": "This dish is full of spices, but it isn't hot." }
+    ] },
+    { "id": "piquant", "fr": "piquant", "pos": "adj", "ipa": "pi.kɑ̃", "display": "piquant(e)", "en": "hot (spicy); prickly", "def": "Qui brûle un peu la bouche, comme le piment.", "def_en": "That burns your mouth a little, like chilli.", "forms": ["piquante", "piquants", "piquantes"], "examples": [
+      { "fr": "Attention, la sauce est très **piquante** !", "en": "Careful, the sauce is very hot!" },
+      { "fr": "Tom n'aime pas les plats **piquants**.", "en": "Tom doesn't like hot dishes." },
+      { "fr": "La moutarde de Dijon est **piquante**.", "en": "Dijon mustard is hot." }
+    ], "note": "**épicé** = full of spices; **piquant** = it burns. Also: **ça pique !** = it's hot!" },
+    { "id": "fade", "fr": "fade", "pos": "adj", "ipa": "fad", "en": "bland, tasteless", "def": "Qui n'a pas beaucoup de goût.", "def_en": "Without much taste.", "forms": ["fades"], "examples": [
+      { "fr": "La soupe est **fade** : il manque du sel.", "en": "The soup is bland: it needs salt." },
+      { "fr": "Les tomates d'hiver sont **fades**.", "en": "Winter tomatoes are tasteless." },
+      { "fr": "Sans sauce, le riz est un peu **fade**.", "en": "Without sauce, rice is a bit bland." }
+    ] },
+    { "id": "savoureux", "fr": "savoureux", "pos": "adj", "ipa": "sa.vu.ʁø", "display": "savoureux, savoureuse", "en": "tasty, full of flavour", "def": "Qui a beaucoup de goût, un bon goût.", "def_en": "With a lot of taste, a good taste.", "forms": ["savoureuse", "savoureuses"], "examples": [
+      { "fr": "Ce poulet est vraiment **savoureux**.", "en": "This chicken is really tasty." },
+      { "fr": "Les tomates du jardin sont plus **savoureuses**.", "en": "Tomatoes from the garden are tastier." },
+      { "fr": "Mamie fait une soupe très **savoureuse**.", "en": "Grandma makes a really tasty soup." }
+    ] },
+    { "id": "degoutant", "fr": "dégoûtant", "pos": "adj", "ipa": "de.ɡu.tɑ̃", "display": "dégoûtant(e)", "en": "disgusting", "def": "Très mauvais, très sale : on ne veut pas le manger ou le toucher.", "def_en": "Very bad or very dirty: you don't want to eat it or touch it.", "forms": ["dégoûtante", "dégoûtants", "dégoûtantes"], "examples": [
+      { "fr": "Beurk, c'est **dégoûtant** !", "en": "Yuck, that's disgusting!" },
+      { "fr": "Ce café froid est **dégoûtant**.", "en": "This cold coffee is disgusting." },
+      { "fr": "La cuisine de Hugo est **dégoûtante** : il ne la nettoie jamais !", "en": "Hugo's kitchen is disgusting: he never cleans it!" }
+    ] },
+    { "id": "appetissant", "fr": "appétissant", "pos": "adj", "ipa": "a.pe.ti.sɑ̃", "display": "appétissant(e)", "en": "appetising", "def": "Qui a l'air bon : on a envie de le manger.", "def_en": "That looks good: you want to eat it.", "forms": ["appétissante", "appétissants", "appétissantes"], "examples": [
+      { "fr": "Ce gâteau a l'air très **appétissant** !", "en": "This cake looks really appetising!" },
+      { "fr": "Les plats de ce restaurant sont toujours **appétissants**.", "en": "The dishes in this restaurant always look delicious." },
+      { "fr": "Cette soupe grise n'est pas très **appétissante**.", "en": "This grey soup doesn't look very appetising." }
+    ] },
+    { "id": "croustillant", "fr": "croustillant", "pos": "adj", "ipa": "kʁus.ti.jɑ̃", "display": "croustillant(e)", "en": "crispy, crunchy, crusty", "def": "Qui fait du bruit quand on le mange, comme le pain chaud ou les chips.", "def_en": "That crunches when you eat it, like warm bread or crisps.", "forms": ["croustillante", "croustillants", "croustillantes"], "examples": [
+      { "fr": "J'aime la baguette bien **croustillante**.", "en": "I like my baguette nice and crusty." },
+      { "fr": "Les frites sont **croustillantes**.", "en": "The chips are crispy." },
+      { "fr": "Ce croissant n'est plus **croustillant** : il est d'hier.", "en": "This croissant isn't crispy any more: it's from yesterday." }
+    ] },
+    { "id": "moelleux", "fr": "moelleux", "pos": "adj", "ipa": "mwa.lø", "display": "moelleux, moelleuse", "en": "soft, moist (cake, bread)", "def": "Doux et léger dans la bouche, comme un bon gâteau.", "def_en": "Soft and light in the mouth, like a good cake.", "forms": ["moelleuse", "moelleuses"], "examples": [
+      { "fr": "Ce gâteau au chocolat est très **moelleux**.", "en": "This chocolate cake is really moist." },
+      { "fr": "Le pain est **moelleux** à l'intérieur.", "en": "The bread is soft inside." },
+      { "fr": "Un **moelleux** au chocolat, s'il vous plaît !", "en": "A chocolate moelleux, please!" }
+    ], "note": "Also a noun: **un moelleux au chocolat** = a soft chocolate cake." },
+    { "id": "fondant", "fr": "fondant", "pos": "adj", "ipa": "fɔ̃.dɑ̃", "display": "fondant(e)", "en": "melting, melt-in-the-mouth", "def": "Qui fond dans la bouche, comme le fromage chaud ou le chocolat.", "def_en": "That melts in your mouth, like hot cheese or chocolate.", "forms": ["fondante", "fondants", "fondantes"], "examples": [
+      { "fr": "Le fromage est chaud et **fondant**.", "en": "The cheese is hot and melting." },
+      { "fr": "Ce chocolat est **fondant** : il fond dans la bouche.", "en": "This chocolate is meltingly soft: it melts in your mouth." },
+      { "fr": "La viande est **fondante**, c'est délicieux.", "en": "The meat melts in your mouth, it's delicious." }
+    ], "note": "From **fondre**, to melt. **Un fondant au chocolat** = a chocolate cake with a melting middle." },
+    { "id": "juteux", "fr": "juteux", "pos": "adj", "ipa": "ʒy.tø", "display": "juteux, juteuse", "en": "juicy", "def": "Avec beaucoup de jus.", "def_en": "With a lot of juice.", "forms": ["juteuse", "juteuses"], "examples": [
+      { "fr": "Ces oranges sont très **juteuses**.", "en": "These oranges are very juicy." },
+      { "fr": "Ce melon est **juteux** et sucré.", "en": "This melon is juicy and sweet." },
+      { "fr": "Le poulet est **juteux** à l'intérieur.", "en": "The chicken is juicy inside." }
+    ] },
+    { "id": "cremeux", "fr": "crémeux", "pos": "adj", "ipa": "kʁe.mø", "display": "crémeux, crémeuse", "en": "creamy", "def": "Doux et épais, comme la crème.", "def_en": "Smooth and thick, like cream.", "forms": ["crémeuse", "crémeuses"], "examples": [
+      { "fr": "Ce yaourt est très **crémeux**.", "en": "This yoghurt is very creamy." },
+      { "fr": "J'adore les fromages **crémeux**.", "en": "I love creamy cheeses." },
+      { "fr": "La sauce est **crémeuse** et parfumée.", "en": "The sauce is creamy and fragrant." }
+    ] },
+    { "id": "gras", "fr": "gras", "pos": "adj", "ipa": "ɡʁa", "display": "gras, grasse", "en": "fatty, greasy", "def": "Avec beaucoup d'huile ou de beurre.", "def_en": "With a lot of oil, butter or fat.", "forms": ["grasse", "grasses"], "examples": [
+      { "fr": "Les frites sont un peu **grasses**.", "en": "The chips are a bit greasy." },
+      { "fr": "Le fromage, c'est bon, mais c'est **gras** !", "en": "Cheese is good, but it's fatty!" },
+      { "fr": "J'ai les mains **grasses** : j'ai mangé des chips.", "en": "My hands are greasy: I've been eating crisps." }
+    ], "note": "**Mardi gras** = Fat Tuesday. **faire la grasse matinée** = to sleep in." },
+    { "id": "mur-adj", "fr": "mûr", "pos": "adj", "ipa": "myʁ", "display": "mûr(e)", "en": "ripe; mature", "def": "Prêt à manger : un fruit mûr est doux et sucré.", "def_en": "Ready to eat: a ripe fruit is soft and sweet.", "forms": ["mûre", "mûrs", "mûres"], "examples": [
+      { "fr": "Cette banane n'est pas encore **mûre**.", "en": "This banana isn't ripe yet." },
+      { "fr": "Les tomates **mûres** sont rouges.", "en": "Ripe tomatoes are red." },
+      { "fr": "Pour son âge, Lou est très **mûre**.", "en": "For her age, Lou is very mature." }
+    ], "note": "With a circumflex; **un mur** (no accent) is a wall." },
+    { "id": "parfume", "fr": "parfumé", "pos": "adj", "ipa": "paʁ.fy.me", "display": "parfumé(e)", "en": "fragrant; flavoured (with)", "def": "Qui sent bon. Aussi : avec le goût de quelque chose (parfumé à la vanille).", "def_en": "That smells nice. Also: with the taste of something (vanilla-flavoured).", "forms": ["parfumée", "parfumés", "parfumées"], "examples": [
+      { "fr": "Le melon est très **parfumé**.", "en": "The melon smells wonderful." },
+      { "fr": "Une glace **parfumée** à la vanille, s'il vous plaît.", "en": "A vanilla-flavoured ice cream, please." },
+      { "fr": "Le riz est **parfumé** au curry.", "en": "The rice is flavoured with curry." }
+    ], "note": "**un parfum** = a perfume, or an ice-cream flavour: *Quel parfum ? — Chocolat !*" },
+    { "id": "odeur", "fr": "odeur", "pos": "noun", "g": "f", "ipa": "ɔ.dœʁ", "en": "smell", "def": "Ce qu'on sent avec le nez.", "def_en": "What you sense with your nose.", "forms": ["odeurs"], "examples": [
+      { "fr": "J'adore l'**odeur** du pain chaud.", "en": "I love the smell of warm bread." },
+      { "fr": "Quelle est cette **odeur** ? Ça sent le brûlé !", "en": "What's that smell? Something's burning!" },
+      { "fr": "Ce fromage a une **odeur** très forte.", "en": "This cheese has a very strong smell." }
+    ] },
+    { "id": "deguster", "fr": "déguster", "pos": "verb", "ipa": "de.ɡys.te", "en": "to taste, to savour", "def": "Manger ou boire lentement, pour bien sentir le goût.", "def_en": "To eat or drink slowly, to really get the taste.", "forms": ["déguste", "dégustes", "dégustons", "dégustez", "dégustent", "dégusté", "dégustée", "dégustés", "dégustées", "dégustais", "dégustait", "dégustions", "dégustiez", "dégustaient", "dégusterai", "dégusteras", "dégustera", "dégusterons", "dégusterez", "dégusteront", "dégusterais", "dégusterait", "dégusterions", "dégusteriez", "dégusteraient"], "examples": [
+      { "fr": "On **déguste** les vins de la région.", "en": "We're tasting the local wines." },
+      { "fr": "**Dégustez** ce chocolat lentement.", "en": "Savour this chocolate slowly." },
+      { "fr": "Louise **déguste** son café sur la terrasse.", "en": "Louise is enjoying her coffee on the terrace." }
+    ], "note": "**une dégustation** = a tasting." },
+    { "id": "epice", "fr": "épice", "pos": "noun", "g": "f", "ipa": "e.pis", "en": "spice", "def": "Une poudre qui donne du goût à un plat : le poivre, le curry…", "def_en": "A powder or seed that gives a dish flavour: pepper, curry, cinnamon…", "forms": ["épices"], "examples": [
+      { "fr": "Il y a beaucoup d'**épices** dans ce plat.", "en": "There are lots of spices in this dish." },
+      { "fr": "Le poivre est une **épice**.", "en": "Pepper is a spice." },
+      { "fr": "Au marché, ça sent bon les **épices**.", "en": "The market smells of spices." }
+    ] },
+    { "id": "ail", "fr": "ail", "pos": "noun", "g": "m", "ipa": "aj", "en": "garlic", "def": "Une petite plante au goût très fort, qu'on met dans la cuisine.", "def_en": "A small plant with a very strong taste, used in cooking.", "examples": [
+      { "fr": "Il y a trop d'**ail** dans la sauce !", "en": "There's too much garlic in the sauce!" },
+      { "fr": "Les escargots au beurre et à l'**ail**, c'est très français.", "en": "Snails with butter and garlic are very French." },
+      { "fr": "Après l'**ail**, pas de bisous !", "en": "After garlic, no kisses!" }
+    ], "note": "**une gousse d'ail** = a clove of garlic." },
+    { "id": "oignon", "fr": "oignon", "pos": "noun", "g": "m", "ipa": "ɔ.ɲɔ̃", "en": "onion", "def": "Un légume rond, au goût fort, qui fait pleurer quand on le coupe.", "def_en": "A round vegetable with a strong taste, which makes you cry when you cut it.", "forms": ["oignons"], "examples": [
+      { "fr": "La soupe à l'**oignon** est une recette très française.", "en": "Onion soup is a very French recipe." },
+      { "fr": "Je pleure : je coupe des **oignons** !", "en": "I'm crying: I'm chopping onions!" },
+      { "fr": "Tu mets de l'**oignon** dans la salade ?", "en": "Are you putting onion in the salad?" }
+    ], "note": "Pronounced /ɔ.ɲɔ̃/: the i is silent." }
+  ],
+  "story": {
+    "title": "Les yeux fermés",
+    "en": "A Wednesday in March: the owner of the café downstairs asks the friends to taste his new dishes, with their eyes closed.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Un mercredi de mars, le patron du café d'en bas prépare un nouveau menu. Il demande à Sophie et à ses amis de goûter six plats… les yeux fermés !", "en": "On a Wednesday in March, the owner of the café downstairs is preparing a new menu. He asks Sophie and her friends to taste six dishes… with their eyes closed!" },
+      { "sp": "Le patron", "fr": "Vous dégustez, et vous me dites tout : le goût, l'odeur, tout !", "en": "You taste, and you tell me everything: the taste, the smell, everything!" },
+      { "sp": "", "fr": "Premier plat. Léa sent d'abord l'odeur, puis elle goûte.", "en": "First dish. Léa smells it first, then tastes it." },
+      { "sp": "Léa", "fr": "C'est une soupe à l'oignon ! Elle est savoureuse… mais un peu trop salée.", "en": "It's onion soup! It's tasty… but a bit too salty." },
+      { "sp": "", "fr": "Deuxième plat. Tom mange quelque chose de chaud.", "en": "Second dish. Tom eats something hot." },
+      { "sp": "Tom", "fr": "C'est croustillant dehors et fondant dedans… Un croque-monsieur ! Il est bon, mais un peu gras.", "en": "It's crispy outside and melting inside… A croque-monsieur! It's good, but a bit greasy." },
+      { "sp": "", "fr": "Troisième plat. Inès fait une drôle de tête.", "en": "Third dish. Inès pulls a face." },
+      { "sp": "Inès", "fr": "Beurk ! C'est amer ! C'est dégoûtant !", "en": "Yuck! It's bitter! It's disgusting!" },
+      { "sp": "Le patron", "fr": "C'est du chocolat noir, à quatre-vingt-dix pour cent.", "en": "It's dark chocolate, ninety per cent." },
+      { "sp": "Hugo", "fr": "Du chocolat ? Donne, Inès ! Moi, je l'adore, même amer.", "en": "Chocolate? Give it here, Inès! I love it, even bitter." },
+      { "sp": "", "fr": "Quatrième plat. Tom goûte, puis il boit un grand verre d'eau.", "en": "Fourth dish. Tom tastes it, then drinks a big glass of water." },
+      { "sp": "Tom", "fr": "Un poulet au curry ! C'est très épicé… et très piquant ! Il y a de l'ail et beaucoup d'épices.", "en": "Chicken curry! It's very spicy… and very hot! There's garlic and lots of spices." },
+      { "sp": "", "fr": "Cinquième plat. Sophie, qui est végétarienne, goûte une salade de tomates.", "en": "Fifth dish. Sophie, who's a vegetarian, tastes a tomato salad." },
+      { "sp": "Sophie", "fr": "Elle est fade. Les tomates ne sont pas mûres : en mars, elles n'ont pas de goût !", "en": "It's bland. The tomatoes aren't ripe: in March, they have no taste!" },
+      { "sp": "", "fr": "Enfin, le dessert. Tout le monde ouvre les yeux.", "en": "Finally, dessert. Everyone opens their eyes." },
+      { "sp": "Carla", "fr": "Oh, ça a l'air appétissant !", "en": "Oh, that looks appetising!" },
+      { "sp": "", "fr": "Il y a une tarte au citron, un gâteau au chocolat, une crème à la vanille et des oranges.", "en": "There's a lemon tart, a chocolate cake, a vanilla cream and some oranges." },
+      { "sp": "Léa", "fr": "La tarte est acide, mais pas trop. Le gâteau est très moelleux !", "en": "The tart is sharp, but not too sharp. The cake is really moist!" },
+      { "sp": "Sophie", "fr": "La crème est crémeuse et parfumée, et les oranges sont juteuses. Quelle saveur !", "en": "The cream is smooth and fragrant, and the oranges are juicy. What a flavour!" },
+      { "sp": "Inès", "fr": "Et ce n'est pas trop sucré. Parfait !", "en": "And it isn't too sweet. Perfect!" },
+      { "sp": "Le patron", "fr": "Alors, qu'est-ce que je mets sur le nouveau menu ?", "en": "So, what shall I put on the new menu?" },
+      { "sp": "Tous", "fr": "Le dessert !", "en": "The dessert!" },
+      { "sp": "Hugo", "fr": "Et le chocolat amer… pour moi tout seul !", "en": "And the bitter chocolate… just for me!" }
+    ]
+  }
+}

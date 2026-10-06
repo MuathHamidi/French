@@ -115,8 +115,10 @@ BEFORE_NOUN = {"le", "la", "l'", "les", "un", "une", "des", "du", "de", "d'", "a
                "trente", "quarante", "cinquante", "soixante", "cent", "mille", "plusieurs", "quelques", "chaque"}  # deux parties (not partir)
 BEFORE_VERB = {"je", "j'", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "qui", "ça", "ne", "n'",
                "me", "m'", "te", "t'", "se", "s'", "lui", "y",  # je lui parle, j'y vais
-               "ai", "as", "a", "avons", "avez", "ont"}  # avoir + past participle: j'ai été (been, not summer)
-AFTER_ETRE = {"suis", "es", "est", "sommes", "êtes", "sont"}  # être + participle or adjective, never a noun: elle est arrivée, elle est prête
+               "ai", "as", "a", "avons", "avez", "ont",  # avoir + past participle: j'ai été (been, not summer)
+               "avais", "avait", "avions", "aviez", "avaient"}  # and the plus-que-parfait: il avait été
+# être + participle or adjective, never a noun: elle est arrivée, elle est prête, elle était partie
+AFTER_ETRE = {"suis", "es", "est", "sommes", "êtes", "sont", "étais", "était", "étions", "étiez", "étaient"}
 # Object pronouns spelled like articles (je la vois, pour le faire, regarde-le): not "the".
 OBJ_PRON = {"le": "le-pron", "la": "la-pron", "les": "les-pron", "l'": "l-pron", "leur": "leur-pron", "en": "en-pron"}
 BEFORE_OBJ = {"je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "ne", "me", "te", "se", "qui", "ça"}

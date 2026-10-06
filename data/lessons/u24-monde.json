@@ -1,0 +1,161 @@
+{
+  "id": "u24-monde",
+  "type": "vocab",
+  "unit": 24,
+  "title": "La cuisine d'ici et d'ailleurs",
+  "en": "Food from here and abroad",
+  "intro": "25 words for a culinary tour: French regional dishes, from the **bouillabaisse** of Marseille to the **tartiflette** of the Alps and Lyon's **quenelles**, dishes from around the world that the French love (**couscous, sushis, paella**), and the words to talk about them (**spécialité, typique, traditionnel, régional**).",
+  "words": [
+    { "id": "specialite", "fr": "spécialité", "pos": "noun", "g": "f", "ipa": "spe.sja.li.te", "en": "speciality, specialty", "def": "Un plat typique d'une région, d'un pays ou d'un restaurant.", "def_en": "A typical dish of a region, a country or a restaurant.", "forms": ["spécialités"], "examples": [
+      { "fr": "La tarte aux pralines est une **spécialité** de Lyon.", "en": "Praline tart is a Lyon speciality." },
+      { "fr": "Quelle est la **spécialité** de la maison ?", "en": "What's the house speciality?" },
+      { "fr": "Les crêpes sont la **spécialité** de la Bretagne.", "en": "Crêpes are Brittany's speciality." }
+    ] },
+    { "id": "ingredient", "fr": "ingrédient", "pos": "noun", "g": "m", "ipa": "ɛ̃.ɡʁe.djɑ̃", "en": "ingredient", "def": "Une des choses qu'on met dans une recette.", "def_en": "One of the things you put in a recipe.", "forms": ["ingrédients"], "examples": [
+      { "fr": "Quels sont les **ingrédients** de la ratatouille ?", "en": "What are the ingredients of ratatouille?" },
+      { "fr": "Il manque un **ingrédient** : le sel !", "en": "There's one ingredient missing: salt!" },
+      { "fr": "Pour les crêpes, il faut trois **ingrédients** : de la farine, du lait et des œufs.", "en": "For crêpes, you need three ingredients: flour, milk and eggs." }
+    ] },
+    { "id": "typique", "fr": "typique", "pos": "adj", "ipa": "ti.pik", "en": "typical", "def": "Qui montre bien les habitudes d'un pays ou d'une région.", "def_en": "That shows the habits of a country or a region well.", "forms": ["typiques"], "examples": [
+      { "fr": "C'est un plat **typique** de Marseille.", "en": "It's a typical Marseille dish." },
+      { "fr": "Un bouchon, c'est un restaurant **typique** de Lyon.", "en": "A bouchon is a typical Lyon restaurant." },
+      { "fr": "Le petit-déjeuner **typique** des Français, c'est un café et du pain avec du beurre.", "en": "The typical French breakfast is a coffee and bread and butter." }
+    ] },
+    { "id": "traditionnel", "fr": "traditionnel", "pos": "adj", "ipa": "tʁa.di.sjɔ.nɛl", "display": "traditionnel, traditionnelle", "en": "traditional", "def": "Qui suit la tradition : on le fait comme avant, depuis longtemps.", "def_en": "That follows tradition: done as before, for a long time.", "forms": ["traditionnelle", "traditionnels", "traditionnelles"], "examples": [
+      { "fr": "La bûche est le dessert **traditionnel** de Noël.", "en": "The Yule log is the traditional Christmas dessert." },
+      { "fr": "Mamie fait la bouillabaisse **traditionnelle**.", "en": "Grandma makes traditional bouillabaisse." },
+      { "fr": "C'est une recette **traditionnelle** de ma famille.", "en": "It's a traditional family recipe." }
+    ] },
+    { "id": "exotique", "fr": "exotique", "pos": "adj", "ipa": "ɛɡ.zɔ.tik", "en": "exotic", "def": "Qui vient d'un pays loin et différent.", "def_en": "That comes from a faraway, different country.", "forms": ["exotiques"], "examples": [
+      { "fr": "J'adore les fruits **exotiques**.", "en": "I love exotic fruit." },
+      { "fr": "Pour Tom, les escargots, c'est très **exotique** !", "en": "For Tom, snails are very exotic!" },
+      { "fr": "Ce restaurant a une décoration **exotique**.", "en": "This restaurant has exotic decor." }
+    ] },
+    { "id": "regional", "fr": "régional", "pos": "adj", "ipa": "ʁe.ʒjɔ.nal", "display": "régional(e)", "en": "regional, local", "def": "Qui vient d'une région, qui est typique d'une région.", "def_en": "That comes from a region, typical of a region.", "forms": ["régionale", "régionaux", "régionales"], "examples": [
+      { "fr": "Chaque région a ses plats **régionaux**.", "en": "Every region has its own dishes." },
+      { "fr": "On achète des fromages **régionaux** au marché.", "en": "We buy local cheeses at the market." },
+      { "fr": "La choucroute est une spécialité **régionale** de l'Alsace.", "en": "Choucroute is a regional speciality of Alsace." }
+    ] },
+    { "id": "nouilles", "fr": "nouilles", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "nuj", "en": "noodles", "def": "Des pâtes longues et fines, très utilisées dans la cuisine japonaise.", "def_en": "Long, thin pasta, used a lot in Japanese cooking.", "forms": ["nouille"], "examples": [
+      { "fr": "Camille cuisine des **nouilles** avec des légumes.", "en": "Camille is cooking noodles with vegetables." },
+      { "fr": "Un bol de **nouilles**, s'il vous plaît.", "en": "A bowl of noodles, please." },
+      { "fr": "Les enfants adorent les **nouilles** au beurre.", "en": "Children love buttered noodles." }
+    ] },
+    { "id": "sushi", "fr": "sushi", "pos": "noun", "g": "m", "ipa": "su.ʃi", "en": "sushi", "def": "Une spécialité japonaise : du riz avec du poisson cru.", "def_en": "A Japanese speciality: rice with raw fish.", "forms": ["sushis"], "examples": [
+      { "fr": "Camille a fait des **sushis**.", "en": "Camille has made sushi." },
+      { "fr": "On mange les **sushis** avec de la sauce soja.", "en": "You eat sushi with soy sauce." },
+      { "fr": "Le **sushi** vient du Japon.", "en": "Sushi comes from Japan." }
+    ] },
+    { "id": "couscous", "fr": "couscous", "pos": "noun", "g": "m", "ipa": "kus.kus", "en": "couscous", "def": "Un plat du Maghreb : des petits grains, avec des légumes, de la viande et une sauce.", "def_en": "A dish from North Africa: tiny grains, with vegetables, meat and a sauce.", "examples": [
+      { "fr": "Le **couscous** est un des plats préférés des Français.", "en": "Couscous is one of the French people's favourite dishes." },
+      { "fr": "Il y a un très bon restaurant de **couscous** à la Croix-Rousse.", "en": "There's a very good couscous restaurant in the Croix-Rousse." },
+      { "fr": "On mange le **couscous** avec une sauce épicée.", "en": "You eat couscous with a spicy sauce." }
+    ], "note": "**le Maghreb** = Morocco, Algeria and Tunisia." },
+    { "id": "tajine", "fr": "tajine", "pos": "noun", "g": "m", "ipa": "ta.ʒin", "en": "tagine", "def": "Un plat marocain, cuit très lentement, avec de la viande, des légumes et des épices. C'est aussi le nom du plat où on le cuit.", "def_en": "A Moroccan dish, cooked very slowly, with meat, vegetables and spices. It's also the name of the pot it's cooked in.", "forms": ["tajines"], "examples": [
+      { "fr": "La grand-mère de Mathis fait un **tajine** au poulet et au citron.", "en": "Mathis's grandmother makes a chicken and lemon tagine." },
+      { "fr": "Le **tajine** cuit pendant trois heures.", "en": "The tagine cooks for three hours." },
+      { "fr": "J'ai acheté un **tajine** au marché, pour cuisiner.", "en": "I bought a tagine pot at the market, to cook with." }
+    ] },
+    { "id": "paella", "fr": "paella", "pos": "noun", "g": "f", "ipa": "pa.e.la", "en": "paella", "def": "Un plat espagnol avec du riz jaune, des légumes, de la viande ou du poisson.", "def_en": "A Spanish dish of yellow rice with vegetables, meat or fish.", "forms": ["paellas"], "examples": [
+      { "fr": "Inès fait la **paella** de sa mère.", "en": "Inès makes her mother's paella." },
+      { "fr": "La **paella** vient de Valence, en Espagne.", "en": "Paella comes from Valencia, in Spain." },
+      { "fr": "Il y a du poulet et du riz dans la **paella**.", "en": "There's chicken and rice in the paella." }
+    ] },
+    { "id": "tapas", "fr": "tapas", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "ta.pas", "en": "tapas", "def": "Des petits plats espagnols, qu'on partage avec un verre.", "def_en": "Small Spanish dishes that you share over a drink.", "examples": [
+      { "fr": "Carla prépare des **tapas** pour l'apéro.", "en": "Carla is making tapas for drinks." },
+      { "fr": "À Madrid, on mange des **tapas** le soir.", "en": "In Madrid, people eat tapas in the evening." },
+      { "fr": "Les **tapas**, c'est parfait pour partager.", "en": "Tapas are perfect for sharing." }
+    ] },
+    { "id": "curry", "fr": "curry", "pos": "noun", "g": "m", "ipa": "ky.ʁi", "en": "curry", "def": "Un mélange d'épices venu d'Inde, et le plat épicé qu'on fait avec.", "def_en": "A mix of spices from India, and the spicy dish made with it.", "forms": ["currys"], "examples": [
+      { "fr": "Le **curry** est un des plats préférés des Anglais.", "en": "Curry is one of the English people's favourite dishes." },
+      { "fr": "Un poulet au **curry**, c'est délicieux.", "en": "Chicken curry is delicious." },
+      { "fr": "Mets un peu de **curry** dans la sauce.", "en": "Put a little curry powder in the sauce." }
+    ] },
+    { "id": "sauce-soja", "fr": "sauce soja", "pos": "noun", "g": "f", "ipa": "sos sɔ.ʒa", "en": "soy sauce", "def": "Une sauce brune et salée, faite avec du soja, très utilisée au Japon et en Chine.", "def_en": "A brown, salty sauce made from soya, used a lot in Japan and China.", "examples": [
+      { "fr": "Tu veux de la **sauce soja** avec tes sushis ?", "en": "Do you want soy sauce with your sushi?" },
+      { "fr": "La **sauce soja** est très salée.", "en": "Soy sauce is very salty." },
+      { "fr": "Il n'y a plus de **sauce soja** !", "en": "There's no soy sauce left!" }
+    ] },
+    { "id": "raclette", "fr": "raclette", "pos": "noun", "g": "f", "ipa": "ʁa.klɛt", "en": "raclette (melted cheese with potatoes)", "def": "Un plat de montagne : du fromage chaud sur des pommes de terre.", "def_en": "A mountain dish: melted cheese on potatoes.", "forms": ["raclettes"], "examples": [
+      { "fr": "En hiver, on fait une **raclette** entre amis.", "en": "In winter, we have a raclette with friends." },
+      { "fr": "Pour la **raclette**, il faut beaucoup de fromage !", "en": "For a raclette, you need lots of cheese!" },
+      { "fr": "La **raclette** vient de la Savoie et de la Suisse.", "en": "Raclette comes from Savoy and Switzerland." }
+    ] },
+    { "id": "fondue", "fr": "fondue", "pos": "noun", "g": "f", "ipa": "fɔ̃.dy", "en": "fondue", "def": "Un plat de montagne : on met des morceaux de pain dans du fromage chaud, au milieu de la table.", "def_en": "A mountain dish: you dip pieces of bread into hot cheese in the middle of the table.", "forms": ["fondues"], "examples": [
+      { "fr": "On mange une **fondue** chez l'oncle Pierre.", "en": "We're having a fondue at Uncle Pierre's." },
+      { "fr": "Si ton pain tombe dans la **fondue**, tu fais la vaisselle !", "en": "If your bread falls into the fondue, you do the washing-up!" },
+      { "fr": "On boit du vin blanc avec la **fondue**.", "en": "You drink white wine with fondue." }
+    ] },
+    { "id": "tartiflette", "fr": "tartiflette", "pos": "noun", "g": "f", "ipa": "taʁ.ti.flɛt", "en": "tartiflette (potato and cheese bake from Savoy)", "def": "Une spécialité de la Savoie : des pommes de terre, des lardons, des oignons et du fromage, cuits au four.", "def_en": "A speciality of Savoy: potatoes, bacon, onions and cheese, baked in the oven.", "forms": ["tartiflettes"], "examples": [
+      { "fr": "Hugo apporte une **tartiflette** avec du fromage de Savoie.", "en": "Hugo is bringing a tartiflette made with cheese from Savoy." },
+      { "fr": "La **tartiflette**, c'est bon, mais c'est lourd !", "en": "Tartiflette is good, but it's heavy!" },
+      { "fr": "Après une **tartiflette**, on a besoin d'une sieste.", "en": "After a tartiflette, you need a nap." }
+    ] },
+    { "id": "bouillabaisse", "fr": "bouillabaisse", "pos": "noun", "g": "f", "ipa": "bu.ja.bɛs", "en": "bouillabaisse (Marseille fish soup)", "def": "La grande soupe de poissons de Marseille.", "def_en": "Marseille's famous fish soup.", "examples": [
+      { "fr": "À Marseille, Mamie fait une **bouillabaisse** pour toute la famille.", "en": "In Marseille, Grandma makes a bouillabaisse for the whole family." },
+      { "fr": "La **bouillabaisse** est une soupe de poissons.", "en": "Bouillabaisse is a fish soup." },
+      { "fr": "Une vraie **bouillabaisse**, c'est cher !", "en": "A real bouillabaisse is expensive!" }
+    ] },
+    { "id": "ratatouille", "fr": "ratatouille", "pos": "noun", "g": "f", "ipa": "ʁa.ta.tuj", "en": "ratatouille (Provençal vegetable stew)", "def": "Un plat de légumes de Provence : des tomates, des courgettes, des aubergines, des poivrons…", "def_en": "A vegetable dish from Provence: tomatoes, courgettes, aubergines, peppers…", "examples": [
+      { "fr": "Sophie fait une **ratatouille** : c'est végétarien !", "en": "Sophie is making a ratatouille: it's vegetarian!" },
+      { "fr": "La **ratatouille** est encore meilleure le lendemain.", "en": "Ratatouille is even better the next day." },
+      { "fr": "Tu as vu le film « **Ratatouille** » ?", "en": "Have you seen the film Ratatouille?" }
+    ] },
+    { "id": "quenelle", "fr": "quenelle", "pos": "noun", "g": "f", "ipa": "kə.nɛl", "en": "quenelle (Lyon dumpling)", "def": "Une spécialité de Lyon, longue et légère, faite avec de la farine, des œufs et souvent du poisson, et servie avec une sauce.", "def_en": "A Lyon speciality, long and light, made with flour, eggs and often fish, and served with a sauce.", "forms": ["quenelles"], "examples": [
+      { "fr": "Carla prend les **quenelles**.", "en": "Carla has the quenelles." },
+      { "fr": "Les **quenelles** de Lyon sont souvent au poisson.", "en": "Lyon quenelles are often made with fish." },
+      { "fr": "Une **quenelle**, c'est léger… mais la sauce, non !", "en": "A quenelle is light… but the sauce isn't!" }
+    ] },
+    { "id": "choucroute", "fr": "choucroute", "pos": "noun", "g": "f", "ipa": "ʃu.kʁut", "en": "sauerkraut; choucroute (with sausages and pork)", "def": "Une spécialité de l'Alsace : du chou, avec des saucisses et de la viande de porc.", "def_en": "A speciality of Alsace: cabbage with sausages and pork.", "forms": ["choucroutes"], "examples": [
+      { "fr": "La **choucroute** est une spécialité de l'Alsace.", "en": "Choucroute is a speciality of Alsace." },
+      { "fr": "Tom n'a jamais mangé de **choucroute**.", "en": "Tom has never eaten choucroute." },
+      { "fr": "Une **choucroute**, c'est très copieux !", "en": "A choucroute is a very big meal!" }
+    ] },
+    { "id": "escargot", "fr": "escargot", "pos": "noun", "g": "m", "ipa": "ɛs.kaʁ.ɡo", "en": "snail", "def": "Un petit animal très lent, qui porte sa maison sur son dos. En France, on le mange avec du beurre et de l'ail.", "def_en": "A small, very slow animal that carries its house on its back. In France, people eat it with butter and garlic.", "forms": ["escargots"], "examples": [
+      { "fr": "Tu as déjà mangé des **escargots** ?", "en": "Have you ever eaten snails?" },
+      { "fr": "L'**escargot** avance très lentement.", "en": "The snail moves very slowly." },
+      { "fr": "Les **escargots** de Bourgogne sont célèbres.", "en": "Burgundy snails are famous." }
+    ] },
+    { "id": "poutine", "fr": "poutine", "pos": "noun", "g": "f", "ipa": "pu.tin", "en": "poutine (chips with cheese curds and gravy, from Quebec)", "def": "Une spécialité du Québec : des frites avec du fromage et une sauce brune.", "def_en": "A speciality of Quebec: chips with cheese and a brown sauce.", "examples": [
+      { "fr": "Léa fait une **poutine** avec la recette de sa mère.", "en": "Léa is making a poutine with her mother's recipe." },
+      { "fr": "À Montréal, on mange de la **poutine** partout.", "en": "In Montreal, people eat poutine everywhere." },
+      { "fr": "La **poutine**, c'est des frites, du fromage et de la sauce.", "en": "Poutine is chips, cheese and gravy." }
+    ] },
+    { "id": "croque-monsieur", "fr": "croque-monsieur", "pos": "noun", "g": "m", "ipa": "kʁɔk.mə.sjø", "en": "croque-monsieur (toasted ham and cheese sandwich)", "def": "Un sandwich chaud, avec du jambon et du fromage, cuit au four.", "def_en": "A hot sandwich with ham and cheese, baked in the oven.", "forms": ["croque-madame"], "examples": [
+      { "fr": "Hugo mange souvent un **croque-monsieur** le soir.", "en": "Hugo often has a croque-monsieur in the evening." },
+      { "fr": "Un **croque-monsieur** et une salade, s'il vous plaît.", "en": "A croque-monsieur and a salad, please." },
+      { "fr": "Le **croque-monsieur**, c'est le sandwich préféré des cafés.", "en": "The croque-monsieur is the cafés' favourite sandwich." }
+    ], "note": "The plural doesn't change: **des croque-monsieur**. With a fried egg on top: **un croque-madame**." },
+    { "id": "quiche", "fr": "quiche", "pos": "noun", "g": "f", "ipa": "kiʃ", "en": "quiche", "def": "Une tarte salée avec des œufs, de la crème et souvent des lardons.", "def_en": "A savoury tart with eggs, cream and often bacon.", "forms": ["quiches"], "examples": [
+      { "fr": "Léa fait une **quiche** aux légumes.", "en": "Léa is making a vegetable quiche." },
+      { "fr": "La **quiche** lorraine, c'est avec des lardons.", "en": "Quiche lorraine is made with bacon." },
+      { "fr": "Un morceau de **quiche** et une salade, c'est un bon déjeuner.", "en": "A slice of quiche and a salad make a good lunch." }
+    ] }
+  ],
+  "story": {
+    "title": "Le tour du monde à table",
+    "en": "The first day of spring: Tom invites his friends to a world dinner.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vingt et un mars, premier jour du printemps, Tom organise un « dîner du monde » chez lui. Chacun apporte une spécialité de son pays ou de sa région.", "en": "On 21 March, the first day of spring, Tom has a 'world dinner' at his flat. Everyone brings a speciality from their country or region." },
+      { "sp": "Inès", "fr": "Voici une paella : c'est la recette de ma mère. Et Carla a fait des tapas.", "en": "Here's a paella: it's my mother's recipe. And Carla has made tapas." },
+      { "sp": "Camille", "fr": "Moi, j'ai fait des sushis, avec de la sauce soja, et des nouilles aux légumes. J'adore la cuisine japonaise !", "en": "I've made sushi with soy sauce, and vegetable noodles. I love Japanese food!" },
+      { "sp": "Tom", "fr": "Et moi, un curry. En Angleterre, c'est un des plats préférés !", "en": "And I've made a curry. In England, it's one of the favourite dishes!" },
+      { "sp": "Léa", "fr": "Ma mère vient de Montréal, alors j'ai fait une poutine : des frites, du fromage et de la sauce.", "en": "My mother's from Montreal, so I've made a poutine: chips, cheese and gravy." },
+      { "sp": "Sophie", "fr": "Et voici une ratatouille. C'est végétarien, et c'est typique de la Provence.", "en": "And here's a ratatouille. It's vegetarian, and it's typical of Provence." },
+      { "sp": "", "fr": "Sophie a invité Mathis. Il arrive avec un grand plat.", "en": "Sophie has invited Mathis. He arrives with a big dish." },
+      { "sp": "Mathis", "fr": "Un tajine au poulet et au citron. C'est la recette de ma grand-mère : elle est marocaine.", "en": "A chicken and lemon tagine. It's my grandmother's recipe: she's Moroccan." },
+      { "sp": "Tom", "fr": "Un tajine ! C'est exotique ! Quels sont les ingrédients ?", "en": "A tagine! How exotic! What are the ingredients?" },
+      { "sp": "Mathis", "fr": "Du poulet, du citron, des olives et des épices. Mais tu sais, ce n'est pas très exotique ici : le couscous est un des plats préférés des Français !", "en": "Chicken, lemon, olives and spices. But you know, it's not very exotic here: couscous is one of the French people's favourite dishes!" },
+      { "sp": "", "fr": "Enfin, Hugo arrive, en retard comme toujours, avec un plat très lourd.", "en": "At last, Hugo arrives, late as always, with a very heavy dish." },
+      { "sp": "Hugo", "fr": "Une tartiflette ! Avec du fromage de Savoie, comme chez l'oncle Pierre. C'est une spécialité régionale.", "en": "A tartiflette! With cheese from Savoy, like at Uncle Pierre's. It's a regional speciality." },
+      { "sp": "Tom", "fr": "En Savoie, il y a aussi la raclette et la fondue, non ? Toujours du fromage !", "en": "In Savoy, there's raclette and fondue too, isn't there? Always cheese!" },
+      { "sp": "Hugo", "fr": "Oui ! Et si ton pain tombe dans la fondue, tu fais la vaisselle !", "en": "Yes! And if your bread falls into the fondue, you do the washing-up!" },
+      { "sp": "Léa", "fr": "Chaque région a sa spécialité : la bouillabaisse à Marseille, la choucroute en Alsace, les quenelles ici, à Lyon…", "en": "Every region has its speciality: bouillabaisse in Marseille, choucroute in Alsace, quenelles here in Lyon…" },
+      { "sp": "Tom", "fr": "Et les escargots ! Je n'en ai jamais mangé. C'est vraiment traditionnel ?", "en": "And snails! I've never eaten them. Are they really traditional?" },
+      { "sp": "Sophie", "fr": "Oui, mais on n'en mange pas tous les jours ! Au café, on mange plutôt une quiche ou un croque-monsieur.", "en": "Yes, but we don't eat them every day! At the café, people usually have a quiche or a croque-monsieur." },
+      { "sp": "", "fr": "Tout le monde goûte tout. À minuit, il ne reste rien… seulement un morceau de tartiflette.", "en": "Everyone tries everything. By midnight, there's nothing left… just a piece of tartiflette." },
+      { "sp": "Hugo", "fr": "Elle est trop lourde pour vous ? Pas de problème : c'est mon petit-déjeuner !", "en": "Is it too heavy for you? No problem: it's my breakfast!" }
+    ]
+  }
+}

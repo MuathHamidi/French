@@ -1,0 +1,166 @@
+{
+  "id": "u24-pqp",
+  "type": "grammar",
+  "unit": 24,
+  "title": "J'avais déjà mangé",
+  "en": "The plus-que-parfait (pluperfect)",
+  "intro": "The plus-que-parfait goes one step further back into the past: it tells what **had** happened **before** another past event. *Quand je suis arrivé, le film **avait** déjà **commencé**.* It is made like the passé composé, with the auxiliary in the **imparfait**: *j'**avais** mangé, j'**étais** parti*.",
+  "cases": [
+    { "id": "pqp-avoir", "label": "avoir: j'avais mangé", "rule": "Most verbs: **avoir** in the imparfait + the past participle: *j'**avais** mangé, tu **avais** fini, il **avait** pris, nous **avions** vu, vous **aviez** fait, ils **avaient** dit*." },
+    { "id": "pqp-etre", "label": "être: j'étais parti", "rule": "The verbs that take **être** in the passé composé (aller, venir, partir, arriver, rester, tomber… and reflexive verbs) take it here too: *j'**étais** parti, elle **était** arrivée, nous nous **étions** levés*. The participle agrees with the subject, as in the passé composé." },
+    { "id": "pqp-before", "label": "before another past action", "rule": "Use it for an action that happened **before** another one in the past: *Quand Hugo est arrivé, Carla **était partie***: first she left, then he arrived. English says *had left*." },
+    { "id": "pqp-deja", "label": "déjà, jamais, pas encore", "rule": "It often comes with **déjà** (already), **jamais** (never) and **pas encore** (not yet), placed between the auxiliary and the participle: *Il **était déjà** parti. Je **n'avais jamais** mangé d'escargots. Le film **n'avait pas encore** commencé.*" },
+    { "id": "pqp-why", "label": "explaining the past", "rule": "To explain a past situation, give the earlier cause in the plus-que-parfait: *J'étais fatigué **parce que j'avais mal dormi**. Il avait faim : **il n'avait pas mangé**.*" },
+    { "id": "pqp-pron", "label": "with pronouns", "rule": "Object pronouns go before the auxiliary, as in the passé composé, and the participle agrees with **la, les**: *Je **l'avais** vu. Je ne **lui avais** pas parlé. J'**y étais** allé. La lettre ? Je **l'avais** écrit**e**.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. avoir: j'avais mangé",
+      "text": ["Take the passé composé and put **avoir** in the imparfait: *j'ai mangé → j'**avais** mangé*."],
+      "table": {
+        "head": ["Passé composé", "Plus-que-parfait"], "frCols": [0, 1],
+        "rows": [
+          ["j'ai mangé", "j'avais mangé"],
+          ["tu as fini", "tu avais fini"],
+          ["il a pris", "il avait pris"],
+          ["nous avons vu", "nous avions vu"],
+          ["vous avez fait", "vous aviez fait"],
+          ["elles ont dit", "elles avaient dit"]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'avais réservé|pqp-avoir} une table pour huit heures.", "en": "I had booked a table for eight o'clock." },
+        { "fr": "Les enfants {avaient mangé|pqp-avoir} tout le gâteau.", "en": "The children had eaten the whole cake." }
+      ],
+      "tip": "The participle is the same as in the passé composé: only the auxiliary changes."
+    },
+    {
+      "title": "2. être: j'étais parti",
+      "table": {
+        "head": ["Passé composé", "Plus-que-parfait"], "frCols": [0, 1],
+        "rows": [
+          ["je suis parti", "j'étais parti"],
+          ["elle est arrivée", "elle était arrivée"],
+          ["nous sommes allés", "nous étions allés"],
+          ["ils se sont levés", "ils s'étaient levés"]
+        ]
+      },
+      "examples": [
+        { "fr": "Quand je suis rentré, Sophie {était déjà partie|pqp-etre}.", "en": "When I got home, Sophie had already left." },
+        { "fr": "Ce jour-là, {nous nous étions levés|pqp-etre} très tôt.", "en": "That day, we had got up very early." }
+      ],
+      "tip": "Same agreement as in the passé composé: *elle était parti**e**, ils étaient parti**s***."
+    },
+    {
+      "title": "3. Before another past action",
+      "text": ["Two actions in the past: the one that happened **first** goes into the plus-que-parfait."],
+      "table": {
+        "head": ["French", "What happened first"], "frCols": [0],
+        "rows": [
+          ["Quand je suis arrivé, le film avait commencé.", "the film started"],
+          ["Il m'a montré la photo qu'il avait prise.", "he took the photo"],
+          ["Elle a mangé le gâteau que j'avais fait.", "I made the cake"],
+          ["Je n'ai pas pu entrer : j'avais perdu ma clé.", "I lost my key"]
+        ]
+      },
+      "examples": [
+        { "fr": "Quand Hugo est arrivé, {Carla était partie|pqp-before}.", "en": "When Hugo arrived, Carla had left." },
+        { "fr": "Tom a mangé le plat {qu'il avait commandé|pqp-before}.", "en": "Tom ate the dish he had ordered." }
+      ],
+      "tip": "Compare: *Quand Hugo est arrivé, Carla **est partie*** (he arrived, then she left) and *Carla **était partie*** (she left first)."
+    },
+    {
+      "title": "4. déjà, jamais, pas encore",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il était déjà parti.", "He had already left."],
+          ["Je n'avais jamais mangé d'escargots.", "I had never eaten snails."],
+          ["Le film n'avait pas encore commencé.", "The film hadn't started yet."],
+          ["Nous n'avions pas réservé.", "We hadn't booked."]
+        ]
+      },
+      "examples": [
+        { "fr": "Avant ce jour, {je n'avais jamais goûté|pqp-deja} de quenelles.", "en": "Before that day, I had never tasted quenelles." },
+        { "fr": "À huit heures, {le restaurant était déjà complet|pqp-deja}.", "en": "At eight o'clock, the restaurant was already full." }
+      ],
+      "tip": "In the negative: **ne** + auxiliary + **pas / jamais** + participle: *je n'avais pas vu*."
+    },
+    {
+      "title": "5. Explaining the past",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'étais fatigué parce que j'avais mal dormi.", "I was tired because I had slept badly."],
+          ["Il avait faim : il n'avait pas mangé.", "He was hungry: he hadn't eaten."],
+          ["Elle était contente : elle avait réussi son examen.", "She was happy: she had passed her exam."]
+        ]
+      },
+      "examples": [
+        { "fr": "Tom était malade parce qu'{il avait trop mangé|pqp-why}.", "en": "Tom was ill because he had eaten too much." },
+        { "fr": "Hugo n'avait pas d'argent : {il avait oublié son portefeuille|pqp-why}.", "en": "Hugo had no money: he had forgotten his wallet." }
+      ]
+    },
+    {
+      "title": "6. With pronouns",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je l'avais vu.", "I had seen him."],
+          ["Je ne lui avais pas parlé.", "I hadn't spoken to her."],
+          ["J'y étais allé l'année d'avant.", "I had been there the year before."],
+          ["La lettre ? Je l'avais écrite.", "The letter? I had written it."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le film ? {Je l'avais déjà vu|pqp-pron}.", "en": "The film? I'd already seen it." },
+        { "fr": "Les clés ? {Je les avais laissées|pqp-pron} sur la table.", "en": "The keys? I had left them on the table." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Quand je suis arrivé, le film a déjà commencé.", "right": "Quand je suis arrivé, le film avait déjà commencé.", "why": "The film started **before** I arrived: plus-que-parfait." },
+    { "wrong": "J'avais allé au cinéma.", "right": "J'étais allé au cinéma.", "why": "**aller** takes **être**, in the plus-que-parfait too." },
+    { "wrong": "Elle était parti.", "right": "Elle était partie.", "why": "With **être**, the participle agrees with the subject." },
+    { "wrong": "Je n'avais mangé pas.", "right": "Je n'avais pas mangé.", "why": "**pas** comes right after the auxiliary." },
+    { "wrong": "J'avais déjà le vu.", "right": "Je l'avais déjà vu.", "why": "The pronoun goes before the auxiliary." }
+  ],
+  "story": {
+    "title": "Mon premier repas en France",
+    "en": "The Monday after the bouchon: in Marc's class, Tom reads out a text about his very first meal in Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Lundi matin, dans la classe de Marc. Les étudiants lisent leur texte : « Mon premier repas en France ».", "en": "Monday morning, in Marc's class. The students are reading out their texts: 'My first meal in France'." },
+      { "sp": "Marc", "fr": "Tom, à toi ! Et attention aux temps du passé !", "en": "Tom, your turn! And watch your past tenses!" },
+      { "sp": "Tom", "fr": "Quand je suis arrivé à Lyon, {je n'avais jamais mangé|pqp-deja} dans un bouchon.", "en": "When I arrived in Lyon, I had never eaten in a bouchon." },
+      { "sp": "Tom", "fr": "{Un ami m'avait dit|pqp-before} : « Prends l'andouillette, c'est la spécialité ! »", "en": "A friend had told me: 'Have the andouillette, it's the speciality!'" },
+      { "sp": "Tom", "fr": "Alors, j'ai commandé une andouillette. Mais {je n'avais pas demandé|pqp-deja} ce que c'était…", "en": "So I ordered an andouillette. But I hadn't asked what it was…" },
+      { "sp": "Tom", "fr": "Le serveur l'a apportée, et j'ai senti l'odeur. Une odeur très, très forte !", "en": "The waiter brought it, and I smelt it. A very, very strong smell!" },
+      { "sp": "Inès", "fr": "Normal : une andouillette, c'est une saucisse faite avec l'intérieur du cochon !", "en": "Of course: an andouillette is a sausage made from the insides of a pig!" },
+      { "sp": "Tom", "fr": "Exactement. Mais {je l'avais commandée|pqp-pron}, alors je l'ai mangée. Toute !", "en": "Exactly. But I'd ordered it, so I ate it. All of it!" },
+      { "sp": "Tom", "fr": "Le soir, j'étais malade, parce que {j'avais trop mangé|pqp-why}… et {je n'avais pas bu|pqp-deja} assez d'eau.", "en": "That evening I was ill, because I'd eaten too much… and I hadn't drunk enough water." },
+      { "sp": "", "fr": "Toute la classe rit. Marc sourit.", "en": "The whole class laughs. Marc smiles." },
+      { "sp": "Marc", "fr": "Très bien, Tom ! Ton histoire est drôle, et tes temps sont parfaits. Et toi, Carla ?", "en": "Very good, Tom! Your story is funny, and your tenses are perfect. And you, Carla?" },
+      { "sp": "Carla", "fr": "Moi, je raconte mon repas de samedi ! Hugo m'avait invitée au restaurant, mais {il n'avait pas réservé|pqp-deja}…", "en": "I'm going to tell you about my meal on Saturday! Hugo had invited me to a restaurant, but he hadn't booked…" },
+      { "sp": "Carla", "fr": "{Nous étions d'abord allés|pqp-etre} au restaurant de la télé, mais c'était complet. Alors, on a mangé dans un bouchon.", "en": "We had gone to the restaurant from TV first, but it was full. So we ate in a bouchon." },
+      { "sp": "Carla", "fr": "C'était délicieux. Mais à la fin, Hugo n'avait pas assez d'argent : {il n'avait pas compté|pqp-why} ses billets avant de sortir !", "en": "It was delicious. But at the end, Hugo didn't have enough money: he hadn't counted his notes before going out!" },
+      { "sp": "", "fr": "Toute la classe rit encore. Marc écrit une phrase au tableau : « Hugo {avait oublié|pqp-avoir} de compter son argent. »", "en": "The whole class laughs again. Marc writes a sentence on the board: 'Hugo had forgotten to count his money.'" },
+            { "sp": "Marc", "fr": "Voilà un bon exemple ! Et toi, Léa ? Ton texte ?", "en": "There's a good example! And you, Léa? Your text?" },
+      { "sp": "Léa", "fr": "Euh… {Je l'avais écrit|pqp-pron}, je vous promets ! Mais {je l'avais laissé|pqp-pron} sur la table de la cuisine, et ce matin, {Minou s'était endormi|pqp-etre} dessus !", "en": "Er… I had written it, I promise! But I'd left it on the kitchen table, and this morning, Minou had fallen asleep on it!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pqp-avoir", "type": "mc", "q": "Quand Léa est arrivée, nous ___ déjà mangé.", "en": "When Léa arrived, we had already eaten.", "options": ["avions", "avons", "aurons"], "answer": "avions" },
+    { "case": "pqp-avoir", "type": "type", "q": "Il ___ fini son travail avant midi.", "en": "He had finished his work before noon.", "answer": "avait" },
+    { "case": "pqp-etre", "type": "mc", "q": "Quand Hugo est arrivé, Carla était déjà ___.", "en": "When Hugo arrived, Carla had already left.", "options": ["partie", "parti", "partis"], "answer": "partie" },
+    { "case": "pqp-etre", "type": "mc", "q": "Nous ___ allés au marché le matin.", "en": "We had gone to the market in the morning.", "options": ["étions", "avions", "sommes"], "answer": "étions" },
+    { "case": "pqp-before", "type": "mc", "lang": "en", "q": "« Quand je suis arrivé, le film avait commencé. » What happened first?", "options": ["The film started.", "I arrived."], "answer": "The film started.", "say": "Quand je suis arrivé, le film avait commencé." },
+    { "case": "pqp-before", "type": "mc", "q": "Elle a mangé le gâteau que j'___ fait.", "en": "She ate the cake I had made.", "options": ["avais", "ai", "aurai"], "answer": "avais" },
+    { "case": "pqp-deja", "type": "mc", "q": "Avant ce voyage, je ___ jamais pris l'avion.", "en": "Before that trip, I had never flown.", "options": ["n'avais", "n'ai", "ne suis"], "answer": "n'avais" },
+    { "case": "pqp-deja", "type": "mc", "lang": "en", "q": "“The restaurant was already full.” Choose the right sentence:", "options": ["Le restaurant était déjà complet.", "Le restaurant déjà était complet.", "Le restaurant était complet déjà avait."], "answer": "Le restaurant était déjà complet.", "say": "Le restaurant était déjà complet." },
+    { "case": "pqp-why", "type": "mc", "q": "J'étais fatigué parce que j'___ mal dormi.", "en": "I was tired because I had slept badly.", "options": ["avais", "étais", "ai"], "answer": "avais" },
+    { "case": "pqp-why", "type": "type", "q": "Il avait faim : il n'___ pas mangé.", "en": "He was hungry: he hadn't eaten.", "answer": "avait" },
+    { "case": "pqp-pron", "type": "mc", "q": "Le film ? Je ___ déjà vu.", "en": "The film? I had already seen it.", "options": ["l'avais", "avais le", "le avais"], "answer": "l'avais" },
+    { "case": "pqp-pron", "type": "mc", "q": "La lettre ? Je l'avais ___.", "en": "The letter? I had written it.", "options": ["écrite", "écrit", "écrites"], "answer": "écrite" }
+  ]
+}

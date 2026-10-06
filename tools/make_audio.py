@@ -103,6 +103,11 @@ FIXES = {
     "veuve": "vˈœv", "veuves": "vˈœv",  # the voice says /vøv/
     "bugnes": "bˈyɲ",  # the voice says /nj/, like -gnent
     "mathis": "matˈis",  # the final s of the name is pronounced
+    "amer": "amˈɛʁ", "amers": "amˈɛʁ",  # the voice says /ame/, like aimer
+    "tapas": "tapˈas",  # the final s is pronounced
+    "curry": "kyʁˈi", "currys": "kyʁˈi", "steak": "stˈɛk", "steaks": "stˈɛk", "beurk": "bˈœʁk",  # otherwise read in English
+    "bon appétit": "bɔn apetˈi",  # "bon" loses its nasal before a vowel
+    "maghreb": "maɡʁˈɛb",  # otherwise read with an English r
     "le leur": "lə lˈœʁ", "la leur": "la lˈœʁ", "les leurs": "le lˈœʁ",  # the voice says /løʁ/ after an article
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
