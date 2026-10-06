@@ -1,0 +1,164 @@
+{
+  "id": "u33-raconter",
+  "type": "vocab",
+  "unit": 33,
+  "title": "Raconter",
+  "en": "Telling a story",
+  "intro": "25 words for telling stories: the kinds of story (**la légende, le récit, l'anecdote, il était une fois**), what's in them (**l'intrigue, le narrateur, le suspense, le rebondissement, la suite, la morale, imaginaire, réel, se dérouler, exagérer**) and the words that move a story along (**tout d'abord, auparavant, lorsque, soudain, aussitôt, à ce moment-là, pendant ce temps, au bout de, désormais, finalement, en fin de compte**).",
+  "words": [
+    { "id": "il-etait-une-fois", "fr": "il était une fois", "pos": "expr", "ipa": "il e.tɛ.tyn fwa", "en": "once upon a time", "def": "Les premiers mots d'un conte, pour commencer l'histoire.", "def_en": "The first words of a fairy tale, to start the story.", "examples": [
+      { "fr": "**Il était une fois** une princesse qui vivait dans un château.", "en": "Once upon a time, there was a princess who lived in a castle." },
+      { "fr": "Tous les contes commencent par « **Il était une fois** ».", "en": "All fairy tales begin with 'Once upon a time'." },
+      { "fr": "**Il était une fois** un chauffeur de taxi…", "en": "Once upon a time there was a taxi driver…" }
+    ] },
+    { "id": "legende", "fr": "légende", "pos": "noun", "g": "f", "ipa": "le.ʒɑ̃d", "en": "legend; caption", "def": "Une vieille histoire, souvent avec des héros ou des monstres, que les gens racontent depuis longtemps. Aussi : le texte sous une photo.", "def_en": "An old story, often with heroes or monsters, that people have told for a long time. Also: the text under a photo.", "forms": ["légendes"], "examples": [
+      { "fr": "Tu connais la **légende** de la Tarasque ?", "en": "Do you know the legend of the Tarasque?" },
+      { "fr": "Selon la **légende**, un monstre vivait ici.", "en": "According to legend, a monster lived here." },
+      { "fr": "Lis la **légende** sous la photo.", "en": "Read the caption under the photo." }
+    ] },
+    { "id": "recit", "fr": "récit", "pos": "noun", "g": "m", "ipa": "ʁe.si", "en": "account, story, narrative", "def": "Une histoire qu'on raconte, vraie ou inventée.", "def_en": "A story someone tells, true or made up.", "forms": ["récits"], "examples": [
+      { "fr": "Son **récit** change chaque fois.", "en": "His account changes every time." },
+      { "fr": "C'est le **récit** de son voyage en Afrique.", "en": "It's the story of his trip to Africa." },
+      { "fr": "Les enfants écoutent le **récit** de Papi.", "en": "The children listen to Grandpa's story." }
+    ] },
+    { "id": "narrateur", "fr": "narrateur", "pos": "noun", "g": "m", "ipa": "na.ʁa.tœʁ", "display": "le narrateur, la narratrice", "en": "narrator", "def": "La personne qui raconte l'histoire, dans un livre ou un film.", "def_en": "The person telling the story, in a book or a film.", "forms": ["narratrice", "narrateurs", "narratrices"], "accept": ["narratrice", "la narratrice"], "examples": [
+      { "fr": "Dans ce livre, le **narrateur** est un chat.", "en": "In this book, the narrator is a cat." },
+      { "fr": "La **narratrice** parle de son enfance.", "en": "The narrator talks about her childhood." },
+      { "fr": "Qui est le **narrateur** du film ?", "en": "Who's the narrator of the film?" }
+    ] },
+    { "id": "anecdote", "fr": "anecdote", "pos": "noun", "g": "f", "ipa": "a.nɛk.dɔt", "en": "anecdote, (funny) story", "def": "Une petite histoire vraie, souvent drôle.", "def_en": "A short true story, often funny.", "forms": ["anecdotes"], "examples": [
+      { "fr": "Antoine raconte une **anecdote** incroyable.", "en": "Antoine tells an incredible story." },
+      { "fr": "Papi a toujours une **anecdote** drôle.", "en": "Grandpa always has a funny story." },
+      { "fr": "Tu connais l'**anecdote** de Hugo et la poubelle ?", "en": "Do you know the story about Hugo and the bin?" }
+    ] },
+    { "id": "intrigue", "fr": "intrigue", "pos": "noun", "g": "f", "ipa": "ɛ̃.tʁiɡ", "en": "plot", "def": "L'histoire d'un film ou d'un livre : tout ce qui se passe, du début à la fin.", "def_en": "The story of a film or a book: everything that happens, from beginning to end.", "forms": ["intrigues"], "examples": [
+      { "fr": "L'**intrigue** du film est simple.", "en": "The film's plot is simple." },
+      { "fr": "Je ne comprends pas l'**intrigue** de cette série.", "en": "I don't understand the plot of this series." },
+      { "fr": "L'**intrigue** se passe à Montréal.", "en": "The plot takes place in Montréal." }
+    ] },
+    { "id": "rebondissement", "fr": "rebondissement", "pos": "noun", "g": "m", "ipa": "ʁə.bɔ̃.dis.mɑ̃", "en": "twist, new development", "def": "Un événement qu'on n'attendait pas, et qui change la suite de l'histoire.", "def_en": "An unexpected event that changes what happens next in the story.", "forms": ["rebondissements"], "examples": [
+      { "fr": "Il y a un **rebondissement** à la fin du film.", "en": "There's a twist at the end of the film." },
+      { "fr": "Cette série est pleine de **rebondissements**.", "en": "This series is full of twists." },
+      { "fr": "Quel **rebondissement** : Hugo est arrivé à l'heure !", "en": "What a turn-up: Hugo arrived on time!" }
+    ] },
+    { "id": "suspense", "fr": "suspense", "pos": "noun", "g": "m", "ipa": "sys.pɛns", "en": "suspense", "def": "Quand on attend la suite d'une histoire, et qu'on ne sait pas ce qui va arriver.", "def_en": "When you're waiting for what happens next in a story, not knowing how it will turn out.", "note": "Pronounced the French way: [syspɛns].", "examples": [
+      { "fr": "Ce film est plein de **suspense** !", "en": "This film is full of suspense!" },
+      { "fr": "Arrête le **suspense** : qui a gagné ?", "en": "Stop keeping us in suspense: who won?" },
+      { "fr": "J'adore les livres à **suspense**.", "en": "I love thrillers." }
+    ] },
+    { "id": "morale", "fr": "morale", "pos": "noun", "g": "f", "ipa": "mɔ.ʁal", "en": "moral (of a story); morals", "def": "La leçon qu'on apprend à la fin d'une histoire.", "def_en": "The lesson you learn at the end of a story.", "forms": ["morales"], "examples": [
+      { "fr": "Quelle est la **morale** de cette histoire ?", "en": "What's the moral of this story?" },
+      { "fr": "Dans les contes, il y a souvent une **morale**.", "en": "Fairy tales often have a moral." },
+      { "fr": "La **morale** : ne monte pas sur une échelle !", "en": "The moral: don't climb a ladder!" }
+    ] },
+    { "id": "imaginaire", "fr": "imaginaire", "pos": "adj", "ipa": "i.ma.ʒi.nɛʁ", "en": "imaginary; (noun) imagination", "def": "Qui n'est pas réel, qu'on invente dans sa tête.", "def_en": "Not real, made up in your head.", "forms": ["imaginaires"], "examples": [
+      { "fr": "Lou a un ami **imaginaire**.", "en": "Lou has an imaginary friend." },
+      { "fr": "Ce pays est **imaginaire**.", "en": "This country is imaginary." },
+      { "fr": "L'histoire est **imaginaire**, mais les lieux sont vrais.", "en": "The story is made up, but the places are real." }
+    ] },
+    { "id": "se-derouler", "fr": "se dérouler", "pos": "verb", "ipa": "sə de.ʁu.le", "en": "to take place, to unfold, to go", "def": "Avoir lieu, se passer, à un moment ou dans un endroit.", "def_en": "To take place, to happen, at a time or in a place.", "forms": ["me déroule", "te déroules", "se déroule", "nous nous déroulons", "vous vous déroulez", "se déroulent", "me dérouler", "te dérouler", "nous dérouler", "vous dérouler", "dérouler", "me déroulerai", "te dérouleras", "se déroulera", "nous nous déroulerons", "vous vous déroulerez", "se dérouleront", "me déroulerais", "te déroulerais", "se déroulerait", "nous nous déroulerions", "vous vous dérouleriez", "se dérouleraient", "déroule", "déroules", "déroulons", "déroulez", "déroulent", "déroulé", "déroulée", "déroulés", "déroulées", "déroulais", "déroulait", "déroulions", "dérouliez", "déroulaient", "déroulerai", "dérouleras", "déroulera", "déroulerons", "déroulerez", "dérouleront", "déroulerais", "déroulerait", "déroulerions", "dérouleriez", "dérouleraient", "déroulant", "déroulai", "déroulas", "déroula", "déroulâmes", "déroulâtes", "déroulèrent"], "examples": [
+      { "fr": "L'histoire se **déroule** à Montréal.", "en": "The story takes place in Montréal." },
+      { "fr": "La fête s'est bien **déroulée**.", "en": "The party went well." },
+      { "fr": "Comment s'est **déroulé** ton voyage ?", "en": "How did your trip go?" }
+    ] },
+    { "id": "exagerer", "fr": "exagérer", "pos": "verb", "ipa": "ɛɡ.za.ʒe.ʁe", "en": "to exaggerate; to go too far", "extra": "é → è before a silent ending: tu **exagères**, ils **exagèrent**; nous **exagérons**.", "def": "Dire qu'une chose est plus grande ou plus belle que dans la réalité. Aussi : aller trop loin.", "def_en": "To say something is bigger or better than it really is. Also: to go too far.", "forms": ["exagère", "exagères", "exagérons", "exagérez", "exagèrent", "exagéré", "exagérée", "exagérés", "exagérées", "exagérais", "exagérait", "exagérions", "exagériez", "exagéraient", "exagérerai", "exagéreras", "exagérera", "exagérerons", "exagérerez", "exagéreront", "exagérerais", "exagérerait", "exagérerions", "exagéreriez", "exagéreraient", "exagérant", "exagérai", "exagéras", "exagéra", "exagérâmes", "exagérâtes", "exagérèrent"], "examples": [
+      { "fr": "Tu **exagères**, Hugo !", "en": "You're exaggerating, Hugo!" },
+      { "fr": "Il **exagère** toujours ses histoires.", "en": "He always exaggerates his stories." },
+      { "fr": "N'**exagère** pas : il y avait dix personnes, pas cent !", "en": "Don't exaggerate: there were ten people, not a hundred!" }
+    ] },
+    { "id": "soudain", "fr": "soudain", "pos": "adv", "ipa": "su.dɛ̃", "en": "suddenly; (adj) sudden", "def": "Tout à coup, très vite et sans prévenir.", "def_en": "All of a sudden, very quickly and without warning.", "examples": [
+      { "fr": "**Soudain**, la lumière s'éteint.", "en": "Suddenly, the light goes out." },
+      { "fr": "**Soudain**, un chien a couru vers moi.", "en": "Suddenly, a dog ran towards me." },
+      { "fr": "**Soudain**, toute la salle applaudit.", "en": "Suddenly, the whole audience applauds." }
+    ] },
+    { "id": "aussitot", "fr": "aussitôt", "pos": "adv", "ipa": "o.si.to", "en": "immediately, at once", "def": "Tout de suite, juste après.", "def_en": "Straight away, just after.", "note": "**aussitôt que** = as soon as.", "examples": [
+      { "fr": "Il a vu le taxi et il l'a **aussitôt** appelé.", "en": "He saw the taxi and called it at once." },
+      { "fr": "Je l'ai appelé, et il est **aussitôt** venu.", "en": "I called him, and he came straight away." },
+      { "fr": "**Aussitôt** arrivé, Hugo a mangé tout le gâteau.", "en": "As soon as he arrived, Hugo ate the whole cake." }
+    ] },
+    { "id": "lorsque", "fr": "lorsque", "pos": "conj", "ipa": "lɔʁsk", "en": "when", "def": "Au moment où ; quand.", "def_en": "At the moment when; when.", "forms": ["lorsqu'"], "note": "A little more formal than **quand**. Before a vowel: **lorsqu'il**.", "examples": [
+      { "fr": "**Lorsque** le film a commencé, la salle était pleine.", "en": "When the film started, the cinema was full." },
+      { "fr": "Il riait **lorsque** je suis arrivé.", "en": "He was laughing when I arrived." },
+      { "fr": "**Lorsque** j'étais petit, j'avais peur du noir.", "en": "When I was little, I was afraid of the dark." }
+    ] },
+    { "id": "desormais", "fr": "désormais", "pos": "adv", "ipa": "de.zɔʁ.mɛ", "en": "from now on; now", "def": "À partir de maintenant, pour toujours.", "def_en": "From now on, for good.", "examples": [
+      { "fr": "**Désormais**, je serai à l'heure.", "en": "From now on, I'll be on time." },
+      { "fr": "Antoine est **désormais** acteur.", "en": "Antoine is now an actor." },
+      { "fr": "**Désormais**, le café est fermé le lundi.", "en": "From now on, the café is closed on Mondays." }
+    ] },
+    { "id": "au-bout-de", "fr": "au bout de", "pos": "expr", "ipa": "o bu də", "en": "after (a length of time); at the end of", "def": "Après un certain temps. Aussi : à la fin d'une rue ou d'un chemin.", "def_en": "After a certain time. Also: at the end of a street or a path.", "forms": ["au bout d'", "au bout du", "au bout des"], "examples": [
+      { "fr": "**Au bout de** dix minutes, la scène était finie.", "en": "After ten minutes, the scene was over." },
+      { "fr": "La boulangerie est **au bout de** la rue.", "en": "The bakery is at the end of the street." },
+      { "fr": "**Au bout d'**une heure, il est parti.", "en": "After an hour, he left." }
+    ] },
+    { "id": "a-ce-moment-la", "fr": "à ce moment-là", "pos": "expr", "ipa": "a sə mɔ.mɑ̃ la", "en": "at that moment, then", "def": "Juste au moment dont on parle.", "def_en": "Exactly at the time being talked about.", "examples": [
+      { "fr": "**À ce moment-là**, le téléphone a sonné.", "en": "At that moment, the phone rang." },
+      { "fr": "**À ce moment-là**, je ne savais pas la vérité.", "en": "At that point, I didn't know the truth." },
+      { "fr": "J'habitais à Paris **à ce moment-là**.", "en": "I was living in Paris at the time." }
+    ] },
+    { "id": "pendant-ce-temps", "fr": "pendant ce temps", "pos": "expr", "ipa": "pɑ̃.dɑ̃ sə tɑ̃", "en": "meanwhile, in the meantime", "def": "Au même moment, ailleurs ou pour une autre personne.", "def_en": "At the same time, elsewhere or for someone else.", "examples": [
+      { "fr": "**Pendant ce temps**, Hugo dormait.", "en": "Meanwhile, Hugo was asleep." },
+      { "fr": "Je fais la cuisine ; **pendant ce temps**, tu mets la table.", "en": "I'll cook; meanwhile, you lay the table." },
+      { "fr": "**Pendant ce temps**, à Montréal, il neigeait.", "en": "Meanwhile, in Montréal, it was snowing." }
+    ] },
+    { "id": "tout-d-abord", "fr": "tout d'abord", "pos": "expr", "ipa": "tu da.bɔʁ", "en": "first of all, firstly", "def": "Avant tout le reste, pour commencer.", "def_en": "Before everything else, to begin with.", "examples": [
+      { "fr": "**Tout d'abord**, merci d'être venus.", "en": "First of all, thank you for coming." },
+      { "fr": "**Tout d'abord**, je n'étais pas acteur.", "en": "First of all, I wasn't an actor." },
+      { "fr": "**Tout d'abord**, il faut lire la question.", "en": "Firstly, you need to read the question." }
+    ] },
+    { "id": "en-fin-de-compte", "fr": "en fin de compte", "pos": "expr", "ipa": "ɑ̃ fɛ̃ də kɔ̃t", "en": "in the end, all things considered", "def": "Quand on regarde tout, à la fin.", "def_en": "When you look at everything, in the end.", "examples": [
+      { "fr": "**En fin de compte**, on a passé une bonne soirée.", "en": "In the end, we had a good evening." },
+      { "fr": "**En fin de compte**, tu avais raison.", "en": "When all's said and done, you were right." },
+      { "fr": "C'était difficile, mais **en fin de compte**, ça valait le coup.", "en": "It was hard, but in the end it was worth it." }
+    ] },
+    { "id": "suite", "fr": "suite", "pos": "noun", "g": "f", "ipa": "sɥit", "en": "rest, what comes next; sequel; (hotel) suite", "def": "Ce qui vient après, dans une histoire. Aussi : un deuxième film qui continue l'histoire du premier.", "def_en": "What comes next in a story. Also: a second film that continues the story of the first.", "forms": ["suites"], "note": "**tout de suite** = right away; **par la suite** = afterwards.", "examples": [
+      { "fr": "Et la **suite** ? Qu'est-ce qui s'est passé ?", "en": "And then? What happened next?" },
+      { "fr": "Le réalisateur prépare la **suite** du film.", "en": "The director is working on the sequel." },
+      { "fr": "Je te raconte la **suite** demain.", "en": "I'll tell you the rest tomorrow." }
+    ] },
+    { "id": "auparavant", "fr": "auparavant", "pos": "adv", "ipa": "o.pa.ʁa.vɑ̃", "en": "before, previously", "def": "Avant, à une époque plus ancienne.", "def_en": "Before, at an earlier time.", "examples": [
+      { "fr": "**Auparavant**, je racontais des histoires à mes clients.", "en": "Before, I used to tell stories to my customers." },
+      { "fr": "Il était boulanger **auparavant**.", "en": "He used to be a baker." },
+      { "fr": "Deux jours **auparavant**, il avait plu.", "en": "Two days earlier, it had rained." }
+    ] },
+    { "id": "finalement", "fr": "finalement", "pos": "adv", "ipa": "fi.nal.mɑ̃", "en": "in the end, finally; actually", "def": "À la fin, après tout.", "def_en": "At the end, after all.", "examples": [
+      { "fr": "**Finalement**, on est restés à la maison.", "en": "In the end, we stayed at home." },
+      { "fr": "**Finalement**, le film était très bien.", "en": "Actually, the film was very good." },
+      { "fr": "Il est **finalement** arrivé à minuit.", "en": "He finally arrived at midnight." }
+    ] },
+    { "id": "reel", "fr": "réel", "pos": "adj", "ipa": "ʁe.ɛl", "display": "réel, réelle", "en": "real", "def": "Qui est vrai, qui n'est pas inventé.", "def_en": "True, not made up.", "forms": ["réelle", "réels", "réelles"], "accept": ["réelle"], "examples": [
+      { "fr": "C'est une histoire **réelle**.", "en": "It's a true story." },
+      { "fr": "Le danger est **réel**.", "en": "The danger is real." },
+      { "fr": "Le film montre des lieux **réels** de Montréal.", "en": "The film shows real places in Montréal." }
+    ] }
+  ],
+  "story": {
+    "title": "Bonsoir !",
+    "en": "Saturday 17 October: Antoine's film is shown at the Festival Lumière, and the audience wants to know how a taxi driver got the part.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi dix-sept octobre, c'est le festival Lumière. Antoine est arrivé de Montréal pour la séance de son film, dans le vieux cinéma des frères Lumière.", "en": "Saturday 17 October is the Lumière Festival. Antoine has come over from Montréal for the screening of his film, in the Lumière brothers' old cinema." },
+      { "sp": "Léa", "fr": "Tu sais que ce cinéma est à l'endroit où les frères Lumière ont tourné le premier film ? C'est presque une légende !", "en": "Did you know this cinema stands where the Lumière brothers shot the first film? It's almost a legend!" },
+      { "sp": "", "fr": "Pendant le film, toute la salle rit. Dans la scène du taxi, Antoine dit son mot : « Bonsoir ! »… et le public applaudit.", "en": "During the film, the whole audience laughs. In the taxi scene, Antoine says his word: 'Bonsoir!'… and the audience claps." },
+      { "sp": "", "fr": "À la fin, le réalisateur invite Antoine à parler. Une spectatrice pose une question.", "en": "At the end, the director invites Antoine to speak. A woman in the audience asks a question." },
+      { "sp": "La spectatrice", "fr": "Comment avez-vous eu ce rôle ?", "en": "How did you get the part?" },
+      { "sp": "Antoine", "fr": "C'est une anecdote incroyable. Tout d'abord, je n'étais pas acteur : j'étais chauffeur de taxi, et je le suis toujours !", "en": "It's an incredible story. First of all, I wasn't an actor: I was a taxi driver, and I still am!" },
+      { "sp": "Antoine", "fr": "Ce jour-là, il y avait un tournage dans ma rue. Soudain, l'acteur qui devait conduire le taxi est tombé malade.", "en": "That day, there was filming in my street. Suddenly, the actor who was supposed to drive the taxi fell ill." },
+      { "sp": "Antoine", "fr": "Le réalisateur a aussitôt vu mon taxi. Lorsqu'il m'a demandé de jouer, j'ai dit oui sans réfléchir.", "en": "The director spotted my taxi at once. When he asked me to act, I said yes without thinking." },
+      { "sp": "Antoine", "fr": "Au bout de dix minutes, la scène était finie. Un seul mot : « Bonsoir ». Et désormais, je suis acteur !", "en": "After ten minutes, the scene was over. A single word: 'Bonsoir'. And now I'm an actor!" },
+      { "sp": "", "fr": "Toute la salle rit. Pendant ce temps, Hugo raconte à Carla sa propre version de l'histoire de la poubelle.", "en": "The whole audience laughs. Meanwhile, Hugo is telling Carla his own version of the bin story." },
+      { "sp": "Hugo", "fr": "Moi, quand je suis tombé dans la poubelle, il y avait cent caméras, et toute la ville me regardait…", "en": "When I fell into the bin, there were a hundred cameras, and the whole town was watching…" },
+      { "sp": "Carla", "fr": "Tu exagères, Hugo ! Ton récit change chaque fois.", "en": "You're exaggerating, Hugo! Your story changes every time." },
+      { "sp": "", "fr": "À ce moment-là, le réalisateur prend le micro.", "en": "At that moment, the director takes the microphone." },
+      { "sp": "Le réalisateur", "fr": "L'intrigue de mon film est imaginaire, mais elle se déroule dans de vrais lieux de Montréal, avec du suspense et un rebondissement à la fin.", "en": "The plot of my film is made up, but it takes place in real places in Montréal, with suspense and a twist at the end." },
+      { "sp": "Le réalisateur", "fr": "Et je prépare la suite ! Antoine aura un plus grand rôle : il dira trois mots.", "en": "And I'm working on the sequel! Antoine will have a bigger part: he'll say three words." },
+      { "sp": "Tom", "fr": "Trois mots ! Et qui sera le narrateur ? Un chauffeur de taxi ?", "en": "Three words! And who'll be the narrator? A taxi driver?" },
+      { "sp": "Antoine", "fr": "Pourquoi pas ? Auparavant, je racontais des histoires à mes clients. Maintenant, je les raconte au cinéma !", "en": "Why not? I used to tell stories to my customers. Now I tell them in the cinema!" },
+      { "sp": "", "fr": "Après la séance, les amis dînent ensemble dans un bouchon.", "en": "After the screening, the friends have dinner together in a bouchon." },
+      { "sp": "Sophie", "fr": "Alors, Antoine, quelle est la morale de cette histoire ?", "en": "So, Antoine, what's the moral of this story?" },
+      { "sp": "Antoine", "fr": "Il était une fois un chauffeur de taxi qui disait « Bonsoir »… En fin de compte, un seul mot peut changer une vie !", "en": "Once upon a time there was a taxi driver who said 'Bonsoir'… In the end, a single word can change a life!" },
+      { "sp": "Hugo", "fr": "Et une seule poubelle aussi !", "en": "And so can a single bin!" },
+      { "sp": "Léa", "fr": "Finalement, dans notre famille, toutes les histoires sont réelles… même les plus folles !", "en": "In the end, in our family, all the stories are true… even the craziest ones!" }
+    ]
+  }
+}

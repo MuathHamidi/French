@@ -1,0 +1,164 @@
+{
+  "id": "u33-passe-simple",
+  "type": "grammar",
+  "unit": 33,
+  "title": "Et le monstre devint doux",
+  "en": "The passé simple (to recognise)",
+  "intro": "The **passé simple** is the past tense of written stories: fairy tales, legends, novels and history books. You'll mostly meet it in the third person: *il **parla**, elle **fut**, ils **vinrent***. When people speak, they use the passé composé instead: *il **parla*** = *il **a parlé***. You need to recognise it when you read, not to use it when you talk.",
+  "cases": [
+    { "id": "ps-er", "label": "-er verbs: il parla, ils parlèrent", "rule": "For **-er** verbs, and **aller**: *je parlai, tu parlas, il parl**a**, nous parlâmes, vous parlâtes, ils parl**èrent***. The third persons are the ones you'll see most: *elle chant**a**, ils arriv**èrent***." },
+    { "id": "ps-i", "label": "an i: il finit, il prit, il fit", "rule": "Most **-ir** and **-re** verbs, and a few others, have an **i**: *il fin**it**, il part**it**, il répond**it**, il pr**it**, il m**it**, il f**it** (faire), il d**it** (dire)*. Plural: *ils fin**irent**, ils f**irent***." },
+    { "id": "ps-u", "label": "a u: il fut, il eut, il put", "rule": "Other verbs have a **u**: *il **fut** (être), il **eut** (avoir), il p**ut**, il voul**ut**, il s**ut**, il véc**ut**, il mour**ut***. Plural: *ils **furent**, ils **eurent***." },
+    { "id": "ps-in", "label": "venir, tenir: il vint, il tint", "rule": "**venir**, **tenir** and their families have **in**: *il **vint**, il **devint**, il **revint**, il **tint***. Plural: *ils **vinrent***." },
+    { "id": "ps-usage", "label": "written stories / spoken passé composé", "rule": "The passé simple tells the events of a written story: *un jour, le monstre **sortit** du fleuve*. When you tell the same story aloud, you use the passé composé: *un jour, le monstre **est sorti** du fleuve*." },
+    { "id": "ps-imparfait", "label": "passé simple and imparfait together", "rule": "As with the passé composé, the **imparfait** sets the scene and the **passé simple** tells what happened: *Il **faisait** nuit. Soudain, la Tarasque **sortit** de l'eau.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. -er verbs: il parla, ils parlèrent",
+      "table": {
+        "head": ["Passé simple", "Passé composé"], "frCols": [0, 1],
+        "rows": [
+          ["il parla", "il a parlé"],
+          ["elle arriva", "elle est arrivée"],
+          ["il mangea", "il a mangé"],
+          ["ils chantèrent", "ils ont chanté"],
+          ["elles allèrent", "elles sont allées"]
+        ]
+      },
+      "examples": [
+        { "fr": "Alors, une jeune femme {arriva|ps-er} au village.", "en": "Then a young woman came to the village." },
+        { "fr": "Elles {rentrèrent|ps-er} ensemble au village.", "en": "They went back to the village together." }
+      ],
+      "tip": "With **-ger** and **-cer** verbs, the spelling keeps the soft sound before **a**: *il mang**ea**, il commen**ça***."
+    },
+    {
+      "title": "2. An i: il finit, il prit, il fit",
+      "table": {
+        "head": ["Passé simple", "Infinitive"], "frCols": [0, 1],
+        "rows": [
+          ["il finit, ils finirent", "finir"],
+          ["il sortit, ils sortirent", "sortir"],
+          ["il prit, ils prirent", "prendre"],
+          ["il fit, ils firent", "faire"],
+          ["il dit, ils dirent", "dire"]
+        ]
+      },
+      "examples": [
+        { "fr": "Le monstre {sortit|ps-i} du fleuve.", "en": "The monster came out of the river." },
+        { "fr": "Elle {prit|ps-i} sa ceinture.", "en": "She took her belt." }
+      ],
+      "tip": "*il finit* and *il dit* look exactly like the present: the story around them tells you which it is."
+    },
+    {
+      "title": "3. A u: il fut, il eut, il put",
+      "table": {
+        "head": ["Passé simple", "Infinitive"], "frCols": [0, 1],
+        "rows": [
+          ["il fut, ils furent", "être"],
+          ["il eut, ils eurent", "avoir"],
+          ["il put, ils purent", "pouvoir"],
+          ["il voulut, ils voulurent", "vouloir"],
+          ["il vécut, ils vécurent", "vivre"],
+          ["il mourut, ils moururent", "mourir"]
+        ]
+      },
+      "examples": [
+        { "fr": "Les habitants {eurent|ps-u} très peur.", "en": "The villagers were very frightened." },
+        { "fr": "Le village {fut|ps-u} sauvé.", "en": "The village was saved." }
+      ],
+      "tip": "**il eut** is pronounced [y], like the *u* of *tu*."
+    },
+    {
+      "title": "4. venir, tenir: il vint, il tint",
+      "table": {
+        "head": ["Passé simple", "Infinitive"], "frCols": [0, 1],
+        "rows": [
+          ["il vint, ils vinrent", "venir"],
+          ["il devint, ils devinrent", "devenir"],
+          ["il revint, ils revinrent", "revenir"],
+          ["il tint, ils tinrent", "tenir"]
+        ]
+      },
+      "examples": [
+        { "fr": "Les chevaliers {vinrent|ps-in} avec leurs épées.", "en": "The knights came with their swords." },
+        { "fr": "Le monstre {devint|ps-in} doux comme un agneau.", "en": "The monster became as gentle as a lamb." }
+      ]
+    },
+    {
+      "title": "5. Written stories, spoken passé composé",
+      "table": {
+        "head": ["Written story", "Told aloud"], "frCols": [0, 1],
+        "rows": [
+          ["Le monstre mangea les moutons.", "Le monstre a mangé les moutons."],
+          ["Marthe chanta une chanson.", "Marthe a chanté une chanson."],
+          ["Le village fut sauvé.", "Le village a été sauvé."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il a mangé|ps-usage} les moutons ? Tous ?", "en": "He ate the sheep? All of them?" },
+        { "fr": "Et Marthe, {elle a crié|ps-usage} ?", "en": "And Marthe, did she scream?" }
+      ],
+      "tip": "Never use the passé simple in a conversation or an email: it would sound like a fairy tale."
+    },
+    {
+      "title": "6. Passé simple and imparfait together",
+      "table": {
+        "head": ["The scene (imparfait)", "What happened (passé simple)"], "frCols": [0, 1],
+        "rows": [
+          ["Il faisait nuit.", "Soudain, la Tarasque sortit de l'eau."],
+          ["Marthe n'avait pas d'épée.", "Elle alla seule au bord du fleuve."],
+          ["Les habitants avaient peur.", "Ils appelèrent les chevaliers."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il faisait|ps-imparfait} nuit. Soudain, la Tarasque {sortit|ps-imparfait} de l'eau.", "en": "It was dark. Suddenly, the Tarasque came out of the water." },
+        { "fr": "Marthe {n'avait|ps-imparfait} pas d'épée, mais elle {alla|ps-imparfait} au fleuve.", "en": "Marthe had no sword, but she went to the river." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Hier, je mangeai une pizza.", "right": "Hier, j'ai mangé une pizza.", "why": "In conversation, use the passé composé, not the passé simple." },
+    { "wrong": "Ils chantairent une chanson.", "right": "Ils chantèrent une chanson.", "why": "**-er** verbs end in **-èrent** in the plural." },
+    { "wrong": "Le monstre devena doux.", "right": "Le monstre devint doux.", "why": "**devenir** is like **venir**: *il devint*." },
+    { "wrong": "Il faisait nuit. Soudain, la Tarasque sortait de l'eau.", "right": "Il faisait nuit. Soudain, la Tarasque sortit de l'eau.", "why": "A sudden event takes the passé simple, not the imparfait." },
+    { "wrong": "Elle sorta du fleuve.", "right": "Elle sortit du fleuve.", "why": "**sortir** is an **-ir** verb: *elle sortit*, not *-a*." }
+  ],
+  "story": {
+    "title": "La légende de la Tarasque",
+    "en": "Saturday 31 October, in the evening: Louise reads Lou an old legend from Provence. Lou has questions.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le soir de son anniversaire, Louise lit une légende de Provence à Lou, dans un vieux livre.", "en": "On the evening of her birthday, Louise reads Lou a legend from Provence, from an old book." },
+      { "sp": "Louise", "fr": "« Il y a très longtemps, au bord du Rhône, vivait un monstre terrible : la Tarasque. Elle avait six pattes, une carapace de tortue et une queue de serpent. »", "en": "'A very long time ago, on the banks of the Rhône, there lived a terrible monster: the Tarasque. It had six legs, a tortoise's shell and a snake's tail.'" },
+      { "sp": "Lou", "fr": "Une queue de serpent ? J'ai peur des serpents…", "en": "A snake's tail? I'm scared of snakes…" },
+      { "sp": "Louise", "fr": "« Un jour, le monstre {sortit|ps-i} du fleuve et {mangea|ps-er} tous les moutons du village. »", "en": "'One day, the monster came out of the river and ate all the village's sheep.'" },
+      { "sp": "Lou", "fr": "{Il a mangé|ps-usage} les moutons ? Tous ?", "en": "He ate the sheep? All of them?" },
+      { "sp": "Louise", "fr": "« Les habitants {eurent|ps-u} très peur. Les chevaliers {vinrent|ps-in} avec leurs épées, mais ils ne {purent|ps-u} rien faire. »", "en": "'The villagers were very frightened. The knights came with their swords, but they could do nothing.'" },
+      { "sp": "Louise", "fr": "« Alors, une jeune femme, Marthe, {arriva|ps-er} au village. Elle n'avait pas d'épée, pas de cheval… »", "en": "'Then a young woman, Marthe, came to the village. She had no sword, no horse…'" },
+      { "sp": "Louise", "fr": "« Elle {alla|ps-er} seule au bord du fleuve. {Il faisait|ps-imparfait} nuit. Soudain, la Tarasque {sortit|ps-imparfait} de l'eau. »", "en": "'She went alone to the riverbank. It was dark. Suddenly, the Tarasque came out of the water.'" },
+      { "sp": "Lou", "fr": "Et Marthe, {elle a crié|ps-usage} ?", "en": "And Marthe, did she scream?" },
+      { "sp": "Louise", "fr": "« Non. Marthe {chanta|ps-er} une chanson très douce, et le monstre {devint|ps-in} doux comme un agneau. »", "en": "'No. Marthe sang a very gentle song, and the monster became as gentle as a lamb.'" },
+      { "sp": "Louise", "fr": "« Elle {prit|ps-i} sa ceinture, l'{attacha|ps-er} au cou de la Tarasque, et elles {rentrèrent|ps-er} ensemble au village. »", "en": "'She took her belt, tied it round the Tarasque's neck, and they went back to the village together.'" },
+      { "sp": "Louise", "fr": "« Le village {fut|ps-u} sauvé, et il {prit|ps-i} le nom du monstre : Tarascon. »", "en": "'The village was saved, and it took the monster's name: Tarascon.'" },
+      { "sp": "Lou", "fr": "C'est vrai, Mamie ?", "en": "Is it true, Granny?" },
+      { "sp": "Louise", "fr": "C'est une légende, ma puce. Mais Tarascon est une vraie ville, pas loin d'ici. Chaque année, il y a une grande fête pour la Tarasque.", "en": "It's a legend, sweetie. But Tarascon is a real town, not far from here. Every year, there's a big festival for the Tarasque." },
+      { "sp": "Lou", "fr": "Moi aussi, je veux une tortue avec une queue de serpent ! Je l'appellerai Minou !", "en": "I want a tortoise with a snake's tail too! I'll call it Minou!" },
+      { "sp": "", "fr": "Quelques minutes plus tard, Lou {s'endormit|ps-i}… comme dans les contes.", "en": "A few minutes later, Lou fell asleep… just like in fairy tales." }
+    ]
+  },
+  "quiz": [
+    { "case": "ps-er", "type": "mc", "lang": "en", "q": "« Il parla » means…", "options": ["he spoke", "he speaks", "he will speak"], "answer": "he spoke", "say": "Il parla." },
+    { "case": "ps-er", "type": "mc", "q": "Les enfants ___ une chanson. (chanter)", "en": "The children sang a song.", "options": ["chantèrent", "chanta", "chantaient"], "answer": "chantèrent" },
+    { "case": "ps-i", "type": "mc", "lang": "en", "q": "« Elle prit sa ceinture » : which verb is « prit » ?", "options": ["prendre", "prier", "partir"], "answer": "prendre", "say": "Elle prit sa ceinture." },
+    { "case": "ps-i", "type": "mc", "lang": "en", "q": "« Il fit beau » : which verb is « fit » ?", "options": ["faire", "finir", "falloir"], "answer": "faire", "say": "Il fit beau." },
+    { "case": "ps-u", "type": "mc", "lang": "en", "q": "« Le village fut sauvé » means…", "options": ["the village was saved", "the village will be saved", "the village would be saved"], "answer": "the village was saved", "say": "Le village fut sauvé." },
+    { "case": "ps-u", "type": "mc", "lang": "en", "q": "« Ils eurent peur » : which verb is « eurent » ?", "options": ["avoir", "être", "aller"], "answer": "avoir", "say": "Ils eurent peur." },
+    { "case": "ps-in", "type": "mc", "lang": "en", "q": "« Les chevaliers vinrent » means…", "options": ["the knights came", "the knights won", "the knights saw"], "answer": "the knights came", "say": "Les chevaliers vinrent." },
+    { "case": "ps-in", "type": "mc", "q": "Le monstre ___ doux comme un agneau. (devenir)", "en": "The monster became as gentle as a lamb.", "options": ["devint", "devena", "devenit"], "answer": "devint" },
+    { "case": "ps-usage", "type": "mc", "lang": "en", "q": "In a book: « Le monstre sortit du fleuve. » How do you say it in conversation?", "options": ["Le monstre est sorti du fleuve.", "Le monstre sortait du fleuve.", "Le monstre sortira du fleuve."], "answer": "Le monstre est sorti du fleuve." },
+    { "case": "ps-usage", "type": "mc", "lang": "en", "q": "Where do you mostly find the passé simple?", "options": ["in written stories and history books", "in text messages", "in everyday conversation"], "answer": "in written stories and history books", "say": "Il était une fois un monstre qui vécut au bord du Rhône." },
+    { "case": "ps-imparfait", "type": "mc", "q": "Il ___ nuit. Soudain, le monstre sortit.", "en": "It was dark. Suddenly, the monster came out.", "options": ["faisait", "fit", "fera"], "answer": "faisait" },
+    { "case": "ps-imparfait", "type": "mc", "q": "Il faisait nuit. Soudain, le monstre ___ de l'eau.", "en": "It was dark. Suddenly, the monster came out of the water.", "options": ["sortit", "sortait", "sortira"], "answer": "sortit" }
+  ]
+}

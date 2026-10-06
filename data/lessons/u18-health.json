@@ -40,7 +40,7 @@
       ] },
     { "id": "avoir-mal", "fr": "avoir mal", "pos": "expr", "ipa": "a.vwaʁ mal", "en": "to hurt, to ache (avoir mal à = to have a pain in)",
       "def": "Sentir une douleur dans une partie du corps : j'ai mal à la tête.", "def_en": "To feel pain in a part of the body: I've got a headache.",
-      "forms": ["ai mal", "as mal", "a mal", "avons mal", "avez mal", "ont mal", "avais mal", "avait mal", "avaient mal"],
+      "forms": ["ai mal", "as mal", "a mal", "avons mal", "avez mal", "ont mal", "avais mal", "avait mal", "avaient mal", "eut mal", "eurent mal"],
       "examples": [
         { "fr": "J'**ai mal** à la tête.", "en": "I've got a headache." },
         { "fr": "Tu **as mal** où ?", "en": "Where does it hurt?" },
@@ -81,7 +81,7 @@
       "note": "The **x** is silent: /tu/, the same sound as **tout**!" },
     { "id": "tousser", "fr": "tousser", "pos": "verb", "ipa": "tu.se", "en": "to cough",
       "def": "Faire sortir l'air de la gorge avec du bruit, quand on est malade.", "def_en": "To push air out of your throat noisily, when you're ill.",
-      "forms": ["tousse", "tousses", "toussons", "toussez", "toussent", "toussé", "toussais", "toussait", "toussions", "toussiez", "toussaient", "tousserai", "tousseras", "toussera", "tousserons", "tousserez", "tousseront", "tousserais", "tousserait", "tousserions", "tousseriez", "tousseraient", "toussée", "toussés", "toussées", "toussant"],
+      "forms": ["tousse", "tousses", "toussons", "toussez", "toussent", "toussé", "toussais", "toussait", "toussions", "toussiez", "toussaient", "tousserai", "tousseras", "toussera", "tousserons", "tousserez", "tousseront", "tousserais", "tousserait", "tousserions", "tousseriez", "tousseraient", "toussée", "toussés", "toussées", "toussant", "toussai", "toussas", "toussa", "toussâmes", "toussâtes", "toussèrent"],
       "examples": [
         { "fr": "Hugo **tousse** toute la nuit.", "en": "Hugo coughs all night." },
         { "fr": "Mets la main devant la bouche quand tu **tousses** !", "en": "Cover your mouth when you cough!" },
@@ -89,7 +89,7 @@
       ] },
     { "id": "eternuer", "fr": "éternuer", "pos": "verb", "ipa": "e.tɛʁ.nɥe", "en": "to sneeze",
       "def": "Faire « atchoum ! » avec le nez.", "def_en": "To go 'atchoo!' with your nose.",
-      "forms": ["éternue", "éternues", "éternuons", "éternuez", "éternuent", "éternué", "éternuais", "éternuait", "éternuions", "éternuiez", "éternuaient", "éternuerai", "éternueras", "éternuera", "éternuerons", "éternuerez", "éternueront", "éternuerais", "éternuerait", "éternuerions", "éternueriez", "éternueraient", "éternuée", "éternués", "éternuées", "éternuant"],
+      "forms": ["éternue", "éternues", "éternuons", "éternuez", "éternuent", "éternué", "éternuais", "éternuait", "éternuions", "éternuiez", "éternuaient", "éternuerai", "éternueras", "éternuera", "éternuerons", "éternuerez", "éternueront", "éternuerais", "éternuerait", "éternuerions", "éternueriez", "éternueraient", "éternuée", "éternués", "éternuées", "éternuant", "éternuai", "éternuas", "éternua", "éternuâmes", "éternuâtes", "éternuèrent"],
       "examples": [
         { "fr": "J'**éternue** : je crois que j'ai un rhume.", "en": "I'm sneezing: I think I've got a cold." },
         { "fr": "Le chat me fait **éternuer**.", "en": "The cat makes me sneeze." },
@@ -98,7 +98,7 @@
       "note": "When someone sneezes: **À tes souhaits !** (or **À vos souhaits !**) = Bless you!" },
     { "id": "se-blesser", "fr": "se blesser", "pos": "verb", "ipa": "sə blɛ.se", "en": "to hurt yourself, to get injured; (blessé) injured",
       "def": "Se faire mal, par exemple quand on tombe.", "def_en": "To hurt yourself, for example when you fall.",
-      "forms": ["me blesse", "te blesses", "se blesse", "nous nous blessons", "vous vous blessez", "se blessent", "blesser", "blessé", "blessée", "blessés", "blessées", "me blessais", "se blessait", "me blesserai", "te blesseras", "se blessera", "nous nous blesserons", "vous vous blesserez", "se blesseront", "me blesserais", "te blesserais", "se blesserait", "nous nous blesserions", "vous vous blesseriez", "se blesseraient", "blessant"],
+      "forms": ["me blesse", "te blesses", "se blesse", "nous nous blessons", "vous vous blessez", "se blessent", "blesser", "blessé", "blessée", "blessés", "blessées", "me blessais", "se blessait", "me blesserai", "te blesseras", "se blessera", "nous nous blesserons", "vous vous blesserez", "se blesseront", "me blesserais", "te blesserais", "se blesserait", "nous nous blesserions", "vous vous blesseriez", "se blesseraient", "blessant", "blessai", "blessas", "blessa", "blessâmes", "blessâtes", "blessèrent"],
       "examples": [
         { "fr": "Attention, tu vas te **blesser** !", "en": "Careful, you'll hurt yourself!" },
         { "fr": "Il **s'est blessé** au genou pendant le match.", "en": "He hurt his knee during the match." },
@@ -147,7 +147,7 @@
       ] },
     { "id": "soigner", "fr": "soigner", "pos": "verb", "ipa": "swa.ɲe", "en": "to treat, to look after (sick people)",
       "def": "Aider un malade à guérir.", "def_en": "To help a sick person get better.",
-      "forms": ["soigne", "soignes", "soignons", "soignez", "soignent", "soigné", "soignée", "soignais", "soignait", "soignions", "soigniez", "soignaient", "soignerai", "soigneras", "soignera", "soignerons", "soignerez", "soigneront", "soignerais", "soignerait", "soignerions", "soigneriez", "soigneraient", "soignés", "soignées", "soignant"],
+      "forms": ["soigne", "soignes", "soignons", "soignez", "soignent", "soigné", "soignée", "soignais", "soignait", "soignions", "soigniez", "soignaient", "soignerai", "soigneras", "soignera", "soignerons", "soignerez", "soigneront", "soignerais", "soignerait", "soignerions", "soigneriez", "soigneraient", "soignés", "soignées", "soignant", "soignai", "soignas", "soigna", "soignâmes", "soignâtes", "soignèrent"],
       "examples": [
         { "fr": "Le médecin **soigne** les malades.", "en": "The doctor treats the sick." },
         { "fr": "Ma mère me **soigne** quand je suis malade.", "en": "My mother looks after me when I'm ill." },
@@ -157,7 +157,7 @@
     { "id": "guerir", "fr": "guérir", "pos": "verb", "ipa": "ɡe.ʁiʁ", "en": "to get better, to recover; to cure",
       "def": "Ne plus être malade. Aussi : soigner une maladie et la faire partir.", "def_en": "To stop being ill. Also: to treat an illness and make it go away.",
       "extra": "Like *finir*: je **guéris**, nous **guérissons**, ils **guérissent**; je suis **guéri(e)**.",
-      "forms": ["guéris", "guérit", "guérissons", "guérissez", "guérissent", "guéri", "guérie", "guéries", "guérissais", "guérissait", "guérissions", "guérissiez", "guérissaient", "guérirai", "guériras", "guérira", "guérirons", "guérirez", "guériront", "guérirais", "guérirait", "guéririons", "guéririez", "guériraient", "guérisse", "guérisses", "guérissant"],
+      "forms": ["guéris", "guérit", "guérissons", "guérissez", "guérissent", "guéri", "guérie", "guéries", "guérissais", "guérissait", "guérissions", "guérissiez", "guérissaient", "guérirai", "guériras", "guérira", "guérirons", "guérirez", "guériront", "guérirais", "guérirait", "guéririons", "guéririez", "guériraient", "guérisse", "guérisses", "guérissant", "guérîmes", "guérîtes", "guérirent"],
       "examples": [
         { "fr": "Je suis **guéri** !", "en": "I'm better!" },
         { "fr": "Elle **guérit** vite.", "en": "She's recovering quickly." },
@@ -208,7 +208,7 @@
       "note": "**être allergique à** + noun. The noun is **une allergie**." },
     { "id": "aller-mieux", "fr": "aller mieux", "pos": "expr", "ipa": "a.le mjø", "en": "to feel better, to be better",
       "def": "Être moins malade qu'avant.", "def_en": "To be less ill than before.",
-      "forms": ["vais mieux", "vas mieux", "va mieux", "allons mieux", "allez mieux", "vont mieux", "allais mieux", "allait mieux"],
+      "forms": ["vais mieux", "vas mieux", "va mieux", "allons mieux", "allez mieux", "vont mieux", "allais mieux", "allait mieux", "alla mieux", "allèrent mieux"],
       "examples": [
         { "fr": "Tu **vas mieux** ?", "en": "Are you feeling better?" },
         { "fr": "Je **vais mieux**, merci !", "en": "I'm feeling better, thanks!" },

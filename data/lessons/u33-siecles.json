@@ -1,0 +1,164 @@
+{
+  "id": "u33-siecles",
+  "type": "vocab",
+  "unit": 33,
+  "title": "Les siècles",
+  "en": "Through the centuries",
+  "intro": "25 words for travelling through time: the periods (**la préhistoire, l'Antiquité, le Moyen Âge, la Renaissance, la période, le millénaire, la décennie, jadis, de nos jours**), what the past leaves us (**la ruine, le vestige, le patrimoine, l'héritage, hériter, antique, contemporain, dater**), how cities grow (**fonder, bâtir, la capitale, industriel, l'imprimerie**) and the people of Lyon's past (**la soie, l'ouvrier, la révolte**).",
+  "words": [
+    { "id": "millenaire", "fr": "millénaire", "pos": "noun", "g": "m", "ipa": "mi.le.nɛʁ", "en": "millennium; (adj) thousand-year-old", "def": "Une période de mille ans. Comme adjectif : qui a plus de mille ans.", "def_en": "A period of a thousand years. As an adjective: more than a thousand years old.", "forms": ["millénaires"], "examples": [
+      { "fr": "Lyon a plus de deux **millénaires**.", "en": "Lyon is more than two thousand years old." },
+      { "fr": "On est entrés dans le troisième **millénaire** en l'an deux mille un.", "en": "We entered the third millennium in the year 2001." },
+      { "fr": "C'est une tradition **millénaire**.", "en": "It's a thousand-year-old tradition." }
+    ] },
+    { "id": "decennie", "fr": "décennie", "pos": "noun", "g": "f", "ipa": "de.se.ni", "en": "decade", "def": "Une période de dix ans.", "def_en": "A period of ten years.", "forms": ["décennies"], "examples": [
+      { "fr": "Ces bâtiments ont moins d'une **décennie**.", "en": "These buildings are less than ten years old." },
+      { "fr": "Le climat change depuis des **décennies**.", "en": "The climate has been changing for decades." },
+      { "fr": "C'était la mode de la dernière **décennie**.", "en": "It was the fashion of the last decade." }
+    ] },
+    { "id": "periode", "fr": "période", "pos": "noun", "g": "f", "ipa": "pe.ʁjɔd", "en": "period, time", "def": "Un moment de l'histoire ou de la vie, plus ou moins long.", "def_en": "A stretch of history or of life, longer or shorter.", "forms": ["périodes"], "examples": [
+      { "fr": "C'est une **période** très importante de l'histoire.", "en": "It's a very important period in history." },
+      { "fr": "Pendant cette **période**, Lyon est devenue riche.", "en": "During this period, Lyon grew rich." },
+      { "fr": "Je traverse une **période** difficile.", "en": "I'm going through a difficult time." }
+    ] },
+    { "id": "antiquite", "fr": "Antiquité", "pos": "noun", "g": "f", "ipa": "ɑ̃.ti.ki.te", "display": "l'Antiquité", "en": "Antiquity, ancient times; (une antiquité) an antique", "def": "La période de l'histoire des Grecs et des Romains, il y a environ deux mille ans.", "def_en": "The period of the Greeks and Romans in history, about two thousand years ago.", "forms": ["antiquités"], "examples": [
+      { "fr": "Ce théâtre date de l'**Antiquité**.", "en": "This theatre dates from ancient times." },
+      { "fr": "Dans l'**Antiquité**, Lyon s'appelait Lugdunum.", "en": "In ancient times, Lyon was called Lugdunum." },
+      { "fr": "Papi adore les **antiquités** : il achète de vieux meubles.", "en": "Grandpa loves antiques: he buys old furniture." }
+    ] },
+    { "id": "moyen-age", "fr": "Moyen Âge", "pos": "noun", "g": "m", "ipa": "mwa.jɛ.nɑʒ", "display": "le Moyen Âge", "en": "the Middle Ages", "def": "La période de l'histoire entre l'Antiquité et la Renaissance, avec les rois, les châteaux et les chevaliers.", "def_en": "The period of history between Antiquity and the Renaissance, with kings, castles and knights.", "examples": [
+      { "fr": "Au **Moyen Âge**, il y avait déjà une ville ici.", "en": "In the Middle Ages, there was already a town here." },
+      { "fr": "Ce château date du **Moyen Âge**.", "en": "This castle dates from the Middle Ages." },
+      { "fr": "Lou adore les histoires du **Moyen Âge**.", "en": "Lou loves stories from the Middle Ages." }
+    ] },
+    { "id": "renaissance", "fr": "Renaissance", "pos": "noun", "g": "f", "ipa": "ʁə.nɛ.sɑ̃s", "display": "la Renaissance", "en": "the Renaissance; (une renaissance) a rebirth", "def": "La période après le Moyen Âge, au quinzième et au seizième siècle, quand l'art et les idées se renouvellent. Aussi : une nouvelle vie.", "def_en": "The period after the Middle Ages, in the fifteenth and sixteenth centuries, when art and ideas were renewed. Also: a new life.", "forms": ["renaissances"], "examples": [
+      { "fr": "Les maisons du Vieux-Lyon datent de la **Renaissance**.", "en": "The houses in Vieux-Lyon date from the Renaissance." },
+      { "fr": "À la **Renaissance**, les artistes italiens sont venus en France.", "en": "In the Renaissance, Italian artists came to France." },
+      { "fr": "Après sa maladie, c'est une vraie **renaissance** pour lui.", "en": "After his illness, it's like being born again for him." }
+    ] },
+    { "id": "prehistoire", "fr": "préhistoire", "pos": "noun", "g": "f", "ipa": "pʁe.is.twaʁ", "display": "la préhistoire", "en": "prehistory", "def": "La période très ancienne, avant l'écriture, quand les hommes vivaient dans des grottes.", "def_en": "The very ancient period, before writing, when people lived in caves.", "examples": [
+      { "fr": "À la **préhistoire**, il y avait des mammouths en France.", "en": "In prehistoric times, there were mammoths in France." },
+      { "fr": "On a trouvé des dessins de la **préhistoire** dans une grotte.", "en": "Prehistoric drawings were found in a cave." },
+      { "fr": "Mon téléphone date de la **préhistoire** !", "en": "My phone is prehistoric!" }
+    ] },
+    { "id": "contemporain", "fr": "contemporain", "pos": "adj", "ipa": "kɔ̃.tɑ̃.pɔ.ʁɛ̃", "display": "contemporain, contemporaine", "en": "contemporary, modern", "def": "Qui est de notre époque, d'aujourd'hui.", "def_en": "From our time, from today.", "forms": ["contemporaine", "contemporains", "contemporaines"], "accept": ["contemporaine"], "examples": [
+      { "fr": "Sophie aime l'architecture **contemporaine**.", "en": "Sophie likes contemporary architecture." },
+      { "fr": "C'est un musée d'art **contemporain**.", "en": "It's a museum of contemporary art." },
+      { "fr": "Les auteurs **contemporains** parlent de notre vie.", "en": "Contemporary writers talk about our lives." }
+    ] },
+    { "id": "antique", "fr": "antique", "pos": "adj", "ipa": "ɑ̃.tik", "en": "ancient; antique", "def": "Qui date de l'Antiquité, des Grecs et des Romains. Aussi : très vieux.", "def_en": "From Antiquity, the Greeks and Romans. Also: very old.", "forms": ["antiques"], "examples": [
+      { "fr": "Ce théâtre **antique** a deux mille ans.", "en": "This ancient theatre is two thousand years old." },
+      { "fr": "Au musée, il y a des statues **antiques**.", "en": "There are ancient statues in the museum." },
+      { "fr": "Ta voiture est **antique** !", "en": "Your car is ancient!" }
+    ] },
+    { "id": "ruine", "fr": "ruine", "pos": "noun", "g": "f", "ipa": "ʁɥin", "en": "ruin", "def": "Ce qui reste d'un vieux bâtiment, abîmé par le temps. Aussi : quand on perd tout son argent.", "def_en": "What is left of an old building, damaged by time. Also: losing all your money.", "forms": ["ruines"], "examples": [
+      { "fr": "On visite les **ruines** du théâtre romain.", "en": "We're visiting the ruins of the Roman theatre." },
+      { "fr": "Ce château est en **ruine**.", "en": "This castle is in ruins." },
+      { "fr": "Après le Monopoly, Hugo était en **ruine** !", "en": "After Monopoly, Hugo was ruined!" }
+    ] },
+    { "id": "vestige", "fr": "vestige", "pos": "noun", "g": "m", "ipa": "vɛs.tiʒ", "en": "remains, trace, relic", "def": "Ce qui reste d'une chose très ancienne : un mur, une pierre, un objet.", "def_en": "What is left of something very old: a wall, a stone, an object.", "forms": ["vestiges"], "examples": [
+      { "fr": "Ces **vestiges** datent de l'Antiquité.", "en": "These remains date from Antiquity." },
+      { "fr": "On a trouvé des **vestiges** romains sous la place.", "en": "Roman remains were found under the square." },
+      { "fr": "Ce vieux mur est le dernier **vestige** du château.", "en": "This old wall is all that's left of the castle." }
+    ] },
+    { "id": "patrimoine", "fr": "patrimoine", "pos": "noun", "g": "m", "ipa": "pa.tʁi.mwan", "en": "heritage (of a country, a town)", "def": "Les monuments, les traditions et les œuvres qu'un pays ou une ville garde de son passé.", "def_en": "The monuments, traditions and works a country or a town keeps from its past.", "examples": [
+      { "fr": "Le Vieux-Lyon fait [partie|partie] du **patrimoine** mondial.", "en": "Vieux-Lyon is a World Heritage Site." },
+      { "fr": "Il faut protéger notre **patrimoine**.", "en": "We must protect our heritage." },
+      { "fr": "Les recettes de Mamie font [partie|partie] du **patrimoine** de la famille !", "en": "Granny's recipes are part of the family heritage!" }
+    ] },
+    { "id": "heritage", "fr": "héritage", "pos": "noun", "g": "m", "ipa": "e.ʁi.taʒ", "en": "inheritance; legacy, heritage", "def": "L'argent ou les choses qu'on reçoit après la mort d'une personne. Aussi : ce qu'on reçoit du passé.", "def_en": "The money or things you receive after someone dies. Also: what you receive from the past.", "forms": ["héritages"], "examples": [
+      { "fr": "Toute cette histoire, c'est notre **héritage**.", "en": "All this history is our legacy." },
+      { "fr": "Il a reçu un petit **héritage** de sa tante.", "en": "He received a small inheritance from his aunt." },
+      { "fr": "La langue française est un **héritage** du latin.", "en": "French is a legacy of Latin." }
+    ] },
+    { "id": "heriter", "fr": "hériter", "pos": "verb", "ipa": "e.ʁi.te", "en": "to inherit", "def": "Recevoir de l'argent, une maison ou un objet après la mort d'une personne. Aussi : recevoir une qualité de ses parents.", "def_en": "To receive money, a house or an object after someone dies. Also: to get a quality from your parents.", "forms": ["hérite", "hérites", "héritons", "héritez", "héritent", "hérité", "héritée", "hérités", "héritées", "héritais", "héritait", "héritions", "héritiez", "héritaient", "hériterai", "hériteras", "héritera", "hériterons", "hériterez", "hériteront", "hériterais", "hériterait", "hériterions", "hériteriez", "hériteraient", "héritant", "héritai", "héritas", "hérita", "héritâmes", "héritâtes", "héritèrent"], "note": "**hériter de** quelque chose.", "examples": [
+      { "fr": "Il a **hérité** de la maison de sa grand-mère.", "en": "He inherited his grandmother's house." },
+      { "fr": "Lou **hérite** des vêtements de Léa.", "en": "Lou gets Léa's hand-me-downs." },
+      { "fr": "J'ai **hérité** du talent de mon père !", "en": "I inherited my father's talent!" }
+    ] },
+    { "id": "fonder", "fr": "fonder", "pos": "verb", "ipa": "fɔ̃.de", "en": "to found, to set up", "def": "Créer une ville, une entreprise ou une association.", "def_en": "To create a town, a company or an association.", "forms": ["fondé", "fondée", "fondés", "fondées", "fonderai", "fonderas", "fondera", "fonderons", "fonderez", "fonderont", "fonderais", "fonderait", "fonderions", "fonderiez", "fonderaient", "fondai", "fondas", "fonda", "fondâmes", "fondâtes", "fondèrent"], "note": "In the present, **fonder** is spelled like **fondre** (to melt): *ils fondent*.", "examples": [
+      { "fr": "Lyon a été **fondée** par les Romains.", "en": "Lyon was founded by the Romans." },
+      { "fr": "Son grand-père a **fondé** cette entreprise.", "en": "His grandfather founded this company." },
+      { "fr": "Un jour, Carla **fondera** son école de danse.", "en": "One day, Carla will set up her dance school." }
+    ] },
+    { "id": "batir", "fr": "bâtir", "pos": "verb", "ipa": "bɑ.tiʁ", "en": "to build", "extra": "like **finir**: je **bâtis**, nous **bâtissons**; j'ai **bâti**.", "def": "Construire une maison, un bâtiment ou une ville.", "def_en": "To build a house, a building or a town.", "forms": ["bâtis", "bâtit", "bâtissons", "bâtissez", "bâtissent", "bâti", "bâtie", "bâties", "bâtissais", "bâtissait", "bâtissions", "bâtissiez", "bâtissaient", "bâtirai", "bâtiras", "bâtira", "bâtirons", "bâtirez", "bâtiront", "bâtirais", "bâtirait", "bâtirions", "bâtiriez", "bâtiraient", "bâtisse", "bâtisses", "bâtissant", "bâtîmes", "bâtîtes", "bâtirent"], "examples": [
+      { "fr": "Ces maisons ont été **bâties** à la Renaissance.", "en": "These houses were built in the Renaissance." },
+      { "fr": "On **bâtit** un nouveau quartier.", "en": "A new district is being built." },
+      { "fr": "Rome ne s'est pas **bâtie** en un jour.", "en": "Rome wasn't built in a day." }
+    ] },
+    { "id": "dater", "fr": "dater", "pos": "verb", "ipa": "da.te", "en": "to date (from); to put a date on", "def": "« Dater de » : avoir [été|etre] construit ou fait à une certaine époque. Aussi : écrire la date sur un document.", "def_en": "'Dater de': to have been built or made at a certain time. Also: to write the date on a document.", "forms": ["date", "dates", "datons", "datez", "datent", "daté", "datée", "datés", "datées", "datais", "datait", "dations", "datiez", "dataient", "daterai", "dateras", "datera", "daterons", "daterez", "dateront", "daterais", "daterait", "daterions", "dateriez", "dateraient", "datant", "datai", "datas", "data", "datâmes", "datâtes", "datèrent"], "examples": [
+      { "fr": "Ce théâtre **date** du premier siècle avant Jésus-Christ.", "en": "This theatre dates from the first century BC." },
+      { "fr": "Ces vestiges **datent** de l'Antiquité.", "en": "These remains date from ancient times." },
+      { "fr": "N'oubliez pas de **dater** et de signer la lettre.", "en": "Don't forget to date and sign the letter." }
+    ] },
+    { "id": "de-nos-jours", "fr": "de nos jours", "pos": "expr", "ipa": "də no ʒuʁ", "en": "nowadays, these days", "def": "À notre époque, aujourd'hui.", "def_en": "In our time, today.", "examples": [
+      { "fr": "**De nos jours**, tout le monde a un téléphone.", "en": "Nowadays, everyone has a phone." },
+      { "fr": "On fait encore des concerts dans ce théâtre **de nos jours**.", "en": "There are still concerts in this theatre these days." },
+      { "fr": "**De nos jours**, les enfants ne jouent plus dehors.", "en": "These days, children don't play outside any more." }
+    ] },
+    { "id": "jadis", "fr": "jadis", "pos": "adv", "ipa": "ʒa.dis", "en": "long ago, in olden days", "def": "Il y a très longtemps, dans le passé.", "def_en": "A very long time ago, in the past.", "examples": [
+      { "fr": "**Jadis**, il y avait des mammouths ici.", "en": "Long ago, there were mammoths here." },
+      { "fr": "**Jadis**, on écrivait avec une plume.", "en": "In olden days, people wrote with a quill." },
+      { "fr": "C'était un château, **jadis**.", "en": "It was a castle, long ago." }
+    ] },
+    { "id": "soie", "fr": "soie", "pos": "noun", "g": "f", "ipa": "swa", "en": "silk", "def": "Un tissu très doux et brillant, qui coûte cher.", "def_en": "A very soft, shiny fabric that costs a lot.", "forms": ["soies"], "examples": [
+      { "fr": "Lyon était la ville de la **soie**.", "en": "Lyon was the city of silk." },
+      { "fr": "Elle porte une robe en **soie**.", "en": "She's wearing a silk dress." },
+      { "fr": "La **soie** est douce et chère.", "en": "Silk is soft and expensive." }
+    ] },
+    { "id": "ouvrier", "fr": "ouvrier", "pos": "noun", "g": "m", "ipa": "u.vʁi.je", "display": "l'ouvrier, l'ouvrière", "en": "worker, labourer; (adj) working-class", "def": "Une personne qui travaille avec ses mains, dans une usine ou sur un chantier.", "def_en": "A person who works with their hands, in a factory or on a building site.", "forms": ["ouvrière", "ouvriers", "ouvrières"], "accept": ["ouvrière", "l'ouvrière"], "examples": [
+      { "fr": "Les **ouvriers** de la soie travaillaient quinze heures par jour.", "en": "The silk workers worked fifteen hours a day." },
+      { "fr": "Les **ouvriers** construisent la piste cyclable.", "en": "The workers are building the cycle lane." },
+      { "fr": "C'est un vieux quartier **ouvrier**.", "en": "It's an old working-class district." }
+    ] },
+    { "id": "revolte", "fr": "révolte", "pos": "noun", "g": "f", "ipa": "ʁe.vɔlt", "en": "revolt, rebellion", "def": "Quand des personnes refusent d'obéir et se battent contre un [pouvoir|pouvoir-n] injuste.", "def_en": "When people refuse to obey and fight against an unfair authority.", "forms": ["révoltes"], "examples": [
+      { "fr": "En mille huit cent trente et un, les ouvriers ont fait une grande **révolte**.", "en": "In 1831, the workers staged a great revolt." },
+      { "fr": "La **révolte** a duré trois jours.", "en": "The rebellion lasted three days." },
+      { "fr": "Pas de dessert ? C'est la **révolte** chez les enfants !", "en": "No dessert? The children are up in arms!" }
+    ] },
+    { "id": "imprimerie", "fr": "imprimerie", "pos": "noun", "g": "f", "ipa": "ɛ̃.pʁi.mʁi", "en": "printing; printing works", "def": "La technique pour imprimer des livres et des journaux. Aussi : l'atelier où on les imprime.", "def_en": "The technique of printing books and newspapers. Also: the workshop where they're printed.", "forms": ["imprimeries"], "examples": [
+      { "fr": "L'**imprimerie** a changé le monde.", "en": "Printing changed the world." },
+      { "fr": "Au seizième siècle, Lyon avait beaucoup d'**imprimeries**.", "en": "In the sixteenth century, Lyon had lots of printing works." },
+      { "fr": "L'**imprimerie** du journal travaille la nuit.", "en": "The newspaper's printing works runs at night." }
+    ] },
+    { "id": "industriel", "fr": "industriel", "pos": "adj", "ipa": "ɛ̃.dys.tʁi.jɛl", "display": "industriel, industrielle", "en": "industrial; (noun) industrialist", "def": "Qui a un rapport avec l'industrie et les usines.", "def_en": "To do with industry and factories.", "forms": ["industrielle", "industriels", "industrielles"], "accept": ["industrielle"], "examples": [
+      { "fr": "Au dix-neuvième siècle, Lyon est devenue une ville **industrielle**.", "en": "In the nineteenth century, Lyon became an industrial city." },
+      { "fr": "C'est un quartier **industriel**, plein d'usines.", "en": "It's an industrial area, full of factories." },
+      { "fr": "Ce pain est **industriel** : il n'a pas de goût !", "en": "This bread is factory-made: it has no taste!" }
+    ] },
+    { "id": "capitale", "fr": "capitale", "pos": "noun", "g": "f", "ipa": "ka.pi.tal", "en": "capital (city)", "def": "La ville la plus importante d'un pays ou d'une région, où il y a le gouvernement.", "def_en": "The most important city in a country or a region, where the government is.", "forms": ["capitales"], "examples": [
+      { "fr": "Paris est la **capitale** de la France.", "en": "Paris is the capital of France." },
+      { "fr": "Dans l'Antiquité, Lyon était la **capitale** des Gaules.", "en": "In ancient times, Lyon was the capital of Gaul." },
+      { "fr": "Lyon est la **capitale** de la bonne cuisine !", "en": "Lyon is the capital of good food!" }
+    ] }
+  ],
+  "story": {
+    "title": "Deux mille ans en un jour",
+    "en": "Sunday 18 October: before Antoine flies home, Sophie takes him and the friends through two thousand years of Lyon.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche dix-huit octobre, Antoine est encore à Lyon. Sophie lui propose une grande [visite|visite] : deux mille ans d'histoire en un jour.", "en": "Sunday 18 October: Antoine is still in Lyon. Sophie offers him a grand tour: two thousand years of history in one day." },
+      { "sp": "", "fr": "Ils commencent en haut de la colline de Fourvière, devant les ruines du théâtre romain.", "en": "They start at the top of Fourvière hill, at the ruins of the Roman theatre." },
+      { "sp": "Sophie", "fr": "Lyon a été fondée par les Romains il y a plus de deux mille ans. À l'époque, elle s'appelait Lugdunum, et c'était la capitale des Gaules.", "en": "Lyon was founded by the Romans more than two thousand years ago. Back then, it was called Lugdunum, and it was the capital of Gaul." },
+      { "sp": "Antoine", "fr": "Deux millénaires ! À Montréal, notre ville a moins de quatre cents ans.", "en": "Two thousand years! In Montréal, our city is less than four hundred years old." },
+      { "sp": "Tom", "fr": "Et ces vestiges datent de l'Antiquité ?", "en": "And these remains date from ancient times?" },
+      { "sp": "Sophie", "fr": "Oui. Ce théâtre antique date du premier siècle avant Jésus-Christ… et de nos jours, on y fait encore des concerts !", "en": "Yes. This ancient theatre dates from the first century BC… and these days, there are still concerts in it!" },
+      { "sp": "", "fr": "Ensuite, ils descendent dans le Vieux-Lyon.", "en": "Then they go down into Vieux-Lyon." },
+      { "sp": "Sophie", "fr": "Ces maisons ont été bâties à la Renaissance, au quinzième et au seizième siècle. Lyon était riche grâce à la soie et à l'imprimerie.", "en": "These houses were built in the Renaissance, in the fifteenth and sixteenth centuries. Lyon was rich thanks to silk and printing." },
+      { "sp": "Hugo", "fr": "Et avant, au Moyen Âge, il y avait quoi ? Des chevaliers ?", "en": "And before that, in the Middle Ages, what was here? Knights?" },
+      { "sp": "Sophie", "fr": "Il y avait déjà une ville, avec sa cathédrale. Et des chevaliers, peut-être, Hugo.", "en": "There was already a town, with its cathedral. And knights, maybe, Hugo." },
+      { "sp": "", "fr": "L'après-midi, ils montent à la Croix-Rousse.", "en": "In the afternoon, they climb up to the Croix-Rousse." },
+      { "sp": "Sophie", "fr": "Au dix-neuvième siècle, c'était le quartier des canuts, les ouvriers de la soie. Ils travaillaient quinze heures par jour.", "en": "In the nineteenth century, this was the district of the canuts, the silk workers. They worked fifteen hours a day." },
+      { "sp": "Léa", "fr": "En mille huit cent trente et un, ils ont fait une grande révolte. C'est une partie importante de notre patrimoine.", "en": "In 1831, they staged a great revolt. It's an important part of our heritage." },
+      { "sp": "Tom", "fr": "Et c'est à cette période que Lyon est devenue une ville industrielle ?", "en": "And is that when Lyon became an industrial city?" },
+      { "sp": "Sophie", "fr": "Exactement. Et à la fin du siècle, en mille huit cent quatre-vingt-quinze, les frères Lumière ont inventé le cinéma ici !", "en": "Exactly. And at the end of the century, in 1895, the Lumière brothers invented cinema here!" },
+      { "sp": "Antoine", "fr": "Sans eux, pas de film pour moi ! J'ai hérité de leur talent.", "en": "Without them, no film for me! I inherited their talent." },
+      { "sp": "", "fr": "Le soir, ils arrivent à la Confluence, le quartier le plus moderne de Lyon.", "en": "In the evening, they reach the Confluence, the most modern district in Lyon." },
+      { "sp": "Sophie", "fr": "Voilà l'architecture contemporaine. Ces bâtiments ont moins d'une décennie.", "en": "Here's contemporary architecture. These buildings are less than ten years old." },
+      { "sp": "Hugo", "fr": "Et la préhistoire ? On a oublié les dinosaures !", "en": "And prehistory? We forgot the dinosaurs!" },
+      { "sp": "Sophie", "fr": "Désolée, Hugo : à Lyon, pas de dinosaures. Mais jadis, il y avait des mammouths !", "en": "Sorry, Hugo: no dinosaurs in Lyon. But long ago, there were mammoths!" },
+      { "sp": "Léa", "fr": "Toute cette histoire, c'est notre héritage. Il faut la protéger.", "en": "All this history is our legacy. We have to protect it." },
+      { "sp": "Antoine", "fr": "Quelle journée ! Deux mille ans en un jour… et pas une seule pause café !", "en": "What a day! Two thousand years in one day… and not a single coffee break!" }
+    ]
+  }
+}

@@ -41,7 +41,7 @@
     { "id": "pleuvoir", "fr": "pleuvoir", "pos": "verb", "ipa": "plø.vwaʁ", "en": "to rain",
       "def": "L'eau tombe des nuages : il pleut.", "def_en": "Water falls from the clouds: it's raining.",
       "extra": "Used only with **il**: **il pleut** (it's raining, it rains).",
-      "forms": ["pleut", "plu", "pleuvait", "pleuvra", "pleuvrait", "pleuve", "pleuvant"],
+      "forms": ["pleut", "plu", "pleuvait", "pleuvra", "pleuvrait", "pleuve", "pleuvant", "plut"],
       "examples": [
         { "fr": "Il **pleut** ! Tu as ton parapluie ?", "en": "It's raining! Have you got your umbrella?" },
         { "fr": "Il **pleut** souvent à Londres.", "en": "It often rains in London." },
@@ -59,7 +59,7 @@
     { "id": "neiger", "fr": "neiger", "pos": "verb", "ipa": "ne.ʒe", "en": "to snow",
       "def": "La neige tombe du ciel : il neige.", "def_en": "Snow falls from the sky: it's snowing.",
       "extra": "Like *pleuvoir*, used only with **il**: **il neige** (it's snowing, it snows).",
-      "forms": ["neige", "neigé", "neigeait", "neigera", "neigerait", "neigée", "neigés", "neigées", "neigeant"],
+      "forms": ["neige", "neigé", "neigeait", "neigera", "neigerait", "neigée", "neigés", "neigées", "neigeant", "neigeai", "neigeas", "neigea", "neigeâmes", "neigeâtes", "neigèrent"],
       "examples": [
         { "fr": "Il **neige** ! Tout est blanc.", "en": "It's snowing! Everything is white." },
         { "fr": "Il **neige** souvent à Montréal.", "en": "It often snows in Montréal." },
@@ -189,7 +189,7 @@
       "note": "**para** + **pluie** = against the rain. A sunshade is **un parasol**." },
     { "id": "briller", "fr": "briller", "pos": "verb", "ipa": "bʁi.je", "en": "to shine",
       "def": "Donner une belle lumière, comme le soleil.", "def_en": "To give off a lovely light, like the sun.",
-      "forms": ["brille", "brilles", "brillons", "brillez", "brillent", "brillais", "brillait", "brillions", "brilliez", "brillaient", "brillerai", "brilleras", "brillera", "brillerons", "brillerez", "brilleront", "brillerais", "brillerait", "brillerions", "brilleriez", "brilleraient", "brillé", "brillée", "brillés", "brillées", "brillant"],
+      "forms": ["brille", "brilles", "brillons", "brillez", "brillent", "brillais", "brillait", "brillions", "brilliez", "brillaient", "brillerai", "brilleras", "brillera", "brillerons", "brillerez", "brilleront", "brillerais", "brillerait", "brillerions", "brilleriez", "brilleraient", "brillé", "brillée", "brillés", "brillées", "brillant", "brillai", "brillas", "brilla", "brillâmes", "brillâtes", "brillèrent"],
       "examples": [
         { "fr": "Le soleil **brille** !", "en": "The sun is shining!" },
         { "fr": "Les étoiles **brillent** dans le ciel.", "en": "The stars are shining in the sky." },

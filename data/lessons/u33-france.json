@@ -1,0 +1,165 @@
+{
+  "id": "u33-france",
+  "type": "vocab",
+  "unit": 33,
+  "title": "L'histoire de France",
+  "en": "French history",
+  "intro": "25 words for French history: kings and emperors (**le roi, la reine, l'empereur, l'empire, le royaume, la monarchie, la couronne, le trône, régner, le règne, le pouvoir, le palais, noble**), the people and the nation (**le peuple, la révolution, la nation, national, le drapeau, l'hymne**), conquests (**conquérir, la conquête, gaulois, romain**) and the study of it all (**historique, l'historien**).",
+  "words": [
+    { "id": "roi", "fr": "roi", "pos": "noun", "g": "m", "ipa": "ʁwa", "en": "king", "def": "L'homme qui dirige un pays toute sa vie, après son père.", "def_en": "The man who rules a country all his life, after his father.", "forms": ["rois"], "examples": [
+      { "fr": "Louis XIV était le **roi** de France.", "en": "Louis XIV was the King of France." },
+      { "fr": "Le **roi** et la reine habitent au château.", "en": "The king and queen live in the castle." },
+      { "fr": "Au Moyen Âge, les **rois** faisaient souvent la guerre.", "en": "In the Middle Ages, kings often went to war." }
+    ] },
+    { "id": "reine", "fr": "reine", "pos": "noun", "g": "f", "ipa": "ʁɛn", "en": "queen", "def": "La femme qui dirige un pays, ou la femme d'un roi.", "def_en": "The woman who rules a country, or a king's wife.", "forms": ["reines"], "examples": [
+      { "fr": "La **reine** [porte|porter] une belle couronne.", "en": "The queen is wearing a beautiful crown." },
+      { "fr": "La **reine** d'Angleterre était très connue.", "en": "The Queen of England was very famous." },
+      { "fr": "À mardi gras, Léa était la **reine** de la fête.", "en": "On Mardi Gras, Léa was the queen of the party." }
+    ] },
+    { "id": "empereur", "fr": "empereur", "pos": "noun", "g": "m", "ipa": "ɑ̃.pʁœʁ", "display": "l'empereur, l'impératrice", "en": "emperor", "def": "Le chef d'un empire, plus important qu'un roi.", "def_en": "The head of an empire, more important than a king.", "forms": ["empereurs", "impératrice", "impératrices"], "accept": ["impératrice", "l'impératrice"], "examples": [
+      { "fr": "Napoléon est devenu **empereur** en mille huit cent quatre.", "en": "Napoleon became emperor in 1804." },
+      { "fr": "Charlemagne était un **empereur** très important.", "en": "Charlemagne was a very important emperor." },
+      { "fr": "L'**empereur** a perdu la bataille.", "en": "The emperor lost the battle." }
+    ] },
+    { "id": "empire", "fr": "empire", "pos": "noun", "g": "m", "ipa": "ɑ̃.piʁ", "en": "empire", "def": "Un très grand pays, ou un groupe de pays, dirigé par un empereur.", "def_en": "A very large country, or a group of countries, ruled by an emperor.", "forms": ["empires"], "examples": [
+      { "fr": "L'**empire** romain était immense.", "en": "The Roman Empire was huge." },
+      { "fr": "Napoléon voulait un **empire** dans toute l'Europe.", "en": "Napoleon wanted an empire across Europe." },
+      { "fr": "Cette entreprise, c'est un **empire** du chocolat !", "en": "This company is a chocolate empire!" }
+    ] },
+    { "id": "royaume", "fr": "royaume", "pos": "noun", "g": "m", "ipa": "ʁwa.jom", "en": "kingdom", "def": "Un pays dirigé par un roi ou une reine.", "def_en": "A country ruled by a king or a queen.", "forms": ["royaumes"], "examples": [
+      { "fr": "Pendant des siècles, la France était un **royaume**.", "en": "For centuries, France was a kingdom." },
+      { "fr": "Dans les contes, le **royaume** est toujours très loin.", "en": "In fairy tales, the kingdom is always very far away." },
+      { "fr": "Le chat est le roi de son petit **royaume**.", "en": "The cat is king of his little kingdom." }
+    ] },
+    { "id": "couronne", "fr": "couronne", "pos": "noun", "g": "f", "ipa": "ku.ʁɔn", "en": "crown", "def": "Ce qu'un roi ou une reine porte sur la tête.", "def_en": "What a king or a queen wears on their head.", "forms": ["couronnes"], "examples": [
+      { "fr": "Minou a porté la **couronne** de la galette.", "en": "Minou wore the crown from the galette." },
+      { "fr": "La **couronne** du roi est très lourde.", "en": "The king's crown is very heavy." },
+      { "fr": "La reine a perdu sa **couronne**.", "en": "The queen lost her crown." }
+    ] },
+    { "id": "trone", "fr": "trône", "pos": "noun", "g": "m", "ipa": "tʁon", "en": "throne", "def": "Le grand fauteuil d'un roi ou d'une reine.", "def_en": "The big chair of a king or a queen.", "forms": ["trônes"], "examples": [
+      { "fr": "Le roi est assis sur son **trône**.", "en": "The king is sitting on his throne." },
+      { "fr": "Louis XIV est monté sur le **trône** à quatre ans.", "en": "Louis XIV came to the throne at the age of four." },
+      { "fr": "Hugo dit que le canapé est son **trône**.", "en": "Hugo says the sofa is his throne." }
+    ] },
+    { "id": "regner", "fr": "régner", "pos": "verb", "ipa": "ʁe.ɲe", "en": "to reign, to rule; to prevail", "extra": "é → è before a silent ending: il **règne**, ils **règnent**; nous **régnons**.", "def": "Être roi, reine ou empereur, et diriger un pays. Aussi : être partout dans un lieu.", "def_en": "To be king, queen or emperor and rule a country. Also: to be everywhere in a place.", "forms": ["règne", "règnes", "régnons", "régnez", "règnent", "régné", "régnais", "régnait", "régnions", "régniez", "régnaient", "régnerai", "régneras", "régnera", "régnerons", "régnerez", "régneront", "régnerais", "régnerait", "régnerions", "régneriez", "régneraient", "régnant", "régnai", "régnas", "régna", "régnâmes", "régnâtes", "régnèrent"], "examples": [
+      { "fr": "Louis XIV a **régné** soixante-douze ans.", "en": "Louis XIV reigned for seventy-two years." },
+      { "fr": "Le silence **règne** dans la classe.", "en": "Silence reigns in the classroom." },
+      { "fr": "Ce roi **régnait** sur un grand pays.", "en": "This king ruled over a large country." }
+    ] },
+    { "id": "regne", "fr": "règne", "pos": "noun", "g": "m", "ipa": "ʁɛɲ", "en": "reign", "def": "Le temps pendant lequel un roi ou une reine dirige un pays.", "def_en": "The time during which a king or a queen rules a country.", "forms": ["règnes"], "examples": [
+      { "fr": "Le **règne** de Louis XIV a duré soixante-douze ans.", "en": "Louis XIV's reign lasted seventy-two years." },
+      { "fr": "Sous son **règne**, le pays était riche.", "en": "Under his reign, the country was rich." },
+      { "fr": "C'est le **règne** du téléphone !", "en": "The phone rules everything now!" }
+    ] },
+    { "id": "revolution", "fr": "révolution", "pos": "noun", "g": "f", "ipa": "ʁe.vɔ.ly.sjɔ̃", "en": "revolution", "def": "Un très grand changement, souvent dur et rapide, quand le peuple veut diriger son pays.", "def_en": "A very big change, often harsh and fast, when the people want to run their country.", "forms": ["révolutions"], "note": "**la Révolution** (française) began in 1789.", "examples": [
+      { "fr": "La **Révolution** française a commencé en mille sept cent quatre-vingt-neuf.", "en": "The French Revolution began in 1789." },
+      { "fr": "Internet a été une vraie **révolution**.", "en": "The internet was a real revolution." },
+      { "fr": "Les **révolutions** changent l'histoire.", "en": "Revolutions change history." }
+    ] },
+    { "id": "peuple", "fr": "peuple", "pos": "noun", "g": "m", "ipa": "pœpl", "en": "people (a nation; ordinary people)", "def": "Toutes les personnes d'un pays. Aussi : les gens simples, qui ne sont pas riches.", "def_en": "All the people of a country. Also: ordinary people, who aren't rich.", "forms": ["peuples"], "examples": [
+      { "fr": "Le **peuple** de Paris a pris la Bastille.", "en": "The people of Paris stormed the Bastille." },
+      { "fr": "Les **peuples** d'Europe vivent en paix.", "en": "The peoples of Europe live in peace." },
+      { "fr": "Le roi n'écoutait pas le **peuple**.", "en": "The king didn't listen to the people." }
+    ] },
+    { "id": "noble", "fr": "noble", "pos": "adj", "ipa": "nɔbl", "en": "noble; (noun) nobleman, noblewoman", "def": "Qui fait [partie|partie] d'une famille riche et importante, proche du roi. Aussi : généreux, qui a de grandes qualités.", "def_en": "From a rich, important family close to the king. Also: generous, with great qualities.", "forms": ["nobles"], "examples": [
+      { "fr": "Avant la Révolution, les **nobles** ne payaient pas d'impôts.", "en": "Before the Revolution, nobles paid no taxes." },
+      { "fr": "C'est une famille **noble**.", "en": "It's a noble family." },
+      { "fr": "Il a fait un geste très **noble**.", "en": "He made a very noble gesture." }
+    ] },
+    { "id": "palais", "fr": "palais", "pos": "noun", "g": "m", "ipa": "pa.lɛ", "en": "palace", "def": "Une très grande et belle maison, pour un roi ou une personne très importante.", "def_en": "A very large, beautiful house for a king or a very important person.", "examples": [
+      { "fr": "Le **palais** de Versailles est magnifique.", "en": "The Palace of Versailles is magnificent." },
+      { "fr": "Le président habite dans un **palais**.", "en": "The president lives in a palace." },
+      { "fr": "Pour Lou, sa chambre est un **palais**.", "en": "To Lou, her bedroom is a palace." }
+    ] },
+    { "id": "conquerir", "fr": "conquérir", "pos": "verb", "ipa": "kɔ̃.ke.ʁiʁ", "en": "to conquer; to win (over)", "extra": "je **conquiers**, nous **conquérons**, ils **conquièrent**; j'ai **conquis**.", "def": "Prendre un pays ou une ville par la force. Aussi : gagner le cœur de quelqu'un.", "def_en": "To take a country or a town by force. Also: to win someone's heart.", "forms": ["conquiers", "conquiert", "conquérons", "conquérez", "conquièrent", "conquis", "conquise", "conquises", "conquérais", "conquérait", "conquérions", "conquériez", "conquéraient", "conquerrai", "conquerras", "conquerra", "conquerrons", "conquerrez", "conquerront", "conquerrais", "conquerrait", "conquerrions", "conquerriez", "conquerraient", "conquière", "conquières", "conquérant", "conquit", "conquîmes", "conquîtes", "conquirent"], "examples": [
+      { "fr": "Les Romains ont **conquis** la Gaule.", "en": "The Romans conquered Gaul." },
+      { "fr": "Napoléon voulait **conquérir** l'Europe.", "en": "Napoleon wanted to conquer Europe." },
+      { "fr": "Carla a **conquis** le cœur de Hugo.", "en": "Carla won Hugo's heart." }
+    ] },
+    { "id": "conquete", "fr": "conquête", "pos": "noun", "g": "f", "ipa": "kɔ̃.kɛt", "en": "conquest", "def": "Quand on prend un pays ou une ville par la force.", "def_en": "When a country or a town is taken by force.", "forms": ["conquêtes"], "examples": [
+      { "fr": "La **conquête** de la Gaule a duré huit ans.", "en": "The conquest of Gaul took eight years." },
+      { "fr": "Les **conquêtes** de Napoléon ont changé l'Europe.", "en": "Napoleon's conquests changed Europe." },
+      { "fr": "La **conquête** de l'espace a commencé il y a soixante-dix ans.", "en": "The conquest of space began seventy years ago." }
+    ] },
+    { "id": "gaulois", "fr": "gaulois", "pos": "adj", "ipa": "ɡo.lwa", "display": "gaulois, gauloise", "en": "Gaulish, from Gaul; (les Gaulois) the Gauls", "def": "Qui vient de la Gaule, le pays des habitants de la France avant les Romains.", "def_en": "From Gaul, the land of France's inhabitants before the Romans.", "forms": ["gauloise", "gauloises"], "accept": ["gauloise"], "examples": [
+      { "fr": "Les **Gaulois** vivaient dans des villages.", "en": "The Gauls lived in villages." },
+      { "fr": "C'est un vieux mot **gaulois**.", "en": "It's an old Gaulish word." },
+      { "fr": "Les Français aiment dire qu'ils sont **gaulois**.", "en": "The French like to say they're Gauls." }
+    ] },
+    { "id": "romain", "fr": "romain", "pos": "adj", "ipa": "ʁɔ.mɛ̃", "display": "romain, romaine", "en": "Roman", "def": "Qui vient de Rome, la ville et l'empire de l'Antiquité.", "def_en": "From Rome, the city and empire of ancient times.", "forms": ["romaine", "romains", "romaines"], "accept": ["romaine"], "examples": [
+      { "fr": "Lyon était une ville **romaine**.", "en": "Lyon was a Roman city." },
+      { "fr": "Le théâtre **romain** de Fourvière est très vieux.", "en": "The Roman theatre on Fourvière is very old." },
+      { "fr": "Les **Romains** ont construit des routes partout.", "en": "The Romans built roads everywhere." }
+    ] },
+    { "id": "nation", "fr": "nation", "pos": "noun", "g": "f", "ipa": "na.sjɔ̃", "en": "nation", "def": "Un peuple qui partage une histoire et une langue, et souvent un pays.", "def_en": "A people sharing a history and a language, and often a country.", "forms": ["nations"], "examples": [
+      { "fr": "La France est une vieille **nation**.", "en": "France is an old nation." },
+      { "fr": "Les **nations** travaillent ensemble pour la paix.", "en": "Nations work together for peace." },
+      { "fr": "C'est une fête pour toute la **nation**.", "en": "It's a celebration for the whole nation." }
+    ] },
+    { "id": "national", "fr": "national", "pos": "adj", "ipa": "na.sjɔ.nal", "display": "national, nationale", "en": "national (la fête nationale = the national holiday)", "def": "Qui a un rapport avec tout un pays.", "def_en": "To do with a whole country.", "forms": ["nationale", "nationaux", "nationales"], "accept": ["nationale"], "examples": [
+      { "fr": "Le quatorze juillet est la fête **nationale**.", "en": "The fourteenth of July is the national holiday." },
+      { "fr": "L'équipe **nationale** a gagné !", "en": "The national team has won!" },
+      { "fr": "C'est un musée **national**.", "en": "It's a national museum." }
+    ] },
+    { "id": "monarchie", "fr": "monarchie", "pos": "noun", "g": "f", "ipa": "mɔ.naʁ.ʃi", "en": "monarchy", "def": "Un pays dirigé par un roi ou une reine.", "def_en": "A country ruled by a king or a queen.", "forms": ["monarchies"], "examples": [
+      { "fr": "Avant la Révolution, la France était une **monarchie**.", "en": "Before the Revolution, France was a monarchy." },
+      { "fr": "L'Angleterre a encore une **monarchie**.", "en": "England still has a monarchy." },
+      { "fr": "En France, la **monarchie** a fini en mille sept cent quatre-vingt-douze.", "en": "In France, the monarchy ended in 1792." }
+    ] },
+    { "id": "drapeau", "fr": "drapeau", "pos": "noun", "g": "m", "ipa": "dʁa.po", "en": "flag", "def": "Un morceau de tissu, aux couleurs d'un pays.", "def_en": "A piece of cloth in a country's colours.", "forms": ["drapeaux"], "examples": [
+      { "fr": "Le **drapeau** français est bleu, blanc, rouge.", "en": "The French flag is blue, white and red." },
+      { "fr": "Il y a des **drapeaux** devant la mairie.", "en": "There are flags outside the town hall." },
+      { "fr": "Tom a un petit **drapeau** anglais sur son vélo.", "en": "Tom has a little English flag on his bike." }
+    ] },
+    { "id": "hymne", "fr": "hymne", "pos": "noun", "g": "m", "ipa": "imn", "en": "anthem; hymn", "def": "Une chanson importante pour un pays ou un groupe. « L'hymne national » : la chanson officielle d'un pays.", "def_en": "An important song for a country or a group. 'L'hymne national': a country's official song.", "forms": ["hymnes"], "examples": [
+      { "fr": "L'**hymne** national français s'appelle la Marseillaise.", "en": "The French national anthem is called the Marseillaise." },
+      { "fr": "Tout le monde chante l'**hymne** avant le match.", "en": "Everyone sings the anthem before the match." },
+      { "fr": "Cet **hymne** est très ancien.", "en": "This anthem is very old." }
+    ] },
+    { "id": "historique", "fr": "historique", "pos": "adj", "ipa": "is.tɔ.ʁik", "en": "historic, historical", "def": "Qui a un rapport avec l'histoire, ou qui est important pour l'histoire.", "def_en": "To do with history, or important for history.", "forms": ["historiques"], "examples": [
+      { "fr": "C'est un jour **historique** !", "en": "It's a historic day!" },
+      { "fr": "Ce bâtiment est un monument **historique**.", "en": "This building is a historic monument." },
+      { "fr": "J'adore les films **historiques**.", "en": "I love historical films." }
+    ] },
+    { "id": "historien", "fr": "historien", "pos": "noun", "g": "m", "ipa": "is.tɔ.ʁjɛ̃", "display": "l'historien, l'historienne", "en": "historian", "def": "Une personne qui étudie le passé et qui écrit sur l'histoire.", "def_en": "A person who studies the past and writes about history.", "forms": ["historienne", "historiens", "historiennes"], "accept": ["historienne", "l'historienne"], "examples": [
+      { "fr": "Marc n'est pas **historien**, mais il connaît bien l'histoire.", "en": "Marc isn't a historian, but he knows his history." },
+      { "fr": "Les **historiens** ne sont pas d'accord.", "en": "Historians don't agree." },
+      { "fr": "Elle veut devenir **historienne**.", "en": "She wants to become a historian." }
+    ] },
+    { "id": "pouvoir-n", "fr": "pouvoir", "pos": "noun", "g": "m", "manual": true, "ipa": "pu.vwaʁ", "en": "power", "def": "Le droit et la force de diriger un pays, ou de décider pour les autres.", "def_en": "The right and the strength to rule a country, or to decide for other people.", "forms": ["pouvoirs"], "note": "The verb **pouvoir** (can) is spelled the same: *je ne peux pas*.", "examples": [
+      { "fr": "Le roi avait tout le **[pouvoir|pouvoir-n]**.", "en": "The king had all the power." },
+      { "fr": "Ce parti veut prendre le **[pouvoir|pouvoir-n]**.", "en": "This party wants to take power." },
+      { "fr": "Dans les contes, les fées ont des **[pouvoirs|pouvoir-n]** magiques.", "en": "In fairy tales, fairies have magic powers." }
+    ] }
+  ],
+  "story": {
+    "title": "Le quiz d'histoire",
+    "en": "Thursday 15 October: Marc runs a French history quiz. Two teams, a few English kings to forgive, and a prize.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi quinze octobre, Marc organise un quiz sur l'histoire de France. Deux équipes : Léa et Tom contre Inès et Carla.", "en": "Thursday 15 October: Marc runs a quiz on French history. Two teams: Léa and Tom against Inès and Carla." },
+      { "sp": "Marc", "fr": "Première question : qui étaient les premiers habitants de la France ?", "en": "First question: who were the first inhabitants of France?" },
+      { "sp": "Tom", "fr": "Les Gaulois ! Je les connais grâce aux bandes dessinées.", "en": "The Gauls! I know them from comic books." },
+      { "sp": "Marc", "fr": "Bravo. Ensuite, les Romains ont conquis la Gaule. Et Lyon était une grande ville romaine.", "en": "Well done. Then the Romans conquered Gaul. And Lyon was a big Roman city." },
+      { "sp": "Marc", "fr": "Deuxième question : en l'an huit cents, qui est devenu empereur ?", "en": "Second question: in the year 800, who became emperor?" },
+      { "sp": "Inès", "fr": "Charlemagne ! Son empire était immense.", "en": "Charlemagne! His empire was huge." },
+      { "sp": "Marc", "fr": "Troisième question : quelle jeune fille a combattu les Anglais pour libérer le royaume ?", "en": "Third question: which young woman fought the English to free the kingdom?" },
+      { "sp": "Carla", "fr": "Jeanne d'Arc !", "en": "Joan of Arc!" },
+      { "sp": "Tom", "fr": "Encore les Anglais ! Pourquoi c'est toujours nous, les ennemis ?", "en": "The English again! Why are we always the enemy?" },
+      { "sp": "Marc", "fr": "Quatrième question : quel roi a régné soixante-douze ans ?", "en": "Fourth question: which king reigned for seventy-two years?" },
+      { "sp": "Léa", "fr": "Louis XIV, le Roi-Soleil ! Il a fait construire le palais de Versailles. Sur son trône, il avait tout le [pouvoir|pouvoir-n].", "en": "Louis XIV, the Sun King! He had the Palace of Versailles built. On his throne, he had all the power." },
+      { "sp": "Marc", "fr": "Parfait. Sous son règne, le pays était riche… mais le peuple était pauvre.", "en": "Perfect. Under his reign, the country was rich… but the people were poor." },
+      { "sp": "Marc", "fr": "Cinquième question : qu'est-ce qui s'est passé le quatorze juillet mille sept cent quatre-vingt-neuf ?", "en": "Fifth question: what happened on 14 July 1789?" },
+      { "sp": "Inès", "fr": "Le peuple de Paris a pris la Bastille. C'était le début de la Révolution !", "en": "The people of Paris stormed the Bastille. It was the start of the Revolution!" },
+      { "sp": "Carla", "fr": "Et après, plus de roi, plus de reine, plus de couronne ! Les nobles avaient très peur.", "en": "And after that, no more king, no more queen, no more crown! The nobles were very scared." },
+      { "sp": "Marc", "fr": "Sixième question : qui a été le premier empereur des Français ?", "en": "Sixth question: who was the first emperor of the French?" },
+      { "sp": "Carla", "fr": "Napoléon ! Il a fait beaucoup de conquêtes… Il a même envahi l'Espagne !", "en": "Napoleon! He made lots of conquests… He even invaded Spain!" },
+      { "sp": "Marc", "fr": "Dernière question : comment s'appelle l'hymne national ?", "en": "Last question: what is the national anthem called?" },
+      { "sp": "Tom", "fr": "La Marseillaise ! Et je connais aussi le drapeau : bleu, blanc, rouge.", "en": "The Marseillaise! And I know the flag too: blue, white, red." },
+      { "sp": "Marc", "fr": "Égalité ! La Marseillaise, c'est la chanson de toute la nation. Aujourd'hui, la France n'est plus une monarchie, mais elle aime toujours ses rois… dans les musées !", "en": "It's a draw! The Marseillaise is the song of the whole nation. Today France isn't a monarchy any more, but it still loves its kings… in museums!" },
+      { "sp": "Léa", "fr": "Vous auriez dû être historien, Marc !", "en": "You should have been a historian, Marc!" },
+      { "sp": "", "fr": "Marc donne une couronne en papier à chaque équipe. Tom met la sienne sur sa tête.", "en": "Marc gives each team a paper crown. Tom puts his on his head." },
+      { "sp": "Tom", "fr": "Le premier roi anglais de France ! C'est un moment historique !", "en": "The first English king of France! It's a historic moment!" }
+    ]
+  }
+}

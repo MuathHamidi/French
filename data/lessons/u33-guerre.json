@@ -1,0 +1,162 @@
+{
+  "id": "u33-guerre",
+  "type": "vocab",
+  "unit": 33,
+  "title": "La guerre et la paix",
+  "en": "War and peace",
+  "intro": "25 words for war and peace: the war itself (**la guerre, l'armée, le soldat, la bataille, combattre, l'arme, la bombe, envahir, l'occupation, l'ennemi, l'allié**), how it ends (**la défaite, la victoire, la libération, libérer, l'armistice, la paix**), the people (**la résistance, le résistant, le réfugié, le prisonnier, la mort**) and remembering (**la mémoire, la cérémonie, commémorer**).",
+  "words": [
+    { "id": "guerre", "fr": "guerre", "pos": "noun", "g": "f", "ipa": "ɡɛʁ", "en": "war", "def": "Quand des pays ou des groupes se battent avec des armes, pendant longtemps.", "def_en": "When countries or groups fight with weapons, for a long time.", "forms": ["guerres"], "note": "**la Première / la Seconde Guerre mondiale** = World War One / Two.", "examples": [
+      { "fr": "Pendant la **guerre**, la vie était très dure.", "en": "During the war, life was very hard." },
+      { "fr": "La **guerre** a duré six ans.", "en": "The war lasted six years." },
+      { "fr": "Plus jamais de **guerre** !", "en": "Never again war!" }
+    ] },
+    { "id": "paix", "fr": "paix", "pos": "noun", "g": "f", "ipa": "pɛ", "en": "peace", "def": "Quand il n'y a pas de guerre, et que les gens vivent ensemble sans se battre.", "def_en": "When there's no war, and people live together without fighting.", "note": "**Fiche-moi la paix !** (informal) = Leave me alone!", "examples": [
+      { "fr": "Aujourd'hui, l'Europe vit en **paix**.", "en": "Today, Europe lives in peace." },
+      { "fr": "Les deux pays ont signé la **paix**.", "en": "The two countries signed a peace treaty." },
+      { "fr": "Je veux un peu de **paix** et de silence !", "en": "I want a bit of peace and quiet!" }
+    ] },
+    { "id": "soldat", "fr": "soldat", "pos": "noun", "g": "m", "ipa": "sɔl.da", "display": "le soldat, la soldate", "en": "soldier", "def": "Une personne qui fait [partie|partie] d'une armée, et qui se bat pour son pays.", "def_en": "A person in an army, who fights for their country.", "forms": ["soldats", "soldate", "soldates"], "accept": ["soldate", "la soldate"], "examples": [
+      { "fr": "Le **soldat** [porte|porter] un uniforme.", "en": "The soldier is wearing a uniform." },
+      { "fr": "Des milliers de **soldats** sont morts dans cette bataille.", "en": "Thousands of soldiers died in this battle." },
+      { "fr": "Son grand-père était **soldat**.", "en": "His grandfather was a soldier." }
+    ] },
+    { "id": "armee", "fr": "armée", "pos": "noun", "g": "f", "ipa": "aʁ.me", "en": "army", "def": "Tous les soldats d'un pays.", "def_en": "All the soldiers of a country.", "forms": ["armées"], "examples": [
+      { "fr": "L'**armée** a traversé la frontière.", "en": "The army crossed the border." },
+      { "fr": "Il est entré dans l'**armée** à dix-huit ans.", "en": "He joined the army at eighteen." },
+      { "fr": "Les deux **armées** se sont battues pendant trois jours.", "en": "The two armies fought for three days." }
+    ] },
+    { "id": "bataille", "fr": "bataille", "pos": "noun", "g": "f", "ipa": "ba.taj", "en": "battle", "def": "Un combat entre deux armées, à un endroit et un moment précis.", "def_en": "A fight between two armies, at a particular place and time.", "forms": ["batailles"], "examples": [
+      { "fr": "La France a perdu la **bataille**.", "en": "France lost the battle." },
+      { "fr": "Napoléon a gagné beaucoup de **batailles**.", "en": "Napoleon won lots of battles." },
+      { "fr": "Les enfants font une **bataille** de coussins.", "en": "The children are having a pillow fight." }
+    ] },
+    { "id": "ennemi", "fr": "ennemi", "pos": "noun", "g": "m", "ipa": "ɛn.mi", "display": "l'ennemi, l'ennemie", "en": "enemy", "def": "La personne ou le pays contre qui on se bat.", "def_en": "The person or country you fight against.", "forms": ["ennemie", "ennemis", "ennemies"], "accept": ["ennemie", "l'ennemie"], "examples": [
+      { "fr": "L'**ennemi** est entré dans la ville.", "en": "The enemy entered the town." },
+      { "fr": "Ces deux pays étaient des **ennemis**.", "en": "These two countries were enemies." },
+      { "fr": "Le sucre est l'**ennemi** de mes dents !", "en": "Sugar is my teeth's enemy!" }
+    ] },
+    { "id": "allie", "fr": "allié", "pos": "noun", "g": "m", "ipa": "a.lje", "display": "l'allié, l'alliée", "en": "ally; (adj) allied", "def": "Un pays ou une personne qui aide, qui est du même côté dans un combat.", "def_en": "A country or a person who helps, on the same side in a fight.", "forms": ["alliée", "alliés", "alliées"], "accept": ["alliée", "l'alliée"], "examples": [
+      { "fr": "Les **Alliés** ont libéré la France en mille neuf cent quarante-quatre.", "en": "The Allies freed France in 1944." },
+      { "fr": "Les soldats **alliés** sont arrivés à Marseille.", "en": "The allied soldiers arrived in Marseille." },
+      { "fr": "Dans cette dispute, Léa est mon **alliée**.", "en": "In this argument, Léa is on my side." }
+    ] },
+    { "id": "victoire", "fr": "victoire", "pos": "noun", "g": "f", "ipa": "vik.twaʁ", "en": "victory, win", "def": "Quand on gagne une bataille, une guerre, un match ou un concours.", "def_en": "When you win a battle, a war, a match or a competition.", "forms": ["victoires"], "examples": [
+      { "fr": "Le huit mai, on fête la **victoire** de mille neuf cent quarante-cinq.", "en": "On 8 May, people celebrate the 1945 victory." },
+      { "fr": "Quelle belle **victoire** pour l'équipe !", "en": "What a great win for the team!" },
+      { "fr": "Après chaque **victoire**, il chante dans la rue.", "en": "After every win, he sings in the street." }
+    ] },
+    { "id": "defaite", "fr": "défaite", "pos": "noun", "g": "f", "ipa": "de.fɛt", "en": "defeat", "def": "Quand on perd une bataille, une guerre ou un match.", "def_en": "When you lose a battle, a war or a match.", "forms": ["défaites"], "examples": [
+      { "fr": "En mille neuf cent quarante, c'était la **défaite** pour la France.", "en": "In 1940, it was defeat for France." },
+      { "fr": "Après la **défaite**, les joueurs étaient tristes.", "en": "After the defeat, the players were sad." },
+      { "fr": "Une **défaite**, ce n'est pas la fin du monde.", "en": "A defeat isn't the end of the world." }
+    ] },
+    { "id": "resistance", "fr": "résistance", "pos": "noun", "g": "f", "ipa": "ʁe.zis.tɑ̃s", "en": "resistance; (la Résistance) the French Resistance", "def": "Quand on se bat contre une chose, ou qu'on refuse de l'accepter. « La Résistance » : les Français qui se battaient en secret contre l'occupation, de mille neuf cent quarante à mille neuf cent quarante-quatre.", "def_en": "Fighting against something, or refusing to accept it. 'La Résistance': the French people who fought secretly against the occupation, from 1940 to 1944.", "forms": ["résistances"], "examples": [
+      { "fr": "Son père était dans la **Résistance**.", "en": "His father was in the Resistance." },
+      { "fr": "Lyon était la capitale de la **Résistance**.", "en": "Lyon was the capital of the Resistance." },
+      { "fr": "Ce sportif a beaucoup de **résistance**.", "en": "This athlete has a lot of stamina." }
+    ] },
+    { "id": "resistant", "fr": "résistant", "pos": "noun", "g": "m", "ipa": "ʁe.zis.tɑ̃", "display": "le résistant, la résistante", "en": "Resistance fighter; (adj) tough, hard-wearing", "def": "Une personne qui se battait contre l'occupation, pendant la guerre. Comme adjectif : solide, qui ne casse pas facilement.", "def_en": "A person who fought against the occupation during the war. As an adjective: strong, hard to break.", "forms": ["résistante", "résistants", "résistantes"], "accept": ["résistante", "la résistante"], "examples": [
+      { "fr": "Les **résistants** cachaient des armes.", "en": "The Resistance fighters hid weapons." },
+      { "fr": "Sa grand-mère était une **résistante**.", "en": "Her grandmother was in the Resistance." },
+      { "fr": "Ces chaussures sont très **résistantes**.", "en": "These shoes are very hard-wearing." }
+    ] },
+    { "id": "liberation", "fr": "libération", "pos": "noun", "g": "f", "ipa": "li.be.ʁa.sjɔ̃", "en": "liberation, freeing; (la Libération) the Liberation (1944)", "def": "Quand on rend sa liberté à une personne, une ville ou un pays.", "def_en": "When a person, a town or a country is given back its freedom.", "forms": ["libérations"], "examples": [
+      { "fr": "À la **Libération**, tout le monde dansait dans les rues.", "en": "At the Liberation, everyone danced in the streets." },
+      { "fr": "La **libération** de Paris a eu lieu en août mille neuf cent quarante-quatre.", "en": "The liberation of Paris took place in August 1944." },
+      { "fr": "La fin des examens, quelle **libération** !", "en": "The end of the exams, what a relief!" }
+    ] },
+    { "id": "liberer", "fr": "libérer", "pos": "verb", "ipa": "li.be.ʁe", "en": "to free, to liberate; to release", "extra": "é → è before a silent ending: je **libère**, ils **libèrent**; nous **libérons**.", "def": "Rendre la liberté à une personne, une ville ou un pays. Aussi : faire de la place.", "def_en": "To give back freedom to a person, a town or a country. Also: to make room.", "forms": ["libère", "libères", "libérons", "libérez", "libèrent", "libéré", "libérée", "libérés", "libérées", "libérais", "libérait", "libérions", "libériez", "libéraient", "libérerai", "libéreras", "libérera", "libérerons", "libérerez", "libéreront", "libérerais", "libérerait", "libérerions", "libéreriez", "libéreraient", "libérant", "libérai", "libéras", "libéra", "libérâmes", "libérâtes", "libérèrent"], "examples": [
+      { "fr": "Les soldats ont **libéré** la ville.", "en": "The soldiers freed the town." },
+      { "fr": "Le prisonnier sera **libéré** demain.", "en": "The prisoner will be released tomorrow." },
+      { "fr": "Tu peux **libérer** la table ? On va manger.", "en": "Can you clear the table? We're going to eat." }
+    ] },
+    { "id": "occupation", "fr": "occupation", "pos": "noun", "g": "f", "ipa": "ɔ.ky.pa.sjɔ̃", "en": "occupation; activity", "def": "Quand une armée étrangère reste dans un pays et le dirige. Aussi : une activité, ce qu'on fait de son temps.", "def_en": "When a foreign army stays in a country and runs it. Also: an activity, what you spend your time on.", "forms": ["occupations"], "examples": [
+      { "fr": "Pendant l'**occupation**, la vie était difficile.", "en": "During the occupation, life was hard." },
+      { "fr": "L'**occupation** de la France a duré quatre ans.", "en": "The occupation of France lasted four years." },
+      { "fr": "Le jardin, c'est l'**occupation** préférée de Papi.", "en": "Gardening is Grandpa's favourite pastime." }
+    ] },
+    { "id": "envahir", "fr": "envahir", "pos": "verb", "ipa": "ɑ̃.va.iʁ", "en": "to invade; to overrun", "extra": "like **finir**: j'**envahis**, nous **envahissons**; j'ai **envahi**.", "def": "Entrer dans un pays par la force, avec une armée. Aussi : remplir tout un lieu.", "def_en": "To enter a country by force, with an army. Also: to fill a whole place.", "forms": ["envahis", "envahit", "envahissons", "envahissez", "envahissent", "envahi", "envahie", "envahies", "envahissais", "envahissait", "envahissions", "envahissiez", "envahissaient", "envahirai", "envahiras", "envahira", "envahirons", "envahirez", "envahiront", "envahirais", "envahirait", "envahirions", "envahiriez", "envahiraient", "envahisse", "envahisses", "envahissant", "envahîmes", "envahîtes", "envahirent"], "examples": [
+      { "fr": "L'armée a **envahi** le pays.", "en": "The army invaded the country." },
+      { "fr": "Les touristes **envahissent** la ville en été.", "en": "Tourists overrun the town in summer." },
+      { "fr": "Les fourmis ont **envahi** la cuisine !", "en": "Ants have taken over the kitchen!" }
+    ] },
+    { "id": "combattre", "fr": "combattre", "pos": "verb", "ipa": "kɔ̃.batʁ", "en": "to fight (against), to combat", "extra": "like **battre**: je **combats**, nous **combattons**; j'ai **combattu**.", "def": "Se battre contre un ennemi. Aussi : lutter contre une chose mauvaise.", "def_en": "To fight an enemy. Also: to fight against something bad.", "forms": ["combats", "combat", "combattons", "combattez", "combattent", "combattu", "combattue", "combattus", "combattues", "combattais", "combattait", "combattions", "combattiez", "combattaient", "combattrai", "combattras", "combattra", "combattrons", "combattrez", "combattront", "combattrais", "combattrait", "combattrions", "combattriez", "combattraient", "combatte", "combattes", "combattant", "combattis", "combattit", "combattîmes", "combattîtes", "combattirent"], "examples": [
+      { "fr": "Jeanne d'Arc a **combattu** les Anglais.", "en": "Joan of Arc fought the English." },
+      { "fr": "Les résistants **combattaient** en secret.", "en": "The Resistance fought in secret." },
+      { "fr": "Il faut **combattre** la faim dans le monde.", "en": "We must fight world hunger." }
+    ] },
+    { "id": "arme", "fr": "arme", "pos": "noun", "g": "f", "ipa": "aʁm", "en": "weapon", "def": "Un objet pour se battre ou pour se défendre.", "def_en": "An object for fighting or defending yourself.", "forms": ["armes"], "examples": [
+      { "fr": "Les résistants cachaient des **armes** dans la cave.", "en": "The Resistance fighters hid weapons in the cellar." },
+      { "fr": "En France, il est interdit de porter une **arme**.", "en": "In France, it's illegal to carry a weapon." },
+      { "fr": "Son humour, c'est sa meilleure **arme**.", "en": "His sense of humour is his best weapon." }
+    ] },
+    { "id": "bombe", "fr": "bombe", "pos": "noun", "g": "f", "ipa": "bɔ̃b", "en": "bomb", "def": "Une arme qui fait un énorme bruit et de gros dégâts.", "def_en": "A weapon that makes a huge noise and causes a lot of damage.", "forms": ["bombes"], "examples": [
+      { "fr": "Les avions jetaient des **bombes** sur le port.", "en": "The planes dropped bombs on the harbour." },
+      { "fr": "On a trouvé une vieille **bombe** dans un champ.", "en": "An old bomb was found in a field." },
+      { "fr": "Cette nouvelle, c'est une **bombe** !", "en": "This news is a bombshell!" }
+    ] },
+    { "id": "armistice", "fr": "armistice", "pos": "noun", "g": "m", "ipa": "aʁ.mis.tis", "en": "armistice", "def": "L'accord qui arrête les combats à la fin d'une guerre. En France, on fête l'armistice de la Première Guerre mondiale le onze novembre.", "def_en": "The agreement that stops the fighting at the end of a war. In France, the First World War armistice is remembered on 11 November.", "forms": ["armistices"], "examples": [
+      { "fr": "L'**armistice** a été signé le onze novembre mille neuf cent dix-huit.", "en": "The armistice was signed on 11 November 1918." },
+      { "fr": "Le onze novembre, c'est l'anniversaire de l'**armistice**.", "en": "The eleventh of November is Armistice Day." },
+      { "fr": "Après l'**armistice**, les soldats sont rentrés chez eux.", "en": "After the armistice, the soldiers went home." }
+    ] },
+    { "id": "refugie", "fr": "réfugié", "pos": "noun", "g": "m", "ipa": "ʁe.fy.ʒje", "display": "le réfugié, la réfugiée", "en": "refugee", "def": "Une personne qui a quitté son pays à cause d'une guerre ou d'un danger.", "def_en": "A person who has left their country because of a war or a danger.", "forms": ["réfugiée", "réfugiés", "réfugiées"], "accept": ["réfugiée", "la réfugiée"], "examples": [
+      { "fr": "Il aidait des **réfugiés** à partir.", "en": "He helped refugees get away." },
+      { "fr": "Beaucoup de **réfugiés** arrivent en Europe.", "en": "Lots of refugees are arriving in Europe." },
+      { "fr": "Cette **réfugiée** apprend le français.", "en": "This refugee is learning French." }
+    ] },
+    { "id": "prisonnier", "fr": "prisonnier", "pos": "noun", "g": "m", "ipa": "pʁi.zɔ.nje", "display": "le prisonnier, la prisonnière", "en": "prisoner", "def": "Une personne qu'on garde enfermée, en prison ou pendant une guerre.", "def_en": "A person kept locked up, in prison or during a war.", "forms": ["prisonnière", "prisonniers", "prisonnières"], "accept": ["prisonnière", "la prisonnière"], "examples": [
+      { "fr": "Il est resté **prisonnier** pendant six mois.", "en": "He was a prisoner for six months." },
+      { "fr": "Les **prisonniers** sont rentrés après la guerre.", "en": "The prisoners came home after the war." },
+      { "fr": "Je suis **prisonnier** de mon bureau aujourd'hui !", "en": "I'm a prisoner of my desk today!" }
+    ] },
+    { "id": "ceremonie", "fr": "cérémonie", "pos": "noun", "g": "f", "ipa": "se.ʁe.mɔ.ni", "en": "ceremony", "def": "Un moment officiel et important, avec des gestes et des paroles précis : un mariage, une fête nationale…", "def_en": "An official, important occasion with set gestures and words: a wedding, a national holiday…", "forms": ["cérémonies"], "examples": [
+      { "fr": "La **cérémonie** a lieu devant le monument aux morts.", "en": "The ceremony takes place at the war memorial." },
+      { "fr": "Le maire fait un discours pendant la **cérémonie**.", "en": "The mayor gives a speech during the ceremony." },
+      { "fr": "Pas de **cérémonie** : on mange dans la cuisine !", "en": "No ceremony: we're eating in the kitchen!" }
+    ] },
+    { "id": "commemorer", "fr": "commémorer", "pos": "verb", "ipa": "kɔ.me.mɔ.ʁe", "en": "to commemorate, to remember (an event)", "def": "Se souvenir ensemble, avec une cérémonie, d'un événement important.", "def_en": "To remember an important event together, with a ceremony.", "forms": ["commémore", "commémores", "commémorons", "commémorez", "commémorent", "commémoré", "commémorée", "commémorés", "commémorées", "commémorais", "commémorait", "commémorions", "commémoriez", "commémoraient", "commémorerai", "commémoreras", "commémorera", "commémorerons", "commémorerez", "commémoreront", "commémorerais", "commémorerait", "commémorerions", "commémoreriez", "commémoreraient", "commémorant", "commémorai", "commémoras", "commémora", "commémorâmes", "commémorâtes", "commémorèrent"], "examples": [
+      { "fr": "Le onze novembre, on **commémore** l'armistice.", "en": "On 11 November, the armistice is commemorated." },
+      { "fr": "La ville **commémore** sa libération.", "en": "The town commemorates its liberation." },
+      { "fr": "On a **commémoré** les cent ans de l'école.", "en": "We celebrated the school's hundredth anniversary." }
+    ] },
+    { "id": "mort-n", "fr": "mort", "pos": "noun", "g": "f", "ipa": "mɔʁ", "en": "death; (un mort, une morte) a dead person", "def": "La fin de la vie. « Les morts » : les personnes qui ne sont plus vivantes.", "def_en": "The end of life. 'Les morts': the people who are no longer alive.", "forms": ["morts"], "note": "**le monument aux morts** = the war memorial, found in every French town and village.", "examples": [
+      { "fr": "La **mort** de son père l'a rendu très triste.", "en": "His father's death made him very sad." },
+      { "fr": "Il y a un monument aux **morts** dans chaque village.", "en": "There's a war memorial in every village." },
+      { "fr": "Cette guerre a fait des millions de **morts**.", "en": "This war killed millions of people." }
+    ] },
+    { "id": "memoire", "fr": "mémoire", "pos": "noun", "g": "f", "ipa": "me.mwaʁ", "en": "memory; remembrance", "def": "Ce qui permet de se [souvenir|se-souvenir] des choses. Aussi : le souvenir du passé qu'on garde ensemble.", "def_en": "What lets you remember things. Also: the memory of the past that people keep together.", "forms": ["mémoires"], "note": "**le devoir de mémoire** = the duty to remember (the victims of war).", "examples": [
+      { "fr": "Papi a une très bonne **mémoire**.", "en": "Grandpa has a very good memory." },
+      { "fr": "Ce monument garde la **mémoire** des soldats.", "en": "This monument keeps the memory of the soldiers alive." },
+      { "fr": "J'ai perdu la **mémoire** : où sont mes clés ?", "en": "My memory's gone: where are my keys?" }
+    ] }
+  ],
+  "story": {
+    "title": "Les souvenirs de Jacques",
+    "en": "Saturday 31 October, Louise's birthday in Marseille: Lou finds an old photo, and Jacques tells a story the family has never heard.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi trente et un octobre, toute la famille est à Marseille pour l'anniversaire de Louise. Après le gâteau au chocolat, Lou trouve une vieille photo dans un livre.", "en": "Saturday 31 October: the whole family is in Marseille for Louise's birthday. After the chocolate cake, Lou finds an old photo in a book." },
+      { "sp": "Lou", "fr": "Papi, c'est qui, le soldat sur la photo ?", "en": "Grandpa, who's the soldier in the photo?" },
+      { "sp": "Jacques", "fr": "C'est mon père, Marius. Ton arrière-grand-père. Pendant la guerre, il était dans la Résistance.", "en": "That's my father, Marius. Your great-grandfather. During the war, he was in the Resistance." },
+      { "sp": "Hugo", "fr": "Raconte, Papi ! On ne connaît pas cette histoire.", "en": "Tell us, Grandpa! We don't know this story." },
+      { "sp": "Jacques", "fr": "En mille neuf cent quarante, l'armée française a perdu la bataille contre l'armée allemande. C'était la défaite.", "en": "In 1940, the French army lost the battle against the German army. It was defeat." },
+      { "sp": "Jacques", "fr": "L'ennemi a envahi le pays. Pendant l'occupation, la vie était très dure à Marseille.", "en": "The enemy invaded the country. During the occupation, life was very hard in Marseille." },
+      { "sp": "Jacques", "fr": "Mon père était résistant : il combattait l'occupation en secret. La nuit, il cachait des armes dans la cave, et il aidait des réfugiés à partir.", "en": "My father was in the Resistance: he fought the occupation in secret. At night, he hid weapons in the cellar, and he helped refugees get away." },
+      { "sp": "Lou", "fr": "Il avait une épée, comme dans les contes ?", "en": "Did he have a sword, like in fairy tales?" },
+      { "sp": "Jacques", "fr": "Non, ma puce. Les soldats avaient des fusils, et les avions jetaient des bombes sur le port.", "en": "No, sweetie. The soldiers had rifles, and the planes dropped bombs on the harbour." },
+      { "sp": "Jacques", "fr": "Un jour, des soldats ont arrêté mon père. Il est resté prisonnier pendant six mois.", "en": "One day, soldiers arrested my father. He was a prisoner for six months." },
+      { "sp": "Léa", "fr": "Il a eu beaucoup de courage.", "en": "He was very brave." },
+      { "sp": "Jacques", "fr": "Oui. Puis, en août mille neuf cent quarante-quatre, les soldats alliés et les résistants ont libéré Marseille. C'était la libération : tout le monde dansait dans les rues !", "en": "Yes. Then, in August 1944, the allied soldiers and the Resistance freed Marseille. It was the Liberation: everyone was dancing in the streets!" },
+      { "sp": "Jacques", "fr": "Un an plus tard, la guerre était finie. C'était la victoire. Et moi, je suis né quelques mois après, en temps de paix.", "en": "A year later, the war was over. It was victory. And I was born a few months after, in peacetime." },
+      { "sp": "Louise", "fr": "Ton père disait toujours : « La guerre, plus jamais ! »", "en": "Your father always used to say: 'War, never again!'" },
+      { "sp": "Paul", "fr": "Aujourd'hui, la France et l'Allemagne sont amies. Avec l'Europe, il n'y a plus de guerre entre nos deux pays.", "en": "Today, France and Germany are friends. With Europe, there's no more war between our two countries." },
+      { "sp": "Lou", "fr": "Et ton papa, il est où maintenant ?", "en": "And where's your daddy now?" },
+      { "sp": "Jacques", "fr": "Il est mort il y a longtemps, ma puce, très vieux, dans son jardin.", "en": "He died a long time ago, sweetie, very old, in his garden." },
+      { "sp": "Jacques", "fr": "Chaque onze novembre, je vais à la cérémonie devant le monument aux morts. On commémore l'armistice de la Première Guerre mondiale, et on pense à tous les morts des guerres.", "en": "Every 11 November, I go to the ceremony at the war memorial. We commemorate the armistice of the First World War, and we think of all the people who died in wars." },
+      { "sp": "Jacques", "fr": "C'est important, la mémoire. Si on oublie, la guerre peut revenir.", "en": "Remembering matters. If we forget, war can come back." },
+      { "sp": "Lou", "fr": "Moi, je ne veux pas de guerre. Je veux la paix… et encore du gâteau !", "en": "I don't want any war. I want peace… and more cake!" }
+    ]
+  }
+}

@@ -129,6 +129,12 @@ FIXES = {
     "oups": "ˈups",  # the voice drops the s
     "suspect": "syspˈɛ", "suspects": "syspˈɛ",  # the masculine keeps ct silent (suspecte /syspɛkt/)
     "cobaye": "kɔbˈaj", "cobayes": "kɔbˈaj",  # the voice says /kobɛj/
+    "vécut": "vekˈy", "vécus": "vekˈy",  # the voice reads vécut in English and says the s of vécus
+    "louis xiv": "lwˈi katˈɔʁz",  # the voice reads "Louis quatorze romain"
+    "jésus-christ": "ʒezykʁˈi",  # the voice says the st of Christ
+    "moyen âge": "mwajɛnˈaʒ",  # with the liaison; the voice says /mwajɛ̃ aʒ/
+    "jadis": "ʒadˈis",  # the voice drops the s
+    "mammouth": "mamˈut", "mammouths": "mamˈut",  # otherwise read in English
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

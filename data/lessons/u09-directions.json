@@ -33,7 +33,7 @@
       ] },
     { "id": "trouver", "fr": "trouver", "pos": "verb", "ipa": "tʁu.ve", "en": "to find",
       "def": "Voir enfin la chose qu'on cherche.", "def_en": "To finally see the thing you're looking for.",
-      "forms": ["trouve", "trouves", "trouvons", "trouvez", "trouvent", "trouvé", "trouvais", "trouvait", "trouvions", "trouviez", "trouvaient", "trouverai", "trouveras", "trouvera", "trouverons", "trouverez", "trouveront", "trouverais", "trouverait", "trouverions", "trouveriez", "trouveraient", "trouvée", "trouvés", "trouvées", "trouvant"],
+      "forms": ["trouve", "trouves", "trouvons", "trouvez", "trouvent", "trouvé", "trouvais", "trouvait", "trouvions", "trouviez", "trouvaient", "trouverai", "trouveras", "trouvera", "trouverons", "trouverez", "trouveront", "trouverais", "trouverait", "trouverions", "trouveriez", "trouveraient", "trouvée", "trouvés", "trouvées", "trouvant", "trouvai", "trouvas", "trouva", "trouvâmes", "trouvâtes", "trouvèrent"],
       "examples": [
         { "fr": "Je ne **trouve** pas la gare.", "en": "I can't find the station." },
         { "fr": "Tu **trouves** le chemin ?", "en": "Can you find the way?" },
@@ -41,7 +41,7 @@
       ] },
     { "id": "chercher", "fr": "chercher", "pos": "verb", "ipa": "ʃɛʁ.ʃe", "en": "to look for",
       "def": "Essayer de trouver.", "def_en": "To try to find.",
-      "forms": ["cherche", "cherches", "cherchons", "cherchez", "cherchent", "cherchais", "cherchait", "cherchions", "cherchiez", "cherchaient", "chercherai", "chercheras", "cherchera", "chercherons", "chercherez", "chercheront", "cherché", "cherchée", "cherchés", "cherchées", "chercherais", "chercherait", "chercherions", "chercheriez", "chercheraient", "cherchant"],
+      "forms": ["cherche", "cherches", "cherchons", "cherchez", "cherchent", "cherchais", "cherchait", "cherchions", "cherchiez", "cherchaient", "chercherai", "chercheras", "cherchera", "chercherons", "chercherez", "chercheront", "cherché", "cherchée", "cherchés", "cherchées", "chercherais", "chercherait", "chercherions", "chercheriez", "chercheraient", "cherchant", "cherchai", "cherchas", "chercha", "cherchâmes", "cherchâtes", "cherchèrent"],
       "examples": [
         { "fr": "Je **cherche** la poste.", "en": "I'm looking for the post office." },
         { "fr": "Vous **cherchez** quelque chose ?", "en": "Are you looking for something?" },
@@ -50,7 +50,7 @@
       "note": "No word for “for”: **chercher la gare** = to look **for** the station." },
     { "id": "tourner", "fr": "tourner", "pos": "verb", "ipa": "tuʁ.ne", "en": "to turn; to shoot (a film)",
       "def": "Changer de direction : tourner à gauche, à droite.", "def_en": "To change direction: to turn left or right.",
-      "forms": ["tourne", "tournes", "tournons", "tournez", "tournent", "tourné", "tournée", "tournés", "tournées", "tournais", "tournait", "tournions", "tourniez", "tournaient", "tournerai", "tourneras", "tournera", "tournerons", "tournerez", "tourneront", "tournerais", "tournerait", "tournerions", "tourneriez", "tourneraient", "tournant"],
+      "forms": ["tourne", "tournes", "tournons", "tournez", "tournent", "tourné", "tournée", "tournés", "tournées", "tournais", "tournait", "tournions", "tourniez", "tournaient", "tournerai", "tourneras", "tournera", "tournerons", "tournerez", "tourneront", "tournerais", "tournerait", "tournerions", "tourneriez", "tourneraient", "tournant", "tournai", "tournas", "tourna", "tournâmes", "tournâtes", "tournèrent"],
       "examples": [
         { "fr": "**Tournez** à gauche au feu.", "en": "Turn left at the lights." },
         { "fr": "Je **tourne** dans la rue de la gare.", "en": "I turn into the station road." },
@@ -82,7 +82,7 @@
       ] },
     { "id": "traverser", "fr": "traverser", "pos": "verb", "ipa": "tʁa.vɛʁ.se", "en": "to cross",
       "def": "Aller de l'autre côté : traverser la rue.", "def_en": "To go to the other side: to cross the road.",
-      "forms": ["traverse", "traverses", "traversons", "traversez", "traversent", "traversais", "traversait", "traversions", "traversiez", "traversaient", "traverserai", "traverseras", "traversera", "traverserons", "traverserez", "traverseront", "traverserais", "traverserait", "traverserions", "traverseriez", "traverseraient", "traversé", "traversée", "traversés", "traversées", "traversant"],
+      "forms": ["traverse", "traverses", "traversons", "traversez", "traversent", "traversais", "traversait", "traversions", "traversiez", "traversaient", "traverserai", "traverseras", "traversera", "traverserons", "traverserez", "traverseront", "traverserais", "traverserait", "traverserions", "traverseriez", "traverseraient", "traversé", "traversée", "traversés", "traversées", "traversant", "traversai", "traversas", "traversa", "traversâmes", "traversâtes", "traversèrent"],
       "examples": [
         { "fr": "**Traversez** la rue au feu.", "en": "Cross the road at the lights." },
         { "fr": "Je **traverse** le pont.", "en": "I cross the bridge." },
@@ -90,7 +90,7 @@
       ] },
     { "id": "continuer", "fr": "continuer", "pos": "verb", "ipa": "kɔ̃.ti.nɥe", "en": "to continue, to keep going",
       "def": "Ne pas s'arrêter : continuer tout droit.", "def_en": "To not stop: to keep going straight on.",
-      "forms": ["continue", "continues", "continuons", "continuez", "continuent", "continuais", "continuait", "continuions", "continuiez", "continuaient", "continuerai", "continueras", "continuera", "continuerons", "continuerez", "continueront", "continuerais", "continuerait", "continuerions", "continueriez", "continueraient", "continué", "continuée", "continués", "continuées", "continuant"],
+      "forms": ["continue", "continues", "continuons", "continuez", "continuent", "continuais", "continuait", "continuions", "continuiez", "continuaient", "continuerai", "continueras", "continuera", "continuerons", "continuerez", "continueront", "continuerais", "continuerait", "continuerions", "continueriez", "continueraient", "continué", "continuée", "continués", "continuées", "continuant", "continuai", "continuas", "continua", "continuâmes", "continuâtes", "continuèrent"],
       "examples": [
         { "fr": "**Continuez** tout droit.", "en": "Keep going straight on." },
         { "fr": "Je **continue** jusqu'à la place.", "en": "I keep going as far as the square." },
@@ -159,7 +159,7 @@
     { "id": "prendre", "fr": "prendre", "pos": "verb", "ipa": "pʁɑ̃dʁ", "en": "to take",
       "def": "Utiliser un moyen de transport, ou choisir un chemin : prendre le bus, prendre une rue.", "def_en": "To use a means of transport, or to choose a way: take the bus, take a street.",
       "extra": "je **prends** · tu **prends** · il **prend** · nous **prenons** · vous **prenez** · ils **prennent** — irregular.",
-      "forms": ["prends", "prend", "prenons", "prenez", "prennent", "pris", "prenais", "prenait", "prenions", "preniez", "prenaient", "prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront", "prendrais", "prendrait", "prendrions", "prendriez", "prendraient", "prise", "prises", "prenne", "prennes", "prenant"],
+      "forms": ["prends", "prend", "prenons", "prenez", "prennent", "pris", "prenais", "prenait", "prenions", "preniez", "prenaient", "prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront", "prendrais", "prendrait", "prendrions", "prendriez", "prendraient", "prise", "prises", "prenne", "prennes", "prenant", "prit", "prîmes", "prîtes", "prirent"],
       "examples": [
         { "fr": "Je **prends** le métro.", "en": "I take the metro." },
         { "fr": "**Prenez** la deuxième rue à gauche.", "en": "Take the second street on the left." },
@@ -168,7 +168,7 @@
     { "id": "descendre", "fr": "descendre", "pos": "verb", "ipa": "de.sɑ̃dʁ", "en": "to go down; to get off (a bus, train)",
       "def": "Aller en bas. Aussi : sortir du bus ou du train.", "def_en": "To go down. Also: to get off a bus or train.",
       "extra": "je **descends** · tu **descends** · il **descend** · nous **descendons** · vous **descendez** · ils **descendent**",
-      "forms": ["descends", "descend", "descendons", "descendez", "descendent", "descendu", "descendue", "descendus", "descendues", "descendais", "descendait", "descendions", "descendiez", "descendaient", "descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront", "descendrais", "descendrait", "descendrions", "descendriez", "descendraient", "descende", "descendes", "descendant"],
+      "forms": ["descends", "descend", "descendons", "descendez", "descendent", "descendu", "descendue", "descendus", "descendues", "descendais", "descendait", "descendions", "descendiez", "descendaient", "descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront", "descendrais", "descendrait", "descendrions", "descendriez", "descendraient", "descende", "descendes", "descendant", "descendis", "descendit", "descendîmes", "descendîtes", "descendirent"],
       "examples": [
         { "fr": "Je **descends** au prochain arrêt.", "en": "I'm getting off at the next stop." },
         { "fr": "**Descendez** la rue jusqu'à la place.", "en": "Go down the street to the square." },

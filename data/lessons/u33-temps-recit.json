@@ -1,0 +1,158 @@
+{
+  "id": "u33-temps-recit",
+  "type": "grammar",
+  "unit": 33,
+  "title": "La vraie histoire de la poubelle",
+  "en": "Telling a story: all the past tenses",
+  "intro": "A good story mixes the past tenses, and each one has a job. The **imparfait** paints the scene (*il faisait froid*), the **passé composé** tells the events (*je suis tombé*), the **plus-que-parfait** goes back further (*j'avais oublié mes lunettes*), **venait de** and **allait** stand just before or just after a moment, and the **conditional** looks ahead (*je ne savais pas que la vidéo deviendrait célèbre*). In a written story, the **passé simple** replaces the passé composé.",
+  "cases": [
+    { "id": "tr-imparfait", "label": "the scene: imparfait", "rule": "The **imparfait** describes the setting: the weather, the place, what people were doing or feeling. *Il **faisait** très froid. Je ne **voyais** pas bien.*" },
+    { "id": "tr-pc", "label": "the events: passé composé", "rule": "The **passé composé** tells what happened, one event after another: *Un chien **a couru** vers moi, **j'ai glissé**, et **je suis tombé**.*" },
+    { "id": "tr-pqp", "label": "earlier still: plus-que-parfait", "rule": "The **plus-que-parfait** tells what had happened before the story: *J'**avais oublié** mes lunettes au bureau.*" },
+    { "id": "tr-venir-aller", "label": "just before, about to: venait de, allait", "rule": "In the imparfait, **venir de** + infinitive means *had just*, and **aller** + infinitive means *was about to*: *Je **venais de** finir mon travail. J'**allais** traverser la rue.*" },
+    { "id": "tr-cond", "label": "what came later: the conditional", "rule": "The **conditional** is the future seen from the past: *Je ne savais pas que la vidéo **deviendrait** célèbre.*" },
+    { "id": "tr-ps", "label": "in writing: the passé simple", "rule": "In a written story, the **passé simple** takes the place of the passé composé for the events. The other tenses stay the same: *Il **faisait** froid. Il **glissa** et **tomba** dans une poubelle.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. The scene: imparfait",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il faisait très froid.", "It was very cold."],
+          ["Il neigeait un peu.", "It was snowing a little."],
+          ["Je ne voyais pas très bien.", "I couldn't see very well."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Il faisait|tr-imparfait} très froid, et {il neigeait|tr-imparfait} un peu.", "en": "It was very cold, and it was snowing a little." },
+        { "fr": "Sans mes lunettes, {je ne voyais|tr-imparfait} pas très bien.", "en": "Without my glasses, I couldn't see very well." }
+      ]
+    },
+    {
+      "title": "2. The events: passé composé",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Un chien a couru vers moi.", "A dog ran towards me."],
+          ["J'ai glissé sur la neige.", "I slipped on the snow."],
+          ["Je suis tombé dans la poubelle.", "I fell into the bin."]
+        ]
+      },
+      "examples": [
+        { "fr": "Un petit chien {a couru|tr-pc} vers moi.", "en": "A little dog ran towards me." },
+        { "fr": "{J'ai glissé|tr-pc} sur la neige, et {je suis tombé|tr-pc} !", "en": "I slipped on the snow, and I fell!" }
+      ],
+      "tip": "A useful test: if you can say *and then…* in English, it's an event, so passé composé."
+    },
+    {
+      "title": "3. Earlier still: plus-que-parfait",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'avais oublié mes lunettes.", "I had forgotten my glasses."],
+          ["Le chien avait volé une saucisse.", "The dog had stolen a sausage."],
+          ["Il avait neigé toute la nuit.", "It had snowed all night."]
+        ]
+      },
+      "examples": [
+        { "fr": "{J'avais oublié|tr-pqp} mes lunettes au bureau.", "en": "I had left my glasses at the office." },
+        { "fr": "Le chien {avait volé|tr-pqp} une saucisse.", "en": "The dog had stolen a sausage." }
+      ]
+    },
+    {
+      "title": "4. Just before, about to: venait de, allait",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je venais de finir mon travail.", "I had just finished work."],
+          ["J'allais traverser la rue.", "I was about to cross the street."],
+          ["Le film allait commencer.", "The film was about to start."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je venais de|tr-venir-aller} finir mon travail.", "en": "I had just finished work." },
+        { "fr": "{J'allais|tr-venir-aller} traverser la rue quand un chien est arrivé.", "en": "I was about to cross the street when a dog came along." }
+      ],
+      "tip": "These are the past forms of *je viens de* and *je vais* (Unit 24)."
+    },
+    {
+      "title": "5. What came later: the conditional",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Je ne savais pas que la vidéo deviendrait célèbre.", "I didn't know the video would become famous."],
+          ["Il a dit qu'il viendrait.", "He said he would come."],
+          ["On ne savait pas qu'elle passerait au cinéma.", "We didn't know it would be shown at the cinema."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Je ne savais pas que cette vidéo deviendrait|tr-cond} célèbre.", "en": "I didn't know this video would become famous." },
+        { "fr": "{Je ne pensais pas qu'elle passerait|tr-cond} un jour au cinéma.", "en": "I never thought it would end up in cinemas." }
+      ]
+    },
+    {
+      "title": "6. In writing: the passé simple",
+      "table": {
+        "head": ["Told aloud", "Written"], "frCols": [0, 1],
+        "rows": [
+          ["Il a traversé la rue.", "Il traversa la rue."],
+          ["Un chien est arrivé.", "Un chien arriva."],
+          ["Il est tombé dans une poubelle.", "Il tomba dans une poubelle."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le jeune homme {glissa|tr-ps} et {tomba|tr-ps} dans une poubelle.", "en": "The young man slipped and fell into a bin." },
+        { "fr": "Ce jour-là, il {devint|tr-ps} célèbre.", "en": "That day, he became famous." }
+      ],
+      "tip": "Only the events change: the imparfait, the plus-que-parfait and the conditional stay as they are."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Il a fait très froid, et un chien a couru vers moi.", "right": "Il faisait très froid, et un chien a couru vers moi.", "why": "The weather is part of the scene: imparfait." },
+    { "wrong": "J'ai oublié mes lunettes avant, alors je ne voyais rien.", "right": "J'avais oublié mes lunettes, alors je ne voyais rien.", "why": "Something that happened before the story takes the plus-que-parfait." },
+    { "wrong": "Je venais finir mon travail.", "right": "Je venais de finir mon travail.", "why": "*had just* = **venir de** + infinitive." },
+    { "wrong": "Je ne savais pas que la vidéo deviendra célèbre.", "right": "Je ne savais pas que la vidéo deviendrait célèbre.", "why": "The future seen from the past takes the conditional." },
+    { "wrong": "Hier, je tombai dans une poubelle.", "right": "Hier, je suis tombé dans une poubelle.", "why": "When you tell it aloud, use the passé composé." }
+  ],
+  "story": {
+    "title": "La vraie histoire de la poubelle",
+    "en": "Sunday 18 October, Antoine's last evening in Lyon: at the café downstairs, he finally asks Hugo what really happened on 29 December.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche dix-huit octobre, au café d'en bas, Antoine passe sa dernière soirée à Lyon avec ses amis.", "en": "On Sunday 18 October, at the café downstairs, Antoine spends his last evening in Lyon with his friends." },
+      { "sp": "Antoine", "fr": "Hugo, raconte-moi enfin la vraie histoire de la poubelle !", "en": "Hugo, tell me the real story of the bin at last!" },
+      { "sp": "Hugo", "fr": "D'accord. C'était le vingt-neuf décembre. {Il faisait|tr-imparfait} très froid, et {il neigeait|tr-imparfait} un peu.", "en": "All right. It was 29 December. It was very cold, and it was snowing a little." },
+      { "sp": "Hugo", "fr": "{Je venais de|tr-venir-aller} finir mon travail, et {j'allais|tr-venir-aller} rentrer chez moi. {J'avais oublié|tr-pqp} mes lunettes au bureau, alors {je ne voyais|tr-imparfait} pas très bien.", "en": "I'd just finished work, and I was about to go home. I'd left my glasses at the office, so I couldn't see very well." },
+      { "sp": "Hugo", "fr": "Devant la gare, une journaliste {faisait|tr-imparfait} un reportage sur les résolutions de la nouvelle année. {Elle m'a arrêté|tr-pc} pour une interview.", "en": "Outside the station, a journalist was doing a report on New Year's resolutions. She stopped me for an interview." },
+      { "sp": "Hugo", "fr": "{Je répondais|tr-imparfait} à sa question quand un petit chien {a couru|tr-pc} vers moi.", "en": "I was answering her question when a little dog ran towards me." },
+      { "sp": "Hugo", "fr": "{J'ai voulu|tr-pc} éviter le chien, {j'ai glissé|tr-pc} sur le trottoir… et {je suis tombé|tr-pc} dans la grande poubelle verte !", "en": "I tried to avoid the dog, I slipped on the pavement… and I fell into the big green bin!" },
+      { "sp": "Antoine", "fr": "En direct à la télé ?", "en": "Live on TV?" },
+      { "sp": "Hugo", "fr": "En direct. Et pendant ce temps, Léa et Sophie {regardaient|tr-imparfait} les informations à la maison !", "en": "Live. And meanwhile, Léa and Sophie were watching the news at home!" },
+      { "sp": "Hugo", "fr": "Et surtout, {je ne savais pas que cette vidéo deviendrait|tr-cond} célèbre, {et qu'elle passerait|tr-cond} un jour au cinéma !", "en": "And above all, I didn't know this video would become famous, and that it would end up in cinemas one day!" },
+      { "sp": "Tom", "fr": "Et le chien ?", "en": "And the dog?" },
+      { "sp": "Hugo", "fr": "Le chien ? {Il avait volé|tr-pqp} une saucisse dans un restaurant de la gare. Il a continué son chemin, très content.", "en": "The dog? He'd stolen a sausage from a restaurant in the station. He went on his way, very pleased with himself." },
+      { "sp": "Antoine", "fr": "Quelle histoire ! Au Québec, on dirait que c'est une légende.", "en": "What a story! In Quebec, we'd call it a legend." },
+      { "sp": "Léa", "fr": "Attends, je vais l'écrire comme une vraie légende, au passé simple.", "en": "Wait, I'll write it down like a real legend, in the passé simple." },
+      { "sp": "Léa", "fr": "« Il faisait froid. Une journaliste {parla|tr-ps} à un jeune homme. Soudain, un chien {arriva|tr-ps}. Le jeune homme {glissa|tr-ps} et {tomba|tr-ps} dans une poubelle. »", "en": "'It was cold. A journalist spoke to a young man. Suddenly, a dog came along. The young man slipped and fell into a bin.'" },
+      { "sp": "Léa", "fr": "« Ce jour-là, il {devint|tr-ps} célèbre. Et il {vécut|tr-ps} heureux… avec beaucoup de poubelles. »", "en": "'That day, he became famous. And he lived happily ever after… with lots of bins.'" },
+      { "sp": "Hugo", "fr": "Très drôle. Et la morale de l'histoire ?", "en": "Very funny. And the moral of the story?" },
+      { "sp": "Sophie", "fr": "Quand on oublie ses lunettes, on regarde où on marche !", "en": "When you forget your glasses, you watch where you're walking!" },
+      { "sp": "Antoine", "fr": "Merci, Hugo. Désormais, quand je dirai « Bonsoir » au cinéma, je penserai à ta poubelle !", "en": "Thanks, Hugo. From now on, when I say 'Bonsoir' in a film, I'll think of your bin!" }
+    ]
+  },
+  "quiz": [
+    { "case": "tr-imparfait", "type": "mc", "q": "C'était le vingt-neuf décembre. Il ___ très froid.", "en": "It was 29 December. It was very cold.", "options": ["faisait", "a fait", "fit"], "answer": "faisait" },
+    { "case": "tr-imparfait", "type": "mc", "q": "Sans mes lunettes, je ne ___ pas très bien.", "en": "Without my glasses, I couldn't see very well.", "options": ["voyais", "ai vu", "verrai"], "answer": "voyais" },
+    { "case": "tr-pc", "type": "mc", "q": "Soudain, un chien ___ vers moi.", "en": "Suddenly, a dog ran towards me.", "options": ["a couru", "courait", "avait couru"], "answer": "a couru" },
+    { "case": "tr-pc", "type": "mc", "q": "J'ai glissé, et je ___ dans la poubelle.", "en": "I slipped, and I fell into the bin.", "options": ["suis tombé", "tombais", "tomberais"], "answer": "suis tombé" },
+    { "case": "tr-pqp", "type": "mc", "q": "J'___ oublié mes lunettes au bureau.", "en": "I had left my glasses at the office.", "options": ["avais", "ai", "aurais"], "answer": "avais" },
+    { "case": "tr-pqp", "type": "type", "q": "Le chien avait ___ (voler) une saucisse.", "en": "The dog had stolen a sausage.", "answer": "volé" },
+    { "case": "tr-venir-aller", "type": "mc", "q": "Je ___ de finir mon travail.", "en": "I had just finished work.", "options": ["venais", "suis venu", "viendrais"], "answer": "venais" },
+    { "case": "tr-venir-aller", "type": "mc", "lang": "en", "q": "« J'allais traverser la rue » means…", "options": ["I was about to cross the street.", "I crossed the street.", "I had crossed the street."], "answer": "I was about to cross the street.", "say": "J'allais traverser la rue." },
+    { "case": "tr-cond", "type": "mc", "q": "Je ne savais pas que la vidéo ___ célèbre.", "en": "I didn't know the video would become famous.", "options": ["deviendrait", "deviendra", "devient"], "answer": "deviendrait" },
+    { "case": "tr-cond", "type": "mc", "q": "Il a dit qu'il ___ le lendemain.", "en": "He said he would come the next day.", "options": ["viendrait", "viendra", "vient"], "answer": "viendrait" },
+    { "case": "tr-ps", "type": "mc", "lang": "en", "q": "« Il tomba dans une poubelle » : how do you say it in conversation?", "options": ["Il est tombé dans une poubelle.", "Il tombait dans une poubelle.", "Il tombera dans une poubelle."], "answer": "Il est tombé dans une poubelle." },
+    { "case": "tr-ps", "type": "mc", "lang": "en", "q": "« Il devint célèbre » means…", "options": ["he became famous", "he becomes famous", "he will become famous"], "answer": "he became famous", "say": "Il devint célèbre." }
+  ]
+}
