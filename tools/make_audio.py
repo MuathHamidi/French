@@ -4,6 +4,7 @@
 Setup once (see README › Natural audio), then run:
     .venv/bin/python tools/make_audio.py            # only synthesizes texts that are new
     .venv/bin/python tools/make_audio.py --prune    # also deletes audio no longer used
+(On Windows the venv's Python is .venv\\Scripts\\python.)
 
 Writes audio/<hash>.mp3 and data/audio.json, which maps each text to its file. The app
 (js/audio.js) looks texts up the same way and falls back to the device voice if one is missing.
@@ -132,9 +133,9 @@ def plain(markup):
 
 def collect():
     """Every text the app can ask to hear, in first-seen order."""
-    curriculum = json.loads((V.DATA / "curriculum.json").read_text())
-    lexicon = json.loads((V.DATA / "lexicon.json").read_text())
-    lessons = [json.loads((V.DATA / "lessons" / f"{lid}.json").read_text())
+    curriculum = json.loads((V.DATA / "curriculum.json").read_text(encoding="utf-8"))
+    lexicon = json.loads((V.DATA / "lexicon.json").read_text(encoding="utf-8"))
+    lessons = [json.loads((V.DATA / "lessons" / f"{lid}.json").read_text(encoding="utf-8"))
                for u in curriculum["units"] for lid in u.get("lessons", [])]
     index = V.Index()
     for e in lexicon["entries"]:
@@ -223,11 +224,11 @@ def synthesize(voice, text):
 def ipa_check(voice):
     """Compare Piper's phonemes with the IPA written in the lessons, to spot mispronunciations."""
     strip = lambda s: re.sub(r"[ˈˌ.\-\s!?,]", "", unicodedata.normalize("NFD", s))
-    entries = json.loads((V.DATA / "lexicon.json").read_text())["entries"]
-    curriculum = json.loads((V.DATA / "curriculum.json").read_text())
+    entries = json.loads((V.DATA / "lexicon.json").read_text(encoding="utf-8"))["entries"]
+    curriculum = json.loads((V.DATA / "curriculum.json").read_text(encoding="utf-8"))
     for u in curriculum["units"]:
         for lid in u.get("lessons", []):
-            entries += json.loads((V.DATA / "lessons" / f"{lid}.json").read_text()).get("words", [])
+            entries += json.loads((V.DATA / "lessons" / f"{lid}.json").read_text(encoding="utf-8")).get("words", [])
     diffs = []
     for e in entries:
         if not e.get("ipa") or V.norm_key(e["fr"]) in ELIDED:
@@ -271,7 +272,7 @@ def main():
     MANIFEST.write_text(json.dumps({
         "about": "Maps normalized French text to an audio file (made by tools/make_audio.py).",
         "voice": VOICE_NAME, "credit": CREDIT, "files": dict(sorted(files.items())),
-    }, ensure_ascii=False, indent=1) + "\n")
+    }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")  # same bytes on Windows and Linux
     size = sum(p.stat().st_size for p in AUDIO_DIR.glob("*.mp3"))
     print(f"{len(files)} texts with audio ({made} new), {size / 1e6:.1f} MB in audio/")
     if orphans:
@@ -283,4 +284,5 @@ def main():
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")  # the IPA report would fail on Windows' ANSI code page
     main()

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Checks the course data before publishing.
 
-Run:  python3 tools/validate.py
+Run:  python3 tools/validate.py          (Windows: python tools/validate.py)
 - every French word in definitions, examples, stories and quizzes must be in the dictionary
   (a lesson word or data/lexicon.json), so pointing at any word always shows a card;
 - every lesson word must appear in its story;
 - every grammar case must appear in the story and have at least two quiz questions.
-The tokenizer mirrors js/content.js; keep them in sync.
+The tokenizer mirrors js/content.js; keep them in sync. tools/check_app.mjs compares the two
+(it runs this file with --tokenize).
 """
 import json
 import re
@@ -269,9 +270,32 @@ class Index:
         return None
 
 
+def course_index():
+    """The dictionary index the app builds (loadAll() in js/content.js): lexicon helpers, then lesson words."""
+    curriculum = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
+    index = Index()
+    for e in json.loads((DATA / "lexicon.json").read_text(encoding="utf-8"))["entries"]:
+        index.add(e)
+    for u in curriculum["units"]:
+        for lid in u.get("lessons", []):
+            for w in json.loads((DATA / "lessons" / f"{lid}.json").read_text(encoding="utf-8")).get("words", []):
+                index.add(w, taught=True)
+    return index
+
+
+def tokenize_stdin():
+    """For tools/check_app.mjs: reads [{"text": markup, "prefer": [ids]}] as JSON on stdin and prints
+    each text's word segments as [surface, id] pairs, to compare with the app's tokenizer."""
+    index = course_index()
+    items = json.loads(sys.stdin.buffer.read())
+    print(json.dumps([[[s["text"], s["id"]] for s in index.tokenize(it["text"], frozenset(it.get("prefer", [])))[0]]
+                      for it in items]))
+    return 0
+
+
 def main():
-    curriculum = json.loads((DATA / "curriculum.json").read_text())
-    lexicon = json.loads((DATA / "lexicon.json").read_text())
+    curriculum = json.loads((DATA / "curriculum.json").read_text(encoding="utf-8"))
+    lexicon = json.loads((DATA / "lexicon.json").read_text(encoding="utf-8"))
     lessons = []
     for u in curriculum["units"]:
         for lid in u.get("lessons", []):
@@ -279,7 +303,7 @@ def main():
             if not p.exists():
                 errors.append(f"curriculum lists {lid} but {p} is missing")
                 continue
-            lessons.append(json.loads(p.read_text()))
+            lessons.append(json.loads(p.read_text(encoding="utf-8")))
 
     index, ids = Index(), {}
     for e in lexicon["entries"]:
@@ -379,7 +403,7 @@ def main():
     # Letters from other alphabets that look Latin (e.g. Cyrillic а) break lookups and audio.
     foreign = re.compile(r"[\u0370-\u03ff\u0400-\u04ff]")
     for path in [DATA / "lexicon.json", *sorted((DATA / "lessons").glob("*.json"))]:
-        for n, line in enumerate(path.read_text().splitlines(), 1):
+        for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             if foreign.search(line):
                 errors.append(f"{path.name}:{n}: non-Latin letter {foreign.search(line).group()!r} (Greek/Cyrillic look-alike?)")
 
@@ -402,4 +426,5 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.stdout.reconfigure(encoding="utf-8")  # on Windows, piped output would otherwise use the ANSI code page
+    sys.exit(tokenize_stdin() if "--tokenize" in sys.argv else main())

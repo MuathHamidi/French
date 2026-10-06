@@ -6,6 +6,7 @@ import { settings, addFlag } from './store.js';
 
 const pop = () => document.getElementById('popover');
 const canHover = matchMedia('(hover: hover) and (pointer: fine)');
+const unlink = (s) => s.replace(/\[([^|\]]+)\|[^\]]+\]/g, '$1'); // the card shows [surface|id] as plain text
 let caseInfo = new Map(); // grammar case id -> {label, rule}
 let current = null, pinned = false, showTimer, hideTimer;
 
@@ -126,9 +127,9 @@ function buildCard(id, surface, caseId) {
       h('button', { class: 'btn', onclick: () => speak(e.say || e.fr) }, '🔊 Listen'),
       h('button', { class: 'btn', onclick: () => speak(e.say || e.fr, { slow: true }) }, '🐢 Slow')),
     h('div', { class: 'entry-en' }, e.en),
-    e.def ? h('div', { class: 'def' }, h('div', { class: 'lbl' }, 'Définition'), inline(e.def),
+    e.def ? h('div', { class: 'def' }, h('div', { class: 'lbl' }, 'Définition'), inline(unlink(e.def)),
       defEn ? h('button', { class: 'reveal', onclick: () => { defEn.hidden = !defEn.hidden; } }, 'EN') : null, defEn) : null,
-    ex ? h('div', { class: 'small' }, h('i', {}, inline(ex.fr.replace(/\[([^|\]]+)\|[^\]]+\]/g, '$1'))), ' — ', h('span', { class: 'muted' }, ex.en)) : null,
+    ex ? h('div', { class: 'small' }, h('i', {}, inline(unlink(ex.fr))), ' — ', h('span', { class: 'muted' }, ex.en)) : null,
     gram ? h('div', { class: 'gram-box' }, h('b', {}, gram.label), h('div', {}, inline(gram.rule))) : null,
     e.note ? h('div', { class: 'note' }, inline(e.note)) : null,
     h('div', { class: 'row small', style: 'margin-top:10px' },

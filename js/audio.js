@@ -56,14 +56,20 @@ export function voiceInfo() {
   };
 }
 
+// The generated audio file for a text, or null when the device voice has to read it.
+export function audioFile(text) {
+  const t = String(text).replace(/\s+/g, ' ').trim();
+  // An exact-case key exists only where capitals change the sound (the name Jean vs jean, the clothing).
+  return (files && (files[t.normalize('NFC').replace(/[’‘`]/g, "'")] || files[normKey(t)])) || null;
+}
+
 // Resolves when the text has finished playing (or was stopped).
 export function speak(text, { slow = false } = {}) {
   const t = String(text).replace(/\s+/g, ' ').trim();
   if (!t) return Promise.resolve();
   stop();
   gen += 1;
-  // An exact-case key exists only where capitals change the sound (the name Jean vs jean, the clothing).
-  const file = files && (files[t.normalize('NFC').replace(/[’‘`]/g, "'")] || files[normKey(t)]);
+  const file = audioFile(t);
   if (file) {
     return new Promise((resolve) => {
       const a = new Audio(file);

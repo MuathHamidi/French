@@ -12,11 +12,10 @@ Progress is saved in the browser (localStorage). To move it to another device, u
 
 ## Run it on your computer
 
-The app loads its lessons with `fetch`, so it needs a small web server. Opening `index.html` directly won't work.
+The app loads its lessons with `fetch`, so it needs a small web server. Opening `index.html` directly won't work. From the project folder:
 
 ```bash
-cd ~/Data/Courses/French
-python3 tools/serve.py
+python3 tools/serve.py        # on Windows: python tools/serve.py
 ```
 
 Then open <http://localhost:8765>.
@@ -38,6 +37,7 @@ data/lexicon.json           helper words used in stories/examples but not taught
 data/audio.json             text → audio file map (made by tools/make_audio.py)
 audio/                      generated MP3s for every word and sentence
 tools/validate.py           checks the content (run it after every change)
+tools/check_app.mjs         checks the app's code against the content (word links, quizzes, audio)
 tools/make_audio.py         generates the audio with Piper
 ```
 
@@ -58,10 +58,19 @@ Nouns that name a man or a woman with the same word (*un / une journaliste*, *un
 Before publishing, run:
 
 ```bash
-python3 tools/validate.py
+python3 tools/validate.py     # on Windows: python tools/validate.py
+node tools/check_app.mjs
 ```
 
-It fails if any word in a story, example, definition or quiz is missing from the dictionary. It also fails if a lesson word is not used in its story, or if a grammar case has no highlight in the story or fewer than two quiz questions.
+`validate.py` fails if any word in a story, example, definition or quiz is missing from the dictionary. It also fails if a lesson word is not used in its story, or if a grammar case has no highlight in the story or fewer than two quiz questions.
+
+`check_app.mjs` needs [Node.js](https://nodejs.org) 22 or newer. It runs the app's own code on the whole course. It fails if:
+- the app links a word to a different card than `validate.py` does;
+- a quiz question the app can ask doesn't accept its right answer;
+- a text the app reads aloud has no audio file;
+- link markup would show as raw text.
+
+It also warns about quiz questions where a right answer could be marked wrong (two words with the same English, or two options that sound the same). Give it lesson ids (`node tools/check_app.mjs u20-futur u20-phone`) to check only those lessons' quizzes and audio. Add `--homographs` to list every word in them that has several dictionary entries, with the entry each text links to. This is the list to review after writing a lesson.
 
 ## Pronunciation (natural audio)
 
@@ -70,7 +79,7 @@ Every word and sentence has an MP3 in `audio/`, generated with [Piper](https://g
 After adding or changing lessons, regenerate the audio. Only new texts are synthesized, which takes about a minute for a whole unit:
 
 ```bash
-.venv/bin/python tools/make_audio.py --prune
+.venv/bin/python tools/make_audio.py --prune      # on Windows: .venv\Scripts\python tools\make_audio.py --prune
 ```
 
 At the end the script compares Piper's pronunciation of each word with the IPA written in the lessons, and lists the differences. When a word really sounds wrong, add the correct phonemes to `FIXES` in `tools/make_audio.py` and run it again.
@@ -84,6 +93,8 @@ mkdir -p tools/voices && cd tools/voices
 curl -LO https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx
 curl -LO https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json
 ```
+
+On Windows, create the environment with `python -m venv .venv` and `.venv\Scripts\pip install piper-tts soundfile`, then download the same two voice files into `tools\voices\` (Windows has `curl` too).
 
 **Credit:** audio generated with Piper TTS, voice `fr_FR-siwis-medium`, trained on the SIWIS French Speech Synthesis Database (University of Edinburgh), licensed CC BY 4.0. Keep this credit if you publish the app.
 
