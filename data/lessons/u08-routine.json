@@ -28,7 +28,7 @@
       ] },
     { "id": "se-doucher", "fr": "se doucher", "pos": "verb", "ipa": "sə du.ʃe", "en": "to shower, to take a shower",
       "def": "Se laver sous la douche.", "def_en": "To wash under the shower.",
-      "forms": ["me douche", "te douches", "se douche", "nous nous douchons", "vous vous douchez", "se douchent", "douche-toi", "douchais", "douchait", "douchions", "douchiez", "douchaient", "me doucherai", "te doucheras", "se douchera", "nous nous doucherons", "vous vous doucherez", "se doucheront", "me doucherais", "te doucherais", "se doucherait", "nous nous doucherions", "vous vous doucheriez", "se doucheraient"],
+      "forms": ["me douche", "te douches", "se douche", "nous nous douchons", "vous vous douchez", "se douchent", "douche-toi", "douchais", "douchait", "douchions", "douchiez", "douchaient", "me doucherai", "te doucheras", "se douchera", "nous nous doucherons", "vous vous doucherez", "se doucheront", "me doucherais", "te doucherais", "se doucherait", "nous nous doucherions", "vous vous doucheriez", "se doucheraient", "douché", "douchée", "douchés", "douchées"],
       "examples": [
         { "fr": "Je **me douche** le matin.", "en": "I shower in the morning." },
         { "fr": "Tu **te douches** le soir ?", "en": "Do you shower in the evening?" },
@@ -36,7 +36,7 @@
       ] },
     { "id": "se-laver", "fr": "se laver", "pos": "verb", "ipa": "sə la.ve", "en": "to wash (yourself)",
       "def": "Laver son corps avec de l'eau.", "def_en": "To wash your body with water.",
-      "forms": ["me lave", "te laves", "se lave", "nous nous lavons", "vous vous lavez", "se lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "me laverai", "te laveras", "se lavera", "nous nous laverons", "vous vous laverez", "se laveront", "me laverais", "te laverais", "se laverait", "nous nous laverions", "vous vous laveriez", "se laveraient"],
+      "forms": ["me lave", "te laves", "se lave", "nous nous lavons", "vous vous lavez", "se lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "me laverai", "te laveras", "se lavera", "nous nous laverons", "vous vous laverez", "se laveront", "me laverais", "te laverais", "se laverait", "nous nous laverions", "vous vous laveriez", "se laveraient", "lavé", "lavée", "lavés", "lavées"],
       "examples": [
         { "fr": "Je **me lave** les mains.", "en": "I wash my hands." },
         { "fr": "Le chat **se lave** sur le lit.", "en": "The cat is washing itself on the bed." },
@@ -44,7 +44,7 @@
       ] },
     { "id": "se-brosser", "fr": "se brosser", "pos": "verb", "ipa": "sə bʁɔ.se", "en": "to brush (your teeth, your hair)",
       "def": "Nettoyer ses dents ou ses cheveux avec une brosse.", "def_en": "To clean your teeth or hair with a brush.",
-      "forms": ["me brosse", "te brosses", "se brosse", "nous nous brossons", "vous vous brossez", "se brossent", "brossais", "brossait", "brossions", "brossiez", "brossaient", "me brosserai", "te brosseras", "se brossera", "nous nous brosserons", "vous vous brosserez", "se brosseront", "me brosserais", "te brosserais", "se brosserait", "nous nous brosserions", "vous vous brosseriez", "se brosseraient"],
+      "forms": ["me brosse", "te brosses", "se brosse", "nous nous brossons", "vous vous brossez", "se brossent", "brossais", "brossait", "brossions", "brossiez", "brossaient", "me brosserai", "te brosseras", "se brossera", "nous nous brosserons", "vous vous brosserez", "se brosseront", "me brosserais", "te brosserais", "se brosserait", "nous nous brosserions", "vous vous brosseriez", "se brosseraient", "brossé", "brossée", "brossés", "brossées"],
       "examples": [
         { "fr": "Je **me brosse** les dents.", "en": "I brush my teeth." },
         { "fr": "Lou **se brosse** les cheveux.", "en": "Lou brushes her hair." },
@@ -64,7 +64,7 @@
       "note": "The **h** is silent, so **me, te, se** become **m', t', s'**." },
     { "id": "se-coiffer", "fr": "se coiffer", "pos": "verb", "ipa": "sə kwa.fe", "en": "to do your hair",
       "def": "Se brosser les cheveux pour être beau ou belle.", "def_en": "To brush your hair to look nice.",
-      "forms": ["me coiffe", "te coiffes", "se coiffe", "nous nous coiffons", "vous vous coiffez", "se coiffent", "coiffais", "coiffait", "coiffions", "coiffiez", "coiffaient", "me coifferai", "te coifferas", "se coiffera", "nous nous coifferons", "vous vous coifferez", "se coifferont", "me coifferais", "te coifferais", "se coifferait", "nous nous coifferions", "vous vous coifferiez", "se coifferaient"],
+      "forms": ["me coiffe", "te coiffes", "se coiffe", "nous nous coiffons", "vous vous coiffez", "se coiffent", "coiffais", "coiffait", "coiffions", "coiffiez", "coiffaient", "me coifferai", "te coifferas", "se coiffera", "nous nous coifferons", "vous vous coifferez", "se coifferont", "me coifferais", "te coifferais", "se coifferait", "nous nous coifferions", "vous vous coifferiez", "se coifferaient", "coiffé", "coiffée", "coiffés", "coiffées"],
       "examples": [
         { "fr": "Je **me coiffe** devant le miroir.", "en": "I do my hair in front of the mirror." },
         { "fr": "Léa **se coiffe** tous les matins.", "en": "Léa does her hair every morning." },
@@ -81,7 +81,7 @@
       ] },
     { "id": "se-depecher", "fr": "se dépêcher", "pos": "verb", "ipa": "sə de.pe.ʃe", "en": "to hurry",
       "def": "Faire vite, parce qu'on est en retard.", "def_en": "To do things quickly, because you're late.",
-      "forms": ["me dépêche", "te dépêches", "se dépêche", "nous nous dépêchons", "vous vous dépêchez", "se dépêchent", "dépêche", "dépêchez", "dépêchons", "dépêchais", "dépêchait", "dépêchions", "dépêchiez", "dépêchaient", "me dépêcherai", "te dépêcheras", "se dépêchera", "nous nous dépêcherons", "vous vous dépêcherez", "se dépêcheront", "me dépêcherais", "te dépêcherais", "se dépêcherait", "nous nous dépêcherions", "vous vous dépêcheriez", "se dépêcheraient"],
+      "forms": ["me dépêche", "te dépêches", "se dépêche", "nous nous dépêchons", "vous vous dépêchez", "se dépêchent", "dépêche", "dépêchez", "dépêchons", "dépêchais", "dépêchait", "dépêchions", "dépêchiez", "dépêchaient", "me dépêcherai", "te dépêcheras", "se dépêchera", "nous nous dépêcherons", "vous vous dépêcherez", "se dépêcheront", "me dépêcherais", "te dépêcherais", "se dépêcherait", "nous nous dépêcherions", "vous vous dépêcheriez", "se dépêcheraient", "dépêché", "dépêchée", "dépêchés", "dépêchées"],
       "accept": ["se depecher"],
       "examples": [
         { "fr": "Je **me dépêche** : le train part !", "en": "I'm hurrying: the train is leaving!" },
@@ -134,7 +134,7 @@
     { "id": "dormir", "fr": "dormir", "pos": "verb", "ipa": "dɔʁ.miʁ", "en": "to sleep",
       "def": "Être dans son lit, les yeux fermés, la nuit.", "def_en": "To be in bed with your eyes closed, at night.",
       "extra": "je **dors** · tu **dors** · il **dort** · nous **dormons** · vous **dormez** · ils **dorment** — irregular.",
-      "forms": ["dors", "dort", "dormons", "dormez", "dorment", "dormi", "dormais", "dormait", "dormions", "dormiez", "dormaient", "dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront", "dormirais", "dormirait", "dormirions", "dormiriez", "dormiraient", "dorme", "dormes"],
+      "forms": ["dors", "dort", "dormons", "dormez", "dorment", "dormi", "dormais", "dormait", "dormions", "dormiez", "dormaient", "dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront", "dormirais", "dormirait", "dormirions", "dormiriez", "dormiraient", "dorme", "dormes", "dormie", "dormis", "dormies"],
       "examples": [
         { "fr": "Je **dors** huit heures par nuit.", "en": "I sleep eight hours a night." },
         { "fr": "Chut ! Le bébé **dort**.", "en": "Shh! The baby's sleeping." },
@@ -143,7 +143,7 @@
     { "id": "etudier", "fr": "étudier", "pos": "verb", "ipa": "e.ty.dje", "en": "to study",
       "def": "Travailler pour apprendre : les étudiants étudient.", "def_en": "To work in order to learn: students study.",
       "extra": "j'**étudie** · tu **étudies** · il **étudie** · nous **étudions** · vous **étudiez** · ils **étudient**",
-      "forms": ["étudie", "étudies", "étudions", "étudiez", "étudient", "étudiais", "étudiait", "étudiions", "étudiiez", "étudiaient", "étudierai", "étudieras", "étudiera", "étudierons", "étudierez", "étudieront", "étudierais", "étudierait", "étudierions", "étudieriez", "étudieraient"], "accept": ["etudier"],
+      "forms": ["étudie", "étudies", "étudions", "étudiez", "étudient", "étudiais", "étudiait", "étudiions", "étudiiez", "étudiaient", "étudierai", "étudieras", "étudiera", "étudierons", "étudierez", "étudieront", "étudierais", "étudierait", "étudierions", "étudieriez", "étudieraient", "étudié", "étudiée", "étudiés", "étudiées"], "accept": ["etudier"],
       "examples": [
         { "fr": "J'**étudie** le français.", "en": "I'm studying French." },
         { "fr": "Tu **étudies** à Lyon ?", "en": "Do you study in Lyon?" },

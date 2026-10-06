@@ -122,6 +122,7 @@ FIXES = {
     "monopoly": "mɔnɔpɔlˈi",  # otherwise read in English
     "échouerai": "eʃuʁˈe", "échoueras": "eʃuʁˈa", "échouera": "eʃuʁˈa", "échouerons": "eʃuʁˈɔ̃", "échouerez": "eʃuʁˈe", "échoueront": "eʃuʁˈɔ̃",  # -ouer verbs: the voice says /eʃwʁe/
     "échouerais": "eʃuʁˈɛ", "échouerait": "eʃuʁˈɛ", "échouerions": "eʃuʁjˈɔ̃", "échoueriez": "eʃuʁjˈe", "échoueraient": "eʃuʁˈɛ",
+    "tournevis": "tuʁnəvˈis", "une vis": "yn vˈis", "ces vis": "se vˈis", "les vis": "le vˈis", "trois vis": "tʁwa vˈis",  # vis (a screw) is /vis/; the voice reads it like je vis /vi/
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}
@@ -129,6 +130,7 @@ CASE_FIX_RE = re.compile(rf"(?<![{V.L}'’])({'|'.join(map(re.escape, CASE_FIXES
 # Fixes only for a word said on its own (in sentences the voice gets these right).
 ALONE_FIXES = {
     "y": "ˈi",  # alone, the voice reads the letter name "i grec"
+    "vis": "vˈis",  # the noun (a screw); no text uses the verb (je vis) yet, which would need /vi/
 }
 # A fixed word after an elision (l'immeuble, d'Annecy) takes the elided consonant into its
 # phoneme block: alone before a block, Piper would read "l'" as the letter name.

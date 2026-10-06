@@ -8,7 +8,7 @@
   "words": [
     { "id": "penser", "fr": "penser", "pos": "verb", "ipa": "pɑ̃.se", "en": "to think (penser à = to think of/about)",
       "def": "Avoir une idée dans la tête ; avoir un avis.", "def_en": "To have an idea in your head; to have an opinion.",
-      "forms": ["pense", "penses", "pensons", "pensez", "pensent", "pensé", "pensais", "pensait", "pensions", "pensiez", "pensaient", "penserai", "penseras", "pensera", "penserons", "penserez", "penseront", "penserais", "penserait", "penserions", "penseriez", "penseraient"],
+      "forms": ["pense", "penses", "pensons", "pensez", "pensent", "pensé", "pensais", "pensait", "pensions", "pensiez", "pensaient", "penserai", "penseras", "pensera", "penserons", "penserez", "penseront", "penserais", "penserait", "penserions", "penseriez", "penseraient", "pensée", "pensés", "pensées"],
       "examples": [
         { "fr": "Je **pense** que tu as raison.", "en": "I think you're right." },
         { "fr": "Tu **penses** à moi ?", "en": "Are you thinking of me?" },
@@ -27,7 +27,7 @@
     { "id": "savoir", "fr": "savoir", "pos": "verb", "ipa": "sa.vwaʁ", "en": "to know (a fact); to know how to",
       "def": "Avoir une information dans la tête. Aussi : pouvoir faire une chose, comme nager.", "def_en": "To have a piece of information in your head. Also: to be able to do something, like swimming.",
       "extra": "je **sais**, tu **sais**, il **sait**, nous **savons**, vous **savez**, ils **savent**; j'ai **su**.",
-      "forms": ["sais", "sait", "savons", "savez", "savent", "su", "savais", "savait", "savions", "saviez", "savaient", "saurai", "sauras", "saura", "saurons", "saurez", "sauront", "saurais", "saurait", "saurions", "sauriez", "sauraient", "sache", "saches", "sachions", "sachiez", "sachent"],
+      "forms": ["sais", "sait", "savons", "savez", "savent", "su", "savais", "savait", "savions", "saviez", "savaient", "saurai", "sauras", "saura", "saurons", "saurez", "sauront", "saurais", "saurait", "saurions", "sauriez", "sauraient", "sache", "saches", "sachions", "sachiez", "sachent", "sue", "sus", "sues"],
       "examples": [
         { "fr": "Je ne **sais** pas.", "en": "I don't know." },
         { "fr": "Tu **sais** où est Hugo ?", "en": "Do you know where Hugo is?" },
@@ -55,7 +55,7 @@
     { "id": "se-rappeler", "fr": "se rappeler", "pos": "verb", "ipa": "sə ʁa.ple", "en": "to remember, to recall", "accept": ["se souvenir"],
       "def": "Avoir encore une chose dans sa mémoire ; ne pas oublier.", "def_en": "To still have something in your memory; not to forget.",
       "extra": "l → ll before a silent ending: je **me rappelle**, tu **te rappelles**, il **se rappelle**, nous **nous rappelons**, vous **vous rappelez**, ils **se rappellent**.",
-      "forms": ["me rappelle", "te rappelles", "se rappelle", "nous nous rappelons", "vous vous rappelez", "se rappellent", "me rappelais", "te rappelais", "se rappelait", "nous nous rappelions", "vous vous rappeliez", "se rappelaient", "me rappellerai", "te rappelleras", "se rappellera", "nous nous rappellerons", "vous vous rappellerez", "se rappelleront", "me rappellerais", "te rappellerais", "se rappellerait", "nous nous rappellerions", "vous vous rappelleriez", "se rappelleraient"],
+      "forms": ["me rappelle", "te rappelles", "se rappelle", "nous nous rappelons", "vous vous rappelez", "se rappellent", "me rappelais", "te rappelais", "se rappelait", "nous nous rappelions", "vous vous rappeliez", "se rappelaient", "me rappellerai", "te rappelleras", "se rappellera", "nous nous rappellerons", "vous vous rappellerez", "se rappelleront", "me rappellerais", "te rappellerais", "se rappellerait", "nous nous rappellerions", "vous vous rappelleriez", "se rappelleraient", "rappelée", "rappelés", "rappelées"],
       "examples": [
         { "fr": "Je **me rappelle** son nom.", "en": "I remember her name." },
         { "fr": "Tu **te rappelles** notre premier [voyage|voyage] ?", "en": "Do you remember our first trip?" },
@@ -82,7 +82,7 @@
       "note": "Without *se*, **demander** = to ask: *il me demande l'heure* (he asks me the time)." },
     { "id": "deviner", "fr": "deviner", "pos": "verb", "ipa": "də.vi.ne", "en": "to guess",
       "def": "Trouver une réponse sans la savoir.", "def_en": "To find an answer without knowing it.",
-      "forms": ["devine", "devines", "devinons", "devinez", "devinent", "deviné", "devinais", "devinait", "devinions", "deviniez", "devinaient", "devinerai", "devineras", "devinera", "devinerons", "devinerez", "devineront", "devinerais", "devinerait", "devinerions", "devineriez", "devineraient"],
+      "forms": ["devine", "devines", "devinons", "devinez", "devinent", "deviné", "devinais", "devinait", "devinions", "deviniez", "devinaient", "devinerai", "devineras", "devinera", "devinerons", "devinerez", "devineront", "devinerais", "devinerait", "devinerions", "devineriez", "devineraient", "devinée", "devinés", "devinées"],
       "examples": [
         { "fr": "**Devine** qui est là !", "en": "Guess who's here!" },
         { "fr": "Tu ne **devines** pas ?", "en": "Can't you guess?" },
@@ -108,7 +108,7 @@
       ] },
     { "id": "hesiter", "fr": "hésiter", "pos": "verb", "ipa": "e.zi.te", "en": "to hesitate; can't decide",
       "def": "Ne pas savoir quoi choisir ou quoi faire ; attendre avant de décider.", "def_en": "Not to know what to choose or do; to wait before deciding.",
-      "forms": ["hésite", "hésites", "hésitons", "hésitez", "hésitent", "hésité", "hésitais", "hésitait", "hésitions", "hésitiez", "hésitaient", "hésiterai", "hésiteras", "hésitera", "hésiterons", "hésiterez", "hésiteront", "hésiterais", "hésiterait", "hésiterions", "hésiteriez", "hésiteraient"],
+      "forms": ["hésite", "hésites", "hésitons", "hésitez", "hésitent", "hésité", "hésitais", "hésitait", "hésitions", "hésitiez", "hésitaient", "hésiterai", "hésiteras", "hésitera", "hésiterons", "hésiterez", "hésiteront", "hésiterais", "hésiterait", "hésiterions", "hésiteriez", "hésiteraient", "hésitée", "hésités", "hésitées"],
       "examples": [
         { "fr": "J'**hésite** entre la robe bleue et la robe verte.", "en": "I can't decide between the blue dress and the green one." },
         { "fr": "N'**hésitez** pas à poser des questions !", "en": "Don't hesitate to ask questions!" },
@@ -118,7 +118,7 @@
     { "id": "reflechir", "fr": "réfléchir", "pos": "verb", "ipa": "ʁe.fle.ʃiʁ", "en": "to think (carefully), to think it over",
       "def": "Penser longtemps et bien, avant de décider ou de répondre.", "def_en": "To think long and hard, before deciding or answering.",
       "extra": "Like *finir*: je **réfléchis**, nous **réfléchissons**, ils **réfléchissent**; j'ai **réfléchi**.",
-      "forms": ["réfléchis", "réfléchit", "réfléchissons", "réfléchissez", "réfléchissent", "réfléchi", "réfléchissais", "réfléchissait", "réfléchissions", "réfléchissiez", "réfléchissaient", "réfléchirai", "réfléchiras", "réfléchira", "réfléchirons", "réfléchirez", "réfléchiront", "réfléchirais", "réfléchirait", "réfléchirions", "réfléchiriez", "réfléchiraient", "réfléchisse", "réfléchisses"],
+      "forms": ["réfléchis", "réfléchit", "réfléchissons", "réfléchissez", "réfléchissent", "réfléchi", "réfléchissais", "réfléchissait", "réfléchissions", "réfléchissiez", "réfléchissaient", "réfléchirai", "réfléchiras", "réfléchira", "réfléchirons", "réfléchirez", "réfléchiront", "réfléchirais", "réfléchirait", "réfléchirions", "réfléchiriez", "réfléchiraient", "réfléchisse", "réfléchisses", "réfléchie", "réfléchies"],
       "examples": [
         { "fr": "Je **réfléchis**… Je te réponds demain.", "en": "I'm thinking it over… I'll answer you tomorrow." },
         { "fr": "**Réfléchis** avant de parler !", "en": "Think before you speak!" },
@@ -143,7 +143,7 @@
       ] },
     { "id": "sembler", "fr": "sembler", "pos": "verb", "ipa": "sɑ̃.ble", "en": "to seem",
       "def": "Avoir l'air ; donner une impression.", "def_en": "To look; to give an impression.",
-      "forms": ["semble", "sembles", "semblons", "semblez", "semblent", "semblé", "semblais", "semblait", "semblions", "sembliez", "semblaient", "semblerai", "sembleras", "semblera", "semblerons", "semblerez", "sembleront", "semblerais", "semblerait", "semblerions", "sembleriez", "sembleraient"],
+      "forms": ["semble", "sembles", "semblons", "semblez", "semblent", "semblé", "semblais", "semblait", "semblions", "sembliez", "semblaient", "semblerai", "sembleras", "semblera", "semblerons", "semblerez", "sembleront", "semblerais", "semblerait", "semblerions", "sembleriez", "sembleraient", "semblée", "semblés", "semblées"],
       "examples": [
         { "fr": "Tu **sembles** fatigué.", "en": "You seem tired." },
         { "fr": "Ça **semble** facile, mais c'est difficile !", "en": "It seems easy, but it's hard!" },
@@ -161,7 +161,7 @@
       "note": "**avoir l'air** + adjective. Only **avoir** changes: *elle a l'air surprise, ils ont l'air contents*." },
     { "id": "rever", "fr": "rêver", "pos": "verb", "ipa": "ʁɛ.ve", "en": "to dream",
       "def": "Voir des images dans sa tête quand on dort. Aussi : vouloir très fort une chose.", "def_en": "To see pictures in your head while you sleep. Also: to want something very much.",
-      "forms": ["rêve", "rêves", "rêvons", "rêvez", "rêvent", "rêvé", "rêvais", "rêvait", "rêvions", "rêviez", "rêvaient", "rêverai", "rêveras", "rêvera", "rêverons", "rêverez", "rêveront", "rêverais", "rêverait", "rêverions", "rêveriez", "rêveraient"],
+      "forms": ["rêve", "rêves", "rêvons", "rêvez", "rêvent", "rêvé", "rêvais", "rêvait", "rêvions", "rêviez", "rêvaient", "rêverai", "rêveras", "rêvera", "rêverons", "rêverez", "rêveront", "rêverais", "rêverait", "rêverions", "rêveriez", "rêveraient", "rêvée", "rêvés", "rêvées"],
       "examples": [
         { "fr": "Cette nuit, j'ai **rêvé** de toi.", "en": "Last night I dreamt about you." },
         { "fr": "Lou **rêve** d'avoir un chien.", "en": "Lou dreams of having a dog." },

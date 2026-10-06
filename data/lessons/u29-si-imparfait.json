@@ -1,0 +1,156 @@
+{
+  "id": "u29-si-imparfait",
+  "type": "grammar",
+  "unit": 29,
+  "title": "Si j'étais toi…",
+  "en": "si + imparfait → conditional",
+  "intro": "To imagine something that isn't true, or probably won't happen, French uses **si + imparfait**, then the **conditional**: *Si j'**avais** de l'argent, j'**achèterais** une maison.* The same pattern gives advice (*Si j'étais toi…*), suggestions (*Et si on allait… ?*) and wishes (*Si seulement…*). Never put the conditional right after **si**.",
+  "cases": [
+    { "id": "si-hyp", "label": "si + imparfait → conditional", "rule": "Imagining: **si** + imparfait, then the conditional: *Si j'**habitais** au-dessus d'une boulangerie, je **mangerais** des croissants tous les matins.* The **si** part can also come second: *Je **mangerais** des croissants **si** j'**habitais** là.*" },
+    { "id": "si-jamais", "label": "never the conditional after si", "rule": "After **si** (= if), never use the conditional: ~~si j'aurais~~ → ***si j'avais***. The conditional goes in the other part of the sentence. Before **il, ils**, **si** becomes **s'**: *s'il pleuvait*." },
+    { "id": "si-reel", "label": "si + present (real) or si + imparfait (imagined)?", "rule": "**si** + present, then future or present: it's a real possibility. *Si tu **prends** cet appartement, on **sera** voisins.* **si** + imparfait, then conditional: you're only imagining. *Si tu **prenais** le studio, tu **serais** près du bureau.*" },
+    { "id": "si-conseil", "label": "advice: si j'étais toi, à ta place", "rule": "To give advice: ***Si j'étais toi**, je **prendrais** l'appartement lumineux. **À ta place**, je **demanderais** une caution plus petite.* Both are followed by the conditional." },
+    { "id": "si-suggestion", "label": "Et si on… ? (suggestion)", "rule": "**Et si** + **on** / **nous** + imparfait, with no second part, is a friendly suggestion: ***Et si on allait** voir la boulangère ?* (Shall we go…?)" },
+    { "id": "si-seulement", "label": "Si seulement… ! (wish)", "rule": "**Si seulement** + imparfait = if only: ***Si seulement j'avais** plus d'argent !* For a regret about the past, use the plus-que-parfait: *Si seulement tu **avais lu** la lettre !*" }
+  ],
+  "sections": [
+    {
+      "title": "1. si + imparfait → conditional",
+      "table": {
+        "head": ["si + imparfait", "conditional"], "frCols": [0, 1],
+        "rows": [
+          ["Si j'avais de l'argent,", "j'achèterais une maison."],
+          ["Si tu habitais ici,", "tu serais près de ton bureau."],
+          ["Si nous étions riches,", "nous voyagerions tout le temps."],
+          ["S'il faisait beau,", "on mangerait dehors."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si tu prenais le studio, tu serais|si-hyp} à cinq minutes du bureau.", "en": "If you took the studio, you'd be five minutes from the office." },
+        { "fr": "{Je mangerais des croissants tous les matins si j'habitais|si-hyp} au-dessus d'une boulangerie.", "en": "I'd eat croissants every morning if I lived above a bakery." }
+      ],
+      "tip": "Both orders are fine. With **si** first, put a comma after the **si** part."
+    },
+    {
+      "title": "2. Never the conditional after si",
+      "table": {
+        "head": ["Wrong", "Right"], "frCols": [1],
+        "rows": [
+          ["si j'aurais…", "si j'avais…"],
+          ["si on serait…", "si on était…"],
+          ["si il pleuvrait…", "s'il pleuvait…"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si j'avais|si-jamais} un jardin, je mangerais dehors tous les soirs.", "en": "If I had a garden, I'd eat outside every evening." },
+        { "fr": "{S'il pleuvait|si-jamais}, on resterait à la maison.", "en": "If it rained, we'd stay at home." }
+      ],
+      "tip": "A useful rule: after **si** meaning *if*, French never uses the future or the conditional."
+    },
+    {
+      "title": "3. Real or imagined?",
+      "table": {
+        "head": ["Real: si + present", "Imagined: si + imparfait"], "frCols": [0, 1],
+        "rows": [
+          ["Si tu prends cet appartement, on sera voisins.", "Si tu prenais cet appartement, on serait voisins."],
+          ["S'il fait beau, on ira à la plage.", "S'il faisait beau, on irait à la plage."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si tu prends l'appartement à côté de chez moi, on fera|si-reel} de la musique ensemble !", "en": "If you take the flat next to mine, we'll play music together!" },
+        { "fr": "{Si vous signez, on fera|si-reel} l'état des lieux samedi.", "en": "If you sign, we'll do the inventory on Saturday." }
+      ],
+      "tip": "The meaning changes a little: the present says *it can happen*; the imparfait says *I'm just imagining*."
+    },
+    {
+      "title": "4. Advice: si j'étais toi, à ta place",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Si j'étais toi, je partirais.", "If I were you, I'd leave."],
+          ["Si j'étais vous, je signerais.", "If I were you, I'd sign."],
+          ["À ta place, je demanderais.", "In your place, I'd ask."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si j'étais toi, je prendrais|si-conseil} l'appartement lumineux.", "en": "If I were you, I'd take the bright flat." },
+        { "fr": "{À ta place, je demanderais|si-conseil} une caution plus petite.", "en": "In your place, I'd ask for a smaller deposit." }
+      ]
+    },
+    {
+      "title": "5. Et si on… ? (suggestion)",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Et si on allait au cinéma ?", "Shall we go to the cinema?"],
+          ["Et si on mangeait dehors ?", "How about eating outside?"],
+          ["Et si nous partions demain ?", "What if we left tomorrow?"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Et si on allait|si-suggestion} voir la boulangère tout de suite ?", "en": "Shall we go and see the baker right now?" },
+        { "fr": "{Et si on fêtait|si-suggestion} ça ?", "en": "How about celebrating?" }
+      ]
+    },
+    {
+      "title": "6. Si seulement… ! (wish)",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Si seulement j'avais plus d'argent !", "If only I had more money!"],
+          ["Si seulement il faisait moins chaud !", "If only it weren't so hot!"],
+          ["Si seulement tu avais lu la lettre !", "If only you'd read the letter!"]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si seulement j'avais|si-seulement} un balcon !", "en": "If only I had a balcony!" },
+        { "fr": "{Si seulement tu ouvrais|si-seulement} ton courrier !", "en": "If only you opened your post!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Si j'aurais de l'argent, j'achèterais une maison.", "right": "Si j'avais de l'argent, j'achèterais une maison.", "why": "After **si**, never the conditional: use the imparfait." },
+    { "wrong": "Si j'avais de l'argent, j'achète une maison.", "right": "Si j'avais de l'argent, j'achèterais une maison.", "why": "**si** + imparfait goes with the conditional." },
+    { "wrong": "Si il pleuvait, on resterait ici.", "right": "S'il pleuvait, on resterait ici.", "why": "**si** becomes **s'** before **il** and **ils**." },
+    { "wrong": "Si j'étais toi, je prends l'appartement.", "right": "Si j'étais toi, je prendrais l'appartement.", "why": "Advice with **si j'étais toi** takes the conditional." },
+    { "wrong": "Et si on irait au cinéma ?", "right": "Et si on allait au cinéma ?", "why": "**Et si** + imparfait, never the conditional." }
+  ],
+  "story": {
+    "title": "Le studio ou la boulangerie ?",
+    "en": "Wednesday 15 July, in the evening: Hugo has to choose between the dark studio and the flat above the bakery. Everyone has an opinion.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi quinze juillet, le soir, au café d'en bas. Hugo hésite entre deux logements : le studio du centre-ville, et l'appartement au-dessus de la boulangerie.", "en": "Wednesday 15 July, in the evening, at the café downstairs. Hugo can't decide between two places: the studio in the city centre, and the flat above the bakery." },
+      { "sp": "Léa", "fr": "{Si tu prenais le studio, tu serais|si-hyp} à cinq minutes du bureau. Tu arriverais enfin à l'heure !", "en": "If you took the studio, you'd be five minutes from the office. You'd finally get there on time!" },
+      { "sp": "Hugo", "fr": "Oui, mais {si j'habitais dans vingt mètres carrés, je ne pourrais|si-hyp} pas inviter mes amis.", "en": "Yes, but if I lived in twenty square metres, I couldn't invite my friends." },
+      { "sp": "Carla", "fr": "Et {si tu habitais au-dessus d'une boulangerie, tu mangerais|si-hyp} des croissants tous les matins… Ce n'est pas une bonne idée pour un coureur !", "en": "And if you lived above a bakery, you'd eat croissants every morning… That's not a good idea for a runner!" },
+      { "sp": "Tom", "fr": "Mais {si tu prends l'appartement à côté de chez moi, on fera|si-reel} de la musique ensemble !", "en": "But if you take the flat next to mine, we'll play music together!" },
+      { "sp": "Sophie", "fr": "{Si j'étais toi, je prendrais|si-conseil} l'appartement lumineux. La lumière, c'est très important.", "en": "If I were you, I'd take the bright flat. Light is very important." },
+      { "sp": "Inès", "fr": "Et {à ta place, je demanderais|si-conseil} une caution plus petite. Un mois, c'est assez.", "en": "And in your place, I'd ask for a smaller deposit. One month is enough." },
+      { "sp": "Hugo", "fr": "Bonne idée. {Si seulement j'avais|si-seulement} plus d'argent… je prendrais les deux !", "en": "Good idea. If only I had more money… I'd take both!" },
+      { "sp": "Léa", "fr": "{Si seulement tu ouvrais|si-seulement} ton courrier, tu ne serais pas dans cette situation !", "en": "If only you opened your post, you wouldn't be in this situation!" },
+      { "sp": "Hugo", "fr": "Je sais, je sais… {S'il y avait|si-jamais} une machine pour lire mes lettres, je l'achèterais !", "en": "I know, I know… If there were a machine to read my letters, I'd buy it!" },
+      { "sp": "Tom", "fr": "Et {si tu avais|si-jamais} un problème dans l'appartement, je serais juste à côté pour t'aider !", "en": "And if you had a problem in the flat, I'd be right next door to help!" },
+      { "sp": "Hugo", "fr": "Bon. {Si je signais|si-hyp} le bail ce soir, {est-ce que vous m'aideriez|si-hyp} pour le déménagement ?", "en": "Right. If I signed the lease tonight, would you help me move?" },
+      { "sp": "Tom", "fr": "{Si tu me donnais|si-hyp} des croissants gratuits, oui !", "en": "If you gave me free croissants, yes!" },
+      { "sp": "Carla", "fr": "{Et si on allait|si-suggestion} voir la boulangère tout de suite ? Elle ferme à vingt heures.", "en": "Shall we go and see the baker right now? She closes at eight." },
+      { "sp": "", "fr": "Dix minutes plus tard, Hugo signe le bail. Madame Fournier lui donne les clés… et un croissant.", "en": "Ten minutes later, Hugo signs the lease. Mme Fournier gives him the keys… and a croissant." },
+      { "sp": "Hugo", "fr": "{Et si on fêtait|si-suggestion} ça ? C'est moi qui paie !", "en": "Shall we celebrate? It's on me!" },
+      { "sp": "Léa", "fr": "Toi ? Tu paies ? {S'il pleuvait|si-jamais} des euros, je serais moins surprise !", "en": "You? Paying? I'd be less surprised if it rained euros!" }
+    ]
+  },
+  "quiz": [
+    { "case": "si-hyp", "type": "mc", "q": "Si j'avais de l'argent, j'___ une maison.", "en": "If I had money, I'd buy a house.", "options": ["achèterais", "achète", "achèterai"], "answer": "achèterais" },
+    { "case": "si-hyp", "type": "type", "q": "Si tu habitais ici, tu ___ (être) près de ton bureau.", "en": "If you lived here, you'd be near your office.", "answer": "serais" },
+    { "case": "si-jamais", "type": "mc", "q": "Si j'___ un jardin, je mangerais dehors.", "en": "If I had a garden, I'd eat outside.", "options": ["avais", "aurais", "aurai"], "answer": "avais" },
+    { "case": "si-jamais", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["S'il pleuvait, on resterait ici.", "Si il pleuvait, on resterait ici.", "S'il pleuvrait, on resterait ici."], "answer": "S'il pleuvait, on resterait ici.", "say": "S'il pleuvait, on resterait ici." },
+    { "case": "si-reel", "type": "mc", "q": "Si tu prends cet appartement, on ___ voisins.", "en": "If you take this flat, we'll be neighbours.", "options": ["sera", "serait", "était"], "answer": "sera" },
+    { "case": "si-reel", "type": "mc", "q": "Si tu prenais cet appartement, on ___ voisins.", "en": "If you took this flat, we'd be neighbours.", "options": ["serait", "sera", "est"], "answer": "serait" },
+    { "case": "si-conseil", "type": "mc", "q": "Si j'étais toi, je ___ l'appartement lumineux.", "en": "If I were you, I'd take the bright flat.", "options": ["prendrais", "prends", "prenais"], "answer": "prendrais" },
+    { "case": "si-conseil", "type": "mc", "q": "À ta place, je ___ une caution plus petite.", "en": "In your place, I'd ask for a smaller deposit.", "options": ["demanderais", "demanderai", "demandais"], "answer": "demanderais" },
+    { "case": "si-suggestion", "type": "mc", "q": "Et si on ___ au cinéma ?", "en": "Shall we go to the cinema?", "options": ["allait", "irait", "va"], "answer": "allait" },
+    { "case": "si-suggestion", "type": "type", "q": "Et si on ___ (manger) dehors ?", "en": "How about eating outside?", "answer": "mangeait" },
+    { "case": "si-seulement", "type": "mc", "q": "Si seulement j'___ plus d'argent !", "en": "If only I had more money!", "options": ["avais", "aurais", "ai"], "answer": "avais" },
+    { "case": "si-seulement", "type": "mc", "q": "Si seulement il ___ moins chaud !", "en": "If only it weren't so hot!", "options": ["faisait", "ferait", "fait"], "answer": "faisait" }
+  ]
+}

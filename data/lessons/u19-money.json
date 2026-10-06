@@ -74,7 +74,7 @@
       ] },
     { "id": "retirer", "fr": "retirer", "pos": "verb", "ipa": "ʁə.ti.ʁe", "en": "to withdraw (money); to take off",
       "def": "Prendre de l'argent sur son compte. Aussi : enlever.", "def_en": "To take money out of your account. Also: to take off.",
-      "forms": ["retire", "retires", "retirons", "retirez", "retirent", "retiré", "retirée", "retirais", "retirait", "retirions", "retiriez", "retiraient", "retirerai", "retireras", "retirera", "retirerons", "retirerez", "retireront", "retirerais", "retirerait", "retirerions", "retireriez", "retireraient"],
+      "forms": ["retire", "retires", "retirons", "retirez", "retirent", "retiré", "retirée", "retirais", "retirait", "retirions", "retiriez", "retiraient", "retirerai", "retireras", "retirera", "retirerons", "retirerez", "retireront", "retirerais", "retirerait", "retirerions", "retireriez", "retireraient", "retirés", "retirées"],
       "examples": [
         { "fr": "Je dois **retirer** de l'argent.", "en": "I need to take out some money." },
         { "fr": "Il **retire** cinquante euros au distributeur.", "en": "He takes out fifty euros at the cash machine." },
@@ -82,7 +82,7 @@
       ] },
     { "id": "depenser", "fr": "dépenser", "pos": "verb", "ipa": "de.pɑ̃.se", "en": "to spend (money)",
       "def": "Utiliser son argent pour acheter des choses.", "def_en": "To use your money to buy things.",
-      "forms": ["dépense", "dépenses", "dépensons", "dépensez", "dépensent", "dépensé", "dépensais", "dépensait", "dépensions", "dépensiez", "dépensaient", "dépenserai", "dépenseras", "dépensera", "dépenserons", "dépenserez", "dépenseront", "dépenserais", "dépenserait", "dépenserions", "dépenseriez", "dépenseraient"],
+      "forms": ["dépense", "dépenses", "dépensons", "dépensez", "dépensent", "dépensé", "dépensais", "dépensait", "dépensions", "dépensiez", "dépensaient", "dépenserai", "dépenseras", "dépensera", "dépenserons", "dépenserez", "dépenseront", "dépenserais", "dépenserait", "dépenserions", "dépenseriez", "dépenseraient", "dépensée", "dépensés", "dépensées"],
       "examples": [
         { "fr": "Je **dépense** trop d'argent en vêtements.", "en": "I spend too much money on clothes." },
         { "fr": "Combien tu as **dépensé** ?", "en": "How much did you spend?" },
@@ -91,7 +91,7 @@
       "note": "For time, French says **passer**: *passer une heure à lire* (to spend an hour reading)." },
     { "id": "economiser", "fr": "économiser", "pos": "verb", "ipa": "e.kɔ.nɔ.mi.ze", "en": "to save (money)",
       "def": "Ne pas dépenser son argent, pour l'avoir plus tard.", "def_en": "Not to spend your money, so you have it later.",
-      "forms": ["économise", "économises", "économisons", "économisez", "économisent", "économisé", "économisais", "économisait", "économisions", "économisiez", "économisaient", "économiserai", "économiseras", "économisera", "économiserons", "économiserez", "économiseront", "économiserais", "économiserait", "économiserions", "économiseriez", "économiseraient"],
+      "forms": ["économise", "économises", "économisons", "économisez", "économisent", "économisé", "économisais", "économisait", "économisions", "économisiez", "économisaient", "économiserai", "économiseras", "économisera", "économiserons", "économiserez", "économiseront", "économiserais", "économiserait", "économiserions", "économiseriez", "économiseraient", "économisée", "économisés", "économisées"],
       "examples": [
         { "fr": "J'**économise** pour un voyage au Canada.", "en": "I'm saving up for a trip to Canada." },
         { "fr": "Il faut **économiser** l'eau.", "en": "We must save water." },
@@ -99,7 +99,7 @@
       ] },
     { "id": "emprunter", "fr": "emprunter", "pos": "verb", "ipa": "ɑ̃.pʁœ̃.te", "en": "to borrow",
       "def": "Prendre une chose à une personne pour un temps, et la rendre après.", "def_en": "To take something from someone for a while, and give it back afterwards.",
-      "forms": ["emprunte", "empruntes", "empruntons", "empruntez", "empruntent", "emprunté", "empruntais", "empruntait", "empruntions", "empruntiez", "empruntaient", "emprunterai", "emprunteras", "empruntera", "emprunterons", "emprunterez", "emprunteront", "emprunterais", "emprunterait", "emprunterions", "emprunteriez", "emprunteraient"],
+      "forms": ["emprunte", "empruntes", "empruntons", "empruntez", "empruntent", "emprunté", "empruntais", "empruntait", "empruntions", "empruntiez", "empruntaient", "emprunterai", "emprunteras", "empruntera", "emprunterons", "emprunterez", "emprunteront", "emprunterais", "emprunterait", "emprunterions", "emprunteriez", "emprunteraient", "empruntée", "empruntés", "empruntées"],
       "examples": [
         { "fr": "Je peux t'**emprunter** ton vélo ?", "en": "Can I borrow your bike?" },
         { "fr": "Il **emprunte** de l'argent à la banque.", "en": "He's borrowing money from the bank." },
@@ -108,7 +108,7 @@
       "note": "**emprunter** (borrow) ↔ **prêter** (lend): *Je t'emprunte ton stylo ? — Oui, je te le prête.*" },
     { "id": "preter", "fr": "prêter", "pos": "verb", "ipa": "pʁɛ.te", "en": "to lend",
       "def": "Donner une chose à une personne pour un temps.", "def_en": "To give someone something for a while.",
-      "forms": ["prête", "prêtes", "prêtons", "prêtez", "prêtent", "prêté", "prêtée", "prêtais", "prêtait", "prêtions", "prêtiez", "prêtaient", "prêterai", "prêteras", "prêtera", "prêterons", "prêterez", "prêteront", "prêterais", "prêterait", "prêterions", "prêteriez", "prêteraient"],
+      "forms": ["prête", "prêtes", "prêtons", "prêtez", "prêtent", "prêté", "prêtée", "prêtais", "prêtait", "prêtions", "prêtiez", "prêtaient", "prêterai", "prêteras", "prêtera", "prêterons", "prêterez", "prêteront", "prêterais", "prêterait", "prêterions", "prêteriez", "prêteraient", "prêtés", "prêtées"],
       "examples": [
         { "fr": "Tu me **prêtes** ton parapluie ?", "en": "Will you lend me your umbrella?" },
         { "fr": "Léa **prête** souvent de l'argent à Hugo.", "en": "Léa often lends Hugo money." },
@@ -198,7 +198,7 @@
     { "id": "valoir", "fr": "valoir", "pos": "verb", "ipa": "va.lwaʁ", "en": "to be worth (il vaut mieux = it's better to)",
       "def": "Avoir un certain prix ; être assez bien pour quelque chose.", "def_en": "To have a certain price; to be good enough for something.",
       "extra": "je **vaux**, il **vaut**, ils **valent**; il **valait**. **Il vaut mieux** + infinitive = it's better to.",
-      "forms": ["vaux", "vaut", "valons", "valez", "valent", "valu", "valais", "valait", "valions", "valiez", "valaient", "vaudrai", "vaudras", "vaudra", "vaudrons", "vaudrez", "vaudront", "vaudrais", "vaudrait", "vaudrions", "vaudriez", "vaudraient", "vaille", "vailles", "vaillent"],
+      "forms": ["vaux", "vaut", "valons", "valez", "valent", "valu", "valais", "valait", "valions", "valiez", "valaient", "vaudrai", "vaudras", "vaudra", "vaudrons", "vaudrez", "vaudront", "vaudrais", "vaudrait", "vaudrions", "vaudriez", "vaudraient", "vaille", "vailles", "vaillent", "value", "valus", "values"],
       "examples": [
         { "fr": "Cette bague **vaut** très cher.", "en": "This ring is worth a lot." },
         { "fr": "Ça **vaut** la peine !", "en": "It's worth it!" },

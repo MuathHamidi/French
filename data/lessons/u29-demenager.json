@@ -1,0 +1,167 @@
+{
+  "id": "u29-demenager",
+  "type": "vocab",
+  "unit": 29,
+  "title": "Déménager",
+  "en": "Moving house",
+  "intro": "25 words for moving day: getting ready (**déménager, le déménagement, emballer, l'étiquette, le bazar, le coup de main**), on the road (**le camion, la camionnette, le déménageur, le trajet, décharger**), on the stairs (**soulever, déplacer, coincé, le palier, le parquet, rayé**) and in your new home (**emménager, s'installer, déballer, la crémaillère**).",
+  "words": [
+    { "id": "demenager", "fr": "déménager", "pos": "verb", "ipa": "de.me.na.ʒe", "en": "to move (house)", "def": "Quitter son logement pour aller habiter dans un autre.", "def_en": "To leave your home to go and live in another one.", "forms": ["déménage", "déménages", "déménageons", "déménagez", "déménagent", "déménagé", "déménagée", "déménagés", "déménagées", "déménageais", "déménageait", "déménagions", "déménagiez", "déménageaient", "déménagerai", "déménageras", "déménagera", "déménagerons", "déménagerez", "déménageront", "déménagerais", "déménagerait", "déménagerions", "déménageriez", "déménageraient"], "examples": [
+      { "fr": "Hugo **déménage** samedi.", "en": "Hugo is moving on Saturday." },
+      { "fr": "On a **déménagé** trois fois en deux ans.", "en": "We've moved three times in two years." },
+      { "fr": "Je n'aime pas **déménager** : c'est trop fatigant.", "en": "I don't like moving: it's too tiring." }
+    ] },
+    { "id": "demenagement", "fr": "déménagement", "pos": "noun", "g": "m", "ipa": "de.me.naʒ.mɑ̃", "en": "move, removal", "def": "Quand on change de logement : le jour où on transporte toutes ses affaires.", "def_en": "When you change homes: the day you carry all your things over.", "forms": ["déménagements"], "examples": [
+      { "fr": "Le **déménagement** est samedi à huit heures.", "en": "The move is on Saturday at eight." },
+      { "fr": "Tu m'aides pour mon **déménagement** ?", "en": "Will you help me move?" },
+      { "fr": "Après le **déménagement**, tout le monde a mal au dos.", "en": "After the move, everyone's back hurts." }
+    ] },
+    { "id": "emmenager", "fr": "emménager", "pos": "verb", "ipa": "ɑ̃.me.na.ʒe", "en": "to move in", "def": "Arriver dans un nouveau logement pour y habiter.", "def_en": "To arrive in a new home to live there.", "forms": ["emménage", "emménages", "emménageons", "emménagez", "emménagent", "emménagé", "emménagée", "emménagés", "emménagées", "emménageais", "emménageait", "emménagions", "emménagiez", "emménageaient", "emménagerai", "emménageras", "emménagera", "emménagerons", "emménagerez", "emménageront", "emménagerais", "emménagerait", "emménagerions", "emménageriez", "emménageraient"], "examples": [
+      { "fr": "Hugo **emménage** au-dessus de la boulangerie.", "en": "Hugo is moving in above the bakery." },
+      { "fr": "Nous avons **emménagé** en septembre.", "en": "We moved in in September." },
+      { "fr": "Quand est-ce que tu **emménages** ?", "en": "When are you moving in?" }
+    ], "note": "**déménager** = to move (out); **emménager** = to move in." },
+    { "id": "s-installer", "fr": "s'installer", "pos": "verb", "ipa": "sɛ̃s.ta.le", "en": "to settle (in), to move in; to make yourself comfortable; (installer) to install, to set up", "def": "Prendre sa place dans un nouveau logement ou dans un nouvel endroit. Sans « se » : mettre un appareil en place.", "def_en": "To settle into a new home or a new place. Without 'se': to put a device in place, to install.", "extra": "je **m'installe**, nous **nous installons**, ils **s'installent**.", "forms": ["m'installe", "t'installes", "s'installe", "nous nous installons", "vous vous installez", "s'installent", "m'installer", "t'installer", "nous installer", "vous installer", "installe-toi", "installez-vous", "installer", "installe", "installes", "installons", "installez", "installent", "installé", "installée", "installés", "installées", "installais", "installait", "installions", "installiez", "installaient", "m'installerai", "t'installeras", "s'installera", "nous nous installerons", "vous vous installerez", "s'installeront", "installerai", "installeras", "installera", "installerons", "installerez", "installeront", "m'installerais", "t'installerais", "s'installerait", "nous nous installerions", "vous vous installeriez", "s'installeraient", "installerais", "installerait", "installerions", "installeriez", "installeraient"], "examples": [
+      { "fr": "Je **m'installe** dans mon nouvel appartement.", "en": "I'm settling into my new flat." },
+      { "fr": "**Installez-vous**, le film va commencer !", "en": "Make yourselves comfortable, the film's about to start!" },
+      { "fr": "Tom vient **installer** la télé.", "en": "Tom is coming to set up the TV." }
+    ] },
+    { "id": "camion", "fr": "camion", "pos": "noun", "g": "m", "ipa": "ka.mjɔ̃", "en": "lorry, truck", "def": "Une très grande voiture, pour transporter des choses lourdes.", "def_en": "A very big vehicle for carrying heavy things.", "forms": ["camions"], "examples": [
+      { "fr": "Le **camion** de déménagement est devant l'immeuble.", "en": "The removal lorry is outside the building." },
+      { "fr": "Il faut louer un **camion** pour tous ces meubles.", "en": "We need to hire a lorry for all this furniture." },
+      { "fr": "Lou adore les **camions** de pompiers.", "en": "Lou loves fire engines." }
+    ] },
+    { "id": "camionnette", "fr": "camionnette", "pos": "noun", "g": "f", "ipa": "ka.mjɔ.nɛt", "en": "van", "def": "Un petit camion.", "def_en": "A small lorry.", "forms": ["camionnettes"], "examples": [
+      { "fr": "Pierre arrive avec la **camionnette** de la ferme.", "en": "Pierre arrives with the farm van." },
+      { "fr": "La **camionnette** est pleine de cartons.", "en": "The van is full of boxes." },
+      { "fr": "On peut louer une **camionnette** pour la journée.", "en": "You can hire a van for the day." }
+    ] },
+    { "id": "demenageur", "fr": "déménageur", "pos": "noun", "g": "m", "ipa": "de.me.na.ʒœʁ", "display": "le déménageur, la déménageuse", "en": "removal man, mover", "def": "Une personne dont le métier est d'aider les gens à déménager.", "def_en": "A person whose job is helping people move.", "forms": ["déménageuse", "déménageurs", "déménageuses"], "accept": ["déménageuse", "la déménageuse", "une déménageuse"], "examples": [
+      { "fr": "Les **déménageurs** arrivent à huit heures.", "en": "The removal men are coming at eight." },
+      { "fr": "Des **déménageurs**, c'est trop cher : on va le faire entre amis.", "en": "Movers are too expensive: we'll do it among friends." },
+      { "fr": "Ce **déménageur** porte deux cartons à la fois !", "en": "This mover carries two boxes at once!" }
+    ] },
+    { "id": "emballer", "fr": "emballer", "pos": "verb", "ipa": "ɑ̃.ba.le", "en": "to pack, to wrap (up)", "def": "Mettre une chose dans un carton ou dans du papier, pour la protéger ou la transporter.", "def_en": "To put something in a box or in paper, to protect it or carry it.", "forms": ["emballe", "emballes", "emballons", "emballez", "emballent", "emballé", "emballée", "emballés", "emballées", "emballais", "emballait", "emballions", "emballiez", "emballaient", "emballerai", "emballeras", "emballera", "emballerons", "emballerez", "emballeront", "emballerais", "emballerait", "emballerions", "emballeriez", "emballeraient"], "examples": [
+      { "fr": "J'**emballe** les verres dans du papier.", "en": "I'm wrapping the glasses in paper." },
+      { "fr": "Tu as **emballé** tes affaires ?", "en": "Have you packed your things?" },
+      { "fr": "Il faut bien **emballer** le miroir : il est fragile.", "en": "The mirror needs packing carefully: it's fragile." }
+    ] },
+    { "id": "deballer", "fr": "déballer", "pos": "verb", "ipa": "de.ba.le", "en": "to unpack", "def": "Ouvrir les cartons ou les paquets, et ranger ce qu'il y a dedans.", "def_en": "To open boxes or parcels, and put away what's inside.", "forms": ["déballe", "déballes", "déballons", "déballez", "déballent", "déballé", "déballée", "déballés", "déballées", "déballais", "déballait", "déballions", "déballiez", "déballaient", "déballerai", "déballeras", "déballera", "déballerons", "déballerez", "déballeront", "déballerais", "déballerait", "déballerions", "déballeriez", "déballeraient"], "examples": [
+      { "fr": "Demain, je **déballe** tous les cartons.", "en": "Tomorrow, I'm unpacking all the boxes." },
+      { "fr": "Lou **déballe** ses cadeaux de Noël.", "en": "Lou is unwrapping her Christmas presents." },
+      { "fr": "Trois semaines après, il n'a toujours pas **déballé** ses livres.", "en": "Three weeks later, he still hasn't unpacked his books." }
+    ] },
+    { "id": "soulever", "fr": "soulever", "pos": "verb", "ipa": "sul.ve", "en": "to lift", "def": "Prendre une chose lourde et la faire monter.", "def_en": "To take something heavy and raise it.", "extra": "e → è before a silent ending: je **soulève**, nous **soulevons**.", "forms": ["soulève", "soulèves", "soulevons", "soulevez", "soulèvent", "soulevé", "soulevée", "soulevés", "soulevées", "soulevais", "soulevait", "soulevions", "souleviez", "soulevaient", "soulèverai", "soulèveras", "soulèvera", "soulèverons", "soulèverez", "soulèveront", "soulèverais", "soulèverait", "soulèverions", "soulèveriez", "soulèveraient"], "examples": [
+      { "fr": "Un, deux, trois : on **soulève** le canapé !", "en": "One, two, three: lift the sofa!" },
+      { "fr": "Je ne peux pas **soulever** ce carton, il est trop lourd.", "en": "I can't lift this box, it's too heavy." },
+      { "fr": "Pierre **soulève** la machine à laver tout seul !", "en": "Pierre lifts the washing machine all by himself!" }
+    ] },
+    { "id": "coince", "fr": "coincé", "pos": "adj", "ipa": "kwɛ̃.se", "display": "coincé, coincée", "en": "stuck, jammed", "def": "Qui ne peut plus bouger : ni avancer, ni partir.", "def_en": "That can't move any more: neither forward nor out.", "forms": ["coincée", "coincés", "coincées"], "accept": ["coincée"], "examples": [
+      { "fr": "Le canapé est **coincé** dans l'escalier !", "en": "The sofa is stuck on the stairs!" },
+      { "fr": "La fenêtre est **coincée** : je ne peux pas l'ouvrir.", "en": "The window is jammed: I can't open it." },
+      { "fr": "On est **coincés** dans l'ascenseur !", "en": "We're stuck in the lift!" }
+    ] },
+    { "id": "epuise", "fr": "épuisé", "pos": "adj", "ipa": "e.pɥi.ze", "display": "épuisé, épuisée", "en": "exhausted, worn out; (a product) sold out", "def": "Très, très fatigué. Aussi : qu'on ne peut plus acheter, parce qu'il n'y en a plus.", "def_en": "Very, very tired. Also: that you can't buy any more, because there are none left.", "forms": ["épuisée", "épuisés", "épuisées"], "accept": ["épuisée"], "examples": [
+      { "fr": "Après le déménagement, tout le monde est **épuisé**.", "en": "After the move, everyone is exhausted." },
+      { "fr": "Je suis **épuisée** : j'ai travaillé douze heures.", "en": "I'm worn out: I worked twelve hours." },
+      { "fr": "Ce livre est **épuisé** : la librairie n'en a plus.", "en": "This book is sold out: the bookshop has none left." }
+    ] },
+    { "id": "cremaillere", "fr": "crémaillère", "pos": "noun", "g": "f", "ipa": "kʁe.ma.jɛʁ", "en": "(pendre la crémaillère) to have a housewarming party", "def": "Autrefois, un objet en métal au-dessus du feu, dans la cuisine. Aujourd'hui, on la « pend » quand on fait une fête dans un nouveau logement.", "def_en": "Long ago, a metal hook over the fire in the kitchen. Today, you 'hang' it when you throw a party in a new home.", "forms": ["crémaillères"], "examples": [
+      { "fr": "Samedi, Hugo pend la **crémaillère** !", "en": "On Saturday, Hugo is having a housewarming party!" },
+      { "fr": "Tu viens à ma **crémaillère** ?", "en": "Are you coming to my housewarming?" },
+      { "fr": "On a pendu la **crémaillère** dans le jardin.", "en": "We had our housewarming in the garden." }
+    ], "note": "**pendre la crémaillère** = to have a housewarming party." },
+    { "id": "coup-de-main", "fr": "coup de main", "pos": "noun", "g": "m", "ipa": "ku də mɛ̃", "en": "a hand, some help", "def": "Une petite aide, pour faire un travail ensemble.", "def_en": "A little help, to do a job together.", "forms": ["coups de main"], "examples": [
+      { "fr": "Tu peux me donner un **coup de main** ?", "en": "Can you give me a hand?" },
+      { "fr": "Merci pour le **coup de main** !", "en": "Thanks for your help!" },
+      { "fr": "Avec un petit **coup de main**, on finit avant midi.", "en": "With a bit of help, we'll finish before noon." }
+    ], "note": "**donner un coup de main** = to lend a hand." },
+    { "id": "matelas", "fr": "matelas", "pos": "noun", "g": "m", "ipa": "mat.la", "en": "mattress", "def": "La partie du lit sur laquelle on dort.", "def_en": "The part of the bed you sleep on.", "examples": [
+      { "fr": "Ce **matelas** est trop dur.", "en": "This mattress is too hard." },
+      { "fr": "On a dormi sur un **matelas** par terre.", "en": "We slept on a mattress on the floor." },
+      { "fr": "Il faut deux personnes pour porter le **matelas**.", "en": "It takes two people to carry the mattress." }
+    ] },
+    { "id": "cadre", "fr": "cadre", "pos": "noun", "g": "m", "ipa": "kadʁ", "en": "frame; setting; (at work) executive, manager", "def": "Ce qu'on met autour d'une photo ou d'un tableau. Aussi : l'endroit autour de nous. Au travail : un employé qui dirige d'autres personnes.", "def_en": "What you put around a photo or a painting. Also: the surroundings. At work: an employee who manages other people.", "forms": ["cadres"], "examples": [
+      { "fr": "J'ai mis ta photo dans un joli **cadre**.", "en": "I've put your photo in a pretty frame." },
+      { "fr": "Ce restaurant a un **cadre** magnifique, au bord du lac.", "en": "This restaurant has a wonderful setting, by the lake." },
+      { "fr": "Paul n'est pas **cadre**, il est professeur.", "en": "Paul isn't a manager, he's a teacher." }
+    ] },
+    { "id": "deplacer", "fr": "déplacer", "pos": "verb", "ipa": "de.pla.se", "en": "to move (something); (se déplacer) to get around", "def": "Changer une chose de place.", "def_en": "To move something to another place.", "forms": ["déplace", "déplaces", "déplaçons", "déplacez", "déplacent", "déplacé", "déplacée", "déplacés", "déplacées", "déplaçais", "déplaçait", "déplacions", "déplaciez", "déplaçaient", "déplacerai", "déplaceras", "déplacera", "déplacerons", "déplacerez", "déplaceront", "déplacerais", "déplacerait", "déplacerions", "déplaceriez", "déplaceraient"], "examples": [
+      { "fr": "Aide-moi à **déplacer** la table.", "en": "Help me move the table." },
+      { "fr": "On **déplace** le canapé près de la fenêtre ?", "en": "Shall we move the sofa near the window?" },
+      { "fr": "À Lyon, je me **déplace** à vélo.", "en": "In Lyon, I get around by bike." }
+    ] },
+    { "id": "bazar", "fr": "bazar", "pos": "noun", "g": "m", "ipa": "ba.zaʁ", "en": "mess, clutter; stuff (informal)", "def": "Beaucoup de choses mal rangées, partout.", "def_en": "Lots of things lying around everywhere.", "examples": [
+      { "fr": "Quel **bazar** dans ta chambre !", "en": "What a mess your room is!" },
+      { "fr": "Range ton **bazar**, s'il te plaît !", "en": "Put your stuff away, please!" },
+      { "fr": "Il y a du **bazar** partout chez Hugo.", "en": "There's clutter everywhere at Hugo's." }
+    ] },
+    { "id": "decharger", "fr": "décharger", "pos": "verb", "ipa": "de.ʃaʁ.ʒe", "en": "to unload", "def": "Enlever les choses d'un camion ou d'une voiture.", "def_en": "To take things out of a lorry or a car.", "forms": ["décharge", "décharges", "déchargeons", "déchargez", "déchargent", "déchargé", "déchargée", "déchargés", "déchargées", "déchargeais", "déchargeait", "déchargions", "déchargiez", "déchargeaient", "déchargerai", "déchargeras", "déchargera", "déchargerons", "déchargerez", "déchargeront", "déchargerais", "déchargerait", "déchargerions", "déchargeriez", "déchargeraient"], "examples": [
+      { "fr": "On **décharge** la camionnette devant l'immeuble.", "en": "We unload the van outside the building." },
+      { "fr": "Ils ont **déchargé** le camion en une heure.", "en": "They unloaded the lorry in an hour." },
+      { "fr": "Tu m'aides à **décharger** les courses ?", "en": "Will you help me unload the shopping?" }
+    ] },
+    { "id": "palier", "fr": "palier", "pos": "noun", "g": "m", "ipa": "pa.lje", "en": "landing (of a staircase)", "def": "L'espace à chaque étage, en haut de l'escalier, devant les portes des appartements.", "def_en": "The space on each floor, at the top of the stairs, outside the flats' doors.", "forms": ["paliers"], "examples": [
+      { "fr": "Mon voisin de **palier** s'appelle Tom.", "en": "My neighbour across the landing is called Tom." },
+      { "fr": "Le canapé est coincé sur le **palier**.", "en": "The sofa is stuck on the landing." },
+      { "fr": "Il y a deux appartements sur chaque **palier**.", "en": "There are two flats on each landing." }
+    ] },
+    { "id": "parquet", "fr": "parquet", "pos": "noun", "g": "m", "ipa": "paʁ.kɛ", "en": "wooden floor, parquet", "def": "Un sol fait de planches de bois.", "def_en": "A floor made of wooden boards.", "forms": ["parquets"], "examples": [
+      { "fr": "J'adore le **parquet** de ce vieil appartement.", "en": "I love the wooden floor in this old flat." },
+      { "fr": "Ne marche pas sur le **parquet** avec tes chaussures sales !", "en": "Don't walk on the wooden floor in your dirty shoes!" },
+      { "fr": "Le **parquet** du palier est rayé.", "en": "The landing floor is scratched." }
+    ] },
+    { "id": "raye", "fr": "rayé", "pos": "adj", "ipa": "ʁɛ.je", "display": "rayé, rayée", "en": "scratched; striped", "def": "Abîmé par une petite ligne sur la surface. Aussi : avec des lignes de couleur.", "def_en": "Damaged by a thin line on the surface. Also: with coloured lines.", "forms": ["rayée", "rayés", "rayées"], "accept": ["rayée"], "examples": [
+      { "fr": "Le parquet est **rayé** à cause du canapé.", "en": "The floor is scratched because of the sofa." },
+      { "fr": "Mon téléphone est tout **rayé**.", "en": "My phone is all scratched." },
+      { "fr": "Il porte un pull **rayé** bleu et blanc.", "en": "He's wearing a blue and white striped jumper." }
+    ] },
+    { "id": "trajet", "fr": "trajet", "pos": "noun", "g": "m", "ipa": "tʁa.ʒɛ", "en": "journey, trip (from A to B)", "def": "Le chemin qu'on fait pour aller d'un endroit à un autre, et le temps que ça prend.", "def_en": "The way you travel from one place to another, and the time it takes.", "forms": ["trajets"], "examples": [
+      { "fr": "Le **trajet** [dure|durer] vingt minutes en bus.", "en": "The journey takes twenty minutes by bus." },
+      { "fr": "Ils ont fait quatre **trajets** avec la camionnette.", "en": "They made four trips with the van." },
+      { "fr": "Bon **trajet** !", "en": "Have a good journey!" }
+    ] },
+    { "id": "dehors", "fr": "dehors", "pos": "adv", "ipa": "də.ɔʁ", "en": "outside", "def": "Pas dans la maison, pas à l'intérieur.", "def_en": "Not in the house, not inside.", "examples": [
+      { "fr": "Les enfants jouent **dehors**.", "en": "The children are playing outside." },
+      { "fr": "Il fait beau : on mange **dehors** ?", "en": "It's nice out: shall we eat outside?" },
+      { "fr": "Le canapé est resté **dehors** toute la nuit !", "en": "The sofa stayed outside all night!" }
+    ] },
+    { "id": "etiquette", "fr": "étiquette", "pos": "noun", "g": "f", "ipa": "e.ti.kɛt", "en": "label; price tag", "def": "Un petit papier sur un objet, avec un nom, un prix ou une information.", "def_en": "A small piece of paper on an object, with a name, a price or some information.", "forms": ["étiquettes"], "examples": [
+      { "fr": "Sophie met une **étiquette** sur chaque carton.", "en": "Sophie puts a label on every box." },
+      { "fr": "Regarde le prix sur l'**étiquette**.", "en": "Look at the price on the tag." },
+      { "fr": "J'ai oublié d'enlever l'**étiquette** de ma chemise !", "en": "I forgot to take the label off my shirt!" }
+    ] }
+  ],
+  "story": {
+    "title": "Le grand déménagement",
+    "en": "Saturday 25 July: moving day. Pierre comes with the farm van, Hugo hasn't packed, and the sofa has other plans.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-cinq juillet, c'est le déménagement de Hugo. Pierre est venu d'Annecy avec la camionnette de la ferme : c'est moins cher que de louer un camion.", "en": "Saturday 25 July: it's Hugo's moving day. Pierre has come from Annecy with the farm van: it's cheaper than hiring a lorry." },
+      { "sp": "Pierre", "fr": "Bonjour, les déménageurs ! Tout le monde est prêt ?", "en": "Morning, removal team! Is everyone ready?" },
+      { "sp": "", "fr": "Mais chez Hugo, rien n'est prêt : il n'a presque rien emballé, et il y a du bazar partout.", "en": "But at Hugo's, nothing is ready: he's hardly packed anything, and there's stuff everywhere." },
+      { "sp": "Léa", "fr": "Hugo ! Tu devais tout mettre dans des cartons hier soir !", "en": "Hugo! You were supposed to put everything in boxes last night!" },
+      { "sp": "Hugo", "fr": "J'ai commencé… J'ai emballé ma console.", "en": "I did start… I packed my console." },
+      { "sp": "Hugo", "fr": "Déménager, c'est vraiment fatigant.", "en": "Moving house is really tiring." },
+      { "sp": "", "fr": "Tout le monde donne un coup de main. Sophie met une étiquette sur chaque carton : « cuisine », « chambre », « chocolat »…", "en": "Everyone lends a hand. Sophie puts a label on every box: 'kitchen', 'bedroom', 'chocolate'…" },
+      { "sp": "", "fr": "Tom et Pierre chargent la camionnette. Les cartons de jeux vidéo sont les plus lourds.", "en": "Tom and Pierre load the van. The video game boxes are the heaviest." },
+      { "sp": "Inès", "fr": "Et le matelas ? Il est où ?", "en": "And the mattress? Where is it?" },
+      { "sp": "Hugo", "fr": "Sous le lit. Avec deux boîtes de pizza… et quelques chaussettes.", "en": "Under the bed. With two pizza boxes… and a few socks." },
+      { "sp": "", "fr": "À midi, la camionnette arrive devant la boulangerie. On décharge tout sur le trottoir.", "en": "At noon, the van pulls up outside the bakery. They unload everything onto the pavement." },
+      { "sp": "", "fr": "Le nouvel appartement est au troisième étage, et il n'y a pas d'ascenseur.", "en": "The new flat is on the third floor, and there's no lift." },
+      { "sp": "Carla", "fr": "Un, deux, trois… On soulève le canapé !", "en": "One, two, three… Lift the sofa!" },
+      { "sp": "", "fr": "Mais au deuxième étage, sur le palier, le canapé est coincé entre deux murs.", "en": "But on the second floor, on the landing, the sofa gets stuck between two walls." },
+      { "sp": "Pierre", "fr": "On le déplace un peu à gauche… Doucement !", "en": "Move it a bit to the left… Gently!" },
+      { "sp": "", "fr": "Crac ! Le canapé passe… mais le parquet du palier est rayé.", "en": "Crack! The sofa gets through… but the landing floor is scratched." },
+      { "sp": "Mme Fournier", "fr": "Mon parquet ! Bon… ce n'est pas grave. Bienvenue, Hugo !", "en": "My floor! Oh well… never mind. Welcome, Hugo!" },
+      { "sp": "", "fr": "À dix-neuf heures, ils ont fini. Ils ont fait quatre trajets entre les deux appartements.", "en": "At seven in the evening, they've finished. They've made four trips between the two flats." },
+      { "sp": "", "fr": "Tout le monde est épuisé. Hugo emménage enfin dans son nouvel appartement.", "en": "Everyone is exhausted. Hugo finally moves into his new flat." },
+      { "sp": "Hugo", "fr": "Demain, je déballe tout et je m'installe.", "en": "Tomorrow, I'll unpack everything and settle in." },
+      { "sp": "Tom", "fr": "Et samedi prochain, tu pends la crémaillère ?", "en": "And next Saturday, are you having a housewarming?" },
+      { "sp": "Hugo", "fr": "Bien sûr ! Avec des croissants de la boulangerie. Je peux descendre en pyjama !", "en": "Of course! With croissants from the bakery. I can go down in my pyjamas!" },
+      { "sp": "", "fr": "Il ne reste qu'une chose dehors : un grand cadre, avec la photo de Hugo dans la poubelle, à la télé.", "en": "There's only one thing left outside: a big frame, with the photo of Hugo in the bin, on TV." },
+      { "sp": "Tom", "fr": "Et ça, on le met où ?", "en": "And where do we put this?" },
+      { "sp": "Hugo", "fr": "Au-dessus du canapé, bien sûr !", "en": "Above the sofa, of course!" }
+    ]
+  }
+}

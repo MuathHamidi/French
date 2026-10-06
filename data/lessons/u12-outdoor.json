@@ -130,7 +130,7 @@
         { "fr": "Le dimanche, ils **se promènent** au bord du lac.", "en": "On Sundays, they walk along the lakeside." }
       ],
       "note": "Like *acheter*: **è** in *je me promène*, but **e** in *nous nous promenons*." },
-    { "id": "monter", "fr": "monter", "pos": "verb", "ipa": "mɔ̃.te", "en": "to go up, to climb; to get on",
+    { "id": "monter", "fr": "monter", "pos": "verb", "ipa": "mɔ̃.te", "en": "to go up, to climb; to get on; (monter un meuble) to put together",
       "def": "Aller en haut. Le contraire de descendre.", "def_en": "To go up. The opposite of going down.",
       "forms": ["monte", "montes", "montons", "montez", "montent", "monté", "montée", "montés", "montées", "montais", "montait", "montions", "montiez", "montaient", "monterai", "monteras", "montera", "monterons", "monterez", "monteront", "monterais", "monterait", "monterions", "monteriez", "monteraient"],
       "examples": [
@@ -152,7 +152,7 @@
     { "id": "decouvrir", "fr": "découvrir", "pos": "verb", "ipa": "de.ku.vʁiʁ", "en": "to discover",
       "def": "Trouver ou voir quelque chose pour la première fois.", "def_en": "To find or see something for the first time.",
       "extra": "Like *ouvrir*, with -er endings: je **découvre** · tu **découvres** · il **découvre** · nous **découvrons** · vous **découvrez** · ils **découvrent**.",
-      "forms": ["découvre", "découvres", "découvrons", "découvrez", "découvrent", "découvert", "découvrais", "découvrait", "découvrions", "découvriez", "découvraient", "découvrirai", "découvriras", "découvrira", "découvrirons", "découvrirez", "découvriront", "découvrirais", "découvrirait", "découvririons", "découvririez", "découvriraient"],
+      "forms": ["découvre", "découvres", "découvrons", "découvrez", "découvrent", "découvert", "découvrais", "découvrait", "découvrions", "découvriez", "découvraient", "découvrirai", "découvriras", "découvrira", "découvrirons", "découvrirez", "découvriront", "découvrirais", "découvrirait", "découvririons", "découvririez", "découvriraient", "découverte", "découverts", "découvertes"],
       "examples": [
         { "fr": "Je **découvre** la région.", "en": "I'm discovering the region." },
         { "fr": "On **découvre** un petit lac dans la forêt.", "en": "We discover a little lake in the forest." },
@@ -162,7 +162,7 @@
     { "id": "cueillir", "fr": "cueillir", "pos": "verb", "ipa": "kœ.jiʁ", "en": "to pick (flowers, fruit)",
       "def": "Prendre des fleurs ou des fruits sur une plante ou un arbre.", "def_en": "To take flowers or fruit from a plant or a tree.",
       "extra": "je **cueille** · tu **cueilles** · il **cueille** · nous **cueillons** · vous **cueillez** · ils **cueillent**: an -ir verb with -er endings.",
-      "forms": ["cueille", "cueilles", "cueillons", "cueillez", "cueillent", "cueillais", "cueillait", "cueillions", "cueilliez", "cueillaient", "cueillerai", "cueilleras", "cueillera", "cueillerons", "cueillerez", "cueilleront", "cueillerais", "cueillerait", "cueillerions", "cueilleriez", "cueilleraient"],
+      "forms": ["cueille", "cueilles", "cueillons", "cueillez", "cueillent", "cueillais", "cueillait", "cueillions", "cueilliez", "cueillaient", "cueillerai", "cueilleras", "cueillera", "cueillerons", "cueillerez", "cueilleront", "cueillerais", "cueillerait", "cueillerions", "cueilleriez", "cueilleraient", "cueilli", "cueillie", "cueillis", "cueillies"],
       "examples": [
         { "fr": "Lou **cueille** des fleurs pour sa mère.", "en": "Lou picks flowers for her mother." },
         { "fr": "On **cueille** des fraises au jardin.", "en": "We pick strawberries in the garden." },
@@ -171,7 +171,7 @@
       "note": "A tricky spelling: here **ue** sounds /œ/, as in *feuille*: /kœj/." },
     { "id": "observer", "fr": "observer", "pos": "verb", "ipa": "ɔp.sɛʁ.ve", "en": "to observe, to watch",
       "def": "Regarder avec attention, longtemps.", "def_en": "To look carefully, for a long time.",
-      "forms": ["observe", "observes", "observons", "observez", "observent", "observais", "observait", "observions", "observiez", "observaient", "observerai", "observeras", "observera", "observerons", "observerez", "observeront", "observerais", "observerait", "observerions", "observeriez", "observeraient"],
+      "forms": ["observe", "observes", "observons", "observez", "observent", "observais", "observait", "observions", "observiez", "observaient", "observerai", "observeras", "observera", "observerons", "observerez", "observeront", "observerais", "observerait", "observerions", "observeriez", "observeraient", "observé", "observée", "observés", "observées"],
       "examples": [
         { "fr": "J'**observe** les oiseaux dans le jardin.", "en": "I watch the birds in the garden." },
         { "fr": "La nuit, on **observe** les étoiles.", "en": "At night, we watch the stars." },
@@ -179,7 +179,7 @@
       ] },
     { "id": "respirer", "fr": "respirer", "pos": "verb", "ipa": "ʁɛs.pi.ʁe", "en": "to breathe",
       "def": "Prendre de l'air par le nez ou par la bouche.", "def_en": "To take in air through your nose or your mouth.",
-      "forms": ["respire", "respires", "respirons", "respirez", "respirent", "respirais", "respirait", "respirions", "respiriez", "respiraient", "respirerai", "respireras", "respirera", "respirerons", "respirerez", "respireront", "respirerais", "respirerait", "respirerions", "respireriez", "respireraient"],
+      "forms": ["respire", "respires", "respirons", "respirez", "respirent", "respirais", "respirait", "respirions", "respiriez", "respiraient", "respirerai", "respireras", "respirera", "respirerons", "respirerez", "respireront", "respirerais", "respirerait", "respirerions", "respireriez", "respireraient", "respiré", "respirée", "respirés", "respirées"],
       "examples": [
         { "fr": "**Respirez** profondément !", "en": "Breathe deeply!" },
         { "fr": "À la montagne, on **respire** bien.", "en": "In the mountains, you can breathe easily." },
@@ -198,7 +198,7 @@
       "note": "From **perdre** (to lose): literally *to lose yourself*." },
     { "id": "allumer", "fr": "allumer", "pos": "verb", "ipa": "a.ly.me", "en": "to light; to switch on",
       "def": "Faire commencer un feu ou une lumière.", "def_en": "To start a fire or a light.",
-      "forms": ["allume", "allumes", "allumons", "allumez", "allument", "allumais", "allumait", "allumions", "allumiez", "allumaient", "allumerai", "allumeras", "allumera", "allumerons", "allumerez", "allumeront", "allumerais", "allumerait", "allumerions", "allumeriez", "allumeraient"],
+      "forms": ["allume", "allumes", "allumons", "allumez", "allument", "allumais", "allumait", "allumions", "allumiez", "allumaient", "allumerai", "allumeras", "allumera", "allumerons", "allumerez", "allumeront", "allumerais", "allumerait", "allumerions", "allumeriez", "allumeraient", "allumé", "allumée", "allumés", "allumées"],
       "examples": [
         { "fr": "Qui **allume** le feu de camp ?", "en": "Who's lighting the campfire?" },
         { "fr": "**Allume** la lampe, il fait nuit !", "en": "Turn on the lamp, it's dark!" },

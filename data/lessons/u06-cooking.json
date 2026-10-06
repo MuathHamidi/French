@@ -9,7 +9,7 @@
     { "id": "cuisiner", "fr": "cuisiner", "pos": "verb", "ipa": "kɥi.zi.ne", "en": "to cook",
       "def": "Préparer des plats, faire la cuisine.", "def_en": "To make dishes, to do the cooking.",
       "extra": "je **cuisine** · tu **cuisines** · il/elle **cuisine** · nous **cuisinons** · vous **cuisinez** · ils/elles **cuisinent**",
-      "forms": ["cuisinons", "cuisinez", "cuisinent", "cuisinais", "cuisinait", "cuisinions", "cuisiniez", "cuisinaient", "cuisinerai", "cuisineras", "cuisinera", "cuisinerons", "cuisinerez", "cuisineront", "cuisinerais", "cuisinerait", "cuisinerions", "cuisineriez", "cuisineraient"],
+      "forms": ["cuisinons", "cuisinez", "cuisinent", "cuisinais", "cuisinait", "cuisinions", "cuisiniez", "cuisinaient", "cuisinerai", "cuisineras", "cuisinera", "cuisinerons", "cuisinerez", "cuisineront", "cuisinerais", "cuisinerait", "cuisinerions", "cuisineriez", "cuisineraient", "cuisiné", "cuisinée", "cuisinés", "cuisinées"],
       "examples": [
         { "fr": "J'aime **cuisiner**.", "en": "I love cooking." },
         { "fr": "Nous **cuisinons** ensemble.", "en": "We cook together." },
@@ -34,7 +34,7 @@
       ] },
     { "id": "eplucher", "fr": "éplucher", "pos": "verb", "ipa": "e.ply.ʃe", "en": "to peel",
       "def": "Enlever la peau d'un fruit ou d'un légume.", "def_en": "To take the skin off a fruit or vegetable.",
-      "forms": ["épluche", "épluches", "épluchons", "épluchez", "épluchent", "épluchais", "épluchait", "épluchions", "épluchiez", "épluchaient", "éplucherai", "éplucheras", "épluchera", "éplucherons", "éplucherez", "éplucheront", "éplucherais", "éplucherait", "éplucherions", "éplucheriez", "éplucheraient"], "accept": ["eplucher"],
+      "forms": ["épluche", "épluches", "épluchons", "épluchez", "épluchent", "épluchais", "épluchait", "épluchions", "épluchiez", "épluchaient", "éplucherai", "éplucheras", "épluchera", "éplucherons", "éplucherez", "éplucheront", "éplucherais", "éplucherait", "éplucherions", "éplucheriez", "éplucheraient", "épluché", "épluchée", "épluchés", "épluchées"], "accept": ["eplucher"],
       "examples": [
         { "fr": "J'**épluche** les pommes de terre.", "en": "I'm peeling the potatoes." },
         { "fr": "Tu **épluches** les carottes ?", "en": "Are you peeling the carrots?" },
@@ -43,7 +43,7 @@
     { "id": "laver", "fr": "laver", "pos": "verb", "ipa": "la.ve", "en": "to wash",
       "def": "Rendre propre avec de l'eau.", "def_en": "To make clean with water.",
       "extra": "**se laver** = to wash yourself: *je me lave*.",
-      "forms": ["lave", "laves", "lavons", "lavez", "lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "laverai", "laveras", "lavera", "laverons", "laverez", "laveront", "laverais", "laverait", "laverions", "laveriez", "laveraient"],
+      "forms": ["lave", "laves", "lavons", "lavez", "lavent", "lavais", "lavait", "lavions", "laviez", "lavaient", "laverai", "laveras", "lavera", "laverons", "laverez", "laveront", "laverais", "laverait", "laverions", "laveriez", "laveraient", "lavé", "lavée", "lavés", "lavées"],
       "examples": [
         { "fr": "Je **lave** les légumes.", "en": "I'm washing the vegetables." },
         { "fr": "On **lave** la salade dans l'évier.", "en": "You wash the lettuce in the sink." },
@@ -60,7 +60,7 @@
       ] },
     { "id": "ajouter", "fr": "ajouter", "pos": "verb", "ipa": "a.ʒu.te", "en": "to add",
       "def": "Mettre en plus : ajouter du sel.", "def_en": "To put in as well: to add salt.",
-      "forms": ["ajoute", "ajoutes", "ajoutons", "ajoutez", "ajoutent", "ajoutais", "ajoutait", "ajoutions", "ajoutiez", "ajoutaient", "ajouterai", "ajouteras", "ajoutera", "ajouterons", "ajouterez", "ajouteront", "ajouterais", "ajouterait", "ajouterions", "ajouteriez", "ajouteraient"],
+      "forms": ["ajoute", "ajoutes", "ajoutons", "ajoutez", "ajoutent", "ajoutais", "ajoutait", "ajoutions", "ajoutiez", "ajoutaient", "ajouterai", "ajouteras", "ajoutera", "ajouterons", "ajouterez", "ajouteront", "ajouterais", "ajouterait", "ajouterions", "ajouteriez", "ajouteraient", "ajouté", "ajoutée", "ajoutés", "ajoutées"],
       "examples": [
         { "fr": "J'**ajoute** un peu de sel.", "en": "I add a little salt." },
         { "fr": "**Ajoute** le sucre, s'il te plaît.", "en": "Add the sugar, please." },
@@ -68,7 +68,7 @@
       ] },
     { "id": "verser", "fr": "verser", "pos": "verb", "ipa": "vɛʁ.se", "en": "to pour",
       "def": "Mettre un liquide dans un verre, un bol… : verser du lait.", "def_en": "To put a liquid into a glass, a bowl…: to pour milk.",
-      "forms": ["verse", "verses", "versons", "versez", "versent", "versais", "versait", "versions", "versiez", "versaient", "verserai", "verseras", "versera", "verserons", "verserez", "verseront", "verserais", "verserait", "verserions", "verseriez", "verseraient"],
+      "forms": ["verse", "verses", "versons", "versez", "versent", "versais", "versait", "versions", "versiez", "versaient", "verserai", "verseras", "versera", "verserons", "verserez", "verseront", "verserais", "verserait", "verserions", "verseriez", "verseraient", "versé", "versée", "versés", "versées"],
       "examples": [
         { "fr": "Je **verse** le lait dans le bol.", "en": "I pour the milk into the bowl." },
         { "fr": "**Verse** l'eau dans la casserole.", "en": "Pour the water into the saucepan." },
@@ -76,7 +76,7 @@
       ] },
     { "id": "chauffer", "fr": "chauffer", "pos": "verb", "ipa": "ʃo.fe", "en": "to heat (up)",
       "def": "Rendre chaud.", "def_en": "To make hot.",
-      "forms": ["chauffe", "chauffes", "chauffons", "chauffez", "chauffent", "chauffais", "chauffait", "chauffions", "chauffiez", "chauffaient", "chaufferai", "chaufferas", "chauffera", "chaufferons", "chaufferez", "chaufferont", "chaufferais", "chaufferait", "chaufferions", "chaufferiez", "chaufferaient"],
+      "forms": ["chauffe", "chauffes", "chauffons", "chauffez", "chauffent", "chauffais", "chauffait", "chauffions", "chauffiez", "chauffaient", "chaufferai", "chaufferas", "chauffera", "chaufferons", "chaufferez", "chaufferont", "chaufferais", "chaufferait", "chaufferions", "chaufferiez", "chaufferaient", "chauffé", "chauffée", "chauffés", "chauffées"],
       "examples": [
         { "fr": "Je **chauffe** le lait.", "en": "I'm heating the milk." },
         { "fr": "Fais **chauffer** l'huile dans la poêle.", "en": "Heat the oil in the pan." },
@@ -93,7 +93,7 @@
       ] },
     { "id": "gouter", "fr": "goûter", "pos": "verb", "ipa": "ɡu.te", "en": "to taste",
       "def": "Manger un peu pour savoir si c'est bon.", "def_en": "To eat a little to find out if it's good.",
-      "forms": ["goûte", "goûtes", "goûtons", "goûtez", "goûtent", "goûté", "goûtais", "goûtait", "goûtions", "goûtiez", "goûtaient", "goûterai", "goûteras", "goûtera", "goûterons", "goûterez", "goûteront", "goûterais", "goûterait", "goûterions", "goûteriez", "goûteraient"], "accept": ["gouter"],
+      "forms": ["goûte", "goûtes", "goûtons", "goûtez", "goûtent", "goûté", "goûtais", "goûtait", "goûtions", "goûtiez", "goûtaient", "goûterai", "goûteras", "goûtera", "goûterons", "goûterez", "goûteront", "goûterais", "goûterait", "goûterions", "goûteriez", "goûteraient", "goûtée", "goûtés", "goûtées"], "accept": ["gouter"],
       "examples": [
         { "fr": "Tu veux **goûter** ?", "en": "Do you want a taste?" },
         { "fr": "Je **goûte** la soupe.", "en": "I'm tasting the soup." },
@@ -112,7 +112,7 @@
     { "id": "sentir", "fr": "sentir", "pos": "verb", "ipa": "sɑ̃.tiʁ", "en": "to smell",
       "def": "Ce qu'on fait avec le nez : ça sent bon !", "def_en": "What you do with your nose: it smells good!",
       "extra": "je **sens** · tu **sens** · il **sent** · nous **sentons** · vous **sentez** · ils **sentent**",
-      "forms": ["sens", "sent", "sentons", "sentez", "sentent", "sentais", "sentait", "sentions", "sentiez", "sentaient", "sentirai", "sentiras", "sentira", "sentirons", "sentirez", "sentiront", "sentirais", "sentirait", "sentirions", "sentiriez", "sentiraient", "senti", "sentie", "sentis", "sente", "sentes"],
+      "forms": ["sens", "sent", "sentons", "sentez", "sentent", "sentais", "sentait", "sentions", "sentiez", "sentaient", "sentirai", "sentiras", "sentira", "sentirons", "sentirez", "sentiront", "sentirais", "sentirait", "sentirions", "sentiriez", "sentiraient", "senti", "sentie", "sentis", "sente", "sentes", "senties"],
       "examples": [
         { "fr": "Mmm, ça **sent** bon !", "en": "Mmm, that smells good!" },
         { "fr": "Je **sens** le pain chaud.", "en": "I can smell the warm bread." },
@@ -120,7 +120,7 @@
       ] },
     { "id": "aider", "fr": "aider", "pos": "verb", "ipa": "e.de", "en": "to help",
       "def": "Faire quelque chose avec une personne, pour elle.", "def_en": "To do something with a person, for them.",
-      "forms": ["aide", "aides", "aidons", "aidez", "aident", "aidais", "aidait", "aidions", "aidiez", "aidaient", "aiderai", "aideras", "aidera", "aiderons", "aiderez", "aideront", "aiderais", "aiderait", "aiderions", "aideriez", "aideraient"],
+      "forms": ["aide", "aides", "aidons", "aidez", "aident", "aidais", "aidait", "aidions", "aidiez", "aidaient", "aiderai", "aideras", "aidera", "aiderons", "aiderez", "aideront", "aiderais", "aiderait", "aiderions", "aideriez", "aideraient", "aidé", "aidée", "aidés", "aidées"],
       "examples": [
         { "fr": "Je peux **aider** ?", "en": "Can I help?" },
         { "fr": "Hugo **aide** Léa dans la cuisine.", "en": "Hugo helps Léa in the kitchen." },

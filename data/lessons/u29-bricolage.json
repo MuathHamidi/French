@@ -1,0 +1,162 @@
+{
+  "id": "u29-bricolage",
+  "type": "vocab",
+  "unit": 29,
+  "title": "Le bricolage",
+  "en": "DIY",
+  "intro": "25 words for doing it yourself: the toolbox (**l'outil, le marteau, le clou, la vis, le tournevis, la perceuse, la scie, l'échelle**), the jobs (**bricoler, visser, percer, accrocher, démonter, peindre**), painting (**le pinceau, le rouleau, le plafond, le sol**) and the people (**le bricoleur, maladroit**).",
+  "words": [
+    { "id": "bricolage", "fr": "bricolage", "pos": "noun", "g": "m", "ipa": "bʁi.kɔ.laʒ", "en": "DIY, do-it-yourself", "def": "Les petits travaux qu'on fait soi-même à la maison : réparer, peindre, monter des meubles…", "def_en": "Small jobs you do yourself at home: repairing, painting, putting furniture together…", "examples": [
+      { "fr": "Pierre adore le **bricolage**.", "en": "Pierre loves DIY." },
+      { "fr": "Le dimanche, je fais du **bricolage**.", "en": "On Sundays, I do some DIY." },
+      { "fr": "Il y a un grand magasin de **bricolage** près de chez moi.", "en": "There's a big DIY shop near my place." }
+    ] },
+    { "id": "bricoler", "fr": "bricoler", "pos": "verb", "ipa": "bʁi.kɔ.le", "en": "to do DIY, to tinker; to fix up", "def": "Faire soi-même de petits travaux à la maison.", "def_en": "To do small jobs yourself at home.", "forms": ["bricole", "bricoles", "bricolons", "bricolez", "bricolent", "bricolé", "bricolée", "bricolés", "bricolées", "bricolais", "bricolait", "bricolions", "bricoliez", "bricolaient", "bricolerai", "bricoleras", "bricolera", "bricolerons", "bricolerez", "bricoleront", "bricolerais", "bricolerait", "bricolerions", "bricoleriez", "bricoleraient"], "examples": [
+      { "fr": "Tom aime **bricoler** le week-end.", "en": "Tom likes doing DIY at weekends." },
+      { "fr": "Mon grand-père **bricolait** dans son garage.", "en": "My grandfather used to tinker in his garage." },
+      { "fr": "Il a **bricolé** une étagère avec deux planches.", "en": "He knocked together a shelf with two planks." }
+    ] },
+    { "id": "bricoleur", "fr": "bricoleur", "pos": "noun", "g": "m", "ipa": "bʁi.kɔ.lœʁ", "display": "le bricoleur, la bricoleuse", "en": "DIY enthusiast, handyman; (adj) handy", "def": "Une personne qui aime bricoler, et qui sait le faire.", "def_en": "A person who likes doing DIY, and knows how to.", "forms": ["bricoleuse", "bricoleurs", "bricoleuses"], "accept": ["bricoleuse", "la bricoleuse", "une bricoleuse"], "examples": [
+      { "fr": "Pierre est un grand **bricoleur**.", "en": "Pierre is a great handyman." },
+      { "fr": "Je ne suis pas très **bricoleur**.", "en": "I'm not very handy." },
+      { "fr": "Ma sœur est très **bricoleuse** : elle répare tout.", "en": "My sister is very handy: she fixes everything." }
+    ] },
+    { "id": "outil", "fr": "outil", "pos": "noun", "g": "m", "ipa": "u.ti", "en": "tool", "def": "Un objet qu'on utilise pour faire un travail : un marteau, un tournevis…", "def_en": "An object you use to do a job: a hammer, a screwdriver…", "forms": ["outils"], "examples": [
+      { "fr": "Quel **outil** faut-il pour ça ?", "en": "What tool do you need for that?" },
+      { "fr": "Pierre a apporté tous ses **outils**.", "en": "Pierre has brought all his tools." },
+      { "fr": "Internet est un **outil** très utile.", "en": "The internet is a very useful tool." }
+    ], "note": "The **l** is silent: [u.ti]." },
+    { "id": "boite-a-outils", "fr": "boîte à outils", "pos": "noun", "g": "f", "ipa": "bwat a u.ti", "en": "toolbox", "def": "Une boîte où on range le marteau, les tournevis, les clous…", "def_en": "A box where you keep the hammer, the screwdrivers, the nails…", "forms": ["boîtes à outils"], "examples": [
+      { "fr": "Passe-moi la **boîte à outils**, s'il te plaît.", "en": "Pass me the toolbox, please." },
+      { "fr": "Pierre ne part jamais sans sa **boîte à outils**.", "en": "Pierre never goes anywhere without his toolbox." },
+      { "fr": "J'ai acheté une **boîte à outils** pour mon nouvel appartement.", "en": "I bought a toolbox for my new flat." }
+    ] },
+    { "id": "marteau", "fr": "marteau", "pos": "noun", "g": "m", "ipa": "maʁ.to", "en": "hammer", "def": "Un outil lourd : on frappe avec lui sur les clous.", "def_en": "A heavy tool you hit nails with.", "forms": ["marteaux"], "examples": [
+      { "fr": "Hugo se frappe le doigt avec le **marteau**.", "en": "Hugo hits his finger with the hammer." },
+      { "fr": "Tu as un **marteau** ?", "en": "Have you got a hammer?" },
+      { "fr": "J'ai besoin d'un **marteau** et de deux clous.", "en": "I need a hammer and two nails." }
+    ] },
+    { "id": "clou", "fr": "clou", "pos": "noun", "g": "m", "ipa": "klu", "en": "nail", "def": "Un petit morceau de métal pointu, qu'on met dans un mur avec un marteau.", "def_en": "A small pointed piece of metal that you put in a wall with a hammer.", "forms": ["clous"], "examples": [
+      { "fr": "Il faut un **clou** pour accrocher ce tableau.", "en": "You need a nail to hang this picture." },
+      { "fr": "Attention, il y a des **clous** par terre !", "en": "Careful, there are nails on the floor!" },
+      { "fr": "Ce **clou** est trop petit.", "en": "This nail is too small." }
+    ] },
+    { "id": "vis", "fr": "vis", "pos": "noun", "g": "f", "ipa": "vis", "en": "screw", "def": "Un petit morceau de métal qu'on fait tourner avec un tournevis, pour tenir deux choses ensemble.", "def_en": "A small piece of metal you turn with a screwdriver, to hold two things together.", "examples": [
+      { "fr": "Il manque une **vis** !", "en": "There's a screw missing!" },
+      { "fr": "Passe-moi une **vis**, pas un clou !", "en": "Pass me a screw, not a nail!" },
+      { "fr": "Ces **vis** sont trop longues.", "en": "These screws are too long." }
+    ], "note": "The **s** is pronounced: [vis]. Not to be confused with **je vis** [vi] (I live)." },
+    { "id": "tournevis", "fr": "tournevis", "pos": "noun", "g": "m", "ipa": "tuʁ.nə.vis", "en": "screwdriver", "def": "Un outil pour tourner les vis.", "def_en": "A tool for turning screws.", "examples": [
+      { "fr": "Tu as un **tournevis** ?", "en": "Have you got a screwdriver?" },
+      { "fr": "Pierre visse les planches avec son **tournevis**.", "en": "Pierre screws the planks together with his screwdriver." },
+      { "fr": "Il me faut un petit **tournevis** pour mes lunettes.", "en": "I need a little screwdriver for my glasses." }
+    ] },
+    { "id": "visser", "fr": "visser", "pos": "verb", "ipa": "vi.se", "en": "to screw (in, on)", "def": "Faire tourner une vis, pour tenir deux choses ensemble.", "def_en": "To turn a screw, to hold two things together.", "forms": ["visse", "visses", "vissons", "vissez", "vissent", "vissé", "vissée", "vissés", "vissées", "vissais", "vissait", "vissions", "vissiez", "vissaient", "visserai", "visseras", "vissera", "visserons", "visserez", "visseront", "visserais", "visserait", "visserions", "visseriez", "visseraient"], "examples": [
+      { "fr": "Pierre **visse** les planches du lit.", "en": "Pierre screws the bed boards together." },
+      { "fr": "J'ai mal **vissé** l'ampoule.", "en": "I didn't screw the bulb in properly." },
+      { "fr": "Il faut bien **visser** l'étagère au mur.", "en": "You have to screw the shelf firmly to the wall." }
+    ] },
+    { "id": "perceuse", "fr": "perceuse", "pos": "noun", "g": "f", "ipa": "pɛʁ.søz", "en": "drill (tool)", "def": "Un outil électrique qui fait des trous.", "def_en": "An electric tool that makes holes.", "forms": ["perceuses"], "examples": [
+      { "fr": "Tu me prêtes ta **perceuse** ?", "en": "Will you lend me your drill?" },
+      { "fr": "La **perceuse** fait beaucoup de bruit.", "en": "The drill makes a lot of noise." },
+      { "fr": "Ne touche plus à la **perceuse** !", "en": "Don't touch the drill again!" }
+    ] },
+    { "id": "percer", "fr": "percer", "pos": "verb", "ipa": "pɛʁ.se", "en": "to drill, to make a hole in; to pierce", "def": "Faire un trou dans une chose.", "def_en": "To make a hole in something.", "forms": ["perce", "perces", "perçons", "percez", "percent", "percé", "percée", "percés", "percées", "perçais", "perçait", "percions", "perciez", "perçaient", "percerai", "perceras", "percera", "percerons", "percerez", "perceront", "percerais", "percerait", "percerions", "perceriez", "perceraient"], "examples": [
+      { "fr": "Pierre **perce** quatre trous dans le mur.", "en": "Pierre drills four holes in the wall." },
+      { "fr": "Hugo a **percé** un tuyau !", "en": "Hugo has drilled through a pipe!" },
+      { "fr": "Elle a les oreilles **percées**.", "en": "She has pierced ears." }
+    ] },
+    { "id": "trou", "fr": "trou", "pos": "noun", "g": "m", "ipa": "tʁu", "en": "hole", "def": "Un espace [vide|vide] dans une chose : dans un mur, dans un vêtement, dans la terre…", "def_en": "An empty space in something: in a wall, in a piece of clothing, in the ground…", "forms": ["trous"], "examples": [
+      { "fr": "Il y a un **trou** dans ma chaussette.", "en": "There's a hole in my sock." },
+      { "fr": "On fait un **trou** dans le mur pour l'étagère.", "en": "We're making a hole in the wall for the shelf." },
+      { "fr": "Le chien a fait un **trou** dans le jardin.", "en": "The dog has dug a hole in the garden." }
+    ] },
+    { "id": "echelle", "fr": "échelle", "pos": "noun", "g": "f", "ipa": "e.ʃɛl", "en": "ladder; scale", "def": "Un objet qu'on pose contre un mur, pour monter plus haut.", "def_en": "Something you lean against a wall to climb higher.", "forms": ["échelles"], "examples": [
+      { "fr": "Il faut une **échelle** pour peindre le plafond.", "en": "You need a ladder to paint the ceiling." },
+      { "fr": "Tiens bien l'**échelle**, s'il te plaît !", "en": "Hold the ladder steady, please!" },
+      { "fr": "Le chat est en haut de l'arbre : va chercher l'**échelle** !", "en": "The cat's at the top of the tree: go and get the ladder!" }
+    ] },
+    { "id": "peindre", "fr": "peindre", "pos": "verb", "ipa": "pɛ̃dʁ", "en": "to paint", "def": "Mettre de la peinture sur une chose, ou faire un tableau.", "def_en": "To put paint on something, or to paint a picture.", "extra": "je **peins**, nous **peignons**, ils **peignent**; j'ai **peint**.", "forms": ["peins", "peint", "peignons", "peignez", "peignent", "peinte", "peints", "peintes", "peignais", "peignait", "peignions", "peigniez", "peignaient", "peindrai", "peindras", "peindra", "peindrons", "peindrez", "peindront", "peindrais", "peindrait", "peindrions", "peindriez", "peindraient", "peigne", "peignes"], "examples": [
+      { "fr": "On **peint** la chambre en bleu.", "en": "We're painting the bedroom blue." },
+      { "fr": "Ma grand-mère **peignait** des paysages.", "en": "My grandmother used to paint landscapes." },
+      { "fr": "Qui a **peint** ce tableau ?", "en": "Who painted this picture?" }
+    ] },
+    { "id": "pinceau", "fr": "pinceau", "pos": "noun", "g": "m", "ipa": "pɛ̃.so", "en": "paintbrush", "def": "Un petit outil pour mettre de la peinture sur une surface ou sur un tableau.", "def_en": "A small tool for putting paint on a surface or a picture.", "forms": ["pinceaux"], "examples": [
+      { "fr": "Prends un petit **pinceau** pour les coins.", "en": "Take a small brush for the corners." },
+      { "fr": "Le peintre lave ses **pinceaux**.", "en": "The painter is washing his brushes." },
+      { "fr": "Lou peint avec un gros **pinceau**.", "en": "Lou paints with a big brush." }
+    ] },
+    { "id": "rouleau", "fr": "rouleau", "pos": "noun", "g": "m", "ipa": "ʁu.lo", "en": "roller; roll", "def": "Un outil qui tourne, pour peindre vite les grands murs.", "def_en": "A tool that turns, for painting big walls fast.", "forms": ["rouleaux"], "examples": [
+      { "fr": "Avec un **rouleau**, on peint plus vite.", "en": "With a roller, you paint faster." },
+      { "fr": "Tom prend le **rouleau**, et Hugo le pinceau.", "en": "Tom takes the roller, and Hugo the brush." },
+      { "fr": "Il n'y a plus de **rouleau** de papier dans les toilettes !", "en": "There's no more toilet roll in the loo!" }
+    ], "note": "**un rouleau de papier toilette** = a toilet roll." },
+    { "id": "plafond", "fr": "plafond", "pos": "noun", "g": "m", "ipa": "pla.fɔ̃", "en": "ceiling", "def": "La partie en haut d'une pièce, au-dessus de nos têtes.", "def_en": "The top part of a room, above our heads.", "forms": ["plafonds"], "examples": [
+      { "fr": "On peint le **plafond** en blanc.", "en": "We're painting the ceiling white." },
+      { "fr": "De l'eau coule du **plafond** !", "en": "Water is running down from the ceiling!" },
+      { "fr": "Paul est si grand qu'il touche presque le **plafond**.", "en": "Paul is so tall that he almost touches the ceiling." }
+    ] },
+    { "id": "sol", "fr": "sol", "pos": "noun", "g": "m", "ipa": "sɔl", "en": "floor; ground; soil", "def": "La partie en bas d'une pièce, où on marche. Aussi : la terre, dehors.", "def_en": "The bottom part of a room, where you walk. Also: the earth, outside.", "examples": [
+      { "fr": "Il y a de la peinture sur le **sol**.", "en": "There's paint on the floor." },
+      { "fr": "Les enfants dorment sur le **sol**.", "en": "The children are sleeping on the floor." },
+      { "fr": "Le **sol** de la ferme est très bon pour les légumes.", "en": "The farm's soil is very good for vegetables." }
+    ] },
+    { "id": "demonter", "fr": "démonter", "pos": "verb", "ipa": "de.mɔ̃.te", "en": "to take apart, to dismantle", "def": "Mettre une chose en plusieurs parties : c'est le contraire de « monter ».", "def_en": "To take something to pieces: the opposite of 'monter'.", "forms": ["démonte", "démontes", "démontons", "démontez", "démontent", "démonté", "démontée", "démontés", "démontées", "démontais", "démontait", "démontions", "démontiez", "démontaient", "démonterai", "démonteras", "démontera", "démonterons", "démonterez", "démonteront", "démonterais", "démonterait", "démonterions", "démonteriez", "démonteraient"], "examples": [
+      { "fr": "Il faut **démonter** le lit pour le déménagement.", "en": "The bed has to be taken apart for the move." },
+      { "fr": "Pierre **démonte** le vieux meuble de la cuisine.", "en": "Pierre takes the old kitchen cupboard apart." },
+      { "fr": "J'ai **démonté** la radio… et maintenant, il reste trois vis.", "en": "I took the radio apart… and now there are three screws left over." }
+    ] },
+    { "id": "mode-d-emploi", "fr": "mode d'emploi", "pos": "noun", "g": "m", "ipa": "mɔd dɑ̃.plwa", "en": "instructions (for use)", "def": "Le petit livre ou le papier qui explique comment utiliser ou monter un objet.", "def_en": "The little booklet or sheet that explains how to use or assemble something.", "forms": ["modes d'emploi"], "examples": [
+      { "fr": "Lis le **mode d'emploi** avant de commencer !", "en": "Read the instructions before you start!" },
+      { "fr": "Le **mode d'emploi** fait cinquante pages !", "en": "The instructions are fifty pages long!" },
+      { "fr": "Hugo tient le **mode d'emploi** à l'envers.", "en": "Hugo is holding the instructions upside down." }
+    ] },
+    { "id": "scie", "fr": "scie", "pos": "noun", "g": "f", "ipa": "si", "en": "saw", "def": "Un outil pour couper le bois.", "def_en": "A tool for cutting wood.", "forms": ["scies"], "examples": [
+      { "fr": "Tom coupe la planche avec la **scie**.", "en": "Tom cuts the plank with the saw." },
+      { "fr": "Attention, la **scie** coupe très bien !", "en": "Careful, the saw is very sharp!" },
+      { "fr": "Pierre a une vieille **scie** de son père.", "en": "Pierre has an old saw of his father's." }
+    ] },
+    { "id": "accrocher", "fr": "accrocher", "pos": "verb", "ipa": "a.kʁɔ.ʃe", "en": "to hang (up); to hook", "def": "Mettre une chose sur un mur ou sur un clou : un tableau, un manteau…", "def_en": "To put something on a wall or a nail: a picture, a coat…", "forms": ["accroche", "accroches", "accrochons", "accrochez", "accrochent", "accroché", "accrochée", "accrochés", "accrochées", "accrochais", "accrochait", "accrochions", "accrochiez", "accrochaient", "accrocherai", "accrocheras", "accrochera", "accrocherons", "accrocherez", "accrocheront", "accrocherais", "accrocherait", "accrocherions", "accrocheriez", "accrocheraient"], "examples": [
+      { "fr": "On **accroche** le tableau au-dessus du canapé.", "en": "We're hanging the picture above the sofa." },
+      { "fr": "**Accroche** ton manteau ici.", "en": "Hang your coat up here." },
+      { "fr": "J'ai **accroché** la photo de Lou dans la cuisine.", "en": "I've hung Lou's photo in the kitchen." }
+    ] },
+    { "id": "planche", "fr": "planche", "pos": "noun", "g": "f", "ipa": "plɑ̃ʃ", "en": "plank, board", "def": "Un long morceau de bois, pour faire une étagère, une table…", "def_en": "A long piece of wood, for making a shelf, a table…", "forms": ["planches"], "examples": [
+      { "fr": "Pierre coupe une **planche** pour l'étagère.", "en": "Pierre cuts a plank for the shelf." },
+      { "fr": "Il y a des **planches** partout dans le salon.", "en": "There are planks all over the living room." },
+      { "fr": "On fait une table avec deux **planches**.", "en": "We make a table out of two planks." }
+    ] },
+    { "id": "maladroit", "fr": "maladroit", "pos": "adj", "ipa": "ma.la.dʁwa", "display": "maladroit, maladroite", "en": "clumsy", "def": "Qui fait souvent tomber ou casser les choses, qui fait mal les gestes.", "def_en": "Who often drops or breaks things, who's bad with their hands.", "forms": ["maladroite", "maladroits", "maladroites"], "accept": ["maladroite"], "examples": [
+      { "fr": "Hugo est très **maladroit** : il casse tout.", "en": "Hugo is very clumsy: he breaks everything." },
+      { "fr": "Pardon, je suis **maladroite** !", "en": "Sorry, I'm so clumsy!" },
+      { "fr": "Ne sois pas **maladroit** avec le marteau !", "en": "Don't be clumsy with the hammer!" }
+    ] }
+  ],
+  "story": {
+    "title": "Pierre, roi du bricolage",
+    "en": "Sunday 26 July: Pierre teaches DIY in Hugo's new flat. Everything goes well, until Hugo wants to finish a shelf on his own.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lendemain, dimanche. Pierre a dormi chez Tom. Il arrive chez Hugo avec sa boîte à outils.", "en": "The next day, Sunday. Pierre slept at Tom's. He turns up at Hugo's with his toolbox." },
+      { "sp": "Pierre", "fr": "Au travail ! Aujourd'hui, on monte le lit, on accroche les tableaux et on peint la chambre.", "en": "To work! Today we put the bed together, hang the pictures and paint the bedroom." },
+      { "sp": "Hugo", "fr": "Je ne suis pas très bricoleur…", "en": "I'm not very handy…" },
+      { "sp": "Tom", "fr": "Ne t'inquiète pas. Moi, j'adore bricoler, et le bricolage, c'est facile : il faut juste lire le mode d'emploi.", "en": "Don't worry. I love DIY, and it's easy: you just have to read the instructions." },
+      { "sp": "", "fr": "Hugo lit le mode d'emploi du lit… à l'envers.", "en": "Hugo reads the instructions for the bed… upside down." },
+      { "sp": "", "fr": "Pierre prend un tournevis et visse les planches du lit. Il connaît chaque outil par son nom.", "en": "Pierre takes a screwdriver and screws the bed boards together. He knows every tool by name." },
+      { "sp": "Pierre", "fr": "Hugo, passe-moi une vis. Non, pas un clou : une vis !", "en": "Hugo, pass me a screw. No, not a nail: a screw!" },
+      { "sp": "", "fr": "Ensuite, il faut accrocher les tableaux. Hugo prend le marteau et un clou…", "en": "Next, the pictures need hanging. Hugo takes the hammer and a nail…" },
+      { "sp": "Hugo", "fr": "Aïe ! Mon doigt !", "en": "Ow! My finger!" },
+      { "sp": "Tom", "fr": "Tu es vraiment maladroit…", "en": "You really are clumsy…" },
+      { "sp": "", "fr": "Pour les étagères, Pierre prend la perceuse. Il perce quatre trous dans le mur, sans problème.", "en": "For the shelves, Pierre takes the drill. He drills four holes in the wall, no problem." },
+      { "sp": "", "fr": "Sophie arrive avec deux pots de peinture : du bleu clair pour les murs de la chambre, et du blanc pour le plafond.", "en": "Sophie arrives with two pots of paint: light blue for the bedroom walls, and white for the ceiling." },
+      { "sp": "Sophie", "fr": "Pierre et moi, on fait le plafond, avec l'échelle. Hugo, tu prends le pinceau, et Tom, le rouleau.", "en": "Pierre and I will do the ceiling, with the ladder. Hugo, you take the brush, and Tom, the roller." },
+      { "sp": "", "fr": "Une heure plus tard, il y a de la peinture sur les murs… mais aussi sur le sol, et sur Hugo.", "en": "An hour later, there's paint on the walls… but also on the floor, and on Hugo." },
+      { "sp": "Pierre", "fr": "Pas mal pour un premier jour ! Il reste le vieux meuble de la cuisine à démonter.", "en": "Not bad for a first day! There's still the old kitchen cupboard to take apart." },
+      { "sp": "", "fr": "Tom prend la scie. Mais Hugo veut finir l'étagère de la salle de bains tout seul.", "en": "Tom takes the saw. But Hugo wants to finish the bathroom shelf all by himself." },
+      { "sp": "Hugo", "fr": "Regardez : maintenant, moi aussi, je suis un vrai bricoleur !", "en": "Look: now I'm a real handyman too!" },
+      { "sp": "", "fr": "Il perce le mur de la salle de bains… et tout à coup, de l'eau sort du trou.", "en": "He drills into the bathroom wall… and suddenly, water comes out of the hole." },
+      { "sp": "Pierre", "fr": "Hugo ! Tu as percé un tuyau !", "en": "Hugo! You've drilled through a pipe!" },
+      { "sp": "", "fr": "Il y a de l'eau partout. Et en bas, dans la boulangerie, quelqu'un crie…", "en": "There's water everywhere. And downstairs, in the bakery, someone is shouting…" }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "u29-cond-passe",
+  "type": "grammar",
+  "unit": 29,
+  "title": "On aurait dû mesurer le canapé",
+  "en": "The past conditional: regrets",
+  "intro": "The **past conditional** says what *would have* happened: the conditional of **avoir** or **être** + the past participle, as in the passé composé. *On **aurait dû** mesurer le canapé* (we should have measured the sofa). It's the tense of regrets and reproaches, and of **si + plus-que-parfait**: *Si j'**avais su**, je **serais resté** à Marseille.*",
+  "cases": [
+    { "id": "cp-forme", "label": "aurais / serais + past participle", "rule": "The conditional of **avoir** or **être**, then the past participle: *j'**aurais fait**, tu **aurais pris**, il **serait parti**, nous **serions venus***. Same choice of **avoir** or **être** as in the passé composé, and the same agreement: *elle **serait partie***." },
+    { "id": "cp-regret", "label": "regrets: j'aurais dû, j'aurais aimé", "rule": "**j'aurais dû** + infinitive = I should have; **j'aurais aimé / voulu** = I would have liked: *On **aurait dû** mesurer le canapé. J'**aurais aimé** vous le dire.*" },
+    { "id": "cp-reproche", "label": "reproaches: tu aurais pu", "rule": "**tu aurais pu** + infinitive = you could have (and you didn't!): *Tu **aurais pu** nous dire qu'il n'y avait pas d'ascenseur !*" },
+    { "id": "cp-si", "label": "si + plus-que-parfait → past conditional", "rule": "For an unreal past, **si** + plus-que-parfait, then the past conditional: *Si on **avait mesuré** le canapé, on **aurait su** qu'il ne passait pas.* Never the conditional after **si**." },
+    { "id": "cp-mixte", "label": "si + plus-que-parfait → result now", "rule": "When the result is in the present, use the present conditional: *Si tu **avais lu** la lettre en février, on **ne serait pas** ici à minuit.*" },
+    { "id": "cp-sans", "label": "without si: à ta place, sans toi", "rule": "The past conditional also works without **si**, after **à ta place** or **sans** + noun: ***À ta place**, j'**aurais loué** un camion. **Sans** Pierre, on **n'aurait jamais** réussi.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. aurais / serais + past participle",
+      "table": {
+        "head": ["with avoir", "with être"], "frCols": [0, 1],
+        "rows": [
+          ["j'aurais mangé", "je serais parti"],
+          ["tu aurais pris", "tu serais venu"],
+          ["il aurait fait", "elle serait restée"],
+          ["nous aurions su", "nous serions arrivés"],
+          ["vous auriez vu", "vous seriez tombés"],
+          ["ils auraient pu", "elles seraient allées"]
+        ]
+      },
+      "examples": [
+        { "fr": "Sans le canapé, {nous serions arrivés|cp-forme} à midi.", "en": "Without the sofa, we'd have arrived at noon." },
+        { "fr": "Avec un plus petit canapé, {tout aurait été|cp-forme} plus facile.", "en": "With a smaller sofa, everything would have been easier." }
+      ],
+      "tip": "Reflexive verbs take **être**: *je **me serais** couché plus tôt*."
+    },
+    {
+      "title": "2. Regrets: j'aurais dû, j'aurais aimé",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["J'aurais dû lire la lettre.", "I should have read the letter."],
+          ["On aurait dû partir plus tôt.", "We should have left earlier."],
+          ["J'aurais aimé voir ça.", "I would have liked to see that."],
+          ["J'aurais voulu être musicien.", "I would have liked to be a musician."]
+        ]
+      },
+      "examples": [
+        { "fr": "{On aurait dû|cp-regret} mesurer le canapé avant de partir.", "en": "We should have measured the sofa before we left." },
+        { "fr": "{J'aurais aimé|cp-regret} avoir un ascenseur !", "en": "I would have loved a lift!" }
+      ],
+      "tip": "**dû** keeps its accent only in the masculine singular: it tells it apart from **du**."
+    },
+    {
+      "title": "3. Reproaches: tu aurais pu",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tu aurais pu me le dire !", "You could have told me!"],
+          ["Vous auriez pu m'aider.", "You could have helped me."],
+          ["Il aurait pu téléphoner.", "He could have phoned."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tu aurais pu|cp-reproche} nous dire qu'il n'y avait pas d'ascenseur, Hugo !", "en": "You could have told us there was no lift, Hugo!" },
+        { "fr": "{Vous auriez pu|cp-reproche} me prévenir !", "en": "You could have warned me!" }
+      ]
+    },
+    {
+      "title": "4. si + plus-que-parfait → past conditional",
+      "table": {
+        "head": ["si + plus-que-parfait", "past conditional"], "frCols": [0, 1],
+        "rows": [
+          ["Si j'avais su,", "je serais resté à Marseille."],
+          ["Si on avait mesuré le canapé,", "on aurait su qu'il ne passait pas."],
+          ["Si tu étais venu,", "tu aurais vu le spectacle."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si j'avais su, je serais resté|cp-si} à Marseille !", "en": "If I'd known, I'd have stayed in Marseille!" },
+        { "fr": "{Si Tom n'avait pas glissé, il ne serait pas tombé|cp-si}.", "en": "If Tom hadn't slipped, he wouldn't have fallen." }
+      ],
+      "tip": "Three patterns to know: *si + présent → futur*, *si + imparfait → conditionnel*, *si + plus-que-parfait → conditionnel passé*."
+    },
+    {
+      "title": "5. si + plus-que-parfait → result now",
+      "table": {
+        "head": ["Past condition", "Present result"], "frCols": [0, 1],
+        "rows": [
+          ["Si tu avais lu la lettre,", "on ne serait pas ici à minuit."],
+          ["Si j'avais pris ce travail,", "je serais riche aujourd'hui."],
+          ["Si on n'avait pas cassé le miroir,", "il serait au-dessus du lavabo."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Si tu avais lu la lettre en février, on ne serait pas|cp-mixte} ici à minuit !", "en": "If you'd read the letter in February, we wouldn't be here at midnight!" },
+        { "fr": "{Si on n'avait pas cassé le miroir, il serait|cp-mixte} dans la salle de bains.", "en": "If we hadn't broken the mirror, it would be in the bathroom." }
+      ]
+    },
+    {
+      "title": "6. Without si: à ta place, sans toi",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["À ta place, j'aurais refusé.", "In your place, I'd have said no."],
+          ["Sans toi, je n'aurais jamais réussi.", "Without you, I'd never have managed."],
+          ["Avec un camion, on aurait fini plus tôt.", "With a lorry, we'd have finished earlier."]
+        ]
+      },
+      "examples": [
+        { "fr": "{À ta place, j'aurais loué|cp-sans} des déménageurs.", "en": "In your place, I'd have hired removal men." },
+        { "fr": "{Sans la camionnette de la ferme, vous auriez fait|cp-sans} dix trajets !", "en": "Without the farm van, you'd have made ten trips!" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Si j'aurais su, je serais resté.", "right": "Si j'avais su, je serais resté.", "why": "After **si**, use the plus-que-parfait, never the conditional." },
+    { "wrong": "J'aurais dû de mesurer le canapé.", "right": "J'aurais dû mesurer le canapé.", "why": "**devoir** + infinitive, with no **de**." },
+    { "wrong": "Elle aurait parti plus tôt.", "right": "Elle serait partie plus tôt.", "why": "**partir** takes **être**, and the participle agrees: *partie*." },
+    { "wrong": "Si j'avais su, je serai resté.", "right": "Si j'avais su, je serais resté.", "why": "The result needs the conditional **serais**, not the future **serai**." },
+    { "wrong": "Si tu avais lu la lettre, on n'est pas ici.", "right": "Si tu avais lu la lettre, on ne serait pas ici.", "why": "The result needs the conditional: *on ne serait pas*." }
+  ],
+  "story": {
+    "title": "Le soir du déménagement",
+    "en": "Saturday 25 July, late in the evening: everyone sits among the boxes in Hugo's new flat, and the regrets begin.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le soir du déménagement, tout le monde est assis par terre, au milieu des cartons. Ils sont épuisés.", "en": "On the evening of the move, everyone is sitting on the floor among the boxes. They're exhausted." },
+      { "sp": "Léa", "fr": "{On aurait dû|cp-regret} mesurer le canapé avant de partir.", "en": "We should have measured the sofa before we left." },
+      { "sp": "Sophie", "fr": "{Si on l'avait mesuré, on aurait su|cp-si} qu'il ne passait pas sur le palier.", "en": "If we'd measured it, we'd have known it wouldn't fit across the landing." },
+      { "sp": "Tom", "fr": "Et {tu aurais pu|cp-reproche} nous dire qu'il n'y avait pas d'ascenseur, Hugo !", "en": "And you could have told us there was no lift, Hugo!" },
+      { "sp": "Hugo", "fr": "{J'aurais aimé|cp-regret} vous le dire… Mais vous ne {seriez pas venus|cp-forme} !", "en": "I'd have liked to tell you… But you wouldn't have come!" },
+      { "sp": "Inès", "fr": "{À ta place, j'aurais loué|cp-sans} des déménageurs.", "en": "In your place, I'd have hired removal men." },
+      { "sp": "Pierre", "fr": "Avec quel argent ? {Sans la camionnette de la ferme, vous auriez fait|cp-sans} dix trajets !", "en": "With what money? Without the farm van, you'd have made ten trips!" },
+      { "sp": "Carla", "fr": "{Si Hugo avait emballé|cp-si} ses affaires hier, {nous serions partis|cp-forme} deux heures plus tôt.", "en": "If Hugo had packed his things yesterday, we'd have left two hours earlier." },
+      { "sp": "Hugo", "fr": "Et le miroir… {Si Tom n'avait pas glissé, il ne serait pas cassé|cp-mixte}.", "en": "And the mirror… If Tom hadn't slipped, it wouldn't be broken." },
+      { "sp": "Tom", "fr": "{Si tu n'avais pas laissé le carton de ta console dans l'escalier, je ne serais pas tombé|cp-si} !", "en": "If you hadn't left your console box on the stairs, I wouldn't have fallen!" },
+      { "sp": "Léa", "fr": "Et surtout : {si tu avais lu la lettre en février, on ne serait pas|cp-mixte} ici à minuit !", "en": "And above all: if you'd read the letter in February, we wouldn't be here at midnight!" },
+      { "sp": "Hugo", "fr": "D'accord, d'accord. {J'aurais dû|cp-regret} l'ouvrir. Mais {sans vous, je n'aurais jamais réussi|cp-sans}. Merci, tout le monde.", "en": "All right, all right. I should have opened it. But without you, I'd never have managed. Thanks, everyone." },
+      { "sp": "Sophie", "fr": "Bon… {Tu aurais pu|cp-reproche} commander des pizzas, au moins.", "en": "Well… You could at least have ordered some pizzas." },
+      { "sp": "", "fr": "On frappe à la porte. C'est Madame Fournier, avec trois grandes pizzas.", "en": "There's a knock at the door. It's Mme Fournier, with three big pizzas." },
+      { "sp": "Mme Fournier", "fr": "Je fais aussi des pizzas le samedi. {J'aurais dû|cp-regret} vous le dire plus tôt !", "en": "I make pizzas on Saturdays too. I should have told you earlier!" },
+      { "sp": "Hugo", "fr": "{Si j'avais su|cp-si}, {j'aurais déménagé|cp-forme} ici il y a deux ans !", "en": "If I'd known, I'd have moved here two years ago!" }
+    ]
+  },
+  "quiz": [
+    { "case": "cp-forme", "type": "mc", "q": "Sans le canapé, nous ___ arrivés à midi.", "en": "Without the sofa, we'd have arrived at noon.", "options": ["serions", "aurions", "étions"], "answer": "serions" },
+    { "case": "cp-forme", "type": "mc", "q": "Elle serait ___ plus tôt.", "en": "She would have left earlier.", "options": ["partie", "parti", "partir"], "answer": "partie" },
+    { "case": "cp-regret", "type": "mc", "q": "On ___ dû mesurer le canapé.", "en": "We should have measured the sofa.", "options": ["aurait", "serait", "avait"], "answer": "aurait" },
+    { "case": "cp-regret", "type": "type", "q": "J'aurais ___ (aimer) vous le dire.", "en": "I would have liked to tell you.", "answer": "aimé" },
+    { "case": "cp-reproche", "type": "mc", "q": "Tu aurais ___ nous le dire !", "en": "You could have told us!", "options": ["pu", "dû", "pouvoir"], "answer": "pu" },
+    { "case": "cp-reproche", "type": "mc", "lang": "en", "q": "« Tu aurais pu m'aider » means…", "options": ["You could have helped me (but you didn't).", "You can help me.", "You helped me."], "answer": "You could have helped me (but you didn't).", "say": "Tu aurais pu m'aider." },
+    { "case": "cp-si", "type": "mc", "q": "Si j'___ su, je serais resté.", "en": "If I'd known, I'd have stayed.", "options": ["avais", "aurais", "ai"], "answer": "avais" },
+    { "case": "cp-si", "type": "mc", "q": "Si Tom n'avait pas glissé, il ne ___ pas tombé.", "en": "If Tom hadn't slipped, he wouldn't have fallen.", "options": ["serait", "aurait", "était"], "answer": "serait" },
+    { "case": "cp-mixte", "type": "mc", "q": "Si tu avais lu la lettre, on ne ___ pas ici maintenant.", "en": "If you'd read the letter, we wouldn't be here now.", "options": ["serait", "sera", "était"], "answer": "serait" },
+    { "case": "cp-mixte", "type": "mc", "q": "Si j'avais pris ce travail, je ___ riche aujourd'hui.", "en": "If I'd taken that job, I'd be rich today.", "options": ["serais", "suis", "serai"], "answer": "serais" },
+    { "case": "cp-sans", "type": "mc", "q": "À ta place, j'___ loué des déménageurs.", "en": "In your place, I'd have hired removal men.", "options": ["aurais", "avais", "aurai"], "answer": "aurais" },
+    { "case": "cp-sans", "type": "mc", "q": "Sans toi, je n'___ jamais réussi.", "en": "Without you, I'd never have managed.", "options": ["aurais", "avais", "ai"], "answer": "aurais" }
+  ]
+}

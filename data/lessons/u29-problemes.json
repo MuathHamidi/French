@@ -1,0 +1,161 @@
+{
+  "id": "u29-problemes",
+  "type": "vocab",
+  "unit": 29,
+  "title": "Les problèmes à la maison",
+  "en": "Problems at home",
+  "intro": "25 words for when things go wrong at home: water (**la fuite, fuir, couler, la goutte, le tuyau, bouché, inonder, l'humidité**), breakdowns (**la panne, fonctionner, le chauffe-eau, la coupure, glacé**), the people who come to help (**le plombier, l'électricien, le serrurier, dépanner, la réparation**) and the rest (**la serrure, enfermé, le bruit, le cafard, les dégâts, l'assurance**).",
+  "words": [
+    { "id": "fuite", "fr": "fuite", "pos": "noun", "g": "f", "ipa": "fɥit", "en": "leak; escape", "def": "Quand de l'eau ou du gaz sort par un trou. Aussi : quand on part très vite, à cause d'un danger.", "def_en": "When water or gas comes out through a hole. Also: running away fast from danger.", "forms": ["fuites"], "examples": [
+      { "fr": "Il y a une **fuite** sous l'évier.", "en": "There's a leak under the sink." },
+      { "fr": "Appelle un plombier : c'est une grosse **fuite** !", "en": "Call a plumber: it's a big leak!" },
+      { "fr": "Le voleur a pris la **fuite**.", "en": "The thief ran away." }
+    ] },
+    { "id": "fuir", "fr": "fuir", "pos": "verb", "ipa": "fɥiʁ", "en": "to leak; to flee, to run away", "def": "Laisser passer de l'eau ou du gaz par un trou. Aussi : partir très vite, à cause d'un danger.", "def_en": "To let water or gas through a hole. Also: to leave very fast, because of danger.", "extra": "je **fuis**, il **fuit**, nous **fuyons**, ils **fuient**; j'ai **fui**.", "forms": ["fuis", "fuit", "fuyons", "fuyez", "fuient", "fui", "fuie", "fuies", "fuyais", "fuyait", "fuyions", "fuyiez", "fuyaient", "fuirai", "fuiras", "fuira", "fuirons", "fuirez", "fuiront", "fuirais", "fuirait", "fuirions", "fuiriez", "fuiraient"], "examples": [
+      { "fr": "Le robinet **fuit** !", "en": "The tap is leaking!" },
+      { "fr": "Le tuyau **fuyait** depuis une semaine.", "en": "The pipe had been leaking for a week." },
+      { "fr": "Les animaux **fuient** devant le feu.", "en": "The animals flee from the fire." }
+    ] },
+    { "id": "plombier", "fr": "plombier", "pos": "noun", "g": "m", "ipa": "plɔ̃.bje", "display": "le plombier, la plombière", "en": "plumber", "def": "La personne qui répare les tuyaux, les robinets, les toilettes…", "def_en": "The person who repairs pipes, taps, toilets…", "forms": ["plombière", "plombiers", "plombières"], "accept": ["plombière", "la plombière", "une plombière"], "examples": [
+      { "fr": "Le **plombier** arrive dans une heure.", "en": "The plumber will be here in an hour." },
+      { "fr": "Un **plombier** le dimanche, ça coûte cher !", "en": "A plumber on a Sunday costs a fortune!" },
+      { "fr": "Ma cousine est **plombière**.", "en": "My cousin is a plumber." }
+    ] },
+    { "id": "electricien", "fr": "électricien", "pos": "noun", "g": "m", "ipa": "e.lɛk.tʁi.sjɛ̃", "display": "l'électricien, l'électricienne", "en": "electrician", "def": "La personne qui répare et installe tout ce qui fonctionne avec l'électricité.", "def_en": "The person who repairs and installs everything that runs on electricity.", "forms": ["électricienne", "électriciens", "électriciennes"], "accept": ["électricienne", "l'électricienne", "une électricienne"], "examples": [
+      { "fr": "L'**électricien** vient réparer la lumière.", "en": "The electrician is coming to fix the light." },
+      { "fr": "Il faut appeler un **électricien**.", "en": "We need to call an electrician." },
+      { "fr": "Elle est **électricienne** depuis vingt ans.", "en": "She's been an electrician for twenty years." }
+    ] },
+    { "id": "serrurier", "fr": "serrurier", "pos": "noun", "g": "m", "ipa": "sɛ.ʁy.ʁje", "display": "le serrurier, la serrurière", "en": "locksmith", "def": "La personne qui répare les serrures et qui fait les clés.", "def_en": "The person who repairs locks and cuts keys.", "forms": ["serrurière", "serruriers", "serrurières"], "accept": ["serrurière", "la serrurière", "une serrurière"], "examples": [
+      { "fr": "Hugo a perdu ses clés : il appelle un **serrurier**.", "en": "Hugo has lost his keys: he calls a locksmith." },
+      { "fr": "Le **serrurier** ouvre la porte en deux minutes.", "en": "The locksmith opens the door in two minutes." },
+      { "fr": "Les **serruriers** sont très chers la nuit.", "en": "Locksmiths are very expensive at night." }
+    ] },
+    { "id": "serrure", "fr": "serrure", "pos": "noun", "g": "f", "ipa": "sɛ.ʁyʁ", "en": "lock", "def": "La partie de la porte où on met la clé.", "def_en": "The part of the door where you put the key.", "forms": ["serrures"], "examples": [
+      { "fr": "La clé ne tourne pas dans la **serrure**.", "en": "The key won't turn in the lock." },
+      { "fr": "On a changé la **serrure** de la porte.", "en": "We've had the lock on the door changed." },
+      { "fr": "Cette vieille **serrure** est cassée.", "en": "This old lock is broken." }
+    ] },
+    { "id": "chauffe-eau", "fr": "chauffe-eau", "pos": "noun", "g": "m", "ipa": "ʃof.o", "en": "water heater", "def": "L'appareil qui rend l'eau chaude, pour la douche et la cuisine.", "def_en": "The device that heats the water, for the shower and the kitchen.", "examples": [
+      { "fr": "Le **chauffe-eau** est en panne : pas d'eau chaude !", "en": "The water heater's broken: no hot water!" },
+      { "fr": "Le **chauffe-eau** est dans la salle de bains.", "en": "The water heater is in the bathroom." },
+      { "fr": "Il faut changer le **chauffe-eau**, il est trop vieux.", "en": "The water heater needs replacing, it's too old." }
+    ] },
+    { "id": "tuyau", "fr": "tuyau", "pos": "noun", "g": "m", "ipa": "tɥi.jo", "en": "pipe; (informal) tip", "def": "Un long tube où passe l'eau ou le gaz. Aussi : un bon conseil.", "def_en": "A long tube that water or gas goes through. Also: a good piece of advice.", "forms": ["tuyaux"], "examples": [
+      { "fr": "Hugo a percé un **tuyau** !", "en": "Hugo has drilled through a pipe!" },
+      { "fr": "L'eau passe dans ce **tuyau**.", "en": "The water goes through this pipe." },
+      { "fr": "Merci pour le **tuyau** !", "en": "Thanks for the tip!" }
+    ] },
+    { "id": "bouche-adj", "fr": "bouché", "pos": "adj", "ipa": "bu.ʃe", "display": "bouché, bouchée", "en": "blocked; (nose) stuffed up", "def": "Fermé par quelque chose : l'eau ou l'air ne passe plus.", "def_en": "Closed by something: water or air can't get through any more.", "forms": ["bouchée", "bouchés", "bouchées"], "accept": ["bouchée"], "examples": [
+      { "fr": "Le lavabo est **bouché**.", "en": "The washbasin is blocked." },
+      { "fr": "J'ai le nez **bouché** : j'ai un rhume.", "en": "My nose is stuffed up: I've got a cold." },
+      { "fr": "Les toilettes sont **bouchées** !", "en": "The toilet is blocked!" }
+    ] },
+    { "id": "lavabo", "fr": "lavabo", "pos": "noun", "g": "m", "ipa": "la.va.bo", "en": "washbasin", "def": "Le petit évier de la salle de bains, où on se lave les mains.", "def_en": "The little sink in the bathroom, where you wash your hands.", "forms": ["lavabos"], "examples": [
+      { "fr": "Le **lavabo** est bouché.", "en": "The washbasin is blocked." },
+      { "fr": "Je me brosse les dents au **lavabo**.", "en": "I brush my teeth at the washbasin." },
+      { "fr": "L'eau du **lavabo** ne descend plus.", "en": "The water in the basin won't go down." }
+    ] },
+    { "id": "humidite", "fr": "humidité", "pos": "noun", "g": "f", "ipa": "y.mi.di.te", "en": "damp, humidity", "def": "L'eau qu'il y a dans l'air ou dans un mur.", "def_en": "The water in the air or in a wall.", "examples": [
+      { "fr": "Il y a de l'**humidité** sur le mur de la salle de bains.", "en": "There's damp on the bathroom wall." },
+      { "fr": "Avec l'**humidité**, mes cheveux font n'importe quoi !", "en": "With the humidity, my hair goes crazy!" },
+      { "fr": "L'**humidité** est mauvaise pour les livres.", "en": "Damp is bad for books." }
+    ] },
+    { "id": "cafard", "fr": "cafard", "pos": "noun", "g": "m", "ipa": "ka.faʁ", "en": "cockroach; (avoir le cafard) to feel down", "def": "Un insecte noir qui vit dans les cuisines sales. Aussi : une grande tristesse.", "def_en": "A black insect that lives in dirty kitchens. Also: deep sadness.", "forms": ["cafards"], "examples": [
+      { "fr": "Il y a un **cafard** dans la cuisine !", "en": "There's a cockroach in the kitchen!" },
+      { "fr": "Les **cafards** sortent la nuit.", "en": "Cockroaches come out at night." },
+      { "fr": "Le dimanche soir, j'ai souvent le **cafard**.", "en": "On Sunday evenings, I often feel down." }
+    ], "note": "**avoir le cafard** = to feel down." },
+    { "id": "panne", "fr": "panne", "pos": "noun", "g": "f", "ipa": "pan", "en": "breakdown, failure", "def": "Quand une machine ou un appareil ne fonctionne plus.", "def_en": "When a machine or a device stops working.", "forms": ["pannes"], "examples": [
+      { "fr": "Le chauffe-eau est en **panne**.", "en": "The water heater is out of order." },
+      { "fr": "On a eu une **panne** de voiture sur l'autoroute.", "en": "Our car broke down on the motorway." },
+      { "fr": "Il y a une **panne** d'électricité dans le quartier.", "en": "There's a power failure in the neighbourhood." }
+    ], "note": "**en panne** = out of order; **tomber en panne** = to break down." },
+    { "id": "reparation", "fr": "réparation", "pos": "noun", "g": "f", "ipa": "ʁe.pa.ʁa.sjɔ̃", "en": "repair", "def": "Le travail qu'on fait pour qu'une chose cassée fonctionne de nouveau.", "def_en": "The work done to make something broken work again.", "forms": ["réparations"], "examples": [
+      { "fr": "La **réparation** coûte cent euros.", "en": "The repair costs a hundred euros." },
+      { "fr": "Mon vélo est en **réparation**.", "en": "My bike is being repaired." },
+      { "fr": "Le plombier fait une petite **réparation**.", "en": "The plumber does a small repair." }
+    ] },
+    { "id": "degat", "fr": "dégât", "pos": "noun", "g": "m", "ipa": "de.ɡa", "en": "damage (usually plural: les dégâts)", "def": "Ce qui est abîmé ou cassé après un accident, une tempête…", "def_en": "What's damaged or broken after an accident, a storm…", "forms": ["dégâts"], "examples": [
+      { "fr": "La tempête a fait beaucoup de **dégâts**.", "en": "The storm caused a lot of damage." },
+      { "fr": "L'eau a fait des **dégâts** dans la boulangerie.", "en": "The water damaged the bakery." },
+      { "fr": "Il n'y a pas de **dégâts**, heureusement.", "en": "There's no damage, luckily." }
+    ], "note": "**un dégât des eaux** = water damage (for the insurance)." },
+    { "id": "inonder", "fr": "inonder", "pos": "verb", "ipa": "i.nɔ̃.de", "en": "to flood", "def": "Couvrir d'eau un endroit.", "def_en": "To cover a place with water.", "forms": ["inonde", "inondes", "inondons", "inondez", "inondent", "inondé", "inondée", "inondés", "inondées", "inondais", "inondait", "inondions", "inondiez", "inondaient", "inonderai", "inonderas", "inondera", "inonderons", "inonderez", "inonderont", "inonderais", "inonderait", "inonderions", "inonderiez", "inonderaient"], "examples": [
+      { "fr": "La rivière **inonde** les champs.", "en": "The river is flooding the fields." },
+      { "fr": "Hugo a **inondé** la boulangerie !", "en": "Hugo has flooded the bakery!" },
+      { "fr": "Ferme le robinet, tu vas **inonder** la cuisine !", "en": "Turn the tap off, you'll flood the kitchen!" }
+    ] },
+    { "id": "couler", "fr": "couler", "pos": "verb", "ipa": "ku.le", "en": "to flow, to run (water); to leak; to sink", "def": "Quand l'eau avance, comme une rivière. Aussi : aller au fond de l'eau.", "def_en": "When water moves along, like a river. Also: to go to the bottom of the water.", "forms": ["coule", "coules", "coulons", "coulez", "coulent", "coulé", "coulée", "coulés", "coulées", "coulais", "coulait", "coulions", "couliez", "coulaient", "coulerai", "couleras", "coulera", "coulerons", "coulerez", "couleront", "coulerais", "coulerait", "coulerions", "couleriez", "couleraient"], "examples": [
+      { "fr": "De l'eau **coule** du plafond !", "en": "Water is running down from the ceiling!" },
+      { "fr": "Le robinet **coule** toute la nuit.", "en": "The tap runs all night." },
+      { "fr": "Le bateau a **coulé** en dix minutes.", "en": "The boat sank in ten minutes." }
+    ] },
+    { "id": "goutte", "fr": "goutte", "pos": "noun", "g": "f", "ipa": "ɡut", "en": "drop", "def": "Une toute petite quantité d'eau ou de liquide, ronde, qui tombe.", "def_en": "A tiny round amount of water or liquid, falling.", "forms": ["gouttes"], "examples": [
+      { "fr": "Il y a des **gouttes** d'eau partout.", "en": "There are drops of water everywhere." },
+      { "fr": "Une **goutte** de lait dans mon thé, s'il te plaît.", "en": "A drop of milk in my tea, please." },
+      { "fr": "Il ne pleut pas vraiment, juste quelques **gouttes**.", "en": "It's not really raining, just a few drops." }
+    ] },
+    { "id": "assurance", "fr": "assurance", "pos": "noun", "g": "f", "ipa": "a.sy.ʁɑ̃s", "en": "insurance", "def": "Un contrat : on paie un peu chaque mois, et l'entreprise paie pour nous s'il y a un accident ou des dégâts.", "def_en": "A contract: you pay a little every month, and the company pays for you if there's an accident or damage.", "forms": ["assurances"], "examples": [
+      { "fr": "Appelle ton **assurance** tout de suite.", "en": "Call your insurance company right away." },
+      { "fr": "L'**assurance** de l'appartement coûte vingt euros par mois.", "en": "The flat's insurance costs twenty euros a month." },
+      { "fr": "Heureusement, j'ai une bonne **assurance**.", "en": "Luckily, I've got good insurance." }
+    ] },
+    { "id": "enferme", "fr": "enfermé", "pos": "adj", "ipa": "ɑ̃.fɛʁ.me", "display": "enfermé, enfermée", "en": "locked in, shut in", "def": "Qui ne peut pas sortir d'un lieu, parce que la porte est fermée à clé.", "def_en": "Unable to get out of a place, because the door is locked.", "forms": ["enfermée", "enfermés", "enfermées"], "accept": ["enfermée"], "examples": [
+      { "fr": "Le chat est **enfermé** dans la cave !", "en": "The cat is shut in the cellar!" },
+      { "fr": "Hugo a laissé ses clés à l'intérieur : il est **enfermé** dehors.", "en": "Hugo left his keys inside: he's locked out." },
+      { "fr": "On est restés **enfermés** dans l'ascenseur pendant une heure.", "en": "We were stuck in the lift for an hour." }
+    ], "note": "**être enfermé dehors** = to be locked out." },
+    { "id": "depanner", "fr": "dépanner", "pos": "verb", "ipa": "de.pa.ne", "en": "to fix (a breakdown); (informal) to help out", "def": "Réparer une machine en panne. Aussi : aider quelqu'un qui a un petit problème.", "def_en": "To fix a machine that has broken down. Also: to help someone with a small problem.", "forms": ["dépanne", "dépannes", "dépannons", "dépannez", "dépannent", "dépanné", "dépannée", "dépannés", "dépannées", "dépannais", "dépannait", "dépannions", "dépanniez", "dépannaient", "dépannerai", "dépanneras", "dépannera", "dépannerons", "dépannerez", "dépanneront", "dépannerais", "dépannerait", "dépannerions", "dépanneriez", "dépanneraient"], "examples": [
+      { "fr": "L'électricien vient nous **dépanner** ce soir.", "en": "The electrician is coming to fix it tonight." },
+      { "fr": "Tu peux me **dépanner** de dix euros ?", "en": "Can you lend me ten euros?" },
+      { "fr": "Merci de m'avoir **dépanné** !", "en": "Thanks for helping me out!" }
+    ] },
+    { "id": "coupure", "fr": "coupure", "pos": "noun", "g": "f", "ipa": "ku.pyʁ", "en": "cut; (power, water) cut, outage", "def": "Quand l'eau ou l'électricité s'arrête. Aussi : une petite blessure faite par un couteau.", "def_en": "When the water or electricity goes off. Also: a small wound made by a knife.", "forms": ["coupures"], "examples": [
+      { "fr": "Il y a une **coupure** de courant dans l'immeuble.", "en": "There's a power cut in the building." },
+      { "fr": "Demain, **coupure** d'eau de neuf heures à midi.", "en": "Tomorrow, the water will be off from nine to twelve." },
+      { "fr": "Je me suis fait une petite **coupure** au doigt.", "en": "I've cut my finger a little." }
+    ] },
+    { "id": "bruit", "fr": "bruit", "pos": "noun", "g": "m", "ipa": "bʁɥi", "en": "noise, sound", "def": "Ce qu'on entend, surtout quand ce n'est pas agréable : une voiture, une machine, des voisins…", "def_en": "What you hear, especially when it's unpleasant: a car, a machine, neighbours…", "forms": ["bruits"], "examples": [
+      { "fr": "Il y a trop de **bruit** dans cette rue.", "en": "There's too much noise in this street." },
+      { "fr": "C'est quoi, ce **bruit** bizarre ?", "en": "What's that strange noise?" },
+      { "fr": "Ne fais pas de **bruit**, Lou dort !", "en": "Don't make any noise, Lou's asleep!" }
+    ] },
+    { "id": "fonctionner", "fr": "fonctionner", "pos": "verb", "ipa": "fɔ̃k.sjɔ.ne", "en": "to work, to function", "def": "Faire bien son travail, pour une machine ou un appareil.", "def_en": "To do its job properly, for a machine or a device.", "forms": ["fonctionne", "fonctionnes", "fonctionnons", "fonctionnez", "fonctionnent", "fonctionné", "fonctionnée", "fonctionnés", "fonctionnées", "fonctionnais", "fonctionnait", "fonctionnions", "fonctionniez", "fonctionnaient", "fonctionnerai", "fonctionneras", "fonctionnera", "fonctionnerons", "fonctionnerez", "fonctionneront", "fonctionnerais", "fonctionnerait", "fonctionnerions", "fonctionneriez", "fonctionneraient"], "examples": [
+      { "fr": "Le chauffe-eau ne **fonctionne** plus.", "en": "The water heater isn't working any more." },
+      { "fr": "Comment **fonctionne** cette machine ?", "en": "How does this machine work?" },
+      { "fr": "Enfin, tout **fonctionne** !", "en": "At last, everything works!" }
+    ], "note": "In everyday French, people also say **ça marche** for a machine that works." },
+    { "id": "glace-adj", "fr": "glacé", "pos": "adj", "ipa": "ɡla.se", "display": "glacé, glacée", "en": "icy, ice-cold; iced", "def": "Très, très froid.", "def_en": "Very, very cold.", "forms": ["glacée", "glacés", "glacées"], "accept": ["glacée"], "examples": [
+      { "fr": "Hugo prend une douche **glacée**.", "en": "Hugo takes an ice-cold shower." },
+      { "fr": "J'ai les mains **glacées**.", "en": "My hands are freezing." },
+      { "fr": "Un thé **glacé**, s'il vous plaît !", "en": "An iced tea, please!" }
+    ] }
+  ],
+  "story": {
+    "title": "La semaine des problèmes",
+    "en": "From Sunday 26 July: a flooded bakery, a cold shower, a locked door… Hugo's first week in his new flat.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Dimanche soir, dans la boulangerie, de l'eau coule du plafond : c'est une grosse fuite.", "en": "Sunday evening, in the bakery, water is running down from the ceiling: it's a big leak." },
+      { "sp": "Mme Fournier", "fr": "Mes croissants ! Il y a des gouttes partout !", "en": "My croissants! There are drips everywhere!" },
+      { "sp": "", "fr": "Pierre ferme l'eau. Un plombier arrive une heure plus tard : un dimanche soir, ça coûte cher.", "en": "Pierre turns the water off. A plumber arrives an hour later: on a Sunday evening, that costs a lot." },
+      { "sp": "Le plombier", "fr": "Le tuyau est percé, je vais faire une réparation. Mais il y a des dégâts dans la boulangerie : appelez votre assurance.", "en": "The pipe has a hole in it; I'll do a repair. But there's damage in the bakery: call your insurance." },
+      { "sp": "Hugo", "fr": "J'ai inondé la boulangerie le premier jour…", "en": "I've flooded the bakery on my first day…" },
+      { "sp": "", "fr": "Lundi matin, nouvelle panne : le chauffe-eau ne fonctionne plus. Hugo prend une douche glacée.", "en": "Monday morning, another breakdown: the water heater stops working. Hugo takes an ice-cold shower." },
+      { "sp": "", "fr": "Mardi, le lavabo de la salle de bains est bouché : l'eau ne descend plus.", "en": "Tuesday, the bathroom basin is blocked: the water won't go down." },
+      { "sp": "", "fr": "Mercredi, Hugo laisse ses clés à l'intérieur et ferme la porte. Il est enfermé dehors !", "en": "Wednesday, Hugo leaves his keys inside and shuts the door. He's locked out!" },
+      { "sp": "", "fr": "Le serrurier change toute la serrure : cent cinquante euros.", "en": "The locksmith replaces the whole lock: a hundred and fifty euros." },
+      { "sp": "", "fr": "Jeudi soir, il y a une coupure de courant dans tout l'immeuble.", "en": "Thursday evening, there's a power cut in the whole building." },
+      { "sp": "Tom", "fr": "Hugo ! Il fait tout noir ! Tu as encore branché trop de choses ?", "en": "Hugo! It's pitch dark! Have you plugged in too many things again?" },
+      { "sp": "", "fr": "Un électricien arrive : la vieille machine à café de Hugo est dangereuse.", "en": "An electrician comes: Hugo's old coffee machine is dangerous." },
+      { "sp": "L'électricien", "fr": "Je vous dépanne ce soir, mais jetez cette machine !", "en": "I'll fix it for you tonight, but throw that machine away!" },
+      { "sp": "", "fr": "Vendredi, un cafard sort de sous l'évier. Hugo crie plus fort que Tom.", "en": "Friday, a cockroach comes out from under the sink. Hugo screams louder than Tom." },
+      { "sp": "", "fr": "Et chaque nuit, à quatre heures, il y a du bruit en bas : le four de la boulangerie.", "en": "And every night at four, there's noise downstairs: the bakery's oven." },
+      { "sp": "", "fr": "Le mur de la salle de bains est encore mouillé, et il y a de l'humidité partout.", "en": "The bathroom wall is still wet, and there's damp everywhere." },
+      { "sp": "", "fr": "Enfin, samedi, le tuyau ne fuit plus, et tout fonctionne.", "en": "At last, on Saturday, the pipe stops leaking, and everything works." },
+      { "sp": "Hugo", "fr": "Une semaine sans problème… enfin, sans gros problème. On peut pendre la crémaillère !", "en": "A week with no problems… well, no big problems. We can have the housewarming!" },
+      { "sp": "Mme Fournier", "fr": "Je viendrai, avec des croissants. Mais vous, ne touchez plus jamais à la perceuse !", "en": "I'll come, with croissants. But you: never touch that drill again!" }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "u29-logement",
+  "type": "vocab",
+  "unit": 29,
+  "title": "Chercher un logement",
+  "en": "Looking for a place to live",
+  "intro": "25 words for finding a home: who's who (**le propriétaire, le locataire, le colocataire, le garant, l'agent immobilier**), what you visit (**le logement, le studio, la colocation, la cave, la surface, le mètre carré**), what you think of it (**lumineux, sombre, spacieux, meublé, équipé, proche**) and the paperwork (**le loyer, les charges, la caution, le bail, l'état des lieux, le préavis**).",
+  "words": [
+    { "id": "logement", "fr": "logement", "pos": "noun", "g": "m", "ipa": "lɔʒ.mɑ̃", "en": "accommodation, housing; home", "def": "L'endroit où on habite : un appartement, une maison, un studio…", "def_en": "The place where you live: a flat, a house, a studio…", "forms": ["logements"], "examples": [
+      { "fr": "Hugo cherche un nouveau **logement**.", "en": "Hugo is looking for a new place to live." },
+      { "fr": "À Lyon, les **logements** coûtent de plus en plus cher.", "en": "In Lyon, housing is getting more and more expensive." },
+      { "fr": "L'université aide les étudiants à trouver un **logement**.", "en": "The university helps students find accommodation." }
+    ] },
+    { "id": "loyer", "fr": "loyer", "pos": "noun", "g": "m", "ipa": "lwa.je", "en": "rent", "def": "L'argent qu'on paie chaque mois au propriétaire pour habiter dans un logement.", "def_en": "The money you pay the landlord every month to live in a home.", "forms": ["loyers"], "examples": [
+      { "fr": "Le **loyer** est de six cent cinquante euros par mois.", "en": "The rent is six hundred and fifty euros a month." },
+      { "fr": "Je paie mon **loyer** le premier du mois.", "en": "I pay my rent on the first of the month." },
+      { "fr": "Les **loyers** sont très chers à Paris.", "en": "Rents are very high in Paris." }
+    ] },
+    { "id": "proprietaire", "fr": "propriétaire", "pos": "noun", "g": "m", "both": true, "ipa": "pʁɔ.pʁi.je.tɛʁ", "display": "le / la propriétaire", "en": "owner; landlord, landlady", "def": "La personne qui a une maison, un appartement ou un objet à elle, et qui peut le louer ou le vendre.", "def_en": "The person who owns a house, a flat or an object, and can rent it out or sell it.", "forms": ["propriétaires"], "accept": ["la propriétaire", "une propriétaire"], "examples": [
+      { "fr": "La **propriétaire** est aussi la boulangère.", "en": "The landlady is also the baker." },
+      { "fr": "Mon **propriétaire** vend l'appartement.", "en": "My landlord is selling the flat." },
+      { "fr": "Les **propriétaires** cherchent des locataires sérieux.", "en": "Landlords are looking for reliable tenants." }
+    ] },
+    { "id": "locataire", "fr": "locataire", "pos": "noun", "g": "m", "both": true, "ipa": "lɔ.ka.tɛʁ", "display": "le / la locataire", "en": "tenant", "def": "La personne qui habite un logement et qui paie un loyer au propriétaire.", "def_en": "The person who lives in a home and pays rent to the landlord.", "forms": ["locataires"], "accept": ["la locataire", "une locataire"], "examples": [
+      { "fr": "Hugo est **locataire**, pas propriétaire.", "en": "Hugo is a tenant, not an owner." },
+      { "fr": "Le nouveau **locataire** arrive samedi.", "en": "The new tenant arrives on Saturday." },
+      { "fr": "Les **locataires** de l'immeuble se connaissent bien.", "en": "The tenants in the building know each other well." }
+    ] },
+    { "id": "agence-immobiliere", "fr": "agence immobilière", "pos": "noun", "g": "f", "ipa": "a.ʒɑ̃s i.mɔ.bi.ljɛʁ", "en": "estate agency", "def": "Une entreprise qui aide les gens à vendre, acheter ou louer des logements.", "def_en": "A company that helps people sell, buy or rent homes.", "forms": ["agences immobilières"], "examples": [
+      { "fr": "On a trouvé ce studio dans une **agence immobilière**.", "en": "We found this studio through an estate agency." },
+      { "fr": "L'**agence immobilière** demande un mois de loyer.", "en": "The estate agency charges a month's rent." },
+      { "fr": "Il y a trois **agences immobilières** dans ma rue.", "en": "There are three estate agencies in my street." }
+    ] },
+    { "id": "agent-immobilier", "fr": "agent immobilier", "pos": "noun", "g": "m", "ipa": "a.ʒɑ̃ i.mɔ.bi.lje", "display": "l'agent immobilier", "en": "estate agent", "def": "La personne qui travaille dans une agence immobilière et qui fait visiter les logements.", "def_en": "The person who works in an estate agency and shows people round homes.", "forms": ["agents immobiliers", "agente immobilière"], "examples": [
+      { "fr": "L'**agent immobilier** nous attend devant l'immeuble.", "en": "The estate agent is waiting for us outside the building." },
+      { "fr": "Cet **agent immobilier** parle très vite.", "en": "This estate agent talks very fast." },
+      { "fr": "Elle est **agente immobilière** depuis dix ans.", "en": "She's been an estate agent for ten years." }
+    ] },
+    { "id": "studio", "fr": "studio", "pos": "noun", "g": "m", "ipa": "sty.djo", "en": "studio flat; (recording) studio", "def": "Un petit appartement avec une seule pièce, une cuisine et une salle de bains. Aussi : une salle pour enregistrer de la musique.", "def_en": "A small flat with a single room, a kitchen and a bathroom. Also: a room for recording music.", "forms": ["studios"], "examples": [
+      { "fr": "Beaucoup d'étudiants habitent dans un **studio**.", "en": "Lots of students live in a studio flat." },
+      { "fr": "Ce **studio** fait vingt mètres carrés.", "en": "This studio is twenty square metres." },
+      { "fr": "Le groupe d'Antoine a enregistré son album dans un **studio** à Montréal.", "en": "Antoine's band recorded its album in a studio in Montréal." }
+    ] },
+    { "id": "colocation", "fr": "colocation", "pos": "noun", "g": "f", "ipa": "kɔ.lɔ.ka.sjɔ̃", "en": "flatshare, house share", "def": "Quand plusieurs personnes louent ensemble un appartement, et partagent la cuisine et le salon.", "def_en": "When several people rent a flat together and share the kitchen and living room.", "forms": ["colocations"], "examples": [
+      { "fr": "Léa et Sophie vivent en **colocation**.", "en": "Léa and Sophie share a flat." },
+      { "fr": "La **colocation**, c'est moins cher.", "en": "Flatsharing is cheaper." },
+      { "fr": "Je cherche une **colocation** près de l'université.", "en": "I'm looking for a flatshare near the university." }
+    ] },
+    { "id": "colocataire", "fr": "colocataire", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ.lɔ.ka.tɛʁ", "display": "le / la colocataire", "en": "flatmate, housemate", "def": "Une personne avec qui on partage un appartement en location.", "def_en": "A person you share a rented flat with.", "forms": ["colocataires"], "accept": ["la colocataire", "une colocataire"], "examples": [
+      { "fr": "Sophie est la **colocataire** de Léa.", "en": "Sophie is Léa's flatmate." },
+      { "fr": "Mes **colocataires** ne font jamais la vaisselle.", "en": "My flatmates never do the washing-up." },
+      { "fr": "On cherche un troisième **colocataire**.", "en": "We're looking for a third flatmate." }
+    ] },
+    { "id": "caution", "fr": "caution", "pos": "noun", "g": "f", "ipa": "ko.sjɔ̃", "en": "deposit", "def": "L'argent qu'on donne au propriétaire au début, et qu'il rend à la fin s'il n'y a pas de problème.", "def_en": "The money you give the landlord at the start, which they give back at the end if there's no problem.", "forms": ["cautions"], "examples": [
+      { "fr": "La **caution** est d'un mois de loyer.", "en": "The deposit is one month's rent." },
+      { "fr": "Il n'a pas rendu ma **caution** : le mur était sale.", "en": "He didn't give back my deposit: the wall was dirty." },
+      { "fr": "Je n'ai pas assez d'argent pour la **caution**.", "en": "I haven't got enough money for the deposit." }
+    ] },
+    { "id": "garant", "fr": "garant", "pos": "noun", "g": "m", "ipa": "ɡa.ʁɑ̃", "display": "le garant, la garante", "en": "guarantor", "def": "La personne qui promet de payer le loyer si le locataire ne peut pas le payer.", "def_en": "The person who promises to pay the rent if the tenant can't.", "forms": ["garante", "garants", "garantes"], "accept": ["garante", "la garante", "une garante"], "examples": [
+      { "fr": "Mon père est mon **garant**.", "en": "My father is my guarantor." },
+      { "fr": "Sans **garant**, c'est difficile de louer un appartement.", "en": "Without a guarantor, it's hard to rent a flat." },
+      { "fr": "Ma mère accepte d'être ma **garante**.", "en": "My mother agrees to be my guarantor." }
+    ] },
+    { "id": "bail", "fr": "bail", "pos": "noun", "g": "m", "ipa": "baj", "en": "lease", "def": "Le contrat entre le propriétaire et le locataire.", "def_en": "The contract between the landlord and the tenant.", "forms": ["baux"], "examples": [
+      { "fr": "J'ai signé le **bail** hier.", "en": "I signed the lease yesterday." },
+      { "fr": "Le **bail** dure trois ans.", "en": "The lease lasts three years." },
+      { "fr": "Lis bien ton **bail** avant de signer.", "en": "Read your lease carefully before you sign." }
+    ], "note": "The plural is irregular: **des baux**." },
+    { "id": "meuble-adj", "fr": "meublé", "pos": "adj", "ipa": "mœ.ble", "display": "meublé, meublée", "en": "furnished", "def": "Qui a déjà des meubles : un lit, une table, des chaises…", "def_en": "That already has furniture: a bed, a table, chairs…", "forms": ["meublée", "meublés", "meublées"], "accept": ["meublée"], "examples": [
+      { "fr": "Je cherche un studio **meublé**.", "en": "I'm looking for a furnished studio." },
+      { "fr": "L'appartement est **meublé** : il y a même une télé !", "en": "The flat is furnished: there's even a TV!" },
+      { "fr": "Les logements **meublés** sont plus chers.", "en": "Furnished places are more expensive." }
+    ] },
+    { "id": "charges", "fr": "charges", "pos": "noun", "g": "f", "ipa": "ʃaʁʒ", "display": "les charges", "en": "service charges (water, heating, upkeep of the building)", "def": "L'argent qu'on paie en plus du loyer : l'eau, le chauffage, le nettoyage de l'immeuble…", "def_en": "Money you pay on top of the rent: water, heating, cleaning the building…", "examples": [
+      { "fr": "Le loyer est de six cent cinquante euros, **[charges|charges]** comprises.", "en": "The rent is six hundred and fifty euros, bills included." },
+      { "fr": "Les **charges** ne sont pas comprises.", "en": "Bills aren't included." },
+      { "fr": "Les **charges** augmentent chaque année.", "en": "The service charges go up every year." }
+    ], "note": "**charges comprises** = bills included." },
+    { "id": "surface", "fr": "surface", "pos": "noun", "g": "f", "ipa": "syʁ.fas", "en": "area; surface", "def": "La taille d'un lieu, en mètres carrés. Aussi : le dessus d'une chose.", "def_en": "The size of a place, in square metres. Also: the top of something.", "forms": ["surfaces"], "examples": [
+      { "fr": "Quelle est la **surface** de l'appartement ?", "en": "What's the floor area of the flat?" },
+      { "fr": "La **surface** du studio est de vingt mètres carrés.", "en": "The studio's area is twenty square metres." },
+      { "fr": "Il y a de la peinture sur toute la **surface** du mur.", "en": "There's paint over the whole surface of the wall." }
+    ] },
+    { "id": "metre-carre", "fr": "mètre carré", "pos": "noun", "g": "m", "ipa": "mɛtʁ ka.ʁe", "en": "square metre", "def": "Pour mesurer une surface : un carré d'un mètre de chaque côté.", "def_en": "For measuring an area: a square one metre on each side.", "forms": ["mètres carrés"], "examples": [
+      { "fr": "Le salon fait trente **mètres carrés**.", "en": "The living room is thirty square metres." },
+      { "fr": "À Paris, un **mètre carré** coûte très cher.", "en": "In Paris, a square metre costs a fortune." },
+      { "fr": "Combien de **mètres carrés** pour la chambre ?", "en": "How many square metres is the bedroom?" }
+    ] },
+    { "id": "lumineux", "fr": "lumineux", "pos": "adj", "ipa": "ly.mi.nø", "display": "lumineux, lumineuse", "en": "bright, full of light", "def": "Où il y a beaucoup de lumière.", "def_en": "With lots of light.", "forms": ["lumineuse", "lumineuses"], "accept": ["lumineuse"], "examples": [
+      { "fr": "L'appartement est très **lumineux**.", "en": "The flat is very bright." },
+      { "fr": "J'aime les pièces **lumineuses**.", "en": "I like bright rooms." },
+      { "fr": "Avec ses grandes fenêtres, la cuisine est **lumineuse**.", "en": "With its big windows, the kitchen is full of light." }
+    ] },
+    { "id": "sombre", "fr": "sombre", "pos": "adj", "ipa": "sɔ̃bʁ", "en": "dark", "def": "Où il n'y a pas beaucoup de lumière. Aussi : de couleur foncée.", "def_en": "Without much light. Also: dark in colour.", "forms": ["sombres"], "examples": [
+      { "fr": "Le studio est petit et **sombre**.", "en": "The studio is small and dark." },
+      { "fr": "Cette rue est **sombre** la nuit.", "en": "This street is dark at night." },
+      { "fr": "Il porte un costume **sombre**.", "en": "He's wearing a dark suit." }
+    ] },
+    { "id": "spacieux", "fr": "spacieux", "pos": "adj", "ipa": "spa.sjø", "display": "spacieux, spacieuse", "en": "spacious, roomy", "def": "Où il y a beaucoup de place.", "def_en": "With lots of room.", "forms": ["spacieuse", "spacieuses"], "accept": ["spacieuse"], "examples": [
+      { "fr": "Le salon est très **spacieux**.", "en": "The living room is very spacious." },
+      { "fr": "On cherche une maison **spacieuse** avec un jardin.", "en": "We're looking for a roomy house with a garden." },
+      { "fr": "Les chambres de cet hôtel sont **spacieuses**.", "en": "The rooms in this hotel are spacious." }
+    ] },
+    { "id": "equipe-adj", "fr": "équipé", "pos": "adj", "ipa": "e.ki.pe", "display": "équipé, équipée", "en": "equipped, fitted", "def": "Qui a tout ce qu'il faut : les appareils, les machines…", "def_en": "That has everything you need: appliances, machines…", "forms": ["équipée", "équipés", "équipées"], "accept": ["équipée"], "examples": [
+      { "fr": "La cuisine est **équipée** : il y a un four et un frigo.", "en": "The kitchen is fitted: there's an oven and a fridge." },
+      { "fr": "Notre bureau est bien **équipé**.", "en": "Our office is well equipped." },
+      { "fr": "Pour la randonnée, il faut être bien **équipé**.", "en": "For hiking, you need the right gear." }
+    ] },
+    { "id": "visite", "fr": "visite", "pos": "noun", "g": "f", "ipa": "vi.zit", "en": "visit; viewing (of a flat)", "def": "Quand on va voir un lieu ou une personne. Pour un logement : quand on va le voir avant de le louer.", "def_en": "When you go to see a place or a person. For a home: when you go and see it before renting it.", "forms": ["visites"], "examples": [
+      { "fr": "La **visite** de l'appartement est à dix-huit heures.", "en": "The viewing of the flat is at 6 p.m." },
+      { "fr": "Merci pour ta **visite** !", "en": "Thanks for coming to see me!" },
+      { "fr": "On a fait trois **visites** aujourd'hui.", "en": "We did three viewings today." }
+    ] },
+    { "id": "cave", "fr": "cave", "pos": "noun", "g": "f", "ipa": "kav", "en": "cellar, basement", "def": "Une pièce sous la maison ou sous l'immeuble, où on garde le vin, les vélos…", "def_en": "A room under the house or building, where you keep wine, bikes…", "forms": ["caves"], "examples": [
+      { "fr": "Il y a une **cave** pour mettre ton vélo.", "en": "There's a cellar to put your bike in." },
+      { "fr": "Mon grand-père garde son vin à la **cave**.", "en": "My grandfather keeps his wine in the cellar." },
+      { "fr": "La **cave** est humide.", "en": "The cellar is damp." }
+    ], "note": "False friend: a cave is **une grotte**." },
+    { "id": "etat-des-lieux", "fr": "état des lieux", "pos": "noun", "g": "m", "ipa": "e.ta de ljø", "en": "inventory and condition report (of a rented home)", "def": "Quand le propriétaire et le locataire regardent ensemble l'état du logement, à l'arrivée et au départ.", "def_en": "When the landlord and tenant check the condition of the home together, when moving in and moving out.", "examples": [
+      { "fr": "On fait l'**état des lieux** samedi matin.", "en": "We're doing the inventory on Saturday morning." },
+      { "fr": "Pendant l'**état des lieux**, on regarde chaque mur.", "en": "During the inventory check, you look at every wall." },
+      { "fr": "Après l'**état des lieux**, le propriétaire rend la caution.", "en": "After the final inventory, the landlord returns the deposit." }
+    ] },
+    { "id": "preavis", "fr": "préavis", "pos": "noun", "g": "m", "ipa": "pʁe.a.vi", "en": "notice (period)", "def": "Le temps qu'il faut attendre entre l'annonce d'un départ et le vrai départ, quand on quitte un logement ou un travail.", "def_en": "The time you must wait between announcing that you're leaving and actually leaving a home or a job.", "examples": [
+      { "fr": "Pour quitter mon appartement, j'ai un mois de **préavis**.", "en": "To leave my flat, I have to give a month's notice." },
+      { "fr": "Le **préavis** est de six mois quand le propriétaire vend.", "en": "The notice period is six months when the landlord sells." },
+      { "fr": "Elle a donné son **préavis** à son employeur.", "en": "She handed in her notice to her employer." }
+    ] },
+    { "id": "proche", "fr": "proche", "pos": "adj", "ipa": "pʁɔʃ", "en": "near, close; (noun) close friend or relative", "def": "Qui n'est pas loin. Aussi : très ami avec quelqu'un.", "def_en": "Not far away. Also: close to someone.", "forms": ["proches"], "examples": [
+      { "fr": "L'appartement est **proche** du centre-ville.", "en": "The flat is close to the city centre." },
+      { "fr": "La gare est toute **proche**.", "en": "The station is very close." },
+      { "fr": "Inès et Sophie sont très **proches**.", "en": "Inès and Sophie are very close." }
+    ] }
+  ],
+  "story": {
+    "title": "Hugo cherche un logement",
+    "en": "Mid-July: Hugo finally opens a letter from his landlord, and has three weeks to find a new place.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi treize juillet. Après Marseille et quelques jours à la ferme, les amis sont rentrés à Lyon.", "en": "Monday 13 July. After Marseille and a few days at the farm, the friends are back in Lyon." },
+      { "sp": "", "fr": "Dans sa boîte aux lettres, Hugo trouve une lettre de son propriétaire : il vend l'appartement, et Hugo doit partir avant le premier août !", "en": "In his letterbox, Hugo finds a letter from his landlord: he's selling the flat, and Hugo has to leave before 1 August!" },
+      { "sp": "Léa", "fr": "Le premier août ? Mais c'est dans trois semaines !", "en": "1 August? But that's in three weeks!" },
+      { "sp": "Hugo", "fr": "Apparemment, il m'a déjà écrit en février. Le préavis est de six mois…", "en": "Apparently he already wrote to me in February. The notice period is six months…" },
+      { "sp": "Léa", "fr": "Et tu n'as pas ouvert la lettre ?", "en": "And you didn't open the letter?" },
+      { "sp": "Hugo", "fr": "Je l'ai mise dans un tiroir, avec les factures.", "en": "I put it in a drawer, with the bills." },
+      { "sp": "", "fr": "Toute la semaine, Hugo cherche un logement avec Léa. Ils vont dans une agence immobilière.", "en": "All week long, Hugo looks for a place with Léa. They go to an estate agency." },
+      { "sp": "", "fr": "Première [visite|visite] : un studio meublé au centre-ville, avec un agent immobilier très pressé.", "en": "First viewing: a furnished studio in the city centre, with an estate agent in a great hurry." },
+      { "sp": "L'agent immobilier", "fr": "Vingt mètres carrés, sept cents euros par mois, [charges|charges] comprises. Il faut une caution de deux mois et un garant.", "en": "Twenty square metres, seven hundred euros a month, bills included. You need a two-month deposit and a guarantor." },
+      { "sp": "Hugo", "fr": "Vingt mètres carrés ? Et ma console, elle dort où ?", "en": "Twenty square metres? And where does my console sleep?" },
+      { "sp": "Léa", "fr": "Et c'est très sombre : il y a une seule fenêtre, sur la cour.", "en": "And it's very dark: there's only one window, onto the courtyard." },
+      { "sp": "", "fr": "Deuxième [visite|visite] : une colocation avec trois étudiants. L'appartement est spacieux, mais il y a des chaussettes partout.", "en": "Second viewing: a flatshare with three students. The flat is roomy, but there are socks everywhere." },
+      { "sp": "Un colocataire", "fr": "Une seule question : tu ronfles ?", "en": "Just one question: do you snore?" },
+      { "sp": "Hugo", "fr": "Euh… un peu.", "en": "Er… a bit." },
+      { "sp": "", "fr": "Les trois colocataires se regardent. C'est non.", "en": "The three flatmates look at each other. It's a no." },
+      { "sp": "", "fr": "Le soir, Tom appelle : l'appartement à côté de chez lui est libre ! Il est au-dessus de la boulangerie.", "en": "In the evening, Tom calls: the flat next to his is free! It's above the bakery." },
+      { "sp": "", "fr": "Troisième [visite|visite]. La propriétaire, Madame Fournier, est aussi la boulangère.", "en": "Third viewing. The landlady, Mme Fournier, is also the baker." },
+      { "sp": "Mme Fournier", "fr": "L'appartement est lumineux, la surface est de quarante-cinq mètres carrés, et la cuisine est équipée. Il y a aussi une cave.", "en": "The flat is bright, it's forty-five square metres, and the kitchen is fitted. There's a cellar too." },
+      { "sp": "Hugo", "fr": "C'est proche de mon bureau ?", "en": "Is it close to my office?" },
+      { "sp": "Tom", "fr": "Dix minutes à vélo. Et ton vélo est déjà chez moi !", "en": "Ten minutes by bike. And your bike's already at my place!" },
+      { "sp": "Mme Fournier", "fr": "Le loyer est de six cent cinquante euros. Pour le bail, il me faut un garant… et j'aime les locataires sérieux.", "en": "The rent is six hundred and fifty euros. For the lease, I need a guarantor… and I like reliable tenants." },
+      { "sp": "Hugo", "fr": "Mon père peut être mon garant. Et je suis très sérieux… enfin, presque.", "en": "My father can be my guarantor. And I'm very reliable… well, almost." },
+      { "sp": "Mme Fournier", "fr": "Si vous signez, on fera l'état des lieux le vingt-cinq juillet.", "en": "If you sign, we'll do the inventory on 25 July." },
+      { "sp": "Léa", "fr": "Alors ? C'est oui ?", "en": "So? Is it a yes?" },
+      { "sp": "Hugo", "fr": "Je dois réfléchir… jusqu'à ce soir.", "en": "I need to think about it… until this evening." }
+    ]
+  }
+}

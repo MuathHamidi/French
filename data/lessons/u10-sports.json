@@ -147,7 +147,7 @@
     { "id": "courir", "fr": "courir", "pos": "verb", "ipa": "ku.ʁiʁ", "en": "to run",
       "def": "Aller très vite avec les jambes.", "def_en": "To go very fast on your legs.",
       "extra": "je **cours** · tu **cours** · il **court** · nous **courons** · vous **courez** · ils **courent** — irregular.",
-      "forms": ["cours", "court", "courons", "courez", "courent", "courais", "courait", "courions", "couriez", "couraient", "couru", "courrai", "courras", "courra", "courrons", "courrez", "courront", "courrais", "courrait", "courrions", "courriez", "courraient", "coure", "coures"],
+      "forms": ["cours", "court", "courons", "courez", "courent", "courais", "courait", "courions", "couriez", "couraient", "couru", "courrai", "courras", "courra", "courrons", "courrez", "courront", "courrais", "courrait", "courrions", "courriez", "courraient", "coure", "coures", "courue", "courus", "courues"],
       "examples": [
         { "fr": "Je **cours** au parc le matin.", "en": "I run in the park in the mornings." },
         { "fr": "Il **court** très vite !", "en": "He runs very fast!" },
@@ -156,7 +156,7 @@
     { "id": "nager", "fr": "nager", "pos": "verb", "ipa": "na.ʒe", "en": "to swim",
       "def": "Avancer dans l'eau avec les bras et les jambes.", "def_en": "To move through water with your arms and legs.",
       "extra": "Like *manger*: **nous nageons** (with an e).",
-      "forms": ["nage", "nages", "nageons", "nagez", "nagent", "nageais", "nageait", "nagions", "nagiez", "nageaient", "nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient"],
+      "forms": ["nage", "nages", "nageons", "nagez", "nagent", "nageais", "nageait", "nagions", "nagiez", "nageaient", "nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient", "nagé", "nagée", "nagés", "nagées"],
       "examples": [
         { "fr": "Je **nage** à la piscine.", "en": "I swim at the pool." },
         { "fr": "Tu sais **nager** ?", "en": "Can you swim?" },
@@ -164,7 +164,7 @@
       ] },
     { "id": "marcher", "fr": "marcher", "pos": "verb", "ipa": "maʁ.ʃe", "en": "to walk; to work (machines)",
       "def": "Avancer à pied. Aussi : bien fonctionner.", "def_en": "To go on foot. Also: to work properly.",
-      "forms": ["marche", "marches", "marchons", "marchez", "marchent", "marchant", "marché", "marchais", "marchait", "marchions", "marchiez", "marchaient", "marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront", "marcherais", "marcherait", "marcherions", "marcheriez", "marcheraient"],
+      "forms": ["marche", "marches", "marchons", "marchez", "marchent", "marchant", "marché", "marchais", "marchait", "marchions", "marchiez", "marchaient", "marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront", "marcherais", "marcherait", "marcherions", "marcheriez", "marcheraient", "marchée", "marchées"],
       "examples": [
         { "fr": "Je **marche** beaucoup.", "en": "I walk a lot." },
         { "fr": "On **marche** jusqu'à la gare ?", "en": "Shall we walk to the station?" },
@@ -173,7 +173,7 @@
     { "id": "s-entrainer", "fr": "s'entraîner", "pos": "verb", "ipa": "sɑ̃.tʁɛ.ne", "en": "to train, to practise",
       "def": "Faire beaucoup de sport pour devenir meilleur.", "def_en": "To do lots of sport in order to get better.",
       "extra": "je **m'entraîne** · tu **t'entraînes** · il **s'entraîne** · nous **nous entraînons** · vous **vous entraînez** · ils **s'entraînent**",
-      "forms": ["m'entraîne", "t'entraînes", "s'entraîne", "nous nous entraînons", "vous vous entraînez", "s'entraînent", "entraîne", "entraînes", "entraînons", "entraînez", "entraînent", "entraîner", "entraînais", "entraînait", "entraînions", "entraîniez", "entraînaient", "m'entraînerai", "t'entraîneras", "s'entraînera", "nous nous entraînerons", "vous vous entraînerez", "s'entraîneront", "m'entraînerais", "t'entraînerais", "s'entraînerait", "nous nous entraînerions", "vous vous entraîneriez", "s'entraîneraient"],
+      "forms": ["m'entraîne", "t'entraînes", "s'entraîne", "nous nous entraînons", "vous vous entraînez", "s'entraînent", "entraîne", "entraînes", "entraînons", "entraînez", "entraînent", "entraîner", "entraînais", "entraînait", "entraînions", "entraîniez", "entraînaient", "m'entraînerai", "t'entraîneras", "s'entraînera", "nous nous entraînerons", "vous vous entraînerez", "s'entraîneront", "m'entraînerais", "t'entraînerais", "s'entraînerait", "nous nous entraînerions", "vous vous entraîneriez", "s'entraîneraient", "entraîné", "entraînée", "entraînés", "entraînées"],
       "accept": ["s'entrainer"],
       "examples": [
         { "fr": "Je **m'entraîne** trois fois par semaine.", "en": "I train three times a week." },
