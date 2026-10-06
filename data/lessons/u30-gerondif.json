@@ -1,0 +1,171 @@
+{
+  "id": "u30-gerondif",
+  "type": "grammar",
+  "unit": 30,
+  "title": "En changeant des couches",
+  "en": "The gérondif: en + -ant",
+  "intro": "The **gérondif** is **en** + the present participle (the **-ant** form): *en parlant, en finissant, en faisant*. It says what someone does at the same time as the main verb (*Chloé lit ses mails **en donnant** le biberon*), how something is done (*Hugo a appris **en regardant** une vidéo*) or on what condition (***En partant** maintenant, on sera à la maison avant minuit*). It never changes, and its subject is always the subject of the main verb.",
+  "cases": [
+    { "id": "ger-forme", "label": "en + -ant: the forms", "rule": "Take the **nous** form of the present, drop **-ons** and add **-ant**: *nous changeons* → ***en changeant***, *nous finissons* → ***en finissant***, *nous faisons* → ***en faisant***. Only three are irregular: ***en étant*** (être), ***en ayant*** (avoir), ***en sachant*** (savoir)." },
+    { "id": "ger-simultane", "label": "at the same time, when", "rule": "The gérondif says what happens at the same time as the main verb: *Chloé lit ses mails **en donnant** le biberon* (while giving). It also means *when*: ***En arrivant**, Hugo a vu les jumeaux* (when he arrived)." },
+    { "id": "ger-maniere", "label": "how: by doing", "rule": "It says how something is done: *Hugo a appris **en regardant** une vidéo* (by watching). *C'est **en changeant** des couches qu'on devient papa* (it's by changing nappies…)." },
+    { "id": "ger-condition", "label": "if: a condition", "rule": "It can replace **si** + present: ***En partant** maintenant, on sera à la maison avant minuit* = *Si on part maintenant…*" },
+    { "id": "ger-tout-en", "label": "tout en: while, even though", "rule": "**tout en** + -ant insists that two things happen together, often two things that don't usually go together: ***Tout en ayant** l'air perdu, Hugo est très doué* (even though he looks lost)." },
+    { "id": "ger-sujet", "label": "one subject for both verbs", "rule": "The gérondif and the main verb always have the same subject: *En changeant Adam, **Karim** chante* (Karim changes Adam, and Karim sings). When the subjects are different, use **quand** or **pendant que**: ***Pendant que** Karim change Adam, **Chloé** se repose.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. en + -ant: the forms",
+      "table": {
+        "head": ["nous form", "gérondif"], "frCols": [0, 1],
+        "rows": [
+          ["nous parlons", "en parlant"],
+          ["nous finissons", "en finissant"],
+          ["nous faisons", "en faisant"],
+          ["nous changeons", "en changeant"],
+          ["nous commençons", "en commençant"],
+          ["nous sommes", "en étant"],
+          ["nous avons", "en ayant"],
+          ["nous savons", "en sachant"]
+        ]
+      },
+      "examples": [
+        { "fr": "{En étant|ger-forme} bien organisés, on y arrive.", "en": "By being well organised, we manage." },
+        { "fr": "Il a dit oui {en sachant|ger-forme} que c'était difficile.", "en": "He said yes knowing it was difficult." }
+      ],
+      "tip": "The spelling of the **nous** form stays: *nous mangeons* → *en mangeant*, *nous commençons* → *en commençant*. Pronouns go between **en** and the verb: *en **le** regardant, en **se** levant*."
+    },
+    {
+      "title": "2. At the same time, when",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Ne parle pas en mangeant !", "Don't talk while you're eating!"],
+          ["Il chante en prenant sa douche.", "He sings in the shower."],
+          ["En arrivant, j'ai vu les jumeaux.", "When I arrived, I saw the twins."]
+        ]
+      },
+      "examples": [
+        { "fr": "Karim ouvre la porte {en tenant|ger-simultane} Adam dans ses bras.", "en": "Karim opens the door holding Adam in his arms." },
+        { "fr": "{En arrivant|ger-simultane}, Hugo a vu les jumeaux.", "en": "When he arrived, Hugo saw the twins." }
+      ],
+      "tip": "English often says *while …ing*, *when …ing* or just *…ing*: *il est parti en courant* = he ran off."
+    },
+    {
+      "title": "3. How: by doing",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il a appris en regardant une vidéo.", "He learnt by watching a video."],
+          ["J'ai appris le français en écoutant des chansons.", "I learnt French by listening to songs."],
+          ["On apprend en faisant.", "You learn by doing."]
+        ]
+      },
+      "examples": [
+        { "fr": "J'ai appris {en regardant|ger-maniere} une vidéo sur internet.", "en": "I learnt by watching a video online." },
+        { "fr": "C'est {en changeant|ger-maniere} des couches qu'on devient papa !", "en": "It's by changing nappies that you become a dad!" }
+      ],
+      "tip": "The proverb *C'est en forgeant qu'on devient forgeron* (it's by forging that you become a blacksmith) means *practice makes perfect*."
+    },
+    {
+      "title": "4. If: a condition",
+      "table": {
+        "head": ["gérondif", "with si"], "frCols": [0, 1],
+        "rows": [
+          ["En partant maintenant, on sera à la maison avant minuit.", "Si on part maintenant, on sera à la maison avant minuit."],
+          ["En prenant le tram, tu arriveras plus vite.", "Si tu prends le tram, tu arriveras plus vite."],
+          ["En chantant comme ça, tu vas le faire pleurer.", "Si tu chantes comme ça, tu vas le faire pleurer."]
+        ]
+      },
+      "examples": [
+        { "fr": "{En partant maintenant|ger-condition}, on sera à la maison avant minuit.", "en": "If we leave now, we'll be home before midnight." },
+        { "fr": "{En chantant|ger-condition} comme ça, tu vas le faire pleurer !", "en": "If you sing like that, you'll make him cry!" }
+      ]
+    },
+    {
+      "title": "5. tout en: while, even though",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Tout en étant fatigué, il est venu.", "Even though he was tired, he came."],
+          ["Elle travaille tout en écoutant de la musique.", "She works while listening to music."],
+          ["Tout en ayant l'air perdu, il est très doué.", "Although he looks lost, he's very good at it."]
+        ]
+      },
+      "examples": [
+        { "fr": "{Tout en ayant l'air|ger-tout-en} perdu, Hugo est très doué !", "en": "Although he looks lost, Hugo is very good at it!" },
+        { "fr": "Chloé donne le biberon {tout en lisant|ger-tout-en} ses mails.", "en": "Chloé gives the bottle while reading her emails." }
+      ]
+    },
+    {
+      "title": "6. One subject for both verbs",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["En changeant Adam, Karim chante.", "Karim sings while he changes Adam."],
+          ["Pendant que Karim change Adam, Chloé se repose.", "While Karim changes Adam, Chloé rests."],
+          ["Quand je suis arrivé, le bébé dormait.", "When I arrived, the baby was asleep."]
+        ]
+      },
+      "examples": [
+        { "fr": "{En changeant Adam, Karim|ger-sujet} chante une chanson.", "en": "Karim sings a song while changing Adam." },
+        { "fr": "{Pendant que Karim change Adam, Chloé|ger-sujet} se repose.", "en": "While Karim changes Adam, Chloé rests." }
+      ],
+      "tip": "*En arrivant, le téléphone a sonné* would mean that the phone arrived! Say *Quand je suis arrivé, le téléphone a sonné*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Ne parle pas en mangant !", "right": "Ne parle pas en mangeant !", "why": "Keep the **e** of *nous mangeons*: *mangeant*." },
+    { "wrong": "Il a appris en regarder une vidéo.", "right": "Il a appris en regardant une vidéo.", "why": "After **en**, use the **-ant** form, never the infinitive." },
+    { "wrong": "Il a dit oui en savant que c'était difficile.", "right": "Il a dit oui en sachant que c'était difficile.", "why": "**savoir** is irregular: *sachant*." },
+    { "wrong": "En arrivant, le téléphone a sonné.", "right": "Quand je suis arrivé, le téléphone a sonné.", "why": "The gérondif takes the subject of the main verb: here, the phone would be arriving." },
+    { "wrong": "En tout ayant l'air perdu, il est doué.", "right": "Tout en ayant l'air perdu, il est doué.", "why": "**tout** comes before **en**: *tout en ayant*." }
+  ],
+  "story": {
+    "title": "Une soirée chez les jumeaux",
+    "en": "Saturday 29 August: Hugo, Léa and Carla have dinner at Chloé and Karim's, and Hugo wants to show what he can do with a nappy.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-neuf août, Hugo, Léa et Carla dînent chez Chloé et Karim, à la Croix-Rousse. Les jumeaux ont presque un mois.", "en": "Saturday 29 August: Hugo, Léa and Carla are having dinner at Chloé and Karim's, in the Croix-Rousse. The twins are nearly a month old." },
+      { "sp": "", "fr": "Karim ouvre la porte {en tenant|ger-simultane} Adam dans ses bras. Dans le salon, Chloé donne le biberon à Nina {tout en lisant|ger-tout-en} ses mails.", "en": "Karim opens the door holding Adam in his arms. In the living room, Chloé is giving Nina her bottle while reading her emails." },
+      { "sp": "Léa", "fr": "Tu travailles {en donnant|ger-simultane} le biberon ?", "en": "You're working while you give her the bottle?" },
+      { "sp": "Chloé", "fr": "Juste mes mails. Avec des jumeaux, on apprend à faire deux choses à la fois !", "en": "Just my emails. With twins, you learn to do two things at once!" },
+      { "sp": "Hugo", "fr": "Ce soir, c'est moi qui change les couches. J'ai appris {en regardant|ger-maniere} une vidéo sur internet.", "en": "Tonight, I'm the one changing the nappies. I learnt by watching a video online." },
+      { "sp": "Carla", "fr": "Une vidéo ? On n'apprend pas {en regardant|ger-maniere}, Hugo. On apprend {en faisant|ger-maniere} !", "en": "A video? You don't learn by watching, Hugo. You learn by doing!" },
+      { "sp": "Karim", "fr": "Elle a raison. C'est {en changeant|ger-maniere} des couches qu'on devient papa !", "en": "She's right. It's by changing nappies that you become a dad!" },
+      { "sp": "Hugo", "fr": "Papa ? Non merci. Mais cousin, oui ! Viens, Adam : ton cousin préféré est là.", "en": "A dad? No thanks. But a cousin, yes! Come on, Adam: your favourite cousin is here." },
+      { "sp": "", "fr": "Hugo prend Adam et commence à changer sa couche {en chantant|ger-simultane}. Il chante faux, bien sûr.", "en": "Hugo takes Adam and starts changing his nappy, singing. Out of tune, of course." },
+      { "sp": "Léa", "fr": "{En chantant|ger-condition} comme ça, tu vas le faire pleurer !", "en": "If you sing like that, you'll make him cry!" },
+      { "sp": "", "fr": "Mais Adam ne pleure pas. Il regarde les lunettes de Hugo, sur sa tête, avec de grands yeux.", "en": "But Adam doesn't cry. He stares at Hugo's glasses, up on his head, with big eyes." },
+      { "sp": "Carla", "fr": "{Tout en ayant l'air|ger-tout-en} perdu, Hugo est très doué !", "en": "Although he looks lost, Hugo is very good at it!" },
+      { "sp": "Karim", "fr": "Attention, Hugo ! Hier, {en changeant Adam, j'ai|ger-sujet} dû changer de tee-shirt…", "en": "Careful, Hugo! Yesterday, while I was changing Adam, I had to change my T-shirt…" },
+      { "sp": "", "fr": "Trop tard : Adam fait pipi sur le tee-shirt de Hugo.", "en": "Too late: Adam wees on Hugo's T-shirt." },
+      { "sp": "Hugo", "fr": "Ça, ce n'était pas dans la vidéo !", "en": "That wasn't in the video!" },
+      { "sp": "Chloé", "fr": "Bienvenue chez les parents ! On dort quatre heures par nuit, mais {en étant|ger-forme} bien organisés, on y arrive.", "en": "Welcome to parenthood! We sleep four hours a night, but by being well organised, we manage." },
+      { "sp": "Karim", "fr": "Moi la nuit, Chloé le matin… et le café toute la journée !", "en": "Me at night, Chloé in the morning… and coffee all day long!" },
+      { "sp": "", "fr": "Pour le dessert, Karim a fait une tarte aux fraises cet après-midi, {en gardant|ger-simultane} les jumeaux.", "en": "For dessert, Karim made a strawberry tart this afternoon, while looking after the twins." },
+      { "sp": "", "fr": "Hugo prend la dernière [part|part], {tout en sachant|ger-tout-en} qu'elle est pour Chloé.", "en": "Hugo takes the last slice, even though he knows it's for Chloé." },
+      { "sp": "Chloé", "fr": "Mange-la, Hugo : tu l'as bien gagnée !", "en": "Eat it, Hugo: you've earned it!" },
+      { "sp": "Léa", "fr": "Il est tard. {En partant maintenant|ger-condition}, on sera à la maison avant minuit.", "en": "It's late. If we leave now, we'll be home before midnight." },
+      { "sp": "Chloé", "fr": "Hugo, {en partant|ger-simultane}, n'oublie pas ton sac !", "en": "Hugo, don't forget your bag when you leave!" },
+      { "sp": "", "fr": "Dans le tram, Hugo s'endort {en ronflant|ger-maniere}, le sac sur les genoux.", "en": "On the tram, Hugo falls asleep snoring, with the bag on his knees." },
+      { "sp": "", "fr": "Le lendemain matin, Karim appelle Hugo.", "en": "The next morning, Karim phones Hugo." },
+      { "sp": "Karim", "fr": "Hugo, tu es parti avec le sac des jumeaux ! Toutes les couches sont dedans !", "en": "Hugo, you left with the twins' bag! All the nappies are in it!" },
+      { "sp": "Hugo", "fr": "Ah… {En ouvrant le sac ce matin, j'ai|ger-sujet} trouvé vingt couches et deux biberons. Je me demandais pourquoi !", "en": "Ah… When I opened the bag this morning, I found twenty nappies and two bottles. I did wonder why!" }
+    ]
+  },
+  "quiz": [
+    { "case": "ger-forme", "type": "mc", "q": "Ne parle pas en ___ !", "en": "Don't talk while you're eating!", "options": ["mangeant", "mangant", "manger"], "answer": "mangeant" },
+    { "case": "ger-forme", "type": "type", "q": "Il a dit oui en ___ (savoir) que c'était difficile.", "en": "He said yes knowing it was difficult.", "answer": "sachant" },
+    { "case": "ger-simultane", "type": "mc", "q": "Chloé lit ses mails ___ le biberon.", "en": "Chloé reads her emails while giving the bottle.", "options": ["en donnant", "en donner", "donnant en"], "answer": "en donnant" },
+    { "case": "ger-simultane", "type": "mc", "lang": "en", "q": "« En arrivant, Hugo a vu les jumeaux » means…", "options": ["When he arrived, Hugo saw the twins.", "Hugo arrived with the twins.", "The twins arrived and saw Hugo."], "answer": "When he arrived, Hugo saw the twins.", "say": "En arrivant, Hugo a vu les jumeaux." },
+    { "case": "ger-maniere", "type": "mc", "q": "Hugo a appris ___ une vidéo.", "en": "Hugo learnt by watching a video.", "options": ["en regardant", "pour regarder", "en regarder"], "answer": "en regardant" },
+    { "case": "ger-maniere", "type": "type", "q": "C'est en ___ (changer) des couches qu'on devient papa.", "en": "It's by changing nappies that you become a dad.", "answer": "changeant" },
+    { "case": "ger-condition", "type": "mc", "lang": "en", "q": "« En partant maintenant, on sera à la maison avant minuit » means…", "options": ["If we leave now, we'll be home before midnight.", "We left at midnight.", "When we're home, it'll be midnight."], "answer": "If we leave now, we'll be home before midnight.", "say": "En partant maintenant, on sera à la maison avant minuit." },
+    { "case": "ger-condition", "type": "mc", "q": "___ le tram, tu arriveras plus vite.", "en": "If you take the tram, you'll get there faster.", "options": ["En prenant", "En prendre", "Prenant en"], "answer": "En prenant" },
+    { "case": "ger-tout-en", "type": "mc", "q": "___ en ayant l'air perdu, Hugo est très doué.", "en": "Although he looks lost, Hugo is very good at it.", "options": ["Tout", "Tous", "Toute"], "answer": "Tout" },
+    { "case": "ger-tout-en", "type": "mc", "lang": "en", "q": "« Tout en étant fatigué, il est venu » means…", "options": ["Even though he was tired, he came.", "He came because he was tired.", "He got tired after he came."], "answer": "Even though he was tired, he came.", "say": "Tout en étant fatigué, il est venu." },
+    { "case": "ger-sujet", "type": "mc", "lang": "en", "q": "« En changeant Adam, Karim chante. » Who is changing Adam?", "options": ["Karim", "Adam", "Someone else"], "answer": "Karim", "say": "En changeant Adam, Karim chante." },
+    { "case": "ger-sujet", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Quand je suis arrivé, le téléphone a sonné.", "En arrivant, le téléphone a sonné."], "answer": "Quand je suis arrivé, le téléphone a sonné." }
+  ]
+}

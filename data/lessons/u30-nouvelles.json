@@ -1,0 +1,163 @@
+{
+  "id": "u30-nouvelles",
+  "type": "vocab",
+  "unit": 30,
+  "title": "Les nouvelles",
+  "en": "The news",
+  "intro": "25 words for following the news: where it comes from (**la presse, le quotidien, le journal télévisé, la rubrique, le correspondant, la source, l'abonnement**), what it's about (**l'événement, le sujet, l'accident, la victime, la grève, le scandale, la polémique**) and what people do with it (**s'informer, publier, diffuser, confirmer, démentir, révéler**), from the front page (**à la une**) to the **rumeur**.",
+  "words": [
+    { "id": "nouvelle-n", "fr": "nouvelle", "pos": "noun", "g": "f", "manual": true, "ipa": "nu.vɛl", "en": "(a piece of) news; short story", "def": "Une information qu'on apprend : un événement récent. Aussi : une histoire courte, dans un livre.", "def_en": "A piece of information you learn: a recent event. Also: a short story, in a book.", "forms": ["nouvelles"], "examples": [
+      { "fr": "J'ai une bonne **[nouvelle|nouvelle-n]** : j'ai trouvé un appartement !", "en": "I've got some good news: I've found a flat!" },
+      { "fr": "Tu as des **[nouvelles|nouvelle-n]** de Tom ?", "en": "Have you heard from Tom?" },
+      { "fr": "On écoute les **[nouvelles|nouvelle-n]** à la radio chaque matin.", "en": "We listen to the news on the radio every morning." }
+    ], "note": "**une nouvelle** is one piece of news; **les nouvelles** = the news. The adjective **nouvelle** (new) is spelled the same: *une nouvelle voiture*." },
+    { "id": "evenement", "fr": "événement", "pos": "noun", "g": "m", "ipa": "e.vɛn.mɑ̃", "en": "event", "def": "Une chose importante qui arrive : une fête, un accident, une élection…", "def_en": "Something important that happens: a celebration, an accident, an election…", "forms": ["événements"], "examples": [
+      { "fr": "La naissance des jumeaux est un grand **événement** dans la famille.", "en": "The twins' birth is a big event in the family." },
+      { "fr": "Le journal parle des **événements** de la semaine.", "en": "The paper covers the week's events." },
+      { "fr": "Ce concert, c'est l'**événement** de l'été !", "en": "This concert is the event of the summer!" }
+    ] },
+    { "id": "presse-n", "fr": "presse", "pos": "noun", "g": "f", "ipa": "pʁɛs", "en": "the press, newspapers", "def": "Tous les journaux et les magazines, et les journalistes qui les écrivent.", "def_en": "All the newspapers and magazines, and the journalists who write them.", "examples": [
+      { "fr": "La **presse** anglaise parle beaucoup de Lyon cette semaine.", "en": "The English press is talking a lot about Lyon this week." },
+      { "fr": "Je lis la **presse** sur internet.", "en": "I read the papers online." },
+      { "fr": "La **presse** est libre en France.", "en": "The press is free in France." }
+    ] },
+    { "id": "quotidien", "fr": "quotidien", "pos": "adj", "ipa": "kɔ.ti.djɛ̃", "display": "quotidien, quotidienne", "en": "daily, everyday; (un quotidien) a daily newspaper", "def": "Qui arrive tous les jours. « Un quotidien » : un journal qui sort chaque jour.", "def_en": "That happens every day. 'Un quotidien': a newspaper that comes out every day.", "forms": ["quotidienne", "quotidiens", "quotidiennes"], "accept": ["quotidienne"], "examples": [
+      { "fr": "Tom est abonné à un **quotidien** de Londres.", "en": "Tom subscribes to a London daily." },
+      { "fr": "Le vélo fait [partie|partie] de ma vie **quotidienne**.", "en": "Cycling is part of my everyday life." },
+      { "fr": "Les problèmes **quotidiens** d'un nouveau locataire…", "en": "A new tenant's daily problems…" }
+    ] },
+    { "id": "a-la-une", "fr": "à la une", "pos": "expr", "ipa": "a la yn", "en": "on the front page, in the headlines", "def": "Sur la première page d'un journal, parce que c'est très important.", "def_en": "On the first page of a newspaper, because it's very important.", "note": "**faire la une** = to make the front page.", "examples": [
+      { "fr": "Le café d'en bas est **à la une** du journal !", "en": "The café downstairs is on the front page!" },
+      { "fr": "Qu'est-ce qu'il y a **à la une** aujourd'hui ?", "en": "What's in the headlines today?" },
+      { "fr": "Ce matin, le café est **à la une** de tous les journaux de Lyon.", "en": "This morning, the café is on the front page of every Lyon paper." }
+    ] },
+    { "id": "rumeur", "fr": "rumeur", "pos": "noun", "g": "f", "ipa": "ʁy.mœʁ", "en": "rumour", "def": "Une information qui passe de personne en personne, mais qui n'est peut-être pas vraie.", "def_en": "A piece of information that goes from person to person, but may not be true.", "forms": ["rumeurs"], "examples": [
+      { "fr": "C'est une **rumeur**, ce n'est pas officiel.", "en": "It's a rumour, it's not official." },
+      { "fr": "Selon une **rumeur**, le café va fermer.", "en": "According to a rumour, the café is going to close." },
+      { "fr": "Ne crois pas les **rumeurs** sur internet !", "en": "Don't believe the rumours online!" }
+    ] },
+    { "id": "source", "fr": "source", "pos": "noun", "g": "f", "ipa": "suʁs", "en": "source; spring (of water)", "def": "L'endroit ou la personne d'où vient une information. Aussi : l'endroit où l'eau sort de la terre.", "def_en": "The place or person a piece of information comes from. Also: the place where water comes out of the ground.", "forms": ["sources"], "examples": [
+      { "fr": "Quelle est la **source** de cette information ?", "en": "What's the source of this information?" },
+      { "fr": "Un bon journaliste vérifie toujours ses **sources**.", "en": "A good journalist always checks their sources." },
+      { "fr": "On a bu l'eau de la **source**, à la montagne.", "en": "We drank water from the spring, in the mountains." }
+    ] },
+    { "id": "confirmer", "fr": "confirmer", "pos": "verb", "ipa": "kɔ̃.fiʁ.me", "en": "to confirm", "def": "Dire qu'une chose est vraie, ou qu'elle est sûre.", "def_en": "To say that something is true, or certain.", "forms": ["confirme", "confirmes", "confirmons", "confirmez", "confirment", "confirmé", "confirmée", "confirmés", "confirmées", "confirmais", "confirmait", "confirmions", "confirmiez", "confirmaient", "confirmerai", "confirmeras", "confirmera", "confirmerons", "confirmerez", "confirmeront", "confirmerais", "confirmerait", "confirmerions", "confirmeriez", "confirmeraient", "confirmant"], "examples": [
+      { "fr": "Le patron du café **confirme** la nouvelle.", "en": "The café owner confirms the news." },
+      { "fr": "L'hôtel a **confirmé** notre réservation.", "en": "The hotel has confirmed our booking." },
+      { "fr": "Tu peux **confirmer** l'heure du rendez-vous ?", "en": "Can you confirm the time of the appointment?" }
+    ] },
+    { "id": "reveler", "fr": "révéler", "pos": "verb", "ipa": "ʁe.ve.le", "en": "to reveal", "def": "Faire connaître une chose cachée, un secret.", "def_en": "To make known something hidden, a secret.", "extra": "é → è before a silent ending: je **révèle**, nous **révélons**.", "forms": ["révèle", "révèles", "révélons", "révélez", "révèlent", "révélé", "révélée", "révélés", "révélées", "révélais", "révélait", "révélions", "révéliez", "révélaient", "révélerai", "révéleras", "révélera", "révélerons", "révélerez", "révéleront", "révélerais", "révélerait", "révélerions", "révéleriez", "révéleraient", "révélant"], "examples": [
+      { "fr": "Le journal **révèle** le projet de la mairie.", "en": "The paper reveals the town hall's plan." },
+      { "fr": "Hugo a **révélé** le secret de Sophie.", "en": "Hugo gave away Sophie's secret." },
+      { "fr": "Ne **révèle** pas la fin du film !", "en": "Don't give away the end of the film!" }
+    ] },
+    { "id": "scandale", "fr": "scandale", "pos": "noun", "g": "m", "ipa": "skɑ̃.dal", "en": "scandal; outrage", "def": "Une chose qui choque beaucoup de gens, parce qu'elle n'est pas juste ou pas honnête.", "def_en": "Something that shocks many people, because it isn't fair or honest.", "forms": ["scandales"], "examples": [
+      { "fr": "Fermer ce café ? C'est un **scandale** !", "en": "Close this café? It's outrageous!" },
+      { "fr": "Le ministre est au centre d'un **scandale**.", "en": "The minister is at the centre of a scandal." },
+      { "fr": "Les journaux adorent les **scandales**.", "en": "Newspapers love scandals." }
+    ] },
+    { "id": "victime", "fr": "victime", "pos": "noun", "g": "f", "ipa": "vik.tim", "en": "victim", "def": "Une personne qui souffre à cause d'un accident, d'une maladie ou d'une autre personne.", "def_en": "A person who suffers because of an accident, an illness or another person.", "forms": ["victimes"], "examples": [
+      { "fr": "Il n'y a pas de **victime** dans l'accident.", "en": "Nobody was hurt in the accident." },
+      { "fr": "Hugo est **victime** de son succès !", "en": "Hugo is a victim of his own success!" },
+      { "fr": "On a aidé les **victimes** de l'inondation.", "en": "We helped the flood victims." }
+    ], "note": "**une victime** is always feminine, even for a man." },
+    { "id": "recent", "fr": "récent", "pos": "adj", "ipa": "ʁe.sɑ̃", "display": "récent, récente", "en": "recent", "def": "Qui est arrivé ou qui a été fait il y a peu de temps.", "def_en": "That happened or was made a short time ago.", "forms": ["récente", "récents", "récentes"], "accept": ["récente"], "examples": [
+      { "fr": "Cette nouvelle est très **récente**.", "en": "This news is very recent." },
+      { "fr": "Ma voiture est **récente** : elle a un an.", "en": "My car is recent: it's a year old." },
+      { "fr": "Les chiffres les plus **récents** sont meilleurs.", "en": "The latest figures are better." }
+    ] },
+    { "id": "officiel", "fr": "officiel", "pos": "adj", "ipa": "ɔ.fi.sjɛl", "display": "officiel, officielle", "en": "official", "def": "Qui vient de l'État, de la mairie ou du gouvernement, et qui est donc sûr.", "def_en": "That comes from the State, the town hall or the government, and is therefore certain.", "forms": ["officielle", "officiels", "officielles"], "accept": ["officielle"], "examples": [
+      { "fr": "Ce n'est pas encore **officiel**.", "en": "It isn't official yet." },
+      { "fr": "La langue **officielle** du Québec est le français.", "en": "The official language of Quebec is French." },
+      { "fr": "Le résultat **officiel** arrive ce soir.", "en": "The official result comes out tonight." }
+    ] },
+    { "id": "correspondant", "fr": "correspondant", "pos": "noun", "g": "m", "ipa": "kɔ.ʁɛs.pɔ̃.dɑ̃", "display": "le correspondant, la correspondante", "en": "correspondent (journalist abroad); pen friend", "def": "Un journaliste qui travaille dans un autre pays ou une autre ville pour son journal. Aussi : un ami étranger à qui on écrit.", "def_en": "A journalist who works in another country or city for their paper. Also: a foreign friend you write to.", "forms": ["correspondante", "correspondants", "correspondantes"], "accept": ["correspondante", "la correspondante", "une correspondante"], "examples": [
+      { "fr": "Le **correspondant** du journal à Paris écrit sur la France.", "en": "The paper's Paris correspondent writes about France." },
+      { "fr": "Elle est **correspondante** à Madrid depuis cinq ans.", "en": "She's been a correspondent in Madrid for five years." },
+      { "fr": "À l'école, j'avais un **correspondant** anglais.", "en": "At school, I had an English pen friend." }
+    ] },
+    { "id": "s-informer", "fr": "s'informer", "pos": "verb", "ipa": "sɛ̃.fɔʁ.me", "en": "to keep informed, to find out; (informer) to inform", "def": "Chercher des informations, lire ou écouter les nouvelles. Sans « se » : donner une information à quelqu'un.", "def_en": "To look for information, to read or listen to the news. Without 'se': to tell someone something.", "extra": "je **m'informe**, nous **nous informons**, ils **s'informent**.", "forms": ["m'informe", "t'informes", "s'informe", "nous nous informons", "vous vous informez", "s'informent", "m'informer", "t'informer", "nous informer", "vous informer", "informer", "informe", "informes", "informons", "informez", "informent", "informé", "informée", "informés", "informées", "informais", "informait", "informions", "informiez", "informaient", "informerai", "informeras", "informera", "informerons", "informerez", "informeront", "informerais", "informerait", "informerions", "informeriez", "informeraient", "informant"], "examples": [
+      { "fr": "Je **m'informe** à la radio le matin.", "en": "I catch up on the news on the radio in the morning." },
+      { "fr": "Tom **s'informe** en anglais et en français.", "en": "Tom keeps up with the news in English and in French." },
+      { "fr": "La mairie doit **informer** les habitants.", "en": "The town hall has to inform residents." }
+    ] },
+    { "id": "rubrique", "fr": "rubrique", "pos": "noun", "g": "f", "ipa": "ʁy.bʁik", "en": "section, column (of a newspaper)", "def": "Une partie d'un journal, sur un sujet : le sport, la culture, la ville…", "def_en": "A part of a newspaper on one subject: sport, culture, the city…", "forms": ["rubriques"], "examples": [
+      { "fr": "Je lis toujours la **rubrique** sport en premier.", "en": "I always read the sports section first." },
+      { "fr": "Cet article est dans la **rubrique** « Lyon ».", "en": "This article is in the 'Lyon' section." },
+      { "fr": "Elle écrit une **rubrique** de cuisine.", "en": "She writes a cookery column." }
+    ] },
+    { "id": "publier", "fr": "publier", "pos": "verb", "ipa": "py.bli.je", "en": "to publish; to post (online)", "def": "Donner un texte, une photo ou une information au public : dans un journal, un livre, sur internet.", "def_en": "To make a text, a photo or some information available to the public: in a newspaper, a book, online.", "forms": ["publie", "publies", "publions", "publiez", "publient", "publié", "publiée", "publiés", "publiées", "publiais", "publiait", "publiions", "publiiez", "publiaient", "publierai", "publieras", "publiera", "publierons", "publierez", "publieront", "publierais", "publierait", "publierions", "publieriez", "publieraient", "publiant"], "examples": [
+      { "fr": "La mairie a **publié** le plan cette semaine.", "en": "The town hall published the plan this week." },
+      { "fr": "Il **publie** une photo de son chat chaque jour.", "en": "He posts a photo of his cat every day." },
+      { "fr": "Son premier livre sera **publié** en mars.", "en": "Her first book will be published in March." }
+    ] },
+    { "id": "diffuser", "fr": "diffuser", "pos": "verb", "ipa": "di.fy.ze", "en": "to broadcast; to spread, to share", "def": "Passer une émission à la télévision ou à la radio. Aussi : faire connaître une chose à beaucoup de gens.", "def_en": "To show a programme on TV or radio. Also: to make something known to lots of people.", "forms": ["diffuse", "diffuses", "diffusons", "diffusez", "diffusent", "diffusé", "diffusée", "diffusés", "diffusées", "diffusais", "diffusait", "diffusions", "diffusiez", "diffusaient", "diffuserai", "diffuseras", "diffusera", "diffuserons", "diffuserez", "diffuseront", "diffuserais", "diffuserait", "diffuserions", "diffuseriez", "diffuseraient", "diffusant"], "examples": [
+      { "fr": "Le match est **diffusé** en direct.", "en": "The match is being broadcast live." },
+      { "fr": "Les gens **diffusent** la photo sur internet.", "en": "People are sharing the photo online." },
+      { "fr": "La radio **diffuse** de la musique toute la nuit.", "en": "The radio plays music all night." }
+    ] },
+    { "id": "greve", "fr": "grève", "pos": "noun", "g": "f", "ipa": "ɡʁɛv", "en": "strike", "def": "Quand des travailleurs arrêtent de travailler pour obtenir quelque chose : un meilleur salaire, de meilleures conditions…", "def_en": "When workers stop working to get something: better pay, better conditions…", "forms": ["grèves"], "examples": [
+      { "fr": "Il y a une **grève** dans les trains demain.", "en": "There's a train strike tomorrow." },
+      { "fr": "Les professeurs sont en **grève**.", "en": "The teachers are on strike." },
+      { "fr": "À cause de la **grève**, Tom est arrivé en retard.", "en": "Because of the strike, Tom arrived late." }
+    ], "note": "**faire grève** = to go on strike; **être en grève** = to be on strike." },
+    { "id": "polemique", "fr": "polémique", "pos": "noun", "g": "f", "ipa": "pɔ.le.mik", "en": "controversy, row", "def": "Une discussion forte et publique, où les gens ne sont pas d'accord.", "def_en": "A heated public discussion where people disagree.", "forms": ["polémiques"], "examples": [
+      { "fr": "Le projet de la mairie crée une grande **polémique**.", "en": "The town hall's plan is causing a big controversy." },
+      { "fr": "Il y a une **polémique** sur internet.", "en": "There's a row going on online." },
+      { "fr": "Le ministre veut éviter la **polémique**.", "en": "The minister wants to avoid controversy." }
+    ] },
+    { "id": "accident", "fr": "accident", "pos": "noun", "g": "m", "ipa": "ak.si.dɑ̃", "en": "accident", "def": "Un événement qu'on n'attendait pas, et qui fait des dégâts ou des blessés.", "def_en": "An unexpected event that causes damage or injuries.", "forms": ["accidents"], "examples": [
+      { "fr": "Il y a eu un **accident** sur l'autoroute.", "en": "There's been an accident on the motorway." },
+      { "fr": "Pardon, c'était un **accident** !", "en": "Sorry, it was an accident!" },
+      { "fr": "Il a eu un **accident** de vélo, mais il va bien.", "en": "He had a bike accident, but he's fine." }
+    ] },
+    { "id": "journal-televise", "fr": "journal télévisé", "pos": "noun", "g": "m", "ipa": "ʒuʁ.nal te.le.vi.ze", "en": "TV news (bulletin)", "def": "L'émission où on présente les nouvelles du jour, à la télévision. On dit aussi « le JT ».", "def_en": "The programme presenting the day's news on TV. Also called 'le JT'.", "forms": ["journaux télévisés", "JT"], "examples": [
+      { "fr": "Mon grand-père regarde le **journal télévisé** à vingt heures.", "en": "My grandfather watches the TV news at eight." },
+      { "fr": "On a vu l'accident au **journal télévisé**.", "en": "We saw the accident on the TV news." },
+      { "fr": "Hugo est passé au **journal télévisé** !", "en": "Hugo has been on the TV news!" }
+    ] },
+    { "id": "sujet", "fr": "sujet", "pos": "noun", "g": "m", "ipa": "sy.ʒɛ", "en": "subject, topic", "def": "Ce dont on parle, ce dont parle un texte ou une émission.", "def_en": "What you talk about, what a text or a programme is about.", "forms": ["sujets"], "examples": [
+      { "fr": "Le vélo en ville, c'est un **sujet** difficile.", "en": "Cycling in the city is a tricky subject." },
+      { "fr": "Changeons de **sujet** !", "en": "Let's change the subject!" },
+      { "fr": "Quel est le **sujet** de l'article ?", "en": "What's the article about?" }
+    ] },
+    { "id": "abonnement", "fr": "abonnement", "pos": "noun", "g": "m", "ipa": "a.bɔn.mɑ̃", "en": "subscription; season ticket", "def": "Ce qu'on paie chaque mois ou chaque année pour recevoir un journal, utiliser un service ou prendre les transports.", "def_en": "What you pay every month or year to get a newspaper, use a service or take public transport.", "forms": ["abonnements"], "examples": [
+      { "fr": "Mon **abonnement** au journal coûte douze euros par mois.", "en": "My newspaper subscription costs twelve euros a month." },
+      { "fr": "J'ai un **abonnement** pour le bus et le tram.", "en": "I've got a bus and tram pass." },
+      { "fr": "Il a arrêté son **abonnement** à la salle de sport.", "en": "He's cancelled his gym membership." }
+    ] },
+    { "id": "dementir", "fr": "démentir", "pos": "verb", "ipa": "de.mɑ̃.tiʁ", "en": "to deny (officially)", "def": "Dire en public qu'une information n'est pas vraie.", "def_en": "To say publicly that a piece of information isn't true.", "extra": "like *mentir*: je **démens**, il **dément**, nous **démentons**; j'ai **démenti**.", "forms": ["démens", "dément", "démentons", "démentez", "démentent", "démenti", "démentie", "démentis", "démenties", "démentais", "démentait", "démentions", "démentiez", "démentaient", "démentirai", "démentiras", "démentira", "démentirons", "démentirez", "démentiront", "démentirais", "démentirait", "démentirions", "démentiriez", "démentiraient", "démente", "démentes", "démentant"], "examples": [
+      { "fr": "Le maire **dément** la rumeur.", "en": "The mayor denies the rumour." },
+      { "fr": "Le ministre a **démenti** cette information.", "en": "The minister has denied this report." },
+      { "fr": "Le maire n'a rien **démenti**, alors c'est peut-être vrai…", "en": "The mayor hasn't denied anything, so it may be true…" }
+    ] }
+  ],
+  "story": {
+    "title": "Quoi de neuf ?",
+    "en": "Saturday 1 August: Hugo's housewarming. Everyone has news, but the biggest is in the paper… until the phone rings.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi premier août, Hugo pend enfin la crémaillère. Tous ses amis sont venus, et Madame Fournier a apporté des croissants.", "en": "Saturday 1 August: Hugo is finally having his housewarming. All his friends have come, and Mme Fournier has brought croissants." },
+      { "sp": "Hugo", "fr": "Alors, quoi de neuf ? Je veux toutes les [nouvelles|nouvelle-n] !", "en": "So, what's new? I want all the news!" },
+      { "sp": "Carla", "fr": "Ma grande [nouvelle|nouvelle-n], c'est mon travail : j'ai commencé ce matin au centre de danse !", "en": "My big news is my job: I started at the dance centre this morning!" },
+      { "sp": "Tom", "fr": "Moi, je m'informe en anglais : je suis abonné à un quotidien de Londres. Mon abonnement coûte douze euros par mois.", "en": "I follow the news in English: I subscribe to a London daily. My subscription costs twelve euros a month." },
+      { "sp": "Tom", "fr": "Et cette semaine, le correspondant du journal à Paris parle de la France. La presse anglaise adore les grèves françaises !", "en": "And this week, the paper's Paris correspondent is writing about France. The English press loves French strikes!" },
+      { "sp": "Inès", "fr": "Justement, j'ai vu le journal télévisé hier soir : il y a une grève dans les trains, et un accident sur l'autoroute. Heureusement, il n'y a pas de victime.", "en": "Funnily enough, I saw the TV news last night: there's a train strike, and an accident on the motorway. Luckily, nobody was hurt." },
+      { "sp": "Sophie", "fr": "Et vous avez vu ce qui est à la une du journal de Lyon, ce matin ?", "en": "And have you seen what's on the front page of the Lyon paper this morning?" },
+      { "sp": "Sophie", "fr": "« La mairie veut enlever la terrasse du café d'en bas, pour faire une piste cyclable. »", "en": "'The town hall wants to remove the terrace of the café downstairs, to make a cycle lane.'" },
+      { "sp": "Léa", "fr": "Quoi ? Notre café ? C'est une rumeur, j'espère !", "en": "What? Our café? I hope it's just a rumour!" },
+      { "sp": "Sophie", "fr": "Je ne sais pas. La source, c'est un journaliste de la rubrique « Lyon ».", "en": "I don't know. The source is a journalist from the 'Lyon' section." },
+      { "sp": "Tom", "fr": "Il faut vérifier. Ce n'est peut-être pas officiel.", "en": "We need to check. It may not be official." },
+      { "sp": "", "fr": "Sophie appelle le patron du café. Il confirme : le projet est récent, et la mairie l'a publié cette semaine.", "en": "Sophie phones the café owner. He confirms it: the plan is new, and the town hall published it this week." },
+      { "sp": "Hugo", "fr": "Une piste cyclable à la place de notre terrasse ? C'est un scandale !", "en": "A cycle lane instead of our terrace? It's outrageous!" },
+      { "sp": "Sophie", "fr": "Attends… Moi, j'adore le vélo, et je travaille au café. C'est un sujet difficile.", "en": "Wait… I love cycling, and I work at the café. It's a tricky subject." },
+      { "sp": "Inès", "fr": "Sur internet, il y a déjà une grande polémique. Les gens diffusent des photos de la terrasse avec un grand « Non ! ».", "en": "Online, there's already a big row. People are sharing photos of the terrace with a big 'No!'." },
+      { "sp": "Carla", "fr": "Le maire va démentir, vous verrez.", "en": "The mayor will deny it, you'll see." },
+      { "sp": "Mme Fournier", "fr": "En tout cas, c'est un vrai événement dans le quartier !", "en": "Either way, it's quite an event in the neighbourhood!" },
+      { "sp": "", "fr": "Tout à coup, le téléphone de Léa sonne. C'est Paul.", "en": "Suddenly, Léa's phone rings. It's Paul." },
+      { "sp": "Paul", "fr": "Léa, j'ai une grande [nouvelle|nouvelle-n] : Chloé est à la maternité ! Les jumeaux arrivent !", "en": "Léa, I've got big news: Chloé is at the maternity ward! The twins are coming!" },
+      { "sp": "Hugo", "fr": "Je le publie tout de suite sur internet !", "en": "I'm posting it online right now!" },
+      { "sp": "Léa", "fr": "Ne révèle rien, Hugo ! On attend la [nouvelle|nouvelle-n] officielle.", "en": "Don't give anything away, Hugo! We wait for the official news." }
+    ]
+  }
+}

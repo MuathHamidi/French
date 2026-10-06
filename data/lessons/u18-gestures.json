@@ -25,7 +25,7 @@
     { "id": "bouger", "fr": "bouger", "pos": "verb", "ipa": "bu.ʒe", "en": "to move",
       "def": "Ne pas rester à la même place.", "def_en": "Not to stay in the same place.",
       "extra": "-ger verb: nous **bougeons**, je **bougeais**.",
-      "forms": ["bouge", "bouges", "bougeons", "bougez", "bougent", "bougé", "bougeais", "bougeait", "bougions", "bougiez", "bougeaient", "bougerai", "bougeras", "bougera", "bougerons", "bougerez", "bougeront", "bougerais", "bougerait", "bougerions", "bougeriez", "bougeraient", "bougée", "bougés", "bougées"],
+      "forms": ["bouge", "bouges", "bougeons", "bougez", "bougent", "bougé", "bougeais", "bougeait", "bougions", "bougiez", "bougeaient", "bougerai", "bougeras", "bougera", "bougerons", "bougerez", "bougeront", "bougerais", "bougerait", "bougerions", "bougeriez", "bougeraient", "bougée", "bougés", "bougées", "bougeant"],
       "examples": [
         { "fr": "Ne **bouge** pas, je prends la photo !", "en": "Don't move, I'm taking the photo!" },
         { "fr": "Lou **bouge** tout le temps.", "en": "Lou never keeps still." },
@@ -34,7 +34,7 @@
     { "id": "lever", "fr": "lever", "pos": "verb", "ipa": "lə.ve", "en": "to raise, to lift (lever la main = to put your hand up)",
       "def": "Mettre plus haut : lever le bras, lever la tête.", "def_en": "To put higher: to raise your arm, your head.",
       "extra": "e → è before a silent ending: je **lève**, nous **levons**. With *se*, **se lever** = to get up.",
-      "forms": ["lève", "lèves", "levons", "levez", "lèvent", "levé", "levée", "levés", "levées", "levais", "levait", "levions", "leviez", "levaient", "lèverai", "lèveras", "lèvera", "lèverons", "lèverez", "lèveront", "lèverais", "lèverait", "lèverions", "lèveriez", "lèveraient"],
+      "forms": ["lève", "lèves", "levons", "levez", "lèvent", "levé", "levée", "levés", "levées", "levais", "levait", "levions", "leviez", "levaient", "lèverai", "lèveras", "lèvera", "lèverons", "lèverez", "lèveront", "lèverais", "lèverait", "lèverions", "lèveriez", "lèveraient", "levant"],
       "examples": [
         { "fr": "**Levez** la main pour répondre !", "en": "Put your hand up to answer!" },
         { "fr": "Il **lève** les yeux vers le ciel.", "en": "He looks up at the sky." },
@@ -42,7 +42,7 @@
       ] },
     { "id": "baisser", "fr": "baisser", "pos": "verb", "ipa": "be.se", "en": "to lower; to go down",
       "def": "Mettre plus bas. Aussi : devenir plus bas.", "def_en": "To put lower. Also: to go lower.",
-      "forms": ["baisse", "baisses", "baissons", "baissez", "baissent", "baissé", "baissais", "baissait", "baissions", "baissiez", "baissaient", "baisserai", "baisseras", "baissera", "baisserons", "baisserez", "baisseront", "baisserais", "baisserait", "baisserions", "baisseriez", "baisseraient", "baissée", "baissés", "baissées"],
+      "forms": ["baisse", "baisses", "baissons", "baissez", "baissent", "baissé", "baissais", "baissait", "baissions", "baissiez", "baissaient", "baisserai", "baisseras", "baissera", "baisserons", "baisserez", "baisseront", "baisserais", "baisserait", "baisserions", "baisseriez", "baisseraient", "baissée", "baissés", "baissées", "baissant"],
       "examples": [
         { "fr": "**Baisse** la tête, la porte est basse !", "en": "Duck your head, the door is low!" },
         { "fr": "**Baissez** la musique, s'il vous plaît.", "en": "Turn the music down, please." },
@@ -50,7 +50,7 @@
       ] },
     { "id": "se-pencher", "fr": "se pencher", "pos": "verb", "ipa": "sə pɑ̃.ʃe", "en": "to lean, to bend over",
       "def": "Mettre le haut du corps en avant, vers le bas ou sur le côté.", "def_en": "To move the top of your body forward, down or to the side.",
-      "forms": ["me penche", "te penches", "se penche", "nous nous penchons", "vous vous penchez", "se penchent", "penche", "penches", "penchons", "penchez", "penchent", "penché", "penchée", "me penchais", "se penchait", "me pencherai", "te pencheras", "se penchera", "nous nous pencherons", "vous vous pencherez", "se pencheront", "me pencherais", "te pencherais", "se pencherait", "nous nous pencherions", "vous vous pencheriez", "se pencheraient", "penchés", "penchées"],
+      "forms": ["me penche", "te penches", "se penche", "nous nous penchons", "vous vous penchez", "se penchent", "penche", "penches", "penchons", "penchez", "penchent", "penché", "penchée", "me penchais", "se penchait", "me pencherai", "te pencheras", "se penchera", "nous nous pencherons", "vous vous pencherez", "se pencheront", "me pencherais", "te pencherais", "se pencherait", "nous nous pencherions", "vous vous pencheriez", "se pencheraient", "penchés", "penchées", "penchant"],
       "examples": [
         { "fr": "Ne te **penche** pas à la fenêtre !", "en": "Don't lean out of the window!" },
         { "fr": "Il **se penche** pour ramasser son stylo.", "en": "He bends down to pick up his pen." },
@@ -58,7 +58,7 @@
       ] },
     { "id": "plier", "fr": "plier", "pos": "verb", "ipa": "pli.je", "en": "to fold; to bend",
       "def": "Mettre une partie d'une chose sur l'autre : plier une feuille, plier les genoux.", "def_en": "To put one part of something onto the other: to fold a sheet, to bend your knees.",
-      "forms": ["plie", "plies", "plions", "pliez", "plient", "plié", "pliée", "pliés", "pliées", "pliais", "pliait", "pliions", "pliiez", "pliaient", "plierai", "plieras", "pliera", "plierons", "plierez", "plieront", "plierais", "plierait", "plierions", "plieriez", "plieraient"],
+      "forms": ["plie", "plies", "plions", "pliez", "plient", "plié", "pliée", "pliés", "pliées", "pliais", "pliait", "pliions", "pliiez", "pliaient", "plierai", "plieras", "pliera", "plierons", "plierez", "plieront", "plierais", "plierait", "plierions", "plieriez", "plieraient", "pliant"],
       "examples": [
         { "fr": "**Plie** les genoux, puis saute !", "en": "Bend your knees, then jump!" },
         { "fr": "Je **plie** mes vêtements avant de les ranger.", "en": "I fold my clothes before putting them away." },
@@ -66,7 +66,7 @@
       ] },
     { "id": "tendre", "fr": "tendre", "pos": "verb", "ipa": "tɑ̃dʁ", "en": "to hold out, to stretch out; (adjective) tender, soft",
       "def": "Mettre en avant, loin du corps : tendre la main, tendre le bras.", "def_en": "To put forward, away from the body: to hold out your hand, your arm.",
-      "forms": ["tends", "tend", "tendons", "tendez", "tendent", "tendu", "tendue", "tendus", "tendues", "tendais", "tendait", "tendions", "tendiez", "tendaient", "tendres", "tendrai", "tendras", "tendra", "tendrons", "tendrez", "tendront", "tendrais", "tendrait", "tendrions", "tendriez", "tendraient", "tende", "tendes"],
+      "forms": ["tends", "tend", "tendons", "tendez", "tendent", "tendu", "tendue", "tendus", "tendues", "tendais", "tendait", "tendions", "tendiez", "tendaient", "tendres", "tendrai", "tendras", "tendra", "tendrons", "tendrez", "tendront", "tendrais", "tendrait", "tendrions", "tendriez", "tendraient", "tende", "tendes", "tendant"],
       "examples": [
         { "fr": "Il me **tend** la main : « Enchanté ! »", "en": "He holds out his hand: 'Pleased to meet you!'" },
         { "fr": "**Tends** les bras devant toi.", "en": "Stretch your arms out in front of you." },
@@ -75,7 +75,7 @@
       "note": "**tendre** is also an adjective: tender, soft, loving." },
     { "id": "toucher", "fr": "toucher", "pos": "verb", "ipa": "tu.ʃe", "en": "to touch",
       "def": "Mettre la main ou le doigt sur une chose.", "def_en": "To put your hand or finger on something.",
-      "forms": ["touche", "touches", "touchons", "touchez", "touchent", "touché", "touchais", "touchait", "touchions", "touchiez", "touchaient", "toucherai", "toucheras", "touchera", "toucherons", "toucherez", "toucheront", "toucherais", "toucherait", "toucherions", "toucheriez", "toucheraient", "touchée", "touchés", "touchées"],
+      "forms": ["touche", "touches", "touchons", "touchez", "touchent", "touché", "touchais", "touchait", "touchions", "touchiez", "touchaient", "toucherai", "toucheras", "touchera", "toucherons", "toucherez", "toucheront", "toucherais", "toucherait", "toucherions", "toucheriez", "toucheraient", "touchée", "touchés", "touchées", "touchant"],
       "examples": [
         { "fr": "Ne **touche** pas, c'est chaud !", "en": "Don't touch, it's hot!" },
         { "fr": "**Touchez** vos pieds sans plier les genoux.", "en": "Touch your toes without bending your knees." },
@@ -84,7 +84,7 @@
     { "id": "tenir", "fr": "tenir", "pos": "verb", "ipa": "tə.niʁ", "en": "to hold (tiens ! = here you go!)",
       "def": "Avoir une chose dans la main et ne pas la lâcher.", "def_en": "To have something in your hand and not let go of it.",
       "extra": "Like *venir*: je **tiens**, il **tient**, nous **tenons**, ils **tiennent**; j'ai **tenu**.",
-      "forms": ["tiens", "tient", "tenons", "tenez", "tiennent", "tenu", "tenais", "tenait", "tenions", "teniez", "tenaient", "tiendrai", "tiendras", "tiendra", "tiendrons", "tiendrez", "tiendront", "tiendrais", "tiendrait", "tiendrions", "tiendriez", "tiendraient", "tienne", "tiennes", "tenue", "tenus", "tenues"],
+      "forms": ["tiens", "tient", "tenons", "tenez", "tiennent", "tenu", "tenais", "tenait", "tenions", "teniez", "tenaient", "tiendrai", "tiendras", "tiendra", "tiendrons", "tiendrez", "tiendront", "tiendrais", "tiendrait", "tiendrions", "tiendriez", "tiendraient", "tienne", "tiennes", "tenue", "tenus", "tenues", "tenant"],
       "examples": [
         { "fr": "**Tiens**-moi la main pour traverser.", "en": "Hold my hand to cross the road." },
         { "fr": "Il **tient** un parapluie.", "en": "He's holding an umbrella." },
@@ -92,7 +92,7 @@
       ] },
     { "id": "lacher", "fr": "lâcher", "pos": "verb", "ipa": "lɑ.ʃe", "en": "to let go (of), to drop",
       "def": "Ne plus tenir une chose ; la laisser tomber.", "def_en": "To stop holding something; to let it fall.",
-      "forms": ["lâche", "lâches", "lâchons", "lâchez", "lâchent", "lâché", "lâchais", "lâchait", "lâchions", "lâchiez", "lâchaient", "lâcherai", "lâcheras", "lâchera", "lâcherons", "lâcherez", "lâcheront", "lâcherais", "lâcherait", "lâcherions", "lâcheriez", "lâcheraient", "lâchée", "lâchés", "lâchées"],
+      "forms": ["lâche", "lâches", "lâchons", "lâchez", "lâchent", "lâché", "lâchais", "lâchait", "lâchions", "lâchiez", "lâchaient", "lâcherai", "lâcheras", "lâchera", "lâcherons", "lâcherez", "lâcheront", "lâcherais", "lâcherait", "lâcherions", "lâcheriez", "lâcheraient", "lâchée", "lâchés", "lâchées", "lâchant"],
       "examples": [
         { "fr": "Ne **lâche** pas ma main !", "en": "Don't let go of my hand!" },
         { "fr": "Le chien **lâche** la balle.", "en": "The dog drops the ball." },
@@ -100,7 +100,7 @@
       ] },
     { "id": "attraper", "fr": "attraper", "pos": "verb", "ipa": "a.tʁa.pe", "en": "to catch",
       "def": "Prendre une chose qui bouge ou qui tombe. Aussi : avoir une maladie.", "def_en": "To grab something that's moving or falling. Also: to catch an illness.",
-      "forms": ["attrape", "attrapes", "attrapons", "attrapez", "attrapent", "attrapé", "attrapais", "attrapait", "attrapions", "attrapiez", "attrapaient", "attraperai", "attraperas", "attrapera", "attraperons", "attraperez", "attraperont", "attraperais", "attraperait", "attraperions", "attraperiez", "attraperaient", "attrapée", "attrapés", "attrapées"],
+      "forms": ["attrape", "attrapes", "attrapons", "attrapez", "attrapent", "attrapé", "attrapais", "attrapait", "attrapions", "attrapiez", "attrapaient", "attraperai", "attraperas", "attrapera", "attraperons", "attraperez", "attraperont", "attraperais", "attraperait", "attraperions", "attraperiez", "attraperaient", "attrapée", "attrapés", "attrapées", "attrapant"],
       "examples": [
         { "fr": "**Attrape** la balle !", "en": "Catch the ball!" },
         { "fr": "Le chat **attrape** une souris.", "en": "The cat catches a mouse." },
@@ -109,7 +109,7 @@
     { "id": "lancer", "fr": "lancer", "pos": "verb", "ipa": "lɑ̃.se", "en": "to throw",
       "def": "Envoyer une chose loin avec la main.", "def_en": "To send something far away with your hand.",
       "extra": "-cer verb: nous **lançons**, je **lançais**.",
-      "forms": ["lance", "lances", "lançons", "lancez", "lancent", "lancé", "lancée", "lançais", "lançait", "lancions", "lanciez", "lançaient", "lancerai", "lanceras", "lancera", "lancerons", "lancerez", "lanceront", "lancerais", "lancerait", "lancerions", "lanceriez", "lanceraient", "lancés", "lancées"],
+      "forms": ["lance", "lances", "lançons", "lancez", "lancent", "lancé", "lancée", "lançais", "lançait", "lancions", "lanciez", "lançaient", "lancerai", "lanceras", "lancera", "lancerons", "lancerez", "lanceront", "lancerais", "lancerait", "lancerions", "lanceriez", "lanceraient", "lancés", "lancées", "lançant"],
       "examples": [
         { "fr": "**Lance**-moi le ballon !", "en": "Throw me the ball!" },
         { "fr": "Il **lance** une pierre dans le lac.", "en": "He throws a stone into the lake." },
@@ -117,7 +117,7 @@
       ] },
     { "id": "pousser", "fr": "pousser", "pos": "verb", "ipa": "pu.se", "en": "to push; to grow (plants)",
       "def": "Faire avancer une chose ou une personne devant soi. Aussi : grandir, pour les plantes.", "def_en": "To make something or someone move forward in front of you. Also: to grow, for plants.",
-      "forms": ["pousse", "pousses", "poussons", "poussez", "poussent", "poussé", "poussais", "poussait", "poussions", "poussiez", "poussaient", "pousserai", "pousseras", "poussera", "pousserons", "pousserez", "pousseront", "pousserais", "pousserait", "pousserions", "pousseriez", "pousseraient", "poussée", "poussés", "poussées"],
+      "forms": ["pousse", "pousses", "poussons", "poussez", "poussent", "poussé", "poussais", "poussait", "poussions", "poussiez", "poussaient", "pousserai", "pousseras", "poussera", "pousserons", "pousserez", "pousseront", "pousserais", "pousserait", "pousserions", "pousseriez", "pousseraient", "poussée", "poussés", "poussées", "poussant"],
       "examples": [
         { "fr": "**Poussez** la porte !", "en": "Push the door!" },
         { "fr": "Ne **pousse** pas ta sœur !", "en": "Don't push your sister!" },
@@ -125,7 +125,7 @@
       ] },
     { "id": "tirer", "fr": "tirer", "pos": "verb", "ipa": "ti.ʁe", "en": "to pull; (tirer la langue) to stick your tongue out",
       "def": "Faire venir une chose vers soi.", "def_en": "To make something come towards you.",
-      "forms": ["tire", "tires", "tirons", "tirez", "tirent", "tiré", "tirais", "tirait", "tirions", "tiriez", "tiraient", "tirerai", "tireras", "tirera", "tirerons", "tirerez", "tireront", "tirerais", "tirerait", "tirerions", "tireriez", "tireraient", "tirée", "tirés", "tirées"],
+      "forms": ["tire", "tires", "tirons", "tirez", "tirent", "tiré", "tirais", "tirait", "tirions", "tiriez", "tiraient", "tirerai", "tireras", "tirera", "tirerons", "tirerez", "tireront", "tirerais", "tirerait", "tirerions", "tireriez", "tireraient", "tirée", "tirés", "tirées", "tirant"],
       "examples": [
         { "fr": "**Tirez** la porte pour l'ouvrir.", "en": "Pull the door to open it." },
         { "fr": "Lou **tire** la langue à son frère.", "en": "Lou sticks her tongue out at her brother." },
@@ -134,7 +134,7 @@
       "note": "On doors: **Poussez** = Push, **Tirez** = Pull." },
     { "id": "poser", "fr": "poser", "pos": "verb", "ipa": "po.ze", "en": "to put (down); (poser une question) to ask a question",
       "def": "Mettre une chose quelque part, doucement.", "def_en": "To put something somewhere, gently.",
-      "forms": ["pose", "poses", "posons", "posez", "posent", "posé", "posais", "posait", "posions", "posiez", "posaient", "poserai", "poseras", "posera", "poserons", "poserez", "poseront", "poserais", "poserait", "poserions", "poseriez", "poseraient", "posée", "posés", "posées"],
+      "forms": ["pose", "poses", "posons", "posez", "posent", "posé", "posais", "posait", "posions", "posiez", "posaient", "poserai", "poseras", "posera", "poserons", "poserez", "poseront", "poserais", "poserait", "poserions", "poseriez", "poseraient", "posée", "posés", "posées", "posant"],
       "examples": [
         { "fr": "**Pose** ton sac ici.", "en": "Put your bag down here." },
         { "fr": "Je **pose** les tasses sur la table.", "en": "I put the cups on the table." },
@@ -142,7 +142,7 @@
       ] },
     { "id": "frapper", "fr": "frapper", "pos": "verb", "ipa": "fʁa.pe", "en": "to hit; to knock; (frapper dans les mains) to clap",
       "def": "Donner un coup avec la main ou avec un objet.", "def_en": "To strike with your hand or an object.",
-      "forms": ["frappe", "frappes", "frappons", "frappez", "frappent", "frappé", "frappais", "frappait", "frappions", "frappiez", "frappaient", "frapperai", "frapperas", "frappera", "frapperons", "frapperez", "frapperont", "frapperais", "frapperait", "frapperions", "frapperiez", "frapperaient", "frappée", "frappés", "frappées"],
+      "forms": ["frappe", "frappes", "frappons", "frappez", "frappent", "frappé", "frappais", "frappait", "frappions", "frappiez", "frappaient", "frapperai", "frapperas", "frappera", "frapperons", "frapperez", "frapperont", "frapperais", "frapperait", "frapperions", "frapperiez", "frapperaient", "frappée", "frappés", "frappées", "frappant"],
       "examples": [
         { "fr": "On **frappe** à la porte !", "en": "Someone's knocking at the door!" },
         { "fr": "**Frappez** dans les mains !", "en": "Clap your hands!" },
@@ -150,7 +150,7 @@
       ] },
     { "id": "serrer", "fr": "serrer", "pos": "verb", "ipa": "sɛ.ʁe", "en": "to squeeze, to hold tight (serrer la main = to shake hands)",
       "def": "Tenir très fort. Serrer la main : dire bonjour avec la main.", "def_en": "To hold very tight. Serrer la main: to say hello by shaking hands.",
-      "forms": ["serre", "serres", "serrons", "serrez", "serrent", "serré", "serrée", "serrés", "serrées", "serrais", "serrait", "serrions", "serriez", "serraient", "serrerai", "serreras", "serrera", "serrerons", "serrerez", "serreront", "serrerais", "serrerait", "serrerions", "serreriez", "serreraient"],
+      "forms": ["serre", "serres", "serrons", "serrez", "serrent", "serré", "serrée", "serrés", "serrées", "serrais", "serrait", "serrions", "serriez", "serraient", "serrerai", "serreras", "serrera", "serrerons", "serrerez", "serreront", "serrerais", "serrerait", "serrerions", "serreriez", "serreraient", "serrant"],
       "examples": [
         { "fr": "En France, on se **serre** la main pour dire bonjour.", "en": "In France, people shake hands to say hello." },
         { "fr": "Lou **serre** sa peluche très fort.", "en": "Lou hugs her soft toy tight." },
@@ -158,7 +158,7 @@
       ] },
     { "id": "montrer", "fr": "montrer", "pos": "verb", "ipa": "mɔ̃.tʁe", "en": "to show",
       "def": "Faire voir une chose à une personne.", "def_en": "To let someone see something.",
-      "forms": ["montre", "montres", "montrons", "montrez", "montrent", "montré", "montrée", "montrés", "montrées", "montrais", "montrait", "montrions", "montriez", "montraient", "montrerai", "montreras", "montrera", "montrerons", "montrerez", "montreront", "montrerais", "montrerait", "montrerions", "montreriez", "montreraient"],
+      "forms": ["montre", "montres", "montrons", "montrez", "montrent", "montré", "montrée", "montrés", "montrées", "montrais", "montrait", "montrions", "montriez", "montraient", "montrerai", "montreras", "montrera", "montrerons", "montrerez", "montreront", "montrerais", "montrerait", "montrerions", "montreriez", "montreraient", "montrant"],
       "examples": [
         { "fr": "**Montre**-moi ton dessin !", "en": "Show me your drawing!" },
         { "fr": "Il **montre** la porte du doigt.", "en": "He points at the door." },
@@ -168,7 +168,7 @@
     { "id": "s-asseoir", "fr": "s'asseoir", "pos": "verb", "ipa": "sa.swaʁ", "en": "to sit down",
       "def": "Se mettre sur une chaise, un canapé…", "def_en": "To sit on a chair, a sofa…",
       "extra": "je **m'assieds**, tu **t'assieds**, il **s'assied**, nous **nous asseyons**, vous **vous asseyez**, ils **s'asseyent** (also: je m'assois…). **Asseyez-vous !** = Sit down!",
-      "forms": ["assois", "assoit", "assoyons", "assoyez", "assoient", "assieds", "assied", "asseyons", "asseyez", "asseyent", "asseyais", "asseyait", "asseyions", "asseyiez", "asseyaient", "asseoir", "m'assiérai", "t'assiéras", "s'assiéra", "nous nous assiérons", "vous vous assiérez", "s'assiéront", "m'assiérais", "t'assiérais", "s'assiérait", "nous nous assiérions", "vous vous assiériez", "s'assiéraient", "asseye", "asseyes"],
+      "forms": ["assois", "assoit", "assoyons", "assoyez", "assoient", "assieds", "assied", "asseyons", "asseyez", "asseyent", "asseyais", "asseyait", "asseyions", "asseyiez", "asseyaient", "asseoir", "m'assiérai", "t'assiéras", "s'assiéra", "nous nous assiérons", "vous vous assiérez", "s'assiéront", "m'assiérais", "t'assiérais", "s'assiérait", "nous nous assiérions", "vous vous assiériez", "s'assiéraient", "asseye", "asseyes", "asseyant"],
       "examples": [
         { "fr": "**Asseyez**-vous, s'il vous plaît.", "en": "Please sit down." },
         { "fr": "Je m'**assieds** à côté de toi.", "en": "I'll sit next to you." },
@@ -176,7 +176,7 @@
       ] },
     { "id": "s-allonger", "fr": "s'allonger", "pos": "verb", "ipa": "sa.lɔ̃.ʒe", "en": "to lie down, to stretch out",
       "def": "Se mettre sur le dos ou sur le ventre, sur un lit, par terre…", "def_en": "To lie on your back or front, on a bed, on the floor…",
-      "forms": ["allonge", "allonges", "allongeons", "allongez", "allongent", "allonger", "allongé", "allongée", "allongés", "allongées", "allongeais", "allongeait", "allongions", "allongiez", "allongeaient", "m'allongerai", "t'allongeras", "s'allongera", "nous nous allongerons", "vous vous allongerez", "s'allongeront", "m'allongerais", "t'allongerais", "s'allongerait", "nous nous allongerions", "vous vous allongeriez", "s'allongeraient"],
+      "forms": ["allonge", "allonges", "allongeons", "allongez", "allongent", "allonger", "allongé", "allongée", "allongés", "allongées", "allongeais", "allongeait", "allongions", "allongiez", "allongeaient", "m'allongerai", "t'allongeras", "s'allongera", "nous nous allongerons", "vous vous allongerez", "s'allongeront", "m'allongerais", "t'allongerais", "s'allongerait", "nous nous allongerions", "vous vous allongeriez", "s'allongeraient", "allongeant"],
       "examples": [
         { "fr": "Je vais m'**allonger** un peu : je suis fatigué.", "en": "I'm going to lie down for a bit: I'm tired." },
         { "fr": "**Allongez**-vous sur le dos.", "en": "Lie down on your back." },
@@ -201,7 +201,7 @@
       "note": "It's also the past participle of **s'asseoir**: *je me suis assis(e)* = I sat down." },
     { "id": "sauter", "fr": "sauter", "pos": "verb", "ipa": "so.te", "en": "to jump",
       "def": "Partir du sol avec les pieds, pour aller en haut ou plus loin.", "def_en": "To leave the ground with your feet, to go up or further.",
-      "forms": ["saute", "sautes", "sautons", "sautez", "sautent", "sauté", "sautais", "sautait", "sautions", "sautiez", "sautaient", "sauterai", "sauteras", "sautera", "sauterons", "sauterez", "sauteront", "sauterais", "sauterait", "sauterions", "sauteriez", "sauteraient", "sautée", "sautés", "sautées"],
+      "forms": ["saute", "sautes", "sautons", "sautez", "sautent", "sauté", "sautais", "sautait", "sautions", "sautiez", "sautaient", "sauterai", "sauteras", "sautera", "sauterons", "sauterez", "sauteront", "sauterais", "sauterait", "sauterions", "sauteriez", "sauteraient", "sautée", "sautés", "sautées", "sautant"],
       "examples": [
         { "fr": "**Saute** ! Je t'attrape !", "en": "Jump! I'll catch you!" },
         { "fr": "Le chat **saute** sur la table.", "en": "The cat jumps onto the table." },
@@ -209,7 +209,7 @@
       ] },
     { "id": "tomber", "fr": "tomber", "pos": "verb", "ipa": "tɔ̃.be", "en": "to fall (tomber malade = to fall ill)",
       "def": "Aller par terre sans le vouloir.", "def_en": "To go down to the ground without meaning to.",
-      "forms": ["tombe", "tombes", "tombons", "tombez", "tombent", "tombé", "tombée", "tombés", "tombées", "tombais", "tombait", "tombions", "tombiez", "tombaient", "tomberai", "tomberas", "tombera", "tomberons", "tomberez", "tomberont", "tomberais", "tomberait", "tomberions", "tomberiez", "tomberaient"],
+      "forms": ["tombe", "tombes", "tombons", "tombez", "tombent", "tombé", "tombée", "tombés", "tombées", "tombais", "tombait", "tombions", "tombiez", "tombaient", "tomberai", "tomberas", "tombera", "tomberons", "tomberez", "tomberont", "tomberais", "tomberait", "tomberions", "tomberiez", "tomberaient", "tombant"],
       "examples": [
         { "fr": "Attention, tu vas **tomber** !", "en": "Careful, you'll fall!" },
         { "fr": "Lou est **tombée** dans le parc.", "en": "Lou fell over in the park." },

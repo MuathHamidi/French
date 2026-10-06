@@ -1,0 +1,163 @@
+{
+  "id": "u30-justice",
+  "type": "vocab",
+  "unit": 30,
+  "title": "La justice",
+  "en": "Justice and the law",
+  "intro": "25 words for the courts: the place and the people (**la justice, le tribunal, le juge, le témoin, l'audience, plaider, défendre**), the case (**porter plainte, le procès, accuser, la preuve, prouver, l'enquête, l'autorisation, légal, illégal**) and how it ends (**le verdict, coupable, innocent, condamner, la peine, l'amende, la prison, les dommages et intérêts, le crime**).",
+  "words": [
+    { "id": "justice", "fr": "justice", "pos": "noun", "g": "f", "ipa": "ʒys.tis", "en": "justice; the courts, the law", "def": "Ce qui est juste. Aussi : les juges et les tribunaux, qui font respecter les lois.", "def_en": "What is fair. Also: the judges and courts, who enforce the law.", "examples": [
+      { "fr": "Je fais confiance à la **justice**.", "en": "I trust the courts." },
+      { "fr": "Elle veut que **justice** soit faite.", "en": "She wants justice to be done." },
+      { "fr": "La **justice** est souvent lente.", "en": "The law is often slow." }
+    ] },
+    { "id": "juge", "fr": "juge", "pos": "noun", "g": "m", "both": true, "ipa": "ʒyʒ", "display": "le / la juge", "en": "judge", "def": "La personne qui dirige un procès et qui décide, au tribunal.", "def_en": "The person who runs a trial and decides, in court.", "forms": ["juges"], "accept": ["la juge", "une juge"], "examples": [
+      { "fr": "Le **juge** écoute les deux avocats.", "en": "The judge listens to both lawyers." },
+      { "fr": "La **juge** donne son verdict.", "en": "The judge gives her verdict." },
+      { "fr": "Ma cousine veut devenir **juge**.", "en": "My cousin wants to become a judge." }
+    ] },
+    { "id": "tribunal", "fr": "tribunal", "pos": "noun", "g": "m", "ipa": "tʁi.by.nal", "en": "court (of law)", "def": "Le lieu où les juges décident, pendant les procès.", "def_en": "The place where judges make their decisions, during trials.", "forms": ["tribunaux"], "examples": [
+      { "fr": "Hugo entre au **tribunal** de Lyon.", "en": "Hugo walks into the Lyon court." },
+      { "fr": "L'affaire passe au **tribunal** jeudi.", "en": "The case goes to court on Thursday." },
+      { "fr": "Les **tribunaux** sont souvent très lents.", "en": "The courts are often very slow." }
+    ] },
+    { "id": "proces", "fr": "procès", "pos": "noun", "g": "m", "ipa": "pʁɔ.sɛ", "en": "trial; lawsuit", "def": "Quand un juge écoute les deux côtés d'une affaire, et décide qui a raison.", "def_en": "When a judge hears both sides of a case and decides who is right.", "examples": [
+      { "fr": "C'est son premier **procès**.", "en": "It's his first trial." },
+      { "fr": "Il a gagné son **procès**.", "en": "He won his case." },
+      { "fr": "Le **procès** dure trois jours.", "en": "The trial lasts three days." }
+    ] },
+    { "id": "accuser", "fr": "accuser", "pos": "verb", "ipa": "a.ky.ze", "en": "to accuse; to blame", "def": "Dire qu'une personne a fait une chose mauvaise.", "def_en": "To say someone has done something wrong.", "forms": ["accuse", "accuses", "accusons", "accusez", "accusent", "accusé", "accusée", "accusés", "accusées", "accusais", "accusait", "accusions", "accusiez", "accusaient", "accuserai", "accuseras", "accusera", "accuserons", "accuserez", "accuseront", "accuserais", "accuserait", "accuserions", "accuseriez", "accuseraient", "accusant"], "examples": [
+      { "fr": "On l'**accuse** d'avoir menti.", "en": "He's accused of lying." },
+      { "fr": "Ne m'**accuse** pas : je n'ai rien fait !", "en": "Don't blame me: I didn't do anything!" },
+      { "fr": "L'avocate **accuse** l'entreprise.", "en": "The lawyer accuses the company." }
+    ], "note": "**l'accusé, l'accusée** = the accused, the defendant." },
+    { "id": "coupable", "fr": "coupable", "pos": "adj", "ipa": "ku.pabl", "en": "guilty; (noun) culprit", "def": "Qui a fait une chose mauvaise ou interdite.", "def_en": "Who has done something wrong or forbidden.", "forms": ["coupables"], "examples": [
+      { "fr": "Le juge dit que l'entreprise est **coupable**.", "en": "The judge says the company is guilty." },
+      { "fr": "Je me sens **coupable** : j'ai mangé tout le gâteau.", "en": "I feel guilty: I ate the whole cake." },
+      { "fr": "Qui est le **coupable** ?", "en": "Who's the culprit?" }
+    ] },
+    { "id": "innocent", "fr": "innocent", "pos": "adj", "ipa": "i.nɔ.sɑ̃", "display": "innocent, innocente", "en": "innocent", "def": "Qui n'a rien fait de mal.", "def_en": "Who hasn't done anything wrong.", "forms": ["innocente", "innocents", "innocentes"], "accept": ["innocente"], "examples": [
+      { "fr": "Mon client est **innocent** !", "en": "My client is innocent!" },
+      { "fr": "Hugo prend un air **innocent**.", "en": "Hugo puts on an innocent look." },
+      { "fr": "Les deux chats ont l'air **innocents**…", "en": "The two cats look innocent…" }
+    ] },
+    { "id": "temoin", "fr": "témoin", "pos": "noun", "g": "m", "ipa": "te.mwɛ̃", "en": "witness; (at a wedding) witness, best man", "def": "Une personne qui a vu ou entendu quelque chose, et qui le raconte. Aussi : à un mariage, un ami qui signe avec les mariés.", "def_en": "A person who saw or heard something and tells about it. Also: at a wedding, a friend who signs with the couple.", "forms": ["témoins"], "examples": [
+      { "fr": "Sophie est **témoin** au procès.", "en": "Sophie is a witness at the trial." },
+      { "fr": "Il y a un **témoin** de l'accident ?", "en": "Is there a witness to the accident?" },
+      { "fr": "Au mariage, les **témoins** signent avec les mariés.", "en": "At a wedding, the witnesses sign with the couple." }
+    ] },
+    { "id": "preuve", "fr": "preuve", "pos": "noun", "g": "f", "ipa": "pʁœv", "en": "proof, evidence", "def": "Une chose qui montre qu'une information est vraie.", "def_en": "Something that shows a piece of information is true.", "forms": ["preuves"], "examples": [
+      { "fr": "Nous avons des **preuves** : des photos de la publicité.", "en": "We have evidence: photos of the advert." },
+      { "fr": "Tu dis que tu as fini ? Montre-moi la **preuve** !", "en": "You say you've finished? Show me the proof!" },
+      { "fr": "Sans **preuve**, le juge ne peut rien faire.", "en": "Without evidence, the judge can't do anything." }
+    ] },
+    { "id": "prouver", "fr": "prouver", "pos": "verb", "ipa": "pʁu.ve", "en": "to prove", "def": "Montrer qu'une chose est vraie.", "def_en": "To show that something is true.", "forms": ["prouve", "prouves", "prouvons", "prouvez", "prouvent", "prouvé", "prouvée", "prouvés", "prouvées", "prouvais", "prouvait", "prouvions", "prouviez", "prouvaient", "prouverai", "prouveras", "prouvera", "prouverons", "prouverez", "prouveront", "prouverais", "prouverait", "prouverions", "prouveriez", "prouveraient", "prouvant"], "examples": [
+      { "fr": "Pouvez-vous **prouver** que c'est vrai ?", "en": "Can you prove it's true?" },
+      { "fr": "Il a **prouvé** qu'il était innocent.", "en": "He proved he was innocent." },
+      { "fr": "Je vais te **prouver** que j'ai raison !", "en": "I'll prove I'm right!" }
+    ] },
+    { "id": "condamner", "fr": "condamner", "pos": "verb", "ipa": "kɔ̃.da.ne", "en": "to sentence; to order (to pay); to condemn", "def": "Quand un juge décide la peine d'une personne coupable. Aussi : dire très fort qu'une chose est mauvaise.", "def_en": "When a judge decides a guilty person's sentence. Also: to say loudly that something is wrong.", "forms": ["condamne", "condamnes", "condamnons", "condamnez", "condamnent", "condamné", "condamnée", "condamnés", "condamnées", "condamnais", "condamnait", "condamnions", "condamniez", "condamnaient", "condamnerai", "condamneras", "condamnera", "condamnerons", "condamnerez", "condamneront", "condamnerais", "condamnerait", "condamnerions", "condamneriez", "condamneraient", "condamnant"], "examples": [
+      { "fr": "Le juge **condamne** l'entreprise à payer trois mille euros.", "en": "The judge orders the company to pay three thousand euros." },
+      { "fr": "Il a été **condamné** à deux ans de prison.", "en": "He was sentenced to two years in prison." },
+      { "fr": "Le maire **condamne** la violence.", "en": "The mayor condemns the violence." }
+    ], "note": "The **m** is silent: [kɔ̃.da.ne]." },
+    { "id": "peine", "fr": "peine", "pos": "noun", "g": "f", "ipa": "pɛn", "en": "sentence (punishment); trouble, effort; sorrow", "def": "Ce qu'un juge décide pour un coupable : de la prison, une amende… Aussi : un effort, ou de la tristesse.", "def_en": "What a judge decides for a guilty person: prison, a fine… Also: effort, or sadness.", "forms": ["peines"], "examples": [
+      { "fr": "Le juge a donné une **peine** de deux ans.", "en": "The judge gave a two-year sentence." },
+      { "fr": "Ce n'est pas la **peine** de crier !", "en": "There's no point shouting!" },
+      { "fr": "Ça me fait de la **peine** de partir.", "en": "It makes me sad to leave." }
+    ], "note": "**ce n'est pas la peine** = there's no point; **ça vaut la peine** = it's worth it." },
+    { "id": "amende", "fr": "amende", "pos": "noun", "g": "f", "ipa": "a.mɑ̃d", "en": "fine", "def": "L'argent qu'on doit payer quand on ne respecte pas une règle ou une loi.", "def_en": "The money you have to pay when you break a rule or a law.", "forms": ["amendes"], "examples": [
+      { "fr": "J'ai eu une **amende** de trente-cinq euros : j'étais mal garé.", "en": "I got a thirty-five-euro fine: I was badly parked." },
+      { "fr": "Une **amende** pour un vélo sur le trottoir !", "en": "A fine for a bike on the pavement!" },
+      { "fr": "Il n'a jamais payé ses **amendes**.", "en": "He's never paid his fines." }
+    ] },
+    { "id": "prison", "fr": "prison", "pos": "noun", "g": "f", "ipa": "pʁi.zɔ̃", "en": "prison", "def": "Le lieu où les personnes condamnées doivent rester, sans pouvoir sortir.", "def_en": "The place where convicted people have to stay, without being able to leave.", "forms": ["prisons"], "examples": [
+      { "fr": "Le voleur est en **prison**.", "en": "The thief is in prison." },
+      { "fr": "Il a passé deux ans en **prison**.", "en": "He spent two years in prison." },
+      { "fr": "Ce n'est pas un crime : pas de **prison** !", "en": "It's not a crime: no prison!" }
+    ] },
+    { "id": "porter-plainte", "fr": "porter plainte", "pos": "verb", "ipa": "pɔʁ.te plɛ̃t", "en": "to press charges, to file a complaint", "def": "Aller voir la police ou la justice, pour dire qu'on est victime de quelque chose.", "def_en": "To go to the police or the courts and say you're the victim of something.", "forms": ["porte plainte", "portes plainte", "portons plainte", "portez plainte", "portent plainte", "porté plainte", "portais plainte", "portait plainte", "portions plainte", "portiez plainte", "portaient plainte", "porterai plainte", "porteras plainte", "portera plainte", "porterons plainte", "porterez plainte", "porteront plainte", "porterais plainte", "porterait plainte", "porterions plainte", "porteriez plainte", "porteraient plainte", "portant plainte"], "examples": [
+      { "fr": "Hugo a **porté plainte** contre l'entreprise.", "en": "Hugo has taken the company to court." },
+      { "fr": "Si le voisin continue, je **porte plainte** !", "en": "If the neighbour keeps it up, I'm pressing charges!" },
+      { "fr": "Elle veut **porter plainte** contre son ancien propriétaire.", "en": "She wants to file a complaint against her former landlord." }
+    ] },
+    { "id": "verdict", "fr": "verdict", "pos": "noun", "g": "m", "ipa": "vɛʁ.dikt", "en": "verdict", "def": "La décision du juge, à la fin d'un procès.", "def_en": "The judge's decision, at the end of a trial.", "forms": ["verdicts"], "examples": [
+      { "fr": "Le juge donne son **verdict**.", "en": "The judge gives his verdict." },
+      { "fr": "Le **verdict** tombe à midi.", "en": "The verdict comes in at noon." },
+      { "fr": "Hugo attend le **verdict**, très stressé.", "en": "Hugo waits for the verdict, very stressed." }
+    ] },
+    { "id": "defendre", "fr": "défendre", "pos": "verb", "ipa": "de.fɑ̃dʁ", "en": "to defend; to forbid", "def": "Protéger une personne ou une idée, parler pour elle. Aussi : interdire.", "def_en": "To protect a person or an idea, to speak up for them. Also: to forbid.", "forms": ["défends", "défend", "défendons", "défendez", "défendent", "défendu", "défendue", "défendus", "défendues", "défendais", "défendait", "défendions", "défendiez", "défendaient", "défendrai", "défendras", "défendra", "défendrons", "défendrez", "défendront", "défendrais", "défendrait", "défendrions", "défendriez", "défendraient", "défende", "défendes", "défendant"], "examples": [
+      { "fr": "L'avocate va **défendre** vos droits.", "en": "The lawyer will defend your rights." },
+      { "fr": "Il **défend** toujours sa petite sœur.", "en": "He always sticks up for his little sister." },
+      { "fr": "Il est **défendu** de fumer ici.", "en": "Smoking is forbidden here." }
+    ] },
+    { "id": "crime", "fr": "crime", "pos": "noun", "g": "m", "ipa": "kʁim", "en": "crime (serious)", "def": "Une action très grave, interdite par la loi.", "def_en": "A very serious act, forbidden by law.", "forms": ["crimes"], "examples": [
+      { "fr": "Ce n'est pas un **crime** !", "en": "It's not a crime!" },
+      { "fr": "La police cherche l'auteur du **crime**.", "en": "The police are looking for whoever committed the crime." },
+      { "fr": "Manger le dernier croissant, c'est un **crime** !", "en": "Eating the last croissant is a crime!" }
+    ] },
+    { "id": "enquete", "fr": "enquête", "pos": "noun", "g": "f", "ipa": "ɑ̃.kɛt", "en": "investigation, inquiry; survey", "def": "Le travail pour découvrir la vérité sur une affaire. Aussi : des questions qu'on pose à beaucoup de gens.", "def_en": "The work of finding out the truth about a case. Also: questions asked to lots of people.", "forms": ["enquêtes"], "examples": [
+      { "fr": "La police fait une **enquête**.", "en": "The police are investigating." },
+      { "fr": "Après une petite **enquête**, l'avocate a trouvé des preuves.", "en": "After a little digging, the lawyer found evidence." },
+      { "fr": "Une **enquête** montre que les Français aiment le vélo.", "en": "A survey shows that the French like cycling." }
+    ] },
+    { "id": "autorisation", "fr": "autorisation", "pos": "noun", "g": "f", "ipa": "o.tɔ.ʁi.za.sjɔ̃", "en": "permission, authorisation", "def": "Quand une personne dit qu'on a le droit de faire une chose.", "def_en": "When someone says you're allowed to do something.", "forms": ["autorisations"], "examples": [
+      { "fr": "Ils ont utilisé ma vidéo sans **autorisation** !", "en": "They used my video without permission!" },
+      { "fr": "Il faut une **autorisation** de la mairie pour une terrasse.", "en": "You need permission from the town hall for a terrace." },
+      { "fr": "Tu as l'**autorisation** de tes parents ?", "en": "Have you got your parents' permission?" }
+    ] },
+    { "id": "dommages-et-interets", "fr": "dommages et intérêts", "pos": "noun", "g": "m", "ipa": "dɔ.maʒ e ɛ̃.te.ʁɛ", "display": "les dommages et intérêts", "en": "damages (money paid to a victim)", "def": "L'argent qu'un juge demande de payer à une victime, pour réparer un problème.", "def_en": "The money a judge orders someone to pay a victim, to make up for a problem.", "examples": [
+      { "fr": "L'entreprise doit payer trois mille euros de **dommages et intérêts**.", "en": "The company has to pay three thousand euros in damages." },
+      { "fr": "Il demande des **dommages et intérêts**.", "en": "He's claiming damages." },
+      { "fr": "Avec ses **dommages et intérêts**, Hugo paie enfin le serrurier.", "en": "With his damages, Hugo finally pays the locksmith." }
+    ] },
+    { "id": "legal", "fr": "légal", "pos": "adj", "ipa": "le.ɡal", "display": "légal, légale", "en": "legal, lawful", "def": "Qui respecte la loi, qui est permis par la loi.", "def_en": "That respects the law, that the law allows.", "forms": ["légale", "légaux", "légales"], "accept": ["légale"], "examples": [
+      { "fr": "C'est **légal** ?", "en": "Is that legal?" },
+      { "fr": "En France, l'âge **légal** pour voter est dix-huit ans.", "en": "In France, the legal voting age is eighteen." },
+      { "fr": "Ce n'est pas très **légal**…", "en": "That's not very legal…" }
+    ] },
+    { "id": "illegal", "fr": "illégal", "pos": "adj", "ipa": "i.le.ɡal", "display": "illégal, illégale", "en": "illegal", "def": "Interdit par la loi.", "def_en": "Forbidden by law.", "forms": ["illégale", "illégaux", "illégales"], "accept": ["illégale"], "examples": [
+      { "fr": "Utiliser une photo sans autorisation, c'est **illégal**.", "en": "Using a photo without permission is illegal." },
+      { "fr": "Il fait un travail **illégal**.", "en": "He's working illegally." },
+      { "fr": "Ces voitures sont garées de façon **illégale**.", "en": "These cars are parked illegally." }
+    ] },
+    { "id": "audience", "fr": "audience", "pos": "noun", "g": "f", "ipa": "o.djɑ̃s", "en": "(court) hearing", "def": "Le moment où le juge écoute une affaire, au tribunal.", "def_en": "The time when the judge hears a case, in court.", "forms": ["audiences"], "examples": [
+      { "fr": "L'**audience** commence à neuf heures.", "en": "The hearing starts at nine." },
+      { "fr": "Le public peut venir aux **audiences**.", "en": "The public can attend hearings." },
+      { "fr": "Silence pendant l'**audience** !", "en": "Silence during the hearing!" }
+    ], "note": "False friend: the audience at a show is **le public**." },
+    { "id": "plaider", "fr": "plaider", "pos": "verb", "ipa": "ple.de", "en": "to plead (a case)", "def": "Pour un avocat : parler devant le juge, pour défendre son client.", "def_en": "For a lawyer: to speak before the judge, to defend their client.", "forms": ["plaide", "plaides", "plaidons", "plaidez", "plaident", "plaidé", "plaidée", "plaidés", "plaidées", "plaidais", "plaidait", "plaidions", "plaidiez", "plaidaient", "plaiderai", "plaideras", "plaidera", "plaiderons", "plaiderez", "plaideront", "plaiderais", "plaiderait", "plaiderions", "plaideriez", "plaideraient", "plaidant"], "examples": [
+      { "fr": "L'avocate **plaide** pendant une heure.", "en": "The lawyer pleads for an hour." },
+      { "fr": "C'est sa collègue qui va **plaider**.", "en": "It's her colleague who'll plead the case." },
+      { "fr": "Il a très bien **plaidé**.", "en": "He argued the case very well." }
+    ] }
+  ],
+  "story": {
+    "title": "Le procès de la poubelle",
+    "en": "Thursday 20 August: Hugo goes to court against the company that used his bin video in an advert.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi vingt août, Hugo entre au tribunal de Lyon. C'est son premier procès.", "en": "Thursday 20 August: Hugo walks into the Lyon court. It's his first trial." },
+      { "sp": "", "fr": "En juillet, Chloé lui a conseillé de porter plainte contre l'entreprise de la publicité : elle a utilisé sa vidéo sans autorisation.", "en": "In July, Chloé advised him to take the advertising company to court: it used his video without permission." },
+      { "sp": "", "fr": "Chloé est à la maison avec les jumeaux, alors c'est sa collègue, Madame Leroy, qui va plaider.", "en": "Chloé is at home with the twins, so her colleague, Mme Leroy, is going to plead the case." },
+      { "sp": "Mme Leroy", "fr": "Ne vous inquiétez pas, je vais défendre vos droits. J'ai fait une petite enquête : la publicité est passée dans cent cinquante cinémas !", "en": "Don't worry, I'll defend your rights. I did a little digging: the advert was shown in a hundred and fifty cinemas!" },
+      { "sp": "", "fr": "L'audience commence à neuf heures. Le juge écoute les deux avocats.", "en": "The hearing starts at nine. The judge listens to both lawyers." },
+      { "sp": "L'avocat de l'entreprise", "fr": "Monsieur le juge, mon client est innocent. Cette vidéo est passée à la télévision : tout le monde peut l'utiliser.", "en": "Your Honour, my client is innocent. This video was on television: anyone can use it." },
+      { "sp": "Mme Leroy", "fr": "Non. Utiliser l'image d'une personne sans son accord, c'est illégal. C'est la loi.", "en": "No. Using someone's image without their consent is illegal. That's the law." },
+      { "sp": "Mme Leroy", "fr": "Et nous avons des preuves : des photos de la publicité au cinéma, et un témoin.", "en": "And we have evidence: photos of the advert at the cinema, and a witness." },
+      { "sp": "", "fr": "Sophie s'avance. Elle était au cinéma, en juin.", "en": "Sophie steps forward. She was at the cinema in June." },
+      { "sp": "Sophie", "fr": "J'ai vu la publicité. Toute la salle a ri de Hugo.", "en": "I saw the advert. The whole cinema laughed at Hugo." },
+      { "sp": "L'avocat de l'entreprise", "fr": "Vous accusez mon client, mais pouvez-vous prouver que Hugo n'était pas d'accord ?", "en": "You're accusing my client, but can you prove Hugo didn't agree?" },
+      { "sp": "Hugo", "fr": "On ne m'a jamais rien demandé !", "en": "Nobody ever asked me anything!" },
+      { "sp": "", "fr": "Le juge réfléchit longtemps. Puis il donne son verdict.", "en": "The judge thinks for a long time. Then he gives his verdict." },
+      { "sp": "Le juge", "fr": "L'entreprise est coupable : elle a utilisé cette image sans autorisation. Je la condamne à payer trois mille euros de dommages et intérêts.", "en": "The company is at fault: it used this image without permission. I order it to pay three thousand euros in damages." },
+      { "sp": "Hugo", "fr": "Trois mille euros ! Et la prison ?", "en": "Three thousand euros! And prison?" },
+      { "sp": "Mme Leroy", "fr": "Hugo, ce n'est pas un crime ! Pas de prison, pas d'amende : juste de l'argent pour vous.", "en": "Hugo, it's not a crime! No prison, no fine: just money for you." },
+      { "sp": "Hugo", "fr": "Dommage. J'aurais aimé une peine plus dure…", "en": "Shame. I'd have liked a harsher sentence…" },
+      { "sp": "Mme Leroy", "fr": "Ce n'est pas la peine d'en demander plus. Et maintenant, utiliser votre vidéo n'est plus légal : la publicité va s'arrêter.", "en": "There's no point asking for more. And now, using your video is no longer legal: the advert will stop." },
+      { "sp": "", "fr": "Dehors, Hugo appelle Chloé.", "en": "Outside, Hugo calls Chloé." },
+      { "sp": "Hugo", "fr": "On a gagné ! Vive la justice ! Pour te dire merci, je vous achète des couches pour un an !", "en": "We won! Long live justice! To say thank you, I'll buy you a year's supply of nappies!" },
+      { "sp": "Chloé", "fr": "Pour un an ? Avec des jumeaux, il en faut deux fois plus, Hugo !", "en": "For a year? With twins, you need twice as many, Hugo!" }
+    ]
+  }
+}

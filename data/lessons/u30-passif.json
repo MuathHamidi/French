@@ -1,0 +1,163 @@
+{
+  "id": "u30-passif",
+  "type": "grammar",
+  "unit": 30,
+  "title": "La terrasse a été sauvée !",
+  "en": "The passive voice",
+  "intro": "In the **passive**, the subject doesn't do the action, it receives it: *Le conseil municipal **a sauvé** la terrasse* → *La terrasse **a été sauvée** (par le conseil municipal)*. It's **être** + the past participle, which agrees with the subject. News reports love it; in everyday French, people often say **on** instead.",
+  "cases": [
+    { "id": "pas-forme", "label": "être + past participle", "rule": "The passive is **être** + the past participle. The participle agrees with the subject, like an adjective: *Le café **est sauvé**. La terrasse **est sauvée**. Les lois **sont votées**.*" },
+    { "id": "pas-temps", "label": "the passive in every tense", "rule": "**être** carries the tense: *est votée* (present), ***a été** votée* (passé composé), ***était** votée* (imparfait), ***sera** votée* (future), ***serait** votée* (conditional)." },
+    { "id": "pas-par", "label": "par + who does it", "rule": "Who or what does the action comes after **par**: *La pétition a été signée **par** deux mille personnes.* You can also leave it out: *La terrasse a été sauvée.*" },
+    { "id": "pas-de", "label": "de with feelings and states", "rule": "With verbs of feeling or description, **de** often replaces **par**: *Il est aimé **de** tous. Hugo est connu **de** tout le monde. La place est entourée **d'**arbres.*" },
+    { "id": "pas-on", "label": "on instead of the passive", "rule": "Everyday French often prefers **on** + an active verb: ***On a sauvé** la terrasse* = *La terrasse a été sauvée*. ***On m'a appelé*** = *J'ai été appelé*." },
+    { "id": "pas-se", "label": "se + verb with a passive meaning", "rule": "Some verbs with **se** have a passive meaning, for general facts: *Ce journal **se vend** bien* (sells well). *Ce mot **s'écrit** avec un e. Le vin blanc **se boit** frais.*" }
+  ],
+  "sections": [
+    {
+      "title": "1. être + past participle",
+      "table": {
+        "head": ["Active", "Passive"], "frCols": [0, 1],
+        "rows": [
+          ["Le maire ouvre la séance.", "La séance est ouverte par le maire."],
+          ["Les députés votent les lois.", "Les lois sont votées par les députés."],
+          ["Le patron offre les cafés.", "Les cafés sont offerts par le patron."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ma terrasse {est sauvée|pas-forme} !", "en": "My terrace is saved!" },
+        { "fr": "Aujourd'hui, les cafés {sont offerts|pas-forme} par la maison.", "en": "Today, coffee is on the house." }
+      ],
+      "tip": "The object of the active sentence becomes the subject of the passive one: *le maire ouvre **la séance*** → ***la séance** est ouverte*."
+    },
+    {
+      "title": "2. The passive in every tense",
+      "table": {
+        "head": ["Tense", "Passive"], "frCols": [1],
+        "rows": [
+          ["present", "La loi est votée."],
+          ["passé composé", "La loi a été votée."],
+          ["imparfait", "La loi était votée."],
+          ["future", "La loi sera votée."],
+          ["conditional", "La loi serait votée."]
+        ]
+      },
+      "examples": [
+        { "fr": "La terrasse du café {a été sauvée|pas-temps}.", "en": "The café's terrace has been saved." },
+        { "fr": "La piste cyclable {sera construite|pas-temps} de l'autre côté de la rue.", "en": "The cycle lane will be built on the other side of the street." }
+      ],
+      "tip": "In the passé composé, **été** never agrees, but the participle after it does: *elle a été **sauvée***."
+    },
+    {
+      "title": "3. par + who does it",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["La pétition a été signée par deux mille personnes.", "The petition was signed by two thousand people."],
+          ["Le projet a été modifié par le conseil.", "The plan was changed by the council."],
+          ["La photo a été prise par Hugo.", "The photo was taken by Hugo."]
+        ]
+      },
+      "examples": [
+        { "fr": "Le projet {a été modifié par le conseil municipal|pas-par}.", "en": "The plan was changed by the town council." },
+        { "fr": "C'est une photo {prise par Hugo|pas-par}.", "en": "It's a photo taken by Hugo." }
+      ]
+    },
+    {
+      "title": "4. de with feelings and states",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Il est aimé de tous.", "He's loved by everyone."],
+          ["Hugo est connu de tout le monde.", "Everyone knows Hugo."],
+          ["La place est entourée d'arbres.", "The square is surrounded by trees."]
+        ]
+      },
+      "examples": [
+        { "fr": "Maintenant, je {suis connu de|pas-de} tout le monde !", "en": "Now everyone knows me!" },
+        { "fr": "Tu {es aimé de|pas-de} tous tes fans.", "en": "You're loved by all your fans." }
+      ],
+      "tip": "For an action, use **par**: *il a été arrêté **par** la police*. For a feeling or a description, often **de**."
+    },
+    {
+      "title": "5. on instead of the passive",
+      "table": {
+        "head": ["Passive", "With on"], "frCols": [0, 1],
+        "rows": [
+          ["La terrasse a été sauvée.", "On a sauvé la terrasse."],
+          ["J'ai été appelé à la télé.", "On m'a appelé à la télé."],
+          ["Le français est parlé ici.", "On parle français ici."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ton nom n'est pas dans l'article : {on a protégé|pas-on} ton nom.", "en": "Your name isn't in the article: they kept it out." },
+        { "fr": "{On m'a appelé|pas-on} « le roi de la poubelle » à la télé !", "en": "They called me 'the king of the bin' on TV!" }
+      ],
+      "tip": "When you don't say who does the action, **on** sounds more natural in conversation than the passive."
+    },
+    {
+      "title": "6. se + verb with a passive meaning",
+      "table": {
+        "head": ["French", "English"], "frCols": [0],
+        "rows": [
+          ["Ce journal se vend bien.", "This paper sells well."],
+          ["Ce mot s'écrit avec un e.", "This word is spelled with an e."],
+          ["Le vin blanc se boit frais.", "White wine is drunk chilled."]
+        ]
+      },
+      "examples": [
+        { "fr": "Ce journal {se vend|pas-se} très bien ce matin.", "en": "This paper is selling very well this morning." },
+        { "fr": "« Sauvée », ça {s'écrit|pas-se} avec un e ?", "en": "Is 'sauvée' spelled with an e?" }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "La terrasse a été sauvé.", "right": "La terrasse a été sauvée.", "why": "The participle agrees with the subject: **la terrasse** is feminine." },
+    { "wrong": "Le café a sauvé par le conseil.", "right": "Le café a été sauvé par le conseil.", "why": "The passive needs **être**: *a **été** sauvé*." },
+    { "wrong": "La pétition a été signée de deux mille personnes.", "right": "La pétition a été signée par deux mille personnes.", "why": "For an action, use **par**." },
+    { "wrong": "Il a été né à Lyon.", "right": "Il est né à Lyon.", "why": "**naître** isn't a passive: *il est né* is its passé composé." },
+    { "wrong": "Les lois sont voté par les députés.", "right": "Les lois sont votées par les députés.", "why": "**les lois** is feminine plural: *votées*." }
+  ],
+  "story": {
+    "title": "Dans le journal",
+    "en": "Monday 24 August: Sophie brings the local paper to the café downstairs. There's news about the terrace, the trial… and the twins.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi vingt-quatre août, au café d'en bas. Sophie arrive avec le journal du jour.", "en": "Monday 24 August, at the café downstairs. Sophie arrives with today's paper." },
+      { "sp": "Sophie", "fr": "Écoutez ! « La terrasse du café d'en bas {a été sauvée|pas-temps}. »", "en": "Listen! 'The terrace of the café downstairs has been saved.'" },
+      { "sp": "Sophie", "fr": "« Le projet de piste cyclable {a été modifié par le conseil municipal|pas-par}, après une pétition {signée par deux mille habitants|pas-par}. »", "en": "'The cycle lane plan has been changed by the town council, after a petition signed by two thousand residents.'" },
+      { "sp": "Le patron", "fr": "Ma terrasse {est sauvée|pas-forme} ! Aujourd'hui, les cafés {sont offerts|pas-forme} par la maison !", "en": "My terrace is saved! Today, coffee is on the house!" },
+      { "sp": "Tom", "fr": "Et la piste cyclable ? Elle {sera construite|pas-temps} de l'autre côté de la rue ?", "en": "And the cycle lane? Will it be built on the other side of the street?" },
+      { "sp": "Sophie", "fr": "Oui. Et les travaux {seront terminés|pas-temps} avant Noël.", "en": "Yes. And the work will be finished before Christmas." },
+      { "sp": "Inès", "fr": "Regardez, page trois : « Une entreprise de publicité {a été condamnée par le tribunal|pas-par} de Lyon. »", "en": "Look, page three: 'An advertising company has been ordered to pay by the Lyon court.'" },
+      { "sp": "Inès", "fr": "« Elle avait utilisé la vidéo d'un jeune Lyonnais sans autorisation. »", "en": "'It had used a young Lyonnais's video without permission.'" },
+      { "sp": "Hugo", "fr": "C'est moi ! Maintenant, je {suis connu de|pas-de} tout le monde !", "en": "That's me! Now everybody knows me!" },
+      { "sp": "Léa", "fr": "Tu étais déjà célèbre… Tu {es aimé de|pas-de} tous tes fans de la poubelle !", "en": "You were already famous… You're loved by all your bin fans!" },
+      { "sp": "Tom", "fr": "Mais ton nom n'est pas dans l'article : {on a protégé|pas-on} ton nom.", "en": "But your name isn't in the article: they kept it out." },
+      { "sp": "Hugo", "fr": "Dommage. {On m'a appelé|pas-on} « le roi de la poubelle » à la télé, pourtant !", "en": "Shame. They called me 'the king of the bin' on TV, though!" },
+      { "sp": "Carla", "fr": "Et ta vidéo ? Elle {ne sera plus utilisée|pas-temps} ?", "en": "And your video? Won't it be used any more?" },
+      { "sp": "Hugo", "fr": "Non. Mais elle {a déjà [été|etre] vue|pas-temps} un million de fois…", "en": "No. But it's already been watched a million times…" },
+      { "sp": "Le patron", "fr": "Ce journal {se vend|pas-se} très bien ce matin : tout le monde le veut !", "en": "This paper is selling very well this morning: everybody wants one!" },
+      { "sp": "Tom", "fr": "Une question : « sauvée », ça {s'écrit|pas-se} avec un e à la fin ?", "en": "A question: is 'sauvée' spelled with an e at the end?" },
+      { "sp": "Léa", "fr": "Oui. « La terrasse », c'est féminin, alors on écrit « sauvée », avec un e.", "en": "Yes. 'La terrasse' is feminine, so you write 'sauvée', with an e." },
+      { "sp": "Sophie", "fr": "Et une dernière [nouvelle|nouvelle-n] : regardez la photo en bas de la page !", "en": "And one last piece of news: look at the photo at the bottom of the page!" },
+      { "sp": "", "fr": "C'est une photo d'Adam et Nina, {prise par Hugo|pas-par}, avec un petit texte : « Deux nouveaux Lyonnais ».", "en": "It's a photo of Adam and Nina, taken by Hugo, with a short caption: 'Two new Lyonnais'." },
+      { "sp": "Hugo", "fr": "Ma première photo dans le journal ! {Je suis payé|pas-forme} combien ?", "en": "My first photo in the paper! How much am I being paid?" },
+      { "sp": "Léa", "fr": "Rien, Hugo. Mais tu {es invité|pas-forme} à dîner chez Chloé et Karim samedi.", "en": "Nothing, Hugo. But you're invited to dinner at Chloé and Karim's on Saturday." }
+    ]
+  },
+  "quiz": [
+    { "case": "pas-forme", "type": "mc", "q": "La terrasse est ___ !", "en": "The terrace is saved!", "options": ["sauvée", "sauvé", "sauver"], "answer": "sauvée" },
+    { "case": "pas-forme", "type": "mc", "q": "Les lois sont ___ par les députés.", "en": "Laws are voted on by the MPs.", "options": ["votées", "voté", "votés"], "answer": "votées" },
+    { "case": "pas-temps", "type": "mc", "q": "La pétition ___ signée hier.", "en": "The petition was signed yesterday.", "options": ["a été", "est été", "a eu"], "answer": "a été" },
+    { "case": "pas-temps", "type": "type", "q": "La piste ___ (être) construite l'année prochaine.", "en": "The lane will be built next year.", "answer": "sera" },
+    { "case": "pas-par", "type": "mc", "q": "La terrasse a été sauvée ___ le conseil municipal.", "en": "The terrace was saved by the town council.", "options": ["par", "de", "pour"], "answer": "par" },
+    { "case": "pas-par", "type": "mc", "lang": "en", "q": "Which sentence is passive?", "options": ["La pétition a été signée par Sophie.", "Sophie a signé la pétition.", "Sophie signe la pétition."], "answer": "La pétition a été signée par Sophie.", "say": "La pétition a été signée par Sophie." },
+    { "case": "pas-de", "type": "mc", "q": "Il est aimé ___ tout le monde.", "en": "He's loved by everybody.", "options": ["de", "par", "à"], "answer": "de" },
+    { "case": "pas-de", "type": "mc", "q": "La maison est entourée ___ jardin.", "en": "The house is surrounded by a garden.", "options": ["d'un", "par un", "à un"], "answer": "d'un" },
+    { "case": "pas-on", "type": "mc", "lang": "en", "q": "« On a sauvé la terrasse » means…", "options": ["The terrace was saved.", "The terrace saved us.", "We were saved by the terrace."], "answer": "The terrace was saved.", "say": "On a sauvé la terrasse." },
+    { "case": "pas-on", "type": "mc", "q": "On m'___ appelé « le roi de la poubelle ».", "en": "They called me 'the king of the bin'.", "options": ["a", "est", "ai"], "answer": "a" },
+    { "case": "pas-se", "type": "mc", "q": "Ce journal ___ très bien.", "en": "This paper sells very well.", "options": ["se vend", "se vends", "vend se"], "answer": "se vend" },
+    { "case": "pas-se", "type": "mc", "q": "Ce mot ___ avec un e.", "en": "This word is spelled with an e.", "options": ["s'écrit", "écrit", "s'écrire"], "answer": "s'écrit" }
+  ]
+}

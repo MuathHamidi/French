@@ -1,0 +1,165 @@
+{
+  "id": "u30-politique",
+  "type": "vocab",
+  "unit": 30,
+  "title": "La politique",
+  "en": "Politics",
+  "intro": "25 words for politics, from the town hall to the state: the people (**le maire, l'élu, le député, le ministre, le président, l'électeur, le manifestant**), the institutions (**le conseil municipal, le gouvernement, l'État, la république, la démocratie, la loi**), elections (**élire, voter, l'élection, électoral, le parti, la majorité, l'opposition, la gauche, la droite**) and what politicians do (**le discours, la réforme**).",
+  "words": [
+    { "id": "politique", "fr": "politique", "pos": "noun", "g": "f", "ipa": "pɔ.li.tik", "en": "politics; policy; (adj) political", "def": "La façon de diriger un pays ou une ville, et les débats autour des décisions. Comme adjectif : qui a un rapport avec la vie d'un pays.", "def_en": "The way a country or a city is run, and the debates around the decisions. As an adjective: to do with the life of a country.", "forms": ["politiques"], "examples": [
+      { "fr": "Je ne parle jamais de **politique** avec mon grand-père.", "en": "I never talk about politics with my grandfather." },
+      { "fr": "Tu devrais faire de la **politique** !", "en": "You should go into politics!" },
+      { "fr": "C'est une décision **politique**.", "en": "It's a political decision." }
+    ] },
+    { "id": "gouvernement", "fr": "gouvernement", "pos": "noun", "g": "m", "ipa": "ɡu.vɛʁ.nə.mɑ̃", "en": "government", "def": "Le Premier ministre et les ministres, qui dirigent le pays avec le président.", "def_en": "The Prime Minister and the ministers, who run the country with the president.", "forms": ["gouvernements"], "examples": [
+      { "fr": "Le **gouvernement** prépare une nouvelle loi.", "en": "The government is preparing a new law." },
+      { "fr": "Beaucoup de gens ne sont pas contents du **gouvernement**.", "en": "Lots of people aren't happy with the government." },
+      { "fr": "Ce n'est pas le **gouvernement** qui décide, c'est la ville.", "en": "It's not the government that decides, it's the city." }
+    ] },
+    { "id": "president", "fr": "président", "pos": "noun", "g": "m", "ipa": "pʁe.zi.dɑ̃", "display": "le président, la présidente", "en": "president; chair", "def": "La personne qui dirige un pays, une association ou une entreprise.", "def_en": "The person who heads a country, an association or a company.", "forms": ["présidente", "présidents", "présidentes"], "accept": ["présidente", "la présidente", "une présidente"], "examples": [
+      { "fr": "Le **président** de la République habite à Paris.", "en": "The President of the Republic lives in Paris." },
+      { "fr": "Elle est **présidente** de l'association.", "en": "She's the chair of the association." },
+      { "fr": "Les Français élisent leur **président** tous les cinq ans.", "en": "The French elect their president every five years." }
+    ] },
+    { "id": "ministre", "fr": "ministre", "pos": "noun", "g": "m", "both": true, "ipa": "mi.nistʁ", "display": "le / la ministre", "en": "minister", "def": "Une personne qui dirige une partie du gouvernement : l'éducation, la santé…", "def_en": "A person in charge of one part of the government: education, health…", "forms": ["ministres"], "accept": ["la ministre", "une ministre"], "examples": [
+      { "fr": "La **ministre** de la santé parle à la télé.", "en": "The health minister is speaking on TV." },
+      { "fr": "Le Premier **ministre** travaille avec le président.", "en": "The Prime Minister works with the president." },
+      { "fr": "Un jour, tu seras **ministre** !", "en": "One day, you'll be a minister!" }
+    ] },
+    { "id": "depute", "fr": "député", "pos": "noun", "g": "m", "ipa": "de.py.te", "display": "le député, la députée", "en": "member of parliament, MP", "def": "Une personne élue par les citoyens pour voter les lois du pays, à Paris.", "def_en": "A person elected by the citizens to vote on the country's laws, in Paris.", "forms": ["députée", "députés", "députées"], "accept": ["députée", "la députée", "une députée"], "examples": [
+      { "fr": "Notre **député** habite dans le quartier.", "en": "Our MP lives in the neighbourhood." },
+      { "fr": "Elle est **députée** depuis dix ans.", "en": "She's been an MP for ten years." },
+      { "fr": "Les **députés** votent la loi ce soir.", "en": "The MPs are voting on the law tonight." }
+    ] },
+    { "id": "maire", "fr": "maire", "pos": "noun", "g": "m", "both": true, "ipa": "mɛʁ", "display": "le / la maire", "en": "mayor", "def": "La personne élue qui dirige une ville ou un village.", "def_en": "The elected person who runs a town or village.", "forms": ["maires"], "accept": ["la maire", "une maire"], "examples": [
+      { "fr": "Le **maire** fait un discours.", "en": "The mayor is giving a speech." },
+      { "fr": "En France, on se marie à la mairie, devant le **maire**.", "en": "In France, you get married at the town hall, in front of the mayor." },
+      { "fr": "La **maire** du village connaît tout le monde.", "en": "The village mayor knows everyone." }
+    ] },
+    { "id": "conseil-municipal", "fr": "conseil municipal", "pos": "noun", "g": "m", "ipa": "kɔ̃.sɛj my.ni.si.pal", "en": "town council, city council", "def": "Le groupe d'élus qui prennent les décisions pour la ville, avec le maire.", "def_en": "The group of elected members who make decisions for the town, with the mayor.", "forms": ["conseils municipaux"], "examples": [
+      { "fr": "Le **conseil municipal** se réunit jeudi soir.", "en": "The town council meets on Thursday evening." },
+      { "fr": "Elle est élue au **conseil municipal**.", "en": "She's an elected member of the town council." },
+      { "fr": "Le **conseil municipal** a voté pour le projet.", "en": "The council voted for the plan." }
+    ] },
+    { "id": "elu", "fr": "élu", "pos": "noun", "g": "m", "ipa": "e.ly", "display": "l'élu, l'élue", "en": "elected representative, councillor; (adj) elected", "def": "Une personne choisie par les électeurs pour décider à leur place.", "def_en": "A person chosen by the voters to decide on their behalf.", "forms": ["élue", "élus", "élues"], "accept": ["élue", "l'élue", "une élue"], "examples": [
+      { "fr": "Les **élus** de la ville votent ce soir.", "en": "The city's councillors vote tonight." },
+      { "fr": "Une **élue** de l'opposition se lève.", "en": "A councillor from the opposition stands up." },
+      { "fr": "Il a été **élu** maire à trente ans.", "en": "He was elected mayor at thirty." }
+    ] },
+    { "id": "election", "fr": "élection", "pos": "noun", "g": "f", "ipa": "e.lɛk.sjɔ̃", "en": "election", "def": "Quand les citoyens votent pour choisir une personne : un maire, un député, un président.", "def_en": "When citizens vote to choose someone: a mayor, an MP, a president.", "forms": ["élections"], "examples": [
+      { "fr": "Les **élections** municipales ont lieu tous les six ans.", "en": "Local elections take place every six years." },
+      { "fr": "Qui va gagner l'**élection** ?", "en": "Who's going to win the election?" },
+      { "fr": "Je n'ai jamais raté une **élection**.", "en": "I've never missed an election." }
+    ] },
+    { "id": "elire", "fr": "élire", "pos": "verb", "ipa": "e.liʁ", "en": "to elect", "def": "Choisir une personne en votant.", "def_en": "To choose someone by voting.", "extra": "like *lire*: j'**élis**, nous **élisons**, ils **élisent**; j'ai **élu**.", "forms": ["élis", "élit", "élisons", "élisez", "élisent", "élisais", "élisait", "élisions", "élisiez", "élisaient", "élirai", "éliras", "élira", "élirons", "élirez", "éliront", "élirais", "élirait", "élirions", "éliriez", "éliraient", "élise", "élises", "élisant"], "examples": [
+      { "fr": "Les Français **élisent** leur président.", "en": "The French elect their president." },
+      { "fr": "Aux prochaines élections, j'**élirai** Sophie !", "en": "At the next election, I'll vote Sophie in!" },
+      { "fr": "On **élit** le maire pour six ans.", "en": "The mayor is elected for six years." }
+    ] },
+    { "id": "voter", "fr": "voter", "pos": "verb", "ipa": "vɔ.te", "en": "to vote", "def": "Donner sa voix pour choisir une personne ou une décision.", "def_en": "To give your vote to choose a person or a decision.", "forms": ["vote", "votes", "votons", "votez", "votent", "voté", "votée", "votés", "votées", "votais", "votait", "votions", "votiez", "votaient", "voterai", "voteras", "votera", "voterons", "voterez", "voteront", "voterais", "voterait", "voterions", "voteriez", "voteraient", "votant"], "examples": [
+      { "fr": "Tu vas **voter** dimanche ?", "en": "Are you going to vote on Sunday?" },
+      { "fr": "Les élus **votent** ce soir.", "en": "The councillors are voting tonight." },
+      { "fr": "J'ai **voté** pour elle.", "en": "I voted for her." }
+    ] },
+    { "id": "electeur", "fr": "électeur", "pos": "noun", "g": "m", "ipa": "e.lɛk.tœʁ", "display": "l'électeur, l'électrice", "en": "voter", "def": "Une personne qui a le droit de voter.", "def_en": "A person who has the right to vote.", "forms": ["électrice", "électeurs", "électrices"], "accept": ["électrice", "l'électrice", "une électrice"], "examples": [
+      { "fr": "Les **électeurs** choisissent leur maire.", "en": "Voters choose their mayor." },
+      { "fr": "Elle est **électrice** à Lyon depuis cette année.", "en": "She's been registered to vote in Lyon since this year." },
+      { "fr": "Ce parti a perdu beaucoup d'**électeurs**.", "en": "This party has lost a lot of voters." }
+    ] },
+    { "id": "parti", "fr": "parti", "pos": "noun", "g": "m", "ipa": "paʁ.ti", "en": "(political) party", "def": "Un groupe de personnes qui ont les mêmes idées politiques et qui veulent gagner les élections.", "def_en": "A group of people who share the same political ideas and want to win elections.", "forms": ["partis"], "examples": [
+      { "fr": "Le maire et l'élue ne sont pas du même **[parti|parti]**.", "en": "The mayor and the councillor aren't from the same party." },
+      { "fr": "Ce **parti** a gagné les élections.", "en": "This party won the elections." },
+      { "fr": "Il y a beaucoup de **partis** en France.", "en": "There are lots of parties in France." }
+    ] },
+    { "id": "gauche", "fr": "gauche", "pos": "noun", "g": "f", "ipa": "ɡoʃ", "en": "left (à gauche = on the left); (politics) the left", "def": "Le côté du cœur. En politique : un des deux grands côtés, avec la droite.", "def_en": "The side your heart is on. In politics: one of the two big sides, with the right.", "examples": [
+      { "fr": "Tourne à **gauche** après la boulangerie.", "en": "Turn left after the bakery." },
+      { "fr": "Mon grand-père vote à **gauche**.", "en": "My grandfather votes for the left." },
+      { "fr": "La **gauche** a gagné dans cette ville.", "en": "The left won in this town." }
+    ] },
+    { "id": "droite", "fr": "droite", "pos": "noun", "g": "f", "ipa": "dʁwat", "en": "right (à droite = on the right); (politics) the right", "def": "Le côté contraire de la gauche. En politique : un des deux grands côtés, avec la gauche.", "def_en": "The side opposite the left. In politics: one of the two big sides, with the left.", "examples": [
+      { "fr": "La pharmacie est à **droite**.", "en": "The chemist's is on the right." },
+      { "fr": "Il est de **droite**, et sa femme est de gauche.", "en": "He's on the right, and his wife is on the left." },
+      { "fr": "La **droite** est dans l'opposition.", "en": "The right is in opposition." }
+    ] },
+    { "id": "democratie", "fr": "démocratie", "pos": "noun", "g": "f", "ipa": "de.mɔ.kʁa.si", "en": "democracy", "def": "Un pays où les citoyens choisissent les personnes qui dirigent, et où chacun peut dire ce qu'il pense.", "def_en": "A country where the citizens choose the people who govern, and everyone can say what they think.", "forms": ["démocraties"], "examples": [
+      { "fr": "En **démocratie**, tout le monde peut voter.", "en": "In a democracy, everyone can vote." },
+      { "fr": "La France est une **démocratie**.", "en": "France is a democracy." },
+      { "fr": "La **démocratie**, c'est aussi écouter les autres.", "en": "Democracy also means listening to others." }
+    ] },
+    { "id": "majorite", "fr": "majorité", "pos": "noun", "g": "f", "ipa": "ma.ʒɔ.ʁi.te", "en": "majority; (legal) adulthood", "def": "Le plus grand nombre, plus de la moitié. Aussi : l'âge où on devient adulte, dix-huit ans en France.", "def_en": "The greater number, more than half. Also: the age when you become an adult, eighteen in France.", "forms": ["majorités"], "examples": [
+      { "fr": "La **majorité** des élus a voté pour.", "en": "The majority of councillors voted for it." },
+      { "fr": "Le projet est voté à une large **majorité**.", "en": "The plan is passed by a large majority." },
+      { "fr": "En France, la **majorité** est à dix-huit ans.", "en": "In France, you come of age at eighteen." }
+    ] },
+    { "id": "opposition", "fr": "opposition", "pos": "noun", "g": "f", "ipa": "ɔ.pɔ.zi.sjɔ̃", "en": "opposition", "def": "Les élus qui ne sont pas dans la majorité, et qui critiquent ses décisions. Aussi : quand on n'est pas d'accord.", "def_en": "The elected members who aren't in the majority, and who criticise its decisions. Also: disagreement.", "forms": ["oppositions"], "examples": [
+      { "fr": "L'**opposition** [critique|critiquer] le projet du maire.", "en": "The opposition criticises the mayor's plan." },
+      { "fr": "Une élue de l'**opposition** se lève.", "en": "A councillor from the opposition stands up." },
+      { "fr": "Il y a une forte **opposition** à cette loi.", "en": "There's strong opposition to this law." }
+    ] },
+    { "id": "reforme", "fr": "réforme", "pos": "noun", "g": "f", "ipa": "ʁe.fɔʁm", "en": "reform", "def": "Un grand changement que le gouvernement fait dans une loi ou dans un système.", "def_en": "A big change the government makes to a law or a system.", "forms": ["réformes"], "examples": [
+      { "fr": "Le gouvernement prépare une **réforme** des retraites.", "en": "The government is preparing a pension reform." },
+      { "fr": "Cette **réforme** est très critiquée.", "en": "This reform is heavily criticised." },
+      { "fr": "Chaque ministre veut faire sa **réforme**.", "en": "Every minister wants to make their own reform." }
+    ] },
+    { "id": "republique", "fr": "république", "pos": "noun", "g": "f", "ipa": "ʁe.py.blik", "en": "republic", "def": "Un pays où le chef de l'État est élu, et n'est pas un roi.", "def_en": "A country where the head of state is elected, and isn't a king.", "forms": ["républiques"], "examples": [
+      { "fr": "La France est une **république**.", "en": "France is a republic." },
+      { "fr": "« Liberté, égalité, fraternité » : c'est la devise de la **République** française.", "en": "'Liberty, equality, fraternity': it's the motto of the French Republic." },
+      { "fr": "L'Angleterre a un roi : ce n'est pas une **république**.", "en": "England has a king: it isn't a republic." }
+    ] },
+    { "id": "loi", "fr": "loi", "pos": "noun", "g": "f", "ipa": "lwa", "en": "law", "def": "Une règle que tout le monde doit respecter dans un pays, votée par les députés.", "def_en": "A rule everyone in a country must respect, voted on by the MPs.", "forms": ["lois"], "examples": [
+      { "fr": "C'est la **loi** !", "en": "It's the law!" },
+      { "fr": "Les députés votent une nouvelle **loi**.", "en": "The MPs are voting on a new law." },
+      { "fr": "Cette **loi** protège les locataires.", "en": "This law protects tenants." }
+    ] },
+    { "id": "discours", "fr": "discours", "pos": "noun", "g": "m", "ipa": "dis.kuʁ", "en": "speech", "def": "Ce qu'une personne dit devant un public, souvent préparé à l'avance.", "def_en": "What a person says in front of an audience, often prepared in advance.", "examples": [
+      { "fr": "Le maire fait un long **discours**.", "en": "The mayor gives a long speech." },
+      { "fr": "Pierre a fait un **discours** très émouvant.", "en": "Pierre gave a very moving speech." },
+      { "fr": "J'écris mon **discours** pour le mariage de Jules.", "en": "I'm writing my speech for Jules's wedding." }
+    ] },
+    { "id": "etat", "fr": "état", "pos": "noun", "g": "m", "ipa": "e.ta", "en": "state, condition; (l'État) the State", "def": "La situation d'une chose ou d'une personne. Aussi, « l'État » : le pays, avec son gouvernement et ses services.", "def_en": "The situation of a thing or a person. Also, 'l'État': the country, with its government and services.", "forms": ["états"], "examples": [
+      { "fr": "La voiture est en bon **état**.", "en": "The car is in good condition." },
+      { "fr": "C'est l'**État** qui paie les écoles publiques.", "en": "It's the State that pays for state schools." },
+      { "fr": "Après le déménagement, Hugo était dans un **état** !", "en": "After the move, Hugo was in a right state!" }
+    ] },
+    { "id": "manifestant", "fr": "manifestant", "pos": "noun", "g": "m", "ipa": "ma.ni.fɛs.tɑ̃", "display": "le manifestant, la manifestante", "en": "demonstrator, protester", "def": "Une personne qui participe à une manifestation.", "def_en": "A person who takes part in a demonstration.", "forms": ["manifestante", "manifestants", "manifestantes"], "accept": ["manifestante", "la manifestante", "une manifestante"], "examples": [
+      { "fr": "Les **manifestants** marchent vers la mairie.", "en": "The protesters are marching towards the town hall." },
+      { "fr": "Il y avait mille **manifestants** dans la rue.", "en": "There were a thousand demonstrators in the street." },
+      { "fr": "Une **manifestante** tient une pancarte.", "en": "A protester is holding a placard." }
+    ] },
+    { "id": "electoral", "fr": "électoral", "pos": "adj", "ipa": "e.lɛk.tɔ.ʁal", "display": "électoral, électorale", "en": "electoral, election", "def": "Qui a un rapport avec les élections.", "def_en": "To do with elections.", "forms": ["électorale", "électoraux", "électorales"], "accept": ["électorale"], "examples": [
+      { "fr": "La campagne **électorale** commence demain.", "en": "The election campaign starts tomorrow." },
+      { "fr": "Il a fait une promesse **électorale**.", "en": "He made an election promise." },
+      { "fr": "Ce soir, c'est presque une réunion **électorale** !", "en": "Tonight, it's almost an election rally!" }
+    ] }
+  ],
+  "story": {
+    "title": "Sauvons la terrasse !",
+    "en": "Thursday 13 August: the town council votes on the cycle lane. The friends are there with their petition, and Sophie has an idea.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi treize août, devant la mairie, il y a des manifestants : des cyclistes d'un côté, les amis du café de l'autre.", "en": "Thursday 13 August: outside the town hall there are protesters, cyclists on one side, friends of the café on the other." },
+      { "sp": "", "fr": "Dans la salle, le conseil municipal va voter sur la piste cyclable. Sophie, Léa, Hugo, Tom, Inès et Carla sont venus avec leur pétition : deux mille signatures !", "en": "Inside, the town council is about to vote on the cycle lane. Sophie, Léa, Hugo, Tom, Inès and Carla have come with their petition: two thousand signatures!" },
+      { "sp": "Tom", "fr": "C'est ma première réunion politique en France. Mais je ne peux pas voter ici : je suis anglais.", "en": "It's my first political meeting in France. But I can't vote here: I'm English." },
+      { "sp": "Inès", "fr": "Moi, je peux voter aux élections municipales, parce que je suis européenne. Mais pas pour le président !", "en": "I can vote in local elections, because I'm European. But not for the president!" },
+      { "sp": "Léa", "fr": "Ce soir, ce ne sont pas les électeurs qui votent : ce sont les élus.", "en": "Tonight, it isn't the voters who vote: it's the councillors." },
+      { "sp": "Inès", "fr": "Regardez, il y a même un député ! Il habite dans le quartier.", "en": "Look, there's even an MP! He lives in the neighbourhood." },
+      { "sp": "Hugo", "fr": "Un député ! Et la semaine prochaine, un ministre ? C'est presque une campagne électorale !", "en": "An MP! And next week, a minister? It's almost an election campaign!" },
+      { "sp": "", "fr": "Le maire ouvre la séance. Il fait un long discours sur le vélo et l'environnement.", "en": "The mayor opens the meeting. He gives a long speech about cycling and the environment." },
+      { "sp": "Le maire", "fr": "Notre majorité veut une ville plus verte. Le vélo, c'est l'avenir !", "en": "Our majority wants a greener city. Cycling is the future!" },
+      { "sp": "", "fr": "Une élue de l'opposition se lève. Elle n'est pas du même [parti|parti] que le maire.", "en": "A councillor from the opposition stands up. She's not from the same party as the mayor." },
+      { "sp": "L'élue", "fr": "Le vélo, oui. Mais on ne peut pas tuer les petits cafés ! Ce n'est pas une question de gauche ou de droite.", "en": "Cycling, yes. But we can't kill off small cafés! It's not a question of left or right." },
+      { "sp": "Léa", "fr": "La loi est claire : le maire doit écouter les citoyens. C'est ça, la démocratie.", "en": "The law is clear: the mayor has to listen to the citizens. That's democracy." },
+      { "sp": "Hugo", "fr": "Si seulement le gouvernement écoutait aussi bien pour ses réformes !", "en": "If only the government listened that well for its reforms!" },
+      { "sp": "", "fr": "Sophie lève la main. Elle est très stressée.", "en": "Sophie raises her hand. She's very nervous." },
+      { "sp": "Sophie", "fr": "Je fais du vélo tous les jours, et je travaille au café d'en bas. Je suis pour le vélo ET pour la terrasse !", "en": "I cycle every day, and I work at the café downstairs. I'm for cycling AND for the terrace!" },
+      { "sp": "Sophie", "fr": "Pourquoi ne pas faire la piste de l'autre côté de la rue ? Il y a de la place.", "en": "Why not put the lane on the other side of the street? There's room." },
+      { "sp": "", "fr": "Tout le monde applaudit. Même le maire sourit.", "en": "Everyone claps. Even the mayor smiles." },
+      { "sp": "Le maire", "fr": "C'est une bonne idée. Nous allons voter tout de suite.", "en": "That's a good idea. We'll vote right away." },
+      { "sp": "", "fr": "Les élus votent : trente pour, deux contre. La piste cyclable sera de l'autre côté de la rue !", "en": "The councillors vote: thirty for, two against. The cycle lane will go on the other side of the street!" },
+      { "sp": "Hugo", "fr": "Heureusement, ici, ce n'est pas l'État qui décide : c'est la ville !", "en": "Luckily, here it isn't the State that decides: it's the city!" },
+      { "sp": "Carla", "fr": "Bravo, Sophie ! Tu devrais faire de la politique !", "en": "Well done, Sophie! You should go into politics!" },
+      { "sp": "Inès", "fr": "Aux prochaines élections, je vais élire Sophie !", "en": "At the next election, I'm voting Sophie in!" },
+      { "sp": "Tom", "fr": "Liberté, égalité, fraternité… et terrasse. Vive la République française !", "en": "Liberty, equality, fraternity… and terraces. Long live the French Republic!" }
+    ]
+  }
+}

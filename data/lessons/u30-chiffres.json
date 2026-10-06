@@ -1,0 +1,166 @@
+{
+  "id": "u30-chiffres",
+  "type": "vocab",
+  "unit": 30,
+  "title": "Les chiffres",
+  "en": "Facts and figures",
+  "intro": "25 words for talking about numbers like a news report: the figures themselves (**le chiffre, le nombre, la virgule, le total, le pourcentage, la proportion, le taux**), where they come from (**le sondage, la statistique, l'estimation, le graphique, calculer**), comparing them (**inférieur, supérieur, égal, le minimum, le maximum, le record, en moyenne, la minorité**) and how they change (**doubler, tripler, dépasser**), plus **la population** and **la natalité**.",
+  "words": [
+    { "id": "chiffre", "fr": "chiffre", "pos": "noun", "g": "m", "ipa": "ʃifʁ", "en": "figure, number; digit", "def": "Un signe pour écrire les nombres, de zéro à neuf. Aussi : un nombre qui donne une information importante.", "def_en": "A sign for writing numbers, from zero to nine. Also: a number that gives important information.", "forms": ["chiffres"], "examples": [
+      { "fr": "« Cent » s'écrit avec trois **chiffres**.", "en": "'A hundred' is written with three digits." },
+      { "fr": "Les **chiffres** du chômage sont bons ce mois-ci.", "en": "The unemployment figures are good this month." },
+      { "fr": "Je ne suis pas doué avec les **chiffres**.", "en": "I'm no good with numbers." }
+    ] },
+    { "id": "nombre", "fr": "nombre", "pos": "noun", "g": "m", "ipa": "nɔ̃bʁ", "en": "number (quantity)", "def": "Une quantité : un, deux, cent, mille… Aussi : combien il y a de choses ou de personnes.", "def_en": "A quantity: one, two, a hundred, a thousand… Also: how many things or people there are.", "forms": ["nombres"], "examples": [
+      { "fr": "Le **nombre** de touristes augmente chaque été.", "en": "The number of tourists goes up every summer." },
+      { "fr": "Choisis un **nombre** entre un et dix.", "en": "Pick a number between one and ten." },
+      { "fr": "Un grand **nombre** de gens ont signé la pétition.", "en": "A large number of people signed the petition." }
+    ] },
+    { "id": "sondage", "fr": "sondage", "pos": "noun", "g": "m", "ipa": "sɔ̃.daʒ", "en": "(opinion) poll, survey", "def": "Quand on pose la même question à beaucoup de personnes, pour savoir ce qu'elles pensent.", "def_en": "When you ask lots of people the same question, to find out what they think.", "forms": ["sondages"], "examples": [
+      { "fr": "Selon un **sondage**, les Français aiment leurs cafés.", "en": "According to a poll, the French love their cafés." },
+      { "fr": "J'ai fait un petit **sondage** dans la famille.", "en": "I did a little survey in the family." },
+      { "fr": "Les **sondages** se trompent parfois.", "en": "Polls are sometimes wrong." }
+    ] },
+    { "id": "statistique", "fr": "statistique", "pos": "noun", "g": "f", "ipa": "sta.tis.tik", "en": "statistic; (les statistiques) statistics", "def": "Un chiffre qui décrit un grand groupe : par exemple, l'âge moyen des Français.", "def_en": "A figure that describes a large group: for example, the average age of the French.", "forms": ["statistiques"], "examples": [
+      { "fr": "Selon les **statistiques**, les Français vivent de plus en plus longtemps.", "en": "According to the statistics, the French are living longer and longer." },
+      { "fr": "Hugo adore les **statistiques**.", "en": "Hugo loves statistics." },
+      { "fr": "Cette **statistique** est très intéressante.", "en": "This statistic is very interesting." }
+    ] },
+    { "id": "pourcentage", "fr": "pourcentage", "pos": "noun", "g": "m", "ipa": "puʁ.sɑ̃.taʒ", "en": "percentage", "def": "Une partie d'un tout, comptée sur cent : dix pour cent, cinquante pour cent…", "def_en": "A part of a whole, counted out of a hundred: ten per cent, fifty per cent…", "forms": ["pourcentages"], "examples": [
+      { "fr": "Quel est le **pourcentage** de jumeaux en France ?", "en": "What percentage of births are twins in France?" },
+      { "fr": "Un petit **pourcentage** des gens a voté contre.", "en": "A small percentage of people voted against." },
+      { "fr": "Tu sais calculer un **pourcentage** ?", "en": "Do you know how to work out a percentage?" }
+    ] },
+    { "id": "taux", "fr": "taux", "pos": "noun", "g": "m", "ipa": "to", "en": "rate", "def": "Un pourcentage qui mesure une chose : le chômage, les naissances, l'intérêt d'un prêt…", "def_en": "A percentage that measures something: unemployment, births, the interest on a loan…", "examples": [
+      { "fr": "Le **taux** de chômage baisse.", "en": "The unemployment rate is falling." },
+      { "fr": "Le **taux** d'intérêt de mon prêt est bas.", "en": "The interest rate on my loan is low." },
+      { "fr": "Le **taux** de natalité a un peu baissé.", "en": "The birth rate has fallen slightly." }
+    ] },
+    { "id": "en-moyenne", "fr": "en moyenne", "pos": "expr", "ipa": "ɑ̃ mwa.jɛn", "en": "on average", "def": "En général, quand on regarde tous les chiffres ensemble.", "def_en": "Generally, when you look at all the figures together.", "examples": [
+      { "fr": "**En moyenne**, un bébé pèse trois kilos et trois cents grammes.", "en": "On average, a baby weighs three kilos three hundred." },
+      { "fr": "Je dors sept heures par nuit, **en moyenne**.", "en": "I sleep seven hours a night, on average." },
+      { "fr": "**En moyenne**, Hugo arrive avec dix minutes de retard.", "en": "On average, Hugo is ten minutes late." }
+    ] },
+    { "id": "total", "fr": "total", "pos": "noun", "g": "m", "ipa": "tɔ.tal", "en": "total; (adj) total, complete", "def": "Le résultat quand on ajoute tous les nombres. Comme adjectif : complet.", "def_en": "The result when you add up all the numbers. As an adjective: complete.", "forms": ["totaux", "totale", "totales"], "examples": [
+      { "fr": "Le **total** fait cinq kilos.", "en": "The total comes to five kilos." },
+      { "fr": "Au **total**, on a payé deux cents euros.", "en": "Altogether, we paid two hundred euros." },
+      { "fr": "C'est une surprise **totale** !", "en": "It's a complete surprise!" }
+    ] },
+    { "id": "record", "fr": "record", "pos": "noun", "g": "m", "ipa": "ʁə.kɔʁ", "en": "record", "def": "Le meilleur résultat, ou le plus grand nombre, qu'on a jamais vu.", "def_en": "The best result, or the highest number, ever seen.", "forms": ["records"], "examples": [
+      { "fr": "Il a battu le **record** du monde !", "en": "He broke the world record!" },
+      { "fr": "Trente-neuf degrés : c'est un **record** !", "en": "Thirty-nine degrees: that's a record!" },
+      { "fr": "Un **record** pour Hugo : dix jours sans retard.", "en": "A record for Hugo: ten days without being late." }
+    ] },
+    { "id": "minorite", "fr": "minorité", "pos": "noun", "g": "f", "ipa": "mi.nɔ.ʁi.te", "en": "minority", "def": "Le plus petit nombre, moins de la moitié.", "def_en": "The smaller number, less than half.", "forms": ["minorités"], "examples": [
+      { "fr": "Les garçons sont en **minorité** dans la classe.", "en": "The boys are in the minority in the class." },
+      { "fr": "Une **minorité** des élus a voté contre.", "en": "A minority of councillors voted against." },
+      { "fr": "Seule une petite **minorité** aime la télé-réalité.", "en": "Only a small minority likes reality TV." }
+    ] },
+    { "id": "doubler", "fr": "doubler", "pos": "verb", "ipa": "du.ble", "en": "to double; to overtake; to dub (a film)", "def": "Devenir deux fois plus grand. Aussi : passer devant une voiture sur la route.", "def_en": "To become twice as big. Also: to pass a car on the road.", "forms": ["doublons", "doublez", "doublent", "doublais", "doublait", "doublions", "doubliez", "doublaient", "doublerai", "doubleras", "doublera", "doublerons", "doublerez", "doubleront", "doublerais", "doublerait", "doublerions", "doubleriez", "doubleraient", "doublant"], "examples": [
+      { "fr": "Le prix du café va **doubler** !", "en": "The price of coffee is going to double!" },
+      { "fr": "En été, les prix des hôtels **doublent** !", "en": "In summer, hotel prices double!" },
+      { "fr": "Il est interdit de **doubler** ici.", "en": "No overtaking here." }
+    ], "note": "The participle **doublé** is also the adjective for a dubbed film." },
+    { "id": "tripler", "fr": "tripler", "pos": "verb", "ipa": "tʁi.ple", "en": "to triple", "def": "Devenir trois fois plus grand.", "def_en": "To become three times as big.", "forms": ["triple", "triples", "triplons", "triplez", "triplent", "triplé", "triplée", "triplés", "triplées", "triplais", "triplait", "triplions", "tripliez", "triplaient", "triplerai", "tripleras", "triplera", "triplerons", "triplerez", "tripleront", "triplerais", "triplerait", "triplerions", "tripleriez", "tripleraient", "triplant"], "examples": [
+      { "fr": "Dans un an, les bébés auront **triplé** leur poids.", "en": "In a year, the babies will have tripled their weight." },
+      { "fr": "Le loyer a **triplé** en vingt ans !", "en": "The rent has tripled in twenty years!" },
+      { "fr": "Les ventes **triplent** pendant les vacances.", "en": "Sales triple during the holidays." }
+    ] },
+    { "id": "estimation", "fr": "estimation", "pos": "noun", "g": "f", "ipa": "ɛs.ti.ma.sjɔ̃", "en": "estimate", "def": "Un chiffre à peu près, qu'on donne après avoir calculé ou réfléchi.", "def_en": "A rough figure, given after working it out or thinking it over.", "forms": ["estimations"], "examples": [
+      { "fr": "Selon mon **estimation**, il y aura cinquante personnes.", "en": "By my estimate, there'll be fifty people." },
+      { "fr": "Ton **estimation** est trop optimiste !", "en": "Your estimate is too optimistic!" },
+      { "fr": "Le plombier m'a donné une **estimation** du prix.", "en": "The plumber gave me an estimate of the price." }
+    ] },
+    { "id": "inferieur", "fr": "inférieur", "pos": "adj", "ipa": "ɛ̃.fe.ʁjœʁ", "display": "inférieur, inférieure", "en": "lower; less (than), inferior", "def": "Plus petit, plus bas ou moins bon qu'une autre chose.", "def_en": "Smaller, lower or worse than something else.", "forms": ["inférieure", "inférieurs", "inférieures"], "accept": ["inférieure"], "examples": [
+      { "fr": "Le prix est **inférieur** à cent euros.", "en": "The price is under a hundred euros." },
+      { "fr": "La température est **inférieure** à zéro.", "en": "The temperature is below zero." },
+      { "fr": "Un poids **inférieur** à trois kilos, c'est normal pour des jumeaux.", "en": "A weight under three kilos is normal for twins." }
+    ] },
+    { "id": "superieur", "fr": "supérieur", "pos": "adj", "ipa": "sy.pe.ʁjœʁ", "display": "supérieur, supérieure", "en": "higher; greater (than), superior", "def": "Plus grand, plus haut ou meilleur qu'une autre chose.", "def_en": "Bigger, higher or better than something else.", "forms": ["supérieure", "supérieurs", "supérieures"], "accept": ["supérieure"], "examples": [
+      { "fr": "Un chiffre **supérieur** à mille.", "en": "A figure over a thousand." },
+      { "fr": "La chambre est à l'étage **supérieur**.", "en": "The bedroom is on the floor above." },
+      { "fr": "Le poids d'Adam est **supérieur** à celui de Nina.", "en": "Adam's weight is higher than Nina's." }
+    ] },
+    { "id": "minimum", "fr": "minimum", "pos": "noun", "g": "m", "ipa": "mi.ni.mɔm", "en": "minimum", "def": "Le plus petit nombre possible.", "def_en": "The smallest possible number.", "examples": [
+      { "fr": "Il faut dormir un **minimum** de six heures.", "en": "You need a minimum of six hours' sleep." },
+      { "fr": "Le **minimum**, c'est dix euros.", "en": "The minimum is ten euros." },
+      { "fr": "Au **minimum**, il faut deux personnes pour porter le canapé.", "en": "It takes at least two people to carry the sofa." }
+    ] },
+    { "id": "maximum", "fr": "maximum", "pos": "noun", "g": "m", "ipa": "mak.si.mɔm", "en": "maximum", "def": "Le plus grand nombre possible.", "def_en": "The largest possible number.", "examples": [
+      { "fr": "Quatre personnes **maximum** dans l'ascenseur.", "en": "Four people maximum in the lift." },
+      { "fr": "En ville, la vitesse **maximum** est de cinquante kilomètres à l'heure.", "en": "In town, the speed limit is fifty kilometres an hour." },
+      { "fr": "J'ai fait le **maximum** !", "en": "I did my very best!" }
+    ] },
+    { "id": "population", "fr": "population", "pos": "noun", "g": "f", "ipa": "pɔ.py.la.sjɔ̃", "en": "population", "def": "Toutes les personnes qui habitent dans un lieu : une ville, un pays.", "def_en": "All the people who live in a place: a town, a country.", "forms": ["populations"], "examples": [
+      { "fr": "La **population** de Lyon augmente.", "en": "Lyon's population is growing." },
+      { "fr": "La **population** de la France est d'environ soixante-huit millions.", "en": "France's population is about sixty-eight million." },
+      { "fr": "La **population** du village est très vieille.", "en": "The village's population is very old." }
+    ] },
+    { "id": "natalite", "fr": "natalité", "pos": "noun", "g": "f", "ipa": "na.ta.li.te", "en": "birth rate", "def": "Le nombre de naissances dans un pays, chaque année.", "def_en": "The number of births in a country each year.", "examples": [
+      { "fr": "Le taux de **natalité** baisse en Europe.", "en": "The birth rate is falling in Europe." },
+      { "fr": "La France a une **natalité** assez forte.", "en": "France has a fairly high birth rate." },
+      { "fr": "Avec les jumeaux, la **natalité** de la famille augmente !", "en": "With the twins, the family's birth rate is going up!" }
+    ] },
+    { "id": "calculer", "fr": "calculer", "pos": "verb", "ipa": "kal.ky.le", "en": "to calculate, to work out", "def": "Trouver un résultat avec des nombres.", "def_en": "To find a result using numbers.", "forms": ["calcule", "calcules", "calculons", "calculez", "calculent", "calculé", "calculée", "calculés", "calculées", "calculais", "calculait", "calculions", "calculiez", "calculaient", "calculerai", "calculeras", "calculera", "calculerons", "calculerez", "calculeront", "calculerais", "calculerait", "calculerions", "calculeriez", "calculeraient", "calculant"], "examples": [
+      { "fr": "Je **calcule** le prix total.", "en": "I'm working out the total price." },
+      { "fr": "Hugo a **calculé** le nombre de couches par mois.", "en": "Hugo has worked out the number of nappies per month." },
+      { "fr": "Tu sais **calculer** un pourcentage ?", "en": "Can you work out a percentage?" }
+    ] },
+    { "id": "egal", "fr": "égal", "pos": "adj", "ipa": "e.ɡal", "display": "égal, égale", "en": "equal; (ça m'est égal) I don't mind", "def": "Qui a le même nombre, la même quantité ou les mêmes droits.", "def_en": "Having the same number, the same quantity or the same rights.", "forms": ["égale", "égaux", "égales"], "accept": ["égale"], "examples": [
+      { "fr": "Deux plus deux est **égal** à quatre.", "en": "Two plus two equals four." },
+      { "fr": "Les hommes et les femmes sont **égaux**.", "en": "Men and women are equal." },
+      { "fr": "Deux garçons, deux filles : c'est **égal** !", "en": "Two boys, two girls: it's even!" }
+    ] },
+    { "id": "graphique", "fr": "graphique", "pos": "noun", "g": "m", "ipa": "ɡʁa.fik", "en": "graph, chart", "def": "Un dessin avec des lignes, pour montrer des chiffres.", "def_en": "A drawing with lines, to show figures.", "forms": ["graphiques"], "examples": [
+      { "fr": "Hugo a fait un **graphique** sur son ordinateur.", "en": "Hugo made a graph on his computer." },
+      { "fr": "Ce **graphique** montre les ventes de l'année.", "en": "This chart shows the year's sales." },
+      { "fr": "Regarde le **graphique** : les prix montent !", "en": "Look at the graph: prices are going up!" }
+    ] },
+    { "id": "depasser", "fr": "dépasser", "pos": "verb", "ipa": "de.pa.se", "en": "to go over, to exceed; to overtake", "def": "Aller plus loin ou plus haut qu'une limite, ou qu'une autre personne.", "def_en": "To go further or higher than a limit, or than another person.", "forms": ["dépasse", "dépasses", "dépassons", "dépassez", "dépassent", "dépassé", "dépassée", "dépassés", "dépassées", "dépassais", "dépassait", "dépassions", "dépassiez", "dépassaient", "dépasserai", "dépasseras", "dépassera", "dépasserons", "dépasserez", "dépasseront", "dépasserais", "dépasserait", "dépasserions", "dépasseriez", "dépasseraient", "dépassant"], "examples": [
+      { "fr": "La photo a **dépassé** mille vues.", "en": "The photo has passed a thousand views." },
+      { "fr": "Ne **dépasse** pas la vitesse maximum !", "en": "Don't go over the speed limit!" },
+      { "fr": "Le prix **dépasse** mon budget.", "en": "The price is over my budget." }
+    ] },
+    { "id": "virgule", "fr": "virgule", "pos": "noun", "g": "f", "ipa": "viʁ.ɡyl", "en": "comma; decimal point", "def": "Un petit signe qu'on met dans une phrase pour faire une petite pause. On l'utilise aussi dans les nombres : deux, cinq = deux et demi.", "def_en": "A small mark you put in a sentence for a short pause. It's also used in numbers: 2,5 = two and a half.", "forms": ["virgules"], "examples": [
+      { "fr": "Le bébé pèse deux **virgule** six kilos.", "en": "The baby weighs two point six kilos." },
+      { "fr": "N'oublie pas la **virgule** après « Bonjour ».", "en": "Don't forget the comma after 'Bonjour'." },
+      { "fr": "En France, on écrit une **virgule** dans les nombres, pas un point.", "en": "In France, you write a comma in numbers, not a point." }
+    ] },
+    { "id": "proportion", "fr": "proportion", "pos": "noun", "g": "f", "ipa": "pʁɔ.pɔʁ.sjɔ̃", "en": "proportion", "def": "La partie d'un tout, comparée à ce tout.", "def_en": "Part of a whole, compared with that whole.", "forms": ["proportions"], "examples": [
+      { "fr": "Quelle **proportion** des Français fait du vélo ?", "en": "What proportion of French people cycle?" },
+      { "fr": "La **proportion** de jumeaux est d'un peu plus d'un pour cent.", "en": "The proportion of twins is just over one per cent." },
+      { "fr": "Dans cette famille, la **proportion** de bavards est très grande !", "en": "In this family, the proportion of chatterboxes is very high!" }
+    ] }
+  ],
+  "story": {
+    "title": "Les jumeaux en chiffres",
+    "en": "Sunday 2 August: Chloé and Karim's twins are born, and Hugo has worked out all the numbers.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche deux août, à deux heures du matin, Chloé a des jumeaux : un garçon, Adam, et une fille, Nina.", "en": "Sunday 2 August, at two in the morning: Chloé has twins, a boy, Adam, and a girl, Nina." },
+      { "sp": "", "fr": "Le soir, la famille arrive à la maternité. Hugo a préparé des chiffres sur son téléphone.", "en": "In the evening, the family arrives at the maternity ward. Hugo has prepared some figures on his phone." },
+      { "sp": "Hugo", "fr": "Adam est né à deux heures dix, et Nina à deux heures vingt-six : seize minutes plus tard !", "en": "Adam was born at ten past two, and Nina at twenty-six minutes past: sixteen minutes later!" },
+      { "sp": "Karim", "fr": "Adam pèse deux kilos six cents, et Nina deux kilos quatre cents. Un total de cinq kilos !", "en": "Adam weighs two kilos six hundred, and Nina two kilos four hundred. Five kilos in total!" },
+      { "sp": "Lou", "fr": "C'est beaucoup ?", "en": "Is that a lot?" },
+      { "sp": "Anne", "fr": "En moyenne, un bébé pèse trois virgule trois kilos. Pour des jumeaux, un poids inférieur, c'est normal.", "en": "On average, a baby weighs three point three kilos. For twins, a lower weight is normal." },
+      { "sp": "Hugo", "fr": "Et le poids d'Adam est supérieur à celui de Nina… de deux cents grammes !", "en": "And Adam's weight is higher than Nina's… by two hundred grams!" },
+      { "sp": "Chloé", "fr": "Hugo, ce n'est pas un concours !", "en": "Hugo, it's not a competition!" },
+      { "sp": "Léa", "fr": "Vous savez ? Selon les statistiques, il y a des jumeaux dans un peu plus d'un pour cent des naissances.", "en": "Did you know? According to the statistics, a little over one per cent of births are twins." },
+      { "sp": "Paul", "fr": "C'est un petit pourcentage : la proportion est très faible.", "en": "That's a small percentage: the proportion is very low." },
+      { "sp": "Lou", "fr": "Et combien de bébés naissent en France ?", "en": "And how many babies are born in France?" },
+      { "sp": "Paul", "fr": "Environ deux mille par jour. Mais le taux de natalité baisse un peu chaque année.", "en": "About two thousand a day. But the birth rate is falling a little every year." },
+      { "sp": "Hugo", "fr": "Pas dans notre famille ! La population de la famille a augmenté de deux personnes en une nuit. Si ça continue, elle va doubler !", "en": "Not in our family! The family's population went up by two in a single night. If it carries on, it'll double!" },
+      { "sp": "Jacques", "fr": "Moi, j'ai battu un record : arrière-grand-père de jumeaux !", "en": "I've broken a record: great-grandfather of twins!" },
+      { "sp": "Louise", "fr": "Et moi, arrière-grand-mère. Pas besoin de calculer mon âge, merci !", "en": "And I'm a great-grandmother. No need to work out my age, thank you!" },
+      { "sp": "Hugo", "fr": "J'ai même fait un graphique : le nombre de naissances dans la famille depuis cinquante ans.", "en": "I've even made a graph: the number of births in the family over fifty years." },
+      { "sp": "Léa", "fr": "Et moi, j'ai fait un petit sondage dans la famille : pour soixante pour cent, Adam ressemble à Karim.", "en": "And I did a little poll in the family: sixty per cent think Adam looks like Karim." },
+      { "sp": "Karim", "fr": "Et Nina ressemble à Chloé. À la maison, les filles ne sont plus en minorité : deux garçons, deux filles. C'est égal !", "en": "And Nina looks like Chloé. At home, the girls aren't outnumbered any more: two boys, two girls. It's even!" },
+      { "sp": "Lou", "fr": "Et moi, je ne suis plus la plus petite de la famille !", "en": "And I'm not the littlest in the family any more!" },
+      { "sp": "Anne", "fr": "Dans un an, ils auront triplé leur poids.", "en": "In a year, they'll have tripled their weight." },
+      { "sp": "Chloé", "fr": "Mon estimation pour cette année : trois heures de sommeil par nuit, au maximum.", "en": "My estimate for this year: three hours' sleep a night, at most." },
+      { "sp": "Karim", "fr": "Ou au minimum… zéro !", "en": "Or at the very least… zero!" },
+      { "sp": "Hugo", "fr": "La photo des jumeaux a déjà dépassé cent vues sur internet !", "en": "The twins' photo has already passed a hundred views online!" },
+      { "sp": "Pierre", "fr": "Les chiffres, c'est bien. Mais regardez-les : ils sont parfaits.", "en": "Figures are all very well. But look at them: they're perfect." }
+    ]
+  }
+}

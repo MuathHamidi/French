@@ -123,6 +123,8 @@ FIXES = {
     "échouerai": "eʃuʁˈe", "échoueras": "eʃuʁˈa", "échouera": "eʃuʁˈa", "échouerons": "eʃuʁˈɔ̃", "échouerez": "eʃuʁˈe", "échoueront": "eʃuʁˈɔ̃",  # -ouer verbs: the voice says /eʃwʁe/
     "échouerais": "eʃuʁˈɛ", "échouerait": "eʃuʁˈɛ", "échouerions": "eʃuʁjˈɔ̃", "échoueriez": "eʃuʁjˈe", "échoueraient": "eʃuʁˈɛ",
     "tournevis": "tuʁnəvˈis", "une vis": "yn vˈis", "ces vis": "se vˈis", "les vis": "le vˈis", "trois vis": "tʁwa vˈis",  # vis (a screw) is /vis/; the voice reads it like je vis /vi/
+    "en faut deux fois plus": "ɑ̃ fˈo dˈø fwˈa plˈys", "en demander plus": "ɑ̃ dəmɑ̃dˈe plˈys",  # plus (more) keeps its s at the end of a phrase
+    "deux plus deux est égal": "dˈø plys dˈøz ɛt eɡˈal",  # plus (in sums) keeps its s
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin"}

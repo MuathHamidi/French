@@ -129,7 +129,7 @@
       ] },
     { "id": "gagner", "fr": "gagner", "pos": "verb", "ipa": "ɡa.ɲe", "en": "to win; to earn",
       "def": "Être le meilleur dans un match. Aussi : recevoir de l'argent pour son travail.", "def_en": "To be the best in a match. Also: to get money for your work.",
-      "forms": ["gagne", "gagnes", "gagnons", "gagnez", "gagnent", "gagnais", "gagnait", "gagnions", "gagniez", "gagnaient", "gagné", "gagnée", "gagnés", "gagnées", "gagnerai", "gagneras", "gagnera", "gagnerons", "gagnerez", "gagneront", "gagnerais", "gagnerait", "gagnerions", "gagneriez", "gagneraient"],
+      "forms": ["gagne", "gagnes", "gagnons", "gagnez", "gagnent", "gagnais", "gagnait", "gagnions", "gagniez", "gagnaient", "gagné", "gagnée", "gagnés", "gagnées", "gagnerai", "gagneras", "gagnera", "gagnerons", "gagnerez", "gagneront", "gagnerais", "gagnerait", "gagnerions", "gagneriez", "gagneraient", "gagnant"],
       "examples": [
         { "fr": "Notre équipe **gagne** !", "en": "Our team is winning!" },
         { "fr": "Qui **gagne** le match ?", "en": "Who's winning the match?" },
@@ -138,7 +138,7 @@
     { "id": "perdre", "fr": "perdre", "pos": "verb", "ipa": "pɛʁdʁ", "en": "to lose",
       "def": "Le contraire de « gagner ». Aussi : ne plus trouver une chose.", "def_en": "The opposite of “to win”. Also: to no longer be able to find something.",
       "extra": "je **perds** · tu **perds** · il **perd** · nous **perdons** · vous **perdez** · ils **perdent**",
-      "forms": ["perds", "perd", "perdons", "perdez", "perdent", "perdais", "perdait", "perdions", "perdiez", "perdaient", "perdrai", "perdras", "perdra", "perdrons", "perdrez", "perdront", "perdrais", "perdrait", "perdrions", "perdriez", "perdraient", "perde", "perdes"],
+      "forms": ["perds", "perd", "perdons", "perdez", "perdent", "perdais", "perdait", "perdions", "perdiez", "perdaient", "perdrai", "perdras", "perdra", "perdrons", "perdrez", "perdront", "perdrais", "perdrait", "perdrions", "perdriez", "perdraient", "perde", "perdes", "perdant"],
       "examples": [
         { "fr": "On **perd** le match !", "en": "We're losing the match!" },
         { "fr": "Hugo **perd** toujours ses clés.", "en": "Hugo always loses his keys." },
@@ -156,7 +156,7 @@
     { "id": "nager", "fr": "nager", "pos": "verb", "ipa": "na.ʒe", "en": "to swim",
       "def": "Avancer dans l'eau avec les bras et les jambes.", "def_en": "To move through water with your arms and legs.",
       "extra": "Like *manger*: **nous nageons** (with an e).",
-      "forms": ["nage", "nages", "nageons", "nagez", "nagent", "nageais", "nageait", "nagions", "nagiez", "nageaient", "nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient", "nagé", "nagée", "nagés", "nagées"],
+      "forms": ["nage", "nages", "nageons", "nagez", "nagent", "nageais", "nageait", "nagions", "nagiez", "nageaient", "nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient", "nagé", "nagée", "nagés", "nagées", "nageant"],
       "examples": [
         { "fr": "Je **nage** à la piscine.", "en": "I swim at the pool." },
         { "fr": "Tu sais **nager** ?", "en": "Can you swim?" },
@@ -173,7 +173,7 @@
     { "id": "s-entrainer", "fr": "s'entraîner", "pos": "verb", "ipa": "sɑ̃.tʁɛ.ne", "en": "to train, to practise",
       "def": "Faire beaucoup de sport pour devenir meilleur.", "def_en": "To do lots of sport in order to get better.",
       "extra": "je **m'entraîne** · tu **t'entraînes** · il **s'entraîne** · nous **nous entraînons** · vous **vous entraînez** · ils **s'entraînent**",
-      "forms": ["m'entraîne", "t'entraînes", "s'entraîne", "nous nous entraînons", "vous vous entraînez", "s'entraînent", "entraîne", "entraînes", "entraînons", "entraînez", "entraînent", "entraîner", "entraînais", "entraînait", "entraînions", "entraîniez", "entraînaient", "m'entraînerai", "t'entraîneras", "s'entraînera", "nous nous entraînerons", "vous vous entraînerez", "s'entraîneront", "m'entraînerais", "t'entraînerais", "s'entraînerait", "nous nous entraînerions", "vous vous entraîneriez", "s'entraîneraient", "entraîné", "entraînée", "entraînés", "entraînées"],
+      "forms": ["m'entraîne", "t'entraînes", "s'entraîne", "nous nous entraînons", "vous vous entraînez", "s'entraînent", "entraîne", "entraînes", "entraînons", "entraînez", "entraînent", "entraîner", "entraînais", "entraînait", "entraînions", "entraîniez", "entraînaient", "m'entraînerai", "t'entraîneras", "s'entraînera", "nous nous entraînerons", "vous vous entraînerez", "s'entraîneront", "m'entraînerais", "t'entraînerais", "s'entraînerait", "nous nous entraînerions", "vous vous entraîneriez", "s'entraîneraient", "entraîné", "entraînée", "entraînés", "entraînées", "entraînant"],
       "accept": ["s'entrainer"],
       "examples": [
         { "fr": "Je **m'entraîne** trois fois par semaine.", "en": "I train three times a week." },

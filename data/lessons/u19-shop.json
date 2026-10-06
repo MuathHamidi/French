@@ -17,7 +17,7 @@
     { "id": "acheter", "fr": "acheter", "pos": "verb", "ipa": "aʃ.te", "en": "to buy",
       "def": "Donner de l'argent pour avoir une chose.", "def_en": "To give money to get something.",
       "extra": "e → è before a silent ending: j'**achète**, tu **achètes**, il **achète**, nous **achetons**, vous **achetez**, ils **achètent**.",
-      "forms": ["achète", "achètes", "achetons", "achetez", "achètent", "acheté", "achetée", "achetés", "achetées", "achetais", "achetait", "achetions", "achetiez", "achetaient", "achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront", "achèterais", "achèterait", "achèterions", "achèteriez", "achèteraient"],
+      "forms": ["achète", "achètes", "achetons", "achetez", "achètent", "acheté", "achetée", "achetés", "achetées", "achetais", "achetait", "achetions", "achetiez", "achetaient", "achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront", "achèterais", "achèterait", "achèterions", "achèteriez", "achèteraient", "achetant"],
       "examples": [
         { "fr": "J'**achète** du pain à la boulangerie.", "en": "I buy bread at the bakery." },
         { "fr": "Qu'est-ce que tu as **acheté** ?", "en": "What did you buy?" },
@@ -25,7 +25,7 @@
       ] },
     { "id": "vendre", "fr": "vendre", "pos": "verb", "ipa": "vɑ̃dʁ", "en": "to sell",
       "def": "Donner une chose contre de l'argent.", "def_en": "To give something in exchange for money.",
-      "forms": ["vends", "vend", "vendons", "vendez", "vendent", "vendu", "vendue", "vendus", "vendues", "vendais", "vendait", "vendions", "vendiez", "vendaient", "vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient", "vende", "vendes"],
+      "forms": ["vends", "vend", "vendons", "vendez", "vendent", "vendu", "vendue", "vendus", "vendues", "vendais", "vendait", "vendions", "vendiez", "vendaient", "vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient", "vende", "vendes", "vendant"],
       "examples": [
         { "fr": "Tom **vend** des guitares.", "en": "Tom sells guitars." },
         { "fr": "Ils **vendent** leur voiture.", "en": "They're selling their car." },
@@ -34,7 +34,7 @@
     { "id": "payer", "fr": "payer", "pos": "verb", "ipa": "pe.je", "en": "to pay (for)",
       "def": "Donner l'argent qu'on doit pour une chose.", "def_en": "To give the money you owe for something.",
       "extra": "je **paie** or je **paye**, nous **payons**, ils **paient**; j'ai **payé**.",
-      "forms": ["paie", "paies", "payons", "payez", "paient", "paye", "payes", "payent", "payé", "payée", "payés", "payées", "payais", "payait", "payions", "payiez", "payaient", "paierai", "paieras", "paiera", "paierons", "paierez", "paieront", "payerai", "payeras", "payera", "payerons", "payerez", "payeront", "paierais", "paierait", "paierions", "paieriez", "paieraient", "payerais", "payerait", "payerions", "payeriez", "payeraient"],
+      "forms": ["paie", "paies", "payons", "payez", "paient", "paye", "payes", "payent", "payé", "payée", "payés", "payées", "payais", "payait", "payions", "payiez", "payaient", "paierai", "paieras", "paiera", "paierons", "paierez", "paieront", "payerai", "payeras", "payera", "payerons", "payerez", "payeront", "paierais", "paierait", "paierions", "paieriez", "paieraient", "payerais", "payerait", "payerions", "payeriez", "payeraient", "payant"],
       "examples": [
         { "fr": "Je **paie** par carte.", "en": "I'll pay by card." },
         { "fr": "C'est moi qui **paie** !", "en": "It's on me!" },
@@ -43,7 +43,7 @@
       "note": "No preposition: **payer le café** = to pay **for** the coffee." },
     { "id": "couter", "fr": "coûter", "pos": "verb", "ipa": "ku.te", "en": "to cost",
       "def": "Avoir un prix : ça coûte dix euros.", "def_en": "To have a price: it costs ten euros.",
-      "forms": ["coûte", "coûtent", "coûté", "coûtait", "coûtaient", "coûterai", "coûteras", "coûtera", "coûterons", "coûterez", "coûteront", "coûterais", "coûterait", "coûterions", "coûteriez", "coûteraient", "coûtée", "coûtés", "coûtées"],
+      "forms": ["coûte", "coûtent", "coûté", "coûtait", "coûtaient", "coûterai", "coûteras", "coûtera", "coûterons", "coûterez", "coûteront", "coûterais", "coûterait", "coûterions", "coûteriez", "coûteraient", "coûtée", "coûtés", "coûtées", "coûtant"],
       "examples": [
         { "fr": "Ça **coûte** combien ?", "en": "How much does it cost?" },
         { "fr": "Ces chaussures **coûtent** cent euros.", "en": "These shoes cost a hundred euros." },
@@ -195,7 +195,7 @@
       ] },
     { "id": "rembourser", "fr": "rembourser", "pos": "verb", "ipa": "ʁɑ̃.buʁ.se", "en": "to refund; to pay back",
       "def": "Rendre l'argent : un magasin rembourse un produit, ou on rembourse une personne.", "def_en": "To give money back: a shop refunds a product, or you pay someone back.",
-      "forms": ["rembourse", "rembourses", "remboursons", "remboursez", "remboursent", "remboursé", "remboursée", "remboursais", "remboursait", "remboursions", "remboursiez", "remboursaient", "rembourserai", "rembourseras", "remboursera", "rembourserons", "rembourserez", "rembourseront", "rembourserais", "rembourserait", "rembourserions", "rembourseriez", "rembourseraient", "remboursés", "remboursées"],
+      "forms": ["rembourse", "rembourses", "remboursons", "remboursez", "remboursent", "remboursé", "remboursée", "remboursais", "remboursait", "remboursions", "remboursiez", "remboursaient", "rembourserai", "rembourseras", "remboursera", "rembourserons", "rembourserez", "rembourseront", "rembourserais", "rembourserait", "rembourserions", "rembourseriez", "rembourseraient", "remboursés", "remboursées", "remboursant"],
       "examples": [
         { "fr": "Le magasin m'a **remboursé**.", "en": "The shop gave me a refund." },
         { "fr": "Je te **rembourse** demain, promis !", "en": "I'll pay you back tomorrow, I promise!" },
@@ -204,7 +204,7 @@
     { "id": "echanger", "fr": "échanger", "pos": "verb", "ipa": "e.ʃɑ̃.ʒe", "en": "to exchange, to swap",
       "def": "Donner une chose et prendre une autre chose à la place.", "def_en": "To give one thing and take another instead.",
       "extra": "-ger verb: nous **échangeons**, j'**échangeais**.",
-      "forms": ["échange", "échanges", "échangeons", "échangez", "échangent", "échangé", "échangée", "échangeais", "échangeait", "échangions", "échangiez", "échangeaient", "échangerai", "échangeras", "échangera", "échangerons", "échangerez", "échangeront", "échangerais", "échangerait", "échangerions", "échangeriez", "échangeraient", "échangés", "échangées"],
+      "forms": ["échange", "échanges", "échangeons", "échangez", "échangent", "échangé", "échangée", "échangeais", "échangeait", "échangions", "échangiez", "échangeaient", "échangerai", "échangeras", "échangera", "échangerons", "échangerez", "échangeront", "échangerais", "échangerait", "échangerions", "échangeriez", "échangeraient", "échangés", "échangées", "échangeant"],
       "examples": [
         { "fr": "Je peux **échanger** ce pull ? Il est trop petit.", "en": "Can I exchange this jumper? It's too small." },
         { "fr": "On **échange** nos places ?", "en": "Shall we swap seats?" },
@@ -212,7 +212,7 @@
       ] },
     { "id": "commander", "fr": "commander", "pos": "verb", "ipa": "kɔ.mɑ̃.de", "en": "to order (in a café, online)",
       "def": "Demander un produit au café, au restaurant ou sur internet.", "def_en": "To ask for something in a café, a restaurant or online.",
-      "forms": ["commande", "commandes", "commandons", "commandez", "commandent", "commandé", "commandée", "commandés", "commandées", "commandais", "commandait", "commandions", "commandiez", "commandaient", "commanderai", "commanderas", "commandera", "commanderons", "commanderez", "commanderont", "commanderais", "commanderait", "commanderions", "commanderiez", "commanderaient"],
+      "forms": ["commande", "commandes", "commandons", "commandez", "commandent", "commandé", "commandée", "commandés", "commandées", "commandais", "commandait", "commandions", "commandiez", "commandaient", "commanderai", "commanderas", "commandera", "commanderons", "commanderez", "commanderont", "commanderais", "commanderait", "commanderions", "commanderiez", "commanderaient", "commandant"],
       "examples": [
         { "fr": "Je **commande** un café, et toi ?", "en": "I'm ordering a coffee, what about you?" },
         { "fr": "J'ai **commandé** des livres sur internet.", "en": "I ordered some books online." },
