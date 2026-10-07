@@ -1,0 +1,149 @@
+{
+  "id": "u39-lieux",
+  "type": "grammar",
+  "unit": 39,
+  "title": "Au Mexique ou en Iran ?",
+  "en": "Prepositions with places",
+  "intro": "You already know *à Paris, en France, au Canada, aux États-Unis* (Unit 9). Here are the cases that catch learners out. Masculine countries that start with a vowel take **en** (*en Iran*), and a few countries ending in *-e* are masculine (*au Mexique, au Cambodge*). A city with an article keeps it (*au Havre, au Caire*); small islands are like cities (*à Cuba*), big ones take **en** (*en Corse, en Martinique*). To say where you come from: **de France, d'Iran, du Japon, des États-Unis**. And mountains, masculine departments and parts of a country take **dans**: *dans les Alpes, dans le Rhône, dans le sud de la France*.",
+  "cases": [
+    { "id": "pl-ville", "label": "à + city or small island: à Lyon, au Havre, à Cuba", "rule": "Cities take **à**, whatever their gender: *à Lyon, à Ostende, à Madrid*. If the name has an article, it stays, and *le* contracts: ***au** Havre* (Le Havre), ***au** Caire* (Le Caire). Small islands work like cities: ***à** Cuba*." },
+    { "id": "pl-en", "label": "en + feminine, or masculine before a vowel", "rule": "**En** goes before feminine countries, continents and regions (*en Belgique, en Asie, en Provence, en Ardèche*), before big islands (*en Corse, en Martinique*) and before masculine countries that start with a vowel: ***en** Iran*." },
+    { "id": "pl-au", "label": "au + masculine, aux + plural", "rule": "**Au** goes before masculine countries that start with a consonant: *au Japon, au Québec*, and also the few masculine ones ending in *-e*: ***au** Mexique, **au** Cambodge*. **Aux** goes before plurals: ***aux** Pays-Bas, **aux** Philippines, **aux** Antilles*." },
+    { "id": "pl-origine", "label": "from: de, d', du, des", "rule": "To say where someone or something comes from, **de** replaces *à* and *en*: *Il arrive **de** Montréal, **de** France, **d'**Iran.* **Du** replaces *au*, and **des** replaces *aux*: *Il arrive **du** Québec, **du** Havre, **des** États-Unis.*" },
+    { "id": "pl-dans", "label": "dans: mountains, departments, parts of a country", "rule": "**Dans** + article goes before mountains, masculine departments, districts and parts of a country: ***dans les** Alpes, **dans le** Rhône, **dans le** Vieux-Lyon, **dans le** sud de la France*. Feminine regions and departments take *en*: *en Haute-Savoie*." }
+  ],
+  "sections": [
+    {
+      "title": "1. Cities and small islands: à",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Antoine atterrit à Lyon.", "Antoine lands in Lyon."],
+        ["Il a une escale à Amsterdam.", "He has a stopover in Amsterdam."],
+        ["Le bateau arrive au Havre.", "The boat arrives in Le Havre."],
+        ["Elle habite au Caire.", "She lives in Cairo."],
+        ["Ils passent l'hiver à Cuba.", "They spend the winter in Cuba."]
+      ] },
+      "examples": [
+        { "fr": "Pierre part {à Ostende|pl-ville}, au bord de la mer du Nord.", "en": "Pierre is going to Ostend, on the North Sea." },
+        { "fr": "À Pâques, Léa va {à Paris|pl-ville}, chez ses parents.", "en": "At Easter, Léa is going to Paris, to her parents'." }
+      ],
+      "tip": "**À** + a city never changes with the gender of the city: *à Rome, à Londres, à Madrid*. Only a city's own article can change it: *Le Havre → au Havre, Le Caire → au Caire*."
+    },
+    {
+      "title": "2. en: feminine, or a vowel",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Il habite en Belgique.", "He lives in Belgium."],
+        ["Elle travaille en Asie.", "She works in Asia."],
+        ["Ils vivent en Iran.", "They live in Iran."],
+        ["On part en Corse.", "We're going to Corsica."],
+        ["Ses grands-parents habitent en Provence.", "Her grandparents live in Provence."],
+        ["Enzo passe ses étés en Ardèche.", "Enzo spends his summers in the Ardèche."]
+      ] },
+      "examples": [
+        { "fr": "Inès a une séance photo {en Martinique|pl-en}.", "en": "Inès has a photo shoot in Martinique." },
+        { "fr": "Un jour, Léa voudrait enseigner le français {en Iran|pl-en}.", "en": "One day, Léa would like to teach French in Iran." }
+      ],
+      "tip": "Feminine names usually end in **-e**: *la France, la Belgique, la Corse*. All the continents are feminine: *en Afrique, en Europe, en Asie*."
+    },
+    {
+      "title": "3. au, aux",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Camille rêve d'aller au Japon.", "Camille dreams of going to Japan."],
+        ["Sa valise est au Mexique.", "His suitcase is in Mexico."],
+        ["Ils ont voyagé au Cambodge.", "They travelled in Cambodia."],
+        ["Il fait chaud au Québec en juillet.", "It's hot in Quebec in July."],
+        ["Elle vit aux Pays-Bas.", "She lives in the Netherlands."],
+        ["On va aux Philippines.", "We're going to the Philippines."]
+      ] },
+      "examples": [
+        { "fr": "Inès part {aux Antilles|pl-au} en mai.", "en": "Inès is going to the Caribbean in May." },
+        { "fr": "Pourquoi ma valise est-elle {au Mexique|pl-au} ?", "en": "Why is my suitcase in Mexico?" }
+      ],
+      "tip": "A few masculine countries end in *-e*: *le Mexique, le Cambodge, le Mozambique, le Zimbabwe*. So: **au** Mexique, **au** Cambodge."
+    },
+    {
+      "title": "4. Where from: de, d', du, des",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Il arrive de Montréal.", "He's arriving from Montreal."],
+        ["Elle revient de France.", "She's coming back from France."],
+        ["Ils viennent d'Iran.", "They come from Iran."],
+        ["Je viens du Canada.", "I come from Canada."],
+        ["Le bateau part du Havre.", "The boat leaves from Le Havre."],
+        ["Sa valise arrive des États-Unis.", "His suitcase is coming from the United States."]
+      ] },
+      "examples": [
+        { "fr": "Antoine arrive {du Québec|pl-origine}.", "en": "Antoine is arriving from Quebec." },
+        { "fr": "Amadou vient {du Sénégal|pl-origine}, et Carla {d'Espagne|pl-origine}.", "en": "Amadou comes from Senegal, and Carla from Spain." }
+      ],
+      "tip": "*De* + a feminine country has no article: *du vin de France, des oranges d'Espagne*, but *du thé du Japon*."
+    },
+    {
+      "title": "5. dans: mountains, departments, parts of a country",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["La ferme est dans les Alpes.", "The farm is in the Alps."],
+        ["Lyon est dans le Rhône.", "Lyon is in the Rhône."],
+        ["Marseille est dans le sud de la France.", "Marseille is in the south of France."],
+        ["Ils habitent dans le nord du Portugal.", "They live in the north of Portugal."],
+        ["Le tournage commence dans le Vieux-Lyon.", "The shooting starts in Vieux-Lyon."],
+        ["Chloé habite à la Croix-Rousse.", "Chloé lives in the Croix-Rousse."]
+      ] },
+      "examples": [
+        { "fr": "La ferme est {dans les Alpes|pl-dans}, {en Haute-Savoie|pl-en}.", "en": "The farm is in the Alps, in Haute-Savoie." },
+        { "fr": "Mes grands-parents habitent {dans le sud de la France|pl-dans}.", "en": "My grandparents live in the south of France." }
+      ],
+      "tip": "Departments follow their gender: masculine ones take **dans le** (*dans le Rhône, dans le Var*), feminine ones **en** (*en Ardèche, en Haute-Savoie*). A district of Lyon takes *dans le* (*dans le Vieux-Lyon*) or *à la* (*à la Croix-Rousse*)."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Je vais en Mexique.", "right": "Je vais au Mexique.", "why": "Le Mexique is masculine, even though it ends in -e." },
+    { "wrong": "Ils habitent au Iran.", "right": "Ils habitent en Iran.", "why": "Masculine countries that start with a vowel take en." },
+    { "wrong": "Je viens de le Canada.", "right": "Je viens du Canada.", "why": "De + le contracts to du." },
+    { "wrong": "Elle vient de la France.", "right": "Elle vient de France.", "why": "No article after de with a feminine country." },
+    { "wrong": "Le bateau arrive à Le Havre.", "right": "Le bateau arrive au Havre.", "why": "The city's article contracts: à + le = au." },
+    { "wrong": "La ferme est en les Alpes.", "right": "La ferme est dans les Alpes.", "why": "Mountains take dans les." }
+  ],
+  "story": {
+    "title": "Le voyage de la valise",
+    "en": "Monday 1 March: Antoine is back in Lyon for his film. His suitcase isn't.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi premier mars, Antoine atterrit {à Lyon|pl-ville}. Il arrive {de Montréal|pl-origine}, {du Québec|pl-origine}, avec une escale {à Amsterdam|pl-ville}, {aux Pays-Bas|pl-au}.", "en": "On Monday 1 March, Antoine lands in Lyon. He's arriving from Montreal, in Quebec, with a stopover in Amsterdam, in the Netherlands." },
+      { "sp": "", "fr": "Le tournage de son film commence lundi prochain, {dans le Vieux-Lyon|pl-dans}. Il dort chez Hugo, sur le canapé. Mais à l'aéroport, sa valise n'arrive pas.", "en": "The shooting of his film starts next Monday, in Vieux-Lyon. He's sleeping at Hugo's, on the sofa. But at the airport, his suitcase doesn't arrive." },
+      { "sp": "", "fr": "Le soir, au café d'en bas, Antoine suit sa valise sur son téléphone.", "en": "In the evening, at the café downstairs, Antoine follows his suitcase on his phone." },
+      { "sp": "Antoine", "fr": "Elle est… {au Mexique|pl-au} ! Qu'est-ce qu'elle fait {au Mexique|pl-au}, ma valise ?", "en": "It's… in Mexico! What's my suitcase doing in Mexico?" },
+      { "sp": "Hugo", "fr": "Elle part en vacances. Elle est plus intelligente que toi !", "en": "It's going on holiday. It's smarter than you!" },
+      { "sp": "Tom", "fr": "Pourquoi « au Mexique » ? On dit bien « en France »…", "en": "Why 'au Mexique'? We do say 'en France'…" },
+      { "sp": "Léa", "fr": "Parce que c'est « le Mexique » : il est masculin. Mais devant une voyelle, c'est « en » : {en Iran|pl-en}, même au masculin.", "en": "Because it's 'le Mexique': it's masculine. But before a vowel, it's 'en': 'en Iran', even when the country is masculine." },
+      { "sp": "Antoine", "fr": "Bon. Et vous, vous partez où, cette année ?", "en": "Right. And where are you all going this year?" },
+      { "sp": "Léa", "fr": "Moi, à Pâques, je vais {à Paris|pl-ville}, chez mes parents. Et un jour, je veux enseigner le français à l'étranger : {au Japon|pl-au}, {en Iran|pl-en}, {aux Philippines|pl-au}… Partout !", "en": "At Easter, I'm going to Paris, to my parents'. And one day, I want to teach French abroad: in Japan, in Iran, in the Philippines… Anywhere!" },
+      { "sp": "Inès", "fr": "Moi, en mai, j'ai une séance photo {en Martinique|pl-en}, {aux Antilles|pl-au}. Une semaine au soleil !", "en": "In May, I have a photo shoot in Martinique, in the Caribbean. A week in the sun!" },
+      { "sp": "Tom", "fr": "Moi, je vais {au Royaume-Uni|pl-au} en train, comme toujours. Et Camille rêve d'aller {au Japon|pl-au}.", "en": "I'm going to the UK by train, as always. And Camille dreams of going to Japan." },
+      { "sp": "Hugo", "fr": "Et moi, cet été, je pars une semaine {en Espagne|pl-en}, {à Madrid|pl-ville}, pour mon espagnol. Chez les parents de Carla !", "en": "And this summer, I'm off to Spain for a week, to Madrid, for my Spanish. To Carla's parents'!" },
+      { "sp": "Sophie", "fr": "Et moi, en juillet, je pars {au Québec|pl-au}, {à Montréal|pl-ville}, avec Mathis.", "en": "And in July, I'm going to Quebec, to Montreal, with Mathis." },
+      { "sp": "Antoine", "fr": "{Au Québec|pl-au}, en juillet, il fait trente degrés. Pas comme en décembre !", "en": "In Quebec, in July, it's thirty degrees. Not like in December!" },
+      { "sp": "Léa", "fr": "Et mon oncle Pierre part {en Belgique|pl-en}, {à Ostende|pl-ville}. Il va enfin voir la mer du Nord !", "en": "And my uncle Pierre is going to Belgium, to Ostend. He's finally going to see the North Sea!" },
+      { "sp": "Tom", "fr": "Enzo, lui, passe tous ses étés {en Ardèche|pl-en}, chez son grand-père.", "en": "As for Enzo, he spends all his summers in the Ardèche, at his grandfather's." },
+      { "sp": "Antoine", "fr": "Et la ferme de Pierre, c'est où, déjà ?", "en": "And where's Pierre's farm again?" },
+      { "sp": "Léa", "fr": "{Dans les Alpes|pl-dans}, {en Haute-Savoie|pl-en}, près d'Annecy. Et Lyon, c'est {dans le Rhône|pl-dans}.", "en": "In the Alps, in Haute-Savoie, near Annecy. And Lyon is in the Rhône." },
+      { "sp": "Antoine", "fr": "Le Rhône ? Ce n'est pas un fleuve ?", "en": "The Rhône? Isn't that a river?" },
+      { "sp": "Léa", "fr": "Les deux ! Le fleuve a donné son nom au département.", "en": "Both! The river gave its name to the department." },
+      { "sp": "", "fr": "À dix heures du soir, le téléphone d'Antoine vibre. Sa valise a quitté le Mexique : elle arrive {des États-Unis|pl-origine}, {de New York|pl-origine}, et elle sera {à Lyon|pl-ville} demain matin.", "en": "At ten in the evening, Antoine's phone buzzes. His suitcase has left Mexico: it's coming from the United States, from New York, and it will be in Lyon tomorrow morning." },
+      { "sp": "", "fr": "Le mardi matin, l'interphone de Hugo est encore en panne. Le livreur laisse la valise… à la boulangerie de Madame Fournier.", "en": "On Tuesday morning, Hugo's intercom is broken again. The delivery man leaves the suitcase… at Madame Fournier's bakery." },
+      { "sp": "Madame Fournier", "fr": "Encore un colis pour Hugo ! Et il vient d'où, celui-là ?", "en": "Another parcel for Hugo! And where does this one come from?" },
+      { "sp": "Antoine", "fr": "{Du Mexique|pl-origine}, madame. Ma valise a visité le Mexique et les États-Unis, et moi, je n'ai vu que l'aéroport !", "en": "From Mexico, madame. My suitcase has visited Mexico and the United States, and all I've seen is the airport!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pl-ville", "type": "mc", "q": "Le bateau arrive ___ Havre.", "en": "The boat arrives in Le Havre.", "options": ["au", "à", "en"], "answer": "au" },
+    { "case": "pl-ville", "type": "mc", "q": "Ils passent l'hiver ___ Cuba.", "en": "They spend the winter in Cuba.", "options": ["à", "en", "au"], "answer": "à" },
+    { "case": "pl-en", "type": "mc", "q": "Léa voudrait enseigner ___ Iran.", "en": "Léa would like to teach in Iran.", "options": ["en", "au", "à"], "answer": "en" },
+    { "case": "pl-en", "type": "mc", "q": "Enzo passe ses étés ___ Ardèche.", "en": "Enzo spends his summers in the Ardèche.", "options": ["en", "au", "à"], "answer": "en" },
+    { "case": "pl-au", "type": "mc", "q": "Ma valise est ___ Mexique !", "en": "My suitcase is in Mexico!", "options": ["au", "en", "à"], "answer": "au" },
+    { "case": "pl-au", "type": "mc", "q": "Inès part ___ Antilles en mai.", "en": "Inès is going to the Caribbean in May.", "options": ["aux", "en", "à"], "answer": "aux" },
+    { "case": "pl-au", "type": "mc", "lang": "en", "q": "Which country takes « au »?", "options": ["le Cambodge", "la Belgique", "l'Iran"], "answer": "le Cambodge" },
+    { "case": "pl-origine", "type": "mc", "q": "Antoine arrive ___ Québec.", "en": "Antoine is arriving from Quebec.", "options": ["du", "de", "des"], "answer": "du" },
+    { "case": "pl-origine", "type": "mc", "q": "Sa valise arrive ___ États-Unis.", "en": "His suitcase is coming from the United States.", "options": ["des", "du", "de"], "answer": "des" },
+    { "case": "pl-origine", "type": "mc", "q": "Carla vient ___ Espagne.", "en": "Carla comes from Spain.", "options": ["d'", "de la", "du"], "answer": "d'" },
+    { "case": "pl-dans", "type": "mc", "q": "La ferme est ___ Alpes.", "en": "The farm is in the Alps.", "options": ["dans les", "en", "aux"], "answer": "dans les" },
+    { "case": "pl-dans", "type": "mc", "q": "Lyon est ___ Rhône.", "en": "Lyon is in the Rhône.", "options": ["dans le", "en", "à"], "answer": "dans le" }
+  ]
+}

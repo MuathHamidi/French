@@ -1,0 +1,179 @@
+{
+  "id": "u39-ecran",
+  "type": "vocab",
+  "unit": 39,
+  "title": "Les écrans",
+  "en": "Screens",
+  "intro": "25 words for life with screens: the devices (**le smartphone, tactile, le chargeur, recharger, les écouteurs, la console, la manette, la sonnerie, vibrer**), their modes (**le mode avion, silencieux, en veille, hors ligne**), what we do with them (**faire défiler, le streaming, en boucle, le spoiler, divulgâcher**) and how to stop (**le temps d'écran, accro, la dépendance, la lumière bleue, la déconnexion, se déconnecter, le jeu de société**).",
+  "words": [
+    { "id": "temps-d-ecran", "fr": "temps d'écran", "pos": "noun", "g": "m", "ipa": "tɑ̃ de.kʁɑ̃", "en": "screen time", "def": "Le nombre d'heures qu'on passe sur son téléphone, sur son ordinateur ou devant la télé.", "def_en": "The number of hours you spend on your phone, on your computer or in front of the TV.", "examples": [
+      { "fr": "Cette semaine, notre **temps d'écran**, c'est six heures par jour !", "en": "This week, our screen time is six hours a day!" },
+      { "fr": "Ton **temps d'écran** a augmenté de deux heures.", "en": "Your screen time has gone up by two hours." },
+      { "fr": "Moins de **temps d'écran**, plus de temps dehors !", "en": "Less screen time, more time outside!" }
+    ] },
+    { "id": "deconnexion", "fr": "déconnexion", "pos": "noun", "g": "f", "ipa": "de.kɔ.nɛk.sjɔ̃", "en": "disconnection; logging off; (digital) detox", "def": "Le fait d'arrêter d'utiliser internet et les écrans pendant un moment.", "def_en": "Stopping using the internet and screens for a while.", "note": "In France, workers have *le droit à la déconnexion*: the right not to answer work emails outside working hours.", "examples": [
+      { "fr": "C'est l'idée de Carla : un week-end de **déconnexion**.", "en": "It's Carla's idea: a weekend offline." },
+      { "fr": "En France, il existe un droit à la **déconnexion** : pas de mails du travail le soir.", "en": "In France, there's a right to disconnect: no work emails in the evening." },
+      { "fr": "Après une semaine de **déconnexion**, j'ai deux cents mails !", "en": "After a week offline, I have two hundred emails!" }
+    ] },
+    { "id": "se-deconnecter", "fr": "se déconnecter", "pos": "verb", "ipa": "sə de.kɔ.nɛk.te", "en": "to disconnect, to log off, to unplug", "def": "Sortir d'un site ; arrêter d'utiliser internet pendant un moment.", "def_en": "To leave a website; to stop using the internet for a while.", "forms": ["me déconnecte", "te déconnectes", "se déconnecte", "nous nous déconnectons", "vous vous déconnectez", "se déconnectent", "me déconnecter", "te déconnecter", "nous déconnecter", "vous déconnecter", "déconnecter", "me déconnecterai", "te déconnecteras", "se déconnectera", "nous nous déconnecterons", "vous vous déconnecterez", "se déconnecteront", "me déconnecterais", "te déconnecterais", "se déconnecterait", "nous nous déconnecterions", "vous vous déconnecteriez", "se déconnecteraient", "déconnecte", "déconnectes", "déconnectons", "déconnectez", "déconnectent", "déconnecté", "déconnectée", "déconnectés", "déconnectées", "déconnectais", "déconnectait", "déconnections", "déconnectiez", "déconnectaient", "déconnecterai", "déconnecteras", "déconnectera", "déconnecterons", "déconnecterez", "déconnecteront", "déconnecterais", "déconnecterait", "déconnecterions", "déconnecteriez", "déconnecteraient", "déconnectant", "déconnectai", "déconnectas", "déconnecta", "déconnectâmes", "déconnectâtes", "déconnectèrent"], "examples": [
+      { "fr": "Ce week-end, on **se déconnecte** !", "en": "This weekend, we're unplugging!" },
+      { "fr": "N'oublie pas de **te déconnecter** de ton compte.", "en": "Don't forget to log out of your account." },
+      { "fr": "Le soir, je **me déconnecte** à dix heures.", "en": "In the evening, I log off at ten." }
+    ] },
+    { "id": "recharger", "fr": "recharger", "pos": "verb", "ipa": "ʁə.ʃaʁ.ʒe", "en": "to recharge, to charge; to reload", "def": "Remettre de l'énergie dans une batterie.", "def_en": "To put energy back into a battery.", "note": "*Recharger les batteries* = to recharge your batteries (to rest).", "forms": ["recharge", "recharges", "rechargeons", "rechargez", "rechargent", "rechargé", "rechargée", "rechargés", "rechargées", "rechargeais", "rechargeait", "rechargions", "rechargiez", "rechargeaient", "rechargerai", "rechargeras", "rechargera", "rechargerons", "rechargerez", "rechargeront", "rechargerais", "rechargerait", "rechargerions", "rechargeriez", "rechargeraient", "rechargeant", "rechargeai", "rechargeas", "rechargea", "rechargâmes", "rechargâtes", "rechargèrent"], "examples": [
+      { "fr": "Ici, on ne **recharge** pas les téléphones : on recharge les batteries !", "en": "Here, we don't recharge phones: we recharge our batteries!" },
+      { "fr": "Je dois **recharger** mon téléphone : il n'a plus de batterie.", "en": "I have to charge my phone: its battery is dead." },
+      { "fr": "Les vacances, c'est pour **recharger** les batteries.", "en": "Holidays are for recharging your batteries." }
+    ] },
+    { "id": "chargeur", "fr": "chargeur", "pos": "noun", "g": "m", "ipa": "ʃaʁ.ʒœʁ", "en": "charger", "def": "Le câble qu'on branche pour remettre de l'énergie dans un téléphone.", "def_en": "The cable you plug in to put energy back into a phone.", "forms": ["chargeurs"], "examples": [
+      { "fr": "Hugo garde son **chargeur** dans sa poche, au cas où.", "en": "Hugo keeps his charger in his pocket, just in case." },
+      { "fr": "Tu me prêtes ton **chargeur** ? Je n'ai plus de batterie.", "en": "Can I borrow your charger? My battery's dead." },
+      { "fr": "J'ai encore oublié mon **chargeur** au bureau !", "en": "I've forgotten my charger at the office again!" }
+    ] },
+    { "id": "mode-avion", "fr": "mode avion", "pos": "noun", "g": "m", "ipa": "mɔd a.vjɔ̃", "en": "airplane mode, flight mode", "def": "Quand un téléphone est dans ce mode, il n'a plus de réseau : pas d'appels, pas d'internet.", "def_en": "When a phone is in this mode, it has no signal: no calls, no internet.", "examples": [
+      { "fr": "Mettez vos téléphones en **mode avion**, et dans le panier.", "en": "Put your phones in airplane mode, and in the basket." },
+      { "fr": "Dans l'avion, on met son téléphone en **mode avion**.", "en": "On the plane, you put your phone in flight mode." },
+      { "fr": "La nuit, je mets mon téléphone en **mode avion** pour mieux dormir.", "en": "At night, I put my phone in airplane mode to sleep better." }
+    ] },
+    { "id": "accro", "fr": "accro", "pos": "adj", "ipa": "a.kʁo", "en": "(informal) hooked, addicted", "def": "Familier : qui ne peut plus arrêter quelque chose.", "def_en": "Informal: who can't stop something any more.", "note": "*Accro à* = hooked on: *accro au café, accro aux séries*.", "forms": ["accros"], "examples": [
+      { "fr": "Mais je ne suis pas **accro**, hein !", "en": "But I'm not hooked, OK!" },
+      { "fr": "Hugo est **accro** aux jeux vidéo.", "en": "Hugo is hooked on video games." },
+      { "fr": "Mes sœurs sont **accros** à cette série.", "en": "My sisters are addicted to this series." }
+    ] },
+    { "id": "dependance", "fr": "dépendance", "pos": "noun", "g": "f", "ipa": "de.pɑ̃.dɑ̃s", "en": "dependence, addiction", "def": "Le besoin très fort de quelque chose, qu'on ne peut pas arrêter.", "def_en": "A very strong need for something, which you can't stop.", "forms": ["dépendances"], "examples": [
+      { "fr": "Tu vois, Hugo, c'est une vraie **dépendance**.", "en": "You see, Hugo, it's a real addiction." },
+      { "fr": "La **dépendance** aux écrans touche aussi les adultes.", "en": "Screen addiction affects adults too." },
+      { "fr": "Le sucre peut créer une **dépendance**.", "en": "Sugar can be addictive." }
+    ] },
+    { "id": "faire-defiler", "fr": "faire défiler", "pos": "verb", "ipa": "fɛʁ de.fi.le", "en": "to scroll (through)", "def": "Passer d'une photo ou d'un message à l'autre avec le doigt, sur un écran.", "def_en": "To go from one photo or message to the next with your finger, on a screen.", "forms": ["fais défiler", "fait défiler", "faisons défiler", "faites défiler", "font défiler", "faisais défiler", "faisait défiler", "faisions défiler", "faisiez défiler", "faisaient défiler", "ferai défiler", "feras défiler", "fera défiler", "ferons défiler", "ferez défiler", "feront défiler", "ferais défiler", "ferait défiler", "ferions défiler", "feriez défiler", "feraient défiler", "fasse défiler", "fasses défiler", "fassions défiler", "fassiez défiler", "fassent défiler", "faisant défiler", "fit défiler", "firent défiler"], "examples": [
+      { "fr": "Regardez son doigt sur la table : il **fait défiler** son fil d'actualité, sans téléphone !", "en": "Look at his finger on the table: he's scrolling through his news feed, with no phone!" },
+      { "fr": "Je **fais défiler** les photos de mes vacances.", "en": "I scroll through my holiday photos." },
+      { "fr": "Le soir, au lit, on **fait défiler** les vidéos pendant des heures.", "en": "In the evening, in bed, we scroll through videos for hours." }
+    ] },
+    { "id": "tactile", "fr": "tactile", "pos": "adj", "ipa": "tak.til", "en": "touch (screen), touch-sensitive", "def": "Se dit d'un écran qui fonctionne quand on le touche avec le doigt.", "def_en": "Said of a screen that works when you touch it with your finger.", "forms": ["tactiles"], "examples": [
+      { "fr": "Mon téléphone n'est pas **tactile** : il a des boutons !", "en": "My phone doesn't have a touch screen: it has buttons!" },
+      { "fr": "Les enfants touchent tous les écrans : pour eux, tout est **tactile**.", "en": "Children touch every screen: for them, everything is a touch screen." },
+      { "fr": "Dans ce musée, des écrans **tactiles** expliquent les tableaux.", "en": "In this museum, touch screens explain the paintings." }
+    ] },
+    { "id": "en-boucle", "fr": "en boucle", "pos": "expr", "ipa": "ɑ̃ bukl", "en": "on a loop, over and over (again)", "def": "Plusieurs fois, toujours la même chose.", "def_en": "Several times, always the same thing.", "examples": [
+      { "fr": "Jusqu'à Lyon, Hugo regarde le message d'Antoine **en boucle**.", "en": "All the way to Lyon, Hugo reads Antoine's message over and over." },
+      { "fr": "Lou écoute l'album d'Antoine **en boucle**.", "en": "Lou listens to Antoine's album on a loop." },
+      { "fr": "À la télé, ils passent les mêmes images **en boucle**.", "en": "On TV, they show the same pictures over and over again." }
+    ] },
+    { "id": "streaming", "fr": "streaming", "pos": "noun", "g": "m", "ipa": "stʁi.miŋ", "en": "streaming", "def": "Le fait de regarder un film ou d'écouter de la musique sur internet, sans le télécharger.", "def_en": "Watching a film or listening to music on the internet, without downloading it.", "examples": [
+      { "fr": "Le dernier épisode de sa série est sorti samedi, en **streaming**.", "en": "The last episode of his series came out on Saturday, on a streaming service." },
+      { "fr": "On ne loue plus de films : tout est en **streaming**.", "en": "We don't rent films any more: everything is streamed." },
+      { "fr": "Tom a un abonnement de **streaming** pour la musique.", "en": "Tom has a music streaming subscription." }
+    ] },
+    { "id": "spoiler", "fr": "spoiler", "pos": "noun", "g": "m", "ipa": "spɔj.lœʁ", "en": "spoiler", "def": "Une information qui raconte la fin d'un film ou d'une série, trop tôt.", "def_en": "A piece of information that tells the end of a film or a series too soon.", "note": "Also a verb, *spoiler* (to spoil). The Quebec word is *divulgâcher*.", "forms": ["spoilers"], "examples": [
+      { "fr": "Attention, **spoiler** : le méchant, c'est le frère !", "en": "Spoiler alert: the bad guy is the brother!" },
+      { "fr": "Pas de **spoiler**, s'il te plaît : je n'ai pas vu la fin !", "en": "No spoilers, please: I haven't seen the end!" },
+      { "fr": "Sur internet, il y a des **spoilers** partout.", "en": "On the internet, there are spoilers everywhere." }
+    ] },
+    { "id": "jeu-de-societe", "fr": "jeu de société", "pos": "noun", "g": "m", "ipa": "ʒø də sɔ.sje.te", "en": "board game", "def": "Un jeu qu'on joue à plusieurs, autour d'une table, comme le Monopoly.", "def_en": "A game played by several people, around a table, like Monopoly.", "forms": ["jeux de société"], "examples": [
+      { "fr": "Le soir, au coin du feu, on joue à un **jeu de société**.", "en": "In the evening, by the fire, we play a board game." },
+      { "fr": "Le Monopoly est le **jeu de société** préféré de Louise.", "en": "Monopoly is Louise's favourite board game." },
+      { "fr": "On a des **jeux de société** pour les jours de pluie.", "en": "We have board games for rainy days." }
+    ] },
+    { "id": "lumiere-bleue", "fr": "lumière bleue", "pos": "noun", "g": "f", "ipa": "ly.mjɛʁ blø", "en": "blue light", "def": "La couleur des écrans : le soir, elle empêche de bien dormir.", "def_en": "The colour of screens: in the evening, it stops you sleeping well.", "examples": [
+      { "fr": "Le soir, la **lumière bleue** des écrans empêche de dormir.", "en": "In the evening, the blue light from screens stops you sleeping." },
+      { "fr": "Ces lunettes protègent contre la **lumière bleue**.", "en": "These glasses protect against blue light." },
+      { "fr": "Arrête ton téléphone une heure avant de dormir, à cause de la **lumière bleue**.", "en": "Turn your phone off an hour before bed, because of the blue light." }
+    ] },
+    { "id": "sonnerie", "fr": "sonnerie", "pos": "noun", "g": "f", "ipa": "sɔn.ʁi", "en": "ringtone; ringing; (school) bell", "def": "Le bruit d'un téléphone ou d'un réveil qui sonne.", "def_en": "The sound of a phone or an alarm clock ringing.", "forms": ["sonneries"], "examples": [
+      { "fr": "Et j'ai entendu ma **sonnerie**, c'est sûr.", "en": "And I heard my ringtone, I'm sure." },
+      { "fr": "Change ta **sonnerie** : elle est trop forte !", "en": "Change your ringtone: it's too loud!" },
+      { "fr": "À l'école, la **sonnerie** annonce la fin du cours.", "en": "At school, the bell announces the end of the lesson." }
+    ] },
+    { "id": "vibrer", "fr": "vibrer", "pos": "verb", "ipa": "vi.bʁe", "en": "to vibrate, to buzz", "def": "Bouger un peu et très vite, comme un téléphone qui reçoit un message sans sonner.", "def_en": "To move slightly and very fast, like a phone getting a message without ringing.", "forms": ["vibre", "vibres", "vibrons", "vibrez", "vibrent", "vibré", "vibrais", "vibrait", "vibrions", "vibriez", "vibraient", "vibrerai", "vibreras", "vibrera", "vibrerons", "vibrerez", "vibreront", "vibrerais", "vibrerait", "vibrerions", "vibreriez", "vibreraient", "vibrant", "vibrai", "vibras", "vibra", "vibrâmes", "vibrâtes", "vibrèrent"], "examples": [
+      { "fr": "Hugo sent son téléphone **vibrer** dans sa poche.", "en": "Hugo feels his phone vibrate in his pocket." },
+      { "fr": "Mon téléphone **vibre** : c'est un message de Carla.", "en": "My phone's buzzing: it's a message from Carla." },
+      { "fr": "Quand le train passe, les fenêtres **vibrent**.", "en": "When the train goes by, the windows shake." }
+    ] },
+    { "id": "silencieux", "fr": "silencieux", "pos": "adj", "ipa": "si.lɑ̃.sjø", "display": "silencieux, silencieuse", "en": "silent, quiet; (a phone) on silent", "def": "Qui ne fait pas de bruit.", "def_en": "That makes no noise.", "forms": ["silencieuse", "silencieuses"], "examples": [
+      { "fr": "La nuit, la ferme est **silencieuse**.", "en": "At night, the farm is silent." },
+      { "fr": "Mets ton téléphone sur **silencieux** pendant le film.", "en": "Put your phone on silent during the film." },
+      { "fr": "Les voitures électriques sont très **silencieuses**.", "en": "Electric cars are very quiet." }
+    ] },
+    { "id": "manette", "fr": "manette", "pos": "noun", "g": "f", "ipa": "ma.nɛt", "en": "(game) controller; lever", "def": "L'objet qu'on tient dans les mains pour jouer à un jeu vidéo.", "def_en": "The thing you hold in your hands to play a video game.", "forms": ["manettes"], "examples": [
+      { "fr": "Le dimanche matin, Carla trouve une **manette** dans le sac de Hugo.", "en": "On Sunday morning, Carla finds a controller in Hugo's bag." },
+      { "fr": "Passe-moi la deuxième **manette**, on joue à deux !", "en": "Pass me the second controller, let's play together!" },
+      { "fr": "Hugo a cassé sa **manette** en perdant un match.", "en": "Hugo broke his controller when he lost a match." }
+    ] },
+    { "id": "ecouteurs", "fr": "écouteurs", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "e.ku.tœʁ", "en": "earphones, earbuds", "def": "Ce qu'on met dans les oreilles pour écouter de la musique tout seul.", "def_en": "What you put in your ears to listen to music on your own.", "forms": ["écouteur"], "examples": [
+      { "fr": "Tom, lui, met ses **écouteurs**… sans téléphone.", "en": "As for Tom, he puts his earphones in… without a phone." },
+      { "fr": "Dans le métro, tout le monde a des **écouteurs**.", "en": "On the metro, everyone has earphones." },
+      { "fr": "J'ai perdu un de mes **écouteurs** dans le bus.", "en": "I lost one of my earbuds on the bus." }
+    ] },
+    { "id": "smartphone", "fr": "smartphone", "pos": "noun", "g": "m", "ipa": "smaʁt.fɔn", "en": "smartphone", "def": "Un téléphone avec un écran tactile, qui va sur internet.", "def_en": "A phone with a touch screen, which goes on the internet.", "note": "In Quebec: *le téléphone intelligent*.", "forms": ["smartphones"], "examples": [
+      { "fr": "Lui, il n'a pas de **smartphone**.", "en": "He doesn't have a smartphone." },
+      { "fr": "Mon grand-père a acheté son premier **smartphone** à quatre-vingts ans.", "en": "My grandfather bought his first smartphone at eighty." },
+      { "fr": "Aujourd'hui, presque tout le monde a un **smartphone**.", "en": "Today, almost everyone has a smartphone." }
+    ] },
+    { "id": "hors-ligne", "fr": "hors ligne", "pos": "expr", "ipa": "ɔʁ liɲ", "en": "offline", "def": "Sans connexion à internet.", "def_en": "Without an internet connection.", "examples": [
+      { "fr": "Moi, j'avais téléchargé une série pour la regarder **hors ligne**…", "en": "I had downloaded a series to watch offline…" },
+      { "fr": "Cette application fonctionne aussi **hors ligne**.", "en": "This app works offline too." },
+      { "fr": "Le site est **hors ligne** depuis ce matin.", "en": "The website has been offline since this morning." }
+    ] },
+    { "id": "divulgacher", "fr": "divulgâcher", "pos": "verb", "ipa": "di.vyl.ɡɑ.ʃe", "en": "(Quebec) to spoil (a film, a story)", "def": "Raconter la fin d'un film ou d'une série à quelqu'un qui ne l'a pas encore vu.", "def_en": "To tell the end of a film or a series to someone who hasn't seen it yet.", "note": "A Quebec word, from *divulguer* (to reveal) + *gâcher* (to ruin). In France, people say *spoiler*.", "forms": ["divulgâche", "divulgâches", "divulgâchons", "divulgâchez", "divulgâchent", "divulgâché", "divulgâchée", "divulgâchés", "divulgâchées", "divulgâchais", "divulgâchait", "divulgâchions", "divulgâchiez", "divulgâchaient", "divulgâcherai", "divulgâcheras", "divulgâchera", "divulgâcherons", "divulgâcherez", "divulgâcheront", "divulgâcherais", "divulgâcherait", "divulgâcherions", "divulgâcheriez", "divulgâcheraient", "divulgâchant", "divulgâchai", "divulgâchas", "divulgâcha", "divulgâchâmes", "divulgâchâtes", "divulgâchèrent"], "examples": [
+      { "fr": "Non ! Il m'a **divulgâché** la fin !", "en": "No! He's spoilt the ending for me!" },
+      { "fr": "Ne me **divulgâche** pas le film, je le vois ce soir !", "en": "Don't spoil the film for me, I'm seeing it tonight!" },
+      { "fr": "Mon frère adore **divulgâcher** les livres que je lis.", "en": "My brother loves spoiling the books I read." }
+    ] },
+    { "id": "console", "fr": "console", "pos": "noun", "g": "f", "ipa": "kɔ̃.sɔl", "en": "(games) console", "def": "La machine qui sert à jouer aux jeux vidéo sur la télé.", "def_en": "The machine used to play video games on the TV.", "forms": ["consoles"], "examples": [
+      { "fr": "Une manette ? Il n'y a même pas de **console** ici !", "en": "A controller? There isn't even a console here!" },
+      { "fr": "Hugo a acheté sa **console** deux cents euros.", "en": "Hugo bought his console for two hundred euros." },
+      { "fr": "Mon petit frère passe ses journées sur sa **console**.", "en": "My little brother spends his days on his console." }
+    ] },
+    { "id": "en-veille", "fr": "en veille", "pos": "expr", "ipa": "ɑ̃ vɛj", "en": "on standby, in sleep mode", "def": "Ni allumé ni éteint : prêt à fonctionner tout de suite.", "def_en": "Neither on nor off: ready to work straight away.", "examples": [
+      { "fr": "Elle est **en veille**. Elle m'attend !", "en": "It's on standby. It's waiting for me!" },
+      { "fr": "Après cinq minutes, mon ordinateur passe **en veille**.", "en": "After five minutes, my computer goes into sleep mode." },
+      { "fr": "Une télé **en veille** consomme de l'électricité pour rien.", "en": "A TV on standby uses electricity for nothing." }
+    ] }
+  ],
+  "story": {
+    "title": "Le week-end sans écran",
+    "en": "Saturday 20 and Sunday 21 February: a weekend at the farm, with no screens.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt février, les amis passent le week-end à la ferme, chez Jules et Manon.", "en": "On Saturday 20 February, the friends spend the weekend at the farm, at Jules and Manon's." },
+      { "sp": "", "fr": "C'est l'idée de Carla : un week-end de déconnexion. Pas de télé, pas d'ordinateur, pas de smartphone.", "en": "It's Carla's idea: a weekend offline. No TV, no computer, no smartphone." },
+      { "sp": "Carla", "fr": "Cette semaine, notre temps d'écran, c'est six heures par jour ! Ce week-end, on se déconnecte. Mettez vos téléphones en [mode avion|mode-avion], et dans le panier.", "en": "This week, our screen time is six hours a day! This weekend, we're unplugging. Put your phones in airplane mode, and in the basket." },
+      { "sp": "Hugo", "fr": "Six heures ? Ça, c'est Tom. Moi, c'est neuf. Mais je ne suis pas accro, hein !", "en": "Six hours? That's Tom. Mine is nine. But I'm not hooked, OK!" },
+      { "sp": "", "fr": "Hugo donne son téléphone le dernier. Mais il garde son chargeur dans sa poche, au cas où.", "en": "Hugo is the last to hand over his phone. But he keeps his charger in his pocket, just in case." },
+      { "sp": "Manon", "fr": "Ici, on ne recharge pas les téléphones : on recharge les batteries !", "en": "Here, we don't recharge phones: we recharge our batteries!" },
+      { "sp": "", "fr": "Une heure plus tard, Hugo sent son téléphone vibrer dans sa poche. Mais son téléphone est dans le panier !", "en": "An hour later, Hugo feels his phone vibrate in his pocket. But his phone is in the basket!" },
+      { "sp": "Sophie", "fr": "Regardez son doigt sur la table : il fait défiler son fil d'actualité, sans téléphone !", "en": "Look at his finger on the table: he's scrolling through his news feed, with no phone!" },
+      { "sp": "Hugo", "fr": "C'est l'habitude ! Et j'ai entendu ma sonnerie, c'est sûr.", "en": "It's a habit! And I heard my ringtone, I'm sure." },
+      { "sp": "Jules", "fr": "Ta sonnerie ? C'est le téléphone de mon père. Lui, il n'a pas de smartphone.", "en": "Your ringtone? That's my dad's phone. He doesn't have a smartphone." },
+      { "sp": "Pierre", "fr": "Mon téléphone n'est pas tactile : il a des boutons, et sa batterie dure une semaine !", "en": "My phone doesn't have a touch screen: it has buttons, and its battery lasts a week!" },
+      { "sp": "Manon", "fr": "Tu vois, Hugo, c'est une vraie dépendance. Comme le chocolat.", "en": "You see, Hugo, it's a real addiction. Like chocolate." },
+      { "sp": "Hugo", "fr": "Le chocolat ? Je n'en mange plus depuis le premier février ! Et mon téléphone, je peux arrêter quand je veux.", "en": "Chocolate? I haven't eaten any since the first of February! And my phone, I can stop whenever I want." },
+      { "sp": "", "fr": "Le soir, au coin du feu, on joue à un jeu de société : le Monopoly. Hugo fait faillite, comme à Marseille.", "en": "In the evening, by the fire, they play a board game: Monopoly. Hugo goes bankrupt, just like in Marseille." },
+      { "sp": "Jules", "fr": "J'ai une surprise. Vous vous souvenez de vos lettres, à ouvrir dans dix ans ?", "en": "I have a surprise. Do you remember your letters, to be opened in ten years?" },
+      { "sp": "", "fr": "Il les emmène dans la grange. En novembre, il a caché la boîte derrière une pierre du mur.", "en": "He takes them to the barn. In November, he hid the box behind a stone in the wall." },
+      { "sp": "Hugo", "fr": "On peut l'ouvrir ? Juste une minute ?", "en": "Can we open it? Just for a minute?" },
+      { "sp": "Jules", "fr": "Dans dix ans, Hugo !", "en": "In ten years, Hugo!" },
+      { "sp": "Hugo", "fr": "Dix ans sans lire ma lettre… C'est pire que deux jours sans écran !", "en": "Ten years without reading my letter… That's worse than two days without screens!" },
+      { "sp": "Carla", "fr": "Et maintenant, au lit. Le soir, la lumière bleue des écrans empêche de dormir… Mais ici, il n'y a pas d'écran !", "en": "And now, bed. In the evening, the blue light from screens stops you sleeping… But here, there are no screens!" },
+      { "sp": "", "fr": "La nuit, la ferme est silencieuse. Hugo dort dix heures.", "en": "At night, the farm is silent. Hugo sleeps for ten hours." },
+      { "sp": "", "fr": "Le dimanche matin, Carla trouve une manette dans le sac de Hugo.", "en": "On Sunday morning, Carla finds a controller in Hugo's bag." },
+      { "sp": "Carla", "fr": "Une manette ? Il n'y a même pas de console ici !", "en": "A controller? There isn't even a console here!" },
+      { "sp": "Hugo", "fr": "Je la tiens dans la main. Ça me calme.", "en": "I hold it in my hand. It calms me down." },
+      { "sp": "Sophie", "fr": "Et ta console, à Lyon ?", "en": "And your console, in Lyon?" },
+      { "sp": "Hugo", "fr": "Elle est en veille. Elle m'attend !", "en": "It's on standby. It's waiting for me!" },
+      { "sp": "Carla", "fr": "En veille, elle consomme de l'électricité pour rien !", "en": "On standby, it uses electricity for nothing!" },
+      { "sp": "", "fr": "Tom, lui, met ses écouteurs… sans téléphone. C'est l'habitude.", "en": "As for Tom, he puts his earphones in… without a phone. Force of habit." },
+      { "sp": "Sophie", "fr": "Moi, j'avais téléchargé une série pour la regarder hors ligne…", "en": "I had downloaded a series to watch offline…" },
+      { "sp": "Carla", "fr": "Hors ligne, c'est encore un écran !", "en": "Offline is still a screen!" },
+      { "sp": "", "fr": "Le dimanche soir, dans le train, les téléphones sortent du mode avion. Hugo a cent quarante-sept notifications.", "en": "On Sunday evening, on the train, the phones come out of airplane mode. Hugo has a hundred and forty-seven notifications." },
+      { "sp": "", "fr": "Le dernier épisode de sa série est sorti samedi, en streaming. Et Antoine lui a envoyé un message : « Incroyable, la fin ! Le méchant, c'est le frère jumeau ! »", "en": "The last episode of his series came out on Saturday, on a streaming service. And Antoine has sent him a message: 'Amazing ending! The bad guy is the twin brother!'" },
+      { "sp": "Hugo", "fr": "Non ! Il m'a divulgâché la fin !", "en": "No! He's spoilt the ending for me!" },
+      { "sp": "Léa", "fr": "« Divulgâcher », c'est un mot québécois. En France, on dit « spoiler ».", "en": "'Divulgâcher' is a Quebec word. In France, we say 'spoiler'." },
+      { "sp": "Tom", "fr": "En anglais aussi ! Attention, spoiler : Hugo ne va pas dormir cette nuit.", "en": "In English too! Spoiler alert: Hugo isn't going to sleep tonight." },
+      { "sp": "", "fr": "Jusqu'à Lyon, Hugo regarde le message d'Antoine en boucle.", "en": "All the way to Lyon, Hugo reads Antoine's message over and over." },
+      { "sp": "Hugo", "fr": "Se déconnecter, c'est facile. C'est le retour qui est difficile !", "en": "Unplugging is easy. It's coming back that's hard!" }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "u39-reseaux",
+  "type": "vocab",
+  "unit": 39,
+  "title": "Les réseaux sociaux",
+  "en": "Social media",
+  "intro": "25 words for social media: posting (**la publication, filmer, le montage, le filtre, le tuto, le hashtag, identifier, l'émoji**), reacting (**le commentaire, commenter, liker, la notification, le message privé, se désabonner**), going viral (**viral, le buzz, la tendance, l'algorithme, le fil d'actualité, l'influenceur, la célébrité, le selfie**) and staying safe (**le pseudo, la vie privée, le cyberharcèlement**). Many of these words come from English; French uses them as they are, and adds French endings to verbs: *liker, j'ai liké*.",
+  "words": [
+    { "id": "publication", "fr": "publication", "pos": "noun", "g": "f", "ipa": "py.bli.ka.sjɔ̃", "en": "post (on social media); publication", "def": "Une photo, une vidéo ou un texte qu'on met sur un réseau social.", "def_en": "A photo, a video or a text you put on a social network.", "forms": ["publications"], "examples": [
+      { "fr": "Sa dernière **publication** a mille commentaires.", "en": "His latest post has a thousand comments." },
+      { "fr": "Enzo prépare sa prochaine **publication**.", "en": "Enzo is preparing his next post." },
+      { "fr": "La **publication** du livre est prévue en mai.", "en": "The book is due to be published in May." }
+    ] },
+    { "id": "viral", "fr": "viral", "pos": "adj", "ipa": "vi.ʁal", "display": "viral, virale", "en": "viral (online)", "def": "Qui se partage très vite, partout, sur internet.", "def_en": "That gets shared very fast, everywhere, on the internet.", "forms": ["virale", "viraux", "virales"], "examples": [
+      { "fr": "La vidéo est devenue **virale** en une nuit.", "en": "The video went viral overnight." },
+      { "fr": "Une photo **virale** peut faire le tour du monde.", "en": "A viral photo can go round the world." },
+      { "fr": "Les vidéos de chats sont souvent **virales**.", "en": "Cat videos often go viral." }
+    ] },
+    { "id": "buzz", "fr": "buzz", "pos": "noun", "g": "m", "ipa": "bœz", "en": "buzz (faire le buzz = to go viral, to cause a stir)", "def": "Le bruit qu'on fait sur internet quand tout le monde parle de la même chose en même temps.", "def_en": "The noise on the internet when everyone talks about the same thing at the same time.", "examples": [
+      { "fr": "La vidéo d'Enzo fait le **buzz**.", "en": "Enzo's video is going viral." },
+      { "fr": "Le **buzz**, ça va, ça vient.", "en": "Buzz comes and goes." },
+      { "fr": "Ce film a créé un énorme **buzz**.", "en": "This film caused a huge stir." }
+    ] },
+    { "id": "commentaire", "fr": "commentaire", "pos": "noun", "g": "m", "ipa": "kɔ.mɑ̃.tɛʁ", "en": "comment", "def": "Un petit texte qu'on écrit sous une publication pour donner son avis.", "def_en": "A short text you write under a post to give your opinion.", "forms": ["commentaires"], "examples": [
+      { "fr": "Lis les **commentaires**, mais pas tous.", "en": "Read the comments, but not all of them." },
+      { "fr": "J'ai laissé un **commentaire** gentil.", "en": "I left a nice comment." },
+      { "fr": "Il y a déjà cinq cents **commentaires** !", "en": "There are already five hundred comments!" }
+    ] },
+    { "id": "commenter", "fr": "commenter", "pos": "verb", "ipa": "kɔ.mɑ̃.te", "en": "to comment (on)", "def": "Écrire ou dire son avis sur quelque chose.", "def_en": "To write or say your opinion about something.", "forms": ["commente", "commentes", "commentons", "commentez", "commentent", "commenté", "commentée", "commentés", "commentées", "commentais", "commentait", "commentions", "commentiez", "commentaient", "commenterai", "commenteras", "commentera", "commenterons", "commenterez", "commenteront", "commenterais", "commenterait", "commenterions", "commenteriez", "commenteraient", "commentant", "commentai", "commentas", "commenta", "commentâmes", "commentâtes", "commentèrent"], "examples": [
+      { "fr": "Plus les gens **commentent**, plus on voit la vidéo.", "en": "The more people comment, the more the video gets seen." },
+      { "fr": "Tout le monde **commente** la photo de Hugo.", "en": "Everyone is commenting on Hugo's photo." },
+      { "fr": "Le journaliste **commente** le match.", "en": "The journalist commentates on the match." }
+    ] },
+    { "id": "liker", "fr": "liker", "pos": "verb", "ipa": "laj.ke", "en": "(informal) to like (on social media)", "def": "Familier : cliquer sur « j'aime » sous une publication.", "def_en": "Informal: to click 'like' under a post.", "forms": ["like", "likes", "likons", "likez", "likent", "liké", "likée", "likés", "likées", "likais", "likait", "likaient"], "examples": [
+      { "fr": "Une cliente lui demande de **liker** sa photo.", "en": "A customer asks him to like her photo." },
+      { "fr": "J'ai **liké** toutes tes photos !", "en": "I've liked all your photos!" },
+      { "fr": "Ma mère **like** tout ce que je publie.", "en": "My mum likes everything I post." }
+    ] },
+    { "id": "influenceur", "fr": "influenceur", "pos": "noun", "g": "m", "ipa": "ɛ̃.fly.ɑ̃.sœʁ", "display": "l'influenceur, l'influenceuse", "en": "influencer", "def": "Une personne très suivie sur les réseaux sociaux, qui donne des idées à ses abonnés.", "def_en": "A person with a big following on social media, who gives ideas to their followers.", "forms": ["influenceurs", "influenceuse", "influenceuses"], "examples": [
+      { "fr": "Une **influenceuse** de Lyon arrive avec son téléphone.", "en": "A Lyon influencer arrives with her phone." },
+      { "fr": "Cet **influenceur** a un million d'abonnés.", "en": "This influencer has a million followers." },
+      { "fr": "Les entreprises paient les **influenceurs**.", "en": "Companies pay influencers." }
+    ] },
+    { "id": "hashtag", "fr": "hashtag", "pos": "noun", "g": "m", "ipa": "aʃ.taɡ", "en": "hashtag", "def": "Un mot avec un petit signe devant, pour retrouver toutes les publications sur le même sujet.", "def_en": "A word with a small sign in front of it, to find all the posts on the same subject.", "note": "The official French word is *le mot-dièse*, but everyone says *hashtag*.", "forms": ["hashtags"], "examples": [
+      { "fr": "Quelqu'un a créé le **hashtag** « le pain d'Enzo ».", "en": "Someone created the hashtag 'Enzo's bread'." },
+      { "fr": "Mets un **hashtag** sous ta photo.", "en": "Put a hashtag under your photo." },
+      { "fr": "Ce **hashtag** est partout aujourd'hui.", "en": "This hashtag is everywhere today." }
+    ] },
+    { "id": "notification", "fr": "notification", "pos": "noun", "g": "f", "ipa": "nɔ.ti.fi.ka.sjɔ̃", "en": "notification", "def": "Un petit message du téléphone pour dire qu'il y a quelque chose de nouveau.", "def_en": "A short message from your phone to say there's something new.", "forms": ["notifications"], "examples": [
+      { "fr": "J'ai deux mille **notifications** !", "en": "I've got two thousand notifications!" },
+      { "fr": "Coupe les **notifications** la nuit.", "en": "Turn off notifications at night." },
+      { "fr": "Une **notification** : quelqu'un a aimé ta photo.", "en": "A notification: someone has liked your photo." }
+    ] },
+    { "id": "selfie", "fr": "selfie", "pos": "noun", "g": "m", "ipa": "sɛl.fi", "en": "selfie", "def": "Une photo de soi, prise avec son propre téléphone.", "def_en": "A photo of yourself, taken with your own phone.", "note": "In Quebec: *un égoportrait*.", "forms": ["selfies"], "examples": [
+      { "fr": "Une cliente prend un **selfie** avec Enzo.", "en": "A customer takes a selfie with Enzo." },
+      { "fr": "On fait un **selfie** tous ensemble ?", "en": "Shall we take a selfie all together?" },
+      { "fr": "Les touristes font des **selfies** sur la place Bellecour.", "en": "Tourists take selfies on place Bellecour." }
+    ] },
+    { "id": "celebrite", "fr": "célébrité", "pos": "noun", "g": "f", "ipa": "se.le.bʁi.te", "en": "fame; celebrity (a famous person)", "def": "Le fait d'être connu de tout le monde. Aussi : une personne très connue.", "def_en": "Being known by everyone. Also: a very famous person.", "forms": ["célébrités"], "examples": [
+      { "fr": "Bienvenue dans le monde des **célébrités** !", "en": "Welcome to the world of celebrities!" },
+      { "fr": "La **célébrité** ne dure pas toujours.", "en": "Fame doesn't always last." },
+      { "fr": "Une **célébrité** est venue à la boulangerie.", "en": "A celebrity came to the bakery." }
+    ] },
+    { "id": "fil-d-actualite", "fr": "fil d'actualité", "pos": "noun", "g": "m", "ipa": "fil dak.tɥa.li.te", "en": "(news) feed", "def": "La liste des nouvelles publications qu'on voit en ouvrant un réseau social.", "def_en": "The list of new posts you see when you open a social network.", "forms": ["fils d'actualité"], "examples": [
+      { "fr": "Enzo regarde son **fil d'actualité**.", "en": "Enzo looks at his feed." },
+      { "fr": "Ton **fil d'actualité** est plein de chats !", "en": "Your feed is full of cats!" },
+      { "fr": "Je passe trop de temps sur mon **fil d'actualité**.", "en": "I spend too much time on my feed." }
+    ] },
+    { "id": "vie-privee", "fr": "vie privée", "pos": "noun", "g": "f", "ipa": "vi pʁi.ve", "en": "privacy, private life", "def": "La partie de sa vie qu'on ne montre pas aux autres.", "def_en": "The part of your life you don't show to others.", "examples": [
+      { "fr": "Protège ta **vie privée** : ne donne pas ton adresse.", "en": "Protect your privacy: don't give your address." },
+      { "fr": "Les célébrités n'ont plus de **vie privée**.", "en": "Celebrities have no private life any more." },
+      { "fr": "C'est ma **vie privée** !", "en": "That's my private life!" }
+    ] },
+    { "id": "filmer", "fr": "filmer", "pos": "verb", "ipa": "fil.me", "en": "to film", "def": "Prendre des images qui bougent, avec une caméra ou un téléphone.", "def_en": "To take moving pictures, with a camera or a phone.", "forms": ["filme", "filmes", "filmons", "filmez", "filment", "filmé", "filmée", "filmés", "filmées", "filmais", "filmait", "filmions", "filmiez", "filmaient", "filmerai", "filmeras", "filmera", "filmerons", "filmerez", "filmeront", "filmerais", "filmerait", "filmerions", "filmeriez", "filmeraient", "filmant", "filmai", "filmas", "filma", "filmâmes", "filmâtes", "filmèrent"], "examples": [
+      { "fr": "Tom a **filmé** le premier pain d'Enzo.", "en": "Tom filmed Enzo's first bread." },
+      { "fr": "Arrête de me **filmer** !", "en": "Stop filming me!" },
+      { "fr": "Enzo **filme** sa grand-mère.", "en": "Enzo films his grandmother." }
+    ] },
+    { "id": "tuto", "fr": "tuto", "pos": "noun", "g": "m", "ipa": "ty.to", "en": "(informal) tutorial, how-to video", "def": "Familier : une vidéo qui explique comment faire quelque chose, pas à pas.", "def_en": "Informal: a video that explains how to do something, step by step.", "note": "Short for *un tutoriel*.", "forms": ["tutos"], "examples": [
+      { "fr": "Tu me fais un **tuto** ?", "en": "Will you make me a tutorial?" },
+      { "fr": "J'ai appris à faire des crêpes avec un **tuto**.", "en": "I learnt to make pancakes from a how-to video." },
+      { "fr": "Ce **tuto** de guitare est très clair.", "en": "This guitar tutorial is very clear." }
+    ] },
+    { "id": "filtre", "fr": "filtre", "pos": "noun", "g": "m", "ipa": "filtʁ", "en": "filter", "def": "Un effet qu'on met sur une photo pour changer ses couleurs. Aussi : un objet qui nettoie l'eau ou l'air.", "def_en": "An effect you put on a photo to change its colours. Also: an object that cleans water or air.", "forms": ["filtres"], "examples": [
+      { "fr": "Sans **filtre**, la photo est plus vraie.", "en": "Without a filter, the photo is more real." },
+      { "fr": "Ce **filtre** te donne des oreilles de chat !", "en": "This filter gives you cat ears!" },
+      { "fr": "Il faut changer le **filtre** de la machine à café.", "en": "The coffee machine's filter needs changing." }
+    ] },
+    { "id": "montage", "fr": "montage", "pos": "noun", "g": "m", "ipa": "mɔ̃.taʒ", "en": "editing (of a video); assembly", "def": "Le travail où on coupe et on met dans l'ordre les images d'une vidéo. Aussi : le fait de monter un meuble.", "def_en": "The work of cutting a video's pictures and putting them in order. Also: putting a piece of furniture together.", "forms": ["montages"], "examples": [
+      { "fr": "Tom fait le **montage** de la vidéo.", "en": "Tom is editing the video." },
+      { "fr": "Le **montage** prend plus de temps que le tournage.", "en": "Editing takes longer than shooting." },
+      { "fr": "Le **montage** de l'armoire a duré trois heures.", "en": "Putting the wardrobe together took three hours." }
+    ] },
+    { "id": "pseudo", "fr": "pseudo", "pos": "noun", "g": "m", "ipa": "psø.do", "en": "username, nickname (online)", "def": "Le nom qu'on choisit pour se présenter sur internet, à la place de son vrai nom.", "def_en": "The name you choose for yourself on the internet, instead of your real name.", "forms": ["pseudos"], "examples": [
+      { "fr": "Choisis un **pseudo**.", "en": "Choose a username." },
+      { "fr": "Mon **pseudo**, c'est « le boulanger du verlan ».", "en": "My username is 'the verlan baker'." },
+      { "fr": "Sous quel **pseudo** tu joues ?", "en": "What username do you play under?" }
+    ] },
+    { "id": "tendance", "fr": "tendance", "pos": "noun", "g": "f", "ipa": "tɑ̃.dɑ̃s", "en": "trend (être en tendance = to be trending); tendency", "def": "Ce qui est à la mode, ou ce dont tout le monde parle en ce moment.", "def_en": "What's in fashion, or what everyone is talking about right now.", "note": "*Avoir tendance à* = to tend to.", "forms": ["tendances"], "examples": [
+      { "fr": "Tu es en **tendance** sur les réseaux !", "en": "You're trending on social media!" },
+      { "fr": "Les **tendances** changent chaque semaine.", "en": "Trends change every week." },
+      { "fr": "Il a **tendance** à arriver en retard.", "en": "He tends to arrive late." }
+    ] },
+    { "id": "message-prive", "fr": "message privé", "pos": "noun", "g": "m", "ipa": "me.saʒ pʁi.ve", "en": "private message, DM", "def": "Un message qu'on envoie à une seule personne, et que les autres ne voient pas.", "def_en": "A message you send to just one person, which others don't see.", "forms": ["messages privés"], "examples": [
+      { "fr": "J'ai cent **messages privés** !", "en": "I've got a hundred private messages!" },
+      { "fr": "Envoie-moi un **message privé**.", "en": "Send me a DM." },
+      { "fr": "Ne réponds pas aux **messages privés** d'inconnus.", "en": "Don't answer private messages from strangers." }
+    ] },
+    { "id": "cyberharcelement", "fr": "cyberharcèlement", "pos": "noun", "g": "m", "ipa": "si.bɛʁ.aʁ.sɛl.mɑ̃", "en": "cyberbullying, online harassment", "def": "Quand une ou plusieurs personnes attaquent quelqu'un sans arrêt sur internet.", "def_en": "When one or more people attack someone non-stop on the internet.", "examples": [
+      { "fr": "Le **cyberharcèlement**, ce n'est pas une blague.", "en": "Cyberbullying is no joke." },
+      { "fr": "On parle du **cyberharcèlement** à l'école.", "en": "They talk about cyberbullying at school." },
+      { "fr": "Elle a été victime de **cyberharcèlement**.", "en": "She was a victim of online harassment." }
+    ] },
+    { "id": "se-desabonner", "fr": "se désabonner", "pos": "verb", "ipa": "sə de.za.bɔ.ne", "en": "to unfollow, to unsubscribe", "def": "Arrêter de suivre un compte, ou arrêter de recevoir quelque chose.", "def_en": "To stop following an account, or to stop receiving something.", "forms": ["me désabonne", "te désabonnes", "se désabonne", "nous nous désabonnons", "vous vous désabonnez", "se désabonnent", "me désabonner", "te désabonner", "nous désabonner", "vous désabonner", "désabonner", "me désabonnerai", "te désabonneras", "se désabonnera", "nous nous désabonnerons", "vous vous désabonnerez", "se désabonneront", "me désabonnerais", "te désabonnerais", "se désabonnerait", "nous nous désabonnerions", "vous vous désabonneriez", "se désabonneraient", "désabonne", "désabonnes", "désabonnons", "désabonnez", "désabonnent", "désabonné", "désabonnée", "désabonnés", "désabonnées", "désabonnais", "désabonnait", "désabonnions", "désabonniez", "désabonnaient", "désabonnerai", "désabonneras", "désabonnera", "désabonnerons", "désabonnerez", "désabonneront", "désabonnerais", "désabonnerait", "désabonnerions", "désabonneriez", "désabonneraient", "désabonnant", "désabonnai", "désabonnas", "désabonna", "désabonnâmes", "désabonnâtes", "désabonnèrent"], "examples": [
+      { "fr": "Si tu n'es pas content, tu peux te **désabonner**.", "en": "If you're not happy, you can unfollow." },
+      { "fr": "Je me suis **désabonné** de ce journal.", "en": "I've cancelled my subscription to this paper." },
+      { "fr": "Il **se désabonne** des comptes trop tristes.", "en": "He unfollows accounts that are too sad." }
+    ] },
+    { "id": "emoji", "fr": "émoji", "pos": "noun", "g": "m", "ipa": "e.mɔ.dʒi", "en": "emoji", "def": "Un petit dessin, comme un visage qui rit, qu'on met dans un message.", "def_en": "A little picture, like a laughing face, that you put in a message.", "forms": ["émojis"], "examples": [
+      { "fr": "Elle répond toujours avec un **émoji**.", "en": "She always replies with an emoji." },
+      { "fr": "Il y a des **émojis** partout sous la vidéo.", "en": "There are emojis everywhere under the video." },
+      { "fr": "Cet **émoji** veut dire « j'adore ».", "en": "This emoji means 'I love it'." }
+    ] },
+    { "id": "algorithme", "fr": "algorithme", "pos": "noun", "g": "m", "ipa": "al.ɡɔ.ʁitm", "en": "algorithm", "def": "Le programme qui décide ce qu'on voit sur un réseau social ou sur un site.", "def_en": "The program that decides what you see on a social network or a website.", "forms": ["algorithmes"], "examples": [
+      { "fr": "C'est l'**algorithme** qui choisit les vidéos.", "en": "It's the algorithm that chooses the videos." },
+      { "fr": "L'**algorithme** me propose toujours des vidéos de chats.", "en": "The algorithm always suggests cat videos to me." },
+      { "fr": "Personne ne comprend vraiment l'**algorithme**.", "en": "Nobody really understands the algorithm." }
+    ] },
+    { "id": "identifier", "fr": "identifier", "pos": "verb", "ipa": "i.dɑ̃.ti.fje", "en": "to tag (in a photo); to identify", "def": "Mettre le nom de quelqu'un sur une photo, en ligne. Aussi : reconnaître qui est quelqu'un.", "def_en": "To put someone's name on a photo, online. Also: to recognise who someone is.", "forms": ["identifie", "identifies", "identifions", "identifiez", "identifient", "identifié", "identifiée", "identifiés", "identifiées", "identifiais", "identifiait", "identifiions", "identifiiez", "identifiaient", "identifierai", "identifieras", "identifiera", "identifierons", "identifierez", "identifieront", "identifierais", "identifierait", "identifierions", "identifieriez", "identifieraient", "identifiai", "identifias", "identifia", "identifiâmes", "identifiâtes", "identifièrent"], "examples": [
+      { "fr": "Quelqu'un m'a **identifié** sur une photo.", "en": "Someone tagged me in a photo." },
+      { "fr": "N'**identifie** pas tes amis sans leur demander.", "en": "Don't tag your friends without asking them." },
+      { "fr": "La police a **identifié** le voleur.", "en": "The police have identified the thief." }
+    ] }
+  ],
+  "story": {
+    "title": "Enzo fait le buzz",
+    "en": "Tuesday 2 February: overnight, Enzo has become famous on the internet.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mardi deux février, à sept heures du matin, il y a la queue devant la boulangerie de Madame Fournier, jusqu'au coin de la rue.", "en": "On Tuesday 2 February, at seven in the morning, there's a queue outside Madame Fournier's bakery, all the way to the corner of the street." },
+      { "sp": "", "fr": "La veille, Tom a publié sur les réseaux sociaux la vidéo du premier pain d'Enzo, avec un joli montage et de la musique. En une nuit, la vidéo est devenue virale.", "en": "The day before, Tom posted the video of Enzo's first bread on social media, nicely edited and with music. Overnight, the video went viral." },
+      { "sp": "Enzo", "fr": "Frère, j'ai deux mille notifications et cent messages privés ! Mon téléphone n'arrête pas de vibrer.", "en": "Bro, I've got two thousand notifications and a hundred DMs! My phone won't stop vibrating." },
+      { "sp": "Tom", "fr": "Tu es en tendance ! Les gens adorent ton accent et tes mots en verlan.", "en": "You're trending! People love your accent and your verlan words." },
+      { "sp": "Madame Fournier", "fr": "Une tendance ? Des notifications ? Moi, je vois seulement qu'à huit heures, je n'ai plus de pain !", "en": "Trending? Notifications? All I can see is that at eight o'clock, I've got no bread left!" },
+      { "sp": "", "fr": "Dans la boulangerie, une cliente prend un selfie avec Enzo. Une autre lui demande de liker sa photo.", "en": "In the bakery, one customer takes a selfie with Enzo. Another asks him to like her photo." },
+      { "sp": "Hugo", "fr": "Bienvenue dans le monde des célébrités ! Moi, je connais : la poubelle, le podcast… Le buzz, ça va, ça vient.", "en": "Welcome to the world of celebrities! I know all about it: the bin, the podcast… Buzz comes and goes." },
+      { "sp": "Enzo", "fr": "Regarde les commentaires : « Le roi de la baguette ! », « Trop mignon ! »… Et quelqu'un m'a identifié sur une photo, avec le hashtag « le pain d'Enzo ».", "en": "Look at the comments: 'The king of the baguette!', 'So cute!'… And someone's tagged me in a photo, with the hashtag 'Enzo's bread'." },
+      { "sp": "Hugo", "fr": "Lis les commentaires, mais pas tous. Sur internet, il y a aussi des gens méchants. Le cyberharcèlement, ce n'est pas une blague.", "en": "Read the comments, but not all of them. There are nasty people on the internet too. Cyberbullying is no joke." },
+      { "sp": "Tom", "fr": "Et protège ta vie privée : ne donne jamais ton adresse. Utilise un pseudo.", "en": "And protect your privacy: never give your address. Use a username." },
+      { "sp": "Enzo", "fr": "Mon pseudo, c'est « le boulanger du verlan ». C'est chanmé, non ?", "en": "My username is 'the verlan baker'. That's awesome, right?" },
+      { "sp": "", "fr": "À midi, une influenceuse de Lyon arrive avec son téléphone. Elle a cinq cent mille abonnés.", "en": "At noon, a Lyon influencer arrives with her phone. She has five hundred thousand followers." },
+      { "sp": "L'influenceuse", "fr": "Enzo, tu me fais un tuto ? « Comment faire une baguette en verlan » ! Mes abonnés vont adorer.", "en": "Enzo, will you make a tutorial for me? 'How to make a baguette in verlan'! My followers will love it." },
+      { "sp": "Madame Fournier", "fr": "Un tuto ? Le meilleur tuto, mademoiselle, c'est deux ans d'apprentissage !", "en": "A tutorial? The best tutorial, young lady, is a two-year apprenticeship!" },
+      { "sp": "", "fr": "L'après-midi, Enzo regarde son fil d'actualité. Partout, les mêmes images : son pain, ses mains, son sourire, avec des filtres et des émojis.", "en": "In the afternoon, Enzo looks at his feed. The same pictures everywhere: his bread, his hands, his smile, with filters and emojis." },
+      { "sp": "Enzo", "fr": "Pourquoi tout le monde voit ma vidéo ?", "en": "Why is everyone seeing my video?" },
+      { "sp": "Tom", "fr": "C'est l'algorithme : plus les gens commentent, plus il montre la vidéo.", "en": "It's the algorithm: the more people comment, the more it shows the video." },
+      { "sp": "", "fr": "Le soir, pour sa nouvelle publication, Enzo filme… sa grand-mère. Madame Fournier regarde la caméra : « Les vrais boulangers ne font pas de selfies. Ils font du pain. »", "en": "In the evening, for his new post, Enzo films… his grandmother. Madame Fournier looks into the camera: 'Real bakers don't take selfies. They make bread.'" },
+      { "sp": "", "fr": "Deux heures plus tard, la vidéo de Madame Fournier a plus de vues que celle d'Enzo.", "en": "Two hours later, Madame Fournier's video has more views than Enzo's." },
+      { "sp": "Enzo", "fr": "Mamie, tu me voles mes abonnés !", "en": "Grandma, you're stealing my followers!" },
+      { "sp": "Madame Fournier", "fr": "Si tu n'es pas content, tu peux te désabonner.", "en": "If you're not happy, you can unfollow." }
+    ]
+  }
+}

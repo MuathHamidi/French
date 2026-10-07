@@ -1,0 +1,166 @@
+{
+  "id": "u39-achats",
+  "type": "vocab",
+  "unit": 39,
+  "title": "Les achats en ligne",
+  "en": "Online shopping",
+  "intro": "25 words for shopping online: choosing (**la plateforme, comparer, le stock, la rupture de stock, le code promo, la carte cadeau, l'acheteur**), paying (**la commande, le paiement, sécurisé, le clic, les frais de port**), waiting (**expédier, l'expédition, le suivi, le transporteur, la livraison, livrer, le livreur**), the doorstep (**l'interphone, le digicode, l'avis de passage, le point relais**) and what can go wrong (**abîmer, renvoyer**).",
+  "words": [
+    { "id": "commande-n", "fr": "commande", "pos": "noun", "g": "f", "ipa": "kɔ.mɑ̃d", "en": "order", "def": "Ce qu'on a acheté sur un site, ou demandé dans un magasin, et qu'on attend.", "def_en": "What you've bought on a website, or asked for in a shop, and are waiting for.", "forms": ["commandes"], "examples": [
+      { "fr": "Merci pour votre **commande** !", "en": "Thank you for your order!" },
+      { "fr": "Ma **commande** n'est pas encore [arrivée|arriver].", "en": "My order hasn't arrived yet." },
+      { "fr": "Le serveur prend la **commande**.", "en": "The waiter takes the order." }
+    ] },
+    { "id": "paiement", "fr": "paiement", "pos": "noun", "g": "m", "ipa": "pɛ.mɑ̃", "en": "payment", "def": "Le moment où on donne l'argent pour un achat.", "def_en": "The moment you hand over the money for a purchase.", "forms": ["paiements"], "examples": [
+      { "fr": "Le **paiement** est sécurisé.", "en": "The payment is secure." },
+      { "fr": "Il passe au **paiement**.", "en": "He goes to checkout." },
+      { "fr": "On accepte le **paiement** par carte.", "en": "We accept card payments." }
+    ] },
+    { "id": "securise", "fr": "sécurisé", "pos": "adj", "ipa": "se.ky.ʁi.ze", "display": "sécurisé, sécurisée", "en": "secure", "def": "Protégé contre les voleurs et les pirates.", "def_en": "Protected against thieves and hackers.", "forms": ["sécurisée", "sécurisés", "sécurisées"], "examples": [
+      { "fr": "Paiement **sécurisé** : il y a un petit cadenas.", "en": "Secure payment: there's a little padlock." },
+      { "fr": "Ce site est **sécurisé**.", "en": "This website is secure." },
+      { "fr": "Utilise une connexion **sécurisée**.", "en": "Use a secure connection." }
+    ] },
+    { "id": "code-promo", "fr": "code promo", "pos": "noun", "g": "m", "ipa": "kɔd pʁɔ.mo", "en": "promo code, discount code", "def": "Un mot ou des chiffres qu'on tape sur un site pour payer moins cher.", "def_en": "A word or numbers you type on a website to pay less.", "forms": ["codes promo"], "examples": [
+      { "fr": "Il y a un **code promo** pour la Saint-Valentin.", "en": "There's a discount code for Valentine's Day." },
+      { "fr": "Tape le **code promo** avant de payer.", "en": "Type the promo code before you pay." },
+      { "fr": "Mon **code promo** donne moins dix pour cent.", "en": "My code gives ten per cent off." }
+    ] },
+    { "id": "frais-de-port", "fr": "frais de port", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "fʁɛ d(ə) pɔʁ", "en": "postage, shipping costs", "def": "L'argent qu'on paie pour recevoir un colis chez soi.", "def_en": "The money you pay to get a parcel delivered to your home.", "examples": [
+      { "fr": "Les **frais de port** sont gratuits.", "en": "Shipping is free." },
+      { "fr": "Avec les **frais de port**, ça coûte trente euros.", "en": "With postage, it costs thirty euros." },
+      { "fr": "Les **frais de port** sont offerts dès cinquante euros.", "en": "Shipping is free on orders over fifty euros." }
+    ] },
+    { "id": "rupture-de-stock", "fr": "rupture de stock", "pos": "noun", "g": "f", "ipa": "ʁyp.tyʁ də stɔk", "en": "stock shortage (en rupture de stock = out of stock)", "def": "Quand un magasin n'a plus un produit à vendre.", "def_en": "When a shop has none of a product left to sell.", "forms": ["ruptures de stock"], "examples": [
+      { "fr": "Le modèle rouge est en **rupture de stock**.", "en": "The red model is out of stock." },
+      { "fr": "Cette console est en **rupture de stock** avant Noël.", "en": "This console is out of stock before Christmas." },
+      { "fr": "Encore une **rupture de stock** !", "en": "Out of stock again!" }
+    ] },
+    { "id": "stock", "fr": "stock", "pos": "noun", "g": "m", "ipa": "stɔk", "en": "stock (en stock = in stock)", "def": "Toutes les choses qu'un magasin a, [prêtes|pret] à vendre.", "def_en": "All the things a shop has, ready to sell.", "forms": ["stocks"], "examples": [
+      { "fr": "Le rouge n'est plus en **stock**.", "en": "The red one isn't in stock any more." },
+      { "fr": "Il reste trois paires en **stock**.", "en": "There are three pairs left in stock." },
+      { "fr": "Le nouveau **stock** arrive lundi.", "en": "The new stock arrives on Monday." }
+    ] },
+    { "id": "expedier", "fr": "expédier", "pos": "verb", "ipa": "ɛks.pe.dje", "en": "to send, to ship", "def": "Envoyer un colis ou une lettre.", "def_en": "To send a parcel or a letter.", "forms": ["expédie", "expédies", "expédions", "expédiez", "expédient", "expédié", "expédiée", "expédiés", "expédiées", "expédiais", "expédiait", "expédiions", "expédiiez", "expédiaient", "expédierai", "expédieras", "expédiera", "expédierons", "expédierez", "expédieront", "expédierais", "expédierait", "expédierions", "expédieriez", "expédieraient", "expédiant", "expédiai", "expédias", "expédia", "expédiâmes", "expédiâtes", "expédièrent"], "examples": [
+      { "fr": "Votre commande sera **expédiée** demain.", "en": "Your order will be shipped tomorrow." },
+      { "fr": "On **expédie** les colis le matin.", "en": "We send the parcels out in the morning." },
+      { "fr": "J'ai **expédié** le cadeau en Angleterre.", "en": "I've sent the present to England." }
+    ] },
+    { "id": "expedition", "fr": "expédition", "pos": "noun", "g": "f", "ipa": "ɛks.pe.di.sjɔ̃", "en": "dispatch, shipping; expedition", "def": "L'envoi d'un colis. Aussi : un long voyage difficile.", "def_en": "Sending a parcel. Also: a long, difficult journey.", "forms": ["expéditions"], "examples": [
+      { "fr": "« **Expédition** en cours. »", "en": "'Being dispatched.'" },
+      { "fr": "L'**expédition** prend deux jours.", "en": "Shipping takes two days." },
+      { "fr": "Ils partent en **expédition** au pôle Nord.", "en": "They're setting off on an expedition to the North Pole." }
+    ] },
+    { "id": "livrer", "fr": "livrer", "pos": "verb", "ipa": "li.vʁe", "en": "to deliver", "def": "Apporter une commande chez quelqu'un.", "def_en": "To bring an order to someone's home.", "forms": ["livre", "livres", "livrons", "livrez", "livrent", "livré", "livrée", "livrés", "livrées", "livrais", "livrait", "livrions", "livriez", "livraient", "livrerai", "livreras", "livrera", "livrerons", "livrerez", "livreront", "livrerais", "livrerait", "livrerions", "livreriez", "livreraient", "livrant", "livrai", "livras", "livra", "livrâmes", "livrâtes", "livrèrent"], "examples": [
+      { "fr": "Nous allons vous **livrer** avant midi.", "en": "We'll deliver to you before noon." },
+      { "fr": "Le restaurant **livre** des pizzas le soir.", "en": "The restaurant delivers pizzas in the evening." },
+      { "fr": "Le canapé a été **livré** hier.", "en": "The sofa was delivered yesterday." }
+    ] },
+    { "id": "suivi-n", "fr": "suivi", "pos": "noun", "g": "m", "ipa": "sɥi.vi", "en": "tracking; follow-up", "def": "Le service qui permet de savoir où est un colis.", "def_en": "The service that lets you know where a parcel is.", "note": "*Le numéro de suivi* = the tracking number.", "examples": [
+      { "fr": "Le **suivi** dit : « Expédition en cours. »", "en": "The tracking says: 'Being dispatched.'" },
+      { "fr": "Je regarde le **suivi** de mon colis toutes les heures.", "en": "I check my parcel's tracking every hour." },
+      { "fr": "Le médecin assure le **suivi** du patient.", "en": "The doctor follows up the patient." }
+    ] },
+    { "id": "transporteur", "fr": "transporteur", "pos": "noun", "g": "m", "ipa": "tʁɑ̃s.pɔʁ.tœʁ", "en": "carrier, delivery company", "def": "L'entreprise qui apporte les colis jusqu'au client.", "def_en": "The company that takes parcels all the way to the customer.", "forms": ["transporteurs"], "examples": [
+      { "fr": "« Votre colis est chez le **transporteur**. »", "en": "'Your parcel is with the carrier.'" },
+      { "fr": "Le **transporteur** a perdu mon colis !", "en": "The carrier has lost my parcel!" },
+      { "fr": "Ce **transporteur** livre aussi le samedi.", "en": "This carrier delivers on Saturdays too." }
+    ] },
+    { "id": "interphone", "fr": "interphone", "pos": "noun", "g": "m", "ipa": "ɛ̃.tɛʁ.fɔn", "en": "intercom, entryphone", "def": "L'appareil, à l'entrée d'un immeuble, pour parler avec les gens des appartements.", "def_en": "The device at a building's entrance for talking to the people in the flats.", "forms": ["interphones"], "examples": [
+      { "fr": "L'**interphone** de l'immeuble est en panne.", "en": "The building's intercom is broken." },
+      { "fr": "Sonne à l'**interphone**, je t'ouvre !", "en": "Buzz the intercom, I'll let you in!" },
+      { "fr": "Je n'entends rien dans cet **interphone**.", "en": "I can't hear a thing on this intercom." }
+    ] },
+    { "id": "digicode", "fr": "digicode", "pos": "noun", "g": "m", "ipa": "di.ʒi.kɔd", "en": "door code (keypad at a building's entrance)", "def": "Le code qu'on tape à la porte d'un immeuble pour entrer.", "def_en": "The code you type at a building's door to get in.", "forms": ["digicodes"], "examples": [
+      { "fr": "Le livreur ne connaît pas le **digicode**.", "en": "The delivery man doesn't know the door code." },
+      { "fr": "Quel est le **digicode** de ton immeuble ?", "en": "What's the door code for your building?" },
+      { "fr": "Écris le **digicode** avec ton adresse.", "en": "Write the door code with your address." }
+    ] },
+    { "id": "avis-de-passage", "fr": "avis de passage", "pos": "noun", "g": "m", "ipa": "a.vi d(ə) pa.saʒ", "en": "delivery notice ('sorry we missed you' card)", "def": "Le papier que le livreur laisse quand on n'est pas là, pour dire où trouver son colis.", "def_en": "The slip the delivery man leaves when you're out, to say where to find your parcel.", "examples": [
+      { "fr": "Le livreur laisse un **avis de passage**.", "en": "The delivery man leaves a delivery notice." },
+      { "fr": "J'ai trouvé un **avis de passage** dans ma boîte aux lettres.", "en": "I found a missed-delivery card in my letterbox." },
+      { "fr": "Avec l'**avis de passage**, va chercher ton colis.", "en": "Take the delivery notice and go and collect your parcel." }
+    ] },
+    { "id": "point-relais", "fr": "point relais", "pos": "noun", "g": "m", "ipa": "pwɛ̃ ʁə.lɛ", "en": "parcel collection point", "def": "Un magasin du quartier où on peut aller chercher ses colis.", "def_en": "A local shop where you can collect your parcels.", "forms": ["points relais"], "examples": [
+      { "fr": "Votre colis vous attend au **point relais**.", "en": "Your parcel is waiting for you at the collection point." },
+      { "fr": "Le **point relais** ferme à sept heures.", "en": "The collection point closes at seven." },
+      { "fr": "Je préfère la livraison en **point relais**.", "en": "I prefer delivery to a collection point." }
+    ] },
+    { "id": "abimer", "fr": "abîmer", "pos": "verb", "ipa": "a.bi.me", "en": "to damage, to spoil (abîmé = damaged)", "def": "Mettre une chose en mauvais état, la casser un peu.", "def_en": "To put something in bad condition, to break it a little.", "forms": ["abîme", "abîmes", "abîmons", "abîmez", "abîment", "abîmé", "abîmée", "abîmés", "abîmées", "abîmais", "abîmait", "abîmions", "abîmiez", "abîmaient", "abîmerai", "abîmeras", "abîmera", "abîmerons", "abîmerez", "abîmeront", "abîmerais", "abîmerait", "abîmerions", "abîmeriez", "abîmeraient", "abîmant", "abîmai", "abîmas", "abîma", "abîmâmes", "abîmâtes", "abîmèrent"], "examples": [
+      { "fr": "La boîte est **abîmée**.", "en": "The box is damaged." },
+      { "fr": "Ne pose pas ton café sur le livre : tu vas l'**abîmer** !", "en": "Don't put your coffee on the book: you'll ruin it!" },
+      { "fr": "Le soleil **abîme** la peau.", "en": "The sun damages your skin." }
+    ] },
+    { "id": "renvoyer", "fr": "renvoyer", "pos": "verb", "ipa": "ʁɑ̃.vwa.je", "en": "to send back; to dismiss, to fire", "def": "Envoyer une chose là d'où elle vient. Aussi : faire partir quelqu'un de son travail.", "def_en": "To send something back where it came from. Also: to make someone leave their job.", "forms": ["renvoie", "renvoies", "renvoyons", "renvoyez", "renvoient", "renvoyé", "renvoyée", "renvoyés", "renvoyées", "renvoyais", "renvoyait", "renvoyions", "renvoyiez", "renvoyaient", "renverrai", "renverras", "renverra", "renverrons", "renverrez", "renverront", "renverrais", "renverrait", "renverrions", "renverriez", "renverraient", "renvoyant", "renvoyai", "renvoyas", "renvoya", "renvoyâmes", "renvoyâtes", "renvoyèrent"], "examples": [
+      { "fr": "On lui propose de **renvoyer** le colis.", "en": "They offer to let him send the parcel back." },
+      { "fr": "Je **renvoie** ces chaussures : elles sont trop petites.", "en": "I'm sending these shoes back: they're too small." },
+      { "fr": "Le patron a **renvoyé** deux employés.", "en": "The boss has fired two employees." }
+    ] },
+    { "id": "clic", "fr": "clic", "pos": "noun", "g": "m", "ipa": "klik", "en": "click", "def": "Le geste, ou le petit bruit, quand on appuie sur une souris ou sur un écran.", "def_en": "The movement, or the little sound, when you press a mouse or a screen.", "forms": ["clics"], "examples": [
+      { "fr": "En un **clic**, c'est fait !", "en": "One click and it's done!" },
+      { "fr": "Tout s'achète en un **clic**.", "en": "You can buy anything in one click." },
+      { "fr": "Un **clic** de trop, et tu paies deux fois !", "en": "One click too many, and you pay twice!" }
+    ] },
+    { "id": "acheteur", "fr": "acheteur", "pos": "noun", "g": "m", "ipa": "aʃ.tœʁ", "display": "l'acheteur, l'acheteuse", "en": "buyer", "def": "La personne qui paie pour avoir quelque chose.", "def_en": "The person who pays to get something.", "forms": ["acheteurs", "acheteuse", "acheteuses"], "examples": [
+      { "fr": "Je suis un **acheteur** malheureux.", "en": "I'm an unlucky buyer." },
+      { "fr": "Les **acheteurs** laissent des avis sur le site.", "en": "Buyers leave reviews on the website." },
+      { "fr": "Le vendeur et l'**acheteur** se mettent d'accord sur le prix.", "en": "The seller and the buyer agree on the price." }
+    ] },
+    { "id": "plateforme", "fr": "plateforme", "pos": "noun", "g": "f", "ipa": "plat.fɔʁm", "en": "platform (big website, online service); (raised) platform", "def": "Un grand site internet où on vend, on achète ou on regarde des choses.", "def_en": "A big website where people sell, buy or watch things.", "forms": ["plateformes"], "examples": [
+      { "fr": "Sur cette **plateforme**, la paire coûte quatre-vingts euros.", "en": "On this platform, the pair costs eighty euros." },
+      { "fr": "Je regarde mes séries sur une **plateforme**.", "en": "I watch my series on a streaming platform." },
+      { "fr": "Les **plateformes** gagnent beaucoup d'argent.", "en": "Platforms make a lot of money." }
+    ] },
+    { "id": "carte-cadeau", "fr": "carte cadeau", "pos": "noun", "g": "f", "ipa": "kaʁt ka.do", "en": "gift card, gift voucher", "def": "Une carte avec de l'argent dessus, qu'on offre pour acheter dans un magasin.", "def_en": "A card with money on it, given as a present to spend in a shop.", "forms": ["cartes cadeaux"], "examples": [
+      { "fr": "L'année prochaine, offre-lui une **carte cadeau** !", "en": "Next year, give her a gift card!" },
+      { "fr": "J'ai reçu une **carte cadeau** de cinquante euros.", "en": "I got a fifty-euro gift card." },
+      { "fr": "Une **carte cadeau**, c'est pratique… mais pas très romantique.", "en": "A gift card is handy… but not very romantic." }
+    ] },
+    { "id": "comparer", "fr": "comparer", "pos": "verb", "ipa": "kɔ̃.pa.ʁe", "en": "to compare", "def": "Mettre deux choses l'une à côté de l'autre, pour voir leurs différences.", "def_en": "To put two things side by side, to see how they differ.", "forms": ["compare", "compares", "comparons", "comparez", "comparent", "comparé", "comparée", "comparés", "comparées", "comparais", "comparait", "comparions", "compariez", "comparaient", "comparerai", "compareras", "comparera", "comparerons", "comparerez", "compareront", "comparerais", "comparerait", "comparerions", "compareriez", "compareraient", "comparant", "comparai", "comparas", "compara", "comparâmes", "comparâtes", "comparèrent"], "examples": [
+      { "fr": "Il **compare** les prix sur trois sites.", "en": "He compares prices on three websites." },
+      { "fr": "Ne te **compare** pas aux autres.", "en": "Don't compare yourself to others." },
+      { "fr": "On a **comparé** les deux téléphones.", "en": "We compared the two phones." }
+    ] },
+    { "id": "livraison", "fr": "livraison", "pos": "noun", "g": "f", "ipa": "li.vʁɛ.zɔ̃", "en": "delivery", "def": "Le fait d'apporter une commande chez quelqu'un.", "def_en": "Bringing an order to someone's home.", "forms": ["livraisons"], "examples": [
+      { "fr": "La **livraison** est gratuite.", "en": "Delivery is free." },
+      { "fr": "La **livraison** prend deux jours.", "en": "Delivery takes two days." },
+      { "fr": "Je reste à la maison pour la **livraison**.", "en": "I'm staying in for the delivery." }
+    ] },
+    { "id": "livreur", "fr": "livreur", "pos": "noun", "g": "m", "ipa": "li.vʁœʁ", "display": "le livreur, la livreuse", "en": "delivery man, courier", "def": "La personne qui apporte les colis ou les repas chez les gens.", "def_en": "The person who brings parcels or meals to people's homes.", "forms": ["livreuse", "livreurs", "livreuses"], "examples": [
+      { "fr": "Le **livreur** ne connaît pas le digicode.", "en": "The delivery man doesn't know the door code." },
+      { "fr": "La **livreuse** est passée à dix heures.", "en": "The courier came by at ten." },
+      { "fr": "Les **livreurs** à vélo traversent toute la ville.", "en": "Cycle couriers ride all over town." }
+    ] }
+  ],
+  "story": {
+    "title": "La chaussure de Cendrillon",
+    "en": "8 to 14 February: Hugo orders a Valentine's present online. One year with Carla deserves the perfect gift.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le lundi huit février, Hugo a un problème : dimanche, c'est la Saint-Valentin, et ça fait un an qu'il sort avec Carla. Il veut lui offrir des chaussures de danse.", "en": "On Monday 8 February, Hugo has a problem: Sunday is Valentine's Day, and he's been going out with Carla for a year. He wants to give her dance shoes." },
+      { "sp": "", "fr": "Il compare les prix sur trois sites. Sur la meilleure plateforme, la paire coûte quatre-vingts euros… mais il y a un code promo pour la Saint-Valentin : moins vingt pour cent !", "en": "He compares prices on three websites. On the best platform, the pair costs eighty euros… but there's a Valentine's discount code: twenty per cent off!" },
+      { "sp": "Hugo", "fr": "Et les frais de port sont gratuits ! Livraison en quarante-huit heures.", "en": "And shipping is free! Delivery in forty-eight hours." },
+      { "sp": "", "fr": "Mais quelle pointure fait Carla ? Hugo envoie un message à Inès, en cachette.", "en": "But what size shoe does Carla take? Hugo secretly sends Inès a message." },
+      { "sp": "Inès", "fr": "Trente-huit. Mais pas un mot à ma sœur !", "en": "Thirty-eight. But not a word to my sister!" },
+      { "sp": "", "fr": "Le modèle rouge est en rupture de stock. Hugo prend le noir, le seul qui reste en stock, puis il passe au paiement.", "en": "The red model is out of stock. Hugo takes the black one, the only one left in stock, then goes to checkout." },
+      { "sp": "Hugo", "fr": "Paiement sécurisé : il y a un petit cadenas. Je valide… En un clic, c'est fait !", "en": "Secure payment: there's a little padlock. I confirm… One click and it's done!" },
+      { "sp": "", "fr": "Il reçoit un mail : « Merci pour votre commande ! Elle sera expédiée demain. »", "en": "He gets an email: 'Thank you for your order! It will be shipped tomorrow.'" },
+      { "sp": "", "fr": "Le mercredi, Hugo regarde le suivi toutes les heures : « Expédition en cours. » Le jeudi : « Votre colis est chez le transporteur. »", "en": "On Wednesday, Hugo checks the tracking every hour: 'Being dispatched.' On Thursday: 'Your parcel is with the carrier.'" },
+      { "sp": "", "fr": "Le vendredi : « Nous allons vous livrer avant midi. » Mais l'interphone de l'immeuble est en panne, et le livreur ne connaît pas le digicode.", "en": "On Friday: 'We'll deliver to you before noon.' But the building's intercom is broken, and the delivery man doesn't know the door code." },
+      { "sp": "", "fr": "Le soir, Hugo trouve un avis de passage dans sa boîte aux lettres.", "en": "In the evening, Hugo finds a delivery notice in his letterbox." },
+      { "sp": "Hugo", "fr": "« Votre colis vous attend au point relais. » Lequel ?", "en": "'Your parcel is waiting for you at the collection point.' Which one?" },
+      { "sp": "", "fr": "Le point relais, c'est… la boulangerie de Madame Fournier. Depuis le buzz d'Enzo, elle accepte aussi les colis.", "en": "The collection point is… Madame Fournier's bakery. Since Enzo went viral, she takes in parcels too." },
+      { "sp": "", "fr": "Le samedi matin, Hugo descend chercher son colis. Mais Carla et Inès sont là, dans la queue.", "en": "On Saturday morning, Hugo goes down to collect his parcel. But Carla and Inès are there, in the queue." },
+      { "sp": "Madame Fournier", "fr": "Ah, Hugo ! Votre colis est arrivé. C'est écrit « Chaussures de danse » sur le carton !", "en": "Ah, Hugo! Your parcel has come. It says 'Dance shoes' on the box!" },
+      { "sp": "Hugo", "fr": "Euh… c'est pour moi ! Je… je commence la danse !", "en": "Er… they're for me! I'm… I'm taking up dancing!" },
+      { "sp": "Carla", "fr": "Toi ? Des chaussures de danse… en trente-huit ?", "en": "You? Dance shoes… in a thirty-eight?" },
+      { "sp": "", "fr": "À la maison, Hugo ouvre le carton. Catastrophe : la boîte est abîmée, et il n'y a qu'une chaussure !", "en": "At home, Hugo opens the box. Disaster: the shoebox is damaged, and there's only one shoe!" },
+      { "sp": "", "fr": "Il écrit au service client. On lui propose de renvoyer le colis, ou d'attendre la deuxième chaussure : elle arrivera lundi.", "en": "He writes to customer service. They offer to let him send the parcel back, or wait for the second shoe: it'll arrive on Monday." },
+      { "sp": "", "fr": "Le dimanche quatorze février, Carla ouvre son cadeau : une seule chaussure, et une carte.", "en": "On Sunday 14 February, Carla opens her present: a single shoe, and a card." },
+      { "sp": "Carla", "fr": "« Comme Cendrillon, tu n'as qu'une chaussure. L'autre arrive lundi. Bonne Saint-Valentin ! »", "en": "'Like Cinderella, you've only got one shoe. The other one arrives on Monday. Happy Valentine's Day!'" },
+      { "sp": "Carla", "fr": "Hugo… C'est le plus beau cadeau du monde, même à moitié !", "en": "Hugo… It's the best present in the world, even if it's only half of one!" },
+      { "sp": "Hugo", "fr": "Je suis un acheteur malheureux, mais un amoureux heureux.", "en": "I'm an unlucky buyer, but a lucky lover." },
+      { "sp": "Inès", "fr": "L'année prochaine, offre-lui une carte cadeau. Comme ça, pas de livreur !", "en": "Next year, give her a gift card. That way, no delivery man!" }
+    ]
+  }
+}

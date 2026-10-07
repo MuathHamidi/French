@@ -1,0 +1,154 @@
+{
+  "id": "u39-lequel",
+  "type": "grammar",
+  "unit": 39,
+  "title": "Lequel préfères-tu ?",
+  "en": "Formal questions: inversion and lequel",
+  "intro": "In an interview, a speech or a letter, French asks its questions with **inversion**: *Que fais-tu ?* rather than *Tu fais quoi ?* In a compound tense, the pronoun goes after the auxiliary (*As-tu fini ?*); a reflexive pronoun stays in front (*Te lèves-tu tôt ?*); and **-t-** separates two vowels (*Aime-t-il… ? Va-t-on… ?*). With a noun as the subject, keep the noun and add a pronoun: *Enzo **est-il** fatigué ?* To ask *which one?*, use **lequel, laquelle, lesquels, lesquelles**, which agree with the noun they replace and combine with *à* and *de*: *Auquel penses-tu ?*",
+  "cases": [
+    { "id": "lq-registre", "label": "tu fais quoi ? qu'est-ce que tu fais ? que fais-tu ?", "rule": "The same question in three registers: *Tu fais **quoi** ?* (spoken), ***Qu'est-ce que** tu fais ?* (standard), ***Que** fais-**tu** ?* (formal). With the other question words: *Tu commences **quand** ? **Quand est-ce que** tu commences ? **Quand commences-tu** ?*" },
+    { "id": "lq-inversion", "label": "as-tu fini ? te lèves-tu ? n'as-tu pas… ?", "rule": "In a compound tense, the pronoun goes after the **auxiliary**: ***As-tu** fini ? **Avez-vous** bien dormi ?* A reflexive pronoun stays in front: ***Te lèves-tu** tôt ?* And *ne… pas* go around the verb and its pronoun: ***N'as-tu pas** sommeil ?*" },
+    { "id": "lq-t", "label": "-t-: a-t-il ? va-t-on ? pense-t-elle ?", "rule": "When the verb ends in a vowel (**-e** or **-a**) and the pronoun is **il, elle** or **on**, add **-t-** between them: ***A-t-il** fini ? **Va-t-on** te voir ? Que **pense-t-elle** ?* No *-t-* after a verb ending in *-t* or *-d*, which already sounds /t/: ***Est-il** là ? **Prend-elle** le bus ?*" },
+    { "id": "lq-nom", "label": "a noun subject: Enzo est-il… ?", "rule": "A noun can't go after the verb with a hyphen. Keep the noun first, and repeat it as **il, elle, ils** or **elles** after the verb: ***Enzo est-il** fatigué ? **Ta grand-mère a-t-elle** peur ? Pourquoi **les boulangers se lèvent-ils** si tôt ?* After *où, quand, comment* or *que*, the noun can also simply follow the verb (*Où travaille Enzo ?*), but never after *pourquoi*." },
+    { "id": "lq-lequel", "label": "lequel, laquelle, lesquels, lesquelles: which one?", "rule": "**Lequel** replaces *quel* + noun and agrees with that noun: *Quel pain préfères-tu ? → **Lequel** préfères-tu ? **Laquelle** de ces baguettes ?* Plural: **lesquels, lesquelles**. With *à* and *de*, it contracts like the article: **auquel, à laquelle, auxquels, auxquelles; duquel, de laquelle, desquels, desquelles**: ***Auquel** penses-tu ?*" }
+  ],
+  "sections": [
+    {
+      "title": "1. Three registers",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Tu fais quoi ?", "What are you doing? (spoken)"],
+        ["Qu'est-ce que tu fais ?", "What are you doing? (standard)"],
+        ["Que fais-tu ?", "What are you doing? (formal)"],
+        ["Tu commences quand ?", "When do you start? (spoken)"],
+        ["Quand est-ce que tu commences ?", "When do you start? (standard)"],
+        ["Quand commences-tu ?", "When do you start? (formal)"]
+      ] },
+      "examples": [
+        { "fr": "Avec un ami : « {Tu fais quoi|lq-registre} le matin ? »", "en": "With a friend: 'What do you do in the morning?'" },
+        { "fr": "Dans une interview : « {Que fais-tu|lq-registre} le matin ? »", "en": "In an interview: 'What do you do in the morning?'" }
+      ],
+      "tip": "Inversion sounds formal, even stiff, in a chat with friends. But a few inverted questions are everyday French: *Comment allez-vous ? Quelle heure est-il ? Que voulez-vous ?*"
+    },
+    {
+      "title": "2. Compound tenses, reflexive verbs, the negative",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["As-tu fini ?", "Have you finished?"],
+        ["Avez-vous bien dormi ?", "Did you sleep well?"],
+        ["Te lèves-tu tôt ?", "Do you get up early?"],
+        ["À quelle heure vous levez-vous ?", "What time do you get up?"],
+        ["N'as-tu pas sommeil ?", "Aren't you sleepy?"],
+        ["Ne te couches-tu pas trop tard ?", "Don't you go to bed too late?"]
+      ] },
+      "examples": [
+        { "fr": "{As-tu toujours voulu|lq-inversion} être boulanger ?", "en": "Have you always wanted to be a baker?" },
+        { "fr": "{N'as-tu pas sommeil|lq-inversion}, à quatre heures du matin ?", "en": "Aren't you sleepy at four in the morning?" }
+      ],
+      "tip": "The pronoun follows the auxiliary, not the participle: *As-tu fini ?*, never *As fini-tu ?*"
+    },
+    {
+      "title": "3. -t- between two vowels",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["A-t-il fini ?", "Has he finished?"],
+        ["Va-t-on te voir à la télé ?", "Are we going to see you on TV?"],
+        ["Que pense-t-elle de ta vidéo ?", "What does she think of your video?"],
+        ["Aime-t-il son métier ?", "Does he like his job?"],
+        ["Est-il fatigué ?", "Is he tired?"],
+        ["Prend-elle le bus ?", "Does she take the bus?"]
+      ] },
+      "examples": [
+        { "fr": "{Que pense-t-elle|lq-t} de ta célébrité ?", "en": "What does she think of your fame?" },
+        { "fr": "{Va-t-on|lq-t} te voir à la télé ?", "en": "Are we going to see you on TV?" }
+      ],
+      "tip": "The **-t-** is only there for the sound, so you also hear it in *Comment s'appelle-t-il ?* and *Y a-t-il… ?* In *prend-il*, the d is pronounced /t/."
+    },
+    {
+      "title": "4. A noun as the subject",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Enzo est-il fatigué ?", "Is Enzo tired?"],
+        ["Ta grand-mère a-t-elle peur ?", "Is your grandmother afraid?"],
+        ["Les clients sont-ils contents ?", "Are the customers happy?"],
+        ["Pourquoi les boulangers se lèvent-ils si tôt ?", "Why do bakers get up so early?"],
+        ["Où travaille Enzo ?", "Where does Enzo work?"],
+        ["Que veut ta grand-mère ?", "What does your grandmother want?"]
+      ] },
+      "examples": [
+        { "fr": "{Ta grand-mère est-elle|lq-nom} exigeante ?", "en": "Is your grandmother demanding?" },
+        { "fr": "{Pourquoi les boulangers se lèvent-ils|lq-nom} si tôt ?", "en": "Why do bakers get up so early?" }
+      ],
+      "tip": "In speech, the noun simply stays in front: *Enzo, il est fatigué ?* or *Est-ce qu'Enzo est fatigué ?*"
+    },
+    {
+      "title": "5. lequel, laquelle, lesquels, lesquelles",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Lequel préfères-tu ?", "Which one do you prefer? (le pain)"],
+        ["Laquelle est la meilleure ?", "Which one is the best? (la baguette)"],
+        ["Lesquels sont les plus fous ?", "Which ones are the craziest? (les abonnés)"],
+        ["Lesquelles veux-tu ?", "Which ones do you want? (les tartes)"],
+        ["Auquel penses-tu ?", "Which one are you thinking of?"],
+        ["Duquel parles-tu ?", "Which one are you talking about?"]
+      ] },
+      "examples": [
+        { "fr": "Parmi tous tes pains, {lequel préfères-tu|lq-lequel} ?", "en": "Of all your breads, which one do you prefer?" },
+        { "fr": "{Laquelle de ces baguettes|lq-lequel} as-tu faite ?", "en": "Which of these baguettes did you make?" }
+      ],
+      "tip": "Before a noun, it's **quel**: *Quel pain ?* **Lequel** stands alone, or before *de*: *Lequel de tes pains ?* In speech: *C'est lequel, ton préféré ?*"
+    }
+  ],
+  "mistakes": [
+    { "wrong": "As fini-tu ?", "right": "As-tu fini ?", "why": "The pronoun goes right after the auxiliary, before the participle." },
+    { "wrong": "Aime-il son métier ?", "right": "Aime-t-il son métier ?", "why": "Between two vowels, add -t-." },
+    { "wrong": "Est-t-il fatigué ?", "right": "Est-il fatigué ?", "why": "No -t- after a verb that already ends in -t." },
+    { "wrong": "Pourquoi travaille Enzo le dimanche ?", "right": "Pourquoi Enzo travaille-t-il le dimanche ?", "why": "After pourquoi, keep the noun first and add a pronoun after the verb." },
+    { "wrong": "Lequel pain préfères-tu ?", "right": "Quel pain préfères-tu ?", "why": "Before a noun, use quel; lequel replaces the noun." },
+    { "wrong": "À lequel penses-tu ?", "right": "Auquel penses-tu ?", "why": "À + lequel contracts to auquel, like à + le = au." }
+  ],
+  "story": {
+    "title": "Le boulanger le plus célèbre de Lyon",
+    "en": "Wednesday 24 February: Lina interviews Enzo at the bakery for her podcast.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi vingt-quatre février, à cinq heures du matin, Lina pose son micro sur le comptoir de la boulangerie.", "en": "On Wednesday 24 February, at five in the morning, Lina puts her microphone on the bakery counter." },
+      { "sp": "", "fr": "Pour son podcast, elle fait l'interview du boulanger le plus célèbre de Lyon : Enzo.", "en": "For her podcast, she's interviewing the most famous baker in Lyon: Enzo." },
+      { "sp": "Lina", "fr": "Bonjour Enzo. Ta vidéo a été [vue|voir] un million de fois. {Comment ta vie a-t-elle changé|lq-nom} ?", "en": "Hello Enzo. Your video has been watched a million times. How has your life changed?" },
+      { "sp": "Enzo", "fr": "Bah… {Tu veux savoir quoi|lq-registre} ? Je fais du pain, c'est tout.", "en": "Well… What do you want to know? I make bread, that's all." },
+      { "sp": "Madame Fournier", "fr": "Enzo ! C'est une interview. On ne dit pas « tu veux savoir quoi », on dit « {que veux-tu savoir|lq-registre} ? »", "en": "Enzo! It's an interview. You don't say 'tu veux savoir quoi', you say 'que veux-tu savoir ?'" },
+      { "sp": "Lina", "fr": "Bon. {À quelle heure te lèves-tu|lq-inversion} ?", "en": "Right. What time do you get up?" },
+      { "sp": "Enzo", "fr": "À trois heures et demie. Trop dur.", "en": "At half past three. Way too hard." },
+      { "sp": "Lina", "fr": "{N'as-tu pas sommeil|lq-inversion}, l'après-midi ?", "en": "Aren't you sleepy in the afternoon?" },
+      { "sp": "Enzo", "fr": "Si. Mais {ai-je le choix|lq-inversion} ? Le pain n'attend pas.", "en": "Yes. But do I have a choice? Bread doesn't wait." },
+      { "sp": "Lina", "fr": "{Pourquoi les boulangers se lèvent-ils|lq-nom} si tôt ?", "en": "Why do bakers get up so early?" },
+      { "sp": "Madame Fournier", "fr": "Parce que les clients veulent du pain chaud à sept heures. Et {les clients attendent-ils|lq-nom} ? Jamais !", "en": "Because customers want warm bread at seven. And do customers wait? Never!" },
+      { "sp": "Lina", "fr": "Madame Fournier, {votre [petit-fils|petit-fils] est-il|lq-nom} un bon apprenti ?", "en": "Madame Fournier, is your grandson a good apprentice?" },
+      { "sp": "Madame Fournier", "fr": "Le meilleur. Mais {parle-t-il|lq-t} bien français ? Ça, c'est une autre question !", "en": "The best. But does he speak good French? That's another question!" },
+      { "sp": "Lina", "fr": "Enzo, ta grand-mère a fait une vidéo, elle aussi. {Que pense-t-elle|lq-t} de ta célébrité ?", "en": "Enzo, your grandmother made a video too. What does she think of your fame?" },
+      { "sp": "Madame Fournier", "fr": "Elle pense que la célébrité, ça ne fait pas lever la pâte !", "en": "She thinks fame doesn't make the dough rise!" },
+      { "sp": "Lina", "fr": "Parmi tous tes pains, {lequel préfères-tu|lq-lequel} ?", "en": "Of all your breads, which one do you prefer?" },
+      { "sp": "Enzo", "fr": "La baguette tradition. Trop stylée.", "en": "The traditional baguette. So cool." },
+      { "sp": "Lina", "fr": "Et {laquelle de ces baguettes|lq-lequel} as-tu faite ?", "en": "And which of these baguettes did you make?" },
+      { "sp": "Enzo", "fr": "Toutes, sauf la plus belle. Celle-là, c'est ma grand-mère qui l'a faite.", "en": "All of them, except the most beautiful one. My grandmother made that one." },
+      { "sp": "", "fr": "La porte s'ouvre : Tom et Hugo descendent chercher leurs croissants.", "en": "The door opens: Tom and Hugo come down to get their croissants." },
+      { "sp": "Hugo", "fr": "Lina ! {Va-t-on|lq-t} encore parler de moi ?", "en": "Lina! Are we going to talk about me again?" },
+      { "sp": "Lina", "fr": "Pas aujourd'hui, Hugo. Aujourd'hui, le roi, c'est Enzo.", "en": "Not today, Hugo. Today, Enzo is the king." },
+      { "sp": "Hugo", "fr": "Le roi de la poubelle contre le roi de la baguette… {Lequel de nous deux|lq-lequel} est le plus célèbre ?", "en": "The king of the bin against the king of the baguette… Which of us is more famous?" },
+      { "sp": "Tom", "fr": "Lina, {lesquels de tes épisodes|lq-lequel} sont les plus écoutés ?", "en": "Lina, which of your episodes are the most listened to?" },
+      { "sp": "Lina", "fr": "Celui de Hugo… et maintenant celui d'Enzo. Dernière question, Enzo : {lequel est le plus difficile|lq-lequel}, le pain ou les abonnés ?", "en": "Hugo's… and now Enzo's. Last question, Enzo: which is harder, bread or followers?" },
+      { "sp": "Enzo", "fr": "Les abonnés. Le pain, au moins, il ne commente pas !", "en": "Followers. At least bread doesn't comment!" },
+      { "sp": "", "fr": "Tom note dans son carnet : « {Tu fais quoi|lq-registre} ? {Qu'est-ce que tu fais|lq-registre} ? {Que fais-tu|lq-registre} ? » Trois questions, et une seule réponse : du pain.", "en": "Tom writes in his notebook: 'Tu fais quoi ? Qu'est-ce que tu fais ? Que fais-tu ?' Three questions, and only one answer: bread." }
+    ]
+  },
+  "quiz": [
+    { "case": "lq-registre", "type": "mc", "lang": "en", "q": "Which question is the most formal?", "options": ["Que fais-tu ?", "Qu'est-ce que tu fais ?", "Tu fais quoi ?"], "answer": "Que fais-tu ?" },
+    { "case": "lq-registre", "type": "mc", "q": "Tu commences quand ? ___ commences-tu ?", "en": "When do you start?", "options": ["Quand", "Quand est-ce que", "Qu'est-ce que"], "answer": "Quand" },
+    { "case": "lq-inversion", "type": "mc", "q": "À quelle heure ___ ?", "en": "What time do you get up?", "options": ["te lèves-tu", "lèves-tu te", "tu te lèves-tu"], "answer": "te lèves-tu" },
+    { "case": "lq-inversion", "type": "mc", "q": "___ sommeil ?", "en": "Aren't you sleepy?", "options": ["N'as-tu pas", "As-tu ne pas", "Ne pas as-tu"], "answer": "N'as-tu pas" },
+    { "case": "lq-inversion", "type": "mc", "q": "___ bien dormi ?", "en": "Did you sleep well?", "options": ["Avez-vous", "Vous avez-vous", "Avez dormi-vous"], "answer": "Avez-vous" },
+    { "case": "lq-t", "type": "mc", "q": "___ son métier ?", "en": "Does he like his job?", "options": ["Aime-t-il", "Aime-il", "Aimet-il"], "answer": "Aime-t-il" },
+    { "case": "lq-t", "type": "mc", "q": "___ te voir à la télé ?", "en": "Are we going to see you on TV?", "options": ["Va-t-on", "Va-on", "Vas-on"], "answer": "Va-t-on" },
+    { "case": "lq-t", "type": "mc", "lang": "en", "q": "Which question needs no -t-?", "options": ["Est-il fatigué ?", "A-t-il fini ?", "Que pense-t-elle ?"], "answer": "Est-il fatigué ?" },
+    { "case": "lq-nom", "type": "mc", "q": "Enzo ___ fatigué ?", "en": "Is Enzo tired?", "options": ["est-il", "est-elle", "est-t-il"], "answer": "est-il" },
+    { "case": "lq-nom", "type": "mc", "lang": "en", "q": "Which question is correct?", "options": ["Pourquoi Enzo travaille-t-il le dimanche ?", "Pourquoi travaille Enzo le dimanche ?", "Pourquoi travaille-t-il Enzo le dimanche ?"], "answer": "Pourquoi Enzo travaille-t-il le dimanche ?" },
+    { "case": "lq-lequel", "type": "mc", "q": "Voici deux baguettes : ___ préfères-tu ?", "en": "Here are two baguettes: which one do you prefer?", "options": ["laquelle", "lequel", "lesquelles"], "answer": "laquelle" },
+    { "case": "lq-lequel", "type": "mc", "q": "Tu as deux grands-mères : ___ penses-tu ?", "en": "You have two grandmothers: which one are you thinking of?", "options": ["à laquelle", "auquel", "laquelle"], "answer": "à laquelle" },
+    { "case": "lq-lequel", "type": "mc", "q": "___ pain préfères-tu ?", "en": "Which bread do you prefer?", "options": ["Quel", "Lequel", "Laquelle"], "answer": "Quel" }
+  ]
+}

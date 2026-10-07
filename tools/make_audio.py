@@ -156,6 +156,11 @@ FIXES = {
     "copenhague": "kɔpənˈaɡ", "niemeyer": "nimɛjˈɛʁ", "puerta del sol": "pwˈɛʁta dɛl sˈɔl",
     "master": "mastˈɛʁ", "masters": "mastˈɛʁ",  # the voice says /mastœʁ/
     "de plus,": "də plˈys,", "mois de plus": "mwˈa də plˈys", "faire de plus": "fˈɛʁ də plˈys",  # more: the s is said
+    "liker": "lajkˈe", "liké": "lajkˈe", "likée": "lajkˈe", "likés": "lajkˈe", "likées": "lajkˈe",
+    "like": "lˈajk", "likes": "lˈajk", "likent": "lˈajk",  # read in English
+    "streaming": "stʁimˈiŋ", "spoiler": "spɔjlˈœʁ", "spoilers": "spɔjlˈœʁ",  # read in English, or like an -er verb
+    "émoji": "emodʒˈi", "émojis": "emodʒˈi", "un émoji": "œ̃n emodʒˈi", "des émojis": "dez emodʒˈi", "les émojis": "lez emodʒˈi",
+    "au cas où": "o ka ˈu",  # no liaison
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

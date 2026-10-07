@@ -1,0 +1,168 @@
+{
+  "id": "u39-securite",
+  "type": "vocab",
+  "unit": 39,
+  "title": "La sécurité",
+  "en": "Online safety",
+  "intro": "25 words for staying safe online: the dangers (**l'escroc, l'escroquerie, arnaquer, piéger, usurper, la fraude, l'hameçonnage, le spam, se faire avoir**), what they want (**les données personnelles, les coordonnées, la confidentialité, confidentiel**), the right attitude (**se méfier, méfiant, la prudence, inconnu, naïf, crédule**) and the defences (**sécuriser, la protection, l'antivirus, la double authentification, le code de vérification, la cybersécurité**).",
+  "words": [
+    { "id": "securiser", "fr": "sécuriser", "pos": "verb", "ipa": "se.ky.ʁi.ze", "en": "to secure, to make safe", "def": "Protéger quelque chose contre les dangers, les voleurs ou les pirates.", "def_en": "To protect something against dangers, thieves or hackers.", "forms": ["sécurise", "sécurises", "sécurisons", "sécurisez", "sécurisent", "sécurisais", "sécurisait", "sécurisions", "sécurisiez", "sécurisaient", "sécuriserai", "sécuriseras", "sécurisera", "sécuriserons", "sécuriserez", "sécuriseront", "sécuriserais", "sécuriserait", "sécuriserions", "sécuriseriez", "sécuriseraient", "sécurisant", "sécurisai", "sécurisas", "sécurisa", "sécurisâmes", "sécurisâtes", "sécurisèrent"], "examples": [
+      { "fr": "Je vais t'aider à **sécuriser** ton téléphone.", "en": "I'll help you secure your phone." },
+      { "fr": "Il faut **sécuriser** tous tes comptes.", "en": "You need to secure all your accounts." },
+      { "fr": "La police **sécurise** le quartier.", "en": "The police are securing the area." }
+    ] },
+    { "id": "arnaquer", "fr": "arnaquer", "pos": "verb", "ipa": "aʁ.na.ke", "en": "(informal) to rip off, to con, to scam", "def": "Familier : voler quelqu'un avec un mensonge.", "def_en": "Informal: to rob someone with a lie.", "forms": ["arnaque", "arnaques", "arnaquons", "arnaquez", "arnaquent", "arnaqué", "arnaquée", "arnaqués", "arnaquées", "arnaquais", "arnaquait", "arnaquions", "arnaquiez", "arnaquaient", "arnaquerai", "arnaqueras", "arnaquera", "arnaquerons", "arnaquerez", "arnaqueront", "arnaquerais", "arnaquerait", "arnaquerions", "arnaqueriez", "arnaqueraient", "arnaquant", "arnaquai", "arnaquas", "arnaqua", "arnaquâmes", "arnaquâtes", "arnaquèrent"], "examples": [
+      { "fr": "Ils ont voulu **arnaquer** Louise !", "en": "They tried to scam Louise!" },
+      { "fr": "Je me suis fait **arnaquer** sur internet.", "en": "I got ripped off online." },
+      { "fr": "Ce vendeur **arnaque** les touristes.", "en": "This seller rips off tourists." }
+    ] },
+    { "id": "hameconnage", "fr": "hameçonnage", "pos": "noun", "g": "m", "ipa": "am.sɔ.naʒ", "en": "phishing", "def": "Une arnaque par message : un faux site ou un faux mail, pour voler des mots de passe ou de l'argent.", "def_en": "A scam by message: a fake website or a fake email, to steal passwords or money.", "note": "From *hameçon* (fish hook). People also say *le phishing*.", "examples": [
+      { "fr": "C'est de l'**hameçonnage** : ne clique pas !", "en": "It's phishing: don't click!" },
+      { "fr": "La banque nous parle souvent de l'**hameçonnage**.", "en": "The bank often warns us about phishing." },
+      { "fr": "Un faux mail de ta banque ? C'est de l'**hameçonnage**.", "en": "A fake email from your bank? That's phishing." }
+    ] },
+    { "id": "double-authentification", "fr": "double authentification", "pos": "noun", "g": "f", "ipa": "dubl o.tɑ̃.ti.fi.ka.sjɔ̃", "en": "two-factor authentication", "def": "Une sécurité en deux étapes : le mot de passe, puis un code envoyé sur le téléphone.", "def_en": "Security in two steps: the password, then a code sent to your phone.", "examples": [
+      { "fr": "Active la **double authentification** !", "en": "Turn on two-factor authentication!" },
+      { "fr": "Avec la **double authentification**, ton compte est plus sûr.", "en": "With two-factor authentication, your account is safer." },
+      { "fr": "Ma banque m'a demandé d'activer la **double authentification**.", "en": "My bank asked me to turn on two-factor authentication." }
+    ] },
+    { "id": "donnees-personnelles", "fr": "données personnelles", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "dɔ.ne pɛʁ.sɔ.nɛl", "en": "personal data", "def": "Les informations sur une personne : son nom, son adresse, sa date de naissance…", "def_en": "Information about a person: their name, their address, their date of birth…", "examples": [
+      { "fr": "Et s'ils ont mes **données personnelles** ?", "en": "And what if they have my personal data?" },
+      { "fr": "Ce site vend nos **données personnelles**.", "en": "This website sells our personal data." },
+      { "fr": "Protège tes **données personnelles**.", "en": "Protect your personal data." }
+    ] },
+    { "id": "confidentialite", "fr": "confidentialité", "pos": "noun", "g": "f", "ipa": "kɔ̃.fi.dɑ̃.sja.li.te", "en": "confidentiality, privacy", "def": "Le fait de garder une information secrète.", "def_en": "Keeping a piece of information secret.", "examples": [
+      { "fr": "La **confidentialité**, c'est important.", "en": "Confidentiality matters." },
+      { "fr": "Lis bien les règles de **confidentialité** du site.", "en": "Read the website's privacy rules carefully." },
+      { "fr": "Les médecins doivent respecter la **confidentialité**.", "en": "Doctors must respect confidentiality." }
+    ] },
+    { "id": "confidentiel", "fr": "confidentiel", "pos": "adj", "ipa": "kɔ̃.fi.dɑ̃.sjɛl", "display": "confidentiel, confidentielle", "en": "confidential", "def": "Qui doit rester secret.", "def_en": "That must stay secret.", "forms": ["confidentielle", "confidentiels", "confidentielles"], "examples": [
+      { "fr": "Mon vrai numéro est **confidentiel**.", "en": "My real number is confidential." },
+      { "fr": "C'est une information **confidentielle**.", "en": "It's confidential information." },
+      { "fr": "Ces documents sont **confidentiels**.", "en": "These documents are confidential." }
+    ] },
+    { "id": "se-mefier", "fr": "se méfier", "pos": "verb", "ipa": "sə me.fje", "en": "to be wary (of), not to trust (se méfier de)", "def": "Ne pas faire confiance ; faire attention à un danger possible.", "def_en": "Not to trust; to watch out for a possible danger.", "forms": ["me méfie", "te méfies", "se méfie", "nous nous méfions", "vous vous méfiez", "se méfient", "me méfier", "te méfier", "nous méfier", "vous méfier", "méfier", "me méfierai", "te méfieras", "se méfiera", "nous nous méfierons", "vous vous méfierez", "se méfieront", "me méfierais", "te méfierais", "se méfierait", "nous nous méfierions", "vous vous méfieriez", "se méfieraient", "méfie", "méfies", "méfions", "méfiez", "méfient", "méfié", "méfiée", "méfiés", "méfiées", "méfiais", "méfiait", "méfiions", "méfiiez", "méfiaient", "méfierai", "méfieras", "méfiera", "méfierons", "méfierez", "méfieront", "méfierais", "méfierait", "méfierions", "méfieriez", "méfieraient", "méfiai", "méfias", "méfia", "méfiâmes", "méfiâtes", "méfièrent"], "examples": [
+      { "fr": "**Méfie**-toi, Louise.", "en": "Be careful, Louise." },
+      { "fr": "Je me **méfie** des numéros inconnus.", "en": "I don't trust unknown numbers." },
+      { "fr": "Il faut se **méfier** des offres trop belles.", "en": "Beware of offers that are too good to be true." }
+    ] },
+    { "id": "mefiant", "fr": "méfiant", "pos": "adj", "ipa": "me.fjɑ̃", "display": "méfiant, méfiante", "en": "wary, suspicious, distrustful", "def": "Qui ne fait pas confiance facilement.", "def_en": "Who doesn't trust easily.", "forms": ["méfiante", "méfiants", "méfiantes"], "examples": [
+      { "fr": "Moi, je suis **méfiante** : je ne clique jamais sur un lien inconnu.", "en": "I'm wary: I never click on an unknown link." },
+      { "fr": "Les chats sont **méfiants** avec les inconnus.", "en": "Cats are wary of strangers." },
+      { "fr": "Depuis le faux message, Louise est très **méfiante**.", "en": "Since the fake message, Louise has been very wary." }
+    ] },
+    { "id": "spam", "fr": "spam", "pos": "noun", "g": "m", "ipa": "spam", "en": "spam, junk mail", "def": "Un message qu'on n'a pas demandé, souvent de la publicité ou une arnaque.", "def_en": "A message you didn't ask for, often advertising or a scam.", "note": "In Quebec: *le pourriel*.", "forms": ["spams"], "examples": [
+      { "fr": "Ne réponds jamais aux **spams**.", "en": "Never answer spam." },
+      { "fr": "Ma boîte mail est pleine de **spams**.", "en": "My inbox is full of spam." },
+      { "fr": "Ce message est arrivé dans les **spams**.", "en": "This message ended up in the spam folder." }
+    ] },
+    { "id": "antivirus", "fr": "antivirus", "pos": "noun", "g": "m", "ipa": "ɑ̃.ti.vi.ʁys", "en": "antivirus (software)", "def": "Le programme qui protège un ordinateur ou un téléphone contre les virus.", "def_en": "The program that protects a computer or a phone against viruses.", "examples": [
+      { "fr": "Installe un **antivirus**.", "en": "Install an antivirus." },
+      { "fr": "Mon **antivirus** a bloqué un site dangereux.", "en": "My antivirus blocked a dangerous website." },
+      { "fr": "Un bon **antivirus** coûte trente euros par an.", "en": "A good antivirus costs thirty euros a year." }
+    ] },
+    { "id": "fraude", "fr": "fraude", "pos": "noun", "g": "f", "ipa": "fʁod", "en": "fraud", "def": "Le fait de mentir à quelqu'un, ou à l'État, pour gagner de l'argent.", "def_en": "Lying to someone, or to the state, to make money.", "forms": ["fraudes"], "examples": [
+      { "fr": "La **fraude**, je connais : j'ai travaillé dans une banque !", "en": "I know all about fraud: I worked in a bank!" },
+      { "fr": "La **fraude** à la carte bancaire augmente.", "en": "Card fraud is on the rise." },
+      { "fr": "Il est en prison pour **fraude**.", "en": "He's in prison for fraud." }
+    ] },
+    { "id": "usurper", "fr": "usurper", "pos": "verb", "ipa": "y.zyʁ.pe", "en": "to usurp, to steal (an identity)", "def": "Prendre une place ou un nom qui est à quelqu'un d'autre.", "def_en": "To take a place or a name that belongs to someone else.", "note": "*Usurper l'identité de quelqu'un* = to steal someone's identity; *l'usurpation d'identité* = identity theft.", "forms": ["usurpe", "usurpes", "usurpons", "usurpez", "usurpent", "usurpé", "usurpée", "usurpés", "usurpées", "usurpais", "usurpait", "usurpions", "usurpiez", "usurpaient", "usurperai", "usurperas", "usurpera", "usurperons", "usurperez", "usurperont", "usurperais", "usurperait", "usurperions", "usurperiez", "usurperaient", "usurpant", "usurpai", "usurpas", "usurpa", "usurpâmes", "usurpâtes", "usurpèrent"], "examples": [
+      { "fr": "Ils **usurpent** l'identité des petits-enfants.", "en": "They pretend to be the grandchildren." },
+      { "fr": "Quelqu'un a **usurpé** mon identité sur internet.", "en": "Someone has stolen my identity online." },
+      { "fr": "On ne peut pas **usurper** le nom d'un autre.", "en": "You can't steal someone else's name." }
+    ] },
+    { "id": "protection", "fr": "protection", "pos": "noun", "g": "f", "ipa": "pʁɔ.tɛk.sjɔ̃", "en": "protection", "def": "Ce qui empêche un danger d'arriver.", "def_en": "What stops a danger from happening.", "forms": ["protections"], "examples": [
+      { "fr": "De mon temps, la seule **protection**, c'était la porte d'entrée !", "en": "In my day, the only protection was the front door!" },
+      { "fr": "Mets une **protection** sur ton écran.", "en": "Put a protector on your screen." },
+      { "fr": "La **protection** des enfants en ligne est importante.", "en": "Protecting children online matters." }
+    ] },
+    { "id": "inconnu", "fr": "inconnu", "pos": "adj", "ipa": "ɛ̃.kɔ.ny", "display": "inconnu, inconnue", "en": "unknown; (un inconnu) a stranger", "def": "Qu'on ne connaît pas.", "def_en": "That you don't know.", "forms": ["inconnue", "inconnus", "inconnues"], "examples": [
+      { "fr": "Louise reçoit un texto d'un numéro **inconnu**.", "en": "Louise gets a text from an unknown number." },
+      { "fr": "Ne parle pas aux **inconnus** !", "en": "Don't talk to strangers!" },
+      { "fr": "Cet acteur était **inconnu** il y a un an.", "en": "This actor was unknown a year ago." }
+    ] },
+    { "id": "escroc", "fr": "escroc", "pos": "noun", "g": "m", "ipa": "ɛs.kʁo", "en": "crook, swindler, con artist", "def": "Une personne qui ment aux autres pour leur prendre leur argent.", "def_en": "A person who lies to others to take their money.", "forms": ["escrocs"], "examples": [
+      { "fr": "Ce sont des **escrocs** !", "en": "They're crooks!" },
+      { "fr": "L'**escroc** dit qu'il est policier.", "en": "The con man says he's a police officer." },
+      { "fr": "La police a arrêté l'**escroc**.", "en": "The police have arrested the swindler." }
+    ] },
+    { "id": "escroquerie", "fr": "escroquerie", "pos": "noun", "g": "f", "ipa": "ɛs.kʁɔk.ʁi", "en": "fraud, swindle, scam", "def": "Le fait de prendre l'argent de quelqu'un avec des mensonges.", "def_en": "Taking someone's money with lies.", "forms": ["escroqueries"], "examples": [
+      { "fr": "Ma tante a perdu de l'argent avec la même **escroquerie**.", "en": "My aunt lost money in the same scam." },
+      { "fr": "C'est une **escroquerie** très connue.", "en": "It's a very well-known scam." },
+      { "fr": "Il a porté plainte pour **escroquerie**.", "en": "He reported it as fraud." }
+    ] },
+    { "id": "credule", "fr": "crédule", "pos": "adj", "ipa": "kʁe.dyl", "en": "gullible, credulous", "def": "Qui croit tout ce qu'on lui dit.", "def_en": "Who believes everything they're told.", "forms": ["crédules"], "examples": [
+      { "fr": "Il ne faut pas être **crédule**.", "en": "You mustn't be gullible." },
+      { "fr": "Les escrocs cherchent des gens **crédules**.", "en": "Crooks look for gullible people." },
+      { "fr": "Mamie n'est pas **crédule** !", "en": "Grandma isn't gullible!" }
+    ] },
+    { "id": "naif", "fr": "naïf", "pos": "adj", "ipa": "na.if", "display": "naïf, naïve", "en": "naive", "def": "Qui fait confiance trop facilement, sans voir le danger.", "def_en": "Who trusts too easily, without seeing the danger.", "forms": ["naïve", "naïfs", "naïves"], "examples": [
+      { "fr": "Tu vois, il ne faut pas être **naïf**.", "en": "You see, you mustn't be naive." },
+      { "fr": "**Naïve**, moi ? J'ai travaillé trente-cinq ans dans une banque !", "en": "Me, naive? I worked in a bank for thirty-five years!" },
+      { "fr": "Il est un peu **naïf** : il croit tout.", "en": "He's a bit naive: he believes everything." }
+    ] },
+    { "id": "prudence", "fr": "prudence", "pos": "noun", "g": "f", "ipa": "pʁy.dɑ̃s", "en": "caution, care", "def": "Le fait de faire attention, pour éviter un danger.", "def_en": "Taking care, to avoid a danger.", "examples": [
+      { "fr": "Par **prudence**, Louise ne clique pas sur le lien.", "en": "To be on the safe side, Louise doesn't click the link." },
+      { "fr": "Sur la route, **prudence** !", "en": "On the road, be careful!" },
+      { "fr": "La **prudence**, c'est la meilleure protection.", "en": "Caution is the best protection." }
+    ] },
+    { "id": "code-de-verification", "fr": "code de vérification", "pos": "noun", "g": "m", "ipa": "kɔd də ve.ʁi.fi.ka.sjɔ̃", "en": "verification code", "def": "Un code envoyé par texto ou par mail, pour montrer que c'est bien vous.", "def_en": "A code sent by text or email, to show that it's really you.", "forms": ["codes de vérification"], "examples": [
+      { "fr": "On te demandera un **code de vérification** par texto.", "en": "You'll be asked for a verification code by text." },
+      { "fr": "Ne donne ton **code de vérification** à personne !", "en": "Don't give your verification code to anyone!" },
+      { "fr": "Le **code de vérification** n'est bon que cinq minutes.", "en": "The verification code is only valid for five minutes." }
+    ] },
+    { "id": "pieger", "fr": "piéger", "pos": "verb", "ipa": "pje.ʒe", "en": "to trap, to trick", "def": "Faire faire une erreur à quelqu'un avec un mensonge ; attraper un animal.", "def_en": "To make someone make a mistake with a lie; to catch an animal.", "forms": ["piège", "pièges", "piégeons", "piégez", "piègent", "piégé", "piégée", "piégés", "piégées", "piégeais", "piégeait", "piégions", "piégiez", "piégeaient", "piégerai", "piégeras", "piégera", "piégerons", "piégerez", "piégeront", "piégerais", "piégerait", "piégerions", "piégeriez", "piégeraient", "piégeant", "piégeai", "piégeas", "piégea", "piégeâmes", "piégeâtes", "piégèrent"], "examples": [
+      { "fr": "Ils veulent **piéger** les grands-parents.", "en": "They want to trap grandparents." },
+      { "fr": "Je me suis fait **piéger** comme un débutant !", "en": "I fell for it like a beginner!" },
+      { "fr": "Le chat a été **piégé** dans le garage.", "en": "The cat got trapped in the garage." }
+    ] },
+    { "id": "coordonnees", "fr": "coordonnées", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "kɔ.ɔʁ.dɔ.ne", "en": "contact details; (bank) details; coordinates", "def": "Le nom, l'adresse, le téléphone ou le compte de quelqu'un.", "def_en": "Someone's name, address, phone number or account.", "note": "*Les coordonnées bancaires* = bank details.", "examples": [
+      { "fr": "Ne donne jamais tes **coordonnées** bancaires.", "en": "Never give your bank details." },
+      { "fr": "Laissez vos **coordonnées**, on vous rappelle.", "en": "Leave your details, and we'll call you back." },
+      { "fr": "J'ai noté ses **coordonnées**.", "en": "I've written down his contact details." }
+    ] },
+    { "id": "cybersecurite", "fr": "cybersécurité", "pos": "noun", "g": "f", "ipa": "si.bɛʁ.se.ky.ʁi.te", "en": "cybersecurity", "def": "La protection des ordinateurs et des données contre les pirates.", "def_en": "Protecting computers and data against hackers.", "examples": [
+      { "fr": "À mon bureau, on a une formation en **cybersécurité** tous les ans.", "en": "At my office, we have cybersecurity training every year." },
+      { "fr": "La **cybersécurité** est un métier d'avenir.", "en": "Cybersecurity is a job with a future." },
+      { "fr": "Les banques dépensent beaucoup pour la **cybersécurité**.", "en": "Banks spend a lot on cybersecurity." }
+    ] },
+    { "id": "se-faire-avoir", "fr": "se faire avoir", "pos": "verb", "ipa": "sə fɛʁ a.vwaʁ", "en": "(informal) to be had, to be conned", "def": "Familier : croire un mensonge, tomber dans un piège.", "def_en": "Informal: to believe a lie, to fall into a trap.", "forms": ["me faire avoir", "te faire avoir", "nous faire avoir", "vous faire avoir", "me fais avoir", "te fais avoir", "se fait avoir", "nous nous faisons avoir", "vous vous faites avoir", "se font avoir", "me suis fait avoir", "t'es fait avoir", "s'est fait avoir", "nous sommes fait avoir", "vous êtes fait avoir", "se sont fait avoir", "me faisais avoir", "te faisais avoir", "se faisait avoir", "se faisaient avoir", "me ferai avoir", "te feras avoir", "se fera avoir", "se feront avoir", "me ferais avoir", "te ferais avoir", "se ferait avoir", "se feraient avoir", "se faisant avoir", "se fit avoir", "se firent avoir"], "examples": [
+      { "fr": "Je ne vais pas **me faire avoir** !", "en": "I'm not going to fall for that!" },
+      { "fr": "Il **s'est fait avoir** par un faux vendeur.", "en": "He got conned by a fake seller." },
+      { "fr": "À ce prix-là, tu vas **te faire avoir**.", "en": "At that price, you're going to get ripped off." }
+    ] }
+  ],
+  "story": {
+    "title": "Le faux Hugo",
+    "en": "Thursday 11 February: Louise gets a message from Hugo. Or from someone who says he's Hugo.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi onze février, à Marseille, Louise reçoit un texto d'un numéro inconnu.", "en": "On Thursday 11 February, in Marseille, Louise gets a text from an unknown number." },
+      { "sp": "", "fr": "« Coucou Mamie, c'est Hugo ! J'ai cassé mon téléphone, voici mon nouveau numéro. C'est urgent : j'ai besoin de cinq cents euros. Paie ici. » Et il y a un lien.", "en": "'Hi Grandma, it's Hugo! I've broken my phone, this is my new number. It's urgent: I need five hundred euros. Pay here.' And there's a link." },
+      { "sp": "Louise", "fr": "Jacques, viens voir. Hugo a cassé son téléphone… encore.", "en": "Jacques, come and look. Hugo has broken his phone… again." },
+      { "sp": "Jacques", "fr": "Cinq cents euros ? Méfie-toi, Louise. Moi, je me méfie de tout.", "en": "Five hundred euros? Be careful, Louise. I don't trust anything." },
+      { "sp": "Louise", "fr": "Tu as raison. Hugo ne m'écrit jamais « coucou ». Et il ne demande jamais plus de cinquante euros !", "en": "You're right. Hugo never writes 'hi' to me. And he never asks for more than fifty euros!" },
+      { "sp": "", "fr": "Par prudence, Louise ne clique pas sur le lien. Elle appelle Hugo sur son vrai numéro, en vidéo.", "en": "To be on the safe side, Louise doesn't click the link. She calls Hugo on his real number, by video." },
+      { "sp": "Hugo", "fr": "Mamie ? Mais non, je n'ai rien cassé ! C'est une arnaque. Ne clique surtout pas : c'est de l'hameçonnage.", "en": "Grandma? No, I haven't broken anything! It's a scam. Whatever you do, don't click: it's phishing." },
+      { "sp": "Hugo", "fr": "Ce sont des escrocs. Ils usurpent l'identité des [petits-enfants|petit-enfant] pour piéger les grands-parents.", "en": "They're crooks. They pretend to be the grandchildren to trap grandparents." },
+      { "sp": "Louise", "fr": "Les escrocs ! Et s'ils ont mes données personnelles ?", "en": "The crooks! And what if they have my personal data?" },
+      { "sp": "Hugo", "fr": "Ils ont ton numéro, c'est tout. Mais ne donne jamais tes coordonnées bancaires, ni tes codes.", "en": "They have your number, that's all. But never give your bank details, or your codes." },
+      { "sp": "Jacques", "fr": "Ils ont voulu arnaquer Louise ! Il faut porter plainte ?", "en": "They tried to scam Louise! Should we report it?" },
+      { "sp": "Hugo", "fr": "Signale le numéro, et bloque-le. Et je vais t'aider à sécuriser ton téléphone.", "en": "Report the number, and block it. And I'll help you secure your phone." },
+      { "sp": "", "fr": "Hugo vérifie le téléphone de Louise. Son mot de passe : « monopoly ».", "en": "Hugo checks Louise's phone. Her password: 'monopoly'." },
+      { "sp": "Hugo", "fr": "Mamie… Tout le monde sait que tu gagnes toujours au Monopoly ! Il faut un mot de passe plus difficile. Et active la double authentification : on te demandera aussi un code de vérification par texto.", "en": "Grandma… Everyone knows you always win at Monopoly! You need a harder password. And turn on two-factor authentication: you'll be asked for a verification code by text too." },
+      { "sp": "Louise", "fr": "Tout ça pour un téléphone… De mon temps, la seule protection, c'était la porte d'entrée !", "en": "All that for a phone… In my day, the only protection was the front door!" },
+      { "sp": "Hugo", "fr": "Et installe un antivirus. Et ne réponds jamais aux spams.", "en": "And install an antivirus. And never answer spam." },
+      { "sp": "Jacques", "fr": "Tu vois, Louise : il ne faut être ni naïf ni crédule.", "en": "You see, Louise: you mustn't be naive or gullible." },
+      { "sp": "Louise", "fr": "Naïve, moi ? J'ai travaillé trente-cinq ans dans une banque ! La fraude, je connais. Je ne vais pas me faire avoir par un faux Hugo.", "en": "Me, naive? I worked in a bank for thirty-five years! I know all about fraud. I'm not going to be fooled by a fake Hugo." },
+      { "sp": "", "fr": "Le soir, au café d'en bas, Hugo raconte l'histoire.", "en": "In the evening, at the café downstairs, Hugo tells the story." },
+      { "sp": "Léa", "fr": "Moi, je suis méfiante : je ne clique jamais sur un lien inconnu.", "en": "I'm wary: I never click on an unknown link." },
+      { "sp": "Tom", "fr": "En Angleterre, ma tante a perdu de l'argent avec la même escroquerie.", "en": "In England, my aunt lost money in the same scam." },
+      { "sp": "Sophie", "fr": "La confidentialité, c'est important. Moi, je ne donne jamais mes mots de passe.", "en": "Confidentiality matters. I never give out my passwords." },
+      { "sp": "Hugo", "fr": "À mon bureau, on a une formation en cybersécurité tous les ans. Je savais que ça servirait !", "en": "At my office, we have cybersecurity training every year. I knew it would come in handy!" },
+      { "sp": "Hugo", "fr": "Et j'ai un message pour tous les escrocs : mon vrai numéro est confidentiel, et ma grand-mère est plus forte que vous !", "en": "And I have a message for all the crooks: my real number is confidential, and my grandmother is smarter than you!" },
+      { "sp": "Léa", "fr": "Et le vrai Hugo, il demande combien ?", "en": "And how much does the real Hugo ask for?" },
+      { "sp": "Hugo", "fr": "Cinquante euros. Mais moi, je rembourse !", "en": "Fifty euros. But I pay it back!" }
+    ]
+  }
+}
