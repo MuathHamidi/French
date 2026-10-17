@@ -1,0 +1,132 @@
+{
+  "id": "u41-relief",
+  "type": "grammar",
+  "unit": 41,
+  "title": "C'est toi qui l'as mangé !",
+  "en": "Putting words in the spotlight: c'est… qui, ce que… c'est",
+  "intro": "To put one part of a sentence in the spotlight, French frames it. **C'est… qui** picks out the subject (*C'est Hugo qui l'a mangé*), **c'est… que** anything else (*C'est dans le jardin que je l'ai vu*). To build up to an idea, start with **ce qui… c'est** or **ce que… c'est** (*Ce que je veux, c'est la vérité*). And in speech, a word can move to the front or the end, picked up by a pronoun: *Le chocolat, je l'adore. Moi, je n'ai rien fait.*",
+  "cases": [
+    { "id": "mr-qui", "label": "c'est… qui: the subject", "rule": "**C'est** + the subject + **qui** + verb. The verb agrees with the word in front: *C'est **moi** qui **ai**…, c'est **toi** qui **as**…, c'est **nous** qui **avons**…* With a plural noun or *eux*: ***Ce sont** eux qui…* (in speech, *c'est eux qui…*)." },
+    { "id": "mr-que", "label": "c'est… que: everything else", "rule": "**C'est** + an object, a place, a time or a person with its preposition + **que**: *C'est **le lapin** qu'il a mangé. C'est **dans la cuisine** que je l'ai vu. C'est **à Lou** que je voulais le donner. C'est **en février** que j'ai arrêté.*" },
+    { "id": "mr-ce-qui", "label": "ce qui…, c'est", "rule": "**Ce qui** + verb (ce qui is the subject), then **c'est**: *Ce qui m'étonne, c'est le silence de Papa. Ce qui est sûr, c'est que le voleur aime le chocolat.*" },
+    { "id": "mr-ce-que", "label": "ce que, ce dont…, c'est", "rule": "**Ce que** + subject + verb (ce que is the object), or **ce dont** for verbs with *de*, then **c'est**: *Ce que je veux, c'est la vérité. Ce dont nous avons besoin, c'est d'une enquête.*" },
+    { "id": "mr-pronom", "label": "moi, je… / le chocolat, je l'adore", "rule": "In speech, put the word at the front or the end, and repeat it with a pronoun: ***Moi**, je n'ai rien fait. **Le chocolat**, je l'adore. Je l'adore, **le chocolat**.* The stressed pronouns are *moi, toi, lui, elle, nous, vous, eux, elles*." }
+  ],
+  "sections": [
+    {
+      "title": "1. c'est… qui",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["C'est Hugo qui l'a mangé.", "Hugo's the one who ate it."],
+        ["C'est moi qui ai trouvé le papier.", "I'm the one who found the wrapper."],
+        ["C'est toi qui as raison.", "You're the one who's right."],
+        ["C'est nous qui avons gagné.", "We're the ones who won."],
+        ["Ce sont les cloches qui apportent les œufs.", "It's the bells that bring the eggs."]
+      ] },
+      "examples": [
+        { "fr": "{C'est Hugo qui l'a mangé|mr-qui}, c'est évident !", "en": "Hugo ate it, obviously!" },
+        { "fr": "Papa ! {C'est toi qui as mangé le lapin|mr-qui} !", "en": "Daddy! You're the one who ate the rabbit!" }
+      ],
+      "tip": "The verb agrees with the word before *qui*, not with *c'est*: *c'est moi qui **suis** en retard*, never *c'est moi qui est*."
+    },
+    {
+      "title": "2. c'est… que",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["C'est le lapin qu'il a mangé.", "It's the rabbit he ate."],
+        ["C'est dans le jardin que je l'ai vu.", "It was in the garden that I saw it."],
+        ["C'est à Lou que je voulais le donner.", "It was Lou I wanted to give it to."],
+        ["C'est en février que j'ai arrêté.", "It was in February that I stopped."]
+      ] },
+      "examples": [
+        { "fr": "{C'est dans le jardin que j'ai trouvé ça|mr-que} : du papier doré.", "en": "It was in the garden that I found this: gold paper." },
+        { "fr": "{C'est en février que j'ai arrêté|mr-que}, pas en avril !", "en": "It was in February that I stopped, not in April!" }
+      ],
+      "tip": "Keep the preposition in front: *c'est **à** Lou que…, c'est **de** Papa que…, c'est **pour** toi que…*"
+    },
+    {
+      "title": "3. ce qui…, c'est",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Ce qui m'étonne, c'est le silence de Papa.", "What surprises me is Dad's silence."],
+        ["Ce qui est sûr, c'est que le voleur aime le chocolat.", "What's certain is that the thief likes chocolate."],
+        ["Ce qui [compte|compter], c'est la famille.", "What matters is family."]
+      ] },
+      "examples": [
+        { "fr": "{Ce qui est sûr, c'est que|mr-ce-qui} le voleur aime le chocolat.", "en": "What's certain is that the thief likes chocolate." },
+        { "fr": "{Ce qui m'étonne, c'est|mr-ce-qui} le silence de Papa.", "en": "What surprises me is Dad's silence." }
+      ],
+      "tip": "*Ce qui* is followed by a verb (*ce qui **compte***), *ce que* by a subject (*ce que **je** veux*)."
+    },
+    {
+      "title": "4. ce que, ce dont…, c'est",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Ce que je veux, c'est la vérité.", "What I want is the truth."],
+        ["Ce que j'aime, c'est le chocolat noir.", "What I like is dark chocolate."],
+        ["Ce dont j'ai besoin, c'est d'un café.", "What I need is a coffee."]
+      ] },
+      "examples": [
+        { "fr": "{Ce que je veux savoir, c'est|mr-ce-que} qui a mangé le lapin !", "en": "What I want to know is who ate the rabbit!" },
+        { "fr": "{Ce dont nous avons besoin, c'est|mr-ce-que} d'une enquête.", "en": "What we need is an investigation." }
+      ],
+      "tip": "*Avoir besoin **de***, *parler **de***, *avoir peur **de***: these verbs take *ce dont*, and the *de* comes back after *c'est*: *ce dont j'ai besoin, c'est **d'**un café*."
+    },
+    {
+      "title": "5. moi, je… / le chocolat, je l'adore",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Moi, je n'ai rien fait.", "I didn't do anything."],
+        ["Le chocolat, je l'adore.", "Chocolate, I love it."],
+        ["Je l'adore, le chocolat.", "I love it, chocolate."],
+        ["Lui, il ne dit jamais rien.", "As for him, he never says anything."]
+      ] },
+      "examples": [
+        { "fr": "{Moi, je n'ai rien fait|mr-pronom} !", "en": "I didn't do anything!" },
+        { "fr": "{Le chocolat, tout le monde l'aime|mr-pronom}, dans cette famille.", "en": "Chocolate, everyone loves it in this family." }
+      ],
+      "tip": "This is everyday spoken French. In writing, use it to sound lively; in a formal text, prefer *c'est… qui*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C'est moi qui a mangé le lapin.", "right": "C'est moi qui ai mangé le lapin.", "why": "After c'est moi qui, the verb agrees with moi: j'ai, so qui ai." },
+    { "wrong": "C'est toi qui est en retard.", "right": "C'est toi qui es en retard.", "why": "The verb agrees with toi: tu es, so qui es." },
+    { "wrong": "C'est dans le jardin où je l'ai vu.", "right": "C'est dans le jardin que je l'ai vu.", "why": "C'est + place + que, not où." },
+    { "wrong": "Ce que m'étonne, c'est le silence.", "right": "Ce qui m'étonne, c'est le silence.", "why": "Ce qui when it's the subject of the verb." },
+    { "wrong": "Ce que j'ai besoin, c'est d'un café.", "right": "Ce dont j'ai besoin, c'est d'un café.", "why": "Avoir besoin de takes ce dont." },
+    { "wrong": "C'est à Lou à qui je voulais le donner.", "right": "C'est à Lou que je voulais le donner.", "why": "The preposition is already in front: then just que." }
+  ],
+  "story": {
+    "title": "Le lapin disparu",
+    "en": "Easter Sunday afternoon: Mamie's big chocolate rabbit has disappeared from the kitchen.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche de Pâques, à quatre heures, Anne entre dans la cuisine. Le grand lapin en chocolat de Mamie a disparu !", "en": "On Easter Sunday, at four, Anne comes into the kitchen. Mamie's big chocolate rabbit has disappeared!" },
+      { "sp": "Anne", "fr": "{Ce que je veux savoir, c'est|mr-ce-que} qui a mangé le lapin !", "en": "What I want to know is who ate the rabbit!" },
+      { "sp": "Léa", "fr": "{C'est Hugo qui l'a mangé|mr-qui}, c'est évident !", "en": "Hugo ate it, obviously!" },
+      { "sp": "Hugo", "fr": "{Moi, je n'ai rien fait|mr-pronom} ! {Le chocolat, je l'ai arrêté|mr-pronom} en février.", "en": "I didn't do anything! Chocolate, I gave it up in February." },
+      { "sp": "Léa", "fr": "En février, oui. Mais le trente et un mars, tu as mangé un gâteau au chocolat entier !", "en": "In February, yes. But on the thirty-first of March, you ate a whole chocolate cake!" },
+      { "sp": "Hugo", "fr": "{C'est en mars que j'ai recommencé|mr-que}… Mais je n'ai pas touché au lapin !", "en": "It was in March that I started again… But I didn't touch the rabbit!" },
+      { "sp": "Paul", "fr": "{Ce qui est sûr, c'est que|mr-ce-qui} le voleur aime le chocolat.", "en": "What's certain is that the thief likes chocolate." },
+      { "sp": "Lou", "fr": "{C'est pas moi qui l'ai mangé|mr-qui} ! {C'est la tortue qui l'a mangé|mr-qui} !", "en": "It wasn't me who ate it! It was the tortoise who ate it!" },
+      { "sp": "Anne", "fr": "Les tortues mangent des fleurs, ma chérie, pas du chocolat.", "en": "Tortoises eat flowers, darling, not chocolate." },
+      { "sp": "Léa", "fr": "{C'est dans le jardin que j'ai trouvé ça|mr-que} : du papier doré, sous la haie.", "en": "It was in the garden that I found this: gold paper, under the hedge." },
+      { "sp": "Hugo", "fr": "{Ce dont nous avons besoin, c'est|mr-ce-que} d'une vraie enquête.", "en": "What we need is a proper investigation." },
+      { "sp": "Paul", "fr": "{Le chocolat, tout le monde l'aime|mr-pronom}, dans cette famille…", "en": "Chocolate, everyone loves it in this family…" },
+      { "sp": "", "fr": "Lou regarde son père. Il a du chocolat sur la moustache.", "en": "Lou looks at her father. He has chocolate on his moustache." },
+      { "sp": "Lou", "fr": "Papa ! {C'est toi qui as mangé le lapin|mr-qui} !", "en": "Daddy! You're the one who ate the rabbit!" },
+      { "sp": "Paul", "fr": "Euh… {C'est à Lou que je voulais le donner|mr-que}… Je l'ai juste goûté. Un peu. Beaucoup.", "en": "Er… It was Lou I wanted to give it to… I only tasted it. A little. A lot." },
+      { "sp": "Anne", "fr": "{Ce qui m'étonne, c'est que|mr-ce-qui} tu accuses ton fils !", "en": "What surprises me is that you accuse your son!" },
+      { "sp": "Hugo", "fr": "Merci, maman ! {C'est de Papa que je tiens|mr-que} mon amour du chocolat !", "en": "Thank you, Mum! It's from Dad that I get my love of chocolate!" },
+      { "sp": "Lou", "fr": "{Moi, je veux|mr-pronom} un autre lapin. Et {c'est Papa qui paie|mr-qui} !", "en": "I want another rabbit. And Daddy's paying!" }
+    ]
+  },
+  "quiz": [
+    { "case": "mr-qui", "type": "mc", "q": "C'est moi qui ___ mangé le lapin.", "en": "I'm the one who ate the rabbit.", "options": ["ai", "a", "as"], "answer": "ai" },
+    { "case": "mr-qui", "type": "mc", "q": "C'est toi qui ___ raison.", "en": "You're the one who's right.", "options": ["as", "a", "es"], "answer": "as" },
+    { "case": "mr-qui", "type": "mc", "q": "___ les cloches qui apportent les œufs.", "en": "It's the bells that bring the eggs.", "options": ["Ce sont", "C'est elles", "Il est"], "answer": "Ce sont" },
+    { "case": "mr-que", "type": "mc", "q": "C'est dans le jardin ___ j'ai trouvé le papier.", "en": "It was in the garden that I found the paper.", "options": ["que", "qui", "où"], "answer": "que" },
+    { "case": "mr-que", "type": "mc", "q": "C'est à Lou ___ je voulais le donner.", "en": "It was Lou I wanted to give it to.", "options": ["que", "qui", "à qui"], "answer": "que" },
+    { "case": "mr-ce-qui", "type": "mc", "q": "___ m'étonne, c'est le silence de Papa.", "en": "What surprises me is Dad's silence.", "options": ["Ce qui", "Ce que", "Ce dont"], "answer": "Ce qui" },
+    { "case": "mr-ce-qui", "type": "mc", "q": "___ m'intéresse, c'est la musique.", "en": "What interests me is music.", "options": ["Ce qui", "Ce que", "Qui"], "answer": "Ce qui" },
+    { "case": "mr-ce-que", "type": "mc", "q": "___ je veux, c'est la vérité.", "en": "What I want is the truth.", "options": ["Ce que", "Ce qui", "Ce dont"], "answer": "Ce que" },
+    { "case": "mr-ce-que", "type": "mc", "q": "___ j'ai besoin, c'est d'un café.", "en": "What I need is a coffee.", "options": ["Ce dont", "Ce que", "Ce qui"], "answer": "Ce dont" },
+    { "case": "mr-pronom", "type": "mc", "q": "Le chocolat, je ___ adore.", "en": "Chocolate, I love it.", "options": ["l'", "le", "lui"], "answer": "l'" },
+    { "case": "mr-pronom", "type": "mc", "q": "___, je n'ai rien fait !", "en": "I didn't do anything!", "options": ["Moi", "Je", "Me"], "answer": "Moi" }
+  ]
+}

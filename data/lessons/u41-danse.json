@@ -1,0 +1,162 @@
+{
+  "id": "u41-danse",
+  "type": "vocab",
+  "unit": 41,
+  "title": "La danse",
+  "en": "Dance",
+  "intro": "25 words for dance, for Carla's big day: the people and the styles (**le danseur, la danseuse, le chorégraphe, la compagnie, le ballet, le flamenco, le hip-hop**), the class (**le justaucorps, la barre, la pointe, l'enchaînement, le saut, la pirouette, l'équilibre, la chorégraphie, le solo, improviser**), how it looks (**gracieux, la grâce, expressif, interpréter**) and the stage (**le trac, les coulisses, saluer, la révérence, les applaudissements**).",
+  "words": [
+    { "id": "danseur", "fr": "danseur", "pos": "noun", "g": "m", "ipa": "dɑ̃.sœʁ", "display": "danseur, danseuse", "en": "dancer", "def": "Une personne qui danse, souvent comme métier.", "def_en": "A person who dances, often as a job.", "note": "*Une danseuse étoile* = a principal dancer (at the Paris Opera).", "forms": ["danseuse", "danseurs", "danseuses"], "examples": [
+      { "fr": "Seuls les quinze meilleurs **danseurs** seront pris.", "en": "Only the best fifteen dancers will get in." },
+      { "fr": "Même les grands **danseurs** ont le trac.", "en": "Even great dancers get stage fright." },
+      { "fr": "Carla veut devenir **danseuse** et professeure.", "en": "Carla wants to become a dancer and a teacher." }
+    ] },
+    { "id": "choregraphie", "fr": "chorégraphie", "pos": "noun", "g": "f", "ipa": "kɔ.ʁe.ɡʁa.fi", "en": "choreography, routine", "def": "Tous les mouvements d'une danse, préparés à l'avance.", "def_en": "All the movements of a dance, prepared in advance.", "forms": ["chorégraphies"], "examples": [
+      { "fr": "Tu as fait cette **chorégraphie** cent fois.", "en": "You've done this routine a hundred times." },
+      { "fr": "La **chorégraphie** du spectacle est magnifique.", "en": "The show's choreography is magnificent." },
+      { "fr": "Elle a appris la **chorégraphie** en une semaine.", "en": "She learnt the routine in a week." }
+    ] },
+    { "id": "choregraphe", "fr": "chorégraphe", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ.ʁe.ɡʁaf", "en": "choreographer", "def": "La personne qui invente les mouvements d'une danse.", "def_en": "The person who makes up the movements of a dance.", "forms": ["chorégraphes"], "examples": [
+      { "fr": "Dans le jury, il y a un **chorégraphe** célèbre.", "en": "On the panel, there's a famous choreographer." },
+      { "fr": "La **chorégraphe** a travaillé six mois sur ce ballet.", "en": "The choreographer worked on this ballet for six months." },
+      { "fr": "Un jour, Carla sera **chorégraphe**.", "en": "One day, Carla will be a choreographer." }
+    ] },
+    { "id": "compagnie", "fr": "compagnie", "pos": "noun", "g": "f", "ipa": "kɔ̃.pa.ɲi", "en": "(dance, theatre) company; company (being with someone)", "def": "Un groupe de danseurs ou d'acteurs qui travaillent ensemble. Aussi : le fait d'être avec quelqu'un.", "def_en": "A group of dancers or actors who work together. Also: being with someone.", "note": "*En compagnie de* = with, in the company of.", "forms": ["compagnies"], "examples": [
+      { "fr": "Un jour, tu auras ta propre **compagnie** !", "en": "One day, you'll have your own company!" },
+      { "fr": "Cette **compagnie** de danse vient de Montréal.", "en": "This dance company comes from Montreal." },
+      { "fr": "Merci pour votre **compagnie** !", "en": "Thank you for your company!" }
+    ] },
+    { "id": "ballet", "fr": "ballet", "pos": "noun", "g": "m", "ipa": "ba.lɛ", "en": "ballet", "def": "Une danse classique, avec de la musique, qui raconte souvent une histoire.", "def_en": "A classical dance, with music, which often tells a story.", "forms": ["ballets"], "examples": [
+      { "fr": "Devant le jury : une ancienne danseuse de **ballet**, un chorégraphe et une professeure.", "en": "Facing her, the panel: a former ballet dancer, a choreographer and a teacher." },
+      { "fr": "Ma petite sœur a vu son premier **ballet** à Paris.", "en": "My little sister saw her first ballet in Paris." },
+      { "fr": "Le **ballet** commence à vingt heures.", "en": "The ballet starts at 8 p.m." }
+    ] },
+    { "id": "flamenco", "fr": "flamenco", "pos": "noun", "g": "m", "ipa": "fla.mɛn.ko", "en": "flamenco", "def": "Une danse et une musique d'Espagne, avec de la guitare et des mains qui frappent le rythme.", "def_en": "A dance and a music from Spain, with guitar and hands clapping the rhythm.", "examples": [
+      { "fr": "Pour son solo, elle a choisi un **flamenco**.", "en": "For her solo, she chose a flamenco." },
+      { "fr": "Le **flamenco** vient du sud de l'Espagne.", "en": "Flamenco comes from the south of Spain." },
+      { "fr": "Mon voisin joue du **flamenco** à la guitare.", "en": "My neighbour plays flamenco on the guitar." }
+    ] },
+    { "id": "hip-hop", "fr": "hip-hop", "pos": "noun", "g": "m", "ipa": "ip.ɔp", "en": "hip-hop", "def": "Une danse et une musique nées dans la rue, aux États-Unis.", "def_en": "A dance and a music born on the street, in the United States.", "examples": [
+      { "fr": "Je veux apprendre le **hip-hop** aux enfants.", "en": "I want to teach hip-hop to children." },
+      { "fr": "Mon frère danse le **hip-hop** depuis l'âge de douze ans.", "en": "My brother has danced hip-hop since he was twelve." },
+      { "fr": "Il y a un cours de **hip-hop** le mercredi.", "en": "There's a hip-hop class on Wednesdays." }
+    ] },
+    { "id": "justaucorps", "fr": "justaucorps", "pos": "noun", "g": "m", "ipa": "ʒys.to.kɔʁ", "en": "leotard", "def": "Le vêtement serré, d'une seule pièce, que portent les danseurs.", "def_en": "The tight, one-piece garment that dancers wear.", "examples": [
+      { "fr": "Carla porte un **justaucorps** noir.", "en": "Carla is wearing a black leotard." },
+      { "fr": "Pour le cours, il faut un **justaucorps** et des chaussons.", "en": "For the class, you need a leotard and ballet shoes." },
+      { "fr": "Ma fille veut un **justaucorps** rose.", "en": "My daughter wants a pink leotard." }
+    ] },
+    { "id": "barre", "fr": "barre", "pos": "noun", "g": "f", "ipa": "baʁ", "en": "bar; (ballet) barre", "def": "Une longue pièce de bois ou de métal ; en danse, celle qu'on tient pour faire ses exercices.", "def_en": "A long piece of wood or metal; in dance, the one you hold to do your exercises.", "forms": ["barres"], "examples": [
+      { "fr": "Première épreuve : la **barre**.", "en": "First test: the barre." },
+      { "fr": "Tiens-toi à la **barre**, le bus tourne !", "en": "Hold on to the bar, the bus is turning!" },
+      { "fr": "Chaque cours commence par vingt minutes à la **barre**.", "en": "Every class starts with twenty minutes at the barre." }
+    ] },
+    { "id": "pointe", "fr": "pointe", "pos": "noun", "g": "f", "ipa": "pwɛ̃t", "en": "point, tip; (des pointes) pointe shoes", "def": "Le bout fin d'un objet. En danse : les chaussons pour danser sur le bout des pieds.", "def_en": "The thin end of an object. In dance: the shoes for dancing on the tips of your toes.", "note": "*Sur la pointe des pieds* = on tiptoe. *Les heures de pointe* = rush hour.", "forms": ["pointes"], "examples": [
+      { "fr": "Un long équilibre sur la **pointe** des pieds.", "en": "A long balance on tiptoe." },
+      { "fr": "Les danseuses de ballet dansent sur des **pointes**.", "en": "Ballet dancers dance in pointe shoes." },
+      { "fr": "Coupe la **pointe** du crayon.", "en": "Cut the tip of the pencil." }
+    ] },
+    { "id": "enchainement", "fr": "enchaînement", "pos": "noun", "g": "m", "ipa": "ɑ̃.ʃɛn.mɑ̃", "en": "sequence (of steps or movements); chain (of events)", "def": "Une suite de mouvements qu'on fait l'un après l'autre, sans s'arrêter.", "def_en": "A series of movements done one after the other, without stopping.", "forms": ["enchaînements"], "examples": [
+      { "fr": "Votre **enchaînement** à la barre était un peu rapide.", "en": "Your sequence at the barre was a little fast." },
+      { "fr": "Le professeur montre l'**enchaînement** deux fois.", "en": "The teacher shows the sequence twice." },
+      { "fr": "Quel **enchaînement** de catastrophes !", "en": "What a chain of disasters!" }
+    ] },
+    { "id": "saut", "fr": "saut", "pos": "noun", "g": "m", "ipa": "so", "en": "jump, leap", "def": "Le mouvement qu'on fait quand on quitte le sol avec les deux pieds.", "def_en": "The movement you make when you leave the ground with both feet.", "forms": ["sauts"], "examples": [
+      { "fr": "Puis des **sauts**, des pirouettes et un long équilibre.", "en": "Then jumps, pirouettes and a long balance." },
+      { "fr": "Il a fait un **saut** de deux mètres !", "en": "He jumped two metres!" },
+      { "fr": "Je fais un **saut** à la boulangerie et je reviens.", "en": "I'm popping over to the bakery and I'll be back." }
+    ] },
+    { "id": "pirouette", "fr": "pirouette", "pos": "noun", "g": "f", "ipa": "pi.ʁwɛt", "en": "pirouette, spin", "def": "Un tour complet sur un seul pied.", "def_en": "A full turn on one foot.", "forms": ["pirouettes"], "examples": [
+      { "fr": "Carla fait trois **pirouettes** sans tomber.", "en": "Carla does three pirouettes without falling." },
+      { "fr": "La petite fait des **pirouettes** dans le salon.", "en": "The little girl spins round and round in the living room." },
+      { "fr": "Une **pirouette** parfaite, c'est très difficile.", "en": "A perfect pirouette is very difficult." }
+    ] },
+    { "id": "equilibre", "fr": "équilibre", "pos": "noun", "g": "m", "ipa": "e.ki.libʁ", "en": "balance", "def": "La position du corps quand il ne tombe ni d'un [côté|cote] ni de l'autre.", "def_en": "The position of the body when it falls neither one way nor the other.", "note": "*Perdre l'équilibre* = to lose your balance.", "forms": ["équilibres"], "examples": [
+      { "fr": "Elle tient un long **équilibre** sur la pointe des pieds.", "en": "She holds a long balance on tiptoe." },
+      { "fr": "Hugo a perdu l'**équilibre** sur l'échelle.", "en": "Hugo lost his balance on the ladder." },
+      { "fr": "Il faut trouver un **équilibre** entre le travail et la vie privée.", "en": "You need to find a balance between work and private life." }
+    ] },
+    { "id": "solo", "fr": "solo", "pos": "noun", "g": "m", "ipa": "sɔ.lo", "en": "solo", "def": "Une danse ou un morceau de musique qu'une seule personne joue.", "def_en": "A dance or a piece of music performed by one person alone.", "forms": ["solos"], "examples": [
+      { "fr": "Dernière épreuve : son **solo**.", "en": "Last test: her solo." },
+      { "fr": "Tom a joué un **solo** de guitare.", "en": "Tom played a guitar solo." },
+      { "fr": "Le **solo** dure trois minutes.", "en": "The solo lasts three minutes." }
+    ] },
+    { "id": "improviser", "fr": "improviser", "pos": "verb", "ipa": "ɛ̃.pʁɔ.vi.ze", "en": "to improvise", "def": "Faire quelque chose sans l'avoir préparé.", "def_en": "To do something without having prepared it.", "note": "*Une improvisation* = an improvisation.", "forms": ["improvise", "improvises", "improvisons", "improvisez", "improvisent", "improvisé", "improvisée", "improvisés", "improvisées", "improvisais", "improvisait", "improvisions", "improvisiez", "improvisaient", "improviserai", "improviseras", "improvisera", "improviserons", "improviserez", "improviseront", "improviserais", "improviserait", "improviserions", "improviseriez", "improviseraient", "improvisant", "improvisai", "improvisas", "improvisa", "improvisâmes", "improvisâtes", "improvisèrent"], "examples": [
+      { "fr": "Maintenant, **improvisez** sur cette musique.", "en": "Now, improvise to this music." },
+      { "fr": "Je n'avais pas de discours : j'ai **improvisé**.", "en": "I didn't have a speech: I improvised." },
+      { "fr": "Pas de recette ce soir : on **improvise** !", "en": "No recipe tonight: we're improvising!" }
+    ] },
+    { "id": "gracieux", "fr": "gracieux", "pos": "adj", "ipa": "ɡʁa.sjø", "display": "gracieux, gracieuse", "en": "graceful", "def": "Qui bouge de façon légère et élégante.", "def_en": "Who moves in a light and elegant way.", "forms": ["gracieuse", "gracieuses"], "examples": [
+      { "fr": "Elle est **gracieuse**, et très expressive.", "en": "She is graceful, and very expressive." },
+      { "fr": "Les chats sont des animaux **gracieux**.", "en": "Cats are graceful animals." },
+      { "fr": "Quel mouvement **gracieux** !", "en": "What a graceful movement!" }
+    ] },
+    { "id": "grace", "fr": "grâce", "pos": "noun", "g": "f", "ipa": "ɡʁɑs", "en": "grace, gracefulness", "def": "La beauté légère et naturelle d'un mouvement.", "def_en": "The light, natural beauty of a movement.", "note": "*Grâce à* = thanks to.", "examples": [
+      { "fr": "Elle danse avec une **grâce**… Je n'ai jamais vu ça.", "en": "She dances with such grace… I've never seen anything like it." },
+      { "fr": "Les chats marchent avec **grâce**.", "en": "Cats walk gracefully." },
+      { "fr": "Cette danseuse a beaucoup de **grâce**.", "en": "This dancer has a lot of grace." }
+    ] },
+    { "id": "expressif", "fr": "expressif", "pos": "adj", "ipa": "ɛks.pʁe.sif", "display": "expressif, expressive", "en": "expressive", "def": "Qui montre bien ses émotions, avec le visage ou le corps.", "def_en": "Who shows their emotions well, with their face or body.", "forms": ["expressive", "expressifs", "expressives"], "examples": [
+      { "fr": "Elle est très **expressive** : on voit la joie sur son visage.", "en": "She's very expressive: you can see the joy on her face." },
+      { "fr": "Il a un visage très **expressif**.", "en": "He has a very expressive face." },
+      { "fr": "Les mains des danseurs de flamenco sont très **expressives**.", "en": "Flamenco dancers' hands are very expressive." }
+    ] },
+    { "id": "interpreter", "fr": "interpréter", "pos": "verb", "ipa": "ɛ̃.tɛʁ.pʁe.te", "en": "to perform, to play (a part, a piece); to interpret", "def": "Jouer, danser ou chanter une œuvre devant un public ; expliquer le sens d'une chose.", "def_en": "To play, dance or sing a work in front of an audience; to explain the meaning of something.", "note": "*Un interprète* = an interpreter; also a performer.", "forms": ["interprète", "interprètes", "interprétons", "interprétez", "interprètent", "interprété", "interprétée", "interprétés", "interprétées", "interprétais", "interprétait", "interprétions", "interprétiez", "interprétaient", "interpréterai", "interpréteras", "interprétera", "interpréterons", "interpréterez", "interpréteront", "interpréterais", "interpréterait", "interpréterions", "interpréteriez", "interpréteraient", "interprétant", "interprétai", "interprétas", "interpréta", "interprétâmes", "interprétâtes", "interprétèrent"], "examples": [
+      { "fr": "Vous **interprétez** le flamenco avec beaucoup de cœur.", "en": "You perform flamenco with a lot of heart." },
+      { "fr": "Antoine **interprète** un chauffeur de taxi.", "en": "Antoine plays a taxi driver." },
+      { "fr": "Comment **interprétez**-vous ce rêve ?", "en": "How do you interpret this dream?" }
+    ] },
+    { "id": "trac", "fr": "trac", "pos": "noun", "g": "m", "ipa": "tʁak", "en": "stage fright, nerves", "def": "La peur qu'on ressent avant de monter sur scène ou de passer un examen.", "def_en": "The fear you feel before going on stage or taking an exam.", "note": "*Avoir le trac* = to have stage fright.", "examples": [
+      { "fr": "J'ai le **trac**. J'ai les mains qui tremblent !", "en": "I've got stage fright. My hands are shaking!" },
+      { "fr": "Le **trac**, c'est normal.", "en": "Nerves are normal." },
+      { "fr": "Tom avait le **trac** avant son audition.", "en": "Tom had stage fright before his audition." }
+    ] },
+    { "id": "coulisses", "fr": "coulisses", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "ku.lis", "en": "the wings, backstage", "def": "Les côtés et le fond de la scène, que le public ne voit pas.", "def_en": "The sides and back of the stage, which the audience can't see.", "note": "*Dans les coulisses* = behind the scenes.", "forms": ["coulisse"], "examples": [
+      { "fr": "Dans les **coulisses**, ses amis applaudissent.", "en": "In the wings, her friends clap." },
+      { "fr": "Avant le spectacle, les danseurs attendent dans les **coulisses**.", "en": "Before the show, the dancers wait in the wings." },
+      { "fr": "Ce documentaire montre les **coulisses** du festival.", "en": "This documentary shows what goes on behind the scenes at the festival." }
+    ] },
+    { "id": "saluer", "fr": "saluer", "pos": "verb", "ipa": "sa.lɥe", "en": "to greet, to say hello to; (on stage) to take a bow", "def": "Dire bonjour ou au revoir ; à la fin d'un spectacle, remercier le public avec un geste.", "def_en": "To say hello or goodbye; at the end of a show, to thank the audience with a gesture.", "forms": ["salue", "salues", "saluons", "saluez", "saluent", "salué", "saluée", "salués", "saluées", "saluais", "saluait", "saluions", "saluiez", "saluaient", "saluerai", "salueras", "saluera", "saluerons", "saluerez", "salueront", "saluerais", "saluerait", "saluerions", "salueriez", "salueraient", "saluant", "saluai", "saluas", "salua", "saluâmes", "saluâtes", "saluèrent"], "examples": [
+      { "fr": "À la fin, Carla **salue** le jury.", "en": "At the end, Carla bows to the panel." },
+      { "fr": "**Salue** tes grands-parents de ma part !", "en": "Say hello to your grandparents for me!" },
+      { "fr": "Les acteurs **saluent** le public.", "en": "The actors take a bow." }
+    ] },
+    { "id": "reverence", "fr": "révérence", "pos": "noun", "g": "f", "ipa": "ʁe.ve.ʁɑ̃s", "en": "curtsy, bow", "def": "Le salut qu'on fait en pliant les jambes et en baissant la tête.", "def_en": "The greeting you make by bending your legs and lowering your head.", "forms": ["révérences"], "examples": [
+      { "fr": "Carla fait une **révérence**.", "en": "Carla curtsies." },
+      { "fr": "La petite fait la **révérence** comme une princesse.", "en": "The little girl curtsies like a princess." },
+      { "fr": "À la fin du ballet, les danseuses font une **révérence**.", "en": "At the end of the ballet, the dancers curtsy." }
+    ] },
+    { "id": "applaudissements", "fr": "applaudissements", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "a.plo.dis.mɑ̃", "en": "applause", "def": "Le bruit des mains qu'on frappe l'une contre l'autre pour dire bravo.", "def_en": "The sound of hands clapped together to say well done.", "forms": ["applaudissement"], "examples": [
+      { "fr": "Les **applaudissements**, c'était vous ?", "en": "Was that you clapping?" },
+      { "fr": "Il y a eu dix minutes d'**applaudissements**.", "en": "There were ten minutes of applause." },
+      { "fr": "Sous les **applaudissements**, Antoine est devenu tout rouge.", "en": "Amid the applause, Antoine went bright red." }
+    ] }
+  ],
+  "story": {
+    "title": "L'examen de Carla",
+    "en": "Thursday 15 April: Carla's entrance exam for the dance-teaching diploma.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le jeudi quinze avril, à neuf heures, Carla passe l'examen d'entrée pour devenir professeure de danse. Seuls les quinze meilleurs danseurs seront pris.", "en": "On Thursday 15 April, at nine, Carla takes the entrance exam to become a dance teacher. Only the best fifteen dancers will get in." },
+      { "sp": "", "fr": "Inès, Hugo et Léa l'accompagnent. Carla porte un justaucorps noir et ses chaussons.", "en": "Inès, Hugo and Léa go with her. Carla is wearing a black leotard and her ballet shoes." },
+      { "sp": "Carla", "fr": "J'ai le trac. J'ai les mains qui tremblent !", "en": "I've got stage fright. My hands are shaking!" },
+      { "sp": "Hugo", "fr": "Le trac, c'est normal. Même les grands danseurs ont le trac.", "en": "Nerves are normal. Even great dancers get stage fright." },
+      { "sp": "Inès", "fr": "Respire. Tu as fait cette chorégraphie cent fois.", "en": "Breathe. You've done this routine a hundred times." },
+      { "sp": "", "fr": "Première épreuve : la barre. Devant le jury, il y a une ancienne danseuse de ballet, un chorégraphe et une professeure.", "en": "First test: the barre. On the panel, there's a former ballet dancer, a choreographer and a teacher." },
+      { "sp": "", "fr": "Puis, au milieu de la salle : des sauts, des pirouettes, et un long équilibre sur la pointe des pieds. Carla ne tombe pas.", "en": "Then, in the middle of the room: jumps, pirouettes, and a long balance on tiptoe. Carla doesn't fall." },
+      { "sp": "Le chorégraphe", "fr": "Très bien. Maintenant, improvisez sur cette musique. Vous avez une minute.", "en": "Very good. Now, improvise to this music. You have one minute." },
+      { "sp": "", "fr": "Carla ferme les yeux et improvise. Elle est gracieuse, et très expressive : on voit la joie sur son visage.", "en": "Carla closes her eyes and improvises. She is graceful, and very expressive: you can see the joy on her face." },
+      { "sp": "", "fr": "Dernière épreuve : son solo. Elle a choisi un flamenco, la danse de son enfance, à Madrid.", "en": "Last test: her solo. She has chosen a flamenco, the dance of her childhood, in Madrid." },
+      { "sp": "Hugo", "fr": "Elle danse avec une grâce… Je n'ai jamais vu ça.", "en": "She dances with such grace… I've never seen anything like it." },
+      { "sp": "Léa", "fr": "Toi, tu ne regardes jamais la danse. Tu regardes Carla !", "en": "You never watch the dancing. You watch Carla!" },
+      { "sp": "", "fr": "À la fin, Carla fait une révérence et salue le jury. Dans les coulisses, ses amis applaudissent.", "en": "At the end, Carla curtsies and bows to the panel. In the wings, her friends clap." },
+      { "sp": "Le chorégraphe", "fr": "Merci, mademoiselle. Votre enchaînement à la barre était un peu rapide, mais vous interprétez le flamenco avec beaucoup de cœur.", "en": "Thank you, mademoiselle. Your sequence at the barre was a little fast, but you perform flamenco with a lot of heart." },
+      { "sp": "", "fr": "Carla sort de la salle en [courant|courir] et tombe dans les bras de Hugo.", "en": "Carla runs out of the room and falls into Hugo's arms." },
+      { "sp": "Carla", "fr": "Les applaudissements, c'était vous ? Le jury n'applaudit jamais !", "en": "Was that you clapping? The panel never claps!" },
+      { "sp": "Inès", "fr": "C'était nous. Un peu trop fort, peut-être…", "en": "It was us. A bit too loud, maybe…" },
+      { "sp": "Hugo", "fr": "Tu seras prise, c'est sûr. Et un jour, tu auras ta propre compagnie !", "en": "You'll get in, I'm sure. And one day, you'll have your own company!" },
+      { "sp": "Carla", "fr": "Ma compagnie ? D'abord, je veux apprendre le hip-hop aux enfants. Le hip-hop et le flamenco !", "en": "My company? First, I want to teach hip-hop to children. Hip-hop and flamenco!" },
+      { "sp": "", "fr": "Les résultats seront publiés demain, à midi.", "en": "The results will be published tomorrow, at noon." }
+    ]
+  }
+}

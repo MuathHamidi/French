@@ -1,0 +1,167 @@
+{
+  "id": "u41-jardin",
+  "type": "vocab",
+  "unit": 41,
+  "title": "Au jardin",
+  "en": "In the garden",
+  "intro": "25 words for the garden in spring: the garden itself (**la pelouse, le potager, la haie, le buisson, la clôture, le portail**), what grows (**la graine, la racine, le bourgeon, le pétale, la tulipe, le cerisier**), the work and the tools (**jardiner, semer, arroser, l'arrosoir, tondre, la pelle, la brouette**), the little animals (**le ver de terre, la coccinelle, le nid, hiberner**) and the spring verb **fleurir**. Plus an Easter tradition: **la chasse aux œufs**.",
+  "words": [
+    { "id": "chasse-aux-oeufs", "fr": "chasse aux œufs", "pos": "noun", "g": "f", "ipa": "ʃas o.zø", "en": "Easter egg hunt", "def": "Le jeu de Pâques où les enfants cherchent les œufs en chocolat cachés dans le jardin.", "def_en": "The Easter game where children look for the chocolate eggs hidden in the garden.", "note": "In France, the church bells (*les cloches*) fly back from Rome on Easter Sunday and drop the eggs.", "forms": ["chasses aux œufs"], "examples": [
+      { "fr": "Lou, la **chasse aux œufs** commence ! Prends ton panier.", "en": "Lou, the egg hunt is starting! Get your basket." },
+      { "fr": "La **chasse aux œufs** dure toute la matinée.", "en": "The egg hunt lasts all morning." },
+      { "fr": "La mairie organise une **chasse aux œufs** dans le parc.", "en": "The town hall is organising an egg hunt in the park." }
+    ] },
+    { "id": "pelouse", "fr": "pelouse", "pos": "noun", "g": "f", "ipa": "pə.luz", "en": "lawn", "def": "L'herbe courte et verte d'un jardin ou d'un parc.", "def_en": "The short green grass of a garden or a park.", "forms": ["pelouses"], "examples": [
+      { "fr": "Hier, j'ai tondu la **pelouse**.", "en": "Yesterday, I mowed the lawn." },
+      { "fr": "Interdit de marcher sur la **pelouse** !", "en": "Keep off the grass!" },
+      { "fr": "Les enfants jouent sur la **pelouse**.", "en": "The children are playing on the lawn." }
+    ] },
+    { "id": "tondre", "fr": "tondre", "pos": "verb", "ipa": "tɔ̃dʁ", "en": "to mow (the lawn); to shear (a sheep)", "def": "Couper l'herbe très court, avec une machine.", "def_en": "To cut grass very short, with a machine.", "note": "*Une tondeuse* = a lawnmower.", "forms": ["tonds", "tond", "tondons", "tondez", "tondent", "tondu", "tondue", "tondus", "tondues", "tondais", "tondait", "tondions", "tondiez", "tondaient", "tondrai", "tondras", "tondra", "tondrons", "tondrez", "tondront", "tondrais", "tondrait", "tondrions", "tondriez", "tondraient", "tondant", "tondis", "tondit", "tondîmes", "tondîtes", "tondirent", "tonde", "tondes"], "examples": [
+      { "fr": "Paul a **tondu** la pelouse samedi.", "en": "Paul mowed the lawn on Saturday." },
+      { "fr": "Le samedi, mon voisin **tond** sa pelouse à huit heures du matin !", "en": "On Saturdays, my neighbour mows his lawn at eight in the morning!" },
+      { "fr": "Au printemps, on **tond** les moutons.", "en": "In spring, the sheep are sheared." }
+    ] },
+    { "id": "potager", "fr": "potager", "pos": "noun", "g": "m", "ipa": "pɔ.ta.ʒe", "en": "vegetable garden, kitchen garden", "def": "La partie du jardin où on fait pousser des légumes.", "def_en": "The part of the garden where you grow vegetables.", "forms": ["potagers"], "examples": [
+      { "fr": "Moi, je cherche près du **potager**.", "en": "I'm looking near the vegetable garden." },
+      { "fr": "Les tomates du **potager** sont les meilleures.", "en": "The tomatoes from the vegetable garden are the best." },
+      { "fr": "Jules et Manon ont un grand **potager** à la ferme.", "en": "Jules and Manon have a big vegetable garden at the farm." }
+    ] },
+    { "id": "semer", "fr": "semer", "pos": "verb", "ipa": "sə.me", "en": "to sow", "def": "Mettre des graines dans la terre pour faire pousser des plantes.", "def_en": "To put seeds in the soil to grow plants.", "forms": ["sème", "sèmes", "semons", "semez", "sèment", "semé", "semée", "semés", "semées", "semais", "semait", "semions", "semiez", "semaient", "sèmerai", "sèmeras", "sèmera", "sèmerons", "sèmerez", "sèmeront", "sèmerais", "sèmerait", "sèmerions", "sèmeriez", "sèmeraient", "semant", "semai", "semas", "sema", "semâmes", "semâtes", "semèrent"], "examples": [
+      { "fr": "Maman a **semé** des graines hier.", "en": "Mum sowed some seeds yesterday." },
+      { "fr": "En avril, Anne **sème** des tomates.", "en": "In April, Anne sows tomatoes." },
+      { "fr": "On a **semé** des fleurs le long de la clôture.", "en": "We sowed flowers along the fence." }
+    ] },
+    { "id": "graine", "fr": "graine", "pos": "noun", "g": "f", "ipa": "ɡʁɛn", "en": "seed", "def": "La petite [partie|partie] d'une plante qu'on met dans la terre pour en faire pousser une nouvelle.", "def_en": "The small part of a plant that you put in the soil to grow a new one.", "forms": ["graines"], "examples": [
+      { "fr": "Attention : maman a semé des **graines** hier.", "en": "Careful: Mum sowed some seeds yesterday." },
+      { "fr": "Les oiseaux mangent les **graines**.", "en": "Birds eat the seeds." },
+      { "fr": "Lou met une **graine** dans chaque trou.", "en": "Lou puts a seed in each hole." }
+    ] },
+    { "id": "arroser", "fr": "arroser", "pos": "verb", "ipa": "a.ʁo.ze", "en": "to water", "def": "Donner de l'eau aux plantes.", "def_en": "To give plants water.", "note": "Informal: *arroser ça* = to celebrate with a drink.", "forms": ["arrose", "arroses", "arrosons", "arrosez", "arrosent", "arrosé", "arrosée", "arrosés", "arrosées", "arrosais", "arrosait", "arrosions", "arrosiez", "arrosaient", "arroserai", "arroseras", "arrosera", "arroserons", "arroserez", "arroseront", "arroserais", "arroserait", "arroserions", "arroseriez", "arroseraient", "arrosant", "arrosai", "arrosas", "arrosa", "arrosâmes", "arrosâtes", "arrosèrent"], "examples": [
+      { "fr": "Lou **arrose** les tulipes avec son petit arrosoir.", "en": "Lou waters the tulips with her little watering can." },
+      { "fr": "N'oublie pas d'**arroser** les plantes !", "en": "Don't forget to water the plants!" },
+      { "fr": "Il pleut : pas besoin d'**arroser** ce soir.", "en": "It's raining: no need to water tonight." }
+    ] },
+    { "id": "arrosoir", "fr": "arrosoir", "pos": "noun", "g": "m", "ipa": "a.ʁo.zwaʁ", "en": "watering can", "def": "L'objet qu'on remplit d'eau pour donner à boire aux plantes.", "def_en": "The thing you fill with water to give plants a drink.", "forms": ["arrosoirs"], "examples": [
+      { "fr": "Elle trouve un œuf dans son **arrosoir**.", "en": "She finds an egg in her watering can." },
+      { "fr": "Lou a un petit **arrosoir** rouge.", "en": "Lou has a little red watering can." },
+      { "fr": "Remplis l'**arrosoir** au robinet.", "en": "Fill the watering can at the tap." }
+    ] },
+    { "id": "fleurir", "fr": "fleurir", "pos": "verb", "ipa": "flœ.ʁiʁ", "en": "to flower, to bloom", "def": "Ouvrir ses pétales, au printemps ou en été.", "def_en": "To open its petals, in spring or summer.", "forms": ["fleuris", "fleurit", "fleurissons", "fleurissez", "fleurissent", "fleuri", "fleurissais", "fleurissait", "fleurissions", "fleurissiez", "fleurissaient", "fleurirai", "fleuriras", "fleurira", "fleurirons", "fleurirez", "fleuriront", "fleurirais", "fleurirait", "fleuririons", "fleuririez", "fleuriraient", "fleurisse", "fleurisses", "fleurissant", "fleurîmes", "fleurîtes", "fleurirent"], "examples": [
+      { "fr": "Dans le jardin, les tulipes **fleurissent**.", "en": "In the garden, the tulips are coming into flower." },
+      { "fr": "Le cerisier a **fleuri** cette semaine.", "en": "The cherry tree blossomed this week." },
+      { "fr": "Au printemps, tout **fleurit**.", "en": "In spring, everything blooms." }
+    ] },
+    { "id": "cerisier", "fr": "cerisier", "pos": "noun", "g": "m", "ipa": "sə.ʁi.zje", "en": "cherry tree", "def": "L'arbre qui donne des cerises.", "def_en": "The tree that gives cherries.", "forms": ["cerisiers"], "examples": [
+      { "fr": "Le **cerisier** est en fleur.", "en": "The cherry tree is in blossom." },
+      { "fr": "En juin, on mange les cerises du **cerisier**.", "en": "In June, we eat the cherries from the cherry tree." },
+      { "fr": "Il y a un nid dans le **cerisier**.", "en": "There's a nest in the cherry tree." }
+    ] },
+    { "id": "tulipe", "fr": "tulipe", "pos": "noun", "g": "f", "ipa": "ty.lip", "en": "tulip", "def": "Une fleur de printemps, droite et très colorée, qui vient souvent des Pays-Bas.", "def_en": "A spring flower, upright and very colourful, which often comes from the Netherlands.", "forms": ["tulipes"], "examples": [
+      { "fr": "Les **tulipes** fleurissent en avril.", "en": "Tulips flower in April." },
+      { "fr": "J'ai planté des **tulipes** rouges et jaunes.", "en": "I planted red and yellow tulips." },
+      { "fr": "Une coccinelle se promène sur une **tulipe**.", "en": "A ladybird is walking on a tulip." }
+    ] },
+    { "id": "bourgeon", "fr": "bourgeon", "pos": "noun", "g": "m", "ipa": "buʁ.ʒɔ̃", "en": "bud", "def": "La petite [partie|partie] fermée, sur une branche, d'où sortira une feuille ou une fleur.", "def_en": "The small closed part on a branch, from which a leaf or a flower will come out.", "forms": ["bourgeons"], "examples": [
+      { "fr": "Les **bourgeons** s'ouvrent.", "en": "The buds are opening." },
+      { "fr": "En mars, les arbres ont déjà des **bourgeons**.", "en": "In March, the trees already have buds." },
+      { "fr": "Le froid a abîmé les **bourgeons**.", "en": "The cold has damaged the buds." }
+    ] },
+    { "id": "racine", "fr": "racine", "pos": "noun", "g": "f", "ipa": "ʁa.sin", "en": "root", "def": "La partie de la plante qui est sous la terre.", "def_en": "The part of the plant that is under the ground.", "note": "Also figurative: *mes racines* = my roots, where I come from.", "forms": ["racines"], "examples": [
+      { "fr": "Elles n'ont pas encore de **racines** !", "en": "They don't have roots yet!" },
+      { "fr": "Les **racines** de cet arbre sont énormes.", "en": "This tree's roots are huge." },
+      { "fr": "Mes **racines** sont en Espagne.", "en": "My roots are in Spain." }
+    ] },
+    { "id": "petale", "fr": "pétale", "pos": "noun", "g": "m", "ipa": "pe.tal", "en": "petal", "def": "Une des parties colorées d'une fleur.", "def_en": "One of the coloured parts of a flower.", "forms": ["pétales"], "examples": [
+      { "fr": "Sur un **pétale** de tulipe, il y a une coccinelle !", "en": "There's a ladybird on a tulip petal!" },
+      { "fr": "Les **pétales** du cerisier tombent comme de la neige.", "en": "The cherry blossom petals fall like snow." },
+      { "fr": "Cette rose a beaucoup de **pétales**.", "en": "This rose has lots of petals." }
+    ] },
+    { "id": "haie", "fr": "haie", "pos": "noun", "g": "f", "ipa": "ɛ", "en": "hedge", "def": "Une ligne de petits arbres serrés, autour d'un jardin.", "def_en": "A line of small trees close together, around a garden.", "note": "The h is aspirated: *la haie*, not *l'haie*.", "forms": ["haies"], "examples": [
+      { "fr": "Lou cherche sous la **haie**.", "en": "Lou looks under the hedge." },
+      { "fr": "Il faut couper la **haie** tous les ans.", "en": "The hedge has to be cut every year." },
+      { "fr": "Les oiseaux font leur nid dans la **haie**.", "en": "The birds nest in the hedge." }
+    ] },
+    { "id": "buisson", "fr": "buisson", "pos": "noun", "g": "m", "ipa": "bɥi.sɔ̃", "en": "bush", "def": "Une plante basse et épaisse, avec beaucoup de branches.", "def_en": "A low, thick plant with lots of branches.", "forms": ["buissons"], "examples": [
+      { "fr": "Elle cherche derrière le **buisson**.", "en": "She looks behind the bush." },
+      { "fr": "Le chat se cache dans un **buisson**.", "en": "The cat hides in a bush." },
+      { "fr": "Il y a des roses sur ce **buisson**.", "en": "There are roses on this bush." }
+    ] },
+    { "id": "cloture", "fr": "clôture", "pos": "noun", "g": "f", "ipa": "klo.tyʁ", "en": "fence", "def": "Ce qui ferme un jardin ou un champ tout autour : du bois, du métal ou une haie.", "def_en": "What closes off a garden or a field all round: wood, metal or a hedge.", "forms": ["clôtures"], "examples": [
+      { "fr": "Chaque printemps, Marcel passe sous la **clôture**.", "en": "Every spring, Marcel slips under the fence." },
+      { "fr": "Il y a un trou dans la **clôture**.", "en": "There's a hole in the fence." },
+      { "fr": "Pierre a réparé la **clôture** du champ.", "en": "Pierre has mended the fence round the field." }
+    ] },
+    { "id": "portail", "fr": "portail", "pos": "noun", "g": "m", "ipa": "pɔʁ.taj", "en": "gate (of a garden or a property)", "def": "La grande porte qui ferme l'entrée d'un jardin.", "def_en": "The big door that closes the entrance to a garden.", "forms": ["portails"], "examples": [
+      { "fr": "La voisine arrive au **portail**.", "en": "The neighbour comes to the gate." },
+      { "fr": "Ferme le **portail**, sinon le chien va sortir !", "en": "Shut the gate, or the dog will get out!" },
+      { "fr": "Il y a un œuf près du **portail**.", "en": "There's an egg near the gate." }
+    ] },
+    { "id": "brouette", "fr": "brouette", "pos": "noun", "g": "f", "ipa": "bʁu.ɛt", "en": "wheelbarrow", "def": "Le petit chariot à une roue qu'on pousse pour transporter de la terre.", "def_en": "The little one-wheeled cart you push to carry soil.", "forms": ["brouettes"], "examples": [
+      { "fr": "Elle trouve un œuf dans la **brouette**.", "en": "She finds an egg in the wheelbarrow." },
+      { "fr": "Hugo prend la pelle et la **brouette**.", "en": "Hugo takes the shovel and the wheelbarrow." },
+      { "fr": "Pousse la **brouette** jusqu'au potager.", "en": "Push the wheelbarrow to the vegetable garden." }
+    ] },
+    { "id": "pelle", "fr": "pelle", "pos": "noun", "g": "f", "ipa": "pɛl", "en": "shovel, spade", "def": "L'outil qu'on utilise pour faire des trous dans la terre.", "def_en": "The tool you use to make holes in the ground.", "forms": ["pelles"], "examples": [
+      { "fr": "Ma **pelle** a touché quelque chose de dur.", "en": "My shovel has hit something hard." },
+      { "fr": "Les enfants jouent avec une **pelle** et un seau.", "en": "The children are playing with a spade and a bucket." },
+      { "fr": "Passe-moi la **pelle**, s'il te plaît.", "en": "Pass me the shovel, please." }
+    ] },
+    { "id": "ver-de-terre", "fr": "ver de terre", "pos": "noun", "g": "m", "ipa": "vɛʁ də tɛʁ", "en": "earthworm", "def": "Un petit animal long et mou qui vit dans la terre.", "def_en": "A small, long, soft animal that lives in the soil.", "forms": ["vers de terre"], "examples": [
+      { "fr": "Beurk ! Un **ver de terre** !", "en": "Yuck! An earthworm!" },
+      { "fr": "Les **vers de terre** sont bons pour le jardin.", "en": "Earthworms are good for the garden." },
+      { "fr": "Après la pluie, il y a des **vers de terre** partout.", "en": "After the rain, there are earthworms everywhere." }
+    ] },
+    { "id": "coccinelle", "fr": "coccinelle", "pos": "noun", "g": "f", "ipa": "kɔk.si.nɛl", "en": "ladybird, ladybug", "def": "Un petit insecte rouge avec des points noirs.", "def_en": "A small red insect with black spots.", "forms": ["coccinelles"], "examples": [
+      { "fr": "Une **coccinelle** ! Elle a sept points noirs.", "en": "A ladybird! It has seven black spots." },
+      { "fr": "Les **coccinelles** mangent les petits insectes du jardin.", "en": "Ladybirds eat the little insects in the garden." },
+      { "fr": "Une **coccinelle** s'est posée sur ma main.", "en": "A ladybird landed on my hand." }
+    ] },
+    { "id": "nid", "fr": "nid", "pos": "noun", "g": "m", "ipa": "ni", "en": "nest", "def": "La petite maison que les oiseaux construisent pour leurs œufs.", "def_en": "The little home birds build for their eggs.", "forms": ["nids"], "examples": [
+      { "fr": "Regarde dans le cerisier : il y a un **nid**.", "en": "Look in the cherry tree: there's a nest." },
+      { "fr": "Il y a trois œufs bleus dans le **nid**.", "en": "There are three blue eggs in the nest." },
+      { "fr": "Les oiseaux construisent leur **nid** au printemps.", "en": "Birds build their nests in spring." }
+    ] },
+    { "id": "hiberner", "fr": "hiberner", "pos": "verb", "ipa": "i.bɛʁ.ne", "en": "to hibernate", "def": "Dormir tout l'hiver, comme certains animaux.", "def_en": "To sleep all winter, like some animals.", "note": "*L'hibernation* = hibernation.", "forms": ["hiberne", "hibernes", "hibernons", "hibernez", "hibernent", "hiberné", "hibernais", "hibernait", "hibernions", "hiberniez", "hibernaient", "hibernerai", "hiberneras", "hibernera", "hibernerons", "hibernerez", "hiberneront", "hibernerais", "hibernerait", "hibernerions", "hiberneriez", "hiberneraient", "hibernant", "hibernai", "hibernas", "hiberna", "hibernâmes", "hibernâtes", "hibernèrent"], "examples": [
+      { "fr": "Elle a **hiberné** tout l'hiver sous nos feuilles !", "en": "It hibernated all winter under our leaves!" },
+      { "fr": "Les ours **hibernent** dans les montagnes.", "en": "Bears hibernate in the mountains." },
+      { "fr": "Moi, en janvier, j'aimerais **hiberner**.", "en": "In January, I'd like to hibernate." }
+    ] },
+    { "id": "jardiner", "fr": "jardiner", "pos": "verb", "ipa": "ʒaʁ.di.ne", "en": "to garden, to do the gardening", "def": "S'occuper des plantes et des fleurs dehors, chez soi.", "def_en": "To look after the plants and flowers outside your home.", "forms": ["jardine", "jardines", "jardinons", "jardinez", "jardinent", "jardiné", "jardinais", "jardinait", "jardinions", "jardiniez", "jardinaient", "jardinerai", "jardineras", "jardinera", "jardinerons", "jardinerez", "jardineront", "jardinerais", "jardinerait", "jardinerions", "jardineriez", "jardineraient", "jardinant", "jardinai", "jardinas", "jardina", "jardinâmes", "jardinâtes", "jardinèrent"], "examples": [
+      { "fr": "Il veut **jardiner**, comme son père.", "en": "He wants to do some gardening, like his father." },
+      { "fr": "Le dimanche, Anne **jardine** toute la matinée.", "en": "On Sundays, Anne gardens all morning." },
+      { "fr": "**Jardiner**, ça détend.", "en": "Gardening is relaxing." }
+    ] }
+  ],
+  "story": {
+    "title": "La chasse aux œufs",
+    "en": "Easter Sunday, 4 April: an egg hunt in the garden in Paris, and an unexpected guest.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche quatre avril, c'est Pâques. Léa et Hugo sont à Paris, chez leurs parents. Dans le jardin, le cerisier est en fleur et les tulipes fleurissent.", "en": "On Sunday 4 April, it's Easter. Léa and Hugo are in Paris, at their parents'. In the garden, the cherry tree is in blossom and the tulips are coming into flower." },
+      { "sp": "", "fr": "Ce matin, les cloches sont revenues de Rome. Elles ont caché des œufs en chocolat partout dans le jardin.", "en": "This morning, the bells came back from Rome. They hid chocolate eggs all over the garden." },
+      { "sp": "Paul", "fr": "Lou, la chasse aux œufs commence ! Prends ton panier.", "en": "Lou, the egg hunt is starting! Get your basket." },
+      { "sp": "Lou", "fr": "Papa, pourquoi l'herbe est si courte ?", "en": "Daddy, why is the grass so short?" },
+      { "sp": "Paul", "fr": "Hier, j'ai tondu la pelouse. Les cloches n'aiment pas les grandes herbes !", "en": "Yesterday, I mowed the lawn. The bells don't like long grass!" },
+      { "sp": "", "fr": "Lou cherche sous la haie, derrière le buisson et près du portail. Elle trouve un œuf dans la brouette, et un autre dans son arrosoir.", "en": "Lou looks under the hedge, behind the bush and near the gate. She finds an egg in the wheelbarrow, and another one in her watering can." },
+      { "sp": "Hugo", "fr": "Moi, je cherche près du potager.", "en": "I'm looking near the vegetable garden." },
+      { "sp": "Anne", "fr": "Hugo ! Attention, j'ai semé des graines hier. Ne marche pas sur mes tomates : elles n'ont pas encore de racines !", "en": "Hugo! Careful, I sowed some seeds yesterday. Don't walk on my tomatoes: they don't have roots yet!" },
+      { "sp": "Lou", "fr": "Beurk ! Un ver de terre !", "en": "Yuck! An earthworm!" },
+      { "sp": "Léa", "fr": "Ne crie pas, il est gentil. Il travaille pour le jardin.", "en": "Don't scream, he's nice. He works for the garden." },
+      { "sp": "Lou", "fr": "Et là, sur un pétale de tulipe : une coccinelle ! Elle a sept points noirs.", "en": "And there, on a tulip petal: a ladybird! It has seven black spots." },
+      { "sp": "Anne", "fr": "Regarde dans le cerisier : il y a un nid. Les bourgeons s'ouvrent, et les oiseaux préparent leur maison.", "en": "Look in the cherry tree: there's a nest. The buds are opening, and the birds are getting their home ready." },
+      { "sp": "", "fr": "Hugo prend la pelle et la brouette. Il veut jardiner, comme son père.", "en": "Hugo takes the shovel and the wheelbarrow. He wants to do some gardening, like his father." },
+      { "sp": "Hugo", "fr": "Jardiner, c'est facile ! … Aïe ! Ma pelle a touché quelque chose de dur.", "en": "Gardening is easy! … Ouch! My shovel has hit something hard." },
+      { "sp": "", "fr": "Sous les feuilles, près de la clôture, il y a… une tortue ! Elle dort encore.", "en": "Under the leaves, near the fence, there's… a tortoise! It's still asleep." },
+      { "sp": "Anne", "fr": "C'est la tortue de Madame Leblanc, la voisine. Elle a hiberné tout l'hiver sous nos feuilles !", "en": "It's Madame Leblanc's tortoise, from next door. It has hibernated all winter under our leaves!" },
+      { "sp": "Lou", "fr": "Une tortue ! Je l'appelle Minou !", "en": "A tortoise! I'm calling it Minou!" },
+      { "sp": "Paul", "fr": "Elle s'appelle déjà Marcel, ma chérie. Elle a cinquante ans.", "en": "It's already called Marcel, darling. It's fifty years old." },
+      { "sp": "", "fr": "La voisine arrive au portail. Elle rit : chaque printemps, Marcel passe sous la clôture pour manger les fleurs de Paul.", "en": "The neighbour comes to the gate. She laughs: every spring, Marcel slips under the fence to eat Paul's flowers." },
+      { "sp": "Madame Leblanc", "fr": "Tu peux venir la voir quand tu veux, ma chérie. Mais pour moi, c'est Marcel.", "en": "You can come and see it whenever you like, sweetheart. But for me, it's Marcel." },
+      { "sp": "Lou", "fr": "Pour moi, c'est Minou.", "en": "For me, it's Minou." },
+      { "sp": "", "fr": "Avant le déjeuner, Lou arrose les tulipes, pour remercier les cloches. Son panier est plein.", "en": "Before lunch, Lou waters the tulips, to thank the bells. Her basket is full." },
+      { "sp": "", "fr": "Hugo, lui, a trouvé un seul œuf… et il l'a déjà mangé.", "en": "Hugo found only one egg… and he has already eaten it." },
+      { "sp": "Léa", "fr": "Hugo ! C'était pour Lou !", "en": "Hugo! That was for Lou!" },
+      { "sp": "Hugo", "fr": "Je jardine, donc j'ai faim !", "en": "I garden, therefore I'm hungry!" }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "u41-expletif",
+  "type": "grammar",
+  "unit": 41,
+  "title": "Avant que le jury ne réponde",
+  "en": "The ne explétif",
+  "intro": "In careful French, a little **ne** turns up after some words without making the sentence negative: *avant qu'il **ne** parte* (before he leaves), *j'ai peur qu'il **ne** pleuve* (I'm afraid it'll rain), *à moins qu'il **n'**y ait une erreur* (unless there's a mistake), *tu as mieux dansé que tu **ne** le crois* (you danced better than you think). It's optional, more frequent in writing, and never translated. With **pas**, it's a real negation again: *j'ai peur qu'il **ne** vienne **pas*** (I'm afraid he won't come).",
+  "cases": [
+    { "id": "nx-avant", "label": "avant que… ne", "rule": "*Avant que* + subjunctive often takes a **ne** that means nothing: *Avant que les résultats **ne** soient publiés…* = before the results are published. You can leave it out: *avant que les résultats soient publiés*." },
+    { "id": "nx-peur", "label": "avoir peur que, craindre que, de peur que… ne", "rule": "After a fear, the **ne** comes back: *J'ai peur que le jury **ne** m'ait trouvée nerveuse* (I'm afraid the panel found me nervous). *Elle n'a rien dit, de peur que ses parents **ne** s'inquiètent.*" },
+    { "id": "nx-moins", "label": "à moins que… ne", "rule": "*À moins que* (unless) + subjunctive: *à moins qu'il **n'**y ait une erreur, à moins que tu **ne** sois trop fatigué*." },
+    { "id": "nx-comparatif", "label": "plus, mieux… que je ne pensais", "rule": "After a comparison followed by a clause, written French adds **ne** (and often *le*): *Tu as mieux dansé que tu **ne** le crois. C'est plus difficile qu'on **ne** l'imagine.*" },
+    { "id": "nx-negation", "label": "ne explétif or a real negation?", "rule": "The ne explétif has no *pas*. With *pas*, the sentence is negative: *J'ai peur qu'ils **ne** te prennent* (I'm afraid they'll take you) / *J'ai peur qu'ils **ne** te prennent **pas*** (I'm afraid they won't take you)." }
+  ],
+  "sections": [
+    {
+      "title": "1. avant que… ne",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Rentrons avant qu'il ne pleuve.", "Let's go home before it rains."],
+        ["Avant que les résultats ne soient publiés, Carla tremble.", "Before the results are published, Carla is shaking."],
+        ["Appelle-les avant qu'ils ne l'apprennent par Hugo.", "Call them before they hear it from Hugo."]
+      ] },
+      "examples": [
+        { "fr": "Je commande des croissants, {avant que tout le monde ne devienne|nx-avant} fou.", "en": "I'm ordering croissants, before everyone goes mad." },
+        { "fr": "Il faut appeler Papa et Maman, {avant qu'ils ne l'apprennent|nx-avant} par Hugo !", "en": "We must call Mum and Dad, before they hear it from Hugo!" }
+      ],
+      "tip": "*Après que* never takes this *ne*, and it takes the indicative: *après qu'il est parti*."
+    },
+    {
+      "title": "2. After a fear",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["J'ai peur qu'il ne pleuve.", "I'm afraid it'll rain."],
+        ["Je crains que le jury ne m'ait trouvée nerveuse.", "I fear the panel found me nervous."],
+        ["Elle n'a rien dit, de peur qu'ils ne s'inquiètent.", "She said nothing, for fear they would worry."]
+      ] },
+      "examples": [
+        { "fr": "{J'ai peur que le jury ne m'ait trouvée|nx-peur} trop nerveuse.", "en": "I'm afraid the panel found me too nervous." },
+        { "fr": "Carla n'a rien dit à ses parents, {de peur qu'ils ne s'inquiètent|nx-peur}.", "en": "Carla didn't tell her parents anything, for fear they would worry." }
+      ],
+      "tip": "In everyday speech, people often drop it: *j'ai peur qu'il pleuve*. Both are correct."
+    },
+    {
+      "title": "3. à moins que… ne",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["À moins qu'il n'y ait une erreur, tu es prise.", "Unless there's a mistake, you're in."],
+        ["On sort ce soir, à moins que tu ne sois fatigué.", "We're going out tonight, unless you're tired."],
+        ["À moins que le site ne tombe en panne…", "Unless the website goes down…"]
+      ] },
+      "examples": [
+        { "fr": "{À moins que le site ne tombe|nx-moins} en panne…", "en": "Unless the website goes down…" },
+        { "fr": "Ce soir, on fête ça. {À moins que tu ne sois|nx-moins} trop fatigué ?", "en": "Tonight, we're celebrating. Unless you're too tired?" }
+      ],
+      "tip": "*À moins de* + infinitive needs no *ne*: *à moins d'être malade*."
+    },
+    {
+      "title": "4. After a comparison",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Tu as mieux dansé que tu ne le crois.", "You danced better than you think."],
+        ["C'est plus difficile qu'on ne l'imagine.", "It's harder than you'd imagine."],
+        ["Il est moins tard que je ne pensais.", "It's earlier than I thought."]
+      ] },
+      "examples": [
+        { "fr": "{Tu as mieux dansé que tu ne le crois|nx-comparatif}.", "en": "You danced better than you think." },
+        { "fr": "{Le jury m'a mieux notée que je ne l'espérais|nx-comparatif} !", "en": "The panel gave me a better mark than I'd hoped!" }
+      ],
+      "tip": "In speech: *tu as mieux dansé que tu crois*. The *ne* and the *le* make it more written."
+    },
+    {
+      "title": "5. Not a negation… unless there's pas",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["J'ai peur qu'ils ne te prennent.", "I'm afraid they'll take you."],
+        ["J'ai peur qu'ils ne te prennent pas.", "I'm afraid they won't take you."],
+        ["Avant qu'elle ne parte…", "Before she leaves…"]
+      ] },
+      "examples": [
+        { "fr": "{J'ai peur qu'ils ne te prennent|nx-negation}… et que tu partes danser à New York sans moi !", "en": "I'm afraid they'll take you… and you'll go off dancing in New York without me!" },
+        { "fr": "Tu as peur {qu'ils ne me prennent pas|nx-negation}, tu veux dire ?", "en": "You're afraid they won't take me, you mean?" }
+      ],
+      "tip": "Listen for *pas, plus, jamais, rien*: without them, the *ne* is just style."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai peur qu'il ne pleut.", "right": "J'ai peur qu'il ne pleuve.", "why": "Avoir peur que takes the subjunctive, with or without ne." },
+    { "wrong": "Avant qu'il ne part, appelle-le.", "right": "Avant qu'il ne parte, appelle-le.", "why": "Avant que takes the subjunctive." },
+    { "wrong": "Après qu'il ne soit parti…", "right": "Après qu'il est parti…", "why": "Après que takes no ne, and the indicative." },
+    { "wrong": "À moins qu'il ne pas soit malade…", "right": "À moins qu'il ne soit malade…", "why": "The ne explétif has no pas: à moins qu'il ne soit malade means unless he's ill." },
+    { "wrong": "Tu as mieux dansé que tu ne le crois pas.", "right": "Tu as mieux dansé que tu ne le crois.", "why": "After a comparison, the ne stands alone, without pas." }
+  ],
+  "story": {
+    "title": "Les résultats",
+    "en": "Friday 16 April: Carla waits for the results of her entrance exam.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le vendredi seize avril, à onze heures et demie, au café d'en bas. Les résultats de l'examen seront publiés à midi.", "en": "On Friday 16 April, at half past eleven, at the café downstairs. The exam results will be published at noon." },
+      { "sp": "Carla", "fr": "{J'ai peur que le jury ne m'ait trouvée|nx-peur} trop nerveuse. Mon enchaînement à la barre était trop rapide.", "en": "I'm afraid the panel found me too nervous. My sequence at the barre was too fast." },
+      { "sp": "Inès", "fr": "{Tu as mieux dansé que tu ne le crois|nx-comparatif}.", "en": "You danced better than you think." },
+      { "sp": "Hugo", "fr": "Je commande des croissants, {avant que tout le monde ne devienne|nx-avant} fou.", "en": "I'm ordering croissants, before everyone goes mad." },
+      { "sp": "Léa", "fr": "Hugo, on ne mange pas de croissants à onze heures et demie.", "en": "Hugo, nobody eats croissants at half past eleven." },
+      { "sp": "Carla", "fr": "{À moins que le site ne tombe|nx-moins} en panne… Il est déjà midi moins le quart !", "en": "Unless the website goes down… It's already a quarter to twelve!" },
+      { "sp": "", "fr": "Carla n'a rien dit à ses parents, {de peur qu'ils ne s'inquiètent|nx-peur}.", "en": "Carla hasn't told her parents anything, for fear they would worry." },
+      { "sp": "Carla", "fr": "Et s'ils ne me prennent pas ?", "en": "And what if they don't take me?" },
+      { "sp": "Hugo", "fr": "Moi, {j'ai peur qu'ils ne te prennent|nx-negation}… et que tu partes danser à New York sans moi !", "en": "Me, I'm afraid they'll take you… and you'll go off dancing in New York without me!" },
+      { "sp": "Carla", "fr": "Tu as peur {qu'ils ne me prennent pas|nx-negation}, tu veux dire ?", "en": "You're afraid they won't take me, you mean?" },
+      { "sp": "Hugo", "fr": "Non : qu'ils te prennent ! Avec ou sans « pas », ce n'est pas la même chose.", "en": "No: that they take you! With or without 'pas', it's not the same thing." },
+      { "sp": "", "fr": "À midi, Carla ouvre le site sur son téléphone. Elle cherche son nom dans la liste… Septième sur quinze ! Elle est prise !", "en": "At noon, Carla opens the website on her phone. She looks for her name in the list… Seventh out of fifteen! She's in!" },
+      { "sp": "Carla", "fr": "Je n'y crois pas ! {Le jury m'a mieux notée que je ne l'espérais|nx-comparatif} !", "en": "I can't believe it! The panel gave me a better mark than I'd hoped!" },
+      { "sp": "Inès", "fr": "Il faut appeler Papa et Maman, {avant qu'ils ne l'apprennent|nx-avant} par Hugo !", "en": "We must call Mum and Dad, before they hear it from Hugo!" },
+      { "sp": "Hugo", "fr": "Trop tard : je leur ai déjà envoyé un message.", "en": "Too late: I've already sent them a message." },
+      { "sp": "Carla", "fr": "Hugo ! … Bon. Ce soir, on fête ça. {À moins que tu ne sois|nx-moins} trop fatigué, monsieur le chef d'équipe ?", "en": "Hugo! … Fine. Tonight, we're celebrating. Unless you're too tired, Mr Team Leader?" },
+      { "sp": "Hugo", "fr": "Fatigué ? Jamais, quand il y a des croissants !", "en": "Tired? Never, when there are croissants!" }
+    ]
+  },
+  "quiz": [
+    { "case": "nx-avant", "type": "mc", "q": "Rentrons avant qu'il ___ pleuve.", "en": "Let's go home before it rains.", "options": ["ne", "pas", "ne pas"], "answer": "ne" },
+    { "case": "nx-avant", "type": "mc", "q": "Avant que les résultats ne ___ publiés, Carla tremble.", "en": "Before the results are published, Carla is shaking.", "options": ["soient", "sont", "seront"], "answer": "soient" },
+    { "case": "nx-peur", "type": "mc", "q": "J'ai peur que le jury ne m'___ trouvée nerveuse.", "en": "I'm afraid the panel found me nervous.", "options": ["ait", "a", "aura"], "answer": "ait" },
+    { "case": "nx-peur", "type": "mc", "lang": "en", "q": "« J'ai peur qu'il ne vienne » means…", "options": ["I'm afraid he'll come.", "I'm afraid he won't come.", "I'm not afraid he'll come."], "answer": "I'm afraid he'll come.", "say": "J'ai peur qu'il ne vienne." },
+    { "case": "nx-moins", "type": "mc", "q": "À moins qu'il n'y ___ une erreur, tu es prise.", "en": "Unless there's a mistake, you're in.", "options": ["ait", "a", "aura"], "answer": "ait" },
+    { "case": "nx-moins", "type": "mc", "q": "On sort ce soir, ___ que tu ne sois fatigué.", "en": "We're going out tonight, unless you're tired.", "options": ["à moins", "pour", "bien"], "answer": "à moins" },
+    { "case": "nx-comparatif", "type": "mc", "q": "Tu as mieux dansé que tu ne le ___.", "en": "You danced better than you think.", "options": ["crois", "croies", "croirais"], "answer": "crois" },
+    { "case": "nx-comparatif", "type": "mc", "q": "C'est plus difficile qu'on ___ l'imagine.", "en": "It's harder than you'd imagine.", "options": ["ne", "pas", "n'en"], "answer": "ne" },
+    { "case": "nx-negation", "type": "mc", "lang": "en", "q": "Which sentence means « I'm afraid they won't take her »?", "options": ["J'ai peur qu'ils ne la prennent pas.", "J'ai peur qu'ils ne la prennent.", "J'ai peur qu'ils la prennent."], "answer": "J'ai peur qu'ils ne la prennent pas." },
+    { "case": "nx-negation", "type": "mc", "lang": "en", "q": "In « avant qu'il ne parte », the word « ne »…", "options": ["is not a negation", "means not", "means never"], "answer": "is not a negation", "say": "Avant qu'il ne parte." }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "u41-noms",
+  "type": "vocab",
+  "unit": 41,
+  "title": "L'esprit et la valeur",
+  "en": "Common nouns (1)",
+  "intro": "25 nouns that come up in every discussion: the inner life (**l'esprit, l'âme, la conscience, le désir, l'humeur, l'honneur, le destin**), ideas and words (**la vérité, la réalité, la connaissance, le principe, la valeur, la parole, la position, le terme**), weighing things up (**la possibilité, la difficulté, l'avantage, l'élément, le domaine, l'usage**) and a few that open doors (**l'origine, la trace, l'horizon, le soin**).",
+  "words": [
+    { "id": "esprit", "fr": "esprit", "pos": "noun", "g": "m", "ipa": "ɛs.pʁi", "en": "mind; spirit; wit", "def": "La partie de nous qui pense, qui imagine et qui comprend.", "def_en": "The part of us that thinks, imagines and understands.", "note": "*Avoir l'esprit ouvert* = to be open-minded. *Avoir de l'esprit* = to be witty.", "forms": ["esprits"], "examples": [
+      { "fr": "Quand je danse, mon **esprit** est libre.", "en": "When I dance, my mind is free." },
+      { "fr": "Il a l'**esprit** ouvert.", "en": "He's open-minded." },
+      { "fr": "Elle a beaucoup d'**esprit** : ses blagues sont géniales.", "en": "She's very witty: her jokes are brilliant." }
+    ] },
+    { "id": "valeur", "fr": "valeur", "pos": "noun", "g": "f", "ipa": "va.lœʁ", "en": "value, worth; (les valeurs) values", "def": "Ce que vaut une chose ou une personne ; ce qui est important pour quelqu'un.", "def_en": "What a thing or a person is worth; what matters to someone.", "note": "*Mettre en valeur* = to show off, to highlight.", "forms": ["valeurs"], "examples": [
+      { "fr": "Une vie qu'on ne comprend pas n'a pas de **valeur**.", "en": "A life you don't understand has no value." },
+      { "fr": "L'amitié est une **valeur** importante pour moi.", "en": "Friendship is an important value for me." },
+      { "fr": "Cette bague a une grande **valeur**.", "en": "This ring is worth a lot." }
+    ] },
+    { "id": "parole", "fr": "parole", "pos": "noun", "g": "f", "ipa": "pa.ʁɔl", "en": "speech, words; (sa parole) one's word; (les paroles) lyrics", "def": "Ce qu'on dit avec la voix ; une promesse.", "def_en": "What you say with your voice; a promise.", "note": "*Prendre la parole* = to speak (in a meeting). *Tenir parole* = to keep one's word. *Les paroles d'une chanson* = lyrics.", "forms": ["paroles"], "examples": [
+      { "fr": "Marc prend la **parole** le premier.", "en": "Marc speaks first." },
+      { "fr": "Je te donne ma **parole** : je serai à l'heure.", "en": "I give you my word: I'll be on time." },
+      { "fr": "Antoine écrit les **paroles** des chansons de son groupe.", "en": "Antoine writes the lyrics for his band's songs." }
+    ] },
+    { "id": "connaissance", "fr": "connaissance", "pos": "noun", "g": "f", "ipa": "kɔ.nɛ.sɑ̃s", "en": "knowledge; acquaintance", "def": "Ce qu'on sait ; une personne qu'on connaît un peu.", "def_en": "What you know; a person you know a little.", "note": "*Faire connaissance* = to get to know each other. *À ma connaissance* = as far as I know.", "forms": ["connaissances"], "examples": [
+      { "fr": "Pour beaucoup de sages, le bonheur, c'est la **connaissance** de soi.", "en": "For many wise people, happiness is knowing yourself." },
+      { "fr": "Je suis ravi de faire votre **connaissance**.", "en": "I'm delighted to meet you." },
+      { "fr": "Ce n'est pas un ami, c'est une **connaissance**.", "en": "He's not a friend, he's an acquaintance." }
+    ] },
+    { "id": "principe", "fr": "principe", "pos": "noun", "g": "m", "ipa": "pʁɛ̃.sip", "en": "principle", "def": "Une règle qu'on suit ; une idée de base.", "def_en": "A rule you follow; a basic idea.", "note": "*En principe* = in theory, normally. *Par principe* = on principle.", "forms": ["principes"], "examples": [
+      { "fr": "Pour moi, c'est une question de **principe** : le bonheur, c'est le chocolat.", "en": "For me, it's a matter of principle: happiness is chocolate." },
+      { "fr": "En **principe**, le magasin ouvre à neuf heures.", "en": "In theory, the shop opens at nine." },
+      { "fr": "Il ne ment jamais : c'est un homme de **principes**.", "en": "He never lies: he's a man of principle." }
+    ] },
+    { "id": "conscience", "fr": "conscience", "pos": "noun", "g": "f", "ipa": "kɔ̃.sjɑ̃s", "en": "awareness; conscience; consciousness", "def": "Le fait de savoir ce qui se passe en nous et autour de nous ; le sens du bien et du mal.", "def_en": "Knowing what's going on inside us and around us; the sense of right and wrong.", "note": "*Prendre conscience de* = to become aware of. *Avoir mauvaise conscience* = to feel guilty.", "forms": ["consciences"], "examples": [
+      { "fr": "C'est là que commence la **conscience**.", "en": "That's where awareness begins." },
+      { "fr": "J'ai pris **conscience** du problème.", "en": "I became aware of the problem." },
+      { "fr": "Il a mauvaise **conscience** : il a mangé le lapin.", "en": "He has a guilty conscience: he ate the rabbit." }
+    ] },
+    { "id": "desir", "fr": "désir", "pos": "noun", "g": "m", "ipa": "de.ziʁ", "en": "desire, wish", "def": "Le fait de vouloir très fort une chose.", "def_en": "Wanting something very much.", "forms": ["désirs"], "examples": [
+      { "fr": "Tu mélanges le bonheur et le **désir**, Hugo.", "en": "You're mixing up happiness and desire, Hugo." },
+      { "fr": "Son seul **désir** : voir la mer du Nord.", "en": "His only wish: to see the North Sea." },
+      { "fr": "Vos **désirs** sont des ordres !", "en": "Your wish is my command!" }
+    ] },
+    { "id": "destin", "fr": "destin", "pos": "noun", "g": "m", "ipa": "dɛs.tɛ̃", "en": "fate, destiny", "def": "Ce qui doit arriver dans la vie, sans qu'on puisse le choisir.", "def_en": "What is bound to happen in life, without our being able to choose it.", "forms": ["destins"], "examples": [
+      { "fr": "Le bonheur dépend du **destin**.", "en": "Happiness depends on fate." },
+      { "fr": "C'est le **destin** : on s'est rencontrés dans le métro.", "en": "It's fate: we met on the metro." },
+      { "fr": "Chacun est maître de son **destin**.", "en": "Everyone is master of their own destiny." }
+    ] },
+    { "id": "soin", "fr": "soin", "pos": "noun", "g": "m", "ipa": "swɛ̃", "en": "care; (les soins) treatment, care", "def": "L'attention qu'on donne à une personne ou à une chose.", "def_en": "The attention you give to a person or a thing.", "note": "*Prendre soin de* = to take care of. *Avec soin* = carefully.", "forms": ["soins"], "examples": [
+      { "fr": "Le bonheur, c'est prendre **soin** des gens qu'on aime.", "en": "Happiness is taking care of the people you love." },
+      { "fr": "Elle range ses livres avec **soin**.", "en": "She puts her books away carefully." },
+      { "fr": "Les **soins** de l'infirmière l'ont aidé.", "en": "The nurse's care helped him." }
+    ] },
+    { "id": "honneur", "fr": "honneur", "pos": "noun", "g": "m", "ipa": "ɔ.nœʁ", "en": "honour", "def": "Le respect qu'on a pour soi, et que les autres ont pour nous.", "def_en": "The respect you have for yourself, and that others have for you.", "note": "*En l'honneur de* = in honour of.", "forms": ["honneurs"], "examples": [
+      { "fr": "En l'**honneur** de Carla, tous les amis sont là.", "en": "In Carla's honour, all the friends are there." },
+      { "fr": "C'est un **honneur** de vous rencontrer.", "en": "It's an honour to meet you." },
+      { "fr": "Il a perdu son **honneur**.", "en": "He has lost his honour." }
+    ] },
+    { "id": "humeur", "fr": "humeur", "pos": "noun", "g": "f", "ipa": "y.mœʁ", "en": "mood, temper", "def": "La façon dont on se sent à un moment : content, triste, énervé…", "def_en": "The way you feel at a given moment: happy, sad, annoyed…", "note": "*De bonne / mauvaise humeur* = in a good / bad mood.", "forms": ["humeurs"], "examples": [
+      { "fr": "Et une bonne **humeur**, même à quatre heures du matin !", "en": "And a good mood, even at four in the morning!" },
+      { "fr": "Hugo est de mauvaise **humeur** le lundi.", "en": "Hugo is in a bad mood on Mondays." },
+      { "fr": "La musique change mon **humeur**.", "en": "Music changes my mood." }
+    ] },
+    { "id": "horizon", "fr": "horizon", "pos": "noun", "g": "m", "ipa": "ɔ.ʁi.zɔ̃", "en": "horizon", "def": "La ligne, au loin, où le ciel semble toucher la terre ou la mer.", "def_en": "The line, in the distance, where the sky seems to touch the land or the sea.", "note": "*Ouvrir ses horizons* = to broaden one's horizons.", "forms": ["horizons"], "examples": [
+      { "fr": "Et ouvrir son **horizon** : voyager, apprendre, danser.", "en": "And broaden your horizons: travel, learn, dance." },
+      { "fr": "Le soleil disparaît à l'**horizon**.", "en": "The sun disappears below the horizon." },
+      { "fr": "À l'**horizon**, on voit les Alpes.", "en": "On the horizon, you can see the Alps." }
+    ] },
+    { "id": "verite", "fr": "vérité", "pos": "noun", "g": "f", "ipa": "ve.ʁi.te", "en": "truth", "def": "Ce qui est vrai.", "def_en": "What is true.", "note": "*À vrai dire* = to tell the truth.", "forms": ["vérités"], "examples": [
+      { "fr": "La **vérité**, c'est que le bonheur, c'est dormir après quatre heures du matin !", "en": "The truth is, happiness is sleeping past four in the morning!" },
+      { "fr": "Dis-moi la **vérité** !", "en": "Tell me the truth!" },
+      { "fr": "Il ne dit jamais toute la **vérité**.", "en": "He never tells the whole truth." }
+    ] },
+    { "id": "realite", "fr": "réalité", "pos": "noun", "g": "f", "ipa": "ʁe.a.li.te", "en": "reality", "def": "Ce qui existe vraiment, et pas seulement dans les rêves.", "def_en": "What really exists, and not only in dreams.", "note": "*En réalité* = in fact, actually.", "forms": ["réalités"], "examples": [
+      { "fr": "Il y a aussi la **réalité** : l'argent, la santé, le travail…", "en": "There's reality too: money, health, work…" },
+      { "fr": "En **réalité**, il n'a rien [compris|comprendre].", "en": "In fact, he didn't understand a thing." },
+      { "fr": "Son rêve est devenu **réalité**.", "en": "His dream came true." }
+    ] },
+    { "id": "possibilite", "fr": "possibilité", "pos": "noun", "g": "f", "ipa": "pɔ.si.bi.li.te", "en": "possibility, chance; option", "def": "Ce qui peut arriver, ou ce qu'on peut faire.", "def_en": "What may happen, or what you can do.", "forms": ["possibilités"], "examples": [
+      { "fr": "Mais on a toujours la **possibilité** de choisir notre réaction.", "en": "But we always have the option of choosing how we react." },
+      { "fr": "Il y a deux **possibilités** : le train ou le bus.", "en": "There are two options: the train or the bus." },
+      { "fr": "Est-ce qu'il y a une **possibilité** de payer par carte ?", "en": "Is it possible to pay by card?" }
+    ] },
+    { "id": "difficulte", "fr": "difficulté", "pos": "noun", "g": "f", "ipa": "di.fi.kyl.te", "en": "difficulty", "def": "Ce qui rend une chose dure à faire.", "def_en": "What makes something hard to do.", "note": "*Être en difficulté* = to be in trouble, to struggle.", "forms": ["difficultés"], "examples": [
+      { "fr": "Et une **difficulté** : il faut rester heureux à long terme !", "en": "And one difficulty: you have to stay happy in the long term!" },
+      { "fr": "Il a des **difficultés** en maths.", "en": "He's struggling in maths." },
+      { "fr": "Elle a trouvé la maison sans **difficulté**.", "en": "She found the house without any trouble." }
+    ] },
+    { "id": "avantage", "fr": "avantage", "pos": "noun", "g": "m", "ipa": "a.vɑ̃.taʒ", "en": "advantage, benefit", "def": "Ce qui rend une situation meilleure ; un bon côté.", "def_en": "What makes a situation better; a good side.", "forms": ["avantages"], "examples": [
+      { "fr": "Il y a un **avantage** à être heureux : on vit plus longtemps.", "en": "There's one advantage to being happy: you live longer." },
+      { "fr": "Le vélo a beaucoup d'**avantages**.", "en": "Cycling has lots of advantages." },
+      { "fr": "Quel est l'**avantage** de cette offre ?", "en": "What's the benefit of this offer?" }
+    ] },
+    { "id": "origine", "fr": "origine", "pos": "noun", "g": "f", "ipa": "ɔ.ʁi.ʒin", "en": "origin; (à l'origine) originally", "def": "Le début d'une chose ; le pays ou la famille d'où on vient.", "def_en": "The beginning of something; the country or family you come from.", "forms": ["origines"], "examples": [
+      { "fr": "À l'**origine**, le mot « bonheur » voulait dire « bonne chance ».", "en": "Originally, the word 'bonheur' meant 'good luck'." },
+      { "fr": "Sa grand-mère est d'**origine** marocaine.", "en": "His grandmother is of Moroccan origin." },
+      { "fr": "Quelle est l'**origine** de cette tradition ?", "en": "Where does this tradition come from?" }
+    ] },
+    { "id": "domaine", "fr": "domaine", "pos": "noun", "g": "m", "ipa": "dɔ.mɛn", "en": "field, area; estate", "def": "Une partie des connaissances ou des activités ; une grande maison avec ses terres, à la campagne.", "def_en": "An area of knowledge or activity; a large house with its land, in the country.", "forms": ["domaines"], "examples": [
+      { "fr": "Dans mon **domaine**, l'architecture, on dit qu'une maison heureuse a trois éléments.", "en": "In my field, architecture, they say a happy house has three elements." },
+      { "fr": "Elle travaille dans le **domaine** de la santé.", "en": "She works in the health sector." },
+      { "fr": "Ce vin vient d'un **domaine** près de Lyon.", "en": "This wine comes from an estate near Lyon." }
+    ] },
+    { "id": "element", "fr": "élément", "pos": "noun", "g": "m", "ipa": "e.le.mɑ̃", "en": "element, part, piece", "def": "Une des parties d'une chose plus grande.", "def_en": "One of the parts of something bigger.", "forms": ["éléments"], "examples": [
+      { "fr": "Une maison heureuse a trois **éléments** : la lumière, l'espace et le silence.", "en": "A happy house has three elements: light, space and silence." },
+      { "fr": "Il manque un **élément** dans le dossier.", "en": "There's something missing from the file." },
+      { "fr": "Ce meuble a cinq **éléments** à monter.", "en": "This piece of furniture has five parts to put together." }
+    ] },
+    { "id": "terme", "fr": "terme", "pos": "noun", "g": "m", "ipa": "tɛʁm", "en": "term (word); end; (à long terme) in the long term", "def": "Un mot précis ; la fin d'une période.", "def_en": "A precise word; the end of a period.", "note": "*À court / long terme* = in the short / long term. *Mettre un terme à* = to put an end to.", "forms": ["termes"], "examples": [
+      { "fr": "Il faut rester heureux à long **terme** !", "en": "You have to stay happy in the long term!" },
+      { "fr": "Ce **terme** est trop technique.", "en": "This term is too technical." },
+      { "fr": "Le contrat arrive à son **terme** en juin.", "en": "The contract comes to an end in June." }
+    ] },
+    { "id": "usage", "fr": "usage", "pos": "noun", "g": "m", "ipa": "y.zaʒ", "en": "use; (in language) usage", "def": "La façon d'utiliser une chose ; ce qu'on fait d'habitude.", "def_en": "The way something is used; what people usually do.", "note": "*À l'usage* = with use, over time.", "forms": ["usages"], "examples": [
+      { "fr": "Le patron fait un **usage** très simple de la philosophie.", "en": "The owner makes very simple use of philosophy." },
+      { "fr": "L'**usage** du téléphone est interdit en classe.", "en": "Phones may not be used in class." },
+      { "fr": "Ce mot n'est plus en **usage**.", "en": "This word is no longer in use." }
+    ] },
+    { "id": "trace", "fr": "trace", "pos": "noun", "g": "f", "ipa": "tʁas", "en": "trace, mark, track", "def": "Ce qui reste après le passage de quelqu'un ou d'une chose.", "def_en": "What remains after someone or something has passed.", "forms": ["traces"], "examples": [
+      { "fr": "Le bonheur laisse une **trace** : on s'en souvient toute la vie.", "en": "Happiness leaves a mark: you remember it all your life." },
+      { "fr": "Il y a des **traces** de chocolat sur la table.", "en": "There are traces of chocolate on the table." },
+      { "fr": "Le voleur n'a laissé aucune **trace**.", "en": "The thief left no trace." }
+    ] },
+    { "id": "position", "fr": "position", "pos": "noun", "g": "f", "ipa": "pɔ.zi.sjɔ̃", "en": "position; stand, view", "def": "La place d'une personne ou d'une chose ; l'opinion qu'on a sur un sujet.", "def_en": "The place of a person or a thing; the opinion you have on a subject.", "note": "*Prendre position* = to take a stand.", "forms": ["positions"], "examples": [
+      { "fr": "Moi, je prends **position** : le bonheur dépend du destin.", "en": "I'm taking a stand: happiness depends on fate." },
+      { "fr": "Mets-toi dans une **position** confortable.", "en": "Get into a comfortable position." },
+      { "fr": "Quelle est votre **position** sur ce projet ?", "en": "What's your view on this project?" }
+    ] },
+    { "id": "ame", "fr": "âme", "pos": "noun", "g": "f", "ipa": "ɑm", "en": "soul", "def": "La partie de l'être humain qui sent et qui aime, différente du corps.", "def_en": "The part of a human being that feels and loves, as opposed to the body.", "note": "*L'âme sœur* = one's soulmate.", "forms": ["âmes"], "examples": [
+      { "fr": "Elle parle à l'**âme**.", "en": "It speaks to the soul." },
+      { "fr": "Ce vieux village a une **âme**.", "en": "This old village has a soul." },
+      { "fr": "Tom a trouvé son **âme** sœur.", "en": "Tom has found his soulmate." }
+    ] }
+  ],
+  "story": {
+    "title": "Le café philo",
+    "en": "Saturday 17 April: the café downstairs holds its first philosophy evening. The question: what is happiness?",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi dix-sept avril, le patron du café d'en bas organise son premier café philo. La question du soir : « Qu'est-ce que le bonheur ? »", "en": "On Saturday 17 April, the owner of the café downstairs holds his first philosophy evening. Tonight's question: 'What is happiness?'" },
+      { "sp": "", "fr": "En l'honneur de Carla, qui a réussi son examen, tous les amis sont là. Marc prend la parole le premier.", "en": "In honour of Carla, who has passed her exam, all the friends are there. Marc speaks first." },
+      { "sp": "Marc", "fr": "Pour beaucoup de sages, le bonheur, c'est la connaissance de soi. Une vie qu'on ne comprend pas n'a pas de valeur.", "en": "For many wise people, happiness is knowing yourself. A life you don't understand has no value." },
+      { "sp": "Hugo", "fr": "Pour moi, c'est une question de principe : le bonheur, c'est le chocolat. Et la pizza.", "en": "For me, it's a matter of principle: happiness is chocolate. And pizza." },
+      { "sp": "Sophie", "fr": "Tu mélanges le bonheur et le désir, Hugo.", "en": "You're mixing up happiness and desire, Hugo." },
+      { "sp": "Tom", "fr": "Pour moi, le bonheur, c'est la musique. Elle parle à l'âme.", "en": "For me, happiness is music. It speaks to the soul." },
+      { "sp": "Carla", "fr": "Et la danse ! Quand je danse, mon esprit est libre. Je ne pense à rien.", "en": "And dance! When I dance, my mind is free. I don't think about anything." },
+      { "sp": "Léa", "fr": "Mais le bonheur n'est pas seulement dans la tête. Il y a aussi la réalité : l'argent, la santé, le travail…", "en": "But happiness isn't only in your head. There's reality too: money, health, work…" },
+      { "sp": "Enzo", "fr": "La vérité, c'est que le bonheur, c'est dormir après quatre heures du matin !", "en": "The truth is, happiness is sleeping past four in the morning!" },
+      { "sp": "Madame Fournier", "fr": "Le bonheur ? C'est le travail bien fait. Et une bonne humeur, même à quatre heures du matin !", "en": "Happiness? It's a job well done. And a good mood, even at four in the morning!" },
+      { "sp": "Inès", "fr": "Moi, je prends position : le bonheur dépend du destin. On ne choisit pas tout.", "en": "I'm taking a stand: happiness depends on fate. We don't choose everything." },
+      { "sp": "Marc", "fr": "Mais on a toujours la possibilité de choisir notre réaction. C'est là que commence la conscience.", "en": "But we always have the option of choosing how we react. That's where awareness begins." },
+      { "sp": "Sophie", "fr": "Dans mon domaine, l'architecture, on dit qu'une maison heureuse a trois éléments : la lumière, l'espace et le silence.", "en": "In my field, architecture, they say a happy house has three elements: light, space and silence." },
+      { "sp": "Tom", "fr": "Il y a un avantage à être heureux : on vit plus longtemps.", "en": "There's one advantage to being happy: you live longer." },
+      { "sp": "Hugo", "fr": "Et une difficulté : il faut rester heureux à long terme !", "en": "And one difficulty: you have to stay happy in the long term!" },
+      { "sp": "Marc", "fr": "À l'origine, le mot « bonheur » voulait dire « bonne chance ». Et le bonheur laisse une trace : on s'en souvient toute la vie.", "en": "Originally, the word 'bonheur' meant 'good luck'. And happiness leaves a mark: you remember it all your life." },
+      { "sp": "Léa", "fr": "Pour moi, le bonheur, c'est prendre [soin|soin] des gens qu'on aime.", "en": "For me, happiness is taking care of the people you love." },
+      { "sp": "Carla", "fr": "Et ouvrir son horizon : voyager, apprendre, danser.", "en": "And broadening your horizons: travelling, learning, dancing." },
+      { "sp": "", "fr": "À la fin de la soirée, le patron fait un usage très simple de la philosophie : il offre un verre à tout le monde.", "en": "At the end of the evening, the owner makes very simple use of philosophy: he buys everyone a drink." },
+      { "sp": "Hugo", "fr": "Voilà la réponse. Le bonheur, c'est un café philo… avec un verre gratuit !", "en": "There's the answer. Happiness is a philosophy evening… with a free drink!" }
+    ]
+  }
+}
