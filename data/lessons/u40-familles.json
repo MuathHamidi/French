@@ -1,0 +1,173 @@
+{
+  "id": "u40-familles",
+  "type": "vocab",
+  "unit": 40,
+  "title": "Les familles de mots",
+  "en": "Word families",
+  "intro": "25 words built on words you know. **Mal-** turns a word into its bad twin: **le malheur, la malchance, malheureux, malhonnête** (and **l'honnêteté**). **In-, im-, il-, ir-** say *not*: **impatient, inutile, invisible, incapable, inattendu, imprévisible, insupportable, illisible, irresponsable, l'injustice**. **Re-** says *again*: **relire, refaire**. **Dé-** undoes: **défaire, déconseiller, désagréable**. And suffixes make new words: **lisible, prévisible, l'utilité, la responsabilité**, and **adroit**, the opposite of *maladroit*.",
+  "words": [
+    { "id": "lisible", "fr": "lisible", "pos": "adj", "ipa": "li.zibl", "en": "legible, readable", "def": "Qu'on peut lire facilement.", "def_en": "That can be read easily.", "note": "Family: *lire, la lecture, le lecteur, lisible, illisible, relire*.", "forms": ["lisibles"], "examples": [
+      { "fr": "Un texte qu'on peut lire est « **lisible** ».", "en": "A text you can read is 'legible'." },
+      { "fr": "Écris lentement, pour que ce soit **lisible**.", "en": "Write slowly, so that it's legible." },
+      { "fr": "Tes notes ne sont pas très **lisibles**.", "en": "Your notes aren't very readable." }
+    ] },
+    { "id": "illisible", "fr": "illisible", "pos": "adj", "ipa": "i.li.zibl", "en": "illegible, unreadable", "def": "Qu'on ne peut pas lire.", "def_en": "That can't be read.", "note": "*In-* becomes *il-* before an l: *illisible*; *ir-* before an r: *irresponsable*; *im-* before b, m, p: *impatient*.", "forms": ["illisibles"], "examples": [
+      { "fr": "Il l'a relue dix fois, mais elle est **illisible** !", "en": "He read it ten times, but it's illegible!" },
+      { "fr": "Le médecin a une écriture **illisible**.", "en": "The doctor has illegible handwriting." },
+      { "fr": "Ce panneau est **illisible**.", "en": "This sign is unreadable." }
+    ] },
+    { "id": "relire", "fr": "relire", "pos": "verb", "ipa": "ʁə.liʁ", "en": "to read again, to reread; to read over (a text)", "def": "Lire une deuxième fois ; lire un texte pour le corriger.", "def_en": "To read a second time; to read a text to correct it.", "note": "*Re-* means *again*: *relire, refaire, revoir, recommencer*.", "forms": ["relis", "relit", "relisons", "relisez", "relisent", "relu", "relue", "relus", "relues", "relisais", "relisait", "relisions", "relisiez", "relisaient", "relirai", "reliras", "relira", "relirons", "relirez", "reliront", "relirais", "relirait", "relirions", "reliriez", "reliraient", "relisant", "relut", "relûmes", "relûtes", "relurent", "relise", "relises"], "examples": [
+      { "fr": "Il l'a **relue** dix fois.", "en": "He read it ten times." },
+      { "fr": "**Relis** ton mail avant de l'envoyer.", "en": "Read your email over before you send it." },
+      { "fr": "Je **relis** ce livre tous les ans.", "en": "I reread this book every year." }
+    ] },
+    { "id": "defaire", "fr": "défaire", "pos": "verb", "ipa": "de.fɛʁ", "en": "to undo; (défaire sa valise) to unpack", "def": "Le contraire de faire : par exemple, sortir les affaires d'une valise.", "def_en": "The opposite of making or doing: for example, taking things out of a suitcase.", "note": "*Dé-* (or *dés-* before a vowel) often means the opposite: *faire → défaire, conseiller → déconseiller, agréable → désagréable*.", "forms": ["défais", "défait", "défaisons", "défont", "défaits", "défaisais", "défaisait", "défaisions", "défaisiez", "défaisaient", "déferai", "déferas", "défera", "déferons", "déferez", "déferont", "déferais", "déferait", "déferions", "déferiez", "déferaient", "défaisant", "défit", "défîmes", "défîtes", "défirent", "défasse", "défasses"], "examples": [
+      { "fr": "Cet été, à Madrid, tu vas **défaire** ta valise.", "en": "This summer, in Madrid, you'll unpack your suitcase." },
+      { "fr": "Elle **défait** son sac en arrivant.", "en": "She unpacks her bag when she arrives." },
+      { "fr": "Ne **défais** pas tout mon travail !", "en": "Don't undo all my work!" }
+    ] },
+    { "id": "refaire", "fr": "refaire", "pos": "verb", "ipa": "ʁə.fɛʁ", "en": "to redo, to do again; to remake", "def": "Faire une deuxième fois.", "def_en": "To do a second time.", "forms": ["refais", "refait", "refaisons", "refaites", "refont", "refaite", "refaits", "refaisais", "refaisait", "refaisions", "refaisiez", "refaisaient", "referai", "referas", "refera", "referons", "referez", "referont", "referais", "referait", "referions", "referiez", "referaient", "refaisant", "refis", "refit", "refîmes", "refîtes", "refirent", "refasse", "refasses"], "examples": [
+      { "fr": "Je vais la **refaire** !", "en": "I'll do it again!" },
+      { "fr": "Il faut tout **refaire**.", "en": "We have to do it all again." },
+      { "fr": "Il **refait** toujours les mêmes erreurs.", "en": "He always makes the same mistakes again." }
+    ] },
+    { "id": "malheur", "fr": "malheur", "pos": "noun", "g": "m", "ipa": "ma.lœʁ", "en": "misfortune, unhappiness; disaster", "def": "Le contraire du bonheur ; un événement très triste.", "def_en": "The opposite of happiness; a very sad event.", "note": "*Mal-* gives the bad side: *bonheur → malheur, chance → malchance, honnête → malhonnête, adroit → maladroit*. *Porter malheur* = to bring bad luck.", "forms": ["malheurs"], "examples": [
+      { "fr": "Et le nom, c'est « le bonheur »… ou « le **malheur** ».", "en": "And the noun is 'happiness'… or 'unhappiness'." },
+      { "fr": "Quel **malheur** !", "en": "What a disaster!" },
+      { "fr": "Un **malheur** n'arrive jamais seul.", "en": "It never rains but it pours." }
+    ] },
+    { "id": "malchance", "fr": "malchance", "pos": "noun", "g": "f", "ipa": "mal.ʃɑ̃s", "en": "bad luck", "def": "Le contraire de la chance.", "def_en": "The opposite of luck.", "forms": ["malchances"], "examples": [
+      { "fr": "J'ai juste beaucoup de **malchance**.", "en": "I just have a lot of bad luck." },
+      { "fr": "Quelle **malchance** : il pleut le jour du mariage !", "en": "What bad luck: it's raining on the wedding day!" },
+      { "fr": "Par **malchance**, le train était en retard.", "en": "As bad luck would have it, the train was late." }
+    ] },
+    { "id": "malheureux", "fr": "malheureux", "pos": "adj", "ipa": "ma.lø.ʁø", "display": "malheureux, malheureuse", "en": "unhappy; unlucky", "def": "Pas heureux ; triste.", "def_en": "Not happy; sad.", "forms": ["malheureuse", "malheureuses"], "examples": [
+      { "fr": "Le contraire, c'est « **malheureux** ».", "en": "The opposite is 'unhappy'." },
+      { "fr": "Il est **malheureux** depuis son départ.", "en": "He's been unhappy since he left." },
+      { "fr": "Je suis un acheteur **malheureux**.", "en": "I'm an unlucky buyer." }
+    ] },
+    { "id": "malhonnete", "fr": "malhonnête", "pos": "adj", "ipa": "ma.lɔ.nɛt", "en": "dishonest", "def": "Qui ment ou qui vole pour gagner de l'argent.", "def_en": "Who lies or steals to make money.", "forms": ["malhonnêtes"], "examples": [
+      { "fr": "Hugo est maladroit, mais il n'est pas **malhonnête**.", "en": "Hugo is clumsy, but he isn't dishonest." },
+      { "fr": "Ce vendeur est **malhonnête**.", "en": "This seller is dishonest." },
+      { "fr": "C'est **malhonnête** de copier sur son voisin !", "en": "It's dishonest to copy from the person next to you!" }
+    ] },
+    { "id": "honnetete", "fr": "honnêteté", "pos": "noun", "g": "f", "ipa": "ɔ.nɛt.te", "en": "honesty", "def": "La qualité d'une personne qui dit la vérité et qui ne vole pas.", "def_en": "The quality of a person who tells the truth and doesn't steal.", "note": "*-té* or *-ité* makes a noun from an adjective: *honnête → honnêteté, utile → utilité*.", "examples": [
+      { "fr": "Son **honnêteté** me plaît.", "en": "I like his honesty." },
+      { "fr": "L'**honnêteté**, c'est important.", "en": "Honesty matters." },
+      { "fr": "Je te remercie pour ton **honnêteté**.", "en": "Thank you for your honesty." }
+    ] },
+    { "id": "desagreable", "fr": "désagréable", "pos": "adj", "ipa": "de.za.ɡʁe.abl", "en": "unpleasant, disagreeable", "def": "Qui ne fait pas plaisir ; qu'on n'aime pas.", "def_en": "That gives no pleasure; that you don't like.", "forms": ["désagréables"], "examples": [
+      { "fr": "La leçon… pas **désagréable** !", "en": "The lesson… not unpleasant!" },
+      { "fr": "Ce bruit est très **désagréable**.", "en": "This noise is very unpleasant." },
+      { "fr": "Il a été **désagréable** avec la serveuse.", "en": "He was rude to the waitress." }
+    ] },
+    { "id": "impatient", "fr": "impatient", "pos": "adj", "ipa": "ɛ̃.pa.sjɑ̃", "display": "impatient, impatiente", "en": "impatient; eager (impatient de = looking forward to)", "def": "Qui n'aime pas attendre ; qui veut vite une chose.", "def_en": "Who doesn't like waiting; who wants something quickly.", "forms": ["impatiente", "impatients", "impatientes"], "examples": [
+      { "fr": "Je suis… **impatient**… de voir Hugo.", "en": "I'm… looking forward… to seeing Hugo." },
+      { "fr": "Ne sois pas si **impatiente** !", "en": "Don't be so impatient!" },
+      { "fr": "Les enfants sont **impatients** d'ouvrir leurs cadeaux.", "en": "The children can't wait to open their presents." }
+    ] },
+    { "id": "inutile", "fr": "inutile", "pos": "adj", "ipa": "i.ny.til", "en": "useless; unnecessary", "def": "Qui ne sert à rien.", "def_en": "That is of no use.", "forms": ["inutiles"], "examples": [
+      { "fr": "Pour apprendre une langue, mon application est **inutile**.", "en": "For learning a language, my app is useless." },
+      { "fr": "C'est **inutile** de crier.", "en": "There's no point shouting." },
+      { "fr": "Ne fais pas de dépenses **inutiles**.", "en": "Don't spend money on things you don't need." }
+    ] },
+    { "id": "utilite", "fr": "utilité", "pos": "noun", "g": "f", "ipa": "y.ti.li.te", "en": "usefulness, use", "def": "Le fait de servir à quelque chose.", "def_en": "Being of use.", "examples": [
+      { "fr": "Une application a son **utilité**…", "en": "An app has its uses…" },
+      { "fr": "Quelle est l'**utilité** de ce bouton ?", "en": "What's this button for?" },
+      { "fr": "Je ne vois pas l'**utilité** de cette réunion.", "en": "I don't see the point of this meeting." }
+    ] },
+    { "id": "injustice", "fr": "injustice", "pos": "noun", "g": "f", "ipa": "ɛ̃.ʒys.tis", "en": "injustice, unfairness", "def": "Une situation où une personne n'est pas traitée comme elle le mérite.", "def_en": "A situation where a person isn't treated as they deserve.", "forms": ["injustices"], "examples": [
+      { "fr": "Hugo… pas football ? C'est une **injustice** !", "en": "Hugo… no football? It's an injustice!" },
+      { "fr": "Les **injustices** me mettent en colère.", "en": "Injustice makes me angry." },
+      { "fr": "Quelle **injustice** : j'ai travaillé plus que lui, et il gagne plus !", "en": "How unfair: I worked more than him, and he earns more!" }
+    ] },
+    { "id": "irresponsable", "fr": "irresponsable", "pos": "adj", "ipa": "i.ʁɛs.pɔ̃.sabl", "en": "irresponsible", "def": "Qui ne pense pas aux conséquences de ce qu'il fait.", "def_en": "Who doesn't think about the consequences of what they do.", "forms": ["irresponsables"], "examples": [
+      { "fr": "Papa dit que c'est **irresponsable**.", "en": "Dad says it's irresponsible." },
+      { "fr": "Conduire si vite, c'est **irresponsable** !", "en": "Driving so fast is irresponsible!" },
+      { "fr": "Ce n'est pas un enfant **irresponsable**.", "en": "He isn't an irresponsible child." }
+    ] },
+    { "id": "responsabilite", "fr": "responsabilité", "pos": "noun", "g": "f", "ipa": "ʁɛs.pɔ̃.sa.bi.li.te", "en": "responsibility", "def": "Le devoir de s'occuper d'une chose, et d'en répondre.", "def_en": "The duty to take care of something, and to answer for it.", "forms": ["responsabilités"], "examples": [
+      { "fr": "À Madrid, le football, c'est une **responsabilité** !", "en": "In Madrid, football is a responsibility!" },
+      { "fr": "Hugo a de nouvelles **responsabilités** au bureau.", "en": "Hugo has new responsibilities at the office." },
+      { "fr": "C'est ta **responsabilité**.", "en": "It's your responsibility." }
+    ] },
+    { "id": "incapable", "fr": "incapable", "pos": "adj", "ipa": "ɛ̃.ka.pabl", "en": "unable, incapable (incapable de = unable to)", "def": "Qui ne peut pas faire quelque chose.", "def_en": "Who can't do something.", "forms": ["incapables"], "examples": [
+      { "fr": "Je suis **incapable** de regarder un match jusqu'à la fin.", "en": "I can't watch a match to the end." },
+      { "fr": "Hugo est **incapable** de garder un secret.", "en": "Hugo can't keep a secret." },
+      { "fr": "Elle est **incapable** de mentir.", "en": "She's incapable of lying." }
+    ] },
+    { "id": "previsible", "fr": "prévisible", "pos": "adj", "ipa": "pʁe.vi.zibl", "en": "predictable, foreseeable", "def": "Qu'on peut prévoir.", "def_en": "That can be foreseen.", "note": "*-able* and *-ible* mean *that can be…*: *prévisible, lisible, buvable*.", "forms": ["prévisibles"], "examples": [
+      { "fr": "Ce qu'on peut prévoir est **prévisible**.", "en": "What can be foreseen is predictable." },
+      { "fr": "La fin du film est très **prévisible**.", "en": "The end of the film is very predictable." },
+      { "fr": "Ce retard était **prévisible**.", "en": "This delay was foreseeable." }
+    ] },
+    { "id": "imprevisible", "fr": "imprévisible", "pos": "adj", "ipa": "ɛ̃.pʁe.vi.zibl", "en": "unpredictable", "def": "Qu'on ne peut pas prévoir : on ne sait jamais ce qui va arriver.", "def_en": "That can't be foreseen: you never know what will happen.", "forms": ["imprévisibles"], "examples": [
+      { "fr": "Hugo… **imprévisible** !", "en": "Hugo… unpredictable!" },
+      { "fr": "À la montagne, le temps est **imprévisible**.", "en": "In the mountains, the weather is unpredictable." },
+      { "fr": "C'est un chat **imprévisible**.", "en": "He's an unpredictable cat." }
+    ] },
+    { "id": "inattendu", "fr": "inattendu", "pos": "adj", "ipa": "i.na.tɑ̃.dy", "display": "inattendu, inattendue", "en": "unexpected", "def": "Qu'on n'attendait pas.", "def_en": "That wasn't expected.", "forms": ["inattendue", "inattendus", "inattendues"], "examples": [
+      { "fr": "La fin du cours est **inattendue**.", "en": "The end of the lesson is unexpected." },
+      { "fr": "Nous avons eu une visite **inattendue**.", "en": "We had an unexpected visit." },
+      { "fr": "Son succès est **inattendu**.", "en": "His success is unexpected." }
+    ] },
+    { "id": "invisible", "fr": "invisible", "pos": "adj", "ipa": "ɛ̃.vi.zibl", "en": "invisible", "def": "Qu'on ne peut pas voir.", "def_en": "That can't be seen.", "forms": ["invisibles"], "examples": [
+      { "fr": "Pour lui, vous étiez **invisibles** !", "en": "For him, you were invisible!" },
+      { "fr": "Dans le noir, le chat est **invisible**.", "en": "In the dark, the cat is invisible." },
+      { "fr": "Au début, ce problème est **invisible**.", "en": "At first, this problem can't be seen." }
+    ] },
+    { "id": "insupportable", "fr": "insupportable", "pos": "adj", "ipa": "ɛ̃.sy.pɔʁ.tabl", "en": "unbearable; insufferable", "def": "Trop difficile à accepter ; très désagréable.", "def_en": "Too hard to accept; very unpleasant.", "forms": ["insupportables"], "examples": [
+      { "fr": "Minou ! Ce chat est **insupportable** !", "en": "Minou! This cat is impossible!" },
+      { "fr": "Cette chaleur est **insupportable**.", "en": "This heat is unbearable." },
+      { "fr": "Arrête, tu es **insupportable** !", "en": "Stop it, you're unbearable!" }
+    ] },
+    { "id": "deconseiller", "fr": "déconseiller", "pos": "verb", "ipa": "de.kɔ̃.se.je", "en": "to advise against", "def": "Dire à quelqu'un qu'il ne faut pas faire une chose.", "def_en": "To tell someone they shouldn't do something.", "forms": ["déconseille", "déconseilles", "déconseillons", "déconseillez", "déconseillent", "déconseillé", "déconseillée", "déconseillés", "déconseillées", "déconseillais", "déconseillait", "déconseillions", "déconseilliez", "déconseillaient", "déconseillerai", "déconseilleras", "déconseillera", "déconseillerons", "déconseillerez", "déconseilleront", "déconseillerais", "déconseillerait", "déconseillerions", "déconseilleriez", "déconseilleraient", "déconseillant", "déconseillai", "déconseillas", "déconseilla", "déconseillâmes", "déconseillâtes", "déconseillèrent"], "examples": [
+      { "fr": "Je la **déconseille** à tout le monde !", "en": "I advise everyone against it!" },
+      { "fr": "Le médecin lui a **déconseillé** le sport.", "en": "The doctor advised him against sport." },
+      { "fr": "Ce film est **déconseillé** aux enfants.", "en": "This film isn't recommended for children." }
+    ] },
+    { "id": "adroit", "fr": "adroit", "pos": "adj", "ipa": "a.dʁwa", "display": "adroit, adroite", "en": "skilful, deft, handy", "def": "Qui fait les choses bien avec ses mains.", "def_en": "Who does things well with their hands.", "note": "The opposite is *maladroit* (clumsy).", "forms": ["adroite", "adroits", "adroites"], "examples": [
+      { "fr": "Mais je peux être **adroit** !", "en": "But I can be skilful!" },
+      { "fr": "Tom est très **adroit** : il répare tout.", "en": "Tom is very handy: he fixes everything." },
+      { "fr": "Elle est **adroite** de ses mains.", "en": "She's good with her hands." }
+    ] }
+  ],
+  "story": {
+    "title": "Le premier élève",
+    "en": "Sunday 21 March: Léa gives her very first French lesson, by video, to Carla's father in Madrid.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le dimanche vingt et un mars, chez Léa et Sophie. Léa donne son premier [cours|cours] de français… au père de Carla, en vidéo, à Madrid.", "en": "On Sunday 21 March, at Léa and Sophie's. Léa gives her first French lesson… to Carla's father, by video, in Madrid." },
+      { "sp": "", "fr": "Il veut parler avec Hugo cet été, sans interprète. Carla est là pour traduire, et Hugo est un peu inquiet.", "en": "He wants to talk to Hugo this summer, without an interpreter. Carla is there to translate, and Hugo is a little worried." },
+      { "sp": "Léa", "fr": "Ma méthode, ce sont les familles de mots. Vous apprenez un mot, et vous en gagnez cinq !", "en": "My method is word families. You learn one word, and you get five for free!" },
+      { "sp": "Léa", "fr": "Par exemple : « heureux ». Le contraire, c'est « malheureux ». Et le nom, c'est « le bonheur »… ou « le malheur ».", "en": "For example: 'happy'. The opposite is 'unhappy'. And the noun is 'happiness'… or 'unhappiness'." },
+      { "sp": "Le père de Carla", "fr": "Hugo… malheureux ?", "en": "Hugo… unhappy?" },
+      { "sp": "Hugo", "fr": "Non, non ! Je suis très heureux ! J'ai juste beaucoup de malchance : la poubelle, les abeilles, l'échelle…", "en": "No, no! I'm very happy! I just have a lot of bad luck: the bin, the bees, the ladder…" },
+      { "sp": "Léa", "fr": "Avec « mal », on fait souvent le contraire : « honnête », « malhonnête ».", "en": "With 'mal', you often make the opposite: 'honest', 'dishonest'." },
+      { "sp": "Carla", "fr": "Papa dit : « Hugo est maladroit, mais il n'est pas malhonnête. Son honnêteté me plaît. »", "en": "Dad says: 'Hugo is clumsy, but he isn't dishonest. I like his honesty.'" },
+      { "sp": "Hugo", "fr": "Maladroit, moi ? … Bon, d'accord. Mais je peux être adroit !", "en": "Me, clumsy? … OK, fine. But I can be skilful!" },
+      { "sp": "", "fr": "À ce moment-là, Minou marche sur le clavier. L'écran devient noir.", "en": "At that moment, Minou walks across the keyboard. The screen goes black." },
+      { "sp": "Sophie", "fr": "Minou ! Ce chat est insupportable !", "en": "Minou! This cat is impossible!" },
+      { "sp": "", "fr": "Quand l'image revient, le père de Carla rit.", "en": "When the picture comes back, Carla's father is laughing." },
+      { "sp": "Carla", "fr": "Papa demande où vous étiez passés. Pour lui, vous étiez invisibles !", "en": "Dad's asking where you'd all gone. For him, you were invisible!" },
+      { "sp": "Léa", "fr": "On continue. « Lire » : un texte qu'on peut lire est « lisible ». Sinon, il est « illisible ».", "en": "Let's go on. 'Read': a text you can read is 'legible'. Otherwise, it's 'illegible'." },
+      { "sp": "Carla", "fr": "Papa a reçu ta carte de remerciement, Hugo. Il l'a relue dix fois, mais elle est illisible !", "en": "Dad got your thank-you card, Hugo. He read it ten times, but it's illegible!" },
+      { "sp": "Hugo", "fr": "Je vais la refaire ! Je connais la règle : « relire », c'est lire encore une fois, et « refaire », c'est faire encore une fois.", "en": "I'll do it again! I know the rule: 'reread' is to read once more, and 'redo' is to do once more." },
+      { "sp": "Léa", "fr": "Bravo. Et pour le contraire : « faire », « défaire ». Cet été, à Madrid, tu vas défaire ta valise…", "en": "Well done. And for the opposite: 'do', 'undo'. This summer, in Madrid, you'll unpack your suitcase…" },
+      { "sp": "Carla", "fr": "… et la refaire le lendemain, parce que tu auras oublié la moitié de tes affaires !", "en": "… and pack it again the next day, because you'll have forgotten half your things!" },
+      { "sp": "Le père de Carla", "fr": "Hugo… imprévisible !", "en": "Hugo… unpredictable!" },
+      { "sp": "Léa", "fr": "Excellent ! Ce qu'on peut prévoir est « prévisible ». « Imprévisible », c'est le contraire. Comme Hugo.", "en": "Excellent! What you can foresee is 'predictable'. 'Unpredictable' is the opposite. Like Hugo." },
+      { "sp": "Hugo", "fr": "Pour apprendre une langue, mon application est inutile. Je la déconseille à tout le monde !", "en": "For learning a language, my app is useless. I advise everyone against it!" },
+      { "sp": "Léa", "fr": "Une application a son utilité… mais un vrai professeur, c'est mieux.", "en": "An app has its uses… but a real teacher is better." },
+      { "sp": "Carla", "fr": "Papa a une question : « Le stade, cet été, c'est d'accord ? »", "en": "Dad has a question: 'The stadium, this summer, is it a deal?'" },
+      { "sp": "Hugo", "fr": "Euh… Le football, c'était un malentendu…", "en": "Er… The football thing was a misunderstanding…" },
+      { "sp": "Le père de Carla", "fr": "Hugo… pas football ? C'est une injustice !", "en": "Hugo… no football? It's an injustice!" },
+      { "sp": "Hugo", "fr": "Je suis incapable de regarder un match jusqu'à la fin : je m'endors !", "en": "I can't watch a match to the end: I fall asleep!" },
+      { "sp": "Carla", "fr": "Papa dit que c'est irresponsable. À Madrid, le football, c'est une responsabilité !", "en": "Dad says that's irresponsible. In Madrid, football is a responsibility!" },
+      { "sp": "", "fr": "La fin du cours est inattendue : le père de Carla parle en français, très lentement.", "en": "The end of the lesson is unexpected: Carla's father speaks in French, very slowly." },
+      { "sp": "Le père de Carla", "fr": "Merci, Léa. La leçon… pas désagréable ! Je suis… impatient… de voir Hugo.", "en": "Thank you, Léa. The lesson… not unpleasant! I am… looking forward… to seeing Hugo." },
+      { "sp": "Hugo", "fr": "Impatient de me voir ? Ou de m'emmener au stade ?", "en": "Looking forward to seeing me? Or to taking me to the stadium?" },
+      { "sp": "Léa", "fr": "Mon premier élève ! Je crois que j'ai trouvé mon métier.", "en": "My first pupil! I think I've found my calling." }
+    ]
+  }
+}

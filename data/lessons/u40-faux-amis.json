@@ -1,0 +1,172 @@
+{
+  "id": "u40-faux-amis",
+  "type": "vocab",
+  "unit": 40,
+  "title": "Les faux amis",
+  "en": "False friends",
+  "intro": "25 false friends: French words that look like English ones but mean something else. **Actuellement** is *currently*, **éventuellement** *possibly*, **prétendre** *to claim* (*to pretend* is **faire semblant**), **ignorer** *not to know*, **supporter** *to stand*, **résumer** *to sum up*, **achever** *to finish*, **introduire** *to insert*, **décevoir** *to disappoint* (and **la déception**, *disappointment*). **Rude** means *harsh*, **sympathique** *nice*, **compréhensif** *understanding*; **le hasard** is *chance*, **l'issue** *the way out*, **la conférence** *a lecture*, **l'avertissement** *a warning*, **l'injure** *an insult*, **le surnom** *a nickname*, **l'éditeur** *a publisher*, **les habits** *clothes*, **la figure** *the face*, **la prune** *a plum*. And to say you're excited: **j'ai hâte**.",
+  "words": [
+    { "id": "actuellement", "fr": "actuellement", "pos": "adv", "ipa": "ak.tɥɛl.mɑ̃", "en": "currently, at the moment", "def": "En ce moment, maintenant.", "def_en": "At the moment, now.", "note": "False friend: *actually* is *en fait*.", "examples": [
+      { "fr": "**Actuellement**, je vends des guitares.", "en": "At the moment, I sell guitars." },
+      { "fr": "**Actuellement**, il fait moins vingt à Montréal.", "en": "It's currently minus twenty in Montreal." },
+      { "fr": "Le musée est fermé **actuellement**.", "en": "The museum is closed at the moment." }
+    ] },
+    { "id": "eventuellement", "fr": "éventuellement", "pos": "adv", "ipa": "e.vɑ̃.tɥɛl.mɑ̃", "en": "possibly, if need be", "def": "Peut-être, si c'est nécessaire.", "def_en": "Maybe, if it's necessary.", "note": "False friend: *eventually* is *finalement*.", "examples": [
+      { "fr": "Et **éventuellement**, je serai étudiant en septembre.", "en": "And possibly, I'll be a student in September." },
+      { "fr": "On pourrait **éventuellement** se voir demain.", "en": "We could possibly meet tomorrow." },
+      { "fr": "Apportez **éventuellement** une photo.", "en": "Bring a photo if need be." }
+    ] },
+    { "id": "conference", "fr": "conférence", "pos": "noun", "g": "f", "ipa": "kɔ̃.fe.ʁɑ̃s", "en": "lecture, talk; conference", "def": "Un discours sur un sujet, devant un public.", "def_en": "A speech on a subject, in front of an audience.", "note": "A university *lecture* is *un cours* or *une conférence*; *une lecture* is a reading.", "forms": ["conférences"], "examples": [
+      { "fr": "Un jour, j'ai assisté à une **conférence** sur la chanson française.", "en": "One day, I went to a talk on French song." },
+      { "fr": "La **conférence** commence à dix-huit heures.", "en": "The lecture starts at 6 p.m." },
+      { "fr": "Le professeur donne une **conférence** à Paris.", "en": "The professor is giving a lecture in Paris." }
+    ] },
+    { "id": "avoir-hate", "fr": "avoir hâte", "pos": "verb", "ipa": "a.vwaʁ ɑt", "en": "to look forward to, to be eager (avoir hâte de)", "def": "Attendre une chose avec impatience.", "def_en": "To wait for something impatiently.", "note": "To say you're excited about something, say *j'ai hâte* (*je suis excité* sounds over-excited).", "forms": ["ai hâte", "as hâte", "a hâte", "avons hâte", "avez hâte", "ont hâte", "avais hâte", "avait hâte", "avions hâte", "aviez hâte", "avaient hâte", "aurai hâte", "aura hâte", "aurais hâte", "aurait hâte", "eu hâte", "aie hâte", "ayant hâte", "eut hâte"], "examples": [
+      { "fr": "J'**ai hâte**… et j'ai peur.", "en": "I can't wait… and I'm scared." },
+      { "fr": "Nous **avons hâte** de vous voir !", "en": "We're looking forward to seeing you!" },
+      { "fr": "Lou **a hâte** d'être en vacances.", "en": "Lou can't wait for the holidays." }
+    ] },
+    { "id": "pretendre", "fr": "prétendre", "pos": "verb", "ipa": "pʁe.tɑ̃dʁ", "en": "to claim", "def": "Dire qu'une chose est vraie, sans preuve.", "def_en": "To say that something is true, without proof.", "note": "False friend: *to pretend* is *faire semblant*.", "forms": ["prétends", "prétend", "prétendons", "prétendez", "prétendent", "prétendu", "prétendue", "prétendus", "prétendues", "prétendais", "prétendait", "prétendions", "prétendiez", "prétendaient", "prétendrai", "prétendras", "prétendra", "prétendrons", "prétendrez", "prétendront", "prétendrais", "prétendrait", "prétendrions", "prétendriez", "prétendraient", "prétendant", "prétendis", "prétendit", "prétendîmes", "prétendîtes", "prétendirent", "prétende", "prétendes"], "examples": [
+      { "fr": "Je ne **prétends** pas être un grand musicien.", "en": "I don't claim to be a great musician." },
+      { "fr": "Hugo **prétend** qu'il a dormi huit heures.", "en": "Hugo claims he slept eight hours." },
+      { "fr": "Il **prétend** tout savoir.", "en": "He claims to know everything." }
+    ] },
+    { "id": "faire-semblant", "fr": "faire semblant", "pos": "verb", "ipa": "fɛʁ sɑ̃.blɑ̃", "en": "to pretend (faire semblant de)", "def": "Faire comme si une chose était vraie, alors qu'elle ne l'est pas.", "def_en": "To act as if something were true, when it isn't.", "forms": ["fais semblant", "fait semblant", "faisons semblant", "faites semblant", "font semblant", "faisais semblant", "faisait semblant", "faisions semblant", "faisiez semblant", "faisaient semblant", "ferai semblant", "fera semblant", "ferons semblant", "ferez semblant", "feront semblant", "ferais semblant", "ferait semblant", "ferions semblant", "feriez semblant", "feraient semblant", "fasse semblant", "fasses semblant", "faisant semblant", "fit semblant", "firent semblant"], "examples": [
+      { "fr": "Arrête de **faire semblant** d'être calme.", "en": "Stop pretending to be calm." },
+      { "fr": "Il **fait semblant** de dormir.", "en": "He's pretending to be asleep." },
+      { "fr": "Les enfants **font semblant** d'être des pirates.", "en": "The children are pretending to be pirates." }
+    ] },
+    { "id": "ignorer", "fr": "ignorer", "pos": "verb", "ipa": "i.ɲɔ.ʁe", "en": "not to know; to ignore", "def": "Ne pas savoir ; ne pas faire attention à quelqu'un.", "def_en": "Not to know; not to pay attention to someone.", "note": "*J'ignorais* = I didn't know.", "forms": ["ignore", "ignores", "ignorons", "ignorez", "ignorent", "ignoré", "ignorée", "ignorés", "ignorées", "ignorais", "ignorait", "ignorions", "ignoriez", "ignoraient", "ignorerai", "ignoreras", "ignorera", "ignorerons", "ignorerez", "ignoreront", "ignorerais", "ignorerait", "ignorerions", "ignoreriez", "ignoreraient", "ignorant", "ignorai", "ignoras", "ignora", "ignorâmes", "ignorâtes", "ignorèrent"], "examples": [
+      { "fr": "Pardon, j'**ignorais**.", "en": "Sorry, I didn't know." },
+      { "fr": "J'**ignore** l'heure de son arrivée.", "en": "I don't know what time he's arriving." },
+      { "fr": "Elle **ignore** les messages de Hugo.", "en": "She ignores Hugo's messages." }
+    ] },
+    { "id": "deception", "fr": "déception", "pos": "noun", "g": "f", "ipa": "de.sɛp.sjɔ̃", "en": "disappointment", "def": "Ce qu'on ressent quand une chose n'est pas aussi bien qu'on l'espérait.", "def_en": "What you feel when something isn't as good as you hoped.", "note": "False friend: *deception* is *une tromperie*.", "forms": ["déceptions"], "examples": [
+      { "fr": "Si tu n'es pas pris, ce ne sera pas une **déception** : tu essaieras l'année prochaine.", "en": "If you don't get in, it won't be a disappointment: you'll try next year." },
+      { "fr": "Quelle **déception** : le concert est annulé !", "en": "What a disappointment: the concert's cancelled!" },
+      { "fr": "Le film a été une grosse **déception**.", "en": "The film was a big disappointment." }
+    ] },
+    { "id": "decevoir", "fr": "décevoir", "pos": "verb", "ipa": "de.sə.vwaʁ", "en": "to disappoint", "def": "Ne pas donner à quelqu'un ce qu'il attendait.", "def_en": "Not to give someone what they were expecting.", "note": "False friend: *to deceive* is *tromper*. Its participle is the adjective *déçu*, disappointed.", "forms": ["déçois", "déçoit", "décevons", "décevez", "déçoivent", "décevais", "décevait", "décevions", "déceviez", "décevaient", "décevrai", "décevras", "décevra", "décevrons", "décevrez", "décevront", "décevrais", "décevrait", "décevrions", "décevriez", "décevraient", "décevant", "déçut", "déçûmes", "déçûtes", "déçurent", "déçoive", "déçoives"], "examples": [
+      { "fr": "J'ai peur de **décevoir** le jury.", "en": "I'm afraid of disappointing the panel." },
+      { "fr": "Ce film **déçoit** un peu.", "en": "This film is a bit disappointing." },
+      { "fr": "Tu ne me **décevras** jamais.", "en": "You'll never disappoint me." }
+    ] },
+    { "id": "rude", "fr": "rude", "pos": "adj", "ipa": "ʁyd", "en": "harsh, hard, tough", "def": "Difficile, dur à vivre.", "def_en": "Difficult, hard to live through.", "note": "False friend: *rude* is *impoli*.", "forms": ["rudes"], "examples": [
+      { "fr": "La concurrence est **rude** : trois cents candidats pour trente places.", "en": "The competition is tough: three hundred applicants for thirty places." },
+      { "fr": "L'hiver est **rude** à Montréal.", "en": "Winter is harsh in Montreal." },
+      { "fr": "La journée a été **rude**.", "en": "It's been a hard day." }
+    ] },
+    { "id": "sympathique", "fr": "sympathique", "pos": "adj", "ipa": "sɛ̃.pa.tik", "en": "nice, friendly, likeable", "def": "Agréable et gentil : on a envie de le connaître.", "def_en": "Pleasant and kind: you'd like to get to know them.", "note": "In everyday French: *sympa*. False friend: *sympathetic* is *compatissant*.", "forms": ["sympathiques"], "examples": [
+      { "fr": "La professeure est très **sympathique**.", "en": "The professor is very nice." },
+      { "fr": "Quel quartier **sympathique** !", "en": "What a nice neighbourhood!" },
+      { "fr": "Ses parents sont **sympathiques**.", "en": "Her parents are friendly." }
+    ] },
+    { "id": "hasard", "fr": "hasard", "pos": "noun", "g": "m", "ipa": "a.zaʁ", "en": "chance, luck (par hasard = by chance)", "def": "Ce qui arrive sans raison, sans qu'on l'ait prévu.", "def_en": "What happens for no reason, without being planned.", "note": "*Par hasard* = by chance (Unit 21). False friend: *a hazard* is *un danger*.", "forms": ["hasards"], "examples": [
+      { "fr": "Ce n'est pas un **hasard** : c'était peut-être la bonne réponse !", "en": "It's no coincidence: maybe it was the right answer!" },
+      { "fr": "On s'est rencontrés par **hasard**, dans le métro.", "en": "We met by chance, on the metro." },
+      { "fr": "Le **hasard** fait bien les choses.", "en": "Chance often works out well." }
+    ] },
+    { "id": "supporter", "fr": "supporter", "pos": "verb", "ipa": "sy.pɔʁ.te", "en": "to stand, to bear, to put up with", "def": "Accepter une chose difficile, sans se plaindre.", "def_en": "To accept something difficult, without complaining.", "note": "False friend: *to support* is *soutenir*. (A football fan is *un supporter*, though.)", "forms": ["supporte", "supportes", "supportons", "supportez", "supportent", "supporté", "supportée", "supportés", "supportées", "supportais", "supportait", "supportions", "supportiez", "supportaient", "supporterai", "supporteras", "supportera", "supporterons", "supporterez", "supporteront", "supporterais", "supporterait", "supporterions", "supporteriez", "supporteraient", "supportant", "supportai", "supportas", "supporta", "supportâmes", "supportâtes", "supportèrent"], "examples": [
+      { "fr": "Je ne **supporte** pas d'attendre !", "en": "I can't stand waiting!" },
+      { "fr": "Je ne **supporte** plus ce bruit.", "en": "I can't stand this noise any more." },
+      { "fr": "Comment tu **supportes** le froid ?", "en": "How do you put up with the cold?" }
+    ] },
+    { "id": "issue", "fr": "issue", "pos": "noun", "g": "f", "ipa": "i.sy", "en": "way out, exit; outcome", "def": "Un endroit par où on peut sortir. Aussi : la fin, le résultat.", "def_en": "A place you can get out through. Also: the end, the result.", "note": "*Une issue de secours* = an emergency exit. False friend: *an issue* is *un problème* or *une question*.", "forms": ["issues"], "examples": [
+      { "fr": "Et si tu as trop peur, cherche l'**issue** de secours !", "en": "And if you're too scared, look for the emergency exit!" },
+      { "fr": "Le film a une **issue** heureuse.", "en": "The film has a happy ending." },
+      { "fr": "Il n'y a pas d'autre **issue**.", "en": "There's no other way out." }
+    ] },
+    { "id": "prune", "fr": "prune", "pos": "noun", "g": "f", "ipa": "pʁyn", "en": "plum", "def": "Un petit fruit violet ou jaune, très sucré.", "def_en": "A small purple or yellow fruit, very sweet.", "note": "False friend: *a prune* is *un pruneau*.", "forms": ["prunes"], "examples": [
+      { "fr": "Enzo arrive avec une tarte aux **prunes**.", "en": "Enzo arrives with a plum tart." },
+      { "fr": "En août, les **prunes** sont délicieuses.", "en": "In August, plums are delicious." },
+      { "fr": "Je voudrais un kilo de **prunes**.", "en": "I'd like a kilo of plums." }
+    ] },
+    { "id": "figure", "fr": "figure", "pos": "noun", "g": "f", "ipa": "fi.ɡyʁ", "en": "face", "def": "Le visage.", "def_en": "The face.", "note": "False friend: *a figure* is *un chiffre* (a number) or *une silhouette* (a shape).", "forms": ["figures"], "examples": [
+      { "fr": "Tom, tu as une drôle de **figure**… Tu es tout blanc !", "en": "Tom, you look funny… You're as white as a sheet!" },
+      { "fr": "Lave-toi la **figure** !", "en": "Wash your face!" },
+      { "fr": "Il a reçu le ballon en pleine **figure**.", "en": "He got the ball right in the face." }
+    ] },
+    { "id": "editeur", "fr": "éditeur", "pos": "noun", "g": "m", "ipa": "e.di.tœʁ", "display": "éditeur, éditrice", "en": "publisher", "def": "La personne ou l'entreprise qui publie des livres ou de la musique.", "def_en": "The person or company that publishes books or music.", "note": "False friend: *an editor* is *un rédacteur* (of a newspaper) or *un monteur* (of a film).", "forms": ["éditrice", "éditeurs", "éditrices"], "examples": [
+      { "fr": "Dans la salle, il y a une professeure, un musicien et un **éditeur** de musique.", "en": "In the room, there's a professor, a musician and a music publisher." },
+      { "fr": "Il cherche un **éditeur** pour son roman.", "en": "He's looking for a publisher for his novel." },
+      { "fr": "Mon **éditrice** aime beaucoup ce livre.", "en": "My publisher really likes this book." }
+    ] },
+    { "id": "introduire", "fr": "introduire", "pos": "verb", "ipa": "ɛ̃.tʁɔ.dɥiʁ", "en": "to insert, to put in; to bring in", "def": "Faire entrer une chose dans une autre.", "def_en": "To put one thing into another.", "note": "False friend: *to introduce someone* is *présenter*.", "forms": ["introduis", "introduit", "introduisons", "introduisez", "introduisent", "introduite", "introduits", "introduites", "introduisais", "introduisait", "introduisions", "introduisiez", "introduisaient", "introduirai", "introduiras", "introduira", "introduirons", "introduirez", "introduiront", "introduirais", "introduirait", "introduirions", "introduiriez", "introduiraient", "introduisant", "introduisis", "introduisit", "introduisîmes", "introduisîtes", "introduisirent", "introduise", "introduises"], "examples": [
+      { "fr": "**Introduisez** la clé dans la porte, et tournez deux fois.", "en": "Put the key in the door, and turn it twice." },
+      { "fr": "**Introduisez** votre carte dans la machine.", "en": "Insert your card into the machine." },
+      { "fr": "Ce restaurant a **introduit** des plats sans viande.", "en": "This restaurant has brought in meat-free dishes." }
+    ] },
+    { "id": "resumer", "fr": "résumer", "pos": "verb", "ipa": "ʁe.zy.me", "en": "to sum up, to summarise", "def": "Dire en peu de mots ce qui est long.", "def_en": "To say in a few words what is long.", "note": "False friend: *to resume* is *reprendre*.", "forms": ["résume", "résumes", "résumons", "résumez", "résument", "résumé", "résumée", "résumés", "résumées", "résumais", "résumait", "résumions", "résumiez", "résumaient", "résumerai", "résumeras", "résumera", "résumerons", "résumerez", "résumeront", "résumerais", "résumerait", "résumerions", "résumeriez", "résumeraient", "résumant", "résumai", "résumas", "résuma", "résumâmes", "résumâtes", "résumèrent"], "examples": [
+      { "fr": "Pouvez-vous **résumer** votre parcours ?", "en": "Could you sum up your background?" },
+      { "fr": "Moi, je **résume** : l'Anglais a joué deux fois.", "en": "Let me sum up: the Englishman played twice." },
+      { "fr": "**Résume**-moi le film en trois phrases.", "en": "Sum up the film for me in three sentences." }
+    ] },
+    { "id": "achever", "fr": "achever", "pos": "verb", "ipa": "a.ʃə.ve", "en": "to finish, to complete", "def": "Finir complètement une chose.", "def_en": "To finish something completely.", "note": "False friend: *to achieve* is *réussir* or *accomplir*.", "forms": ["achève", "achèves", "achevons", "achevez", "achèvent", "achevé", "achevée", "achevés", "achevées", "achevais", "achevait", "achevions", "acheviez", "achevaient", "achèverai", "achèveras", "achèvera", "achèverons", "achèverez", "achèveront", "achèverais", "achèverait", "achèverions", "achèveriez", "achèveraient", "achevant", "achevai", "achevas", "acheva", "achevâmes", "achevâtes", "achevèrent"], "examples": [
+      { "fr": "J'ai **achevé** mon dossier en février.", "en": "I finished my application in February." },
+      { "fr": "Il **achève** son roman.", "en": "He's finishing his novel." },
+      { "fr": "Les travaux seront **achevés** en juin.", "en": "The work will be completed in June." }
+    ] },
+    { "id": "surnom", "fr": "surnom", "pos": "noun", "g": "m", "ipa": "syʁ.nɔ̃", "en": "nickname", "def": "Un nom amusant qu'on donne à quelqu'un, en plus de son vrai nom.", "def_en": "A funny name you give someone, as well as their real name.", "note": "False friend: *a surname* is *un nom de famille*.", "forms": ["surnoms"], "examples": [
+      { "fr": "C'est ton **surnom** !", "en": "It's your nickname!" },
+      { "fr": "Le **surnom** de Hugo, c'est « le roi de la poubelle ».", "en": "Hugo's nickname is 'the king of the bin'." },
+      { "fr": "À l'école, mon **surnom** était « la girafe ».", "en": "At school, my nickname was 'the giraffe'." }
+    ] },
+    { "id": "habits", "fr": "habits", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "a.bi", "en": "clothes", "def": "Les vêtements.", "def_en": "Clothes.", "note": "False friend: *a habit* is *une habitude*.", "forms": ["habit"], "examples": [
+      { "fr": "Mets tes plus beaux **habits**.", "en": "Put on your best clothes." },
+      { "fr": "Ses **habits** sont pleins de farine.", "en": "His clothes are covered in flour." },
+      { "fr": "Il range ses **habits** dans l'armoire.", "en": "He puts his clothes away in the wardrobe." }
+    ] },
+    { "id": "injure", "fr": "injure", "pos": "noun", "g": "f", "ipa": "ɛ̃.ʒyʁ", "en": "insult", "def": "Un mot très méchant qu'on dit pour blesser quelqu'un.", "def_en": "A very nasty word you say to hurt someone.", "note": "False friend: *an injury* is *une blessure*.", "forms": ["injures"], "examples": [
+      { "fr": "Ce n'est pas une **injure**, c'est de l'amour.", "en": "It's not an insult, it's love." },
+      { "fr": "Les **injures** sont interdites sur ce site.", "en": "Insults are forbidden on this website." },
+      { "fr": "Il a répondu par une **injure**.", "en": "He replied with an insult." }
+    ] },
+    { "id": "avertissement", "fr": "avertissement", "pos": "noun", "g": "m", "ipa": "a.vɛʁ.tis.mɑ̃", "en": "warning", "def": "Des mots pour dire à quelqu'un de faire attention à un danger ou à une erreur.", "def_en": "Words to tell someone to watch out for a danger or a mistake.", "note": "False friend: *an advertisement* is *une publicité*.", "forms": ["avertissements"], "examples": [
+      { "fr": "Dernier **avertissement** : attention aux faux amis !", "en": "Final warning: watch out for false friends!" },
+      { "fr": "Le professeur lui a donné un **avertissement**.", "en": "The teacher gave him a warning." },
+      { "fr": "C'est mon dernier **avertissement**, Hugo !", "en": "This is my last warning, Hugo!" }
+    ] },
+    { "id": "comprehensif", "fr": "compréhensif", "pos": "adj", "ipa": "kɔ̃.pʁe.ɑ̃.sif", "display": "compréhensif, compréhensive", "en": "understanding", "def": "Qui comprend les autres et accepte leurs erreurs.", "def_en": "Who understands others and accepts their mistakes.", "note": "False friend: *comprehensive* is *complet*.", "forms": ["compréhensive", "compréhensifs", "compréhensives"], "examples": [
+      { "fr": "Le jury est très **compréhensif**.", "en": "The panel is very understanding." },
+      { "fr": "Ma mère est très **compréhensive**.", "en": "My mother is very understanding." },
+      { "fr": "Merci d'être si **compréhensifs**.", "en": "Thank you for being so understanding." }
+    ] }
+  ],
+  "story": {
+    "title": "Résumer, recommencer",
+    "en": "Wednesday 17 March: Tom's audition for the music degree, and the false friends waiting for him.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi dix-sept mars, à midi, au café d'en bas. À quatorze heures, Tom passe son audition à l'université.", "en": "On Wednesday 17 March, at noon, at the café downstairs. At 2 p.m., Tom has his audition at the university." },
+      { "sp": "Tom", "fr": "J'ai hâte… et j'ai peur. Je ne supporte pas d'attendre !", "en": "I can't wait… and I'm scared. I can't stand waiting!" },
+      { "sp": "Camille", "fr": "Mets tes plus beaux habits, et arrête de faire semblant d'être calme.", "en": "Put on your best clothes, and stop pretending to be calm." },
+      { "sp": "Léa", "fr": "Dernier avertissement : attention aux faux amis ! Ce sont des mots qui ressemblent à l'anglais, mais qui n'ont pas le même [sens|sens-n].", "en": "Final warning: watch out for false friends! They're words that look like English, but don't mean the same thing." },
+      { "sp": "Léa", "fr": "Par exemple, « actuellement », ça veut dire « maintenant ». Et « éventuellement », ça veut dire « peut-être ».", "en": "For example, 'actuellement' means 'now'. And 'éventuellement' means 'maybe'." },
+      { "sp": "Tom", "fr": "Je sais ! Actuellement, je vends des guitares. Et éventuellement, je serai étudiant en septembre.", "en": "I know! At the moment, I sell guitars. And possibly, I'll be a student in September." },
+      { "sp": "", "fr": "Enzo arrive de la boulangerie avec une tarte aux prunes.", "en": "Enzo arrives from the bakery with a plum tart." },
+      { "sp": "Enzo", "fr": "Tiens, l'Anglais : c'est pour la chance. Ma grand-mère dit que les prunes, c'est bon pour le cerveau.", "en": "Here you go, Englishman: it's for luck. My grandmother says plums are good for the brain." },
+      { "sp": "Tom", "fr": "Merci ! Mais pourquoi tu m'appelles toujours « l'Anglais » ?", "en": "Thanks! But why do you always call me 'the Englishman'?" },
+      { "sp": "Enzo", "fr": "C'est ton surnom ! Ce n'est pas une injure, c'est de l'amour.", "en": "It's your nickname! It's not an insult, it's love." },
+      { "sp": "Camille", "fr": "Tom, tu as une drôle de figure… Tu es tout blanc !", "en": "Tom, you look funny… You're as white as a sheet!" },
+      { "sp": "Tom", "fr": "La concurrence est rude : trois cents candidats pour trente places.", "en": "The competition is tough: three hundred applicants for thirty places." },
+      { "sp": "Enzo", "fr": "Et si tu as trop peur, cherche l'issue de secours !", "en": "And if you're too scared, look for the emergency exit!" },
+      { "sp": "", "fr": "À quatorze heures, à l'université, une secrétaire donne une clé à Tom.", "en": "At 2 p.m., at the university, a secretary gives Tom a key." },
+      { "sp": "La secrétaire", "fr": "Introduisez la clé dans la porte de la salle quatre, et tournez deux fois.", "en": "Put the key in the door of room four, and turn it twice." },
+      { "sp": "Tom", "fr": "« Introduisez la clé »… Je dois présenter la clé à quelqu'un ?", "en": "'Introduce the key'… Do I have to introduce the key to someone?" },
+      { "sp": "", "fr": "Dans la salle, il y a trois personnes : une professeure, un musicien et un éditeur de musique. Tom joue une chanson d'Édith Piaf.", "en": "In the room, there are three people: a professor, a musician and a music publisher. Tom plays an Édith Piaf song." },
+      { "sp": "La professeure", "fr": "Merci, c'était très beau. Maintenant, pouvez-vous résumer votre parcours ?", "en": "Thank you, that was beautiful. Now, could you sum up your background?" },
+      { "sp": "", "fr": "Tom pense que « résumer » veut dire « recommencer ». Alors il reprend sa guitare… et joue la chanson une deuxième fois !", "en": "Tom thinks 'résumer' means 'start again'. So he picks up his guitar again… and plays the song a second time!" },
+      { "sp": "L'éditeur", "fr": "C'est un faux ami ! « Résumer », c'est dire les choses en peu de mots.", "en": "It's a false friend! 'Résumer' means saying things in a few words." },
+      { "sp": "Tom", "fr": "Pardon, j'ignorais. Alors : j'ai eu mon DELF en janvier, j'ai achevé mon dossier en février, et je joue de la guitare depuis l'âge de dix ans.", "en": "Sorry, I didn't know. So: I got my DELF in January, I finished my application in February, and I've been playing the guitar since I was ten." },
+      { "sp": "Le musicien", "fr": "Pourquoi voulez-vous étudier la musique en France ?", "en": "Why do you want to study music in France?" },
+      { "sp": "Tom", "fr": "Je ne prétends pas être un grand musicien. Mais un jour, j'ai assisté à une conférence sur la chanson française, et depuis, je rêve d'étudier ici.", "en": "I don't claim to be a great musician. But one day, I went to a lecture on French song, and since then, I've dreamt of studying here." },
+      { "sp": "La professeure", "fr": "Merci, monsieur. Nous vous répondrons en mai.", "en": "Thank you. We'll give you our answer in May." },
+      { "sp": "", "fr": "Le jury est très compréhensif. La professeure est même très sympathique : elle sourit pendant toute l'audition.", "en": "The panel is very understanding. The professor is even very friendly: she smiles all through the audition." },
+      { "sp": "", "fr": "Le soir, au café d'en bas, Tom raconte tout.", "en": "In the evening, at the café downstairs, Tom tells them everything." },
+      { "sp": "Tom", "fr": "J'ai joué la chanson deux fois ! J'ai peur de décevoir le jury.", "en": "I played the song twice! I'm afraid of disappointing the panel." },
+      { "sp": "Hugo", "fr": "Deux chansons pour le prix d'une ! Ce n'est pas un hasard : c'était peut-être la bonne réponse.", "en": "Two songs for the price of one! It's no coincidence: maybe it was the right answer." },
+      { "sp": "Léa", "fr": "Et si tu n'es pas pris, ce ne sera pas une déception : tu essaieras l'année prochaine.", "en": "And if you don't get in, it won't be a disappointment: you'll try again next year." },
+      { "sp": "Enzo", "fr": "Moi, je résume : l'Anglais a joué deux fois, et le jury a souri deux fois. C'est gagné !", "en": "Let me sum up: the Englishman played twice, and the panel smiled twice. In the bag!" }
+    ]
+  }
+}

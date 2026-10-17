@@ -1,0 +1,141 @@
+{
+  "id": "u40-temps",
+  "type": "grammar",
+  "unit": 40,
+  "title": "Bienvenue à Lyon !",
+  "en": "Review: all the tenses",
+  "intro": "Part 2 ends with a review of the tenses. To tell what happened: the **passé composé** for events, the **imparfait** for the scene around them, the **plus-que-parfait** for what had happened before. In written stories, the **passé simple** takes the place of the passé composé. For the future: the **futur simple**, and the **futur antérieur** for what will be done first. To imagine: the **conditionnel**, present or past, with **si** + imparfait or plus-que-parfait. And after *il faut que, je veux que, bien que, content que…*: the **subjonctif**, present or past.",
+  "cases": [
+    { "id": "rv-passe", "label": "passé composé, imparfait, plus-que-parfait", "rule": "The **passé composé** for events (*il est tombé*), the **imparfait** for the background and habits (*il pleuvait*), the **plus-que-parfait** for something earlier still (*il avait oublié ses lunettes*)." },
+    { "id": "rv-simple", "label": "the passé simple: the past of written stories", "rule": "In written stories, the **passé simple** replaces the passé composé for events: *Hugo **tomba**. Un chien **courut** vers lui. Ce **fut** une belle journée.* The imparfait stays for the background." },
+    { "id": "rv-futur", "label": "futur simple, futur antérieur", "rule": "The **futur simple** for what will happen (*le film **sortira** en octobre*), the **futur antérieur** for what will be done first (*quand j'**aurai dormi**, je saurai où je suis*). After *quand* and *dès que*, use the future, not the present." },
+    { "id": "rv-cond", "label": "conditionnel présent and passé", "rule": "The **conditionnel présent** to imagine or to ask politely (*je voudrais*; *si je me trompais, je **retournerais** à Montréal*), the **conditionnel passé** for what didn't happen (*si j'avais su, j'**aurais amené** un chien*). After *si*: imparfait or plus-que-parfait, never the conditional." },
+    { "id": "rv-subj", "label": "subjonctif présent and passé", "rule": "After *il faut que, je voudrais que, bien que, content que…*: the **subjonctif présent** (*il faut que vous **tombiez***), or the **subjonctif passé** for something already done (*je suis content que ce chien **soit venu***)." }
+  ],
+  "sections": [
+    {
+      "title": "1. Telling the past",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Il est tombé dans la poubelle.", "He fell into the bin."],
+        ["Il faisait froid, et il n'avait pas ses lunettes.", "It was cold, and he didn't have his glasses."],
+        ["Il avait oublié ses lunettes au bureau.", "He had left his glasses at the office."],
+        ["Quand le chien est arrivé, Hugo parlait au journaliste.", "When the dog arrived, Hugo was talking to the journalist."]
+      ] },
+      "examples": [
+        { "fr": "{Le réalisateur avait vu|rv-passe} la vidéo de Hugo.", "en": "The director had seen Hugo's video." },
+        { "fr": "{Antoine a répété ses trois mots|rv-passe} toute la semaine.", "en": "Antoine rehearsed his three words all week." }
+      ],
+      "tip": "Ask yourself: is it an event (passé composé), the scene around it (imparfait), or something that happened before (plus-que-parfait)?"
+    },
+    {
+      "title": "2. The passé simple",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Hugo tomba.", "Hugo fell."],
+        ["Le chien courut vers lui.", "The dog ran towards him."],
+        ["Antoine prononça ses trois mots.", "Antoine said his three words."],
+        ["Ce fut une belle journée.", "It was a beautiful day."],
+        ["Ils eurent beaucoup d'enfants.", "They had lots of children."]
+      ] },
+      "examples": [
+        { "fr": "Ce jour-là, {Hugo tomba|rv-simple} pour la deuxième fois.", "en": "That day, Hugo fell for the second time." },
+        { "fr": "{Antoine prononça|rv-simple} enfin ses trois mots.", "en": "Antoine finally said his three words." }
+      ],
+      "tip": "You'll mostly read the passé simple in the third person: *il fut, elle eut, ils firent, elles prirent*. In speech, French uses the passé composé."
+    },
+    {
+      "title": "3. The future and the futur antérieur",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Le film sortira en octobre.", "The film will come out in October."],
+        ["Je vais tomber !", "I'm going to fall!"],
+        ["Quand j'aurai dormi, je saurai où je suis.", "When I've slept, I'll know where I am."],
+        ["Dès que tu auras fini, on ira dîner.", "As soon as you've finished, we'll go to dinner."]
+      ] },
+      "examples": [
+        { "fr": "{Le film sortira|rv-futur} en octobre.", "en": "The film will come out in October." },
+        { "fr": "{Quand le film sera sorti|rv-futur}, je signerai des photos.", "en": "When the film is out, I'll sign photos." }
+      ],
+      "tip": "After *quand* and *dès que*, French uses the future where English uses the present: *quand je serai riche* (when I'm rich)."
+    },
+    {
+      "title": "4. The conditional",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Je voudrais un café.", "I'd like a coffee."],
+        ["Si je me trompais, je retournerais à Montréal.", "If I got it wrong, I'd go back to Montreal."],
+        ["Si j'avais su, j'aurais amené un chien.", "If I'd known, I'd have brought a dog."],
+        ["Tu aurais dû venir !", "You should have come!"]
+      ] },
+      "examples": [
+        { "fr": "{Si j'étais acteur, je jouerais|rv-cond} un chauffeur de taxi.", "en": "If I were an actor, I'd play a taxi driver." },
+        { "fr": "{Si j'avais su, j'aurais amené|rv-cond} un chien.", "en": "If I'd known, I'd have brought a dog." }
+      ],
+      "tip": "Never the conditional after *si* (if): *si j'avais*, not *si j'aurais*."
+    },
+    {
+      "title": "5. The subjunctive",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Il faut que vous tombiez.", "You have to fall."],
+        ["Je voudrais que ce soit naturel.", "I'd like it to be natural."],
+        ["[Bien que|bien-que] vous soyez maladroit…", "Although you're clumsy…"],
+        ["Je suis content que ce chien soit venu.", "I'm glad this dog came."]
+      ] },
+      "examples": [
+        { "fr": "{Il faut que vous tombiez|rv-subj} dans une poubelle.", "en": "You have to fall into a bin." },
+        { "fr": "{Je suis content que ce chien soit venu|rv-subj} !", "en": "I'm glad this dog came!" }
+      ],
+      "tip": "The past subjunctive is *avoir* or *être* in the subjunctive + the participle: *que tu sois venu, qu'il ait fini*."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Si j'aurais su, je serais venu.", "right": "Si j'avais su, je serais venu.", "why": "After si, the plus-que-parfait, never the conditional." },
+    { "wrong": "Quand je suis riche, j'achèterai une maison.", "right": "Quand je serai riche, j'achèterai une maison.", "why": "After quand, use the future when you talk about the future." },
+    { "wrong": "Il faut que vous tombez.", "right": "Il faut que vous tombiez.", "why": "Il faut que takes the subjunctive." },
+    { "wrong": "Bien que vous êtes maladroit…", "right": "Bien que vous soyez maladroit…", "why": "Bien que takes the subjunctive." },
+    { "wrong": "Hier, il tombait dans la poubelle.", "right": "Hier, il est tombé dans la poubelle.", "why": "A single event: passé composé, not imparfait." },
+    { "wrong": "Je suis content que tu es venu.", "right": "Je suis content que tu sois venu.", "why": "Content que takes the subjunctive, here the past subjunctive." }
+  ],
+  "story": {
+    "title": "Bienvenue à Lyon !",
+    "en": "Wednesday 31 March: Antoine shoots his scene in Vieux-Lyon, and the director has an idea for Hugo.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi trente et un mars, dans le Vieux-Lyon, on tourne la scène d'Antoine. {Il a répété ses trois mots|rv-passe} toute la semaine, sur le canapé de Hugo.", "en": "On Wednesday 31 March, in Vieux-Lyon, they're shooting Antoine's scene. He has rehearsed his three words all week, on Hugo's sofa." },
+      { "sp": "Antoine", "fr": "« Bienvenue à Lyon ! » Trois mots. {Si je me trompais, je retournerais|rv-cond} conduire mon taxi à Montréal !", "en": "'Welcome to Lyon!' Three words. If I got them wrong, I'd go back to driving my taxi in Montreal!" },
+      { "sp": "", "fr": "Le réalisateur arrive. {Il avait vu|rv-passe} la vidéo de Hugo dans la poubelle, et il a une idée.", "en": "The director arrives. He had seen the video of Hugo in the bin, and he has an idea." },
+      { "sp": "Le réalisateur", "fr": "Hugo ! {Il faut que vous tombiez|rv-subj} dans une poubelle, derrière le taxi. Comme à la télé !", "en": "Hugo! You have to fall into a bin, behind the taxi. Like on TV!" },
+      { "sp": "Hugo", "fr": "{Je suis tombé|rv-passe} une fois, par accident. {Je ne tomberai|rv-futur} pas sur [commande|commande-n] !", "en": "I fell once, by accident. I won't fall on demand!" },
+      { "sp": "Léa", "fr": "Si tu tombes bien, {tu seras célèbre|rv-futur} au Québec !", "en": "If you fall well, you'll be famous in Quebec!" },
+      { "sp": "", "fr": "Premier essai : Hugo s'assoit sur la poubelle. Deuxième essai : il tombe à côté. Troisième essai : il rit.", "en": "First take: Hugo sits on the bin. Second take: he falls next to it. Third take: he laughs." },
+      { "sp": "Le réalisateur", "fr": "{Je voudrais que ce soit|rv-subj} naturel ! {[Bien que|bien-que] vous soyez|rv-subj} maladroit, vous n'arrivez pas à tomber !", "en": "I'd like it to be natural! Clumsy as you are, you can't manage to fall!" },
+      { "sp": "", "fr": "Au douzième essai, un petit chien arrive en [courant|courir]. Hugo saute, glisse… et tombe dans la poubelle !", "en": "On the twelfth take, a little dog comes running. Hugo jumps, slips… and falls into the bin!" },
+      { "sp": "Le réalisateur", "fr": "Coupez ! C'est parfait ! {Je suis content que ce chien soit venu|rv-subj} !", "en": "Cut! It's perfect! I'm glad that dog came!" },
+      { "sp": "Hugo", "fr": "{Si j'avais su, j'aurais amené|rv-cond} un chien dès le début !", "en": "If I'd known, I'd have brought a dog from the start!" },
+      { "sp": "", "fr": "Ensuite, c'est le tour d'Antoine. La caméra tourne, et une cliente monte dans son taxi.", "en": "Then it's Antoine's turn. The camera rolls, and a customer gets into his taxi." },
+      { "sp": "Antoine", "fr": "Bienvenue à Montréal !", "en": "Welcome to Montreal!" },
+      { "sp": "", "fr": "Tout le monde rit. Antoine devient tout rouge.", "en": "Everyone laughs. Antoine goes bright red." },
+      { "sp": "Antoine", "fr": "Pardon ! {Quand j'aurai dormi|rv-futur} un peu, {je saurai|rv-futur} où je suis !", "en": "Sorry! When I've had some sleep, I'll know where I am!" },
+      { "sp": "", "fr": "Au deuxième essai, Antoine dit ses trois mots parfaitement : « Bienvenue à Lyon ! » Toute l'équipe applaudit.", "en": "On the second take, Antoine says his three words perfectly: 'Welcome to Lyon!' The whole crew claps." },
+      { "sp": "Le réalisateur", "fr": "{Le film sortira|rv-futur} en octobre, pour le Festival Lumière. {Il faudra que vous veniez|rv-subj} tous !", "en": "The film will come out in October, for the Festival Lumière. You'll all have to come!" },
+      { "sp": "", "fr": "Le soir, au café d'en bas, Hugo commande un gâteau au chocolat. {Il avait promis|rv-passe} de ne pas manger de chocolat en février… mais on est le trente et un mars !", "en": "In the evening, at the café downstairs, Hugo orders a chocolate cake. He had promised not to eat chocolate in February… but it's the thirty-first of March!" },
+      { "sp": "Léa", "fr": "{J'ai écrit|rv-passe} la légende de cette journée, au passé simple, comme pour la première poubelle.", "en": "I've written the legend of this day, in the passé simple, like for the first bin." },
+      { "sp": "Léa", "fr": "« Ce jour-là, {Hugo tomba|rv-simple} pour la deuxième fois. {Un petit chien courut|rv-simple} vers lui, et {Antoine prononça|rv-simple} enfin ses trois mots. {Ce fut|rv-simple} une belle journée. »", "en": "'That day, Hugo fell for the second time. A little dog ran towards him, and Antoine finally said his three words. It was a beautiful day.'" },
+      { "sp": "Tom", "fr": "{Je voudrais que tu écrives|rv-subj} la suite !", "en": "I'd like you to write what happens next!" },
+      { "sp": "Hugo", "fr": "{Quand le film sera sorti|rv-futur}, {je signerai|rv-futur} des photos.", "en": "When the film is out, I'll sign photos." },
+      { "sp": "Antoine", "fr": "Et moi, {je dirai|rv-futur} quatre mots dans le troisième film !", "en": "And I'll say four words in the third film!" },
+      { "sp": "Léa", "fr": "Et Hugo {tombera|rv-futur} dans deux poubelles !", "en": "And Hugo will fall into two bins!" }
+    ]
+  },
+  "quiz": [
+    { "case": "rv-passe", "type": "mc", "q": "Quand Hugo ___ dans la poubelle, il faisait froid.", "en": "When Hugo fell into the bin, it was cold.", "options": ["est tombé", "tombait", "tombera"], "answer": "est tombé" },
+    { "case": "rv-passe", "type": "mc", "q": "Le réalisateur ___ la vidéo avant le tournage.", "en": "The director had seen the video before the shoot.", "options": ["avait vu", "voyait", "verra"], "answer": "avait vu" },
+    { "case": "rv-simple", "type": "mc", "lang": "en", "q": "« Il tomba » is…", "options": ["the passé simple", "the imparfait", "the future"], "answer": "the passé simple", "say": "Il tomba." },
+    { "case": "rv-simple", "type": "mc", "q": "Ce jour-là, Antoine ___ enfin ses trois mots.", "en": "That day, Antoine finally said his three words.", "options": ["prononça", "prononcera", "prononcerait"], "answer": "prononça" },
+    { "case": "rv-futur", "type": "mc", "q": "Le film ___ en octobre.", "en": "The film will come out in October.", "options": ["sortira", "sortirait", "sorte"], "answer": "sortira" },
+    { "case": "rv-futur", "type": "mc", "q": "Quand tu ___, on ira dîner.", "en": "When you've finished, we'll go to dinner.", "options": ["auras fini", "finissais", "aurais fini"], "answer": "auras fini" },
+    { "case": "rv-futur", "type": "mc", "q": "Si tu tombes bien, tu ___ célèbre.", "en": "If you fall well, you'll be famous.", "options": ["seras", "serais", "sois"], "answer": "seras" },
+    { "case": "rv-cond", "type": "mc", "q": "Si j'avais su, j'___ un chien.", "en": "If I'd known, I'd have brought a dog.", "options": ["aurais amené", "aurai amené", "avais amené"], "answer": "aurais amené" },
+    { "case": "rv-cond", "type": "mc", "q": "Si je me trompais, je ___ à Montréal.", "en": "If I got it wrong, I'd go back to Montreal.", "options": ["retournerais", "retournerai", "retourne"], "answer": "retournerais" },
+    { "case": "rv-subj", "type": "mc", "q": "Il faut que vous ___ dans la poubelle.", "en": "You have to fall into the bin.", "options": ["tombiez", "tombez", "tomberez"], "answer": "tombiez" },
+    { "case": "rv-subj", "type": "mc", "q": "Je suis content que ce chien ___ venu.", "en": "I'm glad this dog came.", "options": ["soit", "est", "sera"], "answer": "soit" },
+    { "case": "rv-subj", "type": "mc", "lang": "en", "q": "Which mood follows « bien que »?", "options": ["the subjunctive", "the conditional", "the future"], "answer": "the subjunctive", "say": "Bien que vous soyez maladroit…" }
+  ]
+}

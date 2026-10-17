@@ -1,0 +1,171 @@
+{
+  "id": "u40-soutenu",
+  "type": "vocab",
+  "unit": 40,
+  "title": "Le registre soutenu",
+  "en": "Formal French",
+  "intro": "25 words of formal French, the register of letters, speeches and official papers. Most have an everyday twin: **se rendre** (aller), **résider** and **demeurer** (habiter, rester), **débuter** (commencer), **effectuer** (faire), **posséder** (avoir), **désirer** (vouloir), **s'apercevoir** (remarquer), **parvenir à** (réussir à), **nécessiter** (demander), **se procurer** (trouver), **s'avérer**, **convenir**, **veiller à**, **remédier à**, **faire part de**. Then the small words **dorénavant, davantage, hormis, auprès de, à l'égard de, ainsi que**, and the letter phrases **regrettable, dans les meilleurs délais, savoir gré**.",
+  "words": [
+    { "id": "se-rendre", "fr": "se rendre", "pos": "verb", "manual": true, "ipa": "sə ʁɑ̃dʁ", "en": "to go (formal); to give yourself up", "def": "Aller quelque part (registre soutenu).", "def_en": "To go somewhere (formal).", "note": "Everyday French: *aller*. Not to be confused with *se rendre compte* (to realise).", "forms": ["me rends", "te rends", "se rend", "nous nous rendons", "vous vous rendez", "se rendent", "me rendre", "te rendre", "nous rendre", "vous rendre", "me suis rendu", "me suis rendue", "s'est rendu", "s'est rendue", "se sont rendus", "se sont rendues", "me rendais", "se rendait", "se rendaient", "me rendrai", "se rendra", "se rendront", "me rendrais", "se rendrait", "se rendant", "se rendit", "se rendirent", "se rende"], "examples": [
+      { "fr": "Je dois **[me rendre|se-rendre]** à la boulangerie pour récupérer mes colis.", "en": "I have to go to the bakery to collect my parcels." },
+      { "fr": "Les voyageurs sont priés de **[se rendre|se-rendre]** à la porte douze.", "en": "Passengers are requested to go to gate twelve." },
+      { "fr": "Le président **[s'est rendu|se-rendre]** à Lyon hier.", "en": "The president went to Lyon yesterday." }
+    ] },
+    { "id": "demeurer", "fr": "demeurer", "pos": "verb", "ipa": "də.mœ.ʁe", "en": "to remain, to stay (formal); to live, to reside", "def": "Rester ; habiter quelque part (registre soutenu).", "def_en": "To stay; to live somewhere (formal).", "forms": ["demeure", "demeures", "demeurons", "demeurez", "demeurent", "demeuré", "demeurée", "demeurés", "demeurées", "demeurais", "demeurait", "demeurions", "demeuriez", "demeuraient", "demeurerai", "demeureras", "demeurera", "demeurerons", "demeurerez", "demeureront", "demeurerais", "demeurerait", "demeurerions", "demeureriez", "demeureraient", "demeurant", "demeurai", "demeuras", "demeura", "demeurâmes", "demeurâtes", "demeurèrent"], "examples": [
+      { "fr": "Madame Fournier **demeure** la reine du registre familier !", "en": "Madame Fournier remains the queen of informal French!" },
+      { "fr": "Le problème **demeure** : l'interphone ne fonctionne toujours pas.", "en": "The problem remains: the intercom still doesn't work." },
+      { "fr": "Il **demeure** dans une petite maison près de la mer.", "en": "He lives in a little house near the sea." }
+    ] },
+    { "id": "resider", "fr": "résider", "pos": "verb", "ipa": "ʁe.zi.de", "en": "to reside, to live (formal); (résider dans) to lie in", "def": "Habiter quelque part (registre administratif).", "def_en": "To live somewhere (official language).", "forms": ["réside", "résides", "résidons", "résidez", "résident", "résidé", "résidais", "résidait", "résidions", "résidiez", "résidaient", "résiderai", "résideras", "résidera", "résiderons", "résiderez", "résideront", "résiderais", "résiderait", "résiderions", "résideriez", "résideraient", "résidant", "résidai", "résidas", "résida", "résidâmes", "résidâtes", "résidèrent"], "examples": [
+      { "fr": "Je **réside** au troisième étage depuis le mois de juillet.", "en": "I have resided on the third floor since July." },
+      { "fr": "Vous **résidez** en France depuis combien de temps ?", "en": "How long have you lived in France?" },
+      { "fr": "Le problème **réside** dans le prix.", "en": "The problem lies in the price." }
+    ] },
+    { "id": "debuter", "fr": "débuter", "pos": "verb", "ipa": "de.by.te", "en": "to begin, to start (formal)", "def": "Commencer (registre soutenu).", "def_en": "To start (formal).", "forms": ["débute", "débutes", "débutons", "débutez", "débutent", "débuté", "débutée", "débutés", "débutées", "débutais", "débutait", "débutions", "débutiez", "débutaient", "débuterai", "débuteras", "débutera", "débuterons", "débuterez", "débuteront", "débuterais", "débuterait", "débuterions", "débuteriez", "débuteraient", "débutai", "débutas", "débuta", "débutâmes", "débutâtes", "débutèrent"], "examples": [
+      { "fr": "**Débuter** une lettre par « Madame », c'est beau.", "en": "Starting a letter with 'Madame' is beautiful." },
+      { "fr": "Le spectacle **débute** à vingt heures.", "en": "The show begins at 8 p.m." },
+      { "fr": "Les cours **débutent** le premier septembre.", "en": "Classes start on the first of September." }
+    ] },
+    { "id": "effectuer", "fr": "effectuer", "pos": "verb", "ipa": "e.fɛk.tɥe", "en": "to carry out, to make, to do (formal)", "def": "Faire une action, un travail ou un paiement (registre soutenu).", "def_en": "To do an action, a job or a payment (formal).", "forms": ["effectue", "effectues", "effectuons", "effectuez", "effectuent", "effectué", "effectuée", "effectués", "effectuées", "effectuais", "effectuait", "effectuions", "effectuiez", "effectuaient", "effectuerai", "effectueras", "effectuera", "effectuerons", "effectuerez", "effectueront", "effectuerais", "effectuerait", "effectuerions", "effectueriez", "effectueraient", "effectuant", "effectuai", "effectuas", "effectua", "effectuâmes", "effectuâtes", "effectuèrent"], "examples": [
+      { "fr": "Si cela s'avère nécessaire, je peux **effectuer** moi-même la réparation.", "en": "Should it prove necessary, I can carry out the repair myself." },
+      { "fr": "Le paiement a été **effectué**.", "en": "The payment has been made." },
+      { "fr": "Ce train **effectue** tous les arrêts.", "en": "This train stops at every station." }
+    ] },
+    { "id": "posseder", "fr": "posséder", "pos": "verb", "ipa": "pɔ.se.de", "en": "to own, to possess, to have", "def": "Avoir quelque chose à soi.", "def_en": "To have something of your own.", "forms": ["possède", "possèdes", "possédons", "possédez", "possèdent", "possédé", "possédée", "possédés", "possédées", "possédais", "possédait", "possédions", "possédiez", "possédaient", "posséderai", "posséderas", "possédera", "posséderons", "posséderez", "posséderont", "posséderais", "posséderait", "posséderions", "posséderiez", "posséderaient", "possédant", "possédai", "possédas", "posséda", "possédâmes", "possédâtes", "possédèrent"], "examples": [
+      { "fr": "Je **possède** un grand respect pour votre pain.", "en": "I hold your bread in great respect." },
+      { "fr": "Ils **possèdent** une maison au bord de la mer.", "en": "They own a house by the sea." },
+      { "fr": "Mon oncle **possède** vingt vaches.", "en": "My uncle owns twenty cows." }
+    ] },
+    { "id": "desirer", "fr": "désirer", "pos": "verb", "ipa": "de.zi.ʁe", "en": "to wish, to want, to desire (formal)", "def": "Vouloir (registre soutenu).", "def_en": "To want (formal).", "note": "In a shop or a café: *Vous désirez ?* = What would you like?", "forms": ["désire", "désires", "désirons", "désirez", "désirent", "désiré", "désirée", "désirés", "désirées", "désirais", "désirait", "désirions", "désiriez", "désiraient", "désirerai", "désireras", "désirera", "désirerons", "désirerez", "désireront", "désirerais", "désirerait", "désirerions", "désireriez", "désireraient", "désirant", "désirai", "désiras", "désira", "désirâmes", "désirâtes", "désirèrent"], "examples": [
+      { "fr": "Je **désire**, ainsi que mon voisin, un interphone qui fonctionne.", "en": "My neighbour and I wish to have an intercom that works." },
+      { "fr": "Bonjour, madame. Vous **désirez** ?", "en": "Good morning, madam. What would you like?" },
+      { "fr": "Nous **désirons** réserver une table pour quatre.", "en": "We would like to book a table for four." }
+    ] },
+    { "id": "s-apercevoir", "fr": "s'apercevoir", "pos": "verb", "ipa": "sa.pɛʁ.sə.vwaʁ", "en": "to notice, to realise (s'apercevoir de / que)", "def": "Remarquer une chose, la comprendre tout à coup.", "def_en": "To notice something, to understand it suddenly.", "forms": ["m'aperçois", "t'aperçois", "s'aperçoit", "nous nous apercevons", "vous vous apercevez", "s'aperçoivent", "m'apercevoir", "t'apercevoir", "me suis aperçu", "me suis aperçue", "s'est aperçu", "s'est aperçue", "se sont aperçus", "se sont aperçues", "nous sommes aperçus", "m'apercevais", "s'apercevait", "s'apercevaient", "m'apercevrai", "s'apercevra", "m'apercevrais", "s'apercevrait", "s'apercevant", "s'aperçut", "s'aperçurent"], "examples": [
+      { "fr": "Je **m'aperçois** que ma lettre fait deux pages.", "en": "I notice that my letter is two pages long." },
+      { "fr": "Il **s'est aperçu** de son erreur trop tard.", "en": "He realised his mistake too late." },
+      { "fr": "Elle **s'aperçoit** qu'elle a oublié ses clés.", "en": "She realises she has forgotten her keys." }
+    ] },
+    { "id": "parvenir", "fr": "parvenir", "pos": "verb", "ipa": "paʁ.və.niʁ", "en": "to manage (to) (parvenir à); to reach", "def": "Réussir à faire quelque chose ; arriver jusqu'à quelqu'un (registre soutenu).", "def_en": "To succeed in doing something; to reach someone (formal).", "forms": ["parviens", "parvient", "parvenons", "parvenez", "parviennent", "parvenu", "parvenue", "parvenus", "parvenues", "parvenais", "parvenait", "parvenions", "parveniez", "parvenaient", "parviendrai", "parviendras", "parviendra", "parviendrons", "parviendrez", "parviendront", "parviendrais", "parviendrait", "parviendrions", "parviendriez", "parviendraient", "parvenant", "parvins", "parvint", "parvînmes", "parvîntes", "parvinrent", "parvienne", "parviennes"], "examples": [
+      { "fr": "Les livreurs ne **parviennent** pas à me joindre.", "en": "Delivery people can't manage to reach me." },
+      { "fr": "Votre lettre nous est **parvenue** hier.", "en": "Your letter reached us yesterday." },
+      { "fr": "Je ne **parviens** pas à dormir.", "en": "I can't manage to sleep." }
+    ] },
+    { "id": "necessiter", "fr": "nécessiter", "pos": "verb", "ipa": "ne.se.si.te", "en": "to require, to need", "def": "Avoir besoin de quelque chose ; demander.", "def_en": "To need something; to call for.", "forms": ["nécessite", "nécessites", "nécessitons", "nécessitez", "nécessitent", "nécessité", "nécessitée", "nécessités", "nécessitées", "nécessitais", "nécessitait", "nécessitions", "nécessitiez", "nécessitaient", "nécessiterai", "nécessiteras", "nécessitera", "nécessiterons", "nécessiterez", "nécessiteront", "nécessiterais", "nécessiterait", "nécessiterions", "nécessiteriez", "nécessiteraient", "nécessitant", "nécessitai", "nécessitas", "nécessita", "nécessitâmes", "nécessitâtes", "nécessitèrent"], "examples": [
+      { "fr": "Cette panne **nécessite** une réparation rapide.", "en": "This fault requires a quick repair." },
+      { "fr": "Ce travail **nécessite** beaucoup de patience.", "en": "This work requires a lot of patience." },
+      { "fr": "Votre demande **nécessite** une signature.", "en": "Your request needs a signature." }
+    ] },
+    { "id": "se-procurer", "fr": "se procurer", "pos": "verb", "ipa": "sə pʁɔ.ky.ʁe", "en": "to get hold of, to procure", "def": "Trouver ou acheter ce qu'on cherche.", "def_en": "To find or buy what you're looking for.", "forms": ["me procure", "te procures", "se procure", "nous nous procurons", "vous vous procurez", "se procurent", "me procurer", "te procurer", "nous procurer", "vous procurer", "procurer", "me procurerai", "te procureras", "se procurera", "nous nous procurerons", "vous vous procurerez", "se procureront", "me procurerais", "te procurerais", "se procurerait", "nous nous procurerions", "vous vous procureriez", "se procureraient", "procure", "procures", "procurons", "procurez", "procurent", "procuré", "procurée", "procurés", "procurées", "procurais", "procurait", "procurions", "procuriez", "procuraient", "procurerai", "procureras", "procurera", "procurerons", "procurerez", "procureront", "procurerais", "procurerait", "procurerions", "procureriez", "procureraient", "procurant", "procurai", "procuras", "procura", "procurâmes", "procurâtes", "procurèrent"], "examples": [
+      { "fr": "Je me suis **procuré** un modèle de lettre officielle.", "en": "I got hold of a model official letter." },
+      { "fr": "Où peut-on **se procurer** des billets ?", "en": "Where can you get tickets?" },
+      { "fr": "Il faut **vous procurer** un formulaire à la mairie.", "en": "You need to get a form from the town hall." }
+    ] },
+    { "id": "s-averer", "fr": "s'avérer", "pos": "verb", "ipa": "sa.ve.ʁe", "en": "to turn out (to be), to prove", "def": "Se montrer vrai ; être finalement d'une certaine façon.", "def_en": "To prove true; to turn out a certain way in the end.", "forms": ["s'avère", "s'avèrent", "s'est avéré", "s'est avérée", "se sont avérés", "se sont avérées", "s'avérait", "s'avéraient", "s'avérera", "s'avéreront", "s'avérerait", "s'avéreraient", "s'avérant", "s'avéra", "s'avérèrent"], "examples": [
+      { "fr": "Si cela **s'avère** nécessaire, je peux effectuer la réparation.", "en": "Should it prove necessary, I can carry out the repair." },
+      { "fr": "Le problème **s'est avéré** plus grave que prévu.", "en": "The problem turned out to be more serious than expected." },
+      { "fr": "L'information **s'est avérée** fausse.", "en": "The information turned out to be false." }
+    ] },
+    { "id": "convenir", "fr": "convenir", "pos": "verb", "ipa": "kɔ̃v.niʁ", "en": "to suit, to be convenient; to agree (convenir de); (il convient de) it is advisable to", "def": "Aller bien à quelqu'un ; se mettre d'accord. « Il convient de » : il faut, il est conseillé de.", "def_en": "To suit someone; to agree. 'Il convient de': one should, it is advisable to.", "note": "*Comme convenu* = as agreed.", "forms": ["conviens", "convient", "convenons", "convenez", "conviennent", "convenu", "convenue", "convenus", "convenues", "convenais", "convenait", "convenions", "conveniez", "convenaient", "conviendrai", "conviendras", "conviendra", "conviendrons", "conviendrez", "conviendront", "conviendrais", "conviendrait", "conviendrions", "conviendriez", "conviendraient", "convenant", "convins", "convint", "convînmes", "convîntes", "convinrent", "convienne", "conviennes"], "examples": [
+      { "fr": "Il **convient** de remédier à ce problème.", "en": "This problem ought to be put right." },
+      { "fr": "Mardi à dix heures, ça vous **convient** ?", "en": "Tuesday at ten, does that suit you?" },
+      { "fr": "Comme **convenu**, je vous envoie le contrat.", "en": "As agreed, I'm sending you the contract." }
+    ] },
+    { "id": "dorenavant", "fr": "dorénavant", "pos": "adv", "ipa": "dɔ.ʁe.na.vɑ̃", "en": "from now on, henceforth", "def": "À partir de maintenant.", "def_en": "Starting now.", "examples": [
+      { "fr": "**Dorénavant**, je veillerai à laisser mon numéro aux livreurs.", "en": "From now on, I'll make sure I leave my number for delivery people." },
+      { "fr": "**Dorénavant**, la boulangerie ouvre à six heures.", "en": "From now on, the bakery opens at six." },
+      { "fr": "Je ferai attention **dorénavant**.", "en": "I'll be careful from now on." }
+    ] },
+    { "id": "davantage", "fr": "davantage", "pos": "adv", "ipa": "da.vɑ̃.taʒ", "en": "more", "def": "Plus (registre soutenu).", "def_en": "More (formal).", "note": "*Davantage de* + noun = more…", "examples": [
+      { "fr": "Il faut moins de formules, et **davantage** d'informations.", "en": "You need fewer set phrases, and more information." },
+      { "fr": "Je voudrais travailler **davantage** mon accent.", "en": "I'd like to work on my accent more." },
+      { "fr": "Ce livre m'a plu **davantage** que le film.", "en": "I liked this book more than the film." }
+    ] },
+    { "id": "hormis", "fr": "hormis", "pos": "prep", "ipa": "ɔʁ.mi", "en": "except, apart from", "def": "Sauf (registre soutenu).", "def_en": "Except (formal).", "examples": [
+      { "fr": "**Hormis** ce problème, je suis très heureux dans votre immeuble.", "en": "Apart from this problem, I'm very happy in your building." },
+      { "fr": "Tout le monde est venu, **hormis** Hugo.", "en": "Everyone came, except Hugo." },
+      { "fr": "**Hormis** le dimanche, la boulangerie est ouverte tous les jours.", "en": "Apart from Sundays, the bakery is open every day." }
+    ] },
+    { "id": "aupres-de", "fr": "auprès de", "pos": "prep", "ipa": "o.pʁɛ də", "en": "with, to, from (an office or a person in charge); beside", "def": "Chez, avec : se dit des personnes ou des services à qui on demande quelque chose. Aussi : à côté de quelqu'un.", "def_en": "With, from: said of the people or offices you ask something of. Also: next to someone.", "forms": ["auprès d'", "auprès du", "auprès des"], "examples": [
+      { "fr": "J'ai demandé conseil **auprès de** Léa.", "en": "I asked Léa for advice." },
+      { "fr": "Renseignez-vous **auprès de** la mairie.", "en": "Ask at the town hall." },
+      { "fr": "Il a passé la soirée **auprès de** sa grand-mère.", "en": "He spent the evening with his grandmother." }
+    ] },
+    { "id": "a-l-egard-de", "fr": "à l'égard de", "pos": "prep", "ipa": "a le.ɡaʁ də", "en": "towards, with regard to", "def": "Envers quelqu'un ou quelque chose.", "def_en": "Towards someone or something.", "forms": ["à l'égard d'", "à l'égard du", "à l'égard des"], "examples": [
+      { "fr": "Veuillez agréer l'expression de mon profond respect **à l'égard de** votre boulangerie.", "en": "Please accept the expression of my deep respect for your bakery." },
+      { "fr": "Il est très gentil **à l'égard des** enfants.", "en": "He's very kind towards children." },
+      { "fr": "Quel est votre avis **à l'égard de** ce projet ?", "en": "What's your opinion on this project?" }
+    ] },
+    { "id": "ainsi-que", "fr": "ainsi que", "pos": "conj", "ipa": "ɛ̃.si kə", "en": "as well as, and", "def": "Et aussi.", "def_en": "And also.", "forms": ["ainsi qu'"], "examples": [
+      { "fr": "Je désire, **ainsi que** mon voisin, un interphone qui fonctionne.", "en": "My neighbour and I wish to have an intercom that works." },
+      { "fr": "Léa, **ainsi que** Sophie, habite au troisième étage.", "en": "Léa, as well as Sophie, lives on the third floor." },
+      { "fr": "Apportez votre passeport, **ainsi qu'**une photo.", "en": "Bring your passport, as well as a photo." }
+    ] },
+    { "id": "veiller", "fr": "veiller", "pos": "verb", "ipa": "ve.je", "en": "to make sure (veiller à); to watch over (veiller sur); to stay up", "def": "Faire attention qu'une chose soit faite ; surveiller ; rester sans dormir.", "def_en": "To take care that something is done; to keep an eye on; to stay awake.", "note": "Don't mix up *veillez* (make sure) and *veuillez* (please).", "forms": ["veille", "veilles", "veillons", "veillez", "veillent", "veillé", "veillais", "veillait", "veillions", "veilliez", "veillaient", "veillerai", "veilleras", "veillera", "veillerons", "veillerez", "veilleront", "veillerais", "veillerait", "veillerions", "veilleriez", "veilleraient", "veillant", "veillai", "veillas", "veilla", "veillâmes", "veillâtes", "veillèrent"], "examples": [
+      { "fr": "Dorénavant, je **veillerai** à laisser mon numéro aux livreurs.", "en": "From now on, I'll make sure I leave my number for delivery people." },
+      { "fr": "Le soir, Jules **veille** sur les animaux de la ferme.", "en": "In the evening, Jules watches over the farm animals." },
+      { "fr": "**Veillez** à bien fermer la porte.", "en": "Make sure you shut the door properly." }
+    ] },
+    { "id": "remedier", "fr": "remédier", "pos": "verb", "ipa": "ʁə.me.dje", "en": "to remedy, to put right (remédier à)", "def": "Trouver une solution à un problème.", "def_en": "To find a solution to a problem.", "forms": ["remédie", "remédies", "remédions", "remédiez", "remédient", "remédié", "remédiais", "remédiait", "remédiions", "remédiiez", "remédiaient", "remédierai", "remédieras", "remédiera", "remédierons", "remédierez", "remédieront", "remédierais", "remédierait", "remédierions", "remédieriez", "remédieraient", "remédiant", "remédiai", "remédias", "remédia", "remédiâmes", "remédiâtes", "remédièrent"], "examples": [
+      { "fr": "Il convient de **remédier** à ce problème dans les meilleurs délais.", "en": "This problem ought to be put right as soon as possible." },
+      { "fr": "Comment **remédier** à la fatigue ?", "en": "How do you fix tiredness?" },
+      { "fr": "La mairie a **remédié** au problème.", "en": "The town hall has dealt with the problem." }
+    ] },
+    { "id": "faire-part", "fr": "faire part", "pos": "verb", "ipa": "fɛʁ paʁ", "en": "to inform, to announce (faire part de quelque chose à quelqu'un)", "def": "Annoncer une nouvelle à quelqu'un (registre soutenu).", "def_en": "To tell someone some news (formal).", "note": "*Un faire-part* = an announcement card (for a birth or a wedding).", "forms": ["fais part", "fait part", "faisons part", "faites part", "font part", "faisais part", "faisait part", "faisaient part", "ferai part", "fera part", "ferons part", "ferais part", "ferait part", "fasse part", "faisant part", "fit part", "firent part"], "examples": [
+      { "fr": "J'ai le regret de vous **faire part** d'un problème regrettable.", "en": "I regret to inform you of a regrettable problem." },
+      { "fr": "Ils nous ont **fait part** de leur mariage.", "en": "They announced their wedding to us." },
+      { "fr": "Je vous **fais part** de ma décision.", "en": "I'm informing you of my decision." }
+    ] },
+    { "id": "regrettable", "fr": "regrettable", "pos": "adj", "ipa": "ʁə.ɡʁɛ.tabl", "en": "regrettable, unfortunate", "def": "Qu'on regrette ; dommage.", "def_en": "That you regret; a pity.", "forms": ["regrettables"], "examples": [
+      { "fr": "Je vous fais part d'un problème **regrettable**.", "en": "I am writing to inform you of an unfortunate problem." },
+      { "fr": "C'est une erreur **regrettable**.", "en": "It's an unfortunate mistake." },
+      { "fr": "Ce retard est très **regrettable**.", "en": "This delay is most regrettable." }
+    ] },
+    { "id": "dans-les-meilleurs-delais", "fr": "dans les meilleurs délais", "pos": "expr", "ipa": "dɑ̃ le mɛ.jœʁ de.lɛ", "en": "as soon as possible (formal)", "def": "Le plus vite possible (registre administratif).", "def_en": "As quickly as possible (official language).", "examples": [
+      { "fr": "Merci de remédier au problème **dans les meilleurs délais**.", "en": "Please put the problem right as soon as possible." },
+      { "fr": "Nous vous répondrons **dans les meilleurs délais**.", "en": "We will reply as soon as possible." },
+      { "fr": "Le colis sera livré **dans les meilleurs délais**.", "en": "The parcel will be delivered as soon as possible." }
+    ] },
+    { "id": "savoir-gre", "fr": "savoir gré", "pos": "verb", "ipa": "sa.vwaʁ ɡʁe", "en": "to be grateful (je vous saurais gré de… = I would be grateful if you would…)", "def": "Être [reconnaissant|reconnaissant] (registre très soutenu).", "def_en": "To be grateful (very formal).", "forms": ["saurais gré", "saurait gré", "saurions gré", "sauriez gré", "sauraient gré", "sais gré", "sait gré", "savons gré", "savez gré", "savent gré", "su gré", "saurai gré", "saura gré"], "examples": [
+      { "fr": "Je vous **saurais gré** de faire venir un électricien.", "en": "I would be grateful if you would send for an electrician." },
+      { "fr": "Nous vous **saurions gré** de répondre avant vendredi.", "en": "We would be grateful if you would reply before Friday." },
+      { "fr": "Je vous **saurais gré** de ne pas fumer ici.", "en": "I would be grateful if you didn't smoke here." }
+    ] }
+  ],
+  "story": {
+    "title": "Lettre à Madame Fournier",
+    "en": "Saturday 6 March: the intercom is still broken, so Hugo writes to the owner of the building, in his best French.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi six mars, chez Hugo. L'interphone est toujours en panne, et Hugo a décidé d'écrire à Madame Fournier, la propriétaire de l'immeuble.", "en": "On Saturday 6 March, at Hugo's. The intercom is still broken, and Hugo has decided to write to Madame Fournier, the owner of the building." },
+      { "sp": "Hugo", "fr": "Léa dit qu'une lettre bien écrite est plus efficace. Je me suis procuré un modèle de lettre officielle, et j'ai demandé conseil auprès de Léa.", "en": "Léa says a well-written letter works better. I got hold of a model official letter, and I asked Léa for advice." },
+      { "sp": "Hugo", "fr": "J'écris en registre soutenu, comme un ministre.", "en": "I'm writing in formal French, like a minister." },
+      { "sp": "Antoine", "fr": "Lis-nous ça. Moi, je n'ai jamais écrit à une propriétaire.", "en": "Read it to us. I've never written to a landlady." },
+      { "sp": "Hugo", "fr": "« Madame, j'ai le regret de vous faire part d'un problème regrettable. »", "en": "'Dear Madam, I regret to inform you of a regrettable problem.'" },
+      { "sp": "Tom", "fr": "« Le regret » et « regrettable » dans la même phrase ? Tu exagères !", "en": "'Regret' and 'regrettable' in the same sentence? You're overdoing it!" },
+      { "sp": "Hugo", "fr": "C'est le style. Écoute : « Je réside au troisième étage depuis le mois de juillet. Depuis le début du mois de février, l'interphone ne fonctionne plus. »", "en": "That's style. Listen: 'I have resided on the third floor since July. Since the beginning of February, the intercom has not been working.'" },
+      { "sp": "Hugo", "fr": "« Les livreurs ne parviennent pas à me joindre, et je dois [me rendre|se-rendre] à la boulangerie pour récupérer mes colis. »", "en": "'Delivery people cannot manage to reach me, and I have to go to the bakery to collect my parcels.'" },
+      { "sp": "Antoine", "fr": "« [Me rendre|se-rendre] à la boulangerie »… Tu veux dire : descendre l'escalier !", "en": "'Go to the bakery'… You mean: go downstairs!" },
+      { "sp": "Hugo", "fr": "« Hormis ce problème, je suis très heureux dans votre immeuble, et je possède un grand respect pour votre pain. »", "en": "'Apart from this problem, I am very happy in your building, and I hold your bread in great respect.'" },
+      { "sp": "Tom", "fr": "On ne « possède » pas un respect, Hugo : on a du respect. Et ta lettre est longue. Il faut moins de formules, et davantage d'informations.", "en": "You don't 'hold' respect, Hugo: you have respect. And your letter is long. You need fewer set phrases, and more information." },
+      { "sp": "Hugo", "fr": "Les informations arrivent : « Il convient de remédier à ce problème dans les meilleurs délais. Je vous saurais gré de faire venir un électricien. »", "en": "Here comes the information: 'This problem ought to be put right as soon as possible. I would be grateful if you would send for an electrician.'" },
+      { "sp": "Antoine", "fr": "« Je vous saurais gré » ? Ça veut dire quoi, ça ?", "en": "'Je vous saurais gré'? What does that mean?" },
+      { "sp": "Tom", "fr": "« Je vous remercierais. » Tu vois, un dictionnaire, ça s'avère utile !", "en": "'I would thank you.' You see, a dictionary turns out to be useful!" },
+      { "sp": "Hugo", "fr": "« Si cela s'avère nécessaire, je peux effectuer moi-même la réparation. »", "en": "'Should it prove necessary, I can carry out the repair myself.'" },
+      { "sp": "Tom", "fr": "Toi ? Effectuer une réparation ? Souviens-toi du tuyau, et de la boulangerie sous l'eau…", "en": "You? Carry out a repair? Remember the pipe, and the bakery under water…" },
+      { "sp": "Hugo", "fr": "Bon, j'enlève cette phrase. « Dorénavant, je veillerai à laisser mon numéro aux livreurs. »", "en": "OK, I'm taking that sentence out. 'From now on, I shall make sure I leave my number for delivery people.'" },
+      { "sp": "Hugo", "fr": "« Cette panne nécessite une réparation rapide. Je désire, ainsi que mon voisin, un interphone qui fonctionne. »", "en": "'This fault requires a quick repair. My neighbour and I wish to have an intercom that works.'" },
+      { "sp": "Tom", "fr": "Ton voisin, c'est moi ? Merci de me demander mon avis !", "en": "Your neighbour is me? Thanks for asking my opinion!" },
+      { "sp": "Hugo", "fr": "Et pour finir : « Je vous prie d'agréer, Madame, l'expression de mon profond respect à l'égard de votre boulangerie. »", "en": "And to finish: 'Yours faithfully, Madam, with my deepest respect for your bakery.'" },
+      { "sp": "Antoine", "fr": "Débuter une lettre par « Madame » et la finir par « votre boulangerie »… C'est beau. Chez nous, on écrirait : « Salut ! L'interphone est en panne. Merci ! »", "en": "Starting a letter with 'Madame' and ending it with 'your bakery'… That's beautiful. Back home, we'd write: 'Hi! The intercom's broken. Thanks!'" },
+      { "sp": "Hugo", "fr": "Je m'aperçois que ma lettre fait deux pages. C'est normal ?", "en": "I notice my letter is two pages long. Is that normal?" },
+      { "sp": "Tom", "fr": "En registre soutenu, oui.", "en": "In formal French, yes." },
+      { "sp": "", "fr": "Hugo descend glisser la lettre sous la porte de la boulangerie. Une heure plus tard, Enzo monte une réponse, écrite sur un sac à pain.", "en": "Hugo goes down to slip the letter under the bakery door. An hour later, Enzo brings up a reply, written on a bread bag." },
+      { "sp": "Enzo", "fr": "Ma grand-mère te répond : « Hugo, l'électricien vient lundi. Bisous. Madame Fournier. »", "en": "My grandmother's answer: 'Hugo, the electrician is coming on Monday. Love. Madame Fournier.'" },
+      { "sp": "Enzo", "fr": "Et en bas, elle a écrit : « Je vous saurais gré ? Tu as mangé un dictionnaire, ou quoi ? »", "en": "And at the bottom, she's written: 'Je vous saurais gré? Have you swallowed a dictionary or something?'" },
+      { "sp": "Tom", "fr": "Deux lignes contre deux pages… Madame Fournier demeure la reine du registre familier !", "en": "Two lines against two pages… Madame Fournier remains the queen of informal French!" },
+      { "sp": "Hugo", "fr": "Je ne comprends pas. J'ai effectué un travail de ministre, et elle me répond comme à un copain !", "en": "I don't get it. I did a minister's job, and she answers me like a mate!" },
+      { "sp": "Antoine", "fr": "C'est ça, la France : on écrit en registre soutenu… et on répond avec des bisous !", "en": "That's France for you: you write in formal French… and people answer with kisses!" }
+    ]
+  }
+}

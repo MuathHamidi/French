@@ -1,0 +1,146 @@
+{
+  "id": "u40-accord",
+  "type": "grammar",
+  "unit": 40,
+  "title": "Les lettres que nous avons écrites",
+  "en": "Past participle agreement: the hard cases",
+  "intro": "With *être*, the participle agrees with the subject; with *avoir*, it doesn't… except when the direct object comes **before** the verb: *la lettre **que** j'ai écrit**e***. Reflexive verbs follow the same logic: *elle s'est lavé**e*** (she washed herself), but *elle s'est lavé **les mains*** and *ils se sont **parlé*** (to each other: no direct object). With **en**, no agreement: *des fautes, j'**en** ai **fait** trois*. **Fait** + infinitive never agrees (*elle s'est **fait** couper les cheveux*), and neither do impersonal verbs (*les efforts qu'il a **fallu***) or a length of time (*les dix heures qu'il a **dormi***).",
+  "cases": [
+    { "id": "pa-avoir", "label": "avoir: the direct object before the verb", "rule": "With *avoir*, the participle agrees with the direct object only when that object comes **before** the verb: *la lettre **que** j'ai écrit**e***, *ces fautes, je **les** ai corrigé**es***, ***Quelles** fautes as-tu fait**es** ?* When it comes after, no agreement: *j'ai écrit **une lettre***." },
+    { "id": "pa-pronominal", "label": "reflexive verbs: s'est lavée, s'est lavé les mains, se sont parlé", "rule": "A reflexive verb agrees with its subject when *se* is the direct object: *elle s'est **lavée***, *elles se sont **rencontrées***. No agreement when another direct object follows (*elle s'est lavé **les mains***), or when *se* means *to each other* (*parler à, sourire à, écrire à, promettre à*): *ils se sont **parlé**, elles se sont **souri***." },
+    { "id": "pa-en", "label": "en: no agreement", "rule": "**En** never makes the participle agree: *Des fautes ? J'**en** ai **fait** trois. Des lettres, nous en avons **écrit** huit.*" },
+    { "id": "pa-infinitif", "label": "fait + infinitive: no agreement", "rule": "**Fait** followed by an infinitive never agrees: *elle s'est **fait** couper les cheveux*, *les crêpes qu'il a **fait** brûler*. Since the 1990 spelling reform, *laissé* + infinitive doesn't agree either: *elle s'est **laissé** convaincre*." },
+    { "id": "pa-impersonnel", "label": "il a fallu, dormi des heures: no agreement", "rule": "Impersonal verbs never agree: *les efforts qu'il a **fallu***, *la chaleur qu'il a **fait***. Nor do *dormir, durer, courir* with a length of time, which isn't a direct object: *les dix heures qu'il a **dormi***. But *passer* (to spend) has one: *les heures que nous avons **passées***." }
+  ],
+  "sections": [
+    {
+      "title": "1. avoir: the object before the verb",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["J'ai écrit une lettre.", "I wrote a letter."],
+        ["La lettre que j'ai écrite.", "The letter I wrote."],
+        ["Ces fautes, je les ai corrigées.", "These mistakes, I've corrected them."],
+        ["Quelles fautes as-tu faites ?", "What mistakes did you make?"],
+        ["Les amis que j'ai invités sont venus.", "The friends I invited came."]
+      ] },
+      "examples": [
+        { "fr": "{Les lettres que nous avons écrites|pa-avoir}, {nous les avons cachées|pa-avoir}.", "en": "The letters we wrote, we hid them." },
+        { "fr": "{Les crêpes, Hugo les a mangées|pa-avoir}.", "en": "The crêpes, Hugo ate them." }
+      ],
+      "tip": "To find the direct object, ask *what?* after the verb: *j'ai écrit… quoi ? une lettre*. If the answer is already behind you (*que, la, les*), the participle agrees with it."
+    },
+    {
+      "title": "2. Reflexive verbs",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Elle s'est lavée.", "She washed (herself)."],
+        ["Elle s'est lavé les mains.", "She washed her hands."],
+        ["Elles se sont rencontrées à Lyon.", "They met in Lyon."],
+        ["Ils se sont parlé pendant des heures.", "They talked to each other for hours."],
+        ["Elles se sont écrit tout l'hiver.", "They wrote to each other all winter."],
+        ["Elles se sont souri.", "They smiled at each other."]
+      ] },
+      "examples": [
+        { "fr": "{Les amis se sont parlé|pa-pronominal} toute la nuit.", "en": "The friends talked to each other all night." },
+        { "fr": "{Léa et Sophie se sont promis|pa-pronominal} de relire les lettres.", "en": "Léa and Sophie promised each other they'd read the letters again." }
+      ],
+      "tip": "Test with *à*: you *parle à*, *souris à*, *écris à*, *téléphones à* someone, so *se* is not a direct object, and nothing agrees."
+    },
+    {
+      "title": "3. en",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Des fautes ? J'en ai fait trois.", "Mistakes? I made three."],
+        ["Des lettres, nous en avons écrit huit.", "Letters? We wrote eight."],
+        ["Des crêpes ? Hugo en a mangé dix.", "Crêpes? Hugo ate ten."]
+      ] },
+      "examples": [
+        { "fr": "Des fautes ? {J'en ai fait|pa-en} quinze.", "en": "Mistakes? I made fifteen." },
+        { "fr": "Des photos, {Tom en a pris|pa-en} cent.", "en": "Photos? Tom took a hundred." }
+      ],
+      "tip": "*En* means *of them*, so the participle stays in its basic form: *fait, écrit, pris*."
+    },
+    {
+      "title": "4. fait + infinitive",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Elle s'est fait couper les cheveux.", "She had her hair cut."],
+        ["Les crêpes qu'il a fait brûler.", "The crêpes he burnt."],
+        ["Les amis qu'elle a fait venir.", "The friends she had come over."],
+        ["Elle s'est laissé convaincre.", "She let herself be convinced."]
+      ] },
+      "examples": [
+        { "fr": "{Léa s'est fait couper|pa-infinitif} les cheveux.", "en": "Léa had her hair cut." },
+        { "fr": "{La lettre qu'il a fait corriger|pa-infinitif} est partie.", "en": "The letter he had corrected has gone." }
+      ],
+      "tip": "*Fait* + infinitive is one block, like *faire faire*: it never changes."
+    },
+    {
+      "title": "5. il a fallu, dormi des heures",
+      "table": { "head": ["French", "English"], "frCols": [0], "rows": [
+        ["Les efforts qu'il a fallu faire !", "The effort it took!"],
+        ["La chaleur qu'il a fait cet été !", "The heat we had this summer!"],
+        ["Les dix heures qu'il a dormi.", "The ten hours he slept."],
+        ["Les deux heures que la dictée a duré.", "The two hours the dictation lasted."],
+        ["Les heures que nous avons passées à écrire.", "The hours we spent writing."]
+      ] },
+      "examples": [
+        { "fr": "{Les efforts qu'il a fallu|pa-impersonnel} !", "en": "The effort it took!" },
+        { "fr": "{Les dix heures que Hugo a dormi|pa-impersonnel} ne sont pas assez.", "en": "The ten hours Hugo slept aren't enough." }
+      ],
+      "tip": "*Passer* is different: you spend hours, so *les heures que nous avons **passées***. You don't sleep hours; you sleep *for* hours: *les heures que j'ai **dormi***."
+    }
+  ],
+  "mistakes": [
+    { "wrong": "J'ai écrite une lettre.", "right": "J'ai écrit une lettre.", "why": "With avoir, no agreement when the direct object comes after the verb." },
+    { "wrong": "La lettre que j'ai écrit est partie.", "right": "La lettre que j'ai écrite est partie.", "why": "The direct object (que = la lettre) comes first: the participle agrees." },
+    { "wrong": "Elle s'est lavée les mains.", "right": "Elle s'est lavé les mains.", "why": "The direct object is les mains, after the verb: no agreement." },
+    { "wrong": "Ils se sont parlés.", "right": "Ils se sont parlé.", "why": "You parle à someone: se is not a direct object." },
+    { "wrong": "Des fautes, j'en ai faites trois.", "right": "Des fautes, j'en ai fait trois.", "why": "No agreement with en." },
+    { "wrong": "Elle s'est faite couper les cheveux.", "right": "Elle s'est fait couper les cheveux.", "why": "Fait + infinitive never agrees." }
+  ],
+  "story": {
+    "title": "La grande dictée",
+    "en": "Saturday 27 March: Marc reads the neighbourhood's big spring dictation, full of traps.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le samedi vingt-sept mars, à la bibliothèque du quartier, c'est la grande dictée de printemps. C'est Marc qui lit le texte.", "en": "On Saturday 27 March, at the neighbourhood library, it's the big spring dictation. Marc reads the text." },
+      { "sp": "", "fr": "Les amis sont tous là : Léa, Tom, Inès, Carla, Hugo… et même Enzo et Madame Fournier.", "en": "The friends are all there: Léa, Tom, Inès, Carla, Hugo… and even Enzo and Madame Fournier." },
+      { "sp": "Marc", "fr": "Le texte s'appelle « Une année avec mes élèves ». Attention, il est plein de pièges. Écoutez bien.", "en": "The text is called 'A year with my students'. Careful, it's full of traps. Listen carefully." },
+      { "sp": "Marc", "fr": "« {Les lettres que nous avons écrites|pa-avoir}, {nous les avons cachées|pa-avoir} dans une grange. Des lettres, {nous en avons écrit|pa-en} huit. »", "en": "'The letters we wrote, we hid in a barn. Letters? We wrote eight.'" },
+      { "sp": "Marc", "fr": "« {Les heures que nous avons passées|pa-avoir} à écrire, {nous ne les avons pas comptées|pa-avoir}. Ce soir-là, {les amis se sont parlé|pa-pronominal} et {se sont souri|pa-pronominal}. »", "en": "'The hours we spent writing, we didn't count them. That evening, the friends talked to each other and smiled at each other.'" },
+      { "sp": "Marc", "fr": "« {Léa et Sophie se sont promis|pa-pronominal} de relire les lettres dans dix ans. Plus tard, {Léa s'est fait couper|pa-infinitif} les cheveux. »", "en": "'Léa and Sophie promised each other they'd read the letters again in ten years. Later, Léa had her hair cut.'" },
+      { "sp": "Marc", "fr": "« Quant à Hugo, {les crêpes qu'il a fait brûler|pa-infinitif}, {il les a mangées|pa-avoir} quand même. {Les efforts qu'il a fallu|pa-impersonnel} ! Après, {les dix heures qu'il a dormi|pa-impersonnel}, ce n'était pas assez. »", "en": "'As for Hugo, the crêpes he burnt, he ate them anyway. The effort it took! Afterwards, the ten hours he slept weren't enough.'" },
+      { "sp": "", "fr": "Pendant une heure, on n'entend que les stylos. Enzo écrit très vite ; Madame Fournier écrit lentement, avec un vieux stylo.", "en": "For an hour, all you can hear is the pens. Enzo writes very fast; Madame Fournier writes slowly, with an old pen." },
+      { "sp": "", "fr": "Puis Marc corrige, à voix haute.", "en": "Then Marc corrects it, out loud." },
+      { "sp": "Marc", "fr": "Premier piège : « les lettres que nous avons écrites ». Pourquoi « écrites », au féminin pluriel ?", "en": "First trap: 'the letters we wrote'. Why 'écrites', feminine plural?" },
+      { "sp": "Tom", "fr": "Parce que « que », ce sont les lettres, et elles sont avant le verbe !", "en": "Because 'que' is the letters, and they come before the verb!" },
+      { "sp": "Hugo", "fr": "Moi, j'ai mis « écrit ». Et pour « nous en avons écrit huit », j'ai mis « écrites ».", "en": "I put 'écrit'. And for 'we wrote eight', I put 'écrites'." },
+      { "sp": "Marc", "fr": "Deux erreurs, Hugo. Avec « en », le participe ne change pas : « nous en avons écrit huit ».", "en": "Two mistakes, Hugo. With 'en', the participle doesn't change: 'nous en avons écrit huit'." },
+      { "sp": "Carla", "fr": "Et « les amis se sont parlé » ? Moi, j'ai mis « parlés ».", "en": "And 'the friends talked to each other'? I put 'parlés'." },
+      { "sp": "Marc", "fr": "On parle à quelqu'un. Ici, « se » veut dire « l'un à l'autre » : le participe ne change pas.", "en": "You talk to someone. Here, 'se' means 'to each other': the participle doesn't change." },
+      { "sp": "Léa", "fr": "Et « les heures que nous avons passées » ? Au féminin pluriel, c'est juste ?", "en": "And 'the hours we spent'? Feminine plural, is that right?" },
+      { "sp": "Marc", "fr": "Oui ! On passe des heures. Mais « les dix heures qu'il a dormi », sans accord : on ne dort pas des heures, on dort pendant des heures.", "en": "Yes! You spend hours. But 'the ten hours he slept', with no agreement: you don't sleep hours, you sleep for hours." },
+      { "sp": "Enzo", "fr": "Moi, j'ai écrit la moitié en verlan. Ça compte ?", "en": "I wrote half of it in verlan. Does that count?" },
+      { "sp": "Marc", "fr": "Non, Enzo.", "en": "No, Enzo." },
+      { "sp": "", "fr": "Les résultats : Madame Fournier, zéro faute. Tom, deux fautes. Léa, trois. Inès et Carla, cinq. Hugo… quinze.", "en": "The results: Madame Fournier, no mistakes. Tom, two mistakes. Léa, three. Inès and Carla, five. Hugo… fifteen." },
+      { "sp": "Hugo", "fr": "Des fautes ? {J'en ai fait|pa-en} quinze. Mais avec « en », le participe ne change pas : c'est déjà ça !", "en": "Mistakes? I made fifteen. But with 'en', the participle doesn't change: that's something!" },
+      { "sp": "Madame Fournier", "fr": "Moi, à l'école, on faisait une dictée tous les jours. {Les fautes que j'ai faites|pa-avoir} à huit ans, {je les ai copiées|pa-avoir} cent fois !", "en": "When I was at school, we did a dictation every day. The mistakes I made at eight, I copied them out a hundred times!" },
+      { "sp": "Tom", "fr": "Un Anglais devant Hugo ! Je l'écris dans mon carnet.", "en": "An Englishman ahead of Hugo! I'm writing it in my notebook." },
+      { "sp": "Marc", "fr": "Bravo, Madame Fournier. {Les heures que vous avez passées|pa-avoir} à copier vos fautes n'ont pas [été|etre] inutiles !", "en": "Well done, Madame Fournier. The hours you spent copying out your mistakes weren't wasted!" },
+      { "sp": "Hugo", "fr": "L'année prochaine, je m'entraînerai avec Tom. {Il s'est fait aider|pa-infinitif} par Léa ; moi, je me ferai aider par lui !", "en": "Next year, I'll practise with Tom. He got help from Léa; I'll get help from him!" },
+      { "sp": "Tom", "fr": "Avec plaisir. Première leçon : « les crêpes qu'il a fait brûler »…", "en": "With pleasure. First lesson: 'the crêpes he burnt'…" },
+      { "sp": "Hugo", "fr": "Ça, je connais. Je l'ai fait cent fois !", "en": "That one I know. I've done it a hundred times!" }
+    ]
+  },
+  "quiz": [
+    { "case": "pa-avoir", "type": "mc", "q": "Les lettres que nous avons ___ sont dans la grange.", "en": "The letters we wrote are in the barn.", "options": ["écrites", "écrit", "écrits"], "answer": "écrites" },
+    { "case": "pa-avoir", "type": "mc", "q": "Ces fautes, je les ai ___.", "en": "These mistakes, I've corrected them.", "options": ["corrigées", "corrigé", "corrigés"], "answer": "corrigées" },
+    { "case": "pa-avoir", "type": "mc", "q": "Nous avons ___ deux lettres.", "en": "We wrote two letters.", "options": ["écrit", "écrites", "écrits"], "answer": "écrit" },
+    { "case": "pa-pronominal", "type": "mc", "q": "Elle s'est ___ les mains.", "en": "She washed her hands.", "options": ["lavé", "lavée", "lavés"], "answer": "lavé" },
+    { "case": "pa-pronominal", "type": "mc", "q": "Léa et Sophie se sont ___ toute la soirée.", "en": "Léa and Sophie talked to each other all evening.", "options": ["parlé", "parlées", "parlés"], "answer": "parlé" },
+    { "case": "pa-pronominal", "type": "mc", "q": "Elles se sont ___ à Lyon.", "en": "They met in Lyon.", "options": ["rencontrées", "rencontré", "rencontrés"], "answer": "rencontrées" },
+    { "case": "pa-en", "type": "mc", "q": "Des fautes ? Hugo en a ___ quinze.", "en": "Mistakes? Hugo made fifteen.", "options": ["fait", "faites", "faits"], "answer": "fait" },
+    { "case": "pa-en", "type": "mc", "lang": "en", "q": "Which sentence is correct?", "options": ["Des lettres, il en a écrit beaucoup.", "Des lettres, il en a écrites beaucoup.", "Des lettres, il en a écrits beaucoup."], "answer": "Des lettres, il en a écrit beaucoup." },
+    { "case": "pa-infinitif", "type": "mc", "q": "Léa s'est ___ couper les cheveux.", "en": "Léa had her hair cut.", "options": ["fait", "faite", "faits"], "answer": "fait" },
+    { "case": "pa-infinitif", "type": "mc", "q": "Les crêpes qu'il a ___ brûler, il les a mangées.", "en": "The crêpes he burnt, he ate them.", "options": ["fait", "faites", "faits"], "answer": "fait" },
+    { "case": "pa-impersonnel", "type": "mc", "q": "Les efforts qu'il a ___ !", "en": "The effort it took!", "options": ["fallu", "fallus", "fallue"], "answer": "fallu" },
+    { "case": "pa-impersonnel", "type": "mc", "q": "Les dix heures que Hugo a ___…", "en": "The ten hours Hugo slept…", "options": ["dormi", "dormies", "dormis"], "answer": "dormi" }
+  ]
+}

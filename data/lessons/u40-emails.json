@@ -1,0 +1,163 @@
+{
+  "id": "u40-emails",
+  "type": "vocab",
+  "unit": 40,
+  "title": "Les e-mails formels",
+  "en": "Formal emails",
+  "intro": "25 words for formal emails and letters: the parts (**l'en-tête, la formule de politesse, les salutations, distingué, le brouillon, la boîte de réception, l'adresse électronique, ci-joint, en copie**), the useful phrases (**suite à, dans l'attente de, par avance, à votre disposition, dès que possible, le cas échéant, prier, agréer**), the verbs and nouns of the job (**préciser, transférer, la présence, la disponibilité, le remerciement, administratif**) and Tom's audition (**l'audition, l'enregistrement**).",
+  "words": [
+    { "id": "ci-joint", "fr": "ci-joint", "pos": "adj", "ipa": "si.ʒwɛ̃", "display": "ci-joint, ci-jointe", "en": "attached, enclosed", "def": "Envoyé avec le message ou avec la lettre.", "def_en": "Sent with the message or the letter.", "note": "Before the noun, it doesn't change: *Vous trouverez ci-joint mon CV.* After it, it agrees: *la lettre ci-jointe*.", "forms": ["ci-jointe", "ci-joints", "ci-jointes"], "examples": [
+      { "fr": "Vous trouverez **ci-joint** l'enregistrement de deux morceaux.", "en": "Please find attached a recording of two pieces." },
+      { "fr": "Je vous envoie **ci-joint** mon CV.", "en": "I'm sending you my CV, attached." },
+      { "fr": "Lisez la lettre **ci-jointe**, s'il vous plaît.", "en": "Please read the enclosed letter." }
+    ] },
+    { "id": "en-copie", "fr": "en copie", "pos": "expr", "ipa": "ɑ̃ kɔ.pi", "en": "cc'd, copied in (on an email)", "def": "Se dit d'une personne qui reçoit aussi le message, pour être informée.", "def_en": "Said of a person who also gets the message, to be kept informed.", "note": "*Mettre quelqu'un en copie* = to cc someone.", "examples": [
+      { "fr": "Et mets-moi **en copie**. Je veux tout savoir.", "en": "And cc me. I want to know everything." },
+      { "fr": "Mon chef est toujours **en copie** de mes mails.", "en": "My boss is always cc'd on my emails." },
+      { "fr": "J'ai mis Léa **en copie**, pour l'informer.", "en": "I copied Léa in, to keep her informed." }
+    ] },
+    { "id": "formule-de-politesse", "fr": "formule de politesse", "pos": "noun", "g": "f", "ipa": "fɔʁ.myl də pɔ.li.tɛs", "en": "polite closing formula, sign-off", "def": "La phrase polie, toujours la même, qu'on écrit à la fin d'une lettre officielle.", "def_en": "The polite sentence, always the same, that you write at the end of an official letter.", "forms": ["formules de politesse"], "examples": [
+      { "fr": "Rien ! C'est une **formule de politesse**.", "en": "Nothing! It's a polite sign-off." },
+      { "fr": "N'oublie pas la **formule de politesse** à la fin de ta lettre.", "en": "Don't forget the sign-off at the end of your letter." },
+      { "fr": "Les **formules de politesse** françaises sont très longues.", "en": "French sign-offs are very long." }
+    ] },
+    { "id": "salutations", "fr": "salutations", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "sa.ly.ta.sjɔ̃", "en": "greetings, regards (in a letter)", "def": "Les mots polis pour dire bonjour ou au revoir, dans une lettre.", "def_en": "Polite words to say hello or goodbye, in a letter.", "note": "*Meilleures salutations* = Best regards. *Veuillez agréer mes salutations distinguées* = Yours faithfully.", "forms": ["salutation"], "examples": [
+      { "fr": "Veuillez agréer, Monsieur, l'expression de nos **salutations** distinguées.", "en": "Yours faithfully. (Please accept, Sir, the expression of our distinguished regards.)" },
+      { "fr": "Meilleures **salutations**, Tom.", "en": "Best regards, Tom." },
+      { "fr": "Mes **salutations** à vos parents !", "en": "My regards to your parents!" }
+    ] },
+    { "id": "agreer", "fr": "agréer", "pos": "verb", "ipa": "a.ɡʁe.e", "en": "to accept (formal; in sign-offs)", "def": "Dans une lettre officielle : accepter, recevoir avec plaisir.", "def_en": "In a formal letter: to accept, to receive with pleasure.", "note": "Almost only in the sign-off: *Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.*", "forms": ["agrée", "agrées", "agréons", "agréez", "agréent", "agréé", "agréée", "agréés", "agréées", "agréais", "agréait", "agréions", "agréiez", "agréaient", "agréerai", "agréeras", "agréera", "agréerons", "agréerez", "agréeront", "agréerais", "agréerait", "agréerions", "agréeriez", "agréeraient", "agréant", "agréai", "agréas", "agréa", "agréâmes", "agréâtes", "agréèrent"], "examples": [
+      { "fr": "Ils veulent que j'**agrée** quoi ?", "en": "What do they want me to accept?" },
+      { "fr": "Veuillez **agréer**, Madame, l'expression de mes salutations distinguées.", "en": "Yours faithfully, Madam." },
+      { "fr": "Je vous prie d'**agréer** mes salutations distinguées.", "en": "Yours faithfully. (I beg you to accept my distinguished regards.)" }
+    ] },
+    { "id": "prier", "fr": "prier", "pos": "verb", "ipa": "pʁi.je", "en": "to pray; (je vous prie de…) please, I would ask you to (formal)", "def": "Parler à Dieu. Aussi, dans une lettre : demander poliment.", "def_en": "To speak to God. Also, in a letter: to ask politely.", "note": "*Je vous en prie* = you're welcome; please do.", "forms": ["prie", "pries", "prions", "priez", "prient", "prié", "priée", "priés", "priées", "priais", "priait", "priions", "priiez", "priaient", "prierai", "prieras", "priera", "prierons", "prierez", "prieront", "prierais", "prierait", "prierions", "prieriez", "prieraient", "priant", "priai", "prias", "pria", "priâmes", "priâtes", "prièrent"], "examples": [
+      { "fr": "Je vous **prie** d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", "en": "Yours faithfully." },
+      { "fr": "Les passagers sont **priés** de rester assis.", "en": "Passengers are requested to remain seated." },
+      { "fr": "Ma grand-mère **prie** tous les soirs.", "en": "My grandmother prays every evening." }
+    ] },
+    { "id": "suite-a", "fr": "suite à", "pos": "prep", "ipa": "sɥit a", "en": "following, further to (formal)", "def": "Après, et à cause de : une expression des lettres officielles.", "def_en": "After, and because of: an expression from official letters.", "forms": ["suite au", "suite aux"], "examples": [
+      { "fr": "Monsieur, **suite à** l'examen de votre dossier, nous avons le plaisir de vous convoquer.", "en": "Sir, following the review of your application, we are pleased to invite you." },
+      { "fr": "**Suite à** notre conversation, je vous envoie le contrat.", "en": "Further to our conversation, I'm sending you the contract." },
+      { "fr": "**Suite au** problème d'hier, le magasin est fermé.", "en": "Following yesterday's problem, the shop is closed." }
+    ] },
+    { "id": "dans-l-attente-de", "fr": "dans l'attente de", "pos": "expr", "ipa": "dɑ̃ la.tɑ̃t də", "en": "looking forward to; awaiting (formal)", "def": "En attendant quelque chose : une formule pour finir une lettre.", "def_en": "While waiting for something: a phrase to end a letter.", "forms": ["dans l'attente d'", "dans l'attente du", "dans l'attente des"], "examples": [
+      { "fr": "**Dans l'attente de** votre réponse, je vous prie d'agréer mes salutations distinguées.", "en": "I look forward to your reply. Yours faithfully." },
+      { "fr": "**Dans l'attente de** vous lire, je vous souhaite une bonne journée.", "en": "Looking forward to hearing from you, have a good day." },
+      { "fr": "Je reste **dans l'attente de** votre décision.", "en": "I'm awaiting your decision." }
+    ] },
+    { "id": "presence", "fr": "présence", "pos": "noun", "g": "f", "ipa": "pʁe.zɑ̃s", "en": "presence; attendance", "def": "Le fait d'être là, à un endroit.", "def_en": "Being there, in a place.", "note": "*Confirmer sa présence* = to confirm you'll attend. *En présence de* = in the presence of.", "forms": ["présences"], "examples": [
+      { "fr": "Je me permets de vous confirmer ma **présence** le dix-sept mars.", "en": "I am writing to confirm my attendance on 17 March." },
+      { "fr": "Merci de votre **présence** !", "en": "Thank you for coming!" },
+      { "fr": "La **présence** des élèves est obligatoire.", "en": "Attendance is compulsory for pupils." }
+    ] },
+    { "id": "disponibilite", "fr": "disponibilité", "pos": "noun", "g": "f", "ipa": "dis.pɔ.ni.bi.li.te", "en": "availability", "def": "Le moment où une personne est libre.", "def_en": "The time when a person is free.", "forms": ["disponibilités"], "examples": [
+      { "fr": "Merci de nous préciser vos **disponibilités** pour un entretien.", "en": "Please let us know when you're available for an interview." },
+      { "fr": "Ma **disponibilité** ? Tous les jours après six heures.", "en": "My availability? Every day after six." },
+      { "fr": "Ce produit est en rupture de stock : **disponibilité** en mai.", "en": "This product is out of stock: available in May." }
+    ] },
+    { "id": "preciser", "fr": "préciser", "pos": "verb", "ipa": "pʁe.si.ze", "en": "to specify, to state, to clarify", "def": "Donner une information de façon claire, avec tous les détails.", "def_en": "To give a piece of information clearly, with all the details.", "forms": ["précise", "précises", "précisons", "précisez", "précisent", "précisé", "précisée", "précisés", "précisées", "précisais", "précisait", "précisions", "précisiez", "précisaient", "préciserai", "préciseras", "précisera", "préciserons", "préciserez", "préciseront", "préciserais", "préciserait", "préciserions", "préciseriez", "préciseraient", "précisant", "précisai", "précisas", "précisa", "précisâmes", "précisâtes", "précisèrent"], "examples": [
+      { "fr": "Merci de nous **préciser** vos disponibilités.", "en": "Please let us know when you're available." },
+      { "fr": "**Précisez** l'heure de votre arrivée.", "en": "Please state your arrival time." },
+      { "fr": "Je **précise** que je ne mange pas de viande.", "en": "I should point out that I don't eat meat." }
+    ] },
+    { "id": "transferer", "fr": "transférer", "pos": "verb", "ipa": "tʁɑ̃s.fe.ʁe", "en": "to forward (an email); to transfer", "def": "Envoyer à une autre personne un message qu'on a reçu ; faire passer d'un endroit à un autre.", "def_en": "To send someone else a message you've received; to move from one place to another.", "forms": ["transfère", "transfères", "transférons", "transférez", "transfèrent", "transféré", "transférée", "transférés", "transférées", "transférais", "transférait", "transférions", "transfériez", "transféraient", "transférerai", "transféreras", "transférera", "transférerons", "transférerez", "transféreront", "transférerais", "transférerait", "transférerions", "transféreriez", "transféreraient", "transférant", "transférai", "transféras", "transféra", "transférâmes", "transférâtes", "transférèrent"], "examples": [
+      { "fr": "Le soir, Tom **transfère** le courriel à ses parents.", "en": "In the evening, Tom forwards the email to his parents." },
+      { "fr": "Tu peux me **transférer** ce message ?", "en": "Can you forward me that message?" },
+      { "fr": "La banque a **transféré** l'argent ce matin.", "en": "The bank transferred the money this morning." }
+    ] },
+    { "id": "en-tete", "fr": "en-tête", "pos": "noun", "g": "m", "ipa": "ɑ̃.tɛt", "en": "heading; letterhead; (email) header", "def": "Le haut d'une lettre ou d'un message, avec le nom et l'adresse.", "def_en": "The top of a letter or a message, with the name and the address.", "forms": ["en-têtes"], "examples": [
+      { "fr": "Tom vérifie l'adresse électronique de l'université dans l'**en-tête** du courriel.", "en": "Tom checks the university's email address in the header of the email." },
+      { "fr": "Le nom de l'entreprise est dans l'**en-tête**.", "en": "The company name is in the letterhead." },
+      { "fr": "Une lettre officielle commence par un **en-tête**.", "en": "An official letter starts with a heading." }
+    ] },
+    { "id": "brouillon", "fr": "brouillon", "pos": "noun", "g": "m", "ipa": "bʁu.jɔ̃", "en": "draft, rough copy", "def": "Le premier texte, pas encore fini, qu'on corrige avant d'écrire la version propre.", "def_en": "The first text, not finished yet, that you correct before writing the clean version.", "forms": ["brouillons"], "examples": [
+      { "fr": "Écris d'abord un **brouillon**.", "en": "Write a draft first." },
+      { "fr": "Mon mail est resté dans les **brouillons** !", "en": "My email stayed in the drafts!" },
+      { "fr": "Au collège, on écrit d'abord au **brouillon**.", "en": "At school, you write a rough copy first." }
+    ] },
+    { "id": "boite-de-reception", "fr": "boîte de réception", "pos": "noun", "g": "f", "ipa": "bwat də ʁe.sɛp.sjɔ̃", "en": "inbox", "def": "L'endroit où arrivent les mails qu'on reçoit.", "def_en": "The place where the emails you receive arrive.", "forms": ["boîtes de réception"], "examples": [
+      { "fr": "Cinq minutes plus tard, une réponse arrive dans sa **boîte de réception**.", "en": "Five minutes later, a reply arrives in his inbox." },
+      { "fr": "Ma **boîte de réception** est pleine.", "en": "My inbox is full." },
+      { "fr": "Regarde aussi dans les spams, pas seulement dans la **boîte de réception**.", "en": "Look in the spam folder too, not just in the inbox." }
+    ] },
+    { "id": "par-avance", "fr": "par avance", "pos": "expr", "ipa": "paʁ a.vɑ̃s", "en": "in advance", "def": "Avant que la chose arrive.", "def_en": "Before the thing happens.", "examples": [
+      { "fr": "Je vous remercie **par avance**.", "en": "Thank you in advance." },
+      { "fr": "Il a payé l'hôtel **par avance**.", "en": "He paid for the hotel in advance." },
+      { "fr": "Excusez-moi **par avance** : je serai un peu en retard.", "en": "I apologise in advance: I'll be a little late." }
+    ] },
+    { "id": "a-votre-disposition", "fr": "à votre disposition", "pos": "expr", "ipa": "a vɔtʁ dis.pɔ.zi.sjɔ̃", "en": "at your disposal; (je reste à votre disposition) don't hesitate to contact me", "def": "Prêt à aider ou à répondre : une formule polie des lettres.", "def_en": "Ready to help or to answer: a polite phrase in letters.", "forms": ["à ta disposition", "à la disposition"], "examples": [
+      { "fr": "Je reste **à votre disposition** pour toute question.", "en": "Please don't hesitate to contact me with any questions." },
+      { "fr": "La salle est **à votre disposition** jusqu'à midi.", "en": "The room is at your disposal until noon." },
+      { "fr": "Mon vélo est **à ta disposition**, si tu veux.", "en": "My bike is yours to use, if you like." }
+    ] },
+    { "id": "audition", "fr": "audition", "pos": "noun", "g": "f", "ipa": "o.di.sjɔ̃", "en": "audition; hearing (the sense)", "def": "Un petit examen où on chante, joue ou [danse|danser] devant un jury.", "def_en": "A short test where you sing, play or dance in front of a panel.", "forms": ["auditions"], "examples": [
+      { "fr": "Nous avons le plaisir de vous convoquer à une **audition**, le mercredi dix-sept mars.", "en": "We are pleased to invite you to an audition on Wednesday 17 March." },
+      { "fr": "Carla prépare son **audition** pour l'école de danse.", "en": "Carla is preparing her audition for the dance school." },
+      { "fr": "Avec l'âge, l'**audition** [baisse|baisser].", "en": "With age, hearing gets worse." }
+    ] },
+    { "id": "administratif", "fr": "administratif", "pos": "adj", "ipa": "ad.mi.nis.tʁa.tif", "display": "administratif, administrative", "en": "administrative", "def": "Qui s'occupe des papiers, des dossiers et des règles d'une organisation.", "def_en": "Dealing with the papers, files and rules of an organisation.", "forms": ["administrative", "administratifs", "administratives"], "examples": [
+      { "fr": "Le cas échéant, contactez le service **administratif**.", "en": "If necessary, contact the administrative office." },
+      { "fr": "Le français **administratif**, c'est une autre langue !", "en": "Official French is another language!" },
+      { "fr": "Je déteste les papiers **administratifs**.", "en": "I hate admin paperwork." }
+    ] },
+    { "id": "remerciement", "fr": "remerciement", "pos": "noun", "g": "m", "ipa": "ʁə.mɛʁ.si.mɑ̃", "en": "thanks, thank-you", "def": "Les mots qu'on dit ou qu'on écrit pour dire merci.", "def_en": "The words you say or write to say thank you.", "forms": ["remerciements"], "examples": [
+      { "fr": "Les **remerciements**, la disponibilité, les salutations… quelle langue !", "en": "The thanks, the availability, the regards… what a language!" },
+      { "fr": "Hugo a envoyé une carte de **remerciement** aux parents de Carla.", "en": "Hugo sent a thank-you card to Carla's parents." },
+      { "fr": "Avec tous mes **remerciements**.", "en": "With all my thanks." }
+    ] },
+    { "id": "distingue", "fr": "distingué", "pos": "adj", "ipa": "dis.tɛ̃.ɡe", "display": "distingué, distinguée", "en": "distinguished, refined", "def": "Élégant et très poli ; dans les lettres, se dit des salutations les plus polies.", "def_en": "Elegant and very polite; in letters, said of the politest regards.", "forms": ["distinguée", "distingués", "distinguées"], "examples": [
+      { "fr": "Ils sont rapides ! Et ils sont… **distingués**.", "en": "They're quick! And they're… distinguished." },
+      { "fr": "Veuillez agréer mes salutations **distinguées**.", "en": "Yours faithfully." },
+      { "fr": "Un vieux monsieur très **distingué** est entré dans la librairie.", "en": "A very distinguished old gentleman came into the bookshop." }
+    ] },
+    { "id": "le-cas-echeant", "fr": "le cas échéant", "pos": "expr", "ipa": "lə ka e.ʃe.ɑ̃", "en": "if need be, where appropriate (formal)", "def": "Si cela arrive ; si c'est nécessaire.", "def_en": "If that happens; if it's necessary.", "examples": [
+      { "fr": "**Le cas échéant**, contactez le service administratif.", "en": "If necessary, contact the administrative office." },
+      { "fr": "Joignez votre CV et, **le cas échéant**, une lettre de votre professeur.", "en": "Attach your CV and, where appropriate, a letter from your teacher." },
+      { "fr": "**Le cas échéant**, nous vous rembourserons.", "en": "If need be, we'll refund you." }
+    ] },
+    { "id": "adresse-electronique", "fr": "adresse électronique", "pos": "noun", "g": "f", "ipa": "a.dʁɛs e.lɛk.tʁɔ.nik", "en": "email address", "def": "L'adresse à laquelle on envoie un mail à quelqu'un.", "def_en": "The address you send someone an email to.", "note": "In everyday French: *mon adresse mail*.", "forms": ["adresses électroniques"], "examples": [
+      { "fr": "Tom vérifie l'**adresse électronique** de l'université.", "en": "Tom checks the university's email address." },
+      { "fr": "Quelle est votre **adresse électronique** ?", "en": "What's your email address?" },
+      { "fr": "J'ai changé d'**adresse électronique**.", "en": "I've changed my email address." }
+    ] },
+    { "id": "des-que-possible", "fr": "dès que possible", "pos": "expr", "ipa": "dɛ kə pɔ.sibl", "en": "as soon as possible", "def": "Le plus vite possible, au premier moment libre.", "def_en": "As quickly as possible, at the first free moment.", "examples": [
+      { "fr": "Merci de nous envoyer **dès que possible** un enregistrement de deux morceaux.", "en": "Please send us a recording of two pieces as soon as possible." },
+      { "fr": "Rappelez-moi **dès que possible**, c'est urgent.", "en": "Call me back as soon as possible, it's urgent." },
+      { "fr": "Je réponds **dès que possible**.", "en": "I'll reply as soon as possible." }
+    ] },
+    { "id": "enregistrement", "fr": "enregistrement", "pos": "noun", "g": "m", "ipa": "ɑ̃.ʁə.ʒis.tʁə.mɑ̃", "en": "recording; (airport) check-in", "def": "Une musique ou une vidéo qu'on garde pour l'écouter ou la regarder plus tard. Aussi, à l'aéroport : le moment où on donne ses bagages.", "def_en": "Music or a video you keep to listen to or watch later. Also, at the airport: the moment you hand in your luggage.", "forms": ["enregistrements"], "examples": [
+      { "fr": "Vous trouverez ci-joint l'**enregistrement** de deux morceaux.", "en": "Please find attached a recording of two pieces." },
+      { "fr": "L'**enregistrement** du podcast a duré une heure.", "en": "Recording the podcast took an hour." },
+      { "fr": "L'**enregistrement** des bagages ferme quarante minutes avant le départ.", "en": "Bag check-in closes forty minutes before departure." }
+    ] }
+  ],
+  "story": {
+    "title": "La convocation",
+    "en": "Wednesday 3 March: Tom gets an email from the university, and has to answer it in proper French.",
+    "dialogue": true,
+    "lines": [
+      { "sp": "", "fr": "Le mercredi trois mars, Tom reçoit un courriel de l'université. Il l'ouvre au café d'en bas, avec Léa, Hugo et Antoine.", "en": "On Wednesday 3 March, Tom gets an email from the university. He opens it at the café downstairs, with Léa, Hugo and Antoine." },
+      { "sp": "Tom", "fr": "« Objet : audition, licence de musique. Monsieur, suite à l'examen de votre dossier de candidature, nous avons le plaisir de vous convoquer à une audition, le mercredi dix-sept mars à quatorze heures. »", "en": "'Subject: audition, music degree. Sir, following the review of your application, we are pleased to invite you to an audition on Wednesday 17 March at 2 p.m.'" },
+      { "sp": "Léa", "fr": "Une audition ! Tom, c'est formidable !", "en": "An audition! Tom, that's great!" },
+      { "sp": "Tom", "fr": "Attends, il y a une suite : « Merci de nous envoyer dès que possible l'enregistrement de deux morceaux, et de nous préciser vos disponibilités pour un entretien. Le cas échéant, contactez le service administratif. »", "en": "Wait, there's more: 'Please send us a recording of two pieces as soon as possible, and let us know when you're available for an interview. If necessary, contact the administrative office.'" },
+      { "sp": "Tom", "fr": "Et à la fin : « Veuillez agréer, Monsieur, l'expression de nos salutations distinguées. » Ils veulent que j'agrée quoi ?", "en": "And at the end: 'Please accept, Sir, the expression of our distinguished regards.' What do they want me to accept?" },
+      { "sp": "Léa", "fr": "Rien ! C'est une formule de politesse. En France, une lettre officielle finit toujours comme ça.", "en": "Nothing! It's a polite sign-off. In France, an official letter always ends like that." },
+      { "sp": "Hugo", "fr": "Réponds : « Salut ! OK pour le dix-sept. [À plus|a-plus] ! » C'est simple et efficace.", "en": "Reply: 'Hi! OK for the 17th. See you!' It's simple and efficient." },
+      { "sp": "Léa", "fr": "Surtout pas ! Tom, écris d'abord un brouillon. On va le lire ensemble.", "en": "Definitely not! Tom, write a draft first. We'll read it together." },
+      { "sp": "Tom", "fr": "« Madame, Monsieur, je vous remercie pour votre courriel. Je me permets de vous confirmer ma présence le dix-sept mars. »", "en": "'Dear Sir or Madam, Thank you for your email. I am writing to confirm my attendance on 17 March.'" },
+      { "sp": "Léa", "fr": "Très bien. Et les morceaux ?", "en": "Very good. And the pieces?" },
+      { "sp": "Tom", "fr": "« Vous trouverez ci-joint l'enregistrement de deux morceaux : une chanson d'Édith Piaf et une chanson à moi. »", "en": "'Please find attached a recording of two pieces: a song by Édith Piaf and a song of my own.'" },
+      { "sp": "Léa", "fr": "Parfait. Et à la fin : « Je reste à votre disposition et je vous remercie par avance. Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. »", "en": "Perfect. And at the end: 'Please don't hesitate to contact me, and thank you in advance. I look forward to your reply. Yours faithfully.'" },
+      { "sp": "Antoine", "fr": "Chez nous, au Québec, on écrit plus court. Et on dit « courriel », jamais « mail » !", "en": "Back home in Quebec, we write shorter. And we say 'courriel', never 'mail'!" },
+      { "sp": "Tom", "fr": "Les remerciements, la disponibilité, les salutations… Le français administratif, c'est une autre langue !", "en": "The thanks, the availability, the regards… Official French is another language!" },
+      { "sp": "Hugo", "fr": "Et mets-moi en copie. Je veux tout savoir.", "en": "And cc me. I want to know everything." },
+      { "sp": "Léa", "fr": "Non, Hugo. Ce n'est pas un mail pour les copains.", "en": "No, Hugo. It isn't an email for your mates." },
+      { "sp": "", "fr": "Tom vérifie l'adresse électronique de l'université dans l'en-tête du courriel, puis il clique sur « Envoyer ».", "en": "Tom checks the university's email address in the header of the email, then clicks 'Send'." },
+      { "sp": "", "fr": "Cinq minutes plus tard, une réponse arrive dans sa boîte de réception : « Accusé de réception : votre message a bien [été|etre] reçu. »", "en": "Five minutes later, a reply arrives in his inbox: 'Acknowledgement of receipt: your message has been received.'" },
+      { "sp": "Tom", "fr": "Ils sont rapides ! Et ils sont… distingués.", "en": "They're quick! And they're… distinguished." },
+      { "sp": "", "fr": "Le soir, Tom transfère le courriel à ses parents, en Angleterre. Sa mère répond, en français : « Bravo, mon chéri ! »", "en": "In the evening, Tom forwards the email to his parents in England. His mother replies, in French: 'Well done, darling!'" },
+      { "sp": "", "fr": "Hugo, lui, a déjà annoncé la nouvelle à tout le monde : à la boulangerie, à Marc, à Lina… Il ne sait toujours pas garder un secret.", "en": "Hugo has already told everyone the news: the bakery, Marc, Lina… He still can't keep a secret." }
+    ]
+  }
+}
