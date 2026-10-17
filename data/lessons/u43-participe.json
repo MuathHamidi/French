@@ -1,0 +1,107 @@
+{
+  "id": "u43-participe",
+  "type": "grammar",
+  "unit": 43,
+  "title": "Des danseurs souriants",
+  "en": "The present participle and the verbal adjective (fatiguant, fatigant)",
+  "intro": "A word in **-ant** can be two different things. The **present participle** is a verb: it never changes, and it often has an object or a complement: *les enfants, **souriant** à leurs parents, entrent sur scène*. The **verbal adjective** is an adjective: it agrees, and it describes a quality: *des enfants **souriants***. Some verbal adjectives are even spelled differently: *fatiguant / fatigant, convainquant / convaincant, précédant / précédent, excellant / excellent*. Finally, **ayant** or **étant** + a past participle says that one action came before another: *ayant répété tout le mois, les enfants étaient prêts*.",
+  "cases": [
+    {"id": "pv-participe", "label": "the present participle: a verb that never changes", "rule": "The present participle never agrees. It's a verb, so it can have an object, a complement, an adverb or *ne… pas*: *des enfants **souriant** à leurs parents*, *les parents, **ne sachant pas** où s'asseoir*. In written French it often replaces *qui* + a verb: *les élèves **ayant** moins de dix ans* (= qui ont moins de dix ans)."},
+    {"id": "pv-adjectif", "label": "the verbal adjective: it agrees", "rule": "The verbal adjective describes a quality, like any adjective, and agrees with its noun: *des enfants **souriants***, *une danse **émouvante***, *des histoires **passionnantes***. Test: if you can put *très* in front of it, it's an adjective."},
+    {"id": "pv-orthographe", "label": "fatiguant / fatigant, convainquant / convaincant", "rule": "After *-gu-* and *-qu-*, the verbal adjective often drops the *u*: *fatiguant* (participle) / *fatigant* (adjective), *convainquant / convaincant*, *provoquant / provocant*: *en fatiguant les parents*, but *une semaine fatigante*."},
+    {"id": "pv-ent", "label": "précédant / précédent, excellant / excellent", "rule": "Some verbal adjectives end in *-ent*: *précédant / précédent*, *différant / différent*, *excellant / excellent*, *négligeant / négligent*: *la répétition **précédant** le spectacle*, but *l'année **précédente***."},
+    {"id": "pv-compose", "label": "ayant / étant + past participle", "rule": "*Ayant* or *étant* + the past participle shows that an action happened before another: ***Ayant répété** tout le mois, les enfants étaient prêts* (having rehearsed). With the verbs that take *être*, use *étant*, and the participle agrees: ***Étant arrivée** en retard, Jade…*"}
+  ],
+  "sections": [
+    {"title": "1. The present participle: a verb", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Les enfants, [souriant|sourire] à leurs parents, entrent sur scène.", "The children, smiling at their parents, come on stage."],
+      ["Les parents, ne sachant pas où s'asseoir, restent debout.", "The parents, not knowing where to sit, stay standing."],
+      ["Les élèves ayant moins de dix ans dansent en premier.", "The pupils under ten dance first."]]},
+     "examples": [
+      {"fr": "{Les enfants, [souriant|sourire] à leurs parents|pv-participe}, entrent sur scène.", "en": "The children, smiling at their parents, come on stage."},
+      {"fr": "{Ne sachant pas où s'asseoir|pv-participe}, Hugo, Léa et Inès restent debout au fond.", "en": "Not knowing where to sit, Hugo, Léa and Inès stand at the back."}],
+     "tip": "Don't confuse it with the gérondif (Unit 30): en souriant, while smiling, always has en and refers to the subject of the sentence."},
+    {"title": "2. The verbal adjective: it agrees", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["des enfants souriants", "smiling children"],
+      ["une histoire passionnante", "a gripping story"],
+      ["des danses émouvantes", "moving dances"]]},
+     "examples": [
+      {"fr": "Ils sont {tellement souriants|pv-adjectif} !", "en": "They're so smiley!"},
+      {"fr": "C'était une journée {longue et émouvante|pv-adjectif}.", "en": "It was a long, moving day."}],
+     "tip": "Compare: des enfants souriants (smiling children: what they're like) and des enfants souriant à leurs parents (children smiling at their parents: what they're doing)."},
+    {"title": "3. fatiguant or fatigant?", "table": {"head": ["Participle", "English", "Adjective", "English"], "frCols": [0, 2], "rows": [
+      ["en fatiguant les parents", "tiring the parents out", "une semaine fatigante", "a tiring week"],
+      ["en convainquant le public", "convincing the audience", "un sourire convaincant", "a convincing smile"],
+      ["en provoquant des rires", "setting off laughter", "un regard provocant", "a provocative look"]]},
+     "examples": [
+      {"fr": "{Les répétitions, fatiguant tout le monde|pv-orthographe}, finissaient à neuf heures du soir.", "en": "The rehearsals, which wore everyone out, finished at nine in the evening."},
+      {"fr": "Cette semaine a été {très fatigante|pv-orthographe}.", "en": "This week has been very tiring."}],
+     "tip": "The participle keeps the spelling of the verb (fatiguer: fatiguant; convaincre: nous convainquons, convainquant); the adjective loses the u."},
+    {"title": "4. précédant or précédent?", "table": {"head": ["Participle", "English", "Adjective", "English"], "frCols": [0, 2], "rows": [
+      ["la répétition précédant le spectacle", "the rehearsal before the show", "l'année précédente", "the year before"],
+      ["des costumes différant par la couleur", "costumes differing in colour", "des costumes différents", "different costumes"],
+      ["une élève excellant en hip-hop", "a pupil who excels at hip-hop", "une excellente élève", "an excellent pupil"],
+      ["un spectateur négligeant les consignes", "a spectator ignoring the rules", "un spectateur négligent", "a careless spectator"]]},
+     "examples": [
+      {"fr": "Le spectacle est meilleur que celui de {l'année précédente|pv-ent}.", "en": "The show is better than the year before."},
+      {"fr": "{Hugo, négligeant les consignes|pv-ent}, filme avec le flash.", "en": "Hugo, ignoring the rules, films with the flash on."}],
+     "tip": "Only a few verbs do this; most verbal adjectives keep -ant: souriant, amusant, charmant, émouvant."},
+    {"title": "5. ayant / étant + past participle", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ayant répété tout le mois, les enfants étaient prêts.", "Having rehearsed all month, the children were ready."],
+      ["Ayant oublié sa caméra, Hugo a filmé avec son téléphone.", "Having forgotten his camera, Hugo filmed on his phone."],
+      ["Étant [arrivée|arriver] en retard, Jade a dansé au fond.", "Having arrived late, Jade danced at the back."]]},
+     "examples": [
+      {"fr": "{Ayant répété tout le mois|pv-compose}, les quinze enfants sont prêts.", "en": "Having rehearsed all month, the fifteen children are ready."},
+      {"fr": "{Étant arrivé en retard|pv-compose}, Tom entre doucement par le fond.", "en": "Having arrived late, Tom quietly comes in at the back."}],
+     "tip": "After étant, the participle agrees with the subject: étant arrivée (Jade), étant arrivés (les parents)."}
+  ],
+  "mistakes": [
+    {"wrong": "des enfants souriant", "right": "des enfants souriants", "why": "With no complement, it describes the children: it's an adjective, and it agrees."},
+    {"wrong": "Les enfants, souriants à leurs parents, entrent sur scène.", "right": "Les enfants, souriant à leurs parents, entrent sur scène.", "why": "With a complement (à leurs parents), it's a present participle: it never agrees."},
+    {"wrong": "une semaine fatiguante", "right": "une semaine fatigante", "why": "The adjective is spelled fatigant, without u."},
+    {"wrong": "l'année précédante", "right": "l'année précédente", "why": "The adjective is précédent, with -ent."},
+    {"wrong": "un sourire convainquant", "right": "un sourire convaincant", "why": "The adjective is convaincant, with c; convainquant is the participle."},
+    {"wrong": "Ayant arrivé en retard, il s'assoit au fond.", "right": "Étant arrivé en retard, il s'assoit au fond.", "why": "Arriver takes être, so the compound participle is étant arrivé."}
+  ],
+  "story": {
+    "title": "Le spectacle de fin d'année",
+    "en": "Saturday 19 June: the end-of-year show of Carla's children's dance class.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi dix-neuf juin, c'est le spectacle de fin d'année du cours de danse de Carla, au centre de danse de Madame Garnier.", "en": "On Saturday 19 June, it's the end-of-year show of Carla's dance class, at Madame Garnier's dance centre."},
+      {"sp": "", "fr": "{Ayant répété tout le mois|pv-compose}, les quinze enfants sont prêts. Mais Carla, elle, a le trac.", "en": "Having rehearsed all month, the fifteen children are ready. But Carla has stage fright."},
+      {"sp": "Carla", "fr": "Cette semaine a été {très fatigante|pv-orthographe}. {Les répétitions, fatiguant tout le monde|pv-orthographe}, finissaient à neuf heures du soir.", "en": "This week has been very tiring. The rehearsals, which wore everyone out, finished at nine in the evening."},
+      {"sp": "", "fr": "Dans la salle, les parents arrivent. {Ne sachant pas où s'asseoir|pv-participe}, Hugo, Léa et Inès restent debout au fond.", "en": "In the hall, the parents are arriving. Not knowing where to sit, Hugo, Léa and Inès stand at the back."},
+      {"sp": "", "fr": "La musique commence. {Les enfants, [souriant|sourire] à leurs parents|pv-participe}, entrent sur scène.", "en": "The music starts. The children, smiling at their parents, come on stage."},
+      {"sp": "Inès", "fr": "Ils sont {tellement souriants|pv-adjectif} !", "en": "They're so smiley!"},
+      {"sp": "", "fr": "La petite Jade, {excellant en hip-hop|pv-ent}, danse devant les autres. Mais au bout d'une minute, elle s'arrête : elle a oublié la suite.", "en": "Little Jade, who excels at hip-hop, dances at the front. But after a minute, she stops: she's forgotten what comes next."},
+      {"sp": "", "fr": "Carla monte sur scène, prend la main de Jade et danse avec elle. {En la [convainquant|convaincre] de continuer|pv-orthographe}, elle sauve le spectacle.", "en": "Carla goes up on stage, takes Jade's hand and dances with her. By persuading her to carry on, she saves the show."},
+      {"sp": "Hugo", "fr": "Quel sourire {convaincant|pv-orthographe} ! Carla, tu es un génie.", "en": "What a convincing smile! Carla, you're a genius."},
+      {"sp": "", "fr": "Pendant ce temps, {Hugo, négligeant les consignes|pv-ent}, filme avec le flash. Madame Garnier lui lance un regard noir.", "en": "Meanwhile, Hugo, ignoring the rules, is filming with the flash on. Madame Garnier gives him a black look."},
+      {"sp": "Madame Garnier", "fr": "Monsieur, pas de flash. Vous êtes un spectateur {très négligent|pv-ent}.", "en": "No flash, sir. You're a very careless spectator."},
+      {"sp": "", "fr": "Ensuite, les grands dansent le flamenco de Carla, avec des costumes {différant par la couleur|pv-ent} : rouges, noirs et blancs.", "en": "Next, the older ones dance Carla's flamenco, in costumes of different colours: red, black and white."},
+      {"sp": "Léa", "fr": "Les costumes sont {tous différents|pv-ent}, et ils sont magnifiques.", "en": "The costumes are all different, and they're magnificent."},
+      {"sp": "", "fr": "{Étant arrivé en retard|pv-compose}, Tom entre doucement par le fond… et fait tomber une chaise. Tout le monde se retourne.", "en": "Having arrived late, Tom quietly comes in at the back… and knocks over a chair. Everyone turns round."},
+      {"sp": "Tom", "fr": "Pardon ! Pardon !", "en": "Sorry! Sorry!"},
+      {"sp": "", "fr": "À la fin, les enfants saluent, et {les parents, applaudissant debout|pv-participe}, ne veulent plus partir.", "en": "At the end, the children take a bow, and the parents, giving a standing ovation, don't want to leave."},
+      {"sp": "Madame Garnier", "fr": "Ce spectacle est meilleur que celui de {l'année précédente|pv-ent}. Carla, vous êtes {une excellente professeure|pv-ent}.", "en": "This show is better than last year's. Carla, you're an excellent teacher."},
+      {"sp": "Carla", "fr": "Ce sont les enfants qui sont excellents.", "en": "It's the children who are excellent."},
+      {"sp": "", "fr": "Le soir, Carla s'endort sur le canapé à neuf heures. C'était une journée {longue et émouvante|pv-adjectif}.", "en": "In the evening, Carla falls asleep on the sofa at nine. It was a long, moving day."},
+      {"sp": "Hugo", "fr": "Elle est {vraiment épuisante|pv-adjectif}, cette danse… Et je n'ai même pas dansé !", "en": "It's really exhausting, this dancing… And I didn't even dance!"}
+    ]
+  },
+  "quiz": [
+    {"case": "pv-participe", "type": "mc", "q": "Les parents, ___ où s'asseoir, restent debout.", "en": "The parents, not knowing where to sit, stay standing.", "options": ["ne sachant pas", "ne sachants pas", "ne savant pas"], "answer": "ne sachant pas"},
+    {"case": "pv-participe", "type": "mc", "q": "Les enfants, ___ à leurs parents, entrent sur scène.", "en": "The children, smiling at their parents, come on stage.", "options": ["souriant", "souriants", "souriantes"], "answer": "souriant"},
+    {"case": "pv-adjectif", "type": "mc", "q": "Les petites danseuses sont très ___.", "en": "The little dancers are very smiley.", "options": ["souriantes", "souriant", "souriants"], "answer": "souriantes"},
+    {"case": "pv-adjectif", "type": "mc", "q": "C'est une histoire ___.", "en": "It's a gripping story.", "options": ["passionnante", "passionnant", "passionnants"], "answer": "passionnante"},
+    {"case": "pv-orthographe", "type": "mc", "q": "Cette semaine a été très ___.", "en": "This week has been very tiring.", "options": ["fatigante", "fatiguante", "fatiguant"], "answer": "fatigante"},
+    {"case": "pv-orthographe", "type": "mc", "q": "Elle sauve le spectacle en ___ Jade de continuer.", "en": "She saves the show by persuading Jade to carry on.", "options": ["convainquant", "convaincant", "convainquante"], "answer": "convainquant"},
+    {"case": "pv-orthographe", "type": "mc", "q": "Quel sourire ___ !", "en": "What a convincing smile!", "options": ["convaincant", "convainquant", "convaincante"], "answer": "convaincant"},
+    {"case": "pv-ent", "type": "mc", "q": "C'est meilleur que l'année ___.", "en": "It's better than the year before.", "options": ["précédente", "précédante", "précédant"], "answer": "précédente"},
+    {"case": "pv-ent", "type": "mc", "q": "Hugo, ___ les consignes, filme avec le flash.", "en": "Hugo, ignoring the rules, films with the flash on.", "options": ["négligeant", "négligent", "négligents"], "answer": "négligeant"},
+    {"case": "pv-ent", "type": "mc", "q": "Les costumes sont tous ___.", "en": "The costumes are all different.", "options": ["différents", "différants", "différant"], "answer": "différents"},
+    {"case": "pv-compose", "type": "mc", "q": "___ en retard, Tom entre par le fond.", "en": "Having arrived late, Tom comes in at the back.", "options": ["Étant arrivé", "Ayant arrivé", "Étant arrivant"], "answer": "Étant arrivé"},
+    {"case": "pv-compose", "type": "mc", "q": "___ tout le mois, les enfants sont prêts.", "en": "Having rehearsed all month, the children are ready.", "options": ["Ayant répété", "Étant répété", "Ayant répétant"], "answer": "Ayant répété"}
+  ]
+}

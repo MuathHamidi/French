@@ -1,0 +1,112 @@
+{
+  "id": "u43-tout",
+  "type": "grammar",
+  "unit": 43,
+  "title": "Tous, même Hugo",
+  "en": "tout, même, quelque",
+  "intro": "Three small words with several jobs. **Tout** is an adjective (*tous les jours, toute la classe*), a pronoun (*ils sont **tous** là*, with the s said) or an adverb meaning *completely* (*il est tout content*), which agrees only before a feminine adjective starting with a consonant (*elle est **toute** contente*, but *tout heureuse*). **Même** means *same* before a noun (*les mêmes fautes*), *-self* or *very* after a pronoun or a noun (*eux-mêmes, le jour même*), and *even* as an adverb (***même** Hugo*). **Quelque** means *a few* (*quelques conseils*) and *about* before a number (*quelque deux cents dictées*); **quel que soit** means *whatever* (*quelle que soit votre note*).",
+  "cases": [
+    {"id": "tq-tout-adj", "label": "tout, toute, tous, toutes + noun", "rule": "Before a determiner and a noun, *tout* agrees: *tout le monde, toute la classe, tous les jours, toutes les fautes*. *Tous les deux* = both."},
+    {"id": "tq-tout-pron", "label": "tous, toutes, tout: pronouns", "rule": "As a pronoun, *tous* is said with its s, /tus/: *Ils sont **tous** venus. Bonjour à **tous** !* *Toutes* is said /tut/. *Tout* alone means *everything*: *Tout est prêt. Il a **tout** compris.*"},
+    {"id": "tq-tout-adv", "label": "tout = completely (adverb)", "rule": "Before an adjective, *tout* means *completely, very*, and doesn't change: *ils sont tout contents, il est tout ému, elle est tout heureuse*. But before a feminine adjective starting with a consonant, it agrees, for the sound: *elle est **toute** contente, elles sont **toutes** rouges*."},
+    {"id": "tq-meme", "label": "même: same, -self, very, even", "rule": "Before the noun, *même* means *same* and agrees: *les **mêmes** fautes*. After a stressed pronoun, it means *-self*, with a hyphen: *moi-même, lui-même, eux-mêmes*. After a noun, *very*: *le jour **même***. As an adverb, *even*, it never changes: ***Même** les parents ont dansé.*"},
+    {"id": "tq-quelque", "label": "quelques, quelque, quel que soit", "rule": "*Quelques* = a few: *quelques conseils*. Before a number, *quelque* means *about* and doesn't change: *quelque deux cents dictées*. *Quel que soit* + noun (whatever) agrees with the noun: *quel que soit ton âge, quelle que soit ta note, quels que soient vos résultats*."}
+  ],
+  "sections": [
+    {"title": "1. tout + noun", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["tout le monde", "everyone"],
+      ["toute la classe", "the whole class"],
+      ["tous les jours", "every day"],
+      ["toutes les fautes", "all the mistakes"]]},
+     "examples": [
+      {"fr": "{Toute la classe|tq-tout-adj} est là pour le dernier [cours|cours].", "en": "The whole class is here for the last lesson."},
+      {"fr": "J'ai lu {toutes vos fautes|tq-tout-adj}, une par une.", "en": "I've read all your mistakes, one by one."}],
+     "tip": "The adjective tous is said without its s: tous les jours /tu le ʒuʁ/."},
+    {"title": "2. tous, tout: pronouns", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ils sont tous venus.", "They all came."],
+      ["Elles sont toutes là.", "They're all here."],
+      ["Tout est prêt.", "Everything is ready."],
+      ["Il a tout [compris|comprendre].", "He understood everything."]]},
+     "examples": [
+      {"fr": "Bonjour à {tous|tq-tout-pron} !", "en": "Hello, everyone!"},
+      {"fr": "C'est le dernier [cours|cours] : {tout est permis|tq-tout-pron} !", "en": "It's the last lesson: anything goes!"}],
+     "tip": "Say the s of the pronoun tous (ils sont tous là), but not of the adjective (tous les jours)."},
+    {"title": "3. tout = completely", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il est tout content.", "He's really pleased."],
+      ["Elle est tout heureuse.", "She's very happy."],
+      ["Elle est toute contente.", "She's really pleased."],
+      ["Elles sont toutes rouges.", "They've gone all red."]]},
+     "examples": [
+      {"fr": "Léa est {toute contente|tq-tout-adv} : dix-huit sur vingt !", "en": "Léa is really pleased: eighteen out of twenty!"},
+      {"fr": "Marc est {tout ému|tq-tout-adv}.", "en": "Marc is very moved."}],
+     "tip": "Before a vowel, the adverb doesn't change: elle est tout émue, tout heureuse."},
+    {"title": "4. même", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["les mêmes fautes", "the same mistakes"],
+      ["Tom a écrit cette chanson lui-même.", "Tom wrote this song himself."],
+      ["le jour même", "that very day"],
+      ["Même Hugo est à l'heure.", "Even Hugo is on time."]]},
+     "examples": [
+      {"fr": "Vous faites encore {les mêmes fautes|tq-meme} qu'en septembre.", "en": "You still make the same mistakes as in September."},
+      {"fr": "{Même Hugo|tq-meme} est venu, et à l'heure !", "en": "Even Hugo came, and on time!"}],
+     "tip": "Même meaning even never agrees: même les enfants. Meaning same, it does: les mêmes enfants."},
+    {"title": "5. quelque, quel que soit", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["quelques conseils", "a few pieces of advice"],
+      ["quelque deux cents dictées", "some two hundred dictations"],
+      ["quelle que soit ta note", "whatever your mark"],
+      ["quels que soient vos résultats", "whatever your results"]]},
+     "examples": [
+      {"fr": "Cette année, j'ai corrigé {quelque deux cents dictées|tq-quelque}.", "en": "This year, I've marked some two hundred dictations."},
+      {"fr": "{Quelle que soit votre note|tq-quelque}, vous parlez tous français.", "en": "Whatever your mark, you all speak French."}],
+     "tip": "Quelque before a number never takes an s: quelque cent personnes."}
+  ],
+  "mistakes": [
+    {"wrong": "Ils sont tout venus.", "right": "Ils sont tous venus.", "why": "Meaning all of them, it's the pronoun tous, with the s said."},
+    {"wrong": "Elle est tout contente.", "right": "Elle est toute contente.", "why": "Before a feminine adjective starting with a consonant, the adverb tout agrees."},
+    {"wrong": "Mêmes les enfants ont dansé.", "right": "Même les enfants ont dansé.", "why": "Même meaning even is an adverb: it doesn't agree."},
+    {"wrong": "J'ai fait les même fautes.", "right": "J'ai fait les mêmes fautes.", "why": "Même meaning same agrees with the noun."},
+    {"wrong": "quelques deux cents personnes", "right": "quelque deux cents personnes", "why": "Before a number, quelque means about and doesn't change."},
+    {"wrong": "Quelque soit ta note, tu as progressé.", "right": "Quelle que soit ta note, tu as progressé.", "why": "Quel que is two words here, and quel agrees with the noun (une note)."}
+  ],
+  "story": {
+    "title": "Le dernier cours",
+    "en": "Friday 25 June: Marc's last class of the year.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi vingt-cinq juin, c'est le dernier [cours|cours] de l'année. {Toute la classe|tq-tout-adj} est là, et {même Hugo|tq-meme}, qui n'est plus élève depuis longtemps.", "en": "Friday 25 June is the last lesson of the year. The whole class is here, and even Hugo, who stopped being a student long ago."},
+      {"sp": "Marc", "fr": "Bonjour à {tous|tq-tout-pron} ! Cette année, j'ai corrigé {quelque deux cents dictées|tq-quelque}… et j'ai lu {toutes vos fautes|tq-tout-adj}, une par une.", "en": "Hello, everyone! This year, I've marked some two hundred dictations… and I've read all your mistakes, one by one."},
+      {"sp": "Hugo", "fr": "{Toutes|tq-tout-pron} ? Même les miennes ?", "en": "All of them? Even mine?"},
+      {"sp": "Marc", "fr": "Surtout les tiennes, Hugo.", "en": "Especially yours, Hugo."},
+      {"sp": "Marc", "fr": "Vous avez {tous fait des progrès|tq-tout-pron}. Pourtant, vous faites encore {les mêmes fautes|tq-meme} qu'en septembre.", "en": "You've all made progress. And yet you still make the same mistakes as in September."},
+      {"sp": "", "fr": "Marc rend les copies. Léa a dix-huit sur vingt : elle est {toute contente|tq-tout-adv}.", "en": "Marc hands back the papers. Léa has eighteen out of twenty: she's really pleased."},
+      {"sp": "Léa", "fr": "En septembre, c'est moi qui serai étudiante… et un jour, professeure, comme vous.", "en": "In September, I'll be the student… and one day, a teacher, like you."},
+      {"sp": "Marc", "fr": "Alors, voici {quelques conseils|tq-quelque} : soyez patiente, aimez vos élèves, et corrigez {tout|tq-tout-pron}, sauf les sourires.", "en": "Then here's some advice: be patient, love your students, and correct everything, except their smiles."},
+      {"sp": "", "fr": "Tom a apporté sa guitare. Il joue une chanson qu'il a écrite {lui-même|tq-meme}, en français.", "en": "Tom has brought his guitar. He plays a song he wrote himself, in French."},
+      {"sp": "Marc", "fr": "{Quelle que soit votre note|tq-quelque} à l'examen, vous parlez {tous|tq-tout-pron} français maintenant. Ça, c'est la vraie note.", "en": "Whatever your mark in the exam, you all speak French now. That's the real mark."},
+      {"sp": "Inès", "fr": "Et vous, Marc, quel âge avez-vous ? C'est le dernier [cours|cours] : {tout est permis|tq-tout-pron} !", "en": "And you, Marc, how old are you? It's the last lesson: anything goes!"},
+      {"sp": "Marc", "fr": "{Quel que soit mon âge|tq-quelque}, je me sens aussi jeune que vous. Et ça restera un secret.", "en": "Whatever my age, I feel as young as you. And it'll stay a secret."},
+      {"sp": "", "fr": "Inès et Carla offrent à Marc un livre de grammaire, signé par {tous les élèves|tq-tout-adj}.", "en": "Inès and Carla give Marc a grammar book, signed by all the students."},
+      {"sp": "", "fr": "Marc est {tout ému|tq-tout-adv}. Il lit les messages, un par un.", "en": "Marc is very moved. He reads the messages, one by one."},
+      {"sp": "Marc", "fr": "Vous avez écrit tous ces mots {vous-mêmes|tq-meme} ? Sans fautes ?", "en": "You wrote all these words yourselves? With no mistakes?"},
+      {"sp": "Hugo", "fr": "Sauf le mien. Carla l'a corrigé.", "en": "Except mine. Carla corrected it."},
+      {"sp": "Marc", "fr": "{Le jour même|tq-meme} où vous êtes arrivés, j'ai su que ce serait une belle année.", "en": "The very day you arrived, I knew it would be a good year."},
+      {"sp": "", "fr": "À midi, {tout le monde|tq-tout-adj} descend au café d'en bas. {Même Madame Fournier|tq-meme} est venue, avec Enzo et des brioches.", "en": "At noon, everyone goes down to the café downstairs. Even Madame Fournier has come, with Enzo and some brioches."},
+      {"sp": "Enzo", "fr": "Ce sont {les mêmes brioches|tq-meme} qu'à mon examen. Le jury les a {toutes|tq-tout-pron} aimées.", "en": "They're the same brioches as at my exam. The panel liked every one of them."},
+      {"sp": "Marc", "fr": "Merci à {tous|tq-tout-pron}. Bonnes vacances… et lisez {quelques livres|tq-quelque} cet été !", "en": "Thank you, everyone. Have a good holiday… and read a few books this summer!"},
+      {"sp": "Hugo", "fr": "Moi, j'en lirai un : il me reste cinquante pages du Petit Prince.", "en": "I'll read one: I've got fifty pages of The Little Prince left."}
+    ]
+  },
+  "quiz": [
+    {"case": "tq-tout-adj", "type": "mc", "q": "___ la classe est là.", "en": "The whole class is here.", "options": ["Toute", "Tout", "Toutes"], "answer": "Toute"},
+    {"case": "tq-tout-adj", "type": "mc", "q": "J'ai corrigé ___ vos dictées.", "en": "I've marked all your dictations.", "options": ["toutes", "tous", "tout"], "answer": "toutes"},
+    {"case": "tq-tout-pron", "type": "mc", "q": "Vous avez ___ fait des progrès.", "en": "You've all made progress.", "options": ["tous", "tout", "toute"], "answer": "tous"},
+    {"case": "tq-tout-pron", "type": "mc", "lang": "en", "q": "« Il a tout compris » means…", "options": ["He understood everything.", "He understood a little.", "Everyone understood."], "answer": "He understood everything.", "say": "Il a tout compris."},
+    {"case": "tq-tout-adv", "type": "mc", "q": "Léa est ___ contente.", "en": "Léa is really pleased.", "options": ["toute", "tout", "toutes"], "answer": "toute"},
+    {"case": "tq-tout-adv", "type": "mc", "q": "Elle est ___ heureuse.", "en": "She's very happy.", "options": ["tout", "toute", "toutes"], "answer": "tout"},
+    {"case": "tq-meme", "type": "mc", "q": "Vous faites encore les ___ fautes.", "en": "You still make the same mistakes.", "options": ["mêmes", "même", "même que"], "answer": "mêmes"},
+    {"case": "tq-meme", "type": "mc", "q": "___ Hugo est à l'heure !", "en": "Even Hugo is on time!", "options": ["Même", "Mêmes", "Lui-même"], "answer": "Même"},
+    {"case": "tq-meme", "type": "mc", "q": "Tom a écrit cette chanson ___.", "en": "Tom wrote this song himself.", "options": ["lui-même", "le même", "même lui"], "answer": "lui-même"},
+    {"case": "tq-quelque", "type": "mc", "q": "J'ai corrigé ___ deux cents dictées.", "en": "I've marked some two hundred dictations.", "options": ["quelque", "quelques", "quel que"], "answer": "quelque"},
+    {"case": "tq-quelque", "type": "mc", "q": "___ votre note, vous parlez tous français.", "en": "Whatever your mark, you all speak French.", "options": ["Quelle que soit", "Quelque soit", "Quel que soit"], "answer": "Quelle que soit"},
+    {"case": "tq-quelque", "type": "mc", "q": "Voici ___ conseils.", "en": "Here's some advice.", "options": ["quelques", "quelque", "quels que"], "answer": "quelques"}
+  ]
+}

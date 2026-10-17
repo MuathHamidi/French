@@ -1,0 +1,143 @@
+{
+  "id": "u43-fete",
+  "type": "vocab",
+  "unit": 43,
+  "title": "Surprise !",
+  "en": "Parties",
+  "intro": "25 words for a party: getting ready (**l'invitation, l'invité, l'hôte, le / la complice, la surprise, le papier cadeau**), food and drinks (**le buffet, le punch, le champagne, le toast**), the music (**le / la DJ, la playlist, la sono, la boule à facettes, la piste de danse, le karaoké, les confettis**), the party itself (**la soirée, célébrer, s'amuser, joyeux, le fêtard**) and the end of the night (**le voisin, le tapage, la gueule de bois**).",
+  "words": [
+    {"id": "invitation", "fr": "invitation", "pos": "noun", "g": "f", "ipa": "ɛ̃.vi.ta.sjɔ̃", "en": "invitation", "def": "Le message par lequel on demande à quelqu'un de venir à une fête ou à un repas.", "def_en": "The message asking someone to come to a party or a meal.", "forms": ["invitations"], "examples": [
+      {"fr": "Camille envoie les **invitations** en secret.", "en": "Camille sends the invitations in secret."},
+      {"fr": "Merci pour l'**invitation** !", "en": "Thanks for the invitation!"},
+      {"fr": "Sur l'**invitation**, il est écrit : « Déguisement obligatoire ».", "en": "The invitation says: 'Fancy dress compulsory'."}]},
+    {"id": "invite-n", "fr": "invité", "pos": "noun", "g": "m", "ipa": "ɛ̃.vi.te", "display": "l'invité, l'invitée", "en": "guest", "def": "Une personne qu'on a fait venir chez soi, à un repas ou à une fête.", "def_en": "A person you've asked to your home, to a meal or to a party.", "note": "*L'invité d'honneur* = the guest of honour.", "forms": ["invités", "invitée", "invitées"], "examples": [
+      {"fr": "Les **invités** arrivent à huit heures.", "en": "The guests arrive at eight o'clock."},
+      {"fr": "Ce soir, Tom est l'**invité** d'honneur.", "en": "Tonight, Tom is the guest of honour."},
+      {"fr": "Chaque **invitée** apporte un plat.", "en": "Each guest brings a dish."}]},
+    {"id": "hote", "fr": "hôte", "pos": "noun", "g": "m", "ipa": "ot", "display": "l'hôte, l'hôtesse", "en": "host, hostess", "def": "La personne qui reçoit des invités chez elle.", "def_en": "The person who has guests in their home.", "note": "*Une hôtesse de l'air* = a flight attendant. *Un hôte* can also be a guest.", "forms": ["hôtes", "hôtesse", "hôtesses"], "examples": [
+      {"fr": "Léa et Sophie sont les **hôtes** de la soirée.", "en": "Léa and Sophie are the hosts of the party."},
+      {"fr": "Merci à nos **hôtes** pour ce bon repas.", "en": "Thank you to our hosts for this lovely meal."},
+      {"fr": "Une bonne **hôtesse** pense à tout.", "en": "A good hostess thinks of everything."}]},
+    {"id": "complice", "fr": "complice", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ̃.plis", "display": "le / la complice", "en": "accomplice, partner in crime; (adj) knowing, close", "def": "Une personne qui aide quelqu'un à faire quelque chose en secret.", "def_en": "A person who helps someone do something in secret.", "note": "*Un regard complice* = a knowing look.", "forms": ["complices"], "accept": ["la complice", "une complice"], "examples": [
+      {"fr": "Camille a besoin de **complices** pour la surprise.", "en": "Camille needs accomplices for the surprise."},
+      {"fr": "Hugo est un mauvais **complice** : il ne sait pas garder un secret.", "en": "Hugo makes a bad accomplice: he can't keep a secret."},
+      {"fr": "Les deux sœurs échangent un regard **complice**.", "en": "The two sisters exchange a knowing look."}]},
+    {"id": "surprise", "fr": "surprise", "pos": "noun", "g": "f", "ipa": "syʁ.pʁiz", "en": "surprise", "def": "Une chose qu'on n'attendait pas ; une fête ou un cadeau préparé en secret.", "def_en": "Something you weren't expecting; a party or a present prepared in secret.", "note": "*Une fête surprise* = a surprise party.", "forms": ["surprises"], "examples": [
+      {"fr": "**Surprise** ! Joyeux anniversaire !", "en": "Surprise! Happy birthday!"},
+      {"fr": "C'est une fête **surprise** : chut !", "en": "It's a surprise party: shh!"},
+      {"fr": "Quelle bonne **surprise** !", "en": "What a nice surprise!"}]},
+    {"id": "voisin", "fr": "voisin", "pos": "noun", "g": "m", "ipa": "vwa.zɛ̃", "display": "le voisin, la voisine", "en": "neighbour", "def": "Une personne qui habite tout près de chez vous.", "def_en": "A person who lives very close to you.", "note": "*Mes voisins de palier* = the neighbours across the landing.", "forms": ["voisins", "voisine", "voisines"], "examples": [
+      {"fr": "À minuit, une **voisine** frappe à la porte.", "en": "At midnight, a neighbour knocks at the door."},
+      {"fr": "Tom et Hugo sont **voisins** de palier.", "en": "Tom and Hugo live across the landing from each other."},
+      {"fr": "Mon **voisin** arrose mes plantes quand je pars.", "en": "My neighbour waters my plants when I go away."}]},
+    {"id": "papier-cadeau", "fr": "papier cadeau", "pos": "noun", "g": "m", "ipa": "pa.pje ka.do", "en": "wrapping paper, gift wrap", "def": "Le joli papier qu'on met autour d'un cadeau.", "def_en": "The pretty paper you put around a present.", "forms": ["papiers cadeaux"], "examples": [
+      {"fr": "Il n'y a plus de **papier cadeau** !", "en": "There's no wrapping paper left!"},
+      {"fr": "Lou enlève le **papier cadeau** en deux secondes.", "en": "Lou takes off the wrapping paper in two seconds."},
+      {"fr": "En juin, Hugo emballe son cadeau dans du **papier cadeau** de Noël.", "en": "In June, Hugo wraps his present in Christmas paper."}]},
+    {"id": "buffet", "fr": "buffet", "pos": "noun", "g": "m", "ipa": "by.fɛ", "en": "buffet (food); sideboard", "def": "Une grande table pleine de plats, où chacun se sert.", "def_en": "A big table full of dishes, where everyone helps themselves.", "forms": ["buffets"], "examples": [
+      {"fr": "Le **buffet** est dans la cuisine.", "en": "The buffet is in the kitchen."},
+      {"fr": "Hugo ne [quitte|quitter] pas le **buffet** de la soirée.", "en": "Hugo doesn't leave the buffet all evening."},
+      {"fr": "Karim a préparé tout le **buffet**.", "en": "Karim has made the whole buffet."}]},
+    {"id": "punch", "fr": "punch", "pos": "noun", "g": "m", "ipa": "pɔ̃ʃ", "en": "punch (a drink)", "def": "Une boisson faite de jus de fruits, souvent avec de l'alcool.", "def_en": "A drink made from fruit juice, often with alcohol.", "note": "Said /pɔ̃ʃ/, like *ponche*.", "forms": ["punchs"], "examples": [
+      {"fr": "Carla a fait un **punch** sans alcool.", "en": "Carla has made an alcohol-free punch."},
+      {"fr": "Ne bois pas trop de **punch** !", "en": "Don't drink too much punch!"},
+      {"fr": "Il ne reste plus de **punch**.", "en": "There's no punch left."}]},
+    {"id": "champagne", "fr": "champagne", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.paɲ", "en": "champagne", "def": "Un vin blanc avec des bulles, qu'on boit pour fêter quelque chose.", "def_en": "A sparkling white wine, drunk to celebrate something.", "note": "*La Champagne* is the region where it's made.", "forms": ["champagnes"], "examples": [
+      {"fr": "On ouvre le **champagne** pour Tom !", "en": "Let's open the champagne for Tom!"},
+      {"fr": "Le bouchon de **champagne** a touché le plafond.", "en": "The champagne cork hit the ceiling."},
+      {"fr": "Une coupe de **champagne**, madame ?", "en": "A glass of champagne, madam?"}]},
+    {"id": "toast", "fr": "toast", "pos": "noun", "g": "m", "ipa": "tost", "en": "toast (a speech when drinking); toast (bread)", "def": "Quelques mots dits en levant son verre, en l'honneur de quelqu'un ; une tranche de pain chaude et dorée.", "def_en": "A few words said raising your glass, in someone's honour; a slice of toasted bread.", "note": "*Porter un toast à quelqu'un* = to drink a toast to someone.", "forms": ["toasts"], "examples": [
+      {"fr": "Camille porte un **toast** à Tom.", "en": "Camille drinks a toast to Tom."},
+      {"fr": "Un **toast** ! Un discours !", "en": "A toast! A speech!"},
+      {"fr": "Le matin, je mange des **toasts** avec de la confiture.", "en": "In the morning, I have toast with jam."}]},
+    {"id": "dj", "fr": "DJ", "pos": "noun", "g": "m", "both": true, "ipa": "di.dʒi", "display": "le / la DJ", "en": "DJ", "def": "La personne qui choisit et passe la musique pendant une fête.", "def_en": "The person who chooses and plays the music at a party.", "forms": ["DJs"], "accept": ["la DJ", "une DJ"], "examples": [
+      {"fr": "Ce soir, le **DJ**, c'est Hugo.", "en": "Tonight, the DJ is Hugo."},
+      {"fr": "Le **DJ** passe une chanson de Piaf.", "en": "The DJ plays a Piaf song."},
+      {"fr": "Elle travaille comme **DJ** le week-end.", "en": "She works as a DJ at weekends."}]},
+    {"id": "playlist", "fr": "playlist", "pos": "noun", "g": "f", "ipa": "plɛ.list", "en": "playlist", "def": "Une liste de chansons qu'on écoute l'une après l'autre.", "def_en": "A list of songs played one after another.", "forms": ["playlists"], "examples": [
+      {"fr": "Hugo a fait une **playlist** de cent chansons.", "en": "Hugo has made a playlist of a hundred songs."},
+      {"fr": "Ta **playlist** est nulle !", "en": "Your playlist is rubbish!"},
+      {"fr": "Mets ma **playlist** de danse !", "en": "Put my dance playlist on!"}]},
+    {"id": "sono", "fr": "sono", "pos": "noun", "g": "f", "ipa": "sɔ.no", "en": "sound system, PA", "def": "Les appareils qui jouent la musique très fort, pendant une fête ou un concert.", "def_en": "The equipment that plays music very loud, at a party or a concert.", "note": "Short for *la sonorisation*.", "forms": ["sonos"], "examples": [
+      {"fr": "Tom a apporté sa **sono**.", "en": "Tom has brought his sound system."},
+      {"fr": "La **sono** est trop forte !", "en": "The sound system is too loud!"},
+      {"fr": "Le café d'en bas nous prête sa **sono**.", "en": "The café downstairs is lending us its sound system."}]},
+    {"id": "boule-a-facettes", "fr": "boule à facettes", "pos": "noun", "g": "f", "ipa": "bul a fa.sɛt", "en": "disco ball, mirror ball", "def": "Une grosse boule couverte de petits miroirs, qui tourne au plafond pendant les fêtes.", "def_en": "A big ball covered in little mirrors, which turns on the ceiling at parties.", "forms": ["boules à facettes"], "examples": [
+      {"fr": "Sophie accroche la **boule à facettes** au plafond.", "en": "Sophie hangs the disco ball from the ceiling."},
+      {"fr": "La **boule à facettes** se met à tourner.", "en": "The disco ball starts turning."},
+      {"fr": "Sous la **boule à facettes**, tout le monde [danse|danser].", "en": "Under the disco ball, everyone dances."}]},
+    {"id": "piste-de-danse", "fr": "piste de danse", "pos": "noun", "g": "f", "ipa": "pist də dɑ̃s", "en": "dance floor", "def": "L'endroit où l'on danse, dans une fête ou dans une discothèque.", "def_en": "The place where people dance, at a party or in a club.", "forms": ["pistes de danse"], "examples": [
+      {"fr": "Carla est la première sur la **piste de danse**.", "en": "Carla is the first on the dance floor."},
+      {"fr": "On pousse le canapé : voilà une **piste de danse** !", "en": "Let's push the sofa back: there's a dance floor!"},
+      {"fr": "La **piste de danse** est pleine.", "en": "The dance floor is packed."}]},
+    {"id": "karaoke", "fr": "karaoké", "pos": "noun", "g": "m", "ipa": "ka.ʁa.ɔ.ke", "en": "karaoke", "def": "Un jeu où l'on chante sur une musique, en lisant les paroles sur un écran.", "def_en": "A game where you sing along to music, reading the words on a screen.", "forms": ["karaokés"], "examples": [
+      {"fr": "Hugo chante faux au **karaoké**.", "en": "Hugo sings out of tune at the karaoke."},
+      {"fr": "On fait un **karaoké** ?", "en": "Shall we do some karaoke?"},
+      {"fr": "Au **karaoké**, Tom choisit toujours Piaf.", "en": "At karaoke, Tom always picks Piaf."}]},
+    {"id": "confettis", "fr": "confettis", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "kɔ̃.fe.ti", "en": "confetti", "def": "Les petits morceaux de papier de couleur qu'on lance pendant une fête.", "def_en": "The little coloured pieces of paper thrown at a party.", "forms": ["confetti"], "examples": [
+      {"fr": "Il y a des **confettis** partout !", "en": "There's confetti everywhere!"},
+      {"fr": "Lou lance des **confettis** sur le gâteau.", "en": "Lou throws confetti on the cake."},
+      {"fr": "On trouvera des **confettis** jusqu'à Noël.", "en": "We'll be finding confetti until Christmas."}]},
+    {"id": "soiree", "fr": "soirée", "pos": "noun", "g": "f", "ipa": "swa.ʁe", "en": "evening; (evening) party", "def": "La fin de la journée, avant la nuit ; une fête le soir.", "def_en": "The end of the day, before night; an evening party.", "note": "*Bonne soirée !* = Have a nice evening!", "forms": ["soirées"], "examples": [
+      {"fr": "Merci pour cette **soirée** !", "en": "Thank you for this evening!"},
+      {"fr": "La **soirée** commence à huit heures.", "en": "The party starts at eight o'clock."},
+      {"fr": "On passe la **soirée** chez Léa.", "en": "We're spending the evening at Léa's."}]},
+    {"id": "celebrer", "fr": "célébrer", "pos": "verb", "ipa": "se.le.bʁe", "en": "to celebrate, to mark (an event)", "def": "Fêter un moment important.", "def_en": "To mark an important moment with a celebration.", "note": "*Il célèbre* is spelled like the adjective *célèbre* (famous).", "forms": ["célébrons", "célébrez", "célèbrent", "célébré", "célébrée", "célébrés", "célébrées", "célébrais", "célébrait", "célébrions", "célébriez", "célébraient", "célébrerai", "célébreras", "célébrera", "célébrerons", "célébrerez", "célébreront", "célébrerais", "célébrerait", "célébrerions", "célébreriez", "célébreraient", "célébrant", "célébrai", "célébras", "célébra", "célébrâmes", "célébrâtes", "célébrèrent"], "examples": [
+      {"fr": "Ce soir, nous **célébrons** deux choses.", "en": "Tonight, we're celebrating two things."},
+      {"fr": "Jules et Manon ont **célébré** leur mariage à la ferme.", "en": "Jules and Manon celebrated their wedding at the farm."},
+      {"fr": "Il faut **célébrer** ça !", "en": "We have to celebrate that!"}]},
+    {"id": "s-amuser", "fr": "s'amuser", "pos": "verb", "ipa": "sa.my.ze", "en": "to have fun, to enjoy oneself", "def": "Passer un bon moment, rire, jouer.", "def_en": "To have a good time, to laugh, to play.", "note": "*Amuse-toi bien !* = Have fun! *Amuser quelqu'un* = to make someone laugh.", "forms": ["m'amuse", "t'amuses", "s'amuse", "nous nous amusons", "vous vous amusez", "s'amusent", "m'amuser", "t'amuser", "nous amuser", "vous amuser", "amuser", "m'amuserai", "t'amuseras", "s'amusera", "nous nous amuserons", "vous vous amuserez", "s'amuseront", "m'amuserais", "t'amuserais", "s'amuserait", "nous nous amuserions", "vous vous amuseriez", "s'amuseraient", "amuse", "amuses", "amusons", "amusez", "amusent", "amusé", "amusée", "amusés", "amusées", "amusais", "amusait", "amusions", "amusiez", "amusaient", "amuserai", "amuseras", "amusera", "amuserons", "amuserez", "amuseront", "amuserais", "amuserait", "amuserions", "amuseriez", "amuseraient", "amusant", "amusai", "amusas", "amusa", "amusâmes", "amusâtes", "amusèrent"], "examples": [
+      {"fr": "**Amusez**-vous bien !", "en": "Have fun!"},
+      {"fr": "Hugo chante faux, mais il s'**amuse** comme un fou.", "en": "Hugo sings out of tune, but he's having a whale of a time."},
+      {"fr": "Les enfants s'**amusent** dans le jardin.", "en": "The children are having fun in the garden."}]},
+    {"id": "joyeux", "fr": "joyeux", "pos": "adj", "ipa": "ʒwa.jø", "display": "joyeux, joyeuse", "en": "happy, cheerful, merry", "def": "Plein de joie ; qui rend heureux.", "def_en": "Full of joy; that makes people happy.", "note": "*Joyeux anniversaire !* = Happy birthday! *Joyeux Noël !* = Merry Christmas!", "forms": ["joyeuse", "joyeuses"], "examples": [
+      {"fr": "**Joyeux** anniversaire, Tom !", "en": "Happy birthday, Tom!"},
+      {"fr": "C'est une fête très **joyeuse**.", "en": "It's a very cheerful party."},
+      {"fr": "Lou est toujours **joyeuse** le matin.", "en": "Lou is always cheerful in the morning."}]},
+    {"id": "fetard", "fr": "fêtard", "pos": "noun", "g": "m", "ipa": "fɛ.taʁ", "display": "le fêtard, la fêtarde", "en": "party animal, reveller", "def": "Une personne qui aime faire la fête, souvent jusqu'au matin.", "def_en": "Someone who loves partying, often until morning.", "forms": ["fêtards", "fêtarde", "fêtardes"], "examples": [
+      {"fr": "Hugo est un vrai **fêtard**.", "en": "Hugo is a real party animal."},
+      {"fr": "Des **fêtards** chantent dans la rue à trois heures du matin.", "en": "Revellers are singing in the street at three in the morning."},
+      {"fr": "Tom n'est pas un **fêtard** : il aime se coucher tôt.", "en": "Tom isn't a party animal: he likes to go to bed early."}]},
+    {"id": "tapage", "fr": "tapage", "pos": "noun", "g": "m", "ipa": "ta.paʒ", "en": "racket, din, uproar", "def": "Un grand bruit, surtout la nuit, qui dérange les voisins.", "def_en": "A loud noise, especially at night, that disturbs the neighbours.", "note": "*Le tapage nocturne* = disturbing the peace at night, which is against the law.", "forms": ["tapages"], "examples": [
+      {"fr": "C'est du **tapage** nocturne : il est minuit !", "en": "This is disturbing the peace: it's midnight!"},
+      {"fr": "Quel **tapage** dans la cour !", "en": "What a racket in the courtyard!"},
+      {"fr": "Les voisins se plaignent du **tapage**.", "en": "The neighbours complain about the racket."}]},
+    {"id": "gueule-de-bois", "fr": "gueule de bois", "pos": "noun", "g": "f", "ipa": "ɡœl də bwa", "en": "hangover", "def": "Le mal de tête et la fatigue du lendemain, quand on a trop bu.", "def_en": "The headache and tiredness the next day, when you've drunk too much.", "note": "Familiar. *Avoir la gueule de bois* = to have a hangover. *La gueule* alone is an animal's mouth, and a rude word for a person's mouth or face.", "forms": ["gueules de bois"], "examples": [
+      {"fr": "Le lendemain, Hugo a la **gueule de bois**.", "en": "The next day, Hugo has a hangover."},
+      {"fr": "Pas de champagne pour moi : je ne veux pas de **gueule de bois**.", "en": "No champagne for me: I don't want a hangover."},
+      {"fr": "Une **gueule de bois**, ça se soigne avec de l'eau et du sommeil.", "en": "You cure a hangover with water and sleep."}]}
+  ],
+  "story": {
+    "title": "Surprise !",
+    "en": "Saturday 5 June: Camille throws Tom a surprise party for his twenty-second birthday.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi cinq juin, Tom a vingt-deux ans depuis mardi, et il vient d'être pris à l'université. Camille organise une fête surprise chez Léa et Sophie.", "en": "Saturday 5 June: Tom turned twenty-two on Tuesday, and he has just got into the university. Camille is throwing a surprise party at Léa and Sophie's."},
+      {"sp": "", "fr": "Depuis une semaine, ses complices préparent tout en secret. Sur l'invitation, il est écrit : « Soirée surprise pour Tom. Déguisez-vous en chanteur célèbre ! »", "en": "For a week, her accomplices have been preparing everything in secret. The invitation says: 'Surprise party for Tom. Dress up as a famous singer!'"},
+      {"sp": "", "fr": "À huit heures, les invités arrivent. Hugo s'est déguisé en Édith Piaf, avec une petite robe noire. Carla est en chanteuse de flamenco.", "en": "At eight o'clock, the guests arrive. Hugo has dressed up as Édith Piaf, in a little black dress. Carla is a flamenco singer."},
+      {"sp": "Camille", "fr": "Chut ! Il arrive ! Éteignez les lumières !", "en": "Shh! He's coming! Turn off the lights!"},
+      {"sp": "", "fr": "Tom entre dans le salon tout noir. Il a peur du noir : il pousse un cri.", "en": "Tom walks into the pitch-dark living room. He's afraid of the dark: he lets out a scream."},
+      {"sp": "Tout le monde", "fr": "Surprise ! Joyeux anniversaire !", "en": "Surprise! Happy birthday!"},
+      {"sp": "", "fr": "La lumière revient, et des confettis tombent sur Tom. La boule à facettes se met à tourner.", "en": "The lights come back on, and confetti falls on Tom. The disco ball starts turning."},
+      {"sp": "Tom", "fr": "Vous m'avez fait peur ! Merci… Et c'est qui, cette Édith Piaf avec des lunettes ?", "en": "You scared me! Thank you… And who's this Édith Piaf with glasses?"},
+      {"sp": "Hugo", "fr": "Ce soir, je suis Édith Piaf. Les lunettes, c'est pour lire les paroles.", "en": "Tonight, I'm Édith. The glasses are for reading the lyrics."},
+      {"sp": "", "fr": "Léa et Sophie sont les hôtes de la soirée. Sur le buffet, Karim a mis des petits plats, et Carla a fait un punch sans alcool.", "en": "Léa and Sophie are the hosts of the party. On the buffet, Karim has put out little dishes, and Carla has made an alcohol-free punch."},
+      {"sp": "", "fr": "Hugo est le DJ. Il a préparé une playlist de cent chansons… toutes d'Édith Piaf.", "en": "Hugo is the DJ. He has made a playlist of a hundred songs… all by Édith Piaf."},
+      {"sp": "Tom", "fr": "Cent chansons de Piaf ? Hugo, tu es un génie !", "en": "A hundred Piaf songs? Hugo, you're a genius!"},
+      {"sp": "", "fr": "Le café d'en bas leur a prêté sa sono, et Carla est la première sur la piste de danse.", "en": "The café downstairs has lent them its sound system, and Carla is the first on the dance floor."},
+      {"sp": "", "fr": "À dix heures, Camille ouvre le champagne et porte un toast.", "en": "At ten o'clock, Camille opens the champagne and raises a toast."},
+      {"sp": "Camille", "fr": "À Tom, qui a vingt-deux ans, qui entre à l'université, et qui a toujours peur du noir !", "en": "To Tom, who is twenty-two, who is starting university, and who is still afraid of the dark!"},
+      {"sp": "Tout le monde", "fr": "À Tom !", "en": "To Tom!"},
+      {"sp": "", "fr": "Tom ouvre ses cadeaux. Dans le papier cadeau de Hugo, il y a… un vieux disque de Piaf.", "en": "Tom opens his presents. In Hugo's wrapping paper, there's… an old Piaf record."},
+      {"sp": "Tom", "fr": "Merci, Hugo ! Il est rare ?", "en": "Thanks, Hugo! Is it rare?"},
+      {"sp": "Hugo", "fr": "Unique ! Enfin, comme les trois autres du vide-grenier.", "en": "One of a kind! Well, like the other three from the flea market."},
+      {"sp": "", "fr": "Ensuite, c'est le karaoké. Hugo chante faux, mais il s'amuse comme un fou.", "en": "Then it's karaoke time. Hugo sings out of tune, but he's having a whale of a time."},
+      {"sp": "", "fr": "À minuit, on frappe à la porte. C'est une voisine, en robe de chambre.", "en": "At midnight, there's a knock at the door. It's a neighbour, in her dressing gown."},
+      {"sp": "La voisine", "fr": "C'est du tapage nocturne ! Il est minuit !", "en": "This is disturbing the peace! It's midnight!"},
+      {"sp": "", "fr": "Tom, un peu gêné, lui propose une part de gâteau. Cinq minutes plus tard, la voisine danse sous la boule à facettes.", "en": "Tom, a little embarrassed, offers her a slice of cake. Five minutes later, the neighbour is dancing under the disco ball."},
+      {"sp": "Sophie", "fr": "Décidément, Tom, tu as un don pour convaincre les gens.", "en": "Honestly, Tom, you have a gift for winning people over."},
+      {"sp": "", "fr": "La fête continue jusqu'à trois heures du matin. Les vrais fêtards, ce sont Hugo et la voisine.", "en": "The party goes on until three in the morning. The real party animals are Hugo and the neighbour."},
+      {"sp": "", "fr": "Le lendemain, tout le monde a la gueule de bois, sauf Carla, qui n'a bu que de l'eau… et Tom, qui veut célébrer ça tous les ans.", "en": "The next day, everyone has a hangover, except Carla, who only drank water… and Tom, who wants to celebrate like this every year."}
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "u43-adverbes",
+  "type": "vocab",
+  "unit": 43,
+  "title": "Décidément !",
+  "en": "Common adverbs",
+  "intro": "25 adverbs that French uses all the time: places (**là-bas, là-haut, au-dessus, au-dessous, au-delà, ailleurs, autour, partout**), time and frequency (**immédiatement, quelquefois, jusque-là, lors de**), how much and how (**guère, pratiquement, suffisamment, uniquement, clairement, directement, brusquement**), and comments on what's said (**normalement, naturellement, visiblement, décidément, également, voire**).",
+  "words": [
+    {"id": "la-bas", "fr": "là-bas", "pos": "adv", "ipa": "la.ba", "en": "over there, there", "def": "Dans cet endroit, assez loin d'ici.", "def_en": "In that place, quite far from here.", "examples": [
+      {"fr": "Le bureau douze ? C'est **là-bas**, au fond du couloir.", "en": "Office twelve? It's over there, at the end of the corridor."},
+      {"fr": "Tu vois le phare, **là-bas** ?", "en": "Can you see the lighthouse over there?"},
+      {"fr": "Carla part à Madrid : **là-bas**, il fait déjà trente degrés.", "en": "Carla is off to Madrid: it's already thirty degrees there."}]},
+    {"id": "la-haut", "fr": "là-haut", "pos": "adv", "ipa": "la.o", "en": "up there", "def": "Dans cet endroit, plus haut que nous.", "def_en": "In that place, higher up than us.", "examples": [
+      {"fr": "Le bureau des inscriptions est **là-haut**, au troisième étage.", "en": "The registration office is up there, on the third floor."},
+      {"fr": "Regarde **là-haut** : un avion !", "en": "Look up there: a plane!"},
+      {"fr": "Il fait froid, **là-haut**, dans la montagne.", "en": "It's cold up there in the mountains."}]},
+    {"id": "au-dessus", "fr": "au-dessus", "pos": "adv", "ipa": "o.də.sy", "en": "above, over (au-dessus de = above)", "def": "Plus haut que quelque chose.", "def_en": "Higher than something.", "note": "With a noun: *au-dessus de la cafétéria, au-dessus du lit*.", "examples": [
+      {"fr": "Le bureau est **au-dessus** de la cafétéria.", "en": "The office is above the cafeteria."},
+      {"fr": "Un avion passe **au-dessus** de la ville.", "en": "A plane flies over the city."},
+      {"fr": "Tom habite **au-dessus** de la boulangerie.", "en": "Tom lives above the bakery."}]},
+    {"id": "au-dessous", "fr": "au-dessous", "pos": "adv", "ipa": "o.də.su", "en": "below, underneath (au-dessous de = below)", "def": "Plus bas que quelque chose.", "def_en": "Lower than something.", "examples": [
+      {"fr": "Les licences, c'est **au-dessous**, au deuxième étage.", "en": "Bachelor's degrees are downstairs, on the second floor."},
+      {"fr": "Il fait cinq degrés **au-dessous** de zéro.", "en": "It's five degrees below zero."},
+      {"fr": "La cafétéria est juste **au-dessous**.", "en": "The cafeteria is just below."}]},
+    {"id": "au-dela", "fr": "au-delà", "pos": "adv", "ipa": "o.də.la", "en": "beyond, further (au-delà de = beyond)", "def": "Plus loin que quelque chose ; plus que.", "def_en": "Further than something; more than.", "examples": [
+      {"fr": "**Au-delà** de la rivière, c'est la campagne.", "en": "Beyond the river, it's countryside."},
+      {"fr": "Le résultat va **au-delà** de nos espoirs.", "en": "The result goes beyond our hopes."},
+      {"fr": "Pas **au-delà** de minuit, d'accord ?", "en": "Not later than midnight, all right?"}]},
+    {"id": "ailleurs", "fr": "ailleurs", "pos": "adv", "ipa": "a.jœʁ", "en": "elsewhere, somewhere else", "def": "Dans un autre endroit.", "def_en": "In another place.", "note": "*D'ailleurs* = besides, by the way. *Avoir la tête ailleurs* = to be miles away.", "examples": [
+      {"fr": "Les inscriptions, ce n'est pas ici : c'est **ailleurs**.", "en": "Registration isn't here: it's somewhere else."},
+      {"fr": "Il a la tête **ailleurs**.", "en": "He's miles away."},
+      {"fr": "C'est plein : allons manger **ailleurs**.", "en": "It's full: let's eat somewhere else."}]},
+    {"id": "autour", "fr": "autour", "pos": "adv", "ipa": "o.tuʁ", "en": "around (autour de = around)", "def": "Tout près, de tous les côtés de quelque chose.", "def_en": "Close by, on all sides of something.", "examples": [
+      {"fr": "**Autour** de la table, tout le monde chante.", "en": "Around the table, everyone is singing."},
+      {"fr": "Il y a des étudiants partout, tout **autour**.", "en": "There are students everywhere, all around."},
+      {"fr": "Regarde **autour** de toi !", "en": "Look around you!"}]},
+    {"id": "partout", "fr": "partout", "pos": "adv", "ipa": "paʁ.tu", "en": "everywhere", "def": "Dans tous les endroits.", "def_en": "In every place.", "examples": [
+      {"fr": "Il y a des papiers **partout** !", "en": "There are papers everywhere!"},
+      {"fr": "J'ai cherché mes clés **partout**.", "en": "I've looked everywhere for my keys."},
+      {"fr": "Après la fête, il y a des confettis **partout**.", "en": "After the party, there's confetti everywhere."}]},
+    {"id": "immediatement", "fr": "immédiatement", "pos": "adv", "ipa": "i.me.djat.mɑ̃", "en": "immediately, right away", "def": "Tout de suite, sans attendre.", "def_en": "Straight away, without waiting.", "examples": [
+      {"fr": "Les inscriptions sont validées **immédiatement**.", "en": "The registrations are confirmed immediately."},
+      {"fr": "Venez **immédiatement** !", "en": "Come at once!"},
+      {"fr": "Il a répondu **immédiatement**.", "en": "He replied immediately."}]},
+    {"id": "quelquefois", "fr": "quelquefois", "pos": "adv", "ipa": "kɛl.kə.fwa", "en": "sometimes, occasionally", "def": "Pas souvent, mais de temps en temps.", "def_en": "Not often, but from time to time.", "examples": [
+      {"fr": "**Quelquefois**, il faut savoir attendre.", "en": "Sometimes you have to know how to wait."},
+      {"fr": "Je vais **quelquefois** au cinéma le dimanche.", "en": "I sometimes go to the cinema on Sundays."},
+      {"fr": "Hugo arrive **quelquefois** à l'heure.", "en": "Hugo sometimes arrives on time."}]},
+    {"id": "jusque-la", "fr": "jusque-là", "pos": "adv", "ipa": "ʒysk.la", "en": "until then, so far; up to there", "def": "Jusqu'à ce moment ou jusqu'à cet endroit.", "def_en": "Up to that moment or that place.", "examples": [
+      {"fr": "**Jusque-là**, tout va bien.", "en": "So far, so good."},
+      {"fr": "Va **jusque-là**, puis tourne à droite.", "en": "Go as far as there, then turn right."},
+      {"fr": "**Jusque-là**, Pierre n'avait jamais vu la mer du Nord.", "en": "Until then, Pierre had never seen the North Sea."}]},
+    {"id": "lors-de", "fr": "lors de", "pos": "prep", "ipa": "lɔʁ də", "en": "during, at the time of", "def": "Au moment de ; pendant.", "def_en": "At the time of; during.", "note": "A little formal. *Dès lors* = from then on.", "forms": ["lors d'", "lors du", "lors des"], "examples": [
+      {"fr": "**Lors de** son audition, Tom a joué du Piaf.", "en": "At his audition, Tom played Piaf."},
+      {"fr": "Ils se sont rencontrés **lors d'**une fête.", "en": "They met at a party."},
+      {"fr": "Vous recevrez votre carte **lors de** la rentrée.", "en": "You'll get your card at the start of term."}]},
+    {"id": "guere", "fr": "guère", "pos": "adv", "ipa": "ɡɛʁ", "en": "hardly, barely (ne… guère)", "def": "Presque pas ; pas beaucoup.", "def_en": "Hardly; not much.", "note": "A little literary: *ne… guère* = hardly: *il n'a guère dormi*.", "examples": [
+      {"fr": "Je n'ai **guère** dormi cette nuit.", "en": "I hardly slept last night."},
+      {"fr": "Il ne reste **guère** de temps.", "en": "There's hardly any time left."},
+      {"fr": "Ce n'est **guère** mieux.", "en": "It's hardly any better."}]},
+    {"id": "pratiquement", "fr": "pratiquement", "pos": "adv", "ipa": "pʁa.tik.mɑ̃", "en": "practically, almost", "def": "Presque ; en réalité.", "def_en": "Almost; in reality.", "examples": [
+      {"fr": "Devant le bâtiment, il y a **pratiquement** trois cents étudiants.", "en": "In front of the building, there are almost three hundred students."},
+      {"fr": "J'ai **pratiquement** fini.", "en": "I've practically finished."},
+      {"fr": "On se voit **pratiquement** tous les jours.", "en": "We see each other practically every day."}]},
+    {"id": "suffisamment", "fr": "suffisamment", "pos": "adv", "ipa": "sy.fi.za.mɑ̃", "en": "enough, sufficiently", "def": "Assez, autant qu'il faut.", "def_en": "Enough, as much as is needed.", "examples": [
+      {"fr": "Avez-vous **suffisamment** de photos d'identité ?", "en": "Have you got enough passport photos?"},
+      {"fr": "Tu as **suffisamment** dormi ?", "en": "Have you had enough sleep?"},
+      {"fr": "Ce n'est pas **suffisamment** clair.", "en": "It's not clear enough."}]},
+    {"id": "uniquement", "fr": "uniquement", "pos": "adv", "ipa": "y.nik.mɑ̃", "en": "only, solely", "def": "Seulement, et rien d'autre.", "def_en": "Only, and nothing else.", "examples": [
+      {"fr": "Ici, c'est **uniquement** pour les masters.", "en": "Here, it's only for master's degrees."},
+      {"fr": "Ce bureau est ouvert **uniquement** le matin.", "en": "This office is only open in the morning."},
+      {"fr": "Il mange **uniquement** des pâtes.", "en": "He eats nothing but pasta."}]},
+    {"id": "clairement", "fr": "clairement", "pos": "adv", "ipa": "klɛʁ.mɑ̃", "en": "clearly", "def": "D'une manière facile à comprendre ; sans aucun doute.", "def_en": "In a way that's easy to understand; without any doubt.", "examples": [
+      {"fr": "Vous êtes **clairement** le plus organisé de la journée.", "en": "You're clearly the best-organised person today."},
+      {"fr": "Expliquez-moi **clairement** le problème.", "en": "Explain the problem to me clearly."},
+      {"fr": "Il parle lentement et **clairement**.", "en": "He speaks slowly and clearly."}]},
+    {"id": "directement", "fr": "directement", "pos": "adv", "ipa": "di.ʁɛk.tə.mɑ̃", "en": "directly, straight", "def": "Sans s'arrêter ailleurs ; sans passer par quelqu'un d'autre.", "def_en": "Without stopping anywhere else; without going through anyone else.", "examples": [
+      {"fr": "Allez **directement** au bureau douze.", "en": "Go straight to office twelve."},
+      {"fr": "Après le travail, je rentre **directement**.", "en": "After work, I go straight home."},
+      {"fr": "Demande-lui **directement** !", "en": "Ask him directly!"}]},
+    {"id": "brusquement", "fr": "brusquement", "pos": "adv", "ipa": "bʁys.kə.mɑ̃", "en": "suddenly, abruptly", "def": "D'un coup, sans prévenir.", "def_en": "All at once, without warning.", "examples": [
+      {"fr": "L'ordinateur s'éteint **brusquement**.", "en": "The computer suddenly switches off."},
+      {"fr": "Il s'arrête **brusquement** de parler.", "en": "He suddenly stops talking."},
+      {"fr": "La pluie a commencé **brusquement**.", "en": "The rain started all of a sudden."}]},
+    {"id": "normalement", "fr": "normalement", "pos": "adv", "ipa": "nɔʁ.mal.mɑ̃", "en": "normally, usually; if all goes well", "def": "D'habitude ; si tout va bien.", "def_en": "Usually; if all goes well.", "examples": [
+      {"fr": "**Normalement**, l'inscription se fait en ligne.", "en": "Normally, you register online."},
+      {"fr": "**Normalement**, il arrive à huit heures.", "en": "He usually gets here at eight."},
+      {"fr": "Tout fonctionne **normalement**.", "en": "Everything is working normally."}]},
+    {"id": "naturellement", "fr": "naturellement", "pos": "adv", "ipa": "na.ty.ʁɛl.mɑ̃", "en": "naturally, of course", "def": "Bien sûr ; d'une manière simple, sans effort.", "def_en": "Of course; simply, without effort.", "examples": [
+      {"fr": "**Naturellement**, le site tombe en panne la veille du dernier jour.", "en": "Naturally, the website goes down the day before the deadline."},
+      {"fr": "Elle danse **naturellement** bien.", "en": "She's a natural dancer."},
+      {"fr": "Tu viens ? — **Naturellement** !", "en": "Are you coming? — Of course!"}]},
+    {"id": "visiblement", "fr": "visiblement", "pos": "adv", "ipa": "vi.zi.blə.mɑ̃", "en": "obviously, clearly, visibly", "def": "Comme on peut le voir facilement.", "def_en": "As you can easily see.", "examples": [
+      {"fr": "**Visiblement**, nous ne sommes pas les seuls.", "en": "Clearly, we're not the only ones."},
+      {"fr": "Il est **visiblement** fatigué.", "en": "He's visibly tired."},
+      {"fr": "La secrétaire est **visiblement** de mauvaise humeur.", "en": "The secretary is obviously in a bad mood."}]},
+    {"id": "decidement", "fr": "décidément", "pos": "adv", "ipa": "de.si.de.mɑ̃", "en": "really, honestly (when something keeps happening)", "def": "Mot qu'on dit quand une chose arrive encore une fois, et qu'on n'est plus étonné.", "def_en": "A word you say when something happens yet again, and you're no longer surprised.", "examples": [
+      {"fr": "**Décidément**, Hugo, tu es toujours en retard !", "en": "Honestly, Hugo, you're always late!"},
+      {"fr": "Encore de la pluie ? **Décidément** !", "en": "More rain? Not again!"},
+      {"fr": "**Décidément**, ce n'est pas mon jour.", "en": "It's really not my day."}]},
+    {"id": "egalement", "fr": "également", "pos": "adv", "ipa": "e.ɡal.mɑ̃", "en": "also, too; equally", "def": "Aussi ; de la même manière.", "def_en": "Also; in the same way.", "examples": [
+      {"fr": "Léa s'inscrit **également**.", "en": "Léa is registering too."},
+      {"fr": "Il faut **également** une copie de votre diplôme.", "en": "You also need a copy of your diploma."},
+      {"fr": "Ils ont partagé le gâteau **également**.", "en": "They shared the cake equally."}]},
+    {"id": "voire", "fr": "voire", "pos": "adv", "ipa": "vwaʁ", "en": "or even, indeed", "def": "Et même ; peut-être même.", "def_en": "And even; perhaps even.", "note": "Spelled with an e, unlike *voir* (to see).", "examples": [
+      {"fr": "Il en faut deux, **voire** trois.", "en": "You need two, or even three."},
+      {"fr": "C'est difficile, **voire** impossible.", "en": "It's difficult, if not impossible."},
+      {"fr": "Elle parle trois, **voire** quatre langues.", "en": "She speaks three, maybe even four languages."}]}
+  ],
+  "story": {
+    "title": "L'inscription",
+    "en": "Monday 14 June: Tom and Léa register at the university, the day before the deadline.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi quatorze juin, Tom et Léa vont à l'université. Normalement, l'inscription se fait en ligne, mais hier soir, le site s'est arrêté brusquement.", "en": "On Monday 14 June, Tom and Léa go to the university. Normally, you register online, but last night the website suddenly stopped working."},
+      {"sp": "", "fr": "Léa s'inscrit également : elle a été prise en licence de français, pour enseigner le français aux étrangers.", "en": "Léa is registering too: she has got into a French degree, to teach French to foreigners."},
+      {"sp": "Tom", "fr": "Je n'ai guère dormi. Demain, c'est le dernier jour !", "en": "I hardly slept. Tomorrow is the last day!"},
+      {"sp": "", "fr": "Devant le bâtiment, il y a pratiquement trois cents étudiants.", "en": "In front of the building, there are almost three hundred students."},
+      {"sp": "Léa", "fr": "Visiblement, nous ne sommes pas les seuls.", "en": "Clearly, we're not the only ones."},
+      {"sp": "", "fr": "Un panneau indique : « Inscriptions : troisième étage ». Tom regarde là-haut.", "en": "A sign says: 'Registration: third floor'. Tom looks up."},
+      {"sp": "Tom", "fr": "Là-haut ? Il n'y a pas d'ascenseur ?", "en": "Up there? Isn't there a lift?"},
+      {"sp": "", "fr": "Au troisième étage, juste au-dessus de la cafétéria, une secrétaire les accueille.", "en": "On the third floor, just above the cafeteria, a secretary greets them."},
+      {"sp": "La secrétaire", "fr": "Inscriptions ? Ce n'est pas ici, c'est ailleurs. Allez directement au bureau douze, là-bas, au fond du couloir.", "en": "Registration? It's not here, it's somewhere else. Go straight to office twelve, over there, at the end of the corridor."},
+      {"sp": "", "fr": "Au bureau douze, un secrétaire leur dit : « Ici, c'est uniquement pour les masters. Les licences, c'est au-dessous, au deuxième étage. »", "en": "At office twelve, a secretary tells them: 'This is only for master's degrees. Bachelor's degrees are downstairs, on the second floor.'"},
+      {"sp": "Léa", "fr": "Décidément !", "en": "Honestly!"},
+      {"sp": "", "fr": "Au deuxième étage, il y a des dossiers partout, et des étudiants tout autour, assis par terre.", "en": "On the second floor, there are files everywhere, and students all around, sitting on the floor."},
+      {"sp": "La secrétaire", "fr": "Avez-vous suffisamment de photos d'identité ? Il en faut deux, voire trois.", "en": "Have you got enough passport photos? You need two, or even three."},
+      {"sp": "Tom", "fr": "J'en ai quatre. Et une copie de mon diplôme, avec l'équivalence de mon diplôme anglais.", "en": "I've got four. And a copy of my diploma, with the equivalence for my English qualification."},
+      {"sp": "La secrétaire", "fr": "Parfait. Vous êtes clairement le plus organisé de la journée.", "en": "Perfect. You're clearly the best-organised person today."},
+      {"sp": "", "fr": "Jusque-là, tout va bien. Mais brusquement, l'ordinateur de la secrétaire s'éteint.", "en": "So far, so good. But suddenly, the secretary's computer switches off."},
+      {"sp": "La secrétaire", "fr": "Naturellement… Revenez dans une heure.", "en": "Naturally… Come back in an hour."},
+      {"sp": "", "fr": "Ils descendent attendre à la cafétéria.", "en": "They go down to wait in the cafeteria."},
+      {"sp": "Léa", "fr": "Quelquefois, il faut savoir attendre. C'est aussi ça, la vie d'étudiant.", "en": "Sometimes you have to know how to wait. That's student life too."},
+      {"sp": "", "fr": "Une heure plus tard, l'ordinateur fonctionne. La secrétaire tape leurs noms, et les inscriptions sont validées immédiatement.", "en": "An hour later, the computer is working. The secretary types in their names, and their registrations are confirmed immediately."},
+      {"sp": "La secrétaire", "fr": "Lors de la rentrée, en septembre, vous recevrez votre carte d'étudiant. Bienvenue à l'université !", "en": "At the start of term, in September, you'll get your student card. Welcome to the university!"},
+      {"sp": "Léa", "fr": "Inscrits tous les deux ! C'est au-delà de ce que j'espérais.", "en": "Both registered! It's more than I'd hoped for."},
+      {"sp": "", "fr": "Le soir, ils fêtent ça au café d'en bas. Hugo arrive, en retard, comme d'habitude.", "en": "In the evening, they celebrate at the café downstairs. Hugo arrives late, as usual."},
+      {"sp": "Léa", "fr": "Décidément, il y a des choses qui ne changent jamais.", "en": "Honestly, some things never change."}
+    ]
+  }
+}

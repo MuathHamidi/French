@@ -1,0 +1,144 @@
+{
+  "id": "u43-fournil",
+  "type": "vocab",
+  "unit": 43,
+  "title": "Au fournil",
+  "en": "Bread and pastry",
+  "intro": "25 words from the bakehouse: the place and the tools (**le fournil, le pétrin, la balance, la lame, le tablier**), the dough (**la pâte, la levure, le levain, pétrir, façonner, étaler, dorer, enfourner, la fournée**), the bread (**la croûte, la mie, le pain de campagne, le pain complet**), the pastries (**la viennoiserie, la brioche, la pâte feuilletée, la pâtisserie, le pâtissier**), and the craft (**l'artisan, le savoir-faire**).",
+  "words": [
+    {"id": "fournil", "fr": "fournil", "pos": "noun", "g": "m", "ipa": "fuʁ.ni", "en": "bakehouse (the room where bread is made)", "def": "La pièce où le boulanger prépare et cuit son pain.", "def_en": "The room where the baker makes and bakes the bread.", "note": "The l is silent: /fuʁni/.", "forms": ["fournils"], "examples": [
+      {"fr": "À quatre heures du matin, il fait déjà chaud dans le **fournil**.", "en": "At four in the morning, it's already hot in the bakehouse."},
+      {"fr": "Tom habite au-dessus du **fournil**.", "en": "Tom lives above the bakehouse."},
+      {"fr": "On n'entre pas dans le **fournil** sans tablier.", "en": "You don't go into the bakehouse without an apron."}]},
+    {"id": "petrin", "fr": "pétrin", "pos": "noun", "g": "m", "ipa": "pe.tʁɛ̃", "en": "kneading machine, kneading trough; (familiar) a fix, a mess", "def": "La machine ou la grande caisse où l'on mélange et travaille la pâte.", "def_en": "The machine or big tub where the dough is mixed and worked.", "note": "*Être dans le pétrin* = to be in a fix.", "forms": ["pétrins"], "examples": [
+      {"fr": "Votre **pétrin** fait plus de bruit que ma guitare !", "en": "Your kneading machine makes more noise than my guitar!"},
+      {"fr": "Enzo met la farine et l'eau dans le **pétrin**.", "en": "Enzo puts the flour and the water in the kneading machine."},
+      {"fr": "J'ai oublié mon passeport : je suis dans le **pétrin** !", "en": "I've forgotten my passport: I'm in a fix!"}]},
+    {"id": "balance", "fr": "balance", "pos": "noun", "g": "f", "ipa": "ba.lɑ̃s", "en": "scales, weighing scale", "def": "L'objet qui sert à peser.", "def_en": "The thing used for weighing.", "note": "*La Balance* is also the star sign Libra.", "forms": ["balances"], "examples": [
+      {"fr": "Enzo pèse la farine sur la **balance**.", "en": "Enzo weighs the flour on the scales."},
+      {"fr": "Après les vacances, Hugo n'ose plus monter sur la **balance**.", "en": "After the holidays, Hugo doesn't dare get on the scales any more."},
+      {"fr": "Cette **balance** est très exacte.", "en": "These scales are very accurate."}]},
+    {"id": "lame", "fr": "lame", "pos": "noun", "g": "f", "ipa": "lam", "en": "blade", "def": "La partie d'un couteau ou d'un outil qui coupe.", "def_en": "The part of a knife or a tool that cuts.", "forms": ["lames"], "examples": [
+      {"fr": "Avec une **lame**, Enzo fait trois traits sur chaque baguette.", "en": "With a blade, Enzo makes three cuts on each baguette."},
+      {"fr": "La **lame** de ce couteau est très fine.", "en": "The blade of this knife is very thin."},
+      {"fr": "Attention, la **lame** coupe !", "en": "Careful, the blade is sharp!"}]},
+    {"id": "tablier", "fr": "tablier", "pos": "noun", "g": "m", "ipa": "ta.bli.je", "en": "apron", "def": "Le vêtement qu'on met devant soi pour garder ses vêtements propres en cuisinant.", "def_en": "The garment you wear in front to keep your clothes clean while cooking.", "forms": ["tabliers"], "examples": [
+      {"fr": "Enzo met son **tablier** blanc.", "en": "Enzo puts on his white apron."},
+      {"fr": "Le **tablier** de Hugo est couvert de farine.", "en": "Hugo's apron is covered in flour."},
+      {"fr": "Mamie a un **tablier** à fleurs.", "en": "Grandma has a flowery apron."}]},
+    {"id": "pate", "fr": "pâte", "pos": "noun", "g": "f", "ipa": "pɑt", "en": "dough; pastry; paste (not les pâtes, pasta)", "def": "Un mélange de farine, d'eau et souvent de levure, qu'on cuit pour faire du pain ou des gâteaux.", "def_en": "A mixture of flour, water and often yeast, baked to make bread or cakes.", "note": "*Les pâtes* (plural) = pasta. *Mettre la main à la pâte* = to lend a hand.", "examples": [
+      {"fr": "La **pâte** doit reposer une heure.", "en": "The dough has to rest for an hour."},
+      {"fr": "Tom, viens mettre la main à la **pâte** !", "en": "Tom, come and lend a hand!"},
+      {"fr": "Cette **pâte** colle aux doigts.", "en": "This dough sticks to your fingers."}]},
+    {"id": "levure", "fr": "levure", "pos": "noun", "g": "f", "ipa": "lə.vyʁ", "en": "yeast", "def": "Le produit qu'on met dans la pâte pour la faire monter.", "def_en": "What you put in dough to make it rise.", "forms": ["levures"], "examples": [
+      {"fr": "Un peu de **levure**, et la pâte monte.", "en": "A little yeast, and the dough rises."},
+      {"fr": "Sans **levure**, le pain reste [plat|plat-adj].", "en": "Without yeast, bread stays flat."},
+      {"fr": "J'ai acheté de la **levure** pour faire une brioche.", "en": "I've bought some yeast to make a brioche."}]},
+    {"id": "levain", "fr": "levain", "pos": "noun", "g": "m", "ipa": "lə.vɛ̃", "en": "sourdough starter, leaven", "def": "Un mélange vivant de farine et d'eau, qui fait monter le pain à la place de la levure.", "def_en": "A living mixture of flour and water, which makes bread rise instead of yeast.", "note": "*Le pain au levain* = sourdough bread.", "forms": ["levains"], "examples": [
+      {"fr": "Ce **levain** a trente ans : il est plus vieux que toi !", "en": "This starter is thirty years old: it's older than you!"},
+      {"fr": "Le pain au **levain** se garde plusieurs jours.", "en": "Sourdough bread keeps for several days."},
+      {"fr": "Madame Fournier donne à manger à son **levain** tous les jours.", "en": "Madame Fournier feeds her starter every day."}]},
+    {"id": "petrir", "fr": "pétrir", "pos": "verb", "ipa": "pe.tʁiʁ", "en": "to knead", "def": "Travailler longtemps la pâte, avec les mains ou avec une machine.", "def_en": "To work dough for a long time, by hand or with a machine.", "forms": ["pétris", "pétrit", "pétrissons", "pétrissez", "pétrissent", "pétri", "pétrie", "pétries", "pétrissais", "pétrissait", "pétrissions", "pétrissiez", "pétrissaient", "pétrirai", "pétriras", "pétrira", "pétrirons", "pétrirez", "pétriront", "pétrirais", "pétrirait", "pétririons", "pétririez", "pétriraient", "pétrisse", "pétrisses", "pétrissant", "pétrîmes", "pétrîtes", "pétrirent"], "examples": [
+      {"fr": "Enzo **pétrit** la pâte à la main.", "en": "Enzo kneads the dough by hand."},
+      {"fr": "Il faut **pétrir** pendant dix minutes.", "en": "You have to knead for ten minutes."},
+      {"fr": "Autrefois, les boulangers **pétrissaient** tout à la main.", "en": "In the old days, bakers kneaded everything by hand."}]},
+    {"id": "faconner", "fr": "façonner", "pos": "verb", "ipa": "fa.sɔ.ne", "en": "to shape, to form", "def": "Donner une forme à la pâte, à la terre ou à un objet, avec les mains.", "def_en": "To give a shape to dough, clay or an object, with your hands.", "forms": ["façonne", "façonnes", "façonnons", "façonnez", "façonnent", "façonné", "façonnée", "façonnés", "façonnées", "façonnais", "façonnait", "façonnions", "façonniez", "façonnaient", "façonnerai", "façonneras", "façonnera", "façonnerons", "façonnerez", "façonneront", "façonnerais", "façonnerait", "façonnerions", "façonneriez", "façonneraient", "façonnant", "façonnai", "façonnas", "façonna", "façonnâmes", "façonnâtes", "façonnèrent"], "examples": [
+      {"fr": "Enzo **façonne** les baguettes une par une.", "en": "Enzo shapes the baguettes one by one."},
+      {"fr": "Elle **façonne** de grosses boules de pain.", "en": "She shapes big round loaves."},
+      {"fr": "Mon grand-père **façonnait** des objets en bois.", "en": "My grandfather used to make things out of wood."}]},
+    {"id": "etaler", "fr": "étaler", "pos": "verb", "ipa": "e.ta.le", "en": "to roll out; to spread", "def": "Rendre une pâte plate et mince avec un rouleau ; mettre du beurre ou de la confiture sur du pain.", "def_en": "To make dough flat and thin with a rolling pin; to put butter or jam on bread.", "forms": ["étale", "étales", "étalons", "étalez", "étalent", "étalé", "étalée", "étalés", "étalées", "étalais", "étalait", "étalions", "étaliez", "étalaient", "étalerai", "étaleras", "étalera", "étalerons", "étalerez", "étaleront", "étalerais", "étalerait", "étalerions", "étaleriez", "étaleraient", "étalant", "étalai", "étalas", "étala", "étalâmes", "étalâtes", "étalèrent"], "examples": [
+      {"fr": "Enzo **étale** la pâte avec un rouleau.", "en": "Enzo rolls out the dough with a rolling pin."},
+      {"fr": "**Étale** du beurre sur ton pain.", "en": "Spread some butter on your bread."},
+      {"fr": "Hugo **étale** ses affaires partout dans le salon.", "en": "Hugo spreads his things all over the living room."}]},
+    {"id": "dorer", "fr": "dorer", "pos": "verb", "ipa": "dɔ.ʁe", "en": "to glaze (with egg); to brown; to gild (doré = golden)", "def": "Passer de l'œuf avec un pinceau, pour donner une belle couleur ; devenir brun en cuisant.", "def_en": "To brush with egg, to give a nice colour; to turn brown while cooking.", "note": "*Doré* = golden: *une statue dorée*.", "forms": ["dore", "dores", "dorons", "dorez", "dorent", "doré", "dorée", "dorés", "dorées", "dorais", "dorait", "dorions", "doriez", "doraient", "dorerai", "doreras", "dorera", "dorerons", "dorerez", "doreront", "dorerais", "dorerait", "dorerions", "doreriez", "doreraient", "dorant", "dorai", "doras", "dora", "dorâmes", "dorâtes", "dorèrent"], "examples": [
+      {"fr": "Il **dore** les croissants avec un pinceau.", "en": "He glazes the croissants with a brush."},
+      {"fr": "Les brioches **dorent** dans le four.", "en": "The brioches are browning in the oven."},
+      {"fr": "Une croûte bien **dorée**, c'est le secret.", "en": "A nice golden crust is the secret."}]},
+    {"id": "enfourner", "fr": "enfourner", "pos": "verb", "ipa": "ɑ̃.fuʁ.ne", "en": "to put in the oven", "def": "Mettre dans le four, pour cuire.", "def_en": "To put into the oven, to bake.", "forms": ["enfourne", "enfournes", "enfournons", "enfournez", "enfournent", "enfourné", "enfournée", "enfournés", "enfournées", "enfournais", "enfournait", "enfournions", "enfourniez", "enfournaient", "enfournerai", "enfourneras", "enfournera", "enfournerons", "enfournerez", "enfourneront", "enfournerais", "enfournerait", "enfournerions", "enfourneriez", "enfourneraient", "enfournant", "enfournai", "enfournas", "enfourna", "enfournâmes", "enfournâtes", "enfournèrent"], "examples": [
+      {"fr": "Enzo **enfourne** les baguettes.", "en": "Enzo puts the baguettes in the oven."},
+      {"fr": "On **enfourne** à deux cent cinquante degrés.", "en": "You put it in the oven at two hundred and fifty degrees."},
+      {"fr": "Attends, ne les **enfourne** pas encore !", "en": "Wait, don't put them in the oven yet!"}]},
+    {"id": "fournee", "fr": "fournée", "pos": "noun", "g": "f", "ipa": "fuʁ.ne", "en": "batch (of loaves)", "def": "Tous les pains qui cuisent ensemble dans le four.", "def_en": "All the loaves that bake together in the oven.", "note": "Figuratively, a batch of anything: *une fournée de touristes*.", "forms": ["fournées"], "examples": [
+      {"fr": "La première **fournée** sort à six heures.", "en": "The first batch comes out at six o'clock."},
+      {"fr": "En novembre, Enzo a brûlé sa première **fournée** de croissants.", "en": "In November, Enzo burnt his first batch of croissants."},
+      {"fr": "Chaque matin, Madame Fournier fait cinq **fournées**.", "en": "Every morning, Madame Fournier bakes five batches."}]},
+    {"id": "croute", "fr": "croûte", "pos": "noun", "g": "f", "ipa": "kʁut", "en": "crust", "def": "La partie [dure|dur] et dorée, autour du pain.", "def_en": "The hard, golden part around the bread.", "forms": ["croûtes"], "examples": [
+      {"fr": "La **croûte** chante quand on casse le pain.", "en": "The crust crackles when you break the bread."},
+      {"fr": "Hugo mange toujours la **croûte** en premier.", "en": "Hugo always eats the crust first."},
+      {"fr": "Une bonne baguette a une **croûte** dorée.", "en": "A good baguette has a golden crust."}]},
+    {"id": "mie", "fr": "mie", "pos": "noun", "g": "f", "ipa": "mi", "en": "the soft inside of bread, crumb", "def": "La partie blanche et tendre, à l'intérieur du pain.", "def_en": "The white, soft part inside the bread.", "note": "*Le pain de mie* = sliced white sandwich bread.", "forms": ["mies"], "examples": [
+      {"fr": "La **mie** est légère, avec de beaux trous.", "en": "The crumb is light, with nice holes."},
+      {"fr": "Lou ne mange que la **mie**.", "en": "Lou only eats the soft inside."},
+      {"fr": "Pour les sandwichs, on prend du pain de **mie**.", "en": "For sandwiches, we use sliced bread."}]},
+    {"id": "pain-de-campagne", "fr": "pain de campagne", "pos": "noun", "g": "m", "ipa": "pɛ̃ d kɑ̃.paɲ", "en": "country bread (a big round loaf)", "def": "Un gros pain rond, avec une croûte épaisse, souvent au levain.", "def_en": "A big round loaf with a thick crust, often made with sourdough.", "forms": ["pains de campagne"], "examples": [
+      {"fr": "Un **pain de campagne** se garde une semaine.", "en": "A country loaf keeps for a week."},
+      {"fr": "Madame Fournier vend des **pains de campagne** énormes.", "en": "Madame Fournier sells huge country loaves."},
+      {"fr": "Je voudrais un **pain de campagne**, s'il vous plaît.", "en": "I'd like a country loaf, please."}]},
+    {"id": "pain-complet", "fr": "pain complet", "pos": "noun", "g": "m", "ipa": "pɛ̃ kɔ̃.plɛ", "en": "wholemeal bread", "def": "Un pain fait avec toute la farine du blé, plus brun et plus riche.", "def_en": "Bread made with the whole wheat flour, browner and richer.", "forms": ["pains complets"], "examples": [
+      {"fr": "Le **pain complet** est bon pour la santé.", "en": "Wholemeal bread is good for your health."},
+      {"fr": "Le **pain complet** d'Enzo est un peu lourd.", "en": "Enzo's wholemeal bread is a bit heavy."},
+      {"fr": "Au petit déjeuner, je prends du **pain complet**.", "en": "For breakfast, I have wholemeal bread."}]},
+    {"id": "viennoiserie", "fr": "viennoiserie", "pos": "noun", "g": "f", "ipa": "vjɛ.nwaz.ʁi", "en": "Viennese pastries (croissants, pains au chocolat, brioches)", "def": "Les croissants, les pains au chocolat et les brioches qu'on vend à la boulangerie.", "def_en": "The croissants, pains au chocolat and brioches sold at the bakery.", "forms": ["viennoiseries"], "examples": [
+      {"fr": "Le dimanche, on achète des **viennoiseries**.", "en": "On Sundays, we buy pastries."},
+      {"fr": "Pour le CAP, il faut savoir faire les **viennoiseries**.", "en": "For the CAP, you have to know how to make pastries."},
+      {"fr": "Les **viennoiseries** sont meilleures le matin.", "en": "Pastries are better in the morning."}]},
+    {"id": "brioche", "fr": "brioche", "pos": "noun", "g": "f", "ipa": "bʁi.jɔʃ", "en": "brioche (a sweet bread made with butter and eggs)", "def": "Un pain doux et léger, fait avec beaucoup de beurre et d'œufs.", "def_en": "A soft, light bread made with lots of butter and eggs.", "forms": ["brioches"], "examples": [
+      {"fr": "La **brioche** d'Enzo est parfaite.", "en": "Enzo's brioche is perfect."},
+      {"fr": "Lou mange sa **brioche** avec un chocolat chaud.", "en": "Lou eats her brioche with a hot chocolate."},
+      {"fr": "Hugo a mangé la moitié de la **brioche**.", "en": "Hugo has eaten half the brioche."}]},
+    {"id": "pate-feuilletee", "fr": "pâte feuilletée", "pos": "noun", "g": "f", "ipa": "pɑt fœj.te", "en": "puff pastry", "def": "Une pâte qu'on plie plusieurs fois avec du beurre, pour faire les croissants et les chaussons.", "def_en": "A dough folded several times with butter, to make croissants and turnovers.", "forms": ["pâtes feuilletées"], "examples": [
+      {"fr": "Il plie la **pâte feuilletée** trois fois.", "en": "He folds the puff pastry three times."},
+      {"fr": "La **pâte feuilletée** demande de la patience.", "en": "Puff pastry takes patience."},
+      {"fr": "Un chausson aux pommes, c'est de la **pâte feuilletée** et des pommes.", "en": "An apple turnover is puff pastry and apples."}]},
+    {"id": "patisserie", "fr": "pâtisserie", "pos": "noun", "g": "f", "ipa": "pɑ.tis.ʁi", "en": "cake, pastry; cake shop; pastry-making", "def": "Un gâteau ; le magasin ou le métier de celui qui fait des gâteaux.", "def_en": "A cake; the shop or the trade of someone who makes cakes.", "forms": ["pâtisseries"], "examples": [
+      {"fr": "Karim adore la **pâtisserie**.", "en": "Karim loves making cakes."},
+      {"fr": "Il y a une **pâtisserie** au coin de la rue.", "en": "There's a cake shop on the corner."},
+      {"fr": "Les **pâtisseries** françaises sont célèbres dans le monde entier.", "en": "French pastries are famous all over the world."}]},
+    {"id": "patissier", "fr": "pâtissier", "pos": "noun", "g": "m", "ipa": "pɑ.ti.sje", "display": "le pâtissier, la pâtissière", "en": "pastry chef, pastry cook", "def": "La personne qui fait des gâteaux comme métier.", "def_en": "The person who makes cakes for a living.", "forms": ["pâtissiers", "pâtissière", "pâtissières"], "examples": [
+      {"fr": "Karim est cuisinier, mais il rêve d'être **pâtissier**.", "en": "Karim is a cook, but he dreams of being a pastry chef."},
+      {"fr": "Le **pâtissier** décore les gâteaux avec du chocolat.", "en": "The pastry chef decorates the cakes with chocolate."},
+      {"fr": "Elle est **pâtissière** dans un grand hôtel.", "en": "She's a pastry chef in a big hotel."}]},
+    {"id": "artisan", "fr": "artisan", "pos": "noun", "g": "m", "ipa": "aʁ.ti.zɑ̃", "display": "l'artisan, l'artisane", "en": "craftsman, craftswoman, artisan", "def": "Une personne qui fabrique des choses avec ses mains, souvent dans un petit atelier.", "def_en": "A person who makes things with their hands, often in a small workshop.", "note": "*Artisanal* = handmade, traditional: *du pain artisanal*.", "forms": ["artisans", "artisane", "artisanes"], "examples": [
+      {"fr": "Un **artisan** boulanger fait tout son pain sur place.", "en": "A craft baker makes all his bread on the premises."},
+      {"fr": "Le marché des **artisans** a lieu en juin.", "en": "The craft market is held in June."},
+      {"fr": "Mon grand-père était **artisan** : il fabriquait des meubles.", "en": "My grandfather was a craftsman: he made furniture."}]},
+    {"id": "savoir-faire", "fr": "savoir-faire", "pos": "noun", "g": "m", "manual": true, "ipa": "sa.vwaʁ.fɛʁ", "en": "know-how, skill, expertise", "def": "L'art de bien faire son métier, qu'on apprend avec l'expérience.", "def_en": "The art of doing your job well, learnt through experience.", "note": "Spelled with a hyphen, and invariable.", "examples": [
+      {"fr": "Le pain, c'est du temps et du **[savoir-faire|savoir-faire]**.", "en": "Bread is time and know-how."},
+      {"fr": "Madame Fournier a appris son **[savoir-faire|savoir-faire]** avec son père.", "en": "Madame Fournier learnt her skills from her father."},
+      {"fr": "Le **[savoir-faire|savoir-faire]** français est connu dans le monde entier.", "en": "French know-how is known all over the world."}]}
+  ],
+  "story": {
+    "title": "Le grand jour d'Enzo",
+    "en": "Thursday 3 June, 4 a.m.: Enzo's last rehearsal before the practical exam of his CAP.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi trois juin, à quatre heures du matin, dans le fournil de Madame Fournier. À neuf heures, Enzo passe l'épreuve pratique de son CAP : en sept heures, il doit faire du pain et des viennoiseries devant un jury.", "en": "Thursday 3 June, at four in the morning, in Madame Fournier's bakehouse. At nine, Enzo takes the practical exam of his CAP: in seven hours, he has to make bread and pastries in front of a panel."},
+      {"sp": "Madame Fournier", "fr": "Ce matin, le jury, c'est moi. Tablier, cheveux attachés, mains propres. On commence.", "en": "This morning, I'm the panel. Apron, hair tied back, clean hands. Let's begin."},
+      {"sp": "", "fr": "Enzo met son tablier blanc et pèse la farine sur la balance. Le pétrin commence à tourner.", "en": "Enzo puts on his white apron and weighs the flour on the scales. The kneading machine starts turning."},
+      {"sp": "", "fr": "Au-dessus, Tom ne dort plus. Il descend en pyjama.", "en": "Upstairs, Tom can't sleep any more. He comes down in his pyjamas."},
+      {"sp": "Tom", "fr": "Votre pétrin fait plus de bruit que ma guitare !", "en": "Your kneading machine makes more noise than my guitar!"},
+      {"sp": "Madame Fournier", "fr": "Entre, l'Anglais. Mais d'abord, un tablier.", "en": "Come in, l'Anglais. But first, an apron."},
+      {"sp": "", "fr": "Pour le pain de campagne, Enzo ajoute le levain.", "en": "For the country bread, Enzo adds the starter."},
+      {"sp": "Madame Fournier", "fr": "Ce levain a trente ans. Il est plus vieux que toi, Enzo, et il a meilleur caractère.", "en": "This starter is thirty years old. It's older than you, Enzo, and it has a better temper."},
+      {"sp": "", "fr": "Enzo pétrit encore un peu la pâte à la main, puis il la laisse reposer. Pendant ce temps, il prépare la pâte feuilletée des croissants : il l'étale avec un rouleau, met le beurre, et la plie trois fois.", "en": "Enzo kneads the dough a little more by hand, then leaves it to rest. Meanwhile, he makes the puff pastry for the croissants: he rolls it out with a rolling pin, adds the butter, and folds it three times."},
+      {"sp": "Tom", "fr": "Et la levure ?", "en": "And the yeast?"},
+      {"sp": "Enzo", "fr": "La levure, c'est pour les croissants et la brioche. Le levain, c'est pour le pain. Tu [suis|suivre], l'Anglais ?", "en": "Yeast is for the croissants and the brioche. The starter is for the bread. Are you following, l'Anglais?"},
+      {"sp": "", "fr": "À cinq heures, il façonne les baguettes une par une, puis fait trois coups de lame sur chacune.", "en": "At five, he shapes the baguettes one by one, then makes three cuts with the blade on each."},
+      {"sp": "Madame Fournier", "fr": "Plus vite ! Le jury ne va pas t'attendre.", "en": "Faster! The panel won't wait for you."},
+      {"sp": "", "fr": "Il enfourne la première fournée. Pendant qu'elle cuit, il dore les croissants et la brioche avec un pinceau.", "en": "He puts the first batch in the oven. While it bakes, he glazes the croissants and the brioche with a brush."},
+      {"sp": "", "fr": "À six heures, Hugo descend à son tour, les lunettes sur la tête.", "en": "At six, Hugo comes down too, his glasses on his head."},
+      {"sp": "Hugo", "fr": "Je viens pour goûter. C'est mon [savoir-faire|savoir-faire] à moi.", "en": "I've come to taste. It's my own special skill."},
+      {"sp": "", "fr": "Les baguettes sortent du four. Madame Fournier en casse une et l'[écoute|ecouter].", "en": "The baguettes come out of the oven. Madame Fournier breaks one and listens to it."},
+      {"sp": "Madame Fournier", "fr": "La croûte chante. La mie est belle, avec de grands trous. Le pain complet est un peu lourd… mais ta brioche est parfaite.", "en": "The crust crackles. The crumb is lovely, with big holes. The wholemeal bread is a bit heavy… but your brioche is perfect."},
+      {"sp": "Enzo", "fr": "Et la pâtisserie ? Le jury va me demander un gâteau ?", "en": "And cakes? Will the panel ask me for a cake?"},
+      {"sp": "Madame Fournier", "fr": "Non. Nous, on est boulangers, pas pâtissiers. Les gâteaux, c'est un autre métier.", "en": "No. We're bakers, not pastry chefs. Cakes are another trade."},
+      {"sp": "Hugo", "fr": "Enzo, si tu rates, tu seras dans le pétrin !", "en": "Enzo, if you fail, you'll be in a fix!"},
+      {"sp": "Enzo", "fr": "Je suis déjà dans le pétrin : j'ai les mains dedans !", "en": "I'm already in the kneading machine: I've got my hands in it!"},
+      {"sp": "", "fr": "À sept heures et demie, Enzo enlève son tablier. Madame Fournier lui donne une petite boîte : le premier couteau de boulanger de son père.", "en": "At half past seven, Enzo takes off his apron. Madame Fournier gives him a little box: her father's first baker's knife."},
+      {"sp": "Madame Fournier", "fr": "Mon père m'a appris le métier ; moi, je te l'ai appris. Maintenant, c'est ton [savoir-faire|savoir-faire]. Va, mon grand.", "en": "My father taught me the trade; I taught it to you. Now it's your skill. Go on, my boy."},
+      {"sp": "", "fr": "Le soir, Enzo revient, fatigué mais souriant. Le jury a goûté sa brioche… et il en a repris deux fois. Les résultats arrivent en juillet.", "en": "In the evening, Enzo comes back, tired but smiling. The panel tasted his brioche… and had seconds twice. The results come in July."},
+      {"sp": "Tom", "fr": "Un vrai artisan !", "en": "A real craftsman!"},
+      {"sp": "Enzo", "fr": "Un artisan qui veut dormir, l'Anglais.", "en": "A craftsman who wants to sleep, l'Anglais."}
+    ]
+  }
+}

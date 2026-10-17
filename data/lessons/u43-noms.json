@@ -1,0 +1,138 @@
+{
+  "id": "u43-noms",
+  "type": "vocab",
+  "unit": 43,
+  "title": "Un miracle au siège",
+  "en": "Common nouns (2)",
+  "intro": "25 nouns that French uses all the time: at work (**le siège, le comité, l'autorité, l'absence, l'opération, le contact, la direction, l'ordre, le détail**), qualities and talents (**le génie, le don, l'imagination, l'attitude, l'allure, l'importance**), moments and feelings (**l'instant, le silence, le regard, le cri, le miracle, la fortune**), and things you can see (**le front, la tache, le tas, la distance**).",
+  "words": [
+    {"id": "siege", "fr": "siège", "pos": "noun", "g": "m", "ipa": "sjɛʒ", "en": "seat; head office, headquarters", "def": "Une chose sur laquelle on s'assoit ; le bâtiment principal d'une entreprise.", "def_en": "Something you sit on; the main building of a company.", "forms": ["sièges"], "examples": [
+      {"fr": "La présentation a lieu au **siège** des boulangeries.", "en": "The presentation takes place at the bakeries' head office."},
+      {"fr": "Ce **siège** est libre ?", "en": "Is this seat free?"},
+      {"fr": "Les **sièges** du train sont confortables.", "en": "The seats on the train are comfortable."}]},
+    {"id": "comite", "fr": "comité", "pos": "noun", "g": "m", "ipa": "kɔ.mi.te", "en": "committee, board", "def": "Un petit groupe de personnes choisies pour décider ou organiser quelque chose.", "def_en": "A small group of people chosen to decide or organise something.", "note": "*Le comité de direction* = the board, the management committee. *En petit comité* = in a small group.", "forms": ["comités"], "examples": [
+      {"fr": "Hugo présente l'application au **comité** de direction.", "en": "Hugo presents the app to the board."},
+      {"fr": "Le **comité** du quartier organise une dictée chaque printemps.", "en": "The neighbourhood committee organises a dictation every spring."},
+      {"fr": "On a dîné en petit **comité**.", "en": "We had dinner with just a few people."}]},
+    {"id": "autorite", "fr": "autorité", "pos": "noun", "g": "f", "ipa": "o.tɔ.ʁi.te", "en": "authority", "def": "Le droit de donner des ordres et de se faire obéir.", "def_en": "The right to give orders and be obeyed.", "note": "*Les autorités* = the authorities.", "forms": ["autorités"], "examples": [
+      {"fr": "En l'absence de Madame Dupont, c'est Hugo qui a l'**autorité**.", "en": "While Madame Dupont is away, Hugo is in charge."},
+      {"fr": "Hugo n'a aucune **autorité** sur Biquette.", "en": "Hugo has no authority at all over Biquette."},
+      {"fr": "Les **autorités** ont fermé la route.", "en": "The authorities have closed the road."}]},
+    {"id": "absence", "fr": "absence", "pos": "noun", "g": "f", "ipa": "ap.sɑ̃s", "en": "absence", "def": "Le fait de ne pas être là.", "def_en": "Not being there.", "forms": ["absences"], "examples": [
+      {"fr": "En l'**absence** de Madame Dupont, Hugo dirige l'équipe.", "en": "In Madame Dupont's absence, Hugo leads the team."},
+      {"fr": "On n'a pas remarqué son **absence**.", "en": "Nobody noticed he wasn't there."},
+      {"fr": "Après trois **absences**, il faut un mot des parents.", "en": "After three absences, you need a note from your parents."}]},
+    {"id": "operation", "fr": "opération", "pos": "noun", "g": "f", "ipa": "ɔ.pe.ʁa.sjɔ̃", "en": "operation", "def": "Une action organisée ; ce que fait un médecin quand il ouvre le corps pour le soigner ; deux plus deux, par exemple.", "def_en": "An organised action; a sum, like two plus two; what a surgeon does in hospital.", "forms": ["opérations"], "examples": [
+      {"fr": "L'**opération** « Pain chaud » commence lundi.", "en": "Operation 'Hot bread' starts on Monday."},
+      {"fr": "Il a eu une **opération** du genou.", "en": "He had a knee operation."},
+      {"fr": "Lou fait ses premières **opérations** : deux plus deux, trois plus un.", "en": "Lou is doing her first sums: two plus two, three plus one."}]},
+    {"id": "contact", "fr": "contact", "pos": "noun", "g": "m", "ipa": "kɔ̃.takt", "en": "contact, touch", "def": "Le fait de [toucher|toucher] ; une relation avec quelqu'un ; une personne qu'on connaît et qu'on peut appeler.", "def_en": "Touching; a relationship with someone; a person you know and can call.", "note": "*Garder le contact* = to keep in touch.", "forms": ["contacts"], "examples": [
+      {"fr": "Le directeur est le **contact** de Hugo aux boulangeries.", "en": "The director is Hugo's contact at the bakeries."},
+      {"fr": "On garde le **contact** ?", "en": "Shall we keep in touch?"},
+      {"fr": "Ajoute-moi à tes **contacts**.", "en": "Add me to your contacts."}]},
+    {"id": "direction", "fr": "direction", "pos": "noun", "g": "f", "ipa": "di.ʁɛk.sjɔ̃", "en": "direction; management", "def": "Le côté vers lequel on va ; les chefs d'une entreprise.", "def_en": "The way you're going; the bosses of a company.", "note": "*En direction de* = towards.", "forms": ["directions"], "examples": [
+      {"fr": "La **direction** a aimé le projet.", "en": "The management liked the project."},
+      {"fr": "Vous allez dans quelle **direction** ?", "en": "Which way are you going?"},
+      {"fr": "Prenez le bus en **direction** de Bellecour.", "en": "Take the bus towards Bellecour."}]},
+    {"id": "ordre", "fr": "ordre", "pos": "noun", "g": "m", "ipa": "ɔʁdʁ", "en": "order", "def": "Ce qu'un chef dit de faire ; le fait que chaque chose est à sa place.", "def_en": "What a boss tells you to do; everything being in its place.", "note": "*Mettre de l'ordre* = to tidy up. *Jusqu'à nouvel ordre* = until further notice.", "forms": ["ordres"], "examples": [
+      {"fr": "Hugo donne ses **ordres** à l'équipe.", "en": "Hugo gives the team its orders."},
+      {"fr": "Mettez les pages dans l'**ordre** !", "en": "Put the pages in order!"},
+      {"fr": "Sur le bureau de Sarah, tout est en **ordre**.", "en": "On Sarah's desk, everything is in order."}]},
+    {"id": "detail", "fr": "détail", "pos": "noun", "g": "m", "ipa": "de.taj", "en": "detail", "def": "Une petite [partie|partie] d'une chose, souvent pas très importante.", "def_en": "A small part of something, often not very important.", "note": "*En détail* = in detail.", "forms": ["détails"], "examples": [
+      {"fr": "Zoé pense à chaque **détail**.", "en": "Zoé thinks of every detail."},
+      {"fr": "Une tache ? C'est un **détail**.", "en": "A stain? It's a detail."},
+      {"fr": "Raconte-moi tout en **détail** !", "en": "Tell me everything in detail!"}]},
+    {"id": "genie", "fr": "génie", "pos": "noun", "g": "m", "ipa": "ʒe.ni", "en": "genius", "def": "Un esprit extraordinaire ; une personne très intelligente.", "def_en": "Extraordinary intelligence; a very clever person.", "note": "*Le génie de la lampe* = the genie of the lamp.", "forms": ["génies"], "examples": [
+      {"fr": "Zoé est un **génie** : elle a corrigé le bug en dix minutes.", "en": "Zoé is a genius: she fixed the bug in ten minutes."},
+      {"fr": "Tu es un **génie** !", "en": "You're a genius!"},
+      {"fr": "Ce n'est pas un **génie**, mais il travaille beaucoup.", "en": "He's no genius, but he works hard."}]},
+    {"id": "don", "fr": "don", "pos": "noun", "g": "m", "ipa": "dɔ̃", "en": "gift, talent; donation", "def": "Une chose qu'on sait faire sans l'avoir apprise ; ce qu'on donne pour aider.", "def_en": "Something you can do without having learnt it; what you give to help.", "note": "*Faire un don* = to make a donation. *Le don du sang* = giving blood.", "forms": ["dons"], "examples": [
+      {"fr": "Hugo a un **don** pour parler aux clients.", "en": "Hugo has a gift for talking to customers."},
+      {"fr": "Tom a un **don** pour la musique.", "en": "Tom has a gift for music."},
+      {"fr": "Sophie a fait un **don** à l'atelier de vélos.", "en": "Sophie made a donation to the bike workshop."}]},
+    {"id": "imagination", "fr": "imagination", "pos": "noun", "g": "f", "ipa": "i.ma.ʒi.na.sjɔ̃", "en": "imagination", "def": "Ce qui nous permet d'inventer des histoires et des idées dans notre tête.", "def_en": "What lets us invent stories and ideas in our heads.", "forms": ["imaginations"], "examples": [
+      {"fr": "Quelle **imagination** !", "en": "What imagination!"},
+      {"fr": "Les enfants ont beaucoup d'**imagination**.", "en": "Children have a lot of imagination."},
+      {"fr": "Ce n'est pas vrai, c'est ton **imagination**.", "en": "It's not true, it's your imagination."}]},
+    {"id": "attitude", "fr": "attitude", "pos": "noun", "g": "f", "ipa": "a.ti.tyd", "en": "attitude; posture", "def": "La manière d'être avec les autres ; la position du corps.", "def_en": "The way you behave with others; the position of the body.", "forms": ["attitudes"], "examples": [
+      {"fr": "Gardez une bonne **attitude**, et tout ira bien.", "en": "Keep a good attitude, and everything will be fine."},
+      {"fr": "Change d'**attitude**, s'il te plaît !", "en": "Change your attitude, please!"},
+      {"fr": "Avec une bonne **attitude**, tout est possible.", "en": "With the right attitude, anything is possible."}]},
+    {"id": "allure", "fr": "allure", "pos": "noun", "g": "f", "ipa": "a.lyʁ", "en": "look, style; speed", "def": "La manière de marcher et de s'habiller, l'air d'une personne ; la vitesse.", "def_en": "A person's way of walking and dressing, their look; speed.", "note": "*Avoir de l'allure* = to look stylish. *À toute allure* = at full speed.", "forms": ["allures"], "examples": [
+      {"fr": "Avec ta cravate, tu as de l'**allure** !", "en": "You look very smart in your tie!"},
+      {"fr": "Antoine conduit à toute **allure**.", "en": "Antoine drives at full speed."},
+      {"fr": "Elle a une **allure** de danseuse.", "en": "She looks like a dancer."}]},
+    {"id": "importance", "fr": "importance", "pos": "noun", "g": "f", "ipa": "ɛ̃.pɔʁ.tɑ̃s", "en": "importance", "def": "Ce qui fait qu'une chose compte beaucoup.", "def_en": "What makes something matter a lot.", "note": "*Ça n'a pas d'importance* = it doesn't matter.", "forms": ["importances"], "examples": [
+      {"fr": "C'est une réunion de la plus haute **importance**.", "en": "It's a meeting of the utmost importance."},
+      {"fr": "Ça n'a aucune **importance**.", "en": "It doesn't matter at all."},
+      {"fr": "Les petits détails ont de l'**importance**.", "en": "The little details matter."}]},
+    {"id": "instant", "fr": "instant", "pos": "noun", "g": "m", "ipa": "ɛ̃s.tɑ̃", "en": "moment, instant", "def": "Un moment très court.", "def_en": "A very short moment.", "note": "*Pour l'instant* = for now. *Un instant !* = Just a moment!", "forms": ["instants"], "examples": [
+      {"fr": "Un **instant**, s'il vous plaît !", "en": "Just a moment, please!"},
+      {"fr": "À cet **instant**, l'écran devient noir.", "en": "At that moment, the screen goes black."},
+      {"fr": "Il a hésité un **instant**.", "en": "He hesitated for a moment."}]},
+    {"id": "silence", "fr": "silence", "pos": "noun", "g": "m", "ipa": "si.lɑ̃s", "en": "silence", "def": "Le fait qu'il n'y a aucun bruit ; le fait de ne pas parler.", "def_en": "There being no noise at all; not talking.", "forms": ["silences"], "examples": [
+      {"fr": "Dans la salle, c'est le **silence** complet.", "en": "In the room, there's complete silence."},
+      {"fr": "**Silence**, s'il vous plaît !", "en": "Quiet, please!"},
+      {"fr": "Après sa question, il y a un long **silence**.", "en": "After his question, there's a long silence."}]},
+    {"id": "regard", "fr": "regard", "pos": "noun", "g": "m", "ipa": "ʁə.ɡaʁ", "en": "look, gaze, glance", "def": "Ce que disent les yeux d'une personne quand elle voit quelque chose.", "def_en": "What a person's eyes say when they look at something.", "forms": ["regards"], "examples": [
+      {"fr": "Tous les **regards** sont sur Hugo.", "en": "All eyes are on Hugo."},
+      {"fr": "Madame Dupont a un **regard** sévère.", "en": "Madame Dupont has a stern look."},
+      {"fr": "Elle lui lance un **regard** noir.", "en": "She gives him a black look."}]},
+    {"id": "cri", "fr": "cri", "pos": "noun", "g": "m", "ipa": "kʁi", "en": "cry, shout, scream", "def": "Le bruit très fort qu'on fait avec la bouche, de peur, de joie ou de douleur.", "def_en": "The very loud noise you make with your mouth, from fear, joy or pain.", "forms": ["cris"], "examples": [
+      {"fr": "Tom pousse un **cri** dans le noir.", "en": "Tom lets out a scream in the dark."},
+      {"fr": "On entend des **cris** de joie.", "en": "You can hear cries of joy."},
+      {"fr": "Le **cri** des mouettes réveille Hugo.", "en": "The cry of the seagulls wakes Hugo up."}]},
+    {"id": "miracle", "fr": "miracle", "pos": "noun", "g": "m", "ipa": "mi.ʁakl", "en": "miracle", "def": "Une chose extraordinaire, qu'on ne peut pas expliquer.", "def_en": "An extraordinary thing that can't be explained.", "note": "*Par miracle* = miraculously.", "forms": ["miracles"], "examples": [
+      {"fr": "C'est un **miracle** : Hugo est à l'heure !", "en": "It's a miracle: Hugo is on time!"},
+      {"fr": "Par **miracle**, l'application fonctionne.", "en": "Miraculously, the app works."},
+      {"fr": "Les médecins parlent d'un **miracle**.", "en": "The doctors are talking about a miracle."}]},
+    {"id": "fortune", "fr": "fortune", "pos": "noun", "g": "f", "ipa": "fɔʁ.tyn", "en": "fortune, wealth; luck", "def": "Beaucoup d'argent ; la chance.", "def_en": "A lot of money; luck.", "note": "*Faire fortune* = to make a fortune.", "forms": ["fortunes"], "examples": [
+      {"fr": "Ces boulangeries vont faire **fortune** !", "en": "These bakeries are going to make a fortune!"},
+      {"fr": "Hugo a dépensé une **fortune** en jeux vidéo.", "en": "Hugo has spent a fortune on video games."},
+      {"fr": "Elle a fait **fortune** dans le chocolat.", "en": "She made her fortune in chocolate."}]},
+    {"id": "front", "fr": "front", "pos": "noun", "g": "m", "ipa": "fʁɔ̃", "en": "forehead; front (in a war)", "def": "La partie du visage au-dessus des yeux.", "def_en": "The part of the face above the eyes.", "note": "*Faire front* = to stand up to something.", "forms": ["fronts"], "examples": [
+      {"fr": "Hugo s'essuie le **front**.", "en": "Hugo wipes his forehead."},
+      {"fr": "Lou a une bosse sur le **front**.", "en": "Lou has a bump on her forehead."},
+      {"fr": "Anne pose la main sur le **front** de Lou : elle a de la fièvre.", "en": "Anne puts her hand on Lou's forehead: she has a temperature."}]},
+    {"id": "tache-n", "fr": "tache", "pos": "noun", "g": "f", "ipa": "taʃ", "en": "stain, spot, mark", "def": "Une petite [partie|partie] sale sur un vêtement, faite par du café, du vin ou de l'huile.", "def_en": "A small dirty patch on clothing, made by coffee, wine or oil.", "note": "Not to be confused with *une tâche* (with a circumflex), a task.", "forms": ["taches"], "examples": [
+      {"fr": "Hugo a une **tache** de café sur sa chemise.", "en": "Hugo has a coffee stain on his shirt."},
+      {"fr": "Le vin rouge laisse des **taches**.", "en": "Red wine leaves stains."},
+      {"fr": "Ce chat noir a une **tache** blanche sur le nez.", "en": "This black cat has a white spot on its nose."}]},
+    {"id": "tas", "fr": "tas", "pos": "noun", "g": "m", "ipa": "tɑ", "en": "pile, heap; (un tas de) loads of", "def": "Des choses posées l'une sur l'autre ; (familier) beaucoup.", "def_en": "Things put one on top of another; (informal) lots.", "note": "*Un tas de* = loads of: *un tas de travail*.", "examples": [
+      {"fr": "Il y a un **tas** de papiers sur son bureau.", "en": "There's a pile of papers on his desk."},
+      {"fr": "Zoé a corrigé un **tas** de bugs.", "en": "Zoé has fixed loads of bugs."},
+      {"fr": "Mets les chaussettes sales en **tas**.", "en": "Put the dirty socks in a pile."}]},
+    {"id": "distance", "fr": "distance", "pos": "noun", "g": "f", "ipa": "dis.tɑ̃s", "en": "distance", "def": "L'espace entre deux endroits ou deux choses.", "def_en": "The space between two places or two things.", "note": "*À distance* = remotely. *Garder ses distances* = to keep your distance.", "forms": ["distances"], "examples": [
+      {"fr": "Le soir, Madame Dupont appelle à **distance**, depuis Rome.", "en": "In the evening, Madame Dupont calls remotely, from Rome."},
+      {"fr": "Quelle est la **distance** entre Lyon et Paris ?", "en": "What's the distance between Lyon and Paris?"},
+      {"fr": "Garde tes **distances** avec les abeilles, Hugo.", "en": "Keep your distance from the bees, Hugo."}]}
+  ],
+  "story": {
+    "title": "Un miracle au siège",
+    "en": "Wednesday 9 June: Hugo presents the new app to the bakeries' board.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi neuf juin, Hugo doit présenter la nouvelle application au siège des boulangeries, devant le comité de direction.", "en": "On Wednesday 9 June, Hugo has to present the new app at the bakeries' head office, to the board."},
+      {"sp": "", "fr": "Madame Dupont est en vacances à Rome, où elle a couru un marathon dimanche. En son absence, c'est Hugo qui a l'autorité.", "en": "Madame Dupont is on holiday in Rome, where she ran a marathon on Sunday. While she's away, Hugo is in charge."},
+      {"sp": "Hugo", "fr": "De l'autorité, moi ? Même Biquette ne m'obéit pas.", "en": "Authority, me? Even Biquette doesn't obey me."},
+      {"sp": "", "fr": "À huit heures, dans le métro, il renverse son café : une grosse tache sur sa chemise blanche.", "en": "At eight o'clock, on the metro, he spills his coffee: a big stain on his white shirt."},
+      {"sp": "Zoé", "fr": "Ce n'est qu'un détail. Mettez votre veste, et gardez une bonne attitude.", "en": "It's just a detail. Put your jacket on, and keep a good attitude."},
+      {"sp": "", "fr": "Zoé, la stagiaire, a passé la nuit à corriger un tas de bugs. Sarah dit que c'est un génie.", "en": "Zoé, the intern, spent the night fixing loads of bugs. Sarah says she's a genius."},
+      {"sp": "", "fr": "Avant la réunion, Hugo donne ses ordres : Sarah prépare l'ordinateur, Zoé vérifie les fichiers.", "en": "Before the meeting, Hugo gives his orders: Sarah gets the computer ready, Zoé checks the files."},
+      {"sp": "", "fr": "La salle de réunion est immense. Tous les regards sont sur Hugo. Le directeur des boulangeries, son contact depuis un an, lui sourit.", "en": "The meeting room is huge. All eyes are on Hugo. The bakeries' director, his contact for a year now, smiles at him."},
+      {"sp": "Hugo", "fr": "Mesdames et messieurs, voici l'opération « Pain chaud » : une application pour commander son pain de chez soi.", "en": "Ladies and gentlemen, here is Operation 'Hot bread': an app to order your bread from home."},
+      {"sp": "", "fr": "Il clique. Un instant… puis l'écran devient noir. Silence dans la salle. Hugo s'essuie le front.", "en": "He clicks. A moment… then the screen goes black. Silence in the room. Hugo wipes his forehead."},
+      {"sp": "", "fr": "Au fond de la salle, Zoé tape quelque chose sur son ordinateur, à toute allure.", "en": "At the back of the room, Zoé types something on her computer, at top speed."},
+      {"sp": "", "fr": "Et par miracle, l'application revient : on voit une boulangerie, des croissants, et un gros bouton « Commander ».", "en": "And miraculously, the app comes back: you can see a bakery, croissants, and a big 'Order' button."},
+      {"sp": "Le directeur", "fr": "Quelle imagination ! Et on peut commander des crêpes ?", "en": "What imagination! And can you order crêpes?"},
+      {"sp": "Hugo", "fr": "Pas encore. Mais ça viendra.", "en": "Not yet. But it'll come."},
+      {"sp": "", "fr": "Le comité pose un tas de questions. Hugo répond à chacune, avec beaucoup d'allure malgré sa tache.", "en": "The board asks loads of questions. Hugo answers every one, looking very smart despite his stain."},
+      {"sp": "Le directeur", "fr": "Monsieur, vous avez un don pour expliquer les choses simplement. Et votre équipe aussi.", "en": "Sir, you have a gift for explaining things simply. And so does your team."},
+      {"sp": "", "fr": "La direction dit oui : l'application sera en ligne le trente juin, dans toutes les boulangeries de la région.", "en": "The management says yes: the app will go live on 30 June, in all the bakeries in the region."},
+      {"sp": "", "fr": "Le soir, Madame Dupont appelle à distance, depuis Rome.", "en": "In the evening, Madame Dupont calls from a distance, from Rome."},
+      {"sp": "Madame Dupont", "fr": "Alors, Hugo ? Ces boulangeries vont faire fortune ?", "en": "So, Hugo? Are these bakeries going to make a fortune?"},
+      {"sp": "Hugo", "fr": "Je crois, madame. Mais ce qui a eu le plus d'importance aujourd'hui, c'est Zoé.", "en": "I think so, madam. But what mattered most today was Zoé."},
+      {"sp": "", "fr": "En raccrochant, Hugo pousse un cri de joie dans la rue. Tout le monde le regarde.", "en": "As he hangs up, Hugo lets out a cry of joy in the street. Everyone looks at him."}
+    ]
+  }
+}
