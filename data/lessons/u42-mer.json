@@ -1,0 +1,151 @@
+{
+  "id": "u42-mer",
+  "type": "vocab",
+  "unit": 42,
+  "title": "La mer du Nord",
+  "en": "The sea and the coast",
+  "intro": "25 words for the seaside: the coast (**le littoral, la digue, la station balnéaire, le rivage, la baie, le rocher**), the beach at low tide (**le coquillage, l'algue, l'écume, la houle**), sea creatures (**le crabe, la crevette, la moule, l'huître, la méduse, la mouette**), boats and fishing (**le pêcheur, le filet, le voilier, la voile**), and a day at the beach (**le cerf-volant, la bouée, le maître-nageur, la baignade, se noyer**).",
+  "words": [
+    {"id": "littoral", "fr": "littoral", "pos": "noun", "g": "m", "ipa": "li.tɔ.ʁal", "en": "coast, coastline", "def": "La partie d'un pays qui est au bord de la mer.", "def_en": "The part of a country that lies along the sea.", "note": "Also an adjective: *une ville littorale* = a coastal town.", "forms": ["littoraux"], "examples": [
+      {"fr": "La Belgique a un petit **littoral** : soixante-sept kilomètres.", "en": "Belgium has a short coastline: sixty-seven kilometres."},
+      {"fr": "Le tram de la côte roule le long du **littoral**.", "en": "The coast tram runs along the coastline."},
+      {"fr": "Il y a toujours du vent sur le **littoral**.", "en": "There's always wind on the coast."}]},
+    {"id": "digue", "fr": "digue", "pos": "noun", "g": "f", "ipa": "diɡ", "en": "sea wall, dyke; (in Belgium) the seafront promenade", "def": "Un long mur qui protège la terre contre la mer ; en Belgique, la promenade au bord de la plage.", "def_en": "A long wall that protects the land from the sea; in Belgium, the promenade along the beach.", "forms": ["digues"], "examples": [
+      {"fr": "Ils se promènent sur la **digue**, face à la mer.", "en": "They walk along the promenade, facing the sea."},
+      {"fr": "Leur hôtel est sur la **digue** d'Ostende.", "en": "Their hotel is on the Ostend seafront."},
+      {"fr": "Pendant la tempête, les vagues passent au-dessus de la **digue**.", "en": "During the storm, the waves come over the sea wall."}]},
+    {"id": "station-balneaire", "fr": "station balnéaire", "pos": "noun", "g": "f", "ipa": "sta.sjɔ̃ bal.ne.ɛʁ", "en": "seaside resort", "def": "Une ville au bord de la mer, où l'on vient en vacances pour la plage.", "def_en": "A town by the sea, where people come on holiday for the beach.", "forms": ["stations balnéaires"], "examples": [
+      {"fr": "Ostende est une **station balnéaire** de la côte belge.", "en": "Ostend is a seaside resort on the Belgian coast."},
+      {"fr": "En été, les **stations balnéaires** sont pleines de touristes.", "en": "In summer, seaside resorts are full of tourists."},
+      {"fr": "Mes grands-parents habitent dans une petite **station balnéaire**.", "en": "My grandparents live in a small seaside resort."}]},
+    {"id": "rivage", "fr": "rivage", "pos": "noun", "g": "m", "ipa": "ʁi.vaʒ", "en": "shore, water's edge", "def": "La ligne de sable ou de terre où arrivent les vagues.", "def_en": "The line of sand or land where the waves come in.", "forms": ["rivages"], "examples": [
+      {"fr": "À marée basse, il faut marcher longtemps pour arriver au **rivage**.", "en": "At low tide, you have to walk a long way to reach the water's edge."},
+      {"fr": "Les enfants jouent sur le **rivage**.", "en": "The children are playing on the shore."},
+      {"fr": "Le bateau s'éloigne du **rivage**.", "en": "The boat moves away from the shore."}]},
+    {"id": "baie", "fr": "baie", "pos": "noun", "g": "f", "ipa": "bɛ", "en": "bay", "def": "Une partie de la mer qui entre dans la terre.", "def_en": "A part of the sea that cuts into the land.", "note": "*Une baie* is also a berry, and *une baie vitrée* a picture window.", "forms": ["baies"], "examples": [
+      {"fr": "Dans la **baie**, l'eau est calme.", "en": "In the bay, the water is calm."},
+      {"fr": "Les voiliers traversent la **baie**.", "en": "The sailing boats cross the bay."},
+      {"fr": "De l'hôtel, on voit toute la **baie**.", "en": "From the hotel, you can see the whole bay."}]},
+    {"id": "rocher", "fr": "rocher", "pos": "noun", "g": "m", "ipa": "ʁɔ.ʃe", "en": "rock, boulder", "def": "Une grande pierre, souvent au bord de la mer ou en montagne.", "def_en": "A big stone, often by the sea or in the mountains.", "forms": ["rochers"], "examples": [
+      {"fr": "Le cerf-volant est tombé sur un **rocher**.", "en": "The kite fell onto a rock."},
+      {"fr": "Les enfants cherchent des crabes entre les **rochers**.", "en": "The children look for crabs between the rocks."},
+      {"fr": "Attention, ce **rocher** est glissant !", "en": "Careful, this rock is slippery!"}]},
+    {"id": "coquillage", "fr": "coquillage", "pos": "noun", "g": "m", "ipa": "kɔ.ki.jaʒ", "en": "shell, seashell; shellfish", "def": "La petite maison [dure|dur] d'un animal de la mer, qu'on ramasse sur la plage.", "def_en": "The hard little home of a sea creature, which you pick up on the beach.", "forms": ["coquillages"], "examples": [
+      {"fr": "Léa ramasse des **coquillages** pour Lou.", "en": "Léa picks up shells for Lou."},
+      {"fr": "Mets ce **coquillage** contre ton oreille : tu entends la mer.", "en": "Put this shell to your ear: you can hear the sea."},
+      {"fr": "Sur la plage, il y a des milliers de **coquillages**.", "en": "On the beach, there are thousands of shells."}]},
+    {"id": "algue", "fr": "algue", "pos": "noun", "g": "f", "ipa": "alɡ", "en": "seaweed, alga", "def": "Une plante qui pousse dans la mer.", "def_en": "A plant that grows in the sea.", "forms": ["algues"], "examples": [
+      {"fr": "À marée basse, la plage est couverte d'**algues**.", "en": "At low tide, the beach is covered in seaweed."},
+      {"fr": "Beurk, j'ai une **algue** sur le pied !", "en": "Yuck, I've got seaweed on my foot!"},
+      {"fr": "Au Japon, on mange beaucoup d'**algues**.", "en": "In Japan, people eat a lot of seaweed."}]},
+    {"id": "ecume", "fr": "écume", "pos": "noun", "g": "f", "ipa": "e.kym", "en": "foam, froth (on the waves)", "def": "Les petites bulles blanches qu'on voit sur les vagues.", "def_en": "The little white bubbles you see on the waves.", "forms": ["écumes"], "examples": [
+      {"fr": "Pierre court dans l'**écume** des vagues.", "en": "Pierre runs through the foam of the waves."},
+      {"fr": "Avec le vent, la mer est pleine d'**écume**.", "en": "With the wind, the sea is full of foam."},
+      {"fr": "L'**écume** blanche brille au soleil.", "en": "The white foam shines in the sun."}]},
+    {"id": "houle", "fr": "houle", "pos": "noun", "g": "f", "ipa": "ul", "en": "swell (of the sea)", "def": "Les grandes vagues longues de la mer, même quand il n'y a pas de tempête.", "def_en": "The big, long waves of the sea, even when there's no storm.", "note": "The h is aspirated: *la houle*.", "forms": ["houles"], "examples": [
+      {"fr": "Aujourd'hui, il y a de la **houle** : les bateaux restent au port.", "en": "There's a swell today: the boats are staying in the harbour."},
+      {"fr": "La **houle** fait bouger le voilier.", "en": "The swell rocks the sailing boat."},
+      {"fr": "Avec la **houle**, Tom est malade sur le bateau.", "en": "With the swell, Tom is seasick on the boat."}]},
+    {"id": "crabe", "fr": "crabe", "pos": "noun", "g": "m", "ipa": "kʁab", "en": "crab", "def": "Un petit animal de la mer, avec dix pattes, qui marche de côté.", "def_en": "A small sea creature with ten legs, which walks sideways.", "forms": ["crabes"], "examples": [
+      {"fr": "Un petit **crabe** [court|courir] sur le sable.", "en": "A little crab runs across the sand."},
+      {"fr": "Les **crabes** marchent de côté.", "en": "Crabs walk sideways."},
+      {"fr": "Il y a un **crabe** dans mon seau !", "en": "There's a crab in my bucket!"}]},
+    {"id": "crevette", "fr": "crevette", "pos": "noun", "g": "f", "ipa": "kʁə.vɛt", "en": "shrimp, prawn", "def": "Un très petit animal de la mer, gris ou rose, qu'on mange souvent en [entrée|entree].", "def_en": "A very small sea creature, grey or pink, often eaten as a starter.", "forms": ["crevettes"], "examples": [
+      {"fr": "Les pêcheurs de **crevettes** travaillent à cheval.", "en": "The shrimp fishermen work on horseback."},
+      {"fr": "En Belgique, on mange des croquettes aux **crevettes**.", "en": "In Belgium, people eat shrimp croquettes."},
+      {"fr": "Ces **crevettes** sont très fraîches.", "en": "These prawns are very fresh."}]},
+    {"id": "moule", "fr": "moule", "pos": "noun", "g": "f", "ipa": "mul", "en": "mussel", "def": "Un petit animal de la mer, noir et long, qu'on mange avec des frites en Belgique.", "def_en": "A small sea creature, black and long, eaten with chips in Belgium.", "note": "*Les moules-frites* = mussels and chips, the Belgian classic. *Un moule* (masculine) is a mould or a cake tin.", "forms": ["moules"], "examples": [
+      {"fr": "À Ostende, ils commandent des **moules**-frites.", "en": "In Ostend, they order mussels and chips."},
+      {"fr": "On cuit les **moules** avec du vin blanc et des oignons.", "en": "You cook mussels with white wine and onions."},
+      {"fr": "Cette **moule** est restée fermée : ne la mange pas.", "en": "This mussel has stayed closed: don't eat it."}]},
+    {"id": "huitre", "fr": "huître", "pos": "noun", "g": "f", "ipa": "ɥitʁ", "en": "oyster", "def": "Un animal de la mer qu'on mange cru, souvent avec du citron.", "def_en": "A sea creature eaten raw, often with lemon.", "forms": ["huîtres"], "examples": [
+      {"fr": "Pierre goûte sa première **huître**.", "en": "Pierre tastes his first oyster."},
+      {"fr": "Les **huîtres** d'Ostende sont célèbres.", "en": "Ostend oysters are famous."},
+      {"fr": "En France, on mange des **huîtres** à Noël.", "en": "In France, people eat oysters at Christmas."}]},
+    {"id": "meduse", "fr": "méduse", "pos": "noun", "g": "f", "ipa": "me.dyz", "en": "jellyfish", "def": "Un animal de la mer, tout mou, qui peut brûler la peau.", "def_en": "A soft sea creature that can sting the skin.", "forms": ["méduses"], "examples": [
+      {"fr": "Ne touche pas la **méduse**, ça brûle !", "en": "Don't touch the jellyfish, it stings!"},
+      {"fr": "Il y a des **méduses** sur la plage aujourd'hui.", "en": "There are jellyfish on the beach today."},
+      {"fr": "Hugo marche presque sur une **méduse**.", "en": "Hugo almost steps on a jellyfish."}]},
+    {"id": "mouette", "fr": "mouette", "pos": "noun", "g": "f", "ipa": "mwɛt", "en": "seagull, gull", "def": "Un oiseau blanc et gris qui vit au bord de la mer et qui crie fort.", "def_en": "A white and grey bird that lives by the sea and cries loudly.", "forms": ["mouettes"], "examples": [
+      {"fr": "Une **mouette** a volé les frites de Hugo.", "en": "A seagull stole Hugo's chips."},
+      {"fr": "Les **mouettes** suivent les bateaux de pêche.", "en": "Gulls follow the fishing boats."},
+      {"fr": "Le matin, on entend crier les **mouettes**.", "en": "In the morning, you can hear the gulls crying."}]},
+    {"id": "pecheur", "fr": "pêcheur", "pos": "noun", "g": "m", "ipa": "pɛ.ʃœʁ", "display": "le pêcheur, la pêcheuse", "en": "fisherman, fisher", "def": "Une personne qui attrape des poissons, pour son travail ou pour son plaisir.", "def_en": "A person who catches fish, for work or for pleasure.", "forms": ["pêcheurs", "pêcheuse", "pêcheuses"], "examples": [
+      {"fr": "Le **pêcheur** rentre au port avec son bateau.", "en": "The fisherman comes back to the harbour with his boat."},
+      {"fr": "Ce **pêcheur** se lève à quatre heures du matin.", "en": "This fisherman gets up at four in the morning."},
+      {"fr": "Il y a beaucoup de **pêcheurs** sur le quai.", "en": "There are lots of fishermen on the quay."}]},
+    {"id": "filet", "fr": "filet", "pos": "noun", "g": "m", "ipa": "fi.lɛ", "en": "net; (meat, fish) fillet", "def": "Un objet fait de fils, avec des trous, pour attraper les poissons ; un morceau de viande ou de poisson sans os.", "def_en": "Something made of threads, with holes, for catching fish; a boneless piece of meat or fish.", "forms": ["filets"], "examples": [
+      {"fr": "Le cheval tire un **filet** derrière lui.", "en": "The horse pulls a net behind it."},
+      {"fr": "Au tennis, la balle a touché le **filet**.", "en": "In tennis, the ball hit the net."},
+      {"fr": "Je prends le **filet** de poisson, avec des légumes.", "en": "I'll have the fish fillet, with vegetables."}]},
+    {"id": "voilier", "fr": "voilier", "pos": "noun", "g": "m", "ipa": "vwa.lje", "en": "sailing boat, sailboat", "def": "Un bateau qui avance grâce au vent.", "def_en": "A boat that moves thanks to the wind.", "forms": ["voiliers"], "examples": [
+      {"fr": "Un **voilier** blanc traverse la baie.", "en": "A white sailing boat crosses the bay."},
+      {"fr": "Mon rêve : faire le tour du monde en **voilier**.", "en": "My dream: to sail around the world."},
+      {"fr": "Dans le port, il y a un très vieux **voilier**, devenu un musée.", "en": "In the harbour, there's a very old sailing ship that has become a museum."}]},
+    {"id": "voile", "fr": "voile", "pos": "noun", "g": "f", "ipa": "vwal", "en": "sail; sailing", "def": "Le grand tissu qui prend le vent sur un bateau ; le sport qu'on fait avec ces bateaux.", "def_en": "The big piece of cloth that catches the wind on a boat; the sport done with these boats.", "note": "*Faire de la voile* = to go sailing. *Un voile* (masculine) is a veil.", "forms": ["voiles"], "examples": [
+      {"fr": "Dans la baie, on voit des dizaines de **voiles** blanches.", "en": "In the bay, you can see dozens of white sails."},
+      {"fr": "Cet été, je vais faire de la **voile** en Bretagne.", "en": "This summer, I'm going sailing in Brittany."},
+      {"fr": "Le vent pousse les **voiles**.", "en": "The wind pushes the sails."}]},
+    {"id": "cerf-volant", "fr": "cerf-volant", "pos": "noun", "g": "m", "ipa": "sɛʁ.vɔ.lɑ̃", "en": "kite", "def": "Un jouet léger, au bout d'un long fil, que le vent fait monter dans le ciel.", "def_en": "A light toy on the end of a long string, which the wind lifts into the sky.", "note": "The plural is *des cerfs-volants*.", "forms": ["cerfs-volants"], "examples": [
+      {"fr": "Hugo achète un **cerf-volant** en forme de dragon.", "en": "Hugo buys a dragon-shaped kite."},
+      {"fr": "Le vent emporte le **cerf-volant**.", "en": "The wind carries the kite away."},
+      {"fr": "Sur la plage, les enfants font voler des **cerfs-volants**.", "en": "On the beach, children fly kites."}]},
+    {"id": "bouee", "fr": "bouée", "pos": "noun", "g": "f", "ipa": "bu.e", "en": "rubber ring; buoy", "def": "Un objet rond qui flotte, pour aider à nager ; un objet qui flotte sur la mer pour montrer le chemin aux bateaux.", "def_en": "A round thing that floats, to help you swim; a floating object on the sea that shows boats the way.", "note": "*Une bouée de sauvetage* = a lifebuoy.", "forms": ["bouées"], "examples": [
+      {"fr": "Hugo entre dans l'eau avec une **bouée** en forme de canard.", "en": "Hugo goes into the water with a duck-shaped rubber ring."},
+      {"fr": "Le maître-nageur lance une **bouée** à l'enfant.", "en": "The lifeguard throws a lifebuoy to the child."},
+      {"fr": "Une **bouée** rouge flotte au milieu de la baie.", "en": "A red buoy floats in the middle of the bay."}]},
+    {"id": "maitre-nageur", "fr": "maître-nageur", "pos": "noun", "g": "m", "ipa": "mɛtʁ.na.ʒœʁ", "en": "lifeguard; swimming instructor", "def": "La personne qui surveille les gens dans l'eau, à la plage ou à la piscine.", "def_en": "The person who watches over people in the water, at the beach or the pool.", "forms": ["maîtres-nageurs"], "examples": [
+      {"fr": "Le **maître-nageur** crie : il ne faut pas nager trop loin.", "en": "The lifeguard shouts: you mustn't swim too far out."},
+      {"fr": "La plage est surveillée par deux **maîtres-nageurs**.", "en": "The beach is watched over by two lifeguards."},
+      {"fr": "C'est un **maître-nageur** qui m'a appris à nager.", "en": "It was a swimming instructor who taught me to swim."}]},
+    {"id": "baignade", "fr": "baignade", "pos": "noun", "g": "f", "ipa": "bɛ.ɲad", "en": "swimming, bathing", "def": "Le fait d'aller dans l'eau, à la mer, dans un lac ou à la piscine.", "def_en": "Going into the water, in the sea, a lake or the pool.", "forms": ["baignades"], "examples": [
+      {"fr": "**Baignade** interdite : il y a trop de vent.", "en": "No swimming: it's too windy."},
+      {"fr": "La **baignade** est surveillée jusqu'à dix-huit heures.", "en": "Swimming is supervised until 6 p.m."},
+      {"fr": "Après la **baignade**, on boit un chocolat chaud.", "en": "After the swim, we drink a hot chocolate."}]},
+    {"id": "se-noyer", "fr": "se noyer", "pos": "verb", "ipa": "sə nwa.je", "en": "to drown", "def": "Mourir parce qu'on ne peut plus respirer sous l'eau.", "def_en": "To die because you can no longer breathe under water.", "note": "*Se noyer dans un verre d'eau* = to make a mountain out of a molehill (lit. to drown in a glass of water). *Noyer* = to drown (someone, something).", "forms": ["me noie", "te noies", "se noie", "nous nous noyons", "vous vous noyez", "se noient", "me noyer", "te noyer", "nous noyer", "vous noyer", "noyer", "me noierai", "te noieras", "se noiera", "nous nous noierons", "vous vous noierez", "se noieront", "me noierais", "te noierais", "se noierait", "nous nous noierions", "vous vous noieriez", "se noieraient", "noie", "noies", "noyons", "noyez", "noient", "noyé", "noyée", "noyés", "noyées", "noyais", "noyait", "noyions", "noyiez", "noyaient", "noierai", "noieras", "noiera", "noierons", "noierez", "noieront", "noierais", "noierait", "noierions", "noieriez", "noieraient", "noyant", "noyai", "noyas", "noya", "noyâmes", "noyâtes", "noyèrent"], "examples": [
+      {"fr": "Au secours, je me **noie** !", "en": "Help, I'm drowning!"},
+      {"fr": "Il ne sait pas nager : il a peur de se **noyer**.", "en": "He can't swim: he's afraid of drowning."},
+      {"fr": "Ne t'inquiète pas, on ne se **noie** pas dans dix centimètres d'eau.", "en": "Don't worry, you don't drown in ten centimetres of water."}]}
+  ],
+  "story": {
+    "title": "La mer du Nord",
+    "en": "Thursday 13 to Sunday 16 May: Pierre sees the North Sea at last, with Léa and Hugo.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi treize mai, jour de l'Ascension, Pierre, Léa et Hugo prennent le TGV pour Bruxelles, puis un train pour Ostende, une station balnéaire de la côte belge.", "en": "On Thursday 13 May, Ascension Day, Pierre, Léa and Hugo take the TGV to Brussels, then a train to Ostend, a seaside resort on the Belgian coast."},
+      {"sp": "", "fr": "C'est le cadeau de Noël de toute la famille : depuis toujours, Pierre rêve de voir la mer du Nord.", "en": "It's the whole family's Christmas present: Pierre has always dreamt of seeing the North Sea."},
+      {"sp": "", "fr": "À six heures du soir, ils arrivent sur la digue, la longue promenade au bord de la plage. Pierre pose son sac et ne dit plus rien.", "en": "At six in the evening, they reach the digue, the long promenade along the beach. Pierre puts his bag down and says nothing more."},
+      {"sp": "Pierre", "fr": "Elle est grise… et elle est magnifique.", "en": "It's grey… and it's magnificent."},
+      {"sp": "Hugo", "fr": "Et quel vent ! Mes lunettes vont s'envoler.", "en": "And what a wind! My glasses are going to blow away."},
+      {"sp": "", "fr": "Le vendredi matin, c'est la marée basse. La mer est partie si loin qu'on ne voit plus que du sable mouillé.", "en": "On Friday morning, it's low tide. The sea has gone so far out that all you can see is wet sand."},
+      {"sp": "Pierre", "fr": "On a volé la mer !", "en": "Someone's stolen the sea!"},
+      {"sp": "Léa", "fr": "Mais non, elle revient dans six heures. C'est la marée : à Marseille, on ne la voit presque pas.", "en": "Of course not, it'll be back in six hours. It's the tide: in Marseille, you hardly notice it."},
+      {"sp": "", "fr": "Ils marchent longtemps jusqu'au rivage. Partout, il y a des coquillages, des algues et de petits crabes qui courent de côté.", "en": "They walk a long way to the water's edge. Everywhere there are shells, seaweed and little crabs running sideways."},
+      {"sp": "Léa", "fr": "Je ramasse des coquillages pour Lou. Hugo, attention, à tes pieds !", "en": "I'm picking up shells for Lou. Hugo, watch out, by your feet!"},
+      {"sp": "Hugo", "fr": "C'est quoi, ce truc tout mou ?", "en": "What's this squishy thing?"},
+      {"sp": "Léa", "fr": "Une méduse. Ne la touche pas, ça brûle !", "en": "A jellyfish. Don't touch it, it stings!"},
+      {"sp": "", "fr": "Le samedi, ils prennent le tram de la côte, le plus long du monde : il suit tout le littoral belge, de la France jusqu'aux Pays-Bas.", "en": "On Saturday, they take the coast tram, the longest in the world: it follows the whole Belgian coastline, from France to the Netherlands."},
+      {"sp": "", "fr": "Dans un petit village, ils découvrent un spectacle unique : les pêcheurs de crevettes à cheval. Les grands chevaux entrent dans la mer jusqu'au ventre et tirent un filet derrière eux.", "en": "In a little village, they discover a unique sight: the shrimp fishermen on horseback. The big horses wade into the sea up to their bellies and pull a net behind them."},
+      {"sp": "Pierre", "fr": "Quarante-cinq ans avec mes vaches, et je n'avais jamais vu ça !", "en": "Forty-five years with my cows, and I'd never seen that!"},
+      {"sp": "Un pêcheur", "fr": "Mes chevaux travaillent mieux que moi. Et pourtant, j'ai septante-deux ans !", "en": "My horses work better than I do. And I'm seventy-two!"},
+      {"sp": "Pierre", "fr": "Septante ! Tom serait content.", "en": "Septante! Tom would be pleased."},
+      {"sp": "", "fr": "À midi, ils mangent des moules-frites et des croquettes aux crevettes sur la digue. Une mouette arrive à côté de Hugo et le regarde.", "en": "At noon, they eat mussels and chips and shrimp croquettes on the promenade. A seagull lands next to Hugo and stares at him."},
+      {"sp": "Hugo", "fr": "Bonjour, madame la mouette. Non, non : ce sont mes frites.", "en": "Good afternoon, Madam Seagull. No, no: these are my chips."},
+      {"sp": "", "fr": "Trop tard ! La mouette s'envole avec la moitié de ses frites.", "en": "Too late! The seagull flies off with half his chips."},
+      {"sp": "Pierre", "fr": "Pour une fois, quelqu'un mange plus vite que toi !", "en": "For once, someone eats faster than you!"},
+      {"sp": "", "fr": "L'après-midi, la houle se lève et le vent souffle fort. Dans la baie, on voit des dizaines de voiles blanches : les voiliers sortent du port.", "en": "In the afternoon, the swell rises and the wind blows hard. In the bay, you can see dozens of white sails: the sailing boats are leaving the harbour."},
+      {"sp": "", "fr": "Hugo achète un cerf-volant en forme de dragon. Au bout de deux minutes, le vent l'emporte sur un rocher, au milieu de l'eau.", "en": "Hugo buys a dragon-shaped kite. After two minutes, the wind carries it off onto a rock in the middle of the water."},
+      {"sp": "Hugo", "fr": "Mon dragon ! Il s'est échappé !", "en": "My dragon! It's escaped!"},
+      {"sp": "", "fr": "Le dimanche matin, Pierre met son maillot de bain. Il veut se baigner dans la mer du Nord, même si l'eau est à douze degrés.", "en": "On Sunday morning, Pierre puts on his swimming trunks. He wants to swim in the North Sea, even though the water is twelve degrees."},
+      {"sp": "Le maître-nageur", "fr": "Baignade surveillée jusqu'à dix-huit heures ! Ne nagez pas trop loin !", "en": "Lifeguards on duty until 6 p.m.! Don't swim too far out!"},
+      {"sp": "", "fr": "Pierre court dans l'écume en criant comme un enfant.", "en": "Pierre runs through the foam, shouting like a child."},
+      {"sp": "Pierre", "fr": "Elle est bonne ! Venez !", "en": "It's lovely! Come on in!"},
+      {"sp": "", "fr": "Hugo entre dans l'eau jusqu'aux genoux, avec une bouée en forme de canard, sous les yeux du maître-nageur.", "en": "Hugo wades in up to his knees, with a duck-shaped rubber ring, under the lifeguard's eye."},
+      {"sp": "Hugo", "fr": "Au secours ! Je me noie ! Elle est glacée !", "en": "Help! I'm drowning! It's freezing!"},
+      {"sp": "Le maître-nageur", "fr": "Monsieur, vous avez de l'eau jusqu'aux genoux. Vous pouvez enlever votre bouée.", "en": "Sir, the water only comes up to your knees. You can take off your rubber ring."},
+      {"sp": "", "fr": "Le soir, pour finir, Pierre goûte ses premières huîtres, face à la mer.", "en": "In the evening, to finish, Pierre tastes his first oysters, facing the sea."},
+      {"sp": "Pierre", "fr": "Je reviendrai. Et la prochaine fois, je reste une semaine.", "en": "I'll be back. And next time, I'm staying a week."},
+      {"sp": "Hugo", "fr": "Et moi, je reviendrai avec un cerf-volant plus lourd… et des frites pour la mouette.", "en": "And I'll come back with a heavier kite… and chips for the seagull."}
+    ]
+  }
+}

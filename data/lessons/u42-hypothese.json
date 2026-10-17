@@ -1,0 +1,120 @@
+{
+  "id": "u42-hypothese",
+  "type": "grammar",
+  "unit": 42,
+  "title": "Pourvu que ce soit oui !",
+  "en": "Hypothesis: si jamais, au cas où, à condition que, pourvu que",
+  "intro": "Besides **si**, French has a whole family of words for imagining what might happen, and each one takes its own mood. **Si jamais** (if ever) takes the indicative, like *si*. **Au cas où** (in case) and **quand bien même** (even if) take the conditional. **À condition que** (provided that), **pourvu que** (provided that; let's hope), **à moins que** (unless) and **à supposer que** (supposing that) take the subjunctive. With the same subject, some have a short form with an infinitive: *à condition **d'**être à l'heure*, *à moins **d'**être malade*. Before a noun, use **en cas de**: *en cas de pluie*.",
+  "cases": [
+    {"id": "hyp-si-jamais", "label": "si jamais + indicative", "rule": "*Si jamais* (if ever, if by any chance) works like *si*: present, imparfait or plus-que-parfait, never the future or the conditional. It makes the hypothesis less likely, a bit like *should* in English: *Si jamais tu vois Hugo, dis-lui de m'appeler* (should you see Hugo…)."},
+    {"id": "hyp-au-cas-ou", "label": "au cas où + conditional, en cas de + noun", "rule": "*Au cas où* (in case) and *dans le cas où* take the **conditional**: *Prends un parapluie, au cas où il pleuvrait.* Alone at the end of a sentence, *au cas où* means *just in case*. Before a noun, use *en cas de*: *en cas de pluie, en cas de problème*."},
+    {"id": "hyp-condition", "label": "à condition que, pourvu que, à moins que + subjunctive", "rule": "A condition takes the **subjunctive**: *à condition que tu sois là* (provided you're there), *pourvu qu'il fasse beau* (provided the weather's nice), *à moins qu'il pleuve* (unless it rains). With the same subject, use *à condition de* or *à moins de* + infinitive: *à condition d'être là, à moins d'être malade*."},
+    {"id": "hyp-pourvu", "label": "Pourvu que… ! (let's hope)", "rule": "Alone, at the start of a sentence, *pourvu que* + subjunctive is a wish, often a worried one: *Pourvu qu'il fasse beau !* = Let's hope the weather's nice! *Pourvu que ce soit oui !* = Let's hope it's a yes!"},
+    {"id": "hyp-supposer", "label": "à supposer que, en admettant que, supposons que + subjunctive", "rule": "To imagine a situation and reason from it, use *à supposer que* (supposing that), *en admettant que* (assuming that) or *supposons que* (let's suppose that) + subjunctive: *À supposer qu'ils te prennent, tu commenceras en septembre.*"},
+    {"id": "hyp-quand-bien-meme", "label": "quand bien même + conditional, même si + indicative", "rule": "*Quand bien même* (even if) is formal, and takes the **conditional**: *Quand bien même ils diraient non, tu resterais musicien.* In everyday French, say *même si* + indicative: *Même si c'est non, je continuerai.*"}
+  ],
+  "sections": [
+    {"title": "1. si jamais", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Si jamais tu vois Hugo, dis-lui de m'appeler.", "If you happen to see Hugo, tell him to call me."],
+      ["Si jamais il pleut, on mangera à l'intérieur.", "If by any chance it rains, we'll eat inside."],
+      ["Si jamais tu avais besoin d'aide, je serais là.", "If ever you needed help, I'd be there."]]},
+     "examples": [
+      {"fr": "Et {si jamais c'est non|hyp-si-jamais}, tu repasseras l'audition l'année prochaine.", "en": "And if it's a no, you'll do the audition again next year."},
+      {"fr": "{Si jamais je deviens célèbre|hyp-si-jamais}, je vous jouerai une chanson à chaque concert.", "en": "If I ever become famous, I'll play you a song at every concert."}],
+     "tip": "Never the future or the conditional right after si jamais: say si jamais tu es en retard, not si jamais tu seras en retard."},
+    {"title": "2. au cas où, en cas de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Prends un parapluie, au cas où il pleuvrait.", "Take an umbrella, in case it rains."],
+      ["Je te laisse ma clé, au cas où.", "I'll leave you my key, just in case."],
+      ["En cas de pluie, la fête aura lieu dans la grange.", "If it rains, the party will be held in the barn."]]},
+     "examples": [
+      {"fr": "Moi, j'ai commandé des croissants, {au cas où il faudrait fêter|hyp-au-cas-ou} quelque chose.", "en": "I've ordered croissants, in case we need to celebrate something."},
+      {"fr": "Et {en cas de mauvaise nouvelle|hyp-au-cas-ou} ?", "en": "And if it's bad news?"}],
+     "tip": "Au cas où keeps the conditional in the past too: il avait pris un pull, au cas où il ferait froid (he had taken a jumper, in case it was cold)."},
+    {"title": "3. à condition que, pourvu que, à moins que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je te prête ma voiture, à condition que tu sois prudent.", "I'll lend you my car, provided you're careful."],
+      ["On fera un pique-nique, pourvu qu'il fasse beau.", "We'll have a picnic, provided the weather's nice."],
+      ["On ira à la plage, à moins qu'il pleuve.", "We'll go to the beach, unless it rains."],
+      ["Tu peux venir, à condition d'être à l'heure.", "You can come, as long as you're on time."]]},
+     "examples": [
+      {"fr": "Je reste pour la fête, {à condition qu'elle ne finisse pas|hyp-condition} trop tard.", "en": "I'll stay for the party, provided it doesn't finish too late."},
+      {"fr": "Vous êtes admis, {à condition de nous envoyer|hyp-condition} votre inscription avant le quinze juin.", "en": "You are admitted, provided you send us your registration before 15 June."}],
+     "tip": "À moins que often takes the ne explétif of Unit 41: à moins qu'il ne pleuve."},
+    {"title": "4. Pourvu que… ! (a wish)", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Pourvu qu'il fasse beau demain !", "Let's hope it's nice tomorrow!"],
+      ["Pourvu qu'il n'oublie pas le gâteau !", "Let's hope he doesn't forget the cake!"],
+      ["Pourvu que le train soit à l'heure !", "Let's hope the train is on time!"]]},
+     "examples": [
+      {"fr": "{Pourvu que ce soit oui|hyp-pourvu} ! Je ne vais pas dormir de la nuit.", "en": "Let's hope it's a yes! I won't sleep a wink."},
+      {"fr": "{Pourvu qu'ils aient|hyp-pourvu} des croissants à l'université !", "en": "Let's hope they have croissants at the university!"}],
+     "tip": "In the middle of a sentence, pourvu que means provided that (section 3); alone, at the start, it is a wish."},
+    {"title": "5. à supposer que, en admettant que, supposons que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À supposer qu'il vienne, il dormira sur le canapé.", "Supposing he comes, he'll sleep on the sofa."],
+      ["En admettant que tu aies raison, il faut tout recommencer.", "Assuming you're right, we have to start all over again."],
+      ["Supposons que tu gagnes au loto : qu'est-ce que tu achètes ?", "Let's suppose you win the lottery: what do you buy?"]]},
+     "examples": [
+      {"fr": "{À supposer qu'ils me prennent|hyp-supposer}, il faudra que je travaille le solfège tout l'été.", "en": "Supposing they take me, I'll have to work on music theory all summer."},
+      {"fr": "{Supposons qu'ils aient perdu ton dossier|hyp-supposer}…", "en": "Let's suppose they've lost your file…"}],
+     "tip": "Supposons is simply the verb supposer in the imperative: let's suppose."},
+    {"title": "6. quand bien même, même si", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Quand bien même il pleuvrait, nous partirions.", "Even if it rained, we would leave."],
+      ["Quand bien même tu aurais raison, je ne changerais pas d'avis.", "Even if you were right, I wouldn't change my mind."],
+      ["Même s'il pleut, nous partirons.", "Even if it rains, we'll leave."]]},
+     "examples": [
+      {"fr": "{Quand bien même ils diraient non|hyp-quand-bien-meme}, tu resterais le meilleur guitariste de Lyon.", "en": "Even if they said no, you'd still be the best guitarist in Lyon."},
+      {"fr": "{Même si c'est non|hyp-quand-bien-meme}, je continuerai la musique.", "en": "Even if it's a no, I'll carry on with music."}],
+     "tip": "Quand bien même belongs to careful, written French; in conversation, même si is enough."}
+  ],
+  "mistakes": [
+    {"wrong": "Pourvu qu'il fait beau !", "right": "Pourvu qu'il fasse beau !", "why": "Pourvu que takes the subjunctive."},
+    {"wrong": "Si jamais tu seras en retard, appelle-moi.", "right": "Si jamais tu es en retard, appelle-moi.", "why": "Like si, si jamais never takes the future or the conditional."},
+    {"wrong": "Prends un parapluie, au cas où il pleut.", "right": "Prends un parapluie, au cas où il pleuvrait.", "why": "In careful French, au cas où takes the conditional."},
+    {"wrong": "À condition que tu viens, je reste.", "right": "À condition que tu viennes, je reste.", "why": "À condition que takes the subjunctive."},
+    {"wrong": "Quand bien même il dit non, je partirai.", "right": "Quand bien même il dirait non, je partirais.", "why": "Quand bien même takes the conditional. With the indicative, say même s'il dit non, je partirai."},
+    {"wrong": "En cas qu'il pleuve, on reste ici.", "right": "En cas de pluie, on reste ici.", "why": "En cas de is followed by a noun; with a verb, use au cas où + conditional."}
+  ],
+  "story": {
+    "title": "La réponse",
+    "en": "Friday 28 May: Tom waits for the university's answer.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi vingt-huit mai, à dix-huit heures, au café d'en bas. L'université envoie ses réponses aujourd'hui, avant minuit.", "en": "Friday 28 May, at six in the evening, at the café downstairs. The university is sending out its answers today, before midnight."},
+      {"sp": "Tom", "fr": "{Pourvu que ce soit oui|hyp-pourvu} ! Je ne vais pas dormir de la nuit.", "en": "Let's hope it's a yes! I won't sleep a wink."},
+      {"sp": "Camille", "fr": "Et {si jamais c'est non|hyp-si-jamais}, tu repasseras l'audition l'année prochaine. Ce n'est pas la fin du monde.", "en": "And if it's a no, you'll do the audition again next year. It's not the end of the world."},
+      {"sp": "Tom", "fr": "Trois cents candidats pour trente places… {À supposer qu'ils me prennent|hyp-supposer}, il faudra que je travaille le solfège tout l'été.", "en": "Three hundred applicants for thirty places… Supposing they take me, I'll have to work on music theory all summer."},
+      {"sp": "Hugo", "fr": "Moi, j'ai commandé des croissants, {au cas où il faudrait fêter|hyp-au-cas-ou} quelque chose.", "en": "I've ordered croissants, in case we need to celebrate something."},
+      {"sp": "Léa", "fr": "Et {en cas de mauvaise nouvelle|hyp-au-cas-ou} ?", "en": "And if it's bad news?"},
+      {"sp": "Hugo", "fr": "Je les mangerai pour consoler Tom.", "en": "I'll eat them to console Tom."},
+      {"sp": "Enzo", "fr": "Moi, je reste pour la fête, {à condition qu'elle ne finisse pas|hyp-condition} trop tard. Demain, je me lève à quatre heures.", "en": "I'll stay for the party, provided it doesn't finish too late. Tomorrow, I'm getting up at four."},
+      {"sp": "Carla", "fr": "Tom, {quand bien même ils diraient non|hyp-quand-bien-meme}, tu resterais le meilleur guitariste de Lyon.", "en": "Tom, even if they said no, you'd still be the best guitarist in Lyon."},
+      {"sp": "Tom", "fr": "Merci. {Même si c'est non|hyp-quand-bien-meme}, je continuerai la musique.", "en": "Thanks. Even if it's a no, I'll carry on with music."},
+      {"sp": "Hugo", "fr": "{Supposons qu'ils aient perdu ton dossier|hyp-supposer}…", "en": "Let's suppose they've lost your file…"},
+      {"sp": "Léa", "fr": "Hugo !", "en": "Hugo!"},
+      {"sp": "Sophie", "fr": "{À moins d'avoir oublié ton nom|hyp-condition}, ils t'écriront ce soir. Arrête de regarder ton téléphone.", "en": "Unless they've forgotten your name, they'll write to you tonight. Stop looking at your phone."},
+      {"sp": "", "fr": "À vingt et une heures douze, le téléphone de Tom vibre. Tout le monde se tait.", "en": "At 9.12 p.m., Tom's phone buzzes. Everyone goes quiet."},
+      {"sp": "Tom", "fr": "« Monsieur, nous avons le plaisir de vous informer que vous êtes admis en première année de licence de musique, {à condition de nous envoyer|hyp-condition} votre inscription avant le quinze juin. »", "en": "'Dear Sir, we are pleased to inform you that you have been admitted to the first year of the music degree, provided you send us your registration before 15 June.'"},
+      {"sp": "Tom", "fr": "Je suis pris ! Je suis pris !", "en": "I'm in! I'm in!"},
+      {"sp": "", "fr": "Camille saute dans ses bras, et Hugo offre des croissants à tout le monde.", "en": "Camille jumps into his arms, and Hugo hands croissants round to everyone."},
+      {"sp": "Enzo", "fr": "Bravo, l'Anglais ! {Pourvu qu'ils aient|hyp-pourvu} des croissants à l'université !", "en": "Well done, l'Anglais! Let's hope they have croissants at the university!"},
+      {"sp": "Tom", "fr": "{Si jamais je deviens célèbre|hyp-si-jamais}, je vous jouerai une chanson à chaque concert.", "en": "If I ever become famous, I'll play you a song at every concert."},
+      {"sp": "", "fr": "Tom appelle ses parents à Londres.", "en": "Tom calls his parents in London."},
+      {"sp": "Tom", "fr": "Maman ? Assieds-toi, {au cas où tu tomberais|hyp-au-cas-ou}. Ton fils va étudier la musique en France !", "en": "Mum? Sit down, in case you fall over. Your son is going to study music in France!"},
+      {"sp": "Hugo", "fr": "{En admettant que tu deviennes|hyp-supposer} une vedette, tu m'inviteras à tes concerts ?", "en": "Assuming you become a star, will you invite me to your concerts?"},
+      {"sp": "Tom", "fr": "Oui, {à condition que tu ne chantes pas|hyp-condition} !", "en": "Yes, provided you don't sing!"}
+    ]
+  },
+  "quiz": [
+    {"case": "hyp-si-jamais", "type": "mc", "q": "Si jamais tu ___ en retard, appelle-moi.", "en": "If you're ever late, call me.", "options": ["es", "seras", "serais"], "answer": "es"},
+    {"case": "hyp-si-jamais", "type": "mc", "q": "___ tu vois Hugo, dis-lui de m'appeler.", "en": "If you happen to see Hugo, tell him to call me.", "options": ["Si jamais", "Au cas où", "Pourvu que"], "answer": "Si jamais"},
+    {"case": "hyp-au-cas-ou", "type": "mc", "q": "Prends un parapluie, au cas où il ___.", "en": "Take an umbrella, in case it rains.", "options": ["pleuvrait", "pleuve", "pleuvra"], "answer": "pleuvrait"},
+    {"case": "hyp-au-cas-ou", "type": "mc", "q": "___ pluie, la fête aura lieu dans la grange.", "en": "If it rains, the party will be held in the barn.", "options": ["En cas de", "Au cas où", "Si jamais"], "answer": "En cas de"},
+    {"case": "hyp-condition", "type": "mc", "q": "Je te prête ma voiture, à condition que tu ___ prudent.", "en": "I'll lend you my car, provided you're careful.", "options": ["sois", "es", "serais"], "answer": "sois"},
+    {"case": "hyp-condition", "type": "mc", "q": "Tu peux venir, à condition ___ à l'heure.", "en": "You can come, as long as you're on time.", "options": ["d'être", "que tu es", "à être"], "answer": "d'être"},
+    {"case": "hyp-condition", "type": "mc", "lang": "en", "q": "« On ira à la plage, à moins qu'il pleuve » means…", "options": ["We'll go to the beach, unless it rains.", "We'll go to the beach, because it's raining.", "We'll go to the beach, even if it rains."], "answer": "We'll go to the beach, unless it rains.", "say": "On ira à la plage, à moins qu'il pleuve."},
+    {"case": "hyp-pourvu", "type": "mc", "q": "Pourvu qu'il ___ beau demain !", "en": "Let's hope it's nice tomorrow!", "options": ["fasse", "fait", "fera"], "answer": "fasse"},
+    {"case": "hyp-pourvu", "type": "mc", "lang": "en", "q": "« Pourvu que ce soit oui ! » means…", "options": ["Let's hope it's a yes!", "Even if it's a yes!", "In case it's a yes!"], "answer": "Let's hope it's a yes!", "say": "Pourvu que ce soit oui !"},
+    {"case": "hyp-supposer", "type": "mc", "q": "À supposer qu'il ___, il dormira sur le canapé.", "en": "Supposing he comes, he'll sleep on the sofa.", "options": ["vienne", "vient", "viendrait"], "answer": "vienne"},
+    {"case": "hyp-supposer", "type": "mc", "q": "En admettant que tu ___ raison, il faut tout recommencer.", "en": "Assuming you're right, we have to start all over again.", "options": ["aies", "as", "auras"], "answer": "aies"},
+    {"case": "hyp-quand-bien-meme", "type": "mc", "q": "Quand bien même ils ___ non, tu resterais musicien.", "en": "Even if they said no, you'd still be a musician.", "options": ["diraient", "disent", "disaient"], "answer": "diraient"},
+    {"case": "hyp-quand-bien-meme", "type": "mc", "q": "___ c'est non, je continuerai la musique.", "en": "Even if it's a no, I'll carry on with music.", "options": ["Même si", "Quand bien même", "Pourvu que"], "answer": "Même si"}
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "u42-adjectifs",
+  "type": "vocab",
+  "unit": 42,
+  "title": "Rare, unique, mystérieux",
+  "en": "Common adjectives (1)",
+  "intro": "25 adjectives that French uses all the time: rare and special things (**rare, unique, véritable, particulier, personnel, mystérieux, fameux, sacré**), good and bad (**merveilleux, superbe, charmant, affreux, horrible, ridicule**), size and number (**vaste, nombreux, moindre, exact, puissant**), and how things look (**pâle, obscur, nu, immobile, lointain, militaire**).",
+  "words": [
+    {"id": "rare", "fr": "rare", "pos": "adj", "ipa": "ʁaʁ", "en": "rare; unusual; scarce", "def": "Qu'on ne trouve pas souvent.", "def_en": "That you don't find often.", "note": "*Rarement* = rarely.", "forms": ["rares"], "examples": [
+      {"fr": "Tom trouve un disque **rare** d'Édith Piaf.", "en": "Tom finds a rare Édith Piaf record."},
+      {"fr": "Hugo à l'heure ? C'est **rare** !", "en": "Hugo on time? That's rare!"},
+      {"fr": "Les vrais amis sont **rares**.", "en": "True friends are rare."}]},
+    {"id": "unique", "fr": "unique", "pos": "adj", "ipa": "y.nik", "en": "unique, one of a kind; only", "def": "Il n'en existe qu'un ; très différent des autres.", "def_en": "There is only one of it; very different from the others.", "note": "*Un fils unique* = an only son. *Une rue à sens unique* = a one-way street.", "forms": ["uniques"], "examples": [
+      {"fr": "C'est une pièce **unique**, monsieur !", "en": "It's a one-off piece, sir!"},
+      {"fr": "Mon père est fils **unique**.", "en": "My father is an only child."},
+      {"fr": "Les pêcheurs à cheval, c'est un spectacle **unique** au monde.", "en": "The fishermen on horseback are a sight unique in the world."}]},
+    {"id": "veritable", "fr": "véritable", "pos": "adj", "ipa": "ve.ʁi.tabl", "en": "real, genuine, true", "def": "Qui est vraiment ce qu'on dit ; pas faux.", "def_en": "That really is what it's said to be; not fake.", "forms": ["véritables"], "examples": [
+      {"fr": "Ce disque est un **véritable** trésor.", "en": "This record is a real treasure."},
+      {"fr": "C'est du cuir **véritable** ?", "en": "Is it genuine leather?"},
+      {"fr": "Pour Pierre, ce voyage est un **véritable** [rêve|reve].", "en": "For Pierre, this trip is a dream come true."}]},
+    {"id": "particulier", "fr": "particulier", "pos": "adj", "ipa": "paʁ.ti.ky.lje", "display": "particulier, particulière", "en": "particular, special, unusual; private", "def": "Qui n'est pas comme les autres ; qui est pour une seule personne.", "def_en": "That isn't like the others; that is for one person only.", "note": "*En particulier* = in particular. *Un cours particulier* = a private lesson.", "forms": ["particulière", "particuliers", "particulières"], "examples": [
+      {"fr": "Cette veste a un style très **particulier**.", "en": "This jacket has a very particular style."},
+      {"fr": "Léa donne des cours **particuliers** de français.", "en": "Léa gives private French lessons."},
+      {"fr": "Tu fais quelque chose de **particulier** ce week-end ?", "en": "Are you doing anything special this weekend?"}]},
+    {"id": "personnel", "fr": "personnel", "pos": "adj", "ipa": "pɛʁ.sɔ.nɛl", "display": "personnel, personnelle", "en": "personal, private", "def": "Qui appartient à quelqu'un, et pas aux autres.", "def_en": "That belongs to someone, and not to others.", "note": "*Le personnel* = the staff. *Personnellement* = personally.", "forms": ["personnelle", "personnels", "personnelles"], "examples": [
+      {"fr": "Les objets **personnels** ne sont pas à vendre.", "en": "Personal things are not for sale."},
+      {"fr": "C'est une question très **personnelle**.", "en": "That's a very personal question."},
+      {"fr": "Mon avis **personnel** ? C'est trop cher.", "en": "My personal opinion? It's too expensive."}]},
+    {"id": "mysterieux", "fr": "mystérieux", "pos": "adj", "ipa": "mis.te.ʁjø", "display": "mystérieux, mystérieuse", "en": "mysterious", "def": "Qu'on ne comprend pas ou qu'on ne connaît pas ; plein de secrets.", "def_en": "That you don't understand or don't know; full of secrets.", "forms": ["mystérieuse", "mystérieuses"], "examples": [
+      {"fr": "Hugo achète une boîte **mystérieuse**.", "en": "Hugo buys a mysterious box."},
+      {"fr": "Un homme **mystérieux** attend devant la porte.", "en": "A mysterious man is waiting at the door."},
+      {"fr": "Pourquoi tu souris ? Tu es bien **mystérieuse** aujourd'hui.", "en": "Why are you smiling? You're very mysterious today."}]},
+    {"id": "fameux", "fr": "fameux", "pos": "adj", "ipa": "fa.mø", "display": "fameux, fameuse", "en": "famous, well-known; (familiar) great", "def": "Dont tout le monde parle ; (familier) très bon.", "def_en": "That everyone talks about; (informal) very good.", "note": "*Pas fameux* = not great: *le dessert n'était pas fameux*.", "forms": ["fameuse", "fameuses"], "examples": [
+      {"fr": "Voici le **fameux** vide-grenier de la Croix-Rousse.", "en": "Here's the famous Croix-Rousse flea market."},
+      {"fr": "C'est toi, la **fameuse** Carla ?", "en": "So you're the famous Carla?"},
+      {"fr": "Le café n'était pas **fameux**.", "en": "The coffee wasn't great."}]},
+    {"id": "sacre", "fr": "sacré", "pos": "adj", "ipa": "sa.kʁe", "display": "sacré, sacrée", "en": "sacred, holy; (before a noun, familiar) a real, quite a", "def": "Qui a un lien avec Dieu ; (familier, devant un nom) très grand, incroyable.", "def_en": "Linked to God; (informal, before a noun) huge, incredible.", "note": "*Sacré Hugo !* = That Hugo! (with affection). *Un sacré bazar* = a real mess.", "forms": ["sacrée", "sacrés", "sacrées"], "examples": [
+      {"fr": "**Sacré** Hugo ! Il est venu sans argent.", "en": "That Hugo! He came without any money."},
+      {"fr": "C'est un **sacré** bazar, ici !", "en": "It's a real mess in here!"},
+      {"fr": "Pour certains peuples, cette montagne est **sacrée**.", "en": "For some peoples, this mountain is sacred."}]},
+    {"id": "merveilleux", "fr": "merveilleux", "pos": "adj", "ipa": "mɛʁ.vɛ.jø", "display": "merveilleux, merveilleuse", "en": "wonderful, marvellous", "def": "Très beau, très agréable, comme dans un rêve.", "def_en": "Very beautiful, very pleasant, as in a dream.", "forms": ["merveilleuse", "merveilleuses"], "examples": [
+      {"fr": "Quelle journée **merveilleuse** !", "en": "What a wonderful day!"},
+      {"fr": "Mamie raconte des histoires **merveilleuses**.", "en": "Grandma tells wonderful stories."},
+      {"fr": "Ce n'est pas ridicule, c'est **merveilleux** !", "en": "It's not ridiculous, it's wonderful!"}]},
+    {"id": "superbe", "fr": "superbe", "pos": "adj", "ipa": "sy.pɛʁb", "en": "superb, gorgeous", "def": "Très beau ; magnifique.", "def_en": "Very beautiful; magnificent.", "forms": ["superbes"], "examples": [
+      {"fr": "Elle est **superbe**, cette robe !", "en": "This dress is gorgeous!"},
+      {"fr": "Il fait un temps **superbe**.", "en": "The weather is superb."},
+      {"fr": "De la colline, on a une vue **superbe** sur Lyon.", "en": "From the hill, there's a superb view of Lyon."}]},
+    {"id": "charmant", "fr": "charmant", "pos": "adj", "ipa": "ʃaʁ.mɑ̃", "display": "charmant, charmante", "en": "charming, lovely", "def": "Très agréable et qui plaît beaucoup.", "def_en": "Very pleasant and very appealing.", "note": "*Le prince charmant* = Prince Charming.", "forms": ["charmante", "charmants", "charmantes"], "examples": [
+      {"fr": "Un **charmant** vieux monsieur vend des livres.", "en": "A charming old man is selling books."},
+      {"fr": "Le village est petit, mais **charmant**.", "en": "The village is small, but charming."},
+      {"fr": "Je ne bouge que pour les gens **charmants**.", "en": "I only move for charming people."}]},
+    {"id": "affreux", "fr": "affreux", "pos": "adj", "ipa": "a.fʁø", "display": "affreux, affreuse", "en": "awful, hideous, dreadful", "def": "Très laid ou très désagréable.", "def_en": "Very ugly or very unpleasant.", "forms": ["affreuse", "affreuses"], "examples": [
+      {"fr": "Cette lampe est **affreuse** !", "en": "This lamp is hideous!"},
+      {"fr": "J'ai fait un rêve **affreux**.", "en": "I had an awful dream."},
+      {"fr": "Il fait un temps **affreux** depuis lundi.", "en": "The weather has been dreadful since Monday."}]},
+    {"id": "horrible", "fr": "horrible", "pos": "adj", "ipa": "ɔ.ʁibl", "en": "horrible, terrible", "def": "Qui fait peur ou qui est très désagréable ; très mauvais.", "def_en": "That frightens, or is very unpleasant; very bad.", "forms": ["horribles"], "examples": [
+      {"fr": "Hugo achète une lampe **horrible**, verte et orange.", "en": "Hugo buys a horrible lamp, green and orange."},
+      {"fr": "Quelle nouvelle **horrible** !", "en": "What horrible news!"},
+      {"fr": "Ce café est **horrible** : il est froid.", "en": "This coffee is horrible: it's cold."}]},
+    {"id": "ridicule", "fr": "ridicule", "pos": "adj", "ipa": "ʁi.di.kyl", "en": "ridiculous, silly", "def": "Qui fait rire les autres, parce que c'est bizarre ou bête.", "def_en": "That makes others laugh, because it's odd or silly.", "forms": ["ridicules"], "examples": [
+      {"fr": "Avec ce chapeau, tu es **ridicule** !", "en": "You look ridiculous in that hat!"},
+      {"fr": "Une boîte qui contient sa propre clé ? C'est **ridicule** !", "en": "A box that holds its own key? That's ridiculous!"},
+      {"fr": "Le prix est **ridicule** : deux euros !", "en": "The price is ridiculously low: two euros!"}]},
+    {"id": "vaste", "fr": "vaste", "pos": "adj", "ipa": "vast", "en": "vast, huge", "def": "Très grand, très large.", "def_en": "Very big, very wide.", "forms": ["vastes"], "examples": [
+      {"fr": "La place est **vaste** : il y a de la place pour tout le monde.", "en": "The square is huge: there's room for everyone."},
+      {"fr": "Le Canada est un **vaste** pays.", "en": "Canada is a vast country."},
+      {"fr": "L'économie, c'est un sujet **vaste**.", "en": "The economy is a vast subject."}]},
+    {"id": "nombreux", "fr": "nombreux", "pos": "adj", "ipa": "nɔ̃.bʁø", "display": "nombreux, nombreuse", "en": "many, numerous; large (family)", "def": "En grand nombre ; beaucoup.", "def_en": "In large numbers; many.", "note": "*De nombreux amis* = many friends. *Une famille nombreuse* = a large family.", "forms": ["nombreuse", "nombreuses"], "examples": [
+      {"fr": "De **nombreux** habitants vendent leurs vieilles affaires.", "en": "Many residents are selling their old things."},
+      {"fr": "Ils viennent d'une famille **nombreuse**.", "en": "They come from a large family."},
+      {"fr": "Vous êtes **nombreux**, ce soir !", "en": "There are a lot of you tonight!"}]},
+    {"id": "moindre", "fr": "moindre", "pos": "adj", "ipa": "mwɛ̃dʁ", "en": "lesser; (le moindre) the slightest, the least", "def": "Plus petit ; (avec le, la) le plus petit possible.", "def_en": "Smaller; (with le, la) the smallest possible.", "note": "*Je n'en ai pas la moindre idée* = I haven't the slightest idea. *C'est la moindre des choses* = it's the least I can do.", "forms": ["moindres"], "examples": [
+      {"fr": "Je n'ai pas la **moindre** idée de ce qu'il y a dedans.", "en": "I haven't the slightest idea what's inside."},
+      {"fr": "Merci ! — C'est la **moindre** des choses.", "en": "Thank you! — It's the least I could do."},
+      {"fr": "Au **moindre** bruit, le chat se cache.", "en": "At the slightest noise, the cat hides."}]},
+    {"id": "exact", "fr": "exact", "pos": "adj", "ipa": "ɛɡ.zakt", "display": "exact, exacte", "en": "exact, correct, accurate", "def": "Qui est juste, sans erreur.", "def_en": "That is right, without any mistake.", "note": "*C'est exact* = that's right. *Exactement !* = exactly!", "forms": ["exacte", "exacts", "exactes"], "examples": [
+      {"fr": "Hugo paie le prix **exact** en pièces de vingt centimes.", "en": "Hugo pays the exact price in twenty-cent coins."},
+      {"fr": "C'est **exact** : on s'est rencontrés ici.", "en": "That's right: we met here."},
+      {"fr": "Quelle est l'heure **exacte** ?", "en": "What's the exact time?"}]},
+    {"id": "puissant", "fr": "puissant", "pos": "adj", "ipa": "pɥi.sɑ̃", "display": "puissant, puissante", "en": "powerful, strong", "def": "Qui a beaucoup de force ; qui peut faire beaucoup de choses.", "def_en": "That has a lot of strength; that can do a lot of things.", "forms": ["puissante", "puissants", "puissantes"], "examples": [
+      {"fr": "Dans la boîte, il y a une lampe de poche très **puissante**.", "en": "In the box, there's a very powerful torch."},
+      {"fr": "Le vent est si **puissant** qu'il emporte les chapeaux.", "en": "The wind is so strong that it blows hats away."},
+      {"fr": "C'est l'homme le plus **puissant** du pays.", "en": "He's the most powerful man in the country."}]},
+    {"id": "pale", "fr": "pâle", "pos": "adj", "ipa": "pɑl", "en": "pale; light (colour)", "def": "Qui a peu de couleur ; blanc, à cause de la peur ou de la maladie.", "def_en": "Having little colour; white, from fear or illness.", "note": "*Un bleu pâle* = a pale blue.", "forms": ["pâles"], "examples": [
+      {"fr": "Hugo devient tout **pâle**.", "en": "Hugo goes as white as a sheet."},
+      {"fr": "Inès essaie une robe d'un rose **pâle**.", "en": "Inès tries on a pale pink dress."},
+      {"fr": "Tu es **pâle** : tu es malade ?", "en": "You're pale: are you ill?"}]},
+    {"id": "obscur", "fr": "obscur", "pos": "adj", "ipa": "ɔps.kyʁ", "display": "obscur, obscure", "en": "dark; obscure, unclear", "def": "Où il n'y a pas de lumière ; difficile à comprendre.", "def_en": "Where there's no light; hard to understand.", "forms": ["obscure", "obscurs", "obscures"], "examples": [
+      {"fr": "Dans un coin **obscur**, Hugo trouve une boîte.", "en": "In a dark corner, Hugo finds a box."},
+      {"fr": "Tom a peur des endroits **obscurs**.", "en": "Tom is afraid of dark places."},
+      {"fr": "Ce texte est trop **obscur** pour moi.", "en": "This text is too obscure for me."}]},
+    {"id": "nu", "fr": "nu", "pos": "adj", "ipa": "ny", "display": "nu, nue", "en": "naked, bare", "def": "Sans vêtements ; sans rien dessus.", "def_en": "Without clothes; with nothing on it.", "note": "*Pieds nus* = barefoot. *À l'œil nu* = with the naked eye.", "forms": ["nue", "nus", "nues"], "examples": [
+      {"fr": "Devant la boutique, il y a un vieux mannequin tout **nu**.", "en": "In front of the shop, there's an old dummy with no clothes on."},
+      {"fr": "Lou marche pieds **nus** dans le jardin.", "en": "Lou walks barefoot in the garden."},
+      {"fr": "Les murs sont encore **nus** : il faut des tableaux.", "en": "The walls are still bare: we need some pictures."}]},
+    {"id": "immobile", "fr": "immobile", "pos": "adj", "ipa": "i.mɔ.bil", "en": "still, motionless", "def": "Qui ne bouge pas.", "def_en": "That doesn't move.", "forms": ["immobiles"], "examples": [
+      {"fr": "La statue reste **immobile** au milieu des gens.", "en": "The statue stays motionless among the people."},
+      {"fr": "Le chat attend, **immobile**, devant le trou.", "en": "The cat waits, motionless, in front of the hole."},
+      {"fr": "Restez **immobiles**, je prends la photo !", "en": "Keep still, I'm taking the photo!"}]},
+    {"id": "lointain", "fr": "lointain", "pos": "adj", "ipa": "lwɛ̃.tɛ̃", "display": "lointain, lointaine", "en": "distant, faraway, remote", "def": "Qui est très loin, dans l'espace ou dans le temps.", "def_en": "That is very far away, in space or in time.", "forms": ["lointaine", "lointains", "lointaines"], "examples": [
+      {"fr": "Léa trouve une carte pleine de pays **lointains**.", "en": "Léa finds a map full of faraway countries."},
+      {"fr": "C'est un souvenir **lointain**.", "en": "It's a distant memory."},
+      {"fr": "On entend un orage **lointain**.", "en": "You can hear a distant storm."}]},
+    {"id": "militaire", "fr": "militaire", "pos": "adj", "ipa": "mi.li.tɛʁ", "en": "military; (un militaire) a soldier, a serviceman", "def": "De l'armée, des soldats.", "def_en": "Of the army, of soldiers.", "forms": ["militaires"], "examples": [
+      {"fr": "Sophie achète une vieille veste **militaire**.", "en": "Sophie buys an old military jacket."},
+      {"fr": "Son grand-père a fait son service **militaire**.", "en": "His grandfather did his military service."},
+      {"fr": "Un avion **militaire** passe au-dessus de la ville.", "en": "A military plane flies over the city."}]}
+  ],
+  "story": {
+    "title": "Le vide-grenier",
+    "en": "Monday 24 May, Whit Monday: the friends go to the Croix-Rousse flea market.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi de Pentecôte, la Croix-Rousse organise son fameux vide-grenier. De nombreux habitants vendent leurs vieilles affaires sur les trottoirs, jusqu'à la vaste place du marché.", "en": "On Whit Monday, the Croix-Rousse holds its famous flea market. Many residents sell their old things on the pavements, all the way to the huge market square."},
+      {"sp": "", "fr": "Chloé et Karim ont un stand : les jumeaux grandissent si vite que leurs vêtements sont déjà trop petits.", "en": "Chloé and Karim have a stall: the twins are growing so fast that their clothes are already too small."},
+      {"sp": "Chloé", "fr": "Tout est propre, et pas cher. Mais les objets personnels, comme le premier pyjama d'Adam, ne sont pas à vendre.", "en": "Everything is clean, and cheap. But personal things, like Adam's first pyjamas, aren't for sale."},
+      {"sp": "", "fr": "Tom s'arrête devant une caisse de vieux disques. Il en sort un disque rare d'Édith Piaf.", "en": "Tom stops in front of a crate of old records. He pulls out a rare Édith Piaf record."},
+      {"sp": "Le vendeur", "fr": "Un véritable trésor, monsieur. Une pièce unique !", "en": "A real treasure, sir. A one-off!"},
+      {"sp": "Hugo", "fr": "Unique ? Il y en a trois dans la caisse.", "en": "One-off? There are three of them in the crate."},
+      {"sp": "Le vendeur", "fr": "Alors ce sont trois pièces uniques. Dix euros chacune.", "en": "Then they're three one-offs. Ten euros each."},
+      {"sp": "", "fr": "Tom achète les trois. Plus loin, Inès essaie une robe d'un rose pâle, avec de petites fleurs blanches.", "en": "Tom buys all three. Further on, Inès tries on a pale pink dress with little white flowers."},
+      {"sp": "Sophie", "fr": "Elle est superbe ! Et tellement charmante.", "en": "It's gorgeous! And so charming."},
+      {"sp": "", "fr": "Devant une boutique, il y a un vieux mannequin de vitrine, tout nu.", "en": "In front of a shop, there's an old shop-window dummy, with no clothes on."},
+      {"sp": "Hugo", "fr": "Inès, regarde : un collègue !", "en": "Inès, look: a colleague!"},
+      {"sp": "Inès", "fr": "Très drôle, Hugo.", "en": "Very funny, Hugo."},
+      {"sp": "", "fr": "Au milieu de la place, une statue dorée reste immobile. Hugo s'approche pour la regarder de près… et la statue lui dit bonjour.", "en": "In the middle of the square, a golden statue stands motionless. Hugo goes up to have a closer look… and the statue says hello to him."},
+      {"sp": "", "fr": "Hugo devient tout pâle.", "en": "Hugo goes as white as a sheet."},
+      {"sp": "Hugo", "fr": "Elle a bougé ! Vous avez vu ? Elle a bougé !", "en": "It moved! Did you see? It moved!"},
+      {"sp": "La statue", "fr": "Seulement pour les gens charmants, monsieur.", "en": "Only for charming people, sir."},
+      {"sp": "", "fr": "Léa trouve une vieille carte du monde, pleine de pays lointains, pour Lou. Sophie achète une veste militaire très particulière, avec des boutons en forme d'étoiles.", "en": "Léa finds an old map of the world, full of faraway countries, for Lou. Sophie buys a very unusual military jacket, with star-shaped buttons."},
+      {"sp": "", "fr": "Dans un coin obscur, sous une table, Hugo découvre une boîte mystérieuse en bois, fermée à clé.", "en": "In a dark corner, under a table, Hugo discovers a mysterious wooden box, locked."},
+      {"sp": "Hugo", "fr": "Combien, cette boîte ?", "en": "How much is this box?"},
+      {"sp": "La vendeuse", "fr": "Dix euros. Mais je n'ai pas la clé, et je n'ai pas la moindre idée de ce qu'il y a dedans.", "en": "Ten euros. But I haven't got the key, and I haven't the slightest idea what's inside."},
+      {"sp": "", "fr": "Hugo paie le prix exact, en pièces de vingt centimes.", "en": "Hugo pays the exact price, in twenty-cent coins."},
+      {"sp": "", "fr": "Le soir, chez Hugo, Tom ouvre la boîte avec ses outils. Tout le monde se penche… Dedans, il y a une lampe de poche très puissante, et une clé.", "en": "In the evening, at Hugo's, Tom opens the box with his tools. Everyone leans in… Inside, there's a very powerful torch, and a key."},
+      {"sp": "Léa", "fr": "La clé de la boîte… dans la boîte !", "en": "The key to the box… in the box!"},
+      {"sp": "Sophie", "fr": "C'est ridicule !", "en": "That's ridiculous!"},
+      {"sp": "Hugo", "fr": "Pas du tout : c'est merveilleux. Une boîte qui garde sa propre clé, c'est un objet unique au monde.", "en": "Not at all: it's wonderful. A box that keeps its own key is one of a kind."},
+      {"sp": "", "fr": "Il pose aussi sur la table son autre achat du jour : une lampe horrible, verte et orange.", "en": "He also puts his other purchase of the day on the table: a horrible lamp, green and orange."},
+      {"sp": "Carla", "fr": "Elle est affreuse !", "en": "It's hideous!"},
+      {"sp": "Hugo", "fr": "Elle a du caractère.", "en": "It's got character."},
+      {"sp": "Inès", "fr": "Sacré Hugo ! Dix euros pour une boîte [vide|vide], et une lampe affreuse pour son salon.", "en": "That Hugo! Ten euros for an empty box, and a hideous lamp for his living room."}
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "u42-photo",
+  "type": "vocab",
+  "unit": 42,
+  "title": "La séance photo",
+  "en": "Photography",
+  "intro": "25 words for taking pictures: the people and the tools (**la photographie, le / la photographe, l'appareil photo, l'appareil argentique, la pellicule, le trépied, le flash**), light (**l'éclairage, le contre-jour, le reflet, le coucher de soleil, le maquillage**), the picture itself (**le cliché, la pose, le gros plan, l'arrière-plan, net, flou**), and the work (**la séance photo, cadrer, la mise au point, déclencher, développer, le tirage, retoucher**).",
+  "words": [
+    {"id": "photographie", "fr": "photographie", "pos": "noun", "g": "f", "ipa": "fɔ.tɔ.ɡʁa.fi", "en": "photography; photograph", "def": "L'art de faire des images avec un appareil et de la lumière ; une image faite de cette façon.", "def_en": "The art of making pictures with a camera and light; a picture made this way.", "note": "In everyday French, a photograph is *une photo*.", "forms": ["photographies"], "examples": [
+      {"fr": "Sophie fait de la **photographie** depuis le lycée.", "en": "Sophie has done photography since secondary school."},
+      {"fr": "La **photographie** est née en France.", "en": "Photography was born in France."},
+      {"fr": "Le musée montre de vieilles **photographies** de Lyon.", "en": "The museum is showing old photographs of Lyon."}]},
+    {"id": "photographe", "fr": "photographe", "pos": "noun", "g": "m", "both": true, "ipa": "fɔ.tɔ.ɡʁaf", "display": "le / la photographe", "en": "photographer", "def": "La personne qui fait des photos, souvent comme métier.", "def_en": "The person who takes photos, often as a job.", "forms": ["photographes"], "accept": ["la photographe", "une photographe"], "examples": [
+      {"fr": "La **photographe** est très célèbre.", "en": "The photographer is very famous."},
+      {"fr": "Le **photographe** du mariage nous a fait sourire pendant une heure.", "en": "The wedding photographer made us smile for an hour."},
+      {"fr": "Plus tard, je veux être **photographe**.", "en": "When I grow up, I want to be a photographer."}]},
+    {"id": "appareil-photo", "fr": "appareil photo", "pos": "noun", "g": "m", "ipa": "a.pa.ʁɛj fɔ.to", "en": "camera", "def": "L'objet avec lequel on prend des photos.", "def_en": "The thing you take photos with.", "forms": ["appareils photo"], "examples": [
+      {"fr": "Sophie sort de son sac un vieil **appareil photo**.", "en": "Sophie takes an old camera out of her bag."},
+      {"fr": "Aujourd'hui, le téléphone a remplacé l'**appareil photo**.", "en": "Today, the phone has replaced the camera."},
+      {"fr": "N'oublie pas l'**appareil photo** pour le mariage !", "en": "Don't forget the camera for the wedding!"}]},
+    {"id": "argentique", "fr": "argentique", "pos": "adj", "ipa": "aʁ.ʒɑ̃.tik", "en": "film (camera, photography), analogue", "def": "Qui fonctionne avec une pellicule, et pas avec un écran.", "def_en": "That works with film, not with a screen.", "note": "*L'argentique* = film photography, as opposed to *le numérique*, digital.", "forms": ["argentiques"], "examples": [
+      {"fr": "C'est l'appareil **argentique** de son grand-père.", "en": "It's her grandfather's film camera."},
+      {"fr": "Les photos **argentiques** ont des couleurs plus douces.", "en": "Film photos have softer colours."},
+      {"fr": "Avec un appareil **argentique**, on ne voit pas la photo tout de suite.", "en": "With a film camera, you don't see the photo straight away."}]},
+    {"id": "pellicule", "fr": "pellicule", "pos": "noun", "g": "f", "ipa": "pe.li.kyl", "en": "film (for a camera), roll of film", "def": "Ce qui garde les images dans un appareil argentique.", "def_en": "What keeps the pictures in a film camera.", "note": "*Les pellicules* are also dandruff.", "forms": ["pellicules"], "examples": [
+      {"fr": "Une **pellicule** donne trente-six photos.", "en": "A roll of film gives thirty-six photos."},
+      {"fr": "Sophie développe ses **pellicules** elle-même.", "en": "Sophie develops her films herself."},
+      {"fr": "Zut, je n'ai plus de **pellicule** !", "en": "Damn, I've run out of film!"}]},
+    {"id": "trepied", "fr": "trépied", "pos": "noun", "g": "m", "ipa": "tʁe.pje", "en": "tripod", "def": "Un objet à trois pieds, sur lequel on pose un appareil photo.", "def_en": "A three-legged stand on which you put a camera.", "forms": ["trépieds"], "examples": [
+      {"fr": "Dans le sable, le **trépied** tombe tout le temps.", "en": "In the sand, the tripod keeps falling over."},
+      {"fr": "La nuit, il faut un **trépied** pour faire une photo nette.", "en": "At night, you need a tripod to take a sharp photo."},
+      {"fr": "Tom porte le **trépied** et Sophie l'appareil.", "en": "Tom carries the tripod and Sophie the camera."}]},
+    {"id": "flash", "fr": "flash", "pos": "noun", "g": "m", "ipa": "flaʃ", "en": "flash (of a camera)", "def": "La lumière très forte et très courte qu'un appareil envoie pour faire une photo dans le noir.", "def_en": "The very strong, very short light a camera sends out to take a photo in the dark.", "forms": ["flashs"], "examples": [
+      {"fr": "Une vague a noyé le **flash**.", "en": "A wave drowned the flash."},
+      {"fr": "Dans les musées, le **flash** est interdit.", "en": "In museums, flash is not allowed."},
+      {"fr": "Pas de **flash**, s'il te plaît : je ferme les yeux.", "en": "No flash, please: I close my eyes."}]},
+    {"id": "eclairage", "fr": "éclairage", "pos": "noun", "g": "m", "ipa": "e.klɛ.ʁaʒ", "en": "lighting", "def": "La lumière qu'il y a dans un lieu, ou celle qu'on y met.", "def_en": "The light there is in a place, or the light you put there.", "forms": ["éclairages"], "examples": [
+      {"fr": "Sur la photo, on a changé l'**éclairage** et les couleurs.", "en": "On the photo, they changed the lighting and the colours."},
+      {"fr": "L'**éclairage** de ce café est trop jaune.", "en": "The lighting in this café is too yellow."},
+      {"fr": "Au théâtre, l'**éclairage** change à chaque scène.", "en": "At the theatre, the lighting changes in each scene."}]},
+    {"id": "contre-jour", "fr": "contre-jour", "pos": "noun", "g": "m", "ipa": "kɔ̃.tʁə.ʒuʁ", "en": "backlight; (à contre-jour) against the light", "def": "Une lumière qui vient de derrière la personne ou l'objet qu'on prend en photo.", "def_en": "Light that comes from behind the person or thing you're photographing.", "note": "*À contre-jour* = against the light: you only see a dark shape.", "forms": ["contre-jours"], "examples": [
+      {"fr": "Le soir, on a fait des photos à **contre-jour**.", "en": "In the evening, we took photos against the light."},
+      {"fr": "À **contre-jour**, on ne voit pas ton visage.", "en": "With the light behind you, we can't see your face."},
+      {"fr": "Ce **contre-jour** est magnifique.", "en": "This backlit shot is magnificent."}]},
+    {"id": "reflet", "fr": "reflet", "pos": "noun", "g": "m", "ipa": "ʁə.flɛ", "en": "reflection", "def": "L'image d'une chose qu'on voit dans l'eau ou dans un miroir.", "def_en": "The image of something you see in water or in a mirror.", "forms": ["reflets"], "examples": [
+      {"fr": "On voit le **reflet** du soleil sur l'eau.", "en": "You can see the reflection of the sun on the water."},
+      {"fr": "Dans les lunettes de Hugo, il y a le **reflet** du flash.", "en": "In Hugo's glasses, there's the reflection of the flash."},
+      {"fr": "Le chat regarde son **reflet** dans le miroir.", "en": "The cat looks at its reflection in the mirror."}]},
+    {"id": "coucher-de-soleil", "fr": "coucher de soleil", "pos": "noun", "g": "m", "ipa": "ku.ʃe də sɔ.lɛj", "en": "sunset", "def": "Le moment où le soleil descend et disparaît le soir.", "def_en": "The moment when the sun goes down and disappears in the evening.", "note": "*Au coucher du soleil* = at sunset.", "forms": ["couchers de soleil"], "examples": [
+      {"fr": "Ils ont fait les dernières photos au **coucher de soleil**.", "en": "They took the last photos at sunset."},
+      {"fr": "Regarde ce **coucher de soleil** : le ciel est tout orange !", "en": "Look at that sunset: the sky is all orange!"},
+      {"fr": "À Marseille, les **couchers de soleil** sur la mer sont magnifiques.", "en": "In Marseille, the sunsets over the sea are magnificent."}]},
+    {"id": "maquillage", "fr": "maquillage", "pos": "noun", "g": "m", "ipa": "ma.ki.jaʒ", "en": "make-up", "def": "Les produits qu'on met sur le visage, pour être plus beau ou pour jouer un rôle.", "def_en": "The products you put on your face, to look better or to play a part.", "forms": ["maquillages"], "examples": [
+      {"fr": "Avec la chaleur, le **maquillage** d'Inès coulait.", "en": "In the heat, Inès's make-up was running."},
+      {"fr": "Au théâtre, les acteurs portent beaucoup de **maquillage**.", "en": "At the theatre, the actors wear a lot of make-up."},
+      {"fr": "Elle ne met jamais de **maquillage**.", "en": "She never wears make-up."}]},
+    {"id": "cliche", "fr": "cliché", "pos": "noun", "g": "m", "ipa": "kli.ʃe", "en": "shot, snapshot, photo; cliché", "def": "Une photo ; une idée ou une phrase que tout le monde répète.", "def_en": "A photo; an idea or a phrase that everyone repeats.", "forms": ["clichés"], "examples": [
+      {"fr": "C'est le meilleur **cliché** de la semaine.", "en": "It's the best shot of the week."},
+      {"fr": "Sophie a pris trente **clichés** de la cathédrale.", "en": "Sophie took thirty shots of the cathedral."},
+      {"fr": "« Les Anglais boivent du thé » : c'est un **cliché** !", "en": "'The English drink tea': that's a cliché!"}]},
+    {"id": "pose", "fr": "pose", "pos": "noun", "g": "f", "ipa": "poz", "en": "pose; (photography) exposure, shot", "def": "La position qu'on prend devant un photographe ou un peintre ; une photo sur une pellicule.", "def_en": "The position you take in front of a photographer or a painter; a picture on a roll of film.", "note": "*Prendre la pose* = to strike a pose.", "forms": ["poses"], "examples": [
+      {"fr": "Prenez la **pose**, s'il vous plaît !", "en": "Strike a pose, please!"},
+      {"fr": "Avec une pellicule, on n'a que trente-six **poses**.", "en": "With a roll of film, you only get thirty-six shots."},
+      {"fr": "Inès change de **pose** toutes les dix secondes.", "en": "Inès changes pose every ten seconds."}]},
+    {"id": "gros-plan", "fr": "gros plan", "pos": "noun", "g": "m", "ipa": "ɡʁo plɑ̃", "en": "close-up", "def": "Une image prise de très près, où l'on voit surtout un visage ou un détail.", "def_en": "A picture taken from very close up, which mainly shows a face or a detail.", "note": "*En gros plan* = in close-up.", "forms": ["gros plans"], "examples": [
+      {"fr": "Sur cette photo, le visage d'Inès est en **[gros plan|gros-plan]**.", "en": "In this photo, Inès's face is in close-up."},
+      {"fr": "C'est la mouette, en **[gros plan|gros-plan]**, avec les frites de Hugo.", "en": "It's the seagull, in close-up, with Hugo's chips."},
+      {"fr": "Le film commence par un **gros plan** sur une main.", "en": "The film opens with a close-up of a hand."}]},
+    {"id": "arriere-plan", "fr": "arrière-plan", "pos": "noun", "g": "m", "ipa": "a.ʁjɛʁ.plɑ̃", "en": "background", "def": "La partie d'une image qui est loin, derrière la personne ou l'objet principal.", "def_en": "The part of a picture that is far away, behind the main person or object.", "note": "The opposite is *le premier plan*, the foreground.", "forms": ["arrière-plans"], "examples": [
+      {"fr": "En **arrière-plan**, on voit la mer.", "en": "In the background, you can see the sea."},
+      {"fr": "Il y a un touriste dans l'**arrière-plan** de toutes mes photos.", "en": "There's a tourist in the background of all my photos."},
+      {"fr": "Choisis un **arrière-plan** simple pour un portrait.", "en": "Choose a simple background for a portrait."}]},
+    {"id": "net", "fr": "net", "pos": "adj", "ipa": "nɛt", "display": "net, nette", "en": "sharp, in focus; clear, clean", "def": "Qui n'est pas flou ; clair et propre.", "def_en": "Not blurred; clear and clean.", "note": "*Un prix net* = a net price. *Refuser net* = to refuse flatly.", "forms": ["nette", "nets", "nettes"], "examples": [
+      {"fr": "Regardez celle-ci : elle est **nette** !", "en": "Look at this one: it's in focus!"},
+      {"fr": "Avec un trépied, la photo est plus **nette**.", "en": "With a tripod, the photo is sharper."},
+      {"fr": "Il a une écriture claire et **nette**.", "en": "He has clear, neat handwriting."}]},
+    {"id": "flou", "fr": "flou", "pos": "adj", "ipa": "flu", "display": "flou, floue", "en": "blurred, blurry; vague", "def": "Qui n'est pas net ; pas clair, pas précis.", "def_en": "Not sharp; not clear, not precise.", "note": "*Le flou* = blur, vagueness.", "forms": ["floue", "flous", "floues"], "examples": [
+      {"fr": "Toutes ses photos sont **floues**.", "en": "All his photos are blurred."},
+      {"fr": "Sans mes lunettes, tout est **flou**.", "en": "Without my glasses, everything is blurry."},
+      {"fr": "Ses explications sont un peu **floues**.", "en": "His explanations are a bit vague."}]},
+    {"id": "seance-photo", "fr": "séance photo", "pos": "noun", "g": "f", "ipa": "se.ɑ̃s fɔ.to", "en": "photo shoot", "def": "Le moment où un photographe fait une série de photos d'une personne.", "def_en": "The time when a photographer takes a series of photos of someone.", "forms": ["séances photo"], "examples": [
+      {"fr": "Inès a une **séance photo** en Martinique.", "en": "Inès has a photo shoot in Martinique."},
+      {"fr": "La **séance photo** commence à cinq heures du matin.", "en": "The photo shoot starts at five in the morning."},
+      {"fr": "Après trois heures de **séance photo**, le bébé dort.", "en": "After a three-hour photo shoot, the baby is asleep."}]},
+    {"id": "cadrer", "fr": "cadrer", "pos": "verb", "ipa": "ka.dʁe", "en": "to frame (a picture)", "def": "Choisir ce qui sera dans l'image, et ce qui n'y sera pas.", "def_en": "To choose what will be in the picture, and what won't.", "note": "*Le cadrage* = framing.", "forms": ["cadre", "cadres", "cadrons", "cadrez", "cadrent", "cadré", "cadrée", "cadrés", "cadrées", "cadrais", "cadrait", "cadrions", "cadriez", "cadraient", "cadrerai", "cadreras", "cadrera", "cadrerons", "cadrerez", "cadreront", "cadrerais", "cadrerait", "cadrerions", "cadreriez", "cadreraient", "cadrant", "cadrai", "cadras", "cadra", "cadrâmes", "cadrâtes", "cadrèrent"], "examples": [
+      {"fr": "D'accord, je **cadre** mal.", "en": "All right, I'm bad at framing."},
+      {"fr": "**Cadre** bien : je veux voir toute la famille.", "en": "Frame it properly: I want to see the whole family."},
+      {"fr": "Tu as [mal|mal] **cadré** : on ne voit pas mes pieds.", "en": "You framed it badly: my feet aren't in it."}]},
+    {"id": "mise-au-point", "fr": "mise au point", "pos": "noun", "g": "f", "ipa": "mi.z‿o pwɛ̃", "en": "focus, focusing; clarification", "def": "Ce qu'on règle pour que l'image soit nette ; une explication pour que tout soit clair.", "def_en": "The adjustment that makes the picture sharp; an explanation so that everything is clear.", "forms": ["mises au point"], "examples": [
+      {"fr": "Tu ne fais jamais la **mise au point** ?", "en": "Don't you ever focus?"},
+      {"fr": "Le téléphone fait la **mise au point** tout seul.", "en": "The phone focuses by itself."},
+      {"fr": "Après la dispute, il faut faire une **mise au point**.", "en": "After the argument, we need to clear things up."}]},
+    {"id": "declencher", "fr": "déclencher", "pos": "verb", "ipa": "de.klɑ̃.ʃe", "en": "to set off, to trigger, to start; (camera) to press the shutter", "def": "Faire partir, faire commencer ; appuyer sur le bouton qui prend la photo.", "def_en": "To set going, to start; to press the button that takes the photo.", "forms": ["déclenche", "déclenches", "déclenchons", "déclenchez", "déclenchent", "déclenché", "déclenchée", "déclenchés", "déclenchées", "déclenchais", "déclenchait", "déclenchions", "déclenchiez", "déclenchaient", "déclencherai", "déclencheras", "déclenchera", "déclencherons", "déclencherez", "déclencheront", "déclencherais", "déclencherait", "déclencherions", "déclencheriez", "déclencheraient", "déclenchant", "déclenchai", "déclenchas", "déclencha", "déclenchâmes", "déclenchâtes", "déclenchèrent"], "examples": [
+      {"fr": "Alors on réfléchit avant de **déclencher**.", "en": "So you think before pressing the shutter."},
+      {"fr": "Sa question a **déclenché** une dispute.", "en": "His question started an argument."},
+      {"fr": "Sa blague a **déclenché** un fou rire.", "en": "His joke set off a fit of the giggles."}]},
+    {"id": "developper", "fr": "développer", "pos": "verb", "ipa": "dev.lɔ.pe", "en": "to develop (a film, a project, an idea)", "def": "Faire apparaître les images d'une pellicule ; faire grandir, rendre plus important.", "def_en": "To bring out the pictures on a film; to make something grow, to make it bigger.", "forms": ["développe", "développes", "développons", "développez", "développent", "développé", "développée", "développés", "développées", "développais", "développait", "développions", "développiez", "développaient", "développerai", "développeras", "développera", "développerons", "développerez", "développeront", "développerais", "développerait", "développerions", "développeriez", "développeraient", "développant", "développai", "développas", "développa", "développâmes", "développâtes", "développèrent"], "examples": [
+      {"fr": "Sophie **développe** ses pellicules à l'atelier photo de son école.", "en": "Sophie develops her films in her school's photo lab."},
+      {"fr": "L'équipe **développe** une nouvelle application.", "en": "The team is developing a new app."},
+      {"fr": "Tu peux **développer** ton idée ?", "en": "Can you develop your idea?"}]},
+    {"id": "tirage", "fr": "tirage", "pos": "noun", "g": "m", "ipa": "ti.ʁaʒ", "en": "print (of a photo); (lottery) draw; (book) print run", "def": "Une photo imprimée sur du papier ; le moment où l'on choisit un gagnant au hasard.", "def_en": "A photo printed on paper; the moment a winner is picked at random.", "note": "*Le tirage au sort* = the draw (drawing lots).", "forms": ["tirages"], "examples": [
+      {"fr": "Dans l'enveloppe, il y a un **tirage** en noir et blanc.", "en": "In the envelope, there's a black and white print."},
+      {"fr": "Je voudrais deux **tirages** de cette photo.", "en": "I'd like two prints of this photo."},
+      {"fr": "Le **tirage** du loto a lieu ce soir.", "en": "The lottery draw takes place tonight."}]},
+    {"id": "retoucher", "fr": "retoucher", "pos": "verb", "ipa": "ʁə.tu.ʃe", "en": "to retouch, to edit (a photo); to alter (clothes)", "def": "Changer un peu une photo ou un vêtement pour le rendre meilleur.", "def_en": "To change a photo or a garment a little to make it better.", "note": "*Une retouche* = a touch-up; an alteration.", "forms": ["retouche", "retouches", "retouchons", "retouchez", "retouchent", "retouché", "retouchée", "retouchés", "retouchées", "retouchais", "retouchait", "retouchions", "retouchiez", "retouchaient", "retoucherai", "retoucheras", "retouchera", "retoucherons", "retoucherez", "retoucheront", "retoucherais", "retoucherait", "retoucherions", "retoucheriez", "retoucheraient", "retouchant", "retouchai", "retouchas", "retoucha", "retouchâmes", "retouchâtes", "retouchèrent"], "examples": [
+      {"fr": "Les photos seront **retouchées** ?", "en": "Will the photos be retouched?"},
+      {"fr": "Dans les magazines, toutes les photos sont **retouchées**.", "en": "In magazines, all the photos are retouched."},
+      {"fr": "Le pantalon est trop long : il faut le **retoucher**.", "en": "The trousers are too long: they need altering."}]}
+  ],
+  "story": {
+    "title": "La séance photo",
+    "en": "Saturday 22 May: Inès is back from her photo shoot in Martinique.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-deux mai, au café d'en bas. Inès est rentrée hier de Martinique, toute bronzée, après cinq jours de séance photo pour une crème solaire.", "en": "Saturday 22 May, at the café downstairs. Inès came back from Martinique yesterday, very tanned, after five days of photo shoots for a sun cream."},
+      {"sp": "Inès", "fr": "On travaillait avec une photographe très célèbre. Et on commençait à cinq heures du matin, pour la lumière.", "en": "We were working with a very famous photographer. And we started at five in the morning, for the light."},
+      {"sp": "Sophie", "fr": "La lumière du matin est la plus douce. À midi, le soleil fait des ombres [dures|dur] sur le visage.", "en": "Morning light is the softest. At noon, the sun casts hard shadows on your face."},
+      {"sp": "Inès", "fr": "Exactement. À midi, on se mettait à l'ombre, et on refaisait mon maquillage : avec la chaleur, il coulait.", "en": "Exactly. At noon, we'd get into the shade, and they'd redo my make-up: in the heat, it was running."},
+      {"sp": "Hugo", "fr": "Et le soir ?", "en": "And in the evening?"},
+      {"sp": "Inès", "fr": "Le soir, on faisait des photos au coucher de soleil, à contre-jour. Regardez : on ne voit que mon ombre noire devant le ciel orange.", "en": "In the evening, we took photos at sunset, against the light. Look: you can only see my dark outline against the orange sky."},
+      {"sp": "", "fr": "Inès montre une autre photo : son visage en [gros plan|gros-plan], avec la mer turquoise en arrière-plan, et le reflet du soleil sur l'eau.", "en": "Inès shows another photo: her face in close-up, with the turquoise sea in the background, and the reflection of the sun on the water."},
+      {"sp": "Inès", "fr": "Et vous voyez ce petit crabe, dans le coin ? Il est entré dans vingt photos. À la fin, la photographe a gardé celle-ci : c'est le meilleur cliché de la semaine !", "en": "And do you see that little crab, in the corner? It walked into twenty photos. In the end, the photographer kept this one: it's the best shot of the week!"},
+      {"sp": "Tom", "fr": "Et le trépied, dans le sable ?", "en": "And the tripod, in the sand?"},
+      {"sp": "Inès", "fr": "Il tombait tout le temps. Et une vague a noyé le flash.", "en": "It kept falling over. And a wave drowned the flash."},
+      {"sp": "Sophie", "fr": "Les photos seront retouchées ?", "en": "Will the photos be retouched?"},
+      {"sp": "Inès", "fr": "Un peu : l'éclairage, les couleurs… Mais pas mon visage. C'est écrit dans mon contrat.", "en": "A little: the lighting, the colours… But not my face. It's written in my contract."},
+      {"sp": "Hugo", "fr": "Moi aussi, j'ai fait des photos, à Ostende. Regardez !", "en": "I took photos too, in Ostend. Look!"},
+      {"sp": "", "fr": "Il passe son téléphone. Toutes ses photos sont floues.", "en": "He passes his phone round. All his photos are blurred."},
+      {"sp": "Sophie", "fr": "Hugo, tu ne fais jamais la mise au point ? Et ça, en rose, c'est ton doigt.", "en": "Hugo, don't you ever focus? And that pink thing is your finger."},
+      {"sp": "Léa", "fr": "Et là, tu as coupé la tête de Pierre.", "en": "And here, you've cut off Pierre's head."},
+      {"sp": "Hugo", "fr": "D'accord, je cadre mal. Mais regardez celle-ci : elle est nette !", "en": "All right, I'm bad at framing. But look at this one: it's in focus!"},
+      {"sp": "", "fr": "C'est la mouette, en [gros plan|gros-plan], avec les frites de Hugo dans le bec.", "en": "It's the seagull, in close-up, with Hugo's chips in its beak."},
+      {"sp": "Tom", "fr": "Ta meilleure photo : le voleur et ses frites.", "en": "Your best photo: the thief and its chips."},
+      {"sp": "", "fr": "Sophie sort de son sac un vieil appareil photo : l'appareil argentique de son grand-père.", "en": "Sophie takes an old camera out of her bag: her grandfather's film camera."},
+      {"sp": "Sophie", "fr": "Avec une pellicule, on n'a que trente-six poses. Alors on réfléchit avant de déclencher.", "en": "With a roll of film, you only get thirty-six shots. So you think before you press the shutter."},
+      {"sp": "Hugo", "fr": "Trente-six photos ? Moi, j'en fais trois cents par jour.", "en": "Thirty-six photos? I take three hundred a day."},
+      {"sp": "Sophie", "fr": "C'est bien le problème. Et moi, je développe mes pellicules moi-même, à l'atelier photo de mon école.", "en": "That's exactly the problem. And I develop my films myself, in my school's photo lab."},
+      {"sp": "", "fr": "Elle donne une enveloppe à Inès. Dedans, il y a un tirage en noir et blanc : Inès qui rit, au café, le jour de son départ.", "en": "She gives Inès an envelope. Inside, there's a black and white print: Inès laughing, at the café, on the day she left."},
+      {"sp": "Inès", "fr": "Il est magnifique ! Sophie, tu devrais faire de la photographie ton métier.", "en": "It's magnificent! Sophie, you should make photography your job."},
+      {"sp": "Sophie", "fr": "La photographie, c'est comme l'architecture : une histoire de lumière.", "en": "Photography is like architecture: it's all about light."},
+      {"sp": "", "fr": "Tom propose une photo de groupe. Sophie pose son appareil sur la table et appuie sur le bouton : dix secondes !", "en": "Tom suggests a group photo. Sophie puts her camera on the table and presses the button: ten seconds!"},
+      {"sp": "Sophie", "fr": "Prenez la pose ! Hugo, regarde l'appareil, pas les croissants !", "en": "Strike a pose! Hugo, look at the camera, not the croissants!"},
+      {"sp": "", "fr": "Clic. Sur la photo, tout le monde sourit… sauf Hugo, tout flou : il a bougé pour attraper un croissant.", "en": "Click. In the photo, everyone is smiling… except Hugo, all blurred: he moved to grab a croissant."}
+    ]
+  }
+}

@@ -163,6 +163,9 @@ FIXES = {
     "au cas où": "o ka ˈu", "le cas échéant": "lə ka eʃeˈɑ̃",  # no liaison
     "compagnie": "kɔ̃paɲˈi", "compagnies": "kɔ̃paɲˈi",  # the voice says /kɔ̃pani/
     "flamenco": "flamɛnkˈo",  # not nasal
+    "secouerai": "səkuʁˈe", "secoueras": "səkuʁˈa", "secouera": "səkuʁˈa", "secouerons": "səkuʁˈɔ̃", "secouerez": "səkuʁˈe", "secoueront": "səkuʁˈɔ̃",  # -ouer verbs: the voice says /səkwʁe/
+    "secouerais": "səkuʁˈɛ", "secouerait": "səkuʁˈɛ", "secouerions": "səkuʁjˈɔ̃", "secoueriez": "səkuʁjˈe", "secoueraient": "səkuʁˈɛ",
+    "flashs": "flˈaʃ",  # the voice says the s
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

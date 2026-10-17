@@ -1,0 +1,119 @@
+{
+  "id": "u42-place-adj",
+  "type": "grammar",
+  "unit": 42,
+  "title": "Un grand homme, un homme grand",
+  "en": "The place of adjectives",
+  "intro": "Most French adjectives go **after** the noun: *une robe rouge, un ami anglais, une enfance heureuse*. A few short, very common ones go **before** it: *un beau jardin, une petite maison, un vieil ami*. And some change their meaning with their place: *un grand homme* is a great man, *un homme grand* a tall one; *mon ancien vélo* is my old (former) bike, *un vélo ancien* an antique one. Before the noun, the meaning is often figurative or emotional; after it, literal.",
+  "cases": [
+    {"id": "pa-apres", "label": "after the noun (most adjectives)", "rule": "Most adjectives follow the noun: colours (*une robe bleue*), nationalities (*un ami anglais*), shapes (*une table ronde*), long adjectives (*une enfance heureuse*), participles (*un enfant fatigué*) and adjectives with a complement (*une maison pleine d'amour*)."},
+    {"id": "pa-avant", "label": "before the noun: beau, bon, grand, petit…", "rule": "A small group goes before the noun: *beau, joli, bon, mauvais, grand, petit, gros, jeune, vieux, nouveau, long*, and the ordinals (*premier, deuxième, dernier*). Before a vowel, *beau, vieux, nouveau* become *bel, vieil, nouvel*: *un bel arbre, un vieil ami, un nouvel appartement*."},
+    {"id": "pa-sens", "label": "the meaning changes with the place", "rule": "Some adjectives change meaning: *un grand homme* (great) / *un homme grand* (tall), *mon ancien vélo* (former) / *un vélo ancien* (antique), *ma chère maman* (dear) / *un cadeau cher* (expensive), *mes propres mains* (own) / *des mains propres* (clean), *un pauvre homme* (unfortunate) / *un homme pauvre* (penniless), *d'un certain âge* (no longer young) / *d'un âge certain* (definitely old)."},
+    {"id": "pa-deux", "label": "two adjectives", "rule": "Each adjective keeps its own place: *une jolie robe rouge*, *un petit chat noir*, *un beau petit jardin*. Two adjectives after the noun are joined by *et*: *une journée longue et heureuse*, *une femme intelligente et drôle*."},
+    {"id": "pa-style", "label": "before the noun, for effect", "rule": "In careful or expressive French, an adjective that usually follows the noun can come first, to stress a feeling or a judgement: *une magnifique journée*, *un délicieux gâteau*, *une terrible nouvelle*. The meaning stays the same; the tone is warmer, or more literary."}
+  ],
+  "sections": [
+    {"title": "1. After the noun", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["une robe rouge", "a red dress"],
+      ["un ami anglais", "an English friend"],
+      ["une enfance heureuse", "a happy childhood"],
+      ["un père fier de sa fille", "a father proud of his daughter"]]},
+     "examples": [
+      {"fr": "Tu nous as donné {une enfance heureuse|pa-apres} et {une maison pleine d'amour|pa-apres}.", "en": "You gave us a happy childhood and a home full of love."},
+      {"fr": "Elle porte {une robe bleue|pa-apres} et {des chaussures blanches|pa-apres}.", "en": "She's wearing a blue dress and white shoes."}],
+     "tip": "Colours and nationalities always come after the noun: un drapeau français, never un français drapeau."},
+    {"title": "2. Before the noun: beau, bon, grand…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["un beau jardin", "a beautiful garden"],
+      ["une petite maison", "a small house"],
+      ["un vieil ami", "an old friend"],
+      ["un nouvel appartement", "a new flat"]]},
+     "examples": [
+      {"fr": "Lou offre à sa maman {un joli collier|pa-avant} de pâtes.", "en": "Lou gives her mum a pretty pasta necklace."},
+      {"fr": "Tu nous as toujours donné {de bons conseils|pa-avant}.", "en": "You've always given us good advice."}],
+     "tip": "Before an adjective in the plural, des becomes de in careful French: de bons conseils, de belles fleurs."},
+    {"title": "3. Two places, two meanings", "table": {"head": ["Before", "English", "After", "English"], "frCols": [0, 2], "rows": [
+      ["un grand homme", "a great man", "un homme grand", "a tall man"],
+      ["mon ancien vélo", "my old (former) bike", "un vélo ancien", "an antique bike"],
+      ["ma chère maman", "my dear mum", "un cadeau cher", "an expensive present"],
+      ["mes propres mains", "my own hands", "des mains propres", "clean hands"],
+      ["un pauvre homme", "a poor (unfortunate) man", "un homme pauvre", "a poor (penniless) man"],
+      ["la dernière semaine", "the final week", "la semaine dernière", "last week"],
+      ["un seul ami", "only one friend", "un ami seul", "a lonely friend"],
+      ["le même jour", "the same day", "le jour même", "that very day"]]},
+     "examples": [
+      {"fr": "Il voulait dire {une grande femme|pa-sens} : une femme formidable. {Un homme grand|pa-sens}, c'est moi.", "en": "He meant a great woman: a wonderful woman. A tall man is me."},
+      {"fr": "Je l'ai fait avec {mes propres mains|pa-sens}.", "en": "I made it with my own hands."}],
+     "tip": "Before the noun, the meaning is often figurative (un grand homme); after it, literal (un homme grand)."},
+    {"title": "4. Two adjectives", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["une jolie robe rouge", "a pretty red dress"],
+      ["un beau petit jardin", "a lovely little garden"],
+      ["une femme intelligente et drôle", "an intelligent, funny woman"]]},
+     "examples": [
+      {"fr": "Moi, je veux {un petit chat noir|pa-deux}, comme celui de Camille.", "en": "I want a little black cat, like Camille's."},
+      {"fr": "C'était {une journée longue et heureuse|pa-deux}.", "en": "It was a long, happy day."}],
+     "tip": "Two adjectives after the noun need et: une maison claire et calme."},
+    {"title": "5. Before the noun, for effect", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["une magnifique journée", "a magnificent day"],
+      ["un délicieux gâteau", "a delicious cake"],
+      ["une terrible nouvelle", "terrible news"]]},
+     "examples": [
+      {"fr": "Merci pour {cette magnifique journée|pa-style}.", "en": "Thank you for this magnificent day."},
+      {"fr": "Et pour {ce délicieux gâteau|pa-style} que tu vas nous faire.", "en": "And for the delicious cake you're going to make us."}],
+     "tip": "This is a matter of style, not grammar: une journée magnifique is just as correct."}
+  ],
+  "mistakes": [
+    {"wrong": "une rouge robe", "right": "une robe rouge", "why": "Colours always come after the noun."},
+    {"wrong": "un vieux ami", "right": "un vieil ami", "why": "Before a vowel, vieux becomes vieil (and beau bel, nouveau nouvel)."},
+    {"wrong": "un français drapeau", "right": "un drapeau français", "why": "Nationalities come after the noun."},
+    {"wrong": "Mon père est un grand homme : il mesure deux mètres.", "right": "Mon père est un homme grand : il mesure deux mètres.", "why": "For height, grand goes after the noun; un grand homme is a great man."},
+    {"wrong": "Ils ont des intelligents enfants.", "right": "Ils ont des enfants intelligents.", "why": "Long adjectives like intelligent come after the noun."},
+    {"wrong": "une femme intelligente drôle", "right": "une femme intelligente et drôle", "why": "Two adjectives after the noun are joined by et."}
+  ],
+  "story": {
+    "title": "Le poème de Hugo",
+    "en": "Sunday 30 May, Mother's Day: Hugo reads a poem to his mother.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche trente mai, c'est la fête des Mères. Léa et Hugo sont venus à Paris, chez leurs parents, avec des fleurs et une grande nouvelle : Tom est pris à l'université !", "en": "Sunday 30 May is Mother's Day. Léa and Hugo have come to Paris, to their parents', with flowers and big news: Tom has got into the university!"},
+      {"sp": "", "fr": "Lou offre à sa maman {un joli collier|pa-avant} de pâtes, peint en bleu.", "en": "Lou gives her mum a pretty pasta necklace, painted blue."},
+      {"sp": "Lou", "fr": "Je l'ai fait avec {mes propres mains|pa-sens}. Et regarde : elles sont propres !", "en": "I made it with my own hands. And look: they're clean!"},
+      {"sp": "Anne", "fr": "Merci, ma chérie. C'est {le plus beau collier|pa-avant} du monde.", "en": "Thank you, darling. It's the most beautiful necklace in the world."},
+      {"sp": "Hugo", "fr": "Moi, j'ai écrit un poème. Écoutez bien.", "en": "I've written a poem. Listen carefully."},
+      {"sp": "Hugo", "fr": "« À {ma chère maman|pa-sens}, {une femme grande|pa-sens}… »", "en": "'To my dear mum, a tall woman…'"},
+      {"sp": "Anne", "fr": "Une femme grande ? Hugo, je mesure un mètre soixante !", "en": "A tall woman? Hugo, I'm one metre sixty!"},
+      {"sp": "Paul", "fr": "Il voulait dire {une grande femme|pa-sens} : une femme formidable. {Un homme grand|pa-sens}, c'est moi : un mètre quatre-vingt-quinze.", "en": "He meant a great woman: a wonderful woman. A tall man is me: one metre ninety-five."},
+      {"sp": "Hugo", "fr": "« Tu nous as donné {une enfance heureuse|pa-apres}, {une maison pleine d'amour|pa-apres} et {de bons conseils|pa-avant}… »", "en": "'You gave us a happy childhood, a home full of love and good advice…'"},
+      {"sp": "Anne", "fr": "Ça, c'est joli.", "en": "Now that's lovely."},
+      {"sp": "Hugo", "fr": "« Tu es {une femme d'un âge certain|pa-sens}… »", "en": "'You are a woman who is definitely old…'"},
+      {"sp": "Anne", "fr": "Pardon ?", "en": "I beg your pardon?"},
+      {"sp": "Léa", "fr": "Hugo ! On dit « {une femme d'un certain âge|pa-sens} »… et ce n'est déjà pas très gentil.", "en": "Hugo! You say 'a woman of a certain age'… and even that isn't very nice."},
+      {"sp": "Paul", "fr": "{Un certain âge|pa-sens}, c'est un âge qu'on ne dit pas. {Un âge certain|pa-sens}, c'est un âge qu'on ne peut plus cacher.", "en": "'A certain age' is an age you don't mention. 'A definite age' is an age you can no longer hide."},
+      {"sp": "Anne", "fr": "Mon {pauvre Hugo|pa-sens}… Tu n'es pas {un poète pauvre|pa-sens} : tu es {un pauvre poète|pa-sens} !", "en": "My poor Hugo… You're not a penniless poet: you're a pitiful poet!"},
+      {"sp": "", "fr": "Tout le monde rit, même Hugo.", "en": "Everyone laughs, even Hugo."},
+      {"sp": "Hugo", "fr": "La fin ! « Merci pour {cette magnifique journée|pa-style}… et pour {ce délicieux gâteau|pa-style} que tu vas nous faire. »", "en": "The ending! 'Thank you for this magnificent day… and for the delicious cake you're going to make us.'"},
+      {"sp": "Anne", "fr": "Ah, je comprends : le poème, c'était pour le gâteau !", "en": "Ah, I see: the poem was for the cake!"},
+      {"sp": "", "fr": "L'après-midi, Mamie appelle de Marseille en vidéo.", "en": "In the afternoon, Grandma calls from Marseille by video."},
+      {"sp": "Mamie", "fr": "Bonne fête à toutes les mamans ! Lou, raconte-moi ta semaine.", "en": "Happy Mother's Day to all the mums! Lou, tell me about your week."},
+      {"sp": "Lou", "fr": "J'ai vu Minou, {la vieille tortue|pa-avant} de Madame Leblanc. Et moi, je veux {un petit chat noir|pa-deux}, comme celui de Camille.", "en": "I saw Minou, Madame Leblanc's old tortoise. And I want a little black cat, like Camille's."},
+      {"sp": "Paul", "fr": "On verra… Et toi, Maman, tu as passé une bonne fête ?", "en": "We'll see… And you, Mum, have you had a nice Mother's Day?"},
+      {"sp": "Mamie", "fr": "Ton père m'a offert des fleurs. {Le jour même|pa-sens}, il a oublié de les arroser !", "en": "Your father gave me flowers. That very day, he forgot to water them!"},
+      {"sp": "Anne", "fr": "C'était {une journée longue et heureuse|pa-deux}. Merci, {ma propre petite famille|pa-sens}.", "en": "It's been a long, happy day. Thank you, my very own little family."},
+      {"sp": "Paul", "fr": "Un grand homme, une grande femme… et {un pauvre poète|pa-sens}. Quelle famille !", "en": "A great man, a great woman… and a pitiful poet. What a family!"}
+    ]
+  },
+  "quiz": [
+    {"case": "pa-apres", "type": "mc", "q": "Elle porte ___.", "en": "She's wearing a red dress.", "options": ["une robe rouge", "une rouge robe", "un robe rouge"], "answer": "une robe rouge"},
+    {"case": "pa-apres", "type": "mc", "q": "Tom est ___.", "en": "Tom is an English friend.", "options": ["un ami anglais", "un anglais ami", "une ami anglaise"], "answer": "un ami anglais"},
+    {"case": "pa-avant", "type": "mc", "q": "C'est ___ ami.", "en": "He's an old friend.", "options": ["un vieil", "un vieux", "une vieille"], "answer": "un vieil"},
+    {"case": "pa-avant", "type": "mc", "q": "Ils ont ___.", "en": "They have a beautiful garden.", "options": ["un beau jardin", "un jardin beau", "une belle jardin"], "answer": "un beau jardin"},
+    {"case": "pa-avant", "type": "mc", "q": "Hugo a ___ appartement.", "en": "Hugo has a new flat.", "options": ["un nouvel", "un nouveau", "une nouvelle"], "answer": "un nouvel"},
+    {"case": "pa-sens", "type": "mc", "lang": "en", "q": "« Un homme grand » is…", "options": ["a tall man", "a great man", "an old man"], "answer": "a tall man", "say": "un homme grand"},
+    {"case": "pa-sens", "type": "mc", "lang": "en", "q": "« Mon ancien professeur » is…", "options": ["my former teacher", "my elderly teacher", "my antique teacher"], "answer": "my former teacher", "say": "mon ancien professeur"},
+    {"case": "pa-sens", "type": "mc", "q": "Lave-toi : je veux ___ !", "en": "Go and wash: I want clean hands!", "options": ["des mains propres", "des propres mains", "mes propres mains"], "answer": "des mains propres"},
+    {"case": "pa-sens", "type": "mc", "q": "Je l'ai vu ___, lundi.", "en": "I saw him last week, on Monday.", "options": ["la semaine dernière", "la dernière semaine", "dernière la semaine"], "answer": "la semaine dernière"},
+    {"case": "pa-deux", "type": "mc", "q": "Lou veut ___.", "en": "Lou wants a little black cat.", "options": ["un petit chat noir", "un chat petit noir", "un noir petit chat"], "answer": "un petit chat noir"},
+    {"case": "pa-deux", "type": "mc", "q": "C'est une femme intelligente ___ drôle.", "en": "She's an intelligent, funny woman.", "options": ["et", "de", "que"], "answer": "et"},
+    {"case": "pa-style", "type": "mc", "lang": "en", "q": "« Une magnifique journée » and « une journée magnifique »…", "options": ["mean the same; the first is more expressive", "mean different things", "only the second is correct"], "answer": "mean the same; the first is more expressive", "say": "une magnifique journée"},
+    {"case": "pa-style", "type": "mc", "q": "Merci pour ce ___ gâteau !", "en": "Thank you for this delicious cake!", "options": ["délicieux", "délicieuse", "délicieusement"], "answer": "délicieux"}
+  ]
+}
