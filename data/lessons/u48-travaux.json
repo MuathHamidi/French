@@ -1,0 +1,143 @@
+{
+  "id": "u48-travaux",
+  "type": "vocab",
+  "unit": 48,
+  "title": "Le chantier du toit",
+  "en": "Building works",
+  "intro": "25 words for building works: the roof (**la tuile, l'ardoise, la gouttière, la charpente, l'isolation, la cheminée, l'antenne, la lucarne, les combles, la mansarde**), the people and the site (**le couvreur, le maçon, l'échafaudage, la grue, la benne, la bâche, le casque, le harnais**), the damage and the insurance (**l'infiltration, le sinistre, l'expert, le devis, indemniser**), and the result (**colmater, étanche**).",
+  "words": [
+    {"id": "couvreur", "fr": "couvreur", "pos": "noun", "g": "m", "ipa": "ku.vʁœʁ", "display": "le couvreur, la couvreuse", "en": "roofer", "def": "La personne qui répare ou construit les toits.", "def_en": "The person who repairs or builds roofs.", "forms": ["couvreuse", "couvreurs", "couvreuses"], "examples": [
+      {"fr": "Les **couvreurs** arrivent à sept heures.", "en": "The roofers arrive at seven."},
+      {"fr": "Karine est **couvreuse** depuis trente ans.", "en": "Karine has been a roofer for thirty years."},
+      {"fr": "Le **couvreur** remplace les tuiles cassées.", "en": "The roofer replaces the broken tiles."}]},
+    {"id": "echafaudage", "fr": "échafaudage", "pos": "noun", "g": "m", "ipa": "e.ʃa.fo.daʒ", "en": "scaffolding", "def": "Un ensemble de barres en métal, contre un mur, pour travailler en hauteur le temps d'un chantier.", "def_en": "A set of metal bars against a wall, for working high up while building work lasts.", "forms": ["échafaudages"], "examples": [
+      {"fr": "Les ouvriers montent un **échafaudage** devant la boulangerie.", "en": "The workers put up scaffolding in front of the bakery."},
+      {"fr": "Ne passe pas sous l'**échafaudage** !", "en": "Don't walk under the scaffolding!"},
+      {"fr": "L'**échafaudage** reste une semaine.", "en": "The scaffolding stays up for a week."}]},
+    {"id": "tuile", "fr": "tuile", "pos": "noun", "g": "f", "ipa": "tɥil", "en": "(roof) tile; (informal) stroke of bad luck", "def": "Un petit morceau de terre cuite qui couvre les toits.", "def_en": "A small piece of baked clay that covers roofs.", "note": "*Quelle tuile !* (informal) = what bad luck!", "forms": ["tuiles"], "examples": [
+      {"fr": "La tempête a cassé vingt **tuiles**.", "en": "The storm broke twenty tiles."},
+      {"fr": "À Lyon, les toits ont des **tuiles** rouges.", "en": "In Lyon, the roofs have red tiles."},
+      {"fr": "Une panne le jour du permis ? Quelle **tuile** !", "en": "A breakdown on the day of the test? What bad luck!"}]},
+    {"id": "ardoise", "fr": "ardoise", "pos": "noun", "g": "f", "ipa": "aʁ.dwaz", "en": "slate; chalkboard; (informal) tab, money owed", "def": "Une pierre grise et plate pour les toits ; un petit tableau noir où on écrit le menu ou les prix.", "def_en": "A flat grey stone for roofs; a small blackboard where you write the menu or the prices.", "forms": ["ardoises"], "examples": [
+      {"fr": "À Paris, beaucoup de toits sont en **ardoise**.", "en": "In Paris, a lot of roofs are made of slate."},
+      {"fr": "Le menu du jour est écrit sur l'**ardoise**.", "en": "The menu of the day is written on the chalkboard."},
+      {"fr": "Hugo a une **ardoise** de dix euros au café.", "en": "Hugo has a ten-euro tab at the café."}]},
+    {"id": "gouttiere", "fr": "gouttière", "pos": "noun", "g": "f", "ipa": "ɡu.tjɛʁ", "en": "gutter (on a roof)", "def": "Le long tuyau ouvert au bord du toit, qui reçoit l'eau de pluie.", "def_en": "The long open pipe along the edge of the roof that catches rainwater.", "forms": ["gouttières"], "examples": [
+      {"fr": "La **gouttière** est pleine de feuilles.", "en": "The gutter is full of leaves."},
+      {"fr": "Le vent a tordu la **gouttière**.", "en": "The wind has twisted the gutter."},
+      {"fr": "Un chat marche sur la **gouttière**.", "en": "A cat is walking along the gutter."}]},
+    {"id": "charpente", "fr": "charpente", "pos": "noun", "g": "f", "ipa": "ʃaʁ.pɑ̃t", "en": "frame, framework (of a roof); (of a person) build", "def": "L'ensemble des grosses pièces de bois qui portent le toit.", "def_en": "All the big pieces of wood that hold up the roof.", "forms": ["charpentes"], "examples": [
+      {"fr": "La **charpente** est en chêne.", "en": "The roof frame is made of oak."},
+      {"fr": "L'eau n'a pas touché la **charpente**.", "en": "The water hasn't reached the roof frame."},
+      {"fr": "Cette vieille **charpente** a deux cents ans.", "en": "This old roof frame is two hundred years old."}]},
+    {"id": "isolation", "fr": "isolation", "pos": "noun", "g": "f", "ipa": "i.zɔ.la.sjɔ̃", "en": "insulation; isolation", "def": "Ce qu'on met dans les murs et les toits pour garder la chaleur et arrêter le bruit.", "def_en": "What you put in walls and roofs to keep the heat in and stop noise.", "note": "*Isoler* = to insulate; to isolate.", "forms": ["isolations"], "examples": [
+      {"fr": "L'**isolation** du toit est mouillée.", "en": "The roof insulation is wet."},
+      {"fr": "Une bonne **isolation**, c'est moins de chauffage.", "en": "Good insulation means less heating."},
+      {"fr": "Avec la nouvelle **isolation**, on n'entend plus la rue.", "en": "With the new insulation, you can't hear the street any more."}]},
+    {"id": "devis", "fr": "devis", "pos": "noun", "g": "m", "ipa": "də.vi", "en": "estimate, quote", "def": "Un papier où un artisan écrit le prix d'un travail, avant de le faire.", "def_en": "A document where a tradesman writes the price of a job before doing it.", "examples": [
+      {"fr": "Madame Fournier a demandé trois **devis**.", "en": "Madame Fournier asked for three quotes."},
+      {"fr": "Le **devis** est de douze mille euros.", "en": "The quote is for twelve thousand euros."},
+      {"fr": "Signez le **devis**, et on commence lundi.", "en": "Sign the estimate, and we'll start on Monday."}]},
+    {"id": "grue", "fr": "grue", "pos": "noun", "g": "f", "ipa": "ɡʁy", "en": "crane (machine; bird)", "def": "Une grande machine qui soulève des choses lourdes ; un grand oiseau aux longues pattes.", "def_en": "A big machine that lifts heavy things; a big bird with long legs.", "note": "*Faire le pied de grue* = to stand about waiting.", "forms": ["grues"], "examples": [
+      {"fr": "Une petite **grue** monte les tuiles sur le toit.", "en": "A small crane lifts the tiles onto the roof."},
+      {"fr": "Il y a des **grues** partout à la Confluence.", "en": "There are cranes everywhere in the Confluence."},
+      {"fr": "En automne, les **grues** partent vers le sud.", "en": "In autumn, the cranes fly south."}]},
+    {"id": "expert", "fr": "expert", "pos": "noun", "g": "m", "ipa": "ɛk.spɛʁ", "display": "l'expert, l'experte", "en": "expert; (insurance) assessor; (adj) expert, skilled", "def": "Une personne qui connaît très bien un sujet ; la personne envoyée par l'assurance pour voir les dégâts.", "def_en": "Someone who knows a subject very well; the person the insurer sends to look at the damage.", "forms": ["experte", "experts", "expertes"], "examples": [
+      {"fr": "L'**expert** de l'assurance est passé la semaine dernière.", "en": "The insurance assessor came by last week."},
+      {"fr": "Karine est une **experte** des vieux toits.", "en": "Karine is an expert on old roofs."},
+      {"fr": "Pour les croissants, Madame Fournier est **experte**.", "en": "When it comes to croissants, Madame Fournier is an expert."}]},
+    {"id": "lucarne", "fr": "lucarne", "pos": "noun", "g": "f", "ipa": "ly.kaʁn", "en": "skylight, dormer window; (football) top corner", "def": "Une petite fenêtre dans un toit ; en football, le coin en haut du but.", "def_en": "A small window in a roof; in football, the top corner of the goal.", "forms": ["lucarnes"], "examples": [
+      {"fr": "Par la **lucarne**, Enzo voit les étoiles.", "en": "Through the skylight, Enzo can see the stars."},
+      {"fr": "La vieille **lucarne** ne ferme plus.", "en": "The old skylight doesn't shut any more."},
+      {"fr": "Le ballon entre dans la **lucarne** !", "en": "The ball goes into the top corner!"}]},
+    {"id": "etanche", "fr": "étanche", "pos": "adj", "ipa": "e.tɑ̃ʃ", "en": "waterproof, watertight", "def": "Qui ne laisse pas passer l'eau.", "def_en": "That doesn't let water through.", "forms": ["étanches"], "examples": [
+      {"fr": "Le toit est enfin **étanche**.", "en": "The roof is watertight at last."},
+      {"fr": "Ma montre est **étanche** : je nage avec.", "en": "My watch is waterproof: I swim with it on."},
+      {"fr": "Il faut des bottes **étanches** pour la forêt.", "en": "You need waterproof boots for the forest."}]},
+    {"id": "bache", "fr": "bâche", "pos": "noun", "g": "f", "ipa": "bɑʃ", "en": "tarpaulin, tarp", "def": "Une grande feuille de plastique qui protège de la pluie.", "def_en": "A big plastic sheet that protects from the rain.", "forms": ["bâches"], "examples": [
+      {"fr": "Une **bâche** bleue couvre le toit depuis la tempête.", "en": "A blue tarpaulin has covered the roof since the storm."},
+      {"fr": "Le vent soulève la **bâche**.", "en": "The wind lifts the tarp."},
+      {"fr": "On met une **bâche** sur le bois pour l'hiver.", "en": "We put a tarp over the wood for the winter."}]},
+    {"id": "cheminee", "fr": "cheminée", "pos": "noun", "g": "f", "ipa": "ʃə.mi.ne", "en": "chimney; fireplace", "def": "Le tuyau qui fait sortir la fumée par le toit ; l'endroit où on fait du feu dans une maison.", "def_en": "The pipe that takes smoke out through the roof; the place where you make a fire in a house.", "forms": ["cheminées"], "examples": [
+      {"fr": "Le maçon répare la **cheminée**.", "en": "The builder repairs the chimney."},
+      {"fr": "Chez Pierre, on lit devant la **cheminée**.", "en": "At Pierre's, we read in front of the fireplace."},
+      {"fr": "De la fumée sort de la **cheminée**.", "en": "Smoke is coming out of the chimney."}]},
+    {"id": "antenne", "fr": "antenne", "pos": "noun", "g": "f", "ipa": "ɑ̃.tɛn", "en": "aerial, antenna; (of an insect) feeler; (à l'antenne) on air", "def": "Un objet en métal sur le toit, pour recevoir la télévision ; les deux fils sur la tête d'un insecte.", "def_en": "A metal object on the roof for receiving television; the two threads on an insect's head.", "forms": ["antennes"], "examples": [
+      {"fr": "L'**antenne** de la télé est tombée.", "en": "The TV aerial has fallen down."},
+      {"fr": "La fourmi bouge ses **antennes**.", "en": "The ant moves its feelers."},
+      {"fr": "Hugo passe à l'**antenne** ce soir.", "en": "Hugo is on air tonight."}]},
+    {"id": "sinistre", "fr": "sinistre", "pos": "noun", "g": "m", "ipa": "si.nistʁ", "en": "(insurance) claim, damage; disaster; (adj) sinister, grim", "def": "Un accident ou des dégâts que l'assurance doit payer ; une grande catastrophe.", "def_en": "An accident or damage the insurance has to pay for; a great disaster.", "note": "As an adjective: *un air sinistre* = a grim look.", "forms": ["sinistres"], "examples": [
+      {"fr": "Madame Fournier déclare le **sinistre** à son assurance.", "en": "Madame Fournier reports the claim to her insurer."},
+      {"fr": "L'expert vient voir le **sinistre**.", "en": "The assessor comes to look at the damage."},
+      {"fr": "Ce vieux château a l'air **sinistre**.", "en": "This old castle looks grim."}]},
+    {"id": "harnais", "fr": "harnais", "pos": "noun", "g": "m", "hAsp": true, "ipa": "aʁ.nɛ", "en": "harness", "def": "Des ceintures qu'on attache autour du corps, pour ne pas tomber quand on travaille en hauteur.", "def_en": "Belts fastened round the body so you don't fall when working high up.", "note": "The h is aspirated: *le harnais*.", "examples": [
+      {"fr": "Karine attache son **harnais**.", "en": "Karine fastens her harness."},
+      {"fr": "Sans **harnais**, on ne monte pas sur le toit.", "en": "Without a harness, you don't go up on the roof."},
+      {"fr": "Le cheval porte un vieux **harnais** de cuir.", "en": "The horse wears an old leather harness."}]},
+    {"id": "benne", "fr": "benne", "pos": "noun", "g": "f", "ipa": "bɛn", "en": "skip, dumpster", "def": "Une très grande boîte en métal où on jette ce qui reste d'un chantier.", "def_en": "A very big metal container where the waste from building work is thrown.", "forms": ["bennes"], "examples": [
+      {"fr": "Les vieilles tuiles tombent dans la **benne**.", "en": "The old tiles drop into the skip."},
+      {"fr": "Hugo passe à côté de la **benne** sans tomber dedans.", "en": "Hugo walks past the skip without falling in."},
+      {"fr": "La **benne** est pleine : un camion vient la chercher.", "en": "The skip is full: a lorry comes to take it away."}]},
+    {"id": "combles", "fr": "combles", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "kɔ̃bl", "en": "loft, attic (the space under the roof)", "def": "L'espace sous le toit d'une maison, au-dessus du dernier étage.", "def_en": "The space under the roof of a house, above the top floor.", "note": "*C'est le comble !* = that's the last straw!", "examples": [
+      {"fr": "La chambre d'Enzo est sous les **combles**.", "en": "Enzo's room is up under the roof."},
+      {"fr": "Dans les **combles**, l'isolation est mouillée.", "en": "In the loft, the insulation is wet."},
+      {"fr": "Ils transforment les **combles** en bureau.", "en": "They're converting the loft into an office."}]},
+    {"id": "mansarde", "fr": "mansarde", "pos": "noun", "g": "f", "ipa": "mɑ̃.saʁd", "en": "attic room, garret", "def": "Une petite chambre sous le toit, avec un plafond qui descend.", "def_en": "A small room under the roof, with a sloping ceiling.", "forms": ["mansardes"], "examples": [
+      {"fr": "Enzo habite dans une **mansarde**.", "en": "Enzo lives in an attic room."},
+      {"fr": "Dans la **mansarde**, Hugo se cogne la tête.", "en": "In the attic room, Hugo bangs his head."},
+      {"fr": "Les artistes vivaient souvent dans des **mansardes**.", "en": "Artists often lived in garrets."}]},
+    {"id": "infiltration", "fr": "infiltration", "pos": "noun", "g": "f", "ipa": "ɛ̃.fil.tʁa.sjɔ̃", "en": "seepage, leak (of water); infiltration", "def": "De l'eau qui entre petit à petit dans un mur ou un toit.", "def_en": "Water getting little by little into a wall or a roof.", "forms": ["infiltrations"], "examples": [
+      {"fr": "Il y a une **infiltration** près de la cheminée.", "en": "Water is seeping in near the chimney."},
+      {"fr": "Les **infiltrations** ont abîmé le plafond.", "en": "The leaks have damaged the ceiling."},
+      {"fr": "Karine cherche l'**infiltration** avec une lampe.", "en": "Karine looks for the leak with a lamp."}]},
+    {"id": "macon", "fr": "maçon", "pos": "noun", "g": "m", "ipa": "ma.sɔ̃", "en": "builder, bricklayer, mason", "def": "La personne qui construit des murs avec des briques ou des pierres.", "def_en": "Someone who builds walls with bricks or stones.", "forms": ["maçons"], "examples": [
+      {"fr": "Le **maçon** répare le haut de la cheminée.", "en": "The builder repairs the top of the chimney."},
+      {"fr": "Le **maçon** monte un mur de briques.", "en": "The builder puts up a brick wall."},
+      {"fr": "Les **maçons** commencent tôt le matin.", "en": "Builders start early in the morning."}]},
+    {"id": "casque", "fr": "casque", "pos": "noun", "g": "m", "ipa": "kask", "en": "helmet; headphones", "def": "Ce qu'on porte sur la tête pour la protéger ; ce qu'on met sur les oreilles pour écouter de la musique.", "def_en": "What you wear on your head to protect it; what you put over your ears to listen to music.", "forms": ["casques"], "examples": [
+      {"fr": "Sur le chantier, tout le monde [porte|porter] un **casque**.", "en": "On the building site, everyone wears a helmet."},
+      {"fr": "Karine a un **casque** blanc.", "en": "Karine has a white helmet."},
+      {"fr": "Tom écoute de la musique avec son **casque**.", "en": "Tom listens to music with his headphones."}]},
+    {"id": "colmater", "fr": "colmater", "pos": "verb", "ipa": "kɔl.ma.te", "en": "to plug, to seal (a leak, a hole)", "def": "Fermer un trou pour que l'eau ou l'air ne passe plus.", "def_en": "To close up a hole so that water or air can't get through.", "forms": ["colmate", "colmates", "colmatons", "colmatez", "colmatent", "colmaté", "colmatée", "colmatés", "colmatées", "colmatais", "colmatait", "colmations", "colmatiez", "colmataient", "colmaterai", "colmateras", "colmatera", "colmaterons", "colmaterez", "colmateront", "colmaterais", "colmaterait", "colmaterions", "colmateriez", "colmateraient", "colmatant", "colmatai", "colmatas", "colmata", "colmatâmes", "colmatâtes", "colmatèrent"], "examples": [
+      {"fr": "Les couvreurs **colmatent** la fuite.", "en": "The roofers seal the leak."},
+      {"fr": "Il faut **colmater** ce trou avant la pluie.", "en": "This hole has to be plugged before the rain."},
+      {"fr": "Tom a **colmaté** la fenêtre avec un vieux rideau.", "en": "Tom plugged the window with an old curtain."}]},
+    {"id": "indemniser", "fr": "indemniser", "pos": "verb", "ipa": "ɛ̃.dɛm.ni.ze", "en": "to compensate, to pay compensation", "def": "Payer quelqu'un pour un dommage ou une perte.", "def_en": "To pay someone for damage or a loss.", "forms": ["indemnise", "indemnises", "indemnisons", "indemnisez", "indemnisent", "indemnisé", "indemnisée", "indemnisés", "indemnisées", "indemnisais", "indemnisait", "indemnisions", "indemnisiez", "indemnisaient", "indemniserai", "indemniseras", "indemnisera", "indemniserons", "indemniserez", "indemniseront", "indemniserais", "indemniserait", "indemniserions", "indemniseriez", "indemniseraient", "indemnisant", "indemnisai", "indemnisas", "indemnisa", "indemnisâmes", "indemnisâtes", "indemnisèrent"], "examples": [
+      {"fr": "L'assurance **indemnise** Madame Fournier.", "en": "The insurance compensates Madame Fournier."},
+      {"fr": "Hugo a été **indemnisé** pour la publicité.", "en": "Hugo got compensation for the advert."},
+      {"fr": "Les passagers du train en retard seront **indemnisés**.", "en": "The passengers on the late train will be compensated."}]}
+  ],
+  "story": {
+    "title": "Le chantier du toit",
+    "en": "Tuesday 2 to Wednesday 10 November: roofers repair Madame Fournier's roof after the storm.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi deux novembre, à sept heures du matin, un camion s'arrête devant la boulangerie de Madame Fournier.", "en": "On Tuesday 2 November, at seven in the morning, a lorry pulls up outside Madame Fournier's bakery."},
+      {"sp": "", "fr": "Depuis la tempête, une grande bâche bleue couvre le toit de l'immeuble. Aujourd'hui, les couvreurs arrivent enfin.", "en": "Since the storm, a big blue tarpaulin has covered the roof of the building. Today the roofers are here at last."},
+      {"sp": "", "fr": "En une heure, ils montent un échafaudage contre la façade. Une petite grue monte les nouvelles tuiles sur le toit.", "en": "In an hour, they put up scaffolding against the front of the building. A small crane lifts the new tiles onto the roof."},
+      {"sp": "Madame Fournier", "fr": "L'expert de l'assurance est passé la semaine dernière. C'est un sinistre : la tempête est couverte.", "en": "The insurance assessor came by last week. It's a claim: the storm is covered."},
+      {"sp": "Tom", "fr": "Alors l'assurance vous indemnise pour tout ?", "en": "So the insurance pays you for everything?"},
+      {"sp": "Madame Fournier", "fr": "Pour presque tout. J'ai demandé trois devis, et le moins cher était le meilleur. C'est rare !", "en": "For almost everything. I asked for three quotes, and the cheapest was the best. That's rare!"},
+      {"sp": "", "fr": "Karine, la patronne des couvreurs, a cinquante ans et monte sur le toit comme un écureuil.", "en": "Karine, the boss of the roofing team, is fifty and climbs onto the roof like a squirrel."},
+      {"sp": "Karine", "fr": "Des tuiles cassées, une gouttière tordue, l'antenne de la télé par terre… Votre tempête a bien travaillé !", "en": "Broken tiles, a twisted gutter, the TV aerial on the ground… Your storm did a thorough job!"},
+      {"sp": "", "fr": "Tom, qui adore le bricolage, veut aider. Karine lui montre son casque et son harnais.", "en": "Tom, who loves DIY, wants to help. Karine shows him her helmet and her harness."},
+      {"sp": "Karine", "fr": "Sans casque et sans harnais, on ne monte pas sur mon échafaudage. Même les Anglais.", "en": "Without a helmet and a harness, you don't go up my scaffolding. Not even the English."},
+      {"sp": "Hugo", "fr": "Moi, j'ai promis : plus jamais d'échelle. Je m'occupe du café.", "en": "I promised: no more ladders, ever. I'll take care of the coffee."},
+      {"sp": "", "fr": "Sous le toit, dans les combles, c'est pire que prévu. L'eau a mouillé l'isolation, et il y a une infiltration près de la cheminée.", "en": "Under the roof, in the loft, it's worse than expected. The water has soaked the insulation, and there's a leak near the chimney."},
+      {"sp": "Karine", "fr": "La charpente est solide : du bon vieux chêne. Mais il faut refaire toute l'isolation.", "en": "The roof frame is sound: good old oak. But all the insulation has to be redone."},
+      {"sp": "", "fr": "Un maçon répare le haut de la cheminée, et les couvreurs colmatent l'infiltration.", "en": "A builder repairs the top of the chimney, and the roofers seal the leak."},
+      {"sp": "", "fr": "Pendant ce temps, Enzo dort chez Tom. Dans sa mansarde, impossible de dormir l'après-midi : les marteaux tapent toute la journée.", "en": "Meanwhile, Enzo sleeps at Tom's. In his attic room, it's impossible to sleep in the afternoon: the hammers bang all day long."},
+      {"sp": "Enzo", "fr": "Chez l'Anglais, il y a du thé à toute heure et une guitare à côté de mon oreiller. C'est le luxe.", "en": "At the Englishman's, there's tea at all hours and a guitar next to my pillow. It's luxury."},
+      {"sp": "", "fr": "Les vieilles tuiles et les morceaux de bois tombent dans une benne, au bord du trottoir.", "en": "The old tiles and bits of wood go down into a skip at the edge of the pavement."},
+      {"sp": "", "fr": "Tout le quartier regarde Hugo passer à côté de la benne… Il ne tombe pas dedans.", "en": "The whole neighbourhood watches Hugo walk past the skip… He doesn't fall in."},
+      {"sp": "Hugo", "fr": "Une poubelle, d'accord. Mais une benne, c'est trop grand, même pour moi.", "en": "A bin, fine. But a skip is too big, even for me."},
+      {"sp": "", "fr": "Le jeudi, Karine monte une nouvelle lucarne pour la chambre d'Enzo, deux fois plus grande que l'ancienne.", "en": "On Thursday, Karine fits a new skylight in Enzo's room, twice as big as the old one."},
+      {"sp": "", "fr": "Madame Fournier écrit sur l'ardoise de la boulangerie : « Croissants offerts à nos couvreurs ! »", "en": "Madame Fournier writes on the bakery's chalkboard: 'Free croissants for our roofers!'"},
+      {"sp": "", "fr": "Le mercredi dix novembre, le chantier est fini. Le soir même, il pleut très fort.", "en": "On Wednesday 10 November, the work is finished. That same evening, it pours with rain."},
+      {"sp": "Karine", "fr": "Voilà le test : pas une goutte. Votre toit est étanche pour cinquante ans !", "en": "There's the test: not a drop. Your roof is watertight for fifty years!"},
+      {"sp": "", "fr": "Enzo retrouve sa mansarde. Allongé sur son lit, il regarde les étoiles par la lucarne.", "en": "Enzo moves back into his attic room. Lying on his bed, he looks at the stars through the skylight."},
+      {"sp": "Enzo", "fr": "Et l'antenne de la télé, elle est réparée ?", "en": "And the TV aerial, has it been fixed?"},
+      {"sp": "Madame Fournier", "fr": "Non. Mais tu as les étoiles : c'est mieux que la télé.", "en": "No. But you've got the stars: that's better than TV."}
+    ]
+  }
+}

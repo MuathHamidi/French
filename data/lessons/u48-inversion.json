@@ -1,0 +1,109 @@
+{
+  "id": "u48-inversion",
+  "type": "grammar",
+  "unit": 48,
+  "title": "À peine avait-elle lu le résultat…",
+  "en": "Inversion after peut-être, sans doute, à peine… que, aussi (peut-être viendra-t-il)",
+  "intro": "In careful French, a few words at the start of a sentence make the verb come before its subject, as in a question: ***Peut-être** viendra-t-il. **Sans doute** est-il nerveux.* **À peine** + inversion + **que** means *no sooner… than*: *À peine était-il assis qu'il a vu un chien.* At the start of a sentence, **aussi** means *so, therefore*: *Aussi ai-je pris une décision.* After a quotation, the verb of saying comes first: *« Bien », **a dit** l'examinatrice.* With a noun subject, the noun stays in front and a pronoun follows the verb: *Peut-être Hugo **a-t-il** réussi.* In everyday speech, French avoids all this: *Il viendra peut-être. Peut-être qu'il viendra.*",
+  "cases": [
+    {"id": "inv-peutetre", "label": "peut-être, sans doute + inversion", "rule": "At the start of a sentence, in careful French, *peut-être* and *sans doute* are followed by the verb, then the subject pronoun: *Peut-être viendra-t-il. Sans doute est-il nerveux.* In speech, put the adverb after the verb, or add *que*: *Il viendra peut-être. Peut-être qu'il viendra.*"},
+    {"id": "inv-apeine", "label": "à peine… que: no sooner… than", "rule": "*À peine* at the start takes inversion, and the second action comes after *que*: *À peine était-il assis qu'il a vu un chien.* The first verb is often in the plus-que-parfait: *À peine avait-elle lu le résultat qu'elle a crié.* In speech: *Elle avait à peine lu le résultat qu'elle a crié.*"},
+    {"id": "inv-aussi", "label": "aussi (so), ainsi, encore", "rule": "At the start of a sentence, *aussi* means *so, therefore*, and takes inversion: *Je ne vois plus bien la nuit ; aussi ai-je pris une décision.* Without inversion, it would read as *also*. *Ainsi* (so, in this way) often takes it too: *Ainsi finit la soirée.* *Encore faut-il* means *still, you have to*: *Encore faut-il trouver une place !*"},
+    {"id": "inv-incise", "label": "after a quotation: dit-il, répond Carla", "rule": "After or inside a quotation, the verb of saying comes before its subject: *« Bien », a dit l'examinatrice. « Je l'ai ? » demande-t-il.* Add *-t-* between two vowels: *demande-t-il, crie-t-elle, a-t-il dit*."},
+    {"id": "inv-nom", "label": "a noun subject: Peut-être Hugo a-t-il…", "rule": "When the subject is a noun or a name, it stays in front, and a pronoun repeats it after the verb: *Peut-être Papi a-t-il trop bu. Sans doute Gérard est-il fier.* After a quotation, the noun simply follows the verb: *répond toute la terrasse*."}
+  ],
+  "sections": [
+    {"title": "1. peut-être, sans doute", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Peut-être viendra-t-il.", "Perhaps he'll come."],
+      ["Il viendra peut-être.", "He may come."],
+      ["Peut-être qu'il viendra.", "Maybe he'll come."],
+      ["Sans doute est-il nerveux.", "He's no doubt nervous."]]},
+     "examples": [
+      {"fr": "Non merci. {Peut-être serai-je conducteur ce soir|inv-peutetre}.", "en": "No thanks. Perhaps I'll be a driver tonight."},
+      {"fr": "{Sans doute pensait-il à la poubelle|inv-peutetre}.", "en": "No doubt he was thinking of the bin."}],
+     "tip": "All three say the same thing: the inverted one is for writing and careful speech."},
+    {"title": "2. à peine… que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À peine était-il assis qu'il a calé.", "No sooner had he sat down than he stalled."],
+      ["Il était à peine assis qu'il a calé.", "He had barely sat down when he stalled."],
+      ["À peine avait-elle lu le résultat qu'elle a crié.", "Hardly had she read the result when she screamed."]]},
+     "examples": [
+      {"fr": "{À peine Hugo était-il assis au volant qu'il a vu un petit chien|inv-apeine}.", "en": "No sooner was Hugo at the wheel than he saw a little dog."},
+      {"fr": "{À peine avait-elle lu le résultat qu'elle a crié|inv-apeine}.", "en": "Hardly had she read the result when she screamed."}],
+     "tip": "Don't forget que before the second action."},
+    {"title": "3. aussi, ainsi, encore", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Aussi ai-je pris une décision.", "So I've made a decision."],
+      ["Ainsi finit la soirée.", "And so the evening ends."],
+      ["Encore faut-il trouver une place.", "Still, you have to find a space."]]},
+     "examples": [
+      {"fr": "{Aussi ai-je pris une décision|inv-aussi} : ma voiture est à toi.", "en": "So I've made a decision: my car is yours."},
+      {"fr": "{Encore faut-il trouver une place pour se garer|inv-aussi} !", "en": "Still, you have to find a parking space!"}],
+     "tip": "At the start of a sentence, aussi means so; elsewhere, it means also."},
+    {"title": "4. after a quotation", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["« Bien », a dit l'examinatrice.", "'Good,' said the examiner."],
+      ["« Je l'ai ? » demande-t-il.", "'Have I got it?' he asks."],
+      ["« Tu l'as ! » crie Carla.", "'You've got it!' Carla shouts."]]},
+     "examples": [
+      {"fr": "« Bien », {a dit l'examinatrice|inv-incise}.", "en": "'Good,' said the examiner."},
+      {"fr": "{« Tu l'as ! » répond toute la terrasse|inv-incise}.", "en": "'You've got it!' the whole terrace answers."}],
+     "tip": "In a story, the verb of saying comes first after a quotation."},
+    {"title": "5. a noun subject", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Peut-être Hugo a-t-il réussi.", "Perhaps Hugo has passed."],
+      ["Sans doute Gérard est-il fier.", "Gérard is no doubt proud."],
+      ["À peine le moteur avait-il démarré que…", "No sooner had the engine started than…"]]},
+     "examples": [
+      {"fr": "{Sans doute Gérard est-il fier de son vin|inv-nom}.", "en": "Gérard is no doubt proud of his wine."},
+      {"fr": "{Peut-être Papi a-t-il trop bu de Beaujolais|inv-nom} ?", "en": "Perhaps Grandpa has had too much Beaujolais?"}],
+     "tip": "The noun stays in front; il or elle repeats it after the verb."}
+  ],
+  "mistakes": [
+    {"wrong": "Peut-être il viendra.", "right": "Peut-être viendra-t-il.", "why": "At the start of a sentence, peut-être takes inversion, or que: peut-être qu'il viendra."},
+    {"wrong": "À peine il était assis qu'il a calé.", "right": "À peine était-il assis qu'il a calé.", "why": "À peine at the start of a sentence takes inversion."},
+    {"wrong": "Aussi j'ai pris une décision.", "right": "Aussi ai-je pris une décision.", "why": "Aussi meaning so takes inversion; without it, it reads as also."},
+    {"wrong": "« Bien », l'examinatrice a dit.", "right": "« Bien », a dit l'examinatrice.", "why": "After a quotation, the verb comes before the subject."},
+    {"wrong": "Peut-être a Hugo réussi.", "right": "Peut-être Hugo a-t-il réussi.", "why": "A noun subject stays in front, and a pronoun follows the verb."}
+  ],
+  "story": {
+    "title": "À peine avait-elle lu le résultat…",
+    "en": "Thursday 18 November: the Beaujolais nouveau at the café downstairs, and Hugo's result.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi dix-huit novembre, c'est le jour du Beaujolais nouveau. Gérard est venu de ses vignes avec ses bouteilles.", "en": "Thursday 18 November is Beaujolais nouveau day. Gérard has come in from his vineyards with his bottles."},
+      {"sp": "Gérard", "fr": "Le Beaujolais nouveau est arrivé ! Et celui-ci, c'est le vôtre : ce sont vos raisins de septembre.", "en": "The Beaujolais nouveau has arrived! And this one's yours: it's your grapes from September."},
+      {"sp": "", "fr": "Au café d'en bas, tout le monde est là, sauf Hugo, qui tourne en rond sur le trottoir.", "en": "At the café downstairs, everyone's there except Hugo, who is pacing up and down the pavement."},
+      {"sp": "", "fr": "Depuis ce matin, le résultat de son permis est en ligne. Il n'a pas osé regarder.", "en": "His driving test result has been online since this morning. He hasn't dared to look."},
+      {"sp": "Léa", "fr": "Pour attendre, j'ai écrit un petit texte, comme dans les vieux romans. Écoutez.", "en": "To pass the time, I've written a little text, like in old novels. Listen."},
+      {"sp": "Léa", "fr": "{À peine Hugo était-il assis au volant qu'il a vu un petit chien|inv-apeine}. {Sans doute pensait-il à la poubelle|inv-peutetre}.", "en": "No sooner was Hugo at the wheel than he saw a little dog. No doubt he was thinking of the bin."},
+      {"sp": "Léa", "fr": "Mais il a freiné, et le chien s'est assis. « Bien », {a dit l'examinatrice|inv-incise}. Rien d'autre.", "en": "But he braked, and the dog sat down. 'Good,' said the examiner. Nothing else."},
+      {"sp": "Hugo", "fr": "Arrête, Léa ! Je ne veux pas savoir.", "en": "Stop it, Léa! I don't want to know."},
+      {"sp": "", "fr": "Gérard sert le vin. Carla, elle, boit du jus de raisin, comme toujours.", "en": "Gérard pours the wine. Carla drinks grape juice, as always."},
+      {"sp": "Gérard", "fr": "Et toi, Hugo ? Un verre de Beaujolais ?", "en": "And you, Hugo? A glass of Beaujolais?"},
+      {"sp": "Hugo", "fr": "Non merci. {Peut-être serai-je conducteur ce soir|inv-peutetre}. Et pour les jeunes conducteurs, c'est zéro alcool.", "en": "No thanks. Perhaps I'll be a driver tonight. And for new drivers, it's zero alcohol."},
+      {"sp": "Léa", "fr": "{Aussi Hugo boit-il du jus de raisin|inv-aussi}. Quel sérieux !", "en": "So Hugo drinks grape juice. How serious!"},
+      {"sp": "", "fr": "{Sans doute Gérard est-il fier de son vin|inv-nom} : il en parle comme de ses enfants.", "en": "Gérard is no doubt proud of his wine: he talks about it as if it were his children."},
+      {"sp": "", "fr": "Finalement, Carla prend le téléphone de Hugo et ouvre la page du résultat.", "en": "In the end, Carla takes Hugo's phone and opens the results page."},
+      {"sp": "", "fr": "{À peine avait-elle lu le résultat qu'elle a crié|inv-apeine}.", "en": "No sooner had she read the result than she screamed."},
+      {"sp": "Carla", "fr": "« Favorable » ! Tu l'as !", "en": "'Pass'! You've got it!"},
+      {"sp": "", "fr": "{« Je l'ai ? » demande-t-il|inv-incise}, tout blanc. {« Tu l'as ! » répond toute la terrasse|inv-incise}.", "en": "'Have I got it?' he asks, white as a sheet. 'You've got it!' the whole terrace answers."},
+      {"sp": "", "fr": "Le patron offre une tournée, et Madame Fournier arrive avec des croissants.", "en": "The owner buys a round, and Madame Fournier arrives with croissants."},
+      {"sp": "", "fr": "Soudain, le téléphone de Hugo sonne. C'est Papi, depuis Marseille.", "en": "Suddenly, Hugo's phone rings. It's Grandpa, calling from Marseille."},
+      {"sp": "Jacques", "fr": "Bravo, mon grand ! Moi, je ne vois plus bien la nuit. {Aussi ai-je pris une décision|inv-aussi} : ma voiture est à toi.", "en": "Well done, my boy! Me, I can't see well at night any more. So I've made a decision: my car is yours."},
+      {"sp": "Hugo", "fr": "{Peut-être Papi a-t-il trop bu de Beaujolais|inv-nom} ?", "en": "Perhaps Grandpa has had too much Beaujolais?"},
+      {"sp": "Louise", "fr": "Non, il est très sérieux. Venez samedi : la voiture vous attend.", "en": "No, he's quite serious. Come on Saturday: the car's waiting for you."},
+      {"sp": "", "fr": "{Ainsi finit la soirée|inv-aussi} : avec un permis, une voiture… et un grand verre de jus de raisin.", "en": "And so the evening ends: with a licence, a car… and a big glass of grape juice."},
+      {"sp": "Léa", "fr": "Une voiture, en plein Lyon ? {Encore faut-il trouver une place pour se garer|inv-aussi} !", "en": "A car, in the middle of Lyon? Still, you have to find a parking space!"}
+    ]
+  },
+  "quiz": [
+    {"case": "inv-peutetre", "type": "mc", "q": "Peut-être ___ ce soir.", "en": "Perhaps he'll come tonight.", "options": ["viendra-t-il", "il viendra", "viendra il"], "answer": "viendra-t-il"},
+    {"case": "inv-peutetre", "type": "mc", "q": "Sans doute ___ nerveux.", "en": "He's no doubt nervous.", "options": ["est-il", "il est", "est il"], "answer": "est-il"},
+    {"case": "inv-peutetre", "type": "mc", "q": "Peut-être ___ viendra.", "en": "Maybe he'll come.", "options": ["qu'il", "il", "que il"], "answer": "qu'il"},
+    {"case": "inv-apeine", "type": "mc", "q": "À peine ___ assis qu'il a calé.", "en": "No sooner had he sat down than he stalled.", "options": ["était-il", "il était", "était"], "answer": "était-il"},
+    {"case": "inv-apeine", "type": "mc", "q": "À peine avait-elle lu le résultat ___ a crié.", "en": "Hardly had she read the result when she screamed.", "options": ["qu'elle", "quand elle", "elle"], "answer": "qu'elle"},
+    {"case": "inv-aussi", "type": "mc", "q": "Je ne vois plus bien la nuit ; aussi ___ pris une décision.", "en": "I can't see well at night any more, so I've made a decision.", "options": ["ai-je", "j'ai", "je ai"], "answer": "ai-je"},
+    {"case": "inv-aussi", "type": "mc", "q": "Une voiture, c'est bien ; encore ___ savoir conduire !", "en": "A car is all very well; still, you have to know how to drive!", "options": ["faut-il", "il faut", "faut"], "answer": "faut-il"},
+    {"case": "inv-incise", "type": "mc", "q": "« Tu l'as ! » ___.", "en": "'You've got it!' she shouts.", "options": ["crie-t-elle", "elle crie", "crie elle"], "answer": "crie-t-elle"},
+    {"case": "inv-incise", "type": "mc", "q": "« Bien », ___ l'examinatrice.", "en": "'Good,' said the examiner.", "options": ["a dit", "elle a dit", "dit-elle"], "answer": "a dit"},
+    {"case": "inv-nom", "type": "mc", "q": "Peut-être Hugo ___ réussi.", "en": "Perhaps Hugo has passed.", "options": ["a-t-il", "a", "il a"], "answer": "a-t-il"},
+    {"case": "inv-nom", "type": "mc", "q": "Sans doute Gérard ___ fier de son vin.", "en": "Gérard is no doubt proud of his wine.", "options": ["est-il", "est", "il est"], "answer": "est-il"}
+  ]
+}

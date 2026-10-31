@@ -1,0 +1,144 @@
+{
+  "id": "u48-voiture",
+  "type": "vocab",
+  "unit": 48,
+  "title": "La voiture de Papi",
+  "en": "The car",
+  "intro": "25 words for the car and the road: the car itself (**le moteur, le capot, le pare-brise, l'essuie-glace, la portière, la vitre, la carrosserie, le pare-chocs, le klaxon, le compteur, l'autoradio, le réservoir, la jauge**), fuel (**l'essence, le gazole, le carburant, la pompe**), the motorway (**l'autoroute, l'aire, la borne**), and trouble (**la rayure, la détresse, le gilet, remorquer, le garagiste**).",
+  "words": [
+    {"id": "moteur", "fr": "moteur", "pos": "noun", "g": "m", "ipa": "mɔ.tœʁ", "en": "engine, motor", "def": "La machine qui fait avancer une voiture, un bateau ou un avion.", "def_en": "The machine that makes a car, a boat or a plane move.", "note": "*Moteur !* = Action! (on a film set).", "forms": ["moteurs"], "examples": [
+      {"fr": "Le **moteur** tousse, puis s'arrête.", "en": "The engine coughs, then stops."},
+      {"fr": "Le garagiste nettoie le **moteur**.", "en": "The mechanic cleans the engine."},
+      {"fr": "Cette voiture a un **moteur** de vingt ans.", "en": "This car has a twenty-year-old engine."}]},
+    {"id": "essence", "fr": "essence", "pos": "noun", "g": "f", "ipa": "e.sɑ̃s", "en": "petrol, gasoline; essence", "def": "Le liquide qu'on met dans le réservoir de beaucoup de voitures ; ce qui est le plus important dans une chose.", "def_en": "The liquid you put in the tank of many cars; what is most important in something.", "forms": ["essences"], "examples": [
+      {"fr": "Hugo met de l'**essence** à la place du gazole.", "en": "Hugo puts in petrol instead of diesel."},
+      {"fr": "Le plein d'**essence** coûte quatre-vingts euros.", "en": "A full tank of petrol costs eighty euros."},
+      {"fr": "L'**essence** du problème, c'est le prix.", "en": "The essence of the problem is the price."}]},
+    {"id": "gazole", "fr": "gazole", "pos": "noun", "g": "m", "ipa": "ɡa.zɔl", "en": "diesel (fuel)", "def": "Un carburant pour certains moteurs, plus lourd que l'essence.", "def_en": "A fuel for some engines, heavier than petrol.", "note": "Also called *le diesel*.", "examples": [
+      {"fr": "Cette voiture roule au **gazole**.", "en": "This car runs on diesel."},
+      {"fr": "Le **gazole** est un peu moins cher.", "en": "Diesel is a bit cheaper."},
+      {"fr": "Attention : **gazole**, pas essence !", "en": "Careful: diesel, not petrol!"}]},
+    {"id": "carburant", "fr": "carburant", "pos": "noun", "g": "m", "ipa": "kaʁ.by.ʁɑ̃", "en": "fuel", "def": "Ce qu'on brûle dans un moteur pour le faire fonctionner : l'essence, le gazole…", "def_en": "What is burnt in an engine to make it work: petrol, diesel…", "forms": ["carburants"], "examples": [
+      {"fr": "Tu es sûr que c'est le bon **carburant** ?", "en": "Are you sure it's the right fuel?"},
+      {"fr": "Le prix du **carburant** augmente.", "en": "The price of fuel is going up."},
+      {"fr": "Les avions consomment beaucoup de **carburant**.", "en": "Planes use a lot of fuel."}]},
+    {"id": "reservoir", "fr": "réservoir", "pos": "noun", "g": "m", "ipa": "ʁe.zɛʁ.vwaʁ", "en": "tank; reservoir", "def": "L'endroit d'une voiture où on met l'essence ; un grand bassin où on garde de l'eau.", "def_en": "The part of a car where the fuel goes; a big pool where water is stored.", "forms": ["réservoirs"], "examples": [
+      {"fr": "Le **réservoir** est presque [vide|vide].", "en": "The tank is almost empty."},
+      {"fr": "Le garagiste vide le **réservoir**.", "en": "The mechanic empties the tank."},
+      {"fr": "Un **réservoir** de cinquante litres.", "en": "A fifty-litre tank."}]},
+    {"id": "jauge", "fr": "jauge", "pos": "noun", "g": "f", "ipa": "ʒoʒ", "en": "gauge; (fuel) gauge", "def": "L'aiguille qui montre combien il reste d'essence ou d'huile.", "def_en": "The needle that shows how much fuel or oil is left.", "forms": ["jauges"], "examples": [
+      {"fr": "La **jauge** est dans le rouge.", "en": "The gauge is in the red."},
+      {"fr": "Regarde la **jauge** avant de partir.", "en": "Check the gauge before you leave."},
+      {"fr": "La **jauge** d'huile ne fonctionne plus.", "en": "The oil gauge doesn't work any more."}]},
+    {"id": "aire", "fr": "aire", "pos": "noun", "g": "f", "ipa": "ɛʁ", "en": "area; (motorway) services, rest area", "def": "Un endroit au bord de l'autoroute pour s'arrêter ; une surface.", "def_en": "A place at the side of the motorway for stopping; a surface.", "note": "*Une aire de jeux* = a playground.", "forms": ["aires"], "examples": [
+      {"fr": "On s'arrête sur une **aire** d'autoroute.", "en": "We stop at a motorway services."},
+      {"fr": "Il y a une **aire** de jeux pour les enfants.", "en": "There's a play area for children."},
+      {"fr": "L'**aire** de repos est pleine de camions.", "en": "The rest area is full of lorries."}]},
+    {"id": "autoroute", "fr": "autoroute", "pos": "noun", "g": "f", "ipa": "o.to.ʁut", "en": "motorway, highway", "def": "Une grande route rapide entre les villes, souvent avec un péage.", "def_en": "A big fast road between cities, often with tolls.", "forms": ["autoroutes"], "examples": [
+      {"fr": "Sur l'**autoroute**, Hugo roule à cent dix.", "en": "On the motorway, Hugo drives at a hundred and ten."},
+      {"fr": "L'**autoroute** du Soleil va de Lyon à Marseille.", "en": "The Motorway of the Sun runs from Lyon to Marseille."},
+      {"fr": "Au péage de l'**autoroute**, Carla paie.", "en": "At the motorway toll, Carla pays."}]},
+    {"id": "compteur", "fr": "compteur", "pos": "noun", "g": "m", "ipa": "kɔ̃.tœʁ", "en": "meter; speedometer; mileometer", "def": "Un appareil qui montre un nombre : la vitesse, les kilomètres, l'électricité…", "def_en": "A device that shows a number: speed, kilometres, electricity…", "forms": ["compteurs"], "examples": [
+      {"fr": "Le **compteur** indique deux cent mille kilomètres.", "en": "The mileometer reads two hundred thousand kilometres."},
+      {"fr": "Hugo regarde souvent son **compteur**.", "en": "Hugo keeps looking at his speedometer."},
+      {"fr": "Le technicien lit le **compteur** d'électricité.", "en": "The technician reads the electricity meter."}]},
+    {"id": "capot", "fr": "capot", "pos": "noun", "g": "m", "ipa": "ka.po", "en": "bonnet, hood (of a car)", "def": "La partie de la voiture qui couvre le moteur, à l'avant.", "def_en": "The part of the car that covers the engine, at the front.", "forms": ["capots"], "examples": [
+      {"fr": "Le chauffeur ouvre le **capot**.", "en": "The driver opens the bonnet."},
+      {"fr": "Un chat dort sur le **capot**.", "en": "A cat is sleeping on the bonnet."},
+      {"fr": "Le **capot** est encore chaud.", "en": "The bonnet is still hot."}]},
+    {"id": "pare-brise", "fr": "pare-brise", "pos": "noun", "g": "m", "ipa": "paʁ.bʁiz", "en": "windscreen, windshield", "def": "La grande vitre à l'avant d'une voiture.", "def_en": "The big window at the front of a car.", "forms": ["pare-brises"], "examples": [
+      {"fr": "La pluie tombe sur le **pare-brise**.", "en": "The rain falls on the windscreen."},
+      {"fr": "Une pierre a touché le **pare-brise**.", "en": "A stone has hit the windscreen."},
+      {"fr": "Hugo nettoie le **pare-brise** à la station-service.", "en": "Hugo cleans the windscreen at the petrol station."}]},
+    {"id": "essuie-glace", "fr": "essuie-glace", "pos": "noun", "g": "m", "ipa": "e.sɥi.ɡlas", "en": "windscreen wiper", "def": "La petite barre qui enlève la pluie de la vitre avant d'une voiture.", "def_en": "The little bar that clears the rain off a car's front window.", "forms": ["essuie-glaces"], "examples": [
+      {"fr": "Carla allume les **essuie-glaces**.", "en": "Carla switches on the wipers."},
+      {"fr": "Les **essuie-glaces** chantent sur le pare-brise.", "en": "The wipers sing on the windscreen."},
+      {"fr": "Un **essuie-glace** est cassé.", "en": "One wiper is broken."}]},
+    {"id": "portiere", "fr": "portière", "pos": "noun", "g": "f", "ipa": "pɔʁ.tjɛʁ", "en": "(car or train) door", "def": "La porte d'une voiture ou d'un train.", "def_en": "The door of a car or a train.", "forms": ["portières"], "examples": [
+      {"fr": "Il y a une petite rayure sur la **portière**.", "en": "There's a little scratch on the door."},
+      {"fr": "Ferme bien ta **portière** !", "en": "Shut your door properly!"},
+      {"fr": "Jacques ouvre la **portière** et caresse le volant.", "en": "Jacques opens the door and strokes the steering wheel."}]},
+    {"id": "vitre", "fr": "vitre", "pos": "noun", "g": "f", "ipa": "vitʁ", "en": "window (pane); car window", "def": "Le verre d'une fenêtre ou d'une voiture.", "def_en": "The glass of a window or of a car.", "forms": ["vitres"], "examples": [
+      {"fr": "Hugo baisse la **vitre**.", "en": "Hugo winds the window down."},
+      {"fr": "Sur la **vitre** arrière, il y a le disque des jeunes conducteurs.", "en": "On the rear window, there's the new-driver disc."},
+      {"fr": "Le chat regarde la pluie derrière la **vitre**.", "en": "The cat watches the rain through the window."}]},
+    {"id": "autoradio", "fr": "autoradio", "pos": "noun", "g": "m", "ipa": "o.to.ʁa.djo", "en": "car radio", "def": "L'appareil qui joue de la musique dans une voiture.", "def_en": "The device that plays music in a car.", "forms": ["autoradios"], "examples": [
+      {"fr": "Le vieil **autoradio** lit encore les cassettes.", "en": "The old car radio still plays cassettes."},
+      {"fr": "Hugo met l'**autoradio** très fort.", "en": "Hugo turns the car radio up very loud."},
+      {"fr": "On a volé l'**autoradio** !", "en": "Someone has stolen the car radio!"}]},
+    {"id": "carrosserie", "fr": "carrosserie", "pos": "noun", "g": "f", "ipa": "ka.ʁɔs.ʁi", "en": "bodywork (of a car)", "def": "La partie en métal qui donne sa forme à une voiture.", "def_en": "The metal part that gives a car its shape.", "forms": ["carrosseries"], "examples": [
+      {"fr": "La **carrosserie** brille.", "en": "The bodywork is shining."},
+      {"fr": "Il y a une rayure sur la **carrosserie**.", "en": "There's a scratch on the bodywork."},
+      {"fr": "Le garagiste répare la **carrosserie**.", "en": "The mechanic repairs the bodywork."}]},
+    {"id": "rayure", "fr": "rayure", "pos": "noun", "g": "f", "ipa": "ʁɛ.jyʁ", "en": "scratch; stripe", "def": "Une marque longue et fine sur une surface ; une ligne de couleur.", "def_en": "A long, thin mark on a surface; a line of colour.", "forms": ["rayures"], "examples": [
+      {"fr": "Une deuxième **rayure**, sur le pare-chocs.", "en": "A second scratch, on the bumper."},
+      {"fr": "Le chat a fait une **rayure** sur la table.", "en": "The cat has made a scratch on the table."},
+      {"fr": "Tom porte un pull à **rayures** bleues.", "en": "Tom is wearing a jumper with blue stripes."}]},
+    {"id": "pare-chocs", "fr": "pare-chocs", "pos": "noun", "g": "m", "ipa": "paʁ.ʃɔk", "en": "bumper", "def": "La pièce à l'avant et à l'arrière d'une voiture, qui la protège quand elle touche quelque chose.", "def_en": "The part at the front and the back of a car that protects it when it hits something.", "examples": [
+      {"fr": "Hugo touche un poteau avec le **pare-chocs**.", "en": "Hugo hits a post with the bumper."},
+      {"fr": "Le **pare-chocs** est un peu abîmé.", "en": "The bumper is a bit damaged."},
+      {"fr": "Le **pare-chocs** arrière a une rayure.", "en": "The rear bumper has a scratch."}]},
+    {"id": "klaxon", "fr": "klaxon", "pos": "noun", "g": "m", "ipa": "klak.sɔn", "en": "horn (of a car)", "def": "L'objet qui fait un bruit fort pour avertir les autres conducteurs.", "def_en": "The thing that makes a loud noise to warn other drivers.", "note": "*Klaxonner* = to honk.", "forms": ["klaxons"], "examples": [
+      {"fr": "Un taxi donne un coup de **klaxon**.", "en": "A taxi honks its horn."},
+      {"fr": "Le **klaxon** de la vieille voiture fait rire Carla.", "en": "The old car's horn makes Carla laugh."},
+      {"fr": "Pas de **klaxon** la nuit !", "en": "No honking at night!"}]},
+    {"id": "garagiste", "fr": "garagiste", "pos": "noun", "g": "m", "both": true, "ipa": "ɡa.ʁa.ʒist", "display": "le / la garagiste", "en": "mechanic; garage owner", "def": "La personne qui répare les voitures et vérifie les moteurs.", "def_en": "The person who repairs cars and checks engines.", "forms": ["garagistes"], "accept": ["la garagiste", "une garagiste"], "examples": [
+      {"fr": "Le **garagiste** [vide|vider] le réservoir.", "en": "The mechanic empties the tank."},
+      {"fr": "Jacques connaît son **garagiste** depuis trente ans.", "en": "Jacques has known his mechanic for thirty years."},
+      {"fr": "La **garagiste** change les pneus.", "en": "The mechanic changes the tyres."}]},
+    {"id": "detresse", "fr": "détresse", "pos": "noun", "g": "f", "ipa": "de.tʁɛs", "en": "distress; (les feux de détresse) hazard lights", "def": "Une situation de grand danger ou de grande peine, quand on a besoin d'aide.", "def_en": "A situation of great danger or great sorrow, when you need help.", "note": "*Les feux de détresse* = hazard lights.", "examples": [
+      {"fr": "Hugo allume les feux de **détresse**.", "en": "Hugo switches on the hazard lights."},
+      {"fr": "Le bateau appelle à l'aide : il est en **détresse**.", "en": "The boat is calling for help: it's in distress."},
+      {"fr": "On voyait la **détresse** dans ses yeux.", "en": "You could see the distress in his eyes."}]},
+    {"id": "remorquer", "fr": "remorquer", "pos": "verb", "ipa": "ʁə.mɔʁ.ke", "en": "to tow", "def": "Tirer un véhicule derrière soi.", "def_en": "To pull a vehicle along behind you.", "forms": ["remorque", "remorques", "remorquons", "remorquez", "remorquent", "remorqué", "remorquée", "remorqués", "remorquées", "remorquais", "remorquait", "remorquions", "remorquiez", "remorquaient", "remorquerai", "remorqueras", "remorquera", "remorquerons", "remorquerez", "remorqueront", "remorquerais", "remorquerait", "remorquerions", "remorqueriez", "remorqueraient", "remorquant", "remorquai", "remorquas", "remorqua", "remorquâmes", "remorquâtes", "remorquèrent"], "examples": [
+      {"fr": "La dépanneuse **remorque** la voiture.", "en": "The tow truck tows the car."},
+      {"fr": "Un tracteur **remorque** la voiture jusqu'à la ferme.", "en": "A tractor tows the car to the farm."},
+      {"fr": "Ils ont dû faire **remorquer** la voiture.", "en": "They had to have the car towed."}]},
+    {"id": "gilet", "fr": "gilet", "pos": "noun", "g": "m", "ipa": "ʒi.lɛ", "en": "cardigan; waistcoat; (gilet jaune) high-visibility vest", "def": "Un vêtement ouvert devant, qu'on met sur une chemise ; le vêtement jaune qu'on porte en cas de panne.", "def_en": "A garment open at the front, worn over a shirt; the yellow garment you wear when you break down.", "note": "*Un gilet de sauvetage* = a life jacket.", "forms": ["gilets"], "examples": [
+      {"fr": "Carla sort les **gilets** jaunes.", "en": "Carla gets out the yellow vests."},
+      {"fr": "Mamie a fait un **gilet** pour Lou.", "en": "Granny has made a cardigan for Lou."},
+      {"fr": "Mets ton **gilet**, il fait froid !", "en": "Put your cardigan on, it's cold!"}]},
+    {"id": "pompe", "fr": "pompe", "pos": "noun", "g": "f", "ipa": "pɔ̃p", "en": "pump; (petrol) pump", "def": "Une machine qui fait monter ou avancer un liquide ou de l'air.", "def_en": "A machine that pushes a liquid or air up or along.", "note": "*Faire des pompes* = to do push-ups.", "forms": ["pompes"], "examples": [
+      {"fr": "Hugo s'arrête à la première **pompe**.", "en": "Hugo stops at the first pump."},
+      {"fr": "Il gonfle les pneus avec une **pompe**.", "en": "He pumps up the tyres with a pump."},
+      {"fr": "La **pompe** à eau est en panne.", "en": "The water pump has broken down."}]},
+    {"id": "borne", "fr": "borne", "pos": "noun", "g": "f", "ipa": "bɔʁn", "en": "(roadside) post; terminal; (emergency) phone", "def": "Un petit poteau au bord d'une route ; un appareil où on peut appeler ou payer.", "def_en": "A small post at the side of a road; a machine where you can call or pay.", "note": "*Dépasser les bornes* = to go too far.", "forms": ["bornes"], "examples": [
+      {"fr": "Ils appellent les secours à la **borne** orange.", "en": "They call for help from the orange emergency phone."},
+      {"fr": "Paie ton ticket à la **borne**.", "en": "Pay for your ticket at the machine."},
+      {"fr": "Là, tu dépasses les **bornes** !", "en": "Now you're going too far!"}]}
+  ],
+  "story": {
+    "title": "La voiture de Papi",
+    "en": "Sunday 21 November: Hugo drives Jacques's old car back from Marseille.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche vingt et un novembre, à huit heures, Hugo et Carla quittent Marseille dans la vieille voiture de Papi.", "en": "On Sunday 21 November, at eight o'clock, Hugo and Carla leave Marseille in Grandpa's old car."},
+      {"sp": "", "fr": "Elle est grise, elle a vingt ans, et le compteur indique deux cent mille kilomètres.", "en": "It's grey, it's twenty years old, and the mileometer reads two hundred thousand kilometres."},
+      {"sp": "", "fr": "La carrosserie brille : Jacques l'a lavée hier soir. Il y a seulement une petite rayure sur la portière.", "en": "The bodywork is shining: Jacques washed it last night. There's only a little scratch on the door."},
+      {"sp": "Carla", "fr": "Il n'y a même pas de GPS ?", "en": "There isn't even a satnav?"},
+      {"sp": "Hugo", "fr": "Non, mais il y a un vieil autoradio à cassettes, avec les chansons de Papi !", "en": "No, but there's an old cassette car radio, with Grandpa's songs!"},
+      {"sp": "", "fr": "Sur la vitre arrière, Hugo a collé le disque des jeunes conducteurs.", "en": "On the rear window, Hugo has stuck the new-driver disc."},
+      {"sp": "", "fr": "Sur l'autoroute, il roule à cent dix, les deux mains sur le volant. Les camions le doublent.", "en": "On the motorway, he drives at a hundred and ten, both hands on the wheel. The lorries overtake him."},
+      {"sp": "Carla", "fr": "Cent dix, c'est la limite pour les jeunes conducteurs. Bravo, tu respectes la loi !", "en": "A hundred and ten is the limit for new drivers. Well done, you're keeping to the law!"},
+      {"sp": "", "fr": "Près de Montélimar, la jauge passe dans le rouge : le réservoir est presque [vide|vide].", "en": "Near Montélimar, the gauge goes into the red: the tank is almost empty."},
+      {"sp": "Hugo", "fr": "Pas de panique : il y a une aire dans deux kilomètres.", "en": "Don't panic: there's a services area in two kilometres."},
+      {"sp": "", "fr": "À la station-service, Hugo s'arrête à la première pompe et fait le plein.", "en": "At the petrol station, Hugo stops at the first pump and fills up."},
+      {"sp": "Carla", "fr": "Tu es sûr que c'est le bon carburant ?", "en": "Are you sure it's the right fuel?"},
+      {"sp": "Hugo", "fr": "Bien sûr ! Une voiture, ça [roule|rouler] à l'essence.", "en": "Of course! Cars run on petrol."},
+      {"sp": "", "fr": "Cinq kilomètres plus loin, le moteur tousse, la voiture ralentit… et s'arrête au bord de l'autoroute.", "en": "Five kilometres further on, the engine coughs, the car slows down… and stops at the side of the motorway."},
+      {"sp": "", "fr": "Hugo allume les feux de détresse, et Carla sort les gilets jaunes du coffre.", "en": "Hugo switches on the hazard lights, and Carla gets the yellow vests out of the boot."},
+      {"sp": "", "fr": "Ils marchent jusqu'à une borne orange et appellent les secours.", "en": "They walk to an orange emergency phone and call for help."},
+      {"sp": "", "fr": "Une heure plus tard, une dépanneuse arrive. Le chauffeur ouvre le capot et sent le réservoir.", "en": "An hour later, a tow truck arrives. The driver opens the bonnet and sniffs at the tank."},
+      {"sp": "Le chauffeur", "fr": "Cette voiture roule au gazole, monsieur. Vous avez mis de l'essence !", "en": "This car runs on diesel, sir. You've put petrol in!"},
+      {"sp": "", "fr": "La dépanneuse remorque la voiture jusqu'à un garage de Montélimar.", "en": "The tow truck tows the car to a garage in Montélimar."},
+      {"sp": "", "fr": "Le garagiste vide le réservoir et nettoie le moteur. Pendant trois heures, Hugo et Carla mangent du nougat.", "en": "The mechanic empties the tank and cleans the engine. For three hours, Hugo and Carla eat nougat."},
+      {"sp": "Le garagiste", "fr": "Ça arrive tous les jours. Mais en général, pas avec la voiture de son grand-père.", "en": "It happens every day. But not usually with your grandfather's car."},
+      {"sp": "", "fr": "L'après-midi, il pleut. Carla prend le volant, et les essuie-glaces chantent sur le pare-brise.", "en": "In the afternoon, it rains. Carla takes the wheel, and the wipers sing on the windscreen."},
+      {"sp": "", "fr": "Hugo met une cassette de Papi dans l'autoradio : une vieille chanson de Marseille. Il chante faux, comme d'habitude.", "en": "Hugo puts one of Grandpa's tapes in the car radio: an old song from Marseille. He sings out of tune, as usual."},
+      {"sp": "", "fr": "À neuf heures du soir, ils arrivent enfin à Lyon. Devant la boulangerie, pas une place pour se garer.", "en": "At nine in the evening, they finally reach Lyon. Outside the bakery, not a single parking space."},
+      {"sp": "", "fr": "Hugo fait trois fois le tour du quartier. Un taxi klaxonne derrière lui, et il répond avec son klaxon.", "en": "Hugo drives round the block three times. A taxi honks behind him, and he answers with his own horn."},
+      {"sp": "", "fr": "Enfin, il trouve une place… et touche un poteau avec le pare-chocs. Une deuxième rayure.", "en": "At last he finds a space… and hits a post with the bumper. A second scratch."},
+      {"sp": "Carla", "fr": "Maintenant, c'est vraiment ta voiture.", "en": "Now it's really your car."}
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "u48-noms",
+  "type": "vocab",
+  "unit": 48,
+  "title": "Le bleuet et le coquelicot",
+  "en": "Common nouns (5)",
+  "intro": "25 common nouns: war and remembrance (**le général, le lieutenant, l'officier, la troupe, le camp, le camarade, le compagnon, l'abri, l'enfer, la flamme, l'adieu, l'aube**), people and power (**le paysan, la masse, la puissance, la circonstance, l'acte, l'existence**), feelings and character (**la pitié, la haine, la foi, la volonté**), and the body and the face (**la poitrine, la mine, la hauteur**).",
+  "words": [
+    {"id": "poitrine", "fr": "poitrine", "pos": "noun", "g": "f", "ipa": "pwa.tʁin", "en": "chest; breast", "def": "La partie du corps entre le cou et le ventre.", "def_en": "The part of the body between the neck and the stomach.", "forms": ["poitrines"], "examples": [
+      {"fr": "Une médaille brille sur sa **poitrine**.", "en": "A medal shines on her chest."},
+      {"fr": "Hugo a mal à la **poitrine** après la course.", "en": "Hugo's chest hurts after the run."},
+      {"fr": "Le cœur bat fort dans sa **poitrine**.", "en": "His heart is pounding in his chest."}]},
+    {"id": "troupe", "fr": "troupe", "pos": "noun", "g": "f", "ipa": "tʁup", "en": "troop(s); troupe, company (of actors)", "def": "Un groupe de soldats ; un groupe d'acteurs ou de danseurs qui travaillent ensemble.", "def_en": "A group of soldiers; a group of actors or dancers who work together.", "forms": ["troupes"], "examples": [
+      {"fr": "Les **troupes** attendent devant le monument.", "en": "The troops stand waiting in front of the memorial."},
+      {"fr": "Une **troupe** de théâtre joue au parc.", "en": "A theatre company is performing in the park."},
+      {"fr": "Les **troupes** sont entrées dans la ville.", "en": "The troops have entered the city."}]},
+    {"id": "general", "fr": "général", "pos": "noun", "g": "m", "ipa": "ʒe.ne.ʁal", "en": "general (army officer); (adj) general", "def": "Un officier très important, qui commande une armée ; (adjectif) qui touche tout ou presque tout.", "def_en": "A very senior officer who commands an army; (adjective) concerning everything or almost everything.", "note": "*En général* = generally, usually.", "forms": ["générale", "généraux", "générales"], "examples": [
+      {"fr": "Un **général** salue le drapeau.", "en": "A general salutes the flag."},
+      {"fr": "Le **général** donne ses ordres.", "en": "The general gives his orders."},
+      {"fr": "C'est une règle **générale**.", "en": "It's a general rule."}]},
+    {"id": "lieutenant", "fr": "lieutenant", "pos": "noun", "g": "m", "ipa": "ljøt.nɑ̃", "en": "lieutenant", "def": "Un officier, sous le capitaine, qui commande un petit groupe de soldats.", "def_en": "An officer below a captain, who commands a small group of soldiers.", "forms": ["lieutenants"], "examples": [
+      {"fr": "Le **lieutenant** salue les enfants.", "en": "The lieutenant salutes the children."},
+      {"fr": "Il est **lieutenant** depuis deux ans.", "en": "He's been a lieutenant for two years."},
+      {"fr": "Les **lieutenants** marchent devant les troupes.", "en": "The lieutenants march in front of the troops."}]},
+    {"id": "flamme", "fr": "flamme", "pos": "noun", "g": "f", "ipa": "flam", "en": "flame; passion", "def": "La lumière chaude qui sort d'un feu ; un amour ou une énergie très forte.", "def_en": "The hot light that comes out of a fire; a very strong love or energy.", "forms": ["flammes"], "examples": [
+      {"fr": "La **flamme** du Soldat inconnu brûle sous l'Arc de Triomphe.", "en": "The flame of the Unknown Soldier burns under the Arc de Triomphe."},
+      {"fr": "La **flamme** de la bougie danse.", "en": "The candle flame is dancing."},
+      {"fr": "Tom parle de la musique avec **flamme**.", "en": "Tom talks about music with passion."}]},
+    {"id": "paysan", "fr": "paysan", "pos": "noun", "g": "m", "ipa": "pe.i.zɑ̃", "display": "le paysan, la paysanne", "en": "farmer, peasant; (adj) rural, country", "def": "Une personne qui vit à la campagne et travaille la terre.", "def_en": "Someone who lives in the country and works the land.", "forms": ["paysanne", "paysans", "paysannes"], "examples": [
+      {"fr": "C'était un **paysan**, comme nous.", "en": "He was a farmer, like us."},
+      {"fr": "Pierre est fier d'être **paysan**.", "en": "Pierre is proud to be a farmer."},
+      {"fr": "Les **paysans** vendent leurs légumes au marché.", "en": "The farmers sell their vegetables at the market."}]},
+    {"id": "masse", "fr": "masse", "pos": "noun", "g": "f", "ipa": "mas", "en": "mass; (une masse de) a mass of, loads of", "def": "Une grande quantité de choses ou de personnes ; un tout lourd et épais.", "def_en": "A large quantity of things or people; a heavy, thick whole.", "note": "*En masse* = in large numbers.", "forms": ["masses"], "examples": [
+      {"fr": "Une **masse** de jeunes gens ne sont jamais rentrés.", "en": "A mass of young men never came home."},
+      {"fr": "Les gens arrivent en **masse**.", "en": "People are arriving in droves."},
+      {"fr": "Hugo a une **masse** de travail.", "en": "Hugo has loads of work."}]},
+    {"id": "enfer", "fr": "enfer", "pos": "noun", "g": "m", "ipa": "ɑ̃.fɛʁ", "en": "hell", "def": "Le lieu terrible où vont les méchants après la mort ; une situation très dure.", "def_en": "The terrible place where the wicked go after death; a very hard situation.", "note": "*D'enfer* (informal) = amazing.", "forms": ["enfers"], "examples": [
+      {"fr": "Verdun, c'était l'**enfer**.", "en": "Verdun was hell."},
+      {"fr": "Le bruit du chantier, c'est l'**enfer** pour Enzo.", "en": "The noise of the building work is hell for Enzo."},
+      {"fr": "Une soirée d'**enfer** !", "en": "An amazing evening!"}]},
+    {"id": "camarade", "fr": "camarade", "pos": "noun", "g": "m", "both": true, "ipa": "ka.ma.ʁad", "display": "le / la camarade", "en": "comrade, friend; (de classe) classmate", "def": "Une personne avec qui on partage un travail, une classe ou un combat.", "def_en": "Someone you share work, a class or a fight with.", "forms": ["camarades"], "accept": ["la camarade", "une camarade"], "examples": [
+      {"fr": "Auguste partageait son pain avec ses **camarades**.", "en": "Auguste shared his bread with his comrades."},
+      {"fr": "Léa retrouve une **camarade** de classe.", "en": "Léa runs into a classmate."},
+      {"fr": "Ils sont **camarades** depuis l'école.", "en": "They've been friends since school."}]},
+    {"id": "abri", "fr": "abri", "pos": "noun", "g": "m", "ipa": "a.bʁi", "en": "shelter; (à l'abri) under cover, safe", "def": "Un endroit où on se protège de la pluie, du froid ou du danger.", "def_en": "A place where you protect yourself from the rain, the cold or danger.", "note": "*À l'abri de* = sheltered from, safe from.", "forms": ["abris"], "examples": [
+      {"fr": "Les soldats dormaient dans un **abri**, sous la terre.", "en": "The soldiers slept in a dugout, under the ground."},
+      {"fr": "On se met à l'**abri** sous un arbre.", "en": "We take shelter under a tree."},
+      {"fr": "Ici, tu es à l'**abri** du vent.", "en": "Here you're sheltered from the wind."}]},
+    {"id": "officier", "fr": "officier", "pos": "noun", "g": "m", "ipa": "ɔ.fi.sje", "en": "officer", "def": "Un militaire qui commande d'autres soldats.", "def_en": "A member of the armed forces who commands other soldiers.", "forms": ["officiers"], "examples": [
+      {"fr": "Un **officier** blessé est tombé dans leur tranchée.", "en": "A wounded officer fell into their trench."},
+      {"fr": "Les **officiers** saluent le drapeau.", "en": "The officers salute the flag."},
+      {"fr": "Son grand-père était **officier**.", "en": "His grandfather was an officer."}]},
+    {"id": "pitie", "fr": "pitié", "pos": "noun", "g": "f", "ipa": "pi.tje", "en": "pity, mercy", "def": "Le sentiment de tristesse pour quelqu'un qui souffre.", "def_en": "The feeling of sadness for someone who is suffering.", "note": "*Avoir pitié de* = to take pity on.", "examples": [
+      {"fr": "Auguste a eu **pitié** du soldat blessé.", "en": "Auguste took pity on the wounded soldier."},
+      {"fr": "**Pitié**, pas encore la même chanson !", "en": "Have mercy, not the same song again!"},
+      {"fr": "Ce pauvre chien fait **pitié**.", "en": "This poor dog is a pitiful sight."}]},
+    {"id": "haine", "fr": "haine", "pos": "noun", "g": "f", "hAsp": true, "ipa": "ɛn", "en": "hatred, hate", "def": "Le sentiment très fort contre quelqu'un, le contraire de l'amour.", "def_en": "The very strong feeling against someone, the opposite of love.", "note": "The h is aspirated: *la haine*.", "forms": ["haines"], "examples": [
+      {"fr": "« Pas de **haine** », disait-il.", "en": "'No hatred,' he used to say."},
+      {"fr": "La **haine** ne résout rien.", "en": "Hatred solves nothing."},
+      {"fr": "Il parle de la guerre sans **haine**.", "en": "He talks about the war without hatred."}]},
+    {"id": "camp", "fr": "camp", "pos": "noun", "g": "m", "ipa": "kɑ̃", "en": "camp; side, team", "def": "Un endroit où des gens vivent sous la tente ; chacun des deux groupes dans une guerre ou un jeu.", "def_en": "A place where people live in tents; each of the two groups in a war or a game.", "forms": ["camps"], "examples": [
+      {"fr": "Les deux **camps** ont signé l'armistice.", "en": "The two sides signed the armistice."},
+      {"fr": "Les enfants dorment au **camp** de vacances.", "en": "The children are sleeping at the holiday camp."},
+      {"fr": "Hugo a changé de **camp** : il aime le football maintenant.", "en": "Hugo has changed sides: he likes football now."}]},
+    {"id": "aube", "fr": "aube", "pos": "noun", "g": "f", "ipa": "ob", "en": "dawn", "def": "Le moment où la nuit finit et le jour commence.", "def_en": "The moment when night ends and day begins.", "forms": ["aubes"], "examples": [
+      {"fr": "L'armistice a été signé à l'**aube**.", "en": "The armistice was signed at dawn."},
+      {"fr": "Enzo se lève avant l'**aube**.", "en": "Enzo gets up before dawn."},
+      {"fr": "À l'**aube**, la ville dort encore.", "en": "At dawn, the city is still asleep."}]},
+    {"id": "adieu", "fr": "adieu", "pos": "noun", "g": "m", "ipa": "a.djø", "en": "farewell, goodbye (for ever)", "def": "Le fait de dire au revoir pour longtemps, ou pour toujours.", "def_en": "Saying goodbye for a long time, or for ever.", "forms": ["adieux"], "examples": [
+      {"fr": "Sa dernière lettre était une lettre d'**adieu**.", "en": "His last letter was a farewell letter."},
+      {"fr": "Jacques fait ses **adieux** à sa voiture.", "en": "Jacques says goodbye to his car."},
+      {"fr": "**Adieu**, la vieille gouttière !", "en": "Farewell, old gutter!"}]},
+    {"id": "existence", "fr": "existence", "pos": "noun", "g": "f", "ipa": "ɛɡ.zis.tɑ̃s", "en": "existence; life", "def": "Le fait d'être, de vivre ; la vie d'une personne.", "def_en": "The fact of being, of living; a person's life.", "forms": ["existences"], "examples": [
+      {"fr": "Aujourd'hui, son **existence** est devenue réelle.", "en": "Today his existence has become real."},
+      {"fr": "Enzo ignorait l'**existence** de cet ancêtre.", "en": "Enzo didn't know this ancestor existed."},
+      {"fr": "Une **existence** simple et heureuse.", "en": "A simple, happy life."}]},
+    {"id": "foi", "fr": "foi", "pos": "noun", "g": "f", "ipa": "fwa", "en": "faith", "def": "Le fait de croire très fort en quelque chose, souvent en Dieu.", "def_en": "Believing very strongly in something, often in God.", "note": "*De bonne foi* = in good faith, honestly.", "examples": [
+      {"fr": "C'était un homme de **foi**.", "en": "He was a man of faith."},
+      {"fr": "Il a perdu la **foi**.", "en": "He has lost his faith."},
+      {"fr": "Je suis de bonne **foi** : je ne savais pas !", "en": "I'm being honest: I didn't know!"}]},
+    {"id": "volonte", "fr": "volonté", "pos": "noun", "g": "f", "ipa": "vɔ.lɔ̃.te", "en": "will, willpower; wish", "def": "La force qui fait agir ; ce qu'on veut.", "def_en": "The strength that makes you act; what you want.", "note": "*À volonté* = as much as you like.", "forms": ["volontés"], "examples": [
+      {"fr": "C'était un homme de **volonté**.", "en": "He was a man of great willpower."},
+      {"fr": "Avec de la **volonté**, Hugo peut arrêter le chocolat.", "en": "With willpower, Hugo can give up chocolate."},
+      {"fr": "Croissants à **volonté** pour les couvreurs !", "en": "As many croissants as you like for the roofers!"}]},
+    {"id": "acte", "fr": "acte", "pos": "noun", "g": "m", "ipa": "akt", "en": "act, deed; (official) certificate", "def": "Une action ; une partie d'une pièce de théâtre ; un papier officiel.", "def_en": "An action; a part of a play; an official document.", "forms": ["actes"], "examples": [
+      {"fr": "Son premier **acte** d'homme libre : allumer un four.", "en": "His first act as a free man: lighting an oven."},
+      {"fr": "La pièce a trois **actes**.", "en": "The play has three acts."},
+      {"fr": "Il faut un **acte** de naissance pour le passeport.", "en": "You need a birth certificate for the passport."}]},
+    {"id": "compagnon", "fr": "compagnon", "pos": "noun", "g": "m", "ipa": "kɔ̃.pa.ɲɔ̃", "display": "le compagnon, la compagne", "en": "companion; partner", "def": "Une personne avec qui on vit, on voyage ou on travaille.", "def_en": "Someone you live, travel or work with.", "forms": ["compagne", "compagnons", "compagnes"], "examples": [
+      {"fr": "Il est rentré avec un **compagnon** de tranchée.", "en": "He came home with a trench companion."},
+      {"fr": "Carla est une bonne **compagne** de route.", "en": "Carla is a good travelling companion."},
+      {"fr": "Max est le fidèle **compagnon** de Pierre.", "en": "Max is Pierre's faithful companion."}]},
+    {"id": "puissance", "fr": "puissance", "pos": "noun", "g": "f", "ipa": "pɥi.sɑ̃s", "en": "power; strength", "def": "La force d'une personne, d'une machine ou d'un pays.", "def_en": "The strength of a person, a machine or a country.", "forms": ["puissances"], "examples": [
+      {"fr": "En 1914, les grandes **puissances** d'Europe sont entrées en guerre.", "en": "In 1914, the great powers of Europe went to war."},
+      {"fr": "La **puissance** du moteur ? Faible.", "en": "The engine's power? Weak."},
+      {"fr": "Le vent souffle avec **puissance**.", "en": "The wind blows hard."}]},
+    {"id": "circonstance", "fr": "circonstance", "pos": "noun", "g": "f", "ipa": "siʁ.kɔ̃s.tɑ̃s", "en": "circumstance", "def": "Ce qui entoure un événement, la situation où il arrive.", "def_en": "What surrounds an event, the situation it happens in.", "forms": ["circonstances"], "examples": [
+      {"fr": "Dans ces **circonstances**, faire du pain, c'est du courage.", "en": "In those circumstances, making bread takes courage."},
+      {"fr": "Il a gardé son humour en toutes **circonstances**.", "en": "He kept his sense of humour whatever happened."},
+      {"fr": "On ne connaît pas les **circonstances** de l'accident.", "en": "We don't know the circumstances of the accident."}]},
+    {"id": "mine", "fr": "mine", "pos": "noun", "g": "f", "ipa": "min", "en": "look, expression; (pencil) lead; mine", "def": "L'air qu'on a sur le visage ; ce qui écrit dans un crayon ; un endroit sous la terre d'où on sort du charbon.", "def_en": "The look on your face; the part of a pencil that writes; a place underground where coal is dug out.", "note": "*Avoir bonne mine* = to look well. *Faire mine de* = to pretend to.", "forms": ["mines"], "examples": [
+      {"fr": "Hugo a une drôle de **mine**.", "en": "Hugo looks a bit odd."},
+      {"fr": "Tu as bonne **mine** !", "en": "You look well!"},
+      {"fr": "La **mine** du crayon est cassée.", "en": "The pencil lead is broken."}]},
+    {"id": "hauteur", "fr": "hauteur", "pos": "noun", "g": "f", "hAsp": true, "ipa": "o.tœʁ", "en": "height; (à la hauteur) up to it", "def": "La taille d'une chose ou d'une personne, mesurée du sol jusqu'au sommet.", "def_en": "How tall a thing or a person is, measured from the ground to the top.", "note": "The h is aspirated: *la hauteur*. *Être à la hauteur* = to be up to it.", "forms": ["hauteurs"], "examples": [
+      {"fr": "Et si je ne suis pas à la **hauteur** ?", "en": "What if I'm not up to it?"},
+      {"fr": "L'échafaudage fait dix mètres de **hauteur**.", "en": "The scaffolding is ten metres high."},
+      {"fr": "Les couvreurs travaillent en **hauteur**.", "en": "Roofers work high up."}]}
+  ],
+  "story": {
+    "title": "Le bleuet et le coquelicot",
+    "en": "Thursday 11 November: the Armistice ceremony in Lyon.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi onze novembre est un jour férié. Tom, Hugo et Enzo accompagnent Madame Fournier à la cérémonie de l'île du Souvenir, au parc de la Tête d'Or.", "en": "Thursday 11 November is a public holiday. Tom, Hugo and Enzo go with Madame Fournier to the ceremony on the Île du Souvenir, in the Parc de la Tête d'Or."},
+      {"sp": "", "fr": "Sur sa poitrine, Madame Fournier porte la médaille de son grand-père, Auguste.", "en": "On her chest, Madame Fournier wears her grandfather Auguste's medal."},
+      {"sp": "Madame Fournier", "fr": "En 1914, les grandes puissances d'Europe sont entrées en guerre. Auguste avait dix-neuf ans. C'était un apprenti boulanger, comme Enzo.", "en": "In 1914, the great powers of Europe went to war. Auguste was nineteen. He was an apprentice baker, like Enzo."},
+      {"sp": "", "fr": "Tom porte un coquelicot rouge sur sa veste. En Angleterre, c'est la fleur du souvenir.", "en": "Tom wears a red poppy on his jacket. In England, it's the flower of remembrance."},
+      {"sp": "Madame Fournier", "fr": "Chez nous, c'est le bleuet. Les jeunes soldats de 1915 avaient des uniformes bleus.", "en": "Here, it's the cornflower. The young soldiers of 1915 had blue uniforms."},
+      {"sp": "", "fr": "Devant le monument, les troupes attendent. Un général et un lieutenant saluent le drapeau.", "en": "In front of the memorial, the troops stand waiting. A general and a lieutenant salute the flag."},
+      {"sp": "", "fr": "Puis des enfants lisent les noms des morts, un par un. La liste est très longue.", "en": "Then children read out the names of the dead, one by one. The list is very long."},
+      {"sp": "Enzo", "fr": "Il y a tellement de noms…", "en": "There are so many names…"},
+      {"sp": "Madame Fournier", "fr": "Des paysans, des ouvriers, des boulangers. Une masse de jeunes gens qui ne sont jamais rentrés.", "en": "Farmers, workers, bakers. A mass of young men who never came home."},
+      {"sp": "Madame Fournier", "fr": "Auguste a passé quatre ans dans les tranchées. Il disait que Verdun, c'était l'enfer.", "en": "Auguste spent four years in the trenches. He used to say Verdun was hell."},
+      {"sp": "Madame Fournier", "fr": "Il faisait du pain pour ses camarades, dans un abri, sous les bombes.", "en": "He made bread for his comrades, in a dugout, under the shells."},
+      {"sp": "Madame Fournier", "fr": "Un jour, un officier de l'autre camp, blessé, est tombé dans leur tranchée.", "en": "One day, a wounded officer from the other side fell into their trench."},
+      {"sp": "Madame Fournier", "fr": "Auguste a eu pitié de lui : il lui a donné de l'eau et du pain. « Pas de haine, disait-il. C'était un paysan, comme nous. »", "en": "Auguste took pity on him: he gave him water and bread. 'No hatred,' he used to say. 'He was a farmer, like us.'"},
+      {"sp": "", "fr": "À onze heures, une minute de silence. Hugo a une drôle de mine : il pense à mardi.", "en": "At eleven, a minute's silence. Hugo looks a bit odd: he's thinking about Tuesday."},
+      {"sp": "Hugo", "fr": "Mardi, c'est mon permis. Et si je ne suis pas à la hauteur ?", "en": "Tuesday is my driving test. What if I'm not up to it?"},
+      {"sp": "Madame Fournier", "fr": "Ce n'est pas la guerre, Hugo. C'est un examen de conduite.", "en": "It's not a war, Hugo. It's a driving test."},
+      {"sp": "Tom", "fr": "Le grand-père de ma grand-mère était paysan dans le Kent. Il est mort dans la Somme, en 1916, à vingt ans.", "en": "My grandmother's grandfather was a farmer in Kent. He died on the Somme in 1916, aged twenty."},
+      {"sp": "Tom", "fr": "Sa dernière lettre à sa mère était une lettre d'adieu. Elle est encore dans ma famille.", "en": "His last letter to his mother was a farewell letter. It's still in my family."},
+      {"sp": "", "fr": "Le onze novembre 1918, à l'aube, les deux camps ont signé l'armistice. À onze heures, les cloches ont sonné dans toute la France.", "en": "On 11 November 1918, at dawn, the two sides signed the armistice. At eleven o'clock, bells rang all over France."},
+      {"sp": "", "fr": "À la même heure, à Paris, le président salue la flamme du Soldat inconnu, sous l'Arc de Triomphe.", "en": "At the same time, in Paris, the president salutes the flame of the Unknown Soldier, under the Arc de Triomphe."},
+      {"sp": "Enzo", "fr": "Pour moi, Auguste, c'était juste un nom sur une photo. Aujourd'hui, son existence est devenue réelle.", "en": "To me, Auguste was just a name on a photo. Today his existence has become real."},
+      {"sp": "Madame Fournier", "fr": "Ce n'était pas un héros. C'était un homme de foi et de volonté, qui voulait rentrer faire du pain.", "en": "He wasn't a hero. He was a man of faith and willpower, who wanted to come home and make bread."},
+      {"sp": "Madame Fournier", "fr": "Il est rentré en 1919, avec un compagnon de tranchée. Son premier acte d'homme libre : allumer un four. En 1920, il a ouvert notre boulangerie.", "en": "He came home in 1919 with a trench companion. His first act as a free man: lighting an oven. In 1920 he opened our bakery."},
+      {"sp": "Tom", "fr": "Dans ces circonstances, faire du pain pour les autres… c'est une forme de courage.", "en": "In those circumstances, making bread for others… that's a kind of courage."},
+      {"sp": "", "fr": "Le soir, Madame Fournier met la médaille d'Auguste dans la vitrine de la boulangerie, à côté du couteau de son père.", "en": "In the evening, Madame Fournier puts Auguste's medal in the bakery window, next to her father's knife."}
+    ]
+  }
+}

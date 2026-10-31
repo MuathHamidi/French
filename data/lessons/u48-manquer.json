@@ -1,0 +1,110 @@
+{
+  "id": "u48-manquer",
+  "type": "grammar",
+  "unit": 48,
+  "title": "Elle va me manquer",
+  "en": "Verbs that change meaning with their preposition (manquer à, manquer de)",
+  "intro": "Some verbs change meaning with the preposition that follows them. **Manquer à** means *to be missed by*, so the French sentence is the other way round from English: *Ma voiture va **me** manquer* = I'll miss my car (literally, my car will be missing to me). **Manquer de** means *to lack* (*tu manques de patience*), and *ne pas manquer de* + infinitive means *be sure to*. Likewise **tenir à** (to care about; to insist on) and **tenir de** (to take after); **penser à** (to think about; to remember to) and **penser de** (to think of, for an opinion); **servir à** (to be used for), **servir de** (to serve as) and **se servir de** (to use); **finir par** (to end up) and **finir de** (to finish).",
+  "cases": [
+    {"id": "mq-manquer", "label": "manquer à, manquer de", "rule": "*X manque à Y* means Y misses X: *Tu me manques* (I miss you), *Marseille manque à Hugo* (Hugo misses Marseille), *Ma voiture va me manquer.* *Manquer de* means to lack: *Tu manques de patience. Je ne manque de rien.* *Ne manque pas de* + infinitive means be sure to: *Ne manque pas de nous appeler.*"},
+    {"id": "mq-tenir", "label": "tenir à, tenir de", "rule": "*Tenir à* means to care about, to be attached to: *Je tiens à cette voiture.* With an infinitive, it means to insist on, to really want to: *Je tiens à te la donner.* *Tenir de* means to take after: *Tu tiens de ta grand-mère.*"},
+    {"id": "mq-penser", "label": "penser à, penser de", "rule": "*Penser à* means to think about, and with an infinitive, to remember to: *Je pense à l'autoroute. Pense à mettre ta ceinture !* *Penser de* asks for an opinion: *Qu'est-ce que tu penses de sa couleur ? Qu'en penses-tu ?*"},
+    {"id": "mq-servir", "label": "servir à, servir de, se servir de", "rule": "*Servir à* means to be used for: *Ça sert à quoi ? Elle a servi à tout.* *Servir de* + noun, with no article, means to serve as: *Elle a servi de taxi.* *Se servir de* means to use: *Sers-toi de la carte.*"},
+    {"id": "mq-finir", "label": "finir par, finir de, se décider à", "rule": "*Finir par* + infinitive means to end up doing: *Il a fini par l'accepter.* *Finir de* means to finish doing: *J'ai fini de conduire.* In the same way, *se décider à* means to make up your mind at last: *Il s'est décidé à arrêter.*"}
+  ],
+  "sections": [
+    {"title": "1. manquer à, manquer de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tu me manques.", "I miss you."],
+      ["Ma voiture va me manquer.", "I'll miss my car."],
+      ["Tu manques de patience.", "You lack patience."],
+      ["Ne manque pas de m'appeler.", "Be sure to call me."]]},
+     "examples": [
+      {"fr": "{Elle va me manquer|mq-manquer}.", "en": "I'll miss it."},
+      {"fr": "{Je ne manque de [rien|rien]|mq-manquer}, moi !", "en": "I'm not short of anything!"}],
+     "tip": "With manquer à, the thing or person you miss is the subject."},
+    {"title": "2. tenir à, tenir de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je tiens à cette voiture.", "I'm attached to this car."],
+      ["Je tiens à te la donner.", "I really want to give it to you."],
+      ["Tu tiens de ta grand-mère.", "You take after your grandmother."]]},
+     "examples": [
+      {"fr": "{Je tiens à cette voiture|mq-tenir}.", "en": "I'm attached to this car."},
+      {"fr": "{Tu tiens de ta grand-mère|mq-tenir} !", "en": "You take after your grandmother!"}],
+     "tip": "Tenir à: you care; tenir de: you're like someone in your family."},
+    {"title": "3. penser à, penser de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je pense à toi.", "I'm thinking of you."],
+      ["Pense à mettre ta ceinture.", "Remember to put your seat belt on."],
+      ["Qu'est-ce que tu penses de sa couleur ?", "What do you think of its colour?"],
+      ["Qu'en penses-tu ?", "What do you think of it?"]]},
+     "examples": [
+      {"fr": "Dis-moi plutôt {ce que tu penses de sa couleur|mq-penser}.", "en": "Tell me what you think of its colour instead."},
+      {"fr": "Et {pense à mettre ta ceinture|mq-penser} !", "en": "And remember to put your seat belt on!"}],
+     "tip": "Penser de is mostly for questions about an opinion."},
+    {"title": "4. servir à, servir de, se servir de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ça sert à quoi ?", "What's it for?"],
+      ["La carte me sert de GPS.", "The map serves as my satnav."],
+      ["Sers-toi de la carte.", "Use the map."]]},
+     "examples": [
+      {"fr": "Une souris qui {a servi de taxi|mq-servir} à toute la famille !", "en": "A mouse that has served as a taxi for the whole family!"},
+      {"fr": "{Sers-toi de la carte|mq-servir}, comme moi.", "en": "Use the map, like me."}],
+     "tip": "Servir de takes a noun with no article: servir de taxi."},
+    {"title": "5. finir par, finir de, se décider à", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il a fini par accepter.", "He ended up accepting."],
+      ["J'ai fini de conduire.", "I've finished driving."],
+      ["Il s'est décidé à arrêter.", "He has made up his mind to stop."]]},
+     "examples": [
+      {"fr": "{Il a fini par l'accepter|mq-finir}.", "en": "He's ended up accepting it."},
+      {"fr": "{J'ai fini de conduire|mq-finir}… mais {je n'ai pas fini de raconter des histoires|mq-finir} !", "en": "I've finished driving… but I haven't finished telling stories!"}],
+     "tip": "Finir par: in the end; finir de: to stop doing something."}
+  ],
+  "mistakes": [
+    {"wrong": "Je manque ma voiture.", "right": "Ma voiture me manque.", "why": "When you miss someone or something, it is the subject of manquer à."},
+    {"wrong": "Tu manques à patience.", "right": "Tu manques de patience.", "why": "To lack something is manquer de."},
+    {"wrong": "Qu'est-ce que tu penses à sa couleur ?", "right": "Qu'est-ce que tu penses de sa couleur ?", "why": "For an opinion, use penser de."},
+    {"wrong": "La carte me sert comme GPS.", "right": "La carte me sert de GPS.", "why": "To serve as is servir de, with no article."},
+    {"wrong": "Il a fini à accepter.", "right": "Il a fini par accepter.", "why": "To end up doing something is finir par."}
+  ],
+  "story": {
+    "title": "Elle va me manquer",
+    "en": "Saturday 20 November: in Marseille, Jacques gives Hugo his car.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt novembre, Hugo et Carla prennent le TGV pour Marseille. Jacques les attend devant la maison, à côté de sa vieille voiture grise.", "en": "On Saturday 20 November, Hugo and Carla take the TGV to Marseille. Jacques is waiting for them outside the house, next to his old grey car."},
+      {"sp": "Jacques", "fr": "{Je tiens à cette voiture|mq-tenir}. Pendant vingt ans, elle m'a emmené partout.", "en": "I'm attached to this car. For twenty years, it took me everywhere."},
+      {"sp": "Louise", "fr": "Mais la nuit, il ne voit plus rien. {Il a fini par l'accepter|mq-finir}.", "en": "But at night he can't see a thing any more. He's ended up accepting it."},
+      {"sp": "Jacques", "fr": "{Je ne manque de [rien|rien]|mq-manquer}, moi ! J'ai encore de très bons réflexes.", "en": "I'm not short of anything! My reflexes are still very good."},
+      {"sp": "Louise", "fr": "Le mois dernier, tu as pris un pigeon pour un piéton.", "en": "Last month, you mistook a pigeon for a pedestrian."},
+      {"sp": "Jacques", "fr": "Il était très grand, ce pigeon.", "en": "It was a very big pigeon."},
+      {"sp": "", "fr": "Jacques ouvre la portière et caresse le volant.", "en": "Jacques opens the door and strokes the steering wheel."},
+      {"sp": "Jacques", "fr": "{Elle va me manquer|mq-manquer}. Mais {je tiens à te la donner|mq-tenir}, Hugo. Pas à la vendre : à te la donner.", "en": "I'll miss it. But I want to give it to you, Hugo. Not sell it: give it to you."},
+      {"sp": "Hugo", "fr": "Merci, Papi. Je ne sais pas quoi dire.", "en": "Thank you, Grandpa. I don't know what to say."},
+      {"sp": "Jacques", "fr": "Dis-moi plutôt {ce que tu penses de sa couleur|mq-penser}.", "en": "Tell me what you think of its colour instead."},
+      {"sp": "Hugo", "fr": "Elle est… grise. Comme une souris.", "en": "It's… grey. Like a mouse."},
+      {"sp": "Carla", "fr": "Une souris qui {a servi de taxi|mq-servir} à toute la famille !", "en": "A mouse that has served as a taxi for the whole family!"},
+      {"sp": "Louise", "fr": "{Elle a servi à tout|mq-servir} : le marché, la plage, et même le voyage à Lyon pour la naissance des jumeaux.", "en": "It's been used for everything: the market, the beach, and even the trip to Lyon when the twins were born."},
+      {"sp": "", "fr": "Dans la boîte à gants, Hugo trouve une vieille carte de France, des cassettes et une photo de Louise à vingt ans.", "en": "In the glove box, Hugo finds an old map of France, some cassettes and a photo of Louise at twenty."},
+      {"sp": "Jacques", "fr": "Il n'y a pas de GPS dans cette voiture. {Sers-toi de la carte|mq-servir}, comme moi.", "en": "There's no satnav in this car. Use the map, like me."},
+      {"sp": "Louise", "fr": "Et {pense à mettre ta ceinture|mq-penser} ! {Ne manque pas de nous appeler|mq-manquer} en arrivant.", "en": "And remember to put your seat belt on! Be sure to call us when you get there."},
+      {"sp": "", "fr": "Le soir, Hugo fait le tour du quartier, avec Jacques à côté de lui. Il conduit lentement, très lentement.", "en": "In the evening, Hugo drives round the neighbourhood with Jacques beside him. He drives slowly, very slowly."},
+      {"sp": "Jacques", "fr": "Tu freines trop tôt, tu regardes partout, tu es prudent… {Tu tiens de ta grand-mère|mq-tenir} !", "en": "You brake too early, you look everywhere, you're careful… You take after your grandmother!"},
+      {"sp": "Louise", "fr": "Merci, mon chéri. C'est un compliment, Hugo.", "en": "Thank you, darling. That's a compliment, Hugo."},
+      {"sp": "", "fr": "Au dîner, Jacques raconte comment {il s'est enfin décidé à arrêter|mq-finir}.", "en": "At dinner, Jacques tells how he finally made up his mind to stop."},
+      {"sp": "Jacques", "fr": "{J'ai fini de conduire|mq-finir}… mais {je n'ai pas fini de raconter des histoires|mq-finir} !", "en": "I've finished driving… but I haven't finished telling stories!"},
+      {"sp": "", "fr": "Avant de dormir, Hugo met la clé de la voiture sous son oreiller, comme un enfant.", "en": "Before going to sleep, Hugo puts the car key under his pillow, like a child."},
+      {"sp": "Carla", "fr": "{À quoi ça sert|mq-servir}, de dormir sur une clé ?", "en": "What's the point of sleeping on a key?"},
+      {"sp": "Hugo", "fr": "À rêver de demain. {Je pense déjà à l'autoroute|mq-penser}.", "en": "It's for dreaming about tomorrow. I'm already thinking about the motorway."}
+    ]
+  },
+  "quiz": [
+    {"case": "mq-manquer", "type": "mc", "q": "Marseille ___ Hugo.", "en": "Hugo misses Marseille.", "options": ["manque à", "manque de", "manque"], "answer": "manque à"},
+    {"case": "mq-manquer", "type": "mc", "q": "Tu ___ patience.", "en": "You lack patience.", "options": ["manques de", "manques à", "manques"], "answer": "manques de"},
+    {"case": "mq-manquer", "type": "mc", "q": "Papi, tu ___ !", "en": "Grandpa, I miss you!", "options": ["me manques", "manques de moi", "manques"], "answer": "me manques"},
+    {"case": "mq-tenir", "type": "mc", "q": "Tu ___ ta grand-mère : tu es prudent !", "en": "You take after your grandmother: you're careful!", "options": ["tiens de", "tiens à", "tiens par"], "answer": "tiens de"},
+    {"case": "mq-tenir", "type": "mc", "q": "Je ___ cette voiture : je l'adore.", "en": "I'm attached to this car: I love it.", "options": ["tiens à", "tiens de", "tiens pour"], "answer": "tiens à"},
+    {"case": "mq-penser", "type": "mc", "q": "Qu'est-ce que tu penses ___ sa couleur ?", "en": "What do you think of its colour?", "options": ["de", "à", "sur"], "answer": "de"},
+    {"case": "mq-penser", "type": "mc", "q": "Pense ___ mettre ta ceinture !", "en": "Remember to put your seat belt on!", "options": ["à", "de", "par"], "answer": "à"},
+    {"case": "mq-servir", "type": "mc", "q": "La carte me sert ___ GPS.", "en": "The map serves as my satnav.", "options": ["de", "à", "comme"], "answer": "de"},
+    {"case": "mq-servir", "type": "mc", "q": "Ça sert ___ quoi ?", "en": "What's it for?", "options": ["à", "de", "par"], "answer": "à"},
+    {"case": "mq-finir", "type": "mc", "q": "Il a fini ___ accepter.", "en": "He ended up accepting.", "options": ["par", "de", "à"], "answer": "par"},
+    {"case": "mq-finir", "type": "mc", "q": "Finis ___ manger, on part !", "en": "Finish eating, we're leaving!", "options": ["de", "par", "à"], "answer": "de"}
+  ]
+}

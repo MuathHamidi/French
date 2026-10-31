@@ -1,0 +1,142 @@
+{
+  "id": "u48-adverbes",
+  "type": "vocab",
+  "unit": 48,
+  "title": "Le grand jour",
+  "en": "Common adverbs (3)",
+  "intro": "25 common adverbs: how carefully (**prudemment, correctement, attentivement, précisément, parfaitement, sérieusement, gentiment**), how suddenly or quietly (**subitement, machinalement, silencieusement, brièvement, constamment**), how much (**profondément, largement, nettement, totalement, terriblement, quasiment, littéralement**), and comment and feeling (**réellement, étrangement, difficilement, officiellement, définitivement, vivement**).",
+  "words": [
+    {"id": "prudemment", "fr": "prudemment", "pos": "adv", "ipa": "pʁy.da.mɑ̃", "en": "carefully, cautiously", "def": "En faisant attention, sans prendre de risques.", "def_en": "Paying attention, without taking risks.", "examples": [
+      {"fr": "Près de l'école, Hugo ralentit **prudemment**.", "en": "Near the school, Hugo slows down carefully."},
+      {"fr": "Conduis **prudemment**, il pleut !", "en": "Drive carefully, it's raining!"},
+      {"fr": "Jacques répond **prudemment** : « On verra. »", "en": "Jacques answers cautiously: 'We'll see.'"}]},
+    {"id": "correctement", "fr": "correctement", "pos": "adv", "ipa": "kɔ.ʁɛk.tə.mɑ̃", "en": "correctly, properly", "def": "Sans faute, comme il faut.", "def_en": "Without mistakes, the way it should be done.", "examples": [
+      {"fr": "Hugo vérifie **correctement** l'huile et les phares.", "en": "Hugo checks the oil and the headlights properly."},
+      {"fr": "Asseyez-vous **correctement**.", "en": "Sit up properly."},
+      {"fr": "Ce mot n'est pas écrit **correctement**.", "en": "This word isn't spelt correctly."}]},
+    {"id": "attentivement", "fr": "attentivement", "pos": "adv", "ipa": "a.tɑ̃.tiv.mɑ̃", "en": "attentively, carefully", "def": "En faisant très attention, sans penser à autre chose.", "def_en": "Paying close attention, without thinking of anything else.", "examples": [
+      {"fr": "L'examinatrice écrit **attentivement**.", "en": "The examiner writes carefully."},
+      {"fr": "Écoutez **attentivement**.", "en": "Listen carefully."},
+      {"fr": "Chloé lit **attentivement** le contrat.", "en": "Chloé reads the contract carefully."}]},
+    {"id": "precisement", "fr": "précisément", "pos": "adv", "ipa": "pʁe.si.ze.mɑ̃", "en": "precisely, exactly", "def": "D'une manière exacte ; justement.", "def_en": "Exactly; that's just it.", "examples": [
+      {"fr": "Il met son clignotant **précisément** au bon moment.", "en": "He signals at precisely the right moment."},
+      {"fr": "C'est **précisément** pour ça que je suis venu.", "en": "That's exactly why I came."},
+      {"fr": "À quelle heure, **précisément** ?", "en": "At what time, exactly?"}]},
+    {"id": "parfaitement", "fr": "parfaitement", "pos": "adv", "ipa": "paʁ.fɛt.mɑ̃", "en": "perfectly; absolutely", "def": "Sans aucune faute ; (pour répondre) oui, tout à fait.", "def_en": "Without a single mistake; (as an answer) yes, absolutely.", "examples": [
+      {"fr": "Hugo se gare **parfaitement**.", "en": "Hugo parks perfectly."},
+      {"fr": "Tu comprends ? — **Parfaitement**.", "en": "Do you understand? — Perfectly."},
+      {"fr": "Le gâteau est **parfaitement** cuit.", "en": "The cake is perfectly baked."}]},
+    {"id": "serieusement", "fr": "sérieusement", "pos": "adv", "ipa": "se.ʁjøz.mɑ̃", "en": "seriously", "def": "Avec soin et attention, sans rire ; (pour demander) vraiment ?", "def_en": "With care and attention, without laughing; (as a question) really?", "examples": [
+      {"fr": "**Sérieusement**, Hugo, vous avez conduit comme un professionnel.", "en": "Seriously, Hugo, you drove like a professional."},
+      {"fr": "Sophie travaille **sérieusement**.", "en": "Sophie works hard."},
+      {"fr": "**Sérieusement** ? Tu as mis de l'essence ?", "en": "Seriously? You put petrol in?"}]},
+    {"id": "gentiment", "fr": "gentiment", "pos": "adv", "ipa": "ʒɑ̃.ti.mɑ̃", "en": "kindly, nicely", "def": "D'une manière douce et aimable.", "def_en": "In a gentle, friendly way.", "examples": [
+      {"fr": "Hugo laisse **gentiment** passer l'enfant.", "en": "Hugo kindly lets the child go."},
+      {"fr": "Carla lui sourit **gentiment**.", "en": "Carla smiles at him kindly."},
+      {"fr": "Le voisin demande **gentiment** moins de bruit.", "en": "The neighbour politely asks for less noise."}]},
+    {"id": "subitement", "fr": "subitement", "pos": "adv", "ipa": "sy.bit.mɑ̃", "en": "all of a sudden, abruptly", "def": "Tout à coup, sans qu'on s'y attende.", "def_en": "All of a sudden, without anyone expecting it.", "examples": [
+      {"fr": "**Subitement**, un petit chien sort d'une porte.", "en": "Suddenly, a little dog comes out of a doorway."},
+      {"fr": "Il est parti **subitement**.", "en": "He left suddenly."},
+      {"fr": "Le ciel est devenu **subitement** noir.", "en": "The sky suddenly turned black."}]},
+    {"id": "machinalement", "fr": "machinalement", "pos": "adv", "ipa": "ma.ʃi.nal.mɑ̃", "en": "mechanically, without thinking", "def": "Sans y penser, par habitude.", "def_en": "Without thinking about it, out of habit.", "examples": [
+      {"fr": "**Machinalement**, Hugo remet ses lunettes sur son nez.", "en": "Without thinking, Hugo pushes his glasses back up his nose."},
+      {"fr": "Il fait le café **machinalement**.", "en": "He makes the coffee on autopilot."},
+      {"fr": "Elle ferme la porte **machinalement**.", "en": "She shuts the door without thinking."}]},
+    {"id": "silencieusement", "fr": "silencieusement", "pos": "adv", "ipa": "si.lɑ̃.sjøz.mɑ̃", "en": "silently, quietly", "def": "Sans faire de bruit, sans parler.", "def_en": "Without making a sound, without speaking.", "examples": [
+      {"fr": "Monsieur Vidal prie **silencieusement**.", "en": "Monsieur Vidal prays silently."},
+      {"fr": "Enzo descend **silencieusement** l'escalier.", "en": "Enzo creeps quietly down the stairs."},
+      {"fr": "Ils mangent **silencieusement**.", "en": "They eat in silence."}]},
+    {"id": "brievement", "fr": "brièvement", "pos": "adv", "ipa": "bʁi.jɛv.mɑ̃", "en": "briefly", "def": "Pendant peu de temps ; en peu de mots.", "def_en": "For a short time; in a few words.", "examples": [
+      {"fr": "L'examinatrice sourit **brièvement**.", "en": "The examiner smiles briefly."},
+      {"fr": "Explique-moi **brièvement**.", "en": "Explain it to me briefly."},
+      {"fr": "Le maire parle **brièvement**.", "en": "The mayor speaks briefly."}]},
+    {"id": "constamment", "fr": "constamment", "pos": "adv", "ipa": "kɔ̃s.ta.mɑ̃", "en": "constantly", "def": "Tout le temps, sans s'arrêter.", "def_en": "All the time, without stopping.", "examples": [
+      {"fr": "Hugo regarde **constamment** ses rétroviseurs.", "en": "Hugo constantly checks his mirrors."},
+      {"fr": "Le téléphone sonne **constamment**.", "en": "The phone rings constantly."},
+      {"fr": "Lou pose **constamment** des questions.", "en": "Lou is constantly asking questions."}]},
+    {"id": "profondement", "fr": "profondément", "pos": "adv", "ipa": "pʁɔ.fɔ̃.de.mɑ̃", "en": "deeply", "def": "Très loin vers le bas ou vers l'intérieur ; très fort.", "def_en": "A long way down or in; very strongly.", "examples": [
+      {"fr": "Respirez **profondément**.", "en": "Breathe deeply."},
+      {"fr": "Lou dort **profondément**.", "en": "Lou is fast asleep."},
+      {"fr": "Madame Fournier est **profondément** émue.", "en": "Madame Fournier is deeply moved."}]},
+    {"id": "largement", "fr": "largement", "pos": "adv", "ipa": "laʁ.ʒə.mɑ̃", "en": "widely; easily, more than enough, by far", "def": "Beaucoup, plus qu'assez ; sur une grande surface.", "def_en": "A lot, more than enough; over a large area.", "examples": [
+      {"fr": "Vous êtes prêt, **largement** prêt.", "en": "You're ready, more than ready."},
+      {"fr": "On a **largement** le temps.", "en": "We've got plenty of time."},
+      {"fr": "Il gagne **largement** sa vie.", "en": "He earns a very good living."}]},
+    {"id": "nettement", "fr": "nettement", "pos": "adv", "ipa": "nɛt.mɑ̃", "en": "clearly, distinctly; (with comparisons) far, much", "def": "D'une manière très claire ; beaucoup (avec plus, moins, mieux).", "def_en": "Very clearly; much (with more, less, better).", "examples": [
+      {"fr": "Il freine **nettement**, sans [panique|panique].", "en": "He brakes firmly, without panicking."},
+      {"fr": "Hugo conduit **nettement** mieux qu'en septembre.", "en": "Hugo drives much better than in September."},
+      {"fr": "C'est **nettement** plus cher.", "en": "It's a lot more expensive."}]},
+    {"id": "totalement", "fr": "totalement", "pos": "adv", "ipa": "tɔ.tal.mɑ̃", "en": "totally, completely", "def": "Complètement, entièrement.", "def_en": "Completely, entirely.", "examples": [
+      {"fr": "C'est **totalement** différent de septembre !", "en": "It's totally different from September!"},
+      {"fr": "Je suis **totalement** d'accord.", "en": "I totally agree."},
+      {"fr": "Le toit est **totalement** refait.", "en": "The roof has been completely redone."}]},
+    {"id": "terriblement", "fr": "terriblement", "pos": "adv", "ipa": "tɛ.ʁi.blə.mɑ̃", "en": "terribly, awfully", "def": "Énormément, extrêmement.", "def_en": "Enormously, extremely.", "examples": [
+      {"fr": "Les petits chiens, c'est **terriblement** dangereux pour lui.", "en": "Little dogs are terribly dangerous for him."},
+      {"fr": "Il fait **terriblement** froid.", "en": "It's awfully cold."},
+      {"fr": "Tu m'as **terriblement** manqué.", "en": "I missed you terribly."}]},
+    {"id": "quasiment", "fr": "quasiment", "pos": "adv", "ipa": "ka.zi.mɑ̃", "en": "almost, practically", "def": "Presque.", "def_en": "Almost.", "examples": [
+      {"fr": "Hugo n'a **quasiment** pas dormi.", "en": "Hugo has hardly slept."},
+      {"fr": "C'est **quasiment** fini.", "en": "It's practically finished."},
+      {"fr": "Il ne pleut **quasiment** jamais en août.", "en": "It hardly ever rains in August."}]},
+    {"id": "litteralement", "fr": "littéralement", "pos": "adv", "ipa": "li.te.ʁal.mɑ̃", "en": "literally", "def": "Au sens exact des mots ; vraiment, complètement.", "def_en": "In the exact sense of the words; really, completely.", "examples": [
+      {"fr": "Il est **littéralement** épuisé.", "en": "He's literally exhausted."},
+      {"fr": "Tom prend les expressions **littéralement**.", "en": "Tom takes idioms literally."},
+      {"fr": "La salle était **littéralement** pleine.", "en": "The hall was literally full."}]},
+    {"id": "reellement", "fr": "réellement", "pos": "adv", "ipa": "ʁe.ɛl.mɑ̃", "en": "really, actually", "def": "Vraiment, en réalité.", "def_en": "Truly, in reality.", "examples": [
+      {"fr": "C'est **réellement** lui qui conduit ?", "en": "Is it really him driving?"},
+      {"fr": "Il est **réellement** malade.", "en": "He's actually ill."},
+      {"fr": "Ça s'est **réellement** [passé|passer].", "en": "It really happened."}]},
+    {"id": "etrangement", "fr": "étrangement", "pos": "adv", "ipa": "e.tʁɑ̃ʒ.mɑ̃", "en": "strangely, oddly", "def": "D'une manière bizarre.", "def_en": "In an odd way.", "examples": [
+      {"fr": "Le silence est **étrangement** long.", "en": "The silence is strangely long."},
+      {"fr": "Ce garçon ressemble **étrangement** à Hugo.", "en": "That boy looks oddly like Hugo."},
+      {"fr": "**Étrangement**, Hugo n'a pas faim.", "en": "Strangely, Hugo isn't hungry."}]},
+    {"id": "difficilement", "fr": "difficilement", "pos": "adv", "ipa": "di.fi.sil.mɑ̃", "en": "with difficulty, hardly", "def": "Avec peine, pas facilement.", "def_en": "With effort, not easily.", "examples": [
+      {"fr": "Hugo signe **difficilement** : ses mains tremblent.", "en": "Hugo signs with difficulty: his hands are shaking."},
+      {"fr": "Il marche **difficilement**.", "en": "He walks with difficulty."},
+      {"fr": "On trouve **difficilement** une place pour se garer.", "en": "It's hard to find a parking space."}]},
+    {"id": "officiellement", "fr": "officiellement", "pos": "adv", "ipa": "ɔ.fi.sjɛl.mɑ̃", "en": "officially", "def": "Selon les règles ; de façon publique.", "def_en": "According to the rules; publicly.", "examples": [
+      {"fr": "**Officiellement**, je ne peux rien vous dire.", "en": "Officially, I can't tell you anything."},
+      {"fr": "Hugo est **officiellement** conducteur.", "en": "Hugo is officially a driver."},
+      {"fr": "Le pont ouvre **officiellement** demain.", "en": "The bridge officially opens tomorrow."}]},
+    {"id": "definitivement", "fr": "définitivement", "pos": "adv", "ipa": "de.fi.ni.tiv.mɑ̃", "en": "for good, permanently", "def": "Pour toujours, sans retour.", "def_en": "For ever, with no going back.", "examples": [
+      {"fr": "Tu arrêtes **définitivement** de parler de ton examen ?", "en": "Will you stop talking about your test for good?"},
+      {"fr": "Jacques arrête **définitivement** de conduire.", "en": "Jacques is giving up driving for good."},
+      {"fr": "La boutique a fermé **définitivement**.", "en": "The shop has closed for good."}]},
+    {"id": "vivement", "fr": "vivement", "pos": "adv", "ipa": "viv.mɑ̃", "en": "keenly, sharply, warmly; (vivement… !) roll on…!", "def": "Avec force et vitesse ; beaucoup. Seul devant un mot : on a hâte que ça arrive.", "def_en": "With force and speed; a lot. Alone before a word: you can't wait for it to come.", "note": "*Vivement les vacances !* = roll on the holidays!", "examples": [
+      {"fr": "Quarante-huit heures… **Vivement** jeudi !", "en": "Forty-eight hours… Roll on Thursday!"},
+      {"fr": "Je vous remercie **vivement**.", "en": "Thank you very much indeed."},
+      {"fr": "Il se lève **vivement**.", "en": "He gets up quickly."}]}
+  ],
+  "story": {
+    "title": "Le grand jour",
+    "en": "Tuesday 16 November: Hugo's driving test.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi seize novembre, à huit heures, Hugo attend devant l'auto-école. Il n'a quasiment pas dormi.", "en": "On Tuesday 16 November, at eight o'clock, Hugo is waiting outside the driving school. He's hardly slept."},
+      {"sp": "Monsieur Vidal", "fr": "Respirez profondément. Vous êtes prêt, largement prêt.", "en": "Breathe deeply. You're ready, more than ready."},
+      {"sp": "", "fr": "L'examinatrice arrive à huit heures [précises|precis]. Elle sourit brièvement, puis elle ne sourit plus.", "en": "The examiner arrives at eight sharp. She smiles briefly, then stops smiling."},
+      {"sp": "L'examinatrice", "fr": "Bonjour. Vérifiez d'abord le niveau d'huile, s'il vous plaît.", "en": "Hello. First, check the oil level, please."},
+      {"sp": "", "fr": "Hugo vérifie correctement l'huile, les phares et les clignotants.", "en": "Hugo checks the oil, the headlights and the indicators properly."},
+      {"sp": "", "fr": "Il démarre doucement, sans caler. Monsieur Vidal, à l'arrière, ne dit rien : il prie silencieusement.", "en": "He moves off gently, without stalling. Monsieur Vidal, in the back, says nothing: he's praying silently."},
+      {"sp": "", "fr": "Hugo regarde constamment ses rétroviseurs. Il met son clignotant précisément au bon moment.", "en": "Hugo constantly checks his mirrors. He signals at precisely the right moment."},
+      {"sp": "", "fr": "Près d'une école, il ralentit prudemment. Un enfant traverse, et Hugo le laisse gentiment passer.", "en": "Near a school, he slows down carefully. A child crosses, and Hugo kindly lets him go."},
+      {"sp": "", "fr": "Subitement, un petit chien sort d'une porte et [court|courir] vers la voiture.", "en": "Suddenly, a little dog comes out of a doorway and runs towards the car."},
+      {"sp": "", "fr": "Hugo devient tout blanc. Les petits chiens, pour lui, c'est terriblement dangereux.", "en": "Hugo goes white. For him, little dogs are terribly dangerous."},
+      {"sp": "", "fr": "Mais il freine nettement, sans [panique|panique]. Le chien s'assied sur le trottoir et le regarde.", "en": "But he brakes firmly, without panicking. The dog sits down on the pavement and looks at him."},
+      {"sp": "L'examinatrice", "fr": "Bien. Maintenant, garez-vous derrière la camionnette.", "en": "Good. Now park behind the van."},
+      {"sp": "", "fr": "Machinalement, Hugo remet ses lunettes sur son nez. Il recule lentement… et se gare parfaitement.", "en": "Without thinking, Hugo pushes his glasses back up his nose. He reverses slowly… and parks perfectly."},
+      {"sp": "Monsieur Vidal", "fr": "C'est réellement lui qui conduit ?", "en": "Is it really him driving?"},
+      {"sp": "", "fr": "Au retour, l'examinatrice écrit attentivement sur sa tablette. Le silence est étrangement long.", "en": "On the way back, the examiner writes carefully on her tablet. The silence is strangely long."},
+      {"sp": "Hugo", "fr": "Alors ? C'est bon ? Je l'ai ?", "en": "So? Is it all right? Have I got it?"},
+      {"sp": "L'examinatrice", "fr": "Officiellement, je ne peux rien vous dire. Le résultat sera en ligne dans quarante-huit heures.", "en": "Officially, I can't tell you anything. The result will be online in forty-eight hours."},
+      {"sp": "", "fr": "Elle sort de la voiture, hésite, puis revient.", "en": "She gets out of the car, hesitates, then comes back."},
+      {"sp": "L'examinatrice", "fr": "Vous êtes bien l'homme de la poubelle ? Je peux avoir un autographe ? C'est pour mon fils.", "en": "You are the man in the bin, aren't you? Can I have an autograph? It's for my son."},
+      {"sp": "", "fr": "Hugo signe difficilement : ses mains tremblent encore.", "en": "Hugo signs with difficulty: his hands are still shaking."},
+      {"sp": "Monsieur Vidal", "fr": "Sérieusement, Hugo, vous avez conduit comme un professionnel. C'est totalement différent de septembre.", "en": "Seriously, Hugo, you drove like a professional. It's totally different from September."},
+      {"sp": "Hugo", "fr": "Quarante-huit heures… Vivement jeudi !", "en": "Forty-eight hours… Roll on Thursday!"},
+      {"sp": "", "fr": "Le soir, Hugo raconte tout à Carla. Il est littéralement épuisé.", "en": "In the evening, Hugo tells Carla everything. He's literally exhausted."},
+      {"sp": "Carla", "fr": "Si tu l'as, tu arrêtes définitivement de parler de ton examen ?", "en": "If you've got it, will you stop talking about your test for good?"},
+      {"sp": "Hugo", "fr": "Définitivement. Enfin… presque.", "en": "For good. Well… almost."}
+    ]
+  }
+}
