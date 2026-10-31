@@ -180,6 +180,10 @@ FIXES = {
     "aux os": "ozˈo",  # the plural os is /o/: the voice says /ɔs/ (trempé jusqu'aux os)
     "avent": "avˈɑ̃",  # Advent: the voice says /av/ (le calendrier de l'Avent)
     "houx": "ˈu",  # holly: the voice adds a liaison (du houx à la fenêtre)
+    "clusaz": "klyzˈa",  # La Clusaz: the z is silent
+    "jingle": "dʒiŋɡˈœl", "jingles": "dʒiŋɡˈœl", "pub": "pˈyb", "pubs": "pˈyb",  # read /ʒɛ̃ɡl/, /pœb/
+    "spot": "spˈɔt", "spots": "spˈɔt", "snowboard": "snobˈɔʁd", "snowboards": "snobˈɔʁd",  # read in English
+    "jour de plus": "ʒˈuʁ də plˈys",  # more: the s is said
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

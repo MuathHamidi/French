@@ -1,0 +1,140 @@
+{
+  "id": "u50-pub",
+  "type": "vocab",
+  "unit": 50,
+  "title": "Neige de Grasse",
+  "en": "Advertising",
+  "intro": "25 words for advertising: the advert (**la pub, le spot, le slogan, le jingle, le logo, l'affichage, le panneau publicitaire, l'heure de grande écoute**), the business (**l'annonceur, le parfumeur, la cible, le concurrent, le lancement, la notoriété, l'image de marque, séduire, vanter**), and the shoot (**l'égérie, le mannequin, le maquilleur, le styliste, la loge, le projecteur, le ventilateur, le flacon**).",
+  "words": [
+    {"id": "pub", "fr": "pub", "pos": "noun", "g": "f", "ipa": "pyb", "en": "ad, advert; advertising (informal)", "def": "Un petit film ou une affiche pour vendre un produit. (familier)", "def_en": "A short film or a poster for selling a product. (informal)", "forms": ["pubs"], "examples": [
+      {"fr": "La **pub** doit murmurer aussi.", "en": "The advert has to whisper too."},
+      {"fr": "Hugo change de chaîne pendant la **pub**.", "en": "Hugo changes channel during the adverts."},
+      {"fr": "C'est la meilleure **pub** du monde !", "en": "It's the best advert in the world!"}]},
+    {"id": "spot", "fr": "spot", "pos": "noun", "g": "m", "ipa": "spɔt", "en": "(TV or radio) advert, commercial; spotlight", "def": "Un petit film de publicité, à la télévision ou à la radio ; une petite lampe.", "def_en": "A short advertising film on television or radio; a small lamp.", "forms": ["spots"], "examples": [
+      {"fr": "Le **spot** [dure|durer] trente secondes.", "en": "The commercial lasts thirty seconds."},
+      {"fr": "C'est le tournage du **spot**.", "en": "It's the shooting of the commercial."},
+      {"fr": "Les **spots** du plafond éclairent la cuisine.", "en": "The ceiling spotlights light up the kitchen."}]},
+    {"id": "slogan", "fr": "slogan", "pos": "noun", "g": "m", "ipa": "slɔ.ɡɑ̃", "en": "slogan", "def": "Une phrase courte et facile à retenir, pour une marque ou une idée.", "def_en": "A short, catchy sentence for a brand or an idea.", "forms": ["slogans"], "examples": [
+      {"fr": "L'agence a écrit le **slogan**.", "en": "The agency has written the slogan."},
+      {"fr": "Dans la rue, les gens crient des **slogans**.", "en": "In the street, people are shouting slogans."},
+      {"fr": "Ce **slogan** est dans toutes les têtes.", "en": "Everyone's got this slogan in their head."}]},
+    {"id": "jingle", "fr": "jingle", "pos": "noun", "g": "m", "ipa": "dʒiŋ.ɡœl", "en": "jingle", "def": "Une petite musique qui accompagne une publicité.", "def_en": "A short tune that goes with an advert.", "forms": ["jingles"], "examples": [
+      {"fr": "Ils enregistrent le **jingle** : trois notes de piano.", "en": "They record the jingle: three notes on the piano."},
+      {"fr": "Hugo chante le **jingle** toute la journée.", "en": "Hugo sings the jingle all day long."},
+      {"fr": "Ce **jingle** ne sort plus de ma tête !", "en": "I can't get this jingle out of my head!"}]},
+    {"id": "logo", "fr": "logo", "pos": "noun", "g": "m", "ipa": "lo.ɡo", "en": "logo", "def": "Le petit dessin qui représente une marque ou une entreprise.", "def_en": "The little picture that represents a brand or a company.", "forms": ["logos"], "examples": [
+      {"fr": "Le **logo**, une petite étoile de neige, brille sur le flacon.", "en": "The logo, a little snow star, shines on the bottle."},
+      {"fr": "Le **logo** de la boulangerie est un croissant.", "en": "The bakery's logo is a croissant."},
+      {"fr": "Ils ont changé de **logo**.", "en": "They've changed their logo."}]},
+    {"id": "affichage", "fr": "affichage", "pos": "noun", "g": "m", "ipa": "a.fi.ʃaʒ", "en": "billboard advertising, poster campaign; display", "def": "Le fait de mettre de grandes images de publicité dans les rues ; ce qui apparaît sur un écran.", "def_en": "Putting up big advertising pictures in the streets; what appears on a screen.", "examples": [
+      {"fr": "Il y aura une campagne d'**affichage** dans le métro.", "en": "There'll be a poster campaign in the underground."},
+      {"fr": "L'**affichage** coûte cher.", "en": "Billboard advertising is expensive."},
+      {"fr": "L'**affichage** de mon téléphone est cassé.", "en": "My phone's display is broken."}]},
+    {"id": "panneau-publicitaire", "fr": "panneau publicitaire", "pos": "noun", "g": "m", "ipa": "pa.no py.bli.si.tɛʁ", "en": "billboard, advertising hoarding", "def": "Une grande surface dans la rue ou le métro, où on colle des affiches pour vendre des produits.", "def_en": "A big board in the street or the underground where posters selling products are put up.", "forms": ["panneaux publicitaires"], "examples": [
+      {"fr": "Cinq cents **panneaux publicitaires** dans le métro !", "en": "Five hundred billboards in the underground!"},
+      {"fr": "Un **panneau publicitaire** cache la vue.", "en": "A billboard blocks the view."},
+      {"fr": "Inès se voit sur un **panneau publicitaire**.", "en": "Inès sees herself on a billboard."}]},
+    {"id": "heure-de-grande-ecoute", "fr": "heure de grande écoute", "pos": "noun", "g": "f", "ipa": "œʁ də ɡʁɑ̃d e.kut", "en": "prime time", "def": "Le moment où le plus de gens regardent la télévision, le soir.", "def_en": "The time when the most people watch television, in the evening.", "examples": [
+      {"fr": "Le spot passera à l'**heure de grande écoute**.", "en": "The advert will be on at prime time."},
+      {"fr": "Une minute à l'**heure de grande écoute** coûte une fortune.", "en": "A minute at prime time costs a fortune."},
+      {"fr": "Le match passe à l'**heure de grande écoute**.", "en": "The match is on at prime time."}]},
+    {"id": "annonceur", "fr": "annonceur", "pos": "noun", "g": "m", "ipa": "a.nɔ̃.sœʁ", "en": "advertiser", "def": "L'entreprise qui paie une publicité pour vendre son produit.", "def_en": "The company that pays for an advert to sell its product.", "forms": ["annonceurs"], "examples": [
+      {"fr": "L'**annonceur** est là aussi : Madame Rey.", "en": "The advertiser is there too: Madame Rey."},
+      {"fr": "L'**annonceur** veut un spot simple.", "en": "The advertiser wants a simple commercial."},
+      {"fr": "Les **annonceurs** paient la télévision.", "en": "Advertisers pay for television."}]},
+    {"id": "parfumeur", "fr": "parfumeur", "pos": "noun", "g": "m", "ipa": "paʁ.fy.mœʁ", "display": "le parfumeur, la parfumeuse", "en": "perfumer, perfume maker", "def": "La personne qui invente de nouvelles odeurs, pour les mettre en flacon.", "def_en": "The person who invents new scents to put into bottles.", "forms": ["parfumeuse", "parfumeurs", "parfumeuses"], "examples": [
+      {"fr": "Madame Rey est **parfumeuse** depuis soixante ans.", "en": "Madame Rey has been a perfumer for sixty years."},
+      {"fr": "Un **parfumeur** a un nez extraordinaire.", "en": "A perfumer has an extraordinary nose."},
+      {"fr": "Les **parfumeurs** de Grasse sont célèbres.", "en": "The perfumers of Grasse are famous."}]},
+    {"id": "cible", "fr": "cible", "pos": "noun", "g": "f", "ipa": "sibl", "en": "target; target audience", "def": "Ce qu'on vise ; les personnes à qui on veut vendre un produit.", "def_en": "What you aim at; the people you want to sell a product to.", "forms": ["cibles"], "examples": [
+      {"fr": "Notre **cible** : les femmes de vingt-cinq à quarante ans.", "en": "Our target: women aged twenty-five to forty."},
+      {"fr": "Tom tire au milieu de la **cible**.", "en": "Tom shoots right in the middle of the target."},
+      {"fr": "Les jeunes sont une **cible** difficile.", "en": "Young people are a hard target."}]},
+    {"id": "concurrent", "fr": "concurrent", "pos": "noun", "g": "m", "ipa": "kɔ̃.ky.ʁɑ̃", "display": "le concurrent, la concurrente", "en": "competitor, rival; (adj) competing", "def": "Une personne ou une entreprise qui veut gagner contre une autre.", "def_en": "A person or company trying to win against another.", "forms": ["concurrente", "concurrents", "concurrentes"], "examples": [
+      {"fr": "Notre grand **concurrent** sort un parfum la même semaine.", "en": "Our big competitor is bringing out a perfume the same week."},
+      {"fr": "Les **concurrentes** attendent le départ de la course.", "en": "The competitors wait for the start of the race."},
+      {"fr": "Deux boulangeries **concurrentes** dans la même rue.", "en": "Two rival bakeries in the same street."}]},
+    {"id": "lancement", "fr": "lancement", "pos": "noun", "g": "m", "ipa": "lɑ̃s.mɑ̃", "en": "launch", "def": "Le moment où un nouveau produit sort ; le départ d'une fusée.", "def_en": "The moment a new product comes out; a rocket taking off.", "forms": ["lancements"], "examples": [
+      {"fr": "Le **lancement** est en mars.", "en": "The launch is in March."},
+      {"fr": "Toute l'équipe prépare le **lancement**.", "en": "The whole team is getting ready for the launch."},
+      {"fr": "On a regardé le **lancement** de la fusée à la télé.", "en": "We watched the rocket launch on TV."}]},
+    {"id": "notoriete", "fr": "notoriété", "pos": "noun", "g": "f", "ipa": "nɔ.tɔ.ʁje.te", "en": "fame, reputation; (brand) awareness", "def": "Le fait d'être connu par beaucoup de gens.", "def_en": "Being known by a lot of people.", "examples": [
+      {"fr": "La **notoriété** de sa maison, c'est sa vie.", "en": "The reputation of her firm is her life."},
+      {"fr": "Depuis la vidéo, Enzo a une grande **notoriété**.", "en": "Since the video, Enzo has been very well known."},
+      {"fr": "Une bonne pub fait monter la **notoriété** d'une marque.", "en": "A good advert raises a brand's profile."}]},
+    {"id": "image-de-marque", "fr": "image de marque", "pos": "noun", "g": "f", "ipa": "i.maʒ də maʁk", "en": "brand image; public image", "def": "L'idée que les gens se font d'une entreprise, d'un produit ou d'une personne.", "def_en": "The idea people have of a company, a product or a person.", "examples": [
+      {"fr": "Cette pub, c'est notre **image de marque**.", "en": "This advert is our brand image."},
+      {"fr": "Le roi de la poubelle, c'est mauvais pour l'**image de marque** !", "en": "The king of the bin is bad for the brand image!"},
+      {"fr": "Ils soignent leur **image de marque**.", "en": "They take care of their public image."}]},
+    {"id": "seduire", "fr": "séduire", "pos": "verb", "ipa": "se.dɥiʁ", "en": "to charm, to win over; to seduce", "def": "Plaire beaucoup à quelqu'un, attirer son attention ou son amour.", "def_en": "To please someone a lot, to attract their attention or their love.", "forms": ["séduis", "séduit", "séduisons", "séduisez", "séduisent", "séduite", "séduits", "séduites", "séduisais", "séduisait", "séduisions", "séduisiez", "séduisaient", "séduirai", "séduiras", "séduira", "séduirons", "séduirez", "séduiront", "séduirais", "séduirait", "séduirions", "séduiriez", "séduiraient", "séduise", "séduises", "séduisant", "séduisis", "séduisit", "séduisîmes", "séduisîtes", "séduisirent"], "examples": [
+      {"fr": "Les voyageurs vont être **séduits**.", "en": "The passengers will be won over."},
+      {"fr": "Ce parfum va **séduire** tout Paris.", "en": "This perfume will charm all of Paris."},
+      {"fr": "Hugo a **séduit** Carla avec ses crêpes.", "en": "Hugo won Carla over with his crêpes."}]},
+    {"id": "vanter", "fr": "vanter", "pos": "verb", "ipa": "vɑ̃.te", "en": "to praise, to sing the praises of; (se vanter) to boast", "def": "Dire beaucoup de bien d'une chose ou d'une personne.", "def_en": "To say very good things about something or someone.", "note": "*Se vanter* = to boast.", "forms": ["vante", "vantes", "vantons", "vantez", "vantent", "vanté", "vantée", "vantés", "vantées", "vantais", "vantait", "vantions", "vantiez", "vantaient", "vanterai", "vanteras", "vantera", "vanterons", "vanterez", "vanteront", "vanterais", "vanterait", "vanterions", "vanteriez", "vanteraient", "vantant", "vantai", "vantas", "vanta", "vantâmes", "vantâtes", "vantèrent"], "examples": [
+      {"fr": "Je ne vais pas **vanter** un parfum que je n'aime pas.", "en": "I'm not going to praise a perfume I don't like."},
+      {"fr": "Le vendeur **vante** son fromage.", "en": "The seller sings the praises of his cheese."},
+      {"fr": "Hugo se **vante** de skier comme un champion.", "en": "Hugo boasts that he skis like a champion."}]},
+    {"id": "egerie", "fr": "égérie", "pos": "noun", "g": "f", "ipa": "e.ʒe.ʁi", "en": "face (of a brand); muse", "def": "La personne célèbre qui représente une marque dans ses publicités.", "def_en": "The famous person who represents a brand in its adverts.", "forms": ["égéries"], "examples": [
+      {"fr": "Comme **égérie**, Inès reçoit trois flacons.", "en": "As the face of the brand, Inès gets three bottles."},
+      {"fr": "Elle est l'**égérie** d'un parfum.", "en": "She's the face of a perfume."},
+      {"fr": "Chaque marque cherche son **égérie**.", "en": "Every brand is looking for its face."}]},
+    {"id": "mannequin", "fr": "mannequin", "pos": "noun", "g": "m", "ipa": "man.kɛ̃", "en": "(fashion) model; (shop-window) dummy", "def": "La personne qui présente des vêtements ou des produits ; une fausse personne dans une vitrine.", "def_en": "A person who shows off clothes or products; a fake person in a shop window.", "forms": ["mannequins"], "examples": [
+      {"fr": "C'est quoi, le **mannequin** avec le nez rouge ?", "en": "Who's the model with the red nose?"},
+      {"fr": "Inès est **mannequin** depuis six ans.", "en": "Inès has been a model for six years."},
+      {"fr": "Hugo parle à un **mannequin** de vitrine.", "en": "Hugo talks to a shop-window dummy."}]},
+    {"id": "maquilleur", "fr": "maquilleur", "pos": "noun", "g": "m", "ipa": "ma.ki.jœʁ", "display": "le maquilleur, la maquilleuse", "en": "make-up artist", "def": "La personne qui prépare le visage des acteurs et des mannequins, avec des produits de beauté.", "def_en": "The person who prepares actors' and models' faces with beauty products.", "forms": ["maquilleuse", "maquilleurs", "maquilleuses"], "examples": [
+      {"fr": "Inès est entre les mains d'une **maquilleuse**.", "en": "Inès is in the hands of a make-up artist."},
+      {"fr": "Le **maquilleur** cache la fatigue d'Inès.", "en": "The make-up artist hides Inès's tiredness."},
+      {"fr": "Les **maquilleuses** travaillent vite.", "en": "The make-up artists work fast."}]},
+    {"id": "styliste", "fr": "styliste", "pos": "noun", "g": "m", "both": true, "ipa": "sti.list", "display": "le / la styliste", "en": "fashion designer; stylist", "def": "La personne qui crée ou choisit les vêtements.", "def_en": "The person who designs or chooses the clothes.", "forms": ["stylistes"], "accept": ["la styliste", "une styliste"], "examples": [
+      {"fr": "Le **styliste** choisit une robe blanche.", "en": "The stylist chooses a white dress."},
+      {"fr": "Elle veut devenir **styliste**.", "en": "She wants to become a fashion designer."},
+      {"fr": "Les **stylistes** préparent le défilé.", "en": "The designers are getting the show ready."}]},
+    {"id": "loge", "fr": "loge", "pos": "noun", "g": "f", "ipa": "lɔʒ", "en": "dressing room; (concierge's) lodge; (theatre) box", "def": "La petite pièce où un acteur ou un mannequin se prépare.", "def_en": "The small room where an actor or a model gets ready.", "forms": ["loges"], "examples": [
+      {"fr": "Dans sa **loge**, Inès se prépare.", "en": "In her dressing room, Inès gets ready."},
+      {"fr": "Le nom d'Inès est sur la porte de la **loge**.", "en": "Inès's name is on the dressing-room door."},
+      {"fr": "La gardienne est dans sa **loge**.", "en": "The caretaker is in her lodge."}]},
+    {"id": "projecteur", "fr": "projecteur", "pos": "noun", "g": "m", "ipa": "pʁɔ.ʒɛk.tœʁ", "en": "spotlight, floodlight; projector", "def": "Une lampe très forte, pour éclairer une scène ; l'appareil qui montre des images sur un écran.", "def_en": "A very strong lamp for lighting a stage; the device that shows pictures on a screen.", "forms": ["projecteurs"], "examples": [
+      {"fr": "Sur le plateau, les **projecteurs** s'allument.", "en": "On set, the spotlights come on."},
+      {"fr": "Inès est sous les **projecteurs**.", "en": "Inès is in the spotlight."},
+      {"fr": "Le professeur allume le **projecteur**.", "en": "The lecturer switches on the projector."}]},
+    {"id": "ventilateur", "fr": "ventilateur", "pos": "noun", "g": "m", "ipa": "vɑ̃.ti.la.tœʁ", "en": "fan (electric)", "def": "Un appareil qui fait du vent quand il fait chaud.", "def_en": "A device that makes a breeze when it's hot.", "forms": ["ventilateurs"], "examples": [
+      {"fr": "Un **ventilateur** fait voler ses cheveux.", "en": "A fan makes her hair fly."},
+      {"fr": "En août, il nous faut un **ventilateur**.", "en": "In August, we need a fan."},
+      {"fr": "Le **ventilateur** fait du bruit.", "en": "The fan is noisy."}]},
+    {"id": "flacon", "fr": "flacon", "pos": "noun", "g": "m", "ipa": "fla.kɔ̃", "en": "(small) bottle, flask", "def": "Une petite bouteille, souvent en verre, pour un parfum ou un médicament.", "def_en": "A small bottle, often glass, for a perfume or a medicine.", "forms": ["flacons"], "examples": [
+      {"fr": "Inès ouvre le **flacon**.", "en": "Inès opens the bottle."},
+      {"fr": "Un **flacon** de parfum.", "en": "A bottle of perfume."},
+      {"fr": "Le **flacon** est en forme d'étoile.", "en": "The bottle is shaped like a star."}]}
+  ],
+  "story": {
+    "title": "Neige de Grasse",
+    "en": "Saturday 15 January: in Paris, the shoot of Inès's perfume advert.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi quinze janvier, à Paris, c'est le tournage du spot de « Neige de Grasse ». Carla et Sophie sont venues voir Inès.", "en": "On Saturday 15 January, in Paris, it's the shoot of the 'Neige de Grasse' commercial. Carla and Sophie have come to see Inès."},
+      {"sp": "", "fr": "Dans sa loge, Inès est entre les mains d'une maquilleuse et d'un styliste.", "en": "In her dressing room, Inès is in the hands of a make-up artist and a stylist."},
+      {"sp": "Le styliste", "fr": "Une robe blanche, simple. Le parfum, c'est la neige : pas de couleurs.", "en": "A white dress, simple. The perfume is snow: no colours."},
+      {"sp": "", "fr": "L'annonceur est là aussi : Madame Rey, la parfumeuse de Grasse. Elle a quatre-vingts ans, et un nez extraordinaire.", "en": "The advertiser is there too: Madame Rey, the perfumer from Grasse. She's eighty, and has an extraordinary nose."},
+      {"sp": "Madame Rey", "fr": "Mon parfum ne crie pas. Il murmure. La pub doit murmurer aussi.", "en": "My perfume doesn't shout. It whispers. The advert has to whisper too."},
+      {"sp": "", "fr": "L'agence a écrit le slogan : « Neige de Grasse. La douceur qui fond sur la peau. »", "en": "The agency has written the slogan: 'Neige de Grasse. The softness that melts on your skin.'"},
+      {"sp": "", "fr": "Sur le plateau, les projecteurs s'allument. Un ventilateur fait voler les cheveux d'Inès, et un canon à neige fait tomber de faux flocons.", "en": "On set, the spotlights come on. A fan makes Inès's hair fly, and a snow machine makes fake snowflakes fall."},
+      {"sp": "Le réalisateur", "fr": "Moteur ! Inès, tu marches vers la caméra, tu ouvres le flacon, tu souris. Trente secondes.", "en": "Action! Inès, you walk towards the camera, you open the bottle, you smile. Thirty seconds."},
+      {"sp": "", "fr": "À la neuvième [prise|prise], la fausse neige entre dans le nez d'Inès. Elle éternue.", "en": "On the ninth take, the fake snow gets up Inès's nose. She sneezes."},
+      {"sp": "Carla", "fr": "Ça, c'est la meilleure pub du monde : on y croit !", "en": "Now that's the best advert in the world: you believe it!"},
+      {"sp": "", "fr": "Entre deux prises, une femme de l'agence explique la campagne.", "en": "Between two takes, a woman from the agency explains the campaign."},
+      {"sp": "La femme de l'agence", "fr": "Notre cible : les femmes de vingt-cinq à quarante ans. Le spot passera à l'heure de grande écoute, juste avant le journal.", "en": "Our target: women aged twenty-five to forty. The commercial will be on at prime time, just before the news."},
+      {"sp": "La femme de l'agence", "fr": "Et il y aura une campagne d'affichage : cinq cents panneaux publicitaires dans le métro.", "en": "And there'll be a poster campaign: five hundred billboards in the underground."},
+      {"sp": "Sophie", "fr": "Cinq cents Inès dans le métro ! Les voyageurs vont être séduits.", "en": "Five hundred Inèses in the underground! The passengers will be won over."},
+      {"sp": "La femme de l'agence", "fr": "Le lancement est en mars. Notre grand concurrent sort un parfum la même semaine : il faut faire mieux que lui.", "en": "The launch is in March. Our big competitor is bringing out a perfume the same week: we have to do better."},
+      {"sp": "", "fr": "Le logo, une petite étoile de neige, brille sur le flacon.", "en": "The logo, a little snow star, shines on the bottle."},
+      {"sp": "Madame Rey", "fr": "Ma maison est petite. Sa notoriété, c'est ma vie. Cette pub, c'est notre image de marque.", "en": "My firm is small. Its reputation is my life. This advert is our brand image."},
+      {"sp": "", "fr": "Le soir, on enregistre le jingle : trois notes de piano, très douces.", "en": "In the evening, they record the jingle: three very soft notes on the piano."},
+      {"sp": "Inès", "fr": "Je ne vais pas vanter un parfum que je n'aime pas. Mais celui-là, je l'adore.", "en": "I'm not going to praise a perfume I don't like. But this one, I love."},
+      {"sp": "", "fr": "Comme égérie, Inès reçoit trois flacons… et un bon salaire, mais pas un million.", "en": "As the face of the brand, Inès gets three bottles… and a good fee, but not a million."},
+      {"sp": "", "fr": "Le soir, Hugo appelle de Lyon : il a vu une photo du tournage sur internet.", "en": "In the evening, Hugo calls from Lyon: he's seen a photo of the shoot online."},
+      {"sp": "Hugo", "fr": "C'est quoi, le mannequin avec le nez rouge ?", "en": "Who's the model with the red nose?"},
+      {"sp": "Inès", "fr": "C'est moi, après la neuvième [prise|prise].", "en": "That's me, after the ninth take."}
+    ]
+  }
+}

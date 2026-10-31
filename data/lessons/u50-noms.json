@@ -1,0 +1,142 @@
+{
+  "id": "u50-noms",
+  "type": "vocab",
+  "unit": 50,
+  "title": "La bande",
+  "en": "Common nouns (6)",
+  "intro": "25 common nouns: friends and feelings (**la bande, les gars, le môme, l'ennui, la fierté, la plaisanterie, l'aventure, l'éternité**), the farm in winter (**le pré, la paille, le col, la zone, l'empreinte, le foyer, la chaleur, le cercle**), the body (**la chair, le poing, la cuisse, la veine, l'appétit**), and a few useful words (**le propos, le travers, la toile, le diable**).",
+  "words": [
+    {"id": "bande", "fr": "bande", "pos": "noun", "g": "f", "ipa": "bɑ̃d", "en": "gang, group (of friends); strip, band", "def": "Un groupe de personnes qui font des choses ensemble ; un long morceau étroit de tissu ou de papier.", "def_en": "A group of people who do things together; a long, narrow strip of cloth or paper.", "note": "*Une bande dessinée* = a comic book.", "forms": ["bandes"], "examples": [
+      {"fr": "Le plus beau cadeau, c'est la **bande**.", "en": "The best present is the gang."},
+      {"fr": "Une **bande** de tissu autour du genou.", "en": "A strip of cloth round the knee."},
+      {"fr": "Ils sont une **bande** d'amis depuis la fac.", "en": "They've been a group of friends since university."}]},
+    {"id": "toile", "fr": "toile", "pos": "noun", "g": "f", "ipa": "twal", "en": "canvas; cloth; (la Toile) the Web", "def": "Un tissu solide ; le tissu sur lequel on peint un tableau.", "def_en": "A strong fabric; the fabric a picture is painted on.", "note": "*La Toile* = the Web.", "forms": ["toiles"], "examples": [
+      {"fr": "Mathis lui offre une **toile** et des pinceaux.", "en": "Mathis gives her a canvas and some brushes."},
+      {"fr": "Une tente en **toile**.", "en": "A canvas tent."},
+      {"fr": "On trouve tout sur la **Toile**.", "en": "You can find anything on the Web."}]},
+    {"id": "propos", "fr": "propos", "pos": "noun", "g": "m", "ipa": "pʁɔ.po", "en": "remark, words; (à ce propos) on that subject", "def": "Ce qu'on dit ; le sujet dont on parle.", "def_en": "What someone says; the subject being talked about.", "note": "*À propos* = by the way.", "examples": [
+      {"fr": "À ce **propos**, où est le gâteau ?", "en": "Speaking of which, where's the cake?"},
+      {"fr": "Ses **propos** ont choqué tout le monde.", "en": "His remarks shocked everyone."},
+      {"fr": "Je ne comprends pas ses **propos**.", "en": "I don't understand what he's saying."}]},
+    {"id": "ennui", "fr": "ennui", "pos": "noun", "g": "m", "ipa": "ɑ̃.nɥi", "en": "boredom; (des ennuis) trouble", "def": "Le sentiment qu'on a quand on n'a rien d'intéressant à faire ; un problème.", "def_en": "The feeling you have when there's nothing interesting to do; a problem.", "forms": ["ennuis"], "examples": [
+      {"fr": "Pas de réseau ? Quel **ennui** !", "en": "No signal? How boring!"},
+      {"fr": "Hugo a des **ennuis** avec sa voiture.", "en": "Hugo is having trouble with his car."},
+      {"fr": "L'**ennui**, c'est qu'il n'y a plus de pain.", "en": "The trouble is, there's no bread left."}]},
+    {"id": "diable", "fr": "diable", "pos": "noun", "g": "m", "ipa": "djabl", "en": "devil", "def": "Le méchant esprit des vieilles histoires ; un enfant ou un animal qui fait des bêtises.", "def_en": "The evil spirit of old stories; a child or an animal that gets up to mischief.", "forms": ["diables"], "examples": [
+      {"fr": "Biquette, ce petit **diable**, a mangé la moitié du gâteau !", "en": "Biquette, the little devil, has eaten half the cake!"},
+      {"fr": "Lou est un vrai petit **diable**.", "en": "Lou is a real little devil."},
+      {"fr": "Il a peur du **diable**.", "en": "He's afraid of the devil."}]},
+    {"id": "chair", "fr": "chair", "pos": "noun", "g": "f", "ipa": "ʃɛʁ", "en": "flesh; (en chair et en os) in the flesh", "def": "La partie molle du corps, sous la peau ; l'intérieur d'un fruit.", "def_en": "The soft part of the body, under the skin; the inside of a fruit.", "note": "*Avoir la chair de poule* = to get goosebumps.", "examples": [
+      {"fr": "La **chair** de ce poisson est très blanche.", "en": "This fish's flesh is very white."},
+      {"fr": "La **chair** du poulet est tendre.", "en": "The chicken meat is tender."},
+      {"fr": "Antoine, en **chair** et en os !", "en": "Antoine, in the flesh!"}]},
+    {"id": "zone", "fr": "zone", "pos": "noun", "g": "f", "ipa": "zon", "en": "zone, area", "def": "Une partie d'une ville ou d'un pays.", "def_en": "A part of a town or a country.", "note": "*Une zone blanche* = an area with no mobile signal.", "forms": ["zones"], "examples": [
+      {"fr": "Bienvenue en **zone** blanche : ici, pas de réseau.", "en": "Welcome to a dead zone: no signal here."},
+      {"fr": "Une **zone** piétonne.", "en": "A pedestrian area."},
+      {"fr": "Cette **zone** est interdite aux voitures.", "en": "This area is closed to cars."}]},
+    {"id": "gars", "fr": "gars", "pos": "noun", "g": "m", "ipa": "ɡɑ", "en": "guy, lad (informal)", "def": "Un garçon, un homme. (familier)", "def_en": "A boy, a man. (informal)", "examples": [
+      {"fr": "Allez, les **gars**, venez au chaud !", "en": "Come on, lads, come in where it's warm!"},
+      {"fr": "C'est un bon **gars**.", "en": "He's a good guy."},
+      {"fr": "Salut les **gars** !", "en": "Hi, guys!"}]},
+    {"id": "mome", "fr": "môme", "pos": "noun", "g": "m", "both": true, "ipa": "mom", "display": "le / la môme", "en": "kid (informal)", "def": "Un enfant. (familier)", "def_en": "A child. (informal)", "forms": ["mômes"], "accept": ["la môme"], "examples": [
+      {"fr": "On l'[appelait|appeler] « la **môme** Piaf ».", "en": "They called her 'the kid Piaf'."},
+      {"fr": "Les **mômes** jouent dans la neige.", "en": "The kids are playing in the snow."},
+      {"fr": "Quand j'étais **môme**, j'adorais la luge.", "en": "When I was a kid, I loved sledging."}]},
+    {"id": "poing", "fr": "poing", "pos": "noun", "g": "m", "ipa": "pwɛ̃", "en": "fist", "def": "La main fermée.", "def_en": "A closed hand.", "forms": ["poings"], "examples": [
+      {"fr": "Hugo tape du **poing** sur la table.", "en": "Hugo bangs his fist on the table."},
+      {"fr": "Il serre les **poings**.", "en": "He clenches his fists."},
+      {"fr": "Un coup de **poing**.", "en": "A punch."}]},
+    {"id": "travers", "fr": "travers", "pos": "noun", "g": "m", "ipa": "tʁa.vɛʁ", "en": "(de travers) crooked, askew; quirk, failing", "def": "(Avec de) pas droit, mal placé ; un petit défaut.", "def_en": "(With de) not straight, badly placed; a small flaw.", "note": "*À travers* = through.", "examples": [
+      {"fr": "Hugo a son bonnet de **travers**.", "en": "Hugo's hat is on crooked."},
+      {"fr": "Tout va de **travers** aujourd'hui !", "en": "Everything's going wrong today!"},
+      {"fr": "Chacun a ses petits **travers**.", "en": "Everyone has their little quirks."}]},
+    {"id": "cuisse", "fr": "cuisse", "pos": "noun", "g": "f", "ipa": "kɥis", "en": "thigh; (of chicken) leg", "def": "La partie haute de la jambe, au-dessus du genou.", "def_en": "The upper part of the leg, above the knee.", "forms": ["cuisses"], "examples": [
+      {"fr": "Manon sert des **cuisses** de poulet.", "en": "Manon serves chicken legs."},
+      {"fr": "Il a mal aux **cuisses** après le ski.", "en": "His thighs ache after skiing."},
+      {"fr": "Une **cuisse** de canard.", "en": "A duck leg."}]},
+    {"id": "col", "fr": "col", "pos": "noun", "g": "m", "ipa": "kɔl", "en": "collar; (mountain) pass", "def": "La partie d'un vêtement autour du cou ; un passage entre deux montagnes.", "def_en": "The part of a garment round the neck; a way through between two mountains.", "forms": ["cols"], "examples": [
+      {"fr": "La route du **col** est fermée.", "en": "The road over the pass is closed."},
+      {"fr": "Un pull à **col** roulé.", "en": "A polo-neck jumper."},
+      {"fr": "Le **col** de sa chemise est sale.", "en": "His shirt collar is dirty."}]},
+    {"id": "foyer", "fr": "foyer", "pos": "noun", "g": "m", "ipa": "fwa.je", "en": "home, household; hearth; hostel", "def": "La maison, la famille ; l'endroit où on fait le feu.", "def_en": "The home, the family; the place where the fire is made.", "forms": ["foyers"], "examples": [
+      {"fr": "Le feu, c'est le cœur du **foyer**.", "en": "The fire is the heart of the home."},
+      {"fr": "Un **foyer** pour étudiants.", "en": "A student hostel."},
+      {"fr": "Dans chaque **foyer**, il y a une télé.", "en": "There's a TV in every household."}]},
+    {"id": "veine", "fr": "veine", "pos": "noun", "g": "f", "ipa": "vɛn", "en": "vein; (informal) luck", "def": "Un petit tuyau qui porte le sang dans le corps ; la chance. (familier)", "def_en": "A small tube that carries blood round the body; luck. (informal)", "forms": ["veines"], "examples": [
+      {"fr": "Quelle **veine** !", "en": "What luck!"},
+      {"fr": "On voit les **veines** de sa main.", "en": "You can see the veins on his hand."},
+      {"fr": "Tu as de la **veine** : il reste une place.", "en": "You're lucky: there's one place left."}]},
+    {"id": "paille", "fr": "paille", "pos": "noun", "g": "f", "ipa": "pɑj", "en": "straw", "def": "L'herbe [sèche|sec] qu'on donne aux animaux ; un petit tube pour boire.", "def_en": "The dry grass given to animals; a small tube for drinking.", "note": "*Tirer à la courte paille* = to draw straws.", "forms": ["pailles"], "examples": [
+      {"fr": "Les valises voyagent dans la **paille**.", "en": "The suitcases travel in the straw."},
+      {"fr": "On tire à la courte **paille**.", "en": "We draw straws."},
+      {"fr": "Lou boit son jus avec une **paille**.", "en": "Lou drinks her juice through a straw."}]},
+    {"id": "pre", "fr": "pré", "pos": "noun", "g": "m", "ipa": "pʁe", "en": "meadow", "def": "Un champ d'herbe où mangent les vaches.", "def_en": "A grassy field where cows graze.", "forms": ["prés"], "examples": [
+      {"fr": "La neige couvre les **prés**.", "en": "Snow covers the meadows."},
+      {"fr": "Les vaches sont dans le **pré**.", "en": "The cows are in the meadow."},
+      {"fr": "Un **pré** plein de fleurs.", "en": "A meadow full of flowers."}]},
+    {"id": "empreinte", "fr": "empreinte", "pos": "noun", "g": "f", "ipa": "ɑ̃.pʁɛ̃t", "en": "print, footprint, track; (digitale) fingerprint", "def": "La marque laissée par un pied, une main ou une patte.", "def_en": "The mark left by a foot, a hand or a paw.", "forms": ["empreintes"], "examples": [
+      {"fr": "On a trouvé ses **empreintes** devant la grange.", "en": "We found its tracks outside the barn."},
+      {"fr": "Des **empreintes** de chat dans la neige.", "en": "Cat prints in the snow."},
+      {"fr": "La police cherche des **empreintes** sur la porte.", "en": "The police are looking for prints on the door."}]},
+    {"id": "appetit", "fr": "appétit", "pos": "noun", "g": "m", "ipa": "a.pe.ti", "en": "appetite", "def": "L'envie de manger.", "def_en": "The wish to eat.", "examples": [
+      {"fr": "Tout le monde a un **appétit** énorme.", "en": "Everyone has an enormous appetite."},
+      {"fr": "Le ski, ça donne de l'**appétit**.", "en": "Skiing gives you an appetite."},
+      {"fr": "Hugo n'a jamais perdu l'**appétit**.", "en": "Hugo has never lost his appetite."}]},
+    {"id": "plaisanterie", "fr": "plaisanterie", "pos": "noun", "g": "f", "ipa": "plɛ.zɑ̃.tʁi", "en": "joke, jest", "def": "Une chose qu'on dit pour faire rire.", "def_en": "Something you say to make people laugh.", "forms": ["plaisanteries"], "examples": [
+      {"fr": "Hugo raconte des **plaisanteries**.", "en": "Hugo tells jokes."},
+      {"fr": "C'est une **plaisanterie** ?", "en": "Is this a joke?"},
+      {"fr": "Il ne comprend pas la **plaisanterie**.", "en": "He doesn't get the joke."}]},
+    {"id": "eternite", "fr": "éternité", "pos": "noun", "g": "f", "ipa": "e.tɛʁ.ni.te", "en": "eternity; (informal) ages", "def": "Un temps sans fin ; un temps très long.", "def_en": "Time without end; a very long time.", "examples": [
+      {"fr": "On ne s'est pas vus depuis une **éternité** !", "en": "We haven't seen each other for ages!"},
+      {"fr": "Une semaine sans toi, c'est une **éternité**.", "en": "A week without you is an eternity."},
+      {"fr": "J'attends depuis une **éternité** !", "en": "I've been waiting for ages!"}]},
+    {"id": "cercle", "fr": "cercle", "pos": "noun", "g": "m", "ipa": "sɛʁkl", "en": "circle; club, set", "def": "Une ligne ronde fermée ; un groupe de personnes.", "def_en": "A closed round line; a group of people.", "forms": ["cercles"], "examples": [
+      {"fr": "Tout le monde se met en **cercle** autour du feu.", "en": "Everyone sits in a circle round the fire."},
+      {"fr": "Dessine un **cercle**.", "en": "Draw a circle."},
+      {"fr": "Un **cercle** d'amis.", "en": "A circle of friends."}]},
+    {"id": "fierte", "fr": "fierté", "pos": "noun", "g": "f", "ipa": "fjɛʁ.te", "en": "pride", "def": "Le sentiment de joie quand on est content de soi ou des autres.", "def_en": "The joy you feel when you're pleased with yourself or with others.", "examples": [
+      {"fr": "Sophie regarde ses amis avec **fierté**.", "en": "Sophie looks at her friends with pride."},
+      {"fr": "Ses enfants sont sa **fierté**.", "en": "Her children are her pride."},
+      {"fr": "Il a avalé sa **fierté**.", "en": "He swallowed his pride."}]},
+    {"id": "aventure", "fr": "aventure", "pos": "noun", "g": "f", "ipa": "a.vɑ̃.tyʁ", "en": "adventure", "def": "Une suite d'événements extraordinaires ou dangereux.", "def_en": "A series of extraordinary or dangerous events.", "forms": ["aventures"], "examples": [
+      {"fr": "Ça, c'est une autre **aventure**.", "en": "That's another story."},
+      {"fr": "Un film d'**aventure**.", "en": "An adventure film."},
+      {"fr": "Partir à l'**aventure**.", "en": "To head off into the unknown."}]},
+    {"id": "chaleur", "fr": "chaleur", "pos": "noun", "g": "f", "ipa": "ʃa.lœʁ", "en": "heat, warmth", "def": "Ce qu'on sent près du feu ou au soleil ; une manière gentille de recevoir les gens.", "def_en": "What you feel by the fire or in the sun; a kind way of welcoming people.", "examples": [
+      {"fr": "Tout le monde profite de la **chaleur** du feu.", "en": "Everyone enjoys the warmth of the fire."},
+      {"fr": "Quelle **chaleur** ! Ouvre la fenêtre.", "en": "It's so hot! Open the window."},
+      {"fr": "Ils nous ont accueillis avec **chaleur**.", "en": "They welcomed us warmly."}]}
+  ],
+  "story": {
+    "title": "La bande",
+    "en": "Thursday 30 December: Sophie's birthday, at Pierre's farm.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi trente décembre, Hugo conduit Léa, Carla et Sophie de Paris jusqu'à la ferme de Pierre. C'est l'anniversaire de Sophie.", "en": "On Thursday 30 December, Hugo drives Léa, Carla and Sophie from Paris to Pierre's farm. It's Sophie's birthday."},
+      {"sp": "", "fr": "Après Annecy, la route du col est fermée, et la neige couvre les prés.", "en": "After Annecy, the road over the pass is closed, and snow covers the meadows."},
+      {"sp": "", "fr": "Au village, Jules les attend avec le tracteur : la route de la ferme est sous la neige. Les valises voyagent dans la paille.", "en": "In the village, Jules is waiting for them with the tractor: the road to the farm is under snow. The suitcases travel in the straw."},
+      {"sp": "Jules", "fr": "Sur cette route, c'est la zone blanche : pas de réseau pendant vingt minutes.", "en": "This road is a dead zone: no signal for twenty minutes."},
+      {"sp": "Hugo", "fr": "Vingt minutes sans réseau ? Quel ennui !", "en": "Twenty minutes without a signal? How boring!"},
+      {"sp": "Pierre", "fr": "L'ennui, à la ferme ? Jamais. Allez, les gars, venez au chaud !", "en": "Bored, on a farm? Never. Come on, lads, come in where it's warm!"},
+      {"sp": "", "fr": "Dans la cuisine, un grand feu brûle : c'est le cœur du foyer. Tout le monde se met en cercle pour profiter de la chaleur.", "en": "In the kitchen, a big fire is burning: it's the heart of the home. Everyone sits in a circle to enjoy the warmth."},
+      {"sp": "", "fr": "Le soir, Tom, Camille et Mathis arrivent d'Annecy par le dernier train. Sophie ne savait pas que Mathis venait.", "en": "In the evening, Tom, Camille and Mathis arrive from Annecy on the last train. Sophie didn't know Mathis was coming."},
+      {"sp": "Sophie", "fr": "Mathis ? En chair et en os ? On ne s'est pas vus depuis une éternité !", "en": "Mathis? In the flesh? We haven't seen each other for ages!"},
+      {"sp": "Mathis", "fr": "Depuis une semaine. Mais une semaine sans toi, c'est une éternité.", "en": "For a week. But a week without you is an eternity."},
+      {"sp": "", "fr": "Au dîner, Manon sert des cuisses de poulet, et tout le monde a un appétit énorme.", "en": "At dinner, Manon serves chicken legs, and everyone has an enormous appetite."},
+      {"sp": "Manon", "fr": "À ce propos… où est le gâteau d'anniversaire ?", "en": "Speaking of which… where's the birthday cake?"},
+      {"sp": "", "fr": "Biquette, ce petit diable, [entrée|entrer] par la porte du jardin, en a mangé la moitié !", "en": "Biquette, the little devil, has come in through the garden door and eaten half of it!"},
+      {"sp": "Manon", "fr": "Heureusement, il reste l'autre moitié. Et les bougies !", "en": "Luckily, there's still the other half. And the candles!"},
+      {"sp": "", "fr": "Sophie souffle ses bougies. Mathis lui offre une toile et des pinceaux.", "en": "Sophie blows out her candles. Mathis gives her a canvas and some brushes."},
+      {"sp": "Mathis", "fr": "Pour peindre la ferme. Tu as un talent fou.", "en": "For painting the farm. You've got amazing talent."},
+      {"sp": "", "fr": "Tom prend sa guitare et chante Édith Piaf, « la môme Piaf », comme on l'[appelait|appeler].", "en": "Tom picks up his guitar and sings Édith Piaf, 'the kid Piaf', as they used to call her."},
+      {"sp": "", "fr": "Hugo, son bonnet de travers, raconte des plaisanteries et tape du poing sur la table pour marquer le rythme.", "en": "Hugo, his hat on crooked, tells jokes and bangs his fist on the table to keep time."},
+      {"sp": "", "fr": "Puis Pierre raconte une histoire de loup, dans la neige. Tout le monde a la chair de poule.", "en": "Then Pierre tells a story about a wolf in the snow. Everyone has goosebumps."},
+      {"sp": "Pierre", "fr": "Et le matin, on a trouvé ses empreintes devant la grange…", "en": "And in the morning, we found its tracks outside the barn…"},
+      {"sp": "Hugo", "fr": "Des empreintes de loup ? Ou de Biquette ?", "en": "Wolf tracks? Or Biquette's?"},
+      {"sp": "Pierre", "fr": "Ça, c'est une autre aventure.", "en": "That's another story."},
+      {"sp": "", "fr": "Pour les lits, on tire à la courte paille. Hugo gagne… le canapé, à côté de Max.", "en": "For the beds, they draw straws. Hugo wins… the sofa, next to Max."},
+      {"sp": "Hugo", "fr": "Quelle veine ! Max ronfle encore plus fort que moi.", "en": "What luck! Max snores even louder than I do."},
+      {"sp": "", "fr": "Avant de dormir, Sophie regarde ses amis avec fierté. Le plus beau cadeau, c'est la bande.", "en": "Before going to sleep, Sophie looks at her friends with pride. The best present is the gang."}
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "u50-ski",
+  "type": "vocab",
+  "unit": 50,
+  "title": "Tout schuss",
+  "en": "Winter sports",
+  "intro": "25 words for winter sports: skiing (**skier, la piste, la descente, le slalom, le chasse-neige, le schuss, dévaler, le hors-piste, le snowboard**), the lifts (**la remontée mécanique, le téléski, le télésiège, le téléphérique**), the gear (**la combinaison, la moufle, le gant, le bâton, la raquette, l'après-ski**), and the mountain (**la poudreuse, la dameuse, le canon à neige, l'avalanche, la marmotte, le chamois**).",
+  "words": [
+    {"id": "skier", "fr": "skier", "pos": "verb", "ipa": "ski.e", "en": "to ski", "def": "Glisser sur la neige avec deux longues planches aux pieds.", "def_en": "To slide over the snow with two long boards on your feet.", "forms": ["skie", "skies", "skions", "skiez", "skient", "skié", "skiais", "skiait", "skiions", "skiiez", "skiaient", "skierai", "skieras", "skiera", "skierons", "skierez", "skieront", "skierais", "skierait", "skierions", "skieriez", "skieraient", "skiant", "skiai", "skias", "skia", "skiâmes", "skiâtes", "skièrent"], "examples": [
+      {"fr": "Tom n'a jamais **skié**.", "en": "Tom has never skied."},
+      {"fr": "Carla **skie** depuis l'âge de six ans.", "en": "Carla has been skiing since she was six."},
+      {"fr": "On va **skier** à La Clusaz ?", "en": "Shall we go skiing at La Clusaz?"}]},
+    {"id": "piste", "fr": "piste", "pos": "noun", "g": "f", "ipa": "pist", "en": "track, trail; (ski) run, slope; (dance) floor", "def": "Le chemin préparé pour les skieurs, de couleur verte, bleue, rouge ou noire ; un chemin, une trace.", "def_en": "The path prepared for skiers, green, blue, red or black; a track, a trail.", "note": "Green, blue, red, black: from the easiest run to the hardest.", "forms": ["pistes"], "examples": [
+      {"fr": "Carla descend la **piste** noire.", "en": "Carla goes down the black run."},
+      {"fr": "Les débutants restent sur la **piste** verte.", "en": "Beginners stay on the green run."},
+      {"fr": "Tout le monde sur la **piste** de danse !", "en": "Everyone on the dance floor!"}]},
+    {"id": "remontee-mecanique", "fr": "remontée mécanique", "pos": "noun", "g": "f", "ipa": "ʁə.mɔ̃.te me.ka.nik", "en": "ski lift", "def": "Tout ce qui fait monter les skieurs en haut des pistes : téléski, télésiège…", "def_en": "Anything that takes skiers up to the top of the runs: drag lifts, chairlifts…", "forms": ["remontées mécaniques"], "examples": [
+      {"fr": "Avec le forfait, on prend toutes les **remontées mécaniques**.", "en": "With the lift pass, you can take all the ski lifts."},
+      {"fr": "Les **remontées mécaniques** ferment à cinq heures.", "en": "The lifts close at five."},
+      {"fr": "Il y a la queue à la **remontée mécanique**.", "en": "There's a queue at the ski lift."}]},
+    {"id": "teleski", "fr": "téléski", "pos": "noun", "g": "m", "ipa": "te.le.ski", "en": "drag lift, button lift", "def": "Une remontée où le skieur est tiré par un câble, les skis sur la neige.", "def_en": "A lift where the skier is pulled along by a cable, with the skis on the snow.", "note": "Informal: *le tire-fesses*.", "forms": ["téléskis"], "examples": [
+      {"fr": "Hugo tombe trois fois au **téléski**.", "en": "Hugo falls off the drag lift three times."},
+      {"fr": "Le **téléski** monte la petite piste.", "en": "The drag lift goes up the little slope."},
+      {"fr": "Au **téléski**, on garde les skis bien droits.", "en": "On the drag lift, you keep your skis nice and straight."}]},
+    {"id": "telesiege", "fr": "télésiège", "pos": "noun", "g": "m", "ipa": "te.le.sjɛʒ", "en": "chairlift", "def": "Une remontée où les skieurs sont assis en l'air, sur des chaises accrochées à un câble.", "def_en": "A lift where skiers sit up in the air, on chairs hanging from a cable.", "forms": ["télésièges"], "examples": [
+      {"fr": "Prends le **télésiège**, Hugo : on s'assoit.", "en": "Take the chairlift, Hugo: you sit down."},
+      {"fr": "Le **télésiège** monte au-dessus de la forêt.", "en": "The chairlift climbs above the forest."},
+      {"fr": "Il fait froid sur le **télésiège**.", "en": "It's cold on the chairlift."}]},
+    {"id": "telepherique", "fr": "téléphérique", "pos": "noun", "g": "m", "ipa": "te.le.fe.ʁik", "en": "cable car", "def": "Une grande cabine suspendue à un câble, qui monte jusqu'au sommet.", "def_en": "A big cabin hanging from a cable, which goes right up to the top.", "forms": ["téléphériques"], "examples": [
+      {"fr": "Le **téléphérique** monte jusqu'au sommet.", "en": "The cable car goes right up to the top."},
+      {"fr": "Dans le **téléphérique**, Tom ne regarde pas en bas.", "en": "In the cable car, Tom doesn't look down."},
+      {"fr": "Le **téléphérique** passe au-dessus des sapins.", "en": "The cable car passes over the fir trees."}]},
+    {"id": "chasse-neige", "fr": "chasse-neige", "pos": "noun", "g": "m", "ipa": "ʃas.nɛʒ", "en": "snowplough; (in skiing) snowplough position", "def": "Une machine qui dégage les routes en hiver ; une position des skis en pointe, pour ralentir.", "def_en": "A machine that clears the roads in winter; a ski position with the tips together, for slowing down.", "forms": ["chasse-neiges"], "examples": [
+      {"fr": "Les skis en **chasse-neige** ! Comme une part de pizza !", "en": "Skis in a snowplough! Like a slice of pizza!"},
+      {"fr": "Le **chasse-neige** passe sur la route du col.", "en": "The snowplough goes over the pass road."},
+      {"fr": "Tom descend toute la piste en **chasse-neige**.", "en": "Tom goes all the way down the slope in a snowplough."}]},
+    {"id": "schuss", "fr": "schuss", "pos": "noun", "g": "m", "ipa": "ʃus", "en": "straight run (downhill, without turning)", "def": "Une descente tout droit, sans virages, très vite.", "def_en": "A run straight down, without turns, very fast.", "note": "*Descendre tout schuss* = to go straight down.", "examples": [
+      {"fr": "Hugo dévale la piste tout **schuss**.", "en": "Hugo hurtles straight down the run."},
+      {"fr": "Le **schuss**, c'est pour les champions.", "en": "Straight runs are for champions."},
+      {"fr": "Après un **schuss**, il faut savoir s'arrêter.", "en": "After a straight run, you have to know how to stop."}]},
+    {"id": "devaler", "fr": "dévaler", "pos": "verb", "ipa": "de.va.le", "en": "to hurtle down, to race down", "def": "Descendre très vite une pente ou un escalier.", "def_en": "To go down a slope or a staircase very fast.", "forms": ["dévale", "dévales", "dévalons", "dévalez", "dévalent", "dévalé", "dévalée", "dévalés", "dévalées", "dévalais", "dévalait", "dévalions", "dévaliez", "dévalaient", "dévalerai", "dévaleras", "dévalera", "dévalerons", "dévalerez", "dévaleront", "dévalerais", "dévalerait", "dévalerions", "dévaleriez", "dévaleraient", "dévalant", "dévalai", "dévalas", "dévala", "dévalâmes", "dévalâtes", "dévalèrent"], "examples": [
+      {"fr": "Hugo **dévale** la piste rouge.", "en": "Hugo hurtles down the red run."},
+      {"fr": "Lou **dévale** l'escalier.", "en": "Lou races down the stairs."},
+      {"fr": "Les enfants **dévalent** la colline en luge.", "en": "The children hurtle down the hill on sledges."}]},
+    {"id": "descente", "fr": "descente", "pos": "noun", "g": "f", "ipa": "de.sɑ̃t", "en": "descent, way down; (ski) run", "def": "Le fait d'aller vers le bas ; un chemin en pente.", "def_en": "Going downwards; a sloping path.", "forms": ["descentes"], "examples": [
+      {"fr": "Tom et Camille réussissent leur première **descente**.", "en": "Tom and Camille manage their first run."},
+      {"fr": "La **descente** est plus facile que la montée.", "en": "Going down is easier than going up."},
+      {"fr": "Attention, la route fait une longue **descente**.", "en": "Careful, the road goes down a long hill."}]},
+    {"id": "slalom", "fr": "slalom", "pos": "noun", "g": "m", "ipa": "sla.lɔm", "en": "slalom; weaving (in and out)", "def": "Une descente en virages, entre de petits drapeaux ; une route qui tourne sans arrêt.", "def_en": "A run full of turns, between little flags; a road that never stops turning.", "forms": ["slaloms"], "examples": [
+      {"fr": "La raquette, c'est le **slalom** des sages.", "en": "Snowshoeing is the wise man's slalom."},
+      {"fr": "Carla fait du **slalom** entre les sapins.", "en": "Carla weaves between the fir trees."},
+      {"fr": "Le taxi fait du **slalom** entre les voitures.", "en": "The taxi weaves in and out of the cars."}]},
+    {"id": "snowboard", "fr": "snowboard", "pos": "noun", "g": "m", "ipa": "sno.bɔʁd", "en": "snowboard; snowboarding", "def": "Une seule large planche pour glisser sur la neige.", "def_en": "A single wide board for sliding over the snow.", "forms": ["snowboards"], "examples": [
+      {"fr": "Sophie préfère le **snowboard**.", "en": "Sophie prefers snowboarding."},
+      {"fr": "Il loue un **snowboard** pour la journée.", "en": "He rents a snowboard for the day."},
+      {"fr": "Le **snowboard** est plus difficile que le ski ?", "en": "Is snowboarding harder than skiing?"}]},
+    {"id": "hors-piste", "fr": "hors-piste", "pos": "noun", "g": "m", "hAsp": true, "ipa": "ɔʁ.pist", "en": "off-piste (skiing)", "def": "Le fait de skier dans la neige sauvage, loin des chemins préparés.", "def_en": "Skiing in wild snow, away from the prepared paths.", "note": "The h is aspirated: *le hors-piste*.", "examples": [
+      {"fr": "Risque d'avalanche : **hors-piste** interdit !", "en": "Risk of avalanches: off-piste forbidden!"},
+      {"fr": "Le **hors-piste** est dangereux.", "en": "Off-piste skiing is dangerous."},
+      {"fr": "Mathis rêve de **hors-piste**.", "en": "Mathis dreams of skiing off-piste."}]},
+    {"id": "combinaison", "fr": "combinaison", "pos": "noun", "g": "f", "ipa": "kɔ̃.bi.nɛ.zɔ̃", "en": "ski suit, overalls; combination", "def": "Un vêtement d'une seule pièce, pour le ski ou le travail ; un mélange, un code.", "def_en": "A one-piece garment for skiing or working; a mixture, a code.", "forms": ["combinaisons"], "examples": [
+      {"fr": "La **combinaison** de Hugo est rose.", "en": "Hugo's ski suit is pink."},
+      {"fr": "Le garagiste porte une **combinaison** bleue.", "en": "The mechanic wears blue overalls."},
+      {"fr": "Le code de la porte ? Une **combinaison** de quatre chiffres.", "en": "The door code? A combination of four digits."}]},
+    {"id": "moufle", "fr": "moufle", "pos": "noun", "g": "f", "ipa": "mufl", "en": "mitten", "def": "Un gant où les doigts restent ensemble, sauf le pouce.", "def_en": "A glove where the fingers stay together, except the thumb.", "forms": ["moufles"], "examples": [
+      {"fr": "Ses **moufles** sont jaunes.", "en": "Her mittens are yellow."},
+      {"fr": "Les **moufles** sèchent près du feu.", "en": "The mittens are drying by the fire."},
+      {"fr": "Avec des **moufles**, impossible d'écrire un message !", "en": "In mittens, you can't type a message!"}]},
+    {"id": "gant", "fr": "gant", "pos": "noun", "g": "m", "ipa": "ɡɑ̃", "en": "glove", "def": "Ce qu'on porte sur la main, avec une place pour chaque doigt.", "def_en": "What you wear on your hand, with a place for each finger.", "forms": ["gants"], "examples": [
+      {"fr": "Les **gants** sèchent près du feu.", "en": "The gloves are drying by the fire."},
+      {"fr": "J'ai perdu un **gant** sur le télésiège.", "en": "I lost a glove on the chairlift."},
+      {"fr": "La boîte à **gants** de la voiture est pleine.", "en": "The car's glove box is full."}]},
+    {"id": "baton", "fr": "bâton", "pos": "noun", "g": "m", "ipa": "bɑ.tɔ̃", "en": "stick; (ski) pole", "def": "Un long morceau de bois ou de métal qu'on [tient|tenir] à la main.", "def_en": "A long piece of wood or metal that you hold in your hand.", "forms": ["bâtons"], "examples": [
+      {"fr": "Ils louent des skis et des **bâtons**.", "en": "They rent skis and poles."},
+      {"fr": "Max rapporte un **bâton** à Pierre.", "en": "Max brings a stick back to Pierre."},
+      {"fr": "Tom tient ses **bâtons** à l'envers.", "en": "Tom holds his poles upside down."}]},
+    {"id": "raquette", "fr": "raquette", "pos": "noun", "g": "f", "ipa": "ʁa.kɛt", "en": "racket; snowshoe", "def": "L'objet pour frapper la balle au tennis ; une large chaussure pour marcher sur la neige.", "def_en": "The thing for hitting the ball in tennis; a wide shoe for walking on snow.", "forms": ["raquettes"], "examples": [
+      {"fr": "Pierre se promène en **raquettes**.", "en": "Pierre goes for a walk in snowshoes."},
+      {"fr": "Hugo a cassé sa **raquette** de tennis.", "en": "Hugo has broken his tennis racket."},
+      {"fr": "La **raquette**, c'est le ski des sages.", "en": "Snowshoeing is skiing for the wise."}]},
+    {"id": "apres-ski", "fr": "après-ski", "pos": "noun", "g": "m", "ipa": "a.pʁɛ.ski", "en": "snow boot; après-ski (fun after skiing)", "def": "Une grosse botte chaude, pour marcher dans la neige ; la fête et le repos à la fin d'une journée sur les pistes.", "def_en": "A big warm boot for walking in the snow; the fun and rest at the end of a day on the slopes.", "forms": ["après-skis"], "examples": [
+      {"fr": "Les amis rentrent en **après-ski**.", "en": "The friends go home in their snow boots."},
+      {"fr": "Mes **après-skis** sont mouillés.", "en": "My snow boots are wet."},
+      {"fr": "L'**après-ski**, c'est le chocolat chaud.", "en": "Après-ski means hot chocolate."}]},
+    {"id": "poudreuse", "fr": "poudreuse", "pos": "noun", "g": "f", "ipa": "pu.dʁøz", "en": "powder (snow)", "def": "La neige fraîche, légère et sèche, qui vient de tomber.", "def_en": "Fresh, light, dry snow that has just fallen.", "examples": [
+      {"fr": "Sophie glisse dans la **poudreuse**.", "en": "Sophie glides through the powder."},
+      {"fr": "La **poudreuse** est parfaite ce matin.", "en": "The powder is perfect this morning."},
+      {"fr": "On s'enfonce jusqu'aux genoux dans la **poudreuse**.", "en": "You sink up to your knees in the powder."}]},
+    {"id": "dameuse", "fr": "dameuse", "pos": "noun", "g": "f", "ipa": "da.møz", "en": "snow groomer, piste basher", "def": "La grosse machine qui prépare les pistes, la nuit.", "def_en": "The big machine that prepares the runs at night.", "forms": ["dameuses"], "examples": [
+      {"fr": "Le soir, les **dameuses** montent sur les pistes.", "en": "In the evening, the snow groomers go up the runs."},
+      {"fr": "Il ronfle comme une **dameuse**.", "en": "He snores like a snow groomer."},
+      {"fr": "La **dameuse** travaille toute la nuit.", "en": "The snow groomer works all night."}]},
+    {"id": "canon-a-neige", "fr": "canon à neige", "pos": "noun", "g": "m", "ipa": "ka.nɔ̃ a nɛʒ", "en": "snow cannon, snow machine", "def": "Une machine qui fabrique des flocons quand il n'en tombe pas assez du ciel.", "def_en": "A machine that makes snowflakes when not enough fall from the sky.", "forms": ["canons à neige"], "examples": [
+      {"fr": "Hugo passe sous un **canon à neige**.", "en": "Hugo goes under a snow cannon."},
+      {"fr": "Sans **canons à neige**, la station ne pourrait pas ouvrir.", "en": "Without snow machines, the resort couldn't open."},
+      {"fr": "Pour la pub, un **canon à neige** fait tomber de faux flocons.", "en": "For the advert, a snow machine makes fake snowflakes fall."}]},
+    {"id": "avalanche", "fr": "avalanche", "pos": "noun", "g": "f", "ipa": "a.va.lɑ̃ʃ", "en": "avalanche; flood (of)", "def": "Une grande masse de neige qui descend la montagne très vite ; une très grande quantité.", "def_en": "A huge mass of snow rushing down the mountain; a very large quantity.", "forms": ["avalanches"], "examples": [
+      {"fr": "Risque d'**avalanche** : n'allez pas dans la forêt !", "en": "Avalanche risk: don't go into the forest!"},
+      {"fr": "Une **avalanche** a fermé la route.", "en": "An avalanche has closed the road."},
+      {"fr": "Après le spot, une **avalanche** de messages.", "en": "After the advert, a flood of messages."}]},
+    {"id": "marmotte", "fr": "marmotte", "pos": "noun", "g": "f", "ipa": "maʁ.mɔt", "en": "marmot", "def": "Un petit animal des montagnes, qui dort tout l'hiver.", "def_en": "A small mountain animal that sleeps all winter.", "note": "*Dormir comme une marmotte* = to sleep like a log.", "forms": ["marmottes"], "examples": [
+      {"fr": "Hugo dort comme une **marmotte**.", "en": "Hugo sleeps like a log."},
+      {"fr": "En été, on entend siffler les **marmottes**.", "en": "In summer, you can hear the marmots whistling."},
+      {"fr": "Les **marmottes** dorment jusqu'au printemps.", "en": "Marmots sleep until spring."}]},
+    {"id": "chamois", "fr": "chamois", "pos": "noun", "g": "m", "ipa": "ʃa.mwa", "en": "chamois (mountain goat); (peau de chamois) chamois leather", "def": "Une sorte de petite chèvre sauvage, très rapide, qui vit dans les montagnes.", "def_en": "A kind of small, very fast wild goat that lives in the mountains.", "examples": [
+      {"fr": "Un **chamois** traverse la piste devant Tom.", "en": "A chamois crosses the run in front of Tom."},
+      {"fr": "Le **chamois** saute de rocher en rocher.", "en": "The chamois leaps from rock to rock."},
+      {"fr": "Pierre a vu des **chamois** près du col.", "en": "Pierre has seen chamois near the pass."}]}
+  ],
+  "story": {
+    "title": "Tout schuss",
+    "en": "Friday 31 December: a day's skiing at La Clusaz.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi trente et un décembre, toute la bande part skier à La Clusaz, à trente minutes de la ferme.", "en": "On Friday 31 December, the whole gang goes skiing at La Clusaz, thirty minutes from the farm."},
+      {"sp": "", "fr": "À la station, ils achètent leurs forfaits et louent des skis, des bâtons et des combinaisons. Avec le forfait, on peut prendre toutes les remontées mécaniques.", "en": "At the resort, they buy their lift passes and rent skis, poles and ski suits. With the pass, you can take all the ski lifts."},
+      {"sp": "", "fr": "La combinaison de Hugo est rose : c'est celle de Manon. Ses moufles sont jaunes.", "en": "Hugo's ski suit is pink: it's Manon's. His mittens are yellow."},
+      {"sp": "Hugo", "fr": "Ne riez pas. Je skie très bien. J'ai déjà fait du ski… une fois, avec l'école.", "en": "Don't laugh. I ski very well. I've been skiing before… once, with school."},
+      {"sp": "", "fr": "Tom et Camille n'ont jamais skié. Ils prennent un cours avec un moniteur, sur la piste verte.", "en": "Tom and Camille have never skied. They take a lesson with an instructor, on the green run."},
+      {"sp": "Le moniteur", "fr": "Les skis en chasse-neige ! Comme une part de pizza !", "en": "Skis in a snowplough! Like a slice of pizza!"},
+      {"sp": "", "fr": "Carla, elle, a appris à skier en Espagne. Elle descend la piste noire comme une championne.", "en": "Carla learnt to ski in Spain. She goes down the black run like a champion."},
+      {"sp": "", "fr": "Sophie préfère le snowboard. Elle glisse dans la poudreuse en riant.", "en": "Sophie prefers snowboarding. She glides through the powder, laughing."},
+      {"sp": "", "fr": "Au téléski, Hugo tombe. Puis il tombe encore. Trois fois.", "en": "On the drag lift, Hugo falls off. Then he falls off again. Three times."},
+      {"sp": "Léa", "fr": "Prends le télésiège, Hugo. On s'assoit, c'est plus simple.", "en": "Take the chairlift, Hugo. You sit down, it's easier."},
+      {"sp": "", "fr": "Plus haut, le téléphérique monte jusqu'au sommet. La vue sur le mont Blanc est magnifique.", "en": "Higher up, the cable car goes right to the top. The view of Mont Blanc is magnificent."},
+      {"sp": "", "fr": "Un panneau prévient : « Risque d'avalanche : hors-piste interdit ! »", "en": "A sign warns: 'Avalanche risk: no off-piste skiing!'"},
+      {"sp": "Mathis", "fr": "Dommage. La poudreuse est parfaite dans la forêt.", "en": "Shame. The powder is perfect in the forest."},
+      {"sp": "", "fr": "Sur la piste bleue, un chamois traverse devant Tom. Tom s'arrête… et tombe.", "en": "On the blue run, a chamois crosses in front of Tom. Tom stops… and falls."},
+      {"sp": "", "fr": "À midi, ils mangent une tartiflette en haut des pistes. Les gants et les moufles sèchent près du feu.", "en": "At noon, they eat tartiflette at the top of the runs. The gloves and mittens dry by the fire."},
+      {"sp": "", "fr": "L'après-midi, Hugo veut prouver qu'il est un champion. Il dévale la piste rouge tout schuss.", "en": "In the afternoon, Hugo wants to prove he's a champion. He hurtles straight down the red run."},
+      {"sp": "", "fr": "En bas, il ne sait pas s'arrêter. Il passe sous un canon à neige et finit dans un tas de neige… à côté d'une poubelle.", "en": "At the bottom, he can't stop. He goes under a snow cannon and ends up in a pile of snow… next to a bin."},
+      {"sp": "Hugo", "fr": "Vous avez vu ? Pas dedans. À côté !", "en": "Did you see? Not in it. Next to it!"},
+      {"sp": "", "fr": "Tom et Camille réussissent leur première descente sans tomber. Le moniteur les félicite.", "en": "Tom and Camille manage their first run without falling. The instructor congratulates them."},
+      {"sp": "", "fr": "Pierre, qui ne skie pas, se promène en raquettes autour de la station.", "en": "Pierre, who doesn't ski, goes for a walk in snowshoes around the resort."},
+      {"sp": "Pierre", "fr": "La raquette, c'est le slalom des sages.", "en": "Snowshoeing is the wise man's slalom."},
+      {"sp": "", "fr": "Le soir, les dameuses montent sur les pistes. Les amis rentrent à la ferme en après-ski, fatigués et heureux.", "en": "In the evening, the snow groomers go up the runs. The friends head back to the farm in their snow boots, tired and happy."},
+      {"sp": "", "fr": "Carla conduit. À côté d'elle, Hugo dort comme une marmotte.", "en": "Carla drives. Beside her, Hugo sleeps like a log."},
+      {"sp": "Carla", "fr": "Il ronfle comme une dameuse. Et ce soir, c'est le réveillon !", "en": "He snores like a snow groomer. And tonight it's New Year's Eve!"}
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "u50-participe",
+  "type": "grammar",
+  "unit": 50,
+  "title": "Le réveillon terminé",
+  "en": "Participle clauses (le dîner terminé, une fois arrivés, étant…)",
+  "intro": "A participle can stand for a whole clause, especially in writing. A **noun + past participle** says what is finished before the main action: ***Le réveillon terminé**, tout le monde dort* (= once New Year's Eve was over). The **participle alone** describes the subject of the main verb and agrees with it: ***Arrivée** en bas, Carla s'arrête.* **Une fois** + participle means *once*: ***Une fois arrivés**, envoyez-nous un message.* **Étant** and **ayant** + participle give a reason: ***La route étant bloquée**, ils restent.* Without a noun of its own, the participle must describe the subject of the main verb: *Une fois réveillé, **j'ai trouvé** le café froid*, never *Une fois réveillé, le café était froid*.",
+  "cases": [
+    {"id": "pc-nom", "label": "le dîner terminé: noun + participle", "rule": "A noun + past participle, at the start of the sentence, says what is finished before the main action: *Le déjeuner terminé, Jules sort les luges. La route dégagée, les amis repartent.* The participle agrees with its noun: *la route dégagée, les assiettes lavées*."},
+    {"id": "pc-accord", "label": "arrivé en bas: the participle alone", "rule": "Without a noun, the participle describes the subject of the main verb and agrees with it: *Arrivé en bas, Tom tombe. Arrivée en bas, Carla s'arrête. Arrivées à Lyon, Léa et Sophie envoient une photo.*"},
+    {"id": "pc-unefois", "label": "une fois + participle: once…", "rule": "*Une fois* + participle means *once*: the first action is finished before the second. *Une fois arrivés, envoyez-nous un message. Une fois les valises faites, on part.*"},
+    {"id": "pc-etant", "label": "étant, ayant: giving a reason", "rule": "*Étant* + adjective or participle and *ayant* + participle give a reason: *La route étant bloquée, vous restez. Ayant trop mangé, Hugo dort.* They belong to written French; in speech, say *comme la route est bloquée…*"},
+    {"id": "pc-sujet", "label": "the same subject", "rule": "A participle without its own noun describes the subject of the main verb. *Une fois réveillé, le café était froid* says that the coffee woke up: write *Une fois réveillé, j'ai trouvé le café froid.*"}
+  ],
+  "sections": [
+    {"title": "1. le dîner terminé: noun + participle", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le dîner terminé, on danse.", "Once dinner is over, we dance."],
+      ["La fête finie, on range la grange.", "Once the party is over, we tidy the barn."],
+      ["Les valises faites, ils partent.", "With the cases packed, they leave."]]},
+     "examples": [
+      {"fr": "{Le réveillon terminé|pc-nom}, tout le monde dort jusqu'à midi.", "en": "With New Year's Eve over, everyone sleeps until noon."},
+      {"fr": "{La route dégagée|pc-nom}, les amis peuvent repartir.", "en": "With the road cleared, the friends can leave."}],
+     "tip": "The participle agrees with its noun: le dîner terminé, la fête finie, les valises faites."},
+    {"title": "2. arrivé en bas: the participle alone", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Arrivé en bas, Tom tombe.", "When he gets to the bottom, Tom falls."],
+      ["[Arrivée|arriver] en bas, Carla s'arrête.", "When she gets to the bottom, Carla stops."],
+      ["Réveillés à midi, ils déjeunent.", "Up at noon, they have lunch."]]},
+     "examples": [
+      {"fr": "Tom descend le pré à toute vitesse. {Arrivé en bas|pc-accord}, il tombe dans la neige.", "en": "Tom hurtles down the meadow. When he gets to the bottom, he falls into the snow."},
+      {"fr": "{[Arrivée|arriver] en bas|pc-accord}, moi, je m'arrête.", "en": "When I get to the bottom, I stop."}],
+     "tip": "The participle agrees with the subject of the main verb: arrivé, arrivée, arrivés."},
+    {"title": "3. une fois + participle: once…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Une fois arrivés, envoyez un message.", "Once you've arrived, send a message."],
+      ["Une fois les valises faites, on part.", "Once the cases are packed, we leave."],
+      ["Une fois encadré, le tableau ira au salon.", "Once it's framed, the painting will go in the living room."]]},
+     "examples": [
+      {"fr": "{Une fois arrivés|pc-unefois}, envoyez-nous un message !", "en": "Once you've arrived, send us a message!"},
+      {"fr": "{Une fois les valises faites|pc-unefois}, Hugo ne trouve plus son bonnet.", "en": "Once the cases are packed, Hugo can't find his hat."}],
+     "tip": "Une fois = once: the first action is finished."},
+    {"title": "4. étant, ayant: giving a reason", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["La route étant bloquée, ils restent.", "As the road is blocked, they stay."],
+      ["Ayant trop mangé, il dort.", "Having eaten too much, he's sleeping."],
+      ["Étant [arrivée|arriver] la première, Léa prépare le café.", "Having arrived first, Léa makes the coffee."]]},
+     "examples": [
+      {"fr": "{La route étant bloquée|pc-etant}, vous restez un jour de plus.", "en": "As the road is blocked, you're staying one more day."},
+      {"fr": "Parfait. {Ayant trop mangé hier|pc-etant}, je vais… reprendre de la tartiflette.", "en": "Perfect. Having eaten too much yesterday, I'm going to… have some more tartiflette."}],
+     "tip": "Written French. In speech: comme la route est bloquée, parce que j'ai trop mangé."},
+    {"title": "5. the same subject", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Une fois réveillé, j'ai trouvé le café froid.", "Once I was up, I found the coffee cold."],
+      ["Quand je me suis réveillé, le café était froid.", "When I woke up, the coffee was cold."],
+      ["Arrivé en bas, Tom tombe.", "When he gets to the bottom, Tom falls."]]},
+     "examples": [
+      {"fr": "Tu veux dire : « {Une fois réveillé, j'ai trouvé le café froid|pc-sujet} ». Sinon, c'est le café qui s'est réveillé !", "en": "You mean: 'Once I was up, I found the coffee cold.' Otherwise it's the coffee that woke up!"}],
+     "tip": "No noun of its own? Then the participle describes the subject of the main verb."}
+  ],
+  "mistakes": [
+    {"wrong": "Une fois réveillé, le café était froid.", "right": "Une fois réveillé, j'ai trouvé le café froid.", "why": "The participle describes the subject: here, it's the coffee that woke up."},
+    {"wrong": "La fête fini, on range la grange.", "right": "La fête finie, on range la grange.", "why": "The participle agrees with its noun: la fête, finie."},
+    {"wrong": "Arrivé en bas, Carla s'arrête.", "right": "Arrivée en bas, Carla s'arrête.", "why": "The participle agrees with the subject: Carla, arrivée."},
+    {"wrong": "Une fois arriver, envoyez un message.", "right": "Une fois arrivés, envoyez un message.", "why": "Une fois takes a past participle, not an infinitive."}
+  ],
+  "story": {
+    "title": "Le réveillon terminé",
+    "en": "Saturday 1 and Sunday 2 January: snowed in at the farm.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "{Le réveillon terminé|pc-nom}, tout le monde dort jusqu'à midi, le samedi premier janvier.", "en": "With New Year's Eve over, everyone sleeps until noon on Saturday 1 January."},
+      {"sp": "", "fr": "{Réveillée la première|pc-accord}, Léa prépare le café. Hugo cherche ses lunettes : elles sont sur sa tête.", "en": "First up, Léa makes the coffee. Hugo is looking for his glasses: they're on his head."},
+      {"sp": "", "fr": "Dehors, la neige est tombée toute la nuit. Le chemin de la ferme a disparu.", "en": "Outside, snow has fallen all night. The farm track has disappeared."},
+      {"sp": "Pierre", "fr": "{La route étant bloquée|pc-etant}, vous restez un jour de plus. Le chasse-neige passera demain matin.", "en": "As the road is blocked, you're staying one more day. The snowplough will come tomorrow morning."},
+      {"sp": "Hugo", "fr": "Parfait. {Ayant trop mangé hier|pc-etant}, je vais… reprendre de la tartiflette.", "en": "Perfect. Having eaten too much yesterday, I'm going to… have some more tartiflette."},
+      {"sp": "", "fr": "{Le déjeuner terminé|pc-nom}, Jules sort les vieilles luges de la grange.", "en": "Once lunch is over, Jules gets the old sledges out of the barn."},
+      {"sp": "", "fr": "Tom descend le pré à toute vitesse. {Arrivé en bas|pc-accord}, il tombe dans la neige, la luge sur la tête.", "en": "Tom hurtles down the meadow. When he gets to the bottom, he falls into the snow, with the sledge on his head."},
+      {"sp": "Carla", "fr": "{[Arrivée|arriver] en bas|pc-accord}, moi, je m'arrête. C'est ça, la technique.", "en": "When I get to the bottom, I stop. That's the technique."},
+      {"sp": "", "fr": "Sophie, elle, peint la ferme sur la toile de Mathis. {Le tableau fini|pc-nom}, tout le monde l'admire.", "en": "Sophie paints the farm on Mathis's canvas. When the painting is finished, everyone admires it."},
+      {"sp": "", "fr": "Sur le tableau, il y a une chèvre sur le toit du tracteur : Biquette, bien sûr.", "en": "In the painting, there's a goat on the roof of the tractor: Biquette, of course."},
+      {"sp": "Manon", "fr": "{Une fois encadré|pc-unefois}, ce tableau ira dans le salon.", "en": "Once it's framed, this painting will go in the living room."},
+      {"sp": "", "fr": "Le soir, {les assiettes lavées|pc-nom}, ils jouent au Monopoly près du feu. Hugo fait faillite, comme toujours.", "en": "In the evening, with the plates washed, they play Monopoly by the fire. Hugo goes bankrupt, as always."},
+      {"sp": "", "fr": "Le dimanche deux janvier, le chasse-neige passe à sept heures. {La route dégagée|pc-nom}, les amis peuvent repartir.", "en": "On Sunday 2 January, the snowplough comes by at seven. With the road cleared, the friends can leave."},
+      {"sp": "", "fr": "Hugo se lève le dernier. Le café est froid.", "en": "Hugo is the last one up. The coffee is cold."},
+      {"sp": "Hugo", "fr": "Une fois réveillé, le café était froid !", "en": "Once awake, the coffee was cold!"},
+      {"sp": "Léa", "fr": "Tu veux dire : « {Une fois réveillé, j'ai trouvé le café froid|pc-sujet} ». Sinon, c'est le café qui s'est réveillé !", "en": "You mean: 'Once I was up, I found the coffee cold.' Otherwise it's the coffee that woke up!"},
+      {"sp": "", "fr": "{Une fois les valises faites|pc-unefois}, Hugo ne trouve plus son bonnet.", "en": "Once the cases are packed, Hugo can't find his hat."},
+      {"sp": "", "fr": "Jules le retrouve derrière la grange… dans la bouche de Biquette.", "en": "Jules finds it behind the barn… in Biquette's mouth."},
+      {"sp": "Jules", "fr": "{Ce mystère résolu|pc-nom}, vous pouvez partir !", "en": "Mystery solved: you can go!"},
+      {"sp": "Hugo", "fr": "{Ayant [mal|mal] dormi|pc-etant} à côté de Max, je laisse le volant à Carla.", "en": "Having slept badly next to Max, I'm letting Carla drive."},
+      {"sp": "", "fr": "Tom, Camille et Mathis repartent en train. Dans la voiture, Hugo s'endort avant le premier virage.", "en": "Tom, Camille and Mathis go back by train. In the car, Hugo falls asleep before the first bend."},
+      {"sp": "Jules", "fr": "{Une fois arrivés|pc-unefois}, envoyez-nous un message !", "en": "Once you've arrived, send us a message!"},
+      {"sp": "", "fr": "{[Arrivées|arriver] à Lyon|pc-accord}, Léa et Sophie envoient une photo à Jules : Hugo dort encore, la bouche ouverte.", "en": "When they get to Lyon, Léa and Sophie send Jules a photo: Hugo is still asleep, with his mouth open."},
+      {"sp": "", "fr": "Réponse de Jules : « Bien reçue. Biquette vous souhaite une bonne année ! »", "en": "Jules's answer: 'Got it. Biquette wishes you a happy New Year!'"}
+    ]
+  },
+  "quiz": [
+    {"case": "pc-nom", "type": "mc", "q": "Le déjeuner ___, Jules sort les luges.", "en": "Once lunch is over, Jules gets the sledges out.", "options": ["terminé", "terminer", "terminant"], "answer": "terminé"},
+    {"case": "pc-nom", "type": "mc", "q": "La route ___, les amis peuvent repartir.", "en": "With the road cleared, the friends can leave.", "options": ["dégagée", "dégagé", "dégager"], "answer": "dégagée"},
+    {"case": "pc-accord", "type": "mc", "q": "___ en bas, Tom tombe dans la neige.", "en": "When he gets to the bottom, Tom falls into the snow.", "options": ["Arrivé", "Arriver", "Arrivée"], "answer": "Arrivé"},
+    {"case": "pc-accord", "type": "mc", "q": "___ en bas, Carla s'arrête.", "en": "When she gets to the bottom, Carla stops.", "options": ["Arrivée", "Arrivé", "Arriver"], "answer": "Arrivée"},
+    {"case": "pc-unefois", "type": "mc", "q": "Une fois ___, envoyez-nous un message !", "en": "Once you've arrived, send us a message!", "options": ["arrivés", "arriver", "arrivant"], "answer": "arrivés"},
+    {"case": "pc-unefois", "type": "mc", "q": "Une fois le tableau ___, il ira dans le salon.", "en": "Once the painting is framed, it will go in the living room.", "options": ["encadré", "encadrer", "encadrant"], "answer": "encadré"},
+    {"case": "pc-etant", "type": "mc", "q": "La route ___ bloquée, ils restent à la ferme.", "en": "As the road is blocked, they stay at the farm.", "options": ["étant", "ayant", "été"], "answer": "étant"},
+    {"case": "pc-etant", "type": "mc", "q": "___ trop mangé hier, Hugo reprend de la tartiflette.", "en": "Having eaten too much yesterday, Hugo has some more tartiflette.", "options": ["Ayant", "Étant", "Avant"], "answer": "Ayant"},
+    {"case": "pc-sujet", "type": "mc", "q": "Une fois réveillé, ___ le café froid.", "en": "Once I was up, I found the coffee cold.", "options": ["j'ai trouvé", "il y avait", "c'était"], "answer": "j'ai trouvé"},
+    {"case": "pc-sujet", "type": "mc", "q": "[Arrivées|arriver] à Lyon, ___ une photo à Jules.", "en": "When they get to Lyon, Léa and Sophie send Jules a photo.", "options": ["Léa et Sophie envoient", "une photo part", "le téléphone envoie"], "answer": "Léa et Sophie envoient"}
+  ]
+}
