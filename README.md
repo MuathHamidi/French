@@ -39,7 +39,7 @@ audio/                      generated MP3s for every word and sentence
 tools/validate.py           checks the content (run it after every change)
 tools/check_app.mjs         checks the app's code against the content (word links, quizzes, audio)
 tools/make_audio.py         generates the audio with Piper
-tools/build/                scripts that help build a unit (see CLAUDE.md)
+tools/build/                scripts that help build a unit (see CLAUDE.md; the story bible is in STORY.md)
 ```
 
 French text can carry three kinds of markup:
