@@ -1,0 +1,117 @@
+{
+  "id": "u45-couleurs",
+  "type": "grammar",
+  "unit": 45,
+  "title": "Des bodys vert pomme",
+  "en": "Colour adjectives",
+  "intro": "Most colours are ordinary adjectives and agree: *une tuque **rouge***, *des gants **blancs***. But a colour named after a thing never changes: *des chaussettes **orange***, *des yeux **marron*** (only *rose* agrees). A colour in two words never changes either: *des bodys **vert pomme***, *des yeux **bleu clair***. And when each thing has several colours, there's no agreement: *des drapeaux **bleu et blanc***.",
+  "cases": [
+    {"id": "cl-accord", "label": "simple colours agree", "rule": "A simple colour is an adjective like any other: it comes after the noun and agrees with it. *Une tuque rouge, des gants blancs, une robe blanche, des yeux verts.*"},
+    {"id": "cl-nom", "label": "colours named after things don't change", "rule": "A colour named after a thing (a fruit, a nut, a plant…) never changes: *des chaussettes orange* (an orange), *des yeux marron* (a chestnut), *des yeux noisette* (a hazelnut), *des pantalons kaki*. The exception is *rose*, which agrees: *des joues roses*."},
+    {"id": "cl-compose", "label": "two-word colours don't change", "rule": "A colour in two words never changes, not even with a feminine noun: *des bodys vert pomme, des yeux bleu clair, des portes rouge vif, une balle rouge vif, des foulards bleu-vert*."},
+    {"id": "cl-plusieurs", "label": "several colours: each thing, or some of each?", "rule": "If each thing has all the colours, they don't agree: *des drapeaux bleu et blanc* (each flag is blue and white). If some things are one colour and some another, they agree: *des ballons rouges et blancs* (red ones and white ones)."},
+    {"id": "cl-expr", "label": "colours in expressions", "rule": "Colours make many expressions: *voir la vie en rose* (to see the bright side), *avoir une peur bleue* (to be terrified), *rire jaune* (to give a forced laugh), *passer une nuit blanche* (not to sleep a wink), and the verb *rougir* (to blush)."}
+  ],
+  "sections": [
+    {"title": "1. Simple colours agree", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["une tuque rouge, des tuques rouges", "a red hat, red hats"],
+      ["un gant blanc, des gants blancs", "a white glove, white gloves"],
+      ["un pull vert, une robe verte", "a green jumper, a green dress"],
+      ["des chaussures noires", "black shoes"]]},
+     "examples": [
+      {"fr": "Elle arrive avec {une tuque rouge|cl-accord} sur la tête.", "en": "She arrives with a red hat on her head."},
+      {"fr": "Et pour Hugo, {des gants blancs|cl-accord}, pour l'hiver.", "en": "And for Hugo, white gloves, for the winter."}],
+     "tip": "Like most adjectives, a colour goes after the noun: une robe blanche, never une blanche robe."},
+    {"title": "2. Colours named after things don't change", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["des chaussettes orange", "orange socks"],
+      ["des yeux marron", "brown eyes"],
+      ["des yeux noisette", "hazel eyes"],
+      ["des pantalons kaki", "khaki trousers"],
+      ["mais : des joues roses", "but: pink cheeks"]]},
+     "examples": [
+      {"fr": "[Orange|orange-fruit], c'est un fruit : {des chaussettes orange|cl-nom}.", "en": "Orange is a fruit: orange socks."},
+      {"fr": "Il a {les yeux noisette|cl-nom}. Et {les joues roses|cl-nom} quand il me parle.", "en": "He has hazel eyes. And pink cheeks when he talks to me."}],
+     "tip": "Orange is the fruit, marron a chestnut, noisette a hazelnut, crème cream: they are nouns, so they don't change. Rose is the exception that agrees."},
+    {"title": "3. Two-word colours don't change", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["des bodys vert pomme", "apple-green bodysuits"],
+      ["des yeux bleu clair", "light blue eyes"],
+      ["des escaliers vert foncé", "dark green staircases"],
+      ["une balle rouge vif", "a bright red ball"],
+      ["des foulards bleu-vert", "blue-green scarves"]]},
+     "examples": [
+      {"fr": "Pour les jumeaux, il y a {deux bodys vert pomme|cl-compose}.", "en": "For the twins, there are two apple-green bodysuits."},
+      {"fr": "{Des escaliers vert foncé|cl-compose} devant les maisons, {des portes rouge vif|cl-compose}…", "en": "Dark green staircases in front of the houses, bright red doors…"}],
+     "tip": "Clair (light), foncé (dark) and vif (bright) make two-word colours: une chemise bleu clair, des robes rouge vif."},
+    {"title": "4. Several colours", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["des drapeaux bleu et blanc", "blue-and-white flags (each one is both)"],
+      ["des ballons rouges et blancs", "red balloons and white balloons"],
+      ["un chat noir et blanc", "a black and white cat"],
+      ["des chats noir et blanc", "black-and-white cats"]]},
+     "examples": [
+      {"fr": "Et partout, {des drapeaux bleu et blanc|cl-plusieurs}.", "en": "And everywhere, blue and white flags."},
+      {"fr": "Il y avait {des ballons rouges et blancs|cl-plusieurs} dans toute la ville.", "en": "There were red balloons and white balloons all over the city."}],
+     "tip": "Ask yourself: does each thing have all the colours? If it does, no agreement."},
+    {"title": "5. Colours in expressions", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["voir la vie en rose", "to see the bright side of life"],
+      ["avoir une peur bleue", "to be terrified"],
+      ["rire jaune", "to give a forced laugh"],
+      ["passer une nuit blanche", "not to sleep a wink"],
+      ["rougir", "to blush"]]},
+     "examples": [
+      {"fr": "Elle {voit la vie en rose|cl-expr}, depuis Montréal !", "en": "She's been seeing the bright side of everything since Montréal!"},
+      {"fr": "{J'ai passé une nuit blanche|cl-expr} : un bébé a pleuré pendant sept heures.", "en": "I didn't sleep a wink: a baby cried for seven hours."}],
+     "tip": "La Vie en rose is Édith Piaf's most famous song: Tom knows it by heart. And Hugo, of course, a une peur bleue des abeilles."}
+  ],
+  "mistakes": [
+    {"wrong": "des chaussettes oranges", "right": "des chaussettes orange", "why": "Orange is named after the fruit: it doesn't change."},
+    {"wrong": "des yeux marrons", "right": "des yeux marron", "why": "Marron (a chestnut) doesn't change."},
+    {"wrong": "des bodys verts pommes", "right": "des bodys vert pomme", "why": "A two-word colour never changes."},
+    {"wrong": "une robe bleue claire", "right": "une robe bleu clair", "why": "A two-word colour doesn't agree, even with a feminine noun."},
+    {"wrong": "des joues rose", "right": "des joues roses", "why": "Rose is the exception: it agrees."}
+  ],
+  "story": {
+    "title": "Des bodys vert pomme",
+    "en": "Saturday 31 July: Sophie comes back from Montréal with a suitcase full of presents.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi trente et un juillet, Sophie rentre de Montréal après un mois d'atelier. Léa et Hugo l'attendent à l'aéroport.", "en": "On Saturday 31 July, Sophie comes back from Montréal after a month-long workshop. Léa and Hugo wait for her at the airport."},
+      {"sp": "", "fr": "Elle arrive avec une valise énorme et {une tuque rouge|cl-accord} sur la tête… par trente degrés.", "en": "She arrives with an enormous suitcase and a red woolly hat on her head… in thirty-degree heat."},
+      {"sp": "Hugo", "fr": "Sophie, il fait trente degrés !", "en": "Sophie, it's thirty degrees!"},
+      {"sp": "Sophie", "fr": "Je sais. Mais il n'y avait plus de place dans la valise.", "en": "I know. But there was no room left in the suitcase."},
+      {"sp": "", "fr": "À l'appartement, Minou se couche sur ses pieds. Sophie ouvre la valise : elle est pleine de cadeaux.", "en": "At the flat, Minou lies down on her feet. Sophie opens the suitcase: it's full of presents."},
+      {"sp": "Sophie", "fr": "Pour Léa et sa mère, {deux foulards bleu-vert|cl-compose}, comme le fleuve Saint-Laurent. Et pour Hugo, {des gants blancs|cl-accord}, pour l'hiver.", "en": "For Léa and her mother, two blue-green scarves, like the St Lawrence river. And for Hugo, white gloves, for the winter."},
+      {"sp": "Hugo", "fr": "Et la tuque ?", "en": "And the hat?"},
+      {"sp": "Sophie", "fr": "La tuque, c'est pour moi. Pour les jumeaux, il y a {deux bodys vert pomme|cl-compose}, {des chaussettes orange|cl-nom} et {des chaussons marron|cl-nom}.", "en": "The hat's for me. For the twins, there are two apple-green bodysuits, orange socks and brown slippers."},
+      {"sp": "", "fr": "Hugo écrit les étiquettes des cadeaux pour la fête de demain. Léa, future prof de français, relit tout.", "en": "Hugo writes the tags for the presents for tomorrow's party. Léa, a future French teacher, checks everything."},
+      {"sp": "Léa", "fr": "« Des chaussettes oranges », avec un s ? Non, Hugo. [Orange|orange-fruit], c'est un fruit : {des chaussettes orange|cl-nom}, comme {des yeux marron|cl-nom}.", "en": "'Oranges' with an s? No, Hugo. Orange is a fruit: orange socks, like brown eyes."},
+      {"sp": "Hugo", "fr": "Et « des bodys verts pommes » ?", "en": "And 'des bodys verts pommes'?"},
+      {"sp": "Léa", "fr": "Non plus. Une couleur en deux mots ne change jamais : {des bodys vert pomme|cl-compose}, {des yeux bleu clair|cl-compose}.", "en": "Not that either. A two-word colour never changes: apple-green bodysuits, light blue eyes."},
+      {"sp": "Hugo", "fr": "Le français est un piège. Et Mathis, Sophie ? Il a les yeux de quelle couleur ?", "en": "French is a trap. And Mathis, Sophie? What colour are his eyes?"},
+      {"sp": "", "fr": "Sophie rougit.", "en": "Sophie blushes."},
+      {"sp": "Sophie", "fr": "Il a {les yeux noisette|cl-nom}. Et {les joues roses|cl-nom} quand il me parle.", "en": "He has hazel eyes. And pink cheeks when he talks to me."},
+      {"sp": "Léa", "fr": "Elle {voit la vie en rose|cl-expr}, depuis Montréal !", "en": "She's been seeing the bright side of everything since Montréal!"},
+      {"sp": "", "fr": "Sophie montre ses photos : {des escaliers vert foncé|cl-compose} devant les maisons, {des portes rouge vif|cl-compose}, et partout, {des drapeaux bleu et blanc|cl-plusieurs}.", "en": "Sophie shows her photos: dark green staircases in front of the houses, bright red doors, and everywhere, blue and white flags."},
+      {"sp": "Sophie", "fr": "Ce sont les drapeaux du Québec. Et le soir de mon arrivée, pour la fête du Canada, il y avait {des ballons rouges et blancs|cl-plusieurs} dans toute la ville.", "en": "Those are Quebec flags. And on the evening I arrived, for Canada Day, there were red balloons and white balloons all over the city."},
+      {"sp": "Léa", "fr": "Et pour Minou ?", "en": "And for Minou?"},
+      {"sp": "Sophie", "fr": "{Une balle rouge vif|cl-compose}.", "en": "A bright red ball."},
+      {"sp": "", "fr": "Minou regarde la balle, puis il se couche dans la valise [vide|vide], sur la tuque.", "en": "Minou looks at the ball, then lies down in the empty suitcase, on the hat."},
+      {"sp": "Léa", "fr": "Et toi, tu as dormi dans l'avion ?", "en": "And did you sleep on the plane?"},
+      {"sp": "Sophie", "fr": "Non. {J'ai passé une nuit blanche|cl-expr} : un bébé a pleuré pendant sept heures.", "en": "No. I didn't sleep a wink: a baby cried for seven hours."},
+      {"sp": "Hugo", "fr": "Un bébé ? Demain, il y en a deux. Bienvenue !", "en": "One baby? Tomorrow there are two. Welcome home!"},
+      {"sp": "", "fr": "Sophie {rit jaune|cl-expr}… puis elle s'endort sur le canapé, avec Minou et sa tuque.", "en": "Sophie gives a forced laugh… then falls asleep on the sofa, with Minou and her hat."}
+    ]
+  },
+  "quiz": [
+    {"case": "cl-accord", "type": "mc", "q": "Pour Hugo, des gants ___.", "en": "For Hugo, white gloves.", "options": ["blancs", "blanc", "blanches"], "answer": "blancs"},
+    {"case": "cl-accord", "type": "mc", "q": "Pour la fête, Inès porte une robe ___.", "en": "For the party, Inès is wearing a white dress.", "options": ["blanche", "blanc", "blanches"], "answer": "blanche"},
+    {"case": "cl-nom", "type": "mc", "q": "Pour les jumeaux, des chaussettes ___.", "en": "For the twins, orange socks.", "options": ["orange", "oranges", "d'orange"], "answer": "orange"},
+    {"case": "cl-nom", "type": "mc", "q": "Mathis a les yeux ___.", "en": "Mathis has hazel eyes.", "options": ["noisette", "noisettes", "de noisette"], "answer": "noisette"},
+    {"case": "cl-nom", "type": "mc", "q": "Il a les joues ___ quand il me parle.", "en": "He has pink cheeks when he talks to me.", "options": ["roses", "rose", "en rose"], "answer": "roses"},
+    {"case": "cl-compose", "type": "mc", "q": "Deux bodys ___.", "en": "Two apple-green bodysuits.", "options": ["vert pomme", "verts pomme", "verts pommes"], "answer": "vert pomme"},
+    {"case": "cl-compose", "type": "mc", "q": "Elle porte une robe ___.", "en": "She's wearing a light blue dress.", "options": ["bleu clair", "bleue claire", "bleue clair"], "answer": "bleu clair"},
+    {"case": "cl-plusieurs", "type": "mc", "q": "Partout, des drapeaux ___ : le drapeau du Québec.", "en": "Everywhere, blue and white flags: the flag of Quebec.", "options": ["bleu et blanc", "bleus et blancs", "bleu et blancs"], "answer": "bleu et blanc"},
+    {"case": "cl-plusieurs", "type": "mc", "q": "Pour la fête du Canada, des ballons ___ partout.", "en": "For Canada Day, red balloons and white balloons everywhere.", "options": ["rouges et blancs", "rouge et blanc", "rouge et blancs"], "answer": "rouges et blancs"},
+    {"case": "cl-expr", "type": "mc", "q": "Sophie ___ une nuit blanche dans l'avion.", "en": "Sophie didn't sleep a wink on the plane.", "options": ["a passé", "a fait", "a vu"], "answer": "a passé"},
+    {"case": "cl-expr", "type": "mc", "lang": "en", "q": "« Avoir une peur bleue » means…", "options": ["to be terrified", "to feel sad", "to be very cold"], "answer": "to be terrified", "say": "avoir une peur bleue"}
+  ]
+}

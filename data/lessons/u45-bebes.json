@@ -1,0 +1,147 @@
+{
+  "id": "u45-bebes",
+  "type": "vocab",
+  "unit": 45,
+  "title": "Les premiers pas",
+  "en": "Babies",
+  "intro": "25 words for babies: what they need (**le berceau, la poussette, le biberon, la tétine, le bavoir, le body, le hochet, le doudou, la chaise haute, la purée, la table à langer**), how we look after them (**bercer, la berceuse, la comptine, le pédiatre, la crèche, la nounou**), and what they do (**ramper, à quatre pattes, les premiers pas, trébucher, faire ses dents, faire ses nuits, baver, le caprice**).",
+  "words": [
+    {"id": "berceau", "fr": "berceau", "pos": "noun", "g": "m", "ipa": "bɛʁ.so", "en": "cradle", "def": "Un petit lit de bébé, qu'on peut faire bouger doucement.", "def_en": "A small baby's bed that can be gently rocked.", "note": "*Le berceau de la civilisation* = the cradle of civilisation.", "forms": ["berceaux"], "examples": [
+      {"fr": "Pierre a fabriqué deux **berceaux** pour les jumeaux.", "en": "Pierre made two cradles for the twins."},
+      {"fr": "Le bébé dort dans son **berceau**.", "en": "The baby is sleeping in its cradle."},
+      {"fr": "Ce **berceau** était déjà celui de ma grand-mère.", "en": "This cradle was already my grandmother's."}]},
+    {"id": "poussette", "fr": "poussette", "pos": "noun", "g": "f", "ipa": "pu.sɛt", "en": "pushchair, buggy", "def": "Une petite voiture à quatre roues qu'on pousse pour promener un bébé.", "def_en": "A small four-wheeled carriage you push to take a baby out.", "note": "*Une poussette double* = a double pushchair, for twins.", "forms": ["poussettes"], "examples": [
+      {"fr": "La **poussette** double ne passe pas dans l'ascenseur.", "en": "The double pushchair doesn't fit in the lift."},
+      {"fr": "Léa pousse la **poussette** dans les pentes de la Croix-Rousse.", "en": "Léa pushes the pushchair up the slopes of the Croix-Rousse."},
+      {"fr": "On plie la **poussette** pour monter dans le tram.", "en": "We fold the pushchair to get on the tram."}]},
+    {"id": "biberon", "fr": "biberon", "pos": "noun", "g": "m", "ipa": "bi.bʁɔ̃", "en": "(baby's) bottle", "def": "Une petite bouteille avec une tétine, pour donner du lait à un bébé.", "def_en": "A small bottle with a teat, for giving a baby milk.", "note": "*Donner le biberon* = to bottle-feed.", "forms": ["biberons"], "examples": [
+      {"fr": "Karim donne le **biberon** à Nina.", "en": "Karim gives Nina her bottle."},
+      {"fr": "Le **biberon** est trop chaud : attends un peu !", "en": "The bottle's too hot: wait a bit!"},
+      {"fr": "À un an, Adam tient son **biberon** tout seul.", "en": "At one, Adam holds his bottle by himself."}]},
+    {"id": "tetine", "fr": "tétine", "pos": "noun", "g": "f", "ipa": "te.tin", "en": "dummy, pacifier; teat", "def": "Un petit objet que le bébé garde dans sa bouche pour se calmer ; le bout d'un biberon.", "def_en": "A small object a baby keeps in its mouth to calm down; the end of a bottle.", "forms": ["tétines"], "examples": [
+      {"fr": "Adam a perdu sa **tétine** sous le canapé.", "en": "Adam has lost his dummy under the sofa."},
+      {"fr": "Sans sa **tétine**, Nina ne dort pas.", "en": "Without her dummy, Nina doesn't sleep."},
+      {"fr": "Il faut laver la **tétine** quand elle tombe par terre.", "en": "You have to wash the dummy when it falls on the floor."}]},
+    {"id": "bavoir", "fr": "bavoir", "pos": "noun", "g": "m", "ipa": "ba.vwaʁ", "en": "bib", "def": "Un petit tissu qu'on attache autour du cou d'un bébé, pour protéger ses vêtements quand il mange.", "def_en": "A small cloth tied round a baby's neck to protect its clothes when it eats.", "forms": ["bavoirs"], "examples": [
+      {"fr": "Mets-lui un **bavoir** avant la purée !", "en": "Put a bib on him before the purée!"},
+      {"fr": "Le **bavoir** d'Adam est orange de carottes.", "en": "Adam's bib is orange with carrots."},
+      {"fr": "Nina jette son **bavoir** par terre.", "en": "Nina throws her bib on the floor."}]},
+    {"id": "body", "fr": "body", "pos": "noun", "g": "m", "ipa": "bɔ.di", "en": "bodysuit, babygro, onesie", "def": "Un petit vêtement de bébé, d'une seule pièce, qui se ferme entre les jambes.", "def_en": "A small one-piece baby garment that fastens between the legs.", "forms": ["bodys"], "examples": [
+      {"fr": "Après la purée, il faut changer de **body**.", "en": "After the purée, he needs a clean bodysuit."},
+      {"fr": "Sophie a rapporté deux **bodys** de Montréal.", "en": "Sophie brought back two bodysuits from Montréal."},
+      {"fr": "Ce **body** est trop petit : Adam grandit vite !", "en": "This bodysuit is too small: Adam is growing fast!"}]},
+    {"id": "hochet", "fr": "hochet", "pos": "noun", "g": "m", "hAsp": true, "ipa": "ɔ.ʃɛ", "en": "rattle", "def": "Un petit jouet qui fait du bruit quand le bébé le secoue.", "def_en": "A small toy that makes a noise when the baby shakes it.", "note": "The h is aspirated: *le hochet*, not *l'hochet*.", "forms": ["hochets"], "examples": [
+      {"fr": "Nina mord son **hochet** : elle fait ses dents.", "en": "Nina is chewing her rattle: she's teething."},
+      {"fr": "Le **hochet** tombe pour la dixième fois.", "en": "The rattle falls for the tenth time."},
+      {"fr": "Le bébé secoue son **hochet** en riant.", "en": "The baby shakes its rattle, laughing."}]},
+    {"id": "doudou", "fr": "doudou", "pos": "noun", "g": "m", "ipa": "du.du", "en": "comforter, cuddly toy (a child's favourite)", "def": "La peluche ou le petit tissu qu'un enfant garde toujours avec lui pour dormir.", "def_en": "The soft toy or little cloth a child always keeps with them to sleep.", "note": "A word from children's language, used by everyone in France.", "forms": ["doudous"], "examples": [
+      {"fr": "Le **doudou** d'Adam, c'est le vieux nounours de Paul.", "en": "Adam's cuddly toy is Paul's old teddy bear."},
+      {"fr": "Sans son **doudou**, Lou ne partait jamais en vacances.", "en": "Lou never went on holiday without her cuddly toy."},
+      {"fr": "On a oublié le **doudou** ! Demi-tour !", "en": "We've forgotten the cuddly toy! Turn round!"}]},
+    {"id": "chaise-haute", "fr": "chaise haute", "pos": "noun", "g": "f", "ipa": "ʃɛz ot", "en": "high chair", "def": "Un siège de bébé, avec des grands pieds et une petite table, pour manger à table avec les adultes.", "def_en": "A baby's seat on long legs, with a small tray, for eating at the table with the adults.", "forms": ["chaises hautes"], "examples": [
+      {"fr": "Les jumeaux mangent dans leurs **chaises hautes**.", "en": "The twins eat in their high chairs."},
+      {"fr": "Assieds Nina dans sa **chaise haute**, s'il te plaît.", "en": "Sit Nina in her high chair, please."},
+      {"fr": "Il y a de la purée partout sous la **chaise haute**.", "en": "There's purée all over the floor under the high chair."}]},
+    {"id": "puree", "fr": "purée", "pos": "noun", "g": "f", "ipa": "py.ʁe", "en": "mash, purée", "def": "Des légumes ou des fruits cuits et écrasés, très doux, pour les bébés ou pour accompagner un plat.", "def_en": "Cooked, mashed vegetables or fruit, very smooth, for babies or as a side dish.", "note": "*La purée de pommes de terre* = mashed potatoes.", "forms": ["purées"], "examples": [
+      {"fr": "Ce soir, c'est **purée** de carottes.", "en": "Tonight it's carrot purée."},
+      {"fr": "Adam envoie sa **purée** sur les lunettes de Hugo.", "en": "Adam sends his purée onto Hugo's glasses."},
+      {"fr": "Ma grand-mère fait la meilleure **purée** du monde.", "en": "My grandmother makes the best mash in the world."}]},
+    {"id": "table-a-langer", "fr": "table à langer", "pos": "noun", "g": "f", "ipa": "tabl a lɑ̃.ʒe", "en": "changing table", "def": "Un meuble sur lequel on change la couche d'un bébé.", "def_en": "A piece of furniture on which you change a baby's nappy.", "note": "*Langer un bébé* = to change a baby.", "forms": ["tables à langer"], "examples": [
+      {"fr": "Hugo pose Adam sur la **table à langer**.", "en": "Hugo puts Adam on the changing table."},
+      {"fr": "Ne laisse jamais un bébé seul sur la **table à langer** !", "en": "Never leave a baby alone on the changing table!"},
+      {"fr": "La **table à langer** est dans la salle de bains.", "en": "The changing table is in the bathroom."}]},
+    {"id": "bercer", "fr": "bercer", "pos": "verb", "ipa": "bɛʁ.se", "en": "to rock (a baby); to lull", "def": "Faire bouger un bébé doucement, dans ses bras, pour qu'il dorme.", "def_en": "To move a baby gently in your arms so that it sleeps.", "note": "*Être bercé par la musique* = to be lulled by the music.", "forms": ["berce", "berces", "berçons", "bercez", "bercent", "bercé", "bercée", "bercés", "bercées", "berçais", "berçait", "bercions", "berciez", "berçaient", "bercerai", "berceras", "bercera", "bercerons", "bercerez", "berceront", "bercerais", "bercerait", "bercerions", "berceriez", "berceraient", "berçant", "berçai", "berças", "berça", "bercâmes", "bercâtes", "bercèrent"], "examples": [
+      {"fr": "Léa **berce** Nina en chantant.", "en": "Léa rocks Nina, singing."},
+      {"fr": "Le bruit du train me **berce** : je dors toujours.", "en": "The sound of the train lulls me: I always fall asleep."},
+      {"fr": "Arrête de **bercer** Adam : il dort déjà !", "en": "Stop rocking Adam: he's already asleep!"}]},
+    {"id": "berceuse", "fr": "berceuse", "pos": "noun", "g": "f", "ipa": "bɛʁ.søz", "en": "lullaby", "def": "Une chanson douce qu'on chante pour qu'un enfant s'endorme.", "def_en": "A soft song you sing so that a child falls asleep.", "forms": ["berceuses"], "examples": [
+      {"fr": "Hugo chante une **berceuse**… faux.", "en": "Hugo sings a lullaby… out of tune."},
+      {"fr": "Ma mère me chantait une **berceuse** en espagnol.", "en": "My mother used to sing me a lullaby in Spanish."},
+      {"fr": "Avec cette **berceuse**, tous les bébés s'endorment.", "en": "With this lullaby, every baby falls asleep."}]},
+    {"id": "comptine", "fr": "comptine", "pos": "noun", "g": "f", "ipa": "kɔ̃.tin", "en": "nursery rhyme", "def": "Une petite chanson ou un petit poème pour les enfants, facile à apprendre.", "def_en": "A little song or poem for children, easy to learn.", "forms": ["comptines"], "examples": [
+      {"fr": "Léa chante une **comptine** avec les gestes.", "en": "Léa sings a nursery rhyme with the actions."},
+      {"fr": "Lou connaît toutes les **comptines** de l'école.", "en": "Lou knows all the nursery rhymes from school."},
+      {"fr": "« Une souris verte » est une **comptine** très connue.", "en": "'Une souris verte' is a very well-known nursery rhyme."}]},
+    {"id": "ramper", "fr": "ramper", "pos": "verb", "ipa": "ʁɑ̃.pe", "en": "to crawl (on your belly)", "def": "Avancer sur le ventre, comme un serpent ou un soldat.", "def_en": "To move forward on your belly, like a snake or a soldier.", "forms": ["rampe", "rampes", "rampons", "rampez", "rampent", "rampé", "rampais", "rampait", "rampions", "rampiez", "rampaient", "ramperai", "ramperas", "rampera", "ramperons", "ramperez", "ramperont", "ramperais", "ramperait", "ramperions", "ramperiez", "ramperaient", "rampant", "rampai", "rampas", "rampa", "rampâmes", "rampâtes", "rampèrent"], "examples": [
+      {"fr": "Adam ne marche pas encore : il **rampe** partout.", "en": "Adam can't walk yet: he crawls everywhere."},
+      {"fr": "Le serpent **rampe** sous les feuilles.", "en": "The snake slides along under the leaves."},
+      {"fr": "Pour passer sous la table, Hugo **rampe** comme un soldat.", "en": "To get under the table, Hugo crawls like a soldier."}]},
+    {"id": "a-quatre-pattes", "fr": "à quatre pattes", "pos": "expr", "ipa": "a katʁ pat", "en": "on all fours", "def": "Sur les mains et les genoux.", "def_en": "On your hands and knees.", "note": "*Marcher à quatre pattes* = to crawl (on hands and knees).", "examples": [
+      {"fr": "Nina se promène **à quatre pattes** dans tout l'appartement.", "en": "Nina goes all over the flat on all fours."},
+      {"fr": "Hugo cherche la tétine **à quatre pattes** sous le lit.", "en": "Hugo looks for the dummy on all fours under the bed."},
+      {"fr": "Le chien et le bébé jouent **à quatre pattes**.", "en": "The dog and the baby play on all fours."}]},
+    {"id": "premiers-pas", "fr": "premiers pas", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "pʁə.mje pɑ", "en": "first steps", "def": "Le jour où un bébé commence à marcher seul ; le début d'une aventure.", "def_en": "The day a baby starts to walk on its own; the beginning of an adventure.", "note": "*Faire ses premiers pas* = to take one's first steps. *Faire le premier pas* = to make the first move.", "forms": ["premier pas"], "examples": [
+      {"fr": "Nina a fait ses **premiers pas** vers un carré de chocolat.", "en": "Nina took her first steps towards a square of chocolate."},
+      {"fr": "Ses **premiers pas** à l'université ? Pas faciles !", "en": "His first steps at university? Not easy!"},
+      {"fr": "Dans un couple, qui fait le **premier pas** ?", "en": "In a couple, who makes the first move?"}]},
+    {"id": "faire-ses-dents", "fr": "faire ses dents", "pos": "expr", "ipa": "fɛʁ se dɑ̃", "en": "to be teething", "def": "Pour un bébé : baver, mordre tout et avoir mal à la bouche, vers six mois.", "def_en": "For a baby: to dribble, bite everything and have a sore mouth, at around six months.", "note": "*Une dent pousse* = a tooth is coming through.", "forms": ["fait ses dents", "font leurs dents", "faisait ses dents", "faisaient leurs dents", "faire leurs dents"], "examples": [
+      {"fr": "Nina mord tout : elle **fait ses dents**.", "en": "Nina bites everything: she's teething."},
+      {"fr": "Les jumeaux **font leurs dents** en même temps : quelle nuit !", "en": "The twins are teething at the same time: what a night!"},
+      {"fr": "Quand Hugo **faisait ses dents**, il pleurait toute la nuit.", "en": "When Hugo was teething, he cried all night."}]},
+    {"id": "faire-ses-nuits", "fr": "faire ses nuits", "pos": "expr", "ipa": "fɛʁ se nɥi", "en": "to sleep through the night", "def": "Pour un bébé : dormir sans se réveiller, du soir jusqu'au matin.", "def_en": "For a baby: to sleep without waking up, from evening until morning.", "forms": ["fait ses nuits", "font leurs nuits", "faisait ses nuits", "faisaient leurs nuits", "faire leurs nuits"], "examples": [
+      {"fr": "Adam **fait ses nuits** depuis un mois.", "en": "Adam has been sleeping through the night for a month."},
+      {"fr": "Quand est-ce que Nina va **faire ses nuits** ?", "en": "When is Nina going to sleep through the night?"},
+      {"fr": "Enfin, les jumeaux **font leurs nuits** : Chloé dort !", "en": "At last the twins sleep through the night: Chloé is sleeping!"}]},
+    {"id": "pediatre", "fr": "pédiatre", "pos": "noun", "g": "m", "both": true, "ipa": "pe.djatʁ", "display": "le / la pédiatre", "en": "paediatrician, children's doctor", "def": "Le médecin des bébés et des enfants.", "def_en": "The doctor for babies and children.", "forms": ["pédiatres"], "accept": ["la pédiatre", "une pédiatre"], "examples": [
+      {"fr": "Le numéro du **pédiatre** est sur le frigo.", "en": "The paediatrician's number is on the fridge."},
+      {"fr": "Anne est médecin, mais pas **pédiatre**.", "en": "Anne is a doctor, but not a paediatrician."},
+      {"fr": "La **pédiatre** dit que les jumeaux grandissent bien.", "en": "The paediatrician says the twins are growing well."}]},
+    {"id": "creche", "fr": "crèche", "pos": "noun", "g": "f", "ipa": "kʁɛʃ", "en": "day nursery, crèche", "def": "Un endroit où on garde les bébés et les petits enfants pendant que les parents travaillent.", "def_en": "A place where babies and small children are looked after while their parents work.", "note": "At Christmas, *la crèche* is also the nativity scene.", "forms": ["crèches"], "examples": [
+      {"fr": "En septembre, les jumeaux vont à la **crèche**.", "en": "In September, the twins are starting at the nursery."},
+      {"fr": "La **crèche** ouvre à sept heures et demie.", "en": "The nursery opens at half past seven."},
+      {"fr": "Il n'y a plus de place à la **crèche** du quartier.", "en": "There are no places left at the local nursery."}]},
+    {"id": "nounou", "fr": "nounou", "pos": "noun", "g": "f", "ipa": "nu.nu", "en": "nanny, childminder (informal)", "def": "Une femme qu'on paie pour garder des enfants, souvent chez elle.", "def_en": "A woman paid to look after children, often at her home.", "note": "Informal; the official word is *une assistante maternelle*.", "forms": ["nounous"], "examples": [
+      {"fr": "Ce soir, la **nounou**, c'est Hugo !", "en": "Tonight, the nanny is Hugo!"},
+      {"fr": "La **nounou** des voisins garde quatre enfants.", "en": "The neighbours' childminder looks after four children."},
+      {"fr": "Crèche ou **nounou** ? Chloé et Karim ont choisi la crèche.", "en": "Nursery or childminder? Chloé and Karim chose the nursery."}]},
+    {"id": "baver", "fr": "baver", "pos": "verb", "ipa": "ba.ve", "en": "to dribble, to drool", "def": "Laisser couler de sa bouche un peu de liquide, comme les bébés.", "def_en": "To let a little liquid run from your mouth, like babies.", "note": "*En baver* (informal) = to have a hard time.", "forms": ["bave", "baves", "bavons", "bavez", "bavent", "bavé", "bavais", "bavait", "bavions", "baviez", "bavaient", "baverai", "baveras", "bavera", "baverons", "baverez", "baveront", "baverais", "baverait", "baverions", "baveriez", "baveraient", "bavant", "bavai", "bavas", "bava", "bavâmes", "bavâtes", "bavèrent"], "examples": [
+      {"fr": "Nina **bave** sur la chemise de Hugo.", "en": "Nina dribbles on Hugo's shirt."},
+      {"fr": "Quand un bébé fait ses dents, il **bave** beaucoup.", "en": "When a baby is teething, it dribbles a lot."},
+      {"fr": "Max **bave** devant le gâteau.", "en": "Max is drooling in front of the cake."}]},
+    {"id": "caprice", "fr": "caprice", "pos": "noun", "g": "m", "ipa": "ka.pʁis", "en": "tantrum; whim", "def": "Une grosse colère d'enfant qui veut quelque chose tout de suite ; une envie soudaine.", "def_en": "A child's big fit of anger at wanting something right away; a sudden whim.", "note": "*Faire un caprice* = to throw a tantrum.", "forms": ["caprices"], "examples": [
+      {"fr": "Adam fait un **caprice** : il veut le téléphone de Hugo.", "en": "Adam is throwing a tantrum: he wants Hugo's phone."},
+      {"fr": "Pas de **caprice** au supermarché, Lou !", "en": "No tantrums in the supermarket, Lou!"},
+      {"fr": "Ce gâteau, c'est un **caprice** : je n'avais pas faim.", "en": "That cake was a whim: I wasn't hungry."}]},
+    {"id": "trebucher", "fr": "trébucher", "pos": "verb", "ipa": "tʁe.by.ʃe", "en": "to stumble, to trip", "def": "Perdre l'équilibre en marchant, parce que le pied touche quelque chose.", "def_en": "To lose your balance while walking, because your foot catches on something.", "forms": ["trébuche", "trébuches", "trébuchons", "trébuchez", "trébuchent", "trébuché", "trébuchais", "trébuchait", "trébuchions", "trébuchiez", "trébuchaient", "trébucherai", "trébucheras", "trébuchera", "trébucherons", "trébucherez", "trébucheront", "trébucherais", "trébucherait", "trébucherions", "trébucheriez", "trébucheraient", "trébuchant", "trébuchai", "trébuchas", "trébucha", "trébuchâmes", "trébuchâtes", "trébuchèrent"], "examples": [
+      {"fr": "Nina **trébuche** sur le doudou et tombe.", "en": "Nina trips over the cuddly toy and falls."},
+      {"fr": "Tom a **trébuché** sur une chaise pendant le spectacle.", "en": "Tom tripped over a chair during the show."},
+      {"fr": "Attention à la marche, ne **trébuche** pas !", "en": "Mind the step, don't trip!"}]}
+  ],
+  "story": {
+    "title": "Les premiers pas",
+    "en": "Wednesday 28 July: Hugo and Léa babysit the twins for the evening.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi vingt-huit juillet, Chloé et Karim sortent pour la première fois depuis la naissance des jumeaux : un restaurant, seuls, tous les deux.", "en": "On Wednesday 28 July, Chloé and Karim go out for the first time since the twins were born: a restaurant, just the two of them."},
+      {"sp": "", "fr": "Ce soir, les nounous, ce sont Hugo et Léa. Hugo a signé un contrat de couches : il connaît le métier.", "en": "Tonight, the nannies are Hugo and Léa. Hugo signed a nappy contract: he knows the job."},
+      {"sp": "Chloé", "fr": "Voici la liste. Le biberon à sept heures, puis la purée de carottes. Le numéro du pédiatre est sur le frigo.", "en": "Here's the list. The bottle at seven, then the carrot purée. The paediatrician's number is on the fridge."},
+      {"sp": "Hugo", "fr": "De la purée de carottes ? Les pauvres…", "en": "Carrot purée? Poor things…"},
+      {"sp": "Karim", "fr": "Attention : Nina fait ses dents, elle mord tout. Et Adam ne dort jamais sans son doudou, le vieux nounours de Paul.", "en": "Careful: Nina's teething, she bites everything. And Adam never sleeps without his cuddly toy, Paul's old teddy bear."},
+      {"sp": "", "fr": "D'abord, Léa et Hugo promènent les jumeaux dans la poussette double, dans les pentes de la Croix-Rousse. Adam montre du doigt tous les chiens.", "en": "First, Léa and Hugo take the twins out in the double pushchair, up and down the slopes of the Croix-Rousse. Adam points at every dog."},
+      {"sp": "", "fr": "À sept heures, les jumeaux sont dans leurs chaises hautes, avec un bavoir. Léa donne le biberon à Nina, et Hugo s'occupe de la purée d'Adam.", "en": "At seven, the twins are in their high chairs, with bibs on. Léa gives Nina her bottle, and Hugo sees to Adam's purée."},
+      {"sp": "", "fr": "Adam goûte, réfléchit… et envoie toute sa purée sur les lunettes de Hugo.", "en": "Adam tastes it, thinks… and sends all his purée onto Hugo's glasses."},
+      {"sp": "Hugo", "fr": "Je te comprends, Adam. Moi non plus, je n'aime pas les carottes cuites.", "en": "I understand, Adam. I don't like cooked carrots either."},
+      {"sp": "", "fr": "Il faut changer le body d'Adam. Hugo [le|le-pron] [pose|poser] sur la table à langer… et Adam lui fait pipi dessus, comme l'année dernière.", "en": "Adam's bodysuit needs changing. Hugo puts him on the changing table… and Adam wees on him, like last year."},
+      {"sp": "Léa", "fr": "Le contrat de couches, Hugo. Tu l'as signé.", "en": "The nappy contract, Hugo. You signed it."},
+      {"sp": "", "fr": "Pendant ce temps, Nina mord son hochet et bave sur tout ce qu'elle trouve, surtout sur la chemise de Hugo.", "en": "Meanwhile, Nina chews her rattle and dribbles on everything she finds, especially Hugo's shirt."},
+      {"sp": "", "fr": "Adam ne marche pas encore : il rampe sous la table, puis il part à quatre pattes vers la cuisine. Il est très rapide.", "en": "Adam can't walk yet: he crawls under the table on his tummy, then sets off on all fours towards the kitchen. He's very fast."},
+      {"sp": "", "fr": "Soudain, Nina pleure : elle a perdu sa tétine. Hugo la cherche partout, à quatre pattes lui aussi, et la trouve sous le canapé.", "en": "Suddenly Nina cries: she's lost her dummy. Hugo looks everywhere for it, on all fours too, and finds it under the sofa."},
+      {"sp": "", "fr": "Puis Adam veut le téléphone de Hugo. Hugo dit non. Adam fait un caprice : il crie, il tape des pieds, il devient tout rouge.", "en": "Then Adam wants Hugo's phone. Hugo says no. Adam throws a tantrum: he screams, stamps his feet and goes bright red."},
+      {"sp": "Léa", "fr": "C'est l'âge. Lou faisait pareil.", "en": "It's the age. Lou used to do the same."},
+      {"sp": "", "fr": "À huit heures et demie, c'est l'heure de dormir. Les jumeaux ne dorment plus dans leurs berceaux : ils sont trop grands. Léa prend Nina dans ses bras et la berce.", "en": "At half past eight, it's bedtime. The twins don't sleep in their cradles any more: they're too big. Léa takes Nina in her arms and rocks her."},
+      {"sp": "Hugo", "fr": "Je vais leur chanter une berceuse. Je chante très bien.", "en": "I'll sing them a lullaby. I sing very well."},
+      {"sp": "", "fr": "Hugo chante… faux. Les jumeaux pleurent encore plus fort.", "en": "Hugo sings… out of tune. The twins cry even louder."},
+      {"sp": "Léa", "fr": "Laisse-moi faire.", "en": "Let me do it."},
+      {"sp": "", "fr": "Léa chante une comptine, « Une souris verte », avec les gestes. Nina rit, et Adam s'endort avec son doudou.", "en": "Léa sings a nursery rhyme, 'Une souris verte', with the actions. Nina laughs, and Adam falls asleep with his cuddly toy."},
+      {"sp": "", "fr": "Mais Nina ne veut pas dormir. Elle se lève en tenant le canapé… et elle le lâche.", "en": "But Nina doesn't want to sleep. She pulls herself up holding on to the sofa… and lets go."},
+      {"sp": "", "fr": "Elle avance vers Hugo, qui tient un carré de chocolat. Elle trébuche, mais elle ne tombe pas, et elle arrive jusqu'à lui.", "en": "She walks towards Hugo, who's holding a square of chocolate. She stumbles, but she doesn't fall, and she makes it all the way to him."},
+      {"sp": "Léa", "fr": "Hugo ! Ce sont ses premiers pas !", "en": "Hugo! Those are her first steps!"},
+      {"sp": "Hugo", "fr": "Pour du chocolat ! Elle et moi, on a bien le même sang.", "en": "For chocolate! She and I really are family."},
+      {"sp": "", "fr": "Hugo filme la deuxième fois. Évidemment, la vidéo est floue.", "en": "Hugo films it the second time. Of course, the video is blurred."},
+      {"sp": "", "fr": "À onze heures, Chloé et Karim rentrent. Adam fait ses nuits depuis un mois : il dort. Nina, elle, les attend… debout.", "en": "At eleven, Chloé and Karim come home. Adam has been sleeping through the night for a month: he's asleep. Nina is waiting up for them… on her feet."},
+      {"sp": "Chloé", "fr": "Elle marche ?! Et nous, on était au restaurant !", "en": "She's walking?! And we were at the restaurant!"},
+      {"sp": "Karim", "fr": "En septembre, ils vont à la crèche. Ils vont tout apprendre là-bas.", "en": "In September, they're starting at the nursery. They'll learn everything there."},
+      {"sp": "Hugo", "fr": "Pas les premiers pas : ça, c'est moi qui les lui ai appris !", "en": "Not the first steps: I taught her those!"}
+    ]
+  }
+}

@@ -170,6 +170,10 @@ FIXES = {
     "punch": "pˈɔ̃ʃ", "punchs": "pˈɔ̃ʃ", "toast": "tˈost", "toasts": "tˈost", "dj": "didʒˈi", "djs": "didʒˈi",  # read in English
     "négligent": "neɡliʒˈɑ̃", "négligents": "neɡliʒˈɑ̃",  # the adjective; the voice reads it like the verb (ils négligent)
     "corner": "kɔʁnˈɛʁ", "corners": "kɔʁnˈɛʁ", "penalty": "penaltˈi", "penaltys": "penaltˈi", "penalties": "penaltˈi",  # read like an -er verb, or with a schwa
+    "body": "bɔdˈi", "bodys": "bɔdˈi",  # otherwise read in English
+    "quatre-vingt-deux": "katʁvɛ̃dˈø", "quatre-vingt-trois": "katʁvɛ̃tʁwˈa", "quatre-vingt-quatre": "katʁvɛ̃kˈatʁ",
+    "quatre-vingt-cinq": "katʁvɛ̃sˈɛ̃k", "quatre-vingt-six": "katʁvɛ̃sˈis", "quatre-vingt-sept": "katʁvɛ̃sˈɛt",
+    "quatre-vingt-huit": "katʁvɛ̃ɥˈit", "quatre-vingt-neuf": "katʁvɛ̃nˈœf", "quatre-vingt-onze": "katʁvɛ̃ˈɔ̃z",  # the voice says the t of vingt
     "supporters": "sypɔʁtˈœʁ",  # the fans, not the verb supporter
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.

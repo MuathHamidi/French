@@ -112,7 +112,7 @@ BEFORE_NOUN = {"le", "la", "l'", "les", "un", "une", "des", "du", "de", "d'", "a
                "mon", "ton", "son", "mes", "tes", "ses", "notre", "votre", "nos", "vos", "leur", "leurs", "ce", "cet",
                "cette", "ces", "quel", "quelle", "quels", "quelles",
                "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "quinze", "vingt",
-               "trente", "quarante", "cinquante", "soixante", "cent", "mille", "plusieurs", "quelques", "chaque"}  # deux parties (not partir)
+               "trente", "quarante", "cinquante", "soixante", "cent", "mille", "vingts", "cents", "quatre-vingts", "plusieurs", "quelques", "chaque"}  # deux parties (not partir)
 BEFORE_VERB = {"je", "j'", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "qui", "ça", "ne", "n'",
                "me", "m'", "te", "t'", "se", "s'", "lui", "y",  # je lui parle, j'y vais
                "ai", "as", "a", "avons", "avez", "ont",  # avoir + past participle: j'ai été (been, not summer)

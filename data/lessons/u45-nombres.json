@@ -1,0 +1,111 @@
+{
+  "id": "u45-nombres",
+  "type": "grammar",
+  "unit": 45,
+  "title": "Quatre mille trois cent quatre-vingts couches",
+  "en": "Numbers: vingt, cent, mille",
+  "intro": "**Vingt** and **cent** take an *s* when they are multiplied and end the number: *quatre-vingt**s** couches*, *deux cent**s** grammes*, but *quatre-vingt-un*, *trois cent soixante-cinq*. **Mille** never changes: *trois mille euros*. **Million** and **milliard** are nouns, with an *s* and *de*: *un million **de** vues*, *deux million**s***. And *une dizaine, une vingtaine, une centaine, des milliers* give a rough number.",
+  "cases": [
+    {"id": "nb-vingt", "label": "quatre-vingts, but quatre-vingt-un", "rule": "*Vingt* takes an *s* only in *quatre-vingts*, when nothing follows: *quatre-vingts couches*. When another number follows, no *s*: *quatre-vingt-un, quatre-vingt-trois*. From *vingt et un* to *soixante et onze*, one is joined with *et*, but not after *quatre-vingt*: *quatre-vingt-un, quatre-vingt-onze*. For a rank, no *s*: *page quatre-vingt*."},
+    {"id": "nb-cent", "label": "deux cents, but deux cent un", "rule": "*Cent* takes an *s* when it is multiplied and nothing follows: *deux cents, trois cents nuits, neuf kilos deux cents*. When another number follows, no *s*: *trois cent soixante-cinq jours, six cent dix grammes*. And no *un* before it: *cent euros*."},
+    {"id": "nb-mille", "label": "mille never changes", "rule": "*Mille* never takes an *s*: *deux mille, trois mille euros, quatre mille trois cent quatre-vingts*. No *un* before it: *mille euros*. *Merci mille fois* = thanks a million."},
+    {"id": "nb-million", "label": "million, milliard: nouns", "rule": "*Million* and *milliard* are nouns: they take an *s* in the plural and *de* before a noun: *un million de vues, deux millions d'habitants, un milliard d'euros*."},
+    {"id": "nb-environ", "label": "une vingtaine, une centaine, des milliers", "rule": "To give a rough number, French uses nouns in *-aine*: *une dizaine* (about ten), *une vingtaine, une centaine*, and *un millier* (about a thousand). They take *de*: *une vingtaine d'invités, des milliers de photos*."}
+  ],
+  "sections": [
+    {"title": "1. vingt: quatre-vingts, quatre-vingt-un", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["quatre-vingts couches", "eighty nappies"],
+      ["quatre-vingt-un paquets", "eighty-one packs"],
+      ["quatre-vingt-trois vues", "eighty-three views"],
+      ["vingt et un, soixante et onze", "twenty-one, seventy-one"],
+      ["page quatre-vingt", "page eighty"]]},
+     "examples": [
+      {"fr": "J'ai déjà acheté {quatre-vingt-un paquets|nb-vingt}.", "en": "I've already bought eighty-one packs."},
+      {"fr": "Il a commencé le {vingt et un|nb-vingt} novembre.", "en": "It started on the twenty-first of November."}],
+     "tip": "Quatre-vingts is four twenties. In Belgium and Switzerland, people say septante (70) and nonante (90), and in Switzerland huitante (80)."},
+    {"title": "2. cent: deux cents, deux cent un", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["deux cents grammes", "two hundred grams"],
+      ["neuf kilos deux cents", "nine kilos two hundred"],
+      ["trois cent soixante-cinq jours", "three hundred and sixty-five days"],
+      ["six cent dix grammes", "six hundred and ten grams"],
+      ["cent euros", "a hundred euros"]]},
+     "examples": [
+      {"fr": "Aujourd'hui, il pèse {neuf kilos deux cents|nb-cent} !", "en": "Today he weighs nine kilos two hundred!"},
+      {"fr": "Ensuite : {trois cent soixante-cinq jours|nb-cent}, et à peu près {trois cents nuits blanches|nb-cent}.", "en": "Next: three hundred and sixty-five days, and about three hundred sleepless nights."}],
+     "tip": "English says a hundred, French just cent: cent euros, never un cent euros."},
+    {"title": "3. mille never changes", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["deux mille", "two thousand"],
+      ["trois mille euros", "three thousand euros"],
+      ["mille deux cent quinze euros", "one thousand two hundred and fifteen euros"],
+      ["quatre mille trois cent quatre-vingts", "four thousand three hundred and eighty"],
+      ["merci mille fois", "thanks a million"]]},
+     "examples": [
+      {"fr": "Deux bébés, six couches par jour : {quatre mille trois cent quatre-vingts couches|nb-mille} !", "en": "Two babies, six nappies a day: four thousand three hundred and eighty nappies!"},
+      {"fr": "Pas trois mille. Mais merci {mille fois|nb-mille}, Hugo.", "en": "Not three thousand. But thanks a million, Hugo."}],
+     "tip": "Since the 1990 spelling reform, you may also put hyphens everywhere: quatre-mille-trois-cent-quatre-vingts. Both spellings are correct."},
+    {"title": "4. million, milliard: nouns", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["un million de vues", "a million views"],
+      ["deux millions d'habitants", "two million inhabitants"],
+      ["un milliard d'euros", "a billion euros"]]},
+     "examples": [
+      {"fr": "La vidéo d'Enzo, elle, a {un million de vues|nb-million}.", "en": "Enzo's video has a million views."},
+      {"fr": "Patience : dans un an, Nina en aura {deux millions|nb-million} !", "en": "Patience: in a year, Nina's will have two million!"}],
+     "tip": "English says two million people, French deux millions de personnes: with an s and de."},
+    {"title": "5. About ten, about a hundred", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["une dizaine de mots", "about ten words"],
+      ["une vingtaine d'invités", "about twenty guests"],
+      ["une centaine de photos", "about a hundred photos"],
+      ["des milliers de photos", "thousands of photos"]]},
+     "examples": [
+      {"fr": "Hier, à la ferme, il y avait {une vingtaine d'invités|nb-environ}.", "en": "Yesterday, at the farm, there were about twenty guests."},
+      {"fr": "{Une centaine de photos|nb-environ} par mois.", "en": "About a hundred photos a month."}],
+     "tip": "Une douzaine is exactly twelve (eggs, oysters); une dizaine is about ten."}
+  ],
+  "mistakes": [
+    {"wrong": "quatre-vingt couches", "right": "quatre-vingts couches", "why": "At the end of the number, quatre-vingts takes an s."},
+    {"wrong": "quatre-vingts-trois", "right": "quatre-vingt-trois", "why": "When another number follows, vingt loses its s."},
+    {"wrong": "trois cents soixante-cinq jours", "right": "trois cent soixante-cinq jours", "why": "Cent takes no s when another number follows."},
+    {"wrong": "trois milles euros", "right": "trois mille euros", "why": "Mille never takes an s."},
+    {"wrong": "un million vues", "right": "un million de vues", "why": "Million is a noun: it needs de before another noun."}
+  ],
+  "story": {
+    "title": "Quatre mille trois cent quatre-vingts couches",
+    "en": "Monday 2 August: the twins' first birthday, and their first year in figures.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi deux août, Adam et Nina ont un an. Le soir, chez Chloé et Karim, il y a juste les parents, Léa et Hugo… et une bougie pour chacun.", "en": "On Monday 2 August, Adam and Nina are one. In the evening, at Chloé and Karim's, there are just the parents, Léa and Hugo… and a candle each."},
+      {"sp": "", "fr": "Léa prépare une page pour l'album des jumeaux : « Notre première année en chiffres ». Elle écrit tous les nombres en lettres.", "en": "Léa is making a page for the twins' album: 'Our first year in figures'. She writes all the numbers out in words."},
+      {"sp": "Hugo", "fr": "J'ai fait les comptes. Il y a un an, Adam pesait deux kilos {six cents|nb-cent}. Aujourd'hui, il pèse {neuf kilos deux cents|nb-cent} !", "en": "I've done the maths. A year ago, Adam weighed two kilos six hundred. Today, he weighs nine kilos two hundred!"},
+      {"sp": "Karim", "fr": "Et Nina, {huit kilos six cents|nb-cent}. Elle mange moins, mais elle marche !", "en": "And Nina, eight kilos six hundred. She eats less, but she walks!"},
+      {"sp": "Léa", "fr": "Six cents, avec un s, parce qu'il n'y a rien après. Mais {six cent dix grammes|nb-cent}, sans s.", "en": "Six hundred with an s, because there's nothing after it. But six hundred and ten grams, no s."},
+      {"sp": "Hugo", "fr": "Ensuite : {trois cent soixante-cinq jours|nb-cent}, et pour Chloé et Karim, à peu près {trois cents nuits blanches|nb-cent}.", "en": "Next: three hundred and sixty-five days, and for Chloé and Karim, about three hundred sleepless nights."},
+      {"sp": "Chloé", "fr": "Trois cents ? Plutôt trois cent soixante-cinq !", "en": "Three hundred? More like three hundred and sixty-five!"},
+      {"sp": "Hugo", "fr": "Et maintenant, mon chiffre préféré : les couches. Deux bébés, six couches par jour, pendant un an : {quatre mille trois cent quatre-vingts couches|nb-mille} !", "en": "And now, my favourite figure: nappies. Two babies, six nappies a day, for a year: four thousand three hundred and eighty nappies!"},
+      {"sp": "Léa", "fr": "{Quatre-vingts|nb-vingt}, avec un s, parce qu'il est à la fin. Et {mille|nb-mille}, sans s. Toujours.", "en": "Eighty, with an s, because it's at the end. And thousand, no s. Ever."},
+      {"sp": "Karim", "fr": "Et le contrat de couches, Hugo ? Il a commencé le {vingt et un|nb-vingt} novembre.", "en": "And the nappy contract, Hugo? It started on the twenty-first of November."},
+      {"sp": "Hugo", "fr": "Je sais : j'ai déjà acheté {quatre-vingt-un paquets|nb-vingt}. Les {trois mille euros|nb-mille} de mon procès sont partis en [couches|couche] !", "en": "I know: I've already bought eighty-one packs. The three thousand euros from my court case have all gone on nappies!"},
+      {"sp": "Chloé", "fr": "Quatre-vingt-un paquets à quinze euros, ça fait {mille deux cent quinze euros|nb-mille}. Pas trois mille. Mais merci {mille fois|nb-mille}, Hugo.", "en": "Eighty-one packs at fifteen euros makes one thousand two hundred and fifteen euros. Not three thousand. But thanks a million, Hugo."},
+      {"sp": "Léa", "fr": "Et les photos ? Il y en a combien ?", "en": "And the photos? How many are there?"},
+      {"sp": "Karim", "fr": "{Une centaine de photos|nb-environ} par mois. Dans mon téléphone, il y en a {des milliers|nb-environ}.", "en": "About a hundred photos a month. On my phone, there are thousands."},
+      {"sp": "Hugo", "fr": "Et la vidéo des premiers pas de Nina ? Elle a déjà {quatre-vingt-trois vues|nb-vingt} !", "en": "And the video of Nina's first steps? It's already got eighty-three views!"},
+      {"sp": "Léa", "fr": "Elle est floue, Hugo. Comme toutes tes vidéos. La vidéo d'Enzo, elle, a {un million de vues|nb-million}.", "en": "It's blurred, Hugo. Like all your videos. Enzo's video has a million views."},
+      {"sp": "Hugo", "fr": "Patience : dans un an, Nina en aura {deux millions|nb-million} !", "en": "Patience: in a year, Nina's will have two million!"},
+      {"sp": "", "fr": "Hier, à la ferme, il y avait {une vingtaine d'invités|nb-environ}. Ce soir, ils sont six, et c'est parfait.", "en": "Yesterday, at the farm, there were about twenty guests. Tonight there are six of them, and it's perfect."},
+      {"sp": "", "fr": "Chloé allume les bougies. Adam souffle de toutes ses forces, et Nina met les deux mains dans le gâteau.", "en": "Chloé lights the candles. Adam blows with all his might, and Nina puts both hands in the cake."},
+      {"sp": "", "fr": "Plus tard, Hugo ouvre son Petit Prince sur le canapé. Il est à la {page quatre-vingt|nb-vingt}. Dix minutes après, il dort, comme les jumeaux.", "en": "Later, Hugo opens his Petit Prince on the sofa. He's on page eighty. Ten minutes later he's asleep, like the twins."},
+      {"sp": "", "fr": "Léa écrit la dernière ligne : « Première année : {quatre mille trois cent quatre-vingts couches|nb-mille}, {mille sourires|nb-mille}, et zéro regret. »", "en": "Léa writes the last line: 'First year: four thousand three hundred and eighty nappies, a thousand smiles, and zero regrets.'"}
+    ]
+  },
+  "quiz": [
+    {"case": "nb-vingt", "type": "mc", "q": "Chaque semaine, ___ [couches|couche].", "en": "Every week, eighty nappies.", "options": ["quatre-vingts", "quatre-vingt", "quatres-vingts"], "answer": "quatre-vingts"},
+    {"case": "nb-vingt", "type": "mc", "q": "J'ai déjà acheté ___ paquets.", "en": "I've already bought eighty-one packs.", "options": ["quatre-vingt-un", "quatre-vingts-un", "quatre-vingt et un"], "answer": "quatre-vingt-un"},
+    {"case": "nb-cent", "type": "mc", "q": "Un an, c'est ___ jours.", "en": "A year is three hundred and sixty-five days.", "options": ["trois cent soixante-cinq", "trois cents soixante-cinq", "trois cents et soixante-cinq"], "answer": "trois cent soixante-cinq"},
+    {"case": "nb-cent", "type": "mc", "q": "Adam pèse neuf kilos ___.", "en": "Adam weighs nine kilos two hundred.", "options": ["deux cents", "deux cent", "deux centes"], "answer": "deux cents"},
+    {"case": "nb-mille", "type": "mc", "q": "Le procès lui a rapporté trois ___ euros.", "en": "The court case brought him three thousand euros.", "options": ["mille", "milles", "milliers"], "answer": "mille"},
+    {"case": "nb-mille", "type": "mc", "q": "Merci ___, Hugo !", "en": "Thanks a million, Hugo!", "options": ["mille fois", "milles fois", "un mille fois"], "answer": "mille fois"},
+    {"case": "nb-million", "type": "mc", "q": "La vidéo d'Enzo a ___ vues.", "en": "Enzo's video has a million views.", "options": ["un million de", "un million", "un millions de"], "answer": "un million de"},
+    {"case": "nb-million", "type": "mc", "q": "Dans un an, Nina en aura deux ___ !", "en": "In a year, Nina's will have two million!", "options": ["millions", "million", "milles"], "answer": "millions"},
+    {"case": "nb-environ", "type": "mc", "q": "Hier, il y avait ___ d'invités.", "en": "Yesterday there were about twenty guests.", "options": ["une vingtaine", "vingtaine", "un vingt"], "answer": "une vingtaine"},
+    {"case": "nb-environ", "type": "mc", "q": "Karim prend ___ photos par mois.", "en": "Karim takes about a hundred photos a month.", "options": ["une centaine de", "cent de", "une centaine"], "answer": "une centaine de"}
+  ]
+}

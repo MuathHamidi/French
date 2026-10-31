@@ -92,14 +92,14 @@
         "head": ["French", "English"], "frCols": [0],
         "rows": [
           ["On s'est rencontrés à Lyon.", "We met in Lyon."],
-          ["Ils se sont retrouvés au café.", "They met up at the café."],
+          ["Ils se sont [retrouvés|se-retrouver] au café.", "They met up at the café."],
           ["Elles se sont disputées.", "They argued (with each other)."],
           ["Nous nous sommes réconciliés.", "We made up."]
         ]
       },
       "examples": [
         { "fr": "{Léa et Sophie se sont rencontrées|pr-reciproque} à Lyon.", "en": "Léa and Sophie met in Lyon." },
-        { "fr": "{On s'est retrouvés|pr-reciproque} au café d'en bas.", "en": "We met up at the café downstairs." }
+        { "fr": "{On s'est [retrouvés|se-retrouver]|pr-reciproque} au café d'en bas.", "en": "We met up at the café downstairs." }
       ]
     },
     {

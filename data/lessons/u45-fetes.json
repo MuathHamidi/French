@@ -1,0 +1,147 @@
+{
+  "id": "u45-fetes",
+  "type": "vocab",
+  "unit": 45,
+  "title": "Toute la tribu",
+  "en": "Family celebrations",
+  "intro": "25 words for family celebrations: the family by marriage (**le beau-père, la belle-mère, les beaux-parents, le beau-frère, la belle-sœur, le gendre, la belle-fille**), the generations (**l'arrière-grand-père, l'arrière-grand-mère, l'ancêtre, l'arbre généalogique, le cousin germain, la fratrie, le benjamin, l'enfant unique**), godparents (**le parrain, la marraine, le filleul**), and the day itself (**la réunion de famille, les retrouvailles, le faire-part, la photo de famille, la ressemblance, l'air de famille, la tribu**).",
+  "words": [
+    {"id": "arriere-grand-pere", "fr": "arrière-grand-père", "pos": "noun", "g": "m", "ipa": "a.ʁjɛʁ.ɡʁɑ̃.pɛʁ", "en": "great-grandfather", "def": "Le père d'un de vos grands-parents.", "def_en": "The father of one of your grandparents.", "forms": ["arrière-grands-pères"], "examples": [
+      {"fr": "Jacques est l'**arrière-grand-père** des jumeaux.", "en": "Jacques is the twins' great-grandfather."},
+      {"fr": "Mon **arrière-grand-père** était dans la Résistance.", "en": "My great-grandfather was in the Resistance."},
+      {"fr": "À quatre-vingts ans, il est déjà **arrière-grand-père** !", "en": "At eighty, he's already a great-grandfather!"}]},
+    {"id": "arriere-grand-mere", "fr": "arrière-grand-mère", "pos": "noun", "g": "f", "ipa": "a.ʁjɛʁ.ɡʁɑ̃.mɛʁ", "en": "great-grandmother", "def": "La mère d'un de vos grands-parents.", "def_en": "The mother of one of your grandparents.", "forms": ["arrière-grands-mères"], "examples": [
+      {"fr": "Les jumeaux ont deux **arrière-grands-mères** : Louise et la grand-mère de Karim.", "en": "The twins have two great-grandmothers: Louise and Karim's grandmother."},
+      {"fr": "Mon **arrière-grand-mère** danse encore à quatre-vingt-dix ans.", "en": "My great-grandmother still dances at ninety."},
+      {"fr": "Louise est devenue **arrière-grand-mère** l'année dernière.", "en": "Louise became a great-grandmother last year."}]},
+    {"id": "beau-pere", "fr": "beau-père", "pos": "noun", "g": "m", "ipa": "bo.pɛʁ", "en": "father-in-law; stepfather", "def": "Le papa de votre mari ou de votre femme ; le nouveau mari de votre mère.", "def_en": "Your husband's or wife's father; your mother's new husband.", "note": "*Beau* here doesn't mean handsome: *beau-*, *belle-* mark family by marriage.", "forms": ["beaux-pères"], "examples": [
+      {"fr": "Pierre est le **beau-père** de Karim.", "en": "Pierre is Karim's father-in-law."},
+      {"fr": "Karim s'entend très bien avec son **beau-père**.", "en": "Karim gets on very well with his father-in-law."},
+      {"fr": "Depuis ses dix ans, il vit avec sa mère et son **beau-père**.", "en": "Since he was ten, he has lived with his mother and his stepfather."}]},
+    {"id": "belle-mere", "fr": "belle-mère", "pos": "noun", "g": "f", "ipa": "bɛl.mɛʁ", "en": "mother-in-law; stepmother", "def": "La maman de votre mari ou de votre femme ; la nouvelle femme de votre père.", "def_en": "Your husband's or wife's mother; your father's new wife.", "forms": ["belles-mères"], "examples": [
+      {"fr": "La **belle-mère** de Chloé a apporté des pâtisseries.", "en": "Chloé's mother-in-law brought pastries."},
+      {"fr": "Dans les contes, la **belle-mère** est souvent méchante.", "en": "In fairy tales, the stepmother is often wicked."},
+      {"fr": "Elle appelle sa **belle-mère** par son prénom.", "en": "She calls her mother-in-law by her first name."}]},
+    {"id": "beaux-parents", "fr": "beaux-parents", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "bo.pa.ʁɑ̃", "en": "in-laws, parents-in-law", "def": "Le papa et la maman de votre mari ou de votre femme.", "def_en": "Your husband's or wife's father and mother.", "examples": [
+      {"fr": "Le dimanche, on déjeune chez mes **beaux-parents**.", "en": "On Sundays we have lunch at my in-laws'."},
+      {"fr": "Les **beaux-parents** de Chloé sont arrivés en avance.", "en": "Chloé's in-laws arrived early."},
+      {"fr": "Il a un peu peur de ses **beaux-parents**.", "en": "He's a bit afraid of his in-laws."}]},
+    {"id": "beau-frere", "fr": "beau-frère", "pos": "noun", "g": "m", "ipa": "bo.fʁɛʁ", "en": "brother-in-law", "def": "Le mari de votre sœur, ou un autre fils de vos beaux-parents.", "def_en": "Your sister's husband, or another son of your in-laws.", "forms": ["beaux-frères"], "examples": [
+      {"fr": "Jules et Karim sont **beaux-frères**.", "en": "Jules and Karim are brothers-in-law."},
+      {"fr": "Mon **beau-frère** joue à la pétanque comme un champion.", "en": "My brother-in-law plays pétanque like a champion."},
+      {"fr": "Karim aide son **beau-frère** à la ferme.", "en": "Karim helps his brother-in-law on the farm."}]},
+    {"id": "belle-soeur", "fr": "belle-sœur", "pos": "noun", "g": "f", "ipa": "bɛl.sœʁ", "en": "sister-in-law", "def": "La femme de votre frère, ou une autre fille de vos beaux-parents.", "def_en": "Your brother's wife, or another daughter of your in-laws.", "forms": ["belles-sœurs"], "examples": [
+      {"fr": "Manon est la **belle-sœur** de Chloé.", "en": "Manon is Chloé's sister-in-law."},
+      {"fr": "Mes deux **belles-sœurs** s'entendent très bien.", "en": "My two sisters-in-law get on very well."},
+      {"fr": "Ma **belle-sœur** fait le meilleur fromage de la région.", "en": "My sister-in-law makes the best cheese in the region."}]},
+    {"id": "gendre", "fr": "gendre", "pos": "noun", "g": "m", "ipa": "ʒɑ̃dʁ", "en": "son-in-law", "def": "Le mari de votre fille.", "def_en": "Your daughter's husband.", "note": "*Mon gendre préféré* is a classic joke when there's only one.", "forms": ["gendres"], "examples": [
+      {"fr": "Karim est le **gendre** de Pierre.", "en": "Karim is Pierre's son-in-law."},
+      {"fr": "Pierre appelle Karim « mon **gendre** préféré ».", "en": "Pierre calls Karim 'my favourite son-in-law'."},
+      {"fr": "Le **gendre** idéal n'existe pas.", "en": "The ideal son-in-law doesn't exist."}]},
+    {"id": "belle-fille", "fr": "belle-fille", "pos": "noun", "g": "f", "manual": true, "ipa": "bɛl.fij", "en": "daughter-in-law; stepdaughter", "def": "La femme de votre fils.", "def_en": "Your son's wife.", "note": "Also *stepdaughter*. Not to be confused with *une belle fille*, a good-looking girl.", "forms": ["belles-filles"], "examples": [
+      {"fr": "Pour la mère de Karim, Chloé est la **[belle-fille|belle-fille]** parfaite.", "en": "For Karim's mother, Chloé is the perfect daughter-in-law."},
+      {"fr": "Ma **[belle-fille|belle-fille]** m'[appelle|appeler] tous les dimanches.", "en": "My daughter-in-law phones me every Sunday."},
+      {"fr": "Il aime sa **[belle-fille|belle-fille]** comme sa propre fille.", "en": "He loves his stepdaughter like his own daughter."}]},
+    {"id": "cousin-germain", "fr": "cousin germain", "pos": "noun", "g": "m", "ipa": "ku.zɛ̃ ʒɛʁ.mɛ̃", "display": "le cousin germain, la cousine germaine", "en": "first cousin", "def": "L'enfant de votre oncle ou de votre tante.", "def_en": "The child of your uncle or aunt.", "forms": ["cousine germaine", "cousins germains", "cousines germaines"], "examples": [
+      {"fr": "Léa et Chloé sont **cousines germaines** : elles ont les mêmes grands-parents.", "en": "Léa and Chloé are first cousins: they have the same grandparents."},
+      {"fr": "J'ai douze **cousins germains** et je ne connais pas tous leurs prénoms !", "en": "I've got twelve first cousins and I don't know all their first names!"},
+      {"fr": "Hugo est le **cousin germain** de Chloé.", "en": "Hugo is Chloé's first cousin."}]},
+    {"id": "parrain", "fr": "parrain", "pos": "noun", "g": "m", "ipa": "pa.ʁɛ̃", "en": "godfather; sponsor", "def": "Un homme choisi par les parents pour suivre un enfant et l'aider toute sa vie.", "def_en": "A man chosen by the parents to watch over a child and help them all their life.", "note": "*Le Parrain* is also the French title of *The Godfather*.", "forms": ["parrains"], "examples": [
+      {"fr": "Hugo est le **parrain** d'Adam.", "en": "Hugo is Adam's godfather."},
+      {"fr": "Mon **parrain** m'offre un livre à chaque anniversaire.", "en": "My godfather gives me a book every birthday."},
+      {"fr": "Pour entrer dans ce club, il faut un **parrain**.", "en": "To join this club, you need a sponsor."}]},
+    {"id": "marraine", "fr": "marraine", "pos": "noun", "g": "f", "ipa": "ma.ʁɛn", "en": "godmother", "def": "Une femme choisie par les parents pour suivre un enfant et l'aider toute sa vie.", "def_en": "A woman chosen by the parents to watch over a child and help them all their life.", "forms": ["marraines"], "examples": [
+      {"fr": "Léa est la **marraine** de Nina.", "en": "Léa is Nina's godmother."},
+      {"fr": "Ma **marraine** habite à Montréal.", "en": "My godmother lives in Montréal."},
+      {"fr": "Dans le conte, la **marraine** de Cendrillon est une fée.", "en": "In the fairy tale, Cinderella's godmother is a fairy."}]},
+    {"id": "filleul", "fr": "filleul", "pos": "noun", "g": "m", "ipa": "fi.jœl", "display": "le filleul, la filleule", "en": "godson, goddaughter", "def": "L'enfant dont on est le parrain ou la marraine.", "def_en": "The child you're godfather or godmother to.", "forms": ["filleule", "filleuls", "filleules"], "examples": [
+      {"fr": "Adam est le **filleul** de Hugo.", "en": "Adam is Hugo's godson."},
+      {"fr": "Léa a acheté un livre pour sa **filleule**.", "en": "Léa has bought a book for her goddaughter."},
+      {"fr": "Mon parrain a trois **filleuls**.", "en": "My godfather has three godchildren."}]},
+    {"id": "benjamin", "fr": "benjamin", "pos": "noun", "g": "m", "ipa": "bɛ̃.ʒa.mɛ̃", "display": "le benjamin, la benjamine", "en": "youngest child (of a family or a group)", "def": "Le plus jeune enfant d'une famille, ou la plus jeune personne d'un groupe.", "def_en": "The youngest child in a family, or the youngest person in a group.", "note": "The eldest is *l'aîné(e)*.", "forms": ["benjamine", "benjamins", "benjamines"], "examples": [
+      {"fr": "Lou était la **benjamine** de la famille, avant les jumeaux.", "en": "Lou was the youngest in the family, before the twins."},
+      {"fr": "Enzo est le **benjamin** de la boulangerie.", "en": "Enzo is the youngest at the bakery."},
+      {"fr": "Dans une fratrie, la **benjamine** a toujours raison !", "en": "Among brothers and sisters, the youngest girl is always right!"}]},
+    {"id": "ancetre", "fr": "ancêtre", "pos": "noun", "g": "m", "both": true, "ipa": "ɑ̃.sɛtʁ", "display": "l'ancêtre", "en": "ancestor; forerunner", "def": "Une personne de votre famille qui a vécu il y a très longtemps.", "def_en": "A member of your family who lived a very long time ago.", "forms": ["ancêtres"], "examples": [
+      {"fr": "Nos **ancêtres** les Gaulois…", "en": "Our ancestors the Gauls…"},
+      {"fr": "En haut de l'arbre, il y a l'**ancêtre** de la famille : Marius.", "en": "At the top of the tree is the family's ancestor: Marius."},
+      {"fr": "Ce vieux téléphone, c'est l'**ancêtre** du portable !", "en": "This old phone is the forerunner of the mobile!"}]},
+    {"id": "arbre-genealogique", "fr": "arbre généalogique", "pos": "noun", "g": "m", "ipa": "aʁbʁ ʒe.ne.a.lɔ.ʒik", "en": "family tree", "def": "Un dessin qui montre toutes les personnes d'une famille, génération après génération.", "def_en": "A drawing that shows everyone in a family, generation after generation.", "forms": ["arbres généalogiques"], "examples": [
+      {"fr": "Jacques a dessiné l'**arbre généalogique** de la famille.", "en": "Jacques has drawn the family tree."},
+      {"fr": "Sur l'**arbre généalogique**, Lou cherche son nom.", "en": "On the family tree, Lou looks for her name."},
+      {"fr": "Mon **arbre généalogique** remonte jusqu'à la Révolution.", "en": "My family tree goes back to the Revolution."}]},
+    {"id": "reunion-de-famille", "fr": "réunion de famille", "pos": "noun", "g": "f", "ipa": "ʁe.y.njɔ̃ də fa.mij", "en": "family gathering, family get-together", "def": "Un moment où les parents, les enfants, les cousins et les grands-parents se retrouvent, pour une fête ou un repas.", "def_en": "A time when parents, children, cousins and grandparents get together, for a party or a meal.", "note": "*Une réunion* alone is usually a meeting at work.", "forms": ["réunions de famille"], "examples": [
+      {"fr": "Chez nous, chaque **réunion de famille** finit par une dispute.", "en": "In our house, every family get-together ends in an argument."},
+      {"fr": "La dernière **réunion de famille**, c'était à Noël.", "en": "The last family gathering was at Christmas."},
+      {"fr": "Pour la **réunion de famille**, Pierre installe une grande table dans la grange.", "en": "For the family gathering, Pierre sets up a big table in the barn."}]},
+    {"id": "retrouvailles", "fr": "retrouvailles", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "ʁə.tʁu.vaj", "en": "reunion, getting back together", "def": "Le moment où des personnes se revoient après une longue absence.", "def_en": "The moment when people see each other again after a long time apart.", "examples": [
+      {"fr": "Les **retrouvailles** de Sophie et Minou sont très émouvantes.", "en": "Sophie and Minou's reunion is very moving."},
+      {"fr": "On fête nos **retrouvailles** au café d'en bas !", "en": "Let's celebrate being together again at the café downstairs!"},
+      {"fr": "Après dix ans, les **retrouvailles** des deux frères ont duré toute la nuit.", "en": "After ten years, the two brothers' reunion went on all night."}]},
+    {"id": "faire-part-n", "fr": "faire-part", "pos": "noun", "g": "m", "manual": true, "ipa": "fɛʁ.paʁ", "en": "announcement (card)", "def": "Une carte qui annonce une naissance, un mariage ou une mort.", "def_en": "A card announcing a birth, a wedding or a death.", "note": "*Un faire-part de naissance* = a birth announcement. Not to be confused with *faire part de* (formal: to inform).", "forms": ["faire-parts"], "examples": [
+      {"fr": "Louise a gardé le **[faire-part|faire-part-n]** de naissance des jumeaux.", "en": "Louise has kept the twins' birth announcement."},
+      {"fr": "Les **[faire-part|faire-part-n]** de mariage sont partis hier.", "en": "The wedding announcements went out yesterday."},
+      {"fr": "Sur le **[faire-part|faire-part-n]**, il y a une photo du bébé.", "en": "There's a photo of the baby on the announcement."}]},
+    {"id": "fratrie", "fr": "fratrie", "pos": "noun", "g": "f", "ipa": "fʁa.tʁi", "en": "siblings (as a group)", "def": "Tous les frères et sœurs d'une même famille.", "def_en": "All the brothers and sisters in one family.", "forms": ["fratries"], "examples": [
+      {"fr": "Dans notre **fratrie**, Hugo est l'aîné et Lou la benjamine.", "en": "Of the three of us, Hugo is the eldest and Lou the youngest."},
+      {"fr": "C'est une **fratrie** de cinq enfants.", "en": "There are five brothers and sisters."},
+      {"fr": "Dans une **fratrie**, on se dispute souvent.", "en": "Brothers and sisters often argue."}]},
+    {"id": "ressemblance", "fr": "ressemblance", "pos": "noun", "g": "f", "ipa": "ʁə.sɑ̃.blɑ̃s", "en": "likeness, resemblance", "def": "Ce qui est pareil entre deux personnes ou deux choses.", "def_en": "What is alike between two people or two things.", "forms": ["ressemblances"], "examples": [
+      {"fr": "La **ressemblance** entre Adam et Karim est incroyable.", "en": "The likeness between Adam and Karim is incredible."},
+      {"fr": "Toute **ressemblance** avec des personnes réelles serait un hasard.", "en": "Any resemblance to real people would be a coincidence."},
+      {"fr": "Je ne vois aucune **ressemblance** entre les deux jumeaux.", "en": "I can't see any likeness between the two twins."}]},
+    {"id": "air-de-famille", "fr": "air de famille", "pos": "noun", "g": "m", "ipa": "ɛʁ də fa.mij", "en": "family likeness", "def": "Une ressemblance qu'on voit entre des personnes qui ont le même sang.", "def_en": "A likeness you can see between people of the same blood.", "note": "*Avoir un air de famille* = to look alike.", "examples": [
+      {"fr": "Nina et Louise ont un **air de famille**.", "en": "Nina and Louise have a family likeness."},
+      {"fr": "Ces deux chansons ont un **air de famille**.", "en": "These two songs sound alike."},
+      {"fr": "On voit tout de suite l'**air de famille** : le même nez !", "en": "You can see the family likeness straight away: the same nose!"}]},
+    {"id": "photo-de-famille", "fr": "photo de famille", "pos": "noun", "g": "f", "ipa": "fo.to də fa.mij", "en": "family photo", "def": "Une image de tous les parents, enfants et grands-parents ensemble, souvent prise pendant une fête.", "def_en": "A picture of all the parents, children and grandparents together, often taken at a party.", "forms": ["photos de famille"], "examples": [
+      {"fr": "Pour la **photo de famille**, tout le monde se serre.", "en": "For the family photo, everyone squeezes in."},
+      {"fr": "Sur la **photo de famille**, Hugo a les yeux fermés.", "en": "In the family photo, Hugo has his eyes closed."},
+      {"fr": "Sophie prend la **photo de famille** avec son vieil appareil.", "en": "Sophie takes the family photo with her old camera."}]},
+    {"id": "tribu", "fr": "tribu", "pos": "noun", "g": "f", "ipa": "tʁi.by", "en": "tribe; (jokingly) the whole family, the clan", "def": "Un groupe de familles qui vivent ensemble ; pour rire, une famille très nombreuse.", "def_en": "A group of families living together; jokingly, a very big family.", "forms": ["tribus"], "examples": [
+      {"fr": "Toute la **tribu** est là !", "en": "The whole clan is here!"},
+      {"fr": "Cette **tribu** vit dans la forêt depuis des siècles.", "en": "This tribe has lived in the forest for centuries."},
+      {"fr": "Pierre a invité toute la **tribu** à la ferme.", "en": "Pierre has invited the whole clan to the farm."}]},
+    {"id": "enfant-unique", "fr": "enfant unique", "pos": "noun", "g": "m", "both": true, "ipa": "ɑ̃.fɑ̃ y.nik", "display": "l'enfant unique", "en": "only child", "def": "Une personne qui n'a ni frère ni sœur.", "def_en": "Someone who has no brothers or sisters.", "forms": ["enfants uniques"], "examples": [
+      {"fr": "Karim est **enfant unique** : pour ses parents, les jumeaux sont un miracle.", "en": "Karim is an only child: for his parents, the twins are a miracle."},
+      {"fr": "Quand on est **enfant unique**, on ne partage pas sa chambre.", "en": "When you're an only child, you don't share your bedroom."},
+      {"fr": "Être **enfant unique**, ce n'est pas toujours facile.", "en": "Being an only child isn't always easy."}]}
+  ],
+  "story": {
+    "title": "Toute la tribu",
+    "en": "Sunday 1 August: the whole family meets at the farm for the twins' first birthday.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche premier août, la veille de l'anniversaire des jumeaux, toute la famille se retrouve à la ferme de Pierre, près d'Annecy.", "en": "On Sunday 1 August, the day before the twins' birthday, the whole family gets together at Pierre's farm, near Annecy."},
+      {"sp": "Pierre", "fr": "Toute la tribu est là ! C'est notre plus belle réunion de famille depuis Noël.", "en": "The whole clan is here! It's our best family gathering since Christmas."},
+      {"sp": "", "fr": "Ce sont aussi des retrouvailles : Sophie est rentrée de Montréal hier soir, et Jacques et Louise sont venus de Marseille en train.", "en": "It's a reunion too: Sophie got back from Montréal last night, and Jacques and Louise came up from Marseille by train."},
+      {"sp": "", "fr": "La famille de Karim est là, elle aussi : ses parents et sa grand-mère, qui a plus de quatre-vingt-dix ans et qui danse encore.", "en": "Karim's family is here too: his parents and his grandmother, who is over ninety and still dances."},
+      {"sp": "", "fr": "Les beaux-parents de Chloé sont arrivés en avance, avec des pâtisseries. Chloé embrasse sa belle-mère.", "en": "Chloé's in-laws arrived early, with pastries. Chloé kisses her mother-in-law."},
+      {"sp": "La mère de Karim", "fr": "Ma [belle-fille|belle-fille], tu es magnifique ! Et où sont mes [petits-enfants|petit-enfant] ?", "en": "My daughter-in-law, you look wonderful! And where are my grandchildren?"},
+      {"sp": "", "fr": "Karim est enfant unique : pour ses parents, deux [petits-enfants|petit-enfant] d'un coup, c'est un miracle.", "en": "Karim is an only child: for his parents, two grandchildren at once is a miracle."},
+      {"sp": "", "fr": "Pierre appelle Karim « mon gendre préféré »… c'est son seul gendre.", "en": "Pierre calls Karim 'my favourite son-in-law'… he's his only one."},
+      {"sp": "Karim", "fr": "Merci, cher beau-père ! Jules, tu viens m'aider à porter les tables ?", "en": "Thank you, dear father-in-law! Jules, are you coming to help me carry the tables?"},
+      {"sp": "", "fr": "Jules et Karim sont beaux-frères, et Manon et Chloé belles-sœurs. Ensemble, ils installent une longue table devant la grange.", "en": "Jules and Karim are brothers-in-law, and Manon and Chloé sisters-in-law. Together they set up a long table in front of the barn."},
+      {"sp": "", "fr": "Dans la grange, Jacques a accroché un grand arbre généalogique. Tout en haut, il y a l'ancêtre de la famille : Marius, le résistant.", "en": "In the barn, Jacques has hung up a big family tree. Right at the top is the family's ancestor: Marius, the Resistance fighter."},
+      {"sp": "Lou", "fr": "Et moi, je suis où ?", "en": "And where am I?"},
+      {"sp": "Jacques", "fr": "Ici, avec Hugo et Léa. Vous êtes une fratrie de trois : Hugo est l'aîné, et toi, tu étais la benjamine de toute la famille.", "en": "Here, with Hugo and Léa. There are three of you: Hugo is the eldest, and you used to be the youngest in the whole family."},
+      {"sp": "Lou", "fr": "Avant les jumeaux ! Maintenant, je suis grande.", "en": "Before the twins! Now I'm big."},
+      {"sp": "", "fr": "Les jumeaux ont même deux arrière-grands-mères : Louise et la grand-mère de Karim. Et un arrière-grand-père, Jacques, très fier.", "en": "The twins even have two great-grandmothers: Louise and Karim's grandmother. And a great-grandfather, Jacques, who is very proud."},
+      {"sp": "Louise", "fr": "Quatre générations à la même table ! Il nous faut une photo de famille.", "en": "Four generations at the same table! We need a family photo."},
+      {"sp": "", "fr": "Sophie sort le vieil appareil de son grand-père. Tout le monde se serre devant la grange : les grands-parents, les parents, les cousins germains, les bébés.", "en": "Sophie gets out her grandfather's old camera. Everyone squeezes in in front of the barn: the grandparents, the parents, the first cousins, the babies."},
+      {"sp": "Sophie", "fr": "Ne bougez plus… Hugo, tes lunettes sont sur ta tête !", "en": "Don't move… Hugo, your glasses are on your head!"},
+      {"sp": "", "fr": "Au moment où Sophie appuie, Biquette saute sur le dos de Jules. La chèvre est sur la photo, elle aussi.", "en": "Just as Sophie presses the button, Biquette jumps onto Jules's back. The goat is in the photo too."},
+      {"sp": "Jules", "fr": "Biquette fait [partie|partie] de la famille !", "en": "Biquette is part of the family!"},
+      {"sp": "", "fr": "Pendant le repas, tout le monde cherche les ressemblances. Pour Anne, Nina a un air de famille avec Louise : les mêmes yeux, le même sourire.", "en": "During the meal, everyone looks for likenesses. For Anne, Nina looks like Louise: the same eyes, the same smile."},
+      {"sp": "Léa", "fr": "Et Adam ressemble à Karim. L'année dernière, c'était soixante pour cent ; aujourd'hui, c'est cent pour cent !", "en": "And Adam looks like Karim. Last year it was sixty per cent; today it's a hundred per cent!"},
+      {"sp": "", "fr": "Louise sort de son portefeuille un vieux papier plié : le [faire-part|faire-part-n] de naissance des jumeaux. Elle le garde sur elle depuis un an.", "en": "Louise takes a folded old piece of paper out of her wallet: the twins' birth announcement. She has kept it with her for a year."},
+      {"sp": "", "fr": "Au dessert, Karim apporte un gâteau au chocolat, avec une bougie pour chacun. Chloé se lève.", "en": "For dessert, Karim brings a chocolate cake, with a candle for each of them. Chloé stands up."},
+      {"sp": "Chloé", "fr": "Karim et moi, on a une question. Hugo, tu veux être le parrain d'Adam ? Et toi, Léa, la marraine de Nina ?", "en": "Karim and I have a question. Hugo, will you be Adam's godfather? And you, Léa, Nina's godmother?"},
+      {"sp": "", "fr": "Léa dit oui tout de suite. Hugo, lui, pleure plus fort que les jumeaux.", "en": "Léa says yes straight away. Hugo cries louder than the twins."},
+      {"sp": "Hugo", "fr": "Le parrain… comme dans le film ! Adam, mon filleul, je vais tout t'apprendre : les crêpes, le chocolat, les jeux vidéo…", "en": "The godfather… like in the film! Adam, my godson, I'll teach you everything: crêpes, chocolate, video games…"},
+      {"sp": "Chloé", "fr": "Pas les jeux vidéo !", "en": "Not video games!"},
+      {"sp": "", "fr": "Pierre lève son verre : « À Adam et Nina, à leur parrain et à leur marraine, et à toute la tribu ! »", "en": "Pierre raises his glass: 'To Adam and Nina, to their godfather and godmother, and to the whole clan!'"},
+      {"sp": "", "fr": "Le soir, la grand-mère de Karim danse avec Jacques. Louise les regarde en riant : à son âge, elle n'est plus jalouse.", "en": "In the evening, Karim's grandmother dances with Jacques. Louise watches them, laughing: at her age, she's no longer jealous."}
+    ]
+  }
+}

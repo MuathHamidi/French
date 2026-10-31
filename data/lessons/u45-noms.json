@@ -1,0 +1,147 @@
+{
+  "id": "u45-noms",
+  "type": "vocab",
+  "unit": 45,
+  "title": "Le coffre du grenier",
+  "en": "Common nouns (3)",
+  "intro": "25 common nouns: what you find in an old chest (**le coffre, le trésor, le bijou, la bague, le collier, l'alliance, le carnet, la plume**), the dark (**l'obscurité, la lueur, le fantôme**), feelings (**la curiosité, l'impatience, la patience, le chagrin, la douceur, le regret, la larme, l'humour**), and what people share (**le secret, le mensonge, la blague, le conseil, la merveille, le gamin**).",
+  "words": [
+    {"id": "coffre", "fr": "coffre", "pos": "noun", "g": "m", "ipa": "kɔfʁ", "en": "chest, trunk; (of a car) boot", "def": "Une grande boîte solide, qui se ferme, pour ranger des objets ; l'arrière d'une voiture, où on met les bagages.", "def_en": "A big strong box that closes, for storing things; the back of a car, where you put the luggage.", "note": "*Un coffre-fort* = a safe.", "forms": ["coffres"], "examples": [
+      {"fr": "Dans le grenier, il y a un vieux **coffre** en bois.", "en": "In the attic there's an old wooden chest."},
+      {"fr": "Mets les valises dans le **coffre** !", "en": "Put the suitcases in the boot!"},
+      {"fr": "Le **coffre** est fermé à clé.", "en": "The chest is locked."}]},
+    {"id": "tresor", "fr": "trésor", "pos": "noun", "g": "m", "ipa": "tʁe.zɔʁ", "en": "treasure", "def": "Des choses précieuses, souvent cachées ; une chose ou une personne qu'on aime beaucoup.", "def_en": "Precious things, often hidden; a thing or a person you love very much.", "note": "*Mon trésor* = my darling (to a child).", "forms": ["trésors"], "examples": [
+      {"fr": "Lou cherche un **trésor** dans le jardin.", "en": "Lou is looking for treasure in the garden."},
+      {"fr": "Ces lettres, c'est mon **trésor**.", "en": "These letters are my treasure."},
+      {"fr": "Viens ici, mon **trésor** !", "en": "Come here, darling!"}]},
+    {"id": "secret", "fr": "secret", "pos": "noun", "g": "m", "ipa": "sə.kʁɛ", "en": "secret; (adj) secret", "def": "Une chose qu'on ne dit pas aux autres.", "def_en": "Something you don't tell other people.", "note": "*En secret* = secretly. *Garder un secret* = to keep a secret.", "forms": ["secrets", "secrète", "secrètes"], "examples": [
+      {"fr": "Hugo ne sait pas garder un **secret**.", "en": "Hugo can't keep a secret."},
+      {"fr": "Quel est le **secret** de votre couple ?", "en": "What's the secret of your marriage?"},
+      {"fr": "C'est un **secret** de famille.", "en": "It's a family secret."}]},
+    {"id": "larme", "fr": "larme", "pos": "noun", "g": "f", "ipa": "laʁm", "en": "tear (from your eye)", "def": "Une goutte d'eau qui coule des yeux quand on pleure.", "def_en": "A drop of water that runs from your eyes when you cry.", "note": "*Rire aux larmes* = to laugh till you cry.", "forms": ["larmes"], "examples": [
+      {"fr": "Louise rit aux **larmes**.", "en": "Louise laughs till she cries."},
+      {"fr": "Une **larme** coule sur sa joue.", "en": "A tear runs down her cheek."},
+      {"fr": "Il a les **larmes** aux yeux.", "en": "He has tears in his eyes."}]},
+    {"id": "conseil", "fr": "conseil", "pos": "noun", "g": "m", "ipa": "kɔ̃.sɛj", "en": "piece of advice (des conseils = advice)", "def": "Ce qu'on dit à quelqu'un pour l'aider à décider ou à faire mieux.", "def_en": "What you tell someone to help them decide or do better.", "note": "*Le conseil municipal* = the town council.", "forms": ["conseils"], "examples": [
+      {"fr": "Je peux te donner un **conseil** ?", "en": "Can I give you some advice?"},
+      {"fr": "Merci pour tes **conseils** !", "en": "Thanks for your advice!"},
+      {"fr": "Sur un **conseil** de Léa, Sophie a vu la psychologue.", "en": "On Léa's advice, Sophie saw the psychologist."}]},
+    {"id": "mensonge", "fr": "mensonge", "pos": "noun", "g": "m", "ipa": "mɑ̃.sɔ̃ʒ", "en": "lie", "def": "Une chose qu'on dit et qui n'est pas vraie.", "def_en": "Something you say that isn't true.", "forms": ["mensonges"], "examples": [
+      {"fr": "« Je n'ai pas mangé le lapin » : pour une fois, ce n'était pas un **mensonge**.", "en": "'I didn't eat the rabbit': for once, it wasn't a lie."},
+      {"fr": "Un petit **mensonge**, ce n'est pas grave ?", "en": "A little lie isn't serious, is it?"},
+      {"fr": "Arrête tes **mensonges** !", "en": "Stop telling lies!"}]},
+    {"id": "blague", "fr": "blague", "pos": "noun", "g": "f", "ipa": "blaɡ", "en": "joke", "def": "Une petite histoire drôle pour faire rire.", "def_en": "A short funny story to make people laugh.", "note": "*Sans blague !* = no kidding!", "forms": ["blagues"], "examples": [
+      {"fr": "Jacques raconte toujours la même **blague**.", "en": "Jacques always tells the same joke."},
+      {"fr": "C'est une **blague** ? Tu as vraiment gagné ?", "en": "Is this a joke? Did you really win?"},
+      {"fr": "Sans **blague** ! Tu parles espagnol maintenant ?", "en": "No kidding! You speak Spanish now?"}]},
+    {"id": "patience", "fr": "patience", "pos": "noun", "g": "f", "ipa": "pa.sjɑ̃s", "en": "patience", "def": "La qualité d'une personne qui sait attendre calmement.", "def_en": "The quality of someone who can wait calmly.", "examples": [
+      {"fr": "Avec les jumeaux, il faut beaucoup de **patience**.", "en": "With the twins, you need a lot of patience."},
+      {"fr": "Lou n'a aucune **patience**.", "en": "Lou has no patience at all."},
+      {"fr": "Un peu de **patience** : le gâteau est presque cuit.", "en": "A little patience: the cake is almost done."}]},
+    {"id": "regret", "fr": "regret", "pos": "noun", "g": "m", "ipa": "ʁə.ɡʁɛ", "en": "regret", "def": "La tristesse de ne pas avoir fait quelque chose, ou de l'avoir mal fait.", "def_en": "The sadness of not having done something, or of having done it badly.", "note": "*À regret* = reluctantly.", "forms": ["regrets"], "examples": [
+      {"fr": "Je n'ai aucun **regret**.", "en": "I have no regrets."},
+      {"fr": "Avec tous mes **regrets**, je ne peux pas venir.", "en": "I'm very sorry, but I can't come."},
+      {"fr": "Son seul **regret** : ne pas avoir appris le piano.", "en": "His only regret: not having learnt the piano."}]},
+    {"id": "impatience", "fr": "impatience", "pos": "noun", "g": "f", "ipa": "ɛ̃.pa.sjɑ̃s", "en": "impatience", "def": "Le besoin de voir arriver vite ce qu'on attend.", "def_en": "The need to see what you're waiting for come quickly.", "note": "*Avec impatience* = impatiently, eagerly.", "examples": [
+      {"fr": "Lou attend son anniversaire avec **impatience**.", "en": "Lou can't wait for her birthday."},
+      {"fr": "Hugo tape du pied d'**impatience**.", "en": "Hugo taps his foot impatiently."},
+      {"fr": "J'attends ta réponse avec **impatience**.", "en": "I'm looking forward to your answer."}]},
+    {"id": "bijou", "fr": "bijou", "pos": "noun", "g": "m", "ipa": "bi.ʒu", "en": "jewel, piece of jewellery (des bijoux = jewellery)", "def": "Un petit objet précieux qu'on porte pour être plus beau ou plus belle : une bague, un collier…", "def_en": "A small precious object you wear to look nicer: a ring, a necklace…", "forms": ["bijoux"], "examples": [
+      {"fr": "Les **bijoux** de Louise sont dans une petite boîte.", "en": "Louise's jewellery is in a little box."},
+      {"fr": "Ce **bijou** appartenait à ma grand-mère.", "en": "This piece of jewellery belonged to my grandmother."},
+      {"fr": "Inès ne porte jamais de **bijoux** pour les photos.", "en": "Inès never wears jewellery for photos."}]},
+    {"id": "bague", "fr": "bague", "pos": "noun", "g": "f", "ipa": "baɡ", "en": "ring (jewellery)", "def": "Un petit rond de métal qu'on porte au doigt.", "def_en": "A small band of metal worn on the finger.", "note": "*Une bague de fiançailles* = an engagement ring.", "forms": ["bagues"], "examples": [
+      {"fr": "Dans le coffre, Léa trouve une **bague** avec une pierre bleue.", "en": "In the chest, Léa finds a ring with a blue stone."},
+      {"fr": "Lou a mis les **bagues** sur ses petits doigts.", "en": "Lou put the rings on her little fingers."},
+      {"fr": "Cette **bague** est trop grande pour moi.", "en": "This ring is too big for me."}]},
+    {"id": "collier", "fr": "collier", "pos": "noun", "g": "m", "ipa": "kɔ.lje", "en": "necklace; (animal's) collar", "def": "Un bijou qu'on porte autour du cou ; ce qu'on met autour du cou d'un chien ou d'un chat.", "def_en": "A piece of jewellery worn round the neck; what you put round a dog's or a cat's neck.", "forms": ["colliers"], "examples": [
+      {"fr": "Louise porte un **collier** de perles.", "en": "Louise is wearing a pearl necklace."},
+      {"fr": "Le **collier** de Biquette est rouge.", "en": "Biquette's collar is red."},
+      {"fr": "Lou a fait un **collier** de pâtes pour sa mère.", "en": "Lou made a pasta necklace for her mother."}]},
+    {"id": "alliance", "fr": "alliance", "pos": "noun", "g": "f", "ipa": "a.ljɑ̃s", "en": "wedding ring; alliance", "def": "La bague que portent les gens mariés ; un accord entre des pays ou des personnes.", "def_en": "The ring married people wear; an agreement between countries or people.", "forms": ["alliances"], "examples": [
+      {"fr": "Jacques porte son **alliance** depuis plus de cinquante ans.", "en": "Jacques has worn his wedding ring for more than fifty years."},
+      {"fr": "Le témoin garde les **alliances** jusqu'à la mairie.", "en": "The best man keeps the rings until the town hall."},
+      {"fr": "Les deux partis ont fait une **alliance**.", "en": "The two parties have formed an alliance."}]},
+    {"id": "carnet", "fr": "carnet", "pos": "noun", "g": "m", "ipa": "kaʁ.nɛ", "en": "notebook; book (of tickets or stamps)", "def": "Un petit cahier pour écrire des notes ; un ensemble de tickets ou de timbres.", "def_en": "A small exercise book for notes; a set of tickets or stamps.", "note": "*Un carnet de santé* = a child's health record book.", "forms": ["carnets"], "examples": [
+      {"fr": "Tom note les mots familiers dans un **carnet**.", "en": "Tom writes down informal words in a notebook."},
+      {"fr": "Le **carnet** de recettes de Louise est plein de taches.", "en": "Louise's recipe notebook is full of stains."},
+      {"fr": "Un **carnet** de tickets de métro, s'il vous plaît.", "en": "A book of metro tickets, please."}]},
+    {"id": "plume", "fr": "plume", "pos": "noun", "g": "f", "ipa": "plym", "en": "feather; (pen) nib", "def": "Ce qui couvre le corps des oiseaux ; autrefois, l'objet avec lequel on écrivait.", "def_en": "What covers a bird's body; in the past, the thing you wrote with.", "note": "*Léger comme une plume* = as light as a feather.", "forms": ["plumes"], "examples": [
+      {"fr": "Lou a trouvé une **plume** de mouette.", "en": "Lou has found a seagull's feather."},
+      {"fr": "Jacques écrivait ses lettres à la **plume**.", "en": "Jacques wrote his letters with a dip pen."},
+      {"fr": "Cet oreiller est plein de **plumes**.", "en": "This pillow is full of feathers."}]},
+    {"id": "fantome", "fr": "fantôme", "pos": "noun", "g": "m", "ipa": "fɑ̃.tom", "en": "ghost; (adj) phantom", "def": "L'esprit d'un mort qui revient, dans les histoires.", "def_en": "The spirit of a dead person who comes back, in stories.", "forms": ["fantômes"], "examples": [
+      {"fr": "Lou a peur : il y a un **fantôme** dans le grenier !", "en": "Lou is scared: there's a ghost in the attic!"},
+      {"fr": "Ce vieux château est plein de **fantômes**.", "en": "This old castle is full of ghosts."},
+      {"fr": "Le **fantôme**, c'était un vieux drap.", "en": "The ghost was an old sheet."}]},
+    {"id": "obscurite", "fr": "obscurité", "pos": "noun", "g": "f", "ipa": "ɔp.sky.ʁi.te", "en": "darkness", "def": "L'absence de lumière.", "def_en": "The absence of light.", "examples": [
+      {"fr": "Tom a peur de l'**obscurité**.", "en": "Tom is afraid of the dark."},
+      {"fr": "Dans l'**obscurité**, on ne voit rien.", "en": "In the darkness, you can't see a thing."},
+      {"fr": "Les chats voient bien dans l'**obscurité**.", "en": "Cats can see well in the dark."}]},
+    {"id": "lueur", "fr": "lueur", "pos": "noun", "g": "f", "ipa": "lɥœʁ", "en": "glimmer, faint light", "def": "Une lumière faible ; un petit signe d'espoir.", "def_en": "A faint light; a small sign of hope.", "forms": ["lueurs"], "examples": [
+      {"fr": "À la **lueur** de la lampe, Hugo ouvre le coffre.", "en": "By the light of the torch, Hugo opens the chest."},
+      {"fr": "Au loin, on voit la **lueur** d'un phare.", "en": "In the distance you can see the glimmer of a lighthouse."},
+      {"fr": "Il y a une **lueur** d'espoir.", "en": "There's a glimmer of hope."}]},
+    {"id": "curiosite", "fr": "curiosité", "pos": "noun", "g": "f", "ipa": "ky.ʁjo.zi.te", "en": "curiosity", "def": "L'envie de savoir ou de découvrir des choses nouvelles.", "def_en": "The wish to know or discover new things.", "note": "*La curiosité est un vilain défaut* (saying) = curiosity killed the cat.", "forms": ["curiosités"], "examples": [
+      {"fr": "Par **curiosité**, Lou ouvre toutes les boîtes.", "en": "Out of curiosity, Lou opens all the boxes."},
+      {"fr": "La **curiosité** de Lou n'a pas de limite.", "en": "Lou's curiosity knows no bounds."},
+      {"fr": "Il a regardé par **curiosité**.", "en": "He looked out of curiosity."}]},
+    {"id": "chagrin", "fr": "chagrin", "pos": "noun", "g": "m", "ipa": "ʃa.ɡʁɛ̃", "en": "sorrow, grief, heartache", "def": "Une grande tristesse.", "def_en": "Great sadness.", "note": "*Un chagrin d'amour* = heartbreak.", "forms": ["chagrins"], "examples": [
+      {"fr": "Jacques avait un **chagrin** d'amour à seize ans.", "en": "Jacques had his heart broken at sixteen."},
+      {"fr": "Lou a du **chagrin** : son ballon s'est envolé.", "en": "Lou is upset: her balloon has flown away."},
+      {"fr": "Le temps guérit les **chagrins**.", "en": "Time heals all sorrows."}]},
+    {"id": "douceur", "fr": "douceur", "pos": "noun", "g": "f", "ipa": "du.sœʁ", "en": "gentleness, softness, sweetness", "def": "La qualité de ce qui est doux, agréable, gentil.", "def_en": "The quality of what is soft, pleasant, kind.", "note": "*En douceur* = gently, smoothly.", "forms": ["douceurs"], "examples": [
+      {"fr": "Louise parle à Lou avec **douceur**.", "en": "Louise speaks gently to Lou."},
+      {"fr": "J'aime la **douceur** du soir en été.", "en": "I love the mildness of summer evenings."},
+      {"fr": "Avec le café, une petite **douceur** : un carré de chocolat.", "en": "With the coffee, a little sweet treat: a square of chocolate."}]},
+    {"id": "humour", "fr": "humour", "pos": "noun", "g": "m", "ipa": "y.muʁ", "en": "humour", "def": "L'art de faire rire ou de voir le côté drôle des choses.", "def_en": "The art of making people laugh or of seeing the funny side of things.", "examples": [
+      {"fr": "Jacques a beaucoup d'**humour**.", "en": "Jacques has a great sense of humour."},
+      {"fr": "L'**humour** anglais, c'est spécial.", "en": "English humour is something else."},
+      {"fr": "Il faut le prendre avec **humour**.", "en": "You have to see the funny side."}]},
+    {"id": "merveille", "fr": "merveille", "pos": "noun", "g": "f", "ipa": "mɛʁ.vɛj", "en": "marvel, wonder", "def": "Une chose très belle, qui fait plaisir à voir.", "def_en": "Something very beautiful that is a joy to see.", "note": "*À merveille* = wonderfully. *Les Sept Merveilles du monde* = the Seven Wonders of the World.", "forms": ["merveilles"], "examples": [
+      {"fr": "Ce gâteau est une **merveille**.", "en": "This cake is a marvel."},
+      {"fr": "« Tu es une **merveille** », écrit Jacques à Louise.", "en": "'You are a wonder,' Jacques writes to Louise."},
+      {"fr": "Les jumeaux vont à **merveille**.", "en": "The twins are doing wonderfully."}]},
+    {"id": "gamin", "fr": "gamin", "pos": "noun", "g": "m", "ipa": "ɡa.mɛ̃", "display": "le gamin, la gamine", "en": "kid (informal)", "def": "Un enfant, dans la langue de tous les jours.", "def_en": "A child, in everyday language.", "note": "*Quand j'étais gamin* = when I was a kid.", "forms": ["gamine", "gamins", "gamines"], "examples": [
+      {"fr": "Quand j'étais **gamin**, je jouais dans ce grenier.", "en": "When I was a kid, I used to play in this attic."},
+      {"fr": "Arrête de faire le **gamin** !", "en": "Stop acting like a kid!"},
+      {"fr": "Les **gamins** du quartier jouent au foot.", "en": "The kids from the neighbourhood are playing football."}]}
+  ],
+  "story": {
+    "title": "Le coffre du grenier",
+    "en": "Wednesday 18 August, Marseille: Lou, Léa and Hugo explore the grandparents' attic.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi dix-huit août, il fait trop chaud pour aller à la plage. Lou s'ennuie.", "en": "On Wednesday 18 August, it's too hot to go to the beach. Lou is bored."},
+      {"sp": "Lou", "fr": "Je veux une aventure !", "en": "I want an adventure!"},
+      {"sp": "Louise", "fr": "Alors montez au grenier. Il y a peut-être un trésor…", "en": "Then go up to the attic. There might be some treasure…"},
+      {"sp": "", "fr": "Le grenier est sombre et plein de poussière. Dans l'obscurité, Lou voit une grande forme blanche et pousse un cri.", "en": "The attic is dark and full of dust. In the darkness, Lou sees a big white shape and screams."},
+      {"sp": "Lou", "fr": "Un fantôme !", "en": "A ghost!"},
+      {"sp": "", "fr": "Hugo allume sa lampe. À la lueur de la lampe, le fantôme devient… un vieux drap sur une chaise.", "en": "Hugo switches on his torch. In the light of the torch, the ghost turns into… an old sheet over a chair."},
+      {"sp": "Léa", "fr": "Heureusement que Tom n'est pas là. Lui, il a peur du noir.", "en": "Lucky Tom isn't here. He's afraid of the dark."},
+      {"sp": "", "fr": "Derrière les valises, il y a un vieux coffre en bois. Lou tape des pieds d'impatience : elle veut l'ouvrir tout de suite.", "en": "Behind the suitcases there's an old wooden chest. Lou stamps her feet with impatience: she wants to open it right away."},
+      {"sp": "Léa", "fr": "Un peu de patience, Lou ! Il est lourd.", "en": "A little patience, Lou! It's heavy."},
+      {"sp": "", "fr": "Dans le coffre, il y a une petite boîte de bijoux : une bague avec une pierre bleue, un collier de perles et une vieille alliance.", "en": "In the chest there's a little jewellery box: a ring with a blue stone, a pearl necklace and an old wedding ring."},
+      {"sp": "", "fr": "Il y a aussi un carnet de recettes, une vieille plume… et un paquet de lettres, attachées avec un ruban rouge.", "en": "There's also a recipe notebook, an old dip pen… and a bundle of letters, tied with a red ribbon."},
+      {"sp": "", "fr": "La curiosité est trop forte. Léa lit la première lettre à voix haute.", "en": "Curiosity is too strong. Léa reads the first letter out loud."},
+      {"sp": "Léa", "fr": "« Ma Louise, tu es une merveille. Sans toi, j'ai du chagrin, même à la plage. Ton Jacques, seize ans. »", "en": "'My Louise, you are a wonder. Without you I'm heartbroken, even at the beach. Your Jacques, aged sixteen.'"},
+      {"sp": "Hugo", "fr": "Papi écrivait des poèmes ? Avec des fautes d'orthographe ?", "en": "Grandpa wrote poems? With spelling mistakes?"},
+      {"sp": "", "fr": "Ils descendent dans le jardin avec les lettres. Louise rit aux larmes, et Jacques devient tout rouge.", "en": "They go down to the garden with the letters. Louise laughs till she cries, and Jacques goes bright red."},
+      {"sp": "Jacques", "fr": "Ce ne sont pas mes lettres. C'est… un autre Jacques.", "en": "Those aren't my letters. It's… another Jacques."},
+      {"sp": "Louise", "fr": "Quel mensonge ! Tu étais un gamin, tu écrivais très mal… et j'ai tout gardé.", "en": "What a lie! You were a kid, you wrote terribly… and I kept them all."},
+      {"sp": "Jacques", "fr": "C'était un secret, Louise !", "en": "It was a secret, Louise!"},
+      {"sp": "Louise", "fr": "Un secret de plus de soixante ans ? Il était temps de le partager.", "en": "A secret more than sixty years old? It was time to share it."},
+      {"sp": "Lou", "fr": "Papi, c'est quoi, un chagrin ?", "en": "Grandpa, what's heartache?"},
+      {"sp": "Jacques", "fr": "C'est quand on est triste, très triste. Mais ta grand-mère m'a guéri.", "en": "It's when you're sad, very sad. But your grandmother cured me."},
+      {"sp": "Léa", "fr": "Mamie, c'est quoi, le secret d'un couple ?", "en": "Granny, what's the secret of a happy couple?"},
+      {"sp": "Louise", "fr": "Mon conseil ? Beaucoup de patience, de la douceur, et surtout de l'humour.", "en": "My advice? Lots of patience, some gentleness, and above all a sense of humour."},
+      {"sp": "Jacques", "fr": "Et une femme qui garde toutes vos lettres.", "en": "And a wife who keeps all your letters."},
+      {"sp": "Hugo", "fr": "J'ai une blague sur les lettres d'amour…", "en": "I've got a joke about love letters…"},
+      {"sp": "Léa", "fr": "Non, Hugo.", "en": "No, Hugo."},
+      {"sp": "", "fr": "Louise donne le collier à Lou, pour jouer à la princesse. Puis elle met la bague à pierre bleue dans la main de Léa.", "en": "Louise gives the necklace to Lou, to play princesses. Then she puts the blue-stone ring in Léa's hand."},
+      {"sp": "Louise", "fr": "Elle était à ma mère. Pour ta première année à l'université, ma chérie.", "en": "It was my mother's. For your first year at university, darling."},
+      {"sp": "Léa", "fr": "Merci, Mamie. Je n'ai aucun regret : c'était mieux que la plage.", "en": "Thank you, Granny. I have no regrets: it was better than the beach."},
+      {"sp": "", "fr": "Le soir, Lou dort avec son collier. Et Jacques relit ses vieilles lettres en secret, avec un petit sourire.", "en": "That evening, Lou sleeps with her necklace on. And Jacques rereads his old letters in secret, with a little smile."}
+    ]
+  }
+}
