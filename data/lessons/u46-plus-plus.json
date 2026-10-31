@@ -1,0 +1,108 @@
+{
+  "id": "u46-plus-plus",
+  "type": "grammar",
+  "unit": 46,
+  "title": "Plus il a peur, plus il cale",
+  "en": "Plus… plus, d'autant plus que",
+  "intro": "To say that two things change together, French starts each half with **plus** or **moins**, with no article and no *que*: ***Plus** Hugo a peur, **plus** il cale.* With *bien* and *bon*, it's **mieux** and **meilleur**: *plus on s'entraîne, **mieux** on conduit*. **De plus en plus** and **de moins en moins** describe a steady change, and **d'autant plus… que** adds a reason: *il est **d'autant plus** nerveux **que** l'examen approche*.",
+  "cases": [
+    {"id": "pp-plus-plus", "label": "plus… plus, moins… moins", "rule": "Each half starts with *plus* or *moins*, with no *le* and no *que*, and a comma in between: *Plus il a peur, plus il cale. Moins on dort, moins on est patient. Plus on est de fous, plus on rit.*"},
+    {"id": "pp-mixte", "label": "plus… moins, moins… plus", "rule": "The two halves can go in opposite directions: *Plus vous me regardez, moins vous regardez la route. Moins vous parlez, plus j'ai peur.*"},
+    {"id": "pp-mieux", "label": "plus… mieux, plus… meilleur", "rule": "*Plus bien* becomes *mieux*, and *plus bon* becomes *meilleur*: *Plus on s'entraîne, mieux on conduit. Plus le vin vieillit, meilleur il est.* And a fixed phrase: *le plus tôt sera le mieux*."},
+    {"id": "pp-progressif", "label": "de plus en plus, de moins en moins", "rule": "For a steady change: *Hugo conduit de mieux en mieux. Il cale de moins en moins. Les voitures vont de plus en plus vite.*"},
+    {"id": "pp-autant", "label": "d'autant plus… que: all the more… because", "rule": "*D'autant plus… que* adds a reason that makes something stronger: *Il est d'autant plus nerveux que l'examen approche. Je suis d'autant plus content que vous avez mis le bon clignotant.* Also *d'autant moins… que*."}
+  ],
+  "sections": [
+    {"title": "1. plus… plus, moins… moins", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Plus il a peur, plus il cale.", "The more scared he is, the more he stalls."],
+      ["Plus on roule, plus on apprend.", "The more you drive, the more you learn."],
+      ["Moins on dort, moins on est patient.", "The less you sleep, the less patient you are."],
+      ["Plus on est de fous, plus on rit.", "The more the merrier."]]},
+     "examples": [
+      {"fr": "Oui, mais {plus j'ai peur, plus je cale|pp-plus-plus}.", "en": "Yes, but the more scared I get, the more I stall."},
+      {"fr": "{Plus on est de fous, plus on rit|pp-plus-plus} : je viens avec toi la prochaine fois ?", "en": "The more the merrier: shall I come with you next time?"}],
+     "tip": "No le, no que: plus il a peur, plus il cale (never le plus qu'il a peur)."},
+    {"title": "2. In opposite directions", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Plus il pense au moniteur, moins il regarde la route.", "The more he thinks about the instructor, the less he watches the road."],
+      ["Moins il réfléchit, plus il va vite.", "The less he thinks, the faster he goes."],
+      ["Plus on attend, moins on a envie.", "The longer you wait, the less you want to."]]},
+     "examples": [
+      {"fr": "{Plus vous me regardez, moins vous regardez la route|pp-mixte}.", "en": "The more you look at me, the less you look at the road."},
+      {"fr": "{Plus j'y pense, moins j'y crois|pp-mixte} : je n'ai calé que deux fois !", "en": "The more I think about it, the less I believe it: I only stalled twice!"}],
+     "tip": "In writing, you sometimes see et before the second half: plus il pense, et moins il regarde la route."},
+    {"title": "3. mieux, meilleur", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Plus on s'entraîne, mieux on conduit.", "The more you practise, the better you drive."],
+      ["Moins il y a de monde, mieux c'est.", "The fewer people, the better."],
+      ["Plus le vin vieillit, meilleur il est.", "The older the wine, the better it is."],
+      ["Le plus tôt sera le mieux.", "The sooner, the better."]]},
+     "examples": [
+      {"fr": "Vous voyez ? {Plus on s'entraîne, mieux on conduit|pp-mieux}.", "en": "You see? The more you practise, the better you drive."},
+      {"fr": "{Plus tu dors, mieux tu conduis|pp-mieux}.", "en": "The more you sleep, the better you drive."}],
+     "tip": "With an adjective in the second half, it comes before the verb: plus il vieillit, meilleur il est."},
+    {"title": "4. de plus en plus, de moins en moins", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Hugo conduit de mieux en mieux.", "Hugo drives better and better."],
+      ["Il cale de moins en moins.", "He stalls less and less."],
+      ["Les voitures vont de plus en plus vite.", "The cars go faster and faster."],
+      ["Il y a de plus en plus de camions.", "There are more and more lorries."]]},
+     "examples": [
+      {"fr": "Depuis trois semaines, {Hugo conduit de mieux en mieux|pp-progressif}.", "en": "For three weeks now, Hugo has been driving better and better."},
+      {"fr": "{Il cale de moins en moins|pp-progressif} : deux fois aujourd'hui, au lieu de cinq.", "en": "He stalls less and less: twice today, instead of five times."}],
+     "tip": "With a noun: de plus en plus de voitures (more and more cars), de moins en moins de temps (less and less time)."},
+    {"title": "5. d'autant plus… que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il est d'autant plus nerveux que l'examen approche.", "He's all the more nervous because the test is getting close."],
+      ["Je suis d'autant plus content que tu es venue.", "I'm all the happier because you came."],
+      ["Il roule d'autant moins vite qu'il a peur.", "He drives all the more slowly because he's scared."]]},
+     "examples": [
+      {"fr": "Bravo ! {Je suis d'autant plus content que vous avez mis le bon clignotant|pp-autant}.", "en": "Well done! I'm all the happier because you used the right indicator."},
+      {"fr": "{Hugo est d'autant plus nerveux que Carla a eu son permis du premier coup|pp-autant}.", "en": "Hugo is all the more nervous because Carla passed her test first time."}],
+     "tip": "D'autant plus que on its own means especially as: prends le bus, d'autant plus qu'il pleut."}
+  ],
+  "mistakes": [
+    {"wrong": "Le plus il a peur, le plus il cale.", "right": "Plus il a peur, plus il cale.", "why": "No le before plus here (English says the more…)."},
+    {"wrong": "Plus il a peur, plus qu'il cale.", "right": "Plus il a peur, plus il cale.", "why": "No que in the second half."},
+    {"wrong": "Plus on s'entraîne, plus bien on conduit.", "right": "Plus on s'entraîne, mieux on conduit.", "why": "Plus bien becomes mieux."},
+    {"wrong": "Il conduit de plus en plus bien.", "right": "Il conduit de mieux en mieux.", "why": "Say de mieux en mieux, not de plus en plus bien."},
+    {"wrong": "Il est d'autant plus nerveux parce que l'examen approche.", "right": "Il est d'autant plus nerveux que l'examen approche.", "why": "D'autant plus is followed by que, not parce que."}
+  ],
+  "story": {
+    "title": "Plus il a peur, plus il cale",
+    "en": "Saturday 25 September: Hugo's fourth driving lesson, and his test date.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-cinq septembre, Hugo a sa quatrième leçon de conduite avec Monsieur Vidal.", "en": "On Saturday 25 September, Hugo has his fourth driving lesson with Monsieur Vidal."},
+      {"sp": "", "fr": "Depuis trois semaines, {Hugo conduit de mieux en mieux|pp-progressif}. {Il cale de moins en moins|pp-progressif} : deux fois aujourd'hui, au lieu de cinq.", "en": "For three weeks now, Hugo has been driving better and better. He stalls less and less: twice today, instead of five times."},
+      {"sp": "Monsieur Vidal", "fr": "Vous voyez ? {Plus on s'entraîne, mieux on conduit|pp-mieux}.", "en": "You see? The more you practise, the better you drive."},
+      {"sp": "Hugo", "fr": "Oui, mais {plus j'ai peur, plus je cale|pp-plus-plus}. Et {plus je cale, plus j'ai peur|pp-plus-plus} !", "en": "Yes, but the more scared I get, the more I stall. And the more I stall, the more scared I get!"},
+      {"sp": "", "fr": "Aujourd'hui, la leçon a lieu sur le périphérique, au milieu des camions.", "en": "Today, the lesson is on the ring road, among the lorries."},
+      {"sp": "Monsieur Vidal", "fr": "Regardez devant vous, Hugo. {Plus vous me regardez, moins vous regardez la route|pp-mixte}.", "en": "Look ahead, Hugo. The more you look at me, the less you look at the road."},
+      {"sp": "Hugo", "fr": "C'est votre calme qui me fait peur. {Moins vous parlez, plus j'ai peur|pp-mixte} !", "en": "It's your calm that scares me. The less you talk, the more scared I get!"},
+      {"sp": "", "fr": "Hugo passe la quatrième. Les voitures vont {de plus en plus vite|pp-progressif}, et il serre le volant {de plus en plus fort|pp-progressif}.", "en": "Hugo changes into fourth. The cars go faster and faster, and he grips the wheel tighter and tighter."},
+      {"sp": "", "fr": "À la sortie, il met son clignotant… du bon côté, pour la première fois.", "en": "At the exit, he indicates… on the right side, for the first time."},
+      {"sp": "Monsieur Vidal", "fr": "Bravo ! {Je suis d'autant plus content que vous avez mis le bon clignotant|pp-autant}.", "en": "Well done! I'm all the happier because you used the right indicator."},
+      {"sp": "", "fr": "Puis Monsieur Vidal annonce une nouvelle : l'examen du permis aura lieu le mardi seize novembre.", "en": "Then Monsieur Vidal has some news: the driving test will be on Tuesday 16 November."},
+      {"sp": "Hugo", "fr": "En novembre ? Mais c'est dans sept semaines !", "en": "In November? But that's seven weeks away!"},
+      {"sp": "Monsieur Vidal", "fr": "{Le plus tôt sera le mieux|pp-mieux}. Et {plus on attend, moins on a envie|pp-mixte}.", "en": "The sooner, the better. And the longer you wait, the less you want to."},
+      {"sp": "", "fr": "{Hugo est d'autant plus nerveux que Carla a eu son permis du premier coup|pp-autant}.", "en": "Hugo is all the more nervous because Carla passed her test first time."},
+      {"sp": "", "fr": "Le soir, au café d'en bas, tout le monde veut des nouvelles.", "en": "In the evening, at the café downstairs, everyone wants news."},
+      {"sp": "Carla", "fr": "Alors, ce périphérique ?", "en": "So, how was the ring road?"},
+      {"sp": "Hugo", "fr": "{Plus j'y pense, moins j'y crois|pp-mixte} : je n'ai calé que deux fois !", "en": "The more I think about it, the less I believe it: I only stalled twice!"},
+      {"sp": "Tom", "fr": "{Plus on est de fous, plus on rit|pp-plus-plus} : je viens avec toi la prochaine fois ?", "en": "The more the merrier: shall I come with you next time?"},
+      {"sp": "Léa", "fr": "Non ! {Moins il y a de monde dans la voiture, mieux c'est|pp-mieux}.", "en": "No! The fewer people in the car, the better."},
+      {"sp": "", "fr": "Enzo arrive avec des croissants : il a déjà les clés de sa chambre sous le toit.", "en": "Enzo arrives with croissants: he already has the keys to his room under the roof."},
+      {"sp": "Enzo", "fr": "Pour l'examen, j'ai un conseil : {plus tu dors, mieux tu conduis|pp-mieux}. Moi, je me lève à trois heures et demie… mais je ne conduis pas !", "en": "For the test, I've got some advice: the more you sleep, the better you drive. Me, I get up at half past three… but I don't drive!"},
+      {"sp": "", "fr": "Tout le monde rit, et {Hugo rit d'autant plus fort qu'il a enfin bien conduit|pp-autant}.", "en": "Everyone laughs, and Hugo laughs all the louder because he has finally driven well."}
+    ]
+  },
+  "quiz": [
+    {"case": "pp-plus-plus", "type": "mc", "q": "___ il a peur, plus il cale.", "en": "The more scared he is, the more he stalls.", "options": ["Plus", "Le plus", "Plus qu'"], "answer": "Plus"},
+    {"case": "pp-plus-plus", "type": "mc", "q": "Plus on est de fous, ___ on rit.", "en": "The more the merrier.", "options": ["plus", "le plus", "plus que"], "answer": "plus"},
+    {"case": "pp-mixte", "type": "mc", "q": "Plus vous me regardez, ___ vous regardez la route.", "en": "The more you look at me, the less you look at the road.", "options": ["moins", "le moins", "plus moins"], "answer": "moins"},
+    {"case": "pp-mixte", "type": "mc", "q": "Plus j'y pense, ___ j'y crois.", "en": "The more I think about it, the less I believe it.", "options": ["moins", "le moins", "moins que"], "answer": "moins"},
+    {"case": "pp-mieux", "type": "mc", "q": "Plus on s'entraîne, ___ on conduit.", "en": "The more you practise, the better you drive.", "options": ["mieux", "plus bien", "meilleur"], "answer": "mieux"},
+    {"case": "pp-mieux", "type": "mc", "q": "Plus le vin vieillit, ___ il est.", "en": "The older the wine, the better it is.", "options": ["meilleur", "mieux", "plus bon"], "answer": "meilleur"},
+    {"case": "pp-progressif", "type": "mc", "q": "Hugo conduit ___.", "en": "Hugo drives better and better.", "options": ["de mieux en mieux", "de plus en plus bien", "plus et plus bien"], "answer": "de mieux en mieux"},
+    {"case": "pp-progressif", "type": "mc", "q": "Il cale ___.", "en": "He stalls less and less.", "options": ["de moins en moins", "moins et moins", "le moins en moins"], "answer": "de moins en moins"},
+    {"case": "pp-autant", "type": "mc", "q": "Il est d'autant plus nerveux ___ l'examen approche.", "en": "He's all the more nervous because the test is getting close.", "options": ["que", "parce que", "comme"], "answer": "que"},
+    {"case": "pp-autant", "type": "mc", "q": "Je suis ___ content que vous avez mis le bon clignotant.", "en": "I'm all the happier because you used the right indicator.", "options": ["d'autant plus", "autant plus", "de plus"], "answer": "d'autant plus"}
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "u46-vendanges",
+  "type": "vocab",
+  "unit": 46,
+  "title": "Une grappe sur trois",
+  "en": "The grape harvest",
+  "intro": "25 words for the grape harvest: the vineyard (**la vigne, le vignoble, le vigneron, le cépage, le terroir, le rang**), picking (**les vendanges, vendanger, le vendangeur, la récolte, le raisin, la grappe, le sécateur, la hotte, la guêpe**), the cellar (**le pressoir, la cuve, le tonneau, le millésime, le tire-bouchon**), and the tasting (**la dégustation, le sommelier, le rosé, cracher, ivre**).",
+  "words": [
+    {"id": "vendanges", "fr": "vendanges", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "vɑ̃.dɑ̃ʒ", "en": "grape harvest", "def": "Le moment de l'année où on cueille le raisin pour faire le vin.", "def_en": "The time of year when grapes are picked to make wine.", "examples": [
+      {"fr": "Les **vendanges** commencent en septembre.", "en": "The grape harvest starts in September."},
+      {"fr": "Pendant les **vendanges**, on se lève à six heures.", "en": "During the grape harvest, you get up at six."},
+      {"fr": "Beaucoup d'étudiants font les **vendanges** pour gagner un peu d'argent.", "en": "Lots of students pick grapes to earn a bit of money."}]},
+    {"id": "vendanger", "fr": "vendanger", "pos": "verb", "ipa": "vɑ̃.dɑ̃.ʒe", "en": "to pick grapes, to harvest grapes", "def": "Cueillir le raisin.", "def_en": "To pick grapes.", "forms": ["vendange", "vendanges", "vendangeons", "vendangez", "vendangent", "vendangé", "vendangée", "vendangés", "vendangées", "vendangeais", "vendangeait", "vendangions", "vendangiez", "vendangeaient", "vendangerai", "vendangeras", "vendangera", "vendangerons", "vendangerez", "vendangeront", "vendangerais", "vendangerait", "vendangerions", "vendangeriez", "vendangeraient", "vendangeant", "vendangeai", "vendangeas", "vendangea", "vendangâmes", "vendangâtes", "vendangèrent"], "examples": [
+      {"fr": "Dans le Beaujolais, on **vendange** à la main.", "en": "In the Beaujolais, grapes are picked by hand."},
+      {"fr": "Hugo n'a jamais **vendangé**.", "en": "Hugo has never picked grapes."},
+      {"fr": "Demain, on **vendange** les dernières vignes.", "en": "Tomorrow we pick the last vines."}]},
+    {"id": "vendangeur", "fr": "vendangeur", "pos": "noun", "g": "m", "ipa": "vɑ̃.dɑ̃.ʒœʁ", "display": "le vendangeur, la vendangeuse", "en": "grape picker", "def": "Une personne qui cueille le raisin pendant la récolte.", "def_en": "A person who picks grapes during the harvest.", "forms": ["vendangeurs", "vendangeuse", "vendangeuses"], "examples": [
+      {"fr": "Gérard cherche des **vendangeurs** pour le week-end.", "en": "Gérard is looking for grape pickers for the weekend."},
+      {"fr": "Les **vendangeurs** mangent ensemble à midi.", "en": "The pickers eat together at noon."},
+      {"fr": "Carla est la meilleure **vendangeuse** du groupe.", "en": "Carla is the best picker in the group."}]},
+    {"id": "vigne", "fr": "vigne", "pos": "noun", "g": "f", "ipa": "viɲ", "en": "vine; vineyard", "def": "La plante qui donne le raisin ; un champ de ces plantes.", "def_en": "The plant that grows grapes; a field of these plants.", "forms": ["vignes"], "examples": [
+      {"fr": "Les **vignes** couvrent toutes les collines.", "en": "The vines cover all the hills."},
+      {"fr": "Gérard soigne sa **vigne** toute l'année.", "en": "Gérard looks after his vines all year round."},
+      {"fr": "Il y a une petite **vigne** derrière la maison.", "en": "There's a little vineyard behind the house."}]},
+    {"id": "vignoble", "fr": "vignoble", "pos": "noun", "g": "m", "ipa": "vi.ɲɔbl", "en": "vineyard; wine-growing region", "def": "Les champs de vigne d'une région ou d'un domaine.", "def_en": "The vine fields of a region or an estate.", "forms": ["vignobles"], "examples": [
+      {"fr": "Le **vignoble** du Beaujolais est au nord de Lyon.", "en": "The Beaujolais vineyards are north of Lyon."},
+      {"fr": "La famille de Gérard a ce **vignoble** depuis cent ans.", "en": "Gérard's family has had this vineyard for a hundred years."},
+      {"fr": "Les **vignobles** français sont célèbres dans le monde entier.", "en": "French vineyards are famous all over the world."}]},
+    {"id": "vigneron", "fr": "vigneron", "pos": "noun", "g": "m", "ipa": "vi.ɲə.ʁɔ̃", "display": "le vigneron, la vigneronne", "en": "winegrower", "def": "La personne qui cultive la vigne et qui fait du vin.", "def_en": "The person who grows vines and makes wine.", "forms": ["vignerons", "vigneronne", "vigneronnes"], "examples": [
+      {"fr": "Gérard est **vigneron**, comme son père.", "en": "Gérard is a winegrower, like his father."},
+      {"fr": "La **vigneronne** goûte le raisin pour voir s'il est mûr.", "en": "The winegrower tastes the grapes to see if they're ripe."},
+      {"fr": "Les **vignerons** regardent le ciel tous les matins.", "en": "Winegrowers look at the sky every morning."}]},
+    {"id": "raisin", "fr": "raisin", "pos": "noun", "g": "m", "ipa": "ʁɛ.zɛ̃", "en": "grapes", "def": "Les petits fruits ronds, verts ou noirs, qui poussent en grappes et qui servent à faire le vin.", "def_en": "The small round fruit, green or black, that grows in bunches and is used to make wine.", "note": "*Du raisin* = grapes. *Un raisin sec* = a raisin.", "forms": ["raisins"], "examples": [
+      {"fr": "Le **raisin** est bien mûr cette année.", "en": "The grapes are really ripe this year."},
+      {"fr": "Hugo mange plus de **raisin** qu'il n'en cueille.", "en": "Hugo eats more grapes than he picks."},
+      {"fr": "Le jus de **raisin**, c'est pour Carla.", "en": "The grape juice is for Carla."}]},
+    {"id": "grappe", "fr": "grappe", "pos": "noun", "g": "f", "ipa": "ɡʁap", "en": "bunch, cluster", "def": "Un groupe de petits fruits qui tiennent ensemble sur la même branche.", "def_en": "A group of small fruits growing together on the same stem.", "forms": ["grappes"], "examples": [
+      {"fr": "Carla coupe une **grappe** énorme.", "en": "Carla cuts a huge bunch."},
+      {"fr": "Les **grappes** sont lourdes et sucrées.", "en": "The bunches are heavy and sweet."},
+      {"fr": "Une **grappe** de touristes attend devant la cave.", "en": "A cluster of tourists is waiting outside the cellar."}]},
+    {"id": "secateur", "fr": "sécateur", "pos": "noun", "g": "m", "ipa": "se.ka.tœʁ", "en": "secateurs, pruning shears", "def": "Des petits ciseaux très forts pour couper les branches ou le raisin.", "def_en": "Small, very strong scissors for cutting branches or grapes.", "forms": ["sécateurs"], "examples": [
+      {"fr": "Chaque vendangeur a un **sécateur** et un seau.", "en": "Each picker has a pair of secateurs and a bucket."},
+      {"fr": "Attention à tes doigts avec le **sécateur** !", "en": "Mind your fingers with the secateurs!"},
+      {"fr": "Hugo a perdu son **sécateur** dans les feuilles.", "en": "Hugo has lost his secateurs in the leaves."}]},
+    {"id": "hotte", "fr": "hotte", "pos": "noun", "g": "f", "hAsp": true, "ipa": "ɔt", "en": "back basket; (kitchen) hood", "def": "Un grand panier qu'on porte sur le dos ; l'appareil au-dessus du feu de la cuisine, contre la fumée.", "def_en": "A big basket carried on the back; the appliance above the cooker that takes away the smoke.", "note": "The h is aspirated: *la hotte*. *La hotte du père Noël* = Father Christmas's sack.", "forms": ["hottes"], "examples": [
+      {"fr": "Tom porte la **hotte** : elle pèse cinquante kilos.", "en": "Tom carries the back basket: it weighs fifty kilos."},
+      {"fr": "Les vendangeurs vident leur seau dans la **hotte**.", "en": "The pickers empty their buckets into the back basket."},
+      {"fr": "Le père Noël a une **hotte** pleine de cadeaux.", "en": "Father Christmas has a sack full of presents."}]},
+    {"id": "rang", "fr": "rang", "pos": "noun", "g": "m", "ipa": "ʁɑ̃", "en": "row; rank", "def": "Une ligne de choses ou de personnes ; la place dans un classement.", "def_en": "A line of things or people; a place in a ranking.", "note": "*Au premier rang* = in the front row.", "forms": ["rangs"], "examples": [
+      {"fr": "Chaque vendangeur a son **rang** de vigne.", "en": "Each picker has a row of vines."},
+      {"fr": "Au cinéma, Hugo s'assoit toujours au premier **rang**.", "en": "At the cinema, Hugo always sits in the front row."},
+      {"fr": "Carla était au septième **rang** du concours.", "en": "Carla came seventh in the entrance exam."}]},
+    {"id": "recolte", "fr": "récolte", "pos": "noun", "g": "f", "ipa": "ʁe.kɔlt", "en": "harvest, crop", "def": "Le fait de cueillir les fruits, les légumes ou le blé ; ce qu'on a cueilli.", "def_en": "Gathering fruit, vegetables or wheat; what has been gathered.", "forms": ["récoltes"], "examples": [
+      {"fr": "Cette année, la **récolte** est excellente.", "en": "This year, the harvest is excellent."},
+      {"fr": "La pluie a détruit une partie de la **récolte**.", "en": "The rain has destroyed part of the crop."},
+      {"fr": "Pierre vend la **récolte** de son jardin au marché.", "en": "Pierre sells what his garden produces at the market."}]},
+    {"id": "pressoir", "fr": "pressoir", "pos": "noun", "g": "m", "ipa": "pʁɛ.swaʁ", "en": "(wine) press", "def": "La grande machine qui écrase le raisin pour en tirer le jus.", "def_en": "The big machine that crushes the grapes to get the juice out.", "forms": ["pressoirs"], "examples": [
+      {"fr": "Le raisin part au **pressoir** le soir même.", "en": "The grapes go to the press that same evening."},
+      {"fr": "Le vieux **pressoir** en bois a deux cents ans.", "en": "The old wooden press is two hundred years old."},
+      {"fr": "Sous le **pressoir**, le jus coule dans une cuve.", "en": "Under the press, the juice flows into a vat."}]},
+    {"id": "cuve", "fr": "cuve", "pos": "noun", "g": "f", "ipa": "kyv", "en": "vat, tank", "def": "Une très grande boîte en métal ou en béton où le jus de raisin devient du vin.", "def_en": "A very big metal or concrete container where grape juice turns into wine.", "forms": ["cuves"], "examples": [
+      {"fr": "Le jus reste dix jours dans la **cuve**.", "en": "The juice stays in the vat for ten days."},
+      {"fr": "Gérard monte sur une échelle pour regarder dans la **cuve**.", "en": "Gérard climbs a ladder to look into the vat."},
+      {"fr": "Les **cuves** du domaine sont en acier.", "en": "The estate's vats are made of steel."}]},
+    {"id": "tonneau", "fr": "tonneau", "pos": "noun", "g": "m", "ipa": "tɔ.no", "en": "barrel, cask", "def": "Une grande boîte ronde en bois, où le vin vieillit.", "def_en": "A big round wooden container where wine ages.", "forms": ["tonneaux"], "examples": [
+      {"fr": "Dans la cave, il y a cent **tonneaux**.", "en": "There are a hundred barrels in the cellar."},
+      {"fr": "Ce vin a passé un an en **tonneau**.", "en": "This wine spent a year in the barrel."},
+      {"fr": "Hugo frappe sur un **tonneau** : il est vide.", "en": "Hugo knocks on a barrel: it's empty."}]},
+    {"id": "cepage", "fr": "cépage", "pos": "noun", "g": "m", "ipa": "se.paʒ", "en": "grape variety", "def": "Une sorte de vigne, avec son raisin à elle.", "def_en": "A kind of vine, with its own grapes.", "forms": ["cépages"], "examples": [
+      {"fr": "Dans le Beaujolais, le **cépage** principal est le gamay.", "en": "In the Beaujolais, the main grape variety is gamay."},
+      {"fr": "Ce vin mélange trois **cépages**.", "en": "This wine blends three grape varieties."},
+      {"fr": "Chaque **cépage** a son goût.", "en": "Each grape variety has its own taste."}]},
+    {"id": "terroir", "fr": "terroir", "pos": "noun", "g": "m", "ipa": "tɛ.ʁwaʁ", "en": "terroir; the land (its soil, climate and traditions)", "def": "La terre, le climat et les traditions d'une région, qui donnent un goût spécial à ses produits.", "def_en": "The soil, climate and traditions of a region, which give its produce a special taste.", "note": "*Un produit du terroir* = a local speciality.", "forms": ["terroirs"], "examples": [
+      {"fr": "Pour Gérard, le vin, c'est d'abord le **terroir**.", "en": "For Gérard, wine is first of all about the terroir."},
+      {"fr": "Jules et Manon vendent des produits du **terroir**.", "en": "Jules and Manon sell local produce."},
+      {"fr": "Chaque **terroir** donne un vin différent.", "en": "Each terroir gives a different wine."}]},
+    {"id": "degustation", "fr": "dégustation", "pos": "noun", "g": "f", "ipa": "de.ɡys.ta.sjɔ̃", "en": "tasting", "def": "Le fait de goûter un vin ou un plat avec attention.", "def_en": "Tasting a wine or a dish carefully.", "forms": ["dégustations"], "examples": [
+      {"fr": "Le dimanche, il y a une **dégustation** dans la cave.", "en": "On Sundays, there's a tasting in the cellar."},
+      {"fr": "Une **dégustation** de fromages, ça te dit ?", "en": "How about a cheese tasting?"},
+      {"fr": "À la **dégustation**, Carla boit du jus de raisin.", "en": "At the tasting, Carla drinks grape juice."}]},
+    {"id": "millesime", "fr": "millésime", "pos": "noun", "g": "m", "ipa": "mi.le.zim", "en": "vintage, year", "def": "L'année où on a cueilli le raisin d'un vin.", "def_en": "The year the grapes for a wine were picked.", "forms": ["millésimes"], "examples": [
+      {"fr": "C'est un grand **millésime** : l'été était chaud.", "en": "It's a great vintage: the summer was hot."},
+      {"fr": "Sur l'étiquette, on lit le **millésime**.", "en": "You can read the year on the label."},
+      {"fr": "Quel **millésime** préférez-vous ?", "en": "Which vintage do you prefer?"}]},
+    {"id": "tire-bouchon", "fr": "tire-bouchon", "pos": "noun", "g": "m", "ipa": "tiʁ.bu.ʃɔ̃", "en": "corkscrew", "def": "L'outil qu'on utilise pour ouvrir une bouteille de vin.", "def_en": "The tool you use to open a bottle of wine.", "forms": ["tire-bouchons"], "examples": [
+      {"fr": "Qui a vu le **tire-bouchon** ?", "en": "Who's seen the corkscrew?"},
+      {"fr": "Hugo ouvre la bouteille sans **tire-bouchon**… avec une chaussure.", "en": "Hugo opens the bottle without a corkscrew… with a shoe."},
+      {"fr": "Ce **tire-bouchon** a cent ans.", "en": "This corkscrew is a hundred years old."}]},
+    {"id": "sommelier", "fr": "sommelier", "pos": "noun", "g": "m", "ipa": "sɔ.mə.lje", "display": "le sommelier, la sommelière", "en": "sommelier, wine waiter", "def": "La personne qui choisit et sert les vins dans un restaurant.", "def_en": "The person who chooses and serves the wines in a restaurant.", "forms": ["sommeliers", "sommelière", "sommelières"], "examples": [
+      {"fr": "Le **sommelier** conseille un vin rouge avec le fromage.", "en": "The sommelier recommends a red wine with the cheese."},
+      {"fr": "La **sommelière** sent le vin avant de le goûter.", "en": "The sommelier smells the wine before tasting it."},
+      {"fr": "Dans un grand restaurant, il y a toujours un **sommelier**.", "en": "In a top restaurant, there's always a sommelier."}]},
+    {"id": "rose-vin", "fr": "rosé", "pos": "noun", "g": "m", "ipa": "ʁo.ze", "en": "rosé (wine)", "def": "Un vin d'une couleur entre le rouge et le blanc, qu'on boit frais.", "def_en": "A wine coloured between red and white, drunk chilled.", "forms": ["rosés"], "examples": [
+      {"fr": "En été, à Marseille, on boit du **rosé**.", "en": "In summer, in Marseille, people drink rosé."},
+      {"fr": "Un verre de **rosé**, s'il vous plaît.", "en": "A glass of rosé, please."},
+      {"fr": "Le **rosé** se boit bien frais.", "en": "Rosé is drunk well chilled."}]},
+    {"id": "cracher", "fr": "cracher", "pos": "verb", "ipa": "kʁa.ʃe", "en": "to spit", "def": "Faire sortir de sa bouche ce qu'on ne veut pas avaler.", "def_en": "To send out of your mouth what you don't want to swallow.", "forms": ["crache", "craches", "crachons", "crachez", "crachent", "craché", "crachée", "crachés", "crachées", "crachais", "crachait", "crachions", "crachiez", "crachaient", "cracherai", "cracheras", "crachera", "cracherons", "cracherez", "cracheront", "cracherais", "cracherait", "cracherions", "cracheriez", "cracheraient", "crachant", "crachai", "crachas", "cracha", "crachâmes", "crachâtes", "crachèrent"], "examples": [
+      {"fr": "Pendant une dégustation, on goûte le vin, puis on le **crache**.", "en": "At a tasting, you taste the wine, then you spit it out."},
+      {"fr": "Il est interdit de **cracher** par terre.", "en": "Spitting on the ground is not allowed."},
+      {"fr": "Adam **crache** sa purée de carottes.", "en": "Adam spits out his carrot purée."}]},
+    {"id": "ivre", "fr": "ivre", "pos": "adj", "ipa": "ivʁ", "en": "drunk", "def": "Qui a bu trop d'alcool.", "def_en": "Having drunk too much alcohol.", "note": "*Ivre de joie* = wild with joy.", "forms": ["ivres"], "examples": [
+      {"fr": "On ne boit pas pour être **ivre**, on boit pour goûter.", "en": "You don't drink to get drunk, you drink to taste."},
+      {"fr": "Après un verre, Hugo n'est pas **ivre** : il est fatigué.", "en": "After one glass, Hugo isn't drunk: he's tired."},
+      {"fr": "Le soir de la victoire, toute la ville était **ivre** de joie.", "en": "On the night of the victory, the whole town was wild with joy."}]},
+    {"id": "guepe", "fr": "guêpe", "pos": "noun", "g": "f", "ipa": "ɡɛp", "en": "wasp", "def": "Un insecte jaune et noir qui pique, et qui aime le sucre.", "def_en": "A yellow and black insect that stings and loves sugar.", "forms": ["guêpes"], "examples": [
+      {"fr": "Les **guêpes** adorent le raisin bien mûr.", "en": "Wasps love really ripe grapes."},
+      {"fr": "Hugo a peur des abeilles… et des **guêpes**.", "en": "Hugo is afraid of bees… and of wasps."},
+      {"fr": "Une **guêpe** a piqué Tom au doigt.", "en": "A wasp stung Tom on the finger."}]}
+  ],
+  "story": {
+    "title": "Une grappe sur trois",
+    "en": "Saturday 11 and Sunday 12 September: grape picking in the Beaujolais.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi onze septembre, c'est le début des vendanges dans le Beaujolais. À six heures du matin, une camionnette attend devant la boulangerie.", "en": "On Saturday 11 September, the grape harvest begins in the Beaujolais. At six in the morning, a van is waiting outside the bakery."},
+      {"sp": "", "fr": "Au volant, il y a Gérard, le frère de Madame Fournier. Il est vigneron, et il cherche des vendangeurs pour le week-end.", "en": "At the wheel is Gérard, Madame Fournier's brother. He's a winegrower, and he's looking for grape pickers for the weekend."},
+      {"sp": "Madame Fournier", "fr": "Vous êtes payés et nourris. Et vous me rapportez une bouteille !", "en": "You'll be paid and fed. And you'll bring me back a bottle!"},
+      {"sp": "", "fr": "Tom, Hugo, Carla et Léa montent dans la camionnette. Une minute plus tard, Hugo dort déjà.", "en": "Tom, Hugo, Carla and Léa get into the van. A minute later, Hugo is already asleep."},
+      {"sp": "", "fr": "Une heure après, ils arrivent au domaine. Les vignes couvrent toutes les collines, aussi loin qu'on peut voir.", "en": "An hour later, they reach the estate. The vines cover all the hills, as far as the eye can see."},
+      {"sp": "Gérard", "fr": "Bienvenue dans le vignoble ! Ici, c'est du gamay, le cépage du Beaujolais. Chez nous, on vendange à la main, comme mon père et mon grand-père.", "en": "Welcome to the vineyard! This is gamay, the grape of the Beaujolais. Here we pick by hand, like my father and my grandfather."},
+      {"sp": "", "fr": "Chaque vendangeur reçoit un sécateur et un seau, et chacun prend un rang.", "en": "Each picker gets a pair of secateurs and a bucket, and each takes a row."},
+      {"sp": "Gérard", "fr": "On coupe la grappe ici, juste au-dessus. Et on ne mange pas le raisin… enfin, pas trop.", "en": "You cut the bunch here, just above. And you don't eat the grapes… well, not too many."},
+      {"sp": "", "fr": "Carla coupe vite et bien. Hugo, lui, mange une grappe sur trois.", "en": "Carla cuts quickly and well. Hugo eats one bunch out of three."},
+      {"sp": "", "fr": "Tom porte la hotte. Les vendangeurs vident leur seau dedans, puis il va la vider dans le tracteur. Elle pèse cinquante kilos.", "en": "Tom carries the back basket. The pickers empty their buckets into it, then he goes and empties it into the tractor. It weighs fifty kilos."},
+      {"sp": "Tom", "fr": "Mon dos ! En Angleterre, on achète le vin au supermarché…", "en": "My back! In England we buy wine at the supermarket…"},
+      {"sp": "", "fr": "Vers dix heures, les guêpes arrivent : elles adorent le raisin bien mûr.", "en": "Around ten, the wasps arrive: they love really ripe grapes."},
+      {"sp": "Hugo", "fr": "Une abeille ! Au secours !", "en": "A bee! Help!"},
+      {"sp": "Léa", "fr": "C'est une guêpe, Hugo. Ne bouge pas.", "en": "It's a wasp, Hugo. Don't move."},
+      {"sp": "", "fr": "Hugo ne bouge pas… pendant une seconde. Puis il court tout le long du rang, son sécateur à la main.", "en": "Hugo doesn't move… for one second. Then he runs the whole length of the row, his secateurs in his hand."},
+      {"sp": "", "fr": "À midi, tout le monde mange entre les vignes : du pain, du jambon, du fromage. Gérard prend une bouteille, mais il ne trouve pas son tire-bouchon.", "en": "At noon, everyone eats among the vines: bread, ham, cheese. Gérard takes a bottle, but he can't find his corkscrew."},
+      {"sp": "", "fr": "Hugo met la bouteille dans sa chaussure et tape contre un arbre. Le bouchon sort. Gérard rit aux larmes.", "en": "Hugo puts the bottle in his shoe and taps it against a tree. The cork comes out. Gérard laughs till he cries."},
+      {"sp": "Gérard", "fr": "Cette année, la récolte est belle. Ce sera un bon millésime : l'été a été chaud.", "en": "This year the harvest is good. It'll be a good vintage: the summer was hot."},
+      {"sp": "", "fr": "Le soir, le raisin part au pressoir, et le jus coule dans de grandes cuves en acier, où il va fermenter.", "en": "In the evening, the grapes go to the press, and the juice flows into big steel vats, where it will ferment."},
+      {"sp": "", "fr": "Puis Gérard les emmène dans la cave, sous la maison : des tonneaux partout, et une odeur de bois et de vin.", "en": "Then Gérard takes them down to the cellar under the house: barrels everywhere, and a smell of wood and wine."},
+      {"sp": "Gérard", "fr": "Pour moi, le vin, c'est d'abord le terroir : la terre, le soleil… et le travail des vendangeurs.", "en": "For me, wine is first of all the terroir: the soil, the sun… and the pickers' work."},
+      {"sp": "", "fr": "Le dimanche après-midi, c'est la dégustation. Gérard sert un vin rouge, puis un rosé.", "en": "On Sunday afternoon, it's the tasting. Gérard serves a red wine, then a rosé."},
+      {"sp": "Gérard", "fr": "On regarde, on sent, on goûte… et on crache. On ne boit pas pour être ivre, on boit pour goûter.", "en": "You look, you smell, you taste… and you spit. You don't drink to get drunk, you drink to taste."},
+      {"sp": "", "fr": "Tom crache comme un professionnel. Hugo avale tout, par habitude.", "en": "Tom spits like a professional. Hugo swallows everything, out of habit."},
+      {"sp": "", "fr": "Carla, qui ne boit pas d'alcool, déguste un jus de raisin très sérieusement.", "en": "Carla, who doesn't drink alcohol, tastes a grape juice very seriously."},
+      {"sp": "Carla", "fr": "Un goût de fraise, un peu de soleil… Excellent millésime : septembre.", "en": "A hint of strawberry, a touch of sunshine… An excellent vintage: September."},
+      {"sp": "Léa", "fr": "Tu parles comme un sommelier !", "en": "You talk like a sommelier!"},
+      {"sp": "", "fr": "Le soir, chacun repart avec son salaire, des courbatures et une bouteille pour Madame Fournier.", "en": "In the evening, they all head home with their pay, aching muscles and a bottle for Madame Fournier."},
+      {"sp": "Gérard", "fr": "Revenez l'année prochaine ! Et en novembre, venez goûter le beaujolais nouveau.", "en": "Come back next year! And in November, come and taste the Beaujolais nouveau."},
+      {"sp": "", "fr": "Dans la camionnette, tout le monde dort, sauf Gérard, qui conduit… et Hugo, qui compte ses grappes.", "en": "In the van, everyone sleeps, except Gérard, who's driving… and Hugo, who's counting his bunches."}
+    ]
+  }
+}

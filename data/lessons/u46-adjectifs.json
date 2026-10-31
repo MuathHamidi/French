@@ -1,0 +1,138 @@
+{
+  "id": "u46-adjectifs",
+  "type": "vocab",
+  "unit": 46,
+  "title": "Un amphi immense",
+  "en": "Common adjectives (3)",
+  "intro": "25 common adjectives: size and number (**immense, gigantesque, innombrable, divers**), how things are (**principal, essentiel, indispensable, compliqué, pénible, évident, direct, définitif, actuel**), what stands out (**remarquable, exceptionnel, intense, banal**), people (**sévère, absent, anonyme, conscient, capable**), and fields (**social, professionnel, musical**).",
+  "words": [
+    {"id": "immense", "fr": "immense", "pos": "adj", "ipa": "i.mɑ̃s", "en": "huge, immense", "def": "Très, très grand.", "def_en": "Very, very big.", "forms": ["immenses"], "examples": [
+      {"fr": "L'amphithéâtre est **immense** : six cents places !", "en": "The lecture theatre is huge: six hundred seats!"},
+      {"fr": "Le parc de la Tête d'Or est **immense**.", "en": "The Parc de la Tête d'Or is huge."},
+      {"fr": "Merci, c'est une **immense** joie.", "en": "Thank you, it's an immense joy."}]},
+    {"id": "gigantesque", "fr": "gigantesque", "pos": "adj", "ipa": "ʒi.ɡɑ̃.tɛsk", "en": "gigantic", "def": "Énorme, beaucoup plus grand que la normale.", "def_en": "Enormous, much bigger than normal.", "forms": ["gigantesques"], "examples": [
+      {"fr": "Au fond de la salle, il y a un piano **gigantesque**.", "en": "At the back of the room, there's a gigantic piano."},
+      {"fr": "Il y a une queue **gigantesque** devant la cafétéria.", "en": "There's a gigantic queue outside the cafeteria."},
+      {"fr": "Hugo a mangé un sandwich **gigantesque**.", "en": "Hugo ate a gigantic sandwich."}]},
+    {"id": "innombrable", "fr": "innombrable", "pos": "adj", "ipa": "i.nɔ̃.bʁabl", "en": "countless, innumerable", "def": "Si nombreux qu'on ne peut pas les compter.", "def_en": "So many that you can't count them.", "forms": ["innombrables"], "examples": [
+      {"fr": "D'**innombrables** étudiants attendent devant l'amphi.", "en": "Countless students are waiting outside the lecture hall."},
+      {"fr": "Il y a d'**innombrables** étoiles dans le ciel.", "en": "There are countless stars in the sky."},
+      {"fr": "Mamie a des souvenirs **innombrables**.", "en": "Granny has countless memories."}]},
+    {"id": "divers", "fr": "divers", "pos": "adj", "ipa": "di.vɛʁ", "en": "various, diverse", "def": "Pas tous pareils ; plusieurs.", "def_en": "Different from one another; several.", "note": "*Les faits divers* = minor news stories.", "forms": ["diverse", "diverses"], "examples": [
+      {"fr": "Les étudiants viennent de pays **divers**.", "en": "The students come from all sorts of countries."},
+      {"fr": "On a parlé de sujets **divers**.", "en": "We talked about various things."},
+      {"fr": "**Diverses** associations sont présentes à la rentrée.", "en": "Various clubs are there at the start of term."}]},
+    {"id": "principal", "fr": "principal", "pos": "adj", "ipa": "pʁɛ̃.si.pal", "en": "main, principal", "def": "Le plus important de tous.", "def_en": "The most important of all.", "forms": ["principale", "principaux", "principales"], "examples": [
+      {"fr": "Le bâtiment **principal** est au bord du Rhône.", "en": "The main building is by the Rhône."},
+      {"fr": "Sa **principale** qualité ? La patience.", "en": "Her main quality? Patience."},
+      {"fr": "Les cours **principaux** ont lieu le matin.", "en": "The main classes take place in the morning."}]},
+    {"id": "essentiel", "fr": "essentiel", "pos": "adj", "ipa": "e.sɑ̃.sjɛl", "en": "essential; (l'essentiel) the main thing", "def": "Très important, dont on ne peut pas se passer.", "def_en": "Very important, something you can't do without.", "forms": ["essentielle", "essentiels", "essentielles"], "examples": [
+      {"fr": "Le dictionnaire est **essentiel** en première année.", "en": "A dictionary is essential in the first year."},
+      {"fr": "L'**essentiel**, c'est de participer.", "en": "The main thing is to take part."},
+      {"fr": "Voici les points **essentiels** du cours.", "en": "Here are the essential points of the course."}]},
+    {"id": "indispensable", "fr": "indispensable", "pos": "adj", "ipa": "ɛ̃.di.spɑ̃.sabl", "en": "essential, indispensable", "def": "Qu'on doit absolument avoir ; sans quoi on ne peut rien faire.", "def_en": "That you absolutely must have; without which you can't do anything.", "forms": ["indispensables"], "examples": [
+      {"fr": "Pour Tom, la guitare est **indispensable**.", "en": "For Tom, his guitar is indispensable."},
+      {"fr": "Le café est **indispensable** avant un cours à huit heures.", "en": "Coffee is a must before an eight o'clock class."},
+      {"fr": "La carte d'étudiant est **indispensable** pour entrer.", "en": "Your student card is essential to get in."}]},
+    {"id": "complique", "fr": "compliqué", "pos": "adj", "ipa": "kɔ̃.pli.ke", "en": "complicated", "def": "Difficile à comprendre ou à faire.", "def_en": "Hard to understand or to do.", "forms": ["compliquée", "compliqués", "compliquées"], "examples": [
+      {"fr": "L'emploi du temps est très **compliqué**.", "en": "The timetable is very complicated."},
+      {"fr": "C'est **compliqué** d'apprendre à conduire.", "en": "Learning to drive is complicated."},
+      {"fr": "Hugo a une vie **compliquée**.", "en": "Hugo has a complicated life."}]},
+    {"id": "penible", "fr": "pénible", "pos": "adj", "ipa": "pe.nibl", "en": "tiresome, a pain; hard", "def": "Fatigant et pas agréable.", "def_en": "Tiring and not pleasant.", "forms": ["pénibles"], "examples": [
+      {"fr": "La queue à la cafétéria est **pénible**.", "en": "The queue at the cafeteria is a pain."},
+      {"fr": "Arrête, tu es **pénible** !", "en": "Stop it, you're being a pain!"},
+      {"fr": "Les vendanges, c'est un travail **pénible** pour le dos.", "en": "Grape picking is hard work on your back."}]},
+    {"id": "evident", "fr": "évident", "pos": "adj", "ipa": "e.vi.dɑ̃", "en": "obvious", "def": "Que tout le monde voit ou comprend tout de suite.", "def_en": "That everyone sees or understands straight away.", "note": "*Ce n'est pas évident* (spoken) = it's not easy.", "forms": ["évidente", "évidents", "évidentes"], "examples": [
+      {"fr": "C'est **évident** : Tom est le meilleur guitariste.", "en": "It's obvious: Tom is the best guitarist."},
+      {"fr": "La réponse est **évidente**.", "en": "The answer is obvious."},
+      {"fr": "Ce n'est pas **évident** de trouver la salle.", "en": "It's not easy to find the room."}]},
+    {"id": "direct", "fr": "direct", "pos": "adj", "ipa": "di.ʁɛkt", "en": "direct; straightforward", "def": "Qui va tout droit, sans détour ; qui dit les choses franchement.", "def_en": "That goes straight, without a detour; who says things frankly.", "note": "*En direct* = live (on TV). *Un train direct* = a through train.", "forms": ["directe", "directs", "directes"], "examples": [
+      {"fr": "Il y a un bus **direct** jusqu'à l'université.", "en": "There's a direct bus to the university."},
+      {"fr": "La professeure de Tom est très **directe** : elle dit ce qu'elle pense.", "en": "Tom's teacher is very direct: she says what she thinks."},
+      {"fr": "Prends l'escalier, c'est plus **direct**.", "en": "Take the stairs, it's quicker."}]},
+    {"id": "definitif", "fr": "définitif", "pos": "adj", "ipa": "de.fi.ni.tif", "en": "final, definitive", "def": "Qui ne va plus changer.", "def_en": "That won't change any more.", "note": "*En définitive* = in the end, all things considered.", "forms": ["définitive", "définitifs", "définitives"], "examples": [
+      {"fr": "L'emploi du temps **définitif** sort lundi.", "en": "The final timetable comes out on Monday."},
+      {"fr": "C'est ta réponse **définitive** ?", "en": "Is that your final answer?"},
+      {"fr": "Les résultats **définitifs** sont sur internet.", "en": "The final results are online."}]},
+    {"id": "actuel", "fr": "actuel", "pos": "adj", "ipa": "ak.tɥɛl", "en": "current, present-day (not 'actual')", "def": "Qui existe maintenant, à notre époque.", "def_en": "That exists now, in our time.", "note": "A false friend: *actuel* = current. *Actual* = *réel*, *vrai*.", "forms": ["actuelle", "actuels", "actuelles"], "examples": [
+      {"fr": "Le cours porte sur le français **actuel**.", "en": "The course is about present-day French."},
+      {"fr": "Le directeur **actuel** est arrivé l'année dernière.", "en": "The current director arrived last year."},
+      {"fr": "Dans la situation **actuelle**, on ne peut rien faire.", "en": "In the present situation, there's nothing we can do."}]},
+    {"id": "remarquable", "fr": "remarquable", "pos": "adj", "ipa": "ʁə.maʁ.kabl", "en": "remarkable, outstanding", "def": "Très bien, qu'on ne peut pas oublier.", "def_en": "Very good, unforgettable.", "forms": ["remarquables"], "examples": [
+      {"fr": "Le professeur de Léa est **remarquable**.", "en": "Léa's lecturer is remarkable."},
+      {"fr": "La basilique de Fourvière est **remarquable**.", "en": "Fourvière Basilica is remarkable."},
+      {"fr": "Ton travail est **remarquable**, Enzo.", "en": "Your work is outstanding, Enzo."}]},
+    {"id": "exceptionnel", "fr": "exceptionnel", "pos": "adj", "ipa": "ɛk.sɛp.sjɔ.nɛl", "en": "exceptional", "def": "Très rare, ou beaucoup mieux que d'habitude.", "def_en": "Very rare, or much better than usual.", "forms": ["exceptionnelle", "exceptionnels", "exceptionnelles"], "examples": [
+      {"fr": "Ce millésime est **exceptionnel**.", "en": "This vintage is exceptional."},
+      {"fr": "Aujourd'hui, la bibliothèque est fermée : c'est **exceptionnel**.", "en": "The library is closed today: that's very unusual."},
+      {"fr": "Carla est une danseuse **exceptionnelle**.", "en": "Carla is an exceptional dancer."}]},
+    {"id": "intense", "fr": "intense", "pos": "adj", "ipa": "ɛ̃.tɑ̃s", "en": "intense", "def": "Très fort, très grand.", "def_en": "Very strong, very great.", "forms": ["intenses"], "examples": [
+      {"fr": "La première semaine est très **intense**.", "en": "The first week is very intense."},
+      {"fr": "Il fait une chaleur **intense**.", "en": "The heat is intense."},
+      {"fr": "Tom joue avec une émotion **intense**.", "en": "Tom plays with intense emotion."}]},
+    {"id": "banal", "fr": "banal", "pos": "adj", "ipa": "ba.nal", "en": "ordinary, commonplace, banal", "def": "Très ordinaire, sans rien de spécial.", "def_en": "Very ordinary, with nothing special about it.", "note": "The masculine plural is *banals*.", "forms": ["banale", "banals", "banales"], "examples": [
+      {"fr": "Une rentrée **banale** ? Pas pour Hugo.", "en": "An ordinary start of term? Not for Hugo."},
+      {"fr": "C'est une question **banale**, mais importante.", "en": "It's an everyday question, but an important one."},
+      {"fr": "Ces exemples sont trop **banals**.", "en": "These examples are too ordinary."}]},
+    {"id": "severe", "fr": "sévère", "pos": "adj", "ipa": "se.vɛʁ", "en": "strict, harsh, severe", "def": "Qui demande beaucoup et ne laisse rien passer.", "def_en": "Who demands a lot and lets nothing pass.", "forms": ["sévères"], "examples": [
+      {"fr": "Le professeur de Léa a l'air **sévère**.", "en": "Léa's lecturer looks strict."},
+      {"fr": "Madame Dupont est **sévère**, mais juste.", "en": "Madame Dupont is strict, but fair."},
+      {"fr": "La loi est plus **sévère** pour les jeunes conducteurs.", "en": "The law is stricter for new drivers."}]},
+    {"id": "absent", "fr": "absent", "pos": "adj", "ipa": "ap.sɑ̃", "en": "absent, away", "def": "Qui n'est pas là.", "def_en": "Who isn't there.", "forms": ["absente", "absents", "absentes"], "examples": [
+      {"fr": "Le professeur est **absent** aujourd'hui.", "en": "The teacher is away today."},
+      {"fr": "Madame Dupont est **absente** toute la semaine.", "en": "Madame Dupont is away all week."},
+      {"fr": "Pendant le cours, Hugo a l'air **absent**.", "en": "During the class, Hugo looks far away."}]},
+    {"id": "anonyme", "fr": "anonyme", "pos": "adj", "ipa": "a.nɔ.nim", "en": "anonymous", "def": "Dont on ne connaît pas le nom.", "def_en": "Whose name you don't know.", "forms": ["anonymes"], "examples": [
+      {"fr": "Dans un amphi de six cents places, on se sent **anonyme**.", "en": "In a six-hundred-seat lecture hall, you feel anonymous."},
+      {"fr": "Hugo a reçu une carte **anonyme** pour la Saint-Valentin.", "en": "Hugo got an anonymous card for Valentine's Day."},
+      {"fr": "Une lettre **anonyme** est arrivée à la mairie.", "en": "An anonymous letter has arrived at the town hall."}]},
+    {"id": "conscient", "fr": "conscient", "pos": "adj", "ipa": "kɔ̃.sjɑ̃", "en": "aware, conscious", "def": "Qui sait ce qui se passe ; qui est réveillé.", "def_en": "Who knows what's happening; who is awake.", "forms": ["consciente", "conscients", "conscientes"], "examples": [
+      {"fr": "Léa est **consciente** de sa chance.", "en": "Léa is aware how lucky she is."},
+      {"fr": "Après sa chute, Hugo est resté **conscient**.", "en": "After his fall, Hugo stayed conscious."},
+      {"fr": "Les jeunes sont **conscients** du problème du climat.", "en": "Young people are aware of the climate problem."}]},
+    {"id": "capable", "fr": "capable", "pos": "adj", "ipa": "ka.pabl", "en": "capable, able (capable de = able to)", "def": "Qui peut faire quelque chose, qui a les qualités pour le faire.", "def_en": "Who can do something, who has what it takes.", "forms": ["capables"], "examples": [
+      {"fr": "Hugo est **capable** de dormir partout.", "en": "Hugo can sleep anywhere."},
+      {"fr": "Tu es **capable** de réussir !", "en": "You can do it!"},
+      {"fr": "Les jumeaux sont **capables** de tout.", "en": "The twins are capable of anything."}]},
+    {"id": "social", "fr": "social", "pos": "adj", "ipa": "sɔ.sjal", "en": "social", "def": "De la société ; des relations entre les gens.", "def_en": "Of society; of relations between people.", "note": "*Les réseaux sociaux* = social media.", "forms": ["sociale", "sociaux", "sociales"], "examples": [
+      {"fr": "La vie **sociale** des étudiants commence à la cafétéria.", "en": "Students' social life starts in the cafeteria."},
+      {"fr": "Les sciences **sociales** sont au deuxième étage.", "en": "The social sciences are on the second floor."},
+      {"fr": "Le chômage est un grave problème **social**.", "en": "Unemployment is a serious social problem."}]},
+    {"id": "professionnel", "fr": "professionnel", "pos": "adj", "ipa": "pʁɔ.fɛ.sjɔ.nɛl", "en": "professional", "def": "Du travail, du métier ; qui fait quelque chose comme métier.", "def_en": "To do with work or a trade; who does something for a living.", "forms": ["professionnelle", "professionnels", "professionnelles"], "examples": [
+      {"fr": "Tom veut devenir musicien **professionnel**.", "en": "Tom wants to become a professional musician."},
+      {"fr": "Inès a une attitude très **professionnelle**.", "en": "Inès has a very professional attitude."},
+      {"fr": "La vie **professionnelle** de Hugo va bien.", "en": "Hugo's working life is going well."}]},
+    {"id": "musical", "fr": "musical", "pos": "adj", "ipa": "my.zi.kal", "en": "musical", "def": "De la musique.", "def_en": "Of music.", "note": "*Une comédie musicale* = a musical.", "forms": ["musicale", "musicaux", "musicales"], "examples": [
+      {"fr": "Tom a une très bonne oreille **musicale**.", "en": "Tom has a very good musical ear."},
+      {"fr": "La culture **musicale** est un cours obligatoire.", "en": "Music appreciation is a compulsory course."},
+      {"fr": "Les instruments **musicaux** sont dans la salle quatre.", "en": "The musical instruments are in room four."}]}
+  ],
+  "story": {
+    "title": "Un amphi immense",
+    "en": "Monday 13 September: Léa and Tom's first day at university.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi treize septembre, c'est la rentrée à l'université. Léa et Tom prennent le même tram, très fiers et un peu stressés.", "en": "On Monday 13 September, the university year starts. Léa and Tom take the same tram, very proud and a bit stressed."},
+      {"sp": "", "fr": "Le bâtiment principal est immense. Devant le grand amphithéâtre, d'innombrables étudiants attendent ; ils viennent de pays divers.", "en": "The main building is huge. Outside the big lecture theatre, countless students are waiting; they come from all sorts of countries."},
+      {"sp": "Léa", "fr": "Six cents places ! Dans un amphi comme ça, on se sent anonyme.", "en": "Six hundred seats! In a lecture hall like that, you feel anonymous."},
+      {"sp": "Tom", "fr": "Moi, je cherche la salle de musique. C'est compliqué : l'emploi du temps n'est pas encore définitif.", "en": "I'm looking for the music room. It's complicated: the timetable isn't final yet."},
+      {"sp": "", "fr": "Le premier [cours|cours] de Léa s'appelle « Le français actuel ». Le professeur a l'air sévère.", "en": "Léa's first class is called 'French today'. The lecturer looks strict."},
+      {"sp": "Le professeur", "fr": "Bonjour. Une chose est évidente : vous parlez tous français. Mais êtes-vous conscients de la façon dont vous le parlez ?", "en": "Hello. One thing is obvious: you all speak French. But are you aware of how you speak it?"},
+      {"sp": "", "fr": "Pendant deux heures, il parle du français de tous les jours, du verlan et des différences sociales dans la langue. Léa pense à Enzo.", "en": "For two hours, he talks about everyday French, verlan and social differences in language. Léa thinks of Enzo."},
+      {"sp": "Le professeur", "fr": "Pour ce cours, un dictionnaire est indispensable. Et le sens de l'humour, essentiel.", "en": "For this course, a dictionary is a must. And a sense of humour is essential."},
+      {"sp": "", "fr": "Finalement, il n'est pas si sévère. Il est même remarquable.", "en": "In the end, he isn't that strict. In fact he's remarkable."},
+      {"sp": "", "fr": "Pendant ce temps, Tom trouve la salle de musique. Au fond, il y a un piano gigantesque.", "en": "Meanwhile, Tom finds the music room. At the back, there's a gigantic piano."},
+      {"sp": "", "fr": "Sa professeure a joué du piano dans le monde entier. Elle est très directe.", "en": "His teacher has played the piano all over the world. She's very direct."},
+      {"sp": "La professeure", "fr": "Ici, on écoute plus qu'on ne joue. Votre oreille musicale doit être exceptionnelle.", "en": "Here, you listen more than you play. Your musical ear must be exceptional."},
+      {"sp": "", "fr": "Elle joue des notes au piano, et chaque étudiant doit les nommer. Tom est capable de les reconnaître toutes.", "en": "She plays notes on the piano, and each student has to name them. Tom can recognise them all."},
+      {"sp": "La professeure", "fr": "Bien. Vous pourriez devenir un musicien professionnel… si vous arrivez à l'heure.", "en": "Good. You could become a professional musician… if you arrive on time."},
+      {"sp": "", "fr": "La première journée est intense : des cours, des papiers, des noms à retenir.", "en": "The first day is intense: classes, forms, names to remember."},
+      {"sp": "", "fr": "À midi, Léa et Tom se retrouvent à la cafétéria. La queue est pénible, mais le repas coûte trois euros.", "en": "At noon, Léa and Tom meet up at the cafeteria. The queue is a pain, but the meal costs three euros."},
+      {"sp": "Tom", "fr": "Mon premier jour ? Banal : un piano gigantesque, une professeure qui fait peur, et un repas à trois euros.", "en": "My first day? Nothing special: a gigantic piano, a scary teacher and a three-euro meal."},
+      {"sp": "", "fr": "Soudain, le téléphone de Léa vibre : un message de Hugo.", "en": "Suddenly Léa's phone buzzes: a message from Hugo."},
+      {"sp": "Hugo", "fr": "Au bureau, Madame Dupont est absente toute la semaine. Ma rentrée à moi est parfaite !", "en": "At the office, Madame Dupont is away all week. My own back-to-work is perfect!"},
+      {"sp": "Léa", "fr": "Il a de la chance… Moi, j'ai trois cents pages à lire pour vendredi.", "en": "Lucky him… I've got three hundred pages to read by Friday."},
+      {"sp": "", "fr": "Le soir, Léa écrit dans son carnet : « Premier jour. Un amphi immense, un professeur remarquable. Je suis à ma place. »", "en": "That evening, Léa writes in her notebook: 'First day. A huge lecture hall, a remarkable lecturer. I'm where I belong.'"}
+    ]
+  }
+}

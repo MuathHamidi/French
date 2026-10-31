@@ -108,7 +108,7 @@
       "def": "La lumière rouge, orange ou verte pour les voitures. Aussi : le feu qui brûle.", "def_en": "The red, amber or green light for cars. Also: fire that burns.",
       "forms": ["feux"],
       "examples": [
-        { "fr": "Au **feu** rouge, tournez à gauche.", "en": "At the red light, turn left." },
+        { "fr": "Au **[feu|feu]** rouge, tournez à gauche.", "en": "At the red light, turn left." },
         { "fr": "Attends le **feu** vert !", "en": "Wait for the green light!" },
         { "fr": "La casserole est sur le **feu**.", "en": "The saucepan is on the stove." }
       ],
@@ -186,7 +186,7 @@
       { "sp": "La dame", "fr": "Non, c'est tout près. Vous êtes à pied ?", "en": "No, it's very close. Are you on foot?" },
       { "sp": "Antoine", "fr": "Oui.", "en": "Yes." },
       { "sp": "La dame", "fr": "Alors, continuez tout droit jusqu'au carrefour.", "en": "Then keep going straight on to the crossroads." },
-      { "sp": "La dame", "fr": "Au feu rouge, tournez à gauche et traversez le pont.", "en": "At the red light, turn left and cross the bridge." },
+      { "sp": "La dame", "fr": "Au [feu|feu] rouge, tournez à gauche et traversez le pont.", "en": "At the red light, turn left and cross the bridge." },
       { "sp": "La dame", "fr": "Ensuite, prenez la deuxième rue à droite. La gare est au coin.", "en": "Then take the second street on the right. The station is on the corner." },
       { "sp": "Antoine", "fr": "Merci beaucoup, madame !", "en": "Thank you very much, madam!" },
       { "sp": "", "fr": "Antoine marche, tourne, traverse… mais il ne trouve pas la gare !", "en": "Antoine walks, turns, crosses… but he can't find the station!" },

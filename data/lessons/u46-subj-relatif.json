@@ -1,0 +1,107 @@
+{
+  "id": "u46-subj-relatif",
+  "type": "grammar",
+  "unit": 46,
+  "title": "Un studio qui soit près du fournil",
+  "en": "The subjunctive in relative clauses (le seul qui sache)",
+  "intro": "After *qui, que* or *où*, French uses the subjunctive when the thing or the person may not exist: *je cherche un studio **qui soit** près du fournil* (any studio, if there is one). When it exists, it's the indicative: *j'ai trouvé un studio **qui est** près du fournil*. The subjunctive also follows a negative (*il n'y a **aucun** studio **qui soit** libre*), a question (*tu connais quelqu'un **qui puisse** m'aider ?*), and *le seul, le premier, le meilleur…* (*c'est **le seul** studio **qui me plaise***).",
+  "cases": [
+    {"id": "sr-recherche", "label": "looking for something that may not exist", "rule": "When you're looking for something or someone that may not exist, the relative clause takes the subjunctive: *Je cherche un studio qui soit près du fournil. Il me faut une chambre où je puisse dormir le jour.*"},
+    {"id": "sr-indicatif", "label": "it exists: the indicative", "rule": "When you know the thing exists, use the indicative: *J'ai trouvé un studio qui est près du fournil. Il y a une chambre qui est libre.* Compare *je cherche un studio qui a un balcon* (one you've seen) and *qui ait un balcon* (any one, if it exists)."},
+    {"id": "sr-negation", "label": "after a negative: aucun, rien, sans…", "rule": "After a negative (*aucun, rien, pas un, sans*), the relative clause takes the subjunctive: *Il n'y a aucun studio qui soit libre. Il n'y a rien qui me plaise. Un studio sans voisins qui fassent la fête.*"},
+    {"id": "sr-question", "label": "in a question: tu connais quelqu'un qui puisse… ?", "rule": "In a question that shows doubt, the subjunctive is usual: *Tu connais quelqu'un qui puisse m'aider ? Vous avez un studio qui soit libre en octobre ?*"},
+    {"id": "sr-superlatif", "label": "le seul, le premier, le meilleur… qui + subjunctive", "rule": "After *le seul, l'unique, le premier, le dernier* and superlatives, the subjunctive gives your opinion: *C'est la seule chambre qui me plaise. C'est le plus beau studio que j'aie vu. Tu es la meilleure propriétaire que je connaisse.*"}
+  ],
+  "sections": [
+    {"title": "1. Looking for something that may not exist", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je cherche un studio qui soit près du fournil.", "I'm looking for a studio that's near the bakehouse."],
+      ["Il veut un propriétaire qui accepte les chats.", "He wants a landlord who accepts cats."],
+      ["On cherche quelqu'un qui sache cuisiner.", "We're looking for someone who can cook."],
+      ["Il me faut une chambre où je puisse dormir le jour.", "I need a room where I can sleep during the day."]]},
+     "examples": [
+      {"fr": "{Je cherche un studio qui soit à cinq minutes du fournil|sr-recherche}.", "en": "I'm looking for a studio that's five minutes from the bakehouse."},
+      {"fr": "{Un studio qui ne coûte pas plus de quatre cents euros|sr-recherche}, {où je puisse dormir le jour|sr-recherche}.", "en": "A studio that doesn't cost more than four hundred euros, where I can sleep during the day."}],
+     "tip": "The same goes for où and que: un endroit où je puisse dormir, un studio que je puisse payer."},
+    {"title": "2. It exists: the indicative", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["J'ai trouvé un studio qui est près du fournil.", "I've found a studio that's near the bakehouse."],
+      ["Je connais un propriétaire qui accepte les chats.", "I know a landlord who accepts cats."],
+      ["Il y a une chambre qui est libre.", "There's a room that's free."]]},
+     "examples": [
+      {"fr": "{Il y a une petite chambre qui est libre depuis vingt ans|sr-indicatif}.", "en": "There's a little room that has been free for twenty years."},
+      {"fr": "« {J'ai trouvé un studio qui est à trente secondes du fournil|sr-indicatif}. »", "en": "'I've found a studio thirty seconds from the bakehouse.'"}],
+     "tip": "Ask yourself: do I know it exists? If I do, indicative; if I don't, subjunctive."},
+    {"title": "3. After a negative", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il n'y a aucun studio qui soit libre.", "There isn't a single studio that's free."],
+      ["Je ne connais aucun propriétaire qui accepte les apprentis.", "I don't know any landlord who accepts apprentices."],
+      ["Il n'y a rien qui me plaise.", "There's nothing I like."],
+      ["un studio sans voisins qui fassent la fête", "a studio with no neighbours who throw parties"]]},
+     "examples": [
+      {"fr": "{Il n'y a aucun studio qui soit à la fois calme, proche et pas cher|sr-negation}.", "en": "There isn't a single studio that's quiet, close and cheap all at once."},
+      {"fr": "Et {sans voisins qui fassent la fête à midi|sr-negation}.", "en": "And with no neighbours partying at noon."}],
+     "tip": "Personne qui… works the same way: je ne connais personne qui sache réparer ça."},
+    {"title": "4. In a question", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tu connais quelqu'un qui puisse m'aider ?", "Do you know anyone who could help me?"],
+      ["Est-ce qu'il y a un studio qui soit libre ?", "Is there a studio that's free?"],
+      ["Vous avez une chambre qui coûte moins de cinq cents euros ?", "Have you got a room for less than five hundred euros?"]]},
+     "examples": [
+      {"fr": "{Tu connais quelqu'un qui puisse t'aider|sr-question} ? Dans ta famille, peut-être ?", "en": "Do you know anyone who could help you? In your family, perhaps?"},
+      {"fr": "{Vous avez un studio qui soit libre en octobre|sr-question} ?", "en": "Have you got a studio that's free in October?"}],
+     "tip": "In everyday speech many people use the indicative here; the subjunctive sounds more careful."},
+    {"title": "5. le seul, le premier, le meilleur…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["C'est la seule chambre qui me plaise.", "It's the only room I like."],
+      ["C'est le plus beau studio que j'aie vu.", "It's the most beautiful studio I've ever seen."],
+      ["C'est la meilleure baguette que je connaisse.", "It's the best baguette I know."],
+      ["mais : c'est le premier client qui est arrivé ce matin.", "but: he's the first customer who arrived this morning (a fact)."]]},
+     "examples": [
+      {"fr": "{C'est la seule chambre qui soit à zéro minute du fournil|sr-superlatif} !", "en": "It's the only room that's zero minutes from the bakehouse!"},
+      {"fr": "Mamie, {tu es la meilleure propriétaire que je connaisse|sr-superlatif}.", "en": "Granny, you're the best landlady I know."}],
+     "tip": "With le seul or a superlative, the subjunctive shows it's your opinion; for a plain fact, the indicative is fine."}
+  ],
+  "mistakes": [
+    {"wrong": "J'ai trouvé un studio qui soit près du fournil.", "right": "J'ai trouvé un studio qui est près du fournil.", "why": "The studio exists: use the indicative."},
+    {"wrong": "Il n'y a aucun studio qui est libre.", "right": "Il n'y a aucun studio qui soit libre.", "why": "After a negative, the relative clause takes the subjunctive."},
+    {"wrong": "Je cherche un studio qui soye calme.", "right": "Je cherche un studio qui soit calme.", "why": "The subjunctive of être is soit, never soye."},
+    {"wrong": "Tu connais quelqu'un qui peux m'aider ?", "right": "Tu connais quelqu'un qui puisse m'aider ?", "why": "Qui takes the third person, and a doubtful question takes the subjunctive."}
+  ],
+  "story": {
+    "title": "Un studio qui soit près du fournil",
+    "en": "Wednesday 15 September: Enzo looks for a place of his own.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Depuis septembre, Enzo est boulanger, avec un vrai contrat. Il commence à quatre heures du matin, mais il habite encore chez ses parents, à Villeurbanne.", "en": "Since September, Enzo has been a baker, with a proper contract. He starts at four in the morning, but he still lives with his parents, in Villeurbanne."},
+      {"sp": "Enzo", "fr": "Tous les matins, je prends mon vélo à trois heures et demie. {Je cherche un studio qui soit à cinq minutes du fournil|sr-recherche}.", "en": "Every morning, I get on my bike at half past three. I'm looking for a studio that's five minutes from the bakehouse."},
+      {"sp": "", "fr": "Le mercredi quinze septembre, après le travail, Tom et Hugo l'aident à chercher sur internet.", "en": "On Wednesday 15 September, after work, Tom and Hugo help him look online."},
+      {"sp": "Hugo", "fr": "Qu'est-ce que tu veux, exactement ?", "en": "What exactly do you want?"},
+      {"sp": "Enzo", "fr": "{Un studio qui ne coûte pas plus de quatre cents euros|sr-recherche}, {où je puisse dormir le jour|sr-recherche}. Et {sans voisins qui fassent la fête à midi|sr-negation}.", "en": "A studio that doesn't cost more than four hundred euros, where I can sleep during the day. And with no neighbours partying at noon."},
+      {"sp": "Tom", "fr": "Regarde celui-là : vingt mètres carrés, à dix minutes à pied.", "en": "Look at that one: twenty square metres, ten minutes' walk away."},
+      {"sp": "Enzo", "fr": "Six cents euros ! {Il n'y a aucun studio qui soit à la fois calme, proche et pas cher|sr-negation}.", "en": "Six hundred euros! There isn't a single studio that's quiet, close and cheap all at once."},
+      {"sp": "", "fr": "L'après-midi, ils visitent trois studios avec un agent immobilier pressé. Le premier est sombre, le deuxième est au-dessus d'un bar, et le troisième n'a pas de fenêtre.", "en": "In the afternoon, they view three studios with an estate agent in a hurry. The first is dark, the second is above a bar, and the third has no window."},
+      {"sp": "L'agent immobilier", "fr": "{Un studio qui soit calme, proche et pas cher|sr-recherche} ? À Lyon ? Ça n'existe pas, monsieur.", "en": "A studio that's quiet, close and cheap? In Lyon? No such thing, sir."},
+      {"sp": "Tom", "fr": "{Tu connais quelqu'un qui puisse t'aider|sr-question} ? Dans ta famille, peut-être ?", "en": "Do you know anyone who could help you? In your family, perhaps?"},
+      {"sp": "", "fr": "Enzo réfléchit. Puis il lève les yeux vers le plafond.", "en": "Enzo thinks. Then he looks up at the ceiling."},
+      {"sp": "Enzo", "fr": "Hugo, il y a quoi, au-dessus de chez vous ?", "en": "Hugo, what's above your place?"},
+      {"sp": "Hugo", "fr": "Le toit. Et des pigeons.", "en": "The roof. And pigeons."},
+      {"sp": "", "fr": "Le soir, ils posent la question à Madame Fournier, dans le fournil.", "en": "In the evening, they ask Madame Fournier, in the bakehouse."},
+      {"sp": "Madame Fournier", "fr": "Sous le toit ? {Il y a une petite chambre qui est libre depuis vingt ans|sr-indicatif}. Elle est pleine de mes vieux sacs de farine.", "en": "Under the roof? There's a little room that has been free for twenty years. It's full of my old flour sacks."},
+      {"sp": "", "fr": "Ils montent tous les quatre au dernier étage. La chambre est petite, mais elle a une fenêtre sur les toits de Lyon.", "en": "The four of them climb to the top floor. The room is small, but it has a window over the rooftops of Lyon."},
+      {"sp": "Enzo", "fr": "{C'est la seule chambre qui soit à zéro minute du fournil|sr-superlatif} ! {C'est le plus beau studio que j'aie vu|sr-superlatif} !", "en": "It's the only room that's zero minutes from the bakehouse! It's the most beautiful studio I've ever seen!"},
+      {"sp": "Madame Fournier", "fr": "Le loyer, c'est deux cents euros, et tu ranges ma farine. Et pas de fête !", "en": "The rent is two hundred euros, and you tidy away my flour. And no parties!"},
+      {"sp": "Enzo", "fr": "Mamie, {tu es la meilleure propriétaire que je connaisse|sr-superlatif}.", "en": "Granny, you're the best landlady I know."},
+      {"sp": "Tom", "fr": "Bienvenue chez nous, voisin ! Comme ça, tu me donnes des cours d'argot tous les soirs.", "en": "Welcome, neighbour! That way you can give me slang lessons every evening."},
+      {"sp": "Hugo", "fr": "Et à moi, des croissants tous les matins.", "en": "And me croissants every morning."},
+      {"sp": "", "fr": "Enzo déménage le premier octobre, avec un sac, sa console et le couteau de son arrière-grand-père. Sur les réseaux sociaux, il écrit : « {J'ai trouvé un studio qui est à trente secondes du fournil|sr-indicatif}. »", "en": "Enzo moves in on 1 October, with a bag, his games console and his great-grandfather's knife. On social media, he writes: 'I've found a studio thirty seconds from the bakehouse.'"}
+    ]
+  },
+  "quiz": [
+    {"case": "sr-recherche", "type": "mc", "q": "Je cherche un studio qui ___ près du fournil.", "en": "I'm looking for a studio that's near the bakehouse.", "options": ["soit", "est", "sera"], "answer": "soit"},
+    {"case": "sr-recherche", "type": "mc", "q": "Il me faut une chambre où je ___ dormir le jour.", "en": "I need a room where I can sleep during the day.", "options": ["puisse", "peux", "pourrai"], "answer": "puisse"},
+    {"case": "sr-indicatif", "type": "mc", "q": "J'ai trouvé un studio qui ___ à trente secondes du fournil.", "en": "I've found a studio thirty seconds from the bakehouse.", "options": ["est", "soit", "sois"], "answer": "est"},
+    {"case": "sr-indicatif", "type": "mc", "q": "Il y a une chambre qui ___ libre depuis vingt ans.", "en": "There's a room that has been free for twenty years.", "options": ["est", "soit", "sois"], "answer": "est"},
+    {"case": "sr-negation", "type": "mc", "q": "Il n'y a aucun studio qui ___ calme et pas cher.", "en": "There isn't a single studio that's quiet and cheap.", "options": ["soit", "est", "a"], "answer": "soit"},
+    {"case": "sr-negation", "type": "mc", "q": "Il n'y a rien qui me ___ ici.", "en": "There's nothing I like here.", "options": ["plaise", "plaît", "plaira"], "answer": "plaise"},
+    {"case": "sr-question", "type": "mc", "q": "Tu connais quelqu'un qui ___ m'aider ?", "en": "Do you know anyone who could help me?", "options": ["puisse", "peux", "puisses"], "answer": "puisse"},
+    {"case": "sr-question", "type": "mc", "q": "Vous avez un studio qui ___ libre en octobre ?", "en": "Have you got a studio that's free in October?", "options": ["soit", "es", "être"], "answer": "soit"},
+    {"case": "sr-superlatif", "type": "mc", "q": "C'est le plus beau studio que j'___ vu !", "en": "It's the most beautiful studio I've ever seen!", "options": ["aie", "aies", "avoir"], "answer": "aie"},
+    {"case": "sr-superlatif", "type": "mc", "q": "Tu es la meilleure propriétaire que je ___.", "en": "You're the best landlady I know.", "options": ["connaisse", "connaisses", "connaître"], "answer": "connaisse"}
+  ]
+}

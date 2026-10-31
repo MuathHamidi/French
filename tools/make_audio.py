@@ -124,6 +124,8 @@ FIXES = {
     "échouerais": "eʃuʁˈɛ", "échouerait": "eʃuʁˈɛ", "échouerions": "eʃuʁjˈɔ̃", "échoueriez": "eʃuʁjˈe", "échoueraient": "eʃuʁˈɛ",
     "tournevis": "tuʁnəvˈis", "une vis": "yn vˈis", "ces vis": "se vˈis", "les vis": "le vˈis", "trois vis": "tʁwa vˈis",  # vis (a screw) is /vis/; the voice reads it like je vis /vi/
     "en faut deux fois plus": "ɑ̃ fˈo dˈø fwˈa plˈys", "en demander plus": "ɑ̃ dəmɑ̃dˈe plˈys",  # plus (more) keeps its s at the end of a phrase
+    "plus que tout": "plˈys kə tˈu", "écoute plus qu'on": "ekˈut plˈys kɔ̃", "klaxonne plus qu'à": "klaksˈɔn plˈys ka",
+    "mange plus de raisin": "mˈɑ̃ʒ plˈys də ʁɛzˈɛ̃",  # plus (more) before que, de: the s is said (not in ne… plus qu'à)
     "deux plus deux est égal": "dˈø plys dˈøz ɛt eɡˈal",  # plus (in sums) keeps its s
     "cheville": "ʃəvˈij", "chevilles": "ʃəvˈij",  # the voice says /ʃəvil/, like ville
     "oups": "ˈups",  # the voice drops the s

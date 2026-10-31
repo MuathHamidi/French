@@ -1,0 +1,146 @@
+{
+  "id": "u46-permis",
+  "type": "vocab",
+  "unit": 46,
+  "title": "Hugo au volant",
+  "en": "Driving",
+  "intro": "25 words for learning to drive: the driving school (**l'auto-école, le moniteur, le code de la route, l'examinateur**), the car (**le volant, le frein, l'embrayage, la vitesse, la marche arrière, le clignotant, le rétroviseur, la ceinture de sécurité**), driving (**démarrer, caler, freiner, ralentir, klaxonner, le virage, la priorité**), and the rules of the road (**le conducteur, le feu rouge, le sens interdit, le stationnement, l'excès de vitesse, le radar**).",
+  "words": [
+    {"id": "auto-ecole", "fr": "auto-école", "pos": "noun", "g": "f", "ipa": "o.to.e.kɔl", "en": "driving school", "def": "L'entreprise où on apprend à conduire et où on prépare son permis.", "def_en": "The business where you learn to drive and prepare for your driving test.", "forms": ["auto-écoles"], "examples": [
+      {"fr": "Hugo s'est inscrit dans une **auto-école** du quartier.", "en": "Hugo has signed up at a local driving school."},
+      {"fr": "L'**auto-école** coûte cher : vingt leçons, mille euros !", "en": "Driving school is expensive: twenty lessons, a thousand euros!"},
+      {"fr": "La voiture de l'**auto-école** a deux freins.", "en": "The driving-school car has two brakes."}]},
+    {"id": "moniteur", "fr": "moniteur", "pos": "noun", "g": "m", "ipa": "mɔ.ni.tœʁ", "display": "le moniteur, la monitrice", "en": "(driving, skiing) instructor; monitor (screen)", "def": "La personne qui apprend aux autres à conduire, à faire du ski ou à nager ; un écran.", "def_en": "The person who teaches others to drive, ski or swim; a screen.", "forms": ["moniteurs", "monitrice", "monitrices"], "examples": [
+      {"fr": "Le **moniteur** de Hugo s'appelle Monsieur Vidal.", "en": "Hugo's instructor is called Monsieur Vidal."},
+      {"fr": "Ma **monitrice** de ski était très patiente.", "en": "My ski instructor was very patient."},
+      {"fr": "L'ordinateur de Hugo a deux **moniteurs**.", "en": "Hugo's computer has two monitors."}]},
+    {"id": "code-de-la-route", "fr": "code de la route", "pos": "noun", "g": "m", "ipa": "kɔd də la ʁut", "en": "the highway code; the driving theory test", "def": "Les règles que tous les conducteurs doivent connaître ; l'examen sur ces règles.", "def_en": "The rules every driver must know; the exam on those rules.", "note": "*Passer le code* = to take the theory test.", "examples": [
+      {"fr": "Hugo a enfin eu son **code de la route**, au troisième essai.", "en": "Hugo has finally passed his theory test, at the third attempt."},
+      {"fr": "Le **code de la route** change souvent.", "en": "The highway code changes often."},
+      {"fr": "Révise ton **code de la route** !", "en": "Go over your highway code!"}]},
+    {"id": "examinateur", "fr": "examinateur", "pos": "noun", "g": "m", "ipa": "ɛɡ.za.mi.na.tœʁ", "display": "l'examinateur, l'examinatrice", "en": "examiner", "def": "La personne qui fait passer un examen et qui donne la note.", "def_en": "The person who conducts a test and gives the mark.", "forms": ["examinatrice", "examinateurs", "examinatrices"], "examples": [
+      {"fr": "L'**examinateur** sera moins patient que moi.", "en": "The examiner will be less patient than me."},
+      {"fr": "L'**examinatrice** a souri à Tom.", "en": "The examiner smiled at Tom."},
+      {"fr": "Le jour du permis, l'**examinateur** est assis à côté du moniteur.", "en": "On test day, the examiner sits beside the instructor."}]},
+    {"id": "volant", "fr": "volant", "pos": "noun", "g": "m", "ipa": "vɔ.lɑ̃", "en": "steering wheel", "def": "La roue qu'on tourne avec les mains pour diriger une voiture.", "def_en": "The wheel you turn with your hands to steer a car.", "note": "*Être au volant* = to be at the wheel, driving.", "forms": ["volants"], "examples": [
+      {"fr": "Hugo tient le **volant** à deux mains.", "en": "Hugo holds the wheel with both hands."},
+      {"fr": "Ne téléphone jamais au **volant** !", "en": "Never phone while you're driving!"},
+      {"fr": "En Angleterre, le **volant** est à droite.", "en": "In England, the steering wheel is on the right."}]},
+    {"id": "frein", "fr": "frein", "pos": "noun", "g": "m", "ipa": "fʁɛ̃", "en": "brake", "def": "Ce qui sert à arrêter ou à ralentir une voiture ou un vélo.", "def_en": "What you use to stop or slow down a car or a bike.", "note": "*Le frein à main* = the handbrake.", "forms": ["freins"], "examples": [
+      {"fr": "Le moniteur a un **frein** de son côté.", "en": "The instructor has a brake on his side."},
+      {"fr": "Les **freins** de mon vélo ne fonctionnent plus.", "en": "My bike's brakes don't work any more."},
+      {"fr": "Mets le **frein** à main !", "en": "Put the handbrake on!"}]},
+    {"id": "embrayage", "fr": "embrayage", "pos": "noun", "g": "m", "ipa": "ɑ̃.bʁɛ.jaʒ", "en": "clutch", "def": "Ce qu'on appuie avec le pied gauche pour changer de vitesse.", "def_en": "What you press with your left foot to change gear.", "forms": ["embrayages"], "examples": [
+      {"fr": "Appuie sur l'**embrayage**, puis passe la première.", "en": "Press the clutch, then put it in first."},
+      {"fr": "Aux États-Unis, beaucoup de voitures n'ont pas d'**embrayage**.", "en": "In the United States, a lot of cars have no clutch."},
+      {"fr": "Hugo lâche l'**embrayage** trop vite.", "en": "Hugo lets the clutch out too quickly."}]},
+    {"id": "vitesse", "fr": "vitesse", "pos": "noun", "g": "f", "ipa": "vi.tɛs", "en": "speed; gear", "def": "Le fait d'aller vite ou lentement ; dans une voiture, la première, la deuxième, la troisième…", "def_en": "How fast or slowly something goes; in a car, first, second, third…", "note": "*À toute vitesse* = at full speed.", "forms": ["vitesses"], "examples": [
+      {"fr": "Passe la deuxième **vitesse** !", "en": "Change into second gear!"},
+      {"fr": "En ville, la **vitesse** ne doit pas dépasser cinquante.", "en": "In town, your speed mustn't go over fifty."},
+      {"fr": "Hugo roule à une **vitesse** de tortue.", "en": "Hugo is driving at a snail's pace."}]},
+    {"id": "marche-arriere", "fr": "marche arrière", "pos": "noun", "g": "f", "ipa": "maʁʃ a.ʁjɛʁ", "en": "reverse (gear)", "def": "La position qui permet à une voiture de reculer.", "def_en": "The position that lets a car go backwards.", "note": "*Faire marche arrière* = to reverse; to back down.", "forms": ["marches arrière"], "examples": [
+      {"fr": "Hugo passe la **marche arrière** au lieu de la première.", "en": "Hugo puts it in reverse instead of first."},
+      {"fr": "En **marche arrière**, regarde derrière toi !", "en": "When you reverse, look behind you!"},
+      {"fr": "Le gouvernement a fait **marche arrière**.", "en": "The government has backed down."}]},
+    {"id": "clignotant", "fr": "clignotant", "pos": "noun", "g": "m", "ipa": "kli.ɲɔ.tɑ̃", "en": "indicator, turn signal", "def": "La petite lumière orange qu'on allume pour dire qu'on va tourner.", "def_en": "The little orange light you switch on to show you're going to turn.", "forms": ["clignotants"], "examples": [
+      {"fr": "Mets ton **clignotant** avant de tourner !", "en": "Indicate before you turn!"},
+      {"fr": "Hugo a mis le **clignotant** à gauche… et il a tourné à droite.", "en": "Hugo indicated left… and turned right."},
+      {"fr": "Le **clignotant** fait un petit bruit.", "en": "The indicator makes a little noise."}]},
+    {"id": "retroviseur", "fr": "rétroviseur", "pos": "noun", "g": "m", "ipa": "ʁe.tʁo.vi.zœʁ", "en": "rear-view mirror; wing mirror", "def": "Le petit miroir qui permet au conducteur de voir derrière lui.", "def_en": "The small mirror that lets the driver see behind.", "forms": ["rétroviseurs"], "examples": [
+      {"fr": "Regarde dans le **rétroviseur** avant de partir.", "en": "Look in the mirror before you pull away."},
+      {"fr": "Hugo se coiffe dans le **rétroviseur**.", "en": "Hugo does his hair in the mirror."},
+      {"fr": "Un camion a cassé le **rétroviseur** de ma voiture.", "en": "A lorry broke my wing mirror."}]},
+    {"id": "ceinture-de-securite", "fr": "ceinture de sécurité", "pos": "noun", "g": "f", "ipa": "sɛ̃.tyʁ də se.ky.ʁi.te", "en": "seat belt", "def": "Ce qu'on attache dans une voiture pour être protégé en cas d'accident.", "def_en": "What you fasten in a car to be protected in an accident.", "forms": ["ceintures de sécurité"], "examples": [
+      {"fr": "Avant de démarrer, on attache sa **ceinture de sécurité**.", "en": "Before starting, you fasten your seat belt."},
+      {"fr": "Lou n'aime pas sa **ceinture de sécurité**.", "en": "Lou doesn't like her seat belt."},
+      {"fr": "Sans **ceinture de sécurité**, c'est une amende.", "en": "Without a seat belt, it's a fine."}]},
+    {"id": "demarrer", "fr": "démarrer", "pos": "verb", "ipa": "de.ma.ʁe", "en": "to start (a car, a machine); to get going", "def": "Mettre un moteur en marche ; commencer à rouler ; commencer.", "def_en": "To start an engine; to start moving; to begin.", "forms": ["démarre", "démarres", "démarrons", "démarrez", "démarrent", "démarré", "démarrée", "démarrés", "démarrées", "démarrais", "démarrait", "démarrions", "démarriez", "démarraient", "démarrerai", "démarreras", "démarrera", "démarrerons", "démarrerez", "démarreront", "démarrerais", "démarrerait", "démarrerions", "démarreriez", "démarreraient", "démarrant", "démarrai", "démarras", "démarra", "démarrâmes", "démarrâtes", "démarrèrent"], "examples": [
+      {"fr": "La voiture ne **démarre** pas.", "en": "The car won't start."},
+      {"fr": "Hugo **démarre**… et cale tout de suite.", "en": "Hugo starts the engine… and stalls straight away."},
+      {"fr": "Le projet **démarre** lundi.", "en": "The project gets going on Monday."}]},
+    {"id": "caler", "fr": "caler", "pos": "verb", "ipa": "ka.le", "en": "to stall", "def": "Pour un moteur : s'arrêter tout seul, souvent parce qu'on a [mal|mal] utilisé l'embrayage.", "def_en": "For an engine: to stop by itself, often because the clutch was used badly.", "note": "*Je cale* (informal) also means I'm full, or I'm stuck.", "forms": ["cale", "cales", "calons", "calez", "calent", "calé", "calais", "calait", "calions", "caliez", "calaient", "calerai", "caleras", "calera", "calerons", "calerez", "caleront", "calerais", "calerait", "calerions", "caleriez", "caleraient", "calant", "calai", "calas", "cala", "calâmes", "calâtes", "calèrent"], "examples": [
+      {"fr": "Hugo **cale** cinq fois en dix minutes.", "en": "Hugo stalls five times in ten minutes."},
+      {"fr": "Au feu rouge, la voiture a **calé**.", "en": "The car stalled at the red light."},
+      {"fr": "Ne t'inquiète pas : tout le monde **cale** au début.", "en": "Don't worry: everyone stalls at the beginning."}]},
+    {"id": "freiner", "fr": "freiner", "pos": "verb", "ipa": "fʁe.ne", "en": "to brake", "def": "Ralentir ou s'arrêter, en appuyant avec le pied.", "def_en": "To slow down or stop by pressing with your foot.", "forms": ["freine", "freines", "freinons", "freinez", "freinent", "freiné", "freinais", "freinait", "freinions", "freiniez", "freinaient", "freinerai", "freineras", "freinera", "freinerons", "freinerez", "freineront", "freinerais", "freinerait", "freinerions", "freineriez", "freineraient", "freinant", "freinai", "freinas", "freina", "freinâmes", "freinâtes", "freinèrent"], "examples": [
+      {"fr": "Hugo **freine** trop fort : tout le monde part en avant.", "en": "Hugo brakes too hard: everyone lurches forward."},
+      {"fr": "**Freine** ! Le feu est rouge !", "en": "Brake! The light's red!"},
+      {"fr": "Il a **freiné** juste à temps.", "en": "He braked just in time."}]},
+    {"id": "ralentir", "fr": "ralentir", "pos": "verb", "ipa": "ʁa.lɑ̃.tiʁ", "en": "to slow down", "def": "Aller moins vite.", "def_en": "To go less fast.", "forms": ["ralentis", "ralentit", "ralentissons", "ralentissez", "ralentissent", "ralenti", "ralentissais", "ralentissait", "ralentissions", "ralentissiez", "ralentissaient", "ralentirai", "ralentiras", "ralentira", "ralentirons", "ralentirez", "ralentiront", "ralentirais", "ralentirait", "ralentirions", "ralentiriez", "ralentiraient", "ralentisse", "ralentisses", "ralentissant", "ralentîmes", "ralentîtes", "ralentirent"], "examples": [
+      {"fr": "**Ralentis** : il y a une école !", "en": "Slow down: there's a school!"},
+      {"fr": "Le bus **ralentit** avant l'arrêt.", "en": "The bus slows down before the stop."},
+      {"fr": "Hugo a **ralenti** devant le radar.", "en": "Hugo slowed down in front of the speed camera."}]},
+    {"id": "klaxonner", "fr": "klaxonner", "pos": "verb", "ipa": "klak.sɔ.ne", "en": "to hoot, to honk (the horn)", "def": "Faire un bruit fort avec sa voiture, pour prévenir les autres ou pour se fâcher.", "def_en": "To make a loud noise with your car, to warn others or out of anger.", "note": "*Le klaxon* = the horn.", "forms": ["klaxonne", "klaxonnes", "klaxonnons", "klaxonnez", "klaxonnent", "klaxonné", "klaxonnais", "klaxonnait", "klaxonnions", "klaxonniez", "klaxonnaient", "klaxonnerai", "klaxonneras", "klaxonnera", "klaxonnerons", "klaxonnerez", "klaxonneront", "klaxonnerais", "klaxonnerait", "klaxonnerions", "klaxonneriez", "klaxonneraient", "klaxonnant", "klaxonnai", "klaxonnas", "klaxonna", "klaxonnâmes", "klaxonnâtes", "klaxonnèrent"], "examples": [
+      {"fr": "Derrière Hugo, tout le monde **klaxonne**.", "en": "Behind Hugo, everyone is hooting."},
+      {"fr": "À Madrid, on **klaxonne** plus qu'à Lyon.", "en": "In Madrid, people hoot more than in Lyon."},
+      {"fr": "Ne **klaxonne** pas devant l'hôpital !", "en": "Don't hoot outside the hospital!"}]},
+    {"id": "virage", "fr": "virage", "pos": "noun", "g": "m", "ipa": "vi.ʁaʒ", "en": "bend, turn", "def": "L'endroit où la route tourne.", "def_en": "The place where the road turns.", "forms": ["virages"], "examples": [
+      {"fr": "Ralentis avant le **virage** !", "en": "Slow down before the bend!"},
+      {"fr": "La route de la ferme a beaucoup de **virages**.", "en": "The road to the farm has a lot of bends."},
+      {"fr": "Tom est malade dans les **virages**.", "en": "Tom gets carsick on bends."}]},
+    {"id": "priorite", "fr": "priorité", "pos": "noun", "g": "f", "ipa": "pʁi.ɔ.ʁi.te", "en": "priority; right of way", "def": "Le droit de passer avant les autres ; ce qui est le plus important.", "def_en": "The right to go before the others; what matters most.", "note": "*La priorité à droite* = give way to traffic from the right.", "forms": ["priorités"], "examples": [
+      {"fr": "Attention, les voitures de droite ont la **priorité** !", "en": "Careful, cars from the right have right of way!"},
+      {"fr": "Ma **priorité**, c'est ma famille.", "en": "My priority is my family."},
+      {"fr": "Les piétons ont toujours la **priorité**.", "en": "Pedestrians always have right of way."}]},
+    {"id": "conducteur", "fr": "conducteur", "pos": "noun", "g": "m", "ipa": "kɔ̃.dyk.tœʁ", "display": "le conducteur, la conductrice", "en": "driver (anyone at the wheel)", "def": "La personne qui conduit une voiture, un bus ou un train.", "def_en": "The person who drives a car, a bus or a train.", "forms": ["conductrice", "conducteurs", "conductrices"], "examples": [
+      {"fr": "Un bon **conducteur** regarde loin devant lui.", "en": "A good driver looks far ahead."},
+      {"fr": "La **conductrice** du bus attend Hugo.", "en": "The bus driver is waiting for Hugo."},
+      {"fr": "Les jeunes **conducteurs** doivent rouler moins vite.", "en": "New drivers have to drive more slowly."}]},
+    {"id": "feu-rouge", "fr": "feu rouge", "pos": "noun", "g": "m", "ipa": "fø ʁuʒ", "en": "red light; traffic lights", "def": "La lumière qui oblige les voitures à s'arrêter, à un carrefour.", "def_en": "The light that makes cars stop at a crossroads.", "note": "*Brûler un feu rouge* = to run a red light. *Les feux* = the traffic lights.", "forms": ["feux rouges"], "examples": [
+      {"fr": "Arrête-toi au **feu rouge** !", "en": "Stop at the red light!"},
+      {"fr": "Hugo a calé au **feu rouge**.", "en": "Hugo stalled at the red light."},
+      {"fr": "Antoine ne respecte pas toujours les **feux rouges**.", "en": "Antoine doesn't always stop at red lights."}]},
+    {"id": "sens-interdit", "fr": "sens interdit", "pos": "noun", "g": "m", "ipa": "sɑ̃s ɛ̃.tɛʁ.di", "en": "no entry; a one-way street (the wrong way)", "def": "Une rue où on n'a pas le droit d'entrer dans cette direction.", "def_en": "A street you're not allowed to enter from this direction.", "forms": ["sens interdits"], "examples": [
+      {"fr": "Stop ! C'est un **sens interdit** !", "en": "Stop! It's no entry!"},
+      {"fr": "Hugo a pris un **sens interdit** devant un policier.", "en": "Hugo went the wrong way down a one-way street in front of a police officer."},
+      {"fr": "Le panneau de **sens interdit** est rouge et blanc.", "en": "The no-entry sign is red and white."}]},
+    {"id": "stationnement", "fr": "stationnement", "pos": "noun", "g": "m", "ipa": "sta.sjɔn.mɑ̃", "en": "parking", "def": "Le fait de laisser sa voiture arrêtée quelque part.", "def_en": "Leaving your car stopped somewhere.", "note": "*Faire un créneau* = to parallel park.", "forms": ["stationnements"], "examples": [
+      {"fr": "Le **stationnement** est interdit devant l'école.", "en": "Parking is not allowed in front of the school."},
+      {"fr": "Le **stationnement** coûte cher au centre-ville.", "en": "Parking is expensive in the town centre."},
+      {"fr": "Il cherche une place de **stationnement** depuis vingt minutes.", "en": "He has been looking for a parking space for twenty minutes."}]},
+    {"id": "exces-de-vitesse", "fr": "excès de vitesse", "pos": "noun", "g": "m", "ipa": "ɛk.sɛ də vi.tɛs", "en": "speeding", "def": "Le fait de rouler plus vite que la loi le permet.", "def_en": "Driving faster than the law allows.", "examples": [
+      {"fr": "Antoine a eu trois **excès de vitesse** en un mois.", "en": "Antoine got three speeding tickets in a month."},
+      {"fr": "Un **excès de vitesse** peut coûter cher.", "en": "Speeding can cost you a lot."},
+      {"fr": "Pas d'**excès de vitesse** pendant l'examen !", "en": "No speeding during the test!"}]},
+    {"id": "radar", "fr": "radar", "pos": "noun", "g": "m", "ipa": "ʁa.daʁ", "en": "speed camera; radar", "def": "Un appareil au bord de la route qui prend en photo les voitures trop rapides.", "def_en": "A device by the road that photographs cars going too fast.", "forms": ["radars"], "examples": [
+      {"fr": "Attention, il y a un **radar** après le virage !", "en": "Careful, there's a speed camera after the bend!"},
+      {"fr": "Le **radar** a pris Hugo en photo.", "en": "The speed camera took a picture of Hugo."},
+      {"fr": "Les avions apparaissent sur le **radar**.", "en": "The planes show up on the radar."}]}
+  ],
+  "story": {
+    "title": "Hugo au volant",
+    "en": "Saturday 4 September: Hugo's first driving lesson.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi quatre septembre, Hugo a sa première leçon de conduite. Depuis qu'il est parrain, il a une nouvelle idée : passer son permis.", "en": "On Saturday 4 September, Hugo has his first driving lesson. Since becoming a godfather, he's had a new idea: to take his driving test."},
+      {"sp": "Hugo", "fr": "Un parrain, ça conduit. Je veux emmener Adam au zoo, à la plage, partout !", "en": "A godfather drives. I want to take Adam to the zoo, to the beach, everywhere!"},
+      {"sp": "", "fr": "Il s'est inscrit dans une auto-école du quartier, et hier, il a enfin eu son code de la route… au troisième essai.", "en": "He has signed up at a local driving school, and yesterday he finally passed his theory test… at the third attempt."},
+      {"sp": "", "fr": "Son moniteur s'appelle Monsieur Vidal. Il a soixante ans, une voix très calme, et il a déjà vu passer trois mille élèves.", "en": "His instructor is called Monsieur Vidal. He's sixty, has a very calm voice, and has already seen three thousand pupils come through."},
+      {"sp": "Monsieur Vidal", "fr": "Bonjour, Hugo. Attachez votre ceinture de sécurité, et réglez le rétroviseur.", "en": "Hello, Hugo. Fasten your seat belt and adjust the mirror."},
+      {"sp": "", "fr": "Hugo règle le rétroviseur… et se coiffe dedans.", "en": "Hugo adjusts the mirror… and does his hair in it."},
+      {"sp": "Monsieur Vidal", "fr": "Le rétroviseur, c'est pour voir la route derrière vous. Bien. Les mains sur le volant, le pied gauche sur l'embrayage. On démarre.", "en": "The mirror is for seeing the road behind you. Right. Hands on the wheel, left foot on the clutch. Let's start."},
+      {"sp": "", "fr": "Hugo démarre, passe la première vitesse… et la voiture cale. Il recommence : elle cale encore.", "en": "Hugo starts the engine, puts it in first gear… and the car stalls. He tries again: it stalls again."},
+      {"sp": "Monsieur Vidal", "fr": "Doucement avec l'embrayage. Tout le monde cale au début.", "en": "Gently with the clutch. Everyone stalls at the beginning."},
+      {"sp": "", "fr": "Au cinquième essai, la voiture avance enfin. Hugo roule à vingt kilomètres à l'heure, très fier.", "en": "On the fifth try, the car finally moves. Hugo drives at twenty kilometres an hour, very proud."},
+      {"sp": "Hugo", "fr": "Si Léa me voyait !", "en": "If Léa could see me!"},
+      {"sp": "Monsieur Vidal", "fr": "Regardez la route, pas moi. Au carrefour, mettez votre clignotant à droite.", "en": "Watch the road, not me. At the crossroads, indicate right."},
+      {"sp": "", "fr": "Hugo met le clignotant à gauche… et tourne à droite. Derrière lui, un conducteur klaxonne.", "en": "Hugo indicates left… and turns right. Behind him, a driver hoots."},
+      {"sp": "Monsieur Vidal", "fr": "Attention, au prochain carrefour : priorité à droite. La voiture qui vient de droite passe d'abord.", "en": "Careful at the next crossroads: give way to the right. The car coming from the right goes first."},
+      {"sp": "", "fr": "Au feu rouge, Hugo freine si fort que Monsieur Vidal perd ses lunettes.", "en": "At the red light, Hugo brakes so hard that Monsieur Vidal loses his glasses."},
+      {"sp": "Monsieur Vidal", "fr": "On freine avant, Hugo, pas au dernier moment.", "en": "You brake beforehand, Hugo, not at the last moment."},
+      {"sp": "", "fr": "Dans le virage suivant, Hugo oublie de ralentir. Monsieur Vidal appuie sur son propre frein : dans la voiture de l'auto-école, il y a deux freins.", "en": "On the next bend, Hugo forgets to slow down. Monsieur Vidal presses his own brake: the driving-school car has two brakes."},
+      {"sp": "Hugo", "fr": "Vous avez un frein, vous aussi ? Ce n'est pas juste !", "en": "You've got a brake too? That's not fair!"},
+      {"sp": "Monsieur Vidal", "fr": "C'est pour ça que je suis encore vivant.", "en": "That's why I'm still alive."},
+      {"sp": "", "fr": "Un peu plus tard, Hugo entre dans une petite rue… un sens interdit. Une voiture arrive en face.", "en": "A little later, Hugo turns into a small street… the wrong way down a one-way street. A car is coming towards them."},
+      {"sp": "Monsieur Vidal", "fr": "Marche arrière, Hugo. Doucement. Regardez dans le rétroviseur.", "en": "Reverse, Hugo. Gently. Look in the mirror."},
+      {"sp": "", "fr": "Hugo recule très lentement. Il passe tout près d'une poubelle… mais, pour une fois, il ne tombe pas dedans.", "en": "Hugo backs up very slowly. He goes very close to a bin… but, for once, he doesn't fall in."},
+      {"sp": "", "fr": "Sur le quai, il y a un radar. Hugo roule à trente kilomètres à l'heure : aucun risque d'excès de vitesse.", "en": "On the riverside road there's a speed camera. Hugo is driving at thirty kilometres an hour: no danger of speeding."},
+      {"sp": "Monsieur Vidal", "fr": "Vous pouvez aller un peu plus vite. Ici, on a le droit de rouler à cinquante.", "en": "You can go a bit faster. Here you're allowed to do fifty."},
+      {"sp": "", "fr": "Pour finir, Monsieur Vidal lui montre une place de stationnement, entre deux voitures.", "en": "To finish, Monsieur Vidal shows him a parking space between two cars."},
+      {"sp": "Monsieur Vidal", "fr": "Et maintenant, un créneau.", "en": "And now, some parallel parking."},
+      {"sp": "", "fr": "Hugo essaie trois fois. À la fin, la voiture est garée… au milieu de la rue, et le conducteur d'un bus klaxonne.", "en": "Hugo tries three times. In the end, the car is parked… in the middle of the street, and a bus driver hoots."},
+      {"sp": "Hugo", "fr": "Alors ? Je suis prêt pour l'examen ?", "en": "So? Am I ready for the test?"},
+      {"sp": "Monsieur Vidal", "fr": "L'examinateur sera moins patient que moi. Rendez-vous samedi prochain. Et dites bonjour à votre filleul.", "en": "The examiner will be less patient than me. See you next Saturday. And say hello to your godson."}
+    ]
+  }
+}
