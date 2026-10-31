@@ -1,0 +1,106 @@
+{
+  "id": "u49-passe-anterieur",
+  "type": "grammar",
+  "unit": 49,
+  "title": "Quand il eut fini son pain",
+  "en": "The passé antérieur (quand il eut fini), to recognise",
+  "intro": "The **passé antérieur** is the passé simple of *avoir* or *être* + the past participle: *il **eut fini**, elle **fut partie**, ils **eurent mangé***. It belongs to written stories, alongside the passé simple, and shows an action completed just before another one: ***Quand il eut fini** son pain, il **sortit** dans la neige.* You find it after **quand, lorsque, dès que, aussitôt que, après que**, and with **à peine… que**. With *être* and with reflexive verbs, the participle agrees: *quand elle se fut endormie*. You only need to recognise it: in speech, people say *quand il avait fini* or *quand il a fini*.",
+  "cases": [
+    {"id": "pa-forme", "label": "eut fini, fut parti: the form", "rule": "The passé simple of avoir (*j'eus, il eut, ils eurent*) or être (*je fus, il fut, ils furent*) + the past participle: *il eut fini, ils eurent mangé, il fut sorti*."},
+    {"id": "pa-quand", "label": "after quand, lorsque, dès que, après que", "rule": "In a written story, the passé antérieur follows *quand, lorsque, dès que, aussitôt que* or *après que*, and the main verb is in the passé simple: *Quand il eut fini son pain, il sortit. Dès qu'il fut sorti, il vit une étoile.*"},
+    {"id": "pa-apeine", "label": "à peine… que", "rule": "*À peine* + the passé antérieur with inversion + *que* + the passé simple: *À peine fut-il sorti que la neige tomba.* With a noun subject: *À peine le feu fut-il allumé que…*"},
+    {"id": "pa-accord", "label": "être and reflexive verbs: agreement", "rule": "With *être* and with reflexive verbs, the participle agrees with the subject: *quand elle fut arrivée, quand ils furent partis, quand la vieille dame se fut endormie*."},
+    {"id": "pa-oral", "label": "in speech: quand il avait fini", "rule": "You won't hear the passé antérieur in conversation. People say *quand il avait fini* (every time, or in the background) or *quand il a fini* (for one event)."}
+  ],
+  "sections": [
+    {"title": "1. eut fini, fut parti: the form", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["il eut fini", "he had finished"],
+      ["ils eurent mangé", "they had eaten"],
+      ["il fut sorti", "he had gone out"],
+      ["elles furent arrivées", "they had arrived"]]},
+     "examples": [
+      {"fr": "{Quand ils eurent mangé le pain|pa-forme}, le boulanger et la petite fille dansèrent jusqu'à l'aube.", "en": "When they had eaten the bread, the baker and the little girl danced until dawn."}],
+     "tip": "Eut, eurent, fut, furent: the auxiliary is in the passé simple."},
+    {"title": "2. after quand, lorsque, dès que, après que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Quand il eut fini son pain, il sortit.", "When he had finished his bread, he went out."],
+      ["Dès qu'il fut sorti, il [vit|voir] une étoile.", "As soon as he had gone out, he saw a star."],
+      ["Après qu'il lui eut donné son pain, il alluma le feu.", "After he had given her his bread, he lit the fire."]]},
+     "examples": [
+      {"fr": "{Quand il eut fini son pain|pa-quand}, il sortit dans la neige.", "en": "When he had finished his bread, he went out into the snow."},
+      {"fr": "{Lorsqu'il eut marché une heure|pa-quand}, il arriva devant une petite maison.", "en": "When he had walked for an hour, he came to a little house."}],
+     "tip": "One action is finished, then the next one starts, in the passé simple."},
+    {"title": "3. à peine… que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À peine fut-il sorti que la neige tomba.", "No sooner had he gone out than the snow fell."],
+      ["À peine le feu fut-il allumé que…", "No sooner was the fire lit than…"],
+      ["À peine eut-elle fini que Lou dormait.", "Hardly had she finished when Lou was asleep."]]},
+     "examples": [
+      {"fr": "{À peine le feu fut-il allumé que|pa-apeine} la vieille dame sourit.", "en": "No sooner was the fire lit than the old lady smiled."},
+      {"fr": "{À peine Louise eut-elle fini son histoire que|pa-apeine} Lou dormait déjà.", "en": "No sooner had Louise finished her story than Lou was already asleep."}],
+     "tip": "Inversion after à peine, then que, as in Unit 48."},
+    {"title": "4. être and reflexive verbs: agreement", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["quand elle fut arrivée", "when she had arrived"],
+      ["quand ils furent partis", "when they had left"],
+      ["quand elle se fut endormie", "when she had fallen asleep"]]},
+     "examples": [
+      {"fr": "{Quand la vieille dame se fut endormie|pa-accord}, l'étoile descendit sur le toit.", "en": "When the old lady had fallen asleep, the star came down onto the roof."},
+      {"fr": "{Aussitôt qu'elle fut arrivée|pa-accord}, elle devint une petite fille.", "en": "As soon as she had arrived, she became a little girl."}],
+     "tip": "The same agreements as in the passé composé."},
+    {"title": "5. in speech", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Quand il eut fini, il sortit.", "(in a book)"],
+      ["Quand il avait fini, il sortait.", "(spoken: every time)"],
+      ["Quand il a fini, il est sorti.", "(spoken: once)"]]},
+     "examples": [
+      {"fr": "À l'oral, on dit {« quand il avait fini »|pa-oral} ou {« quand il a fini »|pa-oral}.", "en": "In speech, people say 'quand il avait fini' or 'quand il a fini'."}],
+     "tip": "Recognise it in books; don't use it in conversation."}
+  ],
+  "mistakes": [
+    {"wrong": "Quand il eut finit son pain, il sortit.", "right": "Quand il eut fini son pain, il sortit.", "why": "The past participle of finir is fini; eut is the auxiliary."},
+    {"wrong": "Dès qu'il eut sorti, il vit une étoile.", "right": "Dès qu'il fut sorti, il vit une étoile.", "why": "Sortir takes être: fut sorti."},
+    {"wrong": "Quand elle se fut endormi, l'étoile descendit.", "right": "Quand elle se fut endormie, l'étoile descendit.", "why": "With a reflexive verb, the participle agrees: endormie."},
+    {"wrong": "À peine il fut sorti que la neige tomba.", "right": "À peine fut-il sorti que la neige tomba.", "why": "À peine at the start takes inversion."}
+  ],
+  "story": {
+    "title": "Quand il eut fini son pain",
+    "en": "Friday 24 December: Christmas Eve in Paris, and Louise's Christmas tale.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi vingt-quatre décembre, toute la famille fête le réveillon chez Paul et Anne, à Paris. Carla est là aussi, pour son premier Noël français.", "en": "On Friday 24 December, the whole family celebrates Christmas Eve at Paul and Anne's, in Paris. Carla is there too, for her first French Christmas."},
+      {"sp": "", "fr": "Jacques et Louise sont arrivés de Marseille en train. Hugo, Léa et Carla sont venus de Lyon dans la voiture de Papi, sans erreur de carburant.", "en": "Jacques and Louise have come up from Marseille by train. Hugo, Léa and Carla drove from Lyon in Grandpa's car, with no fuel mix-up."},
+      {"sp": "", "fr": "Après le dîner, Lou ne veut pas dormir. Elle veut une histoire.", "en": "After dinner, Lou doesn't want to go to sleep. She wants a story."},
+      {"sp": "Lou", "fr": "Mamie, raconte-moi une histoire de Noël. Une vraie, avec des mots de livre !", "en": "Granny, tell me a Christmas story. A real one, with book words!"},
+      {"sp": "Louise", "fr": "Alors écoute. Il était une fois un petit boulanger, dans un village de montagne.", "en": "Then listen. Once upon a time there was a little baker, in a mountain village."},
+      {"sp": "Louise", "fr": "Chaque nuit de Noël, il faisait le pain pour tout le village. {Quand il eut fini son pain|pa-quand}, il sortit dans la neige.", "en": "Every Christmas night, he made the bread for the whole village. When he had finished his bread, he went out into the snow."},
+      {"sp": "Louise", "fr": "{Dès qu'il fut sorti|pa-quand}, il [vit|voir] une étoile au-dessus de la forêt. Une étoile qui bougeait.", "en": "As soon as he had gone out, he saw a star above the forest. A star that moved."},
+      {"sp": "Lou", "fr": "Une étoile qui bouge ? Comme un avion ?", "en": "A star that moves? Like a plane?"},
+      {"sp": "Louise", "fr": "Chut. {Lorsqu'il eut marché une heure|pa-quand}, il arriva devant une petite maison.", "en": "Shh. When he had walked for an hour, he came to a little house."},
+      {"sp": "Louise", "fr": "Dans la maison, une vieille dame avait froid et faim. Elle n'avait plus de bois pour son feu.", "en": "In the house, an old lady was cold and hungry. She had no more wood for her fire."},
+      {"sp": "Louise", "fr": "{Après qu'il lui eut donné son pain|pa-quand}, le petit boulanger alluma le feu.", "en": "After he had given her his bread, the little baker lit the fire."},
+      {"sp": "Louise", "fr": "{À peine le feu fut-il allumé que|pa-apeine} la vieille dame sourit.", "en": "No sooner was the fire lit than the old lady smiled."},
+      {"sp": "Lou", "fr": "Et l'étoile ?", "en": "And the star?"},
+      {"sp": "Louise", "fr": "{Quand la vieille dame se fut endormie|pa-accord}, l'étoile descendit sur le toit.", "en": "When the old lady had fallen asleep, the star came down onto the roof."},
+      {"sp": "Louise", "fr": "{Aussitôt qu'elle fut arrivée|pa-accord}, elle devint une petite fille, avec des joues toutes rouges.", "en": "As soon as it had arrived, it became a little girl, with bright red cheeks."},
+      {"sp": "Lou", "fr": "Comme moi !", "en": "Like me!"},
+      {"sp": "Louise", "fr": "Comme toi. {Quand ils eurent mangé le pain|pa-forme}, le boulanger et la petite fille dansèrent jusqu'à l'aube.", "en": "Like you. When they had eaten the bread, the baker and the little girl danced until dawn."},
+      {"sp": "Louise", "fr": "Et depuis ce jour, dans ce village, le pain de Noël est le meilleur du monde.", "en": "And since that day, in that village, the Christmas bread has been the best in the world."},
+      {"sp": "", "fr": "Hugo écoute aussi, les yeux ronds.", "en": "Hugo is listening too, wide-eyed."},
+      {"sp": "Hugo", "fr": "Mamie, c'est quoi, « eut fini », « fut sorti » ? Je n'ai jamais dit ça de ma vie.", "en": "Granny, what's 'eut fini', 'fut sorti'? I've never said that in my life."},
+      {"sp": "Léa", "fr": "C'est le passé antérieur : on le trouve seulement dans les livres. À l'oral, on dit {« quand il avait fini »|pa-oral} ou {« quand il a fini »|pa-oral}.", "en": "It's the passé antérieur: you only find it in books. In speech, people say 'quand il avait fini' or 'quand il a fini'."},
+      {"sp": "Lou", "fr": "Encore une histoire !", "en": "Another story!"},
+      {"sp": "", "fr": "Mais Lou bâille. {À peine Louise eut-elle fini son histoire que|pa-apeine} Lou dormait déjà, contre Carla.", "en": "But Lou yawns. No sooner had Louise finished her story than Lou was already asleep, leaning against Carla."},
+      {"sp": "Carla", "fr": "En Espagne, les enfants attendent les Rois mages. Ici, ils attendent Mamie.", "en": "In Spain, children wait for the Three Kings. Here, they wait for Granny."},
+      {"sp": "", "fr": "Avant minuit, Anne met les souliers de Lou au pied du sapin. Jacques et Louise partent à la messe de minuit.", "en": "Before midnight, Anne puts Lou's shoes at the foot of the tree. Jacques and Louise set off for midnight mass."}
+    ]
+  },
+  "quiz": [
+    {"case": "pa-forme", "type": "mc", "q": "Quand il ___ son pain, il sortit.", "en": "When he had finished his bread, he went out.", "options": ["eut fini", "eut finit", "fut fini"], "answer": "eut fini"},
+    {"case": "pa-forme", "type": "mc", "q": "Quand ils ___ mangé, ils dansèrent.", "en": "When they had eaten, they danced.", "options": ["eurent", "furent", "eut"], "answer": "eurent"},
+    {"case": "pa-quand", "type": "mc", "q": "___ sorti, il [vit|voir] une étoile.", "en": "As soon as he had gone out, he saw a star.", "options": ["Dès qu'il fut", "Dès qu'il était", "Dès qu'il a"], "answer": "Dès qu'il fut"},
+    {"case": "pa-quand", "type": "mc", "q": "Après qu'il lui ___ son pain, il alluma le feu.", "en": "After he had given her his bread, he lit the fire.", "options": ["eut donné", "a donné", "donne"], "answer": "eut donné"},
+    {"case": "pa-apeine", "type": "mc", "q": "À peine ___ sorti que la neige tomba.", "en": "No sooner had he gone out than the snow fell.", "options": ["fut-il", "il fut", "eut-il"], "answer": "fut-il"},
+    {"case": "pa-apeine", "type": "mc", "q": "À peine eut-elle fini ___ Lou dormait déjà.", "en": "Hardly had she finished when Lou was already asleep.", "options": ["que", "quand", "et"], "answer": "que"},
+    {"case": "pa-accord", "type": "mc", "q": "Quand elle ___ [arrivée|arriver], elle devint une petite fille.", "en": "When it had arrived, it became a little girl.", "options": ["fut", "eut", "était"], "answer": "fut"},
+    {"case": "pa-accord", "type": "mc", "q": "Quand la vieille dame se fut ___, l'étoile descendit.", "en": "When the old lady had fallen asleep, the star came down.", "options": ["endormie", "endormi", "endormir"], "answer": "endormie"},
+    {"case": "pa-oral", "type": "mc", "q": "À l'oral, on dit plutôt : « Quand il ___ fini… »", "en": "In speech, people would say: 'When he had finished…'", "options": ["avait", "eut", "fut"], "answer": "avait"},
+    {"case": "pa-oral", "type": "mc", "q": "On trouve le passé antérieur surtout ___.", "en": "You find the passé antérieur mostly in books.", "options": ["dans les livres", "dans la rue", "au téléphone"], "answer": "dans les livres"}
+  ]
+}

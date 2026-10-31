@@ -1,0 +1,104 @@
+{
+  "id": "u49-cond-info",
+  "type": "grammar",
+  "unit": 49,
+  "title": "Inès aurait-elle trouvé l'amour ?",
+  "en": "The conditional for unconfirmed news (selon le magazine, elle serait…)",
+  "intro": "Newspapers and magazines use the conditional for information they haven't checked: ***Selon le magazine**, Inès **serait** la nouvelle égérie d'un parfum.* The present conditional reports something present or future (*elle serait, le tournage se passerait à New York*); the past conditional reports something past (*elle **aurait signé** un contrat*). The source comes with **selon, d'après** or **à en croire**. In everyday speech, **il paraît que** and **on dit que** do the same job, with the indicative: *Il paraît que tu pars à New York.* Headlines turn it into a question with inversion: ***Inès aurait-elle** trouvé l'amour ?*",
+  "cases": [
+    {"id": "ci-present", "label": "the present conditional: elle serait…", "rule": "For a present or future fact you can't confirm, use the present conditional: *Selon le magazine, elle serait amoureuse. Le tournage se passerait à New York.* It means: they say so, but it isn't certain."},
+    {"id": "ci-passe", "label": "the past conditional: elle aurait signé…", "rule": "For a past fact you can't confirm, use the past conditional, *aurait* or *serait* + participle: *Elle aurait signé un contrat. Le voleur serait parti par la fenêtre.* The usual agreements apply: *on les aurait vus*."},
+    {"id": "ci-source", "label": "selon, d'après, à en croire", "rule": "Give the source with *selon* or *d'après* + noun: *selon nos informations, d'après une source proche*. *À en croire…* (if you believe…) suggests you don't: *À en croire ce magazine, ma sœur me vole mon copain.*"},
+    {"id": "ci-paraît", "label": "il paraît que, on dit que + indicative", "rule": "In everyday speech, *il paraît que, on dit que* and *le bruit court que* already mark a rumour, so the verb stays in the indicative: *Il paraît que tu pars à New York. On dit que je suis très fort.*"},
+    {"id": "ci-question", "label": "in headlines: aurait-elle… ?", "rule": "Headlines love a question in the conditional, with inversion: *Inès aurait-elle trouvé l'amour ? Hugo serait-il un chevalier ?* With a noun subject, keep the noun and add a pronoun after the verb."}
+  ],
+  "sections": [
+    {"title": "1. the present conditional: elle serait…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Elle serait la nouvelle égérie d'un parfum.", "She's said to be the new face of a perfume."],
+      ["Le tournage se passerait à New York.", "The shoot would reportedly be in New York."],
+      ["Il y aurait un million de vues.", "There are apparently a million views."]]},
+     "examples": [
+      {"fr": "{La nouvelle égérie d'un grand parfum serait lyonnaise|ci-present} !", "en": "The new face of a big perfume is said to be from Lyon!"},
+      {"fr": "{Ce serait Inès|ci-present}, une jeune mannequin espagnole.", "en": "It's apparently Inès, a young Spanish model."}],
+     "tip": "The conditional says: we're reporting this, we haven't checked it."},
+    {"title": "2. the past conditional: elle aurait signé…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Elle aurait signé un contrat.", "She has reportedly signed a contract."],
+      ["On les aurait vus ensemble.", "They were apparently seen together."],
+      ["Le voleur serait parti par la fenêtre.", "The thief apparently left through the window."]]},
+     "examples": [
+      {"fr": "{Elle aurait signé un contrat d'un million d'euros|ci-passe}.", "en": "She has reportedly signed a million-euro contract."},
+      {"fr": "{On les aurait vus ensemble devant une boulangerie|ci-passe}.", "en": "They were apparently seen together outside a bakery."}],
+     "tip": "For the past: avoir or être in the conditional, then the past participle."},
+    {"title": "3. selon, d'après, à en croire", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Selon le magazine, elle serait amoureuse.", "According to the magazine, she's in love."],
+      ["D'après une source proche, elle sortirait avec lui.", "According to a source close to her, she's going out with him."],
+      ["À en croire ce magazine, c'est l'amour.", "If you believe this magazine, it's love."]]},
+     "examples": [
+      {"fr": "{Selon nos informations|ci-source}, ce serait Inès.", "en": "According to our information, it's Inès."},
+      {"fr": "{À en croire ce magazine|ci-source}, ma sœur me vole mon copain.", "en": "If you believe this magazine, my sister is stealing my boyfriend."}],
+     "tip": "Selon and d'après take a noun; à en croire hints that you don't believe it."},
+    {"title": "4. il paraît que, on dit que + indicative", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il paraît que tu pars à New York.", "Apparently you're off to New York."],
+      ["On dit que je suis très fort.", "They say I'm very strong."],
+      ["Le bruit [court|courir] qu'elle a signé.", "Rumour has it she's signed."]]},
+     "examples": [
+      {"fr": "{Il paraît que je pars à New York|ci-paraît} ? C'est nouveau !", "en": "Apparently I'm going to New York? That's news to me!"},
+      {"fr": "{On dit que je suis très fort|ci-paraît}. C'est vrai, ça !", "en": "They say I'm very strong. That's true, at least!"}],
+     "tip": "These already say it's a rumour, so the verb stays in the indicative."},
+    {"title": "5. in headlines: aurait-elle… ?", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Inès aurait-elle trouvé l'amour ?", "Has Inès found love?"],
+      ["Hugo serait-il un chevalier ?", "Could Hugo be a knight?"],
+      ["Le parfum serait-il un succès ?", "Will the perfume be a hit?"]]},
+     "examples": [
+      {"fr": "« {Inès aurait-elle trouvé l'amour|ci-question} ? »", "en": "'Has Inès found love?'"}],
+     "tip": "A question in the conditional, with inversion, is a classic headline."}
+  ],
+  "mistakes": [
+    {"wrong": "Elle aurait signer un contrat.", "right": "Elle aurait signé un contrat.", "why": "The past conditional is aurait + the past participle."},
+    {"wrong": "Il paraît qu'elle serait à New York.", "right": "Il paraît qu'elle est à New York.", "why": "Il paraît que already marks a rumour: use the indicative."},
+    {"wrong": "Selon le magazine dit qu'elle est amoureuse.", "right": "Selon le magazine, elle serait amoureuse.", "why": "Selon is followed by a noun, not by a verb."},
+    {"wrong": "Elle aurait-elle trouvé l'amour ?", "right": "Aurait-elle trouvé l'amour ?", "why": "With a pronoun subject, the pronoun only comes after the verb."}
+  ],
+  "story": {
+    "title": "Inès aurait-elle trouvé l'amour ?",
+    "en": "Thursday 2 December: a magazine at the café downstairs, and the truth about Inès's perfume.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi deux décembre, au café d'en bas, Hugo arrive avec un magazine de stars.", "en": "On Thursday 2 December, at the café downstairs, Hugo arrives with a celebrity magazine."},
+      {"sp": "Hugo", "fr": "Écoutez ça ! Page douze : « {La nouvelle égérie d'un grand parfum serait lyonnaise|ci-present} ! »", "en": "Listen to this! Page twelve: 'The new face of a big perfume is said to be from Lyon!'"},
+      {"sp": "Hugo", "fr": "« {Selon nos informations|ci-source}, {ce serait Inès|ci-present}, une jeune mannequin espagnole. »", "en": "'According to our information, it's Inès, a young Spanish model.'"},
+      {"sp": "Hugo", "fr": "« {Elle aurait signé un contrat d'un million d'euros|ci-passe}, et {le tournage se passerait à New York|ci-present}, en janvier. »", "en": "'She has reportedly signed a million-euro contract, and the shoot is said to be in New York, in January.'"},
+      {"sp": "Tom", "fr": "Un million ? {Il paraît que les mannequins gagnent bien leur vie|ci-paraît}, mais quand même !", "en": "A million? Apparently models earn a good living, but even so!"},
+      {"sp": "Hugo", "fr": "Attendez, il y a mieux. « {Inès aurait-elle trouvé l'amour|ci-question} ? {D'après une source proche, elle sortirait avec le célèbre roi de la poubelle|ci-source} ! »", "en": "Wait, there's more. 'Has Inès found love? According to a source close to her, she's going out with the famous king of the bin!'"},
+      {"sp": "", "fr": "Tout le café se tourne vers Hugo. Carla éclate de rire.", "en": "The whole café turns to look at Hugo. Carla bursts out laughing."},
+      {"sp": "Hugo", "fr": "« {On les aurait vus ensemble devant une boulangerie|ci-passe}, les bras pleins de sacs. » C'est moi ! Il y a même une photo !", "en": "'They were apparently seen together outside a bakery, their arms full of bags.' That's me! There's even a photo!"},
+      {"sp": "Carla", "fr": "{À en croire ce magazine|ci-source}, ma sœur me vole mon copain. Bravo.", "en": "If you believe this magazine, my sister is stealing my boyfriend. Well done."},
+      {"sp": "Léa", "fr": "Regardez les verbes : « serait », « aurait signé ». Le journaliste n'est sûr de [rien|rien].", "en": "Look at the verbs: 'serait', 'aurait signé'. The journalist isn't sure of anything."},
+      {"sp": "", "fr": "À ce moment-là, Inès arrive, avec une écharpe et un grand sourire.", "en": "Just then, Inès arrives, with a scarf and a big smile."},
+      {"sp": "Inès", "fr": "{Il paraît que je pars à New York|ci-paraît} ? C'est nouveau !", "en": "Apparently I'm going to New York? That's news to me!"},
+      {"sp": "Inès", "fr": "C'est vrai, j'ai signé un contrat… avec une petite maison de parfum de Grasse. Et le tournage, c'est à Paris, en janvier.", "en": "It's true, I've signed a contract… with a little perfume house in Grasse. And the shoot is in Paris, in January."},
+      {"sp": "Tom", "fr": "Et le million d'euros ?", "en": "And the million euros?"},
+      {"sp": "Inès", "fr": "Un million ? Peut-être un million de vues sur internet. Pas d'euros.", "en": "A million? Maybe a million views online. Not euros."},
+      {"sp": "Hugo", "fr": "Et… l'amoureux secret ?", "en": "And… the secret lover?"},
+      {"sp": "Inès", "fr": "Le roi de la poubelle portait mes sacs de courses, samedi, parce que j'avais les mains pleines. C'est tout.", "en": "The king of the bin was carrying my shopping bags on Saturday, because my hands were full. That's all."},
+      {"sp": "Carla", "fr": "Mon roi de la poubelle porte les sacs de tout le monde. C'est son côté chevalier.", "en": "My king of the bin carries everybody's bags. It's his knightly side."},
+      {"sp": "Léa", "fr": "Alors on corrige l'article : Inès a signé un contrat, le tournage se passe à Paris, et Hugo porte des sacs.", "en": "So we correct the article: Inès has signed a contract, the shoot is in Paris, and Hugo carries bags."},
+      {"sp": "Hugo", "fr": "{On dit que je suis très fort|ci-paraît}. C'est vrai, ça !", "en": "They say I'm very strong. That's true, at least!"},
+      {"sp": "", "fr": "Inès leur montre le flacon de son futur parfum. Il s'appelle « Neige de Grasse ».", "en": "Inès shows them the bottle of her future perfume. It's called 'Neige de Grasse'."},
+      {"sp": "", "fr": "Madame Fournier passe avec un plateau de croissants. Elle lit le titre et soupire.", "en": "Madame Fournier comes by with a tray of croissants. She reads the headline and sighs."},
+      {"sp": "Madame Fournier", "fr": "Dans ma boulangerie, on ne vend pas de rumeurs. Seulement du pain… et du vrai.", "en": "In my bakery we don't sell rumours. Only bread… the real thing."}
+    ]
+  },
+  "quiz": [
+    {"case": "ci-present", "type": "mc", "q": "Selon le magazine, Inès ___ la nouvelle égérie d'un parfum.", "en": "According to the magazine, Inès is the new face of a perfume.", "options": ["serait", "sera", "soit"], "answer": "serait"},
+    {"case": "ci-present", "type": "mc", "q": "Le tournage se ___ à New York.", "en": "The shoot is said to be taking place in New York.", "options": ["passerait", "passera", "passe"], "answer": "passerait"},
+    {"case": "ci-passe", "type": "mc", "q": "Elle ___ un contrat d'un million.", "en": "She has reportedly signed a million-euro contract.", "options": ["aurait signé", "aurait signer", "a signé"], "answer": "aurait signé"},
+    {"case": "ci-passe", "type": "mc", "q": "On les ___ ensemble devant une boulangerie.", "en": "They were apparently seen together outside a bakery.", "options": ["aurait vus", "aurait vu", "a vus"], "answer": "aurait vus"},
+    {"case": "ci-source", "type": "mc", "q": "___ nos informations, ce serait Inès.", "en": "According to our information, it's Inès.", "options": ["Selon", "Si", "Comme"], "answer": "Selon"},
+    {"case": "ci-source", "type": "mc", "q": "___ ce magazine, ma sœur me vole mon copain.", "en": "If you believe this magazine, my sister is stealing my boyfriend.", "options": ["À en croire", "En croyant", "Croire"], "answer": "À en croire"},
+    {"case": "ci-paraît", "type": "mc", "q": "Il paraît que tu ___ à New York.", "en": "Apparently you're going to New York.", "options": ["pars", "partirais", "partes"], "answer": "pars"},
+    {"case": "ci-paraît", "type": "mc", "q": "On dit que je ___ très fort.", "en": "They say I'm very strong.", "options": ["suis", "serais", "sois"], "answer": "suis"},
+    {"case": "ci-question", "type": "mc", "q": "Inès ___ trouvé l'amour ?", "en": "Has Inès found love?", "options": ["aurait-elle", "aurait", "elle aurait"], "answer": "aurait-elle"},
+    {"case": "ci-question", "type": "mc", "q": "___ un chevalier ?", "en": "Could Hugo be a knight?", "options": ["Hugo serait-il", "Serait Hugo", "Hugo il serait"], "answer": "Hugo serait-il"}
+  ]
+}

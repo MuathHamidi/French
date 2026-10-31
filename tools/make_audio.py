@@ -178,6 +178,8 @@ FIXES = {
     "quatre-vingt-huit": "katʁvɛ̃ɥˈit", "quatre-vingt-neuf": "katʁvɛ̃nˈœf", "quatre-vingt-onze": "katʁvɛ̃ˈɔ̃z",  # the voice says the t of vingt
     "supporters": "sypɔʁtˈœʁ",  # the fans, not the verb supporter
     "aux os": "ozˈo",  # the plural os is /o/: the voice says /ɔs/ (trempé jusqu'aux os)
+    "avent": "avˈɑ̃",  # Advent: the voice says /av/ (le calendrier de l'Avent)
+    "houx": "ˈu",  # holly: the voice adds a liaison (du houx à la fenêtre)
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

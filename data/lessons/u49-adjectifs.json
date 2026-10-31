@@ -1,0 +1,143 @@
+{
+  "id": "u49-adjectifs",
+  "type": "vocab",
+  "unit": 49,
+  "title": "Un vilain pull",
+  "en": "Common adjectives (4)",
+  "intro": "25 common adjectives: wonder and praise (**adorable, chic, fabuleux, ravissant, splendide, exquis, divin, irrésistible, ravi**), size and look (**géant, vilain, transparent, intact, mécanique, électrique**), how things feel (**enfantin, comique, sentimental, honteux, éternel, sain**), and everyday words (**russe, cool, favori, commode**).",
+  "words": [
+    {"id": "adorable", "fr": "adorable", "pos": "adj", "ipa": "a.dɔ.ʁabl", "en": "adorable, lovely", "def": "Très mignon ; qu'on a envie d'aimer.", "def_en": "Very sweet; that you can't help loving.", "forms": ["adorables"], "examples": [
+      {"fr": "De Lou, un dessin **adorable**.", "en": "From Lou, an adorable drawing."},
+      {"fr": "Les jumeaux sont **adorables**.", "en": "The twins are adorable."},
+      {"fr": "Quel chat **adorable** !", "en": "What a lovely cat!"}]},
+    {"id": "chic", "fr": "chic", "pos": "adj", "ipa": "ʃik", "en": "smart, stylish, chic; (informal) nice", "def": "Élégant, à la mode.", "def_en": "Elegant, fashionable.", "forms": ["chics"], "examples": [
+      {"fr": "Une écharpe très **chic**.", "en": "A very stylish scarf."},
+      {"fr": "Inès est toujours **chic**.", "en": "Inès is always smart."},
+      {"fr": "C'est **chic** de ta part !", "en": "That's nice of you!"}]},
+    {"id": "fabuleux", "fr": "fabuleux", "pos": "adj", "ipa": "fa.by.lø", "display": "fabuleux, fabuleuse", "en": "fabulous, amazing", "def": "Extraordinaire, qu'on a du mal à croire.", "def_en": "Extraordinary, hard to believe.", "forms": ["fabuleuse", "fabuleuses"], "accept": ["fabuleuse"], "examples": [
+      {"fr": "Elle est **fabuleuse** !", "en": "It's fabulous!"},
+      {"fr": "Un voyage **fabuleux**.", "en": "An amazing trip."},
+      {"fr": "Il a gagné une somme **fabuleuse**.", "en": "He won a fabulous sum."}]},
+    {"id": "ravissant", "fr": "ravissant", "pos": "adj", "ipa": "ʁa.vi.sɑ̃", "display": "ravissant, ravissante", "en": "lovely, delightful, ravishing", "def": "Très joli, qui fait plaisir à voir.", "def_en": "Very pretty, a pleasure to look at.", "forms": ["ravissante", "ravissants", "ravissantes"], "accept": ["ravissante"], "examples": [
+      {"fr": "Il est **ravissant**.", "en": "It's lovely."},
+      {"fr": "Une robe **ravissante**.", "en": "A delightful dress."},
+      {"fr": "Un **ravissant** petit village.", "en": "A charming little village."}]},
+    {"id": "splendide", "fr": "splendide", "pos": "adj", "ipa": "splɑ̃.did", "en": "splendid, magnificent", "def": "Très beau, magnifique.", "def_en": "Very beautiful, magnificent.", "forms": ["splendides"], "examples": [
+      {"fr": "Elle est **splendide**.", "en": "It's splendid."},
+      {"fr": "Il fait un temps **splendide**.", "en": "The weather is glorious."},
+      {"fr": "Une vue **splendide** sur Paris.", "en": "A magnificent view over Paris."}]},
+    {"id": "exquis", "fr": "exquis", "pos": "adj", "ipa": "ɛk.ski", "display": "exquis, exquise", "en": "exquisite, delicious", "def": "Délicieux ; très fin et très délicat.", "def_en": "Delicious; very fine and very delicate.", "forms": ["exquise", "exquises"], "accept": ["exquise"], "examples": [
+      {"fr": "La bûche est **exquise**.", "en": "The Yule log is exquisite."},
+      {"fr": "Un vin **exquis**.", "en": "An exquisite wine."},
+      {"fr": "Quel parfum **exquis** !", "en": "What a delicious scent!"}]},
+    {"id": "vilain", "fr": "vilain", "pos": "adj", "ipa": "vi.lɛ̃", "display": "vilain, vilaine", "en": "ugly; naughty", "def": "Laid, pas beau ; (pour un enfant) pas sage.", "def_en": "Ugly, not nice to look at; (of a child) naughty.", "forms": ["vilaine", "vilains", "vilaines"], "accept": ["vilaine"], "examples": [
+      {"fr": "Un **vilain** pull rouge et vert.", "en": "An ugly red and green jumper."},
+      {"fr": "Quel **vilain** temps !", "en": "What horrible weather!"},
+      {"fr": "Tu es un **vilain** garçon !", "en": "You're a naughty boy!"}]},
+    {"id": "geant", "fr": "géant", "pos": "adj", "ipa": "ʒe.ɑ̃", "display": "géant, géante", "en": "giant, huge; (noun) giant", "def": "Très, très grand.", "def_en": "Very, very big.", "forms": ["géante", "géants", "géantes"], "accept": ["géante"], "examples": [
+      {"fr": "Une luge **géante** !", "en": "A giant sledge!"},
+      {"fr": "Un ange **géant** au-dessus de la famille.", "en": "A giant angel above the family."},
+      {"fr": "Un **géant** de deux mètres !", "en": "A two-metre giant!"}]},
+    {"id": "comique", "fr": "comique", "pos": "adj", "ipa": "kɔ.mik", "en": "comic, funny", "def": "Qui fait rire.", "def_en": "That makes you laugh.", "forms": ["comiques"], "examples": [
+      {"fr": "Il est… **comique**.", "en": "It's… funny."},
+      {"fr": "Un film **comique**.", "en": "A comedy film."},
+      {"fr": "La situation est **comique**.", "en": "The situation is comical."}]},
+    {"id": "transparent", "fr": "transparent", "pos": "adj", "ipa": "tʁɑ̃s.pa.ʁɑ̃", "display": "transparent, transparente", "en": "transparent, see-through", "def": "Qu'on peut voir à travers, comme le verre.", "def_en": "That you can see through, like glass.", "forms": ["transparente", "transparents", "transparentes"], "accept": ["transparente"], "examples": [
+      {"fr": "Un vieux stylo **transparent**.", "en": "An old see-through pen."},
+      {"fr": "Un parapluie **transparent**.", "en": "A see-through umbrella."},
+      {"fr": "L'eau du lac est **transparente**.", "en": "The water in the lake is crystal clear."}]},
+    {"id": "intact", "fr": "intact", "pos": "adj", "ipa": "ɛ̃.takt", "display": "intact, intacte", "en": "intact, undamaged", "def": "Qui n'a pas [été|etre] abîmé ou touché.", "def_en": "That hasn't been damaged or touched.", "forms": ["intacte", "intacts", "intactes"], "accept": ["intacte"], "examples": [
+      {"fr": "Elles sont arrivées **intactes**.", "en": "They arrived undamaged."},
+      {"fr": "Le gâteau est **intact** : Hugo n'est pas encore là.", "en": "The cake is untouched: Hugo isn't here yet."},
+      {"fr": "Après la tempête, la boulangerie est **intacte**.", "en": "After the storm, the bakery is intact."}]},
+    {"id": "enfantin", "fr": "enfantin", "pos": "adj", "ipa": "ɑ̃.fɑ̃.tɛ̃", "display": "enfantin, enfantine", "en": "childish; for children; very easy", "def": "Comme pour les petits ; très facile.", "def_en": "Like something for little ones; very easy.", "forms": ["enfantine", "enfantins", "enfantines"], "accept": ["enfantine"], "examples": [
+      {"fr": "C'est un jeu **enfantin**.", "en": "It's a children's game."},
+      {"fr": "Cet exercice est **enfantin**.", "en": "This exercise is child's play."},
+      {"fr": "Une voix **enfantine**.", "en": "A childlike voice."}]},
+    {"id": "divin", "fr": "divin", "pos": "adj", "ipa": "di.vɛ̃", "display": "divin, divine", "en": "divine, heavenly", "def": "De Dieu ; merveilleux, délicieux.", "def_en": "Of God; marvellous, delicious.", "forms": ["divine", "divins", "divines"], "accept": ["divine"], "examples": [
+      {"fr": "La bûche est **divine**.", "en": "The Yule log is heavenly."},
+      {"fr": "Une musique **divine**.", "en": "Divine music."},
+      {"fr": "Ce chocolat est **divin**.", "en": "This chocolate is divine."}]},
+    {"id": "eternel", "fr": "éternel", "pos": "adj", "ipa": "e.tɛʁ.nɛl", "display": "éternel, éternelle", "en": "eternal, everlasting; never-ending", "def": "Qui ne finit jamais.", "def_en": "That never ends.", "forms": ["éternelle", "éternels", "éternelles"], "accept": ["éternelle"], "examples": [
+      {"fr": "Un Noël comme ça, c'est **éternel**.", "en": "A Christmas like that lasts for ever."},
+      {"fr": "L'**éternel** retard de Hugo.", "en": "Hugo's never-ending lateness."},
+      {"fr": "Un amour **éternel**.", "en": "Everlasting love."}]},
+    {"id": "sain", "fr": "sain", "pos": "adj", "ipa": "sɛ̃", "display": "sain, saine", "en": "healthy; sound", "def": "Bon pour la santé ; en bonne santé.", "def_en": "Good for your health; in good health.", "note": "*Sain et sauf* = safe and sound.", "forms": ["saine", "sains", "saines"], "accept": ["saine"], "examples": [
+      {"fr": "C'est un cadeau **sain** !", "en": "It's a healthy present!"},
+      {"fr": "Une vie **saine**.", "en": "A healthy life."},
+      {"fr": "Elle mange **sain** : des fruits et des légumes.", "en": "She eats healthily: fruit and vegetables."}]},
+    {"id": "russe", "fr": "russe", "pos": "adj", "ipa": "ʁys", "en": "Russian", "def": "Du plus grand pays du monde, entre l'Europe et l'Asie.", "def_en": "From the biggest country in the world, between Europe and Asia.", "note": "*Une poupée russe* = a Russian doll (a matryoshka).", "forms": ["russes"], "examples": [
+      {"fr": "Une poupée **russe** !", "en": "A Russian doll!"},
+      {"fr": "Elle parle **russe**.", "en": "She speaks Russian."},
+      {"fr": "Un roman **russe**.", "en": "A Russian novel."}]},
+    {"id": "cool", "fr": "cool", "pos": "adj", "ipa": "kul", "en": "cool; relaxed (informal)", "def": "Très bien, agréable ; calme, détendu. (familier)", "def_en": "Very good, nice; calm, laid-back. (informal)", "examples": [
+      {"fr": "C'est le Noël le plus **cool** du monde !", "en": "It's the coolest Christmas in the world!"},
+      {"fr": "Ton professeur est **cool**.", "en": "Your teacher is cool."},
+      {"fr": "Reste **cool**, Hugo.", "en": "Stay cool, Hugo."}]},
+    {"id": "favori", "fr": "favori", "pos": "adj", "ipa": "fa.vɔ.ʁi", "display": "favori, favorite", "en": "favourite", "def": "Qu'on préfère aux autres.", "def_en": "That you like best.", "forms": ["favorite", "favoris", "favorites"], "accept": ["favorite"], "examples": [
+      {"fr": "Mon Noël français **favori**.", "en": "My favourite French Christmas."},
+      {"fr": "Ma chanson **favorite**.", "en": "My favourite song."},
+      {"fr": "Le chocolat est son dessert **favori**.", "en": "Chocolate is his favourite dessert."}]},
+    {"id": "commode", "fr": "commode", "pos": "adj", "ipa": "kɔ.mɔd", "en": "handy, convenient; easy", "def": "Pratique, facile à utiliser.", "def_en": "Practical, easy to use.", "note": "*Une commode* = a chest of drawers.", "forms": ["commodes"], "examples": [
+      {"fr": "Le cadeau le plus **commode** de l'année.", "en": "The handiest present of the year."},
+      {"fr": "Ce sac est très **commode**.", "en": "This bag is very handy."},
+      {"fr": "Ce n'est pas **commode** de se garer ici.", "en": "It's not easy to park here."}]},
+    {"id": "sentimental", "fr": "sentimental", "pos": "adj", "ipa": "sɑ̃.ti.mɑ̃.tal", "display": "sentimental, sentimentale", "en": "sentimental", "def": "Qui touche le cœur ; qui est facilement ému.", "def_en": "That touches the heart; easily moved.", "forms": ["sentimentale", "sentimentaux", "sentimentales"], "accept": ["sentimentale"], "examples": [
+      {"fr": "Il est un peu **sentimental**, ton vieux père.", "en": "Your old dad's a bit sentimental."},
+      {"fr": "Ce stylo a une valeur **sentimentale**.", "en": "This pen has sentimental value."},
+      {"fr": "Une chanson **sentimentale**.", "en": "A sentimental song."}]},
+    {"id": "mecanique", "fr": "mécanique", "pos": "adj", "ipa": "me.ka.nik", "en": "mechanical; (noun) mechanics", "def": "Qui fonctionne avec des pièces qui bougent ; fait sans réfléchir.", "def_en": "That works with moving parts; done without thinking.", "forms": ["mécaniques"], "examples": [
+      {"fr": "Une petite voiture **mécanique**.", "en": "A little wind-up car."},
+      {"fr": "Une montre **mécanique**.", "en": "A mechanical watch."},
+      {"fr": "Un geste **mécanique**.", "en": "An automatic gesture."}]},
+    {"id": "irresistible", "fr": "irrésistible", "pos": "adj", "ipa": "i.ʁe.zis.tibl", "en": "irresistible", "def": "À qui ou à quoi on ne peut pas dire non.", "def_en": "That you can't say no to.", "forms": ["irrésistibles"], "examples": [
+      {"fr": "Un lapin en chocolat. **Irrésistible** !", "en": "A chocolate rabbit. Irresistible!"},
+      {"fr": "Ce sourire est **irrésistible**.", "en": "That smile is irresistible."},
+      {"fr": "Une envie **irrésistible** de dormir.", "en": "An irresistible urge to sleep."}]},
+    {"id": "honteux", "fr": "honteux", "pos": "adj", "ipa": "ɔ̃.tø", "display": "honteux, honteuse", "en": "ashamed; shameful", "def": "Qui se sent gêné et coupable ; qu'on ne peut pas accepter.", "def_en": "Who feels embarrassed and guilty; that can't be accepted.", "forms": ["honteuse", "honteuses"], "accept": ["honteuse"], "examples": [
+      {"fr": "Je suis **honteux**… mais je l'ouvre quand même.", "en": "I'm ashamed… but I'm opening it anyway."},
+      {"fr": "C'est **honteux** !", "en": "It's a disgrace!"},
+      {"fr": "Lou, **honteuse**, cache le chocolat.", "en": "Lou, ashamed, hides the chocolate."}]},
+    {"id": "electrique", "fr": "électrique", "pos": "adj", "ipa": "e.lɛk.tʁik", "en": "electric, electrical", "def": "Qui fonctionne avec une prise ou une batterie.", "def_en": "That works with a plug or a battery.", "forms": ["électriques"], "examples": [
+      {"fr": "Une brosse à dents **électrique**.", "en": "An electric toothbrush."},
+      {"fr": "Une guitare **électrique**.", "en": "An electric guitar."},
+      {"fr": "Une voiture **électrique**.", "en": "An electric car."}]},
+    {"id": "ravi", "fr": "ravi", "pos": "adj", "ipa": "ʁa.vi", "display": "ravi, ravie", "en": "delighted", "def": "Très content.", "def_en": "Very pleased.", "forms": ["ravie", "ravis", "ravies"], "accept": ["ravie"], "examples": [
+      {"fr": "Toute la famille est **ravie**.", "en": "The whole family is delighted."},
+      {"fr": "Je suis **ravi** de te voir.", "en": "I'm delighted to see you."},
+      {"fr": "Ils sont **ravis** de leur voyage.", "en": "They're delighted with their trip."}]}
+  ],
+  "story": {
+    "title": "Un vilain pull",
+    "en": "Saturday 25 December: Christmas morning at Paul and Anne's, in Paris.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-cinq décembre, à sept heures, Lou réveille toute la maison : le Père Noël est passé !", "en": "On Saturday 25 December, at seven o'clock, Lou wakes the whole house: Father Christmas has been!"},
+      {"sp": "", "fr": "Au pied du sapin, ses souliers ont disparu sous les paquets. Il y a même une luge géante.", "en": "At the foot of the tree, her shoes have disappeared under the parcels. There's even a giant sledge."},
+      {"sp": "Lou", "fr": "Elle est fabuleuse ! Et regarde, une poupée russe ! Il y a une poupée dans la poupée dans la poupée…", "en": "It's fabulous! And look, a Russian doll! There's a doll in the doll in the doll…"},
+      {"sp": "Louise", "fr": "C'est un jeu enfantin, mais à mon âge, je l'adore encore.", "en": "It's a children's toy, but at my age I still love it."},
+      {"sp": "", "fr": "Pour Hugo, Anne a choisi une brosse à dents électrique.", "en": "For Hugo, Anne has chosen an electric toothbrush."},
+      {"sp": "Anne", "fr": "C'est un cadeau sain ! Avec tout ton chocolat…", "en": "It's a healthy present! With all your chocolate…"},
+      {"sp": "", "fr": "Léa offre à Hugo un vilain pull rouge et vert, avec un renne qui s'allume.", "en": "Léa gives Hugo an ugly red and green jumper, with a reindeer that lights up."},
+      {"sp": "Hugo", "fr": "Il est… comique. Je le mettrai au bureau. Madame Dupont va adorer.", "en": "It's… funny. I'll wear it at the office. Madame Dupont will love it."},
+      {"sp": "", "fr": "Carla ouvre un petit paquet de Hugo. Dedans, une carte cadeau… et deux chaussures de danse, cette fois.", "en": "Carla opens a little parcel from Hugo. Inside, a gift card… and two dance shoes, this time."},
+      {"sp": "Carla", "fr": "Les deux en même temps ? C'est un progrès incroyable !", "en": "Both at once? That's incredible progress!"},
+      {"sp": "Hugo", "fr": "Elles sont arrivées intactes, dans la même boîte. J'ai vérifié trois fois.", "en": "They arrived undamaged, in the same box. I checked three times."},
+      {"sp": "", "fr": "Pour Léa, Paul a trouvé un vieux stylo transparent : celui de son premier jour de professeur.", "en": "For Léa, Paul has found an old see-through pen: the one from his first day as a teacher."},
+      {"sp": "Paul", "fr": "Pour ta première classe. Il est un peu sentimental, ton vieux père.", "en": "For your first class. Your old dad's a bit sentimental."},
+      {"sp": "Léa", "fr": "Il est ravissant. Je le garderai toute ma vie.", "en": "It's lovely. I'll keep it all my life."},
+      {"sp": "", "fr": "Jacques ouvre le cadeau de Hugo : une petite voiture grise mécanique, la copie de son ancienne voiture.", "en": "Jacques opens Hugo's present: a little grey wind-up car, a copy of his old car."},
+      {"sp": "Jacques", "fr": "Une souris mécanique ! Celle-là, je peux encore la conduire.", "en": "A wind-up mouse! That one I can still drive."},
+      {"sp": "", "fr": "Louise reçoit une lettre de Jacques, sans aucune faute d'orthographe. Elle la lit deux fois.", "en": "Louise gets a letter from Jacques, without a single spelling mistake. She reads it twice."},
+      {"sp": "Louise", "fr": "Elle est splendide. Mais tu as triché : quelqu'un a corrigé tes fautes !", "en": "It's splendid. But you've cheated: someone corrected your mistakes!"},
+      {"sp": "", "fr": "Anne reçoit de Carla une écharpe très chic, et de Lou un dessin adorable : toute la famille, avec un ange géant au-dessus.", "en": "Anne gets a very stylish scarf from Carla, and from Lou an adorable drawing: the whole family, with a giant angel above."},
+      {"sp": "", "fr": "Et Paul découvre un énorme lapin en chocolat. Irrésistible !", "en": "And Paul discovers an enormous chocolate rabbit. Irresistible!"},
+      {"sp": "Paul", "fr": "Je suis honteux… mais je l'ouvre quand même.", "en": "I'm ashamed… but I'm opening it anyway."},
+      {"sp": "", "fr": "Au déjeuner, Louise apporte sa bûche au chocolat. Elle est divine, exquise, et toute la famille est ravie.", "en": "At lunch, Louise brings in her chocolate Yule log. It's heavenly, exquisite, and the whole family is delighted."},
+      {"sp": "Lou", "fr": "C'est le Noël le plus cool du monde !", "en": "It's the coolest Christmas in the world!"},
+      {"sp": "Carla", "fr": "Mon Noël français favori… et le seul, pour l'instant.", "en": "My favourite French Christmas… and the only one, for now."},
+      {"sp": "Hugo", "fr": "Et le mien ? Ma brosse à dents. Le cadeau le plus commode de l'année.", "en": "And mine? My toothbrush. The handiest present of the year."},
+      {"sp": "Jacques", "fr": "Un Noël comme ça, c'est éternel : on s'en souvient toute sa vie.", "en": "A Christmas like this lasts for ever: you remember it all your life."}
+    ]
+  }
+}

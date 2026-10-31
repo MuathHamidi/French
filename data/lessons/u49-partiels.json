@@ -1,0 +1,141 @@
+{
+  "id": "u49-partiels",
+  "type": "vocab",
+  "unit": 49,
+  "title": "Les partiels",
+  "en": "University exams",
+  "intro": "25 words for exams at university: revising (**la révision, les annales, le surligneur, bachoter, potasser, la calculatrice**), the exam itself (**l'amphi, le chronomètre, la marge, la rature, la citation, le trou de mémoire, le correcteur**), the marks (**le barème, le coefficient, le contrôle continu, redoubler**), music and research (**le solfège, la partition, l'harmonie, l'exposé, la bibliographie**), and what's forbidden (**tricher, l'antisèche, le plagiat**).",
+  "words": [
+    {"id": "revision", "fr": "révision", "pos": "noun", "g": "f", "ipa": "ʁe.vi.zjɔ̃", "en": "revision, revising; (car) service", "def": "Le fait de relire et d'apprendre ses cours avant un examen ; le contrôle d'une voiture au garage.", "def_en": "Going back over your notes and learning them before an exam; a check of a car at the garage.", "forms": ["révisions"], "examples": [
+      {"fr": "C'est la semaine des **révisions**.", "en": "It's revision week."},
+      {"fr": "Léa fait ses **révisions** à la bibliothèque.", "en": "Léa does her revising at the library."},
+      {"fr": "La voiture de Papi a besoin d'une **révision**.", "en": "Grandpa's car needs a service."}]},
+    {"id": "annales", "fr": "annales", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "a.nal", "en": "past papers; annals", "def": "Les sujets d'examen des années passées, pour s'entraîner.", "def_en": "Exam papers from past years, for practice.", "examples": [
+      {"fr": "Sur la table, il y a les **annales** de l'an dernier.", "en": "On the table are last year's past papers."},
+      {"fr": "Tom refait les **annales** d'harmonie.", "en": "Tom redoes the harmony past papers."},
+      {"fr": "Les **annales** sont à la bibliothèque.", "en": "The past papers are at the library."}]},
+    {"id": "surligneur", "fr": "surligneur", "pos": "noun", "g": "m", "ipa": "syʁ.li.ɲœʁ", "en": "highlighter (pen)", "def": "Un gros stylo de couleur vive, pour marquer les phrases importantes.", "def_en": "A thick, brightly coloured pen for marking important sentences.", "forms": ["surligneurs"], "examples": [
+      {"fr": "Léa a des **surligneurs** de six couleurs.", "en": "Léa has highlighters in six colours."},
+      {"fr": "Le **surligneur** jaune, c'est pour les dates.", "en": "The yellow highlighter is for the dates."},
+      {"fr": "Mon **surligneur** est sec.", "en": "My highlighter has dried out."}]},
+    {"id": "citation", "fr": "citation", "pos": "noun", "g": "f", "ipa": "si.ta.sjɔ̃", "en": "quotation, quote", "def": "Une phrase d'un auteur, qu'on répète mot pour mot.", "def_en": "An author's sentence, repeated word for word.", "forms": ["citations"], "examples": [
+      {"fr": "Le vert, c'est pour les **citations**.", "en": "Green is for the quotations."},
+      {"fr": "Léa commence par une **citation** de Rivarol.", "en": "Léa begins with a quotation from Rivarol."},
+      {"fr": "Je ne connais pas la date de cette **citation**.", "en": "I don't know the date of this quotation."}]},
+    {"id": "solfege", "fr": "solfège", "pos": "noun", "g": "m", "ipa": "sɔl.fɛʒ", "en": "music theory; sight-reading", "def": "Les notes et les règles pour lire et écrire la musique.", "def_en": "The notes and rules for reading and writing music.", "examples": [
+      {"fr": "Tom révise son **solfège**.", "en": "Tom revises his music theory."},
+      {"fr": "Le **solfège**, c'est la grammaire de la musique.", "en": "Music theory is the grammar of music."},
+      {"fr": "Le cours de **solfège** commence à huit heures.", "en": "The music theory class starts at eight."}]},
+    {"id": "partition", "fr": "partition", "pos": "noun", "g": "f", "ipa": "paʁ.ti.sjɔ̃", "en": "(music) score, sheet music; partition, division", "def": "Le papier où la musique est écrite, avec toutes les notes.", "def_en": "The paper on which music is written, with all the notes.", "forms": ["partitions"], "examples": [
+      {"fr": "Tom révise, une **partition** à la main.", "en": "Tom revises, a score in his hand."},
+      {"fr": "Il a oublié sa **partition** au café.", "en": "He left his sheet music at the café."},
+      {"fr": "Il joue sans **partition**.", "en": "He plays without sheet music."}]},
+    {"id": "harmonie", "fr": "harmonie", "pos": "noun", "g": "f", "ipa": "aʁ.mɔ.ni", "en": "harmony", "def": "L'art de faire sonner des notes ensemble, de façon agréable ; un bon accord entre des personnes.", "def_en": "The art of making notes sound together pleasantly; a good understanding between people.", "forms": ["harmonies"], "examples": [
+      {"fr": "Demain, Tom a son examen d'**harmonie**.", "en": "Tomorrow, Tom has his harmony exam."},
+      {"fr": "En **harmonie**, il y a des règles partout.", "en": "In harmony, there are rules everywhere."},
+      {"fr": "Léa et Sophie vivent en **harmonie**.", "en": "Léa and Sophie live in harmony."}]},
+    {"id": "calculatrice", "fr": "calculatrice", "pos": "noun", "g": "f", "ipa": "kal.ky.la.tʁis", "en": "calculator", "def": "Une petite machine qui compte à ta place.", "def_en": "A small machine that does the sums for you.", "forms": ["calculatrices"], "examples": [
+      {"fr": "Sophie compte avec sa **calculatrice**.", "en": "Sophie does her sums on her calculator."},
+      {"fr": "Les **calculatrices** sont interdites à l'examen.", "en": "Calculators are not allowed in the exam."},
+      {"fr": "Hugo cherche sa **calculatrice** partout.", "en": "Hugo is looking everywhere for his calculator."}]},
+    {"id": "antiseche", "fr": "antisèche", "pos": "noun", "g": "f", "ipa": "ɑ̃.ti.sɛʃ", "en": "crib sheet (for cheating)", "def": "Un petit papier caché, avec les réponses, pour tricher à un examen.", "def_en": "A small hidden piece of paper with the answers, for cheating in an exam.", "note": "Informal.", "forms": ["antisèches"], "examples": [
+      {"fr": "Ma vieille technique : l'**antisèche** !", "en": "My old technique: the crib sheet!"},
+      {"fr": "Hugo écrit son **antisèche** sur son bras.", "en": "Hugo writes his crib sheet on his arm."},
+      {"fr": "Le surveillant a trouvé une **antisèche**.", "en": "The invigilator found a crib sheet."}]},
+    {"id": "bachoter", "fr": "bachoter", "pos": "verb", "ipa": "ba.ʃɔ.te", "en": "to cram (for an exam)", "def": "Apprendre beaucoup de choses très vite, juste avant un examen.", "def_en": "To learn a lot of things very fast, just before an exam.", "forms": ["bachote", "bachotes", "bachotons", "bachotez", "bachotent", "bachoté", "bachotais", "bachotait", "bachotions", "bachotiez", "bachotaient", "bachoterai", "bachoteras", "bachotera", "bachoterons", "bachoterez", "bachoteront", "bachoterais", "bachoterait", "bachoterions", "bachoteriez", "bachoteraient", "bachotant", "bachotai", "bachotas", "bachota", "bachotâmes", "bachotâtes", "bachotèrent"], "examples": [
+      {"fr": "Au lycée, je **bachotais** la veille.", "en": "At school, I crammed the night before."},
+      {"fr": "Ne **bachote** pas toute la nuit !", "en": "Don't cram all night!"},
+      {"fr": "Il a **bachoté** pendant trois jours.", "en": "He crammed for three days."}]},
+    {"id": "potasser", "fr": "potasser", "pos": "verb", "ipa": "pɔ.ta.se", "en": "to swot up, to bone up on (informal)", "def": "Étudier un sujet avec beaucoup d'efforts. (familier)", "def_en": "To study a subject very hard. (informal)", "forms": ["potasse", "potasses", "potassons", "potassez", "potassent", "potassé", "potassée", "potassés", "potassées", "potassais", "potassait", "potassions", "potassiez", "potassaient", "potasserai", "potasseras", "potassera", "potasserons", "potasserez", "potasseront", "potasserais", "potasserait", "potasserions", "potasseriez", "potasseraient", "potassant", "potassai", "potassas", "potassa", "potassâmes", "potassâtes", "potassèrent"], "examples": [
+      {"fr": "Je **potassais** dans le bus.", "en": "I used to swot on the bus."},
+      {"fr": "Tom **potasse** son solfège.", "en": "Tom is swotting up on his music theory."},
+      {"fr": "Il faut **potasser** les annales.", "en": "You have to bone up on the past papers."}]},
+    {"id": "tricher", "fr": "tricher", "pos": "verb", "ipa": "tʁi.ʃe", "en": "to cheat", "def": "Ne pas respecter les règles, pour gagner ou réussir.", "def_en": "Not to follow the rules, in order to win or pass.", "note": "*La triche* = cheating.", "forms": ["triche", "triches", "trichons", "trichez", "trichent", "triché", "trichais", "trichait", "trichions", "trichiez", "trichaient", "tricherai", "tricheras", "trichera", "tricherons", "tricherez", "tricheront", "tricherais", "tricherait", "tricherions", "tricheriez", "tricheraient", "trichant", "trichai", "trichas", "tricha", "trichâmes", "trichâtes", "trichèrent"], "examples": [
+      {"fr": "**Tricher** à la fac, c'est zéro.", "en": "Cheating at university gets you zero."},
+      {"fr": "Hugo **triche** au Monopoly.", "en": "Hugo cheats at Monopoly."},
+      {"fr": "Elle n'a jamais **triché**.", "en": "She has never cheated."}]},
+    {"id": "redoubler", "fr": "redoubler", "pos": "verb", "ipa": "ʁə.du.ble", "en": "to repeat a year (at school); to intensify", "def": "Refaire une année d'école ou d'université ; devenir plus fort.", "def_en": "To do a school or university year again; to get stronger.", "forms": ["redouble", "redoubles", "redoublons", "redoublez", "redoublent", "redoublé", "redoublée", "redoublés", "redoublées", "redoublais", "redoublait", "redoublions", "redoubliez", "redoublaient", "redoublerai", "redoubleras", "redoublera", "redoublerons", "redoublerez", "redoubleront", "redoublerais", "redoublerait", "redoublerions", "redoubleriez", "redoubleraient", "redoublant", "redoublai", "redoublas", "redoubla", "redoublâmes", "redoublâtes", "redoublèrent"], "examples": [
+      {"fr": "Si on triche, parfois on **redouble**.", "en": "If you cheat, sometimes you have to repeat the year."},
+      {"fr": "Il a **redoublé** sa première année.", "en": "He repeated his first year."},
+      {"fr": "La neige **redouble** : on ne voit plus rien.", "en": "The snow is getting heavier: you can't see a thing."}]},
+    {"id": "plagiat", "fr": "plagiat", "pos": "noun", "g": "m", "ipa": "pla.ʒja", "en": "plagiarism", "def": "Le fait de copier le travail d'un autre et de dire qu'il est à soi.", "def_en": "Copying someone else's work and passing it off as your own.", "forms": ["plagiats"], "examples": [
+      {"fr": "Copier un texte d'internet, c'est du **plagiat**.", "en": "Copying a text from the internet is plagiarism."},
+      {"fr": "Le professeur a trouvé un **plagiat**.", "en": "The lecturer has found a case of plagiarism."},
+      {"fr": "Le **plagiat** est interdit à l'université.", "en": "Plagiarism is forbidden at university."}]},
+    {"id": "controle-continu", "fr": "contrôle continu", "pos": "noun", "g": "m", "ipa": "kɔ̃.tʁol kɔ̃.ti.ny", "en": "continuous assessment", "def": "Les notes qu'on reçoit pendant toute l'année, pas seulement à la fin.", "def_en": "The marks you get throughout the year, not just at the end.", "examples": [
+      {"fr": "Le **contrôle continu** [compte|compter] pour la moitié de la note.", "en": "Continuous assessment counts for half the mark."},
+      {"fr": "Il y a du **contrôle continu** en harmonie.", "en": "There's continuous assessment in harmony."},
+      {"fr": "Grâce au **contrôle continu**, Léa a déjà une bonne moyenne.", "en": "Thanks to continuous assessment, Léa already has a good average."}]},
+    {"id": "amphi", "fr": "amphi", "pos": "noun", "g": "m", "ipa": "ɑ̃.fi", "en": "lecture hall (short for amphithéâtre)", "def": "Une grande salle en pente, où un professeur parle devant beaucoup d'étudiants.", "def_en": "A big sloping room where a lecturer speaks to a lot of students.", "forms": ["amphis"], "examples": [
+      {"fr": "Léa entre dans le grand **amphi**.", "en": "Léa goes into the big lecture hall."},
+      {"fr": "L'**amphi** a six cents places.", "en": "The lecture hall has six hundred seats."},
+      {"fr": "On se retrouve devant l'**amphi** ?", "en": "Shall we meet outside the lecture hall?"}]},
+    {"id": "trou-de-memoire", "fr": "trou de mémoire", "pos": "noun", "g": "m", "ipa": "tʁu də me.mwaʁ", "en": "memory lapse, mind going blank", "def": "Le moment où on oublie soudain quelque chose qu'on sait.", "def_en": "The moment when you suddenly forget something you know.", "forms": ["trous de mémoire"], "examples": [
+      {"fr": "Soudain, **trou de mémoire** : la date de la citation !", "en": "Suddenly her mind goes blank: the date of the quotation!"},
+      {"fr": "Pas de **trou de mémoire** ?", "en": "No blanks?"},
+      {"fr": "J'ai eu un **trou de mémoire** en plein examen.", "en": "My mind went blank in the middle of the exam."}]},
+    {"id": "chronometre", "fr": "chronomètre", "pos": "noun", "g": "m", "ipa": "kʁɔ.nɔ.mɛtʁ", "en": "stopwatch", "def": "Une montre qui mesure le temps très exactement, pour une course ou un examen.", "def_en": "A watch that measures time very precisely, for a race or an exam.", "forms": ["chronomètres"], "examples": [
+      {"fr": "Le surveillant regarde son **chronomètre**.", "en": "The invigilator looks at his stopwatch."},
+      {"fr": "Carla court avec un **chronomètre**.", "en": "Carla runs with a stopwatch."},
+      {"fr": "Le **chronomètre** s'arrête à midi.", "en": "The stopwatch stops at noon."}]},
+    {"id": "marge", "fr": "marge", "pos": "noun", "g": "f", "ipa": "maʁʒ", "en": "margin; room for manoeuvre", "def": "L'espace blanc au bord d'une page ; le temps ou l'argent qu'on a en plus.", "def_en": "The white space at the edge of a page; the time or money you have to spare.", "note": "*En marge de* = on the fringe of.", "forms": ["marges"], "examples": [
+      {"fr": "Dans la **marge**, elle écrit une petite note.", "en": "In the margin, she writes a little note."},
+      {"fr": "Le professeur écrit ses remarques dans la **marge**.", "en": "The lecturer writes his comments in the margin."},
+      {"fr": "On a une **marge** d'une heure.", "en": "We've got an hour to spare."}]},
+    {"id": "rature", "fr": "rature", "pos": "noun", "g": "f", "ipa": "ʁa.tyʁ", "en": "crossing-out", "def": "Un mot qu'on a couvert d'un trait, parce qu'on s'est trompé.", "def_en": "A word you've put a line through because you made a mistake.", "forms": ["ratures"], "examples": [
+      {"fr": "Sa copie est pleine de **ratures**.", "en": "Her paper is full of crossings-out."},
+      {"fr": "Écris bien, sans **ratures** !", "en": "Write neatly, without crossing out!"},
+      {"fr": "Une **rature** n'est pas une faute.", "en": "A crossing-out isn't a mistake."}]},
+    {"id": "bareme", "fr": "barème", "pos": "noun", "g": "m", "ipa": "ba.ʁɛm", "en": "marking scheme; scale (of rates)", "def": "La liste des points pour chaque question d'un examen ; un tableau de prix.", "def_en": "The list of points for each question in an exam; a table of prices.", "forms": ["barèmes"], "examples": [
+      {"fr": "Le **barème** est sévère.", "en": "The marking scheme is strict."},
+      {"fr": "Chaque question a ses points dans le **barème**.", "en": "Each question has its points in the marking scheme."},
+      {"fr": "Le **barème** des taxis change en janvier.", "en": "The taxi fares change in January."}]},
+    {"id": "coefficient", "fr": "coefficient", "pos": "noun", "g": "m", "ipa": "kɔ.e.fi.sjɑ̃", "en": "weighting, coefficient", "def": "Le nombre qui dit combien une note compte dans la moyenne.", "def_en": "The number that says how much a mark counts in the average.", "forms": ["coefficients"], "examples": [
+      {"fr": "La dissertation a un **coefficient** quatre.", "en": "The essay has a weighting of four."},
+      {"fr": "L'oral a un petit **coefficient**.", "en": "The oral has a small weighting."},
+      {"fr": "Avec ce **coefficient**, la note compte double.", "en": "With this weighting, the mark counts double."}]},
+    {"id": "expose", "fr": "exposé", "pos": "noun", "g": "m", "ipa": "ɛks.po.ze", "en": "talk, presentation (at school or university)", "def": "Un petit discours préparé sur un sujet, devant une classe.", "def_en": "A short prepared speech on a subject, in front of a class.", "forms": ["exposés"], "examples": [
+      {"fr": "Tom présente un **exposé** sur Édith Piaf.", "en": "Tom gives a presentation on Édith Piaf."},
+      {"fr": "Mon **exposé** est prêt.", "en": "My presentation is ready."},
+      {"fr": "Ils préparent un **exposé** à deux.", "en": "They're preparing a presentation together."}]},
+    {"id": "bibliographie", "fr": "bibliographie", "pos": "noun", "g": "f", "ipa": "bi.bli.jɔ.ɡʁa.fi", "en": "bibliography, reading list", "def": "La liste des livres qu'on a lus, ou qu'il faut lire, sur un sujet.", "def_en": "The list of books you have read, or must read, on a subject.", "forms": ["bibliographies"], "examples": [
+      {"fr": "Une **bibliographie** de dix livres.", "en": "A bibliography of ten books."},
+      {"fr": "Le professeur donne une longue **bibliographie**.", "en": "The lecturer gives a long reading list."},
+      {"fr": "N'oublie pas la **bibliographie** à la fin !", "en": "Don't forget the bibliography at the end!"}]},
+    {"id": "correcteur", "fr": "correcteur", "pos": "noun", "g": "m", "ipa": "kɔ.ʁɛk.tœʁ", "display": "le correcteur, la correctrice", "en": "marker, examiner (of papers); spellchecker", "def": "La personne qui lit les copies d'un examen et leur donne une note.", "def_en": "The person who reads the exam papers and gives them a mark.", "forms": ["correctrice", "correcteurs", "correctrices"], "examples": [
+      {"fr": "Les **correcteurs** ne le verront peut-être pas.", "en": "The markers may not notice."},
+      {"fr": "La **correctrice** a été sévère.", "en": "The examiner was strict."},
+      {"fr": "Le **correcteur** de mon téléphone change mes mots !", "en": "My phone's spellchecker changes my words!"}]}
+  ],
+  "story": {
+    "title": "Les partiels",
+    "en": "Sunday 12 to Friday 17 December: Léa and Tom's first university exams.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche douze décembre, chez Léa et Sophie, c'est la semaine des révisions. Les partiels commencent demain.", "en": "On Sunday 12 December, at Léa and Sophie's, it's revision week. The exams start tomorrow."},
+      {"sp": "", "fr": "Sur la table, il y a des fiches, des annales et des surligneurs de six couleurs.", "en": "On the table there are index cards, past papers and highlighters in six colours."},
+      {"sp": "Léa", "fr": "Le jaune pour les dates, le vert pour les citations, le rose pour… je ne sais plus.", "en": "Yellow for the dates, green for the quotations, pink for… I can't remember."},
+      {"sp": "", "fr": "Tom, lui, révise son solfège, une partition à la main. Demain, il a son examen d'harmonie.", "en": "Tom is revising his music theory, a score in his hand. Tomorrow he has his harmony exam."},
+      {"sp": "Tom", "fr": "En harmonie, il y a des règles partout. Comme en français !", "en": "In harmony, there are rules everywhere. Like in French!"},
+      {"sp": "", "fr": "Sophie, sa calculatrice à la main, calcule la résistance d'une poutre pour son école.", "en": "Sophie, her calculator in her hand, is working out the strength of a beam for her school."},
+      {"sp": "", "fr": "Hugo arrive avec des pizzas. Sur son bras, il a écrit des dates au stylo.", "en": "Hugo arrives with pizzas. He has written dates on his arm in pen."},
+      {"sp": "Hugo", "fr": "Ma vieille technique : l'antisèche ! Au lycée, je bachotais la veille et je potassais dans le bus.", "en": "My old technique: the crib sheet! At school, I crammed the night before and swotted on the bus."},
+      {"sp": "Léa", "fr": "Hugo ! Tricher à la fac, c'est zéro, et parfois on redouble. Et copier un texte d'internet, c'est du plagiat.", "en": "Hugo! Cheating at university gets you zero, and sometimes you repeat the year. And copying a text from the internet is plagiarism."},
+      {"sp": "Tom", "fr": "Et chez nous, le contrôle continu compte pour la moitié de la note. On ne peut pas tout faire la veille.", "en": "And for us, continuous assessment counts for half the mark. You can't do it all the night before."},
+      {"sp": "", "fr": "Le mercredi quinze décembre, à huit heures, Léa entre dans le grand amphi. L'examen [dure|durer] quatre heures.", "en": "On Wednesday 15 December, at eight o'clock, Léa goes into the big lecture hall. The exam lasts four hours."},
+      {"sp": "", "fr": "Le sujet de la dissertation : « Une langue appartient-elle à ceux qui la parlent ? »", "en": "The essay question: 'Does a language belong to those who speak it?'"},
+      {"sp": "", "fr": "Léa écrit son plan au brouillon. Elle commence par une citation de Rivarol : « Ce qui n'est pas clair n'est pas français. »", "en": "Léa writes her outline in rough. She begins with a quotation from Rivarol: 'What is not clear is not French.'"},
+      {"sp": "", "fr": "Soudain, trou de mémoire : la date de la citation ! Elle regarde le plafond, puis l'horloge.", "en": "Suddenly her mind goes blank: the date of the quotation! She looks at the ceiling, then at the clock."},
+      {"sp": "", "fr": "Elle laisse un blanc et continue. Dans la marge, elle écrit une petite note. Sa copie est pleine de ratures.", "en": "She leaves a gap and carries on. In the margin, she writes a little note. Her paper is full of crossings-out."},
+      {"sp": "", "fr": "À midi, le surveillant regarde son chronomètre : « Plus que cinq minutes ! »", "en": "At noon, the invigilator looks at his stopwatch: 'Five minutes left!'"},
+      {"sp": "Léa", "fr": "Le barème est sévère : la dissertation a un coefficient quatre.", "en": "The marking scheme is strict: the essay has a weighting of four."},
+      {"sp": "", "fr": "Le jeudi seize, Tom passe l'examen d'harmonie, puis il joue de la guitare devant trois professeurs.", "en": "On Thursday the 16th, Tom takes the harmony exam, then plays the guitar in front of three lecturers."},
+      {"sp": "", "fr": "Il présente aussi un exposé sur la musique d'Édith Piaf, avec une bibliographie de dix livres.", "en": "He also gives a presentation on Édith Piaf's music, with a bibliography of ten books."},
+      {"sp": "Tom", "fr": "Le professeur m'a dit : « Belle harmonie, monsieur l'Anglais. »", "en": "The lecturer told me: 'Lovely harmony, Mister Englishman.'"},
+      {"sp": "", "fr": "Le vendredi soir, Léa et Tom fêtent la fin des partiels au café d'en bas.", "en": "On Friday evening, Léa and Tom celebrate the end of the exams at the café downstairs."},
+      {"sp": "Hugo", "fr": "Alors ? Pas de trou de mémoire ?", "en": "So? No blanks?"},
+      {"sp": "Léa", "fr": "Un seul. Mais les correcteurs ne le verront peut-être pas.", "en": "Just one. But the markers may not notice."},
+      {"sp": "", "fr": "Les résultats arrivent en janvier. En attendant, Léa range ses surligneurs… et sort les décorations de Noël.", "en": "The results come out in January. In the meantime, Léa puts away her highlighters… and gets out the Christmas decorations."}
+    ]
+  }
+}

@@ -117,10 +117,12 @@ BEFORE_VERB = {"je", "j'", "tu", "il", "elle", "on", "nous", "vous", "ils", "ell
                "me", "m'", "te", "t'", "se", "s'", "lui", "y",  # je lui parle, j'y vais
                "ai", "as", "a", "avons", "avez", "ont",  # avoir + past participle: j'ai été (been, not summer)
                "avais", "avait", "avions", "aviez", "avaient",  # and the plus-que-parfait: il avait été
-               "aurai", "auras", "aura", "aurons", "aurez", "auront", "aurais", "aurait", "aurions", "auriez", "auraient"}  # il aurait été
+               "aurai", "auras", "aura", "aurons", "aurez", "auront", "aurais", "aurait", "aurions", "auriez", "auraient",  # il aurait été
+               "eus", "eut", "eûmes", "eûtes", "eurent"}  # the passé antérieur: quand il eut fini
 # être + participle or adjective, never a noun: elle est arrivée, elle est prête, elle était partie, elle serait partie
 AFTER_ETRE = {"suis", "es", "est", "sommes", "êtes", "sont", "étais", "était", "étions", "étiez", "étaient",
-              "serai", "seras", "sera", "serons", "serez", "seront", "serais", "serait", "serions", "seriez", "seraient"}
+              "serai", "seras", "sera", "serons", "serez", "seront", "serais", "serait", "serions", "seriez", "seraient",
+              "fus", "fut", "fûmes", "fûtes", "furent"}  # quand elle fut partie
 # Object pronouns spelled like articles (je la vois, pour le faire, regarde-le): not "the".
 OBJ_PRON = {"le": "le-pron", "la": "la-pron", "les": "les-pron", "l'": "l-pron", "leur": "leur-pron", "en": "en-pron"}
 BEFORE_OBJ = {"je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "ne", "me", "te", "se", "qui", "ça"}
