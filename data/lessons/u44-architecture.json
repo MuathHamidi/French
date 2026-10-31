@@ -1,0 +1,135 @@
+{
+  "id": "u44-architecture",
+  "type": "vocab",
+  "unit": 44,
+  "title": "Les cubes de Montréal",
+  "en": "Architecture",
+  "intro": "25 words for buildings and the people who design them: the work (**l'architecture, l'urbanisme, concevoir, le croquis, la maquette, la perspective, le chantier, rénover**), the materials (**le béton, l'acier, la brique, la poutre**), the parts of a building (**la façade, le toit, la colonne, la voûte, le dôme, la verrière, la structure, le module**), and what you see in a city (**le gratte-ciel, la basilique, souterrain, empiler, le style**).",
+  "words": [
+    {"id": "architecture", "fr": "architecture", "pos": "noun", "g": "f", "ipa": "aʁ.ʃi.tɛk.tyʁ", "en": "architecture", "def": "L'art de concevoir et de construire des bâtiments.", "def_en": "The art of designing and building buildings.", "forms": ["architectures"], "examples": [
+      {"fr": "Sophie fait des études d'**architecture**.", "en": "Sophie is studying architecture."},
+      {"fr": "L'**architecture** de Montréal mélange le vieux et le moderne.", "en": "Montréal's architecture mixes the old and the modern."},
+      {"fr": "J'aime l'**architecture** des gares anciennes.", "en": "I love the architecture of old railway stations."}]},
+    {"id": "urbanisme", "fr": "urbanisme", "pos": "noun", "g": "m", "ipa": "yʁ.ba.nism", "en": "town planning, urban planning", "def": "L'art d'organiser une ville : ses rues, ses quartiers, ses espaces verts.", "def_en": "The art of organising a city: its streets, its districts, its green spaces.", "note": "*Un urbaniste* = a town planner.", "examples": [
+      {"fr": "L'atelier de Sophie travaille sur l'**urbanisme** du vieux port.", "en": "Sophie's workshop is working on the planning of the old port."},
+      {"fr": "Les pistes cyclables, c'est une question d'**urbanisme**.", "en": "Cycle lanes are a matter of town planning."},
+      {"fr": "Plus tard, Mathis veut travailler dans l'**urbanisme**.", "en": "Later on, Mathis wants to work in urban planning."}]},
+    {"id": "concevoir", "fr": "concevoir", "pos": "verb", "ipa": "kɔ̃s.vwaʁ", "en": "to design, to conceive; to imagine", "def": "Imaginer et préparer un projet, un objet ou un bâtiment ; pouvoir comprendre ou imaginer.", "def_en": "To imagine and prepare a project, an object or a building; to be able to understand or imagine.", "note": "*La conception* = the design.", "forms": ["conçois", "conçoit", "concevons", "concevez", "conçoivent", "conçu", "conçue", "conçus", "conçues", "concevais", "concevait", "concevions", "conceviez", "concevaient", "concevrai", "concevras", "concevra", "concevrons", "concevrez", "concevront", "concevrais", "concevrait", "concevrions", "concevriez", "concevraient", "concevant", "conçut", "conçûmes", "conçûtes", "conçurent", "conçoive", "conçoives"], "examples": [
+      {"fr": "Un jeune architecte a **conçu** Habitat 67 pour son projet d'études.", "en": "A young architect designed Habitat 67 for his student project."},
+      {"fr": "Zoé **conçoit** la nouvelle page de l'application.", "en": "Zoé is designing the app's new page."},
+      {"fr": "Je ne **conçois** pas l'été sans la mer.", "en": "I can't imagine summer without the sea."}]},
+    {"id": "croquis", "fr": "croquis", "pos": "noun", "g": "m", "ipa": "kʁɔ.ki", "en": "sketch", "def": "Un dessin rapide, fait en quelques traits.", "def_en": "A quick drawing, made with a few lines.", "examples": [
+      {"fr": "Sophie fait un **croquis** de la façade.", "en": "Sophie makes a sketch of the front of the building."},
+      {"fr": "Son carnet est plein de **croquis**.", "en": "Her notebook is full of sketches."},
+      {"fr": "Fais-moi un petit **croquis**, ce sera plus clair.", "en": "Draw me a little sketch, it'll be clearer."}]},
+    {"id": "maquette", "fr": "maquette", "pos": "noun", "g": "f", "ipa": "ma.kɛt", "en": "(scale) model; mock-up", "def": "Un petit modèle d'un bâtiment ou d'un objet, fait avant de le construire.", "def_en": "A small model of a building or an object, made before building it.", "forms": ["maquettes"], "examples": [
+      {"fr": "L'équipe construit une **maquette** en carton.", "en": "The team builds a cardboard model."},
+      {"fr": "Hugo a porté la **maquette** de Sophie sans la casser.", "en": "Hugo carried Sophie's model without breaking it."},
+      {"fr": "Sur la **maquette**, les arbres sont en papier.", "en": "On the model, the trees are made of paper."}]},
+    {"id": "perspective", "fr": "perspective", "pos": "noun", "g": "f", "ipa": "pɛʁs.pɛk.tiv", "en": "perspective; view; prospect", "def": "Une manière de dessiner les choses proches et lointaines ; ce qu'on peut espérer pour l'avenir.", "def_en": "A way of drawing depth; what you can hope for in the future.", "note": "*En perspective* = ahead, in prospect.", "forms": ["perspectives"], "examples": [
+      {"fr": "Sur son dessin en **perspective**, la rue semble très longue.", "en": "In her perspective drawing, the street looks very long."},
+      {"fr": "Quelle belle **perspective** sur le fleuve !", "en": "What a lovely view of the river!"},
+      {"fr": "Avec ce diplôme, elle a de bonnes **perspectives**.", "en": "With this degree, she has good prospects."}]},
+    {"id": "chantier", "fr": "chantier", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.tje", "en": "building site, construction site; (familiar) mess", "def": "L'endroit où l'on construit ou répare un bâtiment ; (familier) un grand désordre.", "def_en": "The place where a building is built or repaired; (informal) a big mess.", "note": "*En chantier* = under construction. *Quel chantier !* = what a mess!", "forms": ["chantiers"], "examples": [
+      {"fr": "Sur le **chantier**, il faut porter un casque.", "en": "On the building site, you have to wear a helmet."},
+      {"fr": "Le vieux port est en **chantier** depuis deux ans.", "en": "The old port has been under construction for two years."},
+      {"fr": "Ta chambre, c'est un vrai **chantier** !", "en": "Your bedroom is a real mess!"}]},
+    {"id": "renover", "fr": "rénover", "pos": "verb", "ipa": "ʁe.nɔ.ve", "en": "to renovate, to do up", "def": "Remettre à neuf un bâtiment ou un lieu, pour le rendre moderne.", "def_en": "To make a building or a place like new, to bring it up to date.", "note": "*La rénovation* = renovation.", "forms": ["rénove", "rénoves", "rénovons", "rénovez", "rénovent", "rénové", "rénovée", "rénovés", "rénovées", "rénovais", "rénovait", "rénovions", "rénoviez", "rénovaient", "rénoverai", "rénoveras", "rénovera", "rénoverons", "rénoverez", "rénoveront", "rénoverais", "rénoverait", "rénoverions", "rénoveriez", "rénoveraient", "rénovant", "rénovai", "rénovas", "rénova", "rénovâmes", "rénovâtes", "rénovèrent"], "examples": [
+      {"fr": "Les étudiants doivent **rénover** un vieil entrepôt du port.", "en": "The students have to renovate an old warehouse in the port."},
+      {"fr": "Ils ont **rénové** la cuisine cet été.", "en": "They did up the kitchen this summer."},
+      {"fr": "La ville **rénove** les quais du fleuve.", "en": "The city is renovating the riverside."}]},
+    {"id": "beton", "fr": "béton", "pos": "noun", "g": "m", "ipa": "be.tɔ̃", "en": "concrete", "def": "Un mélange de sable, d'eau et de petites pierres, qui devient très dur.", "def_en": "A mixture of cement, sand, water and small stones, which sets very hard.", "note": "*En béton* = (made of) concrete; (familiar) rock-solid: *un argument en béton*.", "examples": [
+      {"fr": "Habitat 67 est fait de cubes en **béton**.", "en": "Habitat 67 is made of concrete cubes."},
+      {"fr": "Le **béton** gris n'est pas toujours triste.", "en": "Grey concrete isn't always dreary."},
+      {"fr": "Ton argument est en **béton** !", "en": "Your argument is rock-solid!"}]},
+    {"id": "acier", "fr": "acier", "pos": "noun", "g": "m", "ipa": "a.sje", "en": "steel", "def": "Un métal très solide, fait surtout avec du fer.", "def_en": "A very strong metal, made mainly from iron.", "forms": ["aciers"], "examples": [
+      {"fr": "La Biosphère est un grand dôme d'**acier**.", "en": "The Biosphere is a big steel dome."},
+      {"fr": "Le pont est en **acier**.", "en": "The bridge is made of steel."},
+      {"fr": "Ce vélo est en **acier**.", "en": "This bike is made of steel."}]},
+    {"id": "brique", "fr": "brique", "pos": "noun", "g": "f", "ipa": "bʁik", "en": "brick; carton (of milk, juice)", "def": "Un morceau de terre cuite, rouge, avec lequel on construit des murs ; une boîte en carton pour le lait.", "def_en": "A block of baked clay, usually red, used to build walls; a cardboard box for milk.", "forms": ["briques"], "examples": [
+      {"fr": "Les maisons du quartier sont en **brique** rouge.", "en": "The houses in the area are made of red brick."},
+      {"fr": "Le mur est tombé, **brique** par **brique**.", "en": "The wall fell down, brick by brick."},
+      {"fr": "Achète une **brique** de lait, s'il te plaît.", "en": "Buy a carton of milk, please."}]},
+    {"id": "poutre", "fr": "poutre", "pos": "noun", "g": "f", "ipa": "putʁ", "en": "beam", "def": "Une longue pièce de bois ou de métal qui tient un plafond ou un toit.", "def_en": "A long piece of wood or metal that holds up a ceiling or a roof.", "note": "In gymnastics, *la poutre* is the beam.", "forms": ["poutres"], "examples": [
+      {"fr": "Dans l'entrepôt, les **poutres** sont en acier.", "en": "In the warehouse, the beams are steel."},
+      {"fr": "Attention à ta tête, il y a une **poutre** !", "en": "Mind your head, there's a beam!"},
+      {"fr": "Les vieilles **poutres** de la ferme ont trois cents ans.", "en": "The old beams of the farm are three hundred years old."}]},
+    {"id": "facade", "fr": "façade", "pos": "noun", "g": "f", "ipa": "fa.sad", "en": "front (of a building), façade", "def": "Le côté d'un bâtiment qui donne sur la rue.", "def_en": "The side of a building that faces the street.", "forms": ["façades"], "examples": [
+      {"fr": "La **façade** de l'église est en pierre.", "en": "The front of the church is made of stone."},
+      {"fr": "Sur les **façades** du quartier, il y a des escaliers dehors.", "en": "On the fronts of the houses in the area, there are outdoor staircases."},
+      {"fr": "Ils peignent la **façade** de l'immeuble en blanc.", "en": "They're painting the front of the building white."}]},
+    {"id": "toit", "fr": "toit", "pos": "noun", "g": "m", "ipa": "twa", "en": "roof", "def": "La partie qui couvre le haut d'une maison ou d'un bâtiment.", "def_en": "The part that covers the top of a house or a building.", "note": "*Sous le même toit* = under the same roof.", "forms": ["toits"], "examples": [
+      {"fr": "Chaque cube a un jardin sur le **toit** du cube d'en dessous.", "en": "Each cube has a garden on the roof of the cube below."},
+      {"fr": "Biquette est encore sur le **toit** de la camionnette !", "en": "Biquette is on the roof of the van again!"},
+      {"fr": "Les **toits** de Paris sont gris.", "en": "The roofs of Paris are grey."}]},
+    {"id": "colonne", "fr": "colonne", "pos": "noun", "g": "f", "ipa": "kɔ.lɔn", "en": "column, pillar", "def": "Un grand poteau rond, souvent en pierre, qui tient un bâtiment ; une ligne de haut en bas dans un tableau.", "def_en": "A tall round pillar that holds up a building; a vertical line in a table.", "note": "*La colonne vertébrale* = the spine.", "forms": ["colonnes"], "examples": [
+      {"fr": "La basilique a des **colonnes** peintes en bleu.", "en": "The basilica has columns painted blue."},
+      {"fr": "Écrivez les prix dans la deuxième **colonne**.", "en": "Write the prices in the second column."},
+      {"fr": "Le théâtre romain avait de grandes **colonnes** de pierre.", "en": "The Roman theatre had tall stone columns."}]},
+    {"id": "voute", "fr": "voûte", "pos": "noun", "g": "f", "ipa": "vut", "en": "vault, arched ceiling", "def": "Un plafond rond, comme dans les églises.", "def_en": "A curved, arched ceiling, as in churches.", "note": "*La voûte céleste* = the sky, the heavens.", "forms": ["voûtes"], "examples": [
+      {"fr": "La **voûte** de la basilique est bleue, avec des étoiles dorées.", "en": "The basilica's vault is blue, with golden stars."},
+      {"fr": "Sous la **voûte**, on entend sa propre voix.", "en": "Under the vault, you can hear your own voice."},
+      {"fr": "Les caves ont de belles **voûtes** en brique.", "en": "The cellars have beautiful brick vaults."}]},
+    {"id": "dome", "fr": "dôme", "pos": "noun", "g": "m", "ipa": "dom", "en": "dome", "def": "Un toit rond, comme une moitié de boule.", "def_en": "A round roof, like half a ball.", "forms": ["dômes"], "examples": [
+      {"fr": "Le **dôme** de la Biosphère est en acier.", "en": "The Biosphere's dome is made of steel."},
+      {"fr": "On voit le **dôme** de loin.", "en": "You can see the dome from far away."},
+      {"fr": "Sous le **dôme**, il fait très chaud en été.", "en": "Under the dome, it's very hot in summer."}]},
+    {"id": "verriere", "fr": "verrière", "pos": "noun", "g": "f", "ipa": "vɛ.ʁjɛʁ", "en": "glass roof; large window, glass wall", "def": "Un toit ou un grand mur en verre, qui laisse entrer la lumière.", "def_en": "A roof or a big wall made of glass, which lets the light in.", "forms": ["verrières"], "examples": [
+      {"fr": "Sophie veut une **verrière** sur le toit de l'entrepôt.", "en": "Sophie wants a glass roof on top of the warehouse."},
+      {"fr": "Sous la **verrière** de la gare, il fait clair.", "en": "Under the station's glass roof, it's bright."},
+      {"fr": "La pluie tape sur la **verrière**.", "en": "The rain beats on the glass roof."}]},
+    {"id": "structure", "fr": "structure", "pos": "noun", "g": "f", "ipa": "stʁyk.tyʁ", "en": "structure, framework", "def": "La manière dont les parties d'une chose sont organisées ; ce qui tient un bâtiment.", "def_en": "The way the parts of something are organised; what holds a building up.", "forms": ["structures"], "examples": [
+      {"fr": "La **structure** de l'entrepôt est encore solide.", "en": "The warehouse's structure is still sound."},
+      {"fr": "Ton texte a une bonne **structure**.", "en": "Your text is well structured."},
+      {"fr": "Une **structure** en acier tient la verrière.", "en": "A steel framework holds up the glass roof."}]},
+    {"id": "module", "fr": "module", "pos": "noun", "g": "m", "ipa": "mɔ.dyl", "en": "module, unit", "def": "Une partie toute faite qu'on met avec d'autres pour construire quelque chose de plus grand.", "def_en": "A ready-made part assembled with others to make a whole.", "forms": ["modules"], "examples": [
+      {"fr": "Habitat 67 [compte|compter] trois cent cinquante-quatre **modules** en béton.", "en": "Habitat 67 has three hundred and fifty-four concrete modules."},
+      {"fr": "Le cours de Léa a six **modules**.", "en": "Léa's course has six modules."},
+      {"fr": "On peut ajouter un **module** à l'application.", "en": "You can add a module to the app."}]},
+    {"id": "gratte-ciel", "fr": "gratte-ciel", "pos": "noun", "g": "m", "ipa": "ɡʁat.sjɛl", "en": "skyscraper", "def": "Un immeuble très haut, avec beaucoup d'étages.", "def_en": "A very tall building with many floors.", "note": "The plural doesn't change: *des gratte-ciel*.", "examples": [
+      {"fr": "Au centre-ville, les **gratte-ciel** cachent le soleil.", "en": "Downtown, the skyscrapers hide the sun."},
+      {"fr": "Du haut du **gratte-ciel**, on voit tout le fleuve.", "en": "From the top of the skyscraper, you can see the whole river."},
+      {"fr": "New York est la ville des **gratte-ciel**.", "en": "New York is the city of skyscrapers."}]},
+    {"id": "basilique", "fr": "basilique", "pos": "noun", "g": "f", "ipa": "ba.zi.lik", "en": "basilica", "def": "Une grande église très importante.", "def_en": "A big, very important church.", "forms": ["basiliques"], "examples": [
+      {"fr": "La **basilique** Notre-Dame est dans le Vieux-Montréal.", "en": "Notre-Dame Basilica is in Old Montréal."},
+      {"fr": "À Lyon, on voit la **basilique** de Fourvière de toute la ville.", "en": "In Lyon, you can see Fourvière Basilica from all over the city."},
+      {"fr": "Dans la **basilique**, Mathis parle à voix basse.", "en": "In the basilica, Mathis speaks quietly."}]},
+    {"id": "souterrain", "fr": "souterrain", "pos": "adj", "ipa": "su.tɛ.ʁɛ̃", "display": "souterrain, souterraine", "en": "underground; (un souterrain) tunnel, underpass", "def": "Qui est sous la terre.", "def_en": "That is under the ground.", "forms": ["souterraine", "souterrains", "souterraines"], "examples": [
+      {"fr": "En hiver, on se promène dans la ville **souterraine**.", "en": "In winter, people walk around the underground city."},
+      {"fr": "Le parking **souterrain** est plein.", "en": "The underground car park is full."},
+      {"fr": "Un passage **souterrain** mène à la gare.", "en": "An underpass leads to the station."}]},
+    {"id": "empiler", "fr": "empiler", "pos": "verb", "ipa": "ɑ̃.pi.le", "en": "to stack, to pile up", "def": "Mettre des choses l'une sur l'autre.", "def_en": "To put things one on top of another.", "forms": ["empile", "empiles", "empilons", "empilez", "empilent", "empilé", "empilée", "empilés", "empilées", "empilais", "empilait", "empilions", "empiliez", "empilaient", "empilerai", "empileras", "empilera", "empilerons", "empilerez", "empileront", "empilerais", "empilerait", "empilerions", "empileriez", "empileraient", "empilant", "empilai", "empilas", "empila", "empilâmes", "empilâtes", "empilèrent"], "examples": [
+      {"fr": "L'architecte a **empilé** les cubes comme des jouets.", "en": "The architect stacked the cubes like toys."},
+      {"fr": "**Empile** les assiettes dans le placard.", "en": "Stack the plates in the cupboard."},
+      {"fr": "Hugo **empile** les cartons sans les ouvrir.", "en": "Hugo piles up the boxes without opening them."}]},
+    {"id": "style", "fr": "style", "pos": "noun", "g": "m", "ipa": "stil", "en": "style", "def": "La manière particulière de faire, de s'habiller ou de construire.", "def_en": "A particular way of doing, dressing or building.", "forms": ["styles"], "examples": [
+      {"fr": "La basilique est de **style** gothique.", "en": "The basilica is in the Gothic style."},
+      {"fr": "Antoine conduit avec **style**… et très vite.", "en": "Antoine drives with style… and very fast."},
+      {"fr": "Ce n'est pas mon **style**.", "en": "That's not my style."}]}
+  ],
+  "story": {
+    "title": "Les cubes de Montréal",
+    "en": "Saturday 10 July, Montréal: a week into their workshop, Sophie and Mathis tour the city with Antoine.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi dix juillet, Sophie et Mathis sont à Montréal depuis une semaine. Leur atelier d'architecture doit rénover un vieil entrepôt du port.", "en": "On Saturday 10 July, Sophie and Mathis have been in Montréal for a week. Their architecture workshop has to renovate an old warehouse in the port."},
+      {"sp": "", "fr": "Aujourd'hui, pas de cours : Antoine les emmène voir la ville dans son taxi. Il conduit avec style… et très vite.", "en": "Today there's no class: Antoine takes them to see the city in his taxi. He drives with style… and very fast."},
+      {"sp": "Antoine", "fr": "On commence par vos fameux cubes !", "en": "Let's start with your famous cubes!"},
+      {"sp": "", "fr": "Au bord du fleuve Saint-Laurent, Habitat 67 ressemble à une montagne de boîtes. Un jeune architecte l'a conçu pour son projet d'études, puis on l'a construit pour l'Exposition universelle de 1967.", "en": "On the banks of the St Lawrence River, Habitat 67 looks like a mountain of boxes. A young architect designed it for his student project, then it was built for the 1967 World's Fair."},
+      {"sp": "Sophie", "fr": "Trois cent cinquante-quatre modules en béton, empilés comme des jouets. Et chaque appartement a un jardin sur le toit de son voisin !", "en": "Three hundred and fifty-four concrete modules, stacked like toys. And every flat has a garden on its neighbour's roof!"},
+      {"sp": "", "fr": "Sophie sort son carnet et fait un croquis de la façade. C'est pour ça qu'elle a choisi Montréal, il y a six mois.", "en": "Sophie takes out her notebook and makes a sketch of the building's front. This is why she chose Montréal, six months ago."},
+      {"sp": "", "fr": "Ensuite, Antoine les emmène à la Biosphère, un grand dôme fait de milliers de petites pièces d'acier.", "en": "Next, Antoine takes them to the Biosphere, a huge dome made of thousands of small steel pieces."},
+      {"sp": "Mathis", "fr": "Quelle structure ! C'est léger comme une bulle, et ça tient depuis l'Exposition de 1967.", "en": "What a structure! It's as light as a bubble, and it has stood since the 1967 World's Fair."},
+      {"sp": "", "fr": "Dans le Vieux-Montréal, ils entrent dans la basilique Notre-Dame. La voûte est bleue, avec des étoiles dorées, et les colonnes sont bleues et dorées.", "en": "In Old Montréal, they go into Notre-Dame Basilica. The vault is blue, with golden stars, and the columns are blue and gold."},
+      {"sp": "Antoine", "fr": "Moi, je ne connais rien à l'architecture. Mais ici, je me tais, comme tout le monde.", "en": "I know nothing about architecture. But in here, I keep quiet, like everyone else."},
+      {"sp": "", "fr": "Il pleut : ils descendent dans la ville souterraine, trente kilomètres de couloirs sous les gratte-ciel du centre.", "en": "It's raining: they go down into the underground city, thirty kilometres of passages under the downtown skyscrapers."},
+      {"sp": "Antoine", "fr": "En hiver, à moins vingt-cinq, on peut faire ses courses ici sans manteau.", "en": "In winter, at minus twenty-five, you can do your shopping down here without a coat."},
+      {"sp": "", "fr": "L'après-midi, ils passent devant le chantier de leur entrepôt. Les vieilles poutres d'acier sont encore là, et les murs sont en brique.", "en": "In the afternoon, they go past the building site of their warehouse. The old steel beams are still there, and the walls are brick."},
+      {"sp": "Sophie", "fr": "Je vois une grande verrière sur le toit, et des jardins tout autour. Pour moi, l'urbanisme, c'est de la lumière et des arbres.", "en": "I can see a big glass roof on top, and gardens all around. For me, town planning is light and trees."},
+      {"sp": "Mathis", "fr": "Et moi, je vois des escaliers dehors, comme sur toutes les façades de Montréal.", "en": "And I can see outdoor staircases, like on every house front in Montréal."},
+      {"sp": "", "fr": "Le soir, chez la mère d'Antoine, ils construisent une première maquette en carton. Sophie dessine la façade en perspective.", "en": "In the evening, at Antoine's mother's, they build a first cardboard model. Sophie draws the front in perspective."},
+      {"sp": "Antoine", "fr": "C'est beau. Mais vous avez oublié une chose importante : la place de mon taxi !", "en": "It's beautiful. But you've forgotten one important thing: a space for my taxi!"},
+      {"sp": "", "fr": "Sophie envoie une photo de la maquette à Léa. La réponse arrive tout de suite : « Superbe ! Minou dort sur ton bureau. Il te manque. »", "en": "Sophie sends a photo of the model to Léa. The reply comes straight away: 'Gorgeous! Minou is sleeping on your desk. He misses you.'"}
+    ]
+  }
+}

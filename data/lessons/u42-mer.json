@@ -42,7 +42,7 @@
       {"fr": "Pierre court dans l'**écume** des vagues.", "en": "Pierre runs through the foam of the waves."},
       {"fr": "Avec le vent, la mer est pleine d'**écume**.", "en": "With the wind, the sea is full of foam."},
       {"fr": "L'**écume** blanche brille au soleil.", "en": "The white foam shines in the sun."}]},
-    {"id": "houle", "fr": "houle", "pos": "noun", "g": "f", "ipa": "ul", "en": "swell (of the sea)", "def": "Les grandes vagues longues de la mer, même quand il n'y a pas de tempête.", "def_en": "The big, long waves of the sea, even when there's no storm.", "note": "The h is aspirated: *la houle*.", "forms": ["houles"], "examples": [
+    {"id": "houle", "fr": "houle", "pos": "noun", "g": "f", "hAsp": true, "ipa": "ul", "en": "swell (of the sea)", "def": "Les grandes vagues longues de la mer, même quand il n'y a pas de tempête.", "def_en": "The big, long waves of the sea, even when there's no storm.", "note": "The h is aspirated: *la houle*.", "forms": ["houles"], "examples": [
       {"fr": "Aujourd'hui, il y a de la **houle** : les bateaux restent au port.", "en": "There's a swell today: the boats are staying in the harbour."},
       {"fr": "La **houle** fait bouger le voilier.", "en": "The swell rocks the sailing boat."},
       {"fr": "Avec la **houle**, Tom est malade sur le bateau.", "en": "With the swell, Tom is seasick on the boat."}]},

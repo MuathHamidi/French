@@ -1,0 +1,104 @@
+{
+  "id": "u44-imperatif",
+  "type": "grammar",
+  "unit": 44,
+  "title": "Donne-le-moi !",
+  "en": "Two pronouns with the imperative (donne-le-moi)",
+  "intro": "In an affirmative command, the pronouns go after the verb, joined by hyphens, and the direct object comes first: ***Donne-le-moi !*** (give it to me), ***Montre-la-lui !*** (show it to him), ***Envoie-les-nous !*** (send them to us). *Moi* and *toi* become *m'* and *t'* before *en*: ***Donne-m'en un !*** (give me one), ***Va-t'en !*** (go away). In a negative command, everything goes back in front of the verb, in the usual order: ***Ne me le donne pas !***",
+  "cases": [
+    {"id": "ip-ordre", "label": "verb + le, la, les + moi, lui, nous, leur", "rule": "After an affirmative imperative, the direct object (*le, la, les*) comes before the indirect one (*moi, toi, lui, nous, vous, leur*), all joined by hyphens: *Donne-le-moi. Passe-la-lui. Envoie-les-nous. Rends-les-leur.*"},
+    {"id": "ip-en", "label": "with en and y: donne-m'en, va-t'en, vas-y", "rule": "Before *en*, *moi* and *toi* become *m'* and *t'*: *Donne-m'en deux. Va-t'en !* With *lui, nous, leur*, *en* comes last: *Envoie-nous-en.* Before *en* and *y*, the *-er* verbs and *va* add an *s*, which you hear: *Prends-en. Manges-en ! Vas-y !*"},
+    {"id": "ip-negatif", "label": "the negative: ne + pronouns + verb + pas", "rule": "In a negative command, the pronouns go before the verb, in the usual order: *me, te, nous, vous*, then *le, la, les*, then *lui, leur*, then *y*, then *en*: *Ne me le dis pas. Ne le lui montre pas. Ne m'en parle pas.*"},
+    {"id": "ip-pronominal", "label": "reflexive verbs: dépêche-toi, ne t'en fais pas", "rule": "Reflexive verbs follow the same rules: *Dépêche-toi !* but *Ne t'inquiète pas !* With *en*: *Souviens-t'en !* (remember it), *Ne t'en fais pas !* (don't worry), *Va-t'en !* (go away)."}
+  ],
+  "sections": [
+    {"title": "1. le, la, les + moi, lui, nous, leur", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Donne-le-moi !", "Give it to me!"],
+      ["Montre-la-lui !", "Show it to him!"],
+      ["Envoie-les-nous !", "Send them to us!"],
+      ["Rends-les-leur !", "Give them back to them!"]]},
+     "examples": [
+      {"fr": "Ton passeport ? {Donne-le-moi|ip-ordre}, je le mets dans ton sac.", "en": "Your passport? Give it to me, I'll put it in your bag."},
+      {"fr": "Le cadeau pour la mère d'Antoine ? {Donne-le-lui|ip-ordre} de ma part.", "en": "The present for Antoine's mother? Give it to her from me."}],
+     "tip": "After the verb, the order is always le, la, les first, then moi, toi, lui, nous, vous, leur."},
+    {"title": "2. With en and y", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Donne-m'en un !", "Give me one!"],
+      ["Va-t'en !", "Go away!"],
+      ["Envoie-nous-en !", "Send us some!"],
+      ["Vas-y ! Prends-en !", "Go on! Take some!"]]},
+     "examples": [
+      {"fr": "Des croissants ? {Donne-m'en|ip-en} un seul, merci.", "en": "Croissants? Just give me one, thanks."},
+      {"fr": "Et des photos ! {Envoie-nous-en|ip-en} tous les jours !", "en": "And photos! Send us some every day!"}],
+     "tip": "The s of vas-y and manges-en is pronounced like a z: vas-y, manges-en."},
+    {"title": "3. The negative: everything before the verb", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ne me le donne pas !", "Don't give it to me!"],
+      ["Ne le lui dis pas !", "Don't tell him!"],
+      ["Ne les leur [montre|montrer] pas !", "Don't show them to them!"],
+      ["Ne m'en parle pas !", "Don't talk to me about it!"]]},
+     "examples": [
+      {"fr": "Le dessin de Mathis ? {Ne le lui montre pas|ip-negatif} : c'est une surprise !", "en": "The drawing of Mathis? Don't show it to him: it's a surprise!"},
+      {"fr": "Mes plantes ? {Ne les lui donne pas|ip-negatif}, Hugo les oublie toujours.", "en": "My plants? Don't give them to him, Hugo always forgets them."}],
+     "tip": "In the negative, moi and toi go back to me and te: donne-le-moi, but ne me le donne pas."},
+    {"title": "4. Reflexive verbs", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Dépêche-toi !", "Hurry up!"],
+      ["Ne t'inquiète pas !", "Don't worry!"],
+      ["Souviens-t'en !", "Remember it!"],
+      ["Ne t'en fais pas !", "Don't worry about it!"]]},
+     "examples": [
+      {"fr": "Le taxi attend en bas ! {Dépêche-toi|ip-pronominal}, Sophie !", "en": "The taxi is waiting downstairs! Hurry up, Sophie!"},
+      {"fr": "{Ne t'en fais pas|ip-pronominal} : Minou sera très bien avec moi.", "en": "Don't worry: Minou will be fine with me."}],
+     "tip": "S'en faire (to worry) is mostly used in the negative: ne t'en fais pas, ne vous en faites pas."}
+  ],
+  "mistakes": [
+    {"wrong": "Donne-moi-le !", "right": "Donne-le-moi !", "why": "After the verb, le, la, les come before moi, lui, nous, leur."},
+    {"wrong": "Donne-moi-en !", "right": "Donne-m'en !", "why": "Before en, moi becomes m'."},
+    {"wrong": "Ne donne-le-moi pas !", "right": "Ne me le donne pas !", "why": "In a negative command, the pronouns go before the verb, and moi becomes me."},
+    {"wrong": "Mange-en !", "right": "Manges-en !", "why": "Before en and y, the -er verbs keep an s in the imperative."},
+    {"wrong": "Va-y !", "right": "Vas-y !", "why": "Before y, va becomes vas."}
+  ],
+  "story": {
+    "title": "Le départ de Sophie",
+    "en": "Thursday 1 July: Sophie leaves for her month-long workshop in Montréal.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi premier juillet, à sept heures du matin, Sophie part pour Montréal avec Mathis. L'avion décolle à midi, et sa valise est encore à moitié [vide|vide].", "en": "On Thursday 1 July, at seven in the morning, Sophie leaves for Montréal with Mathis. The plane takes off at noon, and her suitcase is still half empty."},
+      {"sp": "Sophie", "fr": "Mon passeport ! Où est mon passeport ?", "en": "My passport! Where's my passport?"},
+      {"sp": "Léa", "fr": "Sur la table. {Donne-le-moi|ip-ordre}, je le mets dans ton sac.", "en": "On the table. Give it to me, I'll put it in your bag."},
+      {"sp": "Sophie", "fr": "Et les clés de l'appartement ?", "en": "And the keys to the flat?"},
+      {"sp": "Léa", "fr": "{Laisse-les-moi|ip-ordre}. Et Minou aussi : je m'en occupe.", "en": "Leave them with me. And Minou too: I'll look after him."},
+      {"sp": "", "fr": "Hugo arrive avec un sac de croissants d'Enzo.", "en": "Hugo arrives with a bag of Enzo's croissants."},
+      {"sp": "Hugo", "fr": "Pour le voyage ! {Prends-en|ip-en} trois.", "en": "For the journey! Take three."},
+      {"sp": "Sophie", "fr": "{Donne-m'en|ip-en} un seul, merci. Je vais déjà dormir dans l'avion.", "en": "Just give me one, thanks. I'm going to sleep on the plane anyway."},
+      {"sp": "Léa", "fr": "Ton chargeur est resté sur le lit. Hugo, {passe-le-lui|ip-ordre} !", "en": "Your charger's still on the bed. Hugo, pass it to her!"},
+      {"sp": "", "fr": "Hugo le lance… et le chargeur tombe dans les croquettes de Minou.", "en": "Hugo throws it… and the charger lands in Minou's cat food."},
+      {"sp": "Sophie", "fr": "{Rends-le-moi|ip-ordre}… propre, s'il te plaît.", "en": "Give it back to me… clean, please."},
+      {"sp": "Léa", "fr": "Le cadeau pour la mère d'Antoine, c'est le paquet bleu ? {Donne-le-lui|ip-ordre} de ma part. Et la recette des crêpes de Mamie : {envoie-la-leur|ip-ordre}, ils vont adorer.", "en": "The present for Antoine's mother, is it the blue parcel? Give it to her from me. And Mamie's crêpe recipe: send it to them, they'll love it."},
+      {"sp": "Sophie", "fr": "Hugo, le dessin que j'ai fait de Mathis… {Ne le lui montre pas|ip-negatif} ! C'est une surprise pour son anniversaire.", "en": "Hugo, the drawing I did of Mathis… Don't show it to him! It's a surprise for his birthday."},
+      {"sp": "Hugo", "fr": "Euh… Je le lui ai montré hier.", "en": "Er… I showed it to him yesterday."},
+      {"sp": "Léa", "fr": "Hugo ! Tu ne sais vraiment rien garder pour toi.", "en": "Hugo! You really can't keep anything to yourself."},
+      {"sp": "Hugo", "fr": "{Ne t'en fais pas|ip-pronominal}, Sophie : il a adoré.", "en": "Don't worry, Sophie: he loved it."},
+      {"sp": "", "fr": "On sonne. C'est Mathis, avec le taxi.", "en": "The doorbell rings. It's Mathis, with the taxi."},
+      {"sp": "Mathis", "fr": "Le taxi attend en bas ! {Dépêche-toi|ip-pronominal}, Sophie ! {Vas-y|ip-en}, prends la valise, je prends le sac.", "en": "The taxi's waiting downstairs! Hurry up, Sophie! Go on, take the suitcase, I'll take the bag."},
+      {"sp": "Léa", "fr": "Et des photos ! {Envoie-nous-en|ip-en} tous les jours !", "en": "And photos! Send us some every day!"},
+      {"sp": "Sophie", "fr": "Promis. Et Minou… {Ne lui en donne pas|ip-negatif} trop, de croquettes : il grossit.", "en": "Promise. And Minou… don't give him too much food: he's getting fat."},
+      {"sp": "Hugo", "fr": "Et Habitat 67 ! Ta grand-mère veut une photo : {souviens-t'en|ip-pronominal} !", "en": "And Habitat 67! Your grandmother wants a photo: remember that!"},
+      {"sp": "", "fr": "Sophie embrasse Léa, puis elle descend l'escalier en courant.", "en": "Sophie hugs Léa, then runs down the stairs."},
+      {"sp": "Léa", "fr": "Bon voyage ! Et {ne nous oublie pas|ip-negatif} !", "en": "Have a good trip! And don't forget us!"},
+      {"sp": "", "fr": "Le silence revient. Minou attend devant la porte.", "en": "Silence falls again. Minou waits by the door."},
+      {"sp": "Léa", "fr": "{Ne t'inquiète pas|ip-pronominal}, Minou. Elle revient dans un mois.", "en": "Don't worry, Minou. She'll be back in a month."},
+      {"sp": "Hugo", "fr": "Et moi, je pars samedi pour Madrid. Mes plantes, Léa… {arrose-les-moi|ip-ordre}, d'accord ?", "en": "And I'm off to Madrid on Saturday. My plants, Léa… water them for me, OK?"}
+    ]
+  },
+  "quiz": [
+    {"case": "ip-ordre", "type": "mc", "q": "Ton passeport ? Donne-___ !", "en": "Your passport? Give it to me!", "options": ["le-moi", "moi-le", "me-le"], "answer": "le-moi"},
+    {"case": "ip-ordre", "type": "mc", "q": "Le cadeau ? Donne-___ de ma part.", "en": "The present? Give it to her from me.", "options": ["le-lui", "lui-le", "la-lui"], "answer": "le-lui"},
+    {"case": "ip-ordre", "type": "mc", "q": "Les clés ? ___ !", "en": "The keys? Leave them with me!", "options": ["Laisse-les-moi", "Laisse-moi-les", "Laisse-les-me"], "answer": "Laisse-les-moi"},
+    {"case": "ip-en", "type": "mc", "q": "Des croissants ? Donne-___ un seul.", "en": "Croissants? Just give me one.", "options": ["m'en", "moi-en", "en-moi"], "answer": "m'en"},
+    {"case": "ip-en", "type": "mc", "q": "Des photos ? Envoie-___ tous les jours !", "en": "Photos? Send us some every day!", "options": ["nous-en", "en-nous", "nous-les"], "answer": "nous-en"},
+    {"case": "ip-en", "type": "mc", "q": "___, prends la valise !", "en": "Go on, take the suitcase!", "options": ["Vas-y", "Va-y", "Y va"], "answer": "Vas-y"},
+    {"case": "ip-negatif", "type": "mc", "q": "Le dessin ? ___ montre pas !", "en": "The drawing? Don't show it to him!", "options": ["Ne le lui", "Ne lui le", "Ne le-lui"], "answer": "Ne le lui"},
+    {"case": "ip-negatif", "type": "mc", "lang": "en", "q": "« Ne me le dis pas ! » means…", "options": ["Don't tell me!", "Tell me!", "Don't tell him!"], "answer": "Don't tell me!", "say": "Ne me le dis pas !"},
+    {"case": "ip-pronominal", "type": "mc", "q": "___, Sophie ! Le taxi attend !", "en": "Hurry up, Sophie! The taxi is waiting!", "options": ["Dépêche-toi", "Te dépêche", "Dépêche-te"], "answer": "Dépêche-toi"},
+    {"case": "ip-pronominal", "type": "mc", "q": "___ : elle revient dans un mois.", "en": "Don't worry: she'll be back in a month.", "options": ["Ne t'en fais pas", "Ne fais-t'en pas", "Ne te fais pas en"], "answer": "Ne t'en fais pas"}
+  ]
+}

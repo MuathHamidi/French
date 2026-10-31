@@ -169,6 +169,8 @@ FIXES = {
     "fournil": "fuʁnˈi", "fournils": "fuʁnˈi",  # the l is silent
     "punch": "pˈɔ̃ʃ", "punchs": "pˈɔ̃ʃ", "toast": "tˈost", "toasts": "tˈost", "dj": "didʒˈi", "djs": "didʒˈi",  # read in English
     "négligent": "neɡliʒˈɑ̃", "négligents": "neɡliʒˈɑ̃",  # the adjective; the voice reads it like the verb (ils négligent)
+    "corner": "kɔʁnˈɛʁ", "corners": "kɔʁnˈɛʁ", "penalty": "penaltˈi", "penaltys": "penaltˈi", "penalties": "penaltˈi",  # read like an -er verb, or with a schwa
+    "supporters": "sypɔʁtˈœʁ",  # the fans, not the verb supporter
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

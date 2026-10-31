@@ -1,0 +1,139 @@
+{
+  "id": "u44-adjectifs",
+  "type": "vocab",
+  "unit": 44,
+  "title": "Une famille très anglaise",
+  "en": "Common adjectives (2)",
+  "intro": "25 adjectives that French uses all the time: describing people (**sincère, franc, discret, modeste, attentif, gai, malin, digne, confus, muet**), things and places (**précieux, délicat, privé, familial, central, royal, paisible, tranquille, étrange**), and how things usually are (**habituel, ordinaire, régulier, semblable, interminable, censé**).",
+  "words": [
+    {"id": "sincere", "fr": "sincère", "pos": "adj", "ipa": "sɛ̃.sɛʁ", "en": "sincere, genuine, honest", "def": "Qui dit ce qu'il pense vraiment, sans mentir.", "def_en": "Who says what they really think, without lying.", "note": "*Sincèrement* = sincerely.", "forms": ["sincères"], "examples": [
+      {"fr": "Ses compliments sont toujours **sincères**.", "en": "Her compliments are always sincere."},
+      {"fr": "Merci pour ta réponse **sincère**.", "en": "Thank you for your honest answer."},
+      {"fr": "Il a l'air **sincère**, mais je me méfie.", "en": "He seems genuine, but I'm wary."}]},
+    {"id": "franc", "fr": "franc", "pos": "adj", "ipa": "fʁɑ̃", "display": "franc, franche", "en": "frank, honest, straightforward", "def": "Qui dit les choses directement, même quand elles ne plaisent pas.", "def_en": "Who says things directly, even when they're not pleasant.", "note": "*Pour être franc…* = to be honest… *Le franc* was the French currency before the euro.", "forms": ["franche", "francs", "franches"], "examples": [
+      {"fr": "La mère de Tom est très **franche**.", "en": "Tom's mother is very straightforward."},
+      {"fr": "Pour être **franc**, je n'aime pas le thé au lait.", "en": "To be honest, I don't like tea with milk."},
+      {"fr": "Je préfère une réponse **franche**.", "en": "I prefer a straight answer."}]},
+    {"id": "discret", "fr": "discret", "pos": "adj", "ipa": "dis.kʁɛ", "display": "discret, discrète", "en": "discreet, quiet, unobtrusive", "def": "Qui ne se fait pas remarquer ; qui sait garder un secret.", "def_en": "Who doesn't draw attention; who can keep a secret.", "forms": ["discrète", "discrets", "discrètes"], "examples": [
+      {"fr": "Le père de Tom est très **discret**.", "en": "Tom's father is very quiet."},
+      {"fr": "Sois **discret** : c'est une surprise !", "en": "Be discreet: it's a surprise!"},
+      {"fr": "Elle porte une petite robe noire, très **discrète**.", "en": "She's wearing a simple little black dress."}]},
+    {"id": "modeste", "fr": "modeste", "pos": "adj", "ipa": "mɔ.dɛst", "en": "modest, humble; small, simple", "def": "Qui ne parle pas de ses qualités ; simple, pas cher.", "def_en": "Who doesn't talk about their own qualities; simple, without luxury.", "forms": ["modestes"], "examples": [
+      {"fr": "Tom est trop **modeste** : il joue très bien.", "en": "Tom is too modest: he plays very well."},
+      {"fr": "Ils habitent une maison **modeste**, avec un petit jardin.", "en": "They live in a modest house with a small garden."},
+      {"fr": "C'est un cadeau **modeste**, mais il vient du cœur.", "en": "It's a small present, but it comes from the heart."}]},
+    {"id": "attentif", "fr": "attentif", "pos": "adj", "ipa": "a.tɑ̃.tif", "display": "attentif, attentive", "en": "attentive, careful, thoughtful", "def": "Qui écoute ou regarde avec attention ; qui fait attention aux autres.", "def_en": "Who listens or watches carefully; who pays attention to others.", "forms": ["attentive", "attentifs", "attentives"], "examples": [
+      {"fr": "Le père de Tom est un homme très **attentif**.", "en": "Tom's father is a very thoughtful man."},
+      {"fr": "Les élèves sont **attentifs** pendant la dictée.", "en": "The pupils are attentive during the dictation."},
+      {"fr": "Sois **attentive** aux panneaux sur la route.", "en": "Pay attention to the signs on the road."}]},
+    {"id": "gai", "fr": "gai", "pos": "adj", "ipa": "ɡɛ", "display": "gai, gaie", "en": "cheerful, merry; bright (colour)", "def": "Qui est content et qui aime rire ; qui rend joyeux.", "def_en": "Who is happy and likes to laugh; that makes people cheerful.", "forms": ["gaie", "gais", "gaies"], "examples": [
+      {"fr": "La grande sœur de Tom est toujours **gaie**.", "en": "Tom's older sister is always cheerful."},
+      {"fr": "La cuisine est peinte en jaune : c'est **gai** !", "en": "The kitchen is painted yellow: it's cheerful!"},
+      {"fr": "Il chante une chanson **gaie**.", "en": "He's singing a merry song."}]},
+    {"id": "malin", "fr": "malin", "pos": "adj", "ipa": "ma.lɛ̃", "display": "malin, maligne", "en": "clever, smart, crafty", "def": "Qui trouve vite des solutions ; qui sait jouer des tours.", "def_en": "Who quickly finds solutions; who knows how to play tricks.", "note": "*Faire le malin* = to show off.", "forms": ["maligne", "malins", "malignes"], "examples": [
+      {"fr": "Sa petite sœur est très **maligne**.", "en": "His younger sister is very clever."},
+      {"fr": "Ne fais pas le **malin** !", "en": "Don't show off!"},
+      {"fr": "C'est **malin** : tu as cassé la tasse !", "en": "Well done: you've broken the cup!"}]},
+    {"id": "digne", "fr": "digne", "pos": "adj", "ipa": "diɲ", "en": "worthy (of); dignified", "def": "Qui mérite quelque chose ; qui se tient bien, avec respect pour soi.", "def_en": "Who deserves something; who behaves with self-respect.", "note": "*Digne de confiance* = trustworthy.", "forms": ["dignes"], "examples": [
+      {"fr": "Un repas **digne** d'un roi !", "en": "A meal fit for a king!"},
+      {"fr": "Elle est **digne** de confiance.", "en": "She's trustworthy."},
+      {"fr": "Même sous la pluie, le soldat reste **digne**.", "en": "Even in the rain, the soldier stays dignified."}]},
+    {"id": "confus", "fr": "confus", "pos": "adj", "ipa": "kɔ̃.fy", "display": "confus, confuse", "en": "embarrassed, sorry; confused, unclear", "def": "Gêné après une erreur ; pas clair, mélangé.", "def_en": "Embarrassed after a mistake; unclear, muddled.", "note": "*Je suis confus* = I'm terribly sorry.", "forms": ["confuse", "confuses"], "examples": [
+      {"fr": "Camille est toute **confuse** : elle a appelé le père de Tom « papa ».", "en": "Camille is terribly embarrassed: she called Tom's father 'Dad'."},
+      {"fr": "Je suis **confus**, j'ai oublié votre nom.", "en": "I'm so sorry, I've forgotten your name."},
+      {"fr": "Ses explications sont un peu **confuses**.", "en": "His explanations are a bit muddled."}]},
+    {"id": "muet", "fr": "muet", "pos": "adj", "ipa": "mɥɛ", "display": "muet, muette", "en": "silent, speechless; mute", "def": "Qui ne parle pas, ou qui ne peut pas parler.", "def_en": "Who doesn't speak, or can't speak.", "note": "*Un film muet* = a silent film. *Le e muet* = the silent e.", "forms": ["muette", "muets", "muettes"], "examples": [
+      {"fr": "Pendant le dîner, le père de Tom reste **muet**.", "en": "During dinner, Tom's father says nothing."},
+      {"fr": "Au début du cinéma, les films étaient **muets**.", "en": "In the early days of cinema, films were silent."},
+      {"fr": "Dans « petite », le premier e est **muet**.", "en": "In 'petite', the first e is silent."}]},
+    {"id": "precieux", "fr": "précieux", "pos": "adj", "ipa": "pʁe.sjø", "display": "précieux, précieuse", "en": "precious, valuable", "def": "Qui a beaucoup de valeur ; très utile.", "def_en": "Of great value; very useful.", "forms": ["précieuse", "précieuses"], "examples": [
+      {"fr": "Ces tasses sont **précieuses** : elles viennent de la grand-mère.", "en": "These cups are precious: they come from Grandma."},
+      {"fr": "Merci pour ton aide **précieuse**.", "en": "Thank you for your invaluable help."},
+      {"fr": "Le temps est **précieux**.", "en": "Time is precious."}]},
+    {"id": "delicat", "fr": "délicat", "pos": "adj", "ipa": "de.li.ka", "display": "délicat, délicate", "en": "delicate, fragile; tricky, sensitive; thoughtful", "def": "Qui se casse facilement ; difficile, qu'il faut traiter avec soin ; gentil et attentif.", "def_en": "That breaks easily; difficult, needing careful handling; kind and thoughtful.", "forms": ["délicate", "délicats", "délicates"], "examples": [
+      {"fr": "La cuisine anglaise, c'est un sujet **délicat**.", "en": "English food is a tricky subject."},
+      {"fr": "Attention, ce vase est très **délicat**.", "en": "Careful, this vase is very fragile."},
+      {"fr": "Quel geste **délicat** !", "en": "What a thoughtful gesture!"}]},
+    {"id": "prive", "fr": "privé", "pos": "adj", "ipa": "pʁi.ve", "display": "privé, privée", "en": "private", "def": "Qui n'est pas pour tout le monde ; qui appartient à une personne et pas à l'État.", "def_en": "Not for everyone; that belongs to a person and not to the state.", "note": "*La vie privée* = private life, privacy. *En privé* = in private.", "forms": ["privée", "privés", "privées"], "examples": [
+      {"fr": "Derrière la maison, il y a un petit jardin **privé**.", "en": "Behind the house, there's a small private garden."},
+      {"fr": "C'est une conversation **privée**.", "en": "It's a private conversation."},
+      {"fr": "Elle travaille dans une école **privée**.", "en": "She works in a private school."}]},
+    {"id": "familial", "fr": "familial", "pos": "adj", "ipa": "fa.mi.ljal", "display": "familial, familiale", "en": "family (adj.), domestic", "def": "De la famille.", "def_en": "To do with the family.", "forms": ["familiale", "familiaux", "familiales"], "examples": [
+      {"fr": "Le dimanche, c'est le déjeuner **familial**.", "en": "On Sundays, it's the family lunch."},
+      {"fr": "Ils ont une petite entreprise **familiale**.", "en": "They have a small family business."},
+      {"fr": "Les vacances **familiales** se passent à Marseille.", "en": "The family holidays are spent in Marseille."}]},
+    {"id": "central", "fr": "central", "pos": "adj", "ipa": "sɑ̃.tʁal", "display": "central, centrale", "en": "central", "def": "Qui est au milieu, au centre.", "def_en": "That is in the middle, at the centre.", "forms": ["centrale", "centraux", "centrales"], "examples": [
+      {"fr": "Le quartier **central** de Londres est plein de touristes.", "en": "Central London is full of tourists."},
+      {"fr": "La gare **centrale** est à cinq minutes.", "en": "The central station is five minutes away."},
+      {"fr": "C'est la question **centrale** du débat.", "en": "It's the central question of the debate."}]},
+    {"id": "royal", "fr": "royal", "pos": "adj", "ipa": "ʁwa.jal", "display": "royal, royale", "en": "royal; (familiar) magnificent", "def": "Du roi ou de la reine ; (familier) magnifique.", "def_en": "Of the king or the queen; (informal) magnificent.", "forms": ["royale", "royaux", "royales"], "examples": [
+      {"fr": "Devant le palais **royal**, il y a toujours des touristes.", "en": "There are always tourists in front of the royal palace."},
+      {"fr": "La famille **royale** est en vacances.", "en": "The royal family is on holiday."},
+      {"fr": "Un petit déjeuner **royal** !", "en": "A breakfast fit for a king!"}]},
+    {"id": "paisible", "fr": "paisible", "pos": "adj", "ipa": "pɛ.zibl", "en": "peaceful, quiet, calm", "def": "Calme, sans bruit et sans [dispute|dispute].", "def_en": "Calm, without noise or arguments.", "forms": ["paisibles"], "examples": [
+      {"fr": "Le parc est **paisible** le dimanche matin.", "en": "The park is peaceful on Sunday mornings."},
+      {"fr": "Le chien dort d'un sommeil **paisible**.", "en": "The dog sleeps peacefully."},
+      {"fr": "Pierre mène une vie **paisible** à la ferme.", "en": "Pierre leads a peaceful life on the farm."}]},
+    {"id": "tranquille", "fr": "tranquille", "pos": "adj", "ipa": "tʁɑ̃.kil", "en": "quiet, calm, peaceful", "def": "Calme, sans bruit et sans mouvement.", "def_en": "Calm, with no fuss or noise.", "note": "*Laisse-moi tranquille !* = leave me alone! *Sois tranquille* = don't worry.", "forms": ["tranquilles"], "examples": [
+      {"fr": "Ils habitent dans une rue **tranquille**.", "en": "They live in a quiet street."},
+      {"fr": "Laisse-moi **tranquille**, je lis !", "en": "Leave me alone, I'm reading!"},
+      {"fr": "Après le bal, la caserne est enfin **tranquille**.", "en": "After the ball, the fire station is finally quiet."}]},
+    {"id": "etrange", "fr": "étrange", "pos": "adj", "ipa": "e.tʁɑ̃ʒ", "en": "strange, odd", "def": "Qui n'est pas comme d'habitude ; difficile à comprendre.", "def_en": "Not as usual; hard to understand.", "note": "*Étrangement* = strangely.", "forms": ["étranges"], "examples": [
+      {"fr": "Du lait dans le thé ? C'est **étrange** !", "en": "Milk in tea? That's strange!"},
+      {"fr": "Il y a un bruit **étrange** dans la cuisine.", "en": "There's a strange noise in the kitchen."},
+      {"fr": "Quelle histoire **étrange** !", "en": "What a strange story!"}]},
+    {"id": "habituel", "fr": "habituel", "pos": "adj", "ipa": "a.bi.tɥɛl", "display": "habituel, habituelle", "en": "usual, regular, customary", "def": "Que l'on fait ou que l'on voit d'habitude.", "def_en": "That you usually do or see.", "forms": ["habituelle", "habituels", "habituelles"], "examples": [
+      {"fr": "À cinq heures, c'est le thé **habituel**.", "en": "At five o'clock, it's the usual tea."},
+      {"fr": "Hugo est en retard, comme d'habitude : c'est son retard **habituel**.", "en": "Hugo is late, as usual: it's his usual lateness."},
+      {"fr": "On se retrouve au café **habituel** ?", "en": "Shall we meet at the usual café?"}]},
+    {"id": "ordinaire", "fr": "ordinaire", "pos": "adj", "ipa": "ɔʁ.di.nɛʁ", "en": "ordinary, normal, everyday", "def": "Comme les autres ; sans rien de spécial.", "def_en": "Like the others; with nothing special about it.", "note": "*D'ordinaire* = usually. *Sortir de l'ordinaire* = to be out of the ordinary.", "forms": ["ordinaires"], "examples": [
+      {"fr": "C'est une famille **ordinaire**, mais très gentille.", "en": "It's an ordinary family, but a very kind one."},
+      {"fr": "Une journée **ordinaire** commence par le thé.", "en": "An ordinary day begins with tea."},
+      {"fr": "Ce voyage sort de l'**ordinaire**.", "en": "This trip is out of the ordinary."}]},
+    {"id": "regulier", "fr": "régulier", "pos": "adj", "ipa": "ʁe.ɡy.lje", "display": "régulier, régulière", "en": "regular, steady, even", "def": "Qui se répète de la même façon, à intervalles égaux ; toujours pareil.", "def_en": "That happens again in the same way, at equal intervals; always the same.", "note": "*Régulièrement* = regularly.", "forms": ["régulière", "réguliers", "régulières"], "examples": [
+      {"fr": "Le père de Tom a des habitudes très **régulières**.", "en": "Tom's father has very regular habits."},
+      {"fr": "Il fait du sport de façon **régulière**.", "en": "He exercises regularly."},
+      {"fr": "Le bus passe à intervalles **réguliers**.", "en": "The bus comes at regular intervals."}]},
+    {"id": "semblable", "fr": "semblable", "pos": "adj", "ipa": "sɑ̃.blabl", "en": "similar, alike; such", "def": "Qui ressemble beaucoup à quelqu'un ou à quelque chose.", "def_en": "That looks very much like someone or something.", "forms": ["semblables"], "examples": [
+      {"fr": "Tom et son père sont **semblables** : timides et gentils.", "en": "Tom and his father are alike: shy and kind."},
+      {"fr": "J'ai un pull **semblable** au tien.", "en": "I've got a jumper like yours."},
+      {"fr": "Je n'ai jamais vu une chose **semblable** !", "en": "I've never seen such a thing!"}]},
+    {"id": "interminable", "fr": "interminable", "pos": "adj", "ipa": "ɛ̃.tɛʁ.mi.nabl", "en": "endless, never-ending", "def": "Qui dure très longtemps et semble ne jamais finir.", "def_en": "That lasts a very long time and seems never to end.", "forms": ["interminables"], "examples": [
+      {"fr": "Devant le musée, il y a une queue **interminable**.", "en": "In front of the museum, there's an endless queue."},
+      {"fr": "Le discours du maire est **interminable**.", "en": "The mayor's speech is never-ending."},
+      {"fr": "Cette semaine m'a semblé **interminable**.", "en": "This week felt endless."}]},
+    {"id": "cense", "fr": "censé", "pos": "adj", "ipa": "sɑ̃.se", "display": "censé, censée", "en": "supposed to (être censé faire)", "def": "Qui doit normalement faire quelque chose, selon les règles ou ce qui est prévu.", "def_en": "Who normally has to do something, according to the rules or the plan.", "note": "*Je suis censé être là à huit heures* = I'm supposed to be there at eight.", "forms": ["censée", "censés", "censées"], "examples": [
+      {"fr": "En Angleterre, on est **censé** faire la queue.", "en": "In England, you're supposed to queue."},
+      {"fr": "Tu n'étais pas **censé** venir demain ?", "en": "Weren't you supposed to come tomorrow?"},
+      {"fr": "Elle est **censée** arriver à midi.", "en": "She's supposed to arrive at noon."}]}
+  ],
+  "story": {
+    "title": "Une famille très anglaise",
+    "en": "Saturday 17 to Saturday 24 July: Tom takes Camille to London to meet his family.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi dix-sept juillet, Tom et Camille prennent le train pour Londres, sous la Manche. Camille va rencontrer la famille de Tom pour la première fois.", "en": "On Saturday 17 July, Tom and Camille take the train to London, under the Channel. Camille is going to meet Tom's family for the first time."},
+      {"sp": "Tom", "fr": "Ma famille est très ordinaire. Mais pour être franc, elle est aussi un peu étrange.", "en": "My family is very ordinary. But to be honest, it's also a bit strange."},
+      {"sp": "", "fr": "Les parents de Tom habitent une maison modeste, dans une rue tranquille, avec un petit jardin privé derrière.", "en": "Tom's parents live in a modest house, in a quiet street, with a small private garden at the back."},
+      {"sp": "", "fr": "Sa mère ouvre la porte. Elle est gaie, franche, et elle parle un peu français.", "en": "His mother opens the door. She's cheerful, straightforward, and she speaks a little French."},
+      {"sp": "La mère de Tom", "fr": "Bienvenue, Camille ! Tom parle de vous tous les jours. Enfin, presque.", "en": "Welcome, Camille! Tom talks about you every day. Well, almost."},
+      {"sp": "", "fr": "Son père, lui, est discret et attentif. Il porte la valise de Camille et prépare le thé sans dire un mot. Tom et son père sont semblables : timides, gentils et un peu muets.", "en": "His father, on the other hand, is quiet and thoughtful. He carries Camille's suitcase and makes the tea without a word. Tom and his father are alike: shy, kind and a bit silent."},
+      {"sp": "", "fr": "À cinq heures, c'est le thé habituel, dans les précieuses tasses de la grand-mère. Camille regarde la mère de Tom mettre du lait dans le thé.", "en": "At five o'clock, it's the usual tea, in Grandma's precious cups. Camille watches Tom's mother put milk in the tea."},
+      {"sp": "Camille", "fr": "Du lait dans le thé ? C'est… original.", "en": "Milk in tea? That's… original."},
+      {"sp": "", "fr": "La petite sœur de Tom, très maligne, a tout [compris|comprendre] : elle traduit pour son père, en ajoutant des choses.", "en": "Tom's younger sister, who's very sharp, has understood everything: she translates for her father, adding a few things."},
+      {"sp": "La petite sœur", "fr": "Papa dit que Camille est trop bien pour Tom.", "en": "Dad says Camille is too good for Tom."},
+      {"sp": "", "fr": "Le père de Tom devient tout rouge. Camille, elle, est toute confuse… et le soir, elle l'appelle « papa » par erreur.", "en": "Tom's father goes bright red. Camille is completely flustered… and that evening, she calls him 'Dad' by mistake."},
+      {"sp": "", "fr": "Le lundi, ils visitent le quartier central de Londres. Devant le palais royal, il y a une queue interminable.", "en": "On Monday, they visit central London. In front of the royal palace, there's an endless queue."},
+      {"sp": "Tom", "fr": "En Angleterre, on est censé faire la queue. Partout. Même pour le bus.", "en": "In England, you're supposed to queue. Everywhere. Even for the bus."},
+      {"sp": "", "fr": "L'après-midi, ils se reposent dans un grand parc paisible. Camille fait un croquis des canards pour Sophie.", "en": "In the afternoon, they rest in a big, peaceful park. Camille sketches the ducks for Sophie."},
+      {"sp": "", "fr": "Le samedi suivant, avant le train du retour, c'est le grand déjeuner familial, avec le frère de Tom, sa femme et le petit neveu, qui a presque deux ans.", "en": "The following Saturday, before the train home, it's the big family lunch, with Tom's brother, his wife and the little nephew, who is almost two."},
+      {"sp": "", "fr": "Le père de Tom pose une question délicate : « Et la cuisine anglaise, Camille ? »", "en": "Tom's father asks a tricky question: 'And English food, Camille?'"},
+      {"sp": "Camille", "fr": "Je la trouve… très régulière. Des frites tous les jours, c'est rassurant.", "en": "I find it… very consistent. Chips every day, it's reassuring."},
+      {"sp": "", "fr": "Tout le monde rit, même le chien. Le père de Tom sourit à Camille : c'est un compliment sincère.", "en": "Everyone laughs, even the dog. Tom's father smiles at Camille: it's a sincere compliment."},
+      {"sp": "La mère de Tom", "fr": "Un repas digne d'une reine ! Revenez quand vous voulez, ma chère.", "en": "A meal fit for a queen! Come back whenever you like, my dear."},
+      {"sp": "", "fr": "Dans le train du retour, Camille s'endort sur l'épaule de Tom.", "en": "On the train home, Camille falls asleep on Tom's shoulder."},
+      {"sp": "Tom", "fr": "Alors, ma famille ?", "en": "So, my family?"},
+      {"sp": "Camille", "fr": "Étrange… et parfaite.", "en": "Strange… and perfect."}
+    ]
+  }
+}

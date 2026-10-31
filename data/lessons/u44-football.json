@@ -1,0 +1,137 @@
+{
+  "id": "u44-football",
+  "type": "vocab",
+  "unit": 44,
+  "title": "Le match",
+  "en": "Football",
+  "intro": "25 words for a football match: the people (**l'arbitre, l'entraîneur, le capitaine, le gardien**), the place and the kit (**le terrain, la tribune, le vestiaire, le maillot, le poteau**), the game (**le coup d'envoi, la mi-temps, le score, marquer, siffler, la défense, le hors-jeu, le corner, le coup franc, le penalty, le carton jaune**), and how it ends (**le match nul, les prolongations, les tirs au but, la coupe, le championnat**).",
+  "words": [
+    {"id": "arbitre", "fr": "arbitre", "pos": "noun", "g": "m", "both": true, "ipa": "aʁ.bitʁ", "display": "l'arbitre", "en": "referee, umpire", "def": "La personne qui fait respecter les règles pendant un match.", "def_en": "The person who makes sure the rules are followed during a match.", "forms": ["arbitres"], "accept": ["la arbitre", "une arbitre"], "examples": [
+      {"fr": "L'**arbitre** siffle le début du match.", "en": "The referee blows the whistle to start the match."},
+      {"fr": "Les supporters crient contre l'**arbitre**.", "en": "The fans shout at the referee."},
+      {"fr": "Ma sœur est **arbitre** de tennis.", "en": "My sister is a tennis umpire."}]},
+    {"id": "entraineur", "fr": "entraîneur", "pos": "noun", "g": "m", "ipa": "ɑ̃.tʁɛ.nœʁ", "display": "l'entraîneur, l'entraîneuse", "en": "coach, trainer, manager (of a team)", "def": "La personne qui prépare les joueurs et choisit l'équipe.", "def_en": "The person who trains the players and picks the team.", "forms": ["entraîneurs", "entraîneuse", "entraîneuses"], "examples": [
+      {"fr": "L'**entraîneur** crie des ordres au bord du terrain.", "en": "The coach shouts orders from the touchline."},
+      {"fr": "Carla est l'**entraîneuse** de Hugo pour la course.", "en": "Carla is Hugo's coach for running."},
+      {"fr": "Après la défaite, l'**entraîneur** a quitté le club.", "en": "After the defeat, the manager left the club."}]},
+    {"id": "capitaine", "fr": "capitaine", "pos": "noun", "g": "m", "both": true, "ipa": "ka.pi.tɛn", "display": "le / la capitaine", "en": "captain", "def": "Le chef d'une équipe ou d'un bateau.", "def_en": "The leader of a team or of a ship.", "forms": ["capitaines"], "accept": ["la capitaine", "une capitaine"], "examples": [
+      {"fr": "Le **capitaine** de Lyon porte le numéro dix.", "en": "Lyon's captain wears number ten."},
+      {"fr": "Le **capitaine** du bateau parle aux passagers.", "en": "The ship's captain speaks to the passengers."},
+      {"fr": "Inès est la **capitaine** de l'équipe de tennis.", "en": "Inès is the captain of the tennis team."}]},
+    {"id": "gardien", "fr": "gardien", "pos": "noun", "g": "m", "ipa": "ɡaʁ.djɛ̃", "display": "le gardien, la gardienne", "en": "goalkeeper; keeper, warden, caretaker", "def": "Le joueur qui protège le but ; la personne qui surveille un lieu.", "def_en": "The player who guards the goal; the person who looks after a place.", "note": "*Le gardien de but* = the goalkeeper. *Le gardien d'immeuble* = the caretaker of a building.", "forms": ["gardiens", "gardienne", "gardiennes"], "examples": [
+      {"fr": "Le **gardien** arrête le ballon avec la tête.", "en": "The goalkeeper stops the ball with his head."},
+      {"fr": "Le **gardien** du musée ferme les portes à six heures.", "en": "The museum warden closes the doors at six."},
+      {"fr": "La **gardienne** de l'immeuble arrose les plantes.", "en": "The building's caretaker waters the plants."}]},
+    {"id": "terrain", "fr": "terrain", "pos": "noun", "g": "m", "ipa": "tɛ.ʁɛ̃", "en": "pitch, field (for sport); piece of land; ground", "def": "L'espace où l'on joue un match ; un morceau de terre.", "def_en": "The area where a match is played; a piece of land.", "note": "*Sur le terrain* = on the ground, in the field.", "forms": ["terrains"], "examples": [
+      {"fr": "Les joueurs entrent sur le **terrain**.", "en": "The players come out onto the pitch."},
+      {"fr": "Pierre a acheté un **terrain** à côté de la ferme.", "en": "Pierre has bought a piece of land next to the farm."},
+      {"fr": "Le **terrain** est mouillé : attention, ça glisse !", "en": "The pitch is wet: careful, it's slippery!"}]},
+    {"id": "tribune", "fr": "tribune", "pos": "noun", "g": "f", "ipa": "tʁi.byn", "en": "stand (in a stadium); platform", "def": "La partie d'un stade où les spectateurs sont assis.", "def_en": "The part of a stadium where the spectators sit.", "forms": ["tribunes"], "examples": [
+      {"fr": "Dans la **tribune**, tout le monde [porte|porter] du blanc.", "en": "In the stand, everyone is wearing white."},
+      {"fr": "Les **tribunes** sont pleines : soixante mille personnes !", "en": "The stands are full: sixty thousand people!"},
+      {"fr": "Nos places sont en haut de la **tribune**.", "en": "Our seats are at the top of the stand."}]},
+    {"id": "vestiaire", "fr": "vestiaire", "pos": "noun", "g": "m", "ipa": "vɛs.tjɛʁ", "en": "changing room; cloakroom", "def": "La pièce où les joueurs se changent ; l'endroit où l'on laisse son manteau.", "def_en": "The room where players change; the place where you leave your coat.", "forms": ["vestiaires"], "examples": [
+      {"fr": "À la mi-temps, les joueurs rentrent au **vestiaire**.", "en": "At half-time, the players go back to the changing room."},
+      {"fr": "Laissez vos manteaux au **vestiaire**.", "en": "Leave your coats in the cloakroom."},
+      {"fr": "Dans le **vestiaire**, l'entraîneur est furieux.", "en": "In the changing room, the manager is furious."}]},
+    {"id": "maillot", "fr": "maillot", "pos": "noun", "g": "m", "ipa": "ma.jo", "en": "(sports) shirt, jersey", "def": "Le vêtement aux couleurs d'une équipe, que portent les joueurs.", "def_en": "The garment in a team's colours, worn by the players.", "note": "*Un maillot de bain* = a swimsuit. *Le maillot jaune* = the yellow jersey of the Tour de France.", "forms": ["maillots"], "examples": [
+      {"fr": "Hugo porte le **maillot** de Lyon.", "en": "Hugo is wearing the Lyon shirt."},
+      {"fr": "Le joueur lance son **maillot** aux supporters.", "en": "The player throws his shirt to the fans."},
+      {"fr": "Le **maillot** jaune du Tour de France est célèbre.", "en": "The Tour de France's yellow jersey is famous."}]},
+    {"id": "poteau", "fr": "poteau", "pos": "noun", "g": "m", "ipa": "pɔ.to", "en": "post, goalpost; pole", "def": "Un long morceau de bois ou de métal planté droit ; un des deux côtés du but.", "def_en": "A long piece of wood or metal standing upright; one of the two sides of the goal.", "forms": ["poteaux"], "examples": [
+      {"fr": "Le ballon touche le **poteau** !", "en": "The ball hits the post!"},
+      {"fr": "Le panneau est accroché à un **poteau**.", "en": "The sign hangs from a pole."},
+      {"fr": "Il a tiré sur le **poteau** deux fois.", "en": "He hit the post twice."}]},
+    {"id": "coup-d-envoi", "fr": "coup d'envoi", "pos": "noun", "g": "m", "ipa": "ku d‿ɑ̃.vwa", "en": "kick-off; start", "def": "Le premier coup de pied qui commence un match ; le début d'un événement.", "def_en": "The first kick that starts a match; the start of an event.", "forms": ["coups d'envoi"], "examples": [
+      {"fr": "Le **coup d'envoi** est à neuf heures du soir.", "en": "Kick-off is at nine in the evening."},
+      {"fr": "Hugo arrive juste avant le **coup d'envoi**.", "en": "Hugo arrives just before kick-off."},
+      {"fr": "Le maire donne le **coup d'envoi** du festival.", "en": "The mayor opens the festival."}]},
+    {"id": "mi-temps", "fr": "mi-temps", "pos": "noun", "g": "f", "ipa": "mi.tɑ̃", "en": "half-time; half (of a match); part-time", "def": "La pause au milieu d'un match ; une des deux parties du match.", "def_en": "The break in the middle of a match; one of the two halves of the match.", "note": "*Travailler à mi-temps* = to work part-time.", "examples": [
+      {"fr": "À la **mi-temps**, Hugo achète des churros.", "en": "At half-time, Hugo buys churros."},
+      {"fr": "Lyon a marqué en deuxième **mi-temps**.", "en": "Lyon scored in the second half."},
+      {"fr": "Elle travaille à **mi-temps** à la boulangerie.", "en": "She works part-time at the bakery."}]},
+    {"id": "score", "fr": "score", "pos": "noun", "g": "m", "ipa": "skɔʁ", "en": "score", "def": "Le nombre de points ou de buts de chaque équipe.", "def_en": "The number of points or goals each team has.", "forms": ["scores"], "examples": [
+      {"fr": "Le **score** est de un à un.", "en": "The score is one all."},
+      {"fr": "Quel est le **score** ?", "en": "What's the score?"},
+      {"fr": "Le **score** est écrit sur un grand écran.", "en": "The score is shown on a big screen."}]},
+    {"id": "marquer", "fr": "marquer", "pos": "verb", "ipa": "maʁ.ke", "en": "to score (a goal); to mark; to leave a mark on", "def": "Mettre le ballon dans le but ; faire un signe sur quelque chose ; laisser un souvenir fort.", "def_en": "To put the ball in the goal; to make a sign on something; to leave a strong memory.", "note": "*Marquer un but* = to score a goal.", "forms": ["marque", "marques", "marquons", "marquez", "marquent", "marqué", "marquée", "marqués", "marquées", "marquais", "marquait", "marquions", "marquiez", "marquaient", "marquerai", "marqueras", "marquera", "marquerons", "marquerez", "marqueront", "marquerais", "marquerait", "marquerions", "marqueriez", "marqueraient", "marquant", "marquai", "marquas", "marqua", "marquâmes", "marquâtes", "marquèrent"], "examples": [
+      {"fr": "Le capitaine **marque** un but magnifique.", "en": "The captain scores a magnificent goal."},
+      {"fr": "J'ai **marqué** la date dans mon agenda.", "en": "I've marked the date in my diary."},
+      {"fr": "Ce voyage l'a beaucoup **marqué**.", "en": "This trip made a big impression on him."}]},
+    {"id": "siffler", "fr": "siffler", "pos": "verb", "ipa": "si.fle", "en": "to whistle; to blow the whistle; to boo", "def": "Faire un bruit fort et haut avec la bouche ou avec un petit instrument ; montrer qu'on n'est pas content.", "def_en": "To make a high noise with your mouth or a small instrument; to show you're not happy.", "note": "*Le sifflet* = the whistle.", "forms": ["siffle", "siffles", "sifflons", "sifflez", "sifflent", "sifflé", "sifflée", "sifflés", "sifflées", "sifflais", "sifflait", "sifflions", "siffliez", "sifflaient", "sifflerai", "siffleras", "sifflera", "sifflerons", "sifflerez", "siffleront", "sifflerais", "sifflerait", "sifflerions", "siffleriez", "siffleraient", "sifflant", "sifflai", "sifflas", "siffla", "sifflâmes", "sifflâtes", "sifflèrent"], "examples": [
+      {"fr": "L'arbitre **siffle** la fin du match.", "en": "The referee blows the final whistle."},
+      {"fr": "Hugo **siffle** en faisant la vaisselle.", "en": "Hugo whistles while he does the washing-up."},
+      {"fr": "Les supporters **sifflent** l'arbitre.", "en": "The fans boo the referee."}]},
+    {"id": "defense", "fr": "défense", "pos": "noun", "g": "f", "ipa": "de.fɑ̃s", "en": "defence (in a game, a war, a trial)", "def": "Le fait de protéger ; les joueurs qui empêchent l'autre équipe de marquer.", "def_en": "Protecting; the players who stop the other team from scoring.", "note": "*Défense de fumer* = no smoking.", "forms": ["défenses"], "examples": [
+      {"fr": "La **défense** de Lyon est très solide.", "en": "Lyon's defence is very solid."},
+      {"fr": "L'avocate prépare la **défense** de son client.", "en": "The lawyer prepares her client's defence."},
+      {"fr": "**Défense** de fumer dans le stade.", "en": "No smoking in the stadium."}]},
+    {"id": "hors-jeu", "fr": "hors-jeu", "pos": "noun", "g": "m", "hAsp": true, "ipa": "ɔʁ.ʒø", "en": "offside", "def": "La faute d'un joueur qui est trop près du but de l'autre équipe quand on lui passe le ballon.", "def_en": "The fault of a player who is too close to the other team's goal when the ball is passed to him.", "note": "The h is aspirated: *le hors-jeu*. Also an adjective: *il est hors-jeu*.", "examples": [
+      {"fr": "Le but est refusé : **hors-jeu** !", "en": "The goal is disallowed: offside!"},
+      {"fr": "Même les joueurs ne comprennent pas toujours le **hors-jeu**.", "en": "Even the players don't always understand offside."},
+      {"fr": "Il était **hors-jeu** d'un mètre.", "en": "He was a metre offside."}]},
+    {"id": "corner", "fr": "corner", "pos": "noun", "g": "m", "ipa": "kɔʁ.nɛʁ", "en": "corner (kick)", "def": "Un coup de pied qu'on tire du coin du terrain.", "def_en": "A kick taken from the corner of the pitch.", "forms": ["corners"], "examples": [
+      {"fr": "**Corner** pour Madrid !", "en": "Corner to Madrid!"},
+      {"fr": "Sur le **corner**, le capitaine marque de la tête.", "en": "From the corner, the captain heads it in."},
+      {"fr": "Lyon a eu dix **corners** dans le match.", "en": "Lyon had ten corners in the match."}]},
+    {"id": "coup-franc", "fr": "coup franc", "pos": "noun", "g": "m", "ipa": "ku fʁɑ̃", "en": "free kick", "def": "Un coup de pied qu'on tire sans joueur devant soi, après une faute.", "def_en": "A kick taken with no opponent in the way, after a foul.", "forms": ["coups francs"], "examples": [
+      {"fr": "Le **coup franc** frappe le poteau.", "en": "The free kick hits the post."},
+      {"fr": "L'arbitre siffle un **coup franc** pour Lyon.", "en": "The referee gives Lyon a free kick."},
+      {"fr": "Il tire tous les **coups francs** de l'équipe.", "en": "He takes all the team's free kicks."}]},
+    {"id": "penalty", "fr": "penalty", "pos": "noun", "g": "m", "ipa": "pe.nal.ti", "en": "penalty (kick)", "def": "Un tir face au gardien, à onze mètres du but, après une faute près du but.", "def_en": "A shot facing the goalkeeper, eleven metres from goal, after a foul near the goal.", "forms": ["penaltys", "penalties"], "examples": [
+      {"fr": "**Penalty** ! Le joueur est tombé dans la surface.", "en": "Penalty! The player went down in the box."},
+      {"fr": "Le gardien arrête le **penalty**.", "en": "The goalkeeper saves the penalty."},
+      {"fr": "Tirer un **penalty**, c'est facile… à la télé.", "en": "Taking a penalty is easy… on TV."}]},
+    {"id": "carton-jaune", "fr": "carton jaune", "pos": "noun", "g": "m", "ipa": "kaʁ.tɔ̃ ʒon", "en": "yellow card", "def": "La carte que l'arbitre montre à un joueur, après une faute, pour lui dire de faire attention.", "def_en": "The card the referee shows a player to warn him after a foul.", "note": "*Un carton rouge* = a red card: the player has to leave the pitch.", "forms": ["cartons jaunes"], "examples": [
+      {"fr": "Le défenseur reçoit un **carton jaune**.", "en": "The defender gets a yellow card."},
+      {"fr": "Deux **cartons jaunes**, et c'est le carton rouge.", "en": "Two yellow cards, and it's a red card."},
+      {"fr": "Pour Hugo, chaque **carton jaune** est une injustice.", "en": "For Hugo, every yellow card is an injustice."}]},
+    {"id": "match-nul", "fr": "match nul", "pos": "noun", "g": "m", "ipa": "matʃ nyl", "en": "draw, tie", "def": "Un match où les deux équipes ont le même score à la fin.", "def_en": "A match where both teams have the same score at the end.", "forms": ["matchs nuls"], "examples": [
+      {"fr": "Un à un : c'est un **match nul**.", "en": "One all: it's a draw."},
+      {"fr": "Après un **match nul**, on joue les prolongations.", "en": "After a draw, they play extra time."},
+      {"fr": "Le dernier **match nul** date de l'an dernier.", "en": "The last draw was last year."}]},
+    {"id": "prolongation", "fr": "prolongation", "pos": "noun", "g": "f", "ipa": "pʁɔ.lɔ̃.ɡa.sjɔ̃", "en": "extension; (les prolongations) extra time", "def": "Le temps qu'on ajoute à la fin d'un match, quand le score est égal ; le fait de faire durer plus longtemps.", "def_en": "The time added at the end of a match when the scores are level; making something last longer.", "forms": ["prolongations"], "examples": [
+      {"fr": "Le match continue en **prolongations**.", "en": "The match goes to extra time."},
+      {"fr": "Les **prolongations** durent trente minutes.", "en": "Extra time lasts thirty minutes."},
+      {"fr": "Tom a demandé une **prolongation** de son titre de séjour.", "en": "Tom has applied for an extension of his residence permit."}]},
+    {"id": "tirs-au-but", "fr": "tirs au but", "pos": "noun", "g": "m", "pl": true, "art": "les", "ipa": "tiʁ o by", "en": "penalty shoot-out", "def": "La série de tirs qui décide du gagnant, quand le score est encore égal après les prolongations.", "def_en": "The series of shots that decides the winner when the score is still level after extra time.", "forms": ["tir au but"], "examples": [
+      {"fr": "Le match se termine aux **tirs au but**.", "en": "The match ends in a penalty shoot-out."},
+      {"fr": "Pendant les **tirs au but**, Hugo ferme les yeux.", "en": "During the shoot-out, Hugo closes his eyes."},
+      {"fr": "Lyon gagne aux **tirs au but**, cinq à quatre.", "en": "Lyon win the shoot-out five-four."}]},
+    {"id": "coupe", "fr": "coupe", "pos": "noun", "g": "f", "ipa": "kup", "en": "cup (trophy, competition); (champagne) glass; haircut", "def": "Un grand vase en métal qu'on donne au gagnant ; une compétition ; un verre large et peu profond.", "def_en": "A big metal vase given to the winner; a competition; a wide, shallow glass.", "note": "*La Coupe du monde* = the World Cup. *Une coupe de cheveux* = a haircut.", "forms": ["coupes"], "examples": [
+      {"fr": "Le capitaine lève la **coupe**.", "en": "The captain lifts the cup."},
+      {"fr": "La **Coupe** du monde a lieu tous les quatre ans.", "en": "The World Cup takes place every four years."},
+      {"fr": "Une **coupe** de champagne pour fêter ça ?", "en": "A glass of champagne to celebrate?"}]},
+    {"id": "championnat", "fr": "championnat", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.pjɔ.na", "en": "championship, league", "def": "Une compétition où toutes les équipes jouent entre elles pendant une saison.", "def_en": "A competition in which teams play each other over a whole season.", "forms": ["championnats"], "examples": [
+      {"fr": "Le **championnat** reprend en août.", "en": "The league starts again in August."},
+      {"fr": "Madrid a gagné le **championnat** cette année.", "en": "Madrid won the league this year."},
+      {"fr": "Carla a fait un **championnat** de danse à quinze ans.", "en": "Carla took part in a dance championship at fifteen."}]}
+  ],
+  "story": {
+    "title": "Le match",
+    "en": "Wednesday 7 July, Madrid: during his immersion week, Hugo goes to the stadium with Carla's father.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Depuis samedi, Hugo passe sa semaine d'immersion à Madrid, chez les parents de Carla. Le matin, il a [cours|cours] d'espagnol ; le soir, il parle espagnol… très mal.", "en": "Since Saturday, Hugo has been spending his immersion week in Madrid, at Carla's parents'. In the mornings he has Spanish classes; in the evenings he speaks Spanish… very badly."},
+      {"sp": "", "fr": "Le mercredi sept juillet, le père de Carla tient sa promesse : il emmène Hugo au stade, pour un match amical de l'été entre Madrid et Lyon. Hugo déteste le football, mais il a acheté un maillot de Lyon.", "en": "On Wednesday 7 July, Carla's father keeps his promise: he takes Hugo to the stadium, for a summer friendly between Madrid and Lyon. Hugo hates football, but he has bought a Lyon shirt."},
+      {"sp": "Carla", "fr": "Moi, je préfère la danse. Amusez-vous bien… et ne vous disputez pas !", "en": "I prefer dancing. Have fun… and don't argue!"},
+      {"sp": "", "fr": "Dans la tribune, soixante mille personnes en blanc… et Hugo en bleu. Le père de Carla parle un peu français depuis ses cours avec Léa, surtout les mots du football.", "en": "In the stand, sixty thousand people in white… and Hugo in blue. Carla's father has spoken some French since his lessons with Léa, especially football words."},
+      {"sp": "Le père de Carla", "fr": "Hugo ! Le coup d'envoi ! Regarde : l'arbitre, il siffle.", "en": "Hugo! Kick-off! Look: the referee, he blows the whistle."},
+      {"sp": "", "fr": "Après dix minutes, Lyon marque. Hugo saute de joie, seul au milieu des supporters de Madrid. Mais l'arbitre siffle : hors-jeu.", "en": "After ten minutes, Lyon score. Hugo jumps for joy, alone among the Madrid fans. But the referee blows his whistle: offside."},
+      {"sp": "Hugo", "fr": "Hors-jeu ? Qu'est-ce que c'est, le hors-jeu ?", "en": "Offside? What's offside?"},
+      {"sp": "", "fr": "Le père de Carla essaie de lui expliquer avec deux churros et une bouteille d'eau. Hugo ne comprend rien, mais il mange les churros.", "en": "Carla's father tries to explain it with two churros and a bottle of water. Hugo understands nothing, but he eats the churros."},
+      {"sp": "", "fr": "Madrid obtient un corner, puis un coup franc : le ballon touche le poteau. Un défenseur de Lyon reçoit un carton jaune, et l'entraîneur crie au bord du terrain.", "en": "Madrid get a corner, then a free kick: the ball hits the post. A Lyon defender gets a yellow card, and the manager shouts from the touchline."},
+      {"sp": "", "fr": "À la mi-temps, le score est de zéro à zéro. Les joueurs rentrent au vestiaire.", "en": "At half-time, the score is nil-nil. The players go back to the changing room."},
+      {"sp": "Le père de Carla", "fr": "Lyon, très bonne défense. Mais Madrid, meilleur. Tu vas voir.", "en": "Lyon, very good defence. But Madrid, better. You'll see."},
+      {"sp": "", "fr": "En deuxième mi-temps, Madrid marque sur un penalty. Puis, à la dernière minute, le capitaine de Lyon marque à son tour : un à un, match nul !", "en": "In the second half, Madrid score from a penalty. Then, in the last minute, Lyon's captain equalises: one all, a draw!"},
+      {"sp": "", "fr": "Hugo crie si fort que toute la tribune se retourne.", "en": "Hugo shouts so loudly that the whole stand turns round."},
+      {"sp": "", "fr": "C'est un match pour une coupe : il faut un gagnant. Après les prolongations, toujours un à un. Il reste les tirs au but.", "en": "It's a match for a cup: there has to be a winner. After extra time, still one all. That leaves the penalty shoot-out."},
+      {"sp": "", "fr": "Pendant les tirs au but, Hugo ferme les yeux. Le père de Carla lui prend la main.", "en": "During the shoot-out, Hugo closes his eyes. Carla's father holds his hand."},
+      {"sp": "", "fr": "Au dernier tir, le gardien de Lyon arrête le ballon… avec le visage. Lyon gagne !", "en": "On the last kick, the Lyon goalkeeper saves the ball… with his face. Lyon win!"},
+      {"sp": "Hugo", "fr": "Il a fait comme moi au karaoké : avec la tête, pas avec le talent !", "en": "He did what I do at karaoke: with his head, not with talent!"},
+      {"sp": "", "fr": "Le capitaine de Lyon lève la coupe. Le père de Carla applaudit quand même.", "en": "The Lyon captain lifts the cup. Carla's father claps all the same."},
+      {"sp": "Le père de Carla", "fr": "Bravo, Lyon. Mais en août, le championnat commence. Madrid va gagner. Et toi, Hugo, tu reviens !", "en": "Well done, Lyon. But in August, the league starts. Madrid will win. And you, Hugo, you're coming back!"},
+      {"sp": "", "fr": "Le soir, Hugo envoie un message à Carla : « J'adore le football. Enfin, j'adore les churros. »", "en": "That evening, Hugo sends Carla a message: 'I love football. Well, I love churros.'"}
+    ]
+  }
+}

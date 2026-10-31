@@ -1,0 +1,106 @@
+{
+  "id": "u44-passif",
+  "type": "grammar",
+  "unit": 44,
+  "title": "Ça se fête !",
+  "en": "Passive reflexive verbs (ça se vend bien)",
+  "intro": "French often uses a reflexive verb with a passive meaning, when it doesn't matter who does the action: *le pain **se vend** bien* (bread sells well), *ça **se mange** froid* (it's eaten cold), *ce mot **s'écrit** avec un accent* (this word is written with an accent). It's the usual way to state rules and habits: *ça ne **se fait** pas* (that's not done). In the passé composé, it takes *être* and agrees: *les croissants **se sont vendus** en une heure*. And **se faire** + infinitive is another kind of passive: *Enzo **s'est fait** remarquer par le jury*.",
+  "cases": [
+    {"id": "ps-sens", "label": "se + verb = a passive with no agent", "rule": "With a thing as the subject, *se* + verb has a passive meaning: *Le pain se vend bien* = bread sells well, is sold. Nobody is named: it's a general fact. *Ça se voit* = it shows."},
+    {"id": "ps-regle", "label": "rules and habits: ça ne se fait pas", "rule": "It's the usual way to state rules and customs: *Ça ne se fait pas* (that's not done), *Ça se dit* (people say that), *Le champagne se boit frais*, *Une baguette se mange le jour même*."},
+    {"id": "ps-temps", "label": "in every tense, with être", "rule": "It works in every tense. In the passé composé it takes *être*, and the participle agrees with the subject: *Les croissants se sont vendus en une heure. La nouvelle s'est vite sue.*"},
+    {"id": "ps-se-faire", "label": "se faire + infinitive", "rule": "*Se faire* + infinitive is another passive, often for something that happens to you: *Il s'est fait remarquer* (he got noticed), *Elle s'est fait voler son vélo* (she had her bike stolen). Before an infinitive, *fait* never agrees."},
+    {"id": "ps-on", "label": "on, être + participle, or se?", "rule": "Three ways not to name who acts: *On fête le CAP* (on = people, we), *Les résultats ont été publiés à dix heures* (the passive with *être*, for one event), *Le pain se vend ici* (a general fact). The reflexive form is the most natural for what's usual."}
+  ],
+  "sections": [
+    {"title": "1. se + verb: a passive meaning", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le pain se vend bien.", "Bread sells well."],
+      ["Ce mot s'écrit avec un accent.", "This word is written with an accent."],
+      ["Les résultats se consultent en ligne.", "The results can be checked online."],
+      ["Ça se voit !", "It shows!"]]},
+     "examples": [
+      {"fr": "Ses baguettes {se vendent comme des petits pains|ps-sens}.", "en": "His baguettes are selling like hot cakes."},
+      {"fr": "Le métier {ne s'apprend pas dans les livres|ps-sens}.", "en": "The trade isn't learnt from books."}],
+     "tip": "Se vendre comme des petits pains = to sell like hot cakes (literally, like little bread rolls)."},
+    {"title": "2. Rules and habits", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ça ne se fait pas !", "That's not done!"],
+      ["Ça se dit, mais ça ne s'écrit pas.", "People say it, but they don't write it."],
+      ["Le champagne se boit frais.", "Champagne is drunk chilled."],
+      ["Le fromage se mange avant le dessert.", "Cheese is eaten before dessert."]]},
+     "examples": [
+      {"fr": "{Ça ne se fait pas|ps-regle}, de vendre les croissants d'un ami !", "en": "You don't sell a friend's croissants!"},
+      {"fr": "{Une baguette se mange le jour même|ps-regle}, monsieur.", "en": "A baguette should be eaten the same day, sir."}],
+     "tip": "Ça se fait is common in everyday speech: Ça se fait, en France ? = Is that done in France?"},
+    {"title": "3. In every tense", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Les croissants se sont vendus en une heure.", "The croissants sold out in an hour."],
+      ["La nouvelle s'est vite sue.", "The news spread fast."],
+      ["Le résultat se saura demain.", "The result will be known tomorrow."],
+      ["Ça se voyait, qu'il était content.", "You could tell he was happy."]]},
+     "examples": [
+      {"fr": "Avant midi, {tous les croissants se sont vendus|ps-temps}.", "en": "Before noon, all the croissants had sold."},
+      {"fr": "Ce matin-là, {la nouvelle s'est vite sue|ps-temps} dans le quartier.", "en": "That morning, the news spread fast around the neighbourhood."}],
+     "tip": "The participle agrees with the subject, as with all reflexive verbs: les baguettes se sont vendues."},
+    {"title": "4. se faire + infinitive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il s'est fait remarquer.", "He got noticed."],
+      ["Elle s'est fait voler son vélo.", "She had her bike stolen."],
+      ["Je me suis fait couper les cheveux.", "I had my hair cut."]]},
+     "examples": [
+      {"fr": "{Je me suis fait remarquer|ps-se-faire} par le jury : il a repris trois fois de ma brioche.", "en": "I got noticed by the panel: they had seconds of my brioche three times."},
+      {"fr": "L'année dernière, {tu t'es fait gronder|ps-se-faire} tous les jours !", "en": "Last year, you got told off every day!"}],
+     "tip": "Fait doesn't agree before an infinitive: elle s'est fait voler, never elle s'est faite voler."},
+    {"title": "5. on, être, or se?", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["On fête le CAP d'Enzo.", "We're celebrating Enzo's CAP."],
+      ["Le gâteau a été mangé en cinq minutes.", "The cake was eaten in five minutes."],
+      ["Le pain se vend ici.", "Bread is sold here."]]},
+     "examples": [
+      {"fr": "{Les résultats ont été publiés|ps-on} à dix heures.", "en": "The results were published at ten."},
+      {"fr": "Le soir, {on fête le CAP d'Enzo|ps-on} avec du champagne.", "en": "In the evening, they celebrate Enzo's CAP with champagne."}],
+     "tip": "Use se for what usually happens, être + participle for a single event, and on in conversation."}
+  ],
+  "mistakes": [
+    {"wrong": "Le pain vend bien.", "right": "Le pain se vend bien.", "why": "With a thing as the subject, the passive meaning needs se."},
+    {"wrong": "Les croissants se sont vendu en une heure.", "right": "Les croissants se sont vendus en une heure.", "why": "In the passé composé, the participle agrees with the subject."},
+    {"wrong": "Elle s'est faite voler son vélo.", "right": "Elle s'est fait voler son vélo.", "why": "Before an infinitive, fait never agrees."},
+    {"wrong": "Ça ne fait pas, de manger avant les clients !", "right": "Ça ne se fait pas, de manger avant les clients !", "why": "That's not done needs se: ça ne se fait pas."},
+    {"wrong": "Ce mot écrit avec un accent.", "right": "Ce mot s'écrit avec un accent.", "why": "With a thing as the subject, a passive meaning needs se."}
+  ],
+  "story": {
+    "title": "Ça se fête !",
+    "en": "Tuesday 6 July: Enzo gets his CAP results.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi six juillet, à dix heures, les résultats du CAP sont publiés. {Les résultats se consultent en ligne|ps-sens}, mais Enzo n'ose pas regarder.", "en": "On Tuesday 6 July, at ten o'clock, the CAP results come out. You can check them online, but Enzo doesn't dare look."},
+      {"sp": "Enzo", "fr": "Vas-y, l'Anglais. Regarde, toi.", "en": "Go on, l'Anglais. You look."},
+      {"sp": "Tom", "fr": "Alors… Enzo… admis ! Seize sur vingt à l'épreuve pratique : la meilleure note de ta classe !", "en": "So… Enzo… you've passed! Sixteen out of twenty in the practical: the best mark in your class!"},
+      {"sp": "", "fr": "Enzo crie si fort que les clients sursautent. Madame Fournier sort du fournil, les mains pleines de farine.", "en": "Enzo shouts so loudly that the customers jump. Madame Fournier comes out of the bakehouse, her hands covered in flour."},
+      {"sp": "Madame Fournier", "fr": "{Ça se fête|ps-regle} ! Mais d'abord, on travaille : {le pain ne se fait pas tout seul|ps-sens}.", "en": "That calls for a celebration! But first, we work: bread doesn't make itself."},
+      {"sp": "", "fr": "Ce matin-là, {la nouvelle s'est vite sue|ps-temps} dans le quartier. Les clients font la queue pour féliciter Enzo, et {ses baguettes se vendent comme des petits pains|ps-sens}.", "en": "That morning, the news spread fast around the neighbourhood. Customers queue to congratulate Enzo, and his baguettes sell like hot cakes."},
+      {"sp": "Un client", "fr": "Et votre pain de campagne, il se garde combien de temps ?", "en": "And your country bread, how long does it keep?"},
+      {"sp": "Madame Fournier", "fr": "{Le pain de campagne se garde|ps-regle} une semaine, monsieur. Mais {une baguette se mange le jour même|ps-regle}.", "en": "Country bread keeps for a week, sir. But a baguette should be eaten the same day."},
+      {"sp": "", "fr": "{Les baguettes se commandent par téléphone|ps-sens} : ce matin, il y a déjà cinquante commandes.", "en": "Baguettes can be ordered by phone: this morning, there are already fifty orders."},
+      {"sp": "", "fr": "Avant midi, {tous les croissants se sont vendus|ps-temps}, même ceux qu'Enzo gardait pour Tom.", "en": "Before noon, all the croissants have sold, even the ones Enzo was keeping for Tom."},
+      {"sp": "Tom", "fr": "{Ça ne se fait pas|ps-regle}, de vendre les croissants d'un ami !", "en": "You don't sell a friend's croissants!"},
+      {"sp": "", "fr": "À midi, Hugo appelle de Madrid, en vidéo.", "en": "At noon, Hugo calls from Madrid, on video."},
+      {"sp": "Hugo", "fr": "Félicitations, Enzo ! Ici, en Espagne, {ça se fête|ps-regle} avec des churros. Je t'en rapporte samedi !", "en": "Congratulations, Enzo! Here in Spain, that's celebrated with churros. I'll bring you some back on Saturday!"},
+      {"sp": "Enzo", "fr": "{Je me suis fait remarquer|ps-se-faire} par le jury, l'Anglais : il a repris trois fois de ma brioche.", "en": "I got noticed by the panel, l'Anglais: they had seconds of my brioche three times."},
+      {"sp": "Madame Fournier", "fr": "Et l'année dernière, {tu t'es fait gronder|ps-se-faire} tous les jours !", "en": "And last year, you got told off every day!"},
+      {"sp": "", "fr": "Le soir, la boulangerie ferme plus tôt. {On fête le CAP d'Enzo|ps-on} avec du champagne, et les parents d'Enzo viennent de Villeurbanne.", "en": "In the evening, the bakery closes early. They celebrate Enzo's CAP with champagne, and Enzo's parents come over from Villeurbanne."},
+      {"sp": "Madame Fournier", "fr": "{Le champagne se boit frais|ps-regle}, et les discours se font courts. Enzo, à partir de septembre, tu n'es plus apprenti : je t'embauche, avec un vrai contrat.", "en": "Champagne is drunk chilled, and speeches are kept short. Enzo, from September, you're no longer an apprentice: I'm hiring you, with a proper contract."},
+      {"sp": "Enzo", "fr": "Mamie… {ça se voit|ps-sens}, tu as les larmes aux yeux !", "en": "Grandma… it shows, you've got tears in your eyes!"},
+      {"sp": "Madame Fournier", "fr": "C'est la farine, mon grand. {Le métier ne s'apprend pas dans les livres|ps-sens} : il s'apprend les mains dans la pâte.", "en": "It's the flour, my boy. The trade isn't learnt from books: it's learnt with your hands in the dough."},
+      {"sp": "", "fr": "{Les résultats ont été publiés|ps-on} à dix heures ; à dix heures du soir, Enzo dort déjà. Demain, il se lève à quatre heures.", "en": "The results came out at ten in the morning; by ten at night, Enzo is already asleep. Tomorrow he gets up at four."}
+    ]
+  },
+  "quiz": [
+    {"case": "ps-sens", "type": "mc", "q": "Ses baguettes ___ comme des petits pains.", "en": "His baguettes sell like hot cakes.", "options": ["se vendent", "vendent", "se vend"], "answer": "se vendent"},
+    {"case": "ps-sens", "type": "mc", "q": "Ce mot ___ avec un accent.", "en": "This word is written with an accent.", "options": ["s'écrit", "écrit", "est écrivant"], "answer": "s'écrit"},
+    {"case": "ps-regle", "type": "mc", "q": "Ça ne ___ pas !", "en": "That's not done!", "options": ["se fait", "fait", "se faire"], "answer": "se fait"},
+    {"case": "ps-regle", "type": "mc", "lang": "en", "q": "« Le champagne se boit frais » means…", "options": ["Champagne is drunk chilled.", "Champagne drinks itself.", "Drink some fresh champagne!"], "answer": "Champagne is drunk chilled.", "say": "Le champagne se boit frais."},
+    {"case": "ps-temps", "type": "mc", "q": "Avant midi, tous les croissants se sont ___.", "en": "Before noon, all the croissants had sold.", "options": ["vendus", "vendu", "vendues"], "answer": "vendus"},
+    {"case": "ps-temps", "type": "mc", "q": "Ce matin-là, la nouvelle ___ vite sue.", "en": "That morning, the news spread fast.", "options": ["s'est", "a", "se"], "answer": "s'est"},
+    {"case": "ps-se-faire", "type": "mc", "q": "Elle s'est ___ voler son vélo.", "en": "She had her bike stolen.", "options": ["fait", "faite", "faits"], "answer": "fait"},
+    {"case": "ps-se-faire", "type": "mc", "q": "Je ___ remarquer par le jury.", "en": "I got noticed by the panel.", "options": ["me suis fait", "ai fait", "me fais"], "answer": "me suis fait"},
+    {"case": "ps-on", "type": "mc", "q": "Les résultats ___ publiés à dix heures.", "en": "The results were published at ten.", "options": ["ont été", "se sont", "ont"], "answer": "ont été"},
+    {"case": "ps-on", "type": "mc", "q": "Ici, le pain ___ tous les jours.", "en": "Here, bread is sold every day (a general fact).", "options": ["se vend", "vend", "est vendant"], "answer": "se vend"}
+  ]
+}
