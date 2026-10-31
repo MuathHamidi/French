@@ -22,8 +22,8 @@ VOWEL = "aeiouhéèêàâîïôûœ"
 
 
 def soft(stem, ending):
-    """mange + ons -> mangeons, commen(c) + ons -> commençons."""
-    if ending[:1] in ("a", "o"):
+    """mange + ons -> mangeons, commen(c) + ons -> commençons, commen(c) + âmes -> commençâmes."""
+    if ending[:1] in ("a", "â", "o"):
         if stem.endswith("g"):
             return stem + "e" + ending
         if stem.endswith("c"):
