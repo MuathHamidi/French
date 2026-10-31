@@ -1,0 +1,106 @@
+{
+  "id": "u47-inf-passe",
+  "type": "grammar",
+  "unit": 47,
+  "title": "Après avoir soufflé les bougies",
+  "en": "The past infinitive (après avoir mangé)",
+  "intro": "The past infinitive is **avoir** or **être** + past participle: *avoir mangé, être parti*. It shows that one action came before another, with the same subject: ***Après avoir soufflé** les bougies, Louise ouvre ses cadeaux.* With *être*, the participle agrees: *après être arrivée*. It also follows **sans** (*sans avoir dit au revoir*), **pour** for a reason (*une amende **pour avoir** brûlé un feu rouge*), **merci de** (*merci **d'avoir** gardé mes lettres*), and verbs like *se souvenir de, regretter de, être content de*.",
+  "cases": [
+    {"id": "ip-apres", "label": "après avoir / après être + participle", "rule": "*Après* is followed by the past infinitive, not by a plain infinitive: *Après avoir mangé, on danse. Après avoir pris le train, ils arrivent.* The subject is the same in both parts of the sentence."},
+    {"id": "ip-accord", "label": "être and reflexive verbs: the participle agrees", "rule": "With *être*, and with reflexive verbs, the participle agrees with the subject: *après être restée* (a woman), *après être arrivés* (several people), *après s'être assise*. The pronoun follows the person: *après m'être levé, après nous être levés*."},
+    {"id": "ip-sans", "label": "sans avoir + participle: without having…", "rule": "*Sans avoir* + participle stresses that something didn't happen first: *Il est arrivé sans avoir rien apporté. Tu as mangé le gâteau sans avoir attendu les autres ?*"},
+    {"id": "ip-pour", "label": "pour avoir, merci de: the reason", "rule": "*Pour avoir* + participle gives the reason for a reward or a blame: *Il a eu une amende pour avoir brûlé un feu rouge.* To thank someone for something done: *Merci de m'avoir invitée. Merci d'avoir gardé mes lettres.*"},
+    {"id": "ip-verbes", "label": "verbs + de + past infinitive", "rule": "Many verbs and expressions take *de* + past infinitive for a finished action: *Je suis contente d'avoir fêté mon anniversaire avec vous. Je ne me souviens pas d'avoir mangé le gâteau. Je regrette de l'avoir oublié.*"}
+  ],
+  "sections": [
+    {"title": "1. après avoir, après être", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Après avoir mangé, on danse.", "After eating, we dance."],
+      ["Après avoir soufflé les bougies, elle ouvre ses cadeaux.", "After blowing out the candles, she opens her presents."],
+      ["Après être arrivés, ils se reposent.", "After arriving, they have a rest."]]},
+     "examples": [
+      {"fr": "{Après avoir pris le train de sept heures|ip-apres}, Léa et Hugo arrivent les premiers.", "en": "After taking the seven o'clock train, Léa and Hugo arrive first."},
+      {"fr": "{Après avoir soufflé les bougies|ip-apres}, Louise ouvre ses cadeaux.", "en": "After blowing out the candles, Louise opens her presents."}],
+     "tip": "Never après manger in careful French: après avoir mangé."},
+    {"title": "2. être and reflexive verbs: agreement", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["après être [arrivée|arriver]", "after arriving (a woman)"],
+      ["après être partis", "after leaving (several people)"],
+      ["après s'être levée", "after getting up (a woman)"],
+      ["après nous être assis", "after sitting down (we)"]]},
+     "examples": [
+      {"fr": "{Après être restée une semaine chez Pierre|ip-accord}, Lou ne parle que de sangliers.", "en": "After a week at Pierre's, Lou talks of nothing but wild boars."},
+      {"fr": "Le soir, {après s'être assise dans son fauteuil|ip-accord}, Louise regarde sa famille.", "en": "In the evening, after sitting down in her armchair, Louise looks at her family."}],
+     "tip": "The same verbs take être as in the passé composé: arriver, partir, rester, and all reflexive verbs."},
+    {"title": "3. sans avoir…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il est parti sans avoir dit au revoir.", "He left without saying goodbye."],
+      ["Elle a gagné sans avoir triché.", "She won without cheating."],
+      ["Il est arrivé sans avoir rien apporté.", "He arrived without bringing anything."]]},
+     "examples": [
+      {"fr": "Il est arrivé {sans avoir rien apporté|ip-sans}.", "en": "He arrived without bringing anything."},
+      {"fr": "Tu as mangé le gâteau {sans avoir attendu les autres|ip-sans} ?", "en": "You ate the cake without waiting for the others?"}],
+     "tip": "With rien and jamais, they go between avoir and the participle: sans avoir rien dit."},
+    {"title": "4. pour avoir…, merci de…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il a eu une amende pour avoir brûlé un feu rouge.", "He got a fine for running a red light."],
+      ["Merci de m'avoir invitée.", "Thank you for inviting me."],
+      ["Merci d'avoir gardé mes lettres.", "Thank you for keeping my letters."]]},
+     "examples": [
+      {"fr": "{Merci d'avoir gardé mes vieilles lettres|ip-pour}, même les plus mauvaises.", "en": "Thank you for keeping my old letters, even the worst ones."},
+      {"fr": "{Merci de nous avoir invités|ip-pour}, ma chérie… chez nous.", "en": "Thank you for inviting us, darling… to our own home."}],
+     "tip": "Merci de m'avoir invitée: the participle agrees with me when it's a woman speaking."},
+    {"title": "5. verbs + de + past infinitive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je suis contente d'avoir fêté mon anniversaire avec vous.", "I'm glad I celebrated my birthday with you."],
+      ["Il regrette d'avoir mangé le lapin.", "He's sorry he ate the rabbit."],
+      ["Je ne me souviens pas d'avoir dit ça.", "I don't remember saying that."]]},
+     "examples": [
+      {"fr": "{Je regrette de l'avoir oublié|ip-verbes}.", "en": "I'm sorry I forgot it."},
+      {"fr": "{Je ne me souviens pas d'avoir mangé le gâteau|ip-verbes}.", "en": "I don't remember eating the cake."}],
+     "tip": "English often uses -ing here (I remember saying); French uses the past infinitive."}
+  ],
+  "mistakes": [
+    {"wrong": "Après manger, on danse.", "right": "Après avoir mangé, on danse.", "why": "Après needs the past infinitive: après avoir mangé."},
+    {"wrong": "Après avoir arrivé, ils se sont reposés.", "right": "Après être arrivés, ils se sont reposés.", "why": "Arriver takes être, in the past infinitive too."},
+    {"wrong": "Après être arrivé, Louise s'est assise.", "right": "Après être arrivée, Louise s'est assise.", "why": "With être, the participle agrees with the subject."},
+    {"wrong": "Après s'avoir levée, elle a ouvert la fenêtre.", "right": "Après s'être levée, elle a ouvert la fenêtre.", "why": "Reflexive verbs take être: s'être levée."},
+    {"wrong": "Merci pour m'inviter.", "right": "Merci de m'avoir invitée.", "why": "To thank someone for something done, use merci de + past infinitive."}
+  ],
+  "story": {
+    "title": "Après avoir soufflé les bougies",
+    "en": "Saturday 30 October: Louise's birthday in Marseille.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi trente octobre, toute la famille fête l'anniversaire de Louise à Marseille.", "en": "On Saturday 30 October, the whole family celebrates Louise's birthday in Marseille."},
+      {"sp": "", "fr": "{Après avoir pris le train de sept heures|ip-apres}, Léa et Hugo arrivent les premiers, avec un bouquet de fleurs.", "en": "After taking the seven o'clock train, Léa and Hugo arrive first, with a bunch of flowers."},
+      {"sp": "", "fr": "Paul, Anne et Lou arrivent de la ferme. {Après être restée une semaine chez Pierre|ip-accord}, Lou ne parle que de sangliers et de hérissons.", "en": "Paul, Anne and Lou arrive from the farm. After a week at Pierre's, Lou talks of nothing but wild boars and hedgehogs."},
+      {"sp": "Lou", "fr": "Mamie ! J'ai vu un hérisson ! Je l'ai appelé Minou !", "en": "Granny! I saw a hedgehog! I called it Minou!"},
+      {"sp": "Louise", "fr": "Bien sûr, ma chérie. Comme tous les animaux.", "en": "Of course, darling. Like all the animals."},
+      {"sp": "", "fr": "À table, Jacques se lève pour faire un discours.", "en": "At the table, Jacques stands up to make a speech."},
+      {"sp": "Jacques", "fr": "Ma Louise… {Après avoir travaillé trente-cinq ans dans une banque|ip-apres}, {après avoir lu trois cents livres|ip-apres}, {après avoir gagné mille parties de Monopoly|ip-apres}…", "en": "My Louise… After working thirty-five years in a bank, after reading three hundred books, after winning a thousand games of Monopoly…"},
+      {"sp": "Hugo", "fr": "… et {après m'avoir ruiné|ip-apres} à chaque partie !", "en": "… and after bankrupting me in every game!"},
+      {"sp": "Jacques", "fr": "… tu es toujours la plus belle. {Merci d'avoir gardé mes vieilles lettres|ip-pour}, même les plus mauvaises.", "en": "… you're still the most beautiful. Thank you for keeping my old letters, even the worst ones."},
+      {"sp": "Louise", "fr": "Surtout les plus mauvaises !", "en": "Especially the worst ones!"},
+      {"sp": "", "fr": "Puis Karim, venu avec Chloé et les jumeaux, apporte un gâteau au chocolat.", "en": "Then Karim, who has come with Chloé and the twins, brings in a chocolate cake."},
+      {"sp": "", "fr": "{Après avoir soufflé les bougies|ip-apres}, Louise ouvre ses cadeaux : un livre de Léa, des fleurs de Jacques… arrosées, cette fois.", "en": "After blowing out the candles, Louise opens her presents: a book from Léa, flowers from Jacques… watered, this time."},
+      {"sp": "", "fr": "Hugo, lui, a oublié son cadeau à Lyon. Il est arrivé {sans avoir rien apporté|ip-sans}.", "en": "Hugo has left his present in Lyon. He arrived without bringing anything."},
+      {"sp": "Hugo", "fr": "Je suis désolé, Mamie. {Je regrette de l'avoir oublié|ip-verbes}.", "en": "I'm sorry, Granny. I'm sorry I forgot it."},
+      {"sp": "Louise", "fr": "Ton cadeau, c'est d'être là. Et {d'avoir protégé mon téléphone|ip-verbes}, en février.", "en": "Your present is being here. And having protected my phone, in February."},
+      {"sp": "", "fr": "Pendant le dessert, Lou disparaît. On la retrouve dans la cuisine, avec du chocolat partout sur la bouche.", "en": "During dessert, Lou disappears. They find her in the kitchen, with chocolate all round her mouth."},
+      {"sp": "Anne", "fr": "Lou ! Tu as mangé le gâteau {sans avoir attendu les autres|ip-sans} ?", "en": "Lou! You ate the cake without waiting for the others?"},
+      {"sp": "Lou", "fr": "{Je ne me souviens pas d'avoir mangé le gâteau|ip-verbes}.", "en": "I don't remember eating the cake."},
+      {"sp": "Paul", "fr": "Avec du chocolat sur la bouche ? C'est de famille…", "en": "With chocolate round your mouth? It runs in the family…"},
+      {"sp": "", "fr": "Le soir, {après s'être assise dans son fauteuil|ip-accord}, Louise regarde sa grande famille.", "en": "In the evening, after sitting down in her armchair, Louise looks at her big family."},
+      {"sp": "Louise", "fr": "{Je suis contente d'avoir fêté mon anniversaire avec vous tous|ip-verbes}. L'année prochaine, on recommence !", "en": "I'm so glad I celebrated my birthday with all of you. Next year, we'll do it again!"},
+      {"sp": "Jacques", "fr": "{Merci de nous avoir invités|ip-pour}, ma chérie… chez nous.", "en": "Thank you for inviting us, darling… to our own home."}
+    ]
+  },
+  "quiz": [
+    {"case": "ip-apres", "type": "mc", "q": "Après ___ les bougies, Louise ouvre ses cadeaux.", "en": "After blowing out the candles, Louise opens her presents.", "options": ["avoir soufflé", "souffler", "soufflé"], "answer": "avoir soufflé"},
+    {"case": "ip-apres", "type": "mc", "q": "___ pris le train, ils arrivent à Marseille.", "en": "After taking the train, they arrive in Marseille.", "options": ["Après avoir", "Après", "Après être"], "answer": "Après avoir"},
+    {"case": "ip-accord", "type": "mc", "q": "Après être ___ une semaine chez Pierre, Lou ne parle que de sangliers.", "en": "After staying a week at Pierre's, Lou talks of nothing but wild boars.", "options": ["restée", "resté", "restés"], "answer": "restée"},
+    {"case": "ip-accord", "type": "mc", "q": "Après s'___ assise, Louise regarde sa famille.", "en": "After sitting down, Louise looks at her family.", "options": ["être", "avoir", "est"], "answer": "être"},
+    {"case": "ip-sans", "type": "mc", "q": "Hugo est arrivé sans ___ apporté.", "en": "Hugo arrived without bringing anything.", "options": ["avoir rien", "rien avoir", "être rien"], "answer": "avoir rien"},
+    {"case": "ip-sans", "type": "mc", "q": "Tu as mangé le gâteau sans ___ les autres ?", "en": "You ate the cake without waiting for the others?", "options": ["avoir attendu", "attendu", "être attendu"], "answer": "avoir attendu"},
+    {"case": "ip-pour", "type": "mc", "q": "Merci ___ gardé mes lettres.", "en": "Thank you for keeping my letters.", "options": ["d'avoir", "pour", "de"], "answer": "d'avoir"},
+    {"case": "ip-pour", "type": "mc", "q": "Il a eu une amende pour ___ brûlé un feu rouge.", "en": "He got a fine for running a red light.", "options": ["avoir", "être", "a"], "answer": "avoir"},
+    {"case": "ip-verbes", "type": "mc", "q": "Je ne me souviens pas d'___ mangé le gâteau.", "en": "I don't remember eating the cake.", "options": ["avoir", "être", "ai"], "answer": "avoir"},
+    {"case": "ip-verbes", "type": "mc", "q": "Je suis contente d'___ fêté mon anniversaire avec vous.", "en": "I'm glad I celebrated my birthday with you.", "options": ["avoir", "être", "avoir été"], "answer": "avoir"}
+  ]
+}

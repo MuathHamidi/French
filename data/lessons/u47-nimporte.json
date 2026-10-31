@@ -1,0 +1,107 @@
+{
+  "id": "u47-nimporte",
+  "type": "grammar",
+  "unit": 47,
+  "title": "N'importe où, mais pas n'importe comment",
+  "en": "n'importe qui, n'importe quoi, n'importe où…",
+  "intro": "**N'importe** + a question word means *any… at all*, with no preference: **n'importe qui** (anyone), **n'importe quoi** (anything), **n'importe où** (anywhere), **n'importe quand** (any time), **n'importe comment** (any old how). Before a noun, it's **n'importe quel** (*n'importe quel carton*), and on its own **n'importe lequel** (*prends-en n'importe lequel*). Careful: *dire n'importe quoi* means *to talk nonsense*, and *ce n'est pas n'importe qui* means *he's somebody special*.",
+  "cases": [
+    {"id": "ni-qui", "label": "n'importe qui: anyone at all", "rule": "*N'importe qui* = any person, whoever it is: *N'importe qui pourrait tomber.* After a negative it means *not just anybody*: *Mon petit-fils, ce n'est pas n'importe qui !*"},
+    {"id": "ni-quoi", "label": "n'importe quoi: anything; nonsense", "rule": "*N'importe quoi* = anything at all: *Apportez n'importe quoi, sauf du pain.* *Dire n'importe quoi* = to talk nonsense, and *c'est n'importe quoi !* = that's ridiculous."},
+    {"id": "ni-ou-quand", "label": "n'importe où, n'importe quand", "rule": "*N'importe où* = anywhere: *Pose ça n'importe où.* *N'importe quand* = any time: *Passez n'importe quand.*"},
+    {"id": "ni-comment", "label": "n'importe comment: carelessly", "rule": "*N'importe comment* = in any way at all, without care. It's often a criticism: *Ne range pas n'importe comment !*"},
+    {"id": "ni-quel", "label": "n'importe quel + noun, n'importe lequel", "rule": "Before a noun, *n'importe quel* agrees with it: *n'importe quel carton, n'importe quelle viennoiserie, n'importe quels livres.* Without a noun: *n'importe lequel, laquelle, lesquels, lesquelles*: *Prends-en n'importe laquelle.*"}
+  ],
+  "sections": [
+    {"title": "1. n'importe qui", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["N'importe qui peut porter un carton.", "Anyone can carry a box."],
+      ["Ne parle pas à n'importe qui.", "Don't talk to just anyone."],
+      ["Ce n'est pas n'importe qui !", "He's not just anybody!"]]},
+     "examples": [
+      {"fr": "Pas là ! {N'importe qui pourrait tomber|ni-qui} !", "en": "Not there! Anyone could fall!"},
+      {"fr": "Mon petit-fils, {ce n'est pas n'importe qui|ni-qui} : c'est le meilleur boulanger de Lyon.", "en": "My grandson isn't just anybody: he's the best baker in Lyon."}],
+     "tip": "Pas n'importe qui means someone who matters."},
+    {"title": "2. n'importe quoi", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Mange n'importe quoi, mais mange !", "Eat anything, but eat!"],
+      ["Tu dis n'importe quoi.", "You're talking nonsense."],
+      ["C'est n'importe quoi !", "That's ridiculous!"]]},
+     "examples": [
+      {"fr": "{Tu dis n'importe quoi|ni-quoi} : par terre, tu vas marcher dessus.", "en": "You're talking nonsense: on the floor, you'll tread on it."},
+      {"fr": "Et apportez {n'importe quoi|ni-quoi}, sauf du pain !", "en": "And bring anything, except bread!"}],
+     "tip": "The context tells you which: anything, or nonsense."},
+    {"title": "3. n'importe où, n'importe quand", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Pose ça n'importe où.", "Put that down anywhere."],
+      ["Je peux dormir n'importe où.", "I can sleep anywhere."],
+      ["Passez n'importe quand.", "Drop by any time."]]},
+     "examples": [
+      {"fr": "Hugo pose le carton {n'importe où|ni-ou-quand}, au milieu de l'escalier.", "en": "Hugo puts the box down anywhere, in the middle of the stairs."},
+      {"fr": "Ici, je peux dormir {n'importe quand|ni-ou-quand}.", "en": "Here I can sleep any time."}],
+     "tip": "N'importe où often sounds a bit careless; n'importe quand is a friendly invitation."},
+    {"title": "4. n'importe comment", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il range n'importe comment.", "He tidies up any old how."],
+      ["Ne conduis pas n'importe comment !", "Don't drive carelessly!"],
+      ["Le travail est fait n'importe comment.", "The work has been done sloppily."]]},
+     "examples": [
+      {"fr": "Enzo pousse les sacs {n'importe comment|ni-comment} contre le mur.", "en": "Enzo shoves the sacks any old how against the wall."},
+      {"fr": "{Ne range pas n'importe comment|ni-comment} !", "en": "Don't just put things away any old how!"}],
+     "tip": "N'importe comment is almost always a criticism."},
+    {"title": "5. n'importe quel, n'importe lequel", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["n'importe quel carton", "any box"],
+      ["n'importe quelle chaise", "any chair"],
+      ["Prends-en n'importe lequel.", "Take any one of them."],
+      ["n'importe lesquelles", "any of them (feminine plural)"]]},
+     "examples": [
+      {"fr": "Prenez {n'importe quel carton|ni-quel}, ils sont tous légers !", "en": "Take any box, they're all light!"},
+      {"fr": "{Prends-en n'importe laquelle|ni-quel}.", "en": "Take any one you like."}],
+     "tip": "Quel agrees with the noun that follows; lequel with the noun it replaces."}
+  ],
+  "mistakes": [
+    {"wrong": "Prends n'importe lequel carton.", "right": "Prends n'importe quel carton.", "why": "Before a noun, use n'importe quel."},
+    {"wrong": "Prends n'importe quelle carton.", "right": "Prends n'importe quel carton.", "why": "Quel agrees with the noun: un carton, so quel."},
+    {"wrong": "Prends-en n'importe quel.", "right": "Prends-en n'importe lequel.", "why": "Without a noun, use n'importe lequel."},
+    {"wrong": "Tu dis n'importe qui !", "right": "Tu dis n'importe quoi !", "why": "Talking nonsense is dire n'importe quoi."}
+  ],
+  "story": {
+    "title": "N'importe où, mais pas n'importe comment",
+    "en": "Friday 1 October: Enzo moves into the room under the roof.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi premier octobre, Enzo déménage dans la petite chambre sous le toit, au dernier étage de l'immeuble de sa grand-mère.", "en": "On Friday 1 October, Enzo moves into the little room under the roof, on the top floor of his grandmother's building."},
+      {"sp": "", "fr": "Il n'y a pas d'ascenseur. Tom et Hugo l'aident à monter ses cartons.", "en": "There's no lift. Tom and Hugo help him carry his boxes up."},
+      {"sp": "Enzo", "fr": "Prenez {n'importe quel carton|ni-quel}, ils sont tous légers !", "en": "Take any box, they're all light!"},
+      {"sp": "", "fr": "Hugo prend un carton au hasard. Il pèse au moins trente kilos.", "en": "Hugo picks a box at random. It weighs at least thirty kilos."},
+      {"sp": "Hugo", "fr": "Léger ? Qu'est-ce qu'il y a là-dedans ?", "en": "Light? What's in here?"},
+      {"sp": "Enzo", "fr": "Mes livres de boulangerie. Et mes jeux vidéo.", "en": "My baking books. And my video games."},
+      {"sp": "", "fr": "Au dernier étage, Hugo pose le carton {n'importe où|ni-ou-quand}, au milieu de l'escalier.", "en": "On the top floor, Hugo puts the box down anywhere, in the middle of the stairs."},
+      {"sp": "Madame Fournier", "fr": "Pas là ! {N'importe qui pourrait tomber|ni-qui} !", "en": "Not there! Anyone could fall!"},
+      {"sp": "", "fr": "Dans la chambre, il y a encore les vieux sacs de farine. Enzo les pousse {n'importe comment|ni-comment} contre le mur.", "en": "In the room, the old flour sacks are still there. Enzo shoves them any old how against the wall."},
+      {"sp": "Madame Fournier", "fr": "{Ne range pas n'importe comment|ni-comment} ! Ici, c'est chez toi, mais c'est aussi chez moi.", "en": "Don't just put things away any old how! This is your place, but it's mine too."},
+      {"sp": "Tom", "fr": "Et ta lampe, je la mets où ?", "en": "And your lamp, where shall I put it?"},
+      {"sp": "Enzo", "fr": "{N'importe où|ni-ou-quand}. Sur le lit, par terre…", "en": "Anywhere. On the bed, on the floor…"},
+      {"sp": "Tom", "fr": "{Tu dis n'importe quoi|ni-quoi} : par terre, tu vas marcher dessus à quatre heures du matin.", "en": "You're talking nonsense: on the floor, you'll tread on it at four in the morning."},
+      {"sp": "", "fr": "Vers midi, Hugo a faim. Il descend à la boulangerie.", "en": "Around noon, Hugo is hungry. He goes down to the bakery."},
+      {"sp": "Hugo", "fr": "Madame Fournier, je peux prendre {n'importe quelle viennoiserie|ni-quel} ?", "en": "Madame Fournier, can I take any pastry?"},
+      {"sp": "Madame Fournier", "fr": "{Prends-en n'importe laquelle|ni-quel}. Mais pas les croissants d'Enzo : ils sont pour les clients.", "en": "Take any one you like. But not Enzo's croissants: they're for the customers."},
+      {"sp": "", "fr": "L'après-midi, un voisin du deuxième étage regarde passer les cartons.", "en": "In the afternoon, a neighbour from the second floor watches the boxes go by."},
+      {"sp": "Le voisin", "fr": "C'est qui, ce jeune homme ? On ne laisse pas entrer {n'importe qui|ni-qui} dans l'immeuble !", "en": "Who's this young man? You can't let just anyone into the building!"},
+      {"sp": "Madame Fournier", "fr": "Mon petit-fils, {ce n'est pas n'importe qui|ni-qui} : c'est le meilleur boulanger de Lyon.", "en": "My grandson isn't just anybody: he's the best baker in Lyon."},
+      {"sp": "", "fr": "Le soir, la chambre est presque [prête|pret]. Enzo s'allonge sur son lit et regarde les toits de Lyon.", "en": "In the evening, the room is almost ready. Enzo lies down on his bed and looks out over the rooftops of Lyon."},
+      {"sp": "Enzo", "fr": "Ici, je peux dormir {n'importe quand|ni-ou-quand} : le matin, l'après-midi… Le fournil est juste en bas.", "en": "Here, I can sleep any time: in the morning, in the afternoon… The bakehouse is right downstairs."},
+      {"sp": "Hugo", "fr": "Et nous, on peut venir te voir {n'importe quand|ni-ou-quand} ?", "en": "And can we come and see you any time?"},
+      {"sp": "Enzo", "fr": "{N'importe quand|ni-ou-quand}… sauf entre neuf heures du soir et trois heures et demie du matin. Et apportez {n'importe quoi|ni-quoi}, sauf du pain : du pain, j'en ai !", "en": "Any time… except between nine at night and half past three in the morning. And bring anything, except bread: bread, I've got!"}
+    ]
+  },
+  "quiz": [
+    {"case": "ni-qui", "type": "mc", "q": "___ peut porter un carton.", "en": "Anyone can carry a box.", "options": ["N'importe qui", "N'importe quoi", "N'importe lequel"], "answer": "N'importe qui"},
+    {"case": "ni-qui", "type": "mc", "q": "Mon petit-fils, ce n'est pas ___ !", "en": "My grandson isn't just anybody!", "options": ["n'importe qui", "n'importe quoi", "n'importe où"], "answer": "n'importe qui"},
+    {"case": "ni-quoi", "type": "mc", "q": "Tu dis ___ !", "en": "You're talking nonsense!", "options": ["n'importe quoi", "n'importe qui", "n'importe comment"], "answer": "n'importe quoi"},
+    {"case": "ni-quoi", "type": "mc", "q": "Apportez ___, sauf du pain.", "en": "Bring anything, except bread.", "options": ["n'importe quoi", "n'importe quand", "n'importe quel"], "answer": "n'importe quoi"},
+    {"case": "ni-ou-quand", "type": "mc", "q": "Pose ça ___.", "en": "Put that down anywhere.", "options": ["n'importe où", "n'importe quand", "n'importe quoi"], "answer": "n'importe où"},
+    {"case": "ni-ou-quand", "type": "mc", "q": "Vous pouvez venir ___.", "en": "You can come any time.", "options": ["n'importe quand", "n'importe où", "n'importe comment"], "answer": "n'importe quand"},
+    {"case": "ni-comment", "type": "mc", "q": "Ne conduis pas ___ !", "en": "Don't drive carelessly!", "options": ["n'importe comment", "n'importe quand", "n'importe où"], "answer": "n'importe comment"},
+    {"case": "ni-comment", "type": "mc", "q": "Ne range pas ___ !", "en": "Don't put things away any old how!", "options": ["n'importe comment", "n'importe qui", "n'importe quand"], "answer": "n'importe comment"},
+    {"case": "ni-quel", "type": "mc", "q": "Prenez ___ carton.", "en": "Take any box.", "options": ["n'importe quel", "n'importe quelle", "n'importe lequel"], "answer": "n'importe quel"},
+    {"case": "ni-quel", "type": "mc", "q": "Je peux prendre ___ viennoiserie ?", "en": "Can I take any pastry?", "options": ["n'importe quelle", "n'importe quel", "n'importe laquelle"], "answer": "n'importe quelle"},
+    {"case": "ni-quel", "type": "mc", "q": "Des viennoiseries ? Prends-en ___.", "en": "Pastries? Take any one you like.", "options": ["n'importe laquelle", "n'importe quelle", "n'importe qui"], "answer": "n'importe laquelle"}
+  ]
+}

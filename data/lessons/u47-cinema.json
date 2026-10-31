@@ -1,0 +1,142 @@
+{
+  "id": "u47-cinema",
+  "type": "vocab",
+  "unit": 47,
+  "title": "Le tapis rouge",
+  "en": "Film premieres",
+  "intro": "25 words for a film premiere: the evening (**l'avant-première, le tapis rouge, la projection, l'ovation, la star, l'autographe, les paparazzis, l'affiche, le cinéphile**), the people who make a film (**le producteur, le scénariste, le figurant, le cascadeur, le casting, le premier rôle, le second rôle**), the shoot and the film (**le plateau, le clap, la cascade, la réplique, le doublage, le générique, le long métrage, le film culte**), and the prize (**la récompense**).",
+  "words": [
+    {"id": "avant-premiere", "fr": "avant-première", "pos": "noun", "g": "f", "ipa": "a.vɑ̃.pʁə.mjɛʁ", "en": "premiere (the first showing of a film)", "def": "Une séance spéciale, avant la sortie d'un film dans les salles, souvent en présence des acteurs.", "def_en": "A special showing before a film comes out in cinemas, often with the actors there.", "forms": ["avant-premières"], "examples": [
+      {"fr": "Ce soir, c'est l'**avant-première** du film d'Antoine.", "en": "Tonight is the premiere of Antoine's film."},
+      {"fr": "On a deux places pour l'**avant-première** !", "en": "We've got two tickets for the premiere!"},
+      {"fr": "Les acteurs viennent à l'**avant-première**.", "en": "The actors come to the premiere."}]},
+    {"id": "tapis-rouge", "fr": "tapis rouge", "pos": "noun", "g": "m", "ipa": "ta.pi ʁuʒ", "en": "red carpet", "def": "Le long chemin où marchent les stars avant une soirée importante.", "def_en": "The long carpet the stars walk along before a big evening.", "forms": ["tapis rouges"], "examples": [
+      {"fr": "Antoine marche sur le **tapis rouge**.", "en": "Antoine walks along the red carpet."},
+      {"fr": "Hugo trébuche sur le **tapis rouge**.", "en": "Hugo trips on the red carpet."},
+      {"fr": "Pour l'anniversaire de Mamie, c'est le **tapis rouge** !", "en": "For Granny's birthday, it's the red-carpet treatment!"}]},
+    {"id": "projection", "fr": "projection", "pos": "noun", "g": "f", "ipa": "pʁɔ.ʒɛk.sjɔ̃", "en": "screening, showing; projection", "def": "Le fait de montrer un film sur un grand écran.", "def_en": "Showing a film on a big screen.", "forms": ["projections"], "examples": [
+      {"fr": "La **projection** commence à vingt heures.", "en": "The screening starts at eight in the evening."},
+      {"fr": "Pendant la **projection**, toute la salle rit.", "en": "During the screening, the whole audience laughs."},
+      {"fr": "Il y a une **projection** spéciale pour les enfants.", "en": "There's a special showing for children."}]},
+    {"id": "figurant", "fr": "figurant", "pos": "noun", "g": "m", "ipa": "fi.ɡy.ʁɑ̃", "display": "le figurant, la figurante", "en": "extra (in a film)", "def": "Une personne qu'on voit dans un film, derrière les acteurs, sans réplique.", "def_en": "Someone you see in a film, behind the actors, with no lines.", "forms": ["figurante", "figurants", "figurantes"], "examples": [
+      {"fr": "Hugo est **figurant** dans le film.", "en": "Hugo is an extra in the film."},
+      {"fr": "Cent **figurants** marchent dans la rue.", "en": "A hundred extras walk down the street."},
+      {"fr": "Sophie a été **figurante** dans une publicité.", "en": "Sophie was an extra in an advert."}]},
+    {"id": "cascadeur", "fr": "cascadeur", "pos": "noun", "g": "m", "ipa": "kas.ka.dœʁ", "display": "le cascadeur, la cascadeuse", "en": "stuntman, stuntwoman", "def": "La personne qui fait les scènes dangereuses à la place d'un acteur.", "def_en": "The person who does the dangerous scenes instead of an actor.", "forms": ["cascadeuse", "cascadeurs", "cascadeuses"], "examples": [
+      {"fr": "Hugo n'a pas eu besoin de **cascadeur**.", "en": "Hugo didn't need a stuntman."},
+      {"fr": "Le **cascadeur** saute d'un toit.", "en": "The stuntman jumps off a roof."},
+      {"fr": "C'est une **cascadeuse** qui conduit le taxi.", "en": "It's a stuntwoman driving the taxi."}]},
+    {"id": "cascade", "fr": "cascade", "pos": "noun", "g": "f", "ipa": "kas.kad", "en": "stunt; waterfall", "def": "Une scène dangereuse dans un film ; de l'eau qui tombe d'un rocher.", "def_en": "A dangerous scene in a film; water falling from a rock.", "forms": ["cascades"], "examples": [
+      {"fr": "Hugo a fait la **cascade** lui-même : la chute dans la poubelle.", "en": "Hugo did the stunt himself: the fall into the bin."},
+      {"fr": "Le film est plein de **cascades**.", "en": "The film is full of stunts."},
+      {"fr": "Près de la ferme, il y a une petite **cascade**.", "en": "There's a little waterfall near the farm."}]},
+    {"id": "generique", "fr": "générique", "pos": "noun", "g": "m", "ipa": "ʒe.ne.ʁik", "en": "credits; theme tune; (adj) generic", "def": "La liste des noms de tous ceux qui ont fait un film, au début ou à la fin.", "def_en": "The list of names of everyone who made a film, at the beginning or the end.", "note": "*Un médicament générique* = a generic drug.", "forms": ["génériques"], "examples": [
+      {"fr": "Dans le **générique**, on lit : « L'homme dans la poubelle : Hugo ».", "en": "In the credits, you read: 'The man in the bin: Hugo'."},
+      {"fr": "Reste jusqu'à la fin du **générique** !", "en": "Stay until the end of the credits!"},
+      {"fr": "Je connais la musique du **générique** par cœur.", "en": "I know the theme tune by heart."}]},
+    {"id": "plateau", "fr": "plateau", "pos": "noun", "g": "m", "ipa": "pla.to", "en": "(film) set; tray; plateau", "def": "L'endroit où on filme ; un objet [plat|plat-adj] pour porter des assiettes ; un grand terrain [plat|plat-adj], en haut des montagnes.", "def_en": "The place where filming happens; a flat object for carrying plates; a large flat stretch of high ground.", "forms": ["plateaux"], "examples": [
+      {"fr": "Sur le **plateau**, le réalisateur crie : « Moteur ! »", "en": "On set, the director shouts: 'Action!'"},
+      {"fr": "Le serveur apporte un **plateau** de croissants.", "en": "The waiter brings a tray of croissants."},
+      {"fr": "Il habite sur un **plateau**, en montagne.", "en": "He lives on a plateau, in the mountains."}]},
+    {"id": "producteur", "fr": "producteur", "pos": "noun", "g": "m", "ipa": "pʁɔ.dyk.tœʁ", "display": "le producteur, la productrice", "en": "producer", "def": "La personne qui trouve l'argent pour faire un film ; celui qui fabrique un produit.", "def_en": "The person who finds the money to make a film; someone who makes a product.", "forms": ["productrice", "producteurs", "productrices"], "examples": [
+      {"fr": "La **productrice** du film est québécoise.", "en": "The film's producer is from Quebec."},
+      {"fr": "Jules est **producteur** de fromage.", "en": "Jules is a cheese producer."},
+      {"fr": "Les **producteurs** veulent une suite.", "en": "The producers want a sequel."}]},
+    {"id": "scenariste", "fr": "scénariste", "pos": "noun", "g": "m", "both": true, "ipa": "se.na.ʁist", "display": "le / la scénariste", "en": "screenwriter, scriptwriter", "def": "La personne qui écrit l'histoire d'un film et ce que disent les personnages.", "def_en": "The person who writes a film's story and what the characters say.", "forms": ["scénaristes"], "accept": ["la scénariste", "une scénariste"], "examples": [
+      {"fr": "Le **scénariste** a écrit la réplique d'Antoine.", "en": "The screenwriter wrote Antoine's line."},
+      {"fr": "Elle veut devenir **scénariste**.", "en": "She wants to become a screenwriter."},
+      {"fr": "Les **scénaristes** préparent déjà la suite.", "en": "The screenwriters are already preparing the sequel."}]},
+    {"id": "premier-role", "fr": "premier rôle", "pos": "noun", "g": "m", "ipa": "pʁə.mje ʁol", "en": "lead, leading part", "def": "Le personnage le plus important d'un film ; l'acteur qui le joue.", "def_en": "The most important character in a film; the actor who plays it.", "forms": ["premiers rôles"], "examples": [
+      {"fr": "Antoine n'a pas le **premier rôle**, mais tout le monde l'adore.", "en": "Antoine doesn't have the lead, but everyone loves him."},
+      {"fr": "L'actrice du **premier rôle** monte sur scène.", "en": "The leading actress goes up on stage."},
+      {"fr": "Un jour, Hugo veut un **premier rôle**.", "en": "One day, Hugo wants a leading part."}]},
+    {"id": "second-role", "fr": "second rôle", "pos": "noun", "g": "m", "ipa": "sə.ɡɔ̃ ʁol", "en": "supporting role", "def": "Un personnage moins important, à côté des héros d'un film.", "def_en": "A less important character, alongside the heroes of a film.", "note": "*Second* is pronounced *segond*.", "forms": ["seconds rôles"], "examples": [
+      {"fr": "Antoine a un **second rôle** : trois mots, un taxi.", "en": "Antoine has a supporting role: three words and a taxi."},
+      {"fr": "Elle a gagné le prix du meilleur **second rôle**.", "en": "She won the award for best supporting role."},
+      {"fr": "Les **seconds rôles** font souvent rire.", "en": "Supporting characters are often the funny ones."}]},
+    {"id": "casting", "fr": "casting", "pos": "noun", "g": "m", "ipa": "kas.tiŋ", "en": "casting; audition", "def": "Le choix des acteurs pour un film ; la séance où on les choisit.", "def_en": "Choosing the actors for a film; the session where they're chosen.", "forms": ["castings"], "examples": [
+      {"fr": "Antoine a eu le rôle sans **casting**.", "en": "Antoine got the part without an audition."},
+      {"fr": "Il y a un **casting** pour le prochain film.", "en": "There's a casting call for the next film."},
+      {"fr": "Le **casting** est parfait.", "en": "The casting is perfect."}]},
+    {"id": "clap", "fr": "clap", "pos": "noun", "g": "m", "ipa": "klap", "en": "clapperboard", "def": "L'objet noir et blanc qu'on ferme d'un coup sec devant la caméra, avant chaque scène.", "def_en": "The black and white object snapped shut in front of the camera before each scene.", "note": "*Le clap de fin* = the end of filming (or of anything).", "forms": ["claps"], "examples": [
+      {"fr": "Au bruit du **clap**, tout le monde se tait.", "en": "At the sound of the clapperboard, everyone goes quiet."},
+      {"fr": "Hugo a gardé le **clap** de sa scène.", "en": "Hugo kept the clapperboard from his scene."},
+      {"fr": "Le **clap** de fin, c'était en mars.", "en": "Filming wrapped in March."}]},
+    {"id": "star", "fr": "star", "pos": "noun", "g": "f", "ipa": "staʁ", "en": "star (celebrity)", "def": "Une personne très célèbre, souvent du cinéma ou de la musique.", "def_en": "A very famous person, often from film or music.", "note": "Always feminine: *Antoine est une star*.", "forms": ["stars"], "examples": [
+      {"fr": "Antoine est la **star** de la soirée.", "en": "Antoine is the star of the evening."},
+      {"fr": "Hugo se prend pour une **star**.", "en": "Hugo thinks he's a star."},
+      {"fr": "Les **stars** arrivent en voiture noire.", "en": "The stars arrive in black cars."}]},
+    {"id": "autographe", "fr": "autographe", "pos": "noun", "g": "m", "ipa": "o.to.ɡʁaf", "en": "autograph", "def": "La signature d'une personne célèbre, qu'on garde en souvenir.", "def_en": "A famous person's signature, kept as a souvenir.", "forms": ["autographes"], "examples": [
+      {"fr": "Une fan demande un **autographe** à Hugo.", "en": "A fan asks Hugo for his autograph."},
+      {"fr": "Lou veut l'**autographe** d'Antoine.", "en": "Lou wants Antoine's autograph."},
+      {"fr": "Il signe des **autographes** pendant une heure.", "en": "He signs autographs for an hour."}]},
+    {"id": "paparazzi", "fr": "paparazzi", "pos": "noun", "g": "m", "ipa": "pa.pa.ʁa.dzi", "en": "paparazzi, paparazzo", "def": "Un photographe qui suit les stars partout pour vendre leurs photos.", "def_en": "A photographer who follows stars everywhere to sell their pictures.", "forms": ["paparazzis"], "examples": [
+      {"fr": "Les **paparazzis** attendent devant l'hôtel.", "en": "The paparazzi are waiting outside the hotel."},
+      {"fr": "Hugo cherche les **paparazzis**… ils ne le regardent pas.", "en": "Hugo looks for the paparazzi… they don't look at him."},
+      {"fr": "Un **paparazzi** a pris la photo.", "en": "A paparazzo took the picture."}]},
+    {"id": "ovation", "fr": "ovation", "pos": "noun", "g": "f", "ipa": "ɔ.va.sjɔ̃", "en": "ovation", "def": "Des applaudissements très forts et très longs, souvent debout.", "def_en": "Very loud, very long applause, often standing.", "forms": ["ovations"], "examples": [
+      {"fr": "À la fin du film, la salle fait une **ovation** à Antoine.", "en": "At the end of the film, the audience gives Antoine an ovation."},
+      {"fr": "Une **ovation** de dix minutes !", "en": "A ten-minute ovation!"},
+      {"fr": "Carla a eu une **ovation** après son solo.", "en": "Carla got an ovation after her solo."}]},
+    {"id": "film-culte", "fr": "film culte", "pos": "noun", "g": "m", "ipa": "film kylt", "en": "cult film", "def": "Un film que des fans regardent encore et encore, et dont ils connaissent les répliques par cœur.", "def_en": "A film that fans watch again and again, whose lines they know by heart.", "forms": ["films cultes"], "examples": [
+      {"fr": "Pour Hugo, c'est déjà un **film culte**.", "en": "For Hugo, it's already a cult film."},
+      {"fr": "On regarde un **film culte** ce soir ?", "en": "Shall we watch a cult film tonight?"},
+      {"fr": "Ce **film culte** a quarante ans.", "en": "This cult film is forty years old."}]},
+    {"id": "replique", "fr": "réplique", "pos": "noun", "g": "f", "ipa": "ʁe.plik", "en": "line (in a film or play); retort; replica", "def": "Une phrase qu'un acteur dit dans un film ; une réponse rapide ; une copie.", "def_en": "A sentence an actor says in a film; a quick answer; a copy.", "forms": ["répliques"], "examples": [
+      {"fr": "La **réplique** d'Antoine : « Bienvenue à Lyon ! »", "en": "Antoine's line: 'Welcome to Lyon!'"},
+      {"fr": "Tom connaît toutes les **répliques** du film.", "en": "Tom knows all the lines in the film."},
+      {"fr": "C'est une **réplique** de la tour Eiffel.", "en": "It's a replica of the Eiffel Tower."}]},
+    {"id": "doublage", "fr": "doublage", "pos": "noun", "g": "m", "ipa": "du.blaʒ", "en": "dubbing", "def": "Le fait de remplacer les voix d'un film par d'autres voix, souvent dans une autre langue.", "def_en": "Replacing the voices in a film with other voices, often in another language.", "note": "*Doubler un film* = to dub a film.", "forms": ["doublages"], "examples": [
+      {"fr": "Les Français préfèrent le **doublage** ou les sous-titres ?", "en": "Do the French prefer dubbing or subtitles?"},
+      {"fr": "Tom regarde les films sans **doublage**.", "en": "Tom watches films without dubbing."},
+      {"fr": "Le **doublage** de ce dessin animé est excellent.", "en": "The dubbing of this cartoon is excellent."}]},
+    {"id": "long-metrage", "fr": "long métrage", "pos": "noun", "g": "m", "ipa": "lɔ̃ me.tʁaʒ", "en": "feature film", "def": "Un film de plus d'une heure, qu'on voit au cinéma.", "def_en": "A film over an hour long, shown in cinemas.", "note": "*Un court métrage* = a short film.", "forms": ["longs métrages"], "examples": [
+      {"fr": "C'est le deuxième **long métrage** du réalisateur.", "en": "It's the director's second feature film."},
+      {"fr": "Avant le **long métrage**, on montre un court métrage.", "en": "Before the feature, they show a short film."},
+      {"fr": "Il a tourné trois **longs métrages**.", "en": "He has shot three feature films."}]},
+    {"id": "cinephile", "fr": "cinéphile", "pos": "noun", "g": "m", "both": true, "ipa": "si.ne.fil", "display": "le / la cinéphile", "en": "film buff, film lover", "def": "Une personne qui aime beaucoup les films et qui en voit beaucoup.", "def_en": "Someone who loves films and sees a lot of them.", "forms": ["cinéphiles"], "accept": ["la cinéphile", "une cinéphile"], "examples": [
+      {"fr": "Marc est un grand **cinéphile**.", "en": "Marc is a great film buff."},
+      {"fr": "Le festival attire les **cinéphiles** du monde entier.", "en": "The festival draws film lovers from all over the world."},
+      {"fr": "Pour un **cinéphile**, Lyon est une ville sacrée.", "en": "For a film buff, Lyon is a sacred city."}]},
+    {"id": "recompense", "fr": "récompense", "pos": "noun", "g": "f", "ipa": "ʁe.kɔ̃.pɑ̃s", "en": "reward; award", "def": "Ce qu'on reçoit pour remercier ou pour féliciter.", "def_en": "What you receive as thanks or congratulations.", "forms": ["récompenses"], "examples": [
+      {"fr": "Le film a reçu une **récompense** : le prix du public.", "en": "The film won an award: the audience prize."},
+      {"fr": "Ta **récompense** ? Un croissant.", "en": "Your reward? A croissant."},
+      {"fr": "Cent euros de **récompense** pour le chat perdu !", "en": "A hundred euros' reward for the lost cat!"}]},
+    {"id": "affiche", "fr": "affiche", "pos": "noun", "g": "f", "ipa": "a.fiʃ", "en": "poster; (à l'affiche) showing", "def": "Une grande image collée au mur, pour annoncer un film ou un spectacle.", "def_en": "A big picture stuck on a wall to advertise a film or a show.", "note": "*À l'affiche* = now showing.", "forms": ["affiches"], "examples": [
+      {"fr": "Sur l'**affiche** du film, il y a le taxi d'Antoine.", "en": "On the film poster, there's Antoine's taxi."},
+      {"fr": "Le film reste à l'**affiche** tout l'hiver.", "en": "The film stays on all winter."},
+      {"fr": "Lou a mis l'**affiche** dans sa chambre.", "en": "Lou has put the poster up in her room."}]}
+  ],
+  "story": {
+    "title": "Le tapis rouge",
+    "en": "Saturday 16 October: the premiere of Antoine's sequel at the Festival Lumière.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi seize octobre, c'est le grand soir : l'avant-première de la suite du film d'Antoine, au Festival Lumière.", "en": "On Saturday 16 October, it's the big night: the premiere of the sequel to Antoine's film, at the Festival Lumière."},
+      {"sp": "", "fr": "Antoine est arrivé de Montréal mardi. Il dort sur le canapé de Hugo, comme en mars.", "en": "Antoine arrived from Montréal on Tuesday. He's sleeping on Hugo's sofa, like in March."},
+      {"sp": "", "fr": "Devant le cinéma des frères Lumière, il y a un tapis rouge, des paparazzis et une foule de cinéphiles.", "en": "Outside the Lumière brothers' cinema, there's a red carpet, paparazzi and a crowd of film lovers."},
+      {"sp": "Antoine", "fr": "Je n'ai pas le premier rôle : trois mots, c'est un second rôle. Mais ce soir, je suis la star de ma famille !", "en": "I haven't got the lead: three words is a supporting role. But tonight, I'm the star of my family!"},
+      {"sp": "", "fr": "La productrice du film, une Québécoise pleine d'énergie, embrasse Antoine sur le tapis rouge.", "en": "The film's producer, a Québécoise full of energy, kisses Antoine on the red carpet."},
+      {"sp": "La productrice", "fr": "Antoine ! Sans casting, sans expérience, et le public t'adore déjà !", "en": "Antoine! No audition, no experience, and the audience loves you already!"},
+      {"sp": "Antoine", "fr": "Sur le plateau, en mars, il a fallu deux prises pour mes trois mots. Ce soir, une seule suffit : la bonne !", "en": "On set, in March, it took two takes for my three words. Tonight, one is enough: the right one!"},
+      {"sp": "", "fr": "Hugo marche derrière eux, en costume, avec Carla. Il fait un signe aux paparazzis… qui ne le regardent pas.", "en": "Hugo walks behind them, in a suit, with Carla. He waves at the paparazzi… who don't look at him."},
+      {"sp": "Hugo", "fr": "Moi aussi, je suis dans le film ! Je suis figurant !", "en": "I'm in the film too! I'm an extra!"},
+      {"sp": "Carla", "fr": "Tu es un figurant dans une poubelle, mon amour.", "en": "You're an extra in a bin, my love."},
+      {"sp": "", "fr": "Une fan s'approche avec l'affiche du film et un stylo. Elle demande un autographe… à Hugo.", "en": "A fan comes up with the film poster and a pen. She asks for an autograph… from Hugo."},
+      {"sp": "La fan", "fr": "C'est vous, l'homme de la poubelle ? Vous avez fait la cascade vous-même ?", "en": "Are you the man in the bin? Did you do the stunt yourself?"},
+      {"sp": "Hugo", "fr": "Bien sûr ! Pas de cascadeur pour moi. Douze prises, et un petit chien.", "en": "Of course! No stuntman for me. Twelve takes and a little dog."},
+      {"sp": "", "fr": "Dans la salle, les lumières s'éteignent, et la projection commence.", "en": "In the auditorium, the lights go down and the screening begins."},
+      {"sp": "", "fr": "Le film est en français du Québec, sans doublage. Les Français ont des sous-titres ; Tom, lui, comprend tout.", "en": "The film is in Quebec French, with no dubbing. The French have subtitles; Tom understands everything."},
+      {"sp": "", "fr": "Au bout d'une heure, le taxi arrive dans le Vieux-Lyon. Antoine ouvre la porte et dit sa réplique : « Bienvenue à Lyon ! »", "en": "After an hour, the taxi arrives in Vieux-Lyon. Antoine opens the door and says his line: 'Welcome to Lyon!'"},
+      {"sp": "", "fr": "Derrière le taxi, un homme tombe dans une poubelle. Toute la salle éclate de rire.", "en": "Behind the taxi, a man falls into a bin. The whole audience bursts out laughing."},
+      {"sp": "", "fr": "À la fin du long métrage, la salle fait une ovation à Antoine. Il se lève, très ému.", "en": "At the end of the feature, the audience gives Antoine an ovation. He stands up, deeply moved."},
+      {"sp": "Antoine", "fr": "Merci ! Trois mots, et une ovation… Imaginez avec une phrase entière !", "en": "Thank you! Three words, and an ovation… Imagine with a whole sentence!"},
+      {"sp": "", "fr": "Puis vient le générique. Hugo se lève et crie : « Regardez ! »", "en": "Then the credits roll. Hugo stands up and shouts: 'Look!'"},
+      {"sp": "", "fr": "Sur l'écran, entre le scénariste et le réalisateur, on lit : « L'homme dans la poubelle : Hugo ».", "en": "On the screen, between the screenwriter and the director, it says: 'The man in the bin: Hugo'."},
+      {"sp": "", "fr": "Après la soirée, le réalisateur offre à Hugo le clap de sa scène.", "en": "After the evening, the director gives Hugo the clapperboard from his scene."},
+      {"sp": "Le réalisateur", "fr": "Pour le troisième film, j'ai une idée : vous tombez dans le Rhône.", "en": "For the third film, I have an idea: you fall into the Rhône."},
+      {"sp": "Hugo", "fr": "D'accord, mais avec une réplique. Et une récompense.", "en": "All right, but with a line. And a reward."},
+      {"sp": "", "fr": "Le lendemain, le film reçoit le prix du public. Pour Hugo, c'est déjà un film culte.", "en": "The next day, the film wins the audience award. For Hugo, it's already a cult film."}
+    ]
+  }
+}

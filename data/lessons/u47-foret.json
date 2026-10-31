@@ -1,0 +1,144 @@
+{
+  "id": "u47-foret",
+  "type": "vocab",
+  "unit": 47,
+  "title": "Le champignon blanc",
+  "en": "The forest in autumn",
+  "intro": "25 words for the forest in autumn: the trees (**le chêne, le tronc, la feuille morte, la fougère, la mousse, le gland, la châtaigne**), mushrooms (**le champignon, le cèpe, la girolle, la cueillette, comestible, vénéneux, le pharmacien**), animals and hunters (**l'écureuil, le hérisson, le sanglier, la biche, le cerf, le chasseur**), and the weather and what you need (**le brouillard, l'averse, la boue, l'imperméable, la citrouille**).",
+  "words": [
+    {"id": "champignon", "fr": "champignon", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.pi.ɲɔ̃", "en": "mushroom", "def": "Ce qui pousse dans les bois après la pluie, souvent en forme de petit parapluie : certains se mangent, d'autres sont dangereux.", "def_en": "What grows in the woods after rain, often shaped like a little umbrella: some can be eaten, others are dangerous.", "forms": ["champignons"], "examples": [
+      {"fr": "Après la pluie, les **champignons** poussent partout.", "en": "After the rain, mushrooms spring up everywhere."},
+      {"fr": "Une omelette aux **champignons**, ça te dit ?", "en": "How about a mushroom omelette?"},
+      {"fr": "Ne mange jamais un **champignon** que tu ne connais pas !", "en": "Never eat a mushroom you don't know!"}]},
+    {"id": "cepe", "fr": "cèpe", "pos": "noun", "g": "m", "ipa": "sɛp", "en": "cep, porcini mushroom", "def": "Un gros champignon brun, très bon à manger, qui pousse sous les chênes.", "def_en": "A big brown mushroom, very good to eat, that grows under oaks.", "forms": ["cèpes"], "examples": [
+      {"fr": "Pierre trouve un **cèpe** énorme sous un chêne.", "en": "Pierre finds an enormous cep under an oak."},
+      {"fr": "Une omelette aux **cèpes**, c'est délicieux.", "en": "A cep omelette is delicious."},
+      {"fr": "Au marché, les **cèpes** coûtent une fortune.", "en": "At the market, ceps cost a fortune."}]},
+    {"id": "girolle", "fr": "girolle", "pos": "noun", "g": "f", "ipa": "ʒi.ʁɔl", "en": "chanterelle (mushroom)", "def": "Un petit champignon de couleur orange, très parfumé.", "def_en": "A small orange-coloured mushroom with a strong scent.", "forms": ["girolles"], "examples": [
+      {"fr": "Lou trouve des **girolles** dans la mousse.", "en": "Lou finds chanterelles in the moss."},
+      {"fr": "Les **girolles** se cuisent avec un peu de beurre.", "en": "Chanterelles are cooked with a little butter."},
+      {"fr": "Une **girolle**, c'est orange comme une carotte.", "en": "A chanterelle is as orange as a carrot."}]},
+    {"id": "veneneux", "fr": "vénéneux", "pos": "adj", "ipa": "ve.ne.nø", "en": "poisonous (of a plant or mushroom)", "def": "Qui peut rendre très malade, ou tuer, si on le mange.", "def_en": "That can make you very ill, or kill you, if you eat it.", "note": "For plants and mushrooms. A poisonous snake is *venimeux*.", "forms": ["vénéneuse", "vénéneuses"], "examples": [
+      {"fr": "Ce champignon blanc est **vénéneux** !", "en": "This white mushroom is poisonous!"},
+      {"fr": "Certaines [plantes|plante] du jardin sont **vénéneuses**.", "en": "Some garden plants are poisonous."},
+      {"fr": "Le pharmacien a trouvé deux champignons **vénéneux** dans le panier.", "en": "The pharmacist found two poisonous mushrooms in the basket."}]},
+    {"id": "comestible", "fr": "comestible", "pos": "adj", "ipa": "kɔ.mɛs.tibl", "en": "edible", "def": "Qu'on peut manger sans danger.", "def_en": "That can be eaten safely.", "forms": ["comestibles"], "examples": [
+      {"fr": "Ce champignon est **comestible** ? Oui, et délicieux.", "en": "Is this mushroom edible? Yes, and delicious."},
+      {"fr": "Toutes les fleurs ne sont pas **comestibles**.", "en": "Not all flowers are edible."},
+      {"fr": "Les châtaignes sont **comestibles**, pas les marrons d'Inde.", "en": "Sweet chestnuts are edible, horse chestnuts aren't."}]},
+    {"id": "chene", "fr": "chêne", "pos": "noun", "g": "m", "ipa": "ʃɛn", "en": "oak", "def": "Un grand arbre très solide, dont le fruit est le gland.", "def_en": "A big, very strong tree whose fruit is the acorn.", "forms": ["chênes"], "examples": [
+      {"fr": "Ce **chêne** a trois cents ans.", "en": "This oak is three hundred years old."},
+      {"fr": "Les cèpes aiment l'ombre des **chênes**.", "en": "Ceps like the shade of oak trees."},
+      {"fr": "La table de la ferme est en **chêne**.", "en": "The farm table is made of oak."}]},
+    {"id": "tronc", "fr": "tronc", "pos": "noun", "g": "m", "ipa": "tʁɔ̃", "en": "trunk (of a tree)", "def": "La grosse [partie|partie] de l'arbre, entre les racines et les branches.", "def_en": "The thick part of a tree, between the roots and the branches.", "forms": ["troncs"], "examples": [
+      {"fr": "Le **tronc** du vieux chêne est énorme.", "en": "The old oak's trunk is enormous."},
+      {"fr": "On s'assoit sur un **tronc** pour manger.", "en": "We sit on a log to eat."},
+      {"fr": "Lou fait le tour du **tronc** en courant.", "en": "Lou runs round the trunk."}]},
+    {"id": "feuille-morte", "fr": "feuille morte", "pos": "noun", "g": "f", "ipa": "fœj mɔʁt", "en": "dead leaf, fallen leaf", "def": "Ce qui tombe des arbres en automne, jaune, rouge ou brun.", "def_en": "What falls from the trees in autumn, yellow, red or brown.", "forms": ["feuilles mortes"], "examples": [
+      {"fr": "Lou saute dans les **feuilles mortes**.", "en": "Lou jumps into the fallen leaves."},
+      {"fr": "Le chemin est couvert de **feuilles mortes**.", "en": "The path is covered in dead leaves."},
+      {"fr": "Une **feuille morte** est restée dans les cheveux de Léa.", "en": "A dead leaf has got caught in Léa's hair."}]},
+    {"id": "fougere", "fr": "fougère", "pos": "noun", "g": "f", "ipa": "fu.ʒɛʁ", "en": "fern, bracken", "def": "Une grande [plante|plante] verte de la forêt, aux longues feuilles fines.", "def_en": "A big green forest plant with long fine leaves.", "forms": ["fougères"], "examples": [
+      {"fr": "Les **fougères** deviennent rousses en automne.", "en": "Ferns turn russet in autumn."},
+      {"fr": "Un sanglier sort des **fougères**.", "en": "A wild boar comes out of the bracken."},
+      {"fr": "Lou se cache dans les **fougères**.", "en": "Lou hides in the ferns."}]},
+    {"id": "mousse", "fr": "mousse", "pos": "noun", "g": "f", "ipa": "mus", "en": "moss; foam; mousse", "def": "Une petite [plante|plante] verte et douce qui pousse sur les pierres et les arbres ; des petites bulles.", "def_en": "A small soft green plant that grows on stones and trees; tiny bubbles.", "note": "*Une mousse au chocolat* = a chocolate mousse.", "forms": ["mousses"], "examples": [
+      {"fr": "Les girolles se cachent dans la **mousse**.", "en": "Chanterelles hide in the moss."},
+      {"fr": "La **mousse** pousse au nord des arbres.", "en": "Moss grows on the north side of trees."},
+      {"fr": "Karim fait une **mousse** au chocolat.", "en": "Karim is making a chocolate mousse."}]},
+    {"id": "gland", "fr": "gland", "pos": "noun", "g": "m", "ipa": "ɡlɑ̃", "en": "acorn", "def": "Le petit fruit du chêne, que les cochons et les écureuils adorent.", "def_en": "The small fruit of the oak, which pigs and squirrels love.", "forms": ["glands"], "examples": [
+      {"fr": "Les écureuils cachent des **glands** pour l'hiver.", "en": "Squirrels hide acorns for the winter."},
+      {"fr": "Lou fait un collier de **glands**.", "en": "Lou makes an acorn necklace."},
+      {"fr": "Un **gland** est tombé sur la tête de Hugo.", "en": "An acorn fell on Hugo's head."}]},
+    {"id": "chataigne", "fr": "châtaigne", "pos": "noun", "g": "f", "ipa": "ʃa.tɛɲ", "en": "(sweet) chestnut", "def": "Un fruit brun qu'on ramasse en automne, et qu'on mange chaud ou en crème.", "def_en": "A brown fruit gathered in autumn and eaten hot or as a purée.", "note": "The *marrons chauds* sold in the street are châtaignes.", "forms": ["châtaignes"], "examples": [
+      {"fr": "Lou remplit ses poches de **châtaignes**.", "en": "Lou fills her pockets with chestnuts."},
+      {"fr": "Ce soir, on fait cuire des **châtaignes** dans le feu.", "en": "Tonight we're roasting chestnuts in the fire."},
+      {"fr": "La crème de **châtaignes** est une spécialité de l'Ardèche.", "en": "Chestnut spread is a speciality of the Ardèche."}]},
+    {"id": "cueillette", "fr": "cueillette", "pos": "noun", "g": "f", "ipa": "kœ.jɛt", "en": "picking, gathering", "def": "Le fait de ramasser des fruits, des fleurs ou des champignons.", "def_en": "Gathering fruit, flowers or mushrooms.", "forms": ["cueillettes"], "examples": [
+      {"fr": "La **cueillette** des champignons commence tôt le matin.", "en": "Mushroom picking starts early in the morning."},
+      {"fr": "Belle **cueillette**, Lou !", "en": "Good haul, Lou!"},
+      {"fr": "La **cueillette** des pommes, c'est en septembre.", "en": "Apple picking is in September."}]},
+    {"id": "pharmacien", "fr": "pharmacien", "pos": "noun", "g": "m", "ipa": "faʁ.ma.sjɛ̃", "display": "le pharmacien, la pharmacienne", "en": "pharmacist, chemist", "def": "La personne qui vend les médicaments, et qui sait reconnaître les champignons.", "def_en": "The person who sells medicines and knows how to identify mushrooms.", "note": "In France, pharmacists will check the mushrooms you've picked.", "forms": ["pharmaciens", "pharmacienne", "pharmaciennes"], "examples": [
+      {"fr": "Le **pharmacien** vérifie les champignons de Pierre.", "en": "The pharmacist checks Pierre's mushrooms."},
+      {"fr": "Demande au **pharmacien** : il connaît tous les champignons.", "en": "Ask the pharmacist: he knows every mushroom."},
+      {"fr": "La **pharmacienne** donne un sirop pour la toux.", "en": "The pharmacist gives some cough syrup."}]},
+    {"id": "ecureuil", "fr": "écureuil", "pos": "noun", "g": "m", "ipa": "e.ky.ʁœj", "en": "squirrel", "def": "Un petit animal roux, avec une grande queue, qui vit dans les arbres.", "def_en": "A small russet animal with a big tail that lives in trees.", "forms": ["écureuils"], "examples": [
+      {"fr": "Un **écureuil** traverse le chemin.", "en": "A squirrel crosses the path."},
+      {"fr": "L'**écureuil** cache ses noisettes.", "en": "The squirrel hides its hazelnuts."},
+      {"fr": "Lou court après un **écureuil**.", "en": "Lou runs after a squirrel."}]},
+    {"id": "herisson", "fr": "hérisson", "pos": "noun", "g": "m", "hAsp": true, "ipa": "e.ʁi.sɔ̃", "en": "hedgehog", "def": "Un petit animal brun, couvert de petites pointes, qui se met en boule quand il a peur.", "def_en": "A small brown animal covered in little spines, which rolls into a ball when it's scared.", "note": "The h is aspirated: *le hérisson*, not *l'hérisson*.", "forms": ["hérissons"], "examples": [
+      {"fr": "Sous les feuilles, Lou trouve un **hérisson**.", "en": "Under the leaves, Lou finds a hedgehog."},
+      {"fr": "Le **hérisson** se met en boule.", "en": "The hedgehog rolls into a ball."},
+      {"fr": "Les **hérissons** dorment tout l'hiver.", "en": "Hedgehogs sleep all winter."}]},
+    {"id": "sanglier", "fr": "sanglier", "pos": "noun", "g": "m", "ipa": "sɑ̃.ɡli.je", "en": "wild boar", "def": "Un gros cochon sauvage, aux poils noirs, qui vit dans la forêt.", "def_en": "A big wild pig with black bristles that lives in the forest.", "forms": ["sangliers"], "examples": [
+      {"fr": "Un **sanglier** sort du bois devant Hugo.", "en": "A wild boar comes out of the woods in front of Hugo."},
+      {"fr": "Les **sangliers** ont mangé les pommes de terre de Pierre.", "en": "The wild boars have eaten Pierre's potatoes."},
+      {"fr": "Les Gaulois mangeaient des **sangliers**, dit Tom.", "en": "The Gauls ate wild boar, Tom says."}]},
+    {"id": "biche", "fr": "biche", "pos": "noun", "g": "f", "ipa": "biʃ", "en": "doe, hind", "def": "Un animal de la forêt, comme le cerf mais sans [bois|bois] sur la tête, aux grands yeux doux.", "def_en": "A forest animal like the stag but with no antlers, with big gentle eyes.", "note": "*Ma biche* = my darling.", "forms": ["biches"], "examples": [
+      {"fr": "Une **biche** boit au bord de la rivière.", "en": "A doe drinks at the river's edge."},
+      {"fr": "Lou a vu une **biche** et son petit.", "en": "Lou saw a doe and her fawn."},
+      {"fr": "La **biche** a peur et s'enfuit.", "en": "The doe takes fright and runs off."}]},
+    {"id": "cerf", "fr": "cerf", "pos": "noun", "g": "m", "ipa": "sɛʁ", "en": "stag, deer", "def": "Un grand animal sauvage de la forêt ; il porte des bois sur la tête.", "def_en": "A big wild forest animal; it has antlers on its head.", "note": "The f is silent: *un cerf*.", "forms": ["cerfs"], "examples": [
+      {"fr": "En octobre, on entend crier les **cerfs** dans la forêt.", "en": "In October, you can hear stags roaring in the forest."},
+      {"fr": "Le **cerf** a des bois immenses.", "en": "The stag has huge antlers."},
+      {"fr": "Un **cerf** traverse la route : ralentis !", "en": "A deer is crossing the road: slow down!"}]},
+    {"id": "chasseur", "fr": "chasseur", "pos": "noun", "g": "m", "ipa": "ʃa.sœʁ", "display": "le chasseur, la chasseuse", "en": "hunter", "def": "Une personne qui cherche et tue des animaux sauvages, pour les manger ou pour le sport.", "def_en": "Someone who looks for and kills wild animals, for food or for sport.", "note": "*La chasse* = hunting.", "forms": ["chasseurs", "chasseuse", "chasseuses"], "examples": [
+      {"fr": "En automne, les **chasseurs** portent de l'[orange|orange].", "en": "In autumn, hunters wear orange."},
+      {"fr": "Attention, il y a des **chasseurs** dans le bois !", "en": "Careful, there are hunters in the woods!"},
+      {"fr": "Pierre n'est pas **chasseur** : il aime trop les animaux.", "en": "Pierre isn't a hunter: he loves animals too much."}]},
+    {"id": "brouillard", "fr": "brouillard", "pos": "noun", "g": "m", "ipa": "bʁu.jaʁ", "en": "fog, mist", "def": "Un nuage très bas, qui empêche de voir loin.", "def_en": "A very low cloud that stops you seeing far.", "forms": ["brouillards"], "examples": [
+      {"fr": "Le matin, il y a du **brouillard** dans la vallée.", "en": "In the morning, there's fog in the valley."},
+      {"fr": "Dans le **brouillard**, on ne voit pas les arbres.", "en": "In the fog, you can't see the trees."},
+      {"fr": "Hugo est dans le **brouillard** : il ne comprend rien.", "en": "Hugo is all at sea: he doesn't understand a thing."}]},
+    {"id": "averse", "fr": "averse", "pos": "noun", "g": "f", "ipa": "a.vɛʁs", "en": "shower (of rain), downpour", "def": "Une pluie forte et courte, qui arrive d'un coup.", "def_en": "Heavy, brief rain that comes all at once.", "forms": ["averses"], "examples": [
+      {"fr": "Une **averse** tombe à midi.", "en": "A shower falls at noon."},
+      {"fr": "On attend sous un chêne la fin de l'**averse**.", "en": "We wait under an oak for the downpour to end."},
+      {"fr": "Après l'**averse**, il y a un arc-en-ciel.", "en": "After the shower, there's a rainbow."}]},
+    {"id": "boue", "fr": "boue", "pos": "noun", "g": "f", "ipa": "bu", "en": "mud", "def": "De la terre mélangée avec de l'eau.", "def_en": "Earth mixed with water.", "forms": ["boues"], "examples": [
+      {"fr": "Hugo glisse dans la **boue**.", "en": "Hugo slips in the mud."},
+      {"fr": "Les bottes de Lou sont pleines de **boue**.", "en": "Lou's boots are covered in mud."},
+      {"fr": "Max se roule dans la **boue**.", "en": "Max rolls in the mud."}]},
+    {"id": "impermeable", "fr": "imperméable", "pos": "noun", "g": "m", "ipa": "ɛ̃.pɛʁ.me.abl", "en": "raincoat; (adj) waterproof", "def": "Un manteau léger qui protège de la pluie.", "def_en": "A light coat that protects you from the rain.", "note": "Also an adjective: *une veste imperméable* = a waterproof jacket.", "forms": ["imperméables"], "examples": [
+      {"fr": "Mets ton **imperméable**, il va pleuvoir.", "en": "Put your raincoat on, it's going to rain."},
+      {"fr": "Hugo a oublié son **imperméable**.", "en": "Hugo has forgotten his raincoat."},
+      {"fr": "Lou porte un **imperméable** jaune.", "en": "Lou is wearing a yellow raincoat."}]},
+    {"id": "citrouille", "fr": "citrouille", "pos": "noun", "g": "f", "ipa": "si.tʁuj", "en": "pumpkin", "def": "Un gros légume rond et orange, qu'on vide pour Halloween.", "def_en": "A big round orange vegetable that's hollowed out for Halloween.", "forms": ["citrouilles"], "examples": [
+      {"fr": "Lou fait une tête de monstre dans une **citrouille**.", "en": "Lou carves a monster's face in a pumpkin."},
+      {"fr": "La soupe de **citrouille**, c'est la spécialité de Manon.", "en": "Pumpkin soup is Manon's speciality."},
+      {"fr": "Dans le conte, la **citrouille** devient une voiture pour Cendrillon.", "en": "In the fairy tale, the pumpkin turns into a coach for Cinderella."}]}
+  ],
+  "story": {
+    "title": "Le champignon blanc",
+    "en": "Saturday 23 October, the All Saints' holidays: mushroom picking near Pierre's farm.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-trois octobre, c'est le début des vacances de la Toussaint. Lou et ses parents passent quelques jours à la ferme de Pierre, et Léa et Hugo les rejoignent pour le week-end.", "en": "On Saturday 23 October, the All Saints' holidays begin. Lou and her parents are spending a few days at Pierre's farm, and Léa and Hugo join them for the weekend."},
+      {"sp": "", "fr": "Le matin, il y a du brouillard dans la vallée. Pierre a une idée : la cueillette des champignons.", "en": "In the morning, there's fog in the valley. Pierre has an idea: mushroom picking."},
+      {"sp": "Pierre", "fr": "Mettez vos bottes et vos imperméables. Dans le bois, il y a de la boue partout.", "en": "Put on your boots and raincoats. In the woods, there's mud everywhere."},
+      {"sp": "", "fr": "Sous les grands chênes, les feuilles mortes sont jaunes, rouges et brunes. Lou saute dedans en criant.", "en": "Under the big oaks, the fallen leaves are yellow, red and brown. Lou jumps into them, shouting."},
+      {"sp": "Pierre", "fr": "Doucement, Lou ! En automne, il y a des chasseurs. On porte de l'[orange|orange], et on parle fort.", "en": "Gently, Lou! In autumn there are hunters about. We wear orange, and we talk loudly."},
+      {"sp": "", "fr": "Un écureuil saute d'un tronc à l'autre, un gland dans la bouche. Lou court après lui.", "en": "A squirrel leaps from one trunk to the next, an acorn in its mouth. Lou runs after it."},
+      {"sp": "Lou", "fr": "Pourquoi il cache des glands ?", "en": "Why is it hiding acorns?"},
+      {"sp": "Léa", "fr": "Pour l'hiver. Comme Hugo avec le chocolat.", "en": "For the winter. Like Hugo with chocolate."},
+      {"sp": "", "fr": "Pierre trouve le premier cèpe, énorme, sous un chêne. Lou trouve des girolles dans la mousse.", "en": "Pierre finds the first cep, an enormous one, under an oak. Lou finds chanterelles in the moss."},
+      {"sp": "Pierre", "fr": "Les cèpes, les girolles : ça, c'est comestible. Les autres, on ne les touche pas.", "en": "Ceps, chanterelles: those are edible. The others, we don't touch."},
+      {"sp": "", "fr": "Hugo, lui, revient avec un champignon tout blanc, très beau.", "en": "Hugo comes back with a pure white mushroom, a very beautiful one."},
+      {"sp": "Hugo", "fr": "Regardez ! Le plus beau de la forêt !", "en": "Look! The most beautiful one in the forest!"},
+      {"sp": "Pierre", "fr": "Le plus beau… et le plus dangereux. Celui-là est vénéneux. Lâche-le tout de suite.", "en": "The most beautiful… and the most dangerous. That one's poisonous. Drop it right now."},
+      {"sp": "", "fr": "Soudain, quelque chose bouge dans les fougères. Un sanglier sort du bois, regarde Hugo… et repart.", "en": "Suddenly, something moves in the bracken. A wild boar comes out of the woods, looks at Hugo… and goes back in."},
+      {"sp": "", "fr": "Hugo recule et glisse dans la boue. Lou rit si fort qu'une biche s'enfuit au loin.", "en": "Hugo steps back and slips in the mud. Lou laughs so loudly that a doe runs off in the distance."},
+      {"sp": "Lou", "fr": "Et le papa de la biche, c'est le cerf ?", "en": "And the doe's daddy is the stag?"},
+      {"sp": "Pierre", "fr": "Oui. En octobre, on l'entend crier la nuit.", "en": "Yes. In October, you can hear him roaring at night."},
+      {"sp": "", "fr": "À midi, une averse tombe. Ils attendent sous un grand chêne, assis sur un tronc, avec du pain et du fromage de Jules et Manon.", "en": "At noon, a downpour comes. They wait under a big oak, sitting on a log, with bread and Jules and Manon's cheese."},
+      {"sp": "", "fr": "Sous les feuilles, Lou trouve un hérisson, qui se met en boule. Elle veut l'appeler Minou.", "en": "Under the leaves, Lou finds a hedgehog, which rolls into a ball. She wants to call it Minou."},
+      {"sp": "Léa", "fr": "Lou, tous tes animaux s'appellent Minou.", "en": "Lou, all your animals are called Minou."},
+      {"sp": "", "fr": "Sur le chemin du retour, Lou remplit ses poches de châtaignes. Ce soir, on les fera cuire dans le feu.", "en": "On the way back, Lou fills her pockets with chestnuts. Tonight they'll roast them in the fire."},
+      {"sp": "", "fr": "Au village, ils passent à la pharmacie. Le pharmacien vérifie le panier, champignon par champignon.", "en": "In the village, they call in at the chemist's. The pharmacist checks the basket, mushroom by mushroom."},
+      {"sp": "Le pharmacien", "fr": "Cèpes, girolles : très bien. Mais qui a ramassé celui-ci ? Il est vénéneux.", "en": "Ceps, chanterelles: very good. But who picked this one? It's poisonous."},
+      {"sp": "", "fr": "Tout le monde regarde Hugo. Il a encore gardé le beau champignon blanc, « pour la photo ».", "en": "Everyone looks at Hugo. He has kept the beautiful white mushroom after all, 'for the photo'."},
+      {"sp": "", "fr": "Le soir, Manon fait une omelette aux cèpes, et Lou fait une tête de monstre dans une citrouille, pour Halloween.", "en": "In the evening, Manon makes a cep omelette, and Lou carves a monster's face in a pumpkin, for Halloween."},
+      {"sp": "Lou", "fr": "Tonton Pierre, demain, on retourne dans la forêt ? Je veux voir le cerf !", "en": "Uncle Pierre, can we go back to the forest tomorrow? I want to see the stag!"},
+      {"sp": "Pierre", "fr": "Demain, si le brouillard part. Et sans les champignons de Hugo.", "en": "Tomorrow, if the fog lifts. And without Hugo's mushrooms."}
+    ]
+  }
+}
