@@ -8,7 +8,7 @@
   "cases": [
     {"id": "qq-quoi", "label": "quoi que: whatever", "rule": "*Quoi que* (two words) + subjunctive means *whatever*: *Quoi que tu fasses, je serai là. Quoi qu'il arrive, on reste amis.* *Que* becomes *qu'* before *il, elle, on*. With a noun subject, the noun often comes after the verb: *Quoi que disent les résultats…*"},
     {"id": "qq-ou", "label": "où que: wherever", "rule": "*Où que* + subjunctive means *wherever*: *Où que nous soyons dans dix ans… Où que tu ailles, je te suivrai.* Compare *n'importe où* (Unit 47), which needs no verb: *on dort n'importe où*."},
-    {"id": "qq-qui", "label": "qui que: whoever", "rule": "*Qui que* + *être* in the subjunctive means *whoever (you are)*: *Qui que tu sois, entre ! Qui que nous soyons, nous sommes une famille.* For *whoever does something*, say *qui que ce soit qui*: *Qui que ce soit qui arrive le dernier paiera le champagne.*"},
+    {"id": "qq-qui", "label": "qui que: whoever", "rule": "*Qui que* + *être* in the subjunctive means *whoever (you are)*: *Qui que tu sois, entre ! Qui que nous soyons, nous sommes une famille.* For *whoever does something*, say *qui que ce soit qui*: *Qui que ce soit qui arrive le dernier, il paiera le champagne.*"},
     {"id": "qq-si", "label": "si + adjective + que: however…", "rule": "*Si* + adjective + *que* + subjunctive means *however (adjective)*: *Si vieux que je sois, je retournerai voir la mer. Si difficile que ce soit, je commence demain.* The adjective agrees as usual: *si fatigués qu'ils soient*."},
     {"id": "qq-quoique", "label": "quoique (although) or quoi que (whatever)?", "rule": "*Quoique* in one word means *although*, like *bien que*: *Quoique ma grammaire soit encore fragile, j'écris en français.* If you can say *bien que*, write *quoique*; if you mean *whatever*, write *quoi que*. Both take the subjunctive."}
   ],
@@ -32,10 +32,10 @@
     {"title": "3. qui que: whoever", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
       ["Qui que tu sois, entre !", "Whoever you are, come in!"],
       ["Qui que nous soyons, nous sommes une famille.", "Whoever we are, we're a family."],
-      ["Qui que ce soit qui arrive le dernier paiera.", "Whoever arrives last will pay."]]},
+      ["Qui que ce soit qui arrive le dernier, il paiera.", "Whoever arrives last will pay."]]},
      "examples": [
       {"fr": "Anglais, Espagnole ou Lyonnais, {qui que nous soyons|qq-qui}, ce soir nous sommes une famille.", "en": "English, Spanish or from Lyon, whoever we are, tonight we're a family."},
-      {"fr": "Et {qui que ce soit qui arrive le dernier|qq-qui} paiera le champagne !", "en": "And whoever arrives last pays for the champagne!"}],
+      {"fr": "Et {qui que ce soit qui arrive le dernier|qq-qui}, il paiera le champagne !", "en": "And whoever arrives last pays for the champagne!"}],
      "tip": "Qui que + être: whoever you are. For whoever does something: qui que ce soit qui."},
     {"title": "4. si + adjective + que: however…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
       ["Si vieux que je sois, je retournerai voir la mer.", "However old I am, I'll go back to see the sea."],
@@ -70,7 +70,7 @@
       {"sp": "Jules", "fr": "Vous vous souvenez ? Vos lettres sont toujours là, derrière cette pierre.", "en": "Remember? Your letters are still there, behind this stone."},
       {"sp": "Léa", "fr": "{Où que nous soyons|qq-ou} le jour où on les ouvrira, on se retrouve ici. Promis ?", "en": "Wherever we are on the day we open them, we meet here. Promise?"},
       {"sp": "Tom", "fr": "Promis. {Quoi qu'il arrive|qq-quoi}.", "en": "Promise. Whatever happens."},
-      {"sp": "Hugo", "fr": "Et {qui que ce soit qui arrive le dernier|qq-qui} paiera le champagne !", "en": "And whoever arrives last pays for the champagne!"},
+      {"sp": "Hugo", "fr": "Et {qui que ce soit qui arrive le dernier|qq-qui}, il paiera le champagne !", "en": "And whoever arrives last pays for the champagne!"},
       {"sp": "Carla", "fr": "Alors c'est toi qui paieras, mon chéri, {quoi que tu fasses|qq-quoi}.", "en": "Then you'll be the one paying, darling, whatever you do."},
       {"sp": "", "fr": "À minuit, tout le monde s'embrasse : bonne année ! Puis chacun fait un vœu pour la nouvelle année.", "en": "At midnight, everyone kisses: happy New Year! Then each of them makes a wish for the new year."},
       {"sp": "Pierre", "fr": "Moi d'abord. {Si vieux que je sois|qq-si}, je retournerai voir la mer du Nord. Une semaine, cette fois !", "en": "Me first. However old I am, I'll go back to see the North Sea. A whole week, this time!"},
@@ -96,8 +96,8 @@
     {"case": "qq-quoi", "type": "mc", "q": "___, on reste amis.", "en": "Whatever happens, we stay friends.", "options": ["Quoi qu'il arrive", "Quoi qu'il arrivera", "Quoi que il arrive"], "answer": "Quoi qu'il arrive"},
     {"case": "qq-ou", "type": "mc", "q": "Où que nous ___ dans dix ans, on se retrouve ici.", "en": "Wherever we are in ten years, we meet here.", "options": ["soyons", "sommes", "serons"], "answer": "soyons"},
     {"case": "qq-ou", "type": "mc", "q": "Où que tu ___, je te suivrai.", "en": "Wherever you go, I'll follow you.", "options": ["ailles", "vas", "iras"], "answer": "ailles"},
-    {"case": "qq-qui", "type": "mc", "q": "___ nous soyons, ce soir nous sommes une famille.", "en": "Whoever we are, tonight we're a family.", "options": ["Qui que", "Quoi que", "Quoique"], "answer": "Qui que"},
-    {"case": "qq-qui", "type": "mc", "q": "Qui que ce soit qui ___ le dernier paiera le champagne.", "en": "Whoever arrives last will pay for the champagne.", "options": ["arrive", "arrivera", "arrivé"], "answer": "arrive"},
+    {"case": "qq-qui", "type": "mc", "q": "___ nous soyons, ce soir nous sommes une famille.", "en": "Whoever we are, tonight we're a family.", "options": ["Qui que", "Quoique", "Si"], "answer": "Qui que"},
+    {"case": "qq-qui", "type": "mc", "q": "Qui que ce soit qui ___ le dernier, il paiera le champagne.", "en": "Whoever arrives last will pay for the champagne.", "options": ["arrive", "arrivera", "arrivé"], "answer": "arrive"},
     {"case": "qq-si", "type": "mc", "q": "Si vieux que je ___, je retournerai voir la mer.", "en": "However old I am, I'll go back to see the sea.", "options": ["sois", "suis", "serai"], "answer": "sois"},
     {"case": "qq-si", "type": "mc", "q": "___ difficile que ce soit, je commence demain.", "en": "However hard it is, I'm starting tomorrow.", "options": ["Si", "Très", "Quoi"], "answer": "Si"},
     {"case": "qq-quoique", "type": "mc", "q": "___ ma grammaire soit encore fragile, j'écris en français.", "en": "Although my grammar is still shaky, I write in French.", "options": ["Quoique", "Quoi que", "Où que"], "answer": "Quoique"},

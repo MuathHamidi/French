@@ -9,7 +9,7 @@
     {"id": "bande", "fr": "bande", "pos": "noun", "g": "f", "ipa": "bɑ̃d", "en": "gang, group (of friends); strip, band", "def": "Un groupe de personnes qui font des choses ensemble ; un long morceau étroit de tissu ou de papier.", "def_en": "A group of people who do things together; a long, narrow strip of cloth or paper.", "note": "*Une bande dessinée* = a comic book.", "forms": ["bandes"], "examples": [
       {"fr": "Le plus beau cadeau, c'est la **bande**.", "en": "The best present is the gang."},
       {"fr": "Une **bande** de tissu autour du genou.", "en": "A strip of cloth round the knee."},
-      {"fr": "Ils sont une **bande** d'amis depuis la fac.", "en": "They've been a group of friends since university."}]},
+      {"fr": "La **bande** se retrouve au café d'en bas.", "en": "The gang meets up at the café downstairs."}]},
     {"id": "toile", "fr": "toile", "pos": "noun", "g": "f", "ipa": "twal", "en": "canvas; cloth; (la Toile) the Web", "def": "Un tissu solide ; le tissu sur lequel on peint un tableau.", "def_en": "A strong fabric; the fabric a picture is painted on.", "note": "*La Toile* = the Web.", "forms": ["toiles"], "examples": [
       {"fr": "Mathis lui offre une **toile** et des pinceaux.", "en": "Mathis gives her a canvas and some brushes."},
       {"fr": "Une tente en **toile**.", "en": "A canvas tent."},
@@ -97,10 +97,10 @@
     {"id": "fierte", "fr": "fierté", "pos": "noun", "g": "f", "ipa": "fjɛʁ.te", "en": "pride", "def": "Le sentiment de joie quand on est content de soi ou des autres.", "def_en": "The joy you feel when you're pleased with yourself or with others.", "examples": [
       {"fr": "Sophie regarde ses amis avec **fierté**.", "en": "Sophie looks at her friends with pride."},
       {"fr": "Ses enfants sont sa **fierté**.", "en": "Her children are her pride."},
-      {"fr": "Il a avalé sa **fierté**.", "en": "He swallowed his pride."}]},
+      {"fr": "Madame Fournier parle d'Enzo avec **fierté**.", "en": "Madame Fournier talks about Enzo with pride."}]},
     {"id": "aventure", "fr": "aventure", "pos": "noun", "g": "f", "ipa": "a.vɑ̃.tyʁ", "en": "adventure", "def": "Une suite d'événements extraordinaires ou dangereux.", "def_en": "A series of extraordinary or dangerous events.", "forms": ["aventures"], "examples": [
       {"fr": "Ça, c'est une autre **aventure**.", "en": "That's another story."},
-      {"fr": "Un film d'**aventure**.", "en": "An adventure film."},
+      {"fr": "Un film d'**aventures**.", "en": "An adventure film."},
       {"fr": "Partir à l'**aventure**.", "en": "To head off into the unknown."}]},
     {"id": "chaleur", "fr": "chaleur", "pos": "noun", "g": "f", "ipa": "ʃa.lœʁ", "en": "heat, warmth", "def": "Ce qu'on sent près du feu ou au soleil ; une manière gentille de recevoir les gens.", "def_en": "What you feel by the fire or in the sun; a kind way of welcoming people.", "examples": [
       {"fr": "Tout le monde profite de la **chaleur** du feu.", "en": "Everyone enjoys the warmth of the fire."},
@@ -113,16 +113,16 @@
     "dialogue": true,
     "lines": [
       {"sp": "", "fr": "Le jeudi trente décembre, Hugo conduit Léa, Carla et Sophie de Paris jusqu'à la ferme de Pierre. C'est l'anniversaire de Sophie.", "en": "On Thursday 30 December, Hugo drives Léa, Carla and Sophie from Paris to Pierre's farm. It's Sophie's birthday."},
-      {"sp": "", "fr": "Après Annecy, la route du col est fermée, et la neige couvre les prés.", "en": "After Annecy, the road over the pass is closed, and snow covers the meadows."},
-      {"sp": "", "fr": "Au village, Jules les attend avec le tracteur : la route de la ferme est sous la neige. Les valises voyagent dans la paille.", "en": "In the village, Jules is waiting for them with the tractor: the road to the farm is under snow. The suitcases travel in the straw."},
+      {"sp": "", "fr": "Après Annecy, la neige couvre les prés, et la route du col est fermée : Hugo s'arrête au village.", "en": "After Annecy, snow covers the meadows, and the road over the pass is closed: Hugo stops in the village."},
+      {"sp": "", "fr": "Jules les attend avec le tracteur : la route de la ferme est sous la neige. Les valises voyagent dans la paille.", "en": "Jules is waiting for them with the tractor: the road to the farm is under snow. The suitcases travel in the straw."},
       {"sp": "Jules", "fr": "Sur cette route, c'est la zone blanche : pas de réseau pendant vingt minutes.", "en": "This road is a dead zone: no signal for twenty minutes."},
       {"sp": "Hugo", "fr": "Vingt minutes sans réseau ? Quel ennui !", "en": "Twenty minutes without a signal? How boring!"},
-      {"sp": "Pierre", "fr": "L'ennui, à la ferme ? Jamais. Allez, les gars, venez au chaud !", "en": "Bored, on a farm? Never. Come on, lads, come in where it's warm!"},
+      {"sp": "Pierre", "fr": "L'ennui, à la ferme ? Jamais. Allez, les filles, venez au chaud ! Toi aussi, mon gars.", "en": "Bored, on a farm? Never. Come on, girls, come in where it's warm! You too, lad."},
       {"sp": "", "fr": "Dans la cuisine, un grand feu brûle : c'est le cœur du foyer. Tout le monde se met en cercle pour profiter de la chaleur.", "en": "In the kitchen, a big fire is burning: it's the heart of the home. Everyone sits in a circle to enjoy the warmth."},
       {"sp": "", "fr": "Le soir, Tom, Camille et Mathis arrivent d'Annecy par le dernier train. Sophie ne savait pas que Mathis venait.", "en": "In the evening, Tom, Camille and Mathis arrive from Annecy on the last train. Sophie didn't know Mathis was coming."},
       {"sp": "Sophie", "fr": "Mathis ? En chair et en os ? On ne s'est pas vus depuis une éternité !", "en": "Mathis? In the flesh? We haven't seen each other for ages!"},
       {"sp": "Mathis", "fr": "Depuis une semaine. Mais une semaine sans toi, c'est une éternité.", "en": "For a week. But a week without you is an eternity."},
-      {"sp": "", "fr": "Au dîner, Manon sert des cuisses de poulet, et tout le monde a un appétit énorme.", "en": "At dinner, Manon serves chicken legs, and everyone has an enormous appetite."},
+      {"sp": "", "fr": "Au dîner, Manon sert des cuisses de poulet, et une tarte aux légumes pour Sophie, qui ne mange pas de viande. Tout le monde a un appétit énorme.", "en": "At dinner, Manon serves chicken legs, and a vegetable tart for Sophie, who doesn't eat meat. Everyone has an enormous appetite."},
       {"sp": "Manon", "fr": "À ce propos… où est le gâteau d'anniversaire ?", "en": "Speaking of which… where's the birthday cake?"},
       {"sp": "", "fr": "Biquette, ce petit diable, [entrée|entrer] par la porte du jardin, en a mangé la moitié !", "en": "Biquette, the little devil, has come in through the garden door and eaten half of it!"},
       {"sp": "Manon", "fr": "Heureusement, il reste l'autre moitié. Et les bougies !", "en": "Luckily, there's still the other half. And the candles!"},
