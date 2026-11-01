@@ -133,6 +133,8 @@ FIXES = {
     "cobaye": "kɔbˈaj", "cobayes": "kɔbˈaj",  # the voice says /kobɛj/
     "vécut": "vekˈy", "vécus": "vekˈy",  # the voice reads vécut in English and says the s of vécus
     "louis xiv": "lwˈi katˈɔʁz",  # the voice reads "Louis quatorze romain"
+    "brunch": "bʁˈœnʃ", "brunchs": "bʁˈœnʃ", "tee-shirt": "tiʃˈœʁt", "tee-shirts": "tiʃˈœʁt",  # otherwise read in English
+    "donnent plus de lait": "dˈɔn plˈys də lˈɛ", "plus de lait, peut-être": "plˈys də lˈɛ, pøtˈɛtʁ",  # plus (more) keeps its s (not in ne… plus de lait)
     "jésus-christ": "ʒezykʁˈi",  # the voice says the st of Christ
     "moyen âge": "mwajɛnˈaʒ",  # with the liaison; the voice says /mwajɛ̃ aʒ/
     "jadis": "ʒadˈis",  # the voice drops the s

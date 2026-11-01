@@ -1,0 +1,105 @@
+{
+  "id": "u53-au-point-que",
+  "type": "grammar",
+  "unit": 53,
+  "title": "Au point d'être en rupture de stock",
+  "en": "Consequence and intensity at C1: trop… pour que, au point que, à tel point que, un tel… que, d'où",
+  "intro": "Unit 37 gave you *si bien que, si… que, tellement… que* to say *so… that*. This lesson adds the careful forms of a consequence that comes from intensity. **Trop** or **assez** + adjective takes ***pour*** + infinitive, or ***pour que*** + subjunctive when the subject changes (*trop grande **pour que** je la porte*). **Au point de** + infinitive and **au point que** + indicative push a fact to its result, and **à tel point que, tant et si bien que** and **un tel / une telle** + noun + *que* say *so much so that, such… that*. **D'où** and **de là** + noun give the consequence with no verb (*d'où la rupture de stock*). Finally **de sorte que, de façon que** take the indicative for a result and the subjunctive for a purpose. *Tant et si bien que* and *de là* belong to written or careful French.",
+  "cases": [
+    {"id": "ap-trop", "label": "trop… pour, assez… pour que", "rule": "*Trop, assez, suffisamment* + adjective or adverb (or *trop de, assez de* + noun), then *pour* + infinitive when the subject stays the same, *pour que* + subjunctive when it changes: *Inès est trop émue pour parler. La robe était trop grande pour que je la porte. Il y avait assez de monde pour que je sois célèbre.* Never *trop… que*."},
+    {"id": "ap-point", "label": "au point de, au point que: so much that", "rule": "*Au point de* + infinitive (same subject) and *au point que* + indicative push a fact to its result: *Elle rit au point d'en pleurer* (she laughs till she cries). *Ta pub a circulé au point que même la maîtresse de Lou la connaît.*"},
+    {"id": "ap-tel", "label": "à tel point que, tant et si bien que, un tel… que", "rule": "*À tel point que* (so much so that) and *tant et si bien que* (so much so that, in the end) + indicative usually come after a comma: *Les gens attendent sur le trottoir, à tel point que la police en ferme une partie.* Before a noun, use *un tel, une telle, de tels, de telles* + noun + *que*: *Il y a une telle foule qu'on ne voit plus les flacons.* Never *une si foule*: *si* goes with adjectives and adverbs."},
+    {"id": "ap-d-ou", "label": "d'où, de là: hence", "rule": "*D'où* and *de là* + noun give the consequence with no verb: *Les clients ont tout acheté, d'où la rupture de stock. L'éternuement est vrai, de là son succès.* With a verb, say *c'est pourquoi* or *c'est pour ça que*. Don't confuse them with *d'où viens-tu ?* (where from?) and *de là* (from there)."},
+    {"id": "ap-sorte", "label": "de sorte que: result or purpose", "rule": "*De sorte que, de façon que, de telle sorte que* + indicative state a result: *Elle éternue, de sorte que toute la parfumerie lui répond.* With the subjunctive they state a purpose (so that): *Paul prend Lou sur ses épaules, de façon qu'elle voie Inès.*"}
+  ],
+  "sections": [
+    {"title": "1. trop… pour, assez… pour que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["La robe était trop grande pour que je la porte.", "The dress was too big for me to wear."],
+      ["Inès est trop émue pour parler.", "Inès is too moved to speak."],
+      ["Il parle suffisamment fort pour qu'on l'entende.", "He speaks loud enough for us to hear him."]]},
+     "examples": [
+      {"fr": "Elle était {trop grande pour que je la porte|ap-trop}.", "en": "It was too big for me to wear."},
+      {"fr": "Inès est {trop émue pour parler|ap-trop}.", "en": "Inès is too moved to speak."}],
+     "tip": "Same subject: pour + infinitive. A new subject: pour que + subjunctive. Never trop… que."},
+    {"title": "2. au point de, au point que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Elle a ri au point de pleurer.", "She laughed so much she cried."],
+      ["Elle rit au point d'en pleurer.", "She laughs till she cries."],
+      ["La vidéo a circulé au point que tout le monde la connaît.", "The video went round so much that everyone knows it."]]},
+     "examples": [
+      {"fr": "Madame Rey rit {au point d'en pleurer|ap-point}.", "en": "Madame Rey laughs till she cries."},
+      {"fr": "Ta pub a circulé partout, {au point que même la maîtresse de Lou la connaît|ap-point} !", "en": "Your advert has gone round everywhere, so much so that even Lou's teacher knows it!"}],
+     "tip": "Au point de + infinitive, au point que + a conjugated verb in the indicative."},
+    {"title": "3. à tel point que, tant et si bien que, un tel… que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il y avait une telle foule qu'on ne voyait plus rien.", "There was such a crowd you couldn't see a thing."],
+      ["On en a parlé partout, à tel point que la pub concurrente est oubliée.", "It was talked about everywhere, so much so that the rival advert has been forgotten."],
+      ["Il a insisté, tant et si bien qu'elle a fini par accepter.", "He kept on insisting, so much so that she ended up accepting."]]},
+     "examples": [
+      {"fr": "À l'intérieur, {il y a une telle foule qu'on ne voit plus les flacons|ap-tel}.", "en": "Inside, there's such a crowd that you can't see the bottles any more."},
+      {"fr": "Les gens attendent sur le trottoir, {à tel point que la police en [ferme|fermer] une partie|ap-tel}.", "en": "People are waiting on the pavement, so much so that the police close part of it off."}],
+     "tip": "Before a noun: un tel, une telle… que. Before an adjective or adverb: si… que."},
+    {"title": "4. d'où, de là: hence", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tout le monde veut le parfum, [d'où|d-ou-hence] la rupture de stock.", "Everyone wants the perfume, hence the shortage."],
+      ["L'éternuement est vrai, [de là|de-la-hence] son succès.", "The sneeze is real, hence its success."],
+      ["Elle est très émue, c'est pourquoi elle ne parle pas.", "She's very moved, which is why she isn't speaking."]]},
+     "examples": [
+      {"fr": "Les clients ont acheté tout le premier stock en trois jours, {[d'où|d-ou-hence] la rupture de stock|ap-d-ou} le jour du lancement !", "en": "Customers bought the whole first stock in three days, hence the shortage on launch day!"},
+      {"fr": "Ici, tout le café regarde avec nous, {[d'où|d-ou-hence] le bruit|ap-d-ou} !", "en": "The whole café is watching with us here, hence the noise!"}],
+     "tip": "D'où and de là are followed by a noun. With a whole clause, say c'est pourquoi."},
+    {"title": "5. de sorte que: result or purpose", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Elle a éternué, de sorte que tout le monde a ri.", "She sneezed, so everyone laughed."],
+      ["Parle fort, de sorte qu'on t'entende.", "Speak up, so that we can hear you."],
+      ["Elle s'est placée de telle sorte que tout le monde la voyait.", "She stood in such a way that everyone could see her."]]},
+     "examples": [
+      {"fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers « Bless you! »"},
+      {"fr": "Paul prend Lou sur ses épaules, {de façon qu'elle voie Inès|ap-sorte}.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès."}],
+     "tip": "Indicative: what happened (result). Subjunctive: what someone wants to happen (purpose)."}
+  ],
+  "mistakes": [
+    {"wrong": "La robe est trop grande que Inès la porte.", "right": "La robe est trop grande pour qu'Inès la porte.", "why": "Trop… is followed by pour que (+ subjunctive), not que."},
+    {"wrong": "Il y avait une si foule qu'on ne voyait rien.", "right": "Il y avait une telle foule qu'on ne voyait rien.", "why": "Before a noun, use un tel / une telle; si goes before an adjective or an adverb."},
+    {"wrong": "Elle a ri au point que pleurer.", "right": "Elle a ri au point de pleurer.", "why": "Au point de + infinitive; au point que needs a conjugated verb (au point qu'elle a pleuré)."},
+    {"wrong": "Tout le monde le veut, d'où le stock est épuisé.", "right": "Tout le monde le veut, d'où la rupture de stock.", "why": "D'où is followed by a noun, not a clause; with a clause, say c'est pourquoi."}
+  ],
+  "story": {
+    "title": "Au point d'être en rupture de stock",
+    "en": "Thursday 10 March: « Neige de Grasse » is launched in Paris, already sold out, and Hugo crowns Inès the queen of the sneeze by video.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi dix mars, à sept heures du soir, une grande parfumerie de Paris lance « Neige de Grasse ».", "en": "On Thursday 10 March, at seven in the evening, a big Paris perfumery launches « Neige de Grasse »."},
+      {"sp": "", "fr": "Dehors, les gens attendent sur le trottoir, {à tel point que la police en [ferme|fermer] une partie|ap-tel}.", "en": "Outside, people are waiting on the pavement, so much so that the police close part of it off."},
+      {"sp": "", "fr": "À l'intérieur, {il y a une telle foule qu'on ne voit plus les flacons|ap-tel}. Paul et Lou ont trouvé une place près de la porte.", "en": "Inside, there's such a crowd that you can't see the bottles any more. Paul and Lou have found a spot near the door."},
+      {"sp": "Paul", "fr": "Inès, tu te rends compte ? Depuis lundi, ta pub passe tous les soirs, {tant et si bien qu'on a oublié la pub de la marque concurrente, celle qui crie|ap-tel}.", "en": "Inès, do you realise? Since Monday your advert has been on every evening, so much so that everyone has forgotten the rival brand's advert, the one that shouts."},
+      {"sp": "Paul", "fr": "Et ton éternuement a circulé partout sur internet, {au point que même la maîtresse de Lou le connaît|ap-point} !", "en": "And your sneeze has gone round everywhere on the internet, so much so that even Lou's teacher knows it!"},
+      {"sp": "Lou", "fr": "Elle éternue comme toi pour nous faire rire !", "en": "She sneezes like you to make us laugh!"},
+      {"sp": "", "fr": "Madame Rey arrive avec la femme de l'agence, qui a une grande nouvelle.", "en": "Madame Rey arrives with the woman from the agency, who has big news."},
+      {"sp": "La femme de l'agence", "fr": "Depuis lundi soir, on pouvait commander le parfum sur internet. Les clients ont acheté tout le premier stock en trois jours, {[d'où|d-ou-hence] la rupture de stock|ap-d-ou} le jour du lancement !", "en": "Since Monday evening, people could order the perfume online. Customers bought the whole first stock in three days, hence the shortage on launch day!"},
+      {"sp": "", "fr": "Madame Rey rit {au point d'en pleurer|ap-point}.", "en": "Madame Rey laughs till she cries."},
+      {"sp": "Madame Rey", "fr": "Mon parfum ne crie pas. Il éternue ! Les gens sentent que cet éternuement est vrai. {[De là|de-la-hence] le succès|ap-d-ou}.", "en": "My perfume doesn't shout. It sneezes! People can tell this sneeze is real. Hence the success."},
+      {"sp": "", "fr": "Le jeune créateur de la robe n'en revient pas : elle va parfaitement à Inès.", "en": "The young designer of the dress can't get over it: it fits Inès perfectly."},
+      {"sp": "Inès", "fr": "Elle était {trop grande pour que je la porte|ap-trop}. Une dame de quatre-vingt-onze ans l'a [retouchée|retoucher] en un après-midi.", "en": "It was too big for me to wear. A lady of ninety-one altered it in one afternoon."},
+      {"sp": "Inès", "fr": "Et elle m'a dit de respirer quand même ce soir. Alors je respire… doucement.", "en": "And she told me to breathe all the same tonight. So I'm breathing… gently."},
+      {"sp": "", "fr": "Paul prend Lou sur ses épaules, {de façon qu'elle voie Inès|ap-sorte}.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès."},
+      {"sp": "Lou", "fr": "Inès, tu peux éternuer ? Un vrai, comme à la télé !", "en": "Inès, can you sneeze? A real one, like on TV!"},
+      {"sp": "", "fr": "Inès est {trop émue pour parler|ap-trop}. Elle ferme les yeux, et l'odeur du parfum lui chatouille le nez…", "en": "Inès is too moved to speak. She closes her eyes, and the smell of the perfume tickles her nose…"},
+      {"sp": "", "fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers « Bless you! »"},
+      {"sp": "Madame Rey", "fr": "Pas si fort ! Dans la pub, on le dit tout bas.", "en": "Not so loud! In the advert, we say it in a whisper."},
+      {"sp": "", "fr": "Sur le téléphone de Paul, Hugo, Carla, Léa, Sophie et Tom applaudissent depuis le café d'en bas, à Lyon.", "en": "On Paul's phone, Hugo, Carla, Léa, Sophie and Tom are applauding from the café downstairs, in Lyon."},
+      {"sp": "Tom", "fr": "Ici, tout le café regarde avec nous, {[d'où|d-ou-hence] le bruit|ap-d-ou} !", "en": "The whole café is watching with us here, hence the noise!"},
+      {"sp": "", "fr": "Hugo met une couronne en papier sur sa tête et lève son verre.", "en": "Hugo puts a paper crown on his head and raises his glass."},
+      {"sp": "Hugo", "fr": "Inès, je te nomme reine de l'éternuement !", "en": "Inès, I name you queen of the sneeze!"},
+      {"sp": "Inès", "fr": "Il y avait {assez de monde ce soir pour que je sois enfin célèbre|ap-trop}… pour un éternuement !", "en": "There were enough people tonight for me to be famous at last… for a sneeze!"}
+    ]
+  },
+  "quiz": [
+    {"case": "ap-trop", "type": "mc", "q": "Elle était trop grande ___ je la porte.", "en": "It was too big for me to wear.", "options": ["pour que", "que", "pour"], "answer": "pour que"},
+    {"case": "ap-trop", "type": "mc", "q": "Inès est trop émue ___ parler.", "en": "Inès is too moved to speak.", "options": ["pour", "que", "de"], "answer": "pour"},
+    {"case": "ap-point", "type": "mc", "q": "Madame Rey rit ___ d'en pleurer.", "en": "Madame Rey laughs till she cries.", "options": ["au point", "à tel point", "si bien"], "answer": "au point"},
+    {"case": "ap-point", "type": "mc", "q": "Ton éternuement a circulé partout, au point ___ même la maîtresse de Lou le connaît.", "en": "Your sneeze has gone round everywhere, so much so that even Lou's teacher knows it.", "options": ["que", "de", "où"], "answer": "que"},
+    {"case": "ap-tel", "type": "mc", "q": "Il y a une ___ foule qu'on ne voit plus les flacons.", "en": "There's such a crowd that you can't see the bottles any more.", "options": ["telle", "si", "tellement"], "answer": "telle"},
+    {"case": "ap-tel", "type": "mc", "q": "Les gens attendent sur le trottoir, à ___ point que la police en [ferme|fermer] une partie.", "en": "People are waiting on the pavement, so much so that the police close part of it off.", "options": ["tel", "si", "tant"], "answer": "tel"},
+    {"case": "ap-d-ou", "type": "mc", "q": "Les clients ont acheté tout le stock, ___ la rupture de stock.", "en": "Customers bought the whole stock, hence the shortage.", "options": ["d'où", "c'est pourquoi", "de sorte que"], "answer": "d'où"},
+    {"case": "ap-d-ou", "type": "mc", "q": "Ici, tout le café regarde avec nous, ___ le bruit !", "en": "The whole café is watching with us here, hence the noise!", "options": ["d'où", "pourquoi", "si bien que"], "answer": "d'où"},
+    {"case": "ap-sorte", "type": "mc", "q": "Elle éternue, de sorte que toute la parfumerie lui ___ « À vos souhaits ! »", "en": "She sneezes, with the result that the whole perfumery answers « Bless you! »", "options": ["répond", "réponde", "répondre"], "answer": "répond"},
+    {"case": "ap-sorte", "type": "mc", "q": "Paul prend Lou sur ses épaules, de façon qu'elle ___ Inès.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès.", "options": ["voie", "voit", "voir"], "answer": "voie"}
+  ]
+}

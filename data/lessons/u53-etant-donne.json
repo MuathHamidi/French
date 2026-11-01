@@ -1,0 +1,108 @@
+{
+  "id": "u53-etant-donne",
+  "type": "grammar",
+  "unit": 53,
+  "title": "Étant donné le succès…",
+  "en": "Cause at C1: étant donné que, vu que, du moment que, sous prétexte que, non que, à force de",
+  "intro": "Unit 37 gave the everyday ways to give a cause: *parce que, car, comme, puisque, grâce à, à cause de*. This lesson adds the finer ones. **Étant donné que, vu que, du fait que** + indicative (and **étant donné, vu, du fait de** + a noun) give a cause everyone knows; **du moment que** and **dès lors que** mean as long as, since; **sous prétexte que** gives a reason you don't believe; **non que** and **ce n'est pas que** + subjunctive brush a cause aside before the real one; and **à force de** gives a cause that comes from repetition. Most of them belong to careful speech and writing; *vu que*, *à force de* and *ce n'est pas que* are everyday French too.",
+  "cases": [
+    {"id": "ed-etant", "label": "étant donné, vu, du fait de: a known cause", "rule": "*Étant donné que, vu que, du fait que* + indicative give a cause both speakers know, in careful French: *Étant donné que la pub passe à neuf heures, on dîne au café.* *Vu qu'il est en retard, on commence sans lui.* Before a noun, drop *que*: *étant donné l'heure*, *vu le succès*, *du fait de la grève* (*étant donné* doesn't change before the noun). These add to Unit 37's *parce que, puisque, grâce à, à cause de, en raison de*."},
+    {"id": "ed-moment", "label": "du moment que, dès lors que: as long as", "rule": "*Du moment que* and *dès lors que* + indicative mean since, as long as: the cause is a condition, and it is enough. *Du moment que tu es là, je suis tranquille.* *Dès lors que l'interphone marche, plus d'excuses !* Don't confuse them with *au moment où* (at the moment when), which gives a time."},
+    {"id": "ed-pretexte", "label": "sous prétexte que: a cause you doubt", "rule": "*Sous prétexte que* + indicative and *sous prétexte de* + infinitive give a reason the speaker doesn't believe: *Il est arrivé en retard sous prétexte que l'électricien était là.* *Elle n'a pas mangé sous prétexte d'être au régime.*"},
+    {"id": "ed-non-que", "label": "non que, ce n'est pas que: not that…", "rule": "To dismiss a cause before giving the real one, use *non que* (careful French) or *ce n'est pas que* + subjunctive, then *mais*: *Non que la pub soit mauvaise, mais je déteste me voir.* *Ce n'est pas que j'aie peur, mais je préfère regarder d'ici.*"},
+    {"id": "ed-a-force", "label": "à force de; si…, c'est que", "rule": "*À force de* + infinitive or noun gives a cause that comes from repetition (by dint of, through so much): *À force d'attendre, Hugo n'y croyait plus.* *À force de patience, tout arrive.* *Si…, c'est que* or *si…, c'est parce que* explains a fact you can see: *Si elle éternue, c'est qu'elle est émue.*"}
+  ],
+  "sections": [
+    {"title": "1. étant donné, vu, du fait de: a known cause", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Étant donné l'heure, on dîne au café.", "Given the time, we're eating at the café."],
+      ["[Vu qu'|vu-que]il est en retard, on commence sans lui.", "Seeing that he's late, we'll start without him."],
+      ["Du fait de la neige, il n'y a pas de train.", "Owing to the snow, there are no trains."]]},
+     "examples": [
+      {"fr": "{Étant donné le nombre d'affiches|ed-etant}, je ne prendrai pas le métro mercredi !", "en": "Given the number of posters, I'm not taking the métro on Wednesday!"},
+      {"fr": "{[Vu que|vu-que] la pub passe à neuf heures|ed-etant}, juste avant le film, tout le monde dîne sur place.", "en": "Since the advert is on at nine, just before the film, everyone is eating there."}],
+     "tip": "With a clause: étant donné que, vu que, du fait que + indicative. With a noun: étant donné, vu, du fait de, and no que. Vu que is also everyday French."},
+    {"title": "2. du moment que, dès lors que: as long as", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Du moment que tu es là, je suis tranquille.", "As long as you're here, I'm not worried."],
+      ["Dès lors qu'on a le temps, on reste.", "Since we have the time, we'll stay."],
+      ["Du moment qu'il fait beau, tout va bien.", "As long as the weather's fine, all is well."]]},
+     "examples": [
+      {"fr": "{Dès lors que l'interphone marche|ed-moment}, tu n'as plus d'excuse pour tes retards !", "en": "Now that the intercom works, you've no excuse left for being late!"},
+      {"fr": "{Du moment que tu es là pour la pub|ed-moment}, je te pardonne.", "en": "As long as you're here for the advert, I forgive you."}],
+     "tip": "Both take the indicative. The cause is a condition that is enough: as long as, since, now that."},
+    {"title": "3. sous prétexte que: a cause you doubt", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il est parti sous prétexte qu'il était fatigué.", "He left on the pretext that he was tired."],
+      ["Elle n'a pas mangé sous prétexte d'être au régime.", "She didn't eat, supposedly because she's on a diet."],
+      ["Sous prétexte de travailler, il ne vient pas dîner.", "On the pretext of working, he isn't coming to dinner."]]},
+     "examples": [
+      {"fr": "Il est en retard {sous prétexte que l'électricien était chez lui|ed-pretexte}.", "en": "He's late, and his excuse is that the electrician was at his place."},
+      {"fr": "Et hier, chez Karim, tu n'as pas fait la vaisselle {sous prétexte d'avoir mal au dos|ed-pretexte} !", "en": "And yesterday, at Karim's, you got out of the washing-up by claiming you had a bad back!"}],
+     "tip": "The speaker doesn't believe the reason. Sous prétexte que + a clause in the indicative; sous prétexte de + an infinitive, when the subject is the same."},
+    {"title": "4. non que, ce n'est pas que: not that…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Non que ce soit difficile, mais c'est long.", "Not that it's difficult, but it takes a long time."],
+      ["Ce n'est pas que je sois fatigué, mais je rentre.", "It's not that I'm tired, but I'm going home."],
+      ["Non qu'il ait tort, mais il parle trop fort.", "Not that he's wrong, but he talks too loudly."]]},
+     "examples": [
+      {"fr": "{Non que la pub soit mauvaise|ed-non-que}, mais je déteste me voir à la télé.", "en": "Not that the advert is bad, but I hate seeing myself on TV."},
+      {"fr": "{Ce n'est pas que j'aie peur|ed-non-que}, mais je préfère regarder de derrière toi.", "en": "It's not that I'm scared, but I'd rather watch from behind you."}],
+     "tip": "The subjunctive marks a cause that isn't the real one; mais then gives the real one. Non que is careful French; ce n'est pas que is everyday."},
+    {"title": "5. à force de; si…, c'est que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À force de répéter, il y arrive.", "By repeating it over and over, he gets there."],
+      ["À force de patience, tout arrive.", "With enough patience, everything comes."],
+      ["S'il ne répond pas, c'est qu'il dort.", "If he isn't answering, it's because he's asleep."]]},
+     "examples": [
+      {"fr": "{À force d'attendre|ed-a-force}, je n'y croyais plus.", "en": "After so much waiting, I'd stopped believing it."},
+      {"fr": "{Si elle éternue, c'est qu'elle est émue|ed-a-force}.", "en": "If she sneezes, it's because she's moved."}],
+     "tip": "À force de + an infinitive or a noun, never que. Si…, c'est que starts from a fact and gives its cause."}
+  ],
+  "mistakes": [
+    {"wrong": "Vu qu'il soit tard, on regarde la pub ici.", "right": "Vu qu'il est tard, on regarde la pub ici.", "why": "Vu que gives a real, known cause: it takes the indicative."},
+    {"wrong": "Étant donné que l'heure, on dîne au café.", "right": "Étant donné l'heure, on dîne au café.", "why": "Before a noun, étant donné has no que."},
+    {"wrong": "Non que la pub est mauvaise, mais je déteste me voir.", "right": "Non que la pub soit mauvaise, mais je déteste me voir.", "why": "Non que dismisses a cause: it takes the subjunctive."},
+    {"wrong": "À force qu'il répète, il y arrive.", "right": "À force de répéter, il y arrive.", "why": "À force de takes an infinitive or a noun, never que."}
+  ],
+  "story": {
+    "title": "Étant donné le succès…",
+    "en": "Monday 7 March: Inès's posters fill the Paris métro, her advert is shown at nine, and Hugo's intercom is mended at last.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi sept mars, dès le matin, cinq cents affiches d'Inès sont collées dans le métro de Paris.", "en": "On Monday 7 March, from early morning, five hundred posters of Inès go up in the Paris métro."},
+      {"sp": "", "fr": "Toute la journée, Paul envoie des photos au groupe. Après l'école, Lou compte les affiches station par station, et le soir, elle envoie un message : « Quarante-trois ! »", "en": "All day long, Paul sends photos to the group. After school, Lou counts the posters station by station, and in the evening she sends a message: \"Forty-three!\""},
+      {"sp": "Inès", "fr": "{Étant donné le nombre d'affiches|ed-etant}, je ne prendrai pas le métro mercredi !", "en": "Given the number of posters, I'm not taking the métro on Wednesday!"},
+      {"sp": "", "fr": "Le soir, au café d'en bas, le patron a allumé la télévision pour les amis. {[Vu que|vu-que] la pub passe à neuf heures|ed-etant}, juste avant le film, tout le monde dîne sur place.", "en": "In the evening, at the café downstairs, the owner has switched on the television for the friends. Since the advert is on at nine, just before the film, everyone is eating there."},
+      {"sp": "", "fr": "Inès s'assoit derrière sa sœur.", "en": "Inès sits down behind her sister."},
+      {"sp": "Inès", "fr": "{Non que la pub soit mauvaise|ed-non-que}, mais je déteste me voir à la télé.", "en": "Not that the advert is bad, but I hate seeing myself on TV."},
+      {"sp": "Carla", "fr": "Toi ? Timide ? Tu as défilé à Paris !", "en": "You? Shy? You've walked the runway in Paris!"},
+      {"sp": "Inès", "fr": "{Ce n'est pas que j'aie peur|ed-non-que}, mais je préfère regarder de derrière toi.", "en": "It's not that I'm scared, but I'd rather watch from behind you."},
+      {"sp": "", "fr": "À neuf heures moins dix, Hugo arrive enfin, tout essoufflé. Il est en retard {sous prétexte que l'électricien était chez lui|ed-pretexte}. Personne ne le croit.", "en": "At ten to nine, Hugo finally turns up, out of breath. He's late, and his excuse is that the electrician was at his place. Nobody believes him."},
+      {"sp": "Sophie", "fr": "Bien sûr. Et hier, chez Karim, tu n'as pas fait la vaisselle {sous prétexte d'avoir mal au dos|ed-pretexte} !", "en": "Of course. And yesterday, at Karim's, you got out of the washing-up by claiming you had a bad back!"},
+      {"sp": "Hugo", "fr": "Mais c'est vrai ! L'interphone marche ! Regardez, je l'ai filmé.", "en": "But it's true! The intercom works! Look, I filmed it."},
+      {"sp": "Tom", "fr": "Notre interphone ? Celui qui ne marche plus depuis le mois de février de l'année dernière ?", "en": "Our intercom? The one that hasn't worked since February last year?"},
+      {"sp": "Hugo", "fr": "Lui-même. {À force d'attendre|ed-a-force}, je n'y croyais plus. Il y a un an, presque jour pour jour, Madame Fournier m'avait répondu sur un sac de la boulangerie : « L'électricien vient lundi. »", "en": "The very same. After so much waiting, I'd stopped believing it. A year ago, almost to the day, Madame Fournier answered me on a bakery bag: \"The electrician is coming on Monday.\""},
+      {"sp": "Hugo", "fr": "Elle n'avait pas dit quel lundi !", "en": "She hadn't said which Monday!"},
+      {"sp": "Tom", "fr": "{Dès lors que l'interphone marche|ed-moment}, tu n'as plus d'excuse pour tes retards !", "en": "Now that the intercom works, you've no excuse left for being late!"},
+      {"sp": "Inès", "fr": "{Du moment que tu es là pour la pub|ed-moment}, je te pardonne.", "en": "As long as you're here for the advert, I forgive you."},
+      {"sp": "", "fr": "À neuf heures, le café se tait. Trente secondes de neige qui tombe, trois notes de piano, l'éternuement… puis la voix de Madame Rey, tout bas : « À vos souhaits. »", "en": "At nine, the café falls silent. Thirty seconds of falling snow, three notes on the piano, the sneeze… then Madame Rey's voice, very softly: \"Bless you.\""},
+      {"sp": "", "fr": "Tout le café rit, puis applaudit.", "en": "The whole café laughs, then applauds."},
+      {"sp": "Carla", "fr": "{Si elle éternue, c'est qu'elle est émue|ed-a-force}.", "en": "If she sneezes, it's because she's moved."},
+      {"sp": "Inès", "fr": "{Si j'ai éternué, c'est parce que j'avais de la neige dans le nez|ed-a-force} !", "en": "If I sneezed, it's because I had snow up my nose!"},
+      {"sp": "", "fr": "{Du fait de cet éternuement|ed-etant}, les téléphones se mettent à sonner : la vidéo est déjà partagée partout. Puis l'agence d'Inès appelle : depuis ce soir, on peut commander le parfum en ligne.", "en": "Because of that sneeze, the phones start ringing: the video is already being shared everywhere. Then Inès's agency calls: since this evening, people can order the perfume online."},
+      {"sp": "Léa", "fr": "{Étant donné le succès|ed-etant}, tu ne pourras plus prendre le métro nulle [part|part] !", "en": "Given the success, you won't be able to take the métro anywhere!"},
+      {"sp": "", "fr": "Le patron apporte une bouteille de champagne.", "en": "The owner brings over a bottle of champagne."},
+      {"sp": "Le patron", "fr": "{Non que je sois sentimental|ed-non-que}, mais une star dans mon café, ça se fête !", "en": "Not that I'm sentimental, but a star in my café calls for a celebration!"},
+      {"sp": "Hugo", "fr": "{À force de patience|ed-a-force}, tout arrive : même l'électricien ! À Inès !", "en": "With enough patience, everything comes: even the electrician! To Inès!"},
+      {"sp": "Inès", "fr": "Et à l'interphone de Madame Fournier !", "en": "And to Madame Fournier's intercom!"}
+    ]
+  },
+  "quiz": [
+    {"case": "ed-etant", "type": "mc", "q": "___ le nombre d'affiches, Inès ne prendra pas le métro.", "en": "Given the number of posters, Inès won't take the métro.", "options": ["Étant donné", "Étant donné que", "Parce que"], "answer": "Étant donné"},
+    {"case": "ed-etant", "type": "mc", "q": "___ la pub passe à neuf heures, tout le monde dîne au café.", "en": "Seeing that the advert is on at nine, everyone is eating at the café.", "options": ["Vu que", "Vu", "Du fait de"], "answer": "Vu que"},
+    {"case": "ed-moment", "type": "mc", "q": "Du moment que tu ___ là pour la pub, je te pardonne.", "en": "As long as you're here for the advert, I forgive you.", "options": ["es", "sois", "être"], "answer": "es"},
+    {"case": "ed-moment", "type": "mc", "q": "___ l'interphone marche, Hugo n'a plus d'excuse.", "en": "Now that the intercom works, Hugo has no excuse left.", "options": ["Dès lors que", "Dès lors de", "Lors de"], "answer": "Dès lors que"},
+    {"case": "ed-pretexte", "type": "mc", "q": "Hugo arrive en retard sous prétexte ___ l'électricien était chez lui.", "en": "Hugo turns up late on the pretext that the electrician was at his place.", "options": ["que", "de", "à"], "answer": "que"},
+    {"case": "ed-pretexte", "type": "mc", "q": "Hier, tu n'as pas fait la vaisselle sous prétexte ___ mal au dos !", "en": "Yesterday you got out of the washing-up on the pretext of having a bad back!", "options": ["d'avoir", "qu'avoir", "d'avais"], "answer": "d'avoir"},
+    {"case": "ed-non-que", "type": "mc", "q": "Non que la pub ___ mauvaise, mais je déteste me voir.", "en": "Not that the advert is bad, but I hate seeing myself.", "options": ["soit", "est", "sera"], "answer": "soit"},
+    {"case": "ed-non-que", "type": "mc", "q": "___ j'aie peur, mais je préfère regarder d'ici.", "en": "It's not that I'm scared, but I'd rather watch from here.", "options": ["Ce n'est pas que", "Ce n'est pas parce que", "C'est que"], "answer": "Ce n'est pas que"},
+    {"case": "ed-a-force", "type": "mc", "q": "___ d'attendre, Hugo n'y croyait plus.", "en": "After so much waiting, Hugo had stopped believing it.", "options": ["À force", "Faute", "Grâce"], "answer": "À force"},
+    {"case": "ed-a-force", "type": "mc", "q": "Si elle éternue, ___ elle est émue.", "en": "If she sneezes, it's because she's moved.", "options": ["c'est qu'", "parce qu'", "donc"], "answer": "c'est qu'"}
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "u53-elevage",
+  "type": "vocab",
+  "unit": 53,
+  "title": "Au Salon de l'agriculture",
+  "en": "Livestock and the farm show",
+  "intro": "25 words for livestock and the farm show: farming (**élever, l'élevage, l'éleveur, le fermier, le bétail, la race, le troupeau, le berger, la foire, traire, la médaille**), the animals (**le taureau, le veau, le porc, la brebis, l'agneau, le bouc, le coq, l'âne, le mâle, la femelle**), and their horns, hooves and buildings (**la corne, le sabot, l'étable, l'écurie**).",
+  "words": [
+    {"id": "elever", "fr": "élever", "pos": "verb", "ipa": "el.ve", "en": "to raise, to breed (animals); to bring up (children)", "def": "S'occuper d'animaux ou d'enfants jusqu'à ce qu'ils soient grands.", "def_en": "To look after animals or children until they are grown.", "note": "*Bien élevé* = well brought up, polite. In the present, *il élève* is spelled like *un élève* (a pupil).", "forms": ["élevons", "élevez", "élèvent", "élevé", "élevée", "élevés", "élevées", "élevais", "élevait", "élevions", "éleviez", "élevaient", "élèverai", "élèveras", "élèvera", "élèverons", "élèverez", "élèveront", "élèverais", "élèverait", "élèverions", "élèveriez", "élèveraient", "élevant", "élevai", "élevas", "éleva", "élevâmes", "élevâtes", "élevèrent"], "examples": [
+      {"fr": "Jules et Manon **élèvent** des chèvres.", "en": "Jules and Manon raise goats."},
+      {"fr": "Ses parents **élevaient** déjà des vaches.", "en": "His parents were already breeding cows."},
+      {"fr": "Sa grand-mère l'a **élevé** seule.", "en": "His grandmother brought him up on her own."}]},
+    {"id": "elevage", "fr": "élevage", "pos": "noun", "g": "m", "ipa": "el.vaʒ", "en": "(livestock) farming, breeding", "def": "Le métier de ceux qui s'occupent d'animaux pour leur lait, leur viande ou leur laine.", "def_en": "The work of people who look after animals for their milk, their meat or their wool.", "forms": ["élevages"], "examples": [
+      {"fr": "Jules et Manon rêvent d'un petit **élevage** de chèvres.", "en": "Jules and Manon dream of a small goat farm."},
+      {"fr": "L'**élevage** des vaches demande beaucoup de travail.", "en": "Cattle farming takes a lot of work."},
+      {"fr": "Ce poulet vient d'un **élevage** bio.", "en": "This chicken comes from an organic farm."}]},
+    {"id": "eleveur", "fr": "éleveur", "pos": "noun", "g": "m", "ipa": "el.vœʁ", "display": "l'éleveur, l'éleveuse", "en": "breeder, livestock farmer", "def": "Celui ou celle qui s'occupe d'animaux pour en vivre.", "def_en": "A man or woman who looks after animals for a living.", "forms": ["éleveuse", "éleveurs", "éleveuses"], "examples": [
+      {"fr": "Pierre discute des races avec les **éleveurs**.", "en": "Pierre talks about breeds with the breeders."},
+      {"fr": "Une **éleveuse** nettoie les sabots de sa vache.", "en": "A breeder cleans her cow's hooves."},
+      {"fr": "Cet **éleveur** a cent moutons.", "en": "This farmer has a hundred sheep."}]},
+    {"id": "fermier", "fr": "fermier", "pos": "noun", "g": "m", "ipa": "fɛʁ.mje", "display": "le fermier, la fermière", "en": "farmer (who works a farm); (poulet fermier) free-range", "def": "Celui ou celle qui a des champs et des animaux, et qui en vit.", "def_en": "A man or woman who has fields and animals and lives off them.", "note": "*Un agriculteur* grows crops or raises animals on a large scale; *un fermier* runs a farm, often a family one.", "forms": ["fermière", "fermiers", "fermières"], "examples": [
+      {"fr": "Pierre est **fermier** depuis toujours.", "en": "Pierre has always been a farmer."},
+      {"fr": "La **fermière** vend ses œufs au marché.", "en": "The farmer sells her eggs at the market."},
+      {"fr": "On achète un poulet **fermier** pour dimanche.", "en": "We're buying a free-range chicken for Sunday."}]},
+    {"id": "betail", "fr": "bétail", "pos": "noun", "g": "m", "ipa": "be.taj", "en": "livestock, cattle", "def": "Tous les gros animaux d'une ferme : les vaches, les moutons, les chèvres…", "def_en": "All the large animals of a farm: cows, sheep, goats…", "note": "Always singular.", "examples": [
+      {"fr": "Les éleveurs montrent leur **bétail** au public.", "en": "The breeders show their livestock to the public."},
+      {"fr": "Le **bétail** passe l'hiver au chaud.", "en": "The livestock spend the winter in the warm."},
+      {"fr": "Il vend son **bétail** à la foire.", "en": "He sells his cattle at the fair."}]},
+    {"id": "race", "fr": "race", "pos": "noun", "g": "f", "ipa": "ʁas", "en": "breed (of animal)", "def": "Un groupe d'animaux d'une même sorte, qui se ressemblent et ont les mêmes qualités.", "def_en": "A group of animals of the same kind, which look alike and have the same qualities.", "note": "*De race* = pedigree, purebred.", "forms": ["races"], "examples": [
+      {"fr": "Ses vaches sont de **race** Abondance.", "en": "His cows are of the Abondance breed."},
+      {"fr": "Quelle **race** de chien veux-tu ?", "en": "What breed of dog do you want?"},
+      {"fr": "Ce chat est de **race** : il a coûté cher.", "en": "This cat is a pedigree: it cost a lot."}]},
+    {"id": "troupeau", "fr": "troupeau", "pos": "noun", "g": "m", "ipa": "tʁu.po", "en": "herd, flock", "def": "Un groupe d'animaux, comme des vaches ou des moutons, qui vivent et marchent ensemble.", "def_en": "A group of animals, such as cows or sheep, that live and move together.", "forms": ["troupeaux"], "examples": [
+      {"fr": "Un berger présente son petit **troupeau**.", "en": "A shepherd shows his small flock."},
+      {"fr": "Le **troupeau** descend de la montagne en automne.", "en": "The herd comes down from the mountain in autumn."},
+      {"fr": "Pierre rentre son **troupeau** avant l'orage.", "en": "Pierre brings his herd in before the storm."}]},
+    {"id": "berger", "fr": "berger", "pos": "noun", "g": "m", "ipa": "bɛʁ.ʒe", "display": "le berger, la bergère", "en": "shepherd", "def": "La personne qui garde les moutons et les mène dans les champs.", "def_en": "The person who looks after the sheep and leads them into the fields.", "note": "*Un berger allemand* = a German shepherd (dog).", "forms": ["bergère", "bergers", "bergères"], "examples": [
+      {"fr": "Le **berger** est venu des Alpes avec ses brebis.", "en": "The shepherd came from the Alps with his ewes."},
+      {"fr": "Le **berger** compte ses moutons le soir.", "en": "The shepherd counts his sheep in the evening."},
+      {"fr": "Une **bergère** garde ses chèvres dans la montagne.", "en": "A shepherdess watches her goats in the mountains."}]},
+    {"id": "foire", "fr": "foire", "pos": "noun", "g": "f", "ipa": "fwaʁ", "en": "fair (a market with animals); funfair", "def": "Un grand [marché|marche] où l'on vend des animaux et d'autres choses, souvent avec des jeux.", "def_en": "A big market where animals and other things are sold, often with games.", "note": "*Faire la foire* = to party.", "forms": ["foires"], "examples": [
+      {"fr": "Avant, il n'y avait que la **foire** du village.", "en": "In the old days, there was only the village fair."},
+      {"fr": "Pierre a acheté sa première vache à la **foire**.", "en": "Pierre bought his first cow at the fair."},
+      {"fr": "Ce soir, on va à la **foire** : il y a une grande roue !", "en": "Tonight we're going to the funfair: there's a big wheel!"}]},
+    {"id": "traire", "fr": "traire", "pos": "verb", "ipa": "tʁɛʁ", "en": "to milk", "def": "Tirer le lait d'une vache, d'une chèvre ou d'une brebis.", "def_en": "To draw the milk from a cow, a goat or a ewe.", "note": "*Je trais, il trait, nous trayons, ils traient*; past participle *trait* (*elle a trait la vache*). No passé simple.", "forms": ["trais", "trayons", "trayez", "traient", "trayais", "trayait", "trayions", "trayiez", "trayaient", "trairai", "trairas", "traira", "trairons", "trairez", "trairont", "trairais", "trairait", "trairions", "trairiez", "trairaient", "traie", "traies", "trayant"], "examples": [
+      {"fr": "L'éleveuse apprend à Lou à **traire**.", "en": "The breeder teaches Lou to milk."},
+      {"fr": "Nous **trayons** les vaches à six heures.", "en": "We milk the cows at six."},
+      {"fr": "Pierre **trayait** déjà les vaches à dix ans.", "en": "Pierre was already milking the cows at ten."}]},
+    {"id": "medaille", "fr": "médaille", "pos": "noun", "g": "f", "ipa": "me.daj", "en": "medal", "def": "Un petit rond de métal qu'on reçoit quand on gagne un concours.", "def_en": "A small round piece of metal you receive when you win a competition.", "forms": ["médailles"], "examples": [
+      {"fr": "La tomme de Jules et Manon gagne une **médaille** d'argent.", "en": "Jules and Manon's tomme wins a silver medal."},
+      {"fr": "Il porte sa **médaille** autour du cou.", "en": "He wears his medal around his neck."},
+      {"fr": "Notre équipe a gagné trois **médailles**.", "en": "Our team won three medals."}]},
+    {"id": "taureau", "fr": "taureau", "pos": "noun", "g": "m", "ipa": "tɔ.ʁo", "en": "bull", "def": "Le mâle de la vache, gros et fort.", "def_en": "The male of the cow, big and strong.", "forms": ["taureaux"], "examples": [
+      {"fr": "Un **taureau** de mille kilos dort dans la paille.", "en": "A thousand-kilo bull is asleep in the straw."},
+      {"fr": "Attention, ce **taureau** n'aime pas le rouge !", "en": "Careful, this bull doesn't like red!"},
+      {"fr": "Le **taureau** regarde Hugo, qui recule.", "en": "The bull looks at Hugo, who steps back."}]},
+    {"id": "veau", "fr": "veau", "pos": "noun", "g": "m", "ipa": "vo", "en": "calf; veal", "def": "Le petit de la vache ; sa viande.", "def_en": "The young of the cow; its meat.", "forms": ["veaux"], "examples": [
+      {"fr": "Un **veau** lèche les lunettes de Hugo.", "en": "A calf licks Hugo's glasses."},
+      {"fr": "La vache a eu un **veau** cette nuit.", "en": "The cow had a calf last night."},
+      {"fr": "Je n'aime pas la viande de **veau**.", "en": "I don't like veal."}]},
+    {"id": "porc", "fr": "porc", "pos": "noun", "g": "m", "ipa": "pɔʁ", "en": "pig (on a farm); pork", "def": "Le cochon, quand on parle d'élevage ou de sa viande.", "def_en": "The pig, when you talk about farming or its meat.", "note": "*Un cochon* is the everyday word for the animal.", "forms": ["porcs"], "examples": [
+      {"fr": "Hugo goûte une saucisse de **porc**.", "en": "Hugo tastes a pork sausage."},
+      {"fr": "Chez nous, on ne mange pas de **porc**.", "en": "We don't eat pork at home."},
+      {"fr": "Cet éleveur a deux cents **porcs**.", "en": "This farmer has two hundred pigs."}]},
+    {"id": "brebis", "fr": "brebis", "pos": "noun", "g": "f", "ipa": "bʁə.bi", "en": "ewe", "def": "La femelle du mouton.", "def_en": "The female of the sheep.", "note": "Same in the plural: *des brebis*.", "examples": [
+      {"fr": "Une **brebis** dort contre son agneau.", "en": "A ewe is asleep against her lamb."},
+      {"fr": "Avec le lait de **brebis**, on fait de très bons fromages.", "en": "Very good cheeses are made with ewe's milk."},
+      {"fr": "Le berger a perdu une **brebis**.", "en": "The shepherd has lost a ewe."}]},
+    {"id": "agneau", "fr": "agneau", "pos": "noun", "g": "m", "ipa": "a.ɲo", "en": "lamb", "def": "Le petit de la brebis.", "def_en": "The young of the ewe.", "forms": ["agneaux"], "examples": [
+      {"fr": "Lou veut emporter l'**agneau** à Paris.", "en": "Lou wants to take the lamb to Paris."},
+      {"fr": "Au printemps, il y a beaucoup d'**agneaux** dans les champs.", "en": "In spring there are lots of lambs in the fields."},
+      {"fr": "On mange de l'**agneau** à Pâques.", "en": "We eat lamb at Easter."}]},
+    {"id": "bouc", "fr": "bouc", "pos": "noun", "g": "m", "ipa": "buk", "en": "billy goat", "def": "Le mâle de la chèvre, qui sent très fort.", "def_en": "The male of the goat, which smells very strong.", "note": "*Un bouc émissaire* = a scapegoat; *un bouc* is also a goatee.", "forms": ["boucs"], "examples": [
+      {"fr": "Le **bouc** sent si fort qu'Anne arrête de respirer.", "en": "The billy goat smells so strong that Anne stops breathing."},
+      {"fr": "Le **bouc** a une petite barbe.", "en": "The billy goat has a little beard."},
+      {"fr": "Biquette a peur du **bouc**.", "en": "Biquette is afraid of the billy goat."}]},
+    {"id": "coq", "fr": "coq", "pos": "noun", "g": "m", "ipa": "kɔk", "en": "rooster, cockerel", "def": "Le mâle de la poule, qui chante le matin.", "def_en": "The male of the hen, which crows in the morning.", "note": "*Le coq au vin* = chicken in red wine.", "forms": ["coqs"], "examples": [
+      {"fr": "Un **coq** chante en plein après-midi.", "en": "A rooster crows in the middle of the afternoon."},
+      {"fr": "Le **coq** nous réveille à cinq heures.", "en": "The rooster wakes us at five."},
+      {"fr": "Au marché, on vend un **coq** et trois poules.", "en": "At the market, they're selling a rooster and three hens."}]},
+    {"id": "ane", "fr": "âne", "pos": "noun", "g": "m", "ipa": "ɑn", "en": "donkey", "def": "Un animal gris qui ressemble à un petit cheval, avec de longues oreilles.", "def_en": "A grey animal that looks like a small horse, with long ears.", "note": "*Têtu comme un âne* = as stubborn as a mule.", "forms": ["ânes"], "examples": [
+      {"fr": "Lou caresse un **âne** gris.", "en": "Lou strokes a grey donkey."},
+      {"fr": "L'**âne** se met à crier dès que Paul s'approche.", "en": "The donkey starts braying as soon as Paul comes near."},
+      {"fr": "Les enfants font une promenade sur un **âne**.", "en": "The children go for a ride on a donkey."}]},
+    {"id": "male", "fr": "mâle", "pos": "noun", "g": "m", "ipa": "mɑl", "en": "male (animal)", "def": "L'animal qui est le père des petits, comme le taureau ou le coq.", "def_en": "The animal that is the father of the young, like the bull or the rooster.", "note": "Also an adjective: *un canard mâle*.", "forms": ["mâles"], "examples": [
+      {"fr": "Le **mâle**, c'est le bouc.", "en": "The male is the billy goat."},
+      {"fr": "Chez les canards, le **mâle** a de plus belles couleurs.", "en": "In ducks, the male has more beautiful colours."},
+      {"fr": "Ce chat est un **mâle** ou une femelle ?", "en": "Is this cat a male or a female?"}]},
+    {"id": "femelle", "fr": "femelle", "pos": "noun", "g": "f", "ipa": "fə.mɛl", "en": "female (animal)", "def": "L'animal qui peut avoir des petits, comme la vache ou la poule.", "def_en": "The animal that can have young, like the cow or the hen.", "note": "Also an adjective: *un chat femelle*.", "forms": ["femelles"], "examples": [
+      {"fr": "La **femelle**, c'est la chèvre.", "en": "The female is the nanny goat."},
+      {"fr": "La **femelle** du canard est brune.", "en": "The female duck is brown."},
+      {"fr": "Une **femelle** et ses petits dorment dans la paille.", "en": "A female and her young are asleep in the straw."}]},
+    {"id": "corne", "fr": "corne", "pos": "noun", "g": "f", "ipa": "kɔʁn", "en": "horn (of an animal)", "def": "Une des deux pointes [dures|dur] qui poussent sur la tête de la vache, du taureau ou du bouc.", "def_en": "One of the two hard points that grow on the head of a cow, a bull or a billy goat.", "forms": ["cornes"], "examples": [
+      {"fr": "Le taureau a des **cornes** énormes.", "en": "The bull has enormous horns."},
+      {"fr": "Attention à ses **cornes** !", "en": "Watch out for its horns!"},
+      {"fr": "Le bouc baisse la tête et montre ses **cornes**.", "en": "The billy goat lowers its head and shows its horns."}]},
+    {"id": "sabot", "fr": "sabot", "pos": "noun", "g": "m", "ipa": "sa.bo", "en": "hoof; clog (wooden shoe)", "def": "Le bout dur du pied du cheval ou de la vache ; une chaussure en bois.", "def_en": "The hard end of a horse's or a cow's foot; a wooden shoe.", "forms": ["sabots"], "examples": [
+      {"fr": "Une éleveuse nettoie les **sabots** de sa vache.", "en": "A breeder cleans her cow's hooves."},
+      {"fr": "On entend les **sabots** du cheval sur la route.", "en": "You can hear the horse's hooves on the road."},
+      {"fr": "Autrefois, les fermiers portaient des **sabots**.", "en": "In the old days, farmers wore clogs."}]},
+    {"id": "etable", "fr": "étable", "pos": "noun", "g": "f", "ipa": "e.tabl", "en": "cowshed", "def": "Le bâtiment où dorment les vaches.", "def_en": "The building where the cows sleep.", "note": "*Une écurie* is for horses.", "forms": ["étables"], "examples": [
+      {"fr": "Mon **étable** est plus propre que ça !", "en": "My cowshed is cleaner than that!"},
+      {"fr": "En hiver, les vaches restent dans l'**étable**.", "en": "In winter, the cows stay in the cowshed."},
+      {"fr": "Pierre nettoie l'**étable** tous les matins.", "en": "Pierre cleans the cowshed every morning."}]},
+    {"id": "ecurie", "fr": "écurie", "pos": "noun", "g": "f", "ipa": "e.ky.ʁi", "en": "stable (for horses)", "def": "Le bâtiment où vivent les chevaux.", "def_en": "The building where horses live.", "note": "*Une étable* is for cows.", "forms": ["écuries"], "examples": [
+      {"fr": "Dans l'**écurie**, Pierre pense à Ostende.", "en": "In the stable, Pierre thinks of Ostend."},
+      {"fr": "Le cheval rentre à l'**écurie** le soir.", "en": "The horse goes back to the stable in the evening."},
+      {"fr": "Cette **écurie** a dix chevaux.", "en": "This stable has ten horses."}]}
+  ],
+  "story": {
+    "title": "Au Salon de l'agriculture",
+    "en": "Saturday 26 February: a day at the Paris farm show.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-six février, c'est le premier jour du Salon de l'agriculture, à Paris. Hugo a conduit Léa et Lou depuis Lyon hier soir : jeune conducteur, il n'a jamais dépassé cent dix sur l'autoroute.", "en": "On Saturday 26 February, it's the first day of the Salon de l'agriculture, the farm show in Paris. Hugo drove Léa and Lou up from Lyon last night: a new driver, he never went over a hundred and ten on the motorway."},
+      {"sp": "", "fr": "À neuf heures, ils retrouvent Paul et Anne à l'entrée, au milieu d'une foule énorme. Jules et Manon sont là aussi, avec Pierre : leur tomme bio, faite avec le lait des vaches de Pierre, participe au concours des fromages.", "en": "At nine, they meet Paul and Anne at the entrance, in the middle of a huge crowd. Jules and Manon are there too, with Pierre: their organic tomme, made with the milk of Pierre's cows, is in the cheese contest."},
+      {"sp": "Pierre", "fr": "Fermier toute ma vie, et je n'ai jamais vu autant de monde ! Quand j'étais jeune, il n'y avait que la foire du village. Ici, c'est la foire en grand !", "en": "A farmer all my life, and I've never seen so many people! When I was young, there was only the village fair. This is the fair on a grand scale!"},
+      {"sp": "", "fr": "Il discute des races avec les éleveurs : ses vaches à lui sont de race Abondance, et ce sont les meilleures, bien sûr.", "en": "He talks breeds with the breeders: his own cows are Abondance, and they're the best, of course."},
+      {"sp": "Un éleveur", "fr": "Les meilleures ? Chez nous, on [élève|elever] des Montbéliardes depuis trois générations. Elles donnent plus de lait !", "en": "The best? Where I come from, we've bred Montbéliardes for three generations. They give more milk!"},
+      {"sp": "Pierre", "fr": "Plus de lait, peut-être, mais pas du meilleur lait ! Goûtez donc la tomme de mon fils.", "en": "More milk, maybe, but not better milk! Just taste my son's tomme."},
+      {"sp": "", "fr": "À onze heures, on annonce les résultats : la tomme gagne une médaille d'argent ! Jules reste muet, Manon pleure, et Pierre fait semblant de ne pas être surpris.", "en": "At eleven, the results are announced: the tomme wins a silver medal! Jules is speechless, Manon cries, and Pierre pretends not to be surprised."},
+      {"sp": "", "fr": "Jules et Manon rêvent déjà d'un petit élevage de chèvres, à côté des vaches, avec Biquette pour reine.", "en": "Jules and Manon are already dreaming of a small goat farm next to the cows, with Biquette as its queen."},
+      {"sp": "", "fr": "Chez les moutons et les chèvres, un berger venu des Alpes présente son petit troupeau. Une brebis dort contre son agneau, né il y a deux semaines.", "en": "Among the sheep and goats, a shepherd from the Alps shows his small flock. A ewe is asleep against her lamb, born two weeks ago."},
+      {"sp": "Lou", "fr": "Je peux emporter l'agneau à Paris ? Il dormira dans ma chambre !", "en": "Can I take the lamb to Paris? He'll sleep in my room!"},
+      {"sp": "Le berger", "fr": "Il a besoin de sa maman, ma grande.", "en": "He needs his mummy, sweetheart."},
+      {"sp": "", "fr": "Le bouc, lui, sent si fort qu'Anne arrête de respirer. Paul éclate de rire.", "en": "The billy goat smells so strong that Anne stops breathing. Paul bursts out laughing."},
+      {"sp": "Lou", "fr": "Lequel est le mâle, et laquelle est la femelle ?", "en": "Which one is the male, and which one is the female?"},
+      {"sp": "Le berger", "fr": "Le mâle, c'est le bouc. La femelle, c'est la chèvre.", "en": "The male is the billy goat. The female is the nanny goat."},
+      {"sp": "", "fr": "Plus loin, un coq chante en plein après-midi, et Lou caresse un âne gris, qui se met à crier dès que Paul s'approche.", "en": "Further on, a rooster crows in the middle of the afternoon, and Lou strokes a grey donkey, which starts braying as soon as Paul comes near."},
+      {"sp": "", "fr": "Chez les vaches, un taureau de mille kilos dort dans la paille. Il a des cornes si grandes que Hugo recule.", "en": "In the cattle hall, a thousand-kilo bull is asleep in the straw. Its horns are so big that Hugo steps back."},
+      {"sp": "Pierre", "fr": "Il ne va pas te manger ! Mais regardez cette paille… Mon étable est plus propre que ça !", "en": "He's not going to eat you! But look at this straw… My cowshed is cleaner than that!"},
+      {"sp": "", "fr": "Partout, les éleveurs montrent leur bétail au public. Une éleveuse nettoie les sabots de sa vache, puis elle apprend à Lou à traire.", "en": "Everywhere, the breeders show their livestock to the public. A breeder cleans her cow's hooves, then teaches Lou to milk."},
+      {"sp": "L'éleveuse", "fr": "On [trait|traire] matin et soir, tous les jours. Même à Noël !", "en": "We milk morning and evening, every day. Even at Christmas!"},
+      {"sp": "", "fr": "Hugo goûte à tout, des saucisses de porc aux fromages de brebis, mais il boit du jus de pomme : il doit reprendre la voiture.", "en": "Hugo tastes everything, from pork sausages to ewe's cheeses, but he drinks apple juice: he has to drive again."},
+      {"sp": "", "fr": "Il s'approche d'un veau, ses lunettes sur la tête comme toujours, et le veau les lui lèche !", "en": "He goes up to a calf, his glasses on his head as always, and the calf licks them!"},
+      {"sp": "Lou", "fr": "Il t'a fait un bisou !", "en": "He gave you a kiss!"},
+      {"sp": "", "fr": "Dans l'écurie des gros chevaux de ferme, Pierre pense aux pêcheurs de crevettes d'Ostende, à cheval dans la mer.", "en": "In the stable of the big farm horses, Pierre thinks of the shrimp fishermen of Ostend, on horseback in the sea."},
+      {"sp": "Pierre", "fr": "En mai, je retourne à la mer du Nord, pour une semaine. Tout seul, cette fois ! Et ne protestez pas : j'ai mon téléphone.", "en": "In May, I'm going back to the North Sea for a week. All alone, this time! And don't protest: I've got my phone."},
+      {"sp": "", "fr": "Pour la photo de la médaille, Manon annonce une nouvelle : Jules et elle attendent un bébé pour septembre. Pierre, déjà grand-père des jumeaux de Chloé, ne trouve rien à dire, pour une fois.", "en": "For the medal photo, Manon announces some news: she and Jules are expecting a baby in September. Pierre, already the grandfather of Chloé's twins, has nothing to say, for once."},
+      {"sp": "Lou", "fr": "Il va s'appeler comment ? Minou ?", "en": "What's he going to be called? Minou?"}
+    ]
+  }
+}

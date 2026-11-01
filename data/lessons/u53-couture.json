@@ -1,0 +1,143 @@
+{
+  "id": "u53-couture",
+  "type": "vocab",
+  "unit": 53,
+  "title": "Chez Madame Odette",
+  "en": "Sewing and fabrics",
+  "intro": "25 words for sewing and fabrics: fabrics and materials (**le tissu, l'étoffe, le velours, le coton, la dentelle, la fourrure, le cuir, la laine**), the tools (**l'aiguille, le fil, l'épingle, le dé à coudre, la ficelle**), the work (**coudre, broder, tricoter, la couture, la couturière**), and the parts of a garment (**la doublure, l'ourlet, le pli, la poche, le bouton, la fermeture, le nœud**).",
+  "words": [
+    {"id": "tissu", "fr": "tissu", "pos": "noun", "g": "m", "ipa": "ti.sy", "en": "fabric, cloth", "def": "La matière souple dont on fait les vêtements, les draps et les rideaux.", "def_en": "The soft material clothes, sheets and curtains are made of.", "forms": ["tissus"], "examples": [
+      {"fr": "Madame Odette touche le **tissu** les yeux fermés.", "en": "Madame Odette touches the fabric with her eyes closed."},
+      {"fr": "Un **tissu** à fleurs pour les rideaux de la cuisine.", "en": "A flowery fabric for the kitchen curtains."},
+      {"fr": "Ce **tissu** ne se lave pas à la machine.", "en": "This fabric can't go in the washing machine."}]},
+    {"id": "etoffe", "fr": "étoffe", "pos": "noun", "g": "f", "ipa": "e.tɔf", "en": "(fine) fabric, material; (avoir l'étoffe de) to have the makings of", "def": "Un tissu, souvent beau et cher ; les qualités qu'il faut pour un rôle ou un métier.", "def_en": "A fabric, often fine and expensive; the qualities needed for a role or a job.", "forms": ["étoffes"], "examples": [
+      {"fr": "Cette petite a l'**étoffe** d'une comédienne.", "en": "This girl has the makings of an actress."},
+      {"fr": "Une belle **étoffe** de soie, douce et légère.", "en": "A fine silk fabric, soft and light."},
+      {"fr": "Il n'a pas l'**étoffe** d'un chef.", "en": "He doesn't have the makings of a leader."}]},
+    {"id": "velours", "fr": "velours", "pos": "noun", "g": "m", "ipa": "və.luʁ", "en": "velvet", "def": "Un tissu épais et très doux, qui brille un peu.", "def_en": "A thick, very soft fabric with a slight sheen.", "note": "*Une main de fer dans un gant de velours* = an iron fist in a velvet glove.", "examples": [
+      {"fr": "La robe du lancement est en **velours** noir.", "en": "The launch dress is made of black velvet."},
+      {"fr": "Les sièges de **velours** rouge du théâtre.", "en": "The theatre's red velvet seats."},
+      {"fr": "Le chat dort sur un coussin de **velours**.", "en": "The cat sleeps on a velvet cushion."}]},
+    {"id": "coton", "fr": "coton", "pos": "noun", "g": "m", "ipa": "kɔ.tɔ̃", "en": "cotton", "def": "Une plante des pays chauds, et le tissu léger qu'on en [fait|faire].", "def_en": "A plant of hot countries, and the light fabric made from it.", "forms": ["cotons"], "examples": [
+      {"fr": "Le tablier de Nicole sera en **coton** blanc.", "en": "Nicole's apron will be white cotton."},
+      {"fr": "En été, je ne porte que du **coton**.", "en": "In summer, I only wear cotton."},
+      {"fr": "Un tee-shirt en **coton** bio.", "en": "An organic cotton T-shirt."}]},
+    {"id": "dentelle", "fr": "dentelle", "pos": "noun", "g": "f", "ipa": "dɑ̃.tɛl", "en": "lace", "def": "Un tissu léger, plein de petits trous qui font des dessins.", "def_en": "A light fabric full of little holes that make patterns.", "note": "*Il ne fait pas dans la dentelle* = he isn't one for subtlety.", "forms": ["dentelles"], "examples": [
+      {"fr": "Un col de **dentelle** pour Nicole.", "en": "A lace collar for Nicole."},
+      {"fr": "La robe de mariée de ma grand-mère était en **dentelle**.", "en": "My grandmother's wedding dress was made of lace."},
+      {"fr": "Des rideaux de **dentelle** à la fenêtre.", "en": "Lace curtains at the window."}]},
+    {"id": "fourrure", "fr": "fourrure", "pos": "noun", "g": "f", "ipa": "fu.ʁyʁ", "en": "fur", "def": "Les poils épais de certains animaux ; un vêtement fait avec ces poils.", "def_en": "The thick hair of certain animals; a garment made of it.", "forms": ["fourrures"], "examples": [
+      {"fr": "Carla essaie un vieux manteau de **fourrure**.", "en": "Carla tries on an old fur coat."},
+      {"fr": "Le chat a une **fourrure** toute douce.", "en": "The cat has very soft fur."},
+      {"fr": "Elle ne porte plus de vraie **fourrure**.", "en": "She doesn't wear real fur any more."}]},
+    {"id": "cuir", "fr": "cuir", "pos": "noun", "g": "m", "ipa": "kɥiʁ", "en": "leather", "def": "La peau d'un animal, préparée pour faire des chaussures, des sacs ou des ceintures.", "def_en": "An animal's skin, prepared to make shoes, bags or belts.", "forms": ["cuirs"], "examples": [
+      {"fr": "Une ceinture de **cuir** pour Nicole.", "en": "A leather belt for Nicole."},
+      {"fr": "Un vieux fauteuil en **cuir**.", "en": "An old leather armchair."},
+      {"fr": "Ces chaussures sont en **cuir**.", "en": "These shoes are leather."}]},
+    {"id": "laine", "fr": "laine", "pos": "noun", "g": "f", "ipa": "lɛn", "en": "wool", "def": "Les poils du mouton, et le fil qu'on en fait pour tricoter.", "def_en": "Sheep's hair, and the yarn made from it for knitting.", "forms": ["laines"], "examples": [
+      {"fr": "Une écharpe de **laine** bleue pour Monsieur Lucien.", "en": "A blue wool scarf for Monsieur Lucien."},
+      {"fr": "Un pull en **laine**, c'est chaud.", "en": "A wool jumper is warm."},
+      {"fr": "Elle achète trois boules de **laine**.", "en": "She buys three balls of wool."}]},
+    {"id": "aiguille", "fr": "aiguille", "pos": "noun", "g": "f", "ipa": "e.ɡɥij", "en": "needle; (of a clock) hand", "def": "Un petit morceau de métal pointu, avec un trou pour le fil ; ce qui indique l'heure sur une montre.", "def_en": "A small pointed piece of metal with a hole for the thread; what shows the time on a watch.", "note": "*Chercher une aiguille dans une botte de foin* = to look for a needle in a haystack.", "forms": ["aiguilles"], "examples": [
+      {"fr": "Elle passe le fil dans son **aiguille** du premier coup.", "en": "She threads her needle first time."},
+      {"fr": "La petite **aiguille** de ma montre est sur le trois.", "en": "The little hand of my watch is on the three."},
+      {"fr": "Lou a peur des **aiguilles** chez le médecin.", "en": "Lou is scared of needles at the doctor's."}]},
+    {"id": "fil", "fr": "fil", "pos": "noun", "g": "m", "ipa": "fil", "en": "thread; wire; (sans fil) wireless", "def": "Une ligne très fine de coton ou de soie, pour coudre ; un câble électrique.", "def_en": "A very fine line of cotton or silk, for sewing; an electric cable.", "note": "*Un coup de fil* = a phone call. Keep the plural *fils* (threads) apart from *le fils* (son): they are pronounced differently.", "examples": [
+      {"fr": "Madame Odette prend du **fil** noir.", "en": "Madame Odette takes some black thread."},
+      {"fr": "Il me faut du **fil** blanc et une aiguille.", "en": "I need some white thread and a needle."},
+      {"fr": "Attention, ce **fil** électrique est très vieux.", "en": "Careful, this electric wire is very old."}]},
+    {"id": "epingle", "fr": "épingle", "pos": "noun", "g": "f", "ipa": "e.pɛ̃ɡl", "en": "pin", "def": "Un petit morceau de métal [fin|fin] et pointu, avec une tête ronde, pour tenir le tissu.", "def_en": "A small, thin, pointed piece of metal with a round head, to hold fabric in place.", "note": "*Être tiré à quatre épingles* = to be dressed up to the nines.", "forms": ["épingles"], "examples": [
+      {"fr": "Sophie et Carla tiennent les **épingles**.", "en": "Sophie and Carla hold the pins."},
+      {"fr": "Aïe ! Une **épingle** m'a piqué.", "en": "Ouch! A pin pricked me."},
+      {"fr": "Elle a mis une **épingle** dans ses cheveux.", "en": "She put a pin in her hair."}]},
+    {"id": "de-a-coudre", "fr": "dé à coudre", "pos": "noun", "g": "m", "ipa": "de a kudʁ", "en": "thimble", "def": "Un petit chapeau de métal qu'on met au bout du doigt pour pousser l'aiguille.", "def_en": "A little metal hat you put on the tip of your finger to push the needle.", "forms": ["dés à coudre"], "examples": [
+      {"fr": "Elle porte le **dé à coudre** en argent de sa mère.", "en": "She wears her mother's silver thimble."},
+      {"fr": "Sans **dé à coudre**, je me pique les doigts.", "en": "Without a thimble, I prick my fingers."},
+      {"fr": "Ce petit **dé à coudre** vient de ma grand-mère.", "en": "This little thimble comes from my grandmother."}]},
+    {"id": "ficelle", "fr": "ficelle", "pos": "noun", "g": "f", "ipa": "fi.sɛl", "en": "string, twine", "def": "Une corde très fine, pour attacher des paquets.", "def_en": "A very thin cord, for tying up parcels.", "note": "*Une ficelle* is also a thin baguette; *tirer les ficelles* = to pull the strings.", "forms": ["ficelles"], "examples": [
+      {"fr": "De vieux modèles de costumes, attachés avec de la **ficelle**.", "en": "Old costume designs, tied up with string."},
+      {"fr": "Il ferme le paquet avec une **ficelle**.", "en": "He ties up the parcel with a piece of string."},
+      {"fr": "Le chat joue avec un bout de **ficelle**.", "en": "The cat plays with a bit of string."}]},
+    {"id": "coudre", "fr": "coudre", "pos": "verb", "ipa": "kudʁ", "en": "to sew", "def": "Attacher des morceaux de tissu avec une aiguille et du fil.", "def_en": "To join pieces of fabric with a needle and thread.", "forms": ["couds", "coud", "cousons", "cousez", "cousent", "cousu", "cousue", "cousus", "cousues", "cousais", "cousait", "cousions", "cousiez", "cousaient", "coudrai", "coudras", "coudra", "coudrons", "coudrez", "coudront", "coudrais", "coudrait", "coudrions", "coudriez", "coudraient", "couse", "couses", "cousant", "cousis", "cousit", "cousîmes", "cousîtes", "cousirent"], "examples": [
+      {"fr": "Madame Odette préfère **coudre** à la main.", "en": "Madame Odette prefers to sew by hand."},
+      {"fr": "Elle a **cousu** sa première robe à douze ans.", "en": "She sewed her first dress at twelve."},
+      {"fr": "Tu peux me **coudre** ce bouton ?", "en": "Can you sew this button on for me?"}]},
+    {"id": "broder", "fr": "broder", "pos": "verb", "ipa": "bʁɔ.de", "en": "to embroider", "def": "Faire des dessins sur un tissu avec du fil et une aiguille.", "def_en": "To make patterns on a fabric with thread and a needle.", "forms": ["brode", "brodes", "brodons", "brodez", "brodent", "brodé", "brodée", "brodés", "brodées", "brodais", "brodait", "brodions", "brodiez", "brodaient", "broderai", "broderas", "brodera", "broderons", "broderez", "broderont", "broderais", "broderait", "broderions", "broderiez", "broderaient", "brodant", "brodai", "brodas", "broda", "brodâmes", "brodâtes", "brodèrent"], "examples": [
+      {"fr": "Elle **brode** le prénom d'Inès dans la doublure.", "en": "She embroiders Inès's name in the lining."},
+      {"fr": "Ma grand-mère **brodait** des fleurs sur ses mouchoirs.", "en": "My grandmother used to embroider flowers on her handkerchiefs."},
+      {"fr": "Un sac **brodé** à la main.", "en": "A hand-embroidered bag."}]},
+    {"id": "tricoter", "fr": "tricoter", "pos": "verb", "ipa": "tʁi.kɔ.te", "en": "to knit", "def": "Faire un vêtement avec de la laine et deux longues aiguilles.", "def_en": "To make a garment with wool and two long needles.", "forms": ["tricote", "tricotes", "tricotons", "tricotez", "tricotent", "tricoté", "tricotée", "tricotés", "tricotées", "tricotais", "tricotait", "tricotions", "tricotiez", "tricotaient", "tricoterai", "tricoteras", "tricotera", "tricoterons", "tricoterez", "tricoteront", "tricoterais", "tricoterait", "tricoterions", "tricoteriez", "tricoteraient", "tricotant", "tricotai", "tricotas", "tricota", "tricotâmes", "tricotâtes", "tricotèrent"], "examples": [
+      {"fr": "Madame Odette **tricote** une écharpe pour Monsieur Lucien.", "en": "Madame Odette is knitting a scarf for Monsieur Lucien."},
+      {"fr": "Ma tante m'a **tricoté** un pull.", "en": "My aunt knitted me a jumper."},
+      {"fr": "Tu sais **tricoter** ?", "en": "Can you knit?"}]},
+    {"id": "couture", "fr": "couture", "pos": "noun", "g": "f", "ipa": "ku.tyʁ", "en": "sewing; seam; (la haute couture) high fashion", "def": "L'art de faire des vêtements à l'aiguille ; la ligne où deux morceaux de tissu sont attachés.", "def_en": "The art of making clothes with a needle; the line where two pieces of fabric are joined.", "note": "*La haute couture* = high fashion; *examiner sous toutes les coutures* = to examine from every angle.", "forms": ["coutures"], "examples": [
+      {"fr": "Madame Odette défait les **coutures** de la robe.", "en": "Madame Odette unpicks the seams of the dress."},
+      {"fr": "Le reste, c'est de la **couture**.", "en": "The rest is just sewing."},
+      {"fr": "Il prend des cours de **couture** le samedi.", "en": "He takes sewing lessons on Saturdays."}]},
+    {"id": "couturiere", "fr": "couturière", "pos": "noun", "g": "f", "ipa": "ku.ty.ʁjɛʁ", "en": "dressmaker, seamstress", "def": "Une femme dont le métier est de faire et de réparer des vêtements.", "def_en": "A woman whose job is making and mending clothes.", "note": "*Un couturier* is a fashion designer.", "forms": ["couturières"], "examples": [
+      {"fr": "Avant les Célestins, Madame Odette était **couturière**.", "en": "Before the Célestins, Madame Odette was a dressmaker."},
+      {"fr": "La **couturière** a réparé mon manteau.", "en": "The dressmaker mended my coat."},
+      {"fr": "Ma mère portait ses robes chez la **couturière**.", "en": "My mother took her dresses to the dressmaker's."}]},
+    {"id": "doublure", "fr": "doublure", "pos": "noun", "g": "f", "ipa": "du.blyʁ", "en": "lining (of a garment)", "def": "Le tissu cousu à l'intérieur d'un vêtement.", "def_en": "The fabric sewn inside a garment.", "forms": ["doublures"], "examples": [
+      {"fr": "La **doublure** de la robe est en soie.", "en": "The dress's lining is silk."},
+      {"fr": "Mon manteau a une **doublure** très chaude.", "en": "My coat has a very warm lining."},
+      {"fr": "J'ai trouvé un billet de dix euros dans la **doublure** de ma veste.", "en": "I found a ten-euro note in the lining of my jacket."}]},
+    {"id": "ourlet", "fr": "ourlet", "pos": "noun", "g": "m", "ipa": "uʁ.lɛ", "en": "hem", "def": "Le bord d'un tissu tourné vers l'intérieur et cousu, en bas d'une robe ou d'un pantalon.", "def_en": "The edge of a fabric turned in and sewn, at the bottom of a dress or trousers.", "forms": ["ourlets"], "examples": [
+      {"fr": "Pour finir, un **ourlet** de deux centimètres.", "en": "To finish, a two-centimetre hem."},
+      {"fr": "Ton pantalon est trop long : il faut refaire l'**ourlet**.", "en": "Your trousers are too long: the hem needs redoing."},
+      {"fr": "L'**ourlet** de ma jupe est défait.", "en": "The hem of my skirt has come undone."}]},
+    {"id": "pli", "fr": "pli", "pos": "noun", "g": "m", "ipa": "pli", "en": "fold, pleat; crease", "def": "Une partie d'un tissu ou d'un papier tournée sur elle-même ; une marque sur un vêtement.", "def_en": "A part of a fabric or a paper turned back on itself; a mark on a garment.", "note": "*Prendre le pli* = to get into the habit.", "forms": ["plis"], "examples": [
+      {"fr": "Une jupe à **plis** pour Nicole.", "en": "A pleated skirt for Nicole."},
+      {"fr": "Ta chemise est pleine de **plis**.", "en": "Your shirt is full of creases."},
+      {"fr": "La robe tombe parfaitement, sans un **pli**.", "en": "The dress hangs perfectly, without a crease."}]},
+    {"id": "poche", "fr": "poche", "pos": "noun", "g": "f", "ipa": "pɔʃ", "en": "pocket", "def": "Un petit sac cousu dans un vêtement, pour y mettre des choses.", "def_en": "A little bag sewn into a garment, to put things in.", "note": "*Un livre de poche* = a paperback; *l'argent de poche* = pocket money.", "forms": ["poches"], "examples": [
+      {"fr": "Une **poche** cachée, pour les répliques oubliées.", "en": "A hidden pocket, for forgotten lines."},
+      {"fr": "Il a toujours les mains dans les **poches**.", "en": "He always has his hands in his pockets."},
+      {"fr": "Mes clés sont dans ma **poche**.", "en": "My keys are in my pocket."}]},
+    {"id": "bouton", "fr": "bouton", "pos": "noun", "g": "m", "ipa": "bu.tɔ̃", "en": "button", "def": "Un petit rond qu'on passe dans un trou pour attacher un vêtement ; ce sur quoi on appuie pour allumer une machine.", "def_en": "A little disc you push through a hole to do up a garment; what you press to switch on a machine.", "forms": ["boutons"], "examples": [
+      {"fr": "Madame Odette déplace les **boutons**.", "en": "Madame Odette moves the buttons."},
+      {"fr": "Il manque un **bouton** à ma chemise.", "en": "My shirt is missing a button."},
+      {"fr": "Appuie sur le **bouton** rouge.", "en": "Press the red button."}]},
+    {"id": "fermeture", "fr": "fermeture", "pos": "noun", "g": "f", "ipa": "fɛʁ.mə.tyʁ", "en": "fastening; (une fermeture éclair) zip; closing", "def": "Ce qui sert à attacher un vêtement ou un sac ; l'heure où un magasin arrête de recevoir les clients.", "def_en": "What is used to do up a garment or a bag; the time when a shop stops letting customers in.", "forms": ["fermetures"], "examples": [
+      {"fr": "La **fermeture** éclair s'ouvre d'un coup.", "en": "The zip suddenly bursts open."},
+      {"fr": "La **fermeture** de mon sac est cassée.", "en": "The zip on my bag is broken."},
+      {"fr": "Le musée est vide à l'heure de la **fermeture**.", "en": "The museum is empty at closing time."}]},
+    {"id": "noeud", "fr": "nœud", "pos": "noun", "g": "m", "ipa": "nø", "en": "knot; bow", "def": "Ce qu'on fait en attachant ensemble deux bouts de ficelle ou de ruban.", "def_en": "What you make by tying two ends of string or ribbon together.", "note": "*Un nœud papillon* = a bow tie.", "forms": ["nœuds"], "examples": [
+      {"fr": "Un **nœud** de soie dans le dos de la robe.", "en": "A silk bow at the back of the dress."},
+      {"fr": "Lou sait déjà faire un **nœud** toute seule.", "en": "Lou can already tie a knot by herself."},
+      {"fr": "Il porte un **nœud** papillon pour le mariage.", "en": "He wears a bow tie for the wedding."}]}
+  ],
+  "story": {
+    "title": "Chez Madame Odette",
+    "en": "Saturday 5 March: Madame Odette takes in Inès's launch dress and measures Léa for Nicole's costume.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi cinq mars, Hugo monte les cinq étages de Madame Odette, la robe d'Inès dans les bras. Inès, Sophie, Carla et Léa le suivent.", "en": "On Saturday 5 March, Hugo climbs Madame Odette's five flights of stairs with Inès's dress in his arms. Inès, Sophie, Carla and Léa follow him."},
+      {"sp": "", "fr": "Le problème : la robe du lancement, en velours noir avec un nœud de soie dans le dos, a deux tailles de trop. Et le lancement, c'est jeudi.", "en": "The problem: the launch dress, in black velvet with a silk bow at the back, is two sizes too big. And the launch is on Thursday."},
+      {"sp": "Hugo", "fr": "Pendant ma tournée du dimanche, j'ai tout raconté à Madame Odette.", "en": "On my Sunday bread round, I told Madame Odette everything."},
+      {"sp": "Madame Odette", "fr": "Et j'ai dit : « Amenez-moi cette petite. » Et me voilà avec quatre petites !", "en": "And I said: \"Bring me that girl.\" And here I am with four girls!"},
+      {"sp": "", "fr": "Hugo repart aussitôt. Chez Madame Odette, il y a des robes de scène partout : quarante ans de costumes aux Célestins.", "en": "Hugo leaves straight away. At Madame Odette's, there are stage dresses everywhere: forty years of costumes at the Célestins."},
+      {"sp": "Madame Odette", "fr": "Avant les Célestins, j'étais couturière. J'ai cousu ma première robe à douze ans.", "en": "Before the Célestins, I was a dressmaker. I sewed my first dress when I was twelve."},
+      {"sp": "", "fr": "Elle touche le tissu de la robe les yeux fermés, comme un médecin.", "en": "She touches the dress's fabric with her eyes closed, like a doctor."},
+      {"sp": "Madame Odette", "fr": "Une belle étoffe. Le reste, c'est de la couture.", "en": "A fine fabric. The rest is just sewing."},
+      {"sp": "", "fr": "Inès monte sur une chaise. Sophie et Carla tiennent les épingles, plantées dans un petit coussin.", "en": "Inès gets up on a chair. Sophie and Carla hold the pins, stuck in a little cushion."},
+      {"sp": "Madame Odette", "fr": "Ne respirez plus, mademoiselle !", "en": "Stop breathing, young lady!"},
+      {"sp": "", "fr": "Inès respire, et la fermeture éclair s'ouvre d'un coup.", "en": "Inès breathes, and the zip suddenly bursts open."},
+      {"sp": "Inès", "fr": "C'est pire qu'un régime !", "en": "It's worse than a diet!"},
+      {"sp": "", "fr": "Madame Odette défait les coutures, reprend la taille et déplace les boutons. Pas de machine : elle préfère coudre à la main.", "en": "Madame Odette unpicks the seams, takes in the waist and moves the buttons. No machine: she prefers to sew by hand."},
+      {"sp": "", "fr": "Elle passe le fil noir dans son aiguille du premier coup. Au doigt, elle porte le dé à coudre en argent de sa mère.", "en": "She passes the black thread through the eye of her needle first time. On her finger, she wears her mother's silver thimble."},
+      {"sp": "Carla", "fr": "Du premier coup ? Moi, je n'y arrive jamais !", "en": "First time? I can never do it!"},
+      {"sp": "Madame Odette", "fr": "Dans la doublure de soie, je brode votre prénom en fil blanc. Pour la chance.", "en": "In the silk lining, I'm embroidering your name in white thread. For luck."},
+      {"sp": "", "fr": "Pour finir, un ourlet de deux centimètres. Puis, pendant que la robe attend sur le mannequin, Madame Odette tricote une écharpe de laine bleue.", "en": "To finish, a two-centimetre hem. Then, while the dress waits on the dummy, Madame Odette knits a blue wool scarf."},
+      {"sp": "Madame Odette", "fr": "C'est pour Monsieur Lucien. Il a toujours froid, sur son quai.", "en": "It's for Monsieur Lucien. He's always cold on his quay."},
+      {"sp": "", "fr": "Puis c'est le tour de Léa : Madame Odette [la|la-pron] mesure avec son mètre ruban pour le costume de Nicole, la servante qui rit de Monsieur Jourdain.", "en": "Then it's Léa's turn: Madame Odette measures her with her tape measure for Nicole's costume, the maid who laughs at Monsieur Jourdain."},
+      {"sp": "Madame Odette", "fr": "Une jupe à plis, un tablier de coton blanc, un col de dentelle, une ceinture de cuir… et une poche cachée, pour les répliques oubliées.", "en": "A pleated skirt, a white cotton apron, a lace collar, a leather belt… and a hidden pocket, for forgotten lines."},
+      {"sp": "", "fr": "Léa rit sans arrêt, et le mètre ruban bouge dans tous les sens. Dans un coin, de vieux modèles de costumes attendent, roulés et attachés avec de la ficelle.", "en": "Léa can't stop laughing, and the tape measure moves all over the place. In a corner, old costume designs are waiting, rolled up and tied with string."},
+      {"sp": "Madame Odette", "fr": "Cette petite a l'étoffe d'une comédienne. Nicole aussi rit tout le temps.", "en": "This girl has the makings of an actress. Nicole laughs all the time too."},
+      {"sp": "", "fr": "Sur la porte pend un manteau de fourrure d'un vieux spectacle. Carla l'essaie, et Sophie dessine Madame Odette au travail.", "en": "On the door hangs a fur coat from an old show. Carla tries it on, and Sophie draws Madame Odette at work."},
+      {"sp": "", "fr": "À six heures, Inès remet la robe : elle tombe parfaitement, sans un pli.", "en": "At six o'clock, Inès puts the dress back on: it hangs perfectly, without a crease."},
+      {"sp": "Madame Odette", "fr": "Jeudi, respirez quand même.", "en": "On Thursday, do breathe all the same."},
+      {"sp": "", "fr": "Inès veut payer, mais Madame Odette refuse. Elle demande seulement deux places pour le spectacle de Léa, en juin : une pour elle, une pour Monsieur Lucien.", "en": "Inès wants to pay, but Madame Odette refuses. She only asks for two seats for Léa's show, in June: one for her, one for Monsieur Lucien."}
+    ]
+  }
+}
