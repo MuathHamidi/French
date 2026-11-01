@@ -1,0 +1,143 @@
+{
+  "id": "u57-citoyennete",
+  "type": "vocab",
+  "unit": 57,
+  "title": "Devenir français",
+  "en": "Citizenship and the institutions",
+  "intro": "25 words for citizenship and the institutions: becoming French (**la citoyenneté, la naturalisation, le décret, la charte, le serment, l'accueil, la patrie, civique**), the State (**le préfet, la fonction, le territoire, le ministère, la commission, l'administration, l'institution**), the Republic (**le symbole, la devise, la fraternité, la Constitution, la laïcité, souverain**), and elected bodies (**l'assemblée, le mandat, le sénateur, municipal**).",
+  "words": [
+    {"id": "citoyennete", "fr": "citoyenneté", "pos": "noun", "g": "f", "ipa": "si.twa.jɛn.te", "en": "citizenship", "def": "Le fait d'appartenir à un pays, avec des droits et des responsabilités.", "def_en": "Belonging to a country, with rights and responsibilities.", "forms": ["citoyennetés"], "examples": [
+      {"fr": "La **citoyenneté** donne des droits, mais aussi des responsabilités.", "en": "Citizenship gives you rights, but responsibilities too."},
+      {"fr": "Amadou a obtenu la **citoyenneté** française.", "en": "Amadou has obtained French citizenship."},
+      {"fr": "À l'école, on apprend la **citoyenneté** : respecter les autres, connaître ses droits.", "en": "At school, you learn citizenship: respecting others, knowing your rights."}]},
+    {"id": "naturalisation", "fr": "naturalisation", "pos": "noun", "g": "f", "ipa": "na.ty.ʁa.li.za.sjɔ̃", "en": "naturalisation (becoming a citizen)", "def": "Le fait de recevoir la nationalité d'un pays où l'on n'est pas né.", "def_en": "Receiving the nationality of a country you weren't born in.", "forms": ["naturalisations"], "examples": [
+      {"fr": "Ma demande de **naturalisation** est passée par la préfecture.", "en": "My naturalisation application went through the prefecture."},
+      {"fr": "La **naturalisation** d'Amadou a pris deux ans.", "en": "Amadou's naturalisation took two years."},
+      {"fr": "Après cinq ans en France, on peut demander la **naturalisation**.", "en": "After five years in France, you can apply for naturalisation."}]},
+    {"id": "decret", "fr": "décret", "pos": "noun", "g": "m", "ipa": "de.kʁɛ", "en": "decree", "def": "Une décision officielle écrite par le gouvernement.", "def_en": "An official decision written by the government.", "forms": ["décrets"], "examples": [
+      {"fr": "Amadou reçoit son **décret** de naturalisation.", "en": "Amadou receives his naturalisation decree."},
+      {"fr": "Le **décret** est publié au Journal officiel.", "en": "The decree is published in the Journal officiel."},
+      {"fr": "Un nouveau **décret** change les règles des examens.", "en": "A new decree changes the exam rules."}]},
+    {"id": "prefet", "fr": "préfet", "pos": "noun", "g": "m", "ipa": "pʁe.fɛ", "display": "le préfet, la préfète", "en": "prefect (the State's representative in a département or region)", "def": "La personne qui représente l'État dans un département ou une région.", "def_en": "The person who represents the State in a département or a region.", "forms": ["préfète", "préfets", "préfètes"], "examples": [
+      {"fr": "Le **préfet** serre la main de chaque nouveau Français.", "en": "The prefect shakes the hand of each new French citizen."},
+      {"fr": "La **préfète** a fermé les parcs à cause de la tempête.", "en": "The prefect closed the parks because of the storm."},
+      {"fr": "Le bureau du **préfet** est à la préfecture.", "en": "The prefect's office is at the prefecture."}]},
+    {"id": "fonction", "fr": "fonction", "pos": "noun", "g": "f", "ipa": "fɔ̃k.sjɔ̃", "en": "function; post, office", "def": "Le rôle d'une personne ou d'une chose ; un poste officiel.", "def_en": "The role of a person or a thing; an official post.", "note": "*En fonction de* = depending on. *Exercer ses fonctions* = to hold office.", "forms": ["fonctions"], "examples": [
+      {"fr": "Le préfet est en **fonction** depuis un an.", "en": "The prefect has been in office for a year."},
+      {"fr": "Ce bouton a une seule **fonction** : allumer la lumière.", "en": "This button has only one function: turning on the light."},
+      {"fr": "Elle quitte ses **fonctions** à la fin de l'année.", "en": "She leaves her post at the end of the year."}]},
+    {"id": "territoire", "fr": "territoire", "pos": "noun", "g": "m", "ipa": "tɛ.ʁi.twaʁ", "en": "territory", "def": "Un espace qui appartient à un pays ou à une région, ou qu'un animal défend.", "def_en": "An area that belongs to a country or a region, or that an animal defends.", "forms": ["territoires"], "examples": [
+      {"fr": "Le préfet représente l'État sur tout le **territoire** du département.", "en": "The prefect represents the State over the whole territory of the département."},
+      {"fr": "Le chat du voisin défend son **territoire** contre les autres chats.", "en": "The neighbour's cat defends its territory against the other cats."},
+      {"fr": "Le **territoire** français a aussi des îles, très loin d'ici.", "en": "French territory also includes islands, very far from here."}]},
+    {"id": "ministere", "fr": "ministère", "pos": "noun", "g": "m", "ipa": "mi.nis.tɛʁ", "en": "ministry, (government) department", "def": "Une partie du gouvernement qui s'occupe d'un domaine : la santé, l'éducation, la culture…", "def_en": "A part of the government in charge of one area: health, education, culture…", "forms": ["ministères"], "examples": [
+      {"fr": "Le dossier est passé par le **ministère** de l'Intérieur.", "en": "The file went through the Ministry of the Interior."},
+      {"fr": "Le **ministère** de la Culture aide les théâtres.", "en": "The Ministry of Culture helps theatres."},
+      {"fr": "Elle travaille dans un **ministère**, à Paris.", "en": "She works in a ministry, in Paris."}]},
+    {"id": "commission", "fr": "commission", "pos": "noun", "g": "f", "ipa": "kɔ.mi.sjɔ̃", "en": "committee, commission; (sales) commission", "def": "Un petit groupe de personnes qui étudie une question ; l'argent qu'un vendeur gagne sur une vente.", "def_en": "A small group of people who study a question; the money a salesperson earns on a sale.", "forms": ["commissions"], "examples": [
+      {"fr": "Une **commission** a étudié mon dossier pendant des mois.", "en": "A committee studied my file for months."},
+      {"fr": "La **commission** se réunit chaque lundi.", "en": "The committee meets every Monday."},
+      {"fr": "Le vendeur gagne une **commission** sur chaque voiture.", "en": "The salesman gets a commission on every car."}]},
+    {"id": "administration", "fr": "administration", "pos": "noun", "g": "f", "ipa": "ad.mi.nis.tʁa.sjɔ̃", "en": "administration; the civil service, the authorities", "def": "L'ensemble des services de l'État, avec leurs papiers et leurs règles ; le fait de gérer.", "def_en": "All the State's services, with their papers and their rules; managing.", "forms": ["administrations"], "examples": [
+      {"fr": "L'**administration** française n'a plus de secrets pour moi !", "en": "The French authorities hold no more secrets for me!"},
+      {"fr": "Il faut écrire à l'**administration** pour changer d'adresse.", "en": "You have to write to the authorities to change your address."},
+      {"fr": "Ma sœur travaille dans l'**administration**.", "en": "My sister works in the civil service."}]},
+    {"id": "institution", "fr": "institution", "pos": "noun", "g": "f", "ipa": "ɛ̃s.ti.ty.sjɔ̃", "en": "institution", "def": "Une grande organisation officielle d'un pays : l'école, la justice, l'armée…", "def_en": "A big official organisation of a country: school, justice, the army…", "forms": ["institutions"], "examples": [
+      {"fr": "On a révisé ensemble les **institutions** de la République.", "en": "We revised the institutions of the Republic together."},
+      {"fr": "L'école est une **institution** importante.", "en": "School is an important institution."},
+      {"fr": "Ce café est une **institution** : il est là depuis cent ans.", "en": "This café is an institution: it's been there for a hundred years."}]},
+    {"id": "serment", "fr": "serment", "pos": "noun", "g": "m", "ipa": "sɛʁ.mɑ̃", "en": "oath", "def": "Une promesse très sérieuse, qu'on fait souvent la main levée.", "def_en": "A very serious promise, often made with your hand raised.", "note": "*Prêter serment* = to take an oath.", "forms": ["serments"], "examples": [
+      {"fr": "J'avais même appris un **serment** par cœur.", "en": "I had even learnt an oath by heart."},
+      {"fr": "En France, il n'y a pas de **serment** pour les nouveaux citoyens.", "en": "In France, there's no oath for new citizens."},
+      {"fr": "Les médecins prononcent un **serment** à la fin de leurs études.", "en": "Doctors take an oath at the end of their studies."}]},
+    {"id": "symbole", "fr": "symbole", "pos": "noun", "g": "m", "ipa": "sɛ̃.bɔl", "en": "symbol", "def": "Un objet ou un signe qui représente une idée : le cœur pour l'amour.", "def_en": "An object or a sign that stands for an idea: the heart for love.", "forms": ["symboles"], "examples": [
+      {"fr": "Il présente les **symboles** de la République.", "en": "He presents the symbols of the Republic."},
+      {"fr": "Le drapeau est un **symbole** du pays.", "en": "The flag is a symbol of the country."},
+      {"fr": "Le coq est un **symbole** de la France.", "en": "The rooster is a symbol of France."}]},
+    {"id": "accueil", "fr": "accueil", "pos": "noun", "g": "m", "ipa": "a.kœj", "en": "welcome, reception; reception desk", "def": "La manière de recevoir quelqu'un qui arrive ; l'endroit où l'on reçoit les gens.", "def_en": "The way you receive someone who arrives; the place where people are received.", "note": "The verb is *accueillir*.", "forms": ["accueils"], "examples": [
+      {"fr": "Le préfet fait son discours d'**accueil**.", "en": "The prefect gives his welcome speech."},
+      {"fr": "Demandez à l'**accueil**, au rez-de-chaussée.", "en": "Ask at reception, on the ground floor."},
+      {"fr": "Merci pour votre **accueil** !", "en": "Thank you for your welcome!"}]},
+    {"id": "devise", "fr": "devise", "pos": "noun", "g": "f", "ipa": "də.viz", "en": "motto; currency", "def": "Une phrase courte qui dit les idées d'un pays ou d'une personne ; l'argent d'un pays.", "def_en": "A short sentence that states the ideas of a country or a person; a country's money.", "forms": ["devises"], "examples": [
+      {"fr": "La **devise** est écrite au-dessus de la porte.", "en": "The motto is written above the door."},
+      {"fr": "« Liberté, Égalité, Fraternité » : c'est la **devise** de la France.", "en": "\"Liberty, Equality, Fraternity\": that's France's motto."},
+      {"fr": "À l'aéroport, on peut changer des **devises**.", "en": "At the airport, you can change currency."}]},
+    {"id": "fraternite", "fr": "fraternité", "pos": "noun", "g": "f", "ipa": "fʁa.tɛʁ.ni.te", "en": "fraternity, brotherhood", "def": "Le lien entre des personnes qui s'aiment et s'aident comme des frères.", "def_en": "The bond between people who love and help each other like brothers.", "forms": ["fraternités"], "examples": [
+      {"fr": "La **fraternité**, c'est un atelier : on répare ensemble.", "en": "Fraternity is a workshop: you repair things together."},
+      {"fr": "Liberté, Égalité, **Fraternité**.", "en": "Liberty, Equality, Fraternity."},
+      {"fr": "Après la tempête, les voisins se sont aidés : c'est ça, la **fraternité**.", "en": "After the storm, the neighbours helped one another: that's fraternity."}]},
+    {"id": "constitution", "fr": "constitution", "pos": "noun", "g": "f", "ipa": "kɔ̃s.ti.ty.sjɔ̃", "en": "constitution", "def": "Le texte qui donne les règles les plus importantes d'un pays et de son gouvernement.", "def_en": "The text that sets out the most important rules of a country and its government.", "forms": ["constitutions"], "examples": [
+      {"fr": "Notre **Constitution** le dit.", "en": "Our Constitution says so."},
+      {"fr": "La **Constitution** française date de 1958.", "en": "The French Constitution dates from 1958."},
+      {"fr": "Le président doit respecter la **Constitution**.", "en": "The president must respect the Constitution."}]},
+    {"id": "laicite", "fr": "laïcité", "pos": "noun", "g": "f", "ipa": "la.i.si.te", "en": "secularism", "def": "Le fait que l'État et les religions sont séparés : l'État n'en préfère aucune.", "def_en": "The fact that the State and religions are kept apart: the State prefers none of them.", "forms": ["laïcités"], "examples": [
+      {"fr": "La **laïcité**, c'est simple : chacun croit ce qu'il veut.", "en": "Secularism is simple: everyone believes what they want."},
+      {"fr": "À l'école publique, on respecte la **laïcité**.", "en": "At state schools, secularism is respected."},
+      {"fr": "La **laïcité** protège toutes les religions.", "en": "Secularism protects all religions."}]},
+    {"id": "souverain", "fr": "souverain", "pos": "adj", "ipa": "su.vʁɛ̃", "en": "sovereign; supreme", "def": "Qui a le pouvoir le plus haut et ne dépend d'aucun autre.", "def_en": "Who has the highest power and depends on no one else.", "note": "As a noun, *un souverain* is a sovereign, a monarch.", "forms": ["souveraine", "souverains", "souveraines"], "examples": [
+      {"fr": "En démocratie, c'est le peuple qui est **souverain**.", "en": "In a democracy, it's the people who are sovereign."},
+      {"fr": "Un pays **souverain** fait ses propres lois.", "en": "A sovereign country makes its own laws."},
+      {"fr": "Deux nations **souveraines** signent un accord.", "en": "Two sovereign nations sign an agreement."}]},
+    {"id": "civique", "fr": "civique", "pos": "adj", "ipa": "si.vik", "en": "civic", "def": "Qui concerne le citoyen et ses responsabilités, comme voter.", "def_en": "To do with the citizen and their responsibilities, such as voting.", "note": "*Le devoir civique* = civic duty.", "forms": ["civiques"], "examples": [
+      {"fr": "Ce sera mon premier geste **civique** !", "en": "It will be my first civic act!"},
+      {"fr": "Voter, c'est un geste **civique**.", "en": "Voting is a civic act."},
+      {"fr": "À l'école, les enfants ont un cours d'éducation **civique**.", "en": "At school, children have civics lessons."}]},
+    {"id": "assemblee", "fr": "assemblée", "pos": "noun", "g": "f", "ipa": "a.sɑ̃.ble", "en": "assembly, gathering", "def": "Un groupe de personnes réunies pour discuter et décider.", "def_en": "A group of people who have come together to discuss and decide.", "note": "*L'Assemblée nationale* = the National Assembly (the lower house of Parliament).", "forms": ["assemblées"], "examples": [
+      {"fr": "Les députés votent les lois à l'**Assemblée** nationale.", "en": "The deputies vote on laws in the National Assembly."},
+      {"fr": "Toute l'**assemblée** applaudit.", "en": "The whole gathering applauds."},
+      {"fr": "L'**assemblée** générale du club a lieu jeudi.", "en": "The club's general meeting takes place on Thursday."}]},
+    {"id": "mandat", "fr": "mandat", "pos": "noun", "g": "m", "ipa": "mɑ̃.da", "en": "term of office, mandate; (money) order", "def": "Le temps pendant lequel un élu fait son travail ; un papier pour envoyer de l'argent par la poste.", "def_en": "The time during which an elected official does the job; a slip for sending money by post.", "forms": ["mandats"], "examples": [
+      {"fr": "Leur **mandat** [dure|durer] cinq ans.", "en": "Their term lasts five years."},
+      {"fr": "Le maire commence son deuxième **mandat**.", "en": "The mayor is starting his second term."},
+      {"fr": "Sa grand-mère lui envoie un **mandat** pour son anniversaire.", "en": "His grandmother sends him a money order for his birthday."}]},
+    {"id": "senateur", "fr": "sénateur", "pos": "noun", "g": "m", "ipa": "se.na.tœʁ", "display": "le sénateur, la sénatrice", "en": "senator", "def": "Un élu de la deuxième assemblée du pays, qui vote les lois avec les députés.", "def_en": "An elected member of the country's second assembly, who votes on laws with the deputies.", "forms": ["sénatrice", "sénateurs", "sénatrices"], "examples": [
+      {"fr": "Et les **sénateurs**, qui les élit ?", "en": "And the senators, who elects them?"},
+      {"fr": "La **sénatrice** visite l'école du village.", "en": "The senator visits the village school."},
+      {"fr": "Un **sénateur** est élu pour six ans.", "en": "A senator is elected for six years."}]},
+    {"id": "municipal", "fr": "municipal", "pos": "adj", "ipa": "my.ni.si.pal", "en": "municipal, of the town", "def": "Qui concerne une ville ou un village et sa mairie.", "def_en": "To do with a town or a village and its town hall.", "note": "*Les élections municipales* = local elections.", "forms": ["municipale", "municipaux", "municipales"], "examples": [
+      {"fr": "Au conseil **municipal**, j'ai sauvé la terrasse du café.", "en": "At the town council, I saved the café's terrace."},
+      {"fr": "La piscine **municipale** ouvre en juin.", "en": "The municipal swimming pool opens in June."},
+      {"fr": "Les élus **municipaux** élisent les sénateurs.", "en": "The town councillors vote for the senators."}]},
+    {"id": "patrie", "fr": "patrie", "pos": "noun", "g": "f", "ipa": "pa.tʁi", "en": "homeland, native country", "def": "Le pays où l'on est né, ou celui qu'on aime comme le sien.", "def_en": "The country where you were born, or the one you love as your own.", "forms": ["patries"], "examples": [
+      {"fr": "Ma **patrie**, c'est le Sénégal.", "en": "My homeland is Senegal."},
+      {"fr": "Il rentre dans sa **patrie** après vingt ans.", "en": "He returns to his homeland after twenty years."},
+      {"fr": "On peut avoir deux **patries**.", "en": "You can have two homelands."}]},
+    {"id": "charte", "fr": "charte", "pos": "noun", "g": "f", "ipa": "ʃaʁt", "en": "charter", "def": "Un texte officiel qui donne des règles et des droits.", "def_en": "An official text that sets out rules and rights.", "forms": ["chartes"], "examples": [
+      {"fr": "On lui donne aussi une **charte** des droits du citoyen.", "en": "He is also given a charter of the citizen's rights."},
+      {"fr": "Chaque élève signe la **charte** de l'école.", "en": "Every pupil signs the school charter."},
+      {"fr": "L'atelier vélo a écrit sa **charte** : on répare ensemble.", "en": "The bike workshop has written its charter: we repair together."}]}
+  ],
+  "story": {
+    "title": "Devenir français",
+    "en": "Tuesday 17 May: Amadou's welcome ceremony into French citizenship at the prefecture.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi dix-sept mai, à dix heures, la préfecture accueille quarante nouveaux Français dans une salle dorée pleine de drapeaux.", "en": "On Tuesday 17 May, at ten o'clock, the prefecture welcomes forty new French citizens in a gilded room full of flags."},
+      {"sp": "", "fr": "Amadou porte un grand boubou. Monsieur Fabre a mis une cravate, pour la première fois depuis sa retraite.", "en": "Amadou is wearing a grand boubou. Monsieur Fabre has put on a tie, for the first time since he retired."},
+      {"sp": "", "fr": "Yanis filme tout. Léa, Sophie et Marc sont là, et Tom fait une pause dans ses révisions.", "en": "Yanis films everything. Léa, Sophie and Marc are there, and Tom is taking a break from his revision."},
+      {"sp": "Amadou", "fr": "Deux ans de papiers ! Ma demande de naturalisation est passée par la préfecture, puis par le ministère de l'Intérieur.", "en": "Two years of paperwork! My naturalisation application went through the prefecture, then through the Ministry of the Interior."},
+      {"sp": "Amadou", "fr": "Une commission a étudié mon dossier pendant des mois. L'administration française n'a plus de secrets pour moi !", "en": "A committee studied my file for months. The French authorities hold no more secrets for me!"},
+      {"sp": "Marc", "fr": "On a révisé ensemble les institutions de la République, et à l'entretien, tu savais tout.", "en": "We revised the institutions of the Republic together, and at the interview, you knew everything."},
+      {"sp": "Amadou", "fr": "J'avais même appris un serment par cœur. Je le répétais devant le miroir, la main levée !", "en": "I had even learnt an oath by heart. I used to rehearse it in front of the mirror, with my hand raised!"},
+      {"sp": "Marc", "fr": "Mais en France, il n'y a pas de serment, Amadou !", "en": "(laughing) But in France there's no oath, Amadou!"},
+      {"sp": "", "fr": "Le préfet [entre|entrer]. Il est en fonction depuis un an : il représente l'État sur tout le territoire du département.", "en": "The prefect comes in. He has been in office for a year: he represents the State over the whole territory of the département."},
+      {"sp": "", "fr": "Dans son discours d'accueil, il présente les symboles de la République : le drapeau, l'hymne et la devise écrite au-dessus de la porte.", "en": "In his welcome speech, he presents the symbols of the Republic: the flag, the anthem, and the motto written above the door."},
+      {"sp": "Le préfet", "fr": "Liberté, Égalité, Fraternité. Et l'article premier de notre Constitution dit : « La France est une République indivisible, laïque, démocratique et sociale. »", "en": "Liberty, Equality, Fraternity. And the first article of our Constitution says: \"France is an indivisible, secular, democratic and social Republic.\""},
+      {"sp": "Le préfet", "fr": "La laïcité, c'est simple : l'État ne préfère aucune religion, et chacun est libre de croire ou de ne pas croire.", "en": "Secularism is simple: the State prefers no religion, and everyone is free to believe or not to believe."},
+      {"sp": "Le préfet", "fr": "En démocratie, c'est le peuple qui est souverain. La citoyenneté donne des droits, mais aussi des responsabilités.", "en": "In a democracy, it's the people who are sovereign. Citizenship gives you rights, but responsibilities too."},
+      {"sp": "Tom", "fr": "Marc, les députés, ils font quoi, exactement ?", "en": "(whispering) Marc, the deputies, what exactly do they do?"},
+      {"sp": "Marc", "fr": "Ils votent les lois à l'Assemblée nationale. Leur mandat [dure|durer] cinq ans.", "en": "They vote on laws in the National Assembly. Their term lasts five years."},
+      {"sp": "Tom", "fr": "Et les sénateurs, qui les élit ?", "en": "And the senators, who elects them?"},
+      {"sp": "Marc", "fr": "Surtout les élus municipaux. Et au Sénat, les sénateurs votent les lois, eux aussi.", "en": "Mostly the town councillors. And in the Senate, the senators vote on laws too."},
+      {"sp": "Sophie", "fr": "Le conseil municipal, je connais : c'est là que j'ai sauvé la terrasse du café.", "en": "(quietly) I know the town council: that's where I saved the café's terrace."},
+      {"sp": "", "fr": "On appelle les noms un par un. Amadou reçoit son décret de naturalisation, publié au Journal officiel.", "en": "The names are called one by one. Amadou receives his naturalisation decree, published in the Journal officiel."},
+      {"sp": "", "fr": "On lui donne aussi une charte des droits du citoyen. Il serre la main du préfet.", "en": "He is also given a charter of the citizen's rights. He shakes the prefect's hand."},
+      {"sp": "Amadou", "fr": "Et en juin, je voterai. Ce sera mon premier geste civique !", "en": "And in June, I'll vote. It will be my first civic act!"},
+      {"sp": "", "fr": "Tout le monde se lève pour la Marseillaise. Tom ne peut pas voter en France, mais il a appris toutes les paroles pour son ami.", "en": "Everyone stands for the Marseillaise. Tom can't vote in France, but he has learnt every word for his friend."},
+      {"sp": "", "fr": "Il chante plus fort que tout le monde. Amadou a les larmes aux yeux.", "en": "He sings louder than anyone. Amadou has tears in his eyes."},
+      {"sp": "Amadou", "fr": "Ma patrie, c'est le Sénégal. Et maintenant, la France aussi : le Sénégal me laisse garder les deux nationalités.", "en": "My homeland is Senegal. And now France too: Senegal lets me keep both nationalities."},
+      {"sp": "", "fr": "À midi, à l'atelier vélo de la Guillotière, on mange le thiéboudienne d'Amadou. Monsieur Fabre lève son verre.", "en": "At noon, at the bike workshop in the Guillotière, everyone eats Amadou's thieboudienne. Monsieur Fabre raises his glass."},
+      {"sp": "M. Fabre", "fr": "La fraternité, c'est un atelier : on répare ensemble.", "en": "Fraternity is a workshop: you repair things together."}
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "u57-nul-tel",
+  "type": "grammar",
+  "unit": 57,
+  "title": "Nul ne m'attendait sur la digue",
+  "en": "Indefinites of written French: nul, tel, quiconque, autrui, quelconque, l'un l'autre",
+  "intro": "Careful written French (letters, laws, proverbs) has its own indefinites. **Nul** (no, no one) is a formal *aucun* or *personne*, always with *ne* and never with *pas*: *Nul ne m'attendait sur la digue.* **Tel** (such) agrees with its noun: *de tels vents, une mer telle que je n'en avais jamais vu, ce dessin tel quel*. **Quiconque** means *whoever* or *anyone at all* (*mieux que quiconque*), **autrui** means *other people* (*le respect d'autrui*), and after *chacun* or *on* the pronoun is **soi** (*chacun pour soi*). Finally, **l'un l'autre** (each other), **l'un et l'autre** (both) and **ni l'un ni l'autre** (neither), with **quelconque** after a noun (*any… or other*; *très quelconque*, very ordinary). In conversation most of these sound bookish, which is exactly why Pierre loves them.",
+  "cases": [
+    {"id": "nt-nul", "label": "nul, nulle + noun; nul ne… (no, no one)", "rule": "*Nul* is a formal *aucun* or *personne*, always with *ne* and never with *pas*: *Nul ne m'attendait sur la digue.* *Nul n'est censé ignorer la loi.* As a determiner it agrees: *nulle part* (nowhere), *sans nul doute* (without any doubt), *Je n'ai nul besoin de téléphone.* Don't confuse it with *nul* (rubbish), the informal adjective after *être*: *Hugo est nul en dessin.*"},
+    {"id": "nt-tel", "label": "tel, telle: un tel, de tels, tel que, tel quel", "rule": "*Tel* agrees with its noun: *une telle mer*, *de tels vents* (*de*, not *des*, before *tels* + noun). *Tel que* gives examples or compares: *des oiseaux tels que les mouettes* ; *une mer telle que je n'en avais jamais vu.* *Tel quel* means as it is: *Je vous envoie ce dessin tel quel.* In proverbs, *tel… tel…*: *Tel père, tel fils.*"},
+    {"id": "nt-quiconque", "label": "quiconque (whoever, anyone at all)", "rule": "As a subject, *quiconque* means whoever and takes a singular verb: *Quiconque a vu la mer du Nord au lever du soleil me comprendra.* After a comparative or *sans*, it means anyone at all: *Il est plus têtu que quiconque.* *Il est parti sans prévenir quiconque.* In a plain negative sentence, use *personne*: *Je n'ai vu personne* (not *Je n'ai vu quiconque*)."},
+    {"id": "nt-autrui", "label": "autrui (other people), and soi", "rule": "*Autrui* is invariable and comes after a preposition or as an object, in rules and morals: *le respect d'autrui*, *ne pas faire à autrui ce qu'on ne voudrait pas qu'on nous fasse.* After an indefinite subject (*chacun, on, personne*), the stressed pronoun is *soi*, not *lui*: *Chacun pour soi.* *On est bien chez soi.* *Cela va de soi* (that goes without saying)."},
+    {"id": "nt-l-un", "label": "l'un l'autre, l'un et l'autre, ni l'un ni l'autre; quelconque", "rule": "With a reflexive verb, *l'un l'autre* stresses that the action is mutual: *Le pêcheur et son cheval se comprennent l'un l'autre.* *Les pêcheurs s'aident les uns les autres.* A preposition goes in the middle: *ils parlent l'un de l'autre.* *L'un et l'autre* (both) and *ni l'un ni l'autre* (neither, with *ne*): *Ni l'un ni l'autre ne parle beaucoup.* *Quelconque* after a noun means any… or other: *pour une raison quelconque*; after *très*, ordinary: *une pension très quelconque*."}
+  ],
+  "sections": [
+    {"title": "1. nul, nulle + noun; nul ne…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["[Nul|nul-indef] ne m'attendait sur la digue.", "No one was waiting for me on the seafront."],
+      ["[Nul|nul-indef] n'est censé ignorer la loi.", "Ignorance of the law is no excuse."],
+      ["Je ne vais nulle part sans ma carte.", "I go nowhere without my map."]]},
+     "examples": [
+      {"fr": "Mes chers amis, {[nul|nul-indef] ne m'attendait sur la digue|nt-nul}, et pourtant…", "en": "My dear friends, no one was waiting for me on the seafront, and yet…"},
+      {"fr": "Et dites à Hugo que je n'ai eu {[nul|nul-indef] besoin de téléphone|nt-nul}.", "en": "And tell Hugo that I've had no need of a phone."}],
+     "tip": "Nul ne + verb, never pas. As a determiner, nul agrees: nulle part, nul besoin, sans nul doute."},
+    {"title": "2. tel, telle: de tels, tel que, tel quel", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je n'avais jamais vu de telles vagues.", "I had never seen such waves."],
+      ["Il y a des oiseaux tels que les mouettes.", "There are birds such as seagulls."],
+      ["Je vous envoie ce dessin tel quel.", "I'm sending you this drawing as it is."]]},
+     "examples": [
+      {"fr": "Ce matin, je me suis baigné dans {une mer telle que je n'en avais jamais vu|nt-tel} : grise, puis verte, puis couleur d'argent.", "en": "I swim every morning, in a sea such as I had never seen: grey, then green, then silver."},
+      {"fr": "Je vous envoie {ce dessin du cheval tel quel|nt-tel}, avec un peu de sable dessus.", "en": "I'm sending you this drawing of the horse as it is, with a little sand on it."}],
+     "tip": "Tel agrees with its noun. Des becomes de before tels + noun."},
+    {"title": "3. quiconque: whoever, anyone at all", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Quiconque a vu la mer me comprendra.", "Anyone who has seen the sea will understand me."],
+      ["Il est plus têtu que quiconque.", "He's more stubborn than anyone."],
+      ["Il est parti sans prévenir quiconque.", "He left without telling anyone."]]},
+     "examples": [
+      {"fr": "{Quiconque a vu la mer du Nord au lever du soleil|nt-quiconque} me comprendra.", "en": "Anyone who has seen the North Sea at sunrise will understand me."},
+      {"fr": "Pas besoin de téléphone… Il est {plus têtu que quiconque|nt-quiconque}, ton oncle !", "en": "No need for a phone… He's more stubborn than anyone, your uncle!"}],
+     "tip": "Quiconque as a subject, or after a comparative or sans. In a plain negative, say personne."},
+    {"title": "4. autrui, and soi", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Les mouettes n'ont aucun respect d'autrui.", "Seagulls have no respect for other people."],
+      ["Ici, c'est chacun pour soi.", "Here, it's every man for himself."],
+      ["Cela va de soi.", "That goes without saying."]]},
+     "examples": [
+      {"fr": "Les mouettes, elles, n'ont aucun {respect d'autrui|nt-autrui} : ici, c'est {chacun pour soi|nt-autrui}, et je surveille mes frites.", "en": "The seagulls have no respect for other people: here it's every man for himself, and I keep an eye on my chips."},
+      {"fr": "Bien sûr. {Cela va de soi|nt-autrui} : il nous écrit !", "en": "Of course. That goes without saying: he's writing to us!"}],
+     "tip": "Autrui takes no article and no plural. After chacun, on or personne, say soi."},
+    {"title": "5. l'un l'autre, l'un et l'autre, ni l'un ni l'autre; quelconque", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ils se comprennent l'un l'autre.", "They understand each other."],
+      ["Les pêcheurs s'aident les uns les autres.", "The fishermen help one another."],
+      ["Ni l'un ni l'autre ne parle beaucoup.", "Neither of them talks much."]]},
+     "examples": [
+      {"fr": "Le pêcheur et son cheval {se comprennent l'un l'autre|nt-l-un} sans un mot. {Ni l'un ni l'autre ne parle|nt-l-un} beaucoup, d'ailleurs.", "en": "The fisherman and his horse understand each other without a word. Neither of them talks much, mind you."},
+      {"fr": "Jules ? Il n'aura jamais le temps : Manon et lui travaillent trop, {l'un et l'autre|nt-l-un}.", "en": "Jules? He'll never have the time: he and Manon both work too hard."}],
+     "tip": "Each other: l'un l'autre (two), les uns les autres (more). Both: l'un et l'autre. Neither: ni l'un ni l'autre + ne."}
+  ],
+  "mistakes": [
+    {"wrong": "Nul ne m'attendait pas sur la digue.", "right": "Nul ne m'attendait sur la digue.", "why": "Nul ne… never takes pas, like personne ne…"},
+    {"wrong": "Il a vu des telles vagues !", "right": "Il a vu de telles vagues !", "why": "Des becomes de before an adjective placed before the noun, and telles is one."},
+    {"wrong": "Je n'ai parlé à quiconque.", "right": "Je n'ai parlé à personne.", "why": "In a plain negative sentence, use personne; quiconque is for whoever, or after sans and comparatives."},
+    {"wrong": "Chacun pour lui.", "right": "Chacun pour soi.", "why": "After chacun, on or personne, the stressed pronoun is soi."}
+  ],
+  "story": {
+    "title": "Nul ne m'attendait sur la digue",
+    "en": "Wednesday 25 May: the eve of Sophie's exhibition, and a letter from Pierre in Ostend.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi vingt-cinq mai, la veille de l'Ascension, le salon de Léa et Sophie est plein de toiles.", "en": "On Wednesday 25 May, the day before Ascension, Léa and Sophie's living room is full of canvases."},
+      {"sp": "", "fr": "Demain, Sophie expose ses tableaux au café d'en bas. Elle écrit les étiquettes, Mathis vérifie les cadres, et Hugo mange les chips.", "en": "Tomorrow Sophie is showing her paintings at the café downstairs. She writes the labels, Mathis checks the frames, and Hugo eats the crisps."},
+      {"sp": "Mathis", "fr": "Hugo, tu es censé nous aider, pas finir le paquet !", "en": "Hugo, you're supposed to be helping us, not finishing the bag!"},
+      {"sp": "Léa", "fr": "Attendez ! Une lettre de Pierre, d'Ostende. Regardez cette écriture, si soignée !", "en": "Wait! A letter from Pierre, from Ostend. Look at that handwriting, so neat!"},
+      {"sp": "Hugo", "fr": "Une vraie lettre, avec un timbre ? Lis-la, vite !", "en": "A real letter, with a stamp? Read it, quick!"},
+      {"sp": "", "fr": "Léa ouvre l'enveloppe et [lit|lire] à voix haute.", "en": "Léa opens the envelope and reads aloud."},
+      {"sp": "Pierre", "fr": "Ostende, le dimanche vingt-deux mai. Mes chers amis, {[nul|nul-indef] ne m'attendait sur la digue|nt-nul}, et pourtant…", "en": "Ostend, Sunday 22 May. My dear friends, no one was waiting for me on the seafront, and yet…"},
+      {"sp": "Pierre", "fr": "Le pêcheur de crevettes de l'an dernier m'a reconnu tout de suite. Il a maintenant « septante-trois » ans, comme on dit ici, et il m'a laissé monter sur son cheval de trait, à marée basse, au milieu des vagues.", "en": "Last year's shrimp fisherman recognised me at once. He is “septante-trois” now, as they say here for seventy-three, and he let me ride his draught horse at low tide, out among the waves."},
+      {"sp": "Pierre", "fr": "Le pêcheur et son cheval {se comprennent l'un l'autre|nt-l-un} sans un mot. {Ni l'un ni l'autre ne parle|nt-l-un} beaucoup, d'ailleurs.", "en": "The fisherman and his horse understand each other without a word. Neither of them talks much, mind you."},
+      {"sp": "Pierre", "fr": "Ce matin, je me suis baigné dans {une mer telle que je n'en avais jamais vu|nt-tel} : grise, puis verte, puis couleur d'argent.", "en": "This morning I swam in a sea such as I had never seen: grey, then green, then silver."},
+      {"sp": "Pierre", "fr": "J'y retournerai chaque matin. {Quiconque a vu la mer du Nord au lever du soleil|nt-quiconque} me comprendra.", "en": "I'll go back every morning. Anyone who has seen the North Sea at sunrise will understand me."},
+      {"sp": "Pierre", "fr": "J'ai une chambre dans {une petite pension très quelconque|nt-l-un}, où personne ne me demande rien. C'est parfait.", "en": "I have a room in a small, very ordinary guesthouse, where nobody asks me anything. It's perfect."},
+      {"sp": "Pierre", "fr": "Les mouettes, elles, n'ont aucun {respect d'autrui|nt-autrui} : ici, c'est {chacun pour soi|nt-autrui}, et je surveille mes frites.", "en": "The seagulls have no respect for other people: here it's every man for himself, and I keep an eye on my chips."},
+      {"sp": "Pierre", "fr": "Ma carte et mes deux crayons ne me quittent pas : je ne vais {nulle part sans eux|nt-nul}.", "en": "My map and my two pencils never leave me: I go nowhere without them."},
+      {"sp": "Pierre", "fr": "Je vous envoie {ce dessin du cheval tel quel|nt-tel}, avec un peu de sable dessus.", "en": "I'm sending you this drawing of the horse as it is, with a little sand on it."},
+      {"sp": "Pierre", "fr": "Et dites à Hugo que je n'ai eu {[nul|nul-indef] besoin de téléphone|nt-nul}. Je rentre samedi. Je vous embrasse tous. Pierre.", "en": "And tell Hugo that I've had no need of a phone. I'm coming home on Saturday. Love to you all. Pierre."},
+      {"sp": "Hugo", "fr": "Pas besoin de téléphone… Il est {plus têtu que quiconque|nt-quiconque}, ton oncle !", "en": "No need for a phone… He's more stubborn than anyone, your uncle!"},
+      {"sp": "Mathis", "fr": "Et il pense à nous, au moins ?", "en": "And does he think of us, at least?"},
+      {"sp": "Sophie", "fr": "Bien sûr. {Cela va de soi|nt-autrui} : il nous écrit !", "en": "Of course. That goes without saying: he's writing to us!"},
+      {"sp": "Léa", "fr": "Mon oncle à cheval dans la mer… {Tel père, tel fils|nt-tel} : l'an prochain, Jules voudra y aller aussi !", "en": "My uncle on horseback in the sea… Like father, like son: next year Jules will want to go too!"},
+      {"sp": "Sophie", "fr": "Jules et Manon ? Ils travaillent trop, {l'un et l'autre|nt-l-un}.", "en": "Jules and Manon? They both work too hard."},
+      {"sp": "Mathis", "fr": "J'ai une idée. Demain, accroche le dessin du cheval à côté de tes tableaux.", "en": "I've got an idea. Tomorrow, hang the drawing of the horse next to your paintings."},
+      {"sp": "Sophie", "fr": "Au milieu de mes exercices ? Non… Bon, d'accord. Il aimerait ça, {sans nul doute|nt-nul}.", "en": "In the middle of my exercises? No… Oh, all right. He'd like that, no doubt about it."},
+      {"sp": "", "fr": "Et Sophie écrit une dernière étiquette : « Le cheval de la mer du Nord, par Pierre. Pas à vendre. »", "en": "And Sophie writes one last label: “The horse of the North Sea, by Pierre. Not for sale.”"}
+    ]
+  },
+  "quiz": [
+    {"case": "nt-nul", "type": "mc", "q": "___ ne m'attendait sur la digue.", "en": "No one was waiting for me on the seafront.", "options": ["Nul", "Tel", "Quiconque"], "answer": "Nul"},
+    {"case": "nt-nul", "type": "mc", "q": "Je ne vais ___ [part|part] sans ma carte.", "en": "I go nowhere without my map.", "options": ["nulle", "nul", "aucune"], "answer": "nulle"},
+    {"case": "nt-tel", "type": "mc", "q": "Il a vu ___ vagues !", "en": "He saw such waves!", "options": ["de telles", "des telles", "de tels"], "answer": "de telles"},
+    {"case": "nt-tel", "type": "mc", "q": "Il y a des oiseaux ___ les mouettes.", "en": "There are birds such as seagulls.", "options": ["tels que", "tel que", "tels quels"], "answer": "tels que"},
+    {"case": "nt-quiconque", "type": "mc", "q": "Il est plus têtu que ___.", "en": "He's more stubborn than anyone.", "options": ["quiconque", "tel", "nul"], "answer": "quiconque"},
+    {"case": "nt-quiconque", "type": "mc", "q": "___ a vu la mer du Nord au lever du soleil me comprendra.", "en": "Anyone who has seen the North Sea at sunrise will understand me.", "options": ["Quiconque", "Qui que", "Personne"], "answer": "Quiconque"},
+    {"case": "nt-autrui", "type": "mc", "q": "Les mouettes n'ont aucun respect ___.", "en": "Seagulls have no respect for other people.", "options": ["d'autrui", "des autruis", "de soi"], "answer": "d'autrui"},
+    {"case": "nt-autrui", "type": "mc", "q": "Ici, c'est chacun pour ___.", "en": "Here, it's every man for himself.", "options": ["soi", "lui", "eux"], "answer": "soi"},
+    {"case": "nt-l-un", "type": "mc", "q": "Le pêcheur et son cheval se comprennent ___.", "en": "The fisherman and his horse understand each other.", "options": ["l'un l'autre", "les uns les autres", "ni l'un ni l'autre"], "answer": "l'un l'autre"},
+    {"case": "nt-l-un", "type": "mc", "q": "___ ne parle beaucoup.", "en": "Neither of them talks much.", "options": ["Ni l'un ni l'autre", "L'un et l'autre", "L'un l'autre"], "answer": "Ni l'un ni l'autre"}
+  ]
+}

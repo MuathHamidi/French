@@ -1,0 +1,144 @@
+{
+  "id": "u57-peinture",
+  "type": "vocab",
+  "unit": 57,
+  "title": "Le vernissage",
+  "en": "Painting a portrait: the studio and the face",
+  "intro": "25 words for painting a portrait: the studio (**le chevalet, la palette, le fusain, la gouache, l'aquarelle, l'esquisse, l'ébauche, le trait, le contour, la teinte, le motif, la nature morte, l'autoportrait**), the show (**exposer, la galerie, le vernissage**), and the face (**le profil, la chevelure, la mèche, la tempe, la pommette, la narine, le menton, le teint, la grimace**).",
+  "words": [
+    {"id": "exposer", "fr": "exposer", "pos": "verb", "ipa": "ɛks.po.ze", "en": "to exhibit, to show (art); to set out (facts)", "def": "Montrer des œuvres au public, dans un musée ou une salle ; présenter des idées, des faits.", "def_en": "To show works to the public, in a museum or a hall; to present ideas, facts.", "forms": ["expose", "exposes", "exposons", "exposez", "exposent", "exposée", "exposées", "exposais", "exposait", "exposions", "exposiez", "exposaient", "exposerai", "exposeras", "exposera", "exposerons", "exposerez", "exposeront", "exposerais", "exposerait", "exposerions", "exposeriez", "exposeraient", "exposant", "exposai", "exposas", "exposa", "exposâmes", "exposâtes", "exposèrent"], "examples": [
+      {"fr": "Je n'avais jamais osé **exposer** mes toiles.", "en": "I had never dared to exhibit my canvases."},
+      {"fr": "Le musée **expose** des photos de Lyon en 1900.", "en": "The museum is showing photos of Lyon in 1900."},
+      {"fr": "Marc **expose** clairement les faits.", "en": "Marc sets out the facts clearly."}]},
+    {"id": "galerie", "fr": "galerie", "pos": "noun", "g": "f", "ipa": "ɡa.lʁi", "en": "(art) gallery; arcade", "def": "Un magasin ou une salle où l'on montre et vend des œuvres d'art ; un long passage couvert avec des boutiques.", "def_en": "A shop or a room where works of art are shown and sold; a long covered passage with shops.", "forms": ["galeries"], "examples": [
+      {"fr": "Ce n'est pas une **galerie**, c'est mon café !", "en": "It's not a gallery, it's my café!"},
+      {"fr": "Cette **galerie** vend les tableaux de jeunes peintres.", "en": "This gallery sells young painters' work."},
+      {"fr": "Les boutiques de la **galerie** ferment à vingt heures.", "en": "The shops in the arcade close at eight p.m."}]},
+    {"id": "motif", "fr": "motif", "pos": "noun", "g": "m", "ipa": "mɔ.tif", "en": "pattern, design; subject (of a painting)", "def": "Un dessin qui se répète sur un tissu, un papier ; ce qu'un peintre choisit de peindre.", "def_en": "A drawing that is repeated on a fabric, a paper; what a painter chooses to paint.", "note": "Also a reason, grounds: le motif de sa visite = the reason for his visit.", "forms": ["motifs"], "examples": [
+      {"fr": "Sa robe a un **motif** de petites fleurs bleues.", "en": "Her dress has a pattern of little blue flowers."},
+      {"fr": "Le parc est son **motif** préféré.", "en": "The park is her favourite subject."},
+      {"fr": "Tom porte une chemise à **motifs**.", "en": "Tom is wearing a patterned shirt."}]},
+    {"id": "meche", "fr": "mèche", "pos": "noun", "g": "f", "ipa": "mɛʃ", "en": "lock (of hair); wick", "def": "Quelques cheveux ensemble ; le petit fil d'une bougie, qui brûle.", "def_en": "A few hairs together; the little string of a candle, which burns.", "note": "Être de mèche avec quelqu'un = to be in cahoots with someone.", "forms": ["mèches"], "examples": [
+      {"fr": "Une **mèche** lui tombe toujours sur le front.", "en": "A lock of hair always falls over his forehead."},
+      {"fr": "Il a une **mèche** grise au-dessus de l'oreille.", "en": "He has a grey lock of hair above his ear."},
+      {"fr": "Allume la **mèche** de la bougie.", "en": "Light the candle's wick."}]},
+    {"id": "grimace", "fr": "grimace", "pos": "noun", "g": "f", "ipa": "ɡʁi.mas", "en": "grimace, (funny) face", "def": "Une drôle d'expression du visage, pour faire rire ou parce qu'on a mal.", "def_en": "A funny expression of the face, to make people laugh or because something hurts.", "note": "Faire une grimace = to pull a face.", "forms": ["grimaces"], "examples": [
+      {"fr": "Sur son portrait, Hugo fait une petite **grimace**.", "en": "In his portrait, Hugo is pulling a little face."},
+      {"fr": "Le bébé fait une **grimace** : il n'aime pas les carottes.", "en": "The baby pulls a face: he doesn't like carrots."},
+      {"fr": "Il a fait une **grimace** de douleur en se levant.", "en": "He winced with pain as he stood up."}]},
+    {"id": "tempe", "fr": "tempe", "pos": "noun", "g": "f", "ipa": "tɑ̃p", "en": "temple (side of the head)", "def": "Le côté de la tête, entre l'œil et l'oreille.", "def_en": "The side of the head, between the eye and the ear.", "forms": ["tempes"], "examples": [
+      {"fr": "Ses lunettes sont remontées au-dessus des **tempes**.", "en": "His glasses are pushed up above his temples."},
+      {"fr": "Sophie rougit jusqu'aux **tempes**.", "en": "Sophie blushes to the roots of her hair."},
+      {"fr": "Il a déjà les **tempes** grises à trente ans.", "en": "He's already grey at the temples at thirty."}]},
+    {"id": "chevelure", "fr": "chevelure", "pos": "noun", "g": "f", "ipa": "ʃə.vlyʁ", "en": "head of hair, mane", "def": "Tout ce qui pousse sur la tête d'une personne, surtout quand c'est long et beau.", "def_en": "Everything that grows on a person's head, especially when it is long and beautiful.", "forms": ["chevelures"], "examples": [
+      {"fr": "Carla relève sa longue **chevelure** noire.", "en": "Carla pins up her long black hair."},
+      {"fr": "La princesse avait une longue **chevelure** blonde.", "en": "The princess had long golden hair."},
+      {"fr": "Le vent joue dans sa **chevelure**.", "en": "The wind plays in her hair."}]},
+    {"id": "narine", "fr": "narine", "pos": "noun", "g": "f", "ipa": "na.ʁin", "en": "nostril", "def": "Chacun des deux trous du nez.", "def_en": "Each of the two holes of the nose.", "forms": ["narines"], "examples": [
+      {"fr": "J'ai vraiment des **narines** aussi grandes ?", "en": "Are my nostrils really that big?"},
+      {"fr": "Le cheval souffle par les **narines**.", "en": "The horse snorts through its nostrils."},
+      {"fr": "Mets une goutte dans chaque **narine**.", "en": "Put a drop in each nostril."}]},
+    {"id": "teint", "fr": "teint", "pos": "noun", "g": "m", "ipa": "tɛ̃", "en": "complexion", "def": "La couleur de la peau du visage.", "def_en": "The colour of the skin of the face.", "note": "Fond de teint = foundation (make-up).", "forms": ["teints"], "examples": [
+      {"fr": "Pourquoi j'ai le **teint** si gris ?", "en": "Why is my complexion so grey?"},
+      {"fr": "Après une semaine à la mer, elle a le **teint** doré.", "en": "After a week at the seaside, she has a golden tan."},
+      {"fr": "Tu as mauvais **teint** : tu dors assez ?", "en": "You look pale: are you getting enough sleep?"}]},
+    {"id": "contour", "fr": "contour", "pos": "noun", "g": "m", "ipa": "kɔ̃.tuʁ", "en": "outline, contour", "def": "La ligne qui marque le bord d'une forme, d'un objet.", "def_en": "The line that marks the edge of a shape, of an object.", "forms": ["contours"], "examples": [
+      {"fr": "Pour Tom, Sophie n'a dessiné que les **contours**.", "en": "For Tom, Sophie only drew the outlines."},
+      {"fr": "Dessine le **contour** de ta main avec un crayon.", "en": "Draw round your hand with a pencil."},
+      {"fr": "On voit les **contours** des montagnes dans le brouillard.", "en": "You can see the outline of the mountains in the mist."}]},
+    {"id": "pommette", "fr": "pommette", "pos": "noun", "g": "f", "ipa": "pɔ.mɛt", "en": "cheekbone", "def": "La partie haute de la joue, sous l'œil.", "def_en": "The upper part of the cheek, under the eye.", "forms": ["pommettes"], "examples": [
+      {"fr": "Une touche de rose sur les **pommettes**.", "en": "A touch of pink on the cheekbones."},
+      {"fr": "Inès a les **pommettes** hautes, comme sa sœur.", "en": "Inès has high cheekbones, like her sister."},
+      {"fr": "Il a reçu le ballon sur la **pommette**.", "en": "The ball hit him on the cheekbone."}]},
+    {"id": "teinte", "fr": "teinte", "pos": "noun", "g": "f", "ipa": "tɛ̃t", "en": "shade, tint, hue", "def": "Une nuance d'une couleur, plus claire ou plus foncée.", "def_en": "A nuance of a colour, lighter or darker.", "forms": ["teintes"], "examples": [
+      {"fr": "Le parc à l'aube, en **teintes** de rose et de gris.", "en": "The park at dawn, in shades of pink and grey."},
+      {"fr": "Ce vert a une **teinte** un peu bleue.", "en": "This green has a slightly bluish tint."},
+      {"fr": "En automne, les arbres prennent des **teintes** dorées.", "en": "In autumn, the trees take on golden hues."}]},
+    {"id": "aquarelle", "fr": "aquarelle", "pos": "noun", "g": "f", "ipa": "a.kwa.ʁɛl", "en": "watercolour", "def": "Une peinture légère qu'on mélange avec de l'eau ; un tableau fait avec cette peinture.", "def_en": "A light paint that is mixed with water; a painting made with this paint.", "forms": ["aquarelles"], "examples": [
+      {"fr": "Léa qui lit sur le balcon : une petite **aquarelle**, toute légère.", "en": "Léa reading on the balcony: a small, very light watercolour."},
+      {"fr": "Sophie peint à l'**aquarelle** le dimanche.", "en": "Sophie paints in watercolour on Sundays."},
+      {"fr": "Mamie peint des **aquarelles** de ses fleurs.", "en": "Granny paints watercolours of her flowers."}]},
+    {"id": "ebauche", "fr": "ébauche", "pos": "noun", "g": "f", "ipa": "e.boʃ", "en": "rough draft, first sketch", "def": "La première forme d'une œuvre, pas encore finie.", "def_en": "The first form of a work, not finished yet.", "forms": ["ébauches"], "examples": [
+      {"fr": "Le portrait de Lou n'est qu'une **ébauche**.", "en": "Lou's portrait is only a first sketch."},
+      {"fr": "Voici une première **ébauche** du plan de la salle.", "en": "Here's a rough first draft of the room's layout."},
+      {"fr": "Ne lis pas mon discours, ce n'est qu'une **ébauche** !", "en": "Don't read my speech, it's only a rough draft!"}]},
+    {"id": "chevalet", "fr": "chevalet", "pos": "noun", "g": "m", "ipa": "ʃə.va.lɛ", "en": "easel", "def": "Un objet en bois, à trois pieds, qui tient la toile pendant qu'on peint.", "def_en": "A wooden stand, with three legs, that holds the canvas while you paint.", "forms": ["chevalets"], "examples": [
+      {"fr": "Mathis a installé le **chevalet** près de la porte.", "en": "Mathis has set up the easel by the door."},
+      {"fr": "Le peintre a posé son **chevalet** au bord de la Saône.", "en": "The painter set up his easel on the bank of the Saône."},
+      {"fr": "Sur le **chevalet**, une toile vierge attend.", "en": "On the easel, a blank canvas is waiting."}]},
+    {"id": "palette", "fr": "palette", "pos": "noun", "g": "f", "ipa": "pa.lɛt", "en": "(painter's) palette; range (of colours); pallet", "def": "La petite planche où le peintre mélange ses couleurs ; un ensemble de couleurs.", "def_en": "The small board where the painter mixes his colours; a set of colours.", "forms": ["palettes"], "examples": [
+      {"fr": "Sa vieille **palette** est couverte de taches.", "en": "Her old palette is covered in stains."},
+      {"fr": "Ce peintre a une **palette** très douce.", "en": "This painter has a very soft palette."},
+      {"fr": "Le camion livre trois **palettes** de farine.", "en": "The lorry delivers three pallets of flour."}]},
+    {"id": "esquisse", "fr": "esquisse", "pos": "noun", "g": "f", "ipa": "ɛs.kis", "en": "sketch, outline (a quick drawing)", "def": "Un dessin rapide qui donne l'idée générale, avant l'œuvre finie.", "def_en": "A quick drawing that gives the general idea, before the finished work.", "forms": ["esquisses"], "examples": [
+      {"fr": "Dans un carton, ses **esquisses** au crayon.", "en": "In a box, her pencil sketches."},
+      {"fr": "L'architecte a fait une **esquisse** de la maison sur une serviette.", "en": "The architect sketched the house on a napkin."},
+      {"fr": "Sophie fait une **esquisse** de chaque client du café.", "en": "Sophie makes a sketch of every customer in the café."}]},
+    {"id": "fusain", "fr": "fusain", "pos": "noun", "g": "m", "ipa": "fy.zɛ̃", "en": "charcoal (for drawing); charcoal drawing", "def": "Un petit bâton noir pour dessiner ; un dessin fait avec ce bâton.", "def_en": "A small black stick for drawing; a drawing made with this stick.", "forms": ["fusains"], "examples": [
+      {"fr": "Tom à la guitare, au **fusain**.", "en": "Tom with his guitar, in charcoal."},
+      {"fr": "Elle a les doigts noirs de **fusain**.", "en": "Her fingers are black with charcoal."},
+      {"fr": "J'ai acheté une boîte de **fusains**.", "en": "I bought a box of charcoal sticks."}]},
+    {"id": "gouache", "fr": "gouache", "pos": "noun", "g": "f", "ipa": "ɡwaʃ", "en": "gouache (opaque watercolour)", "def": "Une peinture à l'eau, plus épaisse que l'aquarelle, qui couvre bien le papier.", "def_en": "A water-based paint, thicker than watercolour, that covers the paper well.", "forms": ["gouaches"], "examples": [
+      {"fr": "Une nature morte à la **gouache**.", "en": "A still life in gouache."},
+      {"fr": "À l'école, les enfants peignent à la **gouache**.", "en": "At school, the children paint with gouache."},
+      {"fr": "Le pot de **gouache** jaune est vide.", "en": "The pot of yellow gouache is empty."}]},
+    {"id": "vernissage", "fr": "vernissage", "pos": "noun", "g": "m", "ipa": "vɛʁ.ni.saʒ", "en": "private view, opening (of an exhibition)", "def": "La soirée d'ouverture d'une exposition, pour les artistes et leurs invités.", "def_en": "The opening evening of an exhibition, for the artists and their guests.", "forms": ["vernissages"], "examples": [
+      {"fr": "Le **vernissage** commence à six heures.", "en": "The private view starts at six."},
+      {"fr": "On boit un verre de vin au **vernissage**.", "en": "We have a glass of wine at the opening."},
+      {"fr": "Tu viens au **vernissage** de Sophie jeudi ?", "en": "Are you coming to Sophie's private view on Thursday?"}]},
+    {"id": "autoportrait", "fr": "autoportrait", "pos": "noun", "g": "m", "ipa": "o.to.pɔʁ.tʁɛ", "en": "self-portrait", "def": "Un tableau où le peintre se peint lui-même.", "def_en": "A painting in which the painter paints himself.", "forms": ["autoportraits"], "examples": [
+      {"fr": "Dans un coin, un petit **autoportrait**.", "en": "In a corner, a small self-portrait."},
+      {"fr": "Pour son cours, Sophie doit faire un **autoportrait**.", "en": "For her class, Sophie has to do a self-portrait."},
+      {"fr": "Dans un **autoportrait**, le peintre se regarde dans un miroir.", "en": "In a self-portrait, the painter looks at himself in a mirror."}]},
+    {"id": "trait", "fr": "trait", "pos": "noun", "g": "m", "ipa": "tʁɛ", "en": "line, stroke; feature (of a face, of character)", "def": "Une ligne faite avec un crayon ; au pluriel, les lignes du visage.", "def_en": "A line made with a pencil; in the plural, the lines of the face.", "note": "Trait d'union = hyphen. Tirer un trait sur quelque chose = to draw a line under something.", "forms": ["traits"], "examples": [
+      {"fr": "Elle a saisi tes **traits** en trois coups de pinceau.", "en": "She captured your features in three strokes of the brush."},
+      {"fr": "Fais un **trait** droit avec la règle.", "en": "Draw a straight line with the ruler."},
+      {"fr": "La patience est un **trait** de son caractère.", "en": "Patience is one of her character traits."}]},
+    {"id": "profil", "fr": "profil", "pos": "noun", "g": "m", "ipa": "pʁɔ.fil", "en": "profile (de profil = in profile)", "def": "Le visage vu de côté ; ce qui décrit une personne.", "def_en": "The face seen from the side; what describes a person.", "forms": ["profils"], "examples": [
+      {"fr": "C'est le **profil** de ma mère !", "en": "That's my mother's profile!"},
+      {"fr": "Carla est peinte de **profil**.", "en": "Carla is painted in profile."},
+      {"fr": "Mets une photo sur ton **profil**.", "en": "Put a photo on your profile."}]},
+    {"id": "menton", "fr": "menton", "pos": "noun", "g": "m", "ipa": "mɑ̃.tɔ̃", "en": "chin", "def": "Le bas du visage, sous la bouche.", "def_en": "The bottom of the face, below the mouth.", "forms": ["mentons"], "examples": [
+      {"fr": "Et ce double **menton** ?", "en": "And what about that double chin?"},
+      {"fr": "Il se gratte le **menton** quand il réfléchit.", "en": "He scratches his chin when he's thinking."},
+      {"fr": "Lève le **menton** et regarde l'objectif.", "en": "Lift your chin and look at the lens."}]},
+    {"id": "nature-morte", "fr": "nature morte", "pos": "noun", "g": "f", "ipa": "na.tyʁ mɔʁt", "en": "still life", "def": "Un tableau qui montre des objets, des fruits, des fleurs, sans personne.", "def_en": "A painting that shows objects, fruit, flowers, with no people.", "forms": ["natures mortes"], "examples": [
+      {"fr": "Une **nature morte** aux baguettes.", "en": "A still life with baguettes."},
+      {"fr": "Pour sa **nature morte**, elle a posé trois citrons sur une assiette.", "en": "For her still life, she put three lemons on a plate."},
+      {"fr": "Au musée, Lou s'ennuie devant les **natures mortes**.", "en": "At the museum, Lou gets bored in front of the still lifes."}]}
+  ],
+  "story": {
+    "title": "Le vernissage",
+    "en": "Thursday 26 May: the private view of Sophie's first exhibition at the café.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi vingt-six mai, jour de l'Ascension, le café en bas de chez Léa et Sophie est fermé aux clients : à six heures, c'est le vernissage de la première exposition de Sophie.", "en": "On Thursday 26 May, Ascension Day, the café downstairs from Léa and Sophie's is closed to customers: at six o'clock it's the private view of Sophie's first exhibition."},
+      {"sp": "", "fr": "Une quinzaine d'œuvres couvrent les murs : des huiles, des aquarelles, des gouaches et des dessins au fusain.", "en": "About fifteen works cover the walls: oils, watercolours, gouaches and charcoal drawings."},
+      {"sp": "Le patron", "fr": "Voilà, le dernier tableau est accroché. Ce n'est pas une galerie, c'est mon café… mais ce soir, on dirait bien une galerie !", "en": "There, the last painting's up. It's not a gallery, it's my café… but tonight it really does look like one!"},
+      {"sp": "Sophie", "fr": "Ce ne sont que des exercices, vous savez…", "en": "They're only exercises, you know…"},
+      {"sp": "Léa", "fr": "Sophie, sors de derrière le comptoir ! Ce sont des tableaux, pas des exercices.", "en": "Sophie, come out from behind the counter! They're paintings, not exercises."},
+      {"sp": "", "fr": "Mathis, ravi, a installé le chevalet de Sophie près de la porte, avec sa vieille palette couverte de taches et une toile vierge.", "en": "Mathis, delighted, has set up Sophie's easel by the door, with her old paint-stained palette and a blank canvas."},
+      {"sp": "Mathis", "fr": "Le parc de la Tête d'Or, là-bas, elle l'a peint à l'aube. Elle s'est levée à cinq heures, et moi aussi… un dimanche !", "en": "The Parc de la Tête d'Or, over there: she painted it at dawn. She got up at five, and so did I… on a Sunday!"},
+      {"sp": "", "fr": "C'est son tableau préféré : le lac au petit matin, tout en teintes de rose et de gris.", "en": "It's her favourite painting: the lake in the early morning, all in shades of pink and grey."},
+      {"sp": "", "fr": "Hugo s'est arrêté devant son portrait, peint en janvier à son cours du soir : ses lunettes remontées sur la tête, au-dessus des tempes, et la mèche qui lui tombe toujours sur le front.", "en": "Hugo has stopped in front of his portrait, painted in January at her evening class: his glasses pushed up on his head, above his temples, and the lock of hair that always falls over his forehead."},
+      {"sp": "Hugo", "fr": "Pourquoi je fais une grimace ? Ah oui, j'essayais de ne pas rire… Mais j'ai vraiment des narines aussi grandes ? Le teint si gris ? Et ce double menton ?", "en": "Why am I pulling a face? Oh yes, I was trying not to laugh… But are my nostrils really that big? My complexion that grey? And what about that double chin?"},
+      {"sp": "Sophie", "fr": "C'était en janvier, Hugo : tout le monde avait le teint gris. Et le double menton, c'est l'ombre.", "en": "It was January, Hugo: everyone looked grey. And the double chin is just the shadow."},
+      {"sp": "Carla", "fr": "Arrête de te plaindre : elle a saisi tes traits en trois coups de pinceau.", "en": "Stop complaining: she captured your features in three strokes of the brush."},
+      {"sp": "", "fr": "À côté, Carla de profil, sa longue chevelure noire relevée comme pour danser le flamenco, une touche de rose sur les pommettes.", "en": "Next to it, Carla in profile, her long black hair pinned up as if for flamenco, a touch of pink on her cheekbones."},
+      {"sp": "Carla", "fr": "Mais c'est le profil de ma mère ! Il faut que je lui envoie une photo.", "en": "But that's my mother's profile! I must send her a photo."},
+      {"sp": "", "fr": "Plus loin, Léa qui lit sur le balcon, dans sa robe au motif de petites fleurs bleues : une aquarelle toute légère.", "en": "Further along, Léa reading on the balcony in her dress with its pattern of little blue flowers: a very light watercolour."},
+      {"sp": "", "fr": "Pour Tom, Sophie n'a dessiné que les contours, au fusain : la guitare, les mains, l'ombre.", "en": "For Tom, Sophie only drew the outlines, in charcoal: the guitar, the hands, the shadow."},
+      {"sp": "Camille", "fr": "On l'entend presque jouer !", "en": "You can almost hear him playing!"},
+      {"sp": "Enzo", "fr": "Et ça, c'est mes baguettes ? Une nature morte à la gouache… Elles sont plus belles que les vraies !", "en": "And that's my baguettes? A still life in gouache… They're better-looking than the real ones!"},
+      {"sp": "", "fr": "Il y a aussi un portrait de Lou qui n'est qu'une ébauche : Lou n'est jamais restée assise plus de deux minutes.", "en": "There's also a portrait of Lou that's only a first sketch: Lou never sat still for more than two minutes."},
+      {"sp": "", "fr": "Dans un coin, un petit autoportrait que Sophie a failli ne pas accrocher, et sur une table, un carton plein d'esquisses au crayon : des mains, des yeux, des profils.", "en": "In a corner, a small self-portrait that Sophie nearly didn't hang, and on a table, a box full of pencil sketches: hands, eyes, profiles."},
+      {"sp": "", "fr": "Et à côté des tableaux, le dessin du cheval de Pierre, avec son étiquette : « Pas à vendre. »", "en": "And next to the paintings, Pierre's drawing of the horse, with its label: \"Not for sale.\""},
+      {"sp": "", "fr": "Léa tape sur un verre avec une cuillère : c'est l'heure du discours. Sophie lit une petite carte, et ses mains tremblent.", "en": "Léa taps a glass with a spoon: time for the speech. Sophie reads from a small card, and her hands are shaking."},
+      {"sp": "Sophie", "fr": "Merci au patron, qui m'a prêté ses murs, à mon professeur du cours du soir, à Mathis et à mes modèles. Je n'avais jamais osé exposer mes toiles…", "en": "Thank you to the owner, who lent me his walls, to my evening-class teacher, to Mathis and to my models. I had never dared to exhibit my canvases…"},
+      {"sp": "", "fr": "Tout le monde applaudit, et Sophie rougit jusqu'aux tempes. Madame Dupont, la patronne de Hugo, reste longtemps devant le tableau du parc.", "en": "Everyone applauds, and Sophie blushes to the roots of her hair. Madame Dupont, Hugo's boss, stands for a long time in front of the painting of the park."},
+      {"sp": "Madame Dupont", "fr": "C'est exactement mon parcours du dimanche matin. Je le prends.", "en": "That's exactly my Sunday-morning run. I'll take it."},
+      {"sp": "", "fr": "Un point rouge sur l'étiquette : c'est la première vente de Sophie. Hugo, qui économise en secret, n'achète rien.", "en": "A red dot on the label: it's Sophie's first sale. Hugo, who is secretly saving, buys nothing."},
+      {"sp": "Hugo", "fr": "Moi, je ne prends rien : mon portrait n'a pas de prix.", "en": "Me, I'm not taking anything: my portrait is priceless."}
+    ]
+  }
+}

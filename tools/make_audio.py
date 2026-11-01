@@ -192,6 +192,9 @@ FIXES = {
     "inouï": "inwˈi", "inouïe": "inwˈi", "inouïs": "inwˈi", "inouïes": "inwˈi",  # the voice drops the final i (/inwj/)
     "solennel": "sɔlanˈɛl", "solennelle": "sɔlanˈɛl", "solennels": "sɔlanˈɛl", "solennelles": "sɔlanˈɛl",  # -enn- is /a/: the voice says /solɛnɛl/
     "toujours est-il": "tuʒˈuʁ ɛtˈil",  # the voice adds a liaison /z/ after toujours
+    "thiéboudienne": "tʃebudjˈɛn",  # Senegalese rice and fish: read in English
+    "l'un et l'autre": "lœ̃ e lˈotʁ",  # the voice adds a liaison /n/ before et
+    "souhait": "swˈɛ", "souhaits": "swˈɛ",  # the voice says /suɛ/ (à vos souhaits)
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

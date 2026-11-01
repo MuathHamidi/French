@@ -1,0 +1,108 @@
+{
+  "id": "u57-accord-sujet",
+  "type": "grammar",
+  "unit": 57,
+  "title": "La plupart des gens dorment",
+  "en": "Subject-verb agreement, the hard cases: la plupart des gens dorment, plus d'un, un des… qui, ni… ni, ainsi que",
+  "intro": "Some subjects make the verb's ending hard to choose. After **la plupart, beaucoup, peu** + *de* + a plural noun, the verb agrees with the noun: ***La plupart des gens dorment.*** After a group word (*une foule de, la moitié de, une dizaine de*), it agrees by meaning: singular for the group, plural for the people. **Plus d'un** takes a singular (*plus d'un boulanger rêve*), and in **un des… qui** the verb is usually plural. Several subjects take a plural, and *moi* + someone gives *nous* (*Léa et moi sommes*), but with **ainsi que** between commas the first subject decides. Last, look for the subject after the verb: *le pain que pétrissent les boulangers*. These rules hold in speech too, but they show most in writing, where a wrong ending is seen at once.",
+  "cases": [
+    {"id": "as-plupart", "label": "la plupart, beaucoup, peu… + de + plural: plural verb", "rule": "The verb agrees with the noun after *de*, not with *la plupart* or *beaucoup*: *La plupart des gens dorment.* *Beaucoup de boulangers se lèvent à quatre heures.* *La plupart* alone also takes a plural: *La plupart dorment.* *Le peu de* agrees by meaning: *Le peu de sommeil qu'il a lui suffit* (a little: singular); *le peu d'amis qui sont venus* (the few: plural)."},
+    {"id": "as-collectif", "label": "une foule de, la moitié de, une dizaine de + plural: by meaning", "rule": "After a collective noun + *de* + plural, the verb is singular if you see the group, plural if you see the people: *Une foule de clients attend devant la boulangerie* or *attendent*. *La moitié des étudiants ont fini.* After a number word like *une dizaine de*, the plural is the rule: *Une dizaine de croissants sont partis en dix minutes.* Without a complement, the collective is singular: *La foule attend.*"},
+    {"id": "as-plus-d-un", "label": "plus d'un + singular; un des… qui + plural", "rule": "*Plus d'un* takes a singular, *moins de deux* a plural, against logic: *Plus d'un boulanger dort l'après-midi.* *Moins de deux heures ont suffi.* In *un des… qui*, the relative usually refers to the plural noun: *C'est un des boulangers qui se lèvent le plus tôt* (one of those who get up earliest). Singular only if it means that one person: *C'est un des boulangers, celui qui chante, qui se lève le premier.*"},
+    {"id": "as-sujets", "label": "several subjects: et, mixed persons, ni… ni, ou, ainsi que", "rule": "Two subjects joined by *et* take a plural; with mixed persons, *nous* wins over *vous*, *vous* over *ils*: *Léa et moi sommes fatigués.* *Toi et Hugo, vous chantez faux.* With *ni… ni* or *ou*, plural unless only one can do it: *Ni la lune ni le réveil ne dorment* ; *Tom ou Enzo chantera le refrain* (only one). With *ainsi que, comme, avec* between commas, the first subject decides: *Enzo, ainsi que sa grand-mère, se lève à quatre heures.*"},
+    {"id": "as-inversion", "label": "a subject after its verb", "rule": "Find the subject even when it comes after the verb, in a relative clause or after a quotation: *le pain que pétrissent les boulangers* (they knead it) ; *les rues où dorment les gens* ; *« Bravo ! » crient les amis.* With a plural *on* (= nous), the verb stays singular but adjectives agree: *On est contents* (reminder)."}
+  ],
+  "sections": [
+    {"title": "1. la plupart, beaucoup, peu… + de + plural", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["La plupart des gens dorment.", "Most people are asleep."],
+      ["Beaucoup de boulangers se lèvent à quatre heures.", "Lots of bakers get up at four."],
+      ["Le peu de sommeil qu'il a lui suffit.", "The little sleep he gets is enough for him."]]},
+     "examples": [
+      {"fr": "Première ligne : « {La plupart des gens dorment|as-plupart} ».", "en": "First line: « Most people are asleep »."},
+      {"fr": "{Beaucoup de boulangers dorment|as-plupart} déjà à cette heure-ci.", "en": "Lots of bakers are already asleep at this hour."}],
+     "tip": "The verb agrees with the noun after de: la plupart des gens dorment. La plupart alone is plural too."},
+    {"title": "2. une foule de, une dizaine de + plural: by meaning", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Une foule de clients attend.", "A crowd of customers is waiting."],
+      ["Une foule de clients attendent.", "A crowd of customers are waiting."],
+      ["La moitié des étudiants ont fini.", "Half the students have finished."]]},
+     "examples": [
+      {"fr": "Tu vois les gens, et alors {une foule de clients attendent|as-collectif}.", "en": "You see the people, and then a crowd of customers wait."},
+      {"fr": "{Une dizaine de verbes ont changé|as-collectif}, c'est tout.", "en": "About ten verbs changed, that's all."}],
+     "tip": "Singular if you see the group, plural if you see the people. After une dizaine de, use the plural."},
+    {"title": "3. plus d'un + singular; un des… qui + plural", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Plus d'un boulanger dort l'après-midi.", "More than one baker sleeps in the afternoon."],
+      ["Moins de deux heures ont suffi.", "Less than two hours were enough."],
+      ["C'est un des boulangers qui se lèvent le plus tôt.", "He's one of the bakers who get up earliest."]]},
+     "examples": [
+      {"fr": "« {Plus d'un boulanger rêve|as-plus-d-un} »", "en": "« More than one baker dreams »"},
+      {"fr": "{Moins de deux heures ont suffi|as-plus-d-un}.", "en": "Less than two hours were enough."}],
+     "tip": "The verb follows the grammar, not the logic: plus d'un is singular, moins de deux is plural."},
+    {"title": "4. several subjects", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Léa et moi sommes en vacances.", "Léa and I are on holiday."],
+      ["Ni la lune ni le réveil ne dorment.", "Neither the moon nor the alarm clock sleeps."],
+      ["Enzo, ainsi que sa grand-mère, se lève tôt.", "Enzo, as well as his grandmother, gets up early."]]},
+     "examples": [
+      {"fr": "{Léa et moi sommes|as-sujets} en vacances !", "en": "Léa and I are on holiday!"},
+      {"fr": "Hugo, {toi et ta voix, vous réveillez|as-sujets} tout l'immeuble !", "en": "Hugo, you and your voice are waking the whole building!"}],
+     "tip": "Moi + someone = nous; toi + someone = vous. Between commas, ainsi que leaves the verb to the first subject."},
+    {"title": "5. a subject after its verb", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["le pain que pétrissent les boulangers", "the bread the bakers knead"],
+      ["les rues où dorment les gens", "the streets where people sleep"],
+      ["« Bravo ! » crient les amis.", "« Bravo! » shout the friends."]]},
+     "examples": [
+      {"fr": "Plus loin : « {le pain que pétrissent les boulangers|as-inversion} ».", "en": "Further on: « the bread the bakers knead »."},
+      {"fr": "{« Bravo ! » crient Léa et Camille|as-inversion}.", "en": "« Bravo! » shout Léa and Camille."}],
+     "tip": "After que, où or a quotation, look for the subject after the verb before you choose its ending."}
+  ],
+  "mistakes": [
+    {"wrong": "La plupart des gens dort à quatre heures.", "right": "La plupart des gens dorment à quatre heures.", "why": "After la plupart de + plural noun, the verb is plural."},
+    {"wrong": "Plus d'un client sont venus.", "right": "Plus d'un client est venu.", "why": "Plus d'un takes a singular verb."},
+    {"wrong": "Léa et moi sont fatigués.", "right": "Léa et moi sommes fatigués.", "why": "With mixed persons, moi + another = nous."},
+    {"wrong": "le pain que pétrit les boulangers", "right": "le pain que pétrissent les boulangers", "why": "The subject is les boulangers, placed after the verb: plural."}
+  ],
+  "story": {
+    "title": "La plupart des gens dorment",
+    "en": "Friday 20 May: the exams are over, and Léa corrects the agreements in Tom's song.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le vendredi vingt mai, à quatre heures de l'après-midi, les examens sont enfin finis : Tom a passé le dernier ce matin, Léa à deux heures.", "en": "On Friday 20 May, at four in the afternoon, the exams are finally over: Tom sat his last one this morning, Léa hers at two."},
+      {"sp": "", "fr": "Léa monte chez Tom avec un stylo rouge. Sur la table, des feuilles couvertes de paroles et la guitare de Tom.", "en": "Léa comes up to Tom's with a red pen. On the table, sheets covered in lyrics, and Tom's guitar."},
+      {"sp": "Tom", "fr": "Ma chanson « Quatre heures du matin » doit être parfaite avant juin. Sois sans pitié.", "en": "My song « Quatre heures du matin » has to be perfect before June. Be merciless."},
+      {"sp": "Léa", "fr": "Première ligne : « {La plupart des gens dorment|as-plupart} ». Tu as oublié le pluriel : le verbe va avec « gens ».", "en": "First line: « Most people are asleep ». You forgot the plural: the verb goes with « gens »."},
+      {"sp": "Tom", "fr": "Mais il y a « la » devant « plupart » !", "en": "But there's « la » in front of « plupart »!"},
+      {"sp": "Léa", "fr": "Et pourtant, {la plupart dorment|as-plupart}. Deuxième ligne : « {Plus d'un boulanger rêve|as-plus-d-un} », et là, pas de pluriel.", "en": "And yet most of them are asleep. Second line: « More than one baker dreams », and here, no plural."},
+      {"sp": "Tom", "fr": "Plus d'un, ça fait au moins deux ! Ce n'est pas logique.", "en": "More than one makes at least two! It isn't logical."},
+      {"sp": "Léa", "fr": "C'est le français.", "en": "That's French."},
+      {"sp": "", "fr": "Enzo monte du fournil avec du pain encore chaud. Il est debout depuis quatre heures du matin et vient vérifier les détails du métier… et l'argot.", "en": "Enzo comes up from the bakehouse with bread still warm. He has been up since four in the morning and has come to check the trade… and the slang."},
+      {"sp": "Léa", "fr": "Ensuite : « {Un des boulangers qui se lèvent|as-plus-d-un} le plus tôt ». C'est un de ceux qui se lèvent le plus tôt : donc pluriel.", "en": "Next: « One of the bakers who get up earliest ». He's one of those who get up earliest: so plural."},
+      {"sp": "Enzo", "fr": "Le boulanger qui se lève le plus tôt, c'est moi.", "en": "The baker who gets up earliest is me."},
+      {"sp": "Tom", "fr": "Et là ? « {Une foule de clients attend|as-collectif} devant la boulangerie. » Ou « attendent » ?", "en": "And here? « A crowd of customers waits outside the bakery. » Or « attendent »?"},
+      {"sp": "Léa", "fr": "Les deux sont possibles : tu vois la foule, ou bien tu vois les gens, et alors {une foule de clients attendent|as-collectif}.", "en": "Both are possible: you see the crowd, or else you see the people, and then a crowd of customers wait."},
+      {"sp": "Tom", "fr": "Je garde « attend » : ça sonne mieux avec « le temps ».", "en": "I'll keep « attend »: it sounds better with « le temps »."},
+      {"sp": "Léa", "fr": "Plus loin : « {le pain que pétrissent les boulangers|as-inversion} ». Le sujet, ce sont les boulangers, après le verbe.", "en": "Further on: « the bread the bakers knead ». The subject is the bakers, after the verb."},
+      {"sp": "Enzo", "fr": "Sauf qu'à quatre heures du matin, on ne pétrit pas à la main : c'est le pétrin qui fait le travail.", "en": "Except that at four in the morning, nobody kneads by hand: the kneading machine does the work."},
+      {"sp": "Léa", "fr": "« {Enzo, ainsi que sa grand-mère, se lève|as-sujets} à quatre heures » : avec « ainsi que » entre virgules, c'est Enzo qui décide. Et le refrain : « {Ni la lune ni le réveil ne dorment|as-sujets} ». Parfait.", "en": "« Enzo, as well as his grandmother, gets up at four »: with « ainsi que » between commas, Enzo decides. And the chorus: « Neither the moon nor the alarm clock sleeps ». Perfect."},
+      {"sp": "Enzo", "fr": "Par contre, « le daron », « je suis claqué »… Aucun boulanger ne parle comme ça avant cinq heures. On a trop sommeil.", "en": "On the other hand, « le daron », « je suis claqué »… No baker talks like that before five. We're too sleepy."},
+      {"sp": "", "fr": "Camille arrive du travail. Tom joue la chanson corrigée à la guitare.", "en": "Camille arrives from work. Tom plays the corrected song on the guitar."},
+      {"sp": "", "fr": "{« Bravo ! » crient Léa et Camille|as-inversion}. {Les quelques mots qu'a changés Léa|as-inversion} ont tout sauvé.", "en": "« Bravo! » shout Léa and Camille. The few words Léa changed have saved everything."},
+      {"sp": "Camille", "fr": "Et combien de temps il a fallu ?", "en": "And how long did it take?"},
+      {"sp": "Léa", "fr": "{Moins de deux heures ont suffi|as-plus-d-un}. {Une dizaine de verbes ont changé|as-collectif}, c'est tout.", "en": "Less than two hours were enough. About ten verbs changed, that's all."},
+      {"sp": "Tom", "fr": "{Léa et moi sommes|as-sujets} en vacances !", "en": "Léa and I are on holiday!"},
+      {"sp": "", "fr": "Vers sept heures, Hugo rentre avec ses pâtes et chante le refrain sur le palier, faux, comme toujours. Léa ouvre la porte : « Hugo, {toi et ta voix, vous réveillez|as-sujets} tout l'immeuble ! »", "en": "Around seven, Hugo comes home with his pasta and sings the chorus on the landing, out of tune as always. Léa opens the door: « Hugo, you and your voice are waking the whole building! »"},
+      {"sp": "Madame Fournier", "fr": "Moins fort, là-haut ! {Beaucoup de boulangers dorment|as-plupart} déjà à cette heure-ci, et mon petit-fils devrait en faire [partie|partie] !", "en": "Not so loud up there! Lots of bakers are already asleep at this hour, and my grandson ought to be one of them!"},
+      {"sp": "Enzo", "fr": "Elle a raison : je me couche à huit heures. Bonne nuit, les artistes !", "en": "She's right: I go to bed at eight. Good night, artists!"}
+    ]
+  },
+  "quiz": [
+    {"case": "as-plupart", "type": "mc", "q": "La plupart des gens ___ à quatre heures du matin.", "en": "Most people are asleep at four in the morning.", "options": ["dorment", "dort", "dormons"], "answer": "dorment"},
+    {"case": "as-plupart", "type": "mc", "q": "Beaucoup de boulangers ___ avant le jour.", "en": "Lots of bakers get up before daybreak.", "options": ["se lèvent", "se lève", "se levait"], "answer": "se lèvent"},
+    {"case": "as-collectif", "type": "mc", "q": "La foule ___ devant la boulangerie.", "en": "The crowd is waiting outside the bakery.", "options": ["attend", "attendent", "attends"], "answer": "attend"},
+    {"case": "as-collectif", "type": "mc", "q": "Une dizaine de croissants ___ partis en dix minutes.", "en": "About ten croissants went in ten minutes.", "options": ["sont", "est", "sommes"], "answer": "sont"},
+    {"case": "as-plus-d-un", "type": "mc", "q": "Plus d'un boulanger ___ l'après-midi.", "en": "More than one baker sleeps in the afternoon.", "options": ["dort", "dorment", "dors"], "answer": "dort"},
+    {"case": "as-plus-d-un", "type": "mc", "q": "Moins de deux heures ___ suffi.", "en": "Less than two hours were enough.", "options": ["ont", "a", "avons"], "answer": "ont"},
+    {"case": "as-sujets", "type": "mc", "q": "Léa et moi ___ en vacances.", "en": "Léa and I are on holiday.", "options": ["sommes", "sont", "êtes"], "answer": "sommes"},
+    {"case": "as-sujets", "type": "mc", "q": "Enzo, ainsi que sa grand-mère, ___ à quatre heures.", "en": "Enzo, as well as his grandmother, gets up at four.", "options": ["se lève", "se lèvent", "se levaient"], "answer": "se lève"},
+    {"case": "as-inversion", "type": "mc", "q": "Voici le pain que ___ les boulangers.", "en": "Here's the bread the bakers knead.", "options": ["pétrissent", "pétrit", "pétrissez"], "answer": "pétrissent"},
+    {"case": "as-inversion", "type": "mc", "q": "« Bravo ! » ___ Léa et Camille.", "en": "« Bravo! » shout Léa and Camille.", "options": ["crient", "crie", "criez"], "answer": "crient"}
+  ]
+}
