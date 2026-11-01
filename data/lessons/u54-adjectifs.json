@@ -1,0 +1,143 @@
+{
+  "id": "u54-adjectifs",
+  "type": "vocab",
+  "unit": 54,
+  "title": "Le Rhône, sans bouée",
+  "en": "Common adjectives (6)",
+  "intro": "25 common adjectives: the director's call (**chaleureux, satisfait, provisoire, dérisoire, stupéfait, inouï, spirituel, insensé, débile, habile**), Hugo and the water (**soi-disant, épouvantable, atroce, minable, doué, douteux, susceptible**), and Carla's ruling (**soucieux, sournois, glacial, éventuel, solennel, convenable, incertain, affectueux**).",
+  "words": [
+    {"id": "chaleureux", "fr": "chaleureux", "pos": "adj", "ipa": "ʃa.lø.ʁø", "display": "chaleureux, chaleureuse", "en": "warm, friendly (a welcome, a person)", "def": "Qui accueille les gens avec beaucoup de gentillesse et de joie.", "def_en": "Who welcomes people with a lot of kindness and joy.", "forms": ["chaleureuse", "chaleureuses"], "accept": ["chaleureuse"], "examples": [
+      {"fr": "Le réalisateur, très **chaleureux**, salue tout le monde.", "en": "The director, very warm, greets everyone."},
+      {"fr": "Merci pour ce message **chaleureux** !", "en": "Thank you for this warm message!"},
+      {"fr": "Madame Fournier a une voix **chaleureuse**.", "en": "Madame Fournier has a warm voice."}]},
+    {"id": "satisfait", "fr": "satisfait", "pos": "adj", "ipa": "sa.tis.fɛ", "display": "satisfait, satisfaite", "en": "satisfied, happy (with)", "def": "Content de ce qu'on a reçu ou de ce qu'on a fait.", "def_en": "Pleased with what you got or what you did.", "note": "*Satisfait ou remboursé* = satisfaction or your money back.", "forms": ["satisfaite", "satisfaits", "satisfaites"], "accept": ["satisfaite"], "examples": [
+      {"fr": "Je suis encore très **satisfait** de ta chute dans la poubelle.", "en": "I'm still very happy with your fall into the bin."},
+      {"fr": "Les clients sont **satisfaits** du nouveau pain.", "en": "The customers are happy with the new bread."},
+      {"fr": "Sophie n'est jamais **satisfaite** de ses dessins.", "en": "Sophie is never satisfied with her drawings."}]},
+    {"id": "provisoire", "fr": "provisoire", "pos": "adj", "ipa": "pʁɔ.vi.zwaʁ", "en": "temporary, provisional", "def": "Qui ne dure qu'un temps, avant d'être remplacé.", "def_en": "That only lasts for a while, before being replaced.", "forms": ["provisoires"], "examples": [
+      {"fr": "Le titre est encore **provisoire**.", "en": "The title is still provisional."},
+      {"fr": "C'est une solution **provisoire**, en attendant mieux.", "en": "It's a temporary solution, until something better comes along."},
+      {"fr": "Pendant les travaux, le bureau a des horaires **provisoires**.", "en": "During the work, the office has temporary opening hours."}]},
+    {"id": "derisoire", "fr": "dérisoire", "pos": "adj", "ipa": "de.ʁi.zwaʁ", "en": "derisory, trifling", "def": "Si petit ou si faible qu'on pourrait en rire.", "def_en": "So small or so weak that you could laugh at it.", "forms": ["dérisoires"], "examples": [
+      {"fr": "Et ce n'est pas une somme **dérisoire**, promis.", "en": "And it's no derisory sum, I promise."},
+      {"fr": "Il a vendu sa vieille guitare pour un prix **dérisoire**.", "en": "He sold his old guitar for next to nothing."},
+      {"fr": "Face à la tempête, nos efforts semblent **dérisoires**.", "en": "In the face of the storm, our efforts seem pitiful."}]},
+    {"id": "stupefait", "fr": "stupéfait", "pos": "adj", "ipa": "sty.pe.fɛ", "display": "stupéfait, stupéfaite", "en": "astounded, stunned", "def": "Si surpris qu'on ne peut plus parler ni bouger.", "def_en": "So surprised that you can no longer speak or move.", "forms": ["stupéfaite", "stupéfaits", "stupéfaites"], "accept": ["stupéfaite"], "examples": [
+      {"fr": "Hugo reste **stupéfait**, la bouche ouverte.", "en": "Hugo is stunned, his mouth open."},
+      {"fr": "Elle est **stupéfaite** par la nouvelle.", "en": "She's astounded by the news."},
+      {"fr": "Les voisins, **stupéfaits**, n'en croient pas leurs yeux.", "en": "The neighbours, stunned, can't believe their eyes."}]},
+    {"id": "inoui", "fr": "inouï", "pos": "adj", "ipa": "i.nwi", "display": "inouï, inouïe", "en": "unheard-of, incredible", "def": "Qu'on n'a jamais vu ni entendu ; extraordinaire.", "def_en": "Never seen or heard before; extraordinary.", "forms": ["inouïe", "inouïs", "inouïes"], "accept": ["inouïe"], "examples": [
+      {"fr": "Une chance **inouïe**, cousin !", "en": "An incredible stroke of luck, cousin!"},
+      {"fr": "Il a fait une chaleur **inouïe** cet été.", "en": "It was incredibly hot this summer."},
+      {"fr": "C'est **inouï** ! Hugo est à l'heure !", "en": "That's unheard-of! Hugo is on time!"}]},
+    {"id": "spirituel", "fr": "spirituel", "pos": "adj", "ipa": "spi.ʁi.tɥɛl", "display": "spirituel, spirituelle", "en": "witty; spiritual", "def": "Qui dit des choses drôles et intelligentes ; qui concerne l'âme.", "def_en": "Who says funny, clever things; to do with the soul.", "forms": ["spirituelle", "spirituels", "spirituelles"], "accept": ["spirituelle"], "examples": [
+      {"fr": "Antoine est toujours aussi **spirituel**.", "en": "Antoine is as witty as ever."},
+      {"fr": "Elle a fait une remarque très **spirituelle**.", "en": "She made a very witty remark."},
+      {"fr": "Ce livre parle de la vie **spirituelle**.", "en": "This book is about the spiritual life."}]},
+    {"id": "insense", "fr": "insensé", "pos": "adj", "ipa": "ɛ̃.sɑ̃.se", "display": "insensé, insensée", "en": "insane, crazy (an idea, a plan)", "def": "Complètement fou, contraire à la raison.", "def_en": "Completely mad, against reason.", "forms": ["insensée", "insensés", "insensées"], "accept": ["insensée"], "examples": [
+      {"fr": "Tomber dans le Rhône ? C'est une idée **insensée** !", "en": "Fall into the Rhône? That's an insane idea!"},
+      {"fr": "La voiture roulait à une vitesse **insensée**.", "en": "The car was going at a crazy speed."},
+      {"fr": "Ce projet est **insensé**, mais il me plaît.", "en": "This plan is crazy, but I like it."}]},
+    {"id": "debile", "fr": "débile", "pos": "adj", "ipa": "de.bil", "en": "(familiar) stupid, idiotic", "def": "(Familier) Très bête, idiot.", "def_en": "(Informal) Very stupid, idiotic.", "note": "Familiar: keep it for friends, never for a formal letter.", "forms": ["débiles"], "examples": [
+      {"fr": "Et **débile**, en plus : je ne sais même plus nager !", "en": "And stupid, what's more: I can't even swim any more!"},
+      {"fr": "Arrête avec tes blagues **débiles** !", "en": "Stop it with your stupid jokes!"},
+      {"fr": "Ce film est complètement **débile**.", "en": "This film is completely idiotic."}]},
+    {"id": "habile", "fr": "habile", "pos": "adj", "ipa": "a.bil", "en": "skilful, clever", "def": "Qui sait bien se servir de ses mains ; qui sait obtenir ce qu'il veut sans en avoir l'air.", "def_en": "Good with their hands; who knows how to get what they want without seeming to.", "forms": ["habiles"], "examples": [
+      {"fr": "Le réalisateur est **habile** : il a parlé du salaire avant de parler de l'eau.", "en": "The director is clever: he talked about the fee before he talked about the water."},
+      {"fr": "Grand-père était très **habile** de ses mains.", "en": "Grandad was very good with his hands."},
+      {"fr": "C'est une réponse **habile**.", "en": "That's a clever answer."}]},
+    {"id": "soi-disant", "fr": "soi-disant", "pos": "adj", "ipa": "swa.di.zɑ̃", "en": "so-called, supposed(ly)", "def": "Qui prétend être quelque chose, mais ne l'est peut-être pas.", "def_en": "Who claims to be something, but perhaps isn't.", "note": "Invariable: *une soi-disant amie*. Also an adverb: *il est soi-disant malade* = he's supposedly ill.", "examples": [
+      {"fr": "Mon frère, ce **soi-disant** nageur, a tout oublié.", "en": "My brother, this so-called swimmer, has forgotten everything."},
+      {"fr": "Il est **soi-disant** malade, mais il joue aux jeux vidéo.", "en": "He's supposedly ill, but he's playing video games."},
+      {"fr": "Ce **soi-disant** expert ne sait rien.", "en": "This so-called expert knows nothing."}]},
+    {"id": "epouvantable", "fr": "épouvantable", "pos": "adj", "ipa": "e.pu.vɑ̃.tabl", "en": "dreadful, appalling", "def": "Qui fait très peur ; très mauvais.", "def_en": "Very frightening; very bad.", "forms": ["épouvantables"], "examples": [
+      {"fr": "Je me souviens d'un saut **épouvantable** à la piscine.", "en": "I remember a dreadful jump at the swimming pool."},
+      {"fr": "Il fait un temps **épouvantable**.", "en": "The weather is appalling."},
+      {"fr": "Il a une écriture **épouvantable**.", "en": "He has dreadful handwriting."}]},
+    {"id": "atroce", "fr": "atroce", "pos": "adj", "ipa": "a.tʁɔs", "en": "atrocious, terrible (pain, fear)", "def": "Terrible, très difficile à [supporter|supporter].", "def_en": "Terrible, very hard to bear.", "forms": ["atroces"], "examples": [
+      {"fr": "Depuis, j'ai une peur **atroce** de l'eau profonde.", "en": "Since then, I've had a terrible fear of deep water."},
+      {"fr": "Il avait une douleur **atroce** au dos.", "en": "He had an atrocious pain in his back."},
+      {"fr": "Le voyage en bus était **atroce**.", "en": "The bus journey was dreadful."}]},
+    {"id": "minable", "fr": "minable", "pos": "adj", "ipa": "mi.nabl", "en": "pathetic, shabby, useless", "def": "Très mauvais, qui fait pitié.", "def_en": "Very bad, pitiful.", "forms": ["minables"], "examples": [
+      {"fr": "Je suis un nageur **minable** : je coule comme une pierre.", "en": "I'm a useless swimmer: I sink like a stone."},
+      {"fr": "Ils dorment dans un hôtel **minable**.", "en": "They're sleeping in a shabby hotel."},
+      {"fr": "Quelle excuse **minable** !", "en": "What a pathetic excuse!"}]},
+    {"id": "doue", "fr": "doué", "pos": "adj", "ipa": "dwe", "display": "doué, douée", "en": "talented, gifted (doué pour = good at)", "def": "Qui a un talent naturel pour quelque chose.", "def_en": "Who has a natural talent for something.", "forms": ["douée", "doués", "douées"], "accept": ["douée"], "examples": [
+      {"fr": "Je ne suis pas **doué** pour la natation.", "en": "I'm no good at swimming."},
+      {"fr": "Sophie est très **douée** en dessin.", "en": "Sophie is very gifted at drawing."},
+      {"fr": "Ces enfants sont **doués** pour la musique.", "en": "These children are talented at music."}]},
+    {"id": "douteux", "fr": "douteux", "pos": "adj", "ipa": "du.tø", "display": "douteux, douteuse", "en": "doubtful, dubious", "def": "Dont on n'est pas sûr ; qui ne paraît pas honnête ou propre.", "def_en": "That you're not sure about; that doesn't seem honest or clean.", "note": "*Il est douteux que* + subjunctive = it's doubtful that.", "forms": ["douteuse", "douteuses"], "accept": ["douteuse"], "examples": [
+      {"fr": "Ton talent pour la natation me paraît très **douteux**.", "en": "Your talent for swimming seems very doubtful to me."},
+      {"fr": "Ce poisson a une odeur **douteuse**.", "en": "This fish has a dubious smell."},
+      {"fr": "Il est **douteux** qu'il vienne ce soir.", "en": "It's doubtful that he'll come tonight."}]},
+    {"id": "susceptible", "fr": "susceptible", "pos": "adj", "ipa": "sy.sɛp.tibl", "en": "touchy, easily offended", "def": "Qui se fâche ou se sent blessé pour un rien.", "def_en": "Who gets angry or feels hurt over nothing.", "note": "A false friend: *susceptible de* = likely to (*un horaire susceptible de changer*).", "forms": ["susceptibles"], "examples": [
+      {"fr": "Hugo, un peu **susceptible**, croise les bras.", "en": "Hugo, a bit touchy, folds his arms."},
+      {"fr": "Ne te moque pas de lui, il est très **susceptible**.", "en": "Don't make fun of him, he's very touchy."},
+      {"fr": "Les artistes sont souvent **susceptibles**.", "en": "Artists are often touchy."}]},
+    {"id": "soucieux", "fr": "soucieux", "pos": "adj", "ipa": "su.sjø", "display": "soucieux, soucieuse", "en": "worried, concerned", "def": "Inquiet, qui pense à un problème.", "def_en": "Anxious, thinking about a problem.", "note": "*Soucieux de* + infinitive = anxious to, careful to.", "forms": ["soucieuse", "soucieuses"], "accept": ["soucieuse"], "examples": [
+      {"fr": "Carla, **soucieuse**, pose ses questions au réalisateur.", "en": "Carla, worried, puts her questions to the director."},
+      {"fr": "Le médecin a l'air **soucieux**.", "en": "The doctor looks worried."},
+      {"fr": "Il est **soucieux** de bien faire.", "en": "He's anxious to do things right."}]},
+    {"id": "sournois", "fr": "sournois", "pos": "adj", "ipa": "suʁ.nwa", "display": "sournois, sournoise", "en": "sly, sneaky; (of a current) treacherous", "def": "Qui cache ses mauvaises intentions ; dangereux sans le montrer.", "def_en": "Who hides their bad intentions; dangerous without showing it.", "forms": ["sournoise", "sournoises"], "accept": ["sournoise"], "examples": [
+      {"fr": "Le Rhône a des courants **sournois**.", "en": "The Rhône has treacherous currents."},
+      {"fr": "Ce chat a un regard **sournois**.", "en": "That cat has a sly look."},
+      {"fr": "C'est une maladie **sournoise** : au début, on ne sent rien.", "en": "It's an insidious illness: at first, you feel nothing."}]},
+    {"id": "glacial", "fr": "glacial", "pos": "adj", "ipa": "ɡla.sjal", "display": "glacial, glaciale", "en": "icy, freezing", "def": "Très froid ; (pour une personne) sans aucune chaleur.", "def_en": "Very cold; (of a person) without any warmth.", "note": "The masculine plural is *glacials* or *glaciaux*.", "forms": ["glaciale", "glacials", "glaciaux", "glaciales"], "accept": ["glaciale"], "examples": [
+      {"fr": "En mars, l'eau du Rhône est **glaciale**.", "en": "In March, the water of the Rhône is icy."},
+      {"fr": "Un vent **glacial** souffle sur les quais.", "en": "A freezing wind is blowing along the quays."},
+      {"fr": "Elle lui a lancé un regard **glacial**.", "en": "She gave him an icy look."}]},
+    {"id": "eventuel", "fr": "éventuel", "pos": "adj", "ipa": "e.vɑ̃.tɥɛl", "display": "éventuel, éventuelle", "en": "possible, potential (not eventual)", "def": "Qui arrivera peut-être, ou peut-être pas.", "def_en": "That may or may not happen.", "note": "A false friend: *éventuellement* = possibly, if need be (eventually = *finalement*).", "forms": ["éventuelle", "éventuels", "éventuelles"], "accept": ["éventuelle"], "examples": [
+      {"fr": "Pour tout problème **éventuel**, un bateau sera juste à côté.", "en": "For any possible problem, a boat will be right beside you."},
+      {"fr": "Il faut penser aux **éventuels** retards du train.", "en": "You have to allow for possible train delays."},
+      {"fr": "Envoyez-moi vos questions **éventuelles** avant lundi.", "en": "Send me any questions you may have before Monday."}]},
+    {"id": "solennel", "fr": "solennel", "pos": "adj", "ipa": "sɔ.la.nɛl", "display": "solennel, solennelle", "en": "solemn", "def": "Grave et sérieux, comme pendant une cérémonie.", "def_en": "Grave and serious, as at a ceremony.", "note": "Said /sɔlanɛl/: the first *e* sounds like *a*.", "forms": ["solennelle", "solennels", "solennelles"], "accept": ["solennelle"], "examples": [
+      {"fr": "Carla se lève et parle d'un ton **solennel**.", "en": "Carla stands up and speaks in a solemn voice."},
+      {"fr": "Le maire fait un discours **solennel**.", "en": "The mayor makes a solemn speech."},
+      {"fr": "C'est un moment **solennel** pour toute la famille.", "en": "It's a solemn moment for the whole family."}]},
+    {"id": "convenable", "fr": "convenable", "pos": "adj", "ipa": "kɔ̃v.nabl", "en": "decent, proper, suitable", "def": "Comme il faut ; assez bon.", "def_en": "As it should be; good enough.", "forms": ["convenables"], "examples": [
+      {"fr": "Tu dois d'abord nager de façon **convenable**.", "en": "First you have to swim properly."},
+      {"fr": "Mets une tenue **convenable** pour le mariage.", "en": "Wear something suitable for the wedding."},
+      {"fr": "Il gagne un salaire **convenable**.", "en": "He earns a decent salary."}]},
+    {"id": "incertain", "fr": "incertain", "pos": "adj", "ipa": "ɛ̃.sɛʁ.tɛ̃", "display": "incertain, incertaine", "en": "uncertain, unsure", "def": "Qui n'est pas sûr ; qu'on ne connaît pas encore.", "def_en": "Not sure; not yet known.", "forms": ["incertaine", "incertains", "incertaines"], "accept": ["incertaine"], "examples": [
+      {"fr": "Hugo, **incertain**, regarde Carla, puis l'écran.", "en": "Hugo, unsure, looks at Carla, then at the screen."},
+      {"fr": "Le temps est **incertain** : prends un parapluie.", "en": "The weather is uncertain: take an umbrella."},
+      {"fr": "L'avenir du café est encore **incertain**.", "en": "The café's future is still uncertain."}]},
+    {"id": "affectueux", "fr": "affectueux", "pos": "adj", "ipa": "a.fɛk.tɥø", "display": "affectueux, affectueuse", "en": "affectionate", "def": "Qui montre de la tendresse.", "def_en": "Who shows tenderness.", "forms": ["affectueuse", "affectueuses"], "accept": ["affectueuse"], "examples": [
+      {"fr": "Elle pose une main **affectueuse** sur son épaule.", "en": "She puts an affectionate hand on his shoulder."},
+      {"fr": "Ce chien est très **affectueux**.", "en": "This dog is very affectionate."},
+      {"fr": "Il termine sa lettre par un mot **affectueux**.", "en": "He ends his letter with an affectionate word."}]}
+  ],
+  "story": {
+    "title": "Le Rhône, sans bouée",
+    "en": "Wednesday 16 March: a video call from Montréal, at Hugo's.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi seize mars, à sept heures du soir, l'ordinateur de Hugo sonne : un appel vidéo de Montréal, où c'est le début de l'après-midi.", "en": "On Wednesday 16 March, at seven in the evening, Hugo's computer rings: a video call from Montréal, where it's early afternoon."},
+      {"sp": "", "fr": "À l'écran, le réalisateur des deux comédies où Antoine a joué, très chaleureux, salue tout le monde. Antoine est assis à côté de lui.", "en": "On the screen, the director of the two comedies Antoine acted in, very warm, greets everyone. Antoine is sitting beside him."},
+      {"sp": "Le réalisateur", "fr": "Bonsoir, la France ! Hugo, je suis encore très satisfait de ta chute dans la poubelle. Le public aussi, au festival Lumière !", "en": "Good evening, France! Hugo, I'm still very happy with your fall into the bin. So was the audience, at the Festival Lumière!"},
+      {"sp": "Le réalisateur", "fr": "Tu te souviens de mon idée ? Mon troisième film se tournera à Lyon, en juin, sur le Rhône. Le titre est encore provisoire, mais pas ton rôle.", "en": "Do you remember my idea? My third film will be shot in Lyon, in June, on the Rhône. The title is still provisional, but your part isn't."},
+      {"sp": "Le réalisateur", "fr": "Tu tomberas dans le fleuve, exprès, avec une réplique et un vrai salaire. Et ce n'est pas une somme dérisoire, promis.", "en": "You'll fall into the river, on purpose, with a line and a real fee. And it's no derisory sum, I promise."},
+      {"sp": "", "fr": "Hugo reste stupéfait, la bouche ouverte. Ses lunettes glissent de sa tête sur son nez.", "en": "Hugo is stunned, his mouth open. His glasses slide off his head onto his nose."},
+      {"sp": "Antoine", "fr": "Une chance inouïe, cousin ! Je t'envoie une bouée avec une tête de canard ?", "en": "An incredible stroke of luck, cousin! Shall I send you a rubber ring with a duck's head?"},
+      {"sp": "", "fr": "Antoine est toujours aussi spirituel. Tout le monde rit, sauf Hugo.", "en": "Antoine is as witty as ever. Everyone laughs, except Hugo."},
+      {"sp": "Hugo", "fr": "Tomber dans le Rhône ? C'est une idée insensée ! Et débile, en plus : je ne sais même plus nager !", "en": "Fall into the Rhône? That's an insane idea! And stupid, what's more: I can't even swim any more!"},
+      {"sp": "", "fr": "Le réalisateur est habile : il a parlé du salaire avant de parler de l'eau.", "en": "The director is clever: he talked about the fee before he talked about the water."},
+      {"sp": "Léa", "fr": "C'est vrai. Mon frère, ce soi-disant nageur, a appris à nager à huit ans… et il a tout oublié.", "en": "It's true. My brother, this so-called swimmer, learnt to swim at eight… and he's forgotten everything."},
+      {"sp": "Léa", "fr": "Et je me souviens d'un saut épouvantable à la piscine : il avait dix ans, et il a bu la moitié de la piscine.", "en": "And I remember a dreadful jump at the swimming pool: he was ten, and he drank half the pool."},
+      {"sp": "Hugo", "fr": "Depuis, j'ai une peur atroce de l'eau profonde. Je suis un nageur minable : je coule comme une pierre.", "en": "Since then, I've had a terrible fear of deep water. I'm a useless swimmer: I sink like a stone."},
+      {"sp": "Hugo", "fr": "Je ne suis pas doué pour la natation. Pour les chutes, en revanche…", "en": "I'm no good at swimming. At falling, on the other hand…"},
+      {"sp": "Tom", "fr": "Ton talent pour les chutes, d'accord. Mais ton talent pour la natation me paraît très douteux.", "en": "Your talent for falling, fine. But your talent for swimming seems very doubtful to me."},
+      {"sp": "", "fr": "Hugo, un peu susceptible, croise les bras et boude. Carla, elle, est soucieuse : elle pose ses questions au réalisateur.", "en": "Hugo, a bit touchy, folds his arms and sulks. Carla is worried: she puts her questions to the director."},
+      {"sp": "Carla", "fr": "Le Rhône a des courants sournois. Et en mars, l'eau est glaciale. En juin, c'est comment ?", "en": "The Rhône has treacherous currents. And in March, the water is icy. What's it like in June?"},
+      {"sp": "Le réalisateur", "fr": "Fraîche, mais pas glaciale. Et pour tout problème éventuel, un bateau sera juste à côté.", "en": "Cool, but not icy. And for any possible problem, a boat will be right beside him."},
+      {"sp": "", "fr": "Carla se lève et parle d'un ton solennel.", "en": "Carla stands up and speaks in a solemn voice."},
+      {"sp": "Carla", "fr": "Hugo, pas de Rhône avant la piscine. Tu dois d'abord nager de façon convenable.", "en": "Hugo, no Rhône before the swimming pool. First you have to swim properly."},
+      {"sp": "", "fr": "Hugo, incertain, regarde Carla, puis l'écran, puis encore Carla.", "en": "Hugo, unsure, looks at Carla, then at the screen, then at Carla again."},
+      {"sp": "Hugo", "fr": "Et si je n'y arrive pas ?", "en": "And what if I can't do it?"},
+      {"sp": "Carla", "fr": "Tu y arriveras. Tu as trois mois.", "en": "You will. You've got three months."},
+      {"sp": "", "fr": "Elle pose une main affectueuse sur son épaule. Hugo dit oui au réalisateur et, le soir même, il s'inscrit en ligne à des [cours|cours] de natation pour adultes, à la piscine municipale. Premier [cours|cours] : le mardi cinq avril.", "en": "She puts an affectionate hand on his shoulder. Hugo says yes to the director and, that same evening, he signs up online for adult swimming lessons at the municipal pool. First lesson: Tuesday 5 April."},
+      {"sp": "Antoine", "fr": "Alors, je t'envoie la bouée canard ?", "en": "So, shall I send you the duck ring?"},
+      {"sp": "Carla", "fr": "Non. Il tombera sans bouée.", "en": "No. He'll fall in without a rubber ring."}
+    ]
+  }
+}

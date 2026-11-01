@@ -1,0 +1,143 @@
+{
+  "id": "u54-artisans",
+  "type": "vocab",
+  "unit": 54,
+  "title": "Les métiers d'art",
+  "en": "Craftspeople and their materials",
+  "intro": "25 words for craftspeople and their materials: the workshop (**l'atelier, l'apprenti, l'ouvrage**), the crafts (**le luthier, l'ébéniste, le tisserand, le verrier, l'horloger, l'encadreur**), what they do (**sculpter, forger, polir, tisser, restaurer**), the materials (**le marbre, l'argile, le cristal, le fer, le cuivre, le plomb, la cire, le vernis**), and a tool and two works (**le ciseau, l'horloge, la tapisserie**).",
+  "words": [
+    {"id": "atelier", "fr": "atelier", "pos": "noun", "g": "m", "ipa": "a.tə.lje", "en": "workshop, studio", "def": "Le lieu où travaille un artisan ou un artiste.", "def_en": "The place where a craftsperson or an artist works.", "forms": ["ateliers"], "examples": [
+      {"fr": "Cinquante **ateliers** ouvrent leurs portes.", "en": "Fifty workshops open their doors."},
+      {"fr": "Le peintre travaille dans son **atelier**.", "en": "The painter works in his studio."},
+      {"fr": "Mon oncle a un petit **atelier** au fond du jardin.", "en": "My uncle has a little workshop at the bottom of the garden."}]},
+    {"id": "apprenti", "fr": "apprenti", "pos": "noun", "g": "m", "ipa": "a.pʁɑ̃.ti", "display": "l'apprenti, l'apprentie", "en": "apprentice", "def": "Un jeune qui se forme à un métier en travaillant à côté d'un patron.", "def_en": "A young person who trains for a trade by working beside a boss.", "forms": ["apprentie", "apprentis", "apprenties"], "examples": [
+      {"fr": "Son **apprentie** a dix-sept ans.", "en": "His apprentice is seventeen."},
+      {"fr": "Enzo a commencé comme **apprenti** à la boulangerie.", "en": "Enzo started as an apprentice at the bakery."},
+      {"fr": "Le patron montre les gestes à ses **apprentis**.", "en": "The boss shows his apprentices the movements."}]},
+    {"id": "ouvrage", "fr": "ouvrage", "pos": "noun", "g": "m", "ipa": "u.vʁaʒ", "en": "piece of work; (a) book, work", "def": "Un travail terminé, fait avec soin ; un livre.", "def_en": "A finished piece of work, made with care; a book.", "forms": ["ouvrages"], "examples": [
+      {"fr": "Pour une médaille de cette valeur, il faut un bel **ouvrage**.", "en": "For a medal of such value, you need a fine piece of work."},
+      {"fr": "La tisserande est fière de son **ouvrage**.", "en": "The weaver is proud of her work."},
+      {"fr": "On trouve cet **ouvrage** à la bibliothèque.", "en": "You can find this book at the library."}]},
+    {"id": "luthier", "fr": "luthier", "pos": "noun", "g": "m", "ipa": "ly.tje", "display": "le luthier, la luthière", "en": "stringed-instrument maker (luthier)", "def": "La personne qui fabrique et répare les guitares, les violons…", "def_en": "The person who makes and repairs guitars, violins…", "forms": ["luthière", "luthiers", "luthières"], "examples": [
+      {"fr": "Premier arrêt pour Tom : le **luthier**.", "en": "First stop for Tom: the luthier."},
+      {"fr": "Le **luthier** colle la fissure de la guitare.", "en": "The luthier glues the crack in the guitar."},
+      {"fr": "Ce violon a été fait par un **luthier** italien.", "en": "This violin was made by an Italian luthier."}]},
+    {"id": "ebeniste", "fr": "ébéniste", "pos": "noun", "g": "m", "both": true, "ipa": "e.be.nist", "display": "un / une ébéniste", "en": "cabinetmaker", "def": "La personne qui fabrique de beaux meubles en bois.", "def_en": "The person who makes fine wooden furniture.", "forms": ["ébénistes"], "accept": ["une ébéniste"], "examples": [
+      {"fr": "Le dernier atelier est celui d'un **ébéniste**.", "en": "The last workshop is a cabinetmaker's."},
+      {"fr": "L'**ébéniste** va fabriquer une petite vitrine.", "en": "The cabinetmaker is going to make a little glass case."},
+      {"fr": "Cette armoire a été faite par un **ébéniste**.", "en": "This wardrobe was made by a cabinetmaker."}]},
+    {"id": "tisserand", "fr": "tisserand", "pos": "noun", "g": "m", "ipa": "tis.ʁɑ̃", "display": "le tisserand, la tisserande", "en": "weaver", "def": "La personne qui fabrique de la toile en croisant des fils.", "def_en": "The person who makes cloth by crossing threads.", "forms": ["tisserande", "tisserands", "tisserandes"], "examples": [
+      {"fr": "Une **tisserande** travaille la soie dans la cour.", "en": "A weaver works silk in the courtyard."},
+      {"fr": "Les **tisserands** de Lyon s'appelaient les canuts.", "en": "The weavers of Lyon were called the canuts."},
+      {"fr": "La **tisserande** montre à Léa comment passer le fil.", "en": "The weaver shows Léa how to pass the thread."}]},
+    {"id": "verrier", "fr": "verrier", "pos": "noun", "g": "m", "ipa": "vɛ.ʁje", "display": "le verrier, la verrière", "en": "glassmaker, glassblower", "def": "La personne qui fabrique des objets en verre, souvent en soufflant dedans.", "def_en": "The person who makes glass objects, often by blowing into them.", "note": "A woman is also *une verrière*, a word that more often means a glass roof.", "forms": ["verriers"], "examples": [
+      {"fr": "Carla regarde le **verrier** souffler un verre.", "en": "Carla watches the glassblower blow a glass."},
+      {"fr": "Le **verrier** prépare une fenêtre pour une église.", "en": "The glassmaker is preparing a window for a church."},
+      {"fr": "Ce vase a été soufflé par un **verrier**.", "en": "This vase was blown by a glassblower."}]},
+    {"id": "horloger", "fr": "horloger", "pos": "noun", "g": "m", "ipa": "ɔʁ.lɔ.ʒe", "display": "l'horloger, l'horlogère", "en": "watchmaker, clockmaker", "def": "La personne qui fabrique et répare les montres.", "def_en": "The person who makes and repairs watches.", "forms": ["horlogère", "horlogers", "horlogères"], "examples": [
+      {"fr": "À midi, chez l'**horloger**, tout sonne en même temps.", "en": "At noon, at the clockmaker's, everything chimes at once."},
+      {"fr": "L'**horloger** change la pile de ma montre.", "en": "The watchmaker changes the battery of my watch."},
+      {"fr": "Mon grand-père était **horloger** en Suisse.", "en": "My grandfather was a watchmaker in Switzerland."}]},
+    {"id": "encadreur", "fr": "encadreur", "pos": "noun", "g": "m", "ipa": "ɑ̃.ka.dʁœʁ", "display": "l'encadreur, l'encadreuse", "en": "picture framer", "def": "La personne qui entoure les tableaux et les photos de bois ou de métal, pour les accrocher au mur.", "def_en": "The person who surrounds paintings and photos with wood or metal, to hang them on the wall.", "forms": ["encadreuse", "encadreurs", "encadreuses"], "examples": [
+      {"fr": "Sophie dépose son tableau chez une **encadreuse**.", "en": "Sophie leaves her painting at a framer's."},
+      {"fr": "L'**encadreuse** propose du chêne.", "en": "The framer suggests oak."},
+      {"fr": "Il faut passer chez l'**encadreur** avant l'exposition.", "en": "We need to go by the framer's before the exhibition."}]},
+    {"id": "sculpter", "fr": "sculpter", "pos": "verb", "ipa": "skyl.te", "en": "to sculpt, to carve", "def": "Donner une forme à la pierre ou au bois pour en faire une statue.", "def_en": "To give stone or wood a shape to make a statue out of it.", "forms": ["sculpte", "sculptes", "sculptons", "sculptez", "sculptent", "sculpté", "sculptée", "sculptés", "sculptées", "sculptais", "sculptait", "sculptions", "sculptiez", "sculptaient", "sculpterai", "sculpteras", "sculptera", "sculpterons", "sculpterez", "sculpteront", "sculpterais", "sculpterait", "sculpterions", "sculpteriez", "sculpteraient", "sculptant", "sculptai", "sculptas", "sculpta", "sculptâmes", "sculptâtes", "sculptèrent"], "examples": [
+      {"fr": "Un artiste **sculpte** une tête de chat dans le marbre.", "en": "An artist is carving a cat's head out of marble."},
+      {"fr": "Ce lion a été **sculpté** dans le bois.", "en": "This lion was carved out of wood."},
+      {"fr": "Elle aime **sculpter** le bois le dimanche.", "en": "She likes carving wood on Sundays."}]},
+    {"id": "forger", "fr": "forger", "pos": "verb", "ipa": "fɔʁ.ʒe", "en": "to forge (metal)", "def": "Donner une forme au métal en le chauffant et en le frappant.", "def_en": "To shape metal by heating it and striking it.", "forms": ["forge", "forges", "forgeons", "forgez", "forgent", "forgé", "forgée", "forgés", "forgées", "forgeais", "forgeait", "forgions", "forgiez", "forgeaient", "forgerai", "forgeras", "forgera", "forgerons", "forgerez", "forgeront", "forgerais", "forgerait", "forgerions", "forgeriez", "forgeraient", "forgeant", "forgeai", "forgeas", "forgea", "forgeâmes", "forgeâtes", "forgèrent"], "examples": [
+      {"fr": "Un ferronnier **forge** une petite clé.", "en": "An ironworker is forging a small key."},
+      {"fr": "La serrure sera en fer **forgé**.", "en": "The lock will be made of wrought iron."},
+      {"fr": "Autrefois, il **forgeait** des outils pour tout le village.", "en": "In the old days, he forged tools for the whole village."}]},
+    {"id": "polir", "fr": "polir", "pos": "verb", "ipa": "pɔ.liʁ", "en": "to polish", "def": "Frotter une surface longtemps pour la faire briller.", "def_en": "To rub a surface for a long time to make it shine.", "note": "The participles *poli, polie, polis, polies* also mean polite.", "forms": ["polit", "polissons", "polissez", "polissent", "polissais", "polissait", "polissions", "polissiez", "polissaient", "polirai", "poliras", "polira", "polirons", "polirez", "poliront", "polirais", "polirait", "polirions", "poliriez", "poliraient", "polisse", "polisses", "polissant", "polîmes", "polîtes", "polirent"], "examples": [
+      {"fr": "Je vais **polir** le tout.", "en": "I'll polish the whole thing."},
+      {"fr": "L'horloger **polit** une petite pièce de cuivre.", "en": "The clockmaker polishes a little piece of copper."},
+      {"fr": "Ils **polissent** le marbre pendant des heures.", "en": "They polish the marble for hours."}]},
+    {"id": "tisser", "fr": "tisser", "pos": "verb", "ipa": "ti.se", "en": "to weave", "def": "Fabriquer de la toile en croisant des fils, sur une machine.", "def_en": "To make cloth by crossing threads, on a machine.", "forms": ["tisse", "tisses", "tissons", "tissez", "tissent", "tissé", "tissée", "tissés", "tissées", "tissais", "tissait", "tissions", "tissiez", "tissaient", "tisserai", "tisseras", "tissera", "tisserons", "tisserez", "tisseront", "tisserais", "tisserait", "tisserions", "tisseriez", "tisseraient", "tissant", "tissai", "tissas", "tissa", "tissâmes", "tissâtes", "tissèrent"], "examples": [
+      {"fr": "Elle **tisse** la soie sur une vieille machine en bois.", "en": "She weaves silk on an old wooden machine."},
+      {"fr": "Les canuts **tissaient** la soie à la Croix-Rousse.", "en": "The canuts wove silk in the Croix-Rousse."},
+      {"fr": "Cette écharpe a été **tissée** à la main.", "en": "This scarf was woven by hand."}]},
+    {"id": "restaurer", "fr": "restaurer", "pos": "verb", "ipa": "ʁɛs.to.ʁe", "en": "to restore (a work, a building)", "def": "Réparer une œuvre ou un bâtiment ancien pour lui rendre son état d'autrefois.", "def_en": "To repair an old work or building to give it back its former condition.", "forms": ["restaure", "restaures", "restaurons", "restaurez", "restaurent", "restauré", "restaurée", "restaurés", "restaurées", "restaurais", "restaurait", "restaurions", "restauriez", "restauraient", "restaurerai", "restaureras", "restaurera", "restaurerons", "restaurerez", "restaureront", "restaurerais", "restaurerait", "restaurerions", "restaureriez", "restaureraient", "restaurai", "restauras", "restaura", "restaurâmes", "restaurâtes", "restaurèrent"], "examples": [
+      {"fr": "Je **restaure** une tapisserie d'un vieux château.", "en": "I'm restoring a tapestry from an old castle."},
+      {"fr": "On **restaure** la vieille église du village.", "en": "They're restoring the old village church."},
+      {"fr": "Ce tableau a été **restauré** l'an dernier.", "en": "This painting was restored last year."}]},
+    {"id": "marbre", "fr": "marbre", "pos": "noun", "g": "m", "ipa": "maʁbʁ", "en": "marble", "def": "Une pierre [dure|dur] et froide, souvent blanche, qu'on utilise pour les statues.", "def_en": "A hard, cold stone, often white, used for statues.", "forms": ["marbres"], "examples": [
+      {"fr": "Un artiste sculpte une tête de chat dans le **marbre**.", "en": "An artist is carving a cat's head out of marble."},
+      {"fr": "Les escaliers du château sont en **marbre**.", "en": "The castle's stairs are made of marble."},
+      {"fr": "Ce **marbre** blanc vient d'Italie.", "en": "This white marble comes from Italy."}]},
+    {"id": "argile", "fr": "argile", "pos": "noun", "g": "f", "ipa": "aʁ.ʒil", "en": "clay", "def": "Une terre molle qu'on travaille avec les mains, puis qu'on cuit au four.", "def_en": "A soft earth you work with your hands, then bake in a kiln.", "examples": [
+      {"fr": "Hugo met les mains dans l'**argile**.", "en": "Hugo puts his hands in the clay."},
+      {"fr": "Ce pot est en **argile**.", "en": "This pot is made of clay."},
+      {"fr": "L'**argile** sèche vite au soleil.", "en": "Clay dries quickly in the sun."}]},
+    {"id": "cristal", "fr": "cristal", "pos": "noun", "g": "m", "ipa": "kʁis.tal", "en": "crystal (glass)", "def": "Un verre très pur et brillant, qui sonne quand on le touche.", "def_en": "A very pure, sparkling glass that rings when you touch it.", "forms": ["cristaux"], "examples": [
+      {"fr": "Le verrier souffle un verre en **cristal**.", "en": "The glassblower is blowing a crystal glass."},
+      {"fr": "Ne touche pas aux verres en **cristal** de Mamie !", "en": "Don't touch Grandma's crystal glasses!"},
+      {"fr": "Ce vase en **cristal** coûte une fortune.", "en": "This crystal vase costs a fortune."}]},
+    {"id": "fer", "fr": "fer", "pos": "noun", "g": "m", "ipa": "fɛʁ", "en": "iron", "note": "*Le fer à repasser* = the iron (for clothes); *le fer forgé* = wrought iron.", "def": "Un métal gris, dur et solide, qu'on utilise pour les outils, les portes, les clés.", "def_en": "A grey, hard, strong metal used for tools, doors, keys.", "forms": ["fers"], "examples": [
+      {"fr": "Ce sera une serrure en **fer** forgé.", "en": "It will be a wrought-iron lock."},
+      {"fr": "Le ferronnier chauffe le **fer** dans le feu.", "en": "The ironworker heats the iron in the fire."},
+      {"fr": "Attention, le **fer** à repasser est encore chaud !", "en": "Careful, the iron is still hot!"}]},
+    {"id": "cuivre", "fr": "cuivre", "pos": "noun", "g": "m", "ipa": "kɥivʁ", "en": "copper", "def": "Un métal de couleur rouge, utilisé pour les casseroles et les fils électriques.", "def_en": "A red-coloured metal used for pans and electric wires.", "examples": [
+      {"fr": "Un artisan répare de vieilles casseroles en **cuivre**.", "en": "A craftsman is repairing old copper pans."},
+      {"fr": "Les fils électriques sont en **cuivre**.", "en": "Electric wires are made of copper."},
+      {"fr": "Le **cuivre** devient vert avec le temps.", "en": "Copper turns green over time."}]},
+    {"id": "plomb", "fr": "plomb", "pos": "noun", "g": "m", "ipa": "plɔ̃", "en": "lead (the metal)", "def": "Un métal gris, très lourd et mou.", "def_en": "A grey metal, very heavy and soft.", "forms": ["plombs"], "examples": [
+      {"fr": "Il entoure chaque morceau de verre de **plomb**.", "en": "He surrounds each piece of glass with lead."},
+      {"fr": "Le **plomb** est un métal très lourd.", "en": "Lead is a very heavy metal."},
+      {"fr": "Les vieux tuyaux en **plomb** sont dangereux.", "en": "Old lead pipes are dangerous."}]},
+    {"id": "cire", "fr": "cire", "pos": "noun", "g": "f", "ipa": "siʁ", "en": "wax", "def": "Une matière douce que fabriquent les abeilles ; on en [fait|faire] des bougies, et elle fait briller le bois.", "def_en": "A soft substance made by bees; candles are made of it, and it makes wood shine.", "forms": ["cires"], "examples": [
+      {"fr": "Ça sent la **cire** d'abeille.", "en": "It smells of beeswax."},
+      {"fr": "Ces bougies sont en **cire**.", "en": "These candles are made of wax."},
+      {"fr": "L'ébéniste passe de la **cire** sur la table.", "en": "The cabinetmaker rubs wax over the table."}]},
+    {"id": "vernis", "fr": "vernis", "pos": "noun", "g": "m", "ipa": "vɛʁ.ni", "en": "varnish; (nail) polish", "def": "Un liquide qu'on pose sur le bois ou sur les ongles, et qui brille en séchant.", "def_en": "A liquid you put on wood or on nails, which shines as it dries.", "examples": [
+      {"fr": "Je pose une couche de **vernis**.", "en": "I put on a coat of varnish."},
+      {"fr": "Léa met du **vernis** rouge sur ses ongles.", "en": "Léa puts red polish on her nails."},
+      {"fr": "Le **vernis** sèche en une nuit.", "en": "The varnish dries overnight."}]},
+    {"id": "ciseau", "fr": "ciseau", "pos": "noun", "g": "m", "ipa": "si.zo", "en": "chisel", "def": "Un outil de métal au bout [plat|plat-adj] et coupant, pour travailler le bois ou la pierre.", "def_en": "A metal tool with a flat, sharp end, for working wood or stone.", "note": "In the plural, *les ciseaux* are scissors.", "examples": [
+      {"fr": "Il travaille le marbre avec un **ciseau** et un marteau.", "en": "He works the marble with a chisel and a hammer."},
+      {"fr": "L'ébéniste creuse le bois avec son **ciseau**.", "en": "The cabinetmaker hollows out the wood with his chisel."},
+      {"fr": "Attention, ce **ciseau** coupe très bien.", "en": "Careful, this chisel is very sharp."}]},
+    {"id": "horloge", "fr": "horloge", "pos": "noun", "g": "f", "ipa": "ɔʁ.lɔʒ", "en": "clock", "def": "Un grand objet qui donne l'heure, sur un mur ou dans une tour.", "def_en": "A large object that tells the time, on a wall or in a tower.", "forms": ["horloges"], "examples": [
+      {"fr": "Toutes les **horloges** sonnent en même temps.", "en": "All the clocks strike at the same time."},
+      {"fr": "L'**horloge** de la gare avance de cinq minutes.", "en": "The station clock is five minutes fast."},
+      {"fr": "Il y a une vieille **horloge** dans la cuisine.", "en": "There's an old clock in the kitchen."}]},
+    {"id": "tapisserie", "fr": "tapisserie", "pos": "noun", "g": "f", "ipa": "ta.pi.sʁi", "en": "tapestry; wallpaper", "def": "Une grande image faite de fils, qu'on accroche au mur ; le papier collé sur les murs.", "def_en": "A large picture made of threads, hung on the wall; the paper stuck on walls.", "forms": ["tapisseries"], "examples": [
+      {"fr": "Je restaure une **tapisserie** d'un vieux château.", "en": "I'm restoring a tapestry from an old castle."},
+      {"fr": "Cette **tapisserie** a trois cents ans.", "en": "This tapestry is three hundred years old."},
+      {"fr": "On change la **tapisserie** de la chambre.", "en": "We're changing the bedroom wallpaper."}]}
+  ],
+  "story": {
+    "title": "Les métiers d'art",
+    "en": "Sunday 3 April: the European Artistic Crafts Days in the Croix-Rousse.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche trois avril, c'est le dernier jour des Journées européennes des métiers d'art. À la Croix-Rousse, cinquante ateliers ouvrent leurs portes.", "en": "On Sunday 3 April, it's the last day of the European Artistic Crafts Days. In the Croix-Rousse, fifty workshops open their doors."},
+      {"sp": "", "fr": "Madame Fournier est venue avec Enzo. Dans son sac, la médaille d'Auguste dort dans un mouchoir.", "en": "Madame Fournier has come with Enzo. In her bag, Auguste's medal is sleeping in a handkerchief."},
+      {"sp": "", "fr": "Premier arrêt pour Tom : le luthier. Cet hiver, le chauffage a ouvert une fissure dans sa guitare.", "en": "First stop for Tom: the luthier. This winter, the heating opened a crack in his guitar."},
+      {"sp": "Le luthier", "fr": "Ce n'est rien. Je vais coller le bois, poser une couche de vernis, puis polir le tout. Revenez samedi prochain.", "en": "It's nothing. I'll glue the wood, put on a coat of varnish, then polish the whole thing. Come back next Saturday."},
+      {"sp": "Tom", "fr": "Parfait. « Quatre heures du matin » attend sa guitare.", "en": "Perfect. \"Quatre heures du matin\" is waiting for its guitar."},
+      {"sp": "", "fr": "Dans la cour d'à côté, une tisserande tisse la soie sur une vieille machine en bois, comme les canuts d'autrefois.", "en": "In the courtyard next door, a weaver weaves silk on an old wooden machine, like the canuts of the old days."},
+      {"sp": "La tisserande", "fr": "Et ça, c'est une tapisserie d'un vieux château. Elle a trois cents ans, et je la restaure fil par fil.", "en": "And this is a tapestry from an old castle. It's three hundred years old, and I'm restoring it thread by thread."},
+      {"sp": "", "fr": "Léa essaie de passer le fil, et le casse du premier coup.", "en": "Léa tries to pass the thread, and breaks it on her very first try."},
+      {"sp": "La tisserande", "fr": "Ne vous en faites pas : j'en ai cassé pendant deux ans.", "en": "Don't worry: I kept breaking threads for two years."},
+      {"sp": "", "fr": "Chez le verrier, Carla le regarde souffler un verre en cristal. Sur la table, il entoure de plomb des morceaux de verre de couleur : ce sera une fenêtre d'église.", "en": "At the glassblower's, Carla watches him blow a crystal glass. On the table, he is setting pieces of coloured glass in lead: it will be a church window."},
+      {"sp": "", "fr": "Un peu plus loin, un artiste sculpte une tête de chat dans un bloc de marbre blanc, avec un ciseau et un marteau.", "en": "A little further on, an artist is carving a cat's head out of a block of white marble, with a chisel and a hammer."},
+      {"sp": "Hugo", "fr": "Il ne lui manque que les moustaches !", "en": "All it's missing is the whiskers!"},
+      {"sp": "", "fr": "Chez un potier, Hugo met les mains dans l'argile. Dix minutes plus tard, il en a jusqu'aux coudes.", "en": "At a potter's, Hugo puts his hands in the clay. Ten minutes later, he's covered in it up to the elbows."},
+      {"sp": "", "fr": "À midi, chez l'horloger, toutes les horloges sonnent en même temps. Hugo sursaute, et ses lunettes tombent de sa tête.", "en": "At noon, at the clockmaker's, all the clocks strike at once. Hugo jumps, and his glasses fall off his head."},
+      {"sp": "L'horloger", "fr": "C'est exprès : ça réveille tout le monde !", "en": "It's on purpose: it wakes everybody up!"},
+      {"sp": "", "fr": "Dehors, un ferronnier forge une petite clé en fer. À côté, un artisan répare de vieilles casseroles en cuivre.", "en": "Outside, an ironworker is forging a small iron key. Next to him, a craftsman is repairing old copper pans."},
+      {"sp": "Enzo", "fr": "Une clé qui brille ? Cachez-la, il y a des pies dans le quartier !", "en": "A shiny key? Hide it, there are magpies in the neighbourhood!"},
+      {"sp": "", "fr": "Sophie, elle, dépose son tableau de la ferme de Pierre chez une encadreuse.", "en": "Sophie, for her part, leaves her painting of Pierre's farm at a framer's."},
+      {"sp": "L'encadreuse", "fr": "Un cadre en chêne, tout simple. Ce sera prêt en mai.", "en": "An oak frame, very simple. It'll be ready in May."},
+      {"sp": "", "fr": "Le dernier atelier est celui d'un ébéniste. Ça sent le bois et la cire d'abeille.", "en": "The last workshop is a cabinetmaker's. It smells of wood and beeswax."},
+      {"sp": "Hugo", "fr": "Des abeilles ? Où ça ?", "en": "Bees? Where?"},
+      {"sp": "", "fr": "L'apprentie de l'ébéniste a dix-sept ans. Madame Fournier sourit : Enzo avait le même âge à ses débuts.", "en": "The cabinetmaker's apprentice is seventeen. Madame Fournier smiles: Enzo was the same age when he started."},
+      {"sp": "", "fr": "Elle sort la médaille de son mouchoir et raconte tout : Auguste, la vitrine, la pie.", "en": "She takes the medal out of her handkerchief and tells him everything: Auguste, the shop window, the magpie."},
+      {"sp": "L'ébéniste", "fr": "Je vous fais une petite vitrine qui ferme à clé, avec une serrure en fer forgé. Pour une médaille de cette valeur, il faut un bel ouvrage. Comptez quelques semaines.", "en": "I'll make you a little glass case that locks, with a wrought-iron lock. For a medal of such value, you need a fine piece of work. Allow a few weeks."},
+      {"sp": "Madame Fournier", "fr": "Et cette fois, elle restera dans la boutique, loin de la fenêtre.", "en": "And this time, it will stay inside the shop, far from the window."},
+      {"sp": "Enzo", "fr": "Margot ne va pas être contente.", "en": "Margot isn't going to be happy."}
+    ]
+  }
+}

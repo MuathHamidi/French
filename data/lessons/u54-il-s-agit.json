@@ -1,0 +1,106 @@
+{
+  "id": "u54-il-s-agit",
+  "type": "grammar",
+  "unit": 54,
+  "title": "Il s'agit de la médaille",
+  "en": "Impersonal constructions: il s'agit de, il suffit de / que, il manque, il reste, il arrive que, il importe que",
+  "intro": "In some sentences the subject *il* stands for nothing: it only fills the subject's place, as in *il faut* or *il pleut*. **Il s'agit de** means *it's about* (*Il s'agit de mon grand-père*) and never takes another subject. **Il suffit de** means *all it takes is* (*Il suffit d'une fenêtre ouverte*). Verbs like **il manque, il reste, il existe** put the real subject after the verb, which stays singular: *Il manque trois cuillères.* **Il arrive que** (it sometimes happens that) takes the subjunctive, **il se trouve que** (as it happens) the indicative, and **il est question de** means *there is talk of*. Finally, **il importe que, il convient de, il est temps que** and **il en va de** belong to careful, formal French.",
+  "cases": [
+    {"id": "is-agir", "label": "il s'agit de", "rule": "*Il s'agit de* + noun means *it's about, it concerns*: *Il s'agit de mon grand-père.* With an infinitive, it means *what matters is to, the thing is to*: *Il s'agit de trouver le voleur.* The subject is always the impersonal *il*, at every tense: *il s'agissait, il s'agira, il s'est agi*. Never give it a real subject: *Ce film s'agit de…* is wrong; say *Dans ce film, il s'agit de…* or *Ce film parle de…*"},
+    {"id": "is-suffire", "label": "il suffit de, il suffit que", "rule": "*Il suffit de* + noun or infinitive means *all it takes is, you only have to*: *Il suffit d'une fenêtre ouverte. Il suffit de réfléchir.* With a named subject, use *il suffit que* + subjunctive: *Il suffit qu'on surveille la vitrine une nuit.* The person can come as an indirect object: *Il me suffit d'un café* (a coffee is all I need)."},
+    {"id": "is-sujet-reel", "label": "the real subject after the verb", "rule": "Some verbs put *il* first and the real subject after them. The verb agrees with *il* and stays singular, even before a plural: *Il manque trois cuillères. Il reste deux croissants. Il existe des voleurs très discrets. Il est arrivé quelque chose.* This is the natural word order: *Une médaille manque* sounds stiff, *Il manque une médaille* is what people say. *Il se passe des choses* (things are going on) works the same way."},
+    {"id": "is-arrive", "label": "il arrive que, il se trouve que, il est question de", "rule": "*Il arrive que* + subjunctive means *it sometimes happens that*: *Il arrive qu'il oublie de la refermer* (he sometimes forgets). With a person: *il m'arrive de* + infinitive (I sometimes…). *Il se trouve que* + indicative states a fact, *as it happens*: *Il se trouve que je l'adore.* *Il est question de* + noun or infinitive means *there is talk of*: *Il est question d'appeler la police.*"},
+    {"id": "is-soutenu", "label": "il importe que, il convient de, il est temps que, il en va de", "rule": "Formal impersonals, for written French and solemn moments: *Il importe que* + subjunctive (it is important that): *Il importe que personne n'accuse sans preuve.* *Il convient de* + infinitive (it is advisable to): *Il convient de rester calme.* *Il est temps que* + subjunctive: *Il est temps que quelqu'un fasse quelque chose.* *Il en va de* + noun (… is at stake): *Il en va de l'honneur de cette maison.*"}
+  ],
+  "sections": [
+    {"title": "1. il s'agit de: it's about, what matters is", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il s'agit de la médaille d'Auguste.", "It's about Auguste's medal."],
+      ["Il s'agit de trouver le voleur.", "What matters is finding the thief."],
+      ["Dans ce film, il s'agissait d'un vol.", "This film was about a theft."]]},
+     "examples": [
+      {"fr": "{Il ne s'agit pas d'argent|is-agir}, vous savez. {Il s'agit de mon grand-père|is-agir}.", "en": "It isn't about money, you know. It's about my grandfather."},
+      {"fr": "{Il s'agit de trouver le voleur|is-agir} avant qu'il revienne.", "en": "What matters is finding the thief before he comes back."}],
+     "tip": "S'agir only has il as its subject. A book or a film never s'agit de: write dans ce livre, il s'agit de…"},
+    {"title": "2. il suffit de, il suffit que: all it takes is", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il suffit d'une fenêtre ouverte.", "All it takes is an open window."],
+      ["Il suffit de regarder la vitrine.", "You only have to look at the window."],
+      ["Il me suffit d'un café.", "A coffee is all I need."]]},
+     "examples": [
+      {"fr": "{Il suffit d'une fenêtre ouverte|is-suffire}.", "en": "All it takes is an open window."},
+      {"fr": "{Il suffit qu'on surveille la vitrine une nuit|is-suffire}, et on verra bien qui c'est !", "en": "All we need is to watch the window for one night, and we'll see who it is!"}],
+     "tip": "Il suffit de + noun or infinitive; il suffit que + subjunctive when there is a subject."},
+    {"title": "3. il + verb + the real subject", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il manque trois cuillères.", "Three spoons are missing."],
+      ["Il reste deux croissants.", "There are two croissants left."],
+      ["Il existe des voleurs très discrets.", "There are some very discreet thieves."]]},
+     "examples": [
+      {"fr": "{Il manque la médaille, une petite cuillère… et votre clé de voiture, Hugo|is-sujet-reel}.", "en": "The medal is missing, a teaspoon… and your car key, Hugo."},
+      {"fr": "{Il est arrivé quelque chose de bizarre|is-sujet-reel}.", "en": "Something odd has happened."}],
+     "tip": "The verb stays singular: il manque trois cuillères, never il manquent."},
+    {"title": "4. il arrive que, il se trouve que, il est question de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il arrive que le voisin ait raison.", "The neighbour is sometimes right."],
+      ["Il se trouve que j'étais là.", "As it happens, I was there."],
+      ["Il est question d'appeler la police.", "There's talk of calling the police."]]},
+     "examples": [
+      {"fr": "Et {il arrive qu'il oublie de la refermer|is-arrive}.", "en": "And sometimes he forgets to close it again."},
+      {"fr": "Mais {il se trouve que je l'adore, cette médaille|is-arrive} !", "en": "But as it happens, I love that medal!"}],
+     "tip": "Il arrive que + subjunctive (sometimes); il se trouve que + indicative (as it happens)."},
+    {"title": "5. il importe que, il convient de, il est temps que, il en va de", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il importe que tout le monde sache la vérité.", "It is important that everyone knows the truth."],
+      ["Il convient de rester calme.", "It is advisable to stay calm."],
+      ["Il en va de l'honneur de la maison.", "The honour of the house is at stake."]]},
+     "examples": [
+      {"fr": "{Il importe que personne n'accuse sans preuve|is-soutenu}.", "en": "It is important that nobody accuses anyone without proof."},
+      {"fr": "{Il est temps que quelqu'un fasse quelque chose|is-soutenu}.", "en": "It's time someone did something."}],
+     "tip": "Il importe que and il est temps que take the subjunctive; il convient de takes an infinitive. All of them sound formal."}
+  ],
+  "mistakes": [
+    {"wrong": "La médaille s'agit d'un souvenir de guerre.", "right": "Il s'agit d'un souvenir de guerre.", "why": "S'agir is only impersonal: its subject is always il."},
+    {"wrong": "Il manquent trois cuillères.", "right": "Il manque trois cuillères.", "why": "With an impersonal verb, the verb agrees with il and stays singular."},
+    {"wrong": "Il arrive que le voisin a raison.", "right": "Il arrive que le voisin ait raison.", "why": "Il arrive que takes the subjunctive."},
+    {"wrong": "Il se trouve que je sois là.", "right": "Il se trouve que je suis là.", "why": "Il se trouve que states a fact: it takes the indicative."}
+  ],
+  "story": {
+    "title": "Il s'agit de la médaille",
+    "en": "Monday 21 March: Auguste's medal has vanished from the bakery window, and the second-floor neighbour suspects Enzo.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi vingt et un mars, à sept heures du matin, Hugo descend acheter son croissant. Madame Fournier est debout devant la vitrine, toute blanche.", "en": "On Monday 21 March, at seven in the morning, Hugo comes down to buy his croissant. Madame Fournier is standing in front of the shop window, as white as a sheet."},
+      {"sp": "Hugo", "fr": "Bonjour, Madame Fournier ! Qu'est-ce qui ne va pas ?", "en": "Good morning, Madame Fournier! What's wrong?"},
+      {"sp": "Madame Fournier", "fr": "La médaille d'Auguste a disparu ! {Il manque la médaille, une petite cuillère… et votre clé de voiture, Hugo|is-sujet-reel}.", "en": "Auguste's medal has disappeared! The medal is missing, a teaspoon… and your car key, Hugo."},
+      {"sp": "", "fr": "Hugo laisse toujours une deuxième clé de sa voiture accrochée à un clou près de la vitrine : la voiture dort dans le vieux garage du père de Madame Fournier.", "en": "Hugo always leaves a spare key to his car hanging on a nail by the window: the car spends its nights in Madame Fournier's father's old garage."},
+      {"sp": "", "fr": "Dans la vitrine, {il reste le couteau de son père et la photo d'Auguste|is-sujet-reel}, toute seule sur le tissu rouge.", "en": "In the window, her father's knife and Auguste's photo are still there, the photo all alone on the red cloth."},
+      {"sp": "Madame Fournier", "fr": "{Il ne s'agit pas d'argent|is-agir}, vous savez. {Il s'agit de mon grand-père|is-agir}.", "en": "It isn't about money, you know. It's about my grandfather."},
+      {"sp": "Hugo", "fr": "Mais par où est-ce que le voleur est entré ? La porte était fermée.", "en": "But how did the thief get in? The door was shut."},
+      {"sp": "Madame Fournier", "fr": "{Il suffit d'une fenêtre ouverte|is-suffire}. Chaque matin, à l'aube, Enzo ouvre la petite fenêtre au-dessus de la vitrine pour laisser sortir la chaleur du four.", "en": "All it takes is an open window. Every morning at dawn, Enzo opens the little window above the shop window to let the heat of the oven out."},
+      {"sp": "Madame Fournier", "fr": "Et {il arrive qu'il oublie de [la|la-pron] refermer|is-arrive}.", "en": "And sometimes he forgets to close it again."},
+      {"sp": "", "fr": "La porte s'ouvre : c'est le voisin du deuxième étage, qui vient chercher son pain. Il a tout entendu.", "en": "The door opens: it's the second-floor neighbour, coming for his bread. He has heard everything."},
+      {"sp": "Le voisin", "fr": "Une fenêtre ouverte, un jeune homme seul dans la boutique à l'aube… {Il suffit de réfléchir|is-suffire}, madame.", "en": "An open window, a young man alone in the shop at dawn… You only have to think, madame."},
+      {"sp": "", "fr": "Enzo sort du fournil, de la farine sur le nez.", "en": "Enzo comes out of the bakehouse, flour on his nose."},
+      {"sp": "Enzo", "fr": "Quoi ? Moi ? Mais {il se trouve que je l'adore, cette médaille|is-arrive} ! C'est l'histoire de ma famille !", "en": "What? Me? But as it happens, I love that medal! It's my family's history!"},
+      {"sp": "Madame Fournier", "fr": "Mon [petit-fils|petit-fils] n'est pas un voleur, monsieur. Je ne veux pas en entendre parler.", "en": "My grandson is not a thief, sir. I won't hear of it."},
+      {"sp": "", "fr": "Tom descend à son tour. Dans la boutique, {il est question d'appeler la police|is-arrive}. Tom hésite : la police, pour une médaille et une cuillère ?", "en": "Tom comes down in turn. In the shop, there's talk of calling the police. Tom isn't sure: the police, for a medal and a spoon?"},
+      {"sp": "Hugo", "fr": "En tout cas, {il importe que personne n'accuse sans preuve|is-soutenu}.", "en": "In any case, it is important that nobody accuses anyone without proof."},
+      {"sp": "Madame Fournier", "fr": "Hugo a raison. {Il convient de rester calme|is-soutenu}… Mais quand même, {il en va de l'honneur de cette maison|is-soutenu} !", "en": "Hugo is right. It is advisable to stay calm… But all the same, the honour of this house is at stake!"},
+      {"sp": "Tom", "fr": "C'est étrange. {Il est arrivé quelque chose de bizarre|is-sujet-reel} : la caisse est là, avec l'argent. Rien d'autre n'a disparu.", "en": "It's strange. Something odd has happened: the till is here, with the money. Nothing else has gone."},
+      {"sp": "Le voisin", "fr": "{Il existe des voleurs très discrets|is-sujet-reel}, vous savez.", "en": "There are some very discreet thieves, you know."},
+      {"sp": "", "fr": "Le voisin paie son pain et sort sans dire au revoir.", "en": "The neighbour pays for his bread and leaves without saying goodbye."},
+      {"sp": "Enzo", "fr": "{Il suffit qu'on surveille la vitrine une nuit|is-suffire}, et on verra bien qui c'est !", "en": "All we need is to watch the window for one night, and we'll see who it is!"},
+      {"sp": "", "fr": "Hugo regarde sa [montre|montre-n] : sept heures et demie. Il est déjà en retard, comme toujours.", "en": "Hugo looks at his watch: half past seven. He's already late, as always."},
+      {"sp": "Hugo", "fr": "{Il est temps que quelqu'un fasse quelque chose|is-soutenu}. Ce soir, je mène l'enquête. {Il s'agit de trouver le voleur|is-agir} avant qu'il revienne.", "en": "It's time someone did something. Tonight, I'm leading the investigation. What matters is finding the thief before he comes back."},
+      {"sp": "Madame Fournier", "fr": "D'abord, votre croissant. Et allez au travail, vous êtes en retard !", "en": "First, your croissant. And off to work, you're late!"}
+    ]
+  },
+  "quiz": [
+    {"case": "is-agir", "type": "mc", "q": "Dans ce roman, ___ d'une médaille volée.", "en": "This novel is about a stolen medal.", "options": ["il s'agit", "elle s'agit", "on s'agit"], "answer": "il s'agit"},
+    {"case": "is-agir", "type": "mc", "q": "Maintenant, il ___ de trouver le voleur.", "en": "Now what matters is finding the thief.", "options": ["s'agit", "agit", "s'agissent"], "answer": "s'agit"},
+    {"case": "is-suffire", "type": "mc", "q": "Il suffit ___ regarder la vitrine.", "en": "You only have to look at the window.", "options": ["de", "que", "à"], "answer": "de"},
+    {"case": "is-suffire", "type": "mc", "q": "Il suffit qu'on ___ la vitrine une nuit.", "en": "All we need is to watch the window for one night.", "options": ["surveille", "surveiller", "surveillera"], "answer": "surveille"},
+    {"case": "is-sujet-reel", "type": "mc", "q": "Il ___ trois cuillères.", "en": "Three spoons are missing.", "options": ["manque", "manquent", "manquons"], "answer": "manque"},
+    {"case": "is-sujet-reel", "type": "mc", "q": "Il ___ quelque chose de bizarre.", "en": "Something odd has happened.", "options": ["est arrivé", "a arrivé", "sont arrivés"], "answer": "est arrivé"},
+    {"case": "is-arrive", "type": "mc", "q": "Il arrive qu'Enzo ___ de fermer la fenêtre.", "en": "Enzo sometimes forgets to close the window.", "options": ["oublie", "oubliera", "oubliait"], "answer": "oublie"},
+    {"case": "is-arrive", "type": "mc", "q": "Il se trouve que le voisin ___ raison.", "en": "As it happens, the neighbour is right.", "options": ["a", "ait", "avoir"], "answer": "a"},
+    {"case": "is-soutenu", "type": "mc", "q": "Il importe que tout le monde ___ la vérité.", "en": "It is important that everyone knows the truth.", "options": ["sache", "sait", "savoir"], "answer": "sache"},
+    {"case": "is-soutenu", "type": "mc", "q": "Il convient ___ rester calme.", "en": "It is advisable to stay calm.", "options": ["de", "que", "à"], "answer": "de"}
+  ]
+}

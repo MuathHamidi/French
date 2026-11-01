@@ -1,0 +1,106 @@
+{
+  "id": "u54-il-a-du",
+  "type": "grammar",
+  "unit": 54,
+  "title": "Le voleur a dû passer par la cour",
+  "en": "Degrees of certainty: ça doit être, il a dû, il se pourrait que, il y a fort à parier que, ce ne peut être que",
+  "intro": "How sure are you? French grades a guess with **devoir** and **pouvoir**. *Ça doit être une pie* (it must be) and *le voleur a dû passer par la cour* (he must have) are strong guesses; *ça peut être n'importe qui* and *il aurait pu prendre la caisse* (he could have) only open a possibility. Careful French adds **il se pourrait bien que** + subjunctive, **il y a fort à parier que** + indicative and **selon toute vraisemblance** (in all likelihood). When only one answer is left, say **ce ne peut être que**: *ce ne peut être qu'un oiseau*. Watch *j'ai dû partir*: it can also mean *I had to leave*, and only the context tells a guess from an obligation.",
+  "cases": [
+    {"id": "ad-doit", "label": "ça doit être: a likely present", "rule": "*Devoir* + infinitive gives a strong guess about now: *Ça doit être un oiseau. Elles doivent être sur ta tête.* For a guess about a past situation, use the imparfait: *Il devait être six heures et demie. Enzo devait être au fournil.*"},
+    {"id": "ad-a-du", "label": "il a dû: a likely past", "rule": "*Avoir dû* + infinitive gives a strong guess about a past event (must have): *Le voleur a dû passer par la cour. Il a dû entrer par la petite fenêtre.* Context decides: *j'ai dû partir tôt* can also mean I had to leave early (obligation). The auxiliary is always *avoir*, even before an *être* verb: *il a dû partir*, never *il est dû partir*."},
+    {"id": "ad-pourrait", "label": "il se pourrait bien que, il y a fort à parier que", "rule": "In careful French, *il se pourrait (bien) que* + subjunctive presents a possibility, a little more cautiously than *il se peut que*: *Il se pourrait bien que ce soit le livreur.* *Il y a fort à parier que* + indicative means it's a safe bet: *Il y a fort à parier qu'il reviendra.* *Selon toute vraisemblance* means in all likelihood."},
+    {"id": "ad-ne-peut", "label": "ce ne peut être que: by elimination", "rule": "*Ce ne peut être que* + noun or pronoun: only one answer is left: *Ce ne peut être qu'un oiseau.* *Ne pas pouvoir ne pas* + infinitive (can't have failed to): *Il ne peut pas ne pas avoir vu le voleur.* The negative certainty is *ça ne peut pas être*: *Ça ne peut pas être Enzo* (it can't be Enzo)."},
+    {"id": "ad-pu", "label": "ça peut être, il a pu, il aurait pu: a possibility", "rule": "*Pouvoir* only opens a possibility: *Ça peut être n'importe qui.* In the passé composé it means may have: *Elle a pu tomber derrière le comptoir.* The conditional is weaker: *Ça pourrait être le voisin.* *Il aurait pu prendre la caisse* means he could have, and he didn't."}
+  ],
+  "sections": [
+    {"title": "1. ça doit être: a likely present", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ça doit être un oiseau.", "It must be a bird."],
+      ["Elles doivent être sur ta tête.", "They must be on your head."],
+      ["Il devait être six heures et demie.", "It must have been half past six."]]},
+     "examples": [
+      {"fr": "{Elles doivent être sur ta tête|ad-doit}, comme d'habitude.", "en": "They must be on your head, as usual."},
+      {"fr": "{Il devait être six heures et demie|ad-doit}.", "en": "It must have been half past six."}],
+     "tip": "Doit être: a guess about now. Devait être: a guess about a past situation."},
+    {"title": "2. il a dû: a likely past", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le voleur a dû passer par la cour.", "The thief must have come through the courtyard."],
+      ["Elle a dû oublier sa clé.", "She must have forgotten her key."],
+      ["J'ai dû partir tôt.", "I had to leave early."]]},
+     "examples": [
+      {"fr": "Ah. Bon, reprenons. La médaille était dans la vitrine. {Le voleur a dû passer par la cour|ad-a-du}.", "en": "Ah. Right, let's start again. The medal was in the shop window. The thief must have come through the courtyard."},
+      {"fr": "Regarde mon plan : {il a dû entrer par la petite fenêtre|ad-a-du}, au-dessus de la vitrine.", "en": "Look at my plan: he must have got in through the little window, above the shop window."}],
+     "tip": "Avoir dû + infinitive: must have. It can also mean had to: the context decides."},
+    {"title": "3. il se pourrait bien que, il y a fort à parier que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il se pourrait bien que ce soit le livreur.", "It might well be the delivery man."],
+      ["Il y a fort à parier qu'il reviendra.", "It's a safe bet he'll be back."],
+      ["Selon toute vraisemblance, il aime ce qui brille.", "In all likelihood, he loves anything that shines."]]},
+     "examples": [
+      {"fr": "Mes suspects, alors. {Il se pourrait bien que ce soit le livreur de farine|ad-pourrait}.", "en": "My suspects, then. It might well be the flour delivery man."},
+      {"fr": "Et {il y a fort à parier qu'il reviendra|ad-pourrait}.", "en": "And it's a safe bet he'll be back."}],
+     "tip": "Il se pourrait que + subjunctive; il y a fort à parier que + indicative."},
+    {"title": "4. ce ne peut être que: by elimination", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ce ne [peut|pouvoir] être qu'un oiseau.", "It can only be a bird."],
+      ["Il ne peut pas ne pas l'avoir vu.", "He can't have failed to see him."],
+      ["Ça ne peut pas être Enzo.", "It can't be Enzo."]]},
+     "examples": [
+      {"fr": "{Ce ne [peut|pouvoir] être que quelqu'un qui aime ce qui brille|ad-ne-peut}.", "en": "It can only be someone who loves shiny things."},
+      {"fr": "Et ce voisin ne dort jamais. {Il ne peut pas ne pas avoir vu le voleur|ad-ne-peut} !", "en": "And that neighbour never sleeps. He can't have failed to see the thief!"}],
+     "tip": "Ce ne peut être que + the one answer left. Ne pas pouvoir ne pas + infinitive: can't have failed to."},
+    {"title": "5. ça peut être, il a pu, il aurait pu: a possibility", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Ça [peut|pouvoir] être n'importe qui.", "It could be anyone."],
+      ["La clé a pu tomber derrière le comptoir.", "The key may have fallen behind the counter."],
+      ["Il aurait pu prendre la caisse.", "He could have taken the till."]]},
+     "examples": [
+      {"fr": "Avec ta méthode, {ça [peut|pouvoir] être n'importe qui|ad-pu}. Même moi !", "en": "With your method, it could be anyone. Even me!"},
+      {"fr": "Une chose me gêne. {Le voleur aurait pu prendre la caisse|ad-pu}, et il ne l'a pas touchée.", "en": "One thing bothers me. The thief could have taken the till, and he didn't touch it."}],
+     "tip": "A pu: maybe it happened. Aurait pu: it could have happened, but it didn't."}
+  ],
+  "mistakes": [
+    {"wrong": "Le voleur est dû passer par la cour.", "right": "Le voleur a dû passer par la cour.", "why": "Devoir takes avoir in the compound tenses, whatever the infinitive after it."},
+    {"wrong": "Il se pourrait bien que c'est le livreur.", "right": "Il se pourrait bien que ce soit le livreur.", "why": "Il se pourrait que takes the subjunctive."},
+    {"wrong": "Il y a fort à parier qu'il revienne.", "right": "Il y a fort à parier qu'il reviendra.", "why": "Il y a fort à parier que announces something almost certain, so it takes the indicative."},
+    {"wrong": "Il a pu prendre la caisse, mais il ne l'a pas touchée.", "right": "Il aurait pu prendre la caisse, mais il ne l'a pas touchée.", "why": "Il a pu means maybe he did (or he managed to); for something that didn't happen, use the past conditional aurait pu."}
+  ],
+  "story": {
+    "title": "Le voleur a dû passer par la cour",
+    "en": "Tuesday 29 March: Hugo plays detective at the café downstairs.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi vingt-neuf mars, huit jours après le vol de la médaille, Hugo s'installe à une table du café d'en bas, avec un carnet et une loupe achetée samedi.", "en": "On Tuesday 29 March, eight days after the medal was stolen, Hugo settles at a table in the café downstairs, with a notebook and a magnifying glass bought on Saturday."},
+      {"sp": "", "fr": "Sophie, qui rentre de son cours de peinture, dessine un plan de la boulangerie sur une serviette en papier.", "en": "Sophie, back from her painting class, draws a plan of the bakery on a paper napkin."},
+      {"sp": "Hugo", "fr": "Où sont mes lunettes ? Je ne vois rien sur ton plan.", "en": "Where are my glasses? I can't see a thing on your plan."},
+      {"sp": "Sophie", "fr": "{Elles doivent être sur ta tête|ad-doit}, comme d'habitude.", "en": "They must be on your head, as usual."},
+      {"sp": "Hugo", "fr": "Ah. Bon, reprenons. La médaille était dans la vitrine. {Le voleur a dû passer par la cour|ad-a-du}.", "en": "Ah. Right, let's start again. The medal was in the shop window. The thief must have come through the courtyard."},
+      {"sp": "Sophie", "fr": "Impossible, la porte de la cour était fermée à clé. Regarde mon plan : {il a dû entrer par la petite fenêtre|ad-a-du}, au-dessus de la vitrine.", "en": "Impossible, the courtyard door was locked. Look at my plan: he must have got in through the little window, above the shop window."},
+      {"sp": "Hugo", "fr": "Celle qu'Enzo ouvre à l'aube pour faire sortir la chaleur du four… {Il devait être six heures et demie|ad-doit}.", "en": "The one Enzo opens at dawn to let the heat out of the oven… It must have been half past six."},
+      {"sp": "Hugo", "fr": "{Enzo devait être au fournil|ad-doit}, et {le voleur a dû attendre qu'il ait le dos tourné|ad-a-du}.", "en": "Enzo must have been in the bakehouse, and the thief must have waited until his back was turned."},
+      {"sp": "", "fr": "Justement, Enzo arrive, encore pâle. Depuis le vol, le voisin du deuxième ne lui dit plus bonjour.", "en": "Just then Enzo arrives, still pale. Since the theft, the second-floor neighbour hasn't said hello to him."},
+      {"sp": "Carla", "fr": "Soyons clairs : {ça ne peut pas être Enzo|ad-ne-peut}. Tout le monde le sait.", "en": "Let's be clear: it can't be Enzo. Everybody knows that."},
+      {"sp": "Léa", "fr": "Et ce voisin ne dort jamais. {Il ne peut pas ne pas avoir vu le voleur|ad-ne-peut} !", "en": "And that neighbour never sleeps. He can't have failed to see the thief!"},
+      {"sp": "Hugo", "fr": "Mes suspects, alors. {Il se pourrait bien que ce soit le livreur de farine|ad-pourrait} : il passe tous les matins vers six heures.", "en": "My suspects, then. It might well be the flour delivery man: he comes by every morning at about six."},
+      {"sp": "Hugo", "fr": "Ou bien {ça pourrait être le voisin lui-même|ad-pu}, pour accuser Enzo !", "en": "Or it could be the neighbour himself, to put the blame on Enzo!"},
+      {"sp": "Carla", "fr": "Avec ta méthode, {ça [peut|pouvoir] être n'importe qui|ad-pu}. Même moi !", "en": "With your method, it could be anyone. Even me!"},
+      {"sp": "Hugo", "fr": "Et ma clé ? {Elle a pu tomber derrière le comptoir|ad-pu}.", "en": "And my key? It may have fallen behind the counter."},
+      {"sp": "Enzo", "fr": "Ma grand-mère a cherché partout : elle n'y est pas.", "en": "My grandmother has looked everywhere: it isn't there."},
+      {"sp": "", "fr": "Tom, qui écoutait sans rien dire, pose sa tasse de thé.", "en": "Tom, who had been listening without a word, puts down his cup of tea."},
+      {"sp": "Tom", "fr": "Une chose me gêne. {Le voleur aurait pu prendre la caisse|ad-pu}, et il ne l'a pas touchée.", "en": "One thing bothers me. The thief could have taken the till, and he didn't touch it."},
+      {"sp": "Tom", "fr": "Il n'a pris que des choses qui brillent : une médaille, une petite cuillère, une clé. Et mon médiator, perdu en février ?", "en": "He only took things that shine: a medal, a teaspoon, a key. And my plectrum, lost in February?"},
+      {"sp": "Tom", "fr": "{Ce ne [peut|pouvoir] être que quelqu'un qui aime ce qui brille|ad-ne-peut}.", "en": "It can only be someone who loves shiny things."},
+      {"sp": "Hugo", "fr": "Je note : {selon toute vraisemblance|ad-pourrait}, notre voleur adore ce qui brille. Et {il y a fort à parier qu'il reviendra|ad-pourrait}.", "en": "I'm writing it down: in all likelihood, our thief loves anything that shines. And it's a safe bet he'll be back."},
+      {"sp": "Enzo", "fr": "Moi, j'ai une idée. {Ça doit être une pie|ad-doit}.", "en": "I've got an idea. It must be a magpie."},
+      {"sp": "", "fr": "Tout le monde éclate de rire, et Hugo ne prend même pas la peine de le noter.", "en": "Everyone bursts out laughing, and Hugo doesn't even bother to write it down."},
+      {"sp": "Enzo", "fr": "Riez, riez. {Il se pourrait bien que j'aie raison|ad-pourrait}.", "en": "Go on, laugh. I might well be right."}
+    ]
+  },
+  "quiz": [
+    {"case": "ad-doit", "type": "mc", "q": "Hugo cherche ses lunettes : elles ___ être sur sa tête.", "en": "Hugo is looking for his glasses: they must be on his head.", "options": ["doivent", "devaient", "devront"], "answer": "doivent"},
+    {"case": "ad-doit", "type": "mc", "q": "Quand la médaille a disparu, il ___ être six heures et demie.", "en": "When the medal disappeared, it must have been half past six.", "options": ["devait", "doit", "devra"], "answer": "devait"},
+    {"case": "ad-a-du", "type": "mc", "q": "Le voleur ___ passer par la petite fenêtre.", "en": "The thief must have come in through the little window.", "options": ["a dû", "est dû", "devra"], "answer": "a dû"},
+    {"case": "ad-a-du", "type": "mc", "q": "Elle ___ oublier de fermer la fenêtre.", "en": "She must have forgotten to close the window.", "options": ["a dû", "doit", "aurait dû"], "answer": "a dû"},
+    {"case": "ad-pourrait", "type": "mc", "q": "Il se pourrait bien que ce ___ le livreur.", "en": "It might well be the delivery man.", "options": ["soit", "est", "sera"], "answer": "soit"},
+    {"case": "ad-pourrait", "type": "mc", "q": "Il y a fort à parier qu'il ___.", "en": "It's a safe bet he'll be back.", "options": ["reviendra", "revienne", "revenir"], "answer": "reviendra"},
+    {"case": "ad-ne-peut", "type": "mc", "q": "Ce ne [peut|pouvoir] être ___ oiseau.", "en": "It can only be a bird.", "options": ["qu'un", "un", "pas un"], "answer": "qu'un"},
+    {"case": "ad-ne-peut", "type": "mc", "q": "Le voisin ne dort jamais : il ne peut pas ___ avoir vu le voleur.", "en": "The neighbour never sleeps: he can't have failed to see the thief.", "options": ["ne pas", "pas", "ne"], "answer": "ne pas"},
+    {"case": "ad-pu", "type": "mc", "q": "Avec ta méthode, ça ___ être n'importe qui.", "en": "With your method, it could be anyone.", "options": ["peut", "doit", "ne peut"], "answer": "peut"},
+    {"case": "ad-pu", "type": "mc", "q": "Il ___ prendre la caisse, mais il ne l'a pas touchée.", "en": "He could have taken the till, but he didn't touch it.", "options": ["aurait pu", "a pu", "a dû"], "answer": "aurait pu"}
+  ]
+}

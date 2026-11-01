@@ -1,0 +1,143 @@
+{
+  "id": "u54-enquete",
+  "type": "vocab",
+  "unit": 54,
+  "title": "Cherchez la pie",
+  "en": "Detective work and crime fiction",
+  "intro": "25 words for detective work and crime fiction: the crime (**le meurtre, le cadavre, le tueur, l'assassin, le meurtrier, le criminel, dérober, le mobile**), the investigation (**enquêter, l'inspecteur, le commissaire, le détective, la loupe, la surveillance, l'interrogatoire, le soupçon**), people and what they say (**le témoignage, l'alibi, le menteur, la ruse, l'aveu, dénoncer, l'espion**), and the hiding place (**la cachette, la pie**).",
+  "words": [
+    {"id": "meurtre", "fr": "meurtre", "pos": "noun", "g": "m", "ipa": "mœʁtʁ", "en": "murder", "def": "Le crime de quelqu'un qui tue une autre personne exprès.", "def_en": "The crime of someone who kills another person on purpose.", "forms": ["meurtres"], "examples": [
+      {"fr": "Le jeu commence par un **meurtre**.", "en": "The game begins with a murder."},
+      {"fr": "Ce roman raconte un **meurtre** dans un train.", "en": "This novel tells the story of a murder on a train."},
+      {"fr": "Il a passé vingt ans en prison pour **meurtre**.", "en": "He spent twenty years in prison for murder."}]},
+    {"id": "cadavre", "fr": "cadavre", "pos": "noun", "g": "m", "ipa": "ka.davʁ", "en": "corpse, dead body", "def": "Le corps d'une personne ou d'un animal mort.", "def_en": "The body of a dead person or animal.", "forms": ["cadavres"], "examples": [
+      {"fr": "Le **cadavre** est un mannequin en imperméable.", "en": "The corpse is a dummy in a raincoat."},
+      {"fr": "On a trouvé un **cadavre** au bord du lac.", "en": "A dead body has been found by the lake."},
+      {"fr": "Le chat rapporte le **cadavre** d'une souris.", "en": "The cat brings back the body of a mouse."}]},
+    {"id": "inspecteur", "fr": "inspecteur", "pos": "noun", "g": "m", "ipa": "ɛ̃s.pɛk.tœʁ", "display": "l'inspecteur, l'inspectrice", "en": "inspector; police detective", "def": "Un policier qui mène les enquêtes ; une personne qui vérifie le travail des autres.", "def_en": "A police officer who leads investigations; a person who checks other people's work.", "forms": ["inspectrice", "inspecteurs", "inspectrices"], "examples": [
+      {"fr": "Chaque joueur reçoit une carte d'**inspecteur**.", "en": "Each player gets an inspector's card."},
+      {"fr": "L'**inspectrice** pose ses questions au témoin.", "en": "The inspector asks the witness her questions."},
+      {"fr": "L'**inspecteur** arrive sur les lieux du crime.", "en": "The detective arrives at the scene of the crime."}]},
+    {"id": "commissaire", "fr": "commissaire", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ.mi.sɛʁ", "display": "le / la commissaire", "en": "police superintendent, chief inspector", "def": "Un chef de la police, qui dirige les inspecteurs.", "def_en": "A police chief, who is in charge of the inspectors.", "forms": ["commissaires"], "accept": ["la commissaire"], "examples": [
+      {"fr": "Un **commissaire** à la retraite signe ses livres.", "en": "A retired police superintendent is signing his books."},
+      {"fr": "La **commissaire** dirige l'enquête.", "en": "The superintendent is in charge of the investigation."},
+      {"fr": "Le **commissaire** réfléchit en silence.", "en": "The chief inspector thinks in silence."}]},
+    {"id": "tueur", "fr": "tueur", "pos": "noun", "g": "m", "ipa": "tɥœʁ", "display": "le tueur, la tueuse", "en": "killer", "def": "Une personne qui fait mourir quelqu'un.", "def_en": "A person who makes someone die.", "forms": ["tueuse", "tueurs", "tueuses"], "examples": [
+      {"fr": "Le **tueur** connaît les traboules par cœur.", "en": "The killer knows the traboules by heart."},
+      {"fr": "Dans ce film, la **tueuse** est la voisine.", "en": "In this film, the killer is the neighbour."},
+      {"fr": "Mon chat est un vrai **tueur** de souris.", "en": "My cat is a real mouse killer."}]},
+    {"id": "assassin", "fr": "assassin", "pos": "noun", "g": "m", "ipa": "a.sa.sɛ̃", "en": "murderer, assassin", "def": "Une personne qui a tué quelqu'un, souvent après avoir préparé son crime.", "def_en": "A person who has killed someone, often after planning the crime.", "forms": ["assassins"], "examples": [
+      {"fr": "L'**assassin**, c'est le libraire !", "en": "The murderer is the bookseller!"},
+      {"fr": "La police cherche toujours l'**assassin**.", "en": "The police are still looking for the murderer."},
+      {"fr": "L'**assassin** a laissé son couteau dans le jardin.", "en": "The murderer left his knife in the garden."}]},
+    {"id": "denoncer", "fr": "dénoncer", "pos": "verb", "ipa": "de.nɔ̃.se", "en": "to denounce, to report (someone)", "def": "Dire à tout le monde, ou à la police, qui a fait quelque chose de mal.", "def_en": "To tell everyone, or the police, who has done something wrong.", "forms": ["dénonce", "dénonces", "dénonçons", "dénoncez", "dénoncent", "dénoncé", "dénoncée", "dénoncés", "dénoncées", "dénonçais", "dénonçait", "dénoncions", "dénonciez", "dénonçaient", "dénoncerai", "dénonceras", "dénoncera", "dénoncerons", "dénoncerez", "dénonceront", "dénoncerais", "dénoncerait", "dénoncerions", "dénonceriez", "dénonceraient", "dénonçant", "dénonçai", "dénonças", "dénonça", "dénonçâmes", "dénonçâtes", "dénoncèrent"], "examples": [
+      {"fr": "Léa **dénonce** le meurtrier devant tout le monde.", "en": "Léa denounces the murderer in front of everyone."},
+      {"fr": "On ne **dénonce** pas ses amis.", "en": "You don't report your friends."},
+      {"fr": "Il ne faut pas **dénoncer** quelqu'un sans preuve.", "en": "You mustn't denounce someone without proof."}]},
+    {"id": "criminel", "fr": "criminel", "pos": "noun", "g": "m", "ipa": "kʁi.mi.nɛl", "display": "le criminel, la criminelle", "en": "criminal", "def": "Une personne qui a fait quelque chose de très grave contre la loi.", "def_en": "A person who has done something very serious against the law.", "note": "Also an adjective: *un acte criminel* (a criminal act).", "forms": ["criminelle", "criminels", "criminelles"], "examples": [
+      {"fr": "Le **criminel** n'est jamais celui qu'on accuse.", "en": "The criminal is never the one people accuse."},
+      {"fr": "Un **criminel** revient toujours sur les lieux du crime.", "en": "A criminal always returns to the scene of the crime."},
+      {"fr": "La police a arrêté deux **criminels**.", "en": "The police have arrested two criminals."}]},
+    {"id": "menteur", "fr": "menteur", "pos": "noun", "g": "m", "ipa": "mɑ̃.tœʁ", "display": "le menteur, la menteuse", "en": "liar", "def": "Une personne qui ne dit pas la vérité.", "def_en": "A person who doesn't tell the truth.", "forms": ["menteuse", "menteurs", "menteuses"], "examples": [
+      {"fr": "Un des suspects est un **menteur**.", "en": "One of the suspects is a liar."},
+      {"fr": "Petit **menteur** ! Tu as mangé le chocolat.", "en": "You little liar! You ate the chocolate."},
+      {"fr": "Elle n'est pas **menteuse**, elle a oublié.", "en": "She isn't a liar, she forgot."}]},
+    {"id": "soupcon", "fr": "soupçon", "pos": "noun", "g": "m", "ipa": "sup.sɔ̃", "en": "suspicion; (un soupçon de) a hint of", "def": "L'idée qu'une personne a peut-être fait quelque chose de mal ; une toute petite quantité.", "def_en": "The idea that a person may have done something wrong; a tiny amount.", "forms": ["soupçons"], "examples": [
+      {"fr": "J'avais des **soupçons** sur lui depuis le début.", "en": "I had my suspicions about him from the start."},
+      {"fr": "Les **soupçons** tombent sur Enzo.", "en": "Suspicion falls on Enzo."},
+      {"fr": "Ajoute un **soupçon** de sel.", "en": "Add a hint of salt."}]},
+    {"id": "espion", "fr": "espion", "pos": "noun", "g": "m", "ipa": "ɛs.pjɔ̃", "display": "l'espion, l'espionne", "en": "spy", "def": "Une personne qui cherche en secret les informations d'un autre pays.", "def_en": "A person who secretly looks for another country's information.", "forms": ["espionne", "espions", "espionnes"], "examples": [
+      {"fr": "Hugo se prend pour un **espion**.", "en": "Hugo thinks he's a spy."},
+      {"fr": "Cette **espionne** parle six langues.", "en": "This spy speaks six languages."},
+      {"fr": "Les **espions** se parlent en code.", "en": "The spies talk to each other in code."}]},
+    {"id": "temoignage", "fr": "témoignage", "pos": "noun", "g": "m", "ipa": "te.mwa.ɲaʒ", "en": "testimony, account (of a witness)", "def": "Ce que raconte une personne qui a vu ou entendu quelque chose.", "def_en": "What a person who has seen or heard something tells.", "forms": ["témoignages"], "examples": [
+      {"fr": "Le **témoignage** d'une fleuriste change tout.", "en": "A florist's testimony changes everything."},
+      {"fr": "Le juge écoute le **témoignage** de la voisine.", "en": "The judge listens to the neighbour's testimony."},
+      {"fr": "Merci pour ton **témoignage**, il m'aide beaucoup.", "en": "Thank you for your account, it helps me a lot."}]},
+    {"id": "derober", "fr": "dérober", "pos": "verb", "ipa": "de.ʁɔ.be", "en": "to steal (formal)", "def": "Prendre en secret ce qui est à quelqu'un d'autre.", "def_en": "To take secretly what belongs to someone else.", "forms": ["dérobe", "dérobes", "dérobons", "dérobez", "dérobent", "dérobé", "dérobée", "dérobés", "dérobées", "dérobais", "dérobait", "dérobions", "dérobiez", "dérobaient", "déroberai", "déroberas", "dérobera", "déroberons", "déroberez", "déroberont", "déroberais", "déroberait", "déroberions", "déroberiez", "déroberaient", "dérobant", "dérobai", "dérobas", "déroba", "dérobâmes", "dérobâtes", "dérobèrent"], "examples": [
+      {"fr": "On a **dérobé** la médaille dans la vitrine.", "en": "Someone stole the medal from the shop window."},
+      {"fr": "Le voleur a **dérobé** trois tableaux au musée.", "en": "The thief stole three paintings from the museum."},
+      {"fr": "Il a **dérobé** les clés pendant la nuit.", "en": "He stole the keys during the night."}]},
+    {"id": "aveu", "fr": "aveu", "pos": "noun", "g": "m", "ipa": "a.vø", "en": "confession, admission", "def": "Le fait de dire qu'on a fait quelque chose de mal.", "def_en": "Saying that you have done something wrong.", "note": "*Passer aux aveux* = to confess.", "forms": ["aveux"], "examples": [
+      {"fr": "L'acteur passe aux **aveux**.", "en": "The actor confesses."},
+      {"fr": "Après trois heures, le voleur fait des **aveux**.", "en": "After three hours, the thief makes a confession."},
+      {"fr": "J'ai un **aveu** à te faire : j'ai mangé ton chocolat.", "en": "I have a confession to make: I ate your chocolate."}]},
+    {"id": "surveillance", "fr": "surveillance", "pos": "noun", "g": "f", "ipa": "syʁ.vɛ.jɑ̃s", "en": "surveillance, watch, monitoring", "def": "Le fait d'observer avec attention une personne ou un lieu, pour savoir ce qui se passe.", "def_en": "Watching a person or a place closely, to know what is going on.", "examples": [
+      {"fr": "Il n'y a pas de caméra de **surveillance** à la boulangerie.", "en": "There's no security camera at the bakery."},
+      {"fr": "Le malade reste sous **surveillance** cette nuit.", "en": "The patient stays under observation tonight."},
+      {"fr": "La **surveillance** de la plage commence en juin.", "en": "Lifeguard watch on the beach starts in June."}]},
+    {"id": "meurtrier", "fr": "meurtrier", "pos": "noun", "g": "m", "ipa": "mœʁ.tʁi.je", "display": "le meurtrier, la meurtrière", "en": "murderer, killer", "def": "La personne qui a tué quelqu'un, dans un crime.", "def_en": "The person who has killed someone, in a crime.", "forms": ["meurtrière", "meurtriers", "meurtrières"], "examples": [
+      {"fr": "Léa dénonce le **meurtrier**.", "en": "Léa denounces the murderer."},
+      {"fr": "Le **meurtrier** a laissé une empreinte de chaussure.", "en": "The murderer left a shoe print."},
+      {"fr": "La **meurtrière** a tout avoué.", "en": "The murderer confessed everything."}]},
+    {"id": "ruse", "fr": "ruse", "pos": "noun", "g": "f", "ipa": "ʁyz", "en": "trick, ruse; cunning", "def": "Une idée maligne pour faire croire à quelqu'un quelque chose de faux.", "def_en": "A clever idea to make someone believe something false.", "forms": ["ruses"], "examples": [
+      {"fr": "Léa découvre la **ruse** : l'horloge a une heure de retard.", "en": "Léa uncovers the trick: the clock is an hour slow."},
+      {"fr": "Le renard est connu pour sa **ruse**.", "en": "The fox is known for its cunning."},
+      {"fr": "C'est une vieille **ruse** de voleur.", "en": "It's an old thief's trick."}]},
+    {"id": "cachette", "fr": "cachette", "pos": "noun", "g": "f", "ipa": "ka.ʃɛt", "en": "hiding place", "def": "Un endroit secret, où l'on met quelque chose pour qu'on ne le trouve pas.", "def_en": "A secret place where you put something so that nobody finds it.", "note": "*En cachette* = secretly.", "forms": ["cachettes"], "examples": [
+      {"fr": "Le nid était une **cachette** parfaite.", "en": "The nest was a perfect hiding place."},
+      {"fr": "Les enfants changent de **cachette**.", "en": "The children change hiding places."},
+      {"fr": "J'ai une **cachette** pour mon chocolat.", "en": "I have a hiding place for my chocolate."}]},
+    {"id": "detective", "fr": "détective", "pos": "noun", "g": "m", "both": true, "ipa": "de.tɛk.tiv", "display": "le / la détective", "en": "(private) detective", "def": "Une personne qui n'est pas de la police, et qu'on paie pour mener une enquête.", "def_en": "A person who isn't in the police, and whom you pay to carry out an investigation.", "forms": ["détectives"], "accept": ["la détective"], "examples": [
+      {"fr": "Hugo joue au **détective** depuis une semaine.", "en": "Hugo has been playing detective for a week."},
+      {"fr": "Elle paie un **détective** privé.", "en": "She's paying a private detective."},
+      {"fr": "Le **détective** suit le mari en voiture.", "en": "The detective follows the husband by car."}]},
+    {"id": "enqueter", "fr": "enquêter", "pos": "verb", "ipa": "ɑ̃.kɛ.te", "en": "to investigate", "def": "Chercher la vérité sur une affaire, en posant des questions et en cherchant des indices.", "def_en": "To look for the truth about a case, by asking questions and looking for clues.", "note": "*Enquêter sur* = to investigate (something).", "forms": ["enquêtons", "enquêtez", "enquêtent", "enquêté", "enquêtais", "enquêtait", "enquêtions", "enquêtiez", "enquêtaient", "enquêterai", "enquêteras", "enquêtera", "enquêterons", "enquêterez", "enquêteront", "enquêterais", "enquêterait", "enquêterions", "enquêteriez", "enquêteraient", "enquêtant", "enquêtai", "enquêtas", "enquêta", "enquêtâmes", "enquêtâtes", "enquêtèrent"], "examples": [
+      {"fr": "Les amis **enquêtent** dans le Vieux-Lyon.", "en": "The friends investigate in Vieux-Lyon."},
+      {"fr": "La police a **enquêté** pendant deux ans.", "en": "The police investigated for two years."},
+      {"fr": "Hugo veut **enquêter** lui-même.", "en": "Hugo wants to investigate himself."}]},
+    {"id": "interrogatoire", "fr": "interrogatoire", "pos": "noun", "g": "m", "ipa": "ɛ̃.te.ʁɔ.ɡa.twaʁ", "en": "questioning, interrogation", "def": "Les questions qu'un policier ou un juge pose à quelqu'un.", "def_en": "The questions a police officer or a judge asks someone.", "forms": ["interrogatoires"], "examples": [
+      {"fr": "Hugo mène l'**interrogatoire** d'un faux témoin.", "en": "Hugo leads the questioning of a fake witness."},
+      {"fr": "L'**interrogatoire** a duré toute la nuit.", "en": "The interrogation lasted all night."},
+      {"fr": "Ce n'est pas un **interrogatoire**, maman !", "en": "This isn't an interrogation, Mum!"}]},
+    {"id": "alibi", "fr": "alibi", "pos": "noun", "g": "m", "ipa": "a.li.bi", "en": "alibi", "def": "La preuve qu'on était ailleurs au moment du crime.", "def_en": "The proof that you were somewhere else at the time of the crime.", "forms": ["alibis"], "examples": [
+      {"fr": "Enzo a un **alibi** : il était au fournil.", "en": "Enzo has an alibi: he was in the bakehouse."},
+      {"fr": "Son **alibi** ne tient plus.", "en": "His alibi no longer holds."},
+      {"fr": "Le suspect a un **alibi** parfait.", "en": "The suspect has a perfect alibi."}]},
+    {"id": "mobile", "fr": "mobile", "pos": "noun", "g": "m", "ipa": "mɔ.bil", "en": "motive (for a crime)", "def": "La raison pour laquelle quelqu'un fait un crime.", "def_en": "The reason why someone commits a crime.", "forms": ["mobiles"], "examples": [
+      {"fr": "Quel serait son **mobile** ? Il adore cette médaille !", "en": "What would his motive be? He loves that medal!"},
+      {"fr": "Le **mobile** du crime, c'est l'argent.", "en": "The motive for the crime is money."},
+      {"fr": "Sans **mobile**, pas de suspect.", "en": "No motive, no suspect."}]},
+    {"id": "loupe", "fr": "loupe", "pos": "noun", "g": "f", "ipa": "lup", "en": "magnifying glass", "def": "Un verre rond qui fait paraître les choses plus grandes.", "def_en": "A round lens that makes things look bigger.", "note": "*Regarder à la loupe* = to examine closely.", "forms": ["loupes"], "examples": [
+      {"fr": "Hugo regarde la vitrine à la **loupe**.", "en": "Hugo examines the shop window with a magnifying glass."},
+      {"fr": "Grand-père lit le journal avec une **loupe**.", "en": "Grandad reads the paper with a magnifying glass."},
+      {"fr": "Sous la **loupe**, on voit une empreinte.", "en": "Under the magnifying glass, you can see a print."}]},
+    {"id": "pie", "fr": "pie", "pos": "noun", "g": "f", "ipa": "pi", "en": "magpie", "def": "Un oiseau noir et blanc, à longue queue, qui aime ce qui brille.", "def_en": "A black and white bird with a long tail, which likes things that shine.", "note": "*Bavard comme une pie* = a real chatterbox.", "forms": ["pies"], "examples": [
+      {"fr": "Cherchez la **pie**.", "en": "Look for the magpie."},
+      {"fr": "Une **pie** crie sur la cheminée.", "en": "A magpie is screeching on the chimney."},
+      {"fr": "Elle est bavarde comme une **pie**.", "en": "She's a real chatterbox."}]}
+  ],
+  "story": {
+    "title": "Cherchez la pie",
+    "en": "Saturday 2 April: the Quais du Polar festival, and a nest on the roof.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi deux avril, c'est le festival Quais du Polar, à Lyon. Toute la bande joue au grand jeu d'enquête dans le Vieux-Lyon.", "en": "On Saturday 2 April, it's the Quais du Polar festival in Lyon. The whole gang plays the big investigation game in Vieux-Lyon."},
+      {"sp": "", "fr": "Chaque joueur reçoit une carte d'inspecteur ou d'inspectrice et un plan des traboules.", "en": "Each player gets an inspector's card and a map of the traboules."},
+      {"sp": "", "fr": "Le jeu commence par un meurtre. Au fond d'une cour, le cadavre attend : un mannequin en imperméable, allongé par terre.", "en": "The game begins with a murder. At the back of a courtyard, the corpse is waiting: a dummy in a raincoat, lying on the ground."},
+      {"sp": "Léa", "fr": "Le tueur connaît les traboules par cœur. Il est sûrement parti par là.", "en": "The killer knows the traboules by heart. He surely left that way."},
+      {"sp": "", "fr": "Les amis enquêtent tout l'après-midi : ils écoutent les témoins, notent les indices et comparent les alibis des trois suspects.", "en": "The friends investigate all afternoon: they listen to the witnesses, note the clues and compare the three suspects' alibis."},
+      {"sp": "", "fr": "Le témoignage d'une fleuriste change tout : un des suspects est un menteur.", "en": "A florist's testimony changes everything: one of the suspects is a liar."},
+      {"sp": "", "fr": "Hugo, en lunettes noires, se prend pour un espion. Il mène l'interrogatoire d'un faux témoin.", "en": "Hugo, in dark glasses, thinks he's a spy. He leads the questioning of a fake witness."},
+      {"sp": "Hugo", "fr": "Où étiez-vous à quinze heures ?", "en": "Where were you at three o'clock?"},
+      {"sp": "Le faux témoin", "fr": "Pourquoi voulez-vous le savoir ?", "en": "Why do you want to know?"},
+      {"sp": "", "fr": "Il répond à chaque question par une autre question. Tom, lui, [note|noter] tout dans son carnet.", "en": "He answers every question with another question. Tom notes everything down in his notebook."},
+      {"sp": "", "fr": "C'est Léa qui découvre la ruse : l'horloge de la cour a une heure de retard. L'alibi du libraire ne tient plus.", "en": "It's Léa who uncovers the trick: the clock in the courtyard is an hour slow. The bookseller's alibi no longer holds."},
+      {"sp": "", "fr": "Elle dénonce le meurtrier devant tout le monde : « L'assassin, c'est le libraire ! »", "en": "She denounces the murderer in front of everyone: \"The murderer is the bookseller!\""},
+      {"sp": "", "fr": "L'acteur qui joue le tueur passe aux aveux, et l'équipe du festival donne un petit prix à Léa.", "en": "The actor playing the killer confesses, and the festival team gives Léa a little prize."},
+      {"sp": "Hugo", "fr": "J'avais des soupçons sur lui depuis le début.", "en": "I had my suspicions about him from the start."},
+      {"sp": "", "fr": "Sur le quai, un commissaire à la retraite, qui écrit des romans policiers, signe ses livres. Hugo, qui joue au détective depuis une semaine avec sa loupe, lui raconte leur vraie enquête.", "en": "On the quay, a retired police superintendent who writes crime novels is signing his books. Hugo, who has been playing detective for a week with his magnifying glass, tells him about their real investigation."},
+      {"sp": "Hugo", "fr": "Il y a douze jours, on a dérobé la médaille du grand-père de notre boulangère, une petite cuillère et la clé de secours de ma voiture.", "en": "Twelve days ago, someone stole the medal of our baker's grandfather, a teaspoon and the spare key to my car."},
+      {"sp": "Hugo", "fr": "Pas de caméra de surveillance, pas de mobile. Les soupçons du voisin tombent sur Enzo, mais il a un alibi : à six heures et demie, il était au fournil.", "en": "No security camera, no motive. The neighbour's suspicions fall on Enzo, but he has an alibi: at half past six, he was in the bakehouse."},
+      {"sp": "Le commissaire", "fr": "Une médaille, une clé, une cuillère… Tout ce qui brille, donc. Cherchez la pie. Dans les romans, le criminel n'est jamais celui qu'on accuse.", "en": "A medal, a key, a spoon… Everything that shines, then. Look for the magpie. In novels, the criminal is never the one people accuse."},
+      {"sp": "Enzo", "fr": "Une pie ! Tom avait raison ! Il y en a une sur la vieille antenne, devant ma lucarne.", "en": "A magpie! Tom was right! There's one on the old aerial, outside my skylight."},
+      {"sp": "", "fr": "En novembre, les couvreurs ont remis l'antenne debout près de la cheminée, sans la brancher. La pie a construit son nid en haut de l'antenne.", "en": "In November, the roofers stood the aerial back up by the chimney, without connecting it. The magpie built its nest at the top of the aerial."},
+      {"sp": "", "fr": "Le soir, Karine monte sur le toit par la lucarne d'Enzo, avec son harnais. Hugo reste dans la chambre : il a promis de ne plus jamais monter sur une échelle.", "en": "In the evening, Karine climbs onto the roof through Enzo's skylight, in her harness. Hugo stays in the room: he has promised never to climb a ladder again."},
+      {"sp": "Karine", "fr": "Dans le nid, il y a une médaille, une clé, trois petites cuillères… et un médiator !", "en": "In the nest, there's a medal, a key, three teaspoons… and a plectrum!"},
+      {"sp": "Tom", "fr": "Mon médiator ! Je le cherche depuis février !", "en": "My plectrum! I've been looking for it since February!"},
+      {"sp": "", "fr": "Le nid était une cachette parfaite. Enzo est innocent : Madame Fournier le serre dans ses bras, puis lève les yeux vers la pie, qui crie sur la cheminée. Elle n'arrive pas à être fâchée contre cet oiseau.", "en": "The nest was a perfect hiding place. Enzo is innocent: Madame Fournier hugs him, then looks up at the magpie, which is screeching on the chimney. She can't manage to be angry with the bird."},
+      {"sp": "Madame Fournier", "fr": "Toi, tu t'appelleras Margot.", "en": "You'll be called Margot."},
+      {"sp": "", "fr": "À sa fenêtre, le voisin du deuxième ne dit rien.", "en": "At his window, the second-floor neighbour says nothing."}
+    ]
+  }
+}
