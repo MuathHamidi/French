@@ -1,0 +1,142 @@
+{
+  "id": "u55-religion",
+  "type": "vocab",
+  "unit": 55,
+  "title": "La Bonne Mère",
+  "en": "Religion and religious heritage",
+  "intro": "25 words for religion and religious heritage: people (**le prêtre, le curé, le moine, le pèlerin**), faith (**la religion, la prière, le péché, bénir, la bénédiction, saint, religieux, chrétien, catholique, la bible, la Vierge, le paradis**), places (**la cathédrale, la chapelle, le couvent**), and inside a church (**l'autel, le cierge, l'orgue, le vitrail, l'ex-voto, la croix**).",
+  "words": [
+    {"id": "saint", "fr": "saint", "pos": "adj", "ipa": "sɛ̃", "display": "saint, sainte", "en": "holy; saint", "def": "Lié à Dieu et très respecté ; une personne que l'Église fête pour sa bonté.", "def_en": "Connected with God and deeply respected; a person the Church celebrates for their goodness.", "forms": ["sainte", "saints", "saintes"], "examples": [
+      {"fr": "Chez Carla, à Madrid, on fête toute la Semaine **sainte**.", "en": "At Carla's, in Madrid, they celebrate the whole of Holy Week."},
+      {"fr": "Pour Louise, Pâques est le jour le plus **saint** de l'année.", "en": "For Louise, Easter is the holiest day of the year."},
+      {"fr": "Ma grand-mère est une **sainte** : elle ne se fâche jamais.", "en": "My grandmother is a saint: she never gets angry."}]},
+    {"id": "pretre", "fr": "prêtre", "pos": "noun", "g": "m", "ipa": "pʁɛtʁ", "en": "priest", "def": "L'homme qui dit la messe dans l'Église catholique.", "def_en": "The man who says mass in the Catholic Church.", "forms": ["prêtres"], "examples": [
+      {"fr": "Lou se demande si le **prêtre** bénit aussi le chocolat.", "en": "Lou wonders if the priest blesses chocolate too."},
+      {"fr": "Le **prêtre** dit la messe à dix heures.", "en": "The priest says mass at ten."},
+      {"fr": "Son oncle voulait devenir **prêtre**.", "en": "Her uncle wanted to become a priest."}]},
+    {"id": "priere", "fr": "prière", "pos": "noun", "g": "f", "ipa": "pʁi.jɛʁ", "en": "prayer", "def": "Les mots qu'on dit à Dieu, à voix haute ou dans sa tête.", "def_en": "The words you say to God, out loud or in your head.", "forms": ["prières"], "examples": [
+      {"fr": "Louise dit une **prière** pour l'autre œil de Jacques.", "en": "Louise says a prayer for Jacques's other eye."},
+      {"fr": "Les enfants apprennent une **prière** très courte.", "en": "The children learn a very short prayer."},
+      {"fr": "Elle dit sa **prière** avant de dormir.", "en": "She says her prayer before she goes to sleep."}]},
+    {"id": "peche-sin", "fr": "péché", "pos": "noun", "g": "m", "ipa": "pe.ʃe", "en": "sin", "def": "Ce qu'on fait de mal contre la loi de Dieu.", "def_en": "A wrong you do against God's law.", "note": "Un péché mignon = a weakness, a guilty pleasure. Not *pêché* (fished).", "forms": ["péchés"], "examples": [
+      {"fr": "« Le chocolat, c'est mon **péché** mignon ! »", "en": "\"Chocolate is my weakness!\""},
+      {"fr": "Pour Louise, mentir est un **péché**.", "en": "For Louise, lying is a sin."},
+      {"fr": "Le curé dit en riant que la colère est un **péché**.", "en": "The parish priest says, laughing, that anger is a sin."}]},
+    {"id": "benir", "fr": "bénir", "pos": "verb", "ipa": "be.niʁ", "en": "to bless", "def": "Pour un prêtre, demander à Dieu de protéger quelqu'un ou quelque chose.", "def_en": "For a priest, to ask God to protect someone or something.", "note": "L'eau bénite = holy water.", "forms": ["bénis", "bénit", "bénissons", "bénissez", "bénissent", "béni", "bénie", "bénies", "bénissais", "bénissait", "bénissions", "bénissiez", "bénissaient", "bénirai", "béniras", "bénira", "bénirons", "bénirez", "béniront", "bénirais", "bénirait", "bénirions", "béniriez", "béniraient", "bénisse", "bénisses", "bénissant", "bénîmes", "bénîtes", "bénirent", "bénite", "bénites"], "examples": [
+      {"fr": "Dehors, un prêtre **bénit** les pèlerins.", "en": "Outside, a priest blesses the pilgrims."},
+      {"fr": "Le curé a **béni** les deux enfants.", "en": "The parish priest blessed the two children."},
+      {"fr": "Elle met de l'eau **bénite** sur son front.", "en": "She puts holy water on her forehead."}]},
+    {"id": "cure", "fr": "curé", "pos": "noun", "g": "m", "ipa": "ky.ʁe", "en": "parish priest", "def": "Le prêtre qui s'occupe d'une église et de son quartier.", "def_en": "The priest who looks after a church and its neighbourhood.", "forms": ["curés"], "examples": [
+      {"fr": "Devant l'église, le **curé** salue Jacques.", "en": "Outside the church, the parish priest greets Jacques."},
+      {"fr": "Le **curé** du village connaît tout le monde.", "en": "The village priest knows everyone."},
+      {"fr": "C'est ce **curé** qui a marié mes parents.", "en": "It was this priest who married my parents."}]},
+    {"id": "religion", "fr": "religion", "pos": "noun", "g": "f", "ipa": "ʁə.li.ʒjɔ̃", "en": "religion", "def": "Ce qu'on croit sur Dieu, avec ses fêtes, ses prières et ses règles.", "def_en": "What people believe about God, with its feasts, prayers and rules.", "forms": ["religions"], "examples": [
+      {"fr": "Moi, la **religion**, ce n'est pas trop mon truc.", "en": "Me, religion isn't really my thing."},
+      {"fr": "Dans ce pays, on trouve plusieurs **religions**.", "en": "In this country there are several religions."},
+      {"fr": "À l'école, on parle de toutes les **religions**.", "en": "At school they talk about all religions."}]},
+    {"id": "vierge", "fr": "vierge", "pos": "noun", "g": "f", "ipa": "vjɛʁʒ", "en": "the Virgin (Mary); virgin", "def": "La mère de Dieu pour les chrétiens ; une personne qui n'a jamais fait l'amour.", "def_en": "The mother of God for Christians; a person who has never made love.", "forms": ["vierges"], "examples": [
+      {"fr": "Tout en haut, la **Vierge** dorée veille sur Marseille.", "en": "Right at the top, the golden Virgin watches over Marseille."},
+      {"fr": "Sur l'autel, il y a une petite **Vierge** en bois.", "en": "On the altar there's a little wooden Virgin."},
+      {"fr": "Les pêcheurs prient la **Vierge** avant de partir en mer.", "en": "The fishermen pray to the Virgin before they go to sea."}]},
+    {"id": "moine", "fr": "moine", "pos": "noun", "g": "m", "ipa": "mwan", "en": "monk", "def": "Un homme qui a donné sa vie à Dieu et qui vit avec d'autres hommes, loin du monde.", "def_en": "A man who has given his life to God and lives with other men, far from the world.", "forms": ["moines"], "examples": [
+      {"fr": "À Saint-Victor vivaient des **moines** il y a mille ans.", "en": "Monks lived at Saint-Victor a thousand years ago."},
+      {"fr": "Les **moines** se lèvent avant le soleil pour prier.", "en": "The monks get up before the sun to pray."},
+      {"fr": "Ce fromage est fait par des **moines**.", "en": "This cheese is made by monks."}]},
+    {"id": "chapelle", "fr": "chapelle", "pos": "noun", "g": "f", "ipa": "ʃa.pɛl", "en": "chapel", "def": "Une petite église, ou une petite [partie|partie] d'une grande église.", "def_en": "A small church, or a small part of a big church.", "forms": ["chapelles"], "examples": [
+      {"fr": "Au début, il n'y avait sur la colline qu'une petite **chapelle**.", "en": "At first there was only a little chapel on the hill."},
+      {"fr": "Le château a sa propre **chapelle**.", "en": "The castle has its own chapel."},
+      {"fr": "Ils se sont mariés dans une **chapelle** de montagne.", "en": "They got married in a mountain chapel."}]},
+    {"id": "couvent", "fr": "couvent", "pos": "noun", "g": "m", "ipa": "ku.vɑ̃", "en": "convent, monastery", "def": "Le lieu où des moines, ou des religieuses, vivent et prient ensemble.", "def_en": "The place where monks, or nuns, live and pray together.", "forms": ["couvents"], "examples": [
+      {"fr": "Petite, Louise allait à l'école dans un vieux **couvent**.", "en": "As a little girl, Louise went to school in an old convent."},
+      {"fr": "Le **couvent** est devenu un hôtel.", "en": "The convent has become a hotel."},
+      {"fr": "On entend les cloches du **couvent**.", "en": "You can hear the convent bells."}]},
+    {"id": "catholique", "fr": "catholique", "pos": "adj", "ipa": "ka.tɔ.lik", "en": "Catholic", "def": "Qui fait [partie|partie] de la plus grande Église chrétienne, celle de Rome.", "def_en": "Belonging to the largest Christian Church, the one of Rome.", "forms": ["catholiques"], "examples": [
+      {"fr": "Chez moi, à Madrid, ma famille est **catholique**.", "en": "Back home in Madrid, my family is Catholic."},
+      {"fr": "La France a beaucoup d'églises **catholiques**.", "en": "France has a lot of Catholic churches."},
+      {"fr": "Il a reçu une éducation **catholique**.", "en": "He had a Catholic upbringing."}]},
+    {"id": "religieux", "fr": "religieux", "pos": "adj", "ipa": "ʁə.li.ʒjø", "display": "religieux, religieuse", "en": "religious", "def": "Qui a un rapport avec Dieu, la foi ou l'Église.", "def_en": "Having to do with God, faith or the Church.", "note": "Une religieuse = a nun; also a cream puff pastry.", "forms": ["religieuse", "religieuses"], "examples": [
+      {"fr": "Les chants **religieux** font pleurer Louise.", "en": "The religious songs make Louise cry."},
+      {"fr": "Paul n'est pas très **religieux**.", "en": "Paul isn't very religious."},
+      {"fr": "Le mariage **religieux** a lieu à l'église.", "en": "The religious wedding takes place in church."}]},
+    {"id": "bible", "fr": "bible", "pos": "noun", "g": "f", "ipa": "bibl", "en": "bible", "def": "Le grand livre saint des chrétiens.", "def_en": "The great holy book of Christians.", "forms": ["bibles"], "examples": [
+      {"fr": "Louise lit à Lou une **bible** pour enfants, pleine d'images.", "en": "Louise reads Lou a children's bible, full of pictures."},
+      {"fr": "La **Bible** a été traduite dans des centaines de langues.", "en": "The Bible has been translated into hundreds of languages."},
+      {"fr": "Ce livre de cuisine, c'est ma **bible** !", "en": "This cookbook is my bible!"}]},
+    {"id": "chretien", "fr": "chrétien", "pos": "adj", "ipa": "kʁe.tjɛ̃", "display": "chrétien, chrétienne", "en": "Christian", "def": "Qui a un rapport avec la religion de Noël et de Pâques.", "def_en": "Having to do with the religion of Christmas and Easter.", "forms": ["chrétienne", "chrétiens", "chrétiennes"], "examples": [
+      {"fr": "Pâques est la plus grande fête **chrétienne**.", "en": "Easter is the biggest Christian feast."},
+      {"fr": "Il y a des **chrétiens** dans le monde entier.", "en": "There are Christians all over the world."},
+      {"fr": "L'Europe a un vieil héritage **chrétien**.", "en": "Europe has an old Christian heritage."}]},
+    {"id": "autel", "fr": "autel", "pos": "noun", "g": "m", "ipa": "o.tɛl", "en": "altar", "def": "La grande table où le prêtre dit la messe.", "def_en": "The big table where the priest says mass.", "forms": ["autels"], "examples": [
+      {"fr": "Sur l'**autel**, des fleurs blanches pour Pâques.", "en": "On the altar, white flowers for Easter."},
+      {"fr": "Le prêtre se tient derrière l'**autel**.", "en": "The priest stands behind the altar."},
+      {"fr": "Des bougies brûlent sur l'**autel**.", "en": "Candles are burning on the altar."}]},
+    {"id": "cierge", "fr": "cierge", "pos": "noun", "g": "m", "ipa": "sjɛʁʒ", "en": "(church) candle", "def": "Une longue bougie qu'on allume dans une église.", "def_en": "A long candle you light in a church.", "forms": ["cierges"], "examples": [
+      {"fr": "Hugo allume un **cierge** avec son briquet.", "en": "Hugo lights a candle with his lighter."},
+      {"fr": "Louise allume toujours un **cierge** pour ses enfants.", "en": "Louise always lights a candle for her children."},
+      {"fr": "Les **cierges** brillent dans le noir.", "en": "The candles shine in the dark."}]},
+    {"id": "benediction", "fr": "bénédiction", "pos": "noun", "g": "f", "ipa": "be.ne.dik.sjɔ̃", "en": "blessing", "def": "Les mots d'un prêtre qui demande à Dieu de protéger les gens ; un accord, une chance.", "def_en": "A priest's words asking God to protect people; approval, a godsend.", "forms": ["bénédictions"], "examples": [
+      {"fr": "À la fin de la messe, le curé donne sa **bénédiction**.", "en": "At the end of mass, the parish priest gives his blessing."},
+      {"fr": "Ses parents lui ont donné leur **bénédiction** pour partir au Canada.", "en": "Her parents gave her their blessing to go to Canada."},
+      {"fr": "Cette pluie est une **bénédiction** pour les jardins.", "en": "This rain is a blessing for the gardens."}]},
+    {"id": "pelerin", "fr": "pèlerin", "pos": "noun", "g": "m", "ipa": "pɛl.ʁɛ̃", "en": "pilgrim", "def": "Une personne qui fait un long chemin vers un lieu saint, pour sa foi.", "def_en": "A person who makes a long journey to a holy place, for their faith.", "forms": ["pèlerins"], "examples": [
+      {"fr": "Des centaines de **pèlerins** montent la colline.", "en": "Hundreds of pilgrims climb the hill."},
+      {"fr": "Les **pèlerins** marchent pendant des semaines.", "en": "The pilgrims walk for weeks."},
+      {"fr": "Un **pèlerin** se repose devant l'église.", "en": "A pilgrim rests in front of the church."}]},
+    {"id": "orgue", "fr": "orgue", "pos": "noun", "g": "m", "ipa": "ɔʁɡ", "en": "organ (instrument)", "def": "Un très grand instrument de musique, avec des tuyaux, qu'on trouve dans les églises.", "def_en": "A very big musical instrument with pipes, found in churches.", "note": "Les grandes orgues (feminine plural) = the great organ of a church.", "forms": ["orgues"], "examples": [
+      {"fr": "L'**orgue** commence à jouer.", "en": "The organ starts to play."},
+      {"fr": "Mon voisin joue de l'**orgue** à la messe.", "en": "My neighbour plays the organ at mass."},
+      {"fr": "On entend l'**orgue** depuis la place.", "en": "You can hear the organ from the square."}]},
+    {"id": "vitrail", "fr": "vitrail", "pos": "noun", "g": "m", "ipa": "vi.tʁaj", "en": "stained-glass window", "def": "Une fenêtre faite de morceaux de verre de couleur, dans une église.", "def_en": "A window made of pieces of coloured glass, in a church.", "forms": ["vitraux"], "examples": [
+      {"fr": "Le soleil traverse les **vitraux** de l'église.", "en": "The sun shines through the church's stained-glass windows."},
+      {"fr": "Ce **vitrail** raconte l'histoire de Noël.", "en": "This stained-glass window tells the Christmas story."},
+      {"fr": "Les **vitraux** de la cathédrale sont très anciens.", "en": "The cathedral's stained-glass windows are very old."}]},
+    {"id": "ex-voto", "fr": "ex-voto", "pos": "noun", "g": "m", "ipa": "ɛks.vo.to", "en": "votive offering", "def": "Un objet qu'on accroche dans une église pour dire merci à Dieu ou à un saint.", "def_en": "An object you hang in a church to say thank you to God or to a saint.", "forms": ["ex-votos"], "examples": [
+      {"fr": "Ce sont des **ex-voto** : des pêcheurs sauvés de la tempête disent merci à la Bonne Mère.", "en": "They're votive offerings: fishermen saved from the storm say thank you to the Bonne Mère."},
+      {"fr": "Les murs de la basilique sont couverts d'**ex-voto**.", "en": "The walls of the basilica are covered with votive offerings."},
+      {"fr": "Ce petit bateau est un **ex-voto**.", "en": "This little boat is a votive offering."}]},
+    {"id": "croix", "fr": "croix", "pos": "noun", "g": "f", "ipa": "kʁwa", "en": "cross", "def": "Deux traits ou deux morceaux de bois qui se coupent ; le signe des chrétiens.", "def_en": "Two lines or two pieces of wood that cross each other; the sign of Christians.", "note": "Faire une croix sur quelque chose = to give something up for good.", "examples": [
+      {"fr": "Lou fait un signe de **croix** comme Mamie, mais à l'envers.", "en": "Lou crosses herself like Granny, but the wrong way round."},
+      {"fr": "Il y a une **croix** en haut de la colline.", "en": "There's a cross at the top of the hill."},
+      {"fr": "Fais une **croix** sur le calendrier.", "en": "Put a cross on the calendar."}]},
+    {"id": "paradis", "fr": "paradis", "pos": "noun", "g": "m", "ipa": "pa.ʁa.di", "en": "paradise, heaven", "def": "Le lieu où vont les âmes des bons, après la mort ; un endroit très beau et très agréable.", "def_en": "The place where the souls of good people go after death; a very beautiful, very pleasant place.", "examples": [
+      {"fr": "Le **paradis**, c'est d'y voir clair !", "en": "Paradise is seeing clearly!"},
+      {"fr": "Cette plage, c'est le **paradis** !", "en": "This beach is paradise!"},
+      {"fr": "Pour Hugo, une pâtisserie, c'est le **paradis**.", "en": "For Hugo, a cake shop is heaven."}]},
+    {"id": "cathedrale", "fr": "cathédrale", "pos": "noun", "g": "f", "ipa": "ka.te.dʁal", "en": "cathedral", "def": "La plus grande et la plus importante église d'une ville.", "def_en": "The biggest and most important church in a city.", "forms": ["cathédrales"], "examples": [
+      {"fr": "En bas, on voit la **cathédrale** de la Major, avec ses pierres blanches et vertes.", "en": "Down below you can see the cathedral of La Major, with its white and green stones."},
+      {"fr": "On a visité la **cathédrale** de Lyon.", "en": "We visited Lyon cathedral."},
+      {"fr": "Les touristes font la queue devant la **cathédrale**.", "en": "The tourists queue in front of the cathedral."}]}
+  ],
+  "story": {
+    "title": "La Bonne Mère",
+    "en": "The Good Mother",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche dix-sept avril, c'est Pâques à Marseille. Tôt le matin, Louise lit à Lou l'histoire de Pâques dans une bible pour enfants, pleine d'images.", "en": "On Sunday 17 April, it's Easter in Marseille. Early in the morning, Louise reads Lou the Easter story from a children's bible full of pictures."},
+      {"sp": "", "fr": "Puis Lou cherche les œufs dans le jardin. Carla regarde chaque œuf : ceux aux noisettes, elle les laisse à Hugo.", "en": "Then Lou hunts for the eggs in the garden. Carla checks every egg: the ones with hazelnuts she leaves to Hugo."},
+      {"sp": "Hugo", "fr": "Le chocolat, c'est mon péché mignon !", "en": "Chocolate is my weakness!"},
+      {"sp": "", "fr": "À dix heures, Jacques et Louise vont à la messe, dans l'église de leur quartier. Lou veut venir aussi. Devant la porte, le curé salue Jacques.", "en": "At ten, Jacques and Louise go to mass at their neighbourhood church. Lou wants to come too. At the door, the parish priest greets Jacques."},
+      {"sp": "Le curé", "fr": "Bonjour, Jacques ! Alors, cet œil ?", "en": "Hello, Jacques! So, how's that eye?"},
+      {"sp": "Jacques", "fr": "Je vous vois enfin très bien… et vous avez vieilli !", "en": "I can finally see you very well… and you've got older!"},
+      {"sp": "", "fr": "Dans l'église, le soleil traverse les vitraux. Pour la première fois depuis des années, Jacques voit vraiment leurs couleurs.", "en": "In the church, the sun shines through the stained-glass windows. For the first time in years, Jacques really sees their colours."},
+      {"sp": "", "fr": "Sur l'autel, des fleurs blanches pour Pâques. Les chants religieux font pleurer Louise, comme chaque année.", "en": "On the altar, white flowers for Easter. The religious songs make Louise cry, as they do every year."},
+      {"sp": "", "fr": "Lou fait un signe de croix comme Mamie, mais à l'envers. À la fin, pendant la bénédiction, Jacques dit « amen » plus fort que tout le monde.", "en": "Lou crosses herself like Granny, but the wrong way round. At the end, during the blessing, Jacques says \"amen\" louder than anyone."},
+      {"sp": "", "fr": "L'après-midi, toute la famille monte à Notre-Dame de la Garde, la basilique sur la colline, parmi des centaines de pèlerins et de touristes.", "en": "In the afternoon, the whole family climbs up to Notre-Dame de la Garde, the basilica on the hill, among hundreds of pilgrims and tourists."},
+      {"sp": "", "fr": "Tout en haut de la tour, une grande Vierge dorée veille sur Marseille. On l'[appelle|appeler] la Bonne Mère.", "en": "Right at the top of the tower, a big golden Virgin watches over Marseille. People call her the Bonne Mère, the Good Mother."},
+      {"sp": "Louise", "fr": "Au début, il n'y avait sur cette colline qu'une petite chapelle. Et Pâques, c'est la plus grande fête chrétienne.", "en": "At first there was only a little chapel on this hill. And Easter is the biggest Christian feast."},
+      {"sp": "Carla", "fr": "Chez moi, à Madrid, ma famille est catholique : on fête toute la Semaine sainte, avec de la musique dans les rues.", "en": "Back home in Madrid, my family is Catholic: we celebrate the whole of Holy Week, with music in the streets."},
+      {"sp": "Paul", "fr": "Moi, la religion, ce n'est pas trop mon truc. Mais l'histoire de cette basilique m'intéresse beaucoup.", "en": "Me, religion isn't really my thing. But the history of this basilica interests me a lot."},
+      {"sp": "", "fr": "Dans la basilique, de petits bateaux pendent du plafond, à côté de tableaux de tempêtes et même d'un avion.", "en": "In the basilica, little boats hang from the ceiling, next to paintings of storms and even of a plane."},
+      {"sp": "Lou", "fr": "Pourquoi il y a des bateaux au plafond ?", "en": "Why are there boats on the ceiling?"},
+      {"sp": "Louise", "fr": "Ce sont des ex-voto : des pêcheurs sauvés de la tempête disent merci à la Bonne Mère. Pour eux, c'était un miracle.", "en": "They're votive offerings: fishermen saved from the storm say thank you to the Bonne Mère. For them, it was a miracle."},
+      {"sp": "", "fr": "L'orgue commence à jouer ; Lou met les mains sur ses oreilles. Dehors, un prêtre bénit les pèlerins.", "en": "The organ starts to play; Lou puts her hands over her ears. Outside, a priest blesses the pilgrims."},
+      {"sp": "Lou", "fr": "Il bénit aussi les œufs en chocolat ?", "en": "Does he bless the chocolate eggs too?"},
+      {"sp": "", "fr": "Sur la terrasse, Jacques, ses lunettes de soleil sur le nez, voit toute la ville : le Vieux-Port, les îles, la cathédrale de la Major avec ses pierres blanches et vertes, et Saint-Victor, où vivaient des moines il y a mille ans.", "en": "On the terrace, Jacques, in his sunglasses, sees the whole city: the Old Port, the islands, the cathedral of La Major with its white and green stones, and Saint-Victor, where monks lived a thousand years ago."},
+      {"sp": "Jacques", "fr": "Le paradis, c'est d'y voir clair !", "en": "Paradise is seeing clearly!"},
+      {"sp": "Louise", "fr": "Tu vois le port ? Petite, j'allais à l'école dans un vieux couvent, juste à côté.", "en": "Do you see the port? As a little girl, I went to school in an old convent, right next to it."},
+      {"sp": "", "fr": "Avant de partir, Louise dit une prière pour l'autre œil de Jacques.", "en": "Before they leave, Louise says a prayer for Jacques's other eye."},
+      {"sp": "", "fr": "Hugo, silencieux depuis la veille, s'éloigne. Il allume un cierge avec son briquet, sans dire pourquoi.", "en": "Hugo, quiet since the day before, slips away. He lights a candle with his lighter, without saying why."},
+      {"sp": "", "fr": "Léa le regarde, étonnée. Hugo hausse les épaules et sourit.", "en": "Léa looks at him, surprised. Hugo shrugs and smiles."}
+    ]
+  }
+}

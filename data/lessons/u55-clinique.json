@@ -1,0 +1,143 @@
+{
+  "id": "u55-clinique",
+  "type": "vocab",
+  "unit": 55,
+  "title": "À la clinique",
+  "en": "An eye operation at the clinic",
+  "intro": "25 words for an eye operation: the eye (**la paupière, le cil, le sourcil, l'iris, la pupille, cligner, aveugle, la clarté**), the clinic (**la clinique, le chirurgien, la chirurgie, le docteur, opérer, l'intervention, l'anesthésie, la cicatrice, rétablir**), and the treatment (**la cataracte, la lentille, le collyre, la dose, le remède, le traitement, prescrire, la monture**).",
+  "words": [
+    {"id": "paupiere", "fr": "paupière", "pos": "noun", "g": "f", "ipa": "po.pjɛʁ", "en": "eyelid", "def": "La peau qui ferme l'œil, avec les cils au bord.", "def_en": "The skin that closes the eye, with the eyelashes along its edge.", "forms": ["paupières"], "examples": [
+      {"fr": "Gardez la **paupière** fermée.", "en": "Keep your eyelid closed."},
+      {"fr": "Lou a les **paupières** lourdes : elle va s'endormir.", "en": "Lou's eyelids are heavy: she's about to fall asleep."},
+      {"fr": "Il ferme les **paupières** et écoute la mer.", "en": "He closes his eyelids and listens to the sea."}]},
+    {"id": "cil", "fr": "cil", "pos": "noun", "g": "m", "ipa": "sil", "en": "eyelash", "def": "Un des petits poils au bord de la paupière.", "def_en": "One of the little hairs on the edge of the eyelid.", "forms": ["cils"], "examples": [
+      {"fr": "Ne vous frottez pas les **cils**, monsieur.", "en": "Don't rub your eyelashes, sir."},
+      {"fr": "Lou a de longs **cils** noirs.", "en": "Lou has long black eyelashes."},
+      {"fr": "J'ai un **cil** dans l'œil !", "en": "I've got an eyelash in my eye!"}]},
+    {"id": "sourcil", "fr": "sourcil", "pos": "noun", "g": "m", "ipa": "suʁ.si", "en": "eyebrow", "def": "Les poils au-dessus de l'œil, sous le front.", "def_en": "The hairs above the eye, below the forehead.", "note": "The l is silent.", "forms": ["sourcils"], "examples": [
+      {"fr": "Le chirurgien a de gros **sourcils** blancs.", "en": "The surgeon has big white eyebrows."},
+      {"fr": "Léa lève un **sourcil** : elle ne le croit pas.", "en": "Léa raises an eyebrow: she doesn't believe him."},
+      {"fr": "Elle se dessine les **sourcils** au crayon.", "en": "She draws on her eyebrows with a pencil."}]},
+    {"id": "iris", "fr": "iris", "pos": "noun", "g": "m", "ipa": "i.ʁis", "en": "iris (of the eye; also the flower)", "def": "Le cercle de couleur dans l'œil, autour du point noir ; aussi une fleur bleue ou violette.", "def_en": "The coloured circle in the eye, around the black dot; also a blue or purple flower.", "note": "The s is pronounced; the plural is the same: les iris.", "examples": [
+      {"fr": "Louise a toujours aimé les **iris** de Jacques, gris et bleus.", "en": "Louise has always loved Jacques's irises, grey and blue."},
+      {"fr": "La couleur des yeux, c'est la couleur de l'**iris**.", "en": "The colour of your eyes is the colour of the iris."},
+      {"fr": "Des **iris** violets fleurissent dans le jardin.", "en": "Purple irises are flowering in the garden."}]},
+    {"id": "pupille", "fr": "pupille", "pos": "noun", "g": "f", "ipa": "py.pij", "en": "pupil (of the eye)", "def": "Le petit rond noir au centre de l'œil, par où la lumière entre.", "def_en": "The little black circle in the centre of the eye, where the light gets in.", "forms": ["pupilles"], "examples": [
+      {"fr": "Des gouttes rendent la **pupille** plus grande.", "en": "Drops make the pupil bigger."},
+      {"fr": "Dans le noir, la **pupille** s'ouvre.", "en": "In the dark, the pupil opens."},
+      {"fr": "Le médecin regarde la **pupille** avec une petite lampe.", "en": "The doctor looks at the pupil with a little lamp."}]},
+    {"id": "cligner", "fr": "cligner", "pos": "verb", "ipa": "kli.ɲe", "en": "to blink", "def": "Fermer et ouvrir les yeux très vite.", "def_en": "To close and open your eyes very quickly.", "note": "*Cligner des yeux* = to blink; *un clin d'œil* = a wink.", "forms": ["cligne", "clignes", "clignons", "clignez", "clignent", "cligné", "clignais", "clignait", "clignions", "cligniez", "clignaient", "clignerai", "cligneras", "clignera", "clignerons", "clignerez", "cligneront", "clignerais", "clignerait", "clignerions", "cligneriez", "cligneraient", "clignant", "clignai", "clignas", "cligna", "clignâmes", "clignâtes", "clignèrent"], "examples": [
+      {"fr": "Surtout, ne **clignez** pas.", "en": "Above all, don't blink."},
+      {"fr": "Le soleil est si fort qu'il **cligne** des yeux.", "en": "The sun is so strong that he blinks."},
+      {"fr": "Le bébé **cligne** des yeux quand on allume la lumière.", "en": "The baby blinks when you switch on the light."}]},
+    {"id": "aveugle", "fr": "aveugle", "pos": "adj", "ipa": "a.vœɡl", "en": "blind", "def": "Qui ne voit rien, qui a perdu la vue.", "def_en": "Who sees nothing, who has lost their sight.", "note": "Also a noun: *un aveugle, une aveugle* (a blind person).", "forms": ["aveugles"], "examples": [
+      {"fr": "Je ne suis pas **aveugle**, je vois tout en brouillard.", "en": "I'm not blind, I see everything in a fog."},
+      {"fr": "Ce chien guide un homme **aveugle**.", "en": "This dog guides a blind man."},
+      {"fr": "L'amour rend **aveugle**.", "en": "Love is blind."}]},
+    {"id": "clarte", "fr": "clarté", "pos": "noun", "g": "f", "ipa": "klaʁ.te", "en": "clearness, brightness; light", "def": "La lumière, l'éclat ; ce qui est net et facile à voir ou à comprendre.", "def_en": "Light, brightness; what is sharp and easy to see or understand.", "examples": [
+      {"fr": "Jacques n'en revient pas de la **clarté** des couleurs.", "en": "Jacques can't get over how bright the colours are."},
+      {"fr": "La **clarté** du matin entre par la fenêtre.", "en": "The morning light comes in through the window."},
+      {"fr": "Le prof explique avec beaucoup de **clarté**.", "en": "The teacher explains very clearly."}]},
+    {"id": "clinique", "fr": "clinique", "pos": "noun", "g": "f", "ipa": "kli.nik", "en": "clinic, private hospital", "def": "Un hôpital privé.", "def_en": "A private hospital.", "forms": ["cliniques"], "examples": [
+      {"fr": "Jacques et Louise prennent un taxi pour la **clinique**.", "en": "Jacques and Louise take a taxi to the clinic."},
+      {"fr": "Ma tante travaille dans une **clinique** privée.", "en": "My aunt works in a private clinic."},
+      {"fr": "La **clinique** est près de la mer.", "en": "The clinic is near the sea."}]},
+    {"id": "chirurgien", "fr": "chirurgien", "pos": "noun", "g": "m", "ipa": "ʃi.ʁyʁ.ʒjɛ̃", "display": "le chirurgien, la chirurgienne", "en": "surgeon", "def": "Le médecin qui fait les opérations.", "def_en": "The doctor who performs operations.", "forms": ["chirurgiens", "chirurgienne", "chirurgiennes"], "examples": [
+      {"fr": "Le **chirurgien** rit aux blagues de Jacques.", "en": "The surgeon laughs at Jacques's jokes."},
+      {"fr": "Elle veut devenir **chirurgienne**.", "en": "She wants to become a surgeon."},
+      {"fr": "Le **chirurgien** se lave les mains avant d'opérer.", "en": "The surgeon washes his hands before operating."}]},
+    {"id": "chirurgie", "fr": "chirurgie", "pos": "noun", "g": "f", "ipa": "ʃi.ʁyʁ.ʒi", "en": "surgery (operations)", "def": "La partie de la médecine où l'on soigne en ouvrant le corps.", "def_en": "The part of medicine where you treat people by opening up the body.", "examples": [
+      {"fr": "La **chirurgie** de l'œil a fait des progrès incroyables.", "en": "Eye surgery has made incredible progress."},
+      {"fr": "Pour la cataracte, il n'y a qu'un remède : la **chirurgie**.", "en": "For cataracts there's only one cure: surgery."},
+      {"fr": "Après la **chirurgie**, il faut du repos.", "en": "After surgery, you need rest."}]},
+    {"id": "docteur", "fr": "docteur", "pos": "noun", "g": "m", "ipa": "dɔk.tœʁ", "en": "doctor (as a title, or to speak to one)", "def": "Un médecin ; c'est aussi le mot qu'on utilise pour lui parler.", "def_en": "A physician; it's also the word you use when speaking to one.", "forms": ["docteurs"], "examples": [
+      {"fr": "Vous avez des mains d'artiste, **docteur**.", "en": "You have an artist's hands, doctor."},
+      {"fr": "Le **docteur** reçoit le mardi et le jeudi.", "en": "The doctor sees patients on Tuesdays and Thursdays."},
+      {"fr": "Bonjour, **docteur**, j'ai mal à la tête depuis trois jours.", "en": "Hello, doctor, I've had a headache for three days."}]},
+    {"id": "operer", "fr": "opérer", "pos": "verb", "ipa": "o.pe.ʁe", "en": "to operate (on someone)", "def": "Soigner un malade en ouvrant son corps avec des outils, à l'hôpital.", "def_en": "To treat a patient by opening up their body with instruments, in hospital.", "note": "*Être opéré de la cataracte* = to have a cataract operation.", "forms": ["opère", "opères", "opérons", "opérez", "opèrent", "opéré", "opérée", "opérés", "opérées", "opérais", "opérait", "opérions", "opériez", "opéraient", "opérerai", "opéreras", "opérera", "opérerons", "opérerez", "opéreront", "opérerais", "opérerait", "opérerions", "opéreriez", "opéreraient", "opérant", "opérai", "opéras", "opérâmes", "opérâtes", "opérèrent"], "examples": [
+      {"fr": "Aujourd'hui, on l'**opère** de l'œil droit.", "en": "Today they're operating on his right eye."},
+      {"fr": "Ce chirurgien **opère** depuis trente ans.", "en": "This surgeon has been operating for thirty years."},
+      {"fr": "Mon voisin a été **opéré** du genou.", "en": "My neighbour had an operation on his knee."}]},
+    {"id": "intervention", "fr": "intervention", "pos": "noun", "g": "f", "ipa": "ɛ̃.tɛʁ.vɑ̃.sjɔ̃", "en": "procedure, operation (medical); intervention", "def": "Une opération faite par un chirurgien ; le fait d'agir dans une affaire.", "def_en": "An operation done by a surgeon; the act of stepping in on a matter.", "forms": ["interventions"], "examples": [
+      {"fr": "L'**intervention** [dure|durer] un quart d'heure.", "en": "The procedure lasts a quarter of an hour."},
+      {"fr": "Après l'**intervention**, Jacques rentre chez lui.", "en": "After the procedure, Jacques goes home."},
+      {"fr": "Merci pour ton **intervention** pendant la réunion.", "en": "Thanks for stepping in during the meeting."}]},
+    {"id": "anesthesie", "fr": "anesthésie", "pos": "noun", "g": "f", "ipa": "a.nɛs.te.zi", "en": "anaesthesia, anaesthetic", "def": "Un produit ou un moyen qui empêche de sentir la douleur pendant une opération.", "def_en": "A product or a means that stops you feeling pain during an operation.", "forms": ["anesthésies"], "examples": [
+      {"fr": "Une simple **anesthésie** locale : quelques gouttes, et on ne sent rien.", "en": "Just a local anaesthetic: a few drops, and you feel nothing."},
+      {"fr": "Pour cette opération, il faut une **anesthésie** générale.", "en": "For this operation, you need a general anaesthetic."},
+      {"fr": "Chez le dentiste, Tom a demandé une **anesthésie**.", "en": "At the dentist's, Tom asked for an anaesthetic."}]},
+    {"id": "cicatrice", "fr": "cicatrice", "pos": "noun", "g": "f", "ipa": "si.ka.tʁis", "en": "scar", "def": "La marque qui reste sur la peau après une blessure.", "def_en": "The mark left on the skin after a wound.", "forms": ["cicatrices"], "examples": [
+      {"fr": "Pas de **cicatrice** ? Dommage !", "en": "No scar? Shame!"},
+      {"fr": "Mon frère a une petite **cicatrice** au front.", "en": "My brother has a little scar on his forehead."},
+      {"fr": "Les blessures guérissent, mais les **cicatrices** restent.", "en": "Wounds heal, but scars remain."}]},
+    {"id": "retablir", "fr": "rétablir", "pos": "verb", "ipa": "ʁe.ta.bliʁ", "en": "to restore, to re-establish", "def": "Remettre comme avant, faire revenir ce qui était perdu.", "def_en": "To put back as it was, to bring back what was lost.", "note": "*Se rétablir* = to recover (after an illness).", "forms": ["rétablis", "rétablit", "rétablissons", "rétablissez", "rétablissent", "rétabli", "rétablissais", "rétablissait", "rétablissions", "rétablissiez", "rétablissaient", "rétablirai", "rétabliras", "rétablira", "rétablirons", "rétablirez", "rétabliront", "rétablirais", "rétablirait", "rétablirions", "rétabliriez", "rétabliraient", "rétablisse", "rétablisses", "rétablissant", "rétablîmes", "rétablîtes", "rétablirent", "rétablie", "rétablies"], "examples": [
+      {"fr": "Cette intervention **rétablit** la vue dans presque tous les cas.", "en": "This procedure restores sight in almost every case."},
+      {"fr": "Après la panne, l'électricité est **rétablie** en une heure.", "en": "After the power cut, the electricity is back on within an hour."},
+      {"fr": "Il faut **rétablir** la confiance entre eux.", "en": "Trust between them has to be restored."}]},
+    {"id": "cataracte", "fr": "cataracte", "pos": "noun", "g": "f", "ipa": "ka.ta.ʁakt", "en": "cataract (in the eye)", "def": "Une maladie de l'œil : on voit flou, comme à travers une vitre sale.", "def_en": "An eye disease: you see things blurred, as if through a dirty window.", "forms": ["cataractes"], "examples": [
+      {"fr": "Jacques a une **cataracte** aux deux yeux.", "en": "Jacques has cataracts in both eyes."},
+      {"fr": "Avec la **cataracte**, on voit le monde jaune et flou.", "en": "With a cataract, you see the world yellow and blurred."},
+      {"fr": "On opère la **cataracte** en un quart d'heure.", "en": "A cataract is operated on in a quarter of an hour."}]},
+    {"id": "lentille", "fr": "lentille", "pos": "noun", "g": "f", "ipa": "lɑ̃.tij", "en": "lens; contact lens; lentil", "def": "Un petit verre rond qui aide à mieux voir ; une petite graine plate qu'on mange.", "def_en": "A little round glass that helps you see better; a small flat seed that you eat.", "forms": ["lentilles"], "examples": [
+      {"fr": "On remplace le cristallin par une petite **lentille**.", "en": "The lens of the eye is replaced by a little artificial lens."},
+      {"fr": "Elle porte des **lentilles** au lieu de lunettes.", "en": "She wears contact lenses instead of glasses."},
+      {"fr": "Ce soir, on mange une soupe de **lentilles**.", "en": "Tonight we're having lentil soup."}]},
+    {"id": "collyre", "fr": "collyre", "pos": "noun", "g": "m", "ipa": "kɔ.liʁ", "en": "eye drops", "def": "Un médicament liquide qu'on met dans l'œil, goutte à goutte.", "def_en": "A liquid medicine you put in your eye, drop by drop.", "forms": ["collyres"], "examples": [
+      {"fr": "Louise met le **collyre** ; Jacques fait semblant d'avoir peur.", "en": "Louise puts in the eye drops; Jacques pretends to be scared."},
+      {"fr": "Le pharmacien me donne un **collyre** pour mes yeux rouges.", "en": "The pharmacist gives me eye drops for my red eyes."},
+      {"fr": "N'oublie pas ton **collyre** ce soir.", "en": "Don't forget your eye drops tonight."}]},
+    {"id": "dose", "fr": "dose", "pos": "noun", "g": "f", "ipa": "doz", "en": "dose, amount", "def": "La quantité de médicament qu'on prend en une fois.", "def_en": "The amount of medicine you take at one time.", "forms": ["doses"], "examples": [
+      {"fr": "Louise écrit la **dose** sur le frigo.", "en": "Louise writes the dose on the fridge."},
+      {"fr": "Ne prends pas une double **dose**.", "en": "Don't take a double dose."},
+      {"fr": "Il faut une bonne **dose** de courage pour chanter devant tout le monde.", "en": "It takes a good dose of courage to sing in front of everyone."}]},
+    {"id": "remede", "fr": "remède", "pos": "noun", "g": "m", "ipa": "ʁə.mɛd", "en": "remedy, cure", "def": "Ce qui soigne ou guérit une maladie, un problème.", "def_en": "What treats or heals an illness, a problem.", "forms": ["remèdes"], "examples": [
+      {"fr": "Tu n'as pas un **remède** de grand-mère pour l'autre œil ?", "en": "Haven't you got a grandmother's remedy for the other eye?"},
+      {"fr": "Le miel et le citron, c'est mon **remède** contre le rhume.", "en": "Honey and lemon: that's my remedy for a cold."},
+      {"fr": "Le rire est le meilleur des **remèdes**.", "en": "Laughter is the best medicine."}]},
+    {"id": "traitement", "fr": "traitement", "pos": "noun", "g": "m", "ipa": "tʁɛt.mɑ̃", "en": "treatment", "def": "Ce qu'on fait pour soigner une maladie : médicaments, gouttes, repos…", "def_en": "What you do to treat an illness: medicines, drops, rest…", "forms": ["traitements"], "examples": [
+      {"fr": "Le **traitement** est simple : une goutte, quatre fois par jour.", "en": "The treatment is simple: one drop, four times a day."},
+      {"fr": "Ce **traitement** coûte cher.", "en": "This treatment is expensive."},
+      {"fr": "Le médecin lui donne un **traitement** contre la toux.", "en": "The doctor gives him a treatment for his cough."}]},
+    {"id": "prescrire", "fr": "prescrire", "pos": "verb", "ipa": "pʁɛs.kʁiʁ", "en": "to prescribe", "def": "Dire, sur une ordonnance, quels médicaments un malade doit prendre.", "def_en": "To say, on a prescription, which medicines a patient must take.", "forms": ["prescris", "prescrit", "prescrivons", "prescrivez", "prescrivent", "prescrite", "prescrites", "prescrits", "prescrivais", "prescrivait", "prescrivions", "prescriviez", "prescrivaient", "prescrirai", "prescriras", "prescrira", "prescrirons", "prescrirez", "prescriront", "prescrirais", "prescrirait", "prescririons", "prescririez", "prescriraient", "prescrive", "prescrives", "prescrivant", "prescrivis", "prescrivit", "prescrivîmes", "prescrivîtes", "prescrivirent"], "examples": [
+      {"fr": "Le chirurgien **prescrit** un collyre pour un mois.", "en": "The surgeon prescribes eye drops for a month."},
+      {"fr": "Le médecin m'a **prescrit** du repos.", "en": "The doctor prescribed me rest."},
+      {"fr": "Seul un médecin peut **prescrire** ce médicament.", "en": "Only a doctor can prescribe this medicine."}]},
+    {"id": "monture", "fr": "monture", "pos": "noun", "g": "f", "ipa": "mɔ̃.tyʁ", "en": "frame (of glasses); mount (a horse you ride)", "def": "La partie des lunettes qui tient les verres ; un cheval qu'on utilise pour voyager.", "def_en": "The part of a pair of glasses that holds the lenses; a horse used for travelling.", "forms": ["montures"], "examples": [
+      {"fr": "Louise lui a choisi une **monture** rouge.", "en": "Louise has chosen him a red frame."},
+      {"fr": "J'ai changé les verres, mais j'ai gardé la **monture**.", "en": "I changed the lenses but kept the frame."},
+      {"fr": "Le chevalier descend de sa **monture**.", "en": "The knight gets down from his mount."}]}
+  ],
+  "story": {
+    "title": "À la clinique",
+    "en": "Tuesday 12 April: Jacques's first cataract operation, at a clinic in Marseille.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi douze avril, à sept heures du matin, Jacques et Louise prennent un taxi pour la clinique, près du Prado. Jacques ne conduit plus : il a donné sa voiture à Hugo en novembre.", "en": "On Tuesday 12 April, at seven in the morning, Jacques and Louise take a taxi to the clinic, near the Prado. Jacques no longer drives: he gave his car to Hugo in November."},
+      {"sp": "", "fr": "Il a une cataracte aux deux yeux : il voit le monde jaune et flou. Aujourd'hui, on l'opère de l'œil droit.", "en": "He has cataracts in both eyes: he sees the world yellow and blurred. Today they're operating on his right eye."},
+      {"sp": "", "fr": "Dans la salle d'attente, Louise lui tient la main. Sur l'écran du téléphone, Anne, qui est médecin, explique tout depuis Paris.", "en": "In the waiting room, Louise holds his hand. On the phone screen, Anne, who is a doctor, explains everything from Paris."},
+      {"sp": "Anne", "fr": "D'abord, des gouttes pour rendre la pupille plus grande. Ensuite, une anesthésie locale : encore quelques gouttes, et tu ne sens plus rien.", "en": "First, drops to make the pupil bigger. Then a local anaesthetic: a few more drops, and you can't feel a thing."},
+      {"sp": "Anne", "fr": "Le chirurgien enlève ton cristallin, qui est devenu comme du verre sale, et il le remplace par une petite lentille.", "en": "The surgeon takes out the lens of your eye, which has become like dirty glass, and replaces it with a little artificial lens."},
+      {"sp": "Anne", "fr": "Cette intervention rétablit la vue dans presque tous les cas. La chirurgie de l'œil a fait des progrès incroyables.", "en": "This procedure restores sight in almost every case. Eye surgery has made incredible progress."},
+      {"sp": "Jacques", "fr": "Presque… Les médecins disent toujours « presque ».", "en": "Almost… Doctors always say \"almost\"."},
+      {"sp": "", "fr": "Une infirmière lui met les gouttes dans l'œil droit.", "en": "A nurse puts the drops in his right eye."},
+      {"sp": "L'infirmière", "fr": "Ne vous frottez pas les cils, monsieur. Et gardez la paupière fermée.", "en": "Don't rub your eyelashes, sir. And keep your eyelid closed."},
+      {"sp": "Jacques", "fr": "Je ne suis pas aveugle, vous savez. Je vois tout en brouillard, c'est tout.", "en": "I'm not blind, you know. I just see everything in a fog, that's all."},
+      {"sp": "", "fr": "Dans la salle d'opération, le chirurgien a de gros sourcils blancs. Jacques trouve qu'ils ressemblent aux siens.", "en": "In the operating room, the surgeon has big white eyebrows. Jacques thinks they look like his own."},
+      {"sp": "Le chirurgien", "fr": "Un petit outil va garder votre œil ouvert. Surtout, ne clignez pas.", "en": "A little instrument is going to keep your eye open. Above all, don't blink."},
+      {"sp": "Jacques", "fr": "Vous avez des mains d'artiste, docteur. Vous jouez du piano ?", "en": "You have an artist's hands, doctor. Do you play the piano?"},
+      {"sp": "Le chirurgien", "fr": "De la guitare, le dimanche. Maintenant, on ne parle plus et on ne bouge plus.", "en": "The guitar, on Sundays. Now, no more talking and no more moving."},
+      {"sp": "", "fr": "Jacques ne cligne pas. Il chante dans sa tête les chansons de sa jeunesse. L'intervention [dure|durer] à peine un quart d'heure.", "en": "Jacques doesn't blink. He sings the songs of his youth in his head. The procedure takes barely a quarter of an hour."},
+      {"sp": "Jacques", "fr": "Déjà fini ? Pas de cicatrice ? Dommage, j'avais une belle histoire à raconter à Lou !", "en": "Finished already? No scar? Shame, I had a good story to tell Lou!"},
+      {"sp": "", "fr": "Le chirurgien prescrit un collyre pour un mois, des lunettes de soleil et une coque en plastique pour la nuit.", "en": "The surgeon prescribes eye drops for a month, sunglasses and a plastic shield for the night."},
+      {"sp": "Le chirurgien", "fr": "Le traitement est simple : une goutte, quatre fois par jour. Et on vous opère de l'œil gauche le mardi dix mai.", "en": "The treatment is simple: one drop, four times a day. And we'll operate on your left eye on Tuesday 10 May."},
+      {"sp": "Jacques", "fr": "Louise, toi qui es grand-mère, tu n'as pas un remède de grand-mère pour l'autre œil ?", "en": "Louise, you're a grandmother: haven't you got a grandmother's remedy for the other eye?"},
+      {"sp": "Le chirurgien", "fr": "Pour la cataracte, monsieur, il n'y a qu'un remède : la chirurgie.", "en": "For cataracts, sir, there's only one cure: surgery."},
+      {"sp": "", "fr": "À la maison, Louise écrit la dose sur le frigo. Elle met le collyre ; Jacques fait semblant d'avoir peur.", "en": "At home, Louise writes the dose on the fridge. She puts in the eye drops; Jacques pretends to be scared."},
+      {"sp": "Louise", "fr": "Après le deuxième œil, il te faudra seulement des lunettes pour lire. Regarde : je t'ai déjà choisi une monture rouge.", "en": "After the second eye, you'll only need glasses for reading. Look: I've already chosen you a red frame."},
+      {"sp": "", "fr": "Elle le regarde dans les yeux. Elle a toujours aimé ses iris, gris et bleus comme la mer en hiver.", "en": "She looks him in the eyes. She has always loved his irises, grey and blue like the sea in winter."},
+      {"sp": "", "fr": "Le soir, à la fenêtre, Jacques n'en revient pas de la clarté des couleurs : le bleu de la mer, le rouge des volets, le vert du jardin.", "en": "In the evening, at the window, Jacques can't get over how bright the colours are: the blue of the sea, the red of the shutters, the green of the garden."},
+      {"sp": "Jacques", "fr": "Allô, Hugo ? Samedi, je verrai enfin ta voiture… et tout le reste !", "en": "Hello, Hugo? On Saturday I'll finally see your car… and everything else!"},
+      {"sp": "", "fr": "À Lyon, Hugo devient tout pâle. Il pense à sa voiture, et au feutre gris.", "en": "In Lyon, Hugo goes pale. He thinks of his car, and of the grey felt-tip pen."}
+    ]
+  }
+}

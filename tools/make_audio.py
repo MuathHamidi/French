@@ -171,6 +171,8 @@ FIXES = {
     "secouerais": "səkuʁˈɛ", "secouerait": "səkuʁˈɛ", "secouerions": "səkuʁjˈɔ̃", "secoueriez": "səkuʁjˈe", "secoueraient": "səkuʁˈɛ",
     "flashs": "flˈaʃ",  # the voice says the s
     "fournil": "fuʁnˈi", "fournils": "fuʁnˈi",  # the l is silent
+    "sourcil": "suʁsˈi", "sourcils": "suʁsˈi",  # the l is silent
+    "émeut plus qu'elle": "emˈø plˈys kɛl", "reçoit le plus": "ʁəswˈa lə plˈys",  # plus (more, the most): the s is said
     "punch": "pˈɔ̃ʃ", "punchs": "pˈɔ̃ʃ", "toast": "tˈost", "toasts": "tˈost", "dj": "didʒˈi", "djs": "didʒˈi",  # read in English
     "négligent": "neɡliʒˈɑ̃", "négligents": "neɡliʒˈɑ̃",  # the adjective; the voice reads it like the verb (ils négligent)
     "corner": "kɔʁnˈɛʁ", "corners": "kɔʁnˈɛʁ", "penalty": "penaltˈi", "penaltys": "penaltˈi", "penalties": "penaltˈi",  # read like an -er verb, or with a schwa

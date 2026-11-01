@@ -1,0 +1,107 @@
+{
+  "id": "u55-tant-que",
+  "type": "grammar",
+  "unit": 55,
+  "title": "Tant que je n'aurai pas assez",
+  "en": "Time clauses: tant que, à mesure que, maintenant que, chaque fois que, en attendant que, le temps que",
+  "intro": "Beyond *quand* and *dès que*, French has a whole family of conjunctions of time. **Tant que** (as long as) takes the indicative, with the future for the future: *Tant que je n'aurai pas assez, plus de jeux vidéo.* **À mesure que** and **au fur et à mesure que** (as, gradually as) link two changes; **maintenant que** (now that) and **depuis que** (ever since) set up a new situation; **chaque fois que**, **sitôt que** and **au moment où** say when something happens. All of these take the indicative. **En attendant que**, **le temps que** (by the time) and **d'ici à ce que** look ahead to something that hasn't happened yet, so they take the subjunctive: *Le temps que Tom descende, le colis est déjà parti.* *Sitôt que* is rather formal; the others belong to everyday French.",
+  "cases": [
+    {"id": "tq-tant-que", "label": "tant que (as long as)", "rule": "*Tant que* + indicative means *as long as*. For the future, use the future: *Tant que tu ne sauras pas nager, pas de Rhône.* In the present: *Tant qu'il y a des pâtes, on survit.* With *ne… pas* it means *as long as… not*, often *not until* in English: *Tant que je n'aurai pas assez, plus de jeux vidéo.* Never the subjunctive (that's *jusqu'à ce que*). Don't confuse it with *en tant que* (as, in the role of) or *pas tant que ça* (not that much)."},
+    {"id": "tq-mesure", "label": "à mesure que, au fur et à mesure que", "rule": "*À mesure que* and *au fur et à mesure que* + indicative mean *as, gradually as*: two things change together. *À mesure que l'étagère se vide, la tirelire se remplit. Au fur et à mesure que les acheteurs passent, Hugo devient plus calme.* Alone, *au fur et à mesure* means *as one goes along, bit by bit*: *Je les essaierai au fur et à mesure.*"},
+    {"id": "tq-maintenant", "label": "maintenant que, depuis que", "rule": "*Maintenant que* (now that) + indicative gives a new situation, often as a reason: *Maintenant que Papi voit clair, il remarque tout.* *Depuis que* (ever since) + indicative marks the starting point of something that still goes on: *Depuis qu'on est rentrés de Marseille, tu manges des pâtes.* Before a noun or a length of time, *depuis* alone is the preposition: *depuis Pâques, depuis trois semaines*."},
+    {"id": "tq-chaque-fois", "label": "chaque fois que, sitôt que, au moment où", "rule": "All three take the indicative. *Chaque fois que* or *toutes les fois que* means *every time, whenever*: *Chaque fois que Tom demande pourquoi, Hugo change de sujet.* Never *chaque fois quand*. *Sitôt que* means *as soon as*, like *dès que* but more formal: *Sitôt que l'annonce a été publiée, un acheteur a répondu.* *Au moment où* means *just as, at the moment when*: *Au moment où le livreur emporte le carton, Hugo a le cœur serré.*"},
+    {"id": "tq-attendant", "label": "en attendant que, le temps que, d'ici à ce que", "rule": "These look ahead to something that hasn't happened yet, so they take the subjunctive. *En attendant que* means *until, while waiting for… to*: *En attendant qu'il arrive, je t'offre un café ?* *Le temps que* means *by the time*: *Le temps que Tom descende, le colis est déjà parti.* *D'ici à ce que* (or *d'ici que*) means *between now and when*: *D'ici à ce que tu me dises tout, il passera de l'eau sous les ponts.* With the same subject, use the infinitive: *en attendant d'avoir assez, le temps de lui dire au revoir*. *En attendant* alone means *meanwhile*."}
+  ],
+  "sections": [
+    {"title": "1. tant que: as long as", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tant que je n'aurai pas assez, plus de jeux vidéo.", "As long as I haven't got enough, no more video games."],
+      ["Tant qu'il y a des pâtes, on survit.", "As long as there's pasta, we'll survive."],
+      ["Tant que tu ne sauras pas nager, pas de Rhône.", "Until you can swim, no Rhône."]]},
+     "examples": [
+      {"fr": "Je ne vends pas tout : les jeux, je te les donne. Et {tant que je n'aurai pas assez|tq-tant-que}, plus de jeux vidéo.", "en": "I'm not selling everything: the games, I'm giving them to you. And as long as I haven't got enough, no more video games."},
+      {"fr": "Ma règle n'a pas changé : {tant que tu ne sauras pas nager|tq-tant-que}, pas question de t'y baigner.", "en": "My rule hasn't changed: until you can swim, there's no question of you swimming in it."}],
+     "tip": "Tant que + indicative, with the future for the future. Tant que… ne… pas is often 'until'."},
+    {"title": "2. à mesure que, au fur et à mesure (que): as, as one goes", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À mesure que l'étagère se vide, la tirelire se remplit.", "As the shelf empties, the piggy bank fills up."],
+      ["Au fur et à mesure que les acheteurs passent, il devient plus calme.", "As the buyers come by, he gets calmer."],
+      ["Enzo essaie les jeux au fur et à mesure.", "Enzo tries the games out as he goes."]]},
+     "examples": [
+      {"fr": "{À mesure que l'étagère se vide|tq-mesure}, la tirelire se remplit.", "en": "As the shelf empties, the piggy bank fills up."},
+      {"fr": "{Au fur et à mesure que les acheteurs passent|tq-mesure}, Hugo devient plus calme, presque léger.", "en": "As the buyers come by, Hugo gets calmer, almost light-hearted."}],
+     "tip": "Two things that change together. Au fur et à mesure without que means 'as one goes along'."},
+    {"title": "3. maintenant que, depuis que: now that, ever since", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Maintenant que Papi voit clair, il remarque tout.", "Now that Grandpa can see clearly, he notices everything."],
+      ["Depuis que Hugo économise, il mange des pâtes.", "Ever since Hugo started saving, he's been eating pasta."],
+      ["Depuis Pâques, il mange des pâtes.", "Since Easter, he's been eating pasta."]]},
+     "examples": [
+      {"fr": "{Maintenant que Papi voit clair|tq-maintenant}, moi aussi, je vois clair. Enfin, je me comprends.", "en": "Now that Grandpa can see clearly, I can see clearly too. Well, I know what I mean."},
+      {"fr": "{Depuis qu'on est rentrés de Marseille|tq-maintenant}, tu manges des pâtes tous les soirs.", "en": "Ever since we got back from Marseille, you've been eating pasta every night."}],
+     "tip": "Depuis que + a clause; depuis alone + a noun or a length of time."},
+    {"title": "4. chaque fois que, sitôt que, au moment où", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Chaque fois que Tom demande pourquoi, Hugo change de sujet.", "Every time Tom asks why, Hugo changes the subject."],
+      ["Sitôt que l'annonce a été publiée, un acheteur a répondu.", "As soon as the ad was posted, a buyer answered."],
+      ["Au moment où le livreur part, Hugo a le cœur serré.", "Just as the courier leaves, Hugo feels a pang."]]},
+     "examples": [
+      {"fr": "{Chaque fois que Tom demande pourquoi|tq-chaque-fois}, Hugo change de sujet.", "en": "Every time Tom asks why, Hugo changes the subject."},
+      {"fr": "{Au moment où le livreur emporte le carton|tq-chaque-fois}, Hugo a le cœur serré.", "en": "Just as the courier carries off the box, Hugo feels a pang."}],
+     "tip": "All take the indicative. Chaque fois que, never chaque fois quand."},
+    {"title": "5. en attendant que, le temps que, d'ici à ce que + subjunctive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["En attendant qu'il arrive, je t'offre un café ?", "While you wait for him, can I offer you a coffee?"],
+      ["[Le temps que|le-temps-que] Tom descende, le colis est parti.", "By the time Tom comes down, the parcel has gone."],
+      ["Il cache la tirelire, en attendant d'avoir assez.", "He hides the piggy bank until he has enough."]]},
+     "examples": [
+      {"fr": "{[Le temps que|le-temps-que] Tom descende|tq-attendant}, en pyjama, le colis est déjà parti.", "en": "By the time Tom comes down, in his pyjamas, the parcel has already gone."},
+      {"fr": "{D'ici à ce que tu me dises tout|tq-attendant}, il passera de l'eau sous les ponts.", "en": "It'll be ages before you tell me everything."}],
+     "tip": "The event hasn't happened yet: subjunctive. Same subject: en attendant de, le temps de + infinitive."}
+  ],
+  "mistakes": [
+    {"wrong": "Tant que je n'aie pas assez, plus de jeux vidéo.", "right": "Tant que je n'aurai pas assez, plus de jeux vidéo.", "why": "Tant que takes the indicative (here the future), not the subjunctive."},
+    {"wrong": "En attendant que la console est vendue, je n'y touche plus.", "right": "En attendant que la console soit vendue, je n'y touche plus.", "why": "En attendant que, le temps que and d'ici à ce que take the subjunctive."},
+    {"wrong": "Chaque fois quand Carla demande, Hugo change de sujet.", "right": "Chaque fois que Carla demande, Hugo change de sujet.", "why": "The conjunction is chaque fois que."},
+    {"wrong": "Le temps que Tom descend, le colis est parti.", "right": "Le temps que Tom descende, le colis est parti.", "why": "Le temps que takes the subjunctive."}
+  ],
+  "story": {
+    "title": "Tant que je n'aurai pas assez",
+    "en": "Saturday 23 April: back in Lyon, Hugo sends off his console, gives his games to Enzo and starts filling a jar, without saying what for.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-trois avril, à Lyon, Hugo se lève tôt. Depuis Pâques, il a un projet, mais il garde le secret.", "en": "On Saturday 23 April, in Lyon, Hugo gets up early. Since Easter he has had a plan, but he's keeping it secret."},
+      {"sp": "Hugo", "fr": "{Maintenant que Papi voit clair|tq-maintenant}, moi aussi, je vois clair. Enfin, je me comprends.", "en": "Now that Grandpa can see clearly, I can see clearly too. Well, I know what I mean."},
+      {"sp": "", "fr": "Mardi, il a mis sa vieille [console|console] en vente sur Internet. {Sitôt que l'annonce a été publiée|tq-chaque-fois}, un acheteur a répondu.", "en": "On Tuesday he put his old console up for sale online. As soon as the ad was posted, a buyer answered."},
+      {"sp": "", "fr": "Ce matin, il emballe la console et sa manette dans un carton et descend au point relais du quartier : la boulangerie de Madame Fournier.", "en": "This morning he packs the console and its controller in a box and goes down to the neighbourhood's parcel point: Madame Fournier's bakery."},
+      {"sp": "", "fr": "Madame Fournier pèse le colis sans rien dire. Puis elle regarde Hugo au-dessus de ses lunettes.", "en": "Madame Fournier weighs the parcel without a word. Then she looks at Hugo over her glasses."},
+      {"sp": "Madame Fournier", "fr": "Le livreur passe à dix heures. {En attendant qu'il arrive|tq-attendant}, je t'offre un café ?", "en": "The courier comes by at ten. While you wait for him, can I offer you a coffee?"},
+      {"sp": "Hugo", "fr": "Non, merci. Je reste là, {le temps de lui dire au revoir|tq-attendant}.", "en": "No, thank you. I'll stay here, just long enough to say goodbye to it."},
+      {"sp": "", "fr": "{Au moment où le livreur emporte le carton|tq-chaque-fois}, Hugo a le cœur serré. Madame Fournier ne pose pas de questions.", "en": "Just as the courier carries off the box, Hugo feels a pang. Madame Fournier asks no questions."},
+      {"sp": "", "fr": "{[Le temps que|le-temps-que] Tom descende|tq-attendant}, en pyjama, le colis est déjà parti.", "en": "By the time Tom comes down, in his pyjamas, the parcel has already gone."},
+      {"sp": "Tom", "fr": "C'était quoi, ce gros carton ? Je t'ai vu passer sur le palier.", "en": "What was that big box? I saw you go past on the landing."},
+      {"sp": "Hugo", "fr": "Rien. Tu veux un croissant ?", "en": "Nothing. Do you want a croissant?"},
+      {"sp": "", "fr": "{Chaque fois que Tom demande pourquoi|tq-chaque-fois}, Hugo change de sujet.", "en": "Every time Tom asks why, Hugo changes the subject."},
+      {"sp": "Tom", "fr": "Toi qui n'as jamais su garder un secret ! {D'ici à ce que tu me dises tout|tq-attendant}, il passera de l'eau sous les ponts.", "en": "You, who could never keep a secret! It'll be ages before you tell me everything."},
+      {"sp": "", "fr": "Juste avant midi, Enzo monte avec une baguette. Hugo lui donne tous ses jeux.", "en": "Just before noon, Enzo comes up with a baguette. Hugo gives him all his games."},
+      {"sp": "Enzo", "fr": "Tes jeux, oui. Ta console, j'en ai déjà une. Mais pourquoi tu vends tout ?", "en": "Your games, yes. Your console, I've already got one. But why are you selling everything?"},
+      {"sp": "Hugo", "fr": "Je ne vends pas tout : les jeux, je te les donne. Et {tant que je n'aurai pas assez|tq-tant-que}, plus de jeux vidéo.", "en": "I'm not selling everything: the games, I'm giving them to you. And as long as I haven't got enough, no more video games."},
+      {"sp": "Enzo", "fr": "Assez de quoi ? Ah, d'accord, c'est un secret. Je les essaierai {au fur et à mesure|tq-mesure}, alors.", "en": "Enough of what? Oh, OK, it's a secret. I'll try them out as I go, then."},
+      {"sp": "", "fr": "L'après-midi, Hugo met aussi en vente ses films et ses livres. {À mesure que l'étagère se vide|tq-mesure}, la tirelire se remplit : un vieux pot de confiture où dorment déjà quelques billets.", "en": "In the afternoon, Hugo puts his films and books up for sale too. As the shelf empties, the piggy bank fills up: an old jam jar where a few notes are already sleeping."},
+      {"sp": "", "fr": "{Au fur et à mesure que les acheteurs passent|tq-mesure}, Hugo devient plus calme, presque léger.", "en": "As the buyers come by, Hugo gets calmer, almost light-hearted."},
+      {"sp": "", "fr": "Le soir, Carla vient dîner. Dans l'assiette de Hugo, encore des pâtes.", "en": "In the evening, Carla comes for dinner. On Hugo's plate, pasta again."},
+      {"sp": "Carla", "fr": "{Depuis qu'on est rentrés de Marseille|tq-maintenant}, tu manges des pâtes tous les soirs. Qu'est-ce qui se passe ?", "en": "Ever since we got back from Marseille, you've been eating pasta every night. What's going on?"},
+      {"sp": "Hugo", "fr": "Je m'entraîne pour le Rhône. Les nageurs mangent des pâtes, c'est connu.", "en": "I'm training for the Rhône. Swimmers eat pasta, everyone knows that."},
+      {"sp": "Carla", "fr": "Le Rhône ? Ma règle n'a pas changé : {tant que tu ne sauras pas nager|tq-tant-que}, pas question de t'y baigner.", "en": "The Rhône? My rule hasn't changed: until you can swim, there's no question of you swimming in it."},
+      {"sp": "Hugo", "fr": "{Tant qu'il y a des pâtes|tq-tant-que}, on survit !", "en": "As long as there's pasta, we'll survive!"},
+      {"sp": "", "fr": "{Toutes les fois que Carla pose une question|tq-chaque-fois}, il fait une blague. Après son départ, il cache la tirelire derrière le paquet de farine, {en attendant d'avoir assez|tq-attendant}. Assez pour quoi ? Ça, c'est son secret.", "en": "Every single time Carla asks a question, he makes a joke. After she leaves, he hides the piggy bank behind the bag of flour, until he has enough. Enough for what? That's his secret."}
+    ]
+  },
+  "quiz": [
+    {"case": "tq-tant-que", "type": "mc", "q": "Tant que je n'___ pas assez, plus de jeux vidéo.", "en": "As long as I haven't got enough, no more video games.", "options": ["aurai", "aie", "eusse"], "answer": "aurai"},
+    {"case": "tq-tant-que", "type": "mc", "q": "___ il y a des pâtes, on survit !", "en": "As long as there's pasta, we'll survive!", "options": ["Tant qu'", "En tant qu'", "Jusqu'à ce qu'"], "answer": "Tant qu'"},
+    {"case": "tq-mesure", "type": "mc", "q": "___ l'étagère se vide, la tirelire se remplit.", "en": "As the shelf empties, the piggy bank fills up.", "options": ["À mesure que", "Sans que", "Afin que"], "answer": "À mesure que"},
+    {"case": "tq-mesure", "type": "mc", "q": "Je les essaierai ___, alors.", "en": "I'll try them out as I go, then.", "options": ["au fur et à mesure", "à mesure que", "au moment où"], "answer": "au fur et à mesure"},
+    {"case": "tq-maintenant", "type": "mc", "q": "Maintenant que Papi ___ clair, il remarque tout.", "en": "Now that Grandpa can see clearly, he notices everything.", "options": ["voit", "voie", "verrait"], "answer": "voit"},
+    {"case": "tq-maintenant", "type": "mc", "q": "___ on est rentrés de Marseille, tu manges des pâtes tous les soirs.", "en": "Ever since we got back from Marseille, you've been eating pasta every night.", "options": ["Depuis qu'", "Depuis", "Pendant qu'"], "answer": "Depuis qu'"},
+    {"case": "tq-chaque-fois", "type": "mc", "q": "Chaque fois ___ Tom demande pourquoi, Hugo change de sujet.", "en": "Every time Tom asks why, Hugo changes the subject.", "options": ["que", "quand", "qui"], "answer": "que"},
+    {"case": "tq-chaque-fois", "type": "mc", "q": "Au moment ___ le livreur emporte le carton, Hugo a le cœur serré.", "en": "Just as the courier carries off the box, Hugo feels a pang.", "options": ["où", "quand", "dont"], "answer": "où"},
+    {"case": "tq-attendant", "type": "mc", "q": "[Le temps que|le-temps-que] Tom ___, le colis est déjà parti.", "en": "By the time Tom comes down, the parcel has already gone.", "options": ["descende", "descend", "descendra"], "answer": "descende"},
+    {"case": "tq-attendant", "type": "mc", "q": "D'ici à ce que tu me ___ tout, il passera de l'eau sous les ponts.", "en": "It'll be ages before you tell me everything.", "options": ["dises", "dis", "diras"], "answer": "dises"}
+  ]
+}

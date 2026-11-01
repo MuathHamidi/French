@@ -1,0 +1,108 @@
+{
+  "id": "u55-comme-si",
+  "type": "grammar",
+  "unit": 55,
+  "title": "Comme si de rien n'était",
+  "en": "Comparisons and appearances at C1: comme si, faire comme si, comme si de rien n'était, à croire que, comme qui dirait, tout comme, plutôt que de",
+  "intro": "To say *as if*, French uses **comme si** with the imparfait (something unreal now) or the plus-que-parfait (the past): *Il la regarde **comme s'il la voyait** pour la première fois.* Alone, ***Comme si… !*** rejects an idea (As if!). **Faire comme si** means to act as if, and **comme si de rien n'était** as if nothing had happened. **À croire que** + indicative (you'd think), **comme qui dirait** (sort of) and **comme pour** + infinitive (as if to) describe appearances; **tout comme** and **de même que** compare two similar facts, **autant… autant** two opposite ones; **plutôt que de** + infinitive means rather than. *Comme qui dirait* is spoken; *de même que* and *autant… autant* are more formal.",
+  "cases": [
+    {"id": "cs-comme-si", "label": "comme si + imparfait or plus-que-parfait", "rule": "*Comme si* (as if) takes the imparfait for something unreal now and the plus-que-parfait for the past, never the conditional or the present: *Il regarde Louise comme s'il la voyait pour la première fois. Il regarde la voiture comme s'il ne l'avait jamais vue.* On its own, as an exclamation, it rejects an idea: *Comme si j'avais le temps !* (As if!) *Si* elides only before *il* and *ils*: *comme s'il*, but *comme si elle*."},
+    {"id": "cs-faire-comme-si", "label": "faire comme si, comme si de rien n'était", "rule": "*Faire comme si* + imparfait or plus-que-parfait means to act as if, to pretend: *Fais comme si tu n'avais rien vu.* The fixed phrase *comme si de rien n'était* means as if nothing had happened: *Hugo siffle comme si de rien n'était.* *Faire semblant de* + infinitive (Unit 40) says the same thing with one subject: *Hugo fait semblant de ne rien voir.*"},
+    {"id": "cs-a-croire", "label": "à croire que, comme qui dirait, comme pour", "rule": "*À croire que* + indicative: you'd think: *À croire qu'il n'a jamais vu la mer !* *Comme qui dirait* softens a word: sort of, as it were: *C'est comme qui dirait une petite égratignure.* *Comme pour* + infinitive: as if to: *Il passe le doigt sur la portière, comme pour vérifier.* *On dirait que* (it looks like) still works too: *On dirait qu'il a vingt ans.*"},
+    {"id": "cs-tout-comme", "label": "tout comme, de même que; autant… autant", "rule": "*Tout comme* and *de même que* (just as, just like) compare two similar facts: *Tout comme Louise n'oublie rien, Jacques remarque tout. De même qu'il a vu les rayures, il a vu le feutre.* *Autant… autant* sets two opposite clauses face to face: *Autant j'étais patient, autant elle était vive* (I was as patient as she was lively)."},
+    {"id": "cs-plutot", "label": "plutôt que (de) + infinitive", "rule": "*Plutôt que de* + infinitive (or *plutôt que* alone) means rather than, instead of: *Plutôt que de gronder Hugo, Jacques éclate de rire.* Before a noun or an adjective, *plutôt que* compares two things: *du thé plutôt que du café*. Never *plutôt de*."}
+  ],
+  "sections": [
+    {"title": "1. comme si + imparfait or plus-que-parfait", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il la regarde comme s'il la voyait pour la première fois.", "He looks at her as if he were seeing her for the first time."],
+      ["Il regarde la voiture comme s'il ne l'avait jamais [vue|voir].", "He looks at the car as if he had never seen it."],
+      ["Comme si j'avais le temps !", "As if I had the time!"]]},
+     "examples": [
+      {"fr": "Enfin, il se tourne vers Louise et la regarde de la même façon, {comme s'il la voyait pour la première fois|cs-comme-si}.", "en": "Finally, he turns to Louise and looks at her the same way, as if he were seeing her for the first time."},
+      {"fr": "{Comme si je n'avais jamais abîmé une voiture|cs-comme-si} !", "en": "As if I'd never damaged a car!"}],
+     "tip": "Imparfait for something unreal now, plus-que-parfait for the past, never the conditional. Alone, Comme si… ! means As if! Si elides only before il and ils."},
+    {"title": "2. faire comme si, comme si de rien n'était", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Fais comme si tu n'avais rien vu.", "Act as if you hadn't seen anything."],
+      ["Ils font comme si tout allait bien.", "They act as if everything were fine."],
+      ["Il siffle comme si de rien n'était.", "He whistles as if nothing had happened."]]},
+     "examples": [
+      {"fr": "Ou alors, {fais comme si je n'avais pas de rides|cs-faire-comme-si}.", "en": "Or else, act as if I had no wrinkles."},
+      {"fr": "Avant le dîner, Hugo rend à Paul son pull bleu, lavé et plié, avec deux ans de retard, {comme si de rien n'était|cs-faire-comme-si}.", "en": "Before dinner, Hugo gives Paul back his blue jumper, washed and folded, two years late, as if nothing had happened."}],
+     "tip": "Faire comme si = to act as if, to pretend. Faire semblant de + infinitive (Unit 40) is the same idea with one subject. Comme si de rien n'était never changes."},
+    {"title": "3. à croire que, comme qui dirait, comme pour", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À croire qu'elle ne dort jamais !", "You'd think she never sleeps!"],
+      ["C'est comme qui dirait un ami de la famille.", "He's sort of a friend of the family."],
+      ["Il lève la main, comme pour dire au revoir.", "He raises his hand, as if to say goodbye."]]},
+     "examples": [
+      {"fr": "{À croire qu'il n'a jamais vu la mer|cs-a-croire} !", "en": "You'd think he'd never seen the sea!"},
+      {"fr": "Ça ? C'est {comme qui dirait|cs-a-croire} une petite égratignure, Papi.", "en": "That? It's a little scratch, as it were, Grandpa."}],
+     "tip": "À croire que takes the indicative. Comme qui dirait softens a word (sort of, as it were); comme pour + infinitive means as if to. On dirait que (it looks like) works too."},
+    {"title": "4. tout comme, de même que; autant… autant", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["[Tout comme|tout-comme] son frère, elle aime la mer.", "Just like her brother, she loves the sea."],
+      ["De même qu'il aime la mer, il aime la montagne.", "Just as he loves the sea, he loves the mountains."],
+      ["Autant il est calme, autant elle est vive.", "Where he is calm, she is lively."]]},
+     "examples": [
+      {"fr": "{[Tout comme|tout-comme] Louise n'oublie rien|cs-tout-comme}, Jacques remarque tout.", "en": "Just as Louise forgets nothing, Jacques notices everything."},
+      {"fr": "{Autant j'étais patient, autant elle était vive|cs-tout-comme}.", "en": "I was as patient as she was lively."}],
+     "tip": "Tout comme and de même que compare two similar facts; autant… autant sets two opposite clauses side by side, with the same word at the start of each."},
+    {"title": "5. plutôt que (de) + infinitive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Plutôt que de prendre la voiture, ils prennent le train.", "Rather than take the car, they take the train."],
+      ["Il rit plutôt que de crier.", "He laughs rather than shouting."],
+      ["Je prends du thé plutôt que du café.", "I'll have tea rather than coffee."]]},
+     "examples": [
+      {"fr": "{Plutôt que de prendre la voiture|cs-plutot}, Paul, Anne et Lou ont pris le train à Paris.", "en": "Rather than take the car, Paul, Anne and Lou took the train from Paris."},
+      {"fr": "{Plutôt que de gronder son petit-fils|cs-plutot}, Jacques éclate de rire.", "en": "Rather than scold his grandson, Jacques bursts out laughing."}],
+     "tip": "Plutôt que de + infinitive: de is usually kept before a verb, but never say plutôt de. Before a noun, plutôt que alone."}
+  ],
+  "mistakes": [
+    {"wrong": "Il la regarde comme s'il la verrait pour la première fois.", "right": "Il la regarde comme s'il la voyait pour la première fois.", "why": "Comme si takes the imparfait (or the plus-que-parfait), never the conditional."},
+    {"wrong": "Il regarde la voiture comme si il ne l'avait jamais vue.", "right": "Il regarde la voiture comme s'il ne l'avait jamais vue.", "why": "Si elides before il and ils: s'il."},
+    {"wrong": "À croire qu'il n'ait jamais vu la mer !", "right": "À croire qu'il n'a jamais vu la mer !", "why": "À croire que takes the indicative, not the subjunctive."},
+    {"wrong": "Plutôt de gronder Hugo, Jacques rit.", "right": "Plutôt que de gronder Hugo, Jacques rit.", "why": "The phrase is plutôt que de + infinitive."}
+  ],
+  "story": {
+    "title": "Comme si de rien n'était",
+    "en": "Saturday 16 April: Easter at Jacques and Louise's, the car's two scratches, and the photo in the glove box.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi seize avril, [veille|veille] de Pâques, toute la famille arrive à Marseille. {Plutôt que de prendre la voiture|cs-plutot}, Paul, Anne et Lou ont pris le train à Paris.", "en": "On Saturday 16 April, the day before Easter, the whole family arrives in Marseille. Rather than take the car, Paul, Anne and Lou took the train from Paris."},
+      {"sp": "", "fr": "Léa, Hugo et Carla descendent de Lyon dans la vieille voiture grise. Ses deux rayures sont cachées sous du feutre gris.", "en": "Léa, Hugo and Carla come down from Lyon in the old grey car. Its two scratches are hidden under grey felt-tip pen."},
+      {"sp": "", "fr": "Jacques sort de la maison, des lunettes de soleil sur le nez, quatre jours après son opération. Avant même de dire bonjour, il fait le tour de la voiture.", "en": "Jacques comes out of the house, sunglasses on his nose, four days after his operation. Before he even says hello, he walks round the car."},
+      {"sp": "", "fr": "Il passe le doigt sur le pare-chocs, puis sur la portière, {comme pour vérifier|cs-a-croire}.", "en": "He runs his finger along the bumper, then along the door, as if to check."},
+      {"sp": "Jacques", "fr": "Deux rayures. Et du feutre.", "en": "Two scratches. And felt-tip pen."},
+      {"sp": "", "fr": "Hugo remonte ses lunettes sur sa tête et siffle {comme si de rien n'était|cs-faire-comme-si}.", "en": "Hugo pushes his glasses up onto his head and whistles as if nothing had happened."},
+      {"sp": "Hugo", "fr": "Ça ? C'est {comme qui dirait|cs-a-croire} une petite égratignure, Papi.", "en": "That? It's a little scratch, as it were, Grandpa."},
+      {"sp": "", "fr": "{Plutôt que de gronder son petit-fils|cs-plutot}, Jacques éclate de rire.", "en": "Rather than scold his grandson, Jacques bursts out laughing."},
+      {"sp": "Jacques", "fr": "{Comme si je n'avais jamais abîmé une voiture|cs-comme-si} ! À ton âge, j'ai abîmé celle de mon père deux fois.", "en": "As if I'd never damaged a car! At your age, I damaged my father's twice."},
+      {"sp": "", "fr": "{[Tout comme|tout-comme] Louise n'oublie rien|cs-tout-comme}, Jacques remarque tout. Et maintenant, il voit clair.", "en": "Just as Louise forgets nothing, Jacques notices everything. And now he can see clearly."},
+      {"sp": "Léa", "fr": "{De même qu'il a vu les rayures|cs-tout-comme}, il a vu le feutre. On ne lui cache rien, Hugo.", "en": "Just as he saw the scratches, he saw the felt-tip. You can't hide anything from him, Hugo."},
+      {"sp": "", "fr": "Puis Jacques regarde la mer, le jardin, les volets rouges, {comme s'il les voyait pour la première fois|cs-comme-si}.", "en": "Then Jacques looks at the sea, the garden, the red shutters, as if he were seeing them for the first time."},
+      {"sp": "Carla", "fr": "{À croire qu'il n'a jamais vu la mer|cs-a-croire} !", "en": "You'd think he'd never seen the sea!"},
+      {"sp": "Léa", "fr": "Pendant des mois, il voyait tout jaune, tout flou. Pour lui, c'est un peu la première fois.", "en": "For months, he saw everything yellow and blurred. For him, it's a bit like the first time."},
+      {"sp": "", "fr": "Enfin, il se tourne vers Louise et la regarde de la même façon, {comme s'il la voyait pour la première fois|cs-comme-si}.", "en": "Finally, he turns to Louise and looks at her the same way, as if he were seeing her for the first time."},
+      {"sp": "Louise", "fr": "Arrête, Jacques. Ou alors, {fais comme si je n'avais pas de rides|cs-faire-comme-si}.", "en": "Stop it, Jacques. Or else, act as if I had no wrinkles."},
+      {"sp": "Jacques", "fr": "{Comme si elles me dérangeaient|cs-comme-si} ! Je les aime toutes.", "en": "As if they bothered me! I love every one of them."},
+      {"sp": "", "fr": "Jacques ouvre aussi la boîte à gants : la vieille carte de France, ses cassettes et la photo de Louise à vingt ans. Elle est toujours là. Il la regarde longtemps.", "en": "Jacques opens the glove box too: the old map of France, his cassettes and the photo of Louise at twenty. It's still there. He looks at it for a long time."},
+      {"sp": "Jacques", "fr": "Toute une vie.", "en": "A whole life."},
+      {"sp": "Hugo", "fr": "Papi… Comment tu as su que c'était elle ?", "en": "Grandpa… How did you know it was her?"},
+      {"sp": "Jacques", "fr": "On était voisins quand on était petits. {Autant j'étais patient, autant elle était vive|cs-tout-comme}. À seize ans, je lui ai écrit de très mauvaises lettres d'amour. Elle les a toutes gardées. Voilà comment j'ai su.", "en": "We were neighbours when we were little. I was as patient as she was lively. At sixteen, I wrote her very bad love letters. She kept them all. That's how I knew."},
+      {"sp": "Jacques", "fr": "Mais pourquoi cette question ?", "en": "But why do you ask?"},
+      {"sp": "Hugo", "fr": "Pour rien. {Fais comme si je n'avais rien demandé|cs-faire-comme-si}.", "en": "No reason. Act as if I hadn't asked anything."},
+      {"sp": "", "fr": "Avant le dîner, Hugo rend à Paul son pull bleu, lavé et plié, avec deux ans de retard, {comme si de rien n'était|cs-faire-comme-si}.", "en": "Before dinner, Hugo gives Paul back his blue jumper, washed and folded, two years late, as if nothing had happened."},
+      {"sp": "Paul", "fr": "{Comme si j'en avais encore besoin|cs-comme-si} ! Garde-le.", "en": "As if I still needed it! Keep it."},
+      {"sp": "Lou", "fr": "Non, moi, je le veux ! Sur moi, ce sera une robe.", "en": "No, I want it! On me, it'll be a dress."}
+    ]
+  },
+  "quiz": [
+    {"case": "cs-comme-si", "type": "mc", "q": "Il regarde Louise comme s'il la ___ pour la première fois.", "en": "He looks at Louise as if he were seeing her for the first time.", "options": ["voyait", "verrait", "voit"], "answer": "voyait"},
+    {"case": "cs-comme-si", "type": "mc", "q": "Comme si je n'___ jamais abîmé une voiture !", "en": "As if I had never damaged a car!", "options": ["avais", "aurais", "ai"], "answer": "avais"},
+    {"case": "cs-faire-comme-si", "type": "mc", "q": "Fais comme si je n'___ pas de rides.", "en": "Act as if I had no wrinkles.", "options": ["avais", "aie", "aurais"], "answer": "avais"},
+    {"case": "cs-faire-comme-si", "type": "mc", "q": "Hugo siffle comme si de rien n'___.", "en": "Hugo whistles as if nothing had happened.", "options": ["était", "est", "soit"], "answer": "était"},
+    {"case": "cs-a-croire", "type": "mc", "q": "À croire qu'il n'___ jamais vu la mer !", "en": "You'd think he'd never seen the sea!", "options": ["a", "ait", "soit"], "answer": "a"},
+    {"case": "cs-a-croire", "type": "mc", "q": "Il passe le doigt sur la portière, comme ___ vérifier.", "en": "He runs his finger along the door, as if to check.", "options": ["pour", "si", "de"], "answer": "pour"},
+    {"case": "cs-tout-comme", "type": "mc", "q": "___ Louise, Jacques n'oublie rien.", "en": "Just like Louise, Jacques forgets nothing.", "options": ["Tout comme", "Autant", "Plutôt que"], "answer": "Tout comme"},
+    {"case": "cs-tout-comme", "type": "mc", "q": "___ il est patient, autant elle est vive.", "en": "Where he is patient, she is lively.", "options": ["Autant", "Plus", "Si"], "answer": "Autant"},
+    {"case": "cs-plutot", "type": "mc", "q": "Plutôt ___ gronder Hugo, Jacques éclate de rire.", "en": "Rather than scold Hugo, Jacques bursts out laughing.", "options": ["que de", "de", "que pour"], "answer": "que de"},
+    {"case": "cs-plutot", "type": "mc", "q": "___ prendre la voiture, ils ont pris le train.", "en": "Rather than take the car, they took the train.", "options": ["Plutôt que de", "Au lieu", "Plutôt de"], "answer": "Plutôt que de"}
+  ]
+}
