@@ -1,0 +1,107 @@
+{
+  "id": "u52-s-apercevoir",
+  "type": "grammar",
+  "unit": 52,
+  "title": "Je m'en doutais !",
+  "en": "Pronominal verbs that change meaning: s'apercevoir de, se douter de, s'attendre à, se passer de, se tenir, se faire à",
+  "intro": "Some verbs change meaning when they become pronominal: **apercevoir** is to catch sight of, but **s'apercevoir de / que** is to notice; **douter** is to doubt, but **se douter de / que** is to suspect (*Je m'en doutais !*, I thought as much!); **attendre** is to wait, but **s'attendre à** is to expect. In the same way, **se passer de** means to do without, **se mettre à** to start doing, **se rendre compte** to realise, **se plaindre** to complain (*plaindre* is to feel sorry for), **se tenir** to behave, **se trouver** to be (somewhere) and **se faire à** to get used to. A few verbs only exist with *se*: **s'emparer de** (to grab), **se soucier de** (to care about) and **s'écrier** (to exclaim). Like all pronominal verbs, they take *être* in the passé composé: *il s'est aperçu, elle s'est mise à rire*. They are everyday French, except *s'emparer* and *s'écrier*, which belong to written French and stories, and *se soucier de*, which is rather formal.",
+  "cases": [
+    {"id": "sp-savoir", "label": "s'apercevoir, se douter: noticing and suspecting", "rule": "*Apercevoir* + object means to catch sight of: *J'ai aperçu un pigeon dans le jardin.* *S'apercevoir de / que* means to notice, to realise: *Je me suis aperçu que je ne pouvais plus lire.* *Douter de / que* is to doubt, and *douter que* takes the subjunctive: *Je doute qu'il dise oui.* *Se douter de / que* is to suspect, to guess, and *se douter que* takes the indicative: *Je me doutais que tu voyais mal. Je m'en doutais !* (I thought as much!)"},
+    {"id": "sp-attendre", "label": "attendre, s'attendre à: waiting and expecting", "rule": "*Attendre* is to wait (for), with no preposition: *J'attends le médecin.* *S'attendre à* + noun or infinitive is to expect: *Je ne m'attendais pas à ça. Il s'attend à rentrer le jour même.* With a clause, *s'attendre à ce que* + subjunctive: *Je ne m'attendais pas à ce que tu dises oui.* To expect it is *s'y attendre*: *Je m'y attendais.*"},
+    {"id": "sp-passer", "label": "se passer de, se mettre à, se rendre compte", "rule": "*Se passer* is to happen (*Qu'est-ce qui se passe ?*), but *se passer de* is to do without: *Je peux très bien me passer de lire.* *Mettre* is to put; *se mettre à* + infinitive is to start doing: *Louise se met à rire.* *Rendre* is to give back; *se rendre compte de / que* is to realise: *Tu te rends compte ?* Its participle never agrees, as *compte* is its object: *elle s'est rendu compte.* Remember *se tromper, s'occuper de* (Unit 22) and *se servir de* (Unit 48)."},
+    {"id": "sp-seul", "label": "only with se: s'emparer, se soucier, s'écrier", "rule": "Some verbs only exist with *se*: *s'emparer de* (to grab, to seize): *Lou s'empare de la tablette*; *se soucier de* (to care about, to worry about): *Il ne se soucie jamais de sa santé*; *s'écrier* (to exclaim, to cry out): *« Des yeux neufs ! » s'écrie Hugo.* Like *s'enfuir, s'évanouir* (Unit 31) and *se méfier* (Unit 39), their participle agrees with the subject: *elle s'est emparée de la tablette.*"},
+    {"id": "sp-paires", "label": "plaindre, tenir, trouver, faire: one verb, two meanings", "rule": "*Plaindre* is to feel sorry for (*Je le plains*); *se plaindre* is to complain (*Il ne se plaint jamais*). *Tenir* is to hold; *se tenir* is to behave, to sit or stand (*Tiens-toi tranquille !*), or to take place. *Trouver* is to find; *se trouver* is to be somewhere, or to feel (*Je me trouve très bien comme ça*). *Faire* is to do; *se faire à* is to get used to: *Je ne me fais pas à l'idée.*"}
+  ],
+  "sections": [
+    {"title": "1. s'apercevoir, se douter: noticing and suspecting", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["J'ai aperçu un pigeon dans le jardin.", "I caught sight of a pigeon in the garden."],
+      ["Il s'est aperçu qu'il ne pouvait plus lire.", "He noticed he could no longer read."],
+      ["Je me doutais qu'il voyait mal.", "I suspected he couldn't see well."]]},
+     "examples": [
+      {"fr": "{Je m'en doutais|sp-savoir} ! Le pigeon, la voiture la nuit… {Je me doutais bien que tu voyais mal|sp-savoir}.", "en": "I thought as much! The pigeon, the car at night… I did suspect you couldn't see well."},
+      {"fr": "Et la semaine dernière, {j'ai aperçu un pigeon dans le jardin|sp-savoir}.", "en": "And last week, I caught sight of a pigeon in the garden."}],
+     "tip": "Apercevoir + object: to catch sight of; s'apercevoir de / que: to notice. Douter que takes the subjunctive (je doute qu'il vienne), se douter que the indicative (je me doute qu'il viendra)."},
+    {"title": "2. attendre, s'attendre à: waiting and expecting", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["J'attends le médecin.", "I'm waiting for the doctor."],
+      ["Je ne m'attendais pas à ça.", "I didn't expect that."],
+      ["Je ne m'attendais pas à [ce|ce] [que|que] tu dises oui.", "I didn't expect you to say yes."]]},
+     "examples": [
+      {"fr": "Eh bien, moi, {je ne m'attendais pas à ça|sp-attendre}. {Je m'attendais à des lunettes [neuves|neuf-adj]|sp-attendre}, pas à une opération !", "en": "Well, I didn't expect that. I expected new glasses, not an operation!"},
+      {"fr": "{Je ne m'attendais pas à [ce|ce] [que|que] tu dises oui si vite|sp-attendre}, Papa !", "en": "I didn't expect you to say yes so quickly, Dad!"}],
+     "tip": "Attendre quelqu'un: to wait for someone, with no preposition. S'attendre à: to expect; with a clause, à ce que + subjunctive. To expect it: s'y attendre."},
+    {"title": "3. se passer de, se mettre à, se rendre compte", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je peux très bien [me passer de|se-passer-de] lire.", "I can perfectly well do without reading."],
+      ["Louise se met à rire.", "Louise starts laughing."],
+      ["Elle s'est rendu compte qu'elle avait tort.", "She realised she was wrong."]]},
+     "examples": [
+      {"fr": "Toi ? {Tu ne peux pas [te passer de|se-passer-de] ton journal|sp-passer} une seule journée !", "en": "You? You can't do without your paper for a single day!"},
+      {"fr": "Après, tu verras comme à vingt ans. {Tu te rends compte|sp-passer} ?", "en": "Afterwards, you'll see the way you did at twenty. Can you imagine?"}],
+     "tip": "Se passer: to happen; se passer de: to do without. Se mettre à + infinitive: to start doing. In se rendre compte, rendu never agrees: elle s'est rendu compte. Without compte, se rendre (Unit 40) means to go."},
+    {"title": "4. only with se: s'emparer, se soucier, s'écrier", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Lou s'empare de la tablette.", "Lou grabs the tablet."],
+      ["Il ne se soucie jamais de sa santé.", "He never worries about his health."],
+      ["« Bravo ! » s'écrient les enfants.", "'Well done!' the children cry."]]},
+     "examples": [
+      {"fr": "À Paris, Lou {s'empare de la tablette|sp-seul}.", "en": "In Paris, Lou grabs the tablet."},
+      {"fr": "« Des yeux [neufs|neuf-adj] ! » {s'écrie Hugo|sp-seul}.", "en": "'New eyes!' Hugo exclaims."}],
+     "tip": "These verbs have no form without se: never emparer, soucier or écrier alone. Their participle agrees with the subject: elle s'est emparée de la tablette. S'écrier often comes after the words it reports, like dit-il."},
+    {"title": "5. plaindre, tenir, trouver, faire: one verb, two meanings", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je le plains : il ne se plaint jamais.", "I feel sorry for him: he never complains."],
+      ["Lou, tiens-toi tranquille !", "Lou, behave yourself!"],
+      ["Je ne [me fais pas à|se-faire-a] l'idée.", "I can't get used to the idea."]]},
+     "examples": [
+      {"fr": "Anne, {je le plains|sp-paires}, mais quel têtu ! {Il ne se plaint jamais|sp-paires}.", "en": "Anne, I feel sorry for him, but he's so stubborn! He never complains."},
+      {"fr": "{Je ne [me fais pas à|se-faire-a] l'idée|sp-paires}, c'est tout. D'ailleurs, {je me trouve très bien comme ça|sp-paires}.", "en": "I just can't get used to the idea, that's all. Besides, I feel fine as I am."}],
+     "tip": "Plaindre quelqu'un: to feel sorry for someone; se plaindre: to complain. Tenir: to hold; se tenir: to behave. Trouver: to find; se trouver: to be somewhere, or to feel. Faire: to do; se faire à: to get used to."}
+  ],
+  "mistakes": [
+    {"wrong": "Je me doute qu'il vienne.", "right": "Je me doute qu'il viendra.", "why": "Se douter que (to suspect) takes the indicative; it's douter que (to doubt) that takes the subjunctive: je doute qu'il vienne."},
+    {"wrong": "Je n'attendais pas à ça.", "right": "Je ne m'attendais pas à ça.", "why": "To expect is s'attendre à; without se, attendre means to wait (for), with no preposition."},
+    {"wrong": "Il ne peut pas passer de son journal.", "right": "Il ne peut pas se passer de son journal.", "why": "To do without is se passer de; without se, passer de means to go from (passer de l'un à l'autre)."},
+    {"wrong": "Je m'aperçois la mer.", "right": "J'aperçois la mer.", "why": "To catch sight of something is apercevoir, with a direct object; s'apercevoir de / que means to notice."}
+  ],
+  "story": {
+    "title": "Je m'en doutais !",
+    "en": "Wednesday 16 February: Jacques has a cataract, and the family talks him into the operation.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi seize février, à huit heures du soir, Louise appelle toute la famille en vidéo : Paul, Anne et Lou à Paris, Léa et Hugo à Lyon.", "en": "On Wednesday 16 February, at eight in the evening, Louise video-calls the whole family: Paul, Anne and Lou in Paris, Léa and Hugo in Lyon."},
+      {"sp": "Louise", "fr": "Jacques a quelque chose à vous dire. {Tenez-vous bien|sp-paires}…", "en": "Jacques has something to tell you. Brace yourselves…"},
+      {"sp": "Jacques", "fr": "Voilà. Il y a un mois, {je me suis aperçu que je ne pouvais plus lire mon journal|sp-savoir}, même avec mes lunettes. Dans les pages économiques, les chiffres dansaient.", "en": "Right. A month ago, I noticed I couldn't read my paper any more, even with my glasses. In the business pages, the figures were dancing."},
+      {"sp": "Hugo", "fr": "Ça, c'est normal, Papi : en économie, les chiffres dansent tout le temps !", "en": "That's normal, Grandpa: in economics, the figures are always dancing!"},
+      {"sp": "Jacques", "fr": "Et la semaine dernière, {j'ai aperçu un pigeon dans le jardin|sp-savoir}. Je l'ai pris pour le chat du voisin.", "en": "And last week, I caught sight of a pigeon in the garden. I took it for the neighbour's cat."},
+      {"sp": "Louise", "fr": "Il a même déjà pris un pigeon pour un piéton !", "en": "He once even took a pigeon for a pedestrian!"},
+      {"sp": "Jacques", "fr": "Alors lundi, je suis allé chez l'ophtalmologue. J'ai une cataracte, aux deux yeux. L'opération du premier œil, c'est en avril, et l'autre en mai.", "en": "So on Monday, I went to the eye doctor. I've got a cataract, in both eyes. The operation on the first eye is in April, and the other one in May."},
+      {"sp": "Louise", "fr": "{Je m'en doutais|sp-savoir} ! Le pigeon, la voiture la nuit… {Je me doutais bien que tu voyais mal|sp-savoir}.", "en": "I thought as much! The pigeon, the car at night… I did suspect you couldn't see well."},
+      {"sp": "Jacques", "fr": "Eh bien, moi, {je ne m'attendais pas à ça|sp-attendre}. {Je m'attendais à des lunettes [neuves|neuf-adj]|sp-attendre}, pas à une opération !", "en": "Well, I didn't expect that. I expected new glasses, not an operation!"},
+      {"sp": "Léa", "fr": "Mais Papi, c'est une bonne [nouvelle|nouvelle-n] : ça se soigne !", "en": "But Grandpa, that's good news: it can be treated!"},
+      {"sp": "Jacques", "fr": "Bah ! {Je peux très bien [me passer de|se-passer-de] lire|sp-passer} !", "en": "Bah! I can perfectly well do without reading!"},
+      {"sp": "Louise", "fr": "Toi ? {Tu ne peux pas [te passer de|se-passer-de] ton journal|sp-passer} une seule journée !", "en": "You? You can't do without your paper for a single day!"},
+      {"sp": "Jacques", "fr": "{Je ne [me fais pas à|se-faire-a] l'idée|sp-paires}, c'est tout. D'ailleurs, {je me trouve très bien comme ça|sp-paires}.", "en": "I just can't get used to the idea, that's all. Besides, I feel fine as I am."},
+      {"sp": "Louise", "fr": "Anne, {je le plains|sp-paires}, mais quel têtu ! {Il ne se plaint jamais|sp-paires}, {il ne se soucie jamais de sa santé|sp-seul}…", "en": "Anne, I feel sorry for him, but he's so stubborn! He never complains, he never worries about his health…"},
+      {"sp": "Anne", "fr": "Jacques, c'est l'affaire d'un quart d'heure, et tu rentres chez toi le jour même. Après, tu verras comme à vingt ans. {Tu te rends compte|sp-passer} ?", "en": "Jacques, it's a quarter of an hour's job, and you go home the same day. Afterwards, you'll see the way you did at twenty. Can you imagine?"},
+      {"sp": "Jacques", "fr": "Comme à vingt ans… Je pourrai de nouveau te lire le journal, Louise. Bon… d'accord.", "en": "The way I did at twenty… I'll be able to read you the paper again, Louise. All right, then."},
+      {"sp": "Paul", "fr": "{Je ne m'attendais pas à [ce|ce] [que|que] tu dises oui si vite|sp-attendre}, Papa !", "en": "I didn't expect you to say yes so quickly, Dad!"},
+      {"sp": "", "fr": "À Paris, Lou {s'empare de la tablette|sp-seul}.", "en": "In Paris, Lou grabs the tablet."},
+      {"sp": "Lou", "fr": "Papi, tu vas avoir des yeux [neufs|neuf-adj] ?", "en": "Grandpa, are you going to get new eyes?"},
+      {"sp": "Paul", "fr": "Lou, {tiens-toi tranquille|sp-paires} !", "en": "Lou, behave yourself!"},
+      {"sp": "", "fr": "À Marseille, Louise {se met à rire|sp-passer}.", "en": "In Marseille, Louise starts laughing."},
+      {"sp": "", "fr": "« Des yeux [neufs|neuf-adj] ! » {s'écrie Hugo|sp-seul}. Puis il {se rend compte|sp-passer} d'une chose : en avril, son grand-père verra parfaitement les deux rayures de la voiture qu'il lui a donnée.", "en": "'New eyes!' Hugo exclaims. Then he realises something: in April, his grandfather will see perfectly well the two scratches on the car he gave him."},
+      {"sp": "", "fr": "Léa {s'aperçoit que son frère est devenu tout pâle|sp-savoir}.", "en": "Léa notices that her brother has gone quite pale."},
+      {"sp": "Léa", "fr": "Hugo ? Ça va ?", "en": "Hugo? Are you all right?"},
+      {"sp": "Hugo", "fr": "Moi ? {Je me trouve très bien|sp-paires} ! Très, très bien.", "en": "Me? I feel fine! Really, really fine."}
+    ]
+  },
+  "quiz": [
+    {"case": "sp-savoir", "type": "mc", "q": "___ un pigeon dans le jardin.", "en": "I caught sight of a pigeon in the garden.", "options": ["J'ai aperçu", "Je me suis aperçu", "Je me suis douté"], "answer": "J'ai aperçu"},
+    {"case": "sp-savoir", "type": "mc", "q": "Je me doutais qu'il ___ mal.", "en": "I suspected he couldn't see well.", "options": ["voyait", "voie", "voir"], "answer": "voyait"},
+    {"case": "sp-attendre", "type": "mc", "q": "Une opération ? ___ pas à ça !", "en": "An operation? I didn't expect that!", "options": ["Je ne m'attendais", "Je n'attendais", "Je ne me doutais"], "answer": "Je ne m'attendais"},
+    {"case": "sp-attendre", "type": "mc", "q": "Je ne m'attendais pas à [ce|ce] [que|que] tu ___ oui si vite.", "en": "I didn't expect you to say yes so quickly.", "options": ["dises", "dis", "diras"], "answer": "dises"},
+    {"case": "sp-passer", "type": "mc", "q": "Tu ne peux pas ___ ton journal une seule journée !", "en": "You can't do without your paper for a single day!", "options": ["te passer de", "passer de", "te mettre à"], "answer": "te passer de"},
+    {"case": "sp-passer", "type": "mc", "q": "Elle s'est ___ qu'elle avait tort.", "en": "She realised she was wrong.", "options": ["rendu compte", "rendue compte", "rendus compte"], "answer": "rendu compte"},
+    {"case": "sp-seul", "type": "mc", "q": "À Paris, Lou ___ de la tablette.", "en": "In Paris, Lou grabs the tablet.", "options": ["s'empare", "empare", "s'écrie"], "answer": "s'empare"},
+    {"case": "sp-seul", "type": "mc", "q": "Papi ne ___ jamais de sa santé.", "en": "Grandpa never worries about his health.", "options": ["se soucie", "soucie", "se doute"], "answer": "se soucie"},
+    {"case": "sp-paires", "type": "mc", "q": "Je ___ : il ne se plaint jamais.", "en": "I feel sorry for him: he never complains.", "options": ["le plains", "me plains", "le plaint"], "answer": "le plains"},
+    {"case": "sp-paires", "type": "mc", "q": "Je ne ___ à l'idée.", "en": "I can't get used to the idea.", "options": ["me fais pas", "fais pas", "me trouve pas"], "answer": "me fais pas"}
+  ]
+}

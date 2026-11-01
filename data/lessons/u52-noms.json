@@ -1,0 +1,143 @@
+{
+  "id": "u52-noms",
+  "type": "vocab",
+  "unit": 52,
+  "title": "À vos souhaits !",
+  "en": "Common nouns (8)",
+  "intro": "25 common nouns: crêpes at the café (**le comptoir, le matériel, le carreau, la poignée, la poudre, la demi-heure, le bal, la revanche**), feelings (**la rage, le désespoir, le dépit, la certitude**), the advert (**le langage, la cabine, le bloc, le tabac, l'évidence, l'accès**), and a few useful words (**la disposition, le régime, le prétexte, la liaison, la misère, l'esclave, la pente**).",
+  "words": [
+    {"id": "comptoir", "fr": "comptoir", "pos": "noun", "g": "m", "ipa": "kɔ̃.twaʁ", "en": "counter (in a shop, café or bar)", "def": "La longue table derrière laquelle on sert les clients, dans un café ou un magasin.", "def_en": "The long table behind which customers are served, in a café or a shop.", "forms": ["comptoirs"], "examples": [
+      {"fr": "Ce soir, Hugo est derrière le **comptoir** du café.", "en": "Tonight, Hugo is behind the café's counter."},
+      {"fr": "On boit un café au **comptoir** ?", "en": "Shall we have a coffee at the counter?"},
+      {"fr": "Madame Fournier pose les croissants sur le **comptoir**.", "en": "Madame Fournier puts the croissants down on the counter."}]},
+    {"id": "materiel", "fr": "matériel", "pos": "noun", "g": "m", "ipa": "ma.te.ʁjɛl", "en": "equipment, gear; materials", "def": "Les objets et les outils dont on a besoin pour faire un travail ou un sport.", "def_en": "The objects and tools you need to do a job or a sport.", "forms": ["matériels"], "examples": [
+      {"fr": "Hugo arrive avec tout son **matériel** : une louche et deux poêles.", "en": "Hugo arrives with all his gear: a ladle and two frying pans."},
+      {"fr": "Le **matériel** de ski coûte cher.", "en": "Ski equipment is expensive."},
+      {"fr": "Sophie range son **matériel** de peinture.", "en": "Sophie puts away her painting things."}]},
+    {"id": "carreau", "fr": "carreau", "pos": "noun", "g": "m", "ipa": "ka.ʁo", "en": "(window) pane; tile; (à carreaux) checked; (cards) diamonds", "def": "Le verre d'une fenêtre ; un petit morceau [plat|plat-adj] qui sert à couvrir un mur ou un sol.", "def_en": "The glass of a window; a small flat piece used to cover a wall or a floor.", "note": "*À carreaux* = checked: *une chemise à carreaux*, a checked shirt. In cards, *carreau* = diamonds.", "forms": ["carreaux"], "examples": [
+      {"fr": "Hugo met le tablier à **carreaux** du patron.", "en": "Hugo puts on the owner's checked apron."},
+      {"fr": "Le ballon a cassé un **carreau**.", "en": "The ball has broken a window pane."},
+      {"fr": "Il y a des **carreaux** bleus dans la salle de bains.", "en": "There are blue tiles in the bathroom."}]},
+    {"id": "poignee", "fr": "poignée", "pos": "noun", "g": "f", "ipa": "pwa.ɲe", "en": "handle; handful; (poignée de main) handshake", "def": "La partie d'un objet qu'on tient dans la main ; ce qu'on peut tenir dans une main fermée.", "def_en": "The part of an object you hold in your hand; as much as you can hold in a closed hand.", "note": "*Une poignée de main* = a handshake. Not to be confused with *le poignet*, the wrist.", "forms": ["poignées"], "examples": [
+      {"fr": "Hugo se brûle les doigts sur la **poignée** de la poêle.", "en": "Hugo burns his fingers on the handle of the frying pan."},
+      {"fr": "Lou prend une **poignée** de bonbons.", "en": "Lou takes a handful of sweets."},
+      {"fr": "Le directeur lui donne une **poignée** de main.", "en": "The director shakes his hand."}]},
+    {"id": "poudre", "fr": "poudre", "pos": "noun", "g": "f", "ipa": "pudʁ", "en": "powder; (sucre en poudre) caster sugar", "def": "Une matière faite de très petits grains, comme la farine.", "def_en": "A substance made of very small grains, like flour.", "note": "*Jeter de la poudre aux yeux* = to try to dazzle people, to show off.", "forms": ["poudres"], "examples": [
+      {"fr": "Pour Carla, du sucre en **poudre** et du citron.", "en": "For Carla, caster sugar and lemon."},
+      {"fr": "Lou met du chocolat en **poudre** dans son lait.", "en": "Lou puts chocolate powder in her milk."},
+      {"fr": "Inès met un peu de **poudre** sur son nez.", "en": "Inès puts a little powder on her nose."}]},
+    {"id": "demi-heure", "fr": "demi-heure", "pos": "noun", "g": "f", "ipa": "də.mi.œʁ", "en": "half an hour", "def": "Une durée de trente minutes.", "def_en": "A length of time of thirty minutes.", "note": "*Une heure et demie* = an hour and a half; *toutes les demi-heures* = every half hour.", "forms": ["demi-heures"], "examples": [
+      {"fr": "Laisser reposer la pâte une **demi-heure**.", "en": "Leave the batter to rest for half an hour."},
+      {"fr": "Le train part dans une **demi-heure**.", "en": "The train leaves in half an hour."},
+      {"fr": "Je t'attends depuis une **demi-heure** !", "en": "I've been waiting for you for half an hour!"}]},
+    {"id": "bal", "fr": "bal", "pos": "noun", "g": "m", "ipa": "bal", "en": "ball, dance; (ouvrir le bal) to start things off", "def": "Une fête où l'on danse.", "def_en": "A party where people dance.", "note": "*Ouvrir le bal* = to open the ball, to be the first to start; *un bal masqué* = a masked ball.", "forms": ["bals"], "examples": [
+      {"fr": "J'ouvre le **bal** tout de suite !", "en": "I'm kicking things off right now!"},
+      {"fr": "Le treize juillet, on va au **bal** des pompiers.", "en": "On 13 July, we go to the firemen's ball."},
+      {"fr": "Cendrillon perd sa chaussure au **bal**.", "en": "Cinderella loses her shoe at the ball."}]},
+    {"id": "revanche", "fr": "revanche", "pos": "noun", "g": "f", "ipa": "ʁə.vɑ̃ʃ", "en": "revenge (in a game), rematch; (prendre sa revanche) to get your own back", "def": "Une nouvelle [partie|partie] qu'on joue pour gagner après avoir perdu ; une victoire après un échec.", "def_en": "A new game you play to win after losing; a victory after a failure.", "note": "*En revanche* = on the other hand. Revenge for a wrong is *la vengeance*.", "forms": ["revanches"], "examples": [
+      {"fr": "La deuxième crêpe, ce sera ma **revanche** !", "en": "The second crêpe will be my revenge!"},
+      {"fr": "Tu as gagné ? Je veux ma **revanche** !", "en": "You won? I want a rematch!"},
+      {"fr": "Au Monopoly, Hugo prend enfin sa **revanche**.", "en": "At Monopoly, Hugo finally gets his own back."}]},
+    {"id": "rage", "fr": "rage", "pos": "noun", "g": "f", "ipa": "ʁaʒ", "en": "rage, fury; rabies; (faire rage) to rage", "def": "Une très grande colère ; une maladie grave qu'un animal peut transmettre en mordant.", "def_en": "Extreme anger; a serious disease that an animal can pass on by biting.", "note": "*Fou de rage* = beside yourself with rage; *faire rage* = to rage (a storm, a fire).", "examples": [
+      {"fr": "La crêpe tombe sur le comptoir : Hugo est fou de **rage**.", "en": "The crêpe lands on the counter: Hugo is livid."},
+      {"fr": "Dehors, la tempête fait **rage**.", "en": "Outside, the storm is raging."},
+      {"fr": "Ce renard a peut-être la **rage**.", "en": "That fox may have rabies."}]},
+    {"id": "desespoir", "fr": "désespoir", "pos": "noun", "g": "m", "ipa": "de.zɛs.pwaʁ", "en": "despair; (en désespoir de cause) as a last resort", "def": "Une tristesse profonde, quand on pense que tout est perdu.", "def_en": "A deep sadness, when you think all is lost.", "examples": [
+      {"fr": "Je suis au **désespoir** !", "en": "I'm in despair!"},
+      {"fr": "En **désespoir** de cause, il appelle sa grand-mère.", "en": "As a last resort, he calls his grandmother."},
+      {"fr": "Avec son verlan, Enzo fait le **désespoir** de sa grand-mère.", "en": "With his verlan, Enzo drives his grandmother to despair."}]},
+    {"id": "depit", "fr": "dépit", "pos": "noun", "g": "m", "ipa": "de.pi", "en": "vexation, pique; (en dépit de) in spite of, despite", "def": "La colère ou la tristesse qu'on ressent quand on est déçu.", "def_en": "The anger or sadness you feel when you're disappointed.", "note": "*En dépit de* = despite (a little formal: *malgré* is more common).", "examples": [
+      {"fr": "En **dépit** de l'éternuement, tu es superbe.", "en": "Despite the sneeze, you look stunning."},
+      {"fr": "Par **dépit**, Hugo quitte la partie de Monopoly.", "en": "In a fit of pique, Hugo walks out of the Monopoly game."},
+      {"fr": "Il a pleuré de **dépit**.", "en": "He cried with frustration."}]},
+    {"id": "certitude", "fr": "certitude", "pos": "noun", "g": "f", "ipa": "sɛʁ.ti.tyd", "en": "certainty", "def": "Le sentiment d'être tout à fait sûr ; une chose qu'on sait sans aucun doute.", "def_en": "The feeling of being completely sure; something you know without any doubt.", "forms": ["certitudes"], "examples": [
+      {"fr": "Moi, j'ai une **certitude** : mon examen s'est très bien [passé|passer].", "en": "I'm sure of one thing: my exam went really well."},
+      {"fr": "Ce n'est pas une **certitude**, c'est un espoir.", "en": "It isn't a certainty, it's a hope."},
+      {"fr": "Je le sais avec **certitude**.", "en": "I know it for certain."}]},
+    {"id": "langage", "fr": "langage", "pos": "noun", "g": "m", "ipa": "lɑ̃.ɡaʒ", "en": "language, way of speaking; (le langage familier) informal speech", "def": "La manière de parler ou d'écrire, les mots qu'on choisit.", "def_en": "The way you speak or write, the words you choose.", "note": "A particular language, like French or Spanish, is *une langue*; *le langage* is a way of speaking.", "forms": ["langages"], "examples": [
+      {"fr": "Dans le **langage** de la publicité, un éternuement, c'est la vérité.", "en": "In the language of advertising, a sneeze is the truth."},
+      {"fr": "Surveille ton **langage** !", "en": "Watch your language!"},
+      {"fr": "Enzo parle un **langage** très familier.", "en": "Enzo's way of speaking is very informal."}]},
+    {"id": "cabine", "fr": "cabine", "pos": "noun", "g": "f", "ipa": "ka.bin", "en": "booth, cubicle; cabin", "def": "Une toute petite pièce fermée ; une chambre sur un bateau.", "def_en": "A tiny closed room; a bedroom on a boat.", "note": "*Une cabine d'essayage* = a fitting room; *une cabine téléphonique* = a phone box.", "forms": ["cabines"], "examples": [
+      {"fr": "Elle a enregistré la petite voix dans une **cabine**, à Grasse.", "en": "She recorded the little voice in a booth, in Grasse."},
+      {"fr": "Dans la **cabine**, Inès essaie une robe.", "en": "In the cubicle, Inès tries on a dress."},
+      {"fr": "Sur le bateau, notre **cabine** est minuscule.", "en": "On the boat, our cabin is tiny."}]},
+    {"id": "bloc", "fr": "bloc", "pos": "noun", "g": "m", "ipa": "blɔk", "en": "block; pad (of paper); (en bloc) outright, wholesale", "def": "Un gros morceau de pierre ou de glace ; des feuilles de papier attachées ensemble.", "def_en": "A big piece of stone or ice; sheets of paper fastened together.", "note": "*Un bloc-notes* = a notepad; *à bloc* (informal) = flat out.", "forms": ["blocs"], "examples": [
+      {"fr": "J'ai refusé en **bloc** les huit autres essais !", "en": "I turned down the other eight takes outright!"},
+      {"fr": "Un **bloc** de glace tombe du toit.", "en": "A block of ice falls off the roof."},
+      {"fr": "Tom écrit ses paroles sur un petit **bloc**.", "en": "Tom writes his lyrics on a little notepad."}]},
+    {"id": "tabac", "fr": "tabac", "pos": "noun", "g": "m", "ipa": "ta.ba", "en": "tobacco; tobacconist's; (faire un tabac) to be a huge hit", "def": "La plante dont on fait les cigarettes ; le magasin où l'on vend des cigarettes, des timbres et des journaux.", "def_en": "The plant cigarettes are made from; the shop that sells cigarettes, stamps and newspapers.", "forms": ["tabacs"], "examples": [
+      {"fr": "Ça [va|aller] faire un **tabac** !", "en": "It's going to be a smash hit!"},
+      {"fr": "Le patron a arrêté le **tabac**.", "en": "The owner has given up smoking."},
+      {"fr": "J'achète des timbres au **tabac**.", "en": "I buy stamps at the tobacconist's."}]},
+    {"id": "evidence", "fr": "évidence", "pos": "noun", "g": "f", "ipa": "e.vi.dɑ̃s", "en": "obviousness, an obvious fact; (de toute évidence) obviously; (mettre en évidence) to highlight", "def": "Une chose claire, que tout le monde voit ou comprend tout de suite.", "def_en": "Something clear, that everyone sees or understands at once.", "note": "A false friend: *evidence* (proof) is *une preuve*.", "forms": ["évidences"], "examples": [
+      {"fr": "De toute **évidence**, Madame Rey adore.", "en": "Madame Rey obviously loves it."},
+      {"fr": "C'est une **évidence** !", "en": "It's obvious!"},
+      {"fr": "Elle met les mots importants en **évidence**.", "en": "She highlights the important words."}]},
+    {"id": "acces", "fr": "accès", "pos": "noun", "g": "m", "ipa": "ak.sɛ", "en": "access; (un accès de) a fit (of laughter, anger)", "def": "Le moyen ou le droit d'entrer dans un lieu ; un court moment où une émotion devient très forte.", "def_en": "The means or the right to get into a place; a short moment when a feeling becomes very strong.", "note": "*Avoir accès à* = to have access to; *un accès de colère* = a fit of anger.", "examples": [
+      {"fr": "Autour de la table, c'est un **accès** de fou rire.", "en": "Round the table, everyone gets the giggles."},
+      {"fr": "L'**accès** au toit est interdit.", "en": "Access to the roof is forbidden."},
+      {"fr": "Tu as **accès** à internet ?", "en": "Have you got internet access?"}]},
+    {"id": "disposition", "fr": "disposition", "pos": "noun", "g": "f", "ipa": "dis.po.zi.sjɔ̃", "en": "layout, arrangement; (des dispositions) a gift, an aptitude; (prendre ses dispositions) to make arrangements", "def": "La manière dont les choses sont placées ; (au pluriel) un talent naturel pour quelque chose.", "def_en": "The way things are arranged; (in the plural) a natural talent for something.", "note": "*À votre disposition* = at your disposal.", "forms": ["dispositions"], "examples": [
+      {"fr": "Tu as des **dispositions** pour la crêpe, mon gars !", "en": "You've got a gift for crêpes, lad!"},
+      {"fr": "Sophie change la **disposition** des meubles.", "en": "Sophie rearranges the furniture."},
+      {"fr": "Nous avons pris nos **dispositions**.", "en": "We've made arrangements."}]},
+    {"id": "regime", "fr": "régime", "pos": "noun", "g": "m", "ipa": "ʁe.ʒim", "en": "diet; regime, system; (être au régime) to be on a diet", "def": "Une façon de manger, pour sa santé ou pour perdre du poids ; le système politique d'un pays.", "def_en": "A way of eating, for your health or to lose weight; a country's political system.", "note": "*Un régime de bananes* = a bunch of bananas.", "forms": ["régimes"], "examples": [
+      {"fr": "Ce soir, Inès oublie son **régime**.", "en": "Tonight, Inès forgets her diet."},
+      {"fr": "Mon père est au **régime** : pas de sucre !", "en": "My dad's on a diet: no sugar!"},
+      {"fr": "Ce pays vient de changer de **régime**.", "en": "This country has just changed its regime."}]},
+    {"id": "pretexte", "fr": "prétexte", "pos": "noun", "g": "m", "ipa": "pʁe.tɛkst", "en": "pretext, excuse; (sous aucun prétexte) on no account", "def": "Une fausse raison qu'on donne pour cacher la vraie.", "def_en": "A false reason you give to hide the real one.", "forms": ["prétextes"], "examples": [
+      {"fr": "Vous, les Français, vous avez deux **prétextes** !", "en": "You French have two excuses!"},
+      {"fr": "La Chandeleur ? Un **prétexte** pour manger des crêpes !", "en": "Candlemas? An excuse to eat crêpes!"},
+      {"fr": "Ne touche à ce gâteau sous aucun **prétexte** !", "en": "Don't touch this cake on any account!"}]},
+    {"id": "liaison", "fr": "liaison", "pos": "noun", "g": "f", "ipa": "ljɛ.zɔ̃", "en": "link, connection; (love) affair; (in pronunciation) liaison", "def": "Un service de transport entre deux lieux ; une relation amoureuse, souvent secrète ; une consonne qu'on prononce entre deux mots, comme dans « les amis ».", "def_en": "A transport service between two places; a love affair, often a secret one; a consonant you pronounce between two words, as in 'les amis'.", "forms": ["liaisons"], "examples": [
+      {"fr": "D'abord notre **liaison** secrète dans le magazine…", "en": "First our secret affair in the magazine…"},
+      {"fr": "Dans « les amis », on fait la **liaison**.", "en": "In 'les amis', you make the liaison."},
+      {"fr": "Il y a une **liaison** directe entre Lyon et Marseille.", "en": "There's a direct link between Lyon and Marseille."}]},
+    {"id": "misere", "fr": "misère", "pos": "noun", "g": "f", "ipa": "mi.zɛʁ", "en": "poverty, misery; (une misère) a pittance", "def": "Une pauvreté extrême ; très peu d'argent.", "def_en": "Extreme poverty; very little money.", "note": "*Faire des misères à quelqu'un* = to give someone a hard time.", "forms": ["misères"], "examples": [
+      {"fr": "Une crêpe, ça coûte une **misère**.", "en": "A crêpe costs next to nothing."},
+      {"fr": "Ils vivent dans la **misère**.", "en": "They live in poverty."},
+      {"fr": "Il gagne une **misère**.", "en": "He earns a pittance."}]},
+    {"id": "esclave", "fr": "esclave", "pos": "noun", "g": "m", "both": true, "ipa": "ɛs.klav", "display": "l'esclave", "en": "slave; (esclave de) a slave to", "def": "Une personne qui appartient à une autre et qui travaille sans être payée ; une personne qui ne peut pas vivre sans quelque chose.", "def_en": "A person who belongs to another and works without being paid; a person who can't live without something.", "forms": ["esclaves"], "accept": ["une esclave"], "examples": [
+      {"fr": "À dix heures, Hugo est l'**esclave** de sa poêle.", "en": "By ten o'clock, Hugo is a slave to his frying pan."},
+      {"fr": "Je ne suis pas ton **esclave** !", "en": "I'm not your slave!"},
+      {"fr": "Il est **esclave** de son téléphone.", "en": "He's a slave to his phone."}]},
+    {"id": "pente", "fr": "pente", "pos": "noun", "g": "f", "ipa": "pɑ̃t", "en": "slope; (une mauvaise pente) a slippery slope; (remonter la pente) to get back on your feet", "def": "Un terrain qui monte ou qui descend.", "def_en": "Ground that goes up or down.", "note": "*En pente* = sloping.", "forms": ["pentes"], "examples": [
+      {"fr": "Tu es sur une mauvaise **pente**, mon chéri !", "en": "You're on a slippery slope, darling!"},
+      {"fr": "Lou descend la **pente** en luge.", "en": "Lou goes down the slope on her sledge."},
+      {"fr": "Après son accident, il a remonté la **pente**.", "en": "After his accident, he got back on his feet."}]}
+  ],
+  "story": {
+    "title": "À vos souhaits !",
+    "en": "Wednesday 2 February: Candlemas at the café downstairs, and the final cut of Inès's advert.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi deux février, c'est la Chandeleur. Au café d'en bas, le patron laisse son comptoir à Hugo pour la soirée.", "en": "On Wednesday 2 February, it's Candlemas. At the café downstairs, the owner hands his counter over to Hugo for the evening."},
+      {"sp": "", "fr": "Hugo arrive après le travail avec tout son matériel : deux poêles, une louche et la recette de Mamie, de sa belle écriture penchée.", "en": "Hugo arrives after work with all his gear: two frying pans, a ladle and Mamie's recipe, in her beautiful slanting handwriting."},
+      {"sp": "", "fr": "Il met le tablier à carreaux du patron. Sur la recette, Mamie a écrit : « Laisser reposer la pâte une demi-heure. »", "en": "He puts on the owner's checked apron. On the recipe, Mamie has written: 'Leave the batter to rest for half an hour.'"},
+      {"sp": "Hugo", "fr": "Une demi-heure ? Pas question, tout le monde a faim ! J'ouvre le bal tout de suite.", "en": "Half an hour? No way, everyone's hungry! I'm kicking things off right now."},
+      {"sp": "", "fr": "Comme le veut la tradition, il fait sauter la première crêpe avec un euro dans la main gauche. Elle tombe à côté, sur le comptoir. Hugo est fou de rage.", "en": "As tradition has it, he tosses the first crêpe with a euro in his left hand. It misses the pan and lands on the counter. Hugo is livid."},
+      {"sp": "Hugo", "fr": "La deuxième, ce sera ma revanche !", "en": "The second one will be my revenge!"},
+      {"sp": "", "fr": "Elle est parfaite, mais Hugo se brûle les doigts sur la poignée de la poêle.", "en": "It's perfect, but Hugo burns his fingers on the handle of the frying pan."},
+      {"sp": "Le patron", "fr": "Tu as des dispositions pour la crêpe, mon gars ! Ce soir, c'est la maison qui offre : une crêpe, ça coûte une misère.", "en": "You've got a gift for crêpes, lad! Tonight they're on the house: a crêpe costs next to nothing."},
+      {"sp": "", "fr": "Pour Carla, pas de noisettes : du sucre en poudre et du citron. Inès, elle, oublie son régime.", "en": "For Carla, no hazelnuts: caster sugar and lemon. Inès, for her part, forgets her diet."},
+      {"sp": "Tom", "fr": "En Angleterre, on mange des crêpes à Mardi gras. Vous, les Français, vous avez deux prétextes !", "en": "In England, we eat pancakes on Shrove Tuesday. You French have two excuses!"},
+      {"sp": "Carla", "fr": "Moi, j'ai une certitude : mon examen d'anatomie, hier, s'est très bien [passé|passer]. Merci, mon squelette !", "en": "I'm sure of one thing: my anatomy exam yesterday went really well. Thank you, my skeleton!"},
+      {"sp": "", "fr": "Entre deux crêpes, Inès montre sur son téléphone la version définitive de sa pub : trente secondes de neige, trois notes de piano… et, à la toute fin, son éternuement du neuvième essai.", "en": "In between crêpes, Inès shows the final cut of her advert on her phone: thirty seconds of snow, three piano notes… and, at the very end, her sneeze from the ninth take."},
+      {"sp": "", "fr": "Une petite voix murmure : « À vos souhaits. » Autour de la table, c'est un accès de fou rire général.", "en": "A small voice whispers: 'Bless you.' Round the table, everyone gets the giggles."},
+      {"sp": "Inès", "fr": "Je suis au désespoir ! Et Madame Rey, elle, est ravie. Écoutez son message.", "en": "I'm in despair! And Madame Rey is delighted. Listen to her message."},
+      {"sp": "Madame Rey", "fr": "Dans le langage de la publicité, un éternuement, c'est la vérité. J'ai refusé en bloc les huit autres essais !", "en": "In the language of advertising, a sneeze is the truth. I turned down the other eight takes outright!"},
+      {"sp": "Madame Rey", "fr": "Et la petite voix, c'est la mienne : je l'ai enregistrée dans une cabine, à Grasse.", "en": "And the little voice is mine: I recorded it in a booth, in Grasse."},
+      {"sp": "Tom", "fr": "Ça [va|aller] faire un tabac !", "en": "It's going to be a smash hit!"},
+      {"sp": "Le patron", "fr": "Ne me parle pas de tabac : ça fait un mois que j'ai arrêté !", "en": "Don't talk to me about tobacco: I gave up a month ago!"},
+      {"sp": "Sophie", "fr": "De toute évidence, Madame Rey adore. Et en dépit de l'éternuement, tu es superbe.", "en": "Madame Rey obviously loves it. And despite the sneeze, you look stunning."},
+      {"sp": "Inès", "fr": "La campagne commence le lundi sept mars. Mon éternuement, tous les soirs avant le journal…", "en": "The campaign starts on Monday 7 March. My sneeze, every evening before the news…"},
+      {"sp": "Hugo", "fr": "D'abord notre liaison secrète dans le magazine, et maintenant ton éternuement à la télé : quelle star !", "en": "First our secret affair in the magazine, and now your sneeze on TV: what a star!"},
+      {"sp": "Carla", "fr": "Votre liaison secrète ? Tu portais ses sacs !", "en": "Your secret affair? You were carrying her bags!"},
+      {"sp": "Léa", "fr": "Et moi, pendant mon stage, je donne ma première vraie leçon le jeudi dix février. Douze élèves, huit pays : mon premier public !", "en": "And on my placement, I'm giving my first real lesson on Thursday 10 February. Twelve pupils, eight countries: my first audience!"},
+      {"sp": "", "fr": "À dix heures, Hugo est devenu l'esclave de sa poêle : quarante crêpes, et pas une minute pour s'asseoir.", "en": "By ten o'clock, Hugo has become a slave to his frying pan: forty crêpes, and not a minute to sit down."},
+      {"sp": "Carla", "fr": "Et tu en as mangé douze. Tu es sur une mauvaise pente, mon chéri !", "en": "And you've eaten twelve of them. You're on a slippery slope, darling!"},
+      {"sp": "", "fr": "Hugo fait sauter la dernière, un euro dans la main gauche : elle atterrit dans la poêle. Une bonne année… et une treizième crêpe !", "en": "Hugo tosses the last one, a euro in his left hand: it lands in the pan. A good year ahead… and a thirteenth crêpe!"}
+    ]
+  }
+}

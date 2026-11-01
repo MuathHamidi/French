@@ -1,0 +1,107 @@
+{
+  "id": "u52-s-en-aller",
+  "type": "grammar",
+  "unit": 52,
+  "title": "Je n'en reviens pas !",
+  "en": "Verbs with en and y built in: s'en aller, en vouloir à, s'en prendre à, s'en tirer, s'y prendre, n'y être pour rien",
+  "intro": "Some French verbs carry an *en* or a *y* that stands for nothing in particular: it is part of the verb, and without it the meaning changes. **S'en aller** means to leave (*je m'en vais, va-t'en !*); **en vouloir à** means to hold it against someone (*tu m'en veux ?*), and **s'en vouloir** to blame yourself; **s'en prendre à** is to take it out on someone, **s'en tirer** to cope, and **ne pas en revenir** to be amazed (*je n'en reviens pas !*). With *y*: **s'y prendre** (to go about it), **s'y connaître** (to know a lot about something), **s'y faire** (to get used to it) and **n'y être pour rien** (to have nothing to do with it). *En* and *y* take the usual pronoun place, before the verb and before the auxiliary: *je ne t'en veux pas, il s'en est allé*. These verbs are everyday French, spoken and written.",
+  "cases": [
+    {"id": "ea-aller", "label": "s'en aller: je m'en vais, va-t'en", "rule": "*S'en aller* (to leave, to go away) keeps *en* in every tense: *je m'en vais, tu t'en vas, il s'en ira, elle s'en allait*. In the passé composé, *en* comes before the auxiliary: *il s'en est allé* (everyday speech often says *il est parti*). The imperative is *va-t'en, allons-nous-en, allez-vous-en*; in the negative, *ne t'en va pas*."},
+    {"id": "ea-vouloir", "label": "en vouloir à, s'en vouloir, s'en prendre à", "rule": "*En vouloir à quelqu'un (de quelque chose)* means to hold it against someone, to be angry with them: *Je ne t'en veux pas. Elle lui en veut de son retard.* *S'en vouloir* is to blame yourself: *Je m'en veux.* *S'en prendre à* is to take it out on someone, to blame them: *Ne t'en prends pas à Lou.* Don't confuse them with plain *vouloir*: *je veux* is *I want*, and *j'en veux*, with no person, is *I want some* (Unit 18)."},
+    {"id": "ea-tirer", "label": "s'en tirer, ne pas en revenir", "rule": "*S'en tirer* means to manage, to cope, or to get off (lightly): *Tu t'en tires très bien. Il s'en est tiré avec une amende.* *Ne pas en revenir* means not to get over it, to be amazed: *Je n'en reviens pas !* Remember *s'en sortir* (to get through it) and *en avoir marre* (to be fed up), from Unit 31, *j'en peux plus* (Unit 34) and *ne t'en fais pas* (don't worry, Unit 44)."},
+    {"id": "ea-y", "label": "s'y prendre, s'y connaître, s'y faire", "rule": "*S'y prendre* (bien, mal) is to go about it: *Tu t'y prends mal.* *S'y connaître (en)* is to know a lot (about): *Je ne m'y connais pas en flamenco.* *S'y faire* is to get used to it: *Au début, c'est dur, mais on s'y fait.* Here *y* doesn't mean *there*: it is part of the verb."},
+    {"id": "ea-rien", "label": "n'y être pour rien, c'en est trop", "rule": "*N'y être pour rien* means to have nothing to do with it: *Je n'y suis pour rien !* (it's not my fault). Its opposite is *y être pour quelque chose*: *Mon squelette y est pour quelque chose !* *C'en est trop !* means that's the last straw, enough is enough."}
+  ],
+  "sections": [
+    {"title": "1. s'en aller: je m'en vais, va-t'en", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je m'en vais.", "I'm off."],
+      ["Il s'en est allé sans un mot.", "He went off without a word."],
+      ["Allons-nous-en !", "Let's get out of here!"]]},
+     "examples": [
+      {"fr": "{Ne t'en va pas|ea-aller}, Hugo !", "en": "Don't go, Hugo!"},
+      {"fr": "Allez, il est six heures : {on s'en va|ea-aller}, je dois rendre les clés à Madame Garnier.", "en": "Come on, it's six o'clock: let's go, I have to give the keys back to Madame Garnier."}],
+     "tip": "En stays in every tense and comes before the auxiliary: il s'en est allé. The imperative: va-t'en, allons-nous-en, allez-vous-en; the negative: ne t'en va pas."},
+    {"title": "2. en vouloir à, s'en vouloir, s'en prendre à", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je ne t'en veux pas.", "I don't hold it against you."],
+      ["Elle lui en veut de son retard.", "She's cross with him for being late."],
+      ["Ne t'en prends pas à elle !", "Don't take it out on her!"]]},
+     "examples": [
+      {"fr": "{Tu m'en veux|ea-vouloir}, ma puce ?", "en": "Are you cross with me, sweetie?"},
+      {"fr": "Non… Moi, {je m'en veux|ea-vouloir}. Pardon.", "en": "No… I'm cross with myself. Sorry."}],
+     "tip": "The person, as a pronoun, comes before en: je t'en veux, il lui en veut. S'en vouloir: to blame yourself. S'en prendre à: to take it out on someone."},
+    {"title": "3. s'en tirer, ne pas en revenir", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["On s'en tirera.", "We'll manage."],
+      ["Il s'en est tiré avec une amende.", "He got off with a fine."],
+      ["Je n'en reviens pas !", "I can't get over it!"]]},
+     "examples": [
+      {"fr": "{Je n'en reviens pas|ea-tirer} ! Je danse le flamenco !", "en": "I can't believe it! I'm dancing flamenco!"},
+      {"fr": "{Tu t'en tires très bien|ea-tirer}, pour une première leçon.", "en": "You're doing very well, for a first lesson."}],
+     "tip": "S'en tirer: to manage, to cope, or to get off lightly. Ne pas en revenir: to be amazed, always in the negative."},
+    {"title": "4. s'y prendre, s'y connaître, s'y faire", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il s'y prend bien avec les enfants.", "He's good with children."],
+      ["Elle s'y connaît en [danse|danse].", "She knows a lot about dance."],
+      ["Le froid ? On s'y fait.", "The cold? You get used to it."]]},
+     "examples": [
+      {"fr": "Non, non ! {Tu t'y prends mal|ea-y}.", "en": "No, no! You're going about it the wrong way."},
+      {"fr": "Mais tu verras, {on s'y fait|ea-y}.", "en": "But you'll see, you get used to it."}],
+     "tip": "Here y doesn't mean there: it is part of the verb. S'y prendre (bien, mal): to go about it; s'y connaître (en): to know a lot about; s'y faire: to get used to it."},
+    {"title": "5. n'y être pour rien, c'en est trop", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je n'y suis pour rien !", "It's nothing to do with me!"],
+      ["Le soleil y est pour quelque chose.", "The sun has something to do with it."],
+      ["C'en est trop !", "That's the last straw!"]]},
+     "examples": [
+      {"fr": "Dix-sept ! {Mon squelette y est pour quelque chose|ea-rien}, avoue !", "en": "Seventeen! My skeleton had something to do with it, admit it!"},
+      {"fr": "Oui, {je n'y suis pour rien|ea-rien} ! C'est les castagnettes !", "en": "Yes, it's not my fault! It's the castanets!"}],
+     "tip": "N'y être pour rien: to have nothing to do with it (it's not my fault). Y être pour quelque chose: to have something to do with it. C'en est trop: enough is enough."}
+  ],
+  "mistakes": [
+    {"wrong": "Je me vais.", "right": "Je m'en vais.", "why": "S'en aller keeps en in every form: je m'en vais, tu t'en vas, il s'en va."},
+    {"wrong": "Il s'est en allé.", "right": "Il s'en est allé.", "why": "En comes before the auxiliary, like the other pronouns."},
+    {"wrong": "Elle en veut à moi.", "right": "Elle m'en veut.", "why": "With en vouloir à, a person who is a pronoun comes before en: elle m'en veut, je t'en veux, il lui en veut."},
+    {"wrong": "Tu te prends mal.", "right": "Tu t'y prends mal.", "why": "To go about it is s'y prendre: it needs y."}
+  ],
+  "story": {
+    "title": "Je n'en reviens pas !",
+    "en": "Sunday 20 February: Carla gives Hugo his first flamenco lesson, with Lou on the castanets.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche vingt février, dans l'après-midi, Carla ouvre le centre de danse de Madame Garnier, qui lui a prêté les clés.", "en": "On the afternoon of Sunday 20 February, Carla opens up Madame Garnier's dance centre: Madame Garnier has lent her the keys."},
+      {"sp": "", "fr": "Aujourd'hui, pas de course : Hugo prend sa première leçon de flamenco. Léa est venue avec Lou, qu'elle garde toute la semaine.", "en": "No run today: Hugo is having his first flamenco lesson. Léa has come with Lou, who she's looking after for the week."},
+      {"sp": "", "fr": "Vendredi, Carla a reçu sa note d'anatomie : dix-sept sur vingt.", "en": "On Friday, Carla got her anatomy mark: seventeen out of twenty."},
+      {"sp": "Hugo", "fr": "Dix-sept ! {Mon squelette y est pour quelque chose|ea-rien}, avoue !", "en": "Seventeen! My skeleton had something to do with it, admit it!"},
+      {"sp": "Carla", "fr": "Ton squelette s'est endormi au milieu de mes révisions ! Bon, au travail. En flamenco, tout [part|partir] des hanches.", "en": "Your skeleton fell asleep halfway through my revision! Right, let's get to work. In flamenco, everything starts from the hips."},
+      {"sp": "", "fr": "Carla danse quelques secondes : ses talons frappent le sol, ses mains tournent au-dessus de sa tête. Hugo, lui, tape du pied trop tôt, puis trop tard.", "en": "Carla dances for a few seconds: her heels strike the floor, her hands turn above her head. Hugo stamps his foot too early, then too late."},
+      {"sp": "Carla", "fr": "Non, non ! {Tu t'y prends mal|ea-y}. [Écoute|ecouter] d'abord le rythme !", "en": "No, no! You're going about it the wrong way. Listen to the rhythm first!"},
+      {"sp": "", "fr": "Pendant ce temps, Lou a trouvé les castagnettes de Carla dans son sac. Elle en joue sans s'arrêter.", "en": "Meanwhile, Lou has found Carla's castanets in her bag. She plays them non-stop."},
+      {"sp": "Hugo", "fr": "Lou ! Avec ton bruit, je n'entends plus rien !", "en": "Lou! With all your noise, I can't hear a thing!"},
+      {"sp": "Carla", "fr": "{Ne t'en prends pas à Lou|ea-vouloir} : {elle n'y est pour rien|ea-rien}.", "en": "Don't take it out on Lou: it's not her fault."},
+      {"sp": "Lou", "fr": "Oui, {je n'y suis pour rien|ea-rien} ! C'est les castagnettes !", "en": "Yes, it's not my fault! It's the castanets!"},
+      {"sp": "", "fr": "Hugo boude dans un coin, puis il prend son manteau.", "en": "Hugo sulks in a corner, then picks up his coat."},
+      {"sp": "Hugo", "fr": "De toute façon, {je ne m'y connais pas en flamenco|ea-y}. {C'en est trop|ea-rien} : {je m'en vais|ea-aller} !", "en": "Anyway, I don't know the first thing about flamenco. That's the last straw: I'm off!"},
+      {"sp": "Léa", "fr": "{Va-t'en|ea-aller} si tu veux… mais {tu vas t'en vouloir|ea-vouloir}.", "en": "Go on, leave if you like… but you'll kick yourself."},
+      {"sp": "Lou", "fr": "{Ne t'en va pas|ea-aller}, Hugo !", "en": "Don't go, Hugo!"},
+      {"sp": "", "fr": "À la porte, Hugo s'arrête. Il revient vers sa petite sœur.", "en": "At the door, Hugo stops. He comes back to his little sister."},
+      {"sp": "Hugo", "fr": "{Tu m'en veux|ea-vouloir}, ma puce ?", "en": "Are you cross with me, sweetie?"},
+      {"sp": "Lou", "fr": "Non. Et toi, {tu m'en veux|ea-vouloir} ?", "en": "No. What about you, are you cross with me?"},
+      {"sp": "Hugo", "fr": "Non… Moi, {je m'en veux|ea-vouloir}. Pardon.", "en": "No… I'm cross with myself. Sorry."},
+      {"sp": "Carla", "fr": "Au début, c'est dur pour tout le monde. Mais tu verras, {on s'y fait|ea-y}.", "en": "It's hard for everyone at first. But you'll see, you get used to it."},
+      {"sp": "", "fr": "Carla frappe dans ses mains, plus lentement, et Lou bat le rythme avec les castagnettes. Cette fois, Hugo tape du talon au bon moment : quatre fois, puis huit, sans une seule erreur.", "en": "Carla claps, more slowly, and Lou beats time with the castanets. This time, Hugo stamps his heel right on the beat: four times, then eight, without a single mistake."},
+      {"sp": "Hugo", "fr": "{Je n'en reviens pas|ea-tirer} ! Je danse le flamenco !", "en": "I can't believe it! I'm dancing flamenco!"},
+      {"sp": "Carla", "fr": "{Tu t'en tires très bien|ea-tirer}, pour une première leçon. Allez, il est six heures : {on s'en va|ea-aller}, je dois rendre les clés à Madame Garnier.", "en": "You're doing very well, for a first lesson. Come on, it's six o'clock: let's go, I have to give the keys back to Madame Garnier."},
+      {"sp": "Hugo", "fr": "Déjà ? La semaine prochaine, {je ne m'en irai pas|ea-aller} avant la fin !", "en": "Already? Next week, I won't leave before the end!"},
+      {"sp": "", "fr": "Carla laisse les castagnettes à Lou pour la semaine. Léa, elle, {n'en revient pas|ea-tirer} : une semaine de castagnettes !", "en": "Carla lets Lou keep the castanets for the week. Léa can't believe it: a whole week of castanets!"}
+    ]
+  },
+  "quiz": [
+    {"case": "ea-aller", "type": "mc", "q": "Ne ___ pas, Hugo !", "en": "Don't go, Hugo!", "options": ["t'en va", "va-t'en", "te va"], "answer": "t'en va"},
+    {"case": "ea-aller", "type": "mc", "q": "Hier soir, Hugo ___ sans dire au revoir.", "en": "Last night, Hugo went off without saying goodbye.", "options": ["s'en est allé", "s'est en allé", "en s'est allé"], "answer": "s'en est allé"},
+    {"case": "ea-vouloir", "type": "mc", "q": "Je ne ___ pas, Hugo !", "en": "I'm not cross with you, Hugo!", "options": ["t'en veux", "m'en veux", "te veux"], "answer": "t'en veux"},
+    {"case": "ea-vouloir", "type": "mc", "q": "Ne t'en ___ pas à Lou : elle n'y est pour rien.", "en": "Don't take it out on Lou: it's not her fault.", "options": ["prends", "veux", "vas"], "answer": "prends"},
+    {"case": "ea-tirer", "type": "mc", "q": "Huit fois sans une seule erreur ? Je n'en ___ pas !", "en": "Eight times without a single mistake? I can't believe it!", "options": ["reviens", "viens", "sors"], "answer": "reviens"},
+    {"case": "ea-tirer", "type": "mc", "q": "Pour une première leçon, tu t'en ___ très bien.", "en": "For a first lesson, you're doing very well.", "options": ["tires", "prends", "vas"], "answer": "tires"},
+    {"case": "ea-y", "type": "mc", "q": "Non, non ! Tu ___ mal !", "en": "No, no! You're going about it the wrong way!", "options": ["t'y prends", "t'en prends", "te prends"], "answer": "t'y prends"},
+    {"case": "ea-y", "type": "mc", "q": "Au début, c'est dur, mais on s'y ___.", "en": "At first it's hard, but you get used to it.", "options": ["fait", "prend", "connaît"], "answer": "fait"},
+    {"case": "ea-rien", "type": "mc", "q": "Je ___ pour rien !", "en": "It's nothing to do with me!", "options": ["n'y suis", "n'en suis", "ne suis"], "answer": "n'y suis"},
+    {"case": "ea-rien", "type": "mc", "q": "Hugo prend son manteau : « ___ trop, je m'en vais ! »", "en": "Hugo picks up his coat: 'That's the last straw, I'm leaving!'", "options": ["C'en est", "C'y est", "Ça en est"], "answer": "C'en est"}
+  ]
+}
