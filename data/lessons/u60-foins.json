@@ -1,0 +1,143 @@
+{
+  "id": "u60-foins",
+  "type": "vocab",
+  "unit": 60,
+  "title": "Les foins",
+  "en": "Haymaking and the summer storm",
+  "intro": "25 words for haymaking and the summer storm: the hay (**le foin, la fenaison, faucher, la faneuse, le râteau, la fourche, la meule, la botte**), the farm (**la grange, la prairie, le tracteur, le fumier**), the crops (**la culture, cultiver, le grain, le blé, la moisson, l'avoine, l'orge**), and the storm (**la brume, le tonnerre, l'éclair, la foudre, la grêle, la trombe**).",
+  "words": [
+    {"id": "foin", "fr": "foin", "pos": "noun", "g": "m", "ipa": "fwɛ̃", "en": "hay", "def": "De l'herbe coupée et séchée, que mangent les vaches et les chevaux en hiver.", "def_en": "Grass that has been cut and dried, which cows and horses eat in winter.", "note": "Les foins = the haymaking (faire les foins). Une botte de foin = a bale of hay.", "forms": ["foins"], "examples": [
+      {"fr": "Il faut rentrer tout le **foin** avant l'orage.", "en": "All the hay has to be brought in before the storm."},
+      {"fr": "Les vaches mangent du **foin** tout l'hiver.", "en": "The cows eat hay all winter."},
+      {"fr": "C'est comme chercher une aiguille dans une botte de **foin** !", "en": "It's like looking for a needle in a haystack!"}]},
+    {"id": "fenaison", "fr": "fenaison", "pos": "noun", "g": "f", "ipa": "fə.nɛ.zɔ̃", "en": "haymaking (season)", "def": "Le moment de l'année où l'on coupe l'herbe des prés et où on la fait sécher.", "def_en": "The time of year when the grass of the meadows is cut and dried.", "note": "In everyday speech: les foins (faire les foins).", "forms": ["fenaisons"], "examples": [
+      {"fr": "La **fenaison** n'attend pas : l'orage arrive ce soir.", "en": "Haymaking doesn't wait: the storm is coming tonight."},
+      {"fr": "En montagne, la **fenaison** commence en juin ou en juillet.", "en": "In the mountains, haymaking starts in June or July."},
+      {"fr": "Pendant la **fenaison**, tout le monde travaille du matin au soir.", "en": "During haymaking, everyone works from morning till night."}]},
+    {"id": "faucher", "fr": "faucher", "pos": "verb", "ipa": "fo.ʃe", "en": "to mow, to cut down; (informal) to pinch; (fauché) broke", "def": "Couper l'herbe ou le blé tout près de la terre ; (familier) voler quelque chose.", "def_en": "To cut grass or wheat right down to the ground; (informal) to steal something.", "note": "Fauché (informal) = broke; fauché comme les blés = flat broke.", "forms": ["fauche", "fauches", "fauchons", "fauchez", "fauchent", "fauché", "fauchée", "fauchés", "fauchées", "fauchais", "fauchait", "fauchions", "fauchiez", "fauchaient", "faucherai", "faucheras", "fauchera", "faucherons", "faucherez", "faucheront", "faucherais", "faucherait", "faucherions", "faucheriez", "faucheraient", "fauchant", "fauchai", "fauchas", "faucha", "fauchâmes", "fauchâtes", "fauchèrent"], "examples": [
+      {"fr": "Pierre a **fauché** l'herbe mercredi.", "en": "Pierre mowed the grass on Wednesday."},
+      {"fr": "Jules **fauche** le pré derrière la maison.", "en": "Jules is mowing the meadow behind the house."},
+      {"fr": "Hugo est toujours **fauché** à la fin du mois.", "en": "Hugo is always broke at the end of the month."}]},
+    {"id": "faneuse", "fr": "faneuse", "pos": "noun", "g": "f", "ipa": "fa.nøz", "en": "tedder (machine that turns the hay)", "def": "Une machine qui retourne l'herbe coupée pour qu'elle sèche bien.", "def_en": "A machine that turns over cut grass so that it dries well.", "forms": ["faneuses"], "examples": [
+      {"fr": "Derrière le tracteur, la **faneuse** retourne le foin.", "en": "Behind the tractor, the tedder turns the hay."},
+      {"fr": "Avec la **faneuse**, l'herbe sèche plus vite.", "en": "With the tedder, the grass dries faster."},
+      {"fr": "La vieille **faneuse** de la ferme fait un bruit terrible.", "en": "The farm's old tedder makes a terrible noise."}]},
+    {"id": "rateau", "fr": "râteau", "pos": "noun", "g": "m", "ipa": "ʁɑ.to", "en": "rake", "def": "Un outil avec un long manche et des dents, pour ramasser l'herbe ou les feuilles.", "def_en": "A tool with a long handle and teeth, for gathering grass or leaves.", "note": "Prendre un râteau (informal) = to be turned down (when asking someone out).", "forms": ["râteaux"], "examples": [
+      {"fr": "Lou et Carla ramassent le foin avec des **râteaux** en [bois|bois].", "en": "Lou and Carla gather the hay with wooden rakes."},
+      {"fr": "En automne, on ramasse les feuilles mortes avec un **râteau**.", "en": "In autumn, you gather the dead leaves with a rake."},
+      {"fr": "Attention, ne marche pas sur le **râteau** !", "en": "Careful, don't step on the rake!"}]},
+    {"id": "fourche", "fr": "fourche", "pos": "noun", "g": "f", "ipa": "fuʁʃ", "en": "pitchfork", "def": "Un outil avec un long manche et deux ou trois longues dents, pour lever le foin.", "def_en": "A tool with a long handle and two or three long prongs, for lifting hay.", "forms": ["fourches"], "examples": [
+      {"fr": "Avec une **fourche**, Jules lance les bottes à Paul.", "en": "With a pitchfork, Jules throws the bales to Paul."},
+      {"fr": "Le fermier lève le foin avec sa **fourche**.", "en": "The farmer lifts the hay with his pitchfork."},
+      {"fr": "Laisse la **fourche** contre le mur de la grange.", "en": "Leave the pitchfork against the barn wall."}]},
+    {"id": "meule", "fr": "meule", "pos": "noun", "g": "f", "ipa": "møl", "en": "haystack; millstone; (cheese) wheel", "def": "Un gros tas de foin ou de paille ; une grande pierre ronde qui écrase le grain ; un gros fromage rond et entier.", "def_en": "A big pile of hay or straw; a large round stone that crushes grain; a big round whole cheese.", "forms": ["meules"], "examples": [
+      {"fr": "Biquette mange la petite **meule** de foin derrière la grange.", "en": "Biquette is eating the little haystack behind the barn."},
+      {"fr": "Au moulin, deux **meules** de pierre écrasent le grain.", "en": "At the mill, two millstones crush the grain."},
+      {"fr": "Manon coupe une **meule** de fromage pour la boutique.", "en": "Manon cuts a wheel of cheese for the shop."}]},
+    {"id": "botte", "fr": "botte", "pos": "noun", "g": "f", "ipa": "bɔt", "en": "boot; bale, bundle (of hay, straw)", "def": "Une chaussure haute qui couvre aussi la jambe ; un gros paquet de foin ou de paille.", "def_en": "A high shoe that covers the leg too; a big pack of hay or straw.", "note": "Une botte de radis, de carottes = a bunch of radishes, of carrots.", "forms": ["bottes"], "examples": [
+      {"fr": "La dernière **botte** [entre|entrer] dans la grange au premier coup de tonnerre.", "en": "The last bale goes into the barn at the first thunderclap."},
+      {"fr": "Il pleut : mets tes **bottes** !", "en": "It's raining: put your boots on!"},
+      {"fr": "Manon s'assoit sur une **botte** de paille.", "en": "Manon sits down on a bale of straw."}]},
+    {"id": "grange", "fr": "grange", "pos": "noun", "g": "f", "ipa": "ɡʁɑ̃ʒ", "en": "barn", "def": "Le bâtiment d'une ferme où l'on garde le foin, la paille et le grain.", "def_en": "The farm building where hay, straw and grain are kept.", "forms": ["granges"], "examples": [
+      {"fr": "Les bottes montent dans la **grange** une par une.", "en": "The bales go up into the barn one by one."},
+      {"fr": "Les amis ont fêté le Nouvel An dans la **grange**.", "en": "The friends saw the New Year in in the barn."},
+      {"fr": "La vieille **grange** a un toit de [bois|bois].", "en": "The old barn has a wooden roof."}]},
+    {"id": "prairie", "fr": "prairie", "pos": "noun", "g": "f", "ipa": "pʁɛ.ʁi", "en": "meadow, grassland", "def": "Un grand terrain couvert d'herbe, où les vaches peuvent manger.", "def_en": "A large piece of land covered with grass, where cows can graze.", "note": "Un pré is a smaller meadow.", "forms": ["prairies"], "examples": [
+      {"fr": "Une brume légère couvre la **prairie**.", "en": "A light mist covers the meadow."},
+      {"fr": "Les vaches mangent l'herbe de la **prairie**.", "en": "The cows eat the grass of the meadow."},
+      {"fr": "Au printemps, la **prairie** est pleine de fleurs.", "en": "In spring, the meadow is full of flowers."}]},
+    {"id": "tracteur", "fr": "tracteur", "pos": "noun", "g": "m", "ipa": "tʁak.tœʁ", "en": "tractor", "def": "Un véhicule à grosses roues qui tire les machines de la ferme.", "def_en": "A vehicle with big wheels that pulls the farm machines.", "forms": ["tracteurs"], "examples": [
+      {"fr": "Pierre conduit le **tracteur**, fier comme un roi.", "en": "Pierre drives the tractor, proud as a king."},
+      {"fr": "Un **tracteur** roule lentement devant nous sur la route.", "en": "A tractor is driving slowly ahead of us on the road."},
+      {"fr": "Sur le tableau de Sophie, Biquette est sur le toit du **tracteur**.", "en": "In Sophie's painting, Biquette is on the tractor roof."}]},
+    {"id": "culture", "fr": "culture", "pos": "noun", "g": "f", "ipa": "kyl.tyʁ", "en": "culture; (farming) growing, crop", "def": "Ce qu'on fait pousser dans les champs ; les arts, les idées et les habitudes d'un pays.", "def_en": "What is grown in the fields; the arts, ideas and customs of a country.", "forms": ["cultures"], "examples": [
+      {"fr": "Jules montre ses **cultures** à Jacques et Louise.", "en": "Jules shows his crops to Jacques and Louise."},
+      {"fr": "La **culture** bio n'utilise pas de produits chimiques.", "en": "Organic farming uses no chemicals."},
+      {"fr": "Carla aime la **culture** française, surtout le cinéma.", "en": "Carla loves French culture, especially the cinema."}]},
+    {"id": "cultiver", "fr": "cultiver", "pos": "verb", "ipa": "kyl.ti.ve", "en": "to grow (crops), to farm", "def": "Faire pousser des plantes, des légumes ou du blé dans la terre.", "def_en": "To make plants, vegetables or wheat grow in the ground.", "forms": ["cultive", "cultives", "cultivons", "cultivez", "cultivent", "cultivais", "cultivait", "cultivions", "cultiviez", "cultivaient", "cultiverai", "cultiveras", "cultivera", "cultiverons", "cultiverez", "cultiveront", "cultiverais", "cultiverait", "cultiverions", "cultiveriez", "cultiveraient", "cultivé", "cultivée", "cultivés", "cultivées", "cultivant", "cultivai", "cultivas", "cultiva", "cultivâmes", "cultivâtes", "cultivèrent"], "examples": [
+      {"fr": "Avec Manon, il **cultive** l'avoine, l'orge et le blé.", "en": "With Manon, he grows oats, barley and wheat."},
+      {"fr": "Manon **cultive** des légumes pour la boutique de la ferme.", "en": "Manon grows vegetables for the farm shop."},
+      {"fr": "Dans le Sud, on **cultive** des olives et des tomates.", "en": "In the South, people grow olives and tomatoes."}]},
+    {"id": "grain", "fr": "grain", "pos": "noun", "g": "m", "ipa": "ɡʁɛ̃", "en": "grain", "def": "Ce qui pousse au bout du blé et qu'on écrase pour faire la farine ; un tout petit morceau de sable ou de sel.", "def_en": "What grows at the top of the wheat and is crushed to make flour; a tiny bit of sand or salt.", "note": "Un grain de beauté = a beauty spot; mettre son grain de sel = to stick one's oar in.", "forms": ["grains"], "examples": [
+      {"fr": "Jules frotte quelques **grains** de blé dans sa main.", "en": "Jules rubs a few grains of wheat in his hand."},
+      {"fr": "Les poules mangent du **grain**.", "en": "The hens eat grain."},
+      {"fr": "Il y a un **grain** de sable dans ma chaussure.", "en": "There's a grain of sand in my shoe."}]},
+    {"id": "ble", "fr": "blé", "pos": "noun", "g": "m", "ipa": "ble", "en": "wheat", "def": "Une plante dont le grain donne la farine du pain.", "def_en": "A plant whose grain gives the flour for bread.", "forms": ["blés"], "examples": [
+      {"fr": "Le **blé** est encore vert.", "en": "The wheat is still green."},
+      {"fr": "Avec la farine de **blé**, on fait le pain.", "en": "Bread is made with wheat flour."},
+      {"fr": "Jules a peur de la grêle pour son **blé**.", "en": "Jules is afraid the hail will hit his wheat."}]},
+    {"id": "moisson", "fr": "moisson", "pos": "noun", "g": "f", "ipa": "mwa.sɔ̃", "en": "harvest (of grain)", "def": "Le moment où l'on coupe le blé mûr ; le blé qu'on a coupé.", "def_en": "The time when ripe wheat is cut; the wheat that has been cut.", "note": "La récolte is any harvest (fruit, vegetables); la moisson is the grain harvest.", "forms": ["moissons"], "examples": [
+      {"fr": "La **moisson**, ce sera en août.", "en": "The harvest will be in August."},
+      {"fr": "Pendant la **moisson**, les machines travaillent jour et nuit.", "en": "During the harvest, the machines work day and night."},
+      {"fr": "Cette année, la **moisson** a été bonne.", "en": "This year, the harvest was good."}]},
+    {"id": "avoine", "fr": "avoine", "pos": "noun", "g": "f", "ipa": "a.vwan", "en": "oats", "def": "Une plante dont le grain nourrit surtout les chevaux.", "def_en": "A plant whose grain feeds mostly horses.", "examples": [
+      {"fr": "L'**avoine**, c'est pour le cheval.", "en": "The oats are for the horse."},
+      {"fr": "Le matin, Camille mange des flocons d'**avoine**.", "en": "In the morning, Camille eats oat flakes."},
+      {"fr": "Le cheval a mangé toute son **avoine**.", "en": "The horse has eaten all its oats."}]},
+    {"id": "orge", "fr": "orge", "pos": "noun", "g": "f", "ipa": "ɔʁʒ", "en": "barley", "def": "Une plante dont le grain sert surtout à faire la bière.", "def_en": "A plant whose grain is used mostly to make beer.", "note": "Feminine: l'orge est mûre.", "examples": [
+      {"fr": "L'**orge**, je la vends à un voisin qui fait de la bière.", "en": "The barley, I sell to a neighbour who makes beer."},
+      {"fr": "On fait la bière avec de l'**orge**.", "en": "Beer is made with barley."},
+      {"fr": "Le champ d'**orge** est déjà tout jaune.", "en": "The barley field is already all yellow."}]},
+    {"id": "fumier", "fr": "fumier", "pos": "noun", "g": "m", "ipa": "fy.mje", "en": "manure, dung", "def": "Un mélange de paille sale et de ce que font les animaux, qu'on met sur la terre pour nourrir les plantes.", "def_en": "A mix of dirty straw and what the animals leave, spread on the ground to feed the plants.", "forms": ["fumiers"], "examples": [
+      {"fr": "Hugo recule devant une abeille et met le pied dans le **fumier**.", "en": "Hugo steps back from a bee and puts his foot in the manure."},
+      {"fr": "Jules met du **fumier** dans le jardin de Manon.", "en": "Jules puts manure in Manon's garden."},
+      {"fr": "Ça sent le **fumier** près de l'étable.", "en": "It smells of manure near the cowshed."}]},
+    {"id": "brume", "fr": "brume", "pos": "noun", "g": "f", "ipa": "bʁym", "en": "mist, haze", "def": "Un léger brouillard, souvent le matin ou au-dessus de l'eau.", "def_en": "A light fog, often in the morning or over water.", "forms": ["brumes"], "examples": [
+      {"fr": "À sept heures, une **brume** légère couvre encore la prairie.", "en": "At seven o'clock, a light mist still covers the meadow."},
+      {"fr": "Le matin, la **brume** monte du lac.", "en": "In the morning, the mist rises from the lake."},
+      {"fr": "On ne voit pas les montagnes dans la **brume**.", "en": "You can't see the mountains in the mist."}]},
+    {"id": "tonnerre", "fr": "tonnerre", "pos": "noun", "g": "m", "ipa": "tɔ.nɛʁ", "en": "thunder", "def": "Le grand bruit qu'on entend pendant un orage.", "def_en": "The loud noise you hear during a storm.", "note": "Un coup de tonnerre = a thunderclap; (informal) du tonnerre = terrific.", "forms": ["tonnerres"], "examples": [
+      {"fr": "La dernière botte [entre|entrer] dans la grange au premier coup de **tonnerre**.", "en": "The last bale goes into the barn at the first thunderclap."},
+      {"fr": "Max a peur du **tonnerre** : il se cache sous la table.", "en": "Max is afraid of thunder: he hides under the table."},
+      {"fr": "On voit l'éclair, puis on entend le **tonnerre**.", "en": "You see the lightning, then you hear the thunder."}]},
+    {"id": "eclair", "fr": "éclair", "pos": "noun", "g": "m", "ipa": "e.klɛʁ", "en": "flash of lightning; éclair (pastry)", "def": "Une lumière très forte et très courte dans le ciel pendant un orage ; un gâteau long au chocolat ou au café.", "def_en": "A very strong, very short light in the sky during a storm; a long chocolate or coffee cake.", "note": "Une fermeture éclair = a zip; en un éclair = in a flash.", "forms": ["éclairs"], "examples": [
+      {"fr": "Un **éclair** déchire le ciel au-dessus du lac.", "en": "A flash of lightning tears across the sky above the lake."},
+      {"fr": "Hugo achète un **éclair** au chocolat à la boulangerie.", "en": "Hugo buys a chocolate éclair at the bakery."},
+      {"fr": "Il est parti comme un **éclair**.", "en": "He left like a flash."}]},
+    {"id": "foudre", "fr": "foudre", "pos": "noun", "g": "f", "ipa": "fudʁ", "en": "lightning (that strikes)", "def": "L'électricité d'un orage, qui tombe sur la terre, sur un arbre ou sur une maison.", "def_en": "The electricity of a storm, which strikes the ground, a tree or a house.", "note": "Le coup de foudre = love at first sight.", "examples": [
+      {"fr": "La **foudre** est tombée sur ce vieux chêne.", "en": "Lightning struck this old oak."},
+      {"fr": "Pendant un orage, ne reste pas sous un arbre : la **foudre** peut tomber.", "en": "During a storm, don't stay under a tree: lightning can strike."},
+      {"fr": "La **foudre** a coupé l'électricité de tout le village.", "en": "The lightning cut the power to the whole village."}]},
+    {"id": "grele", "fr": "grêle", "pos": "noun", "g": "f", "ipa": "ɡʁɛl", "en": "hail", "def": "De petites boules de glace qui tombent du ciel pendant un orage.", "def_en": "Small balls of ice that fall from the sky during a storm.", "examples": [
+      {"fr": "Jules a peur de la **grêle** pour son blé.", "en": "Jules is afraid the hail will hit his wheat."},
+      {"fr": "La météo [annonce|annoncer] de la **grêle** pour ce soir.", "en": "The forecast says hail tonight."},
+      {"fr": "La **grêle** a abîmé toutes les voitures du parking.", "en": "The hail damaged every car in the car park."}]},
+    {"id": "trombe", "fr": "trombe", "pos": "noun", "g": "f", "ipa": "tʁɔ̃b", "en": "waterspout; (des trombes d'eau) a downpour; (en trombe) at top speed", "def": "Une colonne d'eau et de vent qui tourne très vite au-dessus de la mer.", "def_en": "A column of water and wind that spins very fast over the sea.", "note": "Des trombes d'eau = a downpour; en trombe = at top speed.", "forms": ["trombes"], "examples": [
+      {"fr": "Des **trombes** d'eau tombent sur le toit de la grange.", "en": "Torrents of rain pour down on the barn roof."},
+      {"fr": "Il tombe des **trombes** d'eau : on reste à la maison.", "en": "It's pouring down: we're staying at home."},
+      {"fr": "Inès arrive en **trombe**, avec dix minutes de retard.", "en": "Inès comes rushing in, ten minutes late."}]}
+  ],
+  "story": {
+    "title": "Les foins",
+    "en": "Haymaking",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi neuf juillet, à sept heures, une brume légère couvre encore la prairie au-dessus de la ferme.", "en": "On Saturday 9 July, at seven o'clock, a light mist still covers the meadow above the farm."},
+      {"sp": "", "fr": "Pierre a fauché l'herbe mercredi, et elle a séché trois jours au soleil. Mais la météo [annonce|annoncer] un orage pour ce soir, avec de la grêle.", "en": "Pierre mowed the grass on Wednesday, and it has dried for three days in the sun. But the forecast says a storm tonight, with hail."},
+      {"sp": "Jules", "fr": "La fenaison n'attend pas : il faut rentrer tout le foin avant l'orage. J'ai besoin de tous les bras !", "en": "Haymaking doesn't wait: all the hay has to be brought in before the storm. I need every pair of arms!"},
+      {"sp": "", "fr": "Toute la famille est venue aider : Paul, Anne et Lou, Jacques et Louise, Chloé, Karim et les jumeaux. Avec Léa, il y a les amis du Nouvel An, et Inès aussi.", "en": "The whole family has come to help: Paul, Anne and Lou, Jacques and Louise, Chloé, Karim and the twins. With Léa come the friends from New Year's Eve, and Inès too."},
+      {"sp": "", "fr": "Pierre, fier comme un roi, conduit le tracteur. Derrière lui, la faneuse retourne le foin une dernière fois.", "en": "Pierre, proud as a king, drives the tractor. Behind him, the tedder turns the hay one last time."},
+      {"sp": "Pierre", "fr": "Je suis à la retraite, moi. Mais pas mon tracteur !", "en": "I may be retired. But my tractor isn't!"},
+      {"sp": "", "fr": "Lou et Carla mettent le foin en longues lignes avec des râteaux en [bois|bois]. Le râteau de Lou est plus grand qu'elle.", "en": "Lou and Carla rake the hay into long rows with wooden rakes. Lou's rake is taller than she is."},
+      {"sp": "", "fr": "Puis une machine fait des bottes, qui attendent en rangs dans la prairie.", "en": "Then a machine makes bales, which wait in rows in the meadow."},
+      {"sp": "", "fr": "Manon, enceinte de sept mois, donne les ordres, assise sur une botte. Avec une fourche, Jules lance les bottes à Paul, le plus grand de tous, qui les empile.", "en": "Manon, seven months pregnant, gives the orders, sitting on a bale. With a pitchfork, Jules throws the bales to Paul, the tallest of them all, who stacks them."},
+      {"sp": "", "fr": "Hugo, qui a promis de ne plus jamais monter sur une échelle, reste par terre. Une abeille passe : il recule… et met le pied dans le fumier.", "en": "Hugo, who promised never to climb a ladder again, stays on the ground. A bee flies by: he steps back… and puts his foot in the manure."},
+      {"sp": "Tom", "fr": "Du pied gauche ? Ça porte bonheur, il paraît. Ce soir, tu en auras besoin !", "en": "With your left foot? That brings luck, they say. Tonight, you'll need it!"},
+      {"sp": "", "fr": "Derrière la grange, Biquette mange la petite meule de foin. Max grogne, mais elle continue.", "en": "Behind the barn, Biquette is eating the little haystack. Max growls, but she carries on."},
+      {"sp": "", "fr": "À midi, Jules montre ses cultures à Jacques et Louise. Avec Manon, il cultive l'avoine, l'orge et le blé.", "en": "At noon, Jules shows his crops to Jacques and Louise. With Manon, he grows oats, barley and wheat."},
+      {"sp": "Jules", "fr": "L'avoine, c'est pour le cheval. L'orge, je la vends à un voisin qui fait de la bière.", "en": "The oats are for the horse. The barley, I sell to a neighbour who makes beer."},
+      {"sp": "", "fr": "Il frotte quelques grains de blé dans sa main.", "en": "He rubs a few grains of wheat in his hand."},
+      {"sp": "Jules", "fr": "Pas encore mûrs : la moisson, ce sera en août. Mais j'ai peur de la grêle. En cinq minutes, elle peut détruire tout un champ.", "en": "Not ripe yet: the harvest will be in August. But I'm afraid of the hail. In five minutes, it can destroy a whole field."},
+      {"sp": "Pierre", "fr": "La foudre est tombée sur ce vieux chêne il y a vingt ans. Et il vit encore, regardez !", "en": "Lightning struck this old oak twenty years ago. And it's still alive, look!"},
+      {"sp": "", "fr": "L'après-midi, de gros nuages noirs montent au-dessus des montagnes. Au loin, un éclair déchire le ciel sur le lac.", "en": "In the afternoon, big black clouds rise over the mountains. In the distance, a flash of lightning tears across the sky over the lake."},
+      {"sp": "", "fr": "Vite ! Les bottes montent dans la grange une par une. Assis dans la cour, Jacques les [compte|compter] à voix haute.", "en": "Quick! The bales go up into the barn one by one. Sitting in the courtyard, Jacques counts them aloud."},
+      {"sp": "Jacques", "fr": "Quatre-vingt-dix-huit… quatre-vingt-dix-neuf… Hugo, ta chaussure gauche est toute sale ! Avec mes deux yeux opérés, je vois tout, maintenant !", "en": "Ninety-eight… ninety-nine… Hugo, your left shoe is filthy! With both eyes operated on, I see everything now!"},
+      {"sp": "", "fr": "La dernière botte [entre|entrer] dans la grange au premier coup de tonnerre. Une minute plus tard, des trombes d'eau tombent sur le toit.", "en": "The last bale goes into the barn at the first thunderclap. A minute later, torrents of rain pour down on the roof."},
+      {"sp": "Jules", "fr": "Cent bottes, et pas une seule mouillée ! Merci à tous !", "en": "A hundred bales, and not a single one wet! Thank you, everyone!"},
+      {"sp": "", "fr": "Dans le salon, le tableau de Sophie, dans son cadre en chêne, est enfin au mur : la ferme, avec Biquette sur le toit du tracteur.", "en": "In the living room, Sophie's painting, in its oak frame, is on the wall at last: the farm, with Biquette on the tractor roof."},
+      {"sp": "Sophie", "fr": "Au moins, là-haut, Biquette ne peut pas le manger !", "en": "At least, up there, Biquette can't eat it!"},
+      {"sp": "", "fr": "Lou tient un panier contre elle : dedans, son chaton noir, Minou, dort. Demain, il part à Paris avec elle.", "en": "Lou is holding a basket close: inside, her black kitten, Minou, is asleep. Tomorrow, it's going to Paris with her."},
+      {"sp": "", "fr": "Hugo, lui, touche sa poche pour la dixième fois : la bague est toujours là.", "en": "Hugo, for his part, touches his pocket for the tenth time: the ring is still there."}
+    ]
+  }
+}

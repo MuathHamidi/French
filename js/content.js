@@ -202,11 +202,13 @@ const BEFORE_VERB = new Set(['je', "j'", 'tu', 'il', 'elle', 'on', 'nous', 'vous
   'ai', 'as', 'a', 'avons', 'avez', 'ont', // avoir + past participle: j'ai été (been, not summer)
   'avais', 'avait', 'avions', 'aviez', 'avaient', // and the plus-que-parfait: il avait été
   'aurai', 'auras', 'aura', 'aurons', 'aurez', 'auront', 'aurais', 'aurait', 'aurions', 'auriez', 'auraient', // il aurait été
-  'eus', 'eut', 'eûmes', 'eûtes', 'eurent']); // the passé antérieur: quand il eut fini
+  'eus', 'eut', 'eûmes', 'eûtes', 'eurent', // the passé antérieur: quand il eut fini
+  'eusse', 'eusses', 'eût', 'eussions', 'eussiez', 'eussent']); // the plus-que-parfait du subjonctif: qu'il eût fini
 // être + participle or adjective, never a noun: elle est arrivée, elle est prête, elle était partie, elle serait partie
 const AFTER_ETRE = new Set(['suis', 'es', 'est', 'sommes', 'êtes', 'sont', 'étais', 'était', 'étions', 'étiez', 'étaient',
   'serai', 'seras', 'sera', 'serons', 'serez', 'seront', 'serais', 'serait', 'serions', 'seriez', 'seraient',
-  'fus', 'fut', 'fûmes', 'fûtes', 'furent']); // quand elle fut partie
+  'fus', 'fut', 'fûmes', 'fûtes', 'furent', // quand elle fut partie
+  'fusse', 'fusses', 'fût', 'fussions', 'fussiez', 'fussent']); // avant qu'elle fût partie
 // Object pronouns spelled like articles (je la vois, pour le faire, regarde-le): not "the".
 const OBJ_PRON = { le: 'le-pron', la: 'la-pron', les: 'les-pron', "l'": 'l-pron', leur: 'leur-pron', en: 'en-pron' };
 const BEFORE_OBJ = new Set(['je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles', 'ne', 'me', 'te', 'se', 'qui', 'ça']);

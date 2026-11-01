@@ -1,0 +1,107 @@
+{
+  "id": "u60-ne-guere",
+  "type": "grammar",
+  "unit": 60,
+  "title": "Je n'ose en dire davantage",
+  "en": "Literary negation: ne… guère, ne… point, ne… nullement, and ne alone (je n'ose, je ne saurais, il ne cesse de)",
+  "intro": "Written and formal French has negations that everyday speech has lost. **Ne… guère** means *hardly, not much* (*je n'ai guère dormi*), and *il n'y a guère que Léa pour…* means *only Léa, really*. **Ne… point** is an old-fashioned, stronger *ne… pas*, everywhere in Molière: *je ne le crois point*. **Ne… nullement** and **ne… aucunement** mean *not in the least*, and **non sans** + noun says *with some*: *non sans émotion*. After *oser, cesser, pouvoir* and *savoir* in the conditional, formal French keeps **ne alone**, without *pas*: *je n'ose, il ne cesse de rire, je ne puis, je ne saurais*. A few set phrases keep it too: *si je ne me trompe, qu'à cela ne tienne*. All of this is literary or very polite: in speech, say *ne… pas*.",
+  "cases": [
+    {"id": "ng-guere", "label": "ne… guère: hardly", "rule": "*Ne… guère* means *hardly, not much*; it sits where *pas* would: *Je n'ai guère dormi. Il ne reste guère de places.* *Il n'y a guère que Léa pour…* means *only Léa, really, would…*. It is written French; in speech, people say *pas beaucoup, presque pas*."},
+    {"id": "ng-point", "label": "ne… point: not at all", "rule": "*Ne… point* is a stronger, old-fashioned *ne… pas*, common in Molière and in literary or regional French: *Je ne le crois point. Point de doute !* Never add *pas*: *ne… point* replaces it."},
+    {"id": "ng-nullement", "label": "ne… nullement, ne… aucunement; non sans", "rule": "*Ne… nullement* and *ne… aucunement* mean *not in the least*: *Je ne regrette nullement ces mois de travail. Cela ne me dérange aucunement.* Alone, as an answer: *Nullement.* *Non sans* + noun turns a negation into a nuance: *non sans émotion* (not without emotion, with some emotion), *non sans mal* (with some difficulty)."},
+    {"id": "ng-ne-seul", "label": "ne alone: je n'ose, il ne cesse de, je ne puis, je ne saurais", "rule": "After *oser, cesser, pouvoir* and *savoir* (in the conditional, *je ne saurais* = I couldn't), formal French drops *pas*: *Je n'ose vous le demander. Il ne cesse de rire. Je ne puis rien vous promettre. Je ne saurais vous dire combien je suis fier.* *Je ne puis* is a formal *je ne peux pas*. With *pas* it is ordinary French; without *pas*, it sounds literary or very polite."},
+    {"id": "ng-locutions", "label": "ne alone in set phrases", "rule": "Some phrases keep a lone *ne*: *si je ne me trompe* (if I'm not mistaken), *qu'à cela ne tienne* (never mind, no problem), *il y a longtemps que je ne l'ai vu* (I haven't seen him for a long time), *que ne ferait-il pas pour elle ?* (what wouldn't he do for her?). Learn them as wholes: they are not to be rebuilt freely."}
+  ],
+  "sections": [
+    {"title": "1. ne… guère: hardly", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je n'ai guère dormi.", "I hardly slept."],
+      ["Il ne reste guère de places.", "There are hardly any seats left."],
+      ["Il n'y a guère que Léa pour rire comme ça.", "Only Léa, really, can laugh like that."]]},
+     "examples": [
+      {"fr": "{Je n'ai guère dormi|ng-guere}, Tom. Et si la lumière s'éteint encore ?", "en": "I hardly slept, Tom. What if the lights go out again?"},
+      {"fr": "{Il n'y a guère que ma sœur pour rire comme ça|ng-guere}.", "en": "Only my sister, really, can laugh like that."}],
+     "tip": "Guère takes the place of pas. Il n'y a guère que… = only… really."},
+    {"title": "2. ne… point: not at all", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je ne le crois [point|point-adv].", "I don't believe it at all."],
+      ["Vous ne le regretterez [point|point-adv].", "You won't regret it at all."],
+      ["Je n'ai [point|point-adv] d'argent.", "I have no money at all."]]},
+     "examples": [
+      {"fr": "Ce soir, {vous ne le regretterez [point|point-adv]|ng-point}.", "en": "Tonight, you won't regret it at all."},
+      {"fr": "Ces répliques-là, {je ne les ai [point|point-adv] oubliées|ng-point}.", "en": "Those lines, I haven't forgotten them at all."}],
+     "tip": "Point replaces pas, as in Molière. Today it sounds old-fashioned or regional."},
+    {"title": "3. ne… nullement, ne… aucunement; non sans", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je ne regrette nullement ces heures de travail.", "I don't regret those hours of work in the least."],
+      ["Cela ne me dérange aucunement.", "It doesn't bother me in the least."],
+      ["Il s'en va non sans émotion.", "He leaves not without emotion."]]},
+     "examples": [
+      {"fr": "Toutes ces heures de couture, ma petite… {je ne les regrette nullement|ng-nullement}.", "en": "All those hours of sewing, my dear… I don't regret them in the least."},
+      {"fr": "Il embrasse Léa et s'en va, {non sans émotion|ng-nullement}.", "en": "He kisses Léa and leaves, not without emotion."}],
+     "tip": "Nullement and aucunement replace pas. Non sans takes a noun: non sans émotion, non sans mal."},
+    {"title": "4. ne alone: oser, cesser, pouvoir, savoir", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je n'ose vous le demander.", "I daren't ask you."],
+      ["Elle ne cesse de rire.", "She keeps on laughing."],
+      ["Je ne puis venir, et je ne saurais vous dire pourquoi.", "I cannot come, and I couldn't tell you why."]]},
+     "examples": [
+      {"fr": "Léa rit, rit encore : {elle ne cesse de rire|ng-ne-seul}, et toute la salle rit avec elle.", "en": "Léa laughs and laughs: she keeps on laughing, and the whole hall laughs with her."},
+      {"fr": "Léa, {je ne saurais te dire combien je suis fier|ng-ne-seul}.", "en": "Léa, I couldn't tell you how proud I am."}],
+     "tip": "Without pas, these verbs sound literary or very polite. Je ne puis = je ne peux pas."},
+    {"title": "5. ne alone in set phrases", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Si je ne me trompe, vous avez un don.", "If I'm not mistaken, you have a gift."],
+      ["Qu'à cela ne tienne !", "Never mind! No problem!"],
+      ["Il y a longtemps que je ne l'ai vu.", "I haven't seen him for a long time."]]},
+     "examples": [
+      {"fr": "{Si je ne me trompe|ng-locutions}, mademoiselle, vous avez un don.", "en": "If I'm not mistaken, young lady, you have a gift."},
+      {"fr": "{Qu'à cela ne tienne|ng-locutions} ! Nous répéterons le soir.", "en": "Never mind! We'll rehearse in the evenings."}],
+     "tip": "Learn these as wholes: si je ne me trompe, qu'à cela ne tienne, il y a longtemps que je ne…, que ne ferait-il pas…"}
+  ],
+  "mistakes": [
+    {"wrong": "Je n'ai guère pas dormi.", "right": "Je n'ai guère dormi.", "why": "Guère takes the place of pas: never both."},
+    {"wrong": "Je ne puis pas venir.", "right": "Je ne puis venir. / Je ne peux pas venir.", "why": "The formal je ne puis goes without pas; with pas, use je ne peux."},
+    {"wrong": "Je ne regrette pas nullement.", "right": "Je ne regrette nullement.", "why": "Nullement replaces pas."},
+    {"wrong": "Il a parlé non sans ému.", "right": "Il a parlé non sans émotion.", "why": "Non sans takes a noun."}
+  ],
+  "story": {
+    "title": "Je n'ose en dire davantage",
+    "en": "I daren't say more",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi trente juin, au théâtre de l'université, la salle est pleine pour l'unique représentation du Bourgeois gentilhomme.", "en": "On Thursday 30 June, at the university theatre, the hall is full for the only performance of Le Bourgeois gentilhomme."},
+      {"sp": "", "fr": "Au premier rang : Marc, Madame Odette, qui a cousu à la main le costume de Nicole, et Monsieur Lucien. À côté d'eux, Hugo, Carla, Sophie, Mathis, Camille et Inès.", "en": "In the front row: Marc, Madame Odette, who sewed Nicole's costume by hand, and Monsieur Lucien. Next to them, Hugo, Carla, Sophie, Mathis, Camille and Inès."},
+      {"sp": "Monsieur Lucien", "fr": "{Il y a longtemps que je ne suis venu au théâtre|ng-locutions}, vous savez. Sur ma péniche, on se couchait tôt.", "en": "It's a long time since I last came to the theatre, you know. On my barge, we went to bed early."},
+      {"sp": "Madame Odette", "fr": "Ce soir, {vous ne le regretterez [point|point-adv]|ng-point}.", "en": "Tonight, you won't regret it at all."},
+      {"sp": "", "fr": "Dans les coulisses, Léa, en Nicole, attend à côté de Tom, qui s'occupe du bruitage, comme à la répétition.", "en": "In the wings, Léa, dressed as Nicole, waits beside Tom, who does the sound effects, as at the rehearsal."},
+      {"sp": "Léa", "fr": "{Je n'ai guère dormi|ng-guere}, Tom. Et si la lumière s'éteint encore ?", "en": "I hardly slept, Tom. What if the lights go out again?"},
+      {"sp": "Tom", "fr": "Ne dis pas ça ! Ce soir, j'ai une lampe de poche dans chaque poche.", "en": "Don't say that! Tonight, I've got a torch in every pocket."},
+      {"sp": "", "fr": "Le rideau se lève. Au premier rang, Madame Odette, qui connaît Molière par cœur, murmure le texte avec les acteurs.", "en": "The curtain rises. In the front row, Madame Odette, who knows Molière by heart, murmurs the lines along with the actors."},
+      {"sp": "Monsieur Lucien", "fr": "Vous connaissez tout par cœur ?", "en": "You know it all by heart?"},
+      {"sp": "Madame Odette", "fr": "Quarante ans aux Célestins, mon ami. Ces répliques-là, {je ne les ai [point|point-adv] oubliées|ng-point}.", "en": "Forty years at the Célestins, my friend. Those lines, I haven't forgotten them at all."},
+      {"sp": "", "fr": "Puis vient la célèbre scène du rire. Nicole voit son maître dans son habit ridicule et se met à rire.", "en": "Then comes the famous laughing scene. Nicole sees her master in his ridiculous outfit and starts to laugh."},
+      {"sp": "", "fr": "Léa rit, rit encore : {elle ne cesse de rire|ng-ne-seul}, et toute la salle rit avec elle.", "en": "Léa laughs and laughs: she keeps on laughing, and the whole hall laughs with her."},
+      {"sp": "", "fr": "Monsieur Jourdain devrait se fâcher. Mais le timide étudiant, lui non plus, {ne peut s'arrêter de rire|ng-ne-seul}, et le public applaudit.", "en": "Monsieur Jourdain ought to get angry. But the shy student can't stop laughing either, and the audience applauds."},
+      {"sp": "Hugo", "fr": "{Il n'y a guère que ma sœur pour rire comme ça|ng-guere}.", "en": "Only my sister, really, can laugh like that."},
+      {"sp": "Carla", "fr": "Et regarde Monsieur Jourdain, lui qui {n'osait lever les yeux|ng-ne-seul} il y a quelques mois !", "en": "And look at Monsieur Jourdain, who didn't dare raise his eyes a few months ago!"},
+      {"sp": "", "fr": "Après le spectacle, au foyer, Madame Roussel vient trouver Léa.", "en": "After the show, in the foyer, Madame Roussel comes to find Léa."},
+      {"sp": "Madame Roussel", "fr": "{Si je ne me trompe|ng-locutions}, mademoiselle, vous avez un don. L'année prochaine, je vous donne un rôle plus important.", "en": "If I'm not mistaken, young lady, you have a gift. Next year, I'm giving you a bigger part."},
+      {"sp": "Léa", "fr": "Mais je commence l'école d'été lundi, et l'an prochain, j'ai ma deuxième année… {Je ne puis rien vous promettre|ng-ne-seul}.", "en": "But I start at the summer school on Monday, and next year I have my second year… I cannot promise you anything."},
+      {"sp": "Madame Roussel", "fr": "{Qu'à cela ne tienne|ng-locutions} ! Nous répéterons le soir.", "en": "Never mind! We'll rehearse in the evenings."},
+      {"sp": "Madame Odette", "fr": "Toutes ces heures de couture, ma petite… {je ne les regrette nullement|ng-nullement}.", "en": "All those hours of sewing, my dear… I don't regret them in the least."},
+      {"sp": "Monsieur Lucien", "fr": "Moi, je pensais dormir pendant tout le spectacle. {Je ne me suis aucunement ennuyé|ng-nullement} !", "en": "I thought I'd sleep through the whole show. I wasn't bored in the least!"},
+      {"sp": "Marc", "fr": "Léa, {je ne saurais te dire combien je suis fier|ng-ne-seul}. {Je n'ose en dire davantage|ng-ne-seul} : je vais pleurer.", "en": "Léa, I couldn't tell you how proud I am. I daren't say more: I'll cry."},
+      {"sp": "", "fr": "Il embrasse Léa et s'en va, {non sans émotion|ng-nullement}. Hugo s'approche de sa sœur et lui parle tout bas.", "en": "He kisses Léa and leaves, not without emotion. Hugo comes up to his sister and speaks very quietly."},
+      {"sp": "Hugo", "fr": "Tu m'apprendras à bien dire « Belle Marquise » ? J'ai un plan.", "en": "Will you teach me to say \"Belle Marquise\" properly? I have a plan."},
+      {"sp": "Léa", "fr": "Pour Carla ? Ah, {que ne ferais-tu pas pour elle|ng-locutions}…", "en": "For Carla? Ah, what wouldn't you do for her…"}
+    ]
+  },
+  "quiz": [
+    {"case": "ng-guere", "type": "mc", "q": "Je n'ai ___ dormi cette nuit.", "en": "I hardly slept last night.", "options": ["guère", "guère pas", "pas guère"], "answer": "guère"},
+    {"case": "ng-guere", "type": "mc", "q": "Il n'y a guère ___ Léa pour rire comme ça.", "en": "Only Léa, really, can laugh like that.", "options": ["que", "de", "pas"], "answer": "que"},
+    {"case": "ng-point", "type": "mc", "q": "Ce soir, vous ne le regretterez ___.", "en": "Tonight, you won't regret it at all.", "options": ["point", "point pas", "guère"], "answer": "point"},
+    {"case": "ng-point", "type": "mc", "q": "Je ___ crois [point|point-adv].", "en": "I don't believe it at all.", "options": ["ne le", "le", "ne le pas"], "answer": "ne le"},
+    {"case": "ng-nullement", "type": "mc", "q": "Ces heures de couture, je ne les regrette ___.", "en": "Those hours of sewing, I don't regret them in the least.", "options": ["nullement", "pas nullement", "nul"], "answer": "nullement"},
+    {"case": "ng-nullement", "type": "mc", "q": "Il s'en va, non sans ___.", "en": "He leaves, not without emotion.", "options": ["émotion", "ému", "être ému"], "answer": "émotion"},
+    {"case": "ng-ne-seul", "type": "mc", "q": "Je ne ___ rien vous promettre.", "en": "I cannot promise you anything.", "options": ["puis", "puis pas", "peux pas"], "answer": "puis"},
+    {"case": "ng-ne-seul", "type": "mc", "q": "Je ne ___ te dire combien je suis fier.", "en": "I couldn't tell you how proud I am.", "options": ["saurais", "saurai", "sache"], "answer": "saurais"},
+    {"case": "ng-locutions", "type": "mc", "q": "Si je ne me ___, vous avez un don.", "en": "If I'm not mistaken, you have a gift.", "options": ["trompe", "trompes", "tromperai"], "answer": "trompe"},
+    {"case": "ng-locutions", "type": "mc", "q": "Qu'à cela ne ___ !", "en": "Never mind! No problem!", "options": ["tienne", "tient", "tiens"], "answer": "tienne"}
+  ]
+}

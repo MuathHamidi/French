@@ -199,6 +199,7 @@ FIXES = {
     "papageno": "papaʒenˈo",  # the voice drops the e (/papaʒno/)
     "butterfly": "bœtœʁflˈaj",  # Madame Butterfly: read in English
     "le plus au japon": "lə plˈys o ʒapˈɔ̃",  # the most: the voice adds a liaison /z/
+    "tempérament": "tɑ̃peʁamˈɑ̃", "tempéraments": "tɑ̃peʁamˈɑ̃",  # the voice drops the final /ɑ̃/
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

@@ -1,0 +1,108 @@
+{
+  "id": "u60-subj-imparfait",
+  "type": "grammar",
+  "unit": 60,
+  "title": "Fallait-il que je vous aimasse ?",
+  "en": "The imparfait du subjonctif, to recognise: qu'il fût, qu'il eût, sans que j'en susse rien, il eût fallu",
+  "intro": "The **imparfait du subjonctif** is the subjunctive of old books: after a past main verb, classical French writes *Il fallait qu'il **vînt***, where today we say *qu'il vienne*. You only need to recognise it, never to use it in everyday speech. The third person comes from the passé simple with a circumflex (*il fut → qu'il **fût**, il eut → qu'il **eût**, il parla → qu'il **parlât***); the other persons, in *-sse* (*que je **susse**, que je vous **aimasse***), sound so heavy that today they raise a laugh. With *eût* or *fût* + past participle it makes the **plus-que-parfait du subjonctif** (*bien qu'il **eût tremblé***), which can also stand for the past conditional in writing (*il **eût fallu*** = *il aurait fallu*). A few phrases are still alive in speech: ***Qui l'eût cru ?**, **fût-ce**, **ne fût-ce que***.",
+  "cases": [
+    {"id": "si-troisieme", "label": "qu'il parlât, qu'il fût: the third person", "rule": "Take the passé simple and add a circumflex (and a t for -a verbs): *il parla → qu'il parlât, il finit → qu'il finît, il fut → qu'il fût, il eut → qu'il eût, il vint → qu'il vînt, il fit → qu'il fît, il sut → qu'il sût*. Only the circumflex tells *qu'il fût* (subjunctive) from *il fut* (passé simple). Books use it in a past context, after a main verb in the past or a conjunction such as *bien que, sans que*: *Bien qu'il eût peur, il parla.*"},
+    {"id": "si-autres", "label": "que je susse, que je vous aimasse: the other persons", "rule": "The other persons add -sse, -sses, -ssions, -ssiez, -ssent to the passé simple stem: *que je susse, que tu aimasses, que nous fussions, que vous plussiez, qu'ils eussent*. They sound so heavy that they are used today for comic effect: Monsieur Jourdain's *sans que j'en susse rien* (without my knowing it), and Alphonse Allais's parody poem, *Fallait-il que je vous aimasse*."},
+    {"id": "si-concordance", "label": "il fallait qu'il vînt: the sequence of tenses", "rule": "In classical and literary texts, a past main verb brings the imparfait du subjonctif: *Il fallait qu'il vînt. Je voulais qu'il fût heureux.* Today, French uses the present subjunctive in both cases: *Il fallait qu'il vienne. Je voulais qu'il soit heureux.*"},
+    {"id": "si-pqp", "label": "avant qu'elle fût partie: the plus-que-parfait du subjonctif", "rule": "*Eût* or *fût* + past participle is the literary past subjunctive after a past verb, for something already done: *Bien qu'il eût tremblé toute la journée, il parla. Avant qu'elle fût partie, il lui prit la main.* Today: *bien qu'il ait tremblé, avant qu'elle soit partie*. *Fût* goes with the verbs that take *être*."},
+    {"id": "si-figees", "label": "il eût fallu, qui l'eût cru ?, fût-ce: the living phrases", "rule": "*Eût* + participle can replace the past conditional in writing: *il eût fallu* = *il aurait fallu*, *on eût dit* = *on aurait dit*. Some phrases are still alive in speech: *Qui l'eût cru ?* (who would have thought it?), *fût-ce* (even, be it: *fût-ce sous la grêle*), *ne fût-ce que* (if only: *ne fût-ce qu'une minute*), *dût-il* (even if he has to: *Je le dirai, dût-il en rire*)."}
+  ],
+  "sections": [
+    {"title": "1. qu'il parlât, qu'il fût: the third person", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["qu'il [parlât|parler], qu'il [finît|finir]", "(that) he spoke, (that) he finished: from il parla, il finit"],
+      ["qu'il [fût|etre], qu'il [eût|avoir]", "(that) he was, (that) he had: from il fut, il eut"],
+      ["qu'il [vînt|venir], qu'il [fît|faire], qu'il [sût|savoir]", "(that) he came, did, knew: from il vint, il fit, il sut"]]},
+     "examples": [
+      {"fr": "Monsieur Jourdain disait de la prose {sans qu'il en [sût|savoir] rien|si-troisieme}.", "en": "Monsieur Jourdain was speaking prose without knowing it."},
+      {"fr": "{Bien qu'il [eût|avoir] peur|si-troisieme}, il [parla|parler] jusqu'au bout !", "en": "Although he was afraid, he spoke right to the end!"}],
+     "tip": "Passé simple + circumflex: fut → fût, eut → eût, vint → vînt; -a verbs add a t: parla → parlât."},
+    {"title": "2. que je susse, que je vous aimasse: the other persons", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["que je [susse|savoir], que je vous [aimasse|aimer]", "(that) I knew, (that) I loved you"],
+      ["que nous [fussions|etre], qu'ils [eussent|avoir]", "(that) we were, (that) they had"],
+      ["que vous me [plussiez|plaire]", "(that) you pleased me"]]},
+     "examples": [
+      {"fr": "Moi, je vous aimais {sans que j'en [susse|savoir] rien|si-autres}.", "en": "As for me, I loved you without knowing it."},
+      {"fr": "Ah ! {Fallait-il que je vous [visse|voir]|si-autres}, {fallait-il que vous me [plussiez|plaire]|si-autres}…", "en": "Ah! Did I have to see you, did you have to please me…"}],
+     "tip": "These forms are only for recognising, or for a joke: in speech, que je sache, que je vous aime."},
+    {"title": "3. il fallait qu'il vînt: the sequence of tenses", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il fallait qu'il [vînt|venir].", "He had to come. (literary)"],
+      ["Je voulais qu'il [fût|etre] heureux.", "I wanted him to be happy. (literary)"],
+      ["Il fallait qu'il vienne. Je voulais qu'il soit heureux.", "The same sentences in today's French."]]},
+     "examples": [
+      {"fr": "Dans les livres, on écrivait : {il fallait qu'il [vînt|venir]|si-concordance}.", "en": "In books, people wrote: il fallait qu'il vînt."},
+      {"fr": "Moi, {je voulais qu'il [fût|etre] heureux|si-concordance}. Le voilà heureux.", "en": "Me, I wanted him to be happy. Well, there he is, happy."}],
+     "tip": "Past main verb + imparfait du subjonctif in old books; today, the present subjunctive after any main verb."},
+    {"title": "4. avant qu'elle fût partie: the plus-que-parfait du subjonctif", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Bien qu'il [eût|avoir] [tremblé|trembler] toute la journée, il [parla|parler].", "Although he had trembled all day, he spoke."],
+      ["Avant qu'elle [fût|etre] [partie|partir], il lui prit la main.", "Before she had left, he took her hand."],
+      ["bien qu'il ait tremblé, avant qu'elle soit partie", "the same in today's French"]]},
+     "examples": [
+      {"fr": "Et moi, j'ai emprunté une de ses bagues {sans qu'elle en [eût|avoir] rien [su|savoir]|si-pqp} !", "en": "And I borrowed one of her rings without her knowing a thing!"},
+      {"fr": "Et tout le foin était dans la grange {avant que l'orage [fût|etre] [arrivé|arriver]|si-pqp}.", "en": "And all the hay was in the barn before the storm had arrived."}],
+     "tip": "Eût or fût + participle, like avoir or être in the passé composé: eût su, fût arrivé."},
+    {"title": "5. il eût fallu, qui l'eût cru ?, fût-ce: the living phrases", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il [eût|avoir] fallu partir plus tôt.", "We should have left earlier."],
+      ["Qui l'eût cru ?", "Who would have thought it?"],
+      ["Reste, ne fût-ce qu'une minute.", "Stay, if only for a minute."]]},
+     "examples": [
+      {"fr": "{Qui l'eût cru ?|si-figees} Notre Hugo, fiancé !", "en": "Who would have thought it? Our Hugo, engaged!"},
+      {"fr": "{Il [eût|avoir] fallu des sous-titres|si-figees} !", "en": "We'd have needed subtitles!"}],
+     "tip": "Il eût fallu = il aurait fallu; on eût dit = on aurait dit. Qui l'eût cru ? and fût-ce are still heard today."}
+  ],
+  "mistakes": [
+    {"wrong": "Bien qu'il fut fatigué, il continua.", "right": "Bien qu'il fût fatigué, il continua.", "why": "After bien que it is the subjunctive: fût takes a circumflex; fut is the passé simple."},
+    {"wrong": "Il faut que je vous aimasse.", "right": "Il faut que je vous aime.", "why": "After a present main verb, the present subjunctive; the imparfait du subjonctif belongs to old texts after a past verb."},
+    {"wrong": "Je voulais qu'il vint.", "right": "Je voulais qu'il vînt. / Je voulais qu'il vienne.", "why": "Without the circumflex, vint is the passé simple; today, say qu'il vienne."},
+    {"wrong": "Qui l'eut cru ?", "right": "Qui l'eût cru ?", "why": "The phrase uses the subjunctive form eût, with a circumflex."}
+  ],
+  "story": {
+    "title": "Fallait-il que je vous aimasse ?",
+    "en": "Saturday 9 July, after the haymaking: in the barn, during the storm, Hugo proposes to Carla in Molière's French and Alphonse Allais's, and she says yes in three languages.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi neuf juillet, le soir, l'orage gronde encore sur la ferme. Après les foins, toute la bande dîne dans la grange, à la grande table du réveillon.", "en": "On Saturday 9 July, in the evening, the storm is still rumbling over the farm. After the haymaking, the whole gang has dinner in the barn, at the long table from New Year's Eve."},
+      {"sp": "", "fr": "Soudain, Hugo se lève et va se placer près de la pierre qui cache les lettres. Il enlève ses lunettes et met un genou à terre. Plus personne ne parle ; on n'entend que la pluie sur le toit.", "en": "Suddenly Hugo gets up and goes over to the stone that hides the letters. He takes off his glasses and goes down on one knee. Nobody says a word any more; all you can hear is the rain on the roof."},
+      {"sp": "Hugo", "fr": "Belle Marquise, vos beaux yeux me font mourir d'amour.", "en": "Fair Marquise, your beautiful eyes make me die of love."},
+      {"sp": "Hugo", "fr": "Monsieur Jourdain disait de la prose {sans qu'il en [sût|savoir] rien|si-troisieme}. Moi, je vous aimais {sans que j'en [susse|savoir] rien|si-autres}.", "en": "Monsieur Jourdain was speaking prose without knowing it. As for me, I loved you without knowing it."},
+      {"sp": "Lou", "fr": "Maman, il est malade, Hugo ?", "en": "Mum, is Hugo ill?"},
+      {"sp": "Jules", "fr": "Chut… {On [eût|avoir] dit|si-figees} un prêtre.", "en": "Shh… You'd have thought he was a priest."},
+      {"sp": "", "fr": "Hugo continue avec Alphonse Allais, un auteur comique du dix-neuvième siècle, qui se moquait de ces vieilles formes.", "en": "Hugo goes on with Alphonse Allais, a comic writer of the nineteenth century who made fun of these old forms."},
+      {"sp": "Hugo", "fr": "Oui, dès l'instant que je vous [vis|voir], Beauté féroce, vous me plûtes…", "en": "Yes, from the moment I saw you, fierce Beauty, you pleased me…"},
+      {"sp": "Hugo", "fr": "Ah ! {Fallait-il que je vous [visse|voir]|si-autres}, {fallait-il que vous me [plussiez|plaire]|si-autres}… {Fallait-il que je vous [aimasse|aimer]|si-autres}…", "en": "Ah! Did I have to see you, did you have to please me… Did I have to love you…"},
+      {"sp": "", "fr": "Personne ne comprend un mot. Pierre se gratte la tête.", "en": "Nobody understands a word. Pierre scratches his head."},
+      {"sp": "Tom", "fr": "{Il [eût|avoir] fallu des sous-titres|si-figees} !", "en": "We'd have needed subtitles!"},
+      {"sp": "", "fr": "Alors Hugo tend une boîte à Carla. Dedans, une seule chaussure de danse, comme pour leur premier anniversaire.", "en": "Then Hugo hands Carla a box. Inside, a single dance shoe, like on their first anniversary."},
+      {"sp": "Carla", "fr": "Encore une seule chaussure ?", "en": "One shoe again?"},
+      {"sp": "", "fr": "Puis, au fond de la chaussure, elle trouve une bague en or. À l'intérieur, on lit « 14 février ».", "en": "Then, at the bottom of the shoe, she finds a gold ring. Inside it, it says « 14 février »."},
+      {"sp": "Hugo", "fr": "Carla, veux-tu m'épouser ?", "en": "Carla, will you marry me?"},
+      {"sp": "", "fr": "Il répète la question dans l'espagnol de ses cours du soir. Carla répond oui en espagnol, en français et en anglais. Inès pleure ; Lou comprend enfin ce que veut dire « se fiancer » et applaudit.", "en": "He repeats the question in the Spanish of his evening classes. Carla says yes in Spanish, French and English. Inès cries; Lou finally understands what « se fiancer » means, and claps."},
+      {"sp": "Inès", "fr": "Et moi, j'ai emprunté une de ses bagues {sans qu'elle en [eût|avoir] rien [su|savoir]|si-pqp} !", "en": "And I borrowed one of her rings without her knowing a thing!"},
+      {"sp": "Jacques", "fr": "{Qui l'eût cru ?|si-figees} Notre Hugo, fiancé !", "en": "Who would have thought it? Our Hugo, engaged!"},
+      {"sp": "Léa", "fr": "Lui qui disait : « Je ne me marierai jamais » !", "en": "And he used to say: \"I'll never get married\"!"},
+      {"sp": "Lou", "fr": "Pourquoi il parle bizarre, Hugo ?", "en": "Why does Hugo talk funny?"},
+      {"sp": "Léa", "fr": "C'est le français d'autrefois. Dans les livres, on écrivait : {il fallait qu'il [vînt|venir]|si-concordance}. Nous, on dit : il fallait qu'il vienne.", "en": "It's the French of long ago. In books, people wrote: il fallait qu'il vînt. We say: il fallait qu'il vienne."},
+      {"sp": "Louise", "fr": "{Bien qu'il [eût|avoir] peur|si-troisieme}, il [parla|parler] jusqu'au bout !", "en": "Although he was afraid, he spoke right to the end!"},
+      {"sp": "Paul", "fr": "Moi, {je voulais qu'il [fût|etre] heureux|si-concordance}. Le voilà heureux.", "en": "Me, I wanted him to be happy. Well, there he is, happy."},
+      {"sp": "Jules", "fr": "Et tout le foin était dans la grange {avant que l'orage [fût|etre] [arrivé|arriver]|si-pqp}. Une belle journée !", "en": "And all the hay was in the barn before the storm had arrived. A fine day!"},
+      {"sp": "Hugo", "fr": "Je t'aurais fait ma demande {fût-ce sous la grêle|si-figees} !", "en": "I'd have proposed to you even in a hailstorm!"},
+      {"sp": "", "fr": "Plus tard, Léa regarde la pierre : et si on ouvrait les lettres ? Jules pose la main dessus : « Pas encore. » Demain, Sophie et Mathis partent pour Copenhague. Dehors, la pluie s'arrête.", "en": "Later, Léa looks at the stone: what if they opened the letters? Jules puts his hand on it: \"Not yet.\" Tomorrow, Sophie and Mathis leave for Copenhagen. Outside, the rain stops."}
+    ]
+  },
+  "quiz": [
+    {"case": "si-troisieme", "type": "mc", "q": "Bien qu'il ___ fatigué, il continua.", "en": "Although he was tired, he carried on.", "options": ["fût", "fut", "était"], "answer": "fût"},
+    {"case": "si-troisieme", "type": "mc", "q": "Monsieur Jourdain disait de la prose sans qu'il en ___ rien.", "en": "Monsieur Jourdain was speaking prose without knowing it.", "options": ["sût", "sut", "savait"], "answer": "sût"},
+    {"case": "si-autres", "type": "mc", "q": "Fallait-il que je vous ___ ?", "en": "Did I have to love you?", "options": ["aimasse", "aimai", "aimerai"], "answer": "aimasse"},
+    {"case": "si-autres", "type": "mc", "q": "Il voulait que nous ___ heureux.", "en": "He wanted us to be happy.", "options": ["fussions", "fûmes", "fussiez"], "answer": "fussions"},
+    {"case": "si-concordance", "type": "mc", "q": "Il fallait qu'il ___ à Lyon.", "en": "He had to come to Lyon.", "options": ["vînt", "vint", "vinsse"], "answer": "vînt"},
+    {"case": "si-concordance", "type": "mc", "q": "Je voulais qu'elle ___ heureuse.", "en": "I wanted her to be happy.", "options": ["fût", "fut", "fusse"], "answer": "fût"},
+    {"case": "si-pqp", "type": "mc", "q": "Bien qu'il ___ tremblé toute la journée, il [parla|parler].", "en": "Although he had trembled all day, he spoke.", "options": ["eût", "eut", "eussent"], "answer": "eût"},
+    {"case": "si-pqp", "type": "mc", "q": "Avant que l'orage ___ arrivé, tout le foin était dans la grange.", "en": "Before the storm had arrived, all the hay was in the barn.", "options": ["fût", "eût", "fut"], "answer": "fût"},
+    {"case": "si-figees", "type": "mc", "q": "___ cru ? Notre Hugo, fiancé !", "en": "Who would have thought it? Our Hugo, engaged!", "options": ["Qui l'eût", "Qui l'eut", "Qui l'ait"], "answer": "Qui l'eût"},
+    {"case": "si-figees", "type": "mc", "q": "Il ___ fallu des sous-titres.", "en": "We'd have needed subtitles.", "options": ["eût", "fût", "était"], "answer": "eût"}
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "u60-bijoux",
+  "type": "vocab",
+  "unit": 60,
+  "title": "La bague",
+  "en": "An engagement: the ring and the promise",
+  "intro": "25 words for an engagement: the jeweller's (**la bijouterie, le bijoutier, l'écrin, le joyau**), the jewels (**le bracelet, la boucle d'oreille, le pendentif, la broche, l'anneau**), metals and stones (**l'or, le métal, le carat, le diamant, le rubis, l'émeraude, le saphir, la perle**), engraving (**graver, la gravure**), and the promise (**la demande en mariage, les fiançailles, la noce, l'époux, l'union, unir**).",
+  "words": [
+    {"id": "or", "fr": "or", "pos": "noun", "g": "m", "ipa": "ɔʁ", "en": "gold", "def": "Un métal jaune et précieux, qui coûte très cher.", "def_en": "A yellow, precious metal that costs a great deal.", "note": "*En or* = (made of) gold; *d'or* = golden (*un cœur d'or*).", "examples": [
+      {"fr": "Hugo choisit une bague en **or** jaune.", "en": "Hugo chooses a yellow gold ring."},
+      {"fr": "Mamie a un cœur d'**or**.", "en": "Grandma has a heart of gold."},
+      {"fr": "L'**or** coûte plus cher que l'argent.", "en": "Gold costs more than silver."}]},
+    {"id": "epoux", "fr": "époux", "pos": "noun", "g": "m", "ipa": "e.pu", "en": "husband, spouse; (pl.) the married couple", "def": "Le mari ; au pluriel, le mari et la femme ensemble.", "def_en": "The husband; in the plural, husband and wife together.", "note": "The wife is *l'épouse*. Formal: in everyday French, *mon mari*, *ma femme*.", "examples": [
+      {"fr": "Les jeunes **époux** n'avaient pas d'argent.", "en": "The newlyweds had no money."},
+      {"fr": "Le maire félicite les deux **époux**.", "en": "The mayor congratulates the bride and groom."},
+      {"fr": "Son **époux** travaille à l'hôpital.", "en": "Her husband works at the hospital."}]},
+    {"id": "unir", "fr": "unir", "pos": "verb", "ipa": "y.niʁ", "en": "to unite, to join; (uni) united; plain (colour)", "def": "Mettre ensemble ; lier deux personnes ou deux choses l'une à l'autre.", "def_en": "To put together; to bind two people or two things to each other.", "note": "*S'unir* = to join together. *Uni* also means plain, of one colour: *une chemise unie*.", "forms": ["unis", "unit", "unissons", "unissez", "unissent", "uni", "unissais", "unissait", "unissions", "unissiez", "unissaient", "unirai", "uniras", "unira", "unirons", "unirez", "uniront", "unirais", "unirait", "unirions", "uniriez", "uniraient", "unisse", "unisses", "unissant", "unîmes", "unîtes", "unirent", "unie", "unies"], "examples": [
+      {"fr": "Une bague **unit** deux personnes pour la vie.", "en": "A ring joins two people for life."},
+      {"fr": "La danse les a **unis**.", "en": "Dance brought them together."},
+      {"fr": "Les deux familles sont enfin **unies**.", "en": "The two families are united at last."}]},
+    {"id": "union", "fr": "union", "pos": "noun", "g": "f", "ipa": "y.njɔ̃", "en": "union, marriage", "def": "Le fait d'être ensemble, liés l'un à l'autre ; un mariage.", "def_en": "Being together, bound to each other; a marriage.", "forms": ["unions"], "examples": [
+      {"fr": "Une longue **union**, ça se construit tous les jours.", "en": "A long marriage is built every day."},
+      {"fr": "Le maire célèbre l'**union** des deux jeunes gens.", "en": "The mayor celebrates the marriage of the two young people."},
+      {"fr": "L'**union** fait la force.", "en": "Unity is strength."}]},
+    {"id": "boucle-d-oreille", "fr": "boucle d'oreille", "pos": "noun", "g": "f", "ipa": "bu.klə dɔ.ʁɛj", "en": "earring", "def": "Un petit bijou qu'on porte de chaque côté du visage.", "def_en": "A small piece of jewellery worn on each side of the face.", "forms": ["boucles d'oreilles", "boucles d'oreille"], "examples": [
+      {"fr": "Léa essaie des **boucles d'oreilles** en perles.", "en": "Léa tries on pearl earrings."},
+      {"fr": "J'ai perdu une **boucle d'oreille** à la piscine.", "en": "I lost an earring at the pool."},
+      {"fr": "Inès porte de grandes **boucles d'oreilles** dorées.", "en": "Inès wears big golden earrings."}]},
+    {"id": "diamant", "fr": "diamant", "pos": "noun", "g": "m", "ipa": "dja.mɑ̃", "en": "diamond", "def": "La pierre précieuse la plus dure, transparente, qui brille beaucoup.", "def_en": "The hardest precious stone, clear and very bright.", "forms": ["diamants"], "examples": [
+      {"fr": "Les **diamants** de la vitrine coûtent plus cher que sa voiture.", "en": "The diamonds in the window cost more than his car."},
+      {"fr": "Le **diamant** est la pierre la plus dure.", "en": "Diamond is the hardest stone."},
+      {"fr": "Elle porte une bague avec un petit **diamant**.", "en": "She wears a ring with a small diamond."}]},
+    {"id": "anneau", "fr": "anneau", "pos": "noun", "g": "m", "ipa": "a.no", "en": "ring, band (a plain metal circle)", "def": "Un petit cercle de métal, sans pierre.", "def_en": "A small circle of metal, with no stone.", "note": "*Une bague* is a ring with a stone, *une alliance* a wedding ring.", "forms": ["anneaux"], "examples": [
+      {"fr": "Le bijoutier mesure le doigt avec des **anneaux** de toutes les tailles.", "en": "The jeweller measures the finger with rings of every size."},
+      {"fr": "Les rideaux glissent sur des **anneaux** de métal.", "en": "The curtains slide on metal rings."},
+      {"fr": "Un **anneau** en or, sans pierre, tout simple.", "en": "A gold band, with no stone, very simple."}]},
+    {"id": "noce", "fr": "noce", "pos": "noun", "g": "f", "ipa": "nɔs", "en": "wedding (the feast and the guests)", "def": "La fête du mariage, avec le repas, la danse et les invités.", "def_en": "The wedding party, with the meal, the dancing and the guests.", "note": "*Voyage de noces* = honeymoon; *faire la noce* = to party.", "forms": ["noces"], "examples": [
+      {"fr": "À la **noce**, Jacques a dansé avec toutes mes tantes.", "en": "At the wedding, Jacques danced with all my aunts."},
+      {"fr": "Tous les invités de la **noce** dansent jusqu'au matin.", "en": "All the wedding guests dance until morning."},
+      {"fr": "Ils ont fêté leurs **noces** à la ferme.", "en": "They celebrated their wedding at the farm."}]},
+    {"id": "pendentif", "fr": "pendentif", "pos": "noun", "g": "m", "ipa": "pɑ̃.dɑ̃.tif", "en": "pendant (on a chain)", "def": "Un bijou qu'on porte autour du cou, accroché à une chaîne.", "def_en": "A piece of jewellery worn around the neck, hanging from a chain.", "forms": ["pendentifs"], "examples": [
+      {"fr": "Louise porte encore le **pendentif** de Jacques.", "en": "Louise still wears Jacques's pendant."},
+      {"fr": "Elle a perdu la chaîne de son **pendentif**.", "en": "She has lost the chain of her pendant."},
+      {"fr": "Ce **pendentif** contient une petite photo.", "en": "This pendant holds a tiny photo."}]},
+    {"id": "graver", "fr": "graver", "pos": "verb", "ipa": "ɡʁa.ve", "en": "to engrave, to carve", "def": "Écrire ou dessiner en creusant dans le métal, la pierre ou le bois.", "def_en": "To write or draw by cutting into metal, stone or wood.", "note": "*Grave* and *graves* also mean serious: *c'est grave*.", "forms": ["gravons", "gravez", "gravent", "gravé", "gravée", "gravés", "gravées", "gravais", "gravait", "gravions", "graviez", "gravaient", "graverai", "graveras", "gravera", "graverons", "graverez", "graveront", "graverais", "graverait", "graverions", "graveriez", "graveraient", "gravant", "gravai", "gravas", "grava", "gravâmes", "gravâtes", "gravèrent"], "examples": [
+      {"fr": "Hugo fait **graver** une date dans la bague.", "en": "Hugo has a date engraved in the ring."},
+      {"fr": "Leurs prénoms sont **gravés** sur la pierre.", "en": "Their first names are carved on the stone."},
+      {"fr": "Le bijoutier **gravera** la date à l'intérieur.", "en": "The jeweller will engrave the date inside."}]},
+    {"id": "bracelet", "fr": "bracelet", "pos": "noun", "g": "m", "ipa": "bʁas.lɛ", "en": "bracelet; watch strap", "def": "Un bijou qu'on porte autour du poignet ; la partie de la montre qui en [fait|faire] le tour.", "def_en": "A piece of jewellery worn around the wrist; the part of a watch that goes around it.", "forms": ["bracelets"], "examples": [
+      {"fr": "Léa admire un **bracelet** en argent.", "en": "Léa admires a silver bracelet."},
+      {"fr": "Le **bracelet** de ma montre est cassé.", "en": "My watch strap is broken."},
+      {"fr": "Lou fabrique des **bracelets** en perles.", "en": "Lou makes bead bracelets."}]},
+    {"id": "fiancailles", "fr": "fiançailles", "pos": "noun", "g": "f", "pl": true, "art": "les", "ipa": "fjɑ̃.saj", "en": "engagement (to be married)", "def": "La promesse de se marier, et la période avant le mariage.", "def_en": "The promise to marry, and the time before the wedding.", "examples": [
+      {"fr": "Jacques lui a offert ce pendentif pour leurs **fiançailles**.", "en": "Jacques gave her this pendant for their engagement."},
+      {"fr": "Les **fiançailles** ont duré un an.", "en": "The engagement lasted a year."},
+      {"fr": "Ils fêtent leurs **fiançailles** avec toute la famille.", "en": "They celebrate their engagement with the whole family."}]},
+    {"id": "gravure", "fr": "gravure", "pos": "noun", "g": "f", "ipa": "ɡʁa.vyʁ", "en": "engraving", "def": "Des lettres ou un dessin creusés dans le métal, la pierre ou le bois ; une image faite ainsi.", "def_en": "Letters or a drawing cut into metal, stone or wood; a picture made that way.", "forms": ["gravures"], "examples": [
+      {"fr": "La **gravure** sera prête vendredi.", "en": "The engraving will be ready on Friday."},
+      {"fr": "On lit encore la **gravure** à l'intérieur de la vieille alliance.", "en": "You can still read the engraving inside the old wedding ring."},
+      {"fr": "Au musée, Sophie regarde une **gravure** ancienne de Lyon.", "en": "At the museum, Sophie looks at an old engraving of Lyon."}]},
+    {"id": "broche", "fr": "broche", "pos": "noun", "g": "f", "ipa": "bʁɔʃ", "en": "brooch", "def": "Un bijou qu'on accroche sur un vêtement avec une épingle.", "def_en": "A piece of jewellery pinned onto a garment.", "note": "*À la broche* = on a spit (*un poulet à la broche*).", "forms": ["broches"], "examples": [
+      {"fr": "Une vieille **broche** en forme d'abeille fait reculer Hugo.", "en": "An old bee-shaped brooch makes Hugo step back."},
+      {"fr": "Madame Odette porte une **broche** sur son manteau.", "en": "Madame Odette wears a brooch on her coat."},
+      {"fr": "Elle accroche une **broche** en argent à son col.", "en": "She pins a silver brooch to her collar."}]},
+    {"id": "emeraude", "fr": "émeraude", "pos": "noun", "g": "f", "ipa": "em.ʁod", "en": "emerald", "def": "Une pierre précieuse verte.", "def_en": "A green precious stone.", "forms": ["émeraudes"], "examples": [
+      {"fr": "Louise montre l'**émeraude** de sa mère.", "en": "Louise shows her mother's emerald."},
+      {"fr": "Ses yeux sont verts comme des **émeraudes**.", "en": "Her eyes are as green as emeralds."},
+      {"fr": "Une bague avec une **émeraude**, c'est cher.", "en": "A ring with an emerald is expensive."}]},
+    {"id": "rubis", "fr": "rubis", "pos": "noun", "g": "m", "ipa": "ʁy.bi", "en": "ruby", "def": "Une pierre précieuse rouge.", "def_en": "A red precious stone.", "examples": [
+      {"fr": "Un **rubis** ? Trop rouge pour Carla.", "en": "A ruby? Too red for Carla."},
+      {"fr": "La couronne de la reine est couverte de **rubis**.", "en": "The queen's crown is covered in rubies."},
+      {"fr": "Ce **rubis** brille comme une goutte de sang.", "en": "This ruby shines like a drop of blood."}]},
+    {"id": "ecrin", "fr": "écrin", "pos": "noun", "g": "m", "ipa": "e.kʁɛ̃", "en": "jewellery box, case", "def": "Une petite boîte, souvent en velours, où l'on range un bijou.", "def_en": "A small box, often of velvet, where you keep a piece of jewellery.", "forms": ["écrins"], "examples": [
+      {"fr": "Le bijoutier pose la bague dans un petit **écrin** de velours.", "en": "The jeweller puts the ring in a small velvet box."},
+      {"fr": "Hugo cache l'**écrin** derrière la farine.", "en": "Hugo hides the ring box behind the flour."},
+      {"fr": "Elle ouvre l'**écrin** et pousse un cri.", "en": "She opens the box and lets out a cry."}]},
+    {"id": "carat", "fr": "carat", "pos": "noun", "g": "m", "ipa": "ka.ʁa", "en": "carat", "def": "Une mesure du poids des pierres précieuses, ou de la part d'or pur dans un bijou : l'or pur en a vingt-quatre.", "def_en": "A measure of the weight of precious stones, or of the share of pure gold in a piece of jewellery: pure gold has twenty-four.", "forms": ["carats"], "examples": [
+      {"fr": "C'est de l'or dix-huit **carats**.", "en": "It's eighteen-carat gold."},
+      {"fr": "Un diamant d'un **carat**, c'est beaucoup trop cher pour Hugo.", "en": "A one-carat diamond is far too expensive for Hugo."},
+      {"fr": "L'or pur a vingt-quatre **carats**.", "en": "Pure gold is twenty-four carats."}]},
+    {"id": "bijoutier", "fr": "bijoutier", "pos": "noun", "g": "m", "ipa": "bi.ʒu.tje", "display": "le bijoutier, la bijoutière", "en": "jeweller", "def": "La personne qui fabrique ou qui vend des bagues, des colliers et des montres.", "def_en": "The person who makes or sells rings, necklaces and watches.", "forms": ["bijoutière", "bijoutiers", "bijoutières"], "examples": [
+      {"fr": "Le **bijoutier** a les lunettes sur le bout du nez.", "en": "The jeweller has his glasses on the end of his nose."},
+      {"fr": "La **bijoutière** répare le collier de Louise.", "en": "The jeweller mends Louise's necklace."},
+      {"fr": "Hugo demande conseil au **bijoutier**.", "en": "Hugo asks the jeweller for advice."}]},
+    {"id": "saphir", "fr": "saphir", "pos": "noun", "g": "m", "ipa": "sa.fiʁ", "en": "sapphire", "def": "Une pierre précieuse, le plus souvent bleue.", "def_en": "A precious stone, usually blue.", "forms": ["saphirs"], "examples": [
+      {"fr": "Hugo hésite entre un petit **saphir** et un petit diamant.", "en": "Hugo can't decide between a small sapphire and a small diamond."},
+      {"fr": "La bague de Louise avait un **saphir** bleu.", "en": "Louise's ring had a blue sapphire."},
+      {"fr": "Ce **saphir** a la couleur de la mer.", "en": "This sapphire is the colour of the sea."}]},
+    {"id": "metal", "fr": "métal", "pos": "noun", "g": "m", "ipa": "me.tal", "en": "metal", "def": "Une matière [dure|dur] qui brille, comme le fer, l'or ou l'argent.", "def_en": "A hard material that shines, like iron, gold or silver.", "forms": ["métaux"], "examples": [
+      {"fr": "Quel **métal** ? L'or, pas l'argent.", "en": "Which metal? Gold, not silver."},
+      {"fr": "Le fer est un **métal** solide.", "en": "Iron is a strong metal."},
+      {"fr": "Les **métaux** précieux coûtent cher.", "en": "Precious metals are expensive."}]},
+    {"id": "perle", "fr": "perle", "pos": "noun", "g": "f", "ipa": "pɛʁl", "en": "pearl; bead", "def": "Une petite boule blanche qui brille et qui se forme dans une huître ; une petite boule percée pour faire des colliers.", "def_en": "A small white ball that shines and forms inside an oyster; a small ball with a hole, for making necklaces.", "forms": ["perles"], "examples": [
+      {"fr": "Léa essaie des boucles d'oreilles en **perles**.", "en": "Léa tries on pearl earrings."},
+      {"fr": "Louise garde son collier de **perles** dans un coffre.", "en": "Louise keeps her pearl necklace in a chest."},
+      {"fr": "On trouve les **perles** dans les huîtres.", "en": "Pearls are found in oysters."}]},
+    {"id": "bijouterie", "fr": "bijouterie", "pos": "noun", "g": "f", "ipa": "bi.ʒu.tʁi", "en": "jeweller's shop; jewellery (the trade)", "def": "Le magasin où l'on vend des bagues, des colliers et des montres.", "def_en": "The shop where rings, necklaces and watches are sold.", "forms": ["bijouteries"], "examples": [
+      {"fr": "Hugo entre dans une petite **bijouterie** du Vieux-Lyon.", "en": "Hugo goes into a small jeweller's in Vieux-Lyon."},
+      {"fr": "La **bijouterie** [ferme|fermer] à sept heures.", "en": "The jeweller's closes at seven."},
+      {"fr": "Cette **bijouterie** vend aussi des montres.", "en": "This jeweller's also sells watches."}]},
+    {"id": "joyau", "fr": "joyau", "pos": "noun", "g": "m", "ipa": "ʒwa.jo", "en": "jewel, gem; treasure", "def": "Un bijou très précieux ; une chose très belle et rare, un trésor.", "def_en": "A very precious piece of jewellery; something very beautiful and rare, a treasure.", "forms": ["joyaux"], "examples": [
+      {"fr": "Voici mon **joyau** : une bague ancienne.", "en": "Here is my treasure: an antique ring."},
+      {"fr": "La cathédrale est le **joyau** de la ville.", "en": "The cathedral is the jewel of the town."},
+      {"fr": "Les **joyaux** de la reine brillent sous le verre.", "en": "The queen's jewels shine under the glass."}]},
+    {"id": "demande-en-mariage", "fr": "demande en mariage", "pos": "noun", "g": "f", "ipa": "də.mɑ̃d ɑ̃ ma.ʁjaʒ", "en": "marriage proposal", "def": "Le moment où l'on propose à la personne qu'on aime de devenir son époux ou son épouse.", "def_en": "The moment when you ask the person you love to become your husband or wife.", "note": "*Faire sa demande* = to propose.", "forms": ["demandes en mariage"], "examples": [
+      {"fr": "Hugo fera sa **demande en mariage** samedi, à la ferme.", "en": "Hugo will propose on Saturday, at the farm."},
+      {"fr": "Elle a dit oui à sa **demande en mariage**.", "en": "She said yes to his proposal."},
+      {"fr": "Une **demande en mariage** au restaurant ? Trop banal !", "en": "A proposal at a restaurant? Too ordinary!"}]}
+  ],
+  "story": {
+    "title": "La bague",
+    "en": "The ring",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi deux juillet, en fin de matinée, Hugo pousse la porte d'une petite bijouterie, dans une ruelle du Vieux-Lyon. Léa le suit.", "en": "On Saturday 2 July, late in the morning, Hugo pushes open the door of a small jeweller's in a narrow street of Vieux-Lyon. Léa follows him."},
+      {"sp": "", "fr": "Dans sa poche, une grosse enveloppe : son cachet pour le film et toutes les économies de son pot de confiture. Hugo paie toujours en billets.", "en": "In his pocket, a fat envelope: his film fee and all the savings from his jam jar. Hugo always pays in notes."},
+      {"sp": "", "fr": "Dans la vitrine brillent des diamants, des rubis, des émeraudes et des saphirs. Le bijoutier, un vieil homme aux lunettes sur le bout du nez, sourit.", "en": "In the window, diamonds, rubies, emeralds and sapphires sparkle. The jeweller, an old man with his glasses on the end of his nose, smiles."},
+      {"sp": "Léa", "fr": "Oh, ce bracelet en argent ! Et ces boucles d'oreilles en perles, je peux les essayer ?", "en": "Oh, that silver bracelet! And these pearl earrings, can I try them on?"},
+      {"sp": "", "fr": "Hugo, lui, recule d'un coup : sur le comptoir, une vieille broche en forme d'abeille le regarde.", "en": "Hugo, for his part, steps back at once: on the counter, an old bee-shaped brooch is looking at him."},
+      {"sp": "Le bijoutier", "fr": "N'ayez pas peur, monsieur, elle ne pique pas.", "en": "Don't be afraid, sir, it doesn't sting."},
+      {"sp": "", "fr": "Sur l'écran du téléphone, Louise, les lunettes sur le nez, donne ses conseils depuis Marseille.", "en": "On the phone screen, Louise, glasses on her nose, gives her advice from Marseille."},
+      {"sp": "Louise", "fr": "Quel métal ? L'or, mon chéri, pas l'argent. Une bague, c'est un serment qu'on porte au doigt.", "en": "Which metal? Gold, darling, not silver. A ring is a vow you wear on your finger."},
+      {"sp": "Louise", "fr": "Regarde ce pendentif : ton grand-père me l'a offert pour nos fiançailles, et je le porte encore.", "en": "Look at this pendant: your grandfather gave it to me for our engagement, and I still wear it."},
+      {"sp": "Hugo", "fr": "Et Papi, comment il a fait sa demande en mariage ?", "en": "And Grandpa, how did he propose?"},
+      {"sp": "Louise", "fr": "Sans [date|date] et sans plan ! Il a demandé ma main au milieu du marché, entre deux caisses de tomates.", "en": "With no date and no plan! He asked for my hand in the middle of the market, between two crates of tomatoes."},
+      {"sp": "Louise", "fr": "À la noce, il a dansé avec toutes mes tantes. Les jeunes époux n'avaient pas d'argent, mais quelle fête !", "en": "At the wedding, he danced with all my aunts. The newlyweds had no money, but what a party!"},
+      {"sp": "Louise", "fr": "Tu sais, une longue union, ça se construit tous les jours. La bague, c'est seulement le début.", "en": "You know, a long marriage is built every day. The ring is only the beginning."},
+      {"sp": "", "fr": "Elle montre aussi l'émeraude de sa mère, rangée dans le coffre du grenier avec les lettres de Jacques, puis sa vieille bague au saphir bleu.", "en": "She also shows her mother's emerald, kept in the attic chest with Jacques's letters, and then her old ring with the blue sapphire."},
+      {"sp": "Le bijoutier", "fr": "Et voici mon joyau : une bague ancienne, avec trois diamants.", "en": "And here is my treasure: an antique ring with three diamonds."},
+      {"sp": "Hugo", "fr": "Elle coûte combien ?", "en": "How much is it?"},
+      {"sp": "Le bijoutier", "fr": "Plus cher que votre voiture. Alors, plus simple : une bague en or jaune, dix-huit carats, avec une seule petite pierre.", "en": "More than your car. So, something simpler: a yellow gold ring, eighteen carats, with one small stone."},
+      {"sp": "Hugo", "fr": "Un saphir ou un diamant ? Je n'arrive pas à choisir.", "en": "A sapphire or a diamond? I can't choose."},
+      {"sp": "Léa", "fr": "Pas de rubis, en tout cas : Carla porte déjà du rouge pour le flamenco.", "en": "No ruby, anyway: Carla already wears red for flamenco."},
+      {"sp": "Le bijoutier", "fr": "Et elle fait quelle taille de bague ?", "en": "And what's her ring size?"},
+      {"sp": "", "fr": "Hugo appelle Inès, qui répond tout de suite : « Trente-huit ! »", "en": "Hugo calls Inès, who answers at once: \"Thirty-eight!\""},
+      {"sp": "Le bijoutier", "fr": "Trente-huit ? Mais c'est une pointure, ça, mademoiselle !", "en": "Thirty-eight? But that's a shoe size, miss!"},
+      {"sp": "Inès", "fr": "Oups… Je lui emprunte une bague en secret, et je vous l'apporte lundi.", "en": "Oops… I'll borrow one of her rings in secret and bring it to you on Monday."},
+      {"sp": "Hugo", "fr": "Et on peut graver quelque chose à l'intérieur de l'anneau ? « 14 février », sans année : le jour où je lui ai offert une seule chaussure de danse.", "en": "And can you engrave something inside the band? \"14 février\", with no year: the day I gave her a single dance shoe."},
+      {"sp": "Le bijoutier", "fr": "La gravure sera prête vendredi. Une bague unit deux personnes pour la vie : tout doit être parfait.", "en": "The engraving will be ready on Friday. A ring joins two people for life: everything must be perfect."},
+      {"sp": "", "fr": "Vendredi, la bague attendra Hugo dans un petit écrin de velours rouge. La demande aura lieu samedi prochain, à la ferme. Hugo [sort|sortir] avec une enveloppe [vide|vide] et le cœur léger.", "en": "On Friday, the ring will be waiting for Hugo in a small red velvet box. The proposal will take place next Saturday, at the farm. Hugo leaves with an empty envelope and a light heart."}
+    ]
+  }
+}

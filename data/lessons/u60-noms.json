@@ -1,0 +1,142 @@
+{
+  "id": "u60-noms",
+  "type": "vocab",
+  "unit": 60,
+  "title": "La main de Carla",
+  "en": "Common nouns (16)",
+  "intro": "25 common nouns: a delicate conversation (**le registre, l'entrevue, l'inconvénient, la formalité, le partisan, le chantage, la trêve, l'entente, le messager**), nerves and blunders (**la nausée, le désarroi, le réflexe, l'andouille, la gamelle, le fardeau, le galop**), a love story from the old days (**le bourg, le clocher, la valse, le rival, le baptême, le tempérament**), and a few useful words (**la bretelle, le galon, le déplacement**).",
+  "words": [
+    {"id": "reflexe", "fr": "réflexe", "pos": "noun", "g": "m", "ipa": "ʁe.flɛks", "en": "reflex", "def": "Un mouvement que le corps fait tout seul, sans y penser.", "def_en": "A movement the body makes on its own, without thinking.", "note": "*Par réflexe* = instinctively, without thinking.", "forms": ["réflexes"], "examples": [
+      {"fr": "Par **réflexe**, Hugo répond en espagnol.", "en": "By reflex, Hugo answers in Spanish."},
+      {"fr": "Le gardien a de très bons **réflexes**.", "en": "The goalkeeper has very good reflexes."},
+      {"fr": "Quand il pleut, j'ai le **réflexe** de prendre un parapluie.", "en": "When it rains, I automatically take an umbrella."}]},
+    {"id": "registre", "fr": "registre", "pos": "noun", "g": "m", "ipa": "ʁə.ʒistʁ", "en": "register (of language: formal, everyday, informal); register (a list)", "def": "La manière de parler, plus ou moins polie selon la situation ; un grand cahier où l'on note des noms.", "def_en": "The way of speaking, more or less polite depending on the situation; a big book where names are written down.", "note": "*Changer de registre* = to change register (or tone).", "forms": ["registres"], "examples": [
+      {"fr": "Hugo choisit le **registre** le plus poli : il dit « vous ».", "en": "Hugo chooses the most polite register: he says 'vous'."},
+      {"fr": "Avec le directeur, on change de **registre**.", "en": "With the director, you change register."},
+      {"fr": "Les noms des clients sont dans le **registre** de l'hôtel.", "en": "The guests' names are in the hotel register."}]},
+    {"id": "treve", "fr": "trêve", "pos": "noun", "g": "f", "ipa": "tʁɛv", "en": "truce; respite", "def": "Un arrêt des combats pendant un moment ; une pause dans une chose difficile.", "def_en": "A stop in the fighting for a while; a break in something difficult.", "note": "*Trêve de plaisanteries* = enough joking.", "forms": ["trêves"], "examples": [
+      {"fr": "Bon, **trêve** de plaisanteries.", "en": "Right, enough joking."},
+      {"fr": "Les deux pays signent une **trêve**.", "en": "The two countries sign a truce."},
+      {"fr": "Pendant les fêtes, les deux frères font une **trêve**.", "en": "Over the holidays, the two brothers call a truce."}]},
+    {"id": "galon", "fr": "galon", "pos": "noun", "g": "m", "ipa": "ɡa.lɔ̃", "en": "braid; stripe (on a uniform); (prendre du galon) to be promoted", "def": "Une petite bande de tissu sur un uniforme, qui montre le rang ; un ruban qui décore un vêtement.", "def_en": "A small strip of cloth on a uniform that shows the rank; a ribbon that decorates a garment.", "note": "*Prendre du galon* = to be promoted, to move up.", "forms": ["galons"], "examples": [
+      {"fr": "Chef d'équipe ? Tu as pris du **galon** !", "en": "Team leader? You've gone up in the world!"},
+      {"fr": "Le capitaine a trois **galons** sur la manche.", "en": "The captain has three stripes on his sleeve."},
+      {"fr": "Une robe avec un **galon** doré.", "en": "A dress with a gold braid."}]},
+    {"id": "partisan", "fr": "partisan", "pos": "noun", "g": "m", "ipa": "paʁ.ti.zɑ̃", "display": "le partisan, la partisane", "en": "supporter, advocate; (être partisan de) to be in favour of", "def": "Une personne qui soutient une idée, un projet ou quelqu'un.", "def_en": "A person who supports an idea, a project or someone.", "forms": ["partisane", "partisans", "partisanes"], "examples": [
+      {"fr": "Je suis **partisan** des longues fiançailles.", "en": "I'm in favour of long engagements."},
+      {"fr": "Les **partisans** du projet sont nombreux.", "en": "The project's supporters are many."},
+      {"fr": "Ma sœur est **partisane** de la semaine de quatre jours.", "en": "My sister is in favour of the four-day week."}]},
+    {"id": "bourg", "fr": "bourg", "pos": "noun", "g": "m", "ipa": "buʁ", "en": "market town, small town", "def": "Un gros village, avec un marché et quelques commerces.", "def_en": "A large village, with a market and a few shops.", "forms": ["bourgs"], "examples": [
+      {"fr": "C'était dans un petit **bourg** près de Madrid.", "en": "It was in a small town near Madrid."},
+      {"fr": "Le marché du **bourg** a lieu le mardi.", "en": "The town's market is on Tuesdays."},
+      {"fr": "Les fermes sont loin du **bourg**.", "en": "The farms are a long way from the town."}]},
+    {"id": "messager", "fr": "messager", "pos": "noun", "g": "m", "ipa": "me.sa.ʒe", "display": "le messager, la messagère", "en": "messenger", "def": "Une personne qui porte une nouvelle ou une lettre à quelqu'un.", "def_en": "A person who carries news or a letter to someone.", "forms": ["messagère", "messagers", "messagères"], "examples": [
+      {"fr": "Inès joue les **messagères** entre les deux hommes.", "en": "Inès plays messenger between the two men."},
+      {"fr": "Le roi envoie un **messager** au château.", "en": "The king sends a messenger to the castle."},
+      {"fr": "Ne te fâche pas, je ne suis que le **messager** !", "en": "Don't get angry, I'm only the messenger!"}]},
+    {"id": "galop", "fr": "galop", "pos": "noun", "g": "m", "ipa": "ɡa.lo", "en": "gallop; (au galop) at full speed", "def": "La façon la plus rapide de courir, pour un cheval.", "def_en": "The fastest way of running, for a horse.", "forms": ["galops"], "examples": [
+      {"fr": "Inès arrive au **galop**, avec dix minutes de retard.", "en": "Inès arrives at full speed, ten minutes late."},
+      {"fr": "Le cheval part au **galop** dans le pré.", "en": "The horse sets off at a gallop across the meadow."},
+      {"fr": "Elle a fini ses devoirs au **galop**.", "en": "She rushed through her homework."}]},
+    {"id": "deplacement", "fr": "déplacement", "pos": "noun", "g": "m", "ipa": "de.plas.mɑ̃", "en": "trip, journey (for work); movement", "def": "Un voyage qu'on fait pour son travail ; le fait d'aller d'un endroit à un autre.", "def_en": "A journey made for work; going from one place to another.", "note": "*En déplacement* = away (on business); *les frais de déplacement* = travel expenses.", "forms": ["déplacements"], "examples": [
+      {"fr": "Je te paie le **déplacement**.", "en": "I'll pay for your trip."},
+      {"fr": "Mon père est souvent en **déplacement** pour son travail.", "en": "My father is often away on business."},
+      {"fr": "Les [frais|frais-n] de **déplacement** sont remboursés.", "en": "Travel expenses are refunded."}]},
+    {"id": "nausee", "fr": "nausée", "pos": "noun", "g": "f", "ipa": "no.ze", "en": "nausea, sickness", "def": "Le malaise de quelqu'un qui a mal au cœur.", "def_en": "The discomfort of someone who feels sick.", "note": "*Avoir la nausée* = to feel sick.", "forms": ["nausées"], "examples": [
+      {"fr": "Avant l'appel, Hugo a la **nausée**.", "en": "Before the call, Hugo feels sick."},
+      {"fr": "Le bateau me donne la **nausée**.", "en": "Boats make me feel sick."},
+      {"fr": "Elle a des **nausées** le matin.", "en": "She has morning sickness."}]},
+    {"id": "chantage", "fr": "chantage", "pos": "noun", "g": "m", "ipa": "ʃɑ̃.taʒ", "en": "blackmail", "def": "Le fait de menacer quelqu'un pour obtenir ce qu'on veut.", "def_en": "Threatening someone to get what you want.", "note": "*Faire du chantage à quelqu'un* = to blackmail someone.", "examples": [
+      {"fr": "Papa, c'est du **chantage** !", "en": "Dad, that's blackmail!"},
+      {"fr": "Il lui fait du **chantage** avec une vieille photo.", "en": "He's blackmailing her with an old photo."},
+      {"fr": "Je ne cède pas au **chantage**.", "en": "I don't give in to blackmail."}]},
+    {"id": "clocher", "fr": "clocher", "pos": "noun", "g": "m", "ipa": "klɔ.ʃe", "en": "bell tower, steeple", "def": "La tour d'une église, qui monte vers le ciel.", "def_en": "The tower of a church, rising towards the sky.", "forms": ["clochers"], "examples": [
+      {"fr": "L'orchestre jouait sous le **clocher**.", "en": "The band was playing under the bell tower."},
+      {"fr": "On voit le **clocher** de l'église depuis la route.", "en": "You can see the church steeple from the road."},
+      {"fr": "Chaque village a son **clocher**.", "en": "Every village has its steeple."}]},
+    {"id": "bretelle", "fr": "bretelle", "pos": "noun", "g": "f", "ipa": "bʁə.tɛl", "en": "strap; (pl.) braces, suspenders; slip road", "def": "Une bande de tissu qui passe sur l'épaule ; une petite route pour entrer sur l'autoroute ou en sortir.", "def_en": "A strip of cloth that goes over the shoulder; a small road to get on or off the motorway.", "forms": ["bretelles"], "examples": [
+      {"fr": "Hugo a mis une cravate et des **bretelles**.", "en": "Hugo has put on a tie and braces."},
+      {"fr": "La **bretelle** de mon sac est cassée.", "en": "The strap of my bag is broken."},
+      {"fr": "Prends la **bretelle** pour rejoindre l'autoroute.", "en": "Take the slip road to get onto the motorway."}]},
+    {"id": "desarroi", "fr": "désarroi", "pos": "noun", "g": "m", "ipa": "de.za.ʁwa", "en": "distress, confusion", "def": "L'état d'une personne perdue, qui ne sait plus quoi faire.", "def_en": "The state of a person who is lost and no longer knows what to do.", "examples": [
+      {"fr": "En plein **désarroi**, Hugo oublie tout son discours.", "en": "In complete disarray, Hugo forgets his whole speech."},
+      {"fr": "Son départ laisse toute la famille dans le **désarroi**.", "en": "His leaving throws the whole family into confusion."},
+      {"fr": "On voit son **désarroi** sur son visage.", "en": "You can see his distress on his face."}]},
+    {"id": "gamelle", "fr": "gamelle", "pos": "noun", "g": "f", "ipa": "ɡa.mɛl", "en": "mess tin, lunch box; (dog's) bowl; (prendre une gamelle, fam.) to fall flat", "def": "Une boîte en métal pour emporter son repas ; (familier) une chute.", "def_en": "A metal box to take your meal with you; (informal) a fall.", "note": "*Prendre une gamelle* (informal) = to fall flat on your face; to fail.", "forms": ["gamelles"], "examples": [
+      {"fr": "Devant elle, j'ai pris une **gamelle** !", "en": "I fell flat on my face in front of her!"},
+      {"fr": "Le chien attend devant sa **gamelle**.", "en": "The dog is waiting by its bowl."},
+      {"fr": "Le midi, il mange sa **gamelle** au bureau.", "en": "At lunchtime, he eats his packed lunch at the office."}]},
+    {"id": "fardeau", "fr": "fardeau", "pos": "noun", "g": "m", "ipa": "faʁ.do", "en": "burden", "def": "Une chose lourde à porter ; un grand souci qu'on doit supporter.", "def_en": "A heavy thing to carry; a great worry you have to bear.", "forms": ["fardeaux"], "examples": [
+      {"fr": "Je ne dis rien à ma sœur. Quel **fardeau** !", "en": "I can't say anything to my sister. What a burden!"},
+      {"fr": "Il porte un lourd **fardeau** sur le dos.", "en": "He's carrying a heavy load on his back."},
+      {"fr": "Je ne veux pas être un **fardeau** pour mes enfants.", "en": "I don't want to be a burden to my children."}]},
+    {"id": "bapteme", "fr": "baptême", "pos": "noun", "g": "m", "ipa": "ba.tɛm", "en": "baptism, christening; (le baptême de l'air) first flight", "def": "La cérémonie où un bébé entre dans l'Église.", "def_en": "The ceremony in which a baby enters the Church.", "note": "*Le baptême de l'air* = your first flight.", "forms": ["baptêmes"], "examples": [
+      {"fr": "Il montre une photo du **baptême** de Carla.", "en": "He shows a photo of Carla's christening."},
+      {"fr": "Le **baptême** a lieu dimanche à l'église.", "en": "The christening is on Sunday at the church."},
+      {"fr": "Ce vol pour Madrid, c'était mon **baptême** de l'air.", "en": "That flight to Madrid was my first time in a plane."}]},
+    {"id": "rival", "fr": "rival", "pos": "noun", "g": "m", "ipa": "ʁi.val", "display": "le rival, la rivale", "en": "rival", "def": "Une personne qui veut gagner la même chose qu'une autre.", "def_en": "A person who wants to win the same thing as someone else.", "forms": ["rivale", "rivaux", "rivales"], "examples": [
+      {"fr": "J'avais un **rival**, le fils du boulanger.", "en": "I had a rival, the baker's son."},
+      {"fr": "Les deux sœurs sont devenues des **rivales**.", "en": "The two sisters have become rivals."},
+      {"fr": "Au tennis, il n'a pas de **rival**.", "en": "At tennis, he has no rival."}]},
+    {"id": "valse", "fr": "valse", "pos": "noun", "g": "f", "ipa": "vals", "en": "waltz", "def": "Une danse à trois temps, où les couples tournent.", "def_en": "A dance in three time, in which couples turn round and round.", "forms": ["valses"], "examples": [
+      {"fr": "L'orchestre jouait une **valse**.", "en": "The band was playing a waltz."},
+      {"fr": "Carla apprend la **valse** aux enfants.", "en": "Carla teaches the children the waltz."},
+      {"fr": "Au mariage, on ouvre le bal avec une **valse**.", "en": "At the wedding, the dancing opens with a waltz."}]},
+    {"id": "temperament", "fr": "tempérament", "pos": "noun", "g": "m", "ipa": "tɑ̃.pe.ʁa.mɑ̃", "en": "temperament, character", "def": "Le caractère d'une personne, sa manière d'être.", "def_en": "A person's character, their way of being.", "forms": ["tempéraments"], "examples": [
+      {"fr": "Elle a le **tempérament** de sa mère.", "en": "She has her mother's temperament."},
+      {"fr": "Il a un **tempérament** calme.", "en": "He has a calm temperament."},
+      {"fr": "C'est une question de **tempérament**.", "en": "It's a question of temperament."}]},
+    {"id": "inconvenient", "fr": "inconvénient", "pos": "noun", "g": "m", "ipa": "ɛ̃.kɔ̃.ve.njɑ̃", "en": "drawback, disadvantage; (si vous n'y voyez pas d'inconvénient) if you don't mind", "def": "Le mauvais côté d'une chose.", "def_en": "The bad side of something.", "note": "*Si vous n'y voyez pas d'inconvénient* = if you don't mind.", "forms": ["inconvénients"], "examples": [
+      {"fr": "Si vous n'y voyez pas d'**inconvénient**, je voudrais vous parler.", "en": "If you don't mind, I'd like to talk to you."},
+      {"fr": "Le seul **inconvénient** de cet appartement, c'est le bruit.", "en": "The only drawback of this flat is the noise."},
+      {"fr": "Cette solution a des avantages et des **inconvénients**.", "en": "This solution has advantages and disadvantages."}]},
+    {"id": "formalite", "fr": "formalité", "pos": "noun", "g": "f", "ipa": "fɔʁ.ma.li.te", "en": "formality", "def": "Une démarche obligatoire, souvent écrite ; une chose facile, sans importance.", "def_en": "A compulsory step, often in writing; something easy that doesn't matter.", "forms": ["formalités"], "examples": [
+      {"fr": "Ma réponse ? Une simple **formalité**.", "en": "My answer? A mere formality."},
+      {"fr": "À la frontière, les **formalités** sont rapides.", "en": "At the border, the formalities are quick."},
+      {"fr": "Pour se marier, il y a quelques **formalités** à la mairie.", "en": "To get married, there are a few formalities at the town hall."}]},
+    {"id": "entente", "fr": "entente", "pos": "noun", "g": "f", "ipa": "ɑ̃.tɑ̃t", "en": "understanding, agreement; good relations", "def": "Les bonnes relations entre des personnes ; un accord.", "def_en": "Good relations between people; an agreement.", "note": "*La bonne entente* = getting on well together.", "forms": ["ententes"], "examples": [
+      {"fr": "À la bonne **entente** des deux familles !", "en": "To good relations between the two families!"},
+      {"fr": "Il y a une bonne **entente** entre les voisins.", "en": "The neighbours get on well."},
+      {"fr": "Les deux pays arrivent à une **entente**.", "en": "The two countries reach an agreement."}]},
+    {"id": "andouille", "fr": "andouille", "pos": "noun", "g": "f", "ipa": "ɑ̃.duj", "en": "idiot, twit (fam.); andouille (a pork sausage)", "def": "(familier) Une personne bête ; une grosse saucisse de porc.", "def_en": "(informal) A silly person; a big pork sausage.", "note": "*Faire l'andouille* = to act the fool. *L'andouillette* is a smaller sausage.", "forms": ["andouilles"], "examples": [
+      {"fr": "Hugo, quelle **andouille** !", "en": "Hugo, what a twit!"},
+      {"fr": "Arrête de faire l'**andouille** !", "en": "Stop clowning around!"},
+      {"fr": "Une tranche d'**andouille**, s'il vous plaît.", "en": "A slice of andouille, please."}]},
+    {"id": "entrevue", "fr": "entrevue", "pos": "noun", "g": "f", "ipa": "ɑ̃.tʁə.vy", "en": "meeting, interview (formal)", "def": "Une rencontre organisée entre des personnes, pour parler d'une chose importante.", "def_en": "A meeting arranged between people to talk about something important.", "forms": ["entrevues"], "examples": [
+      {"fr": "Alors, tu es prêt pour l'**entrevue** historique ?", "en": "So, are you ready for the historic meeting?"},
+      {"fr": "Le directeur me reçoit pour une **entrevue** demain.", "en": "The director is seeing me for a meeting tomorrow."},
+      {"fr": "L'**entrevue** entre les deux présidents a duré une heure.", "en": "The meeting between the two presidents lasted an hour."}]}
+  ],
+  "story": {
+    "title": "La main de Carla",
+    "en": "Wednesday 6 July: Hugo asks Carla's father for her hand, by video.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi six juillet, à sept heures du soir, la table de la cuisine de Hugo est devenue un bureau. Son téléphone est posé contre une bouteille.", "en": "On Wednesday 6 July, at seven in the evening, Hugo's kitchen table has become a desk. His phone is propped against a bottle."},
+      {"sp": "", "fr": "Carla donne un cours de danse chez Madame Garnier jusqu'à huit heures. Elle ne sait rien.", "en": "Carla is giving a dance class at Madame Garnier's until eight. She knows nothing."},
+      {"sp": "", "fr": "Hugo a mis une chemise blanche, une cravate et des bretelles. Sous la table, il porte un vieux pantalon de pyjama : la caméra ne le verra pas.", "en": "Hugo has put on a white shirt, a tie and braces. Under the table, he's wearing old pyjama bottoms: the camera won't see them."},
+      {"sp": "Hugo", "fr": "J'ai la nausée. Je n'ai rien mangé depuis midi.", "en": "I feel sick. I haven't eaten a thing since lunchtime."},
+      {"sp": "", "fr": "Depuis une semaine, Inès joue les messagères entre les deux hommes. Ce soir, elle arrive au galop, avec dix minutes de retard.", "en": "For a week, Inès has been playing messenger between the two men. This evening she arrives at full speed, ten minutes late."},
+      {"sp": "Inès", "fr": "Pardon, pardon ! Alors, tu es prêt pour l'entrevue historique ?", "en": "Sorry, sorry! So, are you ready for the historic meeting?"},
+      {"sp": "Inès", "fr": "Depuis mai, je ne dis rien à ma sœur. Quel fardeau !", "en": "Since May, I haven't said a word to my sister. What a burden!"},
+      {"sp": "", "fr": "Le père de Carla apparaît à l'écran, dans l'appartement de Madrid. Hugo commence son discours en espagnol, dans le registre le plus poli, avec les belles phrases de son cours du soir.", "en": "Carla's father appears on the screen, in the flat in Madrid. Hugo starts his speech in Spanish, in the most polite register, with the fine phrases from his evening class."},
+      {"sp": "Le père", "fr": "Bonsoir, Hugo ! On peut parler français : j'ai bien travaillé avec Léa !", "en": "Good evening, Hugo! We can speak French: I've worked hard with Léa!"},
+      {"sp": "", "fr": "En plein désarroi, Hugo oublie tout son discours. Par réflexe, il répond en espagnol, puis il rougit.", "en": "In complete disarray, Hugo forgets his whole speech. By reflex, he answers in Spanish, then blushes."},
+      {"sp": "", "fr": "Il fait un grand geste et renverse son verre d'eau sur ses notes.", "en": "He makes a big gesture and knocks his glass of water over his notes."},
+      {"sp": "Inès", "fr": "Hugo, quelle andouille !", "en": "Hugo, what a twit!"},
+      {"sp": "Le père", "fr": "Alors, Hugo, tu es chef d'équipe maintenant ? Tu as pris du galon !", "en": "So, Hugo, you're a team leader now? You've gone up in the world!"},
+      {"sp": "Hugo", "fr": "Monsieur, si vous n'y voyez pas d'inconvénient, je voudrais vous demander la main de votre fille.", "en": "Sir, if you don't mind, I would like to ask for your daughter's hand."},
+      {"sp": "", "fr": "Silence. Le père fait semblant de réfléchir.", "en": "Silence. The father pretends to think it over."},
+      {"sp": "Le père", "fr": "Voyons… Je suis partisan des longues fiançailles. Dix ans, par exemple.", "en": "Let's see… I'm in favour of long engagements. Ten years, for example."},
+      {"sp": "Le père", "fr": "Mais non, je plaisante ! Ma réponse est une simple formalité : c'est oui. À une condition : la saison prochaine, tu viens voir un match avec moi à Madrid. Je te paie le déplacement.", "en": "No, I'm joking! My answer is a mere formality: it's yes. On one condition: next season, you come and see a match with me in Madrid. I'll pay for your trip."},
+      {"sp": "Inès", "fr": "Papa, c'est du chantage !", "en": "Dad, that's blackmail!"},
+      {"sp": "Le père", "fr": "Bon, trêve de plaisanteries. J'ai rencontré ma femme dans un petit bourg près de Madrid, à la fête du village.", "en": "Right, enough joking. I met my wife in a small town near Madrid, at the village fête."},
+      {"sp": "Le père", "fr": "Le soir, l'orchestre jouait une valse sous le clocher. J'avais un rival, le fils du boulanger, qui dansait bien mieux que moi.", "en": "In the evening, the band was playing a waltz under the bell tower. I had a rival, the baker's son, who danced much better than me."},
+      {"sp": "Le père", "fr": "Et devant elle, j'ai pris une gamelle ! Elle a ri, puis elle a accepté la danse suivante.", "en": "And I fell flat on my face in front of her! She laughed, then she accepted the next dance."},
+      {"sp": "", "fr": "Il montre une photo du baptême de Carla, dans une longue robe blanche.", "en": "He shows a photo of Carla's christening, in a long white gown."},
+      {"sp": "Le père", "fr": "Carla a le tempérament de sa mère. Elle va rire, puis elle va dire oui.", "en": "Carla has her mother's temperament. She'll laugh, then she'll say yes."},
+      {"sp": "", "fr": "Il lève son verre à la bonne entente des deux familles et promet de ne rien dire avant samedi.", "en": "He raises his glass to good relations between the two families and promises to say nothing before Saturday."},
+      {"sp": "", "fr": "Tom traverse le palier et frappe à la porte : « Alors ? » Hugo enlève ses bretelles et respire enfin.", "en": "Tom crosses the landing and knocks on the door: 'Well?' Hugo takes off his braces and breathes at last."}
+    ]
+  }
+}
