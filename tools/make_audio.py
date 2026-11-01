@@ -99,6 +99,7 @@ FIXES = {
     "louerai": "luʁˈe", "loueras": "luʁˈa", "louera": "luʁˈa", "louerons": "luʁˈɔ̃", "louerez": "luʁˈe", "loueront": "luʁˈɔ̃", "avouerai": "avuʁˈe", "avoueras": "avuʁˈa", "avouera": "avuʁˈa", "avouerons": "avuʁˈɔ̃", "avouerez": "avuʁˈe", "avoueront": "avuʁˈɔ̃",
     "jouerais": "ʒuʁˈɛ", "jouerait": "ʒuʁˈɛ", "jouerions": "ʒuʁjˈɔ̃", "joueriez": "ʒuʁjˈe", "joueraient": "ʒuʁˈɛ",  # conditional of -ouer verbs: the voice says /ʒwʁɛ/
     "louerais": "luʁˈɛ", "louerait": "luʁˈɛ", "louerions": "luʁjˈɔ̃", "loueriez": "luʁjˈe", "loueraient": "luʁˈɛ", "avouerais": "avuʁˈɛ", "avouerait": "avuʁˈɛ", "avouerions": "avuʁjˈɔ̃", "avoueriez": "avuʁjˈe", "avoueraient": "avuʁˈɛ",
+    "nouerai": "nuʁˈe", "noueras": "nuʁˈa", "nouera": "nuʁˈa", "nouerons": "nuʁˈɔ̃", "nouerez": "nuʁˈe", "noueront": "nuʁˈɔ̃", "nouerais": "nuʁˈɛ", "nouerait": "nuʁˈɛ", "nouerions": "nuʁjˈɔ̃", "noueriez": "nuʁjˈe", "noueraient": "nuʁˈɛ",  # future and conditional of nouer (u59): the voice says /nwʁe/
     "vœu": "vˈø",  # the voice says /vœ/
     "veuve": "vˈœv", "veuves": "vˈœv",  # the voice says /vøv/
     "bugnes": "bˈyɲ",  # the voice says /nj/, like -gnent

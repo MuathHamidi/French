@@ -1,0 +1,108 @@
+{
+  "id": "u59-que-faire",
+  "type": "grammar",
+  "unit": 59,
+  "title": "Moi, chanter ?",
+  "en": "The infinitive on its own: Que faire ? Je ne sais pas quoi dire. Moi, chanter ? Et Tom de chanter.",
+  "intro": "French can build a sentence or a clause around a bare infinitive, with no conjugated verb. It asks what to do (***Que faire ?** Où aller ?*), and after *savoir* or *se demander* it makes an indirect question when the subject stays the same (*Je ne sais pas **quoi dire***). It exclaims in surprise, indignation or regret (***Moi, chanter ?*** ***Dire que** j'ai failli ne pas venir !*), and it can be a subject, usually picked up by *c'est* (***Partir, c'est mourir un peu***). Written stories also have the narrative infinitive, *et* + subject + *de* + infinitive: ***Et Tom de chanter.*** The first four are everyday French (*quoi faire ?* is spoken); the narrative infinitive belongs to writing.",
+  "cases": [
+    {"id": "qf-question", "label": "Que faire ? Où aller ?", "rule": "A direct question about what to do can drop the subject and the conjugated verb: *Que faire ?* *Où aller ?* *À qui le dire ?* *Comment lui annoncer ?* *Pourquoi attendre ?* It means *que dois-je faire ?*, shorter and more dramatic (*quoi faire ?* is spoken). *À quoi bon* (what's the point of) is fixed: *À quoi bon avoir peur ?*"},
+    {"id": "qf-indirecte", "label": "Je ne sais pas quoi dire", "rule": "After *savoir*, *se demander*, *ne plus savoir*, an indirect question takes an infinitive when its subject is the subject of the main verb: *Je ne sais pas quoi dire.* *Il se demande où dormir.* *Elle ne sait plus comment le remercier.* *Tom ne sait pas par où commencer.* With *ne… pas*, use *quoi*; *que* goes with *ne* alone, in a more literary style: *je ne sais que faire.*"},
+    {"id": "qf-exclamation", "label": "Moi, chanter ?", "rule": "An infinitive alone can express surprise or indignation: *Moi, chanter devant ma mère ?* *Lui, danser le flamenco ?* *Dire que…* (to think that…) opens an exclamation: *Dire que j'ai failli ne pas chanter !* A regret takes the past infinitive: *Ne pas avoir pensé à un mouchoir !*"},
+    {"id": "qf-sujet", "label": "Chanter en français, c'est mon rêve", "rule": "An infinitive can be the subject, usually picked up by *c'est*: *Chanter en français, c'est mon rêve.* *Partir, c'est mourir un peu.* *Vouloir, c'est pouvoir.* It can also be the plain subject of a verb: *Apprendre une langue prend du temps.*"},
+    {"id": "qf-narratif", "label": "Et Tom de chanter", "rule": "In written stories, *et* + subject + *de* + infinitive tells a quick, lively reaction, like a passé simple: *Et Tom de chanter, et la terrasse d'applaudir.* *Et Enzo de pleurer dans son tablier.* It belongs to writing and storytelling, never to everyday speech."}
+  ],
+  "sections": [
+    {"title": "1. Que faire ? Où aller ?", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Que faire maintenant ?", "What should we do now?"],
+      ["Où aller ce soir ?", "Where shall we go tonight?"],
+      ["À qui le dire ?", "Who can I tell?"]]},
+     "examples": [
+      {"fr": "{Que faire ?|qf-question} {Où me cacher ?|qf-question}", "en": "What do I do? Where can I hide?"},
+      {"fr": "{Pourquoi attendre ?|qf-question} {À quoi bon avoir peur ?|qf-question}", "en": "Why wait? What's the point of being afraid?"}],
+     "tip": "The bare infinitive makes the question shorter and more dramatic than que dois-je faire ? À quoi bon takes the infinitive directly, with no de."},
+    {"title": "2. Je ne sais pas quoi dire", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je ne sais pas quoi dire.", "I don't know what to say."],
+      ["Il se demande où dormir.", "He wonders where to sleep."],
+      ["Je ne sais que faire.", "I don't know what to do. (literary)"]]},
+     "examples": [
+      {"fr": "Mais {je ne sais pas quoi dire|qf-indirecte} avant la chanson.", "en": "But I don't know what to say before the song."},
+      {"fr": "{Elle ne sait plus comment le remercier|qf-indirecte}.", "en": "She no longer knows how to thank him."}],
+     "tip": "The infinitive works only when the subject stays the same: je ne sais pas quoi dire means I don't know what I should say. With ne… pas, what is quoi; que goes with ne alone."},
+    {"title": "3. Moi, chanter ?", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Lui, danser le flamenco ?", "Him, dance flamenco?"],
+      ["Dire que j'ai failli rester chez moi !", "To think I nearly stayed at home!"],
+      ["Ne pas avoir pensé à mon parapluie !", "And I didn't even think of my umbrella!"]]},
+     "examples": [
+      {"fr": "{Moi, chanter devant ma mère ?|qf-exclamation}", "en": "Me, sing in front of my mother?"},
+      {"fr": "{Dire que j'ai failli ne pas chanter !|qf-exclamation}", "en": "To think I nearly didn't sing!"}],
+     "tip": "The tone does the work: surprise, indignation or regret. A regret about the past takes the past infinitive: ne pas avoir pensé."},
+    {"title": "4. Chanter en français, c'est mon rêve", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Partir, c'est mourir un peu.", "To leave is to die a little."],
+      ["Vouloir, c'est pouvoir.", "Where there's a will, there's a way."],
+      ["Apprendre une langue prend du temps.", "Learning a language takes time."]]},
+     "examples": [
+      {"fr": "{Chanter en français, c'était ton rêve|qf-sujet}.", "en": "Singing in French was your dream."},
+      {"fr": "{Partir, c'est mourir un peu|qf-sujet}.", "en": "To leave is to die a little."}],
+     "tip": "Where English uses an -ing form or to as a subject, French uses the infinitive, picked up by c'est after a comma."},
+    {"title": "5. Et Tom de chanter", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Et Tom de chanter.", "And Tom started to sing."],
+      ["Et le public d'applaudir.", "And the audience burst into applause."],
+      ["Et tout le monde de rire.", "And everyone burst out laughing."]]},
+     "examples": [
+      {"fr": "{Et Tom de chanter|qf-narratif}, {et Antoine de le suivre à l'harmonica|qf-narratif}.", "en": "And Tom starts singing, and Antoine follows him on the harmonica."},
+      {"fr": "{Et Enzo de pleurer dans son tablier|qf-narratif}.", "en": "And Enzo cries into his apron."}],
+     "tip": "A writer's device for a quick reaction, like a passé simple. Never use it in conversation."}
+  ],
+  "mistakes": [
+    {"wrong": "Je ne sais pas ce que dire.", "right": "Je ne sais pas quoi dire.", "why": "In an indirect question with an infinitive, what is quoi; ce que needs a conjugated verb (je ne sais pas ce que je dois dire)."},
+    {"wrong": "À quoi bon de chanter ?", "right": "À quoi bon chanter ?", "why": "À quoi bon takes the infinitive directly, with no de."},
+    {"wrong": "Chantant en français, c'est mon rêve.", "right": "Chanter en français, c'est mon rêve.", "why": "English uses the -ing form as a subject; French uses the infinitive."},
+    {"wrong": "Et Tom chanter, et la terrasse applaudir.", "right": "Et Tom de chanter, et la terrasse d'applaudir.", "why": "The narrative infinitive needs de before each infinitive."}
+  ],
+  "story": {
+    "title": "Moi, chanter ?",
+    "en": "Me, sing?",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi vingt et un juin, c'est la Fête de la musique : on joue dans toutes les rues de Lyon. Le patron du café, en bas de chez Léa et Sophie, a prêté sa terrasse et un micro.", "en": "On Tuesday 21 June, it's the Fête de la musique: people are playing in every street in Lyon. The owner of the café below Léa and Sophie's flat has lent his terrace and a microphone."},
+      {"sp": "", "fr": "La terrasse est pleine. Au premier rang, il y a les parents de Tom et sa petite sœur. Tom tient sa guitare et devient tout pâle.", "en": "The terrace is full. In the front row are Tom's parents and his younger sister. Tom is holding his guitar and goes quite pale."},
+      {"sp": "Tom", "fr": "{Moi, chanter devant ma mère ?|qf-exclamation} {Que faire ?|qf-question} {Où me cacher ?|qf-question}", "en": "Me, sing in front of my mother? What do I do? Where can I hide?"},
+      {"sp": "Camille", "fr": "Tom, tu as eu la meilleure note de guitare de ton année !", "en": "Tom, you got the best guitar mark of your year!"},
+      {"sp": "Tom", "fr": "La guitare, oui. Mais {je ne sais pas quoi dire|qf-indirecte} avant la chanson. {Je ne sais même pas par où commencer|qf-indirecte}.", "en": "The guitar, yes. But I don't know what to say before the song. I don't even know where to start."},
+      {"sp": "", "fr": "Antoine, qui reprend l'avion pour Montréal demain, sort un harmonica de sa poche.", "en": "Antoine, who flies back to Montréal tomorrow, takes a harmonica out of his pocket."},
+      {"sp": "Antoine", "fr": "{Pourquoi attendre ?|qf-question} {À quoi bon avoir peur ?|qf-question} Il y a deux ans, à la Fête de la musique, tu as joué avec mon groupe, tu te souviens ?", "en": "Why wait? What's the point of being afraid? Two years ago, at the Fête de la musique, you played with my band, remember?"},
+      {"sp": "Léa", "fr": "{Chanter en français, c'était ton rêve|qf-sujet}. Alors vas-y.", "en": "Singing in French was your dream. So go on."},
+      {"sp": "Camille", "fr": "Et puis, {vouloir, c'est pouvoir|qf-sujet}.", "en": "And anyway, where there's a will, there's a way."},
+      {"sp": "Tom", "fr": "Bon… Cette chanson s'appelle « Quatre heures du matin ». Elle parle des boulangers de nuit. Je l'ai écrite pour Enzo, qui se lève à quatre heures.", "en": "Right… This song is called « Quatre heures du matin ». It's about night bakers. I wrote it for Enzo, who gets up at four."},
+      {"sp": "", "fr": "Enzo est venu directement du fournil, encore en tablier.", "en": "Enzo has come straight from the bakehouse, still in his apron."},
+      {"sp": "", "fr": "{Et Tom de chanter|qf-narratif}, {et Antoine de le suivre à l'harmonica|qf-narratif}.", "en": "And Tom starts singing, and Antoine follows him on the harmonica."},
+      {"sp": "", "fr": "Au premier refrain, sa mère chante avec lui : elle l'a appris pendant leurs appels vidéo. Son père filme avec son téléphone, sans trembler, mais les yeux mouillés.", "en": "At the first chorus, his mother sings with him: she learnt it on their video calls. His father films with his phone, without shaking, but with wet eyes."},
+      {"sp": "", "fr": "Sa petite sœur oublie même de se moquer de son accent.", "en": "His younger sister even forgets to make fun of his accent."},
+      {"sp": "", "fr": "{Et Enzo de pleurer dans son tablier|qf-narratif}.", "en": "And Enzo cries into his apron."},
+      {"sp": "Enzo", "fr": "{Ne pas avoir pensé à un mouchoir !|qf-exclamation} Franchement, l'Anglais, tu exagères.", "en": "And I didn't even think to bring a handkerchief! Honestly, Englishman, you're too much."},
+      {"sp": "", "fr": "Pour le dernier refrain, Hugo chante avec eux, faux et très fort. Carla lui pose doucement la main sur la bouche.", "en": "For the last chorus, Hugo sings along, out of tune and very loud. Carla gently puts her hand over his mouth."},
+      {"sp": "Hugo", "fr": "{Moi, chanter faux ?|qf-exclamation} Je chante avec mon cœur !", "en": "Me, sing out of tune? I sing with my heart!"},
+      {"sp": "", "fr": "La chanson finit. {Et la terrasse d'applaudir|qf-narratif}, {et le patron de crier « Bravo ! »|qf-narratif}", "en": "The song ends. And the whole terrace claps, and the owner shouts « Bravo! »"},
+      {"sp": "", "fr": "Après, sa mère prend Tom dans ses bras. {Elle ne sait plus comment le remercier|qf-indirecte}.", "en": "Afterwards, his mother takes Tom in her arms. She no longer knows how to thank him."},
+      {"sp": "La mère de Tom", "fr": "Merci, mon chéri. C'était… très beau.", "en": "Thank you, darling. It was… very beautiful."},
+      {"sp": "Tom", "fr": "{Dire que j'ai failli ne pas chanter !|qf-exclamation}", "en": "To think I nearly didn't sing!"},
+      {"sp": "La sœur de Tom", "fr": "Ton accent est toujours horrible. Mais la chanson est belle.", "en": "Your accent is still terrible. But the song is beautiful."},
+      {"sp": "", "fr": "Tard dans la soirée, dans la rue, Antoine serre tout le monde dans ses bras. Chez Hugo, ses valises attendent déjà.", "en": "Late in the evening, out in the street, Antoine hugs everyone. At Hugo's, his suitcases are already waiting."},
+      {"sp": "Antoine", "fr": "{Partir, c'est mourir un peu|qf-sujet}. Mais on reviendra, promis !", "en": "To leave is to die a little. But we'll be back, promise!"},
+      {"sp": "", "fr": "Demain, Antoine et Josée prendront l'avion pour Montréal, et la famille de Tom, le train pour Londres.", "en": "Tomorrow, Antoine and Josée will fly to Montréal, and Tom's family will take the train to London."}
+    ]
+  },
+  "quiz": [
+    {"case": "qf-question", "type": "mc", "q": "Il pleut et le bus ne vient pas… ___ ?", "en": "It's raining and the bus isn't coming… What should we do?", "options": ["Que faire", "Que fait", "Ce que faire"], "answer": "Que faire"},
+    {"case": "qf-question", "type": "mc", "q": "___ avoir peur ? Tu chantes très bien.", "en": "What's the point of being afraid? You sing very well.", "options": ["À quoi bon", "À quoi bon de", "Pour quoi bon"], "answer": "À quoi bon"},
+    {"case": "qf-indirecte", "type": "mc", "q": "Tom ne sait pas ___ dire avant la chanson.", "en": "Tom doesn't know what to say before the song.", "options": ["quoi", "ce que", "qu'est-ce que"], "answer": "quoi"},
+    {"case": "qf-indirecte", "type": "mc", "q": "Sa mère ne sait plus ___ le remercier.", "en": "His mother no longer knows how to thank him.", "options": ["comment", "quoi", "ce que"], "answer": "comment"},
+    {"case": "qf-exclamation", "type": "mc", "q": "Moi, ___ devant ma mère ? Jamais !", "en": "Me, sing in front of my mother? Never!", "options": ["chanter", "chante", "chantant"], "answer": "chanter"},
+    {"case": "qf-exclamation", "type": "mc", "q": "___ j'ai failli ne pas chanter !", "en": "To think I nearly didn't sing!", "options": ["Dire que", "Dire de", "Dit que"], "answer": "Dire que"},
+    {"case": "qf-sujet", "type": "mc", "q": "___ une langue, ça prend du temps.", "en": "Learning a language takes time.", "options": ["Apprendre", "Apprenant", "Apprend"], "answer": "Apprendre"},
+    {"case": "qf-sujet", "type": "mc", "q": "Partir, ___ mourir un peu.", "en": "To leave is to die a little.", "options": ["c'est", "il est", "elle est"], "answer": "c'est"},
+    {"case": "qf-narratif", "type": "mc", "q": "Et Tom ___ chanter, et la terrasse d'applaudir.", "en": "And Tom started to sing, and the terrace clapped.", "options": ["de", "à", "pour"], "answer": "de"},
+    {"case": "qf-narratif", "type": "mc", "q": "Et Enzo ___ dans son tablier.", "en": "And Enzo cried into his apron.", "options": ["de pleurer", "pleurer", "à pleurer"], "answer": "de pleurer"}
+  ]
+}

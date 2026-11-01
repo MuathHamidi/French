@@ -1,0 +1,108 @@
+{
+  "id": "u59-valeurs-temps",
+  "type": "grammar",
+  "unit": 59,
+  "title": "Et là, je glisse…",
+  "en": "Tenses outside their time: the narrative present, the polite and the 'nearly' imparfait, the future of history and of politeness",
+  "intro": "French often uses a tense outside its own time. In a spoken story, speakers switch to the **present** to make the past vivid (*Je monte sur scène, et là, je glisse…*), and books use it for dates (*En 1670, Molière écrit…*). The **imparfait** softens a request (*Je voulais vous demander…*) and, after *une seconde de plus*, *un peu plus* or *sans* + noun, says what nearly happened (*Une seconde de plus, et il tombait*). The **future** tells what came later in a story told in the present, and makes an instruction polite (*Vous sortirez par la porte du jardin*); with *demain* or *ce soir*, the **present** tells what is planned. The narrative present, the polite imparfait and the present for plans are everyday speech; the historic present and the imparfait of the press belong to writing.",
+  "cases": [
+    {"id": "vt-present-recit", "label": "The present in a story: et là…", "rule": "To make a past story vivid, speakers switch to the present, often after *et là*: *Hier, je monte sur scène, et là, qui je vois ? Le père de Jade. Je glisse, je me rattrape…* Books, guides and programmes use the historic present for dates: *En 1670, Molière écrit Le Bourgeois gentilhomme.* Once the story is in the present, its events stay in the present."},
+    {"id": "vt-imparfait-politesse", "label": "The imparfait of politeness: je voulais vous demander…", "rule": "To soften a request, a greeting or an offer, French uses the imparfait of *vouloir, venir, appeler, passer*: *Je voulais vous demander si on peut filmer.* *Je venais pour le spectacle de ma fille.* *J'appelais pour savoir si…* The request is about now: the imparfait only makes it less direct, a little more modest than the present."},
+    {"id": "vt-imparfait-presque", "label": "What nearly happened: une seconde de plus, et il tombait", "rule": "After *un peu plus*, *une seconde de plus* or *sans* + a noun, the imparfait says what would have happened, and didn't: *Une seconde de plus, et il tombait* (= il serait tombé). *Un peu plus, et je pleurais.* *Sans Carla, il finissait par terre.* It is more vivid than the past conditional."},
+    {"id": "vt-futur-histoire", "label": "The future of history and the imparfait of the press", "rule": "In a story told in the present, the future tells what came later, seen from that moment: *Le vingt février, Hugo prend sa première leçon ; quatre mois plus tard, il dansera en public.* Newspapers use the imparfait for a single, finished event, to paint the scene: *Le samedi dix-huit juin, Hugo dansait le flamenco devant cent parents.*"},
+    {"id": "vt-futur-politesse", "label": "The future of politeness and instructions; the present for the near future", "rule": "A polite request or an instruction often takes the future: *Je vous demanderai d'éteindre vos téléphones.* *Vous sortirez par la porte du jardin.* *Tu regarderas mes bras.* And with a time word, the present tells a planned near future: *Demain, on part à neuf heures.* *Ce soir, je dors chez moi.*"}
+  ],
+  "sections": [
+    {"title": "1. The present in a story: et là…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Hier, je monte sur scène, et là, je vois Carla.", "Yesterday I go up on stage, and then I see Carla."],
+      ["Je glisse, je me rattrape, je finis en rythme.", "I slip, I catch myself, I finish in time."],
+      ["En 1670, Molière écrit Le Bourgeois gentilhomme.", "In 1670, Molière writes Le Bourgeois gentilhomme."]]},
+     "examples": [
+      {"fr": "Alors, {je monte sur scène, et là, qui je vois au premier rang|vt-present-recit} ? Le père de Jade, avec son téléphone !", "en": "So I go up on stage, and who do I see in the front row? Jade's father, with his phone!"},
+      {"fr": "Je tourne, je frappe du pied… {et là, je glisse|vt-present-recit} ! {Je me rattrape à la main de Carla|vt-present-recit}, et je finis en rythme.", "en": "I turn, I stamp… and then I slip! I catch myself on Carla's hand, and I finish in time."}],
+     "tip": "In speech, et là often marks the switch to the present. Once you are in it, don't slip back into the passé composé."},
+    {"title": "2. The imparfait of politeness", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je voulais vous demander si on peut filmer.", "I wanted to ask you whether we can film."],
+      ["Je venais pour le spectacle de ma fille.", "I've come for my daughter's show."],
+      ["J'[appelais|appeler] pour savoir s'il reste des places.", "I'm calling to find out whether there are any seats left."]]},
+     "examples": [
+      {"fr": "Bonjour, madame. {Je venais pour le spectacle de ma fille|vt-imparfait-politesse}, Jade. Et {je voulais vous demander si on peut filmer|vt-imparfait-politesse}.", "en": "Hello. I've come for my daughter Jade's show. And I wanted to ask whether we're allowed to film."},
+      {"fr": "Hugo, {je voulais vous dire|vt-imparfait-politesse} : vous racontez très bien.", "en": "Hugo, I wanted to tell you: you tell a story very well."}],
+     "tip": "The request is about now: the imparfait just makes it more modest. It goes with vouloir, venir, appeler, passer."},
+    {"title": "3. What nearly happened", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Une seconde de plus, et il tombait.", "One more second and he'd have fallen."],
+      ["Un peu plus, et je pleurais.", "A bit more and I'd have cried."],
+      ["Sans Carla, il finissait par terre.", "Without Carla, he'd have ended up on the floor."]]},
+     "examples": [
+      {"fr": "{Une seconde de plus, et il tombait sur le premier rang|vt-imparfait-presque} !", "en": "One more second, and he'd have fallen onto the front row!"},
+      {"fr": "{Sans Carla, il finissait dans les bras de Madame Garnier|vt-imparfait-presque}.", "en": "Without Carla, he'd have ended up in Madame Garnier's arms."}],
+     "tip": "Here the imparfait means the same as the past conditional (il serait tombé): it didn't happen. The passé composé would say it did."},
+    {"title": "4. The future of history; the imparfait of the press", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le vingt février, il prend sa première leçon ; quatre mois plus tard, il dansera en public.", "On 20 February he takes his first lesson; four months later, he will dance in public."],
+      ["En 1622, Molière naît à Paris ; il deviendra le plus grand auteur comique.", "In 1622, Molière is born in Paris; he will become the greatest writer of comedy."],
+      ["Le samedi dix-huit juin, Hugo dansait devant cent parents.", "On Saturday 18 June, Hugo danced in front of a hundred parents."]]},
+     "examples": [
+      {"fr": "À six heures, Léa envoie un faux article au groupe de la famille : « {Le samedi dix-huit juin, à seize heures, Hugo dansait le flamenco devant cent parents|vt-futur-histoire}. »", "en": "At six, Léa sends a mock newspaper item to the family group: \"On Saturday 18 June, at 4 p.m., Hugo danced the flamenco in front of a hundred parents.\""},
+      {"fr": "« {Le vingt février, il prend sa première leçon|vt-present-recit}. {Quatre mois plus tard, il dansera en public|vt-futur-histoire}, et {il tombera presque sur le premier rang|vt-futur-histoire}. »", "en": "\"On 20 February, he takes his first lesson. Four months later, he will dance in public, and he will nearly fall onto the front row.\""}],
+     "tip": "The future looks ahead from a moment of the story. The imparfait of the press paints a single, finished event, as if the reader were there."},
+    {"title": "5. The future of politeness; the present for plans", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je vous demanderai d'éteindre vos téléphones.", "I'll ask you to switch off your phones."],
+      ["Vous sortirez par la porte du jardin.", "Please leave by the garden door."],
+      ["Demain, je chante au café.", "Tomorrow I'm singing at the café."]]},
+     "examples": [
+      {"fr": "Mesdames et messieurs, bienvenue ! {Je vous demanderai d'éteindre vos téléphones|vt-futur-politesse}. À la fin du spectacle, {vous sortirez par la porte du jardin|vt-futur-politesse}.", "en": "Ladies and gentlemen, welcome! Please switch off your phones. At the end of the show, please leave by the garden door."},
+      {"fr": "Bon, au lit. {Demain, on part à neuf heures|vt-futur-politesse} : on va voir les oiseaux.", "en": "Right, off to bed. Tomorrow we're leaving at nine: we're going to see the birds."}],
+     "tip": "The future turns an order into a polite request. With demain or ce soir, the present is enough for what is planned."}
+  ],
+  "mistakes": [
+    {"wrong": "Hier, je monte sur scène, et là, j'ai vu Carla.", "right": "Hier, je monte sur scène, et là, je vois Carla.", "why": "Once the story has switched to the present, its events stay in the present."},
+    {"wrong": "Une seconde de plus, et il est tombé.", "right": "Une seconde de plus, et il tombait.", "why": "He didn't fall: the imparfait (or il serait tombé) says what nearly happened; the passé composé says it did."},
+    {"wrong": "Demain, je chanterais au café.", "right": "Demain, je chante au café.", "why": "For a planned near future, use the present (or the future), not the conditional."},
+    {"wrong": "Le vingt février, il prend sa première leçon ; quatre mois plus tard, il danserait en public.", "right": "Le vingt février, il prend sa première leçon ; quatre mois plus tard, il dansera en public.", "why": "In a story told in the present, what came later is in the future."}
+  ],
+  "story": {
+    "title": "Et là, je glisse…",
+    "en": "Saturday 18 June: the end-of-year show of Carla's class, Hugo's flamenco, and the whole thing told again that evening.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi dix-huit juin, le grand studio de Madame Garnier devient un petit théâtre. À quatre heures, cent parents attendent le spectacle de fin d'année du cours de Carla.", "en": "On Saturday 18 June, Madame Garnier's big studio becomes a little theatre. At four o'clock, a hundred parents are waiting for the end-of-year show of Carla's class."},
+      {"sp": "Un père", "fr": "Bonjour, madame. {Je venais pour le spectacle de ma fille|vt-imparfait-politesse}, Jade. Et {je voulais vous demander si on peut filmer|vt-imparfait-politesse}.", "en": "Hello. I've come for my daughter Jade's show. And I wanted to ask whether we're allowed to film."},
+      {"sp": "Madame Garnier", "fr": "Bien sûr, monsieur, mais sans flash, s'il vous plaît.", "en": "Of course, but without the flash, please."},
+      {"sp": "Madame Garnier", "fr": "Mesdames et messieurs, bienvenue ! {Je vous demanderai d'éteindre vos téléphones|vt-futur-politesse}. À la fin du spectacle, {vous sortirez par la porte du jardin|vt-futur-politesse}.", "en": "Ladies and gentlemen, welcome! Please switch off your phones. At the end of the show, please leave by the garden door."},
+      {"sp": "", "fr": "Les enfants dansent. L'an dernier, la petite Jade avait tout oublié, et Carla avait dansé à côté d'elle. Cette année, elle se souvient de tout.", "en": "The children dance. Last year, little Jade had forgotten everything, and Carla had danced beside her. This year, she remembers it all."},
+      {"sp": "", "fr": "Dans les coulisses, Hugo porte le costume que Madame Odette lui a cousu à la main : une veste noire courte, une chemise blanche et une ceinture rouge.", "en": "Backstage, Hugo is wearing the costume Madame Odette sewed for him by hand: a short black jacket, a white shirt and a red sash."},
+      {"sp": "Hugo", "fr": "J'ai le trac. Mes jambes tremblent, et je ne me souviens plus de [rien|rien].", "en": "I've got stage fright. My legs are shaking, and I can't remember a thing."},
+      {"sp": "Carla", "fr": "Respire. {Tu regarderas mes bras|vt-futur-politesse}, et tout ira bien.", "en": "Breathe. Just watch my arms, and it'll all be fine."},
+      {"sp": "", "fr": "Pour finir, Carla et Hugo dansent le flamenco. Quatre mois après sa première leçon, Hugo frappe du pied, tourne et lève les bras comme Carla.", "en": "To finish, Carla and Hugo dance the flamenco. Four months after his first lesson, Hugo stamps, turns and raises his arms like Carla."},
+      {"sp": "", "fr": "Au dernier tour, son talon glisse sur le parquet… Hugo se rattrape à la main de Carla et finit en rythme.", "en": "On the last turn, his heel slips on the floor… Hugo catches himself on Carla's hand and finishes in time."},
+      {"sp": "Madame Garnier", "fr": "{Une seconde de plus, et il tombait sur le premier rang|vt-imparfait-presque} !", "en": "One more second, and he'd have fallen onto the front row!"},
+      {"sp": "Sophie", "fr": "{Sans Carla, il finissait dans les bras de Madame Garnier|vt-imparfait-presque}.", "en": "Without Carla, he'd have ended up in Madame Garnier's arms."},
+      {"sp": "", "fr": "Les parents se lèvent et applaudissent. Inès sourit : le vœu du Nouvel An de sa petite sœur s'est réalisé.", "en": "The parents stand up and clap. Inès smiles: her little sister's New Year wish has come true."},
+      {"sp": "Léa", "fr": "{Un peu plus, et je pleurais|vt-imparfait-presque}. Mathis, tu as tout filmé ?", "en": "A bit more and I'd have cried. Mathis, did you film all of it?"},
+      {"sp": "Mathis", "fr": "Tout, même le dernier tour.", "en": "All of it, even the last turn."},
+      {"sp": "", "fr": "À six heures, Léa envoie un faux article au groupe de la famille : « {Le samedi dix-huit juin, à seize heures, Hugo dansait le flamenco devant cent parents|vt-futur-histoire}. »", "en": "At six, Léa sends a mock newspaper item to the family group: \"On Saturday 18 June, at 4 p.m., Hugo danced the flamenco in front of a hundred parents.\""},
+      {"sp": "", "fr": "« {Le vingt février, il prend sa première leçon|vt-present-recit}. {Quatre mois plus tard, il dansera en public|vt-futur-histoire}, et {il tombera presque sur le premier rang|vt-futur-histoire}. »", "en": "\"On 20 February, he takes his first lesson. Four months later, he will dance in public, and he will nearly fall onto the front row.\""},
+      {"sp": "", "fr": "Le soir, chez Tom, au-dessus de la boulangerie. Ses parents et sa petite sœur sont arrivés de Londres en train dans l'après-midi. Hugo traverse le palier et raconte le spectacle.", "en": "In the evening, at Tom's, above the bakery. His parents and his younger sister arrived from London by train in the afternoon. Hugo comes across the landing and tells them about the show."},
+      {"sp": "Hugo", "fr": "Alors, {je monte sur scène, et là, qui je vois au premier rang|vt-present-recit} ? Le père de Jade, avec son téléphone !", "en": "So I go up on stage, and who do I see in the front row? Jade's father, with his phone!"},
+      {"sp": "Hugo", "fr": "Je tourne, je frappe du pied… {et là, je glisse|vt-present-recit} ! {Je me rattrape à la main de Carla|vt-present-recit}, et je finis en rythme.", "en": "I turn, I stamp… and then I slip! I catch myself on Carla's hand, and I finish in time."},
+      {"sp": "", "fr": "La sœur de Tom traduit pour son père, qui ne dit rien. La mère de Tom rit aux larmes.", "en": "Tom's sister translates for her father, who says nothing. Tom's mother laughs till she cries."},
+      {"sp": "La sœur de Tom", "fr": "Papa demande si tu es tombé.", "en": "Dad's asking whether you fell."},
+      {"sp": "Hugo", "fr": "Presque ! {Une seconde de plus, et je tombais sur les parents|vt-imparfait-presque}.", "en": "Nearly! One more second, and I'd have fallen on the parents."},
+      {"sp": "La mère de Tom", "fr": "Hugo, {je voulais vous dire|vt-imparfait-politesse} : vous racontez très bien.", "en": "Hugo, I wanted to tell you: you tell a story very well."},
+      {"sp": "Tom", "fr": "Bon, au lit. {Demain, on part à neuf heures|vt-futur-politesse} : on va voir les oiseaux.", "en": "Right, off to bed. Tomorrow we're leaving at nine: we're going to see the birds."},
+      {"sp": "Hugo", "fr": "Moi, {ce soir, je dors comme un bébé|vt-futur-politesse}.", "en": "Me, tonight I'm sleeping like a baby."}
+    ]
+  },
+  "quiz": [
+    {"case": "vt-present-recit", "type": "mc", "q": "Le vingt février, Hugo ___ sa première leçon.", "en": "On 20 February, Hugo takes his first lesson.", "options": ["prend", "prendrait", "prenne"], "answer": "prend"},
+    {"case": "vt-present-recit", "type": "mc", "q": "Je tourne, je frappe du pied… et là, je ___ !", "en": "I turn, I stamp… and then I slip!", "options": ["glisse", "glissais", "glisserais"], "answer": "glisse"},
+    {"case": "vt-imparfait-politesse", "type": "mc", "q": "Bonjour, je ___ pour le spectacle de ma fille.", "en": "Hello, I've come for my daughter's show.", "options": ["venais", "viendrais", "venu"], "answer": "venais"},
+    {"case": "vt-imparfait-politesse", "type": "mc", "q": "Je ___ vous demander si on peut filmer.", "en": "I wanted to ask you whether we can film.", "options": ["voulais", "voudrai", "voulu"], "answer": "voulais"},
+    {"case": "vt-imparfait-presque", "type": "mc", "q": "Une seconde de plus, et il ___ sur le premier rang.", "en": "One more second, and he'd have fallen onto the front row.", "options": ["tombait", "est tombé", "tombera"], "answer": "tombait"},
+    {"case": "vt-imparfait-presque", "type": "mc", "q": "Sans Carla, il ___ dans les bras de Madame Garnier.", "en": "Without Carla, he'd have ended up in Madame Garnier's arms.", "options": ["finissait", "a fini", "finira"], "answer": "finissait"},
+    {"case": "vt-futur-histoire", "type": "mc", "q": "Le vingt février, il prend sa première leçon. Quatre mois plus tard, il ___ en public.", "en": "On 20 February, he takes his first lesson. Four months later, he will dance in public.", "options": ["dansera", "danserait", "dansait"], "answer": "dansera"},
+    {"case": "vt-futur-histoire", "type": "mc", "q": "Le samedi dix-huit juin, à seize heures, Hugo ___ le flamenco devant cent parents.", "en": "On Saturday 18 June, at 4 p.m., Hugo danced the flamenco in front of a hundred parents.", "options": ["dansait", "dansera", "danserait"], "answer": "dansait"},
+    {"case": "vt-futur-politesse", "type": "mc", "q": "Je vous ___ d'éteindre vos téléphones.", "en": "I'll ask you to switch off your phones.", "options": ["demanderai", "demandais", "demandé"], "answer": "demanderai"},
+    {"case": "vt-futur-politesse", "type": "mc", "q": "Demain, on ___ à neuf heures : on va voir les oiseaux.", "en": "Tomorrow we're leaving at nine: we're going to see the birds.", "options": ["part", "partirait", "partait"], "answer": "part"}
+  ]
+}

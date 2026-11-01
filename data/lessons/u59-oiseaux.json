@@ -1,0 +1,143 @@
+{
+  "id": "u59-oiseaux",
+  "type": "vocab",
+  "unit": 59,
+  "title": "Le Parc des Oiseaux",
+  "en": "Birds and birdwatching",
+  "intro": "25 words for birds and birdwatching: birds of prey (**le faucon, l'aigle, le vautour, le hibou, la proie, la griffe**), flight (**planer, le battement, l'envol**), the storks' roofs (**la cigogne, nicher, couver**), water birds (**le flamant, le héron, le pélican, le cygne, l'oie**), garden and town birds (**le moineau, le corbeau, l'hirondelle**), and the aviaries (**le perroquet, la cage, la branche, l'aile, le bec**).",
+  "words": [
+    {"id": "faucon", "fr": "faucon", "pos": "noun", "g": "m", "ipa": "fo.kɔ̃", "en": "falcon", "def": "Un oiseau de proie très rapide, qui plonge du haut du ciel sur les petits animaux.", "def_en": "A very fast bird of prey, which dives from high in the sky onto small animals.", "forms": ["faucons"], "examples": [
+      {"fr": "Le **faucon** se pose sur la tête de Hugo.", "en": "The falcon lands on Hugo's head."},
+      {"fr": "Le **faucon** est l'oiseau le plus rapide du monde.", "en": "The falcon is the fastest bird in the world."},
+      {"fr": "Le fauconnier rappelle son **faucon** d'un geste.", "en": "The falconer calls his falcon back with a gesture."}]},
+    {"id": "aigle", "fr": "aigle", "pos": "noun", "g": "m", "ipa": "ɛɡl", "en": "eagle", "def": "Un très grand oiseau de proie, puissant, qui vit dans les montagnes.", "def_en": "A very big, powerful bird of prey that lives in the mountains.", "forms": ["aigles"], "examples": [
+      {"fr": "L'**aigle** ouvre ses ailes : presque deux mètres !", "en": "The eagle opens its wings: almost two metres!"},
+      {"fr": "Un **aigle** tourne au-dessus de la montagne.", "en": "An eagle is circling over the mountain."},
+      {"fr": "Il a un œil d'**aigle** : rien ne lui échappe.", "en": "He has an eagle eye: nothing escapes him."}]},
+    {"id": "vautour", "fr": "vautour", "pos": "noun", "g": "m", "ipa": "vo.tuʁ", "en": "vulture", "def": "Un grand oiseau au cou sans plumes, qui mange les animaux morts.", "def_en": "A big bird with a featherless neck, which eats dead animals.", "forms": ["vautours"], "examples": [
+      {"fr": "Deux **vautours** planent au-dessus du public.", "en": "Two vultures are soaring over the audience."},
+      {"fr": "Le **vautour** se pose lourdement sur le gant du fauconnier.", "en": "The vulture lands heavily on the falconer's glove."},
+      {"fr": "Des **vautours** tournent au-dessus de la vallée.", "en": "Vultures are circling over the valley."}]},
+    {"id": "hibou", "fr": "hibou", "pos": "noun", "g": "m", "hAsp": true, "ipa": "i.bu", "en": "owl (with ear tufts)", "def": "Un oiseau de nuit aux grands yeux ronds, avec deux petites plumes sur la tête, comme des oreilles.", "def_en": "A night bird with big round eyes and two little feathers on its head, like ears.", "note": "The h is aspirated: *le hibou*, *les hiboux* (no liaison). Plural in -x. *La chouette* has no ear tufts.", "forms": ["hiboux"], "examples": [
+      {"fr": "Un **hibou** traverse la tribune sans le moindre bruit.", "en": "An owl crosses the stands without the slightest sound."},
+      {"fr": "La nuit, on entend le **hibou** dans la forêt.", "en": "At night, you can hear the owl in the forest."},
+      {"fr": "Les **hiboux** chassent la nuit.", "en": "Owls hunt at night."}]},
+    {"id": "proie", "fr": "proie", "pos": "noun", "g": "f", "ipa": "pʁwa", "en": "prey", "def": "Un animal qu'un autre animal chasse pour le manger.", "def_en": "An animal that another animal hunts in order to eat it.", "note": "*Un oiseau de proie* = a bird of prey; *être en proie à* = to be a prey to (*en proie au doute*).", "forms": ["proies"], "examples": [
+      {"fr": "Un faucon voit sa **proie** à un kilomètre.", "en": "A falcon can see its prey a kilometre away."},
+      {"fr": "La souris est une **proie** facile pour le hibou.", "en": "The mouse is easy prey for the owl."},
+      {"fr": "Le chat joue avec sa **proie**.", "en": "The cat is playing with its prey."}]},
+    {"id": "griffe", "fr": "griffe", "pos": "noun", "g": "f", "ipa": "ɡʁif", "en": "claw, talon", "def": "L'ongle dur et pointu d'un oiseau ou d'un animal comme le chat.", "def_en": "The hard, sharp nail of a bird or of an animal such as the cat.", "note": "Also a designer's label: *la griffe d'un grand couturier*.", "forms": ["griffes"], "examples": [
+      {"fr": "Hugo sent les **griffes** du faucon dans ses cheveux.", "en": "Hugo feels the falcon's talons in his hair."},
+      {"fr": "Le chat sort ses **griffes**.", "en": "The cat puts out its claws."},
+      {"fr": "L'aigle serre sa proie dans ses **griffes**.", "en": "The eagle grips its prey in its talons."}]},
+    {"id": "planer", "fr": "planer", "pos": "verb", "ipa": "pla.ne", "en": "to glide, to soar", "def": "Voler sans bouger les ailes, porté par l'air.", "def_en": "To fly without moving the wings, carried by the air.", "note": "Informal: *planer* = to be in a dream world, on cloud nine (*Depuis son concert, Tom plane*).", "forms": ["plane", "planes", "planons", "planez", "planent", "plané", "planais", "planait", "planions", "planiez", "planaient", "planerai", "planeras", "planera", "planerons", "planerez", "planeront", "planerais", "planerait", "planerions", "planeriez", "planeraient", "planant", "planai", "planas", "plana", "planâmes", "planâtes", "planèrent"], "examples": [
+      {"fr": "Deux vautours **planent** au-dessus du public.", "en": "Two vultures are soaring over the audience."},
+      {"fr": "La mouette **plane** au-dessus du port.", "en": "The gull glides over the harbour."},
+      {"fr": "L'aigle a **plané** longtemps sans un battement d'ailes.", "en": "The eagle soared for a long time without a single wingbeat."}]},
+    {"id": "battement", "fr": "battement", "pos": "noun", "g": "m", "ipa": "bat.mɑ̃", "en": "beat, beating (of wings, of the heart)", "def": "Le mouvement rapide des ailes qui montent et descendent ; le mouvement régulier du cœur.", "def_en": "The quick movement of wings going up and down; the regular movement of the heart.", "note": "*Un battement de cœur* = a heartbeat; *dix minutes de battement* = ten minutes to spare (between two trains).", "forms": ["battements"], "examples": [
+      {"fr": "Le public sent le **battement** des ailes au-dessus des têtes.", "en": "The audience feels the beat of wings above their heads."},
+      {"fr": "Le médecin écoute les **battements** du cœur.", "en": "The doctor listens to the heartbeat."},
+      {"fr": "Dans le noir, on entend un **battement** d'ailes.", "en": "In the dark, you can hear a flutter of wings."}]},
+    {"id": "envol", "fr": "envol", "pos": "noun", "g": "m", "ipa": "ɑ̃.vɔl", "en": "take-off, flight (of a bird)", "def": "Le moment où un oiseau quitte le sol ou la branche pour partir dans le ciel.", "def_en": "The moment when a bird leaves the ground or the branch to go off into the sky.", "note": "*Prendre son envol* = to take wing; (of a person) to fly the nest.", "forms": ["envols"], "examples": [
+      {"fr": "Le père de Tom prend en photo l'**envol** du faucon.", "en": "Tom's father photographs the falcon's take-off."},
+      {"fr": "L'**envol** des flamants roses est magnifique.", "en": "The flamingos taking off is a magnificent sight."},
+      {"fr": "Les jeunes cigognes attendent leur premier **envol**.", "en": "The young storks are waiting for their first flight."}]},
+    {"id": "cigogne", "fr": "cigogne", "pos": "noun", "g": "f", "ipa": "si.ɡɔɲ", "en": "stork", "def": "Un grand oiseau blanc et noir aux longues pattes et au long bec rouge, qui fait son nid sur les toits.", "def_en": "A big black-and-white bird with long legs and a long red beak, which builds its nest on roofs.", "forms": ["cigognes"], "examples": [
+      {"fr": "Une **cigogne** fait claquer son bec sur son nid.", "en": "A stork clatters its beak on its nest."},
+      {"fr": "En Alsace, on voit des **cigognes** sur les toits.", "en": "In Alsace, you see storks on the roofs."},
+      {"fr": "Autrefois, on racontait aux enfants que les **cigognes** apportaient les bébés.", "en": "In the old days, children were told that storks brought babies."}]},
+    {"id": "nicher", "fr": "nicher", "pos": "verb", "ipa": "ni.ʃe", "en": "to nest", "def": "Pour un oiseau, construire son nid quelque part et y vivre.", "def_en": "For a bird, to build its nest somewhere and live there.", "forms": ["niche", "niches", "nichons", "nichez", "nichent", "niché", "nichais", "nichait", "nichions", "nichiez", "nichaient", "nicherai", "nicheras", "nichera", "nicherons", "nicherez", "nicheront", "nicherais", "nicherait", "nicherions", "nicheriez", "nicheraient", "nichant", "nichai", "nichas", "nicha", "nichâmes", "nichâtes", "nichèrent"], "examples": [
+      {"fr": "Les cigognes **nichent** sur les toits du parc.", "en": "The storks nest on the roofs of the park."},
+      {"fr": "Des hirondelles **nichent** sous le toit de la gare.", "en": "Swallows nest under the roof of the station."},
+      {"fr": "Ce petit oiseau **niche** dans les arbres.", "en": "This little bird nests in the trees."}]},
+    {"id": "couver", "fr": "couver", "pos": "verb", "ipa": "ku.ve", "en": "to sit on (eggs), to brood", "def": "Pour un oiseau, rester sur ses œufs pour les garder au chaud, jusqu'à la naissance des petits.", "def_en": "For a bird, to stay sitting on its eggs to keep them warm, until the young are born.", "note": "*Couver un rhume* = to be coming down with a cold; *couver un enfant* = to mollycoddle a child. *Ils couvent* is spelled like *le couvent* (convent).", "forms": ["couve", "couves", "couvons", "couvez", "couvé", "couvée", "couvés", "couvées", "couvais", "couvait", "couvions", "couviez", "couvaient", "couverai", "couveras", "couvera", "couverons", "couverez", "couveront", "couverais", "couverait", "couverions", "couveriez", "couveraient", "couvant", "couvai", "couvas", "couva", "couvâmes", "couvâtes", "couvèrent"], "examples": [
+      {"fr": "Une cigogne **couve** ses œufs dans un nid énorme.", "en": "A stork is sitting on its eggs in a huge nest."},
+      {"fr": "La poule a **couvé** douze œufs.", "en": "The hen sat on twelve eggs."},
+      {"fr": "Chez les pigeons, le père **couve** aussi.", "en": "With pigeons, the father sits on the eggs too."}]},
+    {"id": "flamant", "fr": "flamant", "pos": "noun", "g": "m", "ipa": "fla.mɑ̃", "en": "flamingo", "def": "Un grand oiseau rose aux longues pattes fines, qui dort souvent sur une seule patte.", "def_en": "A big pink bird with long thin legs, which often sleeps on one leg.", "note": "Usually *un flamant rose*. It sounds like *flamand* (Flemish).", "forms": ["flamants"], "examples": [
+      {"fr": "Les **flamants** roses dorment sur une patte.", "en": "The flamingos are asleep on one leg."},
+      {"fr": "Dans le sud de la France, on voit des milliers de **flamants** roses.", "en": "In the south of France, you can see thousands of flamingos."},
+      {"fr": "Le **flamant** doit sa couleur à ce qu'il mange.", "en": "The flamingo owes its colour to what it eats."}]},
+    {"id": "heron", "fr": "héron", "pos": "noun", "g": "m", "hAsp": true, "ipa": "e.ʁɔ̃", "en": "heron", "def": "Un grand oiseau gris aux longues pattes, qui attend sans bouger au bord de l'eau pour attraper des poissons.", "def_en": "A big grey bird with long legs, which waits without moving at the water's edge to catch fish.", "note": "The h is aspirated: *le héron*, *les hérons* (no liaison).", "forms": ["hérons"], "examples": [
+      {"fr": "Un **héron** gris attend, immobile, au bord de l'eau.", "en": "A grey heron waits, motionless, at the water's edge."},
+      {"fr": "Le **héron** attrape un poisson d'un coup de bec.", "en": "The heron catches a fish with one stab of its beak."},
+      {"fr": "On voit souvent des **hérons** le long du Rhône.", "en": "You often see herons along the Rhône."}]},
+    {"id": "pelican", "fr": "pélican", "pos": "noun", "g": "m", "ipa": "pe.li.kɑ̃", "en": "pelican", "def": "Un grand oiseau d'eau au bec énorme, avec une poche dessous pour garder les poissons.", "def_en": "A big water bird with a huge beak, with a pouch underneath for holding fish.", "forms": ["pélicans"], "examples": [
+      {"fr": "Des **pélicans** traversent l'allée l'un après l'autre, comme des serveurs.", "en": "Pelicans cross the path one after the other, like waiters."},
+      {"fr": "Le **pélican** garde un poisson dans son bec.", "en": "The pelican keeps a fish in its beak."},
+      {"fr": "Un **pélican**, ça mange combien de poissons par jour ?", "en": "How many fish does a pelican eat a day?"}]},
+    {"id": "cygne", "fr": "cygne", "pos": "noun", "g": "m", "ipa": "siɲ", "en": "swan", "def": "Un grand oiseau blanc au long cou, qui glisse sur les lacs.", "def_en": "A big white bird with a long neck, which glides across lakes.", "note": "It sounds exactly like *signe* (sign). *Le Lac des cygnes* = Swan Lake.", "forms": ["cygnes"], "examples": [
+      {"fr": "Deux **cygnes** blancs glissent sur l'eau, sans un bruit.", "en": "Two white swans glide across the water without a sound."},
+      {"fr": "Le **cygne** cache sa tête sous son aile.", "en": "The swan tucks its head under its wing."},
+      {"fr": "Au parc, les enfants regardent les **cygnes** sur le lac.", "en": "In the park, the children watch the swans on the lake."}]},
+    {"id": "oie", "fr": "oie", "pos": "noun", "g": "f", "ipa": "wa", "en": "goose", "def": "Un grand oiseau blanc ou gris au long cou, qui vit à la ferme ou près de l'eau.", "def_en": "A big white or grey bird with a long neck, which lives on farms or near water.", "note": "*Le jeu de l'oie* = a board game played with dice, a little like snakes and ladders.", "forms": ["oies"], "examples": [
+      {"fr": "Une **oie** poursuit Hugo jusqu'à la table du pique-nique.", "en": "A goose chases Hugo all the way to the picnic table."},
+      {"fr": "Les **oies** sauvages partent vers le sud en automne.", "en": "Wild geese fly south in autumn."},
+      {"fr": "Une **oie**, ça crie plus fort qu'un chien !", "en": "A goose makes more noise than a dog!"}]},
+    {"id": "moineau", "fr": "moineau", "pos": "noun", "g": "m", "ipa": "mwa.no", "en": "sparrow", "def": "Un petit oiseau brun et gris, très commun dans les villes et les jardins.", "def_en": "A small brown and grey bird, very common in towns and gardens.", "forms": ["moineaux"], "examples": [
+      {"fr": "Les **moineaux** attendent les miettes sous la table.", "en": "The sparrows wait for crumbs under the table."},
+      {"fr": "À la maison, il parle aux **moineaux** du jardin.", "en": "At home, he talks to the sparrows in the garden."},
+      {"fr": "Un **moineau** prend un bain dans une flaque.", "en": "A sparrow is having a bath in a puddle."}]},
+    {"id": "corbeau", "fr": "corbeau", "pos": "noun", "g": "m", "ipa": "kɔʁ.bo", "en": "crow, raven", "def": "Un gros oiseau tout noir, très intelligent, qui crie fort.", "def_en": "A big, all-black, very clever bird with a loud cry.", "forms": ["corbeaux"], "examples": [
+      {"fr": "Un **corbeau** prend une chips dans le sac de Camille.", "en": "A crow takes a crisp from Camille's bag."},
+      {"fr": "Les **corbeaux** se posent sur le [champ|champ].", "en": "The crows land on the field."},
+      {"fr": "Sur la neige, le **corbeau** paraît encore plus noir.", "en": "Against the snow, the crow looks even blacker."}]},
+    {"id": "hirondelle", "fr": "hirondelle", "pos": "noun", "g": "f", "ipa": "i.ʁɔ̃.dɛl", "en": "swallow (the bird)", "def": "Un petit oiseau noir et blanc à la longue queue, qui revient chaque printemps.", "def_en": "A small black-and-white bird with a long tail, which comes back every spring.", "note": "*Une hirondelle ne fait pas le printemps* = one swallow doesn't make a summer.", "forms": ["hirondelles"], "examples": [
+      {"fr": "Les **hirondelles** volent très bas au-dessus de l'eau : il va pleuvoir.", "en": "The swallows are flying very low over the water: it's going to rain."},
+      {"fr": "Les **hirondelles** partent en Afrique en automne.", "en": "Swallows leave for Africa in autumn."},
+      {"fr": "Une **hirondelle** ne fait pas le printemps.", "en": "One swallow doesn't make a summer."}]},
+    {"id": "perroquet", "fr": "perroquet", "pos": "noun", "g": "m", "ipa": "pɛ.ʁɔ.kɛ", "en": "parrot", "def": "Un oiseau aux couleurs vives, qui sait répéter les mots qu'il entend.", "def_en": "A brightly coloured bird that can repeat the words it hears.", "note": "*Répéter comme un perroquet* = to parrot.", "forms": ["perroquets"], "examples": [
+      {"fr": "Le **perroquet** répète « Bonjour ! » et Hugo lui répond poliment.", "en": "The parrot says \"Bonjour!\" again and Hugo politely answers it."},
+      {"fr": "Arrête de répéter tout ce que je dis, tu n'es pas un **perroquet** !", "en": "Stop repeating everything I say, you're not a parrot!"},
+      {"fr": "Le **perroquet** de ma tante parle mieux que moi.", "en": "My aunt's parrot talks better than I do."}]},
+    {"id": "cage", "fr": "cage", "pos": "noun", "g": "f", "ipa": "kaʒ", "en": "cage", "def": "Une boîte fermée par des barres de métal, où l'on garde un oiseau ou un animal.", "def_en": "A box closed in by metal bars, where a bird or an animal is kept.", "note": "*La cage d'escalier* = the stairwell.", "forms": ["cages"], "examples": [
+      {"fr": "Dans sa grande **cage**, un perroquet crie « Bonjour ! »", "en": "In its big cage, a parrot shouts \"Bonjour!\""},
+      {"fr": "On ouvre la **cage** et l'oiseau s'envole.", "en": "We open the cage and the bird flies away."},
+      {"fr": "Le lion tourne en rond dans sa **cage**.", "en": "The lion is pacing round its cage."}]},
+    {"id": "branche", "fr": "branche", "pos": "noun", "g": "f", "ipa": "bʁɑ̃ʃ", "en": "branch", "def": "Une partie d'un arbre qui part du tronc et [porte|porter] les feuilles.", "def_en": "A part of a tree that grows out of the trunk and bears the leaves.", "forms": ["branches"], "examples": [
+      {"fr": "Sur une **branche**, le père de Tom voit un petit oiseau rare.", "en": "On a branch, Tom's father sees a rare little bird."},
+      {"fr": "Le chat est monté sur une **branche** et n'ose plus descendre.", "en": "The cat has climbed onto a branch and daren't come down."},
+      {"fr": "Le vent a cassé une grosse **branche**.", "en": "The wind has broken a big branch."}]},
+    {"id": "aile", "fr": "aile", "pos": "noun", "g": "f", "ipa": "ɛl", "en": "wing", "def": "Chacune des deux parties du corps d'un oiseau qui lui servent à voler.", "def_en": "Each of the two parts of a bird's body that it uses to fly.", "note": "*Se sentir pousser des ailes* = to feel on top of the world; *l'aile* of a building or of a plane = its wing.", "forms": ["ailes"], "examples": [
+      {"fr": "Le faucon replie ses **ailes** et plonge.", "en": "The falcon folds its wings and dives."},
+      {"fr": "Le moineau a une **aile** cassée.", "en": "The sparrow has a broken wing."},
+      {"fr": "Le pigeon bat des **ailes** et s'envole.", "en": "The pigeon flaps its wings and flies off."}]},
+    {"id": "bec", "fr": "bec", "pos": "noun", "g": "m", "ipa": "bɛk", "en": "beak, bill", "def": "La bouche [dure|dur] et pointue des oiseaux.", "def_en": "The hard, pointed mouth of birds.", "note": "*Clouer le bec à quelqu'un* = to shut somebody up.", "forms": ["becs"], "examples": [
+      {"fr": "Le pélican garde un poisson dans son **bec**.", "en": "The pelican keeps a fish in its beak."},
+      {"fr": "Une cigogne fait claquer son **bec**.", "en": "A stork clatters its beak."},
+      {"fr": "Le perroquet ouvre une graine avec son **bec**.", "en": "The parrot cracks open a seed with its beak."}]}
+  ],
+  "story": {
+    "title": "Le Parc des Oiseaux",
+    "en": "Sunday 19 June: Father's Day at the Parc des Oiseaux.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche dix-neuf juin, c'est la fête des pères, en France comme en Angleterre.", "en": "Sunday 19 June is Father's Day, in France and in England alike."},
+      {"sp": "", "fr": "Les parents de Tom et sa petite sœur sont arrivés de Londres hier, en train : c'est leur première [visite|visite] à Lyon. Le cadeau de Tom à son père, c'est cette journée au Parc des Oiseaux.", "en": "Tom's parents and his younger sister arrived from London by train yesterday: it's their first visit to Lyon. Tom's present to his father is this day at the Parc des Oiseaux."},
+      {"sp": "", "fr": "À la gare Part-Dieu, Camille, Hugo et Carla les rejoignent, et tout le monde prend le train régional pour Villars-les-Dombes. Hugo a livré le pain à l'aube : il bâille, ses lunettes sur la tête, comme toujours.", "en": "At Part-Dieu station, Camille, Hugo and Carla join them, and everyone takes the regional train to Villars-les-Dombes. Hugo delivered the bread at dawn: he's yawning, his glasses on his head as always."},
+      {"sp": "", "fr": "Quarante minutes plus tard, ils sont dans la Dombes, le pays des mille étangs. Le parc est juste en face de la petite gare.", "en": "Forty minutes later, they're in the Dombes, the land of a thousand ponds. The park is right opposite the little station."},
+      {"sp": "", "fr": "Le père de Tom sort des [jumelles|jumelles-n] et un petit carnet. Cet homme si calme ne s'arrête plus de parler, en anglais. Sa fille traduit pour Hugo et ajoute ses propres commentaires.", "en": "Tom's father takes out a pair of binoculars and a little notebook. This quiet man doesn't stop talking, in English. His daughter translates for Hugo, adding comments of her own."},
+      {"sp": "La sœur de Tom", "fr": "À la maison, il parle aux moineaux du jardin. Avec nous, beaucoup moins.", "en": "At home, he talks to the sparrows in the garden. To us, a lot less."},
+      {"sp": "", "fr": "Autour des étangs, des cigognes nichent sur les toits. L'une d'elles couve ses œufs dans un nid énorme et fait claquer son bec.", "en": "Around the ponds, storks are nesting on the roofs. One of them is sitting on its eggs in a huge nest, clattering its beak."},
+      {"sp": "Hugo", "fr": "Elle nous applaudit ?", "en": "Is she clapping for us?"},
+      {"sp": "", "fr": "Plus loin, les flamants roses dorment sur une patte, et un héron gris attend, immobile, au bord de l'eau. Deux cygnes blancs glissent sans un bruit.", "en": "Further on, the flamingos are asleep on one leg, and a grey heron waits, motionless, at the water's edge. Two white swans glide by without a sound."},
+      {"sp": "", "fr": "Des pélicans traversent l'allée l'un après l'autre, comme des serveurs. Derrière eux, une oie poursuit Hugo jusqu'à la table du pique-nique.", "en": "Pelicans cross the path one after the other, like waiters. Behind them, a goose chases Hugo all the way to the picnic table."},
+      {"sp": "", "fr": "Au pique-nique (rien avec des noisettes, pour Carla), les moineaux attendent les miettes, et un corbeau prend une chips dans le sac de Camille.", "en": "At the picnic (nothing with nuts, for Carla), the sparrows wait for crumbs, and a crow takes a crisp from Camille's bag."},
+      {"sp": "", "fr": "Le père de Tom montre les hirondelles, qui volent très bas au-dessus de l'eau. Sa fille traduit :", "en": "Tom's father points to the swallows, which are flying very low over the water. His daughter translates:"},
+      {"sp": "La sœur de Tom", "fr": "Il dit qu'il va pleuvoir. Et que Tom a toujours un accent horrible.", "en": "He says it's going to rain. And that Tom's accent is still awful."},
+      {"sp": "", "fr": "Dans une grande cage, un perroquet crie « Bonjour ! » Hugo lui répond poliment, et ça dure jusqu'à ce que Camille l'emmène.", "en": "In a big cage, a parrot shouts \"Bonjour!\". Hugo politely answers it, and it goes on until Camille drags him away."},
+      {"sp": "", "fr": "Soudain, sur une branche, le père de Tom voit un petit oiseau rare. Il en a presque les larmes aux yeux. Carla, qui parle anglais, lui pose mille questions.", "en": "Suddenly, on a branch, Tom's father spots a rare little bird. He almost has tears in his eyes. Carla, who speaks English, asks him a thousand questions."},
+      {"sp": "Tom", "fr": "Je n'ai jamais entendu mon père parler autant.", "en": "I've never heard my father talk so much."},
+      {"sp": "", "fr": "L'après-midi, c'est le spectacle des oiseaux de proie. Deux vautours planent au-dessus de la tribune sans bouger les ailes.", "en": "In the afternoon, it's the birds-of-prey show. Two vultures soar over the stands without moving their wings."},
+      {"sp": "", "fr": "Un aigle ouvre ses ailes : presque deux mètres ! Puis un hibou traverse la tribune sans le moindre bruit.", "en": "An eagle opens its wings: almost two metres! Then an owl crosses the stands without the slightest sound."},
+      {"sp": "Le fauconnier", "fr": "Le faucon voit sa proie à un kilomètre. Il plonge et la saisit dans ses griffes.", "en": "The falcon can see its prey a kilometre away. It dives and seizes it in its talons."},
+      {"sp": "", "fr": "Le public sent le battement des ailes au-dessus des têtes. Le faucon replie ses ailes, plonge… et se pose sur la tête de Hugo, attiré par ses lunettes.", "en": "The audience feels the beat of wings above their heads. The falcon folds its wings, dives… and lands on Hugo's head, drawn by his glasses."},
+      {"sp": "Le fauconnier", "fr": "Ne bougez pas, monsieur. Il aime les lunettes.", "en": "Don't move, sir. He likes glasses."},
+      {"sp": "", "fr": "Hugo ne bouge plus, les griffes dans les cheveux. Le père de Tom prend en photo l'envol du faucon : le plus bel oiseau de sa journée.", "en": "Hugo freezes, the talons in his hair. Tom's father photographs the falcon's take-off: the best bird of his day."},
+      {"sp": "", "fr": "À la sortie, les cheveux en désordre, Hugo appelle Paul à Paris.", "en": "On the way out, his hair in a mess, Hugo phones Paul in Paris."},
+      {"sp": "Hugo", "fr": "Bonne fête, papa ! Devine ce qui s'est posé sur ma tête : un faucon !", "en": "Happy Father's Day, Dad! Guess what landed on my head: a falcon!"},
+      {"sp": "", "fr": "Paul éclate de rire. Pendant ce temps, Tom offre à son père un livre sur les oiseaux de France. Ému, son père dit lentement, en français : « Une belle journée. »", "en": "Paul bursts out laughing. Meanwhile, Tom gives his father a book on the birds of France. Moved, his father says slowly, in French: \"A lovely day.\""},
+      {"sp": "", "fr": "Au même moment, les premières gouttes de pluie tombent. Les hirondelles avaient raison.", "en": "At that moment, the first drops of rain fall. The swallows were right."}
+    ]
+  }
+}

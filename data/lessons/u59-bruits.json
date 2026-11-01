@@ -1,0 +1,142 @@
+{
+  "id": "u59-bruits",
+  "type": "vocab",
+  "unit": 59,
+  "title": "Bruits de coulisses",
+  "en": "Sounds and noises",
+  "intro": "25 words for sounds and noises: the voice (**le soupir, le sanglot, le hurlement, le gémissement, le chuchotement, ronfler**), loud noises (**le fracas, le vacarme, le brouhaha, le grondement, retentir, résonner**), small sharp sounds (**le sifflet, le sifflement, grincer, le grincement, le craquement, le claquement, tinter, bourdonner**), and describing them (**aigu, strident, sourd, sonore**), with **le bruitage**, sound effects.",
+  "words": [
+    {"id": "soupir", "fr": "soupir", "pos": "noun", "g": "m", "ipa": "su.piʁ", "en": "sigh", "def": "Un long [souffle|souffle] qu'on fait sortir quand on est triste, fatigué ou soulagé.", "def_en": "A long breath you let out when you're sad, tired or relieved.", "note": "Pousser un soupir = to heave a sigh.", "forms": ["soupirs"], "examples": [
+      {"fr": "Monsieur Jourdain pousse un long **soupir**.", "en": "Monsieur Jourdain heaves a long sigh."},
+      {"fr": "Elle a lu la lettre et a poussé un **soupir** de soulagement.", "en": "She read the letter and heaved a sigh of relief."},
+      {"fr": "Pas un **soupir**, pas un mot : la salle écoute.", "en": "Not a sigh, not a word: the audience is listening."}]},
+    {"id": "aigu", "fr": "aigu", "pos": "adj", "ipa": "e.ɡy", "display": "aigu, aiguë", "en": "high-pitched, shrill; sharp (pain)", "def": "Se dit d'un bruit très haut, comme la voix d'un petit enfant ; se dit aussi d'une douleur très vive.", "def_en": "Said of a very high sound, like a small child's voice; also said of a very intense pain.", "forms": ["aiguë", "aigus", "aiguës"], "examples": [
+      {"fr": "Le rire **aigu** de Nicole fait sourire tout le monde.", "en": "Nicole's high-pitched laugh makes everyone smile."},
+      {"fr": "Nina pousse des cris **aigus** quand elle joue.", "en": "Nina gives high-pitched shrieks when she plays."},
+      {"fr": "Il a une douleur **aiguë** au ventre.", "en": "He has a sharp pain in his stomach."}]},
+    {"id": "resonner", "fr": "résonner", "pos": "verb", "ipa": "ʁe.zɔ.ne", "en": "to resound, to echo", "def": "Faire un bruit qui dure et qui se répète dans un grand lieu [vide|vide].", "def_en": "To make a sound that lasts and repeats itself in a big empty place.", "forms": ["résonne", "résonnes", "résonnons", "résonnez", "résonnent", "résonné", "résonnais", "résonnait", "résonnions", "résonniez", "résonnaient", "résonnerai", "résonneras", "résonnera", "résonnerons", "résonnerez", "résonneront", "résonnerais", "résonnerait", "résonnerions", "résonneriez", "résonneraient", "résonnant", "résonnai", "résonnas", "résonna", "résonnâmes", "résonnâtes", "résonnèrent"], "examples": [
+      {"fr": "Le gong **résonne** dans toute la salle.", "en": "The gong resounds through the whole hall."},
+      {"fr": "Dans l'église [vide|vide], nos voix **résonnent**.", "en": "In the empty church, our voices echo."},
+      {"fr": "Sa phrase **résonne** encore dans ma tête.", "en": "His words still echo in my head."}]},
+    {"id": "sanglot", "fr": "sanglot", "pos": "noun", "g": "m", "ipa": "sɑ̃.ɡlo", "en": "sob", "def": "Le bruit qu'on fait quand on pleure très fort, avec des larmes et une respiration coupée.", "def_en": "The sound you make when you cry very hard, with tears and broken breathing.", "note": "Éclater en sanglots = to burst into tears.", "forms": ["sanglots"], "examples": [
+      {"fr": "Une jeune actrice éclate en **sanglots**.", "en": "A young actress bursts into tears."},
+      {"fr": "Entre deux **sanglots**, l'enfant raconte sa chute.", "en": "Between two sobs, the child tells how he fell."},
+      {"fr": "Il a retenu un **sanglot**.", "en": "He held back a sob."}]},
+    {"id": "sonore", "fr": "sonore", "pos": "adj", "ipa": "sɔ.nɔʁ", "en": "sound (effects, track); loud, resonant", "def": "Qui concerne ce qu'on entend ; qui s'entend fort et loin.", "def_en": "Having to do with what you hear; that can be heard loud and far.", "forms": ["sonores"], "examples": [
+      {"fr": "Je veux des effets **sonores** faits à la main.", "en": "I want sound effects made by hand."},
+      {"fr": "La bande **sonore** du film est magnifique.", "en": "The film's soundtrack is magnificent."},
+      {"fr": "Il a un rire très **sonore**.", "en": "He has a very loud laugh."}]},
+    {"id": "retentir", "fr": "retentir", "pos": "verb", "ipa": "ʁə.tɑ̃.tiʁ", "en": "to ring out, to resound", "def": "Se faire entendre fort, d'un coup, dans tout un lieu.", "def_en": "To be heard loudly, all at once, all through a place.", "forms": ["retentis", "retentit", "retentissons", "retentissez", "retentissent", "retenti", "retentissais", "retentissait", "retentissions", "retentissiez", "retentissaient", "retentirai", "retentiras", "retentira", "retentirons", "retentirez", "retentiront", "retentirais", "retentirait", "retentirions", "retentiriez", "retentiraient", "retentisse", "retentisses", "retentissant", "retentîmes", "retentîtes", "retentirent"], "examples": [
+      {"fr": "Un coup de gong **retentit** : la cérémonie turque commence.", "en": "A stroke of the gong rings out: the Turkish ceremony begins."},
+      {"fr": "La sonnerie **retentit** et les élèves sortent.", "en": "The bell rings out and the pupils go out."},
+      {"fr": "Des applaudissements **retentissent** dans la salle.", "en": "Applause rings out in the hall."}]},
+    {"id": "hurlement", "fr": "hurlement", "pos": "noun", "g": "m", "hAsp": true, "ipa": "yʁ.lə.mɑ̃", "en": "scream, howl", "def": "Un cri très fort et long, de peur, de douleur ou de colère ; le cri du loup.", "def_en": "A very loud, long cry of fear, pain or anger; the cry of the wolf.", "forms": ["hurlements"], "examples": [
+      {"fr": "Un **hurlement** traverse la salle.", "en": "A scream crosses the hall."},
+      {"fr": "La nuit, on entend le **hurlement** des loups.", "en": "At night, you can hear the howl of the wolves."},
+      {"fr": "Elle a poussé un **hurlement** en voyant l'araignée.", "en": "She let out a scream when she saw the spider."}]},
+    {"id": "sifflet", "fr": "sifflet", "pos": "noun", "g": "m", "ipa": "si.flɛ", "en": "whistle (the object)", "def": "Un petit objet dans lequel on souffle pour faire un bruit fort et haut ; l'arbitre en a un.", "def_en": "A small object you blow into to make a loud, high sound; the referee has one.", "note": "Un coup de sifflet = a blast on the whistle.", "forms": ["sifflets"], "examples": [
+      {"fr": "Puis Tom donne un coup de **sifflet** strident.", "en": "Then Tom gives a shrill blast on the whistle."},
+      {"fr": "L'arbitre porte un **sifflet** autour du cou.", "en": "The referee wears a whistle round his neck."},
+      {"fr": "Le contrôleur donne un coup de **sifflet**, et le train part.", "en": "The guard blows his whistle, and the train leaves."}]},
+    {"id": "grincer", "fr": "grincer", "pos": "verb", "ipa": "ɡʁɛ̃.se", "en": "to creak, to squeak; to grind (one's teeth)", "def": "Faire un bruit haut et désagréable en frottant, comme une vieille porte ; serrer et frotter ses dents.", "def_en": "To make a high, unpleasant sound by rubbing, like an old door; to clench and rub your teeth.", "note": "Grincer des dents = to grind one's teeth.", "forms": ["grince", "grinces", "grinçons", "grincez", "grincent", "grincé", "grinçais", "grinçait", "grincions", "grinciez", "grinçaient", "grincerai", "grinceras", "grincera", "grincerons", "grincerez", "grinceront", "grincerais", "grincerait", "grincerions", "grinceriez", "grinceraient", "grinçant", "grinçai", "grinças", "grinça", "grinçâmes", "grinçâtes", "grincèrent"], "examples": [
+      {"fr": "Quand le maître de musique entre, la vieille porte **grince**.", "en": "When the music master comes in, the old door creaks."},
+      {"fr": "Il **grince** des dents en dormant.", "en": "He grinds his teeth in his sleep."},
+      {"fr": "Le vieux lit **grinçait** à chaque mouvement.", "en": "The old bed squeaked at every movement."}]},
+    {"id": "fracas", "fr": "fracas", "pos": "noun", "g": "m", "ipa": "fʁa.ka", "en": "crash", "def": "Un bruit très fort de choses qui tombent, qui se cassent ou qui se heurtent.", "def_en": "A very loud noise of things falling, breaking or knocking into each other.", "examples": [
+      {"fr": "Une chaise tombe avec un grand **fracas**.", "en": "A chair falls with a great crash."},
+      {"fr": "Le vase s'est cassé avec **fracas**.", "en": "The vase broke with a crash."},
+      {"fr": "On entend le **fracas** des vagues contre les rochers.", "en": "You can hear the crash of the waves against the rocks."}]},
+    {"id": "gemissement", "fr": "gémissement", "pos": "noun", "g": "m", "ipa": "ʒe.mis.mɑ̃", "en": "groan, moan", "def": "Un petit bruit faible et triste qu'on fait quand on a mal.", "def_en": "A small, faint, sad sound you make when you're in pain.", "forms": ["gémissements"], "examples": [
+      {"fr": "Un **gémissement** : Monsieur Jourdain s'est cogné contre le décor.", "en": "A groan: Monsieur Jourdain has bumped into the set."},
+      {"fr": "Le chien blessé pousse de petits **gémissements**.", "en": "The injured dog gives little moans."},
+      {"fr": "Elle s'est réveillée en entendant un **gémissement**.", "en": "She woke up when she heard a groan."}]},
+    {"id": "vacarme", "fr": "vacarme", "pos": "noun", "g": "m", "ipa": "va.kaʁm", "en": "din, racket, uproar", "def": "Un bruit énorme et sans ordre, fait par beaucoup de gens ou de choses.", "def_en": "A huge noise without order made by lots of people or things.", "forms": ["vacarmes"], "examples": [
+      {"fr": "C'est un joyeux **vacarme** de tambours et de cris.", "en": "It's a joyful racket of drums and cries."},
+      {"fr": "Les voisins font un **vacarme** terrible.", "en": "The neighbours are making a terrible racket."},
+      {"fr": "Impossible de dormir avec ce **vacarme** !", "en": "Impossible to sleep with this din!"}]},
+    {"id": "sifflement", "fr": "sifflement", "pos": "noun", "g": "m", "ipa": "si.flə.mɑ̃", "en": "whistling (sound), hiss", "def": "Le bruit haut que fait l'air qui passe vite, ou quelqu'un qui souffle entre ses lèvres.", "def_en": "The high sound made by air moving fast, or by someone blowing between their lips.", "forms": ["sifflements"], "examples": [
+      {"fr": "Tom souffle dans la bouteille : c'est le **sifflement** du vent.", "en": "Tom blows into the bottle: it's the whistling of the wind."},
+      {"fr": "Le **sifflement** du serpent fait peur aux enfants.", "en": "The snake's hiss frightens the children."},
+      {"fr": "J'entends un **sifflement** dans mes oreilles.", "en": "I can hear a whistling in my ears."}]},
+    {"id": "grondement", "fr": "grondement", "pos": "noun", "g": "m", "ipa": "ɡʁɔ̃d.mɑ̃", "en": "rumble, rumbling; growl", "def": "Un bruit sourd, long et grave, comme celui d'un moteur ou d'un chien en colère.", "def_en": "A deep, long, low noise, like that of an engine or an angry dog.", "forms": ["grondements"], "examples": [
+      {"fr": "Le **grondement** du grand tambour remplit le théâtre.", "en": "The rumble of the big drum fills the theatre."},
+      {"fr": "Le chien fait entendre un **grondement**.", "en": "The dog gives a growl."},
+      {"fr": "Le **grondement** des camions réveille tout le quartier.", "en": "The rumbling of the lorries wakes the whole neighbourhood."}]},
+    {"id": "craquement", "fr": "craquement", "pos": "noun", "g": "m", "ipa": "kʁak.mɑ̃", "en": "creak, crack (sound)", "def": "Le bruit du bois, ou d'une autre chose, qui se plie ou qui casse.", "def_en": "The sound of wood, or something else, bending or breaking.", "forms": ["craquements"], "examples": [
+      {"fr": "Dans le noir, chaque **craquement** de la scène fait peur.", "en": "In the dark, every creak of the stage is frightening."},
+      {"fr": "On a entendu un **craquement** : la branche s'est cassée.", "en": "We heard a crack: the branch had broken."},
+      {"fr": "Les **craquements** du vieil escalier réveillent toute la maison.", "en": "The creaks of the old staircase wake the whole house."}]},
+    {"id": "claquement", "fr": "claquement", "pos": "noun", "g": "m", "ipa": "klak.mɑ̃", "en": "bang, slam; clack, click", "def": "Le bruit de deux choses qui se frappent fort : une porte qu'on ferme, des mains, des épées.", "def_en": "The sound of two things striking each other hard: a door being shut, hands, swords.", "forms": ["claquements"], "examples": [
+      {"fr": "Tom frappe les deux épées : leur **claquement** remplit la scène.", "en": "Tom strikes the two swords together: their clack fills the stage."},
+      {"fr": "Le **claquement** d'une porte a réveillé le bébé.", "en": "The slam of a door woke the baby."},
+      {"fr": "On entend le **claquement** de ses talons dans le couloir.", "en": "You can hear the click of her heels in the corridor."}]},
+    {"id": "tinter", "fr": "tinter", "pos": "verb", "ipa": "tɛ̃.te", "en": "to ring, to tinkle, to jingle", "def": "Faire un petit bruit clair et léger, comme une petite cloche ou des verres qu'on cogne.", "def_en": "To make a small, clear, light sound, like a little bell or glasses being clinked.", "forms": ["tinte", "tintes", "tintons", "tintez", "tintent", "tinté", "tintais", "tintait", "tintions", "tintiez", "tintaient", "tinterai", "tinteras", "tintera", "tinterons", "tinterez", "tinteront", "tinterais", "tinterait", "tinterions", "tinteriez", "tinteraient", "tintant", "tintai", "tintas", "tinta", "tintâmes", "tintâtes", "tintèrent"], "examples": [
+      {"fr": "À chaque entrée de Nicole, une petite cloche **tinte**.", "en": "At each of Nicole's entrances, a little bell tinkles."},
+      {"fr": "Les verres **tintent** : à votre santé !", "en": "The glasses clink: to your health!"},
+      {"fr": "Les clés **tintaient** dans sa poche.", "en": "The keys jingled in his pocket."}]},
+    {"id": "bourdonner", "fr": "bourdonner", "pos": "verb", "ipa": "buʁ.dɔ.ne", "en": "to buzz, to hum", "def": "Faire un bruit sourd qui ne s'arrête pas, comme une abeille ou une mouche qui vole.", "def_en": "To make a low noise that doesn't stop, like a bee or a fly in flight.", "forms": ["bourdonne", "bourdonnes", "bourdonnons", "bourdonnez", "bourdonnent", "bourdonné", "bourdonnais", "bourdonnait", "bourdonnions", "bourdonniez", "bourdonnaient", "bourdonnerai", "bourdonneras", "bourdonnera", "bourdonnerons", "bourdonnerez", "bourdonneront", "bourdonnerais", "bourdonnerait", "bourdonnerions", "bourdonneriez", "bourdonneraient", "bourdonnant", "bourdonnai", "bourdonnas", "bourdonna", "bourdonnâmes", "bourdonnâtes", "bourdonnèrent"], "examples": [
+      {"fr": "Tom imite une mouche qui **bourdonne** autour de Monsieur Jourdain.", "en": "Tom imitates a fly buzzing round Monsieur Jourdain."},
+      {"fr": "Les abeilles **bourdonnent** dans les fleurs.", "en": "The bees are buzzing in the flowers."},
+      {"fr": "Après le concert, mes oreilles **bourdonnaient**.", "en": "After the concert, my ears were buzzing."}]},
+    {"id": "grincement", "fr": "grincement", "pos": "noun", "g": "m", "ipa": "ɡʁɛ̃s.mɑ̃", "en": "creak, squeak; grinding", "def": "Le bruit haut et désagréable d'une chose qui frotte, comme une vieille porte qu'on ouvre.", "def_en": "The high, unpleasant sound of something rubbing, like an old door being opened.", "forms": ["grincements"], "examples": [
+      {"fr": "Le **grincement** fait rire les acteurs.", "en": "The creak makes the actors laugh."},
+      {"fr": "Le **grincement** du portail annonce chaque client.", "en": "The creak of the gate announces every customer."},
+      {"fr": "Ce **grincement** de freins me fait mal aux oreilles.", "en": "That squeal of brakes hurts my ears."}]},
+    {"id": "chuchotement", "fr": "chuchotement", "pos": "noun", "g": "m", "ipa": "ʃy.ʃɔt.mɑ̃", "en": "whisper, whispering", "def": "Des [paroles|parole] dites tout doucement, presque sans voix, pour ne pas être entendu.", "def_en": "Words said very softly, almost without a voice, so as not to be heard.", "forms": ["chuchotements"], "examples": [
+      {"fr": "Dans les coulisses, on n'entend que des **chuchotements**.", "en": "In the wings, all you can hear is whispering."},
+      {"fr": "Au cinéma, les **chuchotements** de mes voisins me dérangent.", "en": "At the cinema, my neighbours' whispering bothers me."},
+      {"fr": "Elle m'a dit son secret dans un **chuchotement**.", "en": "She told me her secret in a whisper."}]},
+    {"id": "strident", "fr": "strident", "pos": "adj", "ipa": "stʁi.dɑ̃", "display": "strident(e)", "en": "shrill, piercing", "def": "Se dit d'un bruit haut et très fort, qui fait mal aux oreilles.", "def_en": "Said of a high, very loud sound that hurts your ears.", "forms": ["stridente", "stridents", "stridentes"], "examples": [
+      {"fr": "Puis Tom donne un coup de sifflet **strident**.", "en": "Then Tom gives a shrill blast on the whistle."},
+      {"fr": "La sirène pousse un cri **strident**.", "en": "The siren gives a piercing wail."},
+      {"fr": "Les cris **stridents** des enfants remplissent la cour.", "en": "The children's shrill shrieks fill the playground."}]},
+    {"id": "bruitage", "fr": "bruitage", "pos": "noun", "g": "m", "ipa": "bʁɥi.taʒ", "en": "sound effects", "def": "Les effets sonores qu'on fabrique pour une pièce, un film ou la radio : une porte, le vent, la pluie…", "def_en": "The sound effects you make for a play, a film or the radio: a door, the wind, the rain…", "forms": ["bruitages"], "examples": [
+      {"fr": "Tom fait le **bruitage** en direct, caché dans les coulisses.", "en": "Tom does the sound effects live, hidden in the wings."},
+      {"fr": "Au cinéma, les **bruitages** sont souvent faits après le tournage.", "en": "In films, the sound effects are often made after the shoot."},
+      {"fr": "Pour le **bruitage** de la pluie, on secoue du riz dans une boîte.", "en": "For the sound of rain, you shake rice in a box."}]},
+    {"id": "sourd", "fr": "sourd", "pos": "adj", "ipa": "suʁ", "display": "sourd(e)", "en": "deaf; (of a sound) muffled, dull", "def": "Qui n'entend pas, ou très mal ; se dit aussi d'un bruit faible et grave, qu'on entend mal.", "def_en": "Who can't hear, or hears very badly; also said of a faint, low noise that is hard to hear.", "forms": ["sourde", "sourds", "sourdes"], "examples": [
+      {"fr": "Puis on entend un bruit **sourd** : quelqu'un est tombé.", "en": "Then there's a dull thud: someone has fallen."},
+      {"fr": "Le vieux chien des voisins est devenu **sourd**.", "en": "The neighbours' old dog has gone deaf."},
+      {"fr": "Elle sent une douleur **sourde** dans le dos.", "en": "She feels a dull ache in her back."}]},
+    {"id": "ronfler", "fr": "ronfler", "pos": "verb", "ipa": "ʁɔ̃.fle", "en": "to snore; (of an engine) to roar", "def": "Faire du bruit avec le nez et la gorge en dormant ; se dit aussi d'un moteur qui tourne fort.", "def_en": "To make a noise with your nose and throat while sleeping; also said of an engine running hard.", "forms": ["ronfle", "ronfles", "ronflons", "ronflez", "ronflent", "ronflé", "ronflais", "ronflait", "ronflions", "ronfliez", "ronflaient", "ronflerai", "ronfleras", "ronflera", "ronflerons", "ronflerez", "ronfleront", "ronflerais", "ronflerait", "ronflerions", "ronfleriez", "ronfleraient", "ronflant", "ronflai", "ronflas", "ronfla", "ronflâmes", "ronflâtes", "ronflèrent"], "examples": [
+      {"fr": "Au dernier rang, quelqu'un **ronfle** : le vieux gardien du théâtre !", "en": "In the back row, someone is snoring: the theatre's old caretaker!"},
+      {"fr": "Mon père **ronfle** si fort que ma mère dort dans le salon.", "en": "My father snores so loudly that my mother sleeps in the living room."},
+      {"fr": "Le moteur de la vieille voiture **ronfle** dans la rue.", "en": "The old car's engine roars in the street."}]},
+    {"id": "brouhaha", "fr": "brouhaha", "pos": "noun", "g": "m", "ipa": "bʁu.a.a", "en": "hubbub, babble of voices", "def": "Le bruit de beaucoup de voix qui parlent en même temps.", "def_en": "The noise of lots of voices talking at the same time.", "forms": ["brouhahas"], "examples": [
+      {"fr": "Un **brouhaha** joyeux remplit la salle.", "en": "A joyful hubbub fills the hall."},
+      {"fr": "Dans le **brouhaha** du marché, je n'entends pas mon téléphone.", "en": "In the hubbub of the market, I can't hear my phone."},
+      {"fr": "Le prof entre, et le **brouhaha** s'arrête tout à coup.", "en": "The teacher comes in, and the hubbub suddenly stops."}]}
+  ],
+  "story": {
+    "title": "Bruits de coulisses",
+    "en": "Noises off",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche vingt-six juin, au théâtre de l'université, c'est la répétition technique de la pièce de Léa, Le Bourgeois gentilhomme. La seule représentation a lieu jeudi.", "en": "On Sunday 26 June, at the university theatre, it's the technical rehearsal of Léa's play, Le Bourgeois gentilhomme. The only performance is on Thursday."},
+      {"sp": "", "fr": "Madame Roussel a demandé à Tom de faire le bruitage en direct, caché dans les coulisses. Sur sa table : une petite cloche, un sifflet, une bouteille, une vieille porte, deux épées en bois, un gong et des tambours.", "en": "Madame Roussel has asked Tom to do the sound effects live, hidden in the wings. On his table: a little bell, a whistle, a bottle, an old door, two wooden swords, a gong and drums."},
+      {"sp": "Madame Roussel", "fr": "Pas d'ordinateur ! Je veux des effets sonores faits à la main, comme au temps de Molière.", "en": "No computer! I want sound effects made by hand, like in Molière's time."},
+      {"sp": "", "fr": "Ça commence. Quand le maître de musique entre, la vieille porte grince. Le grincement fait rire les acteurs.", "en": "It begins. When the music master comes in, the old door creaks. The creak makes the actors laugh."},
+      {"sp": "", "fr": "Vient le maître d'armes. Tom frappe les deux épées : leur claquement remplit la scène.", "en": "Then comes the fencing master. Tom strikes the two swords together: their clack fills the stage."},
+      {"sp": "", "fr": "Pendant la leçon de philosophie, Tom imite une mouche qui bourdonne autour de Monsieur Jourdain. Monsieur Jourdain pousse un long soupir.", "en": "During the philosophy lesson, Tom imitates a fly buzzing round Monsieur Jourdain. Monsieur Jourdain heaves a long sigh."},
+      {"sp": "", "fr": "À chaque entrée de Nicole, une petite cloche tinte. Léa joue la fameuse scène où Nicole rit sans pouvoir s'arrêter : le rire aigu de Nicole fait sourire tout le monde.", "en": "At each of Nicole's entrances, a little bell tinkles. Léa plays the famous scene where Nicole can't stop laughing: Nicole's high-pitched laugh makes everyone smile."},
+      {"sp": "", "fr": "Tom souffle dans la bouteille : c'est le sifflement du vent. Un coup de sifflet strident, et l'étudiant qui fait les lumières sursaute.", "en": "Tom blows into the bottle: it's the whistling of the wind. A shrill blast on the whistle, and the student doing the lights jumps."},
+      {"sp": "", "fr": "Enfin, un coup de gong retentit : la cérémonie turque commence. Le gong résonne dans toute la salle.", "en": "At last, a stroke of the gong rings out: the Turkish ceremony begins. The gong resounds through the whole hall."},
+      {"sp": "", "fr": "Le grondement du grand tambour remplit le théâtre. Les acteurs dansent et crient autour de Monsieur Jourdain : c'est un joyeux vacarme de tambours et de cris.", "en": "The rumble of the big drum fills the theatre. The actors dance and shout round Monsieur Jourdain: it's a joyful racket of drums and cries."},
+      {"sp": "", "fr": "Tout à coup, plus de lumière : une coupure de courant dans tout le bâtiment.", "en": "Suddenly, no more light: a power cut in the whole building."},
+      {"sp": "", "fr": "Un hurlement traverse la salle. Une chaise tombe avec un grand fracas. Puis on entend un bruit sourd : quelqu'un est tombé.", "en": "A scream crosses the hall. A chair falls with a great crash. Then there's a dull thud: someone has fallen."},
+      {"sp": "", "fr": "Un gémissement : Monsieur Jourdain s'est cogné contre le décor. Une jeune actrice éclate en sanglots.", "en": "A groan: Monsieur Jourdain has bumped into the set. A young actress bursts into tears."},
+      {"sp": "", "fr": "Dans le noir, chaque craquement de la scène fait peur. Tom, qui a peur du noir, sent son cœur battre très fort.", "en": "In the dark, every creak of the stage is frightening. Tom, who is afraid of the dark, feels his heart pounding."},
+      {"sp": "", "fr": "Mais à tâtons, de mémoire, il continue : le gong, les tambours, la cloche, dans le bon ordre.", "en": "But feeling his way, from memory, he carries on: the gong, the drums, the bell, in the right order."},
+      {"sp": "", "fr": "Madame Roussel, dans un chuchotement : « On continue ! »", "en": "Madame Roussel, in a whisper: \"We carry on!\""},
+      {"sp": "", "fr": "Dans les coulisses, on n'entend que des chuchotements. Sur scène, les acteurs jouent dans le noir en [suivant|suivre] les bruits de Tom.", "en": "In the wings, all you can hear is whispering. On stage, the actors play in the dark, following Tom's sounds."},
+      {"sp": "", "fr": "La cérémonie finit sur un coup de gong. Dans le silence, au dernier rang, quelqu'un ronfle : le vieux gardien du théâtre !", "en": "The ceremony ends on a stroke of the gong. In the silence, in the back row, someone is snoring: the theatre's old caretaker!"},
+      {"sp": "", "fr": "Il a dormi pendant toute la répétition.", "en": "He has slept through the whole rehearsal."},
+      {"sp": "", "fr": "La lumière revient. Un brouhaha joyeux remplit la salle, et tout le monde applaudit.", "en": "The light comes back. A joyful hubbub fills the hall, and everyone claps."},
+      {"sp": "Madame Roussel", "fr": "Monsieur l'Anglais, vous avez sauvé la répétition !", "en": "Monsieur l'Anglais, you've saved the rehearsal!"},
+      {"sp": "", "fr": "C'est seulement [alors|alors] que Tom, blanc comme un linge, avoue qu'il a eu une peur terrible.", "en": "Only then does Tom, white as a sheet, admit that he was terribly frightened."},
+      {"sp": "Tom", "fr": "Mais je ne pouvais pas vous laisser dans le noir.", "en": "But I couldn't leave you in the dark."},
+      {"sp": "", "fr": "Léa le serre dans ses bras.", "en": "Léa hugs him."},
+      {"sp": "Léa", "fr": "Plus que quatre jours !", "en": "Only four days to go!"}
+    ]
+  }
+}

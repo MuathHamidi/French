@@ -1,0 +1,143 @@
+{
+  "id": "u59-noms",
+  "type": "vocab",
+  "unit": 59,
+  "title": "Le jour des résultats",
+  "en": "Common nouns (15)",
+  "intro": "25 common nouns: results day (**le pacte, le supplice, le répit, le zèle, la coquille, le vainqueur, l'aisance, le recul**), at the café (**le zinc, la pendule, la tartine, l'éventail, la vigueur, la sottise, le porteur**), plans and news (**le manuscrit, l'archive, l'emplacement, la proximité, la rêverie, le biais, le surcroît, la quarantaine**), and Hugo's money (**le retrait, la survie**).",
+  "words": [
+    {"id": "manuscrit", "fr": "manuscrit", "pos": "noun", "g": "m", "ipa": "ma.ny.skʁi", "en": "manuscript, handwritten copy", "def": "Un texte écrit à la main ; le texte d'un auteur, avant qu'il devienne un livre.", "def_en": "A text written by hand; an author's text before it becomes a book.", "forms": ["manuscrits"], "examples": [
+      {"fr": "Tom relit le **manuscrit** de sa chanson.", "en": "Tom rereads the handwritten copy of his song."},
+      {"fr": "Le **manuscrit** de ce roman est au musée.", "en": "The manuscript of this novel is in the museum."},
+      {"fr": "L'écrivain envoie son **manuscrit** à trois éditeurs.", "en": "The writer sends his manuscript to three publishers."}]},
+    {"id": "vainqueur", "fr": "vainqueur", "pos": "noun", "g": "m", "ipa": "vɛ̃.kœʁ", "en": "winner, victor", "def": "La personne ou l'équipe qui gagne un match, une course ou une guerre.", "def_en": "The person or team that wins a match, a race or a war.", "forms": ["vainqueurs"], "examples": [
+      {"fr": "Le grand **vainqueur**, c'est toi !", "en": "You're the big winner!"},
+      {"fr": "Les **vainqueurs** de la course reçoivent une médaille.", "en": "The winners of the race get a medal."},
+      {"fr": "L'équipe de Lyon est sortie **vainqueur** du match.", "en": "The Lyon team came out the winner."}]},
+    {"id": "reverie", "fr": "rêverie", "pos": "noun", "g": "f", "ipa": "ʁɛv.ʁi", "en": "daydream, reverie", "def": "Le fait de laisser partir ses pensées, les yeux ouverts, loin de ce qui se passe autour de soi.", "def_en": "Letting your thoughts drift, eyes open, far from what is going on around you.", "forms": ["rêveries"], "examples": [
+      {"fr": "Perdue dans sa **rêverie**, Sophie voit déjà le port.", "en": "Lost in her daydream, Sophie can already see the harbour."},
+      {"fr": "La sonnerie l'a tiré de sa **rêverie**.", "en": "The ringing pulled him out of his daydream."},
+      {"fr": "Ces longues **rêveries** au bord de l'eau lui font du bien.", "en": "These long daydreams by the water do her good."}]},
+    {"id": "pacte", "fr": "pacte", "pos": "noun", "g": "m", "ipa": "pakt", "en": "pact", "def": "Un accord sérieux entre deux personnes ou plus, qui promettent de faire quelque chose.", "def_en": "A serious agreement between two or more people, who promise to do something.", "forms": ["pactes"], "examples": [
+      {"fr": "Les amis ont fait un **pacte** : ouvrir les résultats ensemble.", "en": "The friends have made a pact: to open the results together."},
+      {"fr": "Les deux pays ont signé un **pacte**.", "en": "The two countries have signed a pact."},
+      {"fr": "On avait un **pacte** : pas de téléphone à table.", "en": "We had a pact: no phones at the table."}]},
+    {"id": "emplacement", "fr": "emplacement", "pos": "noun", "g": "m", "ipa": "ɑ̃.plas.mɑ̃", "en": "site, location, spot (where something stands)", "def": "L'endroit précis où se trouve une chose, ou bien où on la met.", "def_en": "The exact place where a thing is, or where it is put.", "forms": ["emplacements"], "examples": [
+      {"fr": "Le jury a aimé l'**emplacement** du bar.", "en": "The panel liked where the bar was placed."},
+      {"fr": "Cet **emplacement** est réservé aux vélos.", "en": "This space is reserved for bikes."},
+      {"fr": "On cherche un bon **emplacement** pour la tente.", "en": "We're looking for a good spot for the tent."}]},
+    {"id": "porteur", "fr": "porteur", "pos": "noun", "g": "m", "ipa": "pɔʁ.tœʁ", "display": "le porteur, la porteuse", "en": "bearer, carrier; porter", "def": "Une personne qui a quelque chose avec elle : un sac, une lettre, une nouvelle qu'elle vient donner.", "def_en": "A person who has something with them: a bag, a letter, news they have come to deliver.", "note": "*Porteur de* = carrying, bearing (*porteur d'espoir*, bringing hope).", "forms": ["porteurs", "porteuse", "porteuses"], "examples": [
+      {"fr": "Hugo arrive, **porteur** d'un sac de croissants.", "en": "Hugo arrives, carrying a bag of croissants."},
+      {"fr": "Les **porteurs** montent les sacs jusqu'au refuge.", "en": "The porters carry the bags up to the mountain hut."},
+      {"fr": "Elle est **porteuse** d'une bonne nouvelle.", "en": "She is the bearer of good news."}]},
+    {"id": "zinc", "fr": "zinc", "pos": "noun", "g": "m", "ipa": "zɛ̃ɡ", "en": "(café) counter, bar; zinc", "def": "Le comptoir d'un café, où l'on boit debout ; un métal gris.", "def_en": "The counter of a café, where people drink standing up; a grey metal.", "forms": ["zincs"], "examples": [
+      {"fr": "Le patron pose les cafés sur le **zinc**.", "en": "The owner puts the coffees on the counter."},
+      {"fr": "Ils prennent un café au **zinc**, debout.", "en": "They have a coffee at the bar, standing up."},
+      {"fr": "Le toit de l'immeuble est en **zinc**.", "en": "The roof of the building is made of zinc."}]},
+    {"id": "vigueur", "fr": "vigueur", "pos": "noun", "g": "f", "ipa": "vi.ɡœʁ", "en": "vigour, energy", "def": "Une grande force, pleine d'énergie.", "def_en": "Great strength, full of energy.", "note": "*En vigueur* = in force (a law, a rule).", "examples": [
+      {"fr": "Le patron applaudit avec **vigueur**.", "en": "The owner applauds vigorously."},
+      {"fr": "Malgré son âge, Jacques marche avec **vigueur**.", "en": "Despite his age, Jacques walks briskly."},
+      {"fr": "Elle a défendu son projet avec **vigueur**.", "en": "She defended her project with vigour."}]},
+    {"id": "recul", "fr": "recul", "pos": "noun", "g": "m", "ipa": "ʁə.kyl", "en": "hindsight, distance (from events); backward movement", "def": "La distance qu'on prend avec le temps pour mieux juger ; un mouvement en arrière.", "def_en": "The distance you take with time to judge better; a backward movement.", "note": "*Avec le recul* = with hindsight; *prendre du recul* = to step back (and think).", "examples": [
+      {"fr": "Avec le **recul**, l'année est passée très vite.", "en": "Looking back, the year went by very fast."},
+      {"fr": "Il faut prendre du **recul** avant de décider.", "en": "You need to step back before deciding."},
+      {"fr": "Le cheval a eu un mouvement de **recul**.", "en": "The horse shied back."}]},
+    {"id": "tartine", "fr": "tartine", "pos": "noun", "g": "f", "ipa": "taʁ.tin", "en": "slice of bread and butter (or jam)", "def": "Une tranche de pain avec du beurre, de la confiture ou du miel dessus.", "def_en": "A slice of bread with butter, jam or honey on it.", "forms": ["tartines"], "examples": [
+      {"fr": "Tom n'a pas touché à sa **tartine**.", "en": "Tom hasn't touched his bread and jam."},
+      {"fr": "Au petit déjeuner, Lou mange deux **tartines** de miel.", "en": "At breakfast, Lou eats two slices of bread and honey."},
+      {"fr": "Une **tartine** de beurre et un bol de chocolat chaud.", "en": "A slice of bread and butter and a bowl of hot chocolate."}]},
+    {"id": "sottise", "fr": "sottise", "pos": "noun", "g": "f", "ipa": "sɔ.tiz", "en": "foolish remark, silly thing", "def": "Une chose bête qu'on dit ou qu'on fait.", "def_en": "A stupid thing someone says or does.", "forms": ["sottises"], "examples": [
+      {"fr": "Léa lui donne un coup de pied : quelle **sottise** !", "en": "Léa kicks him: what a silly thing to say!"},
+      {"fr": "Arrête de dire des **sottises** !", "en": "Stop talking nonsense!"},
+      {"fr": "Les enfants ont encore fait une **sottise**.", "en": "The children have been up to something silly again."}]},
+    {"id": "retrait", "fr": "retrait", "pos": "noun", "g": "m", "ipa": "ʁə.tʁɛ", "en": "withdrawal (of money); withdrawing", "def": "L'action de prendre de l'argent sur son compte, à la banque ou au distributeur ; le fait d'enlever une chose.", "def_en": "Taking money out of your account, at the bank or at a cash machine; the removal of something.", "note": "*En retrait* = set back, in the background.", "forms": ["retraits"], "examples": [
+      {"fr": "Hugo file au distributeur faire un **retrait**.", "en": "Hugo dashes off to the cash machine to withdraw some money."},
+      {"fr": "Le **retrait** d'argent est gratuit dans cette banque.", "en": "Cash withdrawals are free at this bank."},
+      {"fr": "Le **retrait** de son permis l'a beaucoup gêné.", "en": "Losing his licence was a real nuisance for him."}]},
+    {"id": "proximite", "fr": "proximité", "pos": "noun", "g": "f", "ipa": "pʁɔk.si.mi.te", "en": "nearness, proximity", "def": "Le fait d'être tout près.", "def_en": "Being very close.", "note": "*À proximité de* = near, close to.", "examples": [
+      {"fr": "Une agence d'architectes à **proximité** du port.", "en": "An architects' office near the harbour."},
+      {"fr": "La **proximité** de la mer rend l'air plus doux.", "en": "Being close to the sea makes the air milder."},
+      {"fr": "Ils ont choisi l'appartement pour la **proximité** de l'école.", "en": "They chose the flat because it's close to the school."}]},
+    {"id": "coquille", "fr": "coquille", "pos": "noun", "g": "f", "ipa": "kɔ.kij", "en": "shell; typo, misprint", "def": "L'enveloppe [dure|dur] d'un œuf, d'une noix ou d'un escargot ; une petite faute dans un texte imprimé.", "def_en": "The hard covering of an egg, a nut or a snail; a small mistake in a printed text.", "forms": ["coquilles"], "examples": [
+      {"fr": "Il y a une **coquille** dans ton prénom !", "en": "There's a typo in your first name!"},
+      {"fr": "Lou casse la **coquille** de son œuf.", "en": "Lou cracks the shell of her egg."},
+      {"fr": "L'escargot rentre dans sa **coquille**.", "en": "The snail goes back into its shell."}]},
+    {"id": "biais", "fr": "biais", "pos": "noun", "g": "m", "ipa": "bjɛ", "en": "means, way; slant, bias", "def": "Un moyen, un chemin pour arriver à quelque chose ; une direction de travers.", "def_en": "A means, a route to get to something; a slanting direction.", "note": "*Par le biais de* = through, by way of.", "examples": [
+      {"fr": "Léa a eu le poste par le **biais** de sa professeure.", "en": "Léa got the job through her lecturer."},
+      {"fr": "Il faut trouver un **biais** pour lui parler.", "en": "We need to find a way to talk to him."},
+      {"fr": "On coupe le tissu dans le **biais**.", "en": "You cut the fabric on the bias."}]},
+    {"id": "surcroit", "fr": "surcroît", "pos": "noun", "g": "m", "ipa": "syʁ.kʁwa", "en": "extra, additional amount", "def": "Une quantité en plus de ce qu'on a déjà.", "def_en": "An amount on top of what you already have.", "note": "*De surcroît* = what's more, moreover.", "examples": [
+      {"fr": "C'est un vrai travail, et de **surcroît**, c'est payé !", "en": "It's a real job, and what's more, it's paid!"},
+      {"fr": "En juin, il y a un **surcroît** de travail à la boulangerie.", "en": "In June there's extra work at the bakery."},
+      {"fr": "Il pleut, et de **surcroît**, j'ai oublié mon parapluie.", "en": "It's raining, and what's more, I've forgotten my umbrella."}]},
+    {"id": "archive", "fr": "archive", "pos": "noun", "g": "f", "ipa": "aʁ.ʃiv", "en": "archive, record (usually plural: archives)", "def": "Les vieux documents qu'on garde, et l'endroit où on les garde.", "def_en": "The old documents that are kept, and the place where they are kept.", "forms": ["archives"], "examples": [
+      {"fr": "Sophie a trouvé de vieilles photos aux **archives** de la ville.", "en": "Sophie found some old photos in the city archives."},
+      {"fr": "Ce film d'**archives** montre Lyon en 1900.", "en": "This archive film shows Lyon in 1900."},
+      {"fr": "La mairie garde ses **archives** à la cave.", "en": "The town hall keeps its records in the cellar."}]},
+    {"id": "survie", "fr": "survie", "pos": "noun", "g": "f", "ipa": "syʁ.vi", "en": "survival", "def": "Le fait de ne pas mourir, de tenir bon malgré les difficultés.", "def_en": "Not dying; holding on despite difficulties.", "examples": [
+      {"fr": "Hugo mange toujours ses pâtes de **survie**.", "en": "Hugo is still eating his survival pasta."},
+      {"fr": "C'est une question de **survie** pour les petits commerces.", "en": "For small shops it's a matter of survival."},
+      {"fr": "Ils suivent un cours de **survie** en montagne.", "en": "They're taking a mountain survival course."}]},
+    {"id": "quarantaine", "fr": "quarantaine", "pos": "noun", "g": "f", "ipa": "ka.ʁɑ̃.tɛn", "en": "about forty; quarantine", "def": "Un nombre proche de quatre fois dix ; une période où l'on garde un malade loin des autres.", "def_en": "A number close to four times ten; a period when a sick person is kept away from others.", "note": "*Une quarantaine de* = about forty (like *une vingtaine de*).", "forms": ["quarantaines"], "examples": [
+      {"fr": "Le cours d'été accueille une **quarantaine** d'étudiants.", "en": "The summer school takes about forty students."},
+      {"fr": "Ma tante a la **quarantaine**.", "en": "My aunt is about forty."},
+      {"fr": "Le bateau est resté en **quarantaine** dix jours.", "en": "The ship stayed in quarantine for ten days."}]},
+    {"id": "supplice", "fr": "supplice", "pos": "noun", "g": "m", "ipa": "sy.plis", "en": "torture, agony (figurative)", "def": "Une très grande souffrance ; une chose très pénible à vivre.", "def_en": "Very great suffering; something very hard to go through.", "forms": ["supplices"], "examples": [
+      {"fr": "Attendre midi, c'est un vrai **supplice** !", "en": "Waiting for noon is sheer torture!"},
+      {"fr": "Ces nouvelles chaussures sont un **supplice**.", "en": "These new shoes are agony."},
+      {"fr": "Pour Tom, parler en public est un **supplice**.", "en": "For Tom, speaking in public is torture."}]},
+    {"id": "eventail", "fr": "éventail", "pos": "noun", "g": "m", "ipa": "e.vɑ̃.taj", "en": "fan (that you hold); range", "def": "Un petit objet qu'on ouvre et qu'on agite devant son visage pour avoir moins chaud ; un grand choix.", "def_en": "A small object you open and wave in front of your face to keep cool; a wide choice.", "forms": ["éventails"], "examples": [
+      {"fr": "Carla agite son **éventail** espagnol.", "en": "Carla waves her Spanish fan."},
+      {"fr": "Ce magasin propose un large **éventail** de prix.", "en": "This shop offers a wide range of prices."},
+      {"fr": "Il fait si chaud que tout le monde a un **éventail**.", "en": "It's so hot that everyone has a fan."}]},
+    {"id": "aisance", "fr": "aisance", "pos": "noun", "g": "f", "ipa": "ɛ.zɑ̃s", "en": "ease, fluency; comfort (money)", "def": "La manière simple et naturelle de faire une chose difficile ; une vie sans problèmes d'argent.", "def_en": "The simple, natural way of doing something difficult; a life without money worries.", "examples": [
+      {"fr": "Le jury parle de mon **aisance** à la guitare.", "en": "The panel talks about how at ease I am on the guitar."},
+      {"fr": "Elle parle espagnol avec **aisance**.", "en": "She speaks Spanish fluently."},
+      {"fr": "Ils vivent dans l'**aisance**.", "en": "They live in comfort."}]},
+    {"id": "pendule", "fr": "pendule", "pos": "noun", "g": "f", "ipa": "pɑ̃.dyl", "en": "clock (on a wall or a mantelpiece)", "def": "Une horloge qu'on pose ou qu'on accroche dans une maison ou un café.", "def_en": "A clock that is set down or hung up in a house or a café.", "note": "*Remettre les pendules à l'heure* = to set the record straight. *Le pendule* (masculine) = a pendulum.", "forms": ["pendules"], "examples": [
+      {"fr": "La **pendule** du café sonne midi.", "en": "The café clock strikes noon."},
+      {"fr": "La vieille **pendule** de Jacques avance de cinq minutes.", "en": "Jacques's old clock is five minutes fast."},
+      {"fr": "Il regarde la **pendule** toutes les deux minutes.", "en": "He looks at the clock every two minutes."}]},
+    {"id": "repit", "fr": "répit", "pos": "noun", "g": "m", "ipa": "ʁe.pi", "en": "respite, rest", "def": "Un moment de repos, une pause dans un travail ou une difficulté.", "def_en": "A moment's rest, a pause in work or in a difficulty.", "forms": ["répits"], "examples": [
+      {"fr": "Léa a révisé sans **répit** pendant trois semaines.", "en": "Léa revised non-stop for three weeks."},
+      {"fr": "La pluie ne nous laisse aucun **répit**.", "en": "The rain gives us no respite."},
+      {"fr": "Enfin un moment de **répit** !", "en": "At last a moment's rest!"}]},
+    {"id": "zele", "fr": "zèle", "pos": "noun", "g": "m", "ipa": "zɛl", "en": "zeal, eagerness", "def": "Une grande envie de bien faire, une grande ardeur au travail.", "def_en": "A great desire to do well, great eagerness for work.", "note": "*Faire du zèle* = to be overzealous.", "examples": [
+      {"fr": "Ton **zèle** a payé !", "en": "All that hard work has paid off!"},
+      {"fr": "Il range son bureau avec **zèle**.", "en": "He tidies his desk with great zeal."},
+      {"fr": "Le nouveau stagiaire montre beaucoup de **zèle**.", "en": "The new intern is very eager."}]}
+  ],
+  "story": {
+    "title": "Le jour des résultats",
+    "en": "Wednesday 15 June: results day at the café downstairs.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi quinze juin, à onze heures et demie, les amis sont au café d'en bas : c'est le jour des résultats de première année.", "en": "On Wednesday 15 June, at half past eleven, the friends are at the café downstairs: it's results day for the first year."},
+      {"sp": "", "fr": "Ils ont fait un pacte : ouvrir leurs résultats ensemble, à midi.", "en": "They've made a pact: to open their results together, at noon."},
+      {"sp": "", "fr": "Tom n'a pas touché à sa tartine de confiture. À côté de lui, Carla agite son éventail espagnol : il fait déjà très chaud.", "en": "Tom hasn't touched his bread and jam. Beside him, Carla waves her Spanish fan: it's already very hot."},
+      {"sp": "Léa", "fr": "Trois semaines de révisions sans répit, et maintenant, il faut attendre. C'est un vrai supplice !", "en": "Three weeks of revising non-stop, and now we have to wait. It's sheer torture!"},
+      {"sp": "", "fr": "Au zinc, Tom relit le manuscrit de sa chanson, « Quatre heures du matin » : il la chante mardi à la Fête de la musique, devant ses parents.", "en": "At the bar, Tom rereads the handwritten copy of his song, « Quatre heures du matin »: he's singing it on Tuesday at the Fête de la musique, in front of his parents."},
+      {"sp": "Tom", "fr": "Ils arrivent de Londres samedi. Pour l'instant, j'ai surtout peur de mes notes.", "en": "They arrive from London on Saturday. For now, it's mostly my marks I'm scared of."},
+      {"sp": "", "fr": "Au-dessus du zinc, la pendule sonne midi. Tout le monde ouvre son mail en même temps.", "en": "Above the bar, the clock strikes noon. Everyone opens their email at the same time."},
+      {"sp": "Léa", "fr": "Mention bien ! J'ai ma première année avec mention bien !", "en": "Mention bien! I've passed my first year with a mention bien!"},
+      {"sp": "Sophie", "fr": "Ton zèle a payé ! Mais regarde : il y a une coquille dans ton prénom.", "en": "All that hard work has paid off! But look: there's a typo in your first name."},
+      {"sp": "", "fr": "Tout le monde rit. Puis c'est le tour de Tom : il a la meilleure note de guitare de tous les étudiants de première année.", "en": "Everyone laughs. Then it's Tom's turn: he has the best guitar mark of all the first-year students."},
+      {"sp": "Camille", "fr": "Le grand vainqueur, c'est toi, mon chéri !", "en": "You're the big winner, darling!"},
+      {"sp": "Tom", "fr": "Le jury parle de mon « aisance » à la guitare… Moi qui tremblais comme une feuille !", "en": "The panel talks about how « at ease » I am on the guitar… And I was shaking like a leaf!"},
+      {"sp": "Carla", "fr": "Et moi, je passe en deuxième année de mon diplôme de prof de danse !", "en": "And I'm through to the second year of my dance-teaching diploma!"},
+      {"sp": "", "fr": "Le patron du café applaudit avec vigueur, puis il pose des cafés sur le zinc : « C'est la maison qui [offre|offrir] ! »", "en": "The café owner applauds vigorously, then puts some coffees on the counter: « They're on the house! »"},
+      {"sp": "Sophie", "fr": "Mon jury a adoré mon projet, la salle du restaurant de Karim. Surtout les vieilles photos que j'ai trouvées aux archives de la ville.", "en": "My panel loved my project, the dining room of Karim's restaurant. Especially the old photos I found in the city archives."},
+      {"sp": "Sophie", "fr": "Ils ont même aimé l'emplacement que j'ai choisi pour le bar ! Et j'ai un stage d'été à Copenhague, dans une agence d'architectes à proximité du port.", "en": "They even liked where I put the bar! And I've got a summer internship in Copenhagen, at an architects' office near the harbour."},
+      {"sp": "", "fr": "Perdue dans sa rêverie, Sophie voit déjà les bateaux du port.", "en": "Lost in her daydream, Sophie can already see the boats in the harbour."},
+      {"sp": "Mathis", "fr": "L'été dernier, c'était Montréal. Cette fois, je te [suis|suivre], surtout à Copenhague !", "en": "Last summer it was Montréal. This time I'm following you, especially to Copenhagen!"},
+      {"sp": "", "fr": "Le téléphone de Léa sonne : par le biais de sa professeure, on lui propose un travail aux cours d'été de français pour étudiants étrangers.", "en": "Léa's phone rings: through her lecturer, she's offered a job at the summer school of French for foreign students."},
+      {"sp": "Léa", "fr": "À partir du lundi quatre juillet ! Une quarantaine d'étudiants, et de surcroît, c'est payé !", "en": "From Monday 4 July! About forty students, and what's more, it's paid!"},
+      {"sp": "Léa", "fr": "Avec le recul, cette année est passée à toute vitesse.", "en": "Looking back, this year has flown by."},
+      {"sp": "", "fr": "Hugo arrive le dernier, pendant sa pause de midi, porteur d'un sac de croissants. Son téléphone vibre : l'argent du film est arrivé !", "en": "Hugo arrives last, on his lunch break, carrying a bag of croissants. His phone buzzes: the money for the film has come in!"},
+      {"sp": "Hugo", "fr": "Génial ! Je vais enfin pouvoir acheter la bague… euh, la baguette ! Des baguettes pour tout le monde !", "en": "Brilliant! At last I can buy the ring… er, the baguette! Baguettes for everyone!"},
+      {"sp": "", "fr": "Sous la table, Léa lui donne un coup de pied : quelle sottise ! Heureusement, Carla, au téléphone avec sa mère, n'a rien entendu.", "en": "Under the table, Léa kicks him: what a silly thing to say! Luckily, Carla, on the phone to her mother, didn't hear a thing."},
+      {"sp": "", "fr": "Hugo file au distributeur faire un retrait : il paie tout en liquide, et l'argent ira dans son vieux pot de confiture. Ce soir, ce seront encore des pâtes de survie.", "en": "Hugo dashes off to the cash machine to withdraw it: he pays for everything in cash, and the money will go in his old jam jar. Tonight it'll be survival pasta again."},
+      {"sp": "", "fr": "À son retour, tout le monde lève sa tasse : à la première année !", "en": "When he gets back, everyone raises their cup: to the first year!"}
+    ]
+  }
+}
