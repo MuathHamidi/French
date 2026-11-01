@@ -1,0 +1,108 @@
+{
+  "id": "u51-le-neutre",
+  "type": "grammar",
+  "unit": 51,
+  "title": "Je le savais !",
+  "en": "The neutral le, en, y for a whole idea (je le sais, je le suis, j'en doute, j'y tiens), and when to use no pronoun (je sais, je crois que oui)",
+  "intro": "English points back to a whole idea with *it* or *so* (*I knew it, I hope so*), or with nothing at all (*yes, I am*). French uses the neutral pronoun **le**, which never agrees: ***Je le savais !** **Je l'espère.*** After *être* or *devenir*, the same *le* stands for an adjective or a noun: *Contente ? Oui, **je le suis**.* With verbs and adjectives built with *de* or *à*, the idea becomes **en** or **y**: ***J'en doute. J'en suis sûre. J'y tiens.*** *Le* comes back in *comme* clauses (*comme je le disais*), and **ça** takes over where *le* can't go (*je ne pense qu'à ça*). Like English, French often needs no pronoun at all in everyday answers (*Je sais. Si tu veux.*), and *I think so* is ***Je crois que oui.***",
+  "cases": [
+    {"id": "neu-idee", "label": "le for a whole idea: je le sais", "rule": "After *savoir, dire, croire, penser, espérer, demander, promettre*, *le* stands for a whole clause or idea: *Tu as le rôle ? Je le savais ! Je te l'avais dit. Je l'espère. Tu me le promets ?* It never agrees and goes before the verb, or before the auxiliary: *je l'avais dit*. Use it or the clause, never both: *j'espère qu'elle aura le rôle* or *je l'espère*."},
+    {"id": "neu-etat", "label": "le for an adjective or a noun: je le suis", "rule": "After *être, devenir, rester, paraître*, *le* stands for an adjective or a noun without an article: *Contente ? Je le suis. Timide ? Il ne le sera plus. Actrice, tu le deviendras peut-être.* It stays *le* for a woman or for several people: *Fiers ? Nous le sommes* (never *la* or *les*). English stops at *I am*; French needs *le*: *Oui, je le suis.*"},
+    {"id": "neu-en-y", "label": "en and y for a whole idea: j'en doute, j'y tiens", "rule": "With verbs and adjectives built with *de*, the idea becomes *en*: *douter de* → *j'en doute*; *être sûr de* → *j'en suis sûre*; *être capable de* → *tu en es capable*. With *à*, it becomes *y*: *tenir à* → *j'y tiens*; *penser à* → *j'y pense*; *croire à* → *je n'y crois pas*. Unit 18 used them for things and places; here they stand for a whole sentence."},
+    {"id": "neu-comme", "label": "comme je le disais; ça where le can't go", "rule": "In *comme* clauses, *le* picks up what is said or known: *comme je le disais, comme tu le sais* (in speech, *comme tu sais* is fine too). Where *le* can't go, as a subject, after a preposition or to stress the idea, French says *ça* (written *cela*): *Ça ne m'étonne pas. Je ne pense qu'à ça. Ça, je le savais !*"},
+    {"id": "neu-zero", "label": "no pronoun: je sais, je crois que oui", "rule": "In short answers, French often needs no pronoun at all, just like English: *Je sais* (I know), *J'ai essayé* (I tried), *Si tu veux* (if you like). There's no need for *le*: *je le sais* is correct, but *je sais* is the everyday answer. For *I think so / I don't think so*, say *je crois que oui, je pense que non*; after a negative question, *je crois que si*. *I hope so* is *je l'espère* or *j'espère bien*."}
+  ],
+  "sections": [
+    {"title": "1. le for a whole idea: je le sais", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tu as le rôle ? Je le savais !", "You've got the part? I knew it!"],
+      ["Je te l'avais dit.", "I told you so."],
+      ["Elle aura le rôle ? Je l'espère.", "Will she get the part? I hope so."]]},
+     "examples": [
+      {"fr": "C'est moi ! Je suis Nicole ! {Je le savais|neu-idee} !", "en": "It's me! I'm Nicole! I knew it!"},
+      {"fr": "Moi, {je te l'avais dit|neu-idee} ! Jeudi, au café.", "en": "I told you so! On Thursday, at the café."}],
+     "tip": "Le stands for the whole idea. It goes before the verb, or before avoir: je te l'avais dit. Use le or the clause, never both."},
+    {"title": "2. le for an adjective or a noun: je le suis", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Contente ? Oui, je le suis.", "Happy? Yes, I am."],
+      ["Fières ? Nous le sommes.", "Proud? We are."],
+      ["Actrice, elle le deviendra.", "She'll become an actress."]]},
+     "examples": [
+      {"fr": "Timide ? {Il ne le sera plus en juin|neu-etat} !", "en": "Shy? He won't be by June!"},
+      {"fr": "Fiers de toi ? {Nous le sommes|neu-etat} !", "en": "Proud of you? We are!"}],
+     "tip": "This le never agrees: le for a woman, le for several people. English stops at I am; French says je le suis."},
+    {"title": "3. en and y for a whole idea: j'en doute, j'y tiens", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Elle sera prête ? J'en doute.", "Will she be ready? I doubt it."],
+      ["Elle aura le rôle, j'en suis sûre.", "She'll get the part, I'm sure of it."],
+      ["Jouer Nicole ? J'y [tiens|tenir-a].", "Playing Nicole? It means a lot to me."]]},
+     "examples": [
+      {"fr": "Moi, {je n'en doute pas|neu-en-y}. Tu ris de tout ! Tu seras parfaite, {j'en suis sûre|neu-en-y}.", "en": "I have no doubt about it. You laugh at everything! You'll be perfect, I'm sure of it."},
+      {"fr": "{J'y [tenais|tenir-a] tellement|neu-en-y} !", "en": "It meant so much to me!"}],
+     "tip": "Built with de (douter de, sûr de, capable de): en. Built with à (tenir à, penser à, croire à): y."},
+    {"title": "4. comme je le disais; ça where le can't go", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Comme je le disais, elle a le rôle.", "As I was saying, she's got the part."],
+      ["Ça, je le savais !", "That I knew!"],
+      ["Je ne pense qu'à ça.", "It's all I can think about."]]},
+     "examples": [
+      {"fr": "Mais {comme tu le sais|neu-comme}, tu dis ça à tout le monde.", "en": "But as you know, you say that to everyone."},
+      {"fr": "Depuis l'audition, {je ne pense qu'à ça|neu-comme}.", "en": "Since the audition, it's all I can think about."}],
+     "tip": "Comme + le + verb picks up what is said or known. As a subject, after a preposition or for emphasis: ça."},
+    {"title": "5. no pronoun: je sais, je crois que oui", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je sais. J'ai essayé. Si tu veux.", "I know. I tried. If you like."],
+      ["Je crois que oui. Je pense que non.", "I think so. I don't think so."],
+      ["Tu ne seras pas [prête|pret] ? Si, je crois que si !", "Won't you be ready? Yes, I think I will!"]]},
+     "examples": [
+      {"fr": "{J'ai essayé|neu-zero}, d'accord ?", "en": "I tried, OK?"},
+      {"fr": "Actrice ? {Je pense que non|neu-zero}. Professeure, oui !", "en": "An actress? I don't think so. A teacher, yes!"}],
+     "tip": "Like English, French often needs no pronoun in short answers: je sais, j'ai essayé, si tu veux. I think so: je crois que oui; I don't think so: je pense que non."}
+  ],
+  "mistakes": [
+    {"wrong": "Tu es prête ? — Oui, je suis.", "right": "Tu es prête ? — Oui, je le suis.", "why": "French doesn't stop at 'I am': le stands for prête."},
+    {"wrong": "Fière ? Je la suis !", "right": "Fière ? Je le suis !", "why": "This le stands for an adjective, so it never agrees: le, even for a woman (je la suis means I'm following her)."},
+    {"wrong": "Je le doute.", "right": "J'en doute.", "why": "Douter is built with de (douter de), so the idea becomes en."},
+    {"wrong": "Jouer Nicole ? J'en tiens beaucoup.", "right": "Jouer Nicole ? J'y tiens beaucoup.", "why": "Tenir is built with à (tenir à), so the idea becomes y."}
+  ],
+  "story": {
+    "title": "Je le savais !",
+    "en": "Tuesday 25 January: the cast list goes up, and Léa will play Nicole.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi vingt-cinq janvier, Léa regarde son téléphone toutes les cinq minutes : Madame Roussel doit publier la liste des rôles ce soir.", "en": "On Tuesday 25 January, Léa checks her phone every five minutes: Madame Roussel is due to post the cast list this evening."},
+      {"sp": "", "fr": "Sophie peint Minou pour son cours du soir, et Hugo est venu dîner. À six heures, la liste est enfin en ligne : à côté de Nicole, il y a le nom de Léa !", "en": "Sophie is painting Minou for her evening class, and Hugo has come for dinner. At six o'clock, the list is online at last: next to Nicole, there's Léa's name!"},
+      {"sp": "Léa", "fr": "C'est moi ! Je suis Nicole ! {Je le savais|neu-idee} !", "en": "It's me! I'm Nicole! I knew it!"},
+      {"sp": "Sophie", "fr": "{Tu ne le savais pas du tout|neu-idee}. Tu as regardé ton téléphone deux cents fois !", "en": "You didn't know any such thing. You've checked your phone two hundred times!"},
+      {"sp": "Léa", "fr": "Bon… {je l'espérais|neu-idee} de tout mon cœur. {Je n'y crois pas|neu-en-y} !", "en": "All right… I was hoping so with all my heart. I can't believe it!"},
+      {"sp": "Hugo", "fr": "Moi, {je te l'avais dit|neu-idee} ! Jeudi, au café.", "en": "I told you so! On Thursday, at the café."},
+      {"sp": "Léa", "fr": "{Tu me l'avais dit|neu-idee}, c'est vrai. Mais {comme tu le sais|neu-comme}, tu dis ça à tout le monde.", "en": "You did tell me, that's true. But as you know, you say that to everyone."},
+      {"sp": "Sophie", "fr": "Alors, contente ? Ce matin, tu étais si nerveuse !", "en": "So, happy? This morning you were so nervous!"},
+      {"sp": "Léa", "fr": "Oh oui, {je le suis|neu-etat} ! Et nerveuse, {je le suis toujours|neu-etat} !", "en": "Oh yes, I am! And nervous? I still am!"},
+      {"sp": "Sophie", "fr": "Et Monsieur Jourdain, c'est qui ?", "en": "And who's playing Monsieur Jourdain?"},
+      {"sp": "Léa", "fr": "Un garçon très timide : il rougit quand il dit bonjour.", "en": "A very shy boy: he blushes when he says hello."},
+      {"sp": "Hugo", "fr": "Timide ? {Il ne le sera plus en juin|neu-etat} !", "en": "Shy? He won't be by June!"},
+      {"sp": "Sophie", "fr": "Et rire aux larmes chaque fois qu'on répète, {tu en es capable|neu-en-y} ?", "en": "And laughing till you cry every time you rehearse: can you do it?"},
+      {"sp": "Léa", "fr": "{J'en doute|neu-en-y}. Rire {quand on me le demande|neu-idee}, c'est le plus difficile.", "en": "I doubt it. Laughing when I'm asked to is the hardest part."},
+      {"sp": "Sophie", "fr": "Moi, {je n'en doute pas|neu-en-y}. Tu ris de tout ! Tu seras parfaite, {j'en suis sûre|neu-en-y}.", "en": "I have no doubt about it. You laugh at everything! You'll be perfect, I'm sure of it."},
+      {"sp": "Léa", "fr": "{J'y [tenais|tenir-a] tellement|neu-en-y} ! Depuis l'audition, {je ne pense qu'à ça|neu-comme}.", "en": "It meant so much to me! Since the audition, it's all I can think about."},
+      {"sp": "", "fr": "Hugo essaie de rire comme Nicole : on dirait une chèvre. Minou se réveille et s'enfuit sous le canapé.", "en": "Hugo tries to laugh like Nicole: he sounds like a goat. Minou wakes up and bolts under the sofa."},
+      {"sp": "Hugo", "fr": "{J'ai essayé|neu-zero}, d'accord ? Dimanche, après ma tournée, je lis le rôle de Monsieur Jourdain avec toi.", "en": "I tried, OK? On Sunday, after my round, I'll read Monsieur Jourdain's part with you."},
+      {"sp": "Léa", "fr": "{Si tu veux|neu-zero}. Oh, mes parents appellent en vidéo !", "en": "If you like. Oh, my parents are video-calling!"},
+      {"sp": "Paul", "fr": "Notre fille sur scène ! {Ça ne m'étonne pas|neu-comme} : {je l'ai toujours dit|neu-idee} !", "en": "Our daughter on stage! I'm not surprised: I always said so!"},
+      {"sp": "Anne", "fr": "Fiers de toi ? {Nous le sommes|neu-etat} ! Tu seras prête le trente juin ?", "en": "Proud of you? We are! Will you be ready on 30 June?"},
+      {"sp": "Léa", "fr": "{Je crois que oui|neu-zero}. Enfin… {je l'espère|neu-idee}.", "en": "I think so. Well… I hope so."},
+      {"sp": "Paul", "fr": "Et actrice, {tu le deviendras peut-être|neu-etat} !", "en": "And perhaps you'll become an actress!"},
+      {"sp": "Léa", "fr": "Actrice ? {Je pense que non|neu-zero}. Professeure, oui ! Mais le trente juin, je serai Nicole.", "en": "An actress? I don't think so. A teacher, yes! But on 30 June, I'll be Nicole."},
+      {"sp": "Hugo", "fr": "{Comme je le disais|neu-comme} jeudi : Hugo a toujours raison.", "en": "As I was saying on Thursday: Hugo is always right."},
+      {"sp": "Léa", "fr": "{Je sais|neu-zero}, Hugo. {Je sais|neu-zero}.", "en": "I know, Hugo. I know."}
+    ]
+  },
+  "quiz": [
+    {"case": "neu-idee", "type": "mc", "q": "Tu as le rôle ? ___ savais !", "en": "You've got the part? I knew it!", "options": ["Je le", "J'en", "J'y"], "answer": "Je le"},
+    {"case": "neu-idee", "type": "mc", "q": "Tu seras là dimanche ? Tu me ___ promets ?", "en": "Will you be there on Sunday? Do you promise?", "options": ["le", "la", "les"], "answer": "le"},
+    {"case": "neu-etat", "type": "mc", "q": "Tu es contente ? — Oh oui, ___ !", "en": "Are you happy? — Oh yes, I am!", "options": ["je le suis", "je la suis", "je suis"], "answer": "je le suis"},
+    {"case": "neu-etat", "type": "mc", "q": "Fiers de toi ? Nous ___ sommes !", "en": "Proud of you? We are!", "options": ["le", "les", "la"], "answer": "le"},
+    {"case": "neu-en-y", "type": "mc", "q": "Rire aux larmes chaque fois qu'on répète ? ___ [doute|douter].", "en": "Laughing till I cry every time we rehearse? I doubt it.", "options": ["J'en", "Je le", "J'y"], "answer": "J'en"},
+    {"case": "neu-en-y", "type": "mc", "q": "Jouer Nicole ? ___ [tenais|tenir-a] tellement !", "en": "Playing Nicole? It meant so much to me!", "options": ["J'y", "J'en", "Je le"], "answer": "J'y"},
+    {"case": "neu-comme", "type": "mc", "q": "Mais comme tu ___ sais, tu dis ça à tout le monde.", "en": "But as you know, you say that to everyone.", "options": ["le", "la", "en"], "answer": "le"},
+    {"case": "neu-comme", "type": "mc", "q": "Depuis l'audition, je ne pense qu'à ___.", "en": "Since the audition, it's all I can think about.", "options": ["ça", "le", "y"], "answer": "ça"},
+    {"case": "neu-zero", "type": "mc", "q": "Tu seras prête le trente juin ? — Je crois ___.", "en": "Will you be ready on 30 June? — I think so.", "options": ["que oui", "que non", "que si"], "answer": "que oui"},
+    {"case": "neu-zero", "type": "mc", "q": "Tu sais rire comme Nicole ? — ___, mais on dirait une chèvre.", "en": "Can you laugh like Nicole? — I tried, but I sound like a goat.", "options": ["J'ai essayé", "J'en ai essayé", "J'y ai essayé"], "answer": "J'ai essayé"}
+  ]
+}

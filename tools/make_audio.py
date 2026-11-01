@@ -184,6 +184,7 @@ FIXES = {
     "jingle": "dʒiŋɡˈœl", "jingles": "dʒiŋɡˈœl", "pub": "pˈyb", "pubs": "pˈyb",  # read /ʒɛ̃ɡl/, /pœb/
     "spot": "spˈɔt", "spots": "spˈɔt", "snowboard": "snobˈɔʁd", "snowboards": "snobˈɔʁd",  # read in English
     "jour de plus": "ʒˈuʁ də plˈys",  # more: the s is said
+    "prose": "pʁˈoz", "proses": "pʁˈoz",  # the voice says /pʁɔz/ (final -ose is /oz/, like rose and chose)
 }
 # Case-sensitive fixes: lowercase "jean" (clothing) is /dʒin/, the name "Jean" stays /ʒɑ̃/.
 CASE_FIXES = {"jean": "dʒˈin", "jeans": "dʒˈin", "CAP": "seapˈe"}  # CAP alone is read as the word cap

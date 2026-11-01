@@ -1,0 +1,143 @@
+{
+  "id": "u51-anatomie",
+  "type": "vocab",
+  "unit": 51,
+  "title": "Le squelette endormi",
+  "en": "Anatomy: bones, joints and organs",
+  "intro": "25 words for anatomy: the head, the back and the skeleton (**le crâne, la mâchoire, la nuque, l'omoplate, la vertèbre, le squelette**), the trunk and its organs (**le torse, le flanc, l'organe, le poumon, l'estomac, le foie, le rein, l'artère**), the hips and the legs (**la hanche, le bassin, la fesse, le muscle, le mollet, le tendon, l'articulation, l'orteil**), and the hand (**le poignet, la paume, l'ongle**).",
+  "words": [
+    {"id": "crane", "fr": "crâne", "pos": "noun", "g": "m", "ipa": "kʁɑn", "en": "skull", "def": "Les os de la tête qui protègent le cerveau.", "def_en": "The bones of the head that protect the brain.", "note": "*Avoir mal au crâne* (informal) = to have a headache.", "forms": ["crânes"], "examples": [
+      {"fr": "Une étiquette sur le **crâne**, une autre sur la mâchoire.", "en": "A label on his skull, another on his jaw."},
+      {"fr": "Le **crâne** protège le cerveau.", "en": "The skull protects the brain."},
+      {"fr": "J'ai mal au **crâne** ce matin.", "en": "I've got a headache this morning."}]},
+    {"id": "machoire", "fr": "mâchoire", "pos": "noun", "g": "f", "ipa": "mɑ.ʃwaʁ", "en": "jaw", "def": "Les os de la bouche qui tiennent les dents.", "def_en": "The bones of the mouth that hold the teeth.", "forms": ["mâchoires"], "examples": [
+      {"fr": "Arrête de bâiller, ta **mâchoire** bouge !", "en": "Stop yawning, your jaw's moving!"},
+      {"fr": "Il serre la **mâchoire** quand il est nerveux.", "en": "He clenches his jaw when he's nervous."},
+      {"fr": "Chez le dentiste, j'ai mal à la **mâchoire**.", "en": "At the dentist's, my jaw aches."}]},
+    {"id": "nuque", "fr": "nuque", "pos": "noun", "g": "f", "ipa": "nyk", "en": "nape, back of the neck", "def": "L'arrière du cou, juste sous les cheveux.", "def_en": "The back of the neck, just below the hair.", "forms": ["nuques"], "examples": [
+      {"fr": "Maintenant, la **nuque** et les omoplates.", "en": "Now the back of your neck and your shoulder blades."},
+      {"fr": "J'ai froid à la **nuque** : où est mon écharpe ?", "en": "The back of my neck is cold: where's my scarf?"},
+      {"fr": "Elle attache ses cheveux sur la **nuque**.", "en": "She ties her hair at the nape of her neck."}]},
+    {"id": "omoplate", "fr": "omoplate", "pos": "noun", "g": "f", "ipa": "ɔ.mɔ.plat", "en": "shoulder blade", "def": "Chacun des deux grands os du haut du dos, derrière l'épaule.", "def_en": "Each of the two big bones at the top of the back, behind the shoulder.", "forms": ["omoplates"], "examples": [
+      {"fr": "Elle colle deux étiquettes sur ses **omoplates**.", "en": "She sticks two labels on his shoulder blades."},
+      {"fr": "Mon sac à dos me fait mal entre les **omoplates**.", "en": "My rucksack is hurting me between the shoulder blades."},
+      {"fr": "Il a une douleur sous l'**omoplate** gauche.", "en": "He has a pain under his left shoulder blade."}]},
+    {"id": "vertebre", "fr": "vertèbre", "pos": "noun", "g": "f", "ipa": "vɛʁ.tɛbʁ", "en": "vertebra", "def": "Chacun des petits os du dos, empilés du cou jusqu'au bassin.", "def_en": "Each of the small bones of the back, stacked from the neck down to the pelvis.", "note": "The spine is *la colonne vertébrale*.", "forms": ["vertèbres"], "examples": [
+      {"fr": "Elle compte ses **vertèbres** une par une.", "en": "She counts his vertebrae one by one."},
+      {"fr": "Le cou a sept **vertèbres**.", "en": "The neck has seven vertebrae."},
+      {"fr": "En tombant, il s'est cassé une **vertèbre**.", "en": "He broke a vertebra when he fell."}]},
+    {"id": "squelette", "fr": "squelette", "pos": "noun", "g": "m", "ipa": "skə.lɛt", "en": "skeleton", "def": "Tous les os d'un corps, d'une personne ou d'un animal.", "def_en": "All the bones of a body, a person's or an animal's.", "forms": ["squelettes"], "examples": [
+      {"fr": "Pour réviser, il me faut un **squelette**.", "en": "To revise, I need a skeleton."},
+      {"fr": "Dans la salle de classe, il y a un **squelette** en plastique.", "en": "There's a plastic skeleton in the classroom."},
+      {"fr": "Pour Halloween, Lou veut se déguiser en **squelette**.", "en": "For Halloween, Lou wants to dress up as a skeleton."}]},
+    {"id": "torse", "fr": "torse", "pos": "noun", "g": "m", "ipa": "tɔʁs", "en": "torso, chest", "def": "Le haut du corps, des épaules jusqu'à la taille.", "def_en": "The upper body, from the shoulders down to the waist.", "note": "*Torse nu* = bare-chested.", "forms": ["torses"], "examples": [
+      {"fr": "Ensuite, le **torse** et ses organes.", "en": "Next, the torso and its organs."},
+      {"fr": "Sur la plage, Hugo se promène **torse** nu.", "en": "On the beach, Hugo walks around bare-chested."},
+      {"fr": "Tom serre sa guitare contre son **torse**.", "en": "Tom holds his guitar tight against his chest."}]},
+    {"id": "flanc", "fr": "flanc", "pos": "noun", "g": "m", "ipa": "flɑ̃", "en": "side, flank", "def": "Le côté du corps, entre le bras et la hanche ; le côté d'une montagne.", "def_en": "The side of the body, between the arm and the hip; the side of a mountain.", "forms": ["flancs"], "examples": [
+      {"fr": "Quand elle touche ses **flancs**, Hugo éclate de rire.", "en": "When she touches his sides, Hugo bursts out laughing."},
+      {"fr": "Max dort sur le **flanc**, devant le feu.", "en": "Max is sleeping on his side in front of the fire."},
+      {"fr": "Le village est construit sur le **flanc** de la montagne.", "en": "The village is built on the mountainside."}]},
+    {"id": "organe", "fr": "organe", "pos": "noun", "g": "m", "ipa": "ɔʁ.ɡan", "en": "organ (of the body)", "def": "Une partie du corps qui a un rôle précis : le cœur, le foie, la peau…", "def_en": "A part of the body with a specific job: the heart, the liver, the skin…", "forms": ["organes"], "examples": [
+      {"fr": "Au programme : le squelette, les articulations, les muscles, les **organes**.", "en": "On the syllabus: the skeleton, the joints, the muscles, the organs."},
+      {"fr": "Le foie et les reins sont des **organes**.", "en": "The liver and the kidneys are organs."},
+      {"fr": "Le plus grand **organe** du corps, c'est la peau.", "en": "The body's biggest organ is the skin."}]},
+    {"id": "poumon", "fr": "poumon", "pos": "noun", "g": "m", "ipa": "pu.mɔ̃", "en": "lung", "def": "Ce qui, dans la poitrine, sert à respirer ; on en a deux.", "def_en": "What you breathe with, in the chest; you have two.", "note": "*Respirer à pleins poumons* = to take deep breaths; *crier à pleins poumons* = to shout at the top of your voice.", "forms": ["poumons"], "examples": [
+      {"fr": "Lou crie à pleins **poumons**.", "en": "Lou is shouting at the top of her voice."},
+      {"fr": "On a deux **poumons**, mais un seul cœur.", "en": "We have two lungs, but only one heart."},
+      {"fr": "À la montagne, l'air pur est bon pour les **poumons**.", "en": "In the mountains, the clean air is good for your lungs."}]},
+    {"id": "estomac", "fr": "estomac", "pos": "noun", "g": "m", "ipa": "ɛs.tɔ.ma", "en": "stomach (the organ)", "def": "La partie du ventre qui reçoit ce qu'on mange.", "def_en": "The part of the belly that receives the food you eat.", "note": "The c is silent. *Avoir l'estomac dans les talons* = to be starving.", "forms": ["estomacs"], "examples": [
+      {"fr": "J'ai l'**estomac** dans les talons.", "en": "I'm starving."},
+      {"fr": "Après la fondue, Hugo a mal à l'**estomac**.", "en": "After the fondue, Hugo has a stomach ache."},
+      {"fr": "On ne nage pas l'**estomac** plein !", "en": "You don't swim on a full stomach!"}]},
+    {"id": "foie", "fr": "foie", "pos": "noun", "g": "m", "ipa": "fwa", "en": "liver", "def": "Le plus gros organe du ventre, en haut à droite.", "def_en": "The biggest organ in the belly, at the top on the right.", "note": "*Une crise de foie* = an upset stomach, after too much rich food.", "forms": ["foies"], "examples": [
+      {"fr": "Et voici ton **foie**. Le pauvre !", "en": "And here's your liver. Poor thing!"},
+      {"fr": "Trop d'alcool, c'est mauvais pour le **foie**.", "en": "Too much alcohol is bad for your liver."},
+      {"fr": "Trop de chocolat ? Attention à la crise de **foie** !", "en": "Too much chocolate? Watch out for an upset stomach!"}]},
+    {"id": "rein", "fr": "rein", "pos": "noun", "g": "m", "ipa": "ʁɛ̃", "en": "kidney; (les reins) the small of the back", "def": "Chacun des deux organes, dans le bas du dos, qui nettoient le sang ; au pluriel, le bas du dos.", "def_en": "Each of the two organs in the small of the back that clean the blood; in the plural, the small of the back.", "note": "*Avoir mal aux reins* = to have backache.", "forms": ["reins"], "examples": [
+      {"fr": "Les **reins** ? Dans le bas du dos.", "en": "The kidneys? In the small of the back."},
+      {"fr": "On peut vivre avec un seul **rein**.", "en": "You can live with just one kidney."},
+      {"fr": "Après le déménagement, Pierre a mal aux **reins**.", "en": "After the move, Pierre's got backache."}]},
+    {"id": "artere", "fr": "artère", "pos": "noun", "g": "f", "ipa": "aʁ.tɛʁ", "en": "artery; (in a town) main road", "def": "Un tuyau qui porte le sang du cœur vers le corps ; une grande rue.", "def_en": "A tube that carries blood from the heart to the body; a main road.", "forms": ["artères"], "examples": [
+      {"fr": "Elle trouve l'**artère** du poignet et prend son pouls.", "en": "She finds the artery in his wrist and takes his pulse."},
+      {"fr": "Les **artères** portent le sang du cœur vers tout le corps.", "en": "The arteries carry blood from the heart to the whole body."},
+      {"fr": "Cette avenue est la grande **artère** du quartier.", "en": "This avenue is the neighbourhood's main road."}]},
+    {"id": "hanche", "fr": "hanche", "pos": "noun", "g": "f", "hAsp": true, "ipa": "ɑ̃ʃ", "en": "hip", "def": "La partie du corps, sous la taille, où la jambe rejoint le bassin.", "def_en": "The part of the body, below the waist, where the leg joins the pelvis.", "note": "The h is aspirated: *la hanche, les hanches* (no liaison).", "forms": ["hanches"], "examples": [
+      {"fr": "Le bassin et les **hanches**, maintenant.", "en": "The pelvis and the hips, now."},
+      {"fr": "Elle danse en bougeant les **hanches**.", "en": "She dances, swaying her hips."},
+      {"fr": "Il attend, les mains sur les **hanches**.", "en": "He's waiting, hands on hips."}]},
+    {"id": "bassin", "fr": "bassin", "pos": "noun", "g": "m", "ipa": "ba.sɛ̃", "en": "pelvis; pool, basin", "def": "Les grands os entre le dos et les jambes ; un endroit plein d'eau, dans un parc ou un jardin.", "def_en": "The big bones between the back and the legs; a place full of water, in a park or a garden.", "forms": ["bassins"], "examples": [
+      {"fr": "En danse, tout [part|partir] du **bassin**.", "en": "In dance, everything starts from the pelvis."},
+      {"fr": "Le **bassin** [porte|porter] le poids du haut du corps.", "en": "The pelvis bears the weight of the upper body."},
+      {"fr": "Les enfants jouent autour du **bassin** du parc.", "en": "The children are playing round the pool in the park."}]},
+    {"id": "fesse", "fr": "fesse", "pos": "noun", "g": "f", "ipa": "fɛs", "en": "buttock; (les fesses) bottom, backside", "def": "Chacune des deux parties du corps sur lesquelles on est assis.", "def_en": "Each of the two parts of the body you sit on.", "note": "An everyday word, not rude: *tomber sur les fesses* = to land on your bottom.", "forms": ["fesses"], "examples": [
+      {"fr": "Elle colle une étiquette sur sa **fesse** gauche.", "en": "She sticks a label on his left buttock."},
+      {"fr": "Lou est tombée sur les **fesses**.", "en": "Lou landed on her bottom."},
+      {"fr": "Après la luge, Tom a mal aux **fesses**.", "en": "After sledging, Tom's bottom hurts."}]},
+    {"id": "muscle", "fr": "muscle", "pos": "noun", "g": "m", "ipa": "myskl", "en": "muscle", "def": "Ce qui, sous la peau, fait bouger le corps ; il grossit avec le sport.", "def_en": "What makes the body move, under the skin; it gets bigger with exercise.", "forms": ["muscles"], "examples": [
+      {"fr": "Non, c'est un **muscle** : le plus gros du corps.", "en": "No, it's a muscle: the biggest one in the body."},
+      {"fr": "Le cœur est un **muscle**.", "en": "The heart is a muscle."},
+      {"fr": "Le sport fait travailler les **muscles**.", "en": "Sport works your muscles."}]},
+    {"id": "mollet", "fr": "mollet", "pos": "noun", "g": "m", "ipa": "mɔ.lɛ", "en": "calf (of the leg)", "def": "L'arrière de la jambe, entre le genou et la cheville.", "def_en": "The back of the leg, between the knee and the ankle.", "forms": ["mollets"], "examples": [
+      {"fr": "Dis donc, tu as des **mollets**, maintenant !", "en": "Well, well, you've got calves now!"},
+      {"fr": "Après la course, Hugo a mal aux **mollets**.", "en": "After the run, Hugo's calves ache."},
+      {"fr": "Une danseuse a des **mollets** très forts.", "en": "A dancer has very strong calves."}]},
+    {"id": "tendon", "fr": "tendon", "pos": "noun", "g": "m", "ipa": "tɑ̃.dɔ̃", "en": "tendon", "def": "Une corde très solide, dans le corps, qui attache un muscle à un os.", "def_en": "A very strong cord in the body that attaches a muscle to a bone.", "note": "*Le tendon d'Achille* = the Achilles tendon.", "examples": [
+      {"fr": "Puis le **tendon** au-dessus du talon.", "en": "Then the tendon above the heel."},
+      {"fr": "Le **tendon** attache le muscle à l'os.", "en": "The tendon attaches the muscle to the bone."},
+      {"fr": "Le coureur s'est blessé au **tendon**.", "en": "The runner has injured his tendon."}]},
+    {"id": "articulation", "fr": "articulation", "pos": "noun", "g": "f", "ipa": "aʁ.ti.ky.la.sjɔ̃", "en": "joint (in the body); articulation (speaking clearly)", "def": "L'endroit où deux os se rejoignent et peuvent bouger, comme le genou ; la façon de bien prononcer les mots.", "def_en": "The place where two bones meet and can move, like the knee; the way you pronounce words clearly.", "forms": ["articulations"], "examples": [
+      {"fr": "Le genou est une **articulation** fragile.", "en": "The knee is a fragile joint."},
+      {"fr": "Une danseuse doit prendre soin de ses **articulations**.", "en": "A dancer has to look after her joints."},
+      {"fr": "Pour chanter en français, Tom travaille son **articulation**.", "en": "To sing in French, Tom works on his articulation."}]},
+    {"id": "orteil", "fr": "orteil", "pos": "noun", "g": "m", "ipa": "ɔʁ.tɛj", "en": "toe", "def": "Chacun des cinq doigts du pied.", "def_en": "Each of the five digits of the foot.", "note": "*Le gros orteil* = the big toe.", "forms": ["orteils"], "examples": [
+      {"fr": "La dernière étiquette va sur le gros **orteil**.", "en": "The last label goes on his big toe."},
+      {"fr": "On a cinq **orteils** par pied.", "en": "We have five toes on each foot."},
+      {"fr": "Aïe ! Je me suis cogné l'**orteil** contre la table !", "en": "Ouch! I've stubbed my toe on the table!"}]},
+    {"id": "poignet", "fr": "poignet", "pos": "noun", "g": "m", "ipa": "pwa.ɲɛ", "en": "wrist", "def": "L'endroit où la main rejoint le bras.", "def_en": "The place where the hand joins the arm.", "forms": ["poignets"], "examples": [
+      {"fr": "Une étiquette au **poignet**, une dans la paume.", "en": "A label on his wrist, one in his palm."},
+      {"fr": "Elle porte une montre au **poignet**.", "en": "She wears a watch on her wrist."},
+      {"fr": "Pour jouer de la guitare, il faut des **poignets** souples.", "en": "To play the guitar, you need supple wrists."}]},
+    {"id": "paume", "fr": "paume", "pos": "noun", "g": "f", "ipa": "pom", "en": "palm (of the hand)", "def": "L'intérieur de la main, entre les doigts et le poignet.", "def_en": "The inside of the hand, between the fingers and the wrist.", "forms": ["paumes"], "examples": [
+      {"fr": "Une étiquette dans la **paume**, et une toute petite sur chaque ongle.", "en": "A label in his palm, and a tiny one on each nail."},
+      {"fr": "Lou tient une coccinelle dans la **paume** de sa main.", "en": "Lou is holding a ladybird in the palm of her hand."},
+      {"fr": "J'ai les **paumes** moites.", "en": "My palms are sweaty."}]},
+    {"id": "ongle", "fr": "ongle", "pos": "noun", "g": "m", "ipa": "ɔ̃ɡl", "en": "nail (on a finger or toe)", "def": "La partie [dure|dur] au bout des doigts et des orteils.", "def_en": "The hard part at the tip of the fingers and toes.", "note": "*Se faire les ongles* = to do your nails; *se ronger les ongles* = to bite your nails.", "forms": ["ongles"], "examples": [
+      {"fr": "Une toute petite étiquette sur chaque **ongle**.", "en": "A tiny label on each nail."},
+      {"fr": "Inès se fait les **ongles**.", "en": "Inès is doing her nails."},
+      {"fr": "Hugo, tu dois te couper les **ongles** !", "en": "Hugo, you need to cut your nails!"}]}
+  ],
+  "story": {
+    "title": "Le squelette endormi",
+    "en": "Saturday 29 January: Carla revises her anatomy on Hugo.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi vingt-neuf janvier, après avoir donné son cours de danse aux enfants, Carla monte chez Hugo avec son livre d'anatomie et un paquet d'étiquettes.", "en": "On Saturday 29 January, after teaching her children's dance class, Carla goes up to Hugo's with her anatomy book and a packet of labels."},
+      {"sp": "", "fr": "Mardi, elle passe son examen d'anatomie pour le diplôme d'État de professeur de danse. Au programme : le squelette, les articulations, les muscles, les organes.", "en": "On Tuesday she sits her anatomy exam for the state dance-teaching diploma. On the syllabus: the skeleton, the joints, the muscles, the organs."},
+      {"sp": "Carla", "fr": "Pour réviser, il me faut un squelette.", "en": "To revise, I need a skeleton."},
+      {"sp": "Hugo", "fr": "Comme promis, le plus beau squelette de Lyon est devant toi !", "en": "As promised, the finest skeleton in Lyon is standing right in front of you!"},
+      {"sp": "", "fr": "Il se met au milieu du salon, très fier. Carla commence par le haut : une étiquette sur le crâne, une autre sur la mâchoire.", "en": "He plants himself in the middle of the living room, very pleased with himself. Carla starts at the top: a label on his skull, another on his jaw."},
+      {"sp": "Carla", "fr": "Arrête de bâiller, ta mâchoire bouge ! Maintenant, la nuque et les omoplates.", "en": "Stop yawning, your jaw's moving! Now the back of your neck and your shoulder blades."},
+      {"sp": "", "fr": "Elle descend le long de son dos et [compte|compter] ses vertèbres une par une. Hugo frissonne : elle a les doigts glacés.", "en": "She works her way down his back, counting his vertebrae one by one. Hugo shivers: her fingers are ice-cold."},
+      {"sp": "", "fr": "Ensuite, sur son t-shirt, le torse et ses organes : les poumons, l'estomac, le foie, et les reins, dans le bas du dos. Soudain, l'estomac de Hugo fait un drôle de bruit.", "en": "Next, on his T-shirt, the torso and its organs: the lungs, the stomach, the liver, and the kidneys, in the small of the back. Suddenly, Hugo's stomach makes a strange noise."},
+      {"sp": "Hugo", "fr": "Désolé, j'ai l'estomac dans les talons.", "en": "Sorry, I'm starving."},
+      {"sp": "Carla", "fr": "Et voici ton foie. Le pauvre : le chocolat de Noël, puis trois parts de galette…", "en": "And here's your liver. Poor thing: the Christmas chocolate, then three slices of galette…"},
+      {"sp": "", "fr": "Quand elle colle les étiquettes sur ses flancs, Hugo éclate de rire : ça chatouille !", "en": "When she sticks the labels on his sides, Hugo bursts out laughing: it tickles!"},
+      {"sp": "Carla", "fr": "Le bassin et les hanches, maintenant. En danse, tout [part|partir] du bassin.", "en": "The pelvis and the hips, now. In dance, everything starts from the pelvis."},
+      {"sp": "", "fr": "Elle colle une étiquette sur sa fesse gauche.", "en": "She sticks a label on his left buttock."},
+      {"sp": "Hugo", "fr": "Hé ! Ça, ce n'est pas un os !", "en": "Hey! That's not a bone!"},
+      {"sp": "Carla", "fr": "Non, c'est un muscle : le plus gros du corps.", "en": "No, it's a muscle: the biggest one in the body."},
+      {"sp": "", "fr": "Puis les jambes : les mollets, le tendon au-dessus du talon, et les articulations, de la hanche à la cheville.", "en": "Then the legs: the calves, the tendon above the heel, and the joints, from the hip down to the ankle."},
+      {"sp": "Carla", "fr": "Dis donc, tu as des mollets, maintenant ! C'est grâce à la course du dimanche.", "en": "Well, well, you've got calves now! That's thanks to the Sunday runs."},
+      {"sp": "", "fr": "Sur la main : une étiquette au poignet, une dans la paume, et une toute petite sur chaque ongle. Puis Carla trouve l'artère du poignet et prend son pouls : quatre-vingt-dix.", "en": "On the hand: a label on his wrist, one in his palm, and a tiny one on each nail. Then Carla finds the artery in his wrist and takes his pulse: ninety."},
+      {"sp": "Hugo", "fr": "C'est normal : tu me rends nerveux.", "en": "That's only natural: you make me nervous."},
+      {"sp": "", "fr": "La dernière étiquette va sur le gros orteil. Du crâne aux orteils, Hugo est couvert d'étiquettes.", "en": "The last label goes on his big toe. From his skull to his toes, Hugo is covered in labels."},
+      {"sp": "Hugo", "fr": "Je m'allonge sur le canapé, pour que tu révises mieux.", "en": "I'll lie down on the sofa, so you can revise better."},
+      {"sp": "", "fr": "Cinq minutes plus tard, le squelette dort, et il ronfle. Son pouls est à soixante, comme celui de Madame Dupont.", "en": "Five minutes later, the skeleton is asleep, and snoring. His pulse is down to sixty, like Madame Dupont's."},
+      {"sp": "Carla", "fr": "Le foie ? À droite. Les reins ? Dans le bas du dos. Et Hugo ? Dans les nuages.", "en": "The liver? On the right. The kidneys? In the small of the back. And Hugo? Away with the fairies."},
+      {"sp": "", "fr": "Elle prend son squelette en photo. Tom, le voisin d'en face, passe la tête par la porte.", "en": "She takes a photo of her skeleton. Tom, from across the landing, pops his head round the door."},
+      {"sp": "Tom", "fr": "Il ronfle, ton squelette.", "en": "Your skeleton's snoring."},
+      {"sp": "Carla", "fr": "Oui. Un squelette parfait, mais pas un seul os qui sache danser !", "en": "Yes. A perfect skeleton, but not a single bone that can dance!"}
+    ]
+  }
+}

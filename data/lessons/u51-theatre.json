@@ -1,0 +1,143 @@
+{
+  "id": "u51-theatre",
+  "type": "vocab",
+  "unit": 51,
+  "title": "Rire aux larmes",
+  "en": "The theatre: Molière's comedy",
+  "intro": "25 words for the theatre: the play's world (**le seigneur, le comte, le marquis, la noblesse, le gentilhomme, le bourgeois, le serviteur, le valet, le tailleur**), the stage (**le comédien, incarner, réciter, la représentation, l'entracte, le souffleur, le costume, la perruque, l'accessoire, l'escrime**), and the text (**la tragédie, la farce, la prose, le monologue, la tirade, le dénouement**).",
+  "words": [
+    {"id": "seigneur", "fr": "seigneur", "pos": "noun", "g": "m", "ipa": "sɛ.ɲœʁ", "en": "lord (a nobleman, in the old days); (le Seigneur) the Lord", "def": "Autrefois, un noble puissant, propriétaire de terres où vivaient des paysans ; avec une majuscule, Dieu.", "def_en": "In the old days, a powerful nobleman who owned land where peasants lived; with a capital letter, God.", "note": "*Vivre en grand seigneur* = to live like a lord.", "forms": ["seigneurs"], "examples": [
+      {"fr": "Monsieur Jourdain veut vivre en grand **seigneur**.", "en": "Monsieur Jourdain wants to live like a lord."},
+      {"fr": "Le **seigneur** habitait le château, au-dessus du village.", "en": "The lord lived in the castle, above the village."},
+      {"fr": "« **Seigneur**, quel désordre ! » dit Louise.", "en": "'Lord, what a mess!' says Louise."}]},
+    {"id": "comte", "fr": "comte", "pos": "noun", "g": "m", "ipa": "kɔ̃t", "display": "le comte, la comtesse", "en": "count (a nobleman); (la comtesse) countess", "def": "Un noble qui porte un titre important, juste au-dessous du marquis.", "def_en": "A nobleman with an important title, just below a marquis.", "forms": ["comtesse", "comtes", "comtesses"], "examples": [
+      {"fr": "Un **comte**, Dorante, fait semblant d'être son ami.", "en": "A count, Dorante, pretends to be his friend."},
+      {"fr": "La **comtesse** donne un bal dans son château.", "en": "The countess is giving a ball at her castle."},
+      {"fr": "Dans son vieux château, le **comte** n'a plus d'argent pour le chauffage.", "en": "In his old castle, the count has no money left for the heating."}]},
+    {"id": "marquis", "fr": "marquis", "pos": "noun", "g": "m", "ipa": "maʁ.ki", "display": "le marquis, la marquise", "en": "marquis, marquess; (la marquise) marchioness", "def": "Un noble qui porte un titre plus haut que celui de comte.", "def_en": "A nobleman whose title ranks above a count's.", "forms": ["marquise", "marquises"], "examples": [
+      {"fr": "Avec les cadeaux de Jourdain, Dorante séduit une **marquise**.", "en": "With Jourdain's presents, Dorante wins over a marchioness."},
+      {"fr": "Le **marquis** [porte|porter] une grande perruque blanche.", "en": "The marquis wears a big white wig."},
+      {"fr": "Au bal, le **marquis** [danse|danser] avec la comtesse.", "en": "At the ball, the marquis dances with the countess."}]},
+    {"id": "noblesse", "fr": "noblesse", "pos": "noun", "g": "f", "ipa": "nɔ.blɛs", "en": "nobility", "def": "Toutes les familles qui portaient un titre, comme celles des comtes et des marquis.", "def_en": "All the families that bore a title, such as those of counts and marquises.", "examples": [
+      {"fr": "Monsieur Jourdain rêve d'entrer dans la **noblesse**.", "en": "Monsieur Jourdain dreams of joining the nobility."},
+      {"fr": "La **noblesse** vivait à Versailles, près du roi.", "en": "The nobility lived at Versailles, near the king."},
+      {"fr": "Il n'est pas né dans la **noblesse**, mais il a de belles manières.", "en": "He wasn't born into the nobility, but he has fine manners."}]},
+    {"id": "gentilhomme", "fr": "gentilhomme", "pos": "noun", "g": "m", "ipa": "ʒɑ̃.ti.jɔm", "en": "gentleman (a man of noble birth)", "def": "Autrefois, un noble de naissance, qui n'avait pas besoin de travailler.", "def_en": "In the old days, a man who was noble by birth and didn't need to work.", "note": "The plural is *gentilshommes* (ʒɑ̃.ti.zɔm).", "forms": ["gentilshommes"], "examples": [
+      {"fr": "Monsieur Jourdain veut devenir **gentilhomme**.", "en": "Monsieur Jourdain wants to become a gentleman."},
+      {"fr": "Un **gentilhomme** portait toujours une épée.", "en": "A gentleman always wore a sword."},
+      {"fr": "Pour le carnaval, Tom se déguise en **gentilhomme**.", "en": "For the carnival, Tom dresses up as a gentleman."}]},
+    {"id": "bourgeois", "fr": "bourgeois", "pos": "noun", "g": "m", "ipa": "buʁ.ʒwa", "display": "le bourgeois, la bourgeoise", "en": "bourgeois, middle-class person; (adj) middle-class, posh", "def": "Autrefois, un riche habitant d'une ville, qui n'était pas noble ; aujourd'hui, une personne qui a de l'argent et une vie tranquille.", "def_en": "In the old days, a rich town-dweller who wasn't noble; today, a person with money and a quiet life.", "forms": ["bourgeoise", "bourgeoises"], "examples": [
+      {"fr": "Monsieur Jourdain est un riche **bourgeois**.", "en": "Monsieur Jourdain is a rich bourgeois."},
+      {"fr": "Enzo trouve ce restaurant trop **bourgeois**.", "en": "Enzo finds this restaurant too posh."},
+      {"fr": "À la Renaissance, les **bourgeois** de Lyon ont construit de belles maisons.", "en": "In the Renaissance, the bourgeois of Lyon built fine houses."}]},
+    {"id": "serviteur", "fr": "serviteur", "pos": "noun", "g": "m", "ipa": "sɛʁ.vi.tœʁ", "display": "le serviteur, la servante", "en": "servant; (la servante) maid", "def": "Une personne payée pour faire le ménage, la cuisine… dans la maison d'une famille riche.", "def_en": "A person paid to do the cleaning, the cooking… in a rich family's house.", "forms": ["serviteurs", "servante", "servantes"], "examples": [
+      {"fr": "Nicole est la **servante** de Monsieur Jourdain.", "en": "Nicole is Monsieur Jourdain's maid."},
+      {"fr": "Le château avait vingt **serviteurs**.", "en": "The castle had twenty servants."},
+      {"fr": "Dans les vieux films, un **serviteur** ouvre toujours la porte.", "en": "In old films, a servant always opens the door."}]},
+    {"id": "valet", "fr": "valet", "pos": "noun", "g": "m", "ipa": "va.lɛ", "en": "valet, manservant; (cards) jack", "def": "Autrefois, un homme qui travaillait pour une personne riche et l'aidait à s'habiller ; au jeu de cartes, la carte qui vient après le dix.", "def_en": "In the old days, a man who worked for a rich person and helped them get dressed; in a card game, the card that comes after the ten.", "forms": ["valets"], "examples": [
+      {"fr": "Covielle, le **valet** de Cléonte, invente une farce.", "en": "Covielle, Cléonte's valet, comes up with a farce."},
+      {"fr": "Chez Molière, les **valets** sont plus malins que les nobles.", "en": "In Molière's plays, the valets are cleverer than the nobles."},
+      {"fr": "Louise pose un **valet** de cœur sur la table.", "en": "Louise puts the jack of hearts down on the table."}]},
+    {"id": "tailleur", "fr": "tailleur", "pos": "noun", "g": "m", "ipa": "ta.jœʁ", "en": "tailor; (woman's) suit", "def": "Une personne qui mesure ses clients et leur fabrique des vêtements ; une veste et une jupe pour femme, dans le même tissu.", "def_en": "A person who measures customers and makes clothes for them; a woman's jacket and skirt, in the same fabric.", "note": "*S'asseoir en tailleur* = to sit cross-legged.", "forms": ["tailleurs"], "examples": [
+      {"fr": "Son **tailleur** lui fait un costume ridicule.", "en": "His tailor makes him a ridiculous suit."},
+      {"fr": "Le **tailleur** mesure les épaules de son client.", "en": "The tailor measures his customer's shoulders."},
+      {"fr": "Madame Dupont porte un **tailleur** gris.", "en": "Madame Dupont is wearing a grey suit."}]},
+    {"id": "comedien", "fr": "comédien", "pos": "noun", "g": "m", "ipa": "kɔ.me.djɛ̃", "display": "le comédien, la comédienne", "en": "actor, actress (especially on stage)", "def": "Une personne dont le métier est de jouer des rôles, surtout au théâtre.", "def_en": "A person whose job is to play parts, especially in the theatre.", "note": "A false friend: a comedian is *un humoriste*.", "forms": ["comédienne", "comédiens", "comédiennes"], "examples": [
+      {"fr": "Madame Roussel est une ancienne **comédienne**.", "en": "Madame Roussel is a former actress."},
+      {"fr": "Le public applaudit les **comédiens**.", "en": "The audience applauds the actors."},
+      {"fr": "Molière était **comédien** avant d'être auteur.", "en": "Molière was an actor before he was a writer."}]},
+    {"id": "incarner", "fr": "incarner", "pos": "verb", "ipa": "ɛ̃.kaʁ.ne", "en": "to play (a part), to embody", "def": "Jouer le rôle d'un personnage ; être l'exemple parfait d'une qualité.", "def_en": "To play a character's part; to be the perfect example of a quality.", "forms": ["incarne", "incarnes", "incarnons", "incarnez", "incarnent", "incarné", "incarnée", "incarnés", "incarnées", "incarnais", "incarnait", "incarnions", "incarniez", "incarnaient", "incarnerai", "incarneras", "incarnera", "incarnerons", "incarnerez", "incarneront", "incarnerais", "incarnerait", "incarnerions", "incarneriez", "incarneraient", "incarnant", "incarnai", "incarnas", "incarna", "incarnâmes", "incarnâtes", "incarnèrent"], "examples": [
+      {"fr": "Molière **incarnait** lui-même Monsieur Jourdain.", "en": "Molière played Monsieur Jourdain himself."},
+      {"fr": "Qui va **incarner** Nicole ?", "en": "Who's going to play Nicole?"},
+      {"fr": "Pour Jacques, Louise **incarne** la patience.", "en": "To Jacques, Louise is patience itself."}]},
+    {"id": "reciter", "fr": "réciter", "pos": "verb", "ipa": "ʁe.si.te", "en": "to recite", "def": "Dire devant les autres un texte qu'on sait par cœur.", "def_en": "To say a text you know by heart in front of other people.", "forms": ["récite", "récites", "récitons", "récitez", "récitent", "récité", "récitée", "récités", "récitées", "récitais", "récitait", "récitions", "récitiez", "récitaient", "réciterai", "réciteras", "récitera", "réciterons", "réciterez", "réciteront", "réciterais", "réciterait", "réciterions", "réciteriez", "réciteraient", "récitant", "récitai", "récitas", "récita", "récitâmes", "récitâtes", "récitèrent"], "examples": [
+      {"fr": "Chaque étudiant **récite** quelques répliques.", "en": "Each student recites a few lines."},
+      {"fr": "Lou **récite** une poésie pour la fête des Mères.", "en": "Lou recites a poem for Mother's Day."},
+      {"fr": "Hugo **récite** la recette des crêpes de Mamie.", "en": "Hugo recites Grandma's crêpe recipe."}]},
+    {"id": "representation", "fr": "représentation", "pos": "noun", "g": "f", "ipa": "ʁə.pʁe.zɑ̃.ta.sjɔ̃", "en": "performance (of a play); representation", "def": "Le moment où l'on joue un spectacle devant le public ; une image qui montre quelque chose.", "def_en": "The time when a show is put on in front of an audience; a picture that shows something.", "forms": ["représentations"], "examples": [
+      {"fr": "Une seule **représentation** : le jeudi trente juin.", "en": "Just one performance: Thursday 30 June."},
+      {"fr": "La **représentation** commence à vingt heures.", "en": "The performance starts at eight in the evening."},
+      {"fr": "Ce tableau est une **représentation** de Lyon au Moyen Âge.", "en": "This painting is a representation of Lyon in the Middle Ages."}]},
+    {"id": "entracte", "fr": "entracte", "pos": "noun", "g": "m", "ipa": "ɑ̃.tʁakt", "en": "interval, intermission", "def": "La pause entre deux parties d'un spectacle.", "def_en": "The break between two parts of a show.", "forms": ["entractes"], "examples": [
+      {"fr": "Un seul **entracte**, avec la musique des ballets.", "en": "Just one interval, with the ballet music."},
+      {"fr": "Pendant l'**entracte**, Hugo achète des bonbons.", "en": "During the interval, Hugo buys sweets."},
+      {"fr": "L'**entracte** [dure|durer] vingt minutes.", "en": "The interval lasts twenty minutes."}]},
+    {"id": "souffleur", "fr": "souffleur", "pos": "noun", "g": "m", "ipa": "su.flœʁ", "display": "le souffleur, la souffleuse", "en": "prompter (in a theatre)", "def": "La personne cachée qui dit tout bas leur texte aux acteurs quand ils l'oublient.", "def_en": "The hidden person who whispers their lines to the actors when they forget them.", "forms": ["souffleuse", "souffleurs", "souffleuses"], "examples": [
+      {"fr": "Ceux qui ne veulent pas monter sur scène pourront être **souffleurs**.", "en": "Those who don't want to go on stage can be prompters."},
+      {"fr": "Le **souffleur** murmure la réplique oubliée.", "en": "The prompter whispers the forgotten line."},
+      {"fr": "La **souffleuse** suit le texte, ligne par ligne.", "en": "The prompter follows the text, line by line."}]},
+    {"id": "costume", "fr": "costume", "pos": "noun", "g": "m", "ipa": "kɔs.tym", "en": "costume; (man's) suit", "def": "Les vêtements d'un personnage, au théâtre ou au carnaval ; une veste et un pantalon du même tissu, pour homme.", "def_en": "A character's clothes, in the theatre or at carnival; a man's jacket and trousers in the same fabric.", "forms": ["costumes"], "examples": [
+      {"fr": "Il nous faudra des **costumes** du dix-septième siècle.", "en": "We'll need seventeenth-century costumes."},
+      {"fr": "Hugo [porte|porter] son **costume** à trois cents euros.", "en": "Hugo is wearing his three-hundred-euro suit."},
+      {"fr": "Monsieur Jourdain est très fier de son nouveau **costume**.", "en": "Monsieur Jourdain is very proud of his new suit."}]},
+    {"id": "perruque", "fr": "perruque", "pos": "noun", "g": "f", "ipa": "pɛ.ʁyk", "en": "wig", "def": "De faux cheveux qu'on met sur la tête.", "def_en": "False hair that you put on your head.", "forms": ["perruques"], "examples": [
+      {"fr": "Les nobles portaient de grandes **perruques**.", "en": "The nobles wore big wigs."},
+      {"fr": "Le magicien avait une **perruque** bleue dans sa valise.", "en": "The magician had a blue wig in his suitcase."},
+      {"fr": "Sous sa **perruque**, le comédien a très chaud.", "en": "Under his wig, the actor is very hot."}]},
+    {"id": "accessoire", "fr": "accessoire", "pos": "noun", "g": "m", "ipa": "ak.se.swaʁ", "en": "(theatre) prop; accessory", "def": "Un objet dont les acteurs ont besoin sur scène ; un petit objet qui va avec un vêtement, comme un sac ou une ceinture.", "def_en": "An object the actors need on stage; a small item that goes with clothes, like a bag or a belt.", "forms": ["accessoires"], "examples": [
+      {"fr": "Pour les **accessoires**, il nous faudra une épée et des chapeaux à plumes.", "en": "For the props, we'll need a sword and plumed hats."},
+      {"fr": "L'épée de Jourdain est un **accessoire** en plastique.", "en": "Jourdain's sword is a plastic prop."},
+      {"fr": "Inès choisit ses **accessoires** : un sac et une ceinture.", "en": "Inès chooses her accessories: a bag and a belt."}]},
+    {"id": "escrime", "fr": "escrime", "pos": "noun", "g": "f", "ipa": "ɛs.kʁim", "en": "fencing (the sport)", "def": "Un sport où deux personnes essaient de se toucher avec une épée.", "def_en": "A sport in which two people try to touch each other with a sword.", "examples": [
+      {"fr": "Jourdain prend des leçons d'**escrime**.", "en": "Jourdain takes fencing lessons."},
+      {"fr": "En **escrime**, on porte un masque.", "en": "In fencing, you wear a mask."},
+      {"fr": "Il fait de l'**escrime** depuis l'âge de dix ans.", "en": "He has been fencing since he was ten."}]},
+    {"id": "tragedie", "fr": "tragédie", "pos": "noun", "g": "f", "ipa": "tʁa.ʒe.di", "en": "tragedy", "def": "Au théâtre, une histoire grave et triste, où les personnages finissent souvent par mourir ; un événement terrible.", "def_en": "A serious, sad story for the stage, in which the characters often end up dying; a terrible event.", "forms": ["tragédies"], "examples": [
+      {"fr": "Molière rêvait de jouer la **tragédie**.", "en": "Molière dreamed of playing tragedy."},
+      {"fr": "Dans une **tragédie**, presque tout le monde meurt à la fin.", "en": "In a tragedy, almost everyone dies at the end."},
+      {"fr": "Une tasse cassée, ce n'est pas une **tragédie** !", "en": "A broken cup isn't a tragedy!"}]},
+    {"id": "farce", "fr": "farce", "pos": "noun", "g": "f", "ipa": "faʁs", "en": "farce; practical joke, prank", "def": "Une petite comédie très simple et très drôle ; une blague qu'on fait à quelqu'un.", "def_en": "A short, very simple and very funny comedy; a joke you play on someone.", "note": "*La farce* is also stuffing, in cooking.", "forms": ["farces"], "examples": [
+      {"fr": "Covielle invente une **farce** : une fausse cérémonie turque.", "en": "Covielle comes up with a farce: a fake Turkish ceremony."},
+      {"fr": "Molière a commencé par écrire des **farces**.", "en": "Molière started out writing farces."},
+      {"fr": "Le premier avril, Lou fait une **farce** à son père.", "en": "On the first of April, Lou plays a trick on her father."}]},
+    {"id": "prose", "fr": "prose", "pos": "noun", "g": "f", "ipa": "pʁoz", "en": "prose", "def": "La façon d'écrire de tous les jours, sans faire de poésie, comme dans une lettre ou un roman.", "def_en": "The everyday way of writing, as in a letter or a novel, rather than poetry.", "note": "*Faire de la prose sans le savoir* (like Monsieur Jourdain) = to do something without realising it.", "examples": [
+      {"fr": "Jourdain fait de la **prose** sans le savoir.", "en": "Jourdain speaks prose without knowing it."},
+      {"fr": "Le texte est en **prose**.", "en": "The text is in prose."},
+      {"fr": "Tom préfère la poésie à la **prose**.", "en": "Tom prefers poetry to prose."}]},
+    {"id": "monologue", "fr": "monologue", "pos": "noun", "g": "m", "ipa": "mɔ.nɔ.lɔɡ", "en": "monologue, soliloquy", "def": "Un moment où un personnage parle tout seul, sur scène.", "def_en": "A moment when a character talks all alone, on stage.", "forms": ["monologues"], "examples": [
+      {"fr": "Dans un **monologue**, le personnage est seul en scène.", "en": "In a monologue, the character is alone on stage."},
+      {"fr": "Hugo fait des **monologues** devant son miroir.", "en": "Hugo delivers monologues in front of his mirror."},
+      {"fr": "Elle apprend un **monologue** par cœur.", "en": "She's learning a monologue by heart."}]},
+    {"id": "tirade", "fr": "tirade", "pos": "noun", "g": "f", "ipa": "ti.ʁad", "en": "long speech (in a play); tirade", "def": "Une longue réplique d'un personnage, devant les autres ; un long discours, souvent plein de colère.", "def_en": "A character's long speech, in front of the others; a long speech, often an angry one.", "forms": ["tirades"], "examples": [
+      {"fr": "Une **tirade**, c'est une longue réplique, devant les autres.", "en": "A tirade is a long speech, in front of the others."},
+      {"fr": "Cyrano dit la célèbre **tirade** du nez.", "en": "Cyrano delivers the famous nose speech."},
+      {"fr": "Hugo fait une **tirade** contre les lundis.", "en": "Hugo launches into a tirade against Mondays."}]},
+    {"id": "denouement", "fr": "dénouement", "pos": "noun", "g": "m", "ipa": "de.nu.mɑ̃", "en": "ending, outcome (of a story)", "def": "La fin d'une histoire, quand on découvre comment tout se termine.", "def_en": "The end of a story, when you find out how everything turns out.", "forms": ["dénouements"], "examples": [
+      {"fr": "Au **dénouement**, tout le monde se marie.", "en": "At the end, everyone gets married."},
+      {"fr": "Ne me raconte pas le **dénouement** !", "en": "Don't tell me the ending!"},
+      {"fr": "Quel heureux **dénouement** !", "en": "What a happy ending!"}]}
+  ],
+  "story": {
+    "title": "Rire aux larmes",
+    "en": "Tuesday 18 January: the first session of Léa's theatre workshop.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi dix-huit janvier, deuxième jour du semestre, l'atelier de théâtre de Léa commence : vingt étudiants de sa licence, sur la petite scène du théâtre de l'université.", "en": "On Tuesday 18 January, the second day of the semester, Léa's theatre workshop begins: twenty students from her course, on the small stage of the university theatre."},
+      {"sp": "", "fr": "Leur professeure, Madame Roussel, est une ancienne comédienne. Sa voix remplit toute la salle.", "en": "Their lecturer, Madame Roussel, is a former actress. Her voice fills the whole hall."},
+      {"sp": "Madame Roussel", "fr": "Cette année, nous jouerons Le Bourgeois gentilhomme, de Molière. Une seule représentation : le jeudi trente juin.", "en": "This year, we'll be putting on Le Bourgeois gentilhomme, by Molière. Just one performance: Thursday 30 June."},
+      {"sp": "Madame Roussel", "fr": "Molière l'a écrit pour Louis XIV, avec de la musique et des ballets. Lors de la première représentation, il incarnait lui-même Monsieur Jourdain.", "en": "Molière wrote it for Louis XIV, with music and ballets. At the first performance, he played Monsieur Jourdain himself."},
+      {"sp": "Madame Roussel", "fr": "L'histoire ? Monsieur Jourdain, un riche bourgeois, rêve d'entrer dans la noblesse. Il veut devenir gentilhomme et vivre en grand seigneur.", "en": "The story? Monsieur Jourdain, a rich bourgeois, dreams of joining the nobility. He wants to become a gentleman and live like a lord."},
+      {"sp": "Madame Roussel", "fr": "Alors il prend des leçons de tout : de musique, de danse, d'escrime, de philosophie… Et son tailleur lui fait un costume ridicule, avec les fleurs à l'envers.", "en": "So he takes lessons in everything: music, dancing, fencing, philosophy… And his tailor makes him a ridiculous suit, with the flowers upside down."},
+      {"sp": "Madame Roussel", "fr": "Un comte, Dorante, fait semblant d'être son ami pour lui emprunter de l'argent. Et avec les cadeaux de Jourdain, il séduit une marquise, Dorimène !", "en": "A count, Dorante, pretends to be his friend so he can borrow money from him. And with Jourdain's presents, he wins over a marchioness, Dorimène!"},
+      {"sp": "Madame Roussel", "fr": "Jourdain a une fille, Lucile, qui aime Cléonte. Mais il refuse de la lui donner : Cléonte n'est pas noble !", "en": "Jourdain has a daughter, Lucile, who loves Cléonte. But he won't let him marry her: Cléonte isn't a nobleman!"},
+      {"sp": "Madame Roussel", "fr": "Pour les aider, Covielle, le valet de Cléonte, invente une farce : une fausse cérémonie turque, où Jourdain reçoit un titre qui n'existe pas.", "en": "To help them, Covielle, Cléonte's valet, comes up with a farce: a fake Turkish ceremony in which Jourdain is given a title that doesn't exist."},
+      {"sp": "Madame Roussel", "fr": "Au dénouement, tout le monde se marie : Lucile et Cléonte, Dorante et Dorimène… et même Nicole, la servante, avec Covielle.", "en": "At the end, everyone gets married: Lucile and Cléonte, Dorante and Dorimène… and even Covielle and Nicole, the maid."},
+      {"sp": "Madame Roussel", "fr": "Pourquoi Le Bourgeois gentilhomme ? Parce que c'est l'histoire d'un homme qui prend des leçons de tout… comme vous !", "en": "Why Le Bourgeois gentilhomme? Because it's the story of a man who takes lessons in everything… like you!"},
+      {"sp": "", "fr": "Les étudiants éclatent de rire.", "en": "The students burst out laughing."},
+      {"sp": "Madame Roussel", "fr": "Molière, lui, rêvait de jouer la tragédie. Mais le public riait ! Il a donc écrit des farces, puis des comédies.", "en": "Molière himself dreamed of playing tragedy. But the audience laughed! So he wrote farces, then comedies."},
+      {"sp": "Madame Roussel", "fr": "Le texte est en prose. D'ailleurs, Monsieur Jourdain découvre qu'il fait de la prose depuis quarante ans… sans le savoir !", "en": "The text is in prose. In fact, Monsieur Jourdain finds out he's been speaking prose for forty years… without knowing it!"},
+      {"sp": "Madame Roussel", "fr": "Il nous faudra des perruques, des costumes du dix-septième siècle et des accessoires : une épée pour la leçon d'escrime, des chapeaux à plumes…", "en": "We'll need wigs, seventeenth-century costumes and props: a sword for the fencing lesson, plumed hats…"},
+      {"sp": "Madame Roussel", "fr": "Un seul entracte, avec la musique des ballets. Et ceux qui ne veulent pas monter sur scène pourront être souffleurs.", "en": "Just one interval, with the ballet music. And those who don't want to go on stage can be prompters."},
+      {"sp": "Une étudiante", "fr": "C'est quoi, la différence entre un monologue et une tirade ?", "en": "What's the difference between a monologue and a tirade?"},
+      {"sp": "Madame Roussel", "fr": "Dans un monologue, le personnage est seul en scène. Une tirade, c'est une longue réplique, devant les autres.", "en": "In a monologue, the character is alone on stage. A tirade is a long speech, in front of the others."},
+      {"sp": "", "fr": "Puis viennent les auditions : chaque étudiant récite quelques répliques.", "en": "Then come the auditions: each student recites a few lines."},
+      {"sp": "", "fr": "Léa choisit Nicole, au troisième acte : Monsieur Jourdain arrive dans son nouveau costume, et la servante éclate de rire.", "en": "Léa chooses Nicole, in Act Three: Monsieur Jourdain comes in wearing his new suit, and the maid bursts out laughing."},
+      {"sp": "Madame Roussel (Jourdain)", "fr": "Qu'as-tu à rire ?", "en": "What are you laughing at?"},
+      {"sp": "Léa (Nicole)", "fr": "Hi, hi, hi, hi ! Vous êtes tout à fait drôle comme cela. Hi, hi, hi !", "en": "Hee hee hee hee! You look so funny like that. Hee hee hee!"},
+      {"sp": "Madame Roussel (Jourdain)", "fr": "Tu ne t'arrêteras pas ?", "en": "Won't you stop?"},
+      {"sp": "", "fr": "Léa rit, rit encore, et ne peut plus s'arrêter. Elle rit aux larmes, et toute la salle rit avec elle, même Madame Roussel.", "en": "Léa laughs, and laughs again, and can't stop. She laughs till she cries, and the whole room laughs with her, even Madame Roussel."},
+      {"sp": "Madame Roussel", "fr": "Bravo. Un rire comme ça, ça ne s'apprend pas. Vous aurez la liste des rôles mardi prochain.", "en": "Bravo. A laugh like that can't be taught. You'll get the cast list next Tuesday."},
+      {"sp": "", "fr": "Dans le tram du retour, Léa rit encore toute seule. Les voyageurs la regardent.", "en": "On the tram home, Léa is still laughing to herself. The other passengers give her funny looks."}
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "u51-ce-a-quoi",
+  "type": "grammar",
+  "unit": 51,
+  "title": "C'est ce à quoi je pensais !",
+  "en": "Ce à quoi, de quoi, sans quoi, and questions with à quoi, de quoi (c'est ce à quoi je pensais, il y a de quoi rire)",
+  "intro": "When *what* follows a preposition, French says **quoi**, never *que*, and puts the preposition first: it never ends a clause with *à* or *de*, as English does with *of* or *about*. In a relative clause, *what* is **ce + preposition + quoi** (*c'est **ce à quoi** je pensais*, from *penser à*); after *rien, quelque chose* or *voilà*, just the preposition + *quoi* (***voilà à quoi** ça sert*). **De quoi** + infinitive means *enough to* or *something to* (*il y a **de quoi** rire*), and **sans quoi, après quoi, faute de quoi** link two sentences (*otherwise, after which, failing which*). Questions follow the same rule: ***À quoi** tu penses ? **De quoi** ça parle ?* *Ce à quoi* and *faute de quoi* belong to careful French; with *de*, the relative stays *ce dont* (Unit 41): *ce dont tu as besoin*.",
+  "cases": [
+    {"id": "cq-ce", "label": "ce + preposition + quoi: ce à quoi je pense", "rule": "When the verb takes a preposition, *what* is *ce* + preposition + *quoi*: *penser à* → *c'est ce à quoi je pensais*; *travailler sur* → *ce sur quoi je travaille, c'est le rire de Nicole*; *se battre contre* → *ce contre quoi elle se bat*. The preposition comes first: French never ends a clause with it. With *de*, say *ce dont* (Unit 41): *je sais ce dont tu as besoin*."},
+    {"id": "cq-rien", "label": "rien à quoi, voilà à quoi", "rule": "After *rien*, *quelque chose* and *voilà*, the preposition + *quoi* follows directly: *Il n'y a rien à quoi je tienne autant. Il y a quelque chose à quoi tu n'as pas pensé. Voilà à quoi ça sert. Voilà en quoi je lui ressemble* (*en quoi* = in what way). After *rien… à quoi*, the verb is usually in the subjunctive: *je tienne*. Formal French does the same after *c'est*: *C'est en quoi tu te trompes* (that's where you're wrong)."},
+    {"id": "cq-de-quoi", "label": "de quoi + infinitive: il y a de quoi rire", "rule": "*De quoi* + infinitive means *enough to* or *something to*: *Il y a de quoi rire. Tu as de quoi écrire ? On a de quoi manger.* On its own, *il y a de quoi !* means *and with good reason!* Don't confuse it with *il n'y a pas de quoi* (you're welcome, Unit 35); *il n'y a pas de quoi rire* means *it's no laughing matter*."},
+    {"id": "cq-sans-quoi", "label": "sans quoi, après quoi, faute de quoi", "rule": "After a preposition, *quoi* can sum up a whole sentence: *sans quoi* (otherwise), *après quoi* (after which), *faute de quoi* (failing which, more formal): *Répète trois fois, sans quoi tu l'oublieras. On lit la scène assis, après quoi on la joue debout. Je dois réviser, faute de quoi je raterai mon examen.* Don't confuse *sans quoi* (otherwise) with *sans que* + subjunctive (without): *sans que tu le saches*."},
+    {"id": "cq-question", "label": "À quoi tu penses ? De quoi ça parle ?", "rule": "In a question, *what* after a preposition is *quoi*, never *que*: *À quoi tu penses ? De quoi ça parle ? Avec quoi tu écris ?* Three registers: *À quoi penses-tu ?* (formal), *À quoi tu penses ?* (everyday), *Tu penses à quoi ?* (spoken; likewise *J'ai l'air de quoi ?*). Indirect questions keep the preposition + *quoi*, with no *ce*: *Je me demande à quoi il pense. Dis-moi de quoi tu as peur.*"}
+  ],
+  "sections": [
+    {"title": "1. ce + preposition + quoi: ce à quoi je pense", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["C'est exactement ce à quoi je pensais.", "That's exactly what I was thinking of."],
+      ["Ce sur quoi je travaille, c'est [le|le] rire de Nicole.", "What I'm working on is Nicole's laugh."],
+      ["Je sais ce dont tu as besoin.", "I know what you need."]]},
+     "examples": [
+      {"fr": "Le flamenco ? Mais {c'est exactement ce à quoi je pensais|cq-ce} au réveillon !", "en": "Flamenco? But that's exactly what I was thinking of on New Year's Eve!"},
+      {"fr": "Pardon ! {Ce sur quoi je travaille|cq-ce} cette semaine, c'est [le|le] rire de Nicole.", "en": "Sorry! What I'm working on this week is Nicole's laugh."}],
+     "tip": "Verb + preposition: ce + preposition + quoi, with the preposition first. With de, use ce dont."},
+    {"title": "2. rien à quoi, voilà à quoi", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il n'y a rien à quoi je [tienne|tenir-a] autant.", "There's nothing I care about as much."],
+      ["Il y a quelque chose à quoi tu n'as pas pensé.", "There's something you haven't thought of."],
+      ["Voilà à quoi ça sert.", "That's what it's for."]]},
+     "examples": [
+      {"fr": "Des leçons de tout ? Lucía m'apprend l'espagnol, Monsieur Vidal m'a appris à conduire… {Voilà en quoi je lui ressemble|cq-rien}, à ton Monsieur Jourdain !", "en": "Lessons in everything? Lucía's teaching me Spanish, Monsieur Vidal taught me to drive… So that's how I'm like your Monsieur Jourdain!"},
+      {"fr": "Alors {voilà à quoi sert un maître à danser|cq-rien} ! Carla, apprends-moi le flamenco !", "en": "So that's what a dancing master is for! Carla, teach me flamenco!"}],
+     "tip": "No ce after rien or quelque chose; after voilà, à quoi is the usual form. En quoi means in what way."},
+    {"title": "3. de quoi + infinitive: il y a de quoi rire", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Il y a de quoi rire.", "There's plenty to laugh about."],
+      ["Tu as de quoi écrire ?", "Have you got something to write with?"],
+      ["On a de quoi manger.", "We've got enough to eat."]]},
+     "examples": [
+      {"fr": "Désolée, mais {il y a de quoi rire|cq-de-quoi} !", "en": "Sorry, but there's plenty to laugh about!"},
+      {"fr": "Trois fois ? {Tu as de quoi écrire|cq-de-quoi} ?", "en": "Three times? Have you got something to write with?"}],
+     "tip": "De quoi + infinitive = enough to, something to. On its own, il n'y a pas de quoi means you're welcome."},
+    {"title": "4. sans quoi, après quoi, faute de quoi", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Répète trois fois, sans quoi tu oublieras.", "Repeat it three times, otherwise you'll forget."],
+      ["On lit la scène, après quoi on la joue.", "We read the scene, after which we act it."],
+      ["Je dois réviser, faute de quoi je raterai mon examen.", "I must revise, or else I'll fail my exam."]]},
+     "examples": [
+      {"fr": "On lit la scène assis, {après quoi on la joue debout|cq-sans-quoi}.", "en": "We read the scene sitting down, after which we act it standing up."},
+      {"fr": "Et tu répètes chaque réplique trois fois, {sans quoi tu l'oublieras|cq-sans-quoi}.", "en": "And you repeat each line three times, otherwise you'll forget it."}],
+     "tip": "Sans quoi = otherwise; sans que + subjunctive = without. Faute de quoi is more formal."},
+    {"title": "5. À quoi tu penses ? De quoi ça parle ?", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["À quoi penses-tu ?", "What are you thinking about? (formal)"],
+      ["Tu penses à quoi ?", "What are you thinking about? (spoken)"],
+      ["Dis-moi de quoi tu as peur.", "Tell me what you're afraid of."]]},
+     "examples": [
+      {"fr": "Hugo ? {À quoi tu penses|cq-question} ?", "en": "Hugo? What are you thinking about?"},
+      {"fr": "Je me demande {à quoi il pense|cq-question}.", "en": "I wonder what he's thinking about."}],
+     "tip": "After a preposition, 'what' is quoi, never que. Indirect questions take no ce: je me demande à quoi il pense."}
+  ],
+  "mistakes": [
+    {"wrong": "C'est ce que je pensais à.", "right": "C'est ce à quoi je pensais.", "why": "The preposition goes before quoi: French never ends a clause with à."},
+    {"wrong": "De que parle la pièce ?", "right": "De quoi parle la pièce ?", "why": "After a preposition, 'what' is quoi, not que."},
+    {"wrong": "Je sais ce à quoi tu as besoin.", "right": "Je sais ce dont tu as besoin.", "why": "Avoir besoin is built with de, so 'what' is ce dont, not ce à quoi."},
+    {"wrong": "Répète, sans que tu oublieras ta réplique.", "right": "Répète, sans quoi tu oublieras ta réplique.", "why": "Sans quoi means otherwise and links two sentences; sans que means without and takes the subjunctive."}
+  ],
+  "story": {
+    "title": "C'est ce à quoi je pensais !",
+    "en": "Sunday 30 January: Léa rehearses with Hugo, who recognises himself in Monsieur Jourdain and asks Carla for flamenco lessons.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche trente janvier, dans l'après-midi, Hugo monte chez Léa et Sophie : il a promis de donner la réplique à Léa.", "en": "On the afternoon of Sunday 30 January, Hugo goes up to Léa and Sophie's: he has promised to read the lines opposite Léa."},
+      {"sp": "", "fr": "Sur le canapé, Carla révise son examen d'anatomie de mardi ; près de la fenêtre, Sophie peint.", "en": "On the sofa, Carla is revising for Tuesday's anatomy exam; by the window, Sophie is painting."},
+      {"sp": "Léa", "fr": "Bon, on commence ? Tu lis Monsieur Jourdain… Hugo ? {À quoi tu penses|cq-question} ?", "en": "Right, shall we start? You're reading Monsieur Jourdain… Hugo? What are you thinking about?"},
+      {"sp": "Hugo", "fr": "{De quoi ça parle|cq-question}, en fait ?", "en": "What's it about, actually?"},
+      {"sp": "Léa", "fr": "Je te l'ai déjà expliqué ! D'un homme riche qui veut devenir noble. Alors il prend des leçons de tout : de musique, de danse, d'escrime, de philosophie…", "en": "I've already told you! A rich man who wants to become a nobleman. So he takes lessons in everything: music, dance, fencing, philosophy…"},
+      {"sp": "Hugo", "fr": "Des leçons de tout ? Lucía m'apprend l'espagnol, Monsieur Vidal m'a appris à conduire, Mamie ses crêpes, et Carla me fait courir tous les dimanches. {Voilà en quoi je lui ressemble|cq-rien}, à ton Monsieur Jourdain !", "en": "Lessons in everything? Lucía's teaching me Spanish, Monsieur Vidal taught me to drive, Mamie taught me her crêpes, and Carla makes me run every Sunday. So that's how I'm like your Monsieur Jourdain!"},
+      {"sp": "Léa", "fr": "Attends la leçon de philosophie : son maître lui apprend qu'il fait de la prose depuis quarante ans… sans le savoir !", "en": "Wait till the philosophy lesson: his teacher tells him he's been speaking prose for forty years… without knowing it!"},
+      {"sp": "Hugo", "fr": "Comme moi ! J'en fais toute la journée, et on ne me l'a jamais dit !", "en": "Just like me! I speak it all day long, and nobody ever told me!"},
+      {"sp": "Sophie", "fr": "Désolée, mais {il y a de quoi rire|cq-de-quoi} !", "en": "Sorry, but there's plenty to laugh about!"},
+      {"sp": "Léa", "fr": "Allez, au travail. On lit la scène assis, {après quoi on la joue debout|cq-sans-quoi}. Et tu répètes chaque réplique trois fois, {sans quoi tu l'oublieras|cq-sans-quoi}.", "en": "Come on, let's get to work. We read the scene sitting down, after which we act it standing up. And you repeat each line three times, otherwise you'll forget it."},
+      {"sp": "Hugo", "fr": "Trois fois ? {Tu as de quoi écrire|cq-de-quoi} ? Je vais les noter sur ma main.", "en": "Three times? Have you got something to write with? I'm going to jot them down on my hand."},
+      {"sp": "Sophie", "fr": "{Je n'ai que de quoi peindre|cq-de-quoi}.", "en": "All I've got is something to paint with."},
+      {"sp": "", "fr": "Elle lui tend un pinceau, et Hugo écrit sa première réplique sur sa main, en bleu. Pour la scène du nouveau costume, il met une vieille écharpe à fleurs de Sophie, les fleurs à l'envers.", "en": "She hands him a brush, and Hugo writes his first line on his hand, in blue. For the scene with the new suit, he puts on an old flowery scarf of Sophie's, with the flowers upside down."},
+      {"sp": "Hugo", "fr": "{J'ai l'air de quoi|cq-question} ?", "en": "What do I look like?"},
+      {"sp": "", "fr": "Léa, dans le rôle de Nicole, éclate de rire et ne peut plus s'arrêter. Elle rit si fort que Carla fait tomber son livre.", "en": "Léa, as Nicole, bursts out laughing and can't stop. She laughs so hard that Carla drops her book."},
+      {"sp": "Léa", "fr": "Pardon ! {Ce sur quoi je travaille|cq-ce} cette semaine, c'est [le|le] rire de Nicole. {Il n'y a rien à quoi je [tienne|tenir-a] autant qu'à ce rôle|cq-rien}.", "en": "Sorry! What I'm working on this week is Nicole's laugh. There's nothing I care about as much as this part."},
+      {"sp": "Carla", "fr": "Hugo lit en silence depuis cinq minutes. Je me demande {à quoi il pense|cq-question}.", "en": "Hugo's been reading in silence for five minutes. I wonder what he's thinking about."},
+      {"sp": "Hugo", "fr": "Écoutez ça ! Selon le maître à danser, si les hommes sont malheureux, c'est parce qu'ils ne savent pas danser.", "en": "Listen to this! According to the dancing master, if people are unhappy, it's because they can't dance."},
+      {"sp": "Sophie", "fr": "Et alors ?", "en": "So?"},
+      {"sp": "Hugo", "fr": "Alors {voilà à quoi sert un maître à danser|cq-rien} ! Carla, apprends-moi le flamenco !", "en": "So that's what a dancing master is for! Carla, teach me flamenco!"},
+      {"sp": "Carla", "fr": "Le flamenco ? Mais {c'est exactement ce à quoi je pensais|cq-ce} au réveillon !", "en": "Flamenco? But that's exactly what I was thinking of on New Year's Eve!"},
+      {"sp": "Hugo", "fr": "On commence quand ?", "en": "When do we start?"},
+      {"sp": "Carla", "fr": "Après mon examen. Je dois d'abord réviser, {faute de quoi je ne l'aurai pas|cq-sans-quoi}.", "en": "After my exam. I have to revise first, failing which I won't pass."},
+      {"sp": "Hugo", "fr": "Tu parles comme le maître de philosophie, maintenant !", "en": "Now you sound like the philosophy teacher!"},
+      {"sp": "Carla", "fr": "Et {il y a quelque chose à quoi tu n'as pas pensé|cq-rien} : ta prof sera très exigeante.", "en": "And there's something you haven't thought of: your teacher will be very demanding."},
+      {"sp": "", "fr": "Sophie, elle, a peint {ce à quoi tout le monde pensait|cq-ce} : Monsieur Jourdain avec une écharpe à fleurs, les lunettes sur la tête.", "en": "Sophie, meanwhile, has painted what everyone was thinking of: Monsieur Jourdain in a flowery scarf, with his glasses on his head."}
+    ]
+  },
+  "quiz": [
+    {"case": "cq-ce", "type": "mc", "q": "C'est exactement ce ___ je pensais au réveillon !", "en": "That's exactly what I was thinking of on New Year's Eve!", "options": ["à quoi", "dont", "à qui"], "answer": "à quoi"},
+    {"case": "cq-ce", "type": "mc", "q": "Ce ___ je travaille cette semaine, c'est [le|le] rire de Nicole.", "en": "What I'm working on this week is Nicole's laugh.", "options": ["sur quoi", "sur lequel", "dont"], "answer": "sur quoi"},
+    {"case": "cq-rien", "type": "mc", "q": "Il n'y a rien ___ je [tienne|tenir-a] autant qu'à ce rôle.", "en": "There's nothing I care about as much as this part.", "options": ["à quoi", "que", "dont"], "answer": "à quoi"},
+    {"case": "cq-rien", "type": "mc", "q": "Voilà ___ sert un maître à danser !", "en": "So that's what a dancing master is for!", "options": ["à quoi", "que", "dont"], "answer": "à quoi"},
+    {"case": "cq-de-quoi", "type": "mc", "q": "Tu as ___ écrire ?", "en": "Have you got something to write with?", "options": ["de quoi", "quoi", "à quoi"], "answer": "de quoi"},
+    {"case": "cq-de-quoi", "type": "mc", "q": "Désolée, mais il y a ___ rire !", "en": "Sorry, but there's plenty to laugh about!", "options": ["de quoi", "quoi", "ce que"], "answer": "de quoi"},
+    {"case": "cq-sans-quoi", "type": "mc", "q": "Répète chaque réplique trois fois, ___ tu l'oublieras.", "en": "Repeat each line three times, otherwise you'll forget it.", "options": ["sans quoi", "sans que", "sans"], "answer": "sans quoi"},
+    {"case": "cq-sans-quoi", "type": "mc", "q": "On lit la scène assis, ___ on la joue debout.", "en": "We read the scene sitting down, after which we act it standing up.", "options": ["après quoi", "après que", "après lequel"], "answer": "après quoi"},
+    {"case": "cq-question", "type": "mc", "q": "Hugo ? ___ tu penses ?", "en": "Hugo? What are you thinking about?", "options": ["À quoi", "À que", "Quoi"], "answer": "À quoi"},
+    {"case": "cq-question", "type": "mc", "q": "___ ça parle, en fait ?", "en": "What's it about, actually?", "options": ["De quoi", "De que", "Dont"], "answer": "De quoi"}
+  ]
+}
