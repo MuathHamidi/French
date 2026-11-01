@@ -1,0 +1,108 @@
+{
+  "id": "u56-pour-peu-que",
+  "type": "grammar",
+  "unit": 56,
+  "title": "Pour peu qu'elle dise oui",
+  "en": "Hypothesis without si: two conditionals, inversion (serait-il…), pour peu que, que… ou que",
+  "intro": "French can say *if* without *si*. In speech, two conditionals side by side do it: ***Tu me l'aurais dit, je serais venu.*** In careful French, an inverted conditional means *even if*: ***Serait-il ruiné, il trouverait l'argent.*** **Pour peu que** (if only, if ever so little) and **pour autant que** (as far as) take the subjunctive, and so do **que… ou que** and **soit que… soit que** (whether… or); **selon que** (depending on whether) takes the indicative. An imperative + **et** or **ou** gives a condition and its result: *Dis-le-lui, et la surprise est ratée.* Whatever the construction, never put a conditional after *si*.",
+  "cases": [
+    {"id": "pp-deux-cond", "label": "two conditionals side by side", "rule": "In speech, a first conditional can be the condition, with no *si*: *Tu me l'aurais dit, je serais venu.* (= si tu me l'avais dit). *Il ferait beau, on irait à la plage.* A comma separates them; familiar French may link them with *que*: *On me l'aurait dit que je ne l'aurais pas cru.* Never *si* + conditional."},
+    {"id": "pp-inversion", "label": "inversion with the conditional (even if)", "rule": "In careful French, an inverted conditional means 'even if': *Serait-il ruiné, il trouverait l'argent.* *Aurait-elle dit non, il aurait recommencé.* With a noun subject, the noun stays in front and a pronoun is added after the verb: *Hugo serait-il fatigué, il finirait la course.* Compare *quand bien même* (Unit 42)."},
+    {"id": "pp-pour-peu", "label": "pour peu que, pour autant que + subjunctive", "rule": "*Pour peu que* (if only, if ever so little) + subjunctive: a small condition is enough: *Pour peu qu'elle dise oui, je serai l'homme le plus heureux du monde.* *Pour peu que Lou l'apprenne, toute la famille le saura.* *Pour autant que* + subjunctive means as far as: *pour autant que je sache* (as far as I know). Don't confuse it with *pour autant* alone (for all that)."},
+    {"id": "pp-que-ou-que", "label": "que… ou que, soit que… soit que, selon que", "rule": "*Que… ou que* + subjunctive means whether… or: *Qu'il dise oui ou qu'il dise non, c'est Carla qui décidera.* *Que tu le veuilles ou non, c'est un secret.* *Soit que… soit que* + subjunctive gives two possible causes: *soit qu'il cherche ses mots, soit qu'il veuille te faire peur*. But *selon que* (depending on whether) takes the indicative: *Selon que le mariage aura lieu à Madrid ou à la ferme…*"},
+    {"id": "pp-imperatif", "label": "an imperative + et / ou as the condition", "rule": "An imperative followed by *et* gives a condition and its result: *Dis-le-lui, et la surprise est ratée.* (= si tu le lui dis). With *ou* (or else), it gives a warning: *Tais-toi, ou elle va tout deviner.* *Gardons le secret, et tout ira bien.*"}
+  ],
+  "sections": [
+    {"title": "1. Two conditionals side by side", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tu me l'aurais dit, je serais venu.", "If you'd told me, I'd have come."],
+      ["Il ferait beau, on irait à la plage.", "If the weather were nice, we'd go to the beach."],
+      ["On me l'aurait dit, je ne l'aurais pas cru.", "If someone had told me, I wouldn't have believed it."]]},
+     "examples": [
+      {"fr": "{Tu me l'aurais dit à Pâques, je n'aurais pas posé de questions|pp-deux-cond} !", "en": "If you'd told me at Easter, I wouldn't have asked any questions!"},
+      {"fr": "{On m'aurait dit ça il y a deux ans que je ne l'aurais pas cru|pp-deux-cond}.", "en": "If someone had told me that two years ago, I wouldn't have believed it."}],
+     "tip": "The first conditional is the condition: it replaces si + imparfait or plus-que-parfait. Familiar French may link the two clauses with que. This is spoken French; in writing, use si."},
+    {"title": "2. Inversion with the conditional: even if", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Serait-il ruiné, il trouverait l'argent.", "Even if he were broke, he'd find the money."],
+      ["Aurait-elle dit non, il aurait recommencé.", "Even if she'd said no, he'd have tried again."],
+      ["Hugo serait-il fatigué, il finirait la course.", "Even if Hugo were tired, he'd finish the race."]]},
+     "examples": [
+      {"fr": "Pardon, en bon français : {serait-il ruiné, il trouverait l'argent|pp-inversion}.", "en": "Sorry, in proper French: even if he were broke, he'd find the money."},
+      {"fr": "{Devrais-je manger des pâtes pendant un an, je l'achèterais quand même|pp-inversion}, cette bague.", "en": "Even if I had to eat pasta for a year, I'd still buy that ring."}],
+     "tip": "This is careful, written French. The verb and its pronoun are joined by a hyphen; a noun subject stays in front and the pronoun comes after the verb. The other clause is in the conditional too."},
+    {"title": "3. Pour peu que, pour autant que + subjunctive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Pour peu qu'elle dise oui, je serai heureux.", "If she so much as says yes, I'll be happy."],
+      ["Pour peu qu'il pleuve, le match est annulé.", "If it rains even a little, the match is called off."],
+      ["Pour autant que je sache, elle ne se doute de [rien|rien].", "As far as I know, she has no idea."]]},
+     "examples": [
+      {"fr": "{Pour peu qu'elle dise oui|pp-pour-peu}, je serai l'homme le plus heureux du monde.", "en": "If she just says yes, I'll be the happiest man in the world."},
+      {"fr": "{Pour autant que je sache|pp-pour-peu}, non.", "en": "As far as I know, no."}],
+     "tip": "Pour peu que says that very little is needed. Pour autant que (as far as) is mostly used with savoir and pouvoir. Don't confuse it with pour autant alone, without que: for all that."},
+    {"title": "4. Que… ou que, soit que… soit que, selon que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Qu'il dise oui ou qu'il dise non, c'est Carla qui décidera.", "Whether he says yes or no, it's Carla who'll decide."],
+      ["Il se tait, soit qu'il ait peur, soit qu'il cherche ses mots.", "He says nothing, either because he's afraid or because he's searching for the right words."],
+      ["Selon qu'il fait beau ou non, on mange dehors ou dedans.", "Depending on whether it's fine or not, we eat outside or in."]]},
+     "examples": [
+      {"fr": "{Qu'il dise oui ou qu'il dise non|pp-que-ou-que}, c'est Carla qui décidera.", "en": "Whether he says yes or no, it's Carla who'll decide."},
+      {"fr": "{Selon que le mariage aura lieu à Madrid ou à la ferme|pp-que-ou-que}, je ne mettrai pas la même robe.", "en": "Depending on whether the wedding is in Madrid or at the farm, I won't wear the same dress."}],
+     "tip": "Que… ou que and soit que… soit que take the subjunctive. Selon que takes the indicative, the future included. The second clause can be cut short: que tu le veuilles ou non."},
+    {"title": "5. An imperative + et / ou", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Dis-le-lui, et la surprise est ratée.", "Tell her, and the surprise is ruined."],
+      ["Tais-toi, ou elle va tout deviner.", "Be quiet, or she'll guess everything."],
+      ["Gardez le secret, et tout ira bien.", "Keep the secret, and everything will be fine."]]},
+     "examples": [
+      {"fr": "{Dites un seul mot, et la surprise est ratée|pp-imperatif}.", "en": "Say one single word, and the surprise is ruined."},
+      {"fr": "Et toi, Hugo, {tais-toi, ou elle va tout deviner|pp-imperatif}.", "en": "And you, Hugo, keep quiet, or she'll guess everything."}],
+     "tip": "With et, the imperative is the condition and the second clause its result. With ou (or else), it is a warning. The second clause is in the present or the future."}
+  ],
+  "mistakes": [
+    {"wrong": "Si tu me l'aurais dit, je serais venu.", "right": "Tu me l'aurais dit, je serais venu.", "why": "Never si + conditional: either drop si and keep two conditionals, or say si tu me l'avais dit."},
+    {"wrong": "Pour peu qu'elle dit oui, je serai heureux.", "right": "Pour peu qu'elle dise oui, je serai heureux.", "why": "Pour peu que and pour autant que take the subjunctive."},
+    {"wrong": "Qu'il dit oui ou qu'il dit non, c'est Carla qui décidera.", "right": "Qu'il dise oui ou qu'il dise non, c'est Carla qui décidera.", "why": "Que… ou que takes the subjunctive."},
+    {"wrong": "Selon qu'il fasse beau ou non, on ira au parc.", "right": "Selon qu'il fait beau ou non, on ira au parc.", "why": "Selon que takes the indicative, unlike que… ou que."}
+  ],
+  "story": {
+    "title": "Pour peu qu'elle dise oui",
+    "en": "Saturday 14 May: Hugo's announcement, the jam jar behind the flour, and a secret to keep from Carla.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi quatorze mai, à dix heures, Carla donne son cours de danse aux enfants. Chez Hugo, au-dessus de la boulangerie, Léa, Tom, Sophie et Enzo attendent « une annonce ».", "en": "On Saturday 14 May, at ten o'clock, Carla is teaching her children's dance class. At Hugo's, above the bakery, Léa, Tom, Sophie and Enzo are waiting for 'an announcement'."},
+      {"sp": "", "fr": "Hugo sort un pot de confiture de derrière la farine. Dedans, ses économies : la console vendue, les pâtes tous les soirs, tout est là.", "en": "Hugo takes a jam jar out from behind the flour. Inside are his savings: the console he sold, the pasta every night, it's all there."},
+      {"sp": "Hugo", "fr": "Voilà. Je vais demander à Carla de m'épouser. Il n'y a pas encore de bague : j'économise.", "en": "There. I'm going to ask Carla to marry me. There's no ring yet: I'm saving up."},
+      {"sp": "Léa", "fr": "Attends. Je me souviens de tes mots exacts : « Moi, je ne me marierai jamais. Comme ça, je ne divorcerai jamais ! » Et je t'avais répondu : « Ah oui ? Et Carla, elle est d'accord ? » Alors, elle est d'accord ?", "en": "Hang on. I remember your exact words: 'Me, I'll never get married. That way, I'll never get divorced!' And I'd answered: 'Oh yes? And does Carla agree?' So, does she?"},
+      {"sp": "Hugo", "fr": "{Pour peu qu'elle dise oui|pp-pour-peu}, je serai l'homme le plus heureux du monde.", "en": "If she just says yes, I'll be the happiest man in the world."},
+      {"sp": "Tom", "fr": "{Tu me l'aurais dit à Pâques, je n'aurais pas posé de questions|pp-deux-cond} ! Je me demandais pourquoi tu mangeais des pâtes tous les soirs.", "en": "If you'd told me at Easter, I wouldn't have asked any questions! I was wondering why you were eating pasta every night."},
+      {"sp": "Hugo", "fr": "{Je vous l'aurais dit plus tôt, Enzo l'aurait raconté à tous les clients|pp-deux-cond}.", "en": "If I'd told you sooner, Enzo would have told every customer."},
+      {"sp": "Enzo", "fr": "Hé ! Et puis il a pas une thune, notre Hugo, mais il va se débrouiller. Pardon, en bon français : {serait-il ruiné, il trouverait l'argent|pp-inversion}.", "en": "Hey! Anyway, our Hugo hasn't got a bean, but he'll manage. Sorry, in proper French: even if he were broke, he'd find the money."},
+      {"sp": "Hugo", "fr": "{Devrais-je manger des pâtes pendant un an, je l'achèterais quand même|pp-inversion}, cette bague.", "en": "Even if I had to eat pasta for a year, I'd still buy that ring."},
+      {"sp": "Sophie", "fr": "{On m'aurait dit ça il y a deux ans que je ne l'aurais pas cru|pp-deux-cond}. Je vois déjà le mariage… {Selon que le mariage aura lieu à Madrid ou à la ferme|pp-que-ou-que}, je ne mettrai pas la même robe.", "en": "If someone had told me that two years ago, I wouldn't have believed it. I can already see the wedding… Depending on whether the wedding is in Madrid or at the farm, I won't wear the same dress."},
+      {"sp": "Hugo", "fr": "Doucement ! Je ne lui ai encore rien demandé.", "en": "Steady on! I haven't asked her anything yet."},
+      {"sp": "", "fr": "On sonne : c'est Inès, qui passait dans le quartier. On lui explique tout. Elle pousse un cri de joie, puis devient toute pâle.", "en": "The doorbell rings: it's Inès, who was in the area. They explain everything to her. She cries out with joy, then turns quite pale."},
+      {"sp": "Inès", "fr": "C'est merveilleux ! Et c'est terrible. Papa ne parle que l'espagnol, Hugo. Tu dois d'abord lui demander la main de Carla, à lui, et en espagnol.", "en": "It's wonderful! And it's terrible. Dad only speaks Spanish, Hugo. You have to ask him for Carla's hand first, and in Spanish."},
+      {"sp": "Inès", "fr": "Il ne dira rien pendant une minute, {soit qu'il cherche ses mots, soit qu'il veuille te faire peur|pp-que-ou-que}. Mais {qu'il dise oui ou qu'il dise non|pp-que-ou-que}, c'est Carla qui décidera.", "en": "He won't say anything for a minute, either because he's searching for the right words or because he wants to scare you. But whether he says yes or no, it's Carla who'll decide."},
+      {"sp": "Léa", "fr": "Et Carla ne se doute de [rien|rien] ?", "en": "And Carla has no idea?"},
+      {"sp": "Inès", "fr": "{Pour autant que je sache|pp-pour-peu}, non. Hier, elle m'a parlé de flamenco pendant une heure.", "en": "As far as I know, no. Yesterday she talked to me about flamenco for an hour."},
+      {"sp": "Léa", "fr": "Alors, à partir d'aujourd'hui, c'est un secret. {Dites un seul mot, et la surprise est ratée|pp-imperatif}.", "en": "So, from today, it's a secret. Say one single word, and the surprise is ruined."},
+      {"sp": "Inès", "fr": "Et toi, Hugo, {tais-toi, ou elle va tout deviner|pp-imperatif}. Tu rougis dès qu'on dit « bague ».", "en": "And you, Hugo, keep quiet, or she'll guess everything. You go red as soon as anyone says 'ring'."},
+      {"sp": "Tom", "fr": "Et pas un mot à Lou. {Pour peu qu'elle l'apprenne, toute la famille le saura|pp-pour-peu}.", "en": "And not a word to Lou. If she gets the slightest wind of it, the whole family will know."},
+      {"sp": "", "fr": "Enzo jure sur sa médaille de se taire. Tom fait le geste de fermer sa bouche à clé.", "en": "Enzo swears on his medal to keep quiet. Tom mimes locking his mouth with a key."},
+      {"sp": "Sophie", "fr": "{Gardons le secret, et tout ira bien|pp-imperatif}.", "en": "Let's keep the secret, and everything will be fine."},
+      {"sp": "", "fr": "Soudain, quelqu'un monte l'escalier. La porte s'ouvre : c'est Carla, [rentrée|rentrer] plus tôt.", "en": "Suddenly someone comes up the stairs. The door opens: it's Carla, back early."},
+      {"sp": "Carla", "fr": "Qu'est-ce qui se passe ? Pourquoi vous avez tous l'air si coupables ?", "en": "What's going on? Why do you all look so guilty?"},
+      {"sp": "Hugo", "fr": "On parlait… de la course ! Cinquante-huit minutes, tu te rends compte ?", "en": "We were talking… about the race! Fifty-eight minutes, can you believe it?"},
+      {"sp": "Léa", "fr": "Et de ta leçon de flamenco ! Hugo voulait savoir quand a lieu la prochaine.", "en": "And about your flamenco lesson! Hugo wanted to know when the next one is."},
+      {"sp": "", "fr": "Derrière Carla, Inès éternue. Tout le monde éclate de rire, sauf Hugo, qui est tout rouge.", "en": "Behind Carla, Inès sneezes. Everyone bursts out laughing, except Hugo, who has gone bright red."}
+    ]
+  },
+  "quiz": [
+    {"case": "pp-deux-cond", "type": "mc", "q": "Tu me l'___ dit, je serais venu.", "en": "If you'd told me, I'd have come.", "options": ["aurais", "auras", "as"], "answer": "aurais"},
+    {"case": "pp-deux-cond", "type": "mc", "q": "Il ferait beau, on ___ à la plage.", "en": "If the weather were nice, we'd go to the beach.", "options": ["irait", "ira", "va"], "answer": "irait"},
+    {"case": "pp-inversion", "type": "mc", "q": "___ ruiné, il trouverait l'argent.", "en": "Even if he were broke, he'd find the money.", "options": ["Serait-il", "Était-il", "Sera-t-il"], "answer": "Serait-il"},
+    {"case": "pp-inversion", "type": "mc", "q": "Hugo ___ fatigué, il finirait la course.", "en": "Even if Hugo were tired, he'd finish the race.", "options": ["serait-il", "était-il", "est-il"], "answer": "serait-il"},
+    {"case": "pp-pour-peu", "type": "mc", "q": "Pour peu qu'elle ___ oui, je serai heureux.", "en": "If she so much as says yes, I'll be happy.", "options": ["dise", "dit", "dira"], "answer": "dise"},
+    {"case": "pp-pour-peu", "type": "mc", "q": "Pour ___ que je sache, Carla ne se doute de [rien|rien].", "en": "As far as I know, Carla has no idea.", "options": ["autant", "peu", "tant"], "answer": "autant"},
+    {"case": "pp-que-ou-que", "type": "mc", "q": "Qu'il ___ oui ou qu'il dise non, c'est Carla qui décidera.", "en": "Whether he says yes or no, it's Carla who'll decide.", "options": ["dise", "dit", "dira"], "answer": "dise"},
+    {"case": "pp-que-ou-que", "type": "mc", "q": "Selon qu'il ___ beau ou non, on mangera dehors ou dedans.", "en": "Depending on whether it's fine or not, we'll eat outside or in.", "options": ["fera", "fasse", "ferait"], "answer": "fera"},
+    {"case": "pp-imperatif", "type": "mc", "q": "Dis-le-lui, ___ la surprise est ratée.", "en": "Tell her, and the surprise is ruined.", "options": ["et", "ou", "si"], "answer": "et"},
+    {"case": "pp-imperatif", "type": "mc", "q": "Tais-toi, ___ elle va tout deviner.", "en": "Be quiet, or she'll guess everything.", "options": ["ou", "et", "donc"], "answer": "ou"}
+  ]
+}

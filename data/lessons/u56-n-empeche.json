@@ -1,0 +1,108 @@
+{
+  "id": "u56-n-empeche",
+  "type": "grammar",
+  "unit": 56,
+  "title": "Il n'empêche que…",
+  "en": "Conceding a point at C1: certes… mais, tout… que, quitte à, sans pour autant, il n'empêche que, toujours est-il que",
+  "intro": "To grant a point and then hold your ground, careful French has a whole set of tools. **Certes… mais** and **il est vrai que… mais** concede, then counter: *Certes, le projet est bon, mais…* **Tout** + adjective or noun + **que** + indicative means *however… he may be*: *tout âgée qu'elle est*. **Quitte à** + infinitive accepts a cost (*even if it means*), and **pour autant** denies the expected consequence: *elle ne dit pas non, sans pour autant dire oui*. Finally, **il n'empêche que**, **toujours est-il que** and **il n'en reste pas moins que** + indicative state the fact that remains (*n'empêche* is the familiar form), while **encore que** (though) takes the subjunctive. Most of these belong to writing and careful speech.",
+  "cases": [
+    {"id": "ne-certes", "label": "certes… mais, il est vrai que… mais", "rule": "Grant a point, then counter it: *Certes, le projet est bon, mais vous n'avez jamais dirigé d'entreprise.* *Il est vrai que les chiffres sont solides ; mais la cuisine a quarante ans.* *Bien sûr, c'est un risque, mais c'est son rêve.* *Certes* is formal; the counter comes with *mais*, *cependant* or *pourtant*."},
+    {"id": "ne-tout-que", "label": "tout + adjective / noun + que (however… he may be)", "rule": "*Tout* + adjective or noun + *que* + indicative grants a quality and denies its consequence: *Tout cuisinier de talent qu'il est, Karim n'a jamais géré de restaurant.* *Toute prudente qu'elle est, la conseillère sourit.* *Tout* agrees before a feminine adjective beginning with a consonant (*toute prudente*), but stays *tout* before a vowel or a mute h: *Tout âgée qu'elle est, sa grand-mère danse encore.* The subjunctive (*tout âgée qu'elle soit*) also exists; this lesson uses the indicative."},
+    {"id": "ne-quitte", "label": "quitte à + infinitive (even if it means)", "rule": "*Quitte à* + infinitive accepts a cost for the sake of something: *Quitte à emprunter, autant emprunter assez.* *Je préfère attendre un an, quitte à perdre le bouchon.* The subject of the infinitive is the subject of the sentence. Not *quitte de*."},
+    {"id": "ne-pour-autant", "label": "sans pour autant, ne… pas pour autant", "rule": "*Pour autant* (for all that) denies the expected consequence: *J'ai peur ; je ne renonce pas pour autant.* *Elle ne dit pas non, sans pour autant dire oui.* At the start of a sentence: *Pour autant, la banque hésite.* *Pour autant* goes after the verb with *ne… pas* (*il ne renonce pas pour autant*), never between *ne* and *pas*. Don't confuse it with *pour autant que* + subjunctive (as far as), the next lesson."},
+    {"id": "ne-empeche", "label": "il n'empêche que, toujours est-il que, il n'en reste pas moins que, encore que", "rule": "+ indicative, after a concession: the fact remains. *Le chiffre d'affaires est régulier. Il n'empêche que la cuisine est à refaire.* Familiar: *N'empêche, c'est un risque.* *Toujours est-il que la banque dit oui* (whatever the details, the fact is). *Il n'en reste pas moins que c'est un pari.* But *encore que* (though, formal) takes the subjunctive: *Karim réussira, encore qu'il faille être patient.*"}
+  ],
+  "sections": [
+    {"title": "1. certes… mais, il est vrai que… mais", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Certes, le projet est bon, mais il est risqué.", "Admittedly, the project is good, but it's risky."],
+      ["Il est vrai que les chiffres sont solides ; mais la cuisine est vieille.", "It's true that the figures are solid; but the kitchen is old."],
+      ["Bien sûr, c'est un risque, mais c'est son rêve.", "Of course it's a risk, but it's his dream."]]},
+     "examples": [
+      {"fr": "{Certes, votre projet est bon, mais vous n'avez jamais dirigé d'entreprise|ne-certes}.", "en": "Admittedly, your project is good, but you've never run a business."},
+      {"fr": "{Il est vrai qu'il n'a jamais tenu de restaurant ; mais tous les habitués de Madame Germaine le connaissent|ne-certes}.", "en": "It's true that he's never run a restaurant; but all Madame Germaine's regulars know him."}],
+     "tip": "Certes is formal and mostly written; in conversation, bien sûr… mais or c'est vrai… mais does the same job."},
+    {"title": "2. tout + adjective or noun + que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Tout cuisinier de talent qu'il est, il n'a jamais géré de restaurant.", "Talented cook though he is, he's never managed a restaurant."],
+      ["Toute prudente qu'elle est, elle sourit.", "Careful as she is, she smiles."],
+      ["Tout âgée qu'elle est, elle danse encore.", "Old as she is, she still dances."]]},
+     "examples": [
+      {"fr": "Je sais. {Tout cuisinier de talent que vous êtes, vous n'avez jamais géré ni équipe ni budget|ne-tout-que}.", "en": "I know. Talented cook though you are, you've never managed either a team or a budget."},
+      {"fr": "{Tout âgée qu'elle est|ne-tout-que}, elle a monté la pente toute seule, à pied.", "en": "Old as she is, she walked up the slope all by herself."}],
+     "tip": "Toute before a feminine adjective that starts with a consonant (toute prudente); tout before a vowel or a mute h (tout âgée)."},
+    {"title": "3. quitte à + infinitive", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Quitte à emprunter, autant emprunter assez.", "If we're going to borrow anyway, we might as well borrow enough."],
+      ["Je préfère attendre un an, quitte à perdre le bouchon.", "I'd rather wait a year, even if it means losing the bouchon."],
+      ["Il garde les ronds de serviette, quitte à paraître d'une autre époque.", "He's keeping the napkin rings, even if it means looking old-fashioned."]]},
+     "examples": [
+      {"fr": "Non. Je préfère attendre un an, {quitte à perdre le bouchon|ne-quitte}.", "en": "No. I'd rather wait a year, even if it means losing the bouchon."},
+      {"fr": "Je garderai les ronds de serviette des habitués, {quitte à paraître d'une autre époque|ne-quitte}.", "en": "I'll keep the regulars' napkin rings, even if it means looking old-fashioned."}],
+     "tip": "Quitte à X, autant Y is a common pattern: if we're doing X anyway, we may as well do Y."},
+    {"title": "4. sans pour autant, ne… pas pour autant", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["J'ai peur ; je ne renonce pas pour autant.", "I'm scared; I'm not giving up for all that."],
+      ["Elle ne dit pas non, sans pour autant dire oui.", "She doesn't say no, though without actually saying yes."],
+      ["Pour autant, la banque hésite.", "All the same, the bank hesitates."]]},
+     "examples": [
+      {"fr": "Elle ne dit pas non, {sans pour autant dire oui|ne-pour-autant}.", "en": "She doesn't say no, though without actually saying yes."},
+      {"fr": "J'ai peur, c'est vrai. {Je ne renonce pas pour autant|ne-pour-autant}.", "en": "I'm scared, it's true. I'm not giving up for all that."}],
+     "tip": "Pour autant comes after the whole negation: il ne renonce pas pour autant."},
+    {"title": "5. il n'empêche que, toujours est-il que, encore que", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le dossier est solide. Il n'empêche que vous n'avez aucune expérience.", "The file is solid. All the same, you have no experience."],
+      ["Toujours est-il que la banque a dit oui.", "The fact remains that the bank said yes."],
+      ["Il n'en reste pas moins que c'est un pari.", "Nonetheless, it's a gamble."]]},
+     "examples": [
+      {"fr": "Le chiffre d'affaires est régulier depuis quarante ans. {Il n'empêche que la cuisine est à refaire|ne-empeche}.", "en": "The turnover has been steady for forty years. All the same, the kitchen needs redoing."},
+      {"fr": "{Toujours est-il qu'à onze heures, la banque dit oui|ne-empeche}, avec la grand-mère comme associée.", "en": "The fact remains that at eleven o'clock the bank says yes, with the grandmother as a partner."}],
+     "tip": "These state a fact, so they take the indicative; only encore que (though) takes the subjunctive, like bien que."}
+  ],
+  "mistakes": [
+    {"wrong": "Il n'empêche que vous n'ayez jamais tenu de restaurant.", "right": "Il n'empêche que vous n'avez jamais tenu de restaurant.", "why": "Il n'empêche que, toujours est-il que and il n'en reste pas moins que take the indicative: they state a fact."},
+    {"wrong": "Karim réussira, encore qu'il faut être patient.", "right": "Karim réussira, encore qu'il faille être patient.", "why": "Encore que (though) takes the subjunctive, like bien que."},
+    {"wrong": "Il a peur, mais il ne renonce pour autant pas.", "right": "Il a peur, mais il ne renonce pas pour autant.", "why": "Pour autant comes after ne… pas, not between ne and pas."},
+    {"wrong": "Toute âgée qu'elle est, elle danse encore.", "right": "Tout âgée qu'elle est, elle danse encore.", "why": "Tout stays invariable before a feminine adjective beginning with a vowel or a mute h; it agrees only before a consonant (toute prudente)."}
+  ],
+  "story": {
+    "title": "L'associée",
+    "en": "The partner",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mercredi onze mai, à dix heures, Karim et Chloé sont assis dans le petit bureau en verre d'une conseillère, à la banque de la Croix-Rousse. Les jumeaux sont à la crèche.", "en": "On Wednesday 11 May, at ten o'clock, Karim and Chloé are sitting in an adviser's little glass office at the bank in the Croix-Rousse. The twins are at the nursery."},
+      {"sp": "", "fr": "Karim porte son seul costume. Chloé a apporté le dossier : le tableur de Hugo, les cahiers de comptes de Madame Germaine et le bail.", "en": "Karim is wearing his only suit. Chloé has brought the file: Hugo's spreadsheet, Madame Germaine's account books and the lease."},
+      {"sp": "La conseillère", "fr": "{Certes, votre projet est bon, mais vous n'avez jamais dirigé d'entreprise|ne-certes}.", "en": "Admittedly, your project is good, but you've never run a business."},
+      {"sp": "Karim", "fr": "J'ai passé dix ans en cuisine !", "en": "I've spent ten years in kitchens!"},
+      {"sp": "La conseillère", "fr": "Je sais. {Tout cuisinier de talent que vous êtes, vous n'avez jamais géré ni équipe ni budget|ne-tout-que}.", "en": "I know. Talented cook though you are, you've never managed either a team or a budget."},
+      {"sp": "Chloé", "fr": "{Il est vrai qu'il n'a jamais tenu de restaurant ; mais tous les habitués de Madame Germaine le connaissent|ne-certes}.", "en": "It's true that he's never run a restaurant; but all Madame Germaine's regulars know him."},
+      {"sp": "", "fr": "La conseillère tourne lentement les pages des cahiers.", "en": "The adviser slowly turns the pages of the exercise books."},
+      {"sp": "La conseillère", "fr": "Le chiffre d'affaires est régulier depuis quarante ans. {Il n'empêche que la cuisine est à refaire|ne-empeche}.", "en": "The turnover has been steady for forty years. All the same, the kitchen needs redoing."},
+      {"sp": "", "fr": "Elle ne dit pas non, {sans pour autant dire oui|ne-pour-autant}. Reste l'apport personnel : la banque demande vingt pour cent, et il en manque la moitié.", "en": "She doesn't say no, though without actually saying yes. There's still the personal deposit: the bank asks for twenty per cent, and half of it is missing."},
+      {"sp": "Karim", "fr": "Alors j'emprunte davantage, {quitte à rembourser pendant vingt ans|ne-quitte} !", "en": "Then I'll borrow more, even if it means paying it back for twenty years!"},
+      {"sp": "Chloé", "fr": "Non. Je préfère attendre un an, {quitte à perdre le bouchon|ne-quitte}.", "en": "No. I'd rather wait a year, even if it means losing the bouchon."},
+      {"sp": "Karim", "fr": "J'ai peur, c'est vrai. {Je ne renonce pas pour autant|ne-pour-autant}.", "en": "I'm scared, it's true. I'm not giving up for all that."},
+      {"sp": "", "fr": "On frappe à la vitre. C'est la grand-mère de Karim, avec son chapeau des grands jours.", "en": "There's a knock on the glass. It's Karim's grandmother, in her Sunday-best hat."},
+      {"sp": "Karim", "fr": "Mamie ? Tu es venue comment ?", "en": "Mamie? How did you get here?"},
+      {"sp": "", "fr": "{Tout âgée qu'elle est|ne-tout-que}, elle a monté la pente toute seule, à pied.", "en": "Old as she is, she walked up the slope all by herself."},
+      {"sp": "La grand-mère", "fr": "J'ai des économies qui dorment. Je veux être votre associée.", "en": "I have savings doing nothing. I want to be your partner."},
+      {"sp": "", "fr": "Elle pose son livret d'épargne sur le bureau. {Toute prudente qu'elle est|ne-tout-que}, la conseillère sourit.", "en": "She puts her savings passbook on the desk. Careful as she is, the adviser smiles."},
+      {"sp": "La grand-mère", "fr": "En échange, je veux un tour de danse tous les lundis, et ma part de tarte.", "en": "In exchange, I want a dance every Monday, and my slice of tart."},
+      {"sp": "La conseillère", "fr": "{Il n'en reste pas moins que c'est un pari|ne-empeche}. Un beau pari, {[encore que|encore-que] tout soit à apprendre|ne-empeche}.", "en": "Nonetheless, it's a gamble. A fine gamble, though there's everything to learn."},
+      {"sp": "", "fr": "{Toujours est-il qu'à onze heures, la banque dit oui|ne-empeche}, avec la grand-mère comme associée.", "en": "The fact remains that at eleven o'clock the bank says yes, with the grandmother as a partner."},
+      {"sp": "", "fr": "Dehors, sur le trottoir, Karim soulève sa grand-mère du sol.", "en": "Outside, on the pavement, Karim lifts his grandmother off the ground."},
+      {"sp": "La grand-mère", "fr": "Pose-moi, grand fou ! {[N'empêche|n-empeche], je l'ai toujours dit|ne-empeche} : ce garçon sera patron.", "en": "Put me down, you big silly! All the same, I always said so: this boy will be a boss."},
+      {"sp": "", "fr": "Ils descendent à pied au bouchon de Madame Germaine pour lui annoncer la nouvelle.", "en": "They walk down to Madame Germaine's bouchon to tell her the news."},
+      {"sp": "Madame Germaine", "fr": "Le notaire en juin, et vous ouvrez en septembre ? Vous réussirez, {[encore que|encore-que] le métier soit dur|ne-empeche}.", "en": "The notary in June, and you open in September? You'll succeed, though the job is hard."},
+      {"sp": "Karim", "fr": "Je garderai les ronds de serviette des habitués, {quitte à paraître d'une autre époque|ne-quitte}.", "en": "I'll keep the regulars' napkin rings, even if it means looking old-fashioned."},
+      {"sp": "Madame Germaine", "fr": "{Certes, vous êtes jeune, mais vous avez compris l'essentiel|ne-certes}.", "en": "Admittedly, you're young, but you've understood what matters."}
+    ]
+  },
+  "quiz": [
+    {"case": "ne-certes", "type": "mc", "q": "___, le projet est bon, mais Karim n'a jamais dirigé d'entreprise.", "en": "Admittedly, the project is good, but Karim has never run a business.", "options": ["Certes", "Pourtant", "Ainsi"], "answer": "Certes"},
+    {"case": "ne-certes", "type": "mc", "q": "Il est vrai que les chiffres sont solides ; ___ la cuisine est vieille.", "en": "It's true that the figures are solid; but the kitchen is old.", "options": ["mais", "donc", "car"], "answer": "mais"},
+    {"case": "ne-tout-que", "type": "mc", "q": "___ prudente qu'elle est, la conseillère sourit.", "en": "Careful as she is, the adviser smiles.", "options": ["Toute", "Tout", "Toutes"], "answer": "Toute"},
+    {"case": "ne-tout-que", "type": "mc", "q": "___ qu'elle est, elle danse encore.", "en": "Old as she is, she still dances.", "options": ["Tout âgée", "Toute âgée", "Tous âgée"], "answer": "Tout âgée"},
+    {"case": "ne-quitte", "type": "mc", "q": "___ emprunter, autant emprunter assez.", "en": "If we're going to borrow anyway, we might as well borrow enough.", "options": ["Quitte à", "Quitte d'", "Quitte pour"], "answer": "Quitte à"},
+    {"case": "ne-quitte", "type": "mc", "q": "Je préfère attendre un an, quitte à ___ le bouchon.", "en": "I'd rather wait a year, even if it means losing the bouchon.", "options": ["perdre", "perdant", "perde"], "answer": "perdre"},
+    {"case": "ne-pour-autant", "type": "mc", "q": "Il a peur ; il ne renonce ___.", "en": "He's scared; he isn't giving up for all that.", "options": ["pas pour autant", "pour autant pas", "pas pour autant que"], "answer": "pas pour autant"},
+    {"case": "ne-pour-autant", "type": "mc", "q": "Elle trouve le projet bon, ___ dire oui.", "en": "She thinks the project is good, though without actually saying yes.", "options": ["sans pour autant", "pour autant que", "quitte à"], "answer": "sans pour autant"},
+    {"case": "ne-empeche", "type": "mc", "q": "Le dossier est solide. Il n'empêche que vous n'___ aucune expérience.", "en": "The file is solid. All the same, you have no experience.", "options": ["avez", "ayez", "auriez"], "answer": "avez"},
+    {"case": "ne-empeche", "type": "mc", "q": "Vous réussirez, [encore que|encore-que] le métier ___ dur.", "en": "You'll succeed, though the job is hard.", "options": ["soit", "est", "sera"], "answer": "soit"}
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "u56-contes",
+  "type": "vocab",
+  "unit": 56,
+  "title": "Il était une fois un ogre",
+  "en": "Fairy tales and magic",
+  "intro": "25 words for fairy tales: the characters (**le prince, le sorcier, la fée, le chevalier, l'ogre, le nain, la créature, le dragon, le crapaud, la grenouille**), magic (**la magie, magique, enchanter, le sortilège, la malédiction, maudit, empoisonner, le poison**), and the castle and its treasures (**le donjon, la muraille, l'armure, le bouclier, l'épée, le carrosse, la pantoufle**).",
+  "words": [
+    {"id": "prince", "fr": "prince", "pos": "noun", "g": "m", "ipa": "pʁɛ̃s", "display": "le prince, la princesse", "en": "prince (f. princesse: princess)", "def": "Le fils d'un roi ; dans les contes, un jeune homme noble et courageux.", "def_en": "A king's son; in tales, a noble, brave young man.", "forms": ["princes", "princesse", "princesses"], "examples": [
+      {"fr": "« Il était une fois un **prince** qui s'appelait… Monsieur Jourdain. »", "en": "\"Once upon a time there was a prince called… Monsieur Jourdain.\""},
+      {"fr": "Le **prince** cherche la jeune fille qui a perdu sa pantoufle.", "en": "The prince looks for the girl who lost her slipper."},
+      {"fr": "Dans les contes, la **princesse** attend souvent dans un château.", "en": "In fairy tales, the princess often waits in a castle."}]},
+    {"id": "sorcier", "fr": "sorcier", "pos": "noun", "g": "m", "ipa": "sɔʁ.sje", "display": "le sorcier, la sorcière", "en": "sorcerer, wizard (f. sorcière: witch)", "def": "Une personne qui fait de la magie, souvent pour faire du mal.", "def_en": "A person who does magic, often to do harm.", "forms": ["sorciers", "sorcière", "sorcières"], "examples": [
+      {"fr": "Une méchante **sorcière** veut le château pour elle toute seule.", "en": "A wicked witch wants the castle all to herself."},
+      {"fr": "Le vieux **sorcier** vit seul au fond de la forêt.", "en": "The old wizard lives alone deep in the forest."},
+      {"fr": "Pour Halloween, Lou veut un chapeau de **sorcière**.", "en": "For Halloween, Lou wants a witch's hat."}]},
+    {"id": "creature", "fr": "créature", "pos": "noun", "g": "f", "ipa": "kʁe.a.tyʁ", "en": "creature", "def": "Un animal ou un personnage étrange, réel ou inventé.", "def_en": "A strange animal or character, real or made up.", "forms": ["créatures"], "examples": [
+      {"fr": "Dans la forêt vit une drôle de **créature**, moitié dragon, moitié crapaud.", "en": "In the forest lives an odd creature, half dragon, half toad."},
+      {"fr": "La mer est pleine de **créatures** étranges.", "en": "The sea is full of strange creatures."},
+      {"fr": "Cette **créature** a trois yeux et six pattes.", "en": "This creature has three eyes and six legs."}]},
+    {"id": "maudit", "fr": "maudit", "pos": "adj", "ipa": "mo.di", "en": "cursed, accursed", "def": "Qui est sous l'effet d'un sortilège ; qui porte malheur.", "def_en": "Under the effect of a spell; which brings bad luck.", "forms": ["maudite", "maudits", "maudites"], "examples": [
+      {"fr": "Il était une fois un château **maudit**, où personne n'entrait depuis cent ans.", "en": "Once upon a time there was a cursed castle, where no one had gone in for a hundred years."},
+      {"fr": "Cette maison est **maudite**, disent les gens du village.", "en": "This house is cursed, say the people in the village."},
+      {"fr": "Encore une panne ! Cette voiture est **maudite** !", "en": "Another breakdown! This car is cursed!"}]},
+    {"id": "magie", "fr": "magie", "pos": "noun", "g": "f", "ipa": "ma.ʒi", "en": "magic", "def": "L'art de faire des choses impossibles, comme dans les contes ou dans un spectacle.", "def_en": "The art of doing impossible things, as in fairy tales or in a show.", "examples": [
+      {"fr": "Par **magie**, la citrouille devient un carrosse… en chocolat !", "en": "By magic, the pumpkin becomes a coach… made of chocolate!"},
+      {"fr": "Le spectacle de **magie** a beaucoup plu aux enfants.", "en": "The children loved the magic show."},
+      {"fr": "Il n'y a pas de **magie** : il faut travailler.", "en": "There's no magic to it: you have to work."}]},
+    {"id": "magique", "fr": "magique", "pos": "adj", "ipa": "ma.ʒik", "en": "magic, magical", "def": "Qui fait des choses impossibles, comme dans les contes ; aussi, très beau, merveilleux.", "def_en": "That does impossible things, as in fairy tales; also, very beautiful, wonderful.", "forms": ["magiques"], "examples": [
+      {"fr": "La fée marraine agite sa baguette **magique**.", "en": "The fairy godmother waves her magic wand."},
+      {"fr": "Ce soir-là, sous la neige, Lyon était **magique**.", "en": "That evening, under the snow, Lyon was magical."},
+      {"fr": "Il n'existe pas de solution **magique**.", "en": "There's no magic solution."}]},
+    {"id": "enchanter", "fr": "enchanter", "pos": "verb", "ipa": "ɑ̃.ʃɑ̃.te", "en": "to put under a spell, to enchant; to delight", "def": "Jeter un sort à quelqu'un ou à quelque chose ; aussi, faire très plaisir.", "def_en": "To cast a spell on someone or something; also, to please very much.", "note": "The participle (enchanté, enchantée…) is the adjective enchanté: un château enchanté, an enchanted castle; Enchanté ! = Nice to meet you!", "forms": ["enchante", "enchantes", "enchantons", "enchantez", "enchantent", "enchantais", "enchantait", "enchantions", "enchantiez", "enchantaient", "enchanterai", "enchanteras", "enchantera", "enchanterons", "enchanterez", "enchanteront", "enchanterais", "enchanterait", "enchanterions", "enchanteriez", "enchanteraient", "enchantant", "enchantai", "enchantas", "enchanta", "enchantâmes", "enchantâtes", "enchantèrent"], "examples": [
+      {"fr": "« Et les souris ? La fée doit aussi les **enchanter**, sinon qui tire le carrosse ? »", "en": "\"And the mice? The fairy has to put a spell on them too, otherwise who pulls the coach?\""},
+      {"fr": "La sorcière **enchanta** le prince, qui devint une grenouille.", "en": "The witch put a spell on the prince, who turned into a frog."},
+      {"fr": "Cette idée ne m'**enchante** pas vraiment.", "en": "I'm not really keen on that idea."}]},
+    {"id": "empoisonner", "fr": "empoisonner", "pos": "verb", "ipa": "ɑ̃.pwa.zɔ.ne", "en": "to poison", "def": "Donner à quelqu'un, ou mettre dans un plat, un produit qui rend malade ou qui tue.", "def_en": "To give someone, or put in a dish, a product that makes you ill or kills.", "note": "Empoisonner la vie de quelqu'un = to make someone's life a misery.", "forms": ["empoisonne", "empoisonnes", "empoisonnons", "empoisonnez", "empoisonnent", "empoisonné", "empoisonnée", "empoisonnés", "empoisonnées", "empoisonnais", "empoisonnait", "empoisonnions", "empoisonniez", "empoisonnaient", "empoisonnerai", "empoisonneras", "empoisonnera", "empoisonnerons", "empoisonnerez", "empoisonneront", "empoisonnerais", "empoisonnerait", "empoisonnerions", "empoisonneriez", "empoisonneraient", "empoisonnant", "empoisonnai", "empoisonnas", "empoisonna", "empoisonnâmes", "empoisonnâtes", "empoisonnèrent"], "examples": [
+      {"fr": "Pendant ce temps, la sorcière **empoisonne** une pomme.", "en": "Meanwhile, the witch poisons an apple."},
+      {"fr": "Le vieux roi est mort **empoisonné**.", "en": "The old king died of poisoning."},
+      {"fr": "L'usine a **empoisonné** la rivière.", "en": "The factory poisoned the river."}]},
+    {"id": "poison", "fr": "poison", "pos": "noun", "g": "m", "ipa": "pwa.zɔ̃", "en": "poison", "def": "Un produit qui rend malade ou qui tue quand on l'avale.", "def_en": "A product that makes you ill or kills when you swallow it.", "note": "Don't mix it up with le poisson (fish): poison has a z sound, poisson an s sound.", "forms": ["poisons"], "examples": [
+      {"fr": "« Pas du poisson, Hugo, du **poison** ! »", "en": "\"Not fish, Hugo, poison!\""},
+      {"fr": "Ce champignon est un **poison** mortel.", "en": "This mushroom is a deadly poison."},
+      {"fr": "La jalousie est un **poison**.", "en": "Jealousy is a poison."}]},
+    {"id": "malediction", "fr": "malédiction", "pos": "noun", "g": "f", "ipa": "ma.le.dik.sjɔ̃", "en": "curse", "def": "Un sortilège qui fait du mal à quelqu'un ; un grand malheur qui semble ne jamais finir.", "def_en": "A spell that harms someone; a great misfortune that seems never to end.", "forms": ["malédictions"], "examples": [
+      {"fr": "Pour briser la **malédiction**, il faut un bisou.", "en": "To break the curse, you need a kiss."},
+      {"fr": "Une **malédiction** pèse sur cette famille.", "en": "A curse hangs over this family."},
+      {"fr": "La pluie tous les dimanches : quelle **malédiction** !", "en": "Rain every Sunday: what a curse!"}]},
+    {"id": "muraille", "fr": "muraille", "pos": "noun", "g": "f", "ipa": "my.ʁaj", "en": "(high, thick) wall, rampart", "def": "Une clôture de pierre très haute et très épaisse, autour d'un château ou d'une ville.", "def_en": "A very high, very thick stone enclosure around a castle or a town.", "forms": ["murailles"], "examples": [
+      {"fr": "Autour du château, la **muraille** est si haute que même le dragon ne peut pas la franchir.", "en": "Around the castle, the wall is so high that even the dragon can't get over it."},
+      {"fr": "La Grande **Muraille** de Chine est très longue.", "en": "The Great Wall of China is very long."},
+      {"fr": "On se promène sur les **murailles** de la vieille ville.", "en": "We walk along the walls of the old town."}]},
+    {"id": "nain", "fr": "nain", "pos": "noun", "g": "m", "ipa": "nɛ̃", "display": "le nain, la naine", "en": "dwarf", "def": "Dans les contes, un tout petit personnage qui vit dans la montagne ou la forêt.", "def_en": "In tales, a very small character who lives in the mountains or the forest.", "note": "Un nain de jardin = a garden gnome.", "forms": ["nains", "naine", "naines"], "examples": [
+      {"fr": "Blanche-Neige vit avec les sept **nains** !", "en": "Snow White lives with the seven dwarfs!"},
+      {"fr": "Le **nain** du conte est petit, mais très fort.", "en": "The dwarf in the tale is small, but very strong."},
+      {"fr": "Il y a un **nain** de jardin devant la maison.", "en": "There's a garden gnome in front of the house."}]},
+    {"id": "bouclier", "fr": "bouclier", "pos": "noun", "g": "m", "ipa": "bu.kli.je", "en": "shield", "def": "Une plaque que le soldat tient devant lui pour se protéger des coups.", "def_en": "A plate a soldier holds in front of him to protect himself from blows.", "forms": ["boucliers"], "examples": [
+      {"fr": "Hugo prend un plateau comme **bouclier**.", "en": "Hugo takes a tray as a shield."},
+      {"fr": "Le chevalier se cache derrière son **bouclier**.", "en": "The knight hides behind his shield."},
+      {"fr": "Les policiers avancent derrière leurs **boucliers**.", "en": "The police advance behind their shields."}]},
+    {"id": "crapaud", "fr": "crapaud", "pos": "noun", "g": "m", "ipa": "kʁa.po", "en": "toad", "def": "Un animal proche de la grenouille, à la peau [sèche|sec] et couverte de boutons.", "def_en": "An animal close to the frog, with dry skin covered in bumps.", "forms": ["crapauds"], "examples": [
+      {"fr": "« Pas un **crapaud**, une grenouille ! »", "en": "\"Not a toad, a frog!\""},
+      {"fr": "Un gros **crapaud** dort sous une pierre du jardin.", "en": "A big toad sleeps under a stone in the garden."},
+      {"fr": "La nuit, on entend les **crapauds** près de la rivière.", "en": "At night you hear the toads near the river."}]},
+    {"id": "grenouille", "fr": "grenouille", "pos": "noun", "g": "f", "ipa": "ɡʁə.nuj", "en": "frog", "def": "Un petit animal vert qui saute et vit près de l'eau.", "def_en": "A small green animal that jumps and lives near water.", "forms": ["grenouilles"], "examples": [
+      {"fr": "Alors la princesse embrasse la **grenouille**.", "en": "So the princess kisses the frog."},
+      {"fr": "Les **grenouilles** sautent dans l'eau.", "en": "The frogs jump into the water."},
+      {"fr": "En France, on mange parfois des cuisses de **grenouille**.", "en": "In France, people sometimes eat frogs' legs."}]},
+    {"id": "armure", "fr": "armure", "pos": "noun", "g": "f", "ipa": "aʁ.myʁ", "en": "(suit of) armour", "def": "Les vêtements de métal que portaient les soldats pour se protéger.", "def_en": "The metal clothes soldiers wore to protect themselves.", "forms": ["armures"], "examples": [
+      {"fr": "Alors arrive un chevalier dans une **armure** trop petite pour lui.", "en": "Then along comes a knight in armour too small for him."},
+      {"fr": "Au musée, on voit des **armures** du Moyen Âge.", "en": "At the museum you can see suits of armour from the Middle Ages."},
+      {"fr": "Une **armure** pèse environ vingt-cinq kilos.", "en": "A suit of armour weighs about twenty-five kilos."}]},
+    {"id": "pantoufle", "fr": "pantoufle", "pos": "noun", "g": "f", "ipa": "pɑ̃.tufl", "en": "slipper", "def": "Une chaussure souple et chaude qu'on porte à la maison.", "def_en": "A soft, warm shoe you wear at home.", "forms": ["pantoufles"], "examples": [
+      {"fr": "À minuit, Cendrillon perd sa **pantoufle** de verre.", "en": "At midnight, Cinderella loses her glass slipper."},
+      {"fr": "Le soir, je mets mes **pantoufles** et je lis.", "en": "In the evening, I put on my slippers and read."},
+      {"fr": "Ne sors pas en **pantoufles**, il pleut !", "en": "Don't go out in your slippers, it's raining!"}]},
+    {"id": "ogre", "fr": "ogre", "pos": "noun", "g": "m", "ipa": "ɔɡʁ", "display": "l'ogre, l'ogresse", "en": "ogre", "def": "Dans les contes, un géant qui mange les enfants.", "def_en": "In tales, a giant who eats children.", "note": "Avoir un appétit d'ogre = to have a huge appetite.", "forms": ["ogres", "ogresse", "ogresses"], "examples": [
+      {"fr": "L'**ogre** s'endort tout de suite et ronfle très fort.", "en": "The ogre falls asleep at once and snores very loudly."},
+      {"fr": "Dans les contes, l'**ogre** veut toujours manger les enfants.", "en": "In fairy tales, the ogre always wants to eat the children."},
+      {"fr": "Ce soir, j'ai un appétit d'**ogre** !", "en": "Tonight I'm ravenous!"}]},
+    {"id": "carrosse", "fr": "carrosse", "pos": "noun", "g": "m", "ipa": "ka.ʁɔs", "en": "(horse-drawn) coach, carriage", "def": "Une grande voiture tirée par des chevaux, pour les rois et les reines.", "def_en": "A large vehicle pulled by horses, for kings and queens.", "forms": ["carrosses"], "examples": [
+      {"fr": "À minuit, le **carrosse** redevient citrouille.", "en": "At midnight, the coach turns back into a pumpkin."},
+      {"fr": "Le roi arrive dans un **carrosse** doré.", "en": "The king arrives in a golden coach."},
+      {"fr": "Six chevaux blancs tirent le **carrosse** de la reine.", "en": "Six white horses pull the queen's coach."}]},
+    {"id": "donjon", "fr": "donjon", "pos": "noun", "g": "m", "ipa": "dɔ̃.ʒɔ̃", "en": "keep (a castle's main tower)", "def": "La partie la plus haute et la plus solide d'un château fort.", "def_en": "The highest, strongest part of a fortified castle.", "note": "Not a dungeon (un cachot): le donjon is the tall central tower.", "forms": ["donjons"], "examples": [
+      {"fr": "En haut du **donjon**, la princesse s'ennuie.", "en": "At the top of the keep, the princess is bored."},
+      {"fr": "Du **donjon**, on voit toute la vallée.", "en": "From the keep you can see the whole valley."},
+      {"fr": "Le **donjon** de ce château a huit cents ans.", "en": "This castle's keep is eight hundred years old."}]},
+    {"id": "sortilege", "fr": "sortilège", "pos": "noun", "g": "m", "ipa": "sɔʁ.ti.lɛʒ", "en": "spell, charm", "def": "Une formule ou un geste magique qui change les gens ou les choses.", "def_en": "A magic formula or gesture that changes people or things.", "forms": ["sortilèges"], "examples": [
+      {"fr": "Soudain, un **sortilège** fait éternuer tout le royaume.", "en": "Suddenly, a spell makes the whole kingdom sneeze."},
+      {"fr": "La sorcière jette un **sortilège** au prince.", "en": "The witch casts a spell on the prince."},
+      {"fr": "Quel **sortilège** t'empêche de ranger ta chambre ?", "en": "What spell is stopping you from tidying your room?"}]},
+    {"id": "epee", "fr": "épée", "pos": "noun", "g": "f", "ipa": "e.pe", "en": "sword", "def": "Une arme à longue lame, que l'on [tient|tenir] à la main.", "def_en": "A weapon with a long blade, held in the hand.", "forms": ["épées"], "examples": [
+      {"fr": "Il tire son **épée** et attaque un dragon !", "en": "He draws his sword and attacks a dragon!"},
+      {"fr": "Hugo prend une cuillère à soupe comme **épée**.", "en": "Hugo takes a soup spoon as a sword."},
+      {"fr": "Les deux hommes se battent à l'**épée**.", "en": "The two men fight with swords."}]},
+    {"id": "chevalier", "fr": "chevalier", "pos": "noun", "g": "m", "ipa": "ʃə.va.lje", "en": "knight", "def": "Au Moyen Âge, un soldat noble qui portait une armure et se battait pour son roi.", "def_en": "In the Middle Ages, a noble soldier who wore armour and fought for his king.", "forms": ["chevaliers"], "examples": [
+      {"fr": "Le **chevalier** [porte|porter] une armure trop petite.", "en": "The knight wears armour that's too small."},
+      {"fr": "Le **chevalier** protège la reine.", "en": "The knight protects the queen."},
+      {"fr": "Les **chevaliers** partent à la guerre avec leur roi.", "en": "The knights go off to war with their king."}]},
+    {"id": "fee", "fr": "fée", "pos": "noun", "g": "f", "ipa": "fe", "en": "fairy", "def": "Dans les contes, une femme qui peut faire de la magie et qui aide souvent les héros.", "def_en": "In tales, a woman who can do magic and who often helps the heroes.", "note": "Un conte de fées = a fairy tale; la fée marraine = the fairy godmother.", "forms": ["fées"], "examples": [
+      {"fr": "La **fée** marraine ressemble beaucoup à Léa.", "en": "The fairy godmother looks a lot like Léa."},
+      {"fr": "Lou adore les contes de **fées**.", "en": "Lou loves fairy tales."},
+      {"fr": "Lou s'est déguisée en **fée**.", "en": "Lou has dressed up as a fairy."}]},
+    {"id": "dragon", "fr": "dragon", "pos": "noun", "g": "m", "ipa": "dʁa.ɡɔ̃", "en": "dragon", "def": "Un animal imaginaire, comme un grand serpent avec des ailes, qui crache du feu.", "def_en": "An imaginary animal, like a big snake with wings, that breathes fire.", "forms": ["dragons"], "examples": [
+      {"fr": "Mais le **dragon** a peur des abeilles…", "en": "But the dragon is afraid of bees…"},
+      {"fr": "Le **dragon** crache du feu sur le château.", "en": "The dragon breathes fire on the castle."},
+      {"fr": "Lou dessine un **dragon** vert.", "en": "Lou draws a green dragon."}]}
+  ],
+  "story": {
+    "title": "Il était une fois un ogre",
+    "en": "Once upon a time there was an ogre",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le mardi trois mai, à huit heures et demie, Hugo sonne chez Chloé et Karim avec Lou. Il a encore les cheveux mouillés de sa cinquième leçon de natation.", "en": "On Tuesday the third of May, at half past eight, Hugo rings the bell at Chloé and Karim's with Lou. His hair is still wet from his fifth swimming lesson."},
+      {"sp": "Chloé", "fr": "Merci, Hugo ! Le bain, c'est fait. Une seule histoire, et on éteint la lumière à neuf heures. Tout est sur la liste.", "en": "Thanks, Hugo! Bath's done. One story, and lights out at nine. It's all on the list."},
+      {"sp": "Karim", "fr": "On dîne avec Madame Germaine pour parler de son bouchon. On rentre vers dix heures.", "en": "We're having dinner with Madame Germaine to talk about her bouchon. We'll be back around ten."},
+      {"sp": "", "fr": "Mais les jumeaux ne veulent pas dormir, et Lou, cinq ans et demi, exige un conte. Hugo n'a pas de livre : il va l'inventer.", "en": "But the twins won't sleep, and Lou, five and a half, demands a fairy tale. Hugo has no book: he'll make one up."},
+      {"sp": "Hugo", "fr": "« Il était une fois un prince qui s'appelait… Monsieur Jourdain. »", "en": "\"Once upon a time there was a prince called… Monsieur Jourdain.\""},
+      {"sp": "Lou", "fr": "Un prince ne s'appelle pas Monsieur ! Et il faut une princesse, une fée et un château.", "en": "A prince isn't called Monsieur! And you need a princess, a fairy and a castle."},
+      {"sp": "Hugo", "fr": "D'accord. Il était une fois un château maudit, où personne n'entrait depuis cent ans. En haut du donjon, la princesse s'ennuyait.", "en": "All right. Once upon a time there was a cursed castle, where no one had gone in for a hundred years. At the top of the keep, the princess was bored."},
+      {"sp": "Hugo", "fr": "Ensuite arrive Cendrillon. La fée marraine agite sa baguette magique, et par magie, la citrouille devient un carrosse… en chocolat !", "en": "Then along comes Cinderella. The fairy godmother waves her magic wand, and by magic, the pumpkin becomes a coach… made of chocolate!"},
+      {"sp": "", "fr": "La baguette est une cuillère en bois ; Nina essaie de l'attraper.", "en": "The wand is a wooden spoon; Nina tries to grab it."},
+      {"sp": "Lou", "fr": "Et les souris ? La fée doit aussi les enchanter, sinon qui tire le carrosse ?", "en": "What about the mice? The fairy has to put a spell on them too, otherwise who pulls the coach?"},
+      {"sp": "Hugo", "fr": "À minuit, Cendrillon perd sa pantoufle de verre… à la piscine !", "en": "At midnight, Cinderella loses her glass slipper… at the swimming pool!"},
+      {"sp": "Lou", "fr": "Pas à la piscine ! Dans l'escalier du château !", "en": "Not at the swimming pool! On the castle stairs!"},
+      {"sp": "Hugo", "fr": "Pendant ce temps, une méchante sorcière, qui veut le château pour elle toute seule, empoisonne une pomme. Elle met du poisson dedans…", "en": "Meanwhile, a wicked witch, who wants the castle all to herself, poisons an apple. She puts fish in it…"},
+      {"sp": "Lou", "fr": "Pas du poisson, Hugo, du poison ! Et c'est la pomme de Blanche-Neige, avec les sept nains !", "en": "Not fish, Hugo, poison! And that's Snow White's apple, with the seven dwarfs!"},
+      {"sp": "Hugo", "fr": "Mais c'est un ogre qui avale la pomme : il croit que c'est un chocolat. L'ogre s'endort tout de suite et ronfle très fort.", "en": "But it's an ogre who swallows the apple: he thinks it's a chocolate. The ogre falls asleep at once and snores very loudly."},
+      {"sp": "Lou", "fr": "Comme toi !", "en": "Like you!"},
+      {"sp": "", "fr": "Hugo prend un plateau comme bouclier et une cuillère à soupe comme épée. Adam tape sur le bouclier en riant.", "en": "Hugo takes a tray as a shield and a soup spoon as a sword. Adam bangs on the shield, laughing."},
+      {"sp": "Hugo", "fr": "Alors arrive un chevalier dans une armure trop petite pour lui. Il tire son épée et attaque un dragon ! Mais le dragon a peur des abeilles…", "en": "Then along comes a knight in armour too small for him. He draws his sword and attacks a dragon! But the dragon is afraid of bees…"},
+      {"sp": "Lou", "fr": "Un dragon n'a pas peur des abeilles. C'est toi qui as peur des abeilles !", "en": "A dragon isn't afraid of bees. You're the one who's afraid of bees!"},
+      {"sp": "Hugo", "fr": "Derrière la muraille, dans la forêt, vit une drôle de créature, moitié dragon, moitié crapaud. Soudain, un sortilège fait éternuer tout le royaume…", "en": "Beyond the wall, in the forest, lives an odd creature, half dragon, half toad. Suddenly, a spell makes the whole kingdom sneeze…"},
+      {"sp": "Lou", "fr": "Pas un crapaud, une grenouille ! Et pour briser la malédiction, il faut un bisou. Sur la joue !", "en": "Not a toad, a frog! And to break the curse, you need a kiss. On the cheek!"},
+      {"sp": "Hugo", "fr": "Alors la princesse embrasse la grenouille, qui devient… Monsieur Jourdain en pyjama !", "en": "So the princess kisses the frog, which turns into… Monsieur Jourdain in pyjamas!"},
+      {"sp": "Lou", "fr": "Et à la fin, ils se marient. C'est obligé.", "en": "And at the end, they get married. They have to."},
+      {"sp": "", "fr": "Hugo tousse et change de sujet. Adam et Nina dorment déjà ; Lou s'endort à son tour sur le canapé, l'air satisfait.", "en": "Hugo coughs and changes the subject. Adam and Nina are already asleep; Lou falls asleep in turn on the sofa, looking pleased with herself."},
+      {"sp": "", "fr": "À dix heures, Léa vient chercher Lou après son atelier de théâtre. Chloé et Karim rentrent, ravis : samedi, Madame Germaine leur [montre|montrer] ses comptes.", "en": "At ten, Léa comes to fetch Lou after her theatre workshop. Chloé and Karim come home delighted: on Saturday, Madame Germaine is showing them her books."},
+      {"sp": "Hugo", "fr": "Moi, je vous le dis : faire l'ogre, c'est plus dur que nager.", "en": "Let me tell you: being the ogre is harder than swimming."}
+    ]
+  }
+}

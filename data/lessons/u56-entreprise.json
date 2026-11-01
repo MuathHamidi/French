@@ -1,0 +1,143 @@
+{
+  "id": "u56-entreprise",
+  "type": "vocab",
+  "unit": 56,
+  "title": "Reprendre un bouchon",
+  "en": "Taking over a business",
+  "intro": "25 words for taking over a business: the trade (**le marchand, le commerçant, l'entrepreneur, l'associé, l'établissement, la clientèle, la création, l'ouverture, le fournisseur**), the money (**le capital, l'investissement, le profit, le chiffre d'affaires, la trésorerie, rentable, financier**), the bank (**le banquier, le crédit, l'emprunt, l'apport, la mensualité, garantir**), and the paperwork (**le comptable, la comptabilité, le notaire**).",
+  "words": [
+    {"id": "marchand", "fr": "marchand", "pos": "noun", "g": "m", "ipa": "maʁ.ʃɑ̃", "display": "le marchand, la marchande", "en": "merchant, dealer, seller", "def": "Une personne qui achète des choses pour les vendre.", "def_en": "A person who buys things to sell them.", "forms": ["marchande", "marchands", "marchandes"], "examples": [
+      {"fr": "Le père de Madame Germaine était **marchand** de vin.", "en": "Madame Germaine's father was a wine merchant."},
+      {"fr": "Le **marchand** de journaux ouvre à six heures.", "en": "The newsagent opens at six."},
+      {"fr": "Au marché, la **marchande** de fruits donne une pomme à Lou.", "en": "At the market, the fruit seller gives Lou an apple."}]},
+    {"id": "credit", "fr": "crédit", "pos": "noun", "g": "m", "ipa": "kʁe.di", "en": "credit; loan", "def": "Une somme qu'une banque prête et qu'on rend chaque mois ; le droit de payer plus tard.", "def_en": "A sum a bank lends, which you pay back every month; the right to pay later.", "note": "*À crédit* = on credit.", "forms": ["crédits"], "examples": [
+      {"fr": "Un **crédit** sur sept ans, peut-être dix.", "en": "A loan over seven years, maybe ten."},
+      {"fr": "Ils ont acheté leur voiture à **crédit**.", "en": "They bought their car on credit."},
+      {"fr": "La banque a refusé le **crédit**.", "en": "The bank turned down the loan."}]},
+    {"id": "ouverture", "fr": "ouverture", "pos": "noun", "g": "f", "ipa": "u.vɛʁ.tyʁ", "en": "opening (of a shop, a restaurant); opening hours", "def": "Le jour où un magasin ou un restaurant reçoit ses premiers clients ; les heures où on peut y entrer.", "def_en": "The day a shop or a restaurant welcomes its first customers; the hours when you can go in.", "note": "*Les horaires d'ouverture* = opening hours.", "forms": ["ouvertures"], "examples": [
+      {"fr": "Karim rêve déjà de l'**ouverture**, en septembre.", "en": "Karim is already dreaming of the opening, in September."},
+      {"fr": "Les horaires d'**ouverture** sont écrits sur la porte.", "en": "The opening hours are written on the door."},
+      {"fr": "Le jour de l'**ouverture**, il y avait la queue dans la rue.", "en": "On opening day, there was a queue in the street."}]},
+    {"id": "profit", "fr": "profit", "pos": "noun", "g": "m", "ipa": "pʁɔ.fi", "en": "profit; benefit, advantage", "def": "L'argent qu'on gagne en plus ; ce qu'on gagne à faire quelque chose.", "def_en": "The extra money you earn; what you gain by doing something.", "note": "*Tirer profit de* = to make the most of; *au profit de* = for the benefit of.", "forms": ["profits"], "examples": [
+      {"fr": "Je n'ai jamais travaillé pour le **profit**.", "en": "I've never worked for profit."},
+      {"fr": "Le concert est organisé au **profit** des enfants malades.", "en": "The concert is held for the benefit of sick children."},
+      {"fr": "Elle a su tirer **profit** de ses erreurs.", "en": "She managed to turn her mistakes to good use."}]},
+    {"id": "garantir", "fr": "garantir", "pos": "verb", "ipa": "ɡa.ʁɑ̃.tiʁ", "en": "to guarantee", "def": "Promettre que quelque chose est vrai ou qu'il va arriver.", "def_en": "To promise that something is true or that it will happen.", "forms": ["garantis", "garantit", "garantissons", "garantissez", "garantissent", "garanti", "garantissais", "garantissait", "garantissions", "garantissiez", "garantissaient", "garantirai", "garantiras", "garantira", "garantirons", "garantirez", "garantiront", "garantirais", "garantirait", "garantirions", "garantiriez", "garantiraient", "garantisse", "garantisses", "garantissant", "garantîmes", "garantîtes", "garantirent"], "examples": [
+      {"fr": "Rien ne **garantit** que les clients suivront.", "en": "Nothing guarantees that the customers will follow."},
+      {"fr": "Je te **garantis** que c'est bon !", "en": "I guarantee you it's good!"},
+      {"fr": "Le vendeur **garantit** la machine deux ans.", "en": "The seller guarantees the machine for two years."}]},
+    {"id": "creation", "fr": "création", "pos": "noun", "g": "f", "ipa": "kʁe.a.sjɔ̃", "en": "creation; setting up (of a business)", "def": "Le fait de faire exister quelque chose de nouveau.", "def_en": "The act of bringing something new into being.", "forms": ["créations"], "examples": [
+      {"fr": "Ce n'est pas une **création** d'entreprise, c'est une reprise.", "en": "It isn't setting up a business, it's a takeover."},
+      {"fr": "Ce dessert est une **création** de Karim.", "en": "This dessert is one of Karim's creations."},
+      {"fr": "La **création** d'une entreprise prend du temps.", "en": "Setting up a business takes time."}]},
+    {"id": "etablissement", "fr": "établissement", "pos": "noun", "g": "m", "ipa": "e.ta.blis.mɑ̃", "en": "establishment (a restaurant, a school, a firm)", "def": "Un lieu qui reçoit du public : un restaurant, un hôtel, une école…", "def_en": "A place open to the public: a restaurant, a hotel, a school…", "forms": ["établissements"], "examples": [
+      {"fr": "Quarante ans que je tiens cet **établissement** !", "en": "Forty years I've been running this establishment!"},
+      {"fr": "Cet **établissement** est fermé le lundi.", "en": "This establishment is closed on Mondays."},
+      {"fr": "Les élèves de l'**établissement** mangent à midi.", "en": "The school's pupils eat at noon."}]},
+    {"id": "associe", "fr": "associé", "pos": "noun", "g": "m", "ipa": "a.sɔ.sje", "display": "l'associé, l'associée", "en": "(business) partner, associate", "def": "Une personne qui dirige une affaire avec une autre et partage l'argent qu'elle rapporte.", "def_en": "A person who runs a business with someone else and shares the money it brings in.", "forms": ["associée", "associés", "associées"], "examples": [
+      {"fr": "Il te faut un **associé**.", "en": "You need a partner."},
+      {"fr": "Les deux **associés** ont ouvert un café.", "en": "The two partners opened a café."},
+      {"fr": "Sa sœur est devenue son **associée**.", "en": "His sister became his partner."}]},
+    {"id": "clientele", "fr": "clientèle", "pos": "noun", "g": "f", "ipa": "kli.jɑ̃.tɛl", "en": "clientele, customers", "def": "Toutes les personnes qui viennent acheter dans un magasin ou manger dans un restaurant.", "def_en": "All the people who come to buy in a shop or eat in a restaurant.", "forms": ["clientèles"], "examples": [
+      {"fr": "Une **clientèle** fidèle depuis quarante ans !", "en": "A loyal clientele for forty years!"},
+      {"fr": "Ce bar a une **clientèle** d'étudiants.", "en": "This bar's customers are students."},
+      {"fr": "Le restaurant a perdu sa **clientèle**.", "en": "The restaurant has lost its customers."}]},
+    {"id": "notaire", "fr": "notaire", "pos": "noun", "g": "m", "both": true, "ipa": "nɔ.tɛʁ", "display": "le / la notaire", "en": "notary (lawyer for sales and deeds)", "def": "La personne chez qui on signe officiellement la vente d'une maison ou d'une affaire.", "def_en": "The person at whose office you officially sign the sale of a house or a business.", "forms": ["notaires"], "accept": ["la notaire"], "examples": [
+      {"fr": "La signature aura lieu chez le **notaire** en juin.", "en": "The signing will take place at the notary's in June."},
+      {"fr": "Le **notaire** [lit|lire] tout le contrat à voix haute.", "en": "The notary reads the whole contract aloud."},
+      {"fr": "Sa tante est **notaire** à Annecy.", "en": "Her aunt is a notary in Annecy."}]},
+    {"id": "commercant", "fr": "commerçant", "pos": "noun", "g": "m", "ipa": "kɔ.mɛʁ.sɑ̃", "display": "le commerçant, la commerçante", "en": "shopkeeper, trader", "def": "Une personne qui tient un magasin.", "def_en": "A person who runs a shop.", "forms": ["commerçante", "commerçants", "commerçantes"], "examples": [
+      {"fr": "Les **commerçants** du quartier souhaitent bonne chance à Karim.", "en": "The local shopkeepers wish Karim good luck."},
+      {"fr": "Madame Fournier est une **commerçante** que tout le monde connaît.", "en": "Madame Fournier is a shopkeeper everyone knows."},
+      {"fr": "Le dimanche, beaucoup de **commerçants** ferment.", "en": "On Sundays, a lot of shopkeepers close."}]},
+    {"id": "financier", "fr": "financier", "pos": "adj", "ipa": "fi.nɑ̃.sje", "en": "financial", "def": "Qui concerne l'argent.", "def_en": "To do with money.", "forms": ["financière", "financiers", "financières"], "examples": [
+      {"fr": "Hugo présente son plan **financier**.", "en": "Hugo presents his financial plan."},
+      {"fr": "L'entreprise a des problèmes **financiers**.", "en": "The company has financial problems."},
+      {"fr": "Elle demande une aide **financière** à la ville.", "en": "She asks the city for financial help."}]},
+    {"id": "capital", "fr": "capital", "pos": "noun", "g": "m", "ipa": "ka.pi.tal", "en": "capital (money invested)", "def": "L'argent qu'on met dans une affaire pour la faire démarrer.", "def_en": "The money you put into a business to get it started.", "forms": ["capitaux"], "examples": [
+      {"fr": "Le **capital** de départ, ce sont vos économies.", "en": "The starting capital is your savings."},
+      {"fr": "Il faut un petit **capital** pour ouvrir un café.", "en": "You need a little capital to open a café."},
+      {"fr": "Les **capitaux** viennent de trois amis.", "en": "The capital comes from three friends."}]},
+    {"id": "investissement", "fr": "investissement", "pos": "noun", "g": "m", "ipa": "ɛ̃.vɛs.tis.mɑ̃", "en": "investment", "def": "L'argent qu'on dépense aujourd'hui pour gagner plus demain.", "def_en": "The money you spend today to earn more tomorrow.", "forms": ["investissements"], "examples": [
+      {"fr": "Le gros **investissement**, c'est une nouvelle cuisine.", "en": "The big investment is a new kitchen."},
+      {"fr": "Un bon vélo, c'est un **investissement**.", "en": "A good bike is an investment."},
+      {"fr": "La ville fait des **investissements** dans les écoles.", "en": "The city is investing in schools."}]},
+    {"id": "fournisseur", "fr": "fournisseur", "pos": "noun", "g": "m", "ipa": "fuʁ.ni.sœʁ", "display": "le fournisseur, la fournisseuse", "en": "supplier", "def": "L'entreprise ou la personne qui vend à un magasin ce dont il a besoin.", "def_en": "The company or person that sells a shop what it needs.", "forms": ["fournisseuse", "fournisseurs", "fournisseuses"], "examples": [
+      {"fr": "Ton **fournisseur** de pain, ce sera moi.", "en": "Your bread supplier will be me."},
+      {"fr": "Le **fournisseur** [livre|livrer] les légumes chaque matin.", "en": "The supplier delivers the vegetables every morning."},
+      {"fr": "On cherche un **fournisseur** moins cher.", "en": "We're looking for a cheaper supplier."}]},
+    {"id": "comptabilite", "fr": "comptabilité", "pos": "noun", "g": "f", "ipa": "kɔ̃.ta.bi.li.te", "en": "accounting; the accounts, the books", "def": "Le travail de noter tout l'argent qui entre et qui sort.", "def_en": "The work of writing down all the money that comes in and goes out.", "examples": [
+      {"fr": "Madame Germaine tient sa **comptabilité** dans des cahiers.", "en": "Madame Germaine keeps her books in exercise books."},
+      {"fr": "Chloé vérifie la **comptabilité** jusqu'au dernier centime.", "en": "Chloé checks the accounts down to the last cent."},
+      {"fr": "Il a fait des études de **comptabilité**.", "en": "He studied accounting."}]},
+    {"id": "emprunt", "fr": "emprunt", "pos": "noun", "g": "m", "ipa": "ɑ̃.pʁœ̃", "en": "loan (money borrowed)", "def": "L'argent qu'on demande à quelqu'un et qu'on doit rendre.", "def_en": "The money you ask someone for and have to give back.", "forms": ["emprunts"], "examples": [
+      {"fr": "Pour le reste, il faut un **emprunt**.", "en": "For the rest, you need a loan."},
+      {"fr": "Ils remboursent leur **emprunt** depuis dix ans.", "en": "They've been paying back their loan for ten years."},
+      {"fr": "L'**emprunt** représente presque tout le prix.", "en": "The loan is almost the whole price."}]},
+    {"id": "entrepreneur", "fr": "entrepreneur", "pos": "noun", "g": "m", "ipa": "ɑ̃.tʁə.pʁə.nœʁ", "display": "l'entrepreneur, l'entrepreneuse", "en": "entrepreneur, business owner; contractor", "def": "Une personne qui crée ou dirige sa propre affaire ; celle qui dirige des travaux.", "def_en": "A person who sets up or runs their own business; the one who runs building work.", "forms": ["entrepreneuse", "entrepreneurs", "entrepreneuses"], "examples": [
+      {"fr": "Tu n'as jamais [été|etre] **entrepreneur**.", "en": "You've never been an entrepreneur."},
+      {"fr": "Ma voisine est une **entrepreneuse** pleine d'idées.", "en": "My neighbour is an entrepreneur full of ideas."},
+      {"fr": "L'**entrepreneur** a fini les travaux en avance.", "en": "The contractor finished the work early."}]},
+    {"id": "rentable", "fr": "rentable", "pos": "adj", "ipa": "ʁɑ̃.tabl", "en": "profitable, cost-effective", "def": "Qui rapporte plus d'argent qu'il n'en coûte.", "def_en": "That brings in more money than it costs.", "forms": ["rentables"], "examples": [
+      {"fr": "Douze tables, c'est **rentable** ?", "en": "Twelve tables, is that profitable?"},
+      {"fr": "Le magasin n'est plus **rentable**.", "en": "The shop isn't profitable any more."},
+      {"fr": "Ces machines sont chères, mais **rentables**.", "en": "These machines are expensive, but they pay for themselves."}]},
+    {"id": "banquier", "fr": "banquier", "pos": "noun", "g": "m", "ipa": "bɑ̃.kje", "display": "le banquier, la banquière", "en": "banker", "def": "Une personne dont le métier est de garder l'argent des autres et d'en prêter.", "def_en": "A person whose job is to look after other people's money and lend it.", "forms": ["banquière", "banquiers", "banquières"], "examples": [
+      {"fr": "Le **banquier** voudra voir des chiffres, pas des rêves.", "en": "The banker will want to see figures, not dreams."},
+      {"fr": "Mon **banquier** ne répond jamais au téléphone.", "en": "My banker never answers the phone."},
+      {"fr": "Les **banquiers** n'aiment pas les risques.", "en": "Bankers don't like risks."}]},
+    {"id": "comptable", "fr": "comptable", "pos": "noun", "g": "m", "both": true, "ipa": "kɔ̃.tabl", "display": "le / la comptable", "en": "accountant", "def": "La personne dont le métier est de noter et de vérifier l'argent d'une entreprise.", "def_en": "The person whose job is to record and check a company's money.", "forms": ["comptables"], "accept": ["la comptable"], "examples": [
+      {"fr": "Il vous faut un vrai **comptable**.", "en": "You need a real accountant."},
+      {"fr": "Madame Germaine donne le nom de son **comptable**.", "en": "Madame Germaine gives the name of her accountant."},
+      {"fr": "La **comptable** vérifie les chiffres à la fin du mois.", "en": "The accountant checks the figures at the end of the month."}]},
+    {"id": "apport", "fr": "apport", "pos": "noun", "g": "m", "ipa": "a.pɔʁ", "en": "contribution; (personal) deposit", "def": "L'argent qu'on met soi-même dans un achat, avant d'emprunter le reste.", "def_en": "The money you put into a purchase yourself, before borrowing the rest.", "note": "*L'apport personnel* = the deposit you put in yourself.", "forms": ["apports"], "examples": [
+      {"fr": "La banque demande un **apport** de vingt pour cent.", "en": "The bank asks for a twenty per cent deposit."},
+      {"fr": "Sans **apport**, c'est difficile d'acheter un appartement.", "en": "Without a deposit, it's hard to buy a flat."},
+      {"fr": "Les deux frères font chacun un **apport** de dix mille euros.", "en": "The two brothers each put in ten thousand euros."}]},
+    {"id": "chiffre-d-affaires", "fr": "chiffre d'affaires", "pos": "expr", "g": "m", "ipa": "ʃi.fʁə.da.fɛʁ", "en": "turnover, revenue (of a business)", "def": "Tout l'argent qu'une entreprise reçoit en vendant, en un an.", "def_en": "All the money a company takes in from sales in a year.", "forms": ["chiffres d'affaires"], "examples": [
+      {"fr": "Le **chiffre d'affaires** ne bouge pas depuis dix ans.", "en": "The turnover hasn't moved for ten years."},
+      {"fr": "Le **chiffre d'affaires** a doublé cette année.", "en": "The turnover doubled this year."},
+      {"fr": "Chloé lit le **chiffre d'affaires** de chaque année.", "en": "Chloé reads the turnover for each year."}]},
+    {"id": "tresorerie", "fr": "trésorerie", "pos": "noun", "g": "f", "ipa": "tʁe.zɔʁ.ʁi", "en": "cash flow, available funds", "def": "L'argent qu'une entreprise a tout de suite pour payer ce qu'elle doit.", "def_en": "The money a company has right away to pay what it owes.", "examples": [
+      {"fr": "Je prévois trois mois de **trésorerie** pour l'été des travaux.", "en": "I'm allowing three months of cash for the building work over the summer."},
+      {"fr": "Sans **trésorerie**, on ne paie pas les salaires.", "en": "Without cash, you can't pay the wages."},
+      {"fr": "La **trésorerie** est faible en janvier.", "en": "Cash is low in January."}]},
+    {"id": "mensualite", "fr": "mensualité", "pos": "noun", "g": "f", "ipa": "mɑ̃.sɥa.li.te", "en": "monthly payment, instalment", "def": "La somme qu'on paie chaque mois pour rendre un prêt.", "def_en": "The sum you pay every month to pay back a loan.", "forms": ["mensualités"], "examples": [
+      {"fr": "Et les **mensualités**, ça fait combien ?", "en": "And the monthly payments, how much is that?"},
+      {"fr": "La **mensualité** est de huit cents euros.", "en": "The monthly payment is eight hundred euros."},
+      {"fr": "Ils ont payé la dernière **mensualité** de la voiture.", "en": "They've paid the last instalment on the car."}]}
+  ],
+  "story": {
+    "title": "Reprendre un bouchon",
+    "en": "Saturday 7 May: Karim visits Chez Germaine with the family.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi sept mai, à trois heures, le bouchon de Madame Germaine est fermé, mais elle ouvre la porte à Karim et à toute la famille.", "en": "On Saturday 7 May, at three o'clock, Madame Germaine's bouchon is closed, but she opens the door to Karim and the whole family."},
+      {"sp": "", "fr": "Derrière le vieux comptoir en bois, les ronds de serviette des habitués portent chacun un nom. Celui de Karim est là aussi.", "en": "Behind the old wooden counter, the regulars' napkin rings each bear a name. Karim's is there too."},
+      {"sp": "Madame Germaine", "fr": "Quarante ans que je tiens cet établissement ! Douze tables, les mêmes nappes à carreaux, et la plus belle vue sur Lyon.", "en": "Forty years I've been running this establishment! Twelve tables, the same checked tablecloths, and the finest view over Lyon."},
+      {"sp": "Madame Germaine", "fr": "Mon père était marchand de vin : c'est lui qui a creusé la cave. Moi, je n'ai jamais travaillé pour le profit, mais pour mes habitués. Je veux quelqu'un qui les gardera.", "en": "My father was a wine merchant: he's the one who dug out the cellar. I've never worked for profit, but for my regulars. I want someone who'll keep them."},
+      {"sp": "Karim", "fr": "Une clientèle fidèle depuis quarante ans : c'est ça, le vrai trésor.", "en": "A clientele that's been loyal for forty years: that's the real treasure."},
+      {"sp": "", "fr": "Chloé lit le bail jusqu'à la dernière ligne, puis les cahiers d'écolier où Madame Germaine tient sa comptabilité au crayon.", "en": "Chloé reads the lease down to the last line, then the school exercise books where Madame Germaine keeps her accounts in pencil."},
+      {"sp": "Chloé", "fr": "Le chiffre d'affaires ne bouge pas depuis dix ans. La cuisine, en revanche, est très vieille.", "en": "The turnover hasn't moved for ten years. The kitchen, on the other hand, is very old."},
+      {"sp": "Chloé", "fr": "Mon amour, tu es un cuisinier génial, mais tu n'as jamais [été|etre] entrepreneur.", "en": "My love, you're a brilliant cook, but you've never been an entrepreneur."},
+      {"sp": "", "fr": "Hugo ouvre son ordinateur portable et [présente|presenter] son plan financier : un vrai tableur, avec des couleurs.", "en": "Hugo opens his laptop and presents his financial plan: a real spreadsheet, with colours."},
+      {"sp": "Hugo", "fr": "Le capital de départ, ce sont vos économies. Le gros investissement, c'est une nouvelle cuisine. Pour le reste, il faut un emprunt : un crédit sur sept ans, peut-être dix.", "en": "The starting capital is your savings. The big investment is a new kitchen. For the rest, you need to borrow: a loan over seven years, maybe ten."},
+      {"sp": "Karim", "fr": "Et les mensualités, ça fait combien ?", "en": "And the monthly payments, how much is that?"},
+      {"sp": "Hugo", "fr": "À peu près le loyer de deux appartements. Et je prévois trois mois de trésorerie pour l'été des travaux.", "en": "About the rent of two flats. And I'm allowing three months of cash for the building work over the summer."},
+      {"sp": "Sophie", "fr": "Douze tables, c'est rentable ?", "en": "Twelve tables, is that profitable?"},
+      {"sp": "Hugo", "fr": "Oui, à condition d'ouvrir aussi le soir.", "en": "Yes, as long as you open in the evening too."},
+      {"sp": "Chloé", "fr": "La banque demande un apport de vingt pour cent. Nous en avons la moitié. Et le banquier voudra voir des chiffres, pas des rêves.", "en": "The bank asks for a twenty per cent deposit. We have half of it. And the banker will want to see figures, not dreams."},
+      {"sp": "Madame Germaine", "fr": "Ce n'est pas une création d'entreprise, c'est une reprise : les banques préfèrent ça.", "en": "It isn't setting up a business, it's a takeover: banks prefer that."},
+      {"sp": "Chloé", "fr": "Peut-être, mais rien ne garantit que les clients suivront. Seul, tu n'y arriveras pas, Karim. Il te faut un associé.", "en": "Maybe, but nothing guarantees that the customers will follow. On your own, you won't manage, Karim. You need a partner."},
+      {"sp": "Hugo", "fr": "Et un vrai comptable : moi, je ne fais que des tableaux.", "en": "And a real accountant: I only make tables."},
+      {"sp": "Madame Germaine", "fr": "Prenez le mien, il connaît la maison par cœur.", "en": "Take mine, he knows the place by heart."},
+      {"sp": "Enzo", "fr": "Ton fournisseur de pain, ce sera moi !", "en": "Your bread supplier will be me!"},
+      {"sp": "", "fr": "Le téléphone sonne : c'est Jules, qui appelle de la ferme. Karim le met sur la table.", "en": "The phone rings: it's Jules, calling from the farm. Karim puts it on the table."},
+      {"sp": "Jules", "fr": "Et le fromage viendra de la ferme. Notre tomme a une médaille d'argent, je te le rappelle !", "en": "And the cheese will come from the farm. Our tomme has a silver medal, may I remind you!"},
+      {"sp": "", "fr": "Les commerçants du quartier viennent souhaiter bonne chance à Karim. Pendant ce temps, Sophie prend les mesures de la salle pour son projet, et Adam et Nina se promènent à quatre pattes sous les tables.", "en": "The local shopkeepers drop in to wish Karim good luck. Meanwhile, Sophie takes the measurements of the dining room for her project, and Adam and Nina crawl under the tables."},
+      {"sp": "Lou", "fr": "Pourquoi le plafond n'est pas droit ?", "en": "Why isn't the ceiling straight?"},
+      {"sp": "Madame Germaine", "fr": "Parce que la maison est plus vieille que moi ! Tenez, Karim, votre rond de serviette. Si la banque dit oui, la maison est à vous.", "en": "Because the house is older than me! Here, Karim, your napkin ring. If the bank says yes, the place is yours."},
+      {"sp": "", "fr": "Rendez-vous à la banque mercredi. Si tout va bien, la signature chez le notaire en juin, et l'ouverture en septembre.", "en": "The bank meeting is on Wednesday. If all goes well, the signing at the notary's in June, and the opening in September."}
+    ]
+  }
+}

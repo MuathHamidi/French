@@ -1,0 +1,142 @@
+{
+  "id": "u56-adverbes",
+  "type": "vocab",
+  "unit": 56,
+  "title": "Moins d'une heure",
+  "en": "Common adverbs (4)",
+  "intro": "25 common adverbs: how Hugo runs and feels (**durement, secrètement, physiquement, violemment, faiblement, lourdement, désespérément, bêtement, brutalement**), what the others say and do (**longuement, gravement, personnellement, infiniment, drôlement, fortement, gaiement, librement, curieusement, bizarrement**), and then and now (**naguère, contrairement à, vaguement, sitôt, quasi, nullement**).",
+  "words": [
+    {"id": "durement", "fr": "durement", "pos": "adv", "ipa": "dyʁ.mɑ̃", "en": "hard; harshly", "def": "Avec beaucoup d'efforts ; sans gentillesse, de façon sévère.", "def_en": "With a lot of effort; without kindness, severely.", "examples": [
+      {"fr": "Il s'est entraîné **durement** : course le dimanche, natation le mardi.", "en": "He has trained hard: running on Sundays, swimming on Tuesdays."},
+      {"fr": "Le chef lui parle **durement** devant tout le monde.", "en": "The boss speaks harshly to him in front of everyone."},
+      {"fr": "Ils ont travaillé **durement** toute leur vie.", "en": "They worked hard all their lives."}]},
+    {"id": "secretement", "fr": "secrètement", "pos": "adv", "ipa": "sə.kʁɛt.mɑ̃", "en": "secretly", "def": "Sans que les autres le sachent, en cachette.", "def_en": "Without the others knowing, on the quiet.", "examples": [
+      {"fr": "J'ai aussi couru **secrètement** à l'aube, pour surprendre Carla.", "en": "I also ran secretly at dawn, to surprise Carla."},
+      {"fr": "Elle rêve **secrètement** de devenir actrice.", "en": "She secretly dreams of becoming an actress."},
+      {"fr": "Ils se voient **secrètement** depuis des mois.", "en": "They've been seeing each other secretly for months."}]},
+    {"id": "physiquement", "fr": "physiquement", "pos": "adv", "ipa": "fi.zik.mɑ̃", "en": "physically", "def": "Pour ce qui est du corps.", "def_en": "As far as the body is concerned.", "examples": [
+      {"fr": "**Physiquement**, je suis prêt. Dans ma tête, beaucoup moins.", "en": "Physically, I'm ready. In my head, much less so."},
+      {"fr": "C'est un travail **physiquement** très dur.", "en": "It's physically very hard work."},
+      {"fr": "Elle ressemble **physiquement** à sa mère.", "en": "She looks like her mother physically."}]},
+    {"id": "violemment", "fr": "violemment", "pos": "adv", "ipa": "vjɔ.la.mɑ̃", "en": "violently; hard, fiercely", "def": "Avec beaucoup de force, sans douceur.", "def_en": "With a lot of force, without gentleness.", "examples": [
+      {"fr": "Dans les derniers mètres, son cœur bat **violemment**.", "en": "In the last few metres, his heart pounds violently."},
+      {"fr": "Le vent souffle **violemment** cette nuit.", "en": "The wind is blowing hard tonight."},
+      {"fr": "Elle a fermé la porte **violemment**.", "en": "She shut the door violently."}]},
+    {"id": "faiblement", "fr": "faiblement", "pos": "adv", "ipa": "fɛ.blə.mɑ̃", "en": "weakly, faintly", "def": "Sans force, à peine.", "def_en": "Without strength, barely.", "examples": [
+      {"fr": "Hugo sourit **faiblement**.", "en": "Hugo smiles weakly."},
+      {"fr": "Une lampe éclaire **faiblement** la pièce.", "en": "A lamp faintly lights the room."},
+      {"fr": "Le malade répond **faiblement** au médecin.", "en": "The patient answers the doctor weakly."}]},
+    {"id": "lourdement", "fr": "lourdement", "pos": "adv", "ipa": "luʁ.də.mɑ̃", "en": "heavily", "def": "Avec tout son poids, sans grâce.", "def_en": "With all one's weight, without grace.", "examples": [
+      {"fr": "Hugo se laisse tomber **lourdement** dans l'herbe.", "en": "Hugo drops heavily onto the grass."},
+      {"fr": "Le camion avance **lourdement** dans la boue.", "en": "The lorry moves heavily through the mud."},
+      {"fr": "Elle pose **lourdement** son sac sur la table.", "en": "She puts her bag down heavily on the table."}]},
+    {"id": "desesperement", "fr": "désespérément", "pos": "adv", "ipa": "de.zɛs.pe.ʁe.mɑ̃", "en": "desperately", "def": "Avec beaucoup d'angoisse, comme si tout était perdu.", "def_en": "With great anguish, as if all were lost.", "examples": [
+      {"fr": "Il cherche **désespérément** la ligne d'arrivée des yeux.", "en": "He looks desperately for the finish line."},
+      {"fr": "Hugo cherche **désespérément** ses lunettes… qui sont sur sa tête.", "en": "Hugo is desperately looking for his glasses… which are on his head."},
+      {"fr": "Elle attend **désespérément** un appel.", "en": "She is desperately waiting for a call."}]},
+    {"id": "betement", "fr": "bêtement", "pos": "adv", "ipa": "bɛt.mɑ̃", "en": "stupidly, foolishly", "def": "D'une manière stupide, sans réfléchir.", "def_en": "In a stupid way, without thinking.", "examples": [
+      {"fr": "Hugo a failli tout perdre **bêtement**.", "en": "Hugo nearly lost everything stupidly."},
+      {"fr": "J'ai **bêtement** oublié mes clés.", "en": "I stupidly forgot my keys."},
+      {"fr": "Ils se sont disputés **bêtement**, pour un parapluie.", "en": "They quarrelled foolishly, over an umbrella."}]},
+    {"id": "brutalement", "fr": "brutalement", "pos": "adv", "ipa": "bʁy.tal.mɑ̃", "en": "suddenly, abruptly; brutally", "def": "Tout d'un coup, sans prévenir ; avec violence.", "def_en": "All of a sudden, without warning; with violence.", "examples": [
+      {"fr": "Au neuvième kilomètre, il accélère **brutalement**.", "en": "At the ninth kilometre, he suddenly speeds up."},
+      {"fr": "La voiture freine **brutalement**.", "en": "The car brakes abruptly."},
+      {"fr": "Il l'a quittée **brutalement**, par un simple message.", "en": "He left her brutally, with a mere text."}]},
+    {"id": "longuement", "fr": "longuement", "pos": "adv", "ipa": "lɔ̃ɡ.mɑ̃", "en": "at length, for a long time", "def": "En prenant tout son temps, sans aller vite.", "def_en": "Taking all one's time, without going fast.", "examples": [
+      {"fr": "Madame Dupont s'étire **longuement** à l'arrivée.", "en": "Madame Dupont stretches at length at the finish."},
+      {"fr": "Sophie regarde **longuement** le tableau avant de parler.", "en": "Sophie looks at the painting for a long time before speaking."},
+      {"fr": "Le professeur explique **longuement** la règle.", "en": "The teacher explains the rule at length."}]},
+    {"id": "gravement", "fr": "gravement", "pos": "adv", "ipa": "ɡʁav.mɑ̃", "en": "seriously, gravely; solemnly", "def": "D'un air très sérieux ; de façon dangereuse (malade, blessé).", "def_en": "With a very serious air; dangerously (ill, injured).", "examples": [
+      {"fr": "Lou lui remet **gravement** une médaille en chocolat.", "en": "Lou solemnly hands him a chocolate medal."},
+      {"fr": "Le conducteur est **gravement** blessé.", "en": "The driver is seriously injured."},
+      {"fr": "Le médecin parle **gravement** à la famille.", "en": "The doctor speaks gravely to the family."}]},
+    {"id": "personnellement", "fr": "personnellement", "pos": "adv", "ipa": "pɛʁ.sɔ.nɛl.mɑ̃", "en": "personally", "def": "En ce qui me concerne, pour ma part ; soi-même, sans passer par un autre.", "def_en": "As far as I'm concerned, for my part; oneself, not through someone else.", "examples": [
+      {"fr": "**Personnellement**, je n'y croyais pas.", "en": "Personally, I didn't believe it."},
+      {"fr": "**Personnellement**, je préfère le thé.", "en": "Personally, I prefer tea."},
+      {"fr": "Le directeur est venu **personnellement** nous dire merci.", "en": "The director came personally to thank us."}]},
+    {"id": "infiniment", "fr": "infiniment", "pos": "adv", "ipa": "ɛ̃.fi.ni.mɑ̃", "en": "infinitely; (merci infiniment) thank you so much", "def": "Sans limite ; énormément.", "def_en": "Without limit; enormously.", "note": "*Merci infiniment* = thank you so much.", "examples": [
+      {"fr": "Merci **infiniment**, Carla.", "en": "Thank you so much, Carla."},
+      {"fr": "Je vous suis **infiniment** [reconnaissant|reconnaissant].", "en": "I'm infinitely grateful to you."},
+      {"fr": "Le ciel paraît **infiniment** grand, la nuit.", "en": "The sky looks infinitely big at night."}]},
+    {"id": "drolement", "fr": "drôlement", "pos": "adv", "ipa": "dʁol.mɑ̃", "en": "awfully, really (informal); oddly", "def": "Très, beaucoup (familier) ; d'une manière étrange.", "def_en": "Very, a lot (informal); in a strange way.", "examples": [
+      {"fr": "Tu es **drôlement** en forme, dis donc !", "en": "You're in really good shape, wow!"},
+      {"fr": "Il fait **drôlement** froid ce matin.", "en": "It's awfully cold this morning."},
+      {"fr": "Elle me regarde **drôlement** : j'ai quelque chose sur le nez ?", "en": "She's looking at me oddly: have I got something on my nose?"}]},
+    {"id": "fortement", "fr": "fortement", "pos": "adv", "ipa": "fɔʁ.tə.mɑ̃", "en": "strongly, highly", "def": "Beaucoup, en insistant ; avec énergie.", "def_en": "A lot, insisting; energetically.", "examples": [
+      {"fr": "Je te conseille **fortement** de boire de l'eau avant de parler.", "en": "I strongly advise you to drink some water before talking."},
+      {"fr": "Le prix de l'essence a **fortement** augmenté.", "en": "The price of petrol has risen sharply."},
+      {"fr": "Il est **fortement** déconseillé de nager ici.", "en": "Swimming here is strongly advised against."}]},
+    {"id": "gaiement", "fr": "gaiement", "pos": "adv", "ipa": "ɡɛ.mɑ̃", "en": "cheerfully, merrily", "def": "Avec joie, de bonne humeur.", "def_en": "With joy, in a good mood.", "examples": [
+      {"fr": "Lou agite **gaiement** la pancarte devant chaque coureur.", "en": "Lou cheerfully waves the sign at every runner."},
+      {"fr": "Les enfants chantent **gaiement** dans la voiture.", "en": "The children sing merrily in the car."},
+      {"fr": "Elle nous salue **gaiement** de la fenêtre.", "en": "She waves to us cheerfully from the window."}]},
+    {"id": "librement", "fr": "librement", "pos": "adv", "ipa": "li.bʁə.mɑ̃", "en": "freely", "def": "Sans être gêné ni arrêté ; comme on veut.", "def_en": "Without being hindered or stopped; as one wishes.", "examples": [
+      {"fr": "Les coureurs courent **librement** au milieu des boulevards.", "en": "The runners run freely down the middle of the boulevards."},
+      {"fr": "Ici, on peut parler **librement**.", "en": "Here, you can speak freely."},
+      {"fr": "Les poules se promènent **librement** dans le pré.", "en": "The hens roam freely in the meadow."}]},
+    {"id": "curieusement", "fr": "curieusement", "pos": "adv", "ipa": "ky.ʁjøz.mɑ̃", "en": "curiously, strangely enough", "def": "Chose étrange ; d'une manière qui surprend.", "def_en": "Strange to say; in a way that surprises.", "examples": [
+      {"fr": "**Curieusement**, c'est elle qui a les larmes aux yeux.", "en": "Curiously, she's the one with tears in her eyes."},
+      {"fr": "**Curieusement**, le magasin est fermé un samedi.", "en": "Strangely enough, the shop is closed on a Saturday."},
+      {"fr": "**Curieusement**, il n'a jamais vu la mer.", "en": "Curiously, he has never seen the sea."}]},
+    {"id": "bizarrement", "fr": "bizarrement", "pos": "adv", "ipa": "bi.zaʁ.mɑ̃", "en": "oddly, weirdly", "def": "De façon étrange, pas normale.", "def_en": "In a strange, abnormal way.", "examples": [
+      {"fr": "**Bizarrement**, il n'a même pas [mal|mal] aux jambes.", "en": "Oddly, his legs don't even hurt."},
+      {"fr": "Il s'habille **bizarrement** aujourd'hui.", "en": "He's dressed weirdly today."},
+      {"fr": "**Bizarrement**, le chat n'a pas faim ce soir.", "en": "Oddly, the cat isn't hungry tonight."}]},
+    {"id": "naguere", "fr": "naguère", "pos": "adv", "ipa": "na.ɡɛʁ", "en": "formerly, not long ago (literary)", "def": "Il n'y a pas si longtemps ; autrefois (mot de la langue écrite).", "def_en": "Not so long ago; in the past (a word of the written language).", "examples": [
+      {"fr": "**Naguère**, Hugo ne courait que pour attraper le bus.", "en": "Not so long ago, Hugo only ran to catch the bus."},
+      {"fr": "Ce quartier, **naguère** très calme, est plein de touristes.", "en": "This neighbourhood, formerly very quiet, is full of tourists."},
+      {"fr": "On écrivait **naguère** ses lettres à la main.", "en": "Not long ago, people wrote letters by hand."}]},
+    {"id": "contrairement-a", "fr": "contrairement à", "pos": "prep", "ipa": "kɔ̃.tʁɛʁ.mɑ̃.a", "en": "contrary to, unlike", "def": "À l'opposé de ce qui se passe pour quelqu'un ou quelque chose.", "def_en": "The opposite of what happens with someone or something.", "note": "*Contrairement à toi* = unlike you.", "forms": ["contrairement au", "contrairement aux"], "examples": [
+      {"fr": "**Contrairement à** la dernière fois, pas de chocolat chaud au cinquième kilomètre !", "en": "Unlike last time, no hot chocolate at the fifth kilometre!"},
+      {"fr": "**Contrairement aux** apparences, il est très timide.", "en": "Contrary to appearances, he's very shy."},
+      {"fr": "**Contrairement à** ce qu'on dit, il ne pleut pas tout le temps à Lyon.", "en": "Contrary to what people say, it doesn't rain all the time in Lyon."}]},
+    {"id": "vaguement", "fr": "vaguement", "pos": "adv", "ipa": "vaɡ.mɑ̃", "en": "vaguely", "def": "D'une manière pas claire, pas [précise|precis].", "def_en": "In a way that isn't clear or precise.", "examples": [
+      {"fr": "**Vaguement**. Je me souviens surtout de la fin.", "en": "Vaguely. Mostly I remember the end."},
+      {"fr": "Ce visage me dit **vaguement** quelque chose.", "en": "That face looks vaguely familiar."},
+      {"fr": "Il a répondu **vaguement**, sans donner de date.", "en": "He answered vaguely, without giving a date."}]},
+    {"id": "sitot", "fr": "sitôt", "pos": "adv", "ipa": "si.to", "en": "as soon as (+ participle or noun); (pas de sitôt) not for a while", "def": "Juste après, dès que la chose est faite.", "def_en": "Right after, as soon as the thing is done.", "note": "*Pas de sitôt* = not for a while. Not to be confused with *si tôt* (so early).", "examples": [
+      {"fr": "**Sitôt** la ligne [passée|passer], Hugo se laisse tomber dans l'herbe.", "en": "As soon as he crosses the line, Hugo drops onto the grass."},
+      {"fr": "**Sitôt** [arrivé|arriver] à la maison, Tom prend sa guitare.", "en": "As soon as he gets home, Tom picks up his guitar."},
+      {"fr": "Le marathon ? Hugo n'en courra pas un de **sitôt** !", "en": "The marathon? Hugo won't be running one for a while!"}]},
+    {"id": "quasi", "fr": "quasi", "pos": "adv", "ipa": "ka.zi", "en": "almost, nearly (formal)", "def": "Presque, à peu de chose près.", "def_en": "Almost, more or less.", "note": "Also *quasiment*, more common in speech.", "examples": [
+      {"fr": "Il y a deux ans, c'était **quasi** impossible.", "en": "Two years ago, it was almost impossible."},
+      {"fr": "La salle est **quasi** [vide|vide] à midi.", "en": "The room is nearly empty at noon."},
+      {"fr": "Il pleut **quasi** tous les jours en novembre.", "en": "It rains nearly every day in November."}]},
+    {"id": "nullement", "fr": "nullement", "pos": "adv", "ipa": "nyl.mɑ̃", "en": "not at all, in no way (formal; with ne)", "def": "Pas du tout, en aucune façon (avec « ne »).", "def_en": "Not at all, in no way (with ne).", "examples": [
+      {"fr": "Je ne suis **nullement** fatigué.", "en": "I'm not in the least tired."},
+      {"fr": "Je n'ai **nullement** l'intention de partir.", "en": "I have no intention whatsoever of leaving."},
+      {"fr": "Votre question ne me dérange **nullement**.", "en": "Your question doesn't bother me in the slightest."}]}
+  ],
+  "story": {
+    "title": "Moins d'une heure",
+    "en": "Under an hour",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche premier mai, on vend du muguet à tous les coins de rue, et les rues du centre de Lyon sont fermées aux voitures : c'est la course des dix kilomètres.", "en": "On Sunday 1 May, lily of the valley is sold on every street corner, and the streets of central Lyon are closed to cars: it's the ten-kilometre race."},
+      {"sp": "", "fr": "Hugo, son dossard sur la poitrine, regarde la ligne de départ. Naguère, il ne courait que pour attraper le bus. Il y a deux ans, sur la même course, il a mis une heure et demie.", "en": "Hugo, his number on his chest, looks at the start line. Not so long ago, he only ran to catch the bus. Two years ago, in the same race, he took an hour and a half."},
+      {"sp": "", "fr": "Au bord de la route, Léa et Lou tiennent une pancarte : « Moins d'une heure, Hugo ! » Lou, en vacances à Lyon depuis la veille, l'agite gaiement devant chaque coureur.", "en": "At the roadside, Léa and Lou are holding a sign: 'Under an hour, Hugo!' Lou, on holiday in Lyon since the day before, cheerfully waves it at every runner."},
+      {"sp": "Léa", "fr": "Il y a deux ans, sur ma pancarte, c'était : « Pas de chocolat avant l'arrivée ! » Tu te souviens ?", "en": "Two years ago, my sign said: 'No chocolate before the finish!' Do you remember?"},
+      {"sp": "Hugo", "fr": "Vaguement. Je me souviens surtout de la fin : j'avais mal partout.", "en": "Vaguely. Mostly I remember the end: I ached all over."},
+      {"sp": "Léa", "fr": "Tu es drôlement en forme, dis donc !", "en": "You're in really good shape, wow!"},
+      {"sp": "", "fr": "C'est vrai : il s'est entraîné durement. Course le dimanche avec Carla, [cours|cours] de natation le mardi soir…", "en": "It's true: he has trained hard. Running on Sundays with Carla, swimming lessons on Tuesday evenings…"},
+      {"sp": "Hugo", "fr": "Et j'ai aussi couru secrètement à l'aube. Carla n'en sait rien !", "en": "And I also ran secretly at dawn. Carla knows nothing about it!"},
+      {"sp": "Léa", "fr": "Secrètement ? Tu l'as raconté à tout le monde.", "en": "Secretly? You told everyone."},
+      {"sp": "Hugo", "fr": "Physiquement, je suis prêt. Dans ma tête, beaucoup moins.", "en": "Physically, I'm ready. In my head, much less so."},
+      {"sp": "Carla", "fr": "Contrairement à la dernière fois, pas de chocolat chaud au cinquième kilomètre !", "en": "Unlike last time, no hot chocolate at the fifth kilometre!"},
+      {"sp": "", "fr": "Le départ est donné. Sans une seule voiture, les coureurs courent librement au milieu des boulevards.", "en": "The race starts. Without a single car, the runners run freely down the middle of the boulevards."},
+      {"sp": "", "fr": "Au septième kilomètre, Hugo trébuche sur un lacet défait : il a failli tout perdre bêtement.", "en": "At the seventh kilometre, Hugo trips over an undone shoelace: he nearly lost everything stupidly."},
+      {"sp": "", "fr": "Dans le parc de la Tête d'Or, au neuvième kilomètre, il accélère brutalement. Dans les derniers mètres, son cœur bat violemment.", "en": "In the Parc de la Tête d'Or, at the ninth kilometre, he suddenly speeds up. In the last few metres, his heart pounds violently."},
+      {"sp": "", "fr": "Il cherche désespérément la ligne d'arrivée des yeux. Carla court à côté de lui et, au dernier moment, le laisse passer.", "en": "He looks desperately for the finish line. Carla runs beside him and, at the last moment, lets him go ahead."},
+      {"sp": "", "fr": "Madame Dupont, qui a fini bien avant eux, s'étire longuement à l'arrivée, un chronomètre à la main.", "en": "Madame Dupont, who finished well ahead of them, is stretching at length at the finish, a stopwatch in her hand."},
+      {"sp": "Madame Dupont", "fr": "Cinquante-huit minutes ! Personnellement, je n'y croyais pas.", "en": "Fifty-eight minutes! Personally, I didn't believe it."},
+      {"sp": "", "fr": "Curieusement, c'est elle qui a les larmes aux yeux.", "en": "Curiously, she's the one with tears in her eyes."},
+      {"sp": "", "fr": "Sitôt la ligne [passée|passer], Hugo se laisse tomber lourdement dans l'herbe.", "en": "As soon as he crosses the line, Hugo drops heavily onto the grass."},
+      {"sp": "Léa", "fr": "Moins d'une heure ! Il y a deux ans, c'était quasi impossible.", "en": "Under an hour! Two years ago, it was almost impossible."},
+      {"sp": "Hugo", "fr": "Je ne suis nullement fatigué. Je pourrais repartir tout de suite.", "en": "I'm not in the least tired. I could set off again right away."},
+      {"sp": "", "fr": "Lou s'approche et, gravement, lui remet une médaille en chocolat.", "en": "Lou comes over and solemnly hands him a chocolate medal."},
+      {"sp": "Hugo", "fr": "Merci, Lou ! Et merci infiniment, Carla. Sans nos dimanches, je n'y serais jamais arrivé.", "en": "Thanks, Lou! And thank you so much, Carla. Without our Sundays, I'd never have made it."},
+      {"sp": "Carla", "fr": "Je te conseille fortement de boire de l'eau avant de parler. Et l'année prochaine, c'est le marathon !", "en": "I strongly advise you to drink some water before talking. And next year, it's the marathon!"},
+      {"sp": "", "fr": "Hugo sourit faiblement. Bizarrement, il n'a même pas [mal|mal] aux jambes : la natation, peut-être.", "en": "Hugo smiles weakly. Oddly, his legs don't even hurt: the swimming, maybe."}
+    ]
+  }
+}

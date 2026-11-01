@@ -1,0 +1,143 @@
+{
+  "id": "u56-noms",
+  "type": "vocab",
+  "unit": 56,
+  "title": "Deux médailles dans la vitrine",
+  "en": "Common nouns (12)",
+  "intro": "25 common nouns: the bakery and the contest (**le labo, la marchandise, le moulin, le fouet, le casier, l'édition, la prime, la stupeur, le tremblement, l'info, le petit-fils, le croissant, la baguette**), the glass case in the window (**le couvercle, le crochet, la saleté, la sonnette**), Margot the magpie in the street (**le feuillage, la flaque, le pavé, la miette, la bille, la manie, le brin**), and **le bistrot** for the celebration.",
+  "words": [
+    {"id": "labo", "fr": "labo", "pos": "noun", "g": "m", "ipa": "la.bo", "en": "lab; (a baker's) workroom", "def": "Une pièce où l'on fait des expériences ; chez un artisan, la pièce où l'on prépare ce qu'on vend.", "def_en": "A room where experiments are done; at a craftsman's, the room where the goods for sale are made.", "note": "Short for *laboratoire*.", "forms": ["labos"], "examples": [
+      {"fr": "À quatre heures du matin, Enzo est déjà dans le **labo**.", "en": "At four in the morning, Enzo is already in the workroom."},
+      {"fr": "Les résultats du **labo** arrivent demain.", "en": "The lab results come tomorrow."},
+      {"fr": "Les clients n'entrent pas dans le **labo**.", "en": "Customers don't go into the workroom."}]},
+    {"id": "marchandise", "fr": "marchandise", "pos": "noun", "g": "f", "ipa": "maʁ.ʃɑ̃.diz", "en": "goods, merchandise", "def": "Les produits qu'on achète et qu'on vend ; ce qu'un magasin reçoit pour le vendre.", "def_en": "The products that are bought and sold; what a shop receives to sell.", "forms": ["marchandises"], "examples": [
+      {"fr": "Le livreur dépose la **marchandise** devant la porte.", "en": "The delivery man drops the goods in front of the door."},
+      {"fr": "Les **marchandises** arrivent par bateau.", "en": "The goods arrive by boat."},
+      {"fr": "Merci de ne pas toucher la **marchandise**.", "en": "Please do not touch the goods."}]},
+    {"id": "bistrot", "fr": "bistrot", "pos": "noun", "g": "m", "ipa": "bis.tʁo", "en": "bistro, café-bar", "def": "Un petit café simple où l'on boit un verre, et où l'on mange parfois.", "def_en": "A small, simple café where you have a drink, and sometimes a meal.", "forms": ["bistrots"], "examples": [
+      {"fr": "Le soir, tout le monde [fête|feter] la victoire au **bistrot** d'en face.", "en": "In the evening, everyone celebrates the victory at the bistro across the street."},
+      {"fr": "On se retrouve au **bistrot** du coin ?", "en": "Shall we meet at the bistro on the corner?"},
+      {"fr": "Ce **bistrot** sert un bon plat du jour.", "en": "This bistro serves a good dish of the day."}]},
+    {"id": "salete", "fr": "saleté", "pos": "noun", "g": "f", "ipa": "sal.te", "en": "dirt, filth; (une saleté) a speck of dirt", "def": "Ce qui empêche une chose d'être propre : la poussière, la boue, les taches.", "def_en": "What keeps a thing from being clean: dust, mud, stains.", "forms": ["saletés"], "examples": [
+      {"fr": "Il ne reste pas une **saleté** sur la vitre.", "en": "There isn't a speck of dirt left on the glass."},
+      {"fr": "Quelle **saleté**, cette cuisine !", "en": "How filthy this kitchen is!"},
+      {"fr": "Le chien ramène des **saletés** du jardin.", "en": "The dog brings dirt in from the garden."}]},
+    {"id": "pave", "fr": "pavé", "pos": "noun", "g": "m", "ipa": "pa.ve", "en": "cobblestone, paving stone", "def": "Une pierre carrée qui couvre le sol de certaines rues anciennes.", "def_en": "A square stone that covers the ground of some old streets.", "note": "*Un pavé* is also a very thick book (informal).", "forms": ["pavés"], "examples": [
+      {"fr": "Margot saute d'un **pavé** à l'autre.", "en": "Margot hops from one cobblestone to the next."},
+      {"fr": "Le vélo tremble sur les **pavés**.", "en": "The bike shakes on the cobbles."},
+      {"fr": "Attention, les **pavés** glissent quand il pleut.", "en": "Careful, the cobbles are slippery when it rains."}]},
+    {"id": "tremblement", "fr": "tremblement", "pos": "noun", "g": "m", "ipa": "tʁɑ̃.blə.mɑ̃", "en": "trembling, shaking, tremor", "def": "Le fait de bouger un peu sans le vouloir, à cause du froid, de la peur ou d'une émotion.", "def_en": "Moving slightly without meaning to, because of cold, fear or an emotion.", "note": "*Un tremblement de terre* = an earthquake.", "forms": ["tremblements"], "examples": [
+      {"fr": "Il y a un **tremblement** dans sa voix quand il dit merci.", "en": "There's a tremor in his voice when he says thank you."},
+      {"fr": "Un **tremblement** de terre a secoué la région.", "en": "An earthquake shook the region."},
+      {"fr": "Le **tremblement** de ses mains montre sa peur.", "en": "The shaking of her hands shows her fear."}]},
+    {"id": "flaque", "fr": "flaque", "pos": "noun", "g": "f", "ipa": "flak", "en": "puddle", "def": "Un peu d'eau qui reste par terre, dans un creux, après la pluie.", "def_en": "A little water left on the ground, in a hollow, after the rain.", "forms": ["flaques"], "examples": [
+      {"fr": "Margot prend un bain dans une **flaque**.", "en": "Margot takes a bath in a puddle."},
+      {"fr": "Les enfants sautent dans les **flaques**.", "en": "The children jump in the puddles."},
+      {"fr": "Attention à la **flaque** devant la porte !", "en": "Mind the puddle in front of the door!"}]},
+    {"id": "fouet", "fr": "fouet", "pos": "noun", "g": "m", "ipa": "fwɛ", "en": "whisk; whip", "def": "Un outil de cuisine en métal, pour battre les œufs ou la crème ; une longue corde avec un manche, pour frapper.", "def_en": "A metal kitchen tool for beating eggs or cream; a long cord with a handle, for striking.", "forms": ["fouets"], "examples": [
+      {"fr": "Madame Fournier agite son **fouet** comme un drapeau.", "en": "Madame Fournier waves her whisk like a flag."},
+      {"fr": "Bats la crème au **fouet**.", "en": "Whip the cream with a whisk."},
+      {"fr": "Un bon cavalier n'a pas besoin de **fouet**.", "en": "A good rider doesn't need a whip."}]},
+    {"id": "moulin", "fr": "moulin", "pos": "noun", "g": "m", "ipa": "mu.lɛ̃", "en": "mill", "def": "Un bâtiment où l'on écrase le blé pour faire de la farine ; un petit appareil pour écraser le café ou le poivre.", "def_en": "A building where wheat is crushed to make flour; a small device for grinding coffee or pepper.", "note": "*Un moulin à vent* = a windmill.", "forms": ["moulins"], "examples": [
+      {"fr": "La farine vient d'un petit **moulin** d'Ardèche.", "en": "The flour comes from a little mill in the Ardèche."},
+      {"fr": "Il y a un vieux **moulin** à vent sur la colline.", "en": "There's an old windmill on the hill."},
+      {"fr": "Passe-moi le **moulin** à poivre.", "en": "Pass me the pepper mill."}]},
+    {"id": "crochet", "fr": "crochet", "pos": "noun", "g": "m", "ipa": "kʁɔ.ʃɛ", "en": "hook", "def": "Un petit morceau de métal plié, fixé au mur, où l'on suspend des choses.", "def_en": "A small bent piece of metal, fixed to the wall, that things are hung on.", "note": "*Faire un crochet* = to make a detour.", "forms": ["crochets"], "examples": [
+      {"fr": "La clé ne reste plus sur son **crochet**.", "en": "The key no longer stays on its hook."},
+      {"fr": "Accroche ta veste au **crochet**.", "en": "Hang your jacket on the hook."},
+      {"fr": "Les casseroles pendent à des **crochets** au-dessus du four.", "en": "The saucepans hang from hooks above the oven."}]},
+    {"id": "edition", "fr": "édition", "pos": "noun", "g": "f", "ipa": "e.di.sjɔ̃", "en": "edition", "def": "Chaque fois qu'un concours ou un festival a lieu ; aussi tous les livres imprimés en même temps.", "def_en": "Each time a contest or a festival takes place; also all the books printed at the same time.", "forms": ["éditions"], "examples": [
+      {"fr": "Enzo a gagné cette **édition** du concours.", "en": "Enzo won this year's edition of the contest."},
+      {"fr": "La première **édition** du festival date de 1990.", "en": "The first edition of the festival dates from 1990."},
+      {"fr": "J'ai une vieille **édition** de ce roman.", "en": "I have an old edition of this novel."}]},
+    {"id": "casier", "fr": "casier", "pos": "noun", "g": "m", "ipa": "ka.zje", "en": "locker; pigeonhole", "def": "Une petite armoire, ou une place sur une étagère, où chacun range ses affaires.", "def_en": "A small cupboard, or a space on a shelf, where each person keeps their things.", "note": "*Un casier judiciaire* = a criminal record.", "forms": ["casiers"], "examples": [
+      {"fr": "Enzo range son diplôme dans son **casier**.", "en": "Enzo puts his diploma away in his locker."},
+      {"fr": "Au lycée, chaque élève a un **casier**.", "en": "At secondary school, every pupil has a locker."},
+      {"fr": "Le facteur met le courrier dans les **casiers**.", "en": "The postman puts the mail in the pigeonholes."}]},
+    {"id": "prime", "fr": "prime", "pos": "noun", "g": "f", "ipa": "pʁim", "en": "bonus; prize money", "def": "Une somme d'argent qu'on reçoit en plus, comme récompense.", "def_en": "A sum of money received on top, as a reward.", "note": "*En prime* = as a bonus, on top of that.", "forms": ["primes"], "examples": [
+      {"fr": "Avec sa **prime**, Enzo veut s'acheter un vélo.", "en": "With his prize money, Enzo wants to buy himself a bike."},
+      {"fr": "Tous les employés ont reçu une **prime** à Noël.", "en": "All the employees got a bonus at Christmas."},
+      {"fr": "Le gagnant reçoit une **prime** de mille euros.", "en": "The winner receives a thousand euros in prize money."}]},
+    {"id": "miette", "fr": "miette", "pos": "noun", "g": "f", "ipa": "mjɛt", "en": "crumb", "def": "Un tout petit morceau qui tombe du pain ou d'un gâteau.", "def_en": "A tiny piece that falls off bread or a cake.", "forms": ["miettes"], "examples": [
+      {"fr": "Margot mange les **miettes** sur le trottoir.", "en": "Margot eats the crumbs on the pavement."},
+      {"fr": "Il y a des **miettes** partout sur la table.", "en": "There are crumbs all over the table."},
+      {"fr": "Les pigeons attendent la moindre **miette**.", "en": "The pigeons wait for the slightest crumb."}]},
+    {"id": "sonnette", "fr": "sonnette", "pos": "noun", "g": "f", "ipa": "sɔ.nɛt", "en": "(door)bell", "def": "Un petit appareil qui fait du bruit quand on appuie dessus, à une porte ou sur un vélo.", "def_en": "A small device that makes a noise when you press it, on a door or a bike.", "forms": ["sonnettes"], "examples": [
+      {"fr": "Tout l'après-midi, la **sonnette** de la porte ne s'arrête pas.", "en": "All afternoon, the doorbell doesn't stop."},
+      {"fr": "Appuie sur la **sonnette** du deuxième étage.", "en": "Press the bell for the second floor."},
+      {"fr": "La **sonnette** de mon vélo ne fonctionne plus.", "en": "The bell on my bike doesn't work any more."}]},
+    {"id": "stupeur", "fr": "stupeur", "pos": "noun", "g": "f", "ipa": "sty.pœʁ", "en": "astonishment, stupor", "def": "Un très grand étonnement, qui empêche de bouger ou de parler.", "def_en": "A very great surprise, which stops you from moving or speaking.", "examples": [
+      {"fr": "Enzo reste muet de **stupeur**.", "en": "Enzo is struck dumb with astonishment."},
+      {"fr": "À la **stupeur** générale, le favori a perdu.", "en": "To everyone's astonishment, the favourite lost."},
+      {"fr": "Elle regarde la lettre avec **stupeur**.", "en": "She looks at the letter in astonishment."}]},
+    {"id": "manie", "fr": "manie", "pos": "noun", "g": "f", "ipa": "ma.ni", "en": "habit, quirk; mania", "def": "Une habitude un peu bizarre, qu'on a toujours et qu'on ne peut pas s'empêcher de suivre.", "def_en": "A slightly odd habit that you always have and can't help following.", "forms": ["manies"], "examples": [
+      {"fr": "Margot a toujours la même **manie** : tout ce qui brille.", "en": "Margot always has the same quirk: anything that shines."},
+      {"fr": "Il a la **manie** de tout ranger par couleur.", "en": "He has a habit of sorting everything by colour."},
+      {"fr": "Quelle **manie** d'arriver toujours en retard !", "en": "What a habit, always arriving late!"}]},
+    {"id": "couvercle", "fr": "couvercle", "pos": "noun", "g": "m", "ipa": "ku.vɛʁkl", "en": "lid", "def": "Ce qu'on pose sur une boîte ou une casserole pour la fermer.", "def_en": "What you put on a box or a saucepan to close it.", "forms": ["couvercles"], "examples": [
+      {"fr": "Elle soulève le **couvercle** de verre de la vitrine.", "en": "She lifts the glass lid of the case."},
+      {"fr": "Mets un **couvercle** sur la casserole.", "en": "Put a lid on the saucepan."},
+      {"fr": "Je n'arrive pas à ouvrir le **couvercle** de ce pot.", "en": "I can't get the lid of this jar open."}]},
+    {"id": "bille", "fr": "bille", "pos": "noun", "g": "f", "ipa": "bij", "en": "marble (glass ball); ball (of a pen)", "def": "Une petite boule de verre avec laquelle les enfants jouent.", "def_en": "A small glass ball that children play with.", "note": "*Un stylo à bille* = a ballpoint pen.", "forms": ["billes"], "examples": [
+      {"fr": "Margot repart avec une **bille** de verre.", "en": "Margot leaves with a glass marble."},
+      {"fr": "Les enfants jouent aux **billes** dans la cour.", "en": "The children play marbles in the playground."},
+      {"fr": "Tu me prêtes ton stylo à **bille** ?", "en": "Will you lend me your ballpoint pen?"}]},
+    {"id": "brin", "fr": "brin", "pos": "noun", "g": "m", "ipa": "bʁɛ̃", "en": "blade, sprig, strand; (un brin de) a bit of", "def": "Un petit morceau long et [fin|fin] d'herbe ou de plante ; un tout petit peu de quelque chose.", "def_en": "A small, long, thin piece of grass or a plant; a tiny bit of something.", "forms": ["brins"], "examples": [
+      {"fr": "Enzo répond avec un **brin** de fierté.", "en": "Enzo answers with a touch of pride."},
+      {"fr": "L'oiseau rapporte un **brin** d'herbe dans son bec.", "en": "The bird brings back a blade of grass in its beak."},
+      {"fr": "Il faut un **brin** de chance.", "en": "You need a bit of luck."}]},
+    {"id": "info", "fr": "info", "pos": "noun", "g": "f", "ipa": "ɛ̃.fo", "en": "piece of news, info; (les infos) the news", "def": "Un renseignement, une nouvelle ; au pluriel, le journal à la télé ou à la radio.", "def_en": "A piece of information, some news; in the plural, the news on TV or the radio.", "note": "Short for *information*.", "forms": ["infos"], "examples": [
+      {"fr": "Le soir même, Enzo passe aux **infos** régionales.", "en": "That very evening, Enzo is on the regional news."},
+      {"fr": "Merci pour l'**info** !", "en": "Thanks for the info!"},
+      {"fr": "Tu as écouté les **infos** ce matin ?", "en": "Did you listen to the news this morning?"}]},
+    {"id": "feuillage", "fr": "feuillage", "pos": "noun", "g": "m", "ipa": "fœ.jaʒ", "en": "foliage, leaves", "def": "Tout ce qui est vert sur les branches d'un arbre, pris ensemble.", "def_en": "All the green on a tree's branches, taken together.", "forms": ["feuillages"], "examples": [
+      {"fr": "Margot se cache dans le **feuillage** de l'arbre.", "en": "Margot hides in the leaves of the tree."},
+      {"fr": "En automne, le **feuillage** devient rouge.", "en": "In autumn, the foliage turns red."},
+      {"fr": "Le vent fait bouger le **feuillage**.", "en": "The wind stirs the leaves."}]},
+    {"id": "petit-fils", "fr": "petit-fils", "pos": "noun", "g": "m", "manual": true, "ipa": "pə.ti.fis", "en": "grandson", "def": "Un garçon dont on est le grand-père ou la grand-mère.", "def_en": "A boy whose grandfather or grandmother you are.", "forms": ["petits-fils"], "examples": [
+      {"fr": "Mon grand-père et mon **[petit-fils|petit-fils]** : le même pain.", "en": "My grandfather and my grandson: the same bread."},
+      {"fr": "Elle a deux **[petits-fils|petit-fils]** et une petite-fille.", "en": "She has two grandsons and a granddaughter."},
+      {"fr": "Son **[petit-fils|petit-fils]** l'appelle tous les dimanches.", "en": "Her grandson calls her every Sunday."}]},
+    {"id": "croissant", "fr": "croissant", "pos": "noun", "g": "m", "ipa": "kʁwa.sɑ̃", "en": "croissant; crescent", "def": "Une pâtisserie au beurre en forme de lune, qu'on mange au petit déjeuner ; la forme de la lune quand on n'en voit qu'une partie.", "def_en": "A buttery pastry shaped like the moon, eaten at breakfast; the shape of the moon when only part of it can be seen.", "forms": ["croissants"], "examples": [
+      {"fr": "Madame Fournier offre un **croissant** à chaque client.", "en": "Madame Fournier gives every customer a croissant."},
+      {"fr": "Un café et deux **croissants**, s'il vous plaît.", "en": "A coffee and two croissants, please."},
+      {"fr": "Ce soir, la lune n'est qu'un [fin|fin] **croissant**.", "en": "Tonight the moon is only a thin crescent."}]},
+    {"id": "baguette", "fr": "baguette", "pos": "noun", "g": "f", "ipa": "ba.ɡɛt", "en": "baguette (French loaf); stick, wand", "def": "Un pain long et [fin|fin] ; un petit bâton mince.", "def_en": "A long, thin loaf; a small, slender stick.", "note": "*Une baguette magique* = a magic wand; *une baguette de tradition* = a traditional baguette; *des baguettes* = chopsticks.", "forms": ["baguettes"], "examples": [
+      {"fr": "La meilleure **baguette** de tradition de Lyon, c'est celle d'Enzo.", "en": "The best traditional baguette in Lyon is Enzo's."},
+      {"fr": "La fée touche la citrouille avec sa **baguette** magique.", "en": "The fairy touches the pumpkin with her magic wand."},
+      {"fr": "Une **baguette** bien cuite, s'il vous plaît.", "en": "A well-baked baguette, please."}]}
+  ],
+  "story": {
+    "title": "Deux médailles dans la vitrine",
+    "en": "Two medals in the window",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Jeudi douze mai, quatre heures du matin. Comme tous les jours, Enzo est déjà dans le labo, les mains dans la farine.", "en": "Thursday 12 May, four in the morning. As every day, Enzo is already in the workroom, his hands in the flour."},
+      {"sp": "", "fr": "Il ne dit pas un mot : les résultats du concours de la meilleure baguette de tradition de Lyon tombent aujourd'hui.", "en": "He doesn't say a word: the results of the contest for the best traditional baguette in Lyon come out today."},
+      {"sp": "", "fr": "À six heures, le livreur dépose la marchandise. Madame Fournier vérifie les sacs de farine un par un.", "en": "At six, the delivery man drops off the goods. Madame Fournier checks the bags of flour one by one."},
+      {"sp": "", "fr": "La farine vient toujours du même petit moulin, près du village de son grand-père, en Ardèche.", "en": "The flour always comes from the same little mill, near his grandfather's village in the Ardèche."},
+      {"sp": "", "fr": "Dix heures. Le téléphone sonne : c'est le président du jury. Enzo a gagné cette édition du concours !", "en": "Ten o'clock. The phone rings: it's the president of the jury. Enzo has won this year's contest!"},
+      {"sp": "", "fr": "Enzo reste muet de stupeur. Il y a un tremblement dans sa voix quand il dit merci.", "en": "Enzo is struck dumb with astonishment. There's a tremor in his voice when he says thank you."},
+      {"sp": "", "fr": "Madame Fournier agite son fouet comme un drapeau. Tom et Hugo descendent en courant, en chaussons.", "en": "Madame Fournier waves her whisk like a flag. Tom and Hugo come running down in their slippers."},
+      {"sp": "Tom", "fr": "C'est vrai ? Le roi du verlan est le meilleur boulanger de Lyon ?", "en": "Is it true? The king of verlan is the best baker in Lyon?"},
+      {"sp": "Enzo", "fr": "Ouais, l'Anglais. Et le plus jeune gagnant depuis le début du concours.", "en": "Yeah, Englishman. And the youngest winner since the contest began."},
+      {"sp": "", "fr": "À midi, le président du jury apporte la médaille, un diplôme et une prime. Les parents d'Enzo arrivent de Villeurbanne.", "en": "At noon, the president of the jury brings the medal, a diploma and the prize money. Enzo's parents arrive from Villeurbanne."},
+      {"sp": "Hugo", "fr": "Une prime ! Qu'est-ce que tu vas en faire ?", "en": "Prize money! What are you going to do with it?"},
+      {"sp": "Enzo", "fr": "M'acheter un vélo. Et offrir des fleurs à ma grand-mère.", "en": "Buy myself a bike. And give my grandmother some flowers."},
+      {"sp": "Hugo", "fr": "Moi, je la mettrais de côté, jusqu'au dernier centime.", "en": "I'd put it aside, down to the last cent."},
+      {"sp": "Tom", "fr": "Depuis quand tu fais des économies, toi ?", "en": "Since when do you save money?"},
+      {"sp": "", "fr": "Tout l'après-midi, la sonnette de la porte ne s'arrête pas : tout le quartier veut la baguette d'Enzo, et chaque client repart avec un croissant offert.", "en": "All afternoon, the doorbell doesn't stop: the whole neighbourhood wants Enzo's baguette, and every customer leaves with a free croissant."},
+      {"sp": "", "fr": "Enzo range son diplôme dans son casier, puis va le chercher cinq minutes plus tard pour le montrer à tout le monde.", "en": "Enzo puts his diploma away in his locker, then goes to get it five minutes later to show it to everyone."},
+      {"sp": "", "fr": "Madame Fournier frotte la vitre jusqu'à la dernière saleté, puis ouvre la vitrine fermée à clé que l'ébéniste a faite en avril.", "en": "Madame Fournier scrubs the window down to the last speck of dirt, then opens the locked glass case the cabinetmaker made in April."},
+      {"sp": "", "fr": "Elle soulève le couvercle de verre et pose la médaille d'Enzo à côté de celle d'Auguste : la médaille d'un soldat et celle d'un boulanger.", "en": "She lifts the glass lid and puts Enzo's medal beside Auguste's: a soldier's medal and a baker's."},
+      {"sp": "Madame Fournier", "fr": "Mon grand-père et mon [petit-fils|petit-fils]. Un siècle entre les deux, et le même pain.", "en": "My grandfather and my grandson. A century between them, and the same bread."},
+      {"sp": "", "fr": "Cette fois, la clé de la vitrine ne retourne pas sur son crochet : Madame Fournier la [garde|garder] dans sa poche, à cause de Margot.", "en": "This time, the key of the glass case doesn't go back on its hook: Madame Fournier keeps it in her pocket, because of Margot."},
+      {"sp": "", "fr": "Dehors, justement, Margot sort d'un bain dans une flaque, saute d'un pavé à l'autre, puis se cache dans le feuillage de l'arbre.", "en": "Outside, as it happens, Margot comes out of a bath in a puddle, hops from one cobblestone to the next, then hides in the leaves of the tree."},
+      {"sp": "", "fr": "Elle mange les miettes de baguette sur le trottoir et regarde longtemps les deux médailles derrière le verre.", "en": "She eats the baguette crumbs on the pavement and looks at the two medals behind the glass for a long time."},
+      {"sp": "", "fr": "[Faute de|faute-de] médaille, elle repart avec une bille tombée de la poche d'un enfant. Toujours la même manie : tout ce qui brille.", "en": "For lack of a medal, she leaves with a marble dropped from a child's pocket. Always the same quirk: anything that shines."},
+      {"sp": "", "fr": "Le soir même, Enzo passe aux infos régionales, en tablier, avec un brin de fierté dans le regard. Tout le monde [fête|feter] la victoire au bistrot d'en face.", "en": "That very evening, Enzo is on the regional news, in his apron, with a touch of pride in his eyes. Everyone celebrates the victory at the bistro across the street."},
+      {"sp": "Hugo", "fr": "Pour moi, juste de l'eau. C'est pour la natation.", "en": "Just water for me. It's for my swimming."},
+      {"sp": "Tom", "fr": "Bien sûr. Pour la natation.", "en": "Of course. For your swimming."}
+    ]
+  }
+}
