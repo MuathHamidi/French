@@ -1,0 +1,107 @@
+{
+  "id": "u58-sans-article",
+  "type": "grammar",
+  "unit": 58,
+  "title": "Défense de plonger",
+  "en": "Leaving out the article: avec plaisir, un gilet de sauvetage, comme dessert, Défense de plonger, avoir lieu",
+  "intro": "French puts an article before almost every noun, but not when the noun names a kind, a role or a general idea rather than a particular thing. After **avec, sans, par, en**, an abstract noun in a general sense stands alone (*avec plaisir, sans hésitation, en silence*), and a second noun that says what kind of thing it is follows **de, en** or **à** with no article (*un gilet de sauvetage, une tasse en porcelaine, un bateau à moteur*). A role after **comme**, **en tant que** or a name takes none either (*Comme dessert…, En tant que productrice…, Monsieur Lucien, ancien marinier*). Signs, lists and call sheets drop their articles (*Défense de plonger. Accès interdit au public.*), and so do many verb + noun phrases and proverbs (*avoir lieu, prendre part, faire attention, Noblesse oblige*). As soon as an adjective or a complement makes the noun particular, the article comes back: *avec un plaisir immense, sans la moindre peur*.",
+  "cases": [
+    {"id": "sa-abstrait", "label": "avec, sans, par, en + an abstract noun", "rule": "In a general sense, the noun after *avec, sans, par, en* takes no article: *avec plaisir*, *avec prudence*, *sans peur*, *sans hésitation*, *par hasard*, *par amour*, *en colère*, *en silence*. With an adjective or a complement the article comes back: *avec un plaisir immense*, *avec une patience d'ange*, *sans la moindre peur*."},
+    {"id": "sa-complement", "label": "noun + de / en / à + noun: kind, material, purpose", "rule": "The second noun says what kind of thing it is, so it has no article: *un gilet de sauvetage*, *un chauffeur de taxi*, *une salade de tomates*, *une veste en velours*, *une tasse en porcelaine*, *un bateau à moteur*, *une radio à cassettes*. With an article, it is one particular thing: *le gilet du cascadeur* (that stuntman's jacket)."},
+    {"id": "sa-role", "label": "comme, en tant que + noun, and apposition", "rule": "A noun that gives a role or a function has no article after *comme* and *en tant que*: *Comme dessert, Tom apporte un crumble.* *En tant que productrice, Josée signe les chèques.* The same in apposition, after a name: *Hugo, cascadeur et roi de la poubelle.* *Monsieur Lucien, ancien marinier, connaît le fleuve.*"},
+    {"id": "sa-panneaux", "label": "Notices, signs, lists, call sheets and menus", "rule": "Short written texts drop the articles: *Défense de plonger.* *Accès interdit au public.* *Cascade : Hugo.* *Tournage : quai du Rhône, huit heures.* *Entrée, plat, dessert.* A shopping list too: *pain, lait, œufs.*"},
+    {"id": "sa-locutions", "label": "verb + noun with no article, and proverbs", "rule": "Many fixed phrases are a verb + a bare noun: *avoir lieu*, *avoir peur*, *prendre part à*, *faire attention*, *porter plainte*, *rendre service*, *perdre patience*, *faire peur*. Proverbs and set sayings drop articles too: *Noblesse oblige.* *Sans peur et sans reproche.* *Le tournage aura lieu samedi.*"}
+  ],
+  "sections": [
+    {"title": "1. avec, sans, par, en + an abstract noun", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Je viens avec plaisir.", "I'll come with pleasure."],
+      ["Il a trouvé la clé par hasard.", "He found the key by chance."],
+      ["Elle attend avec une patience d'ange.", "She waits with the patience of a saint."]]},
+     "examples": [
+      {"fr": "Donnez-moi vos valises, je les porte {avec plaisir|sa-abstrait} !", "en": "Give me your suitcases, I'll carry them with pleasure!"},
+      {"fr": "Hugo donne son lit au couple {sans hésitation|sa-abstrait} et met des draps propres sur le canapé pour lui.", "en": "Hugo gives his bed to the couple without hesitation and puts clean sheets on the sofa for himself."}],
+     "tip": "Add an adjective or a complement and the article comes back: avec un plaisir immense, sans la moindre hésitation."},
+    {"title": "2. noun + de / en / à + noun", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["un gilet de sauvetage", "a life jacket"],
+      ["une tasse en porcelaine", "a china cup"],
+      ["un bateau à moteur", "a motor boat"]]},
+     "examples": [
+      {"fr": "Et pour moi, du vrai thé, dans {la tasse en porcelaine|sa-complement} que ma mère m'a offerte pour mon anniversaire.", "en": "And for me, real tea, in the china cup my mother gave me for my birthday."},
+      {"fr": "Il y aura {un bateau à moteur|sa-complement} ?", "en": "Will there be a motor boat?"}],
+     "tip": "De gives the kind or the use, en the material, à what makes it work. With an article it is one particular thing: le gilet du cascadeur."},
+    {"title": "3. comme, en tant que + noun, and apposition", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Comme dessert, il y a un crumble.", "For dessert, there's a crumble."],
+      ["En tant que productrice, elle signe les chèques.", "As the producer, she signs the cheques."],
+      ["Monsieur Lucien, ancien marinier, connaît le fleuve.", "Monsieur Lucien, a former bargeman, knows the river."]]},
+     "examples": [
+      {"fr": "{Comme dessert|sa-role}, j'apporte un crumble anglais.", "en": "For dessert, I've brought an English crumble."},
+      {"fr": "{En tant que productrice|sa-role}, c'est moi qui signe les chèques.", "en": "As the producer, I'm the one who signs the cheques."}],
+     "tip": "Comme un dessert would mean like a dessert. In apposition the bare noun simply gives the person's role."},
+    {"title": "4. Notices, signs, lists and menus", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["[Défense de|defense-de] fumer.", "No smoking."],
+      ["Accès interdit au public.", "No public access."],
+      ["[Entrée|entree], plat, dessert : vingt euros.", "Starter, main course, dessert: twenty euros."]]},
+     "examples": [
+      {"fr": "{Tournage : quai du Rhône, huit heures|sa-panneaux}. {Cascade : Hugo|sa-panneaux}.", "en": "Shoot: quai du Rhône, eight o'clock. Stunt: Hugo."},
+      {"fr": "{[Défense de|defense-de] plonger sans gilet|sa-panneaux}. {Accès interdit au public|sa-panneaux}.", "en": "No diving without a life jacket. No public access."}],
+     "tip": "Notices, menus, lists and call sheets keep only what matters: no articles, and often no verb."},
+    {"title": "5. verb + noun with no article, and proverbs", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Le tournage aura lieu samedi.", "The shoot will take place on Saturday."],
+      ["Il prend part à la scène.", "He's taking part in the scene."],
+      ["Noblesse oblige.", "Noblesse oblige."]]},
+     "examples": [
+      {"fr": "Le tournage {aura lieu|sa-locutions} samedi, même s'il pleut.", "en": "The shoot will take place on Saturday, even if it rains."},
+      {"fr": "À la dixième question, Antoine {perd patience|sa-locutions}.", "en": "At the tenth question, Antoine loses patience."}],
+     "tip": "Learn these as single verbs: avoir lieu, prendre part à, faire attention, perdre patience, avoir peur."}
+  ],
+  "mistakes": [
+    {"wrong": "Je viens avec le plaisir !", "right": "Je viens avec plaisir !", "why": "After avec, an abstract noun in a general sense takes no article."},
+    {"wrong": "la salle du bain", "right": "la salle de bains", "why": "The second noun says what kind of room it is: de with no article."},
+    {"wrong": "En tant qu'une productrice, elle paie.", "right": "En tant que productrice, elle paie.", "why": "En tant que + a role takes no article."},
+    {"wrong": "Le tournage aura la place samedi.", "right": "Le tournage aura lieu samedi.", "why": "To take place is avoir lieu, a fixed phrase with no article."}
+  ],
+  "story": {
+    "title": "Défense de plonger",
+    "en": "Thursday 9 June: Antoine and Josée land for the shoot, and the call sheet reads like a telegram.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi neuf juin, dans l'après-midi, Hugo attend aux arrivées de l'aéroport de Lyon.", "en": "Thursday 9 June, in the afternoon: Hugo is waiting at arrivals at Lyon airport."},
+      {"sp": "", "fr": "Antoine arrive de Montréal pour le tournage avec {Josée, productrice de son deuxième film|sa-role} et, depuis octobre, sa copine.", "en": "Antoine is flying in from Montréal for the shoot with Josée, the producer of his second film and, since October, his girlfriend."},
+      {"sp": "Antoine", "fr": "Salut, cousin ! Josée, je te présente {Hugo, cascadeur et roi de la poubelle|sa-role}.", "en": "Hi, cousin! Josée, meet Hugo, stuntman and king of the bin."},
+      {"sp": "Josée", "fr": "Enchantée ! Au festival, tout le monde parlait de toi.", "en": "Nice to meet you! At the festival, everyone was talking about you."},
+      {"sp": "Hugo", "fr": "Donnez-moi vos valises, je les porte {avec plaisir|sa-abstrait} !", "en": "Give me your suitcases, I'll carry them with pleasure!"},
+      {"sp": "", "fr": "Sur l'autoroute, dans la vieille voiture grise de Jacques, Hugo conduit {avec prudence|sa-abstrait} : il a son permis depuis novembre.", "en": "On the motorway, in Jacques's old grey car, Hugo drives with care: he has only had his licence since November."},
+      {"sp": "Antoine", "fr": "Tu peux doubler, [tu sais|tu-sais] ! Moi, je suis {chauffeur de taxi|sa-complement} et je ne freine jamais.", "en": "You can overtake, you know! I'm a taxi driver, and I never brake."},
+      {"sp": "Hugo", "fr": "Pas de GPS, {une radio à cassettes|sa-complement}… Ici, c'est moi le GPS.", "en": "No GPS, a cassette radio… Here, I'm the GPS."},
+      {"sp": "Josée", "fr": "{En tant que productrice|sa-role}, c'est moi qui signe les chèques. Et la péniche, pour samedi ?", "en": "As the producer, I'm the one who signs the cheques. And the barge, for Saturday?"},
+      {"sp": "Hugo", "fr": "C'est celle de {Monsieur Lucien, ancien marinier|sa-role}. Il connaît chaque mètre du Rhône.", "en": "It belongs to Monsieur Lucien, a former bargeman. He knows every metre of the Rhône."},
+      {"sp": "", "fr": "Le soir, chez Hugo, au troisième étage sans ascenseur. Hugo donne son lit au couple {sans hésitation|sa-abstrait} et met des draps propres sur le canapé pour lui.", "en": "That evening, at Hugo's, on the third floor with no lift. Hugo gives his bed to the couple without hesitation and puts clean sheets on the sofa for himself."},
+      {"sp": "Josée", "fr": "Tu nous laisses ton lit ? {Noblesse oblige|sa-locutions} !", "en": "You're leaving us your bed? Noblesse oblige!"},
+      {"sp": "", "fr": "Carla arrive avec le dîner : {une salade de tomates|sa-complement} et une quiche.", "en": "Carla arrives with dinner: a tomato salad and a quiche."},
+      {"sp": "Tom", "fr": "{Comme dessert|sa-role}, j'apporte un crumble anglais. Sans noix, Carla, promis !", "en": "For dessert, I've brought an English crumble. No nuts, Carla, I promise!"},
+      {"sp": "Tom", "fr": "Et pour moi, du vrai thé, dans {la tasse en porcelaine|sa-complement} que ma mère m'a offerte pour mon anniversaire.", "en": "And for me, real tea, in the china cup my mother gave me for my birthday."},
+      {"sp": "", "fr": "Josée imprime le programme du tournage. Hugo le [lit|lire] tout haut, comme un message à la radio.", "en": "Josée prints out the call sheet for the shoot. Hugo reads it aloud, like a message over the radio."},
+      {"sp": "Hugo", "fr": "{Tournage : quai du Rhône, huit heures|sa-panneaux}. {Cascade : Hugo|sa-panneaux}. {Réplique : « Je sais nager ! »|sa-panneaux}", "en": "Shoot: quai du Rhône, eight o'clock. Stunt: Hugo. Line: 'I can swim!'"},
+      {"sp": "Hugo", "fr": "{[Défense de|defense-de] plonger sans gilet|sa-panneaux}. {Accès interdit au public|sa-panneaux}. {Repas : sandwichs|sa-panneaux}. Terminé !", "en": "No diving without a life jacket. No public access. Meals: sandwiches. Over and out!"},
+      {"sp": "Hugo", "fr": "Il y aura {un bateau à moteur|sa-complement} ? Et {le gilet de sauvetage|sa-complement}, il est de quelle couleur ? Ça existe {en velours|sa-complement} ?", "en": "Will there be a motor boat? And the life jacket, what colour is it? Does it come in velvet?"},
+      {"sp": "", "fr": "À la dixième question, Antoine {perd patience|sa-locutions}.", "en": "At the tenth question, Antoine loses patience."},
+      {"sp": "Antoine", "fr": "Tu tombes dans le Rhône, tu cries ta réplique, et les plongeurs te sortent de l'eau. Voilà !", "en": "You fall into the Rhône, you shout your line, and the divers pull you out of the water. That's it!"},
+      {"sp": "Carla", "fr": "{Fais attention|sa-locutions}, c'est tout ce que je te demande.", "en": "Be careful, that's all I ask of you."},
+      {"sp": "Josée", "fr": "Le tournage {aura lieu|sa-locutions} samedi, même s'il pleut. Et toi, tu {prends part à|sa-locutions} la scène la plus drôle du film !", "en": "The shoot will take place on Saturday, even if it rains. And you're taking part in the funniest scene in the film!"},
+      {"sp": "Hugo", "fr": "J'y serai à huit heures, {sans peur et sans reproche|sa-locutions} !", "en": "I'll be there at eight, fearless and above reproach!"},
+      {"sp": "", "fr": "Tard dans la nuit, sur son canapé, Hugo répète sa réplique {en silence|sa-abstrait}… puis tout haut. De la chambre, Antoine soupire : « Oui, on sait, tu sais nager ! »", "en": "Late at night, on his sofa, Hugo rehearses his line in silence… then out loud. From the bedroom, Antoine sighs: 'Yes, we know, you can swim!'"}
+    ]
+  },
+  "quiz": [
+    {"case": "sa-abstrait", "type": "mc", "q": "Je porte vos valises ___ !", "en": "I'll carry your suitcases with pleasure!", "options": ["avec plaisir", "avec le plaisir", "avec un plaisir"], "answer": "avec plaisir"},
+    {"case": "sa-abstrait", "type": "mc", "q": "Hugo répète sa réplique ___.", "en": "Hugo rehearses his line in silence.", "options": ["en silence", "en le silence", "dans silence"], "answer": "en silence"},
+    {"case": "sa-complement", "type": "mc", "q": "Il y aura un bateau ___ moteur ?", "en": "Will there be a motor boat?", "options": ["à", "de", "du"], "answer": "à"},
+    {"case": "sa-complement", "type": "mc", "q": "Carla vérifie le gilet ___ sauvetage.", "en": "Carla checks the life jacket.", "options": ["de", "du", "de la"], "answer": "de"},
+    {"case": "sa-role", "type": "mc", "q": "___ productrice, c'est moi qui signe les chèques.", "en": "As the producer, I'm the one who signs the cheques.", "options": ["En tant que", "En tant qu'une", "Comme une"], "answer": "En tant que"},
+    {"case": "sa-role", "type": "mc", "q": "Comme ___, Tom apporte un crumble.", "en": "For dessert, Tom brings a crumble.", "options": ["dessert", "un dessert", "le dessert"], "answer": "dessert"},
+    {"case": "sa-panneaux", "type": "mc", "q": "___ de plonger sans gilet.", "en": "No diving without a life jacket.", "options": ["Défense", "La défense", "Une défense"], "answer": "Défense"},
+    {"case": "sa-panneaux", "type": "mc", "q": "___ interdit au public.", "en": "No public access.", "options": ["Accès", "L'accès", "Un accès"], "answer": "Accès"},
+    {"case": "sa-locutions", "type": "mc", "q": "Le tournage aura ___ samedi.", "en": "The shoot will take place on Saturday.", "options": ["lieu", "le lieu", "la place"], "answer": "lieu"},
+    {"case": "sa-locutions", "type": "mc", "q": "Fais ___, c'est tout !", "en": "Be careful, that's all!", "options": ["attention", "l'attention", "une attention"], "answer": "attention"}
+  ]
+}

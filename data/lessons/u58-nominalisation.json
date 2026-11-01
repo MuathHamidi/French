@@ -1,0 +1,108 @@
+{
+  "id": "u58-nominalisation",
+  "type": "grammar",
+  "unit": 58,
+  "title": "Chute spectaculaire dans le Rhône",
+  "en": "Nominalisation: from verbs and adjectives to nouns (tomber → la chute, lent → la lenteur), for headlines and formal writing",
+  "intro": "Written French loves nouns. Headlines, reports, notes and slides turn verbs and adjectives into nouns (*tomber → la chute*, *rapide → la rapidité*) and whole clauses into noun phrases: *parce que le pont est fermé* becomes ***en raison de la fermeture du pont***. The suffix tells you the gender: **-ment** and **-age** are masculine; **-tion, -sion, -ure**, and the quality nouns in **-eur, -té, -esse, -ise, -ude**, are feminine. Some verbs take no suffix (*le refus, l'arrivée*) or a noun from another root (*la chute*). A headline then drops the verb altogether: ***Chute spectaculaire dans le Rhône.*** This is the style of the press and of formal writing; in conversation, French keeps its verbs.",
+  "cases": [
+    {"id": "nm-suffixe", "label": "Verb → noun with a suffix: -tion, -sion, -ment, -age, -ure", "rule": "Many nouns are the verb's stem + a suffix. *-ment* and *-age* are masculine: *lancer → le lancement*, *tourner → le tournage*, *sauver → le sauvetage*, *plonger → le plongeon* (an exception in -on). *-tion*, *-sion* and *-ure* are feminine: *fermer → la fermeture*, *décider → la décision*, *signer → la signature*. *Le tournage a commencé à huit heures.*"},
+    {"id": "nm-sans-suffixe", "label": "Verb → noun with no suffix, in -ée, -te, or from another root", "rule": "Some nouns are the bare stem: *refuser → le refus*, *choisir → le choix*, *retourner → le retour*, *voter → le vote*. Others end in *-ée* or *-te* and are feminine: *arriver → l'arrivée*, *sortir → la sortie*, *perdre → la perte*, *attendre → l'attente*. And some come from another root, so you just learn them: *tomber → la chute*, *mourir → la mort*, *naître → la naissance*. *Après sa chute, Hugo a crié sa réplique.*"},
+    {"id": "nm-qualite", "label": "Adjective → noun: -eur, -té, -esse, -ise, -ude", "rule": "The quality of an adjective is a feminine noun: *doux → la douceur*, *profond → la profondeur*, *rapide → la rapidité*, *fier → la fierté*, *tendre → la tendresse*, *maladroit → la maladresse*, *gourmand → la gourmandise*, *certain → la certitude*. *La rapidité de Monsieur Lucien a surpris les plongeurs.* (Le bonheur and le malheur are masculine: they come from heur, not from an adjective.)"},
+    {"id": "nm-phrase", "label": "A clause becomes a noun phrase", "rule": "Formal French replaces *parce que, quand, après que, avant que* + clause by a preposition + noun: *parce que le pont est fermé → en raison de la fermeture du pont*; *après qu'il est tombé → après sa chute*; *quand on a annoncé le paiement → à l'annonce du paiement*; *avant que le film sorte → avant la sortie du film*. The subject becomes *de* + noun or a possessive, and an adverb becomes an adjective: *il est tombé brusquement → sa chute brusque*."},
+    {"id": "nm-titres", "label": "Headlines, notes and slides with no verb", "rule": "Headlines keep only the nouns, with few articles: *Chute spectaculaire dans le Rhône.* *Succès pour le tournage.* *Hausse du prix du pain.* *Sauvetage d'un acteur par un vieux marinier.* To read one, put the verb back: *Hausse du prix du pain* = *le prix du pain a augmenté*."}
+  ],
+  "sections": [
+    {"title": "1. Verb → noun with a suffix", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["tourner, le tournage ; sauver, le sauvetage", "to shoot (a film), the shoot; to rescue, the rescue"],
+      ["lancer un disque, le lancement du disque", "to launch a record, the launch of the record"],
+      ["décider, la décision ; fermer, la fermeture", "to decide, the decision; to close, the closure"]]},
+     "examples": [
+      {"fr": "Les titres n'en ont presque pas : on garde les noms. {Le tournage|nm-suffixe}, c'est quand on tourne, et {le sauvetage|nm-suffixe}, quand on sauve quelqu'un.", "en": "Headlines hardly have any: you keep the nouns. The shoot is when you film, and the rescue is when you save someone."}],
+     "tip": "-ment and -age nouns are masculine; -tion, -sion and -ure nouns are feminine. Plonger gives le plongeon."},
+    {"title": "2. Verb → noun with no suffix", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["refuser, le refus ; choisir, le choix", "to refuse, the refusal; to choose, the choice"],
+      ["arriver, l'arrivée ; sortir, la sortie ; perdre, la perte", "to arrive, the arrival; to go out, the exit or release; to lose, the loss"],
+      ["tomber, la chute ; mourir, la mort ; naître, la naissance", "to fall, the fall; to die, death; to be born, birth"]]},
+     "examples": [
+      {"fr": "On fait un jeu ? On transforme ta journée de samedi en titres. Je commence : « Hugo est tombé. » Ça donne « {Chute de Hugo|nm-sans-suffixe} ».", "en": "Shall we play a game? We turn your Saturday into headlines. I'll start: « Hugo fell. » That gives « Hugo's fall »."},
+      {"fr": "« Les plongeurs ont attendu longtemps » : « {Longue attente des plongeurs|nm-sans-suffixe} ».", "en": "« The divers waited a long time »: « Long wait for the divers »."}],
+     "tip": "Nouns in -ée and -te are feminine. The noun of tomber is la chute: learn the nouns from another root one by one."},
+    {"title": "3. Adjective → noun: the quality", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["doux, la douceur ; rapide, la rapidité", "gentle, gentleness; fast, speed"],
+      ["tendre, la tendresse ; maladroit, la maladresse", "tender, tenderness; clumsy, clumsiness"],
+      ["gourmand, la gourmandise ; certain, la certitude", "greedy, greed; certain, certainty"]]},
+     "examples": [
+      {"fr": "« Lucien a été très rapide. » Ça donne « {Rapidité d'un marinier|nm-qualite} ».", "en": "« Lucien was very quick. » That gives « A bargeman's speed »."},
+      {"fr": "Et « Hugo a été maladroit » ? « {Maladresse d'un cascadeur|nm-qualite} » !", "en": "And « Hugo was clumsy »? « A stuntman's clumsiness »!"}],
+     "tip": "Quality nouns in -eur, -té, -esse, -ise and -ude are all feminine. Each adjective has its own suffix: learn them as pairs."},
+    {"title": "4. A clause becomes a noun phrase", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["parce que le pont est fermé, en raison de la fermeture du pont", "because the bridge is closed, owing to the closure of the bridge"],
+      ["après qu'il est tombé, après sa chute", "after he fell, after his fall"],
+      ["avant que le film sorte, avant la sortie du film", "before the film comes out, before the film's release"]]},
+     "examples": [
+      {"fr": "Bonjour tout le monde ! {Après ta chute|nm-phrase}, le réalisateur n'a pas arrêté de rire. Il garde la scène !", "en": "Morning, everyone! After your fall, the director couldn't stop laughing. He's keeping the scene!"},
+      {"fr": "{Avant la sortie du film|nm-phrase}, en octobre, aucune autre cascade, d'accord ? Et ensuite, « {Succès au Festival Lumière|nm-titres} » !", "en": "Before the film comes out in October, no more stunts, all right? And then, « Success at the Festival Lumière »!"}],
+     "tip": "The subject becomes de + noun (la sortie du film) or a possessive (sa chute). En raison de takes a noun, never a clause."},
+    {"title": "5. Headlines with no verb", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
+      ["Chute spectaculaire dans le Rhône.", "Spectacular fall into the Rhône."],
+      ["Hausse du prix du pain.", "Rise in the price of bread."],
+      ["Succès pour le tournage.", "Success for the shoot."]]},
+     "examples": [
+      {"fr": "Écoutez ça ! « {Chute spectaculaire dans le Rhône|nm-titres} : le roi de la poubelle récidive. »", "en": "Listen to this! « Spectacular fall into the Rhône: the king of the bin strikes again. »"},
+      {"fr": "Et voici un message pour toi : « {Paiement du cachet sous huit jours|nm-titres} ».", "en": "And here's a message for you: « Fee to be paid within the week »."}],
+     "tip": "To understand a headline, put the verb back: Hausse du prix du pain = le prix du pain a augmenté."}
+  ],
+  "mistakes": [
+    {"wrong": "La tournage commence samedi.", "right": "Le tournage commence samedi.", "why": "Nouns in -age are masculine."},
+    {"wrong": "Après sa tombée dans le Rhône, il a crié.", "right": "Après sa chute dans le Rhône, il a crié.", "why": "The noun of tomber comes from another root: la chute (la tombée is only used in la tombée de la nuit, nightfall)."},
+    {"wrong": "la rapidesse de Lucien", "right": "la rapidité de Lucien", "why": "Each adjective has its own suffix: rapide gives la rapidité, not -esse."},
+    {"wrong": "En raison que le pont est fermé, le bus fait un détour.", "right": "En raison de la fermeture du pont, le bus fait un détour.", "why": "En raison de takes a noun; with a clause, use parce que."}
+  ],
+  "story": {
+    "title": "Chute spectaculaire dans le Rhône",
+    "en": "Spectacular fall into the Rhône",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le dimanche douze juin, à onze heures, Hugo a fini sa tournée du pain. Monsieur Lucien lui a offert un café et une longue leçon de prudence.", "en": "On Sunday 12 June, at eleven o'clock, Hugo has finished his bread round. Monsieur Lucien gave him a coffee and a long lecture on being careful."},
+      {"sp": "", "fr": "Sur la terrasse du café, en bas de chez Léa et Sophie, la bande attend Enzo et les croissants. Léa ouvre le journal local.", "en": "On the terrace of the café below Léa and Sophie's flat, the gang is waiting for Enzo and the croissants. Léa opens the local paper."},
+      {"sp": "Léa", "fr": "Écoutez ça ! « {Chute spectaculaire dans le Rhône|nm-titres} : le roi de la poubelle récidive. »", "en": "Listen to this! « Spectacular fall into the Rhône: the king of the bin strikes again. »"},
+      {"sp": "Léa", "fr": "« {Tournage agité samedi matin quai du Rhône|nm-titres}. {Plongeon imprévu d'un acteur et sauvetage par un vieux marinier|nm-titres}. »", "en": "« Eventful shoot on Saturday morning on the quai du Rhône. An actor's unplanned plunge and a rescue by an old bargeman. »"},
+      {"sp": "Tom", "fr": "Attends, où sont passés les verbes ?", "en": "Wait, where have the verbs gone?"},
+      {"sp": "Léa", "fr": "Les titres n'en ont presque pas : on garde les noms. {Le tournage|nm-suffixe}, c'est quand on tourne, et {le sauvetage|nm-suffixe}, quand on sauve quelqu'un.", "en": "Headlines hardly have any: you keep the nouns. The shoot is when you film, and the rescue is when you save someone."},
+      {"sp": "Léa", "fr": "Pour lire un titre, on remet le verbe. En première page, « {Hausse du prix du pain|nm-titres} », ça veut dire que le prix du pain a augmenté.", "en": "To read a headline, you put the verb back. On the front page, « Rise in the price of bread » means that the price of bread has gone up."},
+      {"sp": "Hugo", "fr": "Et « récidive » ? Je ne suis pas un criminel ! Et cette photo… On me voit tout mouillé, avec la gaffe de Lucien dans le col.", "en": "And « strikes again »? I'm not a criminal! And this photo… You can see me soaking wet, with Lucien's boat hook in my collar."},
+      {"sp": "Léa", "fr": "Ça veut dire que tu recommences : d'abord la poubelle, maintenant le fleuve.", "en": "It means you're doing it again: first the bin, now the river."},
+      {"sp": "Sophie", "fr": "On fait un jeu ? On transforme ta journée de samedi en titres. Je commence : « Hugo est tombé. » Ça donne « {Chute de Hugo|nm-sans-suffixe} ».", "en": "Shall we play a game? We turn your Saturday into headlines. I'll start: « Hugo fell. » That gives « Hugo's fall »."},
+      {"sp": "Léa", "fr": "« Lucien a été très rapide. » Ça donne « {Rapidité d'un marinier|nm-qualite} ».", "en": "« Lucien was very quick. » That gives « A bargeman's speed »."},
+      {"sp": "Sophie", "fr": "Et « Hugo a été maladroit » ? « {Maladresse d'un cascadeur|nm-qualite} » !", "en": "And « Hugo was clumsy »? « A stuntman's clumsiness »!"},
+      {"sp": "Léa", "fr": "« Les plongeurs ont attendu longtemps » : « {Longue attente des plongeurs|nm-sans-suffixe} ».", "en": "« The divers waited a long time »: « Long wait for the divers »."},
+      {"sp": "Hugo", "fr": "À mon tour : « {Fierté d'un nageur|nm-qualite} ». J'ai crié ma réplique dans l'eau, comme un vrai professionnel. Et {mon plongeon|nm-suffixe} était magnifique !", "en": "My turn: « A swimmer's pride ». I shouted my line in the water, like a real professional. And my dive was magnificent!"},
+      {"sp": "Carla", "fr": "Magnifique ? Moi, j'étais blanche comme un drap !", "en": "Magnificent? I was as white as a sheet!"},
+      {"sp": "", "fr": "Antoine et Josée arrivent de chez Hugo. Ils ont encore dormi dans son lit, et Hugo sur le canapé.", "en": "Antoine and Josée come over from Hugo's flat. They slept in his bed again, and Hugo on the sofa."},
+      {"sp": "Josée", "fr": "Bonjour tout le monde ! {Après ta chute|nm-phrase}, le réalisateur n'a pas arrêté de rire. Il garde la scène !", "en": "Morning, everyone! After your fall, the director couldn't stop laughing. He's keeping the scene!"},
+      {"sp": "Josée", "fr": "Et voici un message pour toi : « {Paiement du cachet sous huit jours|nm-titres} ».", "en": "And here's a message for you: « Fee to be paid within the week »."},
+      {"sp": "", "fr": "{À l'annonce du paiement|nm-phrase}, Hugo cache sa joie derrière sa tasse : il pense à la bague.", "en": "When the payment is announced, Hugo hides his joy behind his cup: he's thinking of the ring."},
+      {"sp": "Carla", "fr": "Qu'est-ce que tu vas acheter avec ton cachet ?", "en": "What are you going to buy with your fee?"},
+      {"sp": "Hugo", "fr": "Euh… un maillot de bain. Pour ma prochaine chute.", "en": "Er… a swimsuit. For my next fall."},
+      {"sp": "Antoine", "fr": "{Avant la sortie du film|nm-phrase}, en octobre, aucune autre cascade, d'accord ? Et ensuite, « {Succès au Festival Lumière|nm-titres} » !", "en": "Before the film comes out in October, no more stunts, all right? And then, « Success at the Festival Lumière »!"},
+      {"sp": "", "fr": "Amadou passe devant le café. Il vient de voter pour la première fois.", "en": "Amadou walks past the café. He has just voted for the first time."},
+      {"sp": "Sophie", "fr": "Amadou ! J'ai un titre pour toi : « {Premier [vote|vote-n] pour Amadou|nm-titres} ».", "en": "Amadou! I've got a headline for you: « A first vote for Amadou »."},
+      {"sp": "Amadou", "fr": "Merci ! Et pour Hugo : « {Retour du roi de la poubelle|nm-sans-suffixe} ».", "en": "Thanks! And for Hugo: « The return of the king of the bin »."},
+      {"sp": "", "fr": "Enzo arrive avec les croissants. Il lit l'article, rit et prend le journal.", "en": "Enzo arrives with the croissants. He reads the article, laughs and takes the paper."},
+      {"sp": "Enzo", "fr": "Je l'accroche dans le fournil, à côté du four. Avec un nouveau titre : « Le roi de la poubelle et du Rhône ».", "en": "I'm pinning it up in the bakehouse, next to the oven. With a new headline: « The king of the bin and of the Rhône »."}
+    ]
+  },
+  "quiz": [
+    {"case": "nm-suffixe", "type": "mc", "q": "___ a commencé à huit heures.", "en": "The shoot started at eight o'clock.", "options": ["Le tournage", "La tournage", "Le tour"], "answer": "Le tournage"},
+    {"case": "nm-suffixe", "type": "mc", "q": "Hugo a fait ___ imprévu dans le Rhône.", "en": "Hugo took an unplanned plunge into the Rhône.", "options": ["un plongeon", "une plongeon", "un plongeur"], "answer": "un plongeon"},
+    {"case": "nm-sans-suffixe", "type": "mc", "q": "Après sa ___ dans le Rhône, Hugo a eu froid toute la journée.", "en": "After his fall into the Rhône, Hugo was cold all day.", "options": ["chute", "tombée", "tombe"], "answer": "chute"},
+    {"case": "nm-sans-suffixe", "type": "mc", "q": "Le ___ de Hugo nous a surpris.", "en": "Hugo's refusal surprised us.", "options": ["refus", "refuse", "refusé"], "answer": "refus"},
+    {"case": "nm-qualite", "type": "mc", "q": "La ___ de Monsieur Lucien a surpris les plongeurs.", "en": "Monsieur Lucien's speed surprised the divers.", "options": ["rapidité", "rapide", "rapidement"], "answer": "rapidité"},
+    {"case": "nm-qualite", "type": "mc", "q": "Carla regarde Hugo avec beaucoup de ___.", "en": "Carla looks at Hugo with great tenderness.", "options": ["tendresse", "tendre", "tendrement"], "answer": "tendresse"},
+    {"case": "nm-phrase", "type": "mc", "q": "___, le bus fait un détour.", "en": "Owing to the closure of the bridge, the bus takes a detour.", "options": ["En raison de la fermeture du pont", "En raison que le pont est fermé", "Parce que la fermeture du pont"], "answer": "En raison de la fermeture du pont"},
+    {"case": "nm-phrase", "type": "mc", "q": "Hugo a crié sa réplique ___.", "en": "Hugo shouted his line after his fall.", "options": ["après sa chute", "après qu'il tombe", "après sa tombée"], "answer": "après sa chute"},
+    {"case": "nm-titres", "type": "mc", "q": "« ___ du prix du pain. »", "en": "« Bread prices go up. »", "options": ["Hausse", "Augmenté", "Augmenter"], "answer": "Hausse"},
+    {"case": "nm-titres", "type": "mc", "q": "« ___ spectaculaire dans le Rhône. »", "en": "« Spectacular fall into the Rhône. »", "options": ["Chute", "Tombé", "Tomber"], "answer": "Chute"}
+  ]
+}

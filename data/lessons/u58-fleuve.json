@@ -1,0 +1,143 @@
+{
+  "id": "u58-fleuve",
+  "type": "vocab",
+  "unit": 58,
+  "title": "Je sais nager !",
+  "en": "The river and its boats",
+  "intro": "25 words for the river and its boats: the river (**le fleuve, le canal, la rive, la berge, le flot, l'onde, le remous, le tourbillon, la profondeur**), its works (**l'écluse, le barrage, le ponton, la passerelle**), the boats and the people on them (**la péniche, la barque, la rame, la coque, l'équipage, le marin, le marinier, naviguer**), and diving and rescue (**le plongeon, le plongeur, le sauvetage, secourir**).",
+  "words": [
+    {"id": "flot", "fr": "flot", "pos": "noun", "g": "m", "ipa": "flo", "en": "stream, flood (of water, people); (les flots) the waves; (à flot) afloat", "def": "Une grande quantité d'eau qui coule ; au pluriel, l'eau de la mer ou d'une rivière en mouvement.", "def_en": "A large amount of flowing water; in the plural, the moving water of the sea or a river.", "note": "*À flot* = afloat; *un flot de* = a stream of.", "forms": ["flots"], "examples": [
+      {"fr": "Hugo disparaît un instant dans les **flots** gris du Rhône.", "en": "Hugo disappears for a moment in the grey waves of the Rhône."},
+      {"fr": "Un **flot** de touristes arrive sur le quai.", "en": "A stream of tourists arrives on the quay."},
+      {"fr": "La vieille péniche est toujours à **flot**.", "en": "The old barge is still afloat."}]},
+    {"id": "rive", "fr": "rive", "pos": "noun", "g": "f", "ipa": "ʁiv", "en": "bank (of a river), shore", "def": "Le bord d'un fleuve, d'une rivière ou d'un lac.", "def_en": "The edge of a river or a lake.", "note": "*La rive gauche, la rive droite* = the left bank, the right bank (seen going downstream).", "forms": ["rives"], "examples": [
+      {"fr": "Les plongeurs attendent sur l'autre **rive**.", "en": "The divers are waiting on the other bank."},
+      {"fr": "À Paris, la **rive** gauche est au sud de la Seine.", "en": "In Paris, the Left Bank is south of the Seine."},
+      {"fr": "On se promène sur les **rives** du lac d'Annecy.", "en": "We go for a walk on the shores of Lake Annecy."}]},
+    {"id": "barque", "fr": "barque", "pos": "noun", "g": "f", "ipa": "baʁk", "en": "(small) rowing boat", "def": "Un petit bateau sans moteur, qu'on fait avancer avec des rames.", "def_en": "A small boat without an engine, moved along with oars.", "forms": ["barques"], "examples": [
+      {"fr": "Pour l'image, une vieille **barque** est attachée à la péniche.", "en": "For the picture, an old rowing boat is tied to the barge."},
+      {"fr": "Dimanche, on a loué une **barque** sur le lac.", "en": "On Sunday, we hired a rowing boat on the lake."},
+      {"fr": "Le pêcheur est seul dans sa **barque**.", "en": "The fisherman is alone in his boat."}]},
+    {"id": "marin", "fr": "marin", "pos": "noun", "g": "m", "ipa": "ma.ʁɛ̃", "en": "sailor; (adj.) sea, marine (l'air marin)", "def": "Une personne dont le métier est de travailler sur un bateau, en mer ; qui vient de la mer.", "def_en": "A person whose job is working on a ship, at sea; coming from the sea.", "forms": ["marins"], "examples": [
+      {"fr": "« Un vrai **marin** ne lâche jamais sa gaffe ! »", "en": "\"A real sailor never lets go of his boat hook!\""},
+      {"fr": "Mon grand-père était **marin** à Marseille.", "en": "My grandfather was a sailor in Marseille."},
+      {"fr": "L'air **marin** donne faim.", "en": "The sea air makes you hungry."}]},
+    {"id": "profondeur", "fr": "profondeur", "pos": "noun", "g": "f", "ipa": "pʁɔ.fɔ̃.dœʁ", "en": "depth", "def": "La distance entre la surface de l'eau et le fond.", "def_en": "The distance between the surface of the water and the bottom.", "forms": ["profondeurs"], "examples": [
+      {"fr": "Ici, il y a six mètres de **profondeur**.", "en": "It's six metres deep here."},
+      {"fr": "Quelle est la **profondeur** de la piscine ?", "en": "How deep is the pool?"},
+      {"fr": "Des poissons étranges vivent dans les **profondeurs** de la mer.", "en": "Strange fish live in the depths of the sea."}]},
+    {"id": "canal", "fr": "canal", "pos": "noun", "g": "m", "ipa": "ka.nal", "en": "canal; channel", "def": "Une rivière creusée par l'homme pour faire passer les bateaux.", "def_en": "A river dug by people for boats to pass through.", "forms": ["canaux"], "examples": [
+      {"fr": "Le Rhône, ce n'est pas un **canal** tranquille.", "en": "The Rhône is no quiet canal."},
+      {"fr": "Les péniches avancent lentement sur le **canal**.", "en": "The barges move slowly along the canal."},
+      {"fr": "À Amsterdam, on se promène le long des **canaux**.", "en": "In Amsterdam, people stroll along the canals."}]},
+    {"id": "equipage", "fr": "équipage", "pos": "noun", "g": "m", "ipa": "e.ki.paʒ", "en": "crew (of a boat, plane)", "def": "Toutes les personnes qui travaillent sur un bateau ou dans un avion.", "def_en": "All the people who work on a ship or a plane.", "note": "A film crew is *une équipe*, not *un équipage*.", "forms": ["équipages"], "examples": [
+      {"fr": "Aujourd'hui, mon **équipage**, c'est toute une équipe de cinéma !", "en": "Today my crew is a whole film crew!"},
+      {"fr": "Le commandant et son **équipage** vous souhaitent un bon vol.", "en": "The captain and his crew wish you a pleasant flight."},
+      {"fr": "L'**équipage** a passé trois mois en mer.", "en": "The crew spent three months at sea."}]},
+    {"id": "barrage", "fr": "barrage", "pos": "noun", "g": "m", "ipa": "ba.ʁaʒ", "en": "dam; (police) roadblock", "def": "Un grand mur qui retient l'eau d'une rivière ; un endroit où la police arrête les voitures.", "def_en": "A big wall that holds back a river's water; a place where the police stop cars.", "forms": ["barrages"], "examples": [
+      {"fr": "Je connais chaque **barrage** du Rhône.", "en": "I know every dam on the Rhône."},
+      {"fr": "Ce **barrage** produit de l'électricité pour toute la région.", "en": "This dam produces electricity for the whole region."},
+      {"fr": "La police a installé un **barrage** à la sortie du village.", "en": "The police have set up a roadblock at the edge of the village."}]},
+    {"id": "onde", "fr": "onde", "pos": "noun", "g": "f", "ipa": "ɔ̃d", "en": "wave, ripple; (les ondes) the airwaves", "def": "Un cercle qui s'étend sur l'eau quand quelque chose tombe dedans ; au pluriel, la radio.", "def_en": "A circle that spreads on the water when something falls into it; in the plural, the radio.", "forms": ["ondes"], "examples": [
+      {"fr": "Là où Hugo est tombé, des **ondes** s'étendent sur l'eau.", "en": "Where Hugo fell, ripples spread over the water."},
+      {"fr": "Lou jette un caillou dans l'eau et regarde les **ondes**.", "en": "Lou throws a pebble into the water and watches the ripples."},
+      {"fr": "Sa chanson passe sur toutes les **ondes**.", "en": "His song is all over the airwaves."}]},
+    {"id": "tourbillon", "fr": "tourbillon", "pos": "noun", "g": "m", "ipa": "tuʁ.bi.jɔ̃", "en": "whirlpool; whirlwind", "def": "Un mouvement de l'eau ou de l'air qui tourne très vite en rond.", "def_en": "A movement of water or air that spins round very fast.", "forms": ["tourbillons"], "examples": [
+      {"fr": "Attention aux **tourbillons** près du pont !", "en": "Watch out for the whirlpools near the bridge!"},
+      {"fr": "La barque est prise dans un **tourbillon**.", "en": "The boat is caught in a whirlpool."},
+      {"fr": "Un **tourbillon** de vent emporte les feuilles.", "en": "A whirlwind carries the leaves away."}]},
+    {"id": "berge", "fr": "berge", "pos": "noun", "g": "f", "ipa": "bɛʁʒ", "en": "(river) bank, embankment; (les berges) the riverside walk", "def": "Le bord d'une rivière, souvent en pente, où l'on peut marcher.", "def_en": "The edge of a river, often sloping, where you can walk.", "forms": ["berges"], "examples": [
+      {"fr": "Sur les **berges**, les coureurs du samedi s'arrêtent pour regarder.", "en": "On the riverside walk, the Saturday runners stop to watch."},
+      {"fr": "Le dimanche, on mange sur les **berges** du Rhône.", "en": "On Sundays, we eat on the banks of the Rhône."},
+      {"fr": "Les pêcheurs tirent la barque sur la **berge**.", "en": "The fishermen pull the boat up onto the bank."}]},
+    {"id": "coque", "fr": "coque", "pos": "noun", "g": "f", "ipa": "kɔk", "en": "hull (of a boat); shell; (eye) shield", "def": "L'extérieur d'un bateau, la partie qui touche l'eau ; l'enveloppe [dure|dur] d'un œuf ou d'une noix.", "def_en": "The outside of a boat, the part that touches the water; the hard casing of an egg or a nut.", "note": "*Un œuf à la coque* = a soft-boiled egg.", "forms": ["coques"], "examples": [
+      {"fr": "Entre deux prises, Hugo longe la **coque** de la péniche.", "en": "Between two takes, Hugo walks along the barge's hull."},
+      {"fr": "La **coque** du bateau est peinte en bleu.", "en": "The boat's hull is painted blue."},
+      {"fr": "Lou mange un œuf à la **coque**.", "en": "Lou is eating a soft-boiled egg."}]},
+    {"id": "remous", "fr": "remous", "pos": "noun", "g": "m", "ipa": "ʁə.mu", "en": "eddy; wash (of a boat); (fig.) stir", "def": "L'eau qui tourne et s'agite derrière un bateau ou autour d'une pierre.", "def_en": "Water that swirls and churns behind a boat or around a rock.", "examples": [
+      {"fr": "Les **remous** d'un bateau qui passe font bouger la péniche.", "en": "The wash of a passing boat rocks the barge."},
+      {"fr": "Le nageur se méfie des **remous** près du barrage.", "en": "The swimmer is wary of the eddies near the dam."},
+      {"fr": "Cette nouvelle a provoqué des **remous** au bureau.", "en": "This news caused a stir at the office."}]},
+    {"id": "passerelle", "fr": "passerelle", "pos": "noun", "g": "f", "ipa": "pa.sʁɛl", "en": "footbridge; gangway", "def": "Un pont étroit pour les piétons ; une planche pour monter sur un bateau.", "def_en": "A narrow bridge for pedestrians; a board for getting on a boat.", "forms": ["passerelles"], "examples": [
+      {"fr": "Léa regarde la scène depuis la **passerelle**.", "en": "Léa watches the scene from the footbridge."},
+      {"fr": "On monte sur la péniche par une petite **passerelle**.", "en": "You get onto the barge by a little gangway."},
+      {"fr": "La **passerelle** est interdite aux vélos.", "en": "Bikes are not allowed on the footbridge."}]},
+    {"id": "rame", "fr": "rame", "pos": "noun", "g": "f", "ipa": "ʁam", "en": "oar; (metro) train", "def": "Un long morceau de [bois|bois] qu'on tire dans l'eau pour faire avancer une barque ; un train de métro.", "def_en": "A long piece of wood you pull through the water to move a boat along; a metro train.", "forms": ["rames"], "examples": [
+      {"fr": "Les deux **rames** de la barque sont peintes en rouge.", "en": "The rowing boat's two oars are painted red."},
+      {"fr": "Paul prend une **rame**, Lou prend l'autre.", "en": "Paul takes one oar, Lou takes the other."},
+      {"fr": "La prochaine **rame** arrive dans trois minutes.", "en": "The next train arrives in three minutes."}]},
+    {"id": "sauvetage", "fr": "sauvetage", "pos": "noun", "g": "m", "ipa": "sov.taʒ", "en": "rescue; (un gilet de sauvetage) life jacket", "def": "L'action d'aider une personne en danger et de la mettre à l'abri.", "def_en": "The act of helping someone in danger and taking them to safety.", "forms": ["sauvetages"], "examples": [
+      {"fr": "Carla vérifie trois fois le gilet de **sauvetage** de Hugo.", "en": "Carla checks Hugo's life jacket three times."},
+      {"fr": "Le bateau de **sauvetage** attend sur l'autre rive.", "en": "The rescue boat is waiting on the other bank."},
+      {"fr": "Le **sauvetage** a duré toute la nuit.", "en": "The rescue went on all night."}]},
+    {"id": "secourir", "fr": "secourir", "pos": "verb", "ipa": "sə.ku.ʁiʁ", "en": "to rescue, to help (someone in danger)", "def": "Aider une personne qui est en danger.", "def_en": "To help a person who is in danger.", "note": "Conjugated like *courir*: *il secourt, il a secouru*.", "forms": ["secourt", "secourons", "secourez", "secourent", "secouru", "secourue", "secourus", "secourues", "secourais", "secourait", "secourions", "secouriez", "secouraient", "secourrai", "secourras", "secourra", "secourrons", "secourrez", "secourront", "secourrais", "secourrait", "secourrions", "secourriez", "secourraient", "secoure", "secoures", "secourant", "secourut", "secourûmes", "secourûtes", "secoururent"], "examples": [
+      {"fr": "Monsieur Lucien **secourt** Hugo avant les plongeurs.", "en": "Monsieur Lucien rescues Hugo before the divers do."},
+      {"fr": "Les pompiers ont **secouru** trois personnes.", "en": "The firefighters rescued three people."},
+      {"fr": "Il faut **secourir** les blessés.", "en": "We have to help the injured."}]},
+    {"id": "peniche", "fr": "péniche", "pos": "noun", "g": "f", "ipa": "pe.niʃ", "en": "barge", "def": "Un long bateau [plat|plat-adj] qui transporte des marchandises sur les fleuves et les canaux.", "def_en": "A long flat boat that carries goods on rivers and canals.", "forms": ["péniches"], "examples": [
+      {"fr": "Pour le tournage, on a loué la vieille **péniche** de Monsieur Lucien.", "en": "For the shoot, they've hired Monsieur Lucien's old barge."},
+      {"fr": "Ils habitent sur une **péniche**, à Paris.", "en": "They live on a barge in Paris."},
+      {"fr": "La **péniche** attend devant l'écluse.", "en": "The barge is waiting at the lock."}]},
+    {"id": "plongeur", "fr": "plongeur", "pos": "noun", "g": "m", "ipa": "plɔ̃.ʒœʁ", "display": "le plongeur, la plongeuse", "en": "diver", "def": "Une personne qui nage sous l'eau, souvent avec une bouteille d'air.", "def_en": "A person who swims underwater, often with an air tank.", "forms": ["plongeurs", "plongeuse", "plongeuses"], "examples": [
+      {"fr": "Les **plongeurs** sont trop loin : ils n'ont rien vu.", "en": "The divers are too far away: they didn't see a thing."},
+      {"fr": "La **plongeuse** remonte avec un vieux téléphone.", "en": "The diver comes back up with an old phone."},
+      {"fr": "Mon frère veut devenir **plongeur**.", "en": "My brother wants to become a diver."}]},
+    {"id": "marinier", "fr": "marinier", "pos": "noun", "g": "m", "ipa": "ma.ʁi.nje", "en": "bargeman (on rivers and canals)", "def": "Une personne qui conduit une péniche sur les fleuves et les canaux.", "def_en": "A person who steers a barge on rivers and canals.", "forms": ["mariniers"], "examples": [
+      {"fr": "J'ai été **marinier** toute ma vie.", "en": "I was a bargeman all my life."},
+      {"fr": "Les **mariniers** se connaissent tous sur le Rhône.", "en": "The bargemen on the Rhône all know each other."},
+      {"fr": "Son père était **marinier** sur la Seine.", "en": "His father was a bargeman on the Seine."}]},
+    {"id": "ecluse", "fr": "écluse", "pos": "noun", "g": "f", "ipa": "e.klyz", "en": "lock (on a river, canal)", "def": "Un bassin fermé par des portes, qui fait monter ou descendre les bateaux d'un niveau à l'autre.", "def_en": "A basin closed by gates that raises or lowers boats from one level to another.", "forms": ["écluses"], "examples": [
+      {"fr": "J'ai attendu des heures aux **écluses**.", "en": "I waited for hours at the locks."},
+      {"fr": "La péniche entre lentement dans l'**écluse**.", "en": "The barge slowly enters the lock."},
+      {"fr": "Ce canal a vingt **écluses**.", "en": "This canal has twenty locks."}]},
+    {"id": "ponton", "fr": "ponton", "pos": "noun", "g": "m", "ipa": "pɔ̃.tɔ̃", "en": "pontoon, landing stage", "def": "Une plateforme qui flotte au bord de l'eau, où les bateaux s'arrêtent.", "def_en": "A floating platform at the water's edge where boats stop.", "forms": ["pontons"], "examples": [
+      {"fr": "Dans la scène, un passant tombe du **ponton**.", "en": "In the scene, a passer-by falls off the pontoon."},
+      {"fr": "Les barques sont attachées au **ponton**.", "en": "The rowing boats are tied to the landing stage."},
+      {"fr": "On pêche tout l'après-midi sur le **ponton**.", "en": "We fish all afternoon from the pontoon."}]},
+    {"id": "fleuve", "fr": "fleuve", "pos": "noun", "g": "m", "ipa": "flœv", "en": "(large) river (flowing to the sea)", "def": "Une grande rivière qui se jette dans la mer.", "def_en": "A large river that flows into the sea.", "note": "*Un fleuve* flows into the sea; *une rivière* flows into another river.", "forms": ["fleuves"], "examples": [
+      {"fr": "Un **fleuve**, ça ne pardonne pas.", "en": "A big river is unforgiving."},
+      {"fr": "La Loire est le plus long **fleuve** de France.", "en": "The Loire is the longest river in France."},
+      {"fr": "Le **fleuve** traverse toute la ville.", "en": "The river runs right through the city."}]},
+    {"id": "naviguer", "fr": "naviguer", "pos": "verb", "ipa": "na.vi.ɡe", "en": "to sail, to navigate", "def": "Voyager sur l'eau en bateau ; conduire un bateau.", "def_en": "To travel on water by boat; to steer a boat.", "forms": ["navigue", "navigues", "naviguons", "naviguez", "naviguent", "navigué", "naviguais", "naviguait", "naviguions", "naviguiez", "naviguaient", "naviguerai", "navigueras", "naviguera", "naviguerons", "naviguerez", "navigueront", "naviguerais", "naviguerait", "naviguerions", "navigueriez", "navigueraient", "naviguant", "naviguai", "naviguas", "navigua", "naviguâmes", "naviguâtes", "naviguèrent"], "examples": [
+      {"fr": "J'ai **navigué** de Lyon jusqu'à la Méditerranée.", "en": "I sailed from Lyon all the way to the Mediterranean."},
+      {"fr": "On **navigue** sur le Rhône pendant trois jours.", "en": "We sail on the Rhône for three days."},
+      {"fr": "Il sait **naviguer** la nuit.", "en": "He can navigate at night."}]},
+    {"id": "plongeon", "fr": "plongeon", "pos": "noun", "g": "m", "ipa": "plɔ̃.ʒɔ̃", "en": "dive, plunge", "def": "Un saut dans l'eau, la tête la première.", "def_en": "A jump into the water, head first.", "forms": ["plongeons"], "examples": [
+      {"fr": "Le réalisateur trouve le **plongeon** de Hugo trop prudent.", "en": "The director finds Hugo's dive too careful."},
+      {"fr": "Lou fait son premier **plongeon** à la piscine.", "en": "Lou does her first dive at the pool."},
+      {"fr": "Quel beau **plongeon** !", "en": "What a beautiful dive!"}]}
+  ],
+  "story": {
+    "title": "Je sais nager !",
+    "en": "I can swim!",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le samedi onze juin, à huit heures, sur le quai du Rhône, on tourne la cascade de Hugo.", "en": "On Saturday 11 June, at eight o'clock, on the quai du Rhône, they're shooting Hugo's stunt."},
+      {"sp": "", "fr": "Pour la journée, le réalisateur a loué la vieille péniche de Monsieur Lucien, et Monsieur Lucien avec, comme [conseiller|conseiller-n].", "en": "For the day, the director has hired Monsieur Lucien's old barge, and Monsieur Lucien with it, as an adviser."},
+      {"sp": "Monsieur Lucien", "fr": "Aujourd'hui, mon équipage, c'est toute une équipe de cinéma ! Je n'ai jamais eu autant de monde à bord.", "en": "Today my crew is a whole film crew! I've never had so many people on board."},
+      {"sp": "", "fr": "Sur les berges, les coureurs du samedi s'arrêtent pour regarder le tournage. Léa, elle, suit tout depuis la passerelle, un peu plus loin.", "en": "On the riverside walk, the Saturday runners stop to watch the shoot. Léa follows it all from the footbridge, a little further on."},
+      {"sp": "Monsieur Lucien", "fr": "J'ai été marinier toute ma vie. J'ai navigué de Lyon jusqu'à la Méditerranée !", "en": "I was a bargeman all my life. I sailed from Lyon all the way to the Mediterranean!"},
+      {"sp": "Monsieur Lucien", "fr": "J'ai attendu des heures aux écluses, et je connais chaque barrage du Rhône.", "en": "I waited for hours at the locks, and I know every dam on the Rhône."},
+      {"sp": "Hugo", "fr": "Et c'est dangereux, ici ?", "en": "And is it dangerous here?"},
+      {"sp": "Monsieur Lucien", "fr": "Le Rhône, ce n'est pas un canal tranquille, jeune homme. Un fleuve, ça ne pardonne pas.", "en": "The Rhône is no quiet canal, young man. A big river is unforgiving."},
+      {"sp": "Monsieur Lucien", "fr": "Attention aux tourbillons près du pont. Et ici, il y a six mètres de profondeur.", "en": "Watch out for the whirlpools near the bridge. And it's six metres deep here."},
+      {"sp": "", "fr": "Pour la sécurité, les plongeurs et le bateau de sauvetage attendent sur l'autre rive. Carla vérifie trois fois le gilet de Hugo.", "en": "For safety, the divers and the rescue boat are waiting on the other bank. Carla checks Hugo's life jacket three times."},
+      {"sp": "", "fr": "La scène est simple : un passant tombe du ponton et crie sa seule réplique, « Je sais nager ! »", "en": "The scene is simple: a passer-by falls off the pontoon and shouts his one line, \"I can swim!\""},
+      {"sp": "", "fr": "Pour l'image, une vieille barque est attachée à la péniche. Ses deux rames sont peintes en rouge.", "en": "For the picture, an old rowing boat is tied to the barge. Its two oars are painted red."},
+      {"sp": "", "fr": "« Action ! » Hugo saute, mais son plongeon est beaucoup trop prudent.", "en": "\"Action!\" Hugo jumps, but his dive is far too careful."},
+      {"sp": "Le réalisateur", "fr": "On dirait un notaire qui entre dans son bain ! On la refait.", "en": "He looks like a solicitor getting into his bath! Let's do it again."},
+      {"sp": "", "fr": "Hugo recommence cinq fois. À chaque prise, le réalisateur soupire.", "en": "Hugo does it five more times. At every take, the director sighs."},
+      {"sp": "", "fr": "Entre deux prises, Hugo, sans son gilet (la costumière l'a pris pour le sécher), longe la coque, de l'autre côté de la péniche, pour aller chercher ses lunettes.", "en": "Between two takes, Hugo, without his life jacket (the wardrobe assistant has taken it to dry), walks along the hull on the far side of the barge to fetch his glasses."},
+      {"sp": "", "fr": "Un bateau passe. Ses remous font bouger la péniche, Hugo glisse… et tombe dans le Rhône, pour de vrai cette fois, loin du bateau de sauvetage.", "en": "A boat goes by. Its wash rocks the barge, Hugo slips… and falls into the Rhône, for real this time, far from the rescue boat."},
+      {"sp": "", "fr": "Là où il est tombé, des ondes s'étendent sur l'eau. Puis une tête sort des flots gris.", "en": "Where he fell, ripples spread over the water. Then a head comes out of the grey waves."},
+      {"sp": "Hugo", "fr": "Je sais nager !", "en": "I can swim!"},
+      {"sp": "", "fr": "Et il nage : les leçons du mardi soir servent enfin à quelque chose. Mais le courant l'emporte, et les plongeurs, trop loin, n'ont rien vu.", "en": "And he swims: the Tuesday evening lessons are finally paying off. But the current carries him away, and the divers, too far off, haven't seen a thing."},
+      {"sp": "", "fr": "Le vieux marinier, lui, a tout vu. Il secourt Hugo avant tout le monde : avec sa vieille gaffe, il l'accroche par le col et le tire jusqu'à la coque.", "en": "The old bargeman saw it all. He rescues Hugo before anyone else: with his old boat hook, he catches him by the collar and pulls him back to the hull."},
+      {"sp": "Monsieur Lucien", "fr": "Un vrai marin ne lâche jamais sa gaffe !", "en": "A real sailor never lets go of his boat hook!"},
+      {"sp": "Antoine", "fr": "Le roi des gaffes, sauvé par une gaffe !", "en": "The king of blunders, saved by a boat hook!"},
+      {"sp": "", "fr": "La caméra tournait encore. Le réalisateur est ravi : il garde la prise.", "en": "The camera was still rolling. The director is delighted: he keeps the take."},
+      {"sp": "", "fr": "Josée enveloppe Hugo dans une couverture. Carla, toute blanche, le gronde, puis l'embrasse.", "en": "Josée wraps Hugo in a blanket. Carla, white as a sheet, scolds him, then kisses him."},
+      {"sp": "Hugo", "fr": "Dites… pour une vraie chute, je suis payé le double ?", "en": "Say… for a real fall, do I get paid double?"}
+    ]
+  }
+}

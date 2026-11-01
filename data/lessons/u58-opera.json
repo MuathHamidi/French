@@ -1,0 +1,143 @@
+{
+  "id": "u58-opera",
+  "type": "vocab",
+  "unit": 58,
+  "title": "La Flûte enchantée",
+  "en": "Opera and the orchestra",
+  "intro": "25 words for opera and the orchestra: the opera (**l'opéra, le lustre, le triomphe, le chœur, le / la soliste, le ténor, le baryton, la soprano, lyrique**), music (**la composition, le compositeur, la symphonie, la gamme, le pupitre**), the strings (**la corde, le violoncelle, l'archet, la harpe**), the wind instruments (**la flûte, la clarinette, le cor, la trompette**) and the percussion (**la percussion, le tambour, la timbale**).",
+  "words": [
+    {"id": "opera", "fr": "opéra", "pos": "noun", "g": "m", "ipa": "o.pe.ʁa", "en": "opera; opera house", "def": "Une pièce de théâtre où les acteurs chantent avec un orchestre ; la salle où on la joue.", "def_en": "A play in which the actors sing with an orchestra; the hall where it is performed.", "note": "L'Opéra, with a capital O, is the opera house.", "forms": ["opéras"], "examples": [
+      {"fr": "Tom va à l'**opéra** pour la première fois.", "en": "Tom is going to the opera for the first time."},
+      {"fr": "Mozart a écrit plus de vingt **opéras**.", "en": "Mozart wrote more than twenty operas."},
+      {"fr": "L'**Opéra** de Lyon a un grand toit de verre.", "en": "The Lyon opera house has a great glass roof."}]},
+    {"id": "triomphe", "fr": "triomphe", "pos": "noun", "g": "m", "ipa": "tʁi.jɔ̃f", "en": "triumph; (a show's) huge success", "def": "Un très grand succès ; quand le public applaudit longtemps et très fort.", "def_en": "A very great success; when the audience claps for a long time and very loudly.", "forms": ["triomphes"], "examples": [
+      {"fr": "À la fin, c'est un **triomphe** : la salle applaudit debout.", "en": "At the end, it's a triumph: the audience gives a standing ovation."},
+      {"fr": "Ce concert a été un vrai **triomphe**.", "en": "That concert was a real triumph."},
+      {"fr": "Après sa victoire, le coureur est accueilli en **triomphe**.", "en": "After his win, the runner is welcomed in triumph."}]},
+    {"id": "choeur", "fr": "chœur", "pos": "noun", "g": "m", "ipa": "kœʁ", "en": "choir, chorus", "def": "Un groupe de personnes qui chantent ensemble.", "def_en": "A group of people who sing together.", "note": "En chœur = in unison, all together. Chœur sounds just like cœur (heart).", "forms": ["chœurs"], "examples": [
+      {"fr": "Le **chœur** des prêtres chante très fort.", "en": "The priests' chorus sings very loudly."},
+      {"fr": "Les enfants répondent en **chœur** : « Oui ! »", "en": "The children answer in unison: \"Yes!\""},
+      {"fr": "Elle chante dans le **chœur** de l'école.", "en": "She sings in the school choir."}]},
+    {"id": "tambour", "fr": "tambour", "pos": "noun", "g": "m", "ipa": "tɑ̃.buʁ", "en": "drum", "def": "Un instrument rond sur lequel on tape avec les mains ou avec des bâtons.", "def_en": "A round instrument that you hit with your hands or with sticks.", "forms": ["tambours"], "examples": [
+      {"fr": "Au fond de l'orchestre, il y a un **tambour**.", "en": "At the back of the orchestra, there's a drum."},
+      {"fr": "Le petit garçon tape sur son **tambour** toute la journée.", "en": "The little boy bangs on his drum all day long."},
+      {"fr": "Mon cœur bat comme un **tambour**.", "en": "My heart is pounding like a drum."}]},
+    {"id": "percussion", "fr": "percussion", "pos": "noun", "g": "f", "ipa": "pɛʁ.ky.sjɔ̃", "en": "percussion; (les percussions) the percussion section", "def": "Les instruments sur lesquels on tape pour donner le rythme : tambours, timbales…", "def_en": "The instruments you hit to give the rhythm: drums, kettledrums…", "forms": ["percussions"], "examples": [
+      {"fr": "Au fond, il y a les **percussions** : les timbales et un tambour.", "en": "At the back, there's the percussion: the kettledrums and a drum."},
+      {"fr": "Il joue des **percussions** dans un groupe de rock.", "en": "He plays percussion in a rock band."},
+      {"fr": "La **percussion** demande un bon [sens|sens-n] du rythme.", "en": "Percussion takes a good sense of rhythm."}]},
+    {"id": "composition", "fr": "composition", "pos": "noun", "g": "f", "ipa": "kɔ̃.po.zi.sjɔ̃", "en": "composition (writing music; a piece of music)", "def": "Le fait d'écrire de la musique ; un morceau de musique qu'on a écrit.", "def_en": "The act of writing music; a piece of music someone has written.", "forms": ["compositions"], "examples": [
+      {"fr": "Tom étudie la **composition** à l'université.", "en": "Tom studies composition at university."},
+      {"fr": "Cette chanson est une **composition** de Tom.", "en": "This song is one of Tom's compositions."},
+      {"fr": "Il a écrit sa première **composition** à quinze ans.", "en": "He wrote his first composition at fifteen."}]},
+    {"id": "flute", "fr": "flûte", "pos": "noun", "g": "f", "ipa": "flyt", "en": "flute", "def": "Un instrument long et [fin|fin] dans lequel on souffle, avec des trous pour les doigts.", "def_en": "A long, thin instrument you blow into, with holes for your fingers.", "forms": ["flûtes"], "examples": [
+      {"fr": "À côté, il y a la harpe et la **flûte**.", "en": "Next to them, there are the harp and the flute."},
+      {"fr": "Le prince joue de sa **flûte** magique.", "en": "The prince plays his magic flute."},
+      {"fr": "La **flûte** a un son doux et léger.", "en": "The flute has a soft, light sound."}]},
+    {"id": "trompette", "fr": "trompette", "pos": "noun", "g": "f", "ipa": "tʁɔ̃.pɛt", "en": "trumpet", "def": "Un instrument en métal dans lequel on souffle, au son fort et clair.", "def_en": "A metal instrument you blow into, with a loud, bright sound.", "forms": ["trompettes"], "examples": [
+      {"fr": "Derrière, il y a le cor et les **trompettes**.", "en": "Behind them, there are the horn and the trumpets."},
+      {"fr": "Le voisin apprend la **trompette**, et tout l'immeuble l'entend.", "en": "The neighbour is learning the trumpet, and the whole building hears it."},
+      {"fr": "Les **trompettes** annoncent l'arrivée de la reine.", "en": "The trumpets announce the queen's arrival."}]},
+    {"id": "lustre", "fr": "lustre", "pos": "noun", "g": "m", "ipa": "lystʁ", "en": "chandelier", "def": "Une grande lampe accrochée au plafond, souvent avec beaucoup de lumières.", "def_en": "A big lamp hung from the ceiling, often with many lights.", "forms": ["lustres"], "examples": [
+      {"fr": "Il n'y a pas de **lustre** au plafond.", "en": "There's no chandelier on the ceiling."},
+      {"fr": "Un énorme **lustre** brille au-dessus de la table.", "en": "A huge chandelier shines above the table."},
+      {"fr": "Le **lustre** de ma grand-mère a cent ans.", "en": "My grandmother's chandelier is a hundred years old."}]},
+    {"id": "gamme", "fr": "gamme", "pos": "noun", "g": "f", "ipa": "ɡam", "en": "(musical) scale; range (of products)", "def": "Des notes jouées l'une après l'autre, de la plus basse à la plus haute ; un ensemble de produits du même genre.", "def_en": "Notes played one after the other, from the lowest to the highest; a set of products of the same kind.", "note": "Haut de gamme = top of the range, upmarket; bas de gamme = low-end.", "forms": ["gammes"], "examples": [
+      {"fr": "Une clarinette fait des **gammes**.", "en": "A clarinet is practising scales."},
+      {"fr": "Tom fait ses **gammes** à la guitare tous les matins.", "en": "Tom practises his scales on the guitar every morning."},
+      {"fr": "Ce sont des chaussures haut de **gamme**.", "en": "These are top-of-the-range shoes."}]},
+    {"id": "compositeur", "fr": "compositeur", "pos": "noun", "g": "m", "ipa": "kɔ̃.po.zi.tœʁ", "display": "le compositeur, la compositrice", "en": "composer", "def": "La personne qui écrit de la musique.", "def_en": "The person who writes music.", "forms": ["compositeurs", "compositrice", "compositrices"], "examples": [
+      {"fr": "Mozart, c'est mon **compositeur** préféré.", "en": "Mozart is my favourite composer."},
+      {"fr": "Tom rêve de devenir **compositeur**.", "en": "Tom dreams of becoming a composer."},
+      {"fr": "Cette **compositrice** écrit de la musique pour le cinéma.", "en": "This composer writes music for the cinema."}]},
+    {"id": "pupitre", "fr": "pupitre", "pos": "noun", "g": "m", "ipa": "py.pitʁ", "en": "music stand; (school) desk", "def": "Le petit meuble sur lequel le musicien pose sa partition ; la table d'un élève à l'école.", "def_en": "The small piece of furniture on which a musician puts their score; a pupil's table at school.", "forms": ["pupitres"], "examples": [
+      {"fr": "Chaque musicien pose sa partition sur son **pupitre**.", "en": "Each musician puts their score on their music stand."},
+      {"fr": "À l'école, j'avais un vieux **pupitre** en bois.", "en": "At school, I had an old wooden desk."},
+      {"fr": "Tom range son **pupitre** après la répétition.", "en": "Tom puts his music stand away after the rehearsal."}]},
+    {"id": "cor", "fr": "cor", "pos": "noun", "g": "m", "ipa": "kɔʁ", "en": "horn (French horn)", "def": "Un instrument de musique en métal, fait d'un long tube tourné en rond, dans lequel on souffle.", "def_en": "A metal musical instrument, made of a long tube curled round, that you blow into.", "note": "Cor sounds just like corps (body).", "forms": ["cors"], "examples": [
+      {"fr": "Un **cor** répond à la clarinette.", "en": "A horn answers the clarinet."},
+      {"fr": "Le **cor** a un son doux et rond.", "en": "The horn has a soft, round sound."},
+      {"fr": "Elle joue du **cor** depuis dix ans.", "en": "She has played the horn for ten years."}]},
+    {"id": "soprano", "fr": "soprano", "pos": "noun", "g": "f", "both": true, "ipa": "so.pʁa.no", "display": "le / la soprano", "en": "soprano", "def": "La voix de femme la plus haute ; la chanteuse qui a cette voix.", "def_en": "The highest woman's voice; the singer who has that voice.", "note": "La soprano = the singer; le soprano = the voice.", "forms": ["sopranos"], "accept": ["la soprano"], "examples": [
+      {"fr": "La **soprano** monte si haut que Hugo sursaute.", "en": "The soprano goes up so high that Hugo jumps."},
+      {"fr": "Une **soprano** chante les notes les plus hautes.", "en": "A soprano sings the highest notes."},
+      {"fr": "Dans le chœur, les **sopranos** sont devant.", "en": "In the choir, the sopranos are at the front."}]},
+    {"id": "symphonie", "fr": "symphonie", "pos": "noun", "g": "f", "ipa": "sɛ̃.fɔ.ni", "en": "symphony", "def": "Une longue œuvre pour un grand orchestre, sans chanteurs, souvent en quatre parties.", "def_en": "A long work for a large orchestra, without singers, often in four parts.", "forms": ["symphonies"], "examples": [
+      {"fr": "Une **symphonie**, c'est sans chanteurs.", "en": "A symphony has no singers."},
+      {"fr": "Mozart a écrit plus de quarante **symphonies**.", "en": "Mozart wrote more than forty symphonies."},
+      {"fr": "Ce soir, l'orchestre joue une **symphonie**.", "en": "Tonight, the orchestra is playing a symphony."}]},
+    {"id": "violoncelle", "fr": "violoncelle", "pos": "noun", "g": "m", "ipa": "vjɔ.lɔ̃.sɛl", "en": "cello", "def": "Un grand instrument à cordes, qu'on joue assis, en le tenant entre les jambes.", "def_en": "A large string instrument, played sitting down, held between the legs.", "forms": ["violoncelles"], "examples": [
+      {"fr": "Les violons et les **violoncelles** sont devant.", "en": "The violins and the cellos are at the front."},
+      {"fr": "On joue du **violoncelle** assis.", "en": "You play the cello sitting down."},
+      {"fr": "Le **violoncelle** a un son profond et chaud.", "en": "The cello has a deep, warm sound."}]},
+    {"id": "harpe", "fr": "harpe", "pos": "noun", "g": "f", "hAsp": true, "ipa": "aʁp", "en": "harp", "def": "Un grand instrument avec beaucoup de cordes, qu'on joue avec les doigts des deux mains.", "def_en": "A large instrument with many strings, played with the fingers of both hands.", "note": "The h is aspirated: la harpe, not l'harpe.", "forms": ["harpes"], "examples": [
+      {"fr": "Camille ne [quitte|quitter] pas la **harpe** des yeux.", "en": "Camille can't take her eyes off the harp."},
+      {"fr": "La **harpe** a beaucoup de cordes.", "en": "The harp has a lot of strings."},
+      {"fr": "Un ange joue de la **harpe** sur le tableau.", "en": "In the painting, an angel plays the harp."}]},
+    {"id": "clarinette", "fr": "clarinette", "pos": "noun", "g": "f", "ipa": "kla.ʁi.nɛt", "en": "clarinet", "def": "Un instrument noir, en bois, dans lequel on souffle.", "def_en": "A black wooden instrument you blow into.", "forms": ["clarinettes"], "examples": [
+      {"fr": "J'ai joué de la **clarinette** à l'école. Très mal.", "en": "I played the clarinet at school. Very badly."},
+      {"fr": "La **clarinette** est en bois noir.", "en": "The clarinet is made of black wood."},
+      {"fr": "Il range sa **clarinette** dans sa boîte.", "en": "He puts his clarinet away in its case."}]},
+    {"id": "tenor", "fr": "ténor", "pos": "noun", "g": "m", "ipa": "te.nɔʁ", "en": "tenor", "def": "La voix d'homme la plus haute ; le chanteur qui a cette voix.", "def_en": "The highest man's voice; the singer who has that voice.", "forms": ["ténors"], "examples": [
+      {"fr": "Le **ténor** chante sans micro.", "en": "The tenor sings without a microphone."},
+      {"fr": "Le **ténor** joue souvent le rôle du héros.", "en": "The tenor often plays the hero's part."},
+      {"fr": "Trois **ténors** chantent ensemble ce soir.", "en": "Three tenors are singing together tonight."}]},
+    {"id": "archet", "fr": "archet", "pos": "noun", "g": "m", "ipa": "aʁ.ʃɛ", "en": "bow (of a violin, a cello)", "def": "Le long bâton [fin|fin] qu'on passe sur les cordes d'un violon pour le faire chanter.", "def_en": "The long thin stick you draw across the strings of a violin to make it sing.", "forms": ["archets"], "examples": [
+      {"fr": "Regarde les **archets** : ils se lèvent tous en même temps.", "en": "Look at the bows: they all go up at the same time."},
+      {"fr": "Le musicien tient son **archet** de la main droite.", "en": "The musician holds his bow in his right hand."},
+      {"fr": "Elle passe l'**archet** sur les cordes.", "en": "She draws the bow across the strings."}]},
+    {"id": "soliste", "fr": "soliste", "pos": "noun", "g": "m", "both": true, "ipa": "sɔ.list", "display": "le / la soliste", "en": "soloist", "def": "Le musicien ou le chanteur qui joue ou chante seul, devant l'orchestre.", "def_en": "The musician or singer who plays or sings alone, in front of the orchestra.", "forms": ["solistes"], "accept": ["la soliste"], "examples": [
+      {"fr": "Les **solistes** viennent saluer un par un.", "en": "The soloists come out to bow one by one."},
+      {"fr": "Ce soir, la **soliste** a dix-neuf ans.", "en": "Tonight, the soloist is nineteen."},
+      {"fr": "Le **soliste** joue seul devant l'orchestre.", "en": "The soloist plays alone in front of the orchestra."}]},
+    {"id": "corde", "fr": "corde", "pos": "noun", "g": "f", "ipa": "kɔʁd", "en": "string; rope; (les cordes) the strings (of an orchestra)", "def": "Un fil épais et solide pour attacher ou tirer ; un fil tendu sur un instrument de musique.", "def_en": "A thick, strong cord for tying or pulling; a cord stretched over a musical instrument.", "note": "Sauter à la corde = to skip rope.", "forms": ["cordes"], "examples": [
+      {"fr": "Là, ce sont les **cordes** : les violons, les violoncelles.", "en": "There, that's the strings: the violins, the cellos."},
+      {"fr": "Il a cassé une **corde** de sa guitare.", "en": "He broke a string on his guitar."},
+      {"fr": "Les enfants sautent à la **corde**.", "en": "The children are skipping rope."}]},
+    {"id": "baryton", "fr": "baryton", "pos": "noun", "g": "m", "ipa": "ba.ʁi.tɔ̃", "en": "baritone", "def": "Une voix d'homme, plus basse que celle du ténor ; le chanteur qui a cette voix.", "def_en": "A man's voice, lower than the tenor's; the singer who has that voice.", "forms": ["barytons"], "examples": [
+      {"fr": "Papageno est un **baryton** [couvert|couvrir] de plumes.", "en": "Papageno is a baritone covered in feathers."},
+      {"fr": "Le **baryton** a une voix plus basse que le ténor.", "en": "The baritone has a lower voice than the tenor."},
+      {"fr": "Ce **baryton** chante aussi des chansons populaires.", "en": "This baritone also sings popular songs."}]},
+    {"id": "lyrique", "fr": "lyrique", "pos": "adj", "ipa": "li.ʁik", "en": "lyric; (art lyrique) opera; (chanteur lyrique) opera singer", "def": "Qui est lié à l'opéra et au chant classique.", "def_en": "To do with opera and classical singing.", "note": "L'art lyrique = opera; un chanteur lyrique = an opera singer.", "forms": ["lyriques"], "examples": [
+      {"fr": "Camille veut voir une vraie chanteuse **lyrique** japonaise.", "en": "Camille wants to see a real Japanese opera singer."},
+      {"fr": "Elle prend des cours de chant **lyrique**.", "en": "She takes classical singing lessons."},
+      {"fr": "L'art **lyrique**, c'est l'opéra.", "en": "Art lyrique means opera."}]},
+    {"id": "timbale", "fr": "timbale", "pos": "noun", "g": "f", "ipa": "tɛ̃.bal", "en": "kettledrum; (les timbales) timpani", "def": "Un grand tambour en métal, en forme de bol, dans un orchestre.", "def_en": "A large bowl-shaped metal drum in an orchestra.", "forms": ["timbales"], "examples": [
+      {"fr": "Hugo voudrait jouer des **timbales**.", "en": "Hugo would like to play the kettledrums."},
+      {"fr": "Les **timbales** font un bruit énorme.", "en": "The kettledrums make a huge noise."},
+      {"fr": "Le musicien tape sur les **timbales** avec deux petits bâtons.", "en": "The musician strikes the kettledrums with two little sticks."}]}
+  ],
+  "story": {
+    "title": "La Flûte enchantée",
+    "en": "The Magic Flute",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le jeudi deux juin, à sept heures et demie du soir, Tom, Camille, Hugo et Carla entrent à l'Opéra de Lyon, sous son grand toit de verre.", "en": "On Thursday 2 June, at half past seven in the evening, Tom, Camille, Hugo and Carla walk into the Opéra de Lyon, under its great glass roof."},
+      {"sp": "", "fr": "Hier, Tom a eu vingt-trois ans, et les billets sont le cadeau de Camille : ce soir, on joue la Flûte enchantée, de Mozart, et Tom va à l'opéra pour la première fois.", "en": "Yesterday Tom turned twenty-three, and the tickets are Camille's present: tonight it's The Magic Flute, by Mozart, and Tom is going to the opera for the first time."},
+      {"sp": "Hugo", "fr": "Il est où, le lustre ? Dans les films, il y a toujours un énorme lustre.", "en": "Where's the chandelier? In films there's always a huge chandelier."},
+      {"sp": "Camille", "fr": "Il n'y a pas de lustre au plafond, Hugo : ici, la salle est toute noire.", "en": "There's no chandelier on the ceiling, Hugo: here the hall is all black."},
+      {"sp": "Carla", "fr": "Et si tu ronfles comme à Cyrano, je te réveille d'un coup de coude.", "en": "And if you snore like at Cyrano, I'll wake you up with my elbow."},
+      {"sp": "", "fr": "Leurs places sont tout en haut : de là, ils voient l'orchestre, en bas, devant la scène.", "en": "Their seats are right at the top: from there they can see the orchestra, down below, in front of the stage."},
+      {"sp": "Tom", "fr": "Là, ce sont les cordes : les violons, les violoncelles. Regarde les archets : ils se lèvent tous en même temps.", "en": "There, that's the strings: the violins, the cellos. Look at the bows: they all go up at the same time."},
+      {"sp": "Tom", "fr": "À côté, il y a la harpe et la flûte. Et la clarinette… J'ai joué de la clarinette à l'école, à Londres. Très mal.", "en": "Next to them, there are the harp and the flute. And the clarinet… I played the clarinet at school, in London. Very badly."},
+      {"sp": "", "fr": "Camille ne [quitte|quitter] pas la harpe des yeux. Chaque musicien pose sa partition sur son pupitre ; une clarinette fait des gammes, un cor répond.", "en": "Camille can't take her eyes off the harp. Each musician puts their score on their music stand; a clarinet practises scales, a horn answers."},
+      {"sp": "Tom", "fr": "Derrière, il y a le cor et les trompettes. Et au fond, les percussions : les timbales et un tambour.", "en": "Behind them, there are the horn and the trumpets. And at the back, the percussion: the kettledrums and a drum."},
+      {"sp": "Hugo", "fr": "Moi, je voudrais jouer des timbales. Au moins, on tape fort.", "en": "I'd like to play the kettledrums. At least you get to hit things hard."},
+      {"sp": "", "fr": "La lumière s'éteint. Tom, qui a peur du noir, prend la main de Camille.", "en": "The lights go down. Tom, who's afraid of the dark, takes Camille's hand."},
+      {"sp": "Tom", "fr": "C'est l'histoire d'un prince, d'une flûte magique et de Papageno, qui attrape des oiseaux.", "en": "It's the story of a prince, a magic flute and Papageno, who catches birds."},
+      {"sp": "Hugo", "fr": "C'est une symphonie, alors ?", "en": "So it's a symphony?"},
+      {"sp": "Tom", "fr": "Non, une symphonie, c'est sans chanteurs. Ici, c'est un opéra.", "en": "No, a symphony has no singers. This is an opera."},
+      {"sp": "", "fr": "Tom, qui étudie la composition, explique que Mozart, son compositeur préféré après Piaf, a écrit cet opéra l'année de sa mort.", "en": "Tom, who studies composition, explains that Mozart, his favourite composer after Piaf, wrote this opera in the year he died."},
+      {"sp": "", "fr": "Le ténor qui joue le prince chante sans micro, et on l'entend jusqu'en haut.", "en": "The tenor who plays the prince sings without a microphone, and you can hear him right up at the top."},
+      {"sp": "", "fr": "Papageno arrive : un baryton [couvert|couvrir] de plumes, avec une cage pleine d'oiseaux. Hugo rit plus fort que tout le monde.", "en": "Papageno comes on: a baritone covered in feathers, with a cage full of birds. Hugo laughs louder than anyone."},
+      {"sp": "", "fr": "Puis vient la Reine de la Nuit : la soprano monte si haut, note après note, que Hugo sursaute et attrape le bras de Carla. À l'entracte, Camille rêve tout haut.", "en": "Then comes the Queen of the Night: the soprano goes up so high, note after note, that Hugo jumps and grabs Carla's arm. In the interval, Camille dreams out loud."},
+      {"sp": "Camille", "fr": "La prochaine fois, je veux voir Madame Butterfly, avec une vraie chanteuse lyrique japonaise.", "en": "Next time, I want to see Madame Butterfly, with a real Japanese opera singer."},
+      {"sp": "Camille", "fr": "Quand on a un copain qui ne prend pas l'avion, c'est ce qui ressemble le plus au Japon.", "en": "When you've got a boyfriend who won't fly, it's the closest thing to Japan."},
+      {"sp": "", "fr": "Tom fait semblant de ne pas entendre. Après l'entracte, le chœur des prêtres chante si fort que Hugo se redresse dans son fauteuil : il ne fermera pas l'œil de la soirée.", "en": "Tom pretends not to hear. After the interval, the priests' chorus sings so loudly that Hugo sits up straight in his seat: he won't sleep a wink all evening."},
+      {"sp": "", "fr": "À la fin, c'est un triomphe : la salle applaudit debout pendant dix minutes.", "en": "At the end, it's a triumph: the audience gives a ten-minute standing ovation."},
+      {"sp": "", "fr": "Les solistes viennent saluer un par un, et c'est Papageno qui reçoit le plus d'applaudissements.", "en": "The soloists come out to bow one by one, and it's Papageno who gets the most applause."},
+      {"sp": "Carla", "fr": "Tu n'as pas ronflé une seule fois !", "en": "You didn't snore once!"},
+      {"sp": "Hugo", "fr": "Mozart, un, Cyrano, zéro.", "en": "Mozart one, Cyrano nil."}
+    ]
+  }
+}

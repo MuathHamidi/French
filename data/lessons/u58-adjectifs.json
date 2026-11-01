@@ -1,0 +1,143 @@
+{
+  "id": "u58-adjectifs",
+  "type": "vocab",
+  "unit": 58,
+  "title": "Lundi de Pentecôte",
+  "en": "Common adjectives (7)",
+  "intro": "25 common adjectives: Pierre's North Sea week (**rauque, grisâtre, terne, matinal, insensible, costaud, chanceux, inoubliable, épatant**), Biquette and the postcards (**avide, impuissant, gluant, odieux**), Manon and Jules (**radieux, paternel, rêveur**), the kittens in the barn (**poussiéreux, indécis, frêle, farouche, féroce**) and Lou's question (**indiscret, blême, furtif, pitoyable**).",
+  "words": [
+    {"id": "rauque", "fr": "rauque", "pos": "adj", "ipa": "ʁok", "en": "hoarse, husky", "def": "Se dit d'une voix basse et un peu cassée, comme quand on a mal à la gorge.", "def_en": "Said of a low, slightly broken voice, as when you have a sore throat.", "forms": ["rauques"], "examples": [
+      {"fr": "Pierre a encore la voix **rauque** à cause du vent de la mer du Nord.", "en": "Pierre's voice is still hoarse from the North Sea wind."},
+      {"fr": "Le chanteur a une voix **rauque** et chaude.", "en": "The singer has a husky, warm voice."},
+      {"fr": "Après trois heures de chant, Hugo a la voix **rauque**.", "en": "After three hours of singing, Hugo's voice is hoarse."}]},
+    {"id": "grisatre", "fr": "grisâtre", "pos": "adj", "ipa": "ɡʁi.zɑtʁ", "en": "greyish", "def": "D'une couleur proche de celle de la cendre ou d'un ciel de pluie, souvent un peu triste.", "def_en": "Of a colour close to that of ash or a rainy sky, often a little sad.", "forms": ["grisâtres"], "examples": [
+      {"fr": "Le matin, la mer était **grisâtre**, puis verte, puis argentée.", "en": "In the morning the sea was greyish, then green, then silver."},
+      {"fr": "Ce vieux tee-shirt blanc est devenu **grisâtre**.", "en": "This old white T-shirt has turned greyish."},
+      {"fr": "Des nuages **grisâtres** cachent la montagne.", "en": "Greyish clouds hide the mountain."}]},
+    {"id": "terne", "fr": "terne", "pos": "adj", "ipa": "tɛʁn", "en": "dull, drab", "def": "Sans éclat et sans couleur vive ; qui n'attire pas le regard.", "def_en": "Without shine or bright colour; that doesn't catch the eye.", "forms": ["ternes"], "examples": [
+      {"fr": "Grise, oui, mais jamais **terne**, la mer du Nord !", "en": "Grey, yes, but never dull, the North Sea!"},
+      {"fr": "Après l'hiver, mes cheveux sont tout **ternes**.", "en": "After the winter, my hair is all dull."},
+      {"fr": "Sans toi, la fête serait bien **terne**.", "en": "Without you, the party would be very dull."}]},
+    {"id": "matinal", "fr": "matinal", "pos": "adj", "ipa": "ma.ti.nal", "display": "matinal, matinale", "en": "morning; (être matinal) early-rising", "def": "Qui se passe tôt dans la journée ; qui se lève tôt.", "def_en": "That happens early in the day; who gets up early.", "note": "*Tu es bien matinal !* = you're up early!", "forms": ["matinale", "matinaux", "matinales"], "accept": ["matinale"], "examples": [
+      {"fr": "Mes baignades **matinales**, c'était le meilleur moment de la journée.", "en": "My morning swims were the best moment of the day."},
+      {"fr": "Enzo est très **matinal** : il se lève à quatre heures.", "en": "Enzo is a very early riser: he gets up at four."},
+      {"fr": "Une promenade **matinale** au bord du lac.", "en": "A morning walk by the lake."}]},
+    {"id": "insensible", "fr": "insensible", "pos": "adj", "ipa": "ɛ̃.sɑ̃.sibl", "en": "insensitive; (insensible à) unaffected by", "def": "Qui ne sent pas une chose, comme le froid ou la douleur ; qui n'est pas touché par ce que vivent les autres.", "def_en": "Who doesn't feel something, like cold or pain; who isn't moved by what others go through.", "forms": ["insensibles"], "examples": [
+      {"fr": "Je suis **insensible** au froid : douze degrés, pour moi, c'est tiède !", "en": "I don't feel the cold: twelve degrees is warm to me!"},
+      {"fr": "Comment peux-tu rester **insensible** à cette musique ?", "en": "How can you stay unmoved by this music?"},
+      {"fr": "Elle n'est pas **insensible** : elle cache ses larmes.", "en": "She isn't unfeeling: she hides her tears."}]},
+    {"id": "costaud", "fr": "costaud", "pos": "adj", "ipa": "kɔs.to", "display": "costaud, costaude", "en": "sturdy, burly, strong", "def": "Grand, fort et solide.", "def_en": "Big, strong and solid.", "note": "Familiar. *C'est du costaud* = it's solid stuff.", "forms": ["costaude", "costauds", "costaudes"], "accept": ["costaude"], "examples": [
+      {"fr": "Le cheval du pêcheur est si **costaud** qu'il entre dans les vagues sans peur.", "en": "The fisherman's horse is so sturdy that it walks into the waves without fear."},
+      {"fr": "Il faut deux gars **costauds** pour porter ce piano.", "en": "It takes two burly lads to carry this piano."},
+      {"fr": "Achète une valise **costaude**, pas une valise en carton.", "en": "Buy a sturdy suitcase, not a cardboard one."}]},
+    {"id": "chanceux", "fr": "chanceux", "pos": "adj", "ipa": "ʃɑ̃.sø", "display": "chanceux, chanceuse", "en": "lucky", "def": "À qui il arrive souvent des choses heureuses par hasard.", "def_en": "To whom happy things often happen by chance.", "forms": ["chanceuse", "chanceuses"], "accept": ["chanceuse"], "examples": [
+      {"fr": "J'ai été **chanceux** : pas une goutte de pluie en sept jours !", "en": "I was lucky: not a drop of rain in seven days!"},
+      {"fr": "Tu as encore gagné ? Tu es vraiment **chanceuse** !", "en": "You won again? You really are lucky!"},
+      {"fr": "Les gens **chanceux** ne remarquent pas toujours leur chance.", "en": "Lucky people don't always notice their luck."}]},
+    {"id": "inoubliable", "fr": "inoubliable", "pos": "adj", "ipa": "i.nu.bli.jabl", "en": "unforgettable", "def": "Si beau ou si fort qu'il reste dans la mémoire toute la vie.", "def_en": "So beautiful or so strong that you'll remember it all your life.", "forms": ["inoubliables"], "examples": [
+      {"fr": "Une semaine **inoubliable**, je vous le dis !", "en": "An unforgettable week, I'm telling you!"},
+      {"fr": "Ce concert reste un souvenir **inoubliable**.", "en": "That concert is still an unforgettable memory."},
+      {"fr": "Merci pour cette soirée **inoubliable** !", "en": "Thank you for this unforgettable evening!"}]},
+    {"id": "epatant", "fr": "épatant", "pos": "adj", "ipa": "e.pa.tɑ̃", "display": "épatant, épatante", "en": "(old-fashioned) splendid, terrific", "def": "Très bien, formidable (un mot un peu ancien).", "def_en": "Very good, wonderful (a rather old-fashioned word).", "forms": ["épatante", "épatants", "épatantes"], "accept": ["épatante"], "examples": [
+      {"fr": "La mer, le cheval, les huîtres : tout était **épatant** !", "en": "The sea, the horse, the oysters: it was all splendid!"},
+      {"fr": "Ta grand-mère est une femme **épatante**.", "en": "Your grandmother is a terrific woman."},
+      {"fr": "On a vu un film **épatant** hier soir.", "en": "We saw a terrific film last night."}]},
+    {"id": "avide", "fr": "avide", "pos": "adj", "ipa": "a.vid", "en": "greedy; (avide de) eager for", "def": "Qui veut avoir beaucoup d'une chose, et tout de suite.", "def_en": "Who wants a lot of something, and right away.", "forms": ["avides"], "examples": [
+      {"fr": "Biquette, toujours **avide** de papier, s'approche du sac.", "en": "Biquette, always greedy for paper, comes up to the bag."},
+      {"fr": "Les enfants écoutent l'histoire, **avides** de connaître la fin.", "en": "The children listen to the story, eager to know the end."},
+      {"fr": "Ce patron est **avide** d'argent.", "en": "This boss is greedy for money."}]},
+    {"id": "impuissant", "fr": "impuissant", "pos": "adj", "ipa": "ɛ̃.pɥi.sɑ̃", "display": "impuissant, impuissante", "en": "powerless, helpless", "def": "Qui ne peut rien faire pour empêcher quelque chose.", "def_en": "Who can do nothing to stop something.", "forms": ["impuissante", "impuissants", "impuissantes"], "accept": ["impuissante"], "examples": [
+      {"fr": "Pierre, **impuissant**, regarde la chèvre manger la dernière carte.", "en": "Pierre, powerless, watches the goat eat the last card."},
+      {"fr": "Les pompiers sont **impuissants** contre ce feu.", "en": "The firefighters are powerless against this fire."},
+      {"fr": "Je me sens **impuissante** quand mon fils pleure.", "en": "I feel helpless when my son cries."}]},
+    {"id": "gluant", "fr": "gluant", "pos": "adj", "ipa": "ɡly.ɑ̃", "display": "gluant, gluante", "en": "sticky, slimy", "def": "Qui colle aux doigts, comme du miel ou de la colle.", "def_en": "That sticks to your fingers, like honey or glue.", "forms": ["gluante", "gluants", "gluantes"], "accept": ["gluante"], "examples": [
+      {"fr": "Il ne reste qu'un petit bout **gluant**, avec une moitié de cheval.", "en": "All that's left is a small sticky scrap, with half a horse."},
+      {"fr": "Le riz est trop cuit : il est tout **gluant**.", "en": "The rice is overcooked: it's all sticky."},
+      {"fr": "Lou a les mains **gluantes** de confiture.", "en": "Lou's hands are sticky with jam."}]},
+    {"id": "odieux", "fr": "odieux", "pos": "adj", "ipa": "ɔ.djø", "display": "odieux, odieuse", "en": "hateful, horrible (behaviour, person)", "def": "Très méchant ou très désagréable ; qu'on ne peut pas supporter.", "def_en": "Very nasty or very unpleasant; that you can't stand.", "forms": ["odieuse", "odieuses"], "accept": ["odieuse"], "examples": [
+      {"fr": "Biquette, tu es **odieuse** !", "en": "Biquette, you're horrible!"},
+      {"fr": "Le client a été **odieux** avec la serveuse.", "en": "The customer was horrible to the waitress."},
+      {"fr": "Ce mensonge est **odieux**.", "en": "That lie is hateful."}]},
+    {"id": "radieux", "fr": "radieux", "pos": "adj", "ipa": "ʁa.djø", "display": "radieux, radieuse", "en": "radiant; glorious (weather)", "def": "Plein de joie et de lumière ; très beau, pour le temps.", "def_en": "Full of joy and light; very fine, of the weather.", "forms": ["radieuse", "radieuses"], "accept": ["radieuse"], "examples": [
+      {"fr": "Manon, enceinte de six mois, est **radieuse**.", "en": "Manon, six months pregnant, is radiant."},
+      {"fr": "Demain, soleil **radieux** sur toute la France.", "en": "Tomorrow, glorious sunshine all over France."},
+      {"fr": "Les mariés avaient un sourire **radieux**.", "en": "The newlyweds had radiant smiles."}]},
+    {"id": "paternel", "fr": "paternel", "pos": "adj", "ipa": "pa.tɛʁ.nɛl", "display": "paternel, paternelle", "en": "paternal, fatherly", "def": "Qui vient d'un père, ou qui ressemble à ce que fait un père.", "def_en": "That comes from a father, or is like what a father does.", "forms": ["paternelle", "paternels", "paternelles"], "accept": ["paternelle"], "examples": [
+      {"fr": "Jules pose déjà une main **paternelle** sur le ventre de Manon.", "en": "Jules is already laying a fatherly hand on Manon's belly."},
+      {"fr": "Ma grand-mère **paternelle** habite à Lille.", "en": "My grandmother on my father's side lives in Lille."},
+      {"fr": "Il lui a donné un conseil très **paternel**.", "en": "He gave her some very fatherly advice."}]},
+    {"id": "reveur", "fr": "rêveur", "pos": "adj", "ipa": "ʁɛ.vœʁ", "display": "rêveur, rêveuse", "en": "dreamy", "def": "Qui a souvent l'esprit ailleurs, perdu dans ses pensées.", "def_en": "Whose mind is often elsewhere, lost in thought.", "note": "Also a noun: *un rêveur, une rêveuse* = a dreamer.", "forms": ["rêveuse", "rêveurs", "rêveuses"], "accept": ["rêveuse"], "examples": [
+      {"fr": "**Rêveuse**, Manon fait une liste de prénoms pour septembre.", "en": "Dreamily, Manon is already looking for names for September."},
+      {"fr": "Il regarde la mer d'un air **rêveur**.", "en": "He looks at the sea with a dreamy air."},
+      {"fr": "Les élèves sont **rêveurs** avant les vacances.", "en": "The pupils are dreamy before the holidays."}]},
+    {"id": "poussiereux", "fr": "poussiéreux", "pos": "adj", "ipa": "pu.sje.ʁø", "display": "poussiéreux, poussiéreuse", "en": "dusty", "def": "Couvert d'une fine [couche|couche] de saleté grise et sèche.", "def_en": "Covered with a thin layer of grey, dry dirt.", "forms": ["poussiéreuse", "poussiéreuses"], "accept": ["poussiéreuse"], "examples": [
+      {"fr": "Dans un coin **poussiéreux** de la grange, la chatte dort avec ses petits.", "en": "In a dusty corner of the barn, the cat is sleeping with her young."},
+      {"fr": "J'ai trouvé de vieux livres **poussiéreux** au grenier.", "en": "I found some dusty old books in the attic."},
+      {"fr": "La route est **poussiéreuse** en été.", "en": "The road is dusty in summer."}]},
+    {"id": "indecis", "fr": "indécis", "pos": "adj", "ipa": "ɛ̃.de.si", "display": "indécis, indécise", "en": "undecided, hesitant", "def": "Qui n'arrive pas à choisir.", "def_en": "Who can't manage to choose.", "forms": ["indécise", "indécises"], "accept": ["indécise"], "examples": [
+      {"fr": "Lou reste longtemps **indécise** entre le chaton roux et le noir.", "en": "Lou stays undecided for a long time between the ginger kitten and the black one."},
+      {"fr": "Je suis encore **indécis** : la mer ou la montagne ?", "en": "I still haven't decided: the sea or the mountains?"},
+      {"fr": "Beaucoup d'électeurs sont encore **indécis**.", "en": "Many voters are still undecided."}]},
+    {"id": "frele", "fr": "frêle", "pos": "adj", "ipa": "fʁɛl", "en": "frail, slight", "def": "Mince et fragile ; qui semble pouvoir se casser facilement.", "def_en": "Thin and fragile; that looks as if it could break easily.", "forms": ["frêles"], "examples": [
+      {"fr": "C'est le plus **frêle** des cinq, tout noir, avec une tache blanche.", "en": "It's the frailest of the five, all black, with a white spot."},
+      {"fr": "Une **frêle** vieille dame traverse la rue.", "en": "A frail old lady crosses the street."},
+      {"fr": "Ce jeune arbre a des branches très **frêles**.", "en": "This young tree has very slender branches."}]},
+    {"id": "farouche", "fr": "farouche", "pos": "adj", "ipa": "fa.ʁuʃ", "en": "shy, wild (animal, person); fierce (opposition)", "def": "Qui a peur des gens et se sauve quand on approche ; très fort et décidé, contre quelque chose.", "def_en": "Who is afraid of people and runs away when you come near; very strong and determined, against something.", "forms": ["farouches"], "examples": [
+      {"fr": "Le petit noir, **farouche**, se cache derrière sa mère.", "en": "The little black one, shy, hides behind its mother."},
+      {"fr": "Les chats de la ferme sont un peu **farouches**.", "en": "The farm cats are a little wild."},
+      {"fr": "Le projet rencontre une opposition **farouche**.", "en": "The project is meeting fierce opposition."}]},
+    {"id": "feroce", "fr": "féroce", "pos": "adj", "ipa": "fe.ʁɔs", "en": "fierce, ferocious", "def": "Sauvage et prêt à attaquer, comme une bête dangereuse.", "def_en": "Wild and ready to attack, like a dangerous animal.", "forms": ["féroces"], "examples": [
+      {"fr": "Le chaton crache comme un tigre **féroce**.", "en": "The kitten spits like a ferocious tiger."},
+      {"fr": "On dit que le loup est **féroce**, mais il a peur de l'homme.", "en": "They say the wolf is fierce, but it is afraid of humans."},
+      {"fr": "Ce soir, j'ai un appétit **féroce** !", "en": "Tonight I have a ferocious appetite!"}]},
+    {"id": "indiscret", "fr": "indiscret", "pos": "adj", "ipa": "ɛ̃.dis.kʁɛ", "display": "indiscret, indiscrète", "en": "indiscreet, nosy", "def": "Qui pose des questions sur la vie privée des autres, ou qui répète leurs secrets.", "def_en": "Who asks questions about other people's private lives, or repeats their secrets.", "forms": ["indiscrète", "indiscrets", "indiscrètes"], "accept": ["indiscrète"], "examples": [
+      {"fr": "Pour Hugo, c'est la question la plus **indiscrète** de l'année.", "en": "For Hugo, it's the most indiscreet question of the year."},
+      {"fr": "Ne lis pas mes messages, tu es trop **indiscret** !", "en": "Don't read my messages, you're too nosy!"},
+      {"fr": "Sans vouloir être **indiscrète**, tu as quel âge ?", "en": "Without wishing to pry, how old are you?"}]},
+    {"id": "bleme", "fr": "blême", "pos": "adj", "ipa": "blɛm", "en": "(deathly) pale, wan", "def": "Très pâle, presque blanc, à cause de la peur ou d'une maladie.", "def_en": "Very pale, almost white, because of fear or an illness.", "forms": ["blêmes"], "examples": [
+      {"fr": "Hugo devient **blême** et fait tomber sa fourchette.", "en": "Hugo goes white and drops his fork."},
+      {"fr": "Elle est sortie de l'examen, **blême** et fatiguée.", "en": "She came out of the exam, pale and tired."},
+      {"fr": "Une lumière **blême** entre par la fenêtre.", "en": "A wan light comes in through the window."}]},
+    {"id": "furtif", "fr": "furtif", "pos": "adj", "ipa": "fyʁ.tif", "display": "furtif, furtive", "en": "furtive, stealthy", "def": "Rapide et discret, pour ne pas être vu.", "def_en": "Quick and discreet, so as not to be seen.", "forms": ["furtive", "furtifs", "furtives"], "accept": ["furtive"], "examples": [
+      {"fr": "Léa lance un regard **furtif** à Hugo et change vite de sujet.", "en": "Léa throws Hugo a furtive glance and quickly changes the subject."},
+      {"fr": "Le renard a fait une visite **furtive** chez les poules.", "en": "The fox paid a stealthy visit to the hens."},
+      {"fr": "Ils échangent un sourire **furtif**.", "en": "They exchange a furtive smile."}]},
+    {"id": "pitoyable", "fr": "pitoyable", "pos": "adj", "ipa": "pi.twa.jabl", "en": "pitiful, pathetic", "def": "Très mauvais, triste à voir ; qui fait de la peine.", "def_en": "Very bad, sad to see; that makes you feel sorry.", "forms": ["pitoyables"], "examples": [
+      {"fr": "Hugo tente une explication **pitoyable**.", "en": "Hugo attempts a pathetic explanation."},
+      {"fr": "Notre équipe a fait un match **pitoyable**.", "en": "Our team played a pathetic match."},
+      {"fr": "Le pauvre chien était dans un état **pitoyable**.", "en": "The poor dog was in a pitiful state."}]}
+  ],
+  "story": {
+    "title": "Lundi de Pentecôte",
+    "en": "Monday 6 June, Whit Monday: lunch at Pierre's farm.",
+    "dialogue": true,
+    "lines": [
+      {"sp": "", "fr": "Le lundi six juin, lundi de Pentecôte, toute la famille déjeune dans la cour de la ferme, autour d'une longue table.", "en": "On Monday 6 June, Whit Monday, the whole family is having lunch in the farm's courtyard, round a long table."},
+      {"sp": "", "fr": "Pierre est rentré d'Ostende il y a neuf jours, mais il a encore la voix rauque à cause du vent de la mer du Nord.", "en": "Pierre came back from Ostend nine days ago, but his voice is still hoarse from the North Sea wind."},
+      {"sp": "Pierre", "fr": "Le matin, la mer était grisâtre, puis verte, puis argentée. Grise, oui, mais jamais terne, la mer du Nord !", "en": "In the morning the sea was greyish, then green, then silver. Grey, yes, but never dull, the North Sea!"},
+      {"sp": "Paul", "fr": "Et tu t'es vraiment baigné tous les jours ?", "en": "And did you really swim every day?"},
+      {"sp": "Pierre", "fr": "Mes baignades matinales, c'était le meilleur moment de la journée. Je suis insensible au froid : douze degrés, pour moi, c'est tiède !", "en": "My morning swims were the best moment of the day. I don't feel the cold: twelve degrees is warm to me!"},
+      {"sp": "Anne", "fr": "Tiède ? Je suis médecin, Pierre : douze degrés, c'est froid.", "en": "Warm? I'm a doctor, Pierre: twelve degrees is cold."},
+      {"sp": "Pierre", "fr": "Et le vieux pêcheur de crevettes m'a laissé monter son cheval. Une bête si costaude qu'elle entre dans les vagues sans peur. Épatant !", "en": "And the old shrimp fisherman let me ride his horse. An animal so sturdy that it walks into the waves without fear. Splendid!"},
+      {"sp": "Hugo", "fr": "Depuis Ostende, tout est « épatant » : c'est son nouveau mot préféré.", "en": "Since Ostend, everything is \"splendid\": it's his new favourite word."},
+      {"sp": "Pierre", "fr": "Et j'ai été chanceux : pas une goutte de pluie en sept jours ! Une semaine inoubliable, je vous le dis.", "en": "And I was lucky: not a drop of rain in seven days! An unforgettable week, I'm telling you."},
+      {"sp": "", "fr": "Pierre a apporté des cartes postales pour tout le monde, mais il a laissé son sac ouvert sur le banc.", "en": "Pierre has brought postcards for everyone, but he has left his bag open on the bench."},
+      {"sp": "", "fr": "Biquette, toujours avide de papier, a encore quitté son pré. Elle a déjà la tête dans le sac.", "en": "Biquette, always greedy for paper, has left her meadow again. Her head is already in the bag."},
+      {"sp": "", "fr": "Pierre, impuissant, regarde la chèvre manger la dernière carte. Il ne reste qu'un petit bout gluant, avec une moitié de cheval.", "en": "Pierre, powerless, watches the goat eat the last card. All that's left is a small sticky scrap, with half a horse."},
+      {"sp": "Pierre", "fr": "Biquette, tu es odieuse !", "en": "Biquette, you're horrible!"},
+      {"sp": "", "fr": "Manon, enceinte de six mois, est radieuse. Jules pose déjà une main paternelle sur son ventre.", "en": "Manon, six months pregnant, is radiant. Jules is already laying a fatherly hand on her belly."},
+      {"sp": "", "fr": "Rêveuse, Manon fait une liste de prénoms pour septembre.", "en": "Dreamily, Manon is making a list of names for September."},
+      {"sp": "", "fr": "Après le déjeuner, dans un coin poussiéreux de la grange, la chatte de la ferme dort avec ses cinq chatons.", "en": "After lunch, in a dusty corner of the barn, the farm cat is sleeping with her five kittens."},
+      {"sp": "", "fr": "Lou reste longtemps indécise entre un chaton roux et le plus frêle des cinq, tout noir, avec une tache blanche.", "en": "Lou stays undecided for a long time between a ginger kitten and the frailest of the five, all black, with a white spot."},
+      {"sp": "", "fr": "Le petit noir, farouche, se cache derrière sa mère. Quand Hugo tend la main, le chaton crache comme un tigre féroce.", "en": "The little black one, shy, hides behind its mother. When Hugo reaches out his hand, the kitten spits like a ferocious tiger."},
+      {"sp": "Lou", "fr": "C'est lui que je veux ! Il s'appellera Minou, et il viendra à Paris en juillet, quand il pourra quitter sa maman.", "en": "That's the one I want! He'll be called Minou, and he'll come to Paris in July, when he can leave his mummy."},
+      {"sp": "", "fr": "De retour à table, Lou, qui a entendu un mot nouveau à la maison, demande très fort à Carla :", "en": "Back at the table, Lou, who heard a new word at home, asks Carla very loudly:"},
+      {"sp": "Lou", "fr": "Dis, Carla, ça veut dire quoi, se fiancer ?", "en": "Hey, Carla, what does \"get engaged\" mean?"},
+      {"sp": "", "fr": "Pour Hugo, c'est la question la plus indiscrète de l'année : il devient blême et fait tomber sa fourchette.", "en": "For Hugo, it's the most indiscreet question of the year: he goes white and drops his fork."},
+      {"sp": "", "fr": "Léa lui lance un regard furtif et change vite de sujet : qui va garder Minou dans le train ? Mais Hugo tente une explication pitoyable :", "en": "Léa throws him a furtive glance and quickly changes the subject: who will look after Minou on the train? But Hugo attempts a pathetic explanation:"},
+      {"sp": "Hugo", "fr": "Se fiancer, c'est… quand deux chats dorment dans le même panier.", "en": "Getting engaged is... when two cats sleep in the same basket."},
+      {"sp": "Carla", "fr": "Mais non ! C'est quand deux personnes se promettent de se marier. Ton frère dit n'importe quoi, Lou.", "en": "No! It's when two people promise to marry each other. Your brother's talking nonsense, Lou."},
+      {"sp": "", "fr": "Carla ne se doute de [rien|rien]. Anne et Paul échangent un regard, et Lou annonce qu'elle se fiancera avec Minou.", "en": "Carla suspects nothing. Anne and Paul exchange a look, and Lou announces that she'll get engaged to Minou."}
+    ]
+  }
+}
