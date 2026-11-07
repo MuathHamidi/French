@@ -181,7 +181,7 @@ FIXES = {
     "quatre-vingt-deux": "katʁvɛ̃dˈø", "quatre-vingt-trois": "katʁvɛ̃tʁwˈa", "quatre-vingt-quatre": "katʁvɛ̃kˈatʁ",
     "quatre-vingt-cinq": "katʁvɛ̃sˈɛ̃k", "quatre-vingt-six": "katʁvɛ̃sˈis", "quatre-vingt-sept": "katʁvɛ̃sˈɛt",
     "quatre-vingt-huit": "katʁvɛ̃ɥˈit", "quatre-vingt-neuf": "katʁvɛ̃nˈœf", "quatre-vingt-onze": "katʁvɛ̃ˈɔ̃z",  # the voice says the t of vingt
-    "supporters": "sypɔʁtˈœʁ",  # the fans, not the verb supporter
+    "supporters": "sypɔʁtˈœʁ", "un supporter": "œ̃ sypɔʁtˈœʁ",  # the fans, not the verb supporter (the noun's card says un supporter)
     "aux os": "ozˈo",  # the plural os is /o/: the voice says /ɔs/ (trempé jusqu'aux os)
     "avent": "avˈɑ̃",  # Advent: the voice says /av/ (le calendrier de l'Avent)
     "houx": "ˈu",  # holly: the voice adds a liaison (du houx à la fenêtre)
@@ -211,8 +211,12 @@ ALONE_FIXES = {
     "à plus": "a plˈys",  # see you! (in sentences, see "à plus !" in FIXES)
     "l'est": "lˈɛst",  # east, clicked or on its word card (in sentences, see "à l'est" in FIXES)
     "de plus": "də plˈys",  # what's more (in sentences, see "de plus," in FIXES)
-    "je": "ʒˈø",  # alone, the voice opens the vowel, nearly /ʒœ/ (and j' alone says je)
+    "je": "ʒˈø", "ne": "nˈø",  # alone, the voice opens the vowel, nearly /ʒœ/ (and j', n' alone say je, ne)
     "tu": "ty", "tue": "ty",  # alone and stressed, the voice hisses the t for ~140 ms; unstressed, it's as in "tu es"
+    # These had a puff of air after the t or k (tools/build/retake.py --check). They are the voice's own phonemes,
+    # only to give the word a new recording: the best of ten takes (retake.py).
+    "thé": "tˈe", "tort": "tˈɔʁ", "cou": "kˈu", "tiers": "tjˈɛʁ", "tube": "tˈyb", "tiède": "tjˈɛd", "teint": "tˈɛ̃",
+    "cage": "kˈaʒ",
 }
 # A list of forms (bien · chien, il / elle / on fait, A = B) is said with a short pause between its items: the voice
 # reads "·" as "point" and runs the others together. An elided item next to its full form (je · j') isn't said.
