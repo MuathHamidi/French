@@ -271,9 +271,12 @@ test('sw.js saves every file the app loads', () => {
   eq(SW_FILES.filter((file) => !fs.existsSync(path.join(ROOT, file.replace(/\?.*/, '')))), [], 'files in sw.js that do not exist');
 });
 
-// The server: publish(v) puts version v of every file online; delay(file) holds an answer back (ms).
+// The server: publish(v) puts version v of every file online; delay(file) holds an answer back (ms);
+// retag() gives every file a new ETag without changing it, as GitHub Pages' servers can (their dates for a
+// file differ by a second); `whole` counts the files sent whole (not "not modified").
 function makeServer() {
-  const server = { files: new Map(), delay: () => 0, offline: false, asked: [] };
+  const server = { files: new Map(), delay: () => 0, offline: false, asked: [], whole: 0 };
+  server.retag = () => { for (const f of server.files.values()) f.etag = `"${f.etag.slice(1, -1)}+"`; };
   server.publish = (v, { without = [] } = {}) => {
     const lessons = ['a', 'b'];
     server.files.clear();
@@ -298,6 +301,7 @@ function makeServer() {
     if (new Headers(init.headers || input.headers || {}).get('If-None-Match') === found.etag) {
       return new Response(null, { status: 304, headers: { ETag: found.etag } });
     }
+    server.whole++;
     return new Response(found.body, { headers: { ETag: found.etag } });
   };
   return server;
@@ -449,6 +453,21 @@ await testAsync('sw.js: when nothing changed, nothing new is saved', async () =>
   for (const id of ['p1', 'p2']) eq((await openApp(worker, id)).versions, ['v1'], `files of ${id}`);
   await worker.settle();
   eq(setsIn(storage).length, 1, 'versions saved');
+});
+await testAsync('sw.js: a file with a new ETag but the same content is not a new version', async () => {
+  const { server, storage, worker } = await installed(1);
+  const before = await openApp(worker, 'p1');
+  server.retag();
+  server.delay = (file) => (file.startsWith('data/lessons/') ? 300 : 0); // the check ends after the page opened
+  const visit = await openApp(worker, 'p2');
+  await worker.settle();
+  eq([visit.versions, setsIn(storage).length, before.page.messages, visit.page.messages], [['v1'], 1, [], []],
+    'files, versions saved, messages');
+  server.delay = () => 0;
+  server.whole = 0;
+  await openApp(worker, 'p3');
+  await worker.settle();
+  eq(server.whole, 0, 'files the next check downloads again');
 });
 await testAsync('sw.js: a new version with a file missing is not used', async () => {
   const { server, storage, worker } = await installed(1);

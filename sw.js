@@ -122,17 +122,18 @@ async function makeSet() {
   const base = newest;
   const abort = new AbortController();
   const timer = setTimeout(() => abort.abort(), CHECK_LIMIT);
-  const got = new Map(); // url -> [response, changed]
+  const got = new Map(); // url -> { res, changed: new content, whole: the server sent the whole file }
   const get = async (file) => {
     const url = new URL(file, location).href;
     const saved = base && await caches.match(url, { cacheName: base });
     const res = await fetch(url, saved
       ? { cache: 'no-store', headers: validators(saved), signal: abort.signal }
       : { cache: 'no-cache', signal: abort.signal });
-    if (saved && (res.status === 304 || (res.status === 200 && sameVersion(res, saved)))) got.set(url, [saved, false]);
-    else if (res.status === 200) got.set(url, [res, true]);
-    else throw new Error(`${file}: HTTP ${res.status}`);
-    return got.get(url)[0];
+    if (saved && res.status === 304) got.set(url, { res: saved, changed: false, whole: false });
+    else if (res.status !== 200) throw new Error(`${file}: HTTP ${res.status}`);
+    // The content decides, not the ETag: GitHub Pages' servers can give an unchanged file a new one.
+    else got.set(url, { res, changed: !saved || !(await sameContent(res.clone(), saved)), whole: true });
+    return got.get(url).res;
   };
   try {
     const loading = FILES.map(get);
@@ -146,13 +147,21 @@ async function makeSet() {
   } finally {
     clearTimeout(timer);
   }
-  if (base && [...got.values()].every(([, changed]) => !changed)) return null;
+  if (base && [...got.values()].every((a) => !a.changed)) {
+    // Nothing changed. A file sent whole keeps its new ETag (same content), so the next check gets
+    // "not modified" for it instead of downloading it again.
+    if (await caches.has(base)) {
+      const set = await caches.open(base);
+      await Promise.all([...got].filter(([, a]) => a.whole).map(([url, a]) => set.put(url, a.res).catch(() => {})));
+    }
+    return null;
+  }
   let time = Date.now();
   while (await caches.has(SET + time)) time++;
   const name = SET + time;
   const set = await caches.open(name);
   try {
-    await Promise.all([...got].map(([url, [res]]) => set.put(url, res)));
+    await Promise.all([...got].map(([url, a]) => set.put(url, a.res)));
     await set.put(COMPLETE, new Response(''));
   } catch (err) { // storage full
     await caches.delete(name);
@@ -161,8 +170,13 @@ async function makeSet() {
   return (newest = name);
 }
 
-const version = (res) => res.headers.get('ETag') || res.headers.get('Last-Modified');
-const sameVersion = (res, saved) => !!version(res) && version(res) === version(saved);
+async function sameContent(a, b) {
+  const [x, y] = (await Promise.all([a.arrayBuffer(), b.arrayBuffer()])).map((body) => new Uint8Array(body));
+  if (x.length !== y.length) return false;
+  for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return false;
+  return true;
+}
+
 function validators(saved) {
   if (saved.headers.get('ETag')) return { 'If-None-Match': saved.headers.get('ETag') };
   if (saved.headers.get('Last-Modified')) return { 'If-Modified-Since': saved.headers.get('Last-Modified') };
