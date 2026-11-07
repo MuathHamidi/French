@@ -86,7 +86,7 @@
       "note": "**le jour** = the day as a unit (count them). **la journée** = the day as a length of time (what you do in it)." },
     { "id": "journee", "fr": "journée", "pos": "noun", "g": "f", "ipa": "ʒuʁ.ne", "en": "day (daytime, the whole day)",
       "def": "Le temps du matin au soir.", "def_en": "The time from morning to evening.",
-      "forms": ["journées"], "accept": ["journee"],
+      "forms": ["journées"],
       "examples": [
         { "fr": "Bonne **journée** !", "en": "Have a nice day!" },
         { "fr": "Je travaille toute la **journée**.", "en": "I work all day." },
@@ -102,7 +102,7 @@
       ] },
     { "id": "apres-midi", "fr": "après-midi", "pos": "noun", "g": "m", "ipa": "a.pʁɛ.mi.di", "en": "afternoon",
       "def": "Le temps entre midi et le soir.", "def_en": "The time between noon and the evening.",
-      "accept": ["apres-midi", "après midi"],
+      "accept": ["après midi"],
       "examples": [
         { "fr": "Cet **après-midi**, je vais au parc.", "en": "This afternoon, I'm going to the park." },
         { "fr": "L'**après-midi**, Lou dort.", "en": "In the afternoon, Lou sleeps." },
@@ -142,7 +142,6 @@
       ] },
     { "id": "tot", "fr": "tôt", "pos": "adv", "ipa": "to", "en": "early",
       "def": "Avant l'heure normale : se lever tôt.", "def_en": "Before the usual time: to get up early.",
-      "accept": ["tot"],
       "examples": [
         { "fr": "Je me lève **tôt**.", "en": "I get up early." },
         { "fr": "Il est trop **tôt** !", "en": "It's too early!" },

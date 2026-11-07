@@ -90,7 +90,6 @@
       "note": "The **z** is silent: /ʁi/." },
     { "id": "pates", "fr": "pâtes", "pos": "noun", "g": "f", "art": "les", "pl": true, "ipa": "pɑt", "en": "pasta",
       "def": "Les spaghettis, par exemple. C'est italien.", "def_en": "Spaghetti, for example. It's Italian.",
-      "accept": ["pates"],
       "examples": [
         { "fr": "Ce soir, on mange des **pâtes**.", "en": "Tonight we're having pasta." },
         { "fr": "J'adore les **pâtes** !", "en": "I love pasta!" },
@@ -115,7 +114,7 @@
       ] },
     { "id": "legume", "fr": "légume", "pos": "noun", "g": "m", "ipa": "le.ɡym", "en": "vegetable",
       "def": "La carotte, la tomate, la pomme de terre… Ils viennent du jardin.", "def_en": "Carrots, tomatoes, potatoes… They come from the garden.",
-      "forms": ["légumes"], "accept": ["legume"],
+      "forms": ["légumes"],
       "examples": [
         { "fr": "Mange tes **légumes** !", "en": "Eat your vegetables!" },
         { "fr": "Les **légumes** sont bons.", "en": "The vegetables are good." },
@@ -173,7 +172,7 @@
       ] },
     { "id": "gateau", "fr": "gâteau", "pos": "noun", "g": "m", "ipa": "ɡɑ.to", "en": "cake",
       "def": "Un dessert sucré, pour un anniversaire par exemple.", "def_en": "A sweet dessert, for a birthday for example.",
-      "forms": ["gâteaux"], "accept": ["gateau"],
+      "forms": ["gâteaux"],
       "examples": [
         { "fr": "C'est mon anniversaire : il y a un **gâteau** !", "en": "It's my birthday: there's a cake!" },
         { "fr": "Le **gâteau** au chocolat est délicieux.", "en": "The chocolate cake is delicious." },

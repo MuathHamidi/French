@@ -8,7 +8,7 @@
   "words": [
     { "id": "vetement", "fr": "vêtement", "pos": "noun", "g": "m", "ipa": "vɛt.mɑ̃", "en": "piece of clothing (des vêtements = clothes)",
       "def": "Ce qu'on porte sur le corps : un pull, une robe, un pantalon…", "def_en": "What you wear on your body: a jumper, a dress, trousers…",
-      "forms": ["vêtements"], "accept": ["vetement"],
+      "forms": ["vêtements"],
       "examples": [
         { "fr": "J'achète des **vêtements** pour l'hiver.", "en": "I'm buying clothes for the winter." },
         { "fr": "Mes **vêtements** sont dans l'armoire.", "en": "My clothes are in the wardrobe." },
@@ -119,7 +119,7 @@
       "note": "Plural with **-x**: **des chapeaux**." },
     { "id": "echarpe", "fr": "écharpe", "pos": "noun", "g": "f", "ipa": "e.ʃaʁp", "en": "scarf",
       "def": "Un long vêtement qu'on met autour du cou quand il fait froid.", "def_en": "A long garment you put around your neck when it's cold.",
-      "forms": ["écharpes"], "accept": ["echarpe"],
+      "forms": ["écharpes"],
       "examples": [
         { "fr": "Mets ton **écharpe**, il fait froid.", "en": "Put your scarf on, it's cold." },
         { "fr": "Louise fait une **écharpe** pour Lou.", "en": "Louise is knitting a scarf for Lou." },
@@ -171,7 +171,7 @@
     { "id": "cher", "fr": "cher", "pos": "adj", "ipa": "ʃɛʁ", "display": "cher, chère", "en": "expensive; dear",
       "def": "Qui coûte beaucoup d'argent. Le contraire de « pas cher ».", "def_en": "Costing a lot of money.",
       "extra": "Feminine **chère**, plural **chers / chères** — all said /ʃɛʁ/.",
-      "forms": ["chère", "chers", "chères"], "accept": ["chère", "chere"],
+      "forms": ["chère", "chers", "chères"], "accept": ["chère"],
       "examples": [
         { "fr": "Cette robe est trop **chère** !", "en": "This dress is too expensive!" },
         { "fr": "Ce n'est pas **cher**.", "en": "It's not expensive." },

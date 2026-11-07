@@ -25,7 +25,7 @@ Then open <http://localhost:8765>.
 1. Create a new repository on GitHub and push this folder to it.
 2. In the repository, open **Settings › Pages**, choose **Deploy from a branch**, then branch `main` and folder `/ (root)`.
 3. After a minute the app is at `https://<your-user>.github.io/<repo>/`.
-4. On the phone, open that address and choose **Add to Home Screen**. It then opens like an app and also works offline.
+4. On the phone, open that address and choose **Add to Home Screen**. It then opens like an app and also works offline (from the second visit). On a weak connection it uses its saved copy after a few seconds, and recordings you have heard once play from the phone.
 
 ## How the course is organised
 

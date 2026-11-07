@@ -25,7 +25,7 @@
       ] },
     { "id": "piece", "fr": "pièce", "pos": "noun", "g": "f", "ipa": "pjɛs", "en": "room (any room)",
       "def": "Une partie de la maison : la chambre, le salon, la cuisine…", "def_en": "A part of the house: the bedroom, the living room, the kitchen…",
-      "forms": ["pièces"], "accept": ["piece"],
+      "forms": ["pièces"],
       "examples": [
         { "fr": "La maison a cinq **pièces**.", "en": "The house has five rooms." },
         { "fr": "Il y a combien de **pièces** ?", "en": "How many rooms are there?" },
@@ -76,7 +76,7 @@
       "note": "Always plural: **les toilettes**. You'll also see **W.-C.**" },
     { "id": "salle-a-manger", "fr": "salle à manger", "pos": "noun", "g": "f", "ipa": "sal a mɑ̃.ʒe", "en": "dining room",
       "def": "La pièce où on mange, avec une grande table.", "def_en": "The room where you eat, with a big table.",
-      "forms": ["salles à manger"], "accept": ["salle a manger"],
+      "forms": ["salles à manger"],
       "examples": [
         { "fr": "On mange dans la **salle à manger**.", "en": "We eat in the dining room." },
         { "fr": "La **salle à manger** est à côté du salon.", "en": "The dining room is next to the living room." },
@@ -108,7 +108,7 @@
       ] },
     { "id": "fenetre", "fr": "fenêtre", "pos": "noun", "g": "f", "ipa": "fə.nɛtʁ", "en": "window",
       "def": "Dans le mur, on regarde dehors par la fenêtre.", "def_en": "It's in the wall; you look outside through the window.",
-      "forms": ["fenêtres"], "accept": ["fenetre"],
+      "forms": ["fenêtres"],
       "examples": [
         { "fr": "La **fenêtre** est ouverte.", "en": "The window is open." },
         { "fr": "Ma chambre a deux **fenêtres**.", "en": "My bedroom has two windows." },
@@ -133,7 +133,7 @@
       "note": "Often plural too: *les escaliers*." },
     { "id": "etage", "fr": "étage", "pos": "noun", "g": "m", "ipa": "e.taʒ", "en": "floor, storey",
       "def": "Dans un grand bâtiment, il y a des étages : le premier, le deuxième, le troisième…", "def_en": "In a big building there are floors: the first, the second, the third…",
-      "forms": ["étages"], "accept": ["etage"],
+      "forms": ["étages"],
       "examples": [
         { "fr": "Ma chambre est à l'**étage**.", "en": "My bedroom is upstairs." },
         { "fr": "J'habite au troisième **étage**.", "en": "I live on the third floor." },
@@ -142,7 +142,7 @@
       "note": "**à l'étage** = upstairs. In France, **le premier étage** is one floor above the ground floor." },
     { "id": "rez-de-chaussee", "fr": "rez-de-chaussée", "pos": "noun", "g": "m", "ipa": "ʁe.d(ə).ʃo.se", "en": "ground floor",
       "def": "L'étage en bas, au niveau de la rue.", "def_en": "The bottom floor, at street level.",
-      "accept": ["rez-de-chaussee", "rez de chaussée"],
+      "accept": ["rez de chaussée"],
       "examples": [
         { "fr": "La cuisine est au **rez-de-chaussée**.", "en": "The kitchen is on the ground floor." },
         { "fr": "J'habite au **rez-de-chaussée**.", "en": "I live on the ground floor." },

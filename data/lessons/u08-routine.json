@@ -10,7 +10,6 @@
       "def": "Le matin, on ouvre les yeux : on se réveille.", "def_en": "In the morning, you open your eyes: you wake up.",
       "extra": "je **me réveille** · tu **te réveilles** · il **se réveille** · nous **nous réveillons** · vous **vous réveillez** · ils **se réveillent**",
       "forms": ["me réveille", "te réveilles", "se réveille", "nous nous réveillons", "vous vous réveillez", "se réveillent", "réveille", "réveilles", "réveillons", "réveillez", "réveillent", "réveiller", "réveillé", "réveillée", "réveillés", "réveillées", "réveillais", "réveillait", "réveillions", "réveilliez", "réveillaient", "me réveillerai", "te réveilleras", "se réveillera", "nous nous réveillerons", "vous vous réveillerez", "se réveilleront", "me réveillerais", "te réveillerais", "se réveillerait", "nous nous réveillerions", "vous vous réveilleriez", "se réveilleraient", "réveillant", "réveillai", "réveillas", "réveilla", "réveillâmes", "réveillâtes", "réveillèrent"],
-      "accept": ["se reveiller"],
       "examples": [
         { "fr": "Je **me réveille** à sept heures.", "en": "I wake up at seven." },
         { "fr": "Tu **te réveilles** tôt ?", "en": "Do you wake up early?" },
@@ -73,7 +72,6 @@
     { "id": "se-preparer", "fr": "se préparer", "pos": "verb", "ipa": "sə pʁe.pa.ʁe", "en": "to get ready",
       "def": "Se laver, s'habiller, se coiffer… avant de partir.", "def_en": "To wash, get dressed, do your hair… before leaving.",
       "forms": ["me prépare", "te prépares", "se prépare", "nous nous préparons", "vous vous préparez", "se préparent", "préparais", "préparait", "préparions", "prépariez", "préparaient", "me préparerai", "te prépareras", "se préparera", "nous nous préparerons", "vous vous préparerez", "se prépareront", "me préparerais", "te préparerais", "se préparerait", "nous nous préparerions", "vous vous prépareriez", "se prépareraient"],
-      "accept": ["se preparer"],
       "examples": [
         { "fr": "Je **me prépare** pour le travail.", "en": "I'm getting ready for work." },
         { "fr": "Sophie **se prépare** pendant une heure !", "en": "Sophie takes an hour to get ready!" },
@@ -82,7 +80,6 @@
     { "id": "se-depecher", "fr": "se dépêcher", "pos": "verb", "ipa": "sə de.pe.ʃe", "en": "to hurry",
       "def": "Faire vite, parce qu'on est en retard.", "def_en": "To do things quickly, because you're late.",
       "forms": ["me dépêche", "te dépêches", "se dépêche", "nous nous dépêchons", "vous vous dépêchez", "se dépêchent", "dépêche", "dépêchez", "dépêchons", "dépêchais", "dépêchait", "dépêchions", "dépêchiez", "dépêchaient", "me dépêcherai", "te dépêcheras", "se dépêchera", "nous nous dépêcherons", "vous vous dépêcherez", "se dépêcheront", "me dépêcherais", "te dépêcherais", "se dépêcherait", "nous nous dépêcherions", "vous vous dépêcheriez", "se dépêcheraient", "dépêché", "dépêchée", "dépêchés", "dépêchées", "dépêchant", "dépêchai", "dépêchas", "dépêcha", "dépêchâmes", "dépêchâtes", "dépêchèrent", "me dépêcher", "te dépêcher", "nous dépêcher", "vous dépêcher", "dépêcher", "dépêches", "dépêchent", "dépêcherai", "dépêcheras", "dépêchera", "dépêcherons", "dépêcherez", "dépêcheront", "dépêcherais", "dépêcherait", "dépêcherions", "dépêcheriez", "dépêcheraient"],
-      "accept": ["se depecher"],
       "examples": [
         { "fr": "Je **me dépêche** : le train part !", "en": "I'm hurrying: the train is leaving!" },
         { "fr": "**Dépêche**-toi, Hugo !", "en": "Hurry up, Hugo!" },
@@ -143,7 +140,7 @@
     { "id": "etudier", "fr": "étudier", "pos": "verb", "ipa": "e.ty.dje", "en": "to study",
       "def": "Travailler pour apprendre : les étudiants étudient.", "def_en": "To work in order to learn: students study.",
       "extra": "j'**étudie** · tu **étudies** · il **étudie** · nous **étudions** · vous **étudiez** · ils **étudient**",
-      "forms": ["étudie", "étudies", "étudions", "étudiez", "étudient", "étudiais", "étudiait", "étudiions", "étudiiez", "étudiaient", "étudierai", "étudieras", "étudiera", "étudierons", "étudierez", "étudieront", "étudierais", "étudierait", "étudierions", "étudieriez", "étudieraient", "étudié", "étudiée", "étudiés", "étudiées", "étudiai", "étudias", "étudia", "étudiâmes", "étudiâtes", "étudièrent"], "accept": ["etudier"],
+      "forms": ["étudie", "étudies", "étudions", "étudiez", "étudient", "étudiais", "étudiait", "étudiions", "étudiiez", "étudiaient", "étudierai", "étudieras", "étudiera", "étudierons", "étudierez", "étudieront", "étudierais", "étudierait", "étudierions", "étudieriez", "étudieraient", "étudié", "étudiée", "étudiés", "étudiées", "étudiai", "étudias", "étudia", "étudiâmes", "étudiâtes", "étudièrent"],
       "examples": [
         { "fr": "J'**étudie** le français.", "en": "I'm studying French." },
         { "fr": "Tu **étudies** à Lyon ?", "en": "Do you study in Lyon?" },
@@ -151,7 +148,7 @@
       ] },
     { "id": "reveil", "fr": "réveil", "pos": "noun", "g": "m", "ipa": "ʁe.vɛj", "en": "alarm clock",
       "def": "Il sonne le matin pour nous réveiller.", "def_en": "It rings in the morning to wake us up.",
-      "forms": ["réveils"], "accept": ["reveil"],
+      "forms": ["réveils"],
       "examples": [
         { "fr": "Mon **réveil** sonne à sept heures.", "en": "My alarm goes off at seven." },
         { "fr": "Le **réveil** est sur la table, à côté du lit.", "en": "The alarm clock is on the table next to the bed." },
@@ -168,7 +165,7 @@
       "note": "**une brosse à dents** = a toothbrush." },
     { "id": "fatigue", "fr": "fatigué", "pos": "adj", "ipa": "fa.ti.ɡe", "display": "fatigué(e)", "en": "tired",
       "def": "Qui a besoin de dormir ou de se reposer.", "def_en": "Needing to sleep or rest.",
-      "forms": ["fatiguée", "fatigués", "fatiguées"], "accept": ["fatiguée", "fatigue"],
+      "forms": ["fatiguée", "fatigués", "fatiguées"], "accept": ["fatiguée"],
       "examples": [
         { "fr": "Je suis très **fatigué** ce soir.", "en": "I'm very tired tonight." },
         { "fr": "Léa est **fatiguée** : elle se couche.", "en": "Léa is tired: she's going to bed." },

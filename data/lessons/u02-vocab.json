@@ -38,7 +38,6 @@
       "def": "L'homme qui a un enfant. C'est le papa.",
       "def_en": "The man who has a child. He's the dad.",
       "forms": ["pères"],
-      "accept": ["pere"],
       "examples": [
         { "fr": "Mon **père** s'appelle Paul.", "en": "My father's name is Paul." },
         { "fr": "Le **père** de Hugo est professeur.", "en": "Hugo's father is a teacher." },
@@ -51,7 +50,6 @@
       "def": "La femme qui a un enfant. C'est la maman.",
       "def_en": "The woman who has a child. She's the mum.",
       "forms": ["mères"],
-      "accept": ["mere"],
       "examples": [
         { "fr": "Ma **mère** est française.", "en": "My mother is French." },
         { "fr": "La **mère** de Léa s'appelle Anne.", "en": "Léa's mother is called Anne." },
@@ -128,7 +126,6 @@
       "def": "Un garçon qui a le même père et la même mère que toi.",
       "def_en": "A boy who has the same father and mother as you.",
       "forms": ["frères"],
-      "accept": ["frere"],
       "examples": [
         { "fr": "J'ai un **frère** et une sœur.", "en": "I have a brother and a sister." },
         { "fr": "Mon **frère** s'appelle Tom.", "en": "My brother's name is Tom." },
@@ -155,7 +152,6 @@
       "def": "Un très petit enfant.",
       "def_en": "A very small child.",
       "forms": ["bébés"],
-      "accept": ["bebe"],
       "examples": [
         { "fr": "Le **bébé** s'appelle Lou.", "en": "The baby's name is Lou." },
         { "fr": "Le **bébé** est avec sa mère.", "en": "The baby is with its mother." },
@@ -180,7 +176,7 @@
       "def": "Le père de ton père ou de ta mère.",
       "def_en": "The father of your father or your mother.",
       "forms": ["grands-pères"],
-      "accept": ["grand-pere", "grand pere", "grand père"],
+      "accept": ["grand père"],
       "examples": [
         { "fr": "Mon **grand-père** s'appelle Jacques.", "en": "My grandfather's name is Jacques." },
         { "fr": "Le **grand-père** de Léa est très gentil.", "en": "Léa's grandfather is very kind." },
@@ -193,7 +189,7 @@
       "def": "La mère de ton père ou de ta mère.",
       "def_en": "The mother of your father or your mother.",
       "forms": ["grands-mères"],
-      "accept": ["grand-mere", "grand mere", "grand mère"],
+      "accept": ["grand mère"],
       "examples": [
         { "fr": "Ma **grand-mère** est très jeune !", "en": "My grandmother is very young!" },
         { "fr": "Voici ma **grand-mère**, Louise.", "en": "This is my grandmother, Louise." },
@@ -286,7 +282,7 @@
       "def_en": "A married person has a husband or a wife.",
       "extra": "A woman: **mariée**. Plural: **mariés**, **mariées** — they all sound the same.",
       "forms": ["mariée", "mariés", "mariées"],
-      "accept": ["mariée", "marie", "mariee"],
+      "accept": ["mariée"],
       "examples": [
         { "fr": "Ma sœur est **mariée**.", "en": "My sister is married." },
         { "fr": "Mon frère n'est pas **marié**.", "en": "My brother isn't married." },

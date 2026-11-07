@@ -27,6 +27,11 @@ WORD_RE = re.compile(rf"^[{L}]")
 errors, warnings = [], []
 
 
+def unaccented(s):
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+    return s.lower().replace("œ", "oe").replace("æ", "ae")
+
+
 def norm_key(s):
     s = unicodedata.normalize("NFC", s)
     return re.sub(r"[’‘`]", "'", s).lower().strip()
@@ -358,6 +363,15 @@ def main():
                     errors.append(f"{where}: noun without gender (g: m/f)")
                 if len(w.get("examples", [])) != 3:
                     errors.append(f"{where}: needs exactly 3 examples")
+                # A spelling without its accents is not an answer: the quiz takes it anyway, with "check the
+                # accents". The 1990 reform's i and u without the circumflex (plait, diner) and oe for œ are fine.
+                for a in w.get("accept", []):
+                    for s in [w["fr"], w.get("display", ""), *w["accept"]]:
+                        low = s.lower()
+                        if s and low != a.lower() and unaccented(s) == a.lower() and \
+                                low.replace("î", "i").replace("û", "u").replace("œ", "oe").replace("æ", "ae") != a.lower():
+                            errors.append(f"{where}: accept lists “{a}”, which is “{s}” without its accents")
+                            break
                 scan(w.get("def", ""), where + " definition", own)
                 for n, x in enumerate(w.get("examples", []), 1):
                     if "**" not in x["fr"]:

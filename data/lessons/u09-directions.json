@@ -66,7 +66,6 @@
       "note": "Not to be confused with **à droite** (on the right)!" },
     { "id": "a-gauche", "fr": "à gauche", "pos": "expr", "ipa": "a ɡoʃ", "en": "on the left, to the left",
       "def": "Du côté de la main gauche.", "def_en": "On the side of your left hand.",
-      "accept": ["a gauche"],
       "examples": [
         { "fr": "Tournez **à gauche**.", "en": "Turn left." },
         { "fr": "La banque est **à gauche**.", "en": "The bank is on the left." },
@@ -74,7 +73,6 @@
       ] },
     { "id": "a-droite", "fr": "à droite", "pos": "expr", "ipa": "a dʁwat", "en": "on the right, to the right",
       "def": "Du côté de la main droite.", "def_en": "On the side of your right hand.",
-      "accept": ["a droite"],
       "examples": [
         { "fr": "Tournez **à droite** après le pont.", "en": "Turn right after the bridge." },
         { "fr": "La pharmacie est **à droite**.", "en": "The pharmacy is on the right." },
@@ -140,7 +138,7 @@
       ] },
     { "id": "velo", "fr": "vélo", "pos": "noun", "g": "m", "ipa": "ve.lo", "en": "bike, bicycle",
       "def": "On roule dessus, avec deux roues, sans moteur.", "def_en": "You ride on it, with two wheels and no engine.",
-      "forms": ["vélos"], "accept": ["velo"],
+      "forms": ["vélos"],
       "examples": [
         { "fr": "Je vais au travail à **vélo**.", "en": "I cycle to work." },
         { "fr": "Léa a un **vélo** rouge.", "en": "Léa has a red bike." },
@@ -149,7 +147,6 @@
       "note": "**à vélo** or **en vélo** = by bike (both are heard)." },
     { "id": "a-pied", "fr": "à pied", "pos": "expr", "ipa": "a pje", "en": "on foot",
       "def": "En marchant, sans voiture ni vélo.", "def_en": "Walking, without a car or bike.",
-      "accept": ["a pied"],
       "examples": [
         { "fr": "Je vais à l'école **à pied**.", "en": "I walk to school." },
         { "fr": "C'est à dix minutes **à pied**.", "en": "It's a ten-minute walk." },

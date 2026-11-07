@@ -1,6 +1,6 @@
 // "Today" dashboard and the "Learn" course map.
 import { h, plural } from '../util.js';
-import { curriculum, lessons, lessonList } from '../content.js';
+import { curriculum, lessons, lessonList, cardInCourse } from '../content.js';
 import * as store from '../store.js';
 
 const KIND = { vocab: 'Words', grammar: 'Grammar', sounds: 'Sounds' };
@@ -14,8 +14,8 @@ export function lessonHref(l) {
 }
 
 export function renderToday(view) {
-  const due = store.dueCardIds().length;
-  const words = Object.keys(store.allCards()).filter((k) => k.startsWith('w:')).length;
+  const due = store.dueCardIds().filter(cardInCourse).length;
+  const words = Object.keys(store.allCards()).filter((k) => k.startsWith('w:') && cardInCourse(k)).length;
   const log = store.todayLog();
   const goal = store.settings().newPerDay;
   const next = nextLesson();

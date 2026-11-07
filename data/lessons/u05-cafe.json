@@ -24,7 +24,7 @@
       ] },
     { "id": "cafe", "fr": "café", "pos": "noun", "g": "m", "ipa": "ka.fe", "en": "coffee; café",
       "def": "Une boisson chaude et noire. C'est aussi le lieu où on la boit.", "def_en": "A hot black drink. It's also the place where you drink it.",
-      "forms": ["cafés"], "accept": ["cafe"],
+      "forms": ["cafés"],
       "examples": [
         { "fr": "Je voudrais un **café**, s'il vous plaît.", "en": "I'd like a coffee, please." },
         { "fr": "On va au **café** ?", "en": "Shall we go to the café?" },
@@ -33,7 +33,7 @@
       "note": "In a French café, **un café** is a small espresso. For coffee with milk, ask for **un café au lait** or **un crème**." },
     { "id": "the", "fr": "thé", "pos": "noun", "g": "m", "ipa": "te", "en": "tea",
       "def": "Une boisson chaude, avec des feuilles dans l'eau.", "def_en": "A hot drink made with leaves in water.",
-      "forms": ["thés"], "accept": ["the"],
+      "forms": ["thés"],
       "examples": [
         { "fr": "Tu veux du **thé** ou du café ?", "en": "Do you want tea or coffee?" },
         { "fr": "Je bois du **thé** le matin.", "en": "I drink tea in the morning." },
@@ -59,7 +59,7 @@
       "note": "**vin** and **vingt** sound the same: /vɛ̃/. **vent** (wind) is /vɑ̃/ — practise them in the nasal-vowels lesson." },
     { "id": "biere", "fr": "bière", "pos": "noun", "g": "f", "ipa": "bjɛʁ", "en": "beer",
       "def": "Une boisson jaune avec des bulles et de l'alcool.", "def_en": "A yellow drink with bubbles and alcohol.",
-      "forms": ["bières"], "accept": ["biere"],
+      "forms": ["bières"],
       "examples": [
         { "fr": "Une **bière**, s'il vous plaît !", "en": "A beer, please!" },
         { "fr": "Hugo boit une **bière** avec ses amis.", "en": "Hugo is having a beer with his friends." },
@@ -100,7 +100,7 @@
       ] },
     { "id": "petit-dejeuner", "fr": "petit-déjeuner", "pos": "noun", "g": "m", "ipa": "pə.ti de.ʒœ.ne", "en": "breakfast",
       "def": "Le repas du matin.", "def_en": "The morning meal.",
-      "forms": ["petits-déjeuners", "petit déjeuner"], "accept": ["petit dejeuner", "petit déjeuner", "petit-dejeuner"],
+      "forms": ["petits-déjeuners", "petit déjeuner"], "accept": ["petit déjeuner"],
       "examples": [
         { "fr": "Au **petit-déjeuner**, je mange du pain et de la confiture.", "en": "At breakfast I eat bread and jam." },
         { "fr": "Le **petit-déjeuner** est prêt !", "en": "Breakfast is ready!" },
@@ -108,7 +108,7 @@
       ] },
     { "id": "dejeuner", "fr": "déjeuner", "pos": "noun", "g": "m", "ipa": "de.ʒœ.ne", "en": "lunch; to have lunch",
       "def": "Le repas de midi.", "def_en": "The midday meal.",
-      "forms": ["déjeuners", "déjeune", "déjeunes", "déjeunons", "déjeunez", "déjeunent", "déjeunerai", "déjeuneras", "déjeunera", "déjeunerons", "déjeunerez", "déjeuneront"], "accept": ["dejeuner"],
+      "forms": ["déjeuners", "déjeune", "déjeunes", "déjeunons", "déjeunez", "déjeunent", "déjeunerai", "déjeuneras", "déjeunera", "déjeunerons", "déjeunerez", "déjeuneront"],
       "examples": [
         { "fr": "Le **déjeuner** est à midi.", "en": "Lunch is at noon." },
         { "fr": "On mange du poulet au **déjeuner**.", "en": "We're having chicken for lunch." },
@@ -169,7 +169,7 @@
     { "id": "delicieux", "fr": "délicieux", "pos": "adj", "ipa": "de.li.sjø", "display": "délicieux, délicieuse", "en": "delicious",
       "def": "Très, très bon à manger ou à boire.", "def_en": "Very, very good to eat or drink.",
       "extra": "Feminine: **délicieuse** — you hear the /z/.",
-      "forms": ["délicieuse", "délicieuses"], "accept": ["délicieuse", "delicieux"],
+      "forms": ["délicieuse", "délicieuses"], "accept": ["délicieuse"],
       "examples": [
         { "fr": "Ce gâteau est **délicieux** !", "en": "This cake is delicious!" },
         { "fr": "La soupe est **délicieuse**.", "en": "The soup is delicious." },

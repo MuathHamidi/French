@@ -461,6 +461,22 @@ async function main() {
     expect(viewText().includes('All caught up for now.'), `summary: ${viewText().slice(0, 140)}`);
   });
 
+  await scenario('A card whose word has left the course does not block the reviews', async (expect) => {
+    // progress from an older course, with a word and a grammar case that no longer exist
+    const card = { due: 0, ivl: 1, ease: 2.5, reps: 1, lapses: 0, last: 0 };
+    const cards = { [`w:${V1.words[0]}`]: card, 'w:no-such-word': card, 'g:no-such-lesson:no-such-case': card };
+    localStorage.setItem(TEST_KEY, JSON.stringify({ v: 1, cards, lessons: {}, log: {} }));
+    await loadApp({ keep: true });
+    expect(stats()[1] === 1 && stats()[2] === 1, `Today shows ${stats()} (streak, words, due), expected 1 word and 1 review due`);
+    await go('#/review');
+    expect(viewText().includes('1 card is due.'), `review page: ${viewText().slice(0, 100)}`);
+    button('Start reviewing').click();
+    await runQuiz();
+    expect(viewText().includes('All caught up for now.'), `summary: ${viewText().slice(0, 140)}`);
+    await go('#/review');
+    expect(viewText().includes('Nothing to review right now.'), `review page afterwards: ${viewText().slice(0, 100)}`);
+  });
+
   await scenario('Word cards: hover, click, keyboard, report a problem', async (expect) => {
     await loadApp();
     await go(`#/lesson/${V1.id}/story`);

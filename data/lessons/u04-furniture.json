@@ -43,7 +43,7 @@
       ] },
     { "id": "canape", "fr": "canapé", "pos": "noun", "g": "m", "ipa": "ka.na.pe", "en": "sofa, couch",
       "def": "Un long meuble pour deux ou trois personnes, dans le salon.", "def_en": "A long piece of furniture for two or three people, in the living room.",
-      "forms": ["canapés"], "accept": ["canape"],
+      "forms": ["canapés"],
       "examples": [
         { "fr": "Le chien dort sur le **canapé**.", "en": "The dog is sleeping on the sofa." },
         { "fr": "Le **canapé** est devant la télévision.", "en": "The sofa is in front of the TV." },
@@ -76,7 +76,7 @@
       ] },
     { "id": "etagere", "fr": "étagère", "pos": "noun", "g": "f", "ipa": "e.ta.ʒɛʁ", "en": "shelf; bookcase",
       "def": "On met les livres sur une étagère.", "def_en": "You put books on a shelf.",
-      "forms": ["étagères"], "accept": ["etagere"],
+      "forms": ["étagères"],
       "examples": [
         { "fr": "Les livres sont sur l'**étagère**.", "en": "The books are on the shelf." },
         { "fr": "Il y a trois **étagères** au mur.", "en": "There are three shelves on the wall." },
@@ -126,7 +126,7 @@
       ] },
     { "id": "television", "fr": "télévision", "pos": "noun", "g": "f", "ipa": "te.le.vi.zjɔ̃", "en": "television, TV",
       "def": "On regarde des films à la télévision.", "def_en": "You watch films on television.",
-      "forms": ["télé", "télévisions", "télés"], "accept": ["télé", "television", "tele"],
+      "forms": ["télé", "télévisions", "télés"], "accept": ["télé"],
       "examples": [
         { "fr": "La **télévision** est dans le salon.", "en": "The TV is in the living room." },
         { "fr": "Mon grand-père regarde la **télé**.", "en": "My grandfather is watching TV." },
@@ -160,7 +160,7 @@
       ] },
     { "id": "refrigerateur", "fr": "réfrigérateur", "pos": "noun", "g": "m", "ipa": "ʁe.fʁi.ʒe.ʁa.tœʁ", "en": "refrigerator, fridge",
       "def": "Dans la cuisine, un grand meuble froid pour la nourriture.", "def_en": "In the kitchen, a big cold cabinet for food.",
-      "forms": ["frigo", "réfrigérateurs", "frigos"], "accept": ["frigo", "refrigerateur"],
+      "forms": ["frigo", "réfrigérateurs", "frigos"], "accept": ["frigo"],
       "examples": [
         { "fr": "Le lait est dans le **réfrigérateur**.", "en": "The milk is in the fridge." },
         { "fr": "Le **frigo** est dans la cuisine.", "en": "The fridge is in the kitchen." },

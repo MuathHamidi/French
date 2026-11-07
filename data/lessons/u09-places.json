@@ -59,7 +59,6 @@
       "note": "A bus station is **une gare routière**; a metro station is **une station**." },
     { "id": "metro", "fr": "métro", "pos": "noun", "g": "m", "ipa": "me.tʁo", "en": "underground, subway, metro", "forms": ["métros"],
       "def": "Un train sous la ville.", "def_en": "A train under the city.",
-      "accept": ["metro"],
       "examples": [
         { "fr": "Je prends le **métro**.", "en": "I take the metro." },
         { "fr": "On va au musée en **métro** ?", "en": "Shall we go to the museum by metro?" },
@@ -67,7 +66,7 @@
       ] },
     { "id": "arret", "fr": "arrêt", "pos": "noun", "g": "m", "ipa": "a.ʁɛ", "en": "stop (bus or tram stop)",
       "def": "Le lieu où le bus s'arrête.", "def_en": "The place where the bus stops.",
-      "forms": ["arrêts"], "accept": ["arret"],
+      "forms": ["arrêts"],
       "examples": [
         { "fr": "L'**arrêt** de bus est devant la poste.", "en": "The bus stop is in front of the post office." },
         { "fr": "Je descends au prochain **arrêt**.", "en": "I'm getting off at the next stop." },
@@ -98,7 +97,7 @@
       ] },
     { "id": "hopital", "fr": "hôpital", "pos": "noun", "g": "m", "ipa": "o.pi.tal", "en": "hospital",
       "def": "Le lieu où on soigne les personnes malades.", "def_en": "The place where sick people are treated.",
-      "forms": ["hôpitaux"], "accept": ["hopital"],
+      "forms": ["hôpitaux"],
       "examples": [
         { "fr": "L'**hôpital** est loin du centre-ville.", "en": "The hospital is far from the town centre." },
         { "fr": "Ma tante travaille à l'**hôpital**.", "en": "My aunt works at the hospital." },
@@ -115,7 +114,7 @@
       ] },
     { "id": "supermarche", "fr": "supermarché", "pos": "noun", "g": "m", "ipa": "sy.pɛʁ.maʁ.ʃe", "en": "supermarket",
       "def": "Un grand magasin où on achète de tout pour manger.", "def_en": "A big shop where you buy all kinds of food.",
-      "forms": ["supermarchés"], "accept": ["supermarche"],
+      "forms": ["supermarchés"],
       "examples": [
         { "fr": "Je fais les courses au **supermarché**.", "en": "I do the shopping at the supermarket." },
         { "fr": "Le **supermarché** est ouvert le dimanche matin.", "en": "The supermarket is open on Sunday mornings." },
@@ -141,7 +140,7 @@
       "note": "Everyday word: **le resto**." },
     { "id": "cinema", "fr": "cinéma", "pos": "noun", "g": "m", "ipa": "si.ne.ma", "en": "cinema, movie theater",
       "def": "Le lieu où on regarde des films sur un grand écran.", "def_en": "The place where you watch films on a big screen.",
-      "forms": ["cinémas"], "accept": ["cinema"],
+      "forms": ["cinémas"],
       "examples": [
         { "fr": "On va au **cinéma** samedi ?", "en": "Shall we go to the cinema on Saturday?" },
         { "fr": "Le **cinéma** est à côté du parc.", "en": "The cinema is next to the park." },
@@ -149,7 +148,7 @@
       ] },
     { "id": "musee", "fr": "musée", "pos": "noun", "g": "m", "ipa": "my.ze", "en": "museum",
       "def": "Un lieu où on regarde des tableaux et des objets anciens.", "def_en": "A place where you look at paintings and old objects.",
-      "forms": ["musées"], "accept": ["musee"],
+      "forms": ["musées"],
       "examples": [
         { "fr": "Je visite un **musée**.", "en": "I'm visiting a museum." },
         { "fr": "Le **musée** est fermé le mardi.", "en": "The museum is closed on Tuesdays." },
@@ -166,7 +165,7 @@
       ] },
     { "id": "bibliotheque", "fr": "bibliothèque", "pos": "noun", "g": "f", "ipa": "bi.bli.jɔ.tɛk", "en": "library; bookcase",
       "def": "Un lieu où on lit et où on emprunte des livres.", "def_en": "A place where you read and borrow books.",
-      "forms": ["bibliothèques"], "accept": ["bibliotheque"],
+      "forms": ["bibliothèques"],
       "examples": [
         { "fr": "J'étudie à la **bibliothèque**.", "en": "I study at the library." },
         { "fr": "La **bibliothèque** ferme à six heures.", "en": "The library closes at six." },
@@ -175,7 +174,7 @@
       "note": "False friend: **une librairie** is a bookshop. A library is **une bibliothèque**." },
     { "id": "eglise", "fr": "église", "pos": "noun", "g": "f", "ipa": "e.ɡliz", "en": "church",
       "def": "Un grand bâtiment pour prier, souvent sur la place de la ville.", "def_en": "A big building for praying, often on the town square.",
-      "forms": ["églises"], "accept": ["eglise"],
+      "forms": ["églises"],
       "examples": [
         { "fr": "L'**église** est sur la place.", "en": "The church is on the square." },
         { "fr": "C'est une très vieille **église**.", "en": "It's a very old church." },
@@ -183,7 +182,7 @@
       ] },
     { "id": "hotel", "fr": "hôtel", "pos": "noun", "g": "m", "ipa": "o.tɛl", "en": "hotel",
       "def": "Un lieu où on dort quand on voyage.", "def_en": "A place where you sleep when you travel.",
-      "forms": ["hôtels"], "accept": ["hotel"],
+      "forms": ["hôtels"],
       "examples": [
         { "fr": "Mon **hôtel** est près de la gare.", "en": "My hotel is near the station." },
         { "fr": "C'est un **hôtel** pas cher.", "en": "It's a cheap hotel." },

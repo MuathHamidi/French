@@ -5,9 +5,13 @@ import * as store from '../store.js';
 import { schedule, AGAIN, HARD, GOOD } from '../srs.js';
 import { runQuestions } from '../quiz.js';
 import { wordQuestion, kindsFor, poolFor, grammarQuestion } from '../quizgen.js';
-import { wordLesson } from '../content.js';
+import { wordLesson, cardInCourse } from '../content.js';
 
 const SESSION_MAX = 60;
+
+// Cards whose word or grammar case has left the course are skipped: there is no question to ask.
+const dueIds = (now) => store.dueCardIds(now).filter(cardInCourse);
+const courseCards = () => Object.entries(store.allCards()).filter(([id]) => cardInCourse(id)).map(([, c]) => c);
 const RECOGNISE = ['fr2en', 'listen', 'def2fr'];
 const PRODUCE = ['en2fr', 'cloze', 'gender'];
 
@@ -30,10 +34,10 @@ function questionFor(cardId) {
 }
 
 export function renderReview(view) {
-  const due = shuffle(store.dueCardIds());
+  const due = shuffle(dueIds());
   view.append(h('h1', {}, 'Review'));
   if (!due.length) {
-    const cards = Object.values(store.allCards());
+    const cards = courseCards();
     const soonest = cards.length ? Math.min(...cards.map((c) => c.due)) : null;
     view.append(h('div', { class: 'card', style: 'text-align:center' },
       h('div', { class: 'big-icon' }, '✅'),
@@ -62,9 +66,9 @@ export function renderReview(view) {
       },
       onDone: () => {
         const now = Date.now();
-        const left = store.dueCardIds(now).length;
+        const left = dueIds(now).length;
         // missed cards (interval 0) come back in ~10 min; tomorrow's cards, due from midnight, don't count
-        const soon = Object.values(store.allCards()).filter((c) => c.ivl === 0 && c.due > now && c.due <= now + 15 * 60 * 1000).length;
+        const soon = courseCards().filter((c) => c.ivl === 0 && c.due > now && c.due <= now + 15 * 60 * 1000).length;
         body.replaceChildren(h('div', { class: 'card', style: 'text-align:center' },
           h('div', { class: 'big-icon' }, '🌟'),
           h('h2', { style: 'margin-top:8px' }, `${right} / ${qs.length} right first time`),

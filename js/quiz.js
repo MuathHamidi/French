@@ -73,8 +73,9 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
         class: 'option', 'data-v': o, onclick: (e) => submit(o, e.currentTarget),
       }, h('span', { class: 'muted small' }, `${n + 1}  `), o)));
     } else {
+      // No help from the device: an iPhone's autocorrect would rewrite the answer (or add its accents).
       const input = h('input', {
-        class: 'answer-input', type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false',
+        class: 'answer-input', type: 'text', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'false',
         lang: 'fr', placeholder: 'Type in French…', 'aria-label': 'Your answer',
       });
       body = h('div', {}, input,

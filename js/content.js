@@ -64,6 +64,14 @@ export function lessonList() {
   return curriculum.units.flatMap((u) => (u.lessons || []).map((id) => lessons.get(id)).filter(Boolean));
 }
 
+// Whether a review card's word (w:id) or grammar case (g:lesson:case) is still in the course. Progress
+// keeps cards by id: one whose word was renamed or removed must not block the reviews.
+export function cardInCourse(cardId) {
+  if (cardId.startsWith('w:')) return entries.has(cardId.slice(2));
+  const [, lessonId, caseId] = cardId.split(':');
+  return !!lessons.get(lessonId)?.quiz?.some((q) => q.case === caseId);
+}
+
 // ---------- tokenizer ----------
 const L = 'A-Za-zÀ-ÖØ-öø-ÿŒœÆæ';
 const TOKEN_RE = new RegExp(`[${L}]+(?:[-'’][${L}]+)*['’]?|\\s+|[^${L}\\s]`, 'g');
