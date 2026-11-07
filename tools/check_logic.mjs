@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 // Tests the parts of the app that need no screen: the review schedule, dates (midnight, the nights the
 // clocks change), saved progress (saving, loading, backups, damaged data, a second tab), the streak and
-// the daily log, and how typed answers are checked. tools/test.html tests the pages themselves.
+// the daily log, how typed answers are checked, and the offline copy (sw.js) against a simulated server.
+// tools/test.html tests the pages themselves.
 //
 // Run:  node tools/check_logic.mjs      (Node.js 22+; prints OK, or each failure and exits 1)
 // Dates are tested in Montreal's time zone, whatever the computer's is.
+import fs from 'node:fs';
 import path from 'node:path';
+import vm from 'node:vm';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 process.env.TZ = 'America/Toronto';
@@ -239,6 +242,290 @@ test('typed answers: a missing accent is "nearly", a wrong word is wrong', () =>
 test('multiple choice: only the right option', () => {
   const q = { options: ['un', 'une'], answers: ['une'] };
   eq([check(q, 'une'), check(q, 'un'), check(q, 'Une')], ['ok', 'no', 'no'], 'options');
+});
+
+// ---------- the offline copy (sw.js) ----------
+// sw.js runs in a sandbox, against a simulated server and storage (the Cache API), with shorter waits.
+// Each file's text names its version, so a page's files show whether it mixed two versions. A new
+// version changes every file, as a deploy on GitHub Pages does (every file gets a new ETag).
+const SITE = 'https://example.test/French/';
+const swSource = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+const SW_FILES = vm.runInNewContext(/const FILES = (\[[^\]]*\])/.exec(swSource)[1]);
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+async function testAsync(name, fn) {
+  try { await fn(); count++; } catch (err) { failures++; console.log(`FAIL ${name}\n     ${err.message}`); }
+}
+
+test('sw.js saves every file the app loads', () => {
+  const read = (file) => fs.readFileSync(path.join(ROOT, file), 'utf8');
+  const want = new Set(['index.html']);
+  for (const dir of ['js', 'js/views']) {
+    for (const name of fs.readdirSync(path.join(ROOT, dir)).filter((n) => n.endsWith('.js'))) {
+      want.add(`${dir}/${name}`);
+      for (const [, file] of read(`${dir}/${name}`).matchAll(/'(data\/[\w-]+\.json)'/g)) want.add(file);
+    }
+  }
+  for (const [, file] of read('index.html').matchAll(/(?:href|src)="(?![a-z]+:)([^"#][^"]*)"/g)) want.add(file);
+  for (const icon of JSON.parse(read('manifest.webmanifest')).icons) want.add(icon.src);
+  eq([...want].filter((file) => !SW_FILES.includes(file)), [], 'files the app loads that sw.js does not save');
+  eq(SW_FILES.filter((file) => !fs.existsSync(path.join(ROOT, file.replace(/\?.*/, '')))), [], 'files in sw.js that do not exist');
+});
+
+// The server: publish(v) puts version v of every file online; delay(file) holds an answer back (ms).
+function makeServer() {
+  const server = { files: new Map(), delay: () => 0, offline: false, asked: [] };
+  server.publish = (v, { without = [] } = {}) => {
+    const lessons = ['a', 'b'];
+    server.files.clear();
+    for (const file of [...SW_FILES, ...lessons.map((id) => `data/lessons/${id}.json`), 'audio/x.mp3']) {
+      const body = file === 'data/curriculum.json' ? JSON.stringify({ v, units: [{ lessons }] }) : `${file} v${v}`;
+      if (!without.includes(file)) server.files.set(file, { body, etag: `"${v}"` });
+    }
+  };
+  server.fetch = async (input, init = {}) => {
+    const file = (typeof input === 'string' ? input : input.url).slice(SITE.length);
+    server.asked.push(file);
+    if (server.offline) throw new TypeError('Failed to fetch');
+    const ms = server.delay(file);
+    if (ms) {
+      await new Promise((resolve, reject) => {
+        const timer = setTimeout(resolve, ms);
+        init.signal?.addEventListener('abort', () => { clearTimeout(timer); reject(new Error('aborted')); });
+      });
+    }
+    const found = server.files.get(file || 'index.html');
+    if (!found) return new Response('Not found', { status: 404 });
+    if (new Headers(init.headers || input.headers || {}).get('If-None-Match') === found.etag) {
+      return new Response(null, { status: 304, headers: { ETag: found.etag } });
+    }
+    return new Response(found.body, { headers: { ETag: found.etag } });
+  };
+  return server;
+}
+
+// The Cache API, in memory.
+function makeStorage() {
+  const caches = new Map(); // name -> Map(url -> { body, init })
+  const key = (req) => new URL(typeof req === 'string' ? req : req.url, `${SITE}sw.js`).href;
+  const answer = (entry) => entry && new Response(entry.body, entry.init);
+  const cache = (entries) => ({
+    match: async (req) => answer(entries.get(key(req))),
+    put: async (req, res) => {
+      const init = { status: res.status, statusText: res.statusText, headers: [...res.headers] };
+      entries.set(key(req), { body: await res.arrayBuffer(), init }); // fails, like the real one, if the body was read
+    },
+    keys: async () => [...entries.keys()].map((url) => ({ url })),
+    delete: async (req) => entries.delete(key(req)),
+  });
+  return {
+    caches,
+    open: async (name) => cache(caches.get(name) || caches.set(name, new Map()).get(name)),
+    keys: async () => [...caches.keys()],
+    has: async (name) => caches.has(name),
+    delete: async (name) => caches.delete(name),
+    match: async (req, { cacheName } = {}) => {
+      for (const [name, entries] of caches) {
+        const hit = (!cacheName || name === cacheName) && answer(entries.get(key(req)));
+        if (hit) return hit;
+      }
+      return undefined;
+    },
+  };
+}
+const setsIn = (storage) => [...storage.caches.keys()].filter((name) => name.startsWith('francais-set-'));
+
+// sw.js in a sandbox (a new one is a worker the browser stopped and started again). request() asks for a
+// file as a page does; settle() waits for the work the worker goes on with after answering.
+function startWorker(storage, server, { networkWait = 100, every = 0, limit = 120000, keep = 60000 } = {}) {
+  const source = swSource
+    .replace(/const NETWORK_WAIT = \d+/, `const NETWORK_WAIT = ${networkWait}`)
+    .replace(/const CHECK_EVERY = \d+/, `const CHECK_EVERY = ${every}`)
+    .replace(/const CHECK_LIMIT = \d+/, `const CHECK_LIMIT = ${limit}`)
+    .replace(/const KEEP_FOR = \d+/, `const KEEP_FOR = ${keep}`);
+  const on = {}, later = [], pages = [];
+  const sandbox = {
+    location: new URL(`${SITE}sw.js`), caches: storage, fetch: server.fetch,
+    Response, Headers, URL, AbortController, setTimeout, clearTimeout, console,
+    addEventListener: (type, fn) => { on[type] = fn; },
+    skipWaiting: async () => {},
+    clients: { claim: async () => {}, matchAll: async () => pages.slice() },
+  };
+  sandbox.self = sandbox;
+  vm.runInNewContext(source, sandbox);
+  const lifecycle = async (type) => {
+    const waits = [];
+    on[type]({ waitUntil: (p) => waits.push(p) });
+    await Promise.all(waits);
+  };
+  return {
+    pages,
+    async install() { await lifecycle('install'); await lifecycle('activate'); },
+    request(file, { page = '', navigate = false, headers = {} } = {}) {
+      let answer = null;
+      on.fetch({
+        request: { url: SITE + file, method: 'GET', mode: navigate ? 'navigate' : 'cors', headers: new Headers(headers) },
+        clientId: navigate ? '' : page, resultingClientId: navigate ? page : '',
+        respondWith: (p) => { answer = p; }, waitUntil: (p) => { later.push(p); },
+      });
+      return answer ? Promise.resolve(answer) : server.fetch(SITE + file);
+    },
+    async settle() { while (later.length) await Promise.all(later.splice(0)); },
+  };
+}
+
+async function installed(v, options) {
+  const server = makeServer();
+  server.publish(v);
+  const storage = makeStorage();
+  const worker = startWorker(storage, server, options);
+  await worker.install();
+  return { server, storage, worker };
+}
+
+// Opens the app as a page does: the page, its files, then the lessons of the curriculum (`between` runs
+// after the page came). Resolves to the versions of the files it got, how long the page took to come, and
+// the page (with its messages).
+async function openApp(worker, id, { between } = {}) {
+  const page = { id, messages: [], postMessage(m) { this.messages.push(m.type); } };
+  worker.pages.push(page); // already listed while it opens, the strictest case
+  const start = Date.now();
+  const html = await (await worker.request('', { page: id, navigate: true })).text();
+  const took = Date.now() - start;
+  await between?.();
+  const read = (file) => worker.request(file, { page: id }).then((res) => res.text());
+  const files = await Promise.all(SW_FILES.filter((file) => file !== 'index.html').map(read));
+  const { units } = JSON.parse(files.find((text) => text.startsWith('{')));
+  const lessons = await Promise.all(units[0].lessons.map((l) => read(`data/lessons/${l}.json`)));
+  const versionOf = (text) => (text.startsWith('{') ? `v${JSON.parse(text).v}` : text.split(' ').pop());
+  return { versions: [...new Set([html, ...files, ...lessons].map(versionOf))], took, page };
+}
+
+await testAsync('sw.js: installing saves the whole app, every lesson included', async () => {
+  const { storage } = await installed(1);
+  eq(setsIn(storage).length, 1, 'versions saved');
+  const saved = [...storage.caches.get(setsIn(storage)[0]).keys()].map((url) => url.slice(SITE.length));
+  eq(saved.sort(), [...SW_FILES, 'data/lessons/a.json', 'data/lessons/b.json', 'set-complete'].sort(), 'files saved');
+});
+await testAsync('sw.js: on a weak signal, a visit runs on the saved version, then offers the new one', async () => {
+  const { server, worker } = await installed(1);
+  server.publish(2);
+  server.delay = (file) => (file.startsWith('data/lessons/') ? 400 : 0); // the code comes at once, the lessons late
+  const first = await openApp(worker, 'p1');
+  eq(first.versions, ['v1'], 'files of the first page');
+  ok(first.took < 300, `the first page took ${first.took} ms`);
+  await worker.settle();
+  eq(first.page.messages, ['new-version'], 'messages to the first page');
+  const next = await openApp(worker, 'p2');
+  eq(next.versions, ['v2'], 'files of the next page');
+  await worker.settle();
+  eq([first.page.messages, next.page.messages], [['new-version'], []], 'messages');
+});
+await testAsync('sw.js: a page still loading when the new version is saved keeps to its own version', async () => {
+  const { server, worker } = await installed(1);
+  server.publish(2);
+  server.delay = (file) => (file.startsWith('data/lessons/') ? 300 : 0);
+  const visit = await openApp(worker, 'p1', { between: () => worker.settle() });
+  eq([visit.versions, visit.page.messages], [['v1'], ['new-version']], 'files and messages');
+});
+await testAsync('sw.js: on a good connection, a visit runs on the new version at once', async () => {
+  const { server, worker } = await installed(1);
+  const before = await openApp(worker, 'p1');
+  server.publish(2);
+  const visit = await openApp(worker, 'p2');
+  await worker.settle();
+  eq([before.versions, visit.versions], [['v1'], ['v2']], 'files');
+  eq([before.page.messages, visit.page.messages], [['new-version'], []], 'messages (only the older page offers a reload)');
+});
+await testAsync('sw.js: offline, a visit opens on the saved version without waiting', async () => {
+  const { server, worker } = await installed(1);
+  server.publish(2);
+  server.offline = true;
+  const visit = await openApp(worker, 'p1');
+  eq(visit.versions, ['v1'], 'files');
+  ok(visit.took < 90, `the page took ${visit.took} ms`);
+});
+await testAsync('sw.js: when nothing changed, nothing new is saved', async () => {
+  const { storage, worker } = await installed(1);
+  for (const id of ['p1', 'p2']) eq((await openApp(worker, id)).versions, ['v1'], `files of ${id}`);
+  await worker.settle();
+  eq(setsIn(storage).length, 1, 'versions saved');
+});
+await testAsync('sw.js: a new version with a file missing is not used', async () => {
+  const { server, storage, worker } = await installed(1);
+  server.publish(2, { without: ['data/lessons/b.json'] });
+  const visit = await openApp(worker, 'p1');
+  await worker.settle();
+  eq([visit.versions, setsIn(storage).length, visit.page.messages], [['v1'], 1, []], 'files, versions saved, messages');
+});
+await testAsync('sw.js: a check that hangs gives up, and the next visit checks again', async () => {
+  const { server, worker } = await installed(1, { limit: 150 });
+  server.publish(2);
+  server.delay = (file) => (file === 'data/lessons/b.json' ? 5000 : 0);
+  eq((await openApp(worker, 'p1')).versions, ['v1'], 'files of the first page');
+  const start = Date.now();
+  await worker.settle();
+  ok(Date.now() - start < 1000, `the check went on for ${Date.now() - start} ms`);
+  server.delay = () => 0;
+  eq((await openApp(worker, 'p2')).versions, ['v2'], 'files of the next page');
+});
+await testAsync('sw.js: visits close together share one check', async () => {
+  const { server, worker } = await installed(1, { every: 5000 });
+  server.asked.length = 0;
+  await openApp(worker, 'p1');
+  await openApp(worker, 'p2');
+  await worker.settle();
+  eq(server.asked, [], 'files asked from the server');
+});
+await testAsync('sw.js: an older version is deleted once no page opened on it lately', async () => {
+  const { server, storage, worker } = await installed(1, { keep: 200 });
+  await openApp(worker, 'p1');
+  server.publish(2);
+  eq((await openApp(worker, 'p2')).versions, ['v2'], 'files of the second page');
+  await worker.settle();
+  eq(setsIn(storage).length, 2, 'versions saved while the first page may still be loading');
+  await wait(250);
+  await openApp(worker, 'p3');
+  await worker.settle();
+  eq(setsIn(storage).length, 1, 'versions saved a moment later');
+});
+await testAsync('sw.js: after a restart, the newest complete version is used, not one cut short', async () => {
+  const { server, storage } = await installed(1);
+  await (await storage.open(`francais-set-${Date.now() + 60000}`)).put(`${SITE}index.html`, new Response('index.html v9'));
+  server.offline = true;
+  eq((await openApp(startWorker(storage, server), 'p1')).versions, ['v1'], 'files');
+});
+await testAsync('sw.js: with nothing saved, a visit waits for the network', async () => {
+  const { server, storage } = await installed(1);
+  storage.caches.clear(); // the browser cleared the site's storage
+  server.delay = (file) => (file.startsWith('data/lessons/') ? 200 : 0);
+  const visit = await openApp(startWorker(storage, server), 'p1');
+  eq(visit.versions, ['v1'], 'files');
+  ok(visit.took >= 190, `the page came after ${visit.took} ms, before its lessons`);
+});
+await testAsync('sw.js: a recording is saved when first played, and a byte range gets a partial answer', async () => {
+  const { server, worker } = await installed(1);
+  const play = async () => {
+    const res = await worker.request('audio/x.mp3', { page: 'p1', headers: { Range: 'bytes=0-4' } });
+    return [res.status, res.headers.get('Content-Range'), await res.text()];
+  };
+  eq(await play(), [206, 'bytes 0-4/14', 'audio'], 'online');
+  await worker.settle();
+  server.offline = true;
+  eq(await play(), [206, 'bytes 0-4/14', 'audio'], 'offline');
+});
+await testAsync("sw.js: recordings saved by the previous version are kept; other sites' caches are left alone", async () => {
+  const server = makeServer();
+  server.publish(1);
+  const storage = makeStorage();
+  const old = await storage.open('francais-v3');
+  await old.put(`${SITE}audio/x.mp3`, new Response('audio/x.mp3 v0'));
+  await old.put(`${SITE}index.html`, new Response('index.html v0'));
+  await (await storage.open('other-site')).put('https://example.test/other/', new Response('other'));
+  const worker = startWorker(storage, server);
+  await worker.install();
+  eq([...storage.caches.keys()].filter((name) => !name.startsWith('francais-set-')).sort(), ['francais-audio', 'other-site'], 'caches');
+  server.offline = true;
+  eq(await (await worker.request('audio/x.mp3', { page: 'p1' })).text(), 'audio/x.mp3 v0', 'the recording saved before');
 });
 
 console.log(`${count} of ${count + failures} tests passed`);

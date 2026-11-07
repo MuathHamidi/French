@@ -30,7 +30,17 @@ function route() {
   window.scrollTo(0, 0);
 }
 
+// sw.js opened the app on the version saved on the phone while a newer one was downloading (a weak signal),
+// and says so once the newer one is saved: offer to switch to it.
+function offerNewVersion(e) {
+  if (e.data?.type !== 'new-version' || document.querySelector('.update-bar')) return;
+  document.querySelector('.topbar').after(h('div', { class: 'update-bar', role: 'status' },
+    h('span', {}, 'A new version of the course is ready.'),
+    h('button', { class: 'btn primary', type: 'button', onclick: () => location.reload() }, 'Reload')));
+}
+
 async function main() {
+  if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', offerNewVersion);
   loadStore();
   applyTheme();
   try {

@@ -94,6 +94,12 @@ button, input, select { font: inherit; color: inherit; }
   .nav a.active { background: var(--accent-soft); }
 }
 
+/* ---------- A new version is ready (sw.js) ---------- */
+.update-bar {
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 12px;
+  padding: 8px 16px; background: var(--accent-soft); border-bottom: 1px solid var(--border);
+}
+
 /* ---------- Cards & buttons ---------- */
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
 .card + .card { margin-top: 12px; }
