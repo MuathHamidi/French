@@ -23,7 +23,7 @@ export function renderWords(view) {
     onkeydown: (e) => { if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); showEntry(w.id); } },
   },
   h('button', { class: 'icon-btn sm', 'aria-label': 'Listen', onclick: (e) => { e.stopPropagation(); speak(w.say || w.fr); } }, '🔊'),
-  h('span', { class: `fr ${w.g ? 'g-' + w.g : ''}` }, displayForm(w)),
+  h('span', { class: `fr ${w.g && !w.both ? 'g-' + w.g : ''}` }, displayForm(w)), // either gender: no colour, as on the card
   getCard(`w:${w.id}`) ? h('span', { class: 'pill done' }, '✓') : null,
   h('span', { class: 'en' }, w.en));
 

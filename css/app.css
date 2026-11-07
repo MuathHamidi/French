@@ -50,6 +50,7 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 var(--font);
   padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 16px);
+  padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); /* a phone on its side: clear of the notch */
 }
 a { color: var(--accent); }
 h1, h2, h3 { line-height: 1.25; margin: 0 0 .5rem; }
@@ -77,6 +78,7 @@ button, input, select { font: inherit; color: inherit; }
 .nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: flex; justify-content: space-around;
   height: calc(var(--nav-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right);
   background: var(--surface); border-top: 1px solid var(--border);
 }
 .nav a {
@@ -246,6 +248,7 @@ button, input, select { font: inherit; color: inherit; }
   .popover {
     left: 0 !important; right: 0; top: auto !important; bottom: calc(var(--nav-h) + env(safe-area-inset-bottom)) !important;
     width: 100%; max-height: 60vh; border-radius: 18px 18px 0 0; border-bottom: 0;
+    padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right));
   }
 }
 
