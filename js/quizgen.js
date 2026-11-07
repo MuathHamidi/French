@@ -36,9 +36,18 @@ function clozeExample(e) {
   return (e.examples || []).find((x) => /\*\*.+?\*\*/.test(x.fr));
 }
 
+// A definition that contains the word, or one of its forms, gives the answer away (« Comment ça va ? » in the
+// definition of comment): such a word gets no definition question.
+const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+export function givesAway(e) {
+  const lower = (s) => s.toLowerCase().replace(/’/g, "'");
+  const words = [e.fr, ...(e.forms || [])].map((f) => escape(lower(f))).join('|');
+  return new RegExp(`(^|[^\\p{L}\\p{N}-])(${words})(?![\\p{L}\\p{N}-])`, 'u').test(lower(plain(e.def)));
+}
+
 export function kindsFor(e) {
   const k = ['fr2en', 'listen', 'en2fr'];
-  if (e.def) k.push('def2fr');
+  if (e.def && !givesAway(e)) k.push('def2fr');
   if (clozeExample(e)) k.push('cloze');
   // No un/une question for plural-only nouns, or for nouns used for a man or a woman (un / une journaliste).
   if (e.pos === 'noun' && e.g && e.art !== '' && !e.pl && !e.both) k.push('gender');
