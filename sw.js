@@ -17,7 +17,7 @@ const KEEP_FOR = 60000; // ms a set is kept for a page that opened on it (a page
 // Everything the app loads, besides data/lessons/<id>.json for each lesson of data/curriculum.json.
 // tools/check_logic.mjs checks that nothing is missing.
 const FILES = [
-  'index.html', 'css/app.css?v=5', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
+  'index.html', 'css/app.css?v=6', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
   'js/app.js', 'js/util.js', 'js/store.js', 'js/srs.js', 'js/audio.js', 'js/content.js', 'js/text.js',
   'js/wordcard.js', 'js/quiz.js', 'js/quizgen.js',
   'js/views/home.js', 'js/views/lesson.js', 'js/views/review.js', 'js/views/words.js', 'js/views/settings.js',

@@ -24,7 +24,7 @@ export function renderLesson(view, id, tab) {
   setCaseInfo(new Map((lesson.cases || []).map((c) => [c.id, c])));
 
   view.append(
-    h('a', { href: '#/learn', class: 'small' }, '← Course'),
+    h('a', { href: `#/learn/${lesson.unit}`, class: 'small' }, '← Course'),
     h('h1', { style: 'margin-top:6px' }, lesson.title),
     h('p', { class: 'muted', style: 'margin:0' }, `Unit ${lesson.unit} · ${lesson.en}`),
     h('nav', { class: 'tabs' }, tabs.map(([t, label]) => h('a', { href: `#/lesson/${id}/${t}`, class: t === tab ? 'active' : '' }, label))),

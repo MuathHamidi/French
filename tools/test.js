@@ -176,6 +176,7 @@ const MARKUP = [
 function badLink(href) {
   const [page, id, tab] = href.replace(/^#\/?/, '').split('/');
   if (PAGES.includes(page) && !id) return null;
+  if (page === 'learn') return !tab && lessons.some((l) => String(l.unit) === id) ? null : 'no such unit';
   if (page !== 'lesson') return 'no such page';
   const l = lessons.find((x) => x.id === id);
   if (!l) return 'no such lesson';
@@ -317,6 +318,15 @@ async function main() {
     await go('#/learn');
     expect(doc.querySelectorAll('.lesson-link').length === lessons.length, `the course lists ${doc.querySelectorAll('.lesson-link').length} lessons, expected ${lessons.length}`);
     expect(!doc.querySelector('.lesson-link .pill.done'), 'a lesson is marked done');
+    expect(doc.querySelector('.unit.current .unit-num')?.textContent === String(lessons[0].unit) && win.scrollY === 0,
+      'the course does not open at the top, with the first unit marked as in progress');
+    const last = lessons.at(-1);
+    await go(`#/lesson/${last.id}/${TABS[last.type][0]}`);
+    expect(button('← Course').getAttribute('href') === `#/learn/${last.unit}`, '“← Course” does not lead to the lesson’s unit');
+    await go(`#/learn/${last.unit}`);
+    const box = [...doc.querySelectorAll('.unit')].find((u) => u.querySelector('.unit-num').textContent === String(last.unit));
+    const below = box.getBoundingClientRect().top - doc.querySelector('.topbar').offsetHeight;
+    expect(below >= 0 && below <= 20, `the course opens with unit ${last.unit} ${Math.round(below)} px below the top bar`);
     await go('#/review');
     expect(viewText().includes('Finish a lesson quiz'), 'the empty review page does not explain what to do');
   });

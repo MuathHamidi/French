@@ -29,6 +29,14 @@ function onKey(fn) {
 }
 window.addEventListener('hashchange', () => onKey(null));
 
+// On a phone the menu covers the bottom of the screen: scroll just enough for el to clear it.
+function reveal(el) {
+  const nav = document.querySelector('.nav');
+  const limit = nav && getComputedStyle(nav).position === 'fixed' ? nav.getBoundingClientRect().top : window.innerHeight;
+  const below = el.getBoundingClientRect().bottom + 12 - limit;
+  if (below > 0) window.scrollBy({ top: below, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+}
+
 export function runQuestions(root, questions, { onAnswer, onDone, requeue = true } = {}) {
   const queue = questions.slice();
   const first = new Map();
@@ -64,7 +72,9 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
         q.explain ? h('div', { class: 'small', style: 'color:var(--text);margin-top:4px' }, inline(q.explain)) : null),
       h('button', { class: 'btn primary block', style: 'margin-top:12px', onclick: next }, i + 1 < queue.length ? 'Continue →' : 'Finish'));
       speak(q.say);
-      feedback.querySelector('.btn').focus();
+      const go = feedback.querySelector('.btn');
+      go.focus({ preventScroll: true });
+      reveal(go);
     };
 
     let body;

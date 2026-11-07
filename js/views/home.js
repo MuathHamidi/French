@@ -47,11 +47,16 @@ export function renderToday(view) {
   );
 }
 
-export function renderLearn(view) {
+// Returns the unit to open the page at: the one asked for (#/learn/12, from a lesson's "← Course"), or else the
+// one in progress, which is marked.
+export function renderLearn(view, unitN) {
+  const current = (nextLesson() || lessonList().at(-1))?.unit;
+  const at = Number(unitN) || current;
+  let anchor = null;
   view.append(h('h1', {}, 'Course'), h('p', { class: 'muted' }, 'Each unit pairs a vocabulary topic with the grammar that fits it.'));
   for (const u of curriculum.units) {
     const ls = (u.lessons || []).map((id) => lessons.get(id)).filter(Boolean);
-    const box = h('section', { class: `unit ${ls.length ? '' : 'planned'}` },
+    const box = h('section', { class: `unit ${ls.length ? '' : 'planned'} ${u.n === current ? 'current' : ''}` },
       h('div', { class: 'unit-head' }, h('span', { class: 'unit-num' }, u.n), h('div', {}, h('h2', { style: 'margin:0' }, u.title), h('div', { class: 'muted small' }, u.en))));
     for (const l of ls) {
       const st = store.lessonState(l.id);
@@ -66,5 +71,7 @@ export function renderLearn(view) {
         h('ul', { style: 'margin:6px 0 0;padding-left:1.2rem' }, u.planned.map((p) => h('li', {}, p)))));
     }
     view.append(box);
+    if (u.n === at && u !== curriculum.units[0]) anchor = box; // (the first unit: the top of the page)
   }
+  return anchor;
 }

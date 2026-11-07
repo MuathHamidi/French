@@ -141,6 +141,7 @@ button, input, select { font: inherit; color: inherit; }
 .unit { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
 .unit + .unit { margin-top: 10px; }
 .unit.planned { opacity: .6; }
+.unit.current { border-color: var(--accent); }
 .unit-head { display: flex; gap: 10px; align-items: baseline; }
 .unit-num { font-weight: 700; color: var(--accent); min-width: 2.2em; }
 .lesson-link {

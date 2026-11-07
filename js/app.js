@@ -21,13 +21,15 @@ function route() {
   document.querySelectorAll('[data-nav]').forEach((el) => {
     el.classList.toggle('active', el.dataset.nav === page || (page === 'lesson' && el.dataset.nav === 'learn'));
   });
-  if (page === 'learn') renderLearn(view);
+  let anchor = null;
+  if (page === 'learn') anchor = renderLearn(view, a);
   else if (page === 'lesson') renderLesson(view, a, b);
   else if (page === 'review') renderReview(view);
   else if (page === 'words') renderWords(view);
   else if (page === 'settings') renderSettings(view);
   else renderToday(view);
-  window.scrollTo(0, 0);
+  const top = anchor ? anchor.getBoundingClientRect().top + window.scrollY - document.querySelector('.topbar').offsetHeight - 10 : 0;
+  window.scrollTo(0, Math.max(0, top));
 }
 
 // sw.js opened the app on the version saved on the phone while a newer one was downloading (a weak signal),
