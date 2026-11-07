@@ -7,7 +7,7 @@ let files = null;      // normalized text -> audio file path (data/audio.json)
 let voices = [];
 let player = null;
 let credit = '';      // attribution for the recorded voice (shown in Settings)
-let gen = 0;          // bumps on every speak(), so a running read-aloud knows it was interrupted
+let gen = 0;          // bumps on every stop() (so on every speak()), so a running read-aloud knows it was interrupted
 
 export const speechGen = () => gen;
 export const audioCredit = () => credit;
@@ -68,7 +68,6 @@ export function speak(text, { slow = false } = {}) {
   const t = String(text).replace(/\s+/g, ' ').trim();
   if (!t) return Promise.resolve();
   stop();
-  gen += 1;
   const file = audioFile(t);
   if (file) {
     return new Promise((resolve) => {
@@ -76,7 +75,10 @@ export function speak(text, { slow = false } = {}) {
       player = a;
       a.playbackRate = slow ? 0.75 : 1;
       a.onended = a.onpause = () => resolve();
-      a.play().catch(() => tts(t, slow).then(resolve));
+      a.play().catch(() => {
+        if (player === a) tts(t, slow).then(resolve); // the file failed: the device voice reads the text
+        else resolve(); // stopped before it began (another sound, or the page changed): stay quiet
+      });
     });
   }
   return tts(t, slow);
@@ -96,6 +98,7 @@ function tts(text, slow) {
 }
 
 export function stop() {
+  gen += 1; // also ends a story's "Read it all" when the learner leaves the page
   if (player) { player.pause(); player = null; }
   if ('speechSynthesis' in window) speechSynthesis.cancel();
 }

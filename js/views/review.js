@@ -61,8 +61,10 @@ export function renderReview(view) {
         if (res !== 'no') right++;
       },
       onDone: () => {
-        const left = store.dueCardIds().length;
-        const soon = store.dueCardIds(Date.now() + 15 * 60 * 1000).length - left; // missed cards return in ~10 min
+        const now = Date.now();
+        const left = store.dueCardIds(now).length;
+        // missed cards (interval 0) come back in ~10 min; tomorrow's cards, due from midnight, don't count
+        const soon = Object.values(store.allCards()).filter((c) => c.ivl === 0 && c.due > now && c.due <= now + 15 * 60 * 1000).length;
         body.replaceChildren(h('div', { class: 'card', style: 'text-align:center' },
           h('div', { class: 'big-icon' }, '🌟'),
           h('h2', { style: 'margin-top:8px' }, `${right} / ${qs.length} right first time`),

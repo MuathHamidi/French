@@ -137,7 +137,7 @@ function renderStory(body, lesson, opts) {
       const done = speak(plain(line.fr));
       const mine = speechGen();
       await done;
-      if (speechGen() !== mine) break; // the learner clicked something else
+      if (speechGen() !== mine) break; // the learner clicked something else, or left the page
     }
     reading = false;
     readBtn.textContent = '▶ Read it all';

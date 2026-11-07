@@ -46,13 +46,14 @@ let globalsBound = false;
 export function bindGlobalCardEvents() {
   if (globalsBound) return;
   globalsBound = true;
+  const p = pop();
   document.addEventListener('click', (ev) => {
-    if (!current) return;
-    if (ev.target.closest('#popover') || ev.target.closest('.w')) return;
+    if (p.hidden) return;
+    // a row of the word list opens its card (showEntry) with this same click
+    if (ev.target.closest('#popover') || ev.target.closest('.w') || ev.target.closest('.word-row')) return;
     hide();
   });
   document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') hide(); });
-  const p = pop();
   p.addEventListener('mouseenter', () => clearTimeout(hideTimer));
   p.addEventListener('mouseleave', () => { if (!pinned) hideTimer = setTimeout(hide, 260); });
   window.addEventListener('hashchange', hide);

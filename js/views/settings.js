@@ -39,8 +39,9 @@ export function renderSettings(view) {
   file.onchange = async () => {
     const f = file.files[0];
     if (!f) return;
-    try { store.importJSON(await f.text()); toast('Progress restored.'); location.hash = '#/today'; }
+    try { store.importJSON(await f.text()); applyTheme(); toast('Progress restored.'); location.hash = '#/today'; }
     catch { toast('That file is not a progress backup.'); }
+    file.value = ''; // so that choosing the same file again loads it again
   };
 
   const flags = store.flags();
@@ -74,7 +75,7 @@ export function renderSettings(view) {
           h('button', { class: 'btn', onclick: () => { if (confirm('Clear the list?')) { store.clearFlags(); location.reload(); } } }, 'Clear')))
         : h('p', { class: 'small muted' }, 'Use “⚑ Report a problem” on any word card. Your reports collect here so they can be fixed.')),
     h('section', { class: 'card' }, h('h2', {}, 'Start over'),
-      h('button', { class: 'btn', onclick: () => { if (confirm('Delete all progress on this device?')) { store.resetAll(); location.hash = '#/today'; } } }, 'Reset all progress')),
+      h('button', { class: 'btn', onclick: () => { if (confirm('Delete all progress on this device?')) { store.resetAll(); applyTheme(); location.hash = '#/today'; } } }, 'Reset all progress')),
   );
 }
 
