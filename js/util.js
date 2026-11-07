@@ -67,9 +67,12 @@ export function todayKey(d = new Date()) {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
-export function startOfDay(ms) {
+// Local midnight at the start of ms's day, or `days` calendar days later: counting days rather than
+// 24-hour steps, so a night when the clocks change doesn't move it a day.
+export function startOfDay(ms, days = 0) {
   const d = new Date(ms);
   d.setHours(0, 0, 0, 0);
+  if (days) d.setDate(d.getDate() + days);
   return d.getTime();
 }
 

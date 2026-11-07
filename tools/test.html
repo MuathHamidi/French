@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App tests</title>
+  <link rel="icon" href="../icons/icon.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f7fb; --text: #172033; --pass: #11804a; --fail: #c52a2a; --muted: #5b6478; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0e1424; --text: #e6eaf4; --pass: #4fd18f; --fail: #ff7b7b; --muted: #9aa5bf; } }
+    body { margin: 0; padding: 16px; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, sans-serif; }
+    h1 { font-size: 1.4rem; margin: 0 0 8px; }
+    p { margin: 0 0 8px; max-width: 70ch; }
+    #status { font-weight: 700; }
+    #results { padding-left: 1.2rem; }
+    #results > li { margin: 4px 0; }
+    #results ul { color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
+    .pass { color: var(--pass); }
+    .fail { color: var(--fail); font-weight: 600; }
+    #frames { overflow-x: auto; }
+    #frames iframe { width: 360px; height: 640px; border: 1px solid var(--muted); margin: 8px 8px 0 0; box-sizing: content-box; }
+  </style>
+</head>
+<body>
+  <h1>App tests</h1>
+  <p>The app runs below with its own test progress: yours is never touched. This run opens every page of every
+    lesson, then uses each feature once. <a href="?full">Full run</a> also completes every lesson's quiz (a few minutes);
+    <code>?only=word cards,sound</code> runs only the tests whose names contain those words.</p>
+  <p id="status">Starting…</p>
+  <ol id="results"></ol>
+  <div id="frames"></div>
+  <script type="module" src="test.js"></script>
+</body>
+</html>

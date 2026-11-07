@@ -2,7 +2,8 @@
 import { todayKey, toast } from './util.js';
 import { isDue } from './srs.js';
 
-const KEY = 'francais-app-v1';
+// tools/test.html runs the app as index.html?test: its progress never mixes with the learner's.
+const KEY = /[?&]test\b/.test(globalThis.location?.search || '') ? 'francais-app-test' : 'francais-app-v1';
 
 const DEFAULT_SETTINGS = {
   newPerDay: 30,     // new words per day (goal, not a hard limit)
@@ -16,21 +17,40 @@ function fresh() {
   return { v: 1, settings: { ...DEFAULT_SETTINGS }, lessons: {}, cards: {}, log: {}, flags: [] };
 }
 
+const isObj = (x) => !!x && typeof x === 'object' && !Array.isArray(x);
+
+// Saved or imported progress with every part of the right type, so a damaged or hand-edited file can't crash the app.
+function normalize(s) {
+  return {
+    ...fresh(), ...s,
+    settings: { ...DEFAULT_SETTINGS, ...(isObj(s.settings) ? s.settings : {}) },
+    lessons: isObj(s.lessons) ? s.lessons : {},
+    cards: isObj(s.cards) ? s.cards : {},
+    log: isObj(s.log) ? s.log : {},
+    flags: Array.isArray(s.flags) ? s.flags : [],
+  };
+}
+
 let state = fresh();
 let warned = false;
 
 export function load() {
+  let raw = null;
   try {
-    const raw = localStorage.getItem(KEY);
-    if (raw) {
-      const s = JSON.parse(raw);
-      state = { ...fresh(), ...s, settings: { ...DEFAULT_SETTINGS, ...(s.settings || {}) } };
-    }
+    raw = localStorage.getItem(KEY);
+    const s = raw ? JSON.parse(raw) : {};
+    if (!isObj(s)) throw new Error('not progress');
+    state = normalize(s);
   } catch {
     state = fresh();
+    // Keep the unreadable copy: the next save would otherwise replace it with empty progress.
+    try { if (raw) localStorage.setItem(`${KEY}-unreadable`, raw); } catch { /* storage unavailable */ }
   }
   return state;
 }
+
+// Another tab saved: take up its progress, so that this tab's next save doesn't overwrite it.
+globalThis.addEventListener?.('storage', (e) => { if (e.key === KEY) load(); });
 
 export function save() {
   try {
@@ -92,8 +112,8 @@ export function clearFlags() { state.flags = []; save(); }
 export const exportJSON = () => JSON.stringify(state, null, 1);
 export function importJSON(text) {
   const s = JSON.parse(text);
-  if (!s || typeof s !== 'object' || !s.cards || !s.lessons) throw new Error('Not a progress file');
-  state = { ...fresh(), ...s, settings: { ...DEFAULT_SETTINGS, ...(s.settings || {}) } };
+  if (!isObj(s) || !isObj(s.cards) || !isObj(s.lessons)) throw new Error('Not a progress file');
+  state = normalize(s);
   save();
 }
 export function resetAll() { state = fresh(); save(); }

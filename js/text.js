@@ -6,7 +6,7 @@ const NBSP_BEFORE = /^[!?:;»]$/;
 
 export function renderText(markup, { prefer = new Set(), newIds = new Set() } = {}) {
   const segs = tokenize(markup, prefer);
-  const root = h('span', { class: 'fr-inline' });
+  const root = h('span', { class: 'fr-inline', lang: 'fr' }); // screen readers then read it in French
   let group = null, groupCase;
   segs.forEach((s, i) => {
     if (s.caseId !== groupCase) {

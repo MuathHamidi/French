@@ -249,7 +249,7 @@ button, input, select { font: inherit; color: inherit; }
   background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: .92rem; max-width: 90vw;
 }
 @media (min-width: 760px) { .toast { bottom: 24px; } }
-.field { display: grid; gap: 6px; margin-bottom: 16px; }
+.field { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; margin-bottom: 16px; } /* a long voice name can't widen the page */
 .field label { font-weight: 600; }
 .field input[type="number"], .field select { padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); max-width: 100%; }
 .field input[type="range"] { width: 100%; }

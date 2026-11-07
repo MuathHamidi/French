@@ -96,13 +96,15 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
       h('div', { class: 'row' }, prompt, q.audio ? h('button', { class: 'icon-btn', 'aria-label': 'Listen', onclick: () => speak(q.say) }, '🔊') : null),
       q.hint ? h('div', { class: 'q-hint' }, q.hint) : null,
       body, feedback);
+    card.quizItem = q; // the question shown, for tools/test.html
 
     const pct = Math.round((i / queue.length) * 100);
     root.replaceChildren(
       h('div', { class: 'quiz-top' }, h('div', { class: 'bar' }, h('i', { style: `width:${pct}%` })), h('span', { class: 'small muted' }, `${i + 1} / ${queue.length}`)),
       card);
     attachWords(prompt);
-    if (q.autoplay) setTimeout(() => speak(q.say), 250);
+    // not once the learner has answered, moved on or left the page
+    if (q.autoplay) setTimeout(() => { if (card.isConnected && !answered) speak(q.say); }, 250);
 
     onKey((ev) => {
       if (answered && ev.key === 'Enter') { ev.preventDefault(); next(); return; }

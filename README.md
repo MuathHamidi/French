@@ -38,6 +38,8 @@ data/audio.json             text → audio file map (made by tools/make_audio.py
 audio/                      generated MP3s for every word and sentence
 tools/validate.py           checks the content (run it after every change)
 tools/check_app.mjs         checks the app's code against the content (word links, quizzes, audio)
+tools/check_logic.mjs       tests the app's review dates, streak, saving and backups
+tools/test.html             tests the app in a browser: every page and every feature
 tools/make_audio.py         generates the audio with Piper
 tools/build/                scripts that help build a unit (see CLAUDE.md; the story bible is in STORY.md)
 ```
@@ -61,6 +63,7 @@ Before publishing, run:
 ```bash
 python3 tools/validate.py     # on Windows: python tools/validate.py
 node tools/check_app.mjs
+node tools/check_logic.mjs
 ```
 
 `validate.py` fails if any word in a story, example, definition or quiz is missing from the dictionary. It also fails if a lesson word is not used in its story, or if a grammar case has no highlight in the story or fewer than two quiz questions.
@@ -72,6 +75,10 @@ node tools/check_app.mjs
 - link markup would show as raw text.
 
 It also warns about quiz questions where a right answer could be marked wrong (two words with the same English, or two options that sound the same). Give it lesson ids (`node tools/check_app.mjs u20-futur u20-phone`) to check only those lessons' quizzes and audio. Add `--homographs` to list every word in them that has several dictionary entries, with the entry each text links to. This is the list to review after writing a lesson. Before adding or promoting dictionary entries, run it with `--save-links links-before.json`; afterwards, `--compare-links links-before.json` lists every older text whose words now link to a different entry.
+
+`check_logic.mjs` tests what the app computes without a browser, in Montreal time: review dates (also across the clock changes), the streak, saving and loading progress (a damaged copy is set aside, another tab's progress is kept), backups and answer checking.
+
+`tools/test.html` tests the app itself. With the server running, open <http://localhost:8765/tools/test.html>; on the online copy, `…/tools/test.html` also works from a phone. The app runs in a frame with its own test progress, so yours is never touched. It opens every page of every lesson at phone width, and a sample at computer width, looking for errors, raw markup, *undefined*, broken links and anything wider than the screen. Then it uses each feature once: quizzes (right and wrong answers, accents, the keyboard), listening questions, two days of reviews, word cards, stories read aloud, the word list, settings and backups, and two tabs at once. Sound is recorded rather than played, and the app's clock is moved for the reviews. `?full` also completes every lesson's quiz (a few minutes); `?only=word cards,sound` runs only the tests whose names contain those words.
 
 ## Pronunciation (natural audio)
 

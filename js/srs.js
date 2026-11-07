@@ -2,7 +2,6 @@
 // Grades: 0 = again (wrong), 1 = hard (right, but shaky), 2 = good, 3 = easy.
 import { startOfDay } from './util.js';
 
-const DAY = 86400000;
 const RELEARN_MS = 10 * 60 * 1000;
 const MAX_IVL = 730;
 
@@ -35,7 +34,7 @@ export function schedule(card, grade, now = Date.now()) {
   if (ivl >= 3) ivl = Math.round(ivl * (0.95 + Math.random() * 0.1)); // spread reviews out
   c.ivl = Math.min(MAX_IVL, Math.max(1, ivl));
   c.reps += 1;
-  c.due = startOfDay(now + c.ivl * DAY); // due from the start of that day
+  c.due = startOfDay(now, c.ivl); // due from the start of that day
   return c;
 }
 
