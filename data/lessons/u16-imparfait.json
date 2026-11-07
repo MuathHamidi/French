@@ -198,7 +198,7 @@
   "quiz": [
     { "case": "imp-form", "type": "mc", "q": "Quand j'étais petit, je ___ au foot tous les jours.", "en": "When I was little, I played football every day.", "options": ["jouais", "jouait", "jouerai"], "answer": "jouais" },
     { "case": "imp-form", "type": "type", "q": "Nous ___ à la campagne.", "en": "We used to live in the countryside.", "answer": "habitions" },
-    { "case": "imp-form", "type": "mc", "lang": "en", "q": "The imparfait stem comes from…", "options": ["the nous form of the present: nous parlons → parl-", "the infinitive: parler → parler-", "the je form: je parle → parle-"], "answer": "the nous form of the present: nous parlons → parl-" },
+    { "case": "imp-form", "type": "mc", "lang": "en", "q": "The imparfait stem comes from…", "options": ["the nous form of the present: nous parlons → parl-", "the infinitive: parler → parler-", "the je form: je parle → parle-"], "answer": "the nous form of the present: nous parlons → parl-", "say": "Nous parlons, je parlais." },
     { "case": "imp-etre", "type": "mc", "q": "Quand j'___ petite, j'habitais à Lyon.", "en": "When I was little, I lived in Lyon.", "options": ["étais", "était", "étions"], "answer": "étais" },
     { "case": "imp-etre", "type": "type", "q": "C'___ super !", "en": "It was great!", "answer": "était" },
     { "case": "imp-habitude", "type": "mc", "lang": "en", "q": "« Le dimanche, nous allions chez mes grands-parents » means…", "options": ["On Sundays, we used to go to my grandparents'.", "On Sunday, we went to my grandparents'.", "On Sunday, we're going to my grandparents'."], "answer": "On Sundays, we used to go to my grandparents'.", "say": "Le dimanche, nous allions chez mes grands-parents." },

@@ -211,7 +211,12 @@ ALONE_FIXES = {
     "à plus": "a plˈys",  # see you! (in sentences, see "à plus !" in FIXES)
     "l'est": "lˈɛst",  # east, clicked or on its word card (in sentences, see "à l'est" in FIXES)
     "de plus": "də plˈys",  # what's more (in sentences, see "de plus," in FIXES)
+    "je": "ʒˈø",  # alone, the voice opens the vowel, nearly /ʒœ/ (and j' alone says je)
+    "tu": "ty", "tue": "ty",  # alone and stressed, the voice hisses the t for ~140 ms; unstressed, it's as in "tu es"
 }
+# A list of forms (bien · chien, il / elle / on fait, A = B) is said with a short pause between its items: the voice
+# reads "·" as "point" and runs the others together. An elided item next to its full form (je · j') isn't said.
+LIST_SEP = re.compile(r"\s+[·/=]\s+")
 # A fixed word after an elision (l'immeuble, d'Annecy) takes the elided consonant into its
 # phoneme block: alone before a block, Piper would read "l'" as the letter name.
 ELIDED_PHONEMES = {"l": "l", "d": "d", "j": "ʒ", "m": "m", "t": "t", "s": "s", "n": "n", "c": "s",
@@ -301,9 +306,17 @@ def collect():
 
 
 def tts_input(text):
+    items = LIST_SEP.split(text.strip())
+    if len(items) > 1:
+        keys = [V.norm_key(t) for t in items]
+        items = [t for t, k in zip(items, keys) if not (k in ELIDED and ELIDED[k] in keys)]
+        if len(items) == 1:
+            return tts_input(items[0])
+        text = re.sub(r"([.!?…]),", r"\1", ", ".join(items))
     k = V.norm_key(text)
     if k in ELIDED:
-        return ELIDED[k]
+        k = ELIDED[k]
+        return f"[[ {ALONE_FIXES[k]} ]]" if k in ALONE_FIXES else k
     if k in ALONE_FIXES:
         return f"[[ {ALONE_FIXES[k]} ]]"
     # A clicked phrase that ends with an elided word (parce qu', est-ce qu') is said with the full word.

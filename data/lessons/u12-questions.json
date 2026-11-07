@@ -207,6 +207,6 @@
     { "case": "q-quel", "type": "mc", "q": "___ heure est-il ?", "en": "What time is it?", "options": ["Quelle", "Quel", "Quels"], "answer": "Quelle" },
     { "case": "q-quel", "type": "mc", "q": "___ est ton nom ?", "en": "What's your name?", "options": ["Quel", "Qu'est-ce que", "Quoi"], "answer": "Quel" },
     { "case": "q-si", "type": "mc", "lang": "en", "q": "« Tu n'aimes pas le camping ? » You DO like it. You answer…", "options": ["Si !", "Oui !", "Non !"], "answer": "Si !", "say": "Si !" },
-    { "case": "q-si", "type": "mc", "lang": "en", "q": "When do you answer « si »?", "options": ["to say yes to a negative question", "to say no politely", "to say “if”"], "answer": "to say yes to a negative question" }
+    { "case": "q-si", "type": "mc", "lang": "en", "q": "When do you answer « si »?", "options": ["to say yes to a negative question", "to say no politely", "to say “if”"], "answer": "to say yes to a negative question", "say": "Tu ne viens pas ? — Si !" }
   ]
 }
