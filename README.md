@@ -8,7 +8,7 @@ A personal French course that runs in the browser on a laptop or a phone. There 
 - **Quizzes.** Every word and every grammar case is tested, and wrong answers come back at the end. A quiz left halfway is saved, and its Quiz tab offers to resume it.
 - **Daily review (spaced repetition).** Learned words and rules come back after growing gaps, so they stick.
 
-Progress is saved in the browser (localStorage). To move it to another device, use *Settings › Download progress*, then *Load progress* on the other device (a quiz in progress stays behind).
+Progress is saved in the browser (localStorage). To move it to another device, use *Settings › Download progress*, then *Load progress* on the other device (a quiz in progress stays behind). When a device runs short of space, the browser may delete a site's data, progress included, so once there is progress the app asks the browser to keep it (Chrome decides by itself, and usually agrees for an installed app; Firefox asks once). *Settings* shows whether the browser agreed, how much space the app takes, and when progress was last downloaded on that device. A damaged backup still loads: an entry that can't be read is left out or repaired, and the app says how many.
 
 ## Run it on your computer
 

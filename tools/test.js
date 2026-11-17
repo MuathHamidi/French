@@ -14,6 +14,8 @@
 // window.testResults ({done, passed, failed, failures}).
 
 const TEST_KEY = 'francais-app-test';
+// Everything the app saves in test mode: progress, an unreadable copy of it, quizzes in progress, the last download.
+const testKeys = () => ['', '-unreadable', '-quizzes', '-backup'].map((k) => TEST_KEY + k);
 const params = new URLSearchParams(location.search);
 const FULL = params.has('full');
 const ONLY = (params.get('only') || '').toLowerCase().split(',').map((s) => s.trim()).filter(Boolean);
@@ -101,7 +103,7 @@ async function openFrame(hash) {
 
 // A fresh app (empty progress unless keep), at a width in CSS pixels.
 async function loadApp({ hash = '#/today', width = 360, keep = false } = {}) {
-  if (!keep) for (const k of ['', '-unreadable', '-quizzes']) localStorage.removeItem(TEST_KEY + k);
+  if (!keep) for (const k of testKeys()) localStorage.removeItem(k);
   frame?.remove();
   frame = await openFrame(hash);
   frame.style.width = `${width}px`;
@@ -846,13 +848,20 @@ async function main() {
     await sleep(80);
     expect(win.heard.length === 1 && win.heard[0].file && win.heard[0].rate === 0.8, `the voice test played ${heard()}, expected its recording at 0.8×`);
 
-    // backup: download, then load a changed copy (theme dark, an extra card)
+    // backup: download, then load a damaged copy and a changed copy (theme dark, an extra card)
+    if (win.navigator.storage?.estimate) { // not in every browser, and the line is then left out
+      await until(() => viewText().includes(' MB on this device (the course'), 'the space the app takes', 3000).catch(() => {});
+      expect(/The app takes (less than 0\.1|\d+(\.\d)?) MB on this device/.test(viewText()), 'the space the app takes is not shown');
+    }
+    expect(viewText().includes('Not downloaded yet on this device.'), 'a last download is shown before any');
     let href = null;
     const A = win.HTMLAnchorElement.prototype, click = A.click;
     A.click = function () { if (this.hasAttribute('download')) href = this.href; else click.call(this); };
     button('⬇ Download progress').click();
     A.click = click;
     expect(href, 'no file was offered');
+    const today = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    expect(viewText().includes(`Last downloaded on ${today}.`) && !viewText().includes('Not downloaded yet'), 'the download date is not shown');
     const backup = JSON.parse(await (await win.fetch(href)).text());
     expect(backup.settings?.newPerDay === 45 && backup.cards && backup.lessons, 'the backup does not hold the progress');
     backup.settings.theme = 'dark';
@@ -867,6 +876,12 @@ async function main() {
     };
     await load('{"not": "a backup"}');
     expect(toastText() === 'That file is not a progress backup.' && !S.getCard('w:from-backup'), `a wrong file: ${toastText()}`);
+    // a damaged entry (here an empty card) is left out, and the app still opens
+    await load(JSON.stringify({ ...backup, cards: { 'w:broken': null, 'w:kept': backup.cards['w:from-backup'] } }));
+    expect(toastText() === 'Progress restored, but 1 damaged entry was left out or repaired.' && S.getCard('w:kept') && !S.getCard('w:broken'),
+      `a damaged backup: ${toastText()}`);
+    expect(win.location.hash === '#/today' && stats().length === 3, `Today after a damaged backup: ${viewText().slice(0, 80)}`);
+    await go('#/settings');
     await load(JSON.stringify(backup));
     expect(toastText() === 'Progress restored.' && S.getCard('w:from-backup') && win.location.hash === '#/today', `loading the backup: ${toastText()}`);
     expect(doc.documentElement.dataset.theme === 'dark', 'the restored theme was not applied');
@@ -934,8 +949,7 @@ async function main() {
   document.title = failed.length ? 'FAIL · App tests' : 'PASS · App tests';
   window.testResults = { done: true, passed: results.length - failed.length, failed: failed.length, failures: failed };
   // Leave no test progress behind: it shares the browser's storage space with the learner's.
-  localStorage.removeItem(TEST_KEY);
-  localStorage.removeItem(`${TEST_KEY}-unreadable`);
+  for (const k of testKeys()) localStorage.removeItem(k);
 }
 
 main().catch((err) => {
