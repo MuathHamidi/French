@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. Nothing in the project was changed: this file is the only addition, and it is not committed.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Finding 1 was fixed afterwards and committed together with this file; the other findings and the layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -38,13 +38,13 @@ The layout proposals for the phone and the laptop are in their own sections belo
 | Dictionary forms | every form of every noun and adjective compared with its headword: one misplaced form (Content, 1) |
 | Grammar quizzes | all 1,742 questions read with their answers, and all 646 "common mistakes": no missing blank, no duplicate, and two lessons that mark good French wrong (Content, 10 and 11) |
 
-`tools/test.html` was not run. Real phones were not used: the phone results come from a browser emulating a phone's size and touch, so anything that depends on the on-screen keyboard or on Safari is marked as worth trying on the phone.
+`tools/test.html` was not run for the review. Real phones were not used: the phone results come from a browser emulating a phone's size and touch, so anything that depends on the on-screen keyboard or on Safari is marked as worth trying on the phone.
 
 ## Bugs in the app
 
 ### 1. "Write it in French" refuses right answers (Confirmed, now fixed)
 
-**Fixed on 16 November 2026, not committed.** `acceptedFor()` in [js/quizgen.js](js/quizgen.js) now builds the answers from the forms the card shows, as proposed below. Over the whole course, 673 more answers are accepted for 366 words, every count in the table below is now zero, and nothing that was accepted before is refused. Four tests in `tools/check_logic.mjs` cover it. The last row (*oe* for *œ*) was left alone: `check_logic.mjs` already has a test saying that *coeur* for *cœur* gives "check the accents", so that is a choice, not a fault. What follows describes the app before the fix.
+**Fixed on 16 November 2026.** `acceptedFor()` in [js/quizgen.js](js/quizgen.js) now builds the answers from the forms the card shows, as proposed below. Over the whole course, 673 more answers are accepted for 366 words, every count in the table below except the last is now zero, and nothing that was accepted before is refused. Four new tests in `tools/check_logic.mjs` cover it (42 in all, all passing), and the whole test page (`tools/test.html?full`, which also completes every lesson's quiz) passes. The last row (*oe* for *œ*) was left alone: `check_logic.mjs` already has a test saying that *coeur* for *cœur* gives "check the accents", so that is a choice, not a fault. What follows describes the app before the fix.
 
 `acceptedFor()` in [js/quizgen.js:8](js/quizgen.js:8) accepted the word as the card displays it (the whole string), the bare word, *un/une* + the word, and the `accept` list written by hand for each entry. When an entry has its own `display`, the plain form with *le / la / l'* is never added, and the hand-written lists differ from unit to unit.
 
