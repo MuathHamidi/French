@@ -1,13 +1,56 @@
 // Builds quiz questions from lesson data.
 // Vocabulary questions are generated from each word; grammar questions come from the lesson's "quiz" list.
-import { displayForm, plain, lessonList } from './content.js';
+import { displayForm, article, plain, lessonList } from './content.js';
 import { shuffle } from './util.js';
 
 const BLANK = '_____';
 
+// The forms a card shows, one by one: « le serveur, la serveuse » → le serveur · la serveuse,
+// « le / la médecin » → le médecin · la médecin, « chaud(e) » → chaud · chaude.
+function shownForms(e) {
+  if (!e.display) return [displayForm(e)];
+  return e.display.split(', ').flatMap((part) => {
+    const two = part.match(/^(\S+) \/ (\S+) (.+)$/);
+    return two ? [`${two[1]} ${two[3]}`, `${two[2]} ${two[3]}`] : [part];
+  }).flatMap((form) => {
+    const ending = form.match(/^(.+)\((.+)\)$/);
+    return ending ? [ending[1], ending[1] + ending[2]] : [form];
+  });
+}
+
+const ARTICLE = /^(l'|(?:le|la|les|un|une|des) )?(.+)$/;
+const withArticle = (art, word) => (art.endsWith("'") ? art + word : `${art} ${word}`);
+
+// A noun is right alone, with un / une and with le / la / l', in each form its card shows. A second form is
+// the other gender (l'infirmier, l'infirmière) unless its article says which; a noun used for a man or a
+// woman (`both`) takes both. `accept` is then only needed for other words (docteur for médecin).
+function nounAnswers(e, shown) {
+  const out = [`${e.pl ? 'des' : e.g === 'f' ? 'une' : 'un'} ${e.fr}`];
+  if (e.art === '') return out; // used without an article (lundi, janvier)
+  const forms = shown.map((s) => s.match(ARTICLE)).map(([, art = '', word]) => ({ art: art.trim(), word }));
+  const paired = forms.some((f) => f.word === e.fr);
+  if (!paired) forms.unshift({ art: article(e), word: e.fr }); // the card shows a phrase: avoir envie de
+  for (const { art, word } of forms) {
+    const head = word === e.fr;
+    if (!art && !head && !paired) continue; // the phrase itself takes no article
+    out.push(word);
+    if (art === 'les' || art === 'des') { out.push(`les ${word}`, `des ${word}`); continue; }
+    const genders = head && e.both ? ['m', 'f']
+      : art === 'le' || art === 'un' ? ['m'] : art === 'la' || art === 'une' ? ['f'] : [head ? e.g : e.g === 'f' ? 'm' : 'f'];
+    for (const g of genders) {
+      const the = art === "l'" ? art : art === 'le' || art === 'la' ? (g === 'f' ? 'la' : 'le')
+        : article({ pos: 'noun', g, fr: word, hAsp: head && e.hAsp });
+      out.push(`${g === 'f' ? 'une' : 'un'} ${word}`, withArticle(the, word));
+    }
+  }
+  return out;
+}
+
+// Everything « Write it in French » takes for a word; the first one is shown as the answer.
 export function acceptedFor(e) {
-  const list = [displayForm(e), e.fr, ...(e.accept || [])];
-  if (e.pos === 'noun' && e.g) list.push(`${e.pl ? 'des' : e.g === 'f' ? 'une' : 'un'} ${e.fr}`);
+  const shown = shownForms(e);
+  const list = [displayForm(e), e.fr, ...(e.accept || []), ...shown];
+  if (e.pos === 'noun' && e.g) list.push(...nounAnswers(e, shown));
   return [...new Set(list)];
 }
 
