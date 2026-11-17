@@ -77,14 +77,17 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
       reveal(go);
     };
 
-    let body;
+    // A typed answer is checked only once something is typed: an empty box (spaces and punctuation don't count)
+    // is never marked wrong. « I don't know » is there to give up on a question.
+    let body, input;
+    const submitTyped = () => (normAnswer(input.value) ? submit(input.value) : input.focus());
     if (q.options) {
       body = h('div', { class: 'options' }, q.options.map((o, n) => h('button', {
         class: 'option', 'data-v': o, onclick: (e) => submit(o, e.currentTarget),
       }, h('span', { class: 'muted small' }, `${n + 1}  `), o)));
     } else {
       // No help from the device: an iPhone's autocorrect would rewrite the answer (or add its accents).
-      const input = h('input', {
+      input = h('input', {
         class: 'answer-input', type: 'text', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'false',
         lang: 'fr', placeholder: 'Type in French…', 'aria-label': 'Your answer',
       });
@@ -97,7 +100,7 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
             input.setSelectionRange(s + 1, s + 1);
           },
         }, c))),
-        h('button', { class: 'btn primary block check', onclick: () => submit(input.value) }, 'Check'),
+        h('button', { class: 'btn primary block check', onclick: submitTyped }, 'Check'),
         h('button', { class: 'reveal', style: 'margin-top:8px', onclick: () => submit('') }, "I don't know"));
       setTimeout(() => input.focus(), 30);
     }
@@ -118,8 +121,12 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
     if (q.autoplay) setTimeout(() => { if (card.isConnected && !answered) speak(q.say); }, 250);
 
     onKey((ev) => {
+      // A held key repeats its keydown: only the first one counts. Otherwise a held Enter moves on and answers the
+      // next question, again and again (its default action would also press the focused Continue button).
+      if (ev.repeat) { if (ev.key === 'Enter') ev.preventDefault(); return; }
       if (answered && ev.key === 'Enter') { ev.preventDefault(); next(); return; }
-      if (!answered && ev.key === 'Enter' && !q.options) { ev.preventDefault(); submit(card.querySelector('input').value); return; }
+      // Enter checks the typed answer, except on a button (an accent, « I don't know »), which it presses.
+      if (!answered && ev.key === 'Enter' && !q.options && !ev.target.closest?.('button')) { ev.preventDefault(); submitTyped(); return; }
       if (!answered && q.options && /^[1-9]$/.test(ev.key) && !ev.target.closest?.('input')) {
         const b = card.querySelectorAll('.option')[Number(ev.key) - 1];
         if (b) submit(b.dataset.v, b);

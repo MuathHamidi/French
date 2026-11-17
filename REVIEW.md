@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Finding 1 was fixed afterwards and committed together with this file; the other findings and the layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 and 2 in the app were fixed afterwards; the other findings and the layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -11,7 +11,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | # | Finding | Where |
 |---|---|---|
 | 1 | "Write it in French" marks right answers wrong: *le serveur*, *le médecin*, *la voisine*, *chaude*, *une adulte* and hundreds like them. **Fixed** (see below) | [js/quizgen.js:8](js/quizgen.js:8) |
-| 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions | [js/quiz.js:120](js/quiz.js:120) |
+| 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions. **Fixed** (see below) | [js/quiz.js:123](js/quiz.js:123) |
 | 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions | [js/quiz.js:139](js/quiz.js:139) |
 | 4 | On the phone, the word card covers the word you tapped | [css/app.css:248](css/app.css:248) |
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga" | course data, [js/content.js:50](js/content.js:50) |
@@ -63,7 +63,9 @@ This matters most in reviews: a refused answer resets the card (interval 0, ease
 
 Fix in code, not in 300 `accept` lists: build the accepted answers from the entry itself. Take `fr`, then *un/une* and *le/la/l'* + `fr` worked out from `g` and `hAsp` whatever `display` says; split `display` on `, ` and ` / ` and accept each part with and without its article; expand `(e)` and `(ne)`; for `both`, add both genders; treat *œ* and *oe* as the same letter. `accept` then only needs true synonyms (*docteur*). `check_app.mjs` could then test that every form a card shows is accepted.
 
-### 2. Enter on an empty answer counts as wrong (Confirmed)
+### 2. Enter on an empty answer counts as wrong (Confirmed, now fixed)
+
+**Fixed on 16 November 2026.** In [js/quiz.js](js/quiz.js:123), Enter and Check now do nothing while the box is empty (spaces and punctuation don't count, and Check puts the cursor back in the box), so a question is only given up with "I don't know". A held key acts once: its repeats are ignored, and a repeated Enter can't press the focused Continue button. Enter on a focused button (an accent, "I don't know") now presses that button instead of checking the box. The "Typed answers" test in `tools/test.js` now covers this and fails on the old code; the whole test page (`tools/test.html?full`) passes. In the app, three quick presses of Enter after typing an answer now check it, move on, and leave the next question untouched. What follows describes the app before the fix.
 
 [js/quiz.js:120-123](js/quiz.js:120): Enter moves on from an answered question, and on a typed question it submits the box even when it is empty. In the browser, Enter on the empty box gave "Not quite. The answer is: content, contente". Holding the key did worse: each pair of repeat events moved to the next question and marked it wrong (36/86 → 37/87 → 38/88).
 

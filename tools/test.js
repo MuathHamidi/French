@@ -5,9 +5,9 @@
 // 1. Every page (Today, Course, Review, Words, Settings and each tab of each lesson) at phone width, and a
 //    sample at computer width: no error, no raw markup, no "undefined" or "NaN", no broken link, nothing
 //    wider than the screen.
-// 2. Each feature once: quizzes (right, wrong, accents, "I don't know", keyboard), listening questions,
-//    reviews over two days, word cards, stories read aloud, sound, the word list, settings and backups,
-//    two tabs at once.
+// 2. Each feature once: quizzes (right, wrong, accents, "I don't know", the keyboard, an empty box, a held
+//    Enter), listening questions, reviews over two days, word cards, stories read aloud, sound, the word list,
+//    settings and backups, two tabs at once.
 // 3. With ?full, every lesson's quiz is also completed.
 // ?only=word cards,sound runs only the tests whose names contain one of those words.
 // Sound is recorded instead of played, and the app's clock can be moved. Results show on the page and in
@@ -163,7 +163,8 @@ const viewText = () => doc.getElementById('view').textContent;
 const popover = () => doc.getElementById('popover');
 const toastText = () => doc.getElementById('toast').textContent;
 const stats = () => [...doc.querySelectorAll('.stat b')].map((b) => Number(b.textContent)); // streak, words, due
-const key = (k, target = doc.body) => target.dispatchEvent(new win.KeyboardEvent('keydown', { key: k, bubbles: true, cancelable: true }));
+// false when the app prevented the key's default action
+const key = (k, target = doc.body, opts = {}) => target.dispatchEvent(new win.KeyboardEvent('keydown', { key: k, bubbles: true, cancelable: true, ...opts }));
 const mouse = (type, target) => target.dispatchEvent(new win.MouseEvent(type, { bubbles: true, cancelable: true }));
 async function fileOf(text) { return (await mod('audio.js')).audioFile(text)?.split('/').pop() || null; }
 const heard = () => JSON.stringify(win.heard);
@@ -363,20 +364,41 @@ async function main() {
     expect(questionCard()?.quizItem, 'the retake did not start');
   });
 
-  await scenario('Typed answers: accents, “I don’t know” and the keyboard', async (expect) => {
+  await scenario('Typed answers: accents, “I don’t know”, the keyboard and an empty box', async (expect) => {
     const content = await mod('content.js');
     const l = vocab.find((x) => content.lessons.get(x.id).words.some((w) => /[àâçéèêëîïôûùüÿœ]/i.test(w.fr))) || V1;
     await loadApp();
     setNow(DAY0);
-    let accent = false, dontknow = false;
+    let accent = false, dontknow = false, tried = 0;
     // an answer whose accents matter (s'il vous plait, without its circumflex, is also accepted)
     const accentMatters = (q) => strip(q.answers[0]) !== q.answers[0]
       && !q.answers.some((a) => a.toLowerCase() === strip(q.answers[0]).toLowerCase());
-    const log = await passLesson(l, (q) => {
+    await startQuiz(l);
+    const log = await runQuiz((q) => {
       if (!q.options && !accent && accentMatters(q)) { accent = true; return 'accent'; }
       if (!q.options && accent && !dontknow) { dontknow = true; return 'dontknow'; }
       return 'keys';
+    }, (q, card) => {
+      if (q.options || accentMatters(q) || tried >= 2) return null; // the accent question is the policy's
+      tried += 1;
+      const input = card.querySelector('input.answer-input');
+      if (tried === 1) {
+        // Enter and Check with nothing typed do nothing, nor does a key held down since the last question.
+        for (const v of ['', '   ', ' ?! ']) { input.value = v; key('Enter', input); card.querySelector('.check').click(); }
+        input.value = q.answers[0];
+        key('Enter', input, { repeat: true });
+        expect(!card.querySelector('.feedback'), 'an empty box, or a held Enter, was taken as an answer');
+        input.value = '';
+        return null;
+      }
+      // A held Enter answers once: its repeats neither move on nor press the focused Continue button.
+      input.value = q.answers[0];
+      key('Enter', input);
+      const held = [1, 2, 3].map(() => key('Enter', doc.activeElement, { repeat: true }));
+      expect(card.querySelector('.feedback') && questionCard() === card && held.every((sent) => !sent), 'a held Enter went past the answer');
+      return 'answered';
     });
+    expect(tried === 2, 'no typed question to try an empty box and a held Enter on');
     const a = log.find((x) => x.how === 'accent');
     expect(a?.result === 'accent' && a.text.includes('check the accents'), `an answer without its accents gave: ${a?.text || 'no such question'}`);
     expect(log.find((x) => x.how === 'dontknow')?.result === 'no', '“I don’t know” was not counted as wrong');
