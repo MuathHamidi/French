@@ -114,8 +114,9 @@ export function wordQuestion(e, kind, pool) {
     case 'cloze': {
       const ex = clozeExample(e);
       const target = ex.fr.match(/\*\*(.+?)\*\*/)[1];
+      // Every bold copy is hidden (tantôt… tantôt, brique par brique): one left in sight would give the answer.
       return {
-        ...base, kind, label: 'Fill in the blank', prompt: ex.fr.replace(/\*\*.+?\*\*/, BLANK), promptFr: true, rich: true,
+        ...base, kind, label: 'Fill in the blank', prompt: ex.fr.replace(/\*\*.+?\*\*/g, BLANK), promptFr: true, rich: true,
         hint: ex.en, answers: [plain(target)], say: plain(ex.fr.replace(/\*\*/g, '')),
       };
     }

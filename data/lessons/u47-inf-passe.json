@@ -20,7 +20,7 @@
      "examples": [
       {"fr": "{Après avoir pris le train de sept heures|ip-apres}, Léa et Hugo arrivent les premiers.", "en": "After taking the seven o'clock train, Léa and Hugo arrive first."},
       {"fr": "{Après avoir soufflé les bougies|ip-apres}, Louise ouvre ses cadeaux.", "en": "After blowing out the candles, Louise opens her presents."}],
-     "tip": "Never après manger in careful French: après avoir mangé."},
+     "tip": "Après manger and après boire are old set phrases. Other verbs take the past infinitive: après avoir fini, never après finir."},
     {"title": "2. être and reflexive verbs: agreement", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
       ["après être [arrivée|arriver]", "after arriving (a woman)"],
       ["après être partis", "after leaving (several people)"],
@@ -37,7 +37,7 @@
      "examples": [
       {"fr": "Il est arrivé {sans avoir rien apporté|ip-sans}.", "en": "He arrived without bringing anything."},
       {"fr": "Tu as mangé le gâteau {sans avoir attendu les autres|ip-sans} ?", "en": "You ate the cake without waiting for the others?"}],
-     "tip": "With rien and jamais, they go between avoir and the participle: sans avoir rien dit."},
+     "tip": "Rien and jamais usually go between avoir and the participle: sans avoir rien dit. Before avoir is right too: sans rien avoir dit."},
     {"title": "4. pour avoir…, merci de…", "table": {"head": ["French", "English"], "frCols": [0], "rows": [
       ["Il a eu une amende pour avoir brûlé un feu rouge.", "He got a fine for running a red light."],
       ["Merci de m'avoir invitée.", "Thank you for inviting me."],
@@ -56,7 +56,7 @@
      "tip": "English often uses -ing here (I remember saying); French uses the past infinitive."}
   ],
   "mistakes": [
-    {"wrong": "Après manger, on danse.", "right": "Après avoir mangé, on danse.", "why": "Après needs the past infinitive: après avoir mangé."},
+    {"wrong": "Après finir le repas, on danse.", "right": "Après avoir fini le repas, on danse.", "why": "Après needs the past infinitive: après avoir fini. Only après manger and après boire are set phrases."},
     {"wrong": "Après avoir arrivé, ils se sont reposés.", "right": "Après être arrivés, ils se sont reposés.", "why": "Arriver takes être, in the past infinitive too."},
     {"wrong": "Après être arrivé, Louise s'est assise.", "right": "Après être arrivée, Louise s'est assise.", "why": "With être, the participle agrees with the subject."},
     {"wrong": "Après s'avoir levée, elle a ouvert la fenêtre.", "right": "Après s'être levée, elle a ouvert la fenêtre.", "why": "Reflexive verbs take être: s'être levée."},
@@ -96,7 +96,7 @@
     {"case": "ip-apres", "type": "mc", "q": "___ pris le train, ils arrivent à Marseille.", "en": "After taking the train, they arrive in Marseille.", "options": ["Après avoir", "Après", "Après être"], "answer": "Après avoir"},
     {"case": "ip-accord", "type": "mc", "q": "Après être ___ une semaine chez Pierre, Lou ne parle que de sangliers.", "en": "After staying a week at Pierre's, Lou talks of nothing but wild boars.", "options": ["restée", "resté", "restés"], "answer": "restée"},
     {"case": "ip-accord", "type": "mc", "q": "Après s'___ assise, Louise regarde sa famille.", "en": "After sitting down, Louise looks at her family.", "options": ["être", "avoir", "est"], "answer": "être"},
-    {"case": "ip-sans", "type": "mc", "q": "Hugo est arrivé sans ___ apporté.", "en": "Hugo arrived without bringing anything.", "options": ["avoir rien", "rien avoir", "être rien"], "answer": "avoir rien"},
+    {"case": "ip-sans", "type": "mc", "q": "Hugo est arrivé sans ___ apporté.", "en": "Hugo arrived without bringing anything.", "options": ["avoir rien", "n'avoir rien", "être rien"], "answer": "avoir rien", "why": "No ne after sans. Rien goes between avoir and the participle (or before avoir: sans rien avoir apporté)."},
     {"case": "ip-sans", "type": "mc", "q": "Tu as mangé le gâteau sans ___ les autres ?", "en": "You ate the cake without waiting for the others?", "options": ["avoir attendu", "attendu", "être attendu"], "answer": "avoir attendu"},
     {"case": "ip-pour", "type": "mc", "q": "Merci ___ gardé mes lettres.", "en": "Thank you for keeping my letters.", "options": ["d'avoir", "pour", "de"], "answer": "d'avoir"},
     {"case": "ip-pour", "type": "mc", "q": "Il a eu une amende pour ___ brûlé un feu rouge.", "en": "He got a fine for running a red light.", "options": ["avoir", "être", "a"], "answer": "avoir"},

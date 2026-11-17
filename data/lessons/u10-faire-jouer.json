@@ -11,7 +11,7 @@
     { "id": "fj-faire-dela", "label": "faire de la / de l'", "rule": "**faire de la** + a feminine activity, **de l'** before a vowel: *faire de la natation, de la danse, de l'escalade*." },
     { "id": "fj-jouer-a", "label": "jouer à + game or sport", "rule": "Games and sports: **jouer au / à la / aux**: *jouer au foot, au tennis, aux cartes, aux jeux vidéo*." },
     { "id": "fj-jouer-de", "label": "jouer de + instrument", "rule": "Instruments: **jouer du / de la / des**: *jouer du piano, de la guitare*." },
-    { "id": "fj-neg", "label": "in the negative", "rule": "**faire du / jouer du** → **pas de**: *je ne fais pas de sport, je ne joue pas de piano*. But **jouer à** keeps **à**: *je ne joue pas au foot*." },
+    { "id": "fj-neg", "label": "in the negative", "rule": "**du / de la** meaning *some* → **pas de**: *je ne fais pas de sport, je ne joue pas de musique*. But **jouer à** keeps **à** (*je ne joue pas au foot*), and an instrument keeps the **de** of *jouer de*: *je ne joue pas du piano* (*pas de piano* is heard too)." },
     { "id": "fj-both", "label": "jouer au tennis = faire du tennis", "rule": "Many sports work both ways: *jouer au tennis / faire du tennis, jouer au foot / faire du foot*." },
     { "id": "fj-aimer", "label": "j'aime le tennis (not du)", "rule": "With **aimer, adorer, détester, préférer**, use **le / la / les**: *j'aime **le** tennis, je déteste **la** danse*." }
   ],
@@ -89,7 +89,7 @@
         "rows": [
           ["Je fais du sport.", "Je ne fais pas de sport."],
           ["Je fais de la danse.", "Je ne fais pas de danse."],
-          ["Je joue du piano.", "Je ne joue pas de piano."],
+          ["Je joue du piano.", "Je ne joue pas du piano."],
           ["Je joue au foot.", "Je ne joue pas au foot."]
         ]
       },
@@ -97,7 +97,7 @@
         { "fr": "{Je ne fais pas de sport|fj-neg}.", "en": "I don't do any sport." },
         { "fr": "{Il ne joue pas au tennis|fj-neg}.", "en": "He doesn't play tennis." }
       ],
-      "tip": "Only **du / de la / de l' / des** turn into **de**. **au / à la / aux** stay as they are."
+      "tip": "**du / de la / de l' / des** meaning *some* turn into **de**. **au / à la / aux** stay as they are, and so does the **du** of an instrument: *jouer de* + *le piano*."
     },
     {
       "title": "6. Both ways — and liking",
@@ -155,7 +155,7 @@
     { "case": "fj-jouer-de", "type": "type", "q": "Ma sœur joue ___ piano.", "en": "My sister plays the piano.", "answer": "du" },
     { "case": "fj-neg", "type": "mc", "q": "Je ne fais pas ___ sport.", "en": "I don't do any sport.", "options": ["de", "du", "le"], "answer": "de" },
     { "case": "fj-neg", "type": "mc", "q": "Je ne joue pas ___ foot.", "en": "I don't play football.", "options": ["au", "de", "du"], "answer": "au", "why": "**jouer à** keeps **au** in the negative." },
-    { "case": "fj-neg", "type": "type", "q": "Il ne joue pas ___ piano.", "en": "He doesn't play the piano.", "answer": "de", "why": "**jouer du** → **pas de** after a negative." },
+    { "case": "fj-neg", "type": "type", "q": "Il ne joue pas ___ piano.", "en": "He doesn't play the piano.", "answer": ["du", "de"], "why": "An instrument keeps the **de** of *jouer de*: *pas du piano*. *Pas de piano* is heard too." },
     { "case": "fj-both", "type": "mc", "lang": "en", "q": "Which pair is correct?", "options": ["Je joue au tennis. / Je fais du tennis.", "Je joue du tennis. / Je fais au tennis."], "answer": "Je joue au tennis. / Je fais du tennis." },
     { "case": "fj-both", "type": "mc", "q": "Tu joues ___ tennis ?", "en": "Do you play tennis?", "options": ["au", "du"], "answer": "au" },
     { "case": "fj-aimer", "type": "mc", "q": "J'aime ___ tennis.", "en": "I like tennis.", "options": ["le", "du", "au"], "answer": "le" },

@@ -38,7 +38,7 @@ const util = await load('util.js');
 const srs = await load('srs.js');
 const store = await load('store.js');
 const { check, quizProgress, resumeProgress } = await load('quiz.js');
-const { acceptedFor } = await load('quizgen.js');
+const { acceptedFor, wordQuestion } = await load('quizgen.js');
 const { playbackSpeed } = await load('audio.js');
 const KEY = 'francais-app-v1';
 
@@ -417,6 +417,12 @@ test('an adjective is right in the masculine or the feminine its card shows; a v
   marks(adj('rouge'), ['rouge'], ['rouges']);
   marks({ fr: 'se lever', pos: 'verb' }, ['se lever'], ['lever']);
   marks({ fr: 'prendre soin', pos: 'verb', display: 'prendre soin de' }, ['prendre soin', 'prendre soin de']);
+});
+test('a fill-in-the-blank hides every copy of its word (tantôt… tantôt), and reads the whole sentence', () => {
+  const word = { id: 'tantot', fr: 'tantôt', pos: 'adv', en: 'sometimes',
+    examples: [{ fr: 'Nina est **tantôt** sage, **tantôt** terrible.', en: 'Nina is good one minute, terrible the next.' }] };
+  const q = wordQuestion(word, 'cloze', []);
+  eq([q.prompt, q.answers, q.say], ['Nina est _____ sage, _____ terrible.', ['tantôt'], 'Nina est tantôt sage, tantôt terrible.'], 'the question');
 });
 
 // ---------- the offline copy (sw.js) ----------
