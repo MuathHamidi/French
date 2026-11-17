@@ -19,8 +19,8 @@ export function renderWords(view) {
   const toggle = h('button', { class: 'btn' }, 'Show: all words');
 
   const row = (w) => h('div', {
-    class: 'word-row', role: 'button', tabindex: '0', onclick: () => showEntry(w.id),
-    onkeydown: (e) => { if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); showEntry(w.id); } },
+    class: 'word-row', role: 'button', tabindex: '0', onclick: (e) => showEntry(w.id, e.currentTarget),
+    onkeydown: (e) => { if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); showEntry(w.id, e.currentTarget); } },
   },
   h('button', { class: 'icon-btn sm', 'aria-label': 'Listen', onclick: (e) => { e.stopPropagation(); speak(w.say || w.fr); } }, '🔊'),
   h('span', { class: `fr ${w.g && !w.both ? 'g-' + w.g : ''}` }, displayForm(w)), // either gender: no colour, as on the card

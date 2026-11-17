@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 3 in the app were fixed afterwards; the other findings and the layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 4 were fixed afterwards (the fix for 4 is point 2 of the phone layout); the other findings and layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -13,7 +13,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | 1 | "Write it in French" marks right answers wrong: *le serveur*, *le médecin*, *la voisine*, *chaude*, *une adulte* and hundreds like them. **Fixed** (see below) | [js/quizgen.js:8](js/quizgen.js:8) |
 | 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions. **Fixed** (see below) | [js/quiz.js:157](js/quiz.js:157) |
 | 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions. **Fixed** (see below) | [js/quiz.js:183](js/quiz.js:183) |
-| 4 | On the phone, the word card covers the word you tapped | [css/app.css:248](css/app.css:248) |
+| 4 | On the phone, the word card covers the word you tapped. **Fixed** (see Layout: phone, 2) | [js/wordcard.js:105](js/wordcard.js:105) |
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga" | course data, [js/content.js:50](js/content.js:50) |
 | 6 | The speed and voice settings change nothing you hear | [js/audio.js:76](js/audio.js:76) |
 | 7 | The Back button returns to the wrong unit of the course page | [js/app.js:32](js/app.js:32) |
@@ -117,12 +117,12 @@ These are design points rather than faults. In a 60-card review I played, the qu
 |---|---|
 | The daily goal is clamped to 5–100 when saved, but the box keeps what was typed: I typed 500, 100 was saved, the box still said 500 ([js/views/settings.js:20](js/views/settings.js:20)) | Confirmed |
 | The Words page searches only the headword and its English: *suis* finds *la Suisse*, not *être*; and *être*, *avoir* and the other 1,151 helper words can't be found at all, though they have cards. *eau* lists *beau, belle, le bureau* before *l'eau*: put exact matches first ([js/views/words.js:14](js/views/words.js:14)) | Confirmed |
-| The label "GRAMMAR" is wider than its box (64 px in 58 px) and touches the lesson title, on all 119 grammar lessons ([css/app.css:152](css/app.css:152)) | Confirmed |
+| The label "GRAMMAR" is wider than its box (64 px in 58 px) and touches the lesson title, on all 119 grammar lessons ([css/app.css:153](css/app.css:153)) | Confirmed |
 | The page title is always "Français", so history and tabs can't tell pages apart | Confirmed |
 | The theme list reads "auto, light, dark" in lower case | Confirmed |
 | Number keys answer a multiple-choice question even with Ctrl or Alt held ([js/quiz.js:164](js/quiz.js:164)) | From the code |
 | In a lesson quiz, a click on a prompt word runs twice: `attachWords` is bound on the lesson body ([js/views/lesson.js:39](js/views/lesson.js:39)) and on the prompt ([js/quiz.js:153](js/quiz.js:153)) | From the code |
-| The toast ignores the phone's bottom inset, so on an iPhone with a home bar it sits partly over the menu ([css/app.css:257](css/app.css:257)) | From the code |
+| The toast ignores the phone's bottom inset, so on an iPhone with a home bar it sits partly over the menu ([css/app.css:262](css/app.css:262)) | From the code |
 | If one lesson file fails to load, the app shows "Could not load the course" with no Retry button | From the code |
 | Each sound makes a new `Audio` element ([js/audio.js:74](js/audio.js:74)). When very many follow each other quickly, Chromium refuses to make more ("too many WebMediaPlayers"); a recording that can't play falls back to the device voice. Seen only while a script answered a whole quiz in a second; at a learner's pace the browser normally frees the old players in time. Reusing one `Audio` element would rule it out | Seen in an automated run |
 | Input and card borders have a contrast of 1.3:1 on white; text contrast is fine everywhere (4.3:1 or more in both themes) | Measured |
@@ -164,13 +164,15 @@ Measured at 375×812 with touch.
 | "← Course" | 59×18 px |
 | ✕ on the word card, "I don't know" | 30×30 px, 84×24 px |
 | Accent keys | 38×38 px, in two rows |
-| The word card | 446 px tall, 55% of the screen |
+| The word card | 446 px tall, 55% of the screen (179 px since the fix, until "More") |
 | A typed question | lesson title and tabs fill the top 234 px; the answer box starts at 446 px and "Check" ends at 651 px |
 
 The usual minimum for a tap target is 44×44 px.
 
 1. **Make the small controls tappable.** "EN" is the most-used control in the app and the smallest. As a temporary style, `.reveal { min-width: 44px; min-height: 40px; padding: 8px 10px }`, `.icon-btn.sm { width: 40px; height: 40px }` and `.accents button { min-width: 44px; height: 44px }` gave 44×40 and 40×40 targets with no sideways overflow. The Words tab grew by 13%, so do this together with point 5.
-2. **Keep the tapped word in view (Confirmed).** A word tapped anywhere below the top 300 px ends up under the card: in four of five positions tried, the card covered it. Scroll the word to just above the card when it opens, as `reveal()` already does for "Continue" ([js/quiz.js:33](js/quiz.js:33)). Then make the card shorter: word, sound, meaning and the two buttons first (about 200 px), with the definition, example and note behind "More".
+2. **Keep the tapped word in view (Confirmed, now fixed).** A word tapped anywhere below the top 300 px ends up under the card: in four of five positions tried, the card covered it. Scroll the word to just above the card when it opens, as `reveal()` already does for "Continue" ([js/quiz.js:33](js/quiz.js:33)). Then make the card shorter: word, sound, meaning and the two buttons first (about 200 px), with the definition, example and note behind "More".
+
+   **Fixed on 17 November 2026**, as proposed ([js/wordcard.js](js/wordcard.js:105), [css/app.css](css/app.css:250)). At phone width the card now opens 179 px tall at 375×812 instead of 446: the word, its sound, "Listen", "Slow", "More" and the meaning, and in a grammar text the rule of the part tapped. "More" adds the definition, the example, the note, the lesson link and "Report a problem", and becomes "Less". When the card opens or grows, the page scrolls just enough for the word tapped, or the row of the word list, to sit 12 px above it (smoothly, unless the phone asks for reduced motion). Near the end of a page, room is added below the text for this, and kept until the next page, so that closing the card moves nothing. Tried at 375×812: *vue*, tapped just above the menu, ended 12 px above the card, and the last word of the story ended above the whole card (424 px, with "More" open). On its side (667×375) the word stays between the top bar and the card, even with the whole card open. On a laptop the card is unchanged. A new scenario in `tools/test.js` covers this and fails on the old code; the whole test page passes.
 3. **Give the top bar a job.** On a phone it holds only the name. Let it scroll away, and on a lesson page replace it with one sticky row: back arrow, lesson title and the three tabs. Today the tabs scroll off, and the only way from word 25 to the story is the button at the very bottom. As a temporary style, a static top bar with sticky tabs worked as expected.
 4. **A quiz without the menu.** During a quiz, hide the bottom menu, the lesson title and the tabs. The question then starts near the top of the screen instead of 270 px down, "Check" and "Continue" sit where the thumb is, and nothing below them can be hit by mistake (bug 3).
 
@@ -192,7 +194,7 @@ The usual minimum for a tap target is 44×44 px.
 6. **A story that reads like a story.** Each sentence is followed by its own 🔊 and "EN", often on a line of their own, which breaks the text up. Hide them until the sentence is tapped, and during "Read it all" highlight the sentence being read and keep it in view; a tap on a sentence could start from there. Today nothing on screen shows where the voice is ([js/views/lesson.js:131](js/views/lesson.js:131)).
 7. **A course page you can scan.** Show finished units as one line each (number, title, ✓ 6/6), keep the current unit open, and put the four parts as headers with a row of jump links. The page is 48 screens now.
 8. **Today.** "How each day works" takes 40% of the screen every day. After the first week, use the space for the current unit's progress and the reviews due over the coming days.
-9. **On its side (Confirmed).** At 667×375 the bar and the menu take 29% of the screen, and with a word card open 40 px of text is left. For a short, wide screen, move the menu to a narrow rail on the left and open the card as a panel on the right.
+9. **On its side (Confirmed).** At 667×375 the bar and the menu take 29% of the screen, and with a word card open 40 px of text is left (86 px with the shorter card from point 2, until "More"). For a short, wide screen, move the menu to a narrow rail on the left and open the card as a panel on the right.
 
 ## Layout: laptop
 
