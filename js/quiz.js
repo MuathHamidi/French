@@ -37,11 +37,44 @@ function reveal(el) {
   if (below > 0) window.scrollBy({ top: below, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 }
 
-export function runQuestions(root, questions, { onAnswer, onDone, requeue = true } = {}) {
-  const queue = questions.slice();
-  const first = new Map();
-  const retried = new Set();
-  let i = 0;
+// A quiz in progress as plain data, to save and resume later: each question once, the order they come in (a
+// missed question comes back at the end as the same question), the first answer to each, the questions sent
+// back already, and the next one to show.
+export function quizProgress(queue, first, retried, next) {
+  const questions = [...new Set(queue)];
+  const n = new Map(questions.map((q, k) => [q, k]));
+  return {
+    questions, queue: queue.map((q) => n.get(q)), next,
+    first: [...first].map(([q, res]) => [n.get(q), res]), retried: [...retried].map((q) => n.get(q)),
+  };
+}
+
+// The quiz back from saved progress, ready for runQuestions, or null when the saved data is damaged.
+export function resumeProgress(p) {
+  try {
+    const at = (k) => {
+      const q = Number.isInteger(k) && Array.isArray(p.questions) ? p.questions[k] : null;
+      if (!Array.isArray(q?.answers) || typeof q.prompt !== 'string') throw new Error('not a question');
+      return q;
+    };
+    const queue = p.queue.map(at);
+    const first = new Map(p.first.map(([k, res]) => {
+      if (!['ok', 'accent', 'no'].includes(res)) throw new Error('not an answer');
+      return [at(k), res];
+    }));
+    const retried = new Set(p.retried.map(at));
+    const ok = queue.length && Number.isInteger(p.next) && p.next >= 0 && p.next <= queue.length;
+    return ok ? { queue, first, retried, i: p.next } : null;
+  } catch {
+    return null;
+  }
+}
+
+// Asks the questions one by one. onProgress gets the quiz as plain data after each answer (quizProgress);
+// resume (from resumeProgress) carries on a saved quiz where it stopped, in place of new questions.
+export function runQuestions(root, questions, { onAnswer, onDone, onProgress, resume = null, requeue = true } = {}) {
+  const { queue, first, retried, i: from } = resume || { queue: questions.slice(), first: new Map(), retried: new Set(), i: 0 };
+  let i = from;
 
   const render = () => {
     hideCard();
@@ -59,6 +92,7 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
       const res = check(q, given);
       if (!first.has(q)) { first.set(q, res); onAnswer?.(q, res); }
       if (res === 'no' && requeue && !retried.has(q)) { retried.add(q); queue.push(q); }
+      onProgress?.(quizProgress(queue, first, retried, i + 1));
       card.querySelectorAll('.option').forEach((b) => {
         b.disabled = true;
         if (q.answers.includes(b.dataset.v)) b.classList.add('correct');
@@ -134,20 +168,31 @@ export function runQuestions(root, questions, { onAnswer, onDone, requeue = true
     });
   };
 
-  const next = () => {
-    i += 1;
+  const show = () => {
     if (i < queue.length) render();
     else { onKey(null); onDone?.(first); }
   };
-  render();
+  const next = () => { i += 1; show(); };
+  show(); // a resumed quiz can have every question answered: then straight to the end
 }
 
 // ---------- lesson quiz page ----------
+// What a lesson's quiz is made of. A quiz saved before the lesson changed is not resumed: it could miss a new word.
+const quizBasis = (lesson) => (lesson.type === 'vocab' ? lesson.words.map((w) => w.id) : lesson.quiz.map((q) => q.case)).join(' ');
+
 export function renderQuiz(body, lesson) {
-  const start = () => {
-    const qs = lesson.type === 'vocab' ? vocabQuiz(lesson) : grammarQuiz(lesson);
-    runQuestions(body, qs, { onDone: (first) => finish(body, lesson, first, start) });
+  const basis = quizBasis(lesson);
+  const start = (resume = null) => {
+    const qs = resume ? null : lesson.type === 'vocab' ? vocabQuiz(lesson) : grammarQuiz(lesson);
+    runQuestions(body, qs, {
+      resume,
+      // saved after each answer (until then, a saved quiz stays, even after « Start over »)
+      onProgress: (p) => store.saveQuiz(lesson.id, { ...p, basis }),
+      onDone: (first) => { store.dropQuiz(lesson.id); finish(body, lesson, first, start); },
+    });
   };
+  const saved = store.savedQuiz(lesson.id);
+  const resume = saved?.basis === basis ? resumeProgress(saved) : null;
   const n = lesson.type === 'vocab' ? null : lesson.quiz.length;
   body.append(h('div', { class: 'card' },
     h('h2', {}, 'Quiz'),
@@ -155,7 +200,14 @@ export function renderQuiz(body, lesson) {
       ? `${plural(n, 'question', 'questions')} covering every case in this lesson.`
       : `Every word in this lesson comes up twice: once to recognise it, once to write it.`),
     h('p', { class: 'small muted' }, `Score ${PASS}% or more to complete the lesson. Questions you miss come back at the end, and later in your reviews.`),
-    h('button', { class: 'btn primary block', onclick: start }, 'Start the quiz')));
+    resume ? h('p', {}, resume.i < resume.queue.length
+      ? `You stopped at question ${resume.i + 1} of ${resume.queue.length}. Your answers so far are kept.`
+      : 'You answered every question: resume the quiz to see your score.') : null,
+    resume
+      ? h('div', { class: 'stack' },
+        h('button', { class: 'btn primary block', onclick: () => start(resume) }, 'Resume the quiz'),
+        h('button', { class: 'btn block', onclick: () => start() }, 'Start over'))
+      : h('button', { class: 'btn primary block', onclick: () => start() }, 'Start the quiz')));
 }
 
 function finish(body, lesson, first, restart) {

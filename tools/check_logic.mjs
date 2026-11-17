@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Tests the parts of the app that need no screen: the review schedule, dates (midnight, the nights the
 // clocks change), saved progress (saving, loading, backups, damaged data, a second tab), the streak and
-// the daily log, how typed answers are checked, and the offline copy (sw.js) against a simulated server.
+// the daily log, how typed answers are checked, saving and resuming a quiz left halfway, and the offline
+// copy (sw.js) against a simulated server.
 // tools/test.html tests the pages themselves.
 //
 // Run:  node tools/check_logic.mjs      (Node.js 22+; prints OK, or each failure and exits 1)
@@ -36,7 +37,7 @@ const load = (file) => import(pathToFileURL(path.join(ROOT, 'js', file)).href);
 const util = await load('util.js');
 const srs = await load('srs.js');
 const store = await load('store.js');
-const { check } = await load('quiz.js');
+const { check, quizProgress, resumeProgress } = await load('quiz.js');
 const { acceptedFor } = await load('quizgen.js');
 const KEY = 'francais-app-v1';
 
@@ -223,6 +224,24 @@ test('the streak counts days in a row with any study', () => {
   eq(store.streak(), 3, 'once today is started');
   eq(store.todayLog(), { new: 0, reviews: 1, lessons: 0 }, "today's log");
 });
+test('quizzes in progress: one per lesson, for the 3 lessons used last, not in backups, gone after a reset', () => {
+  reset();
+  store.saveQuiz('u01-vocab', { next: 1 });
+  store.saveQuiz('u01-vocab', { next: 2 });
+  eq(store.savedQuiz('u01-vocab'), { next: 2 }, 'saving the same lesson again replaces it');
+  for (const id of ['u02-vocab', 'u03-vocab', 'u04-vocab']) store.saveQuiz(id, { next: 7 });
+  eq([store.savedQuiz('u01-vocab'), store.savedQuiz('u04-vocab')], [null, { next: 7 }], 'a fourth lesson pushes out the oldest');
+  store.dropQuiz('u04-vocab');
+  eq([store.savedQuiz('u04-vocab'), store.savedQuiz('u03-vocab')], [null, { next: 7 }], 'dropped when its quiz ends, the others kept');
+  ok(!store.exportJSON().includes('u03-vocab'), 'a quiz in progress went into the progress, and so into backups');
+  store.resetAll();
+  eq(store.savedQuiz('u03-vocab'), null, 'after a reset');
+  saved.set(`${KEY}-quizzes`, '{"broken');
+  eq(store.savedQuiz('u03-vocab'), null, 'damaged data reads as nothing saved');
+  storageFull = true;
+  store.saveQuiz('u05-vocab', { next: 1 }); // must not throw
+  storageFull = false;
+});
 
 // ---------- typed answers ----------
 const typed = (answers) => ({ answers });
@@ -243,6 +262,26 @@ test('typed answers: a missing accent is "nearly", a wrong word is wrong', () =>
 test('multiple choice: only the right option', () => {
   const q = { options: ['un', 'une'], answers: ['une'] };
   eq([check(q, 'une'), check(q, 'un'), check(q, 'Une')], ['ok', 'no', 'no'], 'options');
+});
+
+// ---------- a lesson quiz left halfway: saved as plain data, resumed later (js/quiz.js) ----------
+test('a quiz in progress is saved as plain data and comes back the same', () => {
+  const [a, b, c] = ['un', 'deux', 'trois'].map((w) => ({ prompt: w, answers: [w] }));
+  const queue = [a, b, c, b]; // b was missed: it comes back at the end
+  const data = JSON.parse(JSON.stringify(quizProgress(queue, new Map([[a, 'ok'], [b, 'no'], [c, 'accent']]), new Set([b]), 3)));
+  const r = resumeProgress(data);
+  eq(r.queue.map((q) => q.prompt), ['un', 'deux', 'trois', 'deux'], 'the order of the questions');
+  ok(r.queue[1] === r.queue[3], 'a missed question comes back as the same question');
+  eq([...r.first].map(([q, res]) => [q.prompt, res]), [['un', 'ok'], ['deux', 'no'], ['trois', 'accent']], 'the first answers');
+  ok(r.retried.size === 1 && r.retried.has(r.queue[1]), 'the question sent back already');
+  eq(r.i, 3, 'the next question');
+});
+test('damaged quiz data is not resumed', () => {
+  const good = quizProgress([{ prompt: 'un', answers: ['un'] }], new Map(), new Set(), 0);
+  ok(resumeProgress(good), 'good data is resumed');
+  const bad = [null, 42, {}, { ...good, queue: [] }, { ...good, queue: [3] }, { ...good, queue: ['0'] }, { ...good, next: 2 },
+    { ...good, next: -1 }, { ...good, first: [[0, 'yes']] }, { ...good, retried: [1] }, { ...good, questions: [{ prompt: 'un' }] }];
+  for (const p of bad) eq(resumeProgress(p), null, JSON.stringify(p));
 });
 
 // ---------- "Write it in French": what is accepted for a word (acceptedFor in js/quizgen.js) ----------

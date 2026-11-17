@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 and 2 in the app were fixed afterwards; the other findings and the layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 3 in the app were fixed afterwards; the other findings and the layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -11,8 +11,8 @@ The project's own checks all pass, so everything below is in what they don't tes
 | # | Finding | Where |
 |---|---|---|
 | 1 | "Write it in French" marks right answers wrong: *le serveur*, *le médecin*, *la voisine*, *chaude*, *une adulte* and hundreds like them. **Fixed** (see below) | [js/quizgen.js:8](js/quizgen.js:8) |
-| 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions. **Fixed** (see below) | [js/quiz.js:123](js/quiz.js:123) |
-| 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions | [js/quiz.js:139](js/quiz.js:139) |
+| 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions. **Fixed** (see below) | [js/quiz.js:157](js/quiz.js:157) |
+| 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions. **Fixed** (see below) | [js/quiz.js:183](js/quiz.js:183) |
 | 4 | On the phone, the word card covers the word you tapped | [css/app.css:248](css/app.css:248) |
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga" | course data, [js/content.js:50](js/content.js:50) |
 | 6 | The speed and voice settings change nothing you hear | [js/audio.js:76](js/audio.js:76) |
@@ -65,13 +65,15 @@ Fix in code, not in 300 `accept` lists: build the accepted answers from the entr
 
 ### 2. Enter on an empty answer counts as wrong (Confirmed, now fixed)
 
-**Fixed on 16 November 2026.** In [js/quiz.js](js/quiz.js:123), Enter and Check now do nothing while the box is empty (spaces and punctuation don't count, and Check puts the cursor back in the box), so a question is only given up with "I don't know". A held key acts once: its repeats are ignored, and a repeated Enter can't press the focused Continue button. Enter on a focused button (an accent, "I don't know") now presses that button instead of checking the box. The "Typed answers" test in `tools/test.js` now covers this and fails on the old code; the whole test page (`tools/test.html?full`) passes. In the app, three quick presses of Enter after typing an answer now check it, move on, and leave the next question untouched. What follows describes the app before the fix.
+**Fixed on 16 November 2026.** In [js/quiz.js](js/quiz.js:157), Enter and Check now do nothing while the box is empty (spaces and punctuation don't count, and Check puts the cursor back in the box), so a question is only given up with "I don't know". A held key acts once: its repeats are ignored, and a repeated Enter can't press the focused Continue button. Enter on a focused button (an accent, "I don't know") now presses that button instead of checking the box. The "Typed answers" test in `tools/test.js` now covers this and fails on the old code; the whole test page (`tools/test.html?full`) passes. In the app, three quick presses of Enter after typing an answer now check it, move on, and leave the next question untouched. What follows describes the app before the fix.
 
 [js/quiz.js:120-123](js/quiz.js:120): Enter moves on from an answered question, and on a typed question it submits the box even when it is empty. In the browser, Enter on the empty box gave "Not quite. The answer is: content, contente". Holding the key did worse: each pair of repeat events moved to the next question and marked it wrong (36/86 → 37/87 → 38/88).
 
 A second press of Enter that lands a moment late is enough to lose a question. Fix: ignore Enter while the box is empty (there is already an "I don't know" button), and ignore `ev.repeat`.
 
-### 3. A quiz in progress is lost when you leave the page (Confirmed)
+### 3. A quiz in progress is lost when you leave the page (Confirmed, now fixed)
+
+**Fixed on 16 November 2026.** A lesson quiz is now saved after each answer ([js/quiz.js](js/quiz.js:183), [js/store.js](js/store.js)), apart from the progress and its backups, for the 3 lessons whose quizzes were used last. Back on the quiz tab, after leaving the page, a reload or the phone closing the app, the quiz says "You stopped at question 5 of 44" and offers "Resume the quiz" or "Start over"; the answers given before leaving count, and a missed question still comes back at the end. Finishing a quiz drops its save, and a quiz saved before its lesson's words or cases changed is not resumed. Reviews needed nothing: each review answer is saved as it is given, and the cards not reached stay due. Of the other two suggestions, a warning before leaving matters less now that leaving loses nothing, and the quiz without the menu is still open (Layout: phone, 4). Three tests in `tools/check_logic.mjs` and a new scenario in `tools/test.js` cover it, and the whole test page passes. What follows describes the app before the fix.
 
 The quiz lives only in memory ([js/quiz.js:139](js/quiz.js:139)). I left a quiz at question 38 of 88 for the Today page and came back to "Start the quiz". There is no warning.
 
@@ -118,8 +120,8 @@ These are design points rather than faults. In a 60-card review I played, the qu
 | The label "GRAMMAR" is wider than its box (64 px in 58 px) and touches the lesson title, on all 119 grammar lessons ([css/app.css:152](css/app.css:152)) | Confirmed |
 | The page title is always "Français", so history and tabs can't tell pages apart | Confirmed |
 | The theme list reads "auto, light, dark" in lower case | Confirmed |
-| Number keys answer a multiple-choice question even with Ctrl or Alt held ([js/quiz.js:123](js/quiz.js:123)) | From the code |
-| In a lesson quiz, a click on a prompt word runs twice: `attachWords` is bound on the lesson body ([js/views/lesson.js:39](js/views/lesson.js:39)) and on the prompt ([js/quiz.js:116](js/quiz.js:116)) | From the code |
+| Number keys answer a multiple-choice question even with Ctrl or Alt held ([js/quiz.js:164](js/quiz.js:164)) | From the code |
+| In a lesson quiz, a click on a prompt word runs twice: `attachWords` is bound on the lesson body ([js/views/lesson.js:39](js/views/lesson.js:39)) and on the prompt ([js/quiz.js:153](js/quiz.js:153)) | From the code |
 | The toast ignores the phone's bottom inset, so on an iPhone with a home bar it sits partly over the menu ([css/app.css:257](css/app.css:257)) | From the code |
 | If one lesson file fails to load, the app shows "Could not load the course" with no Retry button | From the code |
 | Each sound makes a new `Audio` element ([js/audio.js:74](js/audio.js:74)). When very many follow each other quickly, Chromium refuses to make more ("too many WebMediaPlayers"); a recording that can't play falls back to the device voice. Seen only while a script answered a whole quiz in a second; at a learner's pace the browser normally frees the old players in time. Reusing one `Audio` element would rule it out | Seen in an automated run |
