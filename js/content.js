@@ -47,7 +47,8 @@ function addEntry(e) {
 export function article(e) {
   if (e.art !== undefined) return e.art;
   if (e.pos !== 'noun' || !e.g) return '';
-  if (/^[aeiouyàâäéèêëîïôöùûüœæh]/i.test(e.fr) && !e.hAsp) return "l'";
+  // y is a consonant here: le yaourt, le yoga (and le yacht, le yen)
+  if (/^[aeiouàâäéèêëîïôöùûüœæh]/i.test(e.fr) && !e.hAsp) return "l'";
   return e.g === 'f' ? 'la' : 'le';
 }
 export function displayForm(e) {

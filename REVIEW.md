@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 4 were fixed afterwards (the fix for 4 is point 2 of the phone layout); the other findings and layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 5 were fixed afterwards (finding 4 is point 2 of the phone layout, and finding 5 is points 1 and 2 of the content); the other findings and layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -14,7 +14,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | 2 | Enter on an empty box counts as a wrong answer, and a held Enter runs through several questions. **Fixed** (see below) | [js/quiz.js:157](js/quiz.js:157) |
 | 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions. **Fixed** (see below) | [js/quiz.js:183](js/quiz.js:183) |
 | 4 | On the phone, the word card covers the word you tapped. **Fixed** (see Layout: phone, 2) | [js/wordcard.js:105](js/wordcard.js:105) |
-| 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga" | course data, [js/content.js:50](js/content.js:50) |
+| 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga". **Fixed** (see Bugs in the content, 1 and 2) | [data/lessons/u11-seasons.json:26](data/lessons/u11-seasons.json:26), [js/content.js:51](js/content.js:51) |
 | 6 | The speed and voice settings change nothing you hear | [js/audio.js:76](js/audio.js:76) |
 | 7 | The Back button returns to the wrong unit of the course page | [js/app.js:32](js/app.js:32) |
 | 8 | Progress can be cleared together with the audio cache, and a damaged backup file blanks the app | [js/store.js:23](js/store.js:23), [sw.js:212](sw.js:212) |
@@ -135,8 +135,12 @@ These are design points rather than faults. In a 60-card review I played, the qu
 
 ## Bugs in the content
 
-1. **_étés_ opens the card for _année_ (Confirmed).** [data/lessons/u11-seasons.json:60](data/lessons/u11-seasons.json:60) gives *année* the forms `["années", "étés"]`. In the app, tapping *étés* in *Tous les étés, nous allions à la mer* shows "l'année: “étés” is a form of l'année". It affects u16-imparfait, u16-pc-imparfait, u25-climat and u39-lieux. Move `étés` to *été* (line 26).
-2. **"l'yaourt" and "l'yoga" (Confirmed).** `article()` in [js/content.js:50](js/content.js:50) counts an initial `y` as a vowel. Both are helpers ([data/lexicon.json:274](data/lexicon.json:274), [:516](data/lexicon.json:516)) and their cards show the wrong form. Drop `y` from the pattern; *le yacht* or *le yen* would otherwise do the same.
+1. **_étés_ opens the card for _année_ (Confirmed, now fixed).** [data/lessons/u11-seasons.json:60](data/lessons/u11-seasons.json:60) gives *année* the forms `["années", "étés"]`. In the app, tapping *étés* in *Tous les étés, nous allions à la mer* shows "l'année: “étés” is a form of l'année". It affects u16-imparfait, u16-pc-imparfait, u25-climat and u39-lieux. Move `étés` to *été* (line 26).
+
+   **Fixed on 17 November 2026.** *étés* is now a form of *été* ([data/lessons/u11-seasons.json:26](data/lessons/u11-seasons.json:26)). `check_app.mjs --compare-links` found exactly six texts that link differently, all *étés* from *année* to *été*: two grammar examples (u16-imparfait, u16-pc-imparfait), the u25-climat story, and in u39-lieux a table row, a story line and a quiz prompt. In the app, tapping *étés* in the u25-climat story now shows "l'été: “étés” is a form of l'été".
+2. **"l'yaourt" and "l'yoga" (Confirmed, now fixed).** `article()` in [js/content.js:50](js/content.js:50) counts an initial `y` as a vowel. Both are helpers ([data/lexicon.json:274](data/lexicon.json:274), [:516](data/lexicon.json:516)) and their cards show the wrong form. Drop `y` from the pattern; *le yacht* or *le yen* would otherwise do the same.
+
+   **Fixed on 17 November 2026.** `article()` no longer counts `y` as a vowel ([js/content.js:51](js/content.js:51)), so the cards show *le yaourt* and *le yoga*, and a "Write it in French" question would now take *le yaourt* and refuse *l'yaourt*. They are the only nouns in the course that start with *y*; *l'été* and *l'école* are unchanged. A check in `tools/check_logic.mjs` covers it.
 3. **Two translations don't match their French.**
    - [data/lessons/u57-nul-tel.json:29](data/lessons/u57-nul-tel.json:29): *Ce matin, je me suis baigné dans une mer telle que…* is given as "I swim every morning, in a sea such as…". The story line has it right: "This morning I swam in a sea such as…".
    - [data/lessons/u58-adjectifs.json:70](data/lessons/u58-adjectifs.json:70): *Manon fait une liste de prénoms* is given as "is already looking for names"; it should be "is making a list of names".
