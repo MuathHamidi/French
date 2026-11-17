@@ -1,6 +1,6 @@
 // Progress, settings, review cards and lesson quizzes in progress, saved in this browser (localStorage).
 import { todayKey, toast } from './util.js';
-import { isDue } from './srs.js';
+import { isDue, newCard } from './srs.js';
 
 // tools/test.html runs the app as index.html?test: its progress never mixes with the learner's.
 const KEY = /[?&]test\b/.test(globalThis.location?.search || '') ? 'francais-app-test' : 'francais-app-v1';
@@ -18,17 +18,38 @@ function fresh() {
 }
 
 const isObj = (x) => !!x && typeof x === 'object' && !Array.isArray(x);
+const isNum = (x) => typeof x === 'number' && Number.isFinite(x);
+const BLANK = newCard(0); // what a card's damaged numbers become: those of a new card, due at once
 
-// Saved or imported progress with every part of the right type, so a damaged or hand-edited file can't crash the app.
+// Saved or imported progress with every part and entry of the right type, so that a damaged or hand-edited file
+// can't crash the app: an entry that isn't an object is left out, and a card's numbers that are missing or not
+// numbers take a new card's values. Also counts the entries left out or repaired.
 function normalize(s) {
-  return {
+  let damaged = 0;
+  const part = (x, fix = (v) => v) => {
+    const out = {};
+    for (const [k, v] of Object.entries(isObj(x) ? x : {})) {
+      const kept = isObj(v) ? fix(v) : null;
+      if (!kept || kept !== v) damaged++; // left out or repaired
+      if (kept) out[k] = kept;
+    }
+    return out;
+  };
+  const card = (c) => {
+    const bad = Object.keys(BLANK).filter((f) => !isNum(c[f]));
+    return bad.length ? { ...c, ...Object.fromEntries(bad.map((f) => [f, BLANK[f]])) } : c;
+  };
+  const flags = Array.isArray(s.flags) ? s.flags.filter(isObj) : [];
+  if (Array.isArray(s.flags)) damaged += s.flags.length - flags.length;
+  const progress = {
     ...fresh(), ...s,
     settings: { ...DEFAULT_SETTINGS, ...(isObj(s.settings) ? s.settings : {}) },
-    lessons: isObj(s.lessons) ? s.lessons : {},
-    cards: isObj(s.cards) ? s.cards : {},
-    log: isObj(s.log) ? s.log : {},
-    flags: Array.isArray(s.flags) ? s.flags : [],
+    lessons: part(s.lessons),
+    cards: part(s.cards, card),
+    log: part(s.log),
+    flags,
   };
+  return { progress, damaged };
 }
 
 let state = fresh();
@@ -40,13 +61,31 @@ export function load() {
     raw = localStorage.getItem(KEY);
     const s = raw ? JSON.parse(raw) : {};
     if (!isObj(s)) throw new Error('not progress');
-    state = normalize(s);
+    state = normalize(s).progress;
   } catch {
     state = fresh();
     // Keep the unreadable copy: the next save would otherwise replace it with empty progress.
     try { if (raw) localStorage.setItem(`${KEY}-unreadable`, raw); } catch { /* storage unavailable */ }
   }
+  protect();
   return state;
+}
+
+// When the device runs short of space, the browser may delete the whole site's data, progress included, and the
+// recordings saved for offline use make the site big. Once there is progress to keep, ask the browser to keep
+// the data (once a visit): Chrome decides by itself, Firefox asks the learner once.
+let asked = false;
+function protect() {
+  if (asked || !(Object.keys(state.cards).length || Object.keys(state.lessons).length)) return;
+  asked = true;
+  try { globalThis.navigator?.storage?.persist?.().catch(() => {}); } catch { /* not available here */ }
+}
+
+// For Settings: whether the browser agreed to keep the data (null: it can't say), and the bytes the app takes.
+export async function storageInfo() {
+  const s = globalThis.navigator?.storage;
+  const [kept, estimate] = await Promise.all([s?.persisted?.().catch(() => null), s?.estimate?.().catch(() => null)]);
+  return { kept: typeof kept === 'boolean' ? kept : null, used: isNum(estimate?.usage) ? estimate.usage : null };
 }
 
 // Another tab saved: take up its progress, so that this tab's next save doesn't overwrite it.
@@ -58,6 +97,7 @@ export function save() {
   } catch {
     if (!warned) { warned = true; toast('This browser is not saving progress (private mode?).', 5000); }
   }
+  protect();
 }
 
 export const settings = () => state.settings;
@@ -132,11 +172,21 @@ export function saveQuiz(lessonId, quiz) { keepQuizzes([{ lesson: lessonId, quiz
 export function dropQuiz(lessonId) { keepQuizzes(quizzes().filter((x) => x.lesson !== lessonId)); }
 
 // ---- backup ----
+const BACKUP = `${KEY}-backup`; // when progress was last downloaded on this device
+export function lastBackup() {
+  try { return Number(localStorage.getItem(BACKUP)) || null; } catch { return null; }
+}
+export function markBackup() {
+  try { localStorage.setItem(BACKUP, String(Date.now())); } catch { /* storage full or unavailable */ }
+}
 export const exportJSON = () => JSON.stringify(state, null, 1);
+// Returns the number of damaged entries that were left out or repaired.
 export function importJSON(text) {
   const s = JSON.parse(text);
   if (!isObj(s) || !isObj(s.cards) || !isObj(s.lessons)) throw new Error('Not a progress file');
-  state = normalize(s);
+  const { progress, damaged } = normalize(s);
+  state = progress;
   save();
+  return damaged;
 }
 export function resetAll() { state = fresh(); save(); keepQuizzes([]); }

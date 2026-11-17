@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 7 were fixed afterwards (finding 4 is point 2 of the phone layout, finding 5 is points 1 and 2 of the content, and findings 6 and 7 are points 4 and 5 of the app bugs); the other findings and layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 8 were fixed afterwards (finding 4 is point 2 of the phone layout, finding 5 is points 1 and 2 of the content, findings 6 and 7 are points 4 and 5 of the app bugs, and finding 8 is the Storage and Damaged backup parts of point 6); the other findings and layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -17,7 +17,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga". **Fixed** (see Bugs in the content, 1 and 2) | [data/lessons/u11-seasons.json:26](data/lessons/u11-seasons.json:26), [js/content.js:51](js/content.js:51) |
 | 6 | The speed and voice settings change nothing you hear. **Fixed** (see Bugs in the app, 4) | [js/audio.js:83](js/audio.js:83), [js/views/settings.js:28](js/views/settings.js:28) |
 | 7 | The Back button returns to the wrong unit of the course page. **Fixed** (see Bugs in the app, 5) | [js/views/home.js:65](js/views/home.js:65), [js/views/lesson.js:49](js/views/lesson.js:49) |
-| 8 | Progress can be cleared together with the audio cache, and a damaged backup file blanks the app | [js/store.js:23](js/store.js:23), [sw.js:212](sw.js:212) |
+| 8 | Progress can be cleared together with the audio cache, and a damaged backup file blanks the app. **Fixed** (see Bugs in the app, 6) | [js/store.js:27](js/store.js:27), [js/store.js:78](js/store.js:78), [js/views/settings.js:54](js/views/settings.js:54) |
 
 The layout proposals for the phone and the laptop are in their own sections below. Two of them were tried as temporary styles in the browser and measured.
 
@@ -99,7 +99,9 @@ The three tabs of a lesson also add three history entries, so Back from a quiz t
 
 Fix: when a lesson is opened from the list, first write its unit into the address (`history.replaceState(null, '', '#/learn/5')`); switch tabs with `location.replace`.
 
-### 6. Progress is not protected (From the code, one part Confirmed)
+### 6. Progress is not protected (From the code, one part Confirmed; Storage and Damaged backup now fixed)
+
+**Storage and Damaged backup fixed on 17 November 2026.** Once there is progress to keep (a review card or a finished lesson), the app asks the browser to keep its data, once a visit (`navigator.storage.persist()`, [js/store.js:78](js/store.js:78)): Chrome decides by itself and usually agrees for an installed app, and Firefox asks the learner once. The browser has the last word, so the backup card in Settings now says whether it agreed (if not: "this browser may delete the app's data, progress included: download it now and then"), how much space the app takes, and when progress was last downloaded on that device ([js/views/settings.js:54](js/views/settings.js:54)). On the local copy the in-app browser (Chromium) did not agree, and Settings said so. Saved progress and loaded backups now go through the same check, entry by entry ([js/store.js:27](js/store.js:27)): an entry that isn't an object (`null`, a list, a number) is left out, and a card's numbers that are missing or not numbers take a new card's values (a broken date makes it due at once), instead of breaking the app or keeping the card from ever coming back. After a damaged backup, the message says how many entries were left out or repaired. In the app at phone width (test mode), a backup with `"w:bonjour": null`, a good card and a card whose date was `"soon"` loaded with "Progress restored, but 2 damaged entries were left out or repaired."; Today showed 2 words and 2 reviews due, and Review offered both cards. The same progress, saved as it was instead of loaded from a file, also opened, and its review started with no console error. `tools/check_logic.mjs` tests damaged saved progress, damaged backups and their count, the request to keep the data and the figures for Settings, and the Settings scenario of `tools/test.js` tests the new lines and a damaged backup. On the old code both fail (Today stayed blank after the damaged backup), and the whole test page passes. The recordings' cache still has no limit, and **Updates** and **Reset** below are still open. What follows describes the app before the fix.
 
 - **Storage.** Progress is in localStorage; recordings pile up in the `francais-audio` cache with no limit ([sw.js:212](sw.js:212)), up to 567 MB. The app never asks for persistent storage, and under pressure a browser clears a whole site at once, progress included. Call `navigator.storage.persist()`, and show the storage in use and the date of the last backup in Settings.
 - **Updates.** If storage fills, saving a new course version fails quietly ([sw.js:166](sw.js:166)) and the app stays on the old version with no message.

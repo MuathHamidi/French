@@ -172,6 +172,25 @@ test('parts of the wrong type are replaced, so nothing crashes', () => {
   store.bumpLog({ reviews: 1 });
   eq([store.flags().length, store.todayLog().reviews], [1, 1], 'usable afterwards');
 });
+const fields = (card) => [card.due, card.ivl, card.ease, card.reps, card.lapses, card.last];
+test('entries of the wrong type are left out and damaged cards repaired, so nothing crashes or gets stuck', () => {
+  reset();
+  saved.set(KEY, JSON.stringify({
+    v: 1, settings: {}, flags: [{ word: 'chat' }, null],
+    cards: { 'w:a': srs.newCard(NOW), 'w:b': null, 'w:c': [1], 'w:d': { due: NOW + MIN, ease: 'x' } },
+    lessons: { 'u01-vocab': 3, 'u02-vocab': { done: true, best: 80 } },
+    log: { [util.todayKey()]: null },
+  }));
+  store.load();
+  eq(Object.keys(store.allCards()), ['w:a', 'w:d'], 'cards kept');
+  eq(fields(store.getCard('w:d')), [NOW + MIN, 0, 2.5, 0, 0, 0], 'the damaged card: its good numbers kept, the others those of a new card');
+  eq([store.dueCardIds(NOW), store.dueCardIds(NOW + MIN)], [['w:a'], ['w:a', 'w:d']], 'due cards');
+  eq([store.lessonState('u01-vocab'), store.lessonState('u02-vocab').best, store.flags().length], [null, 80, 1], 'lessons and reports');
+  store.putCard('w:d', srs.schedule(store.getCard('w:d'), 'good', NOW + MIN));
+  ok(store.getCard('w:d').due > NOW + MIN, 'the repaired card is scheduled');
+  store.bumpLog({ reviews: 1 });
+  eq(store.todayLog(), { new: 0, reviews: 1, lessons: 0 }, "today's log");
+});
 test('the speed: as set, kept between 0.5× and 1.5×, and 1× when the saved value is damaged', () => {
   reset();
   eq(playbackSpeed(), 1, 'the default');
@@ -185,13 +204,70 @@ test('a backup loads back exactly; anything else is refused and changes nothing'
   const backup = store.exportJSON();
   store.resetAll();
   eq(store.getCard('w:pain'), null, 'after reset');
-  store.importJSON(backup);
+  eq(store.importJSON(backup), 0, 'damaged entries');
   eq(store.exportJSON(), backup, 'round trip');
   for (const bad of ['not json', '[]', '{}', '{"cards": null, "lessons": {}}', '{"cards": {}, "lessons": []}']) {
     let threw = false;
     try { store.importJSON(bad); } catch { threw = true; }
     ok(threw, `${bad} was accepted as a backup`);
     eq(store.exportJSON(), backup, `${bad}: progress unchanged`);
+  }
+});
+test('a damaged backup loads: entries of the wrong type are left out, damaged cards repaired, and both counted', () => {
+  reset();
+  const backup = JSON.parse(store.exportJSON());
+  backup.cards = { 'w:pain': srs.newCard(NOW), 'w:null': null, 'w:list': [1, 2], 'w:text': 'x', 'w:half': { due: 'soon', ivl: 3 } };
+  backup.lessons = { 'u01-vocab': { done: true, best: 90 }, 'u02-vocab': 7 };
+  backup.flags = [{ word: 'pain' }, null, 'x'];
+  eq(store.importJSON(JSON.stringify(backup)), 7, 'entries left out or repaired');
+  eq(Object.keys(store.allCards()), ['w:pain', 'w:half'], 'cards kept');
+  eq(fields(store.getCard('w:half')), [0, 3, 2.5, 0, 0, 0], 'the repaired card: due at once, its interval kept');
+  eq([store.dueCardIds(NOW), store.lessonState('u02-vocab'), store.flags().length], [['w:pain', 'w:half'], null, 1], 'due cards, lessons, reports');
+});
+test('the last download: kept apart from the progress, nothing when never made or damaged', () => {
+  reset();
+  eq(store.lastBackup(), null, 'never downloaded');
+  store.markBackup();
+  ok(Math.abs(store.lastBackup() - Date.now()) < 1000 && saved.has(`${KEY}-backup`), `just now: ${store.lastBackup()}`);
+  saved.set(`${KEY}-backup`, 'soon');
+  eq(store.lastBackup(), null, 'a damaged date');
+  storageFull = true;
+  store.markBackup(); // must not throw
+});
+
+// The browser's storage manager, which Node lacks: a fake one, or none.
+const realNavigator = globalThis.navigator;
+const setNavigator = (value) => Object.defineProperty(globalThis, 'navigator', { value, configurable: true, writable: true });
+// A second copy of store.js, which hasn't asked the browser to keep its data yet.
+const store2 = await import(`${pathToFileURL(path.join(ROOT, 'js', 'store.js')).href}?second`);
+test('once there is progress, the browser is asked to keep the data, once a visit', () => {
+  const asked = [];
+  // refused: a promise that fails must not crash the app
+  setNavigator({ storage: { persist: () => { asked.push(true); return Promise.reject(new Error('refused')); } } });
+  try {
+    saved.clear();
+    store2.load();
+    store2.setSetting('theme', 'dark');
+    eq(asked.length, 0, 'asked with no progress');
+    store2.putCard('w:chat', srs.newCard(NOW));
+    eq(asked.length, 1, 'asked once there is a card');
+    store2.putCard('w:chien', srs.newCard(NOW));
+    store2.load();
+    eq(asked.length, 1, 'asked again during the same visit');
+  } finally {
+    setNavigator(realNavigator);
+  }
+});
+await testAsync('for Settings: whether the browser keeps the data, and the space the app takes', async () => {
+  try {
+    setNavigator({ storage: { persisted: async () => true, estimate: async () => ({ usage: 12345678, quota: 1e9 }) } });
+    eq(await store.storageInfo(), { kept: true, used: 12345678 }, 'when the browser can tell');
+    setNavigator({ storage: { persisted: () => Promise.reject(new Error('no')), estimate: async () => ({}) } });
+    eq(await store.storageInfo(), { kept: null, used: null }, 'when it fails or gives no number');
+    setNavigator({});
+    eq(await store.storageInfo(), { kept: null, used: null }, 'when the browser has no storage manager');
+  } finally {
+    setNavigator(realNavigator);
   }
 });
 test('when storage is full or blocked, saving fails quietly', () => {

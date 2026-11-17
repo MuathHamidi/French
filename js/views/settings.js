@@ -1,5 +1,5 @@
 // Settings: daily goal, speed and voice, display, backup and reported problems.
-import { h, toast, todayKey } from '../util.js';
+import { h, toast, todayKey, plural } from '../util.js';
 import * as store from '../store.js';
 import { frenchVoices, voiceInfo, playbackSpeed, speak, audioCredit } from '../audio.js';
 
@@ -39,10 +39,28 @@ export function renderSettings(view) {
   file.onchange = async () => {
     const f = file.files[0];
     if (!f) return;
-    try { store.importJSON(await f.text()); applyTheme(); toast('Progress restored.'); location.hash = '#/today'; }
-    catch { toast('That file is not a progress backup.'); }
+    try {
+      const damaged = store.importJSON(await f.text());
+      applyTheme();
+      if (damaged) toast(`Progress restored, but ${plural(damaged, 'damaged entry was', 'damaged entries were')} left out or repaired.`, 5000);
+      else toast('Progress restored.');
+      location.hash = '#/today';
+    } catch { toast('That file is not a progress backup.'); }
     file.value = ''; // so that choosing the same file again loads it again
   };
+
+  // When progress was last downloaded here, whether the browser keeps the data when space runs short, and the
+  // space the app takes: the browser may delete the whole site, progress included, to free space.
+  const backedUp = h('p', { class: 'small muted', style: 'margin:10px 0 0' }, backupText());
+  const space = h('p', { class: 'small muted', style: 'margin:6px 0 0', hidden: true });
+  store.storageInfo().then(({ kept, used }) => {
+    space.textContent = [
+      kept === true ? "This browser keeps the app's data even when the device runs short of space." : '',
+      kept === false ? "When the device runs short of space, this browser may delete the app's data, progress included: download it now and then." : '',
+      used !== null ? `The app takes ${megabytes(used)} on this device (the course and the recordings you have heard).` : '',
+    ].filter(Boolean).join(' ');
+    space.hidden = !space.textContent;
+  });
 
   const flags = store.flags();
   const flagText = flags.map((f) => `• ${f.text || f.word} (${f.word || 'unknown'}) ${f.page}${f.note ? ` — ${f.note}` : ''}`).join('\n');
@@ -65,8 +83,13 @@ export function renderSettings(view) {
     h('section', { class: 'card' }, h('h2', {}, 'Backup & other devices'),
       h('p', { class: 'small muted' }, 'Progress is saved in this browser only. To continue on another device, download it here and load it there.'),
       h('div', { class: 'row' },
-        h('button', { class: 'btn', onclick: () => download(store.exportJSON(), `francais-progress-${todayKey()}.json`) }, '⬇ Download progress'),
-        h('button', { class: 'btn', onclick: () => file.click() }, '⬆ Load progress'), file)),
+        h('button', { class: 'btn', onclick: () => {
+          download(store.exportJSON(), `francais-progress-${todayKey()}.json`);
+          store.markBackup();
+          backedUp.textContent = backupText();
+        } }, '⬇ Download progress'),
+        h('button', { class: 'btn', onclick: () => file.click() }, '⬆ Load progress'), file),
+      backedUp, space),
     h('section', { class: 'card' }, h('h2', {}, 'Reported problems'),
       flags.length ? h('div', {},
         h('div', { class: 'flag-list' }, flagText),
@@ -78,6 +101,14 @@ export function renderSettings(view) {
       h('button', { class: 'btn', onclick: () => { if (confirm('Delete all progress on this device?')) { store.resetAll(); applyTheme(); location.hash = '#/today'; } } }, 'Reset all progress')),
   );
 }
+
+function backupText() {
+  const at = store.lastBackup();
+  return at ? `Last downloaded on ${new Date(at).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}.`
+    : 'Not downloaded yet on this device.';
+}
+
+const megabytes = (bytes) => (bytes < 1e5 ? 'less than 0.1 MB' : `${bytes < 1e7 ? (bytes / 1e6).toFixed(1) : Math.round(bytes / 1e6)} MB`);
 
 function download(text, name) {
   const a = h('a', { href: URL.createObjectURL(new Blob([text], { type: 'application/json' })), download: name });
