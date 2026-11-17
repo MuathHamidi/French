@@ -47,8 +47,8 @@ export function renderToday(view) {
   );
 }
 
-// Returns the unit to open the page at: the one asked for (#/learn/12, from a lesson's "← Course"), or else the
-// one in progress, which is marked.
+// Returns the unit to open the page at: the one asked for (#/learn/12, from a lesson's "← Course" or Back from a
+// lesson opened here), or else the one in progress, which is marked.
 export function renderLearn(view, unitN) {
   const current = (nextLesson() || lessonList().at(-1))?.unit;
   const at = Number(unitN) || current;
@@ -60,7 +60,10 @@ export function renderLearn(view, unitN) {
       h('div', { class: 'unit-head' }, h('span', { class: 'unit-num' }, u.n), h('div', {}, h('h2', { style: 'margin:0' }, u.title), h('div', { class: 'muted small' }, u.en))));
     for (const l of ls) {
       const st = store.lessonState(l.id);
-      box.append(h('a', { class: 'lesson-link', href: lessonHref(l) },
+      // Before the lesson opens, this page's place in the history takes the unit's address, so that Back
+      // returns to this unit rather than to the one in progress.
+      const here = () => history.replaceState(null, '', `#/learn/${u.n}`);
+      box.append(h('a', { class: 'lesson-link', href: lessonHref(l), onclick: here },
         h('span', { class: 'kind' }, KIND[l.type]),
         h('span', {}, h('div', {}, l.title), h('div', { class: 'small muted' }, l.en)),
         h('span', { class: 'spacer' }),

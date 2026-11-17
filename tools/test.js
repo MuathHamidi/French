@@ -132,19 +132,26 @@ function setNow(ms, w = win) {
   };
 }
 
-// Opens a page of the app. Chrome ignores a page's address changes beyond 200 in 10 seconds
-// (crbug.com/1038223), so they are spaced out.
+// Does what opens another page (a click on a link, Back) and waits for it to open. Chrome ignores a page's
+// address changes beyond 200 in 10 seconds (crbug.com/1038223), so they are spaced out.
 let lastGo = 0;
-async function go(hash) {
+async function follow(action, what) {
   const wait = lastGo + 55 - performance.now();
   if (wait > 0) await sleep(wait);
   lastGo = performance.now();
   let changed = false;
   win.addEventListener('hashchange', () => { changed = true; }, { once: true });
-  if (win.location.hash === hash) win.dispatchEvent(new win.HashChangeEvent('hashchange'));
-  else win.location.hash = hash;
-  await until(() => changed, `the page ${hash} to open`, 5000);
+  action();
+  await until(() => changed, what, 5000);
   await sleep(0);
+}
+
+// Opens a page of the app.
+async function go(hash) {
+  await follow(() => {
+    if (win.location.hash === hash) win.dispatchEvent(new win.HashChangeEvent('hashchange'));
+    else win.location.hash = hash;
+  }, `the page ${hash} to open`);
 }
 
 async function reloadDuring(action) {
@@ -331,6 +338,30 @@ async function main() {
     expect(below >= 0 && below <= 20, `the course opens with unit ${last.unit} ${Math.round(below)} px below the top bar`);
     await go('#/review');
     expect(viewText().includes('Finish a lesson quiz'), 'the empty review page does not explain what to do');
+  });
+
+  await scenario('Back from a lesson: to the unit it was opened from, in one step', async (expect) => {
+    await loadApp();
+    const l = lessons.find((x) => x.unit === 20); // far from the unit in progress, the first
+    const below = () => { // how far below the top bar unit 20 is, on the course page
+      const box = [...doc.querySelectorAll('#view .unit')].find((u) => u.querySelector('.unit-num').textContent === String(l.unit));
+      return box ? Math.round(box.getBoundingClientRect().top - doc.querySelector('.topbar').offsetHeight) : NaN;
+    };
+    const where = () => (Number.isNaN(below()) ? win.location.hash : `${win.location.hash} with unit ${l.unit} ${below()} px below the top bar`);
+    const atUnit = () => win.location.hash === `#/learn/${l.unit}` && below() >= 0 && below() <= 20;
+    const open = () => follow(() => doc.querySelector(`#view .lesson-link[href^="#/lesson/${l.id}/"]`).click(), `${l.id} to open from the course`);
+    await go('#/learn');
+    await open();
+    expect(win.location.hash === `#/lesson/${l.id}/${TABS[l.type][0]}`, `the course opened ${win.location.hash}`);
+    await follow(() => win.history.back(), 'Back to the course');
+    expect(atUnit(), `Back from the lesson opened ${where()}, expected #/learn/${l.unit} with the unit at the top`);
+    // The tabs and the Next button take the place of the page in the history: one Back leaves the lesson.
+    await open();
+    await follow(() => doc.querySelectorAll('#view nav.tabs a')[1].click(), 'the second tab to open');
+    await follow(() => button('Next: ').click(), 'the third tab to open');
+    expect(win.location.hash === `#/lesson/${l.id}/quiz`, `the tabs led to ${win.location.hash}`);
+    await follow(() => win.history.back(), 'Back to leave the lesson');
+    expect(atUnit(), `Back from the quiz opened ${where()}, expected #/learn/${l.unit} with the unit at the top`);
   });
 
   await scenario(`Vocabulary quiz, all right (${V1.id})`, async (expect) => {

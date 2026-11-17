@@ -27,7 +27,7 @@ export function renderLesson(view, id, tab) {
     h('a', { href: `#/learn/${lesson.unit}`, class: 'small' }, '← Course'),
     h('h1', { style: 'margin-top:6px' }, lesson.title),
     h('p', { class: 'muted', style: 'margin:0' }, `Unit ${lesson.unit} · ${lesson.en}`),
-    h('nav', { class: 'tabs' }, tabs.map(([t, label]) => h('a', { href: `#/lesson/${id}/${t}`, class: t === tab ? 'active' : '' }, label))),
+    h('nav', { class: 'tabs' }, tabs.map(([t, label]) => tabLink(`#/lesson/${id}/${t}`, { class: t === tab ? 'active' : '' }, label))),
   );
 
   const body = h('div', {});
@@ -40,8 +40,19 @@ export function renderLesson(view, id, tab) {
 
   const i = tabs.findIndex(([t]) => t === tab);
   if (tabs[i + 1]) {
-    view.append(h('a', { class: 'btn primary block', style: 'margin-top:16px', href: `#/lesson/${id}/${tabs[i + 1][0]}` }, `Next: ${tabs[i + 1][1].split('· ')[1]} →`));
+    view.append(tabLink(`#/lesson/${id}/${tabs[i + 1][0]}`, { class: 'btn primary block', style: 'margin-top:16px' }, `Next: ${tabs[i + 1][1].split('· ')[1]} →`));
   }
+}
+
+// A link to another tab of the lesson. It takes the place of this page in the history instead of adding a page,
+// so that Back leaves the lesson in one step, however many tabs were opened.
+function tabLink(href, attrs, label) {
+  const open = (e) => {
+    if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; // opening it in a new tab or window
+    e.preventDefault();
+    location.replace(href);
+  };
+  return h('a', { ...attrs, href, onclick: open }, label);
 }
 
 function speakBtn(text, slow = false) {
