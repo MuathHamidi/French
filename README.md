@@ -5,10 +5,10 @@ A personal French course that runs in the browser on a laptop or a phone. There 
 - **Words by topic.** Each word has its gender, IPA, English meaning, a simple French definition and 3 examples.
 - **Clickable stories.** Point at or tap any word in a story to see its card; clicking also reads it aloud.
 - **Grammar lessons.** Every case has tables and common mistakes. The lesson's story highlights each case, and pointing at a highlight shows the rule.
-- **Quizzes.** Every word and every grammar case is tested, and wrong answers come back at the end.
+- **Quizzes.** Every word and every grammar case is tested, and wrong answers come back at the end. A quiz left halfway is saved, and its Quiz tab offers to resume it.
 - **Daily review (spaced repetition).** Learned words and rules come back after growing gaps, so they stick.
 
-Progress is saved in the browser (localStorage). To move it to another device, use *Settings › Download progress*, then *Load progress* on the other device.
+Progress is saved in the browser (localStorage). To move it to another device, use *Settings › Download progress*, then *Load progress* on the other device (a quiz in progress stays behind).
 
 ## Run it on your computer
 

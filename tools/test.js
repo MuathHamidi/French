@@ -6,8 +6,8 @@
 //    sample at computer width: no error, no raw markup, no "undefined" or "NaN", no broken link, nothing
 //    wider than the screen.
 // 2. Each feature once: quizzes (right, wrong, accents, "I don't know", the keyboard, an empty box, a held
-//    Enter), listening questions, reviews over two days, word cards, stories read aloud, sound, the word list,
-//    settings and backups, two tabs at once.
+//    Enter, a quiz left halfway), listening questions, reviews over two days, word cards, stories read aloud,
+//    sound, the word list, settings and backups, two tabs at once.
 // 3. With ?full, every lesson's quiz is also completed.
 // ?only=word cards,sound runs only the tests whose names contain one of those words.
 // Sound is recorded instead of played, and the app's clock can be moved. Results show on the page and in
@@ -100,7 +100,7 @@ async function openFrame(hash) {
 
 // A fresh app (empty progress unless keep), at a width in CSS pixels.
 async function loadApp({ hash = '#/today', width = 360, keep = false } = {}) {
-  if (!keep) { localStorage.removeItem(TEST_KEY); localStorage.removeItem(`${TEST_KEY}-unreadable`); }
+  if (!keep) for (const k of ['', '-unreadable', '-quizzes']) localStorage.removeItem(TEST_KEY + k);
   frame?.remove();
   frame = await openFrame(hash);
   frame.style.width = `${width}px`;
@@ -362,6 +362,43 @@ async function main() {
     button('Retake the quiz').click();
     await sleep(0);
     expect(questionCard()?.quizItem, 'the retake did not start');
+  });
+
+  await scenario('A quiz left halfway resumes where it stopped, also after a reload', async (expect) => {
+    await loadApp();
+    setNow(DAY0);
+    await startQuiz(V1);
+    let shown = 0, left = null;
+    // five answers, the second one wrong (its question comes back at the end), then the learner leaves
+    await runQuiz((q, retry, n) => (n === 1 ? 'wrong' : 'right'), (q) => { if (++shown < 6) return null; left = q; return 'stop'; });
+    const counter = () => doc.querySelector('.quiz-top span')?.textContent;
+    const at = counter();
+    const resume = async (how) => {
+      expect(viewText().includes(`You stopped at question ${at.replace(' / ', ' of ')}.`), `${how}: the quiz tab says “${viewText().slice(0, 320)}”`);
+      button('Resume the quiz').click();
+      await sleep(0);
+      const q = questionCard()?.quizItem;
+      expect(counter() === at && q?.prompt === left.prompt, `${how}: resumed at ${counter()} “${q?.prompt}”, expected ${at} “${left.prompt}”`);
+    };
+    await go('#/today');
+    await go(`#/lesson/${V1.id}/quiz`);
+    await resume('after leaving the page');
+    await loadApp({ hash: `#/lesson/${V1.id}/quiz`, keep: true });
+    setNow(DAY0);
+    await resume('after a reload');
+    const log = await runQuiz();
+    expect(log.some((x) => x.retry), 'the question missed before leaving did not come back');
+    expect(viewText().includes('Lesson complete!') && !viewText().includes('100%'), `the answer missed before leaving was not counted: ${viewText().slice(0, 120)}`);
+    await go(`#/lesson/${V1.id}/quiz`);
+    expect(findButton('Start the quiz') && !findButton('Resume the quiz'), 'a finished quiz is offered to resume');
+    // « Start over »: a new quiz, from the first question
+    await startQuiz(V2);
+    shown = 0;
+    await runQuiz(() => 'right', () => (++shown < 4 ? null : 'stop'));
+    await go(`#/lesson/${V2.id}/quiz`);
+    button('Start over').click();
+    await sleep(0);
+    expect(counter()?.startsWith('1 / '), `“Start over” began at ${counter()}`);
   });
 
   await scenario('Typed answers: accents, “I don’t know”, the keyboard and an empty box', async (expect) => {
