@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 6 were fixed afterwards (finding 4 is point 2 of the phone layout, finding 5 is points 1 and 2 of the content, and finding 6 is point 4 of the app bugs); the other findings and layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 7 were fixed afterwards (finding 4 is point 2 of the phone layout, finding 5 is points 1 and 2 of the content, and findings 6 and 7 are points 4 and 5 of the app bugs); the other findings and layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -16,7 +16,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | 4 | On the phone, the word card covers the word you tapped. **Fixed** (see Layout: phone, 2) | [js/wordcard.js:105](js/wordcard.js:105) |
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga". **Fixed** (see Bugs in the content, 1 and 2) | [data/lessons/u11-seasons.json:26](data/lessons/u11-seasons.json:26), [js/content.js:51](js/content.js:51) |
 | 6 | The speed and voice settings change nothing you hear. **Fixed** (see Bugs in the app, 4) | [js/audio.js:83](js/audio.js:83), [js/views/settings.js:28](js/views/settings.js:28) |
-| 7 | The Back button returns to the wrong unit of the course page | [js/app.js:32](js/app.js:32) |
+| 7 | The Back button returns to the wrong unit of the course page. **Fixed** (see Bugs in the app, 5) | [js/views/home.js:65](js/views/home.js:65), [js/views/lesson.js:49](js/views/lesson.js:49) |
 | 8 | Progress can be cleared together with the audio cache, and a damaged backup file blanks the app | [js/store.js:23](js/store.js:23), [sw.js:212](sw.js:212) |
 
 The layout proposals for the phone and the laptop are in their own sections below. Two of them were tried as temporary styles in the browser and measured.
@@ -89,7 +89,9 @@ Every text has a recording, and [js/audio.js:76](js/audio.js:76) plays recording
 
 Fix: apply the speed to recordings (`a.playbackRate`, with `preservesPitch`) and rename the setting "Speed"; show the voice list only when a text has no recording.
 
-### 5. The Back button returns to the wrong unit (Confirmed)
+### 5. The Back button returns to the wrong unit (Confirmed, now fixed)
+
+**Fixed on 17 November 2026.** When a lesson is opened from the course, the course page's place in the history first takes the unit's address (`history.replaceState`, [js/views/home.js:65](js/views/home.js:65)), so Back opens the course at that unit, like "← Course", and no longer at the unit in progress. A lesson's tabs and its "Next: … →" button now replace the page in the history (`location.replace`, [js/views/lesson.js:49](js/views/lesson.js:49)), so one Back leaves the lesson from any tab; a tab clicked with Ctrl, ⌘, Shift or Alt is left to the browser (a new tab or window). In the app at phone width, with progress up to Unit 29, the course opened at Unit 30; I scrolled back to Unit 5, opened *Au café*, went on to its Story and Quiz tabs (the history stayed at 3 pages) and pressed the browser's Back once: the course opened at `#/learn/5`, with Unit 5 10 px below the top bar. A new scenario in `tools/test.js` does the same with a Unit 20 lesson, Back straight away and Back from the quiz; on the old code the first Back opened the course at the top (Unit 20 was 10,663 px down) and the second went to the Story tab. The whole test page passes. What follows describes the app before the fix.
 
 With progress up to Unit 29, I scrolled the course page back to Unit 5, opened a lesson and pressed Back: the page opened at Unit 30. The app's own "← Course" link returned to Unit 5. [js/app.js:32](js/app.js:32) scrolls on every route change, and `#/learn` without a number means "the unit in progress" ([js/views/home.js:53](js/views/home.js:53)).
 
@@ -197,7 +199,7 @@ The usual minimum for a tap target is 44×44 px.
 
    Also give the answer box `enterkeyhint="done"`. Worth trying on the phone itself: with the keyboard open, the accent keys and "Check" are probably hidden behind it.
 5. **A shorter Words tab.** Sixteen screens for 25 words is a lot of scrolling for one page. Show each word as one row (word, sound, meaning, 🔊) that opens to the definition and examples when tapped, with a count ("12 / 25"). Or show one word per screen with Next and Previous.
-6. **A story that reads like a story.** Each sentence is followed by its own 🔊 and "EN", often on a line of their own, which breaks the text up. Hide them until the sentence is tapped, and during "Read it all" highlight the sentence being read and keep it in view; a tap on a sentence could start from there. Today nothing on screen shows where the voice is ([js/views/lesson.js:131](js/views/lesson.js:131)).
+6. **A story that reads like a story.** Each sentence is followed by its own 🔊 and "EN", often on a line of their own, which breaks the text up. Hide them until the sentence is tapped, and during "Read it all" highlight the sentence being read and keep it in view; a tap on a sentence could start from there. Today nothing on screen shows where the voice is ([js/views/lesson.js:142](js/views/lesson.js:142)).
 7. **A course page you can scan.** Show finished units as one line each (number, title, ✓ 6/6), keep the current unit open, and put the four parts as headers with a row of jump links. The page is 48 screens now.
 8. **Today.** "How each day works" takes 40% of the screen every day. After the first week, use the space for the current unit's progress and the reviews due over the coming days.
 9. **On its side (Confirmed).** At 667×375 the bar and the menu take 29% of the screen, and with a word card open 40 px of text is left (86 px with the shorter card from point 2, until "More"). For a short, wide screen, move the menu to a narrow rail on the left and open the card as a panel on the right.
