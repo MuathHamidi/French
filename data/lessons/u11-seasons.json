@@ -23,7 +23,7 @@
         { "fr": "Le **printemps** commence le vingt mars.", "en": "Spring begins on the twentieth of March." }
       ],
       "note": "**au printemps** (in spring), but **en** été, **en** automne, **en** hiver. The **ps** is silent." },
-    { "id": "ete", "fr": "été", "pos": "noun", "g": "m", "ipa": "e.te", "en": "summer",
+    { "id": "ete", "fr": "été", "pos": "noun", "g": "m", "ipa": "e.te", "en": "summer", "forms": ["étés"],
       "def": "La saison chaude, après le printemps : juin, juillet, août.", "def_en": "The hot season, after spring: June, July, August.",
       "examples": [
         { "fr": "En **été**, il fait chaud.", "en": "In summer, it's hot." },
@@ -57,7 +57,7 @@
       "note": "The same in the singular and the plural: **un mois, deux mois**." },
     { "id": "annee", "fr": "année", "pos": "noun", "g": "f", "ipa": "a.ne", "en": "year",
       "def": "Douze mois, de janvier à décembre.", "def_en": "Twelve months, from January to December.",
-      "forms": ["années", "étés"],
+      "forms": ["années"],
       "examples": [
         { "fr": "Bonne **année** !", "en": "Happy New Year!" },
         { "fr": "Cette **année**, j'apprends le français.", "en": "This year, I'm learning French." },

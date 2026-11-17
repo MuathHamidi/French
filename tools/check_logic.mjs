@@ -297,9 +297,11 @@ test('a noun is right alone, with un / une and with le / la / l\', but not in th
   marks(noun('maison', 'f'), ['maison', 'la maison', 'une maison'], ['le maison', 'un maison']);
   marks(noun('école', 'f'), ['école', "l'école", 'une école'], ['la école', 'un école']);
   marks(noun('haricot', 'm', { hAsp: true }), ['le haricot', 'un haricot'], ["l'haricot"]);
+  marks(noun('yaourt', 'm'), ['yaourt', 'le yaourt', 'un yaourt'], ["l'yaourt"]); // y is a consonant
   marks(noun('parents', 'm', { pl: true, art: 'les' }), ['parents', 'les parents', 'des parents'], ['le parents', 'un parents']);
   marks(noun('lundi', 'm', { art: '' }), ['lundi', 'un lundi'], ['le lundi']);
   eq(acceptedFor(noun('maison', 'f'))[0], 'la maison', 'the answer shown is the word as its card shows it');
+  eq(acceptedFor(noun('yoga', 'm'))[0], 'le yoga', 'the card shows le yoga');
 });
 test('each form a card shows is right, with or without its article', () => {
   const serveur = noun('serveur', 'm', { display: 'le serveur, la serveuse' });
