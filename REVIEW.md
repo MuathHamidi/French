@@ -1,6 +1,6 @@
 # Review of the Français app
 
-16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 5 were fixed afterwards (finding 4 is point 2 of the phone layout, and finding 5 is points 1 and 2 of the content); the other findings and layout proposals are still open.
+16 November 2026. This review covers the app's code, the course content, and the layout on a laptop and a phone. The review itself changed nothing in the project. Findings 1 to 6 were fixed afterwards (finding 4 is point 2 of the phone layout, finding 5 is points 1 and 2 of the content, and finding 6 is point 4 of the app bugs); the other findings and layout proposals are still open.
 
 Each finding is marked **Confirmed** (I reproduced it, in the app in a browser or by running the app's own code) or **From the code** (plain in the source, not reproduced).
 
@@ -15,7 +15,7 @@ The project's own checks all pass, so everything below is in what they don't tes
 | 3 | A quiz in progress is lost when you leave the page; a vocabulary quiz averages 62 questions. **Fixed** (see below) | [js/quiz.js:183](js/quiz.js:183) |
 | 4 | On the phone, the word card covers the word you tapped. **Fixed** (see Layout: phone, 2) | [js/wordcard.js:105](js/wordcard.js:105) |
 | 5 | *étés* opens the card for *année*; *yaourt* and *yoga* show as "l'yaourt" and "l'yoga". **Fixed** (see Bugs in the content, 1 and 2) | [data/lessons/u11-seasons.json:26](data/lessons/u11-seasons.json:26), [js/content.js:51](js/content.js:51) |
-| 6 | The speed and voice settings change nothing you hear | [js/audio.js:76](js/audio.js:76) |
+| 6 | The speed and voice settings change nothing you hear. **Fixed** (see Bugs in the app, 4) | [js/audio.js:83](js/audio.js:83), [js/views/settings.js:28](js/views/settings.js:28) |
 | 7 | The Back button returns to the wrong unit of the course page | [js/app.js:32](js/app.js:32) |
 | 8 | Progress can be cleared together with the audio cache, and a damaged backup file blanks the app | [js/store.js:23](js/store.js:23), [sw.js:212](sw.js:212) |
 
@@ -81,7 +81,9 @@ A vocabulary quiz averages 62 questions (75 in u18-body), and each miss adds one
 
 Fix: keep the queue and the first answers per lesson (sessionStorage is enough) and offer "Resume"; ask before leaving a quiz; hide the menu while a quiz runs (Layout: phone, 4).
 
-### 4. The speed and voice settings change nothing (Confirmed)
+### 4. The speed and voice settings change nothing (Confirmed, now fixed)
+
+**Fixed on 17 November 2026.** The setting is now called Speed, and all the sound follows it ([js/audio.js:83](js/audio.js:83)): recordings play at that speed, 🐢 at three quarters of it (never below 0.5×), and the device voice at 0.9 and 0.6 times it, its old pace at 1×. The slider goes from 0.5× to 1.5× and starts at 1×, so nothing sounds different until it is moved; the old `rate` setting (0.9 by default, meant for the device voice) is no longer read. A damaged saved value plays at 1× instead of stopping the sound. Browsers keep the pitch at another speed (`preservesPitch` is on by default), so that needed no code. The device voice list now shows only when no recordings are installed, the one case where that voice reads everything ([js/views/settings.js:22](js/views/settings.js:22)); otherwise the page just says that it steps in when a recording can't be played. In the app at 0.8×, "Test the voice" played its recording at 0.8× and a word's 🐢 at 0.6×. `tools/check_logic.mjs` tests the speed's limits, and the Sound and Settings scenarios of `tools/test.js` test what is heard at 0.8× and 0.5×; both scenarios fail on the old code, and the whole test page passes. What follows describes the app before the fix.
 
 Every text has a recording, and [js/audio.js:76](js/audio.js:76) plays recordings at 1× (0.75× for 🐢) whatever the settings say; `rate` and `voice` only reach the device voice. With the slider at 0.5×, "Test the voice" played `audio/35bf179378bb.mp3` at rate 1 and never called the device voice: `tools/make_audio.py` records that same sentence (`SETTINGS_TEST`).
 
@@ -124,7 +126,7 @@ These are design points rather than faults. In a 60-card review I played, the qu
 | In a lesson quiz, a click on a prompt word runs twice: `attachWords` is bound on the lesson body ([js/views/lesson.js:39](js/views/lesson.js:39)) and on the prompt ([js/quiz.js:153](js/quiz.js:153)) | From the code |
 | The toast ignores the phone's bottom inset, so on an iPhone with a home bar it sits partly over the menu ([css/app.css:262](css/app.css:262)) | From the code |
 | If one lesson file fails to load, the app shows "Could not load the course" with no Retry button | From the code |
-| Each sound makes a new `Audio` element ([js/audio.js:74](js/audio.js:74)). When very many follow each other quickly, Chromium refuses to make more ("too many WebMediaPlayers"); a recording that can't play falls back to the device voice. Seen only while a script answered a whole quiz in a second; at a learner's pace the browser normally frees the old players in time. Reusing one `Audio` element would rule it out | Seen in an automated run |
+| Each sound makes a new `Audio` element ([js/audio.js:80](js/audio.js:80)). When very many follow each other quickly, Chromium refuses to make more ("too many WebMediaPlayers"); a recording that can't play falls back to the device voice. Seen only while a script answered a whole quiz in a second; at a learner's pace the browser normally frees the old players in time. Reusing one `Audio` element would rule it out | Seen in an automated run |
 | Input and card borders have a contrast of 1.3:1 on white; text contrast is fine everywhere (4.3:1 or more in both themes) | Measured |
 
 ### 9. Size and start-up (Measured)

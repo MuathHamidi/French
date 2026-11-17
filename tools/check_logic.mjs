@@ -39,6 +39,7 @@ const srs = await load('srs.js');
 const store = await load('store.js');
 const { check, quizProgress, resumeProgress } = await load('quiz.js');
 const { acceptedFor } = await load('quizgen.js');
+const { playbackSpeed } = await load('audio.js');
 const KEY = 'francais-app-v1';
 
 let failures = 0, count = 0;
@@ -138,7 +139,7 @@ test('due and mature', () => {
 const reset = () => { saved.clear(); storageFull = false; store.load(); };
 test('nothing saved yet: default settings and empty progress', () => {
   reset();
-  eq(store.settings(), { newPerDay: 30, rate: 0.9, voice: '', showIpa: true, theme: 'auto' }, 'settings');
+  eq(store.settings(), { newPerDay: 30, speed: 1, voice: '', showIpa: true, theme: 'auto' }, 'settings');
   eq([store.dueCardIds(), store.flags(), store.todayLog()], [[], [], { new: 0, reviews: 0, lessons: 0 }], 'progress');
 });
 test('progress is saved and read back', () => {
@@ -170,6 +171,12 @@ test('parts of the wrong type are replaced, so nothing crashes', () => {
   store.addFlag({ word: 'chat' });
   store.bumpLog({ reviews: 1 });
   eq([store.flags().length, store.todayLog().reviews], [1, 1], 'usable afterwards');
+});
+test('the speed: as set, kept between 0.5× and 1.5×, and 1× when the saved value is damaged', () => {
+  reset();
+  eq(playbackSpeed(), 1, 'the default');
+  const got = [0.8, 3, 0.1, '0.8', null, NaN, Infinity].map((v) => { store.setSetting('speed', v); return playbackSpeed(); });
+  eq(got, [0.8, 1.5, 0.5, 1, 1, 1, 1], 'speeds for 0.8, 3, 0.1, "0.8", null, NaN, Infinity');
 });
 test('a backup loads back exactly; anything else is refused and changes nothing', () => {
   reset();
