@@ -50,7 +50,7 @@
       ["Parle fort, de sorte qu'on t'entende.", "Speak up, so that we can hear you."],
       ["Elle s'est placée de telle sorte que tout le monde la voyait.", "She stood in such a way that everyone could see her."]]},
      "examples": [
-      {"fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers « Bless you! »"},
+      {"fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers 'Bless you!'"},
       {"fr": "Paul prend Lou sur ses épaules, {de façon qu'elle voie Inès|ap-sorte}.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès."}],
      "tip": "Indicative: what happened (result). Subjunctive: what someone wants to happen (purpose)."}
   ],
@@ -62,10 +62,10 @@
   ],
   "story": {
     "title": "Au point d'être en rupture de stock",
-    "en": "Thursday 10 March: « Neige de Grasse » is launched in Paris, already sold out, and Hugo crowns Inès the queen of the sneeze by video.",
+    "en": "Thursday 10 March: 'Neige de Grasse' is launched in Paris, already sold out, and Hugo crowns Inès the queen of the sneeze by video.",
     "dialogue": true,
     "lines": [
-      {"sp": "", "fr": "Le jeudi dix mars, à sept heures du soir, une grande parfumerie de Paris lance « Neige de Grasse ».", "en": "On Thursday 10 March, at seven in the evening, a big Paris perfumery launches « Neige de Grasse »."},
+      {"sp": "", "fr": "Le jeudi dix mars, à sept heures du soir, une grande parfumerie de Paris lance « Neige de Grasse ».", "en": "On Thursday 10 March, at seven in the evening, a big Paris perfumery launches 'Neige de Grasse'."},
       {"sp": "", "fr": "Dehors, les gens attendent sur le trottoir, {à tel point que la police en [ferme|fermer] une partie|ap-tel}.", "en": "Outside, people are waiting on the pavement, so much so that the police close part of it off."},
       {"sp": "", "fr": "À l'intérieur, {il y a une telle foule qu'on ne voit plus les flacons|ap-tel}. Paul et Lou ont trouvé une place près de la porte.", "en": "Inside, there's such a crowd that you can't see the bottles any more. Paul and Lou have found a spot near the door."},
       {"sp": "Paul", "fr": "Inès, tu te rends compte ? Depuis lundi, ta pub passe tous les soirs, {tant et si bien qu'on a oublié la pub de la marque concurrente, celle qui crie|ap-tel}.", "en": "Inès, do you realise? Since Monday your advert has been on every evening, so much so that everyone has forgotten the rival brand's advert, the one that shouts."},
@@ -81,7 +81,7 @@
       {"sp": "", "fr": "Paul prend Lou sur ses épaules, {de façon qu'elle voie Inès|ap-sorte}.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès."},
       {"sp": "Lou", "fr": "Inès, tu peux éternuer ? Un vrai, comme à la télé !", "en": "Inès, can you sneeze? A real one, like on TV!"},
       {"sp": "", "fr": "Inès est {trop émue pour parler|ap-trop}. Elle ferme les yeux, et l'odeur du parfum lui chatouille le nez…", "en": "Inès is too moved to speak. She closes her eyes, and the smell of the perfume tickles her nose…"},
-      {"sp": "", "fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers « Bless you! »"},
+      {"sp": "", "fr": "Elle éternue, {de sorte que toute la parfumerie lui répond « À vos souhaits ! »|ap-sorte}", "en": "She sneezes, and so the whole perfumery answers 'Bless you!'"},
       {"sp": "Madame Rey", "fr": "Pas si fort ! Dans la pub, on le dit tout bas.", "en": "Not so loud! In the advert, we say it in a whisper."},
       {"sp": "", "fr": "Sur le téléphone de Paul, Hugo, Carla, Léa, Sophie et Tom applaudissent depuis le café d'en bas, à Lyon.", "en": "On Paul's phone, Hugo, Carla, Léa, Sophie and Tom are applauding from the café downstairs, in Lyon."},
       {"sp": "Tom", "fr": "Ici, tout le café regarde avec nous, {[d'où|d-ou-hence] le bruit|ap-d-ou} !", "en": "The whole café is watching with us here, hence the noise!"},
@@ -99,7 +99,7 @@
     {"case": "ap-tel", "type": "mc", "q": "Les gens attendent sur le trottoir, à ___ point que la police en [ferme|fermer] une partie.", "en": "People are waiting on the pavement, so much so that the police close part of it off.", "options": ["tel", "si", "tant"], "answer": "tel"},
     {"case": "ap-d-ou", "type": "mc", "q": "Les clients ont acheté tout le stock, ___ la rupture de stock.", "en": "Customers bought the whole stock, hence the shortage.", "options": ["d'où", "c'est pourquoi", "de sorte que"], "answer": "d'où"},
     {"case": "ap-d-ou", "type": "mc", "q": "Ici, tout le café regarde avec nous, ___ le bruit !", "en": "The whole café is watching with us here, hence the noise!", "options": ["d'où", "pourquoi", "si bien que"], "answer": "d'où"},
-    {"case": "ap-sorte", "type": "mc", "q": "Elle éternue, de sorte que toute la parfumerie lui ___ « À vos souhaits ! »", "en": "She sneezes, with the result that the whole perfumery answers « Bless you! »", "options": ["répond", "réponde", "répondre"], "answer": "répond"},
+    {"case": "ap-sorte", "type": "mc", "q": "Elle éternue, de sorte que toute la parfumerie lui ___ « À vos souhaits ! »", "en": "She sneezes, with the result that the whole perfumery answers 'Bless you!'", "options": ["répond", "réponde", "répondre"], "answer": "répond"},
     {"case": "ap-sorte", "type": "mc", "q": "Paul prend Lou sur ses épaules, de façon qu'elle ___ Inès.", "en": "Paul lifts Lou onto his shoulders so that she can see Inès.", "options": ["voie", "voit", "voir"], "answer": "voie"}
   ]
 }

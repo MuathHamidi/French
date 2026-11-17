@@ -47,9 +47,10 @@ From Unit 17 on, a unit has four 25-word vocabulary lessons (two on its topic, t
 
 - The French columns of a grammar table (`frCols`) are linked word by word and read aloud, so they must contain only French, never English notes.
 - A `mistakes` entry must be a real learner error ("je mangera"), never correct French.
-- Write *Madame Dupont* in French texts: the abbreviation *Mme* is not in the dictionary (it's fine in speaker names, which aren't linked).
+- Write *Madame Dupont* in French texts: the abbreviation *Mme* is not in the dictionary (it's fine in speaker names, which aren't linked, but give each speaker one name: `validate.py` refuses *Mme Dupont* next to *Madame Dupont*).
+- In English translations, quote with English quotes (*'Hugo fell.'*), never « »: `validate.py` refuses them.
 - Tips, rules, mistakes and translations are not linked, so they must not contain `[word|id]` or `{text|case}` markup (`check_app.mjs` flags it).
-- Each vocabulary example has one `**target**`, used for fill-in-the-blank questions. The blank hides the target, so the word after it loses its context: *La **reine** porte une couronne* becomes *La _____ porte…*, where *porte* reads as a door. `--homographs` lists these prompts; mark the word: *[porte|porter]*.
+- Each vocabulary example has one `**target**`, used for fill-in-the-blank questions. When the word comes again in the sentence (*tantôt… tantôt*, *étape par étape*), bold every copy: the blank hides them all, and `validate.py` refuses a copy left plain, which would show the answer. The blank hides the target, so the word after it loses its context: *La **reine** porte une couronne* becomes *La _____ porte…*, where *porte* reads as a door. `--homographs` lists these prompts; mark the word: *[porte|porter]*.
 - Quiz items with `"lang": "en"` need a French `say` (or `listen`); otherwise the French voice reads the English answer aloud.
 - Don't list a spelling without its accents in `accept` (*tres* for *très*): the quiz already takes it, with "check the accents", and `validate.py` refuses it. The 1990 reform spellings (*s'il vous plait, diner*) and *oe* for *œ* are fine.
 - `accept` is for other right words (*docteur* for *médecin*). The quiz already takes every form a card shows, alone or with its article: *le serveur, la serveuse* gives *serveur, le serveur, un serveur, serveuse, la serveuse, une serveuse*; *chaud(e)* gives *chaud, chaude*; a `both` noun is right in both genders (`acceptedFor` in `js/quizgen.js`, tested in `check_logic.mjs`).

@@ -5,7 +5,9 @@ Run:  python3 tools/validate.py          (Windows: python tools/validate.py)
 - every French word in definitions, examples, stories and quizzes must be in the dictionary
   (a lesson word or data/lexicon.json), so pointing at any word always shows a card;
 - every lesson word must appear in its story;
-- every grammar case must appear in the story and have at least two quiz questions.
+- every grammar case must appear in the story and have at least two quiz questions;
+- and smaller slips the pages or the quiz would show: a fill-in-the-blank that shows its answer, le or la before a
+  vowel in an accept list, an expression with a gender, one speaker under two names, « » in a translation.
 The tokenizer mirrors js/content.js; keep them in sync. tools/check_app.mjs compares the two
 (it runs this file with --tokenize).
 """
@@ -113,7 +115,28 @@ def parse_markup(s):
     return nodes
 
 
-BEFORE_NOUN = {"le", "la", "l'", "les", "un", "une", "des", "du", "de", "d'", "au", "aux", "à", "ma", "ta", "sa",
+def plain(markup):
+    """The text without its markup, as plain() in js/content.js."""
+    def walk(nodes):
+        return "".join(n["text"] if n["kind"] in ("text", "word") else walk(n["children"]) for n in nodes)
+    return walk(parse_markup(markup))
+
+
+def blank_problem(fr):
+    """Why an example's fill-in-the-blank question would go wrong, or None. The blank hides every bold copy of the
+    target, so a word said twice (tantôt… tantôt, brique par brique) is bold twice: a copy left unbolded would show
+    the answer, and two different bold words would ask for two answers at once."""
+    targets = {plain(t).lower() for t in re.findall(r"\*\*(.+?)\*\*", fr)}
+    if len(targets) > 1:
+        return f"bolds different words: {', '.join(sorted(targets))}"
+    rest = plain(re.sub(r"\*\*.+?\*\*", " ", fr)).lower()
+    for t in targets:
+        if re.search(rf"(?<![{L}-]){re.escape(t)}(?![{L}-])", rest):
+            return f"has “{t}” again without bold, so its blank would show the answer: bold every copy"
+    return None
+
+
+BEFORE_NOUN ={"le", "la", "l'", "les", "un", "une", "des", "du", "de", "d'", "au", "aux", "à", "ma", "ta", "sa",
                "mon", "ton", "son", "mes", "tes", "ses", "notre", "votre", "nos", "vos", "leur", "leurs", "ce", "cet",
                "cette", "ces", "quel", "quelle", "quels", "quelles",
                "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "quinze", "vingt",
@@ -317,6 +340,8 @@ def main():
                 errors.append(f"curriculum lists {lid} but {p} is missing")
                 continue
             lessons.append(json.loads(p.read_text(encoding="utf-8")))
+        if u.get("lessons") and u.get("planned"):
+            errors.append(f"unit {u['n']}: a planned list next to its lessons (lexsync.py replaces it)")
 
     index, ids = Index(), {}
     for e in lexicon["entries"]:
@@ -330,6 +355,11 @@ def main():
                 errors.append(f"duplicate id {w['id']} ({lesson['id']} and {ids[w['id']]})")
             ids[w["id"]] = lesson["id"]
             index.add(w, taught=True)
+    # A word with a gender is a noun, even in several words (le chiffre d'affaires): as an expression, its card
+    # shows no article and it gets no "un or une?" question.
+    for e in [*lexicon["entries"], *(w for lesson in lessons for w in lesson.get("words", []))]:
+        if e.get("pos") == "expr" and e.get("g"):
+            errors.append(f"{e['id']}: an expression with a gender: make it a noun")
 
     unknown = Counter()
     unknown_where = {}
@@ -366,6 +396,8 @@ def main():
                 # A spelling without its accents is not an answer: the quiz takes it anyway, with "check the
                 # accents". The 1990 reform's i and u without the circumflex (plait, diner) and oe for œ are fine.
                 for a in w.get("accept", []):
+                    if re.match(r"(le|la) [aeiéèêàâîïœ]", a, re.I):
+                        errors.append(f"{where}: accept lists “{a}”, but le and la become l' before a vowel")
                     for s in [w["fr"], w.get("display", ""), *w["accept"]]:
                         low = s.lower()
                         if s and low != a.lower() and unaccented(s) == a.lower() and \
@@ -376,6 +408,8 @@ def main():
                 for n, x in enumerate(w.get("examples", []), 1):
                     if "**" not in x["fr"]:
                         warnings.append(f"{where}: example {n} has no **target** (used for fill-in-the-blank)")
+                    elif problem := blank_problem(x["fr"]):
+                        errors.append(f"{where}: example {n} {problem}")
                     scan(x["fr"], f"{where} example {n}", own)
         story_ids, story_cases = set(), []
         for n, line in enumerate(lesson["story"]["lines"], 1):
@@ -421,6 +455,29 @@ def main():
             for c in story_cases:
                 if c not in case_ids:
                     errors.append(f"{lid} story: unknown case {c}")
+
+    # One name per speaker (Madame Fournier, not Mme Fournier in some lessons), and English quotes in translations
+    # ('Bravo!', not « Bravo ! »).
+    speakers = defaultdict(set)
+
+    def english(x, where):
+        if isinstance(x, dict):
+            for k, v in x.items():
+                if k == "en" and isinstance(v, str) and re.search("[«»]", v):
+                    errors.append(f"{where}: French quotes « » in a translation: {v}")
+                english(v, where)
+        elif isinstance(x, list):
+            for v in x:
+                english(v, where)
+
+    for lesson in lessons:
+        english(lesson, lesson["id"])
+        for line in lesson["story"]["lines"]:
+            if line.get("sp"):
+                speakers[re.sub(r"^Mme ", "Madame ", re.sub(r"^M\. ", "Monsieur ", line["sp"]))].add(line["sp"])
+    for names in speakers.values():
+        if len(names) > 1:
+            errors.append(f"one speaker, two names: {' and '.join(sorted(names))}")
 
     # Letters from other alphabets that look Latin (e.g. Cyrillic а) break lookups and audio.
     foreign = re.compile(r"[\u0370-\u03ff\u0400-\u04ff]")
