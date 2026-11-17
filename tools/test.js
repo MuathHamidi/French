@@ -72,7 +72,8 @@ function instrument(w) {
     this.onpause?.();
   };
   if (w.speechSynthesis) {
-    w.speechSynthesis.speak = (u) => { w.heard.push({ voice: u.text }); setTimeout(() => u.onend?.(), w.audioTiming.soundMs); };
+    // An utterance keeps its rate as a 32-bit number (0.9 reads back as 0.8999…), hence the rounding.
+    w.speechSynthesis.speak = (u) => { w.heard.push({ voice: u.text, rate: Math.round(u.rate * 100) / 100 }); setTimeout(() => u.onend?.(), w.audioTiming.soundMs); };
     w.speechSynthesis.cancel = () => {};
   }
   w.prompt = () => 'note from the test';
@@ -693,7 +694,7 @@ async function main() {
     expect(win.heard.length === k, `reading went on after leaving the page (${win.heard.length - k} more lines)`);
   });
 
-  await scenario('Sound: a second sound before the first starts, missing files, slow mode', async (expect) => {
+  await scenario('Sound: a second sound before the first starts, missing files, slow mode, speed', async (expect) => {
     await loadApp();
     const audio = await mod('audio.js');
     const content = await mod('content.js');
@@ -711,16 +712,39 @@ async function main() {
     win.heard.length = 0;
     audio.speak(t1);
     await sleep(150);
-    expect(heard() === JSON.stringify([{ voice: t1 }]), `a broken file: heard ${heard()}, expected the device voice`);
+    expect(heard() === JSON.stringify([{ voice: t1, rate: 0.9 }]), `a broken file: heard ${heard()}, expected the device voice`);
     win.audioTiming.fail = false;
     win.heard.length = 0;
     audio.speak('zzz qqq');
     await sleep(150);
-    expect(heard() === JSON.stringify([{ voice: 'zzz qqq' }]), `a text without a recording: heard ${heard()}`);
+    expect(heard() === JSON.stringify([{ voice: 'zzz qqq', rate: 0.9 }]), `a text without a recording: heard ${heard()}`);
     win.heard.length = 0;
     audio.speak(t1, { slow: true });
     await sleep(150);
     expect(heard() === JSON.stringify([{ file: f1, rate: 0.75 }]), `slow mode: heard ${heard()}`);
+
+    // The speed set in Settings: recordings and the device voice follow it, and 🐢 plays at three quarters of it.
+    const S = await mod('store.js');
+    const play = async (opts) => { audio.speak(t1, opts); await sleep(150); };
+    S.setSetting('speed', 0.8);
+    win.heard.length = 0;
+    await play();
+    await play({ slow: true });
+    win.audioTiming.fail = true;
+    await play();
+    await play({ slow: true });
+    win.audioTiming.fail = false;
+    const want = [{ file: f1, rate: 0.8 }, { file: f1, rate: 0.6 }, { voice: t1, rate: 0.72 }, { voice: t1, rate: 0.48 }];
+    expect(heard() === JSON.stringify(want), `at 0.8×: heard ${heard()}, expected ${JSON.stringify(want)}`);
+    S.setSetting('speed', 0.5);
+    win.heard.length = 0;
+    await play({ slow: true });
+    expect(heard() === JSON.stringify([{ file: f1, rate: 0.5 }]), `🐢 at 0.5×: heard ${heard()}, expected 0.5× (never slower)`);
+    S.setSetting('speed', 'fast');
+    win.heard.length = 0;
+    await play();
+    expect(heard() === JSON.stringify([{ file: f1 }]), `a damaged speed: heard ${heard()}, expected 1×`);
+    S.setSetting('speed', 1);
   });
 
   await scenario('The word list: search, learned words, cards, keyboard', async (expect) => {
@@ -765,10 +789,12 @@ async function main() {
       perDay.dispatchEvent(new win.Event('change'));
       expect(S.settings().newPerDay === want, `goal ${JSON.stringify(v)} saved as ${S.settings().newPerDay}, expected ${want}`);
     }
-    const rate = doc.querySelector('#view input[type=range]');
-    rate.value = '1.1';
-    rate.dispatchEvent(new win.Event('input'));
-    expect(S.settings().rate === 1.1 && viewText().includes('1.1×'), 'speed not saved or not shown');
+    const speed = doc.querySelector('#view input[type=range]');
+    expect(speed.value === '1' && viewText().includes('Speed 1×'), `the speed starts at ${speed.value}`);
+    expect(!viewText().includes('Device voice'), 'the device voice list is shown, though every text has a recording');
+    speed.value = '0.8';
+    speed.dispatchEvent(new win.Event('input'));
+    expect(S.settings().speed === 0.8 && viewText().includes('Speed 0.8×'), 'speed not saved or not shown');
     doc.getElementById('ipa').click();
     expect(S.settings().showIpa === false, 'IPA setting not saved');
     await go(`#/lesson/${V1.id}/words`);
@@ -787,7 +813,7 @@ async function main() {
     win.heard.length = 0;
     button('🔊 Test the voice').click();
     await sleep(80);
-    expect(win.heard.length === 1, `the voice test played ${heard()}`);
+    expect(win.heard.length === 1 && win.heard[0].file && win.heard[0].rate === 0.8, `the voice test played ${heard()}, expected its recording at 0.8×`);
 
     // backup: download, then load a changed copy (theme dark, an extra card)
     let href = null;
@@ -841,9 +867,9 @@ async function main() {
     const [SA, SB] = [await mod('store.js'), await mod('store.js', winB)];
     SB.putCard('w:from-tab-b', { due: 0, ivl: 1, ease: 2.5, reps: 1, lapses: 0, last: 0 });
     await sleep(100);
-    SA.setSetting('rate', 1);
+    SA.setSetting('speed', 1.2);
     const saved = JSON.parse(localStorage.getItem(TEST_KEY));
-    expect(saved.cards['w:from-tab-b'] && saved.settings.rate === 1, 'one tab overwrote the other’s progress');
+    expect(saved.cards['w:from-tab-b'] && saved.settings.speed === 1.2, 'one tab overwrote the other’s progress');
     other.remove();
   });
 

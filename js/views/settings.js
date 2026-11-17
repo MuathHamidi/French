@@ -1,7 +1,7 @@
-// Settings: daily goal, voice, display, backup and reported problems.
+// Settings: daily goal, speed and voice, display, backup and reported problems.
 import { h, toast, todayKey } from '../util.js';
 import * as store from '../store.js';
-import { frenchVoices, voiceInfo, speak, audioCredit } from '../audio.js';
+import { frenchVoices, voiceInfo, playbackSpeed, speak, audioCredit } from '../audio.js';
 
 export function applyTheme() {
   const t = store.settings().theme;
@@ -19,15 +19,15 @@ export function renderSettings(view) {
   const perDay = h('input', { type: 'number', min: '5', max: '100', step: '5', value: s.newPerDay });
   perDay.onchange = () => store.setSetting('newPerDay', Math.max(5, Math.min(100, Number(perDay.value) || 30)));
 
-  const voices = frenchVoices();
-  const voice = h('select', {}, h('option', { value: '' }, 'Automatic (best available)'),
-    voices.map((v) => h('option', { value: v.name, selected: v.name === s.voice }, `${v.name} (${v.lang})`)));
-  voice.onchange = () => store.setSetting('voice', voice.value);
+  // The device voice only stands in for a missing or failed recording, so its list shows only when none are installed.
   const info = voiceInfo();
+  const voice = info.recorded ? null : h('select', {}, h('option', { value: '' }, 'Automatic (best available)'),
+    frenchVoices().map((v) => h('option', { value: v.name, selected: v.name === s.voice }, `${v.name} (${v.lang})`)));
+  if (voice) voice.onchange = () => store.setSetting('voice', voice.value);
 
-  const rate = h('input', { type: 'range', min: '0.5', max: '1.2', step: '0.05', value: s.rate });
-  const rateLbl = h('span', {}, `${s.rate}×`);
-  rate.oninput = () => { rateLbl.textContent = `${rate.value}×`; store.setSetting('rate', Number(rate.value)); };
+  const speed = h('input', { type: 'range', min: '0.5', max: '1.5', step: '0.05', value: playbackSpeed() });
+  const speedLbl = h('span', {}, `${playbackSpeed()}×`);
+  speed.oninput = () => { speedLbl.textContent = `${speed.value}×`; store.setSetting('speed', Number(speed.value)); };
 
   const ipa = h('input', { type: 'checkbox', checked: s.showIpa, id: 'ipa' });
   ipa.onchange = () => store.setSetting('showIpa', ipa.checked);
@@ -52,11 +52,11 @@ export function renderSettings(view) {
     h('section', { class: 'card' }, h('h2', {}, 'Daily goal'),
       field('New words per day', perDay, 'After a few weeks, each new word per day adds roughly 5–10 reviews per day. 30 a day fits about 1–1½ hours.')),
     h('section', { class: 'card' }, h('h2', {}, 'Pronunciation'),
-      info.recorded ? h('p', { class: 'small' }, `Natural-sounding audio (made with a neural voice) is installed for ${info.recorded} words and sentences. The device voice below is only used for anything without it.`)
+      info.recorded ? h('p', { class: 'small' }, `Natural-sounding audio (made with a neural voice) is installed for ${info.recorded} words and sentences. If one can't be played, the device's own French voice reads it.`)
         : info.robotic ? h('div', { class: 'note', style: 'margin:0 0 12px' },
           'This device only has a robotic French voice, so treat it as a rough guide. Phones usually have natural French voices.') : null,
-      field('Device voice', voice, info.name ? `Now using: ${info.name}` : 'No French voice found on this device.'),
-      field(h('span', {}, 'Device voice speed ', rateLbl), rate),
+      voice ? field('Device voice', voice, info.name ? `Now using: ${info.name}` : 'No French voice found on this device.') : null,
+      field(h('span', {}, 'Speed ', speedLbl), speed, 'For all the sound in the course. 🐢 Slow plays at three quarters of this speed.'),
       h('button', { class: 'btn', onclick: () => speak('Bonjour ! Je m’appelle Léa. Je suis française, et toi ?') }, '🔊 Test the voice'),
       audioCredit() ? h('p', { class: 'small muted', style: 'margin:12px 0 0' }, audioCredit()) : null),
     h('section', { class: 'card' }, h('h2', {}, 'Display'),

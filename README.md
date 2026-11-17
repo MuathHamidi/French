@@ -82,7 +82,7 @@ It also warns about quiz questions where a right answer could be marked wrong (t
 
 ## Pronunciation (natural audio)
 
-Every word and sentence has an MP3 in `audio/`, generated with [Piper](https://github.com/OHF-Voice/piper1-gpl), a neural text-to-speech engine that runs offline. `data/audio.json` maps each text to its file. Anything without a file falls back to the device's own French voice, which sounds natural on phones but robotic (eSpeak) on Linux.
+Every word and sentence has an MP3 in `audio/`, generated with [Piper](https://github.com/OHF-Voice/piper1-gpl), a neural text-to-speech engine that runs offline. `data/audio.json` maps each text to its file. Anything without a file falls back to the device's own French voice, which sounds natural on phones but robotic (eSpeak) on Linux. Both play at the speed set in *Settings*, and 🐢 at three quarters of it.
 
 After adding or changing lessons, regenerate the audio. Only new texts are synthesized, which takes about a minute for a whole unit:
 

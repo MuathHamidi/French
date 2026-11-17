@@ -7,7 +7,7 @@ const KEY = /[?&]test\b/.test(globalThis.location?.search || '') ? 'francais-app
 
 const DEFAULT_SETTINGS = {
   newPerDay: 30,     // new words per day (goal, not a hard limit)
-  rate: 0.9,         // speech speed
+  speed: 1,          // how fast all the sound plays, recordings and device voice (0.5–1.5); 🐢 plays at 3/4 of it
   voice: '',         // preferred speechSynthesis voice name ('' = automatic)
   showIpa: true,
   theme: 'auto',     // auto | light | dark

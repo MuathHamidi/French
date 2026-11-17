@@ -1,5 +1,5 @@
 // Pronunciation: plays a generated audio file (tools/make_audio.py) when one exists for the text,
-// otherwise falls back to the device's French text-to-speech voice.
+// otherwise falls back to the device's French text-to-speech voice. Both play at the speed set in Settings.
 import { settings } from './store.js';
 import { normKey } from './util.js';
 
@@ -56,6 +56,12 @@ export function voiceInfo() {
   };
 }
 
+// The speed set in Settings, between 0.5× and 1.5×; 1× when the saved value is damaged, which would stop the sound.
+export function playbackSpeed() {
+  const s = settings().speed;
+  return typeof s === 'number' && Number.isFinite(s) ? Math.min(1.5, Math.max(0.5, s)) : 1;
+}
+
 // The generated audio file for a text, or null when the device voice has to read it.
 export function audioFile(text) {
   const t = String(text).replace(/\s+/g, ' ').trim();
@@ -73,7 +79,8 @@ export function speak(text, { slow = false } = {}) {
     return new Promise((resolve) => {
       const a = new Audio(file);
       player = a;
-      a.playbackRate = slow ? 0.75 : 1;
+      // 🐢 plays at three quarters of the speed, but never below 0.5×, the slowest the setting offers.
+      a.playbackRate = Math.max(0.5, Math.round((slow ? 0.75 : 1) * playbackSpeed() * 100) / 100);
       a.onended = a.onpause = () => resolve();
       a.play().catch(() => {
         if (player === a) tts(t, slow).then(resolve); // the file failed: the device voice reads the text
@@ -91,7 +98,7 @@ function tts(text, slow) {
     const v = chosenVoice();
     if (v) u.voice = v;
     u.lang = v?.lang || 'fr-FR';
-    u.rate = slow ? 0.6 : settings().rate;
+    u.rate = (slow ? 0.6 : 0.9) * playbackSpeed(); // at 1×, a little under the device's own pace
     u.onend = u.onerror = () => resolve();
     speechSynthesis.speak(u);
   });
