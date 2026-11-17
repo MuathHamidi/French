@@ -3,7 +3,7 @@
 A personal French course that runs in the browser on a laptop or a phone. There is nothing to install and no account.
 
 - **Words by topic.** Each word has its gender, IPA, English meaning, a simple French definition and 3 examples.
-- **Clickable stories.** Point at or tap any word in a story to see its card; clicking also reads it aloud.
+- **Clickable stories.** Point at or tap any word in a story to see its card; clicking also reads it aloud. On a phone the card opens short at the bottom of the screen, the word you tapped stays in view above it, and *More* shows the definition and the example.
 - **Grammar lessons.** Every case has tables and common mistakes. The lesson's story highlights each case, and pointing at a highlight shows the rule.
 - **Quizzes.** Every word and every grammar case is tested, and wrong answers come back at the end. A quiz left halfway is saved, and its Quiz tab offers to resume it.
 - **Daily review (spaced repetition).** Learned words and rules come back after growing gaps, so they stick.

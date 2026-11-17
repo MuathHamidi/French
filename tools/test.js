@@ -6,8 +6,8 @@
 //    sample at computer width: no error, no raw markup, no "undefined" or "NaN", no broken link, nothing
 //    wider than the screen.
 // 2. Each feature once: quizzes (right, wrong, accents, "I don't know", the keyboard, an empty box, a held
-//    Enter, a quiz left halfway), listening questions, reviews over two days, word cards, stories read aloud,
-//    sound, the word list, settings and backups, two tabs at once.
+//    Enter, a quiz left halfway), listening questions, reviews over two days, word cards (on a phone too),
+//    stories read aloud, sound, the word list, settings and backups, two tabs at once.
 // 3. With ?full, every lesson's quiz is also completed.
 // ?only=word cards,sound runs only the tests whose names contain one of those words.
 // Sound is recorded instead of played, and the app's clock can be moved. Results show on the page and in
@@ -573,12 +573,90 @@ async function main() {
     key('Escape', doc);
     expect(popover().hidden, 'Escape did not close the card');
     w.click();
+    button('More', popover()).click(); // at phone width the report button waits behind « More »
     button('⚑ Report a problem', popover()).click();
     expect(toastText().includes('Reported problems'), `reporting gave: ${toastText()}`);
     const flags = (await mod('store.js')).flags();
     expect(flags.length === 1 && flags[0].word === w.dataset.id && flags[0].note === 'note from the test', `saved report: ${JSON.stringify(flags)}`);
     await go('#/learn');
     expect(popover().hidden, 'the card stayed open on another page');
+  });
+
+  await scenario('Word cards on a phone: the word tapped stays above the card, which opens short', async (expect) => {
+    await loadApp(); // 360 × 640: a small phone, where the card covers the bottom of the screen
+    // Scrolls happen at once, as with reduced motion: a smooth scroll can stall in a page in the background.
+    const realMedia = win.matchMedia.bind(win);
+    win.matchMedia = (q) => (q.includes('prefers-reduced-motion') ? { matches: true, media: q } : realMedia(q));
+    const card = () => popover().getBoundingClientRect();
+    const bar = () => doc.querySelector('.topbar').getBoundingClientRect().bottom;
+    const shown = (el) => !!el && el.getClientRects().length > 0;
+    const page = () => doc.documentElement.scrollHeight;
+    const lowOnScreen = (el) => win.scrollBy(0, el.getBoundingClientRect().bottom - (win.innerHeight - 70)); // just above the menu
+    const clear = (el, what) => {
+      const r = el.getBoundingClientRect();
+      expect(!popover().hidden && r.bottom <= card().top && r.top >= bar(),
+        `${what}: “${el.textContent.trim().slice(0, 30)}” is at ${Math.round(r.top)}–${Math.round(r.bottom)} px, the card from ${Math.round(card().top)} px`);
+    };
+
+    await go(`#/lesson/${V1.id}/story`);
+    const words = [...doc.querySelectorAll('#view .fr-text .w.new[data-id]')]; // this lesson's words: each has a definition
+    const w = words[Math.floor(words.length / 2)];
+    lowOnScreen(w);
+    let y = win.scrollY;
+    w.click();
+    expect(win.scrollY > y, 'the page did not scroll');
+    clear(w, 'a word tapped just above the menu');
+    const def = popover().querySelector('.def');
+    const short = popover().offsetHeight;
+    expect(short <= 260 && def && !shown(def), `the card opens ${short} px tall, the definition ${shown(def) ? 'shown' : 'hidden'}`);
+    button('More', popover()).click();
+    expect(shown(def) && popover().offsetHeight > short && findButton('Less', popover()), '« More » did not show the definition');
+    clear(w, 'after « More »');
+    y = win.scrollY;
+    doc.querySelector('#view h1').click();
+    expect(popover().hidden && win.scrollY === y, `closing the card scrolled the page from ${y} to ${win.scrollY} px`);
+    w.click();
+    expect(!shown(def) && findButton('More', popover()), 'the card opened again with its definition shown');
+    key('Escape', doc);
+
+    // a word high on the screen: the page stays where it is
+    win.scrollBy(0, words[0].getBoundingClientRect().top - bar() - 40);
+    y = win.scrollY;
+    words[0].click();
+    expect(win.scrollY === y, `a word high on the screen scrolled the page by ${win.scrollY - y} px`);
+    clear(words[0], 'a word high on the screen');
+    key('Escape', doc);
+
+    // the last word on the page gets room below it, until the next page
+    await go(`#/lesson/${V1.id}/words`);
+    const end = page();
+    const last = [...doc.querySelectorAll('#view .w[data-id]')].pop();
+    win.scrollTo(0, end);
+    last.click();
+    button('More', popover()).click(); // the card at its tallest
+    clear(last, 'the last word on the page');
+    expect(page() > end, 'no room was added under the page');
+    key('Escape', doc);
+    await go(`#/lesson/${V1.id}/story`);
+    await go(`#/lesson/${V1.id}/words`);
+    expect(page() === end, `the room under the page stayed: ${page()} px, was ${end} px`);
+
+    // a row of the word list
+    await go('#/words');
+    const row = doc.querySelectorAll('#view .word-row')[15];
+    lowOnScreen(row);
+    row.click();
+    clear(row, 'a row of the word list');
+    key('Escape', doc);
+
+    // at computer width the card shows everything at once, next to the word, and the page stays
+    await loadApp({ width: 1100 });
+    await go(`#/lesson/${V1.id}/story`);
+    const w2 = doc.querySelector('#view .fr-text .w.new[data-id]');
+    y = win.scrollY;
+    w2.click();
+    expect(shown(popover().querySelector('.def')) && !shown(findButton('More', popover())) && win.scrollY === y,
+      'at computer width the card hides its definition behind « More », or scrolls the page');
   });
 
   await scenario('Stories: translations, “Read it all”, Stop, leaving the page', async (expect) => {
