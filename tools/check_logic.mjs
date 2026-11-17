@@ -37,6 +37,7 @@ const util = await load('util.js');
 const srs = await load('srs.js');
 const store = await load('store.js');
 const { check } = await load('quiz.js');
+const { acceptedFor } = await load('quizgen.js');
 const KEY = 'francais-app-v1';
 
 let failures = 0, count = 0;
@@ -242,6 +243,56 @@ test('typed answers: a missing accent is "nearly", a wrong word is wrong', () =>
 test('multiple choice: only the right option', () => {
   const q = { options: ['un', 'une'], answers: ['une'] };
   eq([check(q, 'une'), check(q, 'un'), check(q, 'Une')], ['ok', 'no', 'no'], 'options');
+});
+
+// ---------- "Write it in French": what is accepted for a word (acceptedFor in js/quizgen.js) ----------
+const noun = (fr, g, more) => ({ fr, pos: 'noun', g, ...more });
+const adj = (fr, display) => ({ fr, pos: 'adj', display });
+const marks = (e, right, wrong = []) => {
+  const q = typed(acceptedFor(e));
+  const got = (list) => list.filter((a) => check(q, a) === 'ok');
+  eq(got(right), right, `${e.display || e.fr}: accepted`);
+  eq(got(wrong), [], `${e.display || e.fr}: accepted by mistake`);
+};
+test('a noun is right alone, with un / une and with le / la / l\', but not in the wrong gender', () => {
+  marks(noun('maison', 'f'), ['maison', 'la maison', 'une maison'], ['le maison', 'un maison']);
+  marks(noun('école', 'f'), ['école', "l'école", 'une école'], ['la école', 'un école']);
+  marks(noun('haricot', 'm', { hAsp: true }), ['le haricot', 'un haricot'], ["l'haricot"]);
+  marks(noun('parents', 'm', { pl: true, art: 'les' }), ['parents', 'les parents', 'des parents'], ['le parents', 'un parents']);
+  marks(noun('lundi', 'm', { art: '' }), ['lundi', 'un lundi'], ['le lundi']);
+  eq(acceptedFor(noun('maison', 'f'))[0], 'la maison', 'the answer shown is the word as its card shows it');
+});
+test('each form a card shows is right, with or without its article', () => {
+  const serveur = noun('serveur', 'm', { display: 'le serveur, la serveuse' });
+  marks(serveur, ['le serveur, la serveuse', 'serveur', 'le serveur', 'un serveur', 'serveuse', 'la serveuse', 'une serveuse'],
+    ['la serveur', 'une serveur', 'le serveuse', 'un serveuse']);
+  eq(acceptedFor(serveur)[0], 'le serveur, la serveuse', 'the answer shown');
+  marks(noun('infirmier', 'm', { display: "l'infirmier, l'infirmière" }),
+    ["l'infirmier", 'un infirmier', "l'infirmière", 'une infirmière', 'infirmière'], ['une infirmier', 'un infirmière']);
+  marks(noun('héros', 'm', { hAsp: true, display: "le héros, l'héroïne" }),
+    ['le héros', 'un héros', "l'héroïne", 'une héroïne'], ["l'héros", 'la héroïne', 'une héros']);
+  marks(noun('cheveu', 'm', { display: 'le cheveu, les cheveux' }), ['le cheveu', 'un cheveu', 'cheveux', 'les cheveux', 'des cheveux'], ['le cheveux']);
+  marks(noun('œil', 'm', { display: 'un œil, des yeux' }), ['œil', 'un œil', "l'œil", 'yeux', 'des yeux', 'les yeux'], ['une œil', 'le yeux']);
+  marks(noun('adolescent', 'm', { display: "l'adolescent(e)" }), ["l'adolescent", 'un adolescent', "l'adolescente", 'une adolescente'], ['une adolescent']);
+  marks(noun('danseur', 'm', { display: 'danseur, danseuse' }), ['danseur', 'le danseur', 'un danseur', 'danseuse', 'la danseuse', 'une danseuse'], ['la danseur']);
+  marks(noun('paroles', 'f', { display: 'les paroles' }), ['paroles', 'les paroles', 'des paroles'], ['la paroles']);
+  marks(noun('envie', 'f', { display: 'avoir envie de' }), ['avoir envie de', 'envie', "l'envie", 'une envie'], ['une avoir envie de', "l'avoir envie de"]);
+});
+test('a noun for a man or a woman is right in both genders', () => {
+  marks(noun('médecin', 'm', { both: true, display: 'le / la médecin', accept: ['docteur'] }),
+    ['le / la médecin', 'médecin', 'le médecin', 'la médecin', 'un médecin', 'une médecin', 'docteur'], ['le docteur']);
+  marks(noun('astronaute', 'm', { both: true, display: 'un / une astronaute' }), ["l'astronaute", 'un astronaute', 'une astronaute'], ['la astronaute']);
+  marks(noun('chef', 'm', { both: true }), ['chef', 'le chef', 'la chef', 'un chef', 'une chef']);
+  marks(noun('adulte', 'm', { both: true }), ["l'adulte", 'un adulte', 'une adulte'], ['la adulte']);
+  marks(noun('soprano', 'f', { both: true, display: 'le / la soprano' }), ['le soprano', 'la soprano', 'un soprano', 'une soprano']);
+});
+test('an adjective is right in the masculine or the feminine its card shows; a verb only as it is', () => {
+  marks(adj('chaud', 'chaud(e)'), ['chaud', 'chaude', 'chaud(e)'], ['chauds', 'chaudes']);
+  marks(adj('beau', 'beau, belle'), ['beau', 'belle', 'beau, belle'], ['beaux']);
+  marks(adj('cadet', 'cadet(te)'), ['cadet', 'cadette']);
+  marks(adj('rouge'), ['rouge'], ['rouges']);
+  marks({ fr: 'se lever', pos: 'verb' }, ['se lever'], ['lever']);
+  marks({ fr: 'prendre soin', pos: 'verb', display: 'prendre soin de' }, ['prendre soin', 'prendre soin de']);
 });
 
 // ---------- the offline copy (sw.js) ----------
