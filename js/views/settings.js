@@ -2,6 +2,7 @@
 import { h, toast, todayKey, plural } from '../util.js';
 import * as store from '../store.js';
 import { frenchVoices, voiceInfo, playbackSpeed, speak, audioCredit } from '../audio.js';
+import { lessonList, cardInCourse } from '../content.js';
 
 export function applyTheme() {
   const t = store.settings().theme;
@@ -62,6 +63,35 @@ export function renderSettings(view) {
     space.hidden = !space.textContent;
   });
 
+  const downloadProgress = () => {
+    download(store.exportJSON(), `francais-progress-${todayKey()}.json`);
+    store.markBackup();
+    backedUp.textContent = backupText();
+  };
+
+  // A reset can't be undone: it first says what it would delete, with the download at hand.
+  const startOver = h('div', {});
+  const closeReset = () => startOver.replaceChildren(h('button', { class: 'btn', type: 'button', onclick: openReset }, 'Reset all progress'));
+  function openReset() {
+    const copy = h('p', { class: 'small muted', style: 'margin:8px 0 0' },
+      `${backupText()} Download your progress first to keep a copy: you can load it back here or on another device.`);
+    const keep = h('button', { class: 'btn primary', type: 'button', onclick: () => { downloadProgress(); copy.textContent = backupText(); } }, '⬇ Download progress');
+    startOver.replaceChildren(
+      h('p', { style: 'margin:0' }, lossText()),
+      copy,
+      h('div', { class: 'row', style: 'margin-top:12px' },
+        keep,
+        h('button', { class: 'btn danger', type: 'button', onclick: () => {
+          store.resetAll();
+          applyTheme();
+          toast('All progress on this device was deleted.');
+          location.hash = '#/today';
+        } }, 'Delete everything'),
+        h('button', { class: 'btn', type: 'button', onclick: closeReset }, 'Cancel')));
+    keep.focus();
+  }
+  closeReset();
+
   const flags = store.flags();
   const flagText = flags.map((f) => `• ${f.text || f.word} (${f.word || 'unknown'}) ${f.page}${f.note ? ` — ${f.note}` : ''}`).join('\n');
 
@@ -83,11 +113,7 @@ export function renderSettings(view) {
     h('section', { class: 'card' }, h('h2', {}, 'Backup & other devices'),
       h('p', { class: 'small muted' }, 'Progress is saved in this browser only. To continue on another device, download it here and load it there.'),
       h('div', { class: 'row' },
-        h('button', { class: 'btn', onclick: () => {
-          download(store.exportJSON(), `francais-progress-${todayKey()}.json`);
-          store.markBackup();
-          backedUp.textContent = backupText();
-        } }, '⬇ Download progress'),
+        h('button', { class: 'btn', onclick: downloadProgress }, '⬇ Download progress'),
         h('button', { class: 'btn', onclick: () => file.click() }, '⬆ Load progress'), file),
       backedUp, space),
     h('section', { class: 'card' }, h('h2', {}, 'Reported problems'),
@@ -97,9 +123,23 @@ export function renderSettings(view) {
           h('button', { class: 'btn', onclick: () => navigator.clipboard?.writeText(flagText).then(() => toast('Copied.'), () => toast('Copy failed.')) }, 'Copy list'),
           h('button', { class: 'btn', onclick: () => { if (confirm('Clear the list?')) { store.clearFlags(); location.reload(); } } }, 'Clear')))
         : h('p', { class: 'small muted' }, 'Use “⚑ Report a problem” on any word card. Your reports collect here so they can be fixed.')),
-    h('section', { class: 'card' }, h('h2', {}, 'Start over'),
-      h('button', { class: 'btn', onclick: () => { if (confirm('Delete all progress on this device?')) { store.resetAll(); applyTheme(); location.hash = '#/today'; } } }, 'Reset all progress')),
+    h('section', { class: 'card' }, h('h2', {}, 'Start over'), startOver),
   );
+}
+
+// What a reset would delete.
+function lossText() {
+  const lessons = lessonList().filter((l) => store.lessonState(l.id)?.done).length;
+  const words = Object.keys(store.allCards()).filter((k) => k.startsWith('w:') && cardInCourse(k)).length;
+  const days = store.streak();
+  const parts = [
+    lessons && plural(lessons, 'lesson finished', 'lessons finished'),
+    words && plural(words, 'word learned', 'words learned'),
+    days && `your ${days}-day streak`,
+  ].filter(Boolean);
+  return parts.length
+    ? `This deletes all progress on this device: ${parts.join(', ')}, your settings and reported problems. It can't be undone.`
+    : 'There is no progress on this device yet. This puts back the default settings and clears the reported problems.';
 }
 
 function backupText() {
