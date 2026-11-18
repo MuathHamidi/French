@@ -2,8 +2,9 @@
 // Checks the app's own code against the course data (tools/validate.py checks the data itself):
 // - tokenizer: js/content.js links every word of every text the app shows to the same dictionary
 //   entry as tools/validate.py, whose rules it mirrors (compared text by text);
-// - quizzes: every question the app can generate is answerable (the right answer is accepted,
-//   options are distinct and include it) and every word in its prompt has a card;
+// - quizzes: every question the app can generate, in a lesson quiz or a review (a blank for each
+//   example), is answerable (the right answer is accepted and never asked for un or une, options are
+//   distinct and include it) and every word in its prompt has a card;
 // - audio: every text the app can read aloud has a generated file, so the device voice is never needed;
 // - display: text shown without the tokenizer (word cards, rules, tips, translations) has no raw markup.
 // Warnings don't fail the run: they point at quiz questions where a learner could be right but marked wrong.
@@ -40,8 +41,8 @@ globalThis.fetch = async (url) => {
 };
 const load = (file) => import(pathToFileURL(path.join(ROOT, 'js', file)).href);
 const { loadAll, lessons, entries, lessonList, tokenize, plain, displayForm } = await load('content.js');
-const { kindsFor, wordQuestion, poolFor, vocabQuiz, grammarQuestion, grammarQuiz } = await load('quizgen.js');
-const { check } = await load('quiz.js');
+const { kindsFor, reviewKinds, clozeExamples, wordQuestion, poolFor, vocabQuiz, grammarQuestion, grammarQuiz } = await load('quizgen.js');
+const { check, articleMissing } = await load('quiz.js');
 const { initAudio, audioFile } = await load('audio.js');
 await loadAll();
 await initAudio();
@@ -66,13 +67,16 @@ const warn = (kind, key, msg) => {
   warnings.get(kind).set(key, msg);
 };
 
-// Every question the app can ask about a lesson: each kind for each word, each grammar item.
+// Every question the app can ask about a lesson: each kind for each word, in the lesson quiz and in reviews
+// (a fill-in-the-blank for each example), each grammar item.
 function questionsFor(lesson) {
   if (lesson.type === 'vocab') {
     const pool = poolFor(lesson);
-    return lesson.words.flatMap((e) => kindsFor(e).map((kind) => ({
-      q: wordQuestion(e, kind, pool), where: `${lesson.id}/${e.id} (${kind})`, size: kind === 'gender' ? 2 : 4,
-    })));
+    return lesson.words.flatMap((e) => [...new Set([...kindsFor(e), ...reviewKinds(e)])].flatMap((kind) =>
+      (kind === 'cloze' ? clozeExamples(e).map((x, n) => n) : [null]).map((example) => ({
+        q: wordQuestion(e, kind, pool, { example }), size: kind === 'gender' ? 2 : 4,
+        where: `${lesson.id}/${e.id} (${kind}${example === null ? '' : ` ${example + 1}`})`,
+      }))));
   }
   return lesson.quiz.map((item, n) => ({ q: grammarQuestion(lesson, item), where: `${lesson.id} quiz ${n + 1}`, size: 2 }));
 }
@@ -148,7 +152,9 @@ for (const lesson of selected) {
     for (const a of q.answers) {
       const res = check(q, a);
       if (res !== 'ok') fail('quiz', where, `the right answer “${a}” is marked ${res === 'accent' ? 'as an accent mistake' : 'wrong'}`);
+      if (articleMissing(q, a)) fail('quiz', where, `the right answer “${a}” is asked for un or une`);
     }
+    if (q.bare && !articleMissing(q, q.bare[0])) fail('quiz', where, `the word alone, “${q.bare[0]}”, is not asked for un or une`);
     if (q.rich) {
       const missing = tokenize(q.prompt).filter((s) => s.w && !s.id).map((s) => s.text);
       if (missing.length) fail('quiz', where, `prompt words without a card: ${missing.join(', ')}`);
