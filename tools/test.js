@@ -7,7 +7,8 @@
 //    wider than the screen.
 // 2. Each feature once: quizzes (right, wrong, accents, "I don't know", the keyboard, an empty box, a held
 //    Enter, a quiz left halfway), listening questions, reviews over two days, word cards (on a phone too),
-//    stories read aloud, sound, the word list, settings and backups, two tabs at once.
+//    stories read aloud, sound, the word list, settings, backups and a reset, the bar for a new version (and
+//    for one the device has no room for), two tabs at once.
 // 3. With ?full, every lesson's quiz is also completed.
 // ?only=word cards,sound runs only the tests whose names contain one of those words.
 // Sound is recorded instead of played, and the app's clock can be moved. Results show on the page and in
@@ -899,11 +900,65 @@ async function main() {
     await go('#/settings');
     expect(!(await mod('store.js')).flags().length && viewText().includes('Use “⚑ Report a problem”'), 'the reports were not cleared');
 
-    button('Reset all progress').click();
-    await sleep(50);
+    // reset: it first says what it would delete and offers the download; Cancel keeps everything
     const S2 = await mod('store.js');
-    expect(!Object.keys(S2.allCards()).length && S2.settings().theme === 'auto' && !doc.documentElement.dataset.theme, 'reset left progress or the theme');
+    S2.putCard(`w:${V1.words[0]}`, { due: 0, ivl: 1, ease: 2.5, reps: 1, lapses: 0, last: 0 });
+    S2.finishLesson(V1.id, 100);
+    const startOver = () => [...doc.querySelectorAll('#view section')].find((s) => s.querySelector('h2')?.textContent === 'Start over');
+    button('Reset all progress').click();
+    expect(startOver().textContent.includes("This deletes all progress on this device: 1 lesson finished, 1 word learned, your 1-day streak, your settings and reported problems. It can't be undone."),
+      `the reset asks: ${startOver().textContent}`);
+    expect(doc.activeElement === button('⬇ Download progress', startOver()), `the reset does not offer the download first (focus on “${doc.activeElement?.textContent}”)`);
+    button('Cancel', startOver()).click();
+    expect(Object.keys(S2.allCards()).length === 2 && S2.lessonState(V1.id)?.done && findButton('Reset all progress', startOver()), 'Cancel did not keep the progress');
+    button('Reset all progress').click();
+    let copy = null;
+    const A2 = win.HTMLAnchorElement.prototype, click2 = A2.click;
+    A2.click = function () { if (this.hasAttribute('download')) copy = this.href; else click2.call(this); };
+    button('⬇ Download progress', startOver()).click();
+    A2.click = click2;
+    const kept = copy && JSON.parse(await (await win.fetch(copy)).text());
+    expect(kept?.cards?.[`w:${V1.words[0]}`] && kept.lessons?.[V1.id]?.done, 'the copy offered by the reset does not hold the progress');
+    expect(startOver().textContent.includes(`Last downloaded on ${today}.`), `the reset does not show the download: ${startOver().textContent}`);
+    button('Delete everything', startOver()).click();
+    await sleep(50);
+    expect(!Object.keys(S2.allCards()).length && !S2.lessonState(V1.id) && S2.settings().theme === 'auto' && !doc.documentElement.dataset.theme, 'reset left progress or the theme');
     expect(win.location.hash === '#/today' && stats().join() === '0,0,0', `after reset Today shows ${stats()}`);
+    expect(toastText() === 'All progress on this device was deleted.', `after reset the message is “${toastText()}”`);
+  });
+
+  await scenario('Updates: a new version to reload, and one the device has no room for', async (expect) => {
+    await loadApp();
+    if (!win.navigator.serviceWorker) return; // not a secure context (http from another device): the app can't hear sw.js
+    const bar = () => doc.querySelector('.update-bar');
+    const bars = () => doc.querySelectorAll('.update-bar').length;
+    const tell = (data, source = null) => win.navigator.serviceWorker.dispatchEvent(new win.MessageEvent('message', { data, source }));
+    // No room, with recordings to delete. The same message twice (the answer to the page's question and the end of the
+    // check) gives one bar; Make room asks sw.js to delete them, and the page reloads once it has.
+    const channel = new win.MessageChannel();
+    const asked = [];
+    channel.port2.onmessage = (m) => asked.push(m.data.type);
+    tell({ type: 'no-room', recordings: 2345 }, channel.port1);
+    tell({ type: 'no-room', recordings: 2345 }, channel.port1);
+    expect(bars() === 1 && bar().textContent === "The new version of the course couldn't be saved: this device is short of space."
+      + 'Make room deletes the 2,345 recordings saved for offline use. They download again when you play them.Make room', `${bars()} bars: ${bar()?.textContent}`);
+    expect(doc.documentElement.scrollWidth <= win.innerWidth, `the bar makes the page ${doc.documentElement.scrollWidth} px wide`);
+    button('Make room').click();
+    await until(() => asked.length, 'the request to make room', 2000);
+    expect(asked.join() === 'make-room' && bar()?.textContent === 'Making room…', `after Make room: asked ${asked}, the bar says “${bar()?.textContent}”`);
+    await reloadDuring(() => tell({ type: 'room-made' }));
+    expect(!bar(), 'the bar is still there after the reload');
+    // No recordings left to delete: free space, then Try again reloads.
+    tell({ type: 'no-room', recordings: 0 });
+    expect(bar()?.textContent.endsWith('Free some space on the device, then try again.Try again'), `the bar with no recordings: ${bar()?.textContent}`);
+    await reloadDuring(() => button('Try again').click());
+    expect(!bar(), 'the bar is still there after Try again');
+    // A new version saved meanwhile replaces the bar, and Reload opens it.
+    tell({ type: 'no-room', recordings: 0 });
+    tell({ type: 'new-version' });
+    expect(bars() === 1 && bar().textContent === 'A new version of the course is ready.Reload', `${bars()} bars: ${bar()?.textContent}`);
+    await reloadDuring(() => button('Reload').click());
+    expect(!bar(), 'the bar is still there after Reload');
   });
 
   await scenario('Two tabs open at once: neither overwrites the other', async (expect) => {

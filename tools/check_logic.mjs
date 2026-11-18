@@ -488,7 +488,7 @@ function makeServer() {
   return server;
 }
 
-// The Cache API, in memory.
+// The Cache API, in memory. While `full` is set, saving a file fails as on a device short of space.
 function makeStorage() {
   const caches = new Map(); // name -> Map(url -> { body, init })
   const key = (req) => new URL(typeof req === 'string' ? req : req.url, `${SITE}sw.js`).href;
@@ -496,14 +496,16 @@ function makeStorage() {
   const cache = (entries) => ({
     match: async (req) => answer(entries.get(key(req))),
     put: async (req, res) => {
+      if (storage.full) throw new DOMException('The quota has been exceeded.', 'QuotaExceededError');
       const init = { status: res.status, statusText: res.statusText, headers: [...res.headers] };
       entries.set(key(req), { body: await res.arrayBuffer(), init }); // fails, like the real one, if the body was read
     },
     keys: async () => [...entries.keys()].map((url) => ({ url })),
     delete: async (req) => entries.delete(key(req)),
   });
-  return {
+  const storage = {
     caches,
+    full: false,
     open: async (name) => cache(caches.get(name) || caches.set(name, new Map()).get(name)),
     keys: async () => [...caches.keys()],
     has: async (name) => caches.has(name),
@@ -516,11 +518,13 @@ function makeStorage() {
       return undefined;
     },
   };
+  return storage;
 }
 const setsIn = (storage) => [...storage.caches.keys()].filter((name) => name.startsWith('francais-set-'));
 
 // sw.js in a sandbox (a new one is a worker the browser stopped and started again). request() asks for a
-// file as a page does; settle() waits for the work the worker goes on with after answering.
+// file as a page does, message() sends it a page's message; settle() waits for the work the worker goes on
+// with after answering.
 function startWorker(storage, server, { networkWait = 100, every = 0, limit = 120000, keep = 60000 } = {}) {
   const source = swSource
     .replace(/const NETWORK_WAIT = \d+/, `const NETWORK_WAIT = ${networkWait}`)
@@ -554,6 +558,7 @@ function startWorker(storage, server, { networkWait = 100, every = 0, limit = 12
       });
       return answer ? Promise.resolve(answer) : server.fetch(SITE + file);
     },
+    message(page, data) { on.message({ data, source: page, waitUntil: (p) => { later.push(p); } }); },
     async settle() { while (later.length) await Promise.all(later.splice(0)); },
   };
 }
@@ -567,11 +572,14 @@ async function installed(v, options) {
   return { server, storage, worker };
 }
 
+// A page, as sw.js sees it: what it was sent, by type (messages) and whole (received).
+const makePage = (id) => ({ id, messages: [], received: [], postMessage(m) { this.messages.push(m.type); this.received.push(m); } });
+
 // Opens the app as a page does: the page, its files, then the lessons of the curriculum (`between` runs
 // after the page came). Resolves to the versions of the files it got, how long the page took to come, and
 // the page (with its messages).
 async function openApp(worker, id, { between } = {}) {
-  const page = { id, messages: [], postMessage(m) { this.messages.push(m.type); } };
+  const page = makePage(id);
   worker.pages.push(page); // already listed while it opens, the strictest case
   const start = Date.now();
   const html = await (await worker.request('', { page: id, navigate: true })).text();
@@ -656,6 +664,51 @@ await testAsync('sw.js: a new version with a file missing is not used', async ()
   const visit = await openApp(worker, 'p1');
   await worker.settle();
   eq([visit.versions, setsIn(storage).length, visit.page.messages], [['v1'], 1, []], 'files, versions saved, messages');
+});
+await testAsync('sw.js: a new version the device has no room for is reported, and saved once the learner makes room', async () => {
+  const { server, storage, worker } = await installed(1);
+  await (await storage.open('francais-audio')).put(`${SITE}audio/x.mp3`, new Response('audio/x.mp3 v1'));
+  server.publish(2);
+  storage.full = true;
+  const first = await openApp(worker, 'p1');
+  await worker.settle();
+  const noRoom = { type: 'no-room', recordings: 1 };
+  eq([first.versions, setsIn(storage).length, first.page.received], [['v1'], 1, [noRoom]], 'files, versions saved, messages');
+  // A page that opened as the check ended asks once it has started; "Make room" deletes the recordings.
+  const page = makePage('p2');
+  worker.message(page, { type: 'status' });
+  await worker.settle();
+  worker.message(page, { type: 'make-room' });
+  await worker.settle();
+  eq([page.received, storage.caches.has('francais-audio')], [[noRoom, { type: 'room-made' }], false], 'answers, recordings left');
+  // The page reloads, and that visit saves the new version; then no page is told there is no room.
+  storage.full = false;
+  const next = await openApp(worker, 'p3');
+  await worker.settle();
+  worker.message(next.page, { type: 'status' });
+  await worker.settle();
+  eq([next.versions, first.page.messages, next.page.messages], [['v2'], ['no-room', 'new-version'], []], 'files and messages after making room');
+});
+await testAsync('sw.js: with no recordings to delete, the pages are told so', async () => {
+  const { server, storage, worker } = await installed(1);
+  server.publish(2);
+  storage.full = true;
+  const visit = await openApp(worker, 'p1');
+  await worker.settle();
+  eq(visit.page.received, [{ type: 'no-room', recordings: 0 }], 'messages');
+});
+await testAsync('sw.js: a check that fails for the network says nothing about room', async () => {
+  const { server, storage, worker } = await installed(1);
+  server.publish(2);
+  storage.full = true;
+  await openApp(worker, 'p1');
+  await worker.settle();
+  server.offline = true; // the next check fails before saving anything
+  const visit = await openApp(worker, 'p2');
+  await worker.settle();
+  worker.message(visit.page, { type: 'status' });
+  await worker.settle();
+  eq([visit.versions, visit.page.messages], [['v1'], []], 'files and messages of the page opened offline');
 });
 await testAsync('sw.js: a check that hangs gives up, and the next visit checks again', async () => {
   const { server, worker } = await installed(1, { limit: 150 });

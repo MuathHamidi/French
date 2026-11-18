@@ -5,7 +5,9 @@
 // is saved beside it. The visit waits a few seconds for that; on a weak signal it opens on the saved set
 // instead, and the page offers a reload once the new set is saved. Offline, it opens on the saved set at
 // once. Recordings are saved apart, one by one as they are heard: they never change, since a changed
-// recording gets a new file name (tools/make_audio.py). tools/check_logic.mjs tests this file.
+// recording gets a new file name (tools/make_audio.py). When the device is too short of space to save a new
+// set, the pages are told, and a page can ask to delete the saved recordings to make room for it.
+// tools/check_logic.mjs tests this file.
 const SET = 'francais-set-'; // + the time the set was saved
 const AUDIO = 'francais-audio';
 const COMPLETE = 'set-complete'; // saved in a set after all its files: a set without it was cut short
@@ -27,6 +29,7 @@ const FILES = [
 let newest = null; // the newest complete set
 let checking = null; // the check under way: { result: the new set, or null (no change, or it failed), done }
 let checkedAt = 0;
+let noRoom = false; // the last check downloaded a new set, but the device was too short of space to save it
 let lastOpened = null; // the set of the page that opened last
 const pages = new Map(); // page (client id) -> { set, at }: the set each page runs on
 
@@ -104,9 +107,12 @@ async function fromSet(req, pageId) {
 
 // Compares the newest set with the server and saves a new set if anything changed.
 function check() {
-  const result = makeSet().then((set) => { checkedAt = Date.now(); return set; }, () => null);
+  const result = makeSet().then(
+    (set) => { checkedAt = Date.now(); noRoom = false; return set; },
+    (err) => { noRoom = err?.name === 'QuotaExceededError'; return null; }); // otherwise a download failed
   const done = result.then(async (set) => {
     checking = null;
+    if (noRoom) await tellNoRoom(await self.clients.matchAll({ type: 'window' }));
     if (!set) return;
     await sleep(0); // the pages that waited for this set take it first
     for (const page of await self.clients.matchAll({ type: 'window' })) {
@@ -116,8 +122,28 @@ function check() {
   checking = { result, done };
 }
 
+// Tells pages that a new set was found but didn't fit, and how many recordings "Make room" would delete.
+async function tellNoRoom(clients) {
+  const recordings = (await caches.has(AUDIO)) ? (await (await caches.open(AUDIO)).keys()).length : 0;
+  for (const page of clients) page.postMessage({ type: 'no-room', recordings });
+}
+
+self.addEventListener('message', (e) => {
+  const page = e.source;
+  if (e.data?.type === 'status') {
+    // A page that has just started asks whether a new set was left unsaved: it may have opened as the check
+    // ended, before it could be told. (While a check runs, its end tells every page.)
+    if (noRoom && !checking && page) e.waitUntil(tellNoRoom([page]));
+  } else if (e.data?.type === 'make-room') {
+    // The learner agreed to delete the recordings saved for offline use (they download again when played).
+    // The page then reloads, and that visit's check saves the new set.
+    e.waitUntil(caches.delete(AUDIO).catch(() => {}).then(() => page?.postMessage({ type: 'room-made' })));
+  }
+});
+
 // Downloads what changed since the newest set and saves a new, complete set. Resolves to its name, or to
-// null when nothing changed; fails when a file can't be downloaded, and the newest set stays in use.
+// null when nothing changed; fails when a file can't be downloaded or the set can't be saved (the device is
+// short of space), and the newest set stays in use.
 async function makeSet() {
   const base = newest;
   const abort = new AbortController();
