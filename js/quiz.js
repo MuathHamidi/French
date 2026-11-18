@@ -21,6 +21,18 @@ export function check(q, given) {
   return acc.some((x) => stripAccents(x) === stripAccents(a)) ? 'accent' : 'no';
 }
 
+// « Write it in French, with un or une »: the right word alone, or with l', les or des, which don't show the
+// gender, is not marked. The learner is asked for un or une instead (the text returned); otherwise null.
+export function articleMissing(q, given) {
+  if (!q.bare) return null;
+  const a = normAnswer(given);
+  if (/^(?:un|une|le|la) /.test(a)) return null;
+  const art = a.match(/^(?:l'|les |des )/)?.[0] || '';
+  const word = stripAccents(a.slice(art.length));
+  if (!q.bare.some((b) => stripAccents(normAnswer(b)) === word)) return null;
+  return art ? `${art.trim()} doesn't show if it's masculine or feminine: write un or une.` : 'Add un or une: is it masculine or feminine?';
+}
+
 let keyHandler = null;
 function onKey(fn) {
   if (keyHandler) document.removeEventListener('keydown', keyHandler);
@@ -39,9 +51,10 @@ function reveal(el) {
 
 // A quiz in progress as plain data, to save and resume later: each question once, the order they come in (a
 // missed question comes back at the end as the same question), the first answer to each, the questions sent
-// back already, and the next one to show.
+// back already, and the next one to show. When only the missed questions are retaken, the others aren't in
+// the queue: they keep their first answers.
 export function quizProgress(queue, first, retried, next) {
-  const questions = [...new Set(queue)];
+  const questions = [...new Set([...queue, ...first.keys()])];
   const n = new Map(questions.map((q, k) => [q, k]));
   return {
     questions, queue: queue.map((q) => n.get(q)), next,
@@ -90,6 +103,7 @@ export function runQuestions(root, questions, { onAnswer, onDone, onProgress, re
       if (answered) return;
       answered = true;
       const res = check(q, given);
+      note.hidden = true;
       if (!first.has(q)) { first.set(q, res); onAnswer?.(q, res); }
       if (res === 'no' && requeue && !retried.has(q)) { retried.add(q); queue.push(q); }
       onProgress?.(quizProgress(queue, first, retried, i + 1));
@@ -100,10 +114,13 @@ export function runQuestions(root, questions, { onAnswer, onDone, onProgress, re
       if (btn && res === 'no') btn.classList.add('wrong');
       card.querySelectorAll('input, .accents button, .check').forEach((el) => { el.disabled = true; });
       const msg = res === 'ok' ? 'Correct!' : res === 'accent' ? 'Correct — but check the accents:' : 'Not quite. The answer is:';
+      // A wrong grammar answer without a note of its own gets the rule of its case.
+      const rule = res === 'no' && !q.explain && q.rule;
       feedback.replaceChildren(h('div', { class: `feedback ${res === 'ok' ? 'ok' : res === 'accent' ? 'almost' : 'no'}` },
         h('b', {}, msg),
         res !== 'ok' || !q.options ? h('div', { class: 'expected' }, q.answers[0]) : null,
-        q.explain ? h('div', { class: 'small', style: 'color:var(--text);margin-top:4px' }, inline(q.explain)) : null),
+        q.explain ? h('div', { class: 'small', style: 'color:var(--text);margin-top:4px' }, inline(q.explain)) : null,
+        rule ? h('div', { class: 'small rule', style: 'color:var(--text);margin-top:6px' }, h('b', {}, rule.label), h('div', {}, inline(rule.text))) : null),
       h('button', { class: 'btn primary block', style: 'margin-top:12px', onclick: next }, i + 1 < queue.length ? 'Continue →' : 'Finish'));
       speak(q.say);
       const go = feedback.querySelector('.btn');
@@ -114,7 +131,15 @@ export function runQuestions(root, questions, { onAnswer, onDone, onProgress, re
     // A typed answer is checked only once something is typed: an empty box (spaces and punctuation don't count)
     // is never marked wrong. « I don't know » is there to give up on a question.
     let body, input;
-    const submitTyped = () => (normAnswer(input.value) ? submit(input.value) : input.focus());
+    const note = h('div', { class: 'note', role: 'status', hidden: true }); // asks for un or une (articleMissing)
+    const submitTyped = () => {
+      if (!normAnswer(input.value)) return input.focus();
+      const ask = articleMissing(q, input.value);
+      if (!ask) return submit(input.value);
+      note.textContent = ask;
+      note.hidden = false;
+      return input.focus();
+    };
     if (q.options) {
       body = h('div', { class: 'options' }, q.options.map((o, n) => h('button', {
         class: 'option', 'data-v': o, onclick: (e) => submit(o, e.currentTarget),
@@ -125,7 +150,7 @@ export function runQuestions(root, questions, { onAnswer, onDone, onProgress, re
         class: 'answer-input', type: 'text', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'false',
         lang: 'fr', placeholder: 'Type in French…', 'aria-label': 'Your answer',
       });
-      body = h('div', {}, input,
+      body = h('div', {}, input, note,
         h('div', { class: 'accents' }, ACCENTS.map((c) => h('button', {
           type: 'button', onclick: () => {
             const s = input.selectionStart ?? input.value.length;
@@ -221,16 +246,23 @@ function finish(body, lesson, first, restart) {
     store.finishLesson(lesson.id, score);
   }
   const missed = results.filter(([, r]) => r === 'no').map(([q]) => q);
+  const them = `the ${plural(missed.length, 'question', 'questions')} you missed`;
+  // Below the pass mark, the missed questions can be asked again on their own: the other answers are kept,
+  // and the score counts the new ones.
+  const retake = (state) => { body.replaceChildren(); restart(state); };
+  const missedOnly = () => ({ queue: missed.slice(), first: new Map(results.filter(([, r]) => r !== 'no')), retried: new Set(), i: 0 });
   const next = nextLesson();
   body.replaceChildren(h('div', { class: 'card', style: 'text-align:center' },
     h('div', { class: 'big-icon' }, passed ? '🎉' : '💪'),
     h('h2', { style: 'margin-top:8px' }, `${score}%`),
-    h('p', {}, passed ? `Lesson complete! These ${lesson.type === 'vocab' ? 'words' : 'rules'} are now in your daily reviews.` : `Almost — you need ${PASS}% to complete this lesson. Look back at the lesson, then try again.`),
+    h('p', {}, passed ? `Lesson complete! These ${lesson.type === 'vocab' ? 'words' : 'rules'} are now in your daily reviews.`
+      : `Almost — you need ${PASS}% to complete this lesson. Look back at the lesson, then retake ${them}.`),
     missed.length ? h('div', { style: 'text-align:left' }, h('h3', {}, 'To practise'),
       h('ul', {}, [...new Set(missed.map((q) => (q.wordId ? q.explain : q.say)))].map((a) => h('li', {}, a)))) : null,
     h('div', { class: 'stack', style: 'margin-top:12px' },
       passed && next ? h('a', { class: 'btn primary block', href: lessonHref(next) }, `Next lesson: ${next.title} →`) : null,
-      h('button', { class: `btn block ${passed ? '' : 'primary'}`, onclick: () => { body.replaceChildren(); restart(); } }, 'Retake the quiz'),
+      passed ? null : h('button', { class: 'btn primary block', onclick: () => retake(missedOnly()) }, `Retake ${them}`),
+      h('button', { class: 'btn block', onclick: () => retake() }, passed ? 'Retake the quiz' : 'Retake the whole quiz'),
       h('a', { class: 'btn block', href: '#/today' }, 'Back to Today'))));
 }
 

@@ -6,7 +6,8 @@
 //    sample at computer width: no error, no raw markup, no "undefined" or "NaN", no broken link, nothing
 //    wider than the screen.
 // 2. Each feature once: quizzes (right, wrong, accents, "I don't know", the keyboard, an empty box, a held
-//    Enter, a quiz left halfway), listening questions, reviews over two days, word cards (on a phone too),
+//    Enter, a quiz left halfway, a retake of the missed questions, the rule after a wrong grammar answer),
+//    listening questions, reviews over two days (a noun's gender asked with the word), word cards (on a phone too),
 //    stories read aloud, sound, the word list, settings, backups and a reset, the bar for a new version (and
 //    for one the device has no room for), two tabs at once.
 // 3. With ?full, every lesson's quiz is also completed.
@@ -384,19 +385,37 @@ async function main() {
     expect(viewText().includes(`${V1.words.length} / 30`), "today's new words are not counted");
   });
 
-  await scenario('Vocabulary quiz with mistakes: retries, a failed quiz, a retake', async (expect) => {
+  await scenario('Vocabulary quiz with mistakes: retries, a failed quiz, a retake of the missed questions', async (expect) => {
     await loadApp();
     setNow(DAY0);
     const log = await passLesson(V1, (q, retry, n) => (!retry && n % 3 === 0 ? 'wrong' : 'right'));
     expect(log.some((x) => x.retry), 'missed questions did not come back');
     expect(log.filter((x) => x.retry).every((x) => x.result === 'ok'), 'a retried question was answered right but not accepted');
-    expect(viewText().includes('Almost — you need 80%'), `summary: ${viewText().slice(0, 120)}`);
+    const missed = log.filter((x) => !x.retry && x.result === 'no').length;
+    const them = `the ${missed} ${missed === 1 ? 'question' : 'questions'} you missed`;
+    expect(viewText().includes(`Almost — you need 80% to complete this lesson. Look back at the lesson, then retake ${them}.`), `summary: ${viewText().slice(0, 160)}`);
     expect(viewText().includes('To practise'), 'the missed words are not listed');
+    expect(findButton('Retake the whole quiz'), 'no button to retake the whole quiz');
     const S = await mod('store.js');
     expect(!S.lessonState(V1.id) && !Object.keys(S.allCards()).length, 'a failed quiz saved progress');
-    button('Retake the quiz').click();
+    // Only the missed questions again, the other answers kept. Two of them, then the learner leaves and resumes.
+    button(`Retake ${them}`).click();
     await sleep(0);
-    expect(questionCard()?.quizItem, 'the retake did not start');
+    const counter = () => doc.querySelector('.quiz-top span')?.textContent;
+    expect(counter() === `1 / ${missed}`, `the retake starts at ${counter()}, expected 1 / ${missed}`);
+    let shown = 0;
+    await runQuiz(() => 'right', () => (++shown > 2 ? 'stop' : null));
+    await go('#/today');
+    await go(`#/lesson/${V1.id}/quiz`);
+    expect(viewText().includes(`You stopped at question 3 of ${missed}.`), `the quiz tab says “${viewText().slice(0, 240)}”`);
+    button('Resume the quiz').click();
+    await sleep(0);
+    const rest = await runQuiz();
+    expect(rest.length === missed - 2 && rest.every((x) => x.result === 'ok'), `the retake asked ${rest.length} more questions, expected ${missed - 2}`);
+    expect(viewText().includes('100%') && viewText().includes('Lesson complete!'), `after the retake: ${viewText().slice(0, 120)}`);
+    expect(S.lessonState(V1.id)?.done && S.lessonState(V1.id)?.best === 100, 'the lesson is not saved as done with 100% after the retake');
+    const inReviews = V1.words.filter((id) => S.getCard(`w:${id}`)).length;
+    expect(inReviews === V1.words.length, `${inReviews} of ${V1.words.length} words are in the reviews`);
   });
 
   await scenario('A quiz left halfway resumes where it stopped, also after a reload', async (expect) => {
@@ -520,6 +539,31 @@ async function main() {
     }
   });
 
+  await scenario('A wrong grammar answer shows the rule of its case; a right one, none', async (expect) => {
+    await loadApp();
+    setNow(DAY0);
+    await startQuiz(G1);
+    const shown = (r) => r.label + r.text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+    let wrong = null, right = null;
+    for (let n = 0; n < 40 && !right; n++) {
+      const card = questionCard();
+      const q = card.quizItem;
+      const now = !wrong && !q.explain ? 'wrong' : 'right'; // the first question without a note of its own
+      answer(card, q, now);
+      const rule = card.querySelector('.feedback .rule');
+      if (now === 'wrong') {
+        wrong = q;
+        expect(rule?.textContent === shown(q.rule), `after a wrong answer to “${q.prompt}” the rule shown is “${rule?.textContent}”, expected “${shown(q.rule)}”`);
+      } else if (wrong) {
+        right = q;
+        expect(!rule, `a right answer to “${q.prompt}” shows the rule`);
+      }
+      [...card.querySelectorAll('button')].find((b) => /^(Continue|Finish)/.test(b.textContent)).click();
+      await sleep(0);
+    }
+    expect(wrong && right, `${G1.id}: no question without a note of its own to answer wrong`);
+  });
+
   await scenario('Reviews over two days, the 60-card session and the streak', async (expect) => {
     await loadApp();
     setNow(DAY0);
@@ -534,6 +578,7 @@ async function main() {
     button('Start reviewing').click();
     const first = await runQuiz((q, retry, i) => (i === 0 ? 'wrong' : 'right'));
     expect(first.filter((x) => !x.retry).length === 60, `the session asked ${first.filter((x) => !x.retry).length} questions, expected 60`);
+    expect(!first.some((x) => x.q.kind === 'gender'), 'a review asked un or une on its own');
     expect(viewText().includes('59 / 60 right first time') && viewText().includes(`${n - 60} card`), `summary: ${viewText().slice(0, 140)}`);
     button('Keep reviewing').click();
     (await until(() => findButton('Start reviewing'), 'the next session')).click();
@@ -550,6 +595,38 @@ async function main() {
     expect(viewText().includes('All caught up for now.'), `summary: ${viewText().slice(0, 140)}`);
     await go('#/review');
     expect(viewText().includes('Nothing to review right now.') && viewText().includes('Next review'), `review page: ${viewText().slice(0, 140)}`);
+  });
+
+  await scenario('Reviews ask a noun’s gender with the word: the word alone is asked for un or une', async (expect) => {
+    await loadApp();
+    setNow(DAY0);
+    const C = await mod('content.js'), G = await mod('quizgen.js'), S = await mod('store.js');
+    const e = V1.words.map((id) => C.entries.get(id)).find((x) => G.reviewKinds(x).includes('article'));
+    S.putCard(`w:${e.id}`, { due: at(0, 9), ivl: 10, ease: 2.5, reps: 4, lapses: 0, last: at(-10, 9) }); // an older card, due
+    // The app's random numbers held still while the review picks its question, at a value that picks this one.
+    const random = win.Math.random;
+    const r = [0.05, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85, 0.95].find((x) => {
+      win.Math.random = () => x;
+      return G.reviewKind(e, { reps: 4 }) === 'article';
+    });
+    await go('#/review');
+    button('Start reviewing').click();
+    await sleep(0);
+    win.Math.random = random;
+    const card = questionCard(), q = card?.quizItem;
+    expect(r !== undefined && q?.kind === 'article', `the review asked “${card?.querySelector('.q-kind').textContent}”`);
+    expect(card.querySelector('.q-kind').textContent === 'Write it in French, with un or une' && q.prompt === e.en, `the question: ${card.textContent.slice(0, 120)}`);
+    const input = card.querySelector('input.answer-input');
+    input.value = e.fr;
+    card.querySelector('.check').click();
+    const note = card.querySelector('.note');
+    expect(!card.querySelector('.feedback') && !note.hidden && note.textContent === 'Add un or une: is it masculine or feminine?', `the word alone: “${note.hidden ? '' : note.textContent}”, ${card.querySelector('.feedback') ? 'marked' : 'not marked'}`);
+    expect(!input.disabled && doc.activeElement === input, 'the box is not open for the article');
+    input.value = q.answers[0];
+    key('Enter', input);
+    const fb = card.querySelector('.feedback');
+    expect(fb?.classList.contains('ok') && note.hidden, `with its article: “${fb?.textContent}”`);
+    expect(S.getCard(`w:${e.id}`).ivl > 10, `the card's gap stayed at ${S.getCard(`w:${e.id}`).ivl} days`);
   });
 
   await scenario('A review just before midnight: tomorrow’s cards are not “missed”', async (expect) => {

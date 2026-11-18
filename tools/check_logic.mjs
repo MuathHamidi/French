@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Tests the parts of the app that need no screen: the review schedule, dates (midnight, the nights the
 // clocks change), saved progress (saving, loading, backups, damaged data, a second tab), the streak and
-// the daily log, how typed answers are checked, saving and resuming a quiz left halfway, and the offline
-// copy (sw.js) against a simulated server.
+// the daily log, how typed answers are checked, the questions a review asks (a noun with un or une), the
+// sentences of fill-in-the-blanks, the rule of a grammar case, saving and resuming a quiz left halfway (or a
+// retake of its missed questions), and the offline copy (sw.js) against a simulated server.
 // tools/test.html tests the pages themselves.
 //
 // Run:  node tools/check_logic.mjs      (Node.js 22+; prints OK, or each failure and exits 1)
@@ -37,8 +38,8 @@ const load = (file) => import(pathToFileURL(path.join(ROOT, 'js', file)).href);
 const util = await load('util.js');
 const srs = await load('srs.js');
 const store = await load('store.js');
-const { check, quizProgress, resumeProgress } = await load('quiz.js');
-const { acceptedFor, wordQuestion } = await load('quizgen.js');
+const { check, articleMissing, quizProgress, resumeProgress } = await load('quiz.js');
+const { acceptedFor, wordQuestion, kindsFor, reviewKinds, reviewKind, grammarQuestion } = await load('quizgen.js');
 const { playbackSpeed } = await load('audio.js');
 const KEY = 'francais-app-v1';
 
@@ -359,6 +360,15 @@ test('a quiz in progress is saved as plain data and comes back the same', () => 
   ok(r.retried.size === 1 && r.retried.has(r.queue[1]), 'the question sent back already');
   eq(r.i, 3, 'the next question');
 });
+test('a retake of the missed questions is saved with the answers kept from the first round', () => {
+  const [a, b, c] = ['un', 'deux', 'trois'].map((w) => ({ prompt: w, answers: [w] }));
+  // b was missed: it is asked again on its own, while a and c keep their answers
+  const data = JSON.parse(JSON.stringify(quizProgress([b], new Map([[a, 'ok'], [c, 'accent']]), new Set(), 0)));
+  const r = resumeProgress(data);
+  eq(r.queue.map((q) => q.prompt), ['deux'], 'the questions asked again');
+  eq([...r.first].map(([q, res]) => [q.prompt, res]), [['un', 'ok'], ['trois', 'accent']], 'the answers kept');
+  eq(r.i, 0, 'the next question');
+});
 test('damaged quiz data is not resumed', () => {
   const good = quizProgress([{ prompt: 'un', answers: ['un'] }], new Map(), new Set(), 0);
   ok(resumeProgress(good), 'good data is resumed');
@@ -423,6 +433,61 @@ test('a fill-in-the-blank hides every copy of its word (tantôt… tantôt), and
     examples: [{ fr: 'Nina est **tantôt** sage, **tantôt** terrible.', en: 'Nina is good one minute, terrible the next.' }] };
   const q = wordQuestion(word, 'cloze', []);
   eq([q.prompt, q.answers, q.say], ['Nina est _____ sage, _____ terrible.', ['tantôt'], 'Nina est tantôt sage, tantôt terrible.'], 'the question');
+});
+test("a fill-in-the-blank uses each of the word's sentences, drawn at random", () => {
+  const word = { id: 'pain', fr: 'pain', pos: 'noun', g: 'm', en: 'bread', examples: [
+    { fr: 'Je mange du **pain**.', en: 'I eat bread.' },
+    { fr: 'Le **pain** est chaud.', en: 'The bread is warm.' },
+    { fr: 'Il achète deux **pains**.', en: 'He buys two loaves.' }] };
+  eq([0, 1, 2].map((n) => wordQuestion(word, 'cloze', [], { example: n }).answers[0]), ['pain', 'pain', 'pains'], 'each sentence by its number');
+  const seen = new Set();
+  for (let n = 0; n < 200; n++) seen.add(wordQuestion(word, 'cloze', []).prompt);
+  eq([...seen].sort(), ['Il achète deux _____.', 'Je mange du _____.', 'Le _____ est chaud.'], 'the sentences drawn in 200 questions');
+});
+
+// ---------- reviews: a noun's gender is asked with the word (reviewKind in js/quizgen.js) ----------
+const maison = noun('maison', 'f', { id: 'maison', en: 'house', examples: [{ fr: 'Ma **maison** est petite.', en: 'My house is small.' }] });
+test('reviews never ask un or une alone: a noun is written with un or une', () => {
+  ok(kindsFor(maison).includes('gender'), 'the lesson quiz still asks un or une');
+  eq(reviewKinds(maison), ['fr2en', 'listen', 'en2fr', 'cloze', 'article'], 'the kinds a review can ask');
+  for (const e of [noun('parents', 'm', { pl: true, art: 'les' }), noun('chef', 'm', { both: true }), noun('envie', 'f', { display: 'avoir envie de' })]) {
+    ok(!reviewKinds(e).includes('article'), `${e.fr}: no gender to ask, or a card that shows a phrase`);
+  }
+  const old = { reps: 4 }, young = { reps: 0 };
+  const draws = (card) => new Set(Array.from({ length: 300 }, () => reviewKind(maison, card)));
+  eq([...draws(old)].sort(), ['article', 'cloze', 'en2fr'], 'an older card: the word written');
+  ok(!draws(young).has('gender'), 'a young card: never un or une alone');
+});
+test('with un or une: the gender must be shown, and the word alone is asked for it, not marked', () => {
+  const q = wordQuestion(maison, 'article', []);
+  eq([q.label, q.prompt, q.hint, q.answers[0]], ['Write it in French, with un or une', 'house', 'noun', 'une maison'], 'the question');
+  eq(['une maison', 'la maison', 'Une  maison !', 'une maîson', 'un maison', 'le maison', 'une chaise'].map((a) => check(q, a)),
+    ['ok', 'ok', 'ok', 'accent', 'no', 'no', 'no'], 'answers with an article');
+  ok(articleMissing(q, 'maison')?.startsWith('Add un or une'), 'the word alone is asked for un or une');
+  ok(articleMissing(q, 'maîson'), 'also with an accent slip');
+  eq([articleMissing(q, 'une maison'), articleMissing(q, 'le maison'), articleMissing(q, 'chaise')], [null, null, null], 'anything else is marked');
+  const ecole = wordQuestion(noun('école', 'f', { id: 'ecole', en: 'school' }), 'article', []);
+  ok(articleMissing(ecole, "l'école")?.startsWith("l' doesn't show"), "l' doesn't show the gender");
+  eq(["une école", "l'école"].map((a) => check(ecole, a)), ['ok', 'no'], "une école, but not l'école");
+});
+test('with un or une: every form the card shows, and the other words its card accepts', () => {
+  const serveur = wordQuestion(noun('serveur', 'm', { id: 'serveur', en: 'waiter / waitress', display: 'le serveur, la serveuse' }), 'article', []);
+  eq(serveur.answers[0], 'un serveur, une serveuse', 'the answer shown');
+  eq(['un serveur', 'la serveuse', 'un serveur, une serveuse', 'un serveuse', 'la serveur'].map((a) => check(serveur, a)), ['ok', 'ok', 'ok', 'no', 'no'], 'serveur');
+  const frigo = wordQuestion(noun('réfrigérateur', 'm', { id: 'refrigerateur', en: 'fridge', accept: ['frigo'] }), 'article', []);
+  eq(['un frigo', 'le frigo', 'une frigo', 'un réfrigérateur'].map((a) => check(frigo, a)), ['ok', 'ok', 'no', 'ok'], 'a synonym takes the noun\'s gender');
+  ok(articleMissing(frigo, 'frigo'), 'the synonym alone is asked for un or une');
+  const ami = wordQuestion(noun('ami', 'm', { id: 'ami', en: 'friend', accept: ['amie', 'une amie', "l'amie"] }), 'article', []);
+  eq(['un ami', 'une amie', 'un amie'].map((a) => check(ami, a)), ['ok', 'ok', 'no'], 'a form whose article the list gives');
+});
+
+// ---------- grammar: a wrong answer shows the rule of its case ----------
+test('a grammar question carries the rule of its case, and its own note when it has one', () => {
+  const lesson = { id: 'u01-grammar', cases: [{ id: 'etre-je', label: 'je suis — I am', rule: '**je** + **suis**.' }] };
+  const q = grammarQuestion(lesson, { case: 'etre-je', type: 'type', q: 'Je ___ de Paris.', en: "I'm from Paris.", answer: 'suis' });
+  eq([q.rule, q.explain], [{ label: 'je suis — I am', text: '**je** + **suis**.' }, undefined], 'no note: the rule');
+  const why = grammarQuestion(lesson, { case: 'etre-je', type: 'type', q: 'Je ___ là.', answer: 'suis', why: 'With je, always suis.' });
+  eq(why.explain, 'With je, always suis.', 'its own note');
 });
 
 // ---------- the offline copy (sw.js) ----------

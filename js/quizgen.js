@@ -75,9 +75,8 @@ export function poolFor(lesson) {
   return own.length >= 6 ? own : own.concat(rest);
 }
 
-function clozeExample(e) {
-  return (e.examples || []).find((x) => /\*\*.+?\*\*/.test(x.fr));
-}
+// The examples a fill-in-the-blank can use: those with their word in bold (each word has three).
+export const clozeExamples = (e) => (e.examples || []).filter((x) => /\*\*.+?\*\*/.test(x.fr));
 
 // A definition that contains the word, or one of its forms, gives the answer away (« Comment ça va ? » in the
 // definition of comment): such a word gets no definition question.
@@ -91,13 +90,65 @@ export function givesAway(e) {
 export function kindsFor(e) {
   const k = ['fr2en', 'listen', 'en2fr'];
   if (e.def && !givesAway(e)) k.push('def2fr');
-  if (clozeExample(e)) k.push('cloze');
+  if (clozeExamples(e).length) k.push('cloze');
   // No un/une question for plural-only nouns, or for nouns used for a man or a woman (un / une journaliste).
   if (e.pos === 'noun' && e.g && e.art !== '' && !e.pl && !e.both) k.push('gender');
   return k;
 }
 
-export function wordQuestion(e, kind, pool) {
+// ---------- reviews ----------
+const RECOGNISE = ['fr2en', 'listen', 'def2fr'];
+const PRODUCE = ['en2fr', 'cloze', 'article'];
+
+// The kinds of question a review can ask about a word: those of the lesson quiz, except that the gender is
+// asked together with the word (« Write it in French, with un or une »). On its own, un or une is a coin flip
+// that would count as knowing the word. Not for a noun whose card shows a phrase (avoir envie de).
+export function reviewKinds(e) {
+  const head = () => shownForms(e).some((s) => s.match(ARTICLE)[2] === e.fr);
+  return kindsFor(e).flatMap((k) => (k !== 'gender' ? [k] : head() ? ['article'] : []));
+}
+
+// The question a review asks: young cards mostly recognise the word, older ones mostly write it.
+export function reviewKind(e, card) {
+  const kinds = reviewKinds(e);
+  const pref = card.reps < 2 && Math.random() < 0.6 ? RECOGNISE : PRODUCE;
+  const options = kinds.filter((k) => pref.includes(k));
+  return shuffle(options.length ? options : kinds)[0];
+}
+
+const GENDERED = /^(?:un|une|le|la) /; // l', les and des don't show the gender
+const ANY_ARTICLE = /^(?:l'|(?:le|la|les|un|une|des) )/;
+
+// What « with un or une » takes for a noun: each form with an article that shows its gender, and the
+// spellings and synonyms of `accept` with the noun's (un frigo, la télé) unless the list gives them theirs.
+function articleAnswers(e) {
+  const all = acceptedFor(e);
+  const out = all.filter((a) => GENDERED.test(a));
+  for (const a of e.accept || []) {
+    if (ANY_ARTICLE.test(a) || all.some((x) => x !== a && x.replace(ANY_ARTICLE, '') === a)) continue;
+    const the = article({ pos: 'noun', g: e.g, fr: a, hAsp: e.hAsp });
+    out.push(`${e.g === 'f' ? 'une' : 'un'} ${a}`, ...(GENDERED.test(`${the} `) ? [`${the} ${a}`] : []));
+  }
+  return out;
+}
+
+// Taught nouns with the same English: « face » is un visage and une figure. Asked for one with un or une,
+// the other is right too, since the hint can't tell them apart without giving the gender away.
+let byEnglish = null;
+function sameEnglish(e) {
+  if (!byEnglish) {
+    byEnglish = new Map();
+    for (const x of lessonList().flatMap((l) => l.words || [])) {
+      const k = x.en.trim().toLowerCase();
+      byEnglish.set(k, [...(byEnglish.get(k) || []), x]);
+    }
+  }
+  return (byEnglish.get(e.en.trim().toLowerCase()) || []).filter((x) => x.id !== e.id && reviewKinds(x).includes('article'));
+}
+
+// `example` picks the sentence of a fill-in-the-blank (its index in clozeExamples); otherwise it's drawn at random,
+// so that each word's three sentences all come up.
+export function wordQuestion(e, kind, pool, { example = null } = {}) {
   const base = { cardId: `w:${e.id}`, wordId: e.id, say: e.say || e.fr, explain: `${displayForm(e)} — ${e.en}` };
   const mc = (label, prompt, answer, key, extra = {}) => ({
     ...base, kind, label, prompt, answers: [answer],
@@ -111,8 +162,19 @@ export function wordQuestion(e, kind, pool) {
       ...base, kind, label: 'Masculine or feminine?', prompt: `${BLANK} ${e.fr}`, promptFr: true,
       options: ['un', 'une'], answers: [e.g === 'f' ? 'une' : 'un'], hint: e.en,
     };
+    case 'article': {
+      // The answer shown: un or une with each singular form the card shows (un serveur, une serveuse).
+      const own = articleAnswers(e);
+      const shown = [...new Set(nounAnswers(e, shownForms(e)).filter((a) => /^une? /.test(a)))].join(', ');
+      return {
+        ...base, kind, label: 'Write it in French, with un or une', prompt: e.en, hint: 'noun',
+        answers: [...new Set([shown, ...own, ...sameEnglish(e).flatMap(articleAnswers)])],
+        bare: [...new Set(acceptedFor(e).map((a) => a.replace(ANY_ARTICLE, '')))], // asked for un or une, not marked
+      };
+    }
     case 'cloze': {
-      const ex = clozeExample(e);
+      const list = clozeExamples(e);
+      const ex = list[example ?? Math.floor(Math.random() * list.length)];
       const target = ex.fr.match(/\*\*(.+?)\*\*/)[1];
       // Every bold copy is hidden (tantôt… tantôt, brique par brique): one left in sight would give the answer.
       return {
@@ -142,15 +204,18 @@ export function vocabQuiz(lesson) {
   return [...shuffle(recog), ...shuffle(gender), ...shuffle(prod)];
 }
 
+// `rule` is the rule of the question's case, shown after a wrong answer when the question has no `why` of its own.
 export function grammarQuestion(lesson, item) {
   const answers = [].concat(item.answer);
   const fr = item.lang !== 'en'; // some prompts are English instructions, e.g. "Which sentence is correct?"
+  const c = lesson.cases?.find((x) => x.id === item.case);
   return {
     cardId: `g:${lesson.id}:${item.case}`, kind: item.type === 'mc' ? 'mc' : 'type',
     label: item.label || (item.type === 'mc' ? 'Choose the right answer' : 'Type the missing word(s)'),
     prompt: item.q, promptFr: fr, rich: fr, hint: item.en,
     options: item.options ? shuffle(item.options) : null, answers,
-    explain: item.why, audio: !!(item.listen || item.say), autoplay: !!item.listen,
+    explain: item.why, rule: c?.rule ? { label: c.label, text: c.rule } : null,
+    audio: !!(item.listen || item.say), autoplay: !!item.listen,
     say: item.say || item.listen || (fr ? plain(item.q.replace(/_{3,}/, answers[0])) : answers[0]),
   };
 }

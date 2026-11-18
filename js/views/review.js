@@ -4,7 +4,7 @@ import { entries, lessons } from '../content.js';
 import * as store from '../store.js';
 import { schedule, AGAIN, HARD, GOOD } from '../srs.js';
 import { runQuestions } from '../quiz.js';
-import { wordQuestion, kindsFor, poolFor, grammarQuestion } from '../quizgen.js';
+import { wordQuestion, reviewKind, poolFor, grammarQuestion } from '../quizgen.js';
 import { wordLesson, cardInCourse } from '../content.js';
 
 const SESSION_MAX = 60;
@@ -12,20 +12,13 @@ const SESSION_MAX = 60;
 // Cards whose word or grammar case has left the course are skipped: there is no question to ask.
 const dueIds = (now) => store.dueCardIds(now).filter(cardInCourse);
 const courseCards = () => Object.entries(store.allCards()).filter(([id]) => cardInCourse(id)).map(([, c]) => c);
-const RECOGNISE = ['fr2en', 'listen', 'def2fr'];
-const PRODUCE = ['en2fr', 'cloze', 'gender'];
 
 function questionFor(cardId) {
   const card = store.getCard(cardId);
   if (cardId.startsWith('w:')) {
     const e = entries.get(cardId.slice(2));
     if (!e) return null;
-    const kinds = kindsFor(e);
-    // Young cards: mostly recognition. Older cards: mostly writing the word yourself.
-    const pref = card.reps < 2 && Math.random() < 0.6 ? RECOGNISE : PRODUCE;
-    const options = kinds.filter((k) => pref.includes(k));
-    const kind = shuffle(options.length ? options : kinds)[0];
-    return wordQuestion(e, kind, poolFor(lessons.get(wordLesson.get(e.id))));
+    return wordQuestion(e, reviewKind(e, card), poolFor(lessons.get(wordLesson.get(e.id))));
   }
   const [, lessonId, caseId] = cardId.split(':');
   const lesson = lessons.get(lessonId);
